@@ -5,19 +5,19 @@ Labs in Lab on Demand (LOD) are housed in a lab profile. The lab profile is wher
 ![Create lab profile](images/create-lab-profile.png)
 
 ## Table of Contents
-1. [Basic Information](#Basic-information)
-2. [Networks](#Networks)
-3. [Virtual Machines](#Virtual-machines)
-4. [Removable Media](#Removable-media)
-5. [Cloud](#Cloud)
-6. [Resources](#Resources)
-7. [Errata](#Errata)
-8. [Exam](#Exam)
-9. [Pre-instancing](#Pre-instancing)
-10. [Storage](#Storage)
-11. [Launch URLs](#Launch-urls)
-12. [Tags](#Tags)
-13. [Advanced](#Advanced)
+1. [Basic Information](#basic-information)
+2. [Networks](#networks)
+3. [Virtual Machines](#virtual-machines)
+4. [Removable Media](#removable-media)
+5. [Cloud](#cloud)
+6. [Resources](#resources)
+7. [Errata](#errata)
+8. [Exam](#exam)
+9. [Pre-instancing](#pre-instancing)
+10. [Storage](#storage)
+11. [Launch URLs](#launch-urls)
+12. [Tags](#tags)
+13. [Advanced](#advanced)
 
 ## Creating a Lab Profile
 
