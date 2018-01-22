@@ -25,6 +25,11 @@ Click **Create Lab Profile** on the Lab Profiles tile on the Site Administration
 
    ![Create lab profile](images/create-lab-profile-button.png)
 
+## Kirk Test
+
+1. ##### Custom CSS
+    CSS markup that will be included in the lab client, making it possible to control the styles of custom content that is added to the lab. This should just be the style definitions, including a style tag is not necessary. 
+
 ## Basic Information 
 
 1. **Number:** Numbers are used in the title of the lab profile. 
