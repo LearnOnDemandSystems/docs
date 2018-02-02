@@ -1,5 +1,8 @@
 # Learn on Demand Systems Documentation
 
+Test this link
+
+[Create a lab profile](lod-documentation/create-lab-profile.md)
 
 ### 1. LOD General 
 - Create a Lab Profile (coming soon)
