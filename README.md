@@ -7,7 +7,7 @@
 ### 2. Lab Author 
 
 
-- [Custom CSS](dillonreese/lod-docs/blob/integrated-documentation/custom-css-guide.md)
+- [Custom CSS](../../../../dillonreese/lod-docs/blob/integrated-documentation/custom-css-guide.md)
 - [GitHub Integration](../../../guides/blob/master/github-integration/github-integration.md "Learn on Demand Systems GitHub Integration Guide")
 
 - [IDL Studio](LearnOnDemandSystems/guides/blob/master/idl/idlv3.md "Learn on Demand Systems Integrated Digital Lab Authoring Guide")
