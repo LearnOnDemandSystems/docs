@@ -2,6 +2,12 @@
 
 Test this link
 
+++Copyable++
+
+```CSS
+CSS code here
+```
+
 [Create a lab profile](lod-documentation/create-lab-profile.md)
 
 ### 1. LOD General 
