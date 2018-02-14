@@ -21,14 +21,11 @@ Labs in Lab on Demand (LOD) are housed in a lab profile. The lab profile is wher
 
 ## Creating a Lab Profile
 
-Click **Create Lab Profile** on the Lab Profiles tile on the Site Administration page.
+Click **Create Lab Profile** on the Lab Profiles tile on the Site Administration page.![Create lab profile](images/create-lab-profile-button.png)
 
-   ![Create lab profile](images/create-lab-profile-button.png)
+## The following sections walk through each of the tabs located at the top of the Create Lab Profile page.
 
-## Kirk Test
-
-1. ##### Custom CSS
-    CSS markup that will be included in the lab client, making it possible to control the styles of custom content that is added to the lab. This should just be the style definitions, including a style tag is not necessary. 
+---
 
 ## Basic Information 
 
@@ -43,21 +40,21 @@ Click **Create Lab Profile** on the Lab Profiles tile on the Site Administration
 9. **Expected Duration:** The expected amount of time it will take a user to complete the lab.
 10. **Maximum Duration:** The maximum amount of time that a user can spend in the lab.
 11. **Language:** The language that the lab UI will be displayed in. This will not change the language displayed in the OS of any virtual machines used unless the virtual machine was configured to display a specific language.
-12. **Level:** 
-13. **Evaluation:**
-14. **Advertising Campaign:**
+12. **Level:** Sets the Level for the lab; this can be 100, 200, 300, or 400. 
+13. **Evaluation:** Click to add an Evaluation to the lab profile. The Evaluation must already be created to add it to the lab profile using this button.
 
-![Basic Information Tab](images/create-lab-profile-basic-information-tab-top.png)
+14. **Advertising Campaign:** Used to show introductory content while the lab is loading. This can be a video, powerpoint presentation or anthing accessible by a URL. 
 
 15. **Description:** Used to provide more information about the lab profile. 
 
 16. **Has IDL Content:** Check this box if the lab profile has IDL (Integrated Digital Lab) content.
+    - After this box is checked, another option will display, allowing you to select the version of IDL content. 
 
 17. **Introduction Content URL:** The content at this URL will be displayed in a dialog when the lab interface first opens. The content can either be an HTML page or an MP4 video file. The URL must use HTTPS.
 
-18. **Objective:**
+18. **Objective:** Used to provide specific information about the lab. It should include a summary of the lab instructions and a list of specific goals that the lab is intended to meet.
 
-19. **Scenario:**
+19. **Scenario:** Used to establish the context in which the lab tasks are performed or to provide more general background information.
 
 20. **Enabled:** Used to enable or disable the lab profile for use. If the lab is disabled, it will only be accessible to lab developers. 
 
@@ -66,8 +63,6 @@ Click **Create Lab Profile** on the Lab Profiles tile on the Site Administration
 22. **Owner Name:** The name of the owner of the lab profile. 
 
 23. **Owner E-mail:** The e-mail address of the owner of the lab profile. 
-
-![Basic information bottom](images/create-lab-profile-basic-information-tab-bottom.png)
 
 ## Networks
 
@@ -91,7 +86,6 @@ To use network features, such as external internet access or communication betwe
 
 5. **Development Only:** Used to make the network available to lab profile that are currently in development. 
 
-   ![Networks](images/create-lab-profile-networks.png)
 
 ## Virtual Machines
 
@@ -101,14 +95,12 @@ To use network features, such as external internet access or communication betwe
 
 3. **Has Virtual machine Pool:** A pool of unique virtual machine profiles can be created, to be issued to individual users. A single pool member will never be used by two different users simultaneously. This is useful for to ensure that a machine or set of machines is unique in the world at any given point in time. **If your virtual machine will be identical for all users, you do not need a pool.** It is important to note that you can only have as many concurrent users as you have pool members. This can greatly reduce the scalability of the lab, so ensure you create a sufficient pool depth to accommodate the peak number of anticipated concurrent users.
 
-   ![Virtual Machines](images/create-lab-profile-virtual-machines.png)
 
 ## Removable Media
 
 1. **Add Removable Media:** Click to add removable Media to the lab profile. The removable media must already be created to add it to the lab profile using this button.
 
 2. **Create Removable Media:** Click to create removable media. This will create removable media that can be used in the lab. Removable media types include Floppy and Optical.
-  ![Removable Media](images/create-lab-profile-removable-media.png)
 
 ## Cloud
 
@@ -126,17 +118,13 @@ To use network features, such as external internet access or communication betwe
    - lastName
    - tag (if included when launched via API)
 
-![Cloud](images/create-lab-profile-cloud.png)
-
 ## Resources
 
-1.**Add Resource:** Click to add resource. 
+1 .**Add Resource:** Click to add resource. 
 
-![Resources](images/create-lab-profile-resources.png)
+2.**Name:** This will be the display name of the resource.
 
-2. **Name:** This will be the display name of the resource.
-
-3. **Type:** Select the type of resource to add. Types of resources include:
+3.**Type:** Select the type of resource to add. Types of resources include:
    - External link
    - PDF document
    - Word document
@@ -152,15 +140,11 @@ To use network features, such as external internet access or communication betwe
 
 6. **Description:** Used to provide more detail about the resource.
 
-7. **Lab Manual:** 
-
-   ![Add Resources](images/create-lab-profile-add-resources.png)
+7. **Lab Manual:** Check this box to include a link to the lab manual on the Lab Profile page. 
 
 ## Errata
 
 The Errata is used to give a message to users working in the lab. The Errata appears in the lab environment, after the lab is launched. The Errata is displayed in a window, over the lab UI and virtual machines. This can be used to notify users of known issues in the lab, helpful tips or it can be used to provide any other information that the lab author wishes to provide. The Errata can be referenced by users at any time during the lab by clicking the Errata link. 
-
-![Errata](images/create-lab-profile-errata.png)
 
 ## Exam
 
@@ -184,11 +168,7 @@ The Errata is used to give a message to users working in the lab. The Errata app
    - Detailed
 6. **Add Page:** Click to add a page to the exam. Pages contain questions for the user to select answers.
 
-![Exam](images/create-lab-profile-exam-top.png)
-
 7. **Name:** Provide a name for the page (optional).
-
-![Add page](images/create-lab-profile-exam-questions-add-page.png)
 
 8. **Text:** Enter the text of the question.
 
@@ -207,8 +187,6 @@ The Errata is used to give a message to users working in the lab. The Errata app
 
 13. **Reference URL:** Provide a URL that users can reference to better understand the explanation of the answer to the question. 
 
-    ![Add Question](images/create-lab-profile-exam-questions-add-question.png)
-
 ## Pre-instancing
 
 Pre-instancing enables the lab environment to be prebuilt, prior to users launching the lab. This allows lab authors to schedule the lab environment to be built and ready when the user launches the lab. This greatly reduces the amount of time it takes for the user to get into the lab environment and begin learning.
@@ -216,15 +194,11 @@ Pre-instancing enables the lab environment to be prebuilt, prior to users launch
 1. **Enable Pre-instancing:** Check this box to enable pre-instancing on the lab profile. 
 2. **Add Schedule:** Click the add the schedule for pre-instancing. 
 
-![Pre-instancing](images/create-lab-profile-pre-instancing.png)
-
 ## Storage
 
 This section specifies where the files for the lab profile should be stored. 
 
 1. **Inherit storage settings from organization:** Checking this box enables the lab profile to inherit storage settings from the organization specified on the [Basic Information](#Basic-information) section.
-
-![Storage](images/create-lab-profile-storage.png)
 
 Unchecking **Inherit storage settings from organization** box will enable additional options.
 
@@ -234,8 +208,6 @@ Unchecking **Inherit storage settings from organization** box will enable additi
    - External - files are stored in an external system and are used by labs that require the IDL v2 Cloud Client.
    - US Central - located in Central United States
    - US East - located in Eastern United States
-
-![Datacenter Availability](images/create-lab-profile-storage-datacenter-availability.png)
 
 ## Launch URLs
 
@@ -251,8 +223,6 @@ Unchecking **Inherit storage settings from organization** box will enable additi
 
 1. **Add Tag:** Click to add a tag to the lab profile. The Tag must already be created to add it to the lab profile. 
 
-![Tags](images/create-lab-profile-tags.png)
-
 ## Advanced
 
 1. **Custom CSS:** CSS markup that will be included in the lab client, making it possible to control the styles of custom content that is added to the lab. This should just be the style definitions, including a style tag is not necessary. 
@@ -262,8 +232,6 @@ Unchecking **Inherit storage settings from organization** box will enable additi
 3. **End Redirect URL:** If this value is set, users will be redirected to the specified URL when the lab ends. This feature isn't used often, but can help a lab fit into an external workflow. 
 
    For more information on Custom CSS in Lab on Demand, see our guide here: [Custom CSS Guide](create-lab-profile-custom-css).
-
-   ![Custom CSS](images/create-lab-profile-custom-css.png)
 
 4. **Max Active Instance:** This sets the amount of concurrent labs that can be launched at a time. Setting to _Unlimited_ allows an unlimited amount of launches of this lab profile at a time. Entering a number limits the amount of concurrent labs to the number specified. Any labs that are attempted to be launched after the limit has been met, will be given an error message and will not be able to launch the lab until the number of labs launched is below the maximum amount.
 
@@ -297,15 +265,13 @@ Unchecking **Inherit storage settings from organization** box will enable additi
 
 15. **Custom Errata Label:** Custom label to be displayed on the [Errata](#Errata).
 
-16. **Enable Copy & Paste:** 
+16. **Enable Type Text:** Enables the lab to use Type Text. Type Text is used to input information into the lab environment with one click.  
 
 17. **Show Virtual machine Power Options:** Checking this box enables virtual machine power options to be available to users.
 
 18. **Require Hyper-V Enhanced Controller:** Checking this box requires the user to use the Hyper-V Enhanced controller to work in the lab. If this box is checked, users will not be able to use any other machine remote controllers. Note that the Hyper-V enhanced controller only allows one user to access the lab at a time. 
 
 19. **Enable Instance Link Sharing:** When enabled, the lab instance URLs can be shared between users. If a user copies the URL from their browser's URL bar, they can send it to another user, or open it in a different browser. Note that most virtual machines only allow one user to access them at a time. This setting does not bypass the connection limitations of virtual machines.
-
-![Advanced](images/create-lab-profile-add-advanced-middle.png)
 
 20. **Shared Class Environment:** Shared class environments allow multiple lab instances to be bound together with one or more shared networks and resources. A shared class environment consists of at least two different lab profiles, each serving a particular role. 
 
@@ -320,20 +286,18 @@ Unchecking **Inherit storage settings from organization** box will enable additi
     - **Allow User to Extend Time Remaining:** Allows the user to extend the time remaining in the lab environment. 
     - **Auto-Save incomplete Labs:** Enables the lab to automatically save incomplete labs after a specified amount of time has passed. 
 
-22. **Save/Cancel Labs When Last Console Sync Exceeds:** 
+22. **Save/Cancel Labs When Last Console Sync Exceeds:** Amount of time given between console syncs, before the lab will automatically cancel or save. 
 
-23. **Save/Cancel labs when last Activity Exceeds:** 
+23. **Save/Cancel labs when last Activity Exceeds:** Amount of time given of inactivity before the lab will automatically cancel or save.
 
-24. **Activity Required to Enable Auto-Save:** 
+24. **Activity Required to Enable Auto-Save:** Amount of active time in the lab given before the lab will automatically save.
 
-25. **Minimum Time Given to Saved Labs:** 
+25. **Minimum Time Given to Saved Labs:** Minimum amount of time that students will have on the lab timer, when they resume a lab. 
 
-26. **Maximum Allowed Snapshots:** 
+26. **Maximum Allowed Snapshots:** Maximum amount of snapshots that are allowed
 
 27. **Life Cycle Actions:** Actions can be defined to occur at certain points in the lab life cycle. For instance, an external service could be called when the lab builds, or send a notification to the user when the lab is resumed. 
 
 28. **Lab Host tags:** Lab host tags are used to specify which Lab Host(s) the lab profile will use when users launch the lab. The Lab Host tag must already be created to add it to the lab profile using this button.
-
-![Advanced Tab](images/create-lab-profile-add-advanced-bottom.png)
 
 [Back to top](#Create-lab-profile)
