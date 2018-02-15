@@ -5,7 +5,7 @@
     - Find Users
 
 + Cloud Services
-    - <a href="https://github.com/LearnOnDemandSystems/docs/blob/master/guides/cloud-slice/cloud-slice.md">Set up a Cloud Slice lab</a>
+    - <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/cloud-slice/cloud-slice.md">Set up a Cloud Slice lab</a>
     - Create a Cloud Subscription
     - Create a Cloud Subscription Pool
     
