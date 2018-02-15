@@ -5,35 +5,30 @@
     - Find Users
 
 + Cloud Services
-    - [Set up a Cloud Slice lab](https://github.com/LearnOnDemandSystems/docs/blob/master/guides/cloud-slice/cloud-slice.md)
+    - <a href="https://github.com/LearnOnDemandSystems/docs/blob/master/guides/cloud-slice/cloud-slice.md">Set up a Cloud Slice lab</a>
     - Create a Cloud Subscription
     - Create a Cloud Subscription Pool
     
 + Lab Instruction Authoring
-    - [IDL 1 Authoring Guide](https://github.com/LearnOnDemandSystems/docs/blob/master/guides/idl/idlv3.md)
-    - [IDL 2 Authoring Guide](https://github.com/LearnOnDemandSystems/guides/blob/master/idl2/idlv2-authoring-guide-and-best-practice.md)
-    - [Markdown Reference Guide](https://learnondemandsystems.github.io/guides/idl2/markdown-user-guide.html)
+    - <a href="https://github.com/LearnOnDemandSystems/guides/blob/master/idl/idlv3.md">IDL 1 Authoring Guide </a>
+    - <a href="https://github.com/LearnOnDemandSystems/guides/blob/master/idl2/idlv2-authoring-guide-and-best-practice.md">IDL 2 Authoring Guide</a>
+    - <a href="https://learnondemandsystems.github.io/guides/idl2/markdown-user-guide.html">Markdown Reference Guide</a>
     
-    Test this:
-    <a href="https://github.com/LearnOnDemandSystems/guides/blob/master/idl2/idlv2-authoring-guide-and-best-practice.md">same Page</a>
-    
-    =====
-   
 + Lab Developer
-    - [Custom CSS](https://github.com/LearnOnDemandSystems/docs/blob/master/lod-documentation/custom-css-guide.md)
-    - [GitHub Integration](https://github.com/LearnOnDemandSystems/guides/blob/master/lca/life-cycle-actions-guide.md)
-    - [Create a Lab Profile](https://github.com/LearnOnDemandSystems/docs/blob/master/lod-documentation/create-lab-profile.md)
+    - <a href="https://github.com/LearnOnDemandSystems/docs/blob/master/lod-documentation/custom-css-guide.md">Custom CSS</a>
+    - <a href="https://github.com/LearnOnDemandSystems/guides/blob/master/lca/life-cycle-actions-guide.md">GitHub Integration</a>
+    - <a href="https://github.com/LearnOnDemandSystems/docs/blob/master/lod-documentation/create-lab-profile.md">Create a Lab Profile</a>
     - Create a Lab Series
     - Create Removeable Media
     - Differencing Disks
     - Create a VM Profile
     - Clone an existing Lab Profile
-    - [Life Cycle Actions](https://github.com/LearnOnDemandSystems/guides/blob/master/lca/life-cycle-actions-guide.md)
-    - [Shared Labs (a.k.a. Cyber-Range)](https://github.com/LearnOnDemandSystems/guides/blob/master/sl/sharedlabs.md)
+    - <a href="https://github.com/LearnOnDemandSystems/guides/blob/master/lca/life-cycle-actions-guide.md">Life Cycle Actions</a>
+    - <a href="https://github.com/LearnOnDemandSystems/guides/blob/master/sl/sharedlabs.md">Shared Labs (a.k.a. Cyber-Range</a>
    
 + Exams and Testing
-  - [PBT (performance based testing)](https://github.com/LearnOnDemandSystems/guides/blob/master/pbt/lodpbtguide.md)
-  - [Lab on Demand edX integration](https://github.com/LearnOnDemandSystems/guides/blob/master/lti/lod-lti.md)
+  - (<a href="https://github.com/LearnOnDemandSystems/guides/blob/master/pbt/lodpbtguide.md">PBT (performance based testing</a>
+  - <a href="https://github.com/LearnOnDemandSystems/guides/blob/master/lti/lod-lti.md">Lab on Demand edX integration</a>
    
 
 
