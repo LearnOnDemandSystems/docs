@@ -13,16 +13,21 @@
     - [IDL 1 Authoring Guide](https://github.com/LearnOnDemandSystems/docs/blob/master/guides/idl/idlv3.md)
     - [IDL 2 Authoring Guide](https://github.com/LearnOnDemandSystems/guides/blob/master/idl2/idlv2-authoring-guide-and-best-practice.md)
     - [Markdown Reference Guide](https://learnondemandsystems.github.io/guides/idl2/markdown-user-guide.html)
+    
+    Test this:
+    <a href="https://github.com/LearnOnDemandSystems/guides/blob/master/idl2/idlv2-authoring-guide-and-best-practice.md">same Page</a>
+    
+    =====
    
 + Lab Developer
     - [Custom CSS](https://github.com/LearnOnDemandSystems/docs/blob/master/lod-documentation/custom-css-guide.md)
-    - [GitHub] Integration(https://github.com/LearnOnDemandSystems/guides/blob/master/lca/life-cycle-actions-guide.md)
-    - [Create a Lab Profile]()
+    - [GitHub Integration](https://github.com/LearnOnDemandSystems/guides/blob/master/lca/life-cycle-actions-guide.md)
+    - [Create a Lab Profile](https://github.com/LearnOnDemandSystems/docs/blob/master/lod-documentation/create-lab-profile.md)
     - Create a Lab Series
     - Create Removeable Media
     - Differencing Disks
     - Create a VM Profile
-    - Copy/Clone an existing Lab Profile
+    - Clone an existing Lab Profile
     - [Life Cycle Actions](https://github.com/LearnOnDemandSystems/guides/blob/master/lca/life-cycle-actions-guide.md)
     - [Shared Labs (a.k.a. Cyber-Range)](https://github.com/LearnOnDemandSystems/guides/blob/master/sl/sharedlabs.md)
    
