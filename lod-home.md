@@ -1,43 +1,35 @@
 # Learn on Demand Systems Documentation
 
-Test this link
++ LOD General
+    - Create a User
+    - Find Users
 
-++Copyable++
-
-```CSS
-CSS code here
-```
-
-[Create a lab profile](lod-documentation/create-lab-profile.md)
-
-### 1. LOD General 
-- Create a Lab Profile (coming soon)
-
-### 2. Lab Author 
-
-
-- [Custom CSS](../../../dillonreese/lod-docs/blob/integrated-documentation/custom-css-guide.md)
-- [GitHub Integration](../../guides/blob/master/github-integration/github-integration.md "Learn on Demand Systems GitHub Integration Guide")
-
-- [IDL Studio](../../guides/blob/master/idl/idlv3.md "Learn on Demand Systems Integrated Digital Lab Authoring Guide")
-- [IDL MD (Markdown)](../../guides/blob/master/idl2/markdown-user-guide.md "Markdown User Guide")
-- [Markdown quick reference](../../guides/blob/master/idl2/idl2-quick-reference-guide.md "Markdown quick reference")
-- [Life Cycle Actions](../../guides/blob/master/lca/life-cycle-actions-guide.md "Life Cycle Actions Guide")
-- [Integrating LOD into Open edX using LTI (learning tools inoperability)](../../guides/blob/master/lti/lod-lti.md "Embedding Lab on Demand content into edX courses")
-- [PBT (performance based testing)](../../guides/blob/master/pbt/lodpbtguide.md "Learn on Demand Systems Performance Based Testing Guide")
-- [Shared Labs (a.k.a Cyber-Range)](../../guides/blob/master/sl/sharedlabs.md "Shared Labs")
-
-### 3. Cloud Slice  
-
-- [Microsoft Azure LOD integration](../../guides/blob/master/cloud-slice/cloud-slice.md "Microsoft Azure Cloud Slice Guide")
-- Amazon Web Services LOD integration (coming soon)
-- Google Cloud Platform LOD integration (coming soon)
-
-
-### 
-
-
-
++ Cloud Services
+    - <a href="https://github.com/LearnOnDemandSystems/docs/blob/master/guides/cloud-slice/cloud-slice.md">Set up a Cloud Slice lab</a>
+    - Create a Cloud Subscription
+    - Create a Cloud Subscription Pool
+    
++ Lab Instruction Authoring
+    - <a href="https://github.com/LearnOnDemandSystems/guides/blob/master/idl/idlv3.md">IDL 1 Authoring Guide </a>
+    - <a href="https://github.com/LearnOnDemandSystems/guides/blob/master/idl2/idlv2-authoring-guide-and-best-practice.md">IDL 2 Authoring Guide</a>
+    - <a href="https://learnondemandsystems.github.io/guides/idl2/markdown-user-guide.html">Markdown Reference Guide</a>
+    
++ Lab Developer
+    - <a href="https://github.com/LearnOnDemandSystems/docs/blob/master/lod-documentation/custom-css-guide.md">Custom CSS</a>
+    - <a href="https://github.com/LearnOnDemandSystems/guides/blob/master/lca/life-cycle-actions-guide.md">GitHub Integration</a>
+    - <a href="https://github.com/LearnOnDemandSystems/docs/blob/master/lod-documentation/create-lab-profile.md">Create a Lab Profile</a>
+    - <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod-documentation/create-lab-series.md">Create a Lab Series</a>
+    - <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod-documentation/create-removeable-media.md">Create Removeable Media</a>
+    - <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod-documentation/diff-disk-and-start-states.md">Differencing Disks and Start States</a>
+    - <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod-documentation/create-vm-profile.md">Create a VM Profile</a>
+    - <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod-documentation/clone-lab-profile.md">Clone an existing Lab Profile</a>
+    - <a href="https://github.com/LearnOnDemandSystems/guides/blob/master/lca/life-cycle-actions-guide.md">Life Cycle Actions</a>
+    - <a href="https://github.com/LearnOnDemandSystems/guides/blob/master/sl/sharedlabs.md">Shared Labs (a.k.a. Cyber-Range</a>
+   
++ Exams and Testing
+  - (<a href="https://github.com/LearnOnDemandSystems/guides/blob/master/pbt/lodpbtguide.md">PBT (performance based testing</a>
+  - <a href="https://github.com/LearnOnDemandSystems/guides/blob/master/lti/lod-lti.md">Lab on Demand edX integration</a>
+   
 
 
 
