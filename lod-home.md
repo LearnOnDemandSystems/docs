@@ -1,12 +1,12 @@
 # Learn on Demand Systems Documentation
 
 + LOD General
-    - Create a User
+    - <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod-documentation/create-user.md">Create a User</a>
 
 + Cloud Services
     - <a href="https://github.com/LearnOnDemandSystems/docs/blob/master/guides/cloud-slice/cloud-slice.md">Set up a Cloud Slice lab</a>
-    - Create a Cloud Subscription
-    - Create a Cloud Subscription Pool
+    - <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod-documentation/create-cloud-subscription.md">Create a Cloud Subscription</a>
+    - <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod-documentation/create-cloud-subscription-pool.md">Create a Cloud Subscription Pool</a>
     
 + Lab Instruction Authoring
     - <a href="https://github.com/LearnOnDemandSystems/guides/blob/master/idl/idlv3.md">IDL 1 Authoring Guide </a>
