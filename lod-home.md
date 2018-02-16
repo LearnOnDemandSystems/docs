@@ -2,7 +2,6 @@
 
 + LOD General
     - Create a User
-    - Find Users
 
 + Cloud Services
     - <a href="https://github.com/LearnOnDemandSystems/docs/blob/master/guides/cloud-slice/cloud-slice.md">Set up a Cloud Slice lab</a>
