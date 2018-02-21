@@ -5,9 +5,7 @@
 
 + **Cloud Services**
     * <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/cloud-slice/cloud-slice.md">Set up a Cloud Slice lab</a>
-    
     * <a href="https://github.com/LearnOnDemandSystems/docs/blob/master/lod-home.md">Set up a Cloud Slice lab (NOT RAW)</a>
-    
     * <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod-documentation/create-cloud-subscription.md">Create a Cloud Subscription</a>
     * <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod-documentation/create-cloud-subscription-pool.md">Create a Cloud Subscription Pool</a>
     
@@ -16,7 +14,7 @@
     * <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/idl2/idlv2-authoring-guide-and-best-practice.md">IDL 2 Authoring Guide</a>
     * <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/idl2/markdown-user-guide.md">Markdown Reference Guide</a>
     
-+ ### Lab Developer
++ **Lab Developer**
     * <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod-documentation/custom-css-guide.md">Custom CSS</a>
     * <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/github-integration/github-integration.md">GitHub Integration</a>
     * <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod-documentation/create-lab-profile.md">Create a Lab Profile</a>
@@ -28,8 +26,6 @@
     * <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/lca/life-cycle-actions-guide.md">Life Cycle Actions</a>
     * <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/sl/sharedlabs.md">Shared Labs (a.k.a. Cyber-Range</a>
 
-+ ### Exams and Testing
++ **Exams and Testing**
     * (<a href="https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/pbt/lodpbtguide.md">PBT (performance based testing</a>
     * <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/lti/lod-lti.md">Lab on Demand edX integration</a>
-   
-+ ### Another one
