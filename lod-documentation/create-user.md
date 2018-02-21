@@ -4,6 +4,8 @@ Users log in to OneLearn Lab on Demand to launch, author and develop labs, as we
 
 ## Basic Information 
 
+1. From the Admin page, click **Create User** on the **Users** tile.
+
 1. **Upload Image** (optional): Upload an image to use as the user profile picture.
 
 1. **First Name**: The first name of the user.
