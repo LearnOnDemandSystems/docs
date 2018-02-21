@@ -1,9 +1,9 @@
 # Learn on Demand Systems Documentation
 
-+ ### LOD General
++ **LOD General**
     * [Create a user](/lod-documentation/create-user.md)
 
-+ ### Cloud Services
++ **Cloud Services**
     * <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/cloud-slice/cloud-slice.md">Set up a Cloud Slice lab</a>
     
     * <a href="https://github.com/LearnOnDemandSystems/docs/blob/master/lod-home.md">Set up a Cloud Slice lab (NOT RAW)</a>
@@ -11,7 +11,7 @@
     * <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod-documentation/create-cloud-subscription.md">Create a Cloud Subscription</a>
     * <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod-documentation/create-cloud-subscription-pool.md">Create a Cloud Subscription Pool</a>
     
-+ ### Lab Instruction Authoring
++ **Lab Instruction Authoring**
     * <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/idl/idlv3.md">IDL 1 Authoring Guide </a>
     * <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/idl2/idlv2-authoring-guide-and-best-practice.md">IDL 2 Authoring Guide</a>
     * <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/idl2/markdown-user-guide.md">Markdown Reference Guide</a>
