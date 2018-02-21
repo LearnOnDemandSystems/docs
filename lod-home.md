@@ -27,5 +27,5 @@
     * <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/sl/sharedlabs.md">Shared Labs (a.k.a. Cyber-Range</a>
 
 + **Exams and Testing**
-    * (<a href="https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/pbt/lodpbtguide.md">PBT (performance based testing</a>
+    * <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/pbt/lodpbtguide.md">PBT (performance based testing)</a>
     * <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/lti/lod-lti.md">Lab on Demand edX integration</a>
