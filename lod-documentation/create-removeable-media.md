@@ -1,4 +1,4 @@
-# Removeable Media
+# Create Removeable Media
 
 Removeable Media is used in lab environments, to supplement lab instrucitons. Removeable Media is used in the form of DVDs, or Floppy disks.
 
