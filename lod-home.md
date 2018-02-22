@@ -1,7 +1,7 @@
 # Learn on Demand Systems Documentation
 
 + **LOD General**
-    * [Create a user](/lod-documentation/create-user.md)
+    * [Create a user](lod-documentation/create-user.md)
 
 + **Cloud Services**
     * <a href="https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/cloud-slice/cloud-slice.md">Set up a Cloud Slice lab</a>
