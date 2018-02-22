@@ -1,1 +1,1 @@
-# Clone a Lab Profile
+# Clone an existing Lab Profile
