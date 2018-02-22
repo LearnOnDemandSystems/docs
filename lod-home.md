@@ -5,7 +5,6 @@
 
 + **Cloud Services**
     * [Set up a Cloud Slice lab](https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/cloud-slice/cloud-slice.md)
-    * [Set up a Cloud Slice lab (TEST - NOT RAW)](https://github.com/LearnOnDemandSystems/guides/blob/master/cloud-slice/cloud-slice.md)
     * [Create a Cloud Subscription](lod-documentation/create-cloud-subscription.md)
     * [Create a Cloud Subscription Pool](lod-documentation/create-cloud-subscription-pool.md)
     
@@ -20,7 +19,8 @@
     * [Create a Lab Profile](lod-documentation/create-lab-profile.md)
     * [Create a Lab Series](lod-documentation/create-lab-series.md)
     * [Create Removeable Media](lod-documentation/create-removeable-media.md)
-    * [Differencing Disks and Start States](lod-documentation/diff-disk-and-start-states.md)
+    * [Differencing Disks](lod-documentation/differencing-disks.md)
+    * [Start States](lod-documentation/start-states.md)
     * [Create a VM Profile](lod-documentation/create-vm-profile.md)
     * [Clone an existing Lab Profile](lod-documentation/clone-lab-profile.md)
     * [Life Cycle Actions](https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/lca/life-cycle-actions-guide.md)

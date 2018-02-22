@@ -12,15 +12,15 @@ JSON is configured using two structures:
 
     - An **Array** begins with [ (left square bracket) and ends with ] (right square bracket). Values are separated by , (comma). 
 
-For example, completing one lab will result in earning an Achievement when using the following JSON Condition: ```[{"Subject":0,"Count":1}]```.
+For example, launching one lab will result in earning an Achievement when using the following JSON Condition: ```[{"Subject":0,"Count":1}]```.
 
-In this Condition, ```"Subject":0``` is referring to completing a lab, and ```"Count":1``` is referring to how many times the lab must be completed, to earn the achievement. Subject and Count are the {name:value}, and they are wrapped in square brackets to make it an Array. It is neccessary to make the condition an Array, omitting the square brackets will result in the Achievement not functioning as intended. 
+In this Condition, ```"Subject":0``` is referring to launching a lab, and ```"Count":1``` is referring to how many times the lab must be launched, to earn the achievement. Subject and Count are the {name:value}, and they are wrapped in square brackets to make it an Array. Omitting the square brackets will result in the Achievement not functioning as intended. 
 
 >Conditions can have more than two items inside of the object and do not have to be an even number. 
 
-For example, to earn an Achievement for ```[{"Subject":0,"Count":3,"SingleDay":true}]```, the user must complete three labs in one day.
+For example, to earn an Achievement for ```[{"Subject":0,"Count":3,"SingleDay":true}]```, the user must launch three labs in one day.
 
-In this Condition, ```"Subject":0``` is referring to completing a lab, and ```"Count":3``` is referring to how many times the lab must be completed, and ```"SingleDay":true``` is referring to when the labs need to be completed, to earn the Achievement. 
+In this Condition, ```"Subject":0``` is referring to launching a lab, and ```"Count":3``` is referring to how many times the lab must be launched, and ```"SingleDay":true``` is referring to when the labs need to be launched, to earn the Achievement. 
 
 ## The following can be used to configure JSON Conditions in TMS. 
 
