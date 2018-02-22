@@ -6,6 +6,8 @@ he lab profile is where the settings are configured for the lab. These settings 
 
 To create a Lab series, click **Create Lab Series** on the Lab Series tile, on the Site Administration page.
 
+![Create a Lab Series](images/create-lab-series.png)
+
 ## Basic Informaiton 
 
 **Name**: This is the display name of the Lab Series
@@ -16,11 +18,11 @@ To create a Lab series, click **Create Lab Series** on the Lab Series tile, on t
 
 **Advertising Campaign**: Select and Advertising Campaign, to use at the beginning of labs in the Lab Series.The Advertising Campaign must already be created to add it to the Lab Series using this button.
 
-**Vendor**:
+**Vendor**: This is used for an organization to create a Lab Series for another organization to use. Enter the name of the organization that will have access to use the Lab Series.
 
-**Vendor Part #**:
+**Vendor Part #**: This is used for an organization to create a Lab Series for another organization, for a specific use, such as certifation preparation, etc. Enter the description or name of the specific use in this field. 
 
-**# of Training Days**:
+**# of Training Days**: The expected number of days for end users to use any of the lab profiles within the lab series. This does not restrict users from using labs after the expected number of days, it is used to determine resources consumption of the labs.
 
 **Enabled**: Check this box to enable the Lab Series. If this box is left unchecked, the Lab Series will not be available to users.
 

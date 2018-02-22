@@ -4,6 +4,10 @@ Removeable Media is used in lab environments, to supplement lab instrucitons. Re
 
 To create removeable media, click **Create Removeable Media** on the Removeable Media tile, on the Site Administration page.
 
+![Create Removeable Media](images/create-removeable-media.png)
+
+## Basic Information
+
 **Name**: This is the display name of the Removeable Media. It is helpful to name media with unique names, in the event that multiple removeable media items are used in the same lab.
 
 **Description**: If there are multiples of the same media type used in a lab, it is helpful to provide a detailed description, to be able to tell which removeable media to use.
