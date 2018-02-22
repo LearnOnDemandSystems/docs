@@ -48,30 +48,30 @@ To Create a Virtual Machine Profile, click **Create Virtual Machine Profile** fr
 
 ## Hard Disks
 
-**Add Hard Disk**:
+1. **Add Hard Disk**:
 
 ## Network Adapters
 
-**Add Network Adapter**:
+1. **Add Network Adapter**:
 
 ## SCSI Adapters
 
-**Add SCSI Adapter**:
+1. **Add SCSI Adapter**:
 
 ## DVD-ROM Drives
 
-**DVD-ROM 1**
+1. **DVD-ROM 1**
     - **Channel**: Primary 1, Primary 0, Secondary 1, Secondary 0
 
 ## Advanced
 
-**BIOS GUID**:
+1. **BIOS GUID**:
 
-**Allow Disk Updates In Lab Console**:
+2. **Allow Disk Updates In Lab Console**:
 
-**Connect via Remote Desktop Connection (external to lab console)**: 
+3. **Connect via Remote Desktop Connection (external to lab console)**: 
 
 ## Internal Notes
 
-**Add Internal Notes**: 
+1. **Add Internal Notes**: 
 
