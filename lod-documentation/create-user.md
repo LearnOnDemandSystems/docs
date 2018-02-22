@@ -1,4 +1,4 @@
-# Create a User 
+# Create a User Profile
 
 Users log in to OneLearn Lab on Demand to launch, author and develop labs, as well as other components that are used to create a lab. 
 

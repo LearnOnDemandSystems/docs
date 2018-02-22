@@ -1,4 +1,4 @@
-# TMS Achievement Conditions
+# Achievements
 
 Achievement Conditions are structured using JSON format. 
 
