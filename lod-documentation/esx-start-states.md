@@ -10,7 +10,7 @@ This method can enable start states in VMware ESX, but it also comes with some l
 
 - May not work with all virtual machines
 
-- Does not work with VMs that have nested virtualization enabled.
+- Does not work with virtual machines that have nested virtualization enabled.
 
 This method may not work every time and Learn on Demand Systems is unable to support this method. However, it may still be used in labs. 
 
