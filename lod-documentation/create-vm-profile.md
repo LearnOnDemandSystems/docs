@@ -61,26 +61,17 @@ To Create a Virtual Machine Profile, click **Create Virtual Machine Profile** fr
 ## DVD-ROM Drives
 
 1. **DVD-ROM 1**
-<<<<<<< HEAD
-    - **Channel**: Primary 1, Primary 0, Secondary 1, Secondary 0
-=======
 
-- Channel: Primary 1, Primary 0, Secondary 1, Secondary 0
->>>>>>> 545cd60c1347cfa27dcf7d45a9f073a9bf60b410
+    - **Channel**: Primary 1, Primary 0, Secondary 1, Secondary 0
 
 ## Advanced
 
 1. **BIOS GUID**:
 
-<<<<<<< HEAD
-2. **Allow Disk Updates In Lab Console**:
-
-3. **Connect via Remote Desktop Connection (external to lab console)**: 
-=======
 1. **Allow Disk Updates In Lab Console**:
 
 1. **Connect via Remote Desktop Connection (external to lab console)**: 
->>>>>>> 545cd60c1347cfa27dcf7d45a9f073a9bf60b410
+
 
 ## Internal Notes
 
