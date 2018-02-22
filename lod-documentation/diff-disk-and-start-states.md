@@ -1,1 +1,0 @@
-# Diferrencing Disks
