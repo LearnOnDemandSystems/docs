@@ -5,7 +5,8 @@ WMware ESX does not support creating or importing a virtual machine from a saved
 Lab on Demand can use memory file swapping to enable start states on new VMware ESX virtual machines. The memory file of a running virtual machine is captured and stored when a lab author chooses to capture the start state in a lab. When a new lab is launched, LOD builds a fresh virtual machine, saves it, and then swaps the memory file on the virtual machine with the memory file stored. Then the virtual machine is resumed with the save state in place. 
 
 This method can enable start states in VMware ESX, but it also comes with some limitations. 
-- May take extended time to complete
+
+- May take extended time to launch 
 
 - May not work with all virtual machines
 
