@@ -1,43 +1,31 @@
 # Learn on Demand Systems Documentation
 
-Test this link
++ **LOD General**
+    * [Create a user](lod-documentation/create-user.md)
 
-++Copyable++
++ **Cloud Services**
+    * [Set up a Cloud Slice lab](https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/cloud-slice/cloud-slice.md)
+    * [Set up a Cloud Slice lab (TEST - NOT RAW)](https://github.com/LearnOnDemandSystems/guides/blob/master/cloud-slice/cloud-slice.md)
+    * [Create a Cloud Subscription](lod-documentation/create-cloud-subscription.md)
+    * [Create a Cloud Subscription Pool](lod-documentation/create-cloud-subscription-pool.md)
+    
++ **Lab Instruction Authoring**
+    * [IDL 1 Authoring Guide](https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/idl/idlv3.md)
+    * [IDL 2 Authoring Guide](https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/idl2/idlv2-authoring-guide-and-best-practice.md)
+    * [Markdown Reference Guide](https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/idl2/markdown-user-guide.md)
+    
++ **Lab Developer**
+    * [Custom CSS](lod-documentation/custom-css-guide.md)
+    * [GitHub Integration](https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/github-integration/github-integration.md)
+    * [Create a Lab Profile](lod-documentation/create-lab-profile.md)
+    * [Create a Lab Series](lod-documentation/create-lab-series.md)
+    * [Create Removeable Media](lod-documentation/create-removeable-media.md)
+    * [Differencing Disks and Start States](lod-documentation/diff-disk-and-start-states.md)
+    * [Create a VM Profile](lod-documentation/create-vm-profile.md)
+    * [Clone an existing Lab Profile](lod-documentation/clone-lab-profile.md)
+    * [Life Cycle Actions](https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/lca/life-cycle-actions-guide.md)
+    * [Shared Labs (a.k.a. Cyber-Range)](https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/sl/sharedlabs.md)
 
-```CSS
-CSS code here
-```
-
-[Create a lab profile](lod-documentation/create-lab-profile.md)
-
-### 1. LOD General 
-- Create a Lab Profile (coming soon)
-
-### 2. Lab Author 
-
-
-- [Custom CSS](../../../dillonreese/lod-docs/blob/integrated-documentation/custom-css-guide.md)
-- [GitHub Integration](../../guides/blob/master/github-integration/github-integration.md "Learn on Demand Systems GitHub Integration Guide")
-
-- [IDL Studio](../../guides/blob/master/idl/idlv3.md "Learn on Demand Systems Integrated Digital Lab Authoring Guide")
-- [IDL MD (Markdown)](../../guides/blob/master/idl2/markdown-user-guide.md "Markdown User Guide")
-- [Markdown quick reference](../../guides/blob/master/idl2/idl2-quick-reference-guide.md "Markdown quick reference")
-- [Life Cycle Actions](../../guides/blob/master/lca/life-cycle-actions-guide.md "Life Cycle Actions Guide")
-- [Integrating LOD into Open edX using LTI (learning tools inoperability)](../../guides/blob/master/lti/lod-lti.md "Embedding Lab on Demand content into edX courses")
-- [PBT (performance based testing)](../../guides/blob/master/pbt/lodpbtguide.md "Learn on Demand Systems Performance Based Testing Guide")
-- [Shared Labs (a.k.a Cyber-Range)](../../guides/blob/master/sl/sharedlabs.md "Shared Labs")
-
-### 3. Cloud Slice  
-
-- [Microsoft Azure LOD integration](../../guides/blob/master/cloud-slice/cloud-slice.md "Microsoft Azure Cloud Slice Guide")
-- Amazon Web Services LOD integration (coming soon)
-- Google Cloud Platform LOD integration (coming soon)
-
-
-### 
-
-
-
-
-
-
++ **Exams and Testing**
+    * [Performance Based Testing (PBT)](https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/pbt/lodpbtguide.md)
+    * [Lab on Demand edX Integration](https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/lti/lod-lti.md)

@@ -21,3 +21,4 @@ To create removeable media, click **Create Removeable Media** on the Removeable 
 **Path**: **Microsoft** (Hyper-V) or **VMWare vSphere** (ESXi)
 
 _We don't recommend sharing removable media profiles between vendor platforms. However, if you need this removable media to be available to both Microsoft-based and VMware-based platforms, you will need to ensure that the file resides in the same relative location for both vendors._
+

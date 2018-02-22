@@ -23,7 +23,7 @@ Labs in Lab on Demand (LOD) are housed in a lab profile. The lab profile is wher
 
 Click **Create Lab Profile** on the from the Lab on Demand Administration page. ![Create lab profile](images/create-lab-profile-button.png)
 
-## The following sections walk through each of the tabs located at the top of the Create Lab Profile page.
+### The following sections walk through each of the tabs located at the top of the Create Lab Profile page.
 
 ---
 

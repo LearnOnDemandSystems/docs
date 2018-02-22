@@ -25,3 +25,4 @@ Load balancing evenly distributes Cloud Slices across subscriptions in a Cloud S
 1. **Block lab launches when no subscriptions are available**: This checkbox determines if lab launches should be blocked if no subscriptions are available.
 
 1. **Custom subscription unavailable message**: This message will be presented to users if they try to launch a lab and a subscription is unavailable. If this field is blank, the default message will be used.
+
