@@ -61,7 +61,8 @@ To Create a Virtual Machine Profile, click **Create Virtual Machine Profile** fr
 ## DVD-ROM Drives
 
 **DVD-ROM 1**
-    - **Channel**: Primary 1, Primary 0, Secondary 1, Secondary 0
+
+- Channel: Primary 1, Primary 0, Secondary 1, Secondary 0
 
 ## Advanced
 
