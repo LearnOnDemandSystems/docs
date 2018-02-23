@@ -13,7 +13,7 @@
 | **bold** | `**bold**` or `__bold__` |
 | *Italic* | `*italic*` or `_italic_` |
 | ~~Strikethrough~~ | `~~strikethrough~~` |
-| Escape character | `\escaped text\` |
+| Escape character | `\escaped character` |
 | Bullet | `-` |
 |<BR>                                      | |
 |<font size="3">**Links**</font>| |
