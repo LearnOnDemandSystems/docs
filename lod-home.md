@@ -1,4 +1,6 @@
-# Learn on Demand Systems Documentation
+# Lab on Demand Documentation
+
+Welcome to the Lab on Demand documentation, @lab.UserFirstName!
 
 + **LOD General**
     * [Create a user](lod-documentation/create-user.md)
