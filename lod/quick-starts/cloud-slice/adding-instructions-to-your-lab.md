@@ -12,11 +12,13 @@
 
 Now that you have created a Cloud Sliced lab and enabled cloud orchestration, it is time to add some lab instructions. 
 
-You must the check out the lab instructions before you can edit them. Checking out the IDL v2 lab instructions ensures that only one person at a time can make changes to the content.
+1. Navigate to the lab profile page for your Cloud Slice lab. (you may be there already)
 
-1. To check out the instructions for a lab, navigate to the lab profile page, and then **click Check Out**.
+1. **click Check Out** to check out the instructions for your lab.
 
 ![Check out Lab Profile](images/check-out-lab-profile.png)
+
+>[KKNOWLEDGE] You must the check out the lab instructions before you can edit them. Checking out the IDL v2 lab instructions ensures that only one person at a time can make changes to the content.
 
 Once you have checked out the lab instructions for editing, you are now ready to edit your lab instructions in the idl-md editor. 
 
