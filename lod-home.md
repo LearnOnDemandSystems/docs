@@ -4,6 +4,8 @@ Welcome to the Lab on Demand platform, @lab.UserFirstName!
 
 If you're new to the Lab on Demand platform, you should probably get started with one of our Quick Start guides. Quick Start guides will allow you to fast track your learning experience, by helping you get up and running with working labs as quickly as possible.
 
+[Cloud Slice Quick Start Guide](lod/quick-starts/cloud-slice/three-step-guide-to-first-cloud-slice-lab.md)
+
 + **LOD General**
     * [Create a user](lod/create-user.md)
 
