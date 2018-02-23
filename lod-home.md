@@ -3,12 +3,12 @@
 Welcome to the Lab on Demand documentation, @lab.UserFirstName!
 
 + **LOD General**
-    * [Create a user](lod-documentation/create-user.md)
+    * [Create a user](lod/create-user.md)
 
 + **Cloud Services**
     * [Set up a Cloud Slice lab](guides/cloud-slice/cloud-slice.md)
-    * [Create a Cloud Subscription](lod-documentation/create-cloud-subscription.md)
-    * [Create a Cloud Subscription Pool](lod-documentation/create-cloud-subscription-pool.md)
+    * [Create a Cloud Subscription](lod/create-cloud-subscription.md)
+    * [Create a Cloud Subscription Pool](lod/create-cloud-subscription-pool.md)
     
 + **Lab Instruction Authoring**
     * [IDL 1 Authoring Guide](guides/idl/idlv3.md)
@@ -16,11 +16,11 @@ Welcome to the Lab on Demand documentation, @lab.UserFirstName!
     * [Markdown Reference Guide](guides/idl2/markdown-user-guide.md)
     
 + **Lab Developer**
-    * [Custom CSS](lod-documentation/custom-css-guide.md)
+    * [Custom CSS](lod/custom-css-guide.md)
     * [GitHub Integration](guides/github-integration/github-integration.md)
-    * [Create a Lab Profile](lod-documentation/create-lab-profile.md)
-    * [Create a Lab Series](lod-documentation/create-lab-series.md)
-    * [Create Removeable Media](lod-documentation/create-removeable-media.md)
+    * [Create a Lab Profile](lod/create-lab-profile.md)
+    * [Create a Lab Series](lod/create-lab-series.md)
+    * [Create Removeable Media](lod/create-removeable-media.md)
     * [Life Cycle Actions](guides/lca/life-cycle-actions-guide.md)
     * [Shared Labs (a.k.a. Cyber-Range)](guides/sl/sharedlabs.md)
 
