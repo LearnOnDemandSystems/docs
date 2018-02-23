@@ -15,10 +15,11 @@ Interested in integrating your system with Lab and Demand? Check out our [API](/
 
 The best way to reach us is by creating a <a href="http://learnondemand-staging.azurewebsites.net/Form?CallingUrl=@lab.CallerEncoded&UserId=@lab.UserId">technical support ticket</a>.
 
-Or reach us by phone, e-mail or Skype:
+Or contact us using one of the following methods:
 
 |||
 |---|---|
+|**Phone, e-mail or Skype**||
 |Email|<a href="mailto:support@learnondemandsystems.com">support@learnondemandsystems.com</a>|
 |Skype|labondemand|
 |Toll-free Phone|+1 888.763.7730 - only toll free in the US|
