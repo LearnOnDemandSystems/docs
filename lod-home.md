@@ -19,10 +19,6 @@
     * [Create a Lab Profile](lod-documentation/create-lab-profile.md)
     * [Create a Lab Series](lod-documentation/create-lab-series.md)
     * [Create Removeable Media](lod-documentation/create-removeable-media.md)
-    * [Differencing Disks](lod-documentation/differencing-disks.md)
-    * [Start States](lod-documentation/start-states.md)
-    * [Create a VM Profile](lod-documentation/create-vm-profile.md)
-    * [Clone an existing Lab Profile](lod-documentation/clone-lab-profile.md)
     * [Life Cycle Actions](https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/lca/life-cycle-actions-guide.md)
     * [Shared Labs (a.k.a. Cyber-Range)](https://raw.githubusercontent.com/LearnOnDemandSystems/guides/master/sl/sharedlabs.md)
 
