@@ -1,5 +1,3 @@
-<a href="https://learnondemandsystems.github.io/guides/idl2/markdown-user-guide.html" style="float:right;" title="A full user guide to authoring labs in IDL-flavored markdown.">Markdown User Guide</a>
-
 |                   |                                          |
 | ------------------| ---------------------------------------- |
 |<font size="3">**Headings**</font> | |
