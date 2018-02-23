@@ -10,7 +10,7 @@
 
 ## Check out the Lab Manual and Edit Instructions
 
-Now that you have created a lab profile and enabled cloud orchestration, it is time to add some lab instructions. 
+Now that you have created a Cloud Sliced lab and enabled cloud orchestration, it is time to add some lab instructions. 
 
 You must the check out the lab instructions before you can edit them. Checking out the IDL v2 lab instructions ensures that only one person at a time can make changes to the content.
 
