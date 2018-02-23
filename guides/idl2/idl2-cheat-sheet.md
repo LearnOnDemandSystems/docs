@@ -37,7 +37,7 @@
 | Video Link        |  `VIDEO[Text to display](URL)`| 
 |<BR> | |
  |<font size="3">**Special**</font>|                                          |
-| Knowledge         | `> [!KNOWLEDGE] ## Knowledge blocks help students learn more` |
+| Knowledge         | `> [!KNOWLEDGE] Knowledge blocks help students learn more` |
 | Alert             | `> [!ALERT] Alert blocks draw attention to important issues!` |
 | Note              | `> [!NOTE]`                              |
 | Include           | `!INSTRUCTIONS[](url)`                |
