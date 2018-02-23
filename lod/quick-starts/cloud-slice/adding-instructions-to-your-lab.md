@@ -32,4 +32,4 @@ Once you have checked out the lab instructions for editing, you are now ready to
 Some Markdown text here
 ```
 
-To learn more about Markdown syntax that is used to create lab instructions, visit our [Markdown User Guide](idl2/idlv2-authoring-guide-and-best-practice.md)
+To learn more about Markdown syntax that is used to create lab instructions, visit our [Markdown User Guide](guides/idl2/markdown-user-guide.md))
