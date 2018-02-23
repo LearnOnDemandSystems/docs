@@ -26,3 +26,10 @@ Once you have checked out the lab instructions for editing, you are now ready to
 
 ![Edit instructions](images/edit-instructions.png)
 
+3. Paste the following into the left side of the idl-md editor. Watch how the syntax is rendered in the Resources Portal on the right side. The rendered content is the lab instructions will be displayed to users that launch your Cloud Slice lab. 
+
+```
+Some Markdown text here
+```
+
+To learn more about Markdown syntax that is used to create lab instructions, visit our [Markdown User Guide](idl2/idlv2-authoring-guide-and-best-practice.md)
