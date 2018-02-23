@@ -14,7 +14,7 @@ Now that you have created a Cloud Sliced lab and enabled cloud orchestration, it
 
 1. Navigate to the lab profile page for your Cloud Slice lab. (you may be there already)
 
-1. **click Check Out** to check out the instructions for your lab.
+1. **Click Check Out** to check out the instructions for your lab.
 
 ![Check out Lab Profile](images/check-out-lab-profile.png)
 
@@ -26,8 +26,3 @@ Once you have checked out the lab instructions for editing, you are now ready to
 
 ![Edit instructions](images/edit-instructions.png)
 
-## Using the Lab Editor
-
-The image below shows what will be seen after clicking Edit instructions, as discussed in the previous section. This text editor is where all of the lab content is written and stored. The left side of the editor shows the raw syntax of the lab content, whereas the right side shows how the lab content will be rendered and displayed to users.
-
-![Using the Lab Editor](images/idl2-text-editor.png)
