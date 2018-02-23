@@ -1,4 +1,4 @@
-# Adding Instructions to Your Lab.
+# Adding Instructions to Your Lab
 
 //I wasn't sure which of the below two intro paragraphs I like better--[Option1] or [Option 2].  Your call.
 
