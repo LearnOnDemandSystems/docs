@@ -1,13 +1,5 @@
 # Learn on Demand Systems GitHub Integration Guide 
 
-## Revision History
-
-|**Version**|**Date**|**Edited By**|**Comments**|
-|---|---|---|---|
-|0.3|Apr. 26, 2017|Kirk Munro|Released|
-|0.2|April. 2, 2017|Stephanie Clark|Unreleased; second draft|
-|0.1|Feb. 22, 2017|Kirk Munro|Unreleased; first draft|
-
 ## Disclaimer
 
 This document is provided for informational purposes only and Learn on Demand
@@ -182,23 +174,35 @@ navigate to the lab profile you want to integrate with. Then follow these steps:
 1. If you have not enabled it already, check the **Has IDL Content** checkbox,
 and then save the lab profile.<br/>
 ![Check the Has IDL Content check box](media/integration/01-has-idl-content.png "Check the Has IDL Content check box")
-1. Edit the Lab Profile and on the Cloud tab, click **Configure GitHub
+2. Edit the Lab Profile and on the Cloud tab, click **Configure GitHub
 Repository**.<br/>
 ![Configure GitHub Repository](media/integration/02-configure-github-repository.png "Configure GitHub Repository")
-1. The Configure GitHub Repository dialog with Login with GitHub link will
+3. The Configure GitHub Repository dialog with Login with GitHub link will
 open. Click **Login with GitHub**.<br/>
 ![Login with GitHub](media/integration/03-login-with-github.png "Login with GitHub")
-1. If you are not logged into GitHub, you be will prompted to login. Use the
+4. If you are not logged into GitHub, you be will prompted to login. Use the
 controls in the GitHub login page to log into your GitHub account. At this point
 you should be logged into a GitHub account that has a repository containing lab
 content you want to integrate into the lab profile.
-1. Once you are logged into GitHub, if you have not done this before you will be
-asked to authorize LabOnDemand to have access to your GitHub account. This
+5. Once you are logged into GitHub, if you have not done this before you will be
+asked to authorize Lab on Demand to have access to your GitHub account. This
 access is only used to create a webhook so that LOD can be notified whenever the
 content in your GitHub repository changes. Click **Authorize application** to
 continue with the integration.<br/>
 ![Authorize application](media/integration/04-authorize-application.png "Authorize application")
-1. At this point you will be presented with a list of repositories that are
+    > #### Granting integration access to repositories in your organization
+    > Once you have authorized Lab on Demand to have access to your GitHub account,
+    > if you also want Lab on Demand to be able to integrate with a repository in a
+    > GitHub organization that you are a member of, you will have to submit a request
+    > to your organization to authorize that application. To submit that request, use
+    > your web browser to navigate to GitHub.com, and log in. Then click the account
+    > icon/image on the top right corner, and click **Settings**. In your personal
+    > settings, click **Authorized OAuth Apps** and then click **LabOnDemand** in the
+    > list of apps that is shown. Scroll down to **Organization access** in the
+    > LabOnDemand app settings, and click **Request** next to your organization. This
+    > will send a request to your organization which, once approved, will enable
+    > access for Lab on Demand to integrate with repositories in your organization.
+6. At this point you will be presented with a list of repositories that are
 associated with your GitHub account. Click **Select** next to the repository
 containing the lab content that you want automatically synchronized into the lab
 profile. Note that while you are viewing the list of your repositories, you can
@@ -207,27 +211,27 @@ repository. That will open the GitHub repository in a new web browser window.
 Also note that if no markdown content files are present in the repository, you
 will be prompted to select a different one.<br/>
 ![Select GitHub repository](media/integration/05-select-github-repository.png "Select GitHub Repository")
-1. WARNING: When you complete the following step, any existing content in your
+7. WARNING: When you complete the following step, any existing content in your
 lab profile will be overwritten, and anything lost will be unrecoverable. Under
 normal circumstances, that is ok because the content you are importing is the
 export of the content that is in the lab, so you won't lose a thing. You should
 be careful though, because you don't want to import the wrong content into a lab
 that contains content that is not backed up/exported elsewhere first; otherwise,
 you will lose that content.
-1. After choosing your repository, you need to identify the markdown file that
+8. After choosing your repository, you need to identify the markdown file that
 defines the lab content within that repository. Click **Select** next to the
 markdown file to use as the source of your lab content. Note that you can
 preview a markdown file before selecting it by clicking on the name of that
 file. If you do this, the markdown file will open in a new browser window.<br/>
 ![Select Markdown content file](media/integration/06-select-markdown-content-file.png "Select Markdown content file")
-1. Once you select the Markdown file that defines the lab content, LOD will
+9. Once you select the Markdown file that defines the lab content, LOD will
 process synchronize all lab content referenced by that markdown file into the
 lab profile. At any point that the GitHub content changes, the lab profile will
 be updated automatically.
-1. Once the synchronization process is complete, you will have completed your
+10. Once the synchronization process is complete, you will have completed your
 integration. Click **Close** to finish the Integration wizard.<br/>
 ![Close integration wizard](media/integration/07-close-integration-wizard.png "Close integration wizard")
-1. Notice that your lab profile now shows that content is integrated from your
+11. Notice that your lab profile now shows that content is integrated from your
 GitHub repository. Click the **Save** button at the bottom of your lab profile
 window to exit the lab profile editor.<br/>
 ![Integration complete](media/integration/08-integration-complete.png "Integration complete")
