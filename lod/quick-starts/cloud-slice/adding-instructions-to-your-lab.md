@@ -20,7 +20,7 @@ You must the check out the lab instructions before you can edit them. Checking o
 
 Once you have checked out the lab instructions for editing, you are now ready to edit your lab instructions in the idl-md editor. 
 
-1. While viewing a lab profile where you have already checked out the instructions, click Edit Instructions to open the instruction editor, as shown below. This will open a new window with an idl-md (markdown) editor on the left and a preview pane on the right. This gives you the ability to create lab instructions, and see a live preview of how they will be displayed to the user during the lab.
+2. While viewing a lab profile where you have already checked out the instructions, click Edit Instructions to open the instruction editor, as shown below. This will open a new window with an idl-md (markdown) editor on the left and a preview pane on the right. This gives you the ability to create lab instructions, and see a live preview of how they will be displayed to the user during the lab.
 
 ![Edit instructions](images/edit-instructions.png)
 
