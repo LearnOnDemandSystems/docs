@@ -12,7 +12,7 @@
 
 Now that you have created a Cloud Sliced lab and enabled cloud orchestration, it is time to add some lab instructions. 
 
-1. Navigate to the lab profile page for your Cloud Slice lab. (you may be there already)
+1. **Navigate** to the lab profile page for your Cloud Slice lab. (you may be there already)
 
 1. **Click Check Out** to check out the instructions for your lab.
 
