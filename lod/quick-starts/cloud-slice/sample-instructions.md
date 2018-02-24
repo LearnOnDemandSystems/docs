@@ -35,11 +35,11 @@ Another way you can separate thoughts/ideas from one another on the same page is
 
 Screenshots or inline images encourage students by pointing them in the right direction. They can be embedded inline, like this:
 
-!IMAGE[](images/diamond.png)
+!IMAGE[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/quick-starts/cloud-slice/images/diamond.jpg)
 
 They can also be hidden behind a link that opens in a new window, like this:
 
-IMAGE[Click here to see ...](images/diamond.png)
+IMAGE[Click here to see ...](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/quick-starts/cloud-slice/images/diamond.jpg)
 
 Integrating videos is just as easy. Here's one that talks about PowerShell:
 
