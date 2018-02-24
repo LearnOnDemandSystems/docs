@@ -1,13 +1,4 @@
-TBD
 # Cloud Slice Initial Configuration
-
-## There are two steps that must be completed for all Cloud Slice labs.
-
-- [Set up a Cloud Subscription Pool in Lab on Demand](#create-a-cloud-subscription-pool)
-
-- [Set up a Cloud Subscription in Lab on Demand](#create-a-cloud-subscription)
-
----
 
 ## Create a Cloud Subscription Pool
 
