@@ -1,4 +1,4 @@
-# Adding a managed VM to a Cloud Slice lab
+# Adding a Managed Virtual Machine to a Cloud Slice Lab
 
 > [!ALERT] This is optional and should only be done if you want to include managed virtual machines that are running in your cloud  platform within your Cloud Slice lab(s).
 
