@@ -1,10 +1,16 @@
 # Lab on Demand Help
 
-Welcome to the Lab on Demand platform, @lab.UserFirstName!
+Welcome to the Lab on Demand (LOD) platform, @lab.UserFirstName!
 
 If you're new to platform, you should probably get started with one of our Quick Start guides. Quick Start guides will allow you to fast track your learning experience, by helping you get up and running as quickly as possible.
 
-[Cloud Slice Quick Start Guide](lod/quick-starts/cloud-slice/three-step-guide-to-first-cloud-slice-lab.md)
+## Quick Start Guides
+
+1. [Configuring your Azure Subscription for use with LOD](lod/quick-starts/cloud-slice/initial-setup.md)
+1. [3 steps to a Cloud Slice lab](lod/quick-starts/cloud-slice/three-step-guide-to-first-cloud-slice-lab.md)
+1. [Adding instructions to your Cloud Slice lab](lod/quick-starts/cloud-slice/adding-instructions-to-your-lab.md)
+1. [Using ARM templates with Cloud Slice](lod/quick-starts/cloud-slice/using-arm-templates-with-cloud-slice.md)
+1. [Adding a Managed VM to your Cloud Slice lab](lod/quick-starts/cloud-slice/adding-a-managed-vm-to-a-cloud-slice-lab.md)
 
 + **LOD General**
     * [Create a user](lod/create-user.md)
