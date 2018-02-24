@@ -28,8 +28,8 @@ Once you have checked out the lab instructions for editing, you are now ready to
 
 3. Paste the following into the left side of the idl-md editor. Watch how the syntax is rendered in the Resources Portal on the right side. The rendered content is the lab instructions will be displayed to users that launch your Cloud Slice lab. 
 
->
 
+```
 # Formatting lab instructions using **Markdown** is **easy**! 
 
 You can emphasize text by making it **bold**, _italics_ or ~strikethrough~.
@@ -69,4 +69,4 @@ This is an **ordered List**:
 
 **Unordered** Lists can be 
 
----
+```
