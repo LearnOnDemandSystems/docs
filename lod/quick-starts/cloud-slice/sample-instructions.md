@@ -45,11 +45,12 @@ IMAGE[Click here to see ...](https://raw.githubusercontent.com/LearnOnDemandSyst
 
 Integrating videos is just as easy. Here's one that talks about PowerShell:
 
-!VIDEO[](https://www.youtube.com/watch?v=f25-cj8mriQ&t=130s)
+!VIDEO[](https://youtu.be/f25-cj8mriQ)
 
-[Here's a useful tip!]("Exclamation marks applied immediately before multimedia (IMAGE/VIDEO) links tell Lab on Demand that you want the content to be embedded inline, in the current location.")
+You can also include normal hyperlinks where ever you like, such as [this one](https://learnondemandsystems.com).
 
-You can also include normal hyperlinks whereever you like, such as [this one](https://learnondemandsystems.com).
+[Here's a useful tip!]("Exclamation marks before multimedia (IMAGE/VIDEO) links tell Lab on Demand to be embed the content inline, in the current location.")
+
 
 ===
 
