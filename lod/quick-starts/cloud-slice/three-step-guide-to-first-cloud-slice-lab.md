@@ -2,7 +2,7 @@
 
 Creating your first Cloud Slice lab is as easy as 1-2-3.
 
-> [!ALERT] You must have created a Cloud Subscription Pool before you can create a Cloud Slice lab. If you have not created a Cloud Subscription Pool in Lab on Demand yet, go through the [Azure setup Quick Start Guide](TODO.md) first.
+> [!ALERT] If you do not have a Cloud Subscription Pool ready for use with Cloud Slice labs, go through the [Azure Setup Quick Start Guide](TODO.md) first.
 
 ## Step 1: Create a Lab Profile
 
