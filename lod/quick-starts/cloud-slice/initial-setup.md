@@ -6,11 +6,11 @@
 
 1. Click on **Cloud Subscription Pools** on the Cloud tile. 
 
-    ![Cloud Subscription Pools](images/cloud-subscription-pools.png)
+    ![Cloud Subscription Pools](images/lod-open-cloud-subscription-pools.png)
 
 1. Next, click **Create Cloud Subscription Pool** in the upper-right corner of the page. 
 
-    ![Create Cloud Subscription Pool](images/create-cloud-subscription-pool.png)
+    ![Create Cloud Subscription Pool](images/lod-create-cloud-subscription-pool.png)
 
 **Complete the following fields**, then **click OK** to create a Cloud Subscription Pool. 
 
