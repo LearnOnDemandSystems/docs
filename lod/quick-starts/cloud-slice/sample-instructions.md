@@ -100,7 +100,7 @@ Markdown also supports tables. These are very convenient when you want users to 
 |--|--|
 |First Name|++@lab.UserFirstName++|
 |Last Name|++@lab.UserLastName++|
-|Email Address|++@lab.UserEmailAddress++|
+|Email Address|++@lab.UserEmail++|
 
 The double-plus enclosure surrounding the field values allows students to copy them by left clicking on them. Give it a try!
 
