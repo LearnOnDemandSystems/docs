@@ -18,7 +18,7 @@ Now that you have created a Cloud Sliced lab and enabled cloud orchestration, it
 
 ![Check out Lab Profile](images/check-out-lab-profile.png)
 
->[KKNOWLEDGE] You must the check out the lab instructions before you can edit them. Checking out the IDL v2 lab instructions ensures that only one person at a time can make changes to the content.
+>[KNOWLEDGE] You must the check out the lab instructions before you can edit them. Checking out the IDL v2 lab instructions ensures that only one person at a time can make changes to the content.
 
 Once you have checked out the lab instructions for editing, you are now ready to edit your lab instructions in the idl-md editor. 
 
@@ -28,8 +28,45 @@ Once you have checked out the lab instructions for editing, you are now ready to
 
 3. Paste the following into the left side of the idl-md editor. Watch how the syntax is rendered in the Resources Portal on the right side. The rendered content is the lab instructions will be displayed to users that launch your Cloud Slice lab. 
 
-```
-Some Markdown text here
-```
+>
 
-To learn more about Markdown syntax that is used to create lab instructions, visit our [Markdown User Guide](../../../guides/idl2/markdown-user-guide.md)
+# Formatting lab instructions using **Markdown** is **easy**! 
+
+You can emphasize text by making it **bold**, _italics_ or ~strikethrough~.
+
+---
+
+> ##Headings can be different sizes
+> # Headings can be this big
+>###### Headings can be this small.
+
+---
+
+> [!KNOWLEDGE] ## Knowledge blocks help students learn more. Knowledge blocks are limited to 4 lines of text, then a _show more_ link will be displayed.
+
+> [!ALERT] Alert blocks draw attention to important issues!
+
+> [!NOTE] Notes are similar to Knowledge, but they are not limited to 4 lines. 
+
+---
+
+Code Blocks are an easy way to share code with lab users: 
+
+`get-service | stop-service -whatif`
+
+---
+
+This is an **ordered List**:
+
+1. Item 1
+1. Item 2
+1. Item 3
+
+
+>[!ALERT] Did you notice that the list was numbered with **1.** instead of **1.**,**2.**,**3.**? Markdown automatically numbers items in a numbered list, as items are added or removed. Try adding a 4th item to the list and watch how it renders.
+
+---
+
+**Unordered** Lists can be 
+
+---
