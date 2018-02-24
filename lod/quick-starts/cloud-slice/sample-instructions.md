@@ -13,7 +13,9 @@ It is a good idea to use headings to identify specific sections in your instruct
 
 You can emphasize key words or phrases in your instructions by making it **bold**, using _italics_ or ~striking it through~.
 
-> [!KNOWLEDGE] Did you know? Knowledge blocks help students learn more.
+> [!KNOWLEDGE] ### Did you know?
+>
+> Knowledge blocks help students learn more.
 >
 > They will automatically display the first four lines of text, with the rest of the content fading out with a  _show more_ link displayed at the bottom if they are longer than four lines.
 >
