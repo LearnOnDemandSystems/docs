@@ -22,7 +22,7 @@ Now that you have created a Cloud Slice lab, it is time to add instructions to t
 
     > [!KNOWLEDGE] Did you know that Markdown natively supports HTML, and HTML syntax can be used inline in the instructions you write in Markdown?
     
-1. [] Click INSTRUCTIONS[here](sample-instructions.md) to open a markdown sample in a new window.
+1. [] Click ^INSTRUCTIONS[here](sample-instructions.md) to open a markdown sample in a new window.
 
 1. [] Click in the markdown code block to copy the markdown sample, close the window, then paste the markdown into your instruction editor.    
 
