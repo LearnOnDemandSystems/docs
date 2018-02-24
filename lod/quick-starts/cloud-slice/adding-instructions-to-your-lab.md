@@ -1,76 +1,30 @@
 # Adding Instructions to Your Lab
 
-//I wasn't sure which of the below two intro paragraphs I like better--[Option1] or [Option 2].  Your call.
+Now that you have created a Cloud Slice lab, it is time to add instructions to that lab.
 
-[Option 1] All instructions are authored in Markdown. Markdown allows for easy plain-text authoring of paragraphs, with special syntax when you want certain items to be formatted differently. You can also use HTML alongside, or in place of, Markdown elements. The following sections describe various items used to create lab content with IDL v2.
+1. [] **Navigate** to the lab profile page for your Cloud Slice lab (you may be there already).
 
-[Option 2] Lab instructions are constructed using Markdown; an easy to use markup language to format text. Markdown was designed to be easy to learn as well as be easy to read and write. 
+1. [] Click **Check Out** to check out the instructions for your lab.
 
-> [!ALERT] Did you know that Markdown supports HTML, and HTML syntax can be used in combination with Markdown?
+    ![Check out Lab Profile](images/check-out-lab-profile.png)
 
-## Check out the Lab Manual and Edit Instructions
+    > [!KNOWLEDGE] You must check out lab instructions before you can edit them. As long as you have the instructions checked out, you are the only person who can modify them.
 
-Now that you have created a Cloud Sliced lab and enabled cloud orchestration, it is time to add some lab instructions. 
+    Now that you have checked out your lab instructions for editing, you can edit them in the idl-md editor.
 
-1. **Navigate** to the lab profile page for your Cloud Slice lab. (you may be there already)
+1. [] Click **Edit Instructions** to open the instruction editor in a new window, as shown below.
 
-1. **Click Check Out** to check out the instructions for your lab.
+    ![Edit instructions](images/edit-instructions.png)
 
-![Check out Lab Profile](images/check-out-lab-profile.png)
+    The instruction editor consists of a markdown editor on the left, and a preview pane on the right. This gives you the ability to create lab instructions, and see a live preview in real time showing how they will be displayed to the user during the lab.
+    
+    > All Cloud Slice lab instructions are authored in an IDLx (Integrated Digital Learning eXperience) flavor of Markdown, called idl-md. This allows for easy plain-text authoring of instructions, with special syntax to used to decorate instruction text when you want it to be formatted differently in the rendered instructions presented to students.
 
->[KNOWLEDGE] You must the check out the lab instructions before you can edit them. Checking out the IDL v2 lab instructions ensures that only one person at a time can make changes to the content.
+    > [!KNOWLEDGE] Did you know that Markdown natively supports HTML, and HTML syntax can be used inline in the instructions you write in Markdown?
+    
+1. [] Click INSTRUCTIONS[here][sample-instructions.md] to open a markdown sample in a new window.
 
-Once you have checked out the lab instructions for editing, you are now ready to edit your lab instructions in the idl-md editor. 
+1. [] Click in the markdown code block to copy the markdown sample, close the window, then paste the markdown into your instruction editor.    
 
-2. While viewing a lab profile where you have already checked out the instructions, click Edit Instructions to open the instruction editor, as shown below. This will open a new window with an idl-md (markdown) editor on the left and a preview pane on the right. This gives you the ability to create lab instructions, and see a live preview of how they will be displayed to the user during the lab.
+    > Notice how the instructions are automatically rendered on the right side in the preview pane. This preview gives you an idea how the lab instructions will be displayed to students that launch your Cloud Slice lab.
 
-![Edit instructions](images/edit-instructions.png)
-
-3. Paste the following into the left side of the idl-md editor. Watch how the syntax is rendered in the Resources Portal on the right side. The rendered content is the lab instructions will be displayed to users that launch your Cloud Slice lab. 
-
-
-```
-# Formatting lab instructions using **Markdown** is **easy**! 
-
-You can emphasize text by making it **bold**, _italics_ or ~strikethrough~.
-
----
-
-> ##Headings can be different sizes
-> # Headings can be this big
->###### Headings can be this small.
-
----
-
-> [!KNOWLEDGE] ## Knowledge blocks help students learn more. Knowledge blocks are limited to 4 lines of text, then a _show more_ link will be displayed.
-
-> [!ALERT] Alert blocks draw attention to important issues!
-
-> [!NOTE] Notes are similar to Knowledge, but they are not limited to 4 lines. 
-
----
-
-Code Blocks are an easy way to share code with lab users: 
-
-`get-service | stop-service -whatif`
-
----
-
-This is an **ordered List**:
-
-1. Item 1
-1. Item 2
-1. Item 3
-
-
->[!ALERT] Did you notice that the list was numbered with **1.** instead of **1.**,**2.**,**3.**? Markdown automatically numbers items in a numbered list, as items are added or removed. Try adding a 4th item to the list and watch how it renders.
-
----
-
-**Unordered List** can be created using - (dashes)
-
-- Item 1
-- Item 2
-- Item 3
-
-```
