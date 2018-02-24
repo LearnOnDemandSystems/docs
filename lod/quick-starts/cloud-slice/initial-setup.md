@@ -28,8 +28,6 @@
 
 - **Custom subscription unavailable message**: This message will be presented to users if they try to launch a lab and a subscription is unavailable. If this field is blank, the default message will be used.
 
----
-
 ## Create a Cloud Subscription
 
 After a Subscription Pool is created, on the next screen, click **Create Cloud Subscription**.
