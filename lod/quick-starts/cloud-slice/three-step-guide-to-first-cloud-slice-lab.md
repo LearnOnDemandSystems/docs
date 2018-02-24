@@ -17,8 +17,6 @@ Creating your first Cloud Slice lab is as easy as 1-2-3.
     > [!KNOWLEDGE] You can left-click on any text that has the copy symbol next to it to copy it to your clipboard.
     >
     > e.g. ++This is copyable.++
-    >
-    > This makes filling out forms much easier.
 
 This is all that is required to create a lab profile; however, you will need to configure a few additional items for a Cloud Slice lab.
 
