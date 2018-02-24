@@ -67,6 +67,10 @@ This is an **ordered List**:
 
 ---
 
-**Unordered** Lists can be 
+**Unordered List** can be created using - (dashes)
+
+- Item 1
+- Item 2
+- Item 3
 
 ```
