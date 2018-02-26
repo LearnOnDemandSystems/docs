@@ -2,6 +2,7 @@
 
 Users log in to OneLearn Lab on Demand to launch, author and develop labs, as well as other components that are used to create a lab. 
 
+![Create a User](images/create-a-user.png)
 ## Basic Information 
 
 1. From the Admin page, click **Create User** on the **Users** tile.
