@@ -1,11 +1,11 @@
-# Learn on Demand Systems Integrated Digital Lab Authoring Guide 
+# Learn on Demand Systems Integrated Digital Lab (legacy) Authoring Guide 
 
 ## Introduction
 
-This guide provides information on the Integrated Digital Lab (IDL)
+This guide provides information on the Integrated Digital Lab (IDL legacy)
 platform, the various elements that comprise a lab that uses this
 platform, the steps for converting a traditional document-based lab to
-an IDL-based lab, and some tips and best practices.
+an IDL (legacy)-based lab, and some tips and best practices.
 
 ### Intended Audience
 
@@ -20,11 +20,11 @@ guide and modify select properties of a lab profile.
 contract work.
 
 The guide further assumes that a document-based lab manual already
-exists and needs to be converted to the IDL format.
+exists and needs to be converted to the IDL (legacy) format.
 
-## Overview of the Integrated Digital Lab (IDL) Platform
+## Overview of the Integrated Digital Lab IDL (legacy) Platform
 
-The IDL platform integrates the exercises with the virtual machines
+The IDL (legacy) platform integrates the exercises with the virtual machines
 (VMs) in the lab environment to guide the users in completing the lab.
 Although lab users have the option to print and display a separate
 document containing the lab exercises and tasks, the IDL platform allows
@@ -34,7 +34,7 @@ performing lab steps.
 
 ![](media/image8.png)
 
-Figure 1: IDL user interface
+Figure 1: IDL (legacy) user interface
 
 An advantage of this presentation format is that the lab steps take up
 only a relatively small amount of screen real estate. This removes the
@@ -47,7 +47,7 @@ than simply a set of basic lab steps or tasks. It will have significant
 explanatory content to provide context, background information, tips,
 cautions, and other useful and relevant information. Additionally,
 visual elements such as screenshots and videos can add clarity and
-reduce the likelihood of error on the part of the user. The IDL platform
+reduce the likelihood of error on the part of the user. The IDL (legacy) platform
 has the ability to include text and visual content in a way that ensures
 the focus remains on the lab tasks and the context in which those tasks
 occur.
@@ -97,7 +97,7 @@ accessible from a URL.
 
 ### Objective and Scenario Introductory Page
 
-The IDL platform can provide the user with an introductory page that
+The IDL (legacy) platform can provide the user with an introductory page that
 appears when the user launches a lab. The introductory page contains the
 objectives or goals that the user will achieve and a scenario that
 provides contextual information to assist the user to gain a deeper
@@ -240,7 +240,7 @@ Figure 12: Video task enhancement
 
 During a lab, a lab user may be required to perform configuration steps
 on two or more VMs. A common source of errors in labs is performing lab
-tasks on the wrong VM. The IDL platform mitigates this risk by providing
+tasks on the wrong VM. The IDL (legacy) platform mitigates this risk by providing
 the means to change to the correct VM within a task step, as shown
 below.
 
@@ -250,7 +250,7 @@ Figure 13: Virtual machine select
 
 #### Load Media
 
-The IDL platform allows lab user to load either virtual floppy disks or
+The IDL (legacy) platform allows lab user to load either virtual floppy disks or
 ISO files directly from a task, as shown below.
 
 ![](media/image21.png)
@@ -260,7 +260,7 @@ Figure 14: Load optical media
 #### Actions
 
 To further mitigate risk of error and to enhance the overall experience
-of the lab, the IDL platform supports running commands directly inside a
+of the lab, the IDL (legacy) platform supports running commands directly inside a
 VM. The commands can perform any action that is possible to do from a
 command or Windows PowerShell prompt. For example, the command could
 open File Explorer at a particular location within a directory
@@ -390,7 +390,7 @@ a lab profile using either the XML or Word template provided by LODS.
 
 ### Using the Edit Toolbars
 
-When you enter text into the lab profile or IDL content, you may use the
+When you enter text into the lab profile or IDL (legacy) content, you may use the
 editing tool bars to format text and create lists in rich text fields.
 These fields provide a simple WYSYWG editor experience. In the rich text
 fields in the lab profile, you can use the toolbar pictured below to
@@ -422,7 +422,7 @@ want to include a link to an external website using an "a href" HTML
 tag.
 [<sup>4</sup>](#4)
 
-In the rich text fields in the IDL content, the Edit toolbar is
+In the rich text fields in the IDL (legacy) content, the Edit toolbar is
 expanded to allow you an easy way to add additional formatting to your
 content.
 
@@ -493,9 +493,9 @@ lab.
 - Use the scenario area to provide more general background information
 and context.
 
-### Enable Lab Profile for IDL
+### Enable Lab Profile for IDL (legacy)
 
-For a lab to display IDL content, content must be enabled in the lab
+For a lab to display IDL (legacy) content, content must be enabled in the lab
 profile. To enable content in a lab profile, you need to perform the
 following steps.
 
@@ -504,7 +504,7 @@ following steps.
 
     ![](media/image39.png)
 
-    Figure 28: Enabling IDL Content
+    Figure 28: Enabling IDL (legacy) Content
 
     - Note that you also have the option to adjust the height of task bar.
     Although you can make the task bar larger or smaller than the
@@ -566,7 +566,7 @@ displayed.
 bar. Although you can make the navigation bar larger or smaller than
 the default values, consider the tradeoffs. If you make it larger,
 you lose valuable screen real estate for the VMs. If you make it
-smaller, the IDL outline may wrap unnecessarily. Users can resize
+smaller, the IDL (legacy) outline may wrap unnecessarily. Users can resize
 the navigation bar, according to their own preferences and can
 pin/unpin it.
 
@@ -580,20 +580,20 @@ settings allow you to provide custom labels for the respective tabs.
 users can shut down or start up virtual machines (VMs) using the lab
 interface.
 
-### Access IDL Edit Modes
+### Access IDL (legacy) Edit Modes
 
 You are now ready to add lab exercises and lab tasks directly into the
-IDL user interface. As mentioned earlier, to add or edit content, lab
+IDL (legacy) user interface. As mentioned earlier, to add or edit content, lab
 content must be enabled for the lab profile (the Has Content check box
 must be checked).
 
-#### Check Out IDL Manual
+#### Check Out IDL (legacy) Manual
 
-Once lab content is enabled, you must the check out the IDL manual.
-Checking out the IDL manual ensures that only one person at a time can
+Once lab content is enabled, you must the check out the IDL (legacy) manual.
+Checking out the IDL (legacy) manual ensures that only one person at a time can
 make changes to the content.
 
-To check out the IDL manual, navigate to the lab profile page, and then
+To check out the IDL (legacy) manual, navigate to the lab profile page, and then
 click **Check Out**.
 
 ![](media/image41.png)
@@ -602,7 +602,7 @@ Figure 30: Lab profile action menu showing check out option
 
 #### Choose Edit Option
 
-Once you have checked out the IDL manual for editing, you can choose
+Once you have checked out the IDL (legacy) manual for editing, you can choose
 between two options for adding and editing content:
 
 **IDL Studio**. When using this option, the manual appears with the
@@ -615,10 +615,10 @@ below.
 
 Figure 31: Edit content with running VMs
 
-1. **Edit IDL Content**. In this mode, only the manual opens for
+1. **Edit IDL (legacy) Content**. In this mode, only the manual opens for
 editing; no VMs are running. This editing mode is good for copy
 editing or other tasks that do not require running VMs. To use this
-mode, click **Edit IDL Content**, as shown below.
+mode, click **Edit IDL (legacy) Content**, as shown below.
 
 ![](media/image43.png)
 
@@ -799,7 +799,7 @@ screenshot using the Developer menu on the UI, as shown below.
 
 ![](media/image48.png)
 
-Figure 37: Taking screenshot form IDL UI
+Figure 37: Taking screenshot form IDL (legacy) UI
 
 If you use this method, the screenshot is automatically added to the
 task you are on. Please keep in mind that when you take a screenshot
@@ -988,13 +988,13 @@ Figure 46: Import and export lab content links
 ### Export Content
 
 When you export lab content, you are given the choice to export the full
-lab profile, the IDL content only, or the VMs.
+lab profile, the IDL (legacy) content only, or the VMs.
 
 ![](media/image58.png)
 
 Figure 47: Export dialog box
 
-Exporting the IDL content causes a compressed (.zip) file containing an
+Exporting the IDL (legacy) content causes a compressed (.zip) file containing an
 XML file and screen images to be downloaded to your local computer. The
 structure of the zip appears below.
 [<sup>6</sup>](#6)
@@ -1019,7 +1019,7 @@ import it to the new lab profile.
 
 ### Import Content
 
-When you click **Import**, you are given the choice to import the **IDL
+When you click **Import**, you are given the choice to import the **IDL (legacy)
 content** or the **VMs**.
 
 ![](media/image61.png)
@@ -1053,7 +1053,7 @@ Figure 52: XML template
 #### Use a Word Template
 
 You can download and save the Word template from the Import link and
-create your IDL manual directly in it (see below).
+create your IDL (legacy) manual directly in it (see below).
 
 ![](media/image64.png)
 
@@ -1328,7 +1328,7 @@ The Integrated Digital Learning platform is constantly improving as a
 result of customer feedback. Here are some upcoming features that are
 currently in development.
 
-<a name="myfootnote1">1</a>: In future releases of the IDL platform, it
+<a name="myfootnote1">1</a>: In future releases of the IDL (legacy) platform, it
 will be possible to substitute a video for the text-based objective and
 scenario sections.
 
@@ -1339,7 +1339,7 @@ Learn on Demand Systems for additional guidance.
 
 <a name="myfootnote1">3</a>: Please note that this functionality depends
 on the use of the HTML5 controller specified in the Support tab of the
-IDL user interface (this is the default configuration).
+IDL (legacy) user interface (this is the default configuration).
 
 <a name="myfootnote1">4</a>: Although links to external web sites are
 supported, please note that, by default, clicking these links will cause
