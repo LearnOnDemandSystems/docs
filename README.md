@@ -1,3 +1,5 @@
 One documentation repository to rule them all.
 
-This repository is a work in progress. It is not meant for public consumption. To view our latest public documentation that is ready for consumption, visit https://learnondemandsystems.github.io/guides/.
+If you would like to contribute to this documentation, you are in the right place.
+
+If instead you would like to read this documentation to learn how to use Lab on Demand, log on to [Lab on Demand](https://www.labondemand.com) and click on the Help link at the top of the window.
