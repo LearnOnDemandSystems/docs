@@ -2,18 +2,18 @@
 
 Markdown is an easy to use markup language to format text, that offers multiple ways to achieve the same result. Markdown was designed to be easy to learn as well as be easy to read and write. Markdown allows the author to keep their hands on the keyboard and focus on writing content. Markdown supports HTML, and HTML syntax can be used in combination with Markdown.
 
-## Table of Contents 
+## Markdown supports the following types of formatting:
 
-1. [Headings](#1-headings)
-2. [Text formatting](#2-text-formatting)
-3. [Link formatting](#3-link-formatting)
-4. [Page formatting](#4-page-formatting)
-5. [Embedded content](#5-embedded-content)
-6. [List formatting](#6-list-formatting)
-7. [Table formatting](#7-table-formatting)
-8. [Special formatting](#8-special-formatting)
+[Headings](#headings)  
+[Text formatting](#text-formatting)  
+[Link formatting](#link-formatting)  
+[Page formatting](#page-formatting)  
+[Embedded content](#embedded-content)  
+[List formatting](#list-formatting)  
+[Table formatting](#table-formatting)  
+[Special formatting](#special-formatting)  
 
-## 1. Headings
+## Headings
 
 Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols in front of the text that is to be resized, followed by a space. One # renders the largest text size, while six # symbols renders the smallest text size.Typically this is used at the beginning of a paragraph or section in a document, to make the title stand out from the rest of the text. 
 > - `# Heading 1`
@@ -23,7 +23,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 > - `##### Heading 5`
 > -  `###### Heading 6` 
 
-## 2. Text Formatting
+## Text Formatting
 
 - **Indent size**: pressing the tab key will indent 4 spaces.
 
@@ -63,7 +63,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
   > ```
   > ~~~
 
-## 3. Link formatting
+## Link formatting
 
 - **Internal link**: Used to link to a specific section within a document. 
   > \[text to display](#link-location "optional link title")
@@ -88,7 +88,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
     > \[Reference link][1]
     > \[1]: URL "Optional link title"
 
-## 4. Page formatting
+## Page formatting
 
 - **Page break**: Used to separate content into pages. Separating into pages creates a next button that the student must click to navigate to the next page. This is useful for displaying small sections of instruction to the student at a time, rather than all instructions on the same page within the lab. Type three = (equals) symbols on the line where the current page should end. The new page will begin on the line following the three = symbols.
 
@@ -104,7 +104,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
   >
   > \> additional text 
  
-## 5. Embedded content
+## Embedded content
 
 - **Image**: Used to embed an image inline with other content. When images are clicked, they will open in a new window and display at the images full resolution.
 
@@ -130,7 +130,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
   > `VIDEO[text to display](URL to video)`
 
-## 6. List formatting
+## List formatting
 
 - **Unordered list:** Used to list items in no particular order, separated by bullets rather than numbers. Type a - (dash or hyphen) followed by a space and then the text to be listed. Pressing enter at the end of the text will start the next line with a bullet. 
 
@@ -182,7 +182,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 1. [] Item 2
 ```
 
-## 7. Table formatting
+## Table formatting
 - Tables can be aligned left, right or center by placing a : (colon) on the head row of the table. Placing a colon on the left side, right side or both sides of the dashes in the header row, will align the text in the table accordingly. 
 
 **Left-aligned text**
@@ -210,7 +210,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 | data 3   | data 4   |
 ```
 
-## 8. Special formatting 
+## Special formatting 
 
 - **Knowledge Block:** Used to provide additional information, to help students better understand lab steps or lab content. Knowledge blocks are limited to only show 4 lines of the lab content. After 4 lines, a _more_ link will be shown, allowing the student to expand the Knowledge Block and review additional information.
 
@@ -268,8 +268,6 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 - **Embed YouTube video:** used to embed a YouTube video inline with the lab instructions. URLs from YouTube.com automatically embed. Videos from any other URL will not embed.
 
   > `!VIDEO[text to display](url)` 
-
-
 
 - **Replacement Token:** used to replace text in lab instructions with a variable that is unknown at the time of authoring the lab instructions. These variables may not be generated or created until the lab is launched by the student. These can include usernames, user first name, user last name, running lab instance ID number, etc. 
   > | Replacement token           |                                          |
