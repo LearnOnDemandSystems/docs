@@ -270,12 +270,11 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 - **Copyable Text:** used to make text copy to the local clipboard when the student clicks the text. Type two + (plus) symbols on each side of the text that should be made copyable. 
 
-  > \++copyable text++
-
+  > \++Click to copy to clipboard++
 
 - **Type Text:** used to target the Portal window to input text. Clicking the text in the lab instructions will input text into the item in focus, on the Portal Window Type three + (plus) symbols on each side of the text that should be made into Type Text. 
 
-  > \+++Type Text+++
+  > \+++Click to type in to your managed VM+++
   
 - **Embed YouTube video:** used to embed a YouTube video inline with the lab instructions. URLs from YouTube.com automatically embed. Videos from any other URL will not embed.
 
