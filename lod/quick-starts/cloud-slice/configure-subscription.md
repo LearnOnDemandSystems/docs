@@ -225,7 +225,7 @@ You should also have captured the following pieces of information for each Azure
 
 These values are required for the OneLearn Lab on Demand platform to be able to provision Cloud Slices for your labs. If you are missing one or more of those values, or if you feel you did not complete one of the tasks listed above, review the steps in this document to find out what you missed.
 
-Now that you have configured your cloud subscription properly, click on the link below to go through the next Quick Start by adding your cloud subscription into LOD.
+Now that you have configured your cloud subscription properly, click on the link below to go through the next Quick Start where you will add your cloud subscription into LOD.
 
 [Add Subscription into LOD Quick Start](add-subscription-into-lod.md).
 
