@@ -1,32 +1,12 @@
-# Cloud Slice Quick Start - Configure Subscription
+# Cloud Slice Quick Start - Configure Subscription - Microsoft Azure
 
 (Estimated time to completion: **20 minutes**)
 
-This is the first in a series of Quick Starts about Cloud Slice functionality in the OneLearn Lab on Demand platform (LOD).
+In Microsoft Azure, an application registration is used to provision the resources required for each Cloud Slice, providing students with user accounts that can access the resources allocated to them for the duration of their lab. To make this possible, you must configure the application registration as owner over the Microsoft Azure subscription where these resources will be provisioned.
 
-Click ^INSTRUCTIONS[here](quick-start-series.md) to jump to a different Quick Start in this series.
+You only need one Azure Subscription to be able to use Cloud Slice functionality in a lab; however, using multiple Azure subscriptions will give you the benefit of automatic load balancing of a lab across a pool of Azure subscriptions. As a best practice, the Azure subscriptions that you grant OneLearn Lab on Demand access to should only be used for the provisioning of Cloud Slices.
 
-In this Quick Start, you will give LOD permissions to a cloud subscription that you want to use for Cloud Slice labs.
-
-> [!ALERT] As a best practice, any subscription that you configure for use with Cloud Slice labs should be dedicated for that purpose. This practice keeps cloud resources used for learning separate from cloud resources that you may use for other test or production purposes. It also isolates expenses associated with Cloud Slice labs from expenses you may incur related to other cloud resources.
-
-Granting LOD access to a cloud subscription can be a tedious process. Fortunately, you only have to go through it once for each subscription that you want to use, so let's roll up our sleeves and get started.
-
-## Enable Cloud Slice support in your cloud platform
-
-The steps required to grant LOD access to the cloud platform that students will be using within your lab(s) vary depending on the cloud platform that you are working with.
-
-Select the cloud platform associated with the subscription you want to use with Cloud Slice to view the steps required for this Quick Start.
-
-1. [Microsoft Azure](configure-subscription-azure.md)
-1. Amazon Web Services (coming soon)
-1. Google Cloud Platform (coming soon)
-
-## Enable Cloud Slice support in your Microsoft Azure subscription(s)
-
-In Microsoft Azure, an application registration is used to create the subscription and resources contained in each Cloud Slice and to provide students with the user account that they will use to manage that subscription for the duration of their lab. In order to make this possible, this application registration must be configured as owner over each Azure subscription from which it will create each Cloud Slice subscription that is needed. You only need one Azure Subscription to be able to use Cloud Slice functionality in a lab; however, using multiple Azure subscriptions will give you the benefit of automatic load balancing of a lab across a pool of Azure subscriptions. As a best practice, the Azure subscriptions that you grant OneLearn Lab on Demand access to should only be used for the provisioning of Cloud Slices.
-
-To enable Cloud Slice support, you must perform the following tasks once in each Microsoft Azure subscription that you want to use with OneLearn Lab on Demand:
+To enable Cloud Slice support in a Microsoft Azure subscription, you must perform the following tasks:
 
 1. [Create a new application registration in Azure Active Directory with a specific set of permissions][create-app-registration].
 2. [Create an API key for the application registration and record subscription authentication details][create-api-key-and-record-authentication-details].
@@ -37,6 +17,7 @@ To enable Cloud Slice support, you must perform the following tasks once in each
 [create-api-key-and-record-authentication-details]: #create-an-api-key-for-the-application-registration-and-record-authentication-details "Create an API key for the application registration"
 [add-app-registration-as-owner]: #add-the-application-registration-as-owner-to-the-azure-subscription "Add the application registration as owner to the Azure subscription"
 [assign-company-administrator-role]:#assign-company-administrator-role-to-the-application-registration "Assign Company Administrator role to the application registration"
+
 
 
 ### Create a new application registration in Azure AD
