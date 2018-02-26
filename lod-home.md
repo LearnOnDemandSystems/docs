@@ -12,14 +12,14 @@ We hope this documentation helps you create awesome labs!
 
 ## Quick Start Guides
 
-(This section is currently under construction)
+### Getting Started with Cloud Slice
 
-+ **Cloud Slice**
-    * [Configuring your Azure Subscription for use with LOD](lod/quick-starts/cloud-slice/initial-setup.md)
-    * [3 steps to a Cloud Slice lab](lod/quick-starts/cloud-slice/three-step-guide-to-first-cloud-slice-lab.md)
-    * [Adding instructions to your Cloud Slice lab](lod/quick-starts/cloud-slice/adding-instructions-to-your-lab.md)
-    * [Using ARM templates with Cloud Slice](lod/quick-starts/cloud-slice/using-arm-templates-with-cloud-slice.md)
-    * [Adding a Managed VM to your Cloud Slice lab](lod/quick-starts/cloud-slice/adding-a-managed-vm-to-a-cloud-slice-lab.md)
+* [Configuring your Cloud Subscription for use with LOD](lod/quick-starts/cloud-slice/initial-setup.md)
+* [Adding your Cloud Subscription into LOD](lod/quick-starts/cloud-slice/initial-setup.md)
+* [Creating a Cloud Slice lab in 3 steps](lod/quick-starts/cloud-slice/three-step-guide-to-first-cloud-slice-lab.md)
+* [Writing instructions for a Cloud Slice lab](lod/quick-starts/cloud-slice/adding-instructions-to-your-lab.md)
+* [Using Cloud Resource Templates with your Cloud Slice lab](lod/quick-starts/cloud-slice/using-arm-templates-with-cloud-slice.md)
+* [Adding a Managed VM to your Cloud Slice lab](lod/quick-starts/cloud-slice/adding-a-managed-vm-to-a-cloud-slice-lab.md)
 
 ## Feature Documentation
 
