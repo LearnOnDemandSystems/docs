@@ -1,10 +1,25 @@
 # Adding Instructions to Your Lab
 
+> [!ALERT] You are currently viewing the fourth entry in a series of Quick Starts about Cloud Slice.
+>
+> To complete this quick start, you must have the following:
+> * a cloud subscription configured for use with the One Learn Lab on Demand platform (LOD);
+> * a Cloud Subscription Pool created in LOD that contains the cloud subscription(s) you will use with your Cloud Slice;
+> * a lab profile that is properly configured to be a Cloud Slice lab;
+> 
+> If you have not yet configured your Lab Profile to be used with Cloud Slice, go through the [Creating a Cloud Slice lab in 3 steps Quick Start](creating-a-cloud-slice-lab-in-3-steps.md).
+>
+> If you have configured your cloud subscription properly but have not added your subscription into LOD for use with Cloud Slice labs, go through the [Add Subscription into LOD Quick Start](add-subscription-into-lod.md).
+>
+> If you have not yet configured your cloud subscription for use with LOD, go through the [Configure Subscription Quick Start](configure-subscription.md).
+
 Now that you have created a Cloud Slice lab, it is time to add instructions to that lab.
 
 1. [] **Navigate** to the lab profile page for your Cloud Slice lab (you may be there already).
 
-1. [] Click **Check Out** to check out the instructions for your lab.
+1. [] Click **Check Out** to check out the instructions for your lab. 
+
+    (if you are on the page to edit the lab profile, click **details** in the upper-right corner, to return to the lab profile details page, where the instructions can be checked out)
 
     ![Check out Lab Profile](images/check-out-lab-profile.png)
 
@@ -32,3 +47,18 @@ Now that you have created a Cloud Slice lab, it is time to add instructions to t
 
 **You have now successfully added instructions to your first Cloud Slice lab! Great job!**
 
+Once you have added instructions to the lab, the lab is ready to be launched by students. However, there are additional features that can be configured in your Cloud Slice lab; cloud-hosted virtual machines and configuring cloud resources templates. 
+
+> [!ALERT] Adding and configuring Cloud templates and cloud hosted virtual machines in your lab is **optional** and can be skipped if you do not wish to use these features in your Cloud Slice lab. 
+
+Click on the link below to go to the Quick Start where you can configure Resource Templates to use with Cloud Slice.
+
+[Add and configure Cloud Resource Templates with Cloud Slice](using-cloud-resource-templates-with-your-cloud-slice-lab.md)
+
+Click on the link below to go to the Quick Start where you can add cloud-hosted virtual machines to your Cloud Slice lab.
+
+[Add cloud-hosted virtual machines ](using-cloud-resource-templates-with-your-cloud-slice-lab.md)
+
+[Back to top][back-to-top]
+
+[back-to-top]: #cloud-slice-guide---microsoft-azure-setup "Return to the top of the document"
