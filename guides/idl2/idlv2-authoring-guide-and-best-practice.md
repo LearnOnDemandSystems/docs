@@ -1,4 +1,4 @@
-# Learn on Demand Systems IDLx Authoring Guide 
+# Learn on Demand Systems IDLx (Integrated Digital Learning eXperience) Authoring Guide 
 
 
 ## Introduction
