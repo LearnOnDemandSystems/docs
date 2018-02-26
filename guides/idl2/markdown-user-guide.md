@@ -47,7 +47,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 - **Escape character**: used to prevent text from being formatted into Markdown. Type a \ (backslash) at the beginning of the text that is to be escaped. 
 
-    > \escaped text
+  > \escaped text
 
 - **Bullet**: used to separate and order  items in a list without using numbers
 
