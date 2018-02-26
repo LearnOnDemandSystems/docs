@@ -4,7 +4,7 @@
 
 1. [] Paste the sample instructions into your instruction editor, and experiment.
 
-    > [!KNOWLEDGE] Instructions are automatically rendered in the preview pane on the right. This preview gives you an idea how the lab instructions will be displayed to students that launch your lab.
+    > [!NOTE] Instructions are automatically rendered in the preview pane on the right. This preview gives you an idea how the lab instructions will be displayed to students that launch your lab.
 
 ## Sample instructions
 
