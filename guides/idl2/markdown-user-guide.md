@@ -284,24 +284,24 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 - **Replacement Token:** used to replace text in lab instructions with a variable that is unknown at the time of authoring the lab instructions. These variables may not be generated or created until the lab is launched by the student. These can include usernames, user first name, user last name, running lab instance ID number, etc. 
   > | Replacement token           |                                          |
   > | --------------------------- | ---------------------------------------- |
-  > | \@lab.LabInstanceId          | The unique ID of the running lab instance. |
-  > | \@lab.GlobalLabInstanceId    | The globally unique ID of the running lab instance. |
-  > | \@lab.LabProfileId           | The unique ID of the lab profile.        |
-  > | \@lab.UserId                 | The unique ID of user running the lab.   |
-  > | \@lab.UserFirstName          | The first name of the user running the lab. |
-  > | \@lab.UserLastName           | The last name of the user running the lab. |
-  > | \@lab.UserEmail              | The e-mail address of the user running the lab. |
-  > | \@lab.UserExternalId         | The external ID of the user running the lab (if launched via API). |
-  > | \@lab.Tag                    | The tag associated with the lab instance (if specified when launched via API). |
-  > | \@lab.CloudPortalLink        | A link to the cloud portal.              |
-  > | \@lab.CloudPortalUrl         | The cloud portal URL (rendered as text, not a link). |
-  > | \@lab.CloudPortalSignInLink  | A cloud portal sign-in link.             |
-  > | \@lab.CloudPortalSignInUrl   | The cloud portal sign-in URL (rendered as text, not a link). |
-  > | \@lab.CloudPortalSignOutLink | A cloud portal sign-out link.            |
-  > | \@lab.CloudPortalSignOutUrl  | The cloud portal sign-out URL (rendered as text, not a link). |
-  > | \@lab.VirtualMachine(VM-ID).SelectLink | A link to select the (VM-ID) virtual machine |
-  > | \@lab.VirtualMachine(VM-ID).Username | Username for signing into the (VM-ID) virtual machine. |
-  > | \@lab.VirtualMachine(VM-ID).Password | Password for signing into the (VM-ID) virtual machine. |
+  > | `@lab.LabInstanceId`        | The unique ID of the running lab instance. |
+  > | `@lab.GlobalLabInstanceId`    | The globally unique ID of the running lab instance. |
+  > | `@lab.LabProfileId`           | The unique ID of the lab profile.        |
+  > | `@lab.UserId`                 | The unique ID of user running the lab.   |
+  > | `@lab.UserFirstName`          | The first name of the user running the lab. |
+  > | `@lab.UserLastName`           | The last name of the user running the lab. |
+  > | `@lab.UserEmail`              | The e-mail address of the user running the lab. |
+  > | `@lab.UserExternalId`         | The external ID of the user running the lab (if launched via API). |
+  > | `@lab.Tag`                    | The tag associated with the lab instance (if specified when launched via API). |
+  > | `@lab.CloudPortalLink`        | A link to the cloud portal.              |
+  > | `@lab.CloudPortalUrl`         | The cloud portal URL (rendered as text, not a link). |
+  > | `@lab.CloudPortalSignInLink` | A cloud portal sign-in link.             |
+  > | `@lab.CloudPortalSignInUrl`   | The cloud portal sign-in URL (rendered as text, not a link). |
+  > | `@lab.CloudPortalSignOutLink` | A cloud portal sign-out link.            |
+  > | `@lab.CloudPortalSignOutUrl`  | The cloud portal sign-out URL (rendered as text, not a link). |
+  > | `@lab.VirtualMachine(VM-ID).SelectLink` | A link to select the (VM-ID) virtual machine |
+  > | `@lab.VirtualMachine(VM-ID).Username` | Username for signing into the (VM-ID) virtual machine. |
+  > | `@lab.VirtualMachine(VM-ID).Password` | Password for signing into the (VM-ID) virtual machine. |
 
     *(VM-ID) should be replaced with the unique ID of the virtual machine in use.
 
