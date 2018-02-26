@@ -3,7 +3,7 @@
 
 ## Introduction
 
-This guide provides information on the Integrated Digital Lab Version 2 (IDL v2) Platform, the various elements that comprise a lab that uses this platform, the steps for converting a traditional IDL v1 based lab to an IDL v2 based lab, and some tips and best practices.
+This guide provides information on the Integrated Digital Lab Version 2 (IDLx) Platform, the various elements that comprise a lab that uses this platform, the steps for converting a traditional IDL v1 based lab to an IDLx based lab, and some tips and best practices.
 
 ### Intended Audience
 
@@ -15,13 +15,13 @@ This guide assumes that the reader:
 -   Has a help desk support contract to pay for additional custom
     contract work.
 
-## Overview of the Integrated Digital Lab version 2 (IDL v2) Platform
+## Overview of the Integrated Digital Lab version 2 (IDLx) Platform
 
-The IDL v2 platform integrates the lab instructions with the Cloud Portal of choice or virtual machines (VMs) in the lab environment, to guide the users in completing the lab. The IDL v2 platform allows users to view lab instructions inline with the Cloud portal or VMs.
+The IDLx platform integrates the lab instructions with the Cloud Portal of choice or virtual machines (VMs) in the lab environment, to guide the users in completing the lab. The IDLx platform allows users to view lab instructions inline with the Cloud portal or VMs.
 
 An advantage of this presentation format is that the lab steps take up only a relatively small amount of screen real estate. This removes the need to switch back and forth between a lab document and the lab -- these activities distract from performing the lab and can take focus away from the lab steps and goals.
 
-A successful lab that is well-received by users usually contains more than a simple set of basic lab steps or tasks. It will have significant explanatory content to provide context, background information, tips, cautions, and other useful and relevant information. Additionally, visual elements such as screenshots, videos, Alert dialogs and Knowledge blocks can add clarity and reduce the likelihood of error on the part of the user. The IDL v2 platform has the ability to include formatted text and visual content in a way that ensures the focus remains on the lab tasks and the context in which those tasks occur. Instructions for labs that use the IDL v2 platform are authored using Markdown. Markdown allows instructions to be written however the author chooses, and the IDL v2 platform includes an authoring experience that allows for real-time updating of lab content, enabling authors to see exactly what the instructions they are authoring will look like at all times.
+A successful lab that is well-received by users usually contains more than a simple set of basic lab steps or tasks. It will have significant explanatory content to provide context, background information, tips, cautions, and other useful and relevant information. Additionally, visual elements such as screenshots, videos, Alert dialogs and Knowledge blocks can add clarity and reduce the likelihood of error on the part of the user. The IDLx platform has the ability to include formatted text and visual content in a way that ensures the focus remains on the lab tasks and the context in which those tasks occur. Instructions for labs that use the IDLx platform are authored using Markdown. Markdown allows instructions to be written however the author chooses, and the IDLx platform includes an authoring experience that allows for real-time updating of lab content, enabling authors to see exactly what the instructions they are authoring will look like at all times.
 
 ### Launching a lab 
 
@@ -57,7 +57,7 @@ If you are including introductory content directly within the lab instructions, 
 
 ### Lab Instructions
 
-In labs configured to use the IDL v2 platform, lab instructions are written in an IDL flavor of Markdown (idl-md), and what those instructions contain is completely up to the author. There is no predefined format that has to be followed. You simply author lab instructions the way that you want, and they will appear that way to users of the lab. The content you include in your instructions may be all on one page, or you may break up your content across multiple pages. You may include task lists, with or without numbering, with or without subtasks, and you can go as many levels deep as you like. How the lab instructions present to users of your lab is entirely up to you.
+In labs configured to use the IDLx platform, lab instructions are written in an IDL flavor of Markdown (idl-md), and what those instructions contain is completely up to the author. There is no predefined format that has to be followed. You simply author lab instructions the way that you want, and they will appear that way to users of the lab. The content you include in your instructions may be all on one page, or you may break up your content across multiple pages. You may include task lists, with or without numbering, with or without subtasks, and you can go as many levels deep as you like. How the lab instructions present to users of your lab is entirely up to you.
 
 ![](images/idl2-exercises-tasks.png "Lab instructions")
 
@@ -87,11 +87,11 @@ The Help tab allows users to change the theme of the Lab Client, or change the M
 
 The larger pane on the left side of the client is known as the **Resource Portal**. This window will show users whatever resource they are currently viewing in the lab. Resources shown may be cloud portals, managed virtual machine desktops, videos, images, or any URL that you want displayed in the **Resource Portal**. Users can change what is shown in the portal by clicking on the resource in the Resources tab in the **Lab Console**, or they can click in links in the instructions to change what is shown in the portal if the author included links to do so using Markdown syntax (discussed later in this guide).
 
-## Enabling the IDL v2 Client Experience
+## Enabling the IDLx Client Experience
 
-For a lab to launch with the IDL v2 client experience, the lab profile must be configured to use IDL version 2.
+For a lab to launch with the IDLx client experience, the lab profile must be configured to use IDL version 2.
 
-If you have a lab that has not had any instructions added to it yet, you can enable the IDL v2 Client experience by performing the following steps:
+If you have a lab that has not had any instructions added to it yet, you can enable the IDLx Client experience by performing the following steps:
 
 _For any lab that is configured to use the virtualization platform:_
 
@@ -101,7 +101,7 @@ _For any lab that is configured to use the virtualization platform:_
 
     ![](images/has-idl-content.png "Has IDL Content and IDL version selection")
 
-1. Click the up arrow to **change the version to 2**, to enable the IDL v2 client experience.
+1. Click the up arrow to **change the version to 2**, to enable the IDLx client experience.
 1. Click **Save**.
 
 _For any lab that has the virtualization platform set to "None" (e.g. Cloud Slice labs):_
@@ -111,7 +111,7 @@ _For any lab that has the virtualization platform set to "None" (e.g. Cloud Slic
 1. On the **Basic Information tab** of the lab profile Edit page, check **Has IDL Content**.
 1. Click **Save**.
 
-If you have a virtualization lab that already has instructions (a lab with instructions that were written for the legacy client), you can enable the IDL v2 Client experience by performing the following steps:
+If you have a virtualization lab that already has instructions (a lab with instructions that were written for the legacy client), you can enable the IDLx Client experience by performing the following steps:
 
 1. Navigate to your lab profile in Lab on Demand.
 1. Click **Upgrade** next to "Has IDL Content: Version 1" in the lab profile details.
@@ -121,7 +121,7 @@ If you have a virtualization lab that already has instructions (a lab with instr
 
 ### Check Out IDL Manual
 
-Once the IDL v2 client experience is enabled, you must the check out the lab instructions before you can edit them. Checking out the IDL v2 lab instructions ensures that only one person at a time can make changes to the content.
+Once the IDLx client experience is enabled, you must the check out the lab instructions before you can edit them. Checking out the IDLx lab instructions ensures that only one person at a time can make changes to the content.
 
 To check out the instructions for a lab, navigate to the lab profile page, and then click **Check Out**.
 
@@ -135,17 +135,17 @@ Once you have checked out the lab instructions for editing, you are now ready to
 
 When you edit instructions this way, no lab resources are provisioned/launched. You are simply editing the instructions in the lab.
 
-You can also edit lab instructions while you have a lab launched, with real-time updates to your instructions so that you can edit and test at the same time. To do this, launch a lab that uses the IDL v2 Client. Once the lab has launched, on the top right of the User Console is a button with three bars. Click on this to open a menu, and select Edit Instructions. All changes you make to your instructions will be immediately reflected in your currently running lab.
+You can also edit lab instructions while you have a lab launched, with real-time updates to your instructions so that you can edit and test at the same time. To do this, launch a lab that uses the IDLx Client. Once the lab has launched, on the top right of the User Console is a button with three bars. Click on this to open a menu, and select Edit Instructions. All changes you make to your instructions will be immediately reflected in your currently running lab.
 
 ## Authoring Lab Instructions
 
-All instructions are authored in Markdown. Markdown allows for easy plain-text authoring of paragraphs, with special syntax when you want certain items to be formatted differently. You can also use HTML alongside, or in place of, Markdown elements. The following sections describe various items used to create lab content with IDL v2.
+All instructions are authored in Markdown. Markdown allows for easy plain-text authoring of paragraphs, with special syntax when you want certain items to be formatted differently. You can also use HTML alongside, or in place of, Markdown elements. The following sections describe various items used to create lab content with IDLx.
 
 ### Using the Lab Editor
 
 The image below shows what will be seen after clicking **Edit instructions**, as discussed in the previous section. This text editor is where all of the lab content is written and stored. The left side of the editor shows the raw syntax of the lab content, whereas the right side shows how the lab content will be rendered and displayed to users.
 
-![](images/idl2-text-editor.png "IDL 2 Instruction Editor")
+![](images/idl2-text-editor.png "IDLx Instruction Editor")
 
 - **Disk icon:** Click to save current progress; this is not necessary if autosave is enabled.
 - **@lab:** Replacement Tokens are used to create a placeholder for dynamic text that will be added to the lab when it is launched. This is helpful if you do not know the information at the time of authoring the lab, but would like specific information to be inserted later when the user is in the lab. Examples of this are usernames, passwords, unique ID numbers, etc.
@@ -299,7 +299,7 @@ The following are some best practices for incorporating screenshots into your la
 
 #### Virtual Machine Select
 
-During a lab, a lab user may be required to perform configuration steps on two or more VMs. A common source of errors in labs is performing lab tasks on the wrong VM. The IDL v2 platform mitigates this risk by providing the means to change to the correct VM within a task, by clicking a link in the lab instructions or selecting the appropriate VM from the Resources tab.
+During a lab, a lab user may be required to perform configuration steps on two or more VMs. A common source of errors in labs is performing lab tasks on the wrong VM. The IDLx platform mitigates this risk by providing the means to change to the correct VM within a task, by clicking a link in the lab instructions or selecting the appropriate VM from the Resources tab.
 
 The virtual machine Replacement Token allows the user to make a different VM active, by clicking a link in the lab instructions. Although this functionality is also available from the Resources tab, the advantage of using the virtual machine Replacement Token is that the lab user can switch the active VM from within the task itself.
 
@@ -335,7 +335,7 @@ To add removable media to the lab instructions using a Replacement Token:
 
 ## Markdown Syntax
 
-Markdown is an easy to use markup language to format text, that offers multiple ways to achieve the same result. Markdown was designed to be easy to learn as well as be easy to read and write. When creating IDL v2 lab content, you may use Markdown to format text. Markdown allows the author to keep their hands on the keyboard and focus on writing content. Markdown supports HTML, and HTML syntax can be used in combination with Markdown. You can use the following Markdown syntax  to perform formatting.
+Markdown is an easy to use markup language to format text, that offers multiple ways to achieve the same result. Markdown was designed to be easy to learn as well as be easy to read and write. When creating IDLx lab content, you may use Markdown to format text. Markdown allows the author to keep their hands on the keyboard and focus on writing content. Markdown supports HTML, and HTML syntax can be used in combination with Markdown. You can use the following Markdown syntax  to perform formatting.
 
 ### Headings
 
@@ -362,25 +362,25 @@ To create a multiple choice review, in the Scoring Type drop-down, select **Asse
 
 ## Additional Features
 
-### Converting a traditional IDL v1 based lab to an IDL v2 based lab
+### Converting a traditional IDL v1 based lab to an IDLx based lab
 
-Traditional IDL v1 labs can be converted to IDL v2 labs easily in Lab on Demand. The conversion process does not convert some items correctly, and you may still need to look over the content to ensure everything appears as expected. Converting to IDL v2 is not permanent and can be reverted back to IDL v1 at any time, from the lab profile page. To revert the lab back to IDL v1, toggle the version selection on the Basic Information tab, on the edit lab profile page.
+Traditional IDL v1 labs can be converted to IDLx labs easily in Lab on Demand. The conversion process does not convert some items correctly, and you may still need to look over the content to ensure everything appears as expected. Converting to IDLx is not permanent and can be reverted back to IDL v1 at any time, from the lab profile page. To revert the lab back to IDL v1, toggle the version selection on the Basic Information tab, on the edit lab profile page.
 
-To convert an IDL v1 lab to IDL v2:
+To convert an IDL v1 lab to IDLx:
 
 1. Navigate to the **lab profile** page.
 
 1. Click **Upgrade** next to **Has IDL Content**. (this will display the current version of the lab profile)
 
-    ![](images/upgrade-button.png "Upgrade lab profile to IDL 2")
+    ![](images/upgrade-button.png "Upgrade lab profile to IDLx")
 
 1. Select how screenshots and videos should be converted. They can be converted **inline** (recommended) or **as links**.
 
     ![](images/screenshots-as-links-or-inline.png "Select how screenshots and videos will be converted")
 
-1. After making a selection, **Click OK** to convert the lab to IDL v2.
+1. After making a selection, **Click OK** to convert the lab to IDLx.
 
-The lab is now IDL v2. You can confirm by checking the **Has IDL Content** field on the lab profile **Basic Information** section. 
+The lab is now IDLx. You can confirm by checking the **Has IDL Content** field on the lab profile **Basic Information** section. 
 
 ### Create and Incorporate Advertising Campaigns
 
