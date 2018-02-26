@@ -2,13 +2,13 @@
 
 ## Create a Cloud Subscription Pool
 
-1. Navigate to the <[Lab on Demand Administration page](https://labondemand.com/Admin).
+1. Navigate to the <[Lab on Demand Administration page](/Admin).
 
-1. Click on <[Cloud Subscription Pools](https://labondemand.com/CloudSubscriptionPool) on the Cloud tile. 
+1. Click on <[Cloud Subscription Pools](/CloudSubscriptionPool) on the Cloud tile. 
 
     !IMAGE[Cloud Subscription Pools](images/lod-open-cloud-subscription-pools.png)
 
-1. Next, click <[Create Cloud Subscription Pool](https://labondemand.com/CloudSubscriptionPool/Create) in the upper-right corner of the page. 
+1. Next, click <[Create Cloud Subscription Pool](/CloudSubscriptionPool/Create) in the upper-right corner of the page. 
 
     !IMAGE[Create Cloud Subscription Pool](images/lod-create-cloud-subscription-pool.png)
 
