@@ -86,4 +86,6 @@ After a Subscription Pool is created, on the next screen, click **Create Cloud S
 1. **Instance Storage**: The name of a container in the Instance Storage Account where template VHDs will be copied when a Cloud Slice lab configured to use those template VHDs is deployed.
 
 
-    
+Now that you have added your subscription into LOD for use with Cloud Slice labs, click on the link below to go through the next Quick Start where you will create a Cloud Slice lab in 3 steps.
+
+[Creating a Cloud Slice lab in 3 steps](creating-a-cloud-slice-lab-in-3-steps.md)
