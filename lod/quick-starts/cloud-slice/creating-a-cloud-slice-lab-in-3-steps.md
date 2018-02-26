@@ -1,8 +1,16 @@
-# 3 steps to create your first Cloud Slice lab
+# Cloud Slice Quick Start - Creating a Cloud Slice lab in 3 steps
 
-Creating your first Cloud Slice lab is as easy as 1-2-3.
+> [!ALERT] You are currently viewing the third entry in a series of Quick Starts about Cloud Slice.
+>
+> To complete this quick start, you must have the following:
+> * a cloud subscription configured for use with the One Learn Lab on Demand platform (LOD);
+> * a Cloud Subscription Pool created in LOD that contains the cloud subscription(s) you will use with your Cloud Slice;
+> 
+> If you have not yet configured your cloud subscription for use with LOD, go through the [Configure Subscription Quick Start](configure-subscription.md).
+>
+> If you have configured your cloud subscription properly but have not added your subscription into LOD for use with Cloud Slice labs, go through the [Add Subscription into LOD Quick Start](add-subscription-into-lod.md).
 
-> [!ALERT] If you do not have a Cloud Subscription Pool ready for use with Cloud Slice labs, go through the [Azure Setup Quick Start Guide](TODO.md) first.
+Creating your first Cloud Slice lab is as easy as 1-2-3!
 
 ## Step 1: Create a Lab Profile
 

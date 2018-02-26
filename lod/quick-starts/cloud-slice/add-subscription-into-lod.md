@@ -1,4 +1,11 @@
-# Cloud Slice Initial Configuration
+# Cloud Slice Quick Start - Add Subscription Into LOD
+
+> [!ALERT] You are currently viewing the second entry in a series of Quick Starts about Cloud Slice.
+>
+> To complete this quick start, you must have the following:
+> * a cloud subscription configured for use with the One Learn Lab on Demand platform (LOD);
+> 
+> If you have not yet configured your cloud subscription for use with LOD, go through the [Configure Subscription Quick Start](configure-subscription.md).
 
 ## Create a Cloud Subscription Pool
 
