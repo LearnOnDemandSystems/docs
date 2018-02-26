@@ -39,7 +39,7 @@
 
 After a Subscription Pool is created, on the next screen, click **Create Cloud Subscription**.
 
-    !IMAGE[Create a Cloud Subscription](images/create-cloud-subscription-from-subscription-pool.png)
+   !IMAGE[Create a Cloud Subscription](images/create-cloud-subscription-from-subscription-pool.png)
 
 **Complete the following fields**, then **click OK** to create a Cloud Subscription. 
 
