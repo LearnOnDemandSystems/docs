@@ -6,9 +6,9 @@ Creating your first Cloud Slice lab is as easy as 1-2-3.
 
 ## Step 1: Create a Lab Profile
 
-1. [ ] Navigate to the <[Lab on Demand Administration page](https://labondemand.com/Admin).
+1. [ ] Navigate to the <[Lab on Demand Administration page](/Admin).
 
-1. [ ] Find the **Lab Profiles** tile and click on the <[Create a Lab Profile](https://labondemand.com/LabProfile/Create) link.
+1. [ ] Find the **Lab Profiles** tile and click on the <[Create a Lab Profile](/LabProfile/Create) link.
 
     !IMAGE[screenshot](images/create-a-lab-profile.png)
     
