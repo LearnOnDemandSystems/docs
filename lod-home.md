@@ -35,10 +35,9 @@ Feature Focus will help you to learn more about specific features in LOD.
     * [Set up a Cloud Slice lab](guides/cloud-slice/cloud-slice.md)
     * [Create a Cloud Subscription](lod/create-cloud-subscription.md)
     * [Create a Cloud Subscription Pool](lod/create-cloud-subscription-pool.md)
-+ **Lab Instruction Authoring**
-    * [IDL 1 Authoring Guide](guides/idl/idlv3.md)
-    * [IDL 2 Authoring Guide](guides/idl2/idlv2-authoring-guide-and-best-practice.md)
-    * [Markdown Reference Guide](guides/idl2/markdown-user-guide.md)
++ **Lab Authoring**
+    * [IDLx Authoring Guide](guides/idl2/idlv2-authoring-guide-and-best-practice.md)
+    * [IDL (legacy) Authoring Guide](guides/idl/idlv3.md)
 + **Lab Developer**
     * [Custom CSS](lod/custom-css-guide.md)
     * [GitHub Integration](guides/github-integration/github-integration.md)
