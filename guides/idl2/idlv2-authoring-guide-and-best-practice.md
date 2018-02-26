@@ -333,12 +333,6 @@ To add removable media to the lab instructions using a Replacement Token:
 1. Select the removable media to be used. (refer to the description column of the Replacement Token menu for media type and details).
 1. Click **Insert**.
 
-## Markdown Syntax
-
-Markdown is an easy to use markup language to format text, that offers multiple ways to achieve the same result. Markdown was designed to be easy to learn as well as be easy to read and write. When creating IDLx lab content, you may use Markdown to format text. Markdown allows the author to keep their hands on the keyboard and focus on writing content. Markdown supports HTML, and HTML syntax can be used in combination with Markdown. You can use the following Markdown syntax  to perform formatting.
-
-### Headings
-
 !INSTRUCTIONS[](markdown-user-guide.md)
 
 ## Add Review Questions as an Assessment Exam to a Lab
