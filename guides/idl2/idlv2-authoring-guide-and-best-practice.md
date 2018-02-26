@@ -15,7 +15,7 @@ This guide assumes that the reader:
 -   Has a help desk support contract to pay for additional custom
     contract work.
 
-## Overview of the Integrated Digital Lab version 2 (IDLx) Platform
+## Overview of the Integrated Digital Learning eXperience (IDLx) Platform
 
 The IDLx platform integrates the lab instructions with the Cloud Portal of choice or virtual machines (VMs) in the lab environment, to guide the users in completing the lab. The IDLx platform allows users to view lab instructions inline with the Cloud portal or VMs.
 
