@@ -56,6 +56,8 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 - **Inline code block**: used to provide a snippet of code that can be copied and pasted. Type a ` (backtick) on each side of the text that is to be displayed in the code block. The backtick is located above the tab key, to the left of the 1 key on the keyboard.
 
   > <code>`code block`</code> 
+  >
+  > ![](images/code-block.png "Code Block")
 
 - **Fenced code block**: used to provide a programming language-specific code snippet. Type three ` (backticks) on each side of the text that should be displayed in the fenced code block. This should consume at least 3 lines in the text editor; the first line should display three backticks followed by the programming language name, the second line should display the code snippet, and the last line should only display three backticks. Markdown allows for more than one line to be used to display the code snippet. 
 
@@ -64,6 +66,8 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
   > get-service | stop-service -whatif
   > ```
   > ~~~
+  >
+  > ![](images/fenced-code-block.png "Fenced Code Block")
 
 [Return to Markdown formatting](#markdown-user-guide)
 
@@ -133,10 +137,14 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 - **Image Link:** used to display a link with a camera icon, to suggest that the hyperlink opens an image
 
   > `IMAGE[text to display](URL to image)`
+  >
+  > ![](images/image-link.png "Image Link")
 
 - **Video Link:** used to display a link with a videocamera icon, to suggest that the hyperlink opens a video
 
   > `VIDEO[text to display](URL to video)`
+  >
+  > ![](images/video-link.png "Video Link")
   
   [Return to Markdown formatting](#markdown-user-guide)
 
@@ -226,11 +234,15 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 - **Knowledge Block:** Used to provide additional information, to help students better understand lab steps or lab content. Knowledge blocks are limited to only show 4 lines of the lab content. After 4 lines, a _more_ link will be shown, allowing the student to expand the Knowledge Block and review additional information.
 
-  > \> [!KNOWLEDGE] knowledge text here.
+  > \> [!KNOWLEDGE] Knowledge blocks helps students learn more.
+  >
+  > ![](images/idl2-knowledge.png "Knowledge Block")
 
 - **Alert:** Used to draw attention to important issues, such as showing additional information or steps that the student may need complete to avoid other issues. 
 
   > \> [!ALERT] alert text here.
+  >
+  > ![](images/idl2-alert.png "Alert Block")
 
 - **Note:** used to provide additional information, similar to a Knowledge Block, with the only difference being that Notes do not collapse and show a _more_ link to expand the section. 
 
@@ -253,6 +265,8 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
   >~~~
   >@[Text to display](`command`)
   >~~~
+  >
+  > ![](images/idl2-command.png "Command")
 
 - **Include:**  used to input text from a GitHub raw link. This is useful to use to pull in content hosted on GitHub. Navigate to the GitHub page containing the content to be used, click the Raw button, then copy the URL of that page and include it in the below syntax. 
  
@@ -264,6 +278,8 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
    - Define content
         > ```>[reference label]: Content goes here```
+        >
+        > ![Refernce Instruction Block](images/reference-instruction-blocks.png)
 
    - Reference Content
         > ```!INSTRUCTIONS[][label]```
@@ -271,10 +287,15 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 - **Copyable Text:** used to make text copy to the local clipboard when the student clicks the text. Type two + (plus) symbols on each side of the text that should be made copyable. 
 
   > \++Click to copy to clipboard++
+  >
+  > ![](images/copyable-text.png "Copyable Text")
+  
 
 - **Type Text:** used to target the Portal window to input text. Clicking the text in the lab instructions will input text into the item in focus, on the Portal Window Type three + (plus) symbols on each side of the text that should be made into Type Text. 
 
   > \+++Click to type in to your managed VM+++
+  >
+  > ![](images/type-text.png "Type Text")
   
 - **Embed YouTube video:** used to embed a YouTube video inline with the lab instructions. URLs from YouTube.com automatically embed. Videos from any other URL will not embed.
 
