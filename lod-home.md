@@ -2,15 +2,17 @@
 
 Welcome to the Lab on Demand (LOD) platform, @lab.UserFirstName!
 
-If you're new to LOD, have a look at our [Quick Start Guides](#quick-start-guides) section. Quick Start guides allow you to fast track your learning experience, helping you get more value from the platform as quickly as possible.
+If you're new to LOD, have a look at our [Quick Starts](#quick-starts).
 
-If you've already gone through some of the Quick Start guides, and want to learn more about a specific feature in LOD, have a look at our [Feature Documentation](#feature-documentation) section. Feature documentation will help you to learn more about specific features in LOD.
+After you have gone through some of the Quick Starts, or if you simply want to learn more about a specific feature in LOD, have a look at our [Feature Focus](#feature-focus) section.
 
 If you've already read through the documentation that is available on a topic, and you are still looking for more information, or have questions, check out the resources available to you on our [Contact Us](contact-us.md) page.
 
 We hope this documentation helps you create awesome labs!
 
-## Quick Start Guides
+## Quick Starts
+
+Quick Starts allow you to fast track your learning experience, helping you get more value from the platform as quickly as possible.
 
 ### Getting Started with Cloud Slice
 
@@ -21,7 +23,9 @@ We hope this documentation helps you create awesome labs!
 * [Using Cloud Resource Templates with your Cloud Slice lab](lod/quick-starts/cloud-slice/using-arm-templates-with-cloud-slice.md)
 * [Adding a Managed VM to your Cloud Slice lab](lod/quick-starts/cloud-slice/adding-a-managed-vm-to-a-cloud-slice-lab.md)
 
-## Feature Documentation
+## Feature Focus
+
+Feature Focus will help you to learn more about specific features in LOD.
 
 + **LOD General**
     * [Create a user](lod/create-user.md)
