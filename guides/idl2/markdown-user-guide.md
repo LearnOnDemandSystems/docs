@@ -23,6 +23,8 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 > - `##### Heading 5`
 > -  `###### Heading 6` 
 
+[Return to Markdown formatting](#markdown-user-guide)
+
 ## Text Formatting
 
 - **Indent size**: pressing the tab key will indent 4 spaces.
@@ -64,6 +66,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
   > ~~~
 
 [Return to Markdown formatting](#markdown-user-guide)
+
 ## Link formatting
 
 - **Internal link**: Used to link to a specific section within a document. 
@@ -88,6 +91,8 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
   - **_Footnote style_**:
     > \[Reference link][1]
     > \[1]: URL "Optional link title"
+    
+[Return to Markdown formatting](#markdown-user-guide)
 
 ## Page formatting
 
@@ -104,6 +109,8 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
   > \> text here
   >
   > \> additional text 
+  
+  [Return to Markdown formatting](#markdown-user-guide)
  
 ## Embedded content
 
@@ -130,6 +137,8 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 - **Video Link:** used to display a link with a videocamera icon, to suggest that the hyperlink opens a video
 
   > `VIDEO[text to display](URL to video)`
+  
+  [Return to Markdown formatting](#markdown-user-guide)
 
 ## List formatting
 
@@ -210,6 +219,8 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 | data 1   | data 2   |
 | data 3   | data 4   |
 ```
+
+[Return to Markdown formatting](#markdown-user-guide)
 
 ## Special formatting 
 
@@ -295,3 +306,5 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
     *(VM-ID) should be replaced with the unique ID of the virtual machine in use.
 
 ---
+
+[Return to Markdown formatting](#markdown-user-guide)
