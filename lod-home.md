@@ -1,6 +1,6 @@
-# Lab on Demand Help
+# OneLearn Lab on Demand Help
 
-Welcome to the Lab on Demand (LOD) platform, @lab.UserFirstName!
+Welcome to the OneLearn Lab on Demand platform (LOD), @lab.UserFirstName!
 
 If you're new to LOD, have a look at our [Quick Starts](#quick-starts).
 
@@ -16,12 +16,12 @@ Quick Starts allow you to fast track your learning experience, helping you get m
 
 ### Getting Started with Cloud Slice
 
-* [Configuring your Cloud Subscription for use with LOD](lod/quick-starts/cloud-slice/initial-setup.md)
-* [Adding your Cloud Subscription into LOD](lod/quick-starts/cloud-slice/initial-setup.md)
-* [Creating a Cloud Slice lab in 3 steps](lod/quick-starts/cloud-slice/three-step-guide-to-first-cloud-slice-lab.md)
-* [Writing instructions for a Cloud Slice lab](lod/quick-starts/cloud-slice/adding-instructions-to-your-lab.md)
-* [Using Cloud Resource Templates with your Cloud Slice lab](lod/quick-starts/cloud-slice/using-arm-templates-with-cloud-slice.md)
-* [Adding a Managed VM to your Cloud Slice lab](lod/quick-starts/cloud-slice/adding-a-managed-vm-to-a-cloud-slice-lab.md)
+* [Configuring your Cloud Subscription for use with LOD](lod/quick-starts/cloud-slice/configure-subscription.md)
+* [Adding your Cloud Subscription into LOD](lod/quick-starts/cloud-slice/add-subscription-into-lod.md)
+* [Creating a Cloud Slice lab in 3 steps](lod/quick-starts/cloud-slice/creating-a-cloud-slice-lab-in-3-steps.md)
+* [Writing instructions for a Cloud Slice lab](lod/quick-starts/cloud-slice/writing-instructions-for-a-cloud-slice-lab.md)
+* [Using Cloud Resource Templates with your Cloud Slice lab](lod/quick-starts/cloud-slice/using-cloud-resource-templates-with-your-cloud-slice-lab.md)
+* [Adding a managed VM to your Cloud Slice lab](lod/quick-starts/cloud-slice/adding-a-managed-vm-to-a-cloud-slice-lab.md)
 
 ## Feature Focus
 
