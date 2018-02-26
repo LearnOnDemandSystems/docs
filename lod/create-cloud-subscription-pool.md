@@ -1,4 +1,4 @@
-# Create a Cloud Subscription
+# Create a Cloud Subscription Pool
 
 Cloud Subscription Pools are used by labs to provision Cloud Slices in a load balanced fashion. As users launch a Cloud Slice lab, they will be given access to a slice of one of the available subscriptions in the subscription pool associated with the lab. Even if you are only using one managed Cloud Subscription, you still must create a Cloud Subscription Pool. This setup allows you to add additional subscriptions to your subscription pool later, at which point you will gain the benefits of the load balancing support that the platform provides.
 
@@ -6,9 +6,9 @@ Load balancing evenly distributes Cloud Slices across subscriptions in a Cloud S
 
 1. To **create a Cloud Subscription**, click on **Cloud Subscription Pools** from the Lab on Demand Administration page. 
 
-1. Next, click **Create Cloud Subscription Pool** in the upper-right corner of the page. 
-
 ![Cloud Subscription Pools](images/lod-open-cloud-subscription-pools.png)
+
+1. Next, click **Create Cloud Subscription Pool** in the upper-right corner of the page. 
 
 ![Create Cloud Subscription Pool](images/create-cloud-subscription-pool.png)
 
