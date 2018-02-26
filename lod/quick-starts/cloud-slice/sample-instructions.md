@@ -1,12 +1,12 @@
-1. [] Click anywhere in the sample instructions ([below](#sample-instructions)) to copy the sample instructions into your clipboard.
+# Copy sample instructions into your lab
+
+1. [] Click anywhere in the sample instructions [below](#sample-instructions) to copy the sample instructions into your clipboard.
 
 1. [] Paste the sample instructions into your instruction editor, and experiment.
 
-    > [!KNOWLEDGE] Instructions are automatically rendered in the preview pane on the right. This preview gives you an idea how the lab instructions will be displayed to students that launch your Cloud Slice lab.
+    > [!KNOWLEDGE] Instructions are automatically rendered in the preview pane on the right. This preview gives you an idea how the lab instructions will be displayed to students that launch your lab.
 
-1. [] Click the **X** on the top right corner of the dialog window to close it.
-
-## Sample Instructions
+## Sample instructions
 
 ~~~Markdown
 # Introduction to Markdown (idl-md) Authoring
