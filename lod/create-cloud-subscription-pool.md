@@ -8,7 +8,7 @@ Load balancing evenly distributes Cloud Slices across subscriptions in a Cloud S
 
 1. Next, click **Create Cloud Subscription Pool** in the upper-right corner of the page. 
 
-![Cloud Subscription Pools](images/cloud-subscription-pools.png)
+![Cloud Subscription Pools](images/lod-open-cloud-subscription-pools.png)
 
 ![Create Cloud Subscription Pool](images/create-cloud-subscription-pool.png)
 
