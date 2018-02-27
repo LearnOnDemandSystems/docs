@@ -1,6 +1,0 @@
-* [Configuring your Cloud Subscription for use with LOD](configure-subscription.md)
-* [Adding your Cloud Subscription into LOD](add-subscription-into-lod.md)
-* [Creating a Cloud Slice lab in 3 steps](creating-a-cloud-slice-lab-in-3-steps.md)
-* [Writing instructions for a Cloud Slice lab](writing-instructions-for-a-cloud-slice-lab.md)
-* [Using Cloud Resource Templates with your Cloud Slice lab](using-cloud-resource-templates-with-your-cloud-slice-lab.md)
-* [Adding a managed VM to your Cloud Slice lab](adding-a-managed-vm-to-a-cloud-slice-lab.md)

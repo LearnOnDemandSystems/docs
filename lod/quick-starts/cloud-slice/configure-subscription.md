@@ -1,10 +1,8 @@
 # Cloud Slice Quick Start - Configure Subscription
 
-(Estimated time to completion: **20 minutes**)
+Estimated time to completion: **20 minutes**.
 
 This is the first in a series of Quick Starts about Cloud Slice functionality in the OneLearn Lab on Demand platform (LOD).
-
-Click ^INSTRUCTIONS[here](quick-start-series.md) to jump to a different Quick Start in this series.
 
 In this Quick Start, you will give LOD permissions to a cloud subscription that you want to use for Cloud Slice labs.
 
@@ -14,9 +12,9 @@ Granting LOD access to a cloud subscription can be a tedious process. Fortunatel
 
 Select the cloud platform associated with the subscription you want to use with Cloud Slice and follow the steps to configure that subscription.
 
-1. [Microsoft Azure](configure-subscription-azure.md)
-1. Amazon Web Services (coming soon)
-1. Google Cloud Platform (coming soon)
+1. [Microsoft Azure](configure-subscription-azure.md).
+1. Amazon Web Services (coming soon).
+1. Google Cloud Platform (coming soon).
 
 Now that you have configured your cloud subscription properly, click on the link below to go through the next Quick Start where you will add that cloud subscription into LOD.
 
