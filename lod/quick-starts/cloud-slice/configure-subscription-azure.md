@@ -29,6 +29,7 @@ To create a new application registration in Azure Active Directory, do the follo
 1. [] In the Create blade, enter the following values into the fields provided, and then click **Create** to create the new application registration.
 
     |Field Name|Field Value|
+    |--|--|
     |**Name**|++lod-cloud-slice-app++ (or any other name you prefer)|
     |**Application type**|Web app/API|
     |**Sign-on URL**|++https://labondemand.com/User/SignIn++|
