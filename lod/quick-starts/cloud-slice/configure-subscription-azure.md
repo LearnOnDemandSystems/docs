@@ -184,7 +184,9 @@ Now that you have a global administrator account you can use, you need to use Wi
     Connect-AzureAD -TenantId $cloudTenant
     ```
 
-    When you are prompted to enter the name of your tenant, enter the Tenant Name that you recorded earlier. This will be in the format "_domainName_.onmicrosoft.com". Once you have provided that information, you will be presented with an Azure Active Directory PowerShell login dialog. Enter the username and password for the global administrator account you will use to assign the Company Administrator role to the application registration, and then click **Sign in**.
+    **When you are prompted to enter the name of your tenant, enter the Tenant Name that you recorded earlier. This will be in the format "_domainName_.onmicrosoft.com".**
+
+    Once you have provided that information, you will be presented with an Azure Active Directory PowerShell login dialog. Enter the username and password for the global administrator account you will use to assign the Company Administrator role to the application registration, and then click **Sign in**.
 
     ![Azure Active Directory PowerShell Sign-in](images/azure-ad-powershell-signin.png)
 
@@ -201,7 +203,9 @@ Now that you have a global administrator account you can use, you need to use Wi
     Add-AzureADDirectoryRoleMember -ObjectId $companyAdminRole.ObjectId -RefObjectId $appRegistration.ObjectId
     ```
 
-    When you run this command, you will be prompted to enter your Application ID. This is the ID of the application registration that you recorded earlier.
+    **When you run this, you will be prompted to enter your Application ID. This is the ID of the application registration that you recorded earlier.**
+
+    Once you have provided that information, the Company Administrator role will be added to your application registration.
 
 **If you made it this far, you have successfully added the Company Administrator role to your application registration. Congratulations!**
 
@@ -209,21 +213,21 @@ Now that you have a global administrator account you can use, you need to use Wi
 
 ## Review Checklist
 
-By now you should have completed the following using one or more Azure subscriptions:
+By now you should have completed the following using your Azure subscription:
 
 - Created an application registration in Azure Active Directory.
 - Assigned the required permissions to that application registration.
 - Added the application registration as owner to an Azure subscription.
 - Added the Company Administrator role to the application registration.
 
-You should also have captured the following pieces of information for each Azure subscription you are using for Cloud Slice deployment:
+You should also have captured the following pieces of information from the Azure subscription you are using for Cloud Slice deployment:
 
-- Azure subscription ID
-- Azure Active Directory domain name
-- Azure application registration application ID
-- Azure application registration API key
+- Subscription ID
+- Tenant Name
+- Application ID
+- Application Secret
 
-These values are required for the OneLearn Lab on Demand platform to be able to provision Cloud Slices for your labs. If you are missing one or more of those values, or if you feel you did not complete one of the tasks listed above, review the steps in this document to find out what you missed.
+These values are required for the OneLearn Lab on Demand platform to be able to provision Cloud Slices for your labs. If you are missing one or more of those values, or if you feel you did not complete one of the tasks listed above, review the steps above to find out what you missed.
 
 Now that you have configured your cloud subscription properly, click on the link below to go through the next Quick Start where you will add your cloud subscription into LOD.
 
