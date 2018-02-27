@@ -18,12 +18,14 @@ Quick Starts allow you to fast track your learning experience, helping you get m
 
 With the Cloud Slice feature, LOD is able to support cloud learning at scale. Learners are provided with a slice of a cloud subscription that they can use for the duration of their learning experience, limited however you configure it. This series of Quick Starts will walk you through every step required to create a feature-rich Cloud Slice lab.
 
-* [Configuring your Cloud Subscription for use with LOD](lod/quick-starts/cloud-slice/configure-subscription.md) (20 minutes)
-* [Adding your Cloud Subscription into LOD](lod/quick-starts/cloud-slice/add-subscription-into-lod.md) (5 minutes)
-* [Creating a Cloud Slice lab in 3 steps](lod/quick-starts/cloud-slice/creating-a-cloud-slice-lab-in-3-steps.md) (5 minutes)
-* [Writing instructions for a Cloud Slice lab](lod/quick-starts/cloud-slice/writing-instructions-for-a-cloud-slice-lab.md) (10 minutes)
-* [Using Cloud Resource Templates with your Cloud Slice lab](lod/quick-starts/cloud-slice/using-cloud-resource-templates-with-your-cloud-slice-lab.md) (10 minutes)
-* [Adding a managed VM to your Cloud Slice lab](lod/quick-starts/cloud-slice/adding-a-managed-vm-to-a-cloud-slice-lab.md) (10 minutes)
+|Duration|Quick Start|
+|--|--|
+|20 minutes|[Configuring your Cloud Subscription for use with LOD](lod/quick-starts/cloud-slice/configure-subscription.md)|
+|5 minutes|[Adding your Cloud Subscription into LOD](lod/quick-starts/cloud-slice/add-subscription-into-lod.md)|
+|5 minutes|[Creating a Cloud Slice lab in 3 steps](lod/quick-starts/cloud-slice/creating-a-cloud-slice-lab-in-3-steps.md)|
+|10 minutes|[Writing instructions for a Cloud Slice lab](lod/quick-starts/cloud-slice/writing-instructions-for-a-cloud-slice-lab.md)|
+|10 minutes|[Using Cloud Resource Templates with your Cloud Slice lab](lod/quick-starts/cloud-slice/using-cloud-resource-templates-with-your-cloud-slice-lab.md)|
+|10 minutes|[Adding a managed VM to your Cloud Slice lab](lod/quick-starts/cloud-slice/adding-a-managed-vm-to-a-cloud-slice-lab.md)|
 
 ## Feature Focus
 
