@@ -1,4 +1,4 @@
-﻿**Learn on Demand Systems Performance Based Testing Guide**
+# Learn on Demand Systems Performance Based Testing Guide
 
 **Revision History**
 
