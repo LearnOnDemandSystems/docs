@@ -74,4 +74,4 @@ When you log in, you are brought through the Microsoft Azure onboarding experien
 
 Click **Maybe later** to skip the tour, and then have a look around. You do anything in Azure that this student was given permission to do in your subscription. Don't worry, you can tighten up what students can and cannot do later. Now let's shift gears, and start adding instructions to enhance the learning experience.
 
-Click [Add Lab Instructions Quick Start Guide](adding-instructions-to-your-lab.md) to learn how to add instructions to your Cloud Slice lab.
+Click [Add Lab Instructions Quick Start Guide](writing-instructions-for-a-cloud-slice-lab.md) to learn how to add instructions to your Cloud Slice lab.
