@@ -1,6 +1,4 @@
----
 # Shared Labs
----
 
 ## Summary:
 Shared Labs is a tool used in LODS to create environments which share
