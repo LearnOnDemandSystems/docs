@@ -57,7 +57,7 @@ Click on the link below to go to the Quick Start where you can configure Resourc
 
 Click on the link below to go to the Quick Start where you can add cloud-hosted virtual machines to your Cloud Slice lab.
 
-[Add cloud-hosted virtual machines ](using-cloud-resource-templates-with-your-cloud-slice-lab.md)
+[Add cloud-hosted virtual machines ](adding-a-managed-vm-to-a-cloud-slice-lab.md)
 
 [Back to top][back-to-top]
 
