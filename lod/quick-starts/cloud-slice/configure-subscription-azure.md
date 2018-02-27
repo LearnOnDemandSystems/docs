@@ -30,7 +30,7 @@ To create a new application registration in Azure Active Directory, do the follo
 
     |Field Name|Field Value|
     |--|--|
-    |**Name**|++lod-cloud-slice-app++ (or any other name you prefer)|
+    |**Name**|++cloud-slice-app++ (or any other name you prefer)|
     |**Application type**|Web app/API|
     |**Sign-on URL**|++https://labondemand.com/User/SignIn++|
 
@@ -118,7 +118,7 @@ Once you have created the application registration and assigned appropriate dire
 1. [] Click on **Access control (IAM)** to open the identity and access management options for the subscription.
 1. [] Click on the **Add** button to add permissions to the subscription.
 1. [] In the **Role** drop down list, ensure that Owner is selected.
-1. [] In the **Select** field, enter ++lod-cloud-slice-app++, or whatever other name you chose as the name of the application registration that you created for Cloud Slice management.
+1. [] In the **Select** field, enter ++cloud-slice-app++, or whatever other name you chose as the name of the application registration that you created for Cloud Slice management.
 1. [] Select the application registration in the list of search results that are displayed.
 1. [] Click on the **Save** button at the bottom of the Add permissions blade to save the permissions you have selected.
 
