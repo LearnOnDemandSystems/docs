@@ -39,8 +39,8 @@
 | Alert             | `> [!ALERT] Alert blocks draw attention to important issues!` |
 | Note              | `> [!NOTE]`                              |
 | Include           | `!INSTRUCTIONS[](url)`                |
-| Reference Instruction Block (Define) | `>[reference label]: Content goes here`      |
-| Reference Reference Instruction Block (reference) | `!INSTRUCTIONS[][label]` |
+| Reference Instruction Block (Define) | ```>[reference label]: Content goes here```      |
+| Reference Reference Instruction Block (reference) | ```!INSTRUCTIONS[][label]``` |
 | Copyable Text     | `++copyable text++`                      |
 | Type Text         | `+++Type text+++`                      |
 | Replacement Token | `Click the @lab toolbar button or type "@lab." in your idl-md editor window.` |
