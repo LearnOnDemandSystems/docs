@@ -1,9 +1,9 @@
-# Learn on Demand Systems IDLx (Integrated Digital Learning eXperience) Authoring Guide 
+# Learn on Demand Systems Integrated Digital Lab eXperience Authoring Guide 
 
 
 ## Introduction
 
-This guide provides information on the Integrated Digital Lab Version 2 (IDLx) Platform, the various elements that comprise a lab that uses this platform, the steps for converting a traditional IDL v1 based lab to an IDLx based lab, and some tips and best practices.
+This guide provides information on the Integrated Digital Lab eXperience (IDLx) Platform, the various elements that comprise a lab that uses this platform, the steps for converting a traditional IDL (legacy) based lab to an IDLx based lab, and some tips and best practices.
 
 ### Intended Audience
 
@@ -15,7 +15,7 @@ This guide assumes that the reader:
 -   Has a help desk support contract to pay for additional custom
     contract work.
 
-## Overview of the Integrated Digital Learning eXperience (IDLx) Platform
+## Overview of the Integrated Digital Lab eXperience (IDLx) Platform
 
 The IDLx platform integrates the lab instructions with the Cloud Portal of choice or virtual machines (VMs) in the lab environment, to guide the users in completing the lab. The IDLx platform allows users to view lab instructions inline with the Cloud portal or VMs.
 
@@ -89,7 +89,7 @@ The larger pane on the left side of the client is known as the **Resource Portal
 
 ## Enabling the IDLx Client Experience
 
-For a lab to launch with the IDLx client experience, the lab profile must be configured to use IDL version 2.
+For a lab to launch with the IDLx client experience, the lab profile must be configured to use IDLx.
 
 If you have a lab that has not had any instructions added to it yet, you can enable the IDLx Client experience by performing the following steps:
 
@@ -97,24 +97,20 @@ _For any lab that is configured to use the virtualization platform:_
 
 1. Navigate to your lab profile in Lab on Demand.
 1. Click **Edit** on the lab profile page.
-1. On the **Basic Information tab** of the lab profile Edit page, check **Has IDL Content**.
-
-    ![](images/has-idl-content.png "Has IDL Content and IDL version selection")
-
-1. Click the up arrow to **change the version to 2**, to enable the IDLx client experience.
+1. On the **Basic Information tab** of the lab profile Edit page, check **Instructions**, to enable the IDLx client experience.
 1. Click **Save**.
 
 _For any lab that has the virtualization platform set to "None" (e.g. Cloud Slice labs):_
 
 1. Navigate to your lab profile in Lab on Demand.
 1. Click **Edit** on the lab profile page.
-1. On the **Basic Information tab** of the lab profile Edit page, check **Has IDL Content**.
+1. On the **Basic Information tab** of the lab profile Edit page, check **Instructions**.
 1. Click **Save**.
 
 If you have a virtualization lab that already has instructions (a lab with instructions that were written for the legacy client), you can enable the IDLx Client experience by performing the following steps:
 
 1. Navigate to your lab profile in Lab on Demand.
-1. Click **Upgrade** next to "Has IDL Content: Version 1" in the lab profile details.
+1. Click **Upgrade** next to "instructions: IDL (legacy)" in the lab profile details.
 1. Choose whether you want images and videos to be rendered inline or shown when users click on links.
 1. Review the instructions in the preview window to see what your instructions will look like after you upgrade your lab.
 1. Click **OK** to upgrade the lab.
@@ -145,7 +141,7 @@ All instructions are authored in Markdown. Markdown allows for easy plain-text a
 
 The image below shows what will be seen after clicking **Edit instructions**, as discussed in the previous section. This text editor is where all of the lab content is written and stored. The left side of the editor shows the raw syntax of the lab content, whereas the right side shows how the lab content will be rendered and displayed to users.
 
-![](images/idl2-text-editor.png "IDLx Instruction Editor")
+![](images/idl2-text-editor.png "IDL 2 Instruction Editor")
 
 - **Disk icon:** Click to save current progress; this is not necessary if autosave is enabled.
 - **@lab:** Replacement Tokens are used to create a placeholder for dynamic text that will be added to the lab when it is launched. This is helpful if you do not know the information at the time of authoring the lab, but would like specific information to be inserted later when the user is in the lab. Examples of this are usernames, passwords, unique ID numbers, etc.
@@ -333,7 +329,345 @@ To add removable media to the lab instructions using a Replacement Token:
 1. Select the removable media to be used. (refer to the description column of the Replacement Token menu for media type and details).
 1. Click **Insert**.
 
-!INSTRUCTIONS[](markdown-user-guide.md)
+## Markdown Syntax
+
+Markdown is an easy to use markup language to format text, that offers multiple ways to achieve the same result. Markdown was designed to be easy to learn as well as be easy to read and write. When creating IDLx lab content, you may use Markdown to format text. Markdown allows the author to keep their hands on the keyboard and focus on writing content. Markdown supports HTML, and HTML syntax can be used in combination with Markdown. You can use the following Markdown syntax  to perform formatting.
+
+### Headings
+
+Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols in front of the text that is to be resized, followed by a space. One # renders the largest text size, while six # symbols renders the smallest text size.Typically this is used at the beginning of a paragraph or section in a document, to make the title stand out from the rest of the text. 
+
+> - # Heading1
+>
+> - ## Heading2
+>
+> - ### Heading3
+>
+> - #### Heading4
+>
+> - ##### Heading5
+>
+> - ###### Heading6
+
+### Text Formatting
+
+- **Indent size**: pressing the tab key will indent 4 spaces. 
+
+- **Single space**: pressing the tab key at the end of a line will single space the next line. Alternatively, pressing the space bar four times will single space the next line. 
+
+- **Double space:** leaving no spaces at the end of the line will double space the next line. 
+
+- **Bold**: used to show emphasis. Type two * (asterisk) symbols on each side of the text that is to be bolded.
+
+    > `**Bold text**`
+
+- **Italic**: used to show emphasis or distinction. Type two _ (underline) on each side of text that is to be emphasized.
+
+    > `_Italic text_`
+
+- **~~Strikethrough~~**: used to mark text that should not be included, but should not be removed from the document. Type two ~ (tilde) symbols on each side of text that should show a strikethrough.
+
+    > `~~Strikethrough text~~` 
+
+- **Escape character**: used to prevent text from being formatted into Markdown. Type a \ (backslash) at the beginning of the text that is to be escaped. 
+
+    > \escaped text
+
+- **Bullet**: used to separate and order  items in a list without using numbers
+
+    > `-`
+
+- **Inline code block**: used to provide a snippet of code that can be copied and pasted. Type a ` (backtick) on each side of the text that is to be displayed in the code block. The backtick is located above the tab key, to the left of the 1 key on the keyboard.
+
+    > <code>`code block`</code> 
+
+    ![](images/code-block.png "Code Block")
+
+- **Fenced code block**: used to provide a programming language-specific code snippet. Type three ` (backticks) on each side of the text that should be displayed in the fenced code block. This should consume at least 3 lines in the text editor; the first line should display three backticks followed by the programming language name, the second line should display the code snippet, and the last line should only display three backticks. Markdown allows for more than one line to be used to display the code snippet. 
+
+    > ~~~fenced_code_block
+    > ```PowerShell
+    > get-service | stop-service -whatif
+    > ```
+    > ~~~
+
+    ![](images/fenced-code-block.png "Fenced Code Block")
+
+### Link formatting
+
+- **Internal link**: Used to link to a specific section within a document. 
+
+    > \[text to display](#link-location "optional link title")
+
+- **External link**: Used to link to a page outside of the document.  
+
+    > \[text to display](url "optional link title)
+
+- **Relative link**: used to link to a page in the same directory without the need to display the full URL of the page.
+
+    > \[text to display](../folder/file.htm "optional link title")
+
+- **Reference link**: used to provide a link that will be referenced multiple times. The link can be referenced by typing the text value between the [ ] (square brackets). It is not necessary to include the full URL, as long as the text value in both sets of brackets is the same. 
+
+    - **_Text lookup_**: 
+
+        > \[Reference link text value]
+        > \[Reference link text value]: URL "Optional link title"
+
+    - **_Label lookup_**:
+
+        > \[Reference link][Name of URL]
+        > \[Name of URL]: URL "Optional link title"
+
+    - **_Footnote style_**:
+
+        > \[Reference link][1]
+        > \[1]: URL "Optional link title"
+
+### Page formatting
+
+- **Page break**: Used to separate content into pages. Separating into pages creates a next button that the student must click to navigate to the next page. This is useful for displaying small sections of instruction to the student at a time, rather than all instructions on the same page within the lab. Type three = (equals) symbols on the line where the current page should end. The new page will begin on the line following the three = symbols.
+
+    > ===
+
+- **Horizontal Line**: Used to separate content on the same page. Type three --- (dash or hyphen) on the line where the horizontal line should appear. 
+
+    > \---
+
+- **Block quote:** Used to quote information from other sources. Block quote text appears indented from other content in the document. Type a > (greater-than sign) before text that should appear in the block quote. Most Markdown syntax will render inside of block quotes.
+
+    > \> text here
+    >
+    > \> additional text here
+
+### Embedded content
+
+- **Image**: Used to embed an image inline with other content. When images are clicked, they will open in a new window and display at the images full resolution.
+
+    > \!IMAGE[text to display]\(url)
+
+- **Video:** Used to embed a video inline with other content. The syntax format should look the same as an image, except the video should begin the word VIDEO (all caps).
+
+    - Videos are used to provide rich media content, such as short, step-specific videos, that can serve a variety of purposes: to demonstrate a series of steps, to assist visual learners, to provide clarity, to provide additional information and others. Videos showing the steps in the task are particularly useful for difficult and complex tasks as well. 
+    - The video can be any URL that points to a video. Videos that are hosted on YouTube will be embedded in the lab instructions, and do not need to open in a separate window, for the video to play. Alternatively, you can link videos hosted by other sources in the lab instructions, using Markdown syntax.
+
+    The following are some guidelines for creating videos that are associated with lab tasks:
+
+    - Keep the video short, between 30 – 60 seconds at most.
+    - Make sure the video covers only the relevant step.
+
+    > \!VIDEO[text to display]\(url)
+
+- **Image with link:** Used to embed an image that can be clicked to navigate to a specific URL (internal or external). 
+
+    > \[![text to display]url or filepath "Optional image title")]url "Optional link title")
+
+- **Portal Link:** used to launch a hyperlink. In the Cloud Client, this will open the hyperlink in the left window (Resource Portal). In the traditional virtualization client (vm-based labs), this will open the hyperlink in a new local browser window.
+
+    > `<[text to display](URL)`
+
+- **Image Link:** used to display a link with a camera icon, to suggest that the hyperlink opens an image. Opens in a new window.
+
+    > `IMAGE[text to display](URL to image)`
+
+    ![](images/image-link.png "Image Link")
+
+- **Video Link:** used to display a link with a videocamera icon, to suggest that the hyperlink opens a video. Opens in a new window.
+
+    > `VIDEO[text to display](URL to video)`
+
+    ![](images/video-link.png "Video Link")
+
+### List formatting
+
+- **Unordered list:** Used to list items in no particular order, separated by bullets rather than numbers. Type a - (dash or hyphen) followed by a space and then the text to be listed. Pressing enter at the end of the text will start the next line with a bullet. 
+- **Ordered list:** Used to list items in a particular order, separated by numbers rather than bullets. Type the number 1, followed by a space and then the text to be listed. Pressing enter at the end of the text will start the next line with number 2.
+- Both Unordered and Ordered lists can contain Task Checkboxes for the student to check off steps as completed. Both list types can be combined in the same list. Task Checkboxes are used track and report lab progress to LOD and TMS, as well as a visual marker for students. Lab progress is calculated by the percentage of Task Checkboxes that are checked in the lab instructions.
+
+#### Unordered list **without** Task Checkboxes:
+
+```
+- Item 1
+    - Item 1.1
+        - Item 1.1.1
+        - Item 1.1.2
+    - Item 1.2
+- Item 2
+```
+
+#### Ordered list **without** Task Checkboxes:
+
+```
+1. Item 1
+    1. Item 1.1
+        1. Item 1.1.1
+        1. Item 1.1.2
+    1. Item 1.2
+1. Item 2
+```
+
+#### Unordered list **with** Task Checkboxes:
+
+```
+- [] Item 1
+    - [] Item 1.1
+        - [] Item 1.1.1
+        - [] Item 1.1.2
+    - [] Item 1.2
+- [] Item 2
+```
+
+#### Ordered list **with** Task Checkboxes:
+
+```
+1. [] Item 1
+    1. [] Item 1.1
+        1. [] Item 1.1.1
+        1. [] Item 1.1.2
+    1. [] Item 1.2
+1. [] Item 2
+```
+
+### Table formatting
+
+- Tables can be aligned left, right or center by placing a : (colon) on the head row of the table. Placing a colon on the left side, right side or both sides of the dashes in the header row, will align the text in the table accordingly. 
+
+**Left-aligned text**
+
+```
+| column 1 | column 2 |
+|:---------|:---------|
+| data 1   | data 2   |
+| data 3   | data 4   |
+```
+
+**Right-aligned text**
+
+```
+| column 1 | column 2 |
+|---------:|---------:|
+| data 1   | data 2   |
+| data 3   | data 4   |
+```
+
+**Center-aligned text**
+
+```
+| column 1 | column 2 |
+|:--------:|:--------:|
+| data 1   | data 2   |
+| data 3   | data 4   |
+```
+
+### Special formatting
+
+- **Knowledge Block:** Used to provide additional information, to help students better understand lab steps or lab content. It can also be used to provide alternative instructions or store commands that you want users to enter. Knowledge blocks are limited to only show 4 lines of the lab content. After 4 lines, a _more_ link will be shown, allowing the student to expand the Knowledge Block and review additional information.
+
+    -  If you use the Knowledge box for lab steps or a series of commands, please make sure you include a note directing users to execute the steps or commands there. (For example, “At the PowerShell prompt,type the commands listed in the Knowledge box, pressing ENTER after each one.”)
+
+    > \> [!KNOWLEDGE] knowledge text here.
+
+    ![](images/idl2-knowledge.png "Knowledge Block")
+
+- **Alert:** Used to draw attention to important issues, such as showing additional information or steps that the student may need complete to avoid other issues. Alerts are useful whenever you want the users to pause and take note of additional and important information. From the user’s perspective, alerts are mandatory because they will appear inline in lab instructions. 
+
+    > \> [!ALERT] alert text here.
+
+    ![](images/idl2-alert.png "Alert Block")
+
+- **Note:** Used to provide additional information, similar to a Knowledge Block, with the only difference being that Notes do not collapse and show a _more_ link to expand the section. 
+
+    > [!NOTE]
+
+- **Dialog:** Used to open a dialog popup, to display additonal information. This can be useful to make additional information available to the student.
+
+    > ^[Text to display in lab  instructions][Reference Link]
+
+    > \>[Reference Link]:
+
+    > \>This appears in the Dialog
+
+- **Instruction Dialog:** Used to open a dialog popup, to display rendered Markdown or IDLx content that is located anywhere on the internet and accessible from a URL. This can be useful to provide additional information, from external sources on the internet.
+
+    > ```^INSTRUCTIONS[text](url)```
+
+- **Reference Instruction Blocks:** Used to reference content multiple times throughout the lab instructions. First, Define the content, then reference the content using the syntax below. Defined content can be text, links, copyable text, code blocks or rich media content such as images and videos. Defined content will not appear in lab instructions until it is referenced using the Reference Content syntax. 
+
+   - Define content
+        > ```>[reference label]: Content goes here```
+
+   - Reference Content
+        > ```!INSTRUCTIONS[][label]```
+
+        ![Refernce Instruction Block](images/reference-instruction-blocks.png)
+
+- **Commands:** Used to target the current resource in the Resource Portal to input commands. To mitigate risk of error and to enhance the overall experience of the lab, the IDLx platform supports executing commands directly in the area of focus of the Resource Portal. Clicking the text in the lab instructions will input the command into the item in focus, on the Resource Portal. Commands can be a single line (shown below) or multi-line. 
+
+    > ```
+    > @[Text to display](`command`)
+    > ```
+
+    Commands can perform any action that is possible to do from a command or Windows PowerShell prompt. For example, the command could open File Explorer at a particular location within a directory structure, open dialog boxes, start scripts, open documents and web pages, and many others. 
+
+    Although potentially any task could be reduced to an action that can be executed as a command shell or Windows PowerShell command, you should use this feature judiciously. Users should still know how to open File Explorer and perform other basic actions. This feature is most useful for a complex task that involves numerous steps, opening file locations deep down in directory structures, opening specific Web pages, and other similar activities.
+
+    There are 4 different kinds of commands that you can configure:
+
+    - **Type Text**. This is not a command per se. Rather, this command type allows the user to input a predetermined string.
+
+    - **PowerShell**. This allows the user to execute a PowerShell command in the background. The user does not see the execution of the command.
+
+    - **PowerShell will UI**. This opens a command prompt window in the VM and shows the command execution.
+
+    - **Shell**. This causes a command to be executed in the background. The user does not see the execution of the command.
+
+    - **Shell with UI**. This command opens a command prompt window in the VM and shows the command execution
+
+    To initiate the Command, the lab user clicks on lightning bolt) icon in the lab instructions, as shown below.
+
+    ![](images/idl2-command.png "Command")
+
+- **Include:**  Used to input text from a GitHub raw link. This is useful to use to pull in content hosted on GitHub. Navigate to the GitHub page containing the content to be used, click the Raw button, then copy the URL of that page and include it in the below syntax. 
+
+    - **Note**: GitHub hosted content can be changed by the repo maintainer of the content and will change the 			instructions displayed in the lab that is using the Include syntax. 
+
+    > `[!INCLUDE [label](url)]`
+
+- **Copyable Text:** Used to make text copy to the local clipboard when the student clicks the text. Type two + (plus) symbols on each side of the text that should be made copyable. 
+
+    > \++copyable text++
+
+    ![](images/copyable-text.png "Copyable Text")
+
+- **Type Text:** Used to input text into the current cursor location inside of a managed virtual machine showing in the Resource Portal. Clicking the text in the lab instructions will automatically type the text into the managed virtual machine. When authoring lab instructions, use three + (plus) symbols on each side of text to convert it into Type Text.
+
+    > \+++Type Text+++
+
+    ![](images/type-text.png "Type Text")
+
+- **Embed YouTube video:** Used to embed a YouTube video inline with the lab instructions. URLs from YouTube.com automatically embed. Videos from any other URL will not embed.
+
+    > `!VIDEO[text to display](url)` 
+
+- **Replacement Token:** Used to replace text in lab instructions with a variable that is unknown at the time of authoring the lab instructions. These variables may not be generated or created until the lab is launched by the student. These can include usernames, user first name, user last name, running lab instance ID number, etc. 
+
+    > | Replacement token           |                                          |
+    > | --------------------------- | ---------------------------------------- |
+    > | @lab.LabInstanceId          | The unique ID of the running lab instance. |
+    > | @lab.GlobalLabInstanceId    | The globally unique ID of the running lab instance. |
+    > | @lab.LabProfileId           | The unique ID of the lab profile.        |
+    > | @lab.UserId                 | The unique ID of user running the lab.   |
+    > | \@lab.UserFirstName          | The first name of the user running the lab. |
+    > | \@lab.UserLastName           | The last name of the user running the lab. |
+    > | @lab.UserEmail              | The e-mail address of the user running the lab. |
+    > | @lab.UserExternalId         | The external ID of the user running the lab (if launched via API). |
+    > | @lab.Tag                    | The tag associated with the lab instance (if specified when launched via API). |
+    > | @lab.CloudPortalLink        | A link to the cloud portal.              |
+    > | @lab.CloudPortalUrl         | The cloud portal URL (rendered as text, not a link). |
+    > | @lab.CloudPortalSignInLink  | A cloud portal sign-in link.             |
+    > | @lab.CloudPortalSignInUrl   | The cloud portal sign-in URL (rendered as text, not a link). |
+    > | @lab.CloudPortalSignOutLink | A cloud portal sign-out link.            |
+    > | @lab.CloudPortalSignOutUrl  | The cloud portal sign-out URL (rendered as text, not a link). |
 
 ## Add Review Questions as an Assessment Exam to a Lab
 
@@ -356,17 +690,17 @@ To create a multiple choice review, in the Scoring Type drop-down, select **Asse
 
 ## Additional Features
 
-### Converting a traditional IDL v1 based lab to an IDLx based lab
+### Converting a traditional IDL (legacy) based lab to an IDLx based lab
 
-Traditional IDL v1 labs can be converted to IDLx labs easily in Lab on Demand. The conversion process does not convert some items correctly, and you may still need to look over the content to ensure everything appears as expected. Converting to IDLx is not permanent and can be reverted back to IDL v1 at any time, from the lab profile page. To revert the lab back to IDL v1, toggle the version selection on the Basic Information tab, on the edit lab profile page.
+Traditional IDL (legacy) labs can be converted to IDLx labs easily in Lab on Demand. The conversion process does not convert some items correctly, and you may still need to look over the content to ensure everything appears as expected. Converting to IDLx is not permanent and can be reverted back to IDL (legacy) at any time, from the lab profile page. To revert the lab back to IDL (legacy), toggle the version selection on the Basic Information tab, on the edit lab profile page.
 
-To convert an IDL v1 lab to IDLx:
+To convert an IDL (legacy) lab to IDLx:
 
 1. Navigate to the **lab profile** page.
 
 1. Click **Upgrade** next to **Has IDL Content**. (this will display the current version of the lab profile)
 
-    ![](images/upgrade-button.png "Upgrade lab profile to IDLx")
+    ![](images/upgrade-button.png "Upgrade lab profile to IDL 2")
 
 1. Select how screenshots and videos should be converted. They can be converted **inline** (recommended) or **as links**.
 
