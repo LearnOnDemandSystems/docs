@@ -1,6 +1,5 @@
 # Learn on Demand Systems Integrated Digital Lab eXperience Authoring Guide 
 
-
 ## Introduction
 
 This guide provides information on the Integrated Digital Lab eXperience (IDLx) Platform, the various elements that comprise a lab that uses this platform, the steps for converting a traditional IDL (legacy) based lab to an IDLx based lab, and some tips and best practices.
@@ -698,7 +697,7 @@ To convert an IDL (legacy) lab to IDLx:
 
 1. Navigate to the **lab profile** page.
 
-1. Click **Upgrade** next to **Has IDL Content**. (this will display the current version of the lab profile)
+1. Click **Upgrade** next to **Instructions IDL (legacy)**. (this will display the current version of the lab profile)
 
     ![](images/upgrade-button.png "Upgrade lab profile to IDL 2")
 
@@ -708,7 +707,7 @@ To convert an IDL (legacy) lab to IDLx:
 
 1. After making a selection, **Click OK** to convert the lab to IDLx.
 
-The lab is now IDLx. You can confirm by checking the **Has IDL Content** field on the lab profile **Basic Information** section. 
+The lab is now IDLx. You can confirm by checking the **Instructions** field on the lab profile **Basic Information** section. 
 
 ### Create and Incorporate Advertising Campaigns
 
