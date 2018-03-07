@@ -256,7 +256,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
   
   >\>This appears in the Dialog
 
-- **Instruction Dialog:** Used to open a dialog popup, to display rendered Markdown or IDL 2 content that is located anywhere on the internet and accessible from a URL. This can be useful to provide additional information, from external sources on the internet.
+- **Instruction Dialog:** Used to open a dialog popup, to display rendered Markdown or IDLx content that is located anywhere on the internet and accessible from a URL. This can be useful to provide additional information, from external sources on the internet.
 
     > ```^INSTRUCTIONS[text](url)```
 
