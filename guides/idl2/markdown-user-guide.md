@@ -73,8 +73,8 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 ## Link formatting
 
-- **Internal link**: Used to link to a specific section within a document. 
-  > \[text to display](#link-location "optional link title")
+- **Internal link**: Used to link to a specific section within a document. Internal links must be all lower-case, alphanumeric and separated by hyphens. Any characters that are not alphanumeric should be omitted, and spaces should be replaced with a hyphen. 
+  > \[text to display](#heading-to-link-to "optional link title")
 
 - **External link**: Used to link to a page outside of the document.  
 
