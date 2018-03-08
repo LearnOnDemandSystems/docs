@@ -17,7 +17,7 @@
 | Bullet | `-` |
 |<BR>                                      | |
 |<font size="3">**Links**</font>| |
-| Internal link | `[text to display](#link-location "optional link title")` |
+| Internal link | `[text to display on link](#heading-to-link-to "optional link title")` (must be all lower-case, alphanumeric and separated by hyphens) |
 | External link | `[External link](URL "Optional link title")` |
 | Relative link | `[text to display](../folder/file.htm "optional link title")` | 
 |<BR> | |
