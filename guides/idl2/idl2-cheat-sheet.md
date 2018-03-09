@@ -68,7 +68,7 @@ Reference instructions
 <!-- The following code block _must_ be indented instead of wrapped in ~~~ to prevent
      our preprocessor from preprocessing the code. Do not change this formatting. -->
 
-    \!INSTRUCTIONS[][reference label]
+    !INSTRUCTIONS[][reference label]
  
 ---
 <font size="3">**Dialog Windows**</font>
