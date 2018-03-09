@@ -57,13 +57,13 @@ get-service | stop-service -whatif
 ---
 <font size="3">**Reference Instruction Block**</font>
  
-**Define instructions**
+Define instructions
 
 ~~~
 >[reference label]: Enter instructions here
 ~~~
 
-**Reference instructions**
+Reference instructions
 
 <!-- The following code block _must_ be indented instead of wrapped in ~~~ to prevent
      our preprocessor from preprocessing the code. Do not change this formatting. -->
@@ -90,13 +90,13 @@ Instruction Dialog
 ---
 <font size="3">**Commands**</font>
 
-**Single Line**
+Single Line
 
 ~~~
 @[Text to display](`command`)
 ~~~
 
-**Multi-Line**
+Multi-Line
 
 <!-- The following code block _must_ be indented instead of wrapped in ~~~ to prevent
      our preprocessor from preprocessing the code. Do not change this formatting. -->
