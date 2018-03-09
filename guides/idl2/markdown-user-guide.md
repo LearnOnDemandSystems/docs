@@ -278,11 +278,11 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
    - Define content
         > ```>[reference label]: Content goes here```
-        >
-        > ![Refernce Instruction Block](images/reference-instruction-blocks.png)
 
    - Reference Content
         > ```!INSTRUCTIONS[][label]```
+        
+        >![Refernce Instruction Block](images/reference-instruction-blocks.png)
 
 - **Copyable Text:** used to make text copy to the local clipboard when the student clicks the text. Type two + (plus) symbols on each side of the text that should be made copyable. 
 
