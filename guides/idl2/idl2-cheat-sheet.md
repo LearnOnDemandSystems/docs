@@ -57,18 +57,13 @@ get-service | stop-service -whatif
 ---
 <font size="3">**Reference Instruction Block**</font>
  
-Define instructions
-
-~~~
->[reference label]: Enter instructions here
-~~~
-
 Reference instructions
+<pre><code title="Copy to clipboard" class="prettyprint prettyprinted" style="">&#33;INSTRUCTIONS[][reference label]<span class="pln">
 
-<!-- The following code block _must_ be indented instead of wrapped in ~~~ to prevent
-     our preprocessor from preprocessing the code. Do not change this formatting. -->
+Define instructions
+</span><span class="pun">&gt; [reference label]:</span><span class="pln">
+</span><span class="pun">&gt; Enter instructions here.</span></code></pre>
 
-    !INSTRUCTIONS[][reference label]
  
 ---
 <font size="3">**Dialog Windows**</font>
