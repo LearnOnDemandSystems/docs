@@ -39,8 +39,6 @@
 | Alert             | `> [!ALERT] Alert blocks draw attention to important issues!` |
 | Note              | `> [!NOTE]`                              |
 | Include           | `!INSTRUCTIONS[](url)`                |
-| Reference Instruction Block (Define) | ```>[reference label]: Content goes here```      |
-| Reference Reference Instruction Block (reference) | ```!INSTRUCTIONS[][label]``` |
 | Copyable Text     | `++copyable text++`                      |
 | Type Text         | `+++Type text+++`                      |
 | Replacement Token | `Click the @lab toolbar button or type "@lab." in your idl-md editor window.` |
@@ -56,6 +54,22 @@ Inline code block  <code>`code block`</code>
 get-service | stop-service -whatif
 ```
 ~~~
+---
+<font size="3">**Reference Instruction Block**</font>
+ 
+**Define instructions**
+
+~~~
+>[reference label]: Enter instructions here
+~~~
+
+**Reference instructions**
+
+<!-- The following code block _must_ be indented instead of wrapped in ~~~ to prevent
+     our preprocessor from preprocessing the code. Do not change this formatting. -->
+
+    !INSTRUCTIONS[][reference label]
+ 
 ---
 <font size="3">**Dialog Windows**</font>
 
