@@ -63,7 +63,6 @@ The below Restriction Policy is used to restrict Virtual Machines from being cre
 
 For more information about the items that can be used in a Restriction Policy, see [Microsoft Azure Restriction Policy Templates](https://docs.microsoft.com/en-us/azure/azure-policy/json-samples).
 
-<<<<<<< HEAD
 Congratulations, you have just created your first Restriction Policy! Now let's add your Restriction Policy to your Cloud Slice lab.
 
 1. [] Return to the <[Lab on Demand Administration page](/Admin).
@@ -92,9 +91,7 @@ Congratulations, you have just created your first Restriction Policy! Now let's 
 
 With this Restriction Policy in place, lab users will be restricted from creating resources that are defined in the Restriction Policy, in their Cloud Slice lab.
 
-=======
 <!--
->>>>>>> ce948fdb7f70ca823e5ec1c8d9193b8e68f4985a
 Now that you have configured a Restriction Policy, the next step is to set up your Cloud Slice lab for scale.
 Click on the link below to go through the next Quick Start where you will Set up your Cloud Slice lab to scale.
 
