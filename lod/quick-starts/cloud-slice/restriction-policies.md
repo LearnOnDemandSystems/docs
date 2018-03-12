@@ -63,10 +63,10 @@ The below Restriction Policy is used to restrict Virtual Machines from being cre
 
 For more information about the items that can be used in a Restriction Policy, see [Microsoft Azure Restriction Policy Templates](https://docs.microsoft.com/en-us/azure/azure-policy/json-samples).
 
+<!--
 Now that you have configured a Restriction Policy, the next step is to set up your Cloud Slice lab for scale.
 Click on the link below to go through the next Quick Start where you will Set up your Cloud Slice lab to scale.
 
-<!--
 [Set up your Cloud Slice lab up for scale](set-up-cloud-slice-lab-for-scale.md)
 -->
 
