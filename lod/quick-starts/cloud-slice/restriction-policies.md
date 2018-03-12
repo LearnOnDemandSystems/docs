@@ -19,17 +19,17 @@
 
 Restriction Policies are used to restrict what lab users can do, while working in a Cloud provider portal. This helps to prevent additional charges from incurring if students configure something in the Cloud portal that is outside of the scope of the lab. Restriction Policies also help students stay within the goals of the lab. 
 
-1. **Navigate** to the **Cloud Services** tile, on the Admin page.
+1. []  **Navigate** to the **Cloud Services** tile, on the Admin page.
 
    !IMAGE[Cloud Services Tile](images/cloud-services-tile.png)
 
-1. Click **Cloud Restriction Policies**
+1. [] Click **Cloud Restriction Policies**
 
-1. Click **Create Cloud Restriction Policy** in the upper-right corner of the page. 
+1. []  Click **Create Cloud Restriction Policy** in the upper-right corner of the page. 
 
    !IMAGE[Create Cloud Restriction Policy](images/create-a-cloud-restriction-policy.png)
 
-4. Enter the following values into the Create a Restriction Policy form:
+1. []  Enter the following values into the Create a Restriction Policy form:
 
 |Tab|Field Name|Field Value|
 |--|--|--|
@@ -39,7 +39,7 @@ Restriction Policies are used to restrict what lab users can do, while working i
 ||**Restriction Policy**|Enter the Restriction Policy here, in JSON format.|
 ||**Enabled**|Check the box to enable this Restriction Policy for use.|
 
-5. Click **Save** at the bottom of the **Create a Restriction Policy** window to save the Restriction Policy
+1. []  Click **Save** at the bottom of the **Create a Restriction Policy** window to save the Restriction Policy
 
 ## Sample Restriction Policy
 
