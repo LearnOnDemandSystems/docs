@@ -23,9 +23,9 @@ Restriction Policies are used to restrict what lab users can do, while working i
 
    !IMAGE[Cloud Services Tile](images/cloud-services-tile.png)
 
-1. [] Click **Cloud Restriction Policies**
+1. [] Click <[Cloud Restriction Policies](/CloudRestrictionPolicy)
 
-1. []  Click **Create Cloud Restriction Policy** in the upper-right corner of the page. 
+1. []  Click <[Create Cloud Restriction Policy](/CloudRestrictionPolicy/Create) in the upper-right corner of the page. 
 
    !IMAGE[Create Cloud Restriction Policy](images/create-a-cloud-restriction-policy.png)
 
