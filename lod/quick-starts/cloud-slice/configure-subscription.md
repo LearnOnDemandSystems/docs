@@ -18,4 +18,4 @@ Select the cloud platform associated with the subscription you want to use with 
 
 Now that you have configured your cloud subscription properly, click on the link below to go through the next Quick Start where you will add that cloud subscription into LOD.
 
-[Add Subscription into LOD Quick Start](add-subscription-into-lod.md).
+[Add your Cloud Subscription into LOD](add-subscription-into-lod.md)

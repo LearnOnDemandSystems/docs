@@ -1,4 +1,4 @@
-# Cloud Slice Quick Start - Creating a Cloud Slice lab in 3 steps
+# Cloud Slice Quick Start - Create a Cloud Slice lab in 3 steps
 
 > [!ALERT] You are currently viewing the third entry in a series of Quick Starts about Cloud Slice.
 >
@@ -6,9 +6,11 @@
 > * a cloud subscription configured for use with the One Learn Lab on Demand platform (LOD);
 > * a Cloud Subscription Pool created in LOD that contains the cloud subscription(s) you will use with your Cloud Slice;
 > 
-> If you have not yet configured your cloud subscription for use with LOD, go through the [Configure Subscription Quick Start](configure-subscription.md).
+> If you have not yet configured your cloud subscription for use with LOD, go through the [Configure your Cloud Subscription for use with LOD](configure-subscription.md) Quick Start.
 >
-> If you have configured your cloud subscription properly but have not added your subscription into LOD for use with Cloud Slice labs, go through the [Add Subscription into LOD Quick Start](add-subscription-into-lod.md).
+> If you have configured your cloud subscription properly but have not added your subscription into LOD for use with Cloud Slice labs, go through the [Add your Cloud Subscription into LOD](add-subscription-into-lod.md) Quick Start.
+
+Estimated time to completion: **5 minutes**.
 
 Creating your first Cloud Slice lab is as easy as 1-2-3!
 
@@ -50,7 +52,7 @@ This is all that is required to create a lab profile; however, you will need to 
 
 1. [ ] Click **Add Portal User Account**, and enter ++Taylor++ into the Name Prefix field.
 
-1. [ ] Click **Add Cloud Resource Group**, and enter ++corp-website++ into the Name Prefix field.
+1. [ ] Click **Add Cloud Resource Group**, and enter ++corp-data++ into the Name Prefix field.
 
 1. [ ] Click **Assign User Account**, select **Taylor** in the combo box, and select **Contributor** in the Role combo box.
 
@@ -72,6 +74,12 @@ Select the **Resources** tab in the Lab Console. On this tab, students will see 
 
 When you log in, you are brought through the Microsoft Azure onboarding experience, with options to launch a tour. Every student launching your lab will receive this experience because these are brand new accounts that are provisioned dynamically, as the lab launches.
 
-Click **Maybe later** to skip the tour, and then have a look around. You do anything in Azure that this student was given permission to do in your subscription. Don't worry, you can tighten up what students can and cannot do later. Now let's shift gears, and start adding instructions to enhance the learning experience.
+Click **Maybe later** to skip the tour, and then have a look around. You do anything in Azure that this student was given permission to do in your subscription. Don't worry, you can tighten up what students can and cannot do later.
 
-Click [Add Lab Instructions Quick Start Guide](writing-instructions-for-a-cloud-slice-lab.md) to learn how to add instructions to your Cloud Slice lab.
+Now let's shift gears, and start adding instructions to enhance the learning experience. Click on the link below to go through the next Quick Start where you will write instructions for your Cloud Slice lab.
+
+[Write instructions for your Cloud Slice lab](write-instructions.md)
+
+[Back to top][back-to-top]
+
+[back-to-top]: #cloud-slice-quick-start---create-a-cloud-slice-lab-in-3-steps "Return to the top of the document"
