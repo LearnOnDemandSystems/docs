@@ -39,7 +39,7 @@ Restriction Policies are used to restrict what lab users can do, while working i
 ||**Restriction Policy**|Enter the Restriction Policy here, in JSON format.|
 ||**Enabled**|Check the box to enable this Restriction Policy for use.|
 
-1. []  Click **Save** at the bottom of the **Create a Restriction Policy** window to save the Restriction Policy
+5. []  Click **Save** at the bottom of the **Create a Restriction Policy** window to save the Restriction Policy
 
 ## Sample Restriction Policy
 
