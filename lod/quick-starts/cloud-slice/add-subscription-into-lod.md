@@ -50,4 +50,4 @@ Now that you have added your subscription into LOD for use with Cloud Slice labs
 
 [Create a Cloud Slice lab in 3 steps](create.md)
 
-[back-to-top]: #cloud-slice-quick-start---add-subscription-into-lOD "Return to the top of the document"
+[back-to-top]: (#cloud-slice-quick-start---add-subscription-into-lOD "Return to the top of the document")
