@@ -1,5 +1,6 @@
 # Learn on Demand Systems Performance Based Testing Guide
 
+<!--
 **Revision History**
 
 | Version | Date        | Edited By       | Comments                |
@@ -39,6 +40,8 @@ Copyright 2017 © Learn on Demand Systems, LLC. All rights reserved.
 All other trademarks are property of their respective owners.
 
 **Introduction**
+
+-->
 
 This guide provides information on building Performance-Based Testing
 (PBT) exam labs in Lab on Demand.
