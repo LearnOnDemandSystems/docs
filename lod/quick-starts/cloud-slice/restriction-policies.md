@@ -66,6 +66,8 @@ For more information about the items that can be used in a Restriction Policy, s
 Now that you have configured a Restriction Policy, the next step is to set up your Cloud Slice lab for scale.
 Click on the link below to go through the next Quick Start where you will Set up your Cloud Slice lab to scale.
 
+<!--
 [Set up your Cloud Slice lab up for scale](set-up-cloud-slice-lab-for-scale.md)
+-->
 
 [Back to top](#restriction-policies)
