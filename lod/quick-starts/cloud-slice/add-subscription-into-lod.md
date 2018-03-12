@@ -50,4 +50,4 @@ Now that you have added your subscription into LOD for use with Cloud Slice labs
 
 [Create a Cloud Slice lab in 3 steps](create.md)
 
-[Back to top](#cloud-slice-quick-start-add-subscription-into-lOD)
+[Back to top](#cloud-slice-quick-start---add-subscription-into-lOD)
