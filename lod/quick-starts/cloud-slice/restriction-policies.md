@@ -1,4 +1,4 @@
-# Restriction Policies
+# Cloud Slice Quick Start - Restriction Policies
 
 > [!ALERT] You are currently viewing the seventh entry in a series of Quick Starts about Cloud Slice.
 >
