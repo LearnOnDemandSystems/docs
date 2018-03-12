@@ -63,6 +63,34 @@ The below Restriction Policy is used to restrict Virtual Machines from being cre
 
 For more information about the items that can be used in a Restriction Policy, see [Microsoft Azure Restriction Policy Templates](https://docs.microsoft.com/en-us/azure/azure-policy/json-samples).
 
+Congratulations, you have just created your first Restriction Policy! Now let's add your Restriction Policy to your Cloud Slice lab.
+
+1. [] Return to the <[Lab on Demand Administration page](/Admin).
+
+1. [] Click <[Find Lab Profiles](/LabProfile) to find your lab profile.
+
+1. [] Enter ++cloud-slice-quick-start++ into the **Name** field, and change the operator drop down adjacent to it to **Equal**. (Or the name of your lab profile, if it is named something else)
+
+1. [] Click **Search** to find your lab profile.
+
+1. [] In the search results, click the Name hyperlink of your lab profile to open the Lab Profile details view.
+
+1. [] Click **Edit** to open the edit view for your lab profile.
+
+1. [] Select the **Cloud** tab.
+
+1. [] Scroll down to where you defined your ++corp-data++ resource group, then click **Add Restriction Policies** below the _Cloud Restriction Policies_ heading.
+
+1. [] Enter the name you gave your Restriction Policy into the **Name** field, and change the operator drop down adjacent to it to **Equal**. (Restriction Policy created in previous steps)
+
+1. [] Click **Search** to find your Restriction Policy.
+
+1. [] Select your Restriction Policy in the list of results, then click **OK**.
+
+1. [] Click **Save** to save the updated lab profile.
+
+With this Restriction Policy in place, lab users will be restricted from creating resources that are defined in the Restriction Policy, in their Cloud Slice lab.
+
 Now that you have configured a Restriction Policy, the next step is to set up your Cloud Slice lab for scale.
 Click on the link below to go through the next Quick Start where you will Set up your Cloud Slice lab to scale.
 
