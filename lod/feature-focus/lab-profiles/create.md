@@ -4,6 +4,6 @@ Labs in Lab on Demand (LOD) are housed in a lab profile. The lab profile is wher
 
 ![Create lab profile](images/create-lab-profile-button.png)
 
-!INSTRUCTIONS[](properties.md)
+!INSTRUCTIONS[](settings.md)
 
 [Back to top](#Create-lab-profile)

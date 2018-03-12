@@ -6,7 +6,7 @@ To create your first Cloud Resource Template in the OneLearn Lab on Demand platf
 
 1. [] Return to the <[Lab on Demand Administration page](/Admin).
 
-1. Click <[Cloud Resource Templates](/CloudTemplate) on the Cloud Services tile.
+1. [] Click <[Cloud Resource Templates](/CloudTemplate) on the Cloud Services tile.
 
    ![Cloud Resource Templates](images/lod-open-cloud-resource-templates.png)
 

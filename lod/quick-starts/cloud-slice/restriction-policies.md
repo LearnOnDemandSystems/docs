@@ -1,4 +1,4 @@
-# Restriction Policies
+# Cloud Slice Quick Start - Restriction Policies
 
 > [!ALERT] You are currently viewing the seventh entry in a series of Quick Starts about Cloud Slice.
 >
@@ -15,21 +15,21 @@
 >
 > If you have configured your cloud subscription properly but have not added your subscription into LOD for use with Cloud Slice labs, go through the [Add Subscription into LOD Quick Start](add-subscription-into-lod.md)
 >
-> If you have not yet configured your lab profile to be a Cloud Slice lab, go through the [Creating a Cloud Slice lab Quick Start](creating-a-cloud-slice-lab-in-3-steps.md)
+> If you have not yet configured your lab profile to be a Cloud Slice lab, go through the [Creating a Cloud Slice lab Quick Start](create.md)
 
 Restriction Policies are used to restrict what lab users can do, while working in a Cloud provider portal. This helps to prevent additional charges from incurring if students configure something in the Cloud portal that is outside of the scope of the lab. Restriction Policies also help students stay within the goals of the lab. 
 
-1. **Navigate** to the **Cloud Services** tile, on the Admin page.
+1. []  **Navigate** to the **Cloud Services** tile, on the Admin page.
 
    !IMAGE[Cloud Services Tile](images/cloud-services-tile.png)
 
-1. Click **Cloud Restriction Policies**
+1. [] Click <[Cloud Restriction Policies](/CloudRestrictionPolicy)
 
-1. Click **Create Cloud Restriction Policy** in the upper-right corner of the page. 
+1. []  Click <[Create Cloud Restriction Policy](/CloudRestrictionPolicy/Create) in the upper-right corner of the page. 
 
    !IMAGE[Create Cloud Restriction Policy](images/create-a-cloud-restriction-policy.png)
 
-4. Enter the following values into the Create a Restriction Policy form:
+1. []  Enter the following values into the Create a Restriction Policy form:
 
 |Tab|Field Name|Field Value|
 |--|--|--|
@@ -39,7 +39,7 @@ Restriction Policies are used to restrict what lab users can do, while working i
 ||**Restriction Policy**|Enter the Restriction Policy here, in JSON format.|
 ||**Enabled**|Check the box to enable this Restriction Policy for use.|
 
-5. Click **Save** at the bottom of the **Create a Restriction Policy** window to save the Restriction Policy
+5. []  Click **Save** at the bottom of the **Create a Restriction Policy** window to save the Restriction Policy
 
 ## Sample Restriction Policy
 
@@ -63,6 +63,7 @@ The below Restriction Policy is used to restrict Virtual Machines from being cre
 
 For more information about the items that can be used in a Restriction Policy, see [Microsoft Azure Restriction Policy Templates](https://docs.microsoft.com/en-us/azure/azure-policy/json-samples).
 
+<<<<<<< HEAD
 Congratulations, you have just created your first Restriction Policy! Now let's add your Restriction Policy to your Cloud Slice lab.
 
 1. [] Return to the <[Lab on Demand Administration page](/Admin).
@@ -91,9 +92,13 @@ Congratulations, you have just created your first Restriction Policy! Now let's 
 
 With this Restriction Policy in place, lab users will be restricted from creating resources that are defined in the Restriction Policy, in their Cloud Slice lab.
 
+=======
+<!--
+>>>>>>> ce948fdb7f70ca823e5ec1c8d9193b8e68f4985a
 Now that you have configured a Restriction Policy, the next step is to set up your Cloud Slice lab for scale.
 Click on the link below to go through the next Quick Start where you will Set up your Cloud Slice lab to scale.
 
 [Set up your Cloud Slice lab up for scale](set-up-cloud-slice-lab-for-scale.md)
+-->
 
-[Back to top](#restriction-policies)
+[Back to top](#cloud-slice-quick-start---restriction-policies "Return to the top of the document")

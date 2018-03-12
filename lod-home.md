@@ -25,7 +25,7 @@ With the Cloud Slice feature, LOD is able to support cloud learning at scale. Le
 |5 minutes|[Create a Cloud Slice lab in 3 steps](lod/quick-starts/cloud-slice/create.md)|
 |10 minutes|[Write instructions for your Cloud Slice lab](lod/quick-starts/cloud-slice/write-instructions.md)|
 |10 minutes|[Provision cloud resources in your Cloud Slice lab](lod/quick-starts/cloud-slice/provision-cloud-resources.md)|
-|10 minutes|[Restrict what users can create in your Cloud Slice lab](restriction-policies.md)|
+|10 minutes|[Restrict what users can create in your Cloud Slice lab](lod/quick-starts/cloud-slice/restriction-policies.md)|
 
 ## Feature Focus
 
@@ -90,7 +90,7 @@ VIEW STATISTICS	/LabProfile/Statistics/{labProfileId},
 * [Performance Based Testing (PBT)](guides/pbt/lodpbtguide.md)
 * [Shared Labs (a.k.a. Cyber-Range)](guides/sl/sharedlabs.md)
 * [Lab on Demand edX Integration](guides/lti/lod-lti.md)
-* [Custom CSS](lod/custom-css-guide.md)
+* [Custom CSS](lod/feature-focus/lab-profiles/custom-css.md)
 * [Setup up a Cloud Slice lab](guides/cloud-slice/cloud-slice.md)
 
 ### Cloud Subscription Pools
