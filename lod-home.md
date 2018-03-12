@@ -90,7 +90,7 @@ VIEW STATISTICS	/LabProfile/Statistics/{labProfileId},
 * [Performance Based Testing (PBT)](guides/pbt/lodpbtguide.md)
 * [Shared Labs (a.k.a. Cyber-Range)](guides/sl/sharedlabs.md)
 * [Lab on Demand edX Integration](guides/lti/lod-lti.md)
-* [Custom CSS](lod/custom-css-guide.md)
+* [Custom CSS](lod/feature-focus/lab-profiles/custom-css.md)
 * [Setup up a Cloud Slice lab](guides/cloud-slice/cloud-slice.md)
 
 ### Cloud Subscription Pools
