@@ -70,4 +70,4 @@ Click on the link below to go through the next Quick Start where you will Set up
 [Set up your Cloud Slice lab up for scale](set-up-cloud-slice-lab-for-scale.md)
 -->
 
-[Back to top](#cloud-slice-quick-start---restriction-policies)
+[Back to top](#cloud-slice-quick-start---restriction-policies "Return to the top of the document")
