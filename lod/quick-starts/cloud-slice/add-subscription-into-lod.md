@@ -6,7 +6,7 @@
 > * a cloud subscription configured for use with the One Learn Lab on Demand platform (LOD);
 > * the cloud subscription ID, tenant name, application ID, and application secret for your subscription;
 > 
-> If you have not yet configured your cloud subscription for use with LOD and captured the required information, go through the [Configure Subscription Quick Start](configure-subscription.md).
+> If you have not yet configured your cloud subscription for use with LOD and captured the required information, go through the [Configure your Cloud Subscription for use with LOD](configure-subscription.md) Quick Start.
 
 Estimated time to completion: **5 minutes**.
 
@@ -18,7 +18,7 @@ All cloud subscriptions are added to LOD as part of a Cloud Subscription Pool. T
 
 1. [] Navigate to the <[Lab on Demand Administration page](/Admin).
 
-1. [] Click on <[Cloud Subscription Pools](/CloudSubscriptionPool) on the Cloud tile.
+1. [] Click <[Cloud Subscription Pools](/CloudSubscriptionPool) on the Cloud Services tile.
 
     !IMAGE[Cloud Subscription Pools](images/lod-open-cloud-subscription-pools.png)
 
@@ -48,4 +48,4 @@ All cloud subscriptions are added to LOD as part of a Cloud Subscription Pool. T
 
 Now that you have added your subscription into LOD for use with Cloud Slice labs, you're ready to create your first Cloud Slice lab! Click on the link below to go through the next Quick Start where you will create a Cloud Slice lab in 3 steps.
 
-[Creating a Cloud Slice lab in 3 steps](creating-a-cloud-slice-lab-in-3-steps.md)
+[Create a Cloud Slice lab in 3 steps](create.md)

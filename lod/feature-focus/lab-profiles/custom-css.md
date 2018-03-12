@@ -1,8 +1,6 @@
-# Custom CSS Guide
+# Custom CSS
 
-
-
-Lab on Demand supports the use of custom CSS in lab profiles that are authored using software such as IDL Studio. This will allow the lab author to apply custom styling to the instructions in the lab, including font size and font color. Custom CSS syntax can be entered directly in the lab profile or stored in a file on a web server that allows access to the file via a URL.
+The OneLearn Lab on Demand platform supports the use of custom CSS in lab profiles that are authored using software such as IDL Studio. This will allow the lab author to apply custom styling to the instructions in the lab, including font size and font color. Custom CSS syntax can be entered directly in the lab profile or stored in a file on a web server that allows access to the file via a URL.
 
 ### Adding Custom CSS
 
