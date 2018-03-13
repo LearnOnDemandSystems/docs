@@ -18,17 +18,17 @@ With both methods, Resource Providers are registered to the subscription using  
 
 The first two commands will register all available Resource Providers at the time of running the Powershell command. Every time a new service is added to Azure including Azure Marketplace, these commands will need to be ran again to register new providers for the new services. The third command is used to register a specific Resource Provider. 
 
-1. To see a list of all available resource providers run the following **PowerShell command:** 
+1. [] To see a list of all available resource providers run the following **PowerShell command:** 
 
    `get-AzureRmResourceProvider -ListAvailable | select ProviderNamespace`
 
 > [!ALERT] You must be logged into the subscription with a user account with sufficient privileges to register Resource Providers while running these Powershell commands.
 
-2. To register all available resource providers in the current subscription run the following **PowerShell command:**
+1. [] To register all available resource providers in the current subscription run the following **PowerShell command:**
 
    `get-AzureRmResourceProvider -ListAvailable | foreach-object{Register-AzureRmResourceProvider -ProviderNamespace $_.ProviderNamespace}`
 
-3. To register a specific resource provider (e.g. the one required for provisioning virtual machine resources) run the following **Powershell command:**
+1. [] To register a specific resource provider (e.g. the one required for provisioning virtual machine resources) run the following **Powershell command:**
 
 `Register-AzureRmResourceProvider -ProviderNamespace ResourceProvider.Name`
 
@@ -38,7 +38,7 @@ Replace "*ResourceProvider.Name*" with the name of the Resource Provider you wis
 
 This will allow Resource Group Owners to have the ability to register Resource providers using custom role-based access control. This custom role will grant **only** registration rights on the subscription. This role should be assigned in-addition to the built-in Resource Group Owner role.
 
-1. **Create a JSON file** with the role definition below and name the file **MycustomRole.JSON**. Note the directory where the file is saved. 
+1. [] **Create a JSON file** with the role definition below and name the file **MycustomRole.JSON**. Note the directory where the file is saved. 
 
    `{"Name": "Register Microsoft providers","Description": "Can register Microsoft providers","Actions": [ "*/register/action" ],"AssignableScopes": [ "/subscriptions/[SUBSCRIPTION1_ID_GOES_HERE]","/subscriptions/[SUBSCRIPTION2_ID_GOES_HERE]","/subscriptions/[SUBSCRIPTION3_ID_GOES_HERE]" ]}`
 
@@ -46,13 +46,13 @@ This will allow Resource Group Owners to have the ability to register Resource p
 
 > [!KNOWLEDGE] Custom role definition objects span subscriptions and sit on the AAD tenant level. That means you can only have uniquely named custom roles defined across all subscriptions in a single tenant. So make sure you include all the subscriptions ids you want to include in the above custom role definition in the assignable scopes section.
 
-2. Run the following **Powershell command:** 
+1. [] Run the following **Powershell command:** 
 
    `New-AzureRmRoleDefinition -InputFile C:\MycustomRole.json`
 
    If your file is not saved at C:\, change the directory in Powershell to the directory where your file is saved (from step 1) and update the Powershell command with the correct directory.
 
-3. Navigate to https://portal.azure.com/ and assign the custom role to individual users or groups.
+1. [] Navigate to https://portal.azure.com/ and assign the custom role to individual users or groups.
 
    - Click **Subscriptions** on the left-side navigation pane. If Subscriptions is not listed, click More services. 
 
