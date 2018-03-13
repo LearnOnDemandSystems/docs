@@ -222,8 +222,6 @@ Unchecking **Inherit storage settings from organization** box will enable additi
 
 3. **End Redirect URL:** If this value is set, users will be redirected to the specified URL when the lab ends. This feature isn't used often, but can help a lab fit into an external workflow. 
 
-   For more information on Custom CSS in Lab on Demand, see our guide here: [Custom CSS Guide](create-lab-profile-custom-css).
-
 4. **Max Active Instance:** This sets the amount of concurrent labs that can be launched at a time. Setting to _Unlimited_ allows an unlimited amount of launches of this lab profile at a time. Entering a number limits the amount of concurrent labs to the number specified. Any labs that are attempted to be launched after the limit has been met, will be given an error message and will not be able to launch the lab until the number of labs launched is below the maximum amount.
 
 5. **Show Timer:** Checking this box will enable the lab to display a countdown timer, showing the user how much time they have left to complete the lab. 
@@ -232,15 +230,7 @@ Unchecking **Inherit storage settings from organization** box will enable additi
 
 7. **Show Navigation Bar:** 
 
-8. **Navigation Bar Width:** This sets the width of the navigation bar in the lab UI. Options include:
-
-   - Default (250 pixels)
-
-   - Large (400 pixels)
-
-   - XL (600 pixels)
-
-   - Custom
+8. **Navigation Bar Width:** This sets the width of the navigation bar in the lab UI. 
 
 9. **Show Content Tab:** Checking this box enables the Content tab to be displayed in the lab environment.
 
@@ -254,7 +244,7 @@ Unchecking **Inherit storage settings from organization** box will enable additi
 
 14. **Custom Support Tab label:** Custom label to be used in lab UI, in place of the Support tab.
 
-15. **Custom Errata Label:** Custom label to be displayed on the [Errata](#Errata).
+15. **Custom Errata Label:** Custom label to be displayed on the Errata.
 
 16. **Enable Type Text:** Enables the lab to use Type Text. Type Text is used to input information into the lab environment with one click.  
 
