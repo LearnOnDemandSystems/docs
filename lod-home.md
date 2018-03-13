@@ -20,12 +20,12 @@ With the Cloud Slice feature, LOD is able to support cloud learning at scale. Le
 
 |Duration|Quick Start|
 |--:|:--|
-|20 minutes|[Configure your Cloud Subscription for use with LOD](lod/quick-starts/cloud-slice/configure-subscription.md)|
-|5 minutes|[Add your Cloud Subscription into LOD](lod/quick-starts/cloud-slice/add-subscription-into-lod.md)|
-|5 minutes|[Create a Cloud Slice lab in 3 steps](lod/quick-starts/cloud-slice/create.md)|
-|10 minutes|[Write instructions for your Cloud Slice lab](lod/quick-starts/cloud-slice/write-instructions.md)|
-|10 minutes|[Provision cloud resources in your Cloud Slice lab](lod/quick-starts/cloud-slice/provision-cloud-resources.md)|
-|10 minutes|[Restrict what users can create in your Cloud Slice lab](lod/quick-starts/cloud-slice/restriction-policies.md)|
+|20&nbsp;minutes|[Configure your Cloud Subscription for use with LOD](lod/quick-starts/cloud-slice/configure-subscription.md)|
+|5&nbsp;minutes|[Add your Cloud Subscription into LOD](lod/quick-starts/cloud-slice/add-subscription-into-lod.md)|
+|5&nbsp;minutes|[Create a Cloud Slice lab in 3 steps](lod/quick-starts/cloud-slice/create.md)|
+|10&nbsp;minutes|[Write instructions for your Cloud Slice lab](lod/quick-starts/cloud-slice/write-instructions.md)|
+|10&nbsp;minutes|[Provision cloud resources in your Cloud Slice lab](lod/quick-starts/cloud-slice/provision-cloud-resources.md)|
+|10&nbsp;minutes|[Restrict what users can create in your Cloud Slice lab](lod/quick-starts/cloud-slice/restriction-policies.md)|
 
 ## Feature Focus
 
