@@ -189,7 +189,7 @@ Pre-instancing enables the lab environment to be prebuilt, prior to users launch
 
 This section specifies where the files for the lab profile should be stored. 
 
-1. **Inherit storage settings from organization:** Checking this box enables the lab profile to inherit storage settings from the organization specified on the [Basic Information](#Basic-information) section.
+1. **Inherit storage settings from organization:** Checking this box enables the lab profile to inherit storage settings from the organization specified on the Basic Information section.
 
 Unchecking **Inherit storage settings from organization** box will enable additional options.
 
@@ -202,7 +202,7 @@ Unchecking **Inherit storage settings from organization** box will enable additi
 
 ## Launch URLs
 
-**LTI** (Learning Tools Interoperability) is a standard defined by the IMS Global Learning Consortium that allows learning systems to consume content provided by external tools or services. This standard enables rich integration between different learning services and platforms, combining their strengths to offer more value to students of those learning systems. For more information on Lab on Demand LTI integration, see our guide here: [LTI Guide](https://github.com/LearnOnDemandSystems/guides/blob/master/lti/lod-lti.md).
+**LTI** (Learning Tools Interoperability) is a standard defined by the IMS Global Learning Consortium that allows learning systems to consume content provided by external tools or services. This standard enables rich integration between different learning services and platforms, combining their strengths to offer more value to students of those learning systems. 
 
 1. **Scoring Policy:** Select the type of Scoring Policy. Types of Scoring Policy include: _Time Spent_ and _Tasks Complete_.
 2. **Scoring Format:** Select the Scoring Format. Types of Scoring Format include: _% Complete_ and _Pass/Fail_.
