@@ -60,11 +60,11 @@ This will allow Resource Group Owners to have the ability to register Resource p
 
 1. [] Click the **subscription** that the new role will be added to
 
-       ![Subscription button](images/resource-providers-subscriptions-to-add.pn)
+   ![Subscription button](images/resource-providers-subscriptions-to-add.png)
 
 1. [] Click **Access control (IAM)**
 
-       ![Access control](images/resource-providers-Access-control.pn)
+   ![Access control](images/resource-providers-Access-control.png)
 
 1. [] Click **Add**
 
