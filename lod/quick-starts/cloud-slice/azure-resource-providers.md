@@ -56,19 +56,19 @@ This will allow Resource Group Owners to have the ability to register Resource p
 
 1. [] Click **Subscriptions** on the left-side navigation pane. If Subscriptions is not listed, click More services. 
 
-     ![Subscription button](images/resource-providers-subscriptions-button.png)
+     !IMAGE[Subscription button](images/resource-providers-subscriptions-button.png)
 
 1. [] Click the **subscription** that the new role will be added to
 
-   ![Subscription button](images/resource-providers-subscriptions-to-add.png)
+   !IMAGE[Subscription button](images/resource-providers-subscriptions-to-add.png)
 
 1. [] Click **Access control (IAM)**
 
-   ![Access control](images/resource-providers-Access-control.png)
+   !IMAGE[Access control](images/resource-providers-Access-control.png)
 
 1. [] Click **Add**
 
-     ![Add](images/resource-providers-subscriptions-add.png)
+     !IMAGE[Add](images/resource-providers-subscriptions-add.png)
 
 1. [] Select **Register Microsoft providers** and click Ok.
 
