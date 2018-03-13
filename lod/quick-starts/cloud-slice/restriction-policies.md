@@ -93,7 +93,7 @@ With this Restriction Policy in place, lab users will be restricted from creatin
 
 Now that you have configured a Restriction Policy, the next step is to set up your Cloud Slice lab with the resources that are needed to accomplish the goals of your lab. 
 
-Click on the link below to go through the next Quick Start where you will Set up your register Resources Providers
+Click on the link below to go through the next Quick Start where you will Set up your register Resources Providers.
 
 [Register Resouce Providers](cloud-resource-providers.md)
 
