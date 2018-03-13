@@ -33,7 +33,7 @@ Requests are typically fulfilled by Microsoft within a few hours, depending on t
     - Microsoft will downgrade requests marked with A Severity to B Severity, after the request is submitted.
 
 1. Select **Deployment** model
-  - Typically **Resource Manager** should be selected for Cloud Slice labs.
+    - Typically **Resource Manager** should be selected for Cloud Slice labs.
 
 1. Select **Location**
 
