@@ -1,6 +1,4 @@
-# **OneLearn Lab on Demand Help**
-
-BOLD
+# OneLearn Lab on Demand Help
 
 Welcome to the OneLearn Lab on Demand platform (LOD), @lab.UserFirstName!
 
