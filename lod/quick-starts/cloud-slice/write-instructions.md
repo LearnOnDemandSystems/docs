@@ -1,19 +1,15 @@
-# Adding Instructions to Your Lab
+# Cloud Slice Quick Start - Adding Instructions to Your Lab
 
 > [!ALERT] You are currently viewing the fourth entry in a series of Quick Starts about Cloud Slice.
 >
 > To complete this quick start, you must have the following:
-> * a cloud subscription configured for use with the One Learn Lab on Demand platform (LOD);
-> * a Cloud Subscription Pool created in LOD that contains the cloud subscription(s) you will use with your Cloud Slice;
-> * a lab profile that is properly configured to be a Cloud Slice lab;
+> * a lab profile that is properly configured as a Cloud Slice lab;
 > 
-> If you have not yet configured your Lab Profile to be used with Cloud Slice, go through the [Creating a Cloud Slice lab in 3 steps Quick Start](creating-a-cloud-slice-lab-in-3-steps.md).
->
-> If you have configured your cloud subscription properly but have not added your subscription into LOD for use with Cloud Slice labs, go through the [Add Subscription into LOD Quick Start](add-subscription-into-lod.md).
->
-> If you have not yet configured your cloud subscription for use with LOD, go through the [Configure Subscription Quick Start](configure-subscription.md).
+> If you have not yet configured your Lab Profile to be used with Cloud Slice, go through the [Create a Cloud Slice lab in 3 steps](create.md) Quick Start.
 
-Now that you have created a Cloud Slice lab, it is time to add instructions to that lab.
+Estimated time to completion: **10 minutes**.
+
+Now that you have created a Cloud Slice lab, it is time to add instructions to your lab.
 
 1. [] **Navigate** to the lab profile page for your Cloud Slice lab (you may be there already).
 
@@ -47,18 +43,14 @@ Now that you have created a Cloud Slice lab, it is time to add instructions to t
 
 **You have now successfully added instructions to your first Cloud Slice lab! Great job!**
 
-Once you have added instructions to the lab, the lab is ready to be launched by students. However, there are additional features that can be configured in your Cloud Slice lab; cloud-hosted virtual machines and configuring cloud resources templates. 
+Once you have added instructions to the lab, the lab is ready to be launched by students; however, there are additional features that can be pre-provisioned in your Cloud Slice lab to fast forward the learning experience for students, such as cloud resources and managed virtual machines.
 
-> [!ALERT] Adding and configuring Cloud templates and cloud hosted virtual machines in your lab is **optional** and can be skipped if you do not wish to use these features in your Cloud Slice lab. 
+> [!KNOWLEDGE] At this point, if your instructions are written to guide students through the steps necessary to create and manage resources in the cloud, you could pat yourself on the back for successfully creating a working lab. However, for many labs it is advantageous to pre-provision cloud resources and managed virtual machines that students will use in their lab. This allows students to maximize their time learning how to work with those resources rather than having to manually create/deploy the resources themselves. The next steps in this quick start will show you how to configure your lab to provision these optional resources.
 
-Click on the link below to go to the Quick Start where you can configure Resource Templates to use with Cloud Slice.
+Click on the link below to use a Quick Start to provision cloud resources in your Cloud Slice lab.
 
-[Add and configure Cloud Resource Templates with Cloud Slice](using-cloud-resource-templates-with-your-cloud-slice-lab.md)
-
-Click on the link below to go to the Quick Start where you can add cloud-hosted virtual machines to your Cloud Slice lab.
-
-[Add cloud-hosted virtual machines ](adding-a-managed-vm-to-a-cloud-slice-lab.md)
+[Provision cloud resources in your cloud slice lab](provision-cloud-resources.md)
 
 [Back to top][back-to-top]
 
-[back-to-top]: #cloud-slice-guide---microsoft-azure-setup "Return to the top of the document"
+[back-to-top]: #cloud-slice-quick-start---adding-instructions-to-your-lab "Return to the top of the document"

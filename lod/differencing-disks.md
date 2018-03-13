@@ -1,1 +1,1 @@
-# Diferrencing Disks
+# Differencing Disks

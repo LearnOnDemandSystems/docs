@@ -1,7 +1,5 @@
-Labs in Lab on Demand (LOD) are housed in a lab profile. The lab profile is where the settings are configured for the lab. These settings include (but are not limited to): Name, owning organization, expected duration, resource requirements, virtual machines, network configuration, and much more. Lab profiles can exist on their own or they can be part of a Lab Series that contains multiple lab profiles.
+## Lab Profile Settings
 
-
-## Table of Contents
 1. [Basic Information](#basic-information)
 2. [Networks](#networks)
 3. [Virtual Machines](#virtual-machines)
@@ -79,7 +77,6 @@ To use network features, such as external internet access or communication betwe
 
 5. **Development Only:** Used to make the network available to lab profile that are currently in development. 
 
-
 ## Virtual Machines
 
 1. **Add Virtual machine:** Click the add a virtual machine to the lab profile. The virtual machine must already be created to add it to the lab profile using this button. 
@@ -87,7 +84,6 @@ To use network features, such as external internet access or communication betwe
 2. **Create Virtual Machine Profile:** Click to create a virtual machine. This will create a virtual machine, in which the lab author can specify hardware preferences.
 
 3. **Has Virtual machine Pool:** A pool of unique virtual machine profiles can be created, to be issued to individual users. A single pool member will never be used by two different users simultaneously. This is useful for to ensure that a machine or set of machines is unique in the world at any given point in time. **If your virtual machine will be identical for all users, you do not need a pool.** It is important to note that you can only have as many concurrent users as you have pool members. This can greatly reduce the scalability of the lab, so ensure you create a sufficient pool depth to accommodate the peak number of anticipated concurrent users.
-
 
 ## Removable Media
 
@@ -137,7 +133,7 @@ To use network features, such as external internet access or communication betwe
 
 ## Errata
 
-The Errata is used to give a message to users working in the lab. The Errata appears in the lab environment, after the lab is launched. The Errata is displayed in a window, over the lab UI and virtual machines. This can be used to notify users of known issues in the lab, helpful tips or it can be used to provide any other information that the lab author wishes to provide. The Errata can be referenced by users at any time during the lab by clicking the Errata link. 
+The Errata is used to give a message to users working in the lab. The Errata appears in the lab environment, after the lab is launched. The Errata is displayed in a window, over the lab UI and virtual machines. This can be used to notify users of known issues in the lab, helpful tips or it can be used to provide any other information that the lab author wishes to provide. The Errata can be referenced by users at any time during the lab by clicking the Errata link.
 
 ## Exam
 
@@ -191,7 +187,7 @@ Pre-instancing enables the lab environment to be prebuilt, prior to users launch
 
 This section specifies where the files for the lab profile should be stored. 
 
-1. **Inherit storage settings from organization:** Checking this box enables the lab profile to inherit storage settings from the organization specified on the [Basic Information](#Basic-information) section.
+1. **Inherit storage settings from organization:** Checking this box enables the lab profile to inherit storage settings from the organization specified on the Basic Information section.
 
 Unchecking **Inherit storage settings from organization** box will enable additional options.
 
@@ -204,7 +200,7 @@ Unchecking **Inherit storage settings from organization** box will enable additi
 
 ## Launch URLs
 
-**LTI** (Learning Tools Interoperability) is a standard defined by the IMS Global Learning Consortium that allows learning systems to consume content provided by external tools or services. This standard enables rich integration between different learning services and platforms, combining their strengths to offer more value to students of those learning systems. For more information on Lab on Demand LTI integration, see our guide here: [LTI Guide](https://github.com/LearnOnDemandSystems/guides/blob/master/lti/lod-lti.md).
+**LTI** (Learning Tools Interoperability) is a standard defined by the IMS Global Learning Consortium that allows learning systems to consume content provided by external tools or services. This standard enables rich integration between different learning services and platforms, combining their strengths to offer more value to students of those learning systems. For more information on Lab on Demand LTI integration, see our guide here: [LTI Guide](guides/lti/lod-lti.md).
 
 1. **Scoring Policy:** Select the type of Scoring Policy. Types of Scoring Policy include: _Time Spent_ and _Tasks Complete_.
 2. **Scoring Format:** Select the Scoring Format. Types of Scoring Format include: _% Complete_ and _Pass/Fail_.
@@ -222,9 +218,9 @@ Unchecking **Inherit storage settings from organization** box will enable additi
 
 2. **Custom CSS URL:** A URL to an externally hosted CSS stylesheet. The stylesheet will be referenced in the lab client. **HTTPS is required**.
 
-3. **End Redirect URL:** If this value is set, users will be redirected to the specified URL when the lab ends. This feature isn't used often, but can help a lab fit into an external workflow. 
+    -   For more information on Custom CSS in Lab on Demand, see our guide here: [Custom CSS Guide](custom-css.md).
 
-   For more information on Custom CSS in Lab on Demand, see our guide here: [Custom CSS Guide](create-lab-profile-custom-css).
+3. **End Redirect URL:** If this value is set, users will be redirected to the specified URL when the lab ends. This feature isn't used often, but can help a lab fit into an external workflow. 
 
 4. **Max Active Instance:** This sets the amount of concurrent labs that can be launched at a time. Setting to _Unlimited_ allows an unlimited amount of launches of this lab profile at a time. Entering a number limits the amount of concurrent labs to the number specified. Any labs that are attempted to be launched after the limit has been met, will be given an error message and will not be able to launch the lab until the number of labs launched is below the maximum amount.
 
@@ -234,15 +230,7 @@ Unchecking **Inherit storage settings from organization** box will enable additi
 
 7. **Show Navigation Bar:** 
 
-8. **Navigation Bar Width:** This sets the width of the navigation bar in the lab UI. Options include:
-
-   - Default (250 pixels)
-
-   - Large (400 pixels)
-
-   - XL (600 pixels)
-
-   - Custom
+8. **Navigation Bar Width:** This sets the width of the navigation bar in the lab UI. 
 
 9. **Show Content Tab:** Checking this box enables the Content tab to be displayed in the lab environment.
 
@@ -256,7 +244,7 @@ Unchecking **Inherit storage settings from organization** box will enable additi
 
 14. **Custom Support Tab label:** Custom label to be used in lab UI, in place of the Support tab.
 
-15. **Custom Errata Label:** Custom label to be displayed on the [Errata](#Errata).
+15. **Custom Errata Label:** Custom label to be displayed on the  [Errata](#errata).
 
 16. **Enable Type Text:** Enables the lab to use Type Text. Type Text is used to input information into the lab environment with one click.  
 
@@ -271,7 +259,7 @@ Unchecking **Inherit storage settings from organization** box will enable additi
     - **Shared Environment:** One lab is configured to serve as the shared environment. Exactly one instance of this lab will run per class. 
     - **Participant:** This is the lab that end-users will launch. There can potentially be more than one lab in this role per class, but they will all connect to the same shared environment instance. 
 
-    Networks within the shared environment lab can be made available to participant labs, making it possible for participants to connect to each other and/or to virtual machines within the shared environment. To enable Shared Class Environment for this lab profile, select one of the options from the drop-down menu; _Shared Environment_ or _Participant_. For more info click here: [Shared Labs Guide](https://github.com/LearnOnDemandSystems/guides/blob/master/sl/sharedlabs.md)
+    Networks within the shared environment lab can be made available to participant labs, making it possible for participants to connect to each other and/or to virtual machines within the shared environment. To enable Shared Class Environment for this lab profile, select one of the options from the drop-down menu; _Shared Environment_ or _Participant_. 
 
 21. **Save/Cancel Options:** 
     - **Allow User to Cancel Labs:** allows the user to cancel the lab at any point
@@ -293,4 +281,4 @@ Unchecking **Inherit storage settings from organization** box will enable additi
 
 28. **Lab Host tags:** Lab host tags are used to specify which Lab Host(s) the lab profile will use when users launch the lab. The Lab Host tag must already be created to add it to the lab profile using this button.
 
-[Back to top](#Create-lab-profile)
+[Back to top](#lab-profile-settings)
