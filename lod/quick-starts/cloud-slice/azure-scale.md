@@ -8,45 +8,45 @@ Requests are typically fulfilled by Microsoft within a few hours, depending on t
 
 ### **Submitting a Support Request to Microsoft** 
 
-1. Click the **'?'** in the upper-right corner of the Azure portal
+1. [] Click the **'?'** in the upper-right corner of the Azure portal
 
-1. Click **Help + support**
+1. [] Click **Help + support**
 
-1. Click **New Support Request**
+1. [] Click **New Support Request**
 
-1. Select **Issue type**, then select **Quota*
+1. [] Select **Issue type**, then select **Quota*
 
-1. Select **Subscription** (if there are multiple subscriptions listed, be sure to select the appropriate subscription)
+1. [] Select **Subscription** (if there are multiple subscriptions listed, be sure to select the appropriate subscription)
 
-1. Select **Quota type**. For example, you can choose Cores to increase the number of CPU cores that you want to be able to support in each region. See <a href="https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-quota-types">Azure Quota Types</a> for more information.
+1. [] Select **Quota type**. For example, you can choose Cores to increase the number of CPU cores that you want to be able to support in each region. See <a href="https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-quota-types">Azure Quota Types</a> for more information.
 
-1. Select **Support plan**
+1. [] Select **Support plan**
 
     - the 'i' icon reveals additional information. Clicking the icon enables the text to become stationary and easier to move the mouse to. 
 
-1. Click **Next** to proceed
+1. [] Click **Next** to proceed
 
-1. Select **Severity** 
+1. [] Select **Severity** 
 
     - Severity has 3 options; A - Critical impact, B - Moderate impact and C - Minimal impact.
   
     - Microsoft will downgrade requests marked with A Severity to B Severity, after the request is submitted.
 
-1. Select **Deployment** model
+1. [] Select **Deployment** model
     - Typically **Resource Manager** should be selected for Cloud Slice labs.
-
-1. Select **Location**
+    
+1. [] Select **Location**
 
     - select the location geographically closest to the location where Azure resources will be used.
   
     - If the closest region is known to be busy, select the next closest region. 
 
-1. Select **Sku** 
+1. [] Select **Sku** 
     - For more information about Azure SKU families, see [here](https://azure.microsoft.com/en-ca/pricing/details/virtual-machines/series/).
 
-1. Enter **New limit** amount
+1. [] Enter **New limit** amount
     - increases should only be requested for the amount of resources needed, to avoid overconsumption that could result in resources becoming unavailable to other users. 
 
-1. Complete **Contact information** details
+1. [] Complete **Contact information** details
 
-1. Click **Create** to submit the request
+1. [] Click **Create** to submit the request
