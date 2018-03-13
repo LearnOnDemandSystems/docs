@@ -1,4 +1,4 @@
-## **Azure Resource Capacity Limitations**
+## Azure Resource Capacity Limitations
 
 Microsoft Azure has resource capacity limitations that should be considered in advance of training events or classes, to avoid running into limitations during the use of the Cloud Slice lab. After the class or event is scheduled, it is a good idea to estimate the amount of resources that will be needed during the event based on the number of lab users and the amount of resources that each lab user will need.
 
@@ -6,7 +6,7 @@ A support request must be made to Microsoft to adjust the amount of resources th
 
 Requests are typically fulfilled by Microsoft within a few hours, depending on the amount of resources requested and the region requested. In some cases, it can take Microsoft several days or weeks to fulfill some requests, based on demand for the resources requested.
 
-### **Submitting a Support Request to Microsoft** 
+### Submitting a Support Request to Microsoft
 
 1. [] Click the **'?'** in the upper-right corner of the Azure portal
 
