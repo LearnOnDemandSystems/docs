@@ -1,4 +1,4 @@
-## Table of Contents
+## Lab Profile Settings
 
 1. [Basic Information](#basic-information)
 2. [Networks](#networks)
@@ -281,4 +281,4 @@ Unchecking **Inherit storage settings from organization** box will enable additi
 
 28. **Lab Host tags:** Lab host tags are used to specify which Lab Host(s) the lab profile will use when users launch the lab. The Lab Host tag must already be created to add it to the lab profile using this button.
 
-[Back to top](#table-of-contents)
+[Back to top](##lab-profile-settings)
