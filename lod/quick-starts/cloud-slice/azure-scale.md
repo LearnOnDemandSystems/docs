@@ -61,6 +61,8 @@ Requests are typically fulfilled by Microsoft within a few hours, depending on t
     - If the closest region is known to be busy, select the next closest region. 
     
     ![select location](images/azure-select-location.png)
+    
+     ![select location](images/azure-select-location.png)
 
 1. [] Select **Sku** 
     - For more information about Azure SKU families, see [here](https://azure.microsoft.com/en-ca/pricing/details/virtual-machines/series/).
