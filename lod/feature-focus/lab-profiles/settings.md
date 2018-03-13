@@ -135,7 +135,7 @@ To use network features, such as external internet access or communication betwe
 
 ## Errata
 
-The Errata is used to give a message to users working in the lab. The Errata appears in the lab environment, after the lab is launched. The Errata is displayed in a window, over the lab UI and virtual machines. This can be used to notify users of known issues in the lab, helpful tips or it can be used to provide any other information that the lab author wishes to provide. The Errata can be referenced by users at any time during the lab by clicking the Errata link. 
+The Errata is used to give a message to users working in the lab. The Errata appears in the lab environment, after the lab is launched. The Errata is displayed in a window, over the lab UI and virtual machines. This can be used to notify users of known issues in the lab, helpful tips or it can be used to provide any other information that the lab author wishes to provide. The Errata can be referenced by users at any time during the lab by clicking the Errata link.
 
 ## Exam
 
@@ -202,7 +202,7 @@ Unchecking **Inherit storage settings from organization** box will enable additi
 
 ## Launch URLs
 
-**LTI** (Learning Tools Interoperability) is a standard defined by the IMS Global Learning Consortium that allows learning systems to consume content provided by external tools or services. This standard enables rich integration between different learning services and platforms, combining their strengths to offer more value to students of those learning systems. 
+**LTI** (Learning Tools Interoperability) is a standard defined by the IMS Global Learning Consortium that allows learning systems to consume content provided by external tools or services. This standard enables rich integration between different learning services and platforms, combining their strengths to offer more value to students of those learning systems. For more information on Lab on Demand LTI integration, see our guide here: [LTI Guide](docs/guides/lti/lod-lti.md).
 
 1. **Scoring Policy:** Select the type of Scoring Policy. Types of Scoring Policy include: _Time Spent_ and _Tasks Complete_.
 2. **Scoring Format:** Select the Scoring Format. Types of Scoring Format include: _% Complete_ and _Pass/Fail_.
@@ -219,6 +219,8 @@ Unchecking **Inherit storage settings from organization** box will enable additi
 1. **Custom CSS:** CSS markup that will be included in the lab client, making it possible to control the styles of custom content that is added to the lab. This should just be the style definitions, including a style tag is not necessary. 
 
 2. **Custom CSS URL:** A URL to an externally hosted CSS stylesheet. The stylesheet will be referenced in the lab client. **HTTPS is required**.
+
+-   For more information on Custom CSS in Lab on Demand, see our guide here: [Custom CSS Guide](/lab-profiles/custom-css.md).
 
 3. **End Redirect URL:** If this value is set, users will be redirected to the specified URL when the lab ends. This feature isn't used often, but can help a lab fit into an external workflow. 
 
@@ -244,7 +246,7 @@ Unchecking **Inherit storage settings from organization** box will enable additi
 
 14. **Custom Support Tab label:** Custom label to be used in lab UI, in place of the Support tab.
 
-15. **Custom Errata Label:** Custom label to be displayed on the Errata.
+15. **Custom Errata Label:** Custom label to be displayed on the  [Errata](#errata).
 
 16. **Enable Type Text:** Enables the lab to use Type Text. Type Text is used to input information into the lab environment with one click.  
 
