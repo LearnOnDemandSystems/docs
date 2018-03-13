@@ -26,7 +26,7 @@ With the Cloud Slice feature, LOD is able to support cloud learning at scale. Le
 |10&nbsp;minutes|[Write instructions for your Cloud Slice lab](lod/quick-starts/cloud-slice/write-instructions.md)|
 |10&nbsp;minutes|[Provision cloud resources in your Cloud Slice lab](lod/quick-starts/cloud-slice/provision-cloud-resources.md)|
 |10&nbsp;minutes|[Restrict what users can create in your Cloud Slice lab](lod/quick-starts/cloud-slice/restriction-policies.md)|
-|10&nbsp;minutes|[Register Cloud Resource Providers](lod/quick-starts/cloud-slice/cloud-resource-providers.md)|
+|20&nbsp;minutes|[Register Cloud Resource Providers](lod/quick-starts/cloud-slice/cloud-resource-providers.md)|
 |10&nbsp;minutes|[Set up Cloud Slice lab for Scale](lod/quick-starts/cloud-slice/scale.md)|
 
 ## Feature Focus
