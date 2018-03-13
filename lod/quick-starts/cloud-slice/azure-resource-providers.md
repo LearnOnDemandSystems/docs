@@ -4,11 +4,12 @@ Resources in Azure are made available by a Resource provider, registered to the 
 
 Azure subscriptions come with a default set of Resource Providers to support creating various resources. For example, if you want to create a virtual machine, the *Microsoft.Compute* Resource Provider needs to be registered to the subscription to successfully create a virtual machine. 
 
-To create resources that use Resource Providers that are not included in the default set provided with a new subscription, will need to be registered to the subscription by a user with subscription-level access, using one of the following methods:
+To create resources that use Resource Providers that are not included in the default set provided with a new subscription, will need to be registered to the subscription by a user with subscription-level access, **using one of the following methods**:
 
 - Pre-register all available or a specific Resource Provider to the subscription.
 - Create custom role-based access control to permit registrations of Resource Providers as-needed.
 
+> [!ALERT] It is only necessary to follow one of these methods, to register Resource Providers to your subscription. 
 
 With both methods, Resource Providers are registered to the subscription using  Powershell commands. The additional Resource Providers are typically registered to the subscription in 1-10 minutes, after the Powershell commands have been executed.
 
@@ -21,7 +22,7 @@ The first two commands will register all available Resource Providers at the tim
 
    `get-AzureRmResourceProvider -ListAvailable | select ProviderNamespace`
 
-   **note:** you must be logged into the subscription with a user account with sufficient privileges to register Resource Providers while running these Powershell commands.
+> [!ALERT] You must be logged into the subscription with a user account with sufficient privileges to register Resource Providers while running these Powershell commands.
 
 2. To register all available resource providers in the current subscription run the following **PowerShell command:**
 
@@ -43,8 +44,7 @@ This will allow Resource Group Owners to have the ability to register Resource p
 
    Replace ‘[SUBSCRIPTION1_ID_GOES_HERE], SUBSCRIPTION2_ID_GOES_HERE]…etc.’ with all subscription ids that you would like this role to be associated to.
 
-
-   **Note:** custom role definition objects span subscriptions and sit on the AAD tenant level. That means you can only have uniquely named custom roles defined across all subscriptions in a single tenant. So make sure you include all the subscriptions ids you want to include in the above custom role definition in the assignable scopes section.
+> [!KNOWLEDGE] Custom role definition objects span subscriptions and sit on the AAD tenant level. That means you can only have uniquely named custom roles defined across all subscriptions in a single tenant. So make sure you include all the subscriptions ids you want to include in the above custom role definition in the assignable scopes section.
 
 2. Run the following **Powershell command:** 
 
