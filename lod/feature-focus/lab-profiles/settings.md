@@ -25,7 +25,7 @@
 3. **Series:** Select the lab series that the lab profile will be associated with.
 4. **Organization:** Select the organization that will own the lab profile and be responsible for maintaining the profile. 
 5. **Virtualization:** Select the virtualization platform that the lab profile will use. (Hyper-V, vSphere or none.) Selecting _None_ will cause the lab profile to use the Cloud Client. 
-6. **Parent:** A lab can optionally inherit some properties from a parent lab profile. Both the virtual environment (virtual machines, virtual networks, etc) can be inherited, as well as resources and content (manuals, scenario, objective, excercises, tasks, etc). Changes to the parent lab profile will be reflected in instances of this lab.
+6. **Parent:** A lab can optionally inherit some properties from a parent lab profile. Both the virtual environment (virtual machines, virtual networks, etc) can be inherited, as well as resources and content (manuals, scenario, objective, exercises, tasks, etc). Changes to the parent lab profile will be reflected in instances of this lab.
 7. **Storage Reservation Per Instance:** This is the amount of storage that the lab scheduler will ensure is available before an instance of this lab is launched.
 8. **Development Status:** Used to show lab profile development status. (In Development, Awaiting Verification, In Verification, Verification Failed, Complete.) Lab profiles in _Complete_ Development Status will be available for use, other development status' will only be available to registered lab developers. 
 9. **Expected Duration:** The expected amount of time it will take a user to complete the lab.
@@ -200,7 +200,7 @@ Unchecking **Inherit storage settings from organization** box will enable additi
 
 ## Launch URLs
 
-**LTI** (Learning Tools Interoperability) is a standard defined by the IMS Global Learning Consortium that allows learning systems to consume content provided by external tools or services. This standard enables rich integration between different learning services and platforms, combining their strengths to offer more value to students of those learning systems. For more information on Lab on Demand LTI integration, see our guide here: [LTI Guide](guides/lti/lod-lti.md).
+**LTI** (Learning Tools Interoperability) is a standard defined by the IMS Global Learning Consortium that allows learning systems to consume content provided by external tools or services. This standard enables rich integration between different learning services and platforms, combining their strengths to offer more value to students of those learning systems. For more information on Lab on Demand LTI integration, see our guide here: [LTI Guide](/guides/lti/lod-lti.md).
 
 1. **Scoring Policy:** Select the type of Scoring Policy. Types of Scoring Policy include: _Time Spent_ and _Tasks Complete_.
 2. **Scoring Format:** Select the Scoring Format. Types of Scoring Format include: _% Complete_ and _Pass/Fail_.
@@ -218,7 +218,7 @@ Unchecking **Inherit storage settings from organization** box will enable additi
 
 2. **Custom CSS URL:** A URL to an externally hosted CSS stylesheet. The stylesheet will be referenced in the lab client. **HTTPS is required**.
 
-    -   For more information on Custom CSS in Lab on Demand, see our guide here: [Custom CSS Guide](custom-css.md).
+    - For more information on Custom CSS in Lab on Demand, see our guide here: [Custom CSS Guide](custom-css.md).
 
 3. **End Redirect URL:** If this value is set, users will be redirected to the specified URL when the lab ends. This feature isn't used often, but can help a lab fit into an external workflow. 
 
@@ -244,7 +244,7 @@ Unchecking **Inherit storage settings from organization** box will enable additi
 
 14. **Custom Support Tab label:** Custom label to be used in lab UI, in place of the Support tab.
 
-15. **Custom Errata Label:** Custom label to be displayed on the  [Errata](#errata).
+15. **Custom Errata Label:** Custom label to be displayed on the [Errata](#errata).
 
 16. **Enable Type Text:** Enables the lab to use Type Text. Type Text is used to input information into the lab environment with one click.  
 
