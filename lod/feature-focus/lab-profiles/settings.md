@@ -77,7 +77,6 @@ To use network features, such as external internet access or communication betwe
 
 5. **Development Only:** Used to make the network available to lab profile that are currently in development. 
 
-
 ## Virtual Machines
 
 1. **Add Virtual machine:** Click the add a virtual machine to the lab profile. The virtual machine must already be created to add it to the lab profile using this button. 
@@ -85,7 +84,6 @@ To use network features, such as external internet access or communication betwe
 2. **Create Virtual Machine Profile:** Click to create a virtual machine. This will create a virtual machine, in which the lab author can specify hardware preferences.
 
 3. **Has Virtual machine Pool:** A pool of unique virtual machine profiles can be created, to be issued to individual users. A single pool member will never be used by two different users simultaneously. This is useful for to ensure that a machine or set of machines is unique in the world at any given point in time. **If your virtual machine will be identical for all users, you do not need a pool.** It is important to note that you can only have as many concurrent users as you have pool members. This can greatly reduce the scalability of the lab, so ensure you create a sufficient pool depth to accommodate the peak number of anticipated concurrent users.
-
 
 ## Removable Media
 
@@ -220,7 +218,7 @@ Unchecking **Inherit storage settings from organization** box will enable additi
 
 2. **Custom CSS URL:** A URL to an externally hosted CSS stylesheet. The stylesheet will be referenced in the lab client. **HTTPS is required**.
 
--   For more information on Custom CSS in Lab on Demand, see our guide here: [Custom CSS Guide](/lab-profiles/custom-css.md).
+    -   For more information on Custom CSS in Lab on Demand, see our guide here: [Custom CSS Guide](custom-css.md).
 
 3. **End Redirect URL:** If this value is set, users will be redirected to the specified URL when the lab ends. This feature isn't used often, but can help a lab fit into an external workflow. 
 
