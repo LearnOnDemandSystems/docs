@@ -10,31 +10,31 @@ Requests are typically fulfilled by Microsoft within a few hours, depending on t
 
 1. [] Click the **'?'** in the upper-right corner of the Azure portal
 
-    ![azure question mark](images/azure-help-question-mark.png)
+    !IMAGE[azure question mark](images/azure-help-question-mark.png)
 
 1. [] Click **Help + support**
 
-    ![azure help+support](images/azure-help-button.png)
+    !IMAGE[azure help+support](images/azure-help-button.png)
 
 1. [] Click **New Support Request**
 
-    ![new support request](images/azure-new-support-request.png)
+    !IMAGE[new support request](images/azure-new-support-request.png)
 
 1. [] Select **Issue type**, then select **Quota*
 
-    ![issue type - quota](images/azure-issue-type-quota.png)
+    !IMAGE[issue type - quota](images/azure-issue-type-quota.png)
 
 1. [] Select **Subscription** (if there are multiple subscriptions listed, be sure to select the appropriate subscription)
 
-    ![select subscription](images/azure-select-subscription.png) 
+    !IMAGE[select subscription](images/azure-select-subscription.png) 
 
 1. [] Select **Quota type**. For example, you can choose Cores to increase the number of CPU cores that you want to be able to support in each region. See <a href="https://docs.microsoft.com/en-us/azure/azure-stack/azure-stack-quota-types">Azure Quota Types</a> for more information.
 
-    ![select quota type](images/azure-select-quota-types.png)
+    !IMAGE[select quota type](images/azure-select-quota-types.png)
 
 1. [] Select **Support plan**
 
-    ![select support plan](images/azure-support-plan.png)
+    !IMAGE[select support plan](images/azure-support-plan.png)
     - the 'i' icon reveals additional information. Clicking the icon enables the text to become stationary and easier to move the mouse  to. 
 
     ![i icon](images/azure-i-icon.gif)
@@ -47,12 +47,12 @@ Requests are typically fulfilled by Microsoft within a few hours, depending on t
   
     - Microsoft will downgrade requests marked with A Severity to B Severity, after the request is submitted.
     
-    ![select severity](images/azure-severity.png)
+    !IMAGE[select severity](images/azure-severity.png)
 
 1. [] Select **Deployment** model
     - Typically **Resource Manager** should be selected for Cloud Slice labs.
     
-    ![select deployment model](images/azure-deployment-model.png)
+    !IMAGE[select deployment model](images/azure-deployment-model.png)
     
 1. [] Select **Location**
 
@@ -60,21 +60,21 @@ Requests are typically fulfilled by Microsoft within a few hours, depending on t
   
     - If the closest region is known to be busy, select the next closest region. 
     
-    ![select location](images/azure-select-location.png)
+    !IMAGE[select location](images/azure-select-location.png)
 
 1. [] Select **Sku** 
     - For more information about Azure SKU families, see [here](https://azure.microsoft.com/en-ca/pricing/details/virtual-machines/series/).
     
-    ![select sku family](images/azure-sku-family.png)
+    !IMAGE[select sku family](images/azure-sku-family.png)
 
 1. [] Enter **New limit** amount
     - increases should only be requested for the amount of resources needed, to avoid overconsumption that could result in resources becoming unavailable to other users. 
     
-    ![azure sku new limit](images/azure-sku-new-limit.png)
+    !IMAGE[azure sku new limit](images/azure-sku-new-limit.png)
 
 1. [] Complete **Contact information** details
 
-    ![azure contact information](images/azure-contact-information.png)
+    !IMAGE[azure contact information](images/azure-contact-information.png)
 
 1. [] Click **Create** to submit the request
 
