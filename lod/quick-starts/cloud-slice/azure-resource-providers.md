@@ -54,27 +54,27 @@ This will allow Resource Group Owners to have the ability to register Resource p
 
 1. [] Navigate to https://portal.azure.com/ and assign the custom role to individual users or groups.
 
-   - Click **Subscriptions** on the left-side navigation pane. If Subscriptions is not listed, click More services. 
+1. [] Click **Subscriptions** on the left-side navigation pane. If Subscriptions is not listed, click More services. 
 
      ![Subscription button](images/resource-providers-subscriptions-button.png)
 
-   - Click the **subscription** that the new role will be added to
+1. [] Click the **subscription** that the new role will be added to
 
        ![Subscription button](images/resource-providers-subscriptions-to-add.png)
 
-   - Click **Access control (IAM)**
+1. [] Click **Access control (IAM)**
 
        ![Access control](images/resource-providers-Access-control.png)
 
-   - Click **Add**
+1. [] Click **Add**
 
      ![Add](images/resource-providers-subscriptions-add.png)
 
-     - Select **Register Microsoft providers** and click Ok.
+1. [] Select **Register Microsoft providers** and click Ok.
 
-     - **Type the name of the user or group** to add the role to, **select the user or group** and then click select.
+1. [] **Type the name of the user or group** to add the role to, **select the user or group** and then click select.
 
-     - Click **Ok** to add the role to the user or group. 
+1. [] Click **Ok** to add the role to the user or group. 
 
 Now that you have registered the Resource Providers for the reources that your Cloud Slice lab needs, click the link below to learn how to set your lab up to scale, and request a Resource Quota increase. This ensures your lab has the correct amount of resources available, to meet the goals of your lab. 
 
