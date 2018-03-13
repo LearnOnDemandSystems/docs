@@ -91,9 +91,7 @@ Congratulations, you have just created your first Restriction Policy! Now let's 
 
 With this Restriction Policy in place, lab users will be restricted from creating resources that are defined in the Restriction Policy, in their Cloud Slice lab.
 
-Now that you have configured a Restriction Policy, the next step is to set up your Cloud Slice lab with the resources that are needed to accomplish the goals of your lab. 
-
-Click on the link below to go through the next Quick Start where you will Set up your register Resources Providers.
+Now that you have configured a Restriction Policy, the next step is to set up your Cloud Slice lab with the resources that are needed to accomplish the goals of your lab. Click on the link below to go through the next Quick Start where you will Set up your register Resources Providers.
 
 [Register Resource Providers](cloud-resource-providers.md)
 
