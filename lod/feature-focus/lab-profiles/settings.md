@@ -259,7 +259,7 @@ Unchecking **Inherit storage settings from organization** box will enable additi
     - **Shared Environment:** One lab is configured to serve as the shared environment. Exactly one instance of this lab will run per class. 
     - **Participant:** This is the lab that end-users will launch. There can potentially be more than one lab in this role per class, but they will all connect to the same shared environment instance. 
 
-    Networks within the shared environment lab can be made available to participant labs, making it possible for participants to connect to each other and/or to virtual machines within the shared environment. To enable Shared Class Environment for this lab profile, select one of the options from the drop-down menu; _Shared Environment_ or _Participant_. For more info click here: [Shared Labs Guide](https://github.com/LearnOnDemandSystems/guides/blob/master/sl/sharedlabs.md)
+    Networks within the shared environment lab can be made available to participant labs, making it possible for participants to connect to each other and/or to virtual machines within the shared environment. To enable Shared Class Environment for this lab profile, select one of the options from the drop-down menu; _Shared Environment_ or _Participant_. 
 
 21. **Save/Cancel Options:** 
     - **Allow User to Cancel Labs:** allows the user to cancel the lab at any point
