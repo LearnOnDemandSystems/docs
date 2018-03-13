@@ -95,6 +95,6 @@ Now that you have configured a Restriction Policy, the next step is to set up yo
 
 Click on the link below to go through the next Quick Start where you will Set up your register Resources Providers.
 
-[Register Resouce Providers](cloud-resource-providers.md)
+[Register Resource Providers](cloud-resource-providers.md)
 
 [Back to top](#cloud-slice-quick-start---restriction-policies "Return to the top of the document")
