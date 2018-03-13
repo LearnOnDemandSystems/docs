@@ -22,27 +22,30 @@ Requests are typically fulfilled by Microsoft within a few hours, depending on t
 
 1. Select **Support plan**
 
-  - the 'i' icon reveals additional information. Clicking the icon enables the text to become stationary and easier to move the mouse to. 
+    - the 'i' icon reveals additional information. Clicking the icon enables the text to become stationary and easier to move the mouse to. 
 
 1. Click **Next** to proceed
 
 1. Select **Severity** 
 
-  - Severity has 3 options; A - Critical impact, B - Moderate impact and C - Minimal impact.
-  - Microsoft will downgrade requests marked with A Severity to B Severity, after the request is submitted.
+    - Severity has 3 options; A - Critical impact, B - Moderate impact and C - Minimal impact.
+  
+    - Microsoft will downgrade requests marked with A Severity to B Severity, after the request is submitted.
 
 1. Select **Deployment** model
   - Typically **Resource Manager** should be selected for Cloud Slice labs.
 
 1. Select **Location**
-  - select the location geographically closest to the location where Azure resources will be used.
-  - If the closest region is known to be busy, select the next closest region. 
+
+    - select the location geographically closest to the location where Azure resources will be used.
+  
+    - If the closest region is known to be busy, select the next closest region. 
 
 1. Select **Sku** 
-  - For more information about Azure SKU families, see [here](https://azure.microsoft.com/en-ca/pricing/details/virtual-machines/series/).
+    - For more information about Azure SKU families, see [here](https://azure.microsoft.com/en-ca/pricing/details/virtual-machines/series/).
 
 1. Enter **New limit** amount
-  - increases should only be requested for the amount of resources needed, to avoid overconsumption that could result in resources becoming unavailable to other users. 
+    - increases should only be requested for the amount of resources needed, to avoid overconsumption that could result in resources becoming unavailable to other users. 
 
 1. Complete **Contact information** details
 
