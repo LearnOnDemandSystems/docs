@@ -34,10 +34,10 @@ Requests are typically fulfilled by Microsoft within a few hours, depending on t
 
 7. Select **Support plan**
 
-![select support plan](images/azure-support-plan.png)
-> - the 'i' icon reveals additional information. Clicking the icon enables the text to become stationary and easier to move the mouse to. 
->
->   ![i icon](images/azure-i-icon.gif)
+  ![select support plan](images/azure-support-plan.png)
+  - the 'i' icon reveals additional information. Clicking the icon enables the text to become stationary and easier to move the mouse to. 
+
+  ![i icon](images/azure-i-icon.gif)
 
 
 Click **Next** to proceed
@@ -45,29 +45,29 @@ Click **Next** to proceed
 
 9. 8. Select **Severity** 
 
-> - Severity has 3 options; A - Critical impact, B - Moderate impact and C - Minimal impact.
-> - Microsoft will downgrade requests marked with A Severity to B Severity, after the request is submitted.
+  - Severity has 3 options; A - Critical impact, B - Moderate impact and C - Minimal impact.
+  - Microsoft will downgrade requests marked with A Severity to B Severity, after the request is submitted.
 
 ![select severity](images/azure-severity.png)
 
 9. Select **Deployment** model
-> - Typically **Resource Manager** should be selected for Cloud Slice labs.
+  - Typically **Resource Manager** should be selected for Cloud Slice labs.
 
 ![select deployment model](images/azure-deployment-model.png)
 
 10. Select **Location**
-> - select the location geographically closest to the location where Azure resources will be used.
-> - If the closest region is known to be busy, select the next closest region. 
+  - select the location geographically closest to the location where Azure resources will be used.
+  - If the closest region is known to be busy, select the next closest region. 
 
 ![select location](images/azure-select-location.png)
 
 11. Select **Sku** 
-> - For more information about Azure SKU families, see [here](https://azure.microsoft.com/en-ca/pricing/details/virtual-machines/series/).
+  - For more information about Azure SKU families, see [here](https://azure.microsoft.com/en-ca/pricing/details/virtual-machines/series/).
 
 ![select sku family](images/azure-sku-family.png)
 
 12. Enter **New limit** amount
-> - increases should only be requested for the amount of resources needed, to avoid overconsumption that could result in resources becoming unavailable to other users. 
+  - increases should only be requested for the amount of resources needed, to avoid overconsumption that could result in resources becoming unavailable to other users. 
 
 ![azure sku new limit](images/azure-sku-new-limit.png)
 
@@ -76,5 +76,3 @@ Click **Next** to proceed
 ![azure contact information](images/azure-contact-information.png)
 
 14. Click **Create** to submit the request
-
-
