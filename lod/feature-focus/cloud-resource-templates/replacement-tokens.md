@@ -8,7 +8,7 @@ The table below contains the syntax for all possible replacement tokens, along w
 To use a replacement token, simply insert the syntax associated with the token that you want to use into the raw template document where you want it replaced or into the parameter value where you want it passed in when the Cloud Resource Template is deployed.
 
 |Syntax|Type|Description|
-|--|--|--|--|
+|--|--|--|
 |[Token:TemplateName]|String|The name of the template being deployed.|
 |[Token:TemplateId]|Int|The ID of the template being deployed.|
 |[Token:LabProfileId]|Int|The ID of the lab profile in which the template is being deployed.|
