@@ -98,6 +98,10 @@ VIEW STATISTICS	/LabProfile/Statistics/{labProfileId},
 * [Create a Cloud Subscription](lod/create-cloud-subscription.md)
 * [Create a Cloud Subscription Pool](lod/create-cloud-subscription-pool.md)
 
+### Cloud Resource Templates
+
+* [Replacement Tokens](lod/feature-focus/cloud-resource-templates/replacement-tokens.md)
+
 <!--
 ### Cloud Resource Templates
 
