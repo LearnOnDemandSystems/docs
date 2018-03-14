@@ -27,9 +27,4 @@ Select one of the following cloud platforms to learn how you can request for res
 
 1. [Microsoft Azure](azure-scale.md)
 1. Amazon Web Services (coming soon)
-1. Google Cloud Platform (coming soon)
-
-Click the link below to learn how to create a Cloud Subscription Pool in Lab on Demand.
-
-[Create a Cloud Subscription Pool in Lab on Demand](/lod/create-cloud-subscription-pool.md)
- 
+1. Google Cloud Platform (coming soon) 
