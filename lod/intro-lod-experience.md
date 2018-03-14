@@ -1,4 +1,4 @@
-# Introduction to the Lab on Demand Experience
+# Lab on Demand Experience
 
 ## Admin
 
