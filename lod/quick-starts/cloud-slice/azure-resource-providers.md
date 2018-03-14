@@ -11,7 +11,7 @@ To create resources that use Resource Providers that are not included in the def
 
 It is only necessary to follow one of these methods, to register Resource Providers to your subscription.
 
-> [!ALERT] This must be done on each subscription, where the feature or resource is required. 
+> [!ALERT] This must be done on each subscription, where the feature or resource is needed. 
 
 With both methods, Resource Providers are registered to the subscription using  Powershell commands. The additional Resource Providers are typically registered to the subscription in 1-10 minutes, after the Powershell commands have been executed.
 
