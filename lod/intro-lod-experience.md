@@ -15,3 +15,6 @@ The Lab on Demand Administration page consists of several tiles.
 ## News
 
 ## Help
+
+
+[Quick Starts](/lod-home.md/#quick-starts)
