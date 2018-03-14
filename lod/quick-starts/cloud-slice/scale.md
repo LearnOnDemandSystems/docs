@@ -11,6 +11,7 @@
 >
 > * a lab profile that is properly configured to be a Cloud Slice lab;
 >
+> * a Cloud Subscription Pool created in LOD that contains the cloud subscription(s) you will use with your Cloud Slice;
 > If you have not yet configured your cloud subscription for use with LOD, go through the [Configure Subscription Quick Start](configure-subscription.md).
 >
 > If you have configured your cloud subscription properly but have not added your subscription into LOD for use with Cloud Slice labs, go through the [Add Subscription into LOD Quick Start](add-subscription-into-lod.md)
