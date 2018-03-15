@@ -45,9 +45,9 @@ Click the News button to navigate to the Lab on Demand Blog, where you can read 
 
 Click the Help button to use our Integrated Help to see documentation about the topic you are working on in Lab on Demand. 
 
-- If you are at the LOD Admin page and click the Help button, you will be presented with a list of links that you can choose from to see documentation. 
+- If you are at the LOD Admin page and click the Help button, you will be presented with a list of links that you can choose from to see various documentation. 
 
-- If you are on a page other than the Admin page, you will be presented with documentation for the page you are on. 
+- If you are on a page other than the Admin page, you will be presented with documentation for the page you are on. If the documentation presented is not what you are looking for, click the Home icon at the top of the page.
 
 If you would like to hit the ground running, see our [Quick Starts](/lod-home.md/#quick-starts) documentation.
 
