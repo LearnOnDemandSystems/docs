@@ -2,7 +2,7 @@
 
 Welcome to the OneLearn Lab on Demand platform (LOD), @lab.UserFirstName!
 
-If you're new to LOD, and want to learn more about the user interface, check out our [Introduction to the LOD experience](lod/feature-focus/lod-experience.md)
+Are you new to LOD? Check out our [Introduction to the LOD experience](lod/feature-focus/lod-experience.md).
 
 If you're keen on getting started, and want to hit the ground running, have a look at [Quick Starts](#quick-starts).
 
