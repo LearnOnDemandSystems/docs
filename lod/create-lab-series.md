@@ -63,7 +63,7 @@ Test 3
 
 
 <style type="text/css">
-    @@font-face {
+    @font-face {
         font-family: "lod-icons";
         src: local("lod-icons");
         src: url("/fonts/lod.woff?v=13") format("woff"),
