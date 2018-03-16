@@ -32,7 +32,7 @@ Optionally, you can create new items from the respective Find page. After you cl
 
 Tiles may contain other links, than Create and Find. Those links are related to the tile where they are located. Check our [Feature Focus Section](/lod-home.md/#feature-focus) for more information. If you've already read through all of the documentation that is available on that topic, and you are still looking for more information, or have questions, please visit our [Contact Us](/docs/contact-us.md/#contact) page.
 
-### Object Details View
+### Details View
 
 When you click an object in LOD, such as a Lab Profile, Lab Series, Cloud Subscription, etc, you will be brought to the Details View page. 
 
