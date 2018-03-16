@@ -52,8 +52,6 @@ TEST
 | **Favorite on** | <span class="lod-icon lod-favorite-on"></span> |  
 | **Favorite off** | <span class="lod-icon lod-favorite-off"></span> |
 
-<!-- The below styling is to make the icon glyphs render properly-->
-
 <style type="text/css">
     @@font-face {
         font-family: "lod-icons";
