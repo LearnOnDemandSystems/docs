@@ -45,7 +45,7 @@ TEST
 
 |Action|Icon|
 |--|--|
-| **Find** | <span class="E721"></span> | 
+| **Find** | <span class="lod-icon lod-search"></span> | 
 | **Create** | <span class="lod-icon lod-create"></span> |       
 | **Edit** | <span class="lod-icon lod-edit"></span> |         
 | **Delete** | <span class="lod-icon lod-delete"></span> |      
