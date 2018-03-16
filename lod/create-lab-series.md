@@ -41,6 +41,7 @@ To create a Lab series, click **Create Lab Series** on the Lab Series tile, on t
 
 1. Select the organization(s) to publish the Lab Series to. This will make the Lab Series available to the Organization(s) that are chosen.
 
+TEST 
 
 |Action|Icon|
 |--|--|
