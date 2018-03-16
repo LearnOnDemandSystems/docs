@@ -52,6 +52,16 @@ TEST 2
 | **Favorite on** | <span class="lod-icon lod-favorite-on"></span> |  
 | **Favorite off** | <span class="lod-icon lod-favorite-off"></span> |
 
+Test 3 
+
+<span class="lod-icon lod-search"></span>
+<span class="lod-icon lod-create"></span>
+<span class="lod-icon lod-edit"></span>
+<span class="lod-icon lod-delete"></span>
+<span class="lod-icon lod-favorite-on"></span>
+<span class="lod-icon lod-favorite-off"></span>
+
+
 <style type="text/css">
     @@font-face {
         font-family: "lod-icons";
