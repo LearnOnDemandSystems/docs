@@ -40,3 +40,54 @@ To create a Lab series, click **Create Lab Series** on the Lab Series tile, on t
 ## Publish
 
 1. Select the organization(s) to publish the Lab Series to. This will make the Lab Series available to the Organization(s) that are chosen.
+
+
+|Action|Icon|
+|--|--|
+| **Find** | <span class="lod-icon lod-search"></span> | 
+| **Create** | <span class="lod-icon lod-create"></span> |       
+| **Edit** | <span class="lod-icon lod-edit"></span> |         
+| **Delete** | <span class="lod-icon lod-delete"></span> |      
+| **Favorite on** | <span class="lod-icon lod-favorite-on"></span> |  
+| **Favorite off** | <span class="lod-icon lod-favorite-off"></span> |
+
+<!-- The below styling is to make the icon glyphs render properly-->
+
+<style type="text/css">
+    @@font-face {
+        font-family: "lod-icons";
+        src: local("lod-icons");
+        src: url("/fonts/lod.woff?v=13") format("woff"),
+           url("/fonts/lod.ttf?v=13") format("truetype"),
+           url("/fonts/lod.svg?v=13") format("svg");
+        font-style: normal;
+        font-weight: normal;
+    }
+    .lod-icon {
+        font-family: 'lod-icons';
+        display: inline-block;
+    }
+    .lod-search:before {
+        content: "\E721";
+    }
+    .lod-create:before {
+        content: "\E710";
+    }
+    .lod-edit:before {
+        content: "\E70F";
+    }
+    .lod-edit:before {
+        content: "\E70F";
+    }
+    .lod-delete:before {
+        content: "\E711";
+    }
+    .lod-favorite-on:before {
+        content: "\e735";
+    }
+    .lod-favorite-off:before {
+        content: "\e734";
+    }
+</style>
+
+
