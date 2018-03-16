@@ -44,7 +44,7 @@ To create a Lab series, click **Create Lab Series** on the Lab Series tile, on t
 
 |Action|Icon|
 |--|--|
-| **Find** | <span class="lod-icon lod-search"></span> | 
+| **Find** | <span class="E721"></span> | 
 | **Create** | <span class="lod-icon lod-create"></span> |       
 | **Edit** | <span class="lod-icon lod-edit"></span> |         
 | **Delete** | <span class="lod-icon lod-delete"></span> |      
