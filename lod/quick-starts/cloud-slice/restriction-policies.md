@@ -1,6 +1,6 @@
 # Cloud Slice Quick Start - Restriction Policies
 
-> [!ALERT] You are currently viewing the seventh entry in a series of Quick Starts about Cloud Slice.
+> [!ALERT] You are currently viewing the sixth entry in a series of Quick Starts about Cloud Slice.
 >
 > This guide is **optional**, but it is recommended to avoid incurring additional charges from Cloud providers. 
 >
@@ -91,11 +91,8 @@ Congratulations, you have just created your first Restriction Policy! Now let's 
 
 With this Restriction Policy in place, lab users will be restricted from creating resources that are defined in the Restriction Policy, in their Cloud Slice lab.
 
-<!--
-Now that you have configured a Restriction Policy, the next step is to set up your Cloud Slice lab for scale.
-Click on the link below to go through the next Quick Start where you will Set up your Cloud Slice lab to scale.
+Now that you have configured a Restriction Policy, the next step is to set up your Cloud Slice lab with the resources that are needed to accomplish the goals of your lab. Click on the link below to go through the next Quick Start where you will Set up your register Resources Providers.
 
-[Set up your Cloud Slice lab up for scale](set-up-cloud-slice-lab-for-scale.md)
--->
+[Register Resource Providers](cloud-resource-providers.md)
 
 [Back to top](#cloud-slice-quick-start---restriction-policies "Return to the top of the document")

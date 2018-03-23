@@ -2,6 +2,8 @@
 
 Welcome to the OneLearn Lab on Demand platform (LOD), @lab.UserFirstName!
 
+Are you new to LOD? Check out our [Introduction to the LOD experience](lod/feature-focus/lod-experience.md).
+
 If you're keen on getting started, and want to hit the ground running, have a look at [Quick Starts](#quick-starts).
 
 After you have gone through some of the Quick Starts, or if you simply want to learn more about a specific feature in LOD, [Feature Focus](#feature-focus) will provide you with in-depth information about a feature.
@@ -26,6 +28,8 @@ With the Cloud Slice feature, LOD is able to support cloud learning at scale. Le
 |10&nbsp;minutes|[Write instructions for your Cloud Slice lab](lod/quick-starts/cloud-slice/write-instructions.md)|
 |10&nbsp;minutes|[Provision cloud resources in your Cloud Slice lab](lod/quick-starts/cloud-slice/provision-cloud-resources.md)|
 |10&nbsp;minutes|[Restrict what users can create in your Cloud Slice lab](lod/quick-starts/cloud-slice/restriction-policies.md)|
+|20&nbsp;minutes|[Register Cloud Resource Providers](lod/quick-starts/cloud-slice/cloud-resource-providers.md)|
+|10&nbsp;minutes|[Set up Cloud Slice lab for Scale](lod/quick-starts/cloud-slice/scale.md)|
 
 ## Feature Focus
 
@@ -97,6 +101,11 @@ VIEW STATISTICS	/LabProfile/Statistics/{labProfileId},
 
 * [Create a Cloud Subscription](lod/create-cloud-subscription.md)
 * [Create a Cloud Subscription Pool](lod/create-cloud-subscription-pool.md)
+
+### Cloud Resource Templates
+
+* [Recommendations and Best Practices](lod/feature-focus/cloud-resource-templates/recommendations-and-best-practices.md)
+* [Replacement Tokens](lod/feature-focus/cloud-resource-templates/replacement-tokens.md)
 
 <!--
 ### Cloud Resource Templates
