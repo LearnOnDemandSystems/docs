@@ -42,8 +42,3 @@ Roles are used to allow or restrict users from performing certain actions in the
 1. **Assing Role**: Click to assign a role to the user. Roles must already be created to add it to the lab profile using this button.
 
     - Multiple roles can be added, if needed. 
-    
-
-
-
-
