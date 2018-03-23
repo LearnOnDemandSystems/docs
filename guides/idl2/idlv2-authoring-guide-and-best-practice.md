@@ -114,23 +114,17 @@ If you have a virtualization lab that already has instructions (a lab with instr
 1. Review the instructions in the preview window to see what your instructions will look like after you upgrade your lab.
 1. Click **OK** to upgrade the lab.
 
-### Check Out IDL Manual
-
-Once the IDLx client experience is enabled, you must the check out the lab instructions before you can edit them. Checking out the IDLx lab instructions ensures that only one person at a time can make changes to the content.
-
-To check out the instructions for a lab, navigate to the lab profile page, and then click **Check Out**.
-
-![](images/check-out-lab-profile.png "Check out lab profile")
-
 ### Edit Instructions
 
-Once you have checked out the lab instructions for editing, you are now ready to edit your lab instructions in the idl-md editor. While viewing a lab profile where you have already checked out the instructions, click **Edit Instructions** to open the instruction editor, as shown below. This will open a new window with an idl-md (markdown) editor on the left and a preview pane on the right. This gives you the ability to create lab instructions, and see a live preview of how they will be displayed to the user during the lab.
+Once the IDLx client experience is enabled, you are now able to edit the lab instructions. When the Edit Instructions button is clicked, this checks out the lab manual. Checking out the lab manual ensures that only you are able to edit lab instructions, and if another author attempts to edit the lab instructions while you are actively editing the lab instructions, the lab instruction editor will simply open in read-only mode. After you are done editing the lab instructions, close the the instructions editor, and the lab manual will be checked in automatically. Once the lab manual is checked in, another author will be able to edit the lab instructions.  
 
-![](images//edit-instructions.png "Edit Instructions")
+To begin editing lab instructions, while viewing a lab profile, click **Edit Instructions** in the upper-right corner, to open the instruction editor, as shown below. This will open a new window with an idl-md (markdown) editor on the left and a preview pane on the right. This gives you the ability to create lab instructions, and see a live preview of how they will be displayed to the user during the lab.
+
+![](images/edit-instructions.png "Edit Instructions")
 
 When you edit instructions this way, no lab resources are provisioned/launched. You are simply editing the instructions in the lab.
 
-You can also edit lab instructions while you have a lab launched, with real-time updates to your instructions so that you can edit and test at the same time. To do this, launch a lab that uses the IDLx Client. Once the lab has launched, on the top right of the User Console is a button with three bars. Click on this to open a menu, and select Edit Instructions. All changes you make to your instructions will be immediately reflected in your currently running lab.
+You can also edit lab instructions while you have a lab launched, with real-time updates to your instructions so that you can edit and test at the same time. To do this, launch a lab that uses the IDLx Client. Once the lab has launched, on the top right of the User Console is a button with three bars. Click on this to open a menu,and select Edit Instructions. All changes you make to your instructions will be immediately reflected in your currently running lab.
 
 ## Authoring Lab Instructions
 
