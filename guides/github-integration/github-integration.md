@@ -1,38 +1,5 @@
 # Learn on Demand Systems GitHub Integration Guide 
 
-## Disclaimer
-
-This document is provided for informational purposes only and Learn on Demand
-Systems, LLC, makes no warranties, either express or implied, in this document.
-Information in this document, including URL and other Internet Web site
-references, is subject to change without notice. The entire risk of the use or
-the results from the use of this document remains with the user. Unless
-otherwise noted, the companies, organizations, products, domain names, e-mail
-addresses, logos, people, places, and events depicted in examples herein are
-fictitious. No association with any real company, organization, product, domain
-name, e-mail address, logo, person, place, or event is intended or should be
-inferred. Complying with all applicable copyright laws is the responsibility of
-the user. Without limiting the rights under copyright, no part of this document
-may be reproduced, stored in or introduced into a retrieval system, or
-transmitted in any form or by any means (electronic, mechanical, photocopying,
-recording, or otherwise), or for any purpose, without the express written
-permission of Learn on Demand Systems, LLC.
-
-Learn on Demand Systems, LLC may have patents, patent applications, trademarks,
-copyrights, or other intellectual property rights covering subject matter in
-this document. Except as expressly provided in any written license agreement
-from Learn on Demand Systems, the furnishing of this document does not give you
-any license to these patents, trademarks, copyrights, or other intellectual
-property.
-
-Copyright 2017 © Learn on Demand Systems, LLC. All rights reserved.
-
-All other trademarks are property of their respective owners.
-
-* * *
-
-# Introduction
-
 This guide describes how to select a GitHub repository as the source of
 Integrated Digital Lab (IDL) content for a Lab on Demand (LOD) lab profile, and
 why you would want to do so.
