@@ -93,7 +93,7 @@ start by doing the following:
 folder, inside of the folder created on step 2.
 1. If you want to store videos for your lab in GitHub, these can be stored in the *media* folder as well.
 
-> [KNOWLEDGE] If you would like more information about authoring labs with IDLx, see our [IDLx Authoring Guide](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/guides/idl2/idlv2-authoring-guide-and-best-practice.md).
+> [!KNOWLEDGE] If you would like more information about authoring labs with IDLx, see our [IDLx Authoring Guide](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/guides/idl2/idlv2-authoring-guide-and-best-practice.md).
 
 If you are writing IDL (legacy) content for a lab that does not yet have any content in LOD,
 start by doing the following:
@@ -107,7 +107,7 @@ folder at the root of your GitHub repository.
 1. If you want to store videos for your lab in GitHub, create a *videos* folder
 at the root of your GitHub repository.
 
-> [KNOWLEDGE] The content.md file that you copied is full of step-by-step TODO comments to
+> [!KNOWLEDGE] The content.md file that you copied is full of step-by-step TODO comments to
 help you build out your content in the content.md file for your lab. Once you
 have finished adding your first exercise and task to the content.md file, save
 your changes to your GitHub repository, and then proceed to the [Integrate
@@ -277,7 +277,7 @@ import a single markdown file, the import method will not include screenshots or
 videos. If you import an archive, the import will include whatever screenshots
 or videos you have in your archive, along with the content.
 
-> ![ALERT] No automatic synchronization of content occurs with this method. You
+> [!ALERT] No automatic synchronization of content occurs with this method. You
 must manually re-import your Markdown file or archive every time you have new
 content added to it.
 
