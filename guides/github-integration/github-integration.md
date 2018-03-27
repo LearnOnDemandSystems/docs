@@ -218,7 +218,7 @@ will be prompted to select a different one.
 
     ![Select GitHub repository](media/integration/05-select-github-repository.png "Select GitHub Repository")
 
-> [!ALERT] When you complete the following step, any existing content in your
+    > [!ALERT] When you complete the following step, any existing content in your
 lab profile will be overwritten, and anything lost will be unrecoverable. Under
 normal circumstances, that is ok because the content you are importing is the
 export of the content that is in the lab, so you won't lose a thing. You should
