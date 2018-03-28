@@ -186,8 +186,8 @@ continue with the integration.
 
     > [!KNOWLEDGE] 
     > Once you have authorized Lab on Demand to have access to your GitHub account,
-    > if you also want Lab on Demand to be able to integrate with a repository in a
-    > GitHub organization that you are a member of, you will have to submit a request
+    > **if you also want Lab on Demand to be able to integrate with a repository in a
+    > GitHub organization that you are a member of**, you will have to submit a request
     > to your organization to authorize that application. 
     > 
     >To submit that request; 
