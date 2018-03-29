@@ -281,7 +281,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
     </span><span class="pun">&gt; [label]:</span><span class="pln">
     </span><span class="pun">&gt; These instructions are injected in the statement above.</span></code></pre>
         
-        >!IMAGE[Refernce Instruction Block](images/reference-instruction-blocks.png)
+        >![Refernce Instruction Block](images/reference-instruction-blocks.png)
 
 - **Copyable Text:** used to make text copy to the local clipboard when the student clicks the text. Type two + (plus) symbols on each side of the text that should be made copyable. 
 
