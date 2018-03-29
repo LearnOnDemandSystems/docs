@@ -23,7 +23,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 > - `##### Heading 5`
 > -  `###### Heading 6` 
 
-[Return to Markdown formatting](#markdown-user-guide)
+[Return to Markdown formatting](#markdown-supports-the-following-types-of-formatting-)
 
 ## Text Formatting
 
