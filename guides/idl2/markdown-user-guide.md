@@ -260,7 +260,9 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
     > ```^INSTRUCTIONS[text](url)```
 
-- **Commands:** Used to target the Portal window to input commands. Clicking the text in the lab instructinos will input the command into the item in focus, on the Portal window. Commands can be a single line (shown below) or multi-line. Define the command as a reference link and then use that reference link as the command in the below syntax. Commands require Integration Services to be installed on the VM. After installing Integration Services, you must save a differencing disk for Integration Services to be installed on all future launches of the lab.
+- **Commands:** Used to target the Portal window to input commands. Clicking the text in the lab instructinos will input the command into the item in focus, on the Portal window. Commands can be a single line (shown below) or multi-line. Define the command as a reference link and then use that reference link as the command in the below syntax. 
+
+Commands require Integration Services to be installed on the VM. After installing Integration Services, you must save a differencing disk for Integration Services to be installed on all future launches of the lab.
 
   >~~~
   >@[Text to display](`command`)
