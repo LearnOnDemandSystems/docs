@@ -323,7 +323,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
   > | `lab.VirtualMachine(VM-ID).Username` | Username for signing into the (VM-ID) virtual machine. |
   > | `lab.VirtualMachine(VM-ID).Password` | Password for signing into the (VM-ID) virtual machine. |
 
-    *(VM-ID) should be replaced with the unique ID of the virtual machine in use.
+  *(VM-ID) should be replaced with the unique ID of the virtual machine in use.
 
 ---
 
