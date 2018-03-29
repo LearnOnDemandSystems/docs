@@ -85,7 +85,7 @@ Instruction Dialog
 ```
 
 ---
-<font size="3">**Commands**</font>
+<font size="3">**Commands** (requires Integration Services to be installed on the VM)</font>
 
 Single Line
 
