@@ -265,9 +265,9 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
     > [!KNOWLEDGE]Commands require Integration Services to be installed on the VM. After installing Integration Services, you must save a differencing disk for Integration Services to be installed on all future launches of the lab.
 
   >~~~
-  >@[Text to display](`command`)
+  >\@[Text to display](`command`)
   >~~~
-  >
+  
   > ![](images/idl2-command.png "Command")
 
 - **Include:**  used to input text from a GitHub raw link. This is useful to use to pull in content hosted on GitHub. Navigate to the GitHub page containing the content to be used, click the Raw button, then copy the URL of that page and include it in the below syntax. 
