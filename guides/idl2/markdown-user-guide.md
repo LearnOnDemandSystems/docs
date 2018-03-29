@@ -2,7 +2,7 @@
 
 Markdown is an easy to use markup language to format text, that offers multiple ways to achieve the same result. Markdown was designed to be easy to learn as well as be easy to read and write. Markdown allows the author to keep their hands on the keyboard and focus on writing content. Markdown supports HTML, and HTML syntax can be used in combination with Markdown.
 
-## Markdown supports the following types of formatting:
+## Markdown supports the following types of formatting
 
 [Headings](#headings)  
 [Text formatting](#text-formatting)  
@@ -23,7 +23,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 > - `##### Heading 5`
 > -  `###### Heading 6` 
 
-[Return to Markdown formatting](#markdown-supports-the-following-types-of-formatting-)
+[Return to Markdown formatting](#markdown-supports-the-following-types-of-formatting)
 
 ## Text Formatting
 
