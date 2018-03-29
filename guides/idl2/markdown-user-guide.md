@@ -264,6 +264,8 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
     > [!KNOWLEDGE]Commands require Integration Services to be installed on the VM. After installing Integration Services, you must save a differencing disk for Integration Services to be installed on all future launches of the lab.
 
+TEST 
+
   >~~~
   >\@[Text to display](`command`)
   >~~~
