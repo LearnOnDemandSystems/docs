@@ -69,7 +69,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
   >
   > ![](images/fenced-code-block.png "Fenced Code Block")
 
-[Return to Markdown formatting](#markdown-user-guide)
+[Return to Markdown formatting](#markdown-supports-the-following-types-of-formatting)
 
 ## Link formatting
 
@@ -96,7 +96,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
     > \[Reference link][1]
     > \[1]: URL "Optional link title"
     
-[Return to Markdown formatting](#markdown-user-guide)
+[Return to Markdown formatting](#markdown-supports-the-following-types-of-formatting)
 
 ## Page formatting
 
@@ -114,7 +114,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
   >
   > \> additional text 
   
-  [Return to Markdown formatting](#markdown-user-guide)
+[Return to Markdown formatting](#markdown-supports-the-following-types-of-formatting)
  
 ## Embedded content
 
@@ -146,7 +146,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
   >
   > ![](images/video-link.png "Video Link")
   
-  [Return to Markdown formatting](#markdown-user-guide)
+  [Return to Markdown formatting](#markdown-supports-the-following-types-of-formatting)
 
 ## List formatting
 
@@ -228,7 +228,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 | data 3   | data 4   |
 ```
 
-[Return to Markdown formatting](#markdown-user-guide)
+[Return to Markdown formatting](#markdown-supports-the-following-types-of-formatting)
 
 ## Special formatting 
 
@@ -327,4 +327,4 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 ---
 
-[Return to Markdown formatting](#markdown-user-guide)
+[Return to Markdown formatting](#markdown-supports-the-following-types-of-formatting)
