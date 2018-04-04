@@ -276,12 +276,15 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 - **Reference Instruction Blocks:** Used to reference content multiple times throughout the lab instructions. First, Define the content, then reference the content using the syntax below. Defined content can be text, links, copyable text, code blocks or rich media content such as images and videos. Defined content will not appear in lab instructions until it is referenced using the Reference Content syntax. 
 
+    <!-- This image MUST be placed before the HTML code below it in order for it to be properly recognized as a child of the list item before it. -->
+    ![Reference Instruction Block](images/reference-instruction-blocks.png)
+
+  <!-- This code must be indented by only two spaces in order for it to render the HTML. Indenting by 4 spaces will show the HTML in a code block, which is not what we want. -->
   <pre><code title="Copy to clipboard" class="prettyprint prettyprinted" style="">&#33;INSTRUCTIONS[][label]<span class="pln">
 
   </span><span class="pun">&gt; [label]:</span><span class="pln">
   </span><span class="pun">&gt; These instructions are injected in the statement above.</span></code></pre>
 
-    ![Reference Instruction Block](images/reference-instruction-blocks.png)
 
 - **Copyable Text:** used to make text copy to the local clipboard when the student clicks the text. Type two + (plus) symbols on each side of the text that should be made copyable. 
 
