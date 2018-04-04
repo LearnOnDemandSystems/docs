@@ -1,7 +1,5 @@
 # OneLearn Lab on Demand Help
 
-TEST
-
 Welcome to the OneLearn Lab on Demand platform (LOD), @lab.UserFirstName!
 
 Are you new to LOD? Check out our [Introduction to the LOD experience](lod/feature-focus/lod-experience.md).
