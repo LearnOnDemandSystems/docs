@@ -36,7 +36,7 @@ To create a new application registration in Azure Active Directory, do the follo
 
     ![Fill out the new app registration form](images/azure-ad-new-app-registration-form.png)
 
-1. [] Once the application registration has been created, select it in the list of application registrations. If your new application registration is not showing in the list of available application registrations, click on **Overview**, then on **App registrations** to refresh the list. Once you have selected the application registration, a new blade will open showing the application registration properties.
+1. [] Once the application registration has been created, select it in the list of application registrations. If your new application registration is not showing in the list of available application registrations, click on **Overview**, then on **App registrations** to refresh the list. Once you have selected the application registration, click on **Settings** to open a new blade showing the application registration properties.
 
     ![Select the app registration you just created](images/azure-ad-select-app-registration.png)
 
