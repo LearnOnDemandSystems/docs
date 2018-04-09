@@ -105,9 +105,8 @@ VIEW STATISTICS	/LabProfile/Statistics/{labProfileId},
 ### Cloud Resource Templates
 
 * [Recommendations and Best Practices](lod/feature-focus/cloud-resource-templates/recommendations-and-best-practices.md)
-<!--
 * [Replacement Tokens](lod/feature-focus/cloud-resource-templates/replacement-tokens.md)
--->
+
 
 <!--
 ### Cloud Resource Templates
