@@ -50,7 +50,9 @@ Each of these actions have different events and fields related to them. Currentl
 
 To add Life Cycle Action to your lab profile, follow these steps for every Action:
 
-1. Scroll down on the **Advanced** tab, and in the new **Life Cycle Actions** section, click **Add Life Cycle Action**.
+1. **Navigate to the Lab Profile** you wish to configure Life Cycle Actions to.
+1. Click **Edit** in the upper-right corner.
+1. **Click the Life Cycle** tab at the top of the page.
 2. From the **Action Type** dropdown, select the action you want performed.
 3. From the **Event** dropdown, select the event when you want the web request to be sent.
 4. In the **Delay** box, set the number of seconds after the Life Cycle Event occurs that the Action should trigger, if wanted.
@@ -141,3 +143,5 @@ Once you have added Life Cycle Actions to your lab, they will be listed with the
 ![image007](images/image007.png)      
 
 You can **Edit** and **Delete** an Action from the buttons on the right side of it as well.
+
+[Back to top](#life-cycle-actions-guide)
