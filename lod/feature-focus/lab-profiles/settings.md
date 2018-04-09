@@ -1,18 +1,18 @@
 ## Lab Profile Settings
 
 1. [Basic Information](#basic-information)
-2. [Networks](#networks)
-3. [Virtual Machines](#virtual-machines)
-4. [Removable Media](#removable-media)
-5. [Cloud](#cloud)
-6. [Resources](#resources)
-7. [Errata](#errata)
-8. [Exam](#exam)
-9. [Pre-instancing](#pre-instancing)
-10. [Storage](#storage)
-11. [Launch URLs](#launch-urls)
-12. [Tags](#tags)
-13. [Advanced](#advanced)
+1. [Networks](#networks)
+1. [Virtual Machines](#virtual-machines)
+1. [Removable Media](#removable-media)
+1. [Cloud](#cloud)
+1. [Resources](#resources)
+1. [Errata](#errata)
+1. [Exam](#exam)
+1. [Pre-instancing](#pre-instancing)
+1. [Life Cycle](#life-cycle)
+1. [Storage](#storage)
+1. [Tags](#tags)
+1. [Advanced](#advanced)
 
 ### The following sections walk through each of the tabs located at the top of the Create Lab Profile page.
 
