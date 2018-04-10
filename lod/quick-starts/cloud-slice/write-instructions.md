@@ -1,5 +1,9 @@
 # Cloud Slice Quick Start - Adding Instructions to Your Lab
 
+Test 
+
+^INSTRUCTIONS[here](Test) 
+
 > [!ALERT] You are currently viewing the fourth entry in a series of Quick Starts about Cloud Slice.
 >
 > To complete this quick start, you must have the following:
