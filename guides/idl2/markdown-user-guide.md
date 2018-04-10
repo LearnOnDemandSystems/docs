@@ -2,7 +2,7 @@
 
 Markdown is an easy to use markup language to format text, that offers multiple ways to achieve the same result. Markdown was designed to be easy to learn as well as be easy to read and write. Markdown allows the author to keep their hands on the keyboard and focus on writing content. Markdown supports HTML, and HTML syntax can be used in combination with Markdown.
 
-## Markdown supports the following types of formatting
+## Markdown supports the following types of formatting:
 
 [Headings](#headings)  
 [Text formatting](#text-formatting)  
@@ -114,7 +114,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
   >
   > \> additional text 
   
-[Return to Markdown formatting](#markdown-supports-the-following-types-of-formatting)
+ [Return to Markdown formatting](#markdown-supports-the-following-types-of-formatting)
  
 ## Embedded content
 
@@ -262,29 +262,44 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 - **Commands:** Used to target the Portal window to input commands. Clicking the text in the lab instructinos will input the command into the item in focus, on the Portal window. Commands can be a single line (shown below) or multi-line. Define the command as a reference link and then use that reference link as the command in the below syntax. 
 
-    > [!KNOWLEDGE]Commands require Integration Services to be installed on the VM. After installing Integration Services, you must save a differencing disk for Integration Services to be installed on all future launches of the lab.
+  Commands require Integration Services to be installed on the VM. After installing Integration Services, you must save a differencing disk for Integration Services to be installed on all future launches of the lab.
 
-  <pre><code title="Copy to clipboard" class="prettyprint prettyprinted" style="">&#33;@[Text to display](`command`)<span class="pln"></span></code></pre>
-  
+- **Single Line Command:**
+
+  >~~~
+  >@[Text to display](`command`)
+  >~~~
+  >
   > ![](images/idl2-command.png "Command")
   
+ - **Multi Line Command:**
+  
+  <!-- The following code block _must_ be indented instead of wrapped in ~~~ to prevent
+     our preprocessor from preprocessing the code. Do not change this formatting. -->
+
+    @[Text to display][multi-line-command-id]
+
+    [multi-line-command-id]:
+    ```
+    Multi-line
+    Command-goes-here
+    ```
+
 - **Include:**  used to input text from a GitHub raw link. This is useful to use to pull in content hosted on GitHub. Navigate to the GitHub page containing the content to be used, click the Raw button, then copy the URL of that page and include it in the below syntax. 
  
   >  `!INSTRUCTIONS[](url)`
 
-  **Note**: GitHub hosted content can be changed by the repo maintainer of the content and will change the instructions displayed in the lab using the _Include_ syntax. 
+    **Note**: GitHub hosted content can be changed by the repo maintainer of the content and will change the instructions displayed in the lab using the _Include_ syntax. 
 
 - **Reference Instruction Blocks:** Used to reference content multiple times throughout the lab instructions. First, Define the content, then reference the content using the syntax below. Defined content can be text, links, copyable text, code blocks or rich media content such as images and videos. Defined content will not appear in lab instructions until it is referenced using the Reference Content syntax. 
 
-    <!-- This image MUST be placed before the HTML code below it in order for it to be properly recognized as a child of the list item before it. -->
-    ![Reference Instruction Block](images/reference-instruction-blocks.png)
+   - Define content
+        > ```>[reference label]: Content goes here```
 
-  <!-- This code must be indented by only two spaces in order for it to render the HTML. Indenting by 4 spaces will show the HTML in a code block, which is not what we want. -->
-  <pre><code title="Copy to clipboard" class="prettyprint prettyprinted" style="">&#33;INSTRUCTIONS[][label]<span class="pln">
-
-  </span><span class="pun">&gt; [label]:</span><span class="pln">
-  </span><span class="pun">&gt; These instructions are injected in the statement above.</span></code></pre>
-
+   - Reference Content
+        > ```!INSTRUCTIONS[][label]```
+        
+        >![Refernce Instruction Block](images/reference-instruction-blocks.png)
 
 - **Copyable Text:** used to make text copy to the local clipboard when the student clicks the text. Type two + (plus) symbols on each side of the text that should be made copyable. 
 
@@ -303,30 +318,29 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
   > `!VIDEO[text to display](url)` 
 
-- **Replacement Token:** used to replace text in lab instructions with a variable that is unknown at the time of authoring the lab instructions. These variables may not be generated or created until the lab is launched by the student. These can include usernames, user first name, user last name, running lab instance ID number, etc. To apply a Replacement Token, in the parameter value field, simply enter `@lab`, and the press the period key. The moment you type the period you will be presented with all available replacement tokens for your lab. 
-
+- **Replacement Token:** used to replace text in lab instructions with a variable that is unknown at the time of authoring the lab instructions. These variables may not be generated or created until the lab is launched by the student. These can include usernames, user first name, user last name, running lab instance ID number, etc. 
   > | Replacement token           |                                          |
   > | --------------------------- | ---------------------------------------- |
-  > | `lab.LabInstanceId`        | The unique ID of the running lab instance. |
-  > | `lab.GlobalLabInstanceId`    | The globally unique ID of the running lab instance. |
-  > | `lab.LabProfileId`           | The unique ID of the lab profile.        |
-  > | `lab.UserId`                 | The unique ID of user running the lab.   |
-  > | `lab.UserFirstName`          | The first name of the user running the lab. |
-  > | `lab.UserLastName`           | The last name of the user running the lab. |
-  > | `lab.UserEmail`              | The e-mail address of the user running the lab. |
-  > | `lab.UserExternalId`         | The external ID of the user running the lab (if launched via API). |
-  > | `lab.Tag`                    | The tag associated with the lab instance (if specified when launched via API). |
-  > | `lab.CloudPortalLink`        | A link to the cloud portal.              |
-  > | `lab.CloudPortalUrl`         | The cloud portal URL (rendered as text, not a link). |
-  > | `lab.CloudPortalSignInLink` | A cloud portal sign-in link.             |
-  > | `lab.CloudPortalSignInUrl`   | The cloud portal sign-in URL (rendered as text, not a link). |
-  > | `lab.CloudPortalSignOutLink` | A cloud portal sign-out link.            |
-  > | `lab.CloudPortalSignOutUrl`  | The cloud portal sign-out URL (rendered as text, not a link). |
-  > | `lab.VirtualMachine(VM-ID).SelectLink` | A link to select the (VM-ID) virtual machine |
-  > | `lab.VirtualMachine(VM-ID).Username` | Username for signing into the (VM-ID) virtual machine. |
-  > | `lab.VirtualMachine(VM-ID).Password` | Password for signing into the (VM-ID) virtual machine. |
+  > | `@lab.LabInstanceId`        | The unique ID of the running lab instance. |
+  > | `@lab.GlobalLabInstanceId`    | The globally unique ID of the running lab instance. |
+  > | `@lab.LabProfileId`           | The unique ID of the lab profile.        |
+  > | `@lab.UserId`                 | The unique ID of user running the lab.   |
+  > | `@lab.UserFirstName`          | The first name of the user running the lab. |
+  > | `@lab.UserLastName`           | The last name of the user running the lab. |
+  > | `@lab.UserEmail`              | The e-mail address of the user running the lab. |
+  > | `@lab.UserExternalId`         | The external ID of the user running the lab (if launched via API). |
+  > | `@lab.Tag`                    | The tag associated with the lab instance (if specified when launched via API). |
+  > | `@lab.CloudPortalLink`        | A link to the cloud portal.              |
+  > | `@lab.CloudPortalUrl`         | The cloud portal URL (rendered as text, not a link). |
+  > | `@lab.CloudPortalSignInLink` | A cloud portal sign-in link.             |
+  > | `@lab.CloudPortalSignInUrl`   | The cloud portal sign-in URL (rendered as text, not a link). |
+  > | `@lab.CloudPortalSignOutLink` | A cloud portal sign-out link.            |
+  > | `@lab.CloudPortalSignOutUrl`  | The cloud portal sign-out URL (rendered as text, not a link). |
+  > | `@lab.VirtualMachine(VM-ID).SelectLink` | A link to select the (VM-ID) virtual machine |
+  > | `@lab.VirtualMachine(VM-ID).Username` | Username for signing into the (VM-ID) virtual machine. |
+  > | `@lab.VirtualMachine(VM-ID).Password` | Password for signing into the (VM-ID) virtual machine. |
 
-  *(VM-ID) should be replaced with the unique ID of the virtual machine in use.
+    *(VM-ID) should be replaced with the unique ID of the virtual machine in use.
 
 ---
 
