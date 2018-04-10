@@ -629,7 +629,7 @@ There are 4 different kinds of commands that you can configure:
 
    - **PowerShell**. This allows the user to execute a PowerShell command in the background. The user does not see the execution of the command.
 
-   - **PowerShell will UI**. This opens a command prompt window in the VM and shows the command execution.
+   - **PowerShell with UI**. This opens a command prompt window in the VM and shows the command execution.
     
    - **Shell**. This causes a command to be executed in the background. The user does not see the execution of the command.
 
