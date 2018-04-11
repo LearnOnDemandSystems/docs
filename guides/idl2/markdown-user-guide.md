@@ -1,7 +1,5 @@
 # Markdown Syntax
 
-TEST 
-
 Markdown is an easy to use markup language to format text, that offers multiple ways to achieve the same result. Markdown was designed to be easy to learn as well as be easy to read and write. Markdown allows the author to keep their hands on the keyboard and focus on writing content. Markdown supports HTML, and HTML syntax can be used in combination with Markdown.
 
 ## Markdown supports the following types of formatting
@@ -252,10 +250,10 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
   
 - **Dialog:** Used to open a dialog popup, to display additonal information. This can be useful to make additional information available to the student.
 
-  >^[Text to display in lab  instructions][Reference Link]
-  
+  >```^[Text to display in lab  instructions][Reference Link]```
+  >
   >\>[Reference Link]:
-  
+  >
   >\>This appears in the Dialog
 
 - **Instruction Dialog:** Used to open a dialog popup, to display rendered Markdown or IDLx content that is located anywhere on the internet and accessible from a URL. This can be useful to provide additional information, from external sources on the internet.
@@ -269,6 +267,19 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
   <pre><code title="Copy to clipboard" class="prettyprint prettyprinted" style="">&#33;@[Text to display](`command`)<span class="pln"></span></code></pre>
   
   > ![](images/idl2-command.png "Command")
+  
+   - **Multi Line Command:**
+  
+  <!-- The following code block _must_ be indented instead of wrapped in ~~~ to prevent
+     our preprocessor from preprocessing the code. Do not change this formatting. -->
+
+    @[Text to display][multi-line-command-id]
+
+    [multi-line-command-id]:
+    ```
+    Multi-line
+    Command-goes-here
+    ```
   
 - **Include:**  used to input text from a GitHub raw link. This is useful to use to pull in content hosted on GitHub. Navigate to the GitHub page containing the content to be used, click the Raw button, then copy the URL of that page and include it in the below syntax. 
  
