@@ -285,12 +285,12 @@ TEST     @[Text to display](`command`)
   <!-- The following code block _must_ be indented instead of wrapped in ~~~ to prevent
      our preprocessor from preprocessing the code. Do not change this formatting. -->
 
-    @[Text to display][multi-line-command-id]
+    @[Text to display][single-line-command]
 
-    [multi-line-command-id]:
+    single-line-command:
+    
     ```
-    Multi-line
-    Command-goes-here
+    notepad.exe
     ```
     
 Below is an example of how a multi line command would look for a PowerShell cmdlet. 
