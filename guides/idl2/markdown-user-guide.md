@@ -268,11 +268,11 @@ TEST
 
 - **Single Line Command:**
 
-  >~~~
-  >@[Text to display](`command`)
-  >~~~
-  >
-  > ![](images/idl2-command.png "Command")
+    >~~~
+    >@[Text to display](`command`)
+    >~~~
+    >
+    > ![](images/idl2-command.png "Command")
   
  - **Multi Line Command:**
   
