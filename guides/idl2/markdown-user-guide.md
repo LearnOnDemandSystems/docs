@@ -305,7 +305,7 @@ Below is an example of how a multi line command would look for a **PowerShell cm
     get-service | stop-service -whatif
     ```
     
-Below is an example of how a multi line command would look for a **PowerShell cmdlet **with UI**. 
+Below is an example of how a multi line command would look for a **PowerShell cmdlet with UI**. 
 
     @[Click this to run the get-service cmdlet][Get Service]{PowerShell visible}
 
