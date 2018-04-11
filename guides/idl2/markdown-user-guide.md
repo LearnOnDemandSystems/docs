@@ -284,14 +284,24 @@ Commands require Integration Services to be installed on the VM. After installin
     Command-goes-here
     ```
     
-Below is an example of how a multi line command would look for a PowerShell cmdlet. 
+Below is an example of how a multi line command would look for a PowerShell cmdlet, **with no UI**. 
 
-    @[Click this to run the get-service cmdlet][Get Service]
+    @[Click this to run the get-service cmdlet][Get Service]{PowerShell}
 
     [Get Service]:
     ```PowerShell
     get-service | stop-service -whatif
     ```
+    
+Below is an example of how a multi line command would look for a PowerShell cmdlet, **with UI**. 
+
+    @[Click this to run the get-service cmdlet][Get Service]{PowerShell visible}
+
+    [Get Service]:
+    ```PowerShell
+    get-service | stop-service -whatif
+    ```
+ > [!KNOWLEDGE] PowerShell commands are executed in a CMD prompt, in the lab. The command will still function as you intend.
 
 Commands can perform any action that is possible to do from a command or Windows PowerShell prompt. For example, the command could open File Explorer at a particular location within a directory structure, open dialog boxes, start scripts, open documents and web pages, and many others. 
 
@@ -308,6 +318,7 @@ There are 4 different kinds of commands that you can configure:
    - **Shell**. This causes a command to be executed in the background. The user does not see the execution of the command.
 
    - **Shell with UI**. This command opens a command prompt window in the VM and shows the command execution
+   
    
 - **Include:**  used to input text from a GitHub raw link. This is useful to use to pull in content hosted on GitHub. Navigate to the GitHub page containing the content to be used, click the Raw button, then copy the URL of that page and include it in the below syntax. 
  
