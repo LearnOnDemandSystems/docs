@@ -258,7 +258,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 - **Instruction Dialog:** Used to open a dialog popup, to display rendered Markdown or IDLx content that is located anywhere on the internet and accessible from a URL. This can be useful to provide additional information, from external sources on the internet.
 
-  > ```^INSTRUCTIONS[text](url)```
+  >```^INSTRUCTIONS[text](url)```
 
 - **Commands:** Used to target the Portal window to input commands. Clicking the text in the lab instructinos will input the command into the item in focus, on the Portal window. Commands can be a single line (shown below) or multi-line. Define the command as a reference link and then use that reference link as the command in the below syntax. 
 
