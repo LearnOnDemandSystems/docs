@@ -315,22 +315,13 @@ Below is an example of how a multi line command would look for a **PowerShell cm
     ```
  > [!KNOWLEDGE] PowerShell commands are executed in a CMD prompt, in the lab. The command will still function as intended.
 
- Below is an example of how a multi line command would look for a **Shell cmdlet, with no UI**. 
+ Below is an example of how a Shell command would look for a **Shell cmdlet, with no UI**. 
 
     @[Launch Notepad](`notepad.exe`){Shell}
-
-    [Get Service]:
-    ```PowerShell
-    get-service | stop-service -whatif
-    ```
     
-Below is an example of how a multi line command would look for a **Shell cmdlet, with UI**. 
+Below is an example of how a Shell command would look for a **Shell cmdlet, with UI**. 
 
     @[Create a file](`mkdir C:\Folder | NUL> C:\Folder\file.ext`){Shell visible}
-
-    [Get Service]:
-    ```PowerShell
-    get-service | stop-service -whatif
 
 Commands can perform any action that is possible to do from a command or Windows PowerShell prompt. For example, the command could open File Explorer at a particular location within a directory structure, open dialog boxes, start scripts, open documents and web pages, and many others. 
 
