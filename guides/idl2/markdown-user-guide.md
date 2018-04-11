@@ -262,35 +262,33 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
   
 - **Commands:** Used to target the current resource in the Resource Portal to input commands. To mitigate risk of error and to enhance the overall experience of the lab, the IDLx platform supports executing commands directly in the area of focus of the Resource Portal. Clicking the text in the lab instructions will input the command into the item in focus, on the Resource Portal. Commands can be a single line (shown below) or multi-line. 
 
-    Commands require Integration Services to be installed on the VM. After installing Integration Services, you must save a differencing disk for Integration Services to be installed on all future launches of the lab.
+Commands require Integration Services to be installed on the VM. After installing Integration Services, you must save a differencing disk for Integration Services to be installed on all future launches of the lab.
 
 TEST     @[Text to display](`command`) 
 
-- **Single Line Command:**
+   - **Single Line Command:**
        
   <!-- The following code block _must_ be indented instead of wrapped in ~~~ to prevent
      our preprocessor from preprocessing the code. Do not change this formatting. -->
+     
+    @[Text to display][`command`]
 
-    @[Text to display][multi-line-command-id]
-
-    [multi-line-command-id]:
+    Single-line-command-id:
     ```
-    Multi-line
-    Command-goes-here
+    notepad.exe
     ```
-  
- - **Multi Line Command:**
-  
+    
+  - **Multi Line Command:**
   
   <!-- The following code block _must_ be indented instead of wrapped in ~~~ to prevent
      our preprocessor from preprocessing the code. Do not change this formatting. -->
 
     @[Text to display][single-line-command]
 
-    single-line-command:
-    
+    Multi-line-command-id:
     ```
-    notepad.exe
+    Multi-line-command-id
+    Command-goes-here
     ```
     
 Below is an example of how a multi line command would look for a PowerShell cmdlet. 
