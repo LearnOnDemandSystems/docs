@@ -596,26 +596,25 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 - **Commands:** Used to target the current resource in the Resource Portal to input commands. To mitigate risk of error and to enhance the overall experience of the lab, the IDLx platform supports executing commands directly in the area of focus of the Resource Portal. Clicking the text in the lab instructions will input the command into the item in focus, on the Resource Portal. Commands can be a single line (shown below) or multi-line. 
 
-    Commands require Integration Services to be installed on the VM. After installing Integration Services, you must save a differencing disk for Integration Services to be installed on all future launches of the lab.
+Commands require Integration Services to be installed on the VM. After installing Integration Services, you must save a differencing disk for Integration Services to be installed on all future launches of the lab.
 
-- **Single Line Command:**
-
-  >~~~
-  >@[Text to display](`command`)
-  >~~~
-  >
-  > ![](images/idl2-command.png "Command")
-  
- - **Multi Line Command:**
+   - **Single Line Command:**
+       
+  <!-- The following code block _must_ be indented instead of wrapped in ~~~ to prevent
+     our preprocessor from preprocessing the code. Do not change this formatting. -->
+     
+    @[Text to display][`command`]
+    
+  - **Multi Line Command:**
   
   <!-- The following code block _must_ be indented instead of wrapped in ~~~ to prevent
      our preprocessor from preprocessing the code. Do not change this formatting. -->
 
-    @[Text to display][multi-line-command-id]
+    @[Text to display][single-line-command]
 
-    [multi-line-command-id]:
+    Multi-line-command-id:
     ```
-    Multi-line
+    Multi-line-command-id
     Command-goes-here
     ```
     
@@ -643,11 +642,7 @@ There are 4 different kinds of commands that you can configure:
    - **Shell**. This causes a command to be executed in the background. The user does not see the execution of the command.
 
    - **Shell with UI**. This command opens a command prompt window in the VM and shows the command execution
-
-   To initiate the Command, the lab user clicks on lightning bolt) icon in the lab instructions, as shown below.
-
-   ![](images/idl2-command.png "Command")
-
+   
 - **Include:**  Used to input text from a GitHub raw link. This is useful to use to pull in content hosted on GitHub. Navigate to the GitHub page containing the content to be used, click the Raw button, then copy the URL of that page and include it in the below syntax. 
 
     - **Note**: GitHub hosted content can be changed by the repo maintainer of the content and will change the 			instructions displayed in the lab that is using the Include syntax. 
