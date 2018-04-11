@@ -264,15 +264,15 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 There are 4 different kinds of commands that you can configure:
 
-   1. **Type Text**. This is not a command per se. Rather, this command type allows the user to input a predetermined string.
+   - **Type Text**. This is not a command per se. Rather, this command type allows the user to input a predetermined string.
 
-   1. **PowerShell**. This allows the user to execute a PowerShell command in the background. The user does not see the execution of the command.
+   - **PowerShell**. This allows the user to execute a PowerShell command in the background. The user does not see the execution of the command.
 
-   1. **PowerShell with UI**. This opens a command prompt window in the VM and shows the command execution.
+   - **PowerShell with UI**. This opens a command prompt window in the VM and shows the command execution.
     
-   1. **Shell**. This causes a command to be executed in the background. The user does not see the execution of the command.
+   - **Shell**. This causes a command to be executed in the background. The user does not see the execution of the command.
 
-   1. **Shell with UI**. This command opens a command prompt window in the VM and shows the command execution
+   - **Shell with UI**. This command opens a command prompt window in the VM and shows the command execution
 
 Commands require Integration Services to be installed on the VM. After installing Integration Services, you must save a differencing disk for Integration Services to be installed on all future launches of the lab.
 
