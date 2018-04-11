@@ -622,7 +622,7 @@ Commands require Integration Services to be installed on the VM. After installin
   <!-- The following code block _must_ be indented instead of wrapped in ~~~ to prevent
      our preprocessor from preprocessing the code. Do not change this formatting. -->
 
-    @[Text to display][single-line-command]
+    @[Text to display][multi-line-command]
 
     Multi-line-command-id:
     ```
