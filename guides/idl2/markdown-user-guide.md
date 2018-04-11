@@ -267,8 +267,17 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 TEST     @[Text to display](`command`) 
 
 - **Single Line Command:**
+       
+  <!-- The following code block _must_ be indented instead of wrapped in ~~~ to prevent
+     our preprocessor from preprocessing the code. Do not change this formatting. -->
 
-       @[Text to display][`command`]
+    @[Text to display][multi-line-command-id]
+
+    [multi-line-command-id]:
+    ```
+    Multi-line
+    Command-goes-here
+    ```
   
  - **Multi Line Command:**
   
