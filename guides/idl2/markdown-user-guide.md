@@ -262,6 +262,18 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
   
 - **Commands:** Used to target the current resource in the Resource Portal to input commands. To mitigate risk of error and to enhance the overall experience of the lab, the IDLx platform supports executing commands directly in the area of focus of the Resource Portal. Clicking the text in the lab instructions will input the command into the item in focus, on the Resource Portal. Commands can be a single line (shown below) or multi-line. 
 
+There are 4 different kinds of commands that you can configure:
+
+   1. **Type Text**. This is not a command per se. Rather, this command type allows the user to input a predetermined string.
+
+   1. **PowerShell**. This allows the user to execute a PowerShell command in the background. The user does not see the execution of the command.
+
+   1. **PowerShell with UI**. This opens a command prompt window in the VM and shows the command execution.
+    
+   1. **Shell**. This causes a command to be executed in the background. The user does not see the execution of the command.
+
+   1. **Shell with UI**. This command opens a command prompt window in the VM and shows the command execution
+
 Commands require Integration Services to be installed on the VM. After installing Integration Services, you must save a differencing disk for Integration Services to be installed on all future launches of the lab.
 
    - **Single Line Command:**
@@ -303,22 +315,26 @@ Below is an example of how a multi line command would look for a PowerShell cmdl
     ```
  > [!KNOWLEDGE] PowerShell commands are executed in a CMD prompt, in the lab. The command will still function as you intend.
 
+ Below is an example of how a multi line command would look for a Shell cmdlet, **with no UI**. 
+
+    @[Launch Notepad](`notepad.exe`){Shell}
+
+    [Get Service]:
+    ```PowerShell
+    get-service | stop-service -whatif
+    ```
+    
+Below is an example of how a multi line command would look for a Shell cmdlet, **with UI**. 
+
+    @[Create a file](`mkdir C:\Folder | NUL> C:\Folder\file.ext`){Shell visible}
+
+    [Get Service]:
+    ```PowerShell
+    get-service | stop-service -whatif
+
 Commands can perform any action that is possible to do from a command or Windows PowerShell prompt. For example, the command could open File Explorer at a particular location within a directory structure, open dialog boxes, start scripts, open documents and web pages, and many others. 
 
 Although potentially any task could be reduced to an action that can be executed as a command shell or Windows PowerShell command, you should use this feature judiciously. Users should still know how to open File Explorer and perform other basic actions. This feature is most useful for a complex task that involves numerous steps, opening file locations deep down in directory structures, opening specific Web pages, and other similar activities.
-
-There are 4 different kinds of commands that you can configure:
-
-   - **Type Text**. This is not a command per se. Rather, this command type allows the user to input a predetermined string.
-
-   - **PowerShell**. This allows the user to execute a PowerShell command in the background. The user does not see the execution of the command.
-
-   - **PowerShell with UI**. This opens a command prompt window in the VM and shows the command execution.
-    
-   - **Shell**. This causes a command to be executed in the background. The user does not see the execution of the command.
-
-   - **Shell with UI**. This command opens a command prompt window in the VM and shows the command execution
-   
    
 - **Include:**  used to input text from a GitHub raw link. This is useful to use to pull in content hosted on GitHub. Navigate to the GitHub page containing the content to be used, click the Raw button, then copy the URL of that page and include it in the below syntax. 
  
