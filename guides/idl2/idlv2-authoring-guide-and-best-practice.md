@@ -677,23 +677,25 @@ Although potentially any task could be reduced to an action that can be executed
 
 - **Replacement Token:** Used to replace text in lab instructions with a variable that is unknown at the time of authoring the lab instructions. These variables may not be generated or created until the lab is launched by the student. These can include usernames, user first name, user last name, running lab instance ID number, etc. 
 
-    > | Replacement token           |                                          |
-    > | --------------------------- | ---------------------------------------- |
-    > | lab.LabInstanceId          | The unique ID of the running lab instance. |
-    > | lab.GlobalLabInstanceId    | The globally unique ID of the running lab instance. |
-    > | lab.LabProfileId           | The unique ID of the lab profile.        |
-    > | lab.UserId                 | The unique ID of user running the lab.   |
-    > | lab.UserFirstName          | The first name of the user running the lab. |
-    > | lab.UserLastName           | The last name of the user running the lab. |
-    > | lab.UserEmail              | The e-mail address of the user running the lab. |
-    > | lab.UserExternalId         | The external ID of the user running the lab (if launched via API). |
-    > | lab.Tag                    | The tag associated with the lab instance (if specified when launched via API). |
-    > | lab.CloudPortalLink        | A link to the cloud portal.              |
-    > | lab.CloudPortalUrl         | The cloud portal URL (rendered as text, not a link). |
-    > | lab.CloudPortalSignInLink  | A cloud portal sign-in link.             |
-    > | lab.CloudPortalSignInUrl   | The cloud portal sign-in URL (rendered as text, not a link). |
-    > | lab.CloudPortalSignOutLink | A cloud portal sign-out link.            |
-    > | lab.CloudPortalSignOutUrl  | The cloud portal sign-out URL (rendered as text, not a link). |
+Replacement tokens use the syntax @lab._replacementTokenName_. You can see the list of all @lab replacement tokens available to your lab by simply editing the instructions, and clicking on the @lab button. 
+
+   > | Replacement token           |                                          |
+   > | --------------------------- | ---------------------------------------- |
+   > | lab.LabInstanceId          | The unique ID of the running lab instance. |
+   > | lab.GlobalLabInstanceId    | The globally unique ID of the running lab instance. |
+   > | lab.LabProfileId           | The unique ID of the lab profile.        |
+   > | lab.UserId                 | The unique ID of user running the lab.   |
+   > | lab.UserFirstName          | The first name of the user running the lab. |
+   > | lab.UserLastName           | The last name of the user running the lab. |
+   > | lab.UserEmail              | The e-mail address of the user running the lab. |
+   > | lab.UserExternalId         | The external ID of the user running the lab (if launched via API). |
+   > | lab.Tag                    | The tag associated with the lab instance (if specified when launched via API). |
+   > | lab.CloudPortalLink        | A link to the cloud portal.              |
+   > | lab.CloudPortalUrl         | The cloud portal URL (rendered as text, not a link). |
+   > | lab.CloudPortalSignInLink  | A cloud portal sign-in link.             |
+   > | lab.CloudPortalSignInUrl   | The cloud portal sign-in URL (rendered as text, not a link). |
+   > | lab.CloudPortalSignOutLink | A cloud portal sign-out link.            |
+   > | lab.CloudPortalSignOutUrl  | The cloud portal sign-out URL (rendered as text, not a link). |
 
 ## Add Review Questions as an Assessment Exam to a Lab
 
