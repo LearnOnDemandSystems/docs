@@ -296,7 +296,7 @@ Commands require Integration Services to be installed on the VM. After installin
     Command-goes-here
     ```
     
-Below is an example of how a multi line command would look for a **PowerShell cmdlet, with no UI**. Shell commands can be done the same way, by replacing ```PowerShell``` with ```Shell```.
+Below is an example of how a multi line command would look for a **PowerShell cmdlet, with no UI**. Shell commands can be executed the same way, by replacing ```PowerShell``` with ```Shell```.
 
     @[Click this to run the get-service cmdlet][Get Service]{PowerShell}
 
@@ -305,7 +305,7 @@ Below is an example of how a multi line command would look for a **PowerShell cm
     get-service | stop-service -whatif
     ```
     
-Below is an example of how a multi line command would look for a **PowerShell cmdlet with UI**. Shell commands can be done the same way, by replacing ```PowerShell visible``` with ```Shell visible```.
+Below is an example of how a multi line command would look for a **PowerShell cmdlet with UI**. Shell commands can be executed the same way, by replacing ```PowerShell visible``` with ```Shell visible```.
 
     @[Click this to run the get-service cmdlet][Get Service]{PowerShell visible}
 
