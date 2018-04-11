@@ -677,6 +677,8 @@ Although potentially any task could be reduced to an action that can be executed
 
 - **Replacement Token:** Used to replace text in lab instructions with a variable that is unknown at the time of authoring the lab instructions. These variables may not be generated or created until the lab is launched by the student. These can include usernames, user first name, user last name, running lab instance ID number, etc. 
 
+Replacement tokens use the syntax @lab._replacementTokenName_. You can see the list of all @lab replacement tokens available to your lab by simply editing the instructions, and clicking on the @lab button. 
+
     > | Replacement token           |                                          |
     > | --------------------------- | ---------------------------------------- |
     > | lab.LabInstanceId          | The unique ID of the running lab instance. |
