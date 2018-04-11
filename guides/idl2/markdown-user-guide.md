@@ -266,7 +266,8 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 - **Single Line Command:**
 
-    ```@[Text to display](`command`)
+    ```
+    \@[Text to display](`command`)
     ```
     
     > ![](images/idl2-command.png "Command")
