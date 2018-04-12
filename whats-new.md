@@ -1,1 +1,2 @@
-# This is a test environment, but new stuff would show up here if this was the real deal!
+# This is what's new in Lab on Demand
+
