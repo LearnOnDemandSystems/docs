@@ -16,7 +16,7 @@ We hope this documentation helps you create awesome labs!
 
 Quick Starts allow you to fast track your learning experience, helping you get more value from the platform as quickly as possible.
 
-### Building Your First Cloud Slice lab
+### Building your first Cloud Slice lab
 
 With the Cloud Slice feature, LOD is able to support cloud learning at scale. Learners are provided with a slice of a cloud subscription that they can use for the duration of their learning experience, limited however you configure it. This series of Quick Starts will walk you through every step required to create a feature-rich Cloud Slice lab.
 
@@ -82,12 +82,12 @@ VIEW STATISTICS	/LabProfile/Statistics/{labProfileId},
 ????|[Add a URL or file to a Lab Profile](lod/feature-focus/lab-profiles/edit.md)||
 -->
 
-#### Authoring Lab Instructions
+#### Authoring lab instructions
 
 * [IDLx Authoring](guides/idl2/idlv2-authoring-guide-and-best-practice.md)
 * [IDL (legacy) Authoring](guides/idl/idlv3.md)
 
-#### Going Further with Lab Profiles
+#### Going further with Lab Profiles
 
 * [GitHub Integration](guides/github-integration/github-integration.md)
 * [Life Cycle Actions](guides/lca/life-cycle-actions-guide.md)
