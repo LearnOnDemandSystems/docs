@@ -135,6 +135,10 @@ The Execute Machine Command action can only be triggered by the Running, IP Addr
 
 ![image006](images/image006.png) 
 
+## Execute Subscription Command
+
+The Execute Subscription Command action can be triggered by any Life Cycle event. It is only available for labs configured to use a Cloud Slice. It will run the PowerShell command against the Cloud Slice subscription that the lab instance has been assigned.
+
 [Back to Action Types](#action-types)
 
 # Manage Life Cycle Actions
