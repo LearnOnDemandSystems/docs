@@ -1,18 +1,18 @@
 ## Lab Profile Settings
 
 1. [Basic Information](#basic-information)
-2. [Networks](#networks)
-3. [Virtual Machines](#virtual-machines)
-4. [Removable Media](#removable-media)
-5. [Cloud](#cloud)
-6. [Resources](#resources)
-7. [Errata](#errata)
-8. [Exam](#exam)
-9. [Pre-instancing](#pre-instancing)
-10. [Storage](#storage)
-11. [Launch URLs](#launch-urls)
-12. [Tags](#tags)
-13. [Advanced](#advanced)
+1. [Networks](#networks)
+1. [Virtual Machines](#virtual-machines)
+1. [Removable Media](#removable-media)
+1. [Cloud](#cloud)
+1. [Resources](#resources)
+1. [Errata](#errata)
+1. [Exam](#exam)
+1. [Pre-instancing](#pre-instancing)
+1. [Life Cycle](#life-cycle)
+1. [Storage](#storage)
+1. [Tags](#tags)
+1. [Advanced](#advanced)
 
 ### The following sections walk through each of the tabs located at the top of the Create Lab Profile page.
 
@@ -198,19 +198,37 @@ Unchecking **Inherit storage settings from organization** box will enable additi
    - US Central - located in Central United States
    - US East - located in Eastern United States
 
-## Launch URLs
+## Life Cycle
 
-**LTI** (Learning Tools Interoperability) is a standard defined by the IMS Global Learning Consortium that allows learning systems to consume content provided by external tools or services. This standard enables rich integration between different learning services and platforms, combining their strengths to offer more value to students of those learning systems. For more information on Lab on Demand LTI integration, see our guide here: [LTI Guide](/guides/lti/lod-lti.md).
+**Life Cycle Actions:** Actions can be defined to occur at certain points in the lab life cycle. For instance, an external service could be called when the lab builds, or send a notification to the user when the lab is resumed.  
 
-1. **Scoring Policy:** Select the type of Scoring Policy. Types of Scoring Policy include: _Time Spent_ and _Tasks Complete_.
-2. **Scoring Format:** Select the Scoring Format. Types of Scoring Format include: _% Complete_ and _Pass/Fail_.
-3. **Time:** Define the amount of time that the Scoring Policy should use.
-4. **Allow Anonymous Launches:** Check this box to allow this lab profile to be launched by anonymous users. 
-5. **Add Authenticated Launch URL:** Click this to add an Authenticated Launch URL to the lab profile. The URL must already be created to add it to the lab profile. 
+- Action
+
+    - **Send Web Request** – Like the Service URLs in the past, calls an external service URL.The information that is sent is based on that URL, the verb used to send the information, and the receiving API.
+    - **Send Notification to User **– Uses the Send Notification functionality to send information to the lab user in the form of a toast in the lab interface.
+    - **Send E-mail to User** – Sends an e-mail to the lab user. The subject and content of the e-mail will be the same for each lab user.
+    - **Execute Machine Command** – Like the Command field on lab steps. It requires the lab user to be logged into a virtual machine that has the Lab on Demand integration service installed. It runs a machine command on the active machine.
+
+- Event
+
+    - **Building**: The lab environment is being built.
+    - **Built**: The lab environment has been built, but components like virtual machines may still be starting.
+    - **Running**: All components of the lab are now running and the user can now interact with the lab.
+    - **IP Addresses Assigned**: If the lab has public IP addresses, this event will fire when all public IP addresses have been verified to be assigned to the lab's virtual machine(s).
+    - **Saving**: The lab is in the process of being saved.
+    - **Saved**: The lab is in a saved state and no longer active.
+    - **Resuming**: The lab is resuming from a saved sate.
+    - **Resumed**: The lab has been resumed from a saved state and the user can interact with the lab again. 
+    - **Tearing Down**: The lab environment is being torn down.
+    - **Torn Down**: The lab environment is fully torn down. 
+
+For more information about Action and Event types, please see our guide [Here](guides/lca/life-cycle-actions-guide.md#life-cycle-actions).
 
 ## Tags
 
 1. **Add Tag:** Click to add a tag to the lab profile. The Tag must already be created to add it to the lab profile. 
+
+1. **Lab Host tags:** Lab host tags are used to specify which Lab Host(s) the lab profile will use when users launch the lab. The Lab Host tag must already be created to add it to the lab profile using this button.
 
 ## Advanced
 
@@ -277,8 +295,12 @@ Unchecking **Inherit storage settings from organization** box will enable additi
 
 26. **Maximum Allowed Snapshots:** Maximum amount of snapshots that are allowed
 
-27. **Life Cycle Actions:** Actions can be defined to occur at certain points in the lab life cycle. For instance, an external service could be called when the lab builds, or send a notification to the user when the lab is resumed. 
+1. **Launch URLs**: **LTI** (Learning Tools Interoperability) is a standard defined by the IMS Global Learning Consortium that allows learning systems to consume content provided by external tools or services. This standard enables rich integration between different learning services and platforms, combining their strengths to offer more value to students of those learning systems. For more information on Lab on Demand LTI integration, see our guide here: [LTI Guide](/guides/lti/lod-lti.md).
 
-28. **Lab Host tags:** Lab host tags are used to specify which Lab Host(s) the lab profile will use when users launch the lab. The Lab Host tag must already be created to add it to the lab profile using this button.
+    - **Scoring Policy:** Select the type of Scoring Policy. Types of Scoring Policy include: _Time Spent_ and _Tasks Complete_.
+    - **Scoring Format:** Select the Scoring Format. Types of Scoring Format include: _% Complete_ and _Pass/Fail_.
+    - **Time:** Define the amount of time that the Scoring Policy should use.
+    - **Allow Anonymous Launches:** Check this box to allow this lab profile to be launched by anonymous users. 
+    - **Add Authenticated Launch URL:** Click this to add an Authenticated Launch URL to the lab profile. The URL must already be created to add it to the lab profile. 
 
 [Back to top](#lab-profile-settings)
