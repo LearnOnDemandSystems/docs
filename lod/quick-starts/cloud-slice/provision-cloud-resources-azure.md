@@ -93,7 +93,7 @@ Congratulations, you have just created your first Cloud Resource Template! Now l
 
 1. [] In the search results, click the Name hyperlink of your lab profile to open the Lab Profile details view.
 
-1. [] Click **Edit** to open the edit view for your lab profile.
+1. [] Click **Edit Profile** to open the edit view for your lab profile.
 
 1. [] Select the **Cloud** tab.
 
@@ -105,7 +105,7 @@ Congratulations, you have just created your first Cloud Resource Template! Now l
 
 1. [] Select your Cloud Resource Template in the list of results, then click **OK**.
 
-    > [!KNOWLEDGE] When you add a Cloud Resource Template to a Cloud Resource Group in a lab profile, if that template has any required parameters, you will automatically be prompted to provide values for those parameters. In this case, you do not get prompted for parameter values because the only parameter in the template is optional.
+    > [!KNOWLEDGE] When you add a Cloud Resource Template to a Cloud Resource Group in a lab profile, if that template has any parameters, you will automatically be prompted to provide values for those parameters. In this case, you may simply click on **Cancel** because the only parameter in the template is optional.
 
 1. [] Check the **Required For Display** checkbox.
 
