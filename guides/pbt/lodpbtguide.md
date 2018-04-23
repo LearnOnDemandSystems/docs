@@ -41,7 +41,7 @@ All other trademarks are property of their respective owners.
 
 **Introduction**
 
--->
+
 
 This guide provides information on building Performance-Based Testing
 (PBT) exam labs in Lab on Demand.
@@ -60,6 +60,8 @@ This guide assumes that the reader:
 
 The guide further assumes that the reader has knowledge of how to build
 labs in LOD and knowledge of performance-based testing design.
+
+-->
 
 **Getting Started**
 
