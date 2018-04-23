@@ -1,9 +1,10 @@
+<!--
 # Learn on Demand Systems GitHub Integration Guide 
 
 This guide describes how to select a GitHub repository as the source of
 Integrated Digital Lab eXperience (IDLx) or IDL (legacy) content for a Lab on Demand (LOD) lab profile, and why you would want to do so.
 
-<!--
+
 ## Intended Audience
 
 This guide assumes that the reader:
