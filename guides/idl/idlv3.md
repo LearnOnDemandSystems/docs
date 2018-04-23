@@ -1,5 +1,6 @@
 # Learn on Demand Systems Integrated Digital Lab (legacy) Authoring Guide 
 
+<!--
 ## Introduction
 
 This guide provides information on the Integrated Digital Lab (IDL legacy)
@@ -21,6 +22,8 @@ contract work.
 
 The guide further assumes that a document-based lab manual already
 exists and needs to be converted to the IDL (legacy) format.
+
+-->
 
 ## Overview of the Integrated Digital Lab IDL (legacy) Platform
 
