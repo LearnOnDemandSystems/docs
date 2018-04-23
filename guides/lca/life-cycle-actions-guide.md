@@ -15,7 +15,7 @@ All other trademarks are property of their respective owners.
 
 This guide provides information on building Life Cycle Actions in labs in Lab on Demand.
 
--->
+
 ## Intended Audience
 
 This guide assumes that the reader:
@@ -25,6 +25,8 @@ This guide assumes that the reader:
 - Has a help desk support contract to pay for additional custom contract work.
 
 The guide further assumes that the reader has knowledge of how to build labs in LOD and knowledge of life cycle events of LOD labs..
+
+-->
 
 # Life Cycle Actions
 
