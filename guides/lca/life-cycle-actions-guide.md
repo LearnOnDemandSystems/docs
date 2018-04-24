@@ -141,6 +141,11 @@ The Execute Machine Command action can only be triggered by the Running, IP Addr
 
 The Execute Subscription Command action can be triggered by any Life Cycle event. It is only available for labs configured to use a Cloud Slice. It will run the PowerShell command against the Cloud Slice subscription that the lab instance has been assigned.
 
+1. The **Delay** field allows you to instrocude a delay between the moment the life cycle event occurs and the action is executed. 
+
+1. **Error Action** controls how Lab on Demand will handle errors that occur when executing this action. All errors are logged against the lab instance by default. You can also choose to notify the user about the error or end the lab. To prevent users from losing their work, only events early in the lifecycle (build, building, running, etc) allow you to end the lab when an error occurs. This can be configured to notify the user of the error, or end the lab. 
+
+
 [Back to Action Types](#action-types)
 
 # Manage Life Cycle Actions
