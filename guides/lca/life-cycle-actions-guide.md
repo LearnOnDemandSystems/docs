@@ -100,7 +100,7 @@ Once you have added Life Cycle Actions to your lab, navigate to [Manage Life Cyc
 
 5.   Check **Blocking** if you want the lab to be paused while awaiting a response from the external web service.
 
-6.   In the **Timeout **field, set the number of seconds the lab should wait for the external service to reply before giving up.
+6.   In the **Timeout** field, set the number of seconds the lab should wait for the external service to reply before giving up.
 
 [Back to Action Types](#action-types)
 
