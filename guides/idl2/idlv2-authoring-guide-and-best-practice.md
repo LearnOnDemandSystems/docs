@@ -1,6 +1,7 @@
 # Learn on Demand Systems Integrated Digital Lab eXperience Authoring Guide 
 
-!<--
+<!--
+
 ## Introduction
 
 This guide provides information on the Integrated Digital Lab eXperience (IDLx) Platform, the various elements that comprise a lab that uses this platform, the steps for converting a traditional IDL (legacy) based lab to an IDLx based lab, and some tips and best practices.
