@@ -1,5 +1,6 @@
 # Life Cycle Actions Guide
 
+<!--
 ## Disclaimer
 
 This document supports a release of a software product that may be changed substantially in the future. It is provided for informational purposes only and Learn on Demand Systems, LLC, makes no warranties, either express or implied, in this document. Information in this document, including URL and other Internet Web site references, is subject to change without notice. The entire risk of the use or the results from the use of this document remains with the user. Unless otherwise noted, the companies, organizations, products, domain names, e-mail addresses, logos, people, places, and events depicted in examples herein are fictitious. No association with any real company, organization, product, domain name, e-mail address, logo, person, place, or event is intended or should be inferred. Complying with all applicable copyright laws is the responsibility of the user. Without limiting the rights under copyright, no part of this document may be reproduced, stored in or introduced into a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise), or for any purpose, without the express written permission of Microsoft Corporation.
@@ -14,6 +15,7 @@ All other trademarks are property of their respective owners.
 
 This guide provides information on building Life Cycle Actions in labs in Lab on Demand.
 
+
 ## Intended Audience
 
 This guide assumes that the reader:
@@ -24,12 +26,12 @@ This guide assumes that the reader:
 
 The guide further assumes that the reader has knowledge of how to build labs in LOD and knowledge of life cycle events of LOD labs..
 
-# Life Cycle Actions
+-->
 
 This guide will walk you through how to create Life Cycle Actions in a lab. In the past, you could send a request to an outside URL when a lab was first built or torn down using the Build Service URL and Tear Down Service URL fields on the Advanced tab of the Lab Profile. This functionality has been expanded to include more actions and a wider range of life cycle events of the lab. These are called Life Cycle Actions. The types of actions that can be performed are:
 
 - **Send Web Request** – Like the Service URLs in the past, calls an external service URL.The information that is sent is based on that URL, the verb used to send the information, and the receiving API.
-- **Send Notification to User **– Uses the Send Notification functionality to send information to the lab user in the form of a toast in the lab interface.
+- **Send Notification to User** – Uses the Send Notification functionality to send information to the lab user in the form of a toast in the lab interface.
 - **Send E-mail to User** – Sends an e-mail to the lab user. The subject and content of the e-mail will be the same for each lab user.
 - **Execute Machine Command** – Execute Machine Command - Runs a command on the specified virtual machine (VM). For this to work, the lab user must be logged into the VM, and the VM must have the Lab on Demand integration service installed. Replacement tokens may be used within the command text. 
 - **Execute Subscription Command** - Runs a PowerShell command against the Cloud Slice subscription. Replacement tokens may be used within the command text. 
@@ -98,7 +100,7 @@ Once you have added Life Cycle Actions to your lab, navigate to [Manage Life Cyc
 
 5.   Check **Blocking** if you want the lab to be paused while awaiting a response from the external web service.
 
-6.   In the **Timeout **field, set the number of seconds the lab should wait for the external service to reply before giving up.
+6.   In the **Timeout** field, set the number of seconds the lab should wait for the external service to reply before giving up.
 
 [Back to Action Types](#action-types)
 
@@ -138,6 +140,13 @@ The Execute Machine Command action can only be triggered by the Running, IP Addr
 ## Execute Subscription Command
 
 The Execute Subscription Command action can be triggered by any Life Cycle event. It is only available for labs configured to use a Cloud Slice. It will run the PowerShell command against the Cloud Slice subscription that the lab instance has been assigned.
+
+1. From the Event drop-down menu, select the **Event** that you wish to use to execute the Life Cycle Action. 
+
+1. The **Delay** field allows you to instrocude a delay between the moment the life cycle event occurs and the action is executed. 
+
+1. **Error Action** controls how Lab on Demand will handle errors that occur when executing this action. All errors are logged against the lab instance by default. You can also choose to notify the user about the error or end the lab. To prevent users from losing their work, only events early in the lifecycle (build, building, running, etc) allow you to end the lab when an error occurs. This can be configured to notify the user of the error, or end the lab. 
+
 
 [Back to Action Types](#action-types)
 
