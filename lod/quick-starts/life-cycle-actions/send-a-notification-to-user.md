@@ -1,4 +1,4 @@
-# Sent a Notification to the user
+# Send a Notification to the user
 
 This is the first in a Series of Quick Starts about Life Cycle Actions in OneLearn Lab on Demand (LOD).
 
