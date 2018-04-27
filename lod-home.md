@@ -85,7 +85,7 @@ VIEW STATISTICS	/LabProfile/Statistics/{labProfileId},
 #### Authoring lab instructions
 
 * [IDLx Authoring](guides/idl2/idlv2-authoring-guide-and-best-practice.md)
-* [IDLx Markdown User Guide](https://labondemand.com/Help?snap=1&caller=%2FLabProfile%2FEditInstructions%2F38658&src=https%3A%2F%2Fraw.githubusercontent.com%2FLearnOnDemandSystems%2Fdocs%2Fmaster%2Fguides%2Fidl2%2Fmarkdown-user-guide.md)
+* [IDLx Markdown User Guide](guides/idl2/markdown-user-guide.md)
 * [IDL (legacy) Authoring](guides/idl/idlv3.md)
 
 #### Going further with Lab Profiles

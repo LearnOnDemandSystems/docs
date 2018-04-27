@@ -134,9 +134,7 @@ Once you have created the application registration and assigned appropriate dire
 
 If you do not yet have a global administrator set up in your subscription, create a new global administrator account by doing the following:
 
-1. [] Browse into the Azure Active Directory service, and click **Users and Groups**.
-
-1. [] Click **All users** to show all users in the directory.
+1. [] Browse into the Azure Active Directory service, and click **Users**.
 
 1. [] Click **New user** to create a new user. This will open the New user blade.
 
