@@ -57,6 +57,8 @@ To continue your learning experience, you might want to have a look at the Intro
 
 1. Click **OK**, and then click **Save**. 
 
+1. Add a note, describing the changes you've made to the lab profile, and click OK.
+
 When lab users end their lab, Lab on Demand will begin tearing down the lab. Once this process begins, and e-mail will be sent to that user, with the information configured above. If a user does not have an e-mail address associated with their account, they will see the error notification you configured above.
 
 Now you have learned how to use Life Cycle Actions to send a notification, as well as an email. Click the link below to learn how to execute a subscription command, on the cloud subscription for your lab. 
