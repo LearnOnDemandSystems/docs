@@ -45,7 +45,7 @@ Estimated time to completion: **5 minutes**.
 
 1. Check the **enabled** box, to enable the Life Cycle Action. 
 
-1. This is where you will enter the text that will be in the body of the e-mail sent to users. For this quick start you can enter:
+1. This is where you will enter the text that will be in the body of the e-mail sent to users. For this quick start you can enter the following:
 
 ~~~Markdown
 Thank you for taking the Introduction to Azure Functions course. We hope this helped you understand when you might want to use Azure Functions, and how you can get started using them.+++
