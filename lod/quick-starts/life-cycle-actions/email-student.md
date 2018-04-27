@@ -61,4 +61,4 @@ When lab users end their lab, Lab on Demand will begin tearing down the lab. Onc
 
 Now you have learned how to use Life Cycle Actions to send a notification, as well as an email. Click the link below to learn how to execute a subscription command, on the cloud subscription for your lab. 
 
-[Execute Subscription Command](URL)
+[Execute Subscription Command](/lod/quick-starts/life-cycle-actions/subscription-command.md)
