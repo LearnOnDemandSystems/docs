@@ -130,7 +130,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
   > \[![text to display]url or filepath "Optional image title")]url "Optional link title")
 
-- **Portal Link:** used to launch a hyperlink. In the Cloud Client, this will open the hyperlink in the left window. In the traditional virtualization client (vm-based labs), this will open the hyperlink in a new local browser window.
+- **Portal Link:** used to launch a hyperlink in the lab client window. In the Cloud Client, this will open the hyperlink in the left window. In the traditional virtualization client (vm-based labs), this will open the hyperlink in a new local browser window.
 
   > `<[text to display](URL)`
 
