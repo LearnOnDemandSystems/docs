@@ -32,7 +32,7 @@ With the Cloud Slice feature, LOD is able to support cloud learning at scale. Le
 |10&nbsp;minutes|[Set up Cloud Slice lab for Scale](lod/quick-starts/cloud-slice/scale.md)|
 
 
-### Life Cycle Actions
+### Getting Started With Life Cycle Actions
 
 
 With the Life Cycle Actions feature, LOD is able to execute actions when specific events occur during the lab instance life cycle. 
