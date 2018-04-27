@@ -58,4 +58,4 @@ Did you see the notification pop up in the lower-right corner of the lab interfa
 
 Now that you have configured your first Life Cycle Action to send a notification, click on the link below to go through the nex Quick Start where you will configure a Life Cycle Action to send an email to the user. 
 
-[Send E-mail to User]
+[Send E-mail to User](docs/lod/quick-starts/life-cycle-actions/email-student.md)
