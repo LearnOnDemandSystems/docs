@@ -12,4 +12,4 @@ These actions include:
 
 We will cover each of these actions, in a series of Quick Starts. We will discuss how to use each action, and when it is appropriate to use each one. After completing this Quick Start series, you will be able to configure your lab with Life Cycle Actions, to make your more lab a more rich experience for students. 
 
-To get started, [click here](URL) to get started with Life Cycle Actions.
+To get started, [click here](/lod/quick-starts/life-cycle-actions/send-a-notification-to-user.md) to get started with Life Cycle Actions.
