@@ -32,7 +32,7 @@ Estimated time to completion: **5 minutes**
 
 1. In the **Name** field, leave this blank. 
 
-    > [!KNOWLEDGTE] Entering a name allows only one notification with that name to be executed in the lab. If there are two life cycle actions with the same name, on the same event, the action created last will be executed in the lab. 
+    > [!KNOWLEDGE] Entering a name allows only one notification with that name to be executed in the lab. If there are two life cycle actions with the same name, on the same event, the action created last will be executed in the lab. 
     >
     >Leaving the name field blank will allow multiple notificaitons to popup, during the same event. 
     >
@@ -48,11 +48,13 @@ Estimated time to completion: **5 minutes**
 
 1. Check the **Enabled** box. If this is unchecked, the life cycle action will not be exectued.
 
-1. Enter a welcome message that will be displayed to the user when the lab is launched. 
+1. Click to copy this message and paste into the text field; +++Welcome to the Lab Evnironment, are you ready to learn something new?+++. The welcome message that will be displayed to the user when the lab is launched. 
 
 1. Click **OK**, and then click **Save**. 
 
-1. Launch your lab.
+1. Add a note, describing the changes you've made to the lab profile. 
+
+1. Click **launch**, to launch the lab.
 
 Did you see the notification pop up in the lower-right corner of the lab interface? If you missed it, you can cancel the lab and launch it again. The notificaiton will pop up once the lab is built, on all launched of this lab. If your lab is deploying resources, it may take a few minutes for the notification to appear, since it is configured to display once the lab is completely built. 
 
