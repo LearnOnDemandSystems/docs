@@ -1,8 +1,8 @@
-# Send a Notification to the user
+# Send a notification to the user
 
 This is the first in a Series of Quick Starts about Life Cycle Actions in OneLearn Lab on Demand (LOD).
 
-In this Quick Start, you will configure a notification to popup for the user. 
+In this Quick Start, you will configure a notification to popup for the user, in their lab environment
 
 Configuring a life cycle notification is simple, and can be changed later to display a different message on the popup. Life Cycle Actions are used to notify the user of important information or display a message, at specific stages within the lab. 
 
@@ -10,7 +10,7 @@ Configuring a life cycle notification is simple, and can be changed later to dis
 
 Estimated time to completion: **5 minutes**
 
-1. First, **navigate to your lab profile**, that you wish to configure a life cycle action for.
+1. First, **navigate to the lab profile**, that you wish to configure a life cycle action for.
 
 1. Click **edit profile** in the upper-right corner.
 
@@ -26,7 +26,7 @@ Estimated time to completion: **5 minutes**
 
     !IMAGE[](\docs\lod\image\send-notification-to-user.png)
 
-1. From the **Event** drop-down menu, select **Built**.
+1. From the **Event** drop-down menu, select **Built**. The is allow the notification to be displayed once the lab is fully built.
 
     !IMAGE[](\docs\lod\images\built.png)
 
@@ -48,7 +48,7 @@ Estimated time to completion: **5 minutes**
 
 1. Check the **Enabled** box. If this is unchecked, the life cycle action will not be exectued.
 
-1. Enter a welcome message that will be displayed when the lab is launched. 
+1. Enter a welcome message that will be displayed to the user when the lab is launched. 
 
 1. Click **OK**, and then click **Save**. 
 
