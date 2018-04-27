@@ -52,7 +52,7 @@ Estimated time to completion: **5 minutes**
 
 1. Click **OK**, and then click **Save**. 
 
-1. **Add a note**, describing the changes you've made to the lab profile, and click **OK**.
+1. **Add a note**, describing the changes you've made to the lab profile, and **click OK**.
 
 1. Click **launch**, to launch the lab.
 
