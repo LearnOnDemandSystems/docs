@@ -35,9 +35,7 @@ With the Cloud Slice feature, LOD is able to support cloud learning at scale. Le
 ### Getting Started With Life Cycle Actions
 
 
-With the Life Cycle Actions feature, LOD is able to execute actions when specific events occur during the lab instance life cycle. 
-
-Each of these action types will be covered, in a series of Quick Starts. We will discuss how to use each action, and when it is appropriate to use each one. After completing this Quick Start series, you will be able to configure your lab with Life Cycle Actions, to make your more lab a more rich experience for students. 
+With the Life Cycle Actions feature, LOD is able to execute actions when specific events occur during the lab instance life cycle. Each of these action types will be covered, in this series of Quick Starts. We will discuss how to use each action, and when it is appropriate to use each one. After completing this Quick Start series, you will be able to configure your lab with Life Cycle Actions, to make your more lab a more rich experience for students. 
 
 |Duration|Quick Start|
 |--:|:--|
