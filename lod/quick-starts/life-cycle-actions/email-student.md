@@ -7,7 +7,7 @@
 > 
 > If you have not yet created a lab profile, If you have not created a lab profile, have a look at our [documentation for creating a lab profile](URL).
 
-Estimated time to completion: **xx minutes**.
+Estimated time to completion: **5 minutes**.
 
 1. **Navigate** back to your lab profile.
 
