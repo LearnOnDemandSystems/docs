@@ -8,7 +8,7 @@ Configuring a life cycle notification is simple, and can be changed later to dis
 
 > [!ALERT]You must have a lab profile created before you can configure a life cycle action. If you have not created a lab profile, have a look at our [documentation for creating a lab profile](URL).
 
-Estimated time to completion: **XX minutes**
+Estimated time to completion: **5 minutes**
 
 1. First, **navigate to your lab profile**, that you wish to configure a life cycle action for.
 
