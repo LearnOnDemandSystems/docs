@@ -31,6 +31,18 @@ With the Cloud Slice feature, LOD is able to support cloud learning at scale. Le
 |20&nbsp;minutes|[Register Cloud Resource Providers](lod/quick-starts/cloud-slice/cloud-resource-providers.md)|
 |10&nbsp;minutes|[Set up Cloud Slice lab for Scale](lod/quick-starts/cloud-slice/scale.md)|
 
+
+### Life Cycle Actions
+
+|Duration|Quick Start|
+|--:|:--|
+|1&nbsp;minute|[Life Cycle Actions](/lod/quick-starts/life-cycle-actions/life-cycle-actions.md)|
+|5&nbsp;minutes|[Send a Notification to the user](/lod/quick-starts/life-cycle-actions/send-a-notification-to-user.md)|
+|5&nbsp;minutes|[Send E-mail to User](/lod/quick-starts/life-cycle-actions/email-student.md)|
+|10&nbsp;minutes|[Execute Subscription Command](/lod/quick-starts/life-cycle-actions/subscription-command.md)|
+|10&nbsp;minutes|[Send Web Request](/lod/quick-starts/life-cycle-actions/web-request.md)|
+|10&nbsp;minutes|[Execute Machine Command](/lod/quick-starts/life-cycle-actions/machine-command)|
+
 ## Feature Focus
 
 Feature Focus helps you learn more in-depth about specific features in LOD.
