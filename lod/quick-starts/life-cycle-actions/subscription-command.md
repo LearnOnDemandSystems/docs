@@ -7,4 +7,4 @@
 
 
 
-[Execute Machine Command](/lod/quick-starts/life-cycle-actions/web-request.md)
+[Send Web request](/lod/quick-starts/life-cycle-actions/machine-command)
