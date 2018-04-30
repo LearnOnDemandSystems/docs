@@ -2,13 +2,13 @@
 
 Lab Profiles in Lab on Demand (LOD) can be housed in a lab Series. The Lab Series contains Lab Profiles, settings for the Lab Series, as well as 
 
-he lab profile is where the settings are configured for the lab. These settings include (but are not limited to): Name, owning organization, expected duration, resource requirements, virtual machines, network configuration, and much more. Lab profiles can exist on their own or they can be part of a Lab Series that contains multiple lab profiles. 
+The lab profile is where the settings are configured for the lab. These settings include (but are not limited to): Name, owning organization, expected duration, resource requirements, virtual machines, network configuration, and much more. Lab profiles can exist on their own or they can be part of a Lab Series that contains multiple lab profiles. 
 
 To create a Lab series, click **Create Lab Series** on the Lab Series tile, on the Site Administration page.
 
 ![Create a Lab Series](images/create-lab-series.png)
 
-## Basic Informaiton 
+## Basic Information 
 
 1. **Name**: This is the display name of the Lab Series
 
