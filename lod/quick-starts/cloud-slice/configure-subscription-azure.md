@@ -66,7 +66,7 @@ To create a new application registration in Azure Active Directory, do the follo
 
     ![Confirm permission grant for app registration](images/azure-ad-app-registration-grant-permissions-yes.png)
 
-[Back to top][back-to-top]
+[Back to top](#cloud-slice-quick-start---configure-subscription---microsoft-azure)
 
 ## Create an API key for the application registration and record authentication details
 
@@ -107,7 +107,7 @@ To copy the Azure Active Directory domain name, do the following:
 
 ![Copy your Azure Active Directory domain name](images/azure-ad-copy-tenant-name.png)
 
-[Back to top][back-to-top]
+[Back to top](#cloud-slice-quick-start---configure-subscription---microsoft-azure)
 
 ## Add the application registration as owner to the Azure subscription
 
@@ -124,7 +124,7 @@ Once you have created the application registration and assigned appropriate dire
 
 ![Add app registration as subscription owner](images/azure-ad-add-app-registration-as-subscription-owner.png)
 
-[Back to top][back-to-top]
+[Back to top](#cloud-slice-quick-start---configure-subscription---microsoft-azure)
 
 ## Assign Company Administrator role to the application registration
 
@@ -207,7 +207,7 @@ Now that you have a global administrator account you can use, you need to use Wi
 
 **If you made it this far, you have successfully added the Company Administrator role to your application registration. Congratulations!**
 
-[Back to top][back-to-top]
+[Back to top](#cloud-slice-quick-start---configure-subscription---microsoft-azure)
 
 ## Review Checklist
 
@@ -231,6 +231,4 @@ Now that you have configured your cloud subscription properly, click on the link
 
 [Add your Cloud Subscription into LOD](add-subscription-into-lod.md)
 
-[Back to top][back-to-top]
-
-[back-to-top]: #cloud-slice-quick-start-configure-subscription-microsoft-azure "Return to the top of the document"
+[Back to top](#cloud-slice-quick-start---configure-subscription---microsoft-azure "Return to the top of the document")
