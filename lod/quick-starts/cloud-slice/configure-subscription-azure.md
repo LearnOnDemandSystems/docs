@@ -70,7 +70,7 @@ To create a new application registration in Azure Active Directory, do the follo
 
 ## Create an API key for the application registration and record authentication details
 
-Now that you have created and the application registration and granted it the required permissions, you need to create an API key for the application registration and record it for later. You will also need to record the application registration's application ID, the ID of the Azure subscription that will be used to provision Cloud Slices, and the Azure Active Directory domain name (this is commonly referred to as your tenant name). These four pieces of information are required by the OneLearn Lab on Demand authentication process in order for it to be able to provision Cloud Slices for your labs in this Azure subscription.
+Now that you have created the application registration and granted it the required permissions, you need to create an API key for the application registration and record it for later. You will also need to record the application registration's application ID, the ID of the Azure subscription that will be used to provision Cloud Slices, and the Azure Active Directory domain name (this is commonly referred to as your tenant name). These four pieces of information are required by the OneLearn Lab on Demand authentication process in order for it to be able to provision Cloud Slices for your labs in this Azure subscription.
 
 ### Create application registration API key
 
