@@ -186,8 +186,8 @@ continue with the integration.
 
     > [!KNOWLEDGE] 
     > Once you have authorized Lab on Demand to have access to your GitHub account,
-    > if you also want Lab on Demand to be able to integrate with a repository in a
-    > GitHub organization that you are a member of, you will have to submit a request
+    > **if you also want Lab on Demand to be able to integrate with a repository in a
+    > GitHub organization that you are a member of**, you will have to submit a request
     > to your organization to authorize that application. 
     > 
     >To submit that request; 
@@ -218,7 +218,7 @@ will be prompted to select a different one.
 
     ![Select GitHub repository](media/integration/05-select-github-repository.png "Select GitHub Repository")
 
-> [!ALERT] When you complete the following step, any existing content in your
+    > [!ALERT] When you complete the following step, any existing content in your
 lab profile will be overwritten, and anything lost will be unrecoverable. Under
 normal circumstances, that is ok because the content you are importing is the
 export of the content that is in the lab, so you won't lose a thing. You should
