@@ -13,48 +13,47 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "virtualMachines_Ubuntu_name": {
-            "defaultValue": "Ubuntu",
+        "name": {
+            "defaultValue": "ubuntu",
             "type": "String"
         },
-        "networkInterfaces_ubuntu551_name": {
-            "defaultValue": "ubuntu551",
+        "nicName": {
+            "defaultValue": "ubuntuNic",
             "type": "String"
         },
-        "publicIPAddresses_Ubuntu_ip_name": {
-            "defaultValue": "Ubuntu-ip",
+        "publicIPAddressName": {
+            "defaultValue": "ubuntuIPAddress",
             "type": "String"
         },
-        "virtualNetworks_Ubuntu_vnet_name": {
-            "defaultValue": "Ubuntu-vnet",
+        "vnetName": {
+            "defaultValue": "ubuntuVNet",
             "type": "String"
         },
-        "networkSecurityGroups_Ubuntu_NSG_name": {
-            "defaultValue": "Ubuntu-NSG",
+        "networkSecurityGroupName": {
+            "defaultValue": "ubuntuNsg",
             "type": "String"
         },
-        "subnets_default_name": {
+        "subnetName": {
             "defaultValue": "default",
             "type": "String"
         },
-        "securityRules_SSH_name": {
+        "securityRuleName": {
             "defaultValue": "SSH",
             "type": "String"
         },
-        "vmsize":{
+        "size":{
             "defaultValue": "Standard_B1s",
             "type": "string"
         },
-        "vmAdminUsername": {
+        "adminUsername": {
             "defaultValue": "azureadmin",
             "type": "string"
         },
-        "vmAdminPassword":{
+        "adminPassword":{
             "defaultValue": "AzurePassw0rd!",
             "type": "securestring"
         },
         "dnsName":{
-            "defaultValue": "",
             "type": "string"
         }
     },
@@ -62,24 +61,24 @@
     "resources": [
         {
             "type": "Microsoft.Compute/virtualMachines",
-            "name": "[parameters('virtualMachines_Ubuntu_name')]",
+            "name": "[parameters('name')]",
             "apiVersion": "2017-03-30",
             "location": "[resourceGroup().location]",
             "scale": null,
             "properties": {
                 "hardwareProfile": {
-                    "vmSize": "[parameters('vmsize')]"
+                    "size": "[parameters('size')]"
                 },
                 "storageProfile": {
                     "imageReference": {
                         "publisher": "Canonical",
-                        "offer": "[concat(parameters('virtualMachines_Ubuntu_name'),'Server')]",
+                        "offer": "[concat(parameters('name'),'Server')]",
                         "sku": "16.04-LTS",
                         "version": "latest"
                     },
                     "osDisk": {
                         "osType": "Linux",
-                        "name": "[concat(parameters('virtualMachines_Ubuntu_name'),'_OsDisk_1_3760acb5ca8649a086e1ad2b476d3b12')]",
+                        "name": "[concat(parameters('name'),'_OsDisk_1_3760acb5ca8649a086e1ad2b476d3b12')]",
                         "createOption": "FromImage",
                         "caching": "ReadWrite",
                         "managedDisk": {
@@ -90,9 +89,9 @@
                     "dataDisks": []
                 },
                 "osProfile": {
-                    "computerName": "[parameters('virtualMachines_Ubuntu_name')]",
-                    "adminUsername": "[parameters('vmAdminUsername')]",
-                    "adminPassword": "[parameters('vmAdminPassword')]",
+                    "computerName": "[parameters('name')]",
+                    "adminUsername": "[parameters('adminUsername')]",
+                    "adminPassword": "[parameters('adminPassword')]",
                     "linuxConfiguration": {
                         "disablePasswordAuthentication": false
                     },
@@ -101,19 +100,19 @@
                 "networkProfile": {
                     "networkInterfaces": [
                         {
-                            "id": "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_ubuntu551_name'))]"
+                            "id": "[resourceId('Microsoft.Network/networkInterfaces', parameters('nicName'))]"
                         }
                     ]
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkInterfaces', parameters('networkInterfaces_ubuntu551_name'))]"
+                "[resourceId('Microsoft.Network/networkInterfaces', parameters('nicName'))]"
             ]
         },
         {
             "comments": "Generalized from resource: '/subscriptions/c9fd8569-a40c-4701-b4fe-0212e170195f/resourceGroups/Ubuntu/providers/Microsoft.Network/networkInterfaces/ubuntu551'.",
             "type": "Microsoft.Network/networkInterfaces",
-            "name": "[parameters('networkInterfaces_ubuntu551_name')]",
+            "name": "[parameters('nicName')]",
             "apiVersion": "2017-10-01",
             "location": "[resourceGroup().location]",
             "scale": null,
@@ -129,10 +128,10 @@
                             "privateIPAddress": "10.0.1.4",
                             "privateIPAllocationMethod": "Dynamic",
                             "publicIPAddress": {
-                                "id": "[resourceId('Microsoft.Network/publicIPAddresses', parameters('publicIPAddresses_Ubuntu_ip_name'))]"
+                                "id": "[resourceId('Microsoft.Network/publicIPAddresses', parameters('publicIPAddressName'))]"
                             },
                             "subnet": {
-                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_Ubuntu_vnet_name'), parameters('subnets_default_name'))]"
+                                "id": "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('vnetName'), parameters('subnetName'))]"
                             },
                             "primary": true,
                             "privateIPAddressVersion": "IPv4"
@@ -147,22 +146,22 @@
                 "enableAcceleratedNetworking": false,
                 "enableIPForwarding": false,
                 "networkSecurityGroup": {
-                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_Ubuntu_NSG_name'))]"
+                    "id": "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroupName'))]"
                 },
                 "primary": true,
                 "virtualMachine": {
-                    "id": "[resourceId('Microsoft.Compute/virtualMachines', parameters('virtualMachines_Ubuntu_name'))]"
+                    "id": "[resourceId('Microsoft.Compute/virtualMachines', parameters('name'))]"
                 }
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/publicIPAddresses', parameters('publicIPAddresses_Ubuntu_ip_name'))]",
-                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('virtualNetworks_Ubuntu_vnet_name'), parameters('subnets_default_name'))]",
-                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_Ubuntu_NSG_name'))]"
+                "[resourceId('Microsoft.Network/publicIPAddresses', parameters('publicIPAddressName'))]",
+                "[resourceId('Microsoft.Network/virtualNetworks/subnets', parameters('vnetName'), parameters('subnetName'))]",
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroupName'))]"
             ]
         },
         {
             "type": "Microsoft.Network/networkSecurityGroups",
-            "name": "[parameters('networkSecurityGroups_Ubuntu_NSG_name')]",
+            "name": "[parameters('networkSecurityGroupName')]",
             "apiVersion": "2017-10-01",
             "location": "[resourceGroup().location]",
             "scale": null,
@@ -320,7 +319,7 @@
             "sku": {
                 "name": "Basic"
             },
-            "name": "[parameters('publicIPAddresses_Ubuntu_ip_name')]",
+            "name": "[parameters('publicIPAddressName')]",
             "apiVersion": "2017-10-01",
             "location": "[resourceGroup().location]",
             "scale": null,
@@ -340,7 +339,7 @@
         },
         {
             "type": "Microsoft.Network/virtualNetworks",
-            "name": "[parameters('virtualNetworks_Ubuntu_vnet_name')]",
+            "name": "[parameters('vnetName')]",
             "apiVersion": "2017-10-01",
             "location": "[resourceGroup().location]",
             "scale": null,
@@ -370,7 +369,7 @@
         },
         {
             "type": "Microsoft.Network/networkSecurityGroups/securityRules",
-            "name": "[concat(parameters('networkSecurityGroups_Ubuntu_NSG_name'), '/', parameters('securityRules_SSH_name'))]",
+            "name": "[concat(parameters('networkSecurityGroupName'), '/', parameters('securityRuleName'))]",
             "apiVersion": "2017-10-01",
             "scale": null,
             "properties": {
@@ -389,12 +388,12 @@
                 "destinationAddressPrefixes": []
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroups_Ubuntu_NSG_name'))]"
+                "[resourceId('Microsoft.Network/networkSecurityGroups', parameters('networkSecurityGroupName'))]"
             ]
         },
         {
             "type": "Microsoft.Network/virtualNetworks/subnets",
-            "name": "[concat(parameters('virtualNetworks_Ubuntu_vnet_name'), '/', parameters('subnets_default_name'))]",
+            "name": "[concat(parameters('vnetName'), '/', parameters('subnetName'))]",
             "apiVersion": "2017-10-01",
             "scale": null,
             "properties": {
@@ -402,7 +401,7 @@
                 "addressPrefix": "10.0.1.0/24"
             },
             "dependsOn": [
-                "[resourceId('Microsoft.Network/virtualNetworks', parameters('virtualNetworks_Ubuntu_vnet_name'))]"
+                "[resourceId('Microsoft.Network/virtualNetworks', parameters('vnetName'))]"
             ]
         }
     ]
