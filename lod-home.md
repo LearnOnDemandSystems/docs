@@ -50,7 +50,7 @@ With the Life Cycle Actions feature, LOD is able to execute actions when specifi
 
 |Duration|Quick Start|
 |--:|:--|
-|15&nbsp;minutes|[Send a Notification to the user](/lod/quick-starts/linux/deploy-linux-template.md)|
+|15&nbsp;minutes|[Deploy Linx in Azure using a Resource Template](/lod/quick-starts/linux/deploy-linux-template.md)|
 
 
 ## Feature Focus
