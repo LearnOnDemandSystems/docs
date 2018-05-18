@@ -97,7 +97,7 @@ Congratulations, you have just created your first Cloud Resource Template! Now l
 
 1. [] Select the **Cloud** tab.
 
-1. [] Scroll down to where you defined your ++corp-data++ resource group, then click **Add Template** below the _Cloud Resource Templates_ heading.
+1. [] Scroll down to where you defined your ++corp-data++ resource group, then click **Add Resource Template** below the _Cloud Resource Templates_ heading.
 
 1. [] Enter ++simple-storage-account++ into the **Name** field, and change the operator drop down adjacent to it to **Equal**.
 
@@ -105,17 +105,15 @@ Congratulations, you have just created your first Cloud Resource Template! Now l
 
 1. [] Select your Cloud Resource Template in the list of results, then click **OK**.
 
-    > [!KNOWLEDGE] When you add a Cloud Resource Template to a Cloud Resource Group in a lab profile, if that template has any required parameters, you will automatically be prompted to provide values for those parameters. In this case, you do not get prompted for parameter values because the only parameter in the template is optional.
-
-1. [] Check the **Required For Display** checkbox.
-
-    > [!KNOWLEDGE] When you mark a Cloud Resource Template as required for display, the lab will not be available to the student once launched until the resources defined in the Cloud Resource Template are fully provisioned. If your lab provisions resources that are not required at the beginning of the lab, you may want to uncheck this checkbox so that the lab launches more quickly, allowing students to start working in the lab even while resources are being provisioned.
-
-1. [] Click **Edit Parameters**.
+    > [!KNOWLEDGE] When you add a Cloud Resource Template to a Cloud Resource Group in a lab profile, if that template has any required parameters, you will automatically be prompted to provide values for those parameters. 
 
 1. [] Enter ++mysa++ into the **Value** field for the "Storage Account Name Prefix" parameter, then click **OK**.
 
-    > [!KNOWLEDGE] Reminder: this is optional, because the parameter was not configured as required.
+  > [!KNOWLEDGE] Reminder: this is optional, because the parameter was not configured as required.
+
+1. [] Uncheck the **Deploy in Background** checkbox.
+
+    > [!KNOWLEDGE] When you do not mark a Cloud Resource Template as deploy in background, the lab will not be available to the student once launched until the resources defined in the Cloud Resource Template are fully provisioned. If your lab provisions resources that are not required at the beginning of the lab, you may want to check this checkbox so that the lab launches more quickly,allowing students to start working in the lab even while resources are being provisioned.
 
 1. [] Click **Save** to save the updated lab profile.
 
