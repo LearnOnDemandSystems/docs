@@ -4,7 +4,7 @@
 
 1. [] Click **Import from JSON** on the **Parameters** tab to open a dialog where you will paste the JSON document you just copied.
 
-1. [] Paste the contents of your clipboard into the **Import Parameters** dialog, and then click **OK** to close that dialog.
+1. [] Paste the contents of your clipboard into the **Import Parameters** dialog, and then click **OK** to close that dialog. Notice how the parameters from the ARM template parameters file are automatically added to your Resource Template.
 
 1. [] Close this dialog to return to the previous document.
 
