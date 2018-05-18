@@ -6,7 +6,7 @@
 
 1. [] Close this dialog to return to the previous document.
 
-### ARM Template
+### ARM template
 
 ```json
 {
