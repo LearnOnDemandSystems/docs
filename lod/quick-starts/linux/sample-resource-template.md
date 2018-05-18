@@ -1,4 +1,4 @@
-# Copy sample Reource Template into your lab
+# Copy sample Resource Template into your lab
 
 1. Click anywhere in the sample instructions below to copy the sample Resource Template to your clipboard. 
 
