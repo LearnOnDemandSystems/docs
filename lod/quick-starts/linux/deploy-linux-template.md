@@ -1,4 +1,4 @@
-# Deploying a Linux VM on Azure using a template
+# Deploying a Linux VM on Azure using a Resource Template
 
 Deploying a Linux VM on Azure is quick and easy, using Resource Templates. To create a Resource Template in the OneLearn Lab on Demand platform (LOD), you must perform the tasks below.
 
