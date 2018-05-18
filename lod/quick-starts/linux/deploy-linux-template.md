@@ -72,7 +72,7 @@ Now that you have that done, it's time to configure your Lab Profile to deploy t
 
 1. [] If you have not already associated a Cloud Subscription Pool with this lab, click **Choose** next to **Shared Subscription Pool**.
 
-    > [!KNOWLEDGE] REMINDER: If you have not set up a Cloud Subscription Pool yet, please have a look at our [Cloud Slice Quick Start Guide](/lod/quick-starts/cloud-slice/add-subscription-into-lod.md).
+    > [!KNOWLEDGE] REMINDER: If you have not set up a Cloud Subscription Pool yet, please have a look at the [Configure Subscription step of our Cloud Slice Quick Start](../cloud-slice/add-subscription-into-lod.md).
 
     1. [] Click **Search** to see all Cloud Subscription Pools that are available to you. If you want to find a specific pool, enter the name that subscription pool in the Name field before you click **Search**.
 
