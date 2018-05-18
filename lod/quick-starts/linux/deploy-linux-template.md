@@ -2,7 +2,7 @@
 
 Deploying a Linux VM on Azure is quick and easy, using Resource Templates. To create a Resource Template in the OneLearn Lab on Demand platform (LOD), you must perform the tasks below.
 
-> [!ALERT] To complete this guide, you must first have a Lab Profile in LOD, and an active Microsoft Azure subscription already loaded into LOD and ready for use with Lab Profiles. If you have not created a Lab Profile, or have not yet configured your Azure subscription for use with LOD, please have a look at our [Building your first Cloud Slice lab](../../../lod-home.md#/building-your-first-cloud-slice-lab) Quick Start.
+> [!ALERT] To complete this guide, you must first have a Lab Profile in LOD, and an active Microsoft Azure subscription already loaded into LOD and ready for use with Lab Profiles. If you have not created a Lab Profile, or have not yet configured your Azure subscription for use with LOD, please have a look at our [Building your first Cloud Slice lab](../../../lod-home.md#building-your-first-cloud-slice-lab) Quick Start.
 
 1. [] Navigate to the <[Lab on Demand Administration page](/Admin).
 
@@ -72,7 +72,7 @@ Now that you have that done, it's time to configure your Lab Profile to deploy t
 
 1. [] If you have not already associated a Cloud Subscription Pool with this lab, click **Choose** next to **Shared Subscription Pool**.
 
-    > [!KNOWLEDGE] REMINDER: If you have not set up a Cloud Subscription Pool yet, please have a look at our [Cloud Slice Quick Start Guide](/lod/quick-starts/cloud-slice/add-subscription-into-lod.md).
+    > [!KNOWLEDGE] REMINDER: If you have not set up a Cloud Subscription Pool yet, please have a look at the [Configure Subscription step of our Cloud Slice Quick Start](../cloud-slice/add-subscription-into-lod.md).
 
     1. [] Click **Search** to see all Cloud Subscription Pools that are available to you. If you want to find a specific pool, enter the name that subscription pool in the Name field before you click **Search**.
 
