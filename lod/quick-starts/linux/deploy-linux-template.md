@@ -1,6 +1,6 @@
 # Deploying a Linux VM on Azure using a template
 
-> [!ALERT] To complete this guide, you must have a lab profile in LOD, and an active Microsoft Azure subscription. If you have not created a lab profile, or have not yet configured your Azure subscription for use with LOD, please have a look at our [Quick Start guide on Configuring your Subscription](/docs/lod/quick-starts/cloud-slice/configure-subscription.md).
+> [!ALERT] To complete this guide, you must have a lab profile in LOD, and an active Microsoft Azure subscription. If you have not created a lab profile, or have not yet configured your Azure subscription for use with LOD, please have a look at our [Quick Start guide on Configuring your Subscription](/lod/quick-starts/cloud-slice/configure-subscription.md).
 
 ## Deploying a Linux VM on Azure is quick and easy, using Resource Templates. Resource Templates can be entered into OneLearn Lab on Demand (LOD) using JSON format, or linked from a GitHub repository that contains a Resource Template. 
 
@@ -85,7 +85,7 @@
 
 1. [] Ensure that the **Cloud Platform** is set to **Azure**, and the **Cloud Portal URL** is set to ```https://portal.azure.com```.
 
-1. [] Click **Choose** next to **Shared Subscription Pool**. If you have not set up a Subscription Pool, please have a look at our [Cloud Slice Quick Start Guide](/lod/quick-starts/cloud-slice/configure-subscription.md)
+1. [] Click **Choose** next to **Shared Subscription Pool**. If you have not set up a Subscription Pool, please have a look at our [Cloud Slice Quick Start Guide](/lod/quick-starts/cloud-slice/add-subscription-into-lod.md)
 
     1. [] Click **Search** to see all cloud subscription pools that are available to you. If you want to find a specific pool, enter the name that subscription pool in the Name field before you click **Search**.
 
