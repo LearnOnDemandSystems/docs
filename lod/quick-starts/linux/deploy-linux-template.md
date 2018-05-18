@@ -76,15 +76,15 @@ Now that you have that done, it's time to configure your Lab Profile to deploy t
 
     1. [] Click **Search** to see all Cloud Subscription Pools that are available to you. If you want to find a specific pool, enter the name that subscription pool in the Name field before you click **Search**.
 
-    1. [ ] Select your cloud subscription pool in the search results.
+    1. [] Select your cloud subscription pool in the search results.
     
-    1. [ ] Click **OK**.
+    1. [] Click **OK**.
 
-1. [ ] Click **Add User Account**, and enter ++Taylor++ into the Name Prefix field.
+1. [] Click **Add User Account**, and enter ++Taylor++ into the Name Prefix field.
 
-1. [ ] Click **Add Resource Group**, and enter ++corp-data++ into the Name Prefix field.
+1. [] Click **Add Resource Group**, and enter ++corp-data++ into the Name Prefix field.
 
-1. [ ] Click **Add Permission**, select **Taylor** in the combo box, and select **Contributor** in the Role combo box.
+1. [] Click **Add Permission**, select **Taylor** in the combo box, and select **Contributor** in the Role combo box.
 
 1. [] Click **Add Resource Template**.
 
