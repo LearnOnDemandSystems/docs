@@ -85,7 +85,7 @@
 
 1. [] Ensure that the **Cloud Platform** is set to **Azure**, and the **Cloud Portal URL** is set to ```https://portal.azure.com```.
 
-1. [] Click **Choose** next to **Shared Subscription Pool**. If you have not set up a Subscription Pool, please have a look at our [Cloud Slice Quick Start Guide](/docs/lod/quick-starts/cloud-slice/add-subscription-into-lod.md)
+1. [] Click **Choose** next to **Shared Subscription Pool**. If you have not set up a Subscription Pool, please have a look at our [Cloud Slice Quick Start Guide](/lod/quick-starts/cloud-slice/configure-subscription.md)
 
     1. [] Click **Search** to see all cloud subscription pools that are available to you. If you want to find a specific pool, enter the name that subscription pool in the Name field before you click **Search**.
 
