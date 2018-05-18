@@ -23,4 +23,20 @@ Estimated time to completion: **10 minutes**.
 
 1. From the **Action** drop-down menu, select **Send Web Request**.
 
+1. From the **Event** drop-down menu, select **Running**. 
+
+1. In the **URL** field, enter +++Example URL+++.
+
+
+
+
+
+
+
+
+
+
+
+
+
 [Execute Machine Command](/lod/quick-starts/life-cycle-actions/machine-command.md)
