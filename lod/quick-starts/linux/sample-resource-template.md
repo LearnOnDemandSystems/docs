@@ -77,7 +77,7 @@
                     },
                     "osDisk": {
                         "osType": "Linux",
-                        "name": "[concat(parameters('virtualMachines_Ubuntu_name'),'_OsDisk_1_3760acb5ca8649a086e1ad2b476d3b12')]",
+                        "name": "[concat(parameters('virtualMachines_Ubuntu_name'),'_OsDisk_1_3760acb5ca8649a086e1ad2b476d3b12')]",
                         "createOption": "FromImage",
                         "caching": "ReadWrite",
                         "managedDisk": {
