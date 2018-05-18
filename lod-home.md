@@ -31,9 +31,8 @@ With the Cloud Slice feature, LOD is able to support cloud learning at scale. Le
 |20&nbsp;minutes|[Register Cloud Resource Providers](lod/quick-starts/cloud-slice/cloud-resource-providers.md)|
 |10&nbsp;minutes|[Set up Cloud Slice lab for Scale](lod/quick-starts/cloud-slice/scale.md)|
 
-
+<!--
 ### Getting Started With Life Cycle Actions
-
 
 With the Life Cycle Actions feature, LOD is able to execute actions when specific events occur during the lab instance life cycle. Each of these action types will be covered, in this series of Quick Starts. We will discuss how to use each action, and when it is appropriate to use each one. After completing this Quick Start series, you will be able to configure your lab with Life Cycle Actions, to make your more lab a more rich experience for students. 
 
@@ -45,6 +44,13 @@ With the Life Cycle Actions feature, LOD is able to execute actions when specifi
 |10&nbsp;minutes|[Send Web Request](/lod/quick-starts/life-cycle-actions/web-request.md)|
 |10&nbsp;minutes|[Execute Machine Command](/lod/quick-starts/life-cycle-actions/machine-command)|
 
+### Getting Started With Cloud Slice on Linux 
+
+|Duration|Quick Start|
+|--:|:--|
+|15&nbsp;minutes|[Send a Notification to the user](/lod/quick-starts/linux/deploy-linux-template.md)|
+
+-->
 ## Feature Focus
 
 Feature Focus helps you learn more in-depth about specific features in LOD.
