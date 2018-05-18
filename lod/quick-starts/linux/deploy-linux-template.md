@@ -100,14 +100,14 @@ Now that you have that done, it's time to configure your Lab Profile to deploy t
 
     1. [] Click **OK**.
 
-> [!KNOWLEDGE] Checking the **Deploy In Background** checkbox next to a Resource Template will allow the lab user to start using the lab even if this Resource Template is still deploying. This is useful when you have tasks that users can complete while these resources are being deployed in the background. **By default, unless you check the Deploy In Background checkbox, users will not be able to start a lab until all Resource Templates have fully deployed.**
+    > [!KNOWLEDGE] Checking the **Deploy In Background** checkbox next to a Resource Template will allow the lab user to start using the lab even if this Resource Template is still deploying. This is useful when you have tasks that users can complete while these resources are being deployed in the background. **By default, unless you check the Deploy In Background checkbox, users will not be able to start a lab until all Resource Templates have fully deployed.**
 
 1. [] Click **Save** to save the updated lab profile. 
 
 You have now created a Resource Template that will deploy a single Linux Virtual Machine for each student who launches this lab. Let's launch it to see what it looks like!
 
-1. [ ] In the lab profile details view, click **Launch** to launch your lab.
+1. [] In the lab profile details view, click **Launch** to launch your lab.
 
-1. [ ] Once the lab has finished deploying, click **Get Started**.
+1. [] Once the lab has finished deploying, click **Get Started**.
 
 **Congratulations! You have just deployed an Ubuntu Linux Virtual Machine in your lab! You are now seeing the lab from the same perspective of a student.**
