@@ -2,7 +2,7 @@
 
 > [!ALERT] To complete this guide, you must have a lab profile in LOD, and an active Microsoft Azure subscription. If you have not created a lab profile, or have not yet configured your Azure subscription for use with LOD, please have a look at our [Quick Start guide on Configuring your Subscription](/lod/quick-starts/cloud-slice/configure-subscription.md).
 
-## Deploying a Linux VM on Azure is quick and easy, using Resource Templates. Resource Templates can be entered into OneLearn Lab on Demand (LOD) using JSON format, or linked from a GitHub repository that contains a Resource Template. 
+### Deploying a Linux VM on Azure is quick and easy, using Resource Templates. Resource Templates can be entered into OneLearn Lab on Demand (LOD) using JSON format, or linked from a GitHub repository that contains a Resource Template. 
 
 > [!KNOWLEDGE] As a best practice, you should only use external templates if the template files are managed by you or your organization. Otherwise, you risk breaking changes being introduced to a template that is in use in a production lab.
 
