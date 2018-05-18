@@ -46,12 +46,11 @@ With the Life Cycle Actions feature, LOD is able to execute actions when specifi
 
 -->
 
-### Deploying a Linux VM on Azure Using A Resource Template
+### Deploying a Linux VM on Azure using a Resource Template
 
 |Duration|Quick Start|
 |--:|:--|
 |15&nbsp;minutes|[Deploy Linux on Azure using a Resource Template](lod/quick-starts/linux/deploy-linux-template.md)|
-
 
 ## Feature Focus
 
