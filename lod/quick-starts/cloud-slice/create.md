@@ -50,11 +50,11 @@ This is all that is required to create a lab profile; however, you will need to 
     
     1. [ ] Click **OK**.
 
-1. [ ] Click **Add Portal User Account**, and enter ++Taylor++ into the Name Prefix field.
+1. [ ] Click **Add User Account**, and enter ++Taylor++ into the Name Prefix field.
 
-1. [ ] Click **Add Cloud Resource Group**, and enter ++corp-data++ into the Name Prefix field.
+1. [ ] Click **Add Resource Group**, and enter ++corp-data++ into the Name Prefix field.
 
-1. [ ] Click **Assign User Account**, select **Taylor** in the combo box, and select **Contributor** in the Role combo box.
+1. [ ] Click **Add Permission**, select **Taylor** in the combo box, and select **Contributor** in the Role combo box.
 
 1. [ ] Click **Save** at the bottom of the **Create Lab Profile** window to save the lab.
 
