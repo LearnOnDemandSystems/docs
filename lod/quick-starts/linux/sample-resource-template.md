@@ -1,12 +1,14 @@
-# Copy sample Resource Template into your lab
+## Copy an Azure Resource Manager (ARM) template into LOD
 
-1. Click anywhere in the sample instructions below to copy the sample Resource Template to your clipboard. 
+1. The code block below contains an ARM template. Click anywhere in that code block to copy its contents to your clipboard.
 
-1. Paste the following Azure Resource Manager (ARM) template into the **Template** field on the **Basic Information** tab. 
+1. Paste what you just copied into the **Template** field on the **Basic Information** tab of your Resource Template.
 
 1. Close this dialog to return to the previous document.
 
-  ```json
+### ARM Template
+
+```json
 {
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
