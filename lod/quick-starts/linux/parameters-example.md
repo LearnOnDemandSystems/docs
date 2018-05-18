@@ -1,8 +1,12 @@
-# Copy Resource Template Parameters
+## Copy Azure Resource Manager (ARM) template parameters
 
-1. Click anywhere in the sample instructions below to copy the sample Resource Template Parameters to your clipboard. 
+1. [] The code block below contains the definition of the parameters for the ARM template that you just copied and pasted. Click anywhere in that code block to copy its contents to your clipboard.
 
-1. Close this dialog to return to the previous document. 
+1. [] Click **Import from JSON** on the **Parameters** tab to open a dialog where you will paste the JSON document you just copied.
+
+1. [] Paste the contents of your clipboard into the **Import Parameters** dialog, and then click **OK** to close that dialog.
+
+1. [] Close this dialog to return to the previous document.
 
   ```json
 {
