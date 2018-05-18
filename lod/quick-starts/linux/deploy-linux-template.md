@@ -2,7 +2,7 @@
 
 Deploying a Linux VM on Azure is quick and easy, using Resource Templates. To create a Resource Template in the OneLearn Lab on Demand platform (LOD), you must perform the tasks below.
 
-> [!ALERT] To complete this guide, you must first have a Lab Profile in LOD, and an active Microsoft Azure subscription already loaded into LOD and ready for use with Lab Profiles. If you have not created a Lab Profile, or have not yet configured your Azure subscription for use with LOD, please have a look at our [Building your first Cloud Slice lab](../../../../lod-home.md#building-your-first-cloud-slice-lab) Quick Start.
+> [!ALERT] To complete this guide, you must first have a Lab Profile in LOD, and an active Microsoft Azure subscription already loaded into LOD and ready for use with Lab Profiles. If you have not created a Lab Profile, or have not yet configured your Azure subscription for use with LOD, please have a look at our [Building your first Cloud Slice lab](../../../lod-home.md#building-your-first-cloud-slice-lab) Quick Start.
 
 1. [] Navigate to the <[Lab on Demand Administration page](/Admin).
 
