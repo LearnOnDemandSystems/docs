@@ -44,13 +44,15 @@ With the Life Cycle Actions feature, LOD is able to execute actions when specifi
 |10&nbsp;minutes|[Send Web Request](/lod/quick-starts/life-cycle-actions/web-request.md)|
 |10&nbsp;minutes|[Execute Machine Command](/lod/quick-starts/life-cycle-actions/machine-command)|
 
+-->
+
 ### Getting Started With Cloud Slice on Linux 
 
 |Duration|Quick Start|
 |--:|:--|
 |15&nbsp;minutes|[Send a Notification to the user](/lod/quick-starts/linux/deploy-linux-template.md)|
 
--->
+
 ## Feature Focus
 
 Feature Focus helps you learn more in-depth about specific features in LOD.
