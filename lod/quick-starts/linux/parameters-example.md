@@ -15,48 +15,37 @@
     "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "virtualMachines_Ubuntu_name": {
-            "defaultValue": "Ubuntu",
+        "name": {
             "type": "String"
         },
-        "networkInterfaces_ubuntu551_name": {
-            "defaultValue": "ubuntu551",
+        "nicName": {
             "type": "String"
         },
-        "publicIPAddresses_Ubuntu_ip_name": {
-            "defaultValue": "Ubuntu-ip",
+        "publicIPAddressName": {
             "type": "String"
         },
-        "virtualNetworks_Ubuntu_vnet_name": {
-            "defaultValue": "Ubuntu-vnet",
+        "vnetName": {
             "type": "String"
         },
-        "networkSecurityGroups_Ubuntu_NSG_name": {
-            "defaultValue": "Ubuntu-NSG",
+        "networkSecurityGroupName": {
             "type": "String"
         },
-        "subnets_default_name": {
-            "defaultValue": "default",
+        "subnetName": {
             "type": "String"
         },
-        "securityRules_SSH_name": {
-            "defaultValue": "SSH",
+        "securityRuleName": {
             "type": "String"
         },
-        "vmsize":{
-            "defaultValue": "Standard_B1s",
+        "size":{
             "type": "string"
         },
-        "vmAdminUsername": {
-            "defaultValue": "azureadmin",
+        "adminUsername": {
             "type": "string"
         },
-        "vmAdminPassword":{
-            "defaultValue": "AzurePassw0rd!",
+        "adminPassword":{
             "type": "securestring"
         },
         "dnsName":{
-            "defaultValue": "",
             "type": "string"
         }
     }
