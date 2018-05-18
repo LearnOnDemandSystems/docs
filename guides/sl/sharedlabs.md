@@ -1,13 +1,11 @@
 # Shared Labs
 
-## Summary:
 Shared Labs is a tool used in LODS to create environments which share
 their networks with each other to allow machines to communicate between
 a Shared Lab Environment and a Participant (or Participants). This can
 be done with any current or new Lab Profile with the correct
 permissions.
 
-## Terminology in LOD:
 -   **Shared Class Environment** – the section on a lab profile where
     you can designate the role the lab will have in the group of shared
     labs.

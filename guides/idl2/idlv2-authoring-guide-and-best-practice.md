@@ -1,5 +1,7 @@
 # Learn on Demand Systems Integrated Digital Lab eXperience Authoring Guide 
 
+<!--
+
 ## Introduction
 
 This guide provides information on the Integrated Digital Lab eXperience (IDLx) Platform, the various elements that comprise a lab that uses this platform, the steps for converting a traditional IDL (legacy) based lab to an IDLx based lab, and some tips and best practices.
@@ -13,6 +15,8 @@ This guide assumes that the reader:
 -   Has existing knowledge to navigate Lab on Demand (LOD)
 -   Has a help desk support contract to pay for additional custom
     contract work.
+
+-->
 
 ## Overview of the Integrated Digital Lab eXperience (IDLx) Platform
 
@@ -596,32 +600,63 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 - **Commands:** Used to target the current resource in the Resource Portal to input commands. To mitigate risk of error and to enhance the overall experience of the lab, the IDLx platform supports executing commands directly in the area of focus of the Resource Portal. Clicking the text in the lab instructions will input the command into the item in focus, on the Resource Portal. Commands can be a single line (shown below) or multi-line. 
 
-    > ```
-    > @[Text to display](`command`)
-    > ```
+There are 4 different kinds of commands that you can configure:
 
-    > [!KNOWLEDGE] Commands require Integration Services to be installed on the VM. After installing Integration Services, you must save a differencing disk for Integration Services to be installed on all future launches of the lab.
+   - **Type Text**. This is not a command per se. Rather, this command type allows the user to input a predetermined string. To use this, simply add ```+++``` on each side of the text that you wish to have typed.
 
-    Commands can perform any action that is possible to do from a command or Windows PowerShell prompt. For example, the command could open File Explorer at a particular location within a directory structure, open dialog boxes, start scripts, open documents and web pages, and many others. 
+   - **PowerShell**. This allows the user to execute a PowerShell command in the background. The user does not see the execution of the command. To use this, simply add ```{PowerShell}``` to the end of the command.
 
-    Although potentially any task could be reduced to an action that can be executed as a command shell or Windows PowerShell command, you should use this feature judiciously. Users should still know how to open File Explorer and perform other basic actions. This feature is most useful for a complex task that involves numerous steps, opening file locations deep down in directory structures, opening specific Web pages, and other similar activities.
+   - **PowerShell with UI**. This opens a command prompt window in the VM and shows the command execution. To use this, simply add ```{PowerShell visible}``` to the end of the command.
+    
+   - **Shell**. This causes a command to be executed in the background. The user does not see the execution of the command. To use this, simply add ```{Shell}``` to the end of the command.
 
-    There are 4 different kinds of commands that you can configure:
+   - **Shell with UI**. This command opens a command prompt window in the VM and shows the command execution. To use this, simply add ```{Shell visible}``` to the end of the command.
 
-    - **Type Text**. This is not a command per se. Rather, this command type allows the user to input a predetermined string.
+Commands require Integration Services to be installed on the VM. After installing Integration Services, you must save a differencing disk for Integration Services to be installed on all future launches of the lab.
 
-    - **PowerShell**. This allows the user to execute a PowerShell command in the background. The user does not see the execution of the command.
+   - **Single Line Command:**
+       
+  <!-- The following code block _must_ be indented instead of wrapped in ~~~ to prevent
+     our preprocessor from preprocessing the code. Do not change this formatting. -->
+     
+    @[Text to display][`command`]
+    
+  - **Multi Line Command:**
+  
+  <!-- The following code block _must_ be indented instead of wrapped in ~~~ to prevent
+     our preprocessor from preprocessing the code. Do not change this formatting. -->
 
-    - **PowerShell will UI**. This opens a command prompt window in the VM and shows the command execution.
+    @[Text to display][multi-line-command]
 
-    - **Shell**. This causes a command to be executed in the background. The user does not see the execution of the command.
+    Multi-line-command-id:
+    ```
+    Multi-line-command-id
+    Command-goes-here
+    ```
+    
+Below is an example of how a multi line command would look for a **PowerShell cmdlet, with no UI**. Shell commands can be executed the same way, by replacing ```PowerShell``` with ```Shell```.
 
-    - **Shell with UI**. This command opens a command prompt window in the VM and shows the command execution
+    @[Click this to run the get-service cmdlet][Get Service]{PowerShell}
 
-    To initiate the Command, the lab user clicks on lightning bolt) icon in the lab instructions, as shown below.
+    [Get Service]:
+    ```PowerShell
+    get-service | stop-service -whatif
+    ```
+    
+Below is an example of how a multi line command would look for a **PowerShell cmdlet with UI**. Shell commands can be executed the same way, by replacing ```PowerShell visible``` with ```Shell visible```.
 
-    ![](images/idl2-command.png "Command")
+    @[Click this to run the get-service cmdlet][Get Service]{PowerShell visible}
 
+    [Get Service]:
+    ```PowerShell
+    get-service | stop-service -whatif
+    ```
+> [!KNOWLEDGE] PowerShell commands are executed in a CMD prompt, in the lab. The command will still function as intended.
+
+Commands can perform any action that is possible to do from a command or Windows PowerShell prompt. For example, the command could open File Explorer at a particular location within a directory structure, open dialog boxes, start scripts, open documents and web pages, and many others. 
+
+Although potentially any task could be reduced to an action that can be executed as a command shell or Windows PowerShell command, you should use this feature judiciously. Users should still know how to open File Explorer and perform other basic actions. This feature is most useful for a complex task that involves numerous steps, opening file locations deep down in directory structures, opening specific Web pages, and other similar activities.
+   
 - **Include:**  Used to input text from a GitHub raw link. This is useful to use to pull in content hosted on GitHub. Navigate to the GitHub page containing the content to be used, click the Raw button, then copy the URL of that page and include it in the below syntax. 
 
     - **Note**: GitHub hosted content can be changed by the repo maintainer of the content and will change the 			instructions displayed in the lab that is using the Include syntax. 
@@ -646,23 +681,25 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 - **Replacement Token:** Used to replace text in lab instructions with a variable that is unknown at the time of authoring the lab instructions. These variables may not be generated or created until the lab is launched by the student. These can include usernames, user first name, user last name, running lab instance ID number, etc. 
 
-    > | Replacement token           |                                          |
-    > | --------------------------- | ---------------------------------------- |
-    > | @lab.LabInstanceId          | The unique ID of the running lab instance. |
-    > | @lab.GlobalLabInstanceId    | The globally unique ID of the running lab instance. |
-    > | @lab.LabProfileId           | The unique ID of the lab profile.        |
-    > | @lab.UserId                 | The unique ID of user running the lab.   |
-    > | \@lab.UserFirstName          | The first name of the user running the lab. |
-    > | \@lab.UserLastName           | The last name of the user running the lab. |
-    > | @lab.UserEmail              | The e-mail address of the user running the lab. |
-    > | @lab.UserExternalId         | The external ID of the user running the lab (if launched via API). |
-    > | @lab.Tag                    | The tag associated with the lab instance (if specified when launched via API). |
-    > | @lab.CloudPortalLink        | A link to the cloud portal.              |
-    > | @lab.CloudPortalUrl         | The cloud portal URL (rendered as text, not a link). |
-    > | @lab.CloudPortalSignInLink  | A cloud portal sign-in link.             |
-    > | @lab.CloudPortalSignInUrl   | The cloud portal sign-in URL (rendered as text, not a link). |
-    > | @lab.CloudPortalSignOutLink | A cloud portal sign-out link.            |
-    > | @lab.CloudPortalSignOutUrl  | The cloud portal sign-out URL (rendered as text, not a link). |
+Replacement tokens use the syntax @lab._replacementTokenName_. You can see the list of all @lab replacement tokens available to your lab by simply editing the instructions, and clicking on the @lab button. 
+
+   > | Replacement token           |                                          |
+   > | --------------------------- | ---------------------------------------- |
+   > | lab.LabInstanceId          | The unique ID of the running lab instance. |
+   > | lab.GlobalLabInstanceId    | The globally unique ID of the running lab instance. |
+   > | lab.LabProfileId           | The unique ID of the lab profile.        |
+   > | lab.UserId                 | The unique ID of user running the lab.   |
+   > | lab.UserFirstName          | The first name of the user running the lab. |
+   > | lab.UserLastName           | The last name of the user running the lab. |
+   > | lab.UserEmail              | The e-mail address of the user running the lab. |
+   > | lab.UserExternalId         | The external ID of the user running the lab (if launched via API). |
+   > | lab.Tag                    | The tag associated with the lab instance (if specified when launched via API). |
+   > | lab.CloudPortalLink        | A link to the cloud portal.              |
+   > | lab.CloudPortalUrl         | The cloud portal URL (rendered as text, not a link). |
+   > | lab.CloudPortalSignInLink  | A cloud portal sign-in link.             |
+   > | lab.CloudPortalSignInUrl   | The cloud portal sign-in URL (rendered as text, not a link). |
+   > | lab.CloudPortalSignOutLink | A cloud portal sign-out link.            |
+   > | lab.CloudPortalSignOutUrl  | The cloud portal sign-out URL (rendered as text, not a link). |
 
 ## Add Review Questions as an Assessment Exam to a Lab
 

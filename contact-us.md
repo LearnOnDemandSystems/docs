@@ -13,7 +13,7 @@ Interested in integrating your system with Lab and Demand? Check out our [API](/
 
 ## Technical Support
 
-The best way to reach us is by creating a <a href="http://learnondemand-staging.azurewebsites.net/Form?CallingUrl=@lab.CallerEncoded&UserId=@lab.UserId">technical support ticket</a>.
+The best way to reach us is by creating a <a href="https://learnondemand.zendesk.com/hc/en-us/requests/new">technical support ticket</a>.
 
 Or contact us using one of the following methods:
 

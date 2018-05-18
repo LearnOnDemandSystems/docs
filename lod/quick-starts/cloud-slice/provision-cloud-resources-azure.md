@@ -93,7 +93,7 @@ Congratulations, you have just created your first Cloud Resource Template! Now l
 
 1. [] In the search results, click the Name hyperlink of your lab profile to open the Lab Profile details view.
 
-1. [] Click **Edit** to open the edit view for your lab profile.
+1. [] Click **Edit Profile** to open the edit view for your lab profile.
 
 1. [] Select the **Cloud** tab.
 

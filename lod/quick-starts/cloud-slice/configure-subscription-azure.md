@@ -36,7 +36,7 @@ To create a new application registration in Azure Active Directory, do the follo
 
     ![Fill out the new app registration form](images/azure-ad-new-app-registration-form.png)
 
-1. [] Once the application registration has been created, select it in the list of application registrations. If your new application registration is not showing in the list of available application registrations, click on **Overview**, then on **App registrations** to refresh the list. Once you have selected the application registration, a new blade will open showing the application registration properties.
+1. [] Once the application registration has been created, select it in the list of application registrations. If your new application registration is not showing in the list of available application registrations, click on **Overview**, then on **App registrations** to refresh the list. Once you have selected the application registration, click on **Settings** to open a new blade showing the application registration properties.
 
     ![Select the app registration you just created](images/azure-ad-select-app-registration.png)
 
@@ -66,11 +66,11 @@ To create a new application registration in Azure Active Directory, do the follo
 
     ![Confirm permission grant for app registration](images/azure-ad-app-registration-grant-permissions-yes.png)
 
-[Back to top][back-to-top]
+[Back to top](#cloud-slice-quick-start---configure-subscription---microsoft-azure)
 
 ## Create an API key for the application registration and record authentication details
 
-Now that you have created and the application registration and granted it the required permissions, you need to create an API key for the application registration and record it for later. You will also need to record the application registration's application ID, the ID of the Azure subscription that will be used to provision Cloud Slices, and the Azure Active Directory domain name (this is commonly referred to as your tenant name). These four pieces of information are required by the OneLearn Lab on Demand authentication process in order for it to be able to provision Cloud Slices for your labs in this Azure subscription.
+Now that you have created the application registration and granted it the required permissions, you need to create an API key for the application registration and record it for later. You will also need to record the application registration's application ID, the ID of the Azure subscription that will be used to provision Cloud Slices, and the Azure Active Directory domain name (this is commonly referred to as your tenant name). These four pieces of information are required by the OneLearn Lab on Demand authentication process in order for it to be able to provision Cloud Slices for your labs in this Azure subscription.
 
 ### Create application registration API key
 
@@ -107,7 +107,7 @@ To copy the Azure Active Directory domain name, do the following:
 
 ![Copy your Azure Active Directory domain name](images/azure-ad-copy-tenant-name.png)
 
-[Back to top][back-to-top]
+[Back to top](#cloud-slice-quick-start---configure-subscription---microsoft-azure)
 
 ## Add the application registration as owner to the Azure subscription
 
@@ -124,7 +124,7 @@ Once you have created the application registration and assigned appropriate dire
 
 ![Add app registration as subscription owner](images/azure-ad-add-app-registration-as-subscription-owner.png)
 
-[Back to top][back-to-top]
+[Back to top](#cloud-slice-quick-start---configure-subscription---microsoft-azure)
 
 ## Assign Company Administrator role to the application registration
 
@@ -134,9 +134,7 @@ Once you have created the application registration and assigned appropriate dire
 
 If you do not yet have a global administrator set up in your subscription, create a new global administrator account by doing the following:
 
-1. [] Browse into the Azure Active Directory service, and click **Users and Groups**.
-
-1. [] Click **All users** to show all users in the directory.
+1. [] Browse into the Azure Active Directory service, and click **Users**.
 
 1. [] Click **New user** to create a new user. This will open the New user blade.
 
@@ -209,7 +207,7 @@ Now that you have a global administrator account you can use, you need to use Wi
 
 **If you made it this far, you have successfully added the Company Administrator role to your application registration. Congratulations!**
 
-[Back to top][back-to-top]
+[Back to top](#cloud-slice-quick-start---configure-subscription---microsoft-azure)
 
 ## Review Checklist
 
@@ -233,6 +231,4 @@ Now that you have configured your cloud subscription properly, click on the link
 
 [Add your Cloud Subscription into LOD](add-subscription-into-lod.md)
 
-[Back to top][back-to-top]
-
-[back-to-top]: #cloud-slice-quick-start-configure-subscription-microsoft-azure "Return to the top of the document"
+[Back to top](#cloud-slice-quick-start---configure-subscription---microsoft-azure "Return to the top of the document")

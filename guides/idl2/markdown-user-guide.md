@@ -130,7 +130,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
   > \[![text to display]url or filepath "Optional image title")]url "Optional link title")
 
-- **Portal Link:** used to launch a hyperlink. In the Cloud Client, this will open the hyperlink in the left window. In the traditional virtualization client (vm-based labs), this will open the hyperlink in a new local browser window.
+- **Portal Link:** used to launch a hyperlink in the lab client window. In the Cloud Client, this will open the hyperlink in the left window. In the traditional virtualization client (vm-based labs), this will open the hyperlink in a new local browser window.
 
   > `<[text to display](URL)`
 
@@ -250,24 +250,75 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
   
 - **Dialog:** Used to open a dialog popup, to display additonal information. This can be useful to make additional information available to the student.
 
-  >^[Text to display in lab  instructions][Reference Link]
-  
+  >```^[Text to display in lab  instructions][Reference Link]```
+  >
   >\>[Reference Link]:
-  
+  >
   >\>This appears in the Dialog
 
 - **Instruction Dialog:** Used to open a dialog popup, to display rendered Markdown or IDLx content that is located anywhere on the internet and accessible from a URL. This can be useful to provide additional information, from external sources on the internet.
 
-  > ```^INSTRUCTIONS[text](url)```
-
-- **Commands:** Used to target the Portal window to input commands. Clicking the text in the lab instructinos will input the command into the item in focus, on the Portal window. Commands can be a single line (shown below) or multi-line. Define the command as a reference link and then use that reference link as the command in the below syntax. 
-
-    > [!KNOWLEDGE]Commands require Integration Services to be installed on the VM. After installing Integration Services, you must save a differencing disk for Integration Services to be installed on all future launches of the lab.
-
-  <pre><code title="Copy to clipboard" class="prettyprint prettyprinted" style="">&#33;@[Text to display](`command`)<span class="pln"></span></code></pre>
+  >```^INSTRUCTIONS[text](url)```
   
-  > ![](images/idl2-command.png "Command")
+- **Commands:** Used to target the current resource in the Resource Portal to input commands. To mitigate risk of error and to enhance the overall experience of the lab, the IDLx platform supports executing commands directly in the area of focus of the Resource Portal. Clicking the text in the lab instructions will input the command into the item in focus, on the Resource Portal. Commands can be a single line (shown below) or multi-line. 
+
+There are 4 different kinds of commands that you can configure:
+
+   - **Type Text**. This is not a command per se. Rather, this command type allows the user to input a predetermined string. To use this, simply add ```+++``` on each side of the text that you wish to have typed.
+
+   - **PowerShell**. This allows the user to execute a PowerShell command in the background. The user does not see the execution of the command. To use this, simply add ```{PowerShell}``` to the end of the command.
+
+   - **PowerShell with UI**. This opens a command prompt window in the VM and shows the command execution. To use this, simply add ```{PowerShell visible}``` to the end of the command.
+    
+   - **Shell**. This causes a command to be executed in the background. The user does not see the execution of the command. To use this, simply add ```{Shell}``` to the end of the command.
+
+   - **Shell with UI**. This command opens a command prompt window in the VM and shows the command execution. To use this, simply add ```{Shell visible}``` to the end of the command.
+
+Commands require Integration Services to be installed on the VM. After installing Integration Services, you must save a differencing disk for Integration Services to be installed on all future launches of the lab.
+
+   - **Single Line Command:**
+       
+  <!-- The following code block _must_ be indented instead of wrapped in ~~~ to prevent
+     our preprocessor from preprocessing the code. Do not change this formatting. -->
+     
+    @[Text to display][`command`]
+    
+  - **Multi Line Command:**
   
+  <!-- The following code block _must_ be indented instead of wrapped in ~~~ to prevent
+     our preprocessor from preprocessing the code. Do not change this formatting. -->
+
+    @[Text to display][multi-line-command]
+
+    Multi-line-command-id:
+    ```
+    Multi-line-command-id
+    Command-goes-here
+    ```
+    
+Below is an example of how a multi line command would look for a **PowerShell cmdlet, with no UI**. Shell commands can be executed the same way, by replacing ```PowerShell``` with ```Shell```.
+
+    @[Click this to run the get-service cmdlet][Get Service]{PowerShell}
+
+    [Get Service]:
+    ```PowerShell
+    get-service | stop-service -whatif
+    ```
+    
+Below is an example of how a multi line command would look for a **PowerShell cmdlet with UI**. Shell commands can be executed the same way, by replacing ```PowerShell visible``` with ```Shell visible```.
+
+    @[Click this to run the get-service cmdlet][Get Service]{PowerShell visible}
+
+    [Get Service]:
+    ```PowerShell
+    get-service | stop-service -whatif
+    ```
+> [!KNOWLEDGE] PowerShell commands are executed in a CMD prompt, in the lab. The command will still function as intended.
+
+Commands can perform any action that is possible to do from a command or Windows PowerShell prompt. For example, the command could open File Explorer at a particular location within a directory structure, open dialog boxes, start scripts, open documents and web pages, and many others. 
+
+Although potentially any task could be reduced to an action that can be executed as a command shell or Windows PowerShell command, you should use this feature judiciously. Users should still know how to open File Explorer and perform other basic actions. This feature is most useful for a complex task that involves numerous steps, opening file locations deep down in directory structures, opening specific Web pages, and other similar activities.
+   
 - **Include:**  used to input text from a GitHub raw link. This is useful to use to pull in content hosted on GitHub. Navigate to the GitHub page containing the content to be used, click the Raw button, then copy the URL of that page and include it in the below syntax. 
  
   >  `!INSTRUCTIONS[](url)`

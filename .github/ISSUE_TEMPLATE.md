@@ -1,71 +1,23 @@
 <!--
+# Learn on Demand Systems documentation issue guidance
 
-For bug reports, fill out the template below, and delete this comment.
+Thanks for opening an issue in the Learn on Demand Systems technical documentation repository. 
 
-For enhancement requests, please remove the _Steps to reproduce_ section, and elaborate on the issue in your own words in the description.
+We use GitHub issues as the primary channel for customer and community feedback about documentation for OneLearn Lab on Demand and the Training Management System.
 
-The Expected behavior, Actual behavior, and Environment data sections may be used or removed if not needed in enhancements.
+## Creating an issue
 
+If you want to identify an issue with our existing documentation, you're in the right place. Please be as specific as possible, identifying how you get to the document that contains the issue you are identifying, and what specifically is the issue with that document. If you want to request more documentation on a specific topic, you can do that here too. Let us know what you would like to learn more about and we can review the request for consideration in future documentation updates. Alternatively, if you want to provide a direct contribution to correct an issue you find, that's great too. Just use the search functionality in this repository to find the file that has the issue, click Edit, and then make the correction you want to make. All contributions will go through a formal review process before they are included in our released documentation.
+
+## Pull requests and documentation contributions
+
+If you know the change that is needed in an existing document, we encourage you to submit the changes directly using a pull request. If the change is large, or if you want to contribute an entirely new document, please don't surprise us with a big pull request. Submit an issue first that describes the details of the proposed large change so that we can review/approve it first. Once we have the issue, we will route the issue to the appropriate team members for review and discussion.
+
+## Tech support and product feedback
+
+If you would like to contact Learn on Demand Systems about other things, such as product feedback or tech support, please click the **Help** button in the Lab on Demand or Training Management System client, then click on the headset icon at the top of the window, and contact us appropriately using that information.
+
+Once you have read and understood these instructions, you can delete this comment and log your issue.
+
+Thank you!
 -->
-
-## Description
-
-
-
-## How is this in alignment with our strategic goals?
-
-<!--
-
-2018 Strategic Goals:
-
-* Achieve 30% overall growth.
-* Launch a first party content store and generate 1M revenue.
-* Drive adoption of Cloud Slice and IDLx.
-* Build ecosystem of Cloud Slice developers.
-* Migrate transactional revenue to subscription revenue.
-* Improve data-based decision making.
-* Rebuild and modernize our image.
-* Improve our technical capability.
-
--->
-
-
-## Customer impacts
-
-<!--
-
-Identify how customers are impacted by this issue.
-
-If specific customers are impacted by this issue, identify them here as well.
-
--->
-
-## Steps to reproduce
-
-<!--
-
-Were you able to reproduce this issue...
-
-- ...after clearing your cache?
-- ...on LoadTest (if you have access to LoadTest)?
-
-If you can reproduce the issue after verifying both of these, delete this comment and provide the steps to reproduce the issue below.
-
--->
-
-1. 
-
-## Expected behavior
-
-
-
-## Actual behavior
-
-
-
-## Environment data
-
-|Software|Version|
-|--|--|
-|Web browser||
-|OS||
