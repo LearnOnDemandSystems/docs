@@ -1,4 +1,4 @@
-## Recommendations and Best Practices
+## Linux Recommendations and Best Practices
 
 ### Authentication
 
