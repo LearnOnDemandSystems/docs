@@ -4,6 +4,10 @@
 
 - Linux does not support auth keys
 
+### Console
+
+## Desktop
+
 ### SSH
 
 - SSH keys cannot be used
