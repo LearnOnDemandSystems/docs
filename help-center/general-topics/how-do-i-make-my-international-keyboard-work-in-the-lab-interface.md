@@ -15,6 +15,7 @@ Our default HTML5 controller is built for quick and easy launches with minimum l
 1. In **Edge**, the language is tied to the local machine's language.
 
 1. In **Internet Explorer**;
+
     - [] Open **Internet Options**
 
     - [] At the bottom of the **General Tab**, click **Languages**
