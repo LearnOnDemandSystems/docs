@@ -10,7 +10,7 @@ There are multiple activity options that can be configured in your lab. Options 
 
 You can enable scoring for Activities in your lab. Once scoring is enabled, you will be presented with a text field where you can enter the passing score the student will need to achieve in the lab. You can enable scoring only on the questions you wish to be scored. Questions that are not scored, are considered practice or review and do not contribute to the student's overall score in the lab. Each question that is scored is given a score value, and that value is awarded to the student by selecting the correct answer to the question.  
 
-To get started with Activities:
+**To get started with Activities**:
 
 1. [] Navigate to your **lab profile**.
 
