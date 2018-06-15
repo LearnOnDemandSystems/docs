@@ -72,8 +72,14 @@ When you are planning how to design your structure, you should consider the foll
 - [How do I create a Lab Series?](how-do-i-create-a-lab-series.md)
 - [How do I create a Lab Profile?](how-do-i-create-a-lab-profile.md)
 - [How do I create a VM Profile?](how-do-i-create-a-vm-profile.md)
-- [How do I create a Removable Media profile?]
+- [How do I create a Removable Media profile?](how-do-i-create-a-removable-media-profile.md)
 
-For a comprehensive guide on building lab content, review the Learn On Demand Systems Integrated Digital Lab Authoring Guide.
+For a comprehensive guide on building lab content, review our authoring guides below.
+
+- IDLx Authoring Guide
+
+- IDL (legacy) Authoring Guide
+
+
     
 
