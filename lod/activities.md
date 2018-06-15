@@ -65,11 +65,8 @@ Click to go to a specific section, or continue reading to learn more about creat
 
 ![](../lod/images/activities-menu-scoring-enabled.png)
 
-<<<<<<< HEAD
 1. [] Ensure the button next to **Enable Scoring** is enabled, to enable scoring features.
 
-=======
->>>>>>> 22f677cfe1468f542baf3cc07936cd3d8428f386
 1. [] After enabling scoring, a text box will appear. Enter the score that the student must achieve to receive a passing score in the lab. 
 
 1. [] Click **New Question** to get started. 
