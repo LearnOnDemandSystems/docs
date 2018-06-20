@@ -563,8 +563,6 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
     - Defining Variable in lab instruction editor view:
   
    ![](../../lod/images/variables-in-lab-instruction-editor.png)
- 
-    \@lab.TextBox(name)
   
     - Defining Variable in lab from Student view in the lab:
   
@@ -579,8 +577,6 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
     - Calling Variable in lab instruction editor view:
    
     ![](../../lod/images/variables-callback-variable-instruction-editor.png)
-    
-        > \@lab.Variable(name)
   
     - Calling Variable in lab from Student view in the lab:
   
