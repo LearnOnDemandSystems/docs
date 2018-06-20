@@ -44,7 +44,23 @@
 | Replacement Token | `Click the @lab toolbar button or type "@lab." in your idl-md editor window.` |
 | Embed YouTube video | `!VIDEO[text to display](url)` (URLs from YouTube.com auto embed)               |
 |<BR> | |
- 
+
+<font size="3">**Variables**</font>
+Replace **(name)** with a unique name for your variable.
+
+Defining Variable:
+  
+```
+@lab.textbox(name)
+```
+
+  Calling back Variable:
+```
+@lab.Variable(name)
+```
+
+---
+
 <font size="3">**Code Blocks**</font>
 
 Inline code block  <code>`code block`</code>   
