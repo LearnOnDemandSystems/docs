@@ -46,6 +46,18 @@
 |<BR> | |
 
 <font size="3">**Variables**</font>
+<!-- The following code block _must_ be indented instead of wrapped in ~~~ to prevent
+     our preprocessor from preprocessing the code. Do not change this formatting. -->
+
+Defining Variable
+
+    @lab.TextBox(name)
+
+Calling back variable
+
+    @lab.Variable(name)
+    
+<font size="3">**Variables**</font>
 Replace **(name)** with a unique name for your variable.
 
 Defining Variable:
@@ -56,7 +68,7 @@ Defining Variable:
 
   Calling back Variable:
 ```
-@lab.Variable(name)
+\@lab.Variable(name)
 ```
 
 ---

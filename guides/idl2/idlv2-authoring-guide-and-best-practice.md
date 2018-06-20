@@ -560,29 +560,27 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 - **Variables**: Used to store information that is not known at the time of lab authoring. Variables use two Replacement tokens; **@lab.textbox(name)** and **@lab.Variable(name)**. **Use @lab.texbox(name) to define** the variable in the (name). **Use @lab.Variable(name) to recall** the information store in the variable. For example, you could create a variable with @lab.textbox(studentPassword) and ask the student to enter a password in the field. Later in the lab you could call back the student's password with @lab.Variable(studentPassword). This prevents the student from having to remember or write down their password, since it is stored in the lab by a variable. 
 
-  > Defining Variable in lab instruction editor view:
-  >
-  > ![](../../lod/images/variables-in-lab-instruction-editor.png)
-  >
-  > Defining Variable in lab from Student view in the lab:
-  >
-  >![](../../lod/images/variables-in-lab.png)
-  >
-  > After the student enters information into the textbox in their lab, that text can be called out in later lab instructions using the **@lab.Variable(studentPassword)** Replacement Token. 
-  >
-  > The student enters their password in the lab
-  >
-  >![](../../lod/images/variables-enter-password.png)
+    - Defining Variable in lab instruction editor view:
   
-  > The password is recalled in later lab steps using the Replacement Token below
-  >
-  > Calling Variable in lab instruction editor view:
-  > 
-  >![](../../lod/images/variables-callback-variable-instruction-editor.png)
-  >
-  > Calling Variable in lab from Student view in the lab:
-  >
-  >![](../../lod/images/variables-callback-variable-in-lab.png)
+   ![](../../lod/images/variables-in-lab-instruction-editor.png)
+  
+    - Defining Variable in lab from Student view in the lab:
+  
+   ![](../../lod/images/variables-in-lab.png)
+  
+    - The student enters their password in the lab:
+  
+    ![](../../lod/images/variables-enter-password.png)
+  
+   The password is recalled in later lab steps using the Replacement Token below
+  
+    - Calling Variable in lab instruction editor view:
+   
+    ![](../../lod/images/variables-callback-variable-instruction-editor.png)
+  
+    - Calling Variable in lab from Student view in the lab:
+  
+    ![](../../lod/images/variables-callback-variable-in-lab.png)
   
 - **Knowledge Block:** Used to provide additional information, to help students better understand lab steps or lab content. It can also be used to provide alternative instructions or store commands that you want users to enter. Knowledge blocks are limited to only show 4 lines of the lab content. After 4 lines, a _more_ link will be shown, allowing the student to expand the Knowledge Block and review additional information.
 
