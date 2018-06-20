@@ -55,7 +55,7 @@ Defining Variable
 
 Calling back variable
 
-    @lab.Variable(name)
+    &#64;lab.Variable(name) 
     
 <font size="3">**Variables**</font>
 Replace **(name)** with a unique name for your variable.
