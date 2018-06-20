@@ -568,8 +568,6 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
   
    ![](../../lod/images/variables-in-lab.png)
   
-    After the student enters information into the textbox in their lab, that text can be called out in later lab instructions using the **@lab.Variable(studentPassword)** Replacement Token. 
-  
     The student enters their password in the lab:
   
     ![](../../lod/images/variables-enter-password.png)
