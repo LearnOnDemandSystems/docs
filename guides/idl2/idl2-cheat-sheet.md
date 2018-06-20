@@ -53,7 +53,7 @@ Defining Variable
 
     @lab.TextBox(name)
 
-Calling back variable
+Calling back variable (test)
 
     &#64;lab.Variable(name) 
     
