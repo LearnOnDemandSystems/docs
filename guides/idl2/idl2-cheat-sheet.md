@@ -56,7 +56,7 @@ Defining Variable:
 
   Calling back Variable:
 ```
-@lab.Variable(name)
+\@lab.Variable(name)
 ```
 
 ---
