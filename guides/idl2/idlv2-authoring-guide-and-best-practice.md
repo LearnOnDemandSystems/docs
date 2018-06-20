@@ -560,29 +560,29 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 - **Variables**: Used to store information that is not known at the time of lab authoring. Variables use two Replacement tokens; **@lab.textbox(name)** and **@lab.Variable(name)**. **Use @lab.texbox(name) to define** the variable in the (name). **Use @lab.Variable(name) to recall** the information store in the variable. For example, you could create a variable with @lab.textbox(studentPassword) and ask the student to enter a password in the field. Later in the lab you could call back the student's password with @lab.Variable(studentPassword). This prevents the student from having to remember or write down their password, since it is stored in the lab by a variable. 
 
- - Defining Variable in lab instruction editor view:
+    - Defining Variable in lab instruction editor view:
   
    ![](../../lod/images/variables-in-lab-instruction-editor.png)
  
     > \@lab.TextBox(name)
   
-- Defining Variable in lab from Student view in the lab:
+    - Defining Variable in lab from Student view in the lab:
   
    ![](../../lod/images/variables-in-lab.png)
   
-- The student enters their password in the lab:
+    - The student enters their password in the lab:
   
     ![](../../lod/images/variables-enter-password.png)
   
    The password is recalled in later lab steps using the Replacement Token below
   
- - Calling Variable in lab instruction editor view:
+    - Calling Variable in lab instruction editor view:
    
     ![](../../lod/images/variables-callback-variable-instruction-editor.png)
     
         > \@lab.Variable(name)
   
-  - Calling Variable in lab from Student view in the lab:
+    - Calling Variable in lab from Student view in the lab:
   
     ![](../../lod/images/variables-callback-variable-in-lab.png)
   
