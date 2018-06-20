@@ -45,32 +45,6 @@
 | Embed YouTube video | `!VIDEO[text to display](url)` (URLs from YouTube.com auto embed)               |
 |<BR> | |
 
-<font size="3">**Variables**</font>
-<!-- The following code block _must_ be indented instead of wrapped in ~~~ to prevent
-     our preprocessor from preprocessing the code. Do not change this formatting. -->
-
-Defining Variable
-
-    @lab.TextBox(name)
-
-Calling back variable
-
-    &#64;lab.Variable(name) 
-    
-<font size="3">**Variables**</font>
-Replace **(name)** with a unique name for your variable.
-
-Defining Variable:
-  
-```
-@lab.textbox(name)
-```
-
-  Calling back Variable:
-```
-\@lab.Variable(name)
-```
-
 ---
 
 <font size="3">**Code Blocks**</font>
