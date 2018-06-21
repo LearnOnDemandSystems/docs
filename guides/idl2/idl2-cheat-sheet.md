@@ -47,7 +47,17 @@
 
 ---
 
-<pre><code title="Copy to clipboard" class="prettyprint prettyprinted" style=""><span class="lit">@lab</span><span class="pun">.</span><span class="typ">Variable</span><span class="pun">(</span><span class="pln">name</span><span class="pun">)</span></code><pre/>
+<font size="3">**Variables**</font>
+
+Define the variable 
+
+```
+@lab.TextBox(name)
+```
+
+Callback the variable
+
+<pre><code title="Copy to clipboard" class="prettyprint prettyprinted" style=""><span class="lit">@lab</span><span class="pun">.</span><span class="typ">Variable</span><span class="pun">(</span><span class="pln">name</span><span class="pun">)</span></code></pre>
 
 ---
 
