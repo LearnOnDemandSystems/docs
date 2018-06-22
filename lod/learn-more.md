@@ -19,8 +19,6 @@
 
 - [Replacement Tokens](feature-focus/cloud-resource-templates/replacement-tokens.md)
 
-    Short writeup 
-
 > ### Looking for more information?
 >
 >If you've already read through all of the documentation that is available on a topic, and you are still looking for more information, or have questions, check out the resources available to you on our [Contact Us](contact-us.md) page.
