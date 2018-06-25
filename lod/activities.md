@@ -14,7 +14,7 @@ To get started with Activities:
 
 1. Click **Edit Instructions**.
 
-1. Click the **Activities icon** to enter the settings menu for Activities in your lab instructions. 
+1. Click the **Activities icon** to enter the settings Activities menu in your lab instructions. 
 
 ![](../lod/images/activity-icon.png)
 
@@ -30,17 +30,19 @@ Click to go to a specific section, or continue reading to learn more about creat
 
 ## Automated Activity
 
-Automated Activities are PowerShell or Shell scripts that target a Cloud Subscription, or a virtual machine in the lab. Automated Activities can be used to help make sure the student has configured their lab environment correctly, help the student understand mistakes that are made in their lab, as well as give the student confirmation that they are completing the lab instructions correctly. 
+Automated Activities are PowerShell or Shell scripts that target a Cloud Subscription, or a virtual machine in the lab. Automated Activities can be used to help make sure the student has configured their lab environment correctly, help the student understand mistakes that are made in their lab, as well as give the student confirmation that they are completing the lab instructions correctly. Automated Activities can also be used to automate any configuration or lab steps that you wish to automate. 
 
-1. If you would like the lab to be scored, Click the **switch** next to _Enable Scoring_. 
+1. If you would like the lab to be scored, Click the **switch** next to _Enable Scoring_. If you would not like the lab to be scored, simply leave the **Switch** turned off. 
 
 1. Click **New Automated Activity**.
 
-![](../lod/images/automated-scoring-disabled-window.png)
+![](../lod/images/new-automated-activity.png)
 
-- **Name**: this will be the title of the automated Activity, and will be displayed in the lab instruction editor, in the activities menu. This field is **optional**.
+- **Name**: this will be the title of the automated Activity, and will be displayed in the lab instruction editor, in the activities menu.
 
-- **Instructions**: this is where instructions for the Activity are entered, and will be displayed to students, in the lab instructions. This field is **optional**.
+- **Instructions**: this is where instructions for the Activity are entered, and will be displayed to students, in the lab instructions. 
+
+- **Scored**: enables the question to be scored. Scoring must be enabled in your lab. [Scoring is covered below in this document](#scoring).
 
 - **Display Scripts as Task List**: enables the script to be displayed as a Task List. This is useful when there is more than one script configured on an Activity. 
 
@@ -50,6 +52,8 @@ Automated Activities are PowerShell or Shell scripts that target a Cloud Subscri
  
 - **Allow retries**: allows the user to retry a question if they enter or select an incorrect answer. This option is not available when On-Demand Evaluation is disabled. 
 
+- **Required for submission**: requires the student to perform the Activity, to submit their lab for grading.
+
 - **Blocks page navigation**: checking this box prevents the student from navigating to the next page in the lab instructions, unless they have entered or selected an answer to this question. 
 
 - **Correct answer feedback**: this will be displayed to the user upon entering or selecting a correct answer to a question. 
@@ -57,36 +61,35 @@ Automated Activities are PowerShell or Shell scripts that target a Cloud Subscri
 - **Incorrect answer feedback**: this will be displayed to the user upon entering or selecting a incorrect answer to a question. 
 
 - **Script 1**:
+    - **Score Value**: the score value the student will recieve for completing the Activity correctly. This score contributes to their overall score in the lab.
     - **Target**: the virtual machine that the script will target
     - **Language**: the scripting language that will be used. PowerShell and Shell are supported. 
     - **Script**: enter the script that will be executed.
 
     - **New Script**: click to add an additional script to this Activity. The new script will be represented by a button, in a Task List. 
 
-    The following two options are **only available if Display Scripts as Task list is checked**, and are located in the section for the script they belong to. 
+    The following two options are **only available if Display Scripts as Task list is checked**, and are located in the section for the script they belong to. This allows you to provide custom feedback on each Automated Activity. 
 
     - **Correct answer feedback**: you can enter text here, or you can use scripts to generate a response to the student.  
 
     - **Incorrect answer feedback**: you can enter text here, or you can use scripts to generate a response to the student.  
 
-### Automated Activity Best Practice and Guideline
+### Automated Activity Best Practice and Guidelines
+
+- Use Automated Activities in areas of your lab when students are prone to making mistakes. A PowerShell script, such as the example shown below, helps students to make sure their lab is configured appropriately so that they do not get an error when trying to complete steps later in the lab.  
+
+- Provide the student feedback with your scripts where possible, to help them complete the lab instructions correctly. An if/else statement in your script works very well in this situation, to provide unique feedback depending on if the student gave the correct answer or not. 
+
+- If more than one script is configured on an Activity, the scripts will execute in sequential order. If one of your scripts is relying on another script to be completed, make sure you order the scripts appropriately to prevent your Automated Activity from not working correctly. 
 
 - Automated Activities support PowerShell and Shell
 
-- Use Automated Activities in areas of your lab when students are prone to making mistakes. A PowerShell script, such as the example shown below, helps students to make sure their lab is configured appropriately to prevent errors later in the lab. 
 
-- Provide the student feedback with your scripts if possible, to help them complete the lab instructions correctly. An if/else statement works very well in this situation. 
+### Example Automated Activity 
 
-- If more than one script is configured on an Activity, the scripts will execute in sequential order. If one of your scripts is relying on another script to complete, make sure you order the scripts appropriately to prevent your Automated Activity from not working correctly. 
+The lab instructions ask the student to create a few storage accounts in a Cloud Subscription that will be used later in the lab. You could write a PowerShell script that will check if the storage accounts were created correctly.
 
-
-Example Automated Activity 
-
-- **Make sure the student has configured their lab environment correctly, to prevent issues with later lab instructions**: 
-
-    If the lab instructions ask the student to create a few storage accounts in a Cloud Subscription that will be used later in the lab, you could write a PowerShell script that will check for the Storage Accounts.
-
-This script you could use would look like this:
+This script is to make sure the student has created a storage account correctly, to prevent errors with later lab instructions:
 
 ```
 param($LabInstanceId)
@@ -106,9 +109,11 @@ This is what the student will see in the lab:
 
 ![](../lod/images/scripts-in-lab-instructions.png)
 
-- If the student created the accounts correctly, they will receive a message that says "You successfully created the storage account."
- 
-- If the student did not create the storage accounts correctly, they will receive a message that says "The Storage Account has not been created". 
+- The student clicks the Score button, and the scripts will begin executing:
+
+    - If the student **created the storage accounts correctly**, they will receive a message that says "You successfully created the storage account."
+    
+    - If the student **did not create the storage accounts correctly**, they will receive a message that says "The Storage Account has not been created". 
 
 > [!KNOWLEDGE] You can provide a hint to students based on the outcome of the script. For example, if the script is to check if a specific directory has been created, you script could output a hint to help the student create the appropriate directory. 
 
@@ -127,7 +132,7 @@ Optionally, you can enable scoring for Questions in your lab. Once scoring is en
 - You will be presented with a text field where you can enter the passing score the student will need to achieve in the lab. 
 - You can enable scoring only on the questions you wish to be scored. Questions that are not scored, are considered practice or review and do not contribute to the student's overall score in the lab. 
 - Each question that is scored is given a score value, and that value is awarded to the student by selecting the correct answer to the question.   
-- If Scoring is not enabled, you do not need to decide which questions will be scored.
+- If Scoring is not enabled, you do not need to decide which questions will be scored and which will not be scored.
 
 ### Multiple Choice Questions 
 
@@ -147,7 +152,7 @@ Optionally, you can enable scoring for Questions in your lab. Once scoring is en
 
 - **Add Answer**: click to add an answer to the multiple choice question. 
 
-- **Scored**: enables the question to be scored. Scoring must be enabled in your lab. Scoring is covered later in this document. 
+- **Scored**: enables the question to be scored. Scoring must be enabled in your lab. [Scoring is covered below in this document](#scoring).
 
 - **Score Value**: the value the student will receive upon selecting a correct answer.
 
@@ -183,7 +188,7 @@ Optionally, you can enable scoring for Questions in your lab. Once scoring is en
 
 - **Case-sensitive**: enables case-sensitivity on the students answer to short answer questions. 
 
-- **Scored**: enables the question to be scored. Scoring must be enabled in your lab. Scoring is covered later in this document. 
+- **Scored**: enables the question to be scored. Scoring must be enabled in your lab. [Scoring is covered below in this document](#scoring).
 
 - **Score Value**: the value the student will receive upon entering a correct answer.
 
@@ -241,7 +246,7 @@ To access this menu, simply click the **Activities Icon**
 
 - **Score**: this displays the score value of the Activity. This will display _Practice_ for non-scored Activities, and a the score value of the Activity for scored Activities. 
 
-- **Token**: this is the replacement token that is used in lab instructions to represent this Activity in the lab. Simply place the Replacement Token where you would like the Activity to appear in the lab instructions. 
+- **Token**: this is the replacement token that is used in lab instructions to represent this Activity in the lab. Simply place this Replacement Token where you would like the Activity to appear in the lab instructions. 
 
 - **Edit**: click this to edit the Activity. 
 
