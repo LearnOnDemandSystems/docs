@@ -107,6 +107,7 @@ VIEW STATISTICS	/LabProfile/Statistics/{labProfileId},
 
 * [IDLx Authoring](guides/idl2/idlv2-authoring-guide-and-best-practice.md)
 * [IDLx Markdown User Guide](guides/idl2/markdown-user-guide.md)
+* [IDLx Activities](lod/activities.md)
 * [IDLx Lab Variables](lod/variables.md)
 * [IDL (legacy) Authoring](guides/idl/idlv3.md)
 
