@@ -725,6 +725,7 @@ Replacement tokens use the syntax @lab._replacementTokenName_. You can see the l
    > | lab.CloudPortalSignOutLink | A cloud portal sign-out link.            |
    > | lab.CloudPortalSignOutUrl  | The cloud portal sign-out URL (rendered as text, not a link). |
 
+<!-->
 ## Add Review Questions as an Assessment Exam to a Lab
 
 Each lab, regardless of whether it has content, can provide an optional exam at the end of lab. This can serve a number of purposes: to reinforce learning, to measure retention of concepts, to provide metrics on effectiveness of lab delivery, etc. Exams are categorized by the type of scoring used; there are three to choose from:
@@ -743,7 +744,7 @@ Review questions can be added to a lab as an assessment. The assessment will app
 To create a multiple choice review, in the Scoring Type drop-down, select **Assessment**, set the **Passing Score**, and then click **Add Page**. Pages provide a way to organize the review content into categories that, for example, might follow the lab exercises or topics. Enter a page name and click **Add Question**. Type the question, add the multiple choice selections, select the correct answer(s), and set the **Score Value** so that the exam can be scored.
 
 ![](images/exam-example-questions.png "Example multiple choice assessment")
-
+-->
 ## Additional Features
 
 ### Converting a traditional IDL (legacy) based lab to an IDLx based lab
