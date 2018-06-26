@@ -1,8 +1,8 @@
-# Cloud Slice Quick Start - Configure Subscription - Microsoft Azure
+# Cloud Slice Quick Start - Configure Cloud Provider - Microsoft Azure
 
 Estimated time to completion: **20 minutes**.
 
-To enable Cloud Slice support in a Microsoft Azure subscription, you must perform the following tasks:
+To set up a Microsoft Azure subscription for use with the OneLearn Lab on Demand platform (LOD) Cloud Slice functionality, you must perform the following tasks:
 
 1. [Create a new application registration in Azure Active Directory with a specific set of permissions][create-app-registration].
 1. [Create an API key for the application registration and record subscription authentication details][create-api-key-and-record-authentication-details].
@@ -66,7 +66,7 @@ To create a new application registration in Azure Active Directory, do the follo
 
     ![Confirm permission grant for app registration](images/azure-ad-app-registration-grant-permissions-yes.png)
 
-[Back to top](#cloud-slice-quick-start---configure-subscription---microsoft-azure)
+[Back to top][back-to-top]
 
 ## Create an API key for the application registration and record authentication details
 
@@ -107,7 +107,7 @@ To copy the Azure Active Directory domain name, do the following:
 
 ![Copy your Azure Active Directory domain name](images/azure-ad-copy-tenant-name.png)
 
-[Back to top](#cloud-slice-quick-start---configure-subscription---microsoft-azure)
+[Back to top][back-to-top]
 
 ## Add the application registration as owner to the Azure subscription
 
@@ -124,7 +124,7 @@ Once you have created the application registration and assigned appropriate dire
 
 ![Add app registration as subscription owner](images/azure-ad-add-app-registration-as-subscription-owner.png)
 
-[Back to top](#cloud-slice-quick-start---configure-subscription---microsoft-azure)
+[Back to top][back-to-top]
 
 ## Assign Company Administrator role to the application registration
 
@@ -207,7 +207,7 @@ Now that you have a global administrator account you can use, you need to use Wi
 
 **If you made it this far, you have successfully added the Company Administrator role to your application registration. Congratulations!**
 
-[Back to top](#cloud-slice-quick-start---configure-subscription---microsoft-azure)
+[Back to top][back-to-top]
 
 ## Review Checklist
 
@@ -218,7 +218,7 @@ By now you should have completed the following using your Azure subscription:
 - Added the application registration as owner to an Azure subscription.
 - Added the Company Administrator role to the application registration.
 
-You should also have captured the following pieces of information from the Azure subscription you are using for Cloud Slice deployment:
+You should also have captured the following credentials from the Azure subscription you are using for Cloud Slice deployments:
 
 - Subscription ID
 - Tenant Name
@@ -227,8 +227,10 @@ You should also have captured the following pieces of information from the Azure
 
 These values are required for the OneLearn Lab on Demand platform to be able to provision Cloud Slices for your labs. If you are missing one or more of those values, or if you feel you did not complete one of the tasks listed above, review the steps above to find out what you missed.
 
-Now that you have configured your cloud subscription properly, click on the link below to go through the next Quick Start where you will add that cloud subscription into LOD.
+Now that you have configured your Azure subscription properly, click on the link below to go through the next Quick Start where you will setup cloud resource management in LOD, allowing it to manage Cloud Slice and managed VM deployments in your Azure subscription.
 
-[Add your Cloud Subscription into LOD](add-subscription-into-lod.md)
+[Setup cloud resource management in LOD](setup-cloud-resource-management-azure.md)
 
-[Back to top](#cloud-slice-quick-start---configure-subscription---microsoft-azure "Return to the top of the document")
+[Back to top][back-to-top]
+
+[Back to top]: #cloud-slice-quick-start---configure-cloud-provider---microsoft-azure "Return to the top of the document"
