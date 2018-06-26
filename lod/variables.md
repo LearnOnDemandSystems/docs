@@ -10,22 +10,22 @@ For example, you could create a variable with @lab.textbox(studentPassword) and 
 
 ```@lab.Variable(name)``` is used to to recall the information stored in the variable. 
 
-- **Defining Variable in lab instruction editor view**:
+- Defining Variable in lab instruction editor view:
 
     ![](../lod/images/variables-in-lab-instruction-editor.png)
 
-- **Defining Variable in lab from Student view in the lab**:
+- Defining Variable in lab from Student view in the lab:
 
     ![](../lod/images/variables-in-lab.png)
 
-- **The student enters their password in the lab**
+- The student enters their password in the lab
 
     ![](../lod/images/variables-enter-password.png)
 
-- **Calling Variable in lab instruction editor view**:
+- Calling Variable in lab instruction editor view:
 
     ![](../lod/images/variables-callback-variable-instruction-editor.png)
 
-- **Calling Variable in lab from Student view in the lab**:
+- Calling Variable in lab from Student view in the lab:
 
      ![](../lod/images/variables-callback-variable-in-lab.png)
