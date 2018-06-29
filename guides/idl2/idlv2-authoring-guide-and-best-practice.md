@@ -640,21 +640,21 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 - **Hint Block:** Used to provide a hint for the for the section of the lab that the student is working on.  
 
-  > \> [!HINT] hint text here.
-  >
-  > ![](images/hint-block.png "Hint Block")
+    > \> [!HINT] hint text here.
+ 
+    > ![](images/hint-block.png "Hint Block")
 
 - **Help Block:** Used to provide help, such as showing additional about the section of the lab that the student is working on.
 
-  > \> [!HELP] help text here.
-  >
-  > ![](images/help-block.png "Help Block")
+    > \> [!HELP] help text here.
+  
+    > ![](images/help-block.png "Help Block")
 
 - **Note Block:** used to provide additional information, similar to a Knowledge Block, with the only difference being that Notes do not collapse and show a _more_ link to expand the section. 
 
-  > \> [!NOTE] note text here.
-  >
-  > ![](images/note-block.png "Note Block")
+     > \> [!NOTE] note text here.
+  
+    > ![](images/note-block.png "Note Block")
 
 - **Dialog:** Used to open a dialog popup, to display additonal information. This can be useful to make additional information available to the student. Dialogs **should not be used to display websites that are in an iFrame**, as this can cause some abnormal page rendering in the dialog. 
 
