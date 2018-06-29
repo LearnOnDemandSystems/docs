@@ -134,7 +134,7 @@ You can also edit lab instructions while you have a lab launched, with real-time
 
 All instructions are authored in Markdown. Markdown allows for easy plain-text authoring of paragraphs, with special syntax when you want certain items to be formatted differently. You can also use HTML alongside, or in place of, Markdown elements. The following sections describe various items used to create lab content with IDLx.
 
-### Using the Lab Editor
+### Using the Lab Instruction Editor
 
 The image below shows what will be seen after clicking **Edit instructions**, as discussed in the previous section. This text editor is where all of the lab content is written and stored. The left side of the editor shows the raw syntax of the lab content, whereas the right side shows how the lab content will be rendered and displayed to users.
 
@@ -142,11 +142,18 @@ The image below shows what will be seen after clicking **Edit instructions**, as
 
 - **Disk icon:** Click to save current progress; this is not necessary if autosave is enabled.
 - **@lab:** Replacement Tokens are used to create a placeholder for dynamic text that will be added to the lab when it is launched. This is helpful if you do not know the information at the time of authoring the lab, but would like specific information to be inserted later when the user is in the lab. Examples of this are usernames, passwords, unique ID numbers, etc.
-- **Word Wrap:** Toggle to enable or disable Word Wrap.
-- **Preview:** Toggle to show or hide the preview window in the idl-md editor.
-- **Autosave:** Toggle to enable to disable auto-saving of the instructions.
-- **Theme:** Select a theme to style the text editor to your preference.
-- **Upload:** Click to upload media and documents into IDL instructions. 
+- **Upload:** Used to upload files or images to the lab.
+- **Activities:** Activities Menu
+    - Question Activities
+    - Automated Activities
+- **Gear icon:** Lab Instruction Editor Settings Menu.
+    - Word wrap: enables work wrap.
+    - Preview: enables preview of how your lab instructions will render in a lab.
+    - Sync Preview Location: syncs your cursor location in lab instructions with the Preview.
+    - Autosave: enables the lab instructions to autosave
+    - Theme: select a theme for the lab instruction editor.
+    - Track Task Progress: enables the percentage of completed tasks to be reflected on the lab instance page, as well as the class page if the lab is part of an active class. 
+- **Markdown Help:** displays common Markdown syntax, used for reference while writing lab instructions. Clicking the *Learn More* button will display more information that may be helpful with authoring your lab. 
 
 ### Upload Media and Documents
 
@@ -168,7 +175,17 @@ Below you will find a few recommendations to help you get started authoring cont
 
 #### Headings
 
-Headings are useful to identify and separate sections of lab instructions. For section titles, you should use title case (see [Common Style Guidelines](#common-style-guidelines) for a definition of title case).
+Headings are useful to identify and separate sections of lab instructions. Headings are also used as page titles in lab instructions. Headings that use H1 will be styled slightly bolder than other headings, and are given a horizontal line.  
+
+When students are navigating pages in your lab, the button to navigate to the next page will be displayed with the page title of the next page, truncated after 40 characters. If the next page does not have a title, the next button will simply say *Next*.
+
+> [!KNOWLEDGE] As a best practice when creating page titles, consider keeping the title under 40 characters, so that the page title will be displayed on the *Next* button appropriately to the student.
+>
+> ![](images/short-page-title.png)
+>
+> ![](images/long-page-title.png)
+
+For section titles, you should use title case (see [Common Style Guidelines](#common-style-guidelines) for a definition of title case).
 
 #### Introduction Message
 
@@ -237,7 +254,7 @@ To create a screenshot:
 
     ![](images/screenshot-icon.png "Screenshot Button")
 
-**Note:** the screenshot is captured at the size that the VM is sized to,  when screenshot button is clicked. 
+    >[!KNOWLEDGE]the screenshot is captured at the size that the VM is sized to,  when screenshot button is clicked. 
 
 If you use this method, the screenshot is stored in LOD and automatically added in the lab instructions where your mouse cursor is. Please keep in mind that when you take a screenshot using this method, you take a screenshot of the entire desktop of the VM, which may not be desirable. 
 
@@ -421,6 +438,31 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
         > \[Reference link][1]
         > \[1]: URL "Optional link title"
 
+- **Help Link**: used to provide a link that will help the student with the section of the lab they are working on. 
+
+    > \HELP[help text here]
+
+- **Hint Link**: used to provide a hint that will help the student with the section of the lab they are working on. This is most effective as a dialog (see [Link Behavior Prefixes](#link-behavior-prefixes)).
+    > \HINT[hint text here]
+
+- **Knowledge Link**: used to provide a link, that will give the student additional knowledge about with the section of the lab they are working on.
+
+    > \KNOWLEDGE[knowledge text here]
+
+### Link Behavior Prefixes
+
+- **Open in a Dialog**: used to open a link in a dialog window, that will overlay on the lab. This is useful to show students information, without leaving the lab environment.
+
+    > `^[link text](https://URL.com)`
+
+- **Open in portal window** (or a new window if there is no portal window): used to open a link in a the Portal window of the lab, or a new window if there is no portal window in the lab. 
+
+    > `<[link text](https://URL.com)`
+
+- **Open in a New Window**: used top open a link in a new window.
+
+    > `[link text](https://URL.com)`
+
 ### Page formatting
 
 - **Page break**: Used to separate content into pages. Separating into pages creates a next button that the student must click to navigate to the next page. This is useful for displaying small sections of instruction to the student at a time, rather than all instructions on the same page within the lab. Type three = (equals) symbols on the line where the current page should end. The new page will begin on the line following the three = symbols.
@@ -596,11 +638,25 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
     ![](images/idl2-alert.png "Alert Block")
 
-- **Note:** Used to provide additional information, similar to a Knowledge Block, with the only difference being that Notes do not collapse and show a _more_ link to expand the section. 
+- **Hint Block:** Used to provide a hint for the for the section of the lab that the student is working on.  
 
-    > [!NOTE]
+  > \> [!HINT] hint text here.
+  >
+  > ![](images/hint-block.png "Hint Block")
 
-- **Dialog:** Used to open a dialog popup, to display additonal information. This can be useful to make additional information available to the student.
+- **Help Block:** Used to provide help, such as showing additional about the section of the lab that the student is working on.
+
+  > \> [!HELP] help text here.
+  >
+  > ![](images/help-block.png "Help Block")
+
+- **Note Block:** used to provide additional information, similar to a Knowledge Block, with the only difference being that Notes do not collapse and show a _more_ link to expand the section. 
+
+  > \> [!NOTE] note text here.
+  >
+  > ![](images/note-block.png "Note Block")
+
+- **Dialog:** Used to open a dialog popup, to display additonal information. This can be useful to make additional information available to the student. Dialogs **should not be used to display websites that are in an iFrame**, as this can cause some abnormal page rendering in the dialog. 
 
     > ^[Text to display in lab  instructions][Reference Link]
 
@@ -724,6 +780,262 @@ Replacement tokens use the syntax @lab._replacementTokenName_. You can see the l
    > | lab.CloudPortalSignInUrl   | The cloud portal sign-in URL (rendered as text, not a link). |
    > | lab.CloudPortalSignOutLink | A cloud portal sign-out link.            |
    > | lab.CloudPortalSignOutUrl  | The cloud portal sign-out URL (rendered as text, not a link). |
+
+# Activities
+
+ Activities are configured in the lab instructions, using the lab instruction editor. Activities can be modified at anytime, by anyone that has access to edit the lab instructions. When an Activity is created, it is represented in the lab instructions by a Replacement Token. 
+
+Activities fall into two broad categories: Questions and Automated. 
+- Questions are simply multiple choice or short answer questions. 
+- Automated Activities have a script configured to run against a cloud subscription or Windows-based virtual machines running on Hyper-V in the lab.  
+
+> [!KNOWLEDGE] If your lab profile does not use a Cloud Subscription, or if it does not have virtual machines configured, Automated Activities are not available in the Activities menu. 
+
+To get started with Activities:
+
+1. Navigate to your **lab profile**.
+
+1. Click **Edit Instructions**.
+
+1. Click the **Activities icon** to enter the settings Activities menu in your lab instructions. 
+
+![](../../lod/images/activity-icon.png)
+
+1. Next, you should decide what type of Activity you would like to create -- Question, or an Automated Activity that targets a Cloud Subscription or a Windows-based virtual machines running on Hyper-V, with a PowerShell or Shell script. 
+
+Click to go to a specific section, or continue reading to learn more about creating Activities in your lab. 
+
+- [Automated Activity](#automated-activity)
+- [Multiple Choice Question](#multiple-choice-questions)
+- [Short Answer Question](#short-answer-questions)
+- [Edit Activities](#edit-activities)
+- [Scoring](#scoring)
+
+## Automated Activity
+
+Automated Activities are PowerShell or Shell scripts that target a Cloud Subscription, or a Windows-based virtual machine running on Hyper-V in the lab. Cloud Subscriptions are targeted by a PowerShell script, and Windows-based virtual machines can be targeted by both PowerShell and Shell. Automated Activities can be used to help make sure the student has configured their lab environment correctly, help the student understand mistakes that are made in their lab, as well as give the student confirmation that they are completing the lab instructions correctly. Automated Activities can also be used to automate any configuration or lab steps that you wish to automate. 
+
+1. If you would like the lab to be scored, Click the **switch** next to _Enable Scoring_. If you would not like the lab to be scored, simply leave the **Switch** turned off. 
+
+1. Click **New Automated Activity**.
+
+![](../../lod/images/new-automated-activity.png)
+
+- **Name**: this will be the title of the automated Activity, and will be displayed in the lab instruction editor, in the activities menu.
+
+- **Instructions**: this is where instructions for the Activity are entered, and will be displayed to students, in the lab instructions. 
+
+- **Scored**: enables the question to be scored. Scoring must be enabled in your lab. [Scoring is covered below in this document](#scoring).
+
+- **Display Scripts as Task List**: enables the script to be displayed as a Task List. This is useful when there is more than one script configured on an Activity. 
+
+    > [!KNOWLEDGE] If **Display Scripts as Task List** is checked, On-Demand Evaluation will no longer be available for this Activity. 
+
+- **On-Demand Evaluation**: enables a button that the user can click to check their answer to a question, or to score their answer if Activities are set to be scored.
+ 
+- **Allow retries**: allows the user to retry a question if they enter or select an incorrect answer. This option is not available when On-Demand Evaluation is disabled. 
+
+- **Required for submission**: requires the student to perform the Activity, to submit their lab for grading.
+
+- **Blocks page navigation**: checking this box prevents the student from navigating to the next page in the lab instructions, unless they have entered or selected an answer to this question. 
+
+- **Correct answer feedback**: this will be displayed to the user upon entering or selecting a correct answer to a question. 
+
+- **Incorrect answer feedback**: this will be displayed to the user upon entering or selecting a incorrect answer to a question. 
+
+- **Script 1**:
+    - **Score Value**: the score value the student will recieve for completing the Activity correctly. This score contributes to their overall score in the lab.
+    - **Target**: the virtual machine or cloud subscription that the script will target. Cloud subscriptions must be targeted by PowerShell, and Windows-based virtual machines running on Hyper-V can be targeted by PowerShell or Shell.
+    - **Language**: the scripting language that will be used. PowerShell and Shell are supported. 
+    - **Script**: enter the script that will be executed.
+
+    - **New Script**: click to add an additional script to this Activity. The new script will be represented by a button, in a Task List. 
+
+    The following two options are **only available if Display Scripts as Task list is checked**, and are located in the section for the script they belong to. This allows you to provide custom feedback on each Automated Activity. 
+
+    - **Correct answer feedback**: you can enter text here, or you can use scripts to generate a response to the student.  
+
+    - **Incorrect answer feedback**: you can enter text here, or you can use scripts to generate a response to the student.  
+
+### Automated Activity Best Practice and Guidelines
+
+- Use Automated Activities in areas of your lab when students are prone to making mistakes. A PowerShell script, such as the example shown below, helps students to make sure their lab is configured appropriately so that they do not get an error when trying to complete steps later in the lab.  
+
+- Provide the student feedback with your scripts where possible, to help them complete the lab instructions correctly. An if/else statement in your script works very well in this situation, to provide unique feedback depending on if the student gave the correct answer or not. 
+
+- If more than one script is configured on an Activity, the scripts will execute in sequential order. If one of your scripts is relying on another script to be completed, make sure you order the scripts appropriately to prevent your Automated Activity from not working correctly. 
+
+- Automated Activities support PowerShell and Shell. Cloud Subscriptions must be targeted by a PowerShell script, and Windows-based virtual machines running on Hyper-V can be targeted by PowerShell or Shell.
+
+
+### Example Automated Activity 
+
+The lab instructions ask the student to create a few storage accounts in a Cloud Subscription that will be used later in the lab. You could write a PowerShell script that will check if the storage accounts were created correctly.
+
+This script is to make sure the student has created a storage account correctly, to prevent errors with later lab instructions:
+
+```
+param($LabInstanceId)
+$result = $false
+$resourceGroupName = "CSSTlod${LabInstanceId}"
+$storAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name "sa${LabInstanceId}" -ErrorAction Ignore
+if ($storAccount -eq $null){
+    "The Storage Account has not been created"
+} else {
+    $result = $true
+    "You successfully created the storage account."
+}
+$result
+```
+
+This is what the student will see in the lab:
+
+![](../../lod/images/scripts-in-lab-instructions.png)
+
+- The student clicks the Score button, and the scripts will begin executing:
+
+    - If the student **created the storage accounts correctly**, they will receive a message that says "You successfully created the storage account."
+    
+    - If the student **did not create the storage accounts correctly**, they will receive a message that says "The Storage Account has not been created". 
+
+> [!KNOWLEDGE] You can provide a hint to students based on the outcome of the script. For example, if the script is to check if a specific directory has been created, you script could output a hint to help the student create the appropriate directory. 
+
+## Questions
+
+Activities in your lab can be configured to use the following types of questions:
+- Multiple choice
+    - Single answer
+    - Multiple answers
+- Short answer
+    - Exact match
+    - Regex match
+
+Optionally, you can enable scoring for Questions in your lab. Once scoring is enabled:
+
+- You will be presented with a text field where you can enter the passing score the student will need to achieve in the lab. 
+- You can enable scoring only on the questions you wish to be scored. Questions that are not scored, are considered practice or review and do not contribute to the student's overall score in the lab. 
+- Each question that is scored is given a score value, and that value is awarded to the student by selecting the correct answer to the question.   
+- If Scoring is not enabled, you do not need to decide which questions will be scored and which will not be scored.
+
+### Multiple Choice Questions 
+
+1. If you would like the lab to be scored, Click the switch next to _Enable Scoring_. 
+
+1. Click **New Question**.
+
+![](../../lod/images/activities-menu.png)
+
+![](../../lod/images/multiple-choice-question.png)
+
+- **Text**: This is where the multiple choice question is entered. This will also be the text that is displayed in the Activities editing menu.
+
+- **Format**: the format can be changed by clicking the drop-down menu. Format options for multiple choice include:
+    - Multiple choice, single answer:
+    - Multiple choice, multiple answer
+
+- **Add Answer**: click to add an answer to the multiple choice question. 
+
+- **Scored**: enables the question to be scored. Scoring must be enabled in your lab. [Scoring is covered below in this document](#scoring).
+
+- **Score Value**: the value the student will receive upon selecting a correct answer.
+
+- **On-Demand Evaluation**: enables a button that the user can click to check their answer to a multiple choice question in the lab, or to score their answer if Activities are set to be scored.
+ 
+- **Allow retries**: allows the user to retry a question if they select an incorrect answer. This option is not available when On-Demand Evaluation is disabled. 
+
+- **Blocks page navigation**: checking this box prevents the student from navigating to the next page in the lab instructions, unless they have selected an answer to this question. 
+
+- **Required for submission**: click to make this multiple choice question required, for the student to submit their lab. 
+
+- **Correct answer feedback**: this will be displayed to the user upon selecting a correct answer to a multiple choice question. 
+
+- **Incorrect answer feedback**: this will be displayed to the user upon selecting a incorrect answer to a multiple choice question. 
+
+### Short Answer Questions
+
+1. If you would like the lab to be scored, Click the switch next to _Enable Scoring_. 
+
+1. Click **New Question**.
+
+![](../../lod/images/activities-menu.png)
+
+![](../../lod/images/new-question-scoring-enabled-window.png)
+
+- **Text**: This is where the short answer question is entered. This will also be the text that is displayed in the Activities editing menu.
+
+- **Format**: the format can be changed by clicking the drop-down menu. Format options include:
+    - Short answer, exact match
+    - Short answer, regex match
+
+- **Answer**: the answer to a short answer question.
+
+- **Case-sensitive**: enables case-sensitivity on the students answer to short answer questions. 
+
+- **Scored**: enables the question to be scored. Scoring must be enabled in your lab. [Scoring is covered below in this document](#scoring).
+
+- **Score Value**: the value the student will receive upon entering a correct answer.
+
+- **On-Demand Evaluation**: enables a button that the user can click to check their answer to a short answer question in the lab, or to score their answer if Activities are set to be scored.
+ 
+- **Allow retries**: allows the user to retry a question if they enter an incorrect answer. This option is not available when On-Demand Evaluation is disabled. 
+
+- **Blocks page navigation**: checking this box prevents the student from navigating to the next page in the lab instructions, unless they have entered an answer to this question. 
+
+- **Required for submission**: click to make this short answer question required, for the student to submit their lab. 
+
+- **Correct answer feedback**: this will be displayed to the user upon entering a correct answer to a short answer question. 
+
+- **Incorrect answer feedback**: this will be displayed to the user upon entering a incorrect answer to a short answer question. 
+
+## Scoring
+
+Scoring allows the student to be given a score for each Activity they complete correctly, and those scores contribute to the student's overall score in the lab. As the lab author, you set the passing score for the lab after you enable scoring in the lab. 
+
+> [!KNOWLEDGE] When Scoring is enabled, it is not required to make each question scored. As a lab author, you are free to decide which Activities have a score value associated, and only score the questions that you wish to.
+
+To enable Scoring in your lab:
+
+1. Click the **Activities icon** to enter the settings menu for Activities.
+
+1. Click the **switch** to enable Scoring. 
+
+1. Enter a **passing score** for the lab. You may change this at anytime, as often as you would like. 
+
+    ![](../../lod/images/activities-menu-scoring-enabled.png)
+
+1. After Scoring is enabled, you will see the Score checkbox available to select on all Activities you have created, while editing that Activity.
+
+1. Click the checkbox to enable scoring, and enter a score for that Activity. 
+
+    ![](../../lod/images/score-scored-checkboxes.png)
+
+1. The student will be given the score value upon completing the Activity correctly. 
+
+## Edit Activities
+
+After Activities are created, they can be modified at any time, using the Activity editing menu. 
+
+To access this menu, simply click the **Activities Icon**
+
+![](../../lod/images/activity-icon.png)
+
+![](../../lod/images/activities-edit-menu.png)
+
+- **Enable Scoring**: this enables Activities to be given a score value that will be given to the student by selecting the correct answer, or completing the Activity correctly. 
+
+- **Activity**: this will display the text you entered as the Name of your Activity. 
+
+- **Type**: this displays the type of Activity. 
+
+- **Score**: this displays the score value of the Activity. This will display _Practice_ for non-scored Activities, and a the score value of the Activity for scored Activities. 
+
+- **Token**: this is the replacement token that is used in lab instructions to represent this Activity in the lab. Simply place this Replacement Token where you would like the Activity to appear in the lab instructions. 
+
+- **Edit**: click this to edit the Activity. 
+
+- **Delete**: click to delete the Activity. Once it is deleted, there is no way to recover the Activity. 
+
+- **Insert**: click to insert the Activity in your current position in the lab instruction editor. 
 
 <!-->
 ## Add Review Questions as an Assessment Exam to a Lab
