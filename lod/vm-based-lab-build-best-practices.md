@@ -104,7 +104,7 @@ You have created or imported a virtual machine.
 
 1.  If attaching a manual (PDF, Word, XPS, HTML etc.), select the **In-line side-by-side with main content area** display option.
 
->[!KNOWLEDGE] The best practice when displaying a manual is to use the In-line side-by-side with main content area option. You can configure additional sizing options on the Advanced Tab.
+    >[!KNOWLEDGE] The best practice when displaying a manual is to use the In-line side-by-side with main content area option. You can configure additional sizing options on the Advanced Tab.
 
 #### Advanced Tab
 
