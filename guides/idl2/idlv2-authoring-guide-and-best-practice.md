@@ -440,14 +440,14 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 - **Help Link**: used to provide a link that will help the student with the section of the lab they are working on. 
 
-    > HELP[help text here](https://URL.com)
+    > \HELP[help text here](https://URL.com)
 
 - **Hint Link**: used to provide a hint that will help the student with the section of the lab they are working on. This is most effective as a dialog (see [Link Behavior Prefixes](#link-behavior-prefixes)).
-    > HINT[hint text here](https://URL.com)
+    > \HINT[hint text here](https://URL.com)
 
 - **Knowledge Link**: used to provide a link, that will give the student additional knowledge about with the section of the lab they are working on.
 
-    > KNOWLEDGE[knowledge text here](https://URL.com)
+    > \KNOWLEDGE[knowledge text here](https://URL.com)
 
 ### Link Behavior Prefixes
 
