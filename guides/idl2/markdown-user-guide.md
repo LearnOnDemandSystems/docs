@@ -108,8 +108,6 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
         > KNOWLEDGE[knowledge text here](https://URL.com)
 
-    > KNOWLEDGE[knowledge text here](https://URL.com)
-
 ### Link Behavior Prefixes
 
 - **Open in a Dialog**: used to open a link in a dialog window, that will overlay on the lab. This is useful to show students information, without leaving the lab environment.
