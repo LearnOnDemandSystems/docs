@@ -20,6 +20,15 @@
 | Internal link | `[text to display on link](#heading-to-link-to "optional link title")` (must be all lower-case, alphanumeric and separated by hyphens) |
 | External link | `[External link](URL "Optional link title")` |
 | Relative link | `[text to display](../folder/file.htm "optional link title")` | 
+| Help Link     | `HELP[help text here]`                                        |
+| Hint Link     | `HINT[hint text here]`                                        |
+| Knowledge Link | `KNOWLEDGE[knowledge text here]`                                       |
+|<BR> | |
+|<font size="3">**Link Behavior Prefixes**: </font>    |    
+|Add a behavior prefix to control the way the link opens ||
+|Open in portal window | `<` before the link  |   
+|Open in a dialog | `^` before the link  |   
+|Open in new window | no special characters before the link  |     
 |<BR> | |
 |<font size="3">**Page**</font>    |                                          |
 | Page break        | `===`                                    |
@@ -35,9 +44,11 @@
 | Video Link        |  `VIDEO[Text to display](URL)`| 
 |<BR> | |
  |<font size="3">**Special**</font>|                                          |
-| Knowledge         | `> [!KNOWLEDGE] Knowledge blocks help students learn more` |
-| Alert             | `> [!ALERT] Alert blocks draw attention to important issues!` |
-| Note              | `> [!NOTE]`                              |
+| Knowledge Block        | `>[!KNOWLEDGE] Knowledge blocks help students learn more` |
+| Alert Block            | `>[!ALERT] Alert blocks draw attention to important issues!` | 
+| Note Block             | `>[!NOTE]`                              |
+| Help Block             | `>[!HELP]`                              |
+| Hint Block             | `>[!HINT]`                              |
 | Include           | `!INSTRUCTIONS[](url)`                |
 | Copyable Text     | `++copyable text++`                      |
 | Type Text         | `+++Type text+++`                      |
