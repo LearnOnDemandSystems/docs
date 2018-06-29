@@ -4,11 +4,11 @@ This document outlines the considerations and recommendations for lab authors wh
 
 This document covers the following topics:
 
--   Creating and editing virtual machine profiles
+-   [Creating and editing virtual machine profiles](#create-and-edit-virtual-machine-profiles)
 
--   Creating and editing lab profiles
+-   [Creating and editing lab profiles](#create-and-edit-lab-profiles)
 
--   Building Windows-based virtual machines
+-   [Building Windows-based virtual machines](#build-a-windows-virtual-machine)
 
 ### Assumptions
 
