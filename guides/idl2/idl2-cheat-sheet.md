@@ -20,9 +20,9 @@
 | Internal link | `[text to display on link](#heading-to-link-to "optional link title")` (must be all lower-case, alphanumeric and separated by hyphens) |
 | External link | `[External link](URL "Optional link title")` |
 | Relative link | `[text to display](../folder/file.htm "optional link title")` | 
-| Help Link     | `HELP[help text here]`                                        |
-| Hint Link     | `HINT[hint text here]`                                        |
-| Knowledge Link | `KNOWLEDGE[knowledge text here]`                                       |
+| Help Link     | `HELP[help text here](https://URL.com)`                                        |
+| Hint Link     | `HINT[hint text here](https://URL.com)`                                        |
+| Knowledge Link | `KNOWLEDGE[knowledge text here](https://URL.com)`                                       |
 |<BR> | |
 |<font size="3">**Link Behavior Prefixes**: </font>    |    
 |Add a behavior prefix to control the way the link opens ||
