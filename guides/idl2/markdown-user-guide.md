@@ -98,14 +98,14 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
     
 - **Help Link**: used to provide a link that will help the student with the section of the lab they are working on. 
 
-    > \HELP[help text here]
+    > HELP[help text here]
 
 - **Hint Link**: used to provide a hint that will help the student with the section of the lab they are working on. This is most effective as a dialog (see [Link Behavior Prefixes](#link-behavior-prefixes)).
-    > \HINT[hint text here]
+    > HINT[hint text here]
 
 - **Knowledge Link**: used to provide a link, that will give the student additional knowledge about with the section of the lab they are working on.
 
-    > \KNOWLEDGE[knowledge text here]
+    > KNOWLEDGE[knowledge text here]
 
 ### Link Behavior Prefixes
 
@@ -280,45 +280,45 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 - **Knowledge Block:** Used to provide additional information, to help students better understand lab steps or lab content. Knowledge blocks are limited to only show 4 lines of the lab content. After 4 lines, a _more_ link will be shown, allowing the student to expand the Knowledge Block and review additional information.
 
-  > \> [!KNOWLEDGE] Knowledge blocks helps students learn more.
-  >
-  > ![](images/idl2-knowledge.png "Knowledge Block")
+    > \> [!KNOWLEDGE] Knowledge blocks helps students learn more.
+    >
+    > ![](images/idl2-knowledge.png "Knowledge Block")
 
 - **Alert Block:** Used to draw attention to important issues, such as showing additional information or steps that the student may need complete to avoid other issues. 
 
-  > \> [!ALERT] alert text here.
-  >
-  > ![](images/idl2-alert.png "Alert Block")
+    > \> [!ALERT] alert text here.
+    >
+    > ![](images/idl2-alert.png "Alert Block")
 
 - **Hint Block:** Used to provide a hint for the for the section of the lab that the student is working on.  
 
-  > \> [!HINT] hint text here.
-  >
-  > ![](images/hint-block.png "Hint Block")
+    > \> [!HINT] hint text here.
+    >
+    > ![](images/hint-block.png "Hint Block")
 
 - **Help Block:** Used to provide help, such as showing additional about the section of the lab that the student is working on.
 
-  > \> [!HELP] help text here.
-  >
-  > ![](images/help-block.png "Help Block")
+    > \> [!HELP] help text here.
+    >
+    > ![](images/help-block.png "Help Block")
 
 - **Note Block:** used to provide additional information, similar to a Knowledge Block, with the only difference being that Notes do not collapse and show a _more_ link to expand the section. 
 
-  > \> [!NOTE] note text here.
-  >
-  > ![](images/note-block.png "Note Block")
+    > \> [!NOTE] note text here.
+    >
+    > ![](images/note-block.png "Note Block")
   
 - **Dialog:** Used to open a dialog popup, to display additonal information. This can be useful to make additional information available to the student. Dialogs **should not be used to display websites that are in an iFrame**, as this can cause some abnormal page rendering in the dialog. 
 
-  >```^[Text to display in lab  instructions][Reference Link]```
-  >
-  >\>[Reference Link]:
-  >
-  >\>This appears in the Dialog
+    >```^[Text to display in lab  instructions][Reference Link]```
+    >
+    >\>[Reference Link]:
+    >
+    >\>This appears in the Dialog
 
 - **Instruction Dialog:** Used to open a dialog popup, to display rendered Markdown or IDLx content that is located anywhere on the internet and accessible from a URL. This can be useful to provide additional information, from external sources on the internet.
 
-  >```^INSTRUCTIONS[text](url)```
+    >```^INSTRUCTIONS[text](url)```
   
 - **Commands:** Used to target the current resource in the Resource Portal to input commands. To mitigate risk of error and to enhance the overall experience of the lab, the IDLx platform supports executing commands directly in the area of focus of the Resource Portal. Clicking the text in the lab instructions will input the command into the item in focus, on the Resource Portal. Commands can be a single line (shown below) or multi-line. 
 
