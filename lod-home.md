@@ -113,6 +113,7 @@ VIEW STATISTICS	/LabProfile/Statistics/{labProfileId},
 
 #### Going further with Lab Profiles
 
+* [Virtual Machine Based Lab Development - Best Practices](lod/vm-based-lab-build-best-practices.md)
 * [GitHub Integration](guides/github-integration/github-integration.md)
 * [Life Cycle Actions](guides/lca/life-cycle-actions-guide.md)
 * [Performance Based Testing (PBT)](guides/pbt/lodpbtguide.md)
