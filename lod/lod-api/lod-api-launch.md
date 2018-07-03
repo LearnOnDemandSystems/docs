@@ -5,7 +5,7 @@ The **Launch** command will launmch a specified lab for a specified user.
 ## Parameters
 
 |Name|Type|Required|Note|
-|--- |--- |--- |--- |--- |--- |--- |--- |
+|--- |--- |--- |--- |
 |labId|Integer|Yes|The ID of the lab profile|
 |userId|String|Yes|The ID you use to identify the user in your external system.|
 |firstName|String|Yes|The user’s first name|
