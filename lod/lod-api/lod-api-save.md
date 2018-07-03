@@ -5,7 +5,7 @@ The **Save** command allows you to save a specified lab instance.
 ## Parameters
 
 |Name|Type|Required|Note|
-|--- |--- |--- |--- |--- |--- |--- |--- |
+|--- |--- |--- |--- |
 |labInstanceId|Long|Yes|The ID of the lab instance to save
 
 ## Response 
