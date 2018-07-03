@@ -13,19 +13,7 @@ For example, a request to get the entire lab catalog will look like:
 `https://labondemand.com/api/v3/catalog`
 
 ## API Key
-- All methods require an API key, which must be obtained from Learn on Demand Systems. This key is used by Lab on Demand to validate your account. The key can be passed either as an HTTP request header or as part of the URL.
-
-    `HTTP header name: api_key`
-
-- The key can also be included in the URL, directly before the method name:
-
-    `https://labondemand.com/api/v3/[key]/[method]?[parameters]`
-
-- The catalog example would then look something like:
-
-    `https://labondemand.com/api/v3/123456789/catalog`
-
->[!ALERT] You do **NOT** need to provide the key as both a header and as part of the URL. You can pick whichever approach works best for you. Thoughout the documentation, the URL approach will be used for the sake of simplicity.
+- All methods require an API key, which must be obtained from Learn on Demand Systems. This key is used by Lab on Demand to validate your account. The key can be passed as an HTTP request header with the header name "api_key".
 
 ## API Response Format
 
