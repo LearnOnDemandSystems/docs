@@ -3,7 +3,7 @@
 ## Parameters
 
 |Name|Type|Required|Note|
-|--- |--- |--- |--- |--- |--- |--- |--- |
+|--- |--- |--- |--- |
 |externalLabId|String|Yes|The external ID of the lab to launch. This should be the ID you use in your system.|
 |eventId|int|Yes|The ID of the event the lab is part of.|
 |userId|String|Yes|The ID you use to identify the user in your external system.|
