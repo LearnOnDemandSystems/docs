@@ -5,7 +5,7 @@ The **Cancel** command allows you to cancel a specified lab instance.
 ## Parameters
 
 |Name|Type|Required|Note|
-|--- |--- |--- |--- |--- |--- |--- |--- |
+|--- |--- |--- |--- |
 |labInstanceId|Long|Yes|The ID of the lab instance to cancel
 
 ## Response 
