@@ -20,6 +20,7 @@
 
 |Property|Type|Nullable|Note|
 |--- |--- |--- |--- |
+|Result|Int|False|
 |||| 2 = Error
 |||| 1 = Success
 |||| 2 = User has too many active labs
