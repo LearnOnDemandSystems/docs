@@ -5,7 +5,7 @@ The **LaunchAnonymousForEvent** command will launch a specified lab within a spe
 ## Parameters
 
 |Name|Type|Required|Note|
-|--- |--- |--- |--- |--- |--- |--- |--- |
+|--- |--- |--- |--- |
 |labId|Int|Yes|The ID of the lab profile|
 |eventId|int|Yes|The ID of the event the lab is part of.|
 |classId|String|No|An optional parameter used to associate the lab with a class (see GetOrCreateClass). This is the unique identifier of the class as it is represented in your organization.|
