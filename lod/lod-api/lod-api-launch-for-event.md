@@ -3,7 +3,7 @@
 The **LaunchForEvent** command launches a lab instance within an event.
 
 |Name|Type|Required|Note|
-|--- |--- |--- |--- |--- |--- |--- |--- |
+|--- |--- |--- |--- |
 |labId|Int|Yes|The ID of the lab profile|
 |eventId|int|Yes|The ID of the event the lab is part of.|
 |userId|String|Yes|The ID you use to identify the user in your external system.|
