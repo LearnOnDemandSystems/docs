@@ -41,7 +41,7 @@ The first two commands will register all available Resource Providers at the tim
 
    `Get-AzureRmResourceProvider -ListAvailable | where {$_.RegistrationState -eq  "NotRegistered"} | Register-AzureRmResourceProvider`
 
-    >[ALERT] Be aware that by issuing the above command, all resource types can be deployed by your lab developers and lab users. If you subsequently want  to prevent a resource type from being provisioned, you must unregister a resource provider to prevent a particular from being provisioned in your subscription. This might not be so easy if these are resource types have already been deployed and are being used.
+    >[!ALERT] Be aware that by issuing the above command, all resource types can be deployed by your lab developers and lab users. If you subsequently want  to prevent a resource type from being provisioned, you must unregister a resource provider to prevent a particular from being provisioned in your subscription. This might not be so easy if these are resource types have already been deployed and are being used.
 
 
 1. To register a specific resource provider (e.g. the one required for provisioning virtual machine resources) run the following **Powershell command:**
@@ -50,7 +50,7 @@ The first two commands will register all available Resource Providers at the tim
 
 Replace "*ResourceProvider.Name*" with the name of the Resource Provider you wish to register. Refer the the Azure portal error message received when attempting to create resources, if you are not sure which Resource Provider is needed.
 
->[KNOWLEDGE]    For more information, the following articles provide more information on how to view and register resource providers and resolve errors:
+>[!KNOWLEDGE]    For more information, the following articles provide more information on how to view and register resource providers and resolve errors:
 >
 >[Azure Resource providers and types](https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-supported-services)
 >
