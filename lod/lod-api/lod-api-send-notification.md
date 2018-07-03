@@ -50,6 +50,7 @@ Like all API commands, you can use either GET or POST when calling SendNotificat
 Imagine… Your organization has a key of 1234567890. A user is running a lab instance with an ID = 2393048 and you want to send a notification of "Hello from the API!"
 
 URL
+
 ```
 https://labondemand.com/api/v3/1234567890/sendnotification?labinstanceid=2393048
 ```
