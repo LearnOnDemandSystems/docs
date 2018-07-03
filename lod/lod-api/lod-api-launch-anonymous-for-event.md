@@ -39,10 +39,10 @@ The **LaunchAnonymousForEvent** command will launch a specified lab within a spe
 
 ## Example Usage
 
-Imagine… Your organization has a key of 1234567890. There is an event with an ID of 25. You want to launch a lab with an ID of 100.
+Imagine… There is an event with an ID of 25. You want to launch a lab with an ID of 100.
 
 ```
-https://labondemand.com/api/v3/1234567890/LaunchAnonymousForEvent?labId=100&eventId=25
+https://labondemand.com/api/v3/LaunchAnonymousForEvent?labId=100&eventId=25
 ```
 
 ## Example Response

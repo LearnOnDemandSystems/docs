@@ -31,10 +31,10 @@ The **Resume** command allows you to resume a specified lab instance.
 
 ## Example Usage
 
-Imagine… Your organization has a key of 1234567890. A user has a saved lab instance with an ID = 2393049
+Imagine… A user has a saved lab instance with an ID = 2393049
 
 ```
-https://labondemand.com/api/v3/1234567890/resume?labinstanceid=2393049
+https://labondemand.com/api/v3/resume?labinstanceid=2393049
 ```
 
 ## Example Response

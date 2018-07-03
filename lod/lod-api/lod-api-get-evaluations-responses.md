@@ -38,10 +38,10 @@ The **GetEvaluationResponses** command returns evaluation responses.
 
 ## Example Usage
 
-Imagine… Your organization has a key of 1234567890 and you want the evaluation responses for an evaluation with the id of 12345
+Imagine… You want the evaluation responses for an evaluation with the id of 12345
 
 ```
-https://labondemand.com/api/v3/1234567890/GetEvaluationResponses/?id=12345
+https://labondemand.com/api/v3/GetEvaluationResponses/?id=12345
 ```
 
 ## Example Response

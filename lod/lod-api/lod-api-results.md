@@ -51,10 +51,10 @@ The **Results** command returns information about all lab instance results that 
 
 ## Example Usage
 
-Imagine… Your organization has a key of 1234567890. You want to know the result of all labs that started or ended between UTC 12:00 January 1, 2012 and UTC 1:00 January 1, 2012.
+Imagine… You want to know the result of all labs that started or ended between UTC 12:00 January 1, 2012 and UTC 1:00 January 1, 2012.
 
 ```
-https://labondemand.com/api/v3/1234567890/Results/?start=1325376000&end=1357002000
+https://labondemand.com/api/v3/Results/?start=1325376000&end=1357002000
 ```
 
 ## Example Response

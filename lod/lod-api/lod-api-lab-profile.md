@@ -79,10 +79,8 @@ The **LabProfile** command will return information about a specific lab profile.
 
 ## Example Usage
 
-Imagine… Your organization has a key of 1234567890.
-
 ```
-https://labondemand.com/api/v3/1234567890/labprofile?id=1
+https://labondemand.com/api/v3/labprofile?id=1
 ```
 
 ## Example Response

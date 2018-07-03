@@ -16,10 +16,10 @@ The **DeleteClass** command deletes a specified class.
 
 ## Example Usage
 
-Imagine… Your organization has a key of 1234567890. An existing class with an ID = 4449999 must be deleted.
+Imagine… An existing class with an ID = 4449999 must be deleted.
 
 ```
-https://labondemand.com/api/v3/1234567890/deleteclass/?id=4449999
+https://labondemand.com/api/v3/deleteclass/?id=4449999
 ```
 
 ## Example Response

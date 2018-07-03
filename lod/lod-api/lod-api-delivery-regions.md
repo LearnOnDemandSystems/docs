@@ -22,10 +22,8 @@ none
 
 ## Example Usage
 
-Imagine… Your organization has a key of 1234567890.
-
 ```
-https://labondemand.com/api/v3/1234567890/deliveryregions
+https://labondemand.com/api/v3/deliveryregions
 ```
 
 ## Example Response

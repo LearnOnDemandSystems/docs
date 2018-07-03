@@ -24,10 +24,10 @@ The **SendNotification** command allows you to send a notification to a specifie
 
 ## Example Usage
 
-Imagine… Your organization has a key of 1234567890. A user is running a lab instance with an ID = 2393048 and you want to send a notification of "Hello from the API!"
+Imagine… A user is running a lab instance with an ID = 2393048 and you want to send a notification of "Hello from the API!"
 
 ```
-https://labondemand.com/api/v3/1234567890/sendnotification?labinstanceid=2393048¬ification=Hello%20from%20the%20API!
+https://labondemand.com/api/v3/sendnotification?labinstanceid=2393048¬ification=Hello%20from%20the%20API!
 ```
 
 ## Example Response
@@ -47,12 +47,12 @@ Like all API commands, you can use either GET or POST when calling SendNotificat
 
 ### Example Usage With POST
 
-Imagine… Your organization has a key of 1234567890. A user is running a lab instance with an ID = 2393048 and you want to send a notification of "Hello from the API!"
+Imagine… A user is running a lab instance with an ID = 2393048 and you want to send a notification of "Hello from the API!"
 
 URL
 
 ```
-https://labondemand.com/api/v3/1234567890/sendnotification?labinstanceid=2393048
+https://labondemand.com/api/v3/sendnotification?labinstanceid=2393048
 ```
 
 ### Request Body

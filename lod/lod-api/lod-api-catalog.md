@@ -67,10 +67,9 @@ The **Catalog** command will return all lab series, lab profiles, and delivery r
 |Description|String|Yes|A brief description of the delivery region|
 
 ## Example Usage
-Imagine… Your organization has a key of 1234567890.
 
 ```
-https://labondemand.com/api/v3/1234567890/catalog
+https://labondemand.com/api/v3/catalog
 ```
 
 ## Example Response

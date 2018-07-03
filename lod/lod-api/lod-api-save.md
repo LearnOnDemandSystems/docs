@@ -19,10 +19,10 @@ The **Save** command allows you to save a specified lab instance.
 
 ## Example Usage
 
-Imagine… Your organization has a key of 1234567890. A user is running a lab instance with an ID = 2393049
+Imagine… A user is running a lab instance with an ID = 2393049
 
 ```
-https://labondemand.com/api/v3/1234567890/save?labinstanceid=2393049
+https://labondemand.com/api/v3/save?labinstanceid=2393049
 ```
 
 ## Example Response

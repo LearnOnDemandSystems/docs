@@ -29,10 +29,10 @@ The **Class** command returns information about a class.
 
 ## Example Usage
 
-Imagine… Your organization has a key of 1234567890. You have a class within your system with an ID = 4449999 that already exists in Lab on Demand.
+Imagine… You have a class within your system with an ID = 4449999 that already exists in Lab on Demand.
 
 ```
-https://labondemand.com/api/v3/1234567890/class/?id=4449999
+https://labondemand.com/api/v3/class/?id=4449999
 ```
 
 ## Example Response

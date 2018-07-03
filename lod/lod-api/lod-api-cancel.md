@@ -18,10 +18,10 @@ The **Cancel** command allows you to cancel a specified lab instance.
 
 ## Example Usage
 
-Imagine… Your organization has a key of 1234567890. A user is running a lab instance with an ID = 2393048
+Imagine… A user is running a lab instance with an ID = 2393048
 
 ```
-https://labondemand.com/api/v3/1234567890/cancel?labinstanceid=2393048
+https://labondemand.com/api/v3/cancel?labinstanceid=2393048
 ```
 
 ## Example Response

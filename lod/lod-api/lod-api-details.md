@@ -190,10 +190,10 @@ The **Details** command retrieves detailed information about a specified lab ins
 |SortIndex|Integer|No|Sort order for display of this answer in the answer collection|
 
 ## Example Usage
-Imagine… Your organization has a key of 1234567890. A user has a lab instance with an ID = 2393049
+Imagine… A user has a lab instance with an ID = 2393049
 
 ```
-https://labondemand.com/api/v3/1234567890/details?labinstanceid=2393049
+https://labondemand.com/api/v3/details?labinstanceid=2393049
 ```
 
 ## Example Response

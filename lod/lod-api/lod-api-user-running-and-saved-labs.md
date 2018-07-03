@@ -43,10 +43,10 @@ The **UserRunningAndSavedLabs** command retrieves all labs that are currently ru
 
 ## Example Usage
 
-Imagine… Your organization has a key of 1234567890. A user has an Id in your system of 555.
+Imagine… A user has an Id in your system of 555.
 
 ```
-https://labondemand.com/api/v3/1234567890/userrunningandsavedlabs?userid=555
+https://labondemand.com/api/v3/userrunningandsavedlabs?userid=555
 ```
 
 ## Example Response

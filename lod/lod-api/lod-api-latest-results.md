@@ -49,10 +49,10 @@ The **LatestResults** command returns information about all lab instance results
 
 ## Example Usage
 
-Imagine… Your organization has a key of 1234567890. You want to know the result of all labs that have started or ended in the last 60 minutes.
+Imagine… You want to know the result of all labs that have started or ended in the last 60 minutes.
 
 ```
-https://labondemand.com/api/v3/1234567890/LatestResults/?minutes=60
+https://labondemand.com/api/v3/LatestResults/?minutes=60
 ```
 
 ## Example Response

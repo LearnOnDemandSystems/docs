@@ -16,7 +16,8 @@ The **Launch** command will launch a specified lab without supplying user inform
 
 |Property|Type|Nullable|Note|
 |--|--|--|--|--|
-|Result|Int|False|1 = Success|
+|Result|Int|False|0 = Error
+||  |  | 1 = Success|
 ||  |  | 2 = User has too many active labs
 ||  |  | 3 = Insufficient host resources
 ||  |  | 5 = API integration has too many active labs
@@ -37,10 +38,10 @@ The **Launch** command will launch a specified lab without supplying user inform
 
 ## Example Usage
 
-Imagine… Your organization has a key of 1234567890. You want to launch a lab with an ID of 100.
+Imagine… You want to launch a lab with an ID of 100.
 
 ```
-https://labondemand.com/api/v3/1234567890/launchanonymous?labid=100
+https://labondemand.com/api/v3/launchanonymous?labid=100
 ```
 
 ## Example Response

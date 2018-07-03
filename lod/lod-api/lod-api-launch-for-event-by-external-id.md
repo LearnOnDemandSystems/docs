@@ -42,10 +42,10 @@
 
 ## Example Usage
 
-Imagine… Your organization has a key of 1234567890. There is an event with an ID of 25 and a lab with an ID in your system of ABCDEFGHIJKL. You have a user named Joe Smith. His ID in your system is 555. His email address is joe.smith@email.com.
+Imagine… There is an event with an ID of 25 and a lab with an ID in your system of ABCDEFGHIJKL. You have a user named Joe Smith. His ID in your system is 555. His email address is joe.smith@email.com.
 
 ```
-https://labondemand.com/api/v3/1234567890/LaunchForEventByExternalId?externalLabId=ABCDEFGHIJKL&eventId=25&userid=555&firstname=Joe&lastname=Smith&email=joe.smith@email.com
+https://labondemand.com/api/v3/LaunchForEventByExternalId?externalLabId=ABCDEFGHIJKL&eventId=25&userid=555&firstname=Joe&lastname=Smith&email=joe.smith@email.com
 ```
 
 ## Example Response 

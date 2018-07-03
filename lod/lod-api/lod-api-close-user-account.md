@@ -20,10 +20,10 @@ The **CloseUserAccount** command closes a user account and removes all user info
 
 ## Example Usage
 
-Imagine… Your organization has a key of 1234567890. You have a user named Joe Smith. His ID in your system is 555. His email address is joe.smith@email.com. You want to close this account and remove all identifying data from the system.
+Imagine… You have a user named Joe Smith. His ID in your system is 555. His email address is joe.smith@email.com. You want to close this account and remove all identifying data from the system.
 
 ```
-https://labondemand.com/api/v3/1234567890/CloseUserAccount/?userId=555
+https://labondemand.com/api/v3/CloseUserAccount/?userId=555
 ```
 
 ## Example Response

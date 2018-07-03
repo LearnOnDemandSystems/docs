@@ -30,10 +30,8 @@ none
 
 ## Example Usage
 
-Imagine… Your organization has a key of 1234567890.
-
 ```
-https://labondemand.com/api/v3/1234567890/runningandsavedlabs
+https://labondemand.com/api/v3/runningandsavedlabs
 ```
 
 ## Example Response

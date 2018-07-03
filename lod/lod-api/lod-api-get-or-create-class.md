@@ -42,7 +42,7 @@ The **GetOrCreateClass** command returns information about a class. If the class
 
 ## Example Usage
 
-Imagine… Your organization has a key of 1234567890. A class must be created with the following data:
+Imagine… A class must be created with the following data:
 
 - ID (in your system): 4449999
 - Name: "Sample Class"
@@ -53,7 +53,7 @@ Imagine… Your organization has a key of 1234567890. A class must be created wi
 - Expires May 2 2012 5PM UTC
 
 ```
-https://labondemand.com/api/v3/1234567890/GetOrCreateClass/?id=4449999&name=Sample+Class&instructorFirstName=Demo&instructorLastName=Instructor&start=1333267200&end=1333299600&expires=1335978000
+https://labondemand.com/api/v3/GetOrCreateClass/?id=4449999&name=Sample+Class&instructorFirstName=Demo&instructorLastName=Instructor&start=1333267200&end=1333299600&expires=1335978000
 ```
 
 ## Example Response

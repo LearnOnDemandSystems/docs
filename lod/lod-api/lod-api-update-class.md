@@ -21,7 +21,7 @@ The **UpdateClass** command updates a specified class.
 |Success|Boolean|No|
 
 ## Example Usage
-Imagine… Your organization has a key of 1234567890. An existing class must be updated with the following data:
+Imagine… An existing class must be updated with the following data:
 
 - ID (in your system): 4449999
 - Name: “Another Sample Class”
@@ -32,7 +32,7 @@ Imagine… Your organization has a key of 1234567890. An existing class must be 
 - Expires May 2 2012 5PM UTC
 
 ```
-https://labondemand.com/api/v3/1234567890/updateclass/?id=4449999&name=Another+Sample+Class&instructorFirstName=Another&instructorLastName=Instructor&start=1333267200&end=1333299600&expires=1335978000
+https://labondemand.com/api/v3/updateclass/?id=4449999&name=Another+Sample+Class&instructorFirstName=Another&instructorLastName=Instructor&start=1333267200&end=1333299600&expires=1335978000
 ```
 
 ## Example Response

@@ -34,10 +34,10 @@ The **GetEvaluationResponsesForEvent** command returns evaluation responses for 
 
 ## Example Usage
 
-Imagine… Your organization has a key of 1234567890 and you want the evaluation responses for an event with the id of 12345
+Imagine… You want the evaluation responses for an event with the id of 12345
 
 ```
-https://labondemand.com/api/v3/1234567890/GetEvaluationResponsesForEvent/?id=12345
+https://labondemand.com/api/v3/GetEvaluationResponsesForEvent/?id=12345
 ```
 
 ## Example Response
