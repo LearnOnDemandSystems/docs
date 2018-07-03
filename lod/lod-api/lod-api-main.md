@@ -41,7 +41,7 @@ All dates are in unix epoch time, which is the number of seconds that have elaps
 - [LaunchForEvent](lod-api-launch-for-event.md) - Launches a specified lab within an event.
 - [LaunchForEventByExternalId](lod-api-launch-for-event-by-external-id.md) - Launches a lab instance within an event using an - external lab identifier.
 - [LaunchAnonymousForEvent](lod-api-launch-anonymous-for-event.md) - Launches a specified lab within an event without supplying user information.
-- [LaunchAnonymousForEventByExternalId]() - Launches a lab instance anonymously within an event using an external lab identifier.
+- [LaunchAnonymousForEventByExternalId](lod-api-launch-for-event-by-external-id.md) - Launches a lab instance anonymously within an event using an external lab identifier.
 - [Cancel](lod-api-cancel.md) - Cancels a specified lab instance.
 - [Save](lod-api-save.md) - Saves a specified lab instance.
 - [Resume](lod-api-resume.md) - Resumes a specified lab instance.
