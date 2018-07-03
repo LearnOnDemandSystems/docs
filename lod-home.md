@@ -11,8 +11,8 @@ If you've already read through all of the documentation that is available on a t
 We hope this documentation helps you create awesome labs!
 
 ## Lab on Demand 
-[Lab on Demand API Documentation](lod/lod-api/lod-api-main.md)
-[Introduction to the Lab on Demand](lod/feature-focus/lod-experience.md)
+* [Lab on Demand API Documentation](lod/lod-api/lod-api-main.md)
+* [Introduction to the Lab on Demand](lod/feature-focus/lod-experience.md)
 
 ## Quick Starts
 
