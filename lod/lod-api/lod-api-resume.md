@@ -5,7 +5,7 @@ The **Resume** command allows you to resume a specified lab instance.
 ## Parameters
 
 |Name|Type|Required|Note|
-|--- |--- |--- |--- |--- |--- |--- |--- |
+|--- |--- |--- |--- |
 |labInstanceId|Long|Yes|The ID of the lab instance to resume
 
 ## Response
