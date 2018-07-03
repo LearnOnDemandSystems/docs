@@ -2,8 +2,6 @@
 
 Welcome to the OneLearn Lab on Demand platform (LOD), @lab.UserFirstName!
 
-Are you new to LOD? Check out our [Introduction to the LOD experience](lod/feature-focus/lod-experience.md).
-
 If you're keen on getting started, and want to hit the ground running, have a look at [Quick Starts](#quick-starts).
 
 After you have gone through some of the Quick Starts, or if you simply want to learn more about a specific feature in LOD, [Feature Focus](#feature-focus) will provide you with in-depth information about a feature.
@@ -11,6 +9,10 @@ After you have gone through some of the Quick Starts, or if you simply want to l
 If you've already read through all of the documentation that is available on a topic, and you are still looking for more information, or have questions, check out the resources available to you on our [Contact Us](contact-us.md) page.
 
 We hope this documentation helps you create awesome labs!
+
+## Lab on Demand 
+* [Lab on Demand API Documentation](lod/lod-api/lod-api-main.md)
+* [Introduction to the Lab on Demand](lod/feature-focus/lod-experience.md)
 
 ## Quick Starts
 
