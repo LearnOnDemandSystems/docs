@@ -43,10 +43,10 @@ The **Launch** command will launmch a specified lab for a specified user.
 
 ## Example Usage
 
-Imagine… Your organization has a key of 1234567890. You have a user named Joe Smith. His ID in your system is 555. His email address is joe.smith@email.com. You want to launch a lab with an ID of 100.
+Imagine… You have a user named Joe Smith. His ID in your system is 555. His email address is joe.smith@email.com. You want to launch a lab with an ID of 100.
 
 ```
-https://labondemand.com/api/v3/1234567890/launch?labid=100&userid=555&firstname=Joe&lastname=Smith&email=joe.smith@email.com
+https://labondemand.com/api/v3/launch?labid=100&userid=555&firstname=Joe&lastname=Smith&email=joe.smith@email.com
 ```
 
 ## Example Response
