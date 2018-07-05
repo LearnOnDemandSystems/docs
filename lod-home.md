@@ -4,21 +4,23 @@ Welcome to the OneLearn Lab on Demand platform (LOD), @lab.UserFirstName!
 
 ### Authoring lab instructions
 
-* [IDLx Authoring](guides/idl2/idlv2-authoring-guide-and-best-practice.md)
-* [IDLx Markdown User Guide](guides/idl2/markdown-user-guide.md)
-* [IDLx Activities](lod/activities.md)
-* [IDLx Lab Variables](lod/variables.md)
+* IDLx
+    * [IDLx Authoring](guides/idl2/idlv2-authoring-guide-and-best-practice.md)
+    * [Markdown User Guide](guides/idl2/markdown-user-guide.md)
+    * [Activities](lod/activities.md)
+    * [Lab Variables](lod/variables.md)
 * [IDL (legacy) Authoring](guides/idl/idlv3.md)
 
 ### Cloud 
 
 * [Create a Cloud Subscription](lod/create-cloud-subscription.md)
 * [Create a Cloud Subscription Pool](lod/create-cloud-subscription-pool.md)
-* [Microsoft Azure capacity limitations](guides/cloud-slice/microsoft-azure/azure-capacity-limitations.md)
-* [Microsoft Azure Resource Providers](guides/cloud-slice/microsoft-azure/azure-resource-providers.md)
-* [Microsoft Azure Resource Templates](guides/cloud-slice/microsoft-azure/cloud-slice-find-reource-templates.md)
-* [Microsoft Azure Resource Template - Best Practices](lod/feature-focus/cloud-resource-templates/recommendations-and-best-practices.md)
-* [Microsoft Azure Cloud Slice Setup Guide](guides/cloud-slice/cloud-slice.md)
+* Microsoft Azure
+    * [Capacity Limitations](guides/cloud-slice/microsoft-azure/azure-capacity-limitations.md)
+    * [Resource Providers](guides/cloud-slice/microsoft-azure/azure-resource-providers.md)
+    * [Resource Templates](guides/cloud-slice/microsoft-azure/cloud-slice-find-reource-templates.md)
+    * [Resource Template - Best Practices](lod/feature-focus/cloud-resource-templates/recommendations-and-best-practices.md)
+    * [Microsoft Azure Cloud Slice Setup Guide](guides/cloud-slice/cloud-slice.md)
 * [Replacement Tokens](lod/feature-focus/cloud-resource-templates/replacement-tokens.md)
 
 ### Lab on Demand 
@@ -45,7 +47,7 @@ Quick Starts allow you to fast track your learning experience, helping you get m
 
 With the Cloud Slice feature, LOD is able to support cloud learning at scale. Learners are provided with a slice of a cloud subscription that they can use for the duration of their learning experience, limited however you configure it. This series of Quick Starts will walk you through every step required to create a feature-rich Cloud Slice lab.
 
-|Duration|Quick Start|
+|Duration|Quick Start|  
 |--:|:--|
 |20&nbsp;minutes|[Configure your Cloud Subscription for use with LOD](lod/quick-starts/cloud-slice/configure-subscription.md)|
 |5&nbsp;minutes|[Add your Cloud Subscription into LOD](lod/quick-starts/cloud-slice/add-subscription-into-lod.md)|
@@ -62,7 +64,9 @@ With the Cloud Slice feature, LOD is able to support cloud learning at scale. Le
 |--:|:--|
 |15&nbsp;minutes|[Deploy Linux on Azure using a Resource Template](lod/quick-starts/linux/deploy-linux-template.md)|
 
-If you've already read through all of the documentation that is available on a topic, and you are still looking for more information, or have questions, check out the resources available to you on our [Contact Us](contact-us.md) page.
+> ### Looking for more information?
+>
+>If you've already read through all of the documentation that is available on a topic, and you are still looking for more information, or have questions, check out the resources available to you on our [Contact Us](contact-us.md) page.
 
 
 <!-- THE BELOW WAS THE LOD LANDING PAGE FOR THE INTEGRATED HELP. IT IS COMMENTED OUT TO RETAIN THE CONTENT.
