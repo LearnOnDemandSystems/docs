@@ -3,22 +3,22 @@
 Welcome to the OneLearn Lab on Demand platform (LOD), @lab.UserFirstName!
 
 ### Authoring lab instructions
-- [IDLx Authoring Guide](../guides/idl2/idlv2-authoring-guide-and-best-practice.md)
+- [IDLx Authoring Guide](guides/idl2/idlv2-authoring-guide-and-best-practice.md)
 
     - This document covers Markdown, IDLx best practices, lab instruction editor interface, uploading files into your lab, and many other topics to assist with authoring your IDLx lab.
 
-- [Markdown user Guide](../guides/idl2/markdown-user-guide.md)
+- [Markdown user Guide](guides/idl2/markdown-user-guide.md)
 
     - This document covers Markdown in detail, including syntax for all supported Markdown.
 
-- [IDLx Activities](activities.md)
+- [IDLx Activities](lod/activities.md)
 
     Activities fall into two broad categories: Questions and Automated.
 
     - Questions are simply multiple choice or short answer questions.
     - Automated Activities have a script configured to run against a cloud subscription or Windows-based virtual machines running on Hyper-V in the lab.
 
-- [IDLx Lab Variables](variables.md)
+- [IDLx Lab Variables](lod/variables.md)
 
     - Variables are used to store information that is not known at the time of lab instruction authoring. Variables store information and then that information can be recalled in later lab steps using a Replacement Token. This document covers how to use Variables in your IDLx lab. 
 
@@ -26,6 +26,9 @@ Welcome to the OneLearn Lab on Demand platform (LOD), @lab.UserFirstName!
 
     - Replacement tokens use the syntax @lab.replacementTokenName. You can see the list of all @lab replacement tokens available to your lab by simply editing the instructions, and clicking on the @lab button.
 
+- [IDL (legacy)](guides/idl/idlv3.md)
+
+    - Legacy IDL Studio authoring guide and best practices
 
 * IDLx
     * [IDLx Authoring](guides/idl2/idlv2-authoring-guide-and-best-practice.md)
@@ -37,13 +40,17 @@ Welcome to the OneLearn Lab on Demand platform (LOD), @lab.UserFirstName!
 ### Cloud 
 
 * [Create a Cloud Subscription](lod/create-cloud-subscription.md)
+    - Create a Cloud Subscription to use cloud-based labs with Lab on Demand
 * [Create a Cloud Subscription Pool](lod/create-cloud-subscription-pool.md)
-* Microsoft Azure
-    * [Capacity Limitations](guides/cloud-slice/microsoft-azure/azure-capacity-limitations.md)
-    * [Resource Providers](guides/cloud-slice/microsoft-azure/azure-resource-providers.md)
-    * [Resource Templates](guides/cloud-slice/microsoft-azure/cloud-slice-find-reource-templates.md)
-    * [Resource Template - Best Practices](lod/feature-focus/cloud-resource-templates/recommendations-and-best-practices.md)
-    * [Microsoft Azure Cloud Slice Setup Guide](guides/cloud-slice/cloud-slice.md)
+    - Create a Cloud Subscription Pool to load balance labs across your cloud subscriptions. 
+* [Capacity Limitations](guides/cloud-slice/microsoft-azure/azure-capacity-limitations.md)
+    - Azure resource capacity limitations, how to avoid them, and what to do if you run into capacity limitations with your Azure subsription.
+* [Resource Providers](/guides/cloud-slice/microsoft-azure/azure-resource-providers.md)
+    - Azure Resource Providers, and how to get the resources you need for your lab.
+* [Resource Templates](docs/guides/cloud-slice/microsoft-azure/cloud-slice-find-resource-templates.md)
+    - How to 
+* [Resource Template - Best Practices](lod/feature-focus/cloud-resource-templates/recommendations-and-best-practices.md)
+* [Microsoft Azure Cloud Slice Setup Guide](guides/cloud-slice/cloud-slice.md)
 * [Replacement Tokens](lod/feature-focus/cloud-resource-templates/replacement-tokens.md)
 
 ### Lab on Demand 
