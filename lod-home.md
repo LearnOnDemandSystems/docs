@@ -1,6 +1,6 @@
 # OneLearn Lab on Demand Help
 
-## Welcome to the OneLearn Lab on Demand platform (LOD), @lab.UserFirstName!
+Welcome to the OneLearn Lab on Demand platform (LOD), @lab.UserFirstName!
 
 ### Authoring lab instructions
 
@@ -31,7 +31,7 @@
 
     > Legacy IDL Studio authoring guide and best practices
 
-### **Cloud**
+### Cloud
 
 * [**Create a Cloud Subscription**](lod/create-cloud-subscription.md)
 
@@ -65,7 +65,7 @@
 
     > Replacement tokens use the syntax @lab.replacementTokenName. You can see the list of all @lab replacement tokens available to your lab by simply editing the instructions, and clicking on the @lab button.
 
-### **Lab on Demand** 
+### Lab on Demand
 
 * [**Create a Lab Profile**](lod/feature-focus/lab-profiles/create.md)
 
