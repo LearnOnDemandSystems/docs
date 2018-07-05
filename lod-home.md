@@ -2,10 +2,6 @@
 
 Welcome to the OneLearn Lab on Demand platform (LOD), @lab.UserFirstName!
 
-[Lab on Demand API Documentation](lod/lod-api/lod-api-main.md)
-
-[Instroduction to Lab on Demand UI](lod/feature-focus/lod-experience.md)
-
 ### Authoring lab instructions
 
 * [IDLx Authoring](guides/idl2/idlv2-authoring-guide-and-best-practice.md)
@@ -31,7 +27,9 @@ Welcome to the OneLearn Lab on Demand platform (LOD), @lab.UserFirstName!
 * [Create a Lab Series](lod/create-lab-series.md)
 * [Create Removeable Media](lod/create-removeable-media.md)
 * [Custom CSS](lod/feature-focus/lab-profiles/custom-css.md)
+* [Introduction to Lab on Demand UI](lod/feature-focus/lod-experience.md)
 * [GitHub Integration](guides/github-integration/github-integration.md)
+* [Lab on Demand API Documentation](lod/lod-api/lod-api-main.md)
 * [Lab on Demand edX Integration](guides/lti/lod-lti.md)
 * [Life Cycle Actions](guides/lca/life-cycle-actions-guide.md)
 * [Performance Based Testing (PBT)](guides/pbt/lodpbtguide.md)
