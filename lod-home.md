@@ -17,7 +17,7 @@ Welcome to the OneLearn Lab on Demand platform (LOD), @lab.UserFirstName!
 * [Microsoft Azure capacity limitations](guides/cloud-slice/microsoft-azure/azure-capacity-limitations.md)
 * [Microsoft Azure Resource Providers](guides/cloud-slice/microsoft-azure/azure-resource-providers.md)
 * [Microsoft Azure Resource Templates](guides/cloud-slice/microsoft-azure/cloud-slice-find-reource-templates.md)
-* [Microsoft Azure Resource Template Recommendations and Best Practices](lod/feature-focus/cloud-resource-templates/recommendations-and-best-practices.md)
+* [Microsoft Azure Resource Template - Best Practices](lod/feature-focus/cloud-resource-templates/recommendations-and-best-practices.md)
 * [Microsoft Azure Cloud Slice Setup Guide](guides/cloud-slice/cloud-slice.md)
 * [Replacement Tokens](lod/feature-focus/cloud-resource-templates/replacement-tokens.md)
 
