@@ -2,6 +2,78 @@
 
 Welcome to the OneLearn Lab on Demand platform (LOD), @lab.UserFirstName!
 
+## Feature Focus
+
+Feature Focus helps you learn more in-depth about specific features in LOD.
+
+* [Lab on Demand API Documentation](lod/lod-api/lod-api-main.md)
+* [Lab on Demand UI](lod/feature-focus/lod-experience.md)
+
+### Authoring lab instructions
+
+* [IDLx Authoring](guides/idl2/idlv2-authoring-guide-and-best-practice.md)
+* [IDLx Markdown User Guide](guides/idl2/markdown-user-guide.md)
+* [IDLx Activities](lod/activities.md)
+* [IDLx Lab Variables](lod/variables.md)
+* [IDL (legacy) Authoring](guides/idl/idlv3.md)
+
+### Cloud 
+
+* [Azure capacity limitations](guides/cloud-slice/microsoft-azure/azure-capacity-limitations.md)
+* [Azure Resource Providers](guides/cloud-slice/microsoft-azure/azure-resource-providers.md)
+* [Azure Resource Templates](guides/cloud-slice/microsoft-azure/cloud-slice-find-reource-templates.md)
+* [Azure Resource Template Recommendations and Best Practices](lod/feature-focus/cloud-resource-templates/recommendations-and-best-practices.md)
+* [Azure Cloud Slice Setup Guide](guides/cloud-slice/microsoft-azure/cloud-slice-setup.md)
+* [Create a Cloud Subscription](lod/create-cloud-subscription.md)
+* [Create a Cloud Subscription Pool](lod/create-cloud-subscription-pool.md)
+* [Replacement Tokens](lod/feature-focus/cloud-resource-templates/replacement-tokens.md)
+
+### Lab on Demand 
+
+* [Create a Lab Profile](lod/feature-focus/lab-profiles/create.md)
+* [Create a Lab Series](lod/create-lab-series.md)
+* [Create Removeable Media](lod/create-removeable-media.md)
+* [Custom CSS](lod/feature-focus/lab-profiles/custom-css.md)
+* [GitHub Integration](guides/github-integration/github-integration.md)
+* [Lab on Demand edX Integration](guides/lti/lod-lti.md)
+* [Life Cycle Actions](guides/lca/life-cycle-actions-guide.md)
+* [Performance Based Testing (PBT)](guides/pbt/lodpbtguide.md)
+* [Setup up a Cloud Slice lab](guides/cloud-slice/cloud-slice.md)
+* [Shared Labs (a.k.a. Cyber-Range)](guides/sl/sharedlabs.md)
+* [Virtual Machine Based Lab Development - Best Practices](lod/vm-based-lab-build-best-practices.md)
+
+## Quick Starts
+
+Quick Starts allow you to fast track your learning experience, helping you get more value from the platform as quickly as possible.
+
+### Building your first Cloud Slice lab
+
+With the Cloud Slice feature, LOD is able to support cloud learning at scale. Learners are provided with a slice of a cloud subscription that they can use for the duration of their learning experience, limited however you configure it. This series of Quick Starts will walk you through every step required to create a feature-rich Cloud Slice lab.
+
+|Duration|Quick Start|
+|--:|:--|
+|20&nbsp;minutes|[Configure your Cloud Subscription for use with LOD](lod/quick-starts/cloud-slice/configure-subscription.md)|
+|5&nbsp;minutes|[Add your Cloud Subscription into LOD](lod/quick-starts/cloud-slice/add-subscription-into-lod.md)|
+|5&nbsp;minutes|[Create a Cloud Slice lab in 3 steps](lod/quick-starts/cloud-slice/create.md)|
+|10&nbsp;minutes|[Write instructions for your Cloud Slice lab](lod/quick-starts/cloud-slice/write-instructions.md)|
+|10&nbsp;minutes|[Provision cloud resources in your Cloud Slice lab](lod/quick-starts/cloud-slice/provision-cloud-resources.md)|
+|10&nbsp;minutes|[Restrict what users can create in your Cloud Slice lab](lod/quick-starts/cloud-slice/restriction-policies.md)|
+|20&nbsp;minutes|[Register Cloud Resource Providers](lod/quick-starts/cloud-slice/cloud-resource-providers.md)|
+|10&nbsp;minutes|[Set up Cloud Slice lab for Scale](lod/quick-starts/cloud-slice/scale.md)|
+
+### Deploying a Linux VM on Azure using a Resource Template
+
+|Duration|Quick Start|
+|--:|:--|
+|15&nbsp;minutes|[Deploy Linux on Azure using a Resource Template](lod/quick-starts/linux/deploy-linux-template.md)|
+
+If you've already read through all of the documentation that is available on a topic, and you are still looking for more information, or have questions, check out the resources available to you on our [Contact Us](contact-us.md) page.
+
+
+<!-- THE BELOW WAS THE LOD LANDING PAGE FOR THE INTEGRATED HELP. IT IS COMMENTED OUT TO RETAIN THE CONTENT.
+
+Welcome to the OneLearn Lab on Demand platform (LOD), @lab.UserFirstName!
+
 If you're keen on getting started, and want to hit the ground running, have a look at [Quick Starts](#quick-starts).
 
 After you have gone through some of the Quick Starts, or if you simply want to learn more about a specific feature in LOD, [Feature Focus](#feature-focus) will provide you with in-depth information about a feature.
@@ -33,7 +105,7 @@ With the Cloud Slice feature, LOD is able to support cloud learning at scale. Le
 |20&nbsp;minutes|[Register Cloud Resource Providers](lod/quick-starts/cloud-slice/cloud-resource-providers.md)|
 |10&nbsp;minutes|[Set up Cloud Slice lab for Scale](lod/quick-starts/cloud-slice/scale.md)|
 
-<!--
+
 ### Getting Started With Life Cycle Actions
 
 With the Life Cycle Actions feature, LOD is able to execute actions when specific events occur during the lab instance life cycle. Each of these action types will be covered, in this series of Quick Starts. We will discuss how to use each action, and when it is appropriate to use each one. After completing this Quick Start series, you will be able to configure your lab with Life Cycle Actions, to make your more lab a more rich experience for students. 
@@ -46,7 +118,7 @@ With the Life Cycle Actions feature, LOD is able to execute actions when specifi
 |10&nbsp;minutes|[Send Web Request](/lod/quick-starts/life-cycle-actions/web-request.md)|
 |10&nbsp;minutes|[Execute Machine Command](/lod/quick-starts/life-cycle-actions/machine-command)|
 
--->
+
 
 ### Deploying a Linux VM on Azure using a Resource Template
 
@@ -70,32 +142,31 @@ Or, you can learn more about a specific setting in [Lab Profile settings](lod/fe
 
 #### Creating a new Lab Profile
 
-<!--
 |Action|Description|
 |--|--|
 |[Create a Virtualized lab](lod/feature-focus/lab-profiles/create.md)||
 |[Create a Cloud Slice lab]()||
 |[Create a Hybrid lab]()||
--->
 
-<!--
+
+
 Import
 Export
--->
-<!--
+
+
 CREATE			/LabProfile/Create,https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/feature-focus/lab-profiles/create.md
 DETAILS 		/LabProfile/{labProfileId},
 FIND 			/LabProfile,
 EDIT			/LabProfile/Edit/{labProfileId},https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/feature-focus/lab-profiles/edit.md
 IMPORT			/LabProfile/ImportContent/{labProfileId},
 VIEW STATISTICS	/LabProfile/Statistics/{labProfileId},
--->
+
 
 * [Create a Lab Profile](lod/feature-focus/lab-profiles/create.md)
 * [Create a Lab Series](lod/create-lab-series.md)
 * [Create Removeable Media](lod/create-removeable-media.md)
 
-<!--
+
 #### Working with Lab Resources
 
 |Action|Description|
@@ -103,7 +174,7 @@ VIEW STATISTICS	/LabProfile/Statistics/{labProfileId},
 |[Add a VM to a Lab Profile](lod/feature-focus/lab-profiles/create.md)||
 |[Add a Cloud Subscription in a Lab Profile](lod/feature-focus/lab-profiles/find.md)||
 ????|[Add a URL or file to a Lab Profile](lod/feature-focus/lab-profiles/edit.md)||
--->
+
 
 #### Authoring lab instructions
 
@@ -134,12 +205,12 @@ VIEW STATISTICS	/LabProfile/Statistics/{labProfileId},
 * [Recommendations and Best Practices](lod/feature-focus/cloud-resource-templates/recommendations-and-best-practices.md)
 * [Replacement Tokens](lod/feature-focus/cloud-resource-templates/replacement-tokens.md)
 
-<!--
+
 ### Cloud Resource Templates
 
 
 ### Cloud Restriction Templates
+
+
 -->
-
-
 
