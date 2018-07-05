@@ -3,6 +3,29 @@
 Welcome to the OneLearn Lab on Demand platform (LOD), @lab.UserFirstName!
 
 ### Authoring lab instructions
+- [IDLx Authoring Guide](../guides/idl2/idlv2-authoring-guide-and-best-practice.md)
+
+    - This document covers Markdown, IDLx best practices, lab instruction editor interface, uploading files into your lab, and many other topics to assist with authoring your IDLx lab.
+
+- [Markdown user Guide](../guides/idl2/markdown-user-guide.md)
+
+    - This document covers Markdown in detail, including syntax for all supported Markdown.
+
+- [IDLx Activities](activities.md)
+
+    Activities fall into two broad categories: Questions and Automated.
+
+    - Questions are simply multiple choice or short answer questions.
+    - Automated Activities have a script configured to run against a cloud subscription or Windows-based virtual machines running on Hyper-V in the lab.
+
+- [IDLx Lab Variables](variables.md)
+
+    - Variables are used to store information that is not known at the time of lab instruction authoring. Variables store information and then that information can be recalled in later lab steps using a Replacement Token. This document covers how to use Variables in your IDLx lab. 
+
+- [Replacement Tokens](feature-focus/cloud-resource-templates/replacement-tokens.md)
+
+    - Replacement tokens use the syntax @lab.replacementTokenName. You can see the list of all @lab replacement tokens available to your lab by simply editing the instructions, and clicking on the @lab button.
+
 
 * IDLx
     * [IDLx Authoring](guides/idl2/idlv2-authoring-guide-and-best-practice.md)
