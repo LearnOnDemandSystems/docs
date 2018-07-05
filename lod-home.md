@@ -43,7 +43,7 @@
     
 * [**Capacity Limitations**](guides/cloud-slice/microsoft-azure/azure-capacity-limitations.md)
 
-    - Azure resource capacity limitations, how to avoid them, and what to do if you run into capacity limitations with your Azure subsription.
+    > Azure resource capacity limitations, how to avoid them, and what to do if you run into capacity limitations with your Azure subsription.
     
 * [**Resource Providers**](guides/cloud-slice/microsoft-azure/azure-resource-providers.md)
 
