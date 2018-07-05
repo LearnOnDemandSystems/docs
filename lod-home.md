@@ -2,12 +2,9 @@
 
 Welcome to the OneLearn Lab on Demand platform (LOD), @lab.UserFirstName!
 
-## Feature Focus
+[Lab on Demand API Documentation](lod/lod-api/lod-api-main.md)
 
-Feature Focus helps you learn more in-depth about specific features in LOD.
-
-* [Lab on Demand API Documentation](lod/lod-api/lod-api-main.md)
-* [Lab on Demand UI](lod/feature-focus/lod-experience.md)
+[Instroduction to Lab on Demand UI](lod/feature-focus/lod-experience.md)
 
 ### Authoring lab instructions
 
