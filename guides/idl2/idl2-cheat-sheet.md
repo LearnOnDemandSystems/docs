@@ -52,11 +52,10 @@
 | Include           | `!INSTRUCTIONS[](url)`                |
 | Copyable Text     | `++copyable text++`                      |
 | Type Text         | `+++Type text+++`                      |
-| Replacement Token | `Click the @ lab toolbar button or type "<pre><code title="Copy to clipboard" class="prettyprint prettyprinted" style=""><span class="lit">&commat;lab</span><span class="pun">.</span></code></pre" in your idl-md editor window.` |
+| Replacement Token | `Click the @ lab toolbar button ` |
 | Embed YouTube video | `!VIDEO[text to display](url)` (URLs from YouTube.com auto embed)               |
 |<BR> | |
 
-Test
 ---
 
 <font size="3">**Variables**</font>
