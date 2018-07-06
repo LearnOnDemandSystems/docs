@@ -3,7 +3,7 @@
 
 Each Cloud Resource Template is associated with a raw template document that defines the collection of resources that will be deployed in the cloud. Replacement tokens can be used inside of the raw templates itself, or as parameter values to the Cloud Resource Templates, to provide some dynamic values that help keep resource names unique. 
 
-Replacement tokens use the syntax &commat;.replacementTokenName_. You can see the list of all &commat; replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat; button. 
+Replacement tokens use the syntax &commat;lab.replacementTokenName_. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button. 
 
 The table below lists the replacement tokens that are most commonly used with Cloud Resource Templates, along with suggestions where they should be used. 
 
@@ -17,12 +17,12 @@ The table below lists the replacement tokens that are most commonly used with Cl
 
 ## Using replacement tokens as Cloud Resource Template parameters 
 
-When you are assigning paramater values for a Cloud Resource template, you can provide specific values, or you can apply &commat; replacement tokens. To apply a Replacement Token, in the parameter value field, simply enter `&commat;`, and the press the period key. The moment you type the period you will be presented with all available replacement tokens for your lab. 
+When you are assigning paramater values for a Cloud Resource template, you can provide specific values, or you can apply &commat;lab replacement tokens. To apply a Replacement Token, in the parameter value field, simply enter `&commat;`, and the press the period key. The moment you type the period you will be presented with all available replacement tokens for your lab. 
 
 !IMAGE[](/lod/images/replacement-tokens.png)
 
 ## Using replacement tokens inside a Cloud Resource Template
 
-To use replacement tokens inside a Cloud Resource Template, simply insert the &commat; replacement token(s) in to your raw template document where you want them to be used. 
+To use replacement tokens inside a Cloud Resource Template, simply insert the &commat;lab replacement token(s) in to your raw template document where you want them to be used. 
 
 >[!KNOWLEDGE] Using replacement tokens as Cloud Resource Template parameters is a best practice, and highly preferred over using replacement tokens directly inside of raw template documents.  
