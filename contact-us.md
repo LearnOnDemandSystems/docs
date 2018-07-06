@@ -9,7 +9,7 @@ Find answers to your questions through short topical articles in the [Help Cente
 
 ## Integration
 
-Interested in integrating your system with Lab and Demand? Check out our [API](/apidocumentation/v3).
+Interested in integrating your system with Lab and Demand? Check out our [API](lod/lod-api/lod-api-main.md).
 
 ## Technical Support
 
