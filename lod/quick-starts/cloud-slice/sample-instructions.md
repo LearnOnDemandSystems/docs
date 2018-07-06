@@ -11,9 +11,9 @@
 ~~~Markdown
 # Introduction to Markdown (idl-md) Authoring
 
-Hi @lab.UserFirstName!
+Hi &commat;.UserFirstName!
 
-If your name looks funny in here, just wait, we'll revisit the @lab syntax later.
+If your name looks funny in here, just wait, we'll revisit the &commat; syntax later.
 
 When you create instructions for your lab, you simply type the text into the idl-md editor. As you type it in, you can see the rendered version of your text in real-time.
 
@@ -111,9 +111,9 @@ Markdown also supports tables. These are very convenient when you want users to 
 
 |Field Name|Field Value|
 |--|--|
-|First Name|++@lab.UserFirstName++|
-|Last Name|++@lab.UserLastName++|
-|Email Address|++@lab.UserEmail++|
+|First Name|++&commat;.UserFirstName++|
+|Last Name|++&commat;.UserLastName++|
+|Email Address|++&commat;.UserEmail++|
 
 The double-plus enclosure surrounding the field values allows students to copy them by left clicking on them. Give it a try!
 

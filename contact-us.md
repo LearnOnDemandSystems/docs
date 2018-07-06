@@ -1,6 +1,6 @@
 # Contact 
 
-Hello @lab.UserFirstName, we hope you find our integrated documentation helpful. But if you can't find what you need here, you still have options...
+We hope you find our integrated documentation helpful. But if you can't find what you need here, you still have options...
 
 
 ## Help Center

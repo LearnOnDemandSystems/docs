@@ -94,7 +94,7 @@ Now that you have that done, it's time to configure your Lab Profile to deploy t
 
     1. [] Select your Resource Template in the list of results, then click **OK**.
 
-    1. [] Enter ++nic-@lab.GlobalLabInstanceId++ into the **NIC Name** field, and enter ++ubuntu-@lab.GlobalLabInstanceId++ into the **DNS Name** field. This will give the NIC and DNS unique names.
+    1. [] Enter ++nic-&commat;.GlobalLabInstanceId++ into the **NIC Name** field, and enter ++ubuntu-&commat;.GlobalLabInstanceId++ into the **DNS Name** field. This will give the NIC and DNS unique names.
 
     1. [] Leave **VM Name**, **VM Admin Username**, and **VM Admin Password** blank. Those parameters are optional.
 
