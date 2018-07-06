@@ -56,6 +56,7 @@
 | Embed YouTube video | `!VIDEO[text to display](url)` (URLs from YouTube.com auto embed)               |
 |<BR> | |
 
+Test
 ---
 
 <font size="3">**Variables**</font>
