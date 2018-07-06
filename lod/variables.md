@@ -4,7 +4,11 @@ Variables are used to store information that is not known at the time of lab ins
 
 For example, you could create a variable with &commat;.textbox(studentPassword) and ask the student to enter a password in the field. Later in the lab you could call back the student's password with &commat;.Variable(studentPassword). This prevents the student from having to remember or write down their password, since it is stored in the lab by a variable. 
 
- Variables use two Replacement tokens; **&commat;.textbox(name)** and **&commat;.Variable(name)**. 
+ Variables use two Replacement tokens; 
+ 
+ - **&commat;.textbox(name)** 
+ 
+ - **&commat;.Variable(name)**
 
 <pre><code title="Copy to clipboard" class="prettyprint prettyprinted" style=""><span class="lit">&commat;lab</span><span class="pun">.</span><span class="typ">TextBox</span><span class="pun">(</span><span class="pln">name</span><span class="pun">)</span></code></pre> is used to define the variable in the (name). 
 
