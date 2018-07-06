@@ -1,4 +1,4 @@
-# Markdown Syntax.
+# Markdown Syntax
 
 Markdown is an easy to use markup language to format text, that offers multiple ways to achieve the same result. Markdown was designed to be easy to learn as well as be easy to read and write. Markdown allows the author to keep their hands on the keyboard and focus on writing content. Markdown supports HTML, and HTML syntax can be used in combination with Markdown.
 
@@ -414,7 +414,7 @@ Although potentially any task could be reduced to an action that can be executed
 
   > `!VIDEO[text to display](url)` 
 
-- **Replacement Token:** used to replace text in lab instructions with a variable that is unknown at the time of authoring the lab instructions. These variables may not be generated or created until the lab is launched by the student. These can include usernames, user first name, user last name, running lab instance ID number, etc. To apply a Replacement Token, in the parameter value field, simply enter `&commat;lab`, and the press the period key. The moment you type the period you will be presented with all available replacement tokens for your lab. 
+- **Replacement Token:** used to replace text in lab instructions with a variable that is unknown at the time of authoring the lab instructions. These variables may not be generated or created until the lab is launched by the student. These can include usernames, user first name, user last name, running lab instance ID number, etc. To apply a Replacement Token, in the parameter value field, simply enter "&commat;lab", and the press the period key. The moment you type the period you will be presented with all available replacement tokens for your lab. 
 
   > | Replacement token           |                                          |
   > | --------------------------- | ---------------------------------------- |
