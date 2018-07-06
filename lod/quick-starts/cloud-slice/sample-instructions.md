@@ -11,10 +11,6 @@
 ~~~Markdown
 # Introduction to Markdown (idl-md) Authoring
 
-Hi &commat;.UserFirstName!
-
-If your name looks funny in here, just wait, we'll revisit the &commat; syntax later.
-
 When you create instructions for your lab, you simply type the text into the idl-md editor. As you type it in, you can see the rendered version of your text in real-time.
 
 It is a good idea to use headings to identify specific sections in your instructions.
