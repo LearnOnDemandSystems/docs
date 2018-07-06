@@ -6,9 +6,15 @@ For example, you could create a variable with &commat;.textbox(studentPassword) 
 
  Variables use two Replacement tokens; **&commat;.textbox(name)** and **&commat;.Variable(name)**. 
 
-```&commat;.texbox(name)``` is used to define the variable in the (name). 
 
-```&commat;.Variable(name)``` is used to to recall the information stored in the variable. 
+<pre><code title="Copy to clipboard" class="prettyprint prettyprinted" style=""><span class="lit">&commat;lab</span><span class="pun">.</span><span class="typ">TextBox</span><span class="pun">(</span><span class="pln">name</span><span class="pun">)</span></code></pre> is used to define the variable in the (name). 
+
+
+```&commat;.texbox(name)``` 
+
+<pre><code title="Copy to clipboard" class="prettyprint prettyprinted" style=""><span class="lit">&commat;lab</span><span class="pun">.</span><span class="typ">Variable</span><span class="pun">(</span><span class="pln">name</span><span class="pun">)</span></code></pre> is used to to recall the information stored in the variable. 
+
+```&commat;.Variable(name)``` 
 
 - Defining Variable in lab instruction editor view:
 
