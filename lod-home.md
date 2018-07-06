@@ -23,7 +23,7 @@ Welcome to the OneLearn Lab on Demand platform!
 
     > Variables are used to store information that is not known at the time of lab instruction authoring. Variables store information and then that information can be recalled in later lab steps using a Replacement Token. This document covers how to use Variables in your IDLx lab. 
 
-- [**Replacement Tokens**](feature-focus/cloud-resource-templates/replacement-tokens.md)
+- [**Replacement Tokens**](lod/feature-focus/cloud-resource-templates/replacement-tokens.md)
 
     > Replacement tokens use the syntax &commat;.replacementTokenName. You can see the list of all &commat; replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat; button.
 
