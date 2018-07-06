@@ -4,7 +4,7 @@
 
 You can use a Life Cycle Action on the Tearing Down event, to call to an external endpoint, and notify once the lab is torn down. 
 
-If you would like additional information, such as a scoring result, you could configure your external service to call the [Details API](lod/lod-api/lod-api-details.md).
+If you would like additional information, such as a scoring result, you could configure your external service to call the [Details API](../lod/lod-api/lod-api-details.md).
 
 
 ## Client-side
