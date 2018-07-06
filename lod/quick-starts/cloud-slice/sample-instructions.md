@@ -107,9 +107,9 @@ Markdown also supports tables. These are very convenient when you want users to 
 
 |Field Name|Field Value|
 |--|--|
-|First Name|++&commat;.UserFirstName++|
-|Last Name|++&commat;.UserLastName++|
-|Email Address|++&commat;.UserEmail++|
+|First Name|++UserFirstName++|
+|Last Name|++UserLastName++|
+|Email Address|++UserEmail++|
 
 The double-plus enclosure surrounding the field values allows students to copy them by left clicking on them. Give it a try!
 
