@@ -6,9 +6,9 @@ For example, you could create a variable with &commat;.textbox(studentPassword) 
 
  Variables use two Replacement tokens; 
  
- - **&commat;.textbox(name)** 
+ - **&commat;lab.textbox(name)** 
  
- - **&commat;.Variable(name)**
+ - **&commat;lab.Variable(name)**
 
 <pre><code title="Copy to clipboard" class="prettyprint prettyprinted" style=""><span class="lit">&commat;lab</span><span class="pun">.</span><span class="typ">TextBox</span><span class="pun">(</span><span class="pln">name</span><span class="pun">)</span></code></pre> is used to define the variable in the (name). 
 
