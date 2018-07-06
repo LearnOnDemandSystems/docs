@@ -23,7 +23,7 @@
 
 - [Replacement Tokens](feature-focus/cloud-resource-templates/replacement-tokens.md)
 
-    - Replacement tokens use the syntax @lab.replacementTokenName. You can see the list of all @lab replacement tokens available to your lab by simply editing the instructions, and clicking on the @lab button.
+    - Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.
 
 > ### Looking for more information?
 >

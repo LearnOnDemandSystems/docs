@@ -1,6 +1,6 @@
 # OneLearn Lab on Demand Help
 
-Welcome to the OneLearn Lab on Demand platform (LOD), @lab.UserFirstName!
+Welcome to the OneLearn Lab on Demand platform!
 
 ### Authoring lab instructions
 
@@ -23,9 +23,9 @@ Welcome to the OneLearn Lab on Demand platform (LOD), @lab.UserFirstName!
 
     > Variables are used to store information that is not known at the time of lab instruction authoring. Variables store information and then that information can be recalled in later lab steps using a Replacement Token. This document covers how to use Variables in your IDLx lab. 
 
-- [**Replacement Tokens**](feature-focus/cloud-resource-templates/replacement-tokens.md)
+- [**Replacement Tokens**](lod/feature-focus/cloud-resource-templates/replacement-tokens.md)
 
-    > Replacement tokens use the syntax @lab.replacementTokenName. You can see the list of all @lab replacement tokens available to your lab by simply editing the instructions, and clicking on the @lab button.
+    > Replacement tokens use the syntax &commat;.replacementTokenName. You can see the list of all &commat; replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat; button.
 
 - [**IDL (legacy)**](guides/idl/idlv3.md)
 
@@ -63,7 +63,7 @@ Welcome to the OneLearn Lab on Demand platform (LOD), @lab.UserFirstName!
     
 * [**Replacement Tokens**](lod/feature-focus/cloud-resource-templates/replacement-tokens.md)
 
-    > Replacement tokens use the syntax @lab.replacementTokenName. You can see the list of all @lab replacement tokens available to your lab by simply editing the instructions, and clicking on the @lab button.
+    > Replacement tokens use the syntax &commat;.replacementTokenName. You can see the list of all &commat; replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat; button.
 
 ### Lab on Demand
 
@@ -164,7 +164,7 @@ Quick starts are a guided walkthrough, and allow you to fast track your learning
 
 <!-- THE BELOW WAS THE LOD LANDING PAGE FOR THE INTEGRATED HELP. IT IS COMMENTED OUT TO RETAIN THE CONTENT.
 
-Welcome to the OneLearn Lab on Demand platform (LOD), @lab.UserFirstName!
+Welcome to the OneLearn Lab on Demand platform (LOD), &commat;.UserFirstName!
 
 If you're keen on getting started, and want to hit the ground running, have a look at [Quick Starts](#quick-starts).
 

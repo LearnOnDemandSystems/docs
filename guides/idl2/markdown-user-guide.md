@@ -255,7 +255,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 ## Special formatting 
 
-- **Variables**: Used to store information that is not known at the time of lab authoring. Variables use two Replacement tokens; **@lab.textbox(name)** and **@lab.Variable(name)**. **Use @lab.texbox(name) to define** the variable in the (name). **Use @lab.Variable(name) to recall** the information store in the variable. For example, you could create a variable with @lab.textbox(studentPassword) and ask the student to enter a password in the field. Later in the lab you could call back the student's password with @lab.Variable(studentPassword). This prevents the student from having to remember or write down their password, since it is stored in the lab by a variable. 
+- **Variables**: Used to store information that is not known at the time of lab authoring. Variables use two Replacement tokens; **&commat;lab.textbox(name)** and **&commat;lab.Variable(name)**. **Use &commat;lab.texbox(name) to define** the variable in the (name). **Use &commat;lab.Variable(name) to recall** the information store in the variable. For example, you could create a variable with &commat;lab.textbox(studentPassword) and ask the student to enter a password in the field. Later in the lab you could call back the student's password with &commat;lab.Variable(studentPassword). This prevents the student from having to remember or write down their password, since it is stored in the lab by a variable. 
 
   - Defining Variable in lab instruction editor view:
   
@@ -414,7 +414,7 @@ Although potentially any task could be reduced to an action that can be executed
 
   > `!VIDEO[text to display](url)` 
 
-- **Replacement Token:** used to replace text in lab instructions with a variable that is unknown at the time of authoring the lab instructions. These variables may not be generated or created until the lab is launched by the student. These can include usernames, user first name, user last name, running lab instance ID number, etc. To apply a Replacement Token, in the parameter value field, simply enter `@lab`, and the press the period key. The moment you type the period you will be presented with all available replacement tokens for your lab. 
+- **Replacement Token:** used to replace text in lab instructions with a variable that is unknown at the time of authoring the lab instructions. These variables may not be generated or created until the lab is launched by the student. These can include usernames, user first name, user last name, running lab instance ID number, etc. To apply a Replacement Token, in the parameter value field, simply enter "&commat;lab", and the press the period key. The moment you type the period you will be presented with all available replacement tokens for your lab. 
 
   > | Replacement token           |                                          |
   > | --------------------------- | ---------------------------------------- |

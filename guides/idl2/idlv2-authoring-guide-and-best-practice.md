@@ -141,7 +141,7 @@ The image below shows what will be seen after clicking **Edit instructions**, as
 ![](images/idl2-text-editor.png "IDL 2 Instruction Editor")
 
 - **Disk icon:** Click to save current progress; this is not necessary if autosave is enabled.
-- **@lab:** Replacement Tokens are used to create a placeholder for dynamic text that will be added to the lab when it is launched. This is helpful if you do not know the information at the time of authoring the lab, but would like specific information to be inserted later when the user is in the lab. Examples of this are usernames, passwords, unique ID numbers, etc.
+- **&commat;lab:** Replacement Tokens are used to create a placeholder for dynamic text that will be added to the lab when it is launched. This is helpful if you do not know the information at the time of authoring the lab, but would like specific information to be inserted later when the user is in the lab. Examples of this are usernames, passwords, unique ID numbers, etc.
 - **Upload:** Used to upload files or images to the lab.
 - **Activities:** Activities Menu
     - Question Activities
@@ -320,7 +320,7 @@ The virtual machine Replacement Token allows the user to make a different VM act
 To add a virtual machine to the lab instructions using a Replacement Token:
 
 1. Place the cursor where the link to the VM will go in the lab instructions. 
-1. Click **@Lab** at the top of the text editor.
+1. Click **&commat;Lab** at the top of the text editor.
 1. Select the virtual machine to be used. (refer to the description column of the Replacement Token menu for VM details).
 1. Click **Insert**.
 
@@ -339,7 +339,7 @@ The **DVD Drive Replacement Token** provides a link for the lab user to insert a
 To add removable media to the lab instructions using a Replacement Token:
 
 1. Place the cursor where the link to the removable media will go in the lab instructions. 
-1. Click **@Lab** at the top of the text editor.
+1. Click **&commat;lab** at the top of the text editor.
 1. Select the removable media to be used. (refer to the description column of the Replacement Token menu for media type and details).
 1. Click **Insert**.
 
@@ -601,7 +601,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 ### Special formatting
 
-- **Variables**: Used to store information that is not known at the time of lab authoring. Variables use two Replacement tokens; **@lab.textbox(name)** and **@lab.Variable(name)**. **Use @lab.texbox(name) to define** the variable in the (name). **Use @lab.Variable(name) to recall** the information store in the variable. For example, you could create a variable with @lab.textbox(studentPassword) and ask the student to enter a password in the field. Later in the lab you could call back the student's password with @lab.Variable(studentPassword). This prevents the student from having to remember or write down their password, since it is stored in the lab by a variable. 
+- **Variables**: Used to store information that is not known at the time of lab authoring. Variables use two Replacement tokens; **&commat;lab.textbox(name)** and **&commat;lab.Variable(name)**. **Use &commat;lab.texbox(name) to define** the variable in the (name). **Use &commat;lab.Variable(name) to recall** the information store in the variable. For example, you could create a variable with &commat;lab.textbox(studentPassword) and ask the student to enter a password in the field. Later in the lab you could call back the student's password with &commat;lab.Variable(studentPassword). This prevents the student from having to remember or write down their password, since it is stored in the lab by a variable. 
 
     - Defining Variable in lab instruction editor view:
   
@@ -762,7 +762,7 @@ Although potentially any task could be reduced to an action that can be executed
 
 - **Replacement Token:** Used to replace text in lab instructions with a variable that is unknown at the time of authoring the lab instructions. These variables may not be generated or created until the lab is launched by the student. These can include usernames, user first name, user last name, running lab instance ID number, etc. 
 
-Replacement tokens use the syntax @lab._replacementTokenName_. You can see the list of all @lab replacement tokens available to your lab by simply editing the instructions, and clicking on the @lab button. 
+Replacement tokens use the syntax &commat;lab._replacementTokenName_. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button. 
 
    > | Replacement token           |                                          |
    > | --------------------------- | ---------------------------------------- |
