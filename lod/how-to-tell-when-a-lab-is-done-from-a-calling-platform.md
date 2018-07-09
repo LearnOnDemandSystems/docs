@@ -6,7 +6,6 @@ You can use a Life Cycle Action on the Tearing Down event, to call to an externa
 
 If you would like additional information, such as a scoring result, you could configure your external service to call the [Details API](../lod/lod-api/lod-api-details.md).
 
-
 ## Client-side
 
 There is an option if the student opens the lab from another window. The opener will be sent a **labDone** message from our lab client when the lab is torn down. 
