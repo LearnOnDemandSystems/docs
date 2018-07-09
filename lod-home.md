@@ -2,7 +2,7 @@
 
 Welcome to the OneLearn Lab on Demand platform!
 
-### Authoring lab instructions
+## Authoring lab instructions
 
 - [**IDLx Authoring Guide**](guides/idl2/idlv2-authoring-guide-and-best-practice.md) - This document covers Markdown, IDLx best practices, lab instruction editor interface, uploading files into your lab, and many other topics to assist with authoring your IDLx lab.
 
@@ -16,7 +16,7 @@ Welcome to the OneLearn Lab on Demand platform!
 
 - [**IDL (legacy)**](guides/idl/idlv3.md) - Legacy IDL Studio authoring guide and best practices
 
-### Cloud
+## Cloud
 
 * [**Create a Cloud Subscription**](lod/create-cloud-subscription.md) - Create a Cloud Subscription to use cloud-based labs with Lab on Demand
     
@@ -34,7 +34,7 @@ Welcome to the OneLearn Lab on Demand platform!
     
 * [**Replacement Tokens**](lod/feature-focus/cloud-resource-templates/replacement-tokens.md) - Replacement tokens use the syntax &commat;.replacementTokenName. You can see the list of all &commat; replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat; button.
 
-### Lab on Demand
+## Lab on Demand
 
 * [**Create a Lab Profile**](lod/feature-focus/lab-profiles/create.md) - Lab profile creation, and explanation of lab profile configuration.
     
