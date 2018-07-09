@@ -10,7 +10,7 @@ This document covers Markdown, IDLx best practices, lab instruction editor inter
 
 - [**Markdown user Guide**](guides/idl2/markdown-user-guide.md)
 
-    > This document covers Markdown in detail, including syntax for all supported Markdown.
+This document covers Markdown in detail, including syntax for all supported Markdown.
 
 - [**IDLx Activities**](lod/activities.md)
 
