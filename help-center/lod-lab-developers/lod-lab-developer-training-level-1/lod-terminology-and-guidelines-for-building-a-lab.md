@@ -76,9 +76,9 @@ When you are planning how to design your structure, you should consider the foll
 
 For a comprehensive guide on building lab content, review our authoring guides below.
 
-- IDLx Authoring Guide
+- [IDLx Authoring Guide](../../guides/idl2/idlv2-authoring-guide-and-best-practice.md)
 
-- IDL (legacy) Authoring Guide
+- [IDL (legacy) Authoring Guide](../../guides/idl/idlv3.md)
 
 
     
