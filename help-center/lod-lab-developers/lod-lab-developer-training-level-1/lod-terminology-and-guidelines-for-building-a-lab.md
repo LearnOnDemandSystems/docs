@@ -33,7 +33,7 @@ When you are planning how to design your structure, you should consider the foll
 
 1. Do you have more than one general topic, course, presentation, etc. that you want to use LOD for? 
 
-    >[KNOWLEDGE] You should build one Lab Series for each general topic, course, presentation, etc. This will make it easy to identify all the components that will be used for that topic, course, etc.
+    >[!KNOWLEDGE] You should build one Lab Series for each general topic, course, presentation, etc. This will make it easy to identify all the components that will be used for that topic, course, etc.
 
 1. Do you want your users to have one lab (one Lab Profile) to interact with all of optional lab components and complete all objectives? – OR – Do you want your users to have more than one lab (multiple Lab Profiles) and in each separate lab, interact with one or more of the optional components and complete a subset of objectives?
 
