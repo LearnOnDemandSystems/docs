@@ -32,7 +32,7 @@ Welcome to the OneLearn Lab on Demand platform!
     
 * [**Microsoft Azure Cloud Slice Setup Guide**](guides/cloud-slice/cloud-slice.md) - Comprehensive setup guide for configuring a Cloud Slice lab with Lab on Demand and Microsoft Azure. For a more guided walkthrough, please see our [Cloud Slice Quickstart](#building-your-first-cloud-clice-lab)
     
-* [**Replacement Tokens**](lod/feature-focus/cloud-resource-templates/replacement-tokens.md) - Replacement tokens use the syntax &commat;.replacementTokenName. You can see the list of all &commat; replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat; button.
+* [**Replacement Tokens**](lod/feature-focus/cloud-resource-templates/replacement-tokens.md) - Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat; replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.
 
 ## Lab on Demand
 
