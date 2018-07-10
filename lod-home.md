@@ -64,9 +64,7 @@ Welcome to the OneLearn Lab on Demand platform!
 
 Quick starts are a guided walkthrough, and allow you to fast track your learning experience, helping you get more value from the platform as quickly as possible.
 
-### Building your first Cloud Slice lab
-
-   > With the Cloud Slice feature, LOD is able to support cloud learning at scale. Learners are provided with a slice of a cloud subscription that they can use for the duration of their learning experience, limited however you configure it. This series of Quick Starts will walk you through every step required to create a feature-rich Cloud Slice lab.
+### Building your first Cloud Slice lab - With the Cloud Slice feature, LOD is able to support cloud learning at scale. Learners are provided with a slice of a cloud subscription that they can use for the duration of their learning experience, limited however you configure it. This series of Quick Starts will walk you through every step required to create a feature-rich Cloud Slice lab.
 
 |Duration|Quick Start|  
 |--:|:--|
