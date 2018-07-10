@@ -10,5 +10,4 @@ For LOD lab component terminology and guidelines for building Lab Series and Lab
 
 !IMAGE[How do I create a Lab Series](../../images/lab-series.png)
 
-For a visual demonstration, watch this video:
-[How do I create a Lab Series?](https://www.youtube.com/watch?v=9-IjaD0INzw).
+!VIDEO[How do I create a Lab Series?](https://www.youtube.com/watch?v=9-IjaD0INzw).

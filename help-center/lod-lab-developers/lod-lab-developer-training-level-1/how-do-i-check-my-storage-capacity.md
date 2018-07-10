@@ -10,5 +10,4 @@ To take a look at your storage, once you are logged in,
 
 !IMAGE[Text to display](../../images/view-storage.png)
 
-For a visual demonstration, watch this video:
-[How do I check my storage capacity?](https://www.youtube.com/watch?v=ziXixVkYuLg)
+!VIDEO[How do I check my storage capacity?](https://www.youtube.com/watch?v=ziXixVkYuLg)

@@ -45,4 +45,4 @@ The remaining tabs are:
 
 !IMAGE[How do I create a VM Profile](../../images/vm-profile.png)
 
-For a visual demonstration, watch this video: [How do I create a VM Profile?](https://www.youtube.com/watch?v=FCIp9TRDVYk)
+!VIDEO[How do I create a VM Profile?](https://www.youtube.com/watch?v=FCIp9TRDVYk)
