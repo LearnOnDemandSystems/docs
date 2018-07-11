@@ -25,7 +25,7 @@ Click to go to a specific section, or continue reading to learn more about creat
 - [Automated Activity](#automated-activity)
 - [Multiple Choice Question](#multiple-choice-questions)
 - [Short Answer Question](#short-answer-questions)
-- [Edit Activities](#edit-activities)
+- [Activity Management](#activity-management)
 - [Scoring](#scoring)
 
 ## Automated Activity
@@ -228,7 +228,7 @@ To enable Scoring in your lab:
 
 1. The student will be given the score value upon completing the Activity correctly. 
 
-## Edit Activities
+## Activity Management
 
 After Activities are created, they can be modified at any time, using the Activity editing menu. 
 
