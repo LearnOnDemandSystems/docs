@@ -18,7 +18,7 @@ All Amazon AWS accounts are added to LOD as part of a Cloud Subscription Pool. T
 
 1. [] Navigate to the <[Lab on Demand Administration page](/Admin).
 
-1. [] Click <[Cloud Subscription Pools](/CloudSubscriptionPool) on the Cloud Services tile.
+1. [] Click <[Subscription Pools](/CloudSubscriptionPool) on the Cloud Services tile.
 
     !IMAGE[Cloud Subscription Pools](images/lod-open-cloud-subscription-pools.png)
 
@@ -40,6 +40,7 @@ All Amazon AWS accounts are added to LOD as part of a Cloud Subscription Pool. T
     |--|--|--|
     |**Basic Information**|**Cloud Platform**|AWS|
     ||**Name**|A name of your choosing.|
+    ||**Organization**|Select the organization that will use the subscription|
     |**Authentication**|**AWS Access Key**|The access key ID from the csv file that you downloaded you configured your account in the previous Quick Start.|
     ||**AWS Secret Key**|The secret access key from the csv file that you downloaded when you configured your account in the previous Quick Start.|
 

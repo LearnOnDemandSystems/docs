@@ -23,6 +23,13 @@ To create an IAM user with administrator access in AWS, do the following:
 
 1. [] On step 2 of the Add user form, click **Attach existing policies directly**, check the **AdministratorAccess** policy in the policy list, and then click **Next: Review**.
 
+    >[!KNOWLEDGE] Optionally, you can also configure the following roles, if needed. 
+    > - AmazonEC2FullAccess
+    > - AmazonS3FullAccess
+    > - AmazonVPCFullAccess
+    > - AWSImportExportFullAccess
+
+
     ![Fill out step 2 of the create IAM user form](images/aws-create-iam-user-step-2.png)
 
 1. [] On step 3 of the Add user form, review the choices you made to ensure that they are correct, and then click **Create user**.
