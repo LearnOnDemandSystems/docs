@@ -24,33 +24,36 @@ All responses are formatted as JSON. A full explanation of each response is incl
 All dates are in unix epoch time, which is the number of seconds that have elapsed since midnight UTC January 1st, 1970. Values are always rounded to the nearest whole second.
 
 ## Commands
+- [Cancel](lod-api-cancel.md) - Cancels a specified lab instance.
+- [Catalog](lod-api-catalog.md) - Returns all lab series, lab profiles, and delivery regions available to your organization.
+- [Class](lod-api-class.md) - returns information about a class.
+- [CloseUserAccount](lod-api-close-user-account.md) - Allows an API consumer to close a user account created within the system removing all identifying information.
+- [DeleteClass](lod-api-delete-class.md) - deletes a specified class.
+- [DeliveryRegions](lod-api-delivery-regions.md) - Returns all delivery regions available to your organization.
+- [Details](lod-api-details.md) - Retrieves detailed information about a specified lab instance.
+- [GetEvaluationResponses](lod-api-get-evaluations-responses.md) - returns evaluation data for a specific evaluation.
+- [GetEvaluationResponsesForEvent](lod-api-get-evaluations-responses-for-event.md) - returns evaluation data for a specific event.
+- [GetOrCreateClass](lod-api-get-or-create-class.md) - returns information about a class. If the class doesn’t exist, it is created.
+- [LabProfile](lod-api-lab-profile.md) - Retrieves information about a specified lab profile.
+- [LatestResults](lod-api-latest-results.md) - returns information about all lab instance results that have recently started or ended.
 - [Launch](lod-api-launch.md) - Launches a specified lab for a specified user.
 - [LaunchAnonymous](lod-api-launch-anonymous.md) - Launches a specified lab without supplying user information.
-- [LaunchForEvent](lod-api-launch-for-event.md) - Launches a specified lab within an event.
-- [LaunchForEventByExternalId](lod-api-launch-for-event-by-external-id.md) - Launches a lab instance within an event using an - external lab identifier.
 - [LaunchAnonymousForEvent](lod-api-launch-anonymous-for-event.md) - Launches a specified lab within an event without supplying user information.
 - [LaunchAnonymousForEventByExternalId](lod-api-launch-for-event-by-external-id.md) - Launches a lab instance anonymously within an event using an external lab identifier.
-- [Cancel](lod-api-cancel.md) - Cancels a specified lab instance.
-- [Save](lod-api-save.md) - Saves a specified lab instance.
-- [Resume](lod-api-resume.md) - Resumes a specified lab instance.
-- [Details](lod-api-details.md) - Retrieves detailed information about a specified lab instance.
-- [SendNotification](lod-api-send-notification.md) - Sends a notification to a specified lab instance for the user to see.
-- [LabProfile](lod-api-lab-profile.md) - Retrieves information about a specified lab profile.
-- [Catalog](lod-api-catalog.md) - Returns all lab series, lab profiles, and delivery regions available to your organization.
-- [DeliveryRegions](lod-api-delivery-regions.md) - Returns all delivery regions available to your organization.
-- [RunningAndSavedLabs](lod-api-running-and-saved-labs.md) - Retrieves all labs that are currently running or saved.
-- [UserRunningAndSavedLabs](lod-api-user-running-and-saved-labs.md) - Retrieves all labs that are currently running or saved for a particular user account.
-- [Stats](lod-api-stats.md) - returns statistics about how many labs are currently active and saved.
+- [LaunchForEvent](lod-api-launch-for-event.md) - Launches a specified lab within an event.
+- [LaunchForEventByExternalId](lod-api-launch-for-event-by-external-id.md) - Launches a lab instance within an event using an - external lab identifier.
 - [Result](lod-api-result.md) - returns information about a particular lab instance result.
 - [Results](lod-api-results.md) - returns information about all lab instance results that started or ended within a specified time range.
-- [LatestResults](lod-api-latest-results.md) - returns information about all lab instance results that have recently started or ended.
-- [Class](lod-api-class.md) - returns information about a class.
-- [GetOrCreateClass](lod-api-get-or-create-class.md) - returns information about a class. If the class doesn’t exist, it is created.
+- [Resume](lod-api-resume.md) - Resumes a specified lab instance.
+- [RunningAndSavedLabs](lod-api-running-and-saved-labs.md) - Retrieves all labs that are currently running or saved.
+- [Save](lod-api-save.md) - Saves a specified lab instance.
+- [SendNotification](lod-api-send-notification.md) - Sends a notification to a specified lab instance for the user to see.
+- [Stats](lod-api-stats.md) - returns statistics about how many labs are currently active and saved.
 - [UpdateClass](lod-api-update-class.md) - updates a specified class.
-- [DeleteClass](lod-api-delete-class.md) - deletes a specified class.
-- [GetEvaluationResponsesForEvent](lod-api-get-evaluations-responses-for-event.md) - returns evaluation data for a specific event.
-- [GetEvaluationResponses](lod-api-get-evaluations-responses.md) - returns evaluation data for a specific evaluation.
-- [CloseUserAccount](lod-api-close-user-account.md) - Allows an API consumer to close a user account created within the system removing all identifying information.
+- [UpdateLabInstructions](lod-api-update-lab-instructions.md) - allows you to update the IDL-MD instructions of a lab.
+- [UpdateLabInstructionsPackage](lod-api-update-lab-instructions-package.md) - allows you to update the IDL-MD instructions of a lab by uploading a ZIP archive containing the instructions and any referenced files, such as images and videos.
+- [UserRunningAndSavedLabs](lod-api-user-running-and-saved-labs.md) - Retrieves all labs that are currently running or saved for a particular user account.
+
 
 ## API Client
 A .NET API client library is available via Nuget. This will allow you to use the API using only .NET code. 
