@@ -25,7 +25,7 @@ Click to go to a specific section, or continue reading to learn more about creat
 - [Automated Activity](#automated-activity)
 - [Multiple Choice Question](#multiple-choice-questions)
 - [Short Answer Question](#short-answer-questions)
-- [Edit Activities](#edit-activities)
+- [Activity Management](#activity-management)
 - [Scoring](#scoring)
 
 ## Automated Activity
@@ -44,7 +44,7 @@ Automated Activities are PowerShell or Shell scripts that target a Cloud Subscri
 
 - **Scored**: enables the question to be scored. Scoring must be enabled in your lab. [Scoring is covered below in this document](#scoring).
 
-- **Display Scripts as Task List**: enables the script to be displayed as a Task List. This is useful when there is more than one script configured on an Activity. 
+- **Display Scripts as Task List**: enables the script to be displayed as a Task List. This is useful when there is more than one script configured on an Activity. *Display Scripts as Task List* will take the **Text** field from each *Script* created within the activity and insert it in to the Instructions page with a box next to it that has a question mark. This is where users are able to manually run a check against those scripts to see if they are correct or not.  The boxes will then change to Green with a check for correct or Red with an X for incorrect and report any script output associated with them.
 
     > [!KNOWLEDGE] If **Display Scripts as Task List** is checked, On-Demand Evaluation will no longer be available for this Activity. 
 
@@ -228,7 +228,7 @@ To enable Scoring in your lab:
 
 1. The student will be given the score value upon completing the Activity correctly. 
 
-## Edit Activities
+## Activity Management
 
 After Activities are created, they can be modified at any time, using the Activity editing menu. 
 
