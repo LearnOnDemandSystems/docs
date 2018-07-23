@@ -53,6 +53,4 @@ The rest of the tabs are listed below and will covered in later articles and vid
 
 4. When you have filled out the required information on the Basic Information tab and the other tabs (if needed), click Save.
 
-!IMAGE[How do I create a Lab Profile](../../images/lab-profile.png)
-
 !VIDEO[How do I create a Lab Profile?](https://www.youtube.com/watch?v=KzdoZoQgGw0)

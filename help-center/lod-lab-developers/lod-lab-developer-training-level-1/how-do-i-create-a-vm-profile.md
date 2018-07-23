@@ -43,6 +43,4 @@ The remaining tabs are:
 |SCSI Adapters|One is provided and more can be added|
 |DVD-ROM Drives|One is provided and more can be added|
 
-!IMAGE[How do I create a VM Profile](../../images/vm-profile.png)
-
 !VIDEO[How do I create a VM Profile?](https://www.youtube.com/watch?v=FCIp9TRDVYk)

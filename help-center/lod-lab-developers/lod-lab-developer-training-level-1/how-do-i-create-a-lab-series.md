@@ -8,6 +8,4 @@ Once you are logged in:
 
 For LOD lab component terminology and guidelines for building Lab Series and Lab Profiles, please read the [LOD Terminology and Guidelines for Building a Lab article](lod-terminology-and-guidelines-for-building-a-lab.md).
 
-!IMAGE[How do I create a Lab Series](../../images/lab-series.png)
-
 !VIDEO[How do I create a Lab Series?](https://www.youtube.com/watch?v=9-IjaD0INzw).

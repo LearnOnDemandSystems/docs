@@ -8,6 +8,4 @@ To take a look at your storage, once you are logged in,
 1. On the Storage tile, click the **Manage Storage** link. This opens up the Storage page for your organization. 
 1. The **status bar** shows the amount of storage space in use as well as what is available to use.
 
-!IMAGE[Text to display](../../images/view-storage.png)
-
 !VIDEO[How do I check my storage capacity?](https://www.youtube.com/watch?v=ziXixVkYuLg)
