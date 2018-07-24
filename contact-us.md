@@ -25,15 +25,11 @@ Or contact us using one of the following methods:
 |Toll-free Phone|+1 888.763.7730 - only toll free in the US|
 |Phone|918-894-5067|
 |**International Phone Numbers**||
-|Belgium|+32 2.792.4604|
-|Denmark|+45 7.014.2081|
-|France|+33 1.703.87324|
-|Ireland|+35 3.165.30177|
-|Netherlands|+31 2.070.84551|
-|Norway|+47 8.522.8362|
-|Spain|+34 9.354.53168|
-|Sweden|+46 7.524.06001|
-|United Kingdom|+44 2.033.564932|
+|Australia|+61 1800 531 776|
+|Canada|+1 866-694-8215|
+|India|+91 08000402029|
+|Singapore|+65 800 852 6361|
+|United Kingdom|+44 800 029 3469|
 |**Sales**||
 |Toll-free Phone|888.763.7730|
 |Email|<a href="mailto:sales@learnondemandsystems.com">sales@learnondemandsystems.com</a>|
