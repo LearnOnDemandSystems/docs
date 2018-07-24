@@ -23,7 +23,7 @@ Or contact us using one of the following methods:
 |Email|<a href="mailto:support@learnondemandsystems.com">support@learnondemandsystems.com</a>|
 |Skype|labondemand|
 |Toll-free Phone|+1 888.763.7730 - only toll free in the US|
-|Phone|+1 727.264.1330|
+|Phone|918-894-5067|
 |**International Phone Numbers**||
 |Belgium|+32 2.792.4604|
 |Denmark|+45 7.014.2081|
@@ -36,6 +36,5 @@ Or contact us using one of the following methods:
 |United Kingdom|+44 2.033.564932|
 |**Sales**||
 |Toll-free Phone|888.763.7730|
-|Phone|1.918.876.4405|
 |Email|<a href="mailto:sales@learnondemandsystems.com">sales@learnondemandsystems.com</a>|
 |Skype|lodsales|
