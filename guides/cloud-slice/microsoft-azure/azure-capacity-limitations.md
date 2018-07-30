@@ -4,7 +4,7 @@
 
 Microsoft Azure has resource capacity limitations that should be considered in advance of training events or classes, to avoid running into limitations during the use of the Cloud Slice lab. After the class or event is scheduled, it is a good idea to estimate the amount of resources that will be needed during the event based on the number of lab users and the amount of resources that each lab user will need.
 
-A support request must be made to Microsoft to adjust the amount of resources that are available to use in the Azure subscription. Depending on the resources requested, the region requested and severity of the request, it may take an extended amount of time for the support request to be fulfilled by Microsoft. To learn more about Azure quotas, click here [Azure Quotas](https://docs.microsoft.com/en-us/azure/azure-subscription-service-limits).
+A support request must be made to Microsoft to adjust the amount of resources that are available to use in the Azure subscription. Depending on the resources requested, the region requested and severity of the request, it may take an extended amount of time for the support request to be fulfilled by Microsoft. To learn more about Azure subscription and service limits, and quotas, click here: [Azure subscription and service limits, quotas, and constraints](https://docs.microsoft.com/en-us/azure/azure-subscription-service-limits).
 
 Requests are typically fulfilled by Microsoft within a few hours, depending on the amount of resources requested and the region requested. In some cases, it can take Microsoft several days or weeks to fulfill some requests, based on demand for the resources requested.
 
