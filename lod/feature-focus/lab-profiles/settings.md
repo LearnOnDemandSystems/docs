@@ -91,6 +91,8 @@ To use network features, such as external internet access or communication betwe
 
 2. **Create Removable Media:** Click to create removable media. This will create removable media that can be used in the lab. Removable media types include Floppy and Optical.
 
+    > [!ALERT] When removable media is created, you must choose a platform that the removable media will be used on; Hyper-V or vSphere. The removable media is tagged in LOD with the platform. The media can only be used with the chosen platform. 
+
 ## Cloud
 
 1. **Add Cloud Credential Pool:** Click to add a Cloud Credential Pool to the lab profile. The pool must already be created to add it to the lab profile using this button.
