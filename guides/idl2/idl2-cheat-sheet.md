@@ -42,6 +42,7 @@
 | Portal Link       |  `<[Text to display](URL)`     | 
 | Image Link        |  `IMAGE[Text to display](URL)`| 
 | Video Link        |  `VIDEO[Text to display](URL)`| 
+| Image Dimensions  | `{heightXwidth}` or `{height}` (width will be calculated automatically) |
 |<BR> | |
  |<font size="3">**Special**</font>|                                          |
 | Knowledge Block        | `>[!KNOWLEDGE] Knowledge blocks help students learn more` |
