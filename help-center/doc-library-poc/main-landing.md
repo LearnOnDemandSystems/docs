@@ -51,6 +51,4 @@
 - [Lab on Demand](./lod-landing.md "One fish")
 - [Training Management System](./tms-landing.md "Two fish")
 - [Student Experience](./student-landing.md "Three fish")
-- [Troubleshooting](./troubleshooting-landing.md "Four fish")
-
 :::
