@@ -91,7 +91,7 @@
     padding-right: 12px;
     border-left: 6px solid #e0e0e0;
 }
-.directory a:hover {
+.a:hover {
     border-left: 6px solid #00a4f3;
     text-decoration: underline;
 	cursor: pointer;
@@ -100,7 +100,7 @@
 </style>
 
 :::Getting Started
-## Docs Directory
+## Getting Started
 - [Amazon Web Services](./dotnet-page.md "Creating labs that teach .NET programming")
 - [ASP.NET](./aspnet-page.md "Creating labs that teach how to create a web site")
 - [Azure](./azure-page.md "Creating Azure labs")
