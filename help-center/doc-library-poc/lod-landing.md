@@ -99,7 +99,7 @@
 
 </style>
 
-:::directory
+:::Getting Started
 ## Docs Directory
 - [Amazon Web Services](./dotnet-page.md "Creating labs that teach .NET programming")
 - [ASP.NET](./aspnet-page.md "Creating labs that teach how to create a web site")
