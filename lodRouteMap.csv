@@ -1,0 +1,3 @@
+route,target
+/,/lod/home.md
+/LabProfile/Create,/lod/feature-focus/lab-profiles/create.md
