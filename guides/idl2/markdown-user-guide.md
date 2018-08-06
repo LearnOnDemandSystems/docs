@@ -145,6 +145,11 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
   > \!IMAGE[text to display]\(url)
 
+- **Image Dimensions**: You can specify image dimensions in your lab. Dimension values are in pixels and are placed inside curly braces, immediately after the end of the link URL syntax. Height and width are separated by a "x" in this format:{widthxheight}
+It's also possible to simply supply the width: {width}. In this case, the height is automatically calculated for you to be proportional to the provided width.
+
+  > `{widthXheight}` or `{width}`
+
 - **Video:** Used to embed an image inline with other content. The syntax format should look the same as an image, except the video should begin with a ! (explanation mark), followed by the word VIDEO (all caps).
 
   > \!VIDEO[text to display]\(url)
@@ -418,21 +423,21 @@ Although potentially any task could be reduced to an action that can be executed
 
   > | Replacement token           |                                          |
   > | --------------------------- | ---------------------------------------- |
-  > | `lab.LabInstanceId`        | The unique ID of the running lab instance. |
-  > | `lab.GlobalLabInstanceId`    | The globally unique ID of the running lab instance. |
-  > | `lab.LabProfileId`           | The unique ID of the lab profile.        |
-  > | `lab.UserId`                 | The unique ID of user running the lab.   |
-  > | `lab.UserFirstName`          | The first name of the user running the lab. |
-  > | `lab.UserLastName`           | The last name of the user running the lab. |
-  > | `lab.UserEmail`              | The e-mail address of the user running the lab. |
-  > | `lab.UserExternalId`         | The external ID of the user running the lab (if launched via API). |
+  > | `lab.LabInstance.Id`        | The unique ID of the running lab instance. |
+  > | `lab.LabInstance.GlobalId`    | The globally unique ID of the running lab instance. |
+  > | `lab.LabProfile.Id`           | The unique ID of the lab profile.        |
+  > | `lab.User.Id`                 | The unique ID of user running the lab.   |
+  > | `lab.User.FirstName`          | The first name of the user running the lab. |
+  > | `lab.User.LastName`           | The last name of the user running the lab. |
+  > | `lab.User.Email`              | The e-mail address of the user running the lab. |
+  > | `lab.User.ExternalId`         | The external ID of the user running the lab (if launched via API). |
   > | `lab.Tag`                    | The tag associated with the lab instance (if specified when launched via API). |
-  > | `lab.CloudPortalLink`        | A link to the cloud portal.              |
-  > | `lab.CloudPortalUrl`         | The cloud portal URL (rendered as text, not a link). |
-  > | `lab.CloudPortalSignInLink` | A cloud portal sign-in link.             |
-  > | `lab.CloudPortalSignInUrl`   | The cloud portal sign-in URL (rendered as text, not a link). |
-  > | `lab.CloudPortalSignOutLink` | A cloud portal sign-out link.            |
-  > | `lab.CloudPortalSignOutUrl`  | The cloud portal sign-out URL (rendered as text, not a link). |
+  > | `lab.CloudPortal.Link`        | A link to the cloud portal.              |
+  > | `lab.CloudPortal.Url`         | The cloud portal URL (rendered as text, not a link). |
+  > | `lab.CloudPortal.SignInLink` | A cloud portal sign-in link.             |
+  > | `lab.CloudPortal.SignInUrl`   | The cloud portal sign-in URL (rendered as text, not a link). |
+  > | `lab.CloudPortal.SignOutLink` | A cloud portal sign-out link.            |
+  > | `lab.CloudPortal.SignOutUrl`  | The cloud portal sign-out URL (rendered as text, not a link). |
   > | `lab.VirtualMachine(VM-ID).SelectLink` | A link to select the (VM-ID) virtual machine |
   > | `lab.VirtualMachine(VM-ID).Username` | Username for signing into the (VM-ID) virtual machine. |
   > | `lab.VirtualMachine(VM-ID).Password` | Password for signing into the (VM-ID) virtual machine. |
