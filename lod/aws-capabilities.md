@@ -1,7 +1,7 @@
 # AWS Capabilities 
 
 ## Currently Supported
-|Service Name|Service Prefix||
+|Service Name|Service Prefix|||
 |:---|:---|:---|:---|
 [Amazon EC2](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_identityandaccessmanagement.html)|ec2||||
 [Identity And Access Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_identityandaccessmanagement.html)|iam||||
