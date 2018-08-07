@@ -1,8 +1,8 @@
 # How to get scoring results from LOD via LTI Outcomes
 
-In LTI, the learning system being used by a student is referred to as the LTI Consumer, and the external tool or service that is being integrated into that learning system is referred to as the LTI Provider. This LTI support is what allows external course authors to integrate rich Lab on Demand content directly into their learning solution. Since LTI is a standard protocol, Lab on Demand content can be integrated into any learning system that supports the LTI standard as an LTI Consumer.
+In LTI, the learning system being used by a student is referred to as the **LTI Consumer**, and the external tool or service that is being integrated into that learning system is referred to as the **LTI Provider**. This LTI support is what allows external course authors to integrate rich Lab on Demand content directly into their learning solution. Since LTI is a standard protocol, Lab on Demand content can be integrated into any learning system that supports the LTI standard as an LTI Consumer.
 
-To integrate content from an LTI Provider into an LTI Consumer, the following information is required:
+To integrate content from an **LTI Provider** into an **LTI Consumer**, the following information is required:
 
 - LTI Client Key – this is the account identifier for the LTI Provider, which allows LTI Consumers to identify the account needed to access LTI Provider content; for OneLearn Lab on Demand, this is referred to as the LTI Key
 - LTI Client Secret – this is the password/passcode used to authenticate to the LTI Provider account; for OneLearn Lab on Demand, this is referred to as the LTI Secret
@@ -11,6 +11,10 @@ To integrate content from an LTI Provider into an LTI Consumer, the following in
 If you are an existing customer of Learn on Demand Systems and you want to launch your labs via LTI, request the LTI Key and LTI Secret for your lab(s) from support@learnondemandsystems.com.
 
 Once you have these pieces of information in hand, you can begin integrating your Lab on Demand lab into an external course.
+
+## Integrating Content
+
+Integrating with edX: [Integrating with edX](../guides/lti/lod-lti.md)
 
 ## LTI Scoring
 
@@ -45,3 +49,4 @@ If you have IDL Content in the lab and select **Tasks Complete**, the scoring wi
 - **Pass/Fail** with **Minimum Tasks Complete**, which represents the percentage of tasks the student needs to mark complete (click **Done**) to pass the lab.
 
   ![alt text](images/scoring-format-tasks-complete-minimum-tasks-complete.png )
+
