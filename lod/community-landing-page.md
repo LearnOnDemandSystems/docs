@@ -1,7 +1,5 @@
 # Lab on Demand Author Community
 
-!IMAGE[lods.jpg](lods.jpg)
-
 Join our new Slack community to engage with other lab authors.  Get help from fellow authors with discussions, suggestions and announcements.
 
 <style>
