@@ -12,4 +12,4 @@ To open the reporting:
  
 !IMAGE(.\images\find-attendance.png)
 
-The report's filters and output options can be adjusted to report the data you need and then you can export the data to Excel.
+The report's filters and output options can be adjusted to report the data you need and then you can export the data to Excel. 

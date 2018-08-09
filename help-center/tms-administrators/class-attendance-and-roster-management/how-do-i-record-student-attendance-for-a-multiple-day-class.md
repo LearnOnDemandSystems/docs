@@ -14,4 +14,4 @@ To open the **Attendance Chart**:
 
 !IMAGE(.\images\attendance-chart.png)
 
-Please note, the class start date and time is the trigger to display the attendance chart link.
+Please note, the class start date and time is the trigger to display the attendance chart link. 
