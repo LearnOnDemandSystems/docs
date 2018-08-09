@@ -7,6 +7,6 @@ You can go directly to the attendance chart on the Class profile for all student
 To open the reporting:
 1. On the **Site Administration** page, go to the **Class Enrollments** tile and click **Find Class Attendance**. Each class session for each student is a separate row in the search results. A 5 day class has 5 separate rows for each student enrolled in the class. The Attended column shows whether the student attended or not.
 
-!IMAGE[Find Attendance](https://github.com/LearnOnDemandSystems/docs/blob/doc-library/help-center/images/find-attendance.png)
+![Search for Attendance records](./images/find-attendance.png)
 
 The report's filters and output options can be adjusted to report the data you need. And the data can be exported to Excel.
