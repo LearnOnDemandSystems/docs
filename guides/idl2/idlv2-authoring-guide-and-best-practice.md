@@ -1043,7 +1043,7 @@ To access this menu, simply click the **Activities Icon**
 
 - **Insert**: click to insert the Activity in your current position in the lab instruction editor. 
 
-<!-->
+<!--
 ## Add Review Questions as an Assessment Exam to a Lab
 
 Each lab, regardless of whether it has content, can provide an optional exam at the end of lab. This can serve a number of purposes: to reinforce learning, to measure retention of concepts, to provide metrics on effectiveness of lab delivery, etc. Exams are categorized by the type of scoring used; there are three to choose from:

@@ -167,7 +167,7 @@ and then save the lab profile. (Use Legacy Format only for IDL (legacy) labs)
 
     ![Check the Has IDL Content check box](media/integration/instructions-checkbox.png "Check the Has IDL Content check box")
 
-2. Click on the **Cloud tab**, then click **Configure GitHub
+2. Click on the **Advanced tab**, then click **Configure GitHub
 Repository**.
 
     ![Configure GitHub Repository](media/integration/02-configure-github-repository.png "Configure GitHub Repository")
