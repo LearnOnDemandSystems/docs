@@ -114,7 +114,7 @@ If you are writing a longer lab, you may want to use exercises as containers for
 
 - Begin each task with an introductory sentence that states the outcome of the task.
 
-    ![image1](images/image1.png "In this task, you will...")
+    !IMAGE[image1](images/image1.png "In this task, you will...")
 
     _Provide some background or context, and then state what you will do in the task._
 
@@ -146,18 +146,18 @@ The IDLx environment provides markdown characters that define the format of your
 
 -   Use the Heading 1 style for the opening title of your lab or for an exercise or task heading that begins on a new page.
 
-    ![](images/image2.png) 
+    !IMAGE[](images/image2.png) 
 
     _Page break and Heading 1 markdown_
 
-    ![](images/image3.png)
+    !IMAGE[](images/image3.png)
 
     _Heading 1 format in the UI_
 
 
 -   Text that uses the Heading 1 style will display the heading text in the navigation buttons at the bottom of a page, as long as the heading contains a maximum of 40 characters.
 
-    ![](images/image4.png)
+    !IMAGE[](images/image4.png)
 
     _Navigation button_
 
@@ -167,11 +167,11 @@ The IDLx environment provides markdown characters that define the format of your
 
 - Use Heading 2 style for tasks that are all on the same page.
 
-   ![](images/image5.png)
+   !IMAGE[](images/image5.png)
 
     _Heading 2 markdown_
 
-    ![](images/image6.png)
+    !IMAGE[](images/image6.png)
 
     _Heading 2 format in the UI_
 
@@ -208,11 +208,11 @@ There are two available options for copyable text: *Copy to clipboard* and *Type
 
 The Copy to clipboard feature in the markdown allows you to define text or code items that a user can copy from the manual and paste into a web browser in the lab environment. To use the Copy to clipboard feature, surround the ++copyable text++ with two + signs.
 
-![](images/image7.png) 
+!IMAGE[](images/image7.png) 
 
 _The Copy to clipboard feature configured in the IDLx markdown_
 
-![](images/image9.png)
+!IMAGE[](images/image9.png)
 
 _Copy to clipboard displayed in the UI_
 
@@ -220,11 +220,11 @@ _Copy to clipboard displayed in the UI_
 
 The Type Text feature in the markdown is used in a virtual machine environment and allows a user to enter text or code items directly into a virtual machine. To use the Type Text feature, surround the +++copyable text+++ with three + signs.
 
-![](images/image11.png) 
+!IMAGE[](images/image11.png) 
 
 _The Type Text configured in the IDLx markdown_
 
-![](images/image13.png)
+!IMAGE[](images/image13.png)
 
 _Type Text displayed in the UI_
 
@@ -242,11 +242,11 @@ Numbering makes the steps in a task easier for a user to read. In a step-by-step
 
 -   Users can select the checkbox to track their progress through a lab.
 
-    ![](images/image15.png) 
+    !IMAGE[](images/image15.png) 
 
     _Numbered list in the IDLx markdown_
 
-    ![](images/image16.png)
+    !IMAGE[](images/image16.png)
 
     _Numbered list displayed in the UI_
 
@@ -256,11 +256,11 @@ Numbering makes the steps in a task easier for a user to read. In a step-by-step
 
 -   Bullets are useful for informational text, but are harder for a user to follow in a step-by-step lab.
 
-    ![](images/image17.png) 
+    !IMAGE[](images/image17.png) 
 
     _Bulleted list in the markdown_ 
 
-    ![](images/image18.png)
+    !IMAGE[](images/image18.png)
 
     _Bulleted list displayed in the UI_
 
@@ -268,7 +268,7 @@ Numbering makes the steps in a task easier for a user to read. In a step-by-step
 
 - The IDLx displays both the markdown and a preview of the user experience. To ensure that you are viewing a preview of the user experience, in the IDLx editor, on the toolbar, select **Options**, and then turn off **Sync Preview Location**.
 
-    ![](images/image19.png) 
+    !IMAGE[](images/image19.png) 
     
     _IDLx Editor Options_
 
@@ -276,30 +276,30 @@ Numbering makes the steps in a task easier for a user to read. In a step-by-step
 
 - An extra space before the number 1 will cause the numbered list to display as a second level number.
 
-    ![](images/image20.png) 
+    !IMAGE[](images/image20.png) 
     
     _Second level number in the IDLx_ 
 
-    ![](images/image21.png) 
+    !IMAGE[](images/image21.png) 
     
     _Second level number displayed in the UI_
 
 - When you use learning features like notes or knowledge items or images between steps in a numbered list, you must indent the learning item in order to maintain the automatic numbering.
 
-    ![](images/image22.png) 
+    !IMAGE[](images/image22.png) 
     
     _Correctly indented knowledge block displayed in the UI_ 
 
 
-    ![](images/image24.png) 
+    !IMAGE[](images/image24.png) 
 
     _Correctly indented knowledge block in the IDLx_
 
-    ![](images/image23.png) 
+    !IMAGE[](images/image23.png) 
     
     _Incorrectly indented knowledge block displayed in the UI_
 
-    ![](images/image25.png) 
+    !IMAGE[](images/image25.png) 
 
     _Incorrectly indented knowledge block in the IDLx_
 
@@ -329,17 +329,17 @@ In the IDLx, you need to maintain a clean, easy-to-read document layout. You wan
 
     - In the IDLx, use two asterisks (\*\*) on either side of the text to which you want to apply bold format --- for example, **\*\*Item to format\*\***.
 
-    ![](images/image26.png)
+    !IMAGE[](images/image26.png)
 
-    ![](images/image27.png)
+    !IMAGE[](images/image27.png)
 
 -   If you are using the ++Copy to clipboard++ or the +++Type Text+++ features, do not apply bold formatting. These features make the need for user interaction obvious.
 
-    ![](images/image13.png) 
+    !IMAGE[](images/image13.png) 
 
     _Type text in the IDLx editor_  
 
-    ![](images/image11.png)
+    !IMAGE[](images/image11.png)
 
     _Type text displayed in the UI_
 
@@ -347,11 +347,11 @@ In the IDLx, you need to maintain a clean, easy-to-read document layout. You wan
 
 -   In the IDLx, use one asterisk (\*) or an underscore on either side of the text to which you want to apply italic format. For example, *\_Item to format\_*.
 
-    ![](images/image28.png) 
+    !IMAGE[](images/image28.png) 
     
     _Use underscores or one asterisk for Italic format in the IDLx_
 
-    ![](images/image29.png)
+    !IMAGE[](images/image29.png)
 
     _Italics displayed in the UI_
 
@@ -371,16 +371,16 @@ Variables are used to store information that is not known when you write your la
 
 - In the following example, you create a variable using \@lab.textbox(studentPassword) and then ask the user to record a password in the text box.
 
-    > ![](images/image31.png) 
+    !IMAGE[](images/image31.png) 
 
    _Variable stored and used in the IDLx_ 
 
-    ![](images/image32.png)
+    !IMAGE[](images/image32.png)
 
     _Variable recorded and retrieved in the UI_
 
  Later in the lab, you retrieve the password with \@lab.Variable(studentPassword).  
-> This reuse saves time for users and eliminates the need to ask the user to record the password in a text editor.
+This reuse saves time for users and eliminates the need to ask the user to record the password in a text editor.
 
 ## Use embedded URLs for additional information
 
@@ -392,11 +392,11 @@ An external URL uses the format \[External link\](URL "Optional link title"). Th
 
 - For readability, try to use the text for the link in a sentence. The following sample shows an embedded URL that contains a tool tip.
 
-    ![](images/image33.png) 
+    !IMAGE[](images/image33.png) 
 
     _Embedded URL in the IDLx markup_
     
-    ![](images/image34.png)
+    !IMAGE[](images/image34.png)
 
     _URL with a tooltip displayed in the UI*_
 
@@ -408,11 +408,11 @@ Screenshots can often tell your story more accurately than words. Use them to pr
 
 - In the IDLx, you use the syntax **!IMAGE\[Text to display\](URL)** to configure a URL.
 
-    ![](images/image35.png) 
+    !IMAGE[](images/image35.png) 
 
     _Image syntax in the IDLx_ 
 
-    ![](images/image36.png)
+    !IMAGE[](images/image36.png)
 
     _Image displayed in the UI_
 
@@ -442,11 +442,11 @@ Each type of special markdown item has a specific purpose and uses a specific ic
 
 - The following screenshots show the different types of special markdown items and the icons used:
 
-    ![](images/image37.png) 
+    !IMAGE[](images/image37.png) 
 
     _Special markdown items in the IDLx_
     
-    ![](images/image39.png)
+    !IMAGE[](images/image39.png)
 
     _Special markdown items and their icons in the UI_
 
@@ -458,11 +458,11 @@ Each type of special markdown item has a specific purpose and uses a specific ic
 
 -   Incorrect indentation will cause the markdown text to be displayed rather than the icon.
 
-    ![](images/image41.png) 
+    !IMAGE[](images/image41.png) 
 
     _Knowledge block incorrectly indented in the IDLx_
     
-    ![](images/image42.png)
+    !IMAGE[](images/image42.png)
 
     _Incorrectly indented knowledge block in the UI_
 
@@ -480,11 +480,11 @@ The most commonly used table display in the IDLx is a two column table that cont
 
 -   The settings are all items with which a user interacts, so they should either use copyable text or bold format.
 
-    ![](images/image43.png) 
+    !IMAGE[](images/image43.png) 
 
     _Correctly indented table in the markdown_ 
     
-    ![](images/image45.png)
+    !IMAGE[](images/image45.png)
 
     _Table headings are displayed in bold in the UI_
 
