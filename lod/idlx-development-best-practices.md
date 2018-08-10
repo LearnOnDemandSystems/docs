@@ -4,7 +4,7 @@ This best practices guide is intended for lab authors who are creating labs usin
 
 This guide will provide you with best practices and tips for working with some of the most commonly used lab development features of the IDLx.
 
-# Language and documentation best practices
+## Language and documentation best practices
 
 This section contains some best practices and tips for writing a successful lab.
 
@@ -171,7 +171,7 @@ The IDLx environment provides markdown characters that define the format of your
 
     _Heading 2 markdown_
 
-    ![](images/image6.png)Use the Heading 2 style for tasks that are all on the same page.
+    ![](images/image6.png)
 
     _Heading 2 format in the UI_
 
@@ -369,17 +369,17 @@ Variables are used to store information that is not known when you write your la
 
 -   Use **\@lab.Variable(name)** to recall the information stored in the variable.
 
-> In the following example, you create a variable using >\@lab.textbox(studentPassword) and then ask the user to >record a password in the text box.
->
+- In the following example, you create a variable using \@lab.textbox(studentPassword) and then ask the user to record a password in the text box.
+
     > ![](images/image31.png) 
->
->   _Variable stored and used in the IDLx_ 
->
->    ![](images/image32.png)
->
->    _Variable recorded and retrieved in the UI_
->
-> Later in the lab, you retrieve the password with \@lab.Variable(studentPassword).  
+
+   _Variable stored and used in the IDLx_ 
+
+    ![](images/image32.png)
+
+    _Variable recorded and retrieved in the UI_
+
+ Later in the lab, you retrieve the password with \@lab.Variable(studentPassword).  
 > This reuse saves time for users and eliminates the need to ask the user to record the password in a text editor.
 
 ## Use embedded URLs for additional information
@@ -503,4 +503,3 @@ The most commonly used table display in the IDLx is a two column table that cont
 In this best practices guide, you have seen some of the best practices and tips for working with the most commonly used lab development features of the IDLx.
 
 For more information on creating an IDLx lab, consult the help text in the IDLx environment.
-
