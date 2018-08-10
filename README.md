@@ -38,7 +38,7 @@ If instead you would like to _learn_ how to use Lab on Demand, log on to [labond
 
 #### Lab Authoring
 
-- [IDLx Lab Development Best Practices](lod/vm-based-lab-build-best-practices.md)
+- [IDLx Lab Development Best Practices](lod/idlx-development-best-practices.md)
 
 - [IDLx Authoring Guide](guides/idl2/idlv2-authoring-guide-and-best-practice.md)
 
