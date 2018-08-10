@@ -36,7 +36,7 @@ If instead you would like to _learn_ how to use Lab on Demand, log on to [labond
 
 - [Virtual Machine Based Lab Development - Best Practices]()
 
-- Deploy a Linux VM on Azure using a Resource Template
+- [Deploy a Linux VM on Azure using a Resource Template](lod/quick-starts/linux)
 
 #### Lab Authoring
 
