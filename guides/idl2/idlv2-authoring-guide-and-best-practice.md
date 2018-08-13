@@ -1189,9 +1189,6 @@ Initial caps mean capitalizing the first letter of a word. Use initial caps for:
 
 -   Proper names (the Insert menu)
 
--   “Web” when referring to the World Wide Web and to a corporate Web
-    (intranet)
-
 -   “Wizard” when used as part of a proper name of a wizard (for
     example, the Answer Wizard)
 
