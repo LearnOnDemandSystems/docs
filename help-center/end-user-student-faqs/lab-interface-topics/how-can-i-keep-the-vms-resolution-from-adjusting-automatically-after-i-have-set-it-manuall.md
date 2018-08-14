@@ -4,12 +4,12 @@ Some labs have the VMs setup to automatically change the resolution to match the
 
 To ensure the VM’s resolution retains your setting:
 
-1. [] Click the Support tab on the right side of the lab interface. 
+1. Click the Support tab on the right side of the lab interface. 
 
-1. [] Uncheck the Auto-adjust screen resolutions field. 
+1. Uncheck the Auto-adjust screen resolutions field. 
 
-1. [] Right-click the desktop of the VM you want to change
+1. Right-click the desktop of the VM you want to change
 
-1. [] Set the resolution to the desired setting using the VM's operating system.
+1. Set the resolution to the desired setting using the VM's operating system.
 
 > [!KNOWLEDGE] This can cause problems with dialog boxes and other windows which may have a larger resolution than you set and could cause some items to be off screen or cause scroll bars to appear.
