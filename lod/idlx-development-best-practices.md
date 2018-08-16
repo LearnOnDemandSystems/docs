@@ -1,6 +1,6 @@
 # IDLx Lab Development Best Practices
 
-This best practices guide is intended for lab authors who are creating labs using the Integrated Digital Lab eXperience (IDLx) platform. The IDLx provides lab authors with the ability to enhance the user experience with contextual learning material and graphics while keeping a user focused on the tasks in the lab.
+This best practices guide is intended for lab authors who are creating labs using the Integrated Digital Lab eXperience (IDLx) platform. IDLx provides lab authors with the ability to enhance the user experience with contextual learning material and graphics while keeping a user focused on the tasks in the lab.
 
 This guide will provide you with best practices and tips for working with some of the most commonly used lab development features of the IDLx.
 
@@ -40,13 +40,13 @@ A user may only read the first part of a sentence. If you start with the explana
 
 ### Use one sentence per step
 
-Lab instructions should only contain one sentence per step. This is particularly important in the IDLx environment.
+Lab instructions should only contain one sentence per step. This is particularly important in IDLx environment.
 
 Visually, each numbered step is a task that your user must complete. You can combine two short actions into one step if they are both part of the same task.
 
 -   Always use complete sentences.
 
--   Use a knowledge block in the IDLx if you have additional information that you want to convey to users. This provides a visual separation between your instructional step and the additional information.
+-   Use a knowledge block in IDLx if you have additional information that you want to convey to users. This provides a visual separation between your instructional step and the additional information.
 
 ### What's in it for me
 
@@ -114,7 +114,7 @@ If you are writing a longer lab, you may want to use exercises as containers for
 
 - Begin each task with an introductory sentence that states the outcome of the task.
 
-    !IMAGE[image1](images/image1.png "In this task, you will...")
+    ![image1](images/image1.png "In this task, you will...")
 
     _Provide some background or context, and then state what you will do in the task._
 
@@ -140,24 +140,24 @@ This section contains tips for working with markdown and content formatting in t
 
 A good heading tells users what they will do in an upcoming task or exercise. When you are writing your headings, start with a verb, and use articles like "*a"* and "*the"*.
 
-The IDLx environment provides markdown characters that define the format of your headings. Each heading style is defined by a **\#** symbol in the IDLx markdown.
+The IDLx environment provides markdown characters that define the format of your headings. Each heading style is defined by a **\#** symbol in IDLx markdown.
 
 \#Heading 1 
 
 -   Use the Heading 1 style for the opening title of your lab or for an exercise or task heading that begins on a new page.
 
-    !IMAGE[](images/image2.png) 
+    ![](images/image2.png) 
 
     _Page break and Heading 1 markdown_
 
-    !IMAGE[](images/image3.png)
+    ![](images/image3.png)
 
     _Heading 1 format in the UI_
 
 
 -   Text that uses the Heading 1 style will display the heading text in the navigation buttons at the bottom of a page, as long as the heading contains a maximum of 40 characters.
 
-    !IMAGE[](images/image4.png)
+    ![](images/image4.png)
 
     _Navigation button_
 
@@ -167,11 +167,11 @@ The IDLx environment provides markdown characters that define the format of your
 
 - Use Heading 2 style for tasks that are all on the same page.
 
-   !IMAGE[](images/image5.png)
+   ![](images/image5.png)
 
     _Heading 2 markdown_
 
-    !IMAGE[](images/image6.png)
+    ![](images/image6.png)
 
     _Heading 2 format in the UI_
 
@@ -208,11 +208,11 @@ There are two available options for copyable text: *Copy to clipboard* and *Type
 
 The Copy to clipboard feature in the markdown allows you to define text or code items that a user can copy from the manual and paste into a web browser in the lab environment. To use the Copy to clipboard feature, surround the ++copyable text++ with two + signs.
 
-!IMAGE[](images/image7.png) 
+![](images/image7.png) 
 
-_The Copy to clipboard feature configured in the IDLx markdown_
+_The Copy to clipboard feature configured in IDLx markdown_
 
-!IMAGE[](images/image9.png)
+![](images/image9.png)
 
 _Copy to clipboard displayed in the UI_
 
@@ -220,17 +220,17 @@ _Copy to clipboard displayed in the UI_
 
 The Type Text feature in the markdown is used in a virtual machine environment and allows a user to enter text or code items directly into a virtual machine. To use the Type Text feature, surround the +++copyable text+++ with three + signs.
 
-!IMAGE[](images/image11.png) 
+![](images/image11.png) 
 
-_The Type Text configured in the IDLx markdown_
+_The Type Text configured in IDLx markdown_
 
-!IMAGE[](images/image13.png)
+![](images/image13.png)
 
 _Type Text displayed in the UI_
 
 ## Create numbered steps and bullets
 
-Numbering makes the steps in a task easier for a user to read. In a step-by-step lab, you can use the automatic numbering feature in the IDLx. Numbered steps can also use checkboxes to help users track their progress through the lab.
+Numbering makes the steps in a task easier for a user to read. In a step-by-step lab, you can use the automatic numbering feature in IDLx. Numbered steps can also use checkboxes to help users track their progress through the lab.
 
 ### Define numbered lists
 
@@ -242,11 +242,11 @@ Numbering makes the steps in a task easier for a user to read. In a step-by-step
 
 -   Users can select the checkbox to track their progress through a lab.
 
-    !IMAGE[](images/image15.png) 
+    ![](images/image15.png) 
 
-    _Numbered list in the IDLx markdown_
+    _Numbered list in IDLx markdown_
 
-    !IMAGE[](images/image16.png)
+    ![](images/image16.png)
 
     _Numbered list displayed in the UI_
 
@@ -256,52 +256,51 @@ Numbering makes the steps in a task easier for a user to read. In a step-by-step
 
 -   Bullets are useful for informational text, but are harder for a user to follow in a step-by-step lab.
 
-    !IMAGE[](images/image17.png) 
+    ![](images/image17.png) 
 
     _Bulleted list in the markdown_ 
 
-    !IMAGE[](images/image18.png)
+    ![](images/image18.png)
 
     _Bulleted list displayed in the UI_
 
 #### Tips for working with automatic numbering
 
-- The IDLx displays both the markdown and a preview of the user experience. To ensure that you are viewing a preview of the user experience, in the IDLx editor, on the toolbar, select **Options**, and then turn off **Sync Preview Location**.
+- IDLx displays both the markdown and a preview of the user experience. To ensure that you are viewing a preview of the user experience, in the IDLx editor, on the toolbar, select **Options**, and then turn off **Sync Preview Location**.
 
-    !IMAGE[](images/image19.png) 
+    ![](images/image19.png) 
     
     _IDLx Editor Options_
 
-- Always check your automatic numbering in the preview to make sure that your markdown is correct. If you are creating your markdown in a markdown editor outside of the IDLx, make sure that you paste your markdown into the IDLx editor, and then review your content in the preview window, making any adjustments needed to correct your markdown.
+- Always check your automatic numbering in the preview to make sure that your markdown is correct. If you are creating your markdown in a markdown editor outside of IDLx, make sure that you paste your markdown into the IDLx editor, and then review your content in the preview window, making any adjustments needed to correct your markdown.
 
 - An extra space before the number 1 will cause the numbered list to display as a second level number.
 
-    !IMAGE[](images/image20.png) 
+    ![](images/image20.png) 
     
-    _Second level number in the IDLx_ 
+    _Second level number in IDLx_ 
 
-    !IMAGE[](images/image21.png) 
+    ![](images/image21.png) 
     
     _Second level number displayed in the UI_
 
 - When you use learning features like notes or knowledge items or images between steps in a numbered list, you must indent the learning item in order to maintain the automatic numbering.
 
-    !IMAGE[](images/image22.png) 
+    ![](images/image22.png) 
     
     _Correctly indented knowledge block displayed in the UI_ 
 
+    ![](images/image24.png) 
 
-    !IMAGE[](images/image24.png) 
+    _Correctly indented knowledge block in IDLx_
 
-    _Correctly indented knowledge block in the IDLx_
-
-    !IMAGE[](images/image23.png) 
+    ![](images/image23.png) 
     
     _Incorrectly indented knowledge block displayed in the UI_
 
-    !IMAGE[](images/image25.png) 
+    ![](images/image25.png) 
 
-    _Incorrectly indented knowledge block in the IDLx_
+    _Incorrectly indented knowledge block in IDLx_
 
 ## Format your document
 
@@ -319,47 +318,47 @@ The layout of your document is an important part of readability. Indentation and
 
 -   If the user will need to refer to information in a previous task, either place all tasks on the same page, or store the information the user will need in a variable.
 
--   A knowledge block, note, tip, or alert should be indented at the same level as the item that preceded it.
+-   A knowledge block, note, hint, or alert should be indented at the same level as the item that preceded it.
 
 ### Font formatting
 
-In the IDLx, you need to maintain a clean, easy-to-read document layout. You want to maintain a consistency of style throughout the lab to make it easier for a user to focus on the tasks in your lab.
+In IDLx, you need to maintain a clean, easy-to-read document layout. You want to maintain a consistency of style throughout the lab to make it easier for a user to focus on the tasks in your lab.
 
 -   Only apply bold formatting to UI elements with which a user interacts. The overuse of bold formatting makes it difficult for a user to focus on the key UI elements.
 
-    - In the IDLx, use two asterisks (\*\*) on either side of the text to which you want to apply bold format --- for example, **\*\*Item to format\*\***.
+    - In IDLx, use two asterisks (\*\*) on either side of the text to which you want to apply bold format --- for example, **\*\*Item to format\*\***.
 
-    !IMAGE[](images/image26.png)
+    ![](images/image26.png)
 
-    !IMAGE[](images/image27.png)
+    ![](images/image27.png)
 
 -   If you are using the ++Copy to clipboard++ or the +++Type Text+++ features, do not apply bold formatting. These features make the need for user interaction obvious.
 
-    !IMAGE[](images/image13.png) 
+    ![](images/image13.png) 
 
-    _Type text in the IDLx editor_  
+    _Type text in IDLx editor_  
 
-    !IMAGE[](images/image11.png)
+    ![](images/image11.png)
 
     _Type text displayed in the UI_
 
--   In knowledge blocks, notes, alerts, and tips, avoid the use of bold formatting. If you need to call out a specific item, use italics.
+-   In knowledge blocks, notes, alerts, and hintss, avoid the use of bold formatting. If you need to call out a specific item, use italics.
 
--   In the IDLx, use one asterisk (\*) or an underscore on either side of the text to which you want to apply italic format. For example, *\_Item to format\_*.
+-   In IDLx, use one asterisk (\*) or an underscore on either side of the text to which you want to apply italic format. For example, *\_Item to format\_*.
 
-    !IMAGE[](images/image28.png) 
+    ![](images/image28.png) 
     
-    _Use underscores or one asterisk for Italic format in the IDLx_
+    _Use underscores or one asterisk for Italic format in IDLx_
 
-    !IMAGE[](images/image29.png)
+    ![](images/image29.png)
 
     _Italics displayed in the UI_
 
--   Avoid the use of quotation marks if possible. These are often overused. In the IDLx, you can catch the reader's eye by using italics.
+-   Avoid the use of quotation marks if possible. These are often overused. In IDLx, you can catch the reader's eye by using italics.
 
 ## Use variables
 
-The IDLx provides you with a series of variables that all begin with \@lab. These can be used to customize the instructions for each user's environment.
+IDLx provides you with a series of variables that all begin with \@lab. These can be used to customize the instructions for each user's environment.
 
 ### Define and use a variable
 
@@ -371,11 +370,11 @@ Variables are used to store information that is not known when you write your la
 
 - In the following example, you create a variable using \@lab.textbox(studentPassword) and then ask the user to record a password in the text box.
 
-    !IMAGE[](images/image31.png) 
+    ![](images/image31.png) 
 
    _Variable stored and used in the IDLx_ 
 
-    !IMAGE[](images/image32.png)
+    ![](images/image32.png)
 
     _Variable recorded and retrieved in the UI_
 
@@ -384,7 +383,7 @@ This reuse saves time for users and eliminates the need to ask the user to recor
 
 ## Use embedded URLs for additional information
 
-You can use a URL in your lab to point your users to resources where they can read additional information. The IDLx environment contains tools you can use to build clickable URLs.
+You can use a URL in your lab to point your users to resources where they can read additional information. IDLx environment contains tools you can use to build clickable URLs.
 
 ### Create an embedded URL
 
@@ -392,11 +391,11 @@ An external URL uses the format \[External link\](URL "Optional link title"). Th
 
 - For readability, try to use the text for the link in a sentence. The following sample shows an embedded URL that contains a tool tip.
 
-    !IMAGE[](images/image33.png) 
+    ![](images/image33.png) 
 
-    _Embedded URL in the IDLx markup_
+    _Embedded URL in IDLx markup_
     
-    !IMAGE[](images/image34.png)
+    ![](images/image34.png)
 
     _URL with a tooltip displayed in the UI*_
 
@@ -406,13 +405,13 @@ Screenshots can often tell your story more accurately than words. Use them to pr
 
 ### Add an image
 
-- In the IDLx, you use the syntax **!IMAGE\[Text to display\](URL)** to configure a URL.
+- In IDLx, you use the syntax **!IMAGE\[Text to display\](URL)** to configure a URL.
 
-    !IMAGE[](images/image35.png) 
+    ![](images/image35.png) 
 
-    _Image syntax in the IDLx_ 
+    _Image syntax in IDLx_ 
 
-    !IMAGE[](images/image36.png)
+    ![](images/image36.png)
 
     _Image displayed in the UI_
 
@@ -426,7 +425,7 @@ Screenshots can often tell your story more accurately than words. Use them to pr
 
 ## Use special markdown items for context
 
-The IDLx uses special markdown items to help you to provide context, offer tips, and alert users to critical instructions. These items will help you to add value to your lab, while keeping the instructional steps clear.
+IDLx uses special markdown items to help you to provide context, offer Hints, and alert users to critical instructions. These items will help you to add value to your lab, while keeping the instructional steps clear.
 
 ### Special markdown items
 
@@ -438,15 +437,15 @@ Each type of special markdown item has a specific purpose and uses a specific ic
 
 -   **Alert**: Use an alert to warn users to take care when performing a task.
 
--   **Tip**: Use a tip to provide informative text or helpful hints. You can use a tip to provide an alternative method of performing a task.
+-   **hint**: Use a hint to provide informative text or helpful hints. You can use a hint to provide an alternative method of performing a task.
 
 - The following screenshots show the different types of special markdown items and the icons used:
 
-    !IMAGE[](images/image37.png) 
+    ![](images/image37.png) 
 
-    _Special markdown items in the IDLx_
+    _Special markdown items in IDLx_
     
-    !IMAGE[](images/image39.png)
+    ![](images/image39.png)
 
     _Special markdown items and their icons in the UI_
 
@@ -458,11 +457,11 @@ Each type of special markdown item has a specific purpose and uses a specific ic
 
 -   Incorrect indentation will cause the markdown text to be displayed rather than the icon.
 
-    !IMAGE[](images/image41.png) 
+    ![](images/image41.png) 
 
-    _Knowledge block incorrectly indented in the IDLx_
+    _Knowledge block incorrectly indented in IDLx_
     
-    !IMAGE[](images/image42.png)
+    ![](images/image42.png)
 
     _Incorrectly indented knowledge block in the UI_
 
@@ -472,7 +471,7 @@ When you want a user to configure settings or properties, consider using a table
 
 ### Create a table
 
-The most commonly used table display in the IDLx is a two column table that contains left-aligned content.
+The most commonly used table display in IDLx is a two column table that contains left-aligned content.
 
 -   In the editor, indent the first line of your table. This will configure the correct display when the table is used as part of a numbered step.
 
@@ -480,11 +479,11 @@ The most commonly used table display in the IDLx is a two column table that cont
 
 -   The settings are all items with which a user interacts, so they should either use copyable text or bold format.
 
-    !IMAGE[](images/image43.png) 
+    ![](images/image43.png) 
 
     _Correctly indented table in the markdown_ 
     
-    !IMAGE[](images/image45.png)
+    ![](images/image45.png)
 
     _Table headings are displayed in bold in the UI_
 
@@ -500,6 +499,6 @@ The most commonly used table display in the IDLx is a two column table that cont
 
 ## Summary
 
-In this best practices guide, you have seen some of the best practices and tips for working with the most commonly used lab development features of the IDLx.
+In this best practices guide, you have seen some of the best practices and tips for working with the most commonly used lab development features of IDLx.
 
 For more information on creating an IDLx lab, consult the help text in the IDLx environment.

@@ -1,10 +1,10 @@
 ## Copy an Azure Resource Manager (ARM) template into LOD
 
-1. [] The code block below contains an ARM template. Click anywhere in that code block to copy its contents to your clipboard.
+1. The code block below contains an ARM template. Click anywhere in that code block to copy its contents to your clipboard.
 
-1. [] Paste what you just copied into the **Template** field on the **Basic Information** tab of your Resource Template.
+1. Paste what you just copied into the **Template** field on the **Basic Information** tab of your Resource Template.
 
-1. [] Close this dialog to return to the previous document.
+1. Close this dialog to return to the previous document.
 
 ### ARM template
 

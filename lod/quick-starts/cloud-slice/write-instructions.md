@@ -11,9 +11,9 @@ Estimated time to completion: **10 minutes**.
 
 Now that you have created a Cloud Slice lab, it is time to add instructions to your lab.
 
-1. [] **Navigate** to the lab profile page for your Cloud Slice lab (you may be there already).
+1. **Navigate** to the lab profile page for your Cloud Slice lab (you may be there already).
 
-1. [] Click **Edit Instructions** to open the instruction editor in a new window, as shown below.
+1. Click **Edit Instructions** to open the instruction editor in a new window, as shown below.
 
     ![Edit instructions](images/edit-instructions.png)
 
@@ -27,11 +27,11 @@ Now that you have created a Cloud Slice lab, it is time to add instructions to y
 
     > [!KNOWLEDGE] Did you know that Markdown natively supports HTML, and HTML syntax can be used inline in the instructions you write in Markdown?
     
-1. [] Now you're going to copy some sample instructions for use in your lab. Click ^INSTRUCTIONS[here](sample-instructions.md) to open sample instructions in a dialog window, and follow the instructions in that dialog.
+1. Now you're going to copy some sample instructions for use in your lab. Click ^INSTRUCTIONS[here](sample-instructions.md) to open sample instructions in a dialog window, and follow the instructions in that dialog.
     
-1. [] Once you have finished experimenting with the markdown instructions, close the instruction editor.
+1. Once you have finished experimenting with the markdown instructions, close the instruction editor.
 
-1. [] Click the **Launch** button on your lab profile to launch it. 
+1. Click the **Launch** button on your lab profile to launch it. 
 
 **You have now successfully added instructions to your first Cloud Slice lab! Great job!**
 
