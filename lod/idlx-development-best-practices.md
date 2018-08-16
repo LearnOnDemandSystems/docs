@@ -295,6 +295,8 @@ Numbering makes the steps in a task easier for a user to read. In a step-by-step
     _Correctly indented knowledge block in IDLx_
 
     ![](images/image23.png) 
+
+    _Correctly indented knowledge block in IDLx_
     
     _Incorrectly indented knowledge block displayed in the UI_
 
