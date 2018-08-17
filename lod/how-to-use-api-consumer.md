@@ -1,32 +1,16 @@
 # How to use an API Consumer
 
-To use an API consumer with Lab on Demand (LOD), you must configure the API on the lab profile, lab series, and the organization profile that will be used with API calls. For more information on how the API can be used, have a look at our [API Documentation](lod/lod-api/lod-api-main.md). 
+To obtain API Consumer access, please contact our Help Desk support@learnondemandsystems.com for assistance.
 
-- [API Consumer ](#create-api-consumer)
+If you already have API Consumer access, and would like to use an API consumer with Lab on Demand (LOD), you must configure the API on the lab profile, lab series, and the organization profile that will be used with API calls. For more information on how the API can be used, have a look at our [API Documentation](lod/lod-api/lod-api-main.md). 
+
 - [Lab Series](#lab-series)
 - [Lab Profile](#lab-profile)
 - [Organization Profile](#organization-profile)
 
-## Create API Consumer
-
-To create an API Consumer:
-
-1. From the Admin page, click **Create API Consumer** on the Integration tile.
-    - If you do you see this tile, please contact your organization, as you may not have the proper permissions to create an API Consumer.
-1. Enter a **Name** for the API Consumer
-1. Next to **API Key**, click **Show**, and take note of the **API Key**. This will be needed to user the API Consumer. 
-1. If you plan to use the API Consumer with LTI, click the **Generate** button next to **LTI Key** and **LTI Secret**
-1. Click **Choose** next to Default Organization, to select the organization that the API Consumer will be available to. 
-1. Enter a value for **Default Saved Labs Per User**.
-1. Enter a value for **Max Saved Labs Per User**.
-1. Enter a value for **Default Max Active Labs Per User**.
-1. If you only would like to use this API Consumer for a limited amount of time, or if it will be used temporarily, **add an expiration**, by checking the **Expires** box.
-1. The remaining checkboxes are optional. Check any boxes that you would like to apply to this API Consumer.
-1. Click **Save**.
-
 ## Lab Series
 
-The lab series must be published to the API consumer that will be used. 
+The lab series must be published to the API consumer that will be used. By publishing a lab series to an API Consumer, that API Consumer will be able to launch any current and future lab profiles that belong to that series. 
 
 To publish the Lab Series:
 
