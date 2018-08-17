@@ -52,7 +52,7 @@ Welcome to the OneLearn Lab on Demand platform!
     
 * [**Lab on Demand API Documentation**](lod/lod-api/lod-api-main.md) - Documentation on how and when to use the Lab on Demand API.
 
-* [**How to use an API Consumer](lod/how-to-use-api-consumer.md) - Guides through the steps to configure an API Consumer in LOD.
+* [**How to use an API Consumer**](lod/how-to-use-api-consumer.md) - Guides through the steps to configure an API Consumer in LOD.
     
 * [**Lab on Demand edX Integration**](guides/lti/lod-lti.md) - Integrate edX into your lab profile. 
     
