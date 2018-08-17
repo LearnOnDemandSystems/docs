@@ -1,11 +1,11 @@
-# API Consumer
+# How to use an API Consumer
 
-To use an API consumer with Lab on Demand (LOD), you must configure the API on the lab profile, lab series, and organization that will be used in API calls. For more information on how the API can be used, have a look at our [API Documentation](lod/lod-api/lod-api-main.md). 
+To use an API consumer with Lab on Demand (LOD), you must configure the API on the lab profile, lab series, and the organization profile that will be used with API calls. For more information on how the API can be used, have a look at our [API Documentation](lod/lod-api/lod-api-main.md). 
 
 - [API Consumer ](#create-api-consumer)
 - [Lab Series](#lab-series)
 - [Lab Profile](#lab-profile)
-- [Organization Profile](#organization-api-consumer)
+- [Organization Profile](#organization-profile)
 
 ## Create API Consumer
 
@@ -48,7 +48,7 @@ To associate your lab profile with a lab series:
 1. Select the lab series and click **Ok**.
 1. Click **Save**.
 
-## Organization API Consumer
+## Organization Profile
 
 The API Consumer needs to be made available to the organization that will use it. This should be the same organization that the lab series and lab profile belong to. 
 
