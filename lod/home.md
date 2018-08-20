@@ -1,6 +1,6 @@
 # OneLearn Lab on Demand Help
 
-Welcome to the OneLearn Lab on Demand platform, Kirk!
+Welcome to the OneLearn Lab on Demand platform!
 
 ## Authoring lab instructions
 
