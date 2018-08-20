@@ -1245,7 +1245,7 @@ The following settings on the advanced tab allow you to customize the client use
 
 - **Custom Cascading Style Sheets (CSS).** You can use CSS to modify the appearance of the lab text in the navigation and task bars. CSS markup that will be included in the lab client, making it possible to control the styles of custom content that is added to the lab. This should just be the style definitions, including a style tag is not necessary.
 
-    For more information on Custom CSS in Lab on Demand, see our guide here: [Custom CSS Guide](create-lab-profile-custom-css).
+    For more information on Custom CSS in Lab on Demand, see our guide here: [Custom CSS Guide](lod/feature-focus/lab-profiles/custom-css.md).
 
 - **Custom CSS URL:** A URL to an externally hosted CSS stylesheet. The stylesheet will be referenced in the lab client.
 
