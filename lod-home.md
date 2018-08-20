@@ -12,7 +12,7 @@ Welcome to the OneLearn Lab on Demand platform!
 
 - [**IDLx Activities**](lod/activities.md) - Activities fall into two broad categories: Questions and Automated. Questions are simply multiple choice or short answer questions. Automated Activities have a script configured to run against a cloud subscription or Windows-based virtual machines running on Hyper-V in the lab.
 
-- [**IDLx Lab Variables**](lod/variables.md) - Variables are used to store information that is not known at the time of lab instruction authoring. Variables store information and then that information can be recalled in later lab steps using a Replacement Token. This document covers how to use Variables in your IDLx lab. 
+- [**IDLx Lab Variables**](lod/variables.md) - Variables are used to store information that is not known at the time of lab instruction authoring. Variables store information and then that information can be recalled in later lab steps using a Replacement Token. This document covers how to use Variables in your IDLx lab.
 
 - [**Replacement Tokens**](lod/feature-focus/cloud-resource-templates/replacement-tokens.md) - Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat; button.
 
@@ -21,58 +21,58 @@ Welcome to the OneLearn Lab on Demand platform!
 ## Cloud
 
 * [**Create a Cloud Subscription**](lod/create-cloud-subscription.md) - Create a Cloud Subscription to use cloud-based labs with Lab on Demand
-    
-* [**Create a Cloud Subscription Pool**](lod/create-cloud-subscription-pool.md) - Create a Cloud Subscription Pool to load balance labs across your cloud subscriptions. 
-    
+
+* [**Create a Cloud Subscription Pool**](lod/create-cloud-subscription-pool.md) - Create a Cloud Subscription Pool to load balance labs across your cloud subscriptions.
+
 * [**Capacity Limitations**](guides/cloud-slice/microsoft-azure/azure-capacity-limitations.md) - Azure resource capacity limitations, how to avoid them, and what to do if you run into capacity limitations with your Azure subsription.
-    
+
 * [**Resource Providers**](guides/cloud-slice/microsoft-azure/azure-resource-providers.md) - Azure Resource Providers, and how to get the resources you need for your lab.
-    
+
 * [**Resource Templates**](guides/cloud-slice/microsoft-azure/cloud-slice-find-resource-templates.md) - How to find Azure Resource Manager templates for use with Microsoft Azure.
-    
+
 * [**Resource Template - Best Practices**](lod/feature-focus/cloud-resource-templates/recommendations-and-best-practices.md) - Recommendations and best practices for Azure Resource templates
-    
-* [**Microsoft Azure Cloud Slice Setup Guide**](guides/cloud-slice/cloud-slice.md) - Comprehensive setup guide for configuring a Cloud Slice lab with Lab on Demand and Microsoft Azure. For a more guided walkthrough, please see our [Cloud Slice Quickstart](#building-your-first-cloud-clice-lab)
-    
+
+* [**Microsoft Azure Cloud Slice Setup Guide**](guides/cloud-slice/cloud-slice.md) - Comprehensive setup guide for configuring a Cloud Slice lab with Lab on Demand and Microsoft Azure. For a more guided walkthrough, please see our [Cloud Slice Quickstart](#building-your-first-cloud-slice-lab)
+
 * [**Replacement Tokens**](lod/feature-focus/cloud-resource-templates/replacement-tokens.md) - Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat; replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.
 
 ## Lab on Demand
 
 * [**Create a Lab Profile**](lod/feature-focus/lab-profiles/create.md) - Lab profile creation, and explanation of lab profile configuration.
-    
+
 * [**Create a Lab Series**](lod/create-lab-series.md) - Lab Series creation.
-    
+
 * [**Create Removeable Media**](lod/create-removeable-media.md) - Removeable Media to be used with virtual machines.
-    
+
 * [**Custom CSS**](lod/feature-focus/lab-profiles/custom-css.md) - Customize CSS of your lab.
-    
+
 * [**Introduction to Lab on Demand UI**](lod/feature-focus/lod-experience.md) - Explanation of Lab on Demand UI.
-    
+
 * [**GitHub Integration**](guides/github-integration/github-integration.md) - Integrate lab instructions from a GitHub repository into your lab profile.
-    
+
 * [**Lab on Demand API Documentation**](lod/lod-api/lod-api-main.md) - Documentation on how and when to use the Lab on Demand API.
 
 * [**How to use an API Consumer**](lod/how-to-use-api-consumer.md) - Guides through the steps to configure an API Consumer in LOD.
-    
+
 * [**Lab on Demand edX Integration**](guides/lti/lod-lti.md) - Integrate edX into your lab profile. 
-    
+
 * [**Life Cycle Actions**](guides/lca/life-cycle-actions-guide.md) - Define actions to occur at certain times within the lab's life cycle, such as calling an external service when the lab builds, or sending a notification to the user when the lab is resumed. 
-    
+
 * [**Performance Based Testing (PBT)**](guides/pbt/lodpbtguide.md) - Configure Performance Based Testing on your lab profile.
-    
+
 * [**Shared Labs (a.k.a. Cyber-Range)**](guides/sl/sharedlabs.md) - Configure a Shared Lab environment
-    
-* [**Virtual Machine Based Lab Development - Best Practices**](lod/vm-based-lab-build-best-practices.md) - Recommendations and best practices for cloud-hosted and datacenter-hosted virtual machines. 
+
+* [**Virtual Machine Based Lab Development - Best Practices**](lod/vm-based-lab-build-best-practices.md) - Recommendations and best practices for cloud-hosted and datacenter-hosted virtual machines.
 
 ## Quick Starts
 
 Quick starts are a guided walkthrough, and allow you to fast track your learning experience, helping you get more value from the platform as quickly as possible.
 
-### Building your first Cloud Slice lab 
+### Building your first Cloud Slice lab
 
 With the Cloud Slice feature, LOD is able to support cloud learning at scale. Learners are provided with a slice of a cloud subscription that they can use for the duration of their learning experience, limited however you configure it. This series of Quick Starts will walk you through every step required to create a feature-rich Cloud Slice lab.
 
-|Duration|Quick Start|  
+|Duration|Quick Start|
 |--:|:--|
 |20&nbsp;minutes|[Configure your Cloud Subscription for use with LOD](lod/quick-starts/cloud-slice/configure-subscription.md)|
 |5&nbsp;minutes|[Add your Cloud Subscription into LOD](lod/quick-starts/cloud-slice/add-subscription-into-lod.md)|
@@ -123,7 +123,7 @@ If you've already read through all of the documentation that is available on a t
 
 We hope this documentation helps you create awesome labs!
 
-## Lab on Demand 
+## Lab on Demand
 * [Lab on Demand API Documentation](lod/lod-api/lod-api-main.md)
 * [Introduction to the Lab on Demand](lod/feature-focus/lod-experience.md)
 
@@ -149,7 +149,7 @@ With the Cloud Slice feature, LOD is able to support cloud learning at scale. Le
 
 ### Getting Started With Life Cycle Actions
 
-With the Life Cycle Actions feature, LOD is able to execute actions when specific events occur during the lab instance life cycle. Each of these action types will be covered, in this series of Quick Starts. We will discuss how to use each action, and when it is appropriate to use each one. After completing this Quick Start series, you will be able to configure your lab with Life Cycle Actions, to make your more lab a more rich experience for students. 
+With the Life Cycle Actions feature, LOD is able to execute actions when specific events occur during the lab instance life cycle. Each of these action types will be covered, in this series of Quick Starts. We will discuss how to use each action, and when it is appropriate to use each one. After completing this Quick Start series, you will be able to configure your lab with Life Cycle Actions, to make your more lab a more rich experience for students.
 
 |Duration|Quick Start|
 |--:|:--|

@@ -351,17 +351,17 @@ Markdown is an easy to use markup language to format text, that offers multiple 
 
 Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols in front of the text that is to be resized, followed by a space. One # renders the largest text size, while six # symbols renders the smallest text size.Typically this is used at the beginning of a paragraph or section in a document, to make the title stand out from the rest of the text. 
 
-> - # Heading1
+> # Heading1
 >
-> - ## Heading2
+> ## Heading2
 >
-> - ### Heading3
+> ### Heading3
 >
-> - #### Heading4
+> #### Heading4
 >
-> - ##### Heading5
+> ##### Heading5
 >
-> - ###### Heading6
+> ###### Heading6
 
 ### Text Formatting
 
