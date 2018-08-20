@@ -1,8 +1,8 @@
 # Copy sample instructions into your lab
 
-1. [] Click anywhere in the sample instructions [below](#sample-instructions) to copy the sample instructions into your clipboard.
+1. Click anywhere in the sample instructions [below](#sample-instructions) to copy the sample instructions into your clipboard.
 
-1. [] Paste the sample instructions into your instruction editor, and experiment.
+1. Paste the sample instructions into your instruction editor, and experiment.
 
     > [!NOTE] Instructions are automatically rendered in the preview pane on the right. This preview gives you an idea how the lab instructions will be displayed to students that launch your lab.
 
@@ -57,22 +57,21 @@ You can also include normal hyperlinks where ever you like, such as [this one](h
 
 [Here's a useful tip!]("Exclamation marks before multimedia (IMAGE/VIDEO) links tell Lab on Demand to be embed the content inline, in the current location.")
 
-
 ===
 
 ## Tracking progress with tasks
 
 When students need to perform a series of activities, you can use tasks to track their progress.
 
-1. [ ] The first thing you need to decide is whether you want ordered tasks or unordered tasks.
+1. The first thing you need to decide is whether you want ordered tasks or unordered tasks.
 
-1. [ ] To convert ordered tasks into unordered tasks, simply replace your **1.** numbering with hyphens (-).
+1. To convert ordered tasks into unordered tasks, simply replace your **1.** numbering with hyphens (-).
 
-1. [ ] Try it now, by replacing each of the "1."'s in this list with hyphens, and watch what happens to the rendered output.
+1. Try it now, by replacing each of the "1."'s in this list with hyphens, and watch what happens to the rendered output.
 
-1. [ ] By using tasks, students can check off activities as they complete them. At the same time, Lab on Demand can determine how far long each student is according to the number of activities they have marked as completed.
+1. By using tasks, students can check off activities as they complete them. At the same time, Lab on Demand can determine how far long each student is according to the number of activities they have marked as completed.
 
-1. [ ] Students don't have to check each one either. Try checking only the 3rd task in this list, and notice what happens.
+1. Students don't have to check each one either. Try checking only the 3rd task in this list, and notice what happens.
 
 ===
 

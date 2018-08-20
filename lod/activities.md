@@ -87,10 +87,11 @@ Automated Activities are PowerShell or Shell scripts that target a Cloud Subscri
 
 ### Example Automated Activity 
 
-The lab instructions ask the student to create a few storage accounts in a Cloud Subscription that will be used later in the lab. You could write a PowerShell script that will check if the storage accounts were created correctly.
+The lab instructions ask the student to create a few accounts in a Cloud Subscription that will be used later in the lab. You could write a few PowerShell scripts that will check if the accounts were created correctly.
 
-This script is to make sure the student has created a storage account correctly, to prevent errors with later lab instructions:
+This 3 scripts below are to make sure the student has created a storage account, a public container, and private container:
 
+**Storage Account**
 ```
 param($LabInstanceId)
 $result = $false
@@ -105,11 +106,65 @@ if ($storAccount -eq $null){
 $result
 ```
 
+**Public Container**
+```
+param($LabInstanceId)
+$result = $false
+$resourceGroupName = "CSSTlod${LabInstanceId}"
+$storAccountName = "sa${LabInstanceId}"
+$storAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name $storAccountName -ErrorAction Ignore
+if ($storAccount -eq $null){
+    "The Storage Account has not been created"
+} else {
+    $storKey = Get-AzureRmStorageAccountKey -ResourceGroupName $resourceGroupName -Name $storAccountName | Select-Object -First 1 -ErrorAction Ignore
+    $storageContext = New-AzureStorageContext -StorageAccountName $storAccountName -StorageAccountKey $storKey.Value -ErrorAction Ignore
+    $container = Get-AzureStorageContainer -Name public -Context $storageContext -ErrorAction Ignore
+    if ($container -eq $null) {
+        "The Blob Container has not been created."
+    } else {
+        if ($container.PublicAccess -ne "blob") {
+            "The container is not properly configured for public access."
+        } else {
+        $result = $true
+        "You have successfully configured the blob container for public access."
+        }
+    }
+}
+$result
+```
+
+**Private Container**
+```
+param($LabInstanceId)
+$result = $false
+$resourceGroupName = "CSSTlod${LabInstanceId}"
+$storAccountName = "sa${LabInstanceId}"
+$storAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name $storAccountName -ErrorAction Ignore
+if ($storAccount -eq $null){
+    "The Storage Account has not been created"
+} else {
+    $storKey = Get-AzureRmStorageAccountKey -ResourceGroupName $resourceGroupName -Name $storAccountName | Select-Object -First 1 -ErrorAction Ignore
+    $storageContext = New-AzureStorageContext -StorageAccountName $storAccountName -StorageAccountKey $storKey.Value -ErrorAction Ignore
+    $container = Get-AzureStorageContainer -Name private -Context $storageContext -ErrorAction Ignore
+    if ($container -eq $null) {
+        "The Blob Container has not been created."
+    } else {
+        if ($container.PublicAccess -ne "off") {
+            "The container is not properly configured for private access."
+        } else {
+        $result = $true
+        "You have successfully configured the blob container for private access."
+        }
+    }
+}
+$result
+```
+
 This is what the student will see in the lab:
 
 ![](../lod/images/scripts-in-lab-instructions.png)
 
-- The student clicks the Score button, and the scripts will begin executing:
+- The student clicks the Score button, and the scripts will begin executing the first script:
 
     - If the student **created the storage accounts correctly**, they will receive a message that says "You successfully created the storage account."
     

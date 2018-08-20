@@ -4,7 +4,9 @@ Welcome to the OneLearn Lab on Demand platform, Kirk!
 
 ## Authoring lab instructions
 
-- [**IDLx Authoring Guide**](guides/idl2/idlv2-authoring-guide-and-best-practice.md) - This document covers Markdown, IDLx best practices, lab instruction editor interface, uploading files into your lab, and many other topics to assist with authoring your IDLx lab.
+- [**IDLx Lab Development Best Practices**](lod/idlx-development-best-practices.md) - This document covers best practices for IDLx lab development, to assist in creating a rich learning experience.
+
+- [**IDLx Authoring Guide**](guides/idl2/idlv2-authoring-guide-and-best-practice.md) - This document covers Markdown, lab instruction editor interface, uploading files into your lab, and many other topics to assist with authoring your IDLx lab.
 
 - [**Markdown user Guide**](guides/idl2/markdown-user-guide.md) - This document covers Markdown in detail, including syntax for all supported Markdown.
 
@@ -50,9 +52,11 @@ Welcome to the OneLearn Lab on Demand platform, Kirk!
 
 * [**Lab on Demand API Documentation**](lod/lod-api/lod-api-main.md) - Documentation on how and when to use the Lab on Demand API.
 
-* [**Lab on Demand edX Integration**](guides/lti/lod-lti.md) - Integrate edX into your lab profile.
+* [**How to use an API Consumer**](lod/how-to-use-api-consumer.md) - Guides through the steps to configure an API Consumer in LOD.
 
-* [**Life Cycle Actions**](guides/lca/life-cycle-actions-guide.md) - Define actions to occur at certain times within the lab's life cycle, such as calling an external service when the lab builds, or sending a notification to the user when the lab is resumed.
+* [**Lab on Demand edX Integration**](guides/lti/lod-lti.md) - Integrate edX into your lab profile. 
+
+* [**Life Cycle Actions**](guides/lca/life-cycle-actions-guide.md) - Define actions to occur at certain times within the lab's life cycle, such as calling an external service when the lab builds, or sending a notification to the user when the lab is resumed. 
 
 * [**Performance Based Testing (PBT)**](guides/pbt/lodpbtguide.md) - Configure Performance Based Testing on your lab profile.
 

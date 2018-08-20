@@ -50,6 +50,8 @@ Welcome to the OneLearn Lab on Demand platform, Kirk!
 
 * [**Lab on Demand API Documentation**](lod-api/lod-api-main.md) - Documentation on how and when to use the Lab on Demand API.
 
+* [**How to use an API Consumer**](how-to-use-api-consumer.md) - Guides through the steps to configure an API Consumer in LOD.
+
 * [**Lab on Demand edX Integration**](/guides/lti/lod-lti.md) - Integrate edX into your lab profile.
 
 * [**Life Cycle Actions**](/guides/lca/life-cycle-actions-guide.md) - Define actions to occur at certain times within the lab's life cycle, such as calling an external service when the lab builds, or sending a notification to the user when the lab is resumed.

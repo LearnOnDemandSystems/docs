@@ -20,13 +20,13 @@ The OneLearn Lab on Demand platform uses an application registration in Microsof
 
 To create a new application registration in Azure Active Directory, do the following:
 
-1. [] Open the <[Microsoft Azure Portal](https://portal.azure.com/), and sign-in with a subscription owner.
-1. [] Open the <[Azure Active Directory App registrations blade](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps).
-1. [] With the App registrations blade open, click on **New application registration**. This will open a new blade from which you can create your new application registration.
+1. Open the <[Microsoft Azure Portal](https://portal.azure.com/), and sign-in with a subscription owner.
+1. Open the <[Azure Active Directory App registrations blade](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RegisteredApps).
+1. With the App registrations blade open, click on **New application registration**. This will open a new blade from which you can create your new application registration.
 
     ![Click on New application registration to create a new application registration](images/azure-ad-new-app-registration.png)
 
-1. [] In the Create blade, enter the following values into the fields provided, and then click **Create** to create the new application registration.
+1. In the Create blade, enter the following values into the fields provided, and then click **Create** to create the new application registration.
 
     |Field Name|Field Value|
     |--|--|
@@ -36,33 +36,33 @@ To create a new application registration in Azure Active Directory, do the follo
 
     ![Fill out the new app registration form](images/azure-ad-new-app-registration-form.png)
 
-1. [] Once the application registration has been created, select it in the list of application registrations. If your new application registration is not showing in the list of available application registrations, click on **Overview**, then on **App registrations** to refresh the list. Once you have selected the application registration, click on **Settings** to open a new blade showing the application registration properties.
+1. Once the application registration has been created, select it in the list of application registrations. If your new application registration is not showing in the list of available application registrations, click on **Overview**, then on **App registrations** to refresh the list. Once you have selected the application registration, click on **Settings** to open a new blade showing the application registration properties.
 
     ![Select the app registration you just created](images/azure-ad-select-app-registration.png)
 
-1. [] In the Settings blade, click on **Required permissions** to show the Required permissions blade.
+1. In the Settings blade, click on **Required permissions** to show the Required permissions blade.
 
     ![Add required permissions to app registration](images/azure-ad-app-registration-required-permissions.png)
 
-1. [] In the Required permissions blade, select **Windows Azure Active Directory** (note: this may be renamed as Microsoft Azure Active Directory in the future). This will display the Enable Access blade. Ensure that all application and delegated permissions are checked in the Enable Access blade.
+1. In the Required permissions blade, select **Windows Azure Active Directory** (note: this may be renamed as Microsoft Azure Active Directory in the future). This will display the Enable Access blade. Ensure that all application and delegated permissions are checked in the Enable Access blade.
 
-1. [] Once all permissions have been checked, click **Save** at the top of the Enable Access blade.
+1. Once all permissions have been checked, click **Save** at the top of the Enable Access blade.
 
     ![Enable access to Azure Active Directory](images/azure-ad-app-registration-enable-access.png)
 
-1. [] Now click **Add** at the top of the Required permissions blade to add additional permissions. Click **Select an API** and choose the **Microsoft Graph** API.
+1. Now click **Add** at the top of the Required permissions blade to add additional permissions. Click **Select an API** and choose the **Microsoft Graph** API.
 
     ![Add API access permissions](images/azure-ad-add-api-access-permissions.png)
 
-1. [] Click **Select permissions**, check all application and delegated permissions in the Enable Access blade, and then click **Select** to select those permissions.
+1. Click **Select permissions**, check all application and delegated permissions in the Enable Access blade, and then click **Select** to select those permissions.
 
     ![Select all Microsoft Graph permissions](images/azure-ad-add-all-microsoft-graph-permissions.png)
 
-1. [] Click **Done** to finish adding the Microsoft Graph permissions. Click **Add** and repeat this process to add the single permission included in the Windows Azure Service Management API. Once you have finished adding these permissions your Required permissions blade should look something like this:
+1. Click **Done** to finish adding the Microsoft Graph permissions. Click **Add** and repeat this process to add the single permission included in the Windows Azure Service Management API. Once you have finished adding these permissions your Required permissions blade should look something like this:
 
     ![Grant permissions for app registration](images/azure-ad-app-registration-grant-permissions.png)
 
-1. [] Click **Grant Permissions** to grant the new permissions to the application registration. This will result in a confirmation message being displayed in the portal. Click on **Yes** to grant the permissions to the application registration. You may now close the Required permissions blade.
+1. Click **Grant Permissions** to grant the new permissions to the application registration. This will result in a confirmation message being displayed in the portal. Click on **Yes** to grant the permissions to the application registration. You may now close the Required permissions blade.
 
     ![Confirm permission grant for app registration](images/azure-ad-app-registration-grant-permissions-yes.png)
 
@@ -76,9 +76,9 @@ Now that you have created the application registration and granted it the requir
 
 To create an application registration API key, you need to be in the application registration blade for the application registration you created earlier. If you are following this guide in order, you should already be there. From the application registration blade, you must do the following:
 
-1. [] Click on **Keys** in the Settings blade to create a new key.
-1. [] Enter a description for the key in the **Description** field and select an appropriate duration for the key from the values in the **Expires** drop down list. You should only set the duration to something other than "Never expires" if you want to periodically change the key before it expires while you do not have any Cloud Slice labs that are using that key that are currently in use.
-1. [] Click on the **Save** button to save the key. Take care not to navigate away from this view in the portal because you will need to be able to access the key that is displayed on save in the next step.
+1. Click on **Keys** in the Settings blade to create a new key.
+1. Enter a description for the key in the **Description** field and select an appropriate duration for the key from the values in the **Expires** drop down list. You should only set the duration to something other than "Never expires" if you want to periodically change the key before it expires while you do not have any Cloud Slice labs that are using that key that are currently in use.
+1. Click on the **Save** button to save the key. Take care not to navigate away from this view in the portal because you will need to be able to access the key that is displayed on save in the next step.
 
 ![Create application registration API key](images/azure-create-app-registration-key.png)
 
@@ -86,8 +86,8 @@ To create an application registration API key, you need to be in the application
 
 Once you have the application registration key created, you need to copy both the application ID and the API key. You can only do this at the time when you create the key (see the steps in the previous section identifying how to create an API key). Perform the following tasks to copy the application ID and API key:
 
-1. [] Hover your mouse over the copy glyph that appears at the end of the Application ID and click to copy that value. Paste it in a document or credential management application where you track credentials so that you can access it later. **Record this value as the Application ID**.
-1. [] Select the text in the value field of the API key and copy it. Paste it into the same document or credential management application where you track credentials so that you can access it later. **Record this value as the Application Secret**.
+1. Hover your mouse over the copy glyph that appears at the end of the Application ID and click to copy that value. Paste it in a document or credential management application where you track credentials so that you can access it later. **Record this value as the Application ID**.
+1. Select the text in the value field of the API key and copy it. Paste it into the same document or credential management application where you track credentials so that you can access it later. **Record this value as the Application Secret**.
 
 ![Copy your application registration application ID, application registration object ID, and API key](images/azure-copy-app-registration-id-and-key.png)
 
@@ -95,15 +95,15 @@ Once you have the application registration key created, you need to copy both th
 
 To copy the Azure subscription ID for later, do the following:
 
-1. [] Open the <[Subscriptions service](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade).
-1. [] Select the value in the Subscription ID field of your Azure subscription and copy it. Paste that value into the same document or credential management application that you used earlier. **Record this value as the Subscription ID**. 
+1. Open the <[Subscriptions service](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade).
+1. Select the value in the Subscription ID field of your Azure subscription and copy it. Paste that value into the same document or credential management application that you used earlier. **Record this value as the Subscription ID**. 
 
 ### Copy the Azure Active Directory domain name
 
 To copy the Azure Active Directory domain name, do the following:
 
-1. [] Open the <[Azure Active Directory Custom domain names blade](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Domains).
-1. [] Copy the domain name that you will use for your Cloud Slice subscriptions. Paste that value into the same document or credential management application that you used earlier. **Record this value as the Tenant Name**.
+1. Open the <[Azure Active Directory Custom domain names blade](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Domains).
+1. Copy the domain name that you will use for your Cloud Slice subscriptions. Paste that value into the same document or credential management application that you used earlier. **Record this value as the Tenant Name**.
 
 ![Copy your Azure Active Directory domain name](images/azure-ad-copy-tenant-name.png)
 
@@ -113,14 +113,14 @@ To copy the Azure Active Directory domain name, do the following:
 
 Once you have created the application registration and assigned appropriate directory permissions for that application registration, you need to add it as an owner of the Azure subscription from which you want to provision Cloud Slices by following these steps:
 
-1. [] Open the <[Subscriptions service](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade).
-1. [] Select the Azure subscription from which OneLearn Lab on Demand will create Cloud Slices.
-1. [] Click on **Access control (IAM)** to open the identity and access management options for the subscription.
-1. [] Click on the **Add** button to add permissions to the subscription.
-1. [] In the **Role** drop down list, ensure that Owner is selected.
-1. [] In the **Select** field, enter ++cloud-slice-app++, or whatever other name you chose as the name of the application registration that you created for Cloud Slice management.
-1. [] Select the application registration in the list of search results that are displayed.
-1. [] Click on the **Save** button at the bottom of the Add permissions blade to save the permissions you have selected.
+1. Open the <[Subscriptions service](https://portal.azure.com/#blade/Microsoft_Azure_Billing/SubscriptionsBlade).
+1. Select the Azure subscription from which OneLearn Lab on Demand will create Cloud Slices.
+1. Click on **Access control (IAM)** to open the identity and access management options for the subscription.
+1. Click on the **Add** button to add permissions to the subscription.
+1. In the **Role** drop down list, ensure that Owner is selected.
+1. In the **Select** field, enter ++cloud-slice-app++, or whatever other name you chose as the name of the application registration that you created for Cloud Slice management.
+1. Select the application registration in the list of search results that are displayed.
+1. Click on the **Save** button at the bottom of the Add permissions blade to save the permissions you have selected.
 
 ![Add app registration as subscription owner](images/azure-ad-add-app-registration-as-subscription-owner.png)
 
@@ -134,13 +134,13 @@ Once you have created the application registration and assigned appropriate dire
 
 If you do not yet have a global administrator set up in your subscription, create a new global administrator account by doing the following:
 
-1. [] Browse into the Azure Active Directory service, and click **Users**.
+1. Browse into the Azure Active Directory service, and click **Users**.
 
-1. [] Click **New user** to create a new user. This will open the New user blade.
+1. Click **New user** to create a new user. This will open the New user blade.
 
     ![Create new user in Azure Active Directory](images/azure-ad-create-new-user.png)
 
-1. [] In the New User blade, configure the new user account using the information provided below. Then click **Create** to create the user.
+1. In the New User blade, configure the new user account using the information provided below. Then click **Create** to create the user.
 
     |Field Name|Field Value|
     |--|--|
@@ -155,9 +155,9 @@ If you do not yet have a global administrator set up in your subscription, creat
 
 Now that you have a global administrator account you can use, you need to use Windows PowerShell to add the Company Administrator role. To accomplish this task, do the following using Windows PowerShell 5.0 or later (Windows PowerShell 5.0 or later are installed by default on Windows 10 and Windows Server 2016 or later):
 
-1. [] Open Windows PowerShell on your local computer as administrator.
+1. Open Windows PowerShell on your local computer as administrator.
 
-1. [] Invoke the following command in Windows PowerShell:
+1. Invoke the following command in Windows PowerShell:
 
     ```powershell
     Get-InstalledModule -Name AzureAD -ErrorAction Ignore
@@ -175,7 +175,7 @@ Now that you have a global administrator account you can use, you need to use Wi
     Update-Module -Name AzureAD
     ```
 
-1. [] Once the AzureAD module has been installed/updated, invoke the following command to log on to AzureAD using your global administrator:
+1. Once the AzureAD module has been installed/updated, invoke the following command to log on to AzureAD using your global administrator:
 
     ```powershell
     $cloudTenant = Read-Host -Prompt 'Enter the name of your tenant'

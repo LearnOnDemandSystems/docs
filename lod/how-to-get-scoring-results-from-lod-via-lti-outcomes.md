@@ -16,11 +16,11 @@ Once you have these pieces of information in hand, you can begin integrating you
 
 Content can be integrated with various LMS systems. Below are some examples of how to use LTI with some popular systems. 
 
-- [Integrating with edX](../guides/lti/lod-lti.md)
+- [Blackboard](https://help.blackboard.com/Learn/Administrator/SaaS/Integrations/Learning_Tools_Interoperability)
+
+- [edX](../guides/lti/lod-lti.md)
 
 - [Moodle](https://docs.moodle.org/35/en/LTI_and_Moodle)
-
-- [Blackboard](https://help.blackboard.com/Learn/Administrator/SaaS/Integrations/Learning_Tools_Interoperability)
 
 ## LTI Scoring
 
