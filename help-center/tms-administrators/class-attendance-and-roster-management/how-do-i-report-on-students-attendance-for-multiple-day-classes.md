@@ -10,6 +10,6 @@ To open the reporting:
      - A 5 day class has 5 separate rows for each student enrolled in the class. 
      - The Attended column shows whether the student attended or not.
  
-!IMAGE(.\images\find-attendance.png)
+![](/tms/images/find-attendance.png)
 
 The report's filters and output options can be adjusted to report the data you need and then you can export the data to Excel. 
