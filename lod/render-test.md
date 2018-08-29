@@ -101,7 +101,7 @@ Image Dimensions  | {heightXwidth}` or `{height}` (width will be calculated auto
 Single Line
 
 
-@[Text to display](`command`)
+ `@[Text to display](`command`)
 
 
 
