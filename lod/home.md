@@ -2,6 +2,8 @@
 
 Welcome to the OneLearn Lab on Demand platform!
 
+[Render test](lod/render-test.md)
+
 ## Authoring lab instructions
 
 - [**IDLx Lab Development Best Practices**](/lod/idlx-development-best-practices.md) - This document covers best practices for IDLx lab development, to assist in creating a rich learning experience.
@@ -251,9 +253,5 @@ VIEW STATISTICS	/LabProfile/Statistics/{labProfileId},
 
 
 ### Cloud Restriction Templates
-
-* [Render Test](lod/render-test.md)
-
-
 -->
 
