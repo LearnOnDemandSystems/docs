@@ -1,12 +1,19 @@
+
+
+# Heading 1 
+
+## Heading 2 
+
+### Heading 3 
+
+#### Heading 4 
+
+##### Heading 5 
+
+###### Heading 6 
+
 |                   |                                          |
 | ------------------| ---------------------------------------- |
-|<font size="3">**Headings**</font> | |
-| Heading 1 | # Heading 1 |
-| Heading 2 | ## Heading 2 |
-| Heading 3 | ### Heading 3 |
-| Heading 4 | #### Heading 4 |
-| Heading 5 | ##### Heading 5 |
-| Heading 6 | ###### Heading 6 | 
 |<BR>                                      | |
 |<font size="3">**Text**</font>| |
 | Indent size | `equal to 4 spaces` |
