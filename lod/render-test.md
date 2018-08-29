@@ -1,5 +1,3 @@
-
-
 # Heading 1 
 
 ## Heading 2 
@@ -16,22 +14,32 @@
 
 
 **bold** 
+
 *Italic* 
+
 ~~Strikethrough~~ 
+
 \ **escaped character**
+
 - bullet
 
 [Link to bottom of page](#bottom
 
 [Google](https://google.com)
 | Relative link | [create a user](lod/create-user.md)
-| Help Link     | HELP[help text here](https://google.com)                                        
-| Hint Link     | HINT[hint text here](https://www.learnondemandsystems.com/)                                        
+
+| Help Link     | HELP[help text here](https://google.com)      
+
+| Hint Link     | HINT[hint text here](https://www.learnondemandsystems.com/) 
+
 | Knowledge Link | KNOWLEDGE[knowledge text here](https://www.learnondemandsystems.com/)                                       
 
 Add a behavior prefix to control the way the link opens 
+
 Open in portal window | < https://www.learnondemandsystems.com/    
+
 Open in a dialog | `^` before the link     
+
 Open in new window | no special characters before the link      
 
                                        
@@ -50,24 +58,40 @@ ___
 > text to display in block quote       
                                          
 Image             | !IMAGE[Text to display](URL)`                               
-Video             | !VIDEO[Text to display](URL)` (URLs from YouTube.com auto embed)          
+
+Video             | !VIDEO[Text to display](URL)` (URLs from YouTube.com auto embed)       
+
 Image with link   | [![image description](URL of image "image description")](URL to open when image is clicked)`    
+
 Portal Link       |  <[Text to display](URL)      
+
 Image Link        |  IMAGE[Text to display](URL) 
+
 Video Link        |  VIDEO[Text to display](URL)
+
 Image Dimensions  | {heightXwidth}` or `{height}` (width will be calculated automatically) 
                                        
-Knowledge Block        | `>[!KNOWLEDGE] Knowledge blocks help students learn more` 
-Alert Block            | `>[!ALERT] Alert blocks draw attention to important issues!`  
-Note Block             | `>[!NOTE]`                              
-Help Block             | `>[!HELP]`                              
-Hint Block             | `>[!HINT]`                              
-Include           | `!INSTRUCTIONS[](url)`                
-Copyable Text     | `++copyable text++`                      
-Type Text         | `+++Type text+++`                      
-Replacement Token | `Click the @ lab toolbar button ` 
-Embed YouTube video | `!VIDEO[text to display](url)` (URLs from YouTube.com auto embed)               
+Knowledge Block        | >[!KNOWLEDGE] Knowledge blocks help students learn more
+
+Alert Block            |>[!ALERT] Alert blocks draw attention to important issues! 
+
+Note Block             |>[!NOTE]     
+
+Help Block             | >[!HELP]                              
+
+Hint Block             |>[!HINT]                           
+Include           | !INSTRUCTIONS[](url)   
+
+Copyable Text     | ++copyable text++ 
+
+Type Text         | +++Type text+++    
+
+Replacement Token | Click the @ lab toolbar button  
+
+Embed YouTube video | !VIDEO[text to display](url)` (URLs from YouTube.com auto embed)               
      
+`
+
 **Commands** (requires Integration Services to be installed on the VM)</font>
 
 Single Line
@@ -77,14 +101,13 @@ Single Line
 
 
 
+@[Text to display][multi-line-command-id]
 
-    @[Text to display][multi-line-command-id]
-
-    [multi-line-command-id]:
-    ```
-    Multi-line
-    Command-goes-here
-    ```
+[multi-line-command-id]:
+```
+Multi-line
+Command-goes-here
+```
 
 
 Text_lookup
