@@ -108,22 +108,6 @@ Multi-line
 Command-goes-here
 ```
 
-
-Text_lookup
-[Reference link]
-[Reference link]: URL "Optional link title"
-
-Label_lookup
-[Reference link][Name of URL]
-[Name of URL]: URL "Optional link title"
-
-Footnote_style
-[Reference link][1]
-[1]: URL "Optional link title"
-
----
-
-
 Lists **without** checkboxes:       
 Unordered_List
 - Item 1
@@ -151,9 +135,8 @@ Unordered_List
         - [] Item 1.1.2
     - [] Item 1.2
 - [] Item 2
-```
 
-```Ordered_List
+Ordered_List
 1. [] Item 1
     1. [] Item 1.1
         1. [] Item 1.1.1
@@ -184,7 +167,6 @@ Center aligned text
 |:--------:|:--------:|
 | data 1   | data 2   |
 | data 3   | data 4   |
-
 
 ## Bottom
 
