@@ -26,13 +26,13 @@
 [Link to bottom of page](#bottom
 
 [Google](https://google.com)
-| Relative link | [create a user](lod/create-user.md)
+Relative link | [create a user](lod/create-user.md)
 
-| Help Link     | HELP[help text here](https://google.com)      
+Help Link     | HELP[help text here](https://google.com)      
 
-| Hint Link     | HINT[hint text here](https://www.learnondemandsystems.com/) 
+Hint Link     | HINT[hint text here](https://www.learnondemandsystems.com/) 
 
-| Knowledge Link | KNOWLEDGE[knowledge text here](https://www.learnondemandsystems.com/)                                       
+Knowledge Link | KNOWLEDGE[knowledge text here](https://www.learnondemandsystems.com/)                                       
 
 Add a behavior prefix to control the way the link opens 
 
