@@ -100,12 +100,7 @@ Image Dimensions  | {heightXwidth} or {height (width will be calculated automati
 
 Single Line
 
-
 @[Text to display](`command`)
-
-
-
-@[Text to display][multi-line-command-id]
 
 [multi-line-command-id]:
 ```
