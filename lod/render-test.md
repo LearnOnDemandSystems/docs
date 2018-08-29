@@ -66,11 +66,11 @@ ___
 
 > text to display in block quote       
                                          
-Image             | !IMAGE[Text to display](https://www.zelda.com/assets/img/home/games/354x198_ZeldaBreathofWild_v01.jpg)                               
+![Text to display](https://www.zelda.com/assets/img/home/games/354x198_ZeldaBreathofWild_v01.jpg)                               
 
-Video             | !VIDEO[Text to display](https://www.youtube.com/watch?v=FDWb7aXOPCE)      
+![Text to display](https://www.youtube.com/watch?v=FDWb7aXOPCE)      
 
-Image with link   | [![image description]((https://www.zelda.com/assets/img/home/games/354x198_ZeldaBreathofWild_v01.jpg)  )
+[![image description]((https://www.zelda.com/assets/img/home/games/354x198_ZeldaBreathofWild_v01.jpg)  )
 
 Portal Link 
 
