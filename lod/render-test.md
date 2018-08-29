@@ -23,7 +23,7 @@
 
 - bullet
 
-[Link to bottom of page](#bottom
+[Link to bottom of page](#bottom)
 
 [Google](https://google.com)
 
