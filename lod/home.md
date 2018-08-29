@@ -2,7 +2,7 @@
 
 Welcome to the OneLearn Lab on Demand platform!
 
-[Render test](lod/render-test.md)
+[Render test](render-test.md)
 
 ## Authoring lab instructions
 
