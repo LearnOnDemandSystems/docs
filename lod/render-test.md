@@ -80,7 +80,7 @@ Image Link        |  IMAGE[Text to display](URL)
 
 Video Link        |  VIDEO[Text to display](URL)
 
-Image Dimensions  | {heightXwidth}` or `{height}` (width will be calculated automatically) 
+Image Dimensions  | {heightXwidth} or {height (width will be calculated automatically) 
                                        
 >[!KNOWLEDGE] Knowledge blocks help students learn more
 
@@ -101,7 +101,7 @@ Image Dimensions  | {heightXwidth}` or `{height}` (width will be calculated auto
 Single Line
 
 
- `@[Text to display](`command`)
+@[Text to display](`command`)
 
 
 
