@@ -66,13 +66,15 @@ ___
 
 > text to display in block quote       
                                          
-Image             | !IMAGE[Text to display](URL)`                               
+Image             | !IMAGE[Text to display](https://www.zelda.com/assets/img/home/games/354x198_ZeldaBreathofWild_v01.jpg)                               
 
-Video             | !VIDEO[Text to display](URL)` (URLs from YouTube.com auto embed)       
+Video             | !VIDEO[Text to display](https://www.youtube.com/watch?v=FDWb7aXOPCE)      
 
-Image with link   | [![image description](URL of image "image description")](URL to open when image is clicked)`    
+Image with link   | [![image description]((https://www.zelda.com/assets/img/home/games/354x198_ZeldaBreathofWild_v01.jpg)  )
 
-Portal Link       |  <[Text to display](URL)      
+Portal Link 
+
+<[Text to display](https://www.learnondemandsystems.com)       
 
 Image Link        |  IMAGE[Text to display](URL) 
 
@@ -80,27 +82,19 @@ Video Link        |  VIDEO[Text to display](URL)
 
 Image Dimensions  | {heightXwidth}` or `{height}` (width will be calculated automatically) 
                                        
-Knowledge Block        | >[!KNOWLEDGE] Knowledge blocks help students learn more
+>[!KNOWLEDGE] Knowledge blocks help students learn more
 
-Alert Block            |>[!ALERT] Alert blocks draw attention to important issues! 
+>[!ALERT] Alert blocks draw attention to important issues! 
 
-Note Block             |>[!NOTE]     
+>[!NOTE] some text    
 
-Help Block             | >[!HELP]                              
+>[!HELP]  some text
 
-Hint Block             |>[!HINT]       
+>[!HINT]       some text
 
-Include           | !INSTRUCTIONS[](url)   
+++copyable text++ 
 
-Copyable Text     | ++copyable text++ 
-
-Type Text         | +++Type text+++    
-
-Replacement Token | Click the @ lab toolbar button  
-
-Embed YouTube video | !VIDEO[text to display](url)` (URLs from YouTube.com auto embed)               
-     
-`
++++Type text+++    
 
 **Commands** (requires Integration Services to be installed on the VM)</font>
 
@@ -198,3 +192,5 @@ Center aligned text
 
 
 ## Bottom
+
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/test/contact-us.md)   
