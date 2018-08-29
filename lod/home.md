@@ -252,6 +252,8 @@ VIEW STATISTICS	/LabProfile/Statistics/{labProfileId},
 
 ### Cloud Restriction Templates
 
+* [Render Test](lod/render-test.md)
+
 
 -->
 
