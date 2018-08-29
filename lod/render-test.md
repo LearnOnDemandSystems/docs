@@ -27,7 +27,7 @@
 
 [Google](https://google.com)
 
-Relative link | [create a user](lod/create-user.md)
+Relative link | [create a user](create-user.md)
 
 Help Link     | HELP[help text here](https://google.com)      
 
