@@ -58,8 +58,9 @@ Welcome to the OneLearn Lab on Demand platform!
 
 * [**Life Cycle Actions**](guides/lca/life-cycle-actions-guide.md) - Define actions to occur at certain times within the lab's life cycle, such as calling an external service when the lab builds, or sending a notification to the user when the lab is resumed. 
 
+<!--
 * [**Performance Based Testing (PBT)**](guides/pbt/lodpbtguide.md) - Configure Performance Based Testing on your lab profile.
-
+-->
 * [**Shared Labs (a.k.a. Cyber-Range)**](guides/sl/sharedlabs.md) - Configure a Shared Lab environment
 
 * [**Virtual Machine Based Lab Development - Best Practices**](lod/vm-based-lab-build-best-practices.md) - Recommendations and best practices for cloud-hosted and datacenter-hosted virtual machines.
