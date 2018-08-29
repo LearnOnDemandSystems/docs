@@ -37,17 +37,17 @@ Knowledge Link | KNOWLEDGE[knowledge text here](https://www.learnondemandsystems
 
 Add a behavior prefix to control the way the link opens 
 
-Open in portal window  
+  
 
-<[](https://www.learnondemandsystems.com)    
+<[Open in portal window](https://www.learnondemandsystems.com)    
 
-Open in a dialog
 
-^[](https://www.learnondemandsystems.com)      
 
-Open in new window 
+^[Open in a dialog](https://www.learnondemandsystems.com)      
 
-[](https://www.learnondemandsystems.com)      
+
+
+[Open in new window ](https://www.learnondemandsystems.com)      
 
                                        
 Page break         ===  
