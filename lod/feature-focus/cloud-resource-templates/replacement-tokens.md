@@ -9,10 +9,10 @@ The table below lists the replacement tokens that are most commonly used with Cl
 
 |lab Replacement Token|Description|
 |--|--|
-|lab.LabInstanceId|The ID of the lab instance where the template is being deployed. The identifier is unique within a deployment of lab on demand. This token should be used as a suffix on resource names to make them unique within the cloud subscription. Example: 123456|
-|lab.GlobalLabInstanceId|The globally unique identifier of the lab instance where the template is being deployed. This identifier is unique across all deployments of lab on demand. This token should be used as a suffix on resource names to make them globally unique across all cloud subscriptions. Example: lod123456|
-|lab.LabProfileId|The ID of the lab profile in which the template is being deployed. It is unique within a deployment of Lab on Demand. This token should be used when naming resources that you want to share amongst all users in a lab. |
-|lab.UserId|The ID of the user that launched the lab.|
+|lab.LabInstance.Id|The ID of the lab instance where the template is being deployed. The identifier is unique within a deployment of lab on demand. This token should be used as a suffix on resource names to make them unique within the cloud subscription. Example: 123456|
+|lab.LabInstance.GlobalId|The globally unique identifier of the lab instance where the template is being deployed. This identifier is unique across all deployments of lab on demand. This token should be used as a suffix on resource names to make them globally unique across all cloud subscriptions. Example: lod123456|
+|lab.LabProfile.Id|The ID of the lab profile in which the template is being deployed. It is unique within a deployment of Lab on Demand. This token should be used when naming resources that you want to share amongst all users in a lab. |
+|lab.User.Id|The ID of the user that launched the lab.|
 
 
 ## Using replacement tokens as Cloud Resource Template parameters 
