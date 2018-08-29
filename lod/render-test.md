@@ -26,6 +26,7 @@
 [Link to bottom of page](#bottom
 
 [Google](https://google.com)
+
 Relative link | [create a user](lod/create-user.md)
 
 Help Link     | HELP[help text here](https://google.com)      
@@ -79,7 +80,8 @@ Note Block             |>[!NOTE]
 
 Help Block             | >[!HELP]                              
 
-Hint Block             |>[!HINT]                           
+Hint Block             |>[!HINT]       
+
 Include           | !INSTRUCTIONS[](url)   
 
 Copyable Text     | ++copyable text++ 
