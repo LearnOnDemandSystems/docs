@@ -68,7 +68,7 @@ ___
                                          
 ![Text to display](https://www.zelda.com/assets/img/home/games/354x198_ZeldaBreathofWild_v01.jpg)                               
 
-![Text to display](https://www.youtube.com/watch?v=FDWb7aXOPCE)      
+!VIDEO[Text to display](https://www.youtube.com/watch?v=FDWb7aXOPCE)      
 
 [![image description]((https://www.zelda.com/assets/img/home/games/354x198_ZeldaBreathofWild_v01.jpg)  )
 
@@ -86,11 +86,11 @@ Image Dimensions  | {heightXwidth}` or `{height}` (width will be calculated auto
 
 >[!ALERT] Alert blocks draw attention to important issues! 
 
->[!NOTE] some text    
+>[!NOTE] note text   
 
->[!HELP]  some text
+>[!HELP] help text
 
->[!HINT]       some text
+>[!HINT] hint text
 
 ++copyable text++ 
 
