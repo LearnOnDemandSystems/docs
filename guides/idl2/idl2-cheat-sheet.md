@@ -20,9 +20,9 @@
 | Internal link | `[text to display on link](#heading-to-link-to "optional link title")` (must be all lower-case, alphanumeric and separated by hyphens) |
 | External link | `[External link](URL "Optional link title")` |
 | Relative link | `[text to display](../folder/file.htm "optional link title")` | 
-| Help Link     | `HELP[help text here](https://URL.com)`                                        |
-| Hint Link     | `HINT[hint text here](https://URL.com)`                                        |
-| Knowledge Link | `KNOWLEDGE[knowledge text here](https://URL.com)`                                       |
+| Help Link     | `help[help text here](https://URL.com)`                                        |
+| Hint Link     | `hint[hint text here](https://URL.com)`                                        |
+| Knowledge Link | `knowledge[knowledge text here](https://URL.com)`                                       |
 |<BR> | |
 |<font size="3">**Link Behavior Prefixes**: </font>    |    
 |Add a behavior prefix to control the way the link opens ||
@@ -36,25 +36,25 @@
 | Block quote       | `> text to display in block quote`       |
 |<BR> | |
 |<font size="3">**Embedded Content**</font>|                                          |
-| Image             | `!IMAGE[Text to display](URL)`                               |
-| Video             | `!VIDEO[Text to display](URL)` (URLs from YouTube.com auto embed)          |
+| Image             | `![text to display](URL)`                               |
+| Video             | `!video[text to display](URL)` (URLs from YouTube.com auto embed)          |
 | Image with link   | `[![image description](URL of image "image description")](URL to open when image is clicked)`    |
-| Portal Link       |  `<[Text to display](URL)`     | 
-| Image Link        |  `IMAGE[Text to display](URL)`| 
-| Video Link        |  `VIDEO[Text to display](URL)`| 
+| Portal Link       |  `<[text to display](URL)`     | 
+| Image Link        |  `image[text to display](URL)`| 
+| Video Link        |  `video[text to display](URL)`| 
 | Image Dimensions  | `{heightXwidth}` or `{height}` (width will be calculated automatically) |
 |<BR> | |
  |<font size="3">**Special**</font>|                                          |
-| Knowledge Block        | `>[!KNOWLEDGE] Knowledge blocks help students learn more` |
-| Alert Block            | `>[!ALERT] Alert blocks draw attention to important issues!` | 
-| Note Block             | `>[!NOTE]`                              |
-| Help Block             | `>[!HELP]`                              |
-| Hint Block             | `>[!HINT]`                              |
-| Include           | `!INSTRUCTIONS[](url)`                |
+| Knowledge Block        | `>[!knowledge] Knowledge blocks help students learn more` |
+| Alert Block            | `>[!alert] Alert blocks draw attention to important issues!` | 
+| Note Block             | `>[!note]`                              |
+| Help Block             | `>[!help]`                              |
+| Hint Block             | `>[!hint]`                              |
+| Include           | `!instructions[](url)`                |
 | Copyable Text     | `++copyable text++`                      |
 | Type Text         | `+++Type text+++`                      |
-| Replacement Token | `Click the @ lab toolbar button ` |
-| Embed YouTube video | `!VIDEO[text to display](url)` (URLs from YouTube.com auto embed)               |
+| Replacement Token | `click the @ lab toolbar button ` |
+| Embed YouTube video | `!video[text to display](url)` (URLs from YouTube.com auto embed)               |
 |<BR> | |
 
 ---
@@ -98,7 +98,7 @@ get-service | stop-service -whatif
 
 Dialog
 ```
-^[Text to display in lab  instructions][Reference Link]
+^[text to display in lab  instructions][Reference Link]
 
 > [Reference Link]:
 > This text will appear in the Dialog popup
@@ -116,7 +116,7 @@ Instruction Dialog
 Single Line
 
 ~~~
-@[Text to display](`command`)
+@[text to display](`command`)
 ~~~
 
 Multi-Line
@@ -124,7 +124,7 @@ Multi-Line
 <!-- The following code block _must_ be indented instead of wrapped in ~~~ to prevent
      our preprocessor from preprocessing the code. Do not change this formatting. -->
 
-    @[Text to display][multi-line-command-id]
+    @[text to display][multi-line-command-id]
 
     [multi-line-command-id]:
     ```
