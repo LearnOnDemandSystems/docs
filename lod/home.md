@@ -2,6 +2,8 @@
 
 Welcome to the OneLearn Lab on Demand platform!
 
+[Render test](render-test.md)
+
 ## Authoring lab instructions
 
 - [**IDLx Lab Development Best Practices**](/lod/idlx-development-best-practices.md) - This document covers best practices for IDLx lab development, to assist in creating a rich learning experience.
@@ -56,11 +58,13 @@ Welcome to the OneLearn Lab on Demand platform!
 
 * [**Lab on Demand edX Integration**](/guides/lti/lod-lti.md) - Integrate edX into your lab profile. 
 
-* [**Life Cycle Actions**](/guides/lca/life-cycle-actions-guide.md) - Define actions to occur at certain times within the lab's life cycle, such as calling an external service when the lab builds, or sending a notification to the user when the lab is resumed. 
+* [**Life Cycle Actions**](guides/lca/life-cycle-actions-guide.md) - Define actions to occur at certain times within the lab's life cycle, such as calling an external service when the lab builds, or sending a notification to the user when the lab is resumed. 
 
-* [**Performance Based Testing (PBT)**](/guides/pbt/lodpbtguide.md) - Configure Performance Based Testing on your lab profile.
+<!--
+* [**Performance Based Testing (PBT)**](guides/pbt/lodpbtguide.md) - Configure Performance Based Testing on your lab profile.
+-->
 
-* [**Shared Labs (a.k.a. Cyber-Range)**](/guides/sl/sharedlabs.md) - Configure a Shared Lab environment
+* [**Shared Labs (a.k.a. Cyber-Range)**](guides/sl/sharedlabs.md) - Configure a Shared Lab environment
 
 * [**Virtual Machine Based Lab Development - Best Practices**](/lod/vm-based-lab-build-best-practices.md) - Recommendations and best practices for cloud-hosted and datacenter-hosted virtual machines.
 
@@ -251,7 +255,5 @@ VIEW STATISTICS	/LabProfile/Statistics/{labProfileId},
 
 
 ### Cloud Restriction Templates
-
-
 -->
 
