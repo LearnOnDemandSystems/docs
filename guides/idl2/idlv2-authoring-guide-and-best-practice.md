@@ -152,6 +152,8 @@ The image below shows what will be seen after clicking **Edit instructions**, as
     - Sync Preview Location: syncs your cursor location in lab instructions with the Preview.
     - Autosave: enables the lab instructions to autosave
     - Theme: select a theme for the lab instruction editor.
+    - Editor zoom: adjusts the zoom level on the instruction editor.
+    - Preview zoom: adjusts the zoom level on the preview pane of the instruction editor. 
     - Track Task Progress: enables the percentage of completed tasks to be reflected on the lab instance page, as well as the class page if the lab is part of an active class. 
 - **Markdown Help:** displays common Markdown syntax, used for reference while writing lab instructions. Clicking the *Learn More* button will display more information that may be helpful with authoring your lab. 
 
@@ -786,6 +788,7 @@ Replacement tokens use the syntax &commat;lab._replacementTokenName_. You can se
    > | lab.CloudPortal.SignInUrl   | The cloud portal sign-in URL (rendered as text, not a link). |
    > | lab.CloudPortal.SignOutLink | A cloud portal sign-out link.            |
    > | lab.CloudPortal.SignOutUrl  | The cloud portal sign-out URL (rendered as text, not a link). |
+   > | lab.LabInstance.StartDate | The start date of the lab instance |
 
 # Activities
 

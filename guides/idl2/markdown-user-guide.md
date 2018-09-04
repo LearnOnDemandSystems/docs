@@ -441,6 +441,7 @@ Although potentially any task could be reduced to an action that can be executed
   > | `lab.VirtualMachine(VM-ID).SelectLink` | A link to select the (VM-ID) virtual machine |
   > | `lab.VirtualMachine(VM-ID).Username` | Username for signing into the (VM-ID) virtual machine. |
   > | `lab.VirtualMachine(VM-ID).Password` | Password for signing into the (VM-ID) virtual machine. |
+  > | `lab.LabInstance.StartDate` | The start date of the lab instance |
 
   *(VM-ID) should be replaced with the unique ID of the virtual machine in use.
 
