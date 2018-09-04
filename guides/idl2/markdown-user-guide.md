@@ -98,15 +98,15 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
     
 - **Help Link**: used to provide a link that will help the student with the section of the lab they are working on. 
 
-        > HELP[help text here](https://URL.com)
+        > help[help text here](https://URL.com)
 
 - **Hint Link**: used to provide a hint that will help the student with the section of the lab they are working on. This is most effective as a dialog (see [Link Behavior Prefixes](#link-behavior-prefixes)).
        
-        > HINT[hint text here](https://URL.com)
+        > hint[hint text here](https://URL.com)
 
 - **Knowledge Link**: used to provide a link, that will give the student additional knowledge about with the section of the lab they are working on.
 
-        > KNOWLEDGE[knowledge text here](https://URL.com)
+        > knowledge[knowledge text here](https://URL.com)
 
 ### Link Behavior Prefixes
 
@@ -143,7 +143,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 - **Image**: Used to embed an image inline with other content. When images are clicked, they will open in a new window and display at the images full resolution.
 
-  > \!IMAGE[text to display]\(url)
+  > \![text to display]\(url)
 
 - **Image Dimensions**: You can specify image dimensions in your lab. Dimension values are in pixels and are placed inside curly braces, immediately after the end of the link URL syntax. Height and width are separated by a "x" in this format:{widthxheight}
 It's also possible to simply supply the width: {width}. In this case, the height is automatically calculated for you to be proportional to the provided width.
@@ -152,7 +152,7 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
 - **Video:** Used to embed an image inline with other content. The syntax format should look the same as an image, except the video should begin with a ! (explanation mark), followed by the word VIDEO (all caps).
 
-  > \!VIDEO[text to display]\(url)
+  > \!video[text to display]\(url)
 
 - **Image with link:** Used to embed an image that can be clicked to navigate to a specific URL (internal or external). 
 
@@ -164,13 +164,13 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
 - **Image Link:** used to display a link with a camera icon, to suggest that the hyperlink opens an image
 
-  > `IMAGE[text to display](URL to image)`
+  > `image[text to display](URL to image)`
   >
   > ![](images/image-link.png "Image Link")
 
 - **Video Link:** used to display a link with a videocamera icon, to suggest that the hyperlink opens a video
 
-  > `VIDEO[text to display](URL to video)`
+  > `video[text to display](URL to video)`
   >
   > ![](images/video-link.png "Video Link")
   
@@ -441,6 +441,7 @@ Although potentially any task could be reduced to an action that can be executed
   > | `lab.VirtualMachine(VM-ID).SelectLink` | A link to select the (VM-ID) virtual machine |
   > | `lab.VirtualMachine(VM-ID).Username` | Username for signing into the (VM-ID) virtual machine. |
   > | `lab.VirtualMachine(VM-ID).Password` | Password for signing into the (VM-ID) virtual machine. |
+  > | `lab.LabInstance.StartDate` | The start date of the lab instance |
 
   *(VM-ID) should be replaced with the unique ID of the virtual machine in use.
 

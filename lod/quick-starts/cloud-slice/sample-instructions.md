@@ -19,7 +19,7 @@ It is a good idea to use headings to identify specific sections in your instruct
 
 You can emphasize key words or phrases in your instructions by making it **bold**, using _italics_ or ~striking it through~.
 
-> [!KNOWLEDGE] ### Did you know?
+> [!knowledge] ### Did you know?
 >
 > Knowledge blocks help students learn more.
 >
@@ -27,7 +27,7 @@ You can emphasize key words or phrases in your instructions by making it **bold*
 >
 > This allows students to decide if they want to read further on a subject or not.
 
-> [!ALERT] When you really want to make sure a student notices something in your lab, alert them!
+> [!alert] When you really want to make sure a student notices something in your lab, alert them!
 
 ###### There are six levels of headings available in Markdown
 
@@ -43,11 +43,11 @@ Another way you can separate thoughts/ideas from one another on the same page is
 
 Screenshots or inline images encourage students by pointing them in the right direction. They can be embedded inline, like this:
 
-!IMAGE[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/quick-starts/cloud-slice/images/diamond.jpg)
+!image[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/quick-starts/cloud-slice/images/diamond.jpg)
 
 They can also be hidden behind a link that opens in a new window, like this:
 
-IMAGE[Click here to see ...](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/quick-starts/cloud-slice/images/diamond.jpg)
+image[Click here to see ...](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/quick-starts/cloud-slice/images/diamond.jpg)
 
 Integrating videos is just as easy. Here's one that talks about PowerShell:
 

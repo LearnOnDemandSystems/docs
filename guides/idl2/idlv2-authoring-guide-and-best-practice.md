@@ -152,6 +152,8 @@ The image below shows what will be seen after clicking **Edit instructions**, as
     - Sync Preview Location: syncs your cursor location in lab instructions with the Preview.
     - Autosave: enables the lab instructions to autosave
     - Theme: select a theme for the lab instruction editor.
+    - Editor zoom: adjusts the zoom level on the instruction editor.
+    - Preview zoom: adjusts the zoom level on the preview pane of the instruction editor. 
     - Track Task Progress: enables the percentage of completed tasks to be reflected on the lab instance page, as well as the class page if the lab is part of an active class. 
 - **Markdown Help:** displays common Markdown syntax, used for reference while writing lab instructions. Clicking the *Learn More* button will display more information that may be helpful with authoring your lab. 
 
@@ -440,15 +442,15 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 - **Help Link**: used to provide a link that will help the student with the section of the lab they are working on. 
 
-        > HELP[help text here](https://URL.com)
+        > help[help text here](https://URL.com)
 
 - **Hint Link**: used to provide a hint that will help the student with the section of the lab they are working on. This is most effective as a dialog (see [Link Behavior Prefixes](#link-behavior-prefixes)).
        
-        > HINT[hint text here](https://URL.com)
+        > hint[hint text here](https://URL.com)
 
 - **Knowledge Link**: used to provide a link, that will give the student additional knowledge about with the section of the lab they are working on.
 
-        > KNOWLEDGE[knowledge text here](https://URL.com)
+        > knowledge[knowledge text here](https://URL.com)
 
 ### Link Behavior Prefixes
 
@@ -484,7 +486,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 - **Image**: Used to embed an image inline with other content. When images are clicked, they will open in a new window and display at the images full resolution.
 
-    > \!IMAGE[text to display]\(url)
+    > \![text to display]\(url)
 
 - **Image Dimensions**: You can specify image dimensions in your lab. Dimension values are in pixels and are placed inside curly braces, immediately after the end of the link URL syntax. Height and width are separated by a "x" in this format:{widthxheight}
 It's also possible to simply supply the width: {width}. In this case, the height is automatically calculated for you to be proportional to the provided width.
@@ -501,7 +503,7 @@ It's also possible to simply supply the width: {width}. In this case, the height
     - Keep the video short, between 30 – 60 seconds at most.
     - Make sure the video covers only the relevant step.
 
-    > \!VIDEO[text to display]\(url)
+    > \!video[text to display]\(url)
 
 - **Image with link:** Used to embed an image that can be clicked to navigate to a specific URL (internal or external). 
 
@@ -513,7 +515,7 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
 - **Image Link:** used to display a link with a camera icon, to suggest that the hyperlink opens an image. Opens in a new window.
 
-    > `IMAGE[text to display](URL to image)`
+    > `image[text to display](URL to image)`
 
     ![](images/image-link.png "Image Link")
 
@@ -634,31 +636,31 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
     -  If you use the Knowledge box for lab steps or a series of commands, please make sure you include a note directing users to execute the steps or commands there. (For example, “At the PowerShell prompt,type the commands listed in the Knowledge box, pressing ENTER after each one.”)
 
-    > \> [!KNOWLEDGE] knowledge text here.
+    > \> [!knowledge] knowledge text here.
 
     ![](images/idl2-knowledge.png "Knowledge Block")
 
 - **Alert:** Used to draw attention to important issues, such as showing additional information or steps that the student may need complete to avoid other issues. Alerts are useful whenever you want the users to pause and take note of additional and important information. From the user’s perspective, alerts are mandatory because they will appear inline in lab instructions. 
 
-    > \> [!ALERT] alert text here.
+    > \> [!alert] alert text here.
 
     ![](images/idl2-alert.png "Alert Block")
 
 - **Hint Block:** Used to provide a hint for the for the section of the lab that the student is working on.  
 
-    > \> [!HINT] hint text here.
+    > \> [!hint] hint text here.
  
     > ![](images/hint-block.png "Hint Block")
 
 - **Help Block:** Used to provide help, such as showing additional about the section of the lab that the student is working on.
 
-    > \> [!HELP] help text here.
+    > \> [!help] help text here.
   
     > ![](images/help-block.png "Help Block")
 
 - **Note Block:** used to provide additional information, similar to a Knowledge Block, with the only difference being that Notes do not collapse and show a _more_ link to expand the section. 
 
-     > \> [!NOTE] note text here.
+     > \> [!note] note text here.
   
     > ![](images/note-block.png "Note Block")
 
@@ -672,7 +674,7 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
 - **Instruction Dialog:** Used to open a dialog popup, to display rendered Markdown or IDLx content that is located anywhere on the internet and accessible from a URL. This can be useful to provide additional information, from external sources on the internet.
 
-    > ```^INSTRUCTIONS[text](url)```
+    > ```^instructions[text](url)```
 
 - **Reference Instruction Blocks:** Used to reference content multiple times throughout the lab instructions. First, Define the content, then reference the content using the syntax below. Defined content can be text, links, copyable text, code blocks or rich media content such as images and videos. Defined content will not appear in lab instructions until it is referenced using the Reference Content syntax. 
 
@@ -680,13 +682,13 @@ It's also possible to simply supply the width: {width}. In this case, the height
         > ```>[reference label]: Content goes here```
 
    - Reference Content
-        > ```!INSTRUCTIONS[][label]```
+        > ```!instructions[][label]```
 
         ![Refernce Instruction Block](images/reference-instruction-blocks.png)
 
 - **Commands:** Used to target the current resource in the Resource Portal to input commands. To mitigate risk of error and to enhance the overall experience of the lab, the IDLx platform supports executing commands directly in the area of focus of the Resource Portal. Clicking the text in the lab instructions will input the command into the item in focus, on the Resource Portal. Commands can be a single line (shown below) or multi-line. 
 
-There are 4 different kinds of commands that you can configure:
+    There are 4 different kinds of commands that you can configure:
 
    - **Type Text**. This is not a command per se. Rather, this command type allows the user to input a predetermined string. To use this, simply add ```+++``` on each side of the text that you wish to have typed.
 
@@ -745,9 +747,9 @@ Although potentially any task could be reduced to an action that can be executed
    
 - **Include:**  Used to input text from a GitHub raw link. This is useful to use to pull in content hosted on GitHub. Navigate to the GitHub page containing the content to be used, click the Raw button, then copy the URL of that page and include it in the below syntax. 
 
-    - **Note**: GitHub hosted content can be changed by the repo maintainer of the content and will change the 			instructions displayed in the lab that is using the Include syntax. 
+    - **Note**: GitHub hosted content can be changed by the repo maintainer of the content and will change the instructions displayed in the lab that is using the Include syntax. 
 
-    > `[!INCLUDE [label](url)]`
+    > `[!include [label](url)]`
 
 - **Copyable Text:** Used to make text copy to the local clipboard when the student clicks the text. Type two + (plus) symbols on each side of the text that should be made copyable. 
 
@@ -763,7 +765,7 @@ Although potentially any task could be reduced to an action that can be executed
 
 - **Embed YouTube video:** Used to embed a YouTube video inline with the lab instructions. URLs from YouTube.com automatically embed. Videos from any other URL will not embed.
 
-    > `!VIDEO[text to display](url)` 
+    > `!video[text to display](url)` 
 
 - **Replacement Token:** Used to replace text in lab instructions with a variable that is unknown at the time of authoring the lab instructions. These variables may not be generated or created until the lab is launched by the student. These can include usernames, user first name, user last name, running lab instance ID number, etc. 
 
@@ -786,6 +788,7 @@ Replacement tokens use the syntax &commat;lab._replacementTokenName_. You can se
    > | lab.CloudPortal.SignInUrl   | The cloud portal sign-in URL (rendered as text, not a link). |
    > | lab.CloudPortal.SignOutLink | A cloud portal sign-out link.            |
    > | lab.CloudPortal.SignOutUrl  | The cloud portal sign-out URL (rendered as text, not a link). |
+   > | lab.LabInstance.StartDate | The start date of the lab instance |
 
 # Activities
 
