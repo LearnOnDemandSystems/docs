@@ -12,12 +12,13 @@
 
 ###### Heading 6 
 
-
-
+>#Bold
 
 **bold** 
 
+>#Italic
 *Italic* 
+
 
 ~~Strikethrough~~ 
 
