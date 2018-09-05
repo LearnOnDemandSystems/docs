@@ -122,17 +122,17 @@ VIDEO[This is a video link](https://www.learnondemandsystems.com)
 
 >#Note Block
 
->[!NOTE] note text   
+>[!note] note text   
 
 >#Help Block
 
->[!HELP] help text
+>[!help] help text
 
 >#Hint Block
 
->[!HINT] hint text
+>[!hint] hint text
 
->#COpyable Text
+>#Copyable Text
 
 ++copyable text++ 
 
