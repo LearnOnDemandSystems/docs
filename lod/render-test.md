@@ -17,47 +17,64 @@
 **bold** 
 
 >#Italic
+
 *Italic* 
 
+>#Strikethrough
 
 ~~Strikethrough~~ 
 
+>#Escaped Character
+
 \ **escaped character**
+
+>#Bullet
 
 - bullet
 
+>#Internal Link (to the bottom of this page)
+
 [Link to bottom of page](#bottom)
+
+>#External Link
 
 [Google](https://google.com)
 
-Relative link | [create a user](create-user.md)
+>#Relative link
 
-Help Link     | HELP[help text here](https://google.com)      
+[create a user](create-user.md)
 
-Hint Link     | HINT[hint text here](https://www.learnondemandsystems.com/) 
+>#Help Link
 
-Knowledge Link | KNOWLEDGE[knowledge text here](https://www.learnondemandsystems.com/)                                       
+HELP[help text here](https://google.com)      
 
-Add a behavior prefix to control the way the link opens 
+>#Hint Link
 
-  
+HINT[hint text here](https://www.learnondemandsystems.com/) 
+
+>#Knowledge Link 
+
+knowledge[knowledge text here](https://www.learnondemandsystems.com/)                                       
+
+>#Opens in portal window
 
 <[Open in portal window](https://www.learnondemandsystems.com)    
 
-
+>#Open in a dialog
 
 ^[Open in a dialog](https://www.learnondemandsystems.com)      
 
-
+>#Open in a new window
 
 [Open in new window ](https://www.learnondemandsystems.com)      
 
-                                       
-Page break        
+>#Page Break        
 
 ===  
 
-Horizonal Line     ---
+>#Horizonal Line
+
+---
 
 or 
 
@@ -67,39 +84,65 @@ or
 
 ___ 
 
+>#Block Quote
+
 > text to display in block quote       
-                                         
-![Text to display](https://www.zelda.com/assets/img/home/games/354x198_ZeldaBreathofWild_v01.jpg)                               
+
+>#Image 
+
+![Text to display](https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png)                         
+
+># Video 
 
 !VIDEO[Text to display](https://www.youtube.com/watch?v=FDWb7aXOPCE)      
 
-[![image description]((https://www.zelda.com/assets/img/home/games/354x198_ZeldaBreathofWild_v01.jpg)  )
+[![image description](https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png)
 
-Portal Link 
+>#Image Link
 
-<[Text to display](https://www.learnondemandsystems.com)       
+IMAGE[Text to display](URL) 
 
-Image Link        |  IMAGE[Text to display](URL) 
+>#Video Link
 
-Video Link        |  VIDEO[Text to display](URL)
+VIDEO[Text to display](URL)
 
-Image Dimensions  | {heightXwidth} or {height (width will be calculated automatically) 
-                                       
->[!KNOWLEDGE] Knowledge blocks help students learn more
+>#Image Dimensions
 
->[!ALERT] Alert blocks draw attention to important issues! 
+{20X20](https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png)
+
+{5X5}(https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png)
+
+{10}(https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png)
+
+>#Knowledge Block
+
+>[!knowledge] Knowledge blocks help students learn more
+
+>#Alert Block
+
+>[!alert] Alert blocks draw attention to important issues! 
+
+>#Note Block
 
 >[!NOTE] note text   
 
+>#Help Block
+
 >[!HELP] help text
+
+>#Hint Block
 
 >[!HINT] hint text
 
+>#COpyable Text
+
 ++copyable text++ 
+
+>#Type Text
 
 +++Type text+++    
 
-**Commands** (requires Integration Services to be installed on the VM)</font>
+#>Commands
 
 Single Line
 
@@ -111,8 +154,11 @@ Multi-line
 Command-goes-here
 ```
 
-Lists **without** checkboxes:       
-Unordered_List
+>#Lists
+
+Lists **without** checkboxes:
+
+**Unordered_List**
 - Item 1
     - Item 1.1
         - Item 1.1.1
@@ -120,7 +166,7 @@ Unordered_List
     - Item 1.2
 - Item 2
 
-Ordered_List
+**Ordered_List**
 1. Item 1
     1. Item 1.1
         1. Item 1.1.1
@@ -131,7 +177,7 @@ Ordered_List
 
 Lists **with** checkboxes
 
-Unordered_List
+**Unordered_List**
 - [] Item 1
     - [] Item 1.1
         - [] Item 1.1.1
@@ -139,7 +185,7 @@ Unordered_List
     - [] Item 1.2
 - [] Item 2
 
-Ordered_List
+**Ordered_List**
 1. [] Item 1
     1. [] Item 1.1
         1. [] Item 1.1.1
@@ -148,7 +194,9 @@ Ordered_List
 1. [] Item 2
 ```
 
-Left aligned text
+>#Tables
+
+**Left aligned text**
 
 | column 1 | column 2 |
 |:---------|:---------|
@@ -156,7 +204,7 @@ Left aligned text
 | data 3   | data 4   |
 
 
-Right aligned text
+**Right aligned text**
 
 | column 1 | column 2 |
 |---------:|---------:|
@@ -164,7 +212,7 @@ Right aligned text
 | data 3   | data 4   |
 
 
-Center aligned text
+**Center aligned text**
 
 | column 1 | column 2 |
 |:--------:|:--------:|
@@ -172,5 +220,7 @@ Center aligned text
 | data 3   | data 4   |
 
 ## Bottom
+
+>#Include (pulls in contact page)
 
 !INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/test/contact-us.md)   
