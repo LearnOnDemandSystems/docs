@@ -47,7 +47,7 @@ All dates are in unix epoch time, which is the number of seconds that have elaps
 - [Resume](lod-api-resume.md) - Resumes a specified lab instance.
 - [RunningAndSavedLabs](lod-api-running-and-saved-labs.md) - Retrieves all labs that are currently running or saved.
 - [Save](lod-api-save.md) - Saves a specified lab instance.
-- [ScoreActivities](score-activities.md) - causes all scored activities in a particular lab instance to undergo scoring.
+- [ScoreActivities](lod-api-score-activities.md) - causes all scored activities in a particular lab instance to undergo scoring.
 - [SendNotification](lod-api-send-notification.md) - Sends a notification to a specified lab instance for the user to see.
 - [Stats](lod-api-stats.md) - returns statistics about how many labs are currently active and saved.
 - [UpdateClass](lod-api-update-class.md) - updates a specified class.
