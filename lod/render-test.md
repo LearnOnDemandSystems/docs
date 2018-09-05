@@ -46,11 +46,11 @@
 
 >#Help Link
 
-HELP[help text here](https://google.com)      
+help[help text here](https://google.com)      
 
 >#Hint Link
 
-HINT[hint text here](https://www.learnondemandsystems.com/) 
+hint[hint text here](https://www.learnondemandsystems.com/) 
 
 >#Knowledge Link 
 
