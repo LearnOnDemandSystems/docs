@@ -24,9 +24,9 @@
 
 ~~Strikethrough~~ 
 
->#Escaped Character
+>#Escaped Character (should escape bold syntax)
 
-\ **escaped character**
+\**escaped character**
 
 >#Bullet
 
