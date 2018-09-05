@@ -144,7 +144,7 @@ VIDEO[This is a video link](https://www.learnondemandsystems.com)
 
 Single Line
 
-@[Text to display](`command`)
+@[Text to display](`-get=service`)
 
 [multi-line-command-id]:
 ```
