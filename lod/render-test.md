@@ -90,21 +90,7 @@ ___
 
 >#Image 
 
-![Text to display](https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png)                         
-
-># Video 
-
-!VIDEO[Text to display](https://www.youtube.com/watch?v=f3UXxcqGSc4)
-
-[![image description](https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png)
-
->#Image Link
-
-IMAGE[Text to display](URL) 
-
->#Video Link
-
-VIDEO[Text to display](URL)
+![Text to display](https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png) 
 
 >#Image Dimensions
 
@@ -113,6 +99,18 @@ VIDEO[Text to display](URL)
 {5X5}(https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png)
 
 {10}(https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png)
+
+># Video 
+
+!VIDEO[Text to display](https://www.youtube.com/watch?v=f3UXxcqGSc4)
+
+>#Image Link
+
+[![image description]((https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png) "image description")](https://learnondemandsystems.com)
+
+>#Video Link
+
+VIDEO[This is a video link](https://www.learnondemandsystems.com)
 
 >#Knowledge Block
 
