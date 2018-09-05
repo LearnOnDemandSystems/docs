@@ -94,7 +94,7 @@ ___
 
 >#Image Dimensions
 
-{20X20](https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png)
+{20X20}(https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png)
 
 {5X5}(https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png)
 
