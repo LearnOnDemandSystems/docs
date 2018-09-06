@@ -94,11 +94,15 @@ ___
 
 >#Image Dimensions
 
-{20X20}(https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png)
+![](https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png){20x20}
 
-{5X5}(https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png)
+![](https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png){5x5}
 
-{10}(https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png)
+![](https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png){10}
+
+>#Image in a sentence
+
+This is an image ![](https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png) in a sentence
 
 ># Video 
 

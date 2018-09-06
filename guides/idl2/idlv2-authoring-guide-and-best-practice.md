@@ -491,7 +491,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 - **Image Dimensions**: You can specify image dimensions in your lab. Dimension values are in pixels and are placed inside curly braces, immediately after the end of the link URL syntax. Height and width are separated by a "x" in this format:{widthxheight}
 It's also possible to simply supply the width: {width}. In this case, the height is automatically calculated for you to be proportional to the provided width.
 
-  > `{widthXheight}` or `{width}`
+  > `![](image url){heightXwidth}` or `{height}`
 
 - **Video:** Used to embed a video inline with other content. The syntax format should look the same as an image, except the video should begin the word VIDEO (all caps).
 
