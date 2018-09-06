@@ -62,7 +62,13 @@ knowledge[knowledge text here](https://www.learnondemandsystems.com/)
 
 >#Open in a dialog
 
-^[Open in a dialog](https://www.learnondemandsystems.com)      
+^[Open website in a dialog](https://www.learnondemandsystems.com)
+
+^INSTRUCTIONS[Open instructions in a dialog](/lod/render-test.md)
+
+^VIDEO[Open video in a dialog](https://www.youtube.com/watch?v=f3UXxcqGSc4)
+
+^IMAGE[Open image in a dialog](https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png "image description")
 
 >#Open in a new window
 
