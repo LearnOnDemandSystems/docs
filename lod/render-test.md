@@ -64,7 +64,7 @@ knowledge[knowledge text here](https://www.learnondemandsystems.com/)
 
 ^[Open website in a dialog](https://www.learnondemandsystems.com)
 
-^INSTRUCTIONS[Open instructions in a dialog](/lod/render-test.md)
+^INSTRUCTIONS[Open instructions in a dialog](render-test.md)
 
 ^VIDEO[Open video in a dialog](https://www.youtube.com/watch?v=f3UXxcqGSc4)
 
