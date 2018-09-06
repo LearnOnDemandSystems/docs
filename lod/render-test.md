@@ -102,13 +102,9 @@ ___
 
 >#Image in a sentence
 
-This is an image 
-![](https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png)
-in a sentence
+This is an image ![](https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png) in a sentence.
 
-This is an image 
-![](https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png){100} 
-in a sentence with a smaller image
+This is an image ![](https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png){100} in a sentence with a smaller image.
 
 ># Video 
 
