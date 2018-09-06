@@ -112,7 +112,7 @@ This is an image ![](https://www.learnondemandsystems.com/wp-content/uploads/201
 
 >#Image Link
 
-[![image description](https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png) "image description")](https://learnondemandsystems.com)
+[![image description](https://www.learnondemandsystems.com/wp-content/uploads/2018/03/lods-default-post-image.png "image description")](https://learnondemandsystems.com)
 
 >#Video Link
 
