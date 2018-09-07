@@ -409,6 +409,25 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
     ![](images/fenced-code-block.png "Fenced Code Block")
 
+- **Code Block Modifiers**
+    
+    No code highlighting, copyable
+    
+    ```powershell-nocolor
+    Code Block
+    ```
+    
+    No tab on code block, code highlighted, copyable
+    
+    ```powershell-notab
+    Code Block
+    ```
+    
+    No code highlighting, no tab, not copyable
+    ```powershell-nocode
+    code block
+    ```
+
 ### Link formatting
 
 - **Internal link**: Used to link to a specific section within a document. 
