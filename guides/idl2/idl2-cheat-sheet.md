@@ -80,6 +80,26 @@ Inline code block  <code>`code block`</code>
 get-service | stop-service -whatif
 ```
 ~~~
+
+<font size="3">**Code Block Modifiers**</font>
+
+No code highlighting, copyable
+
+```powershell-nocolor
+Code Block
+```
+
+No tab on code block, code highlighted, copyable
+
+```powershell-notab
+Code Block
+```
+
+No code highlighting, no tab, not copyable
+```powershell-nocode
+code block
+```
+
 ---
 <font size="3">**Reference Instruction Block**</font>
  
