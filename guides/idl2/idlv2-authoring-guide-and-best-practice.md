@@ -118,6 +118,27 @@ If you have a virtualization lab that already has instructions (a lab with instr
 1. Review the instructions in the preview window to see what your instructions will look like after you upgrade your lab.
 1. Click **OK** to upgrade the lab.
 
+<!--
+### Separating the Lab console from the Resource Portal (two windows)
+
+If you are using multiple monitors, or wish to only see the Resource Portal window, the Resource Portal can be separated into another window. Then you can display the Resource Portal with lab instructions on a monitor, and the Lab Console on a different monitor. 
+
+To split the lab into two windows:
+
+1. Click the **menu in the upper-right corner** of the lab.
+1. Click **Split Windows**.  
+
+![](images/split-windows.png)
+
+To join the two windows back into a single window:
+
+1. On the **Resource Portal** (instructions) window,
+1. Click **Join Windows**.
+
+![](images/join-windows.png)
+
+-->
+
 ### Edit Instructions
 
 Once the IDLx client experience is enabled, you are now able to edit the lab instructions. When the Edit Instructions button is clicked, this checks out the lab manual. Checking out the lab manual ensures that only you are able to edit lab instructions, and if another author attempts to edit the lab instructions while you are actively editing the lab instructions, the lab instruction editor will simply open in read-only mode. After you are done editing the lab instructions, close the the instructions editor, and the lab manual will be checked in automatically. Once the lab manual is checked in, another author will be able to edit the lab instructions.  
