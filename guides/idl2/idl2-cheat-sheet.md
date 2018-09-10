@@ -85,19 +85,23 @@ get-service | stop-service -whatif
 
 No code highlighting, copyable
 
-```powershell-nocolor
+\```PowerShell-nocolor
 Code Block
 ```
 
 No tab on code block, code highlighted, copyable
 
-```powershell-notab
+\```PowerShell-notab
 Code Block
 ```
 
+code highlighted, not copyable
+
+\```PowerShell-nocopy
+
 No code highlighting, no tab, not copyable
 
-```powershell-nocode
+\```PowerShell-nocode
 code block
 ```
 
