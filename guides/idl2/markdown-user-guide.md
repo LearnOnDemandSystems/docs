@@ -73,27 +73,27 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
     
     No code highlighting, copyable
     
-    > ```powershell-nocolor
-    > Code Block
-    > ```
+    >```powershell-nocolor
+    >Code Block
+    >```
     
     No tab on code block, code highlighted, copyable
     
-   > \```powershell-notab
-   > Code Block
-   > ```
+   >\```powershell-notab
+   >Code Block
+   >```
     
     No code highlighting, no tab, not copyable
 
-    > \```powershell-nocode
-    > code block
-    > ```
+    >\```powershell-nocode
+    >code block
+    >```
 
     Code highlighted, not copyable
 
-   > \```PowerShell-nocopy
-   > code block
-   > ```
+   >\```PowerShell-nocopy
+   >code block
+   >```
 
 [Return to Markdown formatting](#markdown-supports-the-following-types-of-formatting)
 
