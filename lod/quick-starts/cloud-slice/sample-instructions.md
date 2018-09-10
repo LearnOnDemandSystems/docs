@@ -43,7 +43,7 @@ Another way you can separate thoughts/ideas from one another on the same page is
 
 Screenshots or inline images encourage students by pointing them in the right direction. They can be embedded inline, like this:
 
-!image[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/quick-starts/cloud-slice/images/diamond.jpg)
+image[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/quick-starts/cloud-slice/images/diamond.jpg)
 
 They can also be hidden behind a link that opens in a new window, like this:
 
