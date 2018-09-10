@@ -83,25 +83,25 @@ get-service | stop-service -whatif
 
 <font size="3">**Code Block Modifiers**</font>
 
-No_code_highlighting,_copyable
+No code highlighting, copyable
 
     ```powershell-nocolor
     Code Block
     ```
 
-No_tab_on_code_block,_code_highlighted,_copyable
+No tab on code block, code highlighted, copyable
 
     ```powershell-notab
     Code Block
     ```
 
-No_code_highlighting,_no_tab,_not_copyable
+No code highlighting, no tab, not copyable
 
     ```powershell-nocode
     Code Block
     ```
 
-Code_highlighted,_not_copyable
+Code highlighted, not copyable
 
     ```powershell-nocopy
     Code Block
