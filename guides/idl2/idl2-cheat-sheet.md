@@ -85,27 +85,27 @@ get-service | stop-service -whatif
 
 No_code_highlighting,_copyable
 
-\```powershell-nocolor
-Code Block
-```
+    ```powershell-nocolor
+    Code Block
+    ```
 
 No_tab_on_code_block,_code_highlighted,_copyable
 
-\```powershell-notab
-Code Block
-```
+    ```powershell-notab
+    Code Block
+    ```
 
 No_code_highlighting,_no_tab,_not_copyable
 
-\```powershell-nocode
-Code Block
+    ```powershell-nocode
+        Code Block
 ```
 
 Code_highlighted,_not_copyable
 
->\```powershell-nocopy
->Code Block
->```
+    ```powershell-nocopy
+    Code Block
+    ```
 
 ---
 <font size="3">**Reference Instruction Block**</font>
