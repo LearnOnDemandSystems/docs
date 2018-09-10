@@ -24,11 +24,11 @@
 | Hint Link     | `hint[hint text here](https://URL.com)`                                        |
 | Knowledge Link | `knowledge[knowledge text here](https://URL.com)`                                       |
 |<BR> | |
-|<font size="3">**Link Behavior Prefixes**: </font>    |    
+|<font size="3">**Link Behavior Prefixes**: </font>    |
 |Add a behavior prefix to control the way the link opens ||
-|Open in portal window | `<` before the link  |   
-|Open in a dialog | `^` before the link  |   
-|Open in new window | no special characters before the link  |     
+|Open in portal window | `<` before the link  |
+|Open in a dialog | `^` before the link  |
+|Open in new window | no special characters before the link  |
 |<BR> | |
 |<font size="3">**Page**</font>    |                                          |
 | Page break        | `===`                                    |
@@ -89,23 +89,23 @@ get-service | stop-service -whatif
       ```
     ~~~
 
-  ~~~No_tab_on_code_block,_code_highlighted,_copyable
-   ```powershell-notab
-   Code Block
-   ```
-   ~~~
-    
-    ~~~No_code_highlighting,_no_tab,_not_copyable
-    ```powershell-nocode
-    code block
-    ```
+     ~~~No_tab_on_code_block,_code_highlighted,_copyable
+      ```powershell-notab
+      Code Block
+      ```
     ~~~
 
-    ~~~Code_highlighted,_not_copyable
-   ```PowerShell-nocopy
-   code block
-   ```
-   ~~~
+        ~~~No_code_highlighting,_no_tab,_not_copyable
+      ```powershell-nocode
+      Code Block
+      ```
+    ~~~
+
+        ~~~Code_highlighted,_not_copyable
+      ```powershell-nocopy
+      Code Block
+      ```
+    ~~~
 
 ---
 <font size="3">**Reference Instruction Block**</font>
