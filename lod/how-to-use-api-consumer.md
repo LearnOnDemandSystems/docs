@@ -46,4 +46,4 @@ To make the API Consumer available:
 1. Click the **Organization** and click **OK**.
 1. Click **Save**.
 
-Your API Consumer is now setup and is ready to use. If you would like to view the various ways you can interact with LOD via API, have a look at our [API Documentation](lod/lod-api/lod-api-main.md).
+Your API Consumer is now setup and is ready to use. If you would like to view the various ways you can interact with LOD via API, have a look at our [API Documentation](lod-api/lod-api-main.md).
