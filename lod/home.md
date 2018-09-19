@@ -66,7 +66,7 @@ Welcome to the OneLearn Lab on Demand platform!
 
 * [**Virtual Machine Based Lab Development - Best Practices**](/lod/vm-based-lab-build-best-practices.md) - Recommendations and best practices for cloud-hosted and datacenter-hosted virtual machines.
 
-- [**Custom UUID in VMware Virtual Machines**](lod/uuid.md) - Assign a custom unique ID to a virtual machine hosted on a VMware host.
+- [**Custom UUID on VMware Virtual Machines**](lod/uuid.md) - Assign a custom unique ID to a virtual machine hosted on a VMware host.
 
 ## Quick Starts
 
