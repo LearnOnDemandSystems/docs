@@ -62,8 +62,11 @@ Templates can be stored natively in Lab on Demand, or can be stored on an extern
 
 ## ARM Template Load Testing
 
-If your template will be used for a high volume of concurrent users such as large events or conferences, please contact <a href="mailto:support@learnondemandsystems.com?Subject=ARM%20Template%20Loadtesting" target="_top">support@learnondemandsystems.com</a> if you are not already working with Learn on Demand Systems event staff. Please be prepared with the following items for successful load testing:
+If your template will be used for a high volume of concurrent users such as large events or conferences, please contact <a href="mailto:support@learnondemandsystems.com?Subject=ARM%20Template%20Loadtesting" target="_top">support@learnondemandsystems.com</a> if you are not already working with Learn on Demand Systems event staff.
 
+> [!ALERT] **NOTE**: While this is an optional phase, it is highly recommended prior to large deliveries and the only way to guaruntee subscriptions are configured correctly for scaling.
+
+Please be prepared with the following items for successful load testing:
 1. A "Launch" template.
     1. This is the template users will have at lab launch. This is necessary to ensure labs will launch successfully at scale and users will be able to enter the environment.
     1. Not all environments will launch with a template, if users are intended to start with no resources please outline this and continue to the next item.
