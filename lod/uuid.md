@@ -13,7 +13,7 @@ This controls the BIOS GUID set within the virtual machine's configuration. The 
 
 An example BIOS GUI looks like 
 
-```
+```nocopy
 {46486DC1-B2A6-456E-B091}
 ```
 
@@ -23,7 +23,7 @@ This controls the UUID set within the virtual machine's configuration. The UUID 
 
 An example UUID looks like
 
-```
+```nocopy
 00 11 22 33 44 55 66 77 88 99 aa bb cc dd ee ff
 ```
 
@@ -38,4 +38,4 @@ To configure a BIOS GUID or a custom UUID:
 1. Click the **Advanced** tab.
 1. Enter the BIOS GUID or UUID that you wish to use.
 1. **Allow disk updates in lab console (enabled by default)**: This allows authors to access the Save Differencing Disks dialog, when using this virtual machine.
-1. **Connect via remote desktop connection (external to lab console)**: 2)	It’s possible to supply an RDP file and have users connect directly to the VM using an RDP client instead of using our HTML5 controller. This requires public IP configurations.
+1. **Connect via remote desktop connection (external to lab console)**: You can supply an RDP file and have users connect directly to the VM using an RDP client instead of using our HTML5 controller. This requires public IP configurations.
