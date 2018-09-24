@@ -1,6 +1,6 @@
 # How do I ensure my Course Completion Certificates print correctly?
 
-When you create a Course Completion Certificate Template in the TMS, it is very important to follow best practices and to preview the certificate in our system to ensure it will print correctly and placeholder text is replaced with actual data. When Word documents are converted to PDF, fonts and images may not render the same as in Word.
+When you [create a Course Completion Certificate Template](./how-do-i-create-completion-certificates.md) in the TMS, it is very important to follow best practices and to preview the certificate in our system to ensure it will print correctly and placeholder text is replaced with actual data. When Word documents are converted to PDF, fonts and images may not render the same as in Word.
 
 ## Best Practices for Fonts
 
@@ -57,3 +57,5 @@ If the test data you entered did not replace the placeholder text in the test fi
 1. Save the file
 1. Upload the edited file into the **Course Completion Certificate Template** profile in the TMS.
 1. Repeat the [preview](#certificate-preview-prior-to-use).
+
+> [!Alert] When you add the completion certificate(s) to the course, please be aware the **Short Name** of the course will be used as the name of the zipped file when the certificates are downloaded to print. As a result, the zipped file and its contents will not be able to be opened if there are any special characters in the **Short Name**.  
