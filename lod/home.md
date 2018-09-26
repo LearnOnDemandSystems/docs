@@ -8,6 +8,8 @@ Welcome to the OneLearn Lab on Demand platform!
 
 - [**IDLx Authoring Guide**](/guides/idl2/idlv2-authoring-guide-and-best-practice.md) - This document covers Markdown, lab instruction editor interface, uploading files into your lab, and many other topics to assist with authoring your IDLx lab.
 
+- [**IDLx Instruction Editor Overview**](/guides/idl2/idlv2-authoring-guide-and-best-practice.md) - This
+
 - [**Markdown user Guide**](/guides/idl2/markdown-user-guide.md) - This document covers Markdown in detail, including syntax for all supported Markdown.
 
 - [**IDLx Activities**](/lod/activities.md) - Activities fall into two broad categories: Questions and Automated. Questions are simply multiple choice or short answer questions. Automated Activities have a script configured to run against a cloud subscription or Windows-based virtual machines running on Hyper-V in the lab.
