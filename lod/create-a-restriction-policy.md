@@ -4,7 +4,7 @@ A restriction policy is used by a cloud provider, to limit the resources that ca
 
 For more information about the items that can be used in a Restriction Policy, see [Microsoft Azure Restriction Policy Templates](https://docs.microsoft.com/en-us/azure/azure-policy/json-samples).
 
->[!alert] In LOD, restriction policies are housed inside of a resource group. If you have not created a Resource Group, you will not be able to configure the Restriction Policy to the lab profile until the Resource Group is created and assigned to the lab profile. See our guide for more information about [creating resource groups in LOD](create-resource-group.md). 
+>[!alert] In LOD, restriction policies are housed inside of a resource group. If you have not created a Resource Group, you will not be able to configure the Restriction Policy to the lab profile until the Resource Group is created and assigned to the lab profile. See our guide for more information about [creating a resource template and configure it into a resource group](create-a-resource-template-and-configure-it-into-a-resource-group.md). 
 
 ## Creating a Restrcition Policy in Lab on Demand (LOD)
 
@@ -22,7 +22,7 @@ For more information about the items that can be used in a Restriction Policy, s
     |--|--|--|
     |**Basic Information**|**Name**|A name of your choosing.|
     ||**Description**|Describe the intentions and goals of the Restriction Policy.|
-    ||**Organizaton**|Select the organization that the Restriction Policy will be available     to.|
+    ||**Organizaton**|Select the organization that the Restriction Policy will be available to.|
     ||**Restriction Policy**|Enter the Restriction Policy here, in JSON format.|
     ||**Enabled**|Check the box to enable this Restriction Policy for use.|
 
@@ -31,7 +31,7 @@ For more information about the items that can be used in a Restriction Policy, s
 ## Adding a Restriction Policy To a Cloud Slice Lab in LOD
 
 
-1. Navigate to the lab profile that you wish to add the Restriction Policy to. 
+1. Navigate to the lab profile that you wish to add the Restriction Policy to.
 
     >[!knowledge] You can search for your lab profile by doing the following:
     >
@@ -39,11 +39,11 @@ For more information about the items that can be used in a Restriction Policy, s
     >
     >1. Click Find Lab Profiles to find your lab profile.
     >
-    >1. Enter the name of the lab profile into the **Name** field, and change the operator   >drop down adjacent to it to **Equal**. 
+    >1. Enter the name of the lab profile into the **Name** field, and change the operator drop down adjacent to it to **Equal**. 
     >
     >1. Click **Search** to find your lab profile.
     >
-    >1. In the search results, click the Name of your lab profile to open the Lab Profile    >details view.
+    >1. In the search results, click the Name of your lab profile to open the Lab Profile details view.
 
 1. Click **Edit Profile** to open the edit view for your lab profile.
 
