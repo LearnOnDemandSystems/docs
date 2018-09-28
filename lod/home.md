@@ -34,6 +34,10 @@ Welcome to the OneLearn Lab on Demand platform!
 
 * [**Resource Templates**](/guides/cloud-slice/microsoft-azure/cloud-slice-find-resource-templates.md) - How to find Azure Resource Manager templates for use with Microsoft Azure.
 
+* [**Create a Restriction Policy**](/lod/create-a-restriction-policy.md) - Create a Cloud Restriction Policy
+
+* [**Create a Resource Template and Resource Group Configuration**](/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md) - Create a Resource Template and Configure it into a Resource Group
+
 * [**Resource Template - Best Practices**](/lod/feature-focus/cloud-resource-templates/recommendations-and-best-practices.md) - Recommendations and best practices for Azure Resource templates
 
 * [**Microsoft Azure Cloud Slice Setup Guide**](/guides/cloud-slice/cloud-slice.md) - Comprehensive setup guide for configuring a Cloud Slice lab with Lab on Demand and Microsoft Azure. For a more guided walkthrough, please see our [Cloud Slice Quickstart](#building-your-first-cloud-slice-lab)
