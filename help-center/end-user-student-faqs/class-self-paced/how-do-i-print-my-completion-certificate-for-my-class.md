@@ -1,4 +1,4 @@
-# How Do I Print My Completion Certificate For My Class?
+# How do I print my completion certificate for my class?
 
 If your class has completion certificates and you have the required permissions, you can print your completion certificate from the TMS.
 
