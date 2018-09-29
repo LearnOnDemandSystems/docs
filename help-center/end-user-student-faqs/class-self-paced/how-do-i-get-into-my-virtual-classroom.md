@@ -1,20 +1,20 @@
-## How Do I Get Into My Virtual Classroom?
+# How do I get into my virtual classroom?
 
 Adobe Connect provides our virtual classrooms in the TMS, and how you access it depends on whether you are a student or an instructor. 
 
 Please find your section below to see when and how you can access your classroom. **Student must complete the pre-class preparation**.
 
-### Student
+## Student
 
 When you have logged into the TMS, you will be directed to your User Profile page. 
 
-1. [] Click **Current Training** or **My Training**.
+1. Click **Current Training** or **My Training**.
 
-1. [] Under **Classes**, click the name of the class to open the Class page. 
+1. Under **Classes**, click the name of the class to open the Class page. 
 
-On the Class page, there are a few items you need to complete prior to class under Pre-Class Preparation:
+On the Class page, there are a few items you may need to complete prior to class under Pre-Class Preparation:
 
-1. [] Look at the **Software Check** section and verify that the **Virtual Classroom Environment** has a green checkmark indicating that your computer has the software needed to launch your virtual classroom. 
+1. Look at the **Software Check** section and verify that the **Virtual Classroom Environment** has a green checkmark indicating that your computer has the software needed to launch your virtual classroom. 
 
     > [!ALERT] If instead there is an Alert symbol, click the Install button. This will link you to https://get.adobe.com/flashplayer/ to install the software needed to be able to use the virtual classroom. If you have difficulty downloading this software,please contact either your network administrator or the center you are taking the class from.
 

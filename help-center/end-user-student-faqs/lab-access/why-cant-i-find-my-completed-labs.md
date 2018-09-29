@@ -1,4 +1,4 @@
-# Why Can't I Find My Completed Labs?
+# Why can't I find my completed labs?
 
 If you can’t find your labs on your **Current Training** page, they will be on your transcript. Once you have taken a class or have completed a course assignment, you can access the labs for a limited time afterwards depending on the type of course.
 
