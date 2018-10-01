@@ -24,4 +24,4 @@ There are 6 class completion statuses. A completion status can only be set for a
 
 >[!NOTE] Students logging into our integrated virtual classrooms are automatically marked Attending for their Completion Status.
 
-For more information on using the Attendance chart see the article, [How do I record student attendance for a multiple day class?](class-attendance-and-roster-management\how-do-i-record-student-attendance-for-a-multiple-day-class.md). 
+For more information on using the Attendance chart see the article, [How do I record student attendance for a multiple day class?](record-student-attendance-for-multiple-day-class.md). 
