@@ -1,6 +1,6 @@
 # How do I ensure my Course Completion Certificates print correctly?
 
-When you [create a Course Completion Certificate Template](./how-do-i-create-completion-certificates.md) in the TMS, it is very important to follow best practices and to preview the certificate in our system to ensure it will print correctly and placeholder text is replaced with actual data. When Word documents are converted to PDF, fonts and images may not render the same as in Word.
+When you [create a Course Completion Certificate Template](create-completion-certificates.md) in the TMS, it is very important to follow best practices and to preview the certificate in our system to ensure it will print correctly and placeholder text is replaced with actual data. When Word documents are converted to PDF, fonts and images may not render the same as in Word.
 
 ## Best Practices for Fonts
 

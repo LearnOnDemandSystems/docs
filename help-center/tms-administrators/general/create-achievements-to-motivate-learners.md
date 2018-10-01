@@ -1,6 +1,6 @@
 # How do I create achievements To motivate learners?
 
-You can create achievements for your organization that your users earn automatically through their TMS activities. Achievements can be used to motivate your learners. You will set the value of an achievement and how often it can be earned. You can view earned achievements on each user's profile. Users can chooose to participate in achievement from their profile (see [How do I see what achievements I have earned and opt out?](/end-user-student-faqs/general-topics/how-do-i-see-what-achievements-i-have-earned-and-opt-out.md))
+You can create achievements for your organization that your users earn automatically through their TMS activities. Achievements can be used to motivate your learners. You will set the value of an achievement and how often it can be earned. You can view earned achievements on each user's profile. Users can chooose to participate in achievement from their profile (see [How do I see what achievements I have earned and opt out?]()
 
 There are several terms (fields) you will need to know before you start to create achievements:
 
