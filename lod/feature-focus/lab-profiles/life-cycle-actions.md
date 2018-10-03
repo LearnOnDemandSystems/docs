@@ -26,7 +26,7 @@ To add Life Cycle Action to your lab profile, follow these steps for every Actio
 
 1. Click the **Advanced** tab, and in the new **Life Cycle Actions** section, click **Add Life Cycle Action**.
 2. From the **Action Type** dropdown, select the action you want performed.
-3. From the **Event** dropdown, select the event when you want the web request to be sent.
+3. From the **Event** dropdown, select the event when you want the Action to be triggered.
 4. In the **Delay** box, set the number of seconds after the Life Cycle Event occurs that the Action should trigger, if wanted.
 5. In the **Error Action** dropdown, select the type of action to LOD will take if an error occurs.
    1. If you select **Notify User** as the **Error Action**, an **Error Notification** field will appear. Type the text the user will receive in the Notifications toast in the lab interface.
