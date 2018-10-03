@@ -2,7 +2,7 @@
 
 ## DRAFT!!
 
-Welcome to the OneLearn Training Management System platform (TMS) Help, @lab.UserFirstName!
+Welcome to the OneLearn Training Management System platform (TMS) Help!
 
 ## Student
 Are you a student needing assistance with your training? Check out our [Frequently Asked Questions (FAQs) for Students](#student-faqs) for helpful articles.
