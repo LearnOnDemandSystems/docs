@@ -1,4 +1,4 @@
-# How do I access my labs for a class?
+# How do I access my labs for a class without a code?
 
 To access your labs for a class, 
 1. Go to the **URL** provided by your organization or [https://lms.learnondemand.net](https://lms.learnondemand.net).
