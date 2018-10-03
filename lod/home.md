@@ -64,7 +64,7 @@ Welcome to the OneLearn Lab on Demand platform!
 
 * [**Lab on Demand edX Integration**](/guides/lti/lod-lti.md) - Integrate edX into your lab profile. 
 
-* [**Life Cycle Actions**](guides/lca/life-cycle-actions-guide.md) - Define actions to occur at certain times within the lab's life cycle, such as calling an external service when the lab builds, or sending a notification to the user when the lab is resumed. 
+* [**Life Cycle Actions**](/lod/feature-focus/lab-profiles/life-cycle-actions.md) - Define actions to occur at certain times within the lab's life cycle, such as calling an external service when the lab builds, or sending a notification to the user when the lab is resumed. 
 
 <!--
 * [**Performance Based Testing (PBT)**](guides/pbt/lodpbtguide.md) - Configure Performance Based Testing on your lab profile.
