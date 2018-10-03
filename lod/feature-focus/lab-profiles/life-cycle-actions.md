@@ -3,7 +3,7 @@
 This guide will walk you through how to create Life Cycle Actions in a lab. In the past, you could send a request to an outside URL when a lab was first built or torn down using the Build Service URL and Tear Down Service URL fields on the Advanced tab of the Lab Profile. This functionality has been expanded to include more actions and a wider range of life cycle events of the lab. These are called Life Cycle Actions. The types of actions that can be performed are:
 
 - **Send Web Request** – Like the Service URLs in the past, calls an external service URL.The information that is sent is based on that URL, the verb used to send the information, and the receiving API.
-- **Send Notification to User **– Uses the Send Notification functionality to send information to the lab user in the form of a toast in the lab interface.
+- **Send Notification to User**– Uses the Send Notification functionality to send information to the lab user in the form of a toast in the lab interface.
 - **Send E-mail to User** – Sends an e-mail to the lab user. The subject and content of the e-mail will be the same for each lab user.
 - **Execute Machine Command** – Like the Command field on lab steps. It requires the lab user to be logged into a virtual machine that has the Lab on Demand integration service installed. It runs a machine command on the active machine.
 
@@ -24,7 +24,7 @@ Each of these actions have different events and fields related to them. Currentl
 
 To add Life Cycle Action to your lab profile, follow these steps for every Action:
 
-1. Scroll down on the **Advanced** tab, and in the new **Life Cycle Actions** section, click **Add Life Cycle Action**.
+1. Click the **Advanced** tab, and in the new **Life Cycle Actions** section, click **Add Life Cycle Action**.
 2. From the **Action Type** dropdown, select the action you want performed.
 3. From the **Event** dropdown, select the event when you want the web request to be sent.
 4. In the **Delay** box, set the number of seconds after the Life Cycle Event occurs that the Action should trigger, if wanted.
@@ -33,7 +33,9 @@ To add Life Cycle Action to your lab profile, follow these steps for every Actio
 6. Uncheck **Enabled** if necessary.
 7. Click **OK** to add the **Life Cycle Action**.
 
+<!--
 ![image001](images/image001.png)                                  
+-->
 
 # Action Types
 Each Action type has steps specific for it. The Action Types are listed below. You can use this list to navigate to the steps for the Life Cycle Action you would like to implement and then return to the list to navigate to another action.
