@@ -2,3 +2,5 @@ route,target
 /,/lod/home.md
 /LabProfile/Create,/lod/feature-focus/lab-profiles/create.md
 /LabProfile/Edit/{labProfileId},/lod/feature-focus/lab-profiles/create.md
+/LabSeries/Create,/lod/create-lab-series.md
+/LabSeries/Edit/{labSeriesId},/lod/create-lab-series.md
