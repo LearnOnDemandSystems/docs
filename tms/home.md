@@ -1,7 +1,5 @@
 # OneLearn Training Management System Help
 
-## DRAFT!!
-
 Welcome to the OneLearn Training Management System platform (TMS) Help!
 
 ## Student
@@ -33,8 +31,6 @@ If you an Administrator, explore the following topics/processes to help you star
 ### Basics
 - [How do I change my password?](/help-center/end-user-student-faqs/basics/change-password.md)
 - [How do I access and change my user profile?](/help-center/end-user-student-faqs/basics/change-user-profile.md)
-- Access Help
-- Upcoming Event
 
 ### Labs
 - [How do I access my labs using a lab code without a user account?](/help-center/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-without-user-account.md)
@@ -44,13 +40,9 @@ If you an Administrator, explore the following topics/processes to help you star
 - [Why does my lab expire within a week when I am supposed to have access to it for a longer time?](/help-center/end-user-student-faqs/lab-access/difference-between-lab-expiration-and-lab-access.md)
 
 ### Classes and Self-Paced Learning
-- Find scheduled classes
-- Get into virtual classroom
 - [How do I print my completion certificate?](/help-center/end-user-student-faqs/class-self-paced/print-completion-certificate.md)
-- Windows Server OS
-- Access digital courseware
 
-[< Top >](#Student)
+[< Return to top >](#student)
 
 ## Instructor Articles
 
@@ -63,14 +55,13 @@ If you an Administrator, explore the following topics/processes to help you star
 
 ### Labs
 - [How do I open a lab for a course that I am not scheduled to teach?](/help-center/instructors/instructor-labs/access-labs-for-course-not-scheduled-to-teach.md)
-- Share files through lab
 - [How do I assist my students with their labs?](/help-center/instructors/instructor-labs/assist-students.md)
 
 ### Profile
 - [How can I show times when I am unavailable?](/help-center/instructors/instructor-profile/show-unavailable-times.md)
 - [How can I show what I am qualified to teach?](/help-center/instructors/instructor-profile/show-courses-qualified-to-teach.md)
 
-[< Top >](#Student)
+[< Return to top >](##student)
 
 ## Administrator Articles
 
@@ -81,12 +72,10 @@ If you an Administrator, explore the following topics/processes to help you star
 - [How do I set the defaults for creating users and classes?](/help-center/tms-administrators/tms-fundamentals/set-defaults-for-creating-users-and-classes.md)
 - [Should I use a Class or a Custom Event or a Course Assignment to schedule training?](/help-center/tms-administrators/tms-fundamentals/class-or-custom-event-or-course-assignment-to-schedule-training.md)
 - [Why do links disappear?](/help-center/tms-administrators/tms-fundamentals/disappearing-links.md)
-- API Documentation
 
 ### Schedule
 
 - [How do I create a class?](/help-center/tms-administrators/classes/schedule/create-class.md)
-- Create multiple classes at once
 - [How can I cancel a class?](/help-center/tms-administrators/classes/schedule/cancel-class.md)
 - [How can I find a class?](/help-center/tms-administrators/classes/schedule/find-class.md)
 - [How can I find a class that is in session?](/help-center/tms-administrators/classes/schedule/find-class-in-session.md)
@@ -150,13 +139,6 @@ If you an Administrator, explore the following topics/processes to help you star
 - [How do I schedule self-paced learning for a student?](/help-center/tms-administrators/self-paced-learning-and-subscriptions/schedule-self-paced-learning.md)
 - [How can an administrator print completion certificates for self-pace learning?](/help-center/tms-administrators/self-paced-learning-and-subscriptions/print-completion-certificates-for-self-pace-learning-by-admin.md)
 
-## Token Store
-
-- Guide
-- Create tokens
-- Create token packs
-- Create product
-
 ## Courses and Labs
 
 - [How do I see available courses and determine how much I will be charged for a lab in one of them?](/help-center/tms-administrators/courses-and-labs/see-available-courses-and-determine-how-cost-for-lab-in-one.md)
@@ -165,14 +147,6 @@ If you an Administrator, explore the following topics/processes to help you star
 - [How do I find if or when a student has launched a lab?](/help-center/tms-administrators/courses-and-labs/find-if-student-launched-lab.md)
 - [How can I capture user data for users who access my externally hosted activities from the TMS?](/help-center/tms-administrators/courses-and-labs/capture-user-data-for-externally-hosted-activities.md)
 
-## Discussions
-
-- Guide
-- Create discussion
-- Associate discussion with course
-- Assign moderator(s)
-- Monitor discussion
-- Assess and participate in discussion
 
 ## Miscellaneous
 
@@ -181,11 +155,7 @@ If you an Administrator, explore the following topics/processes to help you star
 - [Do I want to use a survey or an assessment?](/help-center/tms-administrators/miscellaneous/use-survey-or-assessment.md)
 - [How do surveys work?](/help-center/tms-administrators/miscellaneous/surveys.md)
 - [How do assessments work?](/help-center/tms-administrators/miscellaneous/assessments.md)
-- Skillpipe courseware
 - [How do I create achievements To motivate learners?](/help-center/tms-administrators/miscellaneous/create-achievements-to-motivate-learners.md)
-- Achievement code samples
 - [How do I create a custom event?](/help-center/tms-administrators/miscellaneous/create-custom-event.md)
-- Documents guide
-- Create interests
 
-[< Top >](#Student)
+[< Return to top >](sStudent)
