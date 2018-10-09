@@ -61,7 +61,7 @@ If you an Administrator, explore the following topics/processes to help you star
 - [How can I show times when I am unavailable?](/help-center/instructors/instructor-profile/show-unavailable-times.md)
 - [How can I show what I am qualified to teach?](/help-center/instructors/instructor-profile/show-courses-qualified-to-teach.md)
 
-[< Return to top >](##student)
+[< Return to top >](#student)
 
 ## Administrator Articles
 
@@ -158,4 +158,4 @@ If you an Administrator, explore the following topics/processes to help you star
 - [How do I create achievements To motivate learners?](/help-center/tms-administrators/miscellaneous/create-achievements-to-motivate-learners.md)
 - [How do I create a custom event?](/help-center/tms-administrators/miscellaneous/create-custom-event.md)
 
-[< Return to top >](sStudent)
+[< Return to top >](#student)
