@@ -15,7 +15,7 @@ The **Launch** command will launch a specified lab without supplying user inform
 ## Response
 
 |Property|Type|Nullable|Note|
-|--|--|--|--|--|
+|--|--|--|--|
 |Result|Int|False|0 = Error
 ||  |  | 1 = Success|
 ||  |  | 2 = User has too many active labs
