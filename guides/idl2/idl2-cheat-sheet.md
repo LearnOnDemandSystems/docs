@@ -20,6 +20,15 @@
 | Internal link | `[text to display on link](#heading-to-link-to "optional link title")` (must be all lower-case, alphanumeric and separated by hyphens) |
 | External link | `[External link](URL "Optional link title")` |
 | Relative link | `[text to display](../folder/file.htm "optional link title")` | 
+| Help Link     | `help[help text here](https://URL.com)`                                        |
+| Hint Link     | `hint[hint text here](https://URL.com)`                                        |
+| Knowledge Link | `knowledge[knowledge text here](https://URL.com)`                                       |
+|<BR> | |
+|<font size="3">**Link Behavior Prefixes**: </font>    |
+|Add a behavior prefix to control the way the link opens ||
+|Open in portal window | `<` before the link  |
+|Open in a dialog | `^` before the link  |
+|Open in new window | no special characters before the link  |
 |<BR> | |
 |<font size="3">**Page**</font>    |                                          |
 | Page break        | `===`                                    |
@@ -27,24 +36,41 @@
 | Block quote       | `> text to display in block quote`       |
 |<BR> | |
 |<font size="3">**Embedded Content**</font>|                                          |
-| Image             | `!IMAGE[Text to display](URL)`                               |
-| Video             | `!VIDEO[Text to display](URL)` (URLs from YouTube.com auto embed)          |
+| Image             | `![text to display](URL)`                               |
+| Video             | `!video[text to display](URL)` (URLs from YouTube.com auto embed)          |
 | Image with link   | `[![image description](URL of image "image description")](URL to open when image is clicked)`    |
-| Portal Link       |  `<[Text to display](URL)`     | 
-| Image Link        |  `IMAGE[Text to display](URL)`| 
-| Video Link        |  `VIDEO[Text to display](URL)`| 
+| Portal Link       |  `<[text to display](URL)`     | 
+| Image Link        |  `image[text to display](URL)`| 
+| Video Link        |  `video[text to display](URL)`| 
+| Image Dimensions  | `![](image url){heightXwidth}` or `{height}` (width will be calculated automatically) |
 |<BR> | |
  |<font size="3">**Special**</font>|                                          |
-| Knowledge         | `> [!KNOWLEDGE] Knowledge blocks help students learn more` |
-| Alert             | `> [!ALERT] Alert blocks draw attention to important issues!` |
-| Note              | `> [!NOTE]`                              |
-| Include           | `!INSTRUCTIONS[](url)`                |
+| Knowledge Block        | `>[!knowledge] Knowledge blocks help students learn more` |
+| Alert Block            | `>[!alert] Alert blocks draw attention to important issues!` | 
+| Note Block             | `>[!note]`                              |
+| Help Block             | `>[!help]`                              |
+| Hint Block             | `>[!hint]`                              |
+| Include           | `!instructions[](url)`                |
 | Copyable Text     | `++copyable text++`                      |
 | Type Text         | `+++Type text+++`                      |
-| Replacement Token | `Click the @lab toolbar button or type "@lab." in your idl-md editor window.` |
-| Embed YouTube video | `!VIDEO[text to display](url)` (URLs from YouTube.com auto embed)               |
+| Replacement Token | `click the @ lab toolbar button ` |
+| Embed YouTube video | `!video[text to display](url)` (URLs from YouTube.com auto embed)               |
 |<BR> | |
- 
+
+---
+
+<font size="3">**Variables**</font>
+
+Define the variable 
+
+<pre><code title="Copy to clipboard" class="prettyprint prettyprinted" style=""><span class="lit">&commat;lab</span><span class="pun">.</span><span class="typ">TextBox</span><span class="pun">(</span><span class="pln">name</span><span class="pun">)</span></code></pre>
+
+Callback the variable
+
+<pre><code title="Copy to clipboard" class="prettyprint prettyprinted" style=""><span class="lit">&commat;lab</span><span class="pun">.</span><span class="typ">Variable</span><span class="pun">(</span><span class="pln">name</span><span class="pun">)</span></code></pre>
+
+---
+
 <font size="3">**Code Blocks**</font>
 
 Inline code block  <code>`code block`</code>   
@@ -54,6 +80,33 @@ Inline code block  <code>`code block`</code>
 get-service | stop-service -whatif
 ```
 ~~~
+
+<font size="3">**Code Block Modifiers**</font>
+
+No code highlighting, copyable
+
+    ```powershell-nocolor
+    Code Block
+    ```
+
+No tab on code block, code highlighted, copyable
+
+    ```powershell-notab
+    Code Block
+    ```
+
+No code highlighting, no tab, not copyable
+
+    ```powershell-nocode
+    Code Block
+    ```
+
+Code highlighted, not copyable
+
+    ```powershell-nocopy
+    Code Block
+    ```
+
 ---
 <font size="3">**Reference Instruction Block**</font>
  
@@ -72,7 +125,7 @@ get-service | stop-service -whatif
 
 Dialog
 ```
-^[Text to display in lab  instructions][Reference Link]
+^[text to display in lab  instructions][Reference Link]
 
 > [Reference Link]:
 > This text will appear in the Dialog popup
@@ -90,7 +143,7 @@ Instruction Dialog
 Single Line
 
 ~~~
-@[Text to display](`command`)
+@[text to display](`command`)
 ~~~
 
 Multi-Line
@@ -98,7 +151,7 @@ Multi-Line
 <!-- The following code block _must_ be indented instead of wrapped in ~~~ to prevent
      our preprocessor from preprocessing the code. Do not change this formatting. -->
 
-    @[Text to display][multi-line-command-id]
+    @[text to display][multi-line-command-id]
 
     [multi-line-command-id]:
     ```

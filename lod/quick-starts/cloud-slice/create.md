@@ -16,13 +16,13 @@ Creating your first Cloud Slice lab is as easy as 1-2-3!
 
 ## Step 1: Create a Lab Profile
 
-1. [ ] Navigate to the <[Lab on Demand Administration page](/Admin).
+1. Navigate to the <[Lab on Demand Administration page](/Admin).
 
-1. [ ] Find the **Lab Profiles** tile and click on the <[Create a Lab Profile](/LabProfile/Create) link.
+1. Find the **Lab Profiles** tile and click on the <[Create a Lab Profile](/LabProfile/Create) link.
 
     !IMAGE[screenshot](images/create-a-lab-profile.png)
     
-1. [ ] Enter ++001++ in the a **Number** field, and ++cloud-slice-quick-start++ in the **Name** field.
+1. Enter ++001++ in the a **Number** field, and ++cloud-slice-quick-start++ in the **Name** field.
 
     > [!KNOWLEDGE] You can left-click on any text that has the copy symbol next to it to copy it to your clipboard.
     >
@@ -32,37 +32,37 @@ This is all that is required to create a lab profile; however, you will need to 
 
 ## Step 2: Disable the Virtualization Platform
 
-1. [ ] In the **Virtualization Platform** combo box, select **None** to disable virtualization.
+1. In the **Virtualization Platform** combo box, select **None** to disable virtualization.
 
     > [!KNOWLEDGE] You can use virtual machines in Cloud Slice labs, but for now let's keep things simple and turn virtualization off. We'll show you how to add a virtual machine to this lab later.
 
 ## Step 3: Enable Cloud Orchestration
 
-1. [ ] In your **Create Lab Profile** window, navigate to the **Cloud** tab.
+1. In your **Create Lab Profile** window, navigate to the **Cloud** tab.
 
-1. [ ] In the **Cloud Platform** combo box, select **Azure**.
+1. In the **Cloud Platform** combo box, select **Azure**.
 
-1. [ ] Click the **Choose** button to select your cloud subscription pool.
+1. Click the **Choose** button to select your cloud subscription pool.
 
-    1. [ ] Click **Search** to see all cloud subscription pools that are available to you. If you want to find a specific pool, enter the name that subscription pool in the Name field before you click **Search**.
+    1. Click **Search** to see all cloud subscription pools that are available to you. If you want to find a specific pool, enter the name that subscription pool in the Name field before you click **Search**.
     
-    1. [ ] Select your cloud subscription pool in the search results.
+    1. Select your cloud subscription pool in the search results.
     
-    1. [ ] Click **OK**.
+    1. Click **OK**.
 
-1. [ ] Click **Add User Account**, and enter ++Taylor++ into the Name Prefix field.
+1. Click **Add User Account**, and enter ++Taylor++ into the Name Prefix field.
 
-1. [ ] Click **Add Resource Group**, and enter ++corp-data++ into the Name Prefix field.
+1. Click **Add Resource Group**, and enter ++corp-data++ into the Name Prefix field.
 
-1. [ ] Click **Add Permission**, select **Taylor** in the combo box, and select **Contributor** in the Role combo box.
+1. Click **Add Permission**, select **Taylor** in the combo box, and select **Contributor** in the Role combo box.
 
-1. [ ] Click **Save** at the bottom of the **Create Lab Profile** window to save the lab.
+1. Click **Save** at the bottom of the **Create Lab Profile** window to save the lab.
 
 You have now created your first Cloud Slice lab. Let's launch it to see what it looks like.
 
-1. [ ] In the lab profile details view, click **Launch** to launch your Cloud Slice lab.
+1. In the lab profile details view, click **Launch** to launch your Cloud Slice lab.
 
-1. [ ] Once the lab has finished deploying, click **Get Started**.
+1. Once the lab has finished deploying, click **Get Started**.
 
 **Congratulations! You have just launched your Cloud Slice lab! You are now seeing the lab from the same perspective of a student.**
 
