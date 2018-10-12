@@ -69,6 +69,32 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
   >
   > ![](images/fenced-code-block.png "Fenced Code Block")
 
+- **Code Block Modifiers**
+    
+    ~~~No_code_highlighting,_copyable
+      ```powershell-nocolor
+      Code Block
+      ```
+    ~~~
+
+  ~~~No_tab_on_code_block,_code_highlighted,_copyable
+   ```powershell-notab
+   Code Block
+   ```
+   ~~~
+    
+    ~~~No_code_highlighting,_no_tab,_not_copyable
+    ```powershell-nocode
+    code block
+    ```
+    ~~~
+
+    ~~~Code_highlighted,_not_copyable
+   ```PowerShell-nocopy
+   code block
+   ```
+   ~~~
+
 [Return to Markdown formatting](#markdown-supports-the-following-types-of-formatting)
 
 ## Link formatting
@@ -96,8 +122,31 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
     > \[Reference link][1]
     > \[1]: URL "Optional link title"
     
-[Return to Markdown formatting](#markdown-supports-the-following-types-of-formatting)
+- **Help Link**: used to provide a link that will help the student with the section of the lab they are working on. 
 
+        > help[help text here](https://URL.com)
+
+- **Hint Link**: used to provide a hint that will help the student with the section of the lab they are working on. This is most effective as a dialog (see [Link Behavior Prefixes](#link-behavior-prefixes)).
+       
+        > hint[hint text here](https://URL.com)
+
+- **Knowledge Link**: used to provide a link, that will give the student additional knowledge about with the section of the lab they are working on.
+
+        > knowledge[knowledge text here](https://URL.com)
+
+### Link Behavior Prefixes
+
+- **Open in a Dialog**: used to open a link in a dialog window, that will overlay on the lab. This is useful to show students information, without leaving the lab environment.
+
+    > `^[link text](https://URL.com)`
+
+- **Open in portal window** (or a new window if there is no portal window): used to open a link in a the Portal window of the lab, or a new window if there is no portal window in the lab. 
+
+    > `<[link text](https://URL.com)`
+
+- **Open in a New Window**: used top open a link in a new window.
+
+    > `[link text](https://URL.com)`
 ## Page formatting
 
 - **Page break**: Used to separate content into pages. Separating into pages creates a next button that the student must click to navigate to the next page. This is useful for displaying small sections of instruction to the student at a time, rather than all instructions on the same page within the lab. Type three = (equals) symbols on the line where the current page should end. The new page will begin on the line following the three = symbols.
@@ -120,11 +169,16 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 - **Image**: Used to embed an image inline with other content. When images are clicked, they will open in a new window and display at the images full resolution.
 
-  > \!IMAGE[text to display]\(url)
+  > \![text to display]\(url)
+
+- **Image Dimensions**: You can specify image dimensions in your lab. Dimension values are in pixels and are placed inside curly braces, immediately after the end of the link URL syntax. Height and width are separated by a "x" in this format:{widthxheight}
+It's also possible to simply supply the width: {width}. In this case, the height is automatically calculated for you to be proportional to the provided width.
+
+  > `![](image url){heightXwidth}` or `{height}`
 
 - **Video:** Used to embed an image inline with other content. The syntax format should look the same as an image, except the video should begin with a ! (explanation mark), followed by the word VIDEO (all caps).
 
-  > \!VIDEO[text to display]\(url)
+  > \!video[text to display]\(url)
 
 - **Image with link:** Used to embed an image that can be clicked to navigate to a specific URL (internal or external). 
 
@@ -136,13 +190,13 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 - **Image Link:** used to display a link with a camera icon, to suggest that the hyperlink opens an image
 
-  > `IMAGE[text to display](URL to image)`
+  > `image[text to display](URL to image)`
   >
   > ![](images/image-link.png "Image Link")
 
 - **Video Link:** used to display a link with a videocamera icon, to suggest that the hyperlink opens a video
 
-  > `VIDEO[text to display](URL to video)`
+  > `video[text to display](URL to video)`
   >
   > ![](images/video-link.png "Video Link")
   
@@ -232,33 +286,71 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 ## Special formatting 
 
+- **Variables**: Used to store information that is not known at the time of lab authoring. Variables use two Replacement tokens; **&commat;lab.textbox(name)** and **&commat;lab.Variable(name)**. **Use &commat;lab.texbox(name) to define** the variable in the (name). **Use &commat;lab.Variable(name) to recall** the information store in the variable. For example, you could create a variable with &commat;lab.textbox(studentPassword) and ask the student to enter a password in the field. Later in the lab you could call back the student's password with &commat;lab.Variable(studentPassword). This prevents the student from having to remember or write down their password, since it is stored in the lab by a variable. 
+
+  - Defining Variable in lab instruction editor view:
+  
+   ![](../../lod/images/variables-in-lab-instruction-editor.png)
+  
+    - Defining Variable in lab from Student view in the lab:
+  
+   ![](../../lod/images/variables-in-lab.png)
+  
+    - The student enters their password in the lab:
+  
+    ![](../../lod/images/variables-enter-password.png)
+  
+   The password is recalled in later lab steps using the Replacement Token below
+  
+    - Calling Variable in lab instruction editor view:
+   
+    ![](../../lod/images/variables-callback-variable-instruction-editor.png)
+  
+    - Calling Variable in lab from Student view in the lab:
+  
+    ![](../../lod/images/variables-callback-variable-in-lab.png)
+
 - **Knowledge Block:** Used to provide additional information, to help students better understand lab steps or lab content. Knowledge blocks are limited to only show 4 lines of the lab content. After 4 lines, a _more_ link will be shown, allowing the student to expand the Knowledge Block and review additional information.
 
-  > \> [!KNOWLEDGE] Knowledge blocks helps students learn more.
-  >
-  > ![](images/idl2-knowledge.png "Knowledge Block")
+    > \> [!KNOWLEDGE] Knowledge blocks helps students learn more.
+    >
+    > ![](images/idl2-knowledge.png "Knowledge Block")
 
-- **Alert:** Used to draw attention to important issues, such as showing additional information or steps that the student may need complete to avoid other issues. 
+- **Alert Block:** Used to draw attention to important issues, such as showing additional information or steps that the student may need complete to avoid other issues. 
 
-  > \> [!ALERT] alert text here.
-  >
-  > ![](images/idl2-alert.png "Alert Block")
+    > \> [!ALERT] alert text here.
+    >
+    > ![](images/idl2-alert.png "Alert Block")
 
-- **Note:** used to provide additional information, similar to a Knowledge Block, with the only difference being that Notes do not collapse and show a _more_ link to expand the section. 
+- **Hint Block:** Used to provide a hint for the for the section of the lab that the student is working on.  
 
-  > [!NOTE]
+    > \> [!HINT] hint text here.
+    >
+    > ![](images/hint-block.png "Hint Block")
+
+- **Help Block:** Used to provide help, such as showing additional about the section of the lab that the student is working on.
+
+    > \> [!HELP] help text here.
+    >
+    > ![](images/help-block.png "Help Block")
+
+- **Note Block:** used to provide additional information, similar to a Knowledge Block, with the only difference being that Notes do not collapse and show a _more_ link to expand the section. 
+
+    > \> [!NOTE] note text here.
+    >
+    > ![](images/note-block.png "Note Block")
   
-- **Dialog:** Used to open a dialog popup, to display additonal information. This can be useful to make additional information available to the student.
+- **Dialog:** Used to open a dialog popup, to display additonal information. This can be useful to make additional information available to the student. Dialogs **should not be used to display websites that are in an iFrame**, as this can cause some abnormal page rendering in the dialog. 
 
-  >```^[Text to display in lab  instructions][Reference Link]```
-  >
-  >\>[Reference Link]:
-  >
-  >\>This appears in the Dialog
+    >```^[Text to display in lab  instructions][Reference Link]```
+    >
+    >\>[Reference Link]:
+    >
+    >\>This appears in the Dialog
 
 - **Instruction Dialog:** Used to open a dialog popup, to display rendered Markdown or IDLx content that is located anywhere on the internet and accessible from a URL. This can be useful to provide additional information, from external sources on the internet.
 
-  >```^INSTRUCTIONS[text](url)```
+    >```^INSTRUCTIONS[text](url)```
   
 - **Commands:** Used to target the current resource in the Resource Portal to input commands. To mitigate risk of error and to enhance the overall experience of the lab, the IDLx platform supports executing commands directly in the area of focus of the Resource Portal. Clicking the text in the lab instructions will input the command into the item in focus, on the Resource Portal. Commands can be a single line (shown below) or multi-line. 
 
@@ -353,28 +445,29 @@ Although potentially any task could be reduced to an action that can be executed
 
   > `!VIDEO[text to display](url)` 
 
-- **Replacement Token:** used to replace text in lab instructions with a variable that is unknown at the time of authoring the lab instructions. These variables may not be generated or created until the lab is launched by the student. These can include usernames, user first name, user last name, running lab instance ID number, etc. To apply a Replacement Token, in the parameter value field, simply enter `@lab`, and the press the period key. The moment you type the period you will be presented with all available replacement tokens for your lab. 
+- **Replacement Token:** used to replace text in lab instructions with a variable that is unknown at the time of authoring the lab instructions. These variables may not be generated or created until the lab is launched by the student. These can include usernames, user first name, user last name, running lab instance ID number, etc. To apply a Replacement Token, in the parameter value field, simply enter "&commat;lab", and the press the period key. The moment you type the period you will be presented with all available replacement tokens for your lab. 
 
   > | Replacement token           |                                          |
   > | --------------------------- | ---------------------------------------- |
-  > | `lab.LabInstanceId`        | The unique ID of the running lab instance. |
-  > | `lab.GlobalLabInstanceId`    | The globally unique ID of the running lab instance. |
-  > | `lab.LabProfileId`           | The unique ID of the lab profile.        |
-  > | `lab.UserId`                 | The unique ID of user running the lab.   |
-  > | `lab.UserFirstName`          | The first name of the user running the lab. |
-  > | `lab.UserLastName`           | The last name of the user running the lab. |
-  > | `lab.UserEmail`              | The e-mail address of the user running the lab. |
-  > | `lab.UserExternalId`         | The external ID of the user running the lab (if launched via API). |
+  > | `lab.LabInstance.Id`        | The unique ID of the running lab instance. |
+  > | `lab.LabInstance.GlobalId`    | The globally unique ID of the running lab instance. |
+  > | `lab.LabProfile.Id`           | The unique ID of the lab profile.        |
+  > | `lab.User.Id`                 | The unique ID of user running the lab.   |
+  > | `lab.User.FirstName`          | The first name of the user running the lab. |
+  > | `lab.User.LastName`           | The last name of the user running the lab. |
+  > | `lab.User.Email`              | The e-mail address of the user running the lab. |
+  > | `lab.User.ExternalId`         | The external ID of the user running the lab (if launched via API). |
   > | `lab.Tag`                    | The tag associated with the lab instance (if specified when launched via API). |
-  > | `lab.CloudPortalLink`        | A link to the cloud portal.              |
-  > | `lab.CloudPortalUrl`         | The cloud portal URL (rendered as text, not a link). |
-  > | `lab.CloudPortalSignInLink` | A cloud portal sign-in link.             |
-  > | `lab.CloudPortalSignInUrl`   | The cloud portal sign-in URL (rendered as text, not a link). |
-  > | `lab.CloudPortalSignOutLink` | A cloud portal sign-out link.            |
-  > | `lab.CloudPortalSignOutUrl`  | The cloud portal sign-out URL (rendered as text, not a link). |
+  > | `lab.CloudPortal.Link`        | A link to the cloud portal.              |
+  > | `lab.CloudPortal.Url`         | The cloud portal URL (rendered as text, not a link). |
+  > | `lab.CloudPortal.SignInLink` | A cloud portal sign-in link.             |
+  > | `lab.CloudPortal.SignInUrl`   | The cloud portal sign-in URL (rendered as text, not a link). |
+  > | `lab.CloudPortal.SignOutLink` | A cloud portal sign-out link.            |
+  > | `lab.CloudPortal.SignOutUrl`  | The cloud portal sign-out URL (rendered as text, not a link). |
   > | `lab.VirtualMachine(VM-ID).SelectLink` | A link to select the (VM-ID) virtual machine |
   > | `lab.VirtualMachine(VM-ID).Username` | Username for signing into the (VM-ID) virtual machine. |
   > | `lab.VirtualMachine(VM-ID).Password` | Password for signing into the (VM-ID) virtual machine. |
+  > | `lab.LabInstance.StartDate` | The start date of the lab instance |
 
   *(VM-ID) should be replaced with the unique ID of the virtual machine in use.
 

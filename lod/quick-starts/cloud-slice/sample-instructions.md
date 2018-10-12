@@ -1,8 +1,8 @@
 # Copy sample instructions into your lab
 
-1. [] Click anywhere in the sample instructions [below](#sample-instructions) to copy the sample instructions into your clipboard.
+1. Click anywhere in the sample instructions [below](#sample-instructions) to copy the sample instructions into your clipboard.
 
-1. [] Paste the sample instructions into your instruction editor, and experiment.
+1. Paste the sample instructions into your instruction editor, and experiment.
 
     > [!NOTE] Instructions are automatically rendered in the preview pane on the right. This preview gives you an idea how the lab instructions will be displayed to students that launch your lab.
 
@@ -10,10 +10,6 @@
 
 ~~~Markdown
 # Introduction to Markdown (idl-md) Authoring
-
-Hi @lab.UserFirstName!
-
-If your name looks funny in here, just wait, we'll revisit the @lab syntax later.
 
 When you create instructions for your lab, you simply type the text into the idl-md editor. As you type it in, you can see the rendered version of your text in real-time.
 
@@ -23,7 +19,7 @@ It is a good idea to use headings to identify specific sections in your instruct
 
 You can emphasize key words or phrases in your instructions by making it **bold**, using _italics_ or ~striking it through~.
 
-> [!KNOWLEDGE] ### Did you know?
+> [!knowledge] ### Did you know?
 >
 > Knowledge blocks help students learn more.
 >
@@ -31,7 +27,7 @@ You can emphasize key words or phrases in your instructions by making it **bold*
 >
 > This allows students to decide if they want to read further on a subject or not.
 
-> [!ALERT] When you really want to make sure a student notices something in your lab, alert them!
+> [!alert] When you really want to make sure a student notices something in your lab, alert them!
 
 ###### There are six levels of headings available in Markdown
 
@@ -47,11 +43,11 @@ Another way you can separate thoughts/ideas from one another on the same page is
 
 Screenshots or inline images encourage students by pointing them in the right direction. They can be embedded inline, like this:
 
-!IMAGE[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/quick-starts/cloud-slice/images/diamond.jpg)
+image[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/quick-starts/cloud-slice/images/diamond.jpg)
 
 They can also be hidden behind a link that opens in a new window, like this:
 
-IMAGE[Click here to see ...](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/quick-starts/cloud-slice/images/diamond.jpg)
+image[Click here to see ...](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/quick-starts/cloud-slice/images/diamond.jpg)
 
 Integrating videos is just as easy. Here's one that talks about PowerShell:
 
@@ -61,22 +57,21 @@ You can also include normal hyperlinks where ever you like, such as [this one](h
 
 [Here's a useful tip!]("Exclamation marks before multimedia (IMAGE/VIDEO) links tell Lab on Demand to be embed the content inline, in the current location.")
 
-
 ===
 
 ## Tracking progress with tasks
 
 When students need to perform a series of activities, you can use tasks to track their progress.
 
-1. [ ] The first thing you need to decide is whether you want ordered tasks or unordered tasks.
+1. The first thing you need to decide is whether you want ordered tasks or unordered tasks.
 
-1. [ ] To convert ordered tasks into unordered tasks, simply replace your **1.** numbering with hyphens (-).
+1. To convert ordered tasks into unordered tasks, simply replace your **1.** numbering with hyphens (-).
 
-1. [ ] Try it now, by replacing each of the "1."'s in this list with hyphens, and watch what happens to the rendered output.
+1. Try it now, by replacing each of the "1."'s in this list with hyphens, and watch what happens to the rendered output.
 
-1. [ ] By using tasks, students can check off activities as they complete them. At the same time, Lab on Demand can determine how far long each student is according to the number of activities they have marked as completed.
+1. By using tasks, students can check off activities as they complete them. At the same time, Lab on Demand can determine how far long each student is according to the number of activities they have marked as completed.
 
-1. [ ] Students don't have to check each one either. Try checking only the 3rd task in this list, and notice what happens.
+1. Students don't have to check each one either. Try checking only the 3rd task in this list, and notice what happens.
 
 ===
 
@@ -111,9 +106,9 @@ Markdown also supports tables. These are very convenient when you want users to 
 
 |Field Name|Field Value|
 |--|--|
-|First Name|++@lab.UserFirstName++|
-|Last Name|++@lab.UserLastName++|
-|Email Address|++@lab.UserEmail++|
+|First Name|++UserFirstName++|
+|Last Name|++UserLastName++|
+|Email Address|++UserEmail++|
 
 The double-plus enclosure surrounding the field values allows students to copy them by left clicking on them. Give it a try!
 

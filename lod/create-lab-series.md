@@ -20,7 +20,7 @@ To create a Lab series, click **Create Lab Series** on the Lab Series tile, on t
 
 1. **Vendor**: This is used for an organization to create a Lab Series for another organization to use. Enter the name of the organization that will have access to use the Lab Series.
 
-1. **Vendor Part #**: This is used for an organization to create a Lab Series for another organization, for a specific use, such as certifation preparation, etc. Enter the description or name of the specific use in this field. 
+1. **Vendor Part #**: This is used for an organization to create a Lab Series for another organization, for a specific use, such as certification preparation, etc. Enter the description or name of the specific use in this field. 
 
 1. **# of Training Days**: The expected number of days for end users to use any of the lab profiles within the lab series. This does not restrict users from using labs after the expected number of days, it is used to determine resources consumption of the labs.
 

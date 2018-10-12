@@ -84,6 +84,8 @@ section below to get started. If you are moving content for a lab that has
 content into GitHub, see the **Copying Existing Lab Content into GitHub**
 section below to start that way instead.
 
+> [!KNOWLEDGE] You can manage more than one lab profile from a single GitHub repository, by separating the lab profiles with folders in your repository. 
+
 ### Authoring Lab Content from Scratch
 
 If you are writing IDLx content for a lab that does not yet have any content in LOD,
@@ -165,7 +167,7 @@ and then save the lab profile. (Use Legacy Format only for IDL (legacy) labs)
 
     ![Check the Has IDL Content check box](media/integration/instructions-checkbox.png "Check the Has IDL Content check box")
 
-2. Click on the **Cloud tab**, then click **Configure GitHub
+2. Click on the **Advanced tab**, then click **Configure GitHub
 Repository**.
 
     ![Configure GitHub Repository](media/integration/02-configure-github-repository.png "Configure GitHub Repository")

@@ -18,7 +18,7 @@ To integrate content from an LTI Provider into an LTI Consumer, the following in
 
 - LTI Client Key – this is the account identifier for the LTI Provider, which allows LTI Consumers to identify the account needed to access LTI Provider content; for OneLearn Lab on Demand, this is referred to as the LTI Key
 - LTI Client Secret – this is the password/passcode used to authenticate to the LTI Provider account; for OneLearn Lab on Demand, this is referred to as the LTI Secret
-- Content URI – this is the URI that exposes the content to be integrated into the LTI Consumer training materials; for OneLearn Lab on Demand, this is referred to as the LTI Launch URL
+- Content URL – this is the URI that exposes the content to be integrated into the LTI Consumer training materials; for OneLearn Lab on Demand, this is referred to as the LTI Launch URL
 
 If you are an existing customer of Learn on Demand Systems and you want to launch your labs via LTI, request the LTI Key and LTI Secret for your lab(s) from [support@learnondemandsystems.com](mailto:support@learnondemandsystems.com).
 
@@ -90,14 +90,13 @@ LTI Scoring allows the lab to be scored based on the LTI scoring policy in the l
 
 There are multiple options available for LTI Scoring. These can be changed at anytime from the lab profile, if necessary.
 
-You will see either one or two options in the **Scoring Policy** drop-down menu, depending on whether or not the lab has IDL content:
+Click the **Advanced** tab of your lab profile to get started.
 
-- **Time Spent** (always present)
-- **Tasks Complete** (only present for labs that have IDL content)
+You will see either one or two options in the **Scoring Policy** drop-down menu, depending on whether or not the lab has IDL content: **Time Spent** (always present) or **Tasks Complete** (only present for labs that have IDL content).
 
-You can see these options in the screenshot below.
+- You can see these options in the screenshot below.
 
-![alt text](media/launch-urls-scoring-policy.png "Scoring Policy is in Launch URLs tab")
+![alt text](media/launch-urls-scoring-policy.png "Scoring Policy is in Advanced tab")
 
 If you select **Time Spent**, the scoring will be based on how much time the student spends in the lab. The **Scoring Format** can be:
 
