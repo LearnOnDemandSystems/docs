@@ -35,9 +35,9 @@ Any valid Azure ARM template can be used as the basis for a Cloud Slice, provide
 1. Avoid referencing templates from public repositories that you do not control. These templates may change without notice and break your lab.
 1. Replace all references to a specific region with [resourcegroup().location]. This enables you to control the region of your deployment with the cloud slice configuration, instead of the template and allows the same template to be used in multiple regions at the same time.
 1. For any object requiring a unique name, use "[concat('<string>,uniquestring(resourceGroup().name)]" where <string> is some value relevant to your lab, such as linuxlab.
-1. Do not hard-code usernames and passwords in the template, instead use template parameters such as UserName and UserPassword to enable credentials to be set at lab design time, and allow different labs using the same template.
-1. To assign random passwords, use @lab.CloudPortalCredential().Password replacement token in the UserPassword parameter. This will cause the password of the deployed object, such as a VM or a database, to match the password of the cloud slice user credential, and prevent two users doing the same lab from having access to each other's resources.
-1. For user accessible names such as DNS names of resources, or other public names, include a template parameter for the name instead of generating a unique string. When the template is attached to a lab, use a lab replacement tokens such as the @lab.LabInstanceID combined with @lab.UserFirstName to create user friendly names that can be also inserted into the lab document using the same replacement token.
+1. Do not hard-code usernames and passwords in the template, instead use template parameters such as adminUsername and adminPassword to enable credentials to be set at lab design time, and allow different labs using the same template.
+1. To assign random passwords, use the &commat;lab.CloudPortalCredential().Password replacement token in the adminPassword parameter. If a resource such as a VM or a database requires a longer password, pad the Cloud Credential Password with additional characters, for example: "[concat('p5wD', parameters('adminPassword')]". Another option is to combine replacement tokens such as &commat;lab.LabInstance.Id and &commat;lab.CloudPortalCredential().Password. This will prevent two users doing the same lab from having access to each other's resources.
+1. For user accessible names such as DNS names of resources, or other public names, include a template parameter for the name instead of generating a unique string. When the template is attached to a lab, use a lab replacement tokens such as the &commat;lab.LabInstance.Id combined with &commat;lab.User.FirstName to create user friendly names that can be also inserted into the lab document using the same replacement token.
 1. If the template is generated from a deployed Azure resource group, remove all embedded comments to improve readability of the template.
 1. If the lab template deploys virtual machines, the sizing of the virtual machine should be captured in a template parameter. This enables sizing information to be easily changed if the deployment region changes, and the currently configured size is not available in the new region.
 1. For Linux VM's, use password authentication, by setting disablePasswordAuthentication to false in the linuxConfiguration section under osProfile in your ARM template. For example, once properly configured your osProfile section may look something like this:
@@ -59,3 +59,18 @@ Any valid Azure ARM template can be used as the basis for a Cloud Slice, provide
 ## Storage Options for ARM Templates
 
 Templates can be stored natively in Lab on Demand, or can be stored on an external document repository such as GitHub. If templates are stored on an external repository, that repository must support anonymous access for Lab on Demand to read the template correctly.
+
+## ARM Template Load Testing
+
+If your template will be used for a high volume of concurrent users such as large events or conferences, please contact <a href="mailto:support@learnondemandsystems.com?Subject=ARM%20Template%20Loadtesting" target="_top">support@learnondemandsystems.com</a> if you are not already working with Learn on Demand Systems event staff.
+
+> [!ALERT] **NOTE**: While this is an optional phase, it is highly recommended prior to large deliveries and the only way to guaruntee subscriptions are configured correctly for scaling.
+
+Please be prepared with the following items for successful load testing:
+1. A "Launch" template.
+    1. This is the template users will have at lab launch. This is necessary to ensure labs will launch successfully at scale and users will be able to enter the environment.
+    1. Not all environments will launch with a template, if users are intended to start with no resources please outline this and continue to the next item.
+1. A "Completed" template.
+    1. This is a template of what users will have by the end of the lab. This is necessary to ensure proper scaling is configured on the subscriptions and that users will not experience issues througout the lab.
+1. A list of "Additional Resources".
+    1. This is a list of any components created in the lab that cannot be deployed via ARM template. This will not be a common thing, but may come up from time to time.
