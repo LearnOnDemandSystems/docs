@@ -19,4 +19,4 @@ A differencing disk is a virtual hard disk (VHD) that stores changes made on the
 
 If you would like to rollback and delete multiple disks, you can click the **X** on the disk immediately following the one you want to roll back to, and select **Include all child disks**, when prompted.
 
->[knowledge] If you're rolling disks back on a set of VMs that all belong to the same domain, make sure you roll each VM Profile back to the same point, otherwise you may run intoTrust Relationship errors between the virtual machines.
+>[!knowledge] If you're rolling disks back on a set of VMs that all belong to the same domain, make sure you roll each VM Profile back to the same point, otherwise you may run intoTrust Relationship errors between the virtual machines.
