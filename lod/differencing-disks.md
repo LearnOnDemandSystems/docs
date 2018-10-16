@@ -4,6 +4,8 @@ A differencing disk is a virtual hard disk (VHD) that stores changes made on the
 
 ## Delete or Rollback to a Previous Disk
 
+In Lab on Demand (LOD), to rollback to a previous differencing disk, you must delete any disks that were added after the disk you wish to roll back to.
+
 1. In LOD, navigate to the VM profile you wish to change the disks on.
 1. Click **Edit** on the VM Profile.
 
@@ -13,7 +15,7 @@ A differencing disk is a virtual hard disk (VHD) that stores changes made on the
 
     ![](images/edit-vm-profile-hard-disks-tab.png)
 
-1. Click the **X** next to the last diff disk to remove it.
+1. Click the **X** next to the last disk to remove it.
 
     ![](images/edit-vm-profile-hard-disks-tab-x-button.png)
 
