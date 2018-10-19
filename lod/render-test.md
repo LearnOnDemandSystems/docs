@@ -1,24 +1,28 @@
 >#Headings
 
-# Heading 1 
+# Heading 1 
 
-## Heading 2 
+## Heading 2 
 
-### Heading 3 
+### Heading 3 
 
-#### Heading 4 
+#### Heading 4 
 
-##### Heading 5 
+##### Heading 5 
 
-###### Heading 6 
+###### Heading 6 
 
 >#Bold
 
-**bold** 
+**bold**
+
+This **X** marks the spot!
+
+One **fish**, two **fish**, red **fish and blue fish** but not **green fish**
 
 >#Italic
 
-*Italic* 
+*Italic* 
 
 >#Strikethrough
 
