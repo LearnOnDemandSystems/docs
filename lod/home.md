@@ -2,6 +2,8 @@
 
 Welcome to the OneLearn Lab on Demand platform!
 
+## [What's New in LOD](whats-new.md) 
+
 ## Authoring lab instructions
 
 - [**IDLx Lab Development Best Practices**](/lod/idlx-development-best-practices.md) - This document covers best practices for IDLx lab development, to assist in creating a rich learning experience.
