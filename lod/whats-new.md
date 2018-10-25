@@ -6,7 +6,7 @@
 
 - **VMware Windows VM Automated Activity Support**
 
-    This feature allows lab authors to use PowerShell and shell scripts in IDLx automated activities to target Windows virtual machines running on VMware. These scripts can be triggered in the lab, by a lab user clicking a button on the Activity in the lab instructions. 
+This feature allows lab authors to use PowerShell and shell scripts in IDLx automated activities to target Windows virtual machines running on VMware. These scripts can be triggered in the lab, by a lab user clicking a button on the Activity in the lab instructions. 
 
 ![](images/ps-script-in-activity-image1.png)
 
@@ -41,7 +41,6 @@ _view from the lab_
 ![](images/evidence-in-the-lab-image6.png)
 
 _view from the lab instance details page_
-
 ![](images/evidence-lab-instance-view-image7.png)
 
 
