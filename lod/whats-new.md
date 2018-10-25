@@ -41,6 +41,7 @@ _view from the lab_
 ![](images/evidence-in-the-lab-image6.png)
 
 _view from the lab instance details page_
+
 ![](images/evidence-lab-instance-view-image7.png)
 
 
