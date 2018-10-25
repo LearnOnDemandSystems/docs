@@ -1,3 +1,6 @@
+<div style="float:right; margin-top:24px; font-size:120%">
+   <a href="whats-new.md">What's New</a>
+</div>
 # OneLearn Lab on Demand Help 
 
 Welcome to the OneLearn Lab on Demand platform!
