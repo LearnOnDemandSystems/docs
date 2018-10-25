@@ -2,7 +2,7 @@
 
 ## Released October 19, 2018
 
-### VMware Improvements
+### **VMware Improvements**
 
 - **VMware Windows VM Automated Activity Support**
 
@@ -16,7 +16,7 @@ This feature allows lab authors to target virtual machines running on VMware wit
 
 ![](images/add-life-cycle-action-screen-image-2.png)
 
-### IDLx Activities
+### **IDLx Activities**
 
 - **Automated activities Can Now Use @lab Variable Replacements in Scripts**
 
@@ -44,7 +44,7 @@ _view from the lab instance details page_
 ![](images/evidence-lab-instance-view-image7.png)
 
 
-### Life Cycle Action Improvements
+### **Life Cycle Action Improvements**
  
 - **Life Cycle Actions Can Now Use @lab variable Replacements**
 
