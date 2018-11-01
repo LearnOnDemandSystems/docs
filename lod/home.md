@@ -71,7 +71,7 @@ Welcome to the OneLearn Lab on Demand platform!
 
 * [**GitHub Integration**](/guides/github-integration/github-integration.md) - Integrate lab instructions from a GitHub repository into your lab profile.
 
-* [**Get Scoring Results From LOD via LTI Outcomes**](/lod/how-to-get-scoring-results-from-lod-via-lti-outcomes.md) - Documentation on how to configure LTI on a lab profile, and integrate with popular LMS systems. 
+* [**LTI Integration**](/lod/lab-on-demand-lti-integration.md) - Documentation on how to configure LTI on a lab profile, and integrate with popular LMS systems. 
 
 * [**Lab on Demand API Documentation**](/lod/lod-api/lod-api-main.md) - Documentation on how and when to use the Lab on Demand API.
 
