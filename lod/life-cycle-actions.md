@@ -27,7 +27,15 @@ Events include:
 
 ## Send Notification to User
 
+This will send a notification to the student's lab, during the specified event. This can contain plain text, or @lab replacement tokens. When the notification is sent to the student, information will be replaced by the @lab replacement token. 
+
+For example, if you were to configure the notification to the below, the notification will say "Hello" followed by the student's first name. 
+
+```Hello, @lab.User.FirstName``` 
+
 ## Send E-mail to user
+
+This will send an E-mail to the student, during the specified event. This can contain plain text, or @lab replacement tokens. When the notification is sent to the student, information will be replaced by the @lab replacement token. 
 
 ## Execute Machine Command
 

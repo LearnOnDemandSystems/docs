@@ -76,6 +76,18 @@ Automated Activities are PowerShell or Shell scripts that target a Cloud Subscri
 
     - **Incorrect answer feedback**: you can enter text here, or you can use scripts to generate a response to the student.  
 
+### Automated Activity Output
+
+You can optionally store automated activity output separately from a script message that the student receives in the lab when they complete the automated activity. This allows you to display a message to the student in the lab, but leave more detailed evidence for reporting or remediation. 
+
+An example, if you wanted to capture a list of all running services in a virtual machine, at a specific point in the lab. You could create an automated that uses PowerShell to target a Windows virtual machine with the following script:
+
+```
+Get-Service | Format-List *
+Set-ActivityResult -Correct -Message 'You got it!'
+```
+When the student clicks the button in the lab to trigger the automated activity, the script will capture a list of running services and store them on the lab instance details page, and will display "You got it!" to the student in the lab. 
+
 ### Automated Activity Best Practice and Guidelines
 
 - Use Automated Activities in areas of your lab when students are prone to making mistakes. A PowerShell script, such as the example shown below, helps students to make sure their lab is configured appropriately so that they do not get an error when trying to complete steps later in the lab.  
@@ -85,6 +97,36 @@ Automated Activities are PowerShell or Shell scripts that target a Cloud Subscri
 - If more than one script is configured on an Activity, the scripts will execute in sequential order. If one of your scripts is relying on another script to be completed, make sure you order the scripts appropriately to prevent your Automated Activity from not working correctly. 
 
 - Automated Activities support PowerShell and Shell. Cloud Subscriptions must be targeted by a PowerShell script, and Windows-based virtual machines running on Hyper-V can be targeted by PowerShell or Shell.
+
+### Automated Activity Notifications and Variables
+
+Automated activity scripts can set a variable and send notifications to the student, to draw attention to some information or to notify the student of the outcome of the script once it is completed. This allows the student to progress through the lab instructions, without waiting for the result from the script. 
+
+You can also use @lab replacement tokens, to replace information in the notification. This allows the lab author to provide more specific information to the student.  
+
+You can set a variable and send a notification using the the variable in the following example. This example uses 2 PowerShell scripts. 
+
+**Script 1**
+
+```
+Set-LabVariable -Name Directory -Value C:/users/student/documents
+Set-ActivityResult -Correct
+```
+
+**Script 2**
+
+```
+Send-LabNotification -Message "Use this directory: @lab.Variable(Directory)!"
+Set-ActivityResult -Correct
+```
+
+_Student view in the lab of automated activity_
+
+![](images/automated-activity-student-view.png)
+
+_Student view of the notification in the lab_
+
+![](images/automated-activity-student-view-notification.png)
 
 ### Example Automated Activity 
 
