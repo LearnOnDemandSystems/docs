@@ -12,7 +12,7 @@ First you should check the size of the lab window to see if it can be increased.
 
     1. Use the **Fit Window to Machin** command on the **Display** menu. in the lab to fit the interface to VM. Please note that the Fit Window to Machine command is mainly to help you get rid of the grey space around the VM within the lab window, and is not meant to be the first option in getting rid of scroll bars. 
     
-    >  ![KNOWLEDGE] The Edge browser does not work with the Fit Window to Machine command.
+    >[!KNOWLEDGE] The Edge browser does not work with the Fit Window to Machine command.
 
 You could also change your screen resolution or the screen resolution of the VM(s), which is covered in the [How do I resize the screen resolution setting on my own computer to view the lab better? article](how-do-i-resize-the-screen-resolution-setting-on-my-own-computer-to-view-the-lab-better.md)
 

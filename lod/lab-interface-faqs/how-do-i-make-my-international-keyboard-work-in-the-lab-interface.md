@@ -4,7 +4,7 @@ When using the Lab on Demand (LOD) lab interface, there is some support for inte
 
 #### General Requirements for International Keyboards:
 
-1. Your local machine must be set to the desired language (see [Changing Local Settings on Local or Virtual Machines](#) below)
+1. Your local machine must be set to the desired language (see [Changing Local Settings on Local or Virtual Machines](#changing-local-settings-on-local-or-virtual-machines) below)
 
 1. The Lab VM(s) must be set to the desired language.
 
