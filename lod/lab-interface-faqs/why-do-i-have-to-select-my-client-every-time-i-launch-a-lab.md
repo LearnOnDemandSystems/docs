@@ -8,18 +8,16 @@ To change the permissions for them, open your browser settings and locate the Pr
 
 For example, this procedure would like this in Internet Explorer 11: 
 
-1. [] Click the Tools icon and click Internet Options. 
+1. Click the Tools icon and click Internet Options. 
 
-1. [] In Internet Options, click the Privacy tab and click Sites. 
+1. In Internet Options, click the Privacy tab and click Sites. 
 
-1. [] Enter ```*.labondemand.com``` (site address may change) 
+1. Enter ```*.labondemand.com``` (site address may change) 
 
-1. [] Click Allow 
+1. Click Allow 
 
-1. [] Click OK. 
+1. Click OK. 
 
 >![KNOWLEDGE] Some browsers have the option to delete cookies upon closing the browser session. This would also cause you to have to select your client the next time. If possible, this setting should be shutoff.
 
 If you are unable to locate the Privacy settings for your browser or to set the website to be able to use cookies, contact your computer support staff for assistance.
-
-![](../'images/select-client-each-time.png)

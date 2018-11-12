@@ -4,19 +4,19 @@ There may be times when you want to change the resolution of your personal compu
 
 To change the resolution on your computer, 
 
-1. [] Right-click on your desktop and click **Screen Resolution**. 
+1. Right-click on your desktop and click **Screen Resolution**. 
 
-1. [] If **Screen Resolution** is not available, click **Personalize**, 
+1. If **Screen Resolution** is not available, click **Personalize**, 
 
-1. [] Click **Display** and **Adjust Resolution**. 
+1. Click **Display** and **Adjust Resolution**. 
 
-1. [] On the **Screen Resolution** page, click the drop-down for **Resolution** and slide the bar to the resolution wanted. 
+1. On the **Screen Resolution** page, click the drop-down for **Resolution** and slide the bar to the resolution wanted. 
 
-1. [] Click **Apply** and in the Display Settings message, 
+1. Click **Apply** and in the Display Settings message, 
 
-1. [] Click **Keep Changes**. 
+1. Click **Keep Changes**. 
 
-1. [] Close the **Screen Resolution** window.
+1. Close the **Screen Resolution** window.
 
 You can also adjust the resolution of the VMs in many cases. Once the lab is launched and you have logged into the VM, on the VM's desktop use the process above to adjust the resolution. However, some VMs have had their resolution locked due to the programs installed and their size requirements. Thus they can not be changed. Also, be aware that if you change the VM resolution on one VM in the lab, it does not change the resolutions on the other VMs in the lab.
 
