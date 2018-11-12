@@ -65,7 +65,7 @@ Welcome to the OneLearn Lab on Demand platform!
 
 * [**Custom CSS**](/lod/feature-focus/lab-profiles/custom-css.md) - Customize CSS of your lab.
 
-* [**Differencing Disk Rollback**](https://github.com/LearnOnDemandSystems/docs/blob/master/lod/differencing-disks.md) - Rollback differencing disks to a previous configuration or add differencing disks back to a disk chain after they have been removed.
+* [**Differencing Disk Rollback**](/lod/differencing-disks.md) - Rollback differencing disks to a previous configuration or add differencing disks back to a disk chain after they have been removed.
 
 * [**Introduction to Lab on Demand UI**](/lod/feature-focus/lod-experience.md) - Explanation of Lab on Demand UI.
 
