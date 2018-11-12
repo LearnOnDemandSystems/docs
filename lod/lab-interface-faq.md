@@ -18,7 +18,7 @@
 
 - [**How Do I Make My Lab Display In Full Screen?**](lab-interface-faqs/how-do-i-make-my-lab-display-in-full-screen.md)
 
-- [**Is There A Way To Show Exercises In A Separate Window?**](lab-interface-faqs/is-there-a-way-to-show-exercises-in-a-separate-window.md)
+- [**Is There A Way To Show Lab Content In A Separate Window?**](lab-interface-faqs/is-there-a-way-to-show-lab-content-in-a-separate-window.md)
 
 - [**How Can I Remove The Side, Top And Bottom Displays To Only See The Virtual Machine In The Lab Interface?**](lab-interface-faqs/how-can-i-remove-the-side-top-and-bottom-displays-to-only-see-the-virtual-machine-in-the-lab-interface.md)
 
