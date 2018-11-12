@@ -1,9 +1,9 @@
 ## How Do I Make My Lab Display In Full Screen?
 
 You may want to display your lab in Full Screen mode, removing the title bar and the address bar. To do this; 
-1. [] Click Display at the top of the lab interface
+1. Click Display at the top of the lab interface
 
-1. [] Click Full Screen. 
+1. Click Full Screen. 
     - To exit Full Screen view, press the Esc key or select Exit Full Screen from the Display menu. 
     
 > [!ALERT] Due to lab restrictions, your lab may not completely fill your screen.
