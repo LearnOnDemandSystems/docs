@@ -4,7 +4,7 @@
 
 - [**How do I make my international keyboard work in the lab interface?**](lab-interface-faqs/how-do-i-make-my-international-keyboard-work-in-the-lab-interface.md)
 
-- [**How Can I Keep The VM’s Resolution From Adjusting Automatically After I Have Set It Manually?**](lab-interface-faqs/how-can-i-keep-the-vms-resolution-from-adjusting-automatically-after-i-have-set-it-manually)
+- [**How Can I Keep The VM’s Resolution From Adjusting Automatically After I Have Set It Manually?**](lab-interface-faqs/how-can-i-keep-the-vms-resolution-from-adjusting-automatically-after-i-have-set-it-manuall.md)
 
 - [**How Can I See The Quality Of My Connection To My Lab?**](lab-interface-faqs/how-can-i-see-the-quality-of-my-connection-to-my-lab.md)
 
