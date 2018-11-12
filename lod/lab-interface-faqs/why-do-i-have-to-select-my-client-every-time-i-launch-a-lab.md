@@ -18,6 +18,6 @@ For example, this procedure would like this in Internet Explorer 11:
 
 1. Click OK. 
 
->![KNOWLEDGE] Some browsers have the option to delete cookies upon closing the browser session. This would also cause you to have to select your client the next time. If possible, this setting should be shutoff.
+>[!KNOWLEDGE] Some browsers have the option to delete cookies upon closing the browser session. This would also cause you to have to select your client the next time. If possible, this setting should be shut off.
 
 If you are unable to locate the Privacy settings for your browser or to set the website to be able to use cookies, contact your computer support staff for assistance.
