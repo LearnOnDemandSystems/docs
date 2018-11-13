@@ -22,8 +22,8 @@ Or contact us using one of the following methods:
 |**Phone, e-mail or Skype**||
 |Email|<a href="mailto:support@learnondemandsystems.com">support@learnondemandsystems.com</a>|
 |Skype|labondemand|
-|Toll-free Phone|+1 888.763.7730 - only toll free in the US|
-|Phone|727-264-1330|
+|Toll-free Phone|+1 866-668-7505 - only toll free in the US|
+|Phone|+1 512-782-2243|
 |**International Phone Numbers**||
 |Australia|+61 1800 531 776|
 |Canada|+1 866-694-8215|
