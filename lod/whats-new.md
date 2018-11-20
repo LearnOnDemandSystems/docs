@@ -1,6 +1,84 @@
 # What's New in Lab On Demand
 
-## Released October 19, 2018
+## **Released November 16, 2018**
+
+### **Shared Labs Scalability Improvements**
+
+- **VLAN Based Ranges**
+
+Shared labs can now be on different host machines, using different virtualization platforms (Hyper-V and VMware). 
+
+![](images/shared-labs-ping-test.png)
+
+### **Lab Client Multi-Language Support**
+
+- **Support for Spanish, German, French, and Portuguese in the lab client**
+
+Set the lab to the language of choice, and our lab client will run in that language. The lab must be authored in the target language, if you would like the lab instructions to be displayed in the target language. 
+
+### **Activity Based Assessment Script Editor**
+
+- **Full Screen**
+
+The activity script editor can now be viewed in full screen, allowing the lab author to see more of the script, without needing to scroll. 
+
+- **Code Highlighting**
+
+Code is now highlighted in the script editor, making it easier to identify script syntax, as well as @lab replacement tokens. 
+
+![](images/code-highlighting.png)
+
+- **@lab Token Completion**
+
+Replacement tokens are not auto-completed for your convenience, making it easier to include @lab replacement tokens in lab instructions. 
+
+- **@lab Variables**
+
+Variables can now be set in lab activities, using the below syntax. Variables can be used by a second script in the activity, or a later activity in the lab. Variables set in a lab activity can even be referenced in lab instructions.
+
+```Set-LabVariable -Name NameHere -Value ValueHere``` 
+
+- **Real-Time Activity Script Editing**
+
+This allows the lab author to keep the script editor open, while making live edits and executing inside the target environment. This dramatically speeds up script authoring and debugging. 
+
+Automatic Special Character Conversion
+When pasting into ABA script editors from rich editing applications such as Microsoft Word and OneNote,  characters such as emdashes, curly quotes, and non-breaking space characters are automatically converted into script-friendly alternatives. This can save hours of frustration when authoring scripts because bad characters typically look fine to the author, but cause scripts to fail to execute.
+
+### **Hyper-V Activity Based Assessment Enhancements**
+
+- **No Login Required to Run Scripts**
+
+Automated Activity scripts can now be executed against a Hyper-V VM, without needing to log in to the VM. This allows hidden Scoring Bots to be inserted into labs. 
+
+- **Lab Notifications from Activity Scripts**
+
+Automated activity scripts can send a popup notification to the students lab, by using the below syntax. @lab replacement tokens can be used in notifications, to make the message more personalized for the student. @lab variables can also be used in lab notifications. 
+
+```Send-LabNotification -Message "Hello @lab.User.FirstName!"```
+
+- **Partial Scoring**
+
+An automated activity can contain multiple scripts. A score value can now be given to each script in an activity, and when executed successfully will give the student that score value. This allows students to receive partial score for completing tasks within a single automated activity. This also allows the student to receive different amounts of points for each script, rewarding them more for difficult tasks. 
+
+![](images/activities-partial-scoring.png)
+
+### **Organization Custom Support HTML**
+
+- **Custom Support Information**
+
+Organizations in LOD now have the ability to provide custom support information within the lab client. This can be configured on the organization profile in Lab on Demand (LOD). 
+
+### New IDLx Syntax
+
+- **Copyable TypeText**
+
+Copyable/TypeText syntax: placing four + symbols on each side of any text, will make the text type into a VM, as well as copy to the clipboard when clicked. 
+
+```\++++enter text here to type into the VM and copy to the clipboard++++```
+
+
+## **Released October 19, 2018**
 
 ### **VMware Improvements**
 
