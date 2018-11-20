@@ -75,7 +75,7 @@ Organizations in LOD now have the ability to provide custom support information 
 
 Copyable/TypeText syntax: placing four + symbols on each side of any text, will make the text type into a VM, as well as copy to the clipboard when clicked. 
 
-```\++++enter text here to type into the VM and copy to the clipboard++++```
+```++++enter text here to type into the VM and copy to the clipboard++++```
 
 
 ## **Released October 19, 2018**
