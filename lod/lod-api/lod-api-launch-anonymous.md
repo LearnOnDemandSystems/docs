@@ -5,7 +5,7 @@ The **Launch** command will launch a specified lab without supplying user inform
 ## Parameters
 
 |Name|Type|Required|Note|
-|--- |--- |--- |--- |--- |
+|--- |--- |--- |--- |
 |labId|Int|Yes|The ID of the lab profile|
 |classId|String|No|An optional parameter used to associate the lab with a class (see GetOrCreateClass). This is the unique identifier of the class as it is represented in your organization.|
 |tag|String|No|An optional parameter that can be used for tagging the lab instance with your own custom data.|
