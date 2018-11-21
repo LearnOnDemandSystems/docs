@@ -4,11 +4,12 @@
 
 ### **Shared Labs Scalability Improvements**
 
-- **VLAN Based Ranges**
+- **Shared labs can now span across our entire datacenter fabric, including cross-platform deliveries.**
 
-Shared labs can now be on different host machines, using different virtualization platforms (Hyper-V and VMware). 
+    - Shared environments can be an order of magnitude larger than before.
+    - Scheduling/planning requirements have been dramatically reduced.
+    - VMs can be hosted on Hyper-V and ESX servers within the same shared environment.
 
-![](images/shared-labs-ping-test.png)
 
 ### **Lab Client Multi-Language Support**
 
