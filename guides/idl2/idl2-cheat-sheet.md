@@ -53,6 +53,7 @@
 | Include           | `!instructions[](url)`                |
 | Copyable Text     | `++copyable text++`                      |
 | Type Text         | `+++Type text+++`                      |
+| Copyable and Type Text         | `++++Copyable and Type text++++`|
 | Replacement Token | `click the @ lab toolbar button ` |
 | Embed YouTube video | `!video[text to display](url)` (URLs from YouTube.com auto embed)               |
 |<BR> | |
