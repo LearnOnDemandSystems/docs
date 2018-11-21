@@ -440,6 +440,12 @@ Although potentially any task could be reduced to an action that can be executed
   > \+++Click to type in to your managed VM+++
   >
   > ![](images/type-text.png "Type Text")
+
+- **Copyable and Type Text:** used to make text copy to the local clipboard and type into a virtual machine when the student clicks the text. Type four + (plus) symbols on each side of the text that should be made copyable and type text. 
+
+  > \++Click to copy to clipboard and type into a VM++
+  >
+  > ![](images/copyable-and-type-text.png "Copyable Text")
   
 - **Embed YouTube video:** used to embed a YouTube video inline with the lab instructions. URLs from YouTube.com automatically embed. Videos from any other URL will not embed.
 
