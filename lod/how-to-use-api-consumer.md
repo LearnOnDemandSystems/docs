@@ -12,12 +12,7 @@ If you already have API Consumer access, and would like to use an API consumer w
 
 The lab series must be published to the API consumer that will be used. By publishing a lab series to an API Consumer, that API Consumer will be able to launch any current and future lab profiles that belong to that series. 
 
-To publish the Lab Series:
-
-1. Navigate to the lab series that houses that lab profile that will be used with the API.
-1. Click **edit**.
-1. On the **Publish** tab, select the API consumer that you wish to publish the lab series to. 
-1. Click **Save**.
+To publish the Lab Series, please contact our Support team at mailto:Support@learnondemandsystems.com
 
 ## Lab Profile
 
