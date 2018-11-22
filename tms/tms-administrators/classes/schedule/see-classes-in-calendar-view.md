@@ -10,10 +10,10 @@ On the **Calendar** page, you may use the Search Filters to narrow your view. If
 
 You also have the ability to right-click on a class in the calendar to view the class information or make changes to the class. The options available are as follows (they open in the same window unless noted):
 
-- **Details** ? opens the Class page
-- **Details (new window)** ? opens the Class page in a new window
-- **Edit** ? opens the Class page in Edit mode
-- **Roster** ? opens the Roster page for the class
-- **Edit Times** ? opens the Sessions section for the class in Edit mode
-- **Change Primary Instructor** ? opens the Instructor section for the class in Edit mode
+- **Details** - opens the Class page
+- **Details (new window)** - opens the Class page in a new window
+- **Edit** - opens the Class page in Edit mode
+- **Roster** - opens the Roster page for the class
+- **Edit Times** - opens the Sessions section for the class in Edit mode
+- **Change Primary Instructor** - opens the Instructor section for the class in Edit mode
 - **Change Primary Room** - opens the Delivery section for the class in Edit mode

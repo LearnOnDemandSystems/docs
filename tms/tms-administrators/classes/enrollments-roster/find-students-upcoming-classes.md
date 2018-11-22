@@ -1,13 +1,13 @@
 # How do I find a student's upcoming classes?
 
-There are a couple of ways to find a student?s upcoming classes. You can find this from the the student?s User Profile or from Find Enrollments. From the User Profile page you can only find information related to one user, while through Find Enrollments you can search for information on any enrollment.
+There are a couple of ways to find a student's upcoming classes. You can find this from the the student's User Profile or from Find Enrollments. From the User Profile page you can only find information related to one user, while through Find Enrollments you can search for information on any enrollment.
 
 ## User Profile
 
 To find upcoming classes for a student, you can start from the User Profile.  
 
 1. On **Site Administration**, under **Users** click **Find Users**. 
-1. In the **Name** field, input part of the student?s name, and click **Search**. 
+1. In the **Name** field, input part of the student's name, and click **Search**. 
 1. Click the **Name** of the student in the search results to open the **User Profile**. 
 1. On the Command bar, click **Current Training**.
 

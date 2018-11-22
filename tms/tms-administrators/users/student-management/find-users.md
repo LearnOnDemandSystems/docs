@@ -8,4 +8,4 @@ To find a user:
 1. From the dropdown, select the ones you would like to use. 
 1. Add necessary information in the filters. 
 1. Click **Output Options** and select the fields you would like to see in your output. 
-1. Click **Search**. To view the user?s account, in the search results either click the user?s name or the **Details** link on the same row.
+1. Click **Search**. To view the user's account, in the search results either click the user's name or the **Details** link on the same row.

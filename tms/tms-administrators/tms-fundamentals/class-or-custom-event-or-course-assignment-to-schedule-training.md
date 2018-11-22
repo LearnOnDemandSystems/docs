@@ -7,13 +7,13 @@ Either a Class or a Custom Event will allow you to select the days and times of 
 **Class** - used to schedule an instructor-led meeting for multiple students with access to course activities and resources. 
 -	Labs and other course activities (videos, links, assessments, etc.) can be accessed by students at the time the class is scheduled to begin. 
 -	Post class access for most course content is 6 months. 
--	Students? labs can be monitored by instructors through the class. 
+-	Students' labs can be monitored by instructors through the class. 
 -	Resources added to a course are available to students once their Enrollment Status is marked Enrolled or Audit; access to resources is not tied to class sessions, they can access the documents at any time.
 
 
 **Custom event** - allow you to schedule a meeting without using a course and its resources. If you are interested in using this feature, please contact support@learnondemandsystems.com to be given permissions to create and manage Custom Events.
 
-**Course Assignment** - set up for one student to give access to a course?s activities and resources. 
+**Course Assignment** - set up for one student to give access to a course's activities and resources. 
 -	Begin when created and access usually expires in 6 months. 
 -	Is not designed to be supervised by an instructor.
 -	Does not have a classroom (physical or virtual).
@@ -36,6 +36,6 @@ Either a Class or a Custom Event will allow you to select the days and times of 
 
 *Adobe Connect virtual classroom access requires a signed contract with Adobe Connect before access is granted. If you have a different virtual classroom provider, please contact support@learnondemandsystems.com for guidance.
 
-**The standard Instructor role does not permit a user to monitor course assignments. Course Assignments can be monitored by Operations Managers or by an instructor if organization management is assigned with the Instructor role. This gives the instructor administrative access to all the organization?s data.
+**The standard Instructor role does not permit a user to monitor course assignments. Course Assignments can be monitored by Operations Managers or by an instructor if organization management is assigned with the Instructor role. This gives the instructor administrative access to all the organization's data.
 
 ***Automated Notifications must be set up by LODS support before they can be enabled for Classes, Custom Events or Course Assignments.

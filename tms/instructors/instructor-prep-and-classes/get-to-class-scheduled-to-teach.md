@@ -1,6 +1,6 @@
 # How do I get to a class I am scheduled to teach?
 
-The best way to get to a class you are teaching is through the Instructor Calendar. You can access a class anytime once you?ve been set up as the instructor. From the calendar you can always see the name and start time of the class. Opening up the class will let you see these times as well as things like:
+The best way to get to a class you are teaching is through the Instructor Calendar. You can access a class anytime once you've been set up as the instructor. From the calendar you can always see the name and start time of the class. Opening up the class will let you see these times as well as things like:
 
 - Class location
 - Registered students

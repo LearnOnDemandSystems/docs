@@ -25,7 +25,7 @@ To add users from a User Group, open the User Group profile. This method is reco
 1. In the search results, click the name of the group to open the group profile. 
 1. On the **User Group** profile, click **Add Users**. 
 1. This opens the **Users** page that lists current users. On this page, click **Add Users**.
-1. This opens the Choose User dialog. Input part of the user?s **First** and **Last Name**.
+1. This opens the Choose User dialog. Input part of the user's **First** and **Last Name**.
 1. Click **Search**.
 1. Select the user in the results and then search for another user. 
 1. Continue searching and selecting until all your users are chosen.
@@ -34,7 +34,7 @@ To add users from a User Group, open the User Group profile. This method is reco
 
 ### 2.2 Add Users from a User Profile
 
-To add a User Group through a User Profile, open the user?s account. This method is recommended for when you only have one user to add to a group or you want to add a user to multiple groups.
+To add a User Group through a User Profile, open the user's account. This method is recommended for when you only have one user to add to a group or you want to add a user to multiple groups.
 1. From **Site Administration** on the **Users** tile, click **Find Users**. 
 1. Input the name of the user and click **Search**. 
 1. In the search results, click the name of the user to open their profile. 

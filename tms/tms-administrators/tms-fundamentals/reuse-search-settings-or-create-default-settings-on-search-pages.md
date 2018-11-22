@@ -4,8 +4,8 @@ Are you tired of having to add the same search filters and criteria every time y
 
 To save search parameters: 
 
-1. On the **Find?** page, click **Add Filters** and select any filters you want.
-1. Delete any filters you don?t need. 
+1. On the **Find X** page, click **Add Filters** and select any filters you want.
+1. Delete any filters you don't need. 
 1. Click **Ouput Options** to add columns in your search results and check or uncheck selections based on what you want to include. 
 1. Click **Search** to view your results. 
 1. If everything appears the way you want it, click **Save** located above the search filters. 
@@ -17,7 +17,7 @@ Saved searches are only available on the page they were created.
 
 To apply a saved search: 
 
-1. Navigate to the **Find?** page. If you set your saved search to be the default, your search will run when the page is opened. 
+1. Navigate to the **Find X** page. If you set your saved search to be the default, your search will run when the page is opened. 
 1. To use a different saved search, click **Open** icon. 
 1. Select the saved search and click **OK** to apply it. 
 1. Click **Search** to see the results. 

@@ -1,6 +1,6 @@
 # How do I create a class?
 
-Classes are used to schedule meeting times and give students access to lab and course activities for instructor-led training. If labs or course activities are not needed for the meeting, then a Custom Event can be used. When the TMS is used to schedule your classes, then, the labs are available to students based on the course you choose for the class.
+Classes are used to schedule meeting times and give students access to course activities for instructor-led training. If course activities are not needed for the meeting, then a Custom Event can be used.
 
 To create a class: 
 1. On the **Site Administration** on the **Classes** tile, click **Create Class**. This opens up the Create Class page. 
