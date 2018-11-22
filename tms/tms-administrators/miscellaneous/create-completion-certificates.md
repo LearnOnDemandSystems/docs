@@ -19,12 +19,12 @@ To add certificates:
 1. Create the certificate in DOCX format on your computer. 
 1. Use any or all of the following replacement fields to pull data from the TMS and save the file:
 
-     - **StudentName** ? Adds the student's first and last name as shown on their user profile.
-     - **CourseName** ? Inputs the name of the completed course.
-     - **CourseLength** ? Inputs the length of the course in hours, days, or weeks.
-     - **CompletionDate** ? Adds the date the student completed the course.
-     - **Location** ? Shows where the course was taken.
-     - **TrainingDays** ? Inputs the number of training days from the course.
+     - **StudentName** - Adds the student's first and last name as shown on their user profile.
+     - **CourseName** - Inputs the name of the completed course.
+     - **CourseLength** - Inputs the length of the course in hours, days, or weeks.
+     - **CompletionDate** - Adds the date the student completed the course.
+     - **Location** - Shows where the course was taken.
+     - **TrainingDays** - Inputs the number of training days from the course.
 
 To upload the certificate template:
 1. On **Site Administration**, on the **Courses** tile click **Manage Completion Certificates**.

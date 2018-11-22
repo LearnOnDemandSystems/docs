@@ -17,7 +17,7 @@ If you do not see the user account in the search results, it means that the user
 There are three options for managing student user accounts in this situation:
 
 1. You can create a user account for your student with an alternate email address.
-1. Send an email to Support@LearnonDemandSystems.com. Ask us to enroll your student for you using their existing user account. We will need the class name, start date and the student?s email. Using this option, you will only be able to view the student through the class roster, you will not have access to any of the user's other information.
+1. Send an email to Support@LearnonDemandSystems.com. Ask us to enroll your student for you using their existing user account. We will need the class name, start date and the student's email. Using this option, you will only be able to view the student through the class roster, you will not have access to any of the user's other information.
 1. Send an email to Support@LearnonDemandSystems.com, CC: the student. Ask the student to approve moving their account to your organization in the TMS.
 
 ## For instructor accounts
@@ -26,6 +26,6 @@ If you do not see the instructor account in the search results, it means that th
 
 There are three options for managing instructor accounts in this situation:
 
-1. Send an email to Support@LearnonDemandSystems.com, CC: the instructor. Ask us to move the instructor to the Instructor Pool. Note: The instructor may not be designated as a contract instructor. We will need the instructor?s permission to make the change to their account. See [What is the Contract Instructor Pool](../instructor-management/what-is-contract-instructor-pool.md) for more information about the  Instructor Pool.
+1. Send an email to Support@LearnonDemandSystems.com, CC: the instructor. Ask us to move the instructor to the Instructor Pool. Note: The instructor may not be designated as a contract instructor. We will need the instructor's permission to make the change to their account. See [What is the Contract Instructor Pool](../instructor-management/what-is-contract-instructor-pool.md) for more information about the  Instructor Pool.
 1. Send an email to Support@LearnonDemandSystems.com. We can add the instructor to the class for you.
 1. Create a user account for the instructor with an alternate email address.

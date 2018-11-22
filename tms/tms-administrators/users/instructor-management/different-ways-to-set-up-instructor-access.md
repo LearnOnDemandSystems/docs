@@ -8,7 +8,7 @@ How you decide to set up your instructors depends on what kind of access you wan
 
 ## Within organization
 
-When setting up instructor accounts within your own organization, you allow instructors to have full visibility and access to your organization?s courses. These instructors can launch any of the labs that are available to your organization to prepare to teach them. Instructors within your organization also have access to view the class schedule for all classes being offered in your organization, not just the ones they are scheduled to teach.
+When setting up instructor accounts within your own organization, you allow instructors to have full visibility and access to your organization's courses. These instructors can launch any of the labs that are available to your organization to prepare to teach them. Instructors within your organization also have access to view the class schedule for all classes being offered in your organization, not just the ones they are scheduled to teach.
 
 ## Sub organization
 

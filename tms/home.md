@@ -22,7 +22,7 @@ If you an Administrator, explore the following topics/processes to help you star
      - [Instructor Management](#instructor-management)
 - [Self-Paced Learning and Subscriptions](#self-paced-learning-and-subscriptions)
 - [Token Store](#token-store)
-- [Courses and Labs](#courses-and-labs)
+- [Courses, Labs, SCORM, and Other Activities](#courses,-labs,-scorm,-and-other-activities)
 - [Discussions](#discussions)
 - [Miscellaneous](#miscellaneous)
 
@@ -49,13 +49,16 @@ If you an Administrator, explore the following topics/processes to help you star
 ### General
 - [What does it mean to be a contract instructor?](./instructors/general/what-is-a-contract-instructor.md)
 
-### Classes
-- [How do I find classes I am scheduled to teach?](./instructors/instructor-classes/find-classes-scheduled-to-teach.md)
-- [How do I get to a class I am scheduled to teach?](./instructors/instructor-classes/get-to-class-scheduled-to-teach.md)
+### Preparation and Classes
+- [How do I prepare for a course that I am not scheduled to teach?](./instructors/instructor-prep-and-classes/prepare-for-course-not-scheduled-to-teach.md)
+- [How do I find classes I am scheduled to teach?](./instructors/instructor-prep-and-classes/find-classes-scheduled-to-teach.md)
+- [How do I get to a class I am scheduled to teach?](./instructors/instructor-prep-and-classes/get-to-class-scheduled-to-teach.md)
 
-### Labs
-- [How do I open a lab for a course that I am not scheduled to teach?](./instructors/instructor-labs/access-labs-for-course-not-scheduled-to-teach.md)
-- [How do I assist my students with their labs?](./instructors/instructor-labs/assist-students.md)
+
+### Student Labs
+
+- [How do I assist my students with their labs?](./instructors/student-labs/assist-students.md)
+- How do I share files with my students?
 
 ### Profile
 - [How can I show times when I am unavailable?](./instructors/instructor-profile/show-unavailable-times.md)
@@ -139,13 +142,17 @@ If you an Administrator, explore the following topics/processes to help you star
 - [How do I schedule self-paced learning for a student?](./tms-administrators/self-paced-learning-and-subscriptions/schedule-self-paced-learning.md)
 - [How can an administrator print completion certificates for self-pace learning?](./tms-administrators/self-paced-learning-and-subscriptions/print-completion-certificates-for-self-pace-learning-by-admin.md)
 
-## Courses and Labs
+## Courses, Labs, SCORM, and Other Activities
 
-- [How do I see available courses and determine how much I will be charged for a lab in one of them?](./tms-administrators/courses-and-labs/see-available-courses-and-determine-how-cost-for-lab-in-one.md)
-- [Where do I find the system requirements for labs?](./tms-administrators/courses-and-labs/find-system-requirements-for-labs.md)
-- [How can I find how long a lab will be saved for?](./tms-administrators/courses-and-labs/find-how-long-lab-will-be-saved-for.md)
-- [How do I find if or when a student has launched a lab?](./tms-administrators/courses-and-labs/find-if-student-launched-lab.md)
-- [How can I capture user data for users who access my externally hosted activities from the TMS?](./tms-administrators/courses-and-labs/capture-user-data-for-externally-hosted-activities.md)
+- [How do I see available courses and determine how much I will be charged for a lab in one of them?](./tms-administrators/courses-and-activities/see-available-courses-and-determine-how-cost-for-lab-in-one.md)
+- How do I create or edit a course and add activities such as labs and SCORM modules?
+- [How do I create a SCORM Module and make it available to other organizations for their courses?](./tms-administrators/courses-and-activities/create-scorm-module.md)
+- [How can I preview a sCORM module belonging to my organization?](./tms-administrators/courses-and-activities/start-scorm-module.md)
+- [Where do I find the system requirements for labs?](./tms-administrators/courses-and-activities/find-system-requirements-for-labs.md)
+- [How can I find how long a lab will be saved for?](./tms-administrators/courses-and-activities/find-how-long-lab-will-be-saved-for.md)
+- [How do I find if or when a student has launched a lab?](./tms-administrators/courses-and-activities/find-if-student-launched-lab.md)
+- [How do I view SCORM attempts by my students?](./tms-administrators/courses-and-activities/view-scorm-attempts.md)
+- [How can I capture user data for users who access my externally hosted activities from the TMS?](./tms-administrators/courses-and-activities/capture-user-data-for-externally-hosted-activities.md)
 
 
 ## Miscellaneous

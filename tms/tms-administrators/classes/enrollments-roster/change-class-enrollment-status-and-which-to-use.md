@@ -29,12 +29,12 @@ For the most flexibility working with student enrollments,
 ## Statuses
 There are 7 class enrollment statuses. Which ones you use depend upon the process flow for your organization and permissions in the roles you have. The following lists the statuses and possible uses for a student?s enrollment:
 
-- **Requested** ? Not yet been approved to attend or the default status used until class begins.
-- **Cancelled** ? No longer requesting or taking the class.
-- **Wait-Listed** ? Should be enrolled if a seat becomes available in a full class.
-- **Approved** ? Approved to attend a class. This does not mean that the student is enrolled, just that the request was approved, such as when a supervisor approves their worker?s request for the class but the class manager actually enrolls students. Your organization may skip this status if the person who approves requests is the same person who enrolls.
-- **Denied** ? Request denied. This is optional.
-- **Audit** ? Attending the class but only in an audit capacity. This status acts like Enrolled, giving the student access to course activities and labs. An audit student will count against the number of students that can be physically seated in a classroom but not against the Maximum Students set on the class.
-- **Enrolled** ? Attending the class. Students need to be marked Enrolled (or Audit) to access course activities once the class begins by logging in from anywhere. 
+- **Requested** - Not yet been approved to attend or the default status used until class begins.
+- **Cancelled** - No longer requesting or taking the class.
+- **Wait-Listed** - Should be enrolled if a seat becomes available in a full class.
+- **Approved** - Approved to attend a class. This does not mean that the student is enrolled, just that the request was approved, such as when a supervisor approves their worker's request for the class but the class manager actually enrolls students. Your organization may skip this status if the person who approves requests is the same person who enrolls.
+- **Denied** - Request denied. This is optional.
+- **Audit** - Attending the class but only in an audit capacity. This status acts like Enrolled, giving the student access to course activities and labs. An audit student will count against the number of students that can be physically seated in a classroom but not against the Maximum Students set on the class.
+- **Enrolled** - Attending the class. Students need to be marked Enrolled (or Audit) to access course activities once the class begins by logging in from anywhere. 
 
 > [!Alert] You cannot change this status after class begins. Please note, we use the Enrolled status for billing and we bill for every student marked Enrolled.

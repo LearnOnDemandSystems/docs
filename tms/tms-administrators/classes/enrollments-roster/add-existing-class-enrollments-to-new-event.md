@@ -1,6 +1,6 @@
 # How can I add an existing class enrollments to a new event?
 
-Have you ever had to cancel a class and move the enrolled students to a different class date? Or have the same set of students enrolled in multiple classes? You can retrieve all enrollments from the class that has them to the new class so you don?t have to create each individual enrollment over again.
+Have you ever had to cancel a class and move the enrolled students to a different class date? Or have the same set of students enrolled in multiple classes? You can retrieve all enrollments from the class that has them to the new class so you don't have to create each individual enrollment over again.
 
 To add the student enrollments:
 1. Open the class where you want to add the student enrollments.

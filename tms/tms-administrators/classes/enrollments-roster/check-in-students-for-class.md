@@ -10,7 +10,7 @@ To check students in:
 1. From the **Site Admin** page, click **My Organizations** on the **Organizations** tile. 
 1. Click **Student Check-In** for the organization whose classes you want to work with. 
 1. On the **Student Check-In** page, expand the class name to view the students in that class. 
-1. Click next to the student?s name to mark them as checked in. It will add a time stamp next to their name. 
+1. Click next to the student's name to mark them as checked in. It will add a time stamp next to their name. 
 
 Links on the right side provide access to the Class page and the Roster if changes need to be made. 
 
