@@ -2,6 +2,8 @@
 
 In Learning Tools Interoperability (LTI), the learning system being used by a student is referred to as the **LTI Consumer**, and the external tool or service that is being integrated into that learning system is referred to as the **LTI Provider**. This LTI support is what allows external course authors to integrate rich Lab on Demand content directly into their learning solution. Since LTI is a standard protocol, Lab on Demand content can be integrated into any learning system that supports the LTI standard as an LTI Consumer.
 
+>[knowledge] Lab on Demand uses **LTI 1.1 for launching** and **LTI Outcomes 1.0 for scoring**. 
+
 To integrate content from an **LTI Provider** into an **LTI Consumer**, the following information is required:
 
 - **LTI Client Key** – this is the account identifier for the LTI Provider, which allows LTI Consumers to identify the account needed to access LTI Provider content; for OneLearn Lab on Demand, this is referred to as the LTI Key
@@ -13,6 +15,10 @@ If you are an existing customer of Learn on Demand Systems and you want to launc
 Once you have these pieces of information in hand, you can begin integrating your Lab on Demand lab into an external course.
 
 ## LTI Scoring
+
+<!--
+>[alert] If you are configuring scoring on an IDLx lab and have scoring enabled in the Activities menu, the below steps to configure scoring in the Advanced tab **do not apply to scoring enabled IDLx labs**]
+-->
 
 Labs that are launched from within LTI Providers may return a score back to the provider upon completion. If the lab is includes scored activities or performance-based testing items, the score calculated at the end of the lab will automatically be sent to the LTI Provider; however, if the lab does not include scored activities or performance-based testing items, you can still configure a LTI scoring policy for the lab such that the lab is scored based on the amount of time that a learner spent in the lab, or based on the number of tasks that were completed in the lab.
 
