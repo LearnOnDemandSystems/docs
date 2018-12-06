@@ -16,9 +16,7 @@ Once you have these pieces of information in hand, you can begin integrating you
 
 ## LTI Scoring
 
-<!--
 >[alert] If you are configuring scoring on an IDLx lab and have scoring enabled in the Activities menu, the below steps to configure scoring in the Advanced tab **do not apply to scoring enabled IDLx labs**]
--->
 
 Labs that are launched from within LTI Providers may return a score back to the provider upon completion. If the lab is includes scored activities or performance-based testing items, the score calculated at the end of the lab will automatically be sent to the LTI Provider; however, if the lab does not include scored activities or performance-based testing items, you can still configure a LTI scoring policy for the lab such that the lab is scored based on the amount of time that a learner spent in the lab, or based on the number of tasks that were completed in the lab.
 
