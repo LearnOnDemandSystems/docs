@@ -3,6 +3,7 @@
 Variables are used to store information that is not known at the time of lab instruction authoring. Variables store information and then that information can be recalled or used in the lab. Variables can be used in Life Cycle Actions, Automated Activities, and in lab instructions.  
 Variables can be set in lab steps using a Replacement Token, or in Life Cycle Actions or Automated Activites using PowerShell. All variable types support alphanumberic characters with no spaces.
 
+<!--
 Click to navigate to a specific section:
 
 [Variables in Lab Instructions](#variables-in-lab-instructions)
@@ -10,6 +11,7 @@ Click to navigate to a specific section:
 [Variables in Life Cycle Actions](#variables-in-life-cycle-actions)
 
 [Variables in Automated Activities](variables-in-automated-activities)
+-->
 
 # Variables in Lab Instructions
 
@@ -53,7 +55,7 @@ Below is how the textbox and variable will look in a lab environment:
 
      ![](../lod/images/variables-callback-variable-in-lab.png)
 
-
+<!--
 # Variables in Life Cycle Actions
 
 Life Cycle Actions are actions that are triggered by specific events, during the life cycle of th elab. Variables can be set in LCAs, and then later used in lab Activities and lab instructions. The variable must be set during a life cycle event that occurs before the variable will be used in the lab. For example, if you configured an LCA to set a variable during the tear down event, the variable would not be set while the student is performing the lab. 
@@ -89,4 +91,4 @@ Variables can be declared in an Automated Activity by using the following syntax
 
 Variables set in an automated activity can be used in lab instructions, after the automated activity is executed. 
 
-
+-->
