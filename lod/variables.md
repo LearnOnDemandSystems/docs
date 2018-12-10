@@ -8,7 +8,7 @@ Click to navigate to a specific section:
 
 [Variables in Life Cycle Actions](#variables-in-life-cycle-actions)
 
-[Variables in Automated Activities](variables-in-automated-activities)
+[Variables in Automated Activities](#variables-in-automated-activities)
 
 
 # Variables in Lab Instructions
@@ -22,8 +22,8 @@ Variables defined  lab instructions use two Replacement tokens;
 - **&commat;lab.Variable(name)** : used to recall the information stored in the variable "name".
 
 To use these variables in lab instructions:
-1. Place the textbox replacement token where you would like the user to enter information into. 
-1. Next, place the variable(name) replacement token where you would like the entered information to be recalled.
+1. Place the **textbox replacement token** where you would like the user to enter information into. 
+1. Next, place the **variable(name) replacement token** where you would like the entered information to be recalled.
     1. This could be in one or more locations throughout the manual.
 
 It is highly recommended that you give the textbox a unique name in the (name) section of the replacement token. That same (name) is required in the variable(name) replacement token when the the stored information is needed. Giving these unique names, enables you to use more than one textbox variable in a single lab. 
