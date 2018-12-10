@@ -8,7 +8,7 @@ Click to navigate to a specific section:
 
 [Variables in Life Cycle Actions](#variables-in-life-cycle-actions)
 
-[Variables in Automated Activities](variables-in-automated-activities)
+[Variables in Automated Activities](#variables-in-automated-activities)
 
 
 # Variables in Lab Instructions
