@@ -60,10 +60,8 @@ Variables set via LCAs must be set during a life cycle event that occurs before 
 
 There are currently two forms of Life Cycle Action that can be configured to set a variable:
 
-- **Execute Machine Command**  
-- **Execute Cloud Platform Command**.
-
-Machine commands are used to target a virtual machine, and Cloud Platform commands are used to target a Cloud platform in a Cloud Slice lab. 
+- **Execute Machine Command**: used to target a virtual machine
+- **Execute Cloud Platform Command**: used to target a Cloud platform
 
 To set a variable in a Life Cycle Action:
 
