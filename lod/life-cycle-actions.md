@@ -23,7 +23,9 @@ Events include:
 - **Tearing Down**: the lab environment is being torn down. 
 - **Torn Down**: the lab environment is fully torn down.
 
+<!--
 ## Send Web Request
+-->
 
 ## Send Notification to User
 
@@ -37,6 +39,9 @@ For example, if you were to configure the notification to the below, the notific
 
 This will send an E-mail to the student, during the specified event. This can contain plain text, or @lab replacement tokens. When the notification is sent to the student, information will be replaced by the @lab replacement token. 
 
+<!--
 ## Execute Machine Command
 
 ## Execute Cloud Platform Command
+
+-->
