@@ -84,7 +84,7 @@ For launches, Lab On Demand supports LTI Basic Launch 1.1.
 
 https://www.imsglobal.org/specs/ltiv1p1/implementation-guide
 
-### Required Values
+#### Required Values
 
 - lti_message_type - must be set to “basic-lti-launch-request”
 
@@ -102,7 +102,7 @@ https://www.imsglobal.org/specs/ltiv1p1/implementation-guide
 
 - oauth_nonce -  must be set to a unique value (each request will have a unique nonce)
 
-### Optional Values
+#### Optional Values
 
 - user_id - The user ID in the calling system. If not provided, the lab will launch anonymously. Note that anonymous launch is typically not allowed and is enabled on a lab-by-lab basis. **Technically, this field is optional, but in practice, it will be required for the vast majority of labs.**
 
