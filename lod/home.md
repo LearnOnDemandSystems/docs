@@ -35,6 +35,8 @@ Welcome to the OneLearn Lab on Demand platform!
 
 ## Cloud
 
+* [**Amazon Web Services API Capabilities**](/lod/create-cloud-subscription.md) - A list of **supported** and **planned** Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation. Below the table is a brief description for each service name. 
+
 * [**Create a Cloud Subscription**](/lod/create-cloud-subscription.md) - Create a Cloud Subscription to use cloud-based labs with Lab on Demand
 
 * [**Create a Cloud Subscription Pool**](/lod/create-cloud-subscription-pool.md) - Create a Cloud Subscription Pool to load balance labs across your cloud subscriptions.
