@@ -95,6 +95,7 @@ Welcome to the OneLearn Lab on Demand platform!
 
 - [**Custom UUID on VMware Virtual Machines**](uuid.md) - Assign a custom unique ID to a virtual machine hosted on a VMware host.
 
+<!--
 ## Quick Starts
 
 Quick starts are a guided walkthrough, and allow you to fast track your learning experience, helping you get more value from the platform as quickly as possible.
@@ -119,6 +120,8 @@ With the Cloud Slice feature, LOD is able to support cloud learning at scale. Le
 |Duration|Quick Start|
 |--:|:--|
 |15&nbsp;minutes|[Deploy Linux on Azure using a Resource Template](/lod/quick-starts/linux/deploy-linux-template.md)|
+
+-->
 
 > ### Looking for more information?
 >
