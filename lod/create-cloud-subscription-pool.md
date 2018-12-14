@@ -10,11 +10,7 @@ To add a Cloud Subscription Pool to OneLearn Lab on Demand (LOD), perform the fo
 
 1. Open the **Subscription Pools** section on the Cloud Services tile.
 
-   ![Open the Cloud Subscription Pools section in OneLearn Lab on Demand](../guides/cloud-slice/images/lod-open-cloud-subscription-pools.png)
-
 1. Click **Create Cloud Subscription Pool** to create a new cloud subscription pool in LOD.
-
-   ![Click on Create Cloud Subscription Pool link](../guides/cloud-slice/images/lod-create-cloud-subscription-pool.png)
 
 1. Select a cloud platform from the **Cloud Platform** drop-down menu. 
 
@@ -50,7 +46,7 @@ To add a Cloud Subscription Pool to OneLearn Lab on Demand (LOD), perform the fo
    |**Number&nbsp;Of&nbsp;Subscriptions**|For dedicated pools, subscriptions will be automatically created ahead of time. When this hapens, LOD will create up to the number of subscriptions specified here. Please ensure that all limits on your account or subscription (set by the cloud host provider) are greater than or equal to the number entered here. For example, if your subscription limit or account limit is 20, you should not enter more than 20 in this field. |
    |**Subscription&nbsp;Name&nbsp;Prefix**|When subscriptions are created, the name of the subscription or account will start with this text.|
 
-1. Click **Save** to create the Cloud Subscription Pool.
+10. Click **Save** to create the Cloud Subscription Pool.
 
 [Back to top](#create-a-cloud-subscription-pool)
 
