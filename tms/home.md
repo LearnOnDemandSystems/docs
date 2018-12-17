@@ -12,18 +12,18 @@ Are you an instructor who needs information to teach your classes? The [Instruct
 If you an Administrator, explore the following topics/processes to help you start using the TMS quickly or learn more about TMS functionality:
 - [TMS Fundamentals](#fundamentals)
 - Classes
-     - [Schedule](#schedule) - quickly set up and find classes
-     - [Enrollments and Rosters](#enrollments-and-rosters) - manage your student enrollments
-     - [Instructors](#instructors) - add instructors to classes
-     - [Training Keys](#training-keys) - use training keys for your classes
-     - [Classrooms and Equipment](#classrooms-and-equipment) - assign classrooms and equipment to classes
+     - [Schedule](#schedule)
+     - [Enrollments and Rosters](#enrollments-and-rosters)
+     - [Instructors](#instructors)
+     - [Training Keys](#training-keys) 
+     - [Classrooms and Equipment](#classrooms-and-equipment)
 - Users
      - [Student Management](#student-management)
      - [Instructor Management](#instructor-management)
 - [Self-Paced Learning and Subscriptions](#self-paced-learning-and-subscriptions)
-- [Token Store](#token-store)
+- Token Store (Coming Soon)
 - [Courses, Labs, SCORM, and Other Activities](#courses,-labs,-scorm,-and-other-activities)
-- [Discussions](#discussions)
+- Discussions (Coming Soon)
 - [Miscellaneous](#miscellaneous)
 
 ## Student FAQs
@@ -58,7 +58,7 @@ If you an Administrator, explore the following topics/processes to help you star
 ### Student Labs
 
 - [How do I assist my students with their labs?](./instructors/student-labs/assist-students.md)
-- How do I share files with my students?
+- How do I share files with my students? (Coming Soon)
 
 ### Profile
 - [How can I show times when I am unavailable?](./instructors/instructor-profile/show-unavailable-times.md)
@@ -76,78 +76,79 @@ If you an Administrator, explore the following topics/processes to help you star
 - [Should I use a Class or a Custom Event or a Course Assignment to schedule training?](./tms-administrators/tms-fundamentals/class-or-custom-event-or-course-assignment-to-schedule-training.md)
 - [Why do links disappear?](./tms-administrators/tms-fundamentals/disappearing-links.md)
 
-### Schedule
+### Classes
+- ### Schedule
 
-- [How do I create a class?](./tms-administrators/classes/schedule/create-class.md)
-- [How can I cancel a class?](./tms-administrators/classes/schedule/cancel-class.md)
-- [How can I find a class?](./tms-administrators/classes/schedule/find-class.md)
-- [How can I find a class that is in session?](./tms-administrators/classes/schedule/find-class-in-session.md)
-- [How can I see classes in a calendar view?](./tms-administrators/classes/schedule/see-classes-in-calendar-view.md)
-- [How can an administrator print completion certificates for a class?](./tms-administrators/classes/schedule/print-completion-certificates-for-class-by-admin.md)
+     - [How do I create a class?](./tms-administrators/classes/schedule/create-class.md)
+     - [How can I cancel a class?](./tms-administrators/classes/schedule/cancel-class.md)
+     - [How can I find a class?](./tms-administrators/classes/schedule/find-class.md)
+     - [How can I find a class that is in session?](./tms-administrators/classes/schedule/find-class-in-session.md)
+     - [How can I see classes in a calendar view?](./tms-administrators/classes/schedule/see-classes-in-calendar-view.md)
+     - [How can an administrator print completion certificates for a class?](./tms-administrators/classes/schedule/print-completion-certificates-for-class-by-admin.md)
 
-### Enrollments and Rosters
+- ### Enrollments and Rosters
 
-- [How do I change a class enrollment status and which one should I use?](./tms-administrators/classes/enrollments-roster/change-class-enrollment-status-and-which-to-use.md)
-- [What information should I send to students when I create their enrollments](./tms-administrators/classes/enrollments-roster/information-to-send-to-students-when-enrollments-created.md)
-- [How do I enroll multiple students?](./tms-administrators/classes/enrollments-roster/enroll-multiple-students.md)
-- [How can I add an existing class enrollments to a new event?](./tms-administrators/classes/enrollments-roster/add-existing-class-enrollments-to-new-event.md)
-- [How can I check students in for class?](./tms-administrators/classes/enrollments-roster/check-in-students-for-class.md)
-- [How do I record student attendance for a multiple day class?](./tms-administrators/classes/enrollments-roster/record-student-attendance-for-multiple-day-class.md)
-- [How do I change an enrollment's completion status and which one should I use?](./tms-administrators/classes/enrollments-roster/change-enrollments-completion-status-and-which-to-use.md)
-- [How do I report on students' attendance for multiple day classes?](./tms-administrators/classes/enrollments-roster/report-students-attendance-for-multiple-day-classes.md)
-- [How do I find a student's upcoming classes?](./tms-administrators/classes/enrollments-roster/find-students-upcoming-classes.md)
-- [How do I find a student's completed classes?](./tms-administrators/classes/enrollments-roster/find-students-completed-classes.md)
-- [How do I find all the classes a student has ever been registered to take?](./tms-administrators/classes/enrollments-roster/find-all-classes-student-has-been-registered-for.md)
+     - [How do I change a class enrollment status and which one should I use?](./tms-administrators/classes/enrollments-roster/change-class-enrollment-status-and-which-to-use.md)
+     - [What information should I send to students when I create their enrollments](./tms-administrators/classes/enrollments-roster/information-to-send-to-students-when-enrollments-created.md)
+     - [How do I enroll multiple students?](./tms-administrators/classes/enrollments-roster/enroll-multiple-students.md)
+     - [How can I add an existing class enrollments to a new event?](./tms-administrators/classes/enrollments-roster/add-existing-class-enrollments-to-new-event.md)
+     - [How can I check students in for class?](./tms-administrators/classes/enrollments-roster/check-in-students-for-class.md)
+     - [How do I record student attendance for a multiple day class?](./tms-administrators/classes/enrollments-roster/record-student-attendance-for-multiple-day-class.md)
+     - [How do I change an enrollment's completion status and which one should I use?](./tms-administrators/classes/enrollments-roster/change-enrollments-completion-status-and-which-to-use.md)
+     - [How do I report on students' attendance for multiple day classes?](./tms-administrators/classes/enrollments-roster/report-students-attendance-for-multiple-day-classes.md)
+     - [How do I find a student's upcoming classes?](./tms-administrators/classes/enrollments-roster/find-students-upcoming-classes.md)
+     - [How do I find a student's completed classes?](./tms-administrators/classes/enrollments-roster/find-students-completed-classes.md)
+     - [How do I find all the classes a student has ever been registered to take?](./tms-administrators/classes/enrollments-roster/find-all-classes-student-has-been-registered-for.md)
 
-### Instructors
+- ### Instructors
 
-- [How do I schedule a class with multiple instructors?](./tms-administrators/classes/instructors/schedule-class-with-multiple-instructors.md)
-- [How can I find the classes for a particular instructor?](./tms-administrators/classes/instructors/find-classes-for-particular-instructor.md)
+     - [How do I schedule a class with multiple instructors?](./tms-administrators/classes/instructors/schedule-class-with-multiple-instructors.md)
+     - [How can I find the classes for a particular instructor?](./tms-administrators/classes/instructors/find-classes-for-particular-instructor.md)
 
-### Training Keys
+- ### Training Keys
 
-- [How can I use training keys for students to self-register for a class?](./tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md)
-- [What information should I send to students who are registering for class using training keys?](./tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md)
+     - [How can I use training keys for students to self-register for a class?](./tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md)
+     - [What information should I send to students who are registering for class using training keys?](./tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md)
 
-### Classrooms and Equipment
+- ### Classrooms and Equipment
 
-- [How do I create classrooms?](./tms-administrators/classes/classrooms-equipment/create-classrooms.md)
-- [How can I create a classroom that is outside my organization's physical location?](./tms-administrators/classes/classrooms-equipment/create-classroom-outside-org.md)
-- [How do I use multiple classrooms for a class](./tms-administrators/classes/classrooms-equipment/use-multiple-classrooms-for-class.md)
-- [How can I track laptops being used for classes taught outside my organization?](./tms-administrators/classes/classrooms-equipment/track-laptops-being-used-for-classes-outside-org.md)
+     - [How do I create classrooms?](./tms-administrators/classes/classrooms-equipment/create-classrooms.md)
+     - [How can I create a classroom that is outside my organization's physical location?](./tms-administrators/classes/classrooms-equipment/create-classroom-outside-org.md)
+     - [How do I use multiple classrooms for a class](./tms-administrators/classes/classrooms-equipment/use-multiple-classrooms-for-class.md)
+     - [How can I track laptops being used for classes taught outside my organization?](./tms-administrators/classes/classrooms-equipment/track-laptops-being-used-for-classes-outside-org.md)
 
-## Users
+### Users
 
-### Student Management
+- ### Student Management
 
-- [How do I create student user accounts?](./tms-administrators/users/student-management/create-student-user-accounts.md)
-- [What do I do if an email address is unavailable when I am creating a user account?](./tms-administrators/users/student-management/what-to-do-if-email-address-unavailable-when-creating-user-account.md)
-- [How can I create multiple user accounts at once?](./tms-administrators/users/student-management/create-multiple-user-accounts-at-once.md)
-- [What can I do about duplicate user accounts?](./tms-administrators/users/student-management/what-to-do-about-duplicate-user-accounts.md)
-- [How do I find users?](./tms-administrators/users/student-management/find-users.md)
-- [How do I create a temporary user role?](./tms-administrators/users/student-management/create-temporary-user-role.md)
-- [How can I create a way to find a group of users?](./tms-administrators/users/student-management/create-way-to-find-group-of-users.md)
-- [How can students print completion certificates?](./tms-administrators/users/student-management/students-print-completion-certificates.md)
+     - [How do I create student user accounts?](./tms-administrators/users/student-management/create-student-user-accounts.md)
+     - [What do I do if an email address is unavailable when I am creating a user account?](./tms-administrators/users/student-management/what-to-do-if-email-address-unavailable-when-creating-user-account.md)
+     - [How can I create multiple user accounts at once?](./tms-administrators/users/student-management/create-multiple-user-accounts-at-once.md)
+     - [What can I do about duplicate user accounts?](./tms-administrators/users/student-management/what-to-do-about-duplicate-user-accounts.md)
+     - [How do I find users?](./tms-administrators/users/student-management/find-users.md)
+     - [How do I create a temporary user role?](./tms-administrators/users/student-management/create-temporary-user-role.md)
+     - [How can I create a way to find a group of users?](./tms-administrators/users/student-management/create-way-to-find-group-of-users.md)
+     - [How can students print completion certificates?](./tms-administrators/users/student-management/students-print-completion-certificates.md)
 
-### Instructor Management
+- ### Instructor Management
 
-- [What are different ways to set up instructor access?](./tms-administrators/users/instructor-management/different-ways-to-set-up-instructor-access.md)
-- [How do I create instructor user accounts?](./tms-administrators/users/instructor-management/create-instructor-user-accounts.md)
-- [What is the Contract Instructor Pool?](./tms-administrators/users/instructor-management/what-is-contract-instructor-pool.md)
-- [How can my organization be set up to use contract instructors?](./tms-administrators/users/instructor-management/set-up-organization-to-use-contract-instructors.md)
-- [How can I find instructors that can teach a specific course?](./tms-administrators/users/instructor-management/find-instructors-that-teach-specific-course.md)
+     - [What are different ways to set up instructor access?](./tms-administrators/users/instructor-management/different-ways-to-set-up-instructor-access.md)
+     - [How do I create instructor user accounts?](./tms-administrators/users/instructor-management/create-instructor-user-accounts.md)
+     - [What is the Contract Instructor Pool?](./tms-administrators/users/instructor-management/what-is-contract-instructor-pool.md)
+     - [How can my organization be set up to use contract instructors?](./tms-administrators/users/instructor-management/set-up-organization-to-use-contract-instructors.md)
+     - [How can I find instructors that can teach a specific course?](./tms-administrators/users/instructor-management/find-instructors-that-teach-specific-course.md)
 
-## Self-Paced Learning and Subscriptions
+### Self-Paced Learning and Subscriptions
 
 - [How do I schedule self-paced learning for a student?](./tms-administrators/self-paced-learning-and-subscriptions/schedule-self-paced-learning.md)
 - [How can an administrator print completion certificates for self-pace learning?](./tms-administrators/self-paced-learning-and-subscriptions/print-completion-certificates-for-self-pace-learning-by-admin.md)
 
-## Courses, Labs, SCORM, and Other Activities
+### Courses, Labs, SCORM, and Other Activities
 
 - [How do I see available courses and determine how much I will be charged for a lab in one of them?](./tms-administrators/courses-and-activities/see-available-courses-and-determine-how-cost-for-lab-in-one.md)
-- How do I create or edit a course and add activities such as labs and SCORM modules?
+- How do I create or edit a course and add activities such as labs and SCORM modules? (Coming Soon)
 - [How do I create a SCORM Module and make it available to other organizations for their courses?](./tms-administrators/courses-and-activities/create-scorm-module.md)
-- [How can I preview a sCORM module belonging to my organization?](./tms-administrators/courses-and-activities/start-scorm-module.md)
+- [How can I preview a SCORM module belonging to my organization?](./tms-administrators/courses-and-activities/start-scorm-module.md)
 - [Where do I find the system requirements for labs?](./tms-administrators/courses-and-activities/find-system-requirements-for-labs.md)
 - [How can I find how long a lab will be saved for?](./tms-administrators/courses-and-activities/find-how-long-lab-will-be-saved-for.md)
 - [How do I find if or when a student has launched a lab?](./tms-administrators/courses-and-activities/find-if-student-launched-lab.md)
@@ -162,7 +163,7 @@ If you an Administrator, explore the following topics/processes to help you star
 - [Do I want to use a survey or an assessment?](./tms-administrators/miscellaneous/use-survey-or-assessment.md)
 - [How do surveys work?](./tms-administrators/miscellaneous/surveys.md)
 - [How do assessments work?](./tms-administrators/miscellaneous/assessments.md)
-- [How do I create achievements To motivate learners?](./tms-administrators/miscellaneous/create-achievements-to-motivate-learners.md)
+- [How do I create achievements to motivate learners?](./tms-administrators/miscellaneous/create-achievements-to-motivate-learners.md)
 - [How do I create a custom event?](./tms-administrators/miscellaneous/create-custom-event.md)
 
 [< Return to top >](#student)
