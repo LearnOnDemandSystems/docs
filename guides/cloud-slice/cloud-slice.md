@@ -72,8 +72,8 @@ The first Cloud Subscription you add to a Cloud Subscription Pool is the master 
 
 To create a cloud subscription pool and configure it in LOD, select the cloud platform you are using with your lab from the list below to learn how to create and configure a subscription pool for use with that cloud platform. 
 
-1. [Microsoft Azure](microsoft-azure/azure-setup-cloud-sub-pool-in-lod)
-1. [Amazon Web Services](aws/aws-setup-cloud-sub-pool-in-lod.md)
+1. [Microsoft Azure](/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md)
+1. [Amazon Web Services](/guides/cloud-slice/AWS/aws-setup-cloud-sub-pool-in-lod.md)
 1. Google Cloud Platform (coming soon)
 
 ## Create Cloud Resource Templates in OneLearn Lab on Demand
