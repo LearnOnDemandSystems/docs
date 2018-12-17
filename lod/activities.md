@@ -136,7 +136,7 @@ This 3 scripts below are to make sure the student has created a storage account,
 
 **Storage Account**
 ```
-param($LabInstanceId)
+$LabInstanceId = "@lab.LabInstance.Id"
 $result = $false
 $resourceGroupName = "CSSTlod${LabInstanceId}"
 $storAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name "sa${LabInstanceId}" -ErrorAction Ignore
@@ -151,7 +151,7 @@ $result
 
 **Public Container**
 ```
-param($LabInstanceId)
+$LabInstanceId = "@lab.LabInstance.Id"
 $result = $false
 $resourceGroupName = "CSSTlod${LabInstanceId}"
 $storAccountName = "sa${LabInstanceId}"
@@ -178,7 +178,7 @@ $result
 
 **Private Container**
 ```
-param($LabInstanceId)
+$LabInstanceId = "@lab.LabInstance.Id"
 $result = $false
 $resourceGroupName = "CSSTlod${LabInstanceId}"
 $storAccountName = "sa${LabInstanceId}"

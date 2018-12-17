@@ -1,6 +1,6 @@
 # Lab on Demand AWS API Capabilities 
 
-Below is a list of **supported** and **planned** Amazon Web Services (AWS) APIs. Each service name is a link to the AWS API implementation documentation. Below the table is a brief description of each service name. 
+Below is a list of **supported** and **planned support** Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation. Below the table is a brief description for each service name. 
 
 ## Supported
 |Service Name|Service Prefix|||

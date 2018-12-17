@@ -35,23 +35,23 @@ Welcome to the OneLearn Lab on Demand platform!
 
 ## Cloud
 
-* [**Create a Cloud Subscription**](/lod/create-cloud-subscription.md) - Create a Cloud Subscription to use cloud-based labs with Lab on Demand
+* [**Amazon Web Services API Capabilities**](/lod/aws-capabilities.md) - A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation. Below the table is a brief description for each service name. 
+
+* [**Azure Capacity Limitations**](/guides/cloud-slice/microsoft-azure/azure-capacity-limitations.md) - Azure resource capacity limitations, how to avoid them, and what to do if you run into capacity limitations with your Azure subsription.
+
+* [**Azure Resource Providers**](/guides/cloud-slice/microsoft-azure/azure-resource-providers.md) - Azure Resource Providers, and how to get the resources you need for your lab.
+
+* [**Azure Resource Templates**](/guides/cloud-slice/microsoft-azure/cloud-slice-find-resource-templates.md) - How to find Azure Resource Manager templates for use with Microsoft Azure.
+
+* [**Azure Resource Template - Best Practices**](/lod/feature-focus/cloud-resource-templates/recommendations-and-best-practices.md) - Recommendations and best practices for Azure Resource templates
+
+* [**Cloud Slice Setup Guide**](/guides/cloud-slice/cloud-slice.md) - Comprehensive setup guide for configuring a Cloud Slice lab with Lab on Demand and Microsoft Azure or Amazon Web Services.
 
 * [**Create a Cloud Subscription Pool**](/lod/create-cloud-subscription-pool.md) - Create a Cloud Subscription Pool to load balance labs across your cloud subscriptions.
 
-* [**Capacity Limitations**](/guides/cloud-slice/microsoft-azure/azure-capacity-limitations.md) - Azure resource capacity limitations, how to avoid them, and what to do if you run into capacity limitations with your Azure subsription.
+* [**Create a an Azure Resource Template and Resource Group Configuration**](/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md) - Create a Resource Template and Configure it into a Resource Group
 
-* [**Resource Providers**](/guides/cloud-slice/microsoft-azure/azure-resource-providers.md) - Azure Resource Providers, and how to get the resources you need for your lab.
-
-* [**Resource Templates**](/guides/cloud-slice/microsoft-azure/cloud-slice-find-resource-templates.md) - How to find Azure Resource Manager templates for use with Microsoft Azure.
-
-* [**Create a Restriction Policy**](/lod/create-a-restriction-policy.md) - Create a Cloud Restriction Policy
-
-* [**Create a Resource Template and Resource Group Configuration**](/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md) - Create a Resource Template and Configure it into a Resource Group
-
-* [**Resource Template - Best Practices**](/lod/feature-focus/cloud-resource-templates/recommendations-and-best-practices.md) - Recommendations and best practices for Azure Resource templates
-
-* [**Microsoft Azure Cloud Slice Setup Guide**](/guides/cloud-slice/cloud-slice.md) - Comprehensive setup guide for configuring a Cloud Slice lab with Lab on Demand and Microsoft Azure. For a more guided walkthrough, please see our [Cloud Slice Quickstart](#building-your-first-cloud-slice-lab)
+* [**Create an Azure Restriction Policy**](/lod/create-a-restriction-policy.md) - Create a Cloud Restriction Policy
 
 * [**Replacement Tokens**](/lod/feature-focus/cloud-resource-templates/replacement-tokens.md) - Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat; replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.
 
@@ -93,6 +93,7 @@ Welcome to the OneLearn Lab on Demand platform!
 
 - [**Custom UUID on VMware Virtual Machines**](uuid.md) - Assign a custom unique ID to a virtual machine hosted on a VMware host.
 
+<!--
 ## Quick Starts
 
 Quick starts are a guided walkthrough, and allow you to fast track your learning experience, helping you get more value from the platform as quickly as possible.
@@ -117,6 +118,8 @@ With the Cloud Slice feature, LOD is able to support cloud learning at scale. Le
 |Duration|Quick Start|
 |--:|:--|
 |15&nbsp;minutes|[Deploy Linux on Azure using a Resource Template](/lod/quick-starts/linux/deploy-linux-template.md)|
+
+-->
 
 > ### Looking for more information?
 >
