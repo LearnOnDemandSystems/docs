@@ -172,33 +172,28 @@ Those settings aside, the remaining settings for the virtual machine profile sho
 
 ### Orchestration  - Cloud tab
 
-To enable Cloud Slice support in your lab profile, open the **Cloud** tab, and in the **Orchestration** section, click **Choose** and select the Cloud Subscription Pool that will be used for your Cloud Slice lab. Once you have finished that, you should see something that looks like this:
+To enable Cloud Slice support in your lab profile, open the **Cloud** tab, and in the **Orchestration** section, click **Choose** and select the Subscription Pool that will be used for your Cloud Slice lab. Once you have finished that, you should see something that looks like this:
 
 ![Choose Cloud Subscription Pool in Lab Profile](images/lod-create-lab-profile-subscription-pool.png)
 
 ### Cloud Resource Groups - Cloud tab
 
-If you want cloud resources other than managed virtual machines to be provisioned as part of your Cloud Slice lab, you need to define one or more Cloud Resource Groups where those resources will be provisioned, and you need to add the Cloud Resource Template(s) that you want provisioned as part of your lab to the appropriate Cloud Resource Group(s).
+If you want cloud resources other than managed virtual machines to be provisioned as part of your Cloud Slice lab, you need to define one or more Cloud Resource Groups in Azure or an AWS Region in AWS, where those resources will be provisioned, and you need to add the Cloud Resource Template(s) that you want provisioned as part of your lab to the appropriate Cloud Resource Group(s).
 
-The first step is to define a Cloud Resource Group. Click **Add Cloud Resource Group** to add a resource group to your Cloud Slice. This will show you a form that allows you to define how the resource group should be created. The fields on that form are defined as follows:
+The first step is to define a Cloud Resource Group. Click **Add Cloud Resource Group** if using Azure, or **Add Region** if using AWS, to add a resource group to your Cloud Slice. This will show you a form that allows you to define how the resource group should be created. The fields on that form are defined as follows:
 
 | Field Name             | Description                              |
 | ---------------------- | ---------------------------------------- |
 | **Name Prefix**        | This is the prefix that will be applied to the resource group when it is created. All resource groups are created using the name prefix, followed by the lab instance id, and then the lab profile id. |
-| **Restriction Policy** | Some cloud platforms support using a restriction policy to limit the operations that can be performed within a Cloud Slice subscription. These cloud platforms typically include a tool to define the restriction policy for a subscription. For example, in Microsoft Azure, you can browse into the Subscriptions service, select a subscription, click Policies, and then click Add to create a restriction policy that you can copy and paste into this field in your lab profile. You can learn more about Azure Resource Manager Policies by reviewing this <a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-policy" target="_blank">external document</a>. As a best practice, you should apply a restriction policy that limits what students can create/manage to properly control your subscription costs and keep students focused on the work required for them to complete their lab. |
 | **Region**             | Indicates the region where the resource group will be created. |
-| **Visible To Student** | When checked, the resource group will be visible to the student on the Cloud Resources tab in the LOD UI. You can also select the access that the student will have to the resource group. Reader = read-only access; Contributor = read-write access; Owner = read-write access with the ability to manage permissions. |
-| **Show Login Link**    | This option only appears for resource groups that are visible to the student. When checked, a login link will appear on the same tile as this resource group when it is displayed in the LOD UI. |
-| **Login Link Label**   | This option only appears for resource groups that are visible to the student, and only when the Show Logon Link is checked. It defines a label that will be displayed next to the login link that is displayed on the resource group tile. |
-| **Login Url**          | This option only appears for resource groups that are visible to the student, and only when the Show Logon Link is checked. It defines the URL that the login link links to from the resource group tile. |
+| **Permisisons**             | Select the permission level of the user account(s) added. Select the user, and then select the permission level to be given to that user.
+||Reader: read-only access|
+||Contributor: read-write access |
+||Owner: read-write access with the ability to manage permissions |
+| **Resource Template** | Resource templates define the cloud resources that will be provisioned in the cloud slice lab. To do this, click **Add Template**, use the Choose Cloud Resource form to find the Cloud Resource Template you want to add, and click **OK**. If the Cloud Resource Template you choose has parameters, an Edit Parameters window will appear allowing you to provide values for required parameters and for optional parameters as well if you want to. |
+| **Restriction Policy** | Some cloud platforms support using a restriction policy to limit the operations that can be performed within a Cloud Slice subscription. These cloud platforms typically include a tool to define the restriction policy for a subscription. For example, in Microsoft Azure, you can browse into the Subscriptions service, select a subscription, click Policies, and then click Add to create a restriction policy that you can copy and paste into this field in your lab profile. You can learn more about Azure Resource Manager Policies by reviewing this <a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-policy" target="_blank">external document</a>. As a best practice, you should apply a restriction policy that limits what students can create/manage to properly control your subscription costs and keep students focused on the work required for them to complete their lab. |
 
-Once you have configured a resource group that will be provisioned with your Cloud Slice lab, if you want additional resources deployed in that resource group you can add a Cloud Resource Template to that resource group. To do this, click **Add Template**, use the Choose Cloud Resource form to find the Cloud Resource Template you want to add, and click **OK**. If the Cloud Resource Template you choose has parameters, an Edit Parameters window will appear allowing you to provide values for required parameters and for optional parameters as well if you want to.
-
-With a Cloud Resource Group added and an optional Cloud Resource Template added to that resource group, you should see something that looks like the following in your lab profile:
-
-![Add Cloud Resource Group in lab profile](images/lod-create-lab-profile-resource-group.png)
-
-Use the steps above to add as many Cloud Resource Groups and Cloud Resource Templates as you need in your Cloud Slice lab.
+Use the steps above to add as many Cloud Resource Groups as you need in your Cloud Slice lab.
 
 > #### Best Practice: Provide support contact information in the Errata
 >
@@ -207,6 +202,7 @@ Use the steps above to add as many Cloud Resource Groups and Cloud Resource Temp
 
 [Back to top][back-to-top]
 
+<!--
 ## Add a Cloud Exam to your lab profile(s)
 
 If you want to add an exam to a Cloud Slice lab, the process is the same as adding an exam to a lab that does not include cloud resources. The only difference is in how you enable scoring of the Cloud Slice itself. To add an exam to the lab profile, open the **Exam** tab, check **Has Exam**, and select **Automated** in the **Scoring Type** field.
@@ -248,5 +244,7 @@ The screenshot below shows what adding a scoring item looks like. Note how the l
 This screenshot shows you what you might see once you have added a scoring item to an exam for a Cloud Slice lab:
 
 ![Cloud Slice lab profile with cloud scoring item added](images/lod-lab-profile-with-cloud-scoring-item.png)
+
+-->
 
 [back-to-top]: #cloud-slice-guide "Return to the top of the document"
