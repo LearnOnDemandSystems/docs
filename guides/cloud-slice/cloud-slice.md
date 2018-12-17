@@ -68,87 +68,13 @@ Cloud Subscription Pools are used by labs to provision Cloud Slices in a load ba
 
 Load balancing evenly distributes Cloud Slices across subscriptions in a Cloud Subscription Pool. When a user launches a Cloud Slice lab, they are provided with a slice of whichever subscription in the pool has the lightest load (the lowest number of users) at the time. This load balancing distributes resource load across all of the subscriptions in the pool, which can help keep resource counts lower, avoiding any maximum limits that the subscriptions in the pool have on specific resource types. 
 
-The first Cloud Subscription you add to a Cloud Subscription Pool is the master Cloud Subscription for that pool. The master subscription is the subscription that is used when creating managed virtual machines in Cloud Slices from template virtual hard disk files that are in the master subscription. We'll discuss how to set up your template virtual hard disks in more detail in the next section.
+The first Cloud Subscription you add to a Cloud Subscription Pool is the master Cloud Subscription for that pool. The master subscription is the subscription that is used when creating managed virtual machines in Cloud Slices from template virtual hard disk files that are in the master subscription. 
 
-To add a Cloud Subscription Pool to OneLearn Lab on Demand (LOD), perform the following steps:
+To create a cloud subscription pool and configure it in LOD, select the cloud platform you are using with your lab from the list below to learn how to create and configure a subscription pool for use with that cloud platform. 
 
-1. Navigate to the <a href="https://labondemand.com" target="_blank">OneLearn Lab on Demand portal</a> and sign in.
-
-1. Open the **Cloud Subscription Pools** section on the Cloud Services tile.
-
-   ![Open the Cloud Subscription Pools section in OneLearn Lab on Demand](images/lod-open-cloud-subscription-pools.png)
-
-1. Click **Create Cloud Subscription Pool** to create a new cloud subscription pool in LOD.
-
-   ![Click on Create Cloud Subscription Pool link](images/lod-create-cloud-subscription-pool.png)
-
-1. Assign values to **Name**, **Organization**, and any optional fields you want to use. 
-
-   |Field Name|Description|
-   |----|----|
-   |Name&nbsp;(required)|The name of the Cloud Subscription Pool being created.|
-   |Description|The Description should describe the capabilities or the intent of the Subscription Pool.|
-   |Organization&nbsp;(required)|The organization in LOD where the managed Cloud Subscription pool will be used.|
-   |Enabled|This checkbox determines if the Cloud Subscription Pool is enabled or disabled.|
-   |Block&nbsp;lab&nbsp;launches...|This checkbox determines if lab launches should be blocked if no subscriptions are available.|
-   |Custom&nbsp;subscription&nbsp;unavailable&nbsp;message|This message will be presented to users if they try to launch a lab and a subscription is unavailable. If this field is blank, the default message will be used.|
-
-   ![Assign default values to the Cloud Subscription Pool](images/create-cloud-subscription-pool.png)
-
-1. Click **Save** to create the Cloud Subscription Pool.
-
-1. On the next page, click **Create Cloud Subscription**.
-
-   ![Click the Add Subscription link on the Cloud Subscriptions tab](images/create-subscription.png)
-
-1. Populate the following required fields in the **Create Cloud Subscription** form:
-
-   |Tab|Field Name|Description|
-   |----|----|----|
-   |**Basic Information**|**Name**|The name you want to use to identify your managed cloud subscription.|
-   ||**Subscription&nbsp;Id**|The identifier that uniquely identifies the cloud subscription you are managing on the cloud platform where you have enabled Cloud Slice support.|
-   ||**Organization**|The organization in LOD where the managed Cloud Subscription will be used.|
-   ||**Cloud&nbsp;Subscription&nbsp;Pool**|If the Cloud Subscription Pool is not already set, choose the Cloud Subscription Pool that you created earlier in this section.|
-   |**Authentication**|**Tenant&nbsp;Name**|The name of the tenant used for deployment of Cloud Slices in your cloud service.|
-   ||**Application&nbsp;Id**|The identifier that uniquely identifies the client used to manage your cloud service subscription.|
-   ||**Application&nbsp;Secret**|The secret used to authenticate your client id in your cloud service subscription.|
-
-   You may also provide values for the following optional fields:
-
-   |Tab|Field Name|Description|
-   |----|----|----|
-   |**Basic Information**|**Description**|Text used to describe the managed Cloud Subscription that you are setting up.|
-   ||**Owner&nbsp;Name**|The name of the the Cloud Subscription Owner|
-   ||**Owner&nbsp;E-mail**|The e-mail address of the the Cloud Subscription Owner|
-   ||**Expires&nbsp;After**|The date that the Cloud Subscription will expire.|
-   ||**Enabled**|Indicates whether or not the managed Cloud Subscription is enabled.|
-
-   If you are using managed virtual machines in your cloud platform, you may also provide values for the following fields:
-
-   |Tab|Field Name|Description|
-   |----|----|----|
-   |**Storage**|**Template&nbsp;Storage&nbsp;Account**|The name of a storage account inside of the Template Storage Resource Group where the template VHDs may be found. This should either be provided to you or, if you set it up yourself, this is the name of the storage account that you created in the previous task.|
-   ||**Template&nbsp;Storage&nbsp;Resource&nbsp;Group**|The name of a Cloud Resource Group in the managed Cloud Subscription that contains template VHDs that you would like to copy into a lab during its deployment. This should either be provided to you or, if you set it up yourself, this is the name of the resource group that you created in the previous task.|
-   ||**Template&nbsp;Storage**|The name of a container in the Template Storage Account where the template VHDs may be found. This should either be provided to you or, if you set it up yourself, this is the name of the template VHD container that you created in the previous task.|
-   ||**Instance&nbsp;Storage&nbsp;Account**|The name of a storage account inside of the Instance Storage Resource Group where template VHDs will be copied when a Cloud Slice lab configured to use those template VHDs is deployed. This should either be provided to you or, if you set it up yourself, this is the name of the storage account that you created in the previous task. You may use the same storage account as the one used for the Template Storage Account field.|
-   ||**Instance&nbsp;Storage&nbsp;Resource&nbsp;Group**|The name of a Cloud Resource Group in the Cloud Slice where template VHDs will be copied when a Cloud Slice lab configured to use those template VHDs is deployed. This should either be provided to you or, if you set it up yourself, this is the name of the resource group that you created in the previous task. You may use the same resource group as the one used for the Template Storage Resource Group field.|
-   ||**Instance&nbsp;Storage**|The name of a container in the Instance Storage Account where template VHDs will be copied when a Cloud Slice lab configured to use those template VHDs is deployed. This should either be provided to you or, if you set it up yourself, this is the name of the template VHD container that you created in the previous task.|
-
-1. Click **OK** to create the Cloud Subscription. The Cloud Subscription will be saved and associated with the Cloud Subscription Pool that was created during previous steps.
-
-1. If desired, repeat the three previous steps for each managed Cloud Subscription that you want to add to the pool.
-
-#### Below are some screenshots showing what the Cloud Subscription might look like when you have finished.
-
-![Finished Basic Information Tab](images/cloud-subscription-basic-info-tab-finished.png)
-
-![Cloud Subscription Authentication](images/cloud-subscription-authentication-tab-finished.png)
-
-![Storage tab](images/cloud-subscription-storage-tab-finished.png)
-
-![Finished Cloud Subscription Pool](images/cloud-subscription-finished.png)
-
-[Back to top][back-to-top]
+1. [Microsoft Azure](/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md)
+1. [Amazon Web Services](/guides/cloud-slice/AWS/aws-setup-cloud-sub-pool-in-lod.md)
+1. Google Cloud Platform (coming soon)
 
 ## Create Cloud Resource Templates in OneLearn Lab on Demand
 
