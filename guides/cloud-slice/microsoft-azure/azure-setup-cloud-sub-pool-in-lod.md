@@ -1,5 +1,7 @@
 # Setup your Azure cloud subscription(s) in OneLearn Lab on Demand
 
+[Return to Cloud Slice Guide](../cloud-slice.md)
+
 To add a Cloud Subscription Pool to OneLearn Lab on Demand (LOD), perform the following steps:
 
 1. Navigate to the <a href="https://labondemand.com" target="_blank">OneLearn Lab on Demand portal</a> and sign in.
