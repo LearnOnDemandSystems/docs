@@ -36,7 +36,7 @@ To add a Cloud Subscription Pool to OneLearn Lab on Demand (LOD), perform the fo
 1. On the **Authentication Tab**, assign values to **Tenant Name**, **Application ID**, and **Application Secret**. 
 
    |Field Name|Description|
-   |----|----|----|
+   |----|----|
    |**Tenant&nbsp;Name**|The name of the tenant used for deployment of Cloud Slices in your cloud service.|
    |**Application&nbsp;Id**|The identifier that uniquely identifies the client used to manage your cloud service subscription.|
    |**Application&nbsp;Secret**|The secret used to authenticate your client id in your cloud service subscription.|
