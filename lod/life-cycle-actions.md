@@ -4,9 +4,9 @@ With the Life Cycle Actions feature, LOD is able to execute actions when specifi
 
 Actions include:
 
+- **[Send a web request:](#send-web-request)** sends a web request to the URL specified. The URL can optionally contain placeholders that will be replaced by live data, with @lab replacement tokens.
 - **[Send a notification to the user:](#send-notification-to-user)**  sends a notification to the user during the specified event.
 - **[Send an email to the user:](#send-e-mail-to-user)** sends an email to the user during the specified event.
-- **[Send a web request:](#send-web-request)** sends a web request to the URL specified. The URL can optionally contain placeholders that will be replaced by live data, with @lab replacement tokens.
 - **[Execute a machine command:](#execute-machine-command)** sends a PowerShell or Shell command to the virtual machine.
 - **[Execute a cloud platform command:](#execute-cloud-platform-command)** sends a PowerShell command to the cloud platform.
 
@@ -23,9 +23,54 @@ Events include:
 - **Tearing Down**: the lab environment is being torn down. 
 - **Torn Down**: the lab environment is fully torn down.
 
-<!--
+There are additional settings that can **optionally** be configured:
+
+- **Blocking**: this allows you to block further execution of the lab life cycle until the action completes. You can use this to sequence actions that depend on each other. 
+
+- **Delay**: allows you to introduce a delay between the moment the life cycle event occurs and the action is executed. 
+
+- **Error Action**: controls how Lab on Demand will handle errors that occur when executing this action. All errors are logged against the lab instance by default. You can also choose to notify the user about the error or to end the lab. To prevent users from losing their work, only events early in the lifecycle (buld, bulding, running, etc) allow you to end the lab when an error occurs. 
+
 ## Send Web Request
--->
+
+### A Web Request is used to send a URL request. The URL can optionally contain placeholders that will be replaced by live data. 
+
+Placeholders include:
+
+- @lab.LabProfile.Id
+- @lab.LabInstanceId
+- @lab.LabInstance.GlobalId
+- @lab.User.Id
+- @lab.User.ExternalId (if launched via API)
+- @lab.lab.User.email
+- @lab.lab.User.FirstName
+- @lab.lab.User.LastName
+- @lab.Tag (if included when launched by API)
+
+### Lab data can be appended to the URL. 
+
+When Append Lab Data is enabled, the following lab data will be appended to the URL as URL parameters in the ```name=value``` format. 
+
+- labProfileId
+- labInstanceId
+- globalLabInstanceId
+- userId
+- userExternalId (if launched via API)
+- email
+- firstName
+- lastName
+- tag (if included when launched via API)
+
+### Web Requests have multiple verb options:
+
+- GET
+- POST
+- DELETE
+- PUT
+
+### Headers
+
+You can optionally include HTTP headers. Each header should be on a separate line and in the ```name=value``` format. 
 
 ## Send Notification to User
 
@@ -39,9 +84,12 @@ For example, if you were to configure the notification to the below, the notific
 
 This will send an E-mail to the student, during the specified event. This can contain plain text, or @lab replacement tokens. When the notification is sent to the student, information will be replaced by the @lab replacement token. 
 
-<!--
+
 ## Execute Machine Command
+
+Machine commands are used to target a virtual machine with a PowerShell command. 
 
 ## Execute Cloud Platform Command
 
--->
+Cloud Platform commands are used to target a cloud platform such as Microsoft Azure or Amazon Web Services with a PowerShell command. 
+

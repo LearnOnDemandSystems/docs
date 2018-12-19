@@ -37,7 +37,6 @@ All dates are in unix epoch time, which is the number of seconds that have elaps
 - [LabProfile](lod-api-lab-profile.md) - Retrieves information about a specified lab profile.
 - [LatestResults](lod-api-latest-results.md) - returns information about all lab instance results that have recently started or ended.
 - [Launch](lod-api-launch.md) - Launches a specified lab for a specified user.
-- [LaunchAnonymous](lod-api-launch-anonymous.md) - Launches a specified lab without supplying user information.
 - [LaunchAnonymousForEvent](lod-api-launch-anonymous-for-event.md) - Launches a specified lab within an event without supplying user information.
 - [LaunchAnonymousForEventByExternalId](lod-api-launch-for-event-by-external-id.md) - Launches a lab instance anonymously within an event using an external lab identifier.
 - [LaunchForEvent](lod-api-launch-for-event.md) - Launches a specified lab within an event.

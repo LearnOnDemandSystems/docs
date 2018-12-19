@@ -1,3 +1,5 @@
+<!--
+
 # Launch Anonymous
 
 The **Launch** command will launch a specified lab without supplying user information. Please note that not all labs can be launched anonymously.
@@ -56,3 +58,4 @@ https://labondemand.com/api/v3/launchanonymous?labid=100
     "Error": null
 }
 ```
+-->
