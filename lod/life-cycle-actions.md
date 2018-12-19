@@ -1,6 +1,6 @@
 # Life Cycle Actions
 
-With the Life Cycle Actions feature, LOD is able to execute actions when specific events occur during the lab instance life cycle. 
+With the Life Cycle Actions (LCA) feature, LOD is able to execute actions when specific events occur during the lab instance life cycle. 
 
 Actions include:
 
@@ -80,16 +80,35 @@ For example, if you were to configure the notification to the below, the notific
 
 ```Hello, @lab.User.FirstName``` 
 
+You can give the notification a **name**. If a name is provided, only one copy of the notification with that name will be displayed in the lab client. This allows you to replace a notification with updated text. 
+
 ## Send E-mail to user
 
-This will send an E-mail to the student, during the specified event. This can contain plain text, or @lab replacement tokens. When the notification is sent to the student, information will be replaced by the @lab replacement token. 
-
+This will send an E-mail to the student, during the specified event. This can contain plain text,or @lab replacement tokens. When the notification is sent to the student, information will be replaced by the @lab replacement token. 
 
 ## Execute Machine Command
 
-Machine commands are used to target a virtual machine with a PowerShell command. 
+Machine commands are used to target a virtual machine with a PowerShell or Shell command. 
+
+Machine commands support Blocking, which allows you to block further execution of the lab life cycle until the action completes. You can use this to sequence actions that depend on each other. It is recommended to use the blocking feature if the script in the LCA will take very long to complete. 
+
+Machine commands also support @lab replacement tokens, that can be used in PowerShell and Shell commands. 
+
+Multiple commands types are available:
+
+- **PowerShell**: PowerShell command execution without UI shown to the student. 
+
+- **PowerShell with UI**: PowerShell command execution with PowerShell UI visible to the student. 
+
+- **Shell**: Shell command execution without UI shown to the student. 
+
+- **Shell with UI**: Shell command execution with Command Prompt UI visible to the student. 
 
 ## Execute Cloud Platform Command
 
 Cloud Platform commands are used to target a cloud platform such as Microsoft Azure or Amazon Web Services with a PowerShell command. 
+
+Cloud Platform commands support Blocking, which allows you to block further execution of the lab life cycle until the action completes. You can use this to sequence actions that depend on each other. It is recommended to use the blocking feature if the script in the LCA will take very long to complete. 
+
+Cloud Platform commands also support @lab replacement tokens, that can be used in PowerShell commands.
 
