@@ -10,6 +10,8 @@ Actions include:
 - **[Execute a machine command:](#execute-machine-command)** sends a PowerShell or Shell command to the virtual machine.
 - **[Execute a cloud platform command:](#execute-cloud-platform-command)** sends a PowerShell command to the cloud platform.
 
+- **[Manage Life Cycle Actions](#manage-life-cycle-actions)**
+
 Events include:
 
 - **Building**: the lab environment is being built.
@@ -112,3 +114,8 @@ Cloud Platform commands support Blocking, which allows you to block further exec
 
 Cloud Platform commands also support @lab replacement tokens, that can be used in PowerShell commands.
 
+## Manage Life Cycle Actions
+
+Once you have added Life Cycle Actions to your lab, they will be listed with their details by the Event that triggers them under Life Cycle Actions in the Lab Profile. If there is more than one Action per trigger Event, they can be arranged in the order they should occur when the Event happens. To do this, click the Up or Down arrow on the right side of the Action you want to move. You can only move Actions within a trigger Event.
+
+You can **Edit** and **Delete** an Action from the buttons on the right side of it as well.
