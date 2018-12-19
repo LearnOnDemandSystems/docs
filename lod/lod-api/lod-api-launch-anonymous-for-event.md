@@ -56,5 +56,3 @@ https://labondemand.com/api/v3/LaunchAnonymousForEvent?labId=100&eventId=25
     "Error": null
 }
 ```
-
-
