@@ -8,6 +8,13 @@ Are you a student needing assistance with your training? Check out our [Frequent
 ## Instructor
 Are you an instructor who needs information to teach your classes? The [Instructor Articles](#instructor-articles) are for you.
 
+## Courseware Marketplace Customer
+If you purchased Learn on Demand Systems labs through the Arvato Courseware Marketplace, review the following topics/processes to make using the TMS and completing your orders easy and fast:
+- [Fulfilling Your Lab Order](#fulfilling-your-lab-order)
+- [Managing Your Users](#managing-your-users)
+- [FAQs for Courseware Marketplace Orders](#faqs-for-courseware-marketplace-orders)
+- [TMS Features](#tms-features)
+
 ## Administrator
 If you an Administrator, explore the following topics/processes to help you start using the TMS quickly or learn more about TMS functionality:
 - [TMS Fundamentals](#fundamentals)
@@ -41,6 +48,7 @@ If you an Administrator, explore the following topics/processes to help you star
 
 ### Classes and Self-Paced Learning
 - [How do I print my completion certificate?](./end-user-student-faqs/class-self-paced/print-completion-certificate.md)
+- [What is the Access Courseware button and how do I use it?](./end-user-student-faqs/class-self-paced/access-my-courseware.md)
 
 [< Return to top >](#student)
 
@@ -63,6 +71,39 @@ If you an Administrator, explore the following topics/processes to help you star
 ### Profile
 - [How can I show times when I am unavailable?](./instructors/instructor-profile/show-unavailable-times.md)
 - [How can I show what I am qualified to teach?](./instructors/instructor-profile/show-courses-qualified-to-teach.md)
+
+[< Return to top >](#student)
+
+## Arvato Courseware Marketplace Administrator Articles
+
+### Fulfilling Your Lab Order
+
+- [I just purchased labs from LoDS. How do I get started?](./arvato-marketplace/fulfilling-marketplace-order/getting-started.md)
+- [How do I set up a class?](./arvato-marketplace/fulfilling-marketplace-order/set-up-class.md)
+- [How do I enroll students in a class?](./arvato-marketplace/fulfilling-marketplace-order/enroll-students-in-class.md)
+- [How do I add an instructor to a class?](./arvato-marketplace/fulfilling-marketplace-order/add-instructor-to-class.md)
+- [How do I add more students to a class I have already created?](./arvato-marketplace/fulfilling-marketplace-order/add-more-students-to-class.md)
+
+### Managing Your Users
+
+- [How do I create an account for a student?](./arvato-marketplace/user-accounts/create-student-account.md)
+- [Why do I receive a message that the email is taken when I try to create a user account?](./arvato-marketplace/user-accounts/email-taken-message.md)
+- [How do I create an Instructor account?](./arvato-marketplace/user-accounts/create-instructor-account.md)
+- [How do I set up another user to schedule classes?](./arvato-marketplace/user-accounts/create-operations-manager.md)
+- [How do I, as an Administrative user, reset a user's password?](./arvato-marketplace/user-accounts/reset-user-password.md)
+
+### FAQs for Courseware Marketplace Orders
+
+- [Do I need to purchase labs for the instructor?](./arvato-marketplace/faq-for-arvato-marketplace/purchase-labs-for-instructor.md)
+- [Why are my class vouchers not showing in Manage Class Vouchers?](./arvato-marketplace/faq-for-arvato-marketplace/vouchers-not-showing-in-manage-class-vouchers.md)
+- [How and when can students access labs?](./arvato-marketplace/faq-for-arvato-marketplace/students-access-labs.md)
+- [What can I do if a student needs to reschedule or cancel a class?](./arvato-marketplace/faq-for-arvato-marketplace/reschedule-cancel-student.md)
+- [I don't have a user account or permissions to set up a class, what should I do?](./arvato-marketplace/faq-for-arvato-marketplace/need-account-to-schedule-class.md)
+- [What is the difference between launching a lab and saving and resuming a lab?](./arvato-marketplace/faq-for-arvato-marketplace/launching-lab-vs-saving-resuming-lab.md)
+
+### TMS Features
+
+- [How can my students access Skillpipe courseware from their class enrollment?](./arvato-marketplace/tms-marketplace-features/access-skillpipe-courseware.md)
 
 [< Return to top >](#student)
 
@@ -163,6 +204,7 @@ If you an Administrator, explore the following topics/processes to help you star
 - [Do I want to use a survey or an assessment?](./tms-administrators/miscellaneous/use-survey-or-assessment.md)
 - [How do surveys work?](./tms-administrators/miscellaneous/surveys.md)
 - [How do assessments work?](./tms-administrators/miscellaneous/assessments.md)
+- [How can my students access Skillpipe courseware from their class enrollment?](./tms-administrators/miscellaneous/access-moc-courseware.md)
 - [How do I create achievements to motivate learners?](./tms-administrators/miscellaneous/create-achievements-to-motivate-learners.md)
 - [How do I create a custom event?](./tms-administrators/miscellaneous/create-custom-event.md)
 
