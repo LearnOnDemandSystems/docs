@@ -27,7 +27,6 @@ Or contact us using one of the following methods:
 |**International Phone Numbers**||
 |Australia|+61 1800 531 776|
 |Canada|+1 866-694-8215|
-|India|+91 08000402029|
 |Singapore|+65 800 852 6361|
 |United Kingdom|+44 800 029 3469|
 |**Sales**||
