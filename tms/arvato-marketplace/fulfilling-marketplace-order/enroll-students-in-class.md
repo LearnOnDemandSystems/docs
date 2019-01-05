@@ -24,7 +24,7 @@ To use training keys:
     1. For assistance anytime, click **Contact** on the TMS website or click here, https://alh.learnondemand.net/Home/Contact to go to the page now.
 
 ## Manual Enrollment
-You can create enrollments manually for your students for the class. If your students do not have an user account yet, you will need to create one for them (see [How do I create a student account?](../user-accounts/create-student-account.md).
+You can create enrollments manually for your students for the class. If your students do not have an user account yet, you will need to create one for them (see [How do I create a student account?](../user-accounts/create-student-account.md)).
 
 To add students to a class:
 1. Navigate to the **Class** page.
