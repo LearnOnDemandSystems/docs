@@ -35,7 +35,8 @@ Send the instructor the class information and the following instructions to acce
     1. You may launch the **Test Lab** to become familiar with the lab interface.
 1. Scroll to the **Activities** section and click **Launch** beside any lab to open it.
 1. For technical assistance with labs, click the **Contact** button at the top of any page and use one of the methods provided to request assistance.
-1. For additional information on using the lab interface and preparing for class, please read the articles for instructor in the [**Help**](/tms/home.md) library.
+
+For additional information on using the lab interface and preparing for class, please read the articles for [Instructors](/docs/tms/home.md).
 
 ## Related Articles
 For more information regarding instructors or class setup, please see:

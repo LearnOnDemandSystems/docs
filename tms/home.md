@@ -3,17 +3,16 @@
 Welcome to the OneLearn Training Management System platform (TMS) Help!
 
 ## Student
-Are you a student needing assistance with your training? Check out our [Frequently Asked Questions (FAQs) for Students](#student-faqs) for helpful articles.
+Are you a student needing assistance with your training? Check out the [Frequently Asked Questions (FAQs) for Students](#student-faqs) articles.
 
 ## Instructor
 Are you an instructor who needs information to teach your classes? The [Instructor Articles](#instructor-articles) are for you.
 
 ## Courseware Marketplace Customer
-If you purchased Learn on Demand Systems labs through the Arvato Courseware Marketplace, review the following topics/processes to make using the TMS and completing your orders easy and fast:
+If you purchased Learn on Demand Systems labs through the Arvato Courseware Marketplace, review the following topics/processes to access and manage your orders:
 - [Fulfilling Your Lab Order](#fulfilling-your-lab-order)
 - [Managing Your Users](#managing-your-users)
 - [FAQs for Courseware Marketplace Orders](#faqs-for-courseware-marketplace-orders)
-- [TMS Features](#tms-features)
 
 ## Administrator
 If you an Administrator, explore the following topics/processes to help you start using the TMS quickly or learn more about TMS functionality:
@@ -47,6 +46,7 @@ If you an Administrator, explore the following topics/processes to help you star
 - [Why does my lab expire within a week when I am supposed to have access to it for a longer time?](./end-user-student-faqs/lab-access/difference-between-lab-expiration-and-lab-access.md)
 
 ### Classes and Self-Paced Learning
+- [How do I get into my virtual classroom?](./end-user-student-faqs/class-self-paced/get-into-virtual-classroom.md)
 - [How do I print my completion certificate?](./end-user-student-faqs/class-self-paced/print-completion-certificate.md)
 - [What is the Access Courseware button and how do I use it?](./end-user-student-faqs/class-self-paced/access-my-courseware.md)
 
@@ -100,9 +100,6 @@ If you an Administrator, explore the following topics/processes to help you star
 - [What can I do if a student needs to reschedule or cancel a class?](./arvato-marketplace/faq-for-arvato-marketplace/reschedule-cancel-student.md)
 - [I don't have a user account or permissions to set up a class, what should I do?](./arvato-marketplace/faq-for-arvato-marketplace/need-account-to-schedule-class.md)
 - [What is the difference between launching a lab and saving and resuming a lab?](./arvato-marketplace/faq-for-arvato-marketplace/launching-lab-vs-saving-resuming-lab.md)
-
-### TMS Features
-
 - [How can my students access Skillpipe courseware from their class enrollment?](./arvato-marketplace/tms-marketplace-features/access-skillpipe-courseware.md)
 
 [< Return to top >](#student)
