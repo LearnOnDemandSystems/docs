@@ -108,6 +108,7 @@ If you an Administrator, explore the following topics/processes to help you star
 
 ### Fundamentals
 
+- [What is the Admin menu and how does it work?](./tms-administrators/tms-fundamentals/admin-menu.md)
 - [Can I rearrange items on the Site Administration page?](./tms-administrators/tms-fundamentals/rearrange-items-on-site-administration.md)
 - [How can I reuse search settings or create default settings on search pages?](./tms-administrators/tms-fundamentals/reuse-search-settings-or-create-default-settings-on-search-pages.md)
 - [How do I set the defaults for creating users and classes?](./tms-administrators/tms-fundamentals/set-defaults-for-creating-users-and-classes.md)
@@ -200,6 +201,7 @@ If you an Administrator, explore the following topics/processes to help you star
 - [How do I ensure my Course Completion Certificates print correctly?](./tms-administrators/miscellaneous/ensure-completion-certificates-print-correctly.md)
 - [Do I want to use a survey or an assessment?](./tms-administrators/miscellaneous/use-survey-or-assessment.md)
 - [How do surveys work?](./tms-administrators/miscellaneous/surveys.md)
+- [How do I export survey responses and analyze them in Excel?](./tms-administrators/miscellaneous/analyze-survey-results.md)
 - [How do assessments work?](./tms-administrators/miscellaneous/assessments.md)
 - [How can my students access Skillpipe courseware from their class enrollment?](./tms-administrators/miscellaneous/access-moc-courseware.md)
 - [How do I create achievements to motivate learners?](./tms-administrators/miscellaneous/create-achievements-to-motivate-learners.md)
