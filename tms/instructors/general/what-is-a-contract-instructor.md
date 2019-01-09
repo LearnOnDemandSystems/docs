@@ -18,6 +18,5 @@ Related Topics:
 
 Please see the following articles for important information on managing your user profile to show courses you are qualified to teach and how to set up times you are unavailable. 
 
-[How can I show what I am qualified to teach?](../instructor-profile/show-courses-qualified-to-teach.md)
-
-[How can I show times when I am unavailable?](../instructor-profile/show-unavailable-times.md)
+- [How can I show what I am qualified to teach?](../instructor-profile/show-courses-qualified-to-teach.md)
+- [How can I show times when I am unavailable?](../instructor-profile/show-unavailable-times.md)

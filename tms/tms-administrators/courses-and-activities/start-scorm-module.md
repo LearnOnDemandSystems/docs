@@ -7,4 +7,4 @@ Have you just created a SCORM module in the TMS and want to ensure it launches? 
 1. In the results, click either the name or **Details** on the right side of the row of a module belonging to an organization you manage.
 1. This will open the SCORM Module profile page. On this page, click **Start**.
 
-This will show up as a SCORM attempt in the results of the Find SCORM Attempts search page (see [How do I view SCORM attempts by my students?](./tms-administrators/courses-and-activities/view-scorm-attempts.md) article).
+This will show up as a SCORM attempt in the results of the Find SCORM Attempts search page (see [How do I view SCORM attempts by my students?](view-scorm-attempts.md) article).
