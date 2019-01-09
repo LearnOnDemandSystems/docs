@@ -68,7 +68,7 @@ Automated Activities are PowerShell or Shell scripts that target a Cloud Subscri
 
     - **New Script**: click to add an additional script to this Activity. The new script will be represented by a button, in a Task List. 
 
-    >[knowledge] @lab Replacement Tokens can be used in Activity scripts, to replace data in the lab instructions that is not known at the time of authoring the lab instructions, by inserting a Replacement Token in the lab instructions where you want data to be replaced in the lab.
+    >[!knowledge] @lab Replacement Tokens can be used in Activity scripts, to replace data in the lab instructions that is not known at the time of authoring the lab instructions, by inserting a Replacement Token in the lab instructions where you want data to be replaced in the lab.
 
     The following two options are **only available if Display Scripts as Task list is checked**, and are located in the section for the script they belong to. This allows you to provide custom feedback on each Automated Activity. 
 
