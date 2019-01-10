@@ -21,5 +21,5 @@ To monitor and assist students:
 1. Click **My Calendar** at the top of any window. 
 1. This will open up your Instructor Calendar. Find your class in the calendar, and click on the class name to open the **Class** page. You may also access your current class from the My Classes link on the top navigation bar. 
 1. Click **Monitor Labs**. 
-1. A new browser tab will open up with all your class's active lab instances displayed with pertinent data about their labs. Click the **Monitor Student** to view a student?s activity as they work in a lab. 
+1. A new browser tab will open up with all your class's active lab instances displayed with pertinent data about their labs. Click the **Monitor Student** to view a student's activity as they work in a lab. 
 1. You then have the option to click **Take Control** to work through an exercise with a student.

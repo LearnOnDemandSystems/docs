@@ -11,4 +11,4 @@ To access the Instructor Competencies:
 
 Once you have added competencies, organizations are able filter by course name and view those qualified to teach the course. 
 
-[!NOTE] Please note: It is each instructor?s responsibility to keep their instructor competencies up to date.
+> [!NOTE] Please note: It is each instructor's responsibility to keep their instructor competencies up to date.

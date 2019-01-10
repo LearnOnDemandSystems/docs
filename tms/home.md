@@ -28,7 +28,7 @@ If you an Administrator, explore the following topics/processes to help you star
      - [Instructor Management](#instructor-management)
 - [Self-Paced Learning and Subscriptions](#self-paced-learning-and-subscriptions)
 - Token Store (Coming Soon)
-- [Courses, Labs, SCORM, and Other Activities](#courses,-labs,-scorm,-and-other-activities)
+- [Courses and Their Activities](#courses-and-their-activities)
 - Discussions (Coming Soon)
 - [Miscellaneous](#miscellaneous)
 
@@ -66,7 +66,7 @@ If you an Administrator, explore the following topics/processes to help you star
 ### Student Labs
 
 - [How do I assist my students with their labs?](./instructors/student-labs/assist-students.md)
-- How do I share files with my students? (Coming Soon)
+- [How do I share files with students?](./instructors/student-labs/share-files-with-students.md)
 
 ### Profile
 - [How can I show times when I am unavailable?](./instructors/instructor-profile/show-unavailable-times.md)
@@ -115,6 +115,8 @@ If you an Administrator, explore the following topics/processes to help you star
 - [Should I use a Class or a Custom Event or a Course Assignment to schedule training?](./tms-administrators/tms-fundamentals/class-or-custom-event-or-course-assignment-to-schedule-training.md)
 - [Why do links disappear?](./tms-administrators/tms-fundamentals/disappearing-links.md)
 
+[< Return to Administrator menu>](#administrator)
+
 ### Classes
 - ### Schedule
 
@@ -139,6 +141,8 @@ If you an Administrator, explore the following topics/processes to help you star
      - [How do I find a student's completed classes?](./tms-administrators/classes/enrollments-roster/find-students-completed-classes.md)
      - [How do I find all the classes a student has ever been registered to take?](./tms-administrators/classes/enrollments-roster/find-all-classes-student-has-been-registered-for.md)
 
+[< Return to Administrator menu>](#administrator) 
+
 - ### Instructors
 
      - [How do I schedule a class with multiple instructors?](./tms-administrators/classes/instructors/schedule-class-with-multiple-instructors.md)
@@ -155,6 +159,8 @@ If you an Administrator, explore the following topics/processes to help you star
      - [How can I create a classroom that is outside my organization's physical location?](./tms-administrators/classes/classrooms-equipment/create-classroom-outside-org.md)
      - [How do I use multiple classrooms for a class](./tms-administrators/classes/classrooms-equipment/use-multiple-classrooms-for-class.md)
      - [How can I track laptops being used for classes taught outside my organization?](./tms-administrators/classes/classrooms-equipment/track-laptops-being-used-for-classes-outside-org.md)
+
+[< Return to Administrator menu>](#administrator)
 
 ### Users
 
@@ -177,12 +183,14 @@ If you an Administrator, explore the following topics/processes to help you star
      - [How can my organization be set up to use contract instructors?](./tms-administrators/users/instructor-management/set-up-organization-to-use-contract-instructors.md)
      - [How can I find instructors that can teach a specific course?](./tms-administrators/users/instructor-management/find-instructors-that-teach-specific-course.md)
 
+[< Return to Administrator menu>](#administrator)
+
 ### Self-Paced Learning and Subscriptions
 
 - [How do I schedule self-paced learning for a student?](./tms-administrators/self-paced-learning-and-subscriptions/schedule-self-paced-learning.md)
 - [How can an administrator print completion certificates for self-pace learning?](./tms-administrators/self-paced-learning-and-subscriptions/print-completion-certificates-for-self-pace-learning-by-admin.md)
 
-### Courses, Labs, SCORM, and Other Activities
+### Courses and Their Activities
 
 - [How do I see available courses and determine how much I will be charged for a lab in one of them?](./tms-administrators/courses-and-activities/see-available-courses-and-determine-how-cost-for-lab-in-one.md)
 - How do I create or edit a course and add activities such as labs and SCORM modules? (Coming Soon)
@@ -193,6 +201,8 @@ If you an Administrator, explore the following topics/processes to help you star
 - [How do I find if or when a student has launched a lab?](./tms-administrators/courses-and-activities/find-if-student-launched-lab.md)
 - [How do I view SCORM attempts by my students?](./tms-administrators/courses-and-activities/view-scorm-attempts.md)
 - [How can I capture user data for users who access my externally hosted activities from the TMS?](./tms-administrators/courses-and-activities/capture-user-data-for-externally-hosted-activities.md)
+
+[< Return to Administrator menu>](#administrator)
 
 
 ## Miscellaneous
