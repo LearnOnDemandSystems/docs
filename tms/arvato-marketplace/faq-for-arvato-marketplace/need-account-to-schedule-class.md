@@ -2,7 +2,7 @@
 
 Need to schedule a class but don't have permissions? First, you will need a user account in the TMS if you do not already have one. Your organization's **Operations Manager** can create the account for you. Once you have an account, you also need the following added to your account to schedule a class: the **Operations Manager** role and **Organization Management** over your organization.
 
-You can also contact our Support team at support@learnondemandsystems.com if you need us to create the account for you. Please provide us with your name, email, and the organization you are with.
+You can also contact our Support team at **support@learnondemandsystems.com** if you need us to create the account for you. Please provide us with your name, email, and the organization you are with.
 
 For more information on how to create user accounts or scheduling classes, please see:
 

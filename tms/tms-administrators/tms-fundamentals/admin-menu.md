@@ -44,6 +44,6 @@ Below is a comparison of the functionality between the Admin menu:
 
 | | **Admin menu** | **Site Administration page** |
 |:--------|:--------|:--------|
-| **Search** | Easily done in Search bar integrated into menu and can click links directly from results. | Must use browser’s searching capability. |
-| **Group Order** | Set by default but can view alphabetically (vertical). | Can be rearranged via drag-and-drop. |
-| **History** | The 8 most frequently used links displayed on left side. Dynamically updated as menu used. Can be cleared. Does not record links right-clicked or clicked on Site Administration page. | No history or tracking of usage available for easy access of links. |
+| **Search** | Use intgrated Search bar in menu. Can click links directly from results or press **Enter** to be taken to first page in results. | Must use browser’s searching capability. |
+| **Group Order** | Groups set by default but can view alphabetically (vertical). | Tiles can be rearranged via drag-and-drop. |
+| **History** | The 8 most frequently used links display on left side. Dynamically updates as menu used. Can be cleared. Does not record links right-clicked or clicked on Site Administration page. | No history or tracking of usage available for easy access of links. |
