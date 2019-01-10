@@ -35,7 +35,7 @@ There are additional settings that can **optionally** be configured:
 
 ## Send Web Request
 
-### A Web Request is used to send a URL request. The URL can optionally contain placeholders that will be replaced by live data. 
+A Web Request is used to send a URL request. The URL can optionally contain placeholders that will be replaced by live data. 
 
 Placeholders include:
 
