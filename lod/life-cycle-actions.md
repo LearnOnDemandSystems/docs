@@ -92,9 +92,7 @@ This will send an E-mail to the student, during the specified event. This can co
 
 Machine commands are used to target a virtual machine with a PowerShell or Shell command. 
 
-Machine commands support Blocking, which allows you to block further execution of the lab life cycle until the action completes. You can use this to sequence actions that depend on each other. It is recommended to use the blocking feature if the script in the LCA will take very long to complete. 
-
-Machine commands also support @lab replacement tokens, that can be used in PowerShell and Shell commands. 
+Machine commands support Blocking, which allows you to block further execution of the lab life cycle until the action completes. You can use this to sequence actions that depend on each other. It is recommended to use the blocking feature if the script in the LCA will take very long to complete. Machine commands also support @lab replacement tokens, that can be used in PowerShell and Shell commands. 
 
 Multiple commands types are available:
 
