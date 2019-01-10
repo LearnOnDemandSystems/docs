@@ -7,4 +7,4 @@ To access the labs again:
 1. Click the name of the class or course assignment whose labs you want to access. 
 1. Under **Activities**, click **Launch** next to the lab you want to use.
 
- If there is no Launch button, the labs have expired. You will need to contact your training center for an extension if you still want access to the labs.
+If there is no Launch button, the labs have expired. You will need to contact your training center for an extension if you still want access to the labs.
