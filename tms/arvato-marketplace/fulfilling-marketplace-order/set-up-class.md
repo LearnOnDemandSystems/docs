@@ -1,6 +1,6 @@
 # How do I set up a class?
 
-TTo give your students access to the labs you purchase in the Courseware Marketplace from Learn on Demand Systems, you need to set up a class in our TMS. To synchronize the purchase from the Courseware Marketplace to the TMS, your organization must have your Arvato Customer ID associated with it. Your vouchers are automatically sync'd from the Courseware Marketplace and loaded into the TMS. It may take up to 10 minutes for the sync to occur. Once the vouchers are available in the TMS, you can use them to set up a class.
+To give your students access to the labs you purchase in the Courseware Marketplace from Learn on Demand Systems, you need to set up a class in our TMS. To synchronize the purchase from the Courseware Marketplace to the TMS, your organization must have your Arvato Customer ID associated with it. Your vouchers are automatically sync'd from the Courseware Marketplace and loaded into the TMS. It may take up to 10 minutes for the sync to occur. Once the vouchers are available in the TMS, you can use them to set up a class.
 
 LoDS lab access is controlled by class start time. This allows you to set up the class with labs immediately after purchase, well in advance of the class starting. Students will not be able to access the labs until they are enrolled in the class and the class has started. Instructors can access the labs as soon as they are added as instructors to the class. You do not need to purchase labs for the instructors.
 
@@ -18,7 +18,7 @@ From here you will enter the Class information:
      1. Confirm or revise **# Sessions** for your class.
      1. Check the **Days** the class will be held.
      1. Set the date the class will start in the **First Day** field.
-     1. Confirm or revise the **Start** and **End Times** for the class. *Remember that students will only be able to access labs on the First Day of class at the Start Time set in the TMS.*
+     1. Confirm or revise the **Start** and **End Times** for the class. *Note that student access to labs begins at the **Start Time** on the **First Day** of class set in the TMS.*
      1. Click **OK**.
 1. Click **Save**. The Class profile page will open for the class you just created.
 

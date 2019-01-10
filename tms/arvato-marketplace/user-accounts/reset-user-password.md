@@ -6,7 +6,7 @@ To reset a user’s password:
 1. Navigate to the user’s **Profile** page. 
 1. On the **Profile** page, click **Change Password**. The Change Password link has an icon of a lock and is at the top of the user’s profile, next to the Edit option. 
 1. In the dialog that opens, enter a password of your choice in the **New Password** and **Confirm Password** fields.
-   >Passwords must be at least 8 characters
+   > Passwords must be at least 8 characters
 1. Click **OK**. 
 1. Click **OK** to close the dialog stating that your password was successfully changed.
 1. To ensure that the user is prompted to change their password, click **Edit** on the user’s **Profile**. 
@@ -14,6 +14,6 @@ To reset a user’s password:
 
 The student will not be notified when their password is changed. Therefore, please inform the student their new login credentials.
 
-Please note: You will not be able to reset a password for a user logging into the TMS through an outside authentication such as Google or Microsoft Live. 
+> [!Note] You will not be able to reset a password for a user logging into the TMS through an outside authentication such as Google or Microsoft Live. 
 
 If you experience any issues resetting a user’s password, please contact our Support team at support@learnondemandsystems.com and they can assist with the password rest.

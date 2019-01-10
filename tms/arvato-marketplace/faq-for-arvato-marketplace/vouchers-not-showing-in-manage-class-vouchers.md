@@ -1,6 +1,6 @@
 # Why are my class vouchers not showing in Manage Class Vouchers?
 
-Most often, vouchers do not display because of issues with the Arvato Customer ID set up in the **OneLearn TMS**. The ID or IDs should have been added when you created your organization in the TMS and is used to synchronize your purchase with your order in the Arvato Courseware Marketplace.
+The most common cause that vouchers do not display is because of issues with the Arvato Customer ID set up in the TMS. The ID or IDs should have been added when you created your organization in the TMS and is used to synchronize your purchase with your order in the Arvato Courseware Marketplace.
 
 You will not see your vouchers if the Arvato Customer ID does not match the order. Any of the following issues will prevent your order from synchonizing:
 - Is missing
@@ -28,6 +28,6 @@ To change your number:
 
 It may take about 10 minutes for the Arvato Customer Number to synchronize in with your order in the TMS. After the sync is complete, you should see the vouchers appear in the **Manage Class Vouchers** page and you can begin using them to create your class.   
 
-If you have corrected/added your **Arvato Customer Number** and waited 10 minutes and the issue was not resolved, please contact our Support Team at support@learnondemandsystems.com. Please provide your Arvato Customer ID so we can find your order and organization. Once they have found your order and organization and made necessary updates, they will contact you. You may still need to wait a few minutes for the vouchers to synchronize from the Courseware Marketplace website.
+If you have corrected/added your **Arvato Customer Number** and waited 10 minutes and the issue was not resolved, please contact our Support Team at **support@learnondemandsystems.com**. Please provide your Arvato Customer ID so we can find your order and organization. Once they have found your order and organization and made necessary updates, they will contact you. You may still need to wait a few minutes for the vouchers to synchronize from the Courseware Marketplace website.
 
 

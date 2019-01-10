@@ -100,7 +100,7 @@ If you an Administrator, explore the following topics/processes to help you star
 - [What can I do if a student needs to reschedule or cancel a class?](./arvato-marketplace/faq-for-arvato-marketplace/reschedule-cancel-student.md)
 - [I don't have a user account or permissions to set up a class, what should I do?](./arvato-marketplace/faq-for-arvato-marketplace/need-account-to-schedule-class.md)
 - [What is the difference between launching a lab and saving and resuming a lab?](./arvato-marketplace/faq-for-arvato-marketplace/launching-lab-vs-saving-resuming-lab.md)
-- [How can my students access Skillpipe courseware from their class enrollment?](./arvato-marketplace/tms-marketplace-features/access-skillpipe-courseware.md)
+- [How can my students access Skillpipe courseware from their class enrollment?](./arvato-marketplace/faq-for-arvato-marketplace/access-skillpipe-courseware.md)
 
 [< Return to top >](#student)
 
@@ -109,11 +109,11 @@ If you an Administrator, explore the following topics/processes to help you star
 ### Fundamentals
 
 - [What is the Admin menu and how does it work?](./tms-administrators/tms-fundamentals/admin-menu.md)
-- [Can I rearrange items on the Site Administration page?](./tms-administrators/tms-fundamentals/rearrange-items-on-site-administration.md)
 - [How can I reuse search settings or create default settings on search pages?](./tms-administrators/tms-fundamentals/reuse-search-settings-or-create-default-settings-on-search-pages.md)
 - [How do I set the defaults for creating users and classes?](./tms-administrators/tms-fundamentals/set-defaults-for-creating-users-and-classes.md)
 - [Should I use a Class or a Custom Event or a Course Assignment to schedule training?](./tms-administrators/tms-fundamentals/class-or-custom-event-or-course-assignment-to-schedule-training.md)
 - [Why do links disappear?](./tms-administrators/tms-fundamentals/disappearing-links.md)
+- [Can I rearrange items on the Site Administration page?](./tms-administrators/tms-fundamentals/rearrange-items-on-site-administration.md)
 
 [< Return to Administrator menu>](#administrator)
 
@@ -155,6 +155,7 @@ If you an Administrator, explore the following topics/processes to help you star
 
 - ### Classrooms and Equipment
 
+     - [How can I use my organization’s virtual meeting program in my virtual classes?](./tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md)
      - [How do I create classrooms?](./tms-administrators/classes/classrooms-equipment/create-classrooms.md)
      - [How can I create a classroom that is outside my organization's physical location?](./tms-administrators/classes/classrooms-equipment/create-classroom-outside-org.md)
      - [How do I use multiple classrooms for a class](./tms-administrators/classes/classrooms-equipment/use-multiple-classrooms-for-class.md)
