@@ -7,10 +7,6 @@ We hope you find our integrated documentation helpful. But if you can't find wha
 
 Find answers to your questions through short topical articles in the [Help Center](https://learnondemand.zendesk.com/hc/en-us/categories/200402875-Enlight-LOD-Lab-Developers).
 
-## Integration
-
-Interested in integrating your system with Lab and Demand? Check out our [API](/lod/lod-api/lod-api-main.md).
-
 ## Technical Support
 
 The best way to reach us is by creating a <a href="https://learnondemand.zendesk.com/hc/en-us/requests/new">technical support ticket</a>.
@@ -33,3 +29,7 @@ Or contact us using one of the following methods:
 |Toll-free Phone|888.763.7730|
 |Email|<a href="mailto:sales@learnondemandsystems.com">sales@learnondemandsystems.com</a>|
 |Skype|lodsales|
+
+## Integration
+
+Interested in integrating your system with Lab and Demand? Check out our [API](/lod/lod-api/lod-api-main.md).
