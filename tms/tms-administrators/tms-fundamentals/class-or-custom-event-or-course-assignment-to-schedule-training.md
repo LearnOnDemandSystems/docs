@@ -2,7 +2,7 @@
 
 Three different types of training options are designed to be used in the TMS: Classes, Custom Events and Course Assignments. Classes and Custom Events are both used to schedule meeting sessions. Course Assignments are used to schedule self-paced training.
 
-Either a Class or a Custom Event will allow you to select the days and times of your class sessions, add an instructor, enroll multiple students and assign physical classrooms or virtual classrooms. <a href="#note1"><sup>**1**</sup></a>
+Either a Class or a Custom Event will allow you to select the days and times of your class sessions, add an instructor, enroll multiple students and assign physical classrooms or virtual classrooms. **<a href="#note1"><sup>1</sup></a>**
 
 **Class** - used to schedule an instructor-led meeting for multiple students with access to course activities and resources. 
 -	Labs and other course activities (videos, links, assessments, etc.) can be accessed by students at the time the class is scheduled to begin. 
@@ -30,12 +30,12 @@ Either a Class or a Custom Event will allow you to select the days and times of 
 | Immediate student access to the course's content | No | N/A | Yes|
 | Student access to the course's content begins with first scheduled class session | Yes | N/A | No |
 | 6 months student access to most labs | Yes | N/A | Yes |
-| Instructor monitoring of labs | Yes | N/A | No <a href="note2"><sup>**2**</sup></a> |
-| Automatic notifications <a href="note3"><sup>**3**</sup></a> | Yes | Yes | Yes |
+| Instructor monitoring of labs | Yes | N/A | No **<a href="note2"><sup>2</sup></a>** |
+| Automatic notifications **<a href="note3"><sup>3</sup></a>** | Yes | Yes | Yes |
 | Training key to add training for student(s) | Yes | Yes | Yes |
 
-> <a id="note1"><sup>**1**</sup></a> Adobe Connect virtual classroom access requires a signed contract with Adobe Connect before access is granted. If you have a different virtual classroom provider, please review [How can I use my organization’s virtual meeting program in my virtual classes?](/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md).
+> **<a id="note1"><sup>1</sup></a>** Adobe Connect virtual classroom access requires a signed contract with Adobe Connect before access is granted. If you have a different virtual classroom provider, please review [How can I use my organization’s virtual meeting program in my virtual classes?](/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md).
 
-> <a id="note2"><sup>**2**</sup></a> The standard Instructor role does not permit a user to monitor course assignments. Course Assignments can be monitored by Operations Managers or by an instructor if organization management is assigned with the Instructor role. This gives the instructor administrative access to all the organization's data.
+> **<a id="note2"><sup>2</sup></a>** The standard Instructor role does not permit a user to monitor course assignments. Course Assignments can be monitored by Operations Managers or by an instructor if organization management is assigned with the Instructor role. This gives the instructor administrative access to all the organization's data.
 
-> <a id="note3"><sup>**3**</sup></a> Automated Notifications must be set up by LODS support before they can be enabled for Classes, Custom Events or Course Assignments.
+> **<a id="note3"><sup>3</sup></a>** Automated Notifications must be set up by LODS support before they can be enabled for Classes, Custom Events or Course Assignments.
