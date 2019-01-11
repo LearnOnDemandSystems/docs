@@ -1,6 +1,6 @@
 # Why are my class vouchers not showing in Manage Class Vouchers?
 
-The most common cause that vouchers do not display is because of issues with the Arvato Customer ID set up in the TMS. The ID or IDs should have been added when you created your organization in the TMS and is used to synchronize your purchase with your order in the Arvato Courseware Marketplace.
+The most common reason that vouchers do not display is because of issues with the Arvato Customer ID set up in the TMS. The ID or IDs should have been added when you created your organization in the TMS and is used to synchronize your purchase with your order in the Arvato Courseware Marketplace.
 
 You will not see your vouchers if the Arvato Customer ID does not match the order. Any of the following issues will prevent your order from synchonizing:
 - Is missing
