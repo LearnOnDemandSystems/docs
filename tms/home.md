@@ -131,7 +131,7 @@ If you an Administrator, explore the following topics/processes to help you star
 
 #### *Schedule*
 
-    - [How do I create a class?]    (./tms-administrators/classes/schedule/create-class.md)
+    * [How do I create a class?]    (./tms-administrators/classes/schedule/create-class.md)
     - [How can I cancel a class?]   (./tms-administrators/classes/schedule/cancel-class.md)
     - [How can I find a class?](./tms-administrators/classes/schedule/find-class.md)
     - [How can I find a class that is in session?]  (./tms-administrators/classes/schedule/find-class-in-session.md)
