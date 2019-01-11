@@ -131,19 +131,19 @@ If you an Administrator, explore the following topics/processes to help you star
 
 #### *Schedule*
 
-* [How do I create a class?]    (./tms-administrators/classes/schedule/create-class.md)
-    - [How can I cancel a class?]   (./tms-administrators/classes/schedule/cancel-class.md)
-    - [How can I find a class?](./tms-administrators/classes/schedule/find-class.md)
-    - [How can I find a class that is in session?]  (./tms-administrators/classes/schedule/find-class-in-session.md)
-    - [How can I see classes in a calendar view?]   (./tms-administrators/classes/schedule/see-classes-in-calendar-view.md)
-    - [How can an administrator print completion certificates for a class?] (./tms-administrators/classes/schedule/print-completion-certificates-for-class-by-admin.md)
+    - [How do I create a class?]    (./tms-administrators/classes/schedule/create-class.md)
+- [How can I cancel a class?]   (./tms-administrators/classes/schedule/cancel-class.md)
+- [How can I find a class?](./tms-administrators/classes/schedule/find-class.md)
+- [How can I find a class that is in session?]  (./tms-administrators/classes/schedule/find-class-in-session.md)
+- [How can I see classes in a calendar view?]   (./tms-administrators/classes/schedule/see-classes-in-calendar-view.md)
+- [How can an administrator print completion certificates for a class?] (./tms-administrators/classes/schedule/print-completion-certificates-for-class-by-admin.md)
 
 #### *Enrollments and Rosters*
 
-     - [How do I change a class enrollment status and which one should I use?](./tms-administrators/classes/enrollments-roster/change-class-enrollment-status-and-which-to-use.md)
-     - [What information should I send to students when I create their enrollments](./tms-administrators/classes/enrollments-roster/information-to-send-to-students-when-enrollments-created.md)
-     - [How do I enroll multiple students?](./tms-administrators/classes/enrollments-roster/enroll-multiple-students.md)
-     - [How can I add an existing class enrollments to a new event?](./tms-administrators/classes/enrollments-roster/add-existing-class-enrollments-to-new-event.md)
+- [How do I change a class enrollment status and which one should I use?](./tms-administrators/classes/enrollments-roster/change-class-enrollment-status-and-which-to-use.md)
+- [What information should I send to students when I create their enrollments](./tms-administrators/classes/enrollments-roster/information-to-send-to-students-when-enrollments-created.md)
+- [How do I enroll multiple students?](./tms-administrators/classes/enrollments-roster/enroll-multiple-students.md)
+- [How can I add an existing class enrollments to a new event?](./tms-administrators/classes/enrollments-roster/add-existing-class-enrollments-to-new-event.md)
      - [How can I check students in for class?](./tms-administrators/classes/enrollments-roster/check-in-students-for-class.md)
      - [How do I record student attendance for a multiple day class?](./tms-administrators/classes/enrollments-roster/record-student-attendance-for-multiple-day-class.md)
      - [How do I change an enrollment's completion status and which one should I use?](./tms-administrators/classes/enrollments-roster/change-enrollments-completion-status-and-which-to-use.md)
