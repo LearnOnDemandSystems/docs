@@ -118,6 +118,7 @@ If you an Administrator, explore the following topics/processes to help you star
 [< Return to Administrator menu>](#administrator)
 
 ### Classes
+
 - ### Schedule
 
     - [How do I create a class?]    (./tms-administrators/classes/schedule/create-class.md)
