@@ -131,7 +131,7 @@ If you an Administrator, explore the following topics/processes to help you star
 
 #### *Schedule*
 
-    - [How do I create a class?]    (./tms-administrators/classes/schedule/create-class.md)
+- [How do I create a class?]    (./tms-administrators/classes/schedule/create-class.md)
 - [How can I cancel a class?]   (./tms-administrators/classes/schedule/cancel-class.md)
 - [How can I find a class?](./tms-administrators/classes/schedule/find-class.md)
 - [How can I find a class that is in session?]  (./tms-administrators/classes/schedule/find-class-in-session.md)
@@ -144,33 +144,33 @@ If you an Administrator, explore the following topics/processes to help you star
 - [What information should I send to students when I create their enrollments](./tms-administrators/classes/enrollments-roster/information-to-send-to-students-when-enrollments-created.md)
 - [How do I enroll multiple students?](./tms-administrators/classes/enrollments-roster/enroll-multiple-students.md)
 - [How can I add an existing class enrollments to a new event?](./tms-administrators/classes/enrollments-roster/add-existing-class-enrollments-to-new-event.md)
-     - [How can I check students in for class?](./tms-administrators/classes/enrollments-roster/check-in-students-for-class.md)
-     - [How do I record student attendance for a multiple day class?](./tms-administrators/classes/enrollments-roster/record-student-attendance-for-multiple-day-class.md)
-     - [How do I change an enrollment's completion status and which one should I use?](./tms-administrators/classes/enrollments-roster/change-enrollments-completion-status-and-which-to-use.md)
-     - [How do I report on students' attendance for multiple day classes?](./tms-administrators/classes/enrollments-roster/report-students-attendance-for-multiple-day-classes.md)
-     - [How do I find a student's upcoming classes?](./tms-administrators/classes/enrollments-roster/find-students-upcoming-classes.md)
-     - [How do I find a student's completed classes?](./tms-administrators/classes/enrollments-roster/find-students-completed-classes.md)
-     - [How do I find all the classes a student has ever been registered to take?](./tms-administrators/classes/enrollments-roster/find-all-classes-student-has-been-registered-for.md)
+- [How can I check students in for class?](./tms-administrators/classes/enrollments-roster/check-in-students-for-class.md)
+- [How do I record student attendance for a multiple day class?](./tms-administrators/classes/enrollments-roster/record-student-attendance-for-multiple-day-class.md)
+- [How do I change an enrollment's completion status and which one should I use?](./tms-administrators/classes/enrollments-roster/change-enrollments-completion-status-and-which-to-use.md)
+- [How do I report on students' attendance for multiple day classes?](./tms-administrators/classes/enrollments-roster/report-students-attendance-for-multiple-day-classes.md)
+- [How do I find a student's upcoming classes?](./tms-administrators/classes/enrollments-roster/find-students-upcoming-classes.md)
+- [How do I find a student's completed classes?](./tms-administrators/classes/enrollments-roster/find-students-completed-classes.md)
+- [How do I find all the classes a student has ever been registered to take?](./tms-administrators/classes/enrollments-roster/find-all-classes-student-has-been-registered-for.md)
 
 [< Return to Administrator menu>](#administrator) 
 
 #### *Instructors*
 
-     - [How do I schedule a class with multiple instructors?](./tms-administrators/classes/instructors/schedule-class-with-multiple-instructors.md)
-     - [How can I find the classes for a particular instructor?](./tms-administrators/classes/instructors/find-classes-for-particular-instructor.md)
+- [How do I schedule a class with multiple instructors?](./tms-administrators/classes/instructors/schedule-class-with-multiple-instructors.md)
+- [How can I find the classes for a particular instructor?](./tms-administrators/classes/instructors/find-classes-for-particular-instructor.md)
 
 #### *Training Keys*
 
-     - [How can I use training keys for students to self-register for a class?](./tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md)
-     - [What information should I send to students who are registering for class using training keys?](./tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md)
+- [How can I use training keys for students to self-register for a class?](./tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md)
+- [What information should I send to students who are registering for class using training keys?](./tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md)
 
 #### *Classrooms and Equipment*
 
-     - [How can I use my organization’s virtual meeting program in my virtual classes?](./tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md)
-     - [How do I create classrooms?](./tms-administrators/classes/classrooms-equipment/create-classrooms.md)
-     - [How can I create a classroom that is outside my organization's physical location?](./tms-administrators/classes/classrooms-equipment/create-classroom-outside-org.md)
-     - [How do I use multiple classrooms for a class](./tms-administrators/classes/classrooms-equipment/use-multiple-classrooms-for-class.md)
-     - [How can I track laptops being used for classes taught outside my organization?](./tms-administrators/classes/classrooms-equipment/track-laptops-being-used-for-classes-outside-org.md)
+- [How can I use my organization’s virtual meeting program in my virtual classes?](./tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md)
+- [How do I create classrooms?](./tms-administrators/classes/classrooms-equipment/create-classrooms.md)
+- [How can I create a classroom that is outside my organization's physical location?](./tms-administrators/classes/classrooms-equipment/create-classroom-outside-org.md)
+- [How do I use multiple classrooms for a class](./tms-administrators/classes/classrooms-equipment/use-multiple-classrooms-for-class.md)
+- [How can I track laptops being used for classes taught outside my organization?](./tms-administrators/classes/classrooms-equipment/track-laptops-being-used-for-classes-outside-org.md)
 
 [< Return to Administrator menu>](#administrator)
 
@@ -179,22 +179,22 @@ If you an Administrator, explore the following topics/processes to help you star
 
 #### *Student Management*
 
-     - [How do I create student user accounts?](./tms-administrators/users/student-management/create-student-user-accounts.md)
-     - [What do I do if an email address is unavailable when I am creating a user account?](./tms-administrators/users/student-management/what-to-do-if-email-address-unavailable-when-creating-user-account.md)
-     - [How can I create multiple user accounts at once?](./tms-administrators/users/student-management/create-multiple-user-accounts-at-once.md)
-     - [What can I do about duplicate user accounts?](./tms-administrators/users/student-management/what-to-do-about-duplicate-user-accounts.md)
-     - [How do I find users?](./tms-administrators/users/student-management/find-users.md)
-     - [How do I create a temporary user role?](./tms-administrators/users/student-management/create-temporary-user-role.md)
-     - [How can I create a way to find a group of users?](./tms-administrators/users/student-management/create-way-to-find-group-of-users.md)
-     - [How can students print completion certificates?](./tms-administrators/users/student-management/students-print-completion-certificates.md)
+- [How do I create student user accounts?](./tms-administrators/users/student-management/create-student-user-accounts.md)
+- [What do I do if an email address is unavailable when I am creating a user account?](./tms-administrators/users/student-management/what-to-do-if-email-address-unavailable-when-creating-user-account.md)
+- [How can I create multiple user accounts at once?](./tms-administrators/users/student-management/create-multiple-user-accounts-at-once.md)
+- [What can I do about duplicate user accounts?](./tms-administrators/users/student-management/what-to-do-about-duplicate-user-accounts.md)
+- [How do I find users?](./tms-administrators/users/student-management/find-users.md)
+- [How do I create a temporary user role?](./tms-administrators/users/student-management/create-temporary-user-role.md)
+- [How can I create a way to find a group of users?](./tms-administrators/users/student-management/create-way-to-find-group-of-users.md)
+- [How can students print completion certificates?](./tms-administrators/users/student-management/students-print-completion-certificates.md)
 
 #### *Instructor Management*
 
-     - [What are different ways to set up instructor access?](./tms-administrators/users/instructor-management/different-ways-to-set-up-instructor-access.md)
-     - [How do I create instructor user accounts?](./tms-administrators/users/instructor-management/create-instructor-user-accounts.md)
-     - [What is the Contract Instructor Pool?](./tms-administrators/users/instructor-management/what-is-contract-instructor-pool.md)
-     - [How can my organization be set up to use contract instructors?](./tms-administrators/users/instructor-management/set-up-organization-to-use-contract-instructors.md)
-     - [How can I find instructors that can teach a specific course?](./tms-administrators/users/instructor-management/find-instructors-that-teach-specific-course.md)
+- [What are different ways to set up instructor access?](./tms-administrators/users/instructor-management/different-ways-to-set-up-instructor-access.md)
+- [How do I create instructor user accounts?](./tms-administrators/users/instructor-management/create-instructor-user-accounts.md)
+- [What is the Contract Instructor Pool?](./tms-administrators/users/instructor-management/what-is-contract-instructor-pool.md)
+- [How can my organization be set up to use contract instructors?](./tms-administrators/users/instructor-management/set-up-organization-to-use-contract-instructors.md)
+- [How can I find instructors that can teach a specific course?](./tms-administrators/users/instructor-management/find-instructors-that-teach-specific-course.md)
 
 [< Return to Administrator menu>](#administrator)
 
