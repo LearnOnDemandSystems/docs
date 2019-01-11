@@ -9,6 +9,8 @@ Find answers to your questions through short topical articles in the [Help Cente
 
 ## Technical Support
 
+[Support requires submittal of a technical support ticket](http://supportrequest.learnondemandsystems.com/form-4501358/support-policy)
+
 The best way to reach us is by creating a <a href="https://learnondemand.zendesk.com/hc/en-us/requests/new">technical support ticket</a>.
 
 Or contact us using one of the following methods:
@@ -16,7 +18,6 @@ Or contact us using one of the following methods:
 |||
 |---|---|
 |**Phone, e-mail or Skype**||
-|Email|<a href="mailto:support@learnondemandsystems.com">support@learnondemandsystems.com</a>|
 |Skype|labondemand|
 |Toll-free Phone|+1 866-668-7505 - only toll free in the US|
 |Phone|+1 512-782-2243|
