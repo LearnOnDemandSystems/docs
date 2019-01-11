@@ -3,18 +3,22 @@
 Welcome to the OneLearn Training Management System platform (TMS) Help!
 
 ## Student
+
 Are you a student needing assistance with your training? Check out the [Frequently Asked Questions (FAQs) for Students](#student-faqs) articles.
 
 ## Instructor
+
 Are you an instructor who needs information to teach your classes? The [Instructor Articles](#instructor-articles) are for you.
 
 ## Courseware Marketplace Customer
+
 If you purchased Learn on Demand Systems labs through the Arvato Courseware Marketplace, review the following topics/processes to access and manage your orders:
 - [Fulfilling Your Lab Order](#fulfilling-your-lab-order)
 - [Managing Your Users](#managing-your-users)
 - [FAQs for Courseware Marketplace Orders](#faqs-for-courseware-marketplace-orders)
 
 ## Administrator
+
 If you an Administrator, explore the following topics/processes to help you start using the TMS quickly or learn more about TMS functionality:
 - [TMS Fundamentals](#fundamentals)
 - Classes
@@ -35,10 +39,12 @@ If you an Administrator, explore the following topics/processes to help you star
 ## Student FAQs
 
 ### Basics
+
 - [How do I change my password?](./end-user-student-faqs/basics/change-password.md)
 - [How do I access and change my user profile?](./end-user-student-faqs/basics/change-user-profile.md)
 
 ### Labs
+
 - [How do I access my labs using a lab code without a user account?](./end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-without-user-account.md)
 - [How do I access my labs for a class using a lab code when I have a user account?](./end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-with-user-account.md)
 - [How do I access my labs for a class without a lab code?](./end-user-student-faqs/lab-access/access-labs-for-class-without-code.md)
@@ -46,6 +52,7 @@ If you an Administrator, explore the following topics/processes to help you star
 - [Why does my lab expire within a week when I am supposed to have access to it for a longer time?](./end-user-student-faqs/lab-access/difference-between-lab-expiration-and-lab-access.md)
 
 ### Classes and Self-Paced Learning
+
 - [How do I get into my virtual classroom?](./end-user-student-faqs/class-self-paced/get-into-virtual-classroom.md)
 - [How do I print my completion certificate?](./end-user-student-faqs/class-self-paced/print-completion-certificate.md)
 - [What is the Access Courseware button and how do I use it?](./end-user-student-faqs/class-self-paced/access-my-courseware.md)
@@ -55,13 +62,14 @@ If you an Administrator, explore the following topics/processes to help you star
 ## Instructor Articles
 
 ### General
+
 - [What does it mean to be a contract instructor?](./instructors/general/what-is-a-contract-instructor.md)
 
 ### Preparation and Classes
+
 - [How do I prepare for a course that I am not scheduled to teach?](./instructors/instructor-prep-and-classes/prepare-for-course-not-scheduled-to-teach.md)
 - [How do I find classes I am scheduled to teach?](./instructors/instructor-prep-and-classes/find-classes-scheduled-to-teach.md)
 - [How do I get to a class I am scheduled to teach?](./instructors/instructor-prep-and-classes/get-to-class-scheduled-to-teach.md)
-
 
 ### Student Labs
 
@@ -69,6 +77,7 @@ If you an Administrator, explore the following topics/processes to help you star
 - [How do I share files with students?](./instructors/student-labs/share-files-with-students.md)
 
 ### Profile
+
 - [How can I show times when I am unavailable?](./instructors/instructor-profile/show-unavailable-times.md)
 - [How can I show what I am qualified to teach?](./instructors/instructor-profile/show-courses-qualified-to-teach.md)
 
@@ -117,9 +126,10 @@ If you an Administrator, explore the following topics/processes to help you star
 
 [< Return to Administrator menu>](#administrator)
 
+
 ### Classes
 
-- ### Schedule
+#### *Schedule*
 
     - [How do I create a class?]    (./tms-administrators/classes/schedule/create-class.md)
     - [How can I cancel a class?]   (./tms-administrators/classes/schedule/cancel-class.md)
@@ -128,7 +138,7 @@ If you an Administrator, explore the following topics/processes to help you star
     - [How can I see classes in a calendar view?]   (./tms-administrators/classes/schedule/see-classes-in-calendar-view.md)
     - [How can an administrator print completion certificates for a class?] (./tms-administrators/classes/schedule/print-completion-certificates-for-class-by-admin.md)
 
-- ### Enrollments and Rosters
+#### *Enrollments and Rosters*
 
      - [How do I change a class enrollment status and which one should I use?](./tms-administrators/classes/enrollments-roster/change-class-enrollment-status-and-which-to-use.md)
      - [What information should I send to students when I create their enrollments](./tms-administrators/classes/enrollments-roster/information-to-send-to-students-when-enrollments-created.md)
@@ -144,17 +154,17 @@ If you an Administrator, explore the following topics/processes to help you star
 
 [< Return to Administrator menu>](#administrator) 
 
-- ### Instructors
+#### *Instructors*
 
      - [How do I schedule a class with multiple instructors?](./tms-administrators/classes/instructors/schedule-class-with-multiple-instructors.md)
      - [How can I find the classes for a particular instructor?](./tms-administrators/classes/instructors/find-classes-for-particular-instructor.md)
 
-- ### Training Keys
+#### *Training Keys*
 
      - [How can I use training keys for students to self-register for a class?](./tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md)
      - [What information should I send to students who are registering for class using training keys?](./tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md)
 
-- ### Classrooms and Equipment
+#### *Classrooms and Equipment*
 
      - [How can I use my organization’s virtual meeting program in my virtual classes?](./tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md)
      - [How do I create classrooms?](./tms-administrators/classes/classrooms-equipment/create-classrooms.md)
@@ -164,9 +174,10 @@ If you an Administrator, explore the following topics/processes to help you star
 
 [< Return to Administrator menu>](#administrator)
 
+
 ### Users
 
-- ### Student Management
+#### *Student Management*
 
      - [How do I create student user accounts?](./tms-administrators/users/student-management/create-student-user-accounts.md)
      - [What do I do if an email address is unavailable when I am creating a user account?](./tms-administrators/users/student-management/what-to-do-if-email-address-unavailable-when-creating-user-account.md)
@@ -177,7 +188,7 @@ If you an Administrator, explore the following topics/processes to help you star
      - [How can I create a way to find a group of users?](./tms-administrators/users/student-management/create-way-to-find-group-of-users.md)
      - [How can students print completion certificates?](./tms-administrators/users/student-management/students-print-completion-certificates.md)
 
-- ### Instructor Management
+#### *Instructor Management*
 
      - [What are different ways to set up instructor access?](./tms-administrators/users/instructor-management/different-ways-to-set-up-instructor-access.md)
      - [How do I create instructor user accounts?](./tms-administrators/users/instructor-management/create-instructor-user-accounts.md)
@@ -187,10 +198,12 @@ If you an Administrator, explore the following topics/processes to help you star
 
 [< Return to Administrator menu>](#administrator)
 
+
 ### Self-Paced Learning and Subscriptions
 
 - [How do I schedule self-paced learning for a student?](./tms-administrators/self-paced-learning-and-subscriptions/schedule-self-paced-learning.md)
 - [How can an administrator print completion certificates for self-pace learning?](./tms-administrators/self-paced-learning-and-subscriptions/print-completion-certificates-for-self-pace-learning-by-admin.md)
+
 
 ### Courses and Their Activities
 
@@ -207,7 +220,7 @@ If you an Administrator, explore the following topics/processes to help you star
 [< Return to Administrator menu>](#administrator)
 
 
-## Miscellaneous
+### Miscellaneous
 
 - [How do I create completion certificates?](./tms-administrators/miscellaneous/create-completion-certificates.md)
 - [How do I ensure my Course Completion Certificates print correctly?](./tms-administrators/miscellaneous/ensure-completion-certificates-print-correctly.md)
