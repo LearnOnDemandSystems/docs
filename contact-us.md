@@ -10,8 +10,15 @@ Find answers to your questions through short topical articles in the [Help Cente
 
 Support requires submittal of a technical support ticket. To submit a support request, view our [Support Policy](http://supportrequest.learnondemandsystems.com/form-4501358/support-policy).
 
-Or contact us using one of the following methods:
+||||
+|---|---|---|
+|**Product Support Contacts**||**International Phone Numbers**|
+|Toll-free: +1 866-668-7505 || Australia: +61 1800-531-776|
+|Phone: +1 512-782-2243 || Canada +1 866-694-8215|
+|Skype ID: labondemand || Singapore: +65 800-852-6361|
+|||United Kingdom +44 800-029-3469|
 
+<!--
 |||
 |---|---|
 |**Phone, e-mail or Skype**||
@@ -28,6 +35,9 @@ Or contact us using one of the following methods:
 |Email|<a href="mailto:sales@learnondemandsystems.com">sales@learnondemandsystems.com</a>|
 |Skype|lodsales|
 
+-->
+
 ## Integration
 
 Interested in integrating your system with Lab and Demand? Check out our [API](/lod/lod-api/lod-api-main.md).
+
