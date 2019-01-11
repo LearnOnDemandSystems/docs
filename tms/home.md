@@ -120,12 +120,12 @@ If you an Administrator, explore the following topics/processes to help you star
 ### Classes
 - ### Schedule
 
-    - [How do I create a class?](./tms-administrators/classes/schedule/create-class.md)
-    - [How can I cancel a class?](./tms-administrators/classes/schedule/cancel-class.md)
+    - [How do I create a class?]    (./tms-administrators/classes/schedule/create-class.md)
+    - [How can I cancel a class?]   (./tms-administrators/classes/schedule/cancel-class.md)
     - [How can I find a class?](./tms-administrators/classes/schedule/find-class.md)
-    - [How can I find a class that is in session?](./tms-administrators/classes/schedule/find-class-in-session.md)
-    - [How can I see classes in a calendar view?](./tms-administrators/classes/schedule/see-classes-in-calendar-view.md)
-    - [How can an administrator print completion certificates for a class?](./tms-administrators/classes/schedule/print-completion-certificates-for-class-by-admin.md)
+    - [How can I find a class that is in session?]  (./tms-administrators/classes/schedule/find-class-in-session.md)
+    - [How can I see classes in a calendar view?]   (./tms-administrators/classes/schedule/see-classes-in-calendar-view.md)
+    - [How can an administrator print completion certificates for a class?] (./tms-administrators/classes/schedule/print-completion-certificates-for-class-by-admin.md)
 
 - ### Enrollments and Rosters
 
