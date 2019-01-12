@@ -14,7 +14,7 @@ To create enrollments:
 1. On the **Roster** page, click **Add Students**. This opens the Choose User dialog. 
 1. Input part of the name of a student, click **Search**. 
 1. Check the box next to the student to enroll. 
-1. Repeat steps **5** and **6** to search for and select all of your students for class. 
+1. Repeat steps 5 and 6 to search for and select all of your students for class. 
 1. Once all the students have been selected, click **OK**. 
 1. All students will be added to the Roster with the status of Enrolled. Change the enrollment status to **Requested**. 
 1. Click **Save** to add them to the class. 
