@@ -8,7 +8,7 @@ Need to change the class enrollment status of one or more of your students? Ther
 
 Both provide you with a list of students in the class and the ability to change the Enrollment Status of each student inline. However, the roster provides a summary line that displays the minimum and maximum students for the class as well as a breakdown of the number of students with each status. 
 
-1. If you are onn the **Roster** page, in the **Enrollment** column, click the dropdown on the row of a student and select the enrollment status for that student. 
+1. If you are on the **Roster** page, in the **Enrollment** column, click the dropdown on the row of a student and select the enrollment status for that student. 
 1. Repeat for other students in the class.
 1. When done, click **Save Changes**.
 1. If you are on **Find Enrollments**, click the enrollment status of a student.
