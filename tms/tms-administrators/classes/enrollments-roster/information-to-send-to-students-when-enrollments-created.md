@@ -12,6 +12,6 @@ Input your login information:
 
 This opens your Current Training page. Under the **Classes** section, click the class name to access your enrollment. 
     
-Once class starts, Launch buttons will appear beside the lab modules and course activities.
+Once class starts, **Launch** buttons will appear beside the course activities.
 
 For technical assistance with labs, click the Contact button at the top of any page and use one of the methods provided to request assistance.
