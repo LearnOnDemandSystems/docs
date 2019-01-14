@@ -7,7 +7,7 @@ There are several terms (fields) you will need to know before you start to creat
 - **Points** - the point value you set based on the achievement's value compared to other achievements you have for your organization. This number is completely up to you but can be used to create other achievements based on the number of points a person has earned from their achievements.
 - **Frequency** – the number of times an achievement may be earned.
 - **Frequency Type** – limits the frequency of how the achievement is earned. You can select from
-     - **Per User** - if **Frequency** is set to **1**, a user can only earn the achievement once;
+     - **Per User** - if **Frequency** is set to** 1 **, a user can only earn the achievement once;
      - **Per Day** - if **Frequency** is set to **1**, the achievement can only be earned once within a 24 hour period regardless of user;
      - **Per Achievement** - if **Frequency** is set to **1**, the achievement can only be earned once regardless of user.
 - **Conditions** - the conditions for earning the achievement. They are written in JSON (Help with JSON conditions).
