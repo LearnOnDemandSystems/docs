@@ -17,7 +17,7 @@ The way that class sessions are scheduled directly affects lab save times. When 
 
 If a class has sessions on consecutive days, student labs are saved for 2 days. If a class has sessions on nonconsecutive days, student labs are saved for 7 days. These are the standard labs saves applied across the TMS, however, there are exceptions. For example, this does not apply to all courses; courses using Public IP Addresses require a lab save every 3 days.
 
-We can set up lab saves outside of these defaults for special circumstances when necessary. If you need labs in a class to be saved for a different time period, please send a request to support@learnondemandsystems.com. 
+We can set up lab saves outside of these defaults for special circumstances when necessary. If you need labs in a class to be saved for a different time period, please send a request to **support@learnondemandsystems.com**. 
 
 ## View Lab Save Time
 If you want to see if labs in a particular class can be saved and if so, for how long:
