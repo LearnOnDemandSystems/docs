@@ -1,18 +1,20 @@
 # How do I create a SCORM Module and make it available to other orgs for their courses?
 
-Have SCORM content you want to incorporate in your courses or allow other organizations to incorporate into theirs? This is easy to do with the proper permissions. You will first create a SCORM module in the TMS for each SCORM file. You can then add those SCORM modules to your courses. You can also make them available for your partner organizations to add them to their courses. Let's talk about how you create these SCORM modules and make them available.
+Have SCORM content you want to incorporate in your courses or allow other organizations to incorporate into theirs? This is easy to do with the proper permissions. You will first create a SCORM module in the TMS for each SCORM file. You can then add those SCORM modules to your courses. You can also make them available for your partner organizations to add them to their courses. 
 
-First you will need to ensure you have the proper permissions. Please contact [support@learnondemandsystems.com](support@learnondemandsystems.com) for assistance with this.
+First you will need to ensure you have the proper permissions. Please contact **support@learnondemandsystems.com** for assistance with this.
 
 Once you have the permissions needed,
 
 1. On the **Site Administration** page in the **SCORM / AICC** tile, click **Create SCORM Module**.
-1. The Choose SCORM Module dialog will open. Currently the process requires Adobe Flash Player. If necessary, click the **Adobe Flash Player** button to run Adobe Flash Player. Note: If you are using Firefox as your browser, this button might be black. Other browsers may render the button differently as well. However, if you hover your mouse over it, you will get a screen tip, Adobe Flash Player.
+1. The Choose SCORM Module dialog will open. Currently the process requires Adobe Flash Player. If necessary, click the **Adobe Flash Player** button to run Adobe Flash Player. 
+> [!ALERT]If you are using Firefox as your browser, this button might be black. Other browsers may render the button differently as well. However, if you hover your mouse over it, you will get a screen tip, Adobe Flash Player.
 1. Click **Allow** in the message asking to **Run Flash**.
 1. Click **Choose File** in the **Choose SCORM Module** dialog.
-1. Navigate to and select the SCORM file and click **Open**. Note: The file must be in .zip format and no larger than 1GB. They also must contain the proper formatted files to process
+1. Navigate to and select the SCORM file and click **Open**. 
+> [!ALERT] The file must be in .zip format and no larger than 1GB. They also must contain the proper formatted files to process
 1. The file will upload and process and you will land on the Basic Information tab of the Create SCORM Module Profile page. Edit the **Name** if desired.
-1. Select the **Evaluation Method** from the dropdown to use when a user completes the Module. This method will record this result in the SCORM Module Attempt of the users.
+1. Select the **Evaluation Method** from the dropdown to use when a user completes the module. This method will record this result in the SCORM Module Attempt of the users.
 1. Set the **Stage Width** and **Stage Height**.
 1. Review the checkboxes at the bottom of the page and set the ones you want for this module.
 
