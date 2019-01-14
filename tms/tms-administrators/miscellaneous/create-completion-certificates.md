@@ -4,7 +4,7 @@ Course completion certificates can be added to the courses of your choice for yo
 
 Certificates are available to print by administrators at any time for classes and course assignments. They may edit from a Word file or print using a PDF. Students may print certificates from a PDF if a class enrollment or course assignment shows as Complete on their Transcript.
 
-You may need to contact us for the permissions required to upload or add certificates to courses; or we may need to create the courses for you. Please contact us at support@learnondemandsystems.com for assistance or to receive the proper roles in the TMS.
+You may need to contact us for the permissions required to upload or add certificates to courses; or we may need to create the courses for you. Please contact us at **support@learnondemandsystems.com** for assistance or to receive the proper roles in the TMS.
 
 ## Steps for adding certificates:
 
@@ -35,7 +35,7 @@ To upload the certificate template:
 
 ## Add certificates to courses
 
-Once a certificate template is uploaded it is available for you to add to courses. One or more certificate may be added to a course. After a certificate is added, it is available to be printed for any class or course assignment using the course.
+Once a certificate template is uploaded, it is available for you to add to courses. One or more certificates may be added to a course. After a certificate is added, it is available to be printed for any class or course assignment using the course.
 
 To add a certificate to a course:
 1. On **Site Administration** on the **Courses** tile, click **Find Courses**. 
