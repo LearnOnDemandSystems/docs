@@ -206,7 +206,7 @@ If you an Administrator, explore the following topics/processes to help you star
 
 ### Courses and Their Activities
 
-- [How do I see available courses and determine how much I will be charged for a lab in one of them?](./tms-administrators/courses-and-activities/see-available-courses-and-determine-how-cost-for-lab-in-one.md)
+- [How do I see available courses and determine how much I will be charged for a lab in one of them?](./tms-administrators/courses-and-activities/see-available-courses-and-determine-cost-for-lab-in-one.md)
 - [How do I create a SCORM Module and make it available to other organizations for their courses?](./tms-administrators/courses-and-activities/create-scorm-module.md)
 - [How can I preview a SCORM module belonging to my organization?](./tms-administrators/courses-and-activities/start-scorm-module.md)
 - [Where do I find the system requirements for labs?](./tms-administrators/courses-and-activities/find-system-requirements-for-labs.md)
