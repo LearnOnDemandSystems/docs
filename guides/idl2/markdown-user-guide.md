@@ -310,31 +310,31 @@ It's also possible to simply supply the width: {width}. In this case, the height
   
     ![](../../lod/images/variables-callback-variable-in-lab.png)
 
-- **Knowledge Block:** Used to provide additional information, to help students better understand lab steps or lab content. Knowledge blocks are limited to only show 4 lines of the lab content. After 4 lines, a _more_ link will be shown, allowing the student to expand the Knowledge Block and review additional information.
+- **Knowledge Block:** Used to provide additional information, to help students better understand lab steps or lab content. Knowledge blocks are limited to only show 4 lines of the lab content. After 4 lines, a _more_ link will be shown, allowing the student to expand the knowledge block and review additional information.
 
-    > \> [!KNOWLEDGE] Knowledge blocks helps students learn more.
+    > \> [!knowledge] knowledge text here.
     >
     > ![](images/idl2-knowledge.png "Knowledge Block")
 
 - **Alert Block:** Used to draw attention to important issues, such as showing additional information or steps that the student may need complete to avoid other issues. 
 
-    > \> [!ALERT] alert text here.
+    > \> [!alert] alert text here.
     >
     > ![](images/idl2-alert.png "Alert Block")
 
 - **Hint Block:** Used to provide a hint for the for the section of the lab that the student is working on.  
 
-    > \> [!HINT] hint text here.
+    > \> [!hint] hint text here.
     >
     > ![](images/hint-block.png "Hint Block")
 
 - **Help Block:** Used to provide help, such as showing additional about the section of the lab that the student is working on.
 
-    > \> [!HELP] help text here.
+    > \> [!help] help text here.
     >
     > ![](images/help-block.png "Help Block")
 
-- **Note Block:** used to provide additional information, similar to a Knowledge Block, with the only difference being that Notes do not collapse and show a _more_ link to expand the section. 
+- **Note Block:** used to provide additional information, similar to a knowledge block, with the only difference being that notes do not collapse and show a _more_ link to expand the section. 
 
     > \> [!NOTE] note text here.
     >
