@@ -14,6 +14,6 @@ When the students click Enter Classroom, they will be taken to the URL provided.
 
 > [!KNOWLEDGE] **<sup>1</sup>BEST PRACTICE**: The Enter Classroom button remains available to students on their class enrollment after the class is over. Therefore, it is best to use unique URLs for each class to avoid students from an old class accidentally getting into a new class.
 
-To find your classes that use custom virtual classrooms, you can use the new Custom Virtual Classroom filter and output option on Find Classes.
+To find your classes that use custom virtual classrooms, you can use the new **Custom Virtual Classroom** filter and output option on **Find Classes**.
 
 ![](/tms/images/find-custom-virtual-classroom.png)
