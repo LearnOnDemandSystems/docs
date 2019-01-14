@@ -8,9 +8,9 @@ There are several terms (fields) you will need to know before you start to creat
 - **Frequency** – the number of times an achievement may be earned.
 - **Frequency Type** – limits the frequency of how the achievement is earned. You can select from
      - **Per User** - if **Frequency** is set to **1,** a user can only earn the achievement once;
-     - **Per Day** - if **Frequency** is set to **1**, the achievement can only be earned once within a 24 hour period regardless of user;
-     - **Per Achievement** - if **Frequency** is set to **1**, the achievement can only be earned once regardless of user.
-- **Conditions** - the conditions for earning the achievement. They are written in JSON (Help with JSON conditions).
+     - **Per Day** - if **Frequency** is set to **1,** the achievement can only be earned once within a 24 hour period regardless of user;
+     - **Per Achievement** - if **Frequency** is set to **1,** the achievement can only be earned once regardless of user.
+- **Conditions** - the conditions for earning the achievement. They are written in JSON ([Help with JSON conditions](tms-achievement-conditions.md)).
 
 To create an achievement:
 1. On the **Site Admin** page, click **Achievements** in the Organization tile.
