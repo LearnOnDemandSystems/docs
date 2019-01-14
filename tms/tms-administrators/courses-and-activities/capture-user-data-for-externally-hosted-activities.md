@@ -17,9 +17,9 @@ to the end of a URL accessing an external video module, the URL would look like 
 
 > **https ://videoplayer.yourorganization.com/player/Mod101_AM01?userId={userId}&email={email}&firstName={firstName}&lastName={lastName}**
 
-When Student X watches the video from the TMS, you would be given the following information from Student X's account:
+When a student watches the video from the TMS, you would be given the following information from the student's account:
 
 - TMS User ID: **111111**
-- Email: **studentx @anywhere.none**
+- Email: **studentname @anywhere.none**
 - First Name: **Student**
-- Last Name: ** X **
+- Last Name: **Name**
