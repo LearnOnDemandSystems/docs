@@ -10,4 +10,4 @@ A student sees the assessment in the course activities of their enrollment or co
 
 ![](/tms/images/assess-response.png)
 
-If you are interested in having assessments added to your courses, please send a request to support@learnondemandsystems.com. Permissions can be added to allow assessments to be created and assessment responses to be viewed. Depending on the content of the courses, we may need to create custom courses for you or you may be able to create courses on your own.
+If you are interested in having assessments added to your courses, please send a request to **support@learnondemandsystems.com**. Permissions can be added to allow assessments to be created and assessment responses to be viewed. Depending on the content of the courses, we may need to create custom courses for you or you may be able to create courses on your own.
