@@ -12,7 +12,7 @@ When your student clicks this button the first time, they will be taken to eithe
 
 The student will be taken to their bookshelf in their Skillpipe account. Subsequent times when the student clicks **Access Courseware**, they will be taken directly to their Skillpipe bookshelf without having to sign in.
 
-[!NOTE]Please note: This feature only allows students to easily access their courseware in their Skillpipe account through single sign-on from the TMS enrollment page. To manage and make changes to their Skillpipe account itself, they will need to use Skillpipe directly.
+[!NOTE] Please note: This feature only allows students to easily access their courseware in their Skillpipe account through single sign-on from the TMS enrollment page. To manage and make changes to their Skillpipe account itself, they will need to use Skillpipe directly.
 
 If the student's TMS profile email address is not the same as the email aligned to their Skillpipe account, the **Access Courseware** button will take them to Skillpipe’s **Registration** page. 
 - Students who do not have a Skillpipe account can create a new account from the **Registration** page.
