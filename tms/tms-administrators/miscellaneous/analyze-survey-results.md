@@ -7,7 +7,7 @@ To export responses,
 1. In the quick links bar, click **Export Survey Responses** or **Export Anonymous Survey Responses**. Note: The anonymous export will not contain any information identifying the respondent.
 1. Save the file where needed.
 
-You can open this file in any program that read a .csv file format and then analyze or format the results as needed in that program. The file for a student survey will contain the following items:
+You can open this file in any program that reads a .csv file format and then analyze or format the results as needed in that program. The file for a student survey will contain the following items:
 - Survey Id
 - Course Id
 - Class Id
@@ -39,7 +39,7 @@ Here are two examples of how you might want to use these filters:
 1. To narrow the results for a specific question, click the dropdown arrow next to **Question**.
 1. From the list, ensure only the question(s) you want to see responses for are checked and click **OK**.
 
-When a filter is applied to a column, you will notice a Funnel icon added to the dropdown arrow in the column header, the row indicators change color, and the Status bar at the bottom will display **X of & records found** indicating the number of filtered results. 
+When a filter is applied to a column, you will notice a Funnel icon added to the dropdown arrow in the column header, the row indicators change color, and the Status bar at the bottom will display **X of Y records found** indicating the number of filtered results. 
 
 *Show me the responses for X course(s) taught by Y instructor(s)*
 1. To narrow the results for a specific instructor, click the dropdown arrow next to **Instructor**.
@@ -47,12 +47,12 @@ When a filter is applied to a column, you will notice a Funnel icon added to the
 1. To narrow the search even further to only certain course(s), click the dropdown arrow next to **Course Id**.
 1. From the list, ensure only the course(s) you want to see responses for are checked and click **OK**.
 
-Filters can be applied and removed from columns in any order. To remove, or change, a single column filter, click its dropdown and either make changes to the selections or click **Clear filter from …**.
+Filters can be applied and removed from columns in any order. To remove or change a single column filter, click its dropdown and either make changes to the selections or click **Clear filter from …**.
 
 ![](/tms/images/survey-excel-filter-responses.png)
 
 ## Using PivotTables
-PivotTables can be used to do a higher level of analyzing. You may need to practice with the PivotTable to get the analysis you want but it is highly flexible. This article will only touch on the basics with one scenario to help you get started: What is the average rating for each instructor on the Instructor’s Knowledge question.
+PivotTables can be used to do a higher level of analyzing. You may need to practice with the PivotTable to get the analysis you want but it is highly flexible. This article will only touch on the basics with one scenario to help you get started: *What is the average rating for each instructor on the Instructor’s Knowledge question*.
 
 To add a **PivotTable**:
 1. Start with the active cell inside of the data. This allows Excel to recognize the range of cells for the data.
