@@ -16,7 +16,7 @@ Instructors can only see the class on their Instructor Calendar if they are adde
 
 You can also add/remove instructors to individual sessions. To do this: 
 1. Expand the **Session Times** section and click **Edit** next to the session you want to change. 
-1. Click the **Instructor** dropdown and check or uncheck the box beside the instructor(s) name(s). Select which instructor is **Primary** for that session. This is does not have to be the same instructor that is primary for the whole class.
+1. Click the **Instructor** dropdown and check or uncheck the box beside the instructor(s) name(s). Select which instructor is **Primary** for that session. This does not have to be the same instructor that is primary for the whole class.
 1. Click **OK**.
 
 When you are finished creating/editing the class, click **Save**. If you have removed the automatic filter for schedule conflicts and one of the instructors has a conflict, you will be notified upon attempting to save. Click **Yes** to continue saving the class with the instructor conflict or click **No** to go back and change the conflict.
