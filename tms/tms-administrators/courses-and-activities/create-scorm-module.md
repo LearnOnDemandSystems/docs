@@ -8,11 +8,14 @@ Once you have the permissions needed,
 
 1. On the **Site Administration** page in the **SCORM / AICC** tile, click **Create SCORM Module**.
 1. The Choose SCORM Module dialog will open. Currently the process requires Adobe Flash Player. If necessary, click the **Adobe Flash Player** button to run Adobe Flash Player. 
-> [!ALERT]If you are using Firefox as your browser, this button might be black. Other browsers may render the button differently as well. However, if you hover your mouse over it, you will get a screen tip, Adobe Flash Player.
+>[!ALERT]If you are using Firefox as your browser, this button might be black. Other browsers may render the button differently as well. However, if you hover your mouse over it, you will get a screen tip, Adobe Flash Player.
+
 1. Click **Allow** in the message asking to **Run Flash**.
 1. Click **Choose File** in the **Choose SCORM Module** dialog.
 1. Navigate to and select the SCORM file and click **Open**. 
-> [!ALERT] The file must be in .zip format and no larger than 1GB. They also must contain the proper formatted files to process
+
+>[!ALERT] The file must be in .zip format and no larger than 1GB. They also must contain the proper formatted files to process
+
 1. The file will upload and process and you will land on the Basic Information tab of the Create SCORM Module Profile page. Edit the **Name** if desired.
 1. Select the **Evaluation Method** from the dropdown to use when a user completes the module. This method will record this result in the SCORM Module Attempt of the users.
 1. Set the **Stage Width** and **Stage Height**.
