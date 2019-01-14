@@ -5,8 +5,8 @@ You can filter the **Find Classes** page for classes that a particular instructo
 To do this:
 1. On the **Site Administration** page in the **Classes** tile, click **Find Classes**.
 1. On the **Find Classes** page, click the **Add filter** dropdown and click **Instructor**. The Choose Instructor dialog will open.
-1. Add the criteria for instructor you want and click **Search**.
+1. Add the criteria for the instructor you want and click **Search**.
 1. Select the instructor from the results and click **OK**.
 1. Click **Search**.
 
-All classes that are scheduled using the instructor will show in the search results. The **Instructor** column in the results will show instructor who is designated as Primary for the class.
+All classes that are scheduled using the instructor will show in the search results. The **Instructor** column in the results will show the instructor who is designated as Primary for the class.
