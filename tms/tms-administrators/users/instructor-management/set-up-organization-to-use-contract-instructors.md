@@ -10,4 +10,9 @@ To opt in to using contract instructors:
 1. Scroll to the bottom and check the **Uses Contract Instructors** checkbox.
 1. Click **Save**.
 
-When you opt in, contract instructors will show up in your Find Instructors and Choose Instructor searches if they meet your criteria. 
+When you opt in, contract instructors will show up in your Find Instructors and Choose Instructor searches if they meet your criteria.
+
+## Related Article
+For more information on contract instructors, please read:
+
+- [What is the Contract Instructor Pool?](what-is-contract-instructor-pool.md)
