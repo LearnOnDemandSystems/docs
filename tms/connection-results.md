@@ -2,7 +2,7 @@
 
 The connection assessment test collection runs several different tests to determine your connection quality. These tests analyze connection speed, open ports, traffic routes, and quality of service. At the end of these tests, a graphic is displayed showing the Summary tab by default. An example of a good result looks like this:
 
-![img](/images/conn_res_graphic.png)
+![](/images/conn-res-graphic.png)
 
 The Summary provides several statistics at a glance, along with visual indicators that give a general idea of the quality of the result. Red circles normally mean a bad result, while green circles mean a good result. The red circle next to the message about maximum packet loss along the route being 100% is not unusual and not always indicative of a problem. This happens sometimes because Internet Service Providers (ISPs) or backbone providers block ICMP traffic on certain hops, resulting in the hop returning no results.
 
