@@ -2,7 +2,7 @@
 
 There are a couple of tools in the TMS you can use to register students. The the class roster is the one that lets you create multiple registrations all at once. Several different registration statuses exist to help you track whether the student should be granted access to a class.
 
-To create enrollments:
+To create multiple enrollments:
 
 1. On **Site Administration** on the **Classes** tile, click **Find Classes**. This opens the Find Classes page.
 1. Input part of the name of the class you want in the **Name** field and click **Search**.
