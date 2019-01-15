@@ -4,7 +4,9 @@ At times, you may receive an error stating **Sorry, this e-mail address is taken
 
 You may also speak with the instructor or student to determine if they would like a new user account created under your organization. To do this, they will need to provide a different email address that isn’t already associated with an account in our system. You can then create a new user account for them using the new email. 
 
+## Related Articles
 For more information on setting up accounts and enrollments, please see:
+
 - [How do I add an instructor to a class?](../fulfilling-marketplace-order/add-instructor-to-class.md)
 - [Do I need to purchase labs for the instructor?](../faq-for-arvato-marketplace/purchase-labs-for-instructor.md)
 - [How do I enroll students into a class?](../fulfilling-marketplace-order/enroll-students-in-class.md)
