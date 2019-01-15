@@ -31,6 +31,6 @@ There are three options for managing instructor accounts in this situation:
 1. Create a user account for the instructor with an alternate email address.
 
 ## Related Article
-for more information about the  Instructor Pool, please read:
+For more information about the  Instructor Pool, please read:
 
 - [What is the Contract Instructor Pool?](../instructor-management/what-is-contract-instructor-pool.md)
