@@ -24,7 +24,7 @@ You can open this file in any program that reads a .csv file format and then ana
 
 Each row will contain one answer to one question in the survey. If a question is a matrix-type question (i.e. Rate the following on a scale of 1 to 10), each label will be considered its own question and thus have its own row. 
 
-The following are two ways to analyze the results in Excel: [using filters](#using-filters) and [using PivotTables](using-pivottables). Start by opening the file in Excel and widening the columns as necessary. Highlight and bold the top row, if desired.
+The following are two ways to analyze the results in Excel: [using filters](#using-filters) and [using PivotTables](#using-pivottables). Start by opening the file in Excel and widening the columns as necessary. Highlight and bold the top row, if desired.
 
 ## Using Filters
 Filters can be used if you would like to collapse the data based on different data points such as only looking at responses to a specific question or for a specific instructor. Filters can be applied to more than one column at a time. A row must match every filter to appear in the results.
