@@ -27,4 +27,4 @@ There are 6 class completion statuses. A completion status can only be set for a
 ## Related Article
 For more information on using the Attendance chart, please see:
 
-- [How do I record student attendance for a multiple day class?](record-student-attendance-for-multiple-day-class.md). 
+- [How do I record student attendance for a multiple day class?](record-student-attendance-for-multiple-day-class.md)
