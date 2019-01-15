@@ -33,5 +33,6 @@ If the user already has an account within your organization, you will modify the
 
 If the user is already logged in, they may need to log out of their account and log back in for the changes to take effect.
 
+## Related Article
 For more information on setting up user accounts, please see:
 - [How do I create an Instructor account?](create-instructor-account.md)
