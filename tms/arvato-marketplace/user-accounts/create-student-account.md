@@ -13,4 +13,8 @@ To create a user account:
     - **Password** and **Confirm Password**
 1. Click **Save**.
 
-Students will need to be provided their User credentials and directed to log into their account at https://alh.learnondemand.net. Once a student logs in, they are taken to their Current Training page, which lists their class by name. Clicking on the class name gives them access to their labs. See [**How do I enroll students in a class?**](../fulfilling-marketplace-order/enroll-students-in-class.md) to manually enroll students in your classes.
+Students will need to be provided their User credentials and directed to log into their account at https://alh.learnondemand.net. Once a student logs in, they are taken to their Current Training page, which lists their class by name. Clicking on the class name gives them access to their labs. 
+
+## Related Article
+To manually enroll students in your classes, see:
+- [How do I enroll students in a class?](../fulfilling-marketplace-order/enroll-students-in-class.md) 
