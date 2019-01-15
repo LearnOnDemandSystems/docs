@@ -24,6 +24,7 @@ If there are still access issues, contact our Help Desk by clicking the **Contac
 
 After class starts, the labs can be launched, saved, and resumed through the end of class and an additional 180 days after class.
 
+## Related Article
 For more information on student enrollments, please see:
 - [How do I enroll students in a class?](../fulfilling-marketplace-order/enroll-students-in-class.md)
 
