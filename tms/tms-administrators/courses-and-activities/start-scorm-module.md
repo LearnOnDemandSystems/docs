@@ -11,4 +11,4 @@ This will show up as a SCORM attempt in the results of the Find SCORM Attempts s
 
 ## Related Article
 For more information on SCORM attempts, please read:
-- [How do I view SCORM attempts by my students?](view-scorm-attempts.md) article)
+- [How do I view SCORM attempts by my students?](view-scorm-attempts.md)
