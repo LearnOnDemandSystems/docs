@@ -24,4 +24,4 @@ Students' enrollment statuses will need to be changed to Enrolled or Cancelled a
 ## Related Article
 For information on the different enrollment statuses, please see:
 
-- [How do I change a class enrollment status and which one should I use?(change-class-enrollment-status-and-which-to-use.md)
+- [How do I change a class enrollment status and which one should I use?](change-class-enrollment-status-and-which-to-use.md)
