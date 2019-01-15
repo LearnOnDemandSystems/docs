@@ -30,6 +30,6 @@ When reviewing a test, the key elements to look for are:
 
 While there are many other factors that can affect connection quality, these measures act as good baselines for understanding connection problems. Low consistency, high jitter, and packet loss can all result in packets arriving out of order, needing to be resent, or not arriving at all. This can cause stutters, disconnects, and repeated key presses in lab environments. If any of these measures are outside of the acceptable range, we suggest checking your local network for issues or contacting your ISP. If using a wireless connection, we strongly suggest switching to a wired connection.
 
-If any firewall ports are blocked, the machine remote controllers used to connect to lab VMs may not function. Information about which ports are required can be found in the [Connectivity Requirements](connectivity-requires.html) document.
+If any firewall ports are blocked, the machine remote controllers used to connect to lab VMs may not function. Information about which ports are required can be found in the [Connectivity Requirements](connectivity-requires.md) document.
 
 If you have any questions about the results of a test, please reach out to our helpdesk at **support@learnondemandsystems.com** with a link to one of your audit report pages for assistance.
