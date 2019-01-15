@@ -26,6 +26,11 @@ If you do not see the instructor account in the search results, it means that th
 
 There are three options for managing instructor accounts in this situation:
 
-1. Send an email to **support@learnondemandsystems.com**, CC: the instructor. Ask us to move the instructor to the Instructor Pool. Note: The instructor may not be designated as a contract instructor. We will need the instructor's permission to make the change to their account. See [What is the Contract Instructor Pool](../instructor-management/what-is-contract-instructor-pool.md) for more information about the  Instructor Pool.
+1. Send an email to **support@learnondemandsystems.com**, CC: the instructor. Ask us to move the instructor to the Instructor Pool. Note: The instructor may not be designated as a contract instructor. We will need the instructor's permission to make the change to their account.
 1. Send an email to **support@learnondemandsystems.com**. We can add the instructor to the class for you.
 1. Create a user account for the instructor with an alternate email address.
+
+## Related Article
+for more information about the  Instructor Pool, please read:
+
+- [What is the Contract Instructor Pool?](../instructor-management/what-is-contract-instructor-pool.md)
