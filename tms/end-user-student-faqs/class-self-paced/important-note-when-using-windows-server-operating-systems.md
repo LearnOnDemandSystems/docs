@@ -14,4 +14,4 @@ If this occurs, ensure that you are signed on to your machine as a user with adm
 1. Navigate to the TMS Portal.
 1. Sign in normally.
 
-![](../images/windows-server.png)
+![](../images/server-manager.png)
