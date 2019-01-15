@@ -10,3 +10,9 @@ For self-paced learning, administrators can print a completion certificate for a
      1. Click **OK** to download the files. 
 1. Open the downloaded zip file containing PDFs and Word documents of each certificate. 
 1. Open the student certificates and print.
+
+## Related Articles
+For more information on Course Completion Certificates, please read:
+
+- [How do I create completion certificates?](../miscellaneous/create-completion-certificates.md)
+- [How do I ensure my Course Completion Certificates print correctly?](../miscellaneous/ensure-completion-certificates-print-correctly.md)
