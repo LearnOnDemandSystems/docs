@@ -35,4 +35,7 @@ The system will review the file for errors in the data and provide you with a li
      
 Once the import completes you will be provided with a list of users that have been imported. You can click **Import More** to do another set of users with different data. 
 
-If you receive a  message that usernames or emails have already been used, please read the [What do I do if an email address is unavailable when I am creating a user account](what-to-do-if-email-address-unavailable-when-creating-user-account.md) article.  
+## Related Article
+If you receive a  message that usernames or emails have already been used, please read:
+
+- [What do I do if an email address is unavailable when I am creating a user account?](what-to-do-if-email-address-unavailable-when-creating-user-account.md)  
