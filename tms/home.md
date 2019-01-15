@@ -168,7 +168,7 @@ If you an Administrator, explore the following topics/processes to help you star
 - [How can I use my organization’s virtual meeting program in my virtual classes?](./tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md)
 - [How do I create classrooms?](./tms-administrators/classes/classrooms-equipment/create-classrooms.md)
 - [How can I create a classroom that is outside my organization's physical location?](./tms-administrators/classes/classrooms-equipment/create-classroom-outside-org.md)
-- [How do I use multiple classrooms for a class](./tms-administrators/classes/classrooms-equipment/use-multiple-classrooms-for-class.md)
+- [How do I use multiple classrooms for a class?](./tms-administrators/classes/classrooms-equipment/use-multiple-classrooms-for-class.md)
 - [How can I track laptops being used for classes taught outside my organization?](./tms-administrators/classes/classrooms-equipment/track-laptops-being-used-for-classes-outside-org.md)
 
 [< Return to Administrator menu>](#administrator)
