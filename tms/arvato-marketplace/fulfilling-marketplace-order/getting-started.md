@@ -5,7 +5,7 @@ The Learn on Demand Systems’ Training Management System (TMS) syncs with the C
 ## New Customers
 
 When you have placed your first order with LoDS, you will need to create an organization and user account in TMS for the vouchers from the Courseware Marketplace to sync. To create your organization, you will need your **Arvato Customer Number**. Then:
-1. Go to [https://alh.learnondemand.net/Organization/Register/2069](https://alh.learnondemand.net/Organization/Register/2069).
+1. Go to **https://alh.learnondemand.net/Organization/Register/2069**.
 1. Fill in your contact information as well as your organization information. Your **Arvato Customer Number** is required to synchronize your purchase to the TMS.
 1. Click **Register** to continue.
 
