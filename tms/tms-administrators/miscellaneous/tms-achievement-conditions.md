@@ -6,11 +6,11 @@ JSON is configured using two structures:
 
 - A collection of {name:value}. The **name** is an event or action and the **value** is given based on the outcome of the event or action. This is known as an **Object**. 
 
-    - An **Object** begins with { (left brace) and ends with } (right brace). Each name is followed by : (colon) and the name/value are separated by , (comma).
+    - An **Object** begins with a left brace ( **{** ) and ends with a right brace ( **}** ). Each name is followed by a colon ( **:** ) and the name/value are separated by a comma ( **,** ).
 
 - An ordered **collection of values**, known as an **Array**. 
 
-    - An **Array** begins with [ (left square bracket) and ends with ] (right square bracket). Values are separated by , (comma). 
+    - An **Array** begins with a left square bracket ( **[** ) and ends with a right square bracket ( **]** ). Values are separated by a comma ( **,** ). 
 
 For example, launching one lab will result in earning an Achievement when using the following JSON Condition: ```[{"Subject":0,"Count":1}]```.
 
