@@ -74,7 +74,7 @@ Click the dropdown on **Count of Responses** and select **Value Field Settings**
 1. In the table, click the filter dropdown next to **Question**, and select the knowledge question and click **OK**.
 >Note: When using the Average summary for the Values, all data must be numerical. When a data point is not numerical, its value is ignored. If all data points are text, you will receive a #DIV/0! Error in that cell as can be seen in the screenshot for Andy Barkl. In this case, the Response scale has numbers except for 1 and 10, which are “1 Not effective” and “10 Effective”. Andy received all “10 Effective” responses to a couple of items and thus you see the error.  
 
-![](/tms/images/survey-results-pivottable-.png)
+![](/tms/images/survey-results-pivottable.png)
 
 This article is not an indepth explanation of Excel’s filters and PivotTables. It just provides some simple examples of how you might get started in analyzing your survey responses.
 
