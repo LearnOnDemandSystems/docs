@@ -16,7 +16,7 @@ The next steps depend on whether your organization is using an Adobe Connect cla
 
 1. Look at the **Software Check** section and if visible, verify that the **Virtual Classroom Environment** has a green checkmark indicating that your computer has the software needed to launch your virtual classroom. 
 
-    > [!ALERT] If there is an Alert symbol instead, click the **Install** button. This will link you to [https://get.adobe.com/flashplayer/](https://get.adobe.com/flashplayer/) to install the software needed to be able to use the virtual classroom. If you have difficulty downloading this software, please contact either your network administrator or the organization you are taking the class from.
+    > [!ALERT] If there is an Alert symbol instead, click the **Install** button. This will link you to **https://get.adobe.com/flashplayer/** to install the software needed to be able to use the virtual classroom. If you have difficulty downloading this software, please contact either your network administrator or the organization you are taking the class from.
 
 1. Click **Enter Configuration Room** next to **Test Virtual Classroom**. This will allow you to check your audio settings to ensure you are ready for class when it starts. 
 
