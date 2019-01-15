@@ -12,7 +12,9 @@ To increase the number of students you can enroll into class:
 
 You will see new training keys available to distribute to your students to self-register and self-enroll into class or you may manually create the user accounts and enrollments.
 
+## Related Articles
 For more information on setting up classes and student enrollments, please see:
+
 - [How do I set up a class?](set-up-class.md)
 - [How do I enroll students into a class?](enroll-students-in-class.md)
 - [How and when can students access labs?](../faq-for-arvato-marketplace/students-access-labs.md)
