@@ -15,5 +15,7 @@ To create a user account:
 
 You may fill-in data in other fields if you wish to capture it here. These fields and the other tabs will be covered in future articles.
 
-If you receive a  message that the username or email has already been used, please read the [What do I do if an email address is unavailable when I am creating a user account](what-to-do-if-email-address-unavailable-when-creating-user-account.md) article.
+## Related Article
+If you receive a  message that the username or email has already been used, please read:
+- [What do I do if an email address is unavailable when I am creating a user account?](what-to-do-if-email-address-unavailable-when-creating-user-account.md)
 
