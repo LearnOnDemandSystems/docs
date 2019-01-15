@@ -17,3 +17,9 @@ Once the enrollment or assignment is showing as complete, it will show on the st
      1. Click **OK** to download the files. 
 1. Open the downloaded zip file containing a PDF of the certificate. 
 1. Open the certificate and print.
+
+## Related Articles
+For more information on Course Completion Certificates, please read:
+
+- [How do I create completion certificates?](./tms-administrators/miscellaneous/create-completion-certificates.md)
+- [How do I ensure my Course Completion Certificates print correctly?](./tms-administrators/miscellaneous/ensure-completion-certificates-print-correctly.md)
