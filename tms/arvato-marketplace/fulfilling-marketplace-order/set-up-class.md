@@ -22,7 +22,11 @@ From here you will enter the Class information:
      1. Click **OK**.
 1. Click **Save**. The Class profile page will open for the class you just created.
 
-Instructors and students can be added later. For more information help you get started and manage your training in the TMS, please see:
+Instructors and students can be added later. 
+
+## Related Articles
+Here are other articles that will help you get started and manage your training in the TMS:
+
 - [How do I add an instructor to a class?](add-instructor-to-class.md)
 - [Do I need to purchase labs for the instructor?](../faq-for-arvato-marketplace/purchase-labs-for-instructor.md)
 - [How do I enroll students in a class?](enroll-students-in-class.md)
