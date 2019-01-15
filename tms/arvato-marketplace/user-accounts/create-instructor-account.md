@@ -29,8 +29,9 @@ If the user already has an account within your organization, you will modify the
 
 If the user is already logged in, they may need to log out of their account and log back in for the changes to take effect.
 
+## Related Articles
 For more information on instructors and other user accounts, please see:
-- [Do I need to purchase labs for the instructor?](../faq-for-arvato-marketplace/purchase-labs-for-instructor.md)
 - [How do I add an instructor to a class?](../fulfilling-marketplace-order/add-instructor-to-class.md)
+- [Do I need to purchase labs for the instructor?](../faq-for-arvato-marketplace/purchase-labs-for-instructor.md)
 - [How do I set up other users to schedule classes?](create-operations-manager.md)
 
