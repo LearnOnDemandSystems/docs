@@ -4,6 +4,7 @@ Need to schedule a class but don't have permissions? First, you will need a user
 
 You can also contact our Support team at **support@learnondemandsystems.com** if you need us to create the account for you. Please provide us with your name, email, and the organization you are with.
 
+## Related Articles
 For more information on how to create user accounts or scheduling classes, please see:
 
 - [How do I set up another user to schedule classes?](../user-accounts/create-operations-manager.md)
