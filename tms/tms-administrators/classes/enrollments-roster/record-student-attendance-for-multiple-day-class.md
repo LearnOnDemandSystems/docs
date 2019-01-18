@@ -7,7 +7,7 @@ The Attendance Chart link displays once class begins. Attendance may be marked m
 >[!NOTE] The TMS will automatically register students who are attending virtually through one of our integrated virtual classroom meeting hosts on the attendance chart each day when they click the Launch Class button on their enrollment. Additionally, if your organization uses the Student Check-in, checking in a student on the Check-In page automatically marks students attending on the Roster and updates the Attendance Chart.
 
 To open the **Attendance Chart**:
-1.	From **Site Administration** on the **Classes** tile, click **Find Classes**.
+1.	On the **Admin** menu in the **Classes** group, click **Find Classes**.
 2.	Search for and select your class.
 3.	On the **Class** profile, click **Attendance Chart**.
 4.	Check boxes to mark attendance.

@@ -3,7 +3,7 @@
 Creating users and creating classes have fields which allow for each organization to choose their own default values. The default value will automatically display when you are creating a new user or class, and each of these items can be revised as needed. You can set defaults through Organization Preferences.
 
 To set your defaults:
-1. From **Site Administration**, on the **Organizations** tile click **My Organizations**. 
+1. On the **Admin** menu, in the **Organizations** group, click **My Organizations**. 
 1. Click the organization **Name** to access the **Organization Profile**.
 1. Click **Edit**. 
 1. Click the **Preferences** tab. 

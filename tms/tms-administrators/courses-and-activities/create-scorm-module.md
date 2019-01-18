@@ -6,7 +6,7 @@ First you will need to ensure you have the proper permissions. Please contact **
 
 Once you have the permissions needed,
 
-1. On the **Site Administration** page in the **SCORM / AICC** tile, click **Create SCORM Module**.
+1. On the **Admin** menu in the **SCORM / AICC** group, click **Create SCORM Module**.
 1. The Choose SCORM Module dialog will open. Currently the process requires Adobe Flash Player. If necessary, click the **Adobe Flash Player** button to run Adobe Flash Player. 
 
 >[!ALERT] If you are using Firefox as your browser, this button might be black. Other browsers may render the button differently as well. However, if you hover your mouse over it, you will get a screen tip, Adobe Flash Player.

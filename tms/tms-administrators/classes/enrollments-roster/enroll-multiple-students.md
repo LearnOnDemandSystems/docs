@@ -4,7 +4,7 @@ There are a couple of tools in the TMS you can use to register students. The the
 
 To create multiple enrollments:
 
-1. On **Site Administration** on the **Classes** tile, click **Find Classes**. This opens the Find Classes page.
+1. On the **Admin** menu in the **Classes** group, click **Find Classes**. This opens the Find Classes page.
 1. Input part of the name of the class you want in the **Name** field and click **Search**.
 1.  Find the class in the search results, and on the class's row click the **Roster** link (the icon of 2 students) on the right. 
 1. On the **Roster** page, click **Add Students**. This opens the Choose User dialog. 

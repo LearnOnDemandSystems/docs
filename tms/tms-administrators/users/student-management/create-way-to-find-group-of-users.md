@@ -7,7 +7,7 @@ The first step is to create your **User Group**. Then you will add your users to
 ## Create A User Group
 
 To create a **User Group**:
-1. On **Site Administration**, find the **User Group** tile and click **Create User Group**. 
+1. On the **Admin** menu in the **User Group** group, click **Create User Group**. 
 1. Input a **Name**.
 1. If applicable, click **Choose** next to **Company**, select the company, and click **OK**.
 1. Click **Save**.

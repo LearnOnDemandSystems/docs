@@ -7,7 +7,7 @@ You can check your students in daily in one spot for all classes running in your
 Checking students in when they arrive at your center automatically marks them attending on the roster so your instructor does not have to manage it. It also marks them on the daily attendance chart which allows you to pull reports on students' attendance. 
 
 To check students in:
-1. From the **Site Admin** page, click **My Organizations** on the **Organizations** tile. 
+1. On the **Admin** menu, click **My Organizations** in the **Organizations** group. 
 1. Click **Student Check-In** for the organization whose classes you want to work with. 
 1. On the **Student Check-In** page, expand the class name to view the students in that class. 
 1. Click next to the student's name to mark them as checked in. It will add a time stamp next to their name. 

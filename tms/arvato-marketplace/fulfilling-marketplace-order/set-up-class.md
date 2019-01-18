@@ -5,7 +5,10 @@ To give your students access to the labs you purchase in the Courseware Marketpl
 LoDS lab access is controlled by class start time. This allows you to set up the class with labs immediately after purchase, well in advance of the class starting. Students will not be able to access the labs until they are enrolled in the class and the class has started. Instructors can access the labs as soon as they are added as instructors to the class. You do not need to purchase labs for the instructors.
 
 To set up a class after a purchase:
-1. On the **Site Administration** page in the **Class Vouchers** tile, click **Manage Class Vouchers**. The Manage Class Vouchers page has the Available Vouchers and Create Class sections. Voucher use is tallied under the Available Vouchers section.
+1. On the **Site Administration** page in the **Class Vouchers** tile, click **Manage Class Vouchers**. This is also available from the **Class Vouchers** group on the **Admin** menu.
+
+> The Manage Class Vouchers page has the Available Vouchers and Create Class sections. Voucher use is tallied under the Available Vouchers section.
+
 1. Verify your vouchers show in the **Available** column. You cannot create classes until the vouchers show as available.
 1. Scroll to the **Create Class** section. In the **Course** field, if needed, click the dropdown to select the course for which you want to setup a class.
 1. Enter the number of students who will be enrolled in the class in the **Students** field. Since you may create multiple classes using the vouchers, this can be less than or equal to the number of vouchers that are available for the course.

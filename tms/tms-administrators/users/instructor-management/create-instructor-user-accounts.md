@@ -3,7 +3,7 @@
 User accounts specific for instructors can be added in the TMS. These accounts will automatically assign the Instructor permissions your trainers will need to login, manage classes and labs, and host virtual classes. Each user account created must use a unique email address.
 
 To create an instructor account:
-1. On the **Site Administration** page on the **Instructor** tile, click **Create Instructor**. 
+1. On the **Admin** menu in the **Instructor** group, click **Create Instructor**. 
 1. This opens up the Create User page. Fill in the following required fields: 
      1. **First Name** 
      1. **Last Name**
@@ -18,4 +18,4 @@ You may fill-in data in the other fields if you wish to capture it here. These f
 ## Related Article
 If you receive a  message that the username or email has already been used, please read:
 
-- [What do I do if an email address is unavailable when I am creating a user account?](../student-management/what-to-do-if-email-address-unavailable-when-creating-user-account.md)
+- [What do I do if an email address is unavailable when I am creating a user account?](../student-management/email-address-unavailable.md)

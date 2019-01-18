@@ -6,7 +6,7 @@ Once completion certificate templates are added to a course, the certificate is 
 
 For instructor-led training, administrative users can print certificates from the class profile or roster at any time:
 
-1. Click the **Completion Certificates** link
+1. Click the **Completion Certificates** link.
 1. If more than one completion certificate is available for a course a dialog opens listing all available certificate types. 
      1. Select a certificate template.
      1. Click **OK** to download the files. 

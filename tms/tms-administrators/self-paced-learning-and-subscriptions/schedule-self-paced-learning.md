@@ -5,7 +5,7 @@ Self-paced learning is done through a course assignment. It gives the student di
 Students can access the course assignment from the **Current Training** page. Under **Course Assignments**, the student will click the name of the course to open the assignment and access their labs. After a course assignment has been completed, the assignment moves to the student's **Transcript** page. A completed course assignment is accessed by clicking the **Transcript** link and clicking the course name. Students have the ability to launch a new instance of completed labs as long as the expiration date has not passed.
 
 To create a course assignment:
-1. On the **Site Admin** page on the **Course Assignments** tile click **Create Course Assignment**. 
+1. On the **Admin** menu in the **Course Assignments** group, click **Create Course Assignment**. 
 1. On the **Create Course Assignment** page, click the **Choose** button beside the **Student** field. This opens the Choose User dialog. 
 1. Input part of the student's **First** and **Last Name** in the filters and click **Search**. 
 1. Select the student from the search results and click **OK**. This adds the student to the course assignment. 

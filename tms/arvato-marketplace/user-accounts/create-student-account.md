@@ -3,7 +3,7 @@
 Students must have accounts in the TMS to be enrolled in classes to access their labs. You can manually create these accounts for your students.
 
 To create a user account:
-1. Go to **Site Administration**. 
+1. Click **Admin** to open the **Admin** menu or navigate to **Site Administration**. 
 1. Under **Users**, Click **Create User**.
 1. Fill in the required **Basic Information**:
     - **First Name**

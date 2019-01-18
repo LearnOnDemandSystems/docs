@@ -41,6 +41,7 @@ If you an Administrator, explore the following topics/processes to help you star
 
 - [How do I change my password?](./end-user-student-faqs/basics/change-password.md)
 - [How do I access and change my user profile?](./end-user-student-faqs/basics/change-user-profile.md)
+- [Important Note for Windows Server Operating Systems Users](./end-user-student-faqs/basics/windows-server-os.md)
 
 ### Labs
 
@@ -63,6 +64,8 @@ If you an Administrator, explore the following topics/processes to help you star
 ### General
 
 - [What does it mean to be a contract instructor?](./instructors/general/what-is-a-contract-instructor.md)
+- [What is the Admin menu and how does it work?](./tms-adminisrators/tms-fundamentals/admin-menu.md)
+- [How do I, as an Instructor, reset a student's password?](./instructors/general/reset-student-password.md)
 
 ### Preparation and Classes
 
@@ -179,9 +182,9 @@ If you an Administrator, explore the following topics/processes to help you star
 #### *Student Management*
 
 - [How do I create student user accounts?](./tms-administrators/users/student-management/create-student-user-accounts.md)
-- [What do I do if an email address is unavailable when I am creating a user account?](./tms-administrators/users/student-management/what-to-do-if-email-address-unavailable-when-creating-user-account.md)
+- [What do I do if an email address is unavailable when I am creating a user account?](./tms-administrators/users/student-management/email-address-unavailable.md)
 - [How can I create multiple user accounts at once?](./tms-administrators/users/student-management/create-multiple-user-accounts-at-once.md)
-- [What can I do about duplicate user accounts?](./tms-administrators/users/student-management/what-to-do-about-duplicate-user-accounts.md)
+- [What can I do about duplicate user accounts?](./tms-administrators/users/student-management/duplicate-user-accounts.md)
 - [How do I find users?](./tms-administrators/users/student-management/find-users.md)
 - [How do I create a temporary user role?](./tms-administrators/users/student-management/create-temporary-user-role.md)
 - [How can I create a way to find a group of users?](./tms-administrators/users/student-management/create-way-to-find-group-of-users.md)

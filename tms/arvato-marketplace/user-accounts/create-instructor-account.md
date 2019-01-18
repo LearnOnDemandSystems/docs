@@ -5,7 +5,7 @@ Need to set up your instructors in the TMS? You may either create a new user acc
 ## Create New Instructor
 
 To set up a new Instructor account:
-1. On the **Site Administration** page, in the **Instructor** tile, click **Create Instructor**. 
+1. On the **Admin** menu, in the **Instructor** group, click **Create Instructor**. 
 1. On the **Basic Information** tab of the **Create User** page, fill in the user’s required information -
      - **First Name**
      - **Last Name**
@@ -19,7 +19,7 @@ The Instructor role will automatically be applied. Please provide the new instru
 ## Modify Existing User
 
 If the user already has an account within your organization, you will modify their account to designate them as an instructor. To do this:
-1.  From **Site Administration**, in the **Users** tile, click **Find Users**.
+1.  From the **Admin** menu, in the **Users** group, click **Find Users**.
 1. Input the user's **Name** and click **Search**. 
 1. Select the user in the search results. 
 1. Click **Edit**

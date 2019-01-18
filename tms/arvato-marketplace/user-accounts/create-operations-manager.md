@@ -5,7 +5,7 @@ You can set up additional users to be class schedulers in your TMS organization.
 ## Create New Operations Manager
 
 To set up a new Operations Manager account:
-1. On the **Site Administration** page, in the **Users** tile, click **Create User**.
+1. Click **Admin** to open the **Admin** menu, and in the **Users** group, click **Create User**.
 1. On the **Basic Information** tab of the **Create User** page, fill in the user’s required information -
      - **First Name**
      - **Last Name**
@@ -22,7 +22,7 @@ Please provide the new Operations Manager with their login credentials.
 ## Modify Existing User
 
 If the user already has an account within your organization, you will modify their account to designate them as an instructor. To do this:
-1.  From **Site Administration**, in the **Users** tile, click **Find Users**.
+1.  On the **Admin** menu, in the **Users** group, click **Find Users**.
 1. Input the user's **Name** and click **Search**. 
 1. Select the user in the search results. 
 1. Click **Edit**

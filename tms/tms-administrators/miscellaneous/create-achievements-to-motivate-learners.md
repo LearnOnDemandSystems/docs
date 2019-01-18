@@ -13,7 +13,7 @@ There are several terms (fields) you will need to know before you start to creat
 - **Conditions** - the conditions for earning the achievement. They are written in JSON ([Help with JSON conditions](tms-achievement-conditions.md)).
 
 To create an achievement:
-1. On the **Site Admin** page, click **Achievements** in the Organization tile.
+1. On the **Admin** menu, click **Achievements** in the **Organization** group.
 1. On the **Find Achievements** page, click **Create Achievement** on the upper right side.
 1. On the **Create Achievement** page, complete the **Basic Information** tab:
      1. **Name**

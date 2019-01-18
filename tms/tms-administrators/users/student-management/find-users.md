@@ -3,7 +3,7 @@
 Users can be found by name, e-mail address, username, role, organization, organizations they have management over, when they were created and several other options as well.
 
 To find a user:
-1. On **Site Administration** on the **Users** tile, click **Find Users**. 
+1. On the **Admin** menu in the **Users** group, click **Find Users**. 
 1. Click **Add filter**.
 1. From the dropdown, select the ones you would like to use. 
 1. Add necessary information in the filters. 
