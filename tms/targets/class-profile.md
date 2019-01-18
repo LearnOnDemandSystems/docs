@@ -1,4 +1,4 @@
-# Class Profile Targeted Help
+# Class Profile Targeted Help (2nd)
 
 The Class profile page provides class details, access to its activities, and a menu bar of links for associated pages and actions. These links will vary from class to class depending on setup of class, course, and organization. 
 
