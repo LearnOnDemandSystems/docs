@@ -3,7 +3,7 @@
 If your organization would like to use contract instructors when scheduling classes, you may opt in to our contract instructor program. By opting in, you gain access to view contract instructor contact information and the ability to schedule these instructors for your classes.
 
 To opt in to using contract instructors:
-1. From to the **Site Admin**, on the **Organizations** tile click **My Organizations**. 
+1. On the **Admin** menu in the **Organizations** group, click **My Organizations**. 
 1. Click the name of your organization
 1. On the **Organization Profile** page, click **Edit**. 
 1. Click the **Preferences** tab

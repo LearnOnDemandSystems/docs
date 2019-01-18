@@ -2,7 +2,7 @@
 
 When you want to find which courses are available in the system and whether they have labs or not, you can do this from the Find Courses page. 
 
-1. On **Site Administration**, click **Find Courses** on the **Courses** tile. 
+1. On the **Admin** menu, click **Find Courses** in the **Courses** group. 
 1. On the **Find Courses** page, click **Output Options** and select **Labs**. 
 1. Click **Search**. All regular available classes will be listed with a column showing whether the course has labs and if so, the platform for those labs. 
 

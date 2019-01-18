@@ -27,7 +27,7 @@ To add certificates:
      - **TrainingDays** - Inputs the number of training days from the course.
 
 To upload the certificate template:
-1. On **Site Administration**, on the **Courses** tile click **Manage Completion Certificates**.
+1. On the **Admin** menu in the **Courses** group, click **Manage Completion Certificates**.
 1. Click **Create Course Certificate Template**. 
 1. Add a **Name** and **Description**, and click **Upload new file**.
 1. Select the DOCX file in your file system and click **Open**.
@@ -38,7 +38,7 @@ To upload the certificate template:
 Once a certificate template is uploaded, it is available for you to add to courses. One or more certificates may be added to a course. After a certificate is added, it is available to be printed for any class or course assignment using the course.
 
 To add a certificate to a course:
-1. On **Site Administration** on the **Courses** tile, click **Find Courses**. 
+1. On the **Admin** menu in the **Courses** group, click **Find Courses**. 
 1. On the **Find Courses** page, use the filters to narrow the results to the course(s) you want.
 1. Click **Search** to display the desired course(s). 
 1. Open the course from the search results. 

@@ -5,7 +5,7 @@ Custom events are used to schedule a seminar, a meeting or a class without any o
 >[!NOTE] Courses provide content such as labs, video, external sites, assessments and documents. If course content is needed, then a Class should be created instead of a Custom Event. 
 
 To create a Custom Event:
-1. On **Site Administration** on the **Custom Events** tile, click **Create Custom Event**. 
+1. On the **Admin** menu in the **Custom Events** group, click **Create Custom Event**. 
 
 This opens up the Create Custom Event page. On the **Basic Information** section:
 1. Input the **Display Name** for the event. 

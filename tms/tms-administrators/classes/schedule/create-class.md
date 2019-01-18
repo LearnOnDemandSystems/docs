@@ -3,7 +3,7 @@
 Classes are used to schedule meeting times and give students access to course activities for instructor-led training. If course activities are not needed for the meeting, then a Custom Event can be used.
 
 To create a class: 
-1. On the **Site Administration** on the **Classes** tile, click **Create Class**. This opens up the Create Class page. 
+1. On the **Admin** menu in the **Classes** group, click **Create Class**. This opens up the Create Class page. 
 
 On the **Basic Information** section: 
 1. To add a Course, click **Choose** next to **Course**. 

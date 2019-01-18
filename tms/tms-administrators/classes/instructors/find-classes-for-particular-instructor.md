@@ -3,7 +3,7 @@
 You can filter the **Find Classes** page for classes that a particular instructor has been added. The instructor does not have to be assigned to any sessions or be the primary instructor for the class or a session. They just have to be in the class(es).
 
 To do this:
-1. On the **Site Administration** page in the **Classes** tile, click **Find Classes**.
+1. On the **Admin** menu in the **Classes** group, click **Find Classes**.
 1. On the **Find Classes** page, click the **Add filter** dropdown and click **Instructor**. The Choose Instructor dialog will open.
 1. Add the criteria for the instructor you want and click **Search**.
 1. Select the instructor from the results and click **OK**.

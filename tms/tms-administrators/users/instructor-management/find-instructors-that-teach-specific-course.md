@@ -3,7 +3,7 @@
 You can use filters on the Find Instructors page and the Choose Instructor dialog box from the Create/Edit Class page to narrow the list of instructors to ones whose profiles match your criteria. On the Find Instructors page this could be those who have attended, prepared for, or are certified to teach a course you choose. Only the certified filter is available in the Choose Instructor dialog box and only after a course is chosen. 
 
 To find instructors for a course:
-1. Click **Find Instructors** on the **Site Admin** page. 
+1. Click **Find Instructors** on the **Admin** menu. 
 1. On the **Find Instructors** page, click **Add Filter** dropdown and select one these filters:
      1. **Certified for course (choose)**
      1. **Prepared for course (choose)**

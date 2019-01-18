@@ -3,7 +3,7 @@
 If you have several users you want to create and want to save time from doing them individually, you can use the Import Users feature. This will allow creating up to 10,000 users at a time through the use of a CSV (comma-separated values) formatted file. Guidance on this file and the required/optional fields are provided on the Import Users page.  
 
 To create multiple users:
-1. On the **Site Administration** page on the **Users** tile, click **Import Users**. 
+1. On the **Admin** menu in the **Users** group, click **Import Users**. 
 1. This opens the Import Users page which contains helpful instructions. Read the entire page carefully.
 1. Click **user import template** to download the template to build the CSV file for your users. 
 1. Once the file is built and the data is verified for accuracy, return to the **Import Users** page (if you have left it) and complete the fields at the top of the page. 
@@ -38,4 +38,4 @@ Once the import completes you will be provided with a list of users that have be
 ## Related Article
 If you receive a  message that usernames or emails have already been used, please read:
 
-- [What do I do if an email address is unavailable when I am creating a user account?](what-to-do-if-email-address-unavailable-when-creating-user-account.md)  
+- [What do I do if an email address is unavailable when I am creating a user account?](email-address-unavailable.md)  

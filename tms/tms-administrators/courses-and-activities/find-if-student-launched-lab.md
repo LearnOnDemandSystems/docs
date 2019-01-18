@@ -3,7 +3,7 @@
 When you need to know if or when students have launched a lab, you can use the Find Lab Instances search page. You can find any instance of a lab which was launched and search by items like a student's name, an instructor's name, a class name, a lab name and/or a time period.
 
 To do this: 
- 1. On the **Site Admin** page, in the **Labs** tile click on **Find Lab Instances**. This will bring up the Find Lab Instances search page with several filters to help you locate the labs you are looking for. 
+ 1. On the **Admin** menu in the **Labs** group, click **Find Lab Instances**. This will bring up the Find Lab Instances search page with several filters to help you locate the labs you are looking for. 
  1. If needed, click the **Add filter** dropdown.
  1. Select the appropriate filter(s). 
  1. Fill-in the information you are looking for

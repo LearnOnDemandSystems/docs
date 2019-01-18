@@ -3,7 +3,7 @@
 When you are trying to create a user or instructor account and the email address you used shows as unavailable, this means the address has already been used.
 
 The first thing to do is to see if you have access to the user or instructor account. 
-1. Go to **Site Administration**, and on the **Users** tile, click **Find Users**. 
+1. On the **Admin** menu in the **Users** group, click **Find Users**. 
 1. Add the **Disabled** filter and set it to **Is Or Is Not Disabled**.
 1. Add the **Email** filter and input the email address. 
 1. Click **Search**. 

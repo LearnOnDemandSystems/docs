@@ -3,7 +3,7 @@
 When classes are created, their sessions are scheduled and can be viewed in the organization's calendar. This way, an organization can see all classes for a month.
 
 To view your classes in a calendar view:
-1. From the **Site Administration** page, click **My Organizations** on the **Organizations** tile. 
+1. On the **Admin** menu, click **My Organizations** in the **Organizations** group. 
 1. Click **Calendar** for the organization whose classes you want to see. By choosing the parent organization's **Calendar**,  you may select to see all child organizations' classes on one calendar or you can select a child organization's **Calendar** to only view its classes.
 
 On the **Calendar** page, you may use the Search Filters to narrow your view. Under **Output Options**, you may choose to display **Instructors**, **Classrooms**, or the **Program** as well as either individual sessions or entire events.
