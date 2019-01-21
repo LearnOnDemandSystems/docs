@@ -7,7 +7,7 @@ To change either the password or username:
 1. On the right side of the **Roster** page on the row for the student, click the **Username and Password** icon (looks like a lock). 
 1. The Login Credentials: Student dialog opens.
 1. Change the **Username** if needed.
-1. Check **Change Password if needed.
+1. Check **Change Password** if needed.
     1. Input and confirm the **New Password**.
     1. Click **Save**.
 
