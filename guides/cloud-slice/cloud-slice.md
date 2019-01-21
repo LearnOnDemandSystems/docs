@@ -29,7 +29,7 @@ To expose the Cloud Slice capability to your lab(s), you must first grant the On
 Select one of the following cloud platforms to learn how you can grant the required access to that platform. If the platform listed is not a hyperlink, that platform is not yet supported for Cloud Slice labs.
 
 1. [Microsoft Azure](microsoft-azure/azure-cloud-slice-setup.md)
-1. [Amazon Web Services](aws-cloud-slice-setup.md)
+1. [Amazon Web Services](aws/aws-cloud-slice-setup.md)
 1. Google Cloud Platform (coming soon)
 
 [Back to top][back-to-top]
