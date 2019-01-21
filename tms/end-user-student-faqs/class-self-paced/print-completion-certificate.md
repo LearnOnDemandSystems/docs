@@ -6,7 +6,7 @@ Completion certificates can be printed after the class is over and you have been
 
 To print the completion certification: 
 
-1. Click **My Transcript** at the top of the page.  
+1. Click **My Transcript** in the navigation bar at the top of the page.  
 1. Click the icon for the certificate, to the right of the class or course assignment name.
 1. In the **Choose Course Certificate Template** dialog, click the certificate you want to print and click **OK**. 
 
