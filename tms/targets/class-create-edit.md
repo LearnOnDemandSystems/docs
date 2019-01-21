@@ -1,6 +1,6 @@
-# Targeted Help for Creating a Class
+# Targeted Help for Creating/Editing a Class
 
-There are several options possible when creating a class. The following articles will help you with some of the most common items: 
+There are several options possible when creating or editing a class. The following articles will help you with some of the most common items: 
 
 - [How do I create a class?](../tms-administrators/classes/schedule/create-class.md)
 - [How do I schedule a class with multiple instructors?](../tms-administrators/classes/instructors/schedule-class-with-multiple-instructors.md)
