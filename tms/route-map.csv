@@ -1,4 +1,4 @@
 route,target
 /,/tms/home.md
 /Class/{classId},/tms/targets/class-profile.md
-
+/Class/Roster/{classId},/tms/targets/class-roster.md
