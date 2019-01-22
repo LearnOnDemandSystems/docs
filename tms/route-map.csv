@@ -11,3 +11,8 @@ route,target
 /User/CurrentTraining/{userId},/tms/targets/user-current-training.md
 /User/Create,tms/targets/user-create-edit.md
 /User/Edit/{userId},tms/targets/user-create-edit.md
+/User/Search,/tms/targets/user-find.md
+/Organization/MyOrganizations,/tms/targets/org-profile-my-orgs.md
+/Organization/{organizationId},/tms/targets/org-profile-my-orgs.md
+/Organization/Edit/{organizationId},/tms/targets/org-edit.md
+/Organization/Calendar/{organizationId},/tms/tms-administrators/classes/schedule/see-classes-in-calendar-view.md
