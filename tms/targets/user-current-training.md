@@ -6,6 +6,6 @@ The following articles are related to links that may be found on this page:
 
 - [How do I get into my virtual classroom?](../end-user-student-faqs/class-self-paced/get-into-virtual-classroom.md)
 - [How do I print my completion certificate?](../end-user-student-faqs/class-self-paced/print-completion-certificate.md)
-- [Why can't I find my completed labs?](../end-user-student-faqs/labs/access-completed-labs.md)
+- [Why can't I find my completed labs?](../end-user-student-faqs/lab-access/access-completed-labs.md)
 
 To see all Help articles available for the TMS, you can click the **Home** button at the top of the window.
