@@ -1,6 +1,5 @@
 route,target
 /,/tms/home.md
-https://anytimetraining-acc.learnondemand.net/User/Login,/tms/targets/org-edit.md
 /Class/{classId},/tms/targets/class-profile.md
 /Class/Roster/{classId},/tms/targets/class-roster.md
 /Class/Create/,/tms/targets/class-create-edit.md
