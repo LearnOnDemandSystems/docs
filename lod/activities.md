@@ -326,6 +326,24 @@ To enable Scoring in your lab:
 
 1. The student will be given the score value upon completing the Activity correctly. 
 
+### Partial Scoring
+
+Partial scoring allows a student to recieve partial credit for a task in the lab, instead of the score being all or nothing. 
+
+For example, if the lab instructions had a task to create a directory and name it "MyDirectory", and the student created the directory but didn't name it properly -- they could recieve partial credit for creating the directory, even though they didn't name it properly. 
+
+Partial scoring is achieved with automated Activities in IDLx. To configure partial scoring for the example above:
+
+1. Edit the **lab instructions**.
+1. **Enable scoring** from the Activities menu.
+1. **Add** an automated Activity.
+1. In the **Script 1** field, enter a PowerShell script to check for the directory the studnet created.
+1. Assign a score value for script 1. This will be the partial score the student will receive if the directory is created. 
+1.  Click _New Script_.
+1. In the **Script 2** field, enter a PowerShell script to verify the directory is named properly. 
+1. Assign a score value for script 2. This will be the partial score the student will receive if the directory is name properly.
+
+
 ## Activity Management
 
 After Activities are created, they can be modified at any time, using the Activity editing menu. 
