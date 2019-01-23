@@ -6,12 +6,15 @@
 - Allows lab authors to specify if the lab will display pass/fail and the number of correct when submitting a lab for grading. If the lab author chooses to not display pass/fail and the score, the message simply says the lab has been submitted for grading. 
 
 This can be set in the Activities menu in the IDLx instruction editor.
+
 ![](images/enable-show-score.png)
 
 _Show scoring result enabled_
+
 ![](images/you-passed.png)
 
 _Show scoring result disabled_
+
 ![](images/submitted-for-grading.png)
 ### **AWS Login Rework**
 - Allows a lab user to launch a lab and go directly into the AWS portal, without the need to enter AWS credentials. 
