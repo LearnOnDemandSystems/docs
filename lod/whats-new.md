@@ -1,5 +1,35 @@
 # What's New in Lab On Demand
 
+## **Released January 18, 2019**
+
+### **Show Scoring Result Upon Completion** 
+- Allows lab authors to specify if the lab will display pass/fail and the number of correct when submitting a lab for grading. If the lab author chooses to not display pass/fail and the score, the message simply says the lab has been submitted for grading. 
+
+This can be set in the Activities menu in the IDLx instruction editor.
+
+![](images/enable-show-score.png)
+
+_Show scoring result enabled_
+
+![](images/you-passed.png)
+
+_Show scoring result disabled_
+
+![](images/submitted-for-grading.png)
+### **AWS Login Rework**
+- Allows a lab user to launch a lab and go directly into the AWS portal, without the need to enter AWS credentials. 
+
+### **IDLx intuitive monitoring**
+- Zoom level is now stored on the server.
+- Zoom level is automatically restored when a student reconnects/reloads  -or save/resumes. 
+- Monitor will see zoom level changes in real-time with no need t - refresh.
+- Scroll position within the instructions tab is now stored on the server.
+- Scroll position is automatically restored when a studen -reconnects/reloads, or save/resumes.
+- Monitor will be scrolled to match the student's page location i -real-time with no need to refresh.
+
+**Bugfix**
+- We now prevent SCSI adapters from conflicting with SCSI disks in VMware based labs - VMware VMs shouldn't allow SCSI adapter and Disk to use same Device ID. Device ID 7 has been removed from availability. 
+
 ## **Released November 16, 2018**
 
 ### **Shared Labs Scalability Improvements**
