@@ -11,7 +11,7 @@ The following articles relate to this page:
 
 - [How do I enroll students in a class?](../arvato-marketplace/fulfilling-marketplace-order/enroll-students-in-class.md)
 - [How do I add more students to a class I have already created?](../arvato-marketplace/fulfilling-marketplace-order/add-more-students-to-class.md)
-- [What can I do if a student needs to reschedule or cancel a class?](/arvato-marketplace/faq-for-arvato-marketplace/reschedule-cancel-student.md)
+- [What can I do if a student needs to reschedule or cancel a class?](../arvato-marketplace/faq-for-arvato-marketplace/reschedule-cancel-student.md)
 
 ### Administrators
 
