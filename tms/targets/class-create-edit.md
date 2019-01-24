@@ -1,5 +1,15 @@
 # Targeted Help for Creating/Editing a Class
 
+> [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
+
+## Courseware Marketplace Customers
+
+The following articles will help you create classes with instructors:
+
+- [How do I set up a class?](../arvato-marketplace/fulfilling-marketplace-order/set-up-class.md)
+- [How do I add an instructor to a class?](../arvato-marketplace/fulfilling-marketplace-order/add-instructor-to-class.md)
+
+## Administrators
 There are several options possible when creating or editing a class. The following articles will help you with some of the most common items: 
 
 - [How do I create a class?](../tms-administrators/classes/schedule/create-class.md)
