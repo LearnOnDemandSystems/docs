@@ -9,7 +9,7 @@ The Roster is a powerful page where you can view and manage student enrollments 
 The following articles relate to this page:
 
 - [How do I enroll students in a class?](../arvato-marketplace/fulfilling-marketplace-order/enroll-students-in-class.md)
-- [What can I do if a student needs to reschedule or cancel a class?](/arvato-marketplace/faq-for-arvato-marketplace/reschedule-cancel-student.md)
+- [What can I do if a student needs to reschedule or cancel a class?](../arvato-marketplace/faq-for-arvato-marketplace/reschedule-cancel-student.md)
 
 ## Administrators
 
