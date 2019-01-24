@@ -1,6 +1,6 @@
 # Targeted Help for Creating/Editing a User or Instructor
 
- [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
+> [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
 
 ## Courseware Marketplace Customers
 
