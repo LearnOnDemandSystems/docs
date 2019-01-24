@@ -14,12 +14,13 @@ A Welcome page is provided to help with the next steps. There is also more infor
 ## Returning Customers
 
 As a returning customer, you already have an organization set up in the TMS. You do not need to create a new organization to access your vouchers and set up your classes for labs. Your vouchers are automatically sync'd from the Courseware Marketplace and loaded into the TMS. It may take up to 10 minutes for the sync to occur. Simply:
-1. Go to https:alh.learnondemand.net and click **Sign In**.
+1. Go to **https://alh.learnondemand.net** and click **Sign In**.
 1. Enter your **Username** and **Password** and click **Sign In**.
+
 
 ## Related Articles
 
-Here are other articles that will help you get started and manage your training in the TMS:
+Here are other articles that will help you get started and manage your training in the TMS (click [**Home**](./home.md) to return to the main Help page):
 - [How do I set up a class?](set-up-class.md)
 - [How do I add an instructor to a class?](add-instructor-to-class.md)
 - [How and when can students access labs?](../faq-for-arvato-marketplace/students-access-labs.md)

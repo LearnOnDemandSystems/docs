@@ -1,7 +1,19 @@
 # Targeted Help for the Class Profile, Create Class, and Find Classes pages
 
+> [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
+
 ## Class Profile
 The Class profile page provides class details, access to its activities, and a menu bar of links for associated pages and actions. These links will vary from class to class depending on setup of class, course, and organization. They also vary depending on whether it is before, during or after the class is scheduled.
+
+### Courseware Marketplace Customers
+
+The following articles relate to this page:
+
+- [How do I enroll students in a class?](../arvato-marketplace/fulfilling-marketplace-order/enroll-students-in-class.md)
+- [How do I add more students to a class I have already created?](../arvato-marketplace/fulfilling-marketplace-order/add-more-students-to-class.md)
+- [What can I do if a student needs to reschedule or cancel a class?](/arvato-marketplace/faq-for-arvato-marketplace/reschedule-cancel-student.md)
+
+### Administrators
 
 The following are articles related to actions that can be done from this page:
 
@@ -13,6 +25,14 @@ To see all Help articles available for the TMS, you can click the **Home** butto
 
 ## Creating a Class
 
+### Courseware Marketplace Customers
+
+The following articles will help you create classes with instructors:
+
+- [How do I set up a class?](../arvato-marketplace/fulfilling-marketplace-order/set-up-class.md)
+- [How do I add an instructor to a class?](../arvato-marketplace/fulfilling-marketplace-order/add-instructor-to-class.md)
+
+### Administrators
 There are several options possible when creating or editing a class. The following articles will help you with some of the most common items: 
 
 - [How do I create a class?](../tms-administrators/classes/schedule/create-class.md)

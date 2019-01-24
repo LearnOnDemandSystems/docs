@@ -2,6 +2,8 @@
 
 Welcome to the OneLearn Training Management System platform (TMS) Help!
 
+ > [!Alert] This page provides links to all Help articles. Please be aware that not all functionality covered may be available to you.
+
 ## Student
 
 Are you a student needing assistance with your training? Check out the [Frequently Asked Questions (FAQs) for Students](#student-faqs) articles.
@@ -12,7 +14,7 @@ Are you an instructor who needs information to teach your classes? The [Instruct
 
 ## Courseware Marketplace Customer
 
-If you purchased Learn on Demand Systems labs through the Arvato Courseware Marketplace, review the following topics/processes to access and manage your orders:
+If you purchased Learn on Demand Systems labs through the Arvato Courseware Marketplace, read the [Getting Started](./arvato-marketplace/fulfilling-marketplace-order/getting-started.md) article first, then review the following topics/processes to access and manage your orders:
 - [Fulfilling Your Lab Order](#fulfilling-your-lab-order)
 - [Managing Your Users](#managing-your-users)
 - [FAQs for Courseware Marketplace Orders](#faqs-for-courseware-marketplace-orders)
@@ -89,7 +91,6 @@ If you an Administrator, explore the following topics/processes to help you star
 
 ### Fulfilling Your Lab Order
 
-- [I just purchased labs from LoDS. How do I get started?](./arvato-marketplace/fulfilling-marketplace-order/getting-started.md)
 - [How do I set up a class?](./arvato-marketplace/fulfilling-marketplace-order/set-up-class.md)
 - [How do I enroll students in a class?](./arvato-marketplace/fulfilling-marketplace-order/enroll-students-in-class.md)
 - [How do I add an instructor to a class?](./arvato-marketplace/fulfilling-marketplace-order/add-instructor-to-class.md)

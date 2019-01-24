@@ -3,7 +3,7 @@
 There may be times when you need to add more students into a class. If you want to increase the capacity of a scheduled class, you must have unused class vouchers available. The class must match the new vouchers' course.
 
 To increase the number of students you can enroll into class:
-1. From **Site Administration** in the **Classes** tile, click **Find Classes**. 
+1. On the **Admin** menu in the **Classes** group, click **Find Classes**.
 1. If the class has already started, remove the **Starts in the Future** filter. 
 1. Click **Search** and click on the class name in the search results to open the class profile. 
 1. Click **Class Training Keys**. 

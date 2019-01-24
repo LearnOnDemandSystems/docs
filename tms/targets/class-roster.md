@@ -1,6 +1,17 @@
 # Class Roster Targeted Help
 
+> [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
+
 The Roster is a powerful page where you can view and manage student enrollments in your class. There is a summary area and a student list as well as different methods to add students to the class. It also has links to other related class pages and the class’s details. 
+
+## Courseware Marketplace Customers
+
+The following articles relate to this page:
+
+- [How do I enroll students in a class?](../arvato-marketplace/fulfilling-marketplace-order/enroll-students-in-class.md)
+- [What can I do if a student needs to reschedule or cancel a class?](/arvato-marketplace/faq-for-arvato-marketplace/reschedule-cancel-student.md)
+
+## Administrators
 
 The following are articles related to actions that can be done from this page:
 
