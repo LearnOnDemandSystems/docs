@@ -1,5 +1,7 @@
 # User Transcript Targeted Help
 
+> [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
+
 The User Transcript page provides the student and others access to classes, course assignments, and certifications that the student has completed. The following are articles for both students and administrators related to this page:
 
 ## Students

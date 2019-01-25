@@ -8,8 +8,11 @@ You may need to contact us for the permissions required to upload or add certifi
 
 ## Steps for adding certificates:
 
-1. Create and upload a certificate template. See [How do I ensure my Course Completion Certificates print correctly?](ensure-completion-certificates-print-correctly.md) for best practices.
-1. Add certificates to courses.
+- Create and upload a certificate template. 
+
+> [!KNOWLEDGE] See [How do I ensure my Course Completion Certificates print correctly?](ensure-completion-certificates-print-correctly.md) for best practices.
+
+- Add certificates to courses.
 
 Each of these are explained below.
 

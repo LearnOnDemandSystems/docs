@@ -1,4 +1,6 @@
-# Targeted Help for Searching for Users
+# Find Users Targeted Help
+
+> [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
 
 There are several options possible when searching for users on the Find Users page. The following articles will help you will help with the search and related information: 
 
