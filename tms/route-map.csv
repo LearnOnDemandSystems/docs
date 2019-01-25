@@ -10,7 +10,6 @@ route,target
 /Course/Search,/tms/targets/course-find.md
 /CourseAssignment/Create,/tms/targets/course-assignment-create.md
 /Instructor/Search,/tms/targets/instructor-find.md
-/Instructor/Create,/tms/tms-administrators/users/instructor-management/create-instructor-user-accounts.md
 /Organization/{organizationId},/tms/targets/org-profile-my-orgs.md
 /Organization/Calendar/{organizationId},/tms/tms-administrators/classes/schedule/see-classes-in-calendar-view.md
 /Organization/Edit/{organizationId},/tms/targets/org-edit.md
