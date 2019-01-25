@@ -9,14 +9,14 @@ All users, regardless of their roles, have a User Profile page. This page provid
 The following articles help you manage your Instructor profile:
 
 - [How can I show times when I am unavailable?](../instructors/instructor-profile/show-unavailable-times.md)
-- [How can I show what I am qualified to teach?](../instructors/instructor-profile/show-courses-qualified-to-teach)
+- [How can I show what I am qualified to teach?](../instructors/instructor-profile/show-courses-qualified-to-teach.md)
 
 
 ### Administrators
 
 The following are articles related to actions that can be done from this page:
 
-- [How do I find a student's upcoming classes?](../tms-administrators/classes/enrollments-rosters/find-students-upcoming-classes.md)
-- [How do I find a student's completed classes?](../tms-administrators/classes/enrollments-rosters/find-students-completed-classes.md)
+- [How do I find a student's upcoming classes?](../tms-administrators/classes/enrollments-roster/find-students-upcoming-classes.md)
+- [How do I find a student's completed classes?](../tms-administrators/classes/enrollments-roster/find-students-completed-classes.md)
 
 To see all Help articles available for the TMS, you can click the **Home** button at the top of the window.
