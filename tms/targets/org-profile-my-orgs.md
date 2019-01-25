@@ -1,5 +1,7 @@
 # Targeted Help for the My Organizations and Organization Profile pages
 
+> [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
+
 The My Organizations page is a quick way to access to the Profile page for any organization you manage including child organizations in one place. Depnding on several factors, there may also be links under each organization to its calendars for classes, rooms, and instructors and the attendance chart.  
 
 The Organization Profile page provides information for one organization. It has a menu bar of links for associated pages and actions, including the links that are on the My Organizations page. These links will vary for each organization depending on how it has been setup and your permissions. 

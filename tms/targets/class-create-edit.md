@@ -6,6 +6,7 @@
 
 The following articles will help you create classes with instructors:
 
+- [Should I use a Class or a Custom Event or a Course Assignment to schedule training?](../tms-administrators/tms-fundamentals/class-or-custom-event-or-course-assignment-to-schedule-training.md)
 - [How do I set up a class?](../arvato-marketplace/fulfilling-marketplace-order/set-up-class.md)
 - [How do I add an instructor to a class?](../arvato-marketplace/fulfilling-marketplace-order/add-instructor-to-class.md)
 

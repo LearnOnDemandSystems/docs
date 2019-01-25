@@ -1,5 +1,7 @@
 # Targeted Help for Editing an Organization
 
+> [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
+
 There are several options possible when editing an organization depending on your permissions. The following articles will help you with some of the options: 
 
 - [How do I set the defaults for creating users and classes?](../tms-administrators/tms-fundamentals/set-defaults-for-creating-users-and-classes.md)
