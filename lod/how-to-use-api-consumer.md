@@ -2,7 +2,7 @@
 
 To obtain API Consumer access, please contact our Help Desk <a href="mailto:support@learnondemandsystems.com">support@learnondemandsystems.com</a> for assistance.
 
-If you already have API Consumer access, and would like to use an API consumer with Lab on Demand (LOD), you must configure the API on the lab profile, lab series, and the organization profile that will be used with API calls. For more information on how the API can be used, have a look at our [API Documentation](lod/lod-api/lod-api-main.md). 
+If you already have API Consumer access, and would like to use an API consumer with Lab on Demand (LOD), you must configure the API on the lab profile, lab series, and the organization profile that will be used with API calls. For more information on how the API can be used, have a look at our [API Documentation](lod-api/lod-api-main.md). 
 
 - [Lab Series](#lab-series)
 - [Lab Profile](#lab-profile)
