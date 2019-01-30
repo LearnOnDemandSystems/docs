@@ -1,4 +1,4 @@
-# Find Instructors Targeted Help
+# Targeted Help for Searching for Instructors
 
 > [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
 

@@ -1,4 +1,4 @@
-# Class Roster Targeted Help
+# Targeted Help for Class Roster
 
 > [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
 
