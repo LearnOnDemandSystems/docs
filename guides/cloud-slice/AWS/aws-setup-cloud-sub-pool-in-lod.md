@@ -33,7 +33,7 @@ To add a Cloud Subscription Pool to OneLearn Lab on Demand (LOD), perform the fo
 
    |Field Name|Description|
    |----|----|
-   |**Tenant&nbsp;Name**|Enter a domain name where an email server is setup that can receive email from AWS support. In the event that a sliced account needs to be deleted or recovered, a password reset email can be sent to this domain. The email server should have a catch all inbox to receive the emails, and can optionally have a white list rule to only allow messages from AWS Support..|
+   |**Tenant&nbsp;Name**|Enter a domain name where an email server is setup that can receive email from AWS support. In the event that a sliced account needs to be deleted or recovered, a password reset email can be sent to this domain. The email server should have a catch all inbox to receive the emails, and can optionally have a white list rule to only allow messages from AWS Support.|
    |**Application&nbsp;Id**|The identifier that uniquely identifies the client used to manage your cloud service subscription.|
    |**Application&nbsp;Secret**|The secret used to authenticate your client id in your cloud service subscription.|
 
@@ -45,6 +45,8 @@ To add a Cloud Subscription Pool to OneLearn Lab on Demand (LOD), perform the fo
    |**Subscription&nbsp;Name&nbsp;Prefix**|When subscriptions are created, the name of the subscription or account will start with this text.|
 
 10. Click **Save** to create the Cloud Subscription Pool.
+
+11. 
 
 [Back to top](#setup-your-aws-cloud-subscription-in-onelearn-lab-on-demand)
 
