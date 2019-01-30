@@ -1,27 +1,27 @@
 route,target
 /,/tms/home.md
+/Class/Create,/tms/targets/class-create-edit.md
+/Class/Search,/tms/targets/class-find.md
 /Class/{classId},/tms/targets/class-profile.md
-/Class/Create/,/tms/targets/class-create-edit.md
 /Class/Edit/{classId},/tms/targets/class-create-edit.md
 /Class/Roster/{classId},/tms/targets/class-roster.md
-/Class/Search,/tms/targets/class-find.md
 /Class/TrainingKeys/{classId},/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md
-/ClassVoucher/Manage?{organizationId},/tms/targets/class-vouchers.md
+/ClassVoucher/Manage/{organizationId},/tms/targets/class-vouchers.md
 /Course/Search,/tms/targets/course-find.md
 /CourseAssignment/Create,/tms/targets/course-assignment-create.md
 /Instructor/Search,/tms/targets/instructor-find.md
+/Organization/MyOrganizations,/tms/targets/org-profile-my-orgs.md
 /Organization/{organizationId},/tms/targets/org-profile-my-orgs.md
 /Organization/Calendar/{organizationId},/tms/tms-administrators/classes/schedule/see-classes-in-calendar-view.md
 /Organization/Edit/{organizationId},/tms/targets/org-edit.md
-/Organization/MyOrganizations,/tms/targets/org-profile-my-orgs.md
-/User/{userId},/tms/targets/user-profile.md
 /User/Create,/tms/targets/user-create-edit.md
-/User/CurrentTraining/{userId},/tms/targets/user-current-training.md
-/User/Edit/{userId},/tms/targets/user-create-edit.md
 /User/Import,/tms/tms-administrators/users/student-management/create-multiple-user-accounts-at-once.md
 /User/Login,/tms/targets/user-login.md
 /User/Merge,/tms/tms-administrators/users/student-management/duplicate-user-accounts.md
 /User/Search,/tms/targets/user-find.md
+/User/{userId},/tms/targets/user-profile.md
+/User/CurrentTraining/{userId},/tms/targets/user-current-training.md
+/User/Edit/{userId},/tms/targets/user-create-edit.md
 /User/Transcript/{userId},/tms/targets/user-transcript.md
 
 
