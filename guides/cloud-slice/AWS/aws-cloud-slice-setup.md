@@ -130,6 +130,6 @@ Once you have completed the above steps, and AWS has confirmed the maximum amoun
 
 [Return to the Cloud Slice guide][back]
 
-[back-to-top]: #cloud-slice-guide---microsoft-azure-setup "Return to the top of the document"
+[back-to-top]: #cloud-slice-guide---AWS "Return to the top of the document"
 [back]: ../cloud-slice.md#enable-cloud-slice-support-in-your-cloud-platform "Return to the Cloud Slice guide"
 
