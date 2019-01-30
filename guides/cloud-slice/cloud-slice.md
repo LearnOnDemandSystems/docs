@@ -85,8 +85,11 @@ A Cloud Resource Template contains a template document that defines the resource
 Before you get started creating Cloud Resource Templates, you need at least one cloud platform template that you want to use in a Cloud Slice lab. If you haven't already identified templates that you want to use in your lab, select the cloud platform you are using with your lab from the list below to learn how to find templates for that cloud platform. If the platform listed is not a hyperlink, Cloud Resource Templates are not yet supported on that platform.
 
 1. [Microsoft Azure](microsoft-azure/azure-cloud-slice-find-resource-templates.md)
-1. [Amazon Web Services](aws/aws-cloud-slice-find-resource-templates.md)
+1. Amazon Web Services (coming soon)
 1. Google Cloud Platform (coming soon)
+<!--
+1. [Amazon Web Services](aws/aws-cloud-slice-find-resource-templates.md)
+-->
 
 Once you have identified one or more cloud platform template documents you want to use, you can create a Cloud Resource Template in LOD by logging on to the Lab on Demand portal and completing the following steps:
 
