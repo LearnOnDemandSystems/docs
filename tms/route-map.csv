@@ -15,10 +15,11 @@ route,target
 /Organization/Edit/{organizationId},/tms/targets/org-edit.md
 /Organization/MyOrganizations,/tms/targets/org-profile-my-orgs.md
 /User/{userId},/tms/targets/user-profile.md
-/User/Create,tms/targets/user-create-edit.md
+/User/Create,/tms/targets/user-create-edit.md
 /User/CurrentTraining/{userId},/tms/targets/user-current-training.md
-/User/Edit/{userId},tms/targets/user-create-edit.md
+/User/Edit/{userId},/tms/targets/user-create-edit.md
 /User/Import,/tms/tms-administrators/users/student-management/create-multiple-user-accounts-at-once.md
+/User/Login,/tms/targets/user-login.md
 /User/Merge,/tms/tms-administrators/users/student-management/duplicate-user-accounts.md
 /User/Search,/tms/targets/user-find.md
 /User/Transcript/{userId},/tms/targets/user-transcript.md
