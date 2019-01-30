@@ -27,13 +27,13 @@ To add a Cloud Subscription Pool to OneLearn Lab on Demand (LOD), perform the fo
    |Custom&nbsp;subscription&nbsp;unavailable&nbsp;message|This message will be presented to users if they try to launch a lab and a subscription is unavailable. If this field is blank, the default message will be used.|
    |Enable&nbsp;Health&nbsp;Checks&nbsp;|Enable health checks across all subscriptions in this pool. LOD will periodically check the subscription for configuration errors and other potential problems.|
    |Health&nbsp;Check&nbsp;Interval&nbsp;|Health check frequency. The health checks for each subscription will be completed at the specified interval.|
-   |Enabled&nbsp;|Enables the subscription pool for use. Unchecking this box will disable the subscription pool.|)
+   |Enabled&nbsp;|Enables the subscription pool for use. Unchecking this box will disable the subscription pool.|
 
 1. On the **Authentication Tab**, assign values to **Tenant Name**, **Application ID**, and **Application Secret**. 
 
    |Field Name|Description|
    |----|----|
-   |**Tenant&nbsp;Name**|The name of the tenant used for deployment of Cloud Slices in your cloud service.|
+   |**Tenant&nbsp;Name**|Enter a domain name where an email server is setup that can receive email from AWS support. In the event that a sliced account needs to be deleted or recovered, a password reset email can be sent to this domain. The email server should have a catch all inbox to receive the emails, and can optionally have a white list rule to only allow messages from AWS Support..|
    |**Application&nbsp;Id**|The identifier that uniquely identifies the client used to manage your cloud service subscription.|
    |**Application&nbsp;Secret**|The secret used to authenticate your client id in your cloud service subscription.|
 

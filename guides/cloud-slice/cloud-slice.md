@@ -16,7 +16,7 @@ The Cloud Slice feature allows you to create labs in the cloud that are pre-conf
 1. [Setup your cloud subscription(s) in OneLearn Lab on Demand](#setup-your-cloud-subscriptions-in-onelearn-lab-on-demand).
 1. [(Optional) Create a Cloud Resource Template for each template that you want to use during the deployment of your lab(s)](#create-cloud-resource-templates-in-onelearn-lab-on-demand).
 1. [Add Cloud Slice support to your lab profile(s\)](#add-cloud-slice-support-to-your-lab-profiles).
-1. [(Optional) Add a Cloud Exam to your lab profile(s) if you want the labs scored](#add-a-cloud-exam-to-your-lab-profiles).
+
 
 ## Enable Cloud Slice support in your cloud platform
 
@@ -28,8 +28,8 @@ To expose the Cloud Slice capability to your lab(s), you must first grant the On
 
 Select one of the following cloud platforms to learn how you can grant the required access to that platform. If the platform listed is not a hyperlink, that platform is not yet supported for Cloud Slice labs.
 
-1. [Microsoft Azure](microsoft-azure/cloud-slice-setup.md)
-1. Amazon Web Services (coming soon)
+1. [Microsoft Azure](microsoft-azure/azure-cloud-slice-setup.md)
+1. [Amazon Web Services](aws/aws-cloud-slice-setup.md)
 1. Google Cloud Platform (coming soon)
 
 [Back to top][back-to-top]
@@ -76,7 +76,7 @@ To create a cloud subscription pool and configure it in LOD, select the cloud pl
 1. [Amazon Web Services](/guides/cloud-slice/AWS/aws-setup-cloud-sub-pool-in-lod.md)
 1. Google Cloud Platform (coming soon)
 
-## Create Cloud Resource Templates in OneLearn Lab on Demand
+## Create Cloud Resource Templates in OneLearn Lab on Demand   
 
 When you create a Cloud Slice lab, you can provide students with an empty cloud subscription from which to work, or a cloud subscription that includes resources that were provisioned when the student launched their lab. In order to set up the latter, you must define Cloud Resource Templates within OneLearn Lab on Demand (LOD) that you will later include in one or more lab profiles.
 
@@ -84,8 +84,8 @@ A Cloud Resource Template contains a template document that defines the resource
 
 Before you get started creating Cloud Resource Templates, you need at least one cloud platform template that you want to use in a Cloud Slice lab. If you haven't already identified templates that you want to use in your lab, select the cloud platform you are using with your lab from the list below to learn how to find templates for that cloud platform. If the platform listed is not a hyperlink, Cloud Resource Templates are not yet supported on that platform.
 
-1. [Microsoft Azure](microsoft-azure/cloud-slice-find-resource-templates.md)
-1. Amazon Web Services (coming soon)
+1. [Microsoft Azure](microsoft-azure/azure-cloud-slice-find-resource-templates.md)
+1. [Amazon Web Services](aws/aws-cloud-slice-find-resource-templates.md)
 1. Google Cloud Platform (coming soon)
 
 Once you have identified one or more cloud platform template documents you want to use, you can create a Cloud Resource Template in LOD by logging on to the Lab on Demand portal and completing the following steps:
@@ -191,7 +191,7 @@ The first step is to define a Cloud Resource Group. Click **Add Cloud Resource G
 ||Contributor: read-write access |
 ||Owner: read-write access with the ability to manage permissions |
 | **Resource Template** | Resource templates define the cloud resources that will be provisioned in the cloud slice lab. To do this, click **Add Template**, use the Choose Cloud Resource form to find the Cloud Resource Template you want to add, and click **OK**. If the Cloud Resource Template you choose has parameters, an Edit Parameters window will appear allowing you to provide values for required parameters and for optional parameters as well if you want to. |
-| **Restriction Policy** | Some cloud platforms support using a restriction policy to limit the operations that can be performed within a Cloud Slice subscription. These cloud platforms typically include a tool to define the restriction policy for a subscription. For example, in Microsoft Azure, you can browse into the Subscriptions service, select a subscription, click Policies, and then click Add to create a restriction policy that you can copy and paste into this field in your lab profile. You can learn more about Azure Resource Manager Policies by reviewing this <a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-policy" target="_blank">external document</a>. As a best practice, you should apply a restriction policy that limits what students can create/manage to properly control your subscription costs and keep students focused on the work required for them to complete their lab. |
+| **access control policy** | Some cloud platforms support using an access control policy to limit the operations that can be performed within a Cloud Slice subscription. These cloud platforms typically include a tool to define the access control policy for a subscription. For example, in Microsoft Azure, you can browse into the Subscriptions service, select a subscription, click Policies, and then click Add to create an access control policy that you can copy and paste into this field in your lab profile. You can learn more about Azure Resource Manager Policies by reviewing this <a href="https://docs.microsoft.com/en-us/azure/azure-resource-manager/resource-manager-policy" target="_blank">external document</a>. As a best practice, you should apply an access control policy that limits what students can create/manage to properly control your subscription costs and keep students focused on the work required for them to complete their lab. |
 
 Use the steps above to add as many Cloud Resource Groups as you need in your Cloud Slice lab.
 
