@@ -1,4 +1,4 @@
-# User Profile Targeted Help
+# Targeted Help for the User Profile Page
 
 > [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
 

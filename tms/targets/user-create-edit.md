@@ -16,6 +16,7 @@ The following articles will help you create or edit users and instructors:
 There are several options possible when creating or editing a user. The following articles will help you with a few of the items: 
 
 - [How do I create student user accounts?](../tms-administrators/users/student-management/create-student-user-accounts.md)
+- [What do I do if an email address is unavailable when I am creating a user account?](../tms-administrators/users/student-management/email-address-unavailable.md)
 - [How do I set the defaults for creating users and classes?](../tms-administrators/tms-fundamentals/set-defaults-for-creating-users-and-classes.md)
 - [How do I create instructor user accounts?](../tms-administrators/users/instructor-management/create-instructor-user-accounts.md)
 - [How do I create a temporary user role?](../tms-administrators/users/student-management/create-temporary-user-role.md)

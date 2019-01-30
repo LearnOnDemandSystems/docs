@@ -1,4 +1,4 @@
-# Find Users Targeted Help
+# Targeted Help for Searching for Users
 
 > [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
 
