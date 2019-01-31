@@ -1,4 +1,4 @@
-# Targeted Help fpr Creating Course Completion Certificates
+# Targeted Help for Creating Course Completion Certificates
 
 > [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
 
