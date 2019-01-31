@@ -27,16 +27,4 @@ Estimated time to completion: **10 minutes**.
 
 1. In the **URL** field, enter +++Example URL+++.
 
-
-
-
-
-
-
-
-
-
-
-
-
 [Execute Machine Command](/lod/quick-starts/life-cycle-actions/machine-command.md)

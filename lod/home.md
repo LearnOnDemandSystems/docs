@@ -31,8 +31,6 @@ Welcome to the OneLearn Lab on Demand platform!
 
 - [**Replacement Tokens**](/lod/feature-focus/cloud-resource-templates/replacement-tokens.md) - Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.
 
-- [**IDL (legacy)**](/guides/idl/idlv3.md) - Legacy IDL Studio authoring guide and best practices
-
 ## Cloud
 
 * [**Cloud Slice Setup Guide**](/guides/cloud-slice/cloud-slice.md) - Comprehensive setup guide for configuring a Cloud Slice lab with Lab on Demand and Microsoft Azure or Amazon Web Services.

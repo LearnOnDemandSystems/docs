@@ -38,9 +38,6 @@
 
 15. **Description:** Used to provide more information about the lab profile. 
 
-16. **Has IDL Content:** Check this box if the lab profile has IDL (Integrated Digital Lab) content.
-    - After this box is checked, another option will display, allowing you to select the version of IDL content. 
-
 17. **Introduction Content URL:** The content at this URL will be displayed in a dialog when the lab interface first opens. The content can either be an HTML page or an MP4 video file. The URL must use HTTPS.
 
 18. **Objective:** Used to provide specific information about the lab. It should include a summary of the lab instructions and a list of specific goals that the lab is intended to meet.
@@ -96,8 +93,8 @@ To use network features, such as external internet access or communication betwe
 ## Cloud
 
 1. **Add Cloud Credential Pool:** Click to add a Cloud Credential Pool to the lab profile. The pool must already be created to add it to the lab profile using this button.
-2. **Cloud Platform:** Select the cloud platform to be used by the lab profile. Select _None_ if you wish to use IDL v1. Selecting a Cloud Platform will allow the lab profile to use the IDL v2 Cloud Client.
-3. **Cloud Portal URL:** Enter the URL that the portal window will display. This is used in IDL v2 Cloud Client. Leave this field blank if no Cloud Platform is selected in the previous step. 
+2. **Cloud Platform:** Select the cloud platform to be used by the lab profile. Selecting a Cloud Platform will allow the lab profile to use the IDLx Cloud Client.
+3. **Cloud Portal URL:** Enter the URL that the portal window will display. This is used in IDLx Cloud Client. Leave this field blank if no Cloud Platform is selected in the previous step. 
 4. **Append Lab Date:** When this is enabled, the following lab data will be appended to the URL as URL parameters in _name=value_ format. 
    - labProfileId
    - labInstanceId
@@ -196,7 +193,7 @@ Unchecking **Inherit storage settings from organization** box will enable additi
 2. **Storage Loading Priority:** This will set the priority level of loading files into storage. There are multiple levels of priority; *Low, Normal and High*. If there is no priority preference, select _Disabled_. 
 3. **Datacenter Availability:** Select the datacenter(s) that the lab profile will be available to launch from. Labs can be launched from the following datacenters:
    - AU East - located in Eastern Australia
-   - External - files are stored in an external system and are used by labs that require the IDL v2 Cloud Client.
+   - External - files are stored in an external system and are used by labs that require the IDLx Cloud Client.
    - US Central - located in Central United States
    - US East - located in Eastern United States
 

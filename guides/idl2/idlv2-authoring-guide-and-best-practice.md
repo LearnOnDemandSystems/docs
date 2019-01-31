@@ -1,23 +1,5 @@
 # Learn on Demand Systems Integrated Digital Lab eXperience Authoring Guide 
 
-<!--
-
-## Introduction
-
-This guide provides information on the Integrated Digital Lab eXperience (IDLx) Platform, the various elements that comprise a lab that uses this platform, the steps for converting a traditional IDL (legacy) based lab to an IDLx based lab, and some tips and best practices.
-
-### Intended Audience
-
-This guide assumes that the reader:
-
--   Has a developer account with sufficient permissions to create a lab guide and modify select properties of a lab profile.
--   Has existing basic knowledge of [Markdown](#markdown-syntax).
--   Has existing knowledge to navigate Lab on Demand (LOD)
--   Has a help desk support contract to pay for additional custom
-    contract work.
-
--->
-
 ## Overview of the Integrated Digital Lab eXperience (IDLx) Platform
 
 The IDLx platform integrates the lab instructions with the Cloud Portal of choice or virtual machines (VMs) in the lab environment, to guide the users in completing the lab. The IDLx platform allows users to view lab instructions inline with the Cloud portal or VMs.
@@ -109,15 +91,6 @@ _For any lab that has the virtualization platform set to "None" (e.g. Cloud Slic
 1. Click **Edit** on the lab profile page.
 1. On the **Basic Information tab** of the lab profile Edit page, check **Instructions**.
 1. Click **Save**.
-
-If you have a virtualization lab that already has instructions (a lab with instructions that were written for the legacy client), you can enable the IDLx Client experience by performing the following steps:
-
-1. Navigate to your lab profile in Lab on Demand.
-1. Click **Upgrade** next to "instructions: IDL (legacy)" in the lab profile details.
-1. Choose whether you want images and videos to be rendered inline or shown when users click on links.
-1. Review the instructions in the preview window to see what your instructions will look like after you upgrade your lab.
-1. Click **OK** to upgrade the lab.
-
 
 ### Separating the Lab console from the Resource Portal (two windows)
 
@@ -1119,26 +1092,6 @@ To create a multiple choice review, in the Scoring Type drop-down, select **Asse
 ![](images/exam-example-questions.png "Example multiple choice assessment")
 -->
 ## Additional Features
-
-### Converting a traditional IDL (legacy) based lab to an IDLx based lab
-
-Traditional IDL (legacy) labs can be converted to IDLx labs easily in Lab on Demand. The conversion process does not convert some items correctly, and you may still need to look over the content to ensure everything appears as expected. Converting to IDLx is not permanent and can be reverted back to IDL (legacy) at any time, from the lab profile page. To revert the lab back to IDL (legacy), toggle the version selection on the Basic Information tab, on the edit lab profile page.
-
-To convert an IDL (legacy) lab to IDLx:
-
-1. Navigate to the **lab profile** page.
-
-1. Click **Upgrade** next to **Instructions IDL (legacy)**. (this will display the current version of the lab profile)
-
-    ![](images/upgrade-button.png "Upgrade lab profile to IDL 2")
-
-1. Select how screenshots and videos should be converted. They can be converted **inline** (recommended) or **as links**.
-
-    ![](images/screenshots-as-links-or-inline.png "Select how screenshots and videos will be converted")
-
-1. After making a selection, **Click OK** to convert the lab to IDLx.
-
-The lab is now IDLx. You can confirm by checking the **Instructions** field on the lab profile **Basic Information** section. 
 
 ### Create and Incorporate Advertising Campaigns
 

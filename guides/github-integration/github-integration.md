@@ -1,29 +1,7 @@
-<!--
-# Learn on Demand Systems GitHub Integration Guide 
-
-This guide describes how to select a GitHub repository as the source of
-Integrated Digital Lab eXperience (IDLx) or IDL (legacy) content for a Lab on Demand (LOD) lab profile, and why you would want to do so.
-
-
-## Intended Audience
-
-This guide assumes that the reader:
-- has a developer account in LOD with sufficient permissions to create IDLx or IDL (legacy)
-content and modify specific properties of a lab profile;
-- has an account on GitHub;
-- has existing labs hosted in LOD;
-- has a help desk support contract to pay for additional custom contract work
-(if desired).
-
-Further, this guide assumes the reader either has access to an existing GitHub
-repository containing lab content or can create one following the steps outlined
-in this guide.
--->
-
 # GitHub Integration
 
 Lab on Demand now allows you to integrate a GitHub repository into a lab and use
-that repository as the source of Integrated Digital Lab eXperience (IDLx) or IDL (legacy) content for that
+that repository as the source of Integrated Digital Lab eXperience (IDLx) content for that
 lab. This integration provides the following benefits to lab content authors:
 
 1. **Offline editing** - With the GitHub integration, content is created/edited
@@ -100,29 +78,9 @@ folder, inside of the folder created on step 2.
 
 > [!KNOWLEDGE] If you would like more information about authoring labs with IDLx, see our [IDLx Authoring Guide](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/guides/idl2/idlv2-authoring-guide-and-best-practice.md).
 
-If you are writing IDL (legacy) content for a lab that does not yet have any content in LOD,
-start by doing the following:
-
-1. Create a new GitHub repository where you will manage your lab content.
-1. Create a new file in the root of your GitHub repository called content.md.
-1. Copy the contents of the [content.md template](https://raw.githubusercontent.com/LearnOnDemandSystems/idl-md-template/master/content.md)
-into your content.md file.
-1. If you want to store screenshots for your lab in GitHub, create a *screens*
-folder at the root of your GitHub repository.
-1. If you want to store videos for your lab in GitHub, create a *videos* folder
-at the root of your GitHub repository.
-
-> [!KNOWLEDGE] The content.md file that you copied is full of step-by-step TODO comments to
-help you build out your content in the content.md file for your lab. Once you
-have finished adding your first exercise and task to the content.md file, save
-your changes to your GitHub repository, and then proceed to the [Integrate
-GitHub with a LOD Lab Profile](#integrate-github-with-a-lod-lab-profile)
-section. You can resume content editing later once you have your integration set
-up.
-
 ### Copying Existing Lab Content into GitHub
 
-If you have a lab that already has IDLx or IDL (legacy) content in LOD, you can use GitHub to
+If you have a lab that already has IDLx content in LOD, you can use GitHub to
 manage that content as well. To get this set up you must do the following:
 
 1. In Lab on Demand, navigate to the lab profile whose content you want to
@@ -163,7 +121,7 @@ navigate to the lab profile you want to integrate with. Then follow these steps:
     ![](media/integration/virtualization-platform-drop-down.png)
 
 1. If you have not enabled it already, check the **Instructions** checkbox, on the Basic Information tab, 
-and then save the lab profile. (Use Legacy Format only for IDL (legacy) labs)
+and then save the lab profile.
 
     ![Check the Has IDL Content check box](media/integration/instructions-checkbox.png "Check the Has IDL Content check box")
 
@@ -266,9 +224,6 @@ are committed into your GitHub repository. These changes will be immediately
 available to users who launch that lab from that point on.
 
 > [!KNOWLEDGE] When an IDLx lab Profile is integrated with GitHub, and then the integration is later removed, the content will not be affected, and will be managed through LOD. 
-When an IDL (legacy) Lab Profile is integrated with GitHub, IDL Studio options are
-disabled. If you remove the integration with GitHub, the IDL (legacy) content will remain
-but it will now be treated as regular IDL content managed with the IDL Studio. 
 
 ## Manual synchronization of Markdown content
 
