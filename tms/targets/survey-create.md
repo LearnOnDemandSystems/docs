@@ -1,8 +1,8 @@
-# Targeted Help for Creating Surveys
+# Help with Surveys
 
 > [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
 
-The following articles will assist with understanding and creating surveys:
+The following articles relate to surveys:
 
 - [Do I want to use a survey or an assessment?](../tms-administrators/miscellaneous/use-survey-or-assessment.md)
 - [How do surveys work?](../tms-administrators/miscellaneous/surveys.md)

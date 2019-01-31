@@ -1,4 +1,4 @@
-# Targeted Help for the Class Enrollment Page
+# Help with the Class Enrollment Page
 
 [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
 

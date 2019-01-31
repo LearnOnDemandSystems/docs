@@ -1,4 +1,4 @@
-# Targeted Help for the Current Training Page
+# Help with the Current Training Page
 
 > [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
 

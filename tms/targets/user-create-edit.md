@@ -1,4 +1,4 @@
-# Targeted Help for Creating/Editing a User or Instructor
+# Help with Creating/Editing a User or an Instructor
 
 > [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
 

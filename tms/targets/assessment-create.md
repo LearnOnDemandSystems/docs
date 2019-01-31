@@ -1,8 +1,8 @@
-# Targeted Help for Assessments
+# Help with Assessments
 
 > [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
 
-The following articles will assist you with understanding and creating assessments:
+The following articles relate to assessments:
 
 - [Do I want to use a survey or an assessment?](../tms-administrators/miscellaneous/use-survey-or-assessment.md)
 - [How do assessments work?](../tms-administrators/miscellaneous/assessments.md)
