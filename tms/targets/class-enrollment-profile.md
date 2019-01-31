@@ -15,7 +15,7 @@ The following articles will help you as a student with links that may be found o
 
 The following articles relate to this page:
 
-- [What information should I send to students when I create their enrollments?](../tms-administrators/classes/enrollments-rosters/information-to-send-to-students-when-enrollments-created.md)
+- [What information should I send to students when I create their enrollments?](../tms-administrators/classes/enrollments-roster/information-to-send-to-students-when-enrollments-created.md)
 - [How can my students access Skillpipe courseware from their class enrollment?](../arvato-marketplace/faq-for-arvato-marketplace/access-skillpipe-courseware.md)
 
 To see all Help articles available for the TMS, you can click the **Home** button at the top of the window.
