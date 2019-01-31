@@ -21,11 +21,11 @@ route,target
 /Organization/Edit/{organizationId},/tms/targets/org-edit.md
 /Organization/{organizationId},/tms/targets/org-profile-my-orgs.md
 /ScormModule/SearchAttempts,/tms/targets/scorm-attempts-find.md
-/ScormModule/Create,/tms-administrators/courses-and-activities/create-scorm-module.md
+/ScormModule/Create,/tms/tms-administrators/courses-and-activities/create-scorm-module.md
 /ScormModule/Search,/tms/targets/scorm-find.md
-/ScormModule/{scormModuleId},/tms-administrators/courses-and-activities/start-scorm-module.md
+/ScormModule/{scormModuleId},/tms/tms-administrators/courses-and-activities/start-scorm-module.md
 /Survey/Create,/tms/targets/survey-create.md
-/Survey/{surveyId},/tms-administrators/miscellaneous/analyze-survey-results.md
+/Survey/{surveyId},/tms/tms-administrators/miscellaneous/analyze-survey-results.md
 /User/Create,/tms/targets/user-create-edit.md
 /User/Import,/tms/tms-administrators/users/student-management/create-multiple-user-accounts-at-once.md
 /User/Login,/tms/targets/user-login.md
