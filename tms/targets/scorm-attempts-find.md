@@ -1,4 +1,4 @@
-# Targeted Help for Searching for SCORM Attempts
+# Help with Searching for SCORM Attempts
 
 > [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
 

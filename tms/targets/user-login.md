@@ -1,4 +1,4 @@
-# Targeted Login Help for Students
+# Login Help for Students
 
 The following articles will help you, as a student, access your labs for class:
 

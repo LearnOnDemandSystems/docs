@@ -1,4 +1,4 @@
-# Targeted Help for the User Transcript Page
+# Help with the User Transcript Page
 
 > [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
 

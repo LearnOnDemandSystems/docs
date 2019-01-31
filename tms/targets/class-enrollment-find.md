@@ -1,4 +1,4 @@
-# Targeted Help for Searching for Class Enrollments
+# Help with Searching for Class Enrollments
 
 [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
 

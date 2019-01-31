@@ -1,4 +1,4 @@
-# Targeted Help for Classrooms
+# Help with Classrooms
 
 > [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
 

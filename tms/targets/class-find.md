@@ -1,4 +1,4 @@
-# Targeted Help for Searching for a Class
+# Help with Searching for a Class
 
 > [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
 

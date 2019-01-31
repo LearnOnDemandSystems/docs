@@ -1,4 +1,4 @@
-# Targeted Help for the My Organizations and Organization Profile pages
+# Help with the My Organizations and Organization Profile Pages
 
 > [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
 

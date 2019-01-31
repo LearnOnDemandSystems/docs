@@ -1,4 +1,4 @@
-# Targeted Help for Creating Course Assignments
+# Help with Creating a Course Assignment
 
 > [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
 
