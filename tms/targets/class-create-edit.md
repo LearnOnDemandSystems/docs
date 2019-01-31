@@ -6,13 +6,13 @@
 
 The following articles will help you create classes with instructors:
 
-- [Should I use a Class or a Custom Event or a Course Assignment to schedule training?](../tms-administrators/tms-fundamentals/class-or-custom-event-or-course-assignment-to-schedule-training.md)
 - [How do I set up a class?](../arvato-marketplace/fulfilling-marketplace-order/set-up-class.md)
 - [How do I add an instructor to a class?](../arvato-marketplace/fulfilling-marketplace-order/add-instructor-to-class.md)
 
 ## Administrators
 There are several options possible when creating or editing a class. The following articles will help you with some of the most common items: 
 
+- [Should I use a Class or a Custom Event or a Course Assignment to schedule training?](../tms-administrators/tms-fundamentals/class-or-custom-event-or-course-assignment-to-schedule-training.md)
 - [How do I create a class?](../tms-administrators/classes/schedule/create-class.md)
 - [How do I set the defaults for creating users and classes?](../tms-administrators/tms-fundamentals/set-defaults-for-creating-users-and-classes.md)
 - [How do I schedule a class with multiple instructors?](../tms-administrators/classes/instructors/schedule-class-with-multiple-instructors.md)
