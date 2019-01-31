@@ -8,7 +8,7 @@ route,target
 /Class/Roster/{classId},/tms/targets/class-roster.md
 /Class/Edit/{classId},/tms/targets/class-create-edit.md
 /Class/{classId},/tms/targets/class-profile.md
-/ClassVoucher/Manage?{organizationId},/tms/targets/class-vouchers.md
+/ClassVoucher/Manage,/tms/targets/class-vouchers.md
 /ClassEnrollment/Search,/tms/targets/class-enrollment-find.md
 /ClassEnrollment/{classEnrollmentId},/tms/targets/class-enrollment-profile.md
 /Classroom/Create,/tms/targets/classroom-create.md
