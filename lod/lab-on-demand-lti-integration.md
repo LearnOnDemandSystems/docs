@@ -50,7 +50,7 @@ To configure a lab to use a LTI scoring policy, there are several options in the
 
 ### Tasks Complete Scoring Policy
 
-- If you have IDLx or IDL (legacy) Content in the lab and select **Tasks Complete**, the scoring will be based on the number of tasks the student marks as complete by clicking the **task checkbox** in IDLx content, or by clicking **Done** on the task in IDL (legacy) content. 
+- If you have IDLx Content in the lab and select **Tasks Complete**, the scoring will be based on the number of tasks the student marks as complete by clicking the **task checkbox** in IDLx content. 
 
     When you select **Tasks Complete**, **Scoring Format** will contain two options:
 
