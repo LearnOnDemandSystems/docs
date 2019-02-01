@@ -1,4 +1,4 @@
-# How do assessments work?
+# How do <span style="color:MediumSeaGreen;">assessments</span> work?
 
 An assessment is a multiple choice exam or test to determine a user's comprehension of material. Assessments are added as course activities and can be mixed in among labs and videos. After completing an assessment, students can review their results, if allowed. In addition, these results can be viewed within the TMS.
 
