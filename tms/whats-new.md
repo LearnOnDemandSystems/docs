@@ -60,7 +60,9 @@ Your students can now easily see when they are able to take their class survey. 
 ### <span style="color:#0078d7;">TMS Updates</span>
 - In the **Learning Path** browser, the tiles now display the **Audience** level of the path in the lower right corner of the image and the **number** of **courses** and **duration** are at the very bottom of the tile.
 - You may receive an error message when saving a course after adding labs activities to it if the lab activities exceed the maximum RAM set for courses for your organization. 
+
 > Message: Sorry, you are not able to add labs with over XX MB of RAM. Please contact **support@learnondemandsystems.com**.
+
 - The CSV file for the exported course catalog has been changed to have separate columns for each course tag allowing you to filter the data by the individual tags.
 - You can now easily summarize and analyze survey responses in Excel or other analytical tools. The exported survey results have been revamped so that each answer of a multi-answer question is exported to its own individual row. See the [How do I export survey responses and analyze them in Excel?](./tms-administrators/miscellaneous/analyze-survey-results.md) article for assistance with Excel.
 
@@ -129,17 +131,17 @@ You can share the quality of your course offerings by displaying ratings on brow
 - Learning Paths
 - Class
 
-> [KNOWLEDGE] Like subscription profiles, Learning Path tiles show a cumulative rating of the included courses. Individual Learning Path pages show the rating for each course.
+> [!KNOWLEDGE] Like subscription profiles, Learning Path tiles show a cumulative rating of the included courses. Individual Learning Path pages show the rating for each course.
 
 You, as an organization, control when ratings are displayed for your courses based on the number of ratings and an optional minimum rating percentage. There may be times when subscriptions or learning paths contain courses from various organizations. Since these are cumulative ratings from the underlying courses, the owning organization of the subscription or learning path controls whether the rating is displayed. The individual courses display ratings based on their owning organization’s criteria regardless of where they are seen.
 
 Examples of the display:
-
-![Browser tile](./images/course-ratings-browser-tile.png)
-
-![Zoomed tile](./images/course-ratings-zoomed-tile.png)
-
-![Learning path page](./images/learning-path-individual-course-rating.png)
+- Browser tile
+![](./images/course-ratings-browser-tile.png)
+- Zoomed tile
+![](./images/course-ratings-zoomed-tile.png)
+- Learning path page
+![](./images/learning-path-individual-course-rating.png)
 
 ### <span style="color:#0078d7;">Completion Certificate Organizational Ownership/Availability</span>
 
@@ -203,6 +205,7 @@ To set your class up to use your own virtual classroom:
 1. On the **Delivery Type** dropdown, select either **Virtual** or **Physical and Virtual**.
 1. The Virtual Meeting Host field will appear. In its dropdown, select **Custom Virtual Classroom**.
 1. The URL field will appear. Enter the unique **URL** for the virtual classroom. This can be a Skype for Business meeting URL, a Join.me URL or any other URL that a company wants to use.
+
 > [!KNOWLEDGE] **BEST PRACTICE**: The Enter Classroom button remains available to students on their class enrollment after the class is over. Therefore, it is best to use unique URLs for each class to avoid students from an old class accidentally getting into a new class.
 
 ![](./images/virtual-delivery.png)
@@ -222,7 +225,8 @@ You can now create a disclaimer that will be displayed on all your discussions, 
 To add disclaimer to all of your discussions:
 1. Edit your organization.
 1. Click the **Preferences** tab and scroll down to **Discussion Disclaimer**.
-1. This is an HTML field. Add the message you want to appear at the top of discussions to all discussion participants. ![](./images/disc-disclaimer.png)
+1. This is an HTML field. Add the message you want to appear at the top of discussions to all discussion participants. 
+![](./images/disc-disclaimer.png)
 1. Click **Save**.
 
 When a user accesses any of your discussions, the disclaimer will be displayed above the area to create a post.
@@ -237,18 +241,22 @@ There is a new General permission that any user must have to participate in disc
 
 You can add moderators to discussions. Only moderators can delete posts, responses, and comments from discussions and only if they are added to the discussion. To add one or more moderators to a discussion:
 1. Edit the **Discussion** profile.
-1. On the new **Moderators** tab, click **Add**. ![](./images/disc-moderator-tab.png)
+1. On the new **Moderators** tab, click **Add**. 
+![](./images/disc-moderator-tab.png)
 1.  The Choose Moderators dialog will open. This dialog is pre-filtered for users from the Discussion’s organization who have a role with the General permissions, Discussions – Moderating and Discussions – Viewing, in it. 
 1. Use the filters to narrow the results and click **Search**.
-1. Select the moderator(s) and click **OK**. ![](./images/choose-moderators.png)
+1. Select the moderator(s) and click **OK**. 
+![](./images/choose-moderators.png)
 1. Click **Save**.
 
 Moderators that have not been assigned to a discussion may be able to access the discussion but will not be able to delete posts, responses, and comments. 
 
 View of discussion by Moderator assigned to it:
+
 ![](./images/disc-moderator-view.png)
 
 View of discussion by Moderator not assigned to it:
+
 ![](./images/disc-non-mod-view.png)
 
 ### <span style="color:#0078d7;">Copy HTML Content from One Announcement to Another Announcement</span>
