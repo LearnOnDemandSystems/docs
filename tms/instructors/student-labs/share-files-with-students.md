@@ -9,15 +9,19 @@ Instructors (and administrators) with the proper permissions can use the Manage 
 To do this:
 1. Navigate to the **Class Profile** page for the class you want to share files with.
 1. Click **Manage Files** in the quick links bar.
-1. On the **Class Files** page, click **Upload File**.
+1. On the **Class Files** page, click **Upload File**. ![](/tms/images/class-files.png)
+
+
 1. Click **Choose File** next to **File** and upload the file you want to share.
 1. Change the **Name**, in necessary and add a **Description** that will be visible to the students and other instructors.
-1. Ensure the **Visibility** field **Students** checkbox is checked. If it is uncheched, students will not see the files on their class enrollment.
+1. Ensure the **Visibility** field **Students** checkbox is checked. If it is uncheched, students will not see the files on their class enrollment. ![](/tms/images/class-file-visibility.png)
 1. Click **Save**.
 
 Additional files can be uploaded by repeating steps 3 through 7, ensuring proper visibility for each file. Anyone with permission to access the Manage Files link and Class Files page can manage the availability and visibility of all files uploaded regardless of who originally uploaded them.
 
 Files that are set to be visible to students are available to them on their **Class Enrollment** page in the **Class Files** section under **Activities**. They click the name of the file to start the download process to their machine.
+
+![](/tms/images/student-download-class-files.png)
 
 ## Monitor Labs
 
