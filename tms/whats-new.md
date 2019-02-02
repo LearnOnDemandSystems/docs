@@ -1,6 +1,6 @@
 # What's New in the TMS
 
-## *<span style="color:#0078d7;">Released January 31 2019</span>*
+## **<span style="color:#0078d7;">Released January 31 2019</span>**
 
 ### API Endpoint Properties
 
@@ -28,7 +28,7 @@ The following result endpoints were added to API calls:
 
 
 
-## <span style="color:#0078d7;">Released January 10 2019</span>
+## **<span style="color:#0078d7;">Released January 10 2019</span>**
 
 ### CreateClass and UpdateClass API Methods
 
@@ -40,7 +40,7 @@ You can now create and update classes through the API!
 
 
 
-## <span style="color:#0078d7;">Released January 04 2019</span>
+## **<span style="color:#0078d7;">Released January 04 2019</span>**
 
 ### Admin Menu
 
@@ -48,7 +48,7 @@ Now you can access the links on the **Site Administration** page without leaving
 
 
 
-## <span style="color:#0078d7;">Released December 14 2018</span>
+## **<span style="color:#0078d7;">Released December 14 2018</span>**
 
 ### Survey Availability Messages
 
@@ -65,7 +65,7 @@ Your students can now easily see when they are able to take their class survey. 
 
 
 
-## <span style="color:#0078d7;">Released November 2018</span>
+## **<span style="color:#0078d7;">Released November 2018</span>**
 
 ### Manage Your Own SCORM Modules
 
@@ -118,7 +118,7 @@ You can control the default **Maximum Capacity** for classes directly on the **C
 
 
 
-## <span style="color:#0078d7;">Released October 2018</span>
+## **<span style="color:#0078d7;">Released October 2018</span>**
 
 ### Display of Course Ratings
 
@@ -163,21 +163,21 @@ The Organization output option and filter have been added to the Find Course Cer
 ![](./images/coming-soon-on-search-page.png)
 
 
-## **Released September 27, 2018**
+## **<span style="color:#0078d7;">Released September 27, 2018</span>**
 
-### **Share Files with Students in a Class**
+### Share Files with Students in a Class
 
 Provide your students with files you specifically have for the class to give them a unique experience. Instructors (and administrators) with the **Class file management** permission can now use the **Manage Files** functionality on a class to share files with students in their class. All Instructors (with the permission above) who are assigned to the class have access to the Class Files. All files uploaded can be managed (edited, deleted, downloaded) by them regardless of who originally uploaded them.
 
-### **TMS Updates**
+### TMS Updates
 - Two new API call methods were added along with their documentation:
     - **GetClassbyExternalId**
     - **GetCoursebyExternalId**
 
 
-## **Released September 20, 2018**
+## **<span style="color:#0078d7;">Released September 20, 2018</span>**
 
-### **User and Admin Landing Page Options Available on Sites**
+### User and Admin Landing Page Options Available on Sites
 
 If you have your own site, you can now request where users will land when they sign in to your site. Your site can be set to have students and administrators (those with administrative functions) land on one of the following options:
 
@@ -193,7 +193,7 @@ Users with administrative functions
 
 > [!ALERT] If you use a TMS webpage for either landing page, it must be enabled for anonymous access.
 
-### **Use Custom Virtual Classroom URLs for Your Virtual Classes**
+### Use Custom Virtual Classroom URLs for Your Virtual Classes
 
 You can now use any virtual meeting program you want for your virtual classes if you have a URL for it. Your students will be able to access the meeting program from their class enrollment. 
 
@@ -212,11 +212,11 @@ To find your classes that use custom virtual classrooms, you can use the new **C
 
 ![](./images/find-custom-virtual-classroom.png)
 
-### **New Functionality and Permission for Discussions**
+### New Functionality and Permission for Discussions
 
 You can now create a disclaimer that will be displayed on all your discussions, limit who can participate in those discussions, and add moderators to discussions. 
 
-#### **Disclaimers**
+#### *Disclaimers*
 
 To add disclaimer to all of your discussions:
 1. Edit your organization.
@@ -228,11 +228,11 @@ When a user accesses any of your discussions, the disclaimer will be displayed a
 
 ![](./images/disclaimer-view.png)
 
-#### **Participation Permission**
+#### *Participation Permission*
 
 There is a new General permission that any user must have to participate in discussions, Discussions – Participation. This permission, if made part of a supplemental role, will allow your organization to be a little more granular in who you allow to participate. If it is added to the default user role, then anyone with access to the discussion can post and respond to posts. If a user does not have this permission, they will not see the Discussion link on the course, class, class enrollment or course assignment. You will need to work with our support team to set this up, **support@learnondemandsystems.com**.
 
-#### **Moderators**
+#### *Moderators*
 
 You can add moderators to discussions. Only moderators can delete posts, responses, and comments from discussions and only if they are added to the discussion. To add one or more moderators to a discussion:
 1. Edit the **Discussion** profile.
@@ -250,7 +250,7 @@ View of discussion by Moderator assigned to it:
 View of discussion by Moderator not assigned to it:
 ![](./images/disc-non-mod-view.png)
 
-### **Copy HTML Content from One Announcement to Another Announcement**
+### Copy HTML Content from One Announcement to Another Announcement
 
 Have an old announcement whose HTML Content you want in a new announcement? This is now easy to do without having to manually copy the HTML Content in the old and pasting it in the new. To do this:
 1. Simply click the new **Choose HTML Content** button on the **HTML Content** tab of the new announcement.
@@ -260,7 +260,7 @@ Have an old announcement whose HTML Content you want in a new announcement? This
 
 The HTML Content is copied with its formatting into your current announcement.
 
-### **Set a “Coming Soon” Flag on the Course Catalog for Courses with no Training Format
+### Set a “Coming Soon” Flag on the Course Catalog for Courses with no Training Form
 Courses that have no training format set for them can now be displayed on the Course Catalog and will have a Coming Soon flag on their tile. To set a course to appear on the Course Catalog with this flag:
 
 1. On the **Basic Information** tab of the course, scroll down to the bottom and ensure the **Show on Course Catalog** field is checked.
@@ -269,7 +269,7 @@ Courses that have no training format set for them can now be displayed on the Co
 
 This can be done for new or existing courses. The Coming Soon flag will remain on the course until either one of the Available … fields are checked.
 
-### **TMS Updates**
+### TMS Updates
 - There have been several other updates to the Catalog pages (On-Demand Browser, Organization Course Catalog, Learning Path Browser, Class Browser, and Simple Course Assignment):
     - The number of **Results** is now displayed on browser pages next to the page navigation. This number will change based on filtering applied.
     - On the **Class Browser** page, if no filters are available for the classes, the **Match Any/All** is hidden.
@@ -291,9 +291,9 @@ This can be done for new or existing courses. The Coming Soon flag will remain o
     - **SearchCourseAssignments**
 
 
-## **Released August 30, 2018**
+## **<span style="color:#0078d7;">Released August 30, 2018</span>**
 
-### **Role Assignment through Authentication Provider**
+### Role Assignment through Authentication Provider
 
 You can now request to have an **Authentication Provider** set up with associated roles so when a user logs in via that authentication provider (AP), the role(s) are automatically added to the user. If the role is later removed from the user’s profile by an administrator, the next time the user logs in using the AP, the role will again be assigned to the user.
 
@@ -309,9 +309,9 @@ Please contact **support@learnondemandsystems.com** to set up your Authenticatio
 - Due to infrastructure improvement requirements, we have a new Azure compatible PDF generation tool for **Course Completion Certificates**. If you use the Certificate feature, you should ALWAYS preview the certificate when you upload the template to ensure data replacement, readability and layout are correct.
 
 
-## **Released August 16, 2018**
+## **<span style="color:#0078d7;">Released August 16, 2018</span>**
 
-### **New Class Browser Page** 
+### New Class Browser Page
 
 Your students may now be able to view your organization’s classes using the modern Class Browser page. This page is accessed from the Classes link on the default navigation bar. 
 
