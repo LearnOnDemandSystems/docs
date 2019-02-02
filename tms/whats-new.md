@@ -15,9 +15,9 @@ The following result endpoints were added to the **SearchClasses** API call:
 - The **Class Browser** can now be filtered by a **Course Tag** in the URL by adding **?tagId=X** after **Browse**.
 
 
-## **Released January 17 2019**
+## <span style="color:#0078d7;">Released January 17 2019</span>
 
-### **API Endpoint Properties**
+### API Endpoint Properties
 
 The following result endpoints were added to API calls:
 - **Duration** (for course) to the **GetCourse** method.
@@ -25,21 +25,21 @@ The following result endpoints were added to API calls:
 - **VirtualMeetingHostId**, **VirtualMeetingId**, and **CustomVirtualClassroomUrl** to the **SearchClasses** and **SearchPublicClassSchedule** methods.
 
 
-## **Released January 10 2019**
+## <span style="color:#0078d7;">Released January 10 2019</span>
 
-### **CreateClass and UpdateClass API Methods**
+### CreateClass and UpdateClass API Methods
 
 You can now create and update classes through the API! 
 
 ![](./images/whats-new/createclass-updateclass-api.png)
 
-### **TMS Updates**
+### TMS Updates
 - The **Class Browser** now only shows classes with statuses of **Guaranteed to Run** and **Scheduled** by default. You can override this by adding **?showAll=1** between **Browse** and **#** in the URL.
 
 
-## **Released January 04 2019**
+## <span style="color:#0078d7;">Released January 04 2019</span>
 
-### **Admin Menu**
+### Admin Menu
 
 Now you can access the links on the **Site Administration** page without leaving your current page. We have added an **Admin** menu which is available in all themes that use the standard navigation. When you click on this menu, all the links you see on the Site Administration page are available grouped in the same way. You can choose to view the groups in their default order or in alphabetical order. For a full explanation of this menu, please see [What is the Admin menu and how does it work?](./tms-administrators/tms-fundamentals/admin-menu.md)
 
