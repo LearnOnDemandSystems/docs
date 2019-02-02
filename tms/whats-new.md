@@ -10,16 +10,16 @@ The following result endpoints were added to the **SearchClasses** API call:
 
 
 
-## **<span style="color:#0078d7;">Released January 24 2019</span>**
+## Released January 24 2019
 
-### TMS Update
+### <span style="color:#0078d7;">TMS Update</span>
 - The **Class Browser** can now be filtered by a **Course Tag** in the URL by adding **?tagId=X** after **Browse**.
 
 
 
-## **<span style="color:#0078d7;">Released January 17 2019</span>**
+## Released January 17 2019
 
-### API Endpoint Properties
+### <span style="color:#0078d7;">API Endpoint Properties</span>
 
 The following result endpoints were added to API calls:
 - **Duration** (for course) to the **GetCourse** method.
@@ -28,35 +28,36 @@ The following result endpoints were added to API calls:
 
 
 
-## **<span style="color:#0078d7;">Released January 10 2019</span>**
+## Released January 10 2019
 
-### CreateClass and UpdateClass API Methods
+### <span style="color:#0078d7;">CreateClass and UpdateClass API Methods</span>
 
-You can now create and update classes through the API! 
+You can now create and update classes through the API!
+
 ![](./images/whats-new/createclass-updateclass-api.png)
 
-### TMS Updates
+### <span style="color:#0078d7;">TMS Updates</span>
 - The **Class Browser** now only shows classes with statuses of **Guaranteed to Run** and **Scheduled** by default. You can override this by adding **?showAll=1** between **Browse** and **#** in the URL.
 
 
 
-## **<span style="color:#0078d7;">Released January 04 2019</span>**
+## Released January 04 2019
 
-### Admin Menu
+### <span style="color:#0078d7;">Admin Menu</span>
 
 Now you can access the links on the **Site Administration** page without leaving your current page. We have added an **Admin** menu which is available in all themes that use the standard navigation. When you click on this menu, all the links you see on the Site Administration page are available grouped in the same way. You can choose to view the groups in their default order or in alphabetical order. For a full explanation of this menu, please see [What is the Admin menu and how does it work?](./tms-administrators/tms-fundamentals/admin-menu.md)
 
 
 
-## **<span style="color:#0078d7;">Released December 14 2018</span>**
+## Released December 14 2018
 
-### Survey Availability Messages
+### <span style="color:#0078d7;">Survey Availability Messages</span>
 
 Your students can now easily see when they are able to take their class survey. The Survey activity on their Class Enrollment page will have a message detailing when the survey will become available. This message disappears when the Launch button appears.
 
 ![](./images/whats-new/survey-timer-msg.png)
 
-### TMS Updates
+### <span style="color:#0078d7;">TMS Updates</span>
 - In the **Learning Path** browser, the tiles now display the **Audience** level of the path in the lower right corner of the image and the **number** of **courses** and **duration** are at the very bottom of the tile.
 - You may receive an error message when saving a course after adding labs activities to it if the lab activities exceed the maximum RAM set for courses for your organization. 
 > Message: Sorry, you are not able to add labs with over XX MB of RAM. Please contact **support@learnondemandsystems.com**.
@@ -65,9 +66,9 @@ Your students can now easily see when they are able to take their class survey. 
 
 
 
-## **<span style="color:#0078d7;">Released November 2018</span>**
+## Released November 2018
 
-### Manage Your Own SCORM Modules
+### <span style="color:#0078d7;">Manage Your Own SCORM Modules</span>
 
 Want to manage your own SCORM content? With the proper permissions, you can create your own SCORM modules, upload your content to them, and add the modules to course profiles. You can preview your SCORM content by launching it from the SCORM module, and you can search for all SCORM attempts started by your students. Please contact **support@learnondemandsystems.com** if you need to manage SCORM content for your organization. The following articles will help you to create SCORM modules, start SCORM content, and view all SCORM attempts by your students:
 
@@ -75,11 +76,11 @@ Want to manage your own SCORM content? With the proper permissions, you can crea
 - [How can I preview a SCORM module belonging to my organization?](./tms-administrators/courses-and-activities/start-scorm-module.md)
 - [How do I view all SCORM attempts by my students?](./tms-administrators/courses-and-activities/view-scorm-attempts.md)
 
-### Set Your Course Achievements to be Available to Outside Organizations
+### <span style="color:#0078d7;">Set Your Course Achievements to be Available to Outside Organizations</span>
 
 Want to have consistent recognition to all students who take your courses, regardless of whether they are in your organization or not? You can now enable achievements for outside organizations on a **Course** profile’s **Basic Information** tab. If an achievement has the course identified in its conditions, any student who completes the course, either through a course assignment or class enrollment, will earn the achievement, providing the student participates in achievements and their organization has achievements enabled.
 
-### Create Achievements for Your Subscriptions
+### <span style="color:#0078d7;">Create Achievements for Your Subscriptions</span>
 
 Recognize your organization’s students for their accomplishments in your subscriptions. You can create achievements that tie directly to your subscriptions. Your organization’s students earn achievements by completing course assignments or class enrollments specifically associated with the subscription in the achievement’s conditions. Here is an example of a condition statement for a subscription achievement:
 > [{"Subject": 30,"Count": 1,"ClubIds": [551], "Complete": true}]
@@ -96,7 +97,7 @@ For a course assignment or class enrollment to earn subscription achievements, o
 
 > [!ALERT] Currently, if a subscription contains courses from multiple orgs (i.e. Org A and Org B), has an achievement attached to it, and is available to another organization (Org c), users from that organization will only earn the achievement for courses in the subscription that are in the same org as the achievement and only if those courses allow outside orgs to earn the achievement.
 
-### Add HTML Footers to Your Learning Paths
+### <span style="color:#0078d7;">Add HTML Footers to Your Learning Paths</span>
 
 Encourage more engagement with your users by adding customizable HTML footers on your learning paths. This is great place to provide users with additional information, suggestions, links, etc. related to the learning path .
 
@@ -104,11 +105,11 @@ Encourage more engagement with your users by adding customizable HTML footers on
 
 ![And how it looks on the learning path to the student](./images/lp-html-footer-view.png)
 
-### Control Default Maximum Class Size on the Course
+### <span style="color:#0078d7;">Control Default Maximum Class Size on the Course</span>
 
 You can control the default **Maximum Capacity** for classes directly on the **Course** profile. This provides you more granular control so you can have different student attendance capacities for different courses. One use of this might be you could have courses designed to be used in webinars and these could have a higher default capacity than your standard courses. The default on the Course profile will override the organization’s default Maximum Capacity for classes but can be overridden on the class itself.
 
-### TMS Updates
+### <span style="color:#0078d7;">TMS Updates</span>
 - New **Filter** and new **Output Option** on **Find Labs**: 
     - You can filter by **Course** - This will find all lab activities in the specified course. 
     There is also a new **ExternalId** output option.
@@ -118,9 +119,9 @@ You can control the default **Maximum Capacity** for classes directly on the **C
 
 
 
-## **<span style="color:#0078d7;">Released October 2018</span>**
+## Released October 2018
 
-### Display of Course Ratings
+### <span style="color:#0078d7;">Display of Course Ratings</span>
 
 You can share the quality of your course offerings by displaying ratings on browser tiles. These ratings derive from the simple feedback given by actual users and are displayed as percentages on the tiles. When a user zooms a tile, the number of reviews are included. The following browsers will display the ratings based on criteria you set:
 - On-Demand
@@ -140,7 +141,7 @@ Examples of the display:
 
 ![Learning path page](./images/learning-path-individual-course-rating.png)
 
-### Completion Certificate Organizational Ownership/Availability
+### <span style="color:#0078d7;">Completion Certificate Organizational Ownership/Availability</span>
 
 With permissions, you are now able to manage your own course completion certificates. Your certificates are only available to other organizations to use in their courses if you specify them in the certificate template’s profile. This allows you to keep your certificate templates private while still providing the flexibility to share with other organizations as needed.
 
@@ -150,7 +151,7 @@ The Organization output option and filter have been added to the Find Course Cer
 
 ![](./images/certificate-search-filters.png)
 
-### TMS Updates
+### <span style="color:#0078d7;">TMS Updates</span>
 
 - The Class Browser page can now be loaded prefiltered for classes on a specific course by appending the course ID to the end of the URL. 
 > Example: https://lms.learnondemand.net/Class/Browse?courseId=9672 would load all classes for the 10135B Configuring, Managing and Troubleshooting Microsoft Exchange Server 2010 Service Pack 2 course.
@@ -163,21 +164,21 @@ The Organization output option and filter have been added to the Find Course Cer
 ![](./images/coming-soon-on-search-page.png)
 
 
-## **<span style="color:#0078d7;">Released September 27, 2018</span>**
+## Released September 27, 2018
 
-### Share Files with Students in a Class
+### <span style="color:#0078d7;">Share Files with Students in a Class</span>
 
 Provide your students with files you specifically have for the class to give them a unique experience. Instructors (and administrators) with the **Class file management** permission can now use the **Manage Files** functionality on a class to share files with students in their class. All Instructors (with the permission above) who are assigned to the class have access to the Class Files. All files uploaded can be managed (edited, deleted, downloaded) by them regardless of who originally uploaded them.
 
-### TMS Updates
+### <span style="color:#0078d7;">TMS Updates</span>
 - Two new API call methods were added along with their documentation:
     - **GetClassbyExternalId**
     - **GetCoursebyExternalId**
 
 
-## **<span style="color:#0078d7;">Released September 20, 2018</span>**
+## Released September 20, 2018
 
-### User and Admin Landing Page Options Available on Sites
+### <span style="color:#0078d7;">User and Admin Landing Page Options Available on Sites</span>
 
 If you have your own site, you can now request where users will land when they sign in to your site. Your site can be set to have students and administrators (those with administrative functions) land on one of the following options:
 
@@ -193,7 +194,7 @@ Users with administrative functions
 
 > [!ALERT] If you use a TMS webpage for either landing page, it must be enabled for anonymous access.
 
-### Use Custom Virtual Classroom URLs for Your Virtual Classes
+### <span style="color:#0078d7;">Use Custom Virtual Classroom URLs for Your Virtual Classes</span>
 
 You can now use any virtual meeting program you want for your virtual classes if you have a URL for it. Your students will be able to access the meeting program from their class enrollment. 
 
@@ -212,11 +213,11 @@ To find your classes that use custom virtual classrooms, you can use the new **C
 
 ![](./images/find-custom-virtual-classroom.png)
 
-### New Functionality and Permission for Discussions
+### <span style="color:#0078d7;">New Functionality and Permission for Discussions</span>
 
 You can now create a disclaimer that will be displayed on all your discussions, limit who can participate in those discussions, and add moderators to discussions. 
 
-#### *Disclaimers*
+#### *<span style="color:#0078d7;">Disclaimers</span>*
 
 To add disclaimer to all of your discussions:
 1. Edit your organization.
@@ -228,11 +229,11 @@ When a user accesses any of your discussions, the disclaimer will be displayed a
 
 ![](./images/disclaimer-view.png)
 
-#### *Participation Permission*
+#### *<span style="color:#0078d7;">Participation Permission</span>*
 
 There is a new General permission that any user must have to participate in discussions, Discussions – Participation. This permission, if made part of a supplemental role, will allow your organization to be a little more granular in who you allow to participate. If it is added to the default user role, then anyone with access to the discussion can post and respond to posts. If a user does not have this permission, they will not see the Discussion link on the course, class, class enrollment or course assignment. You will need to work with our support team to set this up, **support@learnondemandsystems.com**.
 
-#### *Moderators*
+#### *<span style="color:#0078d7;">Moderators</span>*
 
 You can add moderators to discussions. Only moderators can delete posts, responses, and comments from discussions and only if they are added to the discussion. To add one or more moderators to a discussion:
 1. Edit the **Discussion** profile.
@@ -250,7 +251,7 @@ View of discussion by Moderator assigned to it:
 View of discussion by Moderator not assigned to it:
 ![](./images/disc-non-mod-view.png)
 
-### Copy HTML Content from One Announcement to Another Announcement
+### <span style="color:#0078d7;">Copy HTML Content from One Announcement to Another Announcement</span>
 
 Have an old announcement whose HTML Content you want in a new announcement? This is now easy to do without having to manually copy the HTML Content in the old and pasting it in the new. To do this:
 1. Simply click the new **Choose HTML Content** button on the **HTML Content** tab of the new announcement.
@@ -260,7 +261,8 @@ Have an old announcement whose HTML Content you want in a new announcement? This
 
 The HTML Content is copied with its formatting into your current announcement.
 
-### Set a “Coming Soon” Flag on the Course Catalog for Courses with no Training Form
+### <span style="color:#0078d7;">Set a “Coming Soon” Flag on the Course Catalog for Courses with no Training Form</span>
+
 Courses that have no training format set for them can now be displayed on the Course Catalog and will have a Coming Soon flag on their tile. To set a course to appear on the Course Catalog with this flag:
 
 1. On the **Basic Information** tab of the course, scroll down to the bottom and ensure the **Show on Course Catalog** field is checked.
@@ -269,7 +271,7 @@ Courses that have no training format set for them can now be displayed on the Co
 
 This can be done for new or existing courses. The Coming Soon flag will remain on the course until either one of the Available … fields are checked.
 
-### TMS Updates
+### <span style="color:#0078d7;">TMS Updates</span>
 - There have been several other updates to the Catalog pages (On-Demand Browser, Organization Course Catalog, Learning Path Browser, Class Browser, and Simple Course Assignment):
     - The number of **Results** is now displayed on browser pages next to the page navigation. This number will change based on filtering applied.
     - On the **Class Browser** page, if no filters are available for the classes, the **Match Any/All** is hidden.
@@ -291,15 +293,15 @@ This can be done for new or existing courses. The Coming Soon flag will remain o
     - **SearchCourseAssignments**
 
 
-## **<span style="color:#0078d7;">Released August 30, 2018</span>**
+## Released August 30, 2018
 
-### Role Assignment through Authentication Provider
+### <span style="color:#0078d7;">Role Assignment through Authentication Provider</span>
 
 You can now request to have an **Authentication Provider** set up with associated roles so when a user logs in via that authentication provider (AP), the role(s) are automatically added to the user. If the role is later removed from the user’s profile by an administrator, the next time the user logs in using the AP, the role will again be assigned to the user.
 
 Please contact **support@learnondemandsystems.com** to set up your Authentication Provider. Note: this provider will need to be added to your TMS site to be visible to your users.
 
-### TMS Updates
+### <span style="color:#0078d7;">TMS Updates</span>
 - The **New** flag on courses (on the Find Courses, On Demand Browser, Course Catalog, and Classes browser) is now calculated using the date the **Available Instructor-Led** and/or **Available Self-Paced** checkboxes are checked on the course, rather than the **Created** by date. To make the flag show up for existing courses, uncheck both Available checkboxes on the course and save. Then check at least one of them again and save. Remember that a course must be:
     - Checked **Available instructor-led** to have classes based on it and thus show up on the **Classes** browser page.
     - Checked **Available Self-Paced** to allow course assignments and thus show up on the **On-Demand** browser page. 
@@ -309,9 +311,9 @@ Please contact **support@learnondemandsystems.com** to set up your Authenticatio
 - Due to infrastructure improvement requirements, we have a new Azure compatible PDF generation tool for **Course Completion Certificates**. If you use the Certificate feature, you should ALWAYS preview the certificate when you upload the template to ensure data replacement, readability and layout are correct.
 
 
-## **<span style="color:#0078d7;">Released August 16, 2018</span>**
+## Released August 16, 2018
 
-### New Class Browser Page
+### <span style="color:#0078d7;">New Class Browser Page</span>
 
 Your students may now be able to view your organization’s classes using the modern Class Browser page. This page is accessed from the Classes link on the default navigation bar. 
 
