@@ -9,10 +9,12 @@ The following result endpoints were added to the **SearchClasses** API call:
 - **Description**
 
 
+
 ## <span style="color:#0078d7;">Released January 24 2019</span>
 
 ### TMS Update
 - The **Class Browser** can now be filtered by a **Course Tag** in the URL by adding **?tagId=X** after **Browse**.
+
 
 
 ## <span style="color:#0078d7;">Released January 17 2019</span>
@@ -25,16 +27,17 @@ The following result endpoints were added to API calls:
 - **VirtualMeetingHostId**, **VirtualMeetingId**, and **CustomVirtualClassroomUrl** to the **SearchClasses** and **SearchPublicClassSchedule** methods.
 
 
+
 ## <span style="color:#0078d7;">Released January 10 2019</span>
 
 ### CreateClass and UpdateClass API Methods
 
 You can now create and update classes through the API! 
-
 ![](./images/whats-new/createclass-updateclass-api.png)
 
 ### TMS Updates
 - The **Class Browser** now only shows classes with statuses of **Guaranteed to Run** and **Scheduled** by default. You can override this by adding **?showAll=1** between **Browse** and **#** in the URL.
+
 
 
 ## <span style="color:#0078d7;">Released January 04 2019</span>
@@ -44,15 +47,16 @@ You can now create and update classes through the API!
 Now you can access the links on the **Site Administration** page without leaving your current page. We have added an **Admin** menu which is available in all themes that use the standard navigation. When you click on this menu, all the links you see on the Site Administration page are available grouped in the same way. You can choose to view the groups in their default order or in alphabetical order. For a full explanation of this menu, please see [What is the Admin menu and how does it work?](./tms-administrators/tms-fundamentals/admin-menu.md)
 
 
-## **Released December 14 2018**
 
-### **Survey Availability Messages**
+## <span style="color:#0078d7;">Released December 14 2018</span>
+
+### Survey Availability Messages
 
 Your students can now easily see when they are able to take their class survey. The Survey activity on their Class Enrollment page will have a message detailing when the survey will become available. This message disappears when the Launch button appears.
 
 ![](./images/whats-new/survey-timer-msg.png)
 
-### **TMS Updates**
+### TMS Updates
 - In the **Learning Path** browser, the tiles now display the **Audience** level of the path in the lower right corner of the image and the **number** of **courses** and **duration** are at the very bottom of the tile.
 - You may receive an error message when saving a course after adding labs activities to it if the lab activities exceed the maximum RAM set for courses for your organization. 
 > Message: Sorry, you are not able to add labs with over XX MB of RAM. Please contact **support@learnondemandsystems.com**.
@@ -60,9 +64,10 @@ Your students can now easily see when they are able to take their class survey. 
 - You can now easily summarize and analyze survey responses in Excel or other analytical tools. The exported survey results have been revamped so that each answer of a multi-answer question is exported to its own individual row. See the [How do I export survey responses and analyze them in Excel?](./tms-administrators/miscellaneous/analyze-survey-results.md) article for assistance with Excel.
 
 
-## **Released November 2018**
 
-### **Manage Your Own SCORM Modules**
+## <span style="color:#0078d7;">Released November 2018</span>
+
+### Manage Your Own SCORM Modules
 
 Want to manage your own SCORM content? With the proper permissions, you can create your own SCORM modules, upload your content to them, and add the modules to course profiles. You can preview your SCORM content by launching it from the SCORM module, and you can search for all SCORM attempts started by your students. Please contact **support@learnondemandsystems.com** if you need to manage SCORM content for your organization. The following articles will help you to create SCORM modules, start SCORM content, and view all SCORM attempts by your students:
 
@@ -70,11 +75,11 @@ Want to manage your own SCORM content? With the proper permissions, you can crea
 - [How can I preview a SCORM module belonging to my organization?](./tms-administrators/courses-and-activities/start-scorm-module.md)
 - [How do I view all SCORM attempts by my students?](./tms-administrators/courses-and-activities/view-scorm-attempts.md)
 
-### **Set Your Course Achievements to be Available to Outside Organizations**
+### Set Your Course Achievements to be Available to Outside Organizations
 
 Want to have consistent recognition to all students who take your courses, regardless of whether they are in your organization or not? You can now enable achievements for outside organizations on a **Course** profile’s **Basic Information** tab. If an achievement has the course identified in its conditions, any student who completes the course, either through a course assignment or class enrollment, will earn the achievement, providing the student participates in achievements and their organization has achievements enabled.
 
-### **Create Achievements for Your Subscriptions**
+### Create Achievements for Your Subscriptions
 
 Recognize your organization’s students for their accomplishments in your subscriptions. You can create achievements that tie directly to your subscriptions. Your organization’s students earn achievements by completing course assignments or class enrollments specifically associated with the subscription in the achievement’s conditions. Here is an example of a condition statement for a subscription achievement:
 > [{"Subject": 30,"Count": 1,"ClubIds": [551], "Complete": true}]
@@ -91,7 +96,7 @@ For a course assignment or class enrollment to earn subscription achievements, o
 
 > [!ALERT] Currently, if a subscription contains courses from multiple orgs (i.e. Org A and Org B), has an achievement attached to it, and is available to another organization (Org c), users from that organization will only earn the achievement for courses in the subscription that are in the same org as the achievement and only if those courses allow outside orgs to earn the achievement.
 
-### **Add HTML Footers to Your Learning Paths**
+### Add HTML Footers to Your Learning Paths
 
 Encourage more engagement with your users by adding customizable HTML footers on your learning paths. This is great place to provide users with additional information, suggestions, links, etc. related to the learning path .
 
@@ -99,11 +104,11 @@ Encourage more engagement with your users by adding customizable HTML footers on
 
 ![And how it looks on the learning path to the student](./images/lp-html-footer-view.png)
 
-### **Control Default Maximum Class Size on the Course**
+### Control Default Maximum Class Size on the Course
 
 You can control the default **Maximum Capacity** for classes directly on the **Course** profile. This provides you more granular control so you can have different student attendance capacities for different courses. One use of this might be you could have courses designed to be used in webinars and these could have a higher default capacity than your standard courses. The default on the Course profile will override the organization’s default Maximum Capacity for classes but can be overridden on the class itself.
 
-### **TMS Updates**
+### TMS Updates
 - New **Filter** and new **Output Option** on **Find Labs**: 
     - You can filter by **Course** - This will find all lab activities in the specified course. 
     There is also a new **ExternalId** output option.
@@ -112,9 +117,10 @@ You can control the default **Maximum Capacity** for classes directly on the **C
 - The **.NET Framework** was updated to **4.7.1**.
 
 
-## **Released October 2018**
 
-### **Display of Course Ratings**
+## <span style="color:#0078d7;">Released October 2018</span>
+
+### Display of Course Ratings
 
 You can share the quality of your course offerings by displaying ratings on browser tiles. These ratings derive from the simple feedback given by actual users and are displayed as percentages on the tiles. When a user zooms a tile, the number of reviews are included. The following browsers will display the ratings based on criteria you set:
 - On-Demand
@@ -134,7 +140,7 @@ Examples of the display:
 
 ![Learning path page](./images/learning-path-individual-course-rating.png)
 
-### **Completion Certificate Organizational Ownership/Availability**
+### Completion Certificate Organizational Ownership/Availability
 
 With permissions, you are now able to manage your own course completion certificates. Your certificates are only available to other organizations to use in their courses if you specify them in the certificate template’s profile. This allows you to keep your certificate templates private while still providing the flexibility to share with other organizations as needed.
 
@@ -144,7 +150,7 @@ The Organization output option and filter have been added to the Find Course Cer
 
 ![](./images/certificate-search-filters.png)
 
-### **TMS Updates**
+### TMS Updates
 
 - The Class Browser page can now be loaded prefiltered for classes on a specific course by appending the course ID to the end of the URL. 
 > Example: https://lms.learnondemand.net/Class/Browse?courseId=9672 would load all classes for the 10135B Configuring, Managing and Troubleshooting Microsoft Exchange Server 2010 Service Pack 2 course.
