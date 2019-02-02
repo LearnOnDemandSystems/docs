@@ -6,7 +6,7 @@
    <a href="whats-new.md">What's New</a>
 </div>
 
-# OneLearn Training Management System Help
+# OneLearn TMS Help
 
 Welcome to the OneLearn Training Management System platform (TMS) Help!
 
