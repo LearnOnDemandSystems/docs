@@ -1,6 +1,6 @@
 # What's New in the TMS
 
-## <span style="color:#1a42ad;">Released January 31 2019</span>
+## <span style="color:#0078d7;">Released January 31 2019</span>
 
 ### API Endpoint Properties
 
@@ -9,9 +9,9 @@ The following result endpoints were added to the **SearchClasses** API call:
 - **Description**
 
 
-## **Released January 24 2019**
+## <span style="color:#0078d7;">Released January 24 2019</span>
 
-### **TMS Update**
+### TMS Update
 - The **Class Browser** can now be filtered by a **Course Tag** in the URL by adding **?tagId=X** after **Browse**.
 
 
