@@ -137,10 +137,13 @@ You, as an organization, control when ratings are displayed for your courses bas
 
 Examples of the display:
 - Browser tile
-![](./images/course-ratings-browser-tile.png)
+
+![](./images/course-rating-browser-tile.png)
 - Zoomed tile
-![](./images/course-ratings-zoomed-tile.png)
+
+![](./images/course-rating-zoomed-tile.png)
 - Learning path page
+
 ![](./images/learning-path-individual-course-rating.png)
 
 ### <span style="color:#0078d7;">Completion Certificate Organizational Ownership/Availability</span>
@@ -226,6 +229,7 @@ To add disclaimer to all of your discussions:
 1. Edit your organization.
 1. Click the **Preferences** tab and scroll down to **Discussion Disclaimer**.
 1. This is an HTML field. Add the message you want to appear at the top of discussions to all discussion participants. 
+
 ![](./images/disc-disclaimer.png)
 1. Click **Save**.
 
@@ -241,11 +245,13 @@ There is a new General permission that any user must have to participate in disc
 
 You can add moderators to discussions. Only moderators can delete posts, responses, and comments from discussions and only if they are added to the discussion. To add one or more moderators to a discussion:
 1. Edit the **Discussion** profile.
-1. On the new **Moderators** tab, click **Add**. 
+1. On the new **Moderators** tab, click **Add**.
+
 ![](./images/disc-moderator-tab.png)
 1.  The Choose Moderators dialog will open. This dialog is pre-filtered for users from the Discussion’s organization who have a role with the General permissions, Discussions – Moderating and Discussions – Viewing, in it. 
 1. Use the filters to narrow the results and click **Search**.
 1. Select the moderator(s) and click **OK**. 
+
 ![](./images/choose-moderators.png)
 1. Click **Save**.
 
@@ -288,7 +294,7 @@ This can be done for new or existing courses. The Coming Soon flag will remain o
     - The **Simple Course Assignment** page now scales the image as the page is resized to make it easier to access the tabs at the bottom. 
     - The **Date** filter can now be hidden on the **Class Browser** page by appending **?hideDateFilter=1** to the end of the url.
 
-> [!ALERT} Internet Explorer has a limit of 2,083 characters that can be sent in a query. Therefore, when too many filters are checked, the page locks and loses the resultant tiles.
+> [!ALERT] Internet Explorer has a limit of 2,083 characters that can be sent in a query. Therefore, when too many filters are checked, the page locks and loses the resultant tiles.
 
 - A new **General** permission has been added, **Subscriptions - Editing supplement - expiration editing**. A user with this permission can change the **Expires** date on one of their managed user’s subscription even though the subscription is owned by another organization.
 - When a user clicks **Close My Account** on their profile, the **Close My Account** page now includes a reminder to contact LODS support for Zendesk account deletion.
