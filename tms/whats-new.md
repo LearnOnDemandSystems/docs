@@ -1,6 +1,6 @@
 # What's New in the TMS
 
-## <span style="color:#1a52ad;">Released January 31 2019</span>
+## <span style="color:#1a42ad;">Released January 31 2019</span>
 
 ### API Endpoint Properties
 
