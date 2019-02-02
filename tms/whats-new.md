@@ -1,6 +1,6 @@
 # What's New in the TMS
 
-## **<span style="color:#0078d7;">Released January 31 2019</span>**
+## *<span style="color:#0078d7;">Released January 31 2019</span>*
 
 ### API Endpoint Properties
 
@@ -28,7 +28,7 @@ The following result endpoints were added to API calls:
 
 
 
-<span style="color:#0078d7;">## Released January 10 2019</span>
+## <span style="color:#0078d7;">Released January 10 2019</span>
 
 ### CreateClass and UpdateClass API Methods
 
