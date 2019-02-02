@@ -1,8 +1,8 @@
 # What's New in the TMS
 
-## **<span style="color:#0078d7;">Released January 31 2019</span>**
+## Released January 31 2019
 
-### API Endpoint Properties
+### <span style="color:#0078d7;">API Endpoint Properties</span>
 
 The following result endpoints were added to the **SearchClasses** API call:
 - **IsPublic**
