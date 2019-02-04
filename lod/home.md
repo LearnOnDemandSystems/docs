@@ -29,7 +29,7 @@ Welcome to the OneLearn Lab on Demand platform!
 
 - [**IDL (legacy) to IDLx Upgrade Guide**](/lod/idlx-migration-guide.md) - This document asists in upgrading an IDL (legacy) lab to IDLx. 
 
-- [**Markdown user Guide**](/guides/idl2/markdown-user-guide.md) - This document covers Markdown in detail, including syntax for all supported Markdown.
+- [**Markdown User Guide**](/guides/idl2/markdown-user-guide.md) - This document covers Markdown in detail, including syntax for all supported Markdown.
 
 - [**Replacement Tokens**](/lod/feature-focus/cloud-resource-templates/replacement-tokens.md) - Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.
 
