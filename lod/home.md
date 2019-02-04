@@ -15,19 +15,21 @@ Welcome to the OneLearn Lab on Demand platform!
 -->
 ## Authoring lab instructions
 
-- [**IDLx Lab Development Best Practices**](/lod/idlx-development-best-practices.md) - This document covers best practices for IDLx lab development, to assist in creating a rich learning experience.
+- [**IDLx Activities**](/lod/activities.md) - Activities fall into two broad categories: Questions and Automated. Questions are simply multiple choice or short answer questions. Automated Activities have a script configured to run against a cloud subscription or Windows-based virtual machines running on Hyper-V in the lab.
 
 - [**IDLx Authoring Guide**](/guides/idl2/idlv2-authoring-guide-and-best-practice.md) - This document covers Markdown, lab instruction editor interface, uploading files into your lab, and many other topics to assist with authoring your IDLx lab.
 
-- [**IDLx Lab Interface Overview**](/lod/idlx-lab-interface-overview.md) - This document is an overview of the lab interface, and an explanation of the various functions available. 
+- [**IDLx Lab Development Best Practices**](/lod/idlx-development-best-practices.md) - This document covers best practices for IDLx lab development, to assist in creating a rich learning experience.
 
 - [**IDLx Instruction Editor Overview**](/lod/idlx-lab-instruction-editor.md) - This document is an overview of the lab instruction editor, and an explanation of the various functions available. 
 
-- [**Markdown user Guide**](/guides/idl2/markdown-user-guide.md) - This document covers Markdown in detail, including syntax for all supported Markdown.
-
-- [**IDLx Activities**](/lod/activities.md) - Activities fall into two broad categories: Questions and Automated. Questions are simply multiple choice or short answer questions. Automated Activities have a script configured to run against a cloud subscription or Windows-based virtual machines running on Hyper-V in the lab.
+- [**IDLx Lab Interface Overview**](/lod/idlx-lab-interface-overview.md) - This document is an overview of the lab interface, and an explanation of the various functions available. 
 
 - [**IDLx Lab Variables**](/lod/variables.md) - Variables are used to store information that is not known at the time of lab instruction authoring. Variables store information and then that information can be recalled in later lab steps using a Replacement Token. This document covers how to use Variables in your IDLx lab.
+
+- [**IDL (legacy) to IDLx Upgrade Guide**](/lod/idlx-migration-guide.md) - This document asists in upgrading an IDL (legacy) lab to IDLx. 
+
+- [**Markdown user Guide**](/guides/idl2/markdown-user-guide.md) - This document covers Markdown in detail, including syntax for all supported Markdown.
 
 - [**Replacement Tokens**](/lod/feature-focus/cloud-resource-templates/replacement-tokens.md) - Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.
 
