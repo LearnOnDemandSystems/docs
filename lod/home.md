@@ -19,9 +19,9 @@ Welcome to the OneLearn Lab on Demand platform!
 
 - [**IDLx Authoring Guide**](/guides/idl2/idlv2-authoring-guide-and-best-practice.md) - This document covers Markdown, lab instruction editor interface, uploading files into your lab, and many other topics to assist with authoring your IDLx lab.
 
-- [**IDLx Lab Development Best Practices**](/lod/idlx-development-best-practices.md) - This document covers best practices for IDLx lab development, to assist in creating a rich learning experience.
-
 - [**IDLx Instruction Editor Overview**](/lod/idlx-lab-instruction-editor.md) - This document is an overview of the lab instruction editor, and an explanation of the various functions available. 
+
+- [**IDLx Lab Development Best Practices**](/lod/idlx-development-best-practices.md) - This document covers best practices for IDLx lab development, to assist in creating a rich learning experience.
 
 - [**IDLx Lab Interface Overview**](/lod/idlx-lab-interface-overview.md) - This document is an overview of the lab interface, and an explanation of the various functions available. 
 
