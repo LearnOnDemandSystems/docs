@@ -39,6 +39,7 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 [Identity And Access Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_identityandaccessmanagement.html)|iam||||
 |[Manage Amazon API Gateway](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_manageamazonapigateway.html)|apigateway||||
 
+<!--
 **Alexa for Business:** Alexa for Business is a service that enables organizations and employees to use Alexa to get more work done. With Alexa for Business, employees can use Alexa as their intelligent assistant to be more productive in meeting rooms, at their desks, and even with the Alexa devices they already have at home.
 
 **Amazon API Gateway:** Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. With a few clicks in the AWS Management Console, you can create an API that acts as a “front door” for applications to access data, business logic, or functionality from your backend services, such as workloads running on Amazon Elastic Compute Cloud (Amazon EC2), code running on AWS Lambda, or any web application.
@@ -98,6 +99,8 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 **Identity and Access Management (IAM):** AWS Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources. You use IAM to control who is authenticated (signed in) and authorized (has permissions) to use resources.
 
 **Manage Amazon API Gateway:** Amazon API Gateway is a fully managed service that makes it easy for developers to create, publish, maintain, monitor, and secure APIs at any scale. With a few clicks in the AWS Management Console, you can create an API that acts as a “front door” for applications to access data, business logic, or functionality from your backend services, such as workloads running on Amazon Elastic Compute Cloud (Amazon EC2), code running on AWS Lambda, or any web application.
+
+-->
 
 ## Planned Support
 
@@ -206,6 +209,7 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[Data Pipeline](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_datapipeline.html)|datapipeline||||
 |[TensorFlow on AWS](https://aws.amazon.com/tensorflow/?nc2=h_m1)|N/A||||
 
+<!--
 **Amazon AppStream 2.0:** Amazon AppStream 2.0 is a fully managed application streaming service. You centrally manage your desktop applications on AppStream 2.0 and securely deliver them to any computer. You can easily scale to any number of users across the globe without acquiring, provisioning, and operating hardware or infrastructure. AppStream 2.0 is built on AWS, so you benefit from a data center and network architecture designed for the most security-sensitive organizations.
 
 **Amazon Athena:** Amazon Athena is an interactive query service that makes it easy to analyze data in Amazon S3 using standard SQL. Athena is serverless, so there is no infrastructure to manage, and you pay only for the queries that you run.
@@ -405,3 +409,5 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 **Data Pipeline:** AWS Data Pipeline is a web service that helps you reliably process and move data between different AWS compute and storage services, as well as on-premises data sources, at specified intervals. With AWS Data Pipeline, you can regularly access your data where it’s stored, transform and process it at scale, and efficiently transfer the results to AWS services such as Amazon S3, Amazon RDS, Amazon DynamoDB, and Amazon EMR. AWS Data Pipeline helps you easily create complex data processing workloads that are fault tolerant, repeatable, and highly available. You don’t have to worry about ensuring resource availability, managing inter-task dependencies, retrying transient failures or timeouts in individual tasks, or creating a failure notification system. AWS Data Pipeline also allows you to move and process data that was previously locked up in on-premises data silos.
 
 **TensorFlow on AWS:** TensorFlow™ enables developers to quickly and easily get started with deep learning in the cloud. The framework has broad support in the industry and has become a popular choice for deep learning research and application development, particularly in areas such as computer vision, natural language understanding and speech translation.
+
+-->
