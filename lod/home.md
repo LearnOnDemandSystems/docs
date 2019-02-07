@@ -27,7 +27,7 @@ Welcome to the OneLearn Lab on Demand platform!
 
 - [**IDLx Lab Variables**](/lod/variables.md) - Variables are used to store information that is not known at the time of lab instruction authoring. Variables store information and then that information can be recalled in later lab steps using a Replacement Token. This document covers how to use Variables in your IDLx lab.
 
-- [**IDL (legacy) to IDLx Upgrade Guide**](/lod/idlx-migration-guide.md) - This document asists in upgrading an IDL (legacy) lab to IDLx. 
+- [**Upgrade IDL (legacy) to IDLx**](/lod/idlx-migration-guide.md) - This document asists in upgrading an IDL (legacy) lab to IDLx. 
 
 - [**Markdown User Guide**](/guides/idl2/markdown-user-guide.md) - This document covers Markdown in detail, including syntax for all supported Markdown.
 
