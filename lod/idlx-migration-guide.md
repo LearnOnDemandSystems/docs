@@ -1,4 +1,4 @@
-# IDL (legacy) to IDLx Migration Guide
+# Upgrade IDL (legacy) to IDLx
 
 Upgrading your lab to IDLx is simple, fast and easy. 
 
