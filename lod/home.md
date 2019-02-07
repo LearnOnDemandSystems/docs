@@ -25,13 +25,13 @@ Welcome to the OneLearn Lab on Demand platform!
 
 - [**IDLx Lab Interface Overview**](/lod/idlx-lab-interface-overview.md) - This document is an overview of the lab interface, and an explanation of the various functions available. 
 
-- [**IDLx Lab Variables**](/lod/variables.md) - Variables are used to store information that is not known at the time of lab instruction authoring. Variables store information and then that information can be recalled in later lab steps using a Replacement Token. This document covers how to use Variables in your IDLx lab.
-
-- [**Upgrade IDL (legacy) to IDLx**](/lod/idlx-migration-guide.md) - This document asists in upgrading an IDL (legacy) lab to IDLx. 
+- [**IDLx Lab Variables**](/lod/variables.md) - Variables are used to store information that is not known at the time of lab instruction authoring. Variables store information and then that information can be recalled in later lab steps using a Replacement Token. This document covers how to use Variables in your IDLx lab. 
 
 - [**Markdown User Guide**](/guides/idl2/markdown-user-guide.md) - This document covers Markdown in detail, including syntax for all supported Markdown.
 
 - [**Replacement Tokens**](/lod/feature-focus/cloud-resource-templates/replacement-tokens.md) - Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.
+
+- [**Upgrade IDL (legacy) to IDLx**](/lod/idlx-migration-guide.md) - This document asists in upgrading an IDL (legacy) lab to IDLx.
 
 ## Cloud
 
