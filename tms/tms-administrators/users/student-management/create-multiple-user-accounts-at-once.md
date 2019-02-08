@@ -1,6 +1,6 @@
 # How can I create multiple user accounts at once?
 
-> [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
+> [!Alert] Please be aware that not all functionality covered in this and the linked articles may be available to you.
 
 If you have several users you want to create and want to save time from doing them individually, you can use the Import Users feature. This will allow creating up to 10,000 users at a time through the use of a CSV (comma-separated values) formatted file. Guidance on this file and the required/optional fields are provided on the Import Users page.  
 
