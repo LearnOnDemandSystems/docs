@@ -1,6 +1,6 @@
 # How can I preview a SCORM module belonging to my organization?
 
-> [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
+> [!Alert] Please be aware that not all functionality covered in this and the linked articles may be available to you.
 
 Have you just created a SCORM module in the TMS and want to ensure it launches? Are there SCORM modules whose content you are unfamiliar with? As an administrator with the correct permissions, you can start any SCORM modules belonging to the organizations you manage. To start a module:
 
