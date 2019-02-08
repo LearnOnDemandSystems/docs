@@ -1,6 +1,6 @@
 # What can I do about duplicate user accounts?
 
-> [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
+> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
 
 There may be times when you find that one of your users has two accounts and important data in both.  In this case, you will want to merge the two accounts into one.  
 
