@@ -180,7 +180,7 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
   > \!video[text to display]\(url)
   
-  - **Audio:** Used to embed an inline audio player, or a link to an audio recording.The syntax format should look the same as a video, except the audio should begin with a ! (explanation mark), followed by the word audio.
+- **Audio:** Used to embed an inline audio player, or a link to an audio recording.The syntax format should look the same as a video, except the audio should begin with a ! (explanation mark), followed by the word audio.
 
   > \!AUDIO[text to display](URL)
 
