@@ -176,9 +176,13 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
   > `![](image url){heightXwidth}` or `{height}`
 
-- **Video:** Used to embed an image inline with other content. The syntax format should look the same as an image, except the video should begin with a ! (explanation mark), followed by the word VIDEO (all caps).
+- **Video:** Used to embed an image inline with other content. The syntax format should look the same as an image, except the video should begin with a ! (explanation mark), followed by the word VIDEO. 
 
   > \!video[text to display]\(url)
+  
+  - **Audio:** Used to embed an inline audio player, or a link to an audio recording.The syntax format should look the same as a video, except the audio should begin with a ! (explanation mark), followed by the word audio.
+
+  > \!AUDIO[text to display](URL)
 
 - **Image with link:** Used to embed an image that can be clicked to navigate to a specific URL (internal or external). 
 
