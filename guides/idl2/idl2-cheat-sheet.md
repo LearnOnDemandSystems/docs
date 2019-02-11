@@ -38,7 +38,7 @@
 |<font size="3">**Embedded Content**</font>|                                          |
 | Image             | `![text to display](URL)`                               |
 | Video             | `!video[text to display](URL)` (URLs from YouTube.com auto embed)          |
-| Audio             | `!AUDIO[text to display](URL)`           |
+| Audio             | `!audio[text to display](URL)`           |
 | Image with link   | `[![image description](URL of image "image description")](URL to open when image is clicked)`    |
 | Portal Link       |  `<[text to display](URL)`     | 
 | Image Link        |  `image[text to display](URL)`| 
