@@ -138,7 +138,7 @@ If you an Administrator, explore the following topics/processes to help you star
 - [Why do links disappear?](./tms-administrators/tms-fundamentals/disappearing-links.md)
 - [Can I rearrange items on the Site Administration page?](./tms-administrators/tms-fundamentals/rearrange-items-on-site-administration.md)
 
-[< Return to Administrator menu>](#administrator)
+[< Return to Administrator menu >](#administrator)
 
 
 ### Classes
@@ -166,7 +166,7 @@ If you an Administrator, explore the following topics/processes to help you star
 - [How do I find a student's completed classes?](./tms-administrators/classes/enrollments-roster/find-students-completed-classes.md)
 - [How do I find all the classes a student has ever been registered to take?](./tms-administrators/classes/enrollments-roster/find-all-classes-student-has-been-registered-for.md)
 
-[< Return to Administrator menu>](#administrator) 
+[< Return to Administrator menu >](#administrator) 
 
 #### *Instructors*
 
@@ -186,7 +186,7 @@ If you an Administrator, explore the following topics/processes to help you star
 - [How do I use multiple classrooms for a class?](./tms-administrators/classes/classrooms-equipment/use-multiple-classrooms-for-class.md)
 - [How can I track laptops being used for classes taught outside my organization?](./tms-administrators/classes/classrooms-equipment/track-laptops-being-used-for-classes-outside-org.md)
 
-[< Return to Administrator menu>](#administrator)
+[< Return to Administrator menu >](#administrator)
 
 
 ### Users
@@ -210,7 +210,7 @@ If you an Administrator, explore the following topics/processes to help you star
 - [How can my organization be set up to use contract instructors?](./tms-administrators/users/instructor-management/set-up-organization-to-use-contract-instructors.md)
 - [How can I find instructors that can teach a specific course?](./tms-administrators/users/instructor-management/find-instructors-that-teach-specific-course.md)
 
-[< Return to Administrator menu>](#administrator)
+[< Return to Administrator menu >](#administrator)
 
 
 ### Self-Paced Learning and Subscriptions
@@ -231,7 +231,7 @@ If you an Administrator, explore the following topics/processes to help you star
 - [How do I view SCORM attempts by my students?](./tms-administrators/courses-and-activities/view-scorm-attempts.md)
 - [How can I capture user data for users who access my externally hosted activities from the TMS?](./tms-administrators/courses-and-activities/capture-user-data-for-externally-hosted-activities.md)
 
-[< Return to Administrator menu>](#administrator)
+[< Return to Administrator menu >](#administrator)
 
 
 ### Discussions
@@ -243,7 +243,7 @@ If you an Administrator, explore the following topics/processes to help you star
 - [How do my students and I participate in discussions?](./tms-administrators/discussions/participation.md)
 - [How can I be notified of activity on a discussion?](./tms-administrators/discussions/admin-follow.md)
 
-< Return to Administrator menu>](#administrator)
+[< Return to Administrator menu >](#administrator)
 
 
 ### Miscellaneous
