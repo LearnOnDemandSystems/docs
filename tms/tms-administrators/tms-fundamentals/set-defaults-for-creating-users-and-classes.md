@@ -9,7 +9,7 @@ To set your defaults:
 1. Click the **Preferences** tab. 
 
 ## User Defaults
-Three defaults can be set for creating new user accounts: the User Password, the UserName Pattern, and the User Role(s). Contact **support@learnondemandsystems.com** to set up default user role(s).
+Three defaults can be set for creating new user accounts: the User Password, the UserName Pattern, and the User Role(s). Please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help) to set up default user role(s).
 
 | Field | Default Data |
 |:------|:--------|

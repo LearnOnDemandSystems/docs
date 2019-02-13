@@ -1,6 +1,6 @@
 # How can I use training keys for students to self-register for a class?
 
-Training keys can be generated for each class created and distributed to students to enroll into the class and, if needed, to create their own user account in the TMS. Some setup by the LODS team is needed to enable the ability for students to create user accounts. Please contact **support@learnondemandsystems.com** for information.
+Training keys can be generated for each class created and distributed to students to enroll into the class and, if needed, to create their own user account in the TMS. Some setup by the LODS team is needed to enable the ability for students to create user accounts. Please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help) for information.
 
 Training keys are unique to each class and each student will need a unique key to register. Training keys are created from the Class Profile page . To navigate to a class and create training keys:
 1. On the **Admin** menu in the **Classes** group, click **Find Classes**. 

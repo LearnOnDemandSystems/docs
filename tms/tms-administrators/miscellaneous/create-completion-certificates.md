@@ -4,7 +4,7 @@ Course completion certificates can be added to the courses of your choice for yo
 
 Certificates are available to print by administrators at any time for classes and course assignments. They may edit from a Word file or print using a PDF. Students may print certificates from a PDF if a class enrollment or course assignment shows as Complete on their Transcript.
 
-You may need to contact us for the permissions required to upload or add certificates to courses; or we may need to create the courses for you. Please contact us at **support@learnondemandsystems.com** for assistance or to receive the proper roles in the TMS.
+You may need to contact us for the permissions required to upload or add certificates to courses; or we may need to create the courses for you. Please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help) for assistance or to receive the proper roles in the TMS.
 
 ## Steps for adding certificates:
 
