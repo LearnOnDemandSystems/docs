@@ -30,20 +30,20 @@ To navigate in the discussion (you can add a post at any point either using the 
 
 - Select a **Topic** to view/add posts:
 
-image of main page
+![](/tms/images/disc-main-page.png)
 
 - Select a **Post** to read and respond to, if wanted (notice the breadcrumb above the post titles):
 
-image of topic page
+![](/tms/images/disc-topic-page.png)
 
 - Add a new **Post**, **Response** or **comment**, if wanted. (Each activity has an HTML field for its content; only posts have a title.)
 - Like/unlike the Post, a Response, or a Comment.
 
-image of post conversation
+![](/tms/images/disc-conversation.png)
 
 All posts, responses, and comments will have the date and time of the post (0 GMT), the name of the poster, and their image if available from their User profile. When a “Staff” member posts, replies, or comments, they will be marked with a special badge. “Staff” is a user who: 1) has administrative privileges for discussion, 2) belongs to the organization tree that owns the discussion, and 3) has management over the organization that owns the discussion.
 
-image of staff badge
+![](/tms/images/disc-staff-emblem.png)
 
 ## Related Articles
 
