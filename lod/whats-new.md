@@ -1,5 +1,42 @@
 # What's New in Lab On Demand
 
+## **Released January 8, 2019**
+
+### **Open VMs in a separate window**
+
+- VMs can now be opened in a separate window from the main lab window. Each VM in the lab can be displayed in its own window. From the Reources tab, clicking _Open in new window_ will open the VM in a new window. Clicking _Close window_ will close the VM window and put the VM back in the main lab window.
+
+![](images/open-in-new-window.png) 
+
+_VM is in main lab window_
+
+![](images/close-vm-window.png)
+
+_VM is in separate window_
+
+### **IDLx Audio Syntax**
+
+- New syntax to use mp3 audio clips in IDLx lab instructions. The new syntax will embed an audio player, or a link to the audio. 
+
+![](images/audio-player.png)
+
+_embedded audio player_
+
+![](images/audio-link.png)
+
+_audio as a link_
+
+### **Other**
+
+- When a student extends the lab timer, a note is added to the lab instance. 
+
+### **Bug Fixes**
+
+-  Fixed a bug that caused the lab timer to be hidden when set to display, in Cloud Slice labs. 
+- Fixed a bug that prevented IDLx images from being resized properly due to case sensitivity in the syntax.
+- Fixed a bug that caused GitHub integration to fail. 
+- Fixed a bug that prevented images from opening in a dialog when IDLx windows are split.
+
 ## **Released January 18, 2019**
 
 ### **Show Scoring Result Upon Completion** 
@@ -9,13 +46,14 @@ This can be set in the Activities menu in the IDLx instruction editor.
 
 ![](images/enable-show-score.png)
 
+![](images/you-passed.png)
+
 _Show scoring result enabled_
 
-![](images/you-passed.png)
+![](images/submitted-for-grading.png)
 
 _Show scoring result disabled_
 
-![](images/submitted-for-grading.png)
 ### **AWS Login Rework**
 - Allows a lab user to launch a lab and go directly into the AWS portal, without the need to enter AWS credentials. 
 
