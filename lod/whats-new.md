@@ -1,6 +1,6 @@
 # What's New in Lab On Demand
 
-## **Released January 8, 2019**
+## **Released February 8, 2019**
 
 ### **Open VMs in a separate window**
 
