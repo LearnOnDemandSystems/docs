@@ -239,7 +239,7 @@ If you an Administrator, explore the following topics/processes to help you star
 - [What is a discussion and how can I use it to increase student interaction in their learning?](./tms-administrators/discussions/what-is-discussion.md)
 - [How do I create a discussion and attach it to a course?](./tms-administrators/discussions/create-discussion.md)
 - [How can I control posts on discussions?](./tms-administrators/discussions/add-moderators.md)
-- [How can I add a disclaimer to all my discussions?](./tms-administrators/discussions/add-disclaimer)
+- [How can I add a disclaimer to all my discussions?](./tms-administrators/discussions/add-disclaimer.md)
 - [How do my students and I participate in discussions?](./tms-administrators/discussions/participation.md)
 - [How can I be notified of activity on a discussion?](./tms-administrators/discussions/admin-follow.md)
 
