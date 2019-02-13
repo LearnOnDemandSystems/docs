@@ -72,7 +72,7 @@ Your students can now easily see when they are able to take their class survey. 
 
 ### <span style="color:#0078d7;">Manage Your Own SCORM Modules</span>
 
-Want to manage your own SCORM content? With the proper permissions, you can create your own SCORM modules, upload your content to them, and add the modules to course profiles. You can preview your SCORM content by launching it from the SCORM module, and you can search for all SCORM attempts started by your students. Please contact **support@learnondemandsystems.com** if you need to manage SCORM content for your organization. The following articles will help you to create SCORM modules, start SCORM content, and view all SCORM attempts by your students:
+Want to manage your own SCORM content? With the proper permissions, you can create your own SCORM modules, upload your content to them, and add the modules to course profiles. You can preview your SCORM content by launching it from the SCORM module, and you can search for all SCORM attempts started by your students. Please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help) if you need to manage SCORM content for your organization. The following articles will help you to create SCORM modules, start SCORM content, and view all SCORM attempts by your students:
 
 - [How do I create a SCORM Module and make it available to other orgs for their courses?](./tms-administrators/courses-and-activities/create-scorm-module.md)
 - [How can I preview a SCORM module belonging to my organization?](./tms-administrators/courses-and-activities/start-scorm-module.md)
@@ -239,7 +239,7 @@ When a user accesses any of your discussions, the disclaimer will be displayed a
 
 #### *<span style="color:#0078d7;">Participation Permission</span>*
 
-There is a new General permission that any user must have to participate in discussions, Discussions – Participation. This permission, if made part of a supplemental role, will allow your organization to be a little more granular in who you allow to participate. If it is added to the default user role, then anyone with access to the discussion can post and respond to posts. If a user does not have this permission, they will not see the Discussion link on the course, class, class enrollment or course assignment. You will need to work with our support team to set this up, **support@learnondemandsystems.com**.
+There is a new General permission that any user must have to participate in discussions, Discussions – Participation. This permission, if made part of a supplemental role, will allow your organization to be a little more granular in who you allow to participate. If it is added to the default user role, then anyone with access to the discussion can post and respond to posts. If a user does not have this permission, they will not see the Discussion link on the course, class, class enrollment or course assignment. You will need to submit a Support ticket at [**https://lod.one/help**](https://lod.one/help) to work with our support team to set this up.
 
 #### *<span style="color:#0078d7;">Moderators</span>*
 
@@ -313,7 +313,7 @@ This can be done for new or existing courses. The Coming Soon flag will remain o
 
 You can now request to have an **Authentication Provider** set up with associated roles so when a user logs in via that authentication provider (AP), the role(s) are automatically added to the user. If the role is later removed from the user’s profile by an administrator, the next time the user logs in using the AP, the role will again be assigned to the user.
 
-Please contact **support@learnondemandsystems.com** to set up your Authentication Provider. Note: this provider will need to be added to your TMS site to be visible to your users.
+Please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help) to set up your Authentication Provider. Note: this provider will need to be added to your TMS site to be visible to your users.
 
 ### <span style="color:#0078d7;">TMS Updates</span>
 - The **New** flag on courses (on the Find Courses, On Demand Browser, Course Catalog, and Classes browser) is now calculated using the date the **Available Instructor-Led** and/or **Available Self-Paced** checkboxes are checked on the course, rather than the **Created** by date. To make the flag show up for existing courses, uncheck both Available checkboxes on the course and save. Then check at least one of them again and save. Remember that a course must be:
@@ -343,4 +343,4 @@ It is similar to the look and functionality of the On-Demand browser pages:
 1. Hover over a class to see more details such as when it **ends**, its **status** and **delivery type**, and the **classroom** and **instructor**. 
 1. On the zoomed-in tile, click **More** to access the **Class Details** page for further information.
 
-> [!NOTE] If your organization has customized the navigation bar, this link will need to be set up on your instance. Please contact **support@learnondemandsystems.com** for assistance.
+> [!NOTE] If your organization has customized the navigation bar, this link will need to be set up on your instance. Please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help) for assistance.

@@ -28,6 +28,6 @@ To change your number:
 
 It may take about 10 minutes for the Arvato Customer Number to synchronize in with your order in the TMS. After the sync is complete, you should see the vouchers appear in the **Manage Class Vouchers** page and you can begin using them to create your class.   
 
-If you have corrected/added your **Arvato Customer Number** and waited 10 minutes and the issue was not resolved, please contact our Support Team at **support@learnondemandsystems.com**. Please provide your Arvato Customer ID so we can find your order and organization. Once they have found your order and organization and made necessary updates, they will contact you. You may still need to wait a few minutes for the vouchers to synchronize from the Courseware Marketplace website.
+If you have corrected/added your **Arvato Customer Number** and waited 10 minutes and the issue was not resolved, please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help). Please provide your Arvato Customer ID so we can find your order and organization. Once they have found your order and organization and made necessary updates, they will contact you. You may still need to wait a few minutes for the vouchers to synchronize from the Courseware Marketplace website.
 
 

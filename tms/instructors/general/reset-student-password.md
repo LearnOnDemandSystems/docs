@@ -13,4 +13,4 @@ To change either the password or username:
 
 The student will not be notified of the changes. Therefore, please inform them of their new login credentials.
 
-Please Note: You will not be able to reset a password for a user logging in the TMS through an outside authentification sch as Google or Microsoft Live. If you experience any issues resetting a user's password, please contact our Support team at support@learnondemandsystems.com and they can assist you.
+Please Note: You will not be able to reset a password for a user logging in the TMS through an outside authentification sch as Google or Microsoft Live. If you experience any issues resetting a user's password, please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help) and they can assist you.

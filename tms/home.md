@@ -42,7 +42,7 @@ If you an Administrator, explore the following topics/processes to help you star
      - [Instructor Management](#instructor-management)
 - [Self-Paced Learning and Subscriptions](#self-paced-learning-and-subscriptions)
 - [Courses and Their Activities](#courses-and-their-activities)
-- Discussions (Coming Soon)
+- [Discussions](#discussions)
 - [Miscellaneous](#miscellaneous)
 
 ## Student FAQs
@@ -64,6 +64,7 @@ If you an Administrator, explore the following topics/processes to help you star
 ### Classes and Self-Paced Learning
 
 - [How do I get into my virtual classroom?](./end-user-student-faqs/class-self-paced/get-into-virtual-classroom.md)
+- [How do I participate in a discussion?](./end-user-student-faqs/class-self-paced/discussions.md)
 - [How do I print my completion certificate?](./end-user-student-faqs/class-self-paced/print-completion-certificate.md)
 - [What is the Access Courseware button and how do I use it?](./end-user-student-faqs/class-self-paced/access-my-courseware.md)
 
@@ -82,6 +83,8 @@ If you an Administrator, explore the following topics/processes to help you star
 - [How do I prepare for a course that I am not scheduled to teach?](./instructors/instructor-prep-and-classes/prepare-for-course-not-scheduled-to-teach.md)
 - [How do I find classes I am scheduled to teach?](./instructors/instructor-prep-and-classes/find-classes-scheduled-to-teach.md)
 - [How do I get to a class I am scheduled to teach?](./instructors/instructor-prep-and-classes/get-to-class-scheduled-to-teach.md)
+- [How do my students and I participate in discussions?](./tms-administrators/discussions/participation.md)
+- [How can I be notified of activity on a discussion?](./tms-administrators/discussions/admin-follow.md)
 
 ### Student Labs
 
@@ -214,6 +217,7 @@ If you an Administrator, explore the following topics/processes to help you star
 
 - [How do I schedule self-paced learning for a student?](./tms-administrators/self-paced-learning-and-subscriptions/schedule-self-paced-learning.md)
 - [How can an administrator print completion certificates for self-pace learning?](./tms-administrators/self-paced-learning-and-subscriptions/print-completion-certificates-for-self-pace-learning-by-admin.md)
+- []
 
 
 ### Courses and Their Activities
@@ -228,6 +232,18 @@ If you an Administrator, explore the following topics/processes to help you star
 - [How can I capture user data for users who access my externally hosted activities from the TMS?](./tms-administrators/courses-and-activities/capture-user-data-for-externally-hosted-activities.md)
 
 [< Return to Administrator menu>](#administrator)
+
+
+### Discussions
+
+- [What is a discussion and how can I use it to increase student interaction in their learning?](./tms-administrators/discussions/what-is-discussion.md)
+- [How do I create a discussion and attach it to a course?](./tms-administrators/discussions/create-discussion.md)
+- [How can I control posts on discussions?](./tms-administrators/discussions/add-moderators.md)
+- [How can I add a disclaimer to all my discussions?](./tms-administrators/discussions/add-disclaimer)
+- [How do my students and I participate in discussions?](./tms-administrators/discussions/participation.md)
+- [How can I be notified of activity on a discussion?](./tms-administrators/discussions/admin-follow.md)
+
+< Return to Administrator menu>](#administrator)
 
 
 ### Miscellaneous

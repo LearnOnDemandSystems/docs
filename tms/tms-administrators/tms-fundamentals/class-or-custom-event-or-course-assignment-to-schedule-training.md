@@ -11,7 +11,7 @@ Either a Class or a Custom Event will allow you to select the days and times of 
 -	Resources added to a course are available to students once their Enrollment Status is marked Enrolled or Audit; access to resources is not tied to class sessions, they can access the documents at any time.
 
 
-**Custom event** - allow you to schedule a meeting without using a course and its resources. If you are interested in using this feature, please contact **support@learnondemandsystems.com** to be given permissions to create and manage Custom Events.
+**Custom event** - allow you to schedule a meeting without using a course and its resources. If you are interested in using this feature, please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help) to be given permissions to create and manage Custom Events.
 
 **Course Assignment** - set up for one student to give access to a course's activities and resources. 
 -	Begin when created and access usually expires in 6 months. 
