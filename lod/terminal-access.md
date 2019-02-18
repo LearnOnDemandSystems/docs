@@ -25,7 +25,7 @@ For more information about how SSH works, and instructions on setting up an SSH 
 
 SSH configuration may need to be modified to enable password authentication or root login.
 
-1. Open ```/etc/ssh/sshd_config``` and uncomment the line_**PasswordAuthentication** yes_ 
+1. Open ```/etc/ssh/sshd_config``` and uncomment the line **_PasswordAuthentication yes_**. 
 
 1. If you need root login as well, uncomment **_PermitRootLogin yes_**, or add the line if you can’t find it. 
 
