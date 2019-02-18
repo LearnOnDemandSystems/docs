@@ -1,25 +1,28 @@
 # Terminal Access to Virtual Machines
 
-SSH Terminal access allows a user to connect and interact with a virtual machine from a terminal window.
-
 ![](images/terminal-window.png)
+
+SSH Terminal access allows a user to connect and interact with a virtual machine from a terminal window.
 
 There are several virtual machine (VM) requirements for SSH terminal access. 
 
 - Install Hyper-V Integration. 
 - Support ESX open-vm-tools. 
-- A running SSH server on the VM (Hyper-V and ESX).
+- A running SSH server on the VM.
 
 For more information about how SSH works, and instructions on setting up an SSH server, click [here](https://www.tecmint.com/install-openssh-server-in-linux/).
 
 ## Installation
 
-1. **On Hyper-V**, install the Hyper-V Integration Tools.
-    - Hyper-V Integration Tools can be downloaded [here](https://www.microsoft.com/en-us/download/details.aspx?id=55106).
+1. **For VMs hosted on Hyper-V**
+    - Download Hyper-V Integration Tools. This can be downloaed [from Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=55106).
+    - Once the file is downloaded, open the file to install Hyper-V Integration Tools.
 
-1.  **On ESX**, Linux VMs must support the open-vm-tools package. On most builds, this is installed by default. It is recommeneded to verify this is installed using the following commands: 
-    - On **Debian/Ubuntu** builds this can be installed with ```sudo apt-get install open-vm-tools```.
-    - On **RHEL or CENTOS** ```sudo yum install open-vm-tools -y```.
+1.  **For VMs hosted onOn ESX**, 
+
+    - Linux VMs must support the open-vm-tools package. On most builds, this is installed by default. It is recommeneded to verify this is installed using the following commands: 
+        - On **Debian/Ubuntu** builds this can be installed with ```sudo apt-get install open-vm-tools```.
+        - On **RHEL or CENTOS** ```sudo yum install open-vm-tools -y```.
 
 ## Configure a running SSH server. 
 
@@ -39,7 +42,7 @@ SSH configuration may need to be modified to enable password authentication or r
 
     ![](images/connect-to-terminal.png)
 
-1. Launch a new instance of your lab profile and verify the VM connects via SSH. The VM should boot to a terminal window, with lab instructions on the right side of the screen.
+1. Launch a new instance of your lab profile and verify the VM connects via SSH. The VM should boot to a terminal window.
 
 ## Additional Resources
 
