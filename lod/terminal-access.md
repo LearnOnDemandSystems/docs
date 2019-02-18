@@ -10,8 +10,6 @@ There are several virtual machine (VM) requirements for SSH terminal access.
 - Support ESX open-vm-tools. 
 - A running SSH server on the VM.
 
-For more information about how SSH works, and instructions on setting up an SSH server, click [here](https://www.tecmint.com/install-openssh-server-in-linux/).
-
 ## Installation
 
 1. **For VMs hosted on Hyper-V**
@@ -43,6 +41,8 @@ SSH configuration may need to be modified to enable password authentication or r
     ![](images/connect-to-terminal.png)
 
 1. Launch a new instance of your lab profile and verify the VM connects via SSH. The VM should boot to a terminal window.
+
+For more information about how SSH works, and instructions on setting up an SSH server, click [here](https://www.tecmint.com/install-openssh-server-in-linux/).
 
 ## Additional Resources
 
