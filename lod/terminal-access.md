@@ -4,11 +4,10 @@
 
 SSH Terminal access allows a user to connect and interact with a virtual machine from a terminal window.
 
-There are several virtual machine (VM) requirements for SSH terminal access. 
+There are a couple of virtual machine (VM) requirements for SSH terminal access:
 
-- Install Hyper-V Integration. 
-- Support ESX open-vm-tools. 
-- A running SSH server on the VM.
+- Hypervisor integration tools.
+- A running SSH server.
 
 ## Installation
 
@@ -16,13 +15,13 @@ There are several virtual machine (VM) requirements for SSH terminal access.
     - Download Hyper-V Integration Tools. This can be downloaed [from Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=55106).
     - Once the file is downloaded, open the file to install Hyper-V Integration Tools.
 
-1.  **For VMs hosted onOn ESX**, 
+1.  **For VMs hosted on ESX**
 
     - Linux VMs must support the open-vm-tools package. On most builds, this is installed by default. It is recommeneded to verify this is installed using the following commands: 
         - On **Debian/Ubuntu** builds this can be installed with ```sudo apt-get install open-vm-tools```.
         - On **RHEL or CENTOS** ```sudo yum install open-vm-tools -y```.
 
-## Configure a running SSH server. 
+## Configure a running SSH server
 
 SSH configuration may need to be modified to enable password authentication or root login.
 
