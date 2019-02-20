@@ -76,7 +76,7 @@ You have created or imported a virtual machine.
 
 1.  For a public IP connection, contact the Help Desk to request approval, and then select **Web Access (Public IP)**.
 
-    >[!ALERT] A public IP address requires approval. In order to get Public IP access, contact the Help Desk using the support request form, or send an email to support@learnondemandsystems.com.
+    >[!ALERT] A public IP address requires approval. In order to get Public IP access, contact the Help Desk at https://lod.one/help.
 
 #### Virtual Machines Tab
 
