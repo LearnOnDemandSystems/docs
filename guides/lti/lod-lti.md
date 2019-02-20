@@ -20,7 +20,7 @@ To integrate content from an LTI Provider into an LTI Consumer, the following in
 - LTI Client Secret – this is the password/passcode used to authenticate to the LTI Provider account; for OneLearn Lab on Demand, this is referred to as the LTI Secret
 - Content URL – this is the URI that exposes the content to be integrated into the LTI Consumer training materials; for OneLearn Lab on Demand, this is referred to as the LTI Launch URL
 
-If you are an existing customer of Learn on Demand Systems and you want to launch your labs via LTI, request the LTI Key and LTI Secret for your lab(s) from [support@learnondemandsystems.com](mailto:support@learnondemandsystems.com).
+If you are an existing customer of Learn on Demand Systems and you want to launch your labs via LTI, request the LTI Key and LTI Secret for your lab(s) from please submit a Support ticket at https://lod.one/help for assistance.
 
 Once you have these pieces of information in hand, you can begin integrating your Lab on Demand lab into an edX course.
 
