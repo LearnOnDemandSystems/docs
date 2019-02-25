@@ -22,15 +22,15 @@ Variables defined  lab instructions use two Replacement tokens;
 - **&commat;lab.Variable(name)** : used to recall the information stored in the variable "name".
 
 To use these variables in lab instructions:
-1. Place the **textbox replacement token** where you would like the user to enter information into. 
+1. Place the **TextBox replacement token** where you would like the user to enter information into. 
 1. Next, place the **variable(name) replacement token** where you would like the entered information to be recalled.
     1. This could be in one or more locations throughout the manual.
 
-It is highly recommended that you give the textbox a unique name in the (name) section of the replacement token. That same (name) is required in the variable(name) replacement token when the the stored information is needed. Giving these unique names, enables you to use more than one textbox variable in a single lab. 
+It is highly recommended that you give the TextBox a unique name in the (name) section of the replacement token. That same (name) is required in the variable(name) replacement token when the the stored information is needed. Giving these unique names, enables you to use more than one TextBox variable in a single lab. 
 
->[!knowledge] For example, you could create a variable with &commat;lab.textbox(studentPassword) and ask the student to enter a password in the field. Later in the lab you could recall the student's password with &commat;lab.Variable(studentPassword). This prevents the student from having to remember or write down their password, since it is stored in the lab by a variable.
+>[!knowledge] For example, you could create a variable with &commat;lab.TextBox(studentPassword) and ask the student to enter a password in the field. Later in the lab you could recall the student's password with &commat;lab.Variable(studentPassword). This prevents the student from having to remember or write down their password, since it is stored in the lab by a variable.
 
-Below is how the textbox and variable will look in a lab environment:
+Below is how the TextBox and variable will look in a lab environment:
 
 - Defining Variable in lab instruction editor view:
 
@@ -109,3 +109,5 @@ Automated activites can also use variables set by a life cycle action, as long a
 > You can recall the variable by using the following syntax:
 > 
 > > ++&commat;lab.Variable(storagekey)++
+
+[Back to top](#lab-variables)
