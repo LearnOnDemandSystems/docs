@@ -51,7 +51,7 @@ Welcome to the OneLearn Lab on Demand platform!
 
 * [**Create a an Azure Resource Template and Resource Group Configuration**](/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md) - Create a Resource Template and Configure it into a Resource Group
 
-* [**Create an Azure Restriction Policy**](/lod/create-a-restriction-policy.md) - Create a Cloud Restriction Policy
+* [**Create an Access Control Policy**](/lod/create-a-restriction-policy.md) - Create a Cloud Access Control Policy.
 
 * [**Replacement Tokens**](/lod/feature-focus/cloud-resource-templates/replacement-tokens.md) - Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat; replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.
 
