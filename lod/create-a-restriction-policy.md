@@ -14,7 +14,7 @@ For more information about the items that can be used in an Access Control Polic
 
 1. Click **Create Cloud Restriction** Policy in the upper-right corner of the page. 
 
-   ![Create Cloud Access Control Policy ](images/create-a-cloud-restriction-policy.png)
+   ![Create Cloud Access Control Policy ](images/find-access-control-policy.png)
 
 1. Enter the following values into the Create an Access Control Policy  form:
 
@@ -23,7 +23,7 @@ For more information about the items that can be used in an Access Control Polic
     |**Basic Information**|**Name**|A name of your choosing.|
     ||**Description**|Describe the intentions and goals of the Access Control Policy .|
     ||**Organizaton**|Select the organization that the Access Control Policy  will be available to.|
-    ||**Access Control Policy **|Enter the Access Control Policy  here, in JSON format.|
+    ||**Access Control Policy**|Enter the Access Control Policy  here, in JSON format.|
     ||**Enabled**|Check the box to enable this Access Control Policy  for use.|
 
 1. Enter the following values into the Create a Access Control Policy  form:
