@@ -4,7 +4,7 @@ An Access Control Policy  is used by a cloud provider, to limit the resources th
 
 For more information about the items that can be used in an Access Control Policy , see [Microsoft Azure Access Control Policy  Templates](https://docs.microsoft.com/en-us/azure/azure-policy/json-samples).
 
->[!alert] In LOD, restriction policies are housed inside of a resource group. If you have not created a Resource Group, you will not be able to configure the Access Control Policy to the lab profile until the Resource Group is created and assigned to the lab profile. See our guide for more information about [creating a resource template and configure it into a resource group](create-a-resource-template-and-configure-it-into-a-resource-group.md). 
+>[!alert] In LOD, Access Control Policies are housed inside of a resource group. If you have not created a Resource Group, you will not be able to configure the Access Control Policy to the lab profile until the Resource Group is created and assigned to the lab profile. See our guide for more information about [creating a resource template and configure it into a resource group](create-a-resource-template-and-configure-it-into-a-resource-group.md). 
 
 ## Creating a Restrcition Policy in Lab on Demand (LOD)
 
