@@ -1,6 +1,6 @@
 # Create an Access Control Policy 
 
-An Access Control Policy  is used by a cloud provider, to limit the resources that can be provisioned by the cloud provider. This helps to prevent additional charges from incurring if students configure something in the Cloud portal that is outside of the scope of the lab. Restriction Policies also help students stay within the goals of the lab.
+An Access Control Policy  is used by a cloud provider, to limit the resources that can be provisioned by the cloud provider. This helps to prevent additional charges from incurring if students configure something in the Cloud portal that is outside of the scope of the lab. Access Control Policies also help students stay within the goals of the lab.
 
 For more information about the items that can be used in an Access Control Policy , see [Microsoft Azure Access Control Policy  Templates](https://docs.microsoft.com/en-us/azure/azure-policy/json-samples).
 
@@ -10,7 +10,7 @@ For more information about the items that can be used in an Access Control Polic
 
 1. **Navigate** to the **Cloud Services** tile, on the LOD Admin page.
 
-1. Click **Cloud Restriction Policies**.
+1. Click **Cloud Access Control Policies**.
 
 1. Click **Create Cloud Restriction** Policy in the upper-right corner of the page. 
 
@@ -49,7 +49,7 @@ For more information about the items that can be used in an Access Control Polic
 
 1. Select the **Cloud** tab.
 
-1. Scroll down to your resource group, then click **Add Restriction Policies** below the _Cloud Restriction Policies_ heading.
+1. Scroll down to your resource group, then click **Add Access Control Policies** below the _Cloud Access Control Policies_ heading.
 
 1. Enter the name you gave your Access Control Policy  into the **Name** field, and change the operator drop down adjacent to it to **Equal**. (Access Control Policy  created in previous steps)
 
