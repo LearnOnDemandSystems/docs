@@ -12,7 +12,7 @@ For more information about the items that can be used in an Access Control Polic
 
 1. Click **Cloud Access Control Policies**.
 
-1. Click **Create Cloud Restriction** Policy in the upper-right corner of the page. 
+1. Click **Create Acess Control Policy** in the upper-right corner of the page. 
 
    ![Create Cloud Access Control Policy ](images/find-access-control-policy.png)
 
