@@ -31,7 +31,7 @@ If you purchased Learn on Demand Systems labs through the Arvato Courseware Mark
 
 If you access the TMS through the API:
 
-> [!ALERT] Our API is written to allow new response fields we add to be ignored by clients. However, to ensure your API calls consistently work, when building your API client, make sure that your implementation is written in such a way as to ignore any fields you are not using in your code. This will help ensure your implementation remains stable while the API can remain dynamic. To assist with this, we have provided our [client library](https://lms.learnondemand.net/Content/Enlight.Api.zip), which adheres to these best practices.
+> [!ALERT] Our API is written to allow new response fields we add to be ignored by clients. However, to ensure your API calls consistently work, when building your API client, make sure that your implementation is written in such a way as to ignore any fields you are not using in your code. This will help ensure your implementation remains stable while the API can remain dynamic. To assist with this, we have provided our [client library](https://www.nuget.org/packages/LearnOnDemandSystems.OneLearnTMS.OneLearnTMSAPIClient/), which adheres to these best practices.
 
 ## Administrator
 
