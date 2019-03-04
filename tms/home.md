@@ -223,7 +223,6 @@ If you an Administrator, explore the following topics/processes to help you star
 
 - [How do I schedule self-paced learning for a student?](./tms-administrators/self-paced-learning-and-subscriptions/schedule-self-paced-learning.md)
 - [How can an administrator print completion certificates for self-pace learning?](./tms-administrators/self-paced-learning-and-subscriptions/print-completion-certificates-for-self-pace-learning-by-admin.md)
-- []
 
 
 ### Courses and Their Activities
