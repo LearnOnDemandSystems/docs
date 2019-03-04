@@ -9,6 +9,8 @@
 
 - Access Control Lists are created by clicking the Access Control Lists link on  the Virtual Machine tab in LOD. ACL can be configured to a lab by editing the lab profile, and adding the ACL on the Network tab. ACLs are only available on Web Access (NAT) network types.
 
+![](images/blacklist-and-whitelist-fields.png)
+
 ### **Performance and Reliability Improvements for Azure and AWS Cloud Slice**
 
 - Various improvements have been made to increase performance and reliability of Azure and AWS Cloud Slice labs. 
