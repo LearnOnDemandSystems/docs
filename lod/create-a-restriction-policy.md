@@ -30,7 +30,6 @@ For more information about the items that can be used in an Access Control Polic
 
 ## Adding a Access Control Policy  To a Cloud Slice Lab in LOD
 
-
 1. Navigate to the lab profile that you wish to add the Access Control Policy  to.
 
     >[!knowledge] You can search for your lab profile by doing the following:
