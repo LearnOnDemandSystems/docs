@@ -51,7 +51,7 @@ Welcome to the OneLearn Lab on Demand platform!
 
 * [**Create a an Azure Resource Template and Resource Group Configuration**](/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md) - Create a Resource Template and Configure it into a Resource Group
 
-* [**Create an Azure Restriction Policy**](/lod/create-a-restriction-policy.md) - Create a Cloud Restriction Policy
+* [**Create an Access Control Policy**](/lod/create-a-restriction-policy.md) - Create a Cloud Access Control Policy.
 
 * [**Replacement Tokens**](/lod/feature-focus/cloud-resource-templates/replacement-tokens.md) - Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat; replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.
 
@@ -62,8 +62,6 @@ Welcome to the OneLearn Lab on Demand platform!
 * [**Create a Lab Series**](/lod/create-lab-series.md) - Lab Series creation.
 
 * [**Create Removeable Media**](/lod/create-removeable-media.md) - Removeable Media to be used with virtual machines.
-
-* [**Custom CSS**](/lod/feature-focus/lab-profiles/custom-css.md) - Customize CSS of your lab.
 
 * [**Differencing Disk Rollback**](/lod/differencing-disks.md) - Rollback differencing disks to a previous configuration or add differencing disks back to a disk chain after they have been removed.
 
@@ -87,7 +85,9 @@ Welcome to the OneLearn Lab on Demand platform!
 * [**Performance Based Testing (PBT)**](guides/pbt/lodpbtguide.md) - Configure Performance Based Testing on your lab profile.
 -->
 
-* [**Shared Labs (a.k.a. Cyber-Range)**](/guides/sl/sharedlabs.md) - Configure a Shared Lab environment
+* [**Shared Labs (a.k.a. Cyber-Range)**](/guides/sl/sharedlabs.md) - Configure a Shared Lab environment.
+
+* [**SSH Terminal Access**](terminal-access.md) - Configure virtual machines for SSH terminal access. 
 
 * [**Virtual Machine Based Lab Development - Best Practices**](/lod/vm-based-lab-build-best-practices.md) - Recommendations and best practices for cloud-hosted and datacenter-hosted virtual machines.
 

@@ -18,24 +18,13 @@ Support requires submittal of a technical support ticket. To submit a support re
 |Skype ID: labondemand || Singapore: +65 800-852-6361|
 |||United Kingdom +44 800-029-3469|
 
-<!--
+## Sales Support
 |||
 |---|---|
-|**Phone, e-mail or Skype**||
-|Skype|labondemand|
-|Toll-free Phone|+1 866-668-7505 - only toll free in the US|
-|Phone|+1 512-782-2243|
-|**International Phone Numbers**||
-|Australia|+61 1800 531 776|
-|Canada|+1 866-694-8215|
-|Singapore|+65 800 852 6361|
-|United Kingdom|+44 800 029 3469|
-|**Sales**||
-|Toll-free Phone|888.763.7730|
-|Email|<a href="mailto:sales@learnondemandsystems.com">sales@learnondemandsystems.com</a>|
-|Skype|lodsales|
-
--->
+|**E-Mail** | sales@learnondemandsystems.com|
+|**Skype** | lodsales|
+|**Toll-free Phone** | +1 888-763-7730|
+|**Phone** | +1 727-264-1330|
 
 ## Integration
 

@@ -41,5 +41,3 @@ Access Control Lists can optionally be set to inherit a parent ACL. Any domains 
     - In the **Expressions** field,
 
 ## Assigning an Access Control List
-
-

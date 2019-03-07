@@ -32,4 +32,4 @@ While there are many other factors that can affect connection quality, these mea
 
 If any firewall ports are blocked, the machine remote controllers used to connect to lab VMs may not function. Information about which ports are required can be found in the [Connectivity Requirements](connectivity-requires.md) document.
 
-If you have any questions about the results of a test, please reach out to our helpdesk at **support@learnondemandsystems.com** with a link to one of your audit report pages for assistance.
+If you have any questions about the results of a test, please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help) with a link to one of your audit report pages for assistance.

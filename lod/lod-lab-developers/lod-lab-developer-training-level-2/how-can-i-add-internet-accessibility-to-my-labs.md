@@ -1,13 +1,13 @@
 # How can I add Internet accessibility to my labs?
 
->[!ALERT] This article applies to labs running on the Hyper-V platform only. Users working with labs using the VSphere environment should contact our Help Desk Team (support@learnondemandsystems.com)
+>[!ALERT] This article applies to labs running on the Hyper-V platform only. Users working with labs using the VSphere environment should contact our Help Desk Team at https://lod.one/help.
 
 When creating a Lab Profile, you can add Internet access to the lab by setting a network in the profile to a Web Access (NAT) type. 
 
 To do this:
 1. Click **Edit** on the **Lab Profile** page. 
 1. In the **Edit Lab Profile** page, click the **Network** tab. 
-1. You can either change a current network entry or add a new one. On the network that will provide web access, click the **Type** dropdown and select **Web Access (NAT)**. If you do not see this option, you can request it by emailing **support@learnondemandsystems.com**.
+1. You can either change a current network entry or add a new one. On the network that will provide web access, click the **Type** dropdown and select **Web Access (NAT)**. If you do not see this option, you can request it by contacting our Support team at https://lod.one/help.
 
 Once you select **Web Access (NAT)**, you can edit the **Gateway Address** and the **Subnet Mask**. The Gateway Address is the address to be used as the Gateway entry inside of the VM Profiles? IP addressing. You set this address to what will work with your Virtual Machine Profile(s)? network settings. 
 

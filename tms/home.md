@@ -27,6 +27,12 @@ If you purchased Learn on Demand Systems labs through the Arvato Courseware Mark
 - [Managing Your Users](#managing-your-users)
 - [FAQs for Courseware Marketplace Orders](#faqs-for-courseware-marketplace-orders)
 
+## API Client
+
+If you access the TMS through the API:
+
+> [!ALERT] Our API is written to allow new response fields we add to be ignored by clients. However, to ensure your API calls consistently work, when building your API client, make sure that your implementation is written in such a way as to ignore any fields you are not using in your code. This will help ensure your implementation remains stable while the API can remain dynamic. To assist with this, we have provided our [client library](https://www.nuget.org/packages/LearnOnDemandSystems.OneLearnTMS.OneLearnTMSAPIClient/), which adheres to these best practices.
+
 ## Administrator
 
 If you an Administrator, explore the following topics/processes to help you start using the TMS quickly or learn more about TMS functionality:
@@ -42,7 +48,7 @@ If you an Administrator, explore the following topics/processes to help you star
      - [Instructor Management](#instructor-management)
 - [Self-Paced Learning and Subscriptions](#self-paced-learning-and-subscriptions)
 - [Courses and Their Activities](#courses-and-their-activities)
-- Discussions (Coming Soon)
+- [Discussions](#discussions)
 - [Miscellaneous](#miscellaneous)
 
 ## Student FAQs
@@ -64,6 +70,7 @@ If you an Administrator, explore the following topics/processes to help you star
 ### Classes and Self-Paced Learning
 
 - [How do I get into my virtual classroom?](./end-user-student-faqs/class-self-paced/get-into-virtual-classroom.md)
+- [How do I participate in a discussion?](./end-user-student-faqs/class-self-paced/discussions.md)
 - [How do I print my completion certificate?](./end-user-student-faqs/class-self-paced/print-completion-certificate.md)
 - [What is the Access Courseware button and how do I use it?](./end-user-student-faqs/class-self-paced/access-my-courseware.md)
 
@@ -82,6 +89,8 @@ If you an Administrator, explore the following topics/processes to help you star
 - [How do I prepare for a course that I am not scheduled to teach?](./instructors/instructor-prep-and-classes/prepare-for-course-not-scheduled-to-teach.md)
 - [How do I find classes I am scheduled to teach?](./instructors/instructor-prep-and-classes/find-classes-scheduled-to-teach.md)
 - [How do I get to a class I am scheduled to teach?](./instructors/instructor-prep-and-classes/get-to-class-scheduled-to-teach.md)
+- [How do my students and I participate in discussions?](./tms-administrators/discussions/participation.md)
+- [How can I be notified of activity on a discussion?](./tms-administrators/discussions/admin-follow.md)
 
 ### Student Labs
 
@@ -135,7 +144,7 @@ If you an Administrator, explore the following topics/processes to help you star
 - [Why do links disappear?](./tms-administrators/tms-fundamentals/disappearing-links.md)
 - [Can I rearrange items on the Site Administration page?](./tms-administrators/tms-fundamentals/rearrange-items-on-site-administration.md)
 
-[< Return to Administrator menu>](#administrator)
+[< Return to Administrator menu >](#administrator)
 
 
 ### Classes
@@ -163,7 +172,7 @@ If you an Administrator, explore the following topics/processes to help you star
 - [How do I find a student's completed classes?](./tms-administrators/classes/enrollments-roster/find-students-completed-classes.md)
 - [How do I find all the classes a student has ever been registered to take?](./tms-administrators/classes/enrollments-roster/find-all-classes-student-has-been-registered-for.md)
 
-[< Return to Administrator menu>](#administrator) 
+[< Return to Administrator menu >](#administrator) 
 
 #### *Instructors*
 
@@ -183,7 +192,7 @@ If you an Administrator, explore the following topics/processes to help you star
 - [How do I use multiple classrooms for a class?](./tms-administrators/classes/classrooms-equipment/use-multiple-classrooms-for-class.md)
 - [How can I track laptops being used for classes taught outside my organization?](./tms-administrators/classes/classrooms-equipment/track-laptops-being-used-for-classes-outside-org.md)
 
-[< Return to Administrator menu>](#administrator)
+[< Return to Administrator menu >](#administrator)
 
 
 ### Users
@@ -207,7 +216,7 @@ If you an Administrator, explore the following topics/processes to help you star
 - [How can my organization be set up to use contract instructors?](./tms-administrators/users/instructor-management/set-up-organization-to-use-contract-instructors.md)
 - [How can I find instructors that can teach a specific course?](./tms-administrators/users/instructor-management/find-instructors-that-teach-specific-course.md)
 
-[< Return to Administrator menu>](#administrator)
+[< Return to Administrator menu >](#administrator)
 
 
 ### Self-Paced Learning and Subscriptions
@@ -227,7 +236,19 @@ If you an Administrator, explore the following topics/processes to help you star
 - [How do I view SCORM attempts by my students?](./tms-administrators/courses-and-activities/view-scorm-attempts.md)
 - [How can I capture user data for users who access my externally hosted activities from the TMS?](./tms-administrators/courses-and-activities/capture-user-data-for-externally-hosted-activities.md)
 
-[< Return to Administrator menu>](#administrator)
+[< Return to Administrator menu >](#administrator)
+
+
+### Discussions
+
+- [What is a discussion and how can I use it to increase student interaction in their learning?](./tms-administrators/discussions/what-is-discussion.md)
+- [How do I create a discussion and attach it to a course?](./tms-administrators/discussions/create-discussion.md)
+- [How can I control posts on discussions?](./tms-administrators/discussions/add-moderators.md)
+- [How can I add a disclaimer to all my discussions?](./tms-administrators/discussions/add-disclaimer.md)
+- [How do my students and I participate in discussions?](./tms-administrators/discussions/participation.md)
+- [How can I be notified of activity on a discussion?](./tms-administrators/discussions/admin-follow.md)
+
+[< Return to Administrator menu >](#administrator)
 
 
 ### Miscellaneous

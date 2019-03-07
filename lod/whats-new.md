@@ -1,7 +1,7 @@
 # What's New in Lab On Demand
 
 
-## Released March 1, 2019
+## **Released March 1, 2019**
 
 ### **Custom Access Control Lists**
 

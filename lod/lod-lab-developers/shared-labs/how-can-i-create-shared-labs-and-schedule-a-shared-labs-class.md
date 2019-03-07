@@ -26,7 +26,7 @@ Once you have set up the Shared Environment, you need to designate which lab pro
 
 ## Create the course in the LMS
 
-Notify the LODS Course Requests Team (support@learnondemandsystems.com) to set up the course. Specify the following information:
+Notify the LODS Course Requests Team at https://lod.one/help to set up the course. Specify the following information:
 
 - Name of course
 - Name of Lab Series in LOD

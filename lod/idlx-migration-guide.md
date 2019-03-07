@@ -5,6 +5,8 @@ Upgrading your lab to IDLx is simple, fast and easy.
 - Your lab can be reverted back at anytime, as many times as you would like. 
 - If you upgrade to IDLx and make changes, then revert, the IDLx changes are not displayed in IDL (legacy).
 
+Check out our [video guide for upgrading a lab to IDLx](https://www.youtube.com/watch?v=T3Pbgy_wviI).
+
 ## Uprading Your Lab to IDLx
 
 First navigate to the lab profile that you wish to upgrade. 

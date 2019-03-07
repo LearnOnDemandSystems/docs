@@ -41,4 +41,4 @@ If you aren’t using a Microsoft Windows operating system, please refer to your
 >
 >![](../imgages/full-screen-screenshot.png)
 
-Once you have the correct screenshot(s), you need to attach them to your emails to our Help Desk (support@learnondemandsystems.com) or to the ticket you create by [visiting our support site](https://learnondemand.zendesk.com/hc/en-us/requests/new). When submitting a ticket, at the bottom of the form, there is a place to include any screenshot(s) that you have taken as attachments.
+Once you have the correct screenshot(s), you need to submit them to our Help Desk at https://lod.one/help. When submitting a ticket, at the bottom of the form, there is a place to include any screenshot(s) that you have taken as attachments.
