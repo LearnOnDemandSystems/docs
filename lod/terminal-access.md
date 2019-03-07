@@ -12,7 +12,7 @@ There are a couple of virtual machine (VM) requirements for SSH terminal access:
 ## Installation
 
 1. **For VMs hosted on Hyper-V**
-    - Download Hyper-V Integration Tools. This can be downloaed [from Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=55106).
+    - Download Hyper-V Integration Tools. This can be downloaded [from Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=55106).
     - Once the file is downloaded, open the file to install Hyper-V Integration Tools.
 
 1.  **For VMs hosted on ESX**
