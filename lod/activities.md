@@ -30,7 +30,53 @@ Click to go to a specific section, or continue reading to learn more about creat
 
 ## Automated Activity
 
-Automated Activities are PowerShell or Shell scripts that target a Cloud Subscription, or a Windows-based virtual machine running on Hyper-V in the lab. Cloud Subscriptions are targeted by a PowerShell script, and Windows-based virtual machines can be targeted by both PowerShell and Shell. Automated Activities support using @lab replacement tokens in scripts as well. Automated Activities can be used to help make sure the student has configured their lab environment correctly, help the student understand mistakes that are made in their lab, as well as give the student confirmation that they are completing the lab instructions correctly. Automated Activities can also be used to automate any configuration or lab steps that you wish to automate. 
+Automated Activities are PowerShell Windows command Shell Shell scripts that target a Cloud Subscription, or a Windows-based virtual machine running on Hyper-V in the lab. Cloud Subscriptions are targeted by a PowerShell script, and Windows-based virtual machines can be targeted by both PowerShell and Shell. Automated Activities support using @lab replacement tokens in scripts as well. Automated Activities can be used to help make sure the student has configured their lab environment correctly, help the student understand mistakes that are made in their lab, as well as give the student confirmation that they are completing the lab instructions correctly. Automated Activities can also be used to automate any configuration or lab steps that you wish to automate. 
+
+### Automated Activity Syntax
+
+Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there is additional syntax that can be used. 
+
+- Setting Lab Variables: sets a variable that can be recalled in subsequent lab instructions using @lab replacement tokens, as many times as neccessary. 
+
+- Sending Lab Notifications: Sends a a popup notification to the lab, using the text specified in the syntax.
+
+- Scoring: used to determine how much of the score value the lab user will receive for the activity. This can be used to award partial score values for the automated activity. The partial score is dictated by a numerical value in the syntax, that represents the percentage of the score value that will be awarded. For Windows Command Shell and Bash, you can also display a message in the lab instructions with text specified scoring syntax.
+
+#### **PowerShell** 
+
+- **Setting Variables**
+    
+    `set-lab-variable -Name firstname -Value John`
+
+    `set-lab-variable -Name lastname -Value Smith`
+
+- **Sending Lab Notifications**
+
+    `send-lab-notification -Message "Hello from a script"`
+
+- **Scoring**
+
+    `set-ActivityResult .5 -Correct`
+
+#### **Windows Command Shell and Bash**
+
+- **Setting Variables**
+    
+    `set_lab_variable "firstname" "John"`
+
+    `set_lab_variable "lastname" "Smith"`
+
+- **Sending Lab Notifications**
+
+    `send_lab_notification "Hello from a script"`
+
+    `send_lab_notification "I hope you're doing well"`
+
+- **Scoring**
+
+    `set_activity_result .5 "good job!"`
+
+### Automated Activity Creation
 
 1. If you would like the lab to be scored, Click the **switch** next to _Enable Scoring_. If you would not like the lab to be scored, simply leave the **Switch** turned off. 
 
@@ -62,8 +108,8 @@ Automated Activities are PowerShell or Shell scripts that target a Cloud Subscri
 
 - **Script 1**:
     - **Score Value**: the score value the student will recieve for completing the Activity correctly. This score contributes to their overall score in the lab.
-    - **Target**: the virtual machine or cloud subscription that the script will target. Cloud subscriptions must be targeted by PowerShell, and Windows-based virtual machines running on Hyper-V can be targeted by PowerShell or Shell.
-    - **Language**: the scripting language that will be used. PowerShell and Shell are supported. 
+    - **Target**: the virtual machine or cloud subscription that the script will target. Cloud subscriptions must be targeted by PowerShell, and Windows-based virtual machines running on Hyper-V can be targeted by PowerShell or Windows Command Shell. Linux-based VMs running Hyper-V or VMware can be targeted by Bash.
+    - **Language**: the scripting language that will be used. PowerShell, Windows Command Shell, and Bash are supported. 
     - **Script**: enter the script that will be executed. @lab replacement tokens that are used in scripts will be replaced in the lab instructions when the lab is launched.
 
     - **New Script**: click to add an additional script to this Activity. The new script will be represented by a button, in a Task List. 
@@ -96,7 +142,7 @@ When the student clicks the button in the lab to trigger the automated activity,
 
 - If more than one script is configured on an Activity, the scripts will execute in sequential order. If one of your scripts is relying on another script to be completed, make sure you order the scripts appropriately to prevent your Automated Activity from not working correctly. 
 
-- Automated Activities support PowerShell and Shell. Cloud Subscriptions must be targeted by a PowerShell script, and Windows-based virtual machines running on Hyper-V can be targeted by PowerShell or Shell.
+- Automated Activities support PowerShell Windows Command Shell, and Bash. Cloud Subscriptions must be targeted by a PowerShell script, and Windows-based virtual machines running on Hyper-V can be targeted by PowerShell or Windows Command  Shell. Linux-based VMs running Hyper-V or VMware can be targeted by Bash.
 
 ### Automated Activity Notifications and Variables
 

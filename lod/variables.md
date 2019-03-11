@@ -73,7 +73,9 @@ To set a variable in a Life Cycle Action:
 1. In the **Command** field, add your PowerShell script.
 1. Within your PowerShell script, include the syntax below.
 
-!INSTRUCTIONS[][powershell-syntax]
+Life Cycle Actions support PowerShell Windows Command Shell, and Bash. Cloud Subscriptions must be targeted by a PowerShell script, and Windows-based virtual machines running on Hyper-V can be targeted by PowerShell or Windows Command  Shell. Linux-based VMs running Hyper-V or VMware can be targeted by Bash.
+
+!INSTRUCTIONS[][syntax]
 
 # Variables in Automated Activities
 
@@ -83,10 +85,59 @@ Variables that are set in an automated activity script can be used as a replacem
 
 Automated activites can also use variables set by a life cycle action, as long as the life cycle event occurs before the automated activity is exectuted. If the life cycle event does not occur before the variable is referenced, the variable will remain as a placeholder.
 
-!INSTRUCTIONS[][powershell-syntax]
+Automated Activities support PowerShell Windows Command Shell, and Bash. Cloud Subscriptions must be targeted by a PowerShell script, and Windows-based virtual machines running on Hyper-V can be targeted by PowerShell or Windows Command  Shell. Linux-based VMs running Hyper-V or VMware can be targeted by Bash.
 
-> [powershell-syntax]:
+### Automated Activity Syntax
+
+Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there is additional syntax that can be used. 
+
+- Setting Lab Variables: sets a variable that can be recalled in subsequent lab instructions using @lab replacement tokens, as many times as neccessary. 
+
+- Sending Lab Notifications: Sends a a popup notification to the lab, using the text specified in the syntax.
+
+- Scoring: used to determine how much of the score value the lab user will receive for the activity. This can be used to award partial score values for the automated activity. The partial score is dictated by a numerical value in the syntax, that represents the percentage of the score value that will be awarded. For Windows Command Shell and Bash, you can also display a message in the lab instructions with text specified scoring syntax.
+
+#### **PowerShell** 
+
+- **Setting Variables**
+    
+    `set-lab-variable -Name firstname -Value John`
+
+    `set-lab-variable -Name lastname -Value Smith`
+
+- **Sending Lab Notifications**
+
+    `send-lab-notification -Message "Hello from a script"`
+
+- **Scoring**
+
+    `set-ActivityResult .5 -Correct`
+
+#### **Windows Command Shell and Bash**
+
+- **Setting Variables**
+    
+    `set_lab_variable "firstname" "John"`
+
+    `set_lab_variable "lastname" "Smith"`
+
+- **Sending Lab Notifications**
+
+    `send_lab_notification "Hello from a script"`
+
+    `send_lab_notification "I hope you're doing well"`
+
+- **Scoring**
+
+    `set_activity_result .5 "good job!"`
+
+!INSTRUCTIONS[][syntax]
+
+> [syntax]:
 > ## Syntax
+>
+> **PowerShell**
+>
 > Variables can be declared via PowerShell and then re-used in lab instructions by the following syntax - where <nameHere> is the variable name and <valueHere> is the variable value:
 > 
 > Set the variable
@@ -109,5 +160,23 @@ Automated activites can also use variables set by a life cycle action, as long a
 > You can recall the variable by using the following syntax:
 > 
 > > ++&commat;lab.Variable(storagekey)++
+>
+>
+>
+> [bash-syntax]:
+>
+> **Bash**
+>
+> Variables can be declared via Bash and then re-used in lab instructions by the following syntax - where `"nameOfVariable"` is the variable name and `"valueHere"` is the variable value. The name and value must be surrounded by quotation marks. 
+> 
+> Set the variable
+>
+> ```Set_Lab_Variable "nameOfVariable" "valueHere"```
+> 
+> Recall the variable
+>  
+> > ++&commat;lab.Variable(nameOfVariable)++
+>
+
 
 [Back to top](#lab-variables)
