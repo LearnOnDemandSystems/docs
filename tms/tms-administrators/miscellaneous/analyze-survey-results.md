@@ -4,7 +4,7 @@ When you need to analyze the responses to a survey you have attached to a course
 
 There are 2 locations to export responses:
 1. Navigate to the **Survey Profile** page.
-1. In the quick links bar, click **Export Survey Responses** or **Export Anonymous Survey Responses**. Note: The anonymous export will not contain any information identifying the respondent.  -OR-
+1. In the quick links bar, click **Export Survey Responses** or **Export Anonymous Survey Responses**. Note: The anonymous export will not contain any information identifying the respondent.  **-OR-**
 1. Navigate to the **Response Summary** page for the survey.
 1. Click **Search**. The Export link will appear next to Search.
 1. Click **Export**.
