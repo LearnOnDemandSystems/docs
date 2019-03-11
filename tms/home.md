@@ -51,6 +51,7 @@ If you an Administrator, explore the following topics/processes to help you star
 - [Discussions](#discussions)
 - [Miscellaneous](#miscellaneous)
 
+-----------------------------------------------------------------------------------
 ## Student FAQs
 
 ### Basics
