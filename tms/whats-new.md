@@ -4,16 +4,18 @@
 
 ### <span style="color:#0078d7;">ABA Exam Results</span>
 
-You can view the results of an ABA exam on the Exam Instance page. The results include the student answer as well as the correct answer. Here is an example.
+You can view the results of an ABA exam on the **Exam Instance** page. The results include the student answer as well as the correct answer. Here is an example.
 
 ![](./images/whats-new/aba-results.png)
 
+----------------------------
 ## Released February 28 2019
 
 ### <span style="color:#0078d7;">TMS Update</span>
 
 A new API endpoint property for **GetCourse** was added: **HTML Description**.
 
+----------------------------
 ## Released February 21 2019
 
 ### <span style="color:#0078d7;">TMS Updates</span>
@@ -23,21 +25,21 @@ A new API endpoint property for **GetCourse** was added: **HTML Description**.
     - **Internal IDs** output option on **Find Sites** and **Find Organizations**.
     - **Organization** filter and output option on **Find** and **Choose Labs**.
 
-
+----------------------------
 ## Released February 14 2019
 
 ### <span style="color:#0078d7;">TMS Update</span>
 
 A new API endpoint property for **GetClass** was added: **Organization Name**.
 
-
+----------------------------
 ## Released February 8 2019
 
 ### <span style="color:#0078d7;">Follow Discussions</span>
 
 You can now follow **Topics** and/or **Posts** on **Discussions** and be notified when there is activity on them. This notification can come through email or as an announcement in the Message Center. Both will provide links back to the Topic and Post. Here is the [Help](https://docs.learnondemandsystems.com/tms/tms-administrators/discussions/admin-follow.md?appid=tms) article.
 
-
+----------------------------
 ## Released January 31 2019
 
 ### <span style="color:#0078d7;">API Endpoint Properties</span>
@@ -46,14 +48,14 @@ The following result endpoints were added to the **SearchClasses** API call:
 - **IsPublic**
 - **Description**
 
-
+----------------------------
 ## Released January 24 2019
 
 ### <span style="color:#0078d7;">TMS Update</span>
 
 The **Class Browser** can now be filtered by a **Course Tag** in the URL by adding **?tagId=X** after **Browse**.
 
-
+----------------------------
 ## Released January 17 2019
 
 ### <span style="color:#0078d7;">API Endpoint Properties</span>
@@ -63,7 +65,7 @@ The following result endpoints were added to API calls:
 - **CustomVirtualClassroomURL** to the **GetClass**, **GetClassByClassTrainingKey**, and **GetClassByExternalId** methods.
 - **VirtualMeetingHostId**, **VirtualMeetingId**, and **CustomVirtualClassroomUrl** to the **SearchClasses** and **SearchPublicClassSchedule** methods.
 
-
+----------------------------
 ## Released January 10 2019
 
 ### <span style="color:#0078d7;">CreateClass and UpdateClass API Methods</span>
@@ -75,14 +77,14 @@ You can now create and update classes through the API!
 ### <span style="color:#0078d7;">TMS Updates</span>
 - The **Class Browser** now only shows classes with statuses of **Guaranteed to Run** and **Scheduled** by default. You can override this by adding **?showAll=1** between **Browse** and **#** in the URL.
 
-
+----------------------------
 ## Released January 04 2019
 
 ### <span style="color:#0078d7;">Admin Menu</span>
 
 Now you can access the links on the **Site Administration** page without leaving your current page. We have added an **Admin** menu which is available in all themes that use the standard navigation. When you click on this menu, all the links you see on the Site Administration page are available grouped in the same way. You can choose to view the groups in their default order or in alphabetical order. For a full explanation of this menu, please see [What is the Admin menu and how does it work?](./tms-administrators/tms-fundamentals/admin-menu.md)
 
-
+----------------------------
 ## Released December 14 2018
 
 ### <span style="color:#0078d7;">Survey Availability Messages</span>
@@ -100,7 +102,7 @@ Your students can now easily see when they are able to take their class survey. 
 - The CSV file for the exported course catalog has been changed to have separate columns for each course tag allowing you to filter the data by the individual tags.
 - You can now easily summarize and analyze survey responses in Excel or other analytical tools. The exported survey results have been revamped so that each answer of a multi-answer question is exported to its own individual row. See the [How do I export survey responses and analyze them in Excel?](./tms-administrators/miscellaneous/analyze-survey-results.md) article for assistance with Excel.
 
-
+----------------------------
 ## Released November 2018
 
 ### <span style="color:#0078d7;">Manage Your Own SCORM Modules</span>
@@ -152,7 +154,7 @@ You can control the default **Maximum Capacity** for classes directly on the **C
 - Removed **Filter** and **Output Option** on **Find/Choose SCORM Modules**: Content Provider is no longer related to SCORM modules. Therefore, the **Content Provider** filter and output option on the **Find SCORM Modules** page and **Choose SCORM Module** dialog have been removed.
 - The **.NET Framework** was updated to **4.7.1**.
 
-
+----------------------------
 ## Released October 2018
 
 ### <span style="color:#0078d7;">Display of Course Ratings</span>
@@ -200,7 +202,7 @@ The Organization output option and filter have been added to the Find Course Cer
 
 ![](./images/coming-soon-on-search-page.png)
 
-
+----------------------------
 ## Released September 27, 2018
 
 ### <span style="color:#0078d7;">Share Files with Students in a Class</span>
@@ -212,7 +214,7 @@ Provide your students with files you specifically have for the class to give the
     - **GetClassbyExternalId**
     - **GetCoursebyExternalId**
 
-
+----------------------------
 ## Released September 20, 2018
 
 ### <span style="color:#0078d7;">User and Admin Landing Page Options Available on Sites</span>
