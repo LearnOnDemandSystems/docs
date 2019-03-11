@@ -137,7 +137,7 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
 > [syntax]:
 > ## Syntax
 >
-> **PowerShell**
+> ### **PowerShell**
 >
 > Variables can be declared via PowerShell and then re-used in lab instructions by the following syntax - where <nameHere> is the variable name and <valueHere> is the variable value:
 > 
@@ -149,7 +149,7 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
 >  
 > > ++&commat;lab.Variable(storagekey)++
 >
-> ### Example
+> #### Example
 > As an example, you could set a variable for an Azure Storage Account's Key by running the commands to get the key and assigning to a variable. A variable like this would be declared similar to:
 > 
 > ```
@@ -166,7 +166,7 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
 >
 > [bash-syntax]:
 >
-> **Bash**
+> ### **Bash**
 >
 > Variables can be declared via Bash and then re-used in lab instructions by the following syntax - where `"nameOfVariable"` is the variable name and `"valueHere"` is the variable value. The name and value must be surrounded by quotation marks. 
 > 
