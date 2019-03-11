@@ -2,9 +2,12 @@
 
 When you need to analyze the responses to a survey you have attached to a course or classes, you can export the responses to a CSV file for analysis in Excel or other programs. 
 
-To export responses,
+There are 2 locations to export responses:
 1. Navigate to the **Survey Profile** page.
-1. In the quick links bar, click **Export Survey Responses** or **Export Anonymous Survey Responses**. Note: The anonymous export will not contain any information identifying the respondent.
+1. In the quick links bar, click **Export Survey Responses** or **Export Anonymous Survey Responses**. Note: The anonymous export will not contain any information identifying the respondent.  -OR-
+1. Navigate to the **Response Summary** page for the survey.
+1. Click **Search**. The Export link will appear next to Search.
+1. Click **Export**.
 1. Save the file where needed.
 
 You can open this file in any program that reads a .csv file format and then analyze or format the results as needed in that program. The file for a student survey will contain the following items:
