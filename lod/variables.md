@@ -148,7 +148,7 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
 >  
 > > ++&commat;lab.Variable(storagekey)++
 >
-> ## Example
+> ### Example
 > As an example, you could set a variable for an Azure Storage Account's Key by running the commands to get the key and assigning to a variable. A variable like this would be declared similar to:
 > 
 > ```
