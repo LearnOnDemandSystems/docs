@@ -12,14 +12,41 @@ There are a couple of virtual machine (VM) requirements for SSH terminal access:
 ## Installation
 
 1. **For VMs hosted on Hyper-V**
-    - Download Hyper-V Integration Tools. This can be downloaded [from Microsoft](https://www.microsoft.com/en-us/download/details.aspx?id=55106).
-    - Once the file is downloaded, open the file to install Hyper-V Integration Tools.
+    - Refer to the Microsoft Linux support information [here](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/supported-linux-and-freebsd-virtual-machines-for-hyper-v-on-windows) to see if a distribution is supported on Hyper-V and instructions on installing any additional integration components
+        - Network information needs to be communicated over the VMBus via Hyper-V integration services, currently RedHat, CentOS, FreeBSD, and most Debian distributions support this
+        - Kali Linux does not support VM integration components
+
 
 1.  **For VMs hosted on ESX**
 
     - Linux VMs must support the open-vm-tools package. On most builds, this is installed by default. It is recommeneded to verify this is installed using the following commands: 
         - On **Debian/Ubuntu** builds this can be installed with ```sudo apt-get install open-vm-tools```.
         - On **RHEL or CENTOS** ```sudo yum install open-vm-tools -y```.
+
+## Configure networking
+
+- Generally, Linux VMs need to be set to automatically bring online a new network adapter at boot and pull an address via DHCP. Most Linux distributions name adapters eth**X** where X is the number of adapters starting from 0.
+
+### RedHat/CentOS
+- Create a configuration file at /etc/sysconfig/network-scripts/ifcfg-eth**X**, where X is equal to the number of adapters your VM has. It should be set to automatically start at boot and pull an address via DHCP.
+    
+    - Sample Configuration:
+    ```
+    TYPE=Ethernet
+    BOOTPROTO=dhcp
+    NAME=eth1
+    ONBOOT=yes
+    ```
+
+### Debian/Ubuntu
+
+- Open /etc/network/interfaces and add an entry for eth**X** where X is equal to the number of adapters your VM has. It should be set to automatically start at boot and pull DHCP information.
+    - Sample Configuration:
+    ```
+    auto eth1
+    allow-hotplug eth1
+    iface eth1 inet dhcp
+    ```
 
 ## Configure a running SSH server
 
