@@ -109,7 +109,7 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
 - **Script 1**:
     - **Score Value**: the score value the student will recieve for completing the Activity correctly. This score contributes to their overall score in the lab.
     - **Target**: the virtual machine or cloud subscription that the script will target. Cloud subscriptions must be targeted by PowerShell, and Windows-based virtual machines running on Hyper-V can be targeted by PowerShell or Windows Command Shell. Linux-based VMs running Hyper-V or VMware can be targeted by Bash.
-    - **Language**: the scripting language that will be used. PowerShell, Windows Command Shell, and Bash are supported. 
+    - **Language**: the scripting language that will be used. PowerShell, Windows Command Shell, and Bash are supported. Enabling Bash scripting or terminal connections will not take effect on running lab instances, users will have to relaunch their lab.
     - **Script**: enter the script that will be executed. @lab replacement tokens that are used in scripts will be replaced in the lab instructions when the lab is launched.
 
     - **New Script**: click to add an additional script to this Activity. The new script will be represented by a button, in a Task List. 
