@@ -92,16 +92,22 @@ Machines in your lab can be accessed using any one of five virtual machine contr
 | Virtual Machine Control           |             | Chrome  |                |            | Firefox |                   |               | Internet Explorer |                |               | Microsoft Edge |                |
 |-----------------------------------|-------------|---------|----------------|------------|---------|-------------------|---------------|-------------------|----------------|---------------|----------------|----------------|
 |                                   |             | Version | Protocol       | Ports      | Version | Protocol          | Ports         | Version           | Protocol       | Ports         | Version        | Protocol       |
-| **Hyper-V**                        | **HTML5 <sup>1</sup>**     | 16+     | Websockets     | 443        | 11+     | Websockets        | 443           | 10+               | Websockets     | 443           | 1+             | Websockets     |
-|                                   | **Flash**       | 11+     | Websockets     | 80 & 843 <sup>2</sup> | 11+     | Websockets        | 80 & 843 <sup>2</sup>    | 11+               | Websockets     | 80 & 843 <sup>2</sup>    | 11+            | Websockets     |
-|                                   | **Silverlight** | 4-34 <sup>5<sup>     | HTTP           | 80         | 4-52 <sup>5<sup>      | HTTP (RDP), HTTPS | 80 (RDP), 443 | 4+                | HTTP           | 80 (RDP), 443 | N/A            | N/A            |
+| **HyperV/vSphere** | **HTML5 <sup>1</sup>**     | 16+     | Websockets     | 443        | 11+     | Websockets        | 443           | 10+               | Websockets     | 443           | 1+             | Websockets     |
+|                   | **SSH <sup>2</sup>**     | 16+     | Websockets     | 443        | 11+     | Websockets        | 443           | 10+               | Websockets     | 443           | 1+             | Websockets     |
+| **Hyper-V**        | **Flash**       | 11+     | Websockets     | 80 & 843 <sup>3</sup> | 11+     | Websockets        | 80 & 843 <sup>4</sup>    | 11+               | Websockets     | 80 & 843 <sup>2</sup>    | 11+            | Websockets     |
+|                                   | **Silverlight** | 4-34 <sup>4<sup>     | HTTP           | 80         | 4-52 <sup>4<sup>      | HTTP (RDP), HTTPS | 80 (RDP), 443 | 4+                | HTTP           | 80 (RDP), 443 | N/A            | N/A            |
 |                                   | **Enhanced <sup>3</sup>**  | N/A     | N/A            | N/A        | N/A     | N/A               | N/A           | 8+                | VMRDP          | 21xxx or 443  | N/A            | N/A            |
-| **VMware Remote Console (vSphere) <sup>4</sup>** |             | N/A     | N/A            | N/A        | 11-56     | Custom            | 902           | 8+                | Custom         | 902           | N/A            | N/A            |
+| **VMware Remote Console (vSphere) <sup>5</sup>** |             | N/A     | N/A            | N/A        | 11-56     | Custom            | 902           | 8+                | Custom         | 902           | N/A            | N/A            |
+
 
 1 Preferred
 
-2 Port 843 is required by Flash Socket Policy to authorize the use of Web sockets
+2 Available only when lab is configured for SSH access
 
-3 Requires Internet Explorer. The 21xxx value depends on which host server in the cloud the lab is running on. If connection on port 21xxx fails, the Enhanced client will rollover and attempt the connection on port 443.
+3 Port 843 is required by Flash Socket Policy to authorize the use of Web sockets
 
-4 Windows and Linux only, not supported on Firefox version 57 or later
+4 Requires Internet Explorer. The 21xxx value depends on which host server in the cloud the lab is running on. If connection on port 21xxx fails, the Enhanced client will rollover and attempt the connection on port 443.
+
+4 Support for NPAPI plugins (silverlight) was removed with version 45 of Chrome and 52 of Firefox. The plugin is not supported on Linux or macOS
+
+5 Windows and Linux only, not supported on Firefox version 57 or later
