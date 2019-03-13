@@ -1,5 +1,24 @@
 # What's New in Lab On Demand
 
+## **Release March 8, 2019**
+
+### **Linux Scoring via SSH**
+It is now possible to use Activity Based Assessments in Linux labs that connect using a terminal or ssh. Linux ABA scripts are written in Bash. 
+Syntax includes: 
+- **set_lab_variable** "firstname" "John": sets a variable that can be used with an @lab replacement token
+- **send_lab_notification** "Hello from a script": send a notification to the lab
+- **set_activity_result** 1 "good job!":
+
+### **Bash in Life Cycle Actions for Linux VMs via SSH**
+- It is now possible to use Bash in Life Cycle actions to target a Linux VM via SSH for scoring purposes. 
+
+### **Custom Text for On-Demand Activity Based Assessments**
+- Lab authors can now change the text for on-demand activities from check/score to any other text, up to 100 characters. 
+
+    ![](images/custom-activity-text.png)
+
+### **Simplified Chinese and Japanese Language Options**
+- Lab authors now have the option to author labs in Simplified Chinese and Japanese languages. This only changes language in the lab client, and does not change the language of the lab instructions. 
 
 ## **Released March 1, 2019**
 
