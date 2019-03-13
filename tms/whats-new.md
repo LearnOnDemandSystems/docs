@@ -1,5 +1,45 @@
 # What's New in the TMS
 
+## Released March 7 2019
+
+### <span style="color:#0078d7;">ABA Exam Results</span>
+
+You can view the results of an ABA exam on the **Exam Instance** page. The results include the student answer as well as the correct answer. Here is an example.
+
+![](./images/whats-new/aba-results.png)
+
+----------------------------
+## Released February 28 2019
+
+### <span style="color:#0078d7;">TMS Update</span>
+
+A new API endpoint property for **GetCourse** was added: **HTML Description**.
+
+----------------------------
+## Released February 21 2019
+
+### <span style="color:#0078d7;">TMS Updates</span>
+
+- Export survey results from the **Survey Response Summary**. Here is more information on [analyzing your results](https://docs.learnondemandsystems.com/tms/tms-administrators/miscellaneous/analyze-survey-results.md?appid=tms)
+- New filters and output options.
+    - **Internal IDs** output option on **Find Sites** and **Find Organizations**.
+    - **Organization** filter and output option on **Find** and **Choose Labs**.
+
+----------------------------
+## Released February 14 2019
+
+### <span style="color:#0078d7;">TMS Update</span>
+
+A new API endpoint property for **GetClass** was added: **Organization Name**.
+
+----------------------------
+## Released February 8 2019
+
+### <span style="color:#0078d7;">Follow Discussions</span>
+
+You can now follow **Topics** and/or **Posts** on **Discussions** and be notified when there is activity on them. This notification can come through email or as an announcement in the Message Center. Both will provide links back to the Topic and Post. Here is the [Help](https://docs.learnondemandsystems.com/tms/tms-administrators/discussions/admin-follow.md?appid=tms) article.
+
+----------------------------
 ## Released January 31 2019
 
 ### <span style="color:#0078d7;">API Endpoint Properties</span>
@@ -8,15 +48,14 @@ The following result endpoints were added to the **SearchClasses** API call:
 - **IsPublic**
 - **Description**
 
-
-
+----------------------------
 ## Released January 24 2019
 
 ### <span style="color:#0078d7;">TMS Update</span>
-- The **Class Browser** can now be filtered by a **Course Tag** in the URL by adding **?tagId=X** after **Browse**.
 
+The **Class Browser** can now be filtered by a **Course Tag** in the URL by adding **?tagId=X** after **Browse**.
 
-
+----------------------------
 ## Released January 17 2019
 
 ### <span style="color:#0078d7;">API Endpoint Properties</span>
@@ -26,8 +65,7 @@ The following result endpoints were added to API calls:
 - **CustomVirtualClassroomURL** to the **GetClass**, **GetClassByClassTrainingKey**, and **GetClassByExternalId** methods.
 - **VirtualMeetingHostId**, **VirtualMeetingId**, and **CustomVirtualClassroomUrl** to the **SearchClasses** and **SearchPublicClassSchedule** methods.
 
-
-
+----------------------------
 ## Released January 10 2019
 
 ### <span style="color:#0078d7;">CreateClass and UpdateClass API Methods</span>
@@ -39,16 +77,14 @@ You can now create and update classes through the API!
 ### <span style="color:#0078d7;">TMS Updates</span>
 - The **Class Browser** now only shows classes with statuses of **Guaranteed to Run** and **Scheduled** by default. You can override this by adding **?showAll=1** between **Browse** and **#** in the URL.
 
-
-
+----------------------------
 ## Released January 04 2019
 
 ### <span style="color:#0078d7;">Admin Menu</span>
 
 Now you can access the links on the **Site Administration** page without leaving your current page. We have added an **Admin** menu which is available in all themes that use the standard navigation. When you click on this menu, all the links you see on the Site Administration page are available grouped in the same way. You can choose to view the groups in their default order or in alphabetical order. For a full explanation of this menu, please see [What is the Admin menu and how does it work?](./tms-administrators/tms-fundamentals/admin-menu.md)
 
-
-
+----------------------------
 ## Released December 14 2018
 
 ### <span style="color:#0078d7;">Survey Availability Messages</span>
@@ -66,8 +102,7 @@ Your students can now easily see when they are able to take their class survey. 
 - The CSV file for the exported course catalog has been changed to have separate columns for each course tag allowing you to filter the data by the individual tags.
 - You can now easily summarize and analyze survey responses in Excel or other analytical tools. The exported survey results have been revamped so that each answer of a multi-answer question is exported to its own individual row. See the [How do I export survey responses and analyze them in Excel?](./tms-administrators/miscellaneous/analyze-survey-results.md) article for assistance with Excel.
 
-
-
+----------------------------
 ## Released November 2018
 
 ### <span style="color:#0078d7;">Manage Your Own SCORM Modules</span>
@@ -119,8 +154,7 @@ You can control the default **Maximum Capacity** for classes directly on the **C
 - Removed **Filter** and **Output Option** on **Find/Choose SCORM Modules**: Content Provider is no longer related to SCORM modules. Therefore, the **Content Provider** filter and output option on the **Find SCORM Modules** page and **Choose SCORM Module** dialog have been removed.
 - The **.NET Framework** was updated to **4.7.1**.
 
-
-
+----------------------------
 ## Released October 2018
 
 ### <span style="color:#0078d7;">Display of Course Ratings</span>
@@ -168,7 +202,7 @@ The Organization output option and filter have been added to the Find Course Cer
 
 ![](./images/coming-soon-on-search-page.png)
 
-
+----------------------------
 ## Released September 27, 2018
 
 ### <span style="color:#0078d7;">Share Files with Students in a Class</span>
@@ -180,7 +214,7 @@ Provide your students with files you specifically have for the class to give the
     - **GetClassbyExternalId**
     - **GetCoursebyExternalId**
 
-
+----------------------------
 ## Released September 20, 2018
 
 ### <span style="color:#0078d7;">User and Admin Landing Page Options Available on Sites</span>
@@ -305,42 +339,3 @@ This can be done for new or existing courses. The Coming Soon flag will remain o
     - **DeleteCourseAssignment**
     - **UpdateCourseAssignment**
     - **SearchCourseAssignments**
-
-
-## Released August 30, 2018
-
-### <span style="color:#0078d7;">Role Assignment through Authentication Provider</span>
-
-You can now request to have an **Authentication Provider** set up with associated roles so when a user logs in via that authentication provider (AP), the role(s) are automatically added to the user. If the role is later removed from the user’s profile by an administrator, the next time the user logs in using the AP, the role will again be assigned to the user.
-
-Please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help) to set up your Authentication Provider. Note: this provider will need to be added to your TMS site to be visible to your users.
-
-### <span style="color:#0078d7;">TMS Updates</span>
-- The **New** flag on courses (on the Find Courses, On Demand Browser, Course Catalog, and Classes browser) is now calculated using the date the **Available Instructor-Led** and/or **Available Self-Paced** checkboxes are checked on the course, rather than the **Created** by date. To make the flag show up for existing courses, uncheck both Available checkboxes on the course and save. Then check at least one of them again and save. Remember that a course must be:
-    - Checked **Available instructor-led** to have classes based on it and thus show up on the **Classes** browser page.
-    - Checked **Available Self-Paced** to allow course assignments and thus show up on the **On-Demand** browser page. 
-- **Subscriptions**:
-    - The Create links (**Create Subscription** and **Create Multiple Subscriptions**) have been moved from the **Subscriptions** tile on the **Admin** page to the **Find Subscriptions** page be consistent with other tiles.
-    - The **Subscriptions** link text has been changed to **Assigned Subscriptions**.
-- Due to infrastructure improvement requirements, we have a new Azure compatible PDF generation tool for **Course Completion Certificates**. If you use the Certificate feature, you should ALWAYS preview the certificate when you upload the template to ensure data replacement, readability and layout are correct.
-
-
-## Released August 16, 2018
-
-### <span style="color:#0078d7;">New Class Browser Page</span>
-
-Your students may now be able to view your organization’s classes using the modern Class Browser page. This page is accessed from the Classes link on the default navigation bar. 
-
-![](./images/whats-new/class-browser-link.png)
-
-![](./images/whats-new/class-browser.png)
-
-It is similar to the look and functionality of the On-Demand browser pages:
-1. Use the **Starts** filter to filter for classes that start in a particular time frame.
-1. Use the other filters to narrow the search to classes on courses with certain tags.
-1. See whether a class is **Open** (still has seats available) or **Closed** (at max capacity).
-1. Notice the **Featured** and **New** flags are visible to help draw attention to those classes.
-1. Hover over a class to see more details such as when it **ends**, its **status** and **delivery type**, and the **classroom** and **instructor**. 
-1. On the zoomed-in tile, click **More** to access the **Class Details** page for further information.
-
-> [!NOTE] If your organization has customized the navigation bar, this link will need to be set up on your instance. Please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help) for assistance.

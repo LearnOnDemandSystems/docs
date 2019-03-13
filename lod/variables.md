@@ -56,7 +56,8 @@ Below is how the TextBox and variable will look in a lab environment:
 
 [Life Cycle Actions (LCAs)](life-cycle-actions.md) are actions that are triggered by specific events during the life cycle of the lab. Variables can be set in LCAs, and then later used in later LCAs, lab activities, and lab instructions. 
 
-Variables set via LCAs must be set during a life cycle event that occurs before the variable will be used in the lab. For example, if you configured an LCA to set a variable during the tear down event, the variable would not be set while the student is performing the lab. Similarly, if you set a variable in a LCA you cannot use the variable in the same LCA, but you may use it in LCAs that trigger afterwards. For example, setting an variable in a blocking LCA during the building event, and reusing it in a different building LCA or one that triggers on the built event.
+Variables set via LCAs must be set during a life cycle event that occurs before the variable will be used in the lab. For 
+, if you configured an LCA to set a variable during the tear down event, the variable would not be set while the student is performing the lab. Similarly, if you set a variable in a LCA you cannot use the variable in the same LCA, but you may use it in LCAs that trigger afterwards. For example, setting an variable in a blocking LCA during the building event, and reusing it in a different building LCA or one that triggers on the built event.
 
 There are currently two forms of Life Cycle Action that can be configured to set a variable:
 
@@ -138,7 +139,7 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
 > [syntax]:
 > ## Syntax
 >
-> **PowerShell**
+> ### **PowerShell**
 >
 > Variables can be declared via PowerShell and then re-used in lab instructions by the following syntax - where <nameHere> is the variable name and <valueHere> is the variable value:
 > 
@@ -150,7 +151,7 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
 >  
 > > ++&commat;lab.Variable(storagekey)++
 >
-> ### Example
+> #### Example
 > As an example, you could set a variable for an Azure Storage Account's Key by running the commands to get the key and assigning to a variable. A variable like this would be declared similar to:
 > 
 > ```
@@ -167,7 +168,7 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
 >
 > [bash-syntax]:
 >
-> **Bash**
+> ### **Bash**
 >
 > Variables can be declared via Bash and then re-used in lab instructions by the following syntax - where `"nameOfVariable"` is the variable name and `"valueHere"` is the variable value. The name and value must be surrounded by quotation marks. 
 > 
