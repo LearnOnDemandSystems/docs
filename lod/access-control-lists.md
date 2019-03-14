@@ -1,9 +1,10 @@
-# Custom Access Control Lists
+# Custom Access Control Lists (ACL)
 
 Custom Access Control lists (ACL) are used to restrict and allow domains that can be access by the VM broswer in the lab. This is accomplished using blacklists and whitelists. Domains added to the blacklist will not be resolvable, and domains added to the whitelist will resolve. You can also allow or deny domains based on  expressions. 
 
+<!--
 ![](images/blacklist-and-whitelist-fields.png)
-
+-->
 ## Creating an Access Control List
 
 To create an Access Control List:
@@ -23,7 +24,6 @@ To create an Access Control List:
     - **Enabled**: select to enable this ACL for use. 
     - **Public**: This access control list is marked as public and is available read-only to all organizations.
 
-
 ### Parent Access Control Lists
 
 Access Control Lists can optionally be set to inherit a parent ACL. Any domains on an ACL that is used as a parent ACL, will be added to the child ACL. 
@@ -41,3 +41,16 @@ Access Control Lists can optionally be set to inherit a parent ACL. Any domains 
     - In the **Expressions** field,
 
 ## Assigning an Access Control List
+
+Access Control lists are assigned to a lab profile, on the Networks tab. Custom Access Control lists are only available with **Web Access (NAT)** network types.
+
+1. Navigate to the lab profile you wish to configure an ACL on. 
+
+1. Click **Edit** in the upper-right, to edit the lab profile. 
+
+1. Click the **Networks** tab
+
+1. On the Web Access (NAT) network you wish to add the ACL to, click **Choose** to select the ACL that will be applied.
+
+1. Click **Save**. 
+
