@@ -89,6 +89,8 @@ Welcome to the OneLearn Lab on Demand platform!
 
 * [**SSH Terminal Access**](terminal-access.md) - Configure virtual machines for SSH terminal access. 
 
+* [**Themese**](lod-themes.md) - Customize the look and feel of labs using CSS, and Javascript. 
+
 * [**Virtual Machine Based Lab Development - Best Practices**](/lod/vm-based-lab-build-best-practices.md) - Recommendations and best practices for cloud-hosted and datacenter-hosted virtual machines.
 
 - [**Custom UUID on VMware Virtual Machines**](uuid.md) - Assign a custom unique ID to a virtual machine hosted on a VMware host.
