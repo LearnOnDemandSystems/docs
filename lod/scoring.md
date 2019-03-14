@@ -6,8 +6,6 @@ In Lab on Demand (LOD) there are multiple ways to score a student's performance 
     - Question and Automated activities
     - [Partial scoring](#partial-scoring)
 - Scoring Bot
-- LTI 
-- Performance Based Training (PBT)
 
 ## Activity Based Assessment
 

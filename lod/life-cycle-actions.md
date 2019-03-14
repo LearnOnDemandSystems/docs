@@ -14,9 +14,9 @@ Actions include:
 
 Events include:
 
-- **Building**: the lab environment is being built.
-- **Built**: the lab environment has been built, but components like virtual machines may still be starting. 
-- **Running**: all components of the lab are now running and the user can now interact with the lab.
+- **Pre-Build**: the lab components are being deployed, as well as any cloud resources.
+- **Post-Build**: the lab environment has been built, but components like virtual machines may still be starting. 
+- **First Displayable**: all components of the lab are now running and the user can now interact with the lab.
 - **IP Addresses Assigned**: if the lab has public IP addresses, this event will wire when all public IP addresses have been verified to be assigned to the lab's virtual machine(s).
 - **Saving**: the lab is in the process of being saved.
 - **Saved**: the lab is in a saved state and no longer active. 
@@ -24,6 +24,7 @@ Events include:
 - **Resumed**: the lab has been resumed from a saved state and the user can interact with the lab again. 
 - **Tearing Down**: the lab environment is being torn down. 
 - **Torn Down**: the lab environment is fully torn down.
+- **Building**: the lab environment is being built.
 
 There are additional settings that can **optionally** be configured:
 
