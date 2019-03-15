@@ -10,9 +10,6 @@
 
 Welcome to the OneLearn Lab on Demand platform!
 
-<!--
-## [What's New in LOD](whats-new.md) 
--->
 ## Authoring lab instructions
 
 - [**IDLx Activities**](/lod/activities.md) - Activities fall into two broad categories: Questions and Automated. Questions are simply multiple choice or short answer questions. Automated Activities have a script configured to run against a cloud subscription or Windows-based virtual machines running on Hyper-V in the lab.
@@ -56,6 +53,8 @@ Welcome to the OneLearn Lab on Demand platform!
 * [**Replacement Tokens**](/lod/feature-focus/cloud-resource-templates/replacement-tokens.md) - Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat; replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.
 
 ## Lab on Demand
+
+* [**Access Control Lists**](access-control-lists.md) - Controls which websites can be accessed in the lab, by using blacklists and whitelists. 
 
 * [**Create a Lab Profile**](/lod/feature-focus/lab-profiles/create.md) - Lab profile creation, and explanation of lab profile configuration.
 
