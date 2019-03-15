@@ -185,7 +185,7 @@ _Student view of the notification in the lab_
 
 ^[PowerShell Samples][powershell-samples]
 
-> [powershell-samples]
+> [powershell-samples]:
 > The lab instructions ask the student to create a few accounts in a Cloud Subscription that will be used later in the lab. You could write a few PowerShell scripts that will check if the accounts were created correctly.
 > 
 > This 3 scripts below are to make sure the student has created a storage account, a public container, and private container:
