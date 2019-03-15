@@ -23,10 +23,17 @@ To get started with Activities:
 Click to go to a specific section, or continue reading to learn more about creating Activities in your lab. 
 
 - [Automated Activity](#automated-activity)
-- [Multiple Choice Question](#multiple-choice-questions)
-- [Short Answer Question](#short-answer-questions)
-- [Activity Management](#activity-management)
+    - [Automated Activity Syntax](#automated-activity-syntax)
+    - [Automated Activity Creation](#automated-activity-creation)
+    - [Automated Activity Output](#automated-activity-output)
+    - [Automated Activity Best Practices and Guidelines](#automated-activity-best-practices-and-guidelines)
+    - [Automated Activity Notifications and Variables](#automated-activity-notifications-and-variables)
+    - [Example Automated Activities](#example-automated-activities)
+- [Questions](#questions)
+    - [Multiple Choice Question](#multiple-choice-questions)
+    - [Short Answer Question](#short-answer-questions)
 - [Scoring](#scoring)
+- [Activity Management](#activity-management)
 
 ## Automated Activity
 
@@ -134,7 +141,7 @@ Set-ActivityResult -Correct -Message 'You got it!'
 ```
 When the student clicks the button in the lab to trigger the automated activity, the script will capture a list of running services and store them on the lab instance details page, and will display "You got it!" to the student in the lab. 
 
-### Automated Activity Best Practice and Guidelines
+### Automated Activity Best Practices and Guidelines
 
 - Use Automated Activities in areas of your lab when students are prone to making mistakes. A PowerShell script, such as the example shown below, helps students to make sure their lab is configured appropriately so that they do not get an error when trying to complete steps later in the lab.  
 
@@ -174,92 +181,95 @@ _Student view of the notification in the lab_
 
 ![](images/automated-activity-student-view-notification.png)
 
-### Example Automated Activity 
+### Example Automated Activities
 
-The lab instructions ask the student to create a few accounts in a Cloud Subscription that will be used later in the lab. You could write a few PowerShell scripts that will check if the accounts were created correctly.
+^[PowerShell Samples][powershell-samples]
 
-This 3 scripts below are to make sure the student has created a storage account, a public container, and private container:
-
-**Storage Account**
-```
-$LabInstanceId = "@lab.LabInstance.Id"
-$result = $false
-$resourceGroupName = "CSSTlod${LabInstanceId}"
-$storAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name "sa${LabInstanceId}" -ErrorAction Ignore
-if ($storAccount -eq $null){
-    "The Storage Account has not been created"
-} else {
-    $result = $true
-    "You successfully created the storage account."
-}
-$result
-```
-
-**Public Container**
-```
-$LabInstanceId = "@lab.LabInstance.Id"
-$result = $false
-$resourceGroupName = "CSSTlod${LabInstanceId}"
-$storAccountName = "sa${LabInstanceId}"
-$storAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name $storAccountName -ErrorAction Ignore
-if ($storAccount -eq $null){
-    "The Storage Account has not been created"
-} else {
-    $storKey = Get-AzureRmStorageAccountKey -ResourceGroupName $resourceGroupName -Name $storAccountName | Select-Object -First 1 -ErrorAction Ignore
-    $storageContext = New-AzureStorageContext -StorageAccountName $storAccountName -StorageAccountKey $storKey.Value -ErrorAction Ignore
-    $container = Get-AzureStorageContainer -Name public -Context $storageContext -ErrorAction Ignore
-    if ($container -eq $null) {
-        "The Blob Container has not been created."
-    } else {
-        if ($container.PublicAccess -ne "blob") {
-            "The container is not properly configured for public access."
-        } else {
-        $result = $true
-        "You have successfully configured the blob container for public access."
-        }
-    }
-}
-$result
-```
-
-**Private Container**
-```
-$LabInstanceId = "@lab.LabInstance.Id"
-$result = $false
-$resourceGroupName = "CSSTlod${LabInstanceId}"
-$storAccountName = "sa${LabInstanceId}"
-$storAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name $storAccountName -ErrorAction Ignore
-if ($storAccount -eq $null){
-    "The Storage Account has not been created"
-} else {
-    $storKey = Get-AzureRmStorageAccountKey -ResourceGroupName $resourceGroupName -Name $storAccountName | Select-Object -First 1 -ErrorAction Ignore
-    $storageContext = New-AzureStorageContext -StorageAccountName $storAccountName -StorageAccountKey $storKey.Value -ErrorAction Ignore
-    $container = Get-AzureStorageContainer -Name private -Context $storageContext -ErrorAction Ignore
-    if ($container -eq $null) {
-        "The Blob Container has not been created."
-    } else {
-        if ($container.PublicAccess -ne "off") {
-            "The container is not properly configured for private access."
-        } else {
-        $result = $true
-        "You have successfully configured the blob container for private access."
-        }
-    }
-}
-$result
-```
-
-This is what the student will see in the lab:
-
-![](../lod/images/scripts-in-lab-instructions.png)
-
-- The student clicks the Score button, and the scripts will begin executing the first script:
-
-    - If the student **created the storage accounts correctly**, they will receive a message that says "You successfully created the storage account."
-    
-    - If the student **did not create the storage accounts correctly**, they will receive a message that says "The Storage Account has not been created". 
-
-> [!KNOWLEDGE] You can provide a hint to students based on the outcome of the script. For example, if the script is to check if a specific directory has been created, you script could output a hint to help the student create the appropriate directory. 
+> [powershell-samples]
+> The lab instructions ask the student to create a few accounts in a Cloud Subscription that will be used later in the lab. You could write a few PowerShell scripts that will check if the accounts were created correctly.
+> 
+> This 3 scripts below are to make sure the student has created a storage account, a public container, and private container:
+> 
+> **Storage Account**
+> ```
+> $LabInstanceId = "@lab.LabInstance.Id"
+> $result = $false
+> $resourceGroupName = "CSSTlod${LabInstanceId}"
+> $storAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name "sa${LabInstanceId}" -ErrorAction Ignore
+> if ($storAccount -eq $null){
+>     "The Storage Account has not been created"
+> } else {
+>     $result = $true
+>     "You successfully created the storage account."
+> }
+> $result
+> ```
+> 
+> **Public Container**
+> ```
+> $LabInstanceId = "@lab.LabInstance.Id"
+> $result = $false
+> $resourceGroupName = "CSSTlod${LabInstanceId}"
+> $storAccountName = "sa${LabInstanceId}"
+> $storAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name $storAccountName -ErrorAction Ignore
+> if ($storAccount -eq $null){
+>     "The Storage Account has not been created"
+> } else {
+>     $storKey = Get-AzureRmStorageAccountKey -ResourceGroupName $resourceGroupName -Name $storAccountName | Select-Object -First 1 -ErrorAction Ignore
+>     $storageContext = New-AzureStorageContext -StorageAccountName $storAccountName -StorageAccountKey $storKey.Value -ErrorAction Ignore
+>     $container = Get-AzureStorageContainer -Name public -Context $storageContext -ErrorAction Ignore
+>     if ($container -eq $null) {
+>         "The Blob Container has not been created."
+>     } else {
+>         if ($container.PublicAccess -ne "blob") {
+>             "The container is not properly configured for public access."
+>         } else {
+>         $result = $true
+>         "You have successfully configured the blob container for public access."
+>         }
+>     }
+> }
+> $result
+> ```
+> 
+> **Private Container**
+> ```
+> $LabInstanceId = "@lab.LabInstance.Id"
+> $result = $false
+> $resourceGroupName = "CSSTlod${LabInstanceId}"
+> $storAccountName = "sa${LabInstanceId}"
+> $storAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name $storAccountName -ErrorAction Ignore
+> if ($storAccount -eq $null){
+>     "The Storage Account has not been created"
+> } else {
+>     $storKey = Get-AzureRmStorageAccountKey -ResourceGroupName $resourceGroupName -Name $storAccountName | Select-Object -First 1 -ErrorAction Ignore
+>     $storageContext = New-AzureStorageContext -StorageAccountName $storAccountName -StorageAccountKey $storKey.Value -ErrorAction Ignore
+>     $container = Get-AzureStorageContainer -Name private -Context $storageContext -ErrorAction Ignore
+>     if ($container -eq $null) {
+>         "The Blob Container has not been created."
+>     } else {
+>         if ($container.PublicAccess -ne "off") {
+>             "The container is not properly configured for private access."
+>         } else {
+>         $result = $true
+>         "You have successfully configured the blob container for private access."
+>         }
+>     }
+> }
+> $result
+> ```
+> 
+> This is what the student will see in the lab:
+> 
+> ![](../lod/images/scripts-in-lab-instructions.png)
+> 
+> - The student clicks the Score button, and the scripts will begin executing the first script:
+> 
+>     - If the student **created the storage accounts correctly**, they will receive a message that says "You successfully created the storage account."
+>     
+>     - If the student **did not create the storage accounts correctly**, they will receive a message that says "The Storage Account has not been created". 
+> 
+> > [!KNOWLEDGE] You can provide a hint to students based on the outcome of the script. For example, if the script is to check if a specific directory has been created, you script could output a hint to help the student create the appropriate directory. 
 
 ## Questions
 
