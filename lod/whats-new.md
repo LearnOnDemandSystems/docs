@@ -7,7 +7,7 @@ It is now possible to use Activity Based Assessments in Linux labs that connect 
 Syntax includes: 
 - **set_lab_variable** "firstname" "John": sets a variable that can be used with an @lab replacement token
 - **send_lab_notification** "Hello from a script": send a notification to the lab
-- **set_activity_result** 1 "good job!":
+- **set_activity_result** 1 "good job!": Instead of using echo true/false to indicate the result of the script, you can use set_activity_result to perform more complex actions such as customized scoring and user messaging.
 
 ### **Bash in Life Cycle Actions for Linux VMs via SSH**
 - It is now possible to use Bash in Life Cycle actions to target a Linux VM via SSH for scoring purposes. 
