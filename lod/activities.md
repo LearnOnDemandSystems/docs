@@ -18,7 +18,7 @@ To get started with Activities:
 
 ![](../lod/images/activity-icon.png)
 
-1. Next, you should decide what type of Activity you would like to create -- Question, or an Automated Activity that targets a Cloud Subscription or a Windows-based virtual machines running on Hyper-V, with a PowerShell or Shell script. 
+Next, you should decide what type of Activity you would like to create -- Question, or an Automated Activity that targets a Cloud Subscription or a Windows-based virtual machines running on Hyper-V, with a PowerShell or Shell script. 
 
 Click to go to a specific section, or continue reading to learn more about creating Activities in your lab. 
 
