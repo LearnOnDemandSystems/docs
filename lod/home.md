@@ -31,7 +31,7 @@ Welcome to the OneLearn Lab on Demand platform!
 
 - [**Replacement Tokens**](/lod/feature-focus/cloud-resource-templates/replacement-tokens.md) - Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.
 
-- [**Upgrade IDL (legacy) to IDLx**](/lod/idlx-migration-guide.md) - This document asists in upgrading an IDL (legacy) lab to IDLx.
+- [**Upgrade IDL (legacy) to IDLx**](/lod/idlx-migration-guide.md) - This document assists in upgrading an IDL (legacy) lab to IDLx.
 
 ## Cloud
 
@@ -39,7 +39,7 @@ Welcome to the OneLearn Lab on Demand platform!
 
 * [**Amazon Web Services API Capabilities**](/lod/aws-capabilities.md) - A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation. Below the table is a brief description for each service name. 
 
-* [**Azure Capacity Limitations**](/guides/cloud-slice/microsoft-azure/azure-capacity-limitations.md) - Azure resource capacity limitations, how to avoid them, and what to do if you run into capacity limitations with your Azure subsription.
+* [**Azure Capacity Limitations**](/guides/cloud-slice/microsoft-azure/azure-capacity-limitations.md) - Azure resource capacity limitations, how to avoid them, and what to do if you run into capacity limitations with your Azure subscription.
 
 * [**Azure Resource Providers**](/guides/cloud-slice/microsoft-azure/azure-resource-providers.md) - Azure Resource Providers, and how to get the resources you need for your lab.
 
@@ -89,7 +89,7 @@ Welcome to the OneLearn Lab on Demand platform!
 
 * [**SSH Terminal Access**](terminal-access.md) - Configure virtual machines for SSH terminal access. 
 
-* [**Themes**](lod-themes.md) - Create themese to customize the look and feel of labs using CSS, and Javascript. 
+* [**Themes**](lod-themes.md) - Create themes to customize the look and feel of labs using CSS, and Javascript. 
 
 * [**Virtual Machine Based Lab Development - Best Practices**](/lod/vm-based-lab-build-best-practices.md) - Recommendations and best practices for cloud-hosted and datacenter-hosted virtual machines.
 
