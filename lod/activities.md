@@ -271,6 +271,46 @@ _Student view of the notification in the lab_
 > 
 > > [!KNOWLEDGE] You can provide a hint to students based on the outcome of the script. For example, if the script is to check if a specific directory has been created, you script could output a hint to help the student create the appropriate directory. 
 
+^[Bash Samples][bash-samples]
+
+> [bash-samples]:
+> **Simple Script (Pass/Fail)**  
+> This sample is gauging a file's size on the linux file system. If the file is less than 1000 bytes the user is successful, otherwise they are unsuccessful.
+>
+> ```
+> RESULT=False
+> file=$(stat --format=%s /etc/passwd)
+> if [ $(echo $file) -lt 1000 ]
+> then 
+>  echo "success, filesize is $file"
+>  RESULT=True
+> fi
+> echo $RESULT
+> ```
+>
+> **Complex Script (Partial Credit/Multiple Conditions)**  
+> This sample actually reads the /etc/hosts file on a Linux machine, and searches for a line that contains a specific IP. From there it if the IP has the correct hostname. With this design the user can get variable scores based on the following:
+> 
+> - Full credit if both the IP and hostname are found.
+> - Partial credit if the IP is found, but not the host name
+> - No credit if the IP is not found
+>
+> ```
+> RESULT=False
+> host=$(cat /etc/hosts | grep 192.168.1.2)
+> if [[ $(echo $host) == "192.168.1.2 linuxvm"* ]]
+> then
+>  set_activity_result 1 "Success"
+>  RESULT=True
+> elif [[ $(echo $host) == "192.168.1.2"* ]]
+> then 
+>  set_activity_result .5 "Partially correct"
+> else 
+>  echo "value not found"
+> fi
+> echo $RESULT
+> ```
+
 ## Questions
 
 Activities in your lab can be configured to use the following types of questions:
