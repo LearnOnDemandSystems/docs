@@ -31,14 +31,14 @@ Access Control Lists can optionally be set to inherit a parent ACL. Any domains 
 ### 
 
 1. Under **Blacklist**:
-    - In the **Domains** field, enter any domains you want to dissallow access to in the lab. 
+    - In the **Domains** field, enter any domains you want to dissallow access to in the lab, each on a newline.
 
-    - In the **Expressions** field, 
+    - In the **Expressions** field, enter any regular expressions, each on a newline.
 
 1. Under **Whitelist**:
-      - In the **Domains** field, enter any domains you want to allow access to in the lab. 
+    - In the **Domains** field, enter any domains you want to allow access to in the lab, each on a newline.
 
-    - In the **Expressions** field,
+    - In the **Expressions** field, enter any regular expressions, each on a newline.
 
 ## Assigning an Access Control List
 
@@ -53,4 +53,30 @@ Access Control lists are assigned to a lab profile, on the Networks tab. Custom 
 1. On the Web Access (NAT) network you wish to add the ACL to, click **Choose** to select the ACL that will be applied.
 
 1. Click **Save**. 
+
+## Regex Tips
+
+Some of the most frequently used parts of regex syntax:
+```
+.	Matches any single character (use "\." to match a ".").
+[abc]	Matches one of the characters ("[abc]" matches a single "a" or "b" or "c").
+[c-g]	Matches one of the characters in the range ("[c-g]" matches a single "c" or "d" or "e" or "f" or "g".
+"[a-z0-9]" matches any single letter or digit.
+"[-/.:?]" matches any single "-" or "/" or "." or ":" or "?".).
+?	None or one of the preceding ("words?" will match "word" and "words".
+"[abc]?" matches a single "a" or "b" or "c" or nothing (i.e. "")).
+*	None or more of the preceding ("words*" will match "word", "words" and "wordsssssss". ".*" will match anything including nothing).
++	One or more of the preceding ("xxx+" will match a sequence of 3 or more "x").
+(expr1|expr2)	One of the expressions, which in turn may contain a similar construction ("(foo|bar)" will match "foo" or "bar".
+"(foo|bar)? will match "foo" or "bar" or nothing (i.e. "")).
+$	The end of the line ("(foo|bar)$" will match "foo" or "bar"only at the end of a line).
+\x	Disable the special meaning of x where x is one of the special regex characters ".?*+()^$[]{}\"  ("\." will match a single ".", "\\" a single "\" etc.)
+```
+
+For example, a basic expressionlist to allow access (if placed in the whitelist) to the Azure portal and some Azure features: 
+```
+.*\.azure\.net
+.*\.azure\.com
+.*\.core\.windows\.net
+```
 
