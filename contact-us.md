@@ -2,9 +2,11 @@
 
 We hope you find our integrated documentation helpful. But if you can't find what you need here, you still have options...
 
+<!--
 ## Help Center
 
 Find answers to your questions through short topical articles in the [Help Center](https://learnondemand.zendesk.com/hc/en-us/categories/200402875-Enlight-LOD-Lab-Developers).
+-->
 
 ## Technical Support
 
