@@ -1,6 +1,6 @@
 # Custom Access Control Lists
 
-Custom Access Control lists (ACL) are used to restrict and allow domains that can be access by the VM browser in the lab. This is accomplished using blacklists and whitelists. Domains added to the blacklist will not be resolvable, and domains added to the whitelist will resolve. You can also allow or deny domains based on  expressions. 
+Access control lists (ACLs) are used to control how students use the Web within a virtual machine. 
 
 <!--
 ![](images/blacklist-and-whitelist-fields.png)
@@ -8,6 +8,8 @@ Custom Access Control lists (ACL) are used to restrict and allow domains that ca
 ## Creating an Access Control List (ACL)
 
 To create an Access Control List:
+
+ACLs use blacklists and whitelists. Domains added to the blacklist will not be resolvable, and domains added to the whitelist will resolve. You can also allow or deny domains based on  expressions. 
 
 1. From the Admin page in Lab on Demand, click **Access Control Lists** on the Virtual Machines tile.  
 
@@ -20,15 +22,8 @@ To create an Access Control List:
     - **Name**: The display name of the ACL.
     - **Description**: description of the ACL.
     - **Organization**: the organization the ACL will be available to.
-    - **Parent (optional)**: the parent ACL that will be inherited. 
+    - **Parent (optional)**: Access Control Lists can optionally be set to inherit a parent ACL. Any domains on an ACL that is used as a parent ACL, will be added to the child ACL.  
     - **Enabled**: select to enable this ACL for use. 
-    - **Public**: This access control list is marked as public and is available read-only to all organizations.
-
-### Parent Access Control Lists
-
-Access Control Lists can optionally be set to inherit a parent ACL. Any domains on an ACL that is used as a parent ACL, will be added to the child ACL. 
-
-### 
 
 1. Under **Blacklist**:
     - In the **Domains** field, enter any domains you want to dissallow access to in the lab, each on a newline.
@@ -39,6 +34,8 @@ Access Control Lists can optionally be set to inherit a parent ACL. Any domains 
     - In the **Domains** field, enter any domains you want to allow access to in the lab, each on a newline.
 
     - In the **Expressions** field, enter any regular expressions, each on a newline.
+
+Domains and expressions added to the Blacklist will be superceeded by domains and expressions added to the Whitelist. For example, adding `learnondemandsystems` to the blacklist, and `docs.learnondemandsystems.com` would block the VM from accessing learnondemandsystems.com, but would allow access to docs.learnondemandsystems.com
 
 ## Assigning an Access Control List
 
