@@ -1,6 +1,6 @@
 # Custom Access Control Lists
 
-Custom Access Control lists (ACL) are used to restrict and allow domains that can be access by the VM broswer in the lab. This is accomplished using blacklists and whitelists. Domains added to the blacklist will not be resolvable, and domains added to the whitelist will resolve. You can also allow or deny domains based on  expressions. 
+Custom Access Control lists (ACL) are used to restrict and allow domains that can be access by the VM browser in the lab. This is accomplished using blacklists and whitelists. Domains added to the blacklist will not be resolvable, and domains added to the whitelist will resolve. You can also allow or deny domains based on  expressions. 
 
 <!--
 ![](images/blacklist-and-whitelist-fields.png)
