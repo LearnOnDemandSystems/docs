@@ -35,7 +35,7 @@ ACLs use blacklists and whitelists. Domains added to the blacklist will not be r
 
     - In the **Expressions** field, enter any regular expressions, each on a newline.
 
-Domains and expressions added to the Blacklist will be superceeded by domains and expressions added to the Whitelist. For example, adding `learnondemandsystems` to the blacklist, and `docs.learnondemandsystems.com` would block the VM from accessing learnondemandsystems.com, but would allow access to docs.learnondemandsystems.com
+Domains and expressions added to the Blacklist will be superceeded by domains and expressions added to the Whitelist. For example, adding `learnondemandsystems.com` to the blacklist, and `docs.learnondemandsystems.com` would block the VM from accessing learnondemandsystems.com, but would allow access to docs.learnondemandsystems.com
 
 ## Assigning an Access Control List
 
