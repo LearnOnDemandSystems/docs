@@ -1,11 +1,11 @@
-# Custom Access Control Lists (ACL)
+# Custom Access Control Lists
 
 Custom Access Control lists (ACL) are used to restrict and allow domains that can be access by the VM broswer in the lab. This is accomplished using blacklists and whitelists. Domains added to the blacklist will not be resolvable, and domains added to the whitelist will resolve. You can also allow or deny domains based on  expressions. 
 
 <!--
 ![](images/blacklist-and-whitelist-fields.png)
 -->
-## Creating an Access Control List
+## Creating an Access Control List (ACL)
 
 To create an Access Control List:
 
@@ -57,26 +57,31 @@ Access Control lists are assigned to a lab profile, on the Networks tab. Custom 
 ## Regex Tips
 
 Some of the most frequently used parts of regex syntax:
-```
-.	Matches any single character (use "\." to match a ".").
-[abc]	Matches one of the characters ("[abc]" matches a single "a" or "b" or "c").
-[c-g]	Matches one of the characters in the range ("[c-g]" matches a single "c" or "d" or "e" or "f" or "g".
-"[a-z0-9]" matches any single letter or digit.
-"[-/.:?]" matches any single "-" or "/" or "." or ":" or "?".).
-?	None or one of the preceding ("words?" will match "word" and "words".
-"[abc]?" matches a single "a" or "b" or "c" or nothing (i.e. "")).
-*	None or more of the preceding ("words*" will match "word", "words" and "wordsssssss". ".*" will match anything including nothing).
-+	One or more of the preceding ("xxx+" will match a sequence of 3 or more "x").
-(expr1|expr2)	One of the expressions, which in turn may contain a similar construction ("(foo|bar)" will match "foo" or "bar".
-"(foo|bar)? will match "foo" or "bar" or nothing (i.e. "")).
-$	The end of the line ("(foo|bar)$" will match "foo" or "bar"only at the end of a line).
-\x	Disable the special meaning of x where x is one of the special regex characters ".?*+()^$[]{}\"  ("\." will match a single ".", "\\" a single "\" etc.)
-```
+
+|Expression|Description|
+|---|---|
+|.|Matches any single character (use "\." to match a ".").|
+|[abc]|Matches one of the characters ([abc] matches a single "a" or "b" or "c")|
+|[c-g]|Matches one of the characters in the range ("[c-g]" matches a single "c" or "d" or "e" or "f" or "g".|
+||"[a-z0-9]" matches any single letter or digit.|
+||"[-/.:?]" matches any single "-" or "/" or "." or ":" or "?".).|
+|?|None or one of the preceding ("words?" will match "word" and "words".|
+||"[abc]?" matches a single "a" or "b" or "c" or nothing (i.e. "")).|
+|*|None or more of the preceding ("words*" will match "word", "words" and "wordsssssss". ".*" will match anything including nothing).|
+|+|One or more of the preceding ("xxx+" will match a sequence of 3 or more "x").|
+|(expr1\|expr2)|One of the expressions, which in turn may contain a similar construction ("(foo\|bar)" will match "foo" or "bar". "(foo\|bar)? will match "foo" or "bar" or nothing (i.e. "")).|
+|$|The end of the line ("(foo\|bar)$" will match "foo" or "bar"only at the end of a line).|
+|\x|Disable the special meaning of x where x is one of the special regex characters ".?*+()^$[]{}\"  ("\." will match a single ".", "\\" a single "\" etc.)|
+
+For more information on Expressions, check out the [SquidGuard documentation](https://web.archive.org/web/20180807025620/http://squidguard.org/Doc/expressionlist.html).
+
 
 For example, a basic expressionlist to allow access (if placed in the whitelist) to the Azure portal and some Azure features: 
-```
-.*\.azure\.net
-.*\.azure\.com
-.*\.core\.windows\.net
-```
 
+`.*\.azure\.net`
+
+`.*\.azure\.com`
+
+`.*\.core\.windows\.net`
+
+[Back to top](#custom-access-control-lists)
