@@ -8,7 +8,7 @@ Find answers to your questions through short topical articles in the [Help Cente
 
 ## Technical Support
 
-Support requires submittal of a technical support ticket. To submit a support request, view our [Support Policy](http://supportrequest.learnondemandsystems.com/form-4501358/support-policy).
+Please visit our [customer support page to submit a Support Ticket](http://www.learnondemandsystems.com/customer-support/), access Help Articles or view LODS Service Status.
 
 ||||
 |---|---|---|
