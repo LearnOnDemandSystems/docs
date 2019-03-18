@@ -8,7 +8,7 @@ Find answers to your questions through short topical articles in the [Help Cente
 
 ## Technical Support
 
-Please visit our [customer support page to submit a Support Ticket](http://www.learnondemandsystems.com/customer-support/), access Help Articles or view LODS Service Status.
+Please visit our [customer support page](http://www.learnondemandsystems.com/customer-support/) to submit a Support Ticket, access Help Articles or view LODS Service Status.
 
 ||||
 |---|---|---|
