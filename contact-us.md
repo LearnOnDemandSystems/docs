@@ -2,13 +2,15 @@
 
 We hope you find our integrated documentation helpful. But if you can't find what you need here, you still have options...
 
+<!--
 ## Help Center
 
 Find answers to your questions through short topical articles in the [Help Center](https://learnondemand.zendesk.com/hc/en-us/categories/200402875-Enlight-LOD-Lab-Developers).
+-->
 
 ## Technical Support
 
-Support requires submittal of a technical support ticket. To submit a support request, view our [Support Policy](http://supportrequest.learnondemandsystems.com/form-4501358/support-policy).
+Please visit our [customer support page](http://www.learnondemandsystems.com/customer-support/) to submit a Support Ticket, access Help Articles or view LODS Service Status.
 
 ||||
 |---|---|---|
