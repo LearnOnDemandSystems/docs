@@ -35,7 +35,15 @@ ACLs use blacklists and whitelists. Domains added to the blacklist will not be r
 
     - In the **Expressions** field, enter any regular expressions, each on a newline.
 
-Domains and expressions added to the Blacklist will be superceeded by domains and expressions added to the Whitelist. For example, adding `learnondemandsystems.com` to the blacklist, and `docs.learnondemandsystems.com` would block the VM from accessing learnondemandsystems.com, but would allow access to docs.learnondemandsystems.com
+Domains and expressions added to the Blacklist will be superceeded by domains and expressions added to the Whitelist. 
+
+For example, you could:
+- Add `.*\.learnondemandsystems\.com` to the blacklist expressions field
+- Add `docs.learnondemandsystems.com` to the whitelist domains field 
+
+    ![](images/configured-black-and-white-lists.png)
+
+This configuration would block the VM from accessing learnondemandsystems.com, but would allow access to docs.learnondemandsystems.com
 
 ## Assigning an Access Control List
 
@@ -71,7 +79,6 @@ Some of the most frequently used parts of regex syntax:
 |\x|Disable the special meaning of x where x is one of the special regex characters ".?*+()^$[]{}\"  ("\." will match a single ".", "\\" a single "\" etc.)|
 
 For more information on Expressions, check out the [SquidGuard documentation](https://web.archive.org/web/20180807025620/http://squidguard.org/Doc/expressionlist.html).
-
 
 For example, a basic expressionlist to allow access (if placed in the whitelist) to the Azure portal and some Azure features: 
 
