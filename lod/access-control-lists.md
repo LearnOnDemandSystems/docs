@@ -45,7 +45,7 @@ For example, you could:
 
 This configuration would block the VM from accessing learnondemandsystems.com, but would allow access to docs.learnondemandsystems.com
 
->[!knowledge] Some browswers may handle regex differently, and you may need to adjust regex expressions to begin with a period or not. For example: some browsers may work with an expression like`.*\.learnondemandsystems\.com` and some browsers may work better with an expression like `.*learnondemandsystems\.com`.
+>[!knowledge] Some browswers may handle regex differently and you may need to adjust regex expressions. For example: some browsers may work with an expression like`.*\.learnondemandsystems\.com` and some browsers may work better with an expression like `.*learnondemandsystems\.com`.
 
 ## Assigning an Access Control List
 
