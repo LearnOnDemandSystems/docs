@@ -38,12 +38,14 @@ ACLs use blacklists and whitelists. Domains added to the blacklist will not be r
 Domains and expressions added to the Blacklist will be superceeded by domains and expressions added to the Whitelist. 
 
 For example, you could:
-- Add `.*\.learnondemandsystems\.com` to the blacklist expressions field
+- Add `.*learnondemandsystems\.com` to the blacklist expressions field
 - Add `docs.learnondemandsystems.com` to the whitelist domains field 
 
     ![](images/configured-black-and-white-lists.png)
 
 This configuration would block the VM from accessing learnondemandsystems.com, but would allow access to docs.learnondemandsystems.com
+
+>[!knowledge] Some browswers may handle regex differently, and you may need to adjust regex expressions to begin with a period or not. For example: some browsers may work with an expression like`.*\.learnondemandsystems\.com` and some browsers may work better with an expression like `.*learnondemandsystems\.com`.
 
 ## Assigning an Access Control List
 
