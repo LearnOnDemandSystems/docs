@@ -7,7 +7,7 @@ Upgrading your lab to IDLx is simple, fast and easy.
 
 Check out our [video guide for upgrading a lab to IDLx](https://www.youtube.com/watch?v=T3Pbgy_wviI).
 
-## Uprading Your Lab to IDLx
+## Upgrading Your Lab to IDLx
 
 First navigate to the lab profile that you wish to upgrade. 
 
