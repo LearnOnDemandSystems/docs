@@ -1,5 +1,34 @@
 # What's New in the TMS
 
+## Released March 21 2019
+
+### <span style="color:#0078d7;">Cascade Course Custom Fields to Classes</span>
+
+You can now set course custom fields to cascade down to the classes that use the course. When a course custom field cascades down to a class, it is like any other class custom field on the class. However, there are a few items to be aware of:
+- If the course custom field is set to unique values, a value set in course are compared to other course values and when set in the class, it is compared to other class values.
+- If there are user role restrictions set on the field, the same restriction is imposed on the classes.
+- If a course is available to another organization, but the course custom field is not, the field will be seen on the course but not on the class by that organization.
+
+### <span style="color:#0078d7;">TMS Updates</span>
+
+- New API endpoint properties for **SearchClasses** were added:
+    - **ClassroomAddress1**
+    - **ClassroomAddress2**
+    - **ClassroomCity**
+    - **ClassroomState**
+    - **ClassroomCountry**
+    - **ClassroomZip**
+- The API key is no longer part of the URL in 2.0. It has been moved to the header and all API pages have been updated to document this change. Here is an example of that documentation update: 
+
+> 2.0:
+
+> https://[root-url]/api/2.0/SearchClasses?pageIndex=0&pageSize=10
+
+> 1.0:
+
+> https://[root-url]/api/1.0/1234567890/SearchClasses?pageIndex=0&pageSize=10
+
+----------------------------
 ## Released March 7 2019
 
 ### <span style="color:#0078d7;">ABA Exam Results</span>
@@ -7,6 +36,10 @@
 You can view the results of an ABA exam on the **Exam Instance** page. The results include the student answer as well as the correct answer. Here is an example.
 
 ![](./images/whats-new/aba-results.png)
+
+### <span style="color:#0078d7;">TMS Update</span>
+
+The **Find Courses** page now has an Output Option for **Total RAM**.
 
 ----------------------------
 ## Released February 28 2019
