@@ -53,9 +53,9 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
 
 - **Setting Variables**
     
-    `set-lab-variable -Name firstname -Value John`
+    `Set-LabVariable -Name firstName -Value John`
 
-    `set-lab-variable -Name lastname -Value Smith`
+    `Set-LabVariabl -Name lastName -Value Smith`
 
 - **Sending Lab Notifications**
 
@@ -63,7 +63,7 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
 
 - **Scoring**
 
-    `set-ActivityResult .5 -Correct`
+    `Set-ActivityResult .5 -Correct`
 
 #### **Windows Command Shell and Bash**
 
