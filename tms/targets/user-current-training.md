@@ -2,7 +2,7 @@
 
 > [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
 
-The Current Training page provides access to several training items including information about them. Class enrollments for classes currently running or in the future are listed first. Course assignments that have not expired are listed next, followed by other sections. These section vary depending on the student.  There is also a menu bar of links that also vary depending on the student.
+The Current Training page provides access to several training items including information about them. Class enrollments for classes currently running or in the future are listed first. Course assignments that have not expired are listed next, followed by other sections. These sections vary depending on the student.  There is also a menu bar of links that also vary depending on the student.
 
 The following articles are related to links that may be found on this page:
 
