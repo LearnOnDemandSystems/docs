@@ -70,7 +70,7 @@ Welcome to the OneLearn Lab on Demand platform!
 
 * [**Lab Profile**](/lod/feature-focus/lab-profiles/create.md) - Lab profile creation, and explanation of lab profile configuration.
 
-* [**Lab Series**](/lod/lab-series.md) - Lab Series creation.
+* [**Lab Series**](/lod/lab-series.md) - Lab Series creation, and explanation of lab series configuration.
 
 * [**API Best Practices and How to use an API Consumer**](/lod/how-to-use-api-consumer.md) - Guides through the steps to configure an API Consumer in LOD, as well as best practices. 
 
