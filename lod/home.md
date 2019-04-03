@@ -56,10 +56,6 @@ Welcome to the OneLearn Lab on Demand platform!
 
 * [**Access Control Lists**](access-control-lists.md) - Controls which websites can be accessed in the lab, by using blacklists and whitelists. 
 
-* [**Create a Lab Profile**](/lod/feature-focus/lab-profiles/create.md) - Lab profile creation, and explanation of lab profile configuration.
-
-* [**Create a Lab Series**](/lod/create-lab-series.md) - Lab Series creation.
-
 * [**Create Removeable Media**](/lod/create-removeable-media.md) - Removeable Media to be used with virtual machines.
 
 * [**Differencing Disk Rollback**](/lod/differencing-disks.md) - Rollback differencing disks to a previous configuration or add differencing disks back to a disk chain after they have been removed.
@@ -71,6 +67,10 @@ Welcome to the OneLearn Lab on Demand platform!
 * [**Lab Interface Frequently Asked Questions**](/lod/lab-interface-faq.md) - Frequently asked questions about the Lab on Demand lab interface. 
 
 * [**Lab on Demand API Documentation**](/lod/lod-api/lod-api-main.md) - Documentation on how and when to use the Lab on Demand API.
+
+* [**Lab Profile**](/lod/feature-focus/lab-profiles/create.md) - Lab profile creation, and explanation of lab profile configuration.
+
+* [**Lab Series**](/lod/lab-series.md) - Lab Series creation.
 
 * [**API Best Practices and How to use an API Consumer**](/lod/how-to-use-api-consumer.md) - Guides through the steps to configure an API Consumer in LOD, as well as best practices. 
 
