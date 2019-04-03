@@ -39,4 +39,4 @@ To create a Lab series, click **Create Lab Series** on the Lab Series tile, on t
 
 ## Publish
 
-1. Select the organization(s) to publish the Lab Series to. This will make the Lab Series available to the Organization(s) that are chosen.
+1. Select the API Consumer to publish the Lab Series to. This will allow the lab profiles aligned with this lab series to be available for consumption via the chosen API.
