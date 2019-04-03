@@ -1,4 +1,4 @@
-# Create Lab Series
+# Lab Series
 
 Lab Profiles in Lab on Demand (LOD) can be housed in a lab Series. The Lab Series contains Lab Profiles, settings for the Lab Series, as well as 
 
