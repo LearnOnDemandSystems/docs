@@ -26,9 +26,9 @@ For more information about the items that can be used in an Access Control Polic
     ||**Access Control Policy**|Enter the Access Control Policy  here, in JSON format.|
     ||**Enabled**|Check the box to enable this Access Control Policy  for use.|
 
-### Examples
+## Examples
 
-#### Azure
+### Azure
 
 By default, Azure allows all resources to be provisioned, unless they are defined as denied by an access control policy. 
 
@@ -58,7 +58,7 @@ The access control policy below will deny any resources from being provisioned u
 }
 ```
 
-#### AWS
+### AWS
 
 By default, AWS allows denies all resources from bring provisioned, unless they are defined as allowed by an access control policy. 
 
