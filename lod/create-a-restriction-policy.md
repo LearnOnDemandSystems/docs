@@ -26,7 +26,59 @@ For more information about the items that can be used in an Access Control Polic
     ||**Access Control Policy**|Enter the Access Control Policy  here, in JSON format.|
     ||**Enabled**|Check the box to enable this Access Control Policy  for use.|
 
-1. Enter the following values into the Create a Access Control Policy  form:
+### Examples
+
+#### Azure
+
+By default, Azure allows all resources to be provisioned, unless they are defined as denied by an access control policy. 
+
+The access control policy below will deny any resources from being provisioned unless it is a standard_DS3_v2 virtual machine to be deployed. 
+
+```
+{
+    "if": {
+        "allOf": [
+            {
+                "field": "type",
+                "equals": "Microsoft.Compute/virtualMachines"
+            },
+            {
+                "not": {
+                    "field": "Microsoft.Compute/virtualMachines/sku.name",
+                    "in": [
+                        "Standard_DS3_v2"
+                    ]
+                }
+            }
+        ]
+    },
+    "then": {
+        "effect": "Deny"
+    }
+}
+```
+
+#### AWS
+
+By default, AWS allows denies all resources from bring provisioned, unless they are defined as allowed by an access control policy. 
+
+The access control policy below will allow only the EC2 service to be deplyed. Other AWS services that are not defined will not be available for deployment.
+
+```
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1547479378374",
+      "Action": [
+                "ec2:*"   
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}
+```
 
 ## Adding a Access Control Policy  To a Cloud Slice Lab in LOD
 
