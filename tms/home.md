@@ -57,6 +57,7 @@ If you an Administrator, explore the following topics/processes to help you star
 
 ### Basics
 
+- [What do I do if I forgot my password?](./end-user-student-faqs/basics/forgot-password.md)
 - [How do I change my password?](./end-user-student-faqs/basics/change-password.md)
 - [How do I access and change my user profile?](./end-user-student-faqs/basics/change-user-profile.md)
 - [Important Note for Windows Server Operating Systems Users](./end-user-student-faqs/basics/windows-server-os.md)
