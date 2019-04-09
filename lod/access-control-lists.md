@@ -51,6 +51,8 @@ This configuration would block the VM from accessing learnondemandsystems.com, b
 
 Access Control lists are assigned to a lab profile, on the Networks tab. Custom Access Control lists are only available with **Web Access (NAT)** network types.
 
+**Before you assign an access control list, VMs in the lab environment must be configured to pull DNS from the lab gateway, otherwise there may be false positive blocks. If using a DNS server inside the lab, it should have the gateway address assigned as the primary forwarder.**
+
 1. Navigate to the lab profile you wish to configure an ACL on. 
 
 1. Click **Edit** in the upper-right, to edit the lab profile. 
