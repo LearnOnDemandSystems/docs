@@ -1,5 +1,17 @@
 # What's New in the TMS
 
+## Released April 5 2019
+
+### <span style="color:#0078d7;">Drag and Drop Course Tags to Set Order in Course Tag Groups</span>
+
+You can now easily set the order that course tags will appear within their group in the On Demand browser. Drag and drop capability has been added to the **Tags** tab of the **Course Tag Group** profile page to allow you to manually drag a tag to the location in the list you want it to be displayed in the browser. However, at the top of the tag list is a **Sort Tags Alphabetically** checkbox. If this is checked, the order of the tags in the browser will be alphabetically even if you have rearranged them on this tab manually. A screen tip has been added to this field to warn the user of this.
+
+### <span style="color:#0078d7;">TMS Updates</span>
+- You will now receive a warning when you add a lab to a course that exceeds your **RAM** allotment.
+- The **Find Course Assignments** page now has an output option for **External IDs** that will show a column for each item that has an external Id available.
+The API **SearchClasses** method now includes **DeliveryTypeId** and **HTMLDescription** as endpoint properties.
+
+----------------------------
 ## Released March 21 2019
 
 ### <span style="color:#0078d7;">Cascade Course Custom Fields to Classes</span>
