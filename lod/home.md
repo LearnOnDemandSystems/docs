@@ -56,7 +56,7 @@ Welcome to the OneLearn Lab on Demand platform!
 
 * [**Access Control Lists**](access-control-lists.md) - Controls which websites can be accessed in the lab, by using blacklists and whitelists. 
 
-* [**Create Removeable Media**](/lod/create-removeable-media.md) - Removeable Media to be used with virtual machines.
+* [**Create Removable Media**](/lod/create-Removable-media.md) - Removable Media to be used with virtual machines.
 
 * [**Differencing Disk Rollback**](/lod/differencing-disks.md) - Rollback differencing disks to a previous configuration or add differencing disks back to a disk chain after they have been removed.
 
