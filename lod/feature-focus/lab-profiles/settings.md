@@ -34,7 +34,7 @@
 12. **Level:** Sets the Level for the lab; this can be 100, 200, 300, or 400. 
 13. **Evaluation:** Click to add an Evaluation to the lab profile. The Evaluation must already be created to add it to the lab profile using this button.
 
-14. **Advertising Campaign:** Used to show introductory content while the lab is loading. This can be a video, powerpoint presentation or anthing accessible by a URL. 
+14. **Advertising Campaign:** Used to show introductory content while the lab is loading. This can be a video, powerpoint presentation or anything accessible by a URL. 
 
 15. **Description:** Used to provide more information about the lab profile. 
 
