@@ -1,5 +1,21 @@
 # Lab on Demand API v3.0
 
+<!--
+## Production API and Integration Testing
+
+Only lab profiles with a development status of **Complete** are consumable  via API. 
+
+Development/Integration Testing API available with all the same API calls your production API can make, but has the following settings:
+- Max Active Lab Instances - 5
+- Max Saved Labs per User - 1
+- Max Active Lab Instances per user - 1
+- Max lab duration - 30 minutes
+- Allows launching of lab profiles with any Development Status
+    - i.e. is not restricted to a _Complete_ development status
+- Has a dedicated API key
+- Does not generate billable events
+-->
+
 ## API Request Format
 
 Requests are not case sensitive. Requests can use either **GET** or **POST**. 
