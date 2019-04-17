@@ -1,6 +1,21 @@
 # What's New in Lab On Demand
 
-## **Release March 8, 2019**
+## **Released April 12, 2019**
+
+**Move Cloud Credentials**
+- LOD now allows moving cloud credentials between pools. Individual or multiple credentials can be moved at a time. 
+
+**External Pool Sync**
+- When creating or editing a cloud credential pool, there is a new option to sync with an external stockpile. Once this is enabled, you can give the stockpile a name and enter additional payload text.
+
+**Access Control List (ACL) Improvements**
+- ACL details pages now show child ACLs, as well as a Find Lab Profiles link that will show all lab profiles associated with the ACL. 
+
+**Bug Fixes**
+- Fixed a bug that prevented users from viewing the Organizations tile or Find Organizations link when they had the proper permissions to view. 
+- Fixed a bug that prevented the Edit Parameters button from displaying on cloud resource templates after saving the lab profile. 
+
+## **Released March 8, 2019**
 
 ### **Linux Scoring via SSH**
 It is now possible to use Activity Based Assessments in Linux labs that connect using a terminal or ssh. Linux ABA scripts are written in Bash. 
