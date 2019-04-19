@@ -38,5 +38,5 @@ Here are some examples of how you might use each type:
 For more information regarding custom fields, please see:
 - [How do I create a custom field?](create-custom-fields.md)
 - [How can I show certain choices on a dropdown based on the answer to another dropdown?](dependent-dropdown-custom.md)
-- [How can I make a course custom field available to classes that use the course?](../courses-and-activities/cascade-custom-fields.md)
+- [How can I make a course custom field available to classes that use the course?](../courses-and-activities/overall/cascade-custom-fields.md)
 

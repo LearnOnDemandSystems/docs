@@ -20,4 +20,4 @@ To make a dropdown list's choices be dependent:
 For more information regarding custom fields, please see:
 - [What are custom fields?](custom-fields.md)
 - [How do I create a custom field?](create-custom-fields.md)
-- [How do I make the custom fields on my courses available on my classes?](../courses-and-activities/cascade-custom-fields.md)
+- [How do I make the custom fields on my courses available on my classes?](../courses-and-activities/overall/cascade-custom-fields.md)
