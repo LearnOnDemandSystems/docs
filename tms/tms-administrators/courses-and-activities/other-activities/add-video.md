@@ -4,7 +4,7 @@
 
 Course activities provide access to videos and other learning components in classes, course assignments, and learning paths. A video activity provides direct access to a stored video or one on the web. When the student clicks the Launch button on the activity, the video will open and begin to play. You control if it opens in new window or within a frame in the same window.
 
-The steps below assume you have completed the Basic Information section in the course ([How do I create a basic course?](./overall/create-course.md)). Before adding a course activity, you should select whether the course will available instructor-led and/or available self-paced on the Basic Information tab. This will affect the defaults for visibility of the activities you add for classes and course assignments.
+The steps below assume you have completed the Basic Information section in the course ([How do I create a basic course?](../overall/create-course.md)). Before adding a course activity, you should select whether the course will available instructor-led and/or available self-paced on the Basic Information tab. This will affect the defaults for visibility of the activities you add for classes and course assignments.
 
 To add a video to your course:
 1. On the **Create Course** or **Edit Course** page, click **Activities**.
