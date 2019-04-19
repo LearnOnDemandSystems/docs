@@ -4,7 +4,7 @@
 
 Course activities provide access to SCORM modules and other learning components in classes, course assignments, and learning paths. A SCORM module activity provides direct access to SCORM content that has been uploaded to a SCORM module (see [Related Articles](#related-articles) for information on uploading SCORM content). When the student clicks the Launch button on the activity, the SCORM content will open and begin to play. 
 
-The steps below assume you have completed the Basic Information section in the course ([How do I create a basic course?](./overall/create-course.md)). Before adding a course activity, you should select whether the course will available instructor-led and/or available self-paced on the Basic Information tab. This will affect the defaults for visibility of the activities you add for classes and course assignments.
+The steps below assume you have completed the Basic Information section in the course ([How do I create a basic course?](../overall/create-course.md)). Before adding a course activity, you should select whether the course will available instructor-led and/or available self-paced on the Basic Information tab. This will affect the defaults for visibility of the activities you add for classes and course assignments.
 
 To add a SCORM module to your course:
 1. On the **Create Course** or **Edit Course** page, click **Activities**.
