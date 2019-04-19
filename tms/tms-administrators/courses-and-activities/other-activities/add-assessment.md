@@ -4,7 +4,7 @@
 
 An assessment is a multiple-choice exam or test to determine a user's comprehension of material. Assessments are added as course activities and can be mixed in among other activities. If you are interested in creating your own assessments for your courses, please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help).
 
-The steps below assume you have completed the Basic Information section in the course ([How do I create a basic course?](./overall/create-course.md)). Before adding a course activity, you should select whether the course will available instructor-led and/or available self-paced on the Basic Information tab. This will affect the defaults for visibility of the activities you add for classes and course assignments.
+The steps below assume you have completed the Basic Information section in the course ([How do I create a basic course?](../overall/create-course.md)). Before adding a course activity, you should select whether the course will available instructor-led and/or available self-paced on the Basic Information tab. This will affect the defaults for visibility of the activities you add for classes and course assignments.
 
 To add one of your assessments to your course:
 1. On the **Create Course** or **Edit Course** page, click **Activities**.
@@ -22,5 +22,5 @@ Each assessment activity has the following fields you can set for more control o
 
 ## Related Articles
 For more information regarding assessments, please see:
-- [Do I want to use a survey or an assessment?](../miscellaneous/use-survey-or-assessment.md)
-- [How do assessments work?](../miscellaneous/assessments.md)
+- [Do I want to use a survey or an assessment?](/tms/tms-administrators/miscellaneous/use-survey-or-assessment.md)
+- [How do assessments work?](/tms/tms-administrators/miscellaneous/assessments.md)
