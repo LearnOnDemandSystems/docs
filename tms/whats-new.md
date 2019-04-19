@@ -1,5 +1,13 @@
 # What's New in the TMS
 
+## Released April 18 2019
+
+### <span style="color:#0078d7;">Add Completion Certificates to Classes</span>
+
+You can now add completion certificates you have created in the TMS directly to classes. This gives you the ability to add your own certificates and still have the certificate(s) associated with the course available for instructors and students. To do this for a class, under the **Certificates** section of the class, choose to inherit the certificates from the course and/or click **Add Certificate** to add your own.
+
+----------------------------
+
 ## Released April 5 2019
 
 ### <span style="color:#0078d7;">Drag and Drop Course Tags to Set Order in Course Tag Groups</span>
