@@ -237,7 +237,7 @@ If you an Administrator, explore the following topics/processes to help you star
 
 #### *Overall*
 
-- [How do I create a basic course?](./tms-administrators/courses-and-activities/overall/create-course.md))
+- [How do I create a basic course?](./tms-administrators/courses-and-activities/overall/create-course.md)
 - [How do I see available courses and determine how much I will be charged for a lab in one of them?](./tms-administrators/courses-and-activities/overall/see-available-courses-and-determine-cost-for-lab-in-one.md)
 - [How do I make the custom fields on my courses available on my classes?](./tms-administrators/courses-and-activities/overall/cascade-custom-fields.md)
 
