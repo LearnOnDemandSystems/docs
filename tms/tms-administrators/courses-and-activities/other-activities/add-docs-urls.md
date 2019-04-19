@@ -4,7 +4,7 @@
 
 Course activities provide access to documents, external links, and other learning components in classes, course assignments, and learning paths. These activities provide direct access to document or web pages on the web. When the student clicks the Launch button on the activity, the document or web page will open. You control if it opens in new window or within a frame in the same window.
 
-The steps below assume you have completed the Basic Information section in the course ([How do I create a basic course?](./overall/create-course.md)). Before adding a course activity, you should select whether the course will available instructor-led and/or available self-paced on the Basic Information tab. This will affect the defaults for visibility of the activities you add for classes and course assignments.
+The steps below assume you have completed the Basic Information section in the course ([How do I create a basic course?](../overall/create-course.md)). Before adding a course activity, you should select whether the course will available instructor-led and/or available self-paced on the Basic Information tab. This will affect the defaults for visibility of the activities you add for classes and course assignments.
 
 To add a document or external link to your course:
 1. On the **Create Course** or **Edit Course** page, click **Activities**.
