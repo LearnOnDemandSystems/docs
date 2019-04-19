@@ -32,9 +32,13 @@ Many fields have default values and/or are optional.  Below is an explanation of
 - **Available Self-Paced** – makes the course available for creating course assignments. It will also default the activities to be visible in course assignments.
 - **Show on Course Catalog** – adds the course to your organization’s Course Catalog if the catalog is turned on.
 - **Featured** – adds a **Featured** flag to the course on Find Courses, Course Catalog, and in subscriptions to help attract attention to it.
+
 ![](/tms/images/featured-course.png)
+
 - **Enable simple course feedback** – includes a feedback form for users in their class enrollment or course assignment pages.
+
 ![](/tms/images/course-feedback.png)
+
 - **Enable achievements for outside organizations** – allows students from outside organizations to earn any achievements tied to the course if they and their organization participate in achievements. For more on achievements, please read [How do I create achievements to motivate learners?](../miscellaneous/create-achievements-to-motivate-learners.md).
 
 ## Related Articles
