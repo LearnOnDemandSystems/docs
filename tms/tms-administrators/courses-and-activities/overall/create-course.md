@@ -26,7 +26,7 @@ Many fields have default values and/or are optional.  Below is an explanation of
 - **Program** - determines a range of permissions around classes and course assignments for users. The standard default program is Training. 
 - **Duration** - is a legacy billing field. It defaults to 5.
 - **Training Days** - sets the default number of sessions when a new class is created from the course. It defaults to 5, therefore, classes created from it would be 5 sessions, by default. You can change the number here or it can be overridden at the class level.
-- **Discussion** - assigns a discussion to the course. See [What is a discussion and how can I use it to increase student interaction in their learning?](./tms-administrators/discussions/what-is-discussion.md) for more information on discussions.
+- **Discussion** - assigns a discussion to the course. See [What is a discussion and how can I use it to increase student interaction in their learning?](/tms-administrators/discussions/what-is-discussion.md) for more information on discussions.
 - **Archived** - sets the course to be unavailable for anyone to schedule future classes or course assignments. 
 - **Available Instructor-Led** – makes the course available for scheduling classes. It will also default the activities to be visible in classes.
 - **Available Self-Paced** – makes the course available for creating course assignments. It will also default the activities to be visible in course assignments.
