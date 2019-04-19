@@ -15,4 +15,4 @@ When the field cascades to the class, it will display in the same display group.
 For more information regarding custom fields, please see:
 - [What are custom fields?](/tms/tms-administrators/miscellaneous/custom-fields.md)
 - [How do I create a custom field?](/tms/tms-administrators/miscellaneous/create-custom-fields.md)
-- [How can I show certain choices on a dropdown based on the answer to another dropdown?](/tms/tms-administratorsmiscellaneous/dependent-dropdown-custom.md)
+- [How can I show certain choices on a dropdown based on the answer to another dropdown?](/tms/tms-administrators/miscellaneous/dependent-dropdown-custom.md)
