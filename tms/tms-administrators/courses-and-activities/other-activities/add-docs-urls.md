@@ -10,8 +10,8 @@ To add a document or external link to your course:
 1. On the **Create Course** or **Edit Course** page, click **Activities**.
 1. Click **Add Document** or **Add External Link**.
 1. In the activity, 
-    1. Set the **Name** of the activity. This will appear in the list of activities in the course.
-    1. Set the **URL** for the document or external link. (See [Related Articles](#related-article) for more information on crafting URLs for capturing user information.)
+    1. In **Name**, set the name of the activity. This will appear in the list of activities in the course.
+    1. In **URL**, set the URL for the document or external link. (See [Related Articles](#related-article) for more information on crafting URLs for capturing user information.)
     1. (Optional) Enter the description of the document or external link to be displayed below the name of the activity in the course.
 
 Each activity has the following fields you can set for more control over that it:
