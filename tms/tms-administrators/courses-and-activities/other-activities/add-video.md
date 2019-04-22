@@ -10,9 +10,9 @@ To add a video to your course:
 1. On the **Create Course** or **Edit Course** page, click **Activities**.
 1. Click **Add Video**.
 1. In the Video activity, 
-    1. Set the **Name** of the video. This will appear in the list of activities in the course.
-    1. Set the **URL** for the location of the video. (See [Related Articles](#related-articles) for more information on crafting URLs for "in-page" videos and capturing user information.)
-    1. (Optional) Enter the description of the video to be displayed below the name of the activity in the course.
+    1. In **Name**, set the name of the video. This will appear in the list of activities in the course.
+    1. In **URL**, set the URL for the location of the video. (See [Related Articles](#related-articles) for more information on crafting URLs for "in-page" videos and capturing user information.)
+    1. (Optional) In **Description**, enter the description of the video to be displayed below the name of the activity in the course.
 
 Each video activity has the following fields you can set for more control over that activity:
 - **Duration** - sets the estimated amount of time the video will take. This may affect the overall duration of the class.
