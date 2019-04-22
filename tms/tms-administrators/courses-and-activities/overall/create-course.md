@@ -9,8 +9,8 @@ To create a course, click **Create Course** in the **Courses** group on the **Ad
 ## Required Fields
 
 The Basic Information tab contains many properties for the course. Only a few are required. To create a basic course use these fields:
-1. Enter the **Name** for the course. This name will be used for course assignments and will be the default name for classes.
-1. Click **Choose** next to **Content Provider**.
+1. In **Name**, enter the name for the course. This will be used for course assignments and will be the default name for classes.
+1. Next to **Content Provider**, click **Choose**.
 1. In the **Choose Content Provider** dialog, search for and select the **Content Provider** to assign to the course and click **OK**. This sets content ownership and may be used by LODS to set availability of contracted content, e.g. distribution of MOC courses.
 1. Click **Save**.
 
