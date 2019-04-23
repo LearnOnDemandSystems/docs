@@ -41,3 +41,8 @@ Finally, click **Save** to create the class.
 >[!NOTE] The other sections (Visibility, Payment, and HTML Description) can be changed later. 
 
 Once the class is created the TMS creates a template by retaining all of your selections except for the class dates, this is to help you create additional classes more quickly.
+
+## Related Article
+For more information regarding scheduling sessions and how that affects how long labs are saved, please see:
+
+- [How can I find how long a lab will be saved for?](/tms/tms-administrators/courses-and-activities/labs/find-how-long-lab-will-be-saved-for.md)
