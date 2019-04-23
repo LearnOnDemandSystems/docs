@@ -56,6 +56,10 @@ SSH configuration may need to be modified to enable password authentication or r
 
 1. If you need root login as well, uncomment **_PermitRootLogin yes_**, or add the line if you can’t find it. 
 
+1. Uncomment the line **_UseDNS yes_** and change it to **_UseDNS no_**, or add the line if you can't find it. This disables a reverse DNS lookup on terminal connect that can cause a 10 second delay.
+
+1. Disable the networkmanager-wait service if applicable. This service can result in a 20 second boot delay when using NICs set to DHCP. On most versions of linux this can be done via the following command: ```sudo systemctl disable NetworkManager-wait-online.service```.
+
 1. Make sure the SSH service auto boots. On most versions of linux can be done by entering the following command: ```sudo systemctl enable ssh```.
 
 1. Start the service with the following command: ```sudo systemctl startssh```.
