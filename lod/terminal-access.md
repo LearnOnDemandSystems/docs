@@ -27,6 +27,8 @@ There are a couple of virtual machine (VM) requirements for SSH terminal access:
 
 - Generally, Linux VMs need to be set to automatically bring online a new network adapter at boot and pull an address via DHCP. Most Linux distributions name adapters eth**X** where X is the number of adapters starting from 0.
 
+- If the VM is unable to connect to the internet after enabling terminal access, you may need to disable the default route assigned to the new adapter. The SSH network has no routing capabilities.
+
 ### RedHat/CentOS
 - Create a configuration file at /etc/sysconfig/network-scripts/ifcfg-eth**X**, where X is equal to the number of adapters your VM has. It should be set to automatically start at boot and pull an address via DHCP.
     
