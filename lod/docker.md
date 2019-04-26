@@ -1,4 +1,4 @@
-# Using Docker in LOD
+# Using Docker in Lab on Demand
 
 When using Docker to host containers in labs, there are several considerations to keep in mind.
 
