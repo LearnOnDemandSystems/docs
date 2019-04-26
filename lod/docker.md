@@ -4,7 +4,7 @@ When using Docker to host containers in labs, there are several considerations t
 
 ## Configuration
 
->[!knowledge] Docker images often require large downloads. It is advised that all necessary images are downloaded into the lab during development to prevent delays during live courses.
+>[!alert] Docker images often require large downloads. It is advised that all necessary images are downloaded into the lab during development to prevent delays during live courses.
 
 The following Docker configurations are supported:
 
