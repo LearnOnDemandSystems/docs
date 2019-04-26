@@ -60,6 +60,8 @@ Welcome to the OneLearn Lab on Demand platform!
 
 * [**Differencing Disk Rollback**](/lod/differencing-disks.md) - Rollback differencing disks to a previous configuration or add differencing disks back to a disk chain after they have been removed.
 
+* [**Docker Support**](/lod/docker.md) - Supported Docker configurations.
+
 * [**Introduction to Lab on Demand UI**](/lod/feature-focus/lod-experience.md) - Explanation of Lab on Demand UI.
 
 * [**GitHub Integration**](/guides/github-integration/github-integration.md) - Integrate lab instructions from a GitHub repository into your lab profile.
