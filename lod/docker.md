@@ -21,6 +21,8 @@ The following configurations are not supported:
 
 <sup>2</sup> While in some scenarios Docker may function when in a nested environment, LOD and support staff do not provide support for this scenario.
 
+>[!knowledge] For more information on unsupported configuration, please see [Docker's documentation](https://docs.docker.com/docker-for-windows/troubleshoot/#running-docker-desktop-for-windows-in-nested-virtualization-scenarios) on nested virtualization scenarios.
+
 ## Supported Operating Systems
 
 The following operating systems have been tested in our environment for the configurations above. Other distributions or editions will also likely work, but have not been tested.
