@@ -68,6 +68,8 @@ Welcome to the OneLearn Lab on Demand platform!
 
 * [**Lab Interface Frequently Asked Questions**](/lod/lab-interface-faq.md) - Frequently asked questions about the Lab on Demand lab interface. 
 
+* [**Lab Network Restrictions**](/lod/lab-networks.md) - Overview of the networks available to labs and any network restrictions. 
+
 * [**Lab on Demand API Documentation**](/lod/lod-api/lod-api-main.md) - Documentation on how and when to use the Lab on Demand API.
 
 * [**Lab Profile**](/lod/feature-focus/lab-profiles/create.md) - Lab profile creation, and explanation of lab profile configuration.
