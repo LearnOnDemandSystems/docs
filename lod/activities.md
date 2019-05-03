@@ -33,6 +33,7 @@ Click to go to a specific section, or continue reading to learn more about creat
     - [Multiple Choice Question](#multiple-choice-questions)
     - [Short Answer Question](#short-answer-questions)
 - [Scoring](#scoring)
+    - [Performance Based Testing](#performance-based-testing)
 - [Activity Management](#activity-management)
 
 ## Automated Activity
@@ -439,9 +440,9 @@ Partial scoring is achieved with automated Activities in IDLx. To configure part
 1. In the **Script 2** field, enter a PowerShell script to verify the directory is named properly. 
 1. Assign a score value for script 2. This will be the partial score the student will receive if the directory is name properly.
 
-### Performance Based Testing (PBT)
+### Performance Based Testing 
 
-Labs can be scored with a PBT scenario by leaving the _On-demand_ checbox unchecked, when creating automated activities. When activities are configured this way, they are scored when the lab is completed by the student. The score can be obtained by viewing the lab instance details. 
+Labs can be scored with a performance based testing scenario by leaving the _On-demand_ checbox unchecked, when creating automated activities. When activities are configured this way, they are scored when the lab is completed by the student. The score can be obtained by viewing the lab instance details. 
 
 ![](images/display-as-task-list.png)
 
