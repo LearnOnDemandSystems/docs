@@ -439,6 +439,11 @@ Partial scoring is achieved with automated Activities in IDLx. To configure part
 1. In the **Script 2** field, enter a PowerShell script to verify the directory is named properly. 
 1. Assign a score value for script 2. This will be the partial score the student will receive if the directory is name properly.
 
+### Performance Based Testing (PBT)
+
+Labs can be scored with a PBT scenario by leaving the _On-demand_ checbox unchecked, when creating automated activities. When activities are configured this way, they are scored when the lab is completed by the student. The score can be obtained by viewing the lab instance details. 
+
+![](images/display-as-task-list.png)
 
 ## Activity Management
 
