@@ -26,12 +26,16 @@ To create a Lab series, click **Create Lab Series** on the Lab Series tile, on t
 
 1. **Enabled**: Check this box to enable the Lab Series. If this box is left unchecked, the Lab Series will not be available to users.
 
-## Concurrency Limits
+## Limits
 
 1. **Max RAM Usage**: The maximum amount of RAM that can be used in the Lab Series, across all lab launches. Once this limit is reached, users will not be able to launch labs until another user closes their lab.
 
 
 1. **Max Active Instances**: The maximum amount of lab instances that can be launched from the Lab Series. Once this limit is reached, users will not be able to launch labs until another user closes their lab.
+
+1. **Max Instances Per Lab Per User (Retakes)**: This allows the number of retakes or relaunches via API, to be limited to a specific number of launches. Once the limit has been reached per lab, per user, an error will be returned in the API call. Additionally, you can restrict the scope of time that the user can relaunch labs within, in the _Days_ field.
+
+    If a user is assigned a Lab Series Assignment, the number of relaunches or retakes will be reset back to 0, for that lab and that user.
 
 ## Lab Host Tags
 
