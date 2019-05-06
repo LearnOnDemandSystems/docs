@@ -1,16 +1,46 @@
 # What's New in the TMS
 
+## Released May 2 2019
+
+### <span style="color:#0078d7;">Choose at Org Level whether Course Tags are Included with Export Course Catalog</span>
+
+There is now an option, **Include course tags in simple course catalog export**, on your Organization profile. Use it to set whether tags are included in the export or not.
+
+### <span style="color:#0078d7;">Use API Methods for Class Custom Fields</span>
+
+You can now view what custom fields are on your classes through the API as well as view and update the value of a Class Custom Field for a particular class. We have added the following API methods:
+- **GetClassCustomFields** - returns a list of custom fields on yoru organization's classes, including cascading course custom fields.
+- **GetClassCustomFieldValue** - returns the value of a Class Custom Field on a particular class.
+- **UpdateClassCustomFieldValue** - allows you to update the value of a Class Custom Field. This will return an error if the field is set to require unique values and you attempt to update to one that already exists. It will also return an error if you try to update the field to clear it when the field is required.
+
+### <span style="color:#0078d7;">TMS Update and Fixes</span>
+
+- The **Export** link on the **Class Roster** is now visible based on permissions for searching class enrollments.
+- The **Total RAM** output option will now recalculate when a lab's RAM is updated and the TMS has been synced.
+
+----------------------------
+
 ## Released April 25 2019
 
-### <span style="color:#0078d7;">TMS Update</span>
+### <span style="color:#0078d7;">TMS Updates and Fixes</span>
+- The **Find Users** and **Find Instructors** search pages have a new **Output Option**: **Created By**.
+- We now use SAS keys to download files from Class Files, Course Files, and Documents. There was previously a size limit on what could be downloaded without errors.
+- During the creation of an enrollment, the Enrollment Status will no longer be retained if the administrator changes the course and they no longer have permission for the status.
+- **First Name** and **Last Name** filters now work correctly on **Find Enrollment Training Keys** page.
 
-The **Find Users** and **Find Instructors** search pages have a new **Output Option**: **Created By**. 
+----------------------------
 
 ## Released April 18 2019
 
 ### <span style="color:#0078d7;">Add Completion Certificates to Classes</span>
 
 You can now add completion certificates you have created in the TMS directly to classes. This gives you the ability to add your own certificates and still have the certificate(s) associated with the course available for instructors and students. To do this for a class, under the **Certificates** section of the class, choose to inherit the certificates from the course and/or click **Add Certificate** to add your own.
+
+### <span style="color:#0078d7;">TMS Updates</span>
+
+- The TMS has been updated to be more accessible to students using assistive technology.
+- The **Starts Exactly** filter has been removed from the **Find Classes** page and **Choose Classes** dialog.
+- The Bookmark icon is now correctly positioned in the zoomed view in the Course Catalog.
 
 ----------------------------
 
