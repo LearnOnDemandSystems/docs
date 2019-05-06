@@ -76,7 +76,7 @@ Welcome to the OneLearn Lab on Demand platform!
 
 * [**Lab Series**](/lod/lab-series.md) - Lab Series creation, and explanation of lab series configuration.
 
-* [**API Best Practices and How to use an API Consumer**](/lod/how-to-use-api-consumer.md) - Guides through the steps to configure an API Consumer in LOD, as well as best practices. 
+* [**API Best Practices and How to Use an API Consumer**](/lod/how-to-use-api-consumer.md) - Guides through the steps to configure an API Consumer in LOD, as well as best practices. 
 
 * [**LTI Integration**](/lod/lab-on-demand-lti-integration.md) - Documentation on how to configure LTI on a lab profile, and integrate with popular LMS systems. 
 
