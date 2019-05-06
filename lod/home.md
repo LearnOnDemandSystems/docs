@@ -46,7 +46,7 @@ Welcome to the OneLearn Lab on Demand platform!
 
 * [**Create a Cloud Subscription Pool**](/lod/create-cloud-subscription-pool.md) - Create a Cloud Subscription Pool to load balance labs across your cloud subscriptions.
 
-* [**Create a an Azure Resource Template and Resource Group Configuration**](/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md) - Create a Resource Template and Configure it into a Resource Group
+* [**Create an Azure Resource Template and Resource Group Configuration**](/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md) - Create a Resource Template and Configure it into a Resource Group
 
 * [**Create an Access Control Policy**](/lod/create-a-restriction-policy.md) - Create a Cloud Access Control Policy.
 
