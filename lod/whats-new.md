@@ -15,6 +15,8 @@
 - Fixed a bug that prevented users from viewing the Organizations tile or Find Organizations link when they had the proper permissions to view. 
 - Fixed a bug that prevented the Edit Parameters button from displaying on cloud resource templates after saving the lab profile. 
 
+---
+
 ## **Released March 8, 2019**
 
 ### **Linux Scoring via SSH**
@@ -35,6 +37,8 @@ Syntax includes:
 ### **Simplified Chinese and Japanese Language Options**
 - Lab authors now have the option to author labs in Simplified Chinese and Japanese languages. This only changes language in the lab client, and does not change the language of the lab instructions. 
 
+---
+
 ## **Released March 1, 2019**
 
 ### **Custom Access Control Lists**
@@ -48,6 +52,8 @@ Syntax includes:
 ### **Performance and Reliability Improvements for Azure and AWS Cloud Slice**
 
 - Various improvements have been made to increase performance and reliability of Azure and AWS Cloud Slice labs. 
+
+---
 
 ## **Released February 8, 2019**
 
@@ -86,6 +92,8 @@ _audio as a link_
 - Fixed a bug that caused GitHub integration to fail. 
 - Fixed a bug that prevented images from opening in a dialog when IDLx windows are split.
 
+---
+
 ## **Released January 18, 2019**
 
 ### **Show Scoring Result Upon Completion** 
@@ -116,6 +124,8 @@ _Show scoring result disabled_
 
 **Bugfix**
 - We now prevent SCSI adapters from conflicting with SCSI disks in VMware based labs - VMware VMs shouldn't allow SCSI adapter and Disk to use same Device ID. Device ID 7 has been removed from availability. 
+
+---
 
 ## **Released November 16, 2018**
 
@@ -195,6 +205,8 @@ Copyable/TypeText syntax: placing four + symbols on each side of any text, will 
 
 ```++++enter text here to type into the VM and copy to the clipboard++++```
 
+
+---
 
 ## **Released October 19, 2018**
 
