@@ -20,10 +20,10 @@ Performance based testing, activity based assessment, and scoring
 ## [Lab on Demand Integration](lod-integration-landing.md)
 LOD API, LTI integration, and GitHub integration.
 
-## Lab on Demand Administration
+# [Lab on Demand Administration](lod-admin-landing.md)
 LOD UI overview, lab instruction editor overview, 
 
-## A-Z Index
+# [A-Z Index](a-z-index.md)
 All documentation listed A-Z
 
 <!--
