@@ -1,5 +1,20 @@
 # What's New in Lab On Demand
 
+## **Released May 3, 2019**
+
+**Lab Series - Max instances per lab user** 
+
+- Lab series now have a new option on the Limits tab. Lab retakes can be set to unlimited or a specified number of launches. This affects the number of launches per user, per lab, when launched via API. Lab Series Assignments will reset the number of retakes allow. I.E if a user has launched a lab and reached the number of launches allowed, assigning a lab series assignment allows them to launch the lab again, up to the limit of launches specified on the lab series. 
+
+    ![](images/retakes.png)
+
+**Bug Fixes and Improvements**
+
+- Updated the text on the authentication tab when creating or editing a cloud subscription pool, and choosing AWS as the cloud platform for the cloud subscription pool. 
+- Fixed a bug that would cause IDLx instructions to be checked out after editing. This was caused by a change in Google Chrome. 
+- The magnification control slider in IDLx labs now shows a label when hovering over it with the mouse cursor. 
+
+
 ## **Released April 12, 2019**
 
 **Move Cloud Credentials**
