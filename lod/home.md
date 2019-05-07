@@ -7,11 +7,11 @@
 </div>
 
 
-# [Cloud Slice Lab Development](cloud-slice-development-landing.md)
+## [Cloud Slice Lab Development](cloud-slice-development-landing.md)
 
 Microsoft Azure and Amazon Web Services cloud slice lab development.
 
-# [Virtual Machine Lab Development](vm-lab-development-landing.md)
+## [Virtual Machine Lab Development](vm-lab-development-landing.md)
 Hyper-V, vSphere, and Linux virtual machine lab development.
 
 # [Performance Based Tested - Scoring](pbt-and-scoring-landing.md)
