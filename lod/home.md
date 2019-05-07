@@ -6,6 +6,27 @@
    <a href="whats-new.md">What's New</a>
 </div>
 
+
+# [Cloud Slice Lab Development](cloud-slice-development-landing.md)
+
+Microsoft Azure and Amazon Web Services cloud slice lab development.
+
+# [Virtual Machine Lab Development](vm-lab-development-landing.md)
+Hyper-V, vSphere, and Linux virtual machine lab development.
+
+# [Performance Based Tested - Scoring](pbt-and-scoring-landing.md)
+Performance based testing, activity based assessment, and scoring
+
+# [Lab on Demand Integration](lod-integration-landing.md)
+LOD API, LTI integration, and GitHub integration.
+
+# Lab on Demand Administration
+LOD UI overview, lab instruction editor overview, 
+
+# A-Z Index
+All documentation listed A-Z
+
+<!--
 # OneLearn Lab on Demand Help 
 
 Welcome to the OneLearn Lab on Demand platform!
@@ -84,6 +105,7 @@ Welcome to the OneLearn Lab on Demand platform!
 * [**Performance Based Testing (PBT)**](guides/pbt/lodpbtguide.md) - Configure Performance Based Testing on your lab profile.
 -->
 
+<!--
 * [**Shared Labs (a.k.a. Cyber-Range)**](/guides/sl/sharedlabs.md) - Configure a Shared Lab environment.
 
 * [**SSH Terminal Access**](terminal-access.md) - Configure virtual machines for SSH terminal access. 
