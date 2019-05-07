@@ -6,6 +6,7 @@
    <a href="whats-new.md">What's New</a>
 </div>
 
+# To get started, please choose a topic below:
 
 ## [Cloud Slice Lab Development](cloud-slice-development-landing.md)
 
@@ -20,10 +21,10 @@ Performance based testing, activity based assessment, and scoring
 ## [Lab on Demand Integration](lod-integration-landing.md)
 LOD API, LTI integration, and GitHub integration.
 
-# [Lab on Demand Administration](lod-admin-landing.md)
+## [Lab on Demand Administration](lod-admin-landing.md)
 LOD UI overview, lab instruction editor overview, 
 
-# [A-Z Index](a-z-index.md)
+## [A-Z Index](a-z-index.md)
 All documentation listed A-Z
 
 <!--
