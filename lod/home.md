@@ -14,16 +14,16 @@ Microsoft Azure and Amazon Web Services cloud slice lab development.
 ## [Virtual Machine Lab Development](vm-lab-development-landing.md)
 Hyper-V, vSphere, and Linux virtual machine lab development.
 
-# [Performance Based Tested - Scoring](pbt-and-scoring-landing.md)
+## [Performance Based Tested - Scoring](pbt-and-scoring-landing.md)
 Performance based testing, activity based assessment, and scoring
 
-# [Lab on Demand Integration](lod-integration-landing.md)
+## [Lab on Demand Integration](lod-integration-landing.md)
 LOD API, LTI integration, and GitHub integration.
 
-# Lab on Demand Administration
+## Lab on Demand Administration
 LOD UI overview, lab instruction editor overview, 
 
-# A-Z Index
+## A-Z Index
 All documentation listed A-Z
 
 <!--
