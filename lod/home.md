@@ -12,13 +12,13 @@
 
 ### [**Virtual Machine Lab Development**](vm-lab-development-landing.md) 
 
-## [Performance Based Tested - Scoring](pbt-and-scoring-landing.md) 
+### [**Performance Based Tested - Scoring**](pbt-and-scoring-landing.md) 
 
-## [Lab on Demand Integration](lod-integration-landing.md)
+### [**Lab on Demand Integration**](lod-integration-landing.md)
 
-## [Lab on Demand Administration](lod-admin-landing.md) 
+### [**Lab on Demand Administration**](lod-admin-landing.md) 
 
-## [A-Z Index](a-z-index.md) 
+### [**A-Z Index**](a-z-index.md) 
 
 <!--
 # OneLearn Lab on Demand Help 
