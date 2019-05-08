@@ -4,9 +4,9 @@
 
 * [**Amazon Web Services API Capabilities**](/lod/aws-capabilities.md) - A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation. Below the table is a brief description for each service name. 
 
-* [**Enable Cloud Slice Support in AWS**](/guides/cloud-slice/aws/aws-cloud-slice-setup.md)
+* [**Enable Cloud Slice Support in AWS**](/guides/cloud-slice/aws/aws-cloud-slice-setup.md) - Setup process to enable cloud slice support in the AWS portal.
 
-* [**Setup your AWS cloud subscription in OneLearn Lab on Demand**](/guides/cloud-slice/aws/aws-setup-cloud-sub-pool-in-lod.md)
+* [**Setup your AWS cloud subscription in OneLearn Lab on Demand**](/guides/cloud-slice/aws/aws-setup-cloud-sub-pool-in-lod.md) - Configure a subscription pool in Lab on Demand, for use with AWS cloud slice. 
 
 ## Microsoft Azure Cloud Slice Developemt
 
@@ -24,8 +24,7 @@
 
 * [**Cloud Slice Setup Guide**](../guides/cloud-slice/cloud-slice.md) - Comprehensive setup guide for configuring a Cloud Slice lab with Lab on Demand and Microsoft Azure or Amazon Web Services.
 
-
-* [**Setup your Azure cloud subscription in OneLearn Lab on Demand**](/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md)
+* [**Setup your Azure cloud subscription in OneLearn Lab on Demand**](/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md) - Configure a subscription pool in Lab on Demand, for use with Azure cloud slice. 
 
 ## Lab on Demand Configuration
 
