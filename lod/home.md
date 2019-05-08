@@ -6,7 +6,7 @@
    <a href="whats-new.md">What's New</a>
 </div>
 
-# To get started, please choose a topic below
+# To Get Started, Please Choose a Topic Below
 
 ## [Cloud Slice Lab Development](cloud-slice-development-landing.md) 
 - Microsoft Azure and Amazon Web Services cloud slice lab development.
