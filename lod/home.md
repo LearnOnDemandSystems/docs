@@ -8,7 +8,7 @@
 
 # To get started, please choose a topic below
 
-## [Cloud Slice Lab Development](cloud-slice-development-landing.md) 
+### [Cloud Slice Lab Development](cloud-slice-development-landing.md) 
 - Microsoft Azure and Amazon Web Services cloud slice lab development.
 
 ## [Virtual Machine Lab Development](vm-lab-development-landing.md) 
