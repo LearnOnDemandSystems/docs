@@ -22,8 +22,6 @@
 
 * [**Find Azure Resource Templates**](/guides/cloud-slice/microsoft-azure/cloud-slice-find-resource-templates.md) - How to find Azure Resource Manager templates for use with Microsoft Azure.
 
-* [**Cloud Slice Setup Guide**](../guides/cloud-slice/cloud-slice.md) - Comprehensive setup guide for configuring a Cloud Slice lab with Lab on Demand and Microsoft Azure or Amazon Web Services.
-
 * [**Setup your Azure cloud subscription in OneLearn Lab on Demand**](/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md) - Configure a subscription pool in Lab on Demand, for use with Azure cloud slice. 
 
 ## Lab on Demand Configuration
