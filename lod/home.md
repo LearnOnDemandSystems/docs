@@ -12,7 +12,7 @@
 
 ### [**Virtual Machine Lab Development**](vm-lab-development-landing.md) 
 
-### [**Performance Based Tested - Scoring**](pbt-and-scoring-landing.md) 
+### [**Performance Based Testing and Scoring**](pbt-and-scoring-landing.md) 
 
 ### [**Lab on Demand Integration**](lod-integration-landing.md)
 
