@@ -8,9 +8,9 @@
 
 # To Get Started, Please Choose a Topic Below
 
-## [Cloud Slice Lab Development](cloud-slice-development-landing.md) 
+## [**Cloud Slice Lab Development**](cloud-slice-development-landing.md) 
 
-## [Virtual Machine Lab Development](vm-lab-development-landing.md) 
+## [**Virtual Machine Lab Development**](vm-lab-development-landing.md) 
 
 ## [Performance Based Tested - Scoring](pbt-and-scoring-landing.md) 
 
