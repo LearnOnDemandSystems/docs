@@ -12,3 +12,8 @@ There are two places within your lab to find information on your connection;
     The graphic is displayed larger here, as well as the current **Quality** rating (excellent, good, OK, poor) and the **Latency** value. This measures the network latency between your browser and the server where the VMs are hosted. This is the last latency value received from the your machine. **Large latency numbers may cause your lab to seem sluggish or even non-responsive**. The issue may be with your network, internet provider, the overall internet health, or the lab host. If any of the conditions persist, contact your help desk and provide them with this detailed information along with the **Support Information on the Support** tab.
 
 You can also check your ports and internet speed to our servers using the **Trouble with your test lab?** link in the Training Management System. These comprehensive tests will show your actual connection latency and bandwidth (not just speed) to our servers. This information can be very valuable in helping you improve the performance your internet connection and is needed by the technical support teams.
+
+- <= 60 milliseconds = Excellent (4 bars)
+- <= 150 milliseconds = Good (3 bars)
+- <= 240 milliseconds = OK (2 bars)
+- \> 240 milliseconds = Poor (1 bars)
