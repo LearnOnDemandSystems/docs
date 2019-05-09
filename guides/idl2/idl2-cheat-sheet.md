@@ -32,7 +32,7 @@
 |<BR> | |
 |<font size="3">**Page**</font>    |                                          |
 | Page break        | `===`                                    |
-| Horizonal Line    | `---` or `***` or `___`                  |
+| Horizontal Line    | `---` or `***` or `___`                  |
 | Block quote       | `> text to display in block quote`       |
 |<BR> | |
 |<font size="3">**Embedded Content**</font>|                                          |
