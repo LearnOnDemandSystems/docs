@@ -1,8 +1,8 @@
 # What's New in the LODS Platforms
 
 Welcome to the What's New release notes for the LODS Platforms. Each platform is in its own section:
-- [LOD](#lod)
-- [TMS](#tms)
+- [**LOD**](#lod)
+- [**TMS**](#tms)
 
 ----
 
