@@ -8,6 +8,18 @@
 
 # What's New in the TMS
 
+## Released May 9 2019
+
+### <span style="color:#0078d7;">CreateClass and UpdateClass API Methods Simplified and Updated</span>
+
+The **CreateClass** and **UpdateClass** API methods have been simplified for use and updated to allow for setting the time zone and organizational availability. The documentation pages have also been simplified with clearer examples.
+
+[](./images/whats-new/createclass.png)
+
+### <span style="color:#0078d7;">TMS Update</span>
+
+The **GetClass** API call now returns the time zone and organizational availability of the class.
+
 ## Released May 2 2019
 
 ### <span style="color:#0078d7;">Choose at Org Level whether Course Tags are Included with Export Course Catalog</span>
