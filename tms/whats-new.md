@@ -3,7 +3,7 @@
 </style>
  
 <div style="float:right; padding-top:5px; font-size:120%;">
-   <a href="/whats-new-toc.md">What's New in all LODS Platforms</a>
+   <a href="/whats-new-toc.md">Other LODS Platforms</a>
 </div>
 
 # What's New in the TMS
