@@ -3,7 +3,7 @@
 </style>
  
 <div style="float:right; padding-top:5px; font-size:120%;">
-   <a href="whats-new.md">What's New</a>
+   <a href="/whats-new-toc.md">What's New</a>
 </div>
 
 # OneLearn TMS Help
