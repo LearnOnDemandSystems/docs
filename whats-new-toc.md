@@ -1,6 +1,6 @@
 # What's New in the LODS Platforms
 
-## Welcome to the Release Notes for each platform in the LODS family.
+## Welcome! Use links below to access the Release Notes for each platform in the LODS family.
 
 - [**OneLearn Lab on Demand**](/lod/whats-new.md). Build and manage your labs for training consumption.
 
