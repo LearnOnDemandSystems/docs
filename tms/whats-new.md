@@ -14,7 +14,7 @@
 
 The **CreateClass** and **UpdateClass** API methods have been simplified for use and updated to allow for setting the time zone and organizational availability. The documentation pages have also been simplified with clearer examples.
 
-[](./images/whats-new/createclass.png)
+![](./images/whats-new/createclass.png)
 
 ### <span style="color:#0078d7;">TMS Update</span>
 
