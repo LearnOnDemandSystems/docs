@@ -1,3 +1,11 @@
+<style>
+    h1:first-of-type {margin-top:0;}
+</style>
+ 
+<div style="float:right; padding-top:5px; font-size:120%;">
+   <a href="/whats-new-toc.md">What's New in all LODS Platforms</a>
+</div>
+
 # What's New in the TMS
 
 ## Released May 2 2019
