@@ -6,9 +6,9 @@ Welcome to the What's New release notes for the LODS Platforms. Each platform is
 
 ----
 
-# LOD
+## **LOD**
 
-## **Released May 3, 2019 in LOD**
+### <span style="color:#0078d7;">**Released May 3, 2019 in LOD**</span>
 
 **Lab Series - Max instances per lab user** 
 
