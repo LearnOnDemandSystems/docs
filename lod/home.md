@@ -80,7 +80,7 @@ Welcome to the OneLearn Lab on Demand platform!
 
 * [**Life Cycle Actions**](/lod/life-cycle-actions.md) - Define actions to occur at certain times within the lab's life cycle, such as calling an external service when the lab builds, or sending a notification to the user when the lab is resumed. 
 
-* [**Organization RAM Limits**](/guides/lti/lod-lti.md) - Max RAM usage, max active lab instances and max RAM per lab profile. 
+* [**Organization RAM Limits**](org-max-ram.md) - Max RAM usage, max active lab instances and max RAM per lab profile. 
 
 <!--
 * [**Performance Based Testing (PBT)**](guides/pbt/lodpbtguide.md) - Configure Performance Based Testing on your lab profile.
