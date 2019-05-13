@@ -2,7 +2,7 @@
 
 ## Amazon Web Services Cloud Slice Development
 
-* [**Amazon Web Services API Capabilities**](../lod/Test/aws-capabilities.md) - A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation. Below the table is a brief description for each service name. 
+* [**Amazon Web Services API Capabilities**](../lod/home-landing-pages/aws-capabilities.md) - A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation. Below the table is a brief description for each service name. 
 
 * [**Enable Cloud Slice Support in AWS**](/guides/cloud-slice/aws/aws-cloud-slice-setup.md) - Setup process to enable cloud slice support in the AWS portal.
 
