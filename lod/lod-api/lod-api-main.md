@@ -1,6 +1,5 @@
 # Lab on Demand API v3.0
 
-<!--
 ## Production API and Integration Testing
 
 Only lab profiles with a development status of **Complete** are consumable  via API. 
@@ -14,7 +13,6 @@ Development/Integration Testing API available with all the same API calls your p
     - i.e. is not restricted to a _Complete_ development status
 - Has a dedicated API key
 - Does not generate billable events
--->
 
 ## API Request Format
 
