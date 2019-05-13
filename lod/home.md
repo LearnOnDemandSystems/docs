@@ -100,8 +100,6 @@ Welcome to the OneLearn Lab on Demand platform!
 
 - [**Custom UUID on VMware Virtual Machines**](uuid.md) - Assign a custom unique ID to a virtual machine hosted on a VMware host.
 
-### [**Cloud Slice Lab Development**](/lod/home-landing-pages/cloud-slice-development-landing.md) 
-
 <!--
 ## Quick Starts
 
