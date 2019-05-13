@@ -43,11 +43,9 @@ To create a Lab series, click **Create Lab Series** on the Lab Series tile, on t
 
 ## Publish
 
-<!--
-1. Select the API Consumer to publish the Lab Series to. This will allow the lab profiles aligned with this lab series to be available for consumption via the chosen API.
-
 For organizations that have proprietary content, an option is available to designate a person to have the permission to publish a lab series to the respective API consumer. After an organization designates someone to publish to their API, future requests to LODS to publish a lab series will be a billable service. Permission to publish to the API consumer will be provided on-request from an administrator of the organization. 
--->
+
+1. Select the API Consumer to publish the Lab Series to. This will allow the lab profiles aligned with this lab series to be available for consumption via the chosen API.
 
 1. Select the API Consumer to publish the Lab Series to. This will allow the lab profiles aligned with this lab series to be available for consumption via the chosen API.
 
