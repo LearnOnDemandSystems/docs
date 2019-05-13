@@ -8,17 +8,17 @@
 
 # To Get Started, Please Choose a Topic Below
 
-### [**Cloud Slice Lab Development**](cloud-slice-development-landing.md) 
+### [**Cloud Slice Lab Development**](/lod/home-landing-pages/cloud-slice-development-landing.md) 
 
-### [**Virtual Machine Lab Development**](vm-lab-development-landing.md) 
+### [**Virtual Machine Lab Development**](/lod/home-landing-pages/vm-lab-development-landing.md) 
 
-### [**Performance Based Testing and Scoring**](pbt-and-scoring-landing.md) 
+### [**Performance Based Testing and Scoring**](/lod/home-landing-pages/pbt-and-scoring-landing.md) 
 
-### [**Lab on Demand Integration**](lod-integration-landing.md)
+### [**Lab on Demand Integration**](/lod/home-landing-pages/lod-integration-landing.md)
 
-### [**Lab on Demand Administration**](lod-admin-landing.md) 
+### [**Lab on Demand Administration**](/lod/home-landing-pages/lod-admin-landing.md) 
 
-### [**A-Z Index**](a-z-index.md) 
+### [**A-Z Index**](/lod/home-landing-pages/a-z-index.md) 
 
 <!--
 # OneLearn Lab on Demand Help 
