@@ -8,7 +8,7 @@
 
 # To Get Started, Please Choose a Topic Below
 
-### [**Cloud Slice Lab Development**](/lod/cloud-slice-development-landing.md) 
+### [**Cloud Slice Lab Development**](/lod/home-landing-pages/cloud-slice-development-landing.md) 
 
 ### [**Virtual Machine Lab Development**](/lod/home-landing-pages/vm-lab-development-landing.md) 
 
