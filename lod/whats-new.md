@@ -1,5 +1,25 @@
 # What's New in Lab On Demand
 
+<!--
+## **Released May 11, 2019**
+
+**Expand Items Injected into VM Registry Key**
+
+- Allows replacement token data to be injected into virtual machines. Replacement tokens are now injected into virtual machines at the following locations on the VM:
+    - For Hyper-V VMs,  it is injected in Windows registry at Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Virtual Machine\External.
+
+    - For VMware VMs, it is written to a txt file at C:\Users\Public\Documents\LabInstance.txt
+
+**IDLx End Button**
+
+- The end button in IDLx labs is now shown at the bottom of the UI for single page lab instructions. This provides a more consistent experience in IDLx labs that have multiple pages of instructions or a single page of instructions. 
+
+**Lab Profile Max RAM**
+
+- Organization profiles now have a setting to limit the maximum amount of RAM that a lab belonging to the organization can have. This is enforced when editing lab and virtual machine profiles. If a change would cause a lab to exceed this limit, the operation is blocked. Changes that do not increase the amount of RAM, LOD will allow the update. Disabled lab profiles are not validated for max RAM. Re-enabling a lab will cause validation to occur and if the lab profile causes the RAM limit to be exceeded, LOD will not allow the lab profile to be re-enabled.
+
+-->
+
 ## **Released May 3, 2019**
 
 **Lab Series - Max instances per lab user** 
