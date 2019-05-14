@@ -4,7 +4,7 @@
 
 * [**Amazon Web Services API Capabilities**](/lod/aws-capabilities.md) - A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation. Below the table is a brief description for each service name. 
 
-* [**Enable Cloud Slice Support in AWS**](../guides/cloud-slice/aws/aws-cloud-slice-setup.md) - Setup process to enable cloud slice support in the AWS portal.
+* [**Enable Cloud Slice Support in AWS**](/docs/lods/guides/cloud-slice/aws/aws-cloud-slice-setup.md) - Setup process to enable cloud slice support in the AWS portal.
 
 * [**Setup your AWS cloud subscription in OneLearn Lab on Demand**](/guides/cloud-slice/aws/aws-setup-cloud-sub-pool-in-lod.md) - Configure a subscription pool in Lab on Demand, for use with AWS cloud slice. 
 
@@ -16,7 +16,7 @@
 
 * [**Azure Resource Templates**](../guides/cloud-slice/microsoft-azure/cloud-slice-find-resource-templates.md) - How to find Azure Resource Manager templates for use with Microsoft Azure.
 
-* [**Azure Resource Template - Best Practices**](../lod/feature-focus/cloud-resource-templates/recommendations-and-best-practices.md) - Recommendations and best practices for Azure Resource templates
+* [**Azure Resource Template - Best Practices**](/lod/feature-focus/cloud-resource-templates/recommendations-and-best-practices.md) - Recommendations and best practices for Azure Resource templates
 
 * [**Create a an Azure Resource Template and Resource Group Configuration**](/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md) - Create a Resource Template and Configure it into a Resource Group
 
