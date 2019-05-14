@@ -56,7 +56,7 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
     
     `Set-LabVariable -Name firstName -Value John`
 
-    `Set-LabVariabl -Name lastName -Value Smith`
+    `Set-LabVariable -Name lastName -Value Smith`
 
 - **Sending Lab Notifications**
 
