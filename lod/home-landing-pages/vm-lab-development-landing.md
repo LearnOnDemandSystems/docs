@@ -6,7 +6,7 @@
 
 - [**IDLx Authoring Guide**](/guides/idl2/idlv2-authoring-guide-and-best-practice.md) - This document covers Markdown, lab instruction editor interface, uploading files into your lab, and many other topics to assist with authoring your IDLx lab.
 
-- [**Markdown User Guide**](/lod/lod-api/lod-api-class.md) - This document covers Markdown in detail, including syntax for all supported Markdown.
+- [**Markdown User Guide**](/guides/idl2/markdown-user-guide.md) - This document covers Markdown in detail, including syntax for all supported Markdown.
 
 ## Lab on Demand Configuration
 
