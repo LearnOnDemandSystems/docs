@@ -28,13 +28,13 @@
 
 * [**Cloud Slice Setup Guide**](/guides/cloud-slice/cloud-slice.md) - Comprehensive setup guide for configuring a Cloud Slice lab with Lab on Demand and Microsoft Azure or Amazon Web Services.
 
-* [**Create an Access Control Policy**](../lod/create-a-restriction-policy.md) - Create a Cloud Access Control Policy.
+* [**Create an Access Control Policy**](/lod/create-a-restriction-policy.md) - Create a Cloud Access Control Policy.
 
-* [**Replacement Tokens**](../lod/feature-focus/cloud-resource-templates/replacement-tokens.md) - Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat; replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.
+* [**Replacement Tokens**](/lod/feature-focus/cloud-resource-templates/replacement-tokens.md) - Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat; replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.
 
 ## Lab Instruction Authoring
 
-- [**IDLx Lab Development Best Practices**](../lod/idlx-development-best-practices.md) - This document covers best practices for IDLx lab development, to assist in creating a rich learning experience.
+- [**IDLx Lab Development Best Practices**](/lod/idlx-development-best-practices.md) - This document covers best practices for IDLx lab development, to assist in creating a rich learning experience.
 
 - [**IDLx Authoring Guide**](../guides/idl2/idlv2-authoring-guide-and-best-practice.md) - This document covers Markdown, lab instruction editor interface, uploading files into your lab, and many other topics to assist with authoring your IDLx lab.
 
