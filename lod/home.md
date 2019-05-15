@@ -14,21 +14,6 @@
    <a href="whats-new.md">What's New</a>
 </div>
 
-# To Get Started, Please Choose a Topic Below
-
-### [**Cloud Slice Lab Development**](/lod/home-landing-pages/cloud-slice-development-landing.md) 
-
-### [**Virtual Machine Lab Development**](/lod/home-landing-pages/vm-lab-development-landing.md) 
-
-### [**Performance Based Testing and Scoring**](/lod/home-landing-pages/pbt-and-scoring-landing.md) 
-
-### [**Lab on Demand Integration**](/lod/home-landing-pages/lod-integration-landing.md)
-
-### [**Lab on Demand Administration**](/lod/home-landing-pages/lod-admin-landing.md) 
-
-### [**A-Z Index**](/lod/home-landing-pages/a-z-index.md) 
-
-<!--
 # OneLearn Lab on Demand Help 
 
 Welcome to the OneLearn Lab on Demand platform!
@@ -114,8 +99,6 @@ Welcome to the OneLearn Lab on Demand platform!
 * [**Virtual Machine Based Lab Development - Best Practices**](/lod/vm-based-lab-build-best-practices.md) - Recommendations and best practices for cloud-hosted and datacenter-hosted virtual machines.
 
 - [**Custom UUID on VMware Virtual Machines**](uuid.md) - Assign a custom unique ID to a virtual machine hosted on a VMware host.
-
--->
 
 > ### Looking for more information?
 >
