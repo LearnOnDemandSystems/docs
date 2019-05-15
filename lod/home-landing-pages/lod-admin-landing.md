@@ -10,4 +10,4 @@
 
 * [**Organization RAM Limits**](/lod/org-max-ram.md) - Max RAM usage, max active lab instances and max RAM per lab profile.
 
-* [**Themes**](lod-themes.md) - Create themes to customize the look and feel of labs using CSS, and JavaScript. 
+* [**Themes**](/lod/lod-themes.md) - Create themes to customize the look and feel of labs using CSS, and JavaScript. 
