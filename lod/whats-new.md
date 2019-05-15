@@ -9,9 +9,15 @@
 
     - For VMware VMs, it is written to a txt file at C:\Users\Public\Documents\LabInstance.txt
 
+    This option is enabled on the virtual machines tab of a lab profile. 
+
+    ![](images/make-lab-instance-data-available-in-lab.png)
+
 **IDLx End Button**
 
 - The end button in IDLx labs is now shown at the bottom of the UI for single page lab instructions. This provides a more consistent experience in IDLx labs that have multiple pages of instructions or a single page of instructions. 
+
+    ![](images/end-button.png)
 
 **Lab Profile Max RAM**
 
