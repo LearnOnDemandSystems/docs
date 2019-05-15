@@ -128,6 +128,7 @@ With the Cloud Slice feature, LOD is able to support cloud learning at scale. Le
 
 -->
 
+<!--
 
 # To Get Started, Please Choose a Topic Below
 
@@ -143,6 +144,7 @@ With the Cloud Slice feature, LOD is able to support cloud learning at scale. Le
 
 ### [**A-Z Index**](/lod/home-landing-pages/a-z-index.md) 
 
+-->
 
 > ### Looking for more information?
 >
