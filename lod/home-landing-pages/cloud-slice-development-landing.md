@@ -10,11 +10,11 @@
 
 ## Microsoft Azure Cloud Slice Developemt
 
-* [**Azure Capacity Limitations**](../guides/cloud-slice/microsoft-azure/azure-capacity-limitations.md) - Azure resource capacity limitations, how to avoid them, and what to do if you run into capacity limitations with your Azure subscription.
+* [**Azure Capacity Limitations**](../../guides/cloud-slice/microsoft-azure/azure-capacity-limitations.md) - Azure resource capacity limitations, how to avoid them, and what to do if you run into capacity limitations with your Azure subscription.
 
-* [**Azure Resource Providers**](../guides/cloud-slice/microsoft-azure/azure-resource-providers.md) - Azure Resource Providers, and how to get the resources you need for your lab.
+* [**Azure Resource Providers**](../../guides/cloud-slice/microsoft-azure/azure-resource-providers.md) - Azure Resource Providers, and how to get the resources you need for your lab.
 
-* [**Azure Resource Templates**](../guides/cloud-slice/microsoft-azure/cloud-slice-find-resource-templates.md) - How to find Azure Resource Manager templates for use with Microsoft Azure.
+* [**Azure Resource Templates**](../../guides/cloud-slice/microsoft-azure/cloud-slice-find-resource-templates.md) - How to find Azure Resource Manager templates for use with Microsoft Azure.
 
 * [**Azure Resource Template - Best Practices**](../lod/feature-focus/cloud-resource-templates/recommendations-and-best-practices.md) - Recommendations and best practices for Azure Resource templates
 
