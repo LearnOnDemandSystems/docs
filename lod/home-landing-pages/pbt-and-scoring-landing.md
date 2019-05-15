@@ -4,7 +4,7 @@
 
 - [**IDLx Activities**](/lod/activities.md) - Activities fall into two broad categories: Questions and Automated. Questions are simply multiple choice or short answer questions. Automated Activities have a script configured to run against a cloud subscription or Windows-based virtual machines running on Hyper-V in the lab.
 
-* [**SSH Terminal Access**](terminal-access.md) - Configure virtual machines for SSH terminal access, to target virtual machines for activity based assessments. 
+* [**SSH Terminal Access**](/lod/terminal-access.md) - Configure virtual machines for SSH terminal access, to target virtual machines for activity based assessments. 
 
 ## Lab Instruction Authoring 
 
