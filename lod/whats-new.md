@@ -1,5 +1,38 @@
 # What's New in Lab On Demand
 
+## **Released May 11, 2019**
+
+**Expand Items Injected into VM Registry Key**
+
+- Allows replacement token data to be injected into virtual machines. Replacement tokens are now injected into virtual machines at the following locations on the VM:
+    - For Hyper-V VMs,  it is injected in Windows registry at Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Virtual Machine\External.
+
+    - For VMware VMs, it is written to a txt file at C:\Users\Public\Documents\LabInstance.txt
+
+    This option is enabled on the virtual machines tab of a lab profile. 
+
+    ![](images/make-lab-instance-data-available-in-lab.png)
+
+**IDLx End Button**
+
+- The end button in IDLx labs is now shown at the bottom of the UI for single page lab instructions. This provides a more consistent experience in IDLx labs that have multiple pages of instructions or a single page of instructions. 
+
+    ![](images/end-button.png)
+
+**Lab Profile Max RAM**
+
+- Organizations will have a default setting for max RAM of 50GB for lab configuration in LOD. Developers will receive a notification that they are unable to save a lab when creation and/or editing exceeds this default setting of 50GB RAM. If a lab requires modification above this threshold, please [submit a lab services ticket](https://www.learnondemandsystems.com/customer-support/) and our Lab Services team will assist upon approval by your LODS Account Executive and an understanding of your consumption projections.
+
+**Ability to Self-Publish Labs**
+
+- Organizations will be able to self-publish their labs series in LOD to the respective API consumer, including the LODS TMS.
+
+- This permission will be provided on-request from an administrator of your Organization.
+
+- Administrators can request this permission to be added to current LOD user accounts or request a new user account be created by submitting a support ticket.
+
+    Should your Organization choose to not align this permission with a user account in LOD, requests to publish lab series on your behalf will become a billable service.
+
 ## **Released May 3, 2019**
 
 **Lab Series - Max instances per lab user** 
