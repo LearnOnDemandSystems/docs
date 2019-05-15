@@ -82,7 +82,7 @@ Content can be integrated with various LMS systems (LTI Consumer). Below are som
 
 For launches, Lab On Demand supports LTI Basic Launch 1.1. 
 
-https://www.imsglobal.org/specs/ltiv1p1/implementation-guide
+[https://www.imsglobal.org/specs/ltiv1p1/implementation-guide](https://www.imsglobal.org/specs/ltiv1p1/implementation-guide)
 
 #### Required Values
 
