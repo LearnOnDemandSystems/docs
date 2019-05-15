@@ -6,6 +6,29 @@
    <a href="whats-new.md">What's New</a>
 </div>
 
+<style>
+    h1:first-of-type {margin-top:0;}
+</style>
+ 
+<div style="float:right; padding-top:5px; font-size:120%;">
+   <a href="whats-new.md">What's New</a>
+</div>
+
+# To Get Started, Please Choose a Topic Below
+
+### [**Cloud Slice Lab Development**](/lod/home-landing-pages/cloud-slice-development-landing.md) 
+
+### [**Virtual Machine Lab Development**](/lod/home-landing-pages/vm-lab-development-landing.md) 
+
+### [**Performance Based Testing and Scoring**](/lod/home-landing-pages/pbt-and-scoring-landing.md) 
+
+### [**Lab on Demand Integration**](/lod/home-landing-pages/lod-integration-landing.md)
+
+### [**Lab on Demand Administration**](/lod/home-landing-pages/lod-admin-landing.md) 
+
+### [**A-Z Index**](/lod/home-landing-pages/a-z-index.md) 
+
+<!--
 # OneLearn Lab on Demand Help 
 
 Welcome to the OneLearn Lab on Demand platform!
@@ -82,10 +105,6 @@ Welcome to the OneLearn Lab on Demand platform!
 
 * [**Organization RAM Limits**](org-max-ram.md) - Max RAM usage, max active lab instances and max RAM per lab profile. 
 
-<!--
-* [**Performance Based Testing (PBT)**](guides/pbt/lodpbtguide.md) - Configure Performance Based Testing on your lab profile.
--->
-
 * [**Shared Labs (a.k.a. Cyber-Range)**](/guides/sl/sharedlabs.md) - Configure a Shared Lab environment.
 
 * [**SSH Terminal Access**](terminal-access.md) - Configure virtual machines for SSH terminal access. 
@@ -95,32 +114,6 @@ Welcome to the OneLearn Lab on Demand platform!
 * [**Virtual Machine Based Lab Development - Best Practices**](/lod/vm-based-lab-build-best-practices.md) - Recommendations and best practices for cloud-hosted and datacenter-hosted virtual machines.
 
 - [**Custom UUID on VMware Virtual Machines**](uuid.md) - Assign a custom unique ID to a virtual machine hosted on a VMware host.
-
-<!--
-## Quick Starts
-
-Quick starts are a guided walkthrough, and allow you to fast track your learning experience, helping you get more value from the platform as quickly as possible.
-
-### Building your first Cloud Slice lab
-
-With the Cloud Slice feature, LOD is able to support cloud learning at scale. Learners are provided with a slice of a cloud subscription that they can use for the duration of their learning experience, limited however you configure it. This series of Quick Starts will walk you through every step required to create a feature-rich Cloud Slice lab.
-
-|Duration|Quick Start|
-|--:|:--|
-|20&nbsp;minutes|[Configure your Cloud Subscription for use with LOD](/lod/quick-starts/cloud-slice/configure-subscription.md)|
-|5&nbsp;minutes|[Add your Cloud Subscription into LOD](/lod/quick-starts/cloud-slice/add-subscription-into-lod.md)|
-|5&nbsp;minutes|[Create a Cloud Slice lab in 3 steps](/lod/quick-starts/cloud-slice/create.md)|
-|10&nbsp;minutes|[Write instructions for your Cloud Slice lab](/lod/quick-starts/cloud-slice/write-instructions.md)|
-|10&nbsp;minutes|[Provision cloud resources in your Cloud Slice lab](/lod/quick-starts/cloud-slice/provision-cloud-resources.md)|
-|10&nbsp;minutes|[Restrict what users can create in your Cloud Slice lab](/lod/quick-starts/cloud-slice/restriction-policies.md)|
-|20&nbsp;minutes|[Register Cloud Resource Providers](/lod/quick-starts/cloud-slice/cloud-resource-providers.md)|
-|10&nbsp;minutes|[Set up Cloud Slice lab for Scale](/lod/quick-starts/cloud-slice/scale.md)|
-
-### Deploying a Linux VM on Azure using a Resource Template
-
-|Duration|Quick Start|
-|--:|:--|
-|15&nbsp;minutes|[Deploy Linux on Azure using a Resource Template](/lod/quick-starts/linux/deploy-linux-template.md)|
 
 -->
 
