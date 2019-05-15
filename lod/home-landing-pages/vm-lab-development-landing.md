@@ -10,9 +10,9 @@
 
 ## Lab on Demand Configuration
 
-* [**Access Control Lists**](access-control-lists.md) - Controls which websites can be accessed in the lab, by using blacklists and whitelists. 
+* [**Access Control Lists**](/lod/access-control-lists.md) - Controls which websites can be accessed in the lab, by using blacklists and whitelists. 
 
-- [**Custom UUID on VMware Virtual Machines**](uuid.md) - Assign a custom unique ID to a virtual machine hosted on a VMware host.
+- [**Custom UUID on VMware Virtual Machines**](/lod/uuid.md) - Assign a custom unique ID to a virtual machine hosted on a VMware host.
 
 * [**Differencing Disk Rollback**](/lod/differencing-disks.md) - Rollback differencing disks to a previous configuration or add differencing disks back to a disk chain after they have been removed.
 
