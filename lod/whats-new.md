@@ -1,6 +1,5 @@
 # What's New in Lab On Demand
 
-<!--
 ## **Released May 11, 2019**
 
 **Expand Items Injected into VM Registry Key**
@@ -16,9 +15,17 @@
 
 **Lab Profile Max RAM**
 
-- Organization profiles now have a setting to limit the maximum amount of RAM that a lab belonging to the organization can have. This is enforced when editing lab and virtual machine profiles. If a change would cause a lab to exceed this limit, the operation is blocked. Changes that do not increase the amount of RAM, LOD will allow the update. Disabled lab profiles are not validated for max RAM. Re-enabling a lab will cause validation to occur and if the lab profile causes the RAM limit to be exceeded, LOD will not allow the lab profile to be re-enabled.
+- Organizations will have a default setting for max RAM of 50GB for lab configuration in LOD. Developers will receive a notification that they are unable to save a lab when creation and/or editing exceeds this default setting of 50GB RAM. If a lab requires modification above this threshold, please [submit a lab services ticket](https://www.learnondemandsystems.com/customer-support/) and our Lab Services team will assist upon approval by your LODS Account Executive and an understanding of your consumption projections.
 
--->
+**Ability to Self-Publish Labs**
+
+- Organizations will be able to self-publish their labs series in LOD to the respective API consumer, including the LODS TMS.
+
+- This permission will be provided on-request from an administrator of your Organization.
+
+- Administrators can request this permission to be added to current LOD user accounts or request a new user account be created by submitting a support ticket.
+
+    Should your Organization choose to not align this permission with a user account in LOD, requests to publish lab series on your behalf will become a billable service.
 
 ## **Released May 3, 2019**
 
