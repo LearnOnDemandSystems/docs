@@ -6,6 +6,7 @@ The OneLearn Lab on Demand Admin page consists of several tiles. Each tile conta
 
 In LOD, you will see different icons on buttons or links. These icons are associated with the appropriate action. For example, the magnifying glass icon is always associated with searching or finding a particular item, while the + (plus) icon is always associated with creating a new item. 
 
+<!--
 See the below table for an explanation of each icon. 
 
 |Action|Icon|
@@ -16,6 +17,8 @@ See the below table for an explanation of each icon.
 | **Delete** | <span class="lod-icon lod-delete"></span> |      
 | **Favorite on** | <span class="lod-icon lod-favorite-on"></span> |  
 | **Favorite off** | <span class="lod-icon lod-favorite-off"></span> |
+
+-->
 
 ### Admin Tiles 
 The tiles on the Admin page can be moved and re-ordered any way you would like. To move a tile, simply left-click and drag to the position on the Admin page where you would like the tile to be located. 
