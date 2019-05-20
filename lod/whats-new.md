@@ -8,7 +8,7 @@
  
 **Accessibility Improvements**
 - Notification dialogs can now be read by screen readers in labs.
-Keyboard navigation has been improved in IDLx labs, to make items in the instructions window accessible via keyboard navigation, including selecting task check boxes.
+- Keyboard navigation has been improved in IDLx labs, to make items in the instructions window accessible via keyboard navigation, including selecting task check boxes.
  
 **Information Circle Updates**
 - Information circles have been updated with additional information in lab profiles for the following items on the virtual machines tab:
@@ -20,9 +20,7 @@ Keyboard navigation has been improved in IDLx labs, to make items in the instruc
 **Lab Tag Search Filters**
 - Filters for Lab Tag and Lab Host tag have been added when using a lab profile search.
 
-
 **Update to SSH Command Proxy**
-
 - Updates and improvements have been made to the SSH command proxy in LOD, to allow ABA scripts to be used in newer versions of Linux.
 
 ## **Released May 11, 2019**
