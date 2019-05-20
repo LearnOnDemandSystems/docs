@@ -2,7 +2,7 @@
 
 Virtual machine (VM) profiles in Lab on Demand (LOD) are used in lab profiles. VMs in LOD use either Hyper-V or VMware as the hypervisor. 
 
-<!--
+## Supported Operating Systems
 For information which operating systems are supposed by Hyper-V and VMware, click below:
 
 ### Hyper-V
@@ -13,29 +13,29 @@ For information which operating systems are supposed by Hyper-V and VMware, clic
 
 ### VMware
 
-- [Windows](link)
-
--->
-
-[Basic Information](#basic-information)
-
-[Hard Disks](#hard-disks)
-
-[Network Adapters](#network-adapters)
-
-[SCSI Adapters](#scsi-adapters)
-
-[DVD-ROM Drives](#dvd-rom-drives)
-
-[Advanced](#advanced)
-
-[Internal Notes](#internal-notes)
+- [VMware Compatability Guide](https://www.vmware.com/resources/compatibility/search.php?deviceCategory=software&details=1&releases=428&productNames=15&page=1&display_interval=10&sortColumn=Partner&sortOrder=Asc&testConfig=16)
 
 ## Create
 
 To create a Virtual Machine profile, click **Create Virtual Machine profile**
 
 ![](images/create-vm-profile.png)
+
+To look at documentation for a specific section of a virtual machine profile, choose an option below:
+
+### [Basic Information](#basic-information)
+
+### [Hard Disks](#hard-disks)
+
+### [Network Adapters](#network-adapters)
+
+### [SCSI Adapters](#scsi-adapters)
+
+### [DVD-ROM Drives](#dvd-rom-drives)
+
+### [Advanced](#advanced)
+
+### [Internal Notes](#internal-notes)
 
 ### Basic Information
 
