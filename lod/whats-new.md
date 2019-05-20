@@ -41,6 +41,16 @@
 
     ![](images/retakes.png)
 
+**Korean Language Option**
+
+- Lab authors now have the option to author labs in Korean language. This only changes language in the lab client, and does not change the language of the lab instructions. 
+
+**Cloud Lab Improvements**
+
+- Azure AD Cleanup: items created by a lab user in Azure Active Directory such as a user group or app registration are now deleted when the lab is torn down.
+- Additional logic was implemented when an Azure active directory user cannot be created. LOD will attempt to create the user in Azure AD for 60 seconds, and then display an error message if the user cannot be created.
+- Azure and AWS health check services have been separated into different applications in Azure, instead of being part of the lab host service. This will allow for faster update cycles and fewer issues with performance bottlenecks, as well as resilience and ensured tear down.
+
 **Bug Fixes and Improvements**
 
 - Updated the text on the authentication tab when creating or editing a cloud subscription pool, and choosing AWS as the cloud platform for the cloud subscription pool. 
