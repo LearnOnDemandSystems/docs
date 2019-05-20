@@ -22,7 +22,8 @@ Keyboard navigation has been improved in IDLx labs, to make items in the instruc
 
 
 **Update to SSH Command Proxy**
-Updates and improvements have been made to the SSH command proxy in LOD, to allow ABA scripts to be used in newer versions of Linux.
+
+- Updates and improvements have been made to the SSH command proxy in LOD, to allow ABA scripts to be used in newer versions of Linux.
 
 ## **Released May 11, 2019**
 
