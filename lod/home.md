@@ -1,7 +1,3 @@
-<style>
-    h1:first-of-type {margin-top:0;}
-</style>
- 
 <!--
 # OneLearn Lab on Demand Help 
 
