@@ -2,7 +2,7 @@
 
 ## **Released May 23, 2019**
 
-**New Docuemtation**
+**New Documentation**
 
 - [Differencing Disk Capture](https://docs.learnondemandsystems.com/lod/capture-differencing-disks.md): Capture differencing disks from a running lab, to store changes made on the virtual machine in the lab.
 
