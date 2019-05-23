@@ -6,6 +6,8 @@
 
 * [**API Best Practices and How to Use an API Consumer**](/lod/how-to-use-api-consumer.md) - Guides through the steps to configure an API Consumer in LOD, as well as best practices. 
 
+* [**API Documentation**](/lod/lod-api/lod-api-main.md) - Documentation on how and when to use the Lab on Demand API.
+
 * [**Azure Capacity Limitations**](../../guides/cloud-slice/microsoft-azure/azure-capacity-limitations.md) - Azure resource capacity limitations, how to avoid them, and what to do if you run into capacity limitations with your Azure subscription.
 
 * [**Azure Resource Providers**](../../guides/cloud-slice/microsoft-azure/azure-resource-providers.md) - Azure Resource Providers, and how to get the resources you need for your lab.
@@ -49,8 +51,6 @@
 * [**Lab Interface Frequently Asked Questions**](/lod/lab-interface-faq.md) - Frequently asked questions about the Lab on Demand lab interface. 
 
 * [**Lab Network Restrictions**](/lod/lab-networks.md) - Overview of the networks available to labs and any network restrictions. 
-
-* [**Lab on Demand API Documentation**](/lod/lod-api/lod-api-main.md) - Documentation on how and when to use the Lab on Demand API.
 
 * [**Lab on Demand edX Integration**](../../guides/lti/lod-lti.md) - Integrate edX into your lab profile.
 
