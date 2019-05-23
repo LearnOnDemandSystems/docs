@@ -12,7 +12,7 @@ To capture a differencing disk:
 
 1. Launch the lab
 
-1. Log in to the VM and make any changes that you would like to persist for each lab instance of the lab. For example, softare installations and/or configurations.
+1. Log in to the VM and make any changes that you would like to persist for each lab instance of the lab. For example, software installations and/or configurations.
 
 1. In the running lab, click the gear icon at the top of the screen and click _Differencing Disks_. ![](images/gear-icon.png){25X25} 
 
