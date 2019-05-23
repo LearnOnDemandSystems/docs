@@ -129,9 +129,9 @@ With the Cloud Slice feature, LOD is able to support cloud learning at scale. Le
 
 ### [**Performance Based Testing and Scoring**](/lod/home-landing-pages/pbt-and-scoring-landing.md) 
 
-### [**Lab on Demand Integration**](/lod/home-landing-pages/lod-integration-landing.md)
+### [**Integration**](/lod/home-landing-pages/lod-integration-landing.md)
 
-### [**Lab on Demand Administration**](/lod/home-landing-pages/lod-admin-landing.md) 
+### [**Administration**](/lod/home-landing-pages/lod-admin-landing.md) 
 
 ### [**A-Z Index**](/lod/home-landing-pages/a-z-index.md) 
 
