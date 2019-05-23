@@ -1,5 +1,3 @@
-<style> h1:first-of-type {margin-top:20px !important;} body > .container-fluid.body-content {padding-left: 15px !important; padding-right: 15px !important;} footer {width: 100% !important;} </style>
-
 <!--
 # OneLearn Lab on Demand Help 
 
