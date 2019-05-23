@@ -18,13 +18,13 @@ To capture a differencing disk:
 
 1. A dialog window will appear with two options:
 
+    - **Create a new lab profile including my current differencing disks**: creates a new lab profile with an option to create new virtual machine(s), as well as an option to copy the instructions to the new lab profile.
+    
     ![](images/create-a-new-lab-diff-disk.png)
 
-    - **Create a new lab profile including my current differencing disks**: creates a new lab profile with an option to create new virtual machine(s), as well as an option to copy the instructions to the new lab profile.
+ - **Update virtual machines in this lab profile with my current differencing disks**: updates the VMs used in the lab with changes saved during the differencing disk capture.
    
     ![](images/update-vm-in-this-lab-diff-disk.png)
-
- - **Update virtual machines in this lab profile with my current differencing disks**: updates the VMs used in the lab with changes saved during the differencing disk capture.
 
 1. After selecting an option, click _Next_. 
 
