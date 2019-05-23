@@ -22,7 +22,7 @@ To capture a differencing disk:
     
     ![](images/create-a-new-lab-diff-disk.png)
 
- - **Update virtual machines in this lab profile with my current differencing disks**: updates the VMs used in the lab with changes saved during the differencing disk capture.
+    - **Update virtual machines in this lab profile with my current differencing disks**: updates the VMs used in the lab with changes saved during the differencing disk capture.
    
     ![](images/update-vm-in-this-lab-diff-disk.png)
 
