@@ -13,13 +13,9 @@ For information which operating systems are supposed by Hyper-V and VMware, clic
 
 ### VMware
 
-- [VMware Compatability Guide](https://www.vmware.com/resources/compatibility/search.php?deviceCategory=software&details=1&releases=428&productNames=15&page=1&display_interval=10&sortColumn=Partner&sortOrder=Asc&testConfig=16)
+- [VMware Compatibility Guide](https://www.vmware.com/resources/compatibility/search.php?deviceCategory=software&details=1&releases=428&productNames=15&page=1&display_interval=10&sortColumn=Partner&sortOrder=Asc&testConfig=16)
 
-## Create
-
-To create a Virtual Machine profile, click **Create Virtual Machine profile**
-
-![](images/create-vm-profile.png)
+## Create a Virtual Machine Profile
 
 To look at documentation for a specific section of a virtual machine profile, choose an option below:
 
@@ -37,17 +33,23 @@ To look at documentation for a specific section of a virtual machine profile, ch
 
 ### [Internal Notes](#internal-notes)
 
+To create a Virtual Machine profile, click **Create Virtual Machine profile** from the LOD Site Administration page.
+
+![](images/create-vm-profile.png)
+
 ### Basic Information
 
-1. **Name**: The display name of the VM
+1. **Name**: The display name of the VM.
 
 1. **Description**: Used to provide more information about the VM profile.
 
-1. **Series**: The lab series that VM will be available to. 
+1. **Series**: The lab series that VM profile will be available to. 
 
-1. **Organization**: The organization that the VM will be available to. 
+1. **Organization**: The organization that the VM profile will be available to. 
 
-1. **Platform**: Select the virtualization platform that the VM will use. Available platforms include: Hyper-V, vSphere, Azure and AWS. Each platform will have different options listed below. 
+1. **Platform**: Select the virtualization platform that the VM profile will use.
+
+    Available platforms include: Hyper-V, vSphere, Azure and AWS. Each platform will have different options listed below. 
 
    The next set of options on the basic information tab are different, based on the Platform used:
 
@@ -61,127 +63,144 @@ To look at documentation for a specific section of a virtual machine profile, ch
 
     #### Hyper-V
 
-    1. **Generation**:
+    - **Generation**: Select the generation of hypervisor the VM profile will use.
 
-    1. **Operating System**:
+        - Generation 1: provides the standard visual hardware to the virtual machine dating back to the original release of Hyper-V.
 
-    1. **Username**:
+        - Generation 2: provides support for new features such as Secure Boot, and PXE boot using a standard network adapter, while dropping support for legacy devices like IDE and floppy drives. Guest operating system must be running at least Windows Server 2012 or 64-bit versions of Windows 8. 
 
-    1. **Password**:
+    - **Operating System**: Enter the operating system that the VM will use.
 
-    1. **# Processors**:
+    - **Username**: Enter a username for the VM.
 
-    1. **RAM**:
+    - **Password**: Enter a password for the VM.
 
-    1. **Screen Width**:
+    - **# Processors**: Select the number of processors that the VM will use.
 
-    1. **Screen Height**:
+    - **RAM**: Enter the amount of RAM the VM will use. Ram can be specified in MB or GB.
 
-    1. **Boot Order**:
+    - **Screen Width**: Enter the screen width that the VM will use, measured in pixels.
 
-    1. **Enabled**:
+    - **Screen Height**: Enter the screen height that the VM will use, measured in pixels.
 
-    1. **Host Integration Enabled**:
+    - **Boot Order**: Configure the boot order of the VM. Selecting the up/down arrows moves items in boot order. The number beside the item designates it's order in the boot sequence.
 
-    1. **Use Enhanced Session Mode**:
+    - **Enabled**: Check to enable the VM profile for use in lab profiles.
 
-    1. **Enable Dynamic Screen Resizing**:
+    - **Host Integration Enabled**: Enables Hyper-V Integration Services on the VM. This includes time synchronization with the host, heartbeat detection and graceful shutdown.
 
-    1. **Enable Nested Virtualization**:
+    - **Use Enhanced Session Mode**: Enables a connection similar to an RDP connection, that allows for better performance with the HTML5 and Enhanced controllers. Enhanced session mode leverages guest services to enabled additional features such as: automatic VM logon, redirection of clipboard, audio, drives, devices, printers, and smart cards.
+
+    - **Enable Dynamic Screen Resizing**: Allows the VM to automatically resize it's resolution based on the size of the lab window. It is, however, limited to the resolution options available in the display settings of Windows. If the lab window is larger than the VM, there will be a gray space around the VM in the lab window. NOTE: this requires Integration services to be installed on the VM. This can be installed by clicking the gear icon at the top of a launched lab, and selecting _Install Integration Services_ and following the prompts.
+
+    - **Enable Nested Virtualization**: Allows the VM profile to perform nested virtualization and run another VM on the VM.
 
     #### vSphere
 
-    1. **Hardware Version**:
+    - **Hardware Version**: Select the hardware version that the VM will use. For more information about VMware hardware versions, read [VMware Hardware Versions](https://kb.vmware.com/s/article/1003746).
 
-    1. **Operating System**:
+    - **Operating System**: Select the operating system that the VM will use.
 
-    1. **Username**:
+    - **Username**: Enter a username for the VM.
+
+    - **Password**: Enter a password for the VM.
     
-    1. **Password**:
+    - **# Processors**: Select the number of processors that the Vm will use.
+
+    - **# Core Per Processor**: Select the number of cores per processor.
     
-    1. **# Processors**:
+    - **RAM**: Enter the amount of RAM the VM will use. RAM can be specified in MB or GB.
 
-    1. **# Core Per Processor**:
+    - **Video RAM**: Select the amount of video RAM the VM will use. Video RAM is specified in MB.
     
-    1. **RAM**:
+    - **Screen Width**: Enter the screen width that the VM will use, measured in pixels.
 
-    1. **Video RAM**:
+    - **Screen Height**: Enter the screen height that the VM will use, measured in pixels.
+
+    - **Enabled**: Check to enable the VM profile for use in lab profiles.
+
+    - **Host Integration Enabled**: This enables additional features on the VM, depending on if VMTools is installed on the VM. VMTools is installed on the VM in a launched lab, from the DVD drive drop-down menu on the Resources tab of the lab. VMTools must be added to the lab profile on the Removeable Media tab, for it to be available in the lab.
+
+        **With VMTools installed** it will enable: Improved visual performance of the VM, improved mouse performance, graceful shutdown and the ability to pixel-perfect resize the VM to fit the lab window.
     
-    1. **Screen Width**:
-    
-    1. **Screen Height**:
+       **Without VMTools installed** it will enable time synchronization with host. 
 
-    1. **Enabled**:
+    - **Enable Dynamic Screen Resizing**: 2 vCPU, 2048MB RAM, 32MB video RAM recommended.
 
-    1. **Host Integration Enabled**:
+    - **Enable Nested Virtualization**: Allows the VM profile to perform nested virtualization and run another VM on the VM.
 
-    1. **Use Enhanced Session Mode**:
+    - **Enable 3D Video**: Allows 3D video to be viewed on the VM. 64MB video RAM recommended.
 
-    1. **Enable Dynamic Screen Resizing**: 2 vCPU, 2048MB RAM, 32MB video RAM recommended.
-
-    1. **Enable Nested Virtualization**:
-
-    1. **Enable 3D Video**: 64MB video RAM recommended.
-
-    1. **Use EFI**:
+    - **Use EFI**: Enables Extensible Firmware Interface on the VM. This is most often used when it is necessary for EFI system partition is required for a VM's bootload to function.
 
     #### Azure
 
-    1. **Machine Type**:
+    - **Machine Type**: Select Azure SKU for the machine type that the VM will use. For more information about Azure virtual machines, read [Sizes for Windows Virtual Machines in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sizes).
 
-    1. **Operating System**:
+    - **Operating System**: Enter the operating system that the VM profile will use.
 
-    1. **Username**:
+    - **Username**: Enter a username for the VM.
 
-    1. **Password**:
+    - **Password**: Enter a password for the VM.
 
-    1. **Screen Width**:
+    - **Screen Width**: Enter the screen width that the VM will use, measured in pixels.
 
-    1. **Screen Height**:
+    - **Screen Height**: Enter the screen height that the VM will use, measured in pixels.
 
-     1. **Enabled**:
+    - **Enabled**: Check to enable the VM profile for use in lab profiles.
 
-    1. **Host Integration Enabled**:
+    - **Host Integration Enabled**: Enables Hyper-V Integration Services on the VM. This includes time synchronization with the host, heartbeat detection and graceful shutdown.
 
-    1. **Use Enhanced Session Mode**:
+    - **Use Enhanced Session Mode**: Enables a connection similar to an RDP connection, that allows for better performance with the HTML5 and Enhanced controllers. Enhanced session mode leverages guest services to enabled additional features such as: automatic VM logon, redirection of clipboard, audio, drives, devices, printers, and smart cards.
 
-    1. **Enable Dynamic Screen Resizing**:
+    - **Enable Dynamic Screen Resizing**: Allows the VM to automatically resize it's resolution based on the size of the lab window. It is, however, limited to the resolution options available in the display settings of Windows. If the lab window is larger than the VM, there will be a gray space around the VM in the lab window. NOTE: this requires Integration services to be installed on the VM. This can be installed by clicking the gear icon at the top of a launched lab, and selecting _Install Integration Services_ and following the prompts.
 
     ### AWS
 
-    1. **Machine Type**:
+    - **Machine Type**: Select the AWS SKU for the machine type the VM will use. For more information about AWS virtual machines, read [Amazon EC2 Pricing](https://aws.amazon.com/ec2/pricing/on-demand/).
 
-    1. **Machine Image**, **AWS Region**, **Image Owner Account**
+    - **Machine Image**, **AWS Region**, **Image Owner Account**
 
-    1. **Operating System**:
+     - **Operating System**: Enter the operating system that the VM profile will use.
 
-    1. **Username**:
+    - **Username**: Enter a username for the VM.
 
-    1. **Password**:
+    - **Password**: Enter a password for the VM.
 
-    1. **Screen Width**:
+    - **Screen Width**: Enter the screen width that the VM will use, measured in pixels.
 
-    1. **Screen Height**:
+    - **Screen Height**: Enter the screen height that the VM will use, measured in pixels.
 
-     1. **Enabled**:
+    - **Enabled**: Check to enable the VM profile for use in lab profiles.
 
-    1. **Host Integration Enabled**:
+   - **Host Integration Enabled**: Enables Hyper-V Integration Services on the VM. This includes time synchronization with the host, heartbeat detection and graceful shutdown.
 
-    1. **Use Enhanced Session Mode**:
+    - **Use Enhanced Session Mode**: Enables a connection similar to an RDP connection, that allows for better performance with the HTML5 and Enhanced controllers. Enhanced session mode leverages guest services to enabled additional features such as: automatic VM logon, redirection of clipboard, audio, drives, devices, printers, and smart cards.
 
-    1. **Enable Dynamic Screen Resizing**:
+    - **Enable Dynamic Screen Resizing**: Allows the VM to automatically resize it's resolution based on the size of the lab window. It is, however, limited to the resolution options available in the display settings of Windows. If the lab window is larger than the VM, there will be a gray space around the VM in the lab window. NOTE: this requires Integration services to be installed on the VM. This can be installed by clicking the gear icon at the top of a launched lab, and selecting _Install Integration Services_ and following the prompts.
 
 ### Hard Disks
 
-1. **Add Hard Disk**: Click to add a virtual hard disk for the VM to use. A new virtual hard disk (VHD) can be created, or an existing VHD can be used.
+**Add Hard Disk**: Click to add a virtual hard disk for the VM to use. A new virtual hard disk (VHD) can be created, or an existing VHD can be used.
 
 ### Network Adapters
 
-1. **Add Network Adapter**:
+**Add Network Adapter**: Click to add a network adapter, and configure adapter settings. 
+
+- **Specify ethernet (MAC) address**: Allows the MAC address to be set to a unique value, or generate a random MAC address.  
+
+- **Is legacy adapter**: Allows the network adapter to operate as a legacy adapter without a Hardware ID.
+
+- **Enable spoofing of MAC address**: Allows the network adapter's MAC address to be spoofed.
+
+- **Enable virtual LAN (VLAN) identification**: Allows a custom VLAN ID to be assigned.
+
+- **Monitoring mode**: Enables Hyper-v port mirroring, to monitor network traffic. Monitoring the source or destination traffic is supported.  
+
 
 ### SCSI Adapters
 
-1. **Add SCSI Adapter**:
+**Add SCSI Adapter**: allows a SCSI adapter to be added to the VM profile. Multiple SCSI adapters are supported. The first SCSI adapter has an ID of 0, and subsequent  SCSI adapters added to the VM profile will have an ID incremented by 1. 
 
 ### DVD ROM Drives
 
@@ -198,12 +217,18 @@ Available channels include:
 
 ### Advanced
 
-1. **UUID**:
+- **BIOS GUID**: this controls the BIOS GUID set within the virtual machine's configuration. The value should include the curly braces, e.g. {46486DC1-B2A6-456E-B091-9816D6F61F30}. Setting a custom BIOS GUID is optional and under normal circumstances, this does not need to be used and can be left blank.
 
-1. **Allow Disk Updates in Lab console**:
+- **UUID**: this controls the UUID set within the virtual machine's configuration. The UUID is a 128-bit integer. The 16 bytes of this value are separated by spaces, except for a dash between the eighth and ninth hexadecimal pairs. Setting a custom UUID is optional and under normal circumstances, this does not need to be used and can be left blank. An example UUID looks like this: `00 11 22 33 44 55 66 77-88 99 aa bb cc dd ee ff`.
 
-1. **Connect via Remote Desktop Connection (external to lab console)**:
+    For more information about setting a custom UUID, read [Custom UUID Documentation](/lod/uuid.md).
+
+- **Allow Disk Updates in Lab console**: This must be enabled for differencing disk capture or start states on the VM, in a lab.
+
+- **Connect via Remote Desktop Connection (external to lab console)**: allows the VM to be connected to by an RDP connection. This is used in conjunction with the _Has Virtual Machines Pool_ checkbox on the Virtual Machines tab of a lab profile. A VM profile is required for each concurrent user, otherwise each user will receive the same RDP file and only 1 user will be able to connect to the VM at a time. 
 
 ### Internal Notes
 
 This area is used to record notes, or additional information about the VM. This is useful if the VM has specific configurations, or if there are multiple users/authors that use the VM.
+
+[Back to top](#virtual-machine-profiles)

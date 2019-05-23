@@ -20,6 +20,10 @@
 
 * [**Lab Network Restrictions**](/lod/lab-networks.md) - Overview of the networks available to labs and any network restrictions. 
 
+* [**Lab Profile Creation and Explanation**](/lod/feature-focus/lab-profiles/create.md) - Lab profile creation, and explanation of lab profile configuration.
+
+* [**Lab Series Creation and Explanation**](/lod/lab-series.md) - Lab Series creation, and explanation of lab series configuration.
+
 * [**Life Cycle Actions**](/lod/life-cycle-actions.md) - Define actions to occur at certain times within the lab's life cycle, such as calling an external service when the lab builds, or sending a notification to the user when the lab is resumed. 
 
 * [**Shared Labs (a.k.a. Cyber-Range)**](/guides/sl/sharedlabs.md) - Configure a Shared Lab environment.
@@ -27,3 +31,6 @@
 * [**SSH Terminal Access**](/lod/terminal-access.md) - Configure virtual machines for SSH terminal access. 
 
 * [**Virtual Machine Based Lab Development - Best Practices**](/lod/vm-based-lab-build-best-practices.md) - Recommendations and best practices for cloud-hosted and datacenter-hosted virtual machines.
+
+* [**Virtual Machine Profile Creation and Explanation**](/lod/vm-based-lab-build-best-practices.md) - Virtual machine profile creation, and explanation of virtual machine profile configuration.
+
