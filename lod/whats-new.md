@@ -4,11 +4,9 @@
 
 **New Docuemtation**
 
-**[Differencing Disk Capture](https://docs.learnondemandsystems.com/lod/capture-differencing-disks.md)**
-- Capture differencing disks from a running lab, to store changes made on the virtual machine in the lab.
+- [Differencing Disk Capture](https://docs.learnondemandsystems.com/lod/capture-differencing-disks.md): Capture differencing disks from a running lab, to store changes made on the virtual machine in the lab.
 
-**[Virtual Machine Profile Creation and Explanation](https://docs.learnondemandsystems.com/lod/vm-profiles.md)**
-- Virtual machine profile creation, and explanation of virtual machine profile configuration.
+- [Virtual Machine Profile Creation and Explanation](https://docs.learnondemandsystems.com/lod/vm-profiles.md): Virtual machine profile creation, and explanation of virtual machine profile configuration.
 
 ## **Released May 17, 2019**
 
