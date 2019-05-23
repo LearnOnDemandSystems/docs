@@ -1,3 +1,11 @@
+<style>
+    h1:first-of-type {margin-top:0;}
+</style>
+ 
+<div style="float:right; padding-top:5px; font-size:120%;">
+   <a href="whats-new.md">What's New</a>
+</div>
+
 <!--
 # OneLearn Lab on Demand Help 
 
