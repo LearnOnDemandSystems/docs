@@ -32,5 +32,5 @@
 
 * [**Virtual Machine Based Lab Development - Best Practices**](/lod/vm-based-lab-build-best-practices.md) - Recommendations and best practices for cloud-hosted and datacenter-hosted virtual machines.
 
-* [**Virtual Machine Profile Creation and Explanation**](/lod/added vm-profiles.md) - Virtual machine profile creation, and explanation of virtual machine profile configuration.
+* [**Virtual Machine Profile Creation and Explanation**](/lod/vm-profiles.md) - Virtual machine profile creation, and explanation of virtual machine profile configuration.
 
