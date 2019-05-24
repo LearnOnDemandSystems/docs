@@ -96,15 +96,51 @@ To use network features, such as external internet access or communication betwe
 
     - **Wait for heartbeat before displaying to user**: When this is enabled, the lab client will not display the lab to the user until the virtual machine reports a heartbeat to the virtualization platform. This is useful if you want to prevent the user from accessing the lab before critical machines are up and running. 
     
-        Note: this feature requires the VM to have Hyper-V integration services installed on Hyper-V VMs, and VMTools installed on a vSphere VM. Windows operating systems starting with WIndows 10 and Server 2016 have Hyper-V integration services installed by default. Other operting systems require them to be installed. For more information, please see the [Hyper-V Integration Services Documentation](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/integration-services).
+        **Note**: this feature requires the VM to have Hyper-V integration services installed on Hyper-V VMs, and VMware Tools installed on a vSphere VM. Windows operating systems starting with Windows 10 and Server 2016 have Hyper-V integration services installed by default. Other operating systems require them to be installed. 
+        
+        - For more information Hyper-V Integration Services, please see the [Hyper-V Integration Services Documentation](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/integration-services).
+
+        - For more information about VMware Tools, please see the [VMware Tools Documentation](https://docs.vmware.com/en/VMware-Tools/).
 
     - **Synchronize system time with host**: synchronizes the VM system time with the time on the host that the VM is running on. 
 
-    - **Set initial system time** (available on vSphere only): Allows you to set the date and time that the VM will launch at. This can be used in conjuction with _Synchronize system time with host_ to freeze the date and time.
+    - **Set initial system time** (available on vSphere only): Allows you to set the date and time that the VM will launch at. This can be used in conjunction with _Synchronize system time with host_ to freeze the date and time.
 
-    - **Allow user to revert to initial state**: Allows the user to revert to the initial state that the lab was lanched at. The user can roll back the VM no matter what has been done in the lab instance. This option is found in the Commands menu (lightning bolt icon) in the lab. 
+    - **Allow user to revert to initial state**: Allows the user to revert to the initial state that the lab was launched at. The user can roll back the VM no matter what has been done in the lab instance. This option is found in the Commands menu (lightning bolt icon) in the lab. 
 
-    - **Make lab instance data available instide virtual machine**:
+    - **Make lab instance data available inside virtual machine**: When this option is enabled, lab instance data will be available in the virtual machine. The location varies depending on the platform used (Hyper-v or vSphere):
+
+        - Hyper-V: In Windows registry: `HKLM\SOFTWARE\Microsoft\Virtual Machine\External`.
+
+        - vSphere: 
+        
+            On Windows-based systems: `C:\Users\Public\Documents\LabInstance.txt`.
+
+            On Unix-based systems: `/tmp/labinstance`.
+
+        All @lab token names and values will be included, as well as the following legacy items:
+
+        - Lab Instance ID
+
+        - Lab Profile ID
+
+        - Virtual Machine Profile ID
+
+        - User ID
+
+        - External User ID (if launched via API)
+
+        - Username
+
+        - E-mail
+
+        - First Name
+
+        - Last Name
+
+        - Tag (an optional value that can be passed in via the Launch API)
+
+        **Note** that this will only work for if Hyper-V Integration Services or VMware Tools are installed. Additionally, on vSphere VMs, you must ensure that the user credentials in the virtual machine profile are correct (they are used to initiate the file creation in the VM).
 
     - **Resume Order**: Used when resuming from save and launching from a start state.
 
