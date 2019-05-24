@@ -88,7 +88,7 @@ To use network features, such as external internet access or communication betwe
 
     - **Default Selection**: Sets the VM to be the default VM selected in the lab. This is the VM that will display when the lab is launched. 
 
-    - **Connect to terminal**: Hides the desktop UI and allows the VM to be connected to via a terminal. For more information, read [Terminal Access](../lod/terminal-access.md).
+    - **Connect to terminal**: Hides the desktop UI and allows the VM to be connected to via a terminal. For more information, read [Terminal Access](/lod/terminal-access.md).
 
     - **Start Automatically**: Enables the VM to start automatically when the lab is launched. 
 
