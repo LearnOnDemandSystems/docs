@@ -142,7 +142,7 @@ To use network features, such as external internet access or communication betwe
 
         - Tag (an optional value that can be passed in via the Launch API)
 
-        **Note** that this will only work for if Hyper-V Integration Services or VMware Tools are installed. Additionally, on vSphere VMs, you must ensure that the user credentials in the virtual machine profile are correct (they are used to initiate the file creation in the VM).
+            **Note** that this will only work for if Hyper-V Integration Services or VMware Tools are installed. Additionally, on vSphere VMs, you must ensure that the user credentials in the virtual machine profile are correct (they are used to initiate the file creation in the VM).
 
     - **Resume Order**: Used when resuming from save and launching from a start state.
 
