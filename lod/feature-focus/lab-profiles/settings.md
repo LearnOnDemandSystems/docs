@@ -110,7 +110,9 @@ To use network features, such as external internet access or communication betwe
 
     - **Make lab instance data available inside virtual machine**: When this option is enabled, lab instance data will be available in the virtual machine. The location varies depending on the platform used (Hyper-v or vSphere):
 
-        - Hyper-V: In Windows registry: `HKLM\SOFTWARE\Microsoft\Virtual Machine\External`.
+        - Hyper-V: 
+        
+            On Windows registry: `HKLM\SOFTWARE\Microsoft\Virtual Machine\External`.
 
         - vSphere: 
         
