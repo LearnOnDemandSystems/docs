@@ -84,8 +84,6 @@ To use network features, such as external internet access or communication betwe
 
 4. After a virtual machine profile has been added, the following options are available:
 
-    ### Hyper-V
-
     - **Visible to Student**: Allows the student to view and select the virtual machine from the resources tab.
 
     - **Default Selection**: Sets the VM to be the default VM selected in the lab. This is the VM that will display when the lab is launched. 
