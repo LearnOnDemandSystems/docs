@@ -82,6 +82,44 @@ To use network features, such as external internet access or communication betwe
 
 3. **Has Virtual machine Pool:** A pool of unique virtual machine profiles can be created, to be issued to individual users. A single pool member will never be used by two different users simultaneously. This is useful for to ensure that a machine or set of machines is unique in the world at any given point in time. **If your virtual machine will be identical for all users, you do not need a pool.** It is important to note that you can only have as many concurrent users as you have pool members. This can greatly reduce the scalability of the lab, so ensure you create a sufficient pool depth to accommodate the peak number of anticipated concurrent users.
 
+4. After a virtual machine profile has been added, the following options are available:
+
+    ### Hyper-V
+
+    - **Visible to Student**: Allows the student to view and select the virtual machine from the resources tab.
+
+    - **Default Selection**: Sets the VM to be the default VM selected in the lab. This is the VM that will display when the lab is launched. 
+
+    - **Connect to terminal**: Hides the desktop UI and allows the VM to be connected to via a terminal. For more information, read [Terminal Access](../../lod/terminal-access.md).
+
+    - **Start Automatically**: Enables the VM to start automatically when the lab is launched. 
+
+        - **Startup Delay**: Enter that amount of delay for the VM to start, measured in seconds. 
+
+    - **Wait for heartbeat before displaying to user**: When this is enabled, the lab client will not display the lab to the user until the virtual machine reports a heartbeat to the virtualization platform. This is useful if you want to prevent the user from accessing the lab before critical machines are up and running. 
+    
+        Note: this feature requires the VM to have Hyper-V integration services installed on Hyper-V VMs, and VMTools installed on a vSphere VM. Windows operating systems starting with WIndows 10 and Server 2016 have Hyper-V integration services installed by default. Other operting systems require them to be installed. For more information, please see the [Hyper-V Integration Services Documentation](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/integration-services).
+
+    - **Synchronize system time with host**: synchronizes the VM system time with the time on the host that the VM is running on. 
+
+    - **Set initial system time** (available on vSphere only): Allows you to set the date and time that the VM will launch at. This can be used in conjuction with _Synchronize system time with host_ to freeze the date and time.
+
+    - **Allow user to revert to initial state**: Allows the user to revert to the initial state that the lab was lanched at. The user can roll back the VM no matter what has been done in the lab instance. This option is found in the Commands menu (lightning bolt icon) in the lab. 
+
+    - **Make lab instance data available instide virtual machine**:
+
+    - **Resume Order**: Used when resuming from save and launching from a start state.
+
+    - **Resume Delay**: the amount of delay for the VM to start, after resuming a saved lab. 
+
+    - **Floppy Drive**: If removeable media is added to the lab profile, select floppy media in the drop-down to have that media loaded when the VM starts. 
+
+    - **DVD Drive**: If removeable media is added to the lab profile, select DVD media in the drop-down to have that media loaded when the VM starts.
+
+    - **Network Adapter**: If a network has been configured in the Networks tab of the lab profile, select the network that will be available to the VM in the lab. 
+
+        - **Visible to student**: Checking this box allows the network to be visible to the student. If this box is not checked, the network will not be visible to the student in the lab. 
+
 ## Removable Media
 
 1. **Add Removable Media:** Click to add removable Media to the lab profile. The removable media must already be created to add it to the lab profile using this button.
