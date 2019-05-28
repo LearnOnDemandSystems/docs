@@ -135,8 +135,7 @@
     </div>
   </div>
   <div class="moreInfo">
-    Looking for more information?
-    <br />
+    <span class="moreInfo_header">Looking for more information?</span>
     If you've already read through all of the documentation that is available on a topic, and you are still looking for more        information, or have questions, check out the resources available to you on our <a href="/contact-us.md")Contact Us</a> page.
   </div>
 </div>
