@@ -4,9 +4,9 @@
 
 **AWS Improvments**
 
-- Applied a minor fix for a scenario where manged AWS virtual machines could trigger the creation of clous slice roles. This was done to prevent permission errors when launching a lab that uses an AWS managed VM.
+![](images/aws-logo.png){100x100}
 
-    ![](images/aws-logo.png){150x150}
+- Applied a minor fix for a scenario where manged AWS virtual machines could trigger the creation of clous slice roles. This was done to prevent permission errors when launching a lab that uses an AWS managed VM.
 
 **API Documentation Link**
 
