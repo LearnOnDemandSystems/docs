@@ -12,7 +12,7 @@
 
 <div class="cardContainer">
 
-<div class="cloudSlice card">
+<div class="cloudSlice cardContent">
 
 ### [**Cloud Slice Lab Development**]
 
@@ -30,7 +30,7 @@
 
 <div class="cardContainer">
 
-<div class="vmLabDev card">
+<div class="vmLabDev cardContent">
 
 ### [**Virtual Machine Lab Development**]
 
@@ -48,7 +48,7 @@
 
 <div class="cardContainer">
 
-<div class="pbt_scoring card">
+<div class="pbt_scoring cardContent">
 
 ### [**Performance Based Testing and Scoring**]
 
@@ -66,7 +66,7 @@
 
 <div class="cardContainer">
 
-<div class="lodIntegration card">
+<div class="lodIntegration cardContent">
 
 ### [**Lab on Demand Integration**]
 
@@ -84,7 +84,7 @@
 
 <div class="cardContainer">
 
-<div class="lod_admin card">
+<div class="lod_admin cardContent">
 
 ### [**Lab on Demand Administration**]
 
@@ -102,7 +102,7 @@
 
 <div class="cardContainer">
 
-<div class="azIndex card">
+<div class="azIndex cardContent">
 
 ### [**A-Z Index**]
 
