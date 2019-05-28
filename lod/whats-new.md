@@ -1,5 +1,22 @@
 # What's New in Lab On Demand
 
+## **Released May 24, 2019**
+
+**AWS Improvments**
+
+- Applied a minor fix for a scenario where manged AWS virtual machines could trigger the creation of clous slice roles. This was done to prevent permission errors when launching a lab that uses an AWS managed VM.
+
+**API Documentation Link**
+
+- The API documentation link on the LOD admin homepage now points to the [API documentation in the public documentation](/lod/lod-api/lod-api-main.md), instead of the older internally hosted API documentation. This was done to keep API documentation consisten, when accessed from multiple locations. If you have the API documentation bookmarked, you will be redirected to the new location. 
+
+<!--
+**Lab Client Service**
+
+- A new set of backend services have been deployed for the lab delivery front-end. This was done to improve platform performance, as well as scalability improvements. **This will not change the behavior or features available in any labs**.
+
+-->
+
 ## **Released May 23, 2019**
 
 **New Documentation**
