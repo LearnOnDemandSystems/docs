@@ -5,65 +5,29 @@
 # Welcome to the Lab on Demand Help Community
 
 <div class="categories">
-  
-## Categories
-
-<div class="cardsContainer">
-
-<div class="cardContainer">
-
-<div class="cloudSlice cardContent">
-  
-<div class="cardHeader">Cloud Slice Lab Development</div>
-
-<div class="category">
-  
-<a href="/guides/cloud-slice/aws/aws-cloud-slice-setup.md" class="categoryThread">
-  
-<span class="categoryTitle">
-  
-Enable Cloud Slice Support in AWS
-
-</span>
-
-</a>
- 
-</div>
- 
-<div class="category">
-  
-<a href="/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md" class="categoryThread">
-  
-<span class="categoryTitle">
-  
-Setup your Azure cloud subscription in OneLearn Lab on Demand
-
-</span>
-
-</a>
- 
-</div>
-
-<div class="category">
-  
-<a href="/guides/cloud-slice/cloud-slice.md" class="categoryThread">
-  
-<span class="categoryTitle">
-  
-Cloud Slice Setup Guide
-
-</span>
-
-</a>
- 
-</div>
-
-<div class="viewAll">View all</div>
-
-</div>
-
-</div>
-
+  <div class="categoriesHeader">Categories</div>
+  <div class="cardsContainer">
+    <div class="cardContainer">
+      <div class="cloudSlice cardContent">
+        <div class="cardHeader">Cloud Slice Lab Development</div>
+        <div class="category">
+          <a href="/guides/cloud-slice/aws/aws-cloud-slice-setup.md" class="categoryThread">
+            <span class="categoryTitle">Enable Cloud Slice Support in AWS</span>
+          </a>
+        </div>
+        <div class="category"> 
+          <a href="/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md" class="categoryThread">
+            <span class="categoryTitle">Setup your Azure cloud subscription in OneLearn Lab on Demand</span>
+          </a>
+        </div>
+        <div class="category">  
+          <a href="/guides/cloud-slice/cloud-slice.md" class="categoryThread">
+            <span class="categoryTitle">Cloud Slice Setup Guide</span>
+          </a>
+        </div>
+        <div class="viewAll">View all</div>
+      </div>
+    </div>
 <div class="cardContainer">
 
 <div class="vmLabDev cardContent">
