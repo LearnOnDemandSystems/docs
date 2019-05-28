@@ -25,7 +25,7 @@
             <span class="categoryTitle">Cloud Slice Setup Guide</span>
           </a>
         </div>
-        <div class="viewAll">View all</div>
+        <div class="viewAll"><a class="viewAllLink">View all</a></div>
       </div>
     </div>
     <div class="cardContainer">
@@ -46,7 +46,7 @@
             <span class="categoryTitle">Lab Network Restrictions</span>
           </a>
         </div>
-        <div class="viewAll">View all</div>
+        <div class="viewAll"><a class="viewAllLink">View all</a></div>
       </div>
     </div>
     <div class="cardContainer">
@@ -67,7 +67,7 @@
             <span class="categoryTitle">IDLx Authoring Guide</span>
           </a>
         </div>
-        <div class="viewAll">View all</div>
+        <div class="viewAll"><a class="viewAllLink">View all</a></div>
       </div>
     </div>
     <div class="cardContainer">
@@ -88,7 +88,7 @@
             <span class="categoryTitle">Lab on Demand API Documentation</span>
           </a>
         </div>
-        <div class="viewAll">View all</div>
+        <div class="viewAll"><a class="viewAllLink">View all</a></div>
       </div>
     </div>
     <div class="cardContainer">
@@ -109,7 +109,7 @@
             <span class="categoryTitle">Lab Interface Frequently Asked Questions</span>
           </a>
         </div>
-        <div class="viewAll">View all</div>
+        <div class="viewAll"><a class="viewAllLink">View all</a></div>
       </div>
     </div>
     <div class="cardContainer">
@@ -130,7 +130,7 @@
             <span class="categoryTitle">API Best Practices and How to Use an API Consumer</span>
           </a>
         </div>
-        <div class="viewAll">View all</div>
+        <div class="viewAll"><a class="viewAllLink">View all</a></div>
       </div>
     </div>
   </div>
