@@ -12,7 +12,7 @@
         <div class="cardHeader">Cloud Slice Lab Development</div>
         <div class="category">
           <a href="/guides/cloud-slice/aws/aws-cloud-slice-setup.md" class="categoryThread">
-            <i class="material-icons orange">help</i>
+            <i class="material-icons light-orange">help</i>
             <span class="categoryTitle">Enable Cloud Slice Support in AWS</span>
           </a>
         </div>
@@ -24,7 +24,7 @@
         </div>
         <div class="category">  
           <a href="/guides/cloud-slice/cloud-slice.md" class="categoryThread">
-            <i class="material-icons orange">help</i>
+            <i class="material-icons light-orange">help</i>
             <span class="categoryTitle">Cloud Slice Setup Guide</span>
           </a>
         </div>
@@ -36,7 +36,7 @@
         <div class="cardHeader">Virtual Machine Lab Development</div>
         <div class="category">
           <a href="../lod/idlx-development-best-practices.md" class="categoryThread">
-            <i class="material-icons green">help</i>
+            <i class="material-icons light-green">help</i>
             <span class="categoryTitle">IDLx Lab Development Best Practices</span>
           </a>
         </div>
@@ -48,7 +48,7 @@
         </div>
         <div class="category">
           <a href="/lod/lab-networks.md" class="categoryThread">
-            <i class="material-icons green">help</i>
+            <i class="material-icons light-green">help</i>
             <span class="categoryTitle">Lab Network Restrictions</span>
           </a>
         </div>
@@ -60,7 +60,7 @@
         <div class="cardHeader">Performance Based Testing and Scoring</div>
         <div class="category">
           <a href="/lod/activities.md" class="categoryThread">
-            <i class="material-icons blue">help</i>
+            <i class="material-icons light-blue">help</i>
             <span class="categoryTitle">IDLx Activities</span>
           </a>
         </div>
@@ -72,7 +72,7 @@
         </div>
         <div class="category">
           <a href="/guides/idl2/idlv2-authoring-guide-and-best-practice.md" class="categoryThread">
-            <i class="material-icons blue">help</i>
+            <i class="material-icons light-blue">help</i>
             <span class="categoryTitle">IDLx Authoring Guide</span>
           </a>
         </div>
@@ -84,19 +84,19 @@
         <div class="cardHeader">Lab on Demand Integration</div>
         <div class="category">
           <a href="/lod/lab-on-demand-lti-integration.md" class="categoryThread">
-            <i class="material-icons green">help</i>
+            <i class="material-icons light-yellow">help</i>
             <span class="categoryTitle">LTI Integration</span>
           </a>
         </div>
         <div class="category">
           <a href="/guides/github-integration/github-integration.md" class="categoryThread">
-            <i class="material-icons green">help</i>
+            <i class="material-icons yellow">help</i>
             <span class="categoryTitle">GitHub Integration</span>
           </a>
         </div>
         <div class="category">
           <a href="/lod/lod-api/lod-api-main.md" class="categoryThread">
-            <i class="material-icons green">help</i>
+            <i class="material-icons light-yellow">help</i>
             <span class="categoryTitle">Lab on Demand API Documentation</span>
           </a>
         </div>
@@ -108,7 +108,7 @@
         <div class="cardHeader">Lab on Demand Administration</div>
         <div class="category">
           <a href="/lod/feature-focus/lod-experience.md" class="categoryThread">
-            <i class="material-icons grey">help</i>
+            <i class="material-icons light-grey">help</i>
             <span class="categoryTitle">Introduction to Lab on Demand UI</span>
           </a>
         </div>
@@ -120,7 +120,7 @@
         </div>
         <div class="category">
           <a href="/lod/lab-interface-faq.md" class="categoryThread">
-            <i class="material-icons grey">help</i>
+            <i class="material-icons light-grey">help</i>
             <span class="categoryTitle">Lab Interface Frequently Asked Questions</span>
           </a>
         </div>
@@ -132,19 +132,19 @@
         <div class="cardHeader">A-Z Index</div>
         <div class="category">
           <a href="access-control-lists.md" class="categoryThread">
-            <i class="material-icons orange">help</i>
+            <i class="material-icons light-purple">help</i>
             <span class="categoryTitle">Access Control Lists</span>
           </a>
         </div>
         <div class="category">
           <a href="/lod/aws-capabilities.md" class="categoryThread">
-            <i class="material-icons orange">help</i>
+            <i class="material-icons purple">help</i>
             <span class="categoryTitle">Amazon Web Services API Capabilities</span>
           </a>
         </div>
         <div class="category">
           <a href="/lod/how-to-use-api-consumer.md" class="categoryThread">
-            <i class="material-icons orange">help</i>
+            <i class="material-icons light-purple">help</i>
             <span class="categoryTitle">API Best Practices and How to Use an API Consumer</span>
           </a>
         </div>
