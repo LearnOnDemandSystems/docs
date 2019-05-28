@@ -36,19 +36,19 @@
         <div class="cardHeader">Virtual Machine Lab Development</div>
         <div class="category">
           <a href="../lod/idlx-development-best-practices.md" class="categoryThread">
-            <i class="material-icons light-green">settings_system_daydream</i>
+            <i class="material-icons light-green">input</i>
             <span class="categoryTitle">IDLx Lab Development Best Practices</span>
           </a>
         </div>
         <div class="category">
           <a href="/lod/docker.md" class="categoryThread">
-            <i class="material-icons green">settings_system_daydream</i>
+            <i class="material-icons green">input</i>
             <span class="categoryTitle">Docker Support</span>
           </a>
         </div>
         <div class="category">
           <a href="/lod/lab-networks.md" class="categoryThread">
-            <i class="material-icons light-green">settings_system_daydream</i>
+            <i class="material-icons light-green">input</i>
             <span class="categoryTitle">Lab Network Restrictions</span>
           </a>
         </div>
