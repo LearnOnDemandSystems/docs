@@ -4,15 +4,15 @@
  
 # Welcome to the Lab on Demand Help Community
 
-<div id="categories">
+<div class="categories">
   
 ## Categories
 
-<div id="cardsContainer">
+<div class="cardsContainer">
 
-<div id="cloudSlice_cardContainer">
+<div class="cardContainer">
 
-<div id="cloudSlice_card">
+<div class="cloudSlice card">
 
 ### [**Cloud Slice Lab Development**]
 
@@ -28,9 +28,9 @@
 
 </div>
 
-<div id="vmLabDev_cardContainer">
+<div class="cardContainer">
 
-<div id="vmLabDev_card">
+<div class="vmLabDev card">
 
 ### [**Virtual Machine Lab Development**]
 
@@ -46,9 +46,9 @@
 
 </div>
 
-<div id="pbt_scoring_cardContainer">
+<div class="cardContainer">
 
-<div id="pbt_scoring_card">
+<div class="pbt_scoring card">
 
 ### [**Performance Based Testing and Scoring**]
 
@@ -64,9 +64,9 @@
 
 </div>
 
-<div id="lodIntegration_cardContainer">
+<div class="cardContainer">
 
-<div id="lodIntegration_card">
+<div class="lodIntegration card">
 
 ### [**Lab on Demand Integration**]
 
@@ -82,9 +82,9 @@
 
 </div>
 
-<div id="lod_admin_cardContainer">
+<div class="cardContainer">
 
-<div id="lod_admin_card">
+<div class="lod_admin card">
 
 ### [**Lab on Demand Administration**]
 
@@ -100,9 +100,9 @@
 
 </div>
 
-<div id="azIndex_cardContainer">
+<div class="cardContainer">
 
-<div id="azIndex_card">
+<div class="azIndex card">
 
 ### [**A-Z Index**]
 
