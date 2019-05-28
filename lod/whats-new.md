@@ -6,6 +6,8 @@
 
 - Applied a minor fix for a scenario where manged AWS virtual machines could trigger the creation of clous slice roles. This was done to prevent permission errors when launching a lab that uses an AWS managed VM.
 
+    ![](images/aws-logo.png){150x150}
+
 **API Documentation Link**
 
 - The API documentation link on the LOD admin homepage now points to the [API documentation in the public documentation](/lod/lod-api/lod-api-main.md), instead of the older internally hosted API documentation. This was done to keep API documentation consisten, when accessed from multiple locations. If you have the API documentation bookmarked, you will be redirected to the new location. 
