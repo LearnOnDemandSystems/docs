@@ -13,16 +13,52 @@
 <div class="cardContainer">
 
 <div class="cloudSlice cardContent">
+  
+<div class="cardHeader">Cloud Slice Lab Development</div>
 
-### [**Cloud Slice Lab Development**]
+<div class="category">
+  
+<a href="/guides/cloud-slice/aws/aws-cloud-slice-setup.md" class="categoryThread">
+  
+<span class="categoryTitle">
+  
+Enable Cloud Slice Support in AWS
 
-* [**Enable Cloud Slice Support in AWS**](../../guides/cloud-slice/aws/aws-cloud-slice-setup.md)
+</span>
 
-* [**Setup your Azure cloud subscription in OneLearn Lab on Demand**](/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md)
+</a>
+ 
+</div>
+ 
+<div class="category">
+  
+<a href="/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md" class="categoryThread">
+  
+<span class="categoryTitle">
+  
+Setup your Azure cloud subscription in OneLearn Lab on Demand
 
-* [**Cloud Slice Setup Guide**](/guides/cloud-slice/cloud-slice.md)
+</span>
 
-### [**View all**]
+</a>
+ 
+</div>
+
+<div class="category">
+  
+<a href="/guides/cloud-slice/cloud-slice.md" class="categoryThread">
+  
+<span class="categoryTitle">
+  
+Cloud Slice Setup Guide
+
+</span>
+
+</a>
+ 
+</div>
+
+<div class="viewAll">View all</div>
 
 </div>
 
@@ -32,15 +68,51 @@
 
 <div class="vmLabDev cardContent">
 
-### [**Virtual Machine Lab Development**]
+<div class="cardHeader">Virtual Machine Lab Development</div>
 
-- [**IDLx Lab Development Best Practices**](../lod/idlx-development-best-practices.md)
+<div class="category">
+  
+<a href="../lod/idlx-development-best-practices.md" class="categoryThread">
+  
+<span class="categoryTitle">
+  
+IDLx Lab Development Best Practices
 
-* [**Docker Support**](/lod/docker.md)
+</span>
 
-* [**Lab Network Restrictions**](/lod/lab-networks.md)
+</a>
+ 
+</div>
 
-### [**View all**]
+<div class="category">
+  
+<a href="/lod/docker.md" class="categoryThread">
+  
+<span class="categoryTitle">
+  
+Docker Support
+
+</span>
+
+</a>
+ 
+</div>
+
+<div class="category">
+  
+<a href="/lod/lab-networks.md" class="categoryThread">
+  
+<span class="categoryTitle">
+  
+Lab Network Restrictions
+
+</span>
+
+</a>
+ 
+</div>
+
+<div class="viewAll">View all</div>
 
 </div>
 
@@ -50,15 +122,51 @@
 
 <div class="pbt_scoring cardContent">
 
-### [**Performance Based Testing and Scoring**]
+<div class="cardHeader">Performance Based Testing and Scoring</div>
 
-- [**IDLx Activities**](/lod/activities.md)
+<div class="category">
+  
+<a href="/lod/activities.md" class="categoryThread">
+  
+<span class="categoryTitle">
+  
+IDLx Activities
 
-* [**SSH Terminal Access**](terminal-access.md)
+</span>
 
-- [**IDLx Authoring Guide**](/guides/idl2/idlv2-authoring-guide-and-best-practice.md)
+</a>
+ 
+</div>
 
-### [**View all**]
+<div class="category">
+  
+<a href="terminal-access.md" class="categoryThread">
+  
+<span class="categoryTitle">
+  
+SSH Terminal Access
+
+</span>
+
+</a>
+ 
+</div>
+
+<div class="category">
+  
+<a href="/guides/idl2/idlv2-authoring-guide-and-best-practice.md" class="categoryThread">
+  
+<span class="categoryTitle">
+  
+IDLx Authoring Guide
+
+</span>
+
+</a>
+ 
+</div>
+
+<div class="viewAll">View all</div>
 
 </div>
 
@@ -68,15 +176,51 @@
 
 <div class="lodIntegration cardContent">
 
-### [**Lab on Demand Integration**]
+<div class="cardHeader">Lab on Demand Integration</div>
 
-* [**LTI Integration**](/lod/lab-on-demand-lti-integration.md)
+<div class="category">
+  
+<a href="/lod/lab-on-demand-lti-integration.md" class="categoryThread">
+  
+<span class="categoryTitle">
+  
+LTI Integration
 
-* [**GitHub Integration**](/guides/github-integration/github-integration.md)
+</span>
 
-* [**Lab on Demand API Documentation**](/lod/lod-api/lod-api-main.md)
+</a>
+ 
+</div>
 
-### [**View all**]
+<div class="category">
+  
+<a href="/guides/github-integration/github-integration.md" class="categoryThread">
+  
+<span class="categoryTitle">
+  
+GitHub Integration
+
+</span>
+
+</a>
+ 
+</div>
+
+<div class="category">
+  
+<a href="/lod/lod-api/lod-api-main.md" class="categoryThread">
+  
+<span class="categoryTitle">
+  
+Lab on Demand API Documentation
+
+</span>
+
+</a>
+ 
+</div>
+
+<div class="viewAll">View all</div>
 
 </div>
 
@@ -86,15 +230,51 @@
 
 <div class="lod_admin cardContent">
 
-### [**Lab on Demand Administration**]
+<div class="cardHeader">Lab on Demand Administration</div>
 
-* [**Introduction to Lab on Demand UI**](/lod/feature-focus/lod-experience.md)
+<div class="category">
+  
+<a href="/lod/feature-focus/lod-experience.md" class="categoryThread">
+  
+<span class="categoryTitle">
+  
+Introduction to Lab on Demand UI
 
-* [**Lab Profile Creation and Explanation**](/lod/feature-focus/lab-profiles/create.md)
+</span>
 
-* [**Lab Interface Frequently Asked Questions**](/lod/lab-interface-faq.md)
+</a>
+ 
+</div>
 
-### [**View all**]
+<div class="category">
+  
+<a href="/lod/feature-focus/lab-profiles/create.md" class="categoryThread">
+  
+<span class="categoryTitle">
+  
+Lab Profile Creation and Explanation
+
+</span>
+
+</a>
+ 
+</div>
+
+<div class="category">
+  
+<a href="/lod/lab-interface-faq.md" class="categoryThread">
+  
+<span class="categoryTitle">
+  
+Lab Interface Frequently Asked Questions
+
+</span>
+
+</a>
+ 
+</div>
+
+<div class="viewAll">View all</div>
 
 </div>
 
@@ -104,15 +284,51 @@
 
 <div class="azIndex cardContent">
 
-### [**A-Z Index**]
+<div class="cardHeader">A-Z Index</div>
 
-* [**Access Control Lists**](access-control-lists.md)
+<div class="category">
+  
+<a href="access-control-lists.md" class="categoryThread">
+  
+<span class="categoryTitle">
+  
+Access Control Lists
 
-* [**Amazon Web Services API Capabilities**](/lod/aws-capabilities.md)
+</span>
 
-* [**API Best Practices and How to Use an API Consumer**](/lod/how-to-use-api-consumer.md)
+</a>
+ 
+</div>
 
-### [**View all**]
+<div class="category">
+  
+<a href="/lod/aws-capabilities.md" class="categoryThread">
+  
+<span class="categoryTitle">
+  
+Amazon Web Services API Capabilities
+
+</span>
+
+</a>
+ 
+</div>
+
+<div class="category">
+  
+<a href="/lod/how-to-use-api-consumer.md" class="categoryThread">
+  
+<span class="categoryTitle">
+  
+API Best Practices and How to Use an API Consumer
+
+</span>
+
+</a>
+ 
+</div>
+
+<div class="viewAll">View all</div>
 
 </div>
 
