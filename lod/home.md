@@ -8,6 +8,10 @@
   
 ## Categories
 
+<div id="cardsContainer">
+
+<div id="cloudSlice_cardContainer">
+
 <div id="cloudSlice_card">
 
 ### [**Cloud Slice Lab Development**]
@@ -21,6 +25,10 @@
 ### [**View all**]
 
 </div>
+
+</div>
+
+<div id="vmLabDev_cardContainer">
 
 <div id="vmLabDev_card">
 
@@ -36,6 +44,10 @@
 
 </div>
 
+</div>
+
+<div id="pbt_scoring_cardContainer">
+
 <div id="pbt_scoring_card">
 
 ### [**Performance Based Testing and Scoring**]
@@ -49,6 +61,10 @@
 ### [**View all**]
 
 </div>
+
+</div>
+
+<div id="lodIntegration_cardContainer">
 
 <div id="lodIntegration_card">
 
@@ -64,6 +80,10 @@
 
 </div>
 
+</div>
+
+<div id="lod_admin_cardContainer">
+
 <div id="lod_admin_card">
 
 ### [**Lab on Demand Administration**]
@@ -78,6 +98,10 @@
 
 </div>
 
+</div>
+
+<div id="azIndex_cardContainer">
+
 <div id="azIndex_card">
 
 ### [**A-Z Index**]
@@ -89,6 +113,10 @@
 * [**API Best Practices and How to Use an API Consumer**](/lod/how-to-use-api-consumer.md)
 
 ### [**View all**]
+
+</div>
+
+</div>
 
 </div>
 
