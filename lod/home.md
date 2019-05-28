@@ -5,6 +5,33 @@
 # Welcome to the Lab on Demand Help Community
 
 <div class="categories">
+  <div class="categoriesHeader">Featured posts</div>
+  <div class="cardContainerFull">
+    <div class="cardContent">
+      <div class="category">
+        <a href="/lod/idlx-development-best-practices.md" class="categoryThread">
+          <i class="material-icons light-blue">bookmarks</i>
+          <span class="categoryTitle">IDLx Lab Development Best Practices</span>
+          <span class="categoryDescription">This document covers best practices for IDLx lab development, to assist in creating a rich learning experience.</span>
+        </a>
+      </div>
+      <div class="category"> 
+        <a href="/lod/feature-focus/lod-experience.md" class="categoryThread">
+          <i class="material-icons blue">bookmarks</i>
+          <span class="categoryTitle">Introduction to Lab on Demand UI</span>
+          <span class="categoryDescription">Explanation of Lab on Demand UI.</span>
+        </a>
+      </div>
+      <div class="category">  
+        <a href="/guides/cloud-slice/microsoft-azure/cloud-slice-find-resource-templates.md" class="categoryThread">
+          <i class="material-icons light-blue">bookmarks</i>
+          <span class="categoryTitle">Azure Resource Templates</span>
+          <span class="categoryDescription">How to find Azure Resource Manager templates for use with Microsoft Azure.</span>
+        </a>
+      </div>
+      <div class="viewAll"><a class="viewAllLink">View all</a></div>
+    </div>
+  </div>
   <div class="categoriesHeader">Categories</div>
   <div class="cardsContainer">
     <div class="cardContainer">
