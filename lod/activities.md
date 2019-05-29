@@ -60,7 +60,7 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
 
 - **Sending Lab Notifications**
 
-    `send-lab-notification -Message "Hello from a script"`
+    `Send-LabNotification -Message "Hello from a script"`
 
 - **Scoring**
 
