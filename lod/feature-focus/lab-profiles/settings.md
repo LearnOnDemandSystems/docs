@@ -296,7 +296,7 @@ Unchecking **Inherit storage settings from organization** box will enable additi
     - **Tearing Down**: The lab environment is being torn down.
     - **Torn Down**: The lab environment is fully torn down. 
 
-   [For more information about Action and Event types, please see our guide](/lod/life-cycle-actions.md)
+For more information about Action and Event types, please see our [guide](/lod/life-cycle-actions.md)
    
 ## Tags
 
