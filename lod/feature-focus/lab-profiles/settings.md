@@ -182,11 +182,11 @@ To use network features, such as external internet access or communication betwe
 
 ## Resources
 
-1 .**Add Resource:** Click to add resource. 
+1. **Add Resource:** Click to add resource. 
 
-2.**Name:** This will be the display name of the resource.
+2. **Name:** This will be the display name of the resource.
 
-3.**Type:** Select the type of resource to add. Types of resources include:
+3. **Type:** Select the type of resource to add. Types of resources include:
    - External link
    - PDF document
    - Word document
