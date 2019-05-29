@@ -210,6 +210,7 @@ The Errata is used to give a message to users working in the lab. The Errata app
 
 ## Exam
 
+Exams are used in IDL (legacy) labs only. Exams in IDLx are executed by activity based assessments. For more information about IDLx Activities, read [IDLx Activities](/lod/activities.md)
 1. **Has Exam:** Checking this box enables options 2-5. If the box is unchecked, these options are not applicable. 
 
 2. **Scoring Type:** Select the type of scoring that the lab profile will use. Types of scoring include:
