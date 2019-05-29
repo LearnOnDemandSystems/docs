@@ -1,8 +1,6 @@
 <style>
     h1:first-of-type {margin-top:0;}
 </style>
- 
-# Welcome to the Lab on Demand Help Community
 
 <div class="categories">
   <div class="categoriesHeader">Featured posts</div>
