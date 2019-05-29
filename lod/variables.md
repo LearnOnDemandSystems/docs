@@ -104,17 +104,17 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
 
 - **Setting Variables**
     
-    `set-lab-variable -Name firstname -Value John`
+    `Set-LabVariable -Name firstname -Value John`
 
-    `set-lab-variable -Name lastname -Value Smith`
+    `Set-LabVariable -Name lastname -Value Smith`
 
 - **Sending Lab Notifications**
 
-    `send-lab-notification -Message "Hello from a script"`
+    `Send-LabNotification -Message "Hello from a script"`
 
 - **Scoring**
 
-    `set-ActivityResult .5 -Correct`
+    `Set-ActivityResult .5 -Correct`
 
 #### **Windows Command Shell and Bash**
 
