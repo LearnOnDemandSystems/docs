@@ -22,7 +22,7 @@
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/guides/cloud-slice/microsoft-azure/azure-capacity-limitations.md">
         <div class="subtopic_title">Azure Capacity Limitations</div>
-        <div class="subtopic_description">Azure resource capacity limitations, how to avoid them, and what to do if you run into capacity          limitations with your Azure subscription.</div>
+        <div class="subtopic_description">Azure resource capacity limitations, how to avoid them, and what to do if you run into capacity limitations with your Azure subscription.</div>
       </a>
       <a class="subtopic_link" href="/guides/cloud-slice/microsoft-azure/azure-resource-providers.md">
         <div class="subtopic_title">Azure Resource Providers</div>
