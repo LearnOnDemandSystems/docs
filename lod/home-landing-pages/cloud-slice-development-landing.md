@@ -1,7 +1,7 @@
 <div class="topicHeader">Cloud Slice Lab Development</div>
 <div class="accordionModule">
-  <div class="subtopic">
-    <div id="header_1" class="subtopic_header selected">Amazon Web Services Cloud Slice Development</div>
+  <div class="subtopic selected">
+    <div id="header_1" class="subtopic_header">Amazon Web Services Cloud Slice Development</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/lod/aws-capabilities.md">
         <div class="subtopic_title">Amazon Web Services API Capabilities</div>
