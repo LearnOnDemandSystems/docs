@@ -27,7 +27,7 @@
           <span class="categoryDescription">How to find Azure Resource Manager templates for use with Microsoft Azure.</span>
         </a>
       </div>
-      <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/cloud-slice-development-landing.md">View all</a></div>
+      <div class="viewAll"><a class="viewAllLink">View all</a></div>
     </div>
   </div>
   <div class="categoriesHeader">Categories</div>
@@ -53,7 +53,7 @@
             <span class="categoryTitle">Cloud Slice Setup Guide</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/cloud-slice-development-landing.md">View all</a></div>
       </div>
     </div>
     <div class="cardContainer">
@@ -77,7 +77,7 @@
             <span class="categoryTitle">Lab Network Restrictions</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/vm-lab-development-landing.md">View all</a></div>
       </div>
     </div>
     <div class="cardContainer">
@@ -101,7 +101,7 @@
             <span class="categoryTitle">IDLx Authoring Guide</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/pbt-and-scoring-landing.md">View all</a></div>
       </div>
     </div>
     <div class="cardContainer">
@@ -125,7 +125,7 @@
             <span class="categoryTitle">Lab on Demand API Documentation</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-integration-landing.md">View all</a></div>
       </div>
     </div>
     <div class="cardContainer">
@@ -149,7 +149,7 @@
             <span class="categoryTitle">Lab Interface Frequently Asked Questions</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" herf="/lod/home-landing-pages/lod-admin-landing.md">View all</a></div>
       </div>
     </div>
     <div class="cardContainer">
@@ -173,7 +173,7 @@
             <span class="categoryTitle">API Best Practices and How to Use an API Consumer</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/a-z-index.md">View all</a></div>
       </div>
     </div>
   </div>
