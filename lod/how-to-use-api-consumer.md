@@ -20,7 +20,7 @@ For more information about window resizing, check out [W3Schools](https://www.w3
 
 ## How to use an API Consumer in Lab on Demand
 
-To obtain API Consumer access, please submit a Support ticket at https://lod.one/help for assistance.
+To obtain API Consumer access, please [submit a Support ticket](https://lod.one/help) for assistance.
 
 If you already have API Consumer access, and would like to use an API consumer with Lab on Demand (LOD), you must configure the API on the lab profile, lab series, and the organization profile that will be used with API calls. For more information on how the API can be used, have a look at our [API Documentation](lod-api/lod-api-main.md). 
 
