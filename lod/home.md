@@ -1,8 +1,8 @@
+!instructions[](/lod/searchOptions.md)
+
 <style>
     h1:first-of-type {margin-top:0;}
 </style>
-
-<div>!instructions[](/lod/searchOptions.md)</div>
 
 <div class="categories">
   <div class="categoriesHeader">Featured posts</div>
