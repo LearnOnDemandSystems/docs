@@ -2,6 +2,8 @@
     h1:first-of-type {margin-top:0;}
 </style>
 
+!instructions[](/lod/searchOptions.md)
+
 <div class="categories">
   <div class="categoriesHeader">Featured posts</div>
   <div class="cardContainerFull">
