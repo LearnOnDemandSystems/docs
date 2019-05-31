@@ -1,7 +1,22 @@
+<!-- 
+    Adding new documents!
+    1. Duplicate the following:
+        <a class="subtopic_link" href="insert_document_link_here*">
+            <div class="subtopic_title">insert_document_title here</div>
+            <div class="subtopic_description">insert_document_description_here</div>
+        </a>
+    2. Replace:
+        href link with your document's link
+        subtopic_title text with your document's title
+        subtopic_description text with your document's description
+    3. Place in respective subtopic group
+    4. Notify Corey B. of the addition of a new document so he can add it to the search module.
+-->
+
 <div class="topicHeader">Cloud Slice Lab Development</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div id="header_1" class="subtopic_header">Amazon Web Services Cloud Slice Development</div>
+    <div class="subtopic_header">Amazon Web Services Cloud Slice Development</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/lod/aws-capabilities.md">
         <div class="subtopic_title">Amazon Web Services API Capabilities</div>
@@ -18,8 +33,8 @@
     </div>
   </div>
   <div class="subtopic">
-    <div id="header_1" class="subtopic_header">Microsoft Azure Cloud Slice Developemt</div>
-    <div id="body_1" class="subtopic_links">
+    <div class="subtopic_header">Microsoft Azure Cloud Slice Development</div>
+    <div class="subtopic_links">
       <a class="subtopic_link" href="/guides/cloud-slice/microsoft-azure/azure-capacity-limitations.md">
         <div class="subtopic_title">Azure Capacity Limitations</div>
         <div class="subtopic_description">Azure resource capacity limitations, how to avoid them, and what to do if you run into capacity limitations with your Azure subscription.</div>
@@ -51,11 +66,11 @@
     </div>
   </div>
   <div class="subtopic">
-    <div id="header_1" class="subtopic_header">Lab on Demand Configuration</div>
-    <div id="body_1" class="subtopic_links">
+    <div class="subtopic_header">Lab on Demand Configuration</div>
+    <div class="subtopic_links">
       <a class="subtopic_link" href="/guides/cloud-slice/cloud-slice.md">
         <div class="subtopic_title">Cloud Slice Setup Guide</div>
-        <div class="subtopic_description">Comprehensive setup guide for configuring a Cloud Slice lab with Lab on Demand and Microsoft             Azure or Amazon Web Services.</div>
+        <div class="subtopic_description">Comprehensive setup guide for configuring a Cloud Slice lab with Lab on Demand and Microsoft Azure or Amazon Web Services.</div>
       </a>
       <a class="subtopic_link" href="/lod/create-a-restriction-policy.md">
         <div class="subtopic_title">Create an Access Control Policy</div>
@@ -65,11 +80,15 @@
         <div class="subtopic_title">Replacement Tokens</div>
         <div class="subtopic_description">Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat; replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.</div>
       </a>
+      <a class="subtopic_link" href="/lod/create-cloud-subscription-pool.md">
+        <div class="subtopic_title">Create a Cloud Subscription Pool</div>
+        <div class="subtopic_description">Create a Cloud Subscription Pool to load balance labs across your cloud subscriptions.</div>
+      </a>
     </div>
   </div>
   <div class="subtopic">
-    <div id="header_1" class="subtopic_header">Lab Instruction Authoring</div>
-    <div id="body_1" class="subtopic_links">
+    <div class="subtopic_header">Lab Instruction Authoring</div>
+    <div class="subtopic_links">
       <a class="subtopic_link" href="/lod/idlx-development-best-practices.md">
         <div class="subtopic_title">IDLx Lab Development Best Practices</div>
         <div class="subtopic_description">This document covers best practices for IDLx lab development, to assist in creating a rich learning experience.</div>

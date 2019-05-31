@@ -4,7 +4,9 @@
 
 <div class="categories">
   
-  /* Featured posts */
+  <!-- Begin featured posts section.. 
+        Max of 3 items - replace href (link), text in categoryTitleFeatured, text in categoryDescription
+  -->
   <div class="categoriesHeader">Featured posts</div>
   <div class="cardContainerFull">
     <div class="cardContent">
@@ -31,10 +33,16 @@
       </div>
       <div class="viewAll"><a class="viewAllLink">View all</a></div>
     </div>
-  </div> /* End featured posts section*/
+  </div> 
+  <!-- ..End featured posts section -->
   
+  <!-- Begin categories section.. -->
   <div class="categoriesHeader">Categories</div>
   <div class="cardsContainer">
+
+    <!-- Card - Cloud Slice Lab Development 
+          Max of 3 items - replace href (link), text in categoryTitle
+    -->
     <div class="cardContainer">
       <div class="cloudSlice cardContent">
         <div class="cardHeader">Cloud Slice Lab Development</div>
@@ -59,6 +67,10 @@
         <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/cloud-slice-development-landing.md">View all</a></div>
       </div>
     </div>
+
+    <!-- Card - Virtual Machine Lab Development 
+          Max of 3 items - replace href (link), text in categoryTitle
+    -->
     <div class="cardContainer">
       <div class="vmLabDev cardContent">
         <div class="cardHeader">Virtual Machine Lab Development</div>
@@ -83,6 +95,10 @@
         <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/vm-lab-development-landing.md">View all</a></div>
       </div>
     </div>
+
+    <!-- Card - Performance Based Testing and Scoring 
+          Max of 3 items - replace href (link), text in categoryTitle
+    -->
     <div class="cardContainer">
       <div class="pbt_scoring cardContent">
         <div class="cardHeader">Performance Based Testing and Scoring</div>
@@ -107,6 +123,10 @@
         <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/pbt-and-scoring-landing.md">View all</a></div>
       </div>
     </div>
+
+    <!-- Card - Lab on Demand Integration 
+          Max of 3 items - replace href (link), text in categoryTitle
+    -->
     <div class="cardContainer">
       <div class="lodIntegration cardContent">
         <div class="cardHeader">Lab on Demand Integration</div>
@@ -131,6 +151,10 @@
         <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-integration-landing.md">View all</a></div>
       </div>
     </div>
+
+    <!-- Card - Lab on Demand Administration 
+          Max of 3 items - replace href (link), text in categoryTitle
+    -->
     <div class="cardContainer">
       <div class="lod_admin cardContent">
         <div class="cardHeader">Lab on Demand Administration</div>
@@ -155,6 +179,10 @@
         <div class="viewAll"><a class="viewAllLink" herf="/lod/home-landing-pages/lod-admin-landing.md">View all</a></div>
       </div>
     </div>
+
+    <!-- Card - A-Z Index
+          Max of 3 items - replace href (link), text in categoryTitle
+    -->
     <div class="cardContainer">
       <div class="azIndex cardContent">
         <div class="cardHeader">A-Z Index</div>
@@ -179,7 +207,10 @@
         <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/a-z-index.md">View all</a></div>
       </div>
     </div>
+
   </div>
+  <!-- -- End categories section -->
+
   <div class="moreInfo">
     <span class="moreInfo_header">Looking for more information?</span>
     If you've already read through all of the documentation that is available on a topic, and you are still looking for more        information, or have questions, check out the resources available to you on our <a href="/contact-us.md">Contact Us</a> page.
