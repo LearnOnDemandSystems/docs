@@ -31,11 +31,13 @@
       </div>
       <div class="viewAll"><a class="viewAllLink">View all</a></div>
     </div>
-  </div> /* End featured posts section*/
+  </div>
+  <!-- End categories section -->
   
   <div class="categoriesHeader">Categories</div>
-  <div class="cardsContainer">
+  <div class="cardsContainer">  
     <div class="cardContainer">
+      <!-- Begin categories section.. -->
       <div class="cloudSlice cardContent">
         <div class="cardHeader">Cloud Slice Lab Development</div>
         <div class="category">
