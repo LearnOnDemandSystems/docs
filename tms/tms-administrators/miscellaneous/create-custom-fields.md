@@ -64,4 +64,4 @@ This field type can require unique values. However, if set, only one entity item
 For more information regarding custom fields, please see:
 - [What are custom fields?](custom-fields.md)
 - [How can I show certain choices on a dropdown based on the answer to another dropdown?](dependent-dropdown-custom.md)
-- [How can I make a course custom field available to classes that use the course?](../courses-and-activities/cascade-custom-fields.md)
+- [How can I make a course custom field available to classes that use the course?](../courses-and-activities/overall/cascade-custom-fields.md)

@@ -2,7 +2,7 @@
 
 ## API
 
-* [**Lab on Demand API Documentation**](/lod/lod-api/lod-api-main.md) - Documentation on how and when to use the Lab on Demand API.
+* [**API Documentation**](/lod-api/lod-api-main.md) - Documentation on how and when to use the Lab on Demand API.
 
 * [**API Best Practices and How to Use an API Consumer**](/lod/how-to-use-api-consumer.md) - Guides through the steps to configure an API Consumer in LOD, as well as best practices. 
 

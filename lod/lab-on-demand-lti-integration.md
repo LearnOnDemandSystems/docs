@@ -82,7 +82,7 @@ Content can be integrated with various LMS systems (LTI Consumer). Below are som
 
 For launches, Lab On Demand supports LTI Basic Launch 1.1. 
 
-https://www.imsglobal.org/specs/ltiv1p1/implementation-guide
+[https://www.imsglobal.org/specs/ltiv1p1/implementation-guide](https://www.imsglobal.org/specs/ltiv1p1/implementation-guide)
 
 #### Required Values
 
@@ -116,7 +116,7 @@ https://www.imsglobal.org/specs/ltiv1p1/implementation-guide
 
 For scoring, Lab On Demand support LTI Basic Outcomes 1.0.
 
-https://www.imsglobal.org/specs/ltiv1p1/implementation-guide#toc-6
+[https://www.imsglobal.org/specs/ltiv1p1/implementation-guide#toc-6](https://www.imsglobal.org/specs/ltiv1p1/implementation-guide#toc-6)
 
 Outcomes is completely optional. If the values are included in the LTI launch, LOD will use them to report scoring information.
 

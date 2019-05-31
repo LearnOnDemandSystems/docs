@@ -3,7 +3,7 @@
 </style>
  
 <div style="float:right; padding-top:5px; font-size:120%;">
-   <a href="whats-new.md">What's New</a>
+   <a href="/whats-new-toc.md">What's New</a>
 </div>
 
 # OneLearn TMS Help
@@ -47,7 +47,10 @@ If you an Administrator, explore the following topics/processes to help you star
      - [Student Management](#student-management)
      - [Instructor Management](#instructor-management)
 - [Self-Paced Learning and Subscriptions](#self-paced-learning-and-subscriptions)
-- [Courses and Their Activities](#courses-and-their-activities)
+- Courses and Their Activities
+    - [Overall](#overall)
+    - [Labs](#lab-activities)
+    - [Other Activities](#other-activities)
 - [Discussions](#discussions)
 - [Miscellaneous](#miscellaneous)
 
@@ -232,15 +235,31 @@ If you an Administrator, explore the following topics/processes to help you star
 
 ### Courses and Their Activities
 
-- [How do I see available courses and determine how much I will be charged for a lab in one of them?](./tms-administrators/courses-and-activities/see-available-courses-and-determine-cost-for-lab-in-one.md)
-- [How do I create a SCORM Module and make it available to other organizations for their courses?](./tms-administrators/courses-and-activities/create-scorm-module.md)
-- [How can I preview a SCORM module belonging to my organization?](./tms-administrators/courses-and-activities/start-scorm-module.md)
-- [Where do I find the system requirements for labs?](./tms-administrators/courses-and-activities/find-system-requirements-for-labs.md)
-- [How can I find how long a lab will be saved for?](./tms-administrators/courses-and-activities/find-how-long-lab-will-be-saved-for.md)
-- [How do I find if or when a student has launched a lab?](./tms-administrators/courses-and-activities/find-if-student-launched-lab.md)
-- [How do I view SCORM attempts by my students?](./tms-administrators/courses-and-activities/view-scorm-attempts.md)
-- [How do I make the custom fields on my courses available on my classes?](./tms-administrators/courses-and-activities/cascade-custom-fields.md)
-- [How can I capture user data for users who access my externally hosted activities from the TMS?](./tms-administrators/courses-and-activities/capture-user-data-for-externally-hosted-activities.md)
+#### *Overall*
+
+- [How do I create a basic course?](./tms-administrators/courses-and-activities/overall/create-course.md)
+- [How do I see available courses and determine how much I will be charged for a lab in one of them?](./tms-administrators/courses-and-activities/overall/see-available-courses-and-determine-cost-for-lab-in-one.md)
+- [How do I make the custom fields on my courses available on my classes?](./tms-administrators/courses-and-activities/overall/cascade-custom-fields.md)
+
+#### *Lab Activities*
+
+- [How do I add labs to my course?](./tms-administrators/courses-and-activities/labs/add-labs.md)
+- [What does it mean when I get a 'Max RAM settings' warning when adding a lab to a course?](./tms-administrators/courses-and-activities/labs/max-ram.md)
+- [How can I find how long a lab will be saved for?](./tms-administrators/courses-and-activities/labs/find-how-long-lab-will-be-saved-for.md)
+- [How do I find if or when a student has launched a lab?](./tms-administrators/courses-and-activities/labs/find-if-student-launched-lab.md)
+- [Where do I find the system requirements for labs?](./tms-administrators/courses-and-activities/labs/find-system-requirements-for-labs.md)
+
+#### *Other Activities*
+
+- [How do I create a SCORM Module and make it available to other organizations for their courses?](./tms-administrators/courses-and-activities/other-activities/create-scorm-module.md)
+- [How do I add SCORM modules to my course?](./tms-administrators/courses-and-activities/other-activities/add-scorm.md)
+- [How can I preview a SCORM module belonging to my organization?](./tms-administrators/courses-and-activities/other-activities/start-scorm-module.md)
+- [How do I view SCORM attempts by my students?](./tms-administrators/courses-and-activities/other-activities/view-scorm-attempts.md)
+- [How do I add videos to my course?](./tms-administrators/courses-and-activities/other-activities/add-video.md)
+- [How do I add documents and external links to my course?](./tms-administrators/courses-and-activities/other-activities/add-docs-urls.md)
+<!--- [How do I add an LTI Resource link to my course?](./tms-administrators/courses-and-activities/other-activities/add-lti-resource-link.md) -->
+- [How can I capture user data for users who access my externally hosted activities from the TMS?](./tms-administrators/courses-and-activities/other-activities/capture-user-data-for-externally-hosted-activities.md)
+- [How do I add an assessment to a course?](./tms-administrators/courses-and-activities/other-activities/add-assessment.md)
 
 [< Return to Administrator menu >](#administrator)
 

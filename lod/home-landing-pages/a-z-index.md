@@ -1,10 +1,12 @@
 # Lab on Demand Index
 
-* [**Access Control Lists**](access-control-lists.md) - Controls which websites can be accessed in the lab, by using blacklists and whitelists. 
+* [**Access Control Lists**](/lod/access-control-lists.md) - Controls which websites can be accessed in the lab, by using blacklists and whitelists. 
 
 * [**Amazon Web Services API Capabilities**](/lod/aws-capabilities.md) - A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation. Below the table is a brief description for each service name. 
 
 * [**API Best Practices and How to Use an API Consumer**](/lod/how-to-use-api-consumer.md) - Guides through the steps to configure an API Consumer in LOD, as well as best practices. 
+
+* [**API Documentation**](/lod/lod-api/lod-api-main.md) - Documentation on how and when to use the Lab on Demand API.
 
 * [**Azure Capacity Limitations**](/guides/cloud-slice/microsoft-azure/azure-capacity-limitations.md) - Azure resource capacity limitations, how to avoid them, and what to do if you run into capacity limitations with your Azure subscription.
 
@@ -24,7 +26,9 @@
 
 * [**Create Removable Media**](/lod/create-Removable-media.md) - Removable Media to be used with virtual machines.
 
-- [**Custom UUID on VMware Virtual Machines**](uuid.md) - Assign a custom unique ID to a virtual machine hosted on a VMware host.
+- [**Custom UUID on VMware Virtual Machines**](/lod/uuid.md) - Assign a custom unique ID to a virtual machine hosted on a VMware host.
+
+* [**Differencing Disk Capture**](/lod/capture-differencing-disks.md) - Capture differencing disks from a running lab, to store changes made on the virtual machine in the lab. 
 
 * [**Differencing Disk Rollback**](/lod/differencing-disks.md) - Rollback differencing disks to a previous configuration or add differencing disks back to a disk chain after they have been removed.
 

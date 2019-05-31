@@ -45,9 +45,9 @@ Placeholders include:
 - @lab.LabInstance.GlobalId
 - @lab.User.Id
 - @lab.User.ExternalId (if launched via API)
-- @lab.lab.User.email
-- @lab.lab.User.FirstName
-- @lab.lab.User.LastName
+- @lab.User.email
+- @lab.User.FirstName
+- @lab.User.LastName
 - @lab.Tag (if included when launched by API)
 
 ### Lab data can be appended to the URL. 

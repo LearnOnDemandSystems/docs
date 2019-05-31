@@ -1,5 +1,110 @@
 # What's New in Lab On Demand
 
+## **Released May 24, 2019**
+
+**AWS Improvments**
+
+- Applied a minor fix for a scenario where manged AWS virtual machines could trigger the creation of clous slice roles. This was done to prevent permission errors when launching a lab that uses an AWS managed VM.
+
+    ![](images/aws-logo.png){100x100}
+
+**API Documentation Link**
+
+- The API documentation link on the LOD admin homepage now points to the [API documentation in the public documentation](/lod/lod-api/lod-api-main.md), instead of the older internally hosted API documentation. This was done to keep API documentation consisten, when accessed from multiple locations. If you have the API documentation bookmarked, you will be redirected to the new location. 
+
+**Lab Client Service**
+
+- A new set of backend services have been deployed for the lab delivery front-end. This was done to improve platform performance, as well as scalability improvements. **This will not change the behavior or features available in any labs**.
+
+## **Released May 23, 2019**
+
+**New Documentation**
+
+- [Differencing Disk Capture](https://docs.learnondemandsystems.com/lod/capture-differencing-disks.md): Capture differencing disks from a running lab, to store changes made on the virtual machine in the lab.
+
+- [Virtual Machine Profile Creation and Explanation](https://docs.learnondemandsystems.com/lod/vm-profiles.md): Virtual machine profile creation, and explanation of virtual machine profile configuration.
+
+## **Released May 17, 2019**
+
+**Split Permissions for Lab Profile Editing and Lab Instruction Editing**
+
+- Lab instruction editing and lab profile editing are now separate permissions in LOD. This allows for more granular delegation of responsibilities and duties. If a user needs to edit lab profiles, as well as lab instructions, they will need to have both permissions assigned to their account.
+ 
+**Accessibility Improvements**
+- Notification dialogs can now be read by screen readers in labs.
+- Keyboard navigation has been improved in IDLx labs, to make items in the instructions window accessible via keyboard navigation, including selecting task check boxes.
+ 
+**Information Circle Updates**
+- Information circles have been updated with additional information in lab profiles for the following items on the virtual machines tab:
+    - Wait for Heartbeat
+    - Make lab instance data available inside virtual machine
+
+    ![](images/wait-for-heartbeat-make-lab-instance-data-available.png)
+
+**Lab Tag Search Filters**
+- Filters for Lab Tag and Lab Host tag have been added when using a lab profile search.
+
+**Update to SSH Command Proxy**
+- Updates and improvements have been made to the SSH command proxy in LOD, to allow ABA scripts to be used in newer versions of Linux.
+
+## **Released May 11, 2019**
+
+**Expand Items Injected into VM Registry Key**
+
+- Allows replacement token data to be injected into virtual machines. Replacement tokens are now injected into virtual machines at the following locations on the VM:
+    - For Hyper-V VMs,  it is injected in Windows registry at Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Virtual Machine\External.
+
+    - For VMware VMs, it is written to a txt file at C:\Users\Public\Documents\LabInstance.txt
+
+    This option is enabled on the virtual machines tab of a lab profile. 
+
+    ![](images/make-lab-instance-data-available-in-lab.png)
+
+**IDLx End Button**
+
+- The end button in IDLx labs is now shown at the bottom of the UI for single page lab instructions. This provides a more consistent experience in IDLx labs that have multiple pages of instructions or a single page of instructions. 
+
+    ![](images/end-button.png)
+
+**Lab Profile Max RAM**
+
+- Organizations will have a default setting for max RAM of 50GB for lab configuration in LOD. Developers will receive a notification that they are unable to save a lab when creation and/or editing exceeds this default setting of 50GB RAM. If a lab requires modification above this threshold, please [submit a lab services ticket](https://www.learnondemandsystems.com/customer-support/) and our Lab Services team will assist upon approval by your LODS Account Executive and an understanding of your consumption projections.
+
+**Ability to Self-Publish Labs**
+
+- Organizations will be able to self-publish their labs series in LOD to the respective API consumer, including the LODS TMS.
+
+- This permission will be provided on-request from an administrator of your Organization.
+
+- Administrators can request this permission to be added to current LOD user accounts or request a new user account be created by submitting a support ticket.
+
+    Should your Organization choose to not align this permission with a user account in LOD, requests to publish lab series on your behalf will become a billable service.
+
+## **Released May 3, 2019**
+
+**Lab Series - Max instances per lab user** 
+
+- Lab series now have a new option on the Limits tab. Lab retakes can be set to unlimited or a specified number of launches. This affects the number of launches per user, per lab, when launched via API. Lab Series Assignments will reset the number of retakes allow. I.E if a user has launched a lab and reached the number of launches allowed, assigning a lab series assignment allows them to launch the lab again, up to the limit of launches specified on the lab series. 
+
+    ![](images/retakes.png)
+
+**Korean Language Option**
+
+- Lab authors now have the option to author labs in Korean language. This only changes language in the lab client, and does not change the language of the lab instructions. 
+
+**Cloud Lab Improvements**
+
+- Azure AD Cleanup: items created by a lab user in Azure Active Directory such as a user group or app registration are now deleted when the lab is torn down.
+- Additional logic was implemented when an Azure active directory user cannot be created. LOD will attempt to create the user in Azure AD for 60 seconds, and then display an error message if the user cannot be created.
+- Azure and AWS health check services have been separated into different applications in Azure, instead of being part of the lab host service. This will allow for faster update cycles and fewer issues with performance bottlenecks, as well as resilience and ensured tear down.
+
+**Bug Fixes and Improvements**
+
+- Updated the text on the authentication tab when creating or editing a cloud subscription pool, and choosing AWS as the cloud platform for the cloud subscription pool. 
+- Fixed a bug that would cause IDLx instructions to be checked out after editing. This was caused by a change in Google Chrome. 
+- The magnification control slider in IDLx labs now shows a label when hovering over it with the mouse cursor. 
+
+
 ## **Released April 12, 2019**
 
 **Move Cloud Credentials**
@@ -14,6 +119,8 @@
 **Bug Fixes**
 - Fixed a bug that prevented users from viewing the Organizations tile or Find Organizations link when they had the proper permissions to view. 
 - Fixed a bug that prevented the Edit Parameters button from displaying on cloud resource templates after saving the lab profile. 
+
+---
 
 ## **Released March 8, 2019**
 
@@ -35,6 +142,8 @@ Syntax includes:
 ### **Simplified Chinese and Japanese Language Options**
 - Lab authors now have the option to author labs in Simplified Chinese and Japanese languages. This only changes language in the lab client, and does not change the language of the lab instructions. 
 
+---
+
 ## **Released March 1, 2019**
 
 ### **Custom Access Control Lists**
@@ -48,6 +157,8 @@ Syntax includes:
 ### **Performance and Reliability Improvements for Azure and AWS Cloud Slice**
 
 - Various improvements have been made to increase performance and reliability of Azure and AWS Cloud Slice labs. 
+
+---
 
 ## **Released February 8, 2019**
 
@@ -86,6 +197,8 @@ _audio as a link_
 - Fixed a bug that caused GitHub integration to fail. 
 - Fixed a bug that prevented images from opening in a dialog when IDLx windows are split.
 
+---
+
 ## **Released January 18, 2019**
 
 ### **Show Scoring Result Upon Completion** 
@@ -116,6 +229,8 @@ _Show scoring result disabled_
 
 **Bugfix**
 - We now prevent SCSI adapters from conflicting with SCSI disks in VMware based labs - VMware VMs shouldn't allow SCSI adapter and Disk to use same Device ID. Device ID 7 has been removed from availability. 
+
+---
 
 ## **Released November 16, 2018**
 
@@ -195,6 +310,8 @@ Copyable/TypeText syntax: placing four + symbols on each side of any text, will 
 
 ```++++enter text here to type into the VM and copy to the clipboard++++```
 
+
+---
 
 ## **Released October 19, 2018**
 

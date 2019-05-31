@@ -1,0 +1,19 @@
+# VM Import Guidelines
+
+Learn on Demand systems has both VMware ESXi and Windows Hyper-V available for lab hosting. When sending VMs to be imported into the system via a [Lab Services request](https://www.learnondemandsystems.com/customer-support/), we support multiple formats and versions depending on the platform. The table below describes what VM sources we can import from. A full import means we can import both the virtual disks and any VM configuration information. A virtual disk import means we can import the disks, but VM configuration is manual and information including CPU and RAM settings needs to be sent alongside the VMs to import.
+
+Hyper-V on Windows 10 or Server 2016 has different VM Configuration Versions depending on the OS version. Editions earlier than 1709 (Windows 10 Fall Anniversary Update / Server 2016 SAC 1709) support up to VM Configuration Version 8.0. 1709 and later default to configuration version 8.2. VM configuration 8.2 is not compatible with a full import.
+
+| **Platform** | **Source** | **Versions Supported<sup>1</sup>** | **Import Notes<sup>2</sup>** |
+| --- | --- | --- | --- |
+| Hyper-V | Hyper-V | VM Configuration Version up to 8.0 | For a full import, please send a full VM export. Otherwise, import is virtual disks only. |
+|   |   | VM Configuration Version 8.2+ | Virtual disks only, compatibility not guaranteed. |
+| ESXi | ESXi | 5.0-6.7 | For a full import, please export VM as OVA/OVF. Otherwise, import is virtual disks only |
+|   | VMware Workstation | 12-15 | For a full import, please export VM as OVA/OVF. Otherwise, import is disks only. |
+| Both | Virtual Box | 5.0-6.0 | Hyper-V import is disks only, please use VHD disk type. ESXi import is full when exported as OVA/OVF. Otherwise, import is disk only. |
+
+<sup>1</sup> To ensure the best compatibility, we recommend using the latest editions of software. Successful import of VMs from earlier editions is not guaranteed.
+
+<sup>2</sup> This applies to VMs uploaded to FTP or shipped via drive. For VMs uploaded through the LOD web interface, disk-only is the only supported method, and the disks must be in the correct format (.vhd/.vhdx for Hyper-V, ESXi format .vmdk for vSphere).
+
+If you have VM in a format not listed, from a hypervisor not listed, or have any questions please [contact support](https://www.learnondemandsystems.com/customer-support/).

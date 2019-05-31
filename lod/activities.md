@@ -56,11 +56,11 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
     
     `Set-LabVariable -Name firstName -Value John`
 
-    `Set-LabVariabl -Name lastName -Value Smith`
+    `Set-LabVariable -Name lastName -Value Smith`
 
 - **Sending Lab Notifications**
 
-    `send-lab-notification -Message "Hello from a script"`
+    `Send-LabNotification -Message "Hello from a script"`
 
 - **Scoring**
 
@@ -434,7 +434,7 @@ Partial scoring is achieved with automated Activities in IDLx. To configure part
 1. Edit the **lab instructions**.
 1. **Enable scoring** from the Activities menu.
 1. **Add** an automated Activity.
-1. In the **Script 1** field, enter a PowerShell script to check for the directory the studnet created.
+1. In the **Script 1** field, enter a PowerShell script to check for the directory the student created.
 1. Assign a score value for script 1. This will be the partial score the student will receive if the directory is created. 
 1.  Click _New Script_.
 1. In the **Script 2** field, enter a PowerShell script to verify the directory is named properly. 

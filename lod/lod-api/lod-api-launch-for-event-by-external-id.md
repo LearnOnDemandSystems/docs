@@ -1,4 +1,3 @@
-<!--
 # Launch For Event By External ID
 
 ## Parameters
@@ -62,4 +61,3 @@ https://labondemand.com/api/v3/LaunchForEventByExternalId?externalLabId=ABCDEFGH
 }
 ```
 
--->

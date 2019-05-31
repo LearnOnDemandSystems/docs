@@ -12,7 +12,9 @@ route,target
 /ClassEnrollment/Search,/tms/targets/class-enrollment-find.md
 /ClassEnrollment/{classEnrollmentId},/tms/targets/class-enrollment-profile.md
 /Classroom/Create,/tms/targets/classroom-create.md
+/Course/Create,/tms/targets/course-creation.md
 /Course/Search,/tms/targets/course-find.md
+/Course/Edit/{courseId},/tms/targets/course-creation.md
 /CourseAssignment/Create,/tms/targets/course-assignment-create.md
 /CourseCertificate/Create,/tms/targets/cse-cert-create.md
 /CustomField/Create,/tms/targets/custom-field.md
@@ -24,9 +26,9 @@ route,target
 /Organization/Edit/{organizationId},/tms/targets/org-edit.md
 /Organization/{organizationId},/tms/targets/org-profile-my-orgs.md
 /ScormModule/SearchAttempts,/tms/targets/scorm-attempts-find.md
-/ScormModule/Create,/tms/tms-administrators/courses-and-activities/create-scorm-module.md
+/ScormModule/Create,/tms/tms-administrators/courses-and-activities/other-activities/create-scorm-module.md
 /ScormModule/Search,/tms/targets/scorm-find.md
-/ScormModule/{scormModuleId},/tms/tms-administrators/courses-and-activities/start-scorm-module.md
+/ScormModule/{scormModuleId},/tms/tms-administrators/courses-and-activities/other-activities/start-scorm-module.md
 /Survey/Create,/tms/targets/survey-create.md
 /Survey/{surveyId},/tms/tms-administrators/miscellaneous/analyze-survey-results.md
 /User/Create,/tms/targets/user-create-edit.md

@@ -1,5 +1,5 @@
 <style>
-    h1:first-of-type {margin-top:0;}
+    h1:first-of-type {margin-top:0;}
 </style>
 
 <div class="categories">

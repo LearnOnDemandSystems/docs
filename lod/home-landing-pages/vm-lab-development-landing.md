@@ -14,11 +14,17 @@
 
 - [**Custom UUID on VMware Virtual Machines**](/lod/uuid.md) - Assign a custom unique ID to a virtual machine hosted on a VMware host.
 
+* [**Differencing Disk Capture**](/lod/capture-differencing-disks.md) - Capture differencing disks from a running lab, to store changes made on the virtual machine in the lab. 
+
 * [**Differencing Disk Rollback**](/lod/differencing-disks.md) - Rollback differencing disks to a previous configuration or add differencing disks back to a disk chain after they have been removed.
 
 * [**Docker Support**](/lod/docker.md) - Supported Docker configurations.
 
 * [**Lab Network Restrictions**](/lod/lab-networks.md) - Overview of the networks available to labs and any network restrictions. 
+
+* [**Lab Profile Creation and Explanation**](/lod/feature-focus/lab-profiles/create.md) - Lab profile creation, and explanation of lab profile configuration.
+
+* [**Lab Series Creation and Explanation**](/lod/lab-series.md) - Lab Series creation, and explanation of lab series configuration.
 
 * [**Life Cycle Actions**](/lod/life-cycle-actions.md) - Define actions to occur at certain times within the lab's life cycle, such as calling an external service when the lab builds, or sending a notification to the user when the lab is resumed. 
 
@@ -27,3 +33,6 @@
 * [**SSH Terminal Access**](/lod/terminal-access.md) - Configure virtual machines for SSH terminal access. 
 
 * [**Virtual Machine Based Lab Development - Best Practices**](/lod/vm-based-lab-build-best-practices.md) - Recommendations and best practices for cloud-hosted and datacenter-hosted virtual machines.
+
+* [**Virtual Machine Profile Creation and Explanation**](/lod/vm-profiles.md) - Virtual machine profile creation, and explanation of virtual machine profile configuration.
+

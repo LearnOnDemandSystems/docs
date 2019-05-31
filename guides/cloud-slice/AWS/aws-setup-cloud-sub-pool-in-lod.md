@@ -33,17 +33,10 @@ To add a Cloud Subscription Pool to OneLearn Lab on Demand (LOD), perform the fo
 
    |Field Name|Description|
    |----|----|
-   |**Tenant&nbsp;Name**|Enter a domain name where an email server is setup that can receive email from AWS support. In the event that a sliced account needs to be deleted or recovered, a password reset email can be sent to this domain. The email server should have a catch all inbox to receive the emails, and can optionally have a white list rule to only allow messages from AWS Support.|
-   |**Application&nbsp;Id**|The identifier that uniquely identifies the client used to manage your cloud service subscription.|
-   |**Application&nbsp;Secret**|The secret used to authenticate your client id in your cloud service subscription.|
-
-<!-- Updated table below. Uncomment after deployment. 
-   |Field Name|Description|
-   |----|----|
    |**Catch&nbsp;All&nbsp;Domain**|When AWS accounts are created for cloud slice, the root users will use this domain in the email address. It is best practice to have a catch all email inbox for all emails from AWS supposrt for password reset requests if access is required to one of the root user accoutns. If you choose to close an account, this will be required to gain access to the root user account. |
    |**Access&nbsp;Key&nbsp;Id**|Security Credential Access key secret for a user with Programmatic access in IAM. This is generated from the user settings Security Credentials in IAM.|
    |**Access&nbsp;Key&nbsp;Secret**|Security Credential Access key ID for a user with Programmatic access in IAM. This is generated from the user settings Security Credentials tab in IAM.|
--->
+
    
 
 1. On the **Automation Tab**, assign values to **Number of Subscriptions** and **Subscription Name Prefix**.
