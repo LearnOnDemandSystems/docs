@@ -3,6 +3,8 @@
 </style>
 
 <div class="categories">
+  
+  /* Featured posts */
   <div class="categoriesHeader">Featured posts</div>
   <div class="cardContainerFull">
     <div class="cardContent">
@@ -20,7 +22,7 @@
           <span class="categoryDescription">Explanation of Lab on Demand UI.</span>
         </a>
       </div>
-      <div class="category">  
+      <div class="category">
         <a href="/guides/cloud-slice/microsoft-azure/cloud-slice-find-resource-templates.md" class="categoryThread">
           <i class="material-icons light-blue">bookmarks</i>
           <span class="categoryTitleFeatured">Azure Resource Templates</span>
@@ -29,7 +31,8 @@
       </div>
       <div class="viewAll"><a class="viewAllLink">View all</a></div>
     </div>
-  </div>
+  </div> /* End featured posts section*/
+  
   <div class="categoriesHeader">Categories</div>
   <div class="cardsContainer">
     <div class="cardContainer">
