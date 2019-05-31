@@ -1,5 +1,3 @@
-!instructions[](/lod/searchOptions.md)
-
 <style>
     h1:first-of-type {margin-top:0;}
 </style>
