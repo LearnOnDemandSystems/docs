@@ -44,6 +44,7 @@
           Max of 3 items - replace href (link), text in categoryTitle
     -->
     <div class="cardContainer">
+      <!-- Begin categories section.. -->
       <div class="cloudSlice cardContent">
         <div class="cardHeader">Cloud Slice Lab Development</div>
         <div class="category">
