@@ -13,7 +13,7 @@
     4. Notify Corey B. of the addition of a new document so he can add it to the search module.
 -->
 
-<div class="topicHeader">Lab on Demand Index</div>
+<div class="categoriesHeader">Lab on Demand Index</div>
 <div class="accordionModule">
   <div class="subtopic selected">
     <div id="header_1" class="subtopic_header">A-Z Help</div>

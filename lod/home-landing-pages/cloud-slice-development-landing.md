@@ -10,10 +10,10 @@
         subtopic_title text with your document's title
         subtopic_description text with your document's description
     3. Place in respective subtopic group
-    4. Notify Corey B. of the addition of a new document so he can add it to the search module.
+    4. Ensure to add the new document in A-Z index
 -->
 
-<div class="topicHeader">Cloud Slice Lab Development</div>
+<div class="categoriesHeader">Cloud Slice Lab Development</div>
 <div class="accordionModule">
   <div class="subtopic selected">
     <div class="subtopic_header">Amazon Web Services Cloud Slice Development</div>

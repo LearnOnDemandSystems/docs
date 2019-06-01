@@ -13,7 +13,7 @@
     4. Ensure to add the new document in A-Z index
 -->
 
-<div class="topicHeader">Administration</div>
+<div class="categoriesHeader">Administration</div>
 <div class="accordionModule">
   <div class="subtopic selected">
     <div id="header_1" class="subtopic_header">Lab on Demand Administration</div>

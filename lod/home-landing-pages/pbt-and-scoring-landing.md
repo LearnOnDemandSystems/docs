@@ -13,7 +13,7 @@
     4. Ensure to add the new document in A-Z index
 -->
 
-<div class="topicHeader">Performance Based Tested - Scoring</div>
+<div class="categoriesHeader">Performance Based Tested - Scoring</div>
 <div class="accordionModule">
   <div class="subtopic selected">
     <div id="header_1" class="subtopic_header">Lab Instruction Authoring</div>

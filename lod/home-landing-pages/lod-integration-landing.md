@@ -13,7 +13,7 @@
     4. Ensure to add the new document in A-Z index
 -->
 
-<div class="topicHeader">Lab on Demand Integration</div>
+<div class="categoriesHeader">Lab on Demand Integration</div>
 <div class="accordionModule">
   <div class="subtopic selected">
     <div id="header_1" class="subtopic_header">API</div>
