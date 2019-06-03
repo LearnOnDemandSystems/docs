@@ -119,7 +119,7 @@ To launch a lab via an API request in Postman:
 
     ![](images/get-selected.png)
 
-1. Copy the example API request below from the [Launch API documentation](https://docs.learnondemandsystems.com/lod/lod-api/lod-api-launch.md):
+1. Copy the example API request below from the [Launch API request documentation](https://docs.learnondemandsystems.com/lod/lod-api/lod-api-launch.md):
 
     - `https://labondemand.com/api/v3/launch?labid=100&userid=555&firstname=Joe&lastname=Smith&email=joe.smith@email.com`
 
