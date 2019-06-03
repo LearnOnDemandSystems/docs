@@ -30,5 +30,5 @@ Please visit our [customer support page](http://www.learnondemandsystems.com/cus
 
 ## Integration
 
-Interested in integrating your system with Lab and Demand? Check out our [API](/lod/lod-api/lod-api-main.md).
+Interested in integrating your system with Lab on Demand? Check out our [API](/lod/lod-api/lod-api-main.md).
 
