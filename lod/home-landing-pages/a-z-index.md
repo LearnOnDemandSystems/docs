@@ -80,5 +80,7 @@
 
 * [**Virtual Machine Based Lab Development - Best Practices**](/lod/vm-based-lab-build-best-practices.md) - Recommendations and best practices for cloud-hosted and datacenter-hosted virtual machines.
 
+* [**Virtual Machine Based Landing Page Instead of VM**](/lod/vm-based-lab-landing-page.md) - Configure a lab to hide the VM from student view and  display a specified URL instead.
+
 * [**Virtual Machine Profile Creation and Explanation**](/lod/vm-profiles.md) - Virtual machine profile creation, and explanation of virtual machine profile configuration.
 
