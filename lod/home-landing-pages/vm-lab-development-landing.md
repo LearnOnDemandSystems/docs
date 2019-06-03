@@ -87,6 +87,10 @@
         <div class="subtopic_title">Virtual Machine Profile Creation and Explanation</div>
         <div class="subtopic_description">Virtual machine profile creation, and explanation of virtual machine profile configuration.</div>
       </a>
+      <a class="subtopic_link" href="/lod/vm-based-lab-landing-page.md">
+        <div class="subtopic_title">Virtual Machine Based Landing Page Instead of VM</div>
+        <div class="subtopic_description">Configure a lab to hide the VM from student view and display a specified URL instead.</div>
+      </a>
       <a class="subtopic_link" href="/lod/create-Removable-media.md">
         <div class="subtopic_title">Create Removable Media</div>
         <div class="subtopic_description">Removable Media to be used with virtual machines.</div>

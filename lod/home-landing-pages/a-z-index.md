@@ -182,6 +182,14 @@
         <div class="subtopic_title">Virtual Machine Based Lab Development - Best Practices</div>
         <div class="subtopic_description">Recommendations and best practices for cloud-hosted and datacenter-hosted virtual machines.</div>
       </a>
+      <a class="subtopic_link" href="/lod/vm-based-lab-landing-page.md">
+        <div class="subtopic_title">Virtual Machine Based Landing Page Instead of VM</div>
+        <div class="subtopic_description">Configure a lab to hide the VM from student view and display a specified URL instead.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/vm-profiles.md">
+        <div class="subtopic_title">Virtual Machine Profile Creation and Explanation</div>
+        <div class="subtopic_description">Virtual machine profile creation, and explanation of virtual machine profile configuration.</div>
+      </a>
     </div>
   </div>
 </div>
