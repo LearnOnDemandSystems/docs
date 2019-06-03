@@ -182,11 +182,11 @@ To use network features, such as external internet access or communication betwe
 
 ## Resources
 
-1 .**Add Resource:** Click to add resource. 
+1. **Add Resource:** Click to add resource. 
 
-2.**Name:** This will be the display name of the resource.
+2. **Name:** This will be the display name of the resource.
 
-3.**Type:** Select the type of resource to add. Types of resources include:
+3. **Type:** Select the type of resource to add. Types of resources include:
    - External link
    - PDF document
    - Word document
@@ -210,6 +210,7 @@ The Errata is used to give a message to users working in the lab. The Errata app
 
 ## Exam
 
+Exams are used in IDL (legacy) labs only. Exams in IDLx are executed by activity based assessments. For more information about IDLx Activities, read [IDLx Activities](/lod/activities.md)
 1. **Has Exam:** Checking this box enables options 2-5. If the box is unchecked, these options are not applicable. 
 
 2. **Scoring Type:** Select the type of scoring that the lab profile will use. Types of scoring include:
@@ -295,8 +296,8 @@ Unchecking **Inherit storage settings from organization** box will enable additi
     - **Tearing Down**: The lab environment is being torn down.
     - **Torn Down**: The lab environment is fully torn down. 
 
-For more information about Action and Event types, please see our guide [Here](guides/lca/life-cycle-actions-guide.md#life-cycle-actions).
-
+For more information about Action and Event types, please see our [guide](/lod/life-cycle-actions.md)
+   
 ## Tags
 
 1. **Add Tag:** Click to add a tag to the lab profile. The Tag must already be created to add it to the lab profile. 

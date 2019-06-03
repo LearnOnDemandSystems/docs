@@ -28,6 +28,8 @@
 
 - [**Custom UUID on VMware Virtual Machines**](/lod/uuid.md) - Assign a custom unique ID to a virtual machine hosted on a VMware host.
 
+* [**Differencing Disk Capture**](/lod/capture-differencing-disks.md) - Capture differencing disks from a running lab, to store changes made on the virtual machine in the lab. 
+
 * [**Differencing Disk Rollback**](/lod/differencing-disks.md) - Rollback differencing disks to a previous configuration or add differencing disks back to a disk chain after they have been removed.
 
 * [**Docker Support**](/lod/docker.md) - Supported Docker configurations.
@@ -77,4 +79,6 @@
 - [**Upgrade IDL (legacy) to IDLx**](/lod/idlx-migration-guide.md) - This document assists in upgrading an IDL (legacy) lab to IDLx.
 
 * [**Virtual Machine Based Lab Development - Best Practices**](/lod/vm-based-lab-build-best-practices.md) - Recommendations and best practices for cloud-hosted and datacenter-hosted virtual machines.
+
+* [**Virtual Machine Profile Creation and Explanation**](/lod/vm-profiles.md) - Virtual machine profile creation, and explanation of virtual machine profile configuration.
 
