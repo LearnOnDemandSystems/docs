@@ -4,7 +4,7 @@
 
 **VM Based Labs Landing Page**
 
-- Lab profiles that have virtual machines but are not visible to the student can now be configured to a specific landing page instead of a blank VM window. The landing page is configured in the cloud tab, and can be configured to any URL.
+- Lab profiles that have virtual machines but are not visible to the student can now be configured to a specific landing page instead of a blank VM window. The landing page is configured in the cloud tab, and can be configured to any URL. For more information about setting this up, read [VM Based Lab Landing Page](/lod/vm-based-lab-landing-page.md).
 
 - Fix a bug that prevented nested task lists from rendering markdown properly in IDLx instructions. 
 
