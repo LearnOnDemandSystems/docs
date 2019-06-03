@@ -35,7 +35,7 @@ To capture a differencing disk:
 >[!alert] All impacted virtual machines will be shut down during the save procedure and restarted after the save is complete.
 
 <!--
-## Differencing Disk Management and 
+## Differencing Disk Management 
 
 Lab developers have options for managing differencing disks. They can delete, rename or move files associated with the differencing disks.
 
