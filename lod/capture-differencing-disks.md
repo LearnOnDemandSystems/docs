@@ -74,7 +74,7 @@ To manage differencing disk files:
 
 - After installing the operating system and completing software configurations, you should consider using a second differencing disk capture for any files needed in the lab. If you need to add or remove these files later, you will be making changes to a much smaller disk. Additionally, this allows you to use the disk in different lab profiles that may need to use those lab files. 
 
-- Manually shut down the Vm before capturing a differencing disk.
+- Manually shut down the VM before capturing a differencing disk.
 
     - When capturing a differencing disk, part of the automated process shuts down the VM before capturing the differencing disk. In some scenarios, a processes in Windows (such as Windows updates) could prevent a graceful shutdown of the VM, and cause the disk capture to time out. 
 
