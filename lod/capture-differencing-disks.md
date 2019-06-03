@@ -49,7 +49,7 @@ To manage differencing disk files:
 
 ## Best Practices and Recommendations 
 
-### Reduce capture time and disk size
+### Reduce Capture Time and Disk Size
 
  - Begin working with a VM that has no differencing disks captured already. 
 
