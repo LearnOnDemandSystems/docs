@@ -4,7 +4,7 @@
 
 Activities fall into two broad categories: Questions and Automated. 
 - Questions are simply multiple choice or short answer questions. 
-- Automated Activities have a script configured to run against a cloud subscription or Windows-based virtual machines running on Hyper-V in the lab.  
+- Automated Activities have a script configured to run against a cloud subscription or virtual machines running on Hyper-V or VMware in the lab.  
 
 > [!KNOWLEDGE] If your lab profile does not use a Cloud Subscription, or if it does not have virtual machines configured, Automated Activities are not available in the Activities menu. 
 
