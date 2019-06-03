@@ -1,5 +1,17 @@
 # What's New in Lab On Demand
 
+## **Released May 31, 2019**
+
+**VM Based Labs Landing Page**
+
+- Lab profiles that have virtual machines but are not visible to the student can now be configured to a specific landing page instead of a blank VM window. The landing page is configured in the cloud tab, and can be configured to any URL.
+
+- Fix a bug that prevented nested task lists from rendering markdown properly in IDLx instructions. 
+
+**Bug Fixes and Improvements**
+
+- Labs that use AWS virtualization now require an AWS region to be selected before saving the lab profile.
+
 ## **Released May 24, 2019**
 
 **AWS Improvments**
