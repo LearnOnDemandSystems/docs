@@ -9,7 +9,7 @@ Markdown is an easy to use markup language to format text, that offers multiple 
 [Link formatting](#link-formatting)  
 [Page formatting](#page-formatting)  
 [Embedded content](#embedded-content)  
-[List formatting](#list-formatting)  
+[Task and List formatting](#task-and-list-formatting)  
 [Table formatting](#table-formatting)  
 [Special formatting](#special-formatting)  
 
@@ -206,7 +206,7 @@ It's also possible to simply supply the width: {width}. In this case, the height
   
   [Return to Markdown formatting](#markdown-supports-the-following-types-of-formatting)
 
-## List formatting
+## Task and List formatting
 
 - **Unordered list:** Used to list items in no particular order, separated by bullets rather than numbers. Type a - (dash or hyphen) followed by a space and then the text to be listed. Pressing enter at the end of the text will start the next line with a bullet. 
 
@@ -214,48 +214,20 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
 - Both Unordered and Ordered lists can contain Task Checkboxes for the student to check off steps as completed. Both list types can be combined in the same list. Task Checkboxes are used track and report lab progress to LOD and TMS, as well as a visual marker for students. Lab progress is calculated by the percentage of Task Checkboxes that are checked in the lab instructions.
 
-### Unordered list **without** Task Checkboxes: 
- 
-```
-- Item 1
-    - Item 1.1
-        - Item 1.1.1
-        - Item 1.1.2
-    - Item 1.2
-- Item 2
-```
-
-### Ordered list **without** Task Checkboxes:
-
-```
-1. Item 1
-    1. Item 1.1
-        1. Item 1.1.1
-        1. Item 1.1.2
-    1. Item 1.2
-1. Item 2
-```
-
-### Unordered list **with** Task Checkboxes:
-
-```
+```Unordered_Task_List
 - [] Item 1
-    - [] Item 1.1
-        - [] Item 1.1.1
-        - [] Item 1.1.2
-    - [] Item 1.2
 - [] Item 2
+- [] Item 3
+- [] Item 4
+- [] Item 5
 ```
 
-### Ordered list **with** Task Checkboxes:
-
-```
+```Ordered_Task_List
 1. [] Item 1
-    1. [] Item 1.1
-        1. [] Item 1.1.1
-        1. [] Item 1.1.2
-    1. [] Item 1.2
 1. [] Item 2
+1. [] Item 3
+1. [] Item 4
+1. [] Item 5
 ```
 
 ## Table formatting
