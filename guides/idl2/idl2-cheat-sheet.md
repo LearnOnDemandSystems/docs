@@ -177,44 +177,22 @@ Multi-Line
 [1]: URL "Optional link title"
 ```
 ---
-<font size="3">**List Formatting**</font>
+<font size="3">**Tasks**</font>
 
-Lists **without** checkboxes:       
-```Unordered_List
-- Item 1
-    - Item 1.1
-        - Item 1.1.1
-        - Item 1.1.2
-    - Item 1.2
-- Item 2
-```
-```Ordered_List
-1. Item 1
-    1. Item 1.1
-        1. Item 1.1.1
-        1. Item 1.1.2
-    1. Item 1.2
-1. Item 2
-```
-
-Lists **with** checkboxes
-
-```Unordered_List
+```Unordered_Task_List
 - [] Item 1
-    - [] Item 1.1
-        - [] Item 1.1.1
-        - [] Item 1.1.2
-    - [] Item 1.2
 - [] Item 2
+- [] Item 3
+- [] Item 4
+- [] Item 5
 ```
 
-```Ordered_List
+```Ordered_Task_List
 1. [] Item 1
-    1. [] Item 1.1
-        1. [] Item 1.1.1
-        1. [] Item 1.1.2
-    1. [] Item 1.2
 1. [] Item 2
+1. [] Item 3
+1. [] Item 4
+1. [] Item 5
 ```
 
 ---
