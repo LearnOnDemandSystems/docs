@@ -135,7 +135,7 @@
               <span class="categoryTitle">Cloud Slice Setup Guide</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/cloud-slice-development-landing.md">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing-page.md">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -159,7 +159,7 @@
               <span class="categoryTitle">Lab Network Restrictions</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/vm-lab-development-landing.md">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing-page.md">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -183,7 +183,7 @@
               <span class="categoryTitle">IDLx Authoring Guide</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/pbt-and-scoring-landing.md">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing-page.md">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -207,7 +207,7 @@
               <span class="categoryTitle">Lab on Demand API Documentation</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-integration-landing.md">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing-page.md">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
