@@ -8,6 +8,26 @@
 
 # What's New in the TMS
 
+## Released June 3 2019
+
+### <span style="color:#0078d7;">Accessibility Updates</span>
+
+We have made several improvements to student facing pages to ensure they are accessble to all students. These include:
+
+- The **Sign In** dialog choices now have dotted outlines when they are in focus.
+- System messages and temporary status messages will now stay open until you close them or leave the page. In addition, if you are using a screen reader, the messages and their **Close** (**X**) button are now read.
+- The **Course Image** on the **Course Profile** page now has the **ALT text** attribute.
+- Pages available to students have been parsed correctly.
+- The **Search** link on the **Course Profile** page has been hidden. Students should use the Course Catalog, if available to search for courses.
+- The tabs on the **Simple Course Assignment** page now wrap if the window is zoomed or resized to be smaller. In addition, if you are using a screen reader, the tabs are now read as part of a list including their number in the list and their status at point of focus and selection. The tabs' contents are also read when you enter the tab and give it focus.
+
+### <span style="color:#0078d7;">TMS Update and Fixes</span>
+
+- You can now use the arrow keys and **Enter** to scroll the **Admin menu** search results to select an item from the results.
+- Course activities now properly roll-up their prices to the course level, regardless of whether they are in a section or not. This was already in Production as an emergency hotfix in May.
+
+----------------------------
+
 ## Released May 9 2019
 
 ### <span style="color:#0078d7;">CreateClass and UpdateClass API Methods Simplified and Updated</span>
@@ -19,6 +39,8 @@ The **CreateClass** and **UpdateClass** API methods have been simplified for use
 ### <span style="color:#0078d7;">TMS Update</span>
 
 The **GetClass** API call now returns the time zone and organizational availability of the class.
+
+----------------------------
 
 ## Released May 2 2019
 
