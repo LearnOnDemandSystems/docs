@@ -51,11 +51,11 @@ To manage differencing disk files:
 
 ### Reduce Capture Time and Disk Size
 
- - Begin working with a VM that has no differencing disks captured already. 
+- Begin working with a VM that has no differencing disks captured already. 
 
 - Make a checklist of all configuration items you need to accomplish, from installing the OS, to configuring all the software the lab will need to support. 
 
-    - Capture a complete configuration. Capturing a diff after every small change made in the lab is inefficient  (unless the only change needed is a small one).
+- Capture a complete configuration. Capturing a diff after every small change made in the lab is inefficient  (unless the only change needed is a small one).
 
     >[!knowledge] When capturing several differencing disks, this can cause the chain of disks to become very long. Long disk chains can impact I/O performance in the VM. It is recommended to have a maximum of 3 disks per chain, where possible. Capturing the first disk will result in one parent disk and a single child disk. 
 
