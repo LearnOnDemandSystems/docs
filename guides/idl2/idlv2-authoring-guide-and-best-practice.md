@@ -548,7 +548,7 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
     ![](images/video-link.png "Video Link")
 
-### Tasks and List formatting
+### Task and List formatting
 
 - **Unordered list:** Used to list items in no particular order, separated by bullets rather than numbers. Type a - (dash or hyphen) followed by a space and then the text to be listed. Pressing enter at the end of the text will start the next line with a bullet. 
 - **Ordered list:** Used to list items in a particular order, separated by numbers rather than bullets. Type the number 1, followed by a space and then the text to be listed. Pressing enter at the end of the text will start the next line with number 2.
