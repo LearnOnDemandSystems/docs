@@ -18,7 +18,7 @@ We have made several improvements to student facing pages to ensure they are acc
 - System messages and temporary status messages will now stay open until you close them or leave the page. In addition, if you are using a screen reader, the messages and their **Close** (**X**) button are now read.
 - The **Course Image** on the **Course Profile** page now has the **ALT text** attribute.
 - Pages available to students have been parsed correctly.
-- The **Search** link on the **Course Profile** page has been hidden. Students should use the Course Catalog, if available to search for courses.
+- The **Search** link on the **Course Profile** page has been hidden for students. They should use the **Course Catalog**, if available to search for courses.
 - The tabs on the **Simple Course Assignment** page now wrap if the window is zoomed or resized to be smaller. In addition, if you are using a screen reader, the tabs are now read as part of a list including their number in the list and their status at point of focus and selection. The tabs' contents are also read when you enter the tab and give it focus.
 
 ### <span style="color:#0078d7;">TMS Update and Fixes</span>
