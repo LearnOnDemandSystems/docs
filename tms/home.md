@@ -6,7 +6,7 @@
   
   <!-- Begin featured posts section.. 
         Max of 3 items - replace href (link), text in categoryTitleFeatured, text in categoryDescription
-  -->
+
   <div class="categoriesHeader">Featured posts</div>
   <div class="cardContainerFull">
     <div class="cardContent">
@@ -34,7 +34,7 @@
       <div class="viewAll"><a class="viewAllLink">View all</a></div>
     </div>
   </div> 
-  <!-- ..End featured posts section -->
+  ..End featured posts section -->
   
   <div class="studentCategory userTypeSection">
     <!-- Begin categories section.. -->
