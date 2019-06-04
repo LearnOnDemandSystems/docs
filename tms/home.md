@@ -30,7 +30,7 @@
                 <span class="categoryTitle">Cloud Slice Setup Guide</span>
               </a>
             </div>
-            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing-page.md">View all</a></div>
+            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing.md">View all</a></div>
           </div>
         </div>
         <div class="cardContainer">
@@ -54,7 +54,7 @@
                 <span class="categoryTitle">Lab Network Restrictions</span>
               </a>
             </div>
-            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing-page.md">View all</a></div>
+            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing.md">View all</a></div>
           </div>
         </div>
         <div class="cardContainer">
@@ -78,7 +78,7 @@
                 <span class="categoryTitle">IDLx Authoring Guide</span>
               </a>
             </div>
-            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing-page.md">View all</a></div>
+            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing.md">View all</a></div>
           </div>
         </div>
         <div class="cardContainer">
@@ -102,7 +102,7 @@
                 <span class="categoryTitle">API Best Practices and How to Use an API Consumer</span>
               </a>
             </div>
-            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing-page.md">View all</a></div>
+            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing.md">View all</a></div>
           </div>
         </div>
       </div>
@@ -135,7 +135,7 @@
               <span class="categoryTitle">Cloud Slice Setup Guide</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing-page.md">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -159,7 +159,7 @@
               <span class="categoryTitle">Lab Network Restrictions</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing-page.md">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -183,7 +183,7 @@
               <span class="categoryTitle">IDLx Authoring Guide</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing-page.md">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -207,7 +207,7 @@
               <span class="categoryTitle">Lab on Demand API Documentation</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing-page.md">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -289,7 +289,7 @@
               <span class="categoryTitle">How do I set the defaults for creating users and classes?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-fundamentals-landing-page.md">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-fundamentals-landing.md">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -313,7 +313,7 @@
               <span class="categoryTitle">How do I create classrooms?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-classes-landing-page.md">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-classes-landing.md">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -337,7 +337,7 @@
               <span class="categoryTitle">How do I find users?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-users-landing-page.md">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-users-landing.md">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -358,10 +358,10 @@
           <div class="category">
             <a href="" class="categoryThread">
               <i class="material-icons light-green"></i>
-              <span class="categoryTitle">L</span>
+              <span class="categoryTitle"></span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-self-paced-learning-and-subscriptions-landing-page.md">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-self-paced-learning-and-subscriptions-landing.md">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -385,7 +385,7 @@
               <span class="categoryTitle">How do I create a SCORM Module and make it available to other organizations for their courses?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-courses-and-activities-landing-page.md">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-courses-and-activities-landing.md">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -409,7 +409,7 @@
               <span class="categoryTitle">How can I control posts on discussions?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-discussions-landing-page.md">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-discussions-landing.md">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -433,7 +433,7 @@
               <span class="categoryTitle">Do I want to use a survey or an assessment?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-miscellaneous-landing-page.md">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-miscellaneous-landing.md">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -457,7 +457,7 @@
               <span class="categoryTitle">API Best Practices and How to Use an API Consumer</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-az-landing-page.md">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-az-landing.md">View all</a></div>
         </div>
       </div>
     </div>
