@@ -4,7 +4,7 @@
 
 <div class="categories">
   
-  <div class="studentCategory userTypeSection">
+  <div class="studentCategory userTypeSection visible">
     <!-- Begin categories section.. -->
     <div class="categoriesHeader">Student</div>
       <div class="cardsContainer">
