@@ -8,6 +8,8 @@
 
 # What's New in the TMS
 
+<span style="font-size:80%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
+
 ## Released June 3 2019
 
 ### <span style="color:#0078d7;">Accessibility Updates</span>
