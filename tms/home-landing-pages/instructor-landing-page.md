@@ -13,109 +13,102 @@
     4. Ensure to add the new document in A-Z index
 -->
 
-<div class="categoriesHeader">Student FAQs</div>
+<div class="categoriesHeader">Instructor</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div class="subtopic_header">Basics</div>
+    <div class="subtopic_header">General</div>
     <div id="body_1" class="subtopic_links">
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/forgot-password.md">
-        <div class="subtopic_title">What do I do if I forgot my password?</div>
+      <a class="subtopic_link" href="/tms/instructors/general/what-is-a-contract-instructor.md">
+        <div class="subtopic_title">What does it mean to be a contract instructor?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/change-password.md">
-        <div class="subtopic_title">How do I change my password?</div>
+      <a class="subtopic_link" href="/tms/tms-adminisrators/tms-fundamentals/admin-menu.md">
+        <div class="subtopic_title">What is the Admin menu and how does it work?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/change-user-profile.md">
-        <div class="subtopic_title">How do I access and change my user profile?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/where-do-i-get-help.md">
-        <div class="subtopic_title">How can I reach someone for help?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/windows-server-os.md">
-        <div class="subtopic_title">Important Note for Windows Server Operating Systems Users</div>
+      <a class="subtopic_link" href="/tms/instructors/general/reset-student-password.md">
+        <div class="subtopic_title">How do I, as an Instructor, reset a student's password?</div>
       </a>
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header">Labs</div>
+    <div class="subtopic_header">Preparation and Classes</div>
     <div class="subtopic_links">
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-without-user-account.md">
-        <div class="subtopic_title">How do I access my labs using a lab code without a user account?</div>
+      <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/prepare-for-course-not-scheduled-to-teach.md">
+        <div class="subtopic_title">How do I prepare for a course that I am not scheduled to teach?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-with-user-account.md">
-        <div class="subtopic_title">How do I access my labs for a class using a lab code when I have a user account?</div>
+      <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/find-classes-scheduled-to-teach.md">
+        <div class="subtopic_title">How do I find classes I am scheduled to teach?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-without-code.md">
-        <div class="subtopic_title">How do I access my labs for a class without a lab code?</div>
+      <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/get-to-class-scheduled-to-teach.md">
+        <div class="subtopic_title">How do I get to a class I am scheduled to teach?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/access-completed-labs.md">
-        <div class="subtopic_title">Why can't I find my completed labs?</div>
+      <a class="subtopic_link" href="/tms/tms-administrators/discussions/participation.md">
+        <div class="subtopic_title">How do my students and I participate in discussions?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/difference-between-lab-expiration-and-lab-access.md">
-        <div class="subtopic_title">Why does my lab expire within a week when I am supposed to have access to it for a longer time?</div>
+      <a class="subtopic_link" href="/tms/tms-administrators/discussions/admin-follow.md">
+        <div class="subtopic_title">How can I be notified of activity on a discussion?</div>
       </a>
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header">Classes and Self-Paced Learning</div>
+    <div class="subtopic_header">Student Labs</div>
     <div class="subtopic_links">
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/class-self-paced/get-into-virtual-classroom.md">
-        <div class="subtopic_title">How do I get into my virtual classroom?</div>
+      <a class="subtopic_link" href="/tms/instructors/student-labs/assist-students.md">
+        <div class="subtopic_title">How do I assist my students with their labs?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/class-self-paced/discussions.md">
-        <div class="subtopic_title">How do I participate in a discussion?</div>
+      <a class="subtopic_link" href="/tms/instructors/student-labs/share-files-with-students.md">
+        <div class="subtopic_title">How do I share files with students?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/class-self-paced/print-completion-certificate.md">
-        <div class="subtopic_title">How do I print my completion certificate?</div>
+    </div>
+  </div>
+  <div class="subtopic">
+    <div class="subtopic_header">Profile</div>
+    <div class="subtopic_links">
+      <a class="subtopic_link" href="/tms/instructors/instructor-profile/show-unavailable-times.md">
+        <div class="subtopic_title">How can I show times when I am unavailable?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/class-self-paced/access-my-courseware.md">
-        <div class="subtopic_title">What is the Access Courseware button and how do I use it?</div>
+      <a class="subtopic_link" href="/tms/instructors/instructor-profile/show-courses-qualified-to-teach.md">
+        <div class="subtopic_title">How can I show what I am qualified to teach?</div>
       </a>
     </div>
   </div>
   <div class="subtopic">
     <div class="subtopic_header">A-Z Index</div>
     <div class="subtopic_links">
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/where-do-i-get-help.md">
-        <div class="subtopic_title">How can I reach someone for help?</div>
+      <a class="subtopic_link" href="/tms/tms-administrators/discussions/admin-follow.md">
+        <div class="subtopic_title">How can I be notified of activity on a discussion?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/change-user-profile.md">
-        <div class="subtopic_title">How do I access and change my user profile?</div>
+      <a class="subtopic_link" href="/tms/instructors/instructor-profile/show-unavailable-times.md">
+        <div class="subtopic_title">How can I show times when I am unavailable?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-with-user-account.md">
-        <div class="subtopic_title">How do I access my labs for a class using a lab code when I have a user account?</div>
+      <a class="subtopic_link" href="/tms/instructors/instructor-profile/show-courses-qualified-to-teach.md">
+        <div class="subtopic_title">How can I show what I am qualified to teach?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-without-code.md">
-        <div class="subtopic_title">How do I access my labs for a class without a lab code?</div>
+      <a class="subtopic_link" href="/tms/instructors/general/reset-student-password.md">
+        <div class="subtopic_title">How do I, as an Instructor, reset a student's password?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-without-user-account.md">
-        <div class="subtopic_title">How do I access my labs using a lab code without a user account?</div>
+      <a class="subtopic_link" href="/tms/instructors/student-labs/assist-students.md">
+        <div class="subtopic_title">How do I assist my students with their labs?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/change-password.md">
-        <div class="subtopic_title">How do I change my password?</div>
+      <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/find-classes-scheduled-to-teach.md">
+        <div class="subtopic_title">How do I find classes I am scheduled to teach?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/class-self-paced/get-into-virtual-classroom.md">
-        <div class="subtopic_title">How do I get into my virtual classroom?</div>
+      <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/get-to-class-scheduled-to-teach.md">
+        <div class="subtopic_title">How do I get to a class I am scheduled to teach?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/class-self-paced/discussions.md">
-        <div class="subtopic_title">How do I participate in a discussion?</div>
+      <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/prepare-for-course-not-scheduled-to-teach.md">
+        <div class="subtopic_title">How do I prepare for a course that I am not scheduled to teach?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/class-self-paced/print-completion-certificate.md">
-        <div class="subtopic_title">How do I print my completion certificate?</div>
+      <a class="subtopic_link" href="/tms/instructors/student-labs/share-files-with-students.md">
+        <div class="subtopic_title">How do I share files with students?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/windows-server-os.md">
-        <div class="subtopic_title">Important Note for Windows Server Operating Systems Users</div>
+      <a class="subtopic_link" href="/tms/tms-administrators/discussions/participation.md">
+        <div class="subtopic_title">How do my students and I participate in discussions?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/forgot-password.md">
-        <div class="subtopic_title">What do I do if I forgot my password?</div>
+      <a class="subtopic_link" href="/tms/instructors/general/what-is-a-contract-instructor.md">
+        <div class="subtopic_title">What does it mean to be a contract instructor?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/class-self-paced/access-my-courseware.md">
-        <div class="subtopic_title">What is the Access Courseware button and how do I use it?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/access-completed-labs.md">
-        <div class="subtopic_title">Why can't I find my completed labs?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/difference-between-lab-expiration-and-lab-access.md">
-        <div class="subtopic_title">Why does my lab expire within a week when I am supposed to have access to it for a longer time?</div>
+      <a class="subtopic_link" href="/tms/tms-adminisrators/tms-fundamentals/admin-menu.md">
+        <div class="subtopic_title">What is the Admin menu and how does it work?</div>
       </a>
     </div>
   </div>
