@@ -36,7 +36,7 @@
   </div> 
   <!-- ..End featured posts section -->
   
-  <div class="studentCategory_section">
+  <div class="studentCategory userTypeSection">
     <!-- Begin categories section.. -->
     <div class="categoriesHeader">Student</div>
       <div class="cardsContainer">
@@ -141,7 +141,7 @@
       <!-- -- End categories section -->
     </div>
 
-  <div class="instructorCategory_section">
+  <div class="instructorCategory userTypeSection">
   <!-- Begin categories section.. -->
     <div class="categoriesHeader">Instructor</div>
     <div class="cardsContainer">
@@ -269,7 +269,7 @@
     </div>
   </div>
 
-  <div class="administratorCategory_section">
+  <div class="administratorCategory userTypeSection">
     <!-- Begin categories section.. -->
     <div class="categoriesHeader">Administrator</div>
     <div class="cardsContainer">
