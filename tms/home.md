@@ -36,502 +36,438 @@
   </div> 
   <!-- ..End featured posts section -->
   
+  <div class="studentCategory_section">
+    <!-- Begin categories section.. -->
+    <div class="categoriesHeader">Student</div>
+      <div class="cardsContainer">
+        <div class="cardContainer">
+          <!-- Begin categories section.. -->
+          <div class="cloudSlice cardContent">
+            <div class="cardHeader">Basics</div>
+            <div class="category">
+              <a href="/guides/cloud-slice/aws/aws-cloud-slice-setup.md" class="categoryThread">
+                <i class="material-icons light-blue">cloud_done</i>
+                <span class="categoryTitle">Enable Cloud Slice Support in AWS</span>
+              </a>
+            </div>
+            <div class="category"> 
+              <a href="/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md" class="categoryThread">
+                <i class="material-icons blue">cloud_done</i>
+                <span class="categoryTitle">Setup your Azure cloud subscription in OneLearn Lab on Demand</span>
+              </a>
+            </div>
+            <div class="category">  
+              <a href="/guides/cloud-slice/cloud-slice.md" class="categoryThread">
+                <i class="material-icons light-blue">cloud_done</i>
+                <span class="categoryTitle">Cloud Slice Setup Guide</span>
+              </a>
+            </div>
+            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing-page.md">View all</a></div>
+          </div>
+        </div>
+        <div class="cardContainer">
+          <div class="vmLabDev cardContent">
+            <div class="cardHeader">Labs</div>
+            <div class="category">
+              <a href="../lod/idlx-development-best-practices.md" class="categoryThread">
+                <i class="material-icons light-green">input</i>
+                <span class="categoryTitle">IDLx Lab Development Best Practices</span>
+              </a>
+            </div>
+            <div class="category">
+              <a href="/lod/docker.md" class="categoryThread">
+                <i class="material-icons green">input</i>
+                <span class="categoryTitle">Docker Support</span>
+              </a>
+            </div>
+            <div class="category">
+              <a href="/lod/lab-networks.md" class="categoryThread">
+                <i class="material-icons light-green">input</i>
+                <span class="categoryTitle">Lab Network Restrictions</span>
+              </a>
+            </div>
+            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing-page.md">View all</a></div>
+          </div>
+        </div>
+        <div class="cardContainer">
+          <div class="pbt_scoring cardContent">
+            <div class="cardHeader">Classes and Self-Paced Learning</div>
+            <div class="category">
+              <a href="/lod/activities.md" class="categoryThread">
+                <i class="material-icons light-blue">assessment</i>
+                <span class="categoryTitle">IDLx Activities</span>
+              </a>
+            </div>
+            <div class="category">
+              <a href="terminal-access.md" class="categoryThread">
+                <i class="material-icons blue">assessment</i>
+                <span class="categoryTitle">SSH Terminal Access</span>
+              </a>
+            </div>
+            <div class="category">
+              <a href="/guides/idl2/idlv2-authoring-guide-and-best-practice.md" class="categoryThread">
+                <i class="material-icons light-blue">assessment</i>
+                <span class="categoryTitle">IDLx Authoring Guide</span>
+              </a>
+            </div>
+            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing-page.md">View all</a></div>
+          </div>
+        </div>
+        <div class="cardContainer">
+          <div class="azIndex cardContent">
+            <div class="cardHeader">A-Z Index</div>
+            <div class="category">
+              <a href="access-control-lists.md" class="categoryThread">
+                <i class="material-icons light-green">help</i>
+                <span class="categoryTitle">Access Control Lists</span>
+              </a>
+            </div>
+            <div class="category">
+              <a href="/lod/aws-capabilities.md" class="categoryThread">
+                <i class="material-icons green">help</i>
+                <span class="categoryTitle">Amazon Web Services API Capabilities</span>
+              </a>
+            </div>
+            <div class="category">
+              <a href="/lod/how-to-use-api-consumer.md" class="categoryThread">
+                <i class="material-icons light-green">help</i>
+                <span class="categoryTitle">API Best Practices and How to Use an API Consumer</span>
+              </a>
+            </div>
+            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing-page.md">View all</a></div>
+          </div>
+        </div>
+      </div>
+      <!-- -- End categories section -->
+    </div>
+
+  <div class="instructorCategory_section">
   <!-- Begin categories section.. -->
-  <div class="categoriesHeader">Student</div>
-  <div class="cardsContainer">
-
-    <!-- Card - Cloud Slice Lab Development 
-          Max of 3 items - replace href (link), text in categoryTitle
-    -->
+    <div class="categoriesHeader">Instructor</div>
+    <div class="cardsContainer">
     <div class="cardContainer">
-      <!-- Begin categories section.. -->
-      <div class="cloudSlice cardContent">
-        <div class="cardHeader">Basics</div>
-        <div class="category">
-          <a href="/guides/cloud-slice/aws/aws-cloud-slice-setup.md" class="categoryThread">
-            <i class="material-icons light-blue">cloud_done</i>
-            <span class="categoryTitle">Enable Cloud Slice Support in AWS</span>
-          </a>
+        <!-- Begin categories section.. -->
+        <div class="cloudSlice cardContent">
+          <div class="cardHeader">General</div>
+          <div class="category">
+            <a href="/guides/cloud-slice/aws/aws-cloud-slice-setup.md" class="categoryThread">
+              <i class="material-icons light-blue">cloud_done</i>
+              <span class="categoryTitle">Enable Cloud Slice Support in AWS</span>
+            </a>
+          </div>
+          <div class="category"> 
+            <a href="/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md" class="categoryThread">
+              <i class="material-icons blue">cloud_done</i>
+              <span class="categoryTitle">Setup your Azure cloud subscription in OneLearn Lab on Demand</span>
+            </a>
+          </div>
+          <div class="category">  
+            <a href="/guides/cloud-slice/cloud-slice.md" class="categoryThread">
+              <i class="material-icons light-blue">cloud_done</i>
+              <span class="categoryTitle">Cloud Slice Setup Guide</span>
+            </a>
+          </div>
+          <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/cloud-slice-development-landing.md">View all</a></div>
         </div>
-        <div class="category"> 
-          <a href="/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md" class="categoryThread">
-            <i class="material-icons blue">cloud_done</i>
-            <span class="categoryTitle">Setup your Azure cloud subscription in OneLearn Lab on Demand</span>
-          </a>
+      </div>
+      <div class="cardContainer">
+        <div class="vmLabDev cardContent">
+          <div class="cardHeader">Preparation and Classes</div>
+          <div class="category">
+            <a href="../lod/idlx-development-best-practices.md" class="categoryThread">
+              <i class="material-icons light-green">input</i>
+              <span class="categoryTitle">IDLx Lab Development Best Practices</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/lod/docker.md" class="categoryThread">
+              <i class="material-icons green">input</i>
+              <span class="categoryTitle">Docker Support</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/lod/lab-networks.md" class="categoryThread">
+              <i class="material-icons light-green">input</i>
+              <span class="categoryTitle">Lab Network Restrictions</span>
+            </a>
+          </div>
+          <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/vm-lab-development-landing.md">View all</a></div>
         </div>
-        <div class="category">  
-          <a href="/guides/cloud-slice/cloud-slice.md" class="categoryThread">
-            <i class="material-icons light-blue">cloud_done</i>
-            <span class="categoryTitle">Cloud Slice Setup Guide</span>
-          </a>
+      </div>
+      <div class="cardContainer">
+        <div class="pbt_scoring cardContent">
+          <div class="cardHeader">Student Labs</div>
+          <div class="category">
+            <a href="/lod/activities.md" class="categoryThread">
+              <i class="material-icons light-blue">assessment</i>
+              <span class="categoryTitle">IDLx Activities</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="terminal-access.md" class="categoryThread">
+              <i class="material-icons blue">assessment</i>
+              <span class="categoryTitle">SSH Terminal Access</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/guides/idl2/idlv2-authoring-guide-and-best-practice.md" class="categoryThread">
+              <i class="material-icons light-blue">assessment</i>
+              <span class="categoryTitle">IDLx Authoring Guide</span>
+            </a>
+          </div>
+          <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/pbt-and-scoring-landing.md">View all</a></div>
         </div>
-        <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing-page.md">View all</a></div>
+      </div>
+      <div class="cardContainer">
+        <div class="lodIntegration cardContent">
+          <div class="cardHeader">Profile</div>
+          <div class="category">
+            <a href="/lod/lab-on-demand-lti-integration.md" class="categoryThread">
+              <i class="material-icons light-green">call_merge</i>
+              <span class="categoryTitle">LTI Integration</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/guides/github-integration/github-integration.md" class="categoryThread">
+              <i class="material-icons green">call_merge</i>
+              <span class="categoryTitle">GitHub Integration</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/lod/lod-api/lod-api-main.md" class="categoryThread">
+              <i class="material-icons light-green">call_merge</i>
+              <span class="categoryTitle">Lab on Demand API Documentation</span>
+            </a>
+          </div>
+          <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-integration-landing.md">View all</a></div>
+        </div>
+      </div>
+      <div class="cardContainer">
+        <div class="azIndex cardContent">
+          <div class="cardHeader">A-Z Index</div>
+          <div class="category">
+            <a href="access-control-lists.md" class="categoryThread">
+              <i class="material-icons light-green">help</i>
+              <span class="categoryTitle">Access Control Lists</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/lod/aws-capabilities.md" class="categoryThread">
+              <i class="material-icons green">help</i>
+              <span class="categoryTitle">Amazon Web Services API Capabilities</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/lod/how-to-use-api-consumer.md" class="categoryThread">
+              <i class="material-icons light-green">help</i>
+              <span class="categoryTitle">API Best Practices and How to Use an API Consumer</span>
+            </a>
+          </div>
+          <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/a-z-index.md">View all</a></div>
+        </div>
       </div>
     </div>
-
-    <!-- Card - Virtual Machine Lab Development 
-          Max of 3 items - replace href (link), text in categoryTitle
-    -->
-    <div class="cardContainer">
-      <div class="vmLabDev cardContent">
-        <div class="cardHeader">Labs</div>
-        <div class="category">
-          <a href="../lod/idlx-development-best-practices.md" class="categoryThread">
-            <i class="material-icons light-green">input</i>
-            <span class="categoryTitle">IDLx Lab Development Best Practices</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/lod/docker.md" class="categoryThread">
-            <i class="material-icons green">input</i>
-            <span class="categoryTitle">Docker Support</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/lod/lab-networks.md" class="categoryThread">
-            <i class="material-icons light-green">input</i>
-            <span class="categoryTitle">Lab Network Restrictions</span>
-          </a>
-        </div>
-        <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing-page.md">View all</a></div>
-      </div>
-    </div>
-
-    <!-- Card - Performance Based Testing and Scoring 
-          Max of 3 items - replace href (link), text in categoryTitle
-    -->
-    <div class="cardContainer">
-      <div class="pbt_scoring cardContent">
-        <div class="cardHeader">Classes and Self-Paced Learning</div>
-        <div class="category">
-          <a href="/lod/activities.md" class="categoryThread">
-            <i class="material-icons light-blue">assessment</i>
-            <span class="categoryTitle">IDLx Activities</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="terminal-access.md" class="categoryThread">
-            <i class="material-icons blue">assessment</i>
-            <span class="categoryTitle">SSH Terminal Access</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/guides/idl2/idlv2-authoring-guide-and-best-practice.md" class="categoryThread">
-            <i class="material-icons light-blue">assessment</i>
-            <span class="categoryTitle">IDLx Authoring Guide</span>
-          </a>
-        </div>
-        <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing-page.md">View all</a></div>
-      </div>
-    </div>
-
-    <!-- Card - A-Z Index
-          Max of 3 items - replace href (link), text in categoryTitle
-    -->
-    <div class="cardContainer">
-      <div class="azIndex cardContent">
-        <div class="cardHeader">A-Z Index</div>
-        <div class="category">
-          <a href="access-control-lists.md" class="categoryThread">
-            <i class="material-icons light-green">help</i>
-            <span class="categoryTitle">Access Control Lists</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/lod/aws-capabilities.md" class="categoryThread">
-            <i class="material-icons green">help</i>
-            <span class="categoryTitle">Amazon Web Services API Capabilities</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/lod/how-to-use-api-consumer.md" class="categoryThread">
-            <i class="material-icons light-green">help</i>
-            <span class="categoryTitle">API Best Practices and How to Use an API Consumer</span>
-          </a>
-        </div>
-        <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing-page.md">View all</a></div>
-      </div>
-    </div>
-
   </div>
-  <!-- -- End categories section -->
 
-  <!-- Begin categories section.. -->
-  <div class="categoriesHeader">Instructor</div>
-  <div class="cardsContainer">
-
-    <!-- Card - Cloud Slice Lab Development 
-          Max of 3 items - replace href (link), text in categoryTitle
-    -->
-    <div class="cardContainer">
-      <!-- Begin categories section.. -->
-      <div class="cloudSlice cardContent">
-        <div class="cardHeader">General</div>
-        <div class="category">
-          <a href="/guides/cloud-slice/aws/aws-cloud-slice-setup.md" class="categoryThread">
-            <i class="material-icons light-blue">cloud_done</i>
-            <span class="categoryTitle">Enable Cloud Slice Support in AWS</span>
-          </a>
+  <div class="administratorCategory_section">
+    <!-- Begin categories section.. -->
+    <div class="categoriesHeader">Administrator</div>
+    <div class="cardsContainer">
+      <div class="cardContainer">
+        <!-- Begin categories section.. -->
+        <div class="cloudSlice cardContent">
+          <div class="cardHeader">Fundamentals</div>
+          <div class="category">
+            <a href="/guides/cloud-slice/aws/aws-cloud-slice-setup.md" class="categoryThread">
+              <i class="material-icons light-blue">cloud_done</i>
+              <span class="categoryTitle">Enable Cloud Slice Support in AWS</span>
+            </a>
+          </div>
+          <div class="category"> 
+            <a href="/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md" class="categoryThread">
+              <i class="material-icons blue">cloud_done</i>
+              <span class="categoryTitle">Setup your Azure cloud subscription in OneLearn Lab on Demand</span>
+            </a>
+          </div>
+          <div class="category">  
+            <a href="/guides/cloud-slice/cloud-slice.md" class="categoryThread">
+              <i class="material-icons light-blue">cloud_done</i>
+              <span class="categoryTitle">Cloud Slice Setup Guide</span>
+            </a>
+          </div>
+          <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/cloud-slice-development-landing.md">View all</a></div>
         </div>
-        <div class="category"> 
-          <a href="/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md" class="categoryThread">
-            <i class="material-icons blue">cloud_done</i>
-            <span class="categoryTitle">Setup your Azure cloud subscription in OneLearn Lab on Demand</span>
-          </a>
+      </div>
+      <div class="cardContainer">
+        <div class="vmLabDev cardContent">
+          <div class="cardHeader">Classes</div>
+          <div class="category">
+            <a href="../lod/idlx-development-best-practices.md" class="categoryThread">
+              <i class="material-icons light-green">input</i>
+              <span class="categoryTitle">IDLx Lab Development Best Practices</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/lod/docker.md" class="categoryThread">
+              <i class="material-icons green">input</i>
+              <span class="categoryTitle">Docker Support</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/lod/lab-networks.md" class="categoryThread">
+              <i class="material-icons light-green">input</i>
+              <span class="categoryTitle">Lab Network Restrictions</span>
+            </a>
+          </div>
+          <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/vm-lab-development-landing.md">View all</a></div>
         </div>
-        <div class="category">  
-          <a href="/guides/cloud-slice/cloud-slice.md" class="categoryThread">
-            <i class="material-icons light-blue">cloud_done</i>
-            <span class="categoryTitle">Cloud Slice Setup Guide</span>
-          </a>
+      </div>
+      <div class="cardContainer">
+        <div class="pbt_scoring cardContent">
+          <div class="cardHeader">Users</div>
+          <div class="category">
+            <a href="/lod/activities.md" class="categoryThread">
+              <i class="material-icons light-blue">assessment</i>
+              <span class="categoryTitle">IDLx Activities</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="terminal-access.md" class="categoryThread">
+              <i class="material-icons blue">assessment</i>
+              <span class="categoryTitle">SSH Terminal Access</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/guides/idl2/idlv2-authoring-guide-and-best-practice.md" class="categoryThread">
+              <i class="material-icons light-blue">assessment</i>
+              <span class="categoryTitle">IDLx Authoring Guide</span>
+            </a>
+          </div>
+          <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/pbt-and-scoring-landing.md">View all</a></div>
         </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/cloud-slice-development-landing.md">View all</a></div>
+      </div>
+      <div class="cardContainer">
+        <div class="lodIntegration cardContent">
+          <div class="cardHeader">Self-Paced Learning and Subscriptions</div>
+          <div class="category">
+            <a href="/lod/lab-on-demand-lti-integration.md" class="categoryThread">
+              <i class="material-icons light-green">call_merge</i>
+              <span class="categoryTitle">LTI Integration</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/guides/github-integration/github-integration.md" class="categoryThread">
+              <i class="material-icons green">call_merge</i>
+              <span class="categoryTitle">GitHub Integration</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/lod/lod-api/lod-api-main.md" class="categoryThread">
+              <i class="material-icons light-green">call_merge</i>
+              <span class="categoryTitle">Lab on Demand API Documentation</span>
+            </a>
+          </div>
+          <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-integration-landing.md">View all</a></div>
+        </div>
+      </div>
+      <div class="cardContainer">
+        <div class="lodIntegration cardContent">
+          <div class="cardHeader">Courses and Their Activities</div>
+          <div class="category">
+            <a href="/lod/lab-on-demand-lti-integration.md" class="categoryThread">
+              <i class="material-icons light-green">call_merge</i>
+              <span class="categoryTitle">LTI Integration</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/guides/github-integration/github-integration.md" class="categoryThread">
+              <i class="material-icons green">call_merge</i>
+              <span class="categoryTitle">GitHub Integration</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/lod/lod-api/lod-api-main.md" class="categoryThread">
+              <i class="material-icons light-green">call_merge</i>
+              <span class="categoryTitle">Lab on Demand API Documentation</span>
+            </a>
+          </div>
+          <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-integration-landing.md">View all</a></div>
+        </div>
+      </div>
+      <div class="cardContainer">
+        <div class="lodIntegration cardContent">
+          <div class="cardHeader">Discussions</div>
+          <div class="category">
+            <a href="/lod/lab-on-demand-lti-integration.md" class="categoryThread">
+              <i class="material-icons light-green">call_merge</i>
+              <span class="categoryTitle">LTI Integration</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/guides/github-integration/github-integration.md" class="categoryThread">
+              <i class="material-icons green">call_merge</i>
+              <span class="categoryTitle">GitHub Integration</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/lod/lod-api/lod-api-main.md" class="categoryThread">
+              <i class="material-icons light-green">call_merge</i>
+              <span class="categoryTitle">Lab on Demand API Documentation</span>
+            </a>
+          </div>
+          <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-integration-landing.md">View all</a></div>
+        </div>
+      </div>
+      <div class="cardContainer">
+        <div class="lodIntegration cardContent">
+          <div class="cardHeader">Miscellaneous</div>
+          <div class="category">
+            <a href="/tms/tms-administrators/miscellaneous/custom-fields.md" class="categoryThread">
+              <i class="material-icons light-green">call_merge</i>
+              <span class="categoryTitle">What are custom fields?</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/tms/tms-administrators/miscellaneous/custom-fields.md" class="categoryThread">
+              <i class="material-icons green">call_merge</i>
+              <span class="categoryTitle">How do assessments work?</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/lod/lod-api/lod-api-main.md" class="categoryThread">
+              <i class="material-icons light-green">call_merge</i>
+              <span class="categoryTitle">Lab on Demand API Documentation</span>
+            </a>
+          </div>
+          <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-integration-landing.md">View all</a></div>
+        </div>
+      </div>
+      <div class="cardContainer">
+        <div class="azIndex cardContent">
+          <div class="cardHeader">A-Z Index</div>
+          <div class="category">
+            <a href="access-control-lists.md" class="categoryThread">
+              <i class="material-icons light-green">help</i>
+              <span class="categoryTitle">Access Control Lists</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/lod/aws-capabilities.md" class="categoryThread">
+              <i class="material-icons green">help</i>
+              <span class="categoryTitle">Amazon Web Services API Capabilities</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/lod/how-to-use-api-consumer.md" class="categoryThread">
+              <i class="material-icons light-green">help</i>
+              <span class="categoryTitle">API Best Practices and How to Use an API Consumer</span>
+            </a>
+          </div>
+          <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/a-z-index.md">View all</a></div>
+        </div>
       </div>
     </div>
-
-    <!-- Card - Virtual Machine Lab Development 
-          Max of 3 items - replace href (link), text in categoryTitle
-    -->
-    <div class="cardContainer">
-      <div class="vmLabDev cardContent">
-        <div class="cardHeader">Preparation and Classes</div>
-        <div class="category">
-          <a href="../lod/idlx-development-best-practices.md" class="categoryThread">
-            <i class="material-icons light-green">input</i>
-            <span class="categoryTitle">IDLx Lab Development Best Practices</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/lod/docker.md" class="categoryThread">
-            <i class="material-icons green">input</i>
-            <span class="categoryTitle">Docker Support</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/lod/lab-networks.md" class="categoryThread">
-            <i class="material-icons light-green">input</i>
-            <span class="categoryTitle">Lab Network Restrictions</span>
-          </a>
-        </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/vm-lab-development-landing.md">View all</a></div>
-      </div>
-    </div>
-
-    <!-- Card - Performance Based Testing and Scoring 
-          Max of 3 items - replace href (link), text in categoryTitle
-    -->
-    <div class="cardContainer">
-      <div class="pbt_scoring cardContent">
-        <div class="cardHeader">Student Labs</div>
-        <div class="category">
-          <a href="/lod/activities.md" class="categoryThread">
-            <i class="material-icons light-blue">assessment</i>
-            <span class="categoryTitle">IDLx Activities</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="terminal-access.md" class="categoryThread">
-            <i class="material-icons blue">assessment</i>
-            <span class="categoryTitle">SSH Terminal Access</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/guides/idl2/idlv2-authoring-guide-and-best-practice.md" class="categoryThread">
-            <i class="material-icons light-blue">assessment</i>
-            <span class="categoryTitle">IDLx Authoring Guide</span>
-          </a>
-        </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/pbt-and-scoring-landing.md">View all</a></div>
-      </div>
-    </div>
-
-    <!-- Card - Lab on Demand Integration 
-          Max of 3 items - replace href (link), text in categoryTitle
-    -->
-    <div class="cardContainer">
-      <div class="lodIntegration cardContent">
-        <div class="cardHeader">Profile</div>
-        <div class="category">
-          <a href="/lod/lab-on-demand-lti-integration.md" class="categoryThread">
-            <i class="material-icons light-green">call_merge</i>
-            <span class="categoryTitle">LTI Integration</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/guides/github-integration/github-integration.md" class="categoryThread">
-            <i class="material-icons green">call_merge</i>
-            <span class="categoryTitle">GitHub Integration</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/lod/lod-api/lod-api-main.md" class="categoryThread">
-            <i class="material-icons light-green">call_merge</i>
-            <span class="categoryTitle">Lab on Demand API Documentation</span>
-          </a>
-        </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-integration-landing.md">View all</a></div>
-      </div>
-    </div>
-
-    <!-- Card - A-Z Index
-          Max of 3 items - replace href (link), text in categoryTitle
-    -->
-    <div class="cardContainer">
-      <div class="azIndex cardContent">
-        <div class="cardHeader">A-Z Index</div>
-        <div class="category">
-          <a href="access-control-lists.md" class="categoryThread">
-            <i class="material-icons light-green">help</i>
-            <span class="categoryTitle">Access Control Lists</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/lod/aws-capabilities.md" class="categoryThread">
-            <i class="material-icons green">help</i>
-            <span class="categoryTitle">Amazon Web Services API Capabilities</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/lod/how-to-use-api-consumer.md" class="categoryThread">
-            <i class="material-icons light-green">help</i>
-            <span class="categoryTitle">API Best Practices and How to Use an API Consumer</span>
-          </a>
-        </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/a-z-index.md">View all</a></div>
-      </div>
-    </div>
-
-     <!-- Begin categories section.. -->
-     <div class="categoriesHeader">Administrator</div>
-     <div class="cardsContainer">
-
-    <!-- Card - Cloud Slice Lab Development 
-          Max of 3 items - replace href (link), text in categoryTitle
-    -->
-    <div class="cardContainer">
-      <!-- Begin categories section.. -->
-      <div class="cloudSlice cardContent">
-        <div class="cardHeader">Fundamentals</div>
-        <div class="category">
-          <a href="/guides/cloud-slice/aws/aws-cloud-slice-setup.md" class="categoryThread">
-            <i class="material-icons light-blue">cloud_done</i>
-            <span class="categoryTitle">Enable Cloud Slice Support in AWS</span>
-          </a>
-        </div>
-        <div class="category"> 
-          <a href="/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md" class="categoryThread">
-            <i class="material-icons blue">cloud_done</i>
-            <span class="categoryTitle">Setup your Azure cloud subscription in OneLearn Lab on Demand</span>
-          </a>
-        </div>
-        <div class="category">  
-          <a href="/guides/cloud-slice/cloud-slice.md" class="categoryThread">
-            <i class="material-icons light-blue">cloud_done</i>
-            <span class="categoryTitle">Cloud Slice Setup Guide</span>
-          </a>
-        </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/cloud-slice-development-landing.md">View all</a></div>
-      </div>
-    </div>
-
-    <!-- Card - Virtual Machine Lab Development 
-          Max of 3 items - replace href (link), text in categoryTitle
-    -->
-    <div class="cardContainer">
-      <div class="vmLabDev cardContent">
-        <div class="cardHeader">Classes</div>
-        <div class="category">
-          <a href="../lod/idlx-development-best-practices.md" class="categoryThread">
-            <i class="material-icons light-green">input</i>
-            <span class="categoryTitle">IDLx Lab Development Best Practices</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/lod/docker.md" class="categoryThread">
-            <i class="material-icons green">input</i>
-            <span class="categoryTitle">Docker Support</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/lod/lab-networks.md" class="categoryThread">
-            <i class="material-icons light-green">input</i>
-            <span class="categoryTitle">Lab Network Restrictions</span>
-          </a>
-        </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/vm-lab-development-landing.md">View all</a></div>
-      </div>
-    </div>
-
-    <!-- Card - Performance Based Testing and Scoring 
-          Max of 3 items - replace href (link), text in categoryTitle
-    -->
-    <div class="cardContainer">
-      <div class="pbt_scoring cardContent">
-        <div class="cardHeader">Users</div>
-        <div class="category">
-          <a href="/lod/activities.md" class="categoryThread">
-            <i class="material-icons light-blue">assessment</i>
-            <span class="categoryTitle">IDLx Activities</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="terminal-access.md" class="categoryThread">
-            <i class="material-icons blue">assessment</i>
-            <span class="categoryTitle">SSH Terminal Access</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/guides/idl2/idlv2-authoring-guide-and-best-practice.md" class="categoryThread">
-            <i class="material-icons light-blue">assessment</i>
-            <span class="categoryTitle">IDLx Authoring Guide</span>
-          </a>
-        </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/pbt-and-scoring-landing.md">View all</a></div>
-      </div>
-    </div>
-
-    <!-- Card - Lab on Demand Integration 
-          Max of 3 items - replace href (link), text in categoryTitle
-    -->
-    <div class="cardContainer">
-      <div class="lodIntegration cardContent">
-        <div class="cardHeader">Self-Paced Learning and Subscriptions</div>
-        <div class="category">
-          <a href="/lod/lab-on-demand-lti-integration.md" class="categoryThread">
-            <i class="material-icons light-green">call_merge</i>
-            <span class="categoryTitle">LTI Integration</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/guides/github-integration/github-integration.md" class="categoryThread">
-            <i class="material-icons green">call_merge</i>
-            <span class="categoryTitle">GitHub Integration</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/lod/lod-api/lod-api-main.md" class="categoryThread">
-            <i class="material-icons light-green">call_merge</i>
-            <span class="categoryTitle">Lab on Demand API Documentation</span>
-          </a>
-        </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-integration-landing.md">View all</a></div>
-      </div>
-    </div>
-
-     <!-- Card - Lab on Demand Integration 
-     Max of 3 items - replace href (link), text in categoryTitle
-    -->
-    <div class="cardContainer">
-      <div class="lodIntegration cardContent">
-        <div class="cardHeader">Courses and Their Activities</div>
-        <div class="category">
-          <a href="/lod/lab-on-demand-lti-integration.md" class="categoryThread">
-            <i class="material-icons light-green">call_merge</i>
-            <span class="categoryTitle">LTI Integration</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/guides/github-integration/github-integration.md" class="categoryThread">
-            <i class="material-icons green">call_merge</i>
-            <span class="categoryTitle">GitHub Integration</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/lod/lod-api/lod-api-main.md" class="categoryThread">
-            <i class="material-icons light-green">call_merge</i>
-            <span class="categoryTitle">Lab on Demand API Documentation</span>
-          </a>
-        </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-integration-landing.md">View all</a></div>
-      </div>
-    </div>
-
-        <!-- Card - Lab on Demand Integration 
-          Max of 3 items - replace href (link), text in categoryTitle
-    -->
-    <div class="cardContainer">
-      <div class="lodIntegration cardContent">
-        <div class="cardHeader">Discussions</div>
-        <div class="category">
-          <a href="/lod/lab-on-demand-lti-integration.md" class="categoryThread">
-            <i class="material-icons light-green">call_merge</i>
-            <span class="categoryTitle">LTI Integration</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/guides/github-integration/github-integration.md" class="categoryThread">
-            <i class="material-icons green">call_merge</i>
-            <span class="categoryTitle">GitHub Integration</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/lod/lod-api/lod-api-main.md" class="categoryThread">
-            <i class="material-icons light-green">call_merge</i>
-            <span class="categoryTitle">Lab on Demand API Documentation</span>
-          </a>
-        </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-integration-landing.md">View all</a></div>
-      </div>
-    </div>
-
-     <!-- Card - Miscellaneous 
-          Max of 3 items - replace href (link), text in categoryTitle
-    -->
-    <div class="cardContainer">
-      <div class="lodIntegration cardContent">
-        <div class="cardHeader">Miscellaneous</div>
-        <div class="category">
-          <a href="/tms/tms-administrators/miscellaneous/custom-fields.md" class="categoryThread">
-            <i class="material-icons light-green">call_merge</i>
-            <span class="categoryTitle">What are custom fields?</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/tms/tms-administrators/miscellaneous/custom-fields.md" class="categoryThread">
-            <i class="material-icons green">call_merge</i>
-            <span class="categoryTitle">How do assessments work?</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/lod/lod-api/lod-api-main.md" class="categoryThread">
-            <i class="material-icons light-green">call_merge</i>
-            <span class="categoryTitle">Lab on Demand API Documentation</span>
-          </a>
-        </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-integration-landing.md">View all</a></div>
-      </div>
-    </div>
-
-    <!-- Card - A-Z Index
-          Max of 3 items - replace href (link), text in categoryTitle
-    -->
-    <div class="cardContainer">
-      <div class="azIndex cardContent">
-        <div class="cardHeader">A-Z Index</div>
-        <div class="category">
-          <a href="access-control-lists.md" class="categoryThread">
-            <i class="material-icons light-green">help</i>
-            <span class="categoryTitle">Access Control Lists</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/lod/aws-capabilities.md" class="categoryThread">
-            <i class="material-icons green">help</i>
-            <span class="categoryTitle">Amazon Web Services API Capabilities</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/lod/how-to-use-api-consumer.md" class="categoryThread">
-            <i class="material-icons light-green">help</i>
-            <span class="categoryTitle">API Best Practices and How to Use an API Consumer</span>
-          </a>
-        </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/a-z-index.md">View all</a></div>
-      </div>
-    </div>
-
   </div>
-  <!-- -- End categories section -->
 
   <div class="moreInfo">
     <span class="moreInfo_header">Looking for more information?</span>
