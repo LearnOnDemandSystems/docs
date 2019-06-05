@@ -12,21 +12,21 @@
           <div class="cloudSlice cardContent">
             <div class="cardHeader">Basics</div>
             <div class="category">
-              <a href="/guides/cloud-slice/aws/aws-cloud-slice-setup.md" class="categoryThread">
+              <a href="/tms/end-user-student-faqs/basics/forgot-password.md" class="categoryThread">
                 <i class="material-icons light-blue">cloud_done</i>
-                <span class="categoryTitle">Enable Cloud Slice Support in AWS</span>
+                <span class="categoryTitle">What do I do if I forgot my password?</span>
               </a>
             </div>
             <div class="category"> 
-              <a href="/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md" class="categoryThread">
+              <a href="/tms/end-user-student-faqs/basics/change-password.md" class="categoryThread">
                 <i class="material-icons blue">cloud_done</i>
-                <span class="categoryTitle">Setup your Azure cloud subscription in OneLearn Lab on Demand</span>
+                <span class="categoryTitle">How do I change my password?</span>
               </a>
             </div>
             <div class="category">  
-              <a href="/guides/cloud-slice/cloud-slice.md" class="categoryThread">
+              <a href="/tms/end-user-student-faqs/basics/change-user-profile.md" class="categoryThread">
                 <i class="material-icons light-blue">cloud_done</i>
-                <span class="categoryTitle">Cloud Slice Setup Guide</span>
+                <span class="categoryTitle">How do I access and change my user profile?</span>
               </a>
             </div>
             <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing.md">View all</a></div>
@@ -36,21 +36,21 @@
           <div class="vmLabDev cardContent">
             <div class="cardHeader">Labs</div>
             <div class="category">
-              <a href="../lod/idlx-development-best-practices.md" class="categoryThread">
+              <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-without-user-account.md " class="categoryThread">
                 <i class="material-icons light-green">input</i>
-                <span class="categoryTitle">IDLx Lab Development Best Practices</span>
+                <span class="categoryTitle">How do I access my labs using a lab code without a user account?</span>
               </a>
             </div>
             <div class="category">
-              <a href="/lod/docker.md" class="categoryThread">
+              <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-with-user-account.md" class="categoryThread">
                 <i class="material-icons green">input</i>
-                <span class="categoryTitle">Docker Support</span>
+                <span class="categoryTitle">How do I access my labs for a class using a lab code when I have a user account?</span>
               </a>
             </div>
             <div class="category">
-              <a href="/lod/lab-networks.md" class="categoryThread">
+              <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-without-code.md" class="categoryThread">
                 <i class="material-icons light-green">input</i>
-                <span class="categoryTitle">Lab Network Restrictions</span>
+                <span class="categoryTitle">How do I access my labs for a class without a lab code?</span>
               </a>
             </div>
             <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing.md">View all</a></div>
@@ -60,21 +60,21 @@
           <div class="pbt_scoring cardContent">
             <div class="cardHeader">Classes and Self-Paced Learning</div>
             <div class="category">
-              <a href="/lod/activities.md" class="categoryThread">
+              <a href="/tms/end-user-student-faqs/class-self-paced/get-into-virtual-classroom.md" class="categoryThread">
                 <i class="material-icons light-blue">assessment</i>
-                <span class="categoryTitle">IDLx Activities</span>
+                <span class="categoryTitle">How do I get into my virtual classroom?</span>
               </a>
             </div>
             <div class="category">
-              <a href="terminal-access.md" class="categoryThread">
+              <a href="/tms/end-user-student-faqs/class-self-paced/discussions.md" class="categoryThread">
                 <i class="material-icons blue">assessment</i>
-                <span class="categoryTitle">SSH Terminal Access</span>
+                <span class="categoryTitle">How do I participate in a discussion?</span>
               </a>
             </div>
             <div class="category">
-              <a href="/guides/idl2/idlv2-authoring-guide-and-best-practice.md" class="categoryThread">
+              <a href="/tms/end-user-student-faqs/class-self-paced/print-completion-certificate.md" class="categoryThread">
                 <i class="material-icons light-blue">assessment</i>
-                <span class="categoryTitle">IDLx Authoring Guide</span>
+                <span class="categoryTitle">How do I print my completion certificate?</span>
               </a>
             </div>
             <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing.md">View all</a></div>
@@ -84,21 +84,21 @@
           <div class="azIndex cardContent">
             <div class="cardHeader">A-Z Index</div>
             <div class="category">
-              <a href="access-control-lists.md" class="categoryThread">
+              <a href="/tms/end-user-student-faqs/basics/where-do-i-get-help.md" class="categoryThread">
                 <i class="material-icons light-green">help</i>
-                <span class="categoryTitle">Access Control Lists</span>
+                <span class="categoryTitle">How can I reach someone for help?</span>
               </a>
             </div>
             <div class="category">
-              <a href="/lod/aws-capabilities.md" class="categoryThread">
+              <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-with-user-account.md" class="categoryThread">
                 <i class="material-icons green">help</i>
-                <span class="categoryTitle">Amazon Web Services API Capabilities</span>
+                <span class="categoryTitle">How do I access and change my user profile?</span>
               </a>
             </div>
             <div class="category">
-              <a href="/lod/how-to-use-api-consumer.md" class="categoryThread">
+              <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-with-user-account.md" class="categoryThread">
                 <i class="material-icons light-green">help</i>
-                <span class="categoryTitle">API Best Practices and How to Use an API Consumer</span>
+                <span class="categoryTitle">How do I access my labs for a class using a lab code when I have a user account?</span>
               </a>
             </div>
             <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing.md">View all</a></div>
@@ -263,6 +263,10 @@
         <div class="viewAll"><a class="viewAllLink">View all</a></div>
       </div>
     </div> 
+    <div class="moreInfo">
+      <span class="moreInfo_header">API Client</span>
+        Our API is written to allow new response fields we add to be ignored by clients. However, to ensure your API calls consistently work, when building your API client, make sure that your implementation is written in such a way as to ignore any fields you are not using in your code. This will help ensure your implementation remains stable while the API can remain dynamic. To assist with this, we have provided our <a href="https://www.nuget.org/packages/LearnOnDemandSystems.OneLearnTMS.OneLearnTMSAPIClient/">client library</a>, which adheres to these best practices.
+    </div>
     <div class="cardsContainer">
       <div class="cardContainer">
         <!-- Begin categories section.. -->
