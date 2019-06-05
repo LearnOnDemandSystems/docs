@@ -13,7 +13,7 @@
     4. Ensure to add the new document in A-Z index
 -->
 
-<div class="categoriesHeader">Courseware Marketplace Customer</div>
+<div class="categoriesHeader">Arvato Marketplace Admin</div>
 <div class="accordionModule">
   <div class="subtopic selected">
     <div class="subtopic_header">Fulfilling Your Lab Order</div>
