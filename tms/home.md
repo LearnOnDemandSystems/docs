@@ -118,21 +118,21 @@
         <div class="cloudSlice cardContent">
           <div class="cardHeader">General</div>
           <div class="category">
-            <a href="/guides/cloud-slice/aws/aws-cloud-slice-setup.md" class="categoryThread">
+            <a href="/tms/instructors/general/reset-student-password.md" class="categoryThread">
               <i class="material-icons light-blue">cloud_done</i>
-              <span class="categoryTitle">Enable Cloud Slice Support in AWS</span>
+              <span class="categoryTitle">How do I, as an Instructor, reset a student's password?</span>
             </a>
           </div>
           <div class="category"> 
-            <a href="/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md" class="categoryThread">
+            <a href="/tms/tms-adminisrators/tms-fundamentals/admin-menu.md" class="categoryThread">
               <i class="material-icons blue">cloud_done</i>
-              <span class="categoryTitle">Setup your Azure cloud subscription in OneLearn Lab on Demand</span>
+              <span class="categoryTitle">What is the Admin menu and how does it work?</span>
             </a>
           </div>
           <div class="category">  
-            <a href="/guides/cloud-slice/cloud-slice.md" class="categoryThread">
+            <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
               <i class="material-icons light-blue">cloud_done</i>
-              <span class="categoryTitle">Cloud Slice Setup Guide</span>
+              <span class="categoryTitle">What does it mean to be a contract instructor?</span>
             </a>
           </div>
           <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md">View all</a></div>
@@ -142,21 +142,21 @@
         <div class="vmLabDev cardContent">
           <div class="cardHeader">Preparation and Classes</div>
           <div class="category">
-            <a href="../lod/idlx-development-best-practices.md" class="categoryThread">
+            <a href="/tms/instructors/instructor-prep-and-classes/prepare-for-course-not-scheduled-to-teach.md" class="categoryThread">
               <i class="material-icons light-green">input</i>
-              <span class="categoryTitle">IDLx Lab Development Best Practices</span>
+              <span class="categoryTitle">How do I prepare for a course that I am not scheduled to teach?</span>
             </a>
           </div>
           <div class="category">
-            <a href="/lod/docker.md" class="categoryThread">
+            <a href="/tms/instructors/instructor-prep-and-classes/find-classes-scheduled-to-teach.md" class="categoryThread">
               <i class="material-icons green">input</i>
-              <span class="categoryTitle">Docker Support</span>
+              <span class="categoryTitle">How do I find classes I am scheduled to teach?</span>
             </a>
           </div>
           <div class="category">
-            <a href="/lod/lab-networks.md" class="categoryThread">
+            <a href="/tms/instructors/instructor-prep-and-classes/get-to-class-scheduled-to-teach.md" class="categoryThread">
               <i class="material-icons light-green">input</i>
-              <span class="categoryTitle">Lab Network Restrictions</span>
+              <span class="categoryTitle">How do I get to a class I am scheduled to teach?</span>
             </a>
           </div>
           <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md">View all</a></div>
@@ -166,21 +166,21 @@
         <div class="pbt_scoring cardContent">
           <div class="cardHeader">Student Labs</div>
           <div class="category">
-            <a href="/lod/activities.md" class="categoryThread">
+            <a href="/tms/instructors/student-labs/assist-students.md" class="categoryThread">
               <i class="material-icons light-blue">assessment</i>
-              <span class="categoryTitle">IDLx Activities</span>
+              <span class="categoryTitle">How do I assist my students with their labs?</span>
             </a>
           </div>
           <div class="category">
-            <a href="terminal-access.md" class="categoryThread">
+            <a href="/tms/instructors/student-labs/share-files-with-students.md" class="categoryThread">
               <i class="material-icons blue">assessment</i>
-              <span class="categoryTitle">SSH Terminal Access</span>
+              <span class="categoryTitle">How do I share files with students?</span>
             </a>
           </div>
           <div class="category">
-            <a href="/guides/idl2/idlv2-authoring-guide-and-best-practice.md" class="categoryThread">
-              <i class="material-icons light-blue">assessment</i>
-              <span class="categoryTitle">IDLx Authoring Guide</span>
+            <a href="" class="categoryThread">
+              <i class="material-icons light-blue"></i>
+              <span class="categoryTitle"></span>
             </a>
           </div>
           <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md">View all</a></div>
@@ -190,21 +190,21 @@
         <div class="lodIntegration cardContent">
           <div class="cardHeader">Profile</div>
           <div class="category">
-            <a href="/lod/lab-on-demand-lti-integration.md" class="categoryThread">
+            <a href="/tms/instructors/instructor-profile/show-unavailable-times.md" class="categoryThread">
               <i class="material-icons light-green">call_merge</i>
-              <span class="categoryTitle">LTI Integration</span>
+              <span class="categoryTitle">How can I show times when I am unavailable?</span>
             </a>
           </div>
           <div class="category">
-            <a href="/guides/github-integration/github-integration.md" class="categoryThread">
+            <a href="/tms/instructors/instructor-profile/show-courses-qualified-to-teach.md" class="categoryThread">
               <i class="material-icons green">call_merge</i>
-              <span class="categoryTitle">GitHub Integration</span>
+              <span class="categoryTitle">How can I show what I am qualified to teach?</span>
             </a>
           </div>
           <div class="category">
-            <a href="/lod/lod-api/lod-api-main.md" class="categoryThread">
-              <i class="material-icons light-green">call_merge</i>
-              <span class="categoryTitle">Lab on Demand API Documentation</span>
+            <a href="" class="categoryThread">
+              <i class="material-icons light-green"></i>
+              <span class="categoryTitle"></span>
             </a>
           </div>
           <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md">View all</a></div>
@@ -214,24 +214,24 @@
         <div class="azIndex cardContent">
           <div class="cardHeader">A-Z Index</div>
           <div class="category">
-            <a href="access-control-lists.md" class="categoryThread">
+            <a href="/tms/tms-administrators/discussions/admin-follow.md" class="categoryThread">
               <i class="material-icons light-green">help</i>
-              <span class="categoryTitle">Access Control Lists</span>
+              <span class="categoryTitle">How can I be notified of activity on a discussion?</span>
             </a>
           </div>
           <div class="category">
-            <a href="/lod/aws-capabilities.md" class="categoryThread">
+            <a href="/tms/instructors/instructor-profile/show-unavailable-times.md" class="categoryThread">
               <i class="material-icons green">help</i>
-              <span class="categoryTitle">Amazon Web Services API Capabilities</span>
+              <span class="categoryTitle">How can I show times when I am unavailable?</span>
             </a>
           </div>
           <div class="category">
-            <a href="/lod/how-to-use-api-consumer.md" class="categoryThread">
+            <a href="/tms/instructors/instructor-profile/show-courses-qualified-to-teach.md" class="categoryThread">
               <i class="material-icons light-green">help</i>
-              <span class="categoryTitle">API Best Practices and How to Use an API Consumer</span>
+              <span class="categoryTitle">How can I show what I am qualified to teach?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/a-z-index.md">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md">View all</a></div>
         </div>
       </div>
     </div>
@@ -242,24 +242,24 @@
     <div class="cardContainerFull">
       <div class="cardContent">
         <div class="category">
-          <a href="/lod/idlx-development-best-practices.md" class="categoryThread">
+          <a href="/tms/tms-administrators/tms-fundamentals/admin-menu.md" class="categoryThread">
             <i class="material-icons light-blue">bookmarks</i>
-            <span class="categoryTitleFeatured">IDLx Lab Development Best Practices</span>
-            <span class="categoryDescription">This document covers best practices for IDLx lab development, to assist in creating a rich learning experience.</span>
+            <span class="categoryTitleFeatured">What is the Admin menu and how does it work?</span>
+            <span class="categoryDescription">The admin menu reinvents the way you use the TMS. Utilize the search menu to locate particular settings or utilize the history section to access your most used options.</span>
           </a>
         </div>
         <div class="category"> 
-          <a href="/lod/feature-focus/lod-experience.md" class="categoryThread">
+          <a href="/tms/tms-administrators/self-paced-learning-and-subscriptions/schedule-self-paced-learning.md" class="categoryThread">
             <i class="material-icons blue">bookmarks</i>
-            <span class="categoryTitleFeatured">Introduction to Lab on Demand UI</span>
-            <span class="categoryDescription">Explanation of Lab on Demand UI.</span>
+            <span class="categoryTitleFeatured">How do I schedule self-paced learning for a student?</span>
+            <span class="categoryDescription">Self-paced learning is done through a course assignment. It gives the student direct access to labs without a class enrollment.</span>
           </a>
         </div>
         <div class="category">
-          <a href="/guides/cloud-slice/microsoft-azure/cloud-slice-find-resource-templates.md" class="categoryThread">
+          <a href="/tms/tms-administrators/discussions/what-is-discussion.md" class="categoryThread">
             <i class="material-icons light-blue">bookmarks</i>
-            <span class="categoryTitleFeatured">Azure Resource Templates</span>
-            <span class="categoryDescription">How to find Azure Resource Manager templates for use with Microsoft Azure.</span>
+            <span class="categoryTitleFeatured">What is a discussion and how can I use it to increase student interaction in their learning?</span>
+            <span class="categoryDescription">A Discussion is a great feature for enhancing learning by giving students and instructors a place to hold asynchronous, topic-structured conversations regarding a course.</span>
           </a>
         </div>
         <div class="viewAll"><a class="viewAllLink">View all</a></div>
