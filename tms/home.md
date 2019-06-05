@@ -493,7 +493,7 @@
               <span class="categoryTitle">How do I enroll students in a class?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/cloud-slice-development-landing.md">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/arvato-courseware-marketplace-landing.md">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -517,7 +517,7 @@
               <span class="categoryTitle">How do I create an Instructor account?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/vm-lab-development-landing.md">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/arvato-courseware-marketplace-landing.md">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -541,7 +541,7 @@
               <span class="categoryTitle">How and when can students access labs?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/pbt-and-scoring-landing.md">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/arvato-courseware-marketplace-landing.md">View all</a></div>
         </div>
       </div>
     </div>
