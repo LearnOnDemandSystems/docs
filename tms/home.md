@@ -10,7 +10,7 @@
         <div class="cardContainer">
           <!-- Begin categories section.. -->
           <div class="cloudSlice cardContent">
-            <div class="cardHeader">Basics</div>
+            <div class="cardHeader" tabindex="0" title="Student Basics">Basics</div>
             <div class="category">
               <a href="/tms/end-user-student-faqs/basics/forgot-password.md" class="categoryThread">
                 <i class="material-icons light-blue">person</i>
@@ -34,7 +34,7 @@
         </div>
         <div class="cardContainer">
           <div class="vmLabDev cardContent">
-            <div class="cardHeader">Labs</div>
+            <div class="cardHeader" tabindex="0" title="Student Labs">Labs</div>
             <div class="category">
               <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-without-user-account.md " class="categoryThread">
                 <i class="material-icons light-green">desktop_windows</i>
@@ -58,7 +58,7 @@
         </div>
         <div class="cardContainer">
           <div class="pbt_scoring cardContent">
-            <div class="cardHeader">Classes and Self-Paced Learning</div>
+            <div class="cardHeader" tabindex="0" title="Student Classes and Self-Paced Learning">Classes and Self-Paced Learning</div>
             <div class="category">
               <a href="/tms/end-user-student-faqs/class-self-paced/get-into-virtual-classroom.md" class="categoryThread">
                 <i class="material-icons light-blue">assignment</i>
@@ -82,7 +82,7 @@
         </div>
         <div class="cardContainer">
           <div class="azIndex cardContent">
-            <div class="cardHeader">A-Z Index</div>
+            <div class="cardHeader" tabindex="0" title="Student A-Z Index">A-Z Index</div>
             <div class="category">
               <a href="/tms/end-user-student-faqs/basics/where-do-i-get-help.md" class="categoryThread">
                 <i class="material-icons light-green">help</i>
@@ -114,7 +114,7 @@
     <div class="cardContainer">
         <!-- Begin categories section.. -->
         <div class="cloudSlice cardContent">
-          <div class="cardHeader">General</div>
+          <div class="cardHeader" tabindex="0" title="Instructor General">General</div>
           <div class="category">
             <a href="/tms/instructors/general/reset-student-password.md" class="categoryThread">
               <i class="material-icons light-blue">supervised_user_circle</i>
@@ -138,7 +138,7 @@
       </div>
       <div class="cardContainer">
         <div class="vmLabDev cardContent">
-          <div class="cardHeader">Preparation and Classes</div>
+          <div class="cardHeader" tabindex="0" title="Instructor Preparation and Classes">Preparation and Classes</div>
           <div class="category">
             <a href="/tms/instructors/instructor-prep-and-classes/prepare-for-course-not-scheduled-to-teach.md" class="categoryThread">
               <i class="material-icons light-green">input</i>
@@ -162,7 +162,7 @@
       </div>
       <div class="cardContainer">
         <div class="pbt_scoring cardContent">
-          <div class="cardHeader">Student Labs</div>
+          <div class="cardHeader" tabindex="0" title="Instructor Student Labs">Student Labs</div>
           <div class="category">
             <a href="/tms/instructors/student-labs/assist-students.md" class="categoryThread">
               <i class="material-icons light-blue">settings_system_daydream</i>
@@ -186,7 +186,7 @@
       </div>
       <div class="cardContainer">
         <div class="lodIntegration cardContent">
-          <div class="cardHeader">Profile</div>
+          <div class="cardHeader" tabindex="0" title="Virtual Machine Lab Development">Profile</div>
           <div class="category">
             <a href="/tms/instructors/instructor-profile/show-unavailable-times.md" class="categoryThread">
               <i class="material-icons light-green">person</i>
@@ -210,7 +210,7 @@
       </div>
       <div class="cardContainer">
         <div class="azIndex cardContent">
-          <div class="cardHeader">A-Z Index</div>
+          <div class="cardHeader" tabindex="0" title="Instructor A-Z Index">A-Z Index</div>
           <div class="category">
             <a href="/tms/tms-administrators/discussions/admin-follow.md" class="categoryThread">
               <i class="material-icons light-green">help</i>
@@ -236,7 +236,7 @@
   </div>
 
   <div class="administratorCategory userTypeSection">
-  <div class="categoriesHeader">Featured posts</div>
+  <div class="categoriesHeader" tabindex="0" title="Featured Posts">Featured posts</div>
     <div class="cardContainerFull">
       <div class="cardContent">
         <div class="category">
@@ -271,7 +271,7 @@
       <div class="cardContainer">
         <!-- Begin categories section.. -->
         <div class="cloudSlice cardContent">
-          <div class="cardHeader">Fundamentals</div>
+          <div class="cardHeader" tabindex="0" title="Administrator Fundamentals">Fundamentals</div>
           <div class="category">
             <a href="/tms/tms-administrators/tms-fundamentals/admin-menu.md" class="categoryThread">
               <i class="material-icons light-blue">insert_drive_file</i>
@@ -295,7 +295,7 @@
       </div>
       <div class="cardContainer">
         <div class="vmLabDev cardContent">
-          <div class="cardHeader">Classes</div>
+          <div class="cardHeader" tabindex="0" title="Administrator Classes">Classes</div>
           <div class="category">
             <a href="/tms/tms-administrators/classes/schedule/create-class.md" class="categoryThread">
               <i class="material-icons light-green">input</i>
@@ -319,7 +319,7 @@
       </div>
       <div class="cardContainer">
         <div class="pbt_scoring cardContent">
-          <div class="cardHeader">Users</div>
+          <div class="cardHeader" tabindex="0" title="Administrator Users">Users</div>
           <div class="category">
             <a href="/tms/tms-administrators/users/student-management/create-student-user-accounts.md" class="categoryThread">
               <i class="material-icons light-blue">person</i>
@@ -343,7 +343,7 @@
       </div>
       <div class="cardContainer">
         <div class="lodIntegration cardContent">
-          <div class="cardHeader">Self-Paced Learning and Subscriptions</div>
+          <div class="cardHeader" tabindex="0" title="Administrator Self-Paced Learning and Subscriptions">Self-Paced Learning and Subscriptions</div>
           <div class="category">
             <a href="/tms/tms-administrators/self-paced-learning-and-subscriptions/schedule-self-paced-learning.md" class="categoryThread">
               <i class="material-icons light-green">desktop_windows</i>
@@ -367,7 +367,7 @@
       </div>
       <div class="cardContainer">
         <div class="lodIntegration cardContent">
-          <div class="cardHeader">Courses and Their Activities</div>
+          <div class="cardHeader" tabindex="0" title="Administrator Courses and Their Activities">Courses and Their Activities</div>
           <div class="category">
             <a href="/tms/tms-administrators/courses-and-activities/overall/create-course.md" class="categoryThread">
               <i class="material-icons light-green">ondemand_video</i>
@@ -391,7 +391,7 @@
       </div>
       <div class="cardContainer">
         <div class="lodIntegration cardContent">
-          <div class="cardHeader">Discussions</div>
+          <div class="cardHeader" tabindex="0" title="Administrator Discussion">Discussions</div>
           <div class="category">
             <a href="/tms/tms-administrators/discussions/what-is-discussion.md" class="categoryThread">
               <i class="material-icons light-green">forum</i>
@@ -415,7 +415,7 @@
       </div>
       <div class="cardContainer">
         <div class="lodIntegration cardContent">
-          <div class="cardHeader">Miscellaneous</div>
+          <div class="cardHeader" tabindex="0" title="Administator Miscellaneous">Miscellaneous</div>
           <div class="category">
             <a href="/tms/tms-administrators/miscellaneous/create-completion-certificates.md" class="categoryThread">
               <i class="material-icons light-green">description</i>
@@ -439,7 +439,7 @@
       </div>
       <div class="cardContainer">
         <div class="azIndex cardContent">
-          <div class="cardHeader">A-Z Index</div>
+          <div class="cardHeader" tabindex="0" title="Administrator A-Z Index">A-Z Index</div>
           <div class="category">
             <a href="access-control-lists.md" class="categoryThread">
               <i class="material-icons light-green">help</i>
@@ -474,7 +474,7 @@
     <div class="cardContainer">
         <!-- Begin categories section.. -->
         <div class="cloudSlice cardContent">
-          <div class="cardHeader">Fulfilling Your Lab Order</div>
+          <div class="cardHeader" tabindex="0" title="Arvato Marketplace Fulfilling Your Lab Order">Fulfilling Your Lab Order</div>
           <div class="category">
             <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started.md" class="categoryThread">
               <i class="material-icons light-blue">cloud_done</i>
@@ -498,7 +498,7 @@
       </div>
       <div class="cardContainer">
         <div class="vmLabDev cardContent">
-          <div class="cardHeader">Managing Your Users</div>
+          <div class="cardHeader" tabindex="0" title="Arvato Marketplace Managing Your Users">Managing Your Users</div>
           <div class="category">
             <a href="/tms/arvato-marketplace/user-accounts/create-student-account.md" class="categoryThread">
               <i class="material-icons light-green">supervised_user_circle</i>
@@ -522,7 +522,7 @@
       </div>
       <div class="cardContainer">
         <div class="pbt_scoring cardContent">
-          <div class="cardHeader">FAQs for Courseware Marketplace Orders</div>
+          <div class="cardHeader" tabindex="0" title="Arvato Marketplace FAQs for Courseware Marketplace Orders">FAQs for Courseware Marketplace Orders</div>
           <div class="category">
             <a href="/tms/arvato-marketplace/faq-for-arvato-marketplace/purchase-labs-for-instructor.md" class="categoryThread">
               <i class="material-icons light-blue">help</i>

@@ -7,7 +7,7 @@
   <!-- Begin featured posts section.. 
         Max of 3 items - replace href (link), text in categoryTitleFeatured, text in categoryDescription
   -->
-  <div class="categoriesHeader">Featured posts</div>
+  <div class="categoriesHeader" tabindex="0" title="Featured Posts">Featured posts</div>
   <div class="cardContainerFull">
     <div class="cardContent">
       <div class="category">
@@ -37,16 +37,15 @@
   <!-- ..End featured posts section -->
   
   <!-- Begin categories section.. -->
-  <div class="categoriesHeader">Categories</div>
+  <div class="categoriesHeader" tabindex="0" title="Document Categories">Categories</div>
   <div class="cardsContainer">
 
     <!-- Card - Cloud Slice Lab Development 
           Max of 3 items - replace href (link), text in categoryTitle
     -->
     <div class="cardContainer">
-      <!-- Begin categories section.. -->
       <div class="cloudSlice cardContent">
-        <div class="cardHeader">Cloud Slice Lab Development</div>
+        <div class="cardHeader" tabindex="0" title="Cloud Slice Lab Development">Cloud Slice Lab Development</div>
         <div class="category">
           <a href="/guides/cloud-slice/aws/aws-cloud-slice-setup.md" class="categoryThread">
             <i class="material-icons light-blue">cloud_done</i>
@@ -74,7 +73,7 @@
     -->
     <div class="cardContainer">
       <div class="vmLabDev cardContent">
-        <div class="cardHeader">Virtual Machine Lab Development</div>
+        <div class="cardHeader" tabindex="0" title="Virtual Machine Lab Development">Virtual Machine Lab Development</div>
         <div class="category">
           <a href="../lod/idlx-development-best-practices.md" class="categoryThread">
             <i class="material-icons light-green">input</i>
@@ -102,7 +101,7 @@
     -->
     <div class="cardContainer">
       <div class="pbt_scoring cardContent">
-        <div class="cardHeader">Performance Based Testing and Scoring</div>
+        <div class="cardHeader" tabindex="0" title="Performance Based Testing and Scoring">Performance Based Testing and Scoring</div>
         <div class="category">
           <a href="/lod/activities.md" class="categoryThread">
             <i class="material-icons light-blue">assessment</i>
@@ -130,7 +129,7 @@
     -->
     <div class="cardContainer">
       <div class="lodIntegration cardContent">
-        <div class="cardHeader">Lab on Demand Integration</div>
+        <div class="cardHeader" tabindex="0" title="Lab on Demand Integration">Lab on Demand Integration</div>
         <div class="category">
           <a href="/lod/lab-on-demand-lti-integration.md" class="categoryThread">
             <i class="material-icons light-green">call_merge</i>
@@ -158,7 +157,7 @@
     -->
     <div class="cardContainer">
       <div class="lod_admin cardContent">
-        <div class="cardHeader">Lab on Demand Administration</div>
+        <div class="cardHeader" tabindex="0" title="Lab on Demand Administration">Lab on Demand Administration</div>
         <div class="category">
           <a href="/lod/feature-focus/lod-experience.md" class="categoryThread">
             <i class="material-icons light-blue">account_box</i>
@@ -186,7 +185,7 @@
     -->
     <div class="cardContainer">
       <div class="azIndex cardContent">
-        <div class="cardHeader">A-Z Index</div>
+        <div class="cardHeader" tabindex="0" title="LOD A-Z Index">A-Z Index</div>
         <div class="category">
           <a href="access-control-lists.md" class="categoryThread">
             <i class="material-icons light-green">help</i>
