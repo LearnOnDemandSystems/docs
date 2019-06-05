@@ -476,7 +476,7 @@
         <div class="cloudSlice cardContent">
           <div class="cardHeader">Fulfilling Your Lab Order</div>
           <div class="category">
-            <a href="o	/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started.md" class="categoryThread">
+            <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started.md" class="categoryThread">
               <i class="material-icons light-blue">cloud_done</i>
               <span class="categoryTitle">I just purchased labs from LoDS. How do I get started?</span>
             </a>
