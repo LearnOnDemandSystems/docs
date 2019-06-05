@@ -31,7 +31,7 @@
           <span class="categoryDescription">How to find Azure Resource Manager templates for use with Microsoft Azure.</span>
         </a>
       </div>
-      <div class="viewAll"><a tabindex="1" class="viewAllLink">View all</a></div>
+      <div class="viewAll"><a tabindex="0" class="viewAllLink">View all</a></div>
     </div>
   </div> 
   <!-- ..End featured posts section -->
