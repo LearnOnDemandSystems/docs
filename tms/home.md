@@ -5,8 +5,7 @@
 <div class="categories">
   
   <div class="studentCategory userTypeSection visible">
-    <!-- Begin categories section.. -->
-    <div class="categoriesHeader">Student</div>
+    <!-- Begin student categories section.. -->
       <div class="cardsContainer">
         <div class="cardContainer">
           <!-- Begin categories section.. -->
@@ -110,8 +109,7 @@
     </div>
 
   <div class="instructorCategory userTypeSection">
-  <!-- Begin categories section.. -->
-    <div class="categoriesHeader">Instructor</div>
+  <!-- Begin instructor categories section.. -->
     <div class="cardsContainer">
     <div class="cardContainer">
         <!-- Begin categories section.. -->
@@ -265,7 +263,6 @@
         <div class="viewAll"><a class="viewAllLink">View all</a></div>
       </div>
     </div> 
-    <div class="categoriesHeader">Administrator</div>
     <div class="cardsContainer">
       <div class="cardContainer">
         <!-- Begin categories section.. -->
@@ -464,8 +461,7 @@
   </div>
 
   <div class="arvatoMarketplaceAdmin userTypeSection">
-  <!-- Begin categories section.. -->
-    <div class="categoriesHeader">Arvato Marketplace Administration</div>
+  <!-- Begin categories section.. -->>
     <div class="moreInfo">
       <span class="moreInfo_header">Getting started?</span>
       If you purchased Learn on Demand Systems labs through the Arvato Courseware Marketplace, read the <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started.md">Getting Started</a> article first, then review the following topics/processes to access and manage your orders.
