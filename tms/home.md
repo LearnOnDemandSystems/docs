@@ -463,7 +463,7 @@
     </div>
   </div>
 
-  <div class="instructorCategory userTypeSection">
+  <div class="arvatoMarketplaceAdmin userTypeSection">
   <!-- Begin categories section.. -->
     <div class="categoriesHeader">Arvato Marketplace Administration</div>
     <div class="moreInfo">
