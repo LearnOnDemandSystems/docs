@@ -263,7 +263,7 @@
         <div class="viewAll"><a tabindex="0" class="viewAllLink">View all</a></div>
       </div>
     </div> 
-    <div class="moreInfo">
+    <div class="moreInfo"  tabindex="0" title="API Client">
       <span class="moreInfo_header">API Client</span>
         Our API is written to allow new response fields we add to be ignored by clients. However, to ensure your API calls consistently work, when building your API client, make sure that your implementation is written in such a way as to ignore any fields you are not using in your code. This will help ensure your implementation remains stable while the API can remain dynamic. To assist with this, we have provided our <a href="https://www.nuget.org/packages/LearnOnDemandSystems.OneLearnTMS.OneLearnTMSAPIClient/">client library</a>, which adheres to these best practices.
     </div>
@@ -466,7 +466,7 @@
 
   <div class="arvatoMarketplaceAdmin userTypeSection">
   <!-- Begin categories section.. -->
-    <div class="moreInfo">
+    <div class="moreInfo" tabindex="0" title="Getting started?">
       <span class="moreInfo_header">Getting started?</span>
       If you purchased Learn on Demand Systems labs through the Arvato Courseware Marketplace, read the <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started.md">Getting Started</a> article first, then review the following topics/processes to access and manage your orders.
     </div>
@@ -547,7 +547,7 @@
     </div>
   </div>
 
-  <div class="moreInfo">
+  <div class="moreInfo" tabindex="0" title="Need more information?">
     <span class="moreInfo_header">Looking for more information?</span>
     If you've already read through all of the documentation that is available on a topic, and you are still looking for more information, or have questions, check out the resources available to you on our <a href="/contact-us.md">Contact Us</a> page.
   </div>

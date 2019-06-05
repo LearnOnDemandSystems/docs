@@ -176,7 +176,7 @@
             <span class="categoryTitle">Lab Interface Frequently Asked Questions</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink" herf="/lod/home-landing-pages/lod-admin-landing.md">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-admin-landing.md">View all</a></div>
       </div>
     </div>
 
@@ -211,8 +211,8 @@
   </div>
   <!-- -- End categories section -->
 
-  <div class="moreInfo">
+  <div class="moreInfo" tabindex="0" title="Need more information?">
     <span class="moreInfo_header">Looking for more information?</span>
-    If you've already read through all of the documentation that is available on a topic, and you are still looking for more        information, or have questions, check out the resources available to you on our <a href="/contact-us.md">Contact Us</a> page.
+    If you've already read through all of the documentation that is available on a topic, and you are still looking for more information, or have questions, check out the resources available to you on our <a href="/contact-us.md">Contact Us</a> page.
   </div>
 </div>
