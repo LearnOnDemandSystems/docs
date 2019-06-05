@@ -461,7 +461,7 @@
   </div>
 
   <div class="arvatoMarketplaceAdmin userTypeSection">
-  <!-- Begin categories section.. -->>
+  <!-- Begin categories section.. -->
     <div class="moreInfo">
       <span class="moreInfo_header">Getting started?</span>
       If you purchased Learn on Demand Systems labs through the Arvato Courseware Marketplace, read the <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started.md">Getting Started</a> article first, then review the following topics/processes to access and manage your orders.
