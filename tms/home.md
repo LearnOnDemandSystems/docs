@@ -61,19 +61,19 @@
             <div class="cardHeader">Classes and Self-Paced Learning</div>
             <div class="category">
               <a href="/tms/end-user-student-faqs/class-self-paced/get-into-virtual-classroom.md" class="categoryThread">
-                <i class="material-icons light-blue">class</i>
+                <i class="material-icons light-blue">assignment</i>
                 <span class="categoryTitle">How do I get into my virtual classroom?</span>
               </a>
             </div>
             <div class="category">
               <a href="/tms/end-user-student-faqs/class-self-paced/discussions.md" class="categoryThread">
-                <i class="material-icons blue">class</i>
+                <i class="material-icons blue">assignment</i>
                 <span class="categoryTitle">How do I participate in a discussion?</span>
               </a>
             </div>
             <div class="category">
               <a href="/tms/end-user-student-faqs/class-self-paced/print-completion-certificate.md" class="categoryThread">
-                <i class="material-icons light-blue">class</i>
+                <i class="material-icons light-blue">assignment</i>
                 <span class="categoryTitle">How do I print my completion certificate?</span>
               </a>
             </div>
@@ -117,19 +117,19 @@
           <div class="cardHeader">General</div>
           <div class="category">
             <a href="/tms/instructors/general/reset-student-password.md" class="categoryThread">
-              <i class="material-icons light-blue">supervised_user_cirlce</i>
+              <i class="material-icons light-blue">supervised_user_circle</i>
               <span class="categoryTitle">How do I, as an Instructor, reset a student's password?</span>
             </a>
           </div>
           <div class="category"> 
             <a href="/tms/tms-adminisrators/tms-fundamentals/admin-menu.md" class="categoryThread">
-              <i class="material-icons blue">supervised_user_cirlce</i>
+              <i class="material-icons blue">supervised_user_circle</i>
               <span class="categoryTitle">What is the Admin menu and how does it work?</span>
             </a>
           </div>
           <div class="category">  
             <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
-              <i class="material-icons light-blue">supervised_user_cirlce</i>
+              <i class="material-icons light-blue">supervised_user_circle</i>
               <span class="categoryTitle">What does it mean to be a contract instructor?</span>
             </a>
           </div>
