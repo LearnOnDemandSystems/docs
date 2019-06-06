@@ -1,5 +1,7 @@
 # What's New in Lab On Demand
 
+[Subscribe to receive email notifications of platform and service updates](https://lods.one/updates).
+
 ## **Released May 31, 2019**
 
 **VM Based Labs Landing Page**
