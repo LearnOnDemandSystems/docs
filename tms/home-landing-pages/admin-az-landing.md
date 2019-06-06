@@ -16,7 +16,7 @@
 <div class="categoriesHeader" tabindex="0" title="Instructor Docs Container">Instructor</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div class="subtopic_header" tabindex="0" title="Instructor Docs" role="button" aria-selected="true">A-Z Index</div>
+    <div class="subtopic_header" tabindex="0" title="Instructor Docs" role="button" aria-selected="true" selected>A-Z Index</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/rearrange-items-on-site-administration.md">
         <div class="subtopic_title">Can I rearrange items on the Site Administration page?</div>
