@@ -213,19 +213,19 @@
           <div class="cardHeader" tabindex="0" title="Instructor A-Z Index">A-Z Index</div>
           <div class="category">
             <a href="/tms/tms-administrators/discussions/admin-follow.md" class="categoryThread">
-              <i class="material-icons light-green">help</i>
+              <i class="material-icons light-blue">help</i>
               <span class="categoryTitle">How can I be notified of activity on a discussion?</span>
             </a>
           </div>
           <div class="category">
             <a href="/tms/instructors/instructor-profile/show-unavailable-times.md" class="categoryThread">
-              <i class="material-icons green">help</i>
+              <i class="material-icons blue">help</i>
               <span class="categoryTitle">How can I show times when I am unavailable?</span>
             </a>
           </div>
           <div class="category">
             <a href="/tms/instructors/instructor-profile/show-courses-qualified-to-teach.md" class="categoryThread">
-              <i class="material-icons light-green">help</i>
+              <i class="material-icons light-blue">help</i>
               <span class="categoryTitle">How can I show what I am qualified to teach?</span>
             </a>
           </div>
@@ -370,19 +370,19 @@
           <div class="cardHeader" tabindex="0" title="Administrator Courses and Their Activities">Courses and Their Activities</div>
           <div class="category">
             <a href="/tms/tms-administrators/courses-and-activities/overall/create-course.md" class="categoryThread">
-              <i class="material-icons light-green">ondemand_video</i>
+              <i class="material-icons light-blue">ondemand_video</i>
               <span class="categoryTitle">How do I create a basic course?</span>
             </a>
           </div>
           <div class="category">
             <a href="/tms/tms-administrators/courses-and-activities/labs/add-labs.md" class="categoryThread">
-              <i class="material-icons green">ondemand_video</i>
+              <i class="material-icons blue">ondemand_video</i>
               <span class="categoryTitle">How do I add labs to my course?</span>
             </a>
           </div>
           <div class="category">
             <a href="/tms/tms-administrators/courses-and-activities/other-activities/create-scorm-module.md" class="categoryThread">
-              <i class="material-icons light-green">ondemand_video</i>
+              <i class="material-icons light-blue">ondemand_video</i>
               <span class="categoryTitle">How do I create a SCORM Module and make it available to other organizations for their courses?</span>
             </a>
           </div>
@@ -418,19 +418,19 @@
           <div class="cardHeader" tabindex="0" title="Administator Miscellaneous">Miscellaneous</div>
           <div class="category">
             <a href="/tms/tms-administrators/miscellaneous/create-completion-certificates.md" class="categoryThread">
-              <i class="material-icons light-green">description</i>
+              <i class="material-icons light-blue">description</i>
               <span class="categoryTitle">How do I create completion certificates?</span>
             </a>
           </div>
           <div class="category">
             <a href="/tms/tms-administrators/miscellaneous/ensure-completion-certificates-print-correctly.md" class="categoryThread">
-              <i class="material-icons green">description</i>
+              <i class="material-icons blue">description</i>
               <span class="categoryTitle">How do I ensure my Course Completion Certificates print correctly?</span>
             </a>
           </div>
           <div class="category">
             <a href="/tms/tms-administrators/miscellaneous/use-survey-or-assessment.md" class="categoryThread">
-              <i class="material-icons light-green">description</i>
+              <i class="material-icons light-blue">description</i>
               <span class="categoryTitle">Do I want to use a survey or an assessment?</span>
             </a>
           </div>
