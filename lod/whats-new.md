@@ -1,5 +1,13 @@
 # What's New in Lab On Demand
 
+<style>
+    h1:first-of-type {margin-top:0;}
+</style>
+ 
+<div style="float:right; padding-top:5px; font-size:120%;">
+   <a href="https://lods.one/updates">Subscribe to receive email notifications of platform and service updates</a>
+</div>
+
 ## [Subscribe to receive email notifications of platform and service updates](https://lods.one/updates).
 
 ## **Released May 31, 2019**
