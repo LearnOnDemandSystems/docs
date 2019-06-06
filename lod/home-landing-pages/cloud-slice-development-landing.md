@@ -66,7 +66,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header" tabindex="0" title="Lab on Demand Configuration Docs" role="button" aria-selected="false">>Lab on Demand Configuration</div>
+    <div class="subtopic_header" tabindex="0" title="Lab on Demand Configuration Docs" role="button" aria-selected="false">Lab on Demand Configuration</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/guides/cloud-slice/cloud-slice.md">
         <div class="subtopic_title">Cloud Slice Setup Guide</div>
