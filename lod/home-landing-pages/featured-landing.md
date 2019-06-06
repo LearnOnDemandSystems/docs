@@ -13,7 +13,7 @@
     4. Notify Corey B. of the addition of a new document so he can add it to the search module.
 -->
 
-<div class="categoriesHeader" tabindex="0" title="Lab on Demand Featured Docs Container">Featured</div>
+<div class="categoriesHeader" tabindex="0" title="Lab on Demand Featured Docs Container">Lab on Demand Featured Documents</div>
 <div class="accordionModule">
   <div class="subtopic selected">
     <div id="header_1" class="subtopic_header" tabindex="0" title="A-Z Help Docs" role="button" aria-selected="true" selected>Featured</div>
