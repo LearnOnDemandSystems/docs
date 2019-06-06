@@ -13,25 +13,25 @@
       <div class="category">
         <a href="/lod/idlx-development-best-practices.md" class="categoryThread">
           <i class="material-icons light-blue">bookmarks</i>
-          <span class="categoryTitleFeatured">IDLx Lab Development Best Practices</span>
-          <span class="categoryDescription">This document covers best practices for IDLx lab development, to assist in creating a rich learning experience.</span>
+          <span class="categoryTitleFeatured" title="IDLx Lab Development Best Practices">IDLx Lab Development Best Practices</span>
+          <span class="categoryDescription" title="This document covers best practices for IDLx lab development, to assist in creating a rich learning experience.">This document covers best practices for IDLx lab development, to assist in creating a rich learning experience.</span>
         </a>
       </div>
       <div class="category"> 
         <a href="/lod/feature-focus/lod-experience.md" class="categoryThread">
           <i class="material-icons blue">bookmarks</i>
-          <span class="categoryTitleFeatured">Introduction to Lab on Demand UI</span>
-          <span class="categoryDescription">Explanation of Lab on Demand UI.</span>
+          <span class="categoryTitleFeatured" title="Introduction to Lab on Demand UI">Introduction to Lab on Demand UI</span>
+          <span class="categoryDescription" title="Explanation of Lab on Demand UI.">Explanation of Lab on Demand UI.</span>
         </a>
       </div>
       <div class="category">
         <a href="/guides/cloud-slice/microsoft-azure/cloud-slice-find-resource-templates.md" class="categoryThread">
           <i class="material-icons light-blue">bookmarks</i>
-          <span class="categoryTitleFeatured">Azure Resource Templates</span>
-          <span class="categoryDescription">How to find Azure Resource Manager templates for use with Microsoft Azure.</span>
+          <span class="categoryTitleFeatured" title="Azure Resource Templates">Azure Resource Templates</span>
+          <span class="categoryDescription" title="How to find Azure Resource Manager templates for use with Microsoft Azure.">How to find Azure Resource Manager templates for use with Microsoft Azure.</span>
         </a>
       </div>
-      <div class="viewAll"><a tabindex="0" class="viewAllLink">View all</a></div>
+      <div class="viewAll"><a tabindex="0" class="viewAllLink" title="View all">View all</a></div>
     </div>
   </div> 
   <!-- ..End featured posts section -->
@@ -49,22 +49,22 @@
         <div class="category">
           <a href="/guides/cloud-slice/aws/aws-cloud-slice-setup.md" class="categoryThread">
             <i class="material-icons light-blue">cloud_done</i>
-            <span class="categoryTitle">Enable Cloud Slice Support in AWS</span>
+            <span class="categoryTitle" title="Enable Cloud Slice Support in AWS">Enable Cloud Slice Support in AWS</span>
           </a>
         </div>
         <div class="category"> 
           <a href="/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md" class="categoryThread">
             <i class="material-icons blue">cloud_done</i>
-            <span class="categoryTitle">Setup your Azure cloud subscription in OneLearn Lab on Demand</span>
+            <span class="categoryTitle" title="Setup your Azure cloud subscription in OneLearn Lab on Demand">Setup your Azure cloud subscription in OneLearn Lab on Demand</span>
           </a>
         </div>
         <div class="category">  
           <a href="/guides/cloud-slice/cloud-slice.md" class="categoryThread">
             <i class="material-icons light-blue">cloud_done</i>
-            <span class="categoryTitle">Cloud Slice Setup Guide</span>
+            <span class="categoryTitle" title="Cloud Slice Setup Guide">Cloud Slice Setup Guide</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/cloud-slice-development-landing.md">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/cloud-slice-development-landing.md" title="View all">View all</a></div>
       </div>
     </div>
 
@@ -77,22 +77,22 @@
         <div class="category">
           <a href="../lod/idlx-development-best-practices.md" class="categoryThread">
             <i class="material-icons light-green">input</i>
-            <span class="categoryTitle">IDLx Lab Development Best Practices</span>
+            <span class="categoryTitle" title="IDLx Lab Development Best Practices">IDLx Lab Development Best Practices</span>
           </a>
         </div>
         <div class="category">
           <a href="/lod/docker.md" class="categoryThread">
             <i class="material-icons green">input</i>
-            <span class="categoryTitle">Docker Support</span>
+            <span class="categoryTitle" title="Docker Support">Docker Support</span>
           </a>
         </div>
         <div class="category">
           <a href="/lod/lab-networks.md" class="categoryThread">
             <i class="material-icons light-green">input</i>
-            <span class="categoryTitle">Lab Network Restrictions</span>
+            <span class="categoryTitle" title="Lab Network Restrictions">Lab Network Restrictions</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/vm-lab-development-landing.md">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/vm-lab-development-landing.md" title="View all">View all</a></div>
       </div>
     </div>
 
@@ -111,16 +111,16 @@
         <div class="category">
           <a href="terminal-access.md" class="categoryThread">
             <i class="material-icons blue">assessment</i>
-            <span class="categoryTitle">SSH Terminal Access</span>
+            <span class="categoryTitle" title="SSH Terminal Access">SSH Terminal Access</span>
           </a>
         </div>
         <div class="category">
           <a href="/guides/idl2/idlv2-authoring-guide-and-best-practice.md" class="categoryThread">
             <i class="material-icons light-blue">assessment</i>
-            <span class="categoryTitle">IDLx Authoring Guide</span>
+            <span class="categoryTitle" title="IDLx Authoring Guide">IDLx Authoring Guide</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/pbt-and-scoring-landing.md">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/pbt-and-scoring-landing.md" title="View all">View all</a></div>
       </div>
     </div>
 
@@ -133,22 +133,22 @@
         <div class="category">
           <a href="/lod/lab-on-demand-lti-integration.md" class="categoryThread">
             <i class="material-icons light-green">call_merge</i>
-            <span class="categoryTitle">LTI Integration</span>
+            <span class="categoryTitle" title="LTI Integration">LTI Integration</span>
           </a>
         </div>
         <div class="category">
           <a href="/guides/github-integration/github-integration.md" class="categoryThread">
             <i class="material-icons green">call_merge</i>
-            <span class="categoryTitle">GitHub Integration</span>
+            <span class="categoryTitle" title="GitHub Integration">GitHub Integration</span>
           </a>
         </div>
         <div class="category">
           <a href="/lod/lod-api/lod-api-main.md" class="categoryThread">
             <i class="material-icons light-green">call_merge</i>
-            <span class="categoryTitle">Lab on Demand API Documentation</span>
+            <span class="categoryTitle" title="Lab on Demand API Documentation">Lab on Demand API Documentation</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-integration-landing.md">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-integration-landing.md" title="View all">View all</a></div>
       </div>
     </div>
 
@@ -161,22 +161,22 @@
         <div class="category">
           <a href="/lod/feature-focus/lod-experience.md" class="categoryThread">
             <i class="material-icons light-blue">account_box</i>
-            <span class="categoryTitle">Introduction to Lab on Demand UI</span>
+            <span class="categoryTitle" title="Introduction to Lab on Demand UI">Introduction to Lab on Demand UI</span>
           </a>
         </div>
         <div class="category">
           <a href="/lod/feature-focus/lab-profiles/create.md" class="categoryThread">
             <i class="material-icons blue">account_box</i>
-            <span class="categoryTitle">Lab Profile Creation and Explanation</span>
+            <span class="categoryTitle" title="Lab Profile Creation and Explanation">Lab Profile Creation and Explanation</span>
           </a>
         </div>
         <div class="category">
           <a href="/lod/lab-interface-faq.md" class="categoryThread">
             <i class="material-icons light-blue">account_box</i>
-            <span class="categoryTitle">Lab Interface Frequently Asked Questions</span>
+            <span class="categoryTitle" title="Lab Interface Frequently Asked Questions">Lab Interface Frequently Asked Questions</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-admin-landing.md">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-admin-landing.md" title="View all">View all</a></div>
       </div>
     </div>
 
@@ -189,22 +189,22 @@
         <div class="category">
           <a href="access-control-lists.md" class="categoryThread">
             <i class="material-icons light-green">help</i>
-            <span class="categoryTitle">Access Control Lists</span>
+            <span class="categoryTitle" title="Access Control Lists">Access Control Lists</span>
           </a>
         </div>
         <div class="category">
           <a href="/lod/aws-capabilities.md" class="categoryThread">
             <i class="material-icons green">help</i>
-            <span class="categoryTitle">Amazon Web Services API Capabilities</span>
+            <span class="categoryTitle" title="Amazon Web Services API Capabilities">Amazon Web Services API Capabilities</span>
           </a>
         </div>
         <div class="category">
           <a href="/lod/how-to-use-api-consumer.md" class="categoryThread">
             <i class="material-icons light-green">help</i>
-            <span class="categoryTitle">API Best Practices and How to Use an API Consumer</span>
+            <span class="categoryTitle" title="API Best Practices and How to Use an API Consumer">API Best Practices and How to Use an API Consumer</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/a-z-index.md">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/a-z-index.md" title="View all">View all</a></div>
       </div>
     </div>
 
@@ -213,6 +213,6 @@
 
   <div class="moreInfo" tabindex="0" title="Need more information?">
     <span class="moreInfo_header">Looking for more information?</span>
-    If you've already read through all of the documentation that is available on a topic, and you are still looking for more information, or have questions, check out the resources available to you on our <a href="/contact-us.md">Contact Us</a> page.
+    If you've already read through all of the documentation that is available on a topic, and you are still looking for more information, or have questions, check out the resources available to you on our <a href="/contact-us.md" title="Contact Us">Contact Us</a> page.
   </div>
 </div>
