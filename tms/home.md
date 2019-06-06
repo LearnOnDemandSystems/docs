@@ -115,10 +115,10 @@
         <!-- Begin categories section.. -->
         <div class="cloudSlice cardContent">
           <div class="cardHeader" tabindex="0" title="Instructor General">General</div>
-          <div class="category">
-            <a href="/tms/instructors/general/reset-student-password.md" class="categoryThread">
+          <div class="category">  
+            <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
               <i class="material-icons light-blue">supervised_user_circle</i>
-              <span class="categoryTitle">How do I, as an Instructor, reset a student's password?</span>
+              <span class="categoryTitle">What does it mean to be a contract instructor?</span>
             </a>
           </div>
           <div class="category"> 
@@ -127,10 +127,10 @@
               <span class="categoryTitle">What is the Admin menu and how does it work?</span>
             </a>
           </div>
-          <div class="category">  
-            <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
+          <div class="category">
+            <a href="/tms/instructors/general/reset-student-password.md" class="categoryThread">
               <i class="material-icons light-blue">supervised_user_circle</i>
-              <span class="categoryTitle">What does it mean to be a contract instructor?</span>
+              <span class="categoryTitle">How do I, as an Instructor, reset a student's password?</span>
             </a>
           </div>
           <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md">View all</a></div>
@@ -475,12 +475,6 @@
         <!-- Begin categories section.. -->
         <div class="cloudSlice cardContent">
           <div class="cardHeader" tabindex="0" title="Arvato Marketplace Fulfilling Your Lab Order">Fulfilling Your Lab Order</div>
-          <div class="category">
-            <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started.md" class="categoryThread">
-              <i class="material-icons light-blue">cloud_done</i>
-              <span class="categoryTitle">I just purchased labs from LoDS. How do I get started?</span>
-            </a>
-          </div>
           <div class="category"> 
             <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md" class="categoryThread">
               <i class="material-icons blue">cloud_done</i>
@@ -491,6 +485,12 @@
             <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/enroll-students-in-class.md" class="categoryThread">
               <i class="material-icons light-blue">cloud_done</i>
               <span class="categoryTitle">How do I enroll students in a class?</span>
+            </a>
+          </div>
+          <div class="category">  
+            <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/add-instructor-to-class.md" class="categoryThread">
+              <i class="material-icons light-blue">cloud_done</i>
+              <span class="categoryTitle">How do I add an instructor to a class?</span>
             </a>
           </div>
           <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/arvato-courseware-marketplace-landing.md">View all</a></div>

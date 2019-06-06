@@ -13,10 +13,10 @@
     4. Ensure to add the new document in A-Z index
 -->
 
-<div class="categoriesHeader">Cloud Slice Lab Development</div>
+<div class="categoriesHeader" tabindex="0" title="Cloud Slice Lab Development Docs Container">Cloud Slice Lab Development</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div class="subtopic_header">Amazon Web Services Cloud Slice Development</div>
+    <div class="subtopic_header" tabindex="0" title="Amazon Web Services Cloud Slice Development Docs" role="button" aria-selected="true">Amazon Web Services Cloud Slice Development</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/lod/aws-capabilities.md">
         <div class="subtopic_title">Amazon Web Services API Capabilities</div>
@@ -33,7 +33,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header">Microsoft Azure Cloud Slice Development</div>
+    <div class="subtopic_header" tabindex="0" title="Microsoft Azure Cloud Slice Development Docs" role="button" aria-selected="false">Microsoft Azure Cloud Slice Development</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/guides/cloud-slice/microsoft-azure/azure-capacity-limitations.md">
         <div class="subtopic_title">Azure Capacity Limitations</div>
@@ -66,7 +66,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header">Lab on Demand Configuration</div>
+    <div class="subtopic_header" tabindex="0" title="Lab on Demand Configuration Docs" role="button" aria-selected="false">>Lab on Demand Configuration</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/guides/cloud-slice/cloud-slice.md">
         <div class="subtopic_title">Cloud Slice Setup Guide</div>
@@ -87,7 +87,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header">Lab Instruction Authoring</div>
+    <div class="subtopic_header" tabindex="0" title="Lab Instruction Authoring Docs" role="button" aria-selected="false">Lab Instruction Authoring</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/lod/idlx-development-best-practices.md">
         <div class="subtopic_title">IDLx Lab Development Best Practices</div>

@@ -13,10 +13,10 @@
     4. Ensure to add the new document in A-Z index
 -->
 
-<div class="categoriesHeader">Performance Based Tested - Scoring</div>
+<div class="categoriesHeader" tabindex="0" title="Performance Based Tested - Scoring Docs Container">Performance Based Tested - Scoring</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div id="header_1" class="subtopic_header">Lab Instruction Authoring</div>
+    <div id="header_1" class="subtopic_header" tabindex="0" title="PBT and Scoring Docs" role="button" aria-selected="true">PBT and Scoring</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/lod/activities.md">
         <div class="subtopic_title">IDLx Activities</div>
@@ -29,7 +29,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div id="header_1" class="subtopic_header">Lab Instruction Authoring</div>
+    <div id="header_1" class="subtopic_header" tabindex="0" title="Lab Instruction Authoring Docs" role="button" aria-selected="false">Lab Instruction Authoring</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/guides/idl2/idlv2-authoring-guide-and-best-practice.md">
         <div class="subtopic_title">IDLx Authoring Guide</div>

@@ -13,10 +13,10 @@
     4. Ensure to add the new document in A-Z index
 -->
 
-<div class="categoriesHeader">Instructor</div>
+<div class="categoriesHeader" tabindex="0" title="Instructor Docs Container">Instructor</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div class="subtopic_header">A-Z Index</div>
+    <div class="subtopic_header" tabindex="0" title="Instructor Docs" role="button" aria-selected="true">A-Z Index</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/rearrange-items-on-site-administration.md">
         <div class="subtopic_title">Can I rearrange items on the Site Administration page?</div>
@@ -203,6 +203,9 @@
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/instructors/schedule-class-with-multiple-instructors.md">
         <div class="subtopic_title">How do I schedule a class with multiple instructors?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/schedule-self-paced-learning.md">
+        <div class="subtopic_title">How do I schedule self-paced learning for a student?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/see-available-courses-and-determine-cost-for-lab-in-one.md">
         <div class="subtopic_title">How do I see available courses and determine how much I will be charged for a lab in one of them?</div>

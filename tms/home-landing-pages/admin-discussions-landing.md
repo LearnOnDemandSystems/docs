@@ -13,10 +13,10 @@
     4. Ensure to add the new document in A-Z index
 -->
 
-<div class="categoriesHeader">Administrator - Discussions</div>
+<div class="categoriesHeader" tabindex="0" title="Administrator - Self Paced Learning and Subscriptions Docs Container">Self Paced Learning and Subscriptions</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div class="subtopic_header">General</div>
+    <div class="subtopic_header" tabindex="0" title="General Docs" role="button" aria-selected="true">General</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/discussions/what-is-discussion.md">
         <div class="subtopic_title">What is a discussion and how can I use it to increase student interaction in their learning?</div>

@@ -13,10 +13,10 @@
     4. Ensure to add the new document in A-Z index
 -->
 
-<div class="categoriesHeader">Administrator - Fundamentals</div>
+<div class="categoriesHeader" tabindex="0" title="Administrator - Fundamentals Docs Container">Fundamentals</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div class="subtopic_header">General</div>
+    <div class="subtopic_header" tabindex="0" title="General Docs" role="button" aria-selected="true">General</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/admin-menu.md">
         <div class="subtopic_title">What is the Admin menu and how does it work?</div>

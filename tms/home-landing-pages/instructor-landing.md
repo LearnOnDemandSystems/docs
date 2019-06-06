@@ -13,10 +13,10 @@
     4. Ensure to add the new document in A-Z index
 -->
 
-<div class="categoriesHeader">Instructor</div>
+<div class="categoriesHeader" tabindex="0" title="Instructor - Docs Container">Instructor</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div class="subtopic_header">General</div>
+    <div class="subtopic_header" tabindex="0" title="General Docs" role="button" aria-selected="true">General</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/tms/instructors/general/what-is-a-contract-instructor.md">
         <div class="subtopic_title">What does it mean to be a contract instructor?</div>
@@ -30,7 +30,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header">Preparation and Classes</div>
+    <div class="subtopic_header" tabindex="0" title="Preparation and Classes Docs" role="button" aria-selected="false">Preparation and Classes</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/prepare-for-course-not-scheduled-to-teach.md">
         <div class="subtopic_title">How do I prepare for a course that I am not scheduled to teach?</div>
@@ -50,7 +50,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header">Student Labs</div>
+    <div class="subtopic_header" tabindex="0" title="Student Labs Docs" role="button" aria-selected="false">Student Labs</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/instructors/student-labs/assist-students.md">
         <div class="subtopic_title">How do I assist my students with their labs?</div>
@@ -61,7 +61,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header">Profile</div>
+    <div class="subtopic_header" tabindex="0" title="Profile Docs" role="button" aria-selected="false">Profile</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/instructors/instructor-profile/show-unavailable-times.md">
         <div class="subtopic_title">How can I show times when I am unavailable?</div>
@@ -72,7 +72,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header">A-Z Index</div>
+    <div class="subtopic_header" tabindex="0" title="Instructor A-Z Docs" role="button" aria-selected="false">A-Z Index</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/discussions/admin-follow.md">
         <div class="subtopic_title">How can I be notified of activity on a discussion?</div>

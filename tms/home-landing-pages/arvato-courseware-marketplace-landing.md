@@ -13,10 +13,10 @@
     4. Ensure to add the new document in A-Z index
 -->
 
-<div class="categoriesHeader">Arvato Marketplace Admin</div>
+<div class="categoriesHeader" tabindex="0" title="Arvato Marketplace Admin Docs Container">Arvato Marketplace Admin</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div class="subtopic_header">Fulfilling Your Lab Order</div>
+    <div class="subtopic_header" tabindex="0" title="Fulfilling Your Lab Order Docs" role="button" aria-selected="true">Fulfilling Your Lab Order</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started.md">
         <div class="subtopic_title">I just purchased labs from LoDS. How do I get started?</div>
@@ -36,7 +36,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header">Managing Your Users</div>
+    <div class="subtopic_header" tabindex="0" title="Managing Your Users Docs" role="button" aria-selected="false">Managing Your Users</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/arvato-marketplace/user-accounts/create-student-account.md">
         <div class="subtopic_title">How do I create an account for a student?</div>
@@ -56,7 +56,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header">FAQs for Courseware Marketplace Orders</div>
+    <div class="subtopic_header" tabindex="0" title="FAQs for Courseware Marketplace Orders Docs" role="button" aria-selected="false">FAQs for Courseware Marketplace Orders</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/arvato-marketplace/faq-for-arvato-marketplace/purchase-labs-for-instructor.md">
         <div class="subtopic_title">Do I need to purchase labs for the instructor?</div>
@@ -82,7 +82,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header">A-Z Index</div>
+    <div class="subtopic_header" tabindex="0" title="Arvator Marketplace Admin A-Z Docs" role="button" aria-selected="false">A-Z Index</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/arvato-marketplace/faq-for-arvato-marketplace/purchase-labs-for-instructor.md">
         <div class="subtopic_title">Do I need to purchase labs for the instructor?</div>
@@ -119,9 +119,6 @@
       </a>
       <a class="subtopic_link" href="/tms/arvato-marketplace/faq-for-arvato-marketplace/need-account-to-schedule-class.md">
         <div class="subtopic_title">I don't have a user account or permissions to set up a class, what should I do?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started.md">
-        <div class="subtopic_title">I just purchased labs from LoDS. How do I get started?</div>
       </a>
       <a class="subtopic_link" href="/tms/arvato-marketplace/faq-for-arvato-marketplace/reschedule-cancel-student.md">
         <div class="subtopic_title">What can I do if a student needs to reschedule or cancel a class?</div>

@@ -13,10 +13,10 @@
     4. Ensure to add the new document in A-Z index
 -->
 
-<div class="categoriesHeader">Student</div>
+<div class="categoriesHeader" tabindex="0" title="Student Docs Container">Student</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div class="subtopic_header">Basics</div>
+    <div class="subtopic_header" tabindex="0" title="Basics Docs" role="button" aria-selected="true">Basics</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/forgot-password.md">
         <div class="subtopic_title">What do I do if I forgot my password?</div>
@@ -36,7 +36,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header">Labs</div>
+    <div class="subtopic_header" tabindex="0" title="Labs Docs" role="button" aria-selected="false">Labs</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-without-user-account.md">
         <div class="subtopic_title">How do I access my labs using a lab code without a user account?</div>
@@ -56,7 +56,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header">Classes and Self-Paced Learning</div>
+    <div class="subtopic_header" tabindex="0" title="Classes and Self-Paced Learning Docs" role="button" aria-selected="false">Classes and Self-Paced Learning</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/end-user-student-faqs/class-self-paced/get-into-virtual-classroom.md">
         <div class="subtopic_title">How do I get into my virtual classroom?</div>
@@ -73,7 +73,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header">A-Z Index</div>
+    <div class="subtopic_header" tabindex="0" title="Student A-Z Docs" role="button" aria-selected="false">A-Z Index</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/where-do-i-get-help.md">
         <div class="subtopic_title">How can I reach someone for help?</div>

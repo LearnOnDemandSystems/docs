@@ -13,10 +13,10 @@
     4. Notify Corey B. of the addition of a new document so he can add it to the search module.
 -->
 
-<div class="categoriesHeader">Lab on Demand Index</div>
+<div class="categoriesHeader" tabindex="0" title="Lab on Demand A-Z Docs Container">Lab on Demand A-Z Index</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div id="header_1" class="subtopic_header">A-Z Help</div>
+    <div id="header_1" class="subtopic_header" tabindex="0" title="A-Z Help Docs" role="button" aria-selected="true">A-Z Help</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/lod/access-control-lists.md">
         <div class="subtopic_title">Access Control Lists</div>

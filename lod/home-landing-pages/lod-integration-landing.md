@@ -13,10 +13,10 @@
     4. Ensure to add the new document in A-Z index
 -->
 
-<div class="categoriesHeader">Lab on Demand Integration</div>
+<div class="categoriesHeader" tabindex="0" title="Lab on Demand Integration Docs Container">Lab on Demand Integration</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div id="header_1" class="subtopic_header">API</div>
+    <div id="header_1" class="subtopic_header" tabindex="0" title="API Docs" role="button" aria-selected="true">API</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/lod-api/lod-api-main.md">
         <div class="subtopic_title">API Documentation</div>
@@ -29,7 +29,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div id="header_1" class="subtopic_header">External Integration</div>
+    <div id="header_1" class="subtopic_header" tabindex="0" title="External Integration Docs" role="button" aria-selected="false">External Integration</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/guides/github-integration/github-integration.md">
         <div class="subtopic_title">GitHub Integration</div>

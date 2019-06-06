@@ -13,10 +13,10 @@
     4. Ensure to add the new document in A-Z index
 -->
 
-<div class="categoriesHeader">Administrator - Users</div>
+<div class="categoriesHeader" tabindex="0" title="Administrator - Users Docs Container">Users</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div class="subtopic_header">Student Management</div>
+    <div class="subtopic_header" tabindex="0" title="Student Management Docs" role="button" aria-selected="true">Student Management</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/create-student-user-accounts.md">
         <div class="subtopic_title">How do I create student user accounts?</div>
@@ -45,7 +45,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header">Instructor Management</div>
+    <div class="subtopic_header" tabindex="0" title="Instructor Management Docs" role="button" aria-selected="false">Instructor Management</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/users/instructor-management/different-ways-to-set-up-instructor-access.md">
         <div class="subtopic_title">What are different ways to set up instructor access?</div>
@@ -65,7 +65,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header">A-Z Index</div>
+    <div class="subtopic_header" tabindex="0" title="Admin Users A-Z Docs" role="button" aria-selected="false">A-Z Index</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/create-way-to-find-group-of-users.md">
         <div class="subtopic_title">How can I create a way to find a group of users?</div>

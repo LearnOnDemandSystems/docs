@@ -13,10 +13,10 @@
     4. Ensure to add the new document in A-Z index
 -->
 
-<div class="categoriesHeader">Administrator - Classes</div>
+<div class="categoriesHeader" tabindex="0" title="Administrator - Classes Docs Container">Classes</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div class="subtopic_header">Schedule</div>
+    <div class="subtopic_header" tabindex="0" title="Schedule Docs" role="button" aria-selected="true">Schedule</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/create-class.md">
         <div class="subtopic_title">How do I create a class?</div>
@@ -39,7 +39,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header">Enrollments and Rosters</div>
+    <div class="subtopic_header" tabindex="0" title="Enrollments and Rosters Docs" role="button" aria-selected="false">Enrollments and Rosters</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/change-class-enrollment-status-and-which-to-use.md">
         <div class="subtopic_title">How do I change a class enrollment status and which one should I use?</div>
@@ -80,7 +80,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header">Instructors</div>
+    <div class="subtopic_header" tabindex="0" title="Instructors Docs" role="button" aria-selected="false">Instructors</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/classes/instructors/schedule-class-with-multiple-instructors.md">
         <div class="subtopic_title">How do I schedule a class with multiple instructors?</div>
@@ -91,7 +91,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header">Training Keys</div>
+    <div class="subtopic_header" tabindex="0" title="Training Keys Docs" role="button" aria-selected="false">Training Keys</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md">
         <div class="subtopic_title">How can I use training keys for students to self-register for a class?</div>
@@ -102,7 +102,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header">Classrooms and Equipment</div>
+    <div class="subtopic_header" tabindex="0" title="Classrooms and Equipment Docs" role="button" aria-selected="false">Classrooms and Equipment</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md">
         <div class="subtopic_title">How can I use my organization’s virtual meeting program in my virtual classes?</div>
@@ -122,7 +122,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header">A-Z Index</div>
+    <div class="subtopic_header" tabindex="0" title="Admin Classes A-Z Docs" role="button" aria-selected="false">A-Z Index</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/print-completion-certificates-for-class-by-admin.md">
         <div class="subtopic_title">How can an administrator print completion certificates for a class?</div>

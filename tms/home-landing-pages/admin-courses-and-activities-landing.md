@@ -13,10 +13,10 @@
     4. Ensure to add the new document in A-Z index
 -->
 
-<div class="categoriesHeader">Administrator - Courses and Their Activities</div>
+<div class="categoriesHeader" tabindex="0" title="Administrator - Courses and Their Activities Docs Container">Courses and Their Activities</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div class="subtopic_header">General</div>
+    <div class="subtopic_header" tabindex="0" title="General Docs" role="button" aria-selected="true">General</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/create-course.md">
         <div class="subtopic_title">How do I create a basic course?</div>
@@ -30,7 +30,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header">Lab Activities</div>
+    <div class="subtopic_header" tabindex="0" title="Lab Activities Docs" role="button" aria-selected="false">Lab Activities</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/labs/add-labs.md">
         <div class="subtopic_title">How do I add labs to my course?</div>
@@ -50,7 +50,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header">Other Activities</div>
+    <div class="subtopic_header" tabindex="0" title="Other Activities Docs" role="button" aria-selected="false">Other Activities</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/create-scorm-module.md">
         <div class="subtopic_title">How do I create a SCORM Module and make it available to other organizations for their courses?</div>
@@ -79,7 +79,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header">A-Z Index</div>
+    <div class="subtopic_header" tabindex="0" title="Admin Courses and Activities A-Z Docs" role="button" aria-selected="false">A-Z Index</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/capture-user-data-for-externally-hosted-activities.md">
         <div class="subtopic_title">How can I capture user data for users who access my externally hosted activities from the TMS?</div>

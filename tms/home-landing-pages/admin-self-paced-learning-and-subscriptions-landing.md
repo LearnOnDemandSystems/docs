@@ -13,28 +13,16 @@
     4. Ensure to add the new document in A-Z index
 -->
 
-<div class="categoriesHeader">Administrator - Discussions</div>
+<div class="categoriesHeader" tabindex="0" title="Administrator - Discussions Docs Container">Self Paced Learning and Subscriptions</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div class="subtopic_header">General</div>
+    <div class="subtopic_header" tabindex="0" title="General Docs" role="button" aria-selected="true">General</div>
     <div id="body_1" class="subtopic_links">
-      <a class="subtopic_link" href="/tms/tms-administrators/discussions/what-is-discussion.md">
-        <div class="subtopic_title">What is a discussion and how can I use it to increase student interaction in their learning?</div>
+      <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/schedule-self-paced-learning.md">
+        <div class="subtopic_title">How do I schedule self-paced learning for a student?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/discussions/create-discussion.md">
-        <div class="subtopic_title">How do I create a discussion and attach it to a course?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/discussions/add-moderators.md">
-        <div class="subtopic_title">How can I control posts on discussions?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/discussions/add-disclaimer.md">
-        <div class="subtopic_title">How can I add a disclaimer to all my discussions?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/discussions/participation.md">
-        <div class="subtopic_title">How do my students and I participate in discussions?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/discussions/admin-follow.md">
-        <div class="subtopic_title">How can I be notified of activity on a discussion?</div>
+      <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/print-completion-certificates-for-self-pace-learning-by-admin.md">
+        <div class="subtopic_title">How can an administrator print completion certificates for self-paced learning?</div>
       </a>
     </div>
   </div>
