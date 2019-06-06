@@ -260,7 +260,7 @@
             <span class="categoryDescription">A Discussion is a great feature for enhancing learning by giving students and instructors a place to hold asynchronous, topic-structured conversations regarding a course.</span>
           </a>
         </div>
-        <div class="viewAll"><a tabindex="0" class="viewAllLink" title="View all">View all</a></div>
+        <div class="viewAll"><a tabindex="0" class="viewAllLink" title="View all" href="/tms/home-landing-pages/admin-featured-landing.md">View all</a></div>
       </div>
     </div> 
     <div class="moreInfo"  tabindex="0" title="API Client">
