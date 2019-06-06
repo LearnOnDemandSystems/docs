@@ -16,7 +16,7 @@
 <div class="categoriesHeader" tabindex="0" title="Administrator - Classes Docs Container">Classes</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div class="subtopic_header" tabindex="0" title="Schedule Docs" role="button" aria-selected="true">Schedule</div>
+    <div class="subtopic_header" tabindex="0" title="Schedule Docs" role="button" aria-selected="true" selected>Schedule</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/create-class.md">
         <div class="subtopic_title">How do I create a class?</div>

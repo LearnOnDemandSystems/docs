@@ -16,7 +16,7 @@
 <div class="categoriesHeader" tabindex="0" title="Arvato Marketplace Admin Docs Container">Arvato Marketplace Admin</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div class="subtopic_header" tabindex="0" title="Fulfilling Your Lab Order Docs" role="button" aria-selected="true">Fulfilling Your Lab Order</div>
+    <div class="subtopic_header" tabindex="0" title="Fulfilling Your Lab Order Docs" role="button" aria-selected="true" selected>Fulfilling Your Lab Order</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started.md">
         <div class="subtopic_title">I just purchased labs from LoDS. How do I get started?</div>

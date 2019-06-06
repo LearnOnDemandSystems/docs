@@ -16,7 +16,7 @@
 <div class="categoriesHeader" tabindex="0" title="Performance Based Tested - Scoring Docs Container">Performance Based Tested - Scoring</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div id="header_1" class="subtopic_header" tabindex="0" title="PBT and Scoring Docs" role="button" aria-selected="true">PBT and Scoring</div>
+    <div id="header_1" class="subtopic_header" tabindex="0" title="PBT and Scoring Docs" role="button" aria-selected="true" selected>PBT and Scoring</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/lod/activities.md">
         <div class="subtopic_title">IDLx Activities</div>

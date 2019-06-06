@@ -16,7 +16,7 @@
 <div class="categoriesHeader" tabindex="0" title="Lab on Demand Integration Docs Container">Lab on Demand Integration</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div id="header_1" class="subtopic_header" tabindex="0" title="API Docs" role="button" aria-selected="true">API</div>
+    <div id="header_1" class="subtopic_header" tabindex="0" title="API Docs" role="button" aria-selected="true" selected>API</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/lod-api/lod-api-main.md">
         <div class="subtopic_title">API Documentation</div>

@@ -16,7 +16,7 @@
 <div class="categoriesHeader" tabindex="0" title="Virtual Machine Lab Development Docs Container">Virtual Machine Lab Development</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div id="header_1" class="subtopic_header" tabindex="0" title="Lab Instruction Authoring Docs" role="button" aria-selected="true">Lab Instruction Authoring</div>
+    <div id="header_1" class="subtopic_header" tabindex="0" title="Lab Instruction Authoring Docs" role="button" aria-selected="true" selected>Lab Instruction Authoring</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/lod/idlx-development-best-practices.md">
         <div class="subtopic_title">IDLx Lab Development Best Practices</div>

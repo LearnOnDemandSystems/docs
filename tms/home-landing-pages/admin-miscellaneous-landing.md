@@ -16,7 +16,7 @@
 <div class="categoriesHeader" tabindex="0" title="Administrator - Miscellaneous Docs Container">Miscellaneous</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div class="subtopic_header" tabindex="0" title="General Docs" role="button" aria-selected="true">General</div>
+    <div class="subtopic_header" tabindex="0" title="General Docs" role="button" aria-selected="true" selected>General</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/create-completion-certificates.md">
         <div class="subtopic_title">How do I create completion certificates?</div>

@@ -16,7 +16,7 @@
 <div class="categoriesHeader" tabindex="0" title="Administrator - Users Docs Container">Users</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div class="subtopic_header" tabindex="0" title="Student Management Docs" role="button" aria-selected="true">Student Management</div>
+    <div class="subtopic_header" tabindex="0" title="Student Management Docs" role="button" aria-selected="true" selected>Student Management</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/create-student-user-accounts.md">
         <div class="subtopic_title">How do I create student user accounts?</div>

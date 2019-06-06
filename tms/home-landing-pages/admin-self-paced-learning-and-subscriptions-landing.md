@@ -16,7 +16,7 @@
 <div class="categoriesHeader" tabindex="0" title="Administrator - Discussions Docs Container">Self Paced Learning and Subscriptions</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div class="subtopic_header" tabindex="0" title="General Docs" role="button" aria-selected="true">General</div>
+    <div class="subtopic_header" tabindex="0" title="General Docs" role="button" aria-selected="true" selected>General</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/schedule-self-paced-learning.md">
         <div class="subtopic_title">How do I schedule self-paced learning for a student?</div>

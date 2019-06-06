@@ -16,7 +16,7 @@
 <div class="categoriesHeader" tabindex="0" title="Administrator - Courses and Their Activities Docs Container">Courses and Their Activities</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div class="subtopic_header" tabindex="0" title="General Docs" role="button" aria-selected="true">General</div>
+    <div class="subtopic_header" tabindex="0" title="General Docs" role="button" aria-selected="true" selected>General</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/create-course.md">
         <div class="subtopic_title">How do I create a basic course?</div>

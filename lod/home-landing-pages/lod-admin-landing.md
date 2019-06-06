@@ -16,7 +16,7 @@
 <div class="categoriesHeader" tabindex="0" title="LOD Admin Docs Container">Administration</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div id="header_1" class="subtopic_header" tabindex="0" title="LOD Admin Docs" role="button" aria-selected="true">Lab on Demand Administration</div>
+    <div id="header_1" class="subtopic_header" tabindex="0" title="LOD Admin Docs" role="button" aria-selected="true" selected>Lab on Demand Administration</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/lod/feature-focus/lod-experience.md">
         <div class="subtopic_title">Introduction to Lab on Demand UI</div>
