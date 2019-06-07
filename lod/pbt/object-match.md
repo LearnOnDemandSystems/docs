@@ -132,7 +132,7 @@ This section is where all the scoring occurs. A best practice is to keep this as
         $i = 0
         foreach($er in $Error){
             $i++
-            "Command ${i}: $($er.InvocationInfo.Line)Error `nMessage ${i}: $($er.Exception.Message)`n"
+            "Command ${i}: $($er.InvocationInfo.Line)`nError Message ${i}: $($er.Exception.Message)`n"
         }
     } else {
         "No Errors Detected, but resources not found"
@@ -146,14 +146,14 @@ Arguably more important that what your script looks like or how easy it is to re
 
 With this script design we have 3 different forms of output depending on how the user did. All of the output from a script of this format begins with a simple statement that includes the Item Id and whether the user was correct or incorrect.
 1. If a user was correct, the output simply provides the tested settings for the item(s) that the user configured.
-    - ![](https://github.com/James-Burnham/docs/blob/master/lod/pbt/images/pbt-correct.png?raw=true)
+    - ![](https://github.com/James-Burnham/docs/blob/master/lod/pbt/images/pbt-correct.png?raw=true){400}
 1. If a user was incorrect. The script outputs both the user's configured settings as-tested as well as what the correct settings would have been.
-    - ![](https://github.com/James-Burnham/docs/blob/master/lod/pbt/images/pbt-incorrect.png?raw=true)
+    - ![](https://github.com/James-Burnham/docs/blob/master/lod/pbt/images/pbt-incorrect.png?raw=true){400}
 1. If one or more tested items were missing the script outputs either a generic error message if none were obtaine, or the actual error message of any commands that failed to run. 
     - Generic Message:
-    - ![](https://github.com/James-Burnham/docs/blob/master/lod/pbt/images/pbt-missing.png?raw=true)
+    - ![](https://github.com/James-Burnham/docs/blob/master/lod/pbt/images/pbt-missing.png?raw=true){400}
     - Collected Errors:
-    - ![](https://github.com/James-Burnham/docs/blob/master/lod/pbt/images/pbt-missing-errors.png?raw=true)
+    - ![](https://github.com/James-Burnham/docs/blob/master/lod/pbt/images/pbt-missing-errors.png?raw=true){400}
 ## Full Script {full}
 To see all these components together in a single script, expand the section below.
 > [!KNOWLEDGE]
@@ -225,7 +225,7 @@ To see all these components together in a single script, expand the section belo
 >         $i = 0
 >         foreach($er in $Error){
 >             $i++
->             "Command ${i}: $($er.InvocationInfo.Line)Error `nMessage ${i}: $($er.Exception.Message)`n"
+>             "Command ${i}: $($er.InvocationInfo.Line)`nError Message ${i}: $($er.Exception.Message)`n"
 >         }
 >     } else {
 >         "No Errors Detected, but resources not found"
