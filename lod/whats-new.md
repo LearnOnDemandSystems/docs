@@ -8,6 +8,14 @@
 
 # What's New in Lab On Demand
 
+## **Release June 7, 2019**
+
+**Bug Fixes and Improvements**
+
+- Fixed a bug that would prevent files from being deleted from a class after the instructor deleted the file from the Share Files section of the Monitor Labs page.
+
+- Fixed a bug that caused the AWS region selection drop-down menu to display incorrectly on the virtual machine tab of a lab profiles, when using Internet Explorer. 
+
 ## **Released May 31, 2019**
 
 **VM Based Labs Landing Page**
