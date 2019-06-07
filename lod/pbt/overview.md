@@ -24,7 +24,7 @@ In this format, a user is expected to complete a series of tasks and then, simil
 
 # Configuring Items
 
-Within the Lab on Demand platform, all of the above scoring formats are configured in very similar ways. While traditional items have pre-defined structures, hands-on items that are scored in an automated fashion are designed by the author using scripting languages - such as PowerShell and Bash - to evaluate the user's environment. All of these items are designed within the [Lab on Demand Activity Editor](https://docs.learnondemandsystems.com/lod/activities.md).
+Within the Lab on Demand platform, all of the above scoring formats are configured in very similar ways. While traditional items have pre-defined structures, hands-on items that are scored in an automated fashion are designed by the author using scripting languages - such as PowerShell and Bash - to evaluate the user's environment. All of these items are designed within the ^[Lab on Demand Activity Editor](../activities.md).
 
 # Scoring Items Best Practices
 
