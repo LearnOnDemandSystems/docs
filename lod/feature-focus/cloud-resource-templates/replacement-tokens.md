@@ -25,18 +25,4 @@ When you are assigning paramater values for a Cloud Resource template, you can p
 
 To use replacement tokens inside a Cloud Resource Template, simply insert the &commat;lab replacement token(s) in to your raw template document where you want them to be used. 
 
->[!KNOWLEDGE] Using replacement tokens as Cloud Resource Template parameters is a best practice, and highly preferred over using replacement tokens directly inside of raw template documents.  
-
-> ## Param section {param}
->
-> In this section we outline the various variables we will use throughout the script.
-> 
-> ```
-> param(
-> $result = $false,
-> $itemNumber = "Storage-1",
-> $LabInstanceID = '@Lab.LabInstance.Id',
-> $resourceGroupName = '@lab.CloudResourceGroup(166).Name',
-> $storageAccountName = "storacct${LabInstanceID}"
-> )
-> ```
+>[!KNOWLEDGE] Using replacement tokens as Cloud Resource Template parameters is a best practice, and highly preferred over using replacement tokens directly inside of raw template documents. 
