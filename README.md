@@ -2,7 +2,7 @@
 
 If you would like to _contribute_ to this documentation, you are in the right place.
 
-If instead you would like to _learn_ how to use Lab on Demand, log on to [labondemand.com/help](https://labondemand.com/help).
+If instead you would like to _learn_ how to use Lab on Demand, log on to [docs.learnondemandsystems.com](https://docs.learnondemandsystems.com/lod/home.md).
 
 ---
 
@@ -50,8 +50,6 @@ If instead you would like to _learn_ how to use Lab on Demand, log on to [labond
 
 - [Replacement Tokens](lod/feature-focus/cloud-resource-templates/replacement-tokens.md)
 
-- [IDL (Legacy) Authoring Guide](guides/idl/idlv3.md)
-
 #### Cloud
 
 - [Cloud Slice Quick Start](lod/quick-starts/cloud-slice/configure-subscription.md)
@@ -69,10 +67,6 @@ If instead you would like to _learn_ how to use Lab on Demand, log on to [labond
     - [Azure Resource Template Best Practices](lod/feature-focus/cloud-resource-templates/recommendations-and-best-practices.md)
     
 - [Replacement Tokens](lod/feature-focus/cloud-resource-templates/replacement-tokens.md)
-
-#### Training Managent System (TMS)
-
-- [Achievement Conditions](tms/tms-achievement-conditions.md)
 
 
 

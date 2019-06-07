@@ -59,3 +59,18 @@ Any valid Azure ARM template can be used as the basis for a Cloud Slice, provide
 ## Storage Options for ARM Templates
 
 Templates can be stored natively in Lab on Demand, or can be stored on an external document repository such as GitHub. If templates are stored on an external repository, that repository must support anonymous access for Lab on Demand to read the template correctly.
+
+## ARM Template Load Testing
+
+If your template will be used for a high volume of concurrent users such as large events or conferences, please contact us at https://lod.one/help for assistance. if you are not already working with Learn on Demand Systems event staff.
+
+> [!ALERT] **NOTE**: While this is an optional phase, it is highly recommended prior to large deliveries and the only way to guaruntee subscriptions are configured correctly for scaling.
+
+Please be prepared with the following items for successful load testing:
+1. A "Launch" template.
+    1. This is the template users will have at lab launch. This is necessary to ensure labs will launch successfully at scale and users will be able to enter the environment.
+    1. Not all environments will launch with a template, if users are intended to start with no resources please outline this and continue to the next item.
+1. A "Completed" template.
+    1. This is a template of what users will have by the end of the lab. This is necessary to ensure proper scaling is configured on the subscriptions and that users will not experience issues througout the lab.
+1. A list of "Additional Resources".
+    1. This is a list of any components created in the lab that cannot be deployed via ARM template. This will not be a common thing, but may come up from time to time.

@@ -9,7 +9,7 @@ Markdown is an easy to use markup language to format text, that offers multiple 
 [Link formatting](#link-formatting)  
 [Page formatting](#page-formatting)  
 [Embedded content](#embedded-content)  
-[List formatting](#list-formatting)  
+[Task and List formatting](#task-and-list-formatting)  
 [Table formatting](#table-formatting)  
 [Special formatting](#special-formatting)  
 
@@ -176,9 +176,13 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
   > `![](image url){heightXwidth}` or `{height}`
 
-- **Video:** Used to embed an image inline with other content. The syntax format should look the same as an image, except the video should begin with a ! (explanation mark), followed by the word VIDEO (all caps).
+- **Video:** Used to embed an image inline with other content. The syntax format should look the same as an image, except the video should begin with a ! (explanation mark), followed by the word VIDEO. 
 
   > \!video[text to display]\(url)
+  
+- **Audio:** Used to embed an inline audio player, or a link to an audio recording.The syntax format should look the same as a video, except the audio should begin with a ! (explanation mark), followed by the word audio.
+
+  > \!audio[text to display](URL)
 
 - **Image with link:** Used to embed an image that can be clicked to navigate to a specific URL (internal or external). 
 
@@ -202,7 +206,7 @@ It's also possible to simply supply the width: {width}. In this case, the height
   
   [Return to Markdown formatting](#markdown-supports-the-following-types-of-formatting)
 
-## List formatting
+## Task and List formatting
 
 - **Unordered list:** Used to list items in no particular order, separated by bullets rather than numbers. Type a - (dash or hyphen) followed by a space and then the text to be listed. Pressing enter at the end of the text will start the next line with a bullet. 
 
@@ -210,48 +214,20 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
 - Both Unordered and Ordered lists can contain Task Checkboxes for the student to check off steps as completed. Both list types can be combined in the same list. Task Checkboxes are used track and report lab progress to LOD and TMS, as well as a visual marker for students. Lab progress is calculated by the percentage of Task Checkboxes that are checked in the lab instructions.
 
-### Unordered list **without** Task Checkboxes: 
- 
-```
-- Item 1
-    - Item 1.1
-        - Item 1.1.1
-        - Item 1.1.2
-    - Item 1.2
-- Item 2
-```
-
-### Ordered list **without** Task Checkboxes:
-
-```
-1. Item 1
-    1. Item 1.1
-        1. Item 1.1.1
-        1. Item 1.1.2
-    1. Item 1.2
-1. Item 2
-```
-
-### Unordered list **with** Task Checkboxes:
-
-```
+```Unordered_Task_List
 - [] Item 1
-    - [] Item 1.1
-        - [] Item 1.1.1
-        - [] Item 1.1.2
-    - [] Item 1.2
 - [] Item 2
+- [] Item 3
+- [] Item 4
+- [] Item 5
 ```
 
-### Ordered list **with** Task Checkboxes:
-
-```
+```Ordered_Task_List
 1. [] Item 1
-    1. [] Item 1.1
-        1. [] Item 1.1.1
-        1. [] Item 1.1.2
-    1. [] Item 1.2
 1. [] Item 2
+1. [] Item 3
+1. [] Item 4
+1. [] Item 5
 ```
 
 ## Table formatting
@@ -310,31 +286,31 @@ It's also possible to simply supply the width: {width}. In this case, the height
   
     ![](../../lod/images/variables-callback-variable-in-lab.png)
 
-- **Knowledge Block:** Used to provide additional information, to help students better understand lab steps or lab content. Knowledge blocks are limited to only show 4 lines of the lab content. After 4 lines, a _more_ link will be shown, allowing the student to expand the Knowledge Block and review additional information.
+- **Knowledge Block:** Used to provide additional information, to help students better understand lab steps or lab content. Knowledge blocks are limited to only show 4 lines of the lab content. After 4 lines, a _more_ link will be shown, allowing the student to expand the knowledge block and review additional information.
 
-    > \> [!KNOWLEDGE] Knowledge blocks helps students learn more.
+    > \> [!knowledge] knowledge text here.
     >
     > ![](images/idl2-knowledge.png "Knowledge Block")
 
 - **Alert Block:** Used to draw attention to important issues, such as showing additional information or steps that the student may need complete to avoid other issues. 
 
-    > \> [!ALERT] alert text here.
+    > \> [!alert] alert text here.
     >
     > ![](images/idl2-alert.png "Alert Block")
 
 - **Hint Block:** Used to provide a hint for the for the section of the lab that the student is working on.  
 
-    > \> [!HINT] hint text here.
+    > \> [!hint] hint text here.
     >
     > ![](images/hint-block.png "Hint Block")
 
 - **Help Block:** Used to provide help, such as showing additional about the section of the lab that the student is working on.
 
-    > \> [!HELP] help text here.
+    > \> [!help] help text here.
     >
     > ![](images/help-block.png "Help Block")
 
-- **Note Block:** used to provide additional information, similar to a Knowledge Block, with the only difference being that Notes do not collapse and show a _more_ link to expand the section. 
+- **Note Block:** used to provide additional information, similar to a knowledge block, with the only difference being that notes do not collapse and show a _more_ link to expand the section. 
 
     > \> [!NOTE] note text here.
     >
@@ -440,6 +416,12 @@ Although potentially any task could be reduced to an action that can be executed
   > \+++Click to type in to your managed VM+++
   >
   > ![](images/type-text.png "Type Text")
+
+- **Copyable and Type Text:** used to make text copy to the local clipboard and type into a virtual machine when the student clicks the text. Type four + (plus) symbols on each side of the text that should be made copyable and type text. 
+
+  > \++Click to copy to clipboard and type into a VM++
+  >
+  > ![](images/copyable-and-type-text.png "Copyable Text")
   
 - **Embed YouTube video:** used to embed a YouTube video inline with the lab instructions. URLs from YouTube.com automatically embed. Videos from any other URL will not embed.
 

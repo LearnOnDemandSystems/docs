@@ -4,7 +4,7 @@
 
 Activities fall into two broad categories: Questions and Automated. 
 - Questions are simply multiple choice or short answer questions. 
-- Automated Activities have a script configured to run against a cloud subscription or Windows-based virtual machines running on Hyper-V in the lab.  
+- Automated Activities have a script configured to run against a cloud subscription or virtual machines running on Hyper-V or VMware in the lab.  
 
 > [!KNOWLEDGE] If your lab profile does not use a Cloud Subscription, or if it does not have virtual machines configured, Automated Activities are not available in the Activities menu. 
 
@@ -18,19 +18,73 @@ To get started with Activities:
 
 ![](../lod/images/activity-icon.png)
 
-1. Next, you should decide what type of Activity you would like to create -- Question, or an Automated Activity that targets a Cloud Subscription or a Windows-based virtual machines running on Hyper-V, with a PowerShell or Shell script. 
+Next, you should decide what type of Activity you would like to create -- Question, or an Automated Activity that targets a Cloud Subscription or a virtual machines running on Hyper-V or VMware, with a PowerShell or Shell script. 
 
 Click to go to a specific section, or continue reading to learn more about creating Activities in your lab. 
 
 - [Automated Activity](#automated-activity)
-- [Multiple Choice Question](#multiple-choice-questions)
-- [Short Answer Question](#short-answer-questions)
-- [Activity Management](#activity-management)
+    - [Automated Activity Syntax](#automated-activity-syntax)
+    - [Automated Activity Creation](#automated-activity-creation)
+    - [Automated Activity Output](#automated-activity-output)
+    - [Automated Activity Best Practices and Guidelines](#automated-activity-best-practices-and-guidelines)
+    - [Automated Activity Notifications and Variables](#automated-activity-notifications-and-variables)
+    - [Example Automated Activities](#example-automated-activities)
+- [Questions](#questions)
+    - [Multiple Choice Question](#multiple-choice-questions)
+    - [Short Answer Question](#short-answer-questions)
 - [Scoring](#scoring)
+    - [Performance Based Testing](#performance-based-testing)
+- [Activity Management](#activity-management)
 
 ## Automated Activity
 
-Automated Activities are PowerShell or Shell scripts that target a Cloud Subscription, or a Windows-based virtual machine running on Hyper-V in the lab. Cloud Subscriptions are targeted by a PowerShell script, and Windows-based virtual machines can be targeted by both PowerShell and Shell. Automated Activities can be used to help make sure the student has configured their lab environment correctly, help the student understand mistakes that are made in their lab, as well as give the student confirmation that they are completing the lab instructions correctly. Automated Activities can also be used to automate any configuration or lab steps that you wish to automate. 
+Automated Activities are PowerShell Windows command Shell Shell scripts that target a Cloud Subscription, or virtual machine running on Hyper-V or VMware in the lab. Cloud Subscriptions are targeted by a PowerShell script, and Windows-based virtual machines can be targeted by both PowerShell and Shell. Automated Activities support using @lab replacement tokens in scripts as well. Automated Activities can be used to help make sure the student has configured their lab environment correctly, help the student understand mistakes that are made in their lab, as well as give the student confirmation that they are completing the lab instructions correctly. Automated Activities can also be used to automate any configuration or lab steps that you wish to automate. 
+
+### Automated Activity Syntax
+
+Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there is additional syntax that can be used. 
+
+- Setting Lab Variables: sets a variable that can be recalled in subsequent lab instructions using @lab replacement tokens, as many times as neccessary. 
+
+- Sending Lab Notifications: Sends a a popup notification to the lab, using the text specified in the syntax.
+
+- Scoring: used to determine how much of the score value the lab user will receive for the activity. This can be used to award partial score values for the automated activity. The partial score is dictated by a numerical value in the syntax, that represents the percentage of the score value that will be awarded. For Windows Command Shell and Bash, you can also display a message in the lab instructions with text specified scoring syntax.
+
+#### **PowerShell** 
+
+- **Setting Variables**
+    
+    `Set-LabVariable -Name firstName -Value John`
+
+    `Set-LabVariable -Name lastName -Value Smith`
+
+- **Sending Lab Notifications**
+
+    `Send-LabNotification -Message "Hello from a script"`
+
+- **Scoring**
+
+    `Set-ActivityResult .5 -Correct`
+
+#### **Windows Command Shell and Bash**
+
+- **Setting Variables**
+    
+    `set_lab_variable "firstname" "John"`
+
+    `set_lab_variable "lastname" "Smith"`
+
+- **Sending Lab Notifications**
+
+    `send_lab_notification "Hello from a script"`
+
+    `send_lab_notification "I hope you're doing well"`
+
+- **Scoring**
+
+    `set_activity_result .5 "good job!"`
+
+### Automated Activity Creation
 
 1. If you would like the lab to be scored, Click the **switch** next to _Enable Scoring_. If you would not like the lab to be scored, simply leave the **Switch** turned off. 
 
@@ -62,11 +116,13 @@ Automated Activities are PowerShell or Shell scripts that target a Cloud Subscri
 
 - **Script 1**:
     - **Score Value**: the score value the student will recieve for completing the Activity correctly. This score contributes to their overall score in the lab.
-    - **Target**: the virtual machine or cloud subscription that the script will target. Cloud subscriptions must be targeted by PowerShell, and Windows-based virtual machines running on Hyper-V can be targeted by PowerShell or Shell.
-    - **Language**: the scripting language that will be used. PowerShell and Shell are supported. 
-    - **Script**: enter the script that will be executed.
+    - **Target**: the virtual machine or cloud subscription that the script will target. Cloud subscriptions must be targeted by PowerShell, and virtual machines running on Hyper-V or VMware can be targeted by PowerShell or Windows Command Shell. Linux-based VMs running Hyper-V or VMware can be targeted by Bash.
+    - **Language**: the scripting language that will be used. PowerShell, Windows Command Shell, and Bash are supported. Enabling Bash scripting or terminal connections will not take effect on running lab instances, users will have to relaunch their lab.
+    - **Script**: enter the script that will be executed. @lab replacement tokens that are used in scripts will be replaced in the lab instructions when the lab is launched.
 
     - **New Script**: click to add an additional script to this Activity. The new script will be represented by a button, in a Task List. 
+
+    >[!knowledge] @lab Replacement Tokens can be used in Activity scripts, to replace data in the lab instructions that is not known at the time of authoring the lab instructions, by inserting a Replacement Token in the lab instructions where you want data to be replaced in the lab.
 
     The following two options are **only available if Display Scripts as Task list is checked**, and are located in the section for the script they belong to. This allows you to provide custom feedback on each Automated Activity. 
 
@@ -74,7 +130,19 @@ Automated Activities are PowerShell or Shell scripts that target a Cloud Subscri
 
     - **Incorrect answer feedback**: you can enter text here, or you can use scripts to generate a response to the student.  
 
-### Automated Activity Best Practice and Guidelines
+### Automated Activity Output
+
+You can optionally store automated activity output separately from a script message that the student receives in the lab when they complete the automated activity. This allows you to display a message to the student in the lab, but leave more detailed evidence for reporting or remediation. 
+
+An example, if you wanted to capture a list of all running services in a virtual machine, at a specific point in the lab. You could create an automated that uses PowerShell to target a Windows virtual machine with the following script:
+
+```
+Get-Service | Format-List *
+Set-ActivityResult -Correct -Message 'You got it!'
+```
+When the student clicks the button in the lab to trigger the automated activity, the script will capture a list of running services and store them on the lab instance details page, and will display "You got it!" to the student in the lab. 
+
+### Automated Activity Best Practices and Guidelines
 
 - Use Automated Activities in areas of your lab when students are prone to making mistakes. A PowerShell script, such as the example shown below, helps students to make sure their lab is configured appropriately so that they do not get an error when trying to complete steps later in the lab.  
 
@@ -82,95 +150,167 @@ Automated Activities are PowerShell or Shell scripts that target a Cloud Subscri
 
 - If more than one script is configured on an Activity, the scripts will execute in sequential order. If one of your scripts is relying on another script to be completed, make sure you order the scripts appropriately to prevent your Automated Activity from not working correctly. 
 
-- Automated Activities support PowerShell and Shell. Cloud Subscriptions must be targeted by a PowerShell script, and Windows-based virtual machines running on Hyper-V can be targeted by PowerShell or Shell.
+- Automated Activities support PowerShell Windows Command Shell, and Bash. Cloud Subscriptions must be targeted by a PowerShell script, and virtual machines running on Hyper-V or VMware can be targeted by PowerShell or Windows Command  Shell. Linux-based VMs running Hyper-V or VMware can be targeted by Bash.
 
+### Automated Activity Notifications and Variables
 
-### Example Automated Activity 
+Automated activity scripts can set a variable and send notifications to the student, to draw attention to some information or to notify the student of the outcome of the script once it is completed. This allows the student to progress through the lab instructions, without waiting for the result from the script. 
 
-The lab instructions ask the student to create a few accounts in a Cloud Subscription that will be used later in the lab. You could write a few PowerShell scripts that will check if the accounts were created correctly.
+You can also use @lab replacement tokens, to replace information in the notification. This allows the lab author to provide more specific information to the student.  
 
-This 3 scripts below are to make sure the student has created a storage account, a public container, and private container:
+You can set a variable and send a notification using the the variable in the following example. This example uses 2 PowerShell scripts. 
 
-**Storage Account**
+**Script 1**
+
 ```
-param($LabInstanceId)
-$result = $false
-$resourceGroupName = "CSSTlod${LabInstanceId}"
-$storAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name "sa${LabInstanceId}" -ErrorAction Ignore
-if ($storAccount -eq $null){
-    "The Storage Account has not been created"
-} else {
-    $result = $true
-    "You successfully created the storage account."
-}
-$result
+Set-LabVariable -Name Directory -Value C:/users/student/documents
+Set-ActivityResult -Correct
 ```
 
-**Public Container**
+**Script 2**
+
 ```
-param($LabInstanceId)
-$result = $false
-$resourceGroupName = "CSSTlod${LabInstanceId}"
-$storAccountName = "sa${LabInstanceId}"
-$storAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name $storAccountName -ErrorAction Ignore
-if ($storAccount -eq $null){
-    "The Storage Account has not been created"
-} else {
-    $storKey = Get-AzureRmStorageAccountKey -ResourceGroupName $resourceGroupName -Name $storAccountName | Select-Object -First 1 -ErrorAction Ignore
-    $storageContext = New-AzureStorageContext -StorageAccountName $storAccountName -StorageAccountKey $storKey.Value -ErrorAction Ignore
-    $container = Get-AzureStorageContainer -Name public -Context $storageContext -ErrorAction Ignore
-    if ($container -eq $null) {
-        "The Blob Container has not been created."
-    } else {
-        if ($container.PublicAccess -ne "blob") {
-            "The container is not properly configured for public access."
-        } else {
-        $result = $true
-        "You have successfully configured the blob container for public access."
-        }
-    }
-}
-$result
+Send-LabNotification -Message "Use this directory: @lab.Variable(Directory)!"
+Set-ActivityResult -Correct
 ```
 
-**Private Container**
-```
-param($LabInstanceId)
-$result = $false
-$resourceGroupName = "CSSTlod${LabInstanceId}"
-$storAccountName = "sa${LabInstanceId}"
-$storAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name $storAccountName -ErrorAction Ignore
-if ($storAccount -eq $null){
-    "The Storage Account has not been created"
-} else {
-    $storKey = Get-AzureRmStorageAccountKey -ResourceGroupName $resourceGroupName -Name $storAccountName | Select-Object -First 1 -ErrorAction Ignore
-    $storageContext = New-AzureStorageContext -StorageAccountName $storAccountName -StorageAccountKey $storKey.Value -ErrorAction Ignore
-    $container = Get-AzureStorageContainer -Name private -Context $storageContext -ErrorAction Ignore
-    if ($container -eq $null) {
-        "The Blob Container has not been created."
-    } else {
-        if ($container.PublicAccess -ne "off") {
-            "The container is not properly configured for private access."
-        } else {
-        $result = $true
-        "You have successfully configured the blob container for private access."
-        }
-    }
-}
-$result
-```
+_Student view in the lab of automated activity_
 
-This is what the student will see in the lab:
+![](images/automated-activity-student-view.png)
 
-![](../lod/images/scripts-in-lab-instructions.png)
+_Student view of the notification in the lab_
 
-- The student clicks the Score button, and the scripts will begin executing the first script:
+![](images/automated-activity-student-view-notification.png)
 
-    - If the student **created the storage accounts correctly**, they will receive a message that says "You successfully created the storage account."
-    
-    - If the student **did not create the storage accounts correctly**, they will receive a message that says "The Storage Account has not been created". 
+### Example Automated Activities
 
-> [!KNOWLEDGE] You can provide a hint to students based on the outcome of the script. For example, if the script is to check if a specific directory has been created, you script could output a hint to help the student create the appropriate directory. 
+^[PowerShell Samples][powershell-samples]
+
+> [powershell-samples]:
+> The lab instructions ask the student to create a few accounts in a Cloud Subscription that will be used later in the lab. You could write a few PowerShell scripts that will check if the accounts were created correctly.
+> 
+> This 3 scripts below are to make sure the student has created a storage account, a public container, and private container:
+> 
+> **Storage Account**
+> ```
+> $LabInstanceId = "@lab.LabInstance.Id"
+> $result = $false
+> $resourceGroupName = "CSSTlod${LabInstanceId}"
+> $storAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name "sa${LabInstanceId}" -ErrorAction Ignore
+> if ($storAccount -eq $null){
+>     "The Storage Account has not been created"
+> } else {
+>     $result = $true
+>     "You successfully created the storage account."
+> }
+> $result
+> ```
+> 
+> **Public Container**
+> ```
+> $LabInstanceId = "@lab.LabInstance.Id"
+> $result = $false
+> $resourceGroupName = "CSSTlod${LabInstanceId}"
+> $storAccountName = "sa${LabInstanceId}"
+> $storAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name $storAccountName -ErrorAction Ignore
+> if ($storAccount -eq $null){
+>     "The Storage Account has not been created"
+> } else {
+>     $storKey = Get-AzureRmStorageAccountKey -ResourceGroupName $resourceGroupName -Name $storAccountName | Select-Object -First 1 -ErrorAction Ignore
+>     $storageContext = New-AzureStorageContext -StorageAccountName $storAccountName -StorageAccountKey $storKey.Value -ErrorAction Ignore
+>     $container = Get-AzureStorageContainer -Name public -Context $storageContext -ErrorAction Ignore
+>     if ($container -eq $null) {
+>         "The Blob Container has not been created."
+>     } else {
+>         if ($container.PublicAccess -ne "blob") {
+>             "The container is not properly configured for public access."
+>         } else {
+>         $result = $true
+>         "You have successfully configured the blob container for public access."
+>         }
+>     }
+> }
+> $result
+> ```
+> 
+> **Private Container**
+> ```
+> $LabInstanceId = "@lab.LabInstance.Id"
+> $result = $false
+> $resourceGroupName = "CSSTlod${LabInstanceId}"
+> $storAccountName = "sa${LabInstanceId}"
+> $storAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name $storAccountName -ErrorAction Ignore
+> if ($storAccount -eq $null){
+>     "The Storage Account has not been created"
+> } else {
+>     $storKey = Get-AzureRmStorageAccountKey -ResourceGroupName $resourceGroupName -Name $storAccountName | Select-Object -First 1 -ErrorAction Ignore
+>     $storageContext = New-AzureStorageContext -StorageAccountName $storAccountName -StorageAccountKey $storKey.Value -ErrorAction Ignore
+>     $container = Get-AzureStorageContainer -Name private -Context $storageContext -ErrorAction Ignore
+>     if ($container -eq $null) {
+>         "The Blob Container has not been created."
+>     } else {
+>         if ($container.PublicAccess -ne "off") {
+>             "The container is not properly configured for private access."
+>         } else {
+>         $result = $true
+>         "You have successfully configured the blob container for private access."
+>         }
+>     }
+> }
+> $result
+> ```
+> 
+> This is what the student will see in the lab:
+> 
+> ![](../lod/images/scripts-in-lab-instructions.png)
+> 
+> - The student clicks the Score button, and the scripts will begin executing the first script:
+> 
+>     - If the student **created the storage accounts correctly**, they will receive a message that says "You successfully created the storage account."
+>     
+>     - If the student **did not create the storage accounts correctly**, they will receive a message that says "The Storage Account has not been created". 
+> 
+> > [!KNOWLEDGE] You can provide a hint to students based on the outcome of the script. For example, if the script is to check if a specific directory has been created, you script could output a hint to help the student create the appropriate directory. 
+
+^[Bash Samples][bash-samples]
+
+> [bash-samples]:
+> **Simple Script (Pass/Fail)**  
+> This sample is gauging a file's size on the linux file system. If the file is less than 1000 bytes the user is successful, otherwise they are unsuccessful.
+>
+> ```
+> RESULT=False
+> file=$(stat --format=%s /etc/passwd)
+> if [ $(echo $file) -lt 1000 ]
+> then 
+>  echo "success, filesize is $file"
+>  RESULT=True
+> fi
+> echo $RESULT
+> ```
+>
+> **Complex Script (Partial Credit/Multiple Conditions)**  
+> This sample actually reads the /etc/hosts file on a Linux machine, and searches for a line that contains a specific IP. From there it if the IP has the correct hostname. With this design the user can get variable scores based on the following:
+> 
+> - Full credit if both the IP and hostname are found.
+> - Partial credit if the IP is found, but not the host name
+> - No credit if the IP is not found
+>
+> ```
+> RESULT=False
+> host=$(cat /etc/hosts | grep 192.168.1.2)
+> if [[ $(echo $host) == "192.168.1.2 linuxvm"* ]]
+> then
+>  set_activity_result 1 "Success"
+>  RESULT=True
+> elif [[ $(echo $host) == "192.168.1.2"* ]]
+> then 
+>  set_activity_result .5 "Partially correct"
+> else 
+>  echo "value not found"
+> fi
+> echo $RESULT
+> ```
 
 ## Questions
 
@@ -282,6 +422,29 @@ To enable Scoring in your lab:
     ![](../lod/images/score-scored-checkboxes.png)
 
 1. The student will be given the score value upon completing the Activity correctly. 
+
+### Partial Scoring
+
+Partial scoring allows a student to recieve partial credit for a task in the lab, instead of the score being all or nothing. 
+
+For example, if the lab instructions had a task to create a directory and name it "MyDirectory", and the student created the directory but didn't name it properly -- they could recieve partial credit for creating the directory, even though they didn't name it properly. 
+
+Partial scoring is achieved with automated Activities in IDLx. To configure partial scoring for the example above:
+
+1. Edit the **lab instructions**.
+1. **Enable scoring** from the Activities menu.
+1. **Add** an automated Activity.
+1. In the **Script 1** field, enter a PowerShell script to check for the directory the student created.
+1. Assign a score value for script 1. This will be the partial score the student will receive if the directory is created. 
+1.  Click _New Script_.
+1. In the **Script 2** field, enter a PowerShell script to verify the directory is named properly. 
+1. Assign a score value for script 2. This will be the partial score the student will receive if the directory is name properly.
+
+### Performance Based Testing 
+
+Labs can be scored with a performance based testing scenario by leaving the _On-demand_ checbox unchecked, when creating automated activities. When activities are configured this way, they are scored when the lab is completed by the student. The score can be obtained by viewing the lab instance details. 
+
+![](images/display-as-task-list.png)
 
 ## Activity Management
 

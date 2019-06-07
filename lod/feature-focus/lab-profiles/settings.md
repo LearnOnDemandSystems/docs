@@ -34,12 +34,9 @@
 12. **Level:** Sets the Level for the lab; this can be 100, 200, 300, or 400. 
 13. **Evaluation:** Click to add an Evaluation to the lab profile. The Evaluation must already be created to add it to the lab profile using this button.
 
-14. **Advertising Campaign:** Used to show introductory content while the lab is loading. This can be a video, powerpoint presentation or anthing accessible by a URL. 
+14. **Advertising Campaign:** Used to show introductory content while the lab is loading. This can be a video, powerpoint presentation or anything accessible by a URL. 
 
 15. **Description:** Used to provide more information about the lab profile. 
-
-16. **Has IDL Content:** Check this box if the lab profile has IDL (Integrated Digital Lab) content.
-    - After this box is checked, another option will display, allowing you to select the version of IDL content. 
 
 17. **Introduction Content URL:** The content at this URL will be displayed in a dialog when the lab interface first opens. The content can either be an HTML page or an MP4 video file. The URL must use HTTPS.
 
@@ -85,6 +82,80 @@ To use network features, such as external internet access or communication betwe
 
 3. **Has Virtual machine Pool:** A pool of unique virtual machine profiles can be created, to be issued to individual users. A single pool member will never be used by two different users simultaneously. This is useful for to ensure that a machine or set of machines is unique in the world at any given point in time. **If your virtual machine will be identical for all users, you do not need a pool.** It is important to note that you can only have as many concurrent users as you have pool members. This can greatly reduce the scalability of the lab, so ensure you create a sufficient pool depth to accommodate the peak number of anticipated concurrent users.
 
+4. After a virtual machine profile has been added, the following options are available:
+
+    - **Visible to Student**: Allows the student to view and select the virtual machine from the resources tab.
+
+    - **Default Selection**: Sets the VM to be the default VM selected in the lab. This is the VM that will display when the lab is launched. 
+
+    - **Connect to terminal**: Hides the desktop UI and allows the VM to be connected to via a terminal. For more information, read [Terminal Access](/lod/terminal-access.md).
+
+    - **Start Automatically**: Enables the VM to start automatically when the lab is launched. 
+
+        - **Startup Delay**: Enter that amount of delay for the VM to start, measured in seconds. 
+
+    - **Wait for heartbeat before displaying to user**: When this is enabled, the lab client will not display the lab to the user until the virtual machine reports a heartbeat to the virtualization platform. This is useful if you want to prevent the user from accessing the lab before critical machines are up and running. 
+    
+        **Note**: this feature requires the VM to have Hyper-V integration services installed on Hyper-V VMs, and VMware Tools installed on a vSphere VM. Windows operating systems starting with Windows 10 and Server 2016 have Hyper-V integration services installed by default. Other operating systems require them to be installed. 
+        
+        - For more information Hyper-V Integration Services, please see the [Hyper-V Integration Services Documentation](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/integration-services).
+
+        - For more information about VMware Tools, please see the [VMware Tools Documentation](https://docs.vmware.com/en/VMware-Tools/).
+
+    - **Synchronize system time with host**: synchronizes the VM system time with the time on the host that the VM is running on. 
+
+    - **Set initial system time** (available on vSphere only): Allows you to set the date and time that the VM will launch at. This can be used in conjunction with _Synchronize system time with host_ to freeze the date and time.
+
+    - **Allow user to revert to initial state**: Allows the user to revert to the initial state that the lab was launched at. The user can roll back the VM no matter what has been done in the lab instance. This option is found in the Commands menu (lightning bolt icon) in the lab. 
+
+    - **Make lab instance data available inside virtual machine**: When this option is enabled, lab instance data will be available in the virtual machine. The location varies depending on the platform used (Hyper-v or vSphere):
+
+        - Hyper-V: 
+        
+            On Windows registry: `HKLM\SOFTWARE\Microsoft\Virtual Machine\External`.
+
+        - vSphere: 
+        
+            On Windows-based systems: `C:\Users\Public\Documents\LabInstance.txt`.
+
+            On Unix-based systems: `/tmp/labinstance`.
+
+        All @lab token names and values will be included, as well as the following legacy items:
+
+        - Lab Instance ID
+
+        - Lab Profile ID
+
+        - Virtual Machine Profile ID
+
+        - User ID
+
+        - External User ID (if launched via API)
+
+        - Username
+
+        - E-mail
+
+        - First Name
+
+        - Last Name
+
+        - Tag (an optional value that can be passed in via the Launch API)
+
+            **Note**: that this will only work for if Hyper-V Integration Services or VMware Tools are installed. Additionally, on vSphere VMs, you must ensure that the user credentials in the virtual machine profile are correct (they are used to initiate the file creation in the VM).
+
+    - **Resume Order**: Used when resuming from save and launching from a start state.
+
+    - **Resume Delay**: the amount of delay for the VM to start, after resuming a saved lab. 
+
+    - **Floppy Drive**: If removeable media is added to the lab profile, select floppy media in the drop-down to have that media loaded when the VM starts. 
+
+    - **DVD Drive**: If removeable media is added to the lab profile, select DVD media in the drop-down to have that media loaded when the VM starts.
+
+    - **Network Adapter**: If a network has been configured in the Networks tab of the lab profile, select the network that will be available to the VM in the lab. 
+
+        - **Visible to student**: Checking this box allows the network to be visible to the student. If this box is not checked, the network will not be visible to the student in the lab. 
+
 ## Removable Media
 
 1. **Add Removable Media:** Click to add removable Media to the lab profile. The removable media must already be created to add it to the lab profile using this button.
@@ -96,8 +167,8 @@ To use network features, such as external internet access or communication betwe
 ## Cloud
 
 1. **Add Cloud Credential Pool:** Click to add a Cloud Credential Pool to the lab profile. The pool must already be created to add it to the lab profile using this button.
-2. **Cloud Platform:** Select the cloud platform to be used by the lab profile. Select _None_ if you wish to use IDL v1. Selecting a Cloud Platform will allow the lab profile to use the IDL v2 Cloud Client.
-3. **Cloud Portal URL:** Enter the URL that the portal window will display. This is used in IDL v2 Cloud Client. Leave this field blank if no Cloud Platform is selected in the previous step. 
+2. **Cloud Platform:** Select the cloud platform to be used by the lab profile. Selecting a Cloud Platform will allow the lab profile to use the IDLx Cloud Client.
+3. **Cloud Portal URL:** Enter the URL that the portal window will display. This is used in IDLx Cloud Client. Leave this field blank if no Cloud Platform is selected in the previous step. 
 4. **Append Lab Date:** When this is enabled, the following lab data will be appended to the URL as URL parameters in _name=value_ format. 
    - labProfileId
    - labInstanceId
@@ -111,11 +182,11 @@ To use network features, such as external internet access or communication betwe
 
 ## Resources
 
-1 .**Add Resource:** Click to add resource. 
+1. **Add Resource:** Click to add resource. 
 
-2.**Name:** This will be the display name of the resource.
+2. **Name:** This will be the display name of the resource.
 
-3.**Type:** Select the type of resource to add. Types of resources include:
+3. **Type:** Select the type of resource to add. Types of resources include:
    - External link
    - PDF document
    - Word document
@@ -139,6 +210,7 @@ The Errata is used to give a message to users working in the lab. The Errata app
 
 ## Exam
 
+Exams are used in IDL (legacy) labs only. Exams in IDLx are executed by activity based assessments. For more information about IDLx Activities, read [IDLx Activities](/lod/activities.md)
 1. **Has Exam:** Checking this box enables options 2-5. If the box is unchecked, these options are not applicable. 
 
 2. **Scoring Type:** Select the type of scoring that the lab profile will use. Types of scoring include:
@@ -196,7 +268,7 @@ Unchecking **Inherit storage settings from organization** box will enable additi
 2. **Storage Loading Priority:** This will set the priority level of loading files into storage. There are multiple levels of priority; *Low, Normal and High*. If there is no priority preference, select _Disabled_. 
 3. **Datacenter Availability:** Select the datacenter(s) that the lab profile will be available to launch from. Labs can be launched from the following datacenters:
    - AU East - located in Eastern Australia
-   - External - files are stored in an external system and are used by labs that require the IDL v2 Cloud Client.
+   - External - files are stored in an external system and are used by labs that require the IDLx Cloud Client.
    - US Central - located in Central United States
    - US East - located in Eastern United States
 
@@ -224,8 +296,8 @@ Unchecking **Inherit storage settings from organization** box will enable additi
     - **Tearing Down**: The lab environment is being torn down.
     - **Torn Down**: The lab environment is fully torn down. 
 
-For more information about Action and Event types, please see our guide [Here](guides/lca/life-cycle-actions-guide.md#life-cycle-actions).
-
+For more information about Action and Event types, please see our [guide](/lod/life-cycle-actions.md)
+   
 ## Tags
 
 1. **Add Tag:** Click to add a tag to the lab profile. The Tag must already be created to add it to the lab profile. 

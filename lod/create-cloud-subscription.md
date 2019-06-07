@@ -1,3 +1,5 @@
+<!--
+
 # Create a Cloud Subscription
 Cloud Subscriptions are used to configure labs to utilize cloud environments, including cloud resources. 
 
@@ -49,3 +51,4 @@ Cloud Subscriptions are used to configure labs to utilize cloud environments, in
 
 1. **Instance Storage**: The name of a container in the Instance Storage Account where template VHDs will be copied when a Cloud Slice lab configured to use those template VHDs is deployed.
 
+-->

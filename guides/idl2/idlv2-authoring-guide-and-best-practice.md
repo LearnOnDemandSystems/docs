@@ -1,23 +1,5 @@
 # Learn on Demand Systems Integrated Digital Lab eXperience Authoring Guide 
 
-<!--
-
-## Introduction
-
-This guide provides information on the Integrated Digital Lab eXperience (IDLx) Platform, the various elements that comprise a lab that uses this platform, the steps for converting a traditional IDL (legacy) based lab to an IDLx based lab, and some tips and best practices.
-
-### Intended Audience
-
-This guide assumes that the reader:
-
--   Has a developer account with sufficient permissions to create a lab guide and modify select properties of a lab profile.
--   Has existing basic knowledge of [Markdown](#markdown-syntax).
--   Has existing knowledge to navigate Lab on Demand (LOD)
--   Has a help desk support contract to pay for additional custom
-    contract work.
-
--->
-
 ## Overview of the Integrated Digital Lab eXperience (IDLx) Platform
 
 The IDLx platform integrates the lab instructions with the Cloud Portal of choice or virtual machines (VMs) in the lab environment, to guide the users in completing the lab. The IDLx platform allows users to view lab instructions inline with the Cloud portal or VMs.
@@ -110,15 +92,6 @@ _For any lab that has the virtualization platform set to "None" (e.g. Cloud Slic
 1. On the **Basic Information tab** of the lab profile Edit page, check **Instructions**.
 1. Click **Save**.
 
-If you have a virtualization lab that already has instructions (a lab with instructions that were written for the legacy client), you can enable the IDLx Client experience by performing the following steps:
-
-1. Navigate to your lab profile in Lab on Demand.
-1. Click **Upgrade** next to "instructions: IDL (legacy)" in the lab profile details.
-1. Choose whether you want images and videos to be rendered inline or shown when users click on links.
-1. Review the instructions in the preview window to see what your instructions will look like after you upgrade your lab.
-1. Click **OK** to upgrade the lab.
-
-
 ### Separating the Lab console from the Resource Portal (two windows)
 
 If you are using multiple monitors, or wish to only see the Resource Portal window, the Resource Portal can be separated into another window. Then you can display the Resource Portal with lab instructions on a monitor, and the Lab Console on a different monitor. 
@@ -174,6 +147,7 @@ The image below shows what will be seen after clicking **Edit instructions**, as
     - Editor zoom: adjusts the zoom level on the instruction editor.
     - Preview zoom: adjusts the zoom level on the preview pane of the instruction editor. 
     - Track Task Progress: enables the percentage of completed tasks to be reflected on the lab instance page, as well as the class page if the lab is part of an active class. 
+    - Auto-check previous tasks: when this is enabled and a task is completed, all previous tasks will be automatically checked. 
 - **Markdown Help:** displays common Markdown syntax, used for reference while writing lab instructions. Clicking the *Learn More* button will display more information that may be helpful with authoring your lab. 
 
 ### Upload Media and Documents
@@ -549,6 +523,10 @@ It's also possible to simply supply the width: {width}. In this case, the height
     - Make sure the video covers only the relevant step.
 
     > \!video[text to display]\(url)
+    
+ - **Audio:** Used to embed an inline audio player, or a link to an audio recording.The syntax format should look the same as a video, except the audio should begin with a ! (explanation mark), followed by the word audio.
+
+    > \!audio[text to display]\(url)
 
 - **Image with link:** Used to embed an image that can be clicked to navigate to a specific URL (internal or external). 
 
@@ -570,54 +548,26 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
     ![](images/video-link.png "Video Link")
 
-### List formatting
+### Task and List formatting
 
 - **Unordered list:** Used to list items in no particular order, separated by bullets rather than numbers. Type a - (dash or hyphen) followed by a space and then the text to be listed. Pressing enter at the end of the text will start the next line with a bullet. 
 - **Ordered list:** Used to list items in a particular order, separated by numbers rather than bullets. Type the number 1, followed by a space and then the text to be listed. Pressing enter at the end of the text will start the next line with number 2.
 - Both Unordered and Ordered lists can contain Task Checkboxes for the student to check off steps as completed. Both list types can be combined in the same list. Task Checkboxes are used track and report lab progress to LOD and TMS, as well as a visual marker for students. Lab progress is calculated by the percentage of Task Checkboxes that are checked in the lab instructions.
 
-#### Unordered list **without** Task Checkboxes:
-
-```
-- Item 1
-    - Item 1.1
-        - Item 1.1.1
-        - Item 1.1.2
-    - Item 1.2
-- Item 2
-```
-
-#### Ordered list **without** Task Checkboxes:
-
-```
-1. Item 1
-    1. Item 1.1
-        1. Item 1.1.1
-        1. Item 1.1.2
-    1. Item 1.2
-1. Item 2
-```
-
-#### Unordered list **with** Task Checkboxes:
-
-```
+```Unordered_Task_List
 - [] Item 1
-    - [] Item 1.1
-        - [] Item 1.1.1
-        - [] Item 1.1.2
-    - [] Item 1.2
 - [] Item 2
+- [] Item 3
+- [] Item 4
+- [] Item 5
 ```
 
-#### Ordered list **with** Task Checkboxes:
-
-```
+```Ordered_Task_List
 1. [] Item 1
-    1. [] Item 1.1
-        1. [] Item 1.1.1
-        1. [] Item 1.1.2
-    1. [] Item 1.2
 1. [] Item 2
+1. [] Item 3
+1. [] Item 4
+1. [] Item 5
 ```
 
 ### Table formatting
@@ -807,6 +757,12 @@ Although potentially any task could be reduced to an action that can be executed
     > \+++Type Text+++
 
     ![](images/type-text.png "Type Text")
+
+- **Copyable and Type Text:** used to make text copy to the local clipboard and type into a virtual machine when the student clicks the text. Type four + (plus) symbols on each side of the text that should be made copyable and type text. 
+
+  > \++Click to copy to clipboard and type into a VM++
+  >
+  > ![](images/copyable-and-type-text.png "Copyable Text")
 
 - **Embed YouTube video:** Used to embed a YouTube video inline with the lab instructions. URLs from YouTube.com automatically embed. Videos from any other URL will not embed.
 
@@ -1112,26 +1068,6 @@ To create a multiple choice review, in the Scoring Type drop-down, select **Asse
 ![](images/exam-example-questions.png "Example multiple choice assessment")
 -->
 ## Additional Features
-
-### Converting a traditional IDL (legacy) based lab to an IDLx based lab
-
-Traditional IDL (legacy) labs can be converted to IDLx labs easily in Lab on Demand. The conversion process does not convert some items correctly, and you may still need to look over the content to ensure everything appears as expected. Converting to IDLx is not permanent and can be reverted back to IDL (legacy) at any time, from the lab profile page. To revert the lab back to IDL (legacy), toggle the version selection on the Basic Information tab, on the edit lab profile page.
-
-To convert an IDL (legacy) lab to IDLx:
-
-1. Navigate to the **lab profile** page.
-
-1. Click **Upgrade** next to **Instructions IDL (legacy)**. (this will display the current version of the lab profile)
-
-    ![](images/upgrade-button.png "Upgrade lab profile to IDL 2")
-
-1. Select how screenshots and videos should be converted. They can be converted **inline** (recommended) or **as links**.
-
-    ![](images/screenshots-as-links-or-inline.png "Select how screenshots and videos will be converted")
-
-1. After making a selection, **Click OK** to convert the lab to IDLx.
-
-The lab is now IDLx. You can confirm by checking the **Instructions** field on the lab profile **Basic Information** section. 
 
 ### Create and Incorporate Advertising Campaigns
 

@@ -1,6 +1,6 @@
 # Launch
 
-The **Launch** command will launmch a specified lab for a specified user. 
+The **Launch** command will launch a specified lab for a specified user. 
 
 ## Parameters
 

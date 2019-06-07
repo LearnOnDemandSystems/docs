@@ -32,12 +32,13 @@
 |<BR> | |
 |<font size="3">**Page**</font>    |                                          |
 | Page break        | `===`                                    |
-| Horizonal Line    | `---` or `***` or `___`                  |
+| Horizontal Line    | `---` or `***` or `___`                  |
 | Block quote       | `> text to display in block quote`       |
 |<BR> | |
 |<font size="3">**Embedded Content**</font>|                                          |
 | Image             | `![text to display](URL)`                               |
 | Video             | `!video[text to display](URL)` (URLs from YouTube.com auto embed)          |
+| Audio             | `!audio[text to display](URL)`           |
 | Image with link   | `[![image description](URL of image "image description")](URL to open when image is clicked)`    |
 | Portal Link       |  `<[text to display](URL)`     | 
 | Image Link        |  `image[text to display](URL)`| 
@@ -53,6 +54,7 @@
 | Include           | `!instructions[](url)`                |
 | Copyable Text     | `++copyable text++`                      |
 | Type Text         | `+++Type text+++`                      |
+| Copyable and Type Text         | `++++Copyable and Type text++++`|
 | Replacement Token | `click the @ lab toolbar button ` |
 | Embed YouTube video | `!video[text to display](url)` (URLs from YouTube.com auto embed)               |
 |<BR> | |
@@ -175,44 +177,22 @@ Multi-Line
 [1]: URL "Optional link title"
 ```
 ---
-<font size="3">**List Formatting**</font>
+<font size="3">**Tasks**</font>
 
-Lists **without** checkboxes:       
-```Unordered_List
-- Item 1
-    - Item 1.1
-        - Item 1.1.1
-        - Item 1.1.2
-    - Item 1.2
-- Item 2
-```
-```Ordered_List
-1. Item 1
-    1. Item 1.1
-        1. Item 1.1.1
-        1. Item 1.1.2
-    1. Item 1.2
-1. Item 2
-```
-
-Lists **with** checkboxes
-
-```Unordered_List
+```Unordered_Task_List
 - [] Item 1
-    - [] Item 1.1
-        - [] Item 1.1.1
-        - [] Item 1.1.2
-    - [] Item 1.2
 - [] Item 2
+- [] Item 3
+- [] Item 4
+- [] Item 5
 ```
 
-```Ordered_List
+```Ordered_Task_List
 1. [] Item 1
-    1. [] Item 1.1
-        1. [] Item 1.1.1
-        1. [] Item 1.1.2
-    1. [] Item 1.2
 1. [] Item 2
+1. [] Item 3
+1. [] Item 4
+1. [] Item 5
 ```
 
 ---

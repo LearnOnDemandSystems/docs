@@ -1,3 +1,4 @@
+<!--
 # Launch Anonymous For Event
 
 The **LaunchAnonymousForEvent** command will launch a specified lab within a specified event without supplying user information. Please note that not all labs can be launched anonymously.
@@ -57,4 +58,4 @@ https://labondemand.com/api/v3/LaunchAnonymousForEvent?labId=100&eventId=25
 }
 ```
 
-
+-->
