@@ -38,7 +38,7 @@ Within the Lab on Demand platform, all of the above scoring formats are configur
 
 - Design output/feedback that's useful for the format being implemented. See below for detailed scoring scripts.
 
-# Scoring Script Structure {#script}
+# Scoring Script Samples {#script}
 
 ^INSTRUCTIONS[Object Matching Method](./object-match.md)  
 ^INSTRUCTIONS[If Statemnt Method](./if-statement.md)  
