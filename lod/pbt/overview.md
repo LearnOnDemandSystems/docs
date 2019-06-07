@@ -41,4 +41,4 @@ Within the Lab on Demand platform, all of the above scoring formats are configur
 # Scoring Script Samples {#script}
 
 ^INSTRUCTIONS[Object Matching Method](./object-match.md)  
-^INSTRUCTIONS[If Statemnt Method](./if-statement.md)  
+^INSTRUCTIONS[If Statement Method](./if-statement.md)  
