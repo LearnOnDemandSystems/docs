@@ -6,7 +6,7 @@ This script contains the following sections:
 - [Define Variables](#param)
 - [Retrieve Items to Score](#trycatch)
 - [Establish Results](#function)
-- [Validation section](#validation)
+- [Validate Items Exist](#validation)
 - [Scoring and Output](#scoring)
 - [Full Script](#full)
 
@@ -78,7 +78,7 @@ function Item-Details{
 - Values for the user's configuration all reference the item(s) we identified and stored in a variable in our last section. We then extract sub-properties that we will specifically be scoring.
 - The values for the correct item are what we expect those user values to be.
 
-## Validation Section {validation}
+## Validate Items Exist {validation}
 
 Now that we have established exactly what will be scored, the script must validate that the items exist.
 ```
