@@ -18,13 +18,28 @@ To launch and use a lab, the following requirements must be met:
 4. Have administrative rights on the local machine if installing the Enhanced control (Hyper-V w/RDP only).
 5. Have administrative rights on the local machine if installing the VMware Remote Console Plug-In (vSphere only).
 
+## Bandwidth Requirements
+
+In addition to the software requirements above we recommend the following:
+
+1. Minimum 200kbps consistent bandwidth with 1mbps burst per student  
+    1. Machine controller bandwidth consumption is based on the rate onscreen content changes, some scenarios (i.e. web browsing inside the lab) may require more
+    1. For optimal experience, we recommend at least 1mbps per student
+1. When utilizing the instructions interface, bandwidth needs may increase based on what features are utilized, examples include:
+    1. Embedded audio
+    1. Embedded video
+    1. Large numbers of embedded images
+    1. Bandwidth usage is highly dependent on the media being used. An embedded MP3 may fit into 1mbps burst capacity, while a 1080P video can require up to 10mbps for its duration
+1. When using Cloud Slice labs where the target environment is a website additional bandwidth may be required
+    1. For the Azure and AWS management portals, we recommend at least 512kbps per student
+
 ## Firewall Exception Rule Information
 
 For those that need to create a firewall exception rule to allow connectivity to the Lab on Demand servers (this isn&#39;t common), the following information can be used to create a limited destination rule to only allow the above protocols and ports from your network to the Lab on Demand cloud.
 
 - Domain Names:
-  - *.labondemand.com (Hyper-V)
-  - *.learnondemandsystems.com (Hyper-V)
+  - *.labondemand.com
+  - *.learnondemandsystems.com
   - *.learnondemand.net
   - *.holsystems.com
   - *.eu.learnondemandsystems.com
@@ -33,8 +48,8 @@ For those that need to create a firewall exception rule to allow connectivity to
 - IP Range:
   - 104.214.106.31/25, 206.196.30.001 - 206.196.30.056
   - 67.214.104.0/24
-  - 185.254.59.0/24 (Hyper-V Only)
-  - 103.18.85.0/24 (Hyper-V only)
+  - 185.254.59.0/24
+  - 103.18.85.0/24
 
 
 The Lab on Demand system is a cloud platform that automatically provisions and connects the learner with private sandboxed resources. There is no way to predict which IP address in the cloud the learner will connect to for the provisioning of their virtual machines. Therefore, we provide a range of IP addresses and only a second level domain name.
@@ -87,7 +102,7 @@ The below ranges are used by Public IP internet access labs.
 
 ## Browser/Control Support
 
-Machines in your lab can be accessed using any one of five virtual machine controls depending on the type of lab you are running. You can freely change between controls on those virtual machines not using RDP to find the one that works best for you.
+Machines in your lab can be accessed using any one of six virtual machine controls depending on the type of lab you are running. You can freely change between controls on those virtual machines not using SSH to find the one that works best for you.
 
 | Virtual Machine Control           |             | Chrome  |                |            | Firefox |                   |               | Internet Explorer |                |               | Microsoft Edge |                |
 |-----------------------------------|-------------|---------|----------------|------------|---------|-------------------|---------------|-------------------|----------------|---------------|----------------|----------------|
@@ -97,7 +112,7 @@ Machines in your lab can be accessed using any one of five virtual machine contr
 | **Hyper-V**        | **Flash**       | 11+     | Websockets     | 80 & 843 <sup>3</sup> | 11+     | Websockets        | 80 & 843 <sup>4</sup>    | 11+               | Websockets     | 80 & 843 <sup>2</sup>    | 11+            | Websockets     |
 |                                   | **Silverlight** | 4-34 <sup>4<sup>     | HTTP           | 80         | 4-52 <sup>4<sup>      | HTTP (RDP), HTTPS | 80 (RDP), 443 | 4+                | HTTP           | 80 (RDP), 443 | N/A            | N/A            |
 |                                   | **Enhanced <sup>3</sup>**  | N/A     | N/A            | N/A        | N/A     | N/A               | N/A           | 8+                | VMRDP          | 21xxx or 443  | N/A            | N/A            |
-| **VMware Remote Console (vSphere) <sup>5</sup>** |             | N/A     | N/A            | N/A        | 11-56     | Custom            | 902           | 8+                | Custom         | 902           | N/A            | N/A            |
+| **vSphere** | **VMware Remote Console<sup>5</sup>** | N/A     | N/A            | N/A        | 11-56     | Custom            | 902           | 8+                | Custom         | 902           | N/A            | N/A            |
 
 
 1 Preferred
