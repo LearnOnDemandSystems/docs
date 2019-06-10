@@ -122,7 +122,7 @@ To increase the maximum amount of accounts that can be created:
 
     ![](../images/aws-create-user.png)
 
->[!alert] record your access key ID and secret access key in a secure location. Once this page is closed, you will not be able to obtain this information again. If it is lost, the access key must be recreated from the user account settings. 
+>[!alert] Record your access key ID and secret access key in a secure location. Once this page is closed, you will not be able to obtain this information again. If it is lost, the access key must be recreated from the user account settings. 
 
 Once you have completed the above steps, and AWS has confirmed the maximum amount of accounts has been increased, you will need to [set up your Cloud Slice labs in LOD](aws-setup-cloud-sub-pool-in-lod.md). 
 
