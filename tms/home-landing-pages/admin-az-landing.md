@@ -13,7 +13,7 @@
     4. Ensure to add the new document in A-Z index
 -->
 
-<div class="categoriesHeader" tabindex="0" title="Instructor Docs Container">Instructor</div>
+<div class="categoriesHeader" tabindex="0" title="Instructor Docs Container">Administrator A-Z</div>
 <div class="accordionModule">
   <div class="subtopic selected">
     <div class="subtopic_header" tabindex="0" title="Instructor Docs" role="button" aria-selected="true" selected>A-Z Index</div>
