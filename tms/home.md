@@ -10,7 +10,7 @@
         <div class="cardContainer">
           <!-- Begin categories section.. -->
           <div class="cloudSlice cardContent">
-            <div class="cardHeader" tabindex="0" title="Student Basics">Basics</div>
+            <div class="cardHeader" tabindex="0" title="Student Basics" aria-label="Student Basics docs">Basics</div>
             <div class="category">
               <a href="/tms/end-user-student-faqs/basics/forgot-password.md" class="categoryThread">
                 <i class="material-icons light-blue" title="Student Basics" aria-hidden="true">person</i>
@@ -29,12 +29,12 @@
                 <span class="categoryTitle" title="How do I access and change my user profile?">How do I access and change my user profile?</span>
               </a>
             </div>
-            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing.md" title="View all" aria-label="View all">View all</a></div>
+            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing.md" title="View all" aria-label="View all Student Basics docs">View all</a></div>
           </div>
         </div>
         <div class="cardContainer">
           <div class="vmLabDev cardContent">
-            <div class="cardHeader" tabindex="0" title="Student Labs">Labs</div>
+            <div class="cardHeader" tabindex="0" title="Student Labs" aria-label="Student Docs for Labs">Labs</div>
             <div class="category">
               <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-without-user-account.md " class="categoryThread">
                 <i class="material-icons light-green" aria-hidden="true">desktop_windows</i>
@@ -53,12 +53,12 @@
                 <span class="categoryTitle" title="How do I access my labs for a class without a lab code?">How do I access my labs for a class without a lab code?</span>
               </a>
             </div>
-            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing.md" title="View all" aria-label="View all">View all</a></div>
+            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing.md" title="View all" aria-label="View all Student Docs for Labs">View all</a></div>
           </div>
         </div>
         <div class="cardContainer">
           <div class="pbt_scoring cardContent">
-            <div class="cardHeader" tabindex="0" title="Student Classes and Self-Paced Learning">Classes and Self-Paced Learning</div>
+            <div class="cardHeader" tabindex="0" title="Student Classes and Self-Paced Learning" aria-label="Student Docs for Classes and Self-Paced Learning">Classes and Self-Paced Learning</div>
             <div class="category">
               <a href="/tms/end-user-student-faqs/class-self-paced/get-into-virtual-classroom.md" class="categoryThread">
                 <i class="material-icons light-blue" aria-hidden="true">assignment</i>
@@ -77,12 +77,12 @@
                 <span class="categoryTitle" title="How do I print my completion certificate?">How do I print my completion certificate?</span>
               </a>
             </div>
-            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing.md" title="View all" aria-label="View all">View all</a></div>
+            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing.md" title="View all" aria-label="View all Student Docs for Classes and Self-Paced Learning">View all</a></div>
           </div>
         </div>
         <div class="cardContainer">
           <div class="azIndex cardContent">
-            <div class="cardHeader" tabindex="0" title="Student A-Z Index">A-Z Index</div>
+            <div class="cardHeader" tabindex="0" title="Student A-Z Index" aria-label="Student Docs A to Z">A-Z Index</div>
             <div class="category">
               <a href="/tms/end-user-student-faqs/basics/where-do-i-get-help.md" class="categoryThread">
                 <i class="material-icons light-green" aria-hidden="true">help</i>
@@ -101,7 +101,7 @@
                 <span class="categoryTitle" title="How do I access my labs for a class using a lab code when I have a user account?">How do I access my labs for a class using a lab code when I have a user account?</span>
               </a>
             </div>
-            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing.md" title="View all" aria-label="View all">View all</a></div>
+            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing.md" title="View all" aria-label="View all Student Docs A to Z">View all</a></div>
           </div>
         </div>
       </div>
@@ -114,7 +114,7 @@
     <div class="cardContainer">
         <!-- Begin categories section.. -->
         <div class="cloudSlice cardContent">
-          <div class="cardHeader" tabindex="0" title="Instructor General">General</div>
+          <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Featured Instructor General Docs">General</div>
           <div class="category">  
             <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
               <i class="material-icons light-blue aria-hidden="true"">supervised_user_circle</i>
@@ -133,12 +133,12 @@
               <span class="categoryTitle" title="How do I, as an Instructor, reset a student's password?">How do I, as an Instructor, reset a student's password?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor General Docs">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
         <div class="vmLabDev cardContent">
-          <div class="cardHeader" tabindex="0" title="Instructor Preparation and Classes">Preparation and Classes</div>
+          <div class="cardHeader" tabindex="0" title="Instructor Preparation and Classes" aria-label="Instructor Docs for Preparation and Classes">Preparation and Classes</div>
           <div class="category">
             <a href="/tms/instructors/instructor-prep-and-classes/prepare-for-course-not-scheduled-to-teach.md" class="categoryThread">
               <i class="material-icons light-green" aria-hidden="true">input</i>
@@ -157,12 +157,12 @@
               <span class="categoryTitle" title="How do I get to a class I am scheduled to teach?">How do I get to a class I am scheduled to teach?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor Docs for Preparation and Classes">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
         <div class="pbt_scoring cardContent">
-          <div class="cardHeader" tabindex="0" title="Instructor Student Labs">Student Labs</div>
+          <div class="cardHeader" tabindex="0" title="Instructor Student Labs" aria-label="Instructor Docs for Student Labs">Student Labs</div>
           <div class="category">
             <a href="/tms/instructors/student-labs/assist-students.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">settings_system_daydream</i>
@@ -181,12 +181,12 @@
               <span class="categoryTitle" aria-hidden="true"></span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor Docs for Student Labs">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
         <div class="lodIntegration cardContent">
-          <div class="cardHeader" tabindex="0" title="Virtual Machine Lab Development">Profile</div>
+          <div class="cardHeader" tabindex="0" title="Instructor Profile" aria-label="Instructor Profile Related Docs">Profile</div>
           <div class="category">
             <a href="/tms/instructors/instructor-profile/show-unavailable-times.md" class="categoryThread">
               <i class="material-icons light-green" aria-hidden="true">person</i>
@@ -205,12 +205,12 @@
               <span class="categoryTitle" aria-hidden="true"></span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor Profile Related Docs">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
         <div class="azIndex cardContent">
-          <div class="cardHeader" tabindex="0" title="Instructor A-Z Index">A-Z Index</div>
+          <div class="cardHeader" tabindex="0" title="Instructor A-Z Index" aria-label="Instructor Docs A to Z">A-Z Index</div>
           <div class="category">
             <a href="/tms/tms-administrators/discussions/admin-follow.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">help</i>
@@ -229,14 +229,14 @@
               <span class="categoryTitle" title="How can I show what I am qualified to teach?">How can I show what I am qualified to teach?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor Docs A to Z">View all</a></div>
         </div>
       </div>
     </div>
   </div>
 
   <div class="administratorCategory userTypeSection">
-  <div class="categoriesHeader" tabindex="0" title="Featured Posts">Featured posts</div>
+  <div class="categoriesHeader" tabindex="0" title="Featured Posts" aria-label="Featured Admin Docs">Featured posts</div>
     <div class="cardContainerFull">
       <div class="cardContent">
         <div class="category">
@@ -260,7 +260,7 @@
             <span class="categoryDescription">A Discussion is a great feature for enhancing learning by giving students and instructors a place to hold asynchronous, topic-structured conversations regarding a course.</span>
           </a>
         </div>
-        <div class="viewAll"><a tabindex="0" class="viewAllLink" title="View all" href="/tms/home-landing-pages/admin-featured-landing.md" aria-label="View all">View all</a></div>
+        <div class="viewAll"><a tabindex="0" class="viewAllLink" title="View all" href="/tms/home-landing-pages/admin-featured-landing.md" aria-label="View all Featured Docs for Admins">View all</a></div>
       </div>
     </div> 
     <div class="moreInfo"  tabindex="0" title="API Client">
@@ -271,7 +271,7 @@
       <div class="cardContainer">
         <!-- Begin categories section.. -->
         <div class="cloudSlice cardContent">
-          <div class="cardHeader" tabindex="0" title="Administrator Fundamentals">Fundamentals</div>
+          <div class="cardHeader" tabindex="0" title="Administrator Fundamentals" aria-label="Admin Docs for Fundamentals">Fundamentals</div>
           <div class="category">
             <a href="/tms/tms-administrators/tms-fundamentals/admin-menu.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">insert_drive_file</i>
@@ -290,12 +290,12 @@
               <span class="categoryTitle" title="How do I set the defaults for creating users and classes?">How do I set the defaults for creating users and classes?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-fundamentals-landing.md" title="View all" aria-label="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-fundamentals-landing.md" title="View all" aria-label="View all Admin Docs for Fundamentals">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
         <div class="vmLabDev cardContent">
-          <div class="cardHeader" tabindex="0" title="Administrator Classes">Classes</div>
+          <div class="cardHeader" tabindex="0" title="Administrator Classes" aria-label="Administrator Docs for Classes">Classes</div>
           <div class="category">
             <a href="/tms/tms-administrators/classes/schedule/create-class.md" class="categoryThread">
               <i class="material-icons light-green" aria-hidden="true">input</i>
@@ -314,12 +314,12 @@
               <span class="categoryTitle" title="How do I create classrooms?">How do I create classrooms?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-classes-landing.md" title="View all" aria-label="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-classes-landing.md" title="View all" aria-label="View all Admin Docs for Classes">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
         <div class="pbt_scoring cardContent">
-          <div class="cardHeader" tabindex="0" title="Administrator Users">Users</div>
+          <div class="cardHeader" tabindex="0" title="Administrator Users" aria-label="Admin User Related Docs">Users</div>
           <div class="category">
             <a href="/tms/tms-administrators/users/student-management/create-student-user-accounts.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">person</i>
@@ -338,12 +338,12 @@
               <span class="categoryTitle" title="How do I find users?">How do I find users?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-users-landing.md" title="View all" aria-label="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-users-landing.md" title="View all" aria-label="View all User Related Admin Docs">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
         <div class="lodIntegration cardContent">
-          <div class="cardHeader" tabindex="0" title="Administrator Self-Paced Learning and Subscriptions">Self-Paced Learning and Subscriptions</div>
+          <div class="cardHeader" tabindex="0" title="Administrator Self-Paced Learning and Subscriptions" aria-label="Admin Self-Paced Learning and Subscriptions Docs">Self-Paced Learning and Subscriptions</div>
           <div class="category">
             <a href="/tms/tms-administrators/self-paced-learning-and-subscriptions/schedule-self-paced-learning.md" class="categoryThread">
               <i class="material-icons light-green" aria-hidden="true">desktop_windows</i>
@@ -362,12 +362,12 @@
               <span class="categoryTitle" aria-hidden="true"></span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-self-paced-learning-and-subscriptions-landing.md" title="View all" aria-label="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-self-paced-learning-and-subscriptions-landing.md" title="View all" aria-label="View all Self-Paced Learning and Subscriptions Admin Related Docs">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
         <div class="lodIntegration cardContent">
-          <div class="cardHeader" tabindex="0" title="Administrator Courses and Their Activities">Courses and Their Activities</div>
+          <div class="cardHeader" tabindex="0" title="Administrator Courses and Their Activities" aria-label="Admin Courses and Their Activities Docs">Courses and Their Activities</div>
           <div class="category">
             <a href="/tms/tms-administrators/courses-and-activities/overall/create-course.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">ondemand_video</i>
@@ -386,12 +386,12 @@
               <span class="categoryTitle" title="How do I create a SCORM Module and make it available to other organizations for their courses?">How do I create a SCORM Module and make it available to other organizations for their courses?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-courses-and-activities-landing.md" title="View all" aria-label="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-courses-and-activities-landing.md" title="View all" aria-label="View all Courses and Their Activities Admin Related Docs">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
         <div class="lodIntegration cardContent">
-          <div class="cardHeader" tabindex="0" title="Administrator Discussion">Discussions</div>
+          <div class="cardHeader" tabindex="0" title="Administrator Discussion" aria-label="Admin Discussion Docs">Discussions</div>
           <div class="category">
             <a href="/tms/tms-administrators/discussions/what-is-discussion.md" class="categoryThread">
               <i class="material-icons light-green" aria-hidden="true">forum</i>
@@ -410,12 +410,12 @@
               <span class="categoryTitle" title="How can I control posts on discussions?">How can I control posts on discussions?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-discussions-landing.md" title="View all" aria-label="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-discussions-landing.md" title="View all" aria-label="View all Discussion Admin Related Docs">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
         <div class="lodIntegration cardContent">
-          <div class="cardHeader" tabindex="0" title="Administator Miscellaneous">Miscellaneous</div>
+          <div class="cardHeader" tabindex="0" title="Administator Miscellaneous" aria-label="Administrator Miscellaneous Featured Docs">Miscellaneous</div>
           <div class="category">
             <a href="/tms/tms-administrators/miscellaneous/create-completion-certificates.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">description</i>
@@ -434,12 +434,12 @@
               <span class="categoryTitle" title="Do I want to use a survey or an assessment?">Do I want to use a survey or an assessment?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-miscellaneous-landing.md" title="View all" aria-label="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-miscellaneous-landing.md" title="View all" aria-label="View all Miscellanous Admin Docs">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
         <div class="azIndex cardContent">
-          <div class="cardHeader" tabindex="0" title="Administrator A-Z Index">A-Z Index</div>
+          <div class="cardHeader" tabindex="0" title="Administrator A-Z Index" aria-label="Administrator A-Z Docs">A-Z Index</div>
           <div class="category">
             <a href="access-control-lists.md" class="categoryThread">
               <i class="material-icons light-green" aria-hidden="true">help</i>
@@ -458,7 +458,7 @@
               <span class="categoryTitle" title="API Best Practices and How to Use an API Consumer">API Best Practices and How to Use an API Consumer</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-az-landing.md" title="View all" aria-label="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-az-landing.md" title="View all" aria-label="View all Admin Docs A to Z">View all</a></div>
         </div>
       </div>
     </div>
@@ -474,7 +474,7 @@
     <div class="cardContainer">
         <!-- Begin categories section.. -->
         <div class="cloudSlice cardContent">
-          <div class="cardHeader" tabindex="0" title="Arvato Marketplace Fulfilling Your Lab Order">Fulfilling Your Lab Order</div>
+          <div class="cardHeader" tabindex="0" title="Arvato Marketplace Fulfilling Your Lab Order" aria-label="Arvato Marketplace Fulfilling Your Lab Order Docs">Fulfilling Your Lab Order</div>
           <div class="category"> 
             <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md" class="categoryThread">
               <i class="material-icons blue" aria-hidden="true">cloud_done</i>
@@ -493,12 +493,12 @@
               <span class="categoryTitle" title="How do I add an instructor to a class?">How do I add an instructor to a class?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/arvato-courseware-marketplace-landing.md" title="View all" aria-label="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/arvato-courseware-marketplace-landing.md" title="View all" aria-label="View all Arvato Marketplace Fulfilling Your Lab Order Docs">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
         <div class="vmLabDev cardContent">
-          <div class="cardHeader" tabindex="0" title="Arvato Marketplace Managing Your Users">Managing Your Users</div>
+          <div class="cardHeader" tabindex="0" title="Arvato Marketplace Managing Your Users" aria-label="Arvato Marketplace Managing Your Users Featured Docs">Managing Your Users</div>
           <div class="category">
             <a href="/tms/arvato-marketplace/user-accounts/create-student-account.md" class="categoryThread">
               <i class="material-icons light-green" aria-hidden="true">supervised_user_circle</i>
@@ -517,12 +517,12 @@
               <span class="categoryTitle" title="How do I create an Instructor account?">How do I create an Instructor account?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/arvato-courseware-marketplace-landing.md" title="View all" aria-label="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/arvato-courseware-marketplace-landing.md" title="View all" aria-label="View all Managing Your Users Docs">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
         <div class="pbt_scoring cardContent">
-          <div class="cardHeader" tabindex="0" title="Arvato Marketplace FAQs for Courseware Marketplace Orders">FAQs for Courseware Marketplace Orders</div>
+          <div class="cardHeader" tabindex="0" title="Arvato Marketplace FAQs for Courseware Marketplace Orders" aria-label="Arvato Marketplace FAQs for Courseware Marketplace Orders Featured Docs">FAQs for Courseware Marketplace Orders</div>
           <div class="category">
             <a href="/tms/arvato-marketplace/faq-for-arvato-marketplace/purchase-labs-for-instructor.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">help</i>
@@ -541,7 +541,7 @@
               <span class="categoryTitle" title="How and when can students access labs?">How and when can students access labs?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/arvato-courseware-marketplace-landing.md" title="View all" aria-label="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/arvato-courseware-marketplace-landing.md" title="View all" aria-label="View all Arvato Marketplace FAQs for Courseware Marketplace Orders docs">View all</a></div>
         </div>
       </div>
     </div>

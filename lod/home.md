@@ -31,7 +31,7 @@
           <span class="categoryDescription" title="How to find Azure Resource Manager templates for use with Microsoft Azure.">How to find Azure Resource Manager templates for use with Microsoft Azure.</span>
         </a>
       </div>
-      <div class="viewAll"><a href="/lod/home-landing-pages/featured-landing.md" tabindex="0" class="viewAllLink" title="View all" aria-label="View all">View all</a></div>
+      <div class="viewAll"><a href="/lod/home-landing-pages/featured-landing.md" tabindex="0" class="viewAllLink" title="View all" aria-label="View all Featured Posts">View all</a></div>
     </div>
   </div> 
   <!-- ..End featured posts section -->
@@ -45,7 +45,7 @@
     -->
     <div class="cardContainer">
       <div class="cloudSlice cardContent">
-        <div class="cardHeader" tabindex="0" title="Cloud Slice Lab Development">Cloud Slice Lab Development</div>
+        <div class="cardHeader" tabindex="0" title="Cloud Slice Lab Development" aria-label="Cloud Slice Lab Development Docs">Cloud Slice Lab Development</div>
         <div class="category">
           <a href="/guides/cloud-slice/aws/aws-cloud-slice-setup.md" class="categoryThread">
             <i class="material-icons light-blue" aria-hidden="true">cloud_done</i>
@@ -64,7 +64,7 @@
             <span class="categoryTitle" title="Cloud Slice Setup Guide">Cloud Slice Setup Guide</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/cloud-slice-development-landing.md" title="View all" aria-label="View all">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/cloud-slice-development-landing.md" title="View all" aria-label="View all Cloud Slice Lab Development Docs">View all</a></div>
       </div>
     </div>
 
@@ -73,7 +73,7 @@
     -->
     <div class="cardContainer">
       <div class="vmLabDev cardContent">
-        <div class="cardHeader" tabindex="0" title="Virtual Machine Lab Development">Virtual Machine Lab Development</div>
+        <div class="cardHeader" tabindex="0" title="Virtual Machine Lab Development" aria-label="Virtual Machine Lab Development Docs">Virtual Machine Lab Development</div>
         <div class="category">
           <a href="../lod/idlx-development-best-practices.md" class="categoryThread">
             <i class="material-icons light-green" aria-hidden="true">input</i>
@@ -92,7 +92,7 @@
             <span class="categoryTitle" title="Lab Network Restrictions">Lab Network Restrictions</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/vm-lab-development-landing.md" title="View all" aria-label="View all">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/vm-lab-development-landing.md" title="View all" aria-label="View all Virtual Machine Lab Development Docs">View all</a></div>
       </div>
     </div>
 
@@ -101,7 +101,7 @@
     -->
     <div class="cardContainer">
       <div class="pbt_scoring cardContent">
-        <div class="cardHeader" tabindex="0" title="Performance Based Testing and Scoring">Performance Based Testing and Scoring</div>
+        <div class="cardHeader" tabindex="0" title="Performance Based Testing and Scoring" aria-label="Performance Based Testing and Scoring Docs">Performance Based Testing and Scoring</div>
         <div class="category">
           <a href="/lod/activities.md" class="categoryThread">
             <i class="material-icons light-blue" aria-hidden="true">assessment</i>
@@ -120,7 +120,7 @@
             <span class="categoryTitle" title="IDLx Authoring Guide">IDLx Authoring Guide</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/pbt-and-scoring-landing.md" title="View all" aria-label="View all">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/pbt-and-scoring-landing.md" title="View all" aria-label="View all Performance Based Testing and Scoring Docs">View all</a></div>
       </div>
     </div>
 
@@ -129,7 +129,7 @@
     -->
     <div class="cardContainer">
       <div class="lodIntegration cardContent">
-        <div class="cardHeader" tabindex="0" title="Lab on Demand Integration">Lab on Demand Integration</div>
+        <div class="cardHeader" tabindex="0" title="Lab on Demand Integration" aria-label="Lab on Demand Integration Docs">Lab on Demand Integration</div>
         <div class="category">
           <a href="/lod/lab-on-demand-lti-integration.md" class="categoryThread">
             <i class="material-icons light-green" aria-hidden="true">call_merge</i>
@@ -148,7 +148,7 @@
             <span class="categoryTitle" title="Lab on Demand API Documentation">Lab on Demand API Documentation</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-integration-landing.md" title="View all" aria-label="View all">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-integration-landing.md" title="View all" aria-label="View all Lab on Demand Integration Docs">View all</a></div>
       </div>
     </div>
 
@@ -157,7 +157,7 @@
     -->
     <div class="cardContainer">
       <div class="lod_admin cardContent">
-        <div class="cardHeader" tabindex="0" title="Lab on Demand Administration">Lab on Demand Administration</div>
+        <div class="cardHeader" tabindex="0" title="Lab on Demand Administration" aria-label="Lab on Demand Administration Docs">Lab on Demand Administration</div>
         <div class="category">
           <a href="/lod/feature-focus/lod-experience.md" class="categoryThread">
             <i class="material-icons light-blue" aria-hidden="true">account_box</i>
@@ -176,7 +176,7 @@
             <span class="categoryTitle" title="Lab Interface Frequently Asked Questions">Lab Interface Frequently Asked Questions</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-admin-landing.md" title="View all" aria-label="View all">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-admin-landing.md" title="View all" aria-label="View all Lab on Demand Administration Docs">View all</a></div>
       </div>
     </div>
 
@@ -185,7 +185,7 @@
     -->
     <div class="cardContainer">
       <div class="azIndex cardContent">
-        <div class="cardHeader" tabindex="0" title="LOD A-Z Index">A-Z Index</div>
+        <div class="cardHeader" tabindex="0" title="LOD A-Z Index" aria-label="LOD Docs A to Z">A-Z Index</div>
         <div class="category">
           <a href="access-control-lists.md" class="categoryThread">
             <i class="material-icons light-green" aria-hidden="true">help</i>
@@ -204,7 +204,7 @@
             <span class="categoryTitle" title="API Best Practices and How to Use an API Consumer">API Best Practices and How to Use an API Consumer</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/a-z-index.md" title="View all" aria-label="View all">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/a-z-index.md" title="View all" aria-label="View all LOD Docs A to Z">View all</a></div>
       </div>
     </div>
 
