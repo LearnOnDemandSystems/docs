@@ -29,7 +29,7 @@
                 <span class="categoryTitle" title="How do I access and change my user profile?">How do I access and change my user profile?</span>
               </a>
             </div>
-            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing.md" title="View all">View all</a></div>
+            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing.md" title="View all" aria-label="View all">View all</a></div>
           </div>
         </div>
         <div class="cardContainer">
@@ -53,7 +53,7 @@
                 <span class="categoryTitle" title="How do I access my labs for a class without a lab code?">How do I access my labs for a class without a lab code?</span>
               </a>
             </div>
-            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing.md" title="View all">View all</a></div>
+            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing.md" title="View all" aria-label="View all">View all</a></div>
           </div>
         </div>
         <div class="cardContainer">
@@ -77,7 +77,7 @@
                 <span class="categoryTitle" title="How do I print my completion certificate?">How do I print my completion certificate?</span>
               </a>
             </div>
-            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing.md" title="View all">View all</a></div>
+            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing.md" title="View all" aria-label="View all">View all</a></div>
           </div>
         </div>
         <div class="cardContainer">
@@ -101,7 +101,7 @@
                 <span class="categoryTitle" title="How do I access my labs for a class using a lab code when I have a user account?">How do I access my labs for a class using a lab code when I have a user account?</span>
               </a>
             </div>
-            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing.md" title="View all">View all</a></div>
+            <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/student-landing.md" title="View all" aria-label="View all">View all</a></div>
           </div>
         </div>
       </div>
@@ -133,7 +133,7 @@
               <span class="categoryTitle" title="How do I, as an Instructor, reset a student's password?">How do I, as an Instructor, reset a student's password?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -157,7 +157,7 @@
               <span class="categoryTitle" title="How do I get to a class I am scheduled to teach?">How do I get to a class I am scheduled to teach?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -176,12 +176,12 @@
             </a>
           </div>
           <div class="category" aria-hidden="true">
-            <a href="" class="categoryThread" aria-hidden="true">
+            <a href="" class="categoryThread" aria-hidden="true" onclick="return false">
               <i class="material-icons light-blue" aria-hidden="true"></i>
               <span class="categoryTitle" aria-hidden="true"></span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -200,12 +200,12 @@
             </a>
           </div>
           <div class="category" aria-hidden="true">
-            <a href="" class="categoryThread" aria-hidden="true">
+            <a href="" class="categoryThread" aria-hidden="true" onclick="return false">
               <i class="material-icons light-green" aria-hidden="true"></i>
               <span class="categoryTitle" aria-hidden="true"></span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -229,7 +229,7 @@
               <span class="categoryTitle" title="How can I show what I am qualified to teach?">How can I show what I am qualified to teach?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all">View all</a></div>
         </div>
       </div>
     </div>
@@ -260,7 +260,7 @@
             <span class="categoryDescription">A Discussion is a great feature for enhancing learning by giving students and instructors a place to hold asynchronous, topic-structured conversations regarding a course.</span>
           </a>
         </div>
-        <div class="viewAll"><a tabindex="0" class="viewAllLink" title="View all" href="/tms/home-landing-pages/admin-featured-landing.md">View all</a></div>
+        <div class="viewAll"><a tabindex="0" class="viewAllLink" title="View all" href="/tms/home-landing-pages/admin-featured-landing.md" aria-label="View all">View all</a></div>
       </div>
     </div> 
     <div class="moreInfo"  tabindex="0" title="API Client">
@@ -290,7 +290,7 @@
               <span class="categoryTitle" title="How do I set the defaults for creating users and classes?">How do I set the defaults for creating users and classes?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-fundamentals-landing.md" title="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-fundamentals-landing.md" title="View all" aria-label="View all">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -314,7 +314,7 @@
               <span class="categoryTitle" title="How do I create classrooms?">How do I create classrooms?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-classes-landing.md" title="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-classes-landing.md" title="View all" aria-label="View all">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -338,7 +338,7 @@
               <span class="categoryTitle" title="How do I find users?">How do I find users?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-users-landing.md" title="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-users-landing.md" title="View all" aria-label="View all">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -357,12 +357,12 @@
             </a>
           </div>
           <div class="category" aria-hidden="true">
-            <a href="" class="categoryThread" aria-hidden="true">
+            <a href="" class="categoryThread" aria-hidden="true" onclick="return false">
               <i class="material-icons light-green" aria-hidden="true"></i>
               <span class="categoryTitle" aria-hidden="true"></span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-self-paced-learning-and-subscriptions-landing.md" title="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-self-paced-learning-and-subscriptions-landing.md" title="View all" aria-label="View all">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -386,7 +386,7 @@
               <span class="categoryTitle" title="How do I create a SCORM Module and make it available to other organizations for their courses?">How do I create a SCORM Module and make it available to other organizations for their courses?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-courses-and-activities-landing.md" title="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-courses-and-activities-landing.md" title="View all" aria-label="View all">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -410,7 +410,7 @@
               <span class="categoryTitle" title="How can I control posts on discussions?">How can I control posts on discussions?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-discussions-landing.md" title="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-discussions-landing.md" title="View all" aria-label="View all">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -434,7 +434,7 @@
               <span class="categoryTitle" title="Do I want to use a survey or an assessment?">Do I want to use a survey or an assessment?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-miscellaneous-landing.md" title="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-miscellaneous-landing.md" title="View all" aria-label="View all">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -458,7 +458,7 @@
               <span class="categoryTitle" title="API Best Practices and How to Use an API Consumer">API Best Practices and How to Use an API Consumer</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-az-landing.md" title="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-az-landing.md" title="View all" aria-label="View all">View all</a></div>
         </div>
       </div>
     </div>
@@ -493,7 +493,7 @@
               <span class="categoryTitle" title="How do I add an instructor to a class?">How do I add an instructor to a class?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/arvato-courseware-marketplace-landing.md" title="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/arvato-courseware-marketplace-landing.md" title="View all" aria-label="View all">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -517,7 +517,7 @@
               <span class="categoryTitle" title="How do I create an Instructor account?">How do I create an Instructor account?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/arvato-courseware-marketplace-landing.md" title="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/arvato-courseware-marketplace-landing.md" title="View all" aria-label="View all">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
@@ -541,7 +541,7 @@
               <span class="categoryTitle" title="How and when can students access labs?">How and when can students access labs?</span>
             </a>
           </div>
-          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/arvato-courseware-marketplace-landing.md" title="View all">View all</a></div>
+          <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/arvato-courseware-marketplace-landing.md" title="View all" aria-label="View all">View all</a></div>
         </div>
       </div>
     </div>

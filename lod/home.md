@@ -31,7 +31,7 @@
           <span class="categoryDescription" title="How to find Azure Resource Manager templates for use with Microsoft Azure.">How to find Azure Resource Manager templates for use with Microsoft Azure.</span>
         </a>
       </div>
-      <div class="viewAll"><a href="/lod/home-landing-pages/featured-landing.md" tabindex="0" class="viewAllLink" title="View all">View all</a></div>
+      <div class="viewAll"><a href="/lod/home-landing-pages/featured-landing.md" tabindex="0" class="viewAllLink" title="View all" aria-label="View all">View all</a></div>
     </div>
   </div> 
   <!-- ..End featured posts section -->
@@ -64,7 +64,7 @@
             <span class="categoryTitle" title="Cloud Slice Setup Guide">Cloud Slice Setup Guide</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/cloud-slice-development-landing.md" title="View all">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/cloud-slice-development-landing.md" title="View all" aria-label="View all">View all</a></div>
       </div>
     </div>
 
@@ -92,7 +92,7 @@
             <span class="categoryTitle" title="Lab Network Restrictions">Lab Network Restrictions</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/vm-lab-development-landing.md" title="View all">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/vm-lab-development-landing.md" title="View all" aria-label="View all">View all</a></div>
       </div>
     </div>
 
@@ -120,7 +120,7 @@
             <span class="categoryTitle" title="IDLx Authoring Guide">IDLx Authoring Guide</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/pbt-and-scoring-landing.md" title="View all">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/pbt-and-scoring-landing.md" title="View all" aria-label="View all">View all</a></div>
       </div>
     </div>
 
@@ -148,7 +148,7 @@
             <span class="categoryTitle" title="Lab on Demand API Documentation">Lab on Demand API Documentation</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-integration-landing.md" title="View all">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-integration-landing.md" title="View all" aria-label="View all">View all</a></div>
       </div>
     </div>
 
@@ -176,7 +176,7 @@
             <span class="categoryTitle" title="Lab Interface Frequently Asked Questions">Lab Interface Frequently Asked Questions</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-admin-landing.md" title="View all">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-admin-landing.md" title="View all" aria-label="View all">View all</a></div>
       </div>
     </div>
 
@@ -204,7 +204,7 @@
             <span class="categoryTitle" title="API Best Practices and How to Use an API Consumer">API Best Practices and How to Use an API Consumer</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/a-z-index.md" title="View all">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/a-z-index.md" title="View all" aria-label="View all">View all</a></div>
       </div>
     </div>
 
