@@ -13,19 +13,19 @@
             <div class="cardHeader" tabindex="0" title="Student Basics">Basics</div>
             <div class="category">
               <a href="/tms/end-user-student-faqs/basics/forgot-password.md" class="categoryThread">
-                <i class="material-icons light-blue" title="Student Basics">person</i>
+                <i class="material-icons light-blue" title="Student Basics" aria-hidden="true">person</i>
                 <span class="categoryTitle" title="What do I do if I forgot my password?">What do I do if I forgot my password?</span>
               </a>
             </div>
             <div class="category"> 
               <a href="/tms/end-user-student-faqs/basics/change-password.md" class="categoryThread">
-                <i class="material-icons blue"title="Student Basics">person</i>
+                <i class="material-icons blue" title="Student Basics" aria-hidden="true">person</i>
                 <span class="categoryTitle" title="How do I change my password?">How do I change my password?</span>
               </a>
             </div>
             <div class="category">  
               <a href="/tms/end-user-student-faqs/basics/change-user-profile.md" class="categoryThread">
-                <i class="material-icons light-blue"title="Student Basics">person</i>
+                <i class="material-icons light-blue" title="Student Basics" aria-hidden="true">person</i>
                 <span class="categoryTitle" title="How do I access and change my user profile?">How do I access and change my user profile?</span>
               </a>
             </div>
