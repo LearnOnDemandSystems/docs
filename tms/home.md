@@ -441,21 +441,21 @@
         <div class="azIndex cardContent">
           <div class="cardHeader" tabindex="0" title="Administrator A-Z Index" aria-label="Administrator A-Z Docs">A-Z Index</div>
           <div class="category">
-            <a href="access-control-lists.md" class="categoryThread">
-              <i class="material-icons light-green" aria-hidden="true">help</i>
-              <span class="categoryTitle" title="Access Control Lists">Access Control Lists</span>
+            <a href="/tms/tms-administrators/tms-fundamentals/rearrange-items-on-site-administration.md" class="categoryThread">
+              <i class="material-icons light-blue" aria-hidden="true">help</i>
+              <span class="categoryTitle" title="Can I rearrange items on the Site Administration page?">Can I rearrange items on the Site Administration page?</span>
             </a>
           </div>
           <div class="category">
-            <a href="/lod/aws-capabilities.md" class="categoryThread">
-              <i class="material-icons green" aria-hidden="true">help</i>
-              <span class="categoryTitle" title="Amazon Web Services API Capabilities">Amazon Web Services API Capabilities</span>
+            <a href="/tms/tms-administrators/miscellaneous/use-survey-or-assessment.md" class="categoryThread">
+              <i class="material-icons blue" aria-hidden="true">help</i>
+              <span class="categoryTitle" title="Do I want to use a survey or an assessment?">Do I want to use a survey or an assessment?</span>
             </a>
           </div>
           <div class="category">
-            <a href="/lod/how-to-use-api-consumer.md" class="categoryThread">
-              <i class="material-icons light-green" aria-hidden="true">help</i>
-              <span class="categoryTitle" title="API Best Practices and How to Use an API Consumer">API Best Practices and How to Use an API Consumer</span>
+            <a href="/tms/tms-administrators/classes/schedule/print-completion-certificates-for-class-by-admin.md" class="categoryThread">
+              <i class="material-icons light-blue" aria-hidden="true">help</i>
+              <span class="categoryTitle" title="How can an administrator print completion certificates for a class?">How can an administrator print completion certificates for a class?</span>
             </a>
           </div>
           <div class="viewAll"><a class="viewAllLink" href="/tms/home-landing-pages/admin-az-landing.md" title="View all" aria-label="View all Admin Docs A to Z">View all</a></div>
