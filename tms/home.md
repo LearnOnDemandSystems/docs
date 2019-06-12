@@ -8,6 +8,9 @@ To ensure you stay informed of our new releases, review our [Roadmap](https://ww
 
 You can also visit the <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the LODS platforms?</a></span> page.
 
+---------------------------------------------------------------------------
+To find the help you are looking for, select who you are below.
+
 > [!ALERT] This page provides links to all Help articles. Please be aware that not all functionality covered may be available to you.
 
 ## Student
