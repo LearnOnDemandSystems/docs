@@ -1,8 +1,12 @@
 # OneLearn TMS Help
 
-<span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the LODS platforms?</a></span>
+## Welcome to the OneLearn Training Management System (TMS) Help!
 
-Welcome to the OneLearn Training Management System platform (TMS) Help!
+### LODS Roadmap
+
+To ensure you stay informed of our new releases, review our [Roadmap](https://www.learnondemandsystems.com/development-roadmap/) and sign up to receive email notifications of all platform and service updates as they are announced. 
+
+You can also visit the <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the LODS platforms?</a></span> page.
 
 > [!ALERT] This page provides links to all Help articles. Please be aware that not all functionality covered may be available to you.
 
