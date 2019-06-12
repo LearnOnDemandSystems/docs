@@ -24,7 +24,7 @@
 
 * [**Create an Access Control Policy**](/lod/create-a-restriction-policy.md) - Create a Cloud Access Control Policy.
 
-* [**Create Removable Media**](/lod/create-Removable-media.md) - Removable Media to be used with virtual machines.
+* [**Create Removable Media**](/lod/create-removable-media.md) - Removable Media to be used with virtual machines.
 
 - [**Custom UUID on VMware Virtual Machines**](/lod/uuid.md) - Assign a custom unique ID to a virtual machine hosted on a VMware host.
 
