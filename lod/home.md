@@ -24,3 +24,6 @@
 > ### Looking for more information?
 >
 >If you've already read through all of the documentation that is available on a topic, and you are still looking for more information, or have questions, check out the resources available to you on our [Contact Us](/contact-us.md) page.
+>
+> ### LODS Roadmap
+> Review our [Roadmap](https://www.learnondemandsystems.com/development-roadmap/) and sign up to receive e-mail notifications of all platform and service updates as they are announced. 
