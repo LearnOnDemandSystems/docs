@@ -356,13 +356,13 @@
               <span class="categoryTitle" title="How can an administrator print completion certificates for self-paced learning?">How can an administrator print completion certificates for self-paced learning?</span>
             </a>
           </div>
-          <div class="category" aria-hidden="true">
-            <a href="" class="categoryThread" aria-hidden="true" onclick="return false">
+          <div class="category">
+            <a href="" class="categoryThread" onclick="return false" aria-label="blank">
               <i class="material-icons light-green" aria-hidden="true"></i>
               <span class="categoryTitle" aria-hidden="true"></span>
             </a>
           </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-self-paced-learning-and-subscriptions-landing.md" title="View all" aria-label="View all Self-Paced Learning and Subscriptions Admin Related Docs">View all</a></div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-self-paced-learning-and-subscriptions-landing.md" title="View all Self-Paced Learning and Subscriptions Admin Related Docs" aria-label="View all Self-Paced Learning and Subscriptions Admin Related Docs">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
