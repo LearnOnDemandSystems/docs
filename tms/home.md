@@ -199,13 +199,13 @@
               <span class="categoryTitle" title="How can I show what I am qualified to teach?">How can I show what I am qualified to teach?</span>
             </a>
           </div>
-          <div class="category">
+          <div class="category" aria-hidden="true">
             <a href="" class="categoryThread" aria-hidden="true" onclick="return false" aria-hidden="true">
               <i class="material-icons light-green" aria-hidden="true"></i>
               <span class="categoryTitle" aria-hidden="true"></span>
             </a>
           </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all Instructor Profile Related Docs" aria-label="View all Instructor Profile Related Docs">View all</a></div>
+          <div class="viewAll" tabindex="-1"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all Instructor Profile Related Docs" aria-label="View all Instructor Profile Related Docs">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
