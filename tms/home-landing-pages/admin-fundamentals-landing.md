@@ -30,7 +30,7 @@
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/roles-thru-auth-prov.md">
         <div class="subtopic_title">How can I assign user roles using an authentication provider?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/custom-landing-pages.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/custom-landing-page.md">
         <div class="subtopic_title">How do I have users land on a custom page when logging in?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/class-or-custom-event-or-course-assignment-to-schedule-training.md">

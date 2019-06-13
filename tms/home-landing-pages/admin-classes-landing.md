@@ -50,11 +50,8 @@
       <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/enroll-multiple-students.md">
         <div class="subtopic_title">How do I enroll multiple students?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/access-completed-labs.md">
-        <div class="subtopic_title">How can I add an existing class's enrollments to a new event?</div>
-      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/add-existing-class-enrollments-to-new-event.md">
-        <div class="subtopic_title">Why does my lab expire within a week when I am supposed to have access to it for a longer time?</div>
+        <div class="subtopic_title">How can I add an existing class's enrollments to a new event?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/check-in-students-for-class.md">
         <div class="subtopic_title">How can I check students in for class?</div>

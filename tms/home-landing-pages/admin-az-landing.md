@@ -30,7 +30,7 @@
       <a class="subtopic_link" href="/tms/tms-administrators/discussions/add-disclaimer.md">
         <div class="subtopic_title">How can I add a disclaimer to all my discussions?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/access-completed-labs.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/add-existing-class-enrollments-to-new-event.md">
         <div class="subtopic_title">How can I add an existing class's enrollments to a new event?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/roles-thru-auth-prov.md">
@@ -189,7 +189,7 @@
       <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/find-users.md">
         <div class="subtopic_title">How do I find users?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/custom-landing-pages.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/custom-landing-page.md">
         <div class="subtopic_title">How do I have users land on a custom page when logging in?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/cascade-custom-fields.md">

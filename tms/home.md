@@ -122,7 +122,7 @@
             </a>
           </div>
           <div class="category"> 
-            <a href="/tms/tms-adminisrators/tms-fundamentals/admin-menu.md" class="categoryThread">
+            <a href="/tms/tms-administrators/tms-fundamentals/admin-menu.md" class="categoryThread">
               <i class="material-icons blue" aria-hidden="true">supervised_user_circle</i>
               <span class="categoryTitle" title="What is the Admin menu and how does it work?">What is the Admin menu and how does it work?</span>
             </a>
