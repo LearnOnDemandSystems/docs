@@ -175,13 +175,13 @@
               <span class="categoryTitle" title="How do I share files with students?">How do I share files with students?</span>
             </a>
           </div>
-          <div class="category" aria-hidden="true">
-            <a href="" class="categoryThread" aria-hidden="true" onclick="return false">
+          <div class="category">
+            <a href="" class="categoryThread" onclick="return false">
               <i class="material-icons light-blue" aria-hidden="true"></i>
               <span class="categoryTitle" aria-hidden="true"></span>
             </a>
           </div>
-          <div class="viewAll" tabindex="-1"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all Instructor Docs for Student Labs" aria-label="View all Instructor Docs for Student Labs">View all</a></div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all Instructor Docs for Student Labs" aria-label="View all Instructor Docs for Student Labs">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
