@@ -362,7 +362,7 @@
               <span class="categoryTitle" aria-hidden="true"></span>
             </a>
           </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" title="View all Self-Paced Learning and Subscriptions Admin Related Docs" href="/tms/home-landing-pages/admin-self-paced-learning-and-subscriptions-landing.md" aria-label="View all Self-Paced Learning and Subscriptions Admin Related Docs">View all</a></div>
+          <div class="viewAll"><a tabindex="0" aria-hidden="false" class="viewAllLink" href="/tms/home-landing-pages/admin-self-paced-learning-and-subscriptions-landing.md" title="View all Self-Paced Learning and Subscriptions Admin Related Docs" aria-label="View all Self-Paced Learning and Subscriptions Admin Related Docs">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
