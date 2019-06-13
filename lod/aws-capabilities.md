@@ -28,7 +28,7 @@ Below is a list of **currently supported** and **planned support** Amazon Web Se
 [Amazon Elastic Container Service for Kubernetes](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonelasticcontainerserviceforkubernetes.html)|eks|currently supported|||
 |[Amazon Elastic File System](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonelasticfilesystem.html)|elasticfilesystem|currently supported|||
 |[Amazon Elastic MapReduce](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonelasticmapreduce.html)|elasticmapreduce|planned|||
-|[Amazon Elastic Transcoder]()|elastictranscoder|planned|||
+|[Amazon Elastic Transcoder](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonelastictranscoder.html)|elastictranscoder|planned|||
 |[Amazon ElastiCache](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonelastictranscoder.html)|elasticache|planned|||
 |[Amazon Elasticsearch Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonelasticsearchservice.html)|es|planned|||
 |[Amazon FreeRTOS](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonfreertos.html)|freertos|planned|||
