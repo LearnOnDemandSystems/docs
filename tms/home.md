@@ -362,8 +362,7 @@
               <span class="categoryTitle" aria-hidden="true"></span>
             </a>
           </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all Instructor Docs for Student Labs" aria-label="View all Instructor Docs for Student Labs">View all</a></div>
-        </div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" title="View all Instructor Profile Related Docs" href="/tms/home-landing-pages/instructor-landing.md" aria-label="View all Instructor Profile Related Docs">View all</a></div></div>
       </div>
       <div class="cardContainer">
         <div class="lodIntegration cardContent">
