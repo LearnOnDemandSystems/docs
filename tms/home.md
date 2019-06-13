@@ -199,8 +199,8 @@
               <span class="categoryTitle" title="How can I show what I am qualified to teach?">How can I show what I am qualified to teach?</span>
             </a>
           </div>
-          <div class="category" aria-hidden="true">
-            <a href="" class="categoryThread" aria-hidden="true" onclick="return false">
+          <div class="category">
+            <a href="" class="categoryThread" aria-hidden="true" onclick="return false" aria-hidden="true">
               <i class="material-icons light-green" aria-hidden="true"></i>
               <span class="categoryTitle" aria-hidden="true"></span>
             </a>
