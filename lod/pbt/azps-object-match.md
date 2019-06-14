@@ -126,10 +126,10 @@ After establishing what all of the user's settings should be, we must turn them 
 - If the user's items correctly match our expected values, we establish `$result = $True` and provides the user's configuration of the settings for the tested item(s).
     - `$result` is run at the end of the script and if True will inform LOD that the item was correct.
     - Example output:
-        ![](../images/pbt-correct.png?raw=true){400}
+        ![](./images/pbt-correct.png?raw=true){400}
 - If the user's items did not accurately match the expected values, the script outputs both the user's configured settings as-tested as well as what the correct settings would have been.
     - Example output:
-        ![](../images/pbt-incorrect.png?raw=true){400}
+        ![](./images/pbt-incorrect.png?raw=true){400}
 
 ### Validation Unsuccessful
 
