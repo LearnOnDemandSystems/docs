@@ -1,16 +1,14 @@
-# Object Matching Method
-
-This sample script is designed to give you an idea for creating your own. While you can copy/paste/modify exactly as it is and it will work with many scenarios, it may not be the best format for the results you desire.  
+# Object Matching Scoring Sample (Azure PowerShell)
 
 This script contains the following sections:
-- [Define Variables](#param)
-- [Retrieve Items to Score](#trycatch)
-- [Establish Results](#function)
-- [Validate Items Exist](#validation)
-- [Scoring and Output](#scoring)
-- [Full Script](#full)
+- [Define Variables](#om-azps-param)
+- [Retrieve Items to Score](#om-azps-retrieve)
+- [Establish Results](#om-azps-function)
+- [Validate Items Exist](#om-azps-validation)
+- [Scoring and Output](#om-azps-scoring)
+- [Full Script](#om-azps-full)
 
-## Define Variables {param}
+## Define Variables {om-azps-param}
 This is the beginning of our script, in this section we outline the various variables we will use throughout the script.
 
 ```
@@ -38,7 +36,7 @@ param(
     >
     > By ensuring to use single quotes, it reduces risk of the variable not functioning as you would expect.
 
-## Retrieve Items to Score {trycatch}
+## Retrieve Items to Score {om-azps-retrieve}
 After defining any variables to be used throughout our script, we must obtain any items that may be scored. 
 
 ```
@@ -52,7 +50,7 @@ catch{}
     - This will run the commands within it, and ignore any error messages that may come out.
 - Within the "Try" section of your try/catch, contain each command within a variable so that it can be referenced later.
 
-## Establish Results {function}
+## Establish Results {om-azps-function}
 After establishing the commands needed to retrieve the items desired to score, we must establish what we desire the value of those items to be and what the user's configuration of those items are.
 
 ```
@@ -78,7 +76,7 @@ function Item-Details{
 - Values for the user's configuration all reference the item(s) we identified and stored in a variable in our last section. We then extract sub-properties that we will specifically be scoring.
 - The values for the correct item are what we expect those user values to be.
 
-## Validate Items Exist {validation}
+## Validate Items Exist {om-azps-validation}
 
 Now that we have established exactly what will be scored, the script must validate that the items exist.
 ```
@@ -92,13 +90,9 @@ if ($storageAccount -ne $null) {
 > if ($storageAccount -ne $null -and $virtualMachine -ne $null) {
 > ```
 
-## Scoring and Output {scoring}
+## Scoring and Output {om-azps-scoring}
 
-This section is where all the actual scoring occurs. A best practice is to keep this as consistent across your items of the same format as possible so that most of the script can be simply copy/pasted from item to item, with the only modifications needed being the few lines outlined earlier. Maintaining the same format from item to item also aids in readibility across items.
-
-Arguably more important that what your script looks like or how easy it is to read, is what your output looks like. Having verbose output that can be referenced later and easily used to identify why someone got an item correct or incorrect is important both as a data point for your scoring items as well as in the event a user disputes an item. All of the output from a script of this format begins with a simple statement that includes the Item Id and whether the user was correct or incorrect.
-
-This script performs different tasks based on if our previous validation was successful or not.
+After establishing what all of the user's settings should be, we must turn them into scored data. This section is where all the actual scoring occurs. This script performs different tasks based on if our previous validation was successful or not.
 
 ### Validation Successful
 
@@ -165,7 +159,7 @@ $result
     - Collected Errors:
         ![](https://github.com/James-Burnham/docs/blob/master/lod/pbt/images/pbt-missing-errors.png?raw=true){400}
 
-## Full Script {full}
+## Full Script {om-azps-full}
 To see all these components together in a single script, expand the section below.
 > [!KNOWLEDGE]
 >
