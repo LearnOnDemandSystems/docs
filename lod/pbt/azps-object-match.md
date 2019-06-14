@@ -126,10 +126,10 @@ After establishing what all of the user's settings should be, we must turn them 
 - If the user's items correctly match our expected values, we establish `$result = $True` and provides the user's configuration of the settings for the tested item(s).
     - `$result` is run at the end of the script and if True will inform LOD that the item was correct.
     - Example output:
-        ![](https://github.com/James-Burnham/docs/blob/master/lod/pbt/images/pbt-correct.png?raw=true){400}
+        ![](../images/pbt-correct.png?raw=true){400}
 - If the user's items did not accurately match the expected values, the script outputs both the user's configured settings as-tested as well as what the correct settings would have been.
     - Example output:
-        ![](https://github.com/James-Burnham/docs/blob/master/lod/pbt/images/pbt-incorrect.png?raw=true){400}
+        ![](../images/pbt-incorrect.png?raw=true){400}
 
 ### Validation Unsuccessful
 
@@ -155,9 +155,9 @@ $result
 ```
 1. If one or more tested items were missing, the script outputs either a generic error message if none were obtained or the actual error message of any commands that failed to run. 
     - Generic Message:
-        ![](https://github.com/James-Burnham/docs/blob/master/lod/pbt/images/pbt-missing.png?raw=true){400}
+        ![](./images/pbt-missing.png?raw=true){400}
     - Collected Errors:
-        ![](https://github.com/James-Burnham/docs/blob/master/lod/pbt/images/pbt-missing-errors.png?raw=true){400}
+        ![](./images/pbt-missing-errors.png?raw=true){400}
 
 ## Full Script {om-azps-full}
 To see all these components together in a single script, expand the section below.
