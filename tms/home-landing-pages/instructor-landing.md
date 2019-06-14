@@ -21,7 +21,7 @@
       <a class="subtopic_link" href="/tms/instructors/general/what-is-a-contract-instructor.md">
         <div class="subtopic_title">What does it mean to be a contract instructor?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-adminisrators/tms-fundamentals/admin-menu.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/admin-menu.md">
         <div class="subtopic_title">What is the Admin menu and how does it work?</div>
       </a>
       <a class="subtopic_link" href="/tms/instructors/general/reset-student-password.md">
@@ -107,7 +107,7 @@
       <a class="subtopic_link" href="/tms/instructors/general/what-is-a-contract-instructor.md">
         <div class="subtopic_title">What does it mean to be a contract instructor?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-adminisrators/tms-fundamentals/admin-menu.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/admin-menu.md">
         <div class="subtopic_title">What is the Admin menu and how does it work?</div>
       </a>
     </div>
