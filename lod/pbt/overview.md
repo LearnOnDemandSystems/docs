@@ -87,10 +87,14 @@ A best practice is to keep formats as consistent across your items of the same f
 
 While not mandatory in your own designs, all of the output from sample scripts of this format provided here begin with a simple statement that includes the Item Id and whether the user was correct or incorrect.
 
+The Object Matching Method and the output associated with it is a bit more complex than the If Statement Method, but also tends to be more verbose and reports better information for logging purposes.
+
 - ^INSTRUCTIONS[PowerShell Sample - Azure Storage Account](./azps-object-match.md)
 <!-- - ^INSTRUCTIONS[PowerShell Sample - VM File Creation](./vmps-object-match.md)  -->
 
 #### **If Statement Method**
+
+The If Statement Method is the most common scoring script method and is typically easier and more flexible to implement. However, in comparison to the Object Matching Method output is typically a bit more basic and requires author definition.
 
 - ^INSTRUCTIONS[PowerShell Sample - Azure Storage Account](./azps-if-statement.md)  
 <!-- - ^INSTRUCTIONS[PowerShell Sample - VM File Creation](./vmps-if-statement.md)  -->
