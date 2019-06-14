@@ -404,50 +404,52 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 - **Code Block Modifiers**
     
-    
-    ~~~No_code_highlighting,_copyable
+    - Prevents code from being highlighted.
+
+    ~~~
       ```powershell-nocolor
       Code Block
       ```
     ~~~
-    - Prevents code from being highlighted.
+    
+    - Prevents the code block from rendering with a tab that displays the language used.
 
-  ~~~No_tab_on_code_block,_code_highlighted,_copyable
+  ~~~
    ```powershell-notab
    Code Block
    ```
    ~~~
-    - Prevents the code block from rendering with a tab that displays the language used.
 
-    ~~~No_code_highlighting,_no_tab,_not_copyable
+    - Prevents the code block from being highlighted, no language tab and is not copyable
+    ~~~
     ```powershell-nocode
     code block
     ```
     ~~~
-    - Prevents the code block from being highlighted, no language tab and is not copyable
+    
+    - Code is highlights but is not copyable.
 
-    ~~~Code_highlighted,_not_copyable
+    ~~~
    ```PowerShell-nocopy
    code block
    ```
    ~~~
-   - Code is highlights but is not copyable.
 
 <!--
-    ~~~Code_highlighted,_copyable
+    - Multi line commands wrap to the next line.
+
    ```PowerShell-wrap
    code block
    ```
    ~~~
-   - Multi line commands wrap to the next line.
-
-    ~~~Code_highlighted,_copyable
+   
+    - Adds line numbers in the code block.
+    
    ```PowerShell-linenums
    code block
    ```
    ~~~
-   - Adds line numbers in the code block.
-
+   
 -->
 
 ### Link formatting
