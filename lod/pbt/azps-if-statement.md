@@ -116,10 +116,10 @@ Evaluate
 - Lastly we output any evidence retrieved along the way and our result variable value to mark the item correct or incorrect.
     - If the user's configuration was correct they will receive only the success message as output.
     - Example Output:
-        ![](../images/if-azps-correct.png?raw=true){400}
+        ![](./images/if-azps-correct.png?raw=true){400}
     - If the user's configuration was incorrect, they will receive the evidence we collected as output.
     - Example Output:    
-        ![](../images/if-azps-incorrect.png?raw=true){400}
+        ![](./images/if-azps-incorrect.png?raw=true){400}
         
 ## Full Script {om-azps-full}
 To see all these components together in a single script, expand the section below.
