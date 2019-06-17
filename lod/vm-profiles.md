@@ -99,8 +99,6 @@ To create a Virtual Machine profile, click **Create Virtual Machine profile** fr
 
     - **Hardware Version**: Select the hardware version that the VM will use. Each hardware version allows for more features to be available to the guest operating system. Some features may not be available on older hardware versions, such as nested virtualization. For learn more about VMware hardware features, read [VMware documentation on hardware features](https://docs.vmware.com/en/VMware-vSphere/6.7/com.vmware.vsphere.vm_admin.doc/GUID-789C3913-1053-4850-A0F0-E29C3D32B6DA.html).
     
-   
-
     - **Operating System**: Select the operating system that the VM will use.
 
     - **Username**: Enter a username for the VM.
