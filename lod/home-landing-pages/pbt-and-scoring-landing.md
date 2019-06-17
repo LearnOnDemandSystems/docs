@@ -26,6 +26,10 @@
         <div class="subtopic_title">SSH Terminal Access</div>
         <div class="subtopic_description">Configure virtual machines for SSH terminal access, to target virtual machines for activity based assessments.</div>
       </a>
+      <a class="subtopic_link" href="/lod/pbt/overview.md">
+        <div class="subtopic_title">Lab on Demand Scoring</div>
+        <div class="subtopic_description">The Lab on Demand platform supports the ability to score users either in an exam/quiz format or within a hands-on lab.</div>
+      </a>
     </div>
   </div>
   <div class="subtopic">
