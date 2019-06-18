@@ -164,7 +164,7 @@
       </a>
       <a class="subtopic_link" href="/lod/pbt/overview.md">
          <div class="subtopic_title">PBT Overview</div>
-         <div class="subtopic_description">Overview of Lab on Demand supported scoring methods</div>
+         <div class="subtopic_description">Overview of Lab on Demand supported scoring methods.</div>
       </a>
       <a class="subtopic_link" href="/lod/feature-focus/cloud-resource-templates/replacement-tokens.md">
         <div class="subtopic_title">Replacement Tokens</div>
