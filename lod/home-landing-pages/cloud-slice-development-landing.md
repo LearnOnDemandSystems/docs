@@ -18,7 +18,7 @@
   <div class="subtopic selected">
     <div class="subtopic_header" tabindex="0" title="Amazon Web Services Cloud Slice Development Docs" role="button" aria-selected="true" selected>Amazon Web Services Cloud Slice Development</div>
     <div id="body_1" class="subtopic_links">
-      <a class="subtopic_link" href="aws-capabilities.md">
+      <a class="subtopic_link" href="/lod/aws-capabilities.md">
         <div class="subtopic_title">Amazon Web Services API Capabilities</div>
         <div class="subtopic_description">A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation. Below the table is a brief description for each service name.</div>
       </a>
