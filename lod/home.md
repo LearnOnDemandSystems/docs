@@ -13,8 +13,8 @@
       <div class="category">
         <a href="/lod-api/lod-api-main.md" class="categoryThread">
           <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
-          <span class="categoryTitleFeatured" title="API Documentation">IDLx Lab Development Best Practices</span>
-          <span class="categoryDescription" title="Documentation on how and when to use the Lab on Demand API.">This document covers best practices for IDLx lab development, to assist in creating a rich learning experience.</span>
+          <span class="categoryTitleFeatured" title="API Documentation">API Documentation</span>
+          <span class="categoryDescription" title="Documentation on how and when to use the Lab on Demand API.">Documentation on how and when to use the Lab on Demand API.</span>
         </a>
       </div>
       <div class="category"> 
