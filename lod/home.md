@@ -18,17 +18,17 @@
         </a>
       </div>
       <div class="category"> 
-        <a href="/lod/feature-focus/lod-experience.md" class="categoryThread">
+        <a href="/lod/pbt/overview.md" class="categoryThread">
           <i class="material-icons blue" aria-hidden="true">bookmarks</i>
-          <span class="categoryTitleFeatured" title="Introduction to Lab on Demand UI">Introduction to Lab on Demand UI</span>
-          <span class="categoryDescription" title="Explanation of Lab on Demand UI.">Explanation of Lab on Demand UI.</span>
+          <span class="categoryTitleFeatured" title="PBT Overview</span>
+          <span class="categoryDescription" title="Overview of Lab on Demand supported scoring methods."</span>
         </a>
       </div>
       <div class="category">
-        <a href="/guides/cloud-slice/microsoft-azure/cloud-slice-find-resource-templates.md" class="categoryThread">
+        <a href="/lod/terminal-access.md" class="categoryThread">
           <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
-          <span class="categoryTitleFeatured" title="Azure Resource Templates">Azure Resource Templates</span>
-          <span class="categoryDescription" title="How to find Azure Resource Manager templates for use with Microsoft Azure.">How to find Azure Resource Manager templates for use with Microsoft Azure.</span>
+          <span class="categoryTitleFeatured" title="SSH Terminal Access</span>
+          <span class="categoryDescription" title="Configure virtual machines for SSH terminal access.">Configure virtual machines for SSH terminal access.</span>
         </a>
       </div>
       <div class="viewAll"><a href="/lod/home-landing-pages/featured-landing.md" tabindex="0" class="viewAllLink" title="View all" aria-label="View all Featured Posts">View all</a></div>
