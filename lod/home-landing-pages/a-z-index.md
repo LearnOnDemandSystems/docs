@@ -22,7 +22,7 @@
         <div class="subtopic_title">Access Control Lists</div>
         <div class="subtopic_description">Controls which websites can be accessed in the lab, by using blacklists and whitelists.</div>
       </a>
-      <a class="subtopic_link" href="/lod/aws-capabilities.md">
+      <a class="subtopic_link" href="lod/aws-capabilities.md">
         <div class="subtopic_title">Amazon Web Services API Capabilities</div>
         <div class="subtopic_description">A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation. Below the table is a brief description for each service name.</div>
       </a>
@@ -30,7 +30,7 @@
         <div class="subtopic_title">API Best Practices and How to Use an API Consumer</div>
         <div class="subtopic_description">Guides through the steps to configure an API Consumer in LOD, as well as best practices.</div>
       </a>
-      <a class="subtopic_link" href="/lod-api/lod-api-main.md">
+      <a class="subtopic_link" href="lod-api/lod-api-main.md">
         <div class="subtopic_title">API Documentation</div>
         <div class="subtopic_description">Documentation on how and when to use the Lab on Demand API.</div>
       </a>
