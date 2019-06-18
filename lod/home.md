@@ -2,6 +2,12 @@
     h1:first-of-type {margin-top:0;}
 </style>
 
+ <div class="moreInfo" tabindex="0" title="Need more information?">
+    <span class="moreInfo_header">LODS Roadmap</span>
+    Review our <a href="https://www.learnondemandsystems.com/development-roadmap" title="Roadmap">Roadmap</a> and sign up to receive e-mail notifications of all platform and service updates as they are announced. 
+  </div>
+</div>
+
 <div class="categories">
   
   <!-- Begin featured posts section.. 
@@ -215,8 +221,3 @@
     <span class="moreInfo_header">Looking for more information?</span>
     If you've already read through all of the documentation that is available on a topic, and you are still looking for more information, or have questions, check out the resources available to you on our <a href="/contact-us.md" title="Contact Us">Contact Us</a> page.
   </div>
-  <div class="moreInfo" tabindex="0" title="Need more information?">
-    <span class="moreInfo_header">LODS Roadmap</span>
-    Review our <a href="https://www.learnondemandsystems.com/development-roadmap" title="Roadmap">Roadmap</a> and sign up to receive e-mail notifications of all platform and service updates as they are announced. 
-  </div>
-</div>
