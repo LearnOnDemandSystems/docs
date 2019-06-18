@@ -109,9 +109,9 @@
           </a>
         </div>
         <div class="category">
-          <a href="terminal-access.md" class="categoryThread">
+          <a href="/lod/pbt/overview.md" class="categoryThread">
             <i class="material-icons blue" aria-hidden="true">assessment</i>
-            <span class="categoryTitle" title="SSH Terminal Access">SSH Terminal Access</span>
+            <span class="categoryTitle" title="PBT Overview">PBT Overview</span>
           </a>
         </div>
         <div class="category">
