@@ -171,9 +171,9 @@
           </a>
         </div>
         <div class="category">
-          <a href="/lod/lab-interface-faq.md" class="categoryThread">
+          <a href="/lod/vm-profiles.md" class="categoryThread">
             <i class="material-icons light-blue" aria-hidden="true">account_box</i>
-            <span class="categoryTitle" title="Lab Interface Frequently Asked Questions">Lab Interface Frequently Asked Questions</span>
+            <span class="categoryTitle" title="Virtual Machine Profile Creation and Explanation">Virtual Machine Profile Creation and Explanation</span>
           </a>
         </div>
         <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-admin-landing.md" title="View all" aria-label="View all Lab on Demand Administration Docs">View all</a></div>
