@@ -1,10 +1,10 @@
 <!-- 
     Adding new documents!
     1. Duplicate the following:
-        <a class="subtopic_link" href="insert_document_link_here*">
-            <div class="subtopic_title">insert_document_title here</div>
-            <div class="subtopic_description">insert_document_description_here</div>
-        </a>
+      <a class="subtopic_link" href="insert_document_link_here*">
+         <div class="subtopic_title">insert_document_title here</div>
+         <div class="subtopic_description">insert_document_description_here</div>
+      </a>
     2. Replace:
         href link with your document's link
         subtopic_title text with your document's title
@@ -161,6 +161,10 @@
       <a class="subtopic_link" href="org-max-ram.md">
         <div class="subtopic_title">Organization RAM Limits</div>
         <div class="subtopic_description">Max RAM usage, max active lab instances and max RAM per lab profile.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/pbt/overview.md">
+         <div class="subtopic_title">PBT Overview</div>
+         <div class="subtopic_description">Overview of Lab on Demand supported scoring methods</div>
       </a>
       <a class="subtopic_link" href="/lod/feature-focus/cloud-resource-templates/replacement-tokens.md">
         <div class="subtopic_title">Replacement Tokens</div>
