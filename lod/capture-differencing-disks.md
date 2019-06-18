@@ -35,7 +35,7 @@ To capture a differencing disk:
 >[!alert] All impacted virtual machines will be shut down during the save procedure and restarted after the save is complete.
 
 <!--
-## Differencing Disk Management and Best Practices
+## Differencing Disk Management 
 
 Lab developers have options for managing differencing disks. They can delete, rename or move files associated with the differencing disks.
 
@@ -46,3 +46,39 @@ To manage differencing disk files:
 1. Click [insert where to click here] and drill down to the disks and files you wish to manage. 
 
 -->
+
+## Best Practices and Recommendations 
+
+### Reduce Capture Time and Disk Size
+
+- Begin working with a VM that has no differencing disks captured already. 
+
+- Make a checklist of all configuration items you need to accomplish, from installing the OS, to configuring all the software the lab will need to support. 
+
+- Capture a complete configuration. Capturing a diff after every small change made in the lab is inefficient  (unless the only change needed is a small one).
+
+    >[!knowledge] When capturing several differencing disks, this can cause the chain of disks to become very long. Long disk chains can impact I/O performance in the VM. It is recommended to have a maximum of 3 disks per chain, where possible. Capturing the first disk will result in one parent disk and a single child disk. 
+
+- Don't leave the VM running for hours, and then capturing. This will increase the size of the disk and could affect VM performance. 
+
+
+### Virtual Machine Optimization
+
+- Ensure the base VM is optimized, to reduce the size of captured differencing disks. This can be done by completing as much configuration and/or changes as possible, before capturing the first differencing disk. 
+
+- Optimizing your VM using Virtual Desktop Infrastructure (VDI) principles, guidelines, and tools will help improve the performance of your VM. There are many tools available, to assist in optimization. The most common VDI tools are:
+
+    - [Citrix Optimizer](https://support.citrix.com/article/CTX224676?download)
+
+    - [VMware OS Optimization Tool](https://labs.vmware.com/flings/vmware-os-optimization-tool)
+
+- After installing the operating system and completing software configurations, you should consider using a second differencing disk capture for any files needed in the lab. If you need to add or remove these files later, you will be making changes to a much smaller disk. Additionally, this allows you to use the disk in different lab profiles that may need to use those lab files. 
+
+- Manually shut down the VM before capturing a differencing disk.
+
+    - When capturing a differencing disk, part of the automated process shuts down the VM before capturing the differencing disk. In some scenarios, a processes in Windows (such as Windows updates) could prevent a graceful shutdown of the VM, and cause the disk capture to time out. 
+
+
+
+
+

@@ -1,4 +1,32 @@
+<style>
+    h1:first-of-type {margin-top:0;}
+</style>
+ 
+<div style="float:right; padding-top:5px; font-size:120%;">
+   <a href="https://lods.one/updates">Subscribe to Receive Email Notifications about Platform and Service Updates</a>
+</div>
+
 # What's New in Lab On Demand
+
+## **Release June 7, 2019**
+
+**Bug Fixes and Improvements**
+
+- Fixed a bug that would prevent files from being deleted from a class after the instructor deleted the file from the Share Files section of the Monitor Labs page.
+
+- Fixed a bug that caused the AWS region selection drop-down menu to display incorrectly on the virtual machine tab of a lab profiles, when using Internet Explorer. 
+
+## **Released May 31, 2019**
+
+**VM Based Labs Landing Page**
+
+- Lab profiles that have virtual machines but are not visible to the student can now be configured to a specific landing page instead of a blank VM window. The landing page is configured in the cloud tab, and can be configured to any URL. For more information about setting this up, read [VM Based Lab Landing Page](/lod/vm-based-lab-landing-page.md).
+
+**Bug Fixes and Improvements**
+
+- Fixed a bug that prevented nested task lists from rendering markdown properly in IDLx instructions. 
+
+- Labs that use AWS virtualization now require an AWS region to be selected before saving the lab profile.
 
 ## **Released May 24, 2019**
 

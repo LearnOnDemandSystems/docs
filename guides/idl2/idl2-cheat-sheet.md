@@ -87,28 +87,41 @@ get-service | stop-service -whatif
 
 No code highlighting, copyable
 
-    ```powershell-nocolor
+    ```PowerShell-nocolor
     Code Block
     ```
 
 No tab on code block, code highlighted, copyable
 
-    ```powershell-notab
+    ```PowerShell-notab
     Code Block
     ```
 
 No code highlighting, no tab, not copyable
 
-    ```powershell-nocode
+    ```PowerShell-nocode
     Code Block
     ```
 
 Code highlighted, not copyable
 
-    ```powershell-nocopy
+    ```PowerShell-nocopy
     Code Block
     ```
+<!--
+Code_highlighted, copyable, multi line command wraps to the next line
 
+    ```PowerShell-wrap
+    Code Block
+    ```
+  
+
+ Code_highlighted, copyable, line numbers added to each line
+
+    ```PowerShell-linenums
+    Code Block
+    ```
+-->
 ---
 <font size="3">**Reference Instruction Block**</font>
  
@@ -177,44 +190,22 @@ Multi-Line
 [1]: URL "Optional link title"
 ```
 ---
-<font size="3">**List Formatting**</font>
+<font size="3">**Tasks**</font>
 
-Lists **without** checkboxes:       
-```Unordered_List
-- Item 1
-    - Item 1.1
-        - Item 1.1.1
-        - Item 1.1.2
-    - Item 1.2
-- Item 2
-```
-```Ordered_List
-1. Item 1
-    1. Item 1.1
-        1. Item 1.1.1
-        1. Item 1.1.2
-    1. Item 1.2
-1. Item 2
-```
-
-Lists **with** checkboxes
-
-```Unordered_List
+```Unordered_Task_List
 - [] Item 1
-    - [] Item 1.1
-        - [] Item 1.1.1
-        - [] Item 1.1.2
-    - [] Item 1.2
 - [] Item 2
+- [] Item 3
+- [] Item 4
+- [] Item 5
 ```
 
-```Ordered_List
+```Ordered_Task_List
 1. [] Item 1
-    1. [] Item 1.1
-        1. [] Item 1.1.1
-        1. [] Item 1.1.2
-    1. [] Item 1.2
 1. [] Item 2
+1. [] Item 3
+1. [] Item 4
+1. [] Item 5
 ```
 
 ---
