@@ -11,7 +11,7 @@
   <div class="cardContainerFull">
     <div class="cardContent">
       <div class="category">
-        <a href="/lod-api/lod-api-main.md" class="categoryThread">
+        <a href="lod-api/lod-api-main.md" class="categoryThread">
           <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
           <span class="categoryTitleFeatured" title="API Documentation">API Documentation</span>
           <span class="categoryDescription" title="Documentation on how and when to use the Lab on Demand API.">Documentation on how and when to use the Lab on Demand API.</span>
