@@ -39,6 +39,11 @@
         <div class="subtopic_title">Access Control Lists</div>
         <div class="subtopic_description">Controls which websites can be accessed in the lab, by using blacklists and whitelists.</div>
       </a>
+      </a>
+      <a class="subtopic_link" href="/lod/create-removable-media.md">
+        <div class="subtopic_title">Create Removable Media</div>
+        <div class="subtopic_description">Removable Media to be used with virtual machines.</div>
+      </a>
       <a class="subtopic_link" href="/lod/uuid.md">
         <div class="subtopic_title">Custom UUID on VMware Virtual Machines</div>
         <div class="subtopic_description">Assign a custom unique ID to a virtual machine hosted on a VMware host.</div>
@@ -70,7 +75,6 @@
       <a class="subtopic_link" href="/lod/life-cycle-actions.md">
         <div class="subtopic_title">Life Cycle Actions</div>
         <div class="subtopic_description">Define actions to occur at certain times within the lab's life cycle, such as calling an external service when the lab builds, or sending a notification to the user when the lab is resumed.</div>
-      </a>
       <a class="subtopic_link" href="/guides/sl/sharedlabs.md">
         <div class="subtopic_title">Shared Labs (a.k.a. Cyber-Range)</div>
         <div class="subtopic_description">Configure a Shared Lab environment.</div>
@@ -90,10 +94,6 @@
       <a class="subtopic_link" href="/lod/vm-based-lab-landing-page.md">
         <div class="subtopic_title">Virtual Machine Based Landing Page Instead of VM</div>
         <div class="subtopic_description">Configure a lab to hide the VM from student view and display a specified URL instead.</div>
-      </a>
-      <a class="subtopic_link" href="/lod/create-removable-media.md">
-        <div class="subtopic_title">Create Removable Media</div>
-        <div class="subtopic_description">Removable Media to be used with virtual machines.</div>
       </a>
     </div>
   </div>
