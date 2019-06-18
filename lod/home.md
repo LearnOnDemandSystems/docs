@@ -17,7 +17,6 @@
           <span class="categoryDescription" title="Documentation on how and when to use the Lab on Demand API.">Documentation on how and when to use the Lab on Demand API.</span>
         </a>
       </div>
-      <div class="cardContent">
       <div class="category"> 
         <a href="/lod/pbt/overview.md" class="categoryThread">
           <i class="material-icons blue" aria-hidden="true">bookmarks</i>
