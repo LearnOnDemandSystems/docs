@@ -178,7 +178,7 @@
         <div class="subtopic_title">SSH Terminal Access</div>
         <div class="subtopic_description">Configure virtual machines for SSH terminal access.</div>
       </a>
-      <a class="subtopic_link" href="lod-themes.md">
+      <a class="subtopic_link" href="/lod/lod-themes.md">
         <div class="subtopic_title">Themes</div>
         <div class="subtopic_description">Create themes to customize the look and feel of labs using CSS, and JavaScript.</div>
       </a>
