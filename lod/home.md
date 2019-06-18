@@ -20,14 +20,14 @@
       <div class="category"> 
         <a href="/lod/pbt/overview.md" class="categoryThread">
           <i class="material-icons blue" aria-hidden="true">bookmarks</i>
-          <span class="categoryTitleFeatured" title="PBT Overview</span>
+          <span class="categoryTitleFeatured" title="PBT Overview">PBT Overview</span>
           <span class="categoryDescription" title="Overview of Lab on Demand supported scoring methods.">Overview of Lab on Demand supported scoring methods.</span>
         </a>
       </div>
       <div class="category">
         <a href="/lod/terminal-access.md" class="categoryThread">
           <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
-          <span class="categoryTitleFeatured" title="SSH Terminal Access</span>
+          <span class="categoryTitleFeatured" title="SSH Terminal Access">SSH Terminal Access</span>
           <span class="categoryDescription" title="Configure virtual machines for SSH terminal access.">Configure virtual machines for SSH terminal access.</span>
         </a>
       </div>
