@@ -66,7 +66,7 @@
         <div class="subtopic_title">Create an Access Control Policy</div>
         <div class="subtopic_description">Create a Cloud Access Control Policy.</div>
       </a>
-      <a class="subtopic_link" href="test/create-Removable-media.md">
+      <a class="subtopic_link" href="/lod/create-Removable-media.md">
         <div class="subtopic_title">Create Removable Media</div>
         <div class="subtopic_description">Removable Media to be used with virtual machines.</div>
       </a>
