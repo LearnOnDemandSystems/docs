@@ -6,7 +6,6 @@
     <span class="moreInfo_header">LODS Roadmap</span>
     Review our <a href="https://www.learnondemandsystems.com/development-roadmap" title="Roadmap">Roadmap</a> and sign up to receive e-mail notifications of all platform and service updates as they are announced. 
   </div>
-</div>
 
 <div class="categories">
 
