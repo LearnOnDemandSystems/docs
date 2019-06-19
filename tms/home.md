@@ -236,7 +236,7 @@
   </div>
 
   <div class="administratorCategory userTypeSection">
-  <div class="categoriesHeader" tabindex="0" title="Featured Posts" aria-label="Featured Admin Docs">Featured posts</div>
+  <div class="categoriesHeader" tabindex="0" title="Featured Posts" aria-label="Featured Admin Docs">Featured</div>
     <div class="cardContainerFull">
       <div class="cardContent">
         <div class="category">
