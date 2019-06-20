@@ -36,7 +36,7 @@
   <!-- ..End featured posts section -->
   
   <!-- Begin categories section.. -->
-  <div class="categoriesHeader" tabindex="0" title="Document Categories">Categories</div>
+  <div class="categoriesHeader categoriesHeaderSub" tabindex="0" title="Document Categories">Categories</div>
   <div class="cardsContainer">
 
     <!-- Card - Cloud Slice Lab Development 
