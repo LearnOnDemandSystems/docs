@@ -7,7 +7,7 @@
 <div class="platformContainer">
   <div id="tmsContainer" class="cardContainer">
     <div id="tms" class="trueHome cardContent" title="TMS">
-      <a href="/tms/home.md">Training Management Studio</a>
+      <a href="/tms/home.md">Training Management Systems</a>
       <p>Manage your users and schedule training to consume content.</p>
     </div>
   </div>
