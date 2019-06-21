@@ -22,7 +22,7 @@ Next, you should decide what type of Activity you would like to create -- Questi
 
 Click to go to a specific section, or continue reading to learn more about creating Activities in your lab. 
 
-- [Automated Activity](#automated-activity)
+- [Automated Activity](#automated-activities)
     - [Automated Activity Syntax](#automated-activity-syntax)
     - [Automated Activity Creation](#automated-activity-creation)
     - [Automated Activity Output](#automated-activity-output)
