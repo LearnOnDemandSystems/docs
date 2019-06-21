@@ -403,6 +403,8 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
     ![](images/fenced-code-block.png "Fenced Code Block")
 
 - **Code Block Modifiers**
+
+    Code block modifiers change the way that code blocks are displayed. The below syntax can be used with or without a language directive. Simple leave out the language directive and only include the code block modifier.
     
     - Prevents code from being highlighted.
 
