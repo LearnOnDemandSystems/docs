@@ -431,8 +431,6 @@ There are two methods to return a scoring result from an automated activity.
 - **A binary value**: a value indicating pass or fail. A binary result allows for very simple script authoring. A binary result from a script means that the score value defined in the activity will be used. If the activity is completed correctly, the student will receive the score value defined in the LOD instructions editor for the activity. 
     - If the last value encountered in the script output is a **true** value, then the script will be considered to have **passed** and the student will receive the score value of the activity. 
     - If the last value encountered in the script output is a **false** value, then the script will be considered to have **failed** and the student will not receive the score value of the activity.
-    
-
 
 - **Explicit Score Value** Set score in the script for more complex scenarios. This method requires knowledge about scripting languages, such as PowerShell or Bash. An explicit value in a script means that the score value for each script is defined in the script itself, or multiple scores can be configured for each part of the script that is completed correctly. The score value is set in the script using [Automated Activity Syntax](#automated-activity-syntax). An explicit score value can be given after each section of the script that should be scored or at the end of a script. 
 
