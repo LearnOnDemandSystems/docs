@@ -8,6 +8,24 @@
 
 # What's New in Lab On Demand
 
+## **Release June 21, 2019**
+
+**IDLx Improvements**
+
+- Code blocks that contain multi line commands will now wrap to the next line, by adding `-wrap` when declaring the code block language. For instance `PowerShell-wrap`.
+
+- Line numbers can now be added to code blocks, by adding `-linenums` when declaring the code block language. For instance `PowerShell-linenums`.
+
+**Bug Fixes and Improvements**
+
+- Fixed a bug that caused @lab replacement tokens not to render in a lab when they were added to the lab instructions using a Markdown include from a GitHub RAW file. 
+
+- Fixed a bug that caused users to be unable to be able to view subscription pool pages, unless they had a permission to view credential pool pages. 
+
+- Fixed an issue that would cause some characters in a cloud credential to render as HTML. `&gt` was rendering as `>` when those characters were displayed in a lab as cloud credentials.
+
+- Fixed a bug that would cause some developer files uploads to fail.
+
 ## **Release June 7, 2019**
 
 **Bug Fixes and Improvements**
