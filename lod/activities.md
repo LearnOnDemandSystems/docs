@@ -423,11 +423,32 @@ To enable Scoring in your lab:
 
 1. The student will be given the score value upon completing the Activity correctly. 
 
+### Scoring Methods
+
+There are two methods to return a scoring result from an automated activity.
+
+- **A binary value**: a value indicating pass or fail. A binary result allows for very simple script authoring. A binary result from a script means that the score value defined in the activity will be used. If the activity is completed correctly, the student will receive the score value defined in the LOD instructions editor for the activity. 
+    - If the last value encountered in the script output is a **true** value, then the script will be considered to have **passed** and the student will receive the score value of the activity. 
+    - If the last value encountered in the script output is a **false** value, then the script will be considered to have **failed** and the student will not receive the score value of the activity.
+
+- **Explicit Score Value** Set score in the script for more complex scenarios. This method requires knowledge about scripting languages, such as PowerShell or Bash. An explicit value in a script means that the score value for each script is defined in the script itself, or multiple scores can be configured for each part of the script that is completed correctly. The score value is set in the script using [Automated Activity Syntax](#automated-activity-syntax). An explicit score value can be given after each section of the script that should be scored or at the end of a script. 
+
+#### Example Scoring Methods
+
+Binary example explanation
+
+`Binary example`
+
+Explicit score value
+
+`explicit score value example`
+
+
 ### Partial Scoring
 
-Partial scoring allows a student to recieve partial credit for a task in the lab, instead of the score being all or nothing. 
+Partial scoring allows a student to receive partial credit for a task in the lab, instead of the score for the question being all or nothing. 
 
-For example, if the lab instructions had a task to create a directory and name it "MyDirectory", and the student created the directory but didn't name it properly -- they could recieve partial credit for creating the directory, even though they didn't name it properly. 
+For example, if the lab instructions had a task to create a directory and name it "MyDirectory", and the student created the directory but didn't name it properly -- they could receive partial credit for creating the directory, even though they didn't name it properly. 
 
 Partial scoring is achieved with automated Activities in IDLx. To configure partial scoring for the example above:
 
@@ -439,6 +460,7 @@ Partial scoring is achieved with automated Activities in IDLx. To configure part
 1.  Click _New Script_.
 1. In the **Script 2** field, enter a PowerShell script to verify the directory is named properly. 
 1. Assign a score value for script 2. This will be the partial score the student will receive if the directory is name properly.
+1. Alternatively, the score value can be set for the activity using the `Set-ActivityResult` syntax discussed in the previous section. 
 
 ### Performance Based Testing 
 
