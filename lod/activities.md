@@ -34,6 +34,7 @@ Click to go to a specific section, or continue reading to learn more about creat
     - [Short Answer Question](#short-answer-questions)
 - [Scoring](#scoring)
     - [Performance Based Testing](#performance-based-testing)
+    - [Scoring Methods](#scoring-methods)
 - [Activity Management](#activity-management)
 
 ## Automated Activities 
