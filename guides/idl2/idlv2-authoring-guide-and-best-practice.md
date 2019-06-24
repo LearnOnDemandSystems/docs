@@ -437,23 +437,22 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
    ```
    ~~~
 
-<!--
-    - Multi line commands wrap to the next line.
 
+    - Multi line commands wrap to the next line.
+    
+    ~~~
    ```PowerShell-wrap
    code block
    ```
    ~~~
    
     - Adds line numbers in the code block.
-    
+    ~~~
    ```PowerShell-linenums
    code block
    ```
    ~~~
    
--->
-
 ### Link formatting
 
 - **Internal link**: Used to link to a specific section within a document. 

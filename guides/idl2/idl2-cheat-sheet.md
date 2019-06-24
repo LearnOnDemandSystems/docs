@@ -108,7 +108,7 @@ Code highlighted, not copyable
     ```PowerShell-nocopy
     Code Block
     ```
-<!--
+
 Code_highlighted, copyable, multi line command wraps to the next line
 
     ```PowerShell-wrap
@@ -121,7 +121,7 @@ Code_highlighted, copyable, multi line command wraps to the next line
     ```PowerShell-linenums
     Code Block
     ```
--->
+
 ---
 <font size="3">**Reference Instruction Block**</font>
  
