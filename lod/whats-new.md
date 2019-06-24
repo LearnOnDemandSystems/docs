@@ -22,7 +22,7 @@
 
 - Fixed a bug that caused users to be unable to be able to view subscription pool pages, unless they had a permission to view credential pool pages. 
 
-- Fixed an issue that would cause some characters in a cloud credential to render as HTML. `&gt` was rendering as `>` when those characters were displayed in a lab as cloud credentials.
+- Fixed an issue that would cause some characters in a cloud credential to render as HTML. `\&gt` was rendering as `>` when those characters were displayed in a lab as cloud credentials.
 
 - Fixed a bug that would cause some developer files uploads to fail.
 
