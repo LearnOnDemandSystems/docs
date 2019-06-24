@@ -422,7 +422,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
    ```
    ~~~
 
-    - Prevents the code block from being highlighted, no language tab and is not copyable
+    - Prevents the code block from being highlighted, no language tab and is not copyable.
     ~~~
     ```powershell-nocode
     code block
