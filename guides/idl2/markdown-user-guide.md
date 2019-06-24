@@ -104,9 +104,10 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
    ```
    ~~~
    
-<!--
+
     - Multi line commands wrap to the next line.
 
+    ~~~
    ```PowerShell-wrap
    code block
    ```
@@ -114,12 +115,13 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
    
     - Adds line numbers in the code block.
     
+    ~~~
    ```PowerShell-linenums
    code block
    ```
    ~~~
    
--->
+
 [Return to Markdown formatting](#markdown-supports-the-following-types-of-formatting)
 
 ## Link formatting
