@@ -96,11 +96,11 @@ To use network features, such as external internet access or communication betwe
 
     - **Wait for heartbeat before displaying to user**: When this is enabled, the lab client will not display the lab to the user until the virtual machine reports a heartbeat to the virtualization platform. This is useful if you want to prevent the user from accessing the lab before critical machines are up and running. 
     
-        **Note**: this feature requires the VM to have Hyper-V integration services installed on Hyper-V VMs, and VMware Tools installed on a vSphere VM. Windows operating systems starting with Windows 10 and Server 2016 have Hyper-V integration services installed by default. Other operating systems require them to be installed. 
-        
-        - For more information Hyper-V Integration Services, please see the [Hyper-V Integration Services Documentation](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/integration-services).
-
-        - For more information about VMware Tools, please see the [VMware Tools Documentation](https://docs.vmware.com/en/VMware-Tools/).
+        >[!knowledge] this feature requires the VM to have Hyper-V integration services installed on Hyper-V VMs, and VMware Tools installed on a vSphere VM. Windows operating systems starting with Windows 10 and Server 2016 have Hyper-V integration services installed by default. Other operating systems require them to be installed. Additionally, on vSphere VMs, you must ensure that the user credentials in the virtual machine profile are correct (they are used to initiate the file creation in the VM).
+        >
+        >- For more information Hyper-V Integration Services, please see the [Hyper-V Integration Services Documentation](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/integration-services).
+        >
+        >- For more information about VMware Tools, please see the [VMware Tools Documentation](https://docs.vmware.com/en/VMware-Tools/).
 
     - **Synchronize system time with host**: synchronizes the VM system time with the time on the host that the VM is running on. 
 
@@ -119,8 +119,6 @@ To use network features, such as external internet access or communication betwe
             On Windows-based systems: `C:\Users\Public\Documents\LabInstance.txt`.
 
             On Unix-based systems: `/tmp/labinstance`.
-            
-        >[!knowledge] lab instance data is only available in the VM if Hyper-V Integration Services or VMware Tools are installed. Additionally, on vSphere VMs, you must ensure that the user credentials in the virtual machine profile are correct (they are used to initiate the file creation in the VM).
 
         All @lab token names and values will be included, as well as the following legacy items:
 
