@@ -8,7 +8,19 @@
 
 # What's New in Lab On Demand
 
-## **Release June 21, 2019**
+## **Released June 28, 2019**
+
+**Bug Fixes and Improvements**
+
+- VMs that are not visible to the student but have the option for "Make lab instance data available inside virtual machine" selected will no longer inject the username and password into the VM. This was done to prevent a hidden VM from being tampered with by the student. 
+
+- When a lab profile is deleted, it is now archived instead of purged from our platform entirely. This will preserve usage data, as well as speed up the deletion process. 
+
+- Improved our host health check procedures to reduce the amount of time a student is stuck on the _connection lost_ screen after recovering from a network-related failure.
+
+---
+
+## **Released June 21, 2019**
 
 **IDLx Improvements**
 
@@ -26,13 +38,17 @@
 
 - Fixed a bug that would cause some developer files uploads to fail.
 
-## **Release June 7, 2019**
+---
+
+## **Released June 7, 2019**
 
 **Bug Fixes and Improvements**
 
 - Fixed a bug that would prevent files from being deleted from a class after the instructor deleted the file from the Share Files section of the Monitor Labs page.
 
 - Fixed a bug that caused the AWS region selection drop-down menu to display incorrectly on the virtual machine tab of a lab profiles, when using Internet Explorer. 
+
+---
 
 ## **Released May 31, 2019**
 
@@ -46,21 +62,25 @@
 
 - Labs that use AWS virtualization now require an AWS region to be selected before saving the lab profile.
 
+---
+
 ## **Released May 24, 2019**
 
-**AWS Improvments**
+**AWS Improvements**
 
-- Applied a minor fix for a scenario where manged AWS virtual machines could trigger the creation of clous slice roles. This was done to prevent permission errors when launching a lab that uses an AWS managed VM.
+- Applied a minor fix for a scenario where managed AWS virtual machines could trigger the creation of cloud slice roles. This was done to prevent permission errors when launching a lab that uses an AWS managed VM.
 
     ![](images/aws-logo.png){100x100}
 
 **API Documentation Link**
 
-- The API documentation link on the LOD admin homepage now points to the [API documentation in the public documentation](/lod/lod-api/lod-api-main.md), instead of the older internally hosted API documentation. This was done to keep API documentation consisten, when accessed from multiple locations. If you have the API documentation bookmarked, you will be redirected to the new location. 
+- The API documentation link on the LOD admin homepage now points to the [API documentation in the public documentation](/lod/lod-api/lod-api-main.md), instead of the older internally hosted API documentation. This was done to keep API documentation consistent, when accessed from multiple locations. If you have the API documentation bookmarked, you will be redirected to the new location. 
 
 **Lab Client Service**
 
 - A new set of backend services have been deployed for the lab delivery front-end. This was done to improve platform performance, as well as scalability improvements. **This will not change the behavior or features available in any labs**.
+
+---
 
 ## **Released May 23, 2019**
 
@@ -92,6 +112,8 @@
 
 **Update to SSH Command Proxy**
 - Updates and improvements have been made to the SSH command proxy in LOD, to allow ABA scripts to be used in newer versions of Linux.
+
+---
 
 ## **Released May 11, 2019**
 
@@ -126,6 +148,8 @@
 
     Should your Organization choose to not align this permission with a user account in LOD, requests to publish lab series on your behalf will become a billable service.
 
+---
+
 ## **Released May 3, 2019**
 
 **Lab Series - Max instances per lab user** 
@@ -150,6 +174,7 @@
 - Fixed a bug that would cause IDLx instructions to be checked out after editing. This was caused by a change in Google Chrome. 
 - The magnification control slider in IDLx labs now shows a label when hovering over it with the mouse cursor. 
 
+---
 
 ## **Released April 12, 2019**
 
