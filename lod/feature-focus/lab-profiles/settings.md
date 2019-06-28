@@ -119,6 +119,8 @@ To use network features, such as external internet access or communication betwe
             On Windows-based systems: `C:\Users\Public\Documents\LabInstance.txt`.
 
             On Unix-based systems: `/tmp/labinstance`.
+            
+        >[!knowledge] lab instance data is only available in the VM if Hyper-V Integration Services or VMware Tools are installed. Additionally, on vSphere VMs, you must ensure that the user credentials in the virtual machine profile are correct (they are used to initiate the file creation in the VM).
 
         All @lab token names and values will be included, as well as the following legacy items:
 
@@ -142,7 +144,7 @@ To use network features, such as external internet access or communication betwe
 
         - Tag (an optional value that can be passed in via the Launch API)
 
-            **Note**: that this will only work for if Hyper-V Integration Services or VMware Tools are installed. Additionally, on vSphere VMs, you must ensure that the user credentials in the virtual machine profile are correct (they are used to initiate the file creation in the VM).
+        >[!knowledge] If the VM is hidden from the student, the lab instance data will have the username and password for the VM removed, when viewing lab instance data from other VMs in the lab. This prevents a hidden VM from being tampered with by the student. 
 
     - **Resume Order**: Used when resuming from save and launching from a start state.
 
