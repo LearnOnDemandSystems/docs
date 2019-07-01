@@ -179,7 +179,7 @@ As a best practice the API key should **never** be exposed to client side code. 
 
 1. An ajax call is made to the customer-owned service, or learning management system.
 
-1. The customer-owned services makes a Launch API call and receives the lab URL from Lab on Demand. 
+1. The customer-owned service makes a Launch API call and receives the lab URL from Lab on Demand. 
 
 1. The ajax call returns to the browser and includes the lab URL.
 
