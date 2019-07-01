@@ -3,9 +3,6 @@
 
 
 1. [How to use and Set Up an API Consumer in Lab on Demand](#how-to-use-and-set-up-an-api-consumer-in-lab-on-demand)
-    - [Lab Series](#lab-series)
-    - [Lab Profile](#lab-profile)
-    - [Organization Profile](#organization-profile)
 1. [How to Make an API Request](#how-to-make-an-api-request)
     - [API Request Format](#api-request-format)
     - [API Testing Tools](#api-testing-tools)
@@ -20,15 +17,19 @@ To obtain API Consumer access, please [submit a support ticket](https://lod.one/
 
 If you already have API Consumer access, and would like to use an API consumer with Lab on Demand (LOD), you must configure the API on the lab profile, lab series, and the organization profile that will be used with API calls. For more information on how the API can be used, have a look at our [API Documentation](lod-api/lod-api-main.md). 
 
-- [Lab Series](#lab-series)
-- [Lab Profile](#lab-profile)
-- [Organization Profile](#organization-profile)
+- **Lab Series**: The lab series must be published to the API consumer that will be used. By publishing a lab series to an API Consumer, that API Consumer will be able to launch any current and future lab profiles that belong to that series.
 
+- **Lab Profile**: A lab profile must be associated with a lab series.
+
+- **Organization Profile**: The API Consumer needs to be made available to the organization that will use it. This should be the same organization that the lab series and lab profile belong to. 
+
+<!--
 ### Lab Series
 
 The lab series must be published to the API consumer that will be used. By publishing a lab series to an API Consumer, that API Consumer will be able to launch any current and future lab profiles that belong to that series. 
 
 To publish the Lab Series, please contact our Support team at https://lod.one/help.
+
 
 ### Lab Profile
 
@@ -50,6 +51,8 @@ The API Consumer needs to be made available to the organization that will use it
 To make the API Consumer available, please contact our Support team at https://lod.one/help.
 
 Your API Consumer is now setup and is ready to use. If you would like to view the various ways you can interact with LOD via API, have a look at our [API Documentation](lod-api/lod-api-main.md).
+
+-->
 
 ## How to Make an API Request
 
