@@ -456,9 +456,9 @@ To access this menu, simply click the **Activities Icon**
 
 [Back to Top](#activities)
 
-
 > [ps-simple-explanation]:
 > **Binary**  (Simple Script (Pass/Fail)
+>
 > This sample is gauging a file's size on the Windows file system. If the file is less than 1000 bytes the user is successful, otherwise they are unsuccessful.
 
 > [ps-simple-code]:
@@ -474,6 +474,7 @@ To access this menu, simply click the **Activities Icon**
 
 > [ps-complex-explanation]:
 > **Explicit score value Example** (Complex Script - Partial Credit/Multiple Conditions)
+>
 > This sample actually reads the host entry on a Windows machine, and identifies both the hostname and any IPs associated with it. From there it validates if it has both the correct IP and hostname. With this design the user can get variable scores based on the following:
 > 
 > - Full credit if both the IP and hostname are found.
@@ -497,6 +498,7 @@ To access this menu, simply click the **Activities Icon**
 
 > [bash-simple-explanation]:
 > **Binary**  (Simple Script (Pass/Fail) 
+>
 > This sample is gauging a file's size on the linux file system. If the file is less than 1000 bytes the user is successful, otherwise they are unsuccessful.
 
 > [bash-simple-code]:
@@ -513,6 +515,7 @@ To access this menu, simply click the **Activities Icon**
 
 > [bash-complex-explanation]:
 > **Explicit score value Example** (Complex Script - Partial Credit/Multiple Conditions)
+>
 > This sample actually reads the /etc/hosts file on a Linux machine, and searches for a line that contains a specific IP. From there it if the IP has the correct hostname. With this design the user can get variable scores based on the following:
 > 
 > - Full credit if both the IP and hostname are found.
