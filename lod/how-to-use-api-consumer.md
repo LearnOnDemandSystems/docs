@@ -1,8 +1,5 @@
 # API Consumer Usage and Best Practices
 
-
-
-1. [How to use and Set Up an API Consumer in Lab on Demand](#how-to-use-and-set-up-an-api-consumer-in-lab-on-demand)
 1. [How to Make an API Request](#how-to-make-an-api-request)
     - [API Request Format](#api-request-format)
     - [API Testing Tools](#api-testing-tools)
@@ -11,6 +8,7 @@
     - [Do Not Use Strict Mapping](#do-not-use-strict-mapping)
     - [Window Manipulation](#how-to-make-an-api-request)
 
+<!--
 ## How to Use and Set Up an API Consumer in Lab on Demand
 
 To obtain API Consumer access, please [submit a support ticket](https://lod.one/help) for assistance.
@@ -23,7 +21,7 @@ If you already have API Consumer access, and would like to use an API consumer w
 
 - **Organization Profile**: The API Consumer needs to be made available to the organization that will use it. This should be the same organization that the lab series and lab profile belong to. 
 
-<!--
+
 ### Lab Series
 
 The lab series must be published to the API consumer that will be used. By publishing a lab series to an API Consumer, that API Consumer will be able to launch any current and future lab profiles that belong to that series. 
