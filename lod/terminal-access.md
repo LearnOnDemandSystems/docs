@@ -62,6 +62,8 @@ SSH configuration may need to be modified to enable password authentication or r
 
 1. Disable the networkmanager-wait service if applicable. This service can result in a 20 second boot delay when using NICs set to DHCP. On most versions of linux this can be done via the following command: ```sudo systemctl disable NetworkManager-wait-online.service```.
 
+    >[!alert] On **Ubuntu 18.04.2**, the network manager wait service is known as `systemd-networkd-wait-online.service`. If you are using Ubuntu 18.04.2, the **network manager wait service should not be disabled**. This will prevent SSH terminal access. 
+
 1. Make sure the SSH service auto boots. On most versions of linux can be done by entering the following command: ```sudo systemctl enable ssh```.
 
 1. Start the service with the following command: ```sudo systemctl startssh```.
