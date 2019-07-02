@@ -343,7 +343,7 @@ This sample is gauging a file's size on the Windows file system. If the file is 
 
 - PowerShell
 
-    ```PowerShell
+    ```PowerShell-linenums
     $result = $false
     $file = (Get-Item C:\Users\LabUser\file.txt).length
     if($file -lt 1000){
@@ -355,7 +355,7 @@ This sample is gauging a file's size on the Windows file system. If the file is 
 
 - Bash
 
-    ```Bash
+    ```Bash-linenums
     RESULT=False
     file=$(stat --format=%s /etc/passwd)
     if [ $(echo $file) -lt 1000 ]
@@ -372,7 +372,7 @@ When a section of a script is completed correctly, the student is given the scor
 
 - PowerShell
 
-    ```PowerShell
+    ```PowerShell-linenums
     $result = $False
     $hostname = [System.Net.DNS]::GetHostEntry('')
     if ($hostname.HostName -eq "LabVM" -and $hostname.AddressList.IPAddressToString     contains "192.168.1.4"){
@@ -388,7 +388,7 @@ When a section of a script is completed correctly, the student is given the scor
 
 - Bash
 
-    ```Bash
+    ```Bash-linenums
     RESULT=False
     host=$(cat /etc/hosts | grep 192.168.1.2)
     if [[ $(echo $host) == "192.168.1.2 linuxvm"* ]]
