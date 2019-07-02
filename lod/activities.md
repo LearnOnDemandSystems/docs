@@ -187,130 +187,27 @@ _Student view of the notification in the lab_
 ^[PowerShell Samples][powershell-samples]
 
 > [powershell-samples]:
-> The lab instructions ask the student to create a few accounts in a Cloud Subscription that will be used later in the lab. You could write a few PowerShell scripts that will check if the accounts were created correctly.
-> 
-> This 3 scripts below are to make sure the student has created a storage account, a public container, and private container:
-> 
-> **Storage Account**
-> ```
-> $LabInstanceId = "@lab.LabInstance.Id"
-> $result = $false
-> $resourceGroupName = "CSSTlod${LabInstanceId}"
-> $storAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name "sa${LabInstanceId}" -ErrorAction Ignore
-> if ($storAccount -eq $null){
->     "The Storage Account has not been created"
-> } else {
->     $result = $true
->     "You successfully created the storage account."
-> }
-> $result
-> ```
-> 
-> **Public Container**
-> ```
-> $LabInstanceId = "@lab.LabInstance.Id"
-> $result = $false
-> $resourceGroupName = "CSSTlod${LabInstanceId}"
-> $storAccountName = "sa${LabInstanceId}"
-> $storAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name $storAccountName -ErrorAction Ignore
-> if ($storAccount -eq $null){
->     "The Storage Account has not been created"
-> } else {
->     $storKey = Get-AzureRmStorageAccountKey -ResourceGroupName $resourceGroupName -Name $storAccountName | Select-Object -First 1 -ErrorAction Ignore
->     $storageContext = New-AzureStorageContext -StorageAccountName $storAccountName -StorageAccountKey $storKey.Value -ErrorAction Ignore
->     $container = Get-AzureStorageContainer -Name public -Context $storageContext -ErrorAction Ignore
->     if ($container -eq $null) {
->         "The Blob Container has not been created."
->     } else {
->         if ($container.PublicAccess -ne "blob") {
->             "The container is not properly configured for public access."
->         } else {
->         $result = $true
->         "You have successfully configured the blob container for public access."
->         }
->     }
-> }
-> $result
-> ```
-> 
-> **Private Container**
-> ```
-> $LabInstanceId = "@lab.LabInstance.Id"
-> $result = $false
-> $resourceGroupName = "CSSTlod${LabInstanceId}"
-> $storAccountName = "sa${LabInstanceId}"
-> $storAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name $storAccountName -ErrorAction Ignore
-> if ($storAccount -eq $null){
->     "The Storage Account has not been created"
-> } else {
->     $storKey = Get-AzureRmStorageAccountKey -ResourceGroupName $resourceGroupName -Name $storAccountName | Select-Object -First 1 -ErrorAction Ignore
->     $storageContext = New-AzureStorageContext -StorageAccountName $storAccountName -StorageAccountKey $storKey.Value -ErrorAction Ignore
->     $container = Get-AzureStorageContainer -Name private -Context $storageContext -ErrorAction Ignore
->     if ($container -eq $null) {
->         "The Blob Container has not been created."
->     } else {
->         if ($container.PublicAccess -ne "off") {
->             "The container is not properly configured for private access."
->         } else {
->         $result = $true
->         "You have successfully configured the blob container for private access."
->         }
->     }
-> }
-> $result
-> ```
-> 
-> This is what the student will see in the lab:
-> 
-> ![](../lod/images/scripts-in-lab-instructions.png)
-> 
-> - The student clicks the Score button, and the scripts will begin executing the first script:
-> 
->     - If the student **created the storage accounts correctly**, they will receive a message that says "You successfully created the storage account."
->     
->     - If the student **did not create the storage accounts correctly**, they will receive a message that says "The Storage Account has not been created". 
-> 
-> > [!KNOWLEDGE] You can provide a hint to students based on the outcome of the script. For example, if the script is to check if a specific directory has been created, you script could output a hint to help the student create the appropriate directory. 
+>
+> !INSTRUCTIONS[][ps-simple-explanation]
+>
+> !INSTRUCTIONS[][ps-simple-code]
+>
+> !INSTRUCTIONS[][ps-complex-explanation]
+>
+> !INSTRUCTIONS[][ps-complex-code]
+
 
 ^[Bash Samples][bash-samples]
 
 > [bash-samples]:
-> **Simple Script (Pass/Fail)**  
-> This sample is gauging a file's size on the linux file system. If the file is less than 1000 bytes the user is successful, otherwise they are unsuccessful.
 >
-> ```
-> RESULT=False
-> file=$(stat --format=%s /etc/passwd)
-> if [ $(echo $file) -lt 1000 ]
-> then 
->  echo "success, filesize is $file"
->  RESULT=True
-> fi
-> echo $RESULT
-> ```
+> !INSTRUCTIONS[][bash-simple-explanation]
 >
-> **Complex Script (Partial Credit/Multiple Conditions)**  
-> This sample actually reads the /etc/hosts file on a Linux machine, and searches for a line that contains a specific IP. From there it if the IP has the correct hostname. With this design the user can get variable scores based on the following:
-> 
-> - Full credit if both the IP and hostname are found.
-> - Partial credit if the IP is found, but not the host name
-> - No credit if the IP is not found
+> !INSTRUCTIONS[][bash-simple-code]
 >
-> ```
-> RESULT=False
-> host=$(cat /etc/hosts | grep 192.168.1.2)
-> if [[ $(echo $host) == "192.168.1.2 linuxvm"* ]]
-> then
->  set_activity_result 1 "Success"
->  RESULT=True
-> elif [[ $(echo $host) == "192.168.1.2"* ]]
-> then 
->  set_activity_result .5 "Partially correct"
-> else 
->  echo "value not found"
-> fi
-> echo $RESULT
-> ```
+> !INSTRUCTIONS[][bash-complex-explanation]
+>
+> !INSTRUCTIONS[][bash-complex-code]
 
 ## Questions
 
@@ -475,3 +372,82 @@ To access this menu, simply click the **Activities Icon**
 [Back to Top](#activities)
 
 
+> [ps-simple-explanation]:
+> **Simple Script (Pass/Fail)**  
+> This sample is gauging a file's size on the Windows file system. If the file is less than 1000 bytes the user is successful, otherwise they are unsuccessful.
+
+> [ps-simple-code]:
+> ```
+> $result = $false
+> $file = (Get-Item C:\Users\LabUser\file.txt).length
+> if($file -lt 1000){
+>     echo "Success, filesize is $file"
+>     $result = $true
+> }
+> $result
+> ```
+
+> [ps-complex-explanation]:
+> **Complex Script (Partial Credit/Multiple Conditions)**  
+> This sample actually reads the host entry on a Windows machine, and identifies both the hostname and any IPs associated with it. From there it validates if it has both the correct IP and hostname. With this design the user can get variable scores based on the following:
+> 
+> - Full credit if both the IP and hostname are found.
+> - Partial credit if the IP is found, but not the hostname
+> - No credit if the IP is not found
+
+> [ps-complex-code]:
+>```
+>$result = $False
+>$hostname = [System.Net.DNS]::GetHostEntry('')
+>if ($hostname.HostName -eq "LabVM" -and $hostname.AddressList.IPAddressToString -contains "192.168.1.4"){
+>     #set_activity_result 1 "Success"
+>     $result = $True
+> }elseif($hostname.AddressList.IPAddressToString -contains "192.168.1.4"){
+>     #set_activity_result .5 "Partially correct"  
+> }else{
+>     "Value not found"    
+> } 
+> $result
+> ```
+
+
+> [bash-simple-explanation]:
+> **Simple Script (Pass/Fail)**  
+> This sample is gauging a file's size on the linux file system. If the file is less than 1000 bytes the user is successful, otherwise they are unsuccessful.
+
+> [bash-simple-code]:
+> ```
+> RESULT=False
+> file=$(stat --format=%s /etc/passwd)
+> if [ $(echo $file) -lt 1000 ]
+> then 
+>  echo "success, filesize is $file"
+>  RESULT=True
+> fi
+> echo $RESULT
+> ```
+
+> [bash-complex-explanation]:
+> **Complex Script (Partial Credit/Multiple Conditions)**  
+> This sample actually reads the /etc/hosts file on a Linux machine, and searches for a line that contains a specific IP. From there it if the IP has the correct hostname. With this design the user can get variable scores based on the following:
+> 
+> - Full credit if both the IP and hostname are found.
+> - Partial credit if the IP is found, but not the host name
+> - No credit if the IP is not found
+
+> [bash-complex-code]:
+> ```
+> RESULT=False
+> host=$(cat /etc/hosts | grep 192.168.1.2)
+> if [[ $(echo $host) == "192.168.1.2 linuxvm"* ]]
+> then
+>  set_activity_result 1 "Success"
+>  RESULT=True
+> elif [[ $(echo $host) == "192.168.1.2"* ]]
+> then 
+>  set_activity_result .5 "Partially correct"
+> else 
+>  echo "value not found"
+> fi
+> echo $RESULT
+> ```
