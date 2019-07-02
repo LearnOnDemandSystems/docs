@@ -331,27 +331,32 @@ There are two methods to return a scoring result from an automated activity.
 
 - **Explicit Score Value** Set score in the script for more complex scenarios. This method requires knowledge about scripting languages, such as PowerShell or Bash. An explicit value in a script means that the score value for each script is defined in the script itself, or multiple scores can be configured for each part of the script that is completed correctly. The score value is set in the script using [Automated Activity Syntax](#automated-activity-syntax). An explicit score value can be given after each section of the script that should be scored or at the end of a script. 
 
-<!--
+Additionally, text output (logging) can be configured on a script. Any text output from the script is captured along with the script result. This allows for capture of meaningful information along with the pass/fail result. The captured data will be sent in the `ScriptResponse` line of the API response. 
+
 #### Example Scoring Methods
 
 **Binary example**
 
 When the script returns `$true` in a PowerShell script or `True` in a Bash script, the student will receive the score value configured in the activity in the lab editor. When the script returns a false binary result, the student will receive a score value of 0 for the activity. 
 
+This sample is gauging a file's size on the Windows file system. If the file is less than 1000 bytes the user is successful, otherwise they are unsuccessful.
+
 - PowerShell
 
     ```PowerShell
-    if ($securityGroups.Length -eq 0) {
-       $false
-    } else {
-       $true
+    $result = $false
+    $file = (Get-Item C:\Users\LabUser\file.txt).length
+    if($file -lt 1000){
+        echo "Success, filesize is $file"
+        $result = $true
     }
+    $result
     ```
 
 - Bash
 
     ```Bash
-        RESULT=False
+    RESULT=False
     file=$(stat --format=%s /etc/passwd)
     if [ $(echo $file) -lt 1000 ]
     then 
@@ -361,19 +366,6 @@ When the script returns `$true` in a PowerShell script or `True` in a Bash scrip
     echo $RESULT
     ```
 
-- Additionally, text output (logging) can be configured on a script. Any text output from the script is captured along with the script result. This allows for capture of meaningful information along with the pass/fail result. The captured data will be sent in the `ScriptResponse` line of the API response. 
-
-    ```PowerShell
-    if ($securityGroups.Length -eq 0) {
-   'No External HTTP Security Group Found!'
-   $false
-    } else {
-   'External HTTP Security Group Found!'
-   $true
-    }
-    ```
-
-
 **Explicit score value Example**
 
 When a section of a script is completed correctly, the student is given the score value declared in PowerShell as `Set-ActivityResult` and `set_activity_result` in Bash. In the examples below, the student will receive 5 points for the first part, 2.5 points for the second part or 0 points if they do not complete the first or second part of the script. 
@@ -381,14 +373,17 @@ When a section of a script is completed correctly, the student is given the scor
 - PowerShell
 
     ```PowerShell
-    if ($securityGroups.Length -eq 3) {
-       Set-ActivityResult 5
-    } else if ($securityGroups.Length -gt 0)
-       Set-ActivityResult 2.5
-    } else {
-       Set-ActivityResult 0
-
-    }
+    $result = $False
+    $hostname = [System.Net.DNS]::GetHostEntry('')
+    if ($hostname.HostName -eq "LabVM" -and $hostname.AddressList.IPAddressToString     contains "192.168.1.4"){
+         #set_activity_result 1 "Success"
+         $result = $True
+     }elseif($hostname.AddressList.IPAddressToString -contains "192.168.1.4"){
+         #set_activity_result .5 "Partially correct"  
+     }else{
+         "Value not found"    
+     } 
+     $result
     ```
 
 - Bash
@@ -398,18 +393,16 @@ When a section of a script is completed correctly, the student is given the scor
     host=$(cat /etc/hosts | grep 192.168.1.2)
     if [[ $(echo $host) == "192.168.1.2 linuxvm"* ]]
     then
-     set_activity_result 5 "Success"
+     set_activity_result 1 "Success"
      RESULT=True
     elif [[ $(echo $host) == "192.168.1.2"* ]]
     then 
-     set_activity_result 2.5 "Partially correct"
+     set_activity_result .5 "Partially correct"
     else 
      echo "value not found"
     fi
     echo $RESULT
     ```
-
--->
 
 ### Partial Scoring
 
@@ -465,11 +458,11 @@ To access this menu, simply click the **Activities Icon**
 
 
 > [ps-simple-explanation]:
-> **Simple Script (Pass/Fail)**  
+> **Binary**  (Simple Script (Pass/Fail)
 > This sample is gauging a file's size on the Windows file system. If the file is less than 1000 bytes the user is successful, otherwise they are unsuccessful.
 
 > [ps-simple-code]:
-> ```
+> ```PowerShell-linenums
 > $result = $false
 > $file = (Get-Item C:\Users\LabUser\file.txt).length
 > if($file -lt 1000){
@@ -480,7 +473,7 @@ To access this menu, simply click the **Activities Icon**
 > ```
 
 > [ps-complex-explanation]:
-> **Complex Script (Partial Credit/Multiple Conditions)**  
+> **Explicit score value Example** (Complex Script - Partial Credit/Multiple Conditions)
 > This sample actually reads the host entry on a Windows machine, and identifies both the hostname and any IPs associated with it. From there it validates if it has both the correct IP and hostname. With this design the user can get variable scores based on the following:
 > 
 > - Full credit if both the IP and hostname are found.
@@ -488,7 +481,7 @@ To access this menu, simply click the **Activities Icon**
 > - No credit if the IP is not found
 
 > [ps-complex-code]:
->```
+>```PowerShell-linenums
 >$result = $False
 >$hostname = [System.Net.DNS]::GetHostEntry('')
 >if ($hostname.HostName -eq "LabVM" -and $hostname.AddressList.IPAddressToString -contains "192.168.1.4"){
@@ -502,13 +495,12 @@ To access this menu, simply click the **Activities Icon**
 > $result
 > ```
 
-
 > [bash-simple-explanation]:
-> **Simple Script (Pass/Fail)**  
+> **Binary**  (Simple Script (Pass/Fail) 
 > This sample is gauging a file's size on the linux file system. If the file is less than 1000 bytes the user is successful, otherwise they are unsuccessful.
 
 > [bash-simple-code]:
-> ```
+> ```Bash-linenums
 > RESULT=False
 > file=$(stat --format=%s /etc/passwd)
 > if [ $(echo $file) -lt 1000 ]
@@ -520,7 +512,7 @@ To access this menu, simply click the **Activities Icon**
 > ```
 
 > [bash-complex-explanation]:
-> **Complex Script (Partial Credit/Multiple Conditions)**  
+> **Explicit score value Example** (Complex Script - Partial Credit/Multiple Conditions)
 > This sample actually reads the /etc/hosts file on a Linux machine, and searches for a line that contains a specific IP. From there it if the IP has the correct hostname. With this design the user can get variable scores based on the following:
 > 
 > - Full credit if both the IP and hostname are found.
@@ -528,7 +520,7 @@ To access this menu, simply click the **Activities Icon**
 > - No credit if the IP is not found
 
 > [bash-complex-code]:
-> ```
+> ```Bash-linenums
 > RESULT=False
 > host=$(cat /etc/hosts | grep 192.168.1.2)
 > if [[ $(echo $host) == "192.168.1.2 linuxvm"* ]]
