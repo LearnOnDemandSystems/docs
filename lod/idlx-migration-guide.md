@@ -2,7 +2,7 @@
 
 Upgrading your lab to IDLx is simple, fast and easy. 
 
-- Your lab can be reverted back at anytime, as many times as you would like. 
+- Your lab can be reverted back at anytime before Septemper 20, 2019. IDL (legacy) will be retiring on September 20, 2019. 
 - If you upgrade to IDLx and make changes, then revert, the IDLx changes are not displayed in IDL (legacy).
 
 Check out our [video guide for upgrading a lab to IDLx](https://www.youtube.com/watch?v=T3Pbgy_wviI).
