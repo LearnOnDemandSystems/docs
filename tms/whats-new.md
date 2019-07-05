@@ -2,6 +2,112 @@
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## Released July 03 2019
+
+### <span style="color:#0078d7;">Achievements for Exams</span>
+
+Your students can now earn achievements when they pass an exam or complete a learning path and if badges are attached to the achievements, they can share the externally hosted badge with others.
+
+You can now build achievements for exams and learning paths. The JSON conditions can be written for passing the exam for a simple achievement or can be more complex including multiple conditions. Here are some examples:
+
+Simple conditions for passing the exam lab with the ID of 12345 – 
+[
+   {
+      Subject:0,
+      Count:1,
+      Passed:true,
+      LabProfileIds:[12345]
+    }
+]
+
+Complex conditions for completing a learning that is comprises of 2 courses with one regular lab each (IDs 11223 and 11224) and a course with an exam lab (ID 12345) -
+
+[
+   {
+      Subject:0,
+      Count:1,
+      Complete:true,
+      Distinct:true,
+      LabProfileIds: [11223,11224]
+   },
+   {
+      Subject:0,
+      Count:1,
+      Passed:true,
+      LabProfileIds: [12345]
+   }
+]
+
+### <span style="color:#0078d7;">Keyboard Navigation for some Dropdown Filter Menus</span>
+
+On Search pages that contain the **Organization**, **Program** and/or **Classroom** filters, you can now navigate these filters’ dropdown menus with the keyboard using **TAB**, the **Arrow** keys, and **ENTER. **
+
+When on a search page that has one of these filters applied, 
+1. Tab to the dropdown for one of these filters and press **ENTER**. The dropdown menu will open to the list of filter criteria. 
+1. Use the arrow keys to navigate up and down the list. 
+1. When the arrow next to a “Parent” in the list is highlighted, press **ENTER** to expand its hierarchy to allow the selection of children from the dropdown menu. 
+1. When the item you want is highlighted, press **ENTER** again to select and add it to your search filter as the criteria.
+
+### <span style="color:#0078d7;">Event Training Key Redemption</span>
+
+As an administrator, you can now limit the time Event training keys can be used to create enrollments: until the class ends or for a set amount after the class. These two options are on the Create/Edit Class under Allow automatic enrollment using event training key.
+
+![](./images/whats-new/event-key-options.png)
+
+The first option, **Event training key can only be redeemed until event ends**, is the default option and restricts any enrollments being created using the key after the event ends. 
+
+The second option, **Event training key can be redeemed during event or after it ends**, restricts after-class enrollments from being created outside the post-class lab availability window. This timeline is controlled by the Post-class lab availability set on the course. 
+
+### <span style="color:#0078d7;">TMS Updates and Fixes</span>
+
+- A **Roadmap** link now shows in the TMS Default Top Navigation bar. When you click this, you will be taken to our Roadmap page on our website, which has explanations of our latest product updates on both the TMS and LOD. If a TMS site has a custom top navigation bar per the customer's request, this link will not be seen.
+- The Recordings link is now accurately hidden for classes with the Event Builder virtual host.
+
+----------------------------
+
+## Released June 13 2019
+
+### <span style="color:#0078d7;">Course Duplication</span>
+
+You can now duplicate an existing course without having to create a new one from scratch. With this you can easily create multiple courses for different customers or uses with slight differences in activities, availability, custom fields, etc.
+
+To duplicate a Course:
+
+1. On the Course profile page, click Edit.
+
+1. Make all changes you wish to be reflected in the new course.
+
+1. Scroll down to the bottom of the page and click Save As. You will be prompted to enter the name for the new course.
+
+1. Click Save. The newly created Course will automatically open in Edit mode to ensure any additional changes can been made.
+
+Note: When you click Save As, if a custom field requiring unique values is present, you will be prompted to change it prior to creation of the new course.
+
+### <span style="color:#0078d7;">Personalized Notifications</span>
+
+You can now personalize notifications to recipients by including the new replacement text fields in the body of the notification:
+- RecipientFirstName
+- RecipientLastName
+- RecipientFullName
+- RecipientSiteUrl
+
+When these are used, the email notification will pull the recipient’s information and include it in-place of the fields. For instance, if Amelia Johnston, an instructor, is receiving a notification that a student has cancelled, the notification could be addressed **Dear [RecipientFirstName] [RecipientLastName]**. The email that Amelia would receive would read Dear Amelia Johnston.
+
+### <span style="color:#0078d7;">TMS Updates and Fixes</span>
+
+- The **Find Publishing Group** page now has the **Internal Ids** output option. This output option is included in exported and printed search results.
+- You can now include your **External Ids** in the **Class Import** template.
+- The **GetClass** and the **SearchClasses** API methods now return:
+    - **InstructorId**
+    - **InstructorFirstName**
+    - **InstructorLastName**
+- The **HTML Description** field on the **Course Profile** page is now an accordion section below Activities.
+- We now properly filter and show output options for enrollments when the payment type is class enrollment training key. We also store and report in Enrollment History if a class enrollment was created using an event training key.
+- On Find Notification Plans, the Received By filter now contains all possible recipient types, including Creator, Class Custom Users, and Editing Delegates.
+- On the Organization Profile page, the dependent field, Default Organization Manager Role, is now directly below the Allow Anonymous Organization Registration section instead of after the Account Manager field.
+
+----------------------------
+
 ## Released June 3 2019
 
 ### <span style="color:#0078d7;">Accessibility Updates</span>
@@ -208,121 +314,3 @@ You can now create and update classes through the API!
 ### <span style="color:#0078d7;">Admin Menu</span>
 
 Now you can access the links on the **Site Administration** page without leaving your current page. We have added an **Admin** menu which is available in all themes that use the standard navigation. When you click on this menu, all the links you see on the Site Administration page are available grouped in the same way. You can choose to view the groups in their default order or in alphabetical order. For a full explanation of this menu, please see [What is the Admin menu and how does it work?](./tms-administrators/tms-fundamentals/admin-menu.md)
-
-----------------------------
-## Released December 14 2018
-
-### <span style="color:#0078d7;">Survey Availability Messages</span>
-
-Your students can now easily see when they are able to take their class survey. The Survey activity on their Class Enrollment page will have a message detailing when the survey will become available. This message disappears when the Launch button appears.
-
-![](./images/whats-new/survey-timer-msg.png)
-
-### <span style="color:#0078d7;">TMS Updates</span>
-- In the **Learning Path** browser, the tiles now display the **Audience** level of the path in the lower right corner of the image and the **number** of **courses** and **duration** are at the very bottom of the tile.
-- You may receive an error message when saving a course after adding labs activities to it if the lab activities exceed the maximum RAM set for courses for your organization. 
-
-> Message: Sorry, you are not able to add labs with over XX MB of RAM. Please contact **support@learnondemandsystems.com**.
-
-- The CSV file for the exported course catalog has been changed to have separate columns for each course tag allowing you to filter the data by the individual tags.
-- You can now easily summarize and analyze survey responses in Excel or other analytical tools. The exported survey results have been revamped so that each answer of a multi-answer question is exported to its own individual row. See the [How do I export survey responses and analyze them in Excel?](./tms-administrators/miscellaneous/analyze-survey-results.md) article for assistance with Excel.
-
-----------------------------
-## Released November 2018
-
-### <span style="color:#0078d7;">Manage Your Own SCORM Modules</span>
-
-Want to manage your own SCORM content? With the proper permissions, you can create your own SCORM modules, upload your content to them, and add the modules to course profiles. You can preview your SCORM content by launching it from the SCORM module, and you can search for all SCORM attempts started by your students. Please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help) if you need to manage SCORM content for your organization. The following articles will help you to create SCORM modules, start SCORM content, and view all SCORM attempts by your students:
-
-- [How do I create a SCORM Module and make it available to other orgs for their courses?](./tms-administrators/courses-and-activities/create-scorm-module.md)
-- [How can I preview a SCORM module belonging to my organization?](./tms-administrators/courses-and-activities/start-scorm-module.md)
-- [How do I view all SCORM attempts by my students?](./tms-administrators/courses-and-activities/view-scorm-attempts.md)
-
-### <span style="color:#0078d7;">Set Your Course Achievements to be Available to Outside Organizations</span>
-
-Want to have consistent recognition to all students who take your courses, regardless of whether they are in your organization or not? You can now enable achievements for outside organizations on a **Course** profile’s **Basic Information** tab. If an achievement has the course identified in its conditions, any student who completes the course, either through a course assignment or class enrollment, will earn the achievement, providing the student participates in achievements and their organization has achievements enabled.
-
-### <span style="color:#0078d7;">Create Achievements for Your Subscriptions</span>
-
-Recognize your organization’s students for their accomplishments in your subscriptions. You can create achievements that tie directly to your subscriptions. Your organization’s students earn achievements by completing course assignments or class enrollments specifically associated with the subscription in the achievement’s conditions. Here is an example of a condition statement for a subscription achievement:
-> [{"Subject": 30,"Count": 1,"ClubIds": [551], "Complete": true}]
-
-This achievement condition requires the user to complete **1 course** through the subscription whose ID is **551**.
-
-For a course assignment or class enrollment to earn subscription achievements, one of the following must be met (in addition to the participation requirement of the organization and the student):
-
-1. The student has a current subscription matching the achievement conditions AND completes a course assignment that was started from the subscription’s **On-Demand browser**.
-1. The student completes a course assignment that was created outside the browser AND has the subscription listed as the **Payment Type** on its **Payment** tab.
-1. The student has been marked **Enrolled/Complete** on a class enrollment AND it lists the subscription as the **Payment Type** on its **Payment** tab.
-
-> [!KNOWLEDGE] Achievements can be earned on past activities depending on how the conditions of the subscription are written. For instance, when a participating student completes an item (lab, course assignment, class enrollment, etc.) that could be included in *ANY* achievement, the student's transcript and records are evaluated against *ALL* achievements the student might be eligible for. Therefore, the student could earn the above achievement today if they have an old class enrollment or course assignment that meet the conditions. To avoid achievements being earned on expired subscriptions and old class assignments and course assignments, the conditions can be written to ignore expired subscriptions and/or to set a timeline for items qualifying for the achievement in JSON.
-
-> [!ALERT] Currently, if a subscription contains courses from multiple orgs (i.e. Org A and Org B), has an achievement attached to it, and is available to another organization (Org c), users from that organization will only earn the achievement for courses in the subscription that are in the same org as the achievement and only if those courses allow outside orgs to earn the achievement.
-
-### <span style="color:#0078d7;">Add HTML Footers to Your Learning Paths</span>
-
-Encourage more engagement with your users by adding customizable HTML footers on your learning paths. This is great place to provide users with additional information, suggestions, links, etc. related to the learning path .
-
-![Example of an HTML footer](./images/lp-html-footer-tab.png)
-
-![And how it looks on the learning path to the student](./images/lp-html-footer-view.png)
-
-### <span style="color:#0078d7;">Control Default Maximum Class Size on the Course</span>
-
-You can control the default **Maximum Capacity** for classes directly on the **Course** profile. This provides you more granular control so you can have different student attendance capacities for different courses. One use of this might be you could have courses designed to be used in webinars and these could have a higher default capacity than your standard courses. The default on the Course profile will override the organization’s default Maximum Capacity for classes but can be overridden on the class itself.
-
-### <span style="color:#0078d7;">TMS Updates</span>
-- New **Filter** and new **Output Option** on **Find Labs**: 
-    - You can filter by **Course** - This will find all lab activities in the specified course. 
-    There is also a new **ExternalId** output option.
-- New **API** method: You can add several roles to a user at once through the API using the new **AddUserToRoles** method.
-- Removed **Filter** and **Output Option** on **Find/Choose SCORM Modules**: Content Provider is no longer related to SCORM modules. Therefore, the **Content Provider** filter and output option on the **Find SCORM Modules** page and **Choose SCORM Module** dialog have been removed.
-- The **.NET Framework** was updated to **4.7.1**.
-
-----------------------------
-## Released October 2018
-
-### <span style="color:#0078d7;">Display of Course Ratings</span>
-
-You can share the quality of your course offerings by displaying ratings on browser tiles. These ratings derive from the simple feedback given by actual users and are displayed as percentages on the tiles. When a user zooms a tile, the number of reviews are included. The following browsers will display the ratings based on criteria you set:
-- On-Demand
-- Course Catalog
-- Learning Paths
-- Class
-
-> [!KNOWLEDGE] Like subscription profiles, Learning Path tiles show a cumulative rating of the included courses. Individual Learning Path pages show the rating for each course.
-
-You, as an organization, control when ratings are displayed for your courses based on the number of ratings and an optional minimum rating percentage. There may be times when subscriptions or learning paths contain courses from various organizations. Since these are cumulative ratings from the underlying courses, the owning organization of the subscription or learning path controls whether the rating is displayed. The individual courses display ratings based on their owning organization’s criteria regardless of where they are seen.
-
-Examples of the display:
-- Browser tile
-
-![](./images/course-rating-browser-tile.png)
-- Zoomed tile
-
-![](./images/course-rating-zoomed-tile.png)
-- Learning path page
-
-![](./images/learning-path-individual-course-rating.png)
-
-### <span style="color:#0078d7;">Completion Certificate Organizational Ownership/Availability</span>
-
-With permissions, you are now able to manage your own course completion certificates. Your certificates are only available to other organizations to use in their courses if you specify them in the certificate template’s profile. This allows you to keep your certificate templates private while still providing the flexibility to share with other organizations as needed.
-
-The Organization output option and filter have been added to the Find Course Certificate Templates page. You can also filter by the organizations that can use the certificate.
-
-![](./images/find-course-certificate-templates.png)
-
-![](./images/certificate-search-filters.png)
-
-### <span style="color:#0078d7;">TMS Updates</span>
-
-- The Class Browser page can now be loaded prefiltered for classes on a specific course by appending the course ID to the end of the URL. 
-> Example: https://lms.learnondemand.net/Class/Browse?courseId=9672 would load all classes for the 10135B Configuring, Managing and Troubleshooting Microsoft Exchange Server 2010 Service Pack 2 course.
-
-- The On-Demand Browser page can now be loaded prefiltered to display
-    - Only bookmarked courses by appending the bookmarks ID to the end of the URL. Example: https://lms.learnondemand.net/Course/BrowseOnDemand?bookmarks=1.
-    - Only courses with a specific course tag. Example: https://lms.learnondemand.net/Course/BrowseOnDemand?coursetagId=X with X being the ID number of the course tag
-- The Coming Soon icon is now visible next to courses who meet the criteria on Find Courses. There is also a new Coming Soon filter to narrow the results to just those courses.
-
-![](./images/coming-soon-on-search-page.png)
