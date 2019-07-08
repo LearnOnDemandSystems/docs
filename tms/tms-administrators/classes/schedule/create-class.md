@@ -24,7 +24,7 @@ Expand the **Session Times** section.
 1. Modify the **Start Time** and **End Time** as needed. 
 1. Click **OK**.
 
-> [!ALERT] The number and duration of the class sessions are for scheduling only. The Duration of the course affects the billing of the class based on 8 hour training days. If the course has a different duration than your sessions, do one of the following: 1) Select the course with the correct duration, if available, 2) if you own the course, duplicate it and change the duration to reflect training days that are longer or shorter than 8 hours, or 3) if you do not own the course, open a support ticket to request assistance to ensure your class is billed correctly.
+> [!ALERT] The number and duration of the class sessions are for scheduling only. The Duration of the course affects the billing of the class based on 8 hour training days. If the course has a different duration than your sessions, do one of the following: 1) Select the course with the correct duration, if available, 2) if you own the course, duplicate it and change the duration to reflect training days that are longer or shorter than 8 hours, or 3) if you do not own the course, open a support ticket immediately to request assistance to ensure your class is billed correctly.
 
 Expand the **Delivery** section. 
 1. If this class will be delivered in person only, ensure **Delivery Type** is set to **Physical**.
