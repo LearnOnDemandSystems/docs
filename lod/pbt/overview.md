@@ -18,7 +18,16 @@
 The Lab on Demand platform supports the ability to score users either in an exam/quiz format or within a hands-on lab. The options for what can be scored are plentiful and can be mixed and matched within a single scenario.
 
 Scorable items include:
-- Windows and Linux virtual machine configurations
+- Windows, Windows Server and Linux virtual machine configurations
+    - Hyper-V:
+        - Windows 10
+        - Windows Server 2016
+    - VMware (VMware Tools install required)
+        - Windows 7
+        - Windows 8
+        - Windows 10
+        - Windows Server 2012
+        - WIndows Server 2016
 - Cloud subscription configurations
 - Multiple choice questions (Select 1 or Select Multiple)
 - Short answer questions (with either precise or flexible answers)
