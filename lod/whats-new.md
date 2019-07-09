@@ -8,29 +8,11 @@
 
 # What's New in Lab On Demand
 
-<!--
 ## **Released July 5, 2019**
 
 **IDLx Improvements**
 
 - Code Blocks have received minor changes. Clicking on the copy or type text icons trigger the expected behavior and clicking the code block itself will no longer copy or type text.
-
-**New AWS Services Available**
-
-- AWS OpsWorks
-- AWS OpsWorks Configuration Management
-- AWS Secrets Manager
-- AWS Step Functions
-- Amazon Athena
-- Amazon Cognito User Pools
-- Amazon Kinesis
-- Amazon Kinesis Analytics
-- Amazon Kinesis Firehose
-- Amazon Kineses Video Streams
-- Amazon Route 53
-- Auto Scaling Plans
-
--->
 
 ## **Released June 28, 2019**
 
