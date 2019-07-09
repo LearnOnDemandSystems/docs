@@ -8,6 +8,12 @@
 
 # What's New in Lab On Demand
 
+## **Released July 5, 2019**
+
+**IDLx Improvements**
+
+- Code Blocks have received minor changes. Clicking on the copy or type text icons trigger the expected behavior and clicking the code block itself will no longer copy or type text.
+
 ## **Released June 28, 2019**
 
 **Bug Fixes and Improvements**
@@ -272,6 +278,7 @@ _audio as a link_
 
 ---
 
+<!--
 ## **Released January 18, 2019**
 
 ### **Show Scoring Result Upon Completion** 
@@ -444,3 +451,5 @@ This allows you to block further execution of the lab life cycle until the actio
 In the image below, the first Life Cycle Action (LCA) sets the variable and is blocking. The second LCA uses the variable set in the first LCA to send a notification to the lab, and uses an @lab replacement token to show the student's first name. Setting the first LCA to block, allows the variable to be set before the second LCA attempts to use the variable. 
 
 ![](images/lca-image8.png)
+
+->
