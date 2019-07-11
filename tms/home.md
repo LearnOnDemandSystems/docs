@@ -415,6 +415,54 @@
       </div>
       <div class="cardContainer">
         <div class="lodIntegration cardContent">
+          <div class="cardHeader" tabindex="0" title="Administrator Discussion" aria-label="Admin Discussion Docs">Discussions</div>
+          <div class="category">
+            <a href="/tms/tms-administrators/discussions/what-is-discussion.md" class="categoryThread">
+              <i class="material-icons light-green" aria-hidden="true">forum</i>
+              <span class="categoryTitle" title="What is a discussion and how can I use it to increase student interaction in their learning?">What is a discussion and how can I use it to increase student interaction in their learning?</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/tms/tms-administrators/discussions/create-discussion.md" class="categoryThread">
+              <i class="material-icons green" aria-hidden="true">forum</i>
+              <span class="categoryTitle" title="How do I create a discussion and attach it to a course?">How do I create a discussion and attach it to a course?</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/tms/tms-administrators/discussions/add-moderators.md" class="categoryThread">
+              <i class="material-icons light-green" aria-hidden="true">forum</i>
+              <span class="categoryTitle" title="How can I control posts on discussions?">How can I control posts on discussions?</span>
+            </a>
+          </div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-discussions-landing.md" title="View all" aria-label="View all Discussion Admin Related Docs">View all</a></div>
+        </div>
+      </div>
+      <div class="cardContainer">
+        <div class="lodIntegration cardContent">
+          <div class="cardHeader" tabindex="0" title="Administator Miscellaneous" aria-label="Administrator Miscellaneous Featured Docs">Miscellaneous</div>
+          <div class="category">
+            <a href="/tms/tms-administrators/miscellaneous/create-completion-certificates.md" class="categoryThread">
+              <i class="material-icons light-blue" aria-hidden="true">description</i>
+              <span class="categoryTitle" title="How do I create completion certificates?">How do I create completion certificates?</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/tms/tms-administrators/miscellaneous/ensure-completion-certificates-print-correctly.md" class="categoryThread">
+              <i class="material-icons blue" aria-hidden="true">description</i>
+              <span class="categoryTitle" title="How do I ensure my Course Completion Certificates print correctly?">How do I ensure my Course Completion Certificates print correctly?</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/tms/tms-administrators/miscellaneous/use-survey-or-assessment.md" class="categoryThread">
+              <i class="material-icons light-blue" aria-hidden="true">description</i>
+              <span class="categoryTitle" title="Do I want to use a survey or an assessment?">Do I want to use a survey or an assessment?</span>
+            </a>
+          </div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-miscellaneous-landing.md" title="View all" aria-label="View all Miscellanous Admin Docs">View all</a></div>
+        </div>
+      </div>
+      <div class="cardContainer">
+        <div class="lodIntegration cardContent">
           <div class="cardHeader" tabindex="0" title="Administator Miscellaneous" aria-label="Administrator Miscellaneous Featured Docs">Miscellaneous</div>
           <div class="category">
             <a href="/tms/tms-administrators/miscellaneous/create-completion-certificates.md" class="categoryThread">
