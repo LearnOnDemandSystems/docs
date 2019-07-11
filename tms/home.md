@@ -381,9 +381,9 @@
             </a>
           </div>
           <div class="category">
-            <a href="/tms/tms-administrators/courses-and-activities/discussions/what-is-discussion.md" class="categoryThread">
+            <a href="/tms/tms-administrators/courses-and-activities/other-activities/add-scorm" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">ondemand_video</i>
-              <span class="categoryTitle" title="What is a discussion and how can I use it to increase student interaction in their training?">What is a discussion and how can I use it to increase student interaction in their training?</span>
+              <span class="categoryTitle" title="How do I add SCORM modules to my course?">How do I add SCORM modules to my course?</span>
             </a>
           </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-courses-and-activities-landing.md" title="View all" aria-label="View all Courses and Their Activities Admin Related Docs">View all</a></div>
