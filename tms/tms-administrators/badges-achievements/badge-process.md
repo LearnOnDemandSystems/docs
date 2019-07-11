@@ -11,6 +11,6 @@ The process to create badges and associate them to achievements has four steps. 
 1. Create your badge templates. 
 1. [Create the Badge Provider entity](create-badge-provider.md).
 1. [Create the Badge entity](create-badge.md).
-1. [Associate the badge](associate-badge.md) with an existing or new [Achievement](create-achievements-to-motivate-learners).
+1. [Associate the badge](associate-badge.md) with an existing or new [Achievement](create-achievements-to-motivate-learners.md).
 
 
