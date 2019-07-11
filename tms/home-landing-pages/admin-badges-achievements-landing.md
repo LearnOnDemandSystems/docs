@@ -30,7 +30,7 @@
       <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/associate-badge.md">
         <div class="subtopic_title">How do I associate a badge with an achievement?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/create-achievements-to-motivate-learners.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/create-achievements-to-motivate-learners.md">
         <div class="subtopic_title">How do I create an achievement?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/tms-achievement-conditions.md">
