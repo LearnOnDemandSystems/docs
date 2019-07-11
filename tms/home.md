@@ -240,24 +240,24 @@
     <div class="cardContainerFull">
       <div class="cardContent">
         <div class="category">
-          <a href="/tms/tms-administrators/tms-fundamentals/admin-menu.md" class="categoryThread">
+          <a href="/tms/tms-administrators/badges-achievements/badge-process.md" class="categoryThread">
             <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
-            <span class="categoryTitleFeatured" title="What is the Admin menu and how does it work?">What is the Admin menu and how does it work?</span>
-            <span class="categoryDescription">The admin menu reinvents the way you use the TMS. Utilize the search menu to locate particular settings or utilize the history section to access your most used options.</span>
+            <span class="categoryTitleFeatured" title="What is involved in creating external badges?">What is involved in creating external badges?</span>
+            <span class="categoryDescription">Your student can now earn externally supported badges through their achievements in the TMS.</span>
           </a>
         </div>
         <div class="category"> 
-          <a href="/tms/tms-administrators/self-paced-learning-and-subscriptions/schedule-self-paced-learning.md" class="categoryThread">
+          <a href="/tms/tms-administrators/badges-achievements/create-badge.md" class="categoryThread">
             <i class="material-icons blue" aria-hidden="true">bookmarks</i>
-            <span class="categoryTitleFeatured" title="How do I schedule self-paced learning for a student?">How do I schedule self-paced learning for a student?</span>
-            <span class="categoryDescription">Self-paced learning is done through a course assignment. It gives the student direct access to labs without a class enrollment.</span>
+            <span class="categoryTitleFeatured" title="How do I create a badge?">How do I create a badge?</span>
+            <span class="categoryDescription">After creating the Badge Provider entity, the next step is to set up your badges.</span>
           </a>
         </div>
         <div class="category">
-          <a href="/tms/tms-administrators/discussions/what-is-discussion.md" class="categoryThread">
+          <a href="/tms/tms-administrators/badges-achievements/create-achievements-to-motivate-learners.md" class="categoryThread">
             <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
-            <span class="categoryTitleFeatured" titlte="What is a discussion and how can I use it to increase student interaction in their learning?">What is a discussion and how can I use it to increase student interaction in their learning?</span>
-            <span class="categoryDescription">A Discussion is a great feature for enhancing learning by giving students and instructors a place to hold asynchronous, topic-structured conversations regarding a course.</span>
+            <span class="categoryTitleFeatured" titlte="How do I create an achievement?">How do I create an achievement?</span>
+            <span class="categoryDescription">You can create achievements that your students earn automatically through their TMS activities.</span>
           </a>
         </div>
         <div class="viewAll"><a tabindex="0" class="viewAllLink" title="View all" href="/tms/home-landing-pages/admin-featured-landing.md" aria-label="View all Featured Docs for Admins">View all</a></div>
@@ -381,12 +381,36 @@
             </a>
           </div>
           <div class="category">
-            <a href="/tms/tms-administrators/courses-and-activities/other-activities/create-scorm-module.md" class="categoryThread">
+            <a href="/tms/tms-administrators/courses-and-activities/discussions/what-is-discussion.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">ondemand_video</i>
-              <span class="categoryTitle" title="How do I create a SCORM Module and make it available to other organizations for their courses?">How do I create a SCORM Module and make it available to other organizations for their courses?</span>
+              <span class="categoryTitle" title="What is a discussion and how can I use it to increase student interaction in their training?">What is a discussion and how can I use it to increase student interaction in their training?</span>
             </a>
           </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-courses-and-activities-landing.md" title="View all" aria-label="View all Courses and Their Activities Admin Related Docs">View all</a></div>
+        </div>
+      </div>
+      <div class="cardContainer">
+        <div class="lodIntegration cardContent">
+          <div class="cardHeader" tabindex="0" title="Administrator Achievements and Badges" aria-label="Admin Achievements and Badges Docs">Achievements and Badges</div>
+          <div class="category">
+            <a href="/tms/tms-administrators/badges-achievements/badge-process.md" class="categoryThread">
+              <i class="material-icons light-green" aria-hidden="true">forum</i>
+              <span class="categoryTitle" title="What is involved in creating external badges?">What is involved in creating external badges?</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/tms/tms-administrators/badges-achievements/create-badge-provider.md" class="categoryThread">
+              <i class="material-icons green" aria-hidden="true">forum</i>
+              <span class="categoryTitle" title="How do I create a Badge Provider in the TMS?">How do I create a Badge Provider in the TMS?</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/tms/tms-administrators/badges-achievements/create-badge.md" class="categoryThread">
+              <i class="material-icons light-green" aria-hidden="true">forum</i>
+              <span class="categoryTitle" title="How do I create a badge?">How do I create a badge?</span>
+            </a>
+          </div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-badges-achievements-landing.md" title="View all" aria-label="View all Achievement and Badges Admin Related Docs">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">

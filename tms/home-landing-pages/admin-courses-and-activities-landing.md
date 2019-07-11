@@ -77,12 +77,42 @@
         <div class="subtopic_title">How do I add an assessment to a course?</div>
       </a>
     </div>
+
+  <div class="subtopic_header" tabindex="0" title="Discussions Docs" role="button" aria-selected="false">Discussions</div>
+    <div class="subtopic_links">
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/discussions/what-is-discussion.md">
+        <div class="subtopic_title">What is a discussion and how can I use it to increase student interaction in their learning?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/discussions/create-discussion.md">
+        <div class="subtopic_title">How do I create a discussion and attach it to a course?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/discussions/add-moderators.md">
+        <div class="subtopic_title">How can I control posts on discussions?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/discussions/add-disclaimer.md">
+        <div class="subtopic_title">How can I add a disclaimer to all my discussions?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/discussions/participation.md">
+        <div class="subtopic_title">How do my students and I participate in discussions?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/admin-follow.md">
+        <div class="subtopic_title">How can I be notified of activity on a discussion</div>
+          </div>
   </div>
   <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="Admin Courses and Activities A-Z Docs" role="button" aria-selected="false">A-Z Index</div>
     <div class="subtopic_links">
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/discussions/add-disclaimer.md">
+        <div class="subtopic_title">How can I add a disclaimer to all my discussions?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/discussions/admin-follow.md">
+        <div class="subtopic_title">How can I be notified of activity on a discussion?</div>
+      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/capture-user-data-for-externally-hosted-activities.md">
         <div class="subtopic_title">How can I capture user data for users who access my externally hosted activities from the TMS?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/discussions/add-moderators.md">
+        <div class="subtopic_title">How can I control posts on discussions?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/labs/find-how-long-lab-will-be-saved-for.md">
         <div class="subtopic_title">How can I find how long a lab will be saved for?</div>
@@ -108,6 +138,9 @@
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/create-course.md">
         <div class="subtopic_title">How do I create a basic course?</div>
       </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/discussions/create-discussion.md">
+        <div class="subtopic_title">How do I create a discussion and attach it to a course?</div>
+      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/create-scorm-module.md">
         <div class="subtopic_title">How do I create a SCORM Module and make it available to other organizations for their courses?</div>
       </a>
@@ -123,9 +156,16 @@
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/view-scorm-attempts.md">
         <div class="subtopic_title">How do I view SCORM attempts by my students?</div>
       </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/discussions/participation.md">
+        <div class="subtopic_title">How do my students and I participate in discussions?</div>
+      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/labs/max-ram.md">
         <div class="subtopic_title">What does it mean when I get a 'Max RAM settings' warning when adding a lab to a course?</div>
       </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/discussions/what-is-discussion.md">
+        <div class="subtopic_title">What is a discussion and how can I use it to increase student interaction in their learning?</div>
+      </a>
+
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/labs/find-system-requirements-for-labs.md">
         <div class="subtopic_title">Where do I find the system requirements for labs?</div>
       </a>
