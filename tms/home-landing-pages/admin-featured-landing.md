@@ -18,7 +18,19 @@
   <div class="subtopic selected">
     <div id="header_1" class="subtopic_header" tabindex="0" title="TMS Featured Docs" role="button" aria-selected="true" selected>Featured</div>
     <div id="body_1" class="subtopic_links">
-      <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/admin-menu.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/badge-process.md">
+        <div class="subtopic_title">What is involved in creating external badges?</div>
+        <div class="subtopic_description">Your students can now earn externally supported badges through their activities/achievements in the TMS.</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/create-badge.md">
+        <div class="subtopic_title">How do I create a badge?</div>
+        <div class="subtopic_description">After creating the Badge Provider entity, the next step is to set up your badges.</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/create-create-achievements-to-motivate-learners.md">
+        <div class="subtopic_title">How do I create achievements?</div>
+        <div class="subtopic_description">You can create achievements that your students earn automatically through their TMS activities.</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/admin-menu.md">
         <div class="subtopic_title">What is the Admin menu and how does it work?</div>
         <div class="subtopic_description">The admin menu reinvents the way you use the TMS. Utilize the search menu to locate particular settings or utilize the history section to access your most used options.</div>
       </a>
