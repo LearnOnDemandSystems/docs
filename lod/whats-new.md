@@ -31,7 +31,7 @@ LOD is adding a new fabric, to run labs in containers. Currently data centers ha
 
 **Exposed Ports in Docker Labs**
 - Lab authors will now have the ability to reference host and/or port values independently of the overall address. Many applications reference addresses differently than the standard host:port syntax, so making the components available independently will allow maximum flexibility.
-    - @lab.Container(alias).ExposedPort(exposedPortValue).Address (same value as the current one) 
+    - @lab.Container(alias).ExposedPort(exposedPortValue).Address 
     - @lab.Container(alias).ExposedPort(exposedPortValue).HostPort 
     - @lab.Container(alias).ExposedPort(exposedPortValue).HostName 
 
@@ -39,7 +39,7 @@ LOD is adding a new fabric, to run labs in containers. Currently data centers ha
 - When a docker container lab is saved and resumed, the resume message now says  This shouldn't take long.
 
 **Lab Display Delay and Custom Message**
-- Lab profiles can now be configured with a time delay and a custom message, while the lab is loading. You can configured these options on the Advanced tab of a lab profile. This feature is available on all lab types in LOD (Hyper-V, WMware, Azure, AWS, Docker). This was done to provide a more seamless lab experience in labs when additional services are deployed when the lab is launched and are needed to be ready and displayed when the lab launches.
+- Lab profiles can now be configured with a time delay and a custom message, while the lab is loading. You can configured these options on the Advanced tab of a lab profile. This feature is available on all lab types in LOD (Hyper-V, VMware, Azure, AWS, Docker). This was done to provide a more seamless lab experience in labs when additional services are deployed when the lab is launched and are needed to be ready and displayed when the lab launches.
 
 **Azure Lab Host Management Service Improvements**
 - The Azure lab host management services has been updated with some improvements that will help improve performance, resilience, scalability and long-term maintainability. 
@@ -69,7 +69,7 @@ LOD is adding a new fabric, to run labs in containers. Currently data centers ha
 **IDL (legacy) Exam Tab**
 - The Exam tab has been removed from the lab profile editor. All legacy exams have been migrated to IDLx.
 
-**Cloud Subscription Improvements**
+**Azure Cloud Subscription Improvements**
 - Azure cloud subscriptions now have an option to enable billing reporting when editing an existing subscription or creating a new subscription.
 
 **Bug Fixes and Improvements**
