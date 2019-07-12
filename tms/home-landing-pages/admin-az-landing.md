@@ -19,7 +19,7 @@
     <div class="subtopic_header" tabindex="0" title="Instructor Docs" role="button" aria-selected="true" selected>A-Z Index</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/tms-achievement-conditions.md">
-        <div class="subtopic_title">Achievements JSON Help and Best Practices</div>
+        <div class="subtopic_title">Achievements JSON Help and Examples</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/rearrange-items-on-site-administration.md">
         <div class="subtopic_title">Can I rearrange items on the Site Administration page?</div>
@@ -242,9 +242,6 @@
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/surveys.md">
         <div class="subtopic_title">How do surveys work?</div>
-      </a>
-         <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/tms-achievement-conditions.md">
-        <div class="subtopic_title">Achievements JSON Help and Examples</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/class-or-custom-event-or-course-assignment-to-schedule-training.md">
         <div class="subtopic_title">Should I use a Class or a Custom Event or a Course Assignment to schedule training?</div>
