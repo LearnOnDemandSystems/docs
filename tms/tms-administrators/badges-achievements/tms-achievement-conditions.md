@@ -30,15 +30,16 @@ Here are some example achievements and their conditions to earn the achievement:
 **Example 2**: Specified course completion achievement, such as a user needs to complete the “Security Fundamentals Bootcamp” course with an ID of 2345:
 > [{Subject:10, CourseIds:[2345], Complete:True}]
 
-Example 3: Specified course type with multiple completions achievement, such as a user needs to complete 3 courses tagged with the “Database” course tag has an ID of 59:
+**Example 3**: Specified course type with multiple completions achievement, such as a user needs to complete 3 courses tagged with the “Database” course tag has an ID of 59:
 > [{Subject:20, Count:3, CourseTagIds:[59], Complete:True}]
 
-Example 4: Specified Learning Path completion with passed exam at the end, such as a user needs to complete all 4 courses in the “Cloud Technologies Expert” learning path (CourseIds of 1583, 1584, 1585, and 1586) and pass the final exam lab in it (ID 54671):
+**Example 4**: Specified Learning Path completion with passed exam at the end, such as a user needs to complete all 4 courses in the “Cloud Technologies Expert” learning path (CourseIds of 1583, 1584, 1585, and 1586) and pass the final exam lab in it (ID 54671):
 
 > [
     {Subject:20, Count:4, CourseIds:[ 1583,1584,1585,1586], Complete:True},
     {Subject:0, LabProfileIds:[54671], Count:1, Passed:True}
 ]
+
 
 The following name:value pairs are some that can be used to configure JSON Conditions in TMS. IDs can be found in the URL for the entity in the TMS.
 
