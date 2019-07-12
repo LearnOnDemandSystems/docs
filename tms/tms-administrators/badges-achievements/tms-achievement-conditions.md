@@ -1,4 +1,4 @@
-# Achievements JSON Help and Best Practices
+# Achievements JSON Help and Examples
 
 Achievement Conditions are structured using JSON format. 
 
@@ -22,6 +22,7 @@ JSON conditions in the TMS should start with the Subject name:value pair, **Subj
 - Course Tag = **20**
 - User Achievement = **40**
 
+## Examples
 Here are some example achievements and their conditions to earn the achievement:
 
 **Example 1**: Specific lab completion achievement, such as a user needs to complete the “Configure SQL Server” lab with an ID of 98765 once:
@@ -40,7 +41,7 @@ Here are some example achievements and their conditions to earn the achievement:
     {Subject:0, LabProfileIds:[54671], Count:1, Passed:True}
 ]
 
-
+## Name:Value Pairs
 The following name:value pairs are some that can be used to configure JSON Conditions in TMS. IDs can be found in the URL for the entity in the TMS.
 
 - **LabProfileIds:[X]**
