@@ -1,4 +1,4 @@
-# TAchievements JSON Help and Best Practices
+# Achievements JSON Help and Best Practices
 
 Achievement Conditions are structured using JSON format. 
 
