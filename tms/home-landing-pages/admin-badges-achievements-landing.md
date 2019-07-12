@@ -34,7 +34,7 @@
         <div class="subtopic_title">How do I create an achievement?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/tms-achievement-conditions.md">
-        <div class="subtopic_title">Achievements JSON Help and Best Practices</div>
+        <div class="subtopic_title">Achievements JSON Help and Examples</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/find-achievements.md">
         <div class="subtopic_title">How do I find what achievements my students have earned?</div>
