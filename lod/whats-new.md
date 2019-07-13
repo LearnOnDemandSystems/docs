@@ -8,6 +8,75 @@
 
 # What's New in Lab On Demand
 
+## **Released July 12, 2019**
+
+**Docker as a Lab Fabric**
+
+LOD is adding a new fabric, to run labs in containers. Currently data centers have lab hosts to run virtual machines, but we will soon be adding lab hosts to run containers. This release of Docker containers is for internal use only and will be enabled for the public at a later date.
+
+- Docker will be configurable on lab profiles, in the same drop-down where you would select Hyper-V or vSphere. 
+- The user experience will be similar to Linux SSH labs, where there is no desktop UI for the student to interact with. 
+- Running labs in containers results in labs that can be launched much quicker than a traditional VM-based lab. 
+- Running labs in a Docker container will be particularly exciting for Linux labs. Linux environments will be ready for student use in a matter of seconds, instead of minutes. This is because each Linux sub-system does not need to be loaded per lab instance, as most of the files needed for the lab are already running on the Docker lab host. 
+- Containers enable Linux labs to perform similar to a Windows-based VM with improved mouse support. 
+
+- Docker fabric v1 will include support for:
+    - Load balancing across hosts
+    - Lab save/resume support
+    - Multiple containers
+    - Split window support 
+    - Activity based assessments (ABA). 
+    - Life Cycle Actions (LCA)
+    - ABA and LCA in containers use Bash for scripting and scoring. Refer to the [Activities documentation](https://docs.learnondemandsystems.com/lod/activities.md) for more information about Bash scripts.
+
+**Exposed Ports in Docker Labs**
+- Lab authors will now have the ability to reference host and/or port values independently of the overall address. Many applications reference addresses differently than the standard host:port syntax, so making the components available independently will allow maximum flexibility.
+    - @lab.Container(alias).ExposedPort(exposedPortValue).Address 
+    - @lab.Container(alias).ExposedPort(exposedPortValue).HostPort 
+    - @lab.Container(alias).ExposedPort(exposedPortValue).HostName 
+
+**Docker Resume Message**
+- When a docker container lab is saved and resumed, the resume message now says  This shouldn't take long.
+
+**Lab Display Delay and Custom Message**
+- Lab profiles can now be configured with a time delay and a custom message, while the lab is loading. You can configured these options on the Advanced tab of a lab profile. This feature is available on all lab types in LOD (Hyper-V, VMware, Azure, AWS, Docker). This was done to provide a more seamless lab experience in labs when additional services are deployed when the lab is launched and are needed to be ready and displayed when the lab launches.
+
+**Azure Lab Host Management Service Improvements**
+- The Azure lab host management services has been updated with some improvements that will help improve performance, resilience, scalability and long-term maintainability. 
+- Updated all API interactions to help cope with transient Azure service issues. 
+- Moved to an Azure app service for better resilience, reliability and scalability. 
+- Rebuilt on .NET Core, which will improve performance and maintainability. 
+
+**AWS Improvements**
+- AWS cloud subscription names now have a default prefix of Prefix-Platform Instance ID-Subscription ID. If a prefix is defined in the automation settings of a cloud subscription, the prefix will be appended to the default prefix. This was done to make subscription names more human readable, as well as helping to determine which account in AWS is associated with which cloud subscription in LOD.
+
+**AWS Services**
+
+- Support for additional AWS services have been enabled in LOD. These services can be used in labs that use AWS services.
+    - AWS OpsWorks
+    - AWS OpsWorks Configuration Management
+    - AWS Secrets Manager
+    - Amazon Athena
+    - Amazon Cognito User Pools
+    - Amazon Kinesis
+    - Amazon Kinesis Analytics
+    - Amazon Kinesis Firehose
+    - Amazon Kinesis Video Streams
+    - Amazon Route 53
+    - AWS Step Functions
+    - Auto Scaling Plans
+
+**IDL (legacy) Exam Tab**
+- The Exam tab has been removed from the lab profile editor. All legacy exams have been migrated to IDLx.
+
+**Azure Cloud Subscription Improvements**
+- Azure cloud subscriptions now have an option to enable billing reporting when editing an existing subscription or creating a new subscription.
+
+**Bug Fixes and Improvements**
+- Cloud subscription pages now have a link to find lab instances for the subscription. This is helpful for determining the use of a specific cloud subscription within LOD. 
+- Fixed a bug that would prevent a non-super user from being able to select Docker from the available virtualization platforms when creating a lab profile.
+- Fixed a bug that prevented VMs from being cloned using Save As from a VM profile.
+
 ## **Released July 5, 2019**
 
 **IDLx Improvements**
