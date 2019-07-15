@@ -7,7 +7,7 @@ Below is a list of **currently supported** and **planned support** Amazon Web Se
 |[Alexa for Business](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_alexaforbusiness.html)|A4B|currently supported|||
 |[Amazon API Gateway](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonapigateway.html)|execute-api|currently supported|||
 |[Amazon AppStream 2.0](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonappstream2.0.html)|appstream|planned|||
-|[Amazon Athena](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonathena.html)|athena|planned|||
+|[Amazon Athena](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonathena.html)|athena|currently supported|||
 |[Amazon Chime](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonchime.html)|chime|planned|||
 |[Amazon Cloud Directory](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_alexaforbusiness.html)|clouddirectory|currently supported|||
 |[Amazon CloudSearch](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncloudsearch.html)|cloudsearch|currently supported|||
@@ -17,7 +17,7 @@ Below is a list of **currently supported** and **planned support** Amazon Web Se
 |[Amazon CloudFront](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncloudfront.html)|cloudfront|planned|||
 |[Amazon Cognito Identity](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncognitoidentity.html)|cognito-identity|planned|||
 |[Amazon Cognito Sync](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncognitosync.html)|cognito-sync|planned|||
-|[Amazon Cognito User Pools](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncognitouserpools.html)|cognito-idp|planned|||
+|[Amazon Cognito User Pools](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncognitouserpools.html)|cognito-idp|currently supported|||
 |[Amazon Comprehend](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncomprehend.html)|comprehend|planned|||
 |[Amazon Connect](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonconnect.html)|connect|planned|||
 |[Amazon DynamoDB](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazondynamodb.html)|dynamodb|currently supported|||
@@ -37,9 +37,9 @@ Below is a list of **currently supported** and **planned support** Amazon Web Se
 |[Amazon GuardDuty](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonguardduty.html)|guardduty|planned|||
 |[Amazon Inspector](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoninspector.html)|inspector|planned|||
 |[Amazon Kinesis](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonkinesis.html)|kinesis|planned|||
-|[Amazon Kinesis Analytics](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonkinesisanalytics.html)|kinesisanalytics|planned|||
-|[Amazon Kinesis Firehose](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonkinesisfirehose.html)|firehose|planned|||
-|[Amazon Kinesis Video Streams](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonkinesisvideostreams.html)|kinesisvideo|planned|||
+|[Amazon Kinesis Analytics](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonkinesisanalytics.html)|kinesisanalytics|currently supported|||
+|[Amazon Kinesis Firehose](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonkinesisfirehose.html)|firehose|currently supported|||
+|[Amazon Kinesis Video Streams](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonkinesisvideostreams.html)|kinesisvideo|currently supported|||
 |[Amazon Lex](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonlex.html)|lex|planned|||
 |[Amazon Lightsail](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonlightsail.html)|lightsail|planned|||
 |[Amazon Machine Learning](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonmachinelearning.html)|machinelearning|currently supported|||
@@ -108,19 +108,19 @@ Below is a list of **currently supported** and **planned support** Amazon Web Se
 |[AWS Marketplace Metering Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsmarketplacemeteringservice.html)|N/A|planned|||
 |[AWS Migration Hub](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsmigrationhub.html)|N/A|planned|||
 |[AWS Mobile Hub](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsmobilehub.html)|N/A|planned|||
-|[AWS OpsWorks](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsopsworks.html)|opsworks-cm|planned|||
-|[AWS OpsWorks Configuration Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsopsworksconfigurationmanagement.html)|N/A|planned|||
+|[AWS OpsWorks](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsopsworks.html)|opsworks-cm|currently supported|||
+|[AWS OpsWorks Configuration Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsopsworksconfigurationmanagement.html)|N/A|currently supported|||
 |[AWS Organizations](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsorganizations.html)|N/A|planned|||
 |[AWS Performance Insights](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsperformanceinsights.html)|pi|planned|||
 |[AWS Price List](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awspricelist.html)|pricing|planned|||
 |[AWS Resource Groups](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsresourcegroups.html)|resource-groups|planned|||
 [Amazon S3](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazons3.html)|s3|currently supported|||
-|[AWS Secrets Manager](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awssecretsmanager.html)|secretsmanager|planned|||
+|[AWS Secrets Manager](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awssecretsmanager.html)|secretsmanager|currently supported|||
 |[AWS Security Token Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awssecuritytokenservice.html)|sts|planned|||
 |[AWS Serverless Application Repository](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsserverlessapplicationrepository.html)|serverlessrepo|planned|||
 |[AWS Service Catalog](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsservicecatalog.html)|servicecatalog|planned|||
 |[AWS Shield](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsshield.html)|shield|planned|||
-|[AWS Step Functions](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsstepfunctions.html)|states|planned|||
+|[AWS Step Functions](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsstepfunctions.html)|states|currently supported|||
 |[Amazon Storage Gateway](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonstoragegateway.html)|storagegateway|planned|||
 |[AWS Support](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awssupport.html)|support|planned|||
 |[AWS Trusted Advisor](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awstrustedadvisor.html)|trustedadvisor|planned|||
