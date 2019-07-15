@@ -77,7 +77,8 @@
         <div class="subtopic_title">How do I add an assessment to a course?</div>
       </a>
     </div>
-    <div class="subtopic">
+  </div>
+  <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="Admin Courses and Activities A-Z Docs" role="button" aria-selected="false">A-Z Index</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/capture-user-data-for-externally-hosted-activities.md">
