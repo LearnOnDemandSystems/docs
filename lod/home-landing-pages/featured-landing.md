@@ -24,11 +24,15 @@
       </a>
       <a class="subtopic_link" href="/lod/aws-capabilities.md">
         <div class="subtopic_title">Amazon Web Services API Capabilities</div>
-        <div class="subtopic_description">A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation. Below the table is a brief description for each service name.</div>
+        <div class="subtopic_description">A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation.</div>
       </a>
       <a class="subtopic_link" href="/lod/how-to-use-api-consumer.md">
         <div class="subtopic_title">API Best Practices and How to Use an API Consumer</div>
         <div class="subtopic_description">Guides through the steps to configure an API Consumer in LOD, as well as best practices.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/terminal-access.md">
+        <div class="subtopic_title">SSH Terminal Access</div>
+        <div class="subtopic_description">Configure virtual machines for SSH terminal access.</div>
       </a>
     </div>
   </div>
