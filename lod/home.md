@@ -24,10 +24,10 @@
         </a>
       </div>
       <div class="category">
-        <a href="/lod/terminal-access.md" class="categoryThread">
+        <a href="/lod/container-images.md" class="categoryThread">
           <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
-          <span class="categoryTitleFeatured" title="SSH Terminal Access">SSH Terminal Access</span>
-          <span class="categoryDescription" title="Configure virtual machines for SSH terminal access.">Configure virtual machines for SSH terminal access.</span>
+          <span class="categoryTitleFeatured" title="Container Images">Container Images</span>
+          <span class="categoryDescription" title="Create Docker container images to use in lab profiles.">Create Docker container images to use in lab profiles.</span>
         </a>
       </div>
       <div class="viewAll"><a href="/lod/home-landing-pages/featured-landing.md" tabindex="0" class="viewAllLink" title="View all" aria-label="View all Featured Posts">View all</a></div>
@@ -67,12 +67,12 @@
       </div>
     </div>
 
-    <!-- Card - Virtual Machine Lab Development 
+    <!-- Card - Virtualization Lab Development 
           Max of 3 items - replace href (link), text in categoryTitle
     -->
     <div class="cardContainer">
       <div class="vmLabDev cardContent">
-        <div class="cardHeader" tabindex="0" title="Virtual Machine Lab Development" aria-label="Virtual Machine Lab Development Docs">Virtual Machine Lab Development</div>
+        <div class="cardHeader" tabindex="0" title="Virtualization Lab Development" aria-label="Virtualization Lab Development Docs">Virtualization Lab Development</div>
         <div class="category">
           <a href="../lod/idlx-development-best-practices.md" class="categoryThread">
             <i class="material-icons light-green" aria-hidden="true">input</i>

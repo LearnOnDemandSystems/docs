@@ -54,10 +54,14 @@
         <div class="subtopic_title">Cloud Slice Setup Guide</div>
         <div class="subtopic_description">Comprehensive setup guide for configuring a Cloud Slice lab with Lab on Demand and Microsoft Azure or Amazon Web Services.</div>
       </a>
+      <a class="subtopic_link" href="/lod/container-images.md">
+        <div class="subtopic_title">Container Images</div>
+        <div class="subtopic_description">Create Docker container images to use in lab profiles. </div>
+      </a> 
       <a class="subtopic_link" href="/lod/create-cloud-subscription-pool.md">
         <div class="subtopic_title">Create a Cloud Subscription Pool</div>
         <div class="subtopic_description">Create a Cloud Subscription Pool to load balance labs across your cloud subscriptions.</div>
-      </a>
+      </a>             
       <a class="subtopic_link" href="/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md">
         <div class="subtopic_title">Create a an Azure Resource Template and Resource Group Configuration</div>
         <div class="subtopic_description">Create a Resource Template and Configure it into a Resource Group.</div>
