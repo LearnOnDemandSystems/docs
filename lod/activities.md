@@ -23,6 +23,7 @@ Next, you should decide what type of Activity you would like to create -- Questi
 Click to go to a specific section, or continue reading to learn more about creating Activities in your lab. 
 
 - [Automated Activities](#automated-activities)
+    - [Virtual Machine Requirements](#requirements)
     - [Automated Activity Syntax](#automated-activity-syntax)
     - [Automated Activity Creation](#automated-activity-creation)
     - [Automated Activity Output](#automated-activity-output)
@@ -41,11 +42,45 @@ Click to go to a specific section, or continue reading to learn more about creat
 
 Automated Activities are PowerShell Windows command Shell Shell scripts that target a Cloud Subscription, or virtual machine running on Hyper-V or VMware in the lab. Cloud Subscriptions are targeted by a PowerShell script, and Windows-based virtual machines can be targeted by both PowerShell and Shell. Automated Activities support using @lab replacement tokens in scripts as well. Automated Activities can be used to help make sure the student has configured their lab environment correctly, help the student understand mistakes that are made in their lab, as well as give the student confirmation that they are completing the lab instructions correctly. Automated Activities can also be used to automate any configuration or lab steps that you wish to automate. 
 
+### Virtual Machine Requirements
+
+**Hyper-V**:
+
+- LOD Integration services are not required to be installed but it is recommended, to enable features such as screen resizing. 
+
+- Supported Operating Systems:
+    - Windows 10
+    - Windows Server 2016
+    - Windows Server 2019  
+
+- The VM must support Hyper-V PowerShell Direct. There are no additional steps to install or configure PowerShell Direct, but the VM must support it. 
+
+>[!knowledge] PowerShell Direct can be used to remotely manage a Windows 10, Windows Server 2016, or Windows Server 2019 virtual machine from a Windows 10, Windows Server 2016, or Windows Server 2019 Hyper-V host. 
+>
+>PowerShell Direct allows Windows PowerShell management inside a virtual machine regardless of the network configuration or remote management settings on either the Hyper-V host or the virtual machine. This makes it easier for Hyper-V Administrators to automate and script virtual machine management and configuration. For more information about PowerShell Direct, read [Manage Windows virtual machines with PowerShell Direct](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/manage/manage-windows-virtual-machines-with-powershell-direct).
+
+
+**VMware**: 
+
+- VMware Tools must be installed.
+
+- PowerShell must be installed on the VM.
+
+- Supported Operating Systems:
+    - Windows 7
+    - Windows 7 
+    - Windows 8 
+    - Windows 10
+    - Windows Server 2008
+    - Windows Server 2012
+    - Windows Server 2016
+    - Windows Server 2019
+
 ### Automated Activity Syntax
 
 Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there is additional syntax that can be used. 
 
-- Setting Lab Variables: sets a variable that can be recalled in subsequent lab instructions using @lab replacement tokens, as many times as neccessary. 
+- Setting Lab Variables: sets a variable that can be recalled in subsequent lab instructions using @lab replacement tokens, as many times as necessary. 
 
 - Sending Lab Notifications: Sends a a popup notification to the lab, using the text specified in the syntax.
 
