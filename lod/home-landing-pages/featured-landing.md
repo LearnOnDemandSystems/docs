@@ -30,6 +30,10 @@
         <div class="subtopic_title">API Best Practices and How to Use an API Consumer</div>
         <div class="subtopic_description">Guides through the steps to configure an API Consumer in LOD, as well as best practices.</div>
       </a>
+      <a class="subtopic_link" href="/lod/container-images.md">
+        <div class="subtopic_title">Container Images</div>
+        <div class="subtopic_description">Create Docker container images to use in lab profiles.</div>
+      </a>      
       <a class="subtopic_link" href="/lod/terminal-access.md">
         <div class="subtopic_title">SSH Terminal Access</div>
         <div class="subtopic_description">Configure virtual machines for SSH terminal access.</div>
