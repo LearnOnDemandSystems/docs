@@ -16,7 +16,7 @@ To create a publishing group:
 
 The next Best Practice steps for creating a publishing group are: 
 1. Add courses (see [How do I add a course to my publishing group?](add-courses-to-publishing-group.md))
-1. After an authorization form has been completed with LODS for an organization, add them as a Published Organization (see [How do I designate an organization as a Published Organization for my publishing group?](add-published-orgs-to-publishing-group.md)).
+1. After an authorization form has been completed with LODS for an organization, the LODS Operations team will add them as a Published Organization (see [How do I designate an organization as a Published Organization for my publishing group?](add-published-orgs-to-publishing-group.md)).
 
 ## Related Articles
 

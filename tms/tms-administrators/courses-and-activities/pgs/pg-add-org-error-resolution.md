@@ -6,7 +6,7 @@ To do this:
  1. On the **Admin** menu in the **Courses** group, click **Find Courses**. This will bring up the Find Courses search page. 
  1. Click the **Add filter** dropdown.
  1. Select the **Publishing Group (Choose)** appropriate filter(s). 
- 1. In the **Choose Publishing Group** dialog, search for and select thecourse and click **OK**.
+ 1. In the **Choose Publishing Group** dialog, search for and select the course and click **OK**.
  1. Click **Search**. The search results will list all of the courses in that publishing group.
  1. Export the results.
  1. For each course, use the steps in the [How do I find what organizations have access to a course through other publishing groups?](pg-add-pg-error-resolution.md) article to cross-check where this organization already may have access to it.

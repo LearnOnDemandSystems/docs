@@ -11,9 +11,10 @@ There are two types of access to publishing groups that can be granted:
 Published organizations are only able to have access to a course through one publishing group at a time. Therefore, the Best Practice steps for creating a publishing group are as follows:
 
 1. Create the publishing group (see [How do I create a Publishing Group?](create-publishing-group.md)).
+    1. An internal Publishing Group will automatically be created for your organization if you are creating proprietary content.
 1. Add the ability for sub-organizations to add their content.
 1. Add courses (see [How do I add a course to my publishing group?](add-courses-to-publishing-group.md)).
-1. After an authorization form has been completed with LODS for an organization, add them as a Published Organization (see [How do I designate an organization as a Published Organization for my publishing group?](add-published-orgs-to-publishing-group.md)).
+1. After an authorization form has been completed with LODS for an organization, the LODS Operations team will add them as a Published Organization (see [How do I designate an organization as a Published Organization for my publishing group?](add-published-orgs-to-publishing-group.md)).
 
 ## Related Articles
 

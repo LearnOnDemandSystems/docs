@@ -4,18 +4,19 @@
 
 For other organizations to consume your courses through their classes and course assignments, they must belong to your publishing group. 
 
-Now that you have created your publishing group for a specific audience and have added it to your courses, the third Best Practice step is to add the published organizations. This is handled through an authorization form with LODS in the same manner as was done for content providers.
+Now that you have created your publishing group for a specific audience and have added it to your courses, the third Best Practice step is to add the published organizations. This is handled through an authorization form with LODS in the same manner as was done for content providers. If you would like to start offering your proprietary content to other LODS customers, please reach out to your Account Executive.
 
-Once the authorization process has been completed,
+Once the authorization process has been completed, the LODS Operations team will add the requested organization to the Published Organizations list of the publishing group.
+
+To remove an organization's access to a publishing group, the organization can be removed from the Published Organizations list:
 
 1. Navigate to the publishing group and click **Edit**.
-1. On the **Published Organizations** tab, click **Add Organizations**.
-1. In the **Choose Organizations** dialog, search for and select the organizations that will have access to consume your courses through the publishing group and click **OK**.
+1. On the **Published Organizations** tab, click the **X** next to the organization you would like to remove.
 1. Click **Save** to save the change.
 
-> [!ALERT] Organizations are only allowed to have access to a course through one publishing group. Therefore, you may receive an error message: **[The organization] cannot be added because it already has access to one or more of the courses within the group from another Publishing Group.** If this occurs, please read [How do I find what courses belong to a publishing group?](pg-add-org-error-resolution.md)
+> [!NOTE] Removing access to content from an organization will not automatically alert the organization. Classes that are currently running or have taken place in the past will not be affected. Students in these classes will still be able to launch the labs until their regular access has expired.
 
- ... [Jeanna, will orgs be able to add published orgs (POs) to their publishing groups or will you be doing that for them? It seems odd that we would write out how to add the POs if the customer will not be given that permission.]
+> [!ALERT] Organizations are only allowed to have access to a course through one publishing group. Therefore, you may receive an error message: **[The organization] cannot be added because it already has access to one or more of the courses within the group from another Publishing Group.** If this occurs, please read [How do I find what courses belong to a publishing group?](pg-add-org-error-resolution.md)
 
 ## Related Articles
 
