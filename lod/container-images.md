@@ -30,8 +30,6 @@ Lab on Demand supports using Docker Container Images in labs. Container images a
 
     - **Enabled**: Check the box to enable the container image. 
 
-    - **Public**: Check this box to enable this container image to be used by all organizations in LOD. If this box is not checked, the container image will only be available to use by the owning organization. 
-
 ## Lab Profile Configuration
 
 Container images are configured on lab profiles on the Basic information tab, by selecting Docker as the virtualization platform. 
