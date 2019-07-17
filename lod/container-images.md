@@ -16,7 +16,7 @@ Lab on Demand supports using Docker Container Images in labs. Container images a
 
     - **Organization**: Select the organization that will have permission to edit and use the container image. 
 
-    - **Memory Limit**: Select the amount of memory that the container image will use. 
+    - **Memory Limit**: Select the maximum amount of memory that the container image will use. 
 
     - **Command**: Enter any commands that the container needs to function. If no commands are need, simply leave `bash` in the field. 
 
@@ -24,7 +24,7 @@ Lab on Demand supports using Docker Container Images in labs. Container images a
 
     - **Exposed Ports**: The port(s) that will be exposed on the container. Enter on port value per line. Each exposed port will be dynamically  mapped to an external port on the lab host server when the lab is deployed. The external addresses for exposed ports can be obtained in your labs via @lab tokens. 
 
-        For example, an exposed port of 5000 might be referenced as: `@lab.Container(alias).ExposedPort(exposedPortValue).Address (5000)`.
+        For example, an exposed port of 5000 might be referenced as: `@lab.Container(alias).ExposedPort(exposedPortValue).Address`.
 
         Please note that the external port will most likely **not** be the same as the container's exposed port. The external port is 100% dynamic and not something that can be directly controlled. 
 
