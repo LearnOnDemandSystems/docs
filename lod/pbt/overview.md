@@ -9,6 +9,7 @@
         - [Activity Based Assessments](#aba)
         - [Performance Based Testing](#pbt)
     1. [Configuring Items](#config)
+        - [Virtual Machine Requirements](#requirements)
         - [Automated Scoring Best Practices](#auto-bp)
 1. [Examples](#examples)
     1. [Scoring Script Samples](#scripts)
@@ -18,7 +19,7 @@
 The Lab on Demand platform supports the ability to score users either in an exam/quiz format or within a hands-on lab. The options for what can be scored are plentiful and can be mixed and matched within a single scenario.
 
 Scorable items include:
-- Windows and Linux virtual machine configurations
+- Windows, Windows Server and Linux virtual machine configurations
 - Cloud subscription configurations
 - Multiple choice questions (Select 1 or Select Multiple)
 - Short answer questions (with either precise or flexible answers)
@@ -46,7 +47,7 @@ In this format, while a user progresses through a course or hands-on lab they ar
 
 #### **Performance Based Testing** {pbt}
 
-This format, similar to Activity Based Assessments, engages the user directly and allows for skills validation. This can be used in small scenarios such as ensuring users learned some of the key topics within a course, or grander scenarios such as technical certification exams. While Activity Based Assessments are best used for user engagement in learning by providing valuable feeback, Performance Based Testing excels in validating retention after learning.
+This format, similar to Activity Based Assessments, engages the user directly and allows for skills validation. This can be used in small scenarios such as ensuring users learned some of the key topics within a course, or grander scenarios such as technical certification exams. While Activity Based Assessments are best used for user engagement in learning by providing valuable feedback, Performance Based Testing excels in validating retention after learning.
 
 In this format, a user is expected to complete a series of tasks and then, similar to Traditional Exams/Quizzes, submit everything at the end for scoring to be presented with a grade. Unlike Activity Based Assessments, users do not receive verbose feedback for every item as they progress.
 
@@ -58,6 +59,40 @@ Traditional items will have pre-defined structures, while hands-on items that ar
 
 - [What is PowerShell?](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-6)
 - [What is BASH?](https://www.gnu.org/software/bash/manual/html_node/index.html)
+
+#### Virtual Machine Requirements {requirements}
+
+**Hyper-V**:
+
+- LOD Integration services are not required to be installed but it is recommended, to enable features such as screen resizing. 
+
+- Supported Operating Systems:
+    - Windows 10
+    - Windows Server 2016
+    - Windows Server 2019  
+
+- The VM must support Hyper-V PowerShell Direct. There are no additional steps to install or configure PowerShell Direct, but the VM must support it. 
+
+>[!knowledge] PowerShell Direct can be used to remotely manage a Windows 10, Windows Server 2016, or Windows Server 2019 virtual machine from a Windows 10, Windows Server 2016, or Windows Server 2019 Hyper-V host. 
+>
+>PowerShell Direct allows Windows PowerShell management inside a virtual machine regardless of the network configuration or remote management settings on either the Hyper-V host or the virtual machine. This makes it easier for Hyper-V Administrators to automate and script virtual machine management and configuration. For more information about PowerShell Direct, read [Manage Windows virtual machines with PowerShell Direct](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/manage/manage-windows-virtual-machines-with-powershell-direct).
+
+
+**VMware**: 
+
+- VMware Tools must be installed.
+
+- PowerShell must be installed on the VM.
+
+- Supported Operating Systems:
+    - Windows 7
+    - Windows 7 
+    - Windows 8 
+    - Windows 10
+    - Windows Server 2008
+    - Windows Server 2012
+    - Windows Server 2016
+    - Windows Server 2019
 
 #### **Automated Scoring Best Practices** {auto-bp}
 

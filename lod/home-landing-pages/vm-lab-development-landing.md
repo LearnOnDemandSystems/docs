@@ -13,7 +13,7 @@
     4. Ensure to add the new document in A-Z index
 -->
 
-<div class="categoriesHeader" tabindex="0" title="Virtual Machine Lab Development Docs Container">Virtual Machine Lab Development</div>
+<div class="categoriesHeader" tabindex="0" title="Virtualization Lab Development Docs Container">Virtualization Lab Development</div>
 <div class="accordionModule">
   <div class="subtopic selected">
     <div id="header_1" class="subtopic_header" tabindex="0" title="Lab Instruction Authoring Docs" role="button" aria-selected="true" selected>Lab Instruction Authoring</div>
@@ -40,6 +40,10 @@
         <div class="subtopic_description">Controls which websites can be accessed in the lab, by using blacklists and whitelists.</div>
       </a>
       </a>
+      <a class="subtopic_link" href="/lod/container-images.md">
+        <div class="subtopic_title">Container Images</div>
+        <div class="subtopic_description">Create Docker container images to use in lab profiles. </div>
+      </a>       
       <a class="subtopic_link" href="/lod/create-removable-media.md">
         <div class="subtopic_title">Create Removable Media</div>
         <div class="subtopic_description">Removable Media to be used with virtual machines.</div>

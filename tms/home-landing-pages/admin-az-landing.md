@@ -18,6 +18,9 @@
   <div class="subtopic selected">
     <div class="subtopic_header" tabindex="0" title="Instructor Docs" role="button" aria-selected="true" selected>A-Z Index</div>
     <div class="subtopic_links">
+      <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/tms-achievement-conditions.md">
+        <div class="subtopic_title">Achievements JSON Help and Examples</div>
+      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/rearrange-items-on-site-administration.md">
         <div class="subtopic_title">Can I rearrange items on the Site Administration page?</div>
       </a>
@@ -123,11 +126,20 @@
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/add-video.md">
         <div class="subtopic_title">How do I add videos to my course?</div>
       </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/associate-badge.md">
+        <div class="subtopic_title">How do I associate a badge with an achievement?</div>
+      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/change-class-enrollment-status-and-which-to-use.md">
         <div class="subtopic_title">How do I change a class enrollment status and which one should I use?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/change-enrollments-completion-status-and-which-to-use.md">
         <div class="subtopic_title">How do I change an enrollment's completion status and which one should I use?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/create-badge.md">
+        <div class="subtopic_title">How do I create a badge?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/create-badge-provider.md">
+        <div class="subtopic_title">How do I create a Badge Provider in the TMS?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/create-course.md">
         <div class="subtopic_title">How do I create a basic course?</div>
@@ -152,6 +164,9 @@
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/create-achievements-to-motivate-learners.md">
         <div class="subtopic_title">How do I create achievements to motivate learners?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/create-achievements-to-motivate-learners.md">
+        <div class="subtopic_title">How do I create an achievement?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classrooms.md">
         <div class="subtopic_title">How do I create classrooms?</div>
@@ -188,6 +203,9 @@
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/find-users.md">
         <div class="subtopic_title">How do I find users?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/find-achievements.md">
+        <div class="subtopic_title">How do I find what achievements my students have earned?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/custom-landing-page.md">
         <div class="subtopic_title">How do I have users land on a custom page when logging in?</div>
@@ -251,6 +269,9 @@
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/discussions/what-is-discussion.md">
         <div class="subtopic_title">What is a discussion and how can I use it to increase student interaction in their learning?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/badge-process.md">
+        <div class="subtopic_title">What is involved in creating external badges?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/admin-menu.md">
         <div class="subtopic_title">What is the Admin menu and how does it work?</div>
