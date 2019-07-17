@@ -12,10 +12,12 @@ To add a course to a publishing group:
 1. In the **Choose Publishing Groups** dialog, search for and select the publishing groups and click **OK**.
 1. Click **Save** to save the change.
 
+Courses can be removed from a publishing group at any time. Organizations that had access to the course as a Published Organization will lose access for future scheduling. However, removal will not affect past classes and post class access.
+
 > [!ALERT] Organizations are only allowed to have access to a course through one publishing group. Therefore, if this is not the first publishing group on the course and this publishing group already has published organizations, you may receive an error message: **[The publishing group] cannot be added because one or more organizations already have access through an existing Publishing Group.** If this occurs, please read [How do I find what organizations have access to a course through other publishing groups](pg-add-pg-error-resolution.md)
 
 The next Best Practice step for creating a publishing group is: 
-1. After an authorization form has been completed with LODS for an organization, add them as a Published Organization (see [How do I designate an organization as a Published Organization for my publishing group?](add-published-orgs-to-publishing-group.md)).
+1. After an authorization form has been completed with LODS for an organization, the LODS Operations team will add them as a Published Organization (see [How do I designate an organization as a Published Organization for my publishing group?](add-published-orgs-to-publishing-group.md)).
 
 ## Related Articles
 

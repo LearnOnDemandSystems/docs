@@ -111,6 +111,9 @@
       <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/assessments.md">
         <div class="subtopic_title">How do assessments work?</div>
       </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/add-courses-to-publishing-group.md">
+        <div class="subtopic_title">How do I add a course to my publishing group?</div>
+      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/add-assessment.md">
         <div class="subtopic_title">How do I add an assessment to a course?</div>
       </a>
@@ -156,6 +159,9 @@
       <a class="subtopic_link" href="/tms/tms-administrators/discussions/create-discussion.md">
         <div class="subtopic_title">How do I create a discussion and attach it to a course?</div>
       </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/create-publishing-group.md">
+        <div class="subtopic_title">How do I create a Publishing Group?</div>
+      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/create-scorm-module.md">
         <div class="subtopic_title">How do I create a SCORM Module and make it available to other organizations for their courses?</div>
       </a>
@@ -179,6 +185,9 @@
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/create-student-user-accounts.md">
         <div class="subtopic_title">How do I create student user accounts?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/add-published-orgs-to-publishing-group.md">
+        <div class="subtopic_title">How do I designate an organization as a Published Organization for my publishing group?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/enroll-multiple-students.md">
         <div class="subtopic_title">How do I enroll multiple students?</div>
@@ -206,6 +215,12 @@
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/find-achievements.md">
         <div class="subtopic_title">How do I find what achievements my students have earned?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/pg-add-org-error-resolution.md">
+        <div class="subtopic_title">How do I find what courses belong to a publishing group?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/pg-add-pg-error-resolution.md">
+        <div class="subtopic_title">How do I find what organizations have access to a course through other publishing groups?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/custom-landing-page.md">
         <div class="subtopic_title">How do I have users land on a custom page when logging in?</div>
@@ -269,6 +284,9 @@
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/discussions/what-is-discussion.md">
         <div class="subtopic_title">What is a discussion and how can I use it to increase student interaction in their learning?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/what-is-publishing-group.md">
+        <div class="subtopic_title">What is a Publishing Group?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/badge-process.md">
         <div class="subtopic_title">What is involved in creating external badges?</div>
