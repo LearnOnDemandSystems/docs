@@ -1,23 +1,22 @@
 # Object Matching Scoring Sample (Azure PowerShell)
 
 This script contains the following sections:
-- [Define Variables](#om-azps-param)
-- [Retrieve Items to Score](#om-azps-retrieve)
-- [Establish Results](#om-azps-function)
-- [Validate Items Exist](#om-azps-validation)
-- [Scoring and Output](#om-azps-scoring)
-- [Full Script](#om-azps-full)
+- [Define Variables](#om-awsps-param)
+- [Retrieve Items to Score](#om-awsps-retrieve)
+- [Establish Results](#om-awsps-function)
+- [Validate Items Exist](#om-awsps-validation)
+- [Scoring and Output](#om-awsps-scoring)
+- [Full Script](#om-awsps-full)
 
-## Define Variables {om-azps-param}
+## Define Variables {om-awsps-param}
 This is the beginning of our script, in this section we outline the various variables we will use throughout the script.
 
 ```
 param(
     $result = $false,
-    $ItemId = "Storage-1",
-    $LabInstanceID = '@Lab.LabInstance.Id',
-    $resourceGroupName = '@lab.CloudResourceGroup(###).Name',
-    $storageAccountName = "storacct${LabInstanceID}"
+    $ItemId = "VPC-1",
+    $vpcName = 'Lab VPC',
+    $vpcRegion = 'us-east-2'
 )
 ```
 - We begin our script with a "param()" section to easily identify and separate these variables. Containing them within "param()" is optional, but helps with script readability.
@@ -36,12 +35,12 @@ param(
     >
     > By ensuring to use single quotes, it reduces risk of the variable not functioning as you would expect.
 
-## Retrieve Items to Score {om-azps-retrieve}
+## Retrieve Items to Score {om-awsps-retrieve}
 After defining any variables to be used throughout our script, we must obtain any items that may be scored. 
 
 ```
 try{
-    $storageAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name $storageAccountName
+    $vpc = Get-EC2Vpc -Region $vpcRegion -Filter @{Name="tag:Name";Values="$vpcName"}  
 }
 catch{}
 ```
@@ -50,22 +49,22 @@ catch{}
     - This will run the commands within it, and ignore any error messages that may come out.
 - Within the "Try" section of your try/catch, contain each command within a variable so that it can be referenced later.
 
-## Establish Results {om-azps-function}
+## Establish Results {om-awsps-function}
 After establishing the commands needed to retrieve the items desired to score, we must establish what we desire the value of those items to be and what the user's configuration of those items are.
 
 ```
 function Item-Details{
 
     $script:useritem = [pscustomobject]@{
-        'Account Name' = $storageAccount.StorageAccountName
-        Location = $storageAccount.Location
-	    'Access Tier' = $storageAccount.AccessTier
+        'VPC Name' = $vpc.Name
+        'CIDR Block' = $vpc.CIDRblock
+	    'VPC State' = $vpc.VPCstate.Value
     }
 
     $script:correctitem = [pscustomobject]@{
-        'Account Name' = $storageAccountName
-        Location = 'eastus'
-        'Access Tier' = 'Cool'
+        'VPC Name' = $vpcName
+        'CIDR Block' = '10.0.0.0/16'
+        'VPC State' = 'available'
     }
 }
 ```
@@ -76,21 +75,21 @@ function Item-Details{
 - Values for the user's configuration all reference the item(s) we identified and stored in a variable in our last section. We then extract sub-properties that we will specifically be scoring.
 - The values for the correct item are what we expect those user values to be.
 
-## Validate Items Exist {om-azps-validation}
+## Validate Items Exist {om-awsps-validation}
 
 Now that we have established exactly what will be scored, the script must validate that the items exist.
 ```
-if ($storageAccount -ne $null) {
+if ($vpc -ne $null) {
 ```
 - Here we identify the opening of an "if" statement where we check that our scored item exists. 
     - What occurs after validation is outlined in the next section.
 
 > If there were multiple items that needed to validated, we would validate them all in this single if statement. That may make this line look something more like:
 > ```
-> if ($storageAccount -ne $null -and $virtualMachine -ne $null) {
+> if ($vpc -ne $null -and $ec2 -ne $null) {
 > ```
 
-## Scoring and Output {om-azps-scoring}
+## Scoring and Output {om-awsps-scoring}
 
 After establishing what all of the user's settings should be, we must turn them into scored data. This section is where all the actual scoring occurs. This script performs different tasks based on if our previous validation was successful or not.
 
@@ -126,10 +125,10 @@ After establishing what all of the user's settings should be, we must turn them 
 - If the user's items correctly match our expected values, we establish `$result = $True` and provides the user's configuration of the settings for the tested item(s).
     - `$result` is run at the end of the script and if True will inform LOD that the item was correct.
     - Example output:
-        ![](./images/om-azps-correct.png?raw=true){400}
+        ![](./images/om-awsps-correct.png?raw=true){400}
 - If the user's items did not accurately match the expected values, the script outputs both the user's configured settings as-tested as well as what the correct settings would have been.
     - Example output:
-        ![](./images/om-azps-incorrect.png?raw=true){400}
+        ![](./images/om-awsps-incorrect.png?raw=true){400}
 
 ### Validation Unsuccessful
 
@@ -155,45 +154,42 @@ $result
 ```
 1. If one or more tested items were missing, the script outputs either a generic error message if none were obtained or the actual error message of any commands that failed to run. 
     - Generic Message:
-        ![](./images/om-azps-missing.png?raw=true){400}
-    - Collected Errors:
-        ![](./images/om-azps-missing-errors.png?raw=true){400}
+        ![](./images/om-awsps-missing.png?raw=true){400}
 
-## Full Script {om-azps-full}
+## Full Script {om-awsps-full}
 To see all these components together in a single script, expand the section below.
 > [!KNOWLEDGE]
 >
 > ```
 > param(
 >     $result = $false,
->     $ItemId = "Storage-1",
->     $LabInstanceID = "@lab.LabInstance.Id",
->     $resourceGroupName = "@lab.CloudResourceGroup(166).Name",
->     $storageAccountName = "storacctb${LabInstanceID}"
+>     $ItemId = "VPC-1",
+>     $vpcName = 'Lab VPC',
+>     $vpcRegion = 'us-east-2'
 > )
 > 
 > try{
->     $storageAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name $storageAccountName
+>     $vpc = Get-EC2Vpc -Region $vpcRegion -Filter @{Name="tag:Name";Values="$vpcName"}    
 > }
 > catch{}
 > 
 > function Item-Details{
 > 
 >     $script:useritem = [pscustomobject]@{
->         'Account Name' = $storageAccount.StorageAccountName
->         Location = $storageAccount.Location
-> 	    'Access Tier' = $storageAccount.AccessTier
+>         'VPC Name' = $vpc.Name
+>         'CIDR Block' = $vpc.CIDRblock
+>         'VPC State' = $vpc.VPCstate.Value
 >     }
 > 
 >     $script:correctitem = [pscustomobject]@{
->         'Account Name' = $storageAccountName
->         Location = 'eastus'
->         'Access Tier' = 'Cool'
+>         'VPC Name' = $vpcName
+>         'CIDR Block' = '10.0.0.0/16'
+>         'VPC State' = 'available'
 >     }
 > }
 > 
 > 
-> if ($storageAccount -ne $null) {
+> if ($vpc -ne $null) {
 > 
 > # DO NOT EDIT BELOW THIS LINE
 > 

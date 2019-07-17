@@ -55,44 +55,44 @@ In this format, a user is expected to complete a series of tasks and then, simil
 
 Once you have determined which of the formats best fits your desired scoring experience, we need to design scorable items for users to complete. No matter the scoring format you will be utilizing, all scored items on the Lab on Demand platform are configured utilizing the Activity Manager within the lab instruction editor. If you are not already familiar with this tool, please review the ^INSTRUCTIONS[Activities](../activities.md) documentation before moving forward. 
 
-Traditional items will have pre-defined structures, while hands-on items that are scored in an automated fashion are designed by the author using scripting languages - such as PowerShell and BASH - to evaluate the user's environment.
+Traditional items will have pre-defined structures, while hands-on items that are scored in an automated fashion are designed by the author using scripting languages - such as PowerShell and BASH - to evaluate the user's environment. If scoring against a Virtual Machine, be sure to review the ^INSTRUCTIONS[Virtual Machine Requirements][requirements]
 
 - [What is PowerShell?](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-6)
 - [What is BASH?](https://www.gnu.org/software/bash/manual/html_node/index.html)
 
-#### Virtual Machine Requirements {requirements}
-
-**Hyper-V**:
-
-- LOD Integration services are not required to be installed but it is recommended, to enable features such as screen resizing. 
-
-- Supported Operating Systems:
-    - Windows 10
-    - Windows Server 2016
-    - Windows Server 2019  
-
-- The VM must support Hyper-V PowerShell Direct. There are no additional steps to install or configure PowerShell Direct, but the VM must support it. 
-
->[!knowledge] PowerShell Direct can be used to remotely manage a Windows 10, Windows Server 2016, or Windows Server 2019 virtual machine from a Windows 10, Windows Server 2016, or Windows Server 2019 Hyper-V host. 
->
->PowerShell Direct allows Windows PowerShell management inside a virtual machine regardless of the network configuration or remote management settings on either the Hyper-V host or the virtual machine. This makes it easier for Hyper-V Administrators to automate and script virtual machine management and configuration. For more information about PowerShell Direct, read [Manage Windows virtual machines with PowerShell Direct](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/manage/manage-windows-virtual-machines-with-powershell-direct).
-
-
-**VMware**: 
-
-- VMware Tools must be installed.
-
-- PowerShell must be installed on the VM.
-
-- Supported Operating Systems:
-    - Windows 7
-    - Windows 7 
-    - Windows 8 
-    - Windows 10
-    - Windows Server 2008
-    - Windows Server 2012
-    - Windows Server 2016
-    - Windows Server 2019
+> # Virtual Machine Requirements {requirements}
+> 
+> **Hyper-V**:
+> 
+> - LOD Integration services are not required to be installed but it is recommended, to enable features such as screen resizing. 
+> 
+> - Supported Operating Systems:
+>     - Windows 10
+>     - Windows Server 2016
+>     - Windows Server 2019  
+> 
+> - The VM must support Hyper-V PowerShell Direct. There are no additional steps to install or configure PowerShell Direct, but the VM must support it. 
+> 
+> >[!knowledge] PowerShell Direct can be used to remotely manage a Windows 10, Windows Server 2016, or Windows Server 2019 virtual machine from a Windows 10, Windows Server 2016, or Windows Server 2019 Hyper-V host. 
+> >
+> >PowerShell Direct allows Windows PowerShell management inside a virtual machine regardless of the network configuration or remote management settings on either the Hyper-V host or the virtual machine. This makes it easier for Hyper-V Administrators to automate and script virtual machine management and configuration. For more information about PowerShell Direct, read [Manage Windows virtual machines with PowerShell Direct](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/manage/manage-windows-virtual-machines-with-powershell-direct).
+> 
+> 
+> **VMware**: 
+> 
+> - VMware Tools must be installed.
+> 
+> - PowerShell must be installed on the VM.
+> 
+> - Supported Operating Systems:
+>     - Windows 7
+>     - Windows 7 
+>     - Windows 8 
+>     - Windows 10
+>     - Windows Server 2008
+>     - Windows Server 2012
+>     - Windows Server 2016
+>     - Windows Server 2019
 
 #### **Automated Scoring Best Practices** {auto-bp}
 
@@ -124,16 +124,19 @@ While not mandatory in your own designs, all of the output from sample scripts o
 
 The Object Matching Method and the output associated with it is a bit more complex than the If Statement Method, but also tends to be more verbose and reports better information for logging purposes.
 
+- ^INSTRUCTIONS[PowerShell Sample - VM File Creation](./wps-object-match.md)
 - ^INSTRUCTIONS[PowerShell Sample - Azure Storage Account](./azps-object-match.md)
-<!-- - ^INSTRUCTIONS[PowerShell Sample - VM File Creation](./vmps-object-match.md)  -->
+- ^INSTRUCTIONS[PowerShell Sample - AWS VPC Creation](./awsps-if-statement.md)
+
 
 #### **If Statement Method**
 
 The If Statement Method is the most common scoring script method and is typically easier and more flexible to implement. However, in comparison to the Object Matching Method output is typically a bit more basic and requires author definition.
 
+<!-- - ^INSTRUCTIONS[BASH Sample - VM File Creation](./vmbash-if-statement.md) -->
+- ^INSTRUCTIONS[PowerShell Sample - VM File Creation](./wps-if-statement.md)
 - ^INSTRUCTIONS[PowerShell Sample - Azure Storage Account](./azps-if-statement.md)  
-<!-- - ^INSTRUCTIONS[PowerShell Sample - VM File Creation](./vmps-if-statement.md)  -->
-<!-- - ^INSTRUCTIONS[BASH Sample - VM File Creation](./vmbash-if-statement.md)  -->
+- ^INSTRUCTIONS[PowerShell Sample - AWS VPC Creation](./awsps-if-statement.md)
 
 <!--
 ### Sample Lab Experiences {labs}
