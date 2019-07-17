@@ -115,6 +115,7 @@
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/add-courses-to-publishing-group.md">
         <div class="subtopic_title">How do I add a course to my publishing group?</div>
+        </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/add-assessment.md">
         <div class="subtopic_title">How do I add an assessment to a course?</div>
       </a>
