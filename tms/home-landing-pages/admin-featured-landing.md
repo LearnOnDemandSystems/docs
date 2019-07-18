@@ -26,7 +26,7 @@
         <div class="subtopic_title">How do I create a badge?</div>
         <div class="subtopic_description">After creating the Badge Provider entity, the next step is to set up your badges.</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/create-create-achievements-to-motivate-learners.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/create-achievements-to-motivate-learners.md">
         <div class="subtopic_title">How do I create achievements?</div>
         <div class="subtopic_description">You can create achievements that your students earn automatically through their TMS activities.</div>
       </a>
