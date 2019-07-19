@@ -8,6 +8,30 @@
 
 # What's New in Lab On Demand
 
+## **Released July 19, 2019**
+
+**Private Networking in Container Labs**
+
+- Docker containers are now able to communicate with other containers in the same lab instance using a private network. A container network is configured the same was as a VM in LOD -- add a network from the Networks tab and make it available to the container on the Containers tab. 
+ 
+**Deleting Lab Profiles**
+
+- It is now possible to delete a lab profile that has lab instances associated with it. Preventing the lab from being deleted in this scenario isn't necessary, now that lab profiles aren't deleted from the database. 
+
+**API Consumer Configuration**
+
+- Configuration templates have been updated to allow Default Max Lab Instances to be modified on a non-custom API consumer configurations (Per Instance, Per Series Assignment, and Concurrent Usage).
+
+**Azure Resource Deployment Output Data**
+
+- Azure resource templates can now be configured to output data from Azure, back to LOD in the lab instance data. This data can be displayed in the lab via @lab replacement tokens. This is helpful in scenarios when a student needs to RDP or SSH into a VM in Azure, or when information is needed about a deployed resource such as a storage account.  
+
+**Bug Fixes and Improvements**
+- Fixed a bug that prevented the lab extension timer from being extended by the configured amount.
+- Fixed an issue that could cause a lab to not reflect recent changes made. This issue affected a very small number of lab authors. 
+- Fixed a bug that prevented Azure cloud slice labs from deploying resources in the background and allowing the lab to display before resources were deployed. 
+
+
 ## **Released July 12, 2019**
 
 **Docker as a Lab Fabric**
