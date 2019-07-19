@@ -24,7 +24,10 @@ Many fields have default values and/or are optional.  Below is an explanation of
 - **Profile Image URL** - sets the URL of an image to appear on the Course Profile page as well as other browser locations. The image should be in a large format like 16X9. <!-- Please read **How can I control how a course looks and is found on the On-Demand browser and Course Catalog pages?** (coming soon) for more information on these fields. -->
 - **Organization** - identifies the organization that owns the course. It defaults to your organization.
 - **Program** - determines a range of permissions around classes and course assignments for users. The standard default program is Training. 
-- **Duration** - is a legacy billing field. It defaults to 5.
+- **Duration** - is a billing field. It defaults to 5.
+
+>[!ALERT] This field impacts how classes that use the course will be billed. Make sure it accurately reflects the duration of the course activities and instruction. 
+
 - **Training Days** - sets the default number of sessions when a new class is created from the course. It defaults to 5, therefore, classes created from it would be 5 sessions, by default. You can change the number here or it can be overridden at the class level.
 - **Discussion** - assigns a discussion to the course. See [What is a discussion and how can I use it to increase student interaction in their learning?](/tms/tms-administrators/discussions/what-is-discussion.md) for more information on discussions.
 - **Archived** - sets the course to be unavailable for anyone to schedule future classes or course assignments. 

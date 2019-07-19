@@ -8,6 +8,125 @@
 
 # What's New in Lab On Demand
 
+## **Released July 12, 2019**
+
+**Docker as a Lab Fabric**
+
+LOD is adding a new fabric, to run labs in containers. Currently data centers have lab hosts to run virtual machines, but we will soon be adding lab hosts to run containers. This release of Docker containers is for internal use only and will be enabled for the public at a later date.
+
+- Docker will be configurable on lab profiles, in the same drop-down where you would select Hyper-V or vSphere. 
+- The user experience will be similar to Linux SSH labs, where there is no desktop UI for the student to interact with. 
+- Running labs in containers results in labs that can be launched much quicker than a traditional VM-based lab. 
+- Running labs in a Docker container will be particularly exciting for Linux labs. Linux environments will be ready for student use in a matter of seconds, instead of minutes. This is because each Linux sub-system does not need to be loaded per lab instance, as most of the files needed for the lab are already running on the Docker lab host. 
+- Containers enable Linux labs to perform similar to a Windows-based VM with improved mouse support. 
+
+- Docker fabric v1 will include support for:
+    - Load balancing across hosts
+    - Lab save/resume support
+    - Multiple containers
+    - Split window support 
+    - Activity based assessments (ABA). 
+    - Life Cycle Actions (LCA)
+    - ABA and LCA in containers use Bash for scripting and scoring. Refer to the [Activities documentation](https://docs.learnondemandsystems.com/lod/activities.md) for more information about Bash scripts.
+
+**Exposed Ports in Docker Labs**
+- Lab authors will now have the ability to reference host and/or port values independently of the overall address. Many applications reference addresses differently than the standard host:port syntax, so making the components available independently will allow maximum flexibility.
+    - @lab.Container(alias).ExposedPort(exposedPortValue).Address 
+    - @lab.Container(alias).ExposedPort(exposedPortValue).HostPort 
+    - @lab.Container(alias).ExposedPort(exposedPortValue).HostName 
+
+**Docker Resume Message**
+- When a docker container lab is saved and resumed, the resume message now says  This shouldn't take long.
+
+**Lab Display Delay and Custom Message**
+- Lab profiles can now be configured with a time delay and a custom message, while the lab is loading. You can configured these options on the Advanced tab of a lab profile. This feature is available on all lab types in LOD (Hyper-V, VMware, Azure, AWS, Docker). This was done to provide a more seamless lab experience in labs when additional services are deployed when the lab is launched and are needed to be ready and displayed when the lab launches.
+
+**Azure Lab Host Management Service Improvements**
+- The Azure lab host management services has been updated with some improvements that will help improve performance, resilience, scalability and long-term maintainability. 
+- Updated all API interactions to help cope with transient Azure service issues. 
+- Moved to an Azure app service for better resilience, reliability and scalability. 
+- Rebuilt on .NET Core, which will improve performance and maintainability. 
+
+**AWS Improvements**
+- AWS cloud subscription names now have a default prefix of Prefix-Platform Instance ID-Subscription ID. If a prefix is defined in the automation settings of a cloud subscription, the prefix will be appended to the default prefix. This was done to make subscription names more human readable, as well as helping to determine which account in AWS is associated with which cloud subscription in LOD.
+
+**AWS Services**
+
+- Support for additional AWS services have been enabled in LOD. These services can be used in labs that use AWS services.
+    - AWS OpsWorks
+    - AWS OpsWorks Configuration Management
+    - AWS Secrets Manager
+    - Amazon Athena
+    - Amazon Cognito User Pools
+    - Amazon Kinesis
+    - Amazon Kinesis Analytics
+    - Amazon Kinesis Firehose
+    - Amazon Kinesis Video Streams
+    - Amazon Route 53
+    - AWS Step Functions
+    - Auto Scaling Plans
+
+**IDL (legacy) Exam Tab**
+- The Exam tab has been removed from the lab profile editor. All legacy exams have been migrated to IDLx.
+
+**Azure Cloud Subscription Improvements**
+- Azure cloud subscriptions now have an option to enable billing reporting when editing an existing subscription or creating a new subscription.
+
+**Bug Fixes and Improvements**
+- Cloud subscription pages now have a link to find lab instances for the subscription. This is helpful for determining the use of a specific cloud subscription within LOD. 
+- Fixed a bug that would prevent a non-super user from being able to select Docker from the available virtualization platforms when creating a lab profile.
+- Fixed a bug that prevented VMs from being cloned using Save As from a VM profile.
+
+## **Released July 5, 2019**
+
+**IDLx Improvements**
+
+- Code Blocks have received minor changes. Clicking on the copy or type text icons trigger the expected behavior and clicking the code block itself will no longer copy or type text.
+
+## **Released June 28, 2019**
+
+**Bug Fixes and Improvements**
+
+- VMs that are not visible to the student but have the option for _Make lab instance data available inside virtual machine_ selected will no longer inject the username and password into the VM. This was done to prevent a hidden VM from being tampered with by the student. 
+
+    ![](images/make-lab-instance-data-available-in-lab-highlighted.png)
+
+- When a lab profile is deleted, it is now archived instead of purged from our platform entirely. This will preserve usage data, as well as speed up the deletion process. 
+
+- Improved our host health check procedures to reduce the amount of time a student is stuck on the _connection lost_ screen after recovering from a network-related failure.
+
+---
+
+## **Released June 21, 2019**
+
+**IDLx Improvements**
+
+- Code blocks that contain multi line commands will now wrap to the next line, by adding `-wrap` when declaring the code block language. For instance `PowerShell-wrap`.
+
+- Line numbers can now be added to code blocks, by adding `-linenums` when declaring the code block language. For instance `PowerShell-linenums`.
+
+**Bug Fixes and Improvements**
+
+- Fixed a bug that caused @lab replacement tokens not to render in a lab when they were added to the lab instructions using a Markdown include from a GitHub RAW file. 
+
+- Fixed a bug that caused users to be unable to be able to view subscription pool pages, unless they had a permission to view credential pool pages. 
+
+- Fixed an issue that would cause some characters in a cloud credential to render as HTML. 
+
+- Fixed a bug that would cause some developer files uploads to fail.
+
+---
+
+## **Released June 7, 2019**
+
+**Bug Fixes and Improvements**
+
+- Fixed a bug that would prevent files from being deleted from a class after the instructor deleted the file from the Share Files section of the Monitor Labs page.
+
+- Fixed a bug that caused the AWS region selection drop-down menu to display incorrectly on the virtual machine tab of a lab profiles, when using Internet Explorer. 
+
+---
+
 ## **Released May 31, 2019**
 
 **VM Based Labs Landing Page**
@@ -20,21 +139,25 @@
 
 - Labs that use AWS virtualization now require an AWS region to be selected before saving the lab profile.
 
+---
+
 ## **Released May 24, 2019**
 
-**AWS Improvments**
+**AWS Improvements**
 
-- Applied a minor fix for a scenario where manged AWS virtual machines could trigger the creation of clous slice roles. This was done to prevent permission errors when launching a lab that uses an AWS managed VM.
+- Applied a minor fix for a scenario where managed AWS virtual machines could trigger the creation of cloud slice roles. This was done to prevent permission errors when launching a lab that uses an AWS managed VM.
 
     ![](images/aws-logo.png){100x100}
 
 **API Documentation Link**
 
-- The API documentation link on the LOD admin homepage now points to the [API documentation in the public documentation](/lod/lod-api/lod-api-main.md), instead of the older internally hosted API documentation. This was done to keep API documentation consisten, when accessed from multiple locations. If you have the API documentation bookmarked, you will be redirected to the new location. 
+- The API documentation link on the LOD admin homepage now points to the [API documentation in the public documentation](/lod/lod-api/lod-api-main.md), instead of the older internally hosted API documentation. This was done to keep API documentation consistent, when accessed from multiple locations. If you have the API documentation bookmarked, you will be redirected to the new location. 
 
 **Lab Client Service**
 
 - A new set of backend services have been deployed for the lab delivery front-end. This was done to improve platform performance, as well as scalability improvements. **This will not change the behavior or features available in any labs**.
+
+---
 
 ## **Released May 23, 2019**
 
@@ -66,6 +189,8 @@
 
 **Update to SSH Command Proxy**
 - Updates and improvements have been made to the SSH command proxy in LOD, to allow ABA scripts to be used in newer versions of Linux.
+
+---
 
 ## **Released May 11, 2019**
 
@@ -100,6 +225,8 @@
 
     Should your Organization choose to not align this permission with a user account in LOD, requests to publish lab series on your behalf will become a billable service.
 
+---
+
 ## **Released May 3, 2019**
 
 **Lab Series - Max instances per lab user** 
@@ -124,6 +251,7 @@
 - Fixed a bug that would cause IDLx instructions to be checked out after editing. This was caused by a change in Google Chrome. 
 - The magnification control slider in IDLx labs now shows a label when hovering over it with the mouse cursor. 
 
+---
 
 ## **Released April 12, 2019**
 
@@ -219,6 +347,7 @@ _audio as a link_
 
 ---
 
+<!--
 ## **Released January 18, 2019**
 
 ### **Show Scoring Result Upon Completion** 
@@ -391,3 +520,5 @@ This allows you to block further execution of the lab life cycle until the actio
 In the image below, the first Life Cycle Action (LCA) sets the variable and is blocking. The second LCA uses the variable set in the first LCA to send a notification to the lab, and uses an @lab replacement token to show the student's first name. Setting the first LCA to block, allows the variable to be set before the second LCA attempts to use the variable. 
 
 ![](images/lca-image8.png)
+
+-->

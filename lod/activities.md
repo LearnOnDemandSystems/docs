@@ -22,7 +22,8 @@ Next, you should decide what type of Activity you would like to create -- Questi
 
 Click to go to a specific section, or continue reading to learn more about creating Activities in your lab. 
 
-- [Automated Activity](#automated-activity)
+- [Automated Activities](#automated-activities)
+    - [Virtual Machine Requirements](#requirements)
     - [Automated Activity Syntax](#automated-activity-syntax)
     - [Automated Activity Creation](#automated-activity-creation)
     - [Automated Activity Output](#automated-activity-output)
@@ -34,17 +35,52 @@ Click to go to a specific section, or continue reading to learn more about creat
     - [Short Answer Question](#short-answer-questions)
 - [Scoring](#scoring)
     - [Performance Based Testing](#performance-based-testing)
+    - [Scoring Methods](#scoring-methods)
 - [Activity Management](#activity-management)
 
-## Automated Activity
+## Automated Activities 
 
 Automated Activities are PowerShell Windows command Shell Shell scripts that target a Cloud Subscription, or virtual machine running on Hyper-V or VMware in the lab. Cloud Subscriptions are targeted by a PowerShell script, and Windows-based virtual machines can be targeted by both PowerShell and Shell. Automated Activities support using @lab replacement tokens in scripts as well. Automated Activities can be used to help make sure the student has configured their lab environment correctly, help the student understand mistakes that are made in their lab, as well as give the student confirmation that they are completing the lab instructions correctly. Automated Activities can also be used to automate any configuration or lab steps that you wish to automate. 
+
+### Virtual Machine Requirements {requirements}
+
+**Hyper-V**:
+
+- LOD Integration services are not required to be installed but it is recommended, to enable features such as screen resizing. 
+
+- Supported Operating Systems:
+    - Windows 10
+    - Windows Server 2016
+    - Windows Server 2019  
+
+- The VM must support Hyper-V PowerShell Direct. There are no additional steps to install or configure PowerShell Direct, but the VM must support it. 
+
+>[!knowledge] PowerShell Direct can be used to remotely manage a Windows 10, Windows Server 2016, or Windows Server 2019 virtual machine from a Windows 10, Windows Server 2016, or Windows Server 2019 Hyper-V host. 
+>
+>PowerShell Direct allows Windows PowerShell management inside a virtual machine regardless of the network configuration or remote management settings on either the Hyper-V host or the virtual machine. This makes it easier for Hyper-V Administrators to automate and script virtual machine management and configuration. For more information about PowerShell Direct, read [Manage Windows virtual machines with PowerShell Direct](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/manage/manage-windows-virtual-machines-with-powershell-direct).
+
+
+**VMware**: 
+
+- VMware Tools must be installed.
+
+- PowerShell must be installed on the VM.
+
+- Supported Operating Systems:
+    - Windows 7
+    - Windows 7 
+    - Windows 8 
+    - Windows 10
+    - Windows Server 2008
+    - Windows Server 2012
+    - Windows Server 2016
+    - Windows Server 2019
 
 ### Automated Activity Syntax
 
 Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there is additional syntax that can be used. 
 
-- Setting Lab Variables: sets a variable that can be recalled in subsequent lab instructions using @lab replacement tokens, as many times as neccessary. 
+- Setting Lab Variables: sets a variable that can be recalled in subsequent lab instructions using @lab replacement tokens, as many times as necessary. 
 
 - Sending Lab Notifications: Sends a a popup notification to the lab, using the text specified in the syntax.
 
@@ -187,130 +223,27 @@ _Student view of the notification in the lab_
 ^[PowerShell Samples][powershell-samples]
 
 > [powershell-samples]:
-> The lab instructions ask the student to create a few accounts in a Cloud Subscription that will be used later in the lab. You could write a few PowerShell scripts that will check if the accounts were created correctly.
-> 
-> This 3 scripts below are to make sure the student has created a storage account, a public container, and private container:
-> 
-> **Storage Account**
-> ```
-> $LabInstanceId = "@lab.LabInstance.Id"
-> $result = $false
-> $resourceGroupName = "CSSTlod${LabInstanceId}"
-> $storAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name "sa${LabInstanceId}" -ErrorAction Ignore
-> if ($storAccount -eq $null){
->     "The Storage Account has not been created"
-> } else {
->     $result = $true
->     "You successfully created the storage account."
-> }
-> $result
-> ```
-> 
-> **Public Container**
-> ```
-> $LabInstanceId = "@lab.LabInstance.Id"
-> $result = $false
-> $resourceGroupName = "CSSTlod${LabInstanceId}"
-> $storAccountName = "sa${LabInstanceId}"
-> $storAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name $storAccountName -ErrorAction Ignore
-> if ($storAccount -eq $null){
->     "The Storage Account has not been created"
-> } else {
->     $storKey = Get-AzureRmStorageAccountKey -ResourceGroupName $resourceGroupName -Name $storAccountName | Select-Object -First 1 -ErrorAction Ignore
->     $storageContext = New-AzureStorageContext -StorageAccountName $storAccountName -StorageAccountKey $storKey.Value -ErrorAction Ignore
->     $container = Get-AzureStorageContainer -Name public -Context $storageContext -ErrorAction Ignore
->     if ($container -eq $null) {
->         "The Blob Container has not been created."
->     } else {
->         if ($container.PublicAccess -ne "blob") {
->             "The container is not properly configured for public access."
->         } else {
->         $result = $true
->         "You have successfully configured the blob container for public access."
->         }
->     }
-> }
-> $result
-> ```
-> 
-> **Private Container**
-> ```
-> $LabInstanceId = "@lab.LabInstance.Id"
-> $result = $false
-> $resourceGroupName = "CSSTlod${LabInstanceId}"
-> $storAccountName = "sa${LabInstanceId}"
-> $storAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name $storAccountName -ErrorAction Ignore
-> if ($storAccount -eq $null){
->     "The Storage Account has not been created"
-> } else {
->     $storKey = Get-AzureRmStorageAccountKey -ResourceGroupName $resourceGroupName -Name $storAccountName | Select-Object -First 1 -ErrorAction Ignore
->     $storageContext = New-AzureStorageContext -StorageAccountName $storAccountName -StorageAccountKey $storKey.Value -ErrorAction Ignore
->     $container = Get-AzureStorageContainer -Name private -Context $storageContext -ErrorAction Ignore
->     if ($container -eq $null) {
->         "The Blob Container has not been created."
->     } else {
->         if ($container.PublicAccess -ne "off") {
->             "The container is not properly configured for private access."
->         } else {
->         $result = $true
->         "You have successfully configured the blob container for private access."
->         }
->     }
-> }
-> $result
-> ```
-> 
-> This is what the student will see in the lab:
-> 
-> ![](../lod/images/scripts-in-lab-instructions.png)
-> 
-> - The student clicks the Score button, and the scripts will begin executing the first script:
-> 
->     - If the student **created the storage accounts correctly**, they will receive a message that says "You successfully created the storage account."
->     
->     - If the student **did not create the storage accounts correctly**, they will receive a message that says "The Storage Account has not been created". 
-> 
-> > [!KNOWLEDGE] You can provide a hint to students based on the outcome of the script. For example, if the script is to check if a specific directory has been created, you script could output a hint to help the student create the appropriate directory. 
+>
+> !INSTRUCTIONS[][ps-simple-explanation]
+>
+> !INSTRUCTIONS[][ps-simple-code]
+>
+> !INSTRUCTIONS[][ps-complex-explanation]
+>
+> !INSTRUCTIONS[][ps-complex-code]
+
 
 ^[Bash Samples][bash-samples]
 
 > [bash-samples]:
-> **Simple Script (Pass/Fail)**  
-> This sample is gauging a file's size on the linux file system. If the file is less than 1000 bytes the user is successful, otherwise they are unsuccessful.
 >
-> ```
-> RESULT=False
-> file=$(stat --format=%s /etc/passwd)
-> if [ $(echo $file) -lt 1000 ]
-> then 
->  echo "success, filesize is $file"
->  RESULT=True
-> fi
-> echo $RESULT
-> ```
+> !INSTRUCTIONS[][bash-simple-explanation]
 >
-> **Complex Script (Partial Credit/Multiple Conditions)**  
-> This sample actually reads the /etc/hosts file on a Linux machine, and searches for a line that contains a specific IP. From there it if the IP has the correct hostname. With this design the user can get variable scores based on the following:
-> 
-> - Full credit if both the IP and hostname are found.
-> - Partial credit if the IP is found, but not the host name
-> - No credit if the IP is not found
+> !INSTRUCTIONS[][bash-simple-code]
 >
-> ```
-> RESULT=False
-> host=$(cat /etc/hosts | grep 192.168.1.2)
-> if [[ $(echo $host) == "192.168.1.2 linuxvm"* ]]
-> then
->  set_activity_result 1 "Success"
->  RESULT=True
-> elif [[ $(echo $host) == "192.168.1.2"* ]]
-> then 
->  set_activity_result .5 "Partially correct"
-> else 
->  echo "value not found"
-> fi
-> echo $RESULT
-> ```
+> !INSTRUCTIONS[][bash-complex-explanation]
+>
+> !INSTRUCTIONS[][bash-complex-code]
 
 ## Questions
 
@@ -423,11 +356,94 @@ To enable Scoring in your lab:
 
 1. The student will be given the score value upon completing the Activity correctly. 
 
+### Scoring Methods
+
+There are two methods to return a scoring result from an automated activity.
+
+- **A binary value**: a value indicating pass or fail. A binary result allows for very simple script authoring. A binary result from a script means that the score value defined in the activity will be used. If the activity is completed correctly, the student will receive the score value defined in the LOD instructions editor for the activity. 
+    - If the last value encountered in the script output is a **true** value, then the script will be considered to have **passed** and the student will receive the score value of the activity. 
+    - If the last value encountered in the script output is a **false** value, then the script will be considered to have **failed** and the student will not receive the score value of the activity.
+
+- **Explicit Score Value** Set score in the script for more complex scenarios. This method requires knowledge about scripting languages, such as PowerShell or Bash. An explicit value in a script means that the score value for each script is defined in the script itself, or multiple scores can be configured for each part of the script that is completed correctly. The score value is set in the script using [Automated Activity Syntax](#automated-activity-syntax). An explicit score value can be given after each section of the script that should be scored or at the end of a script. 
+
+Additionally, text output (logging) can be configured on a script. Any text output from the script is captured along with the script result. This allows for capture of meaningful information along with the pass/fail result. The captured data will be sent in the `ScriptResponse` line of the API response. 
+
+#### Example Scoring Methods
+
+**Binary example**
+
+When the script returns `$true` in a PowerShell script or `True` in a Bash script, the student will receive the score value configured in the activity in the lab editor. When the script returns a false binary result, the student will receive a score value of 0 for the activity. 
+
+This sample is gauging a file's size on the Windows file system. If the file is less than 1000 bytes the user is successful, otherwise they are unsuccessful.
+
+- PowerShell
+
+    ```PowerShell-linenums
+    $result = $false
+    $file = (Get-Item C:\Users\LabUser\file.txt).length
+    if($file -lt 1000){
+        echo "Success, filesize is $file"
+        $result = $true
+    }
+    $result
+    ```
+
+- Bash
+
+    ```Bash-linenums
+    RESULT=False
+    file=$(stat --format=%s /etc/passwd)
+    if [ $(echo $file) -lt 1000 ]
+    then 
+     echo "success, filesize is $file"
+     RESULT=True
+    fi
+    echo $RESULT
+    ```
+
+**Explicit score value Example**
+
+When a section of a script is completed correctly, the student is given the score value declared in PowerShell as `Set-ActivityResult` and `set_activity_result` in Bash. In the examples below, the student will receive 5 points for the first part, 2.5 points for the second part or 0 points if they do not complete the first or second part of the script. 
+
+- PowerShell
+
+    ```PowerShell-linenums
+    $result = $False
+    $hostname = [System.Net.DNS]::GetHostEntry('')
+    if ($hostname.HostName -eq "LabVM" -and $hostname.AddressList.IPAddressToString     contains "192.168.1.4"){
+         #set_activity_result 1 "Success"
+         $result = $True
+     }elseif($hostname.AddressList.IPAddressToString -contains "192.168.1.4"){
+         #set_activity_result .5 "Partially correct"  
+     }else{
+         "Value not found"    
+     } 
+     $result
+    ```
+
+- Bash
+
+    ```Bash-linenums
+    RESULT=False
+    host=$(cat /etc/hosts | grep 192.168.1.2)
+    if [[ $(echo $host) == "192.168.1.2 linuxvm"* ]]
+    then
+     set_activity_result 1 "Success"
+     RESULT=True
+    elif [[ $(echo $host) == "192.168.1.2"* ]]
+    then 
+     set_activity_result .5 "Partially correct"
+    else 
+     echo "value not found"
+    fi
+    echo $RESULT
+    ```
+
 ### Partial Scoring
 
-Partial scoring allows a student to recieve partial credit for a task in the lab, instead of the score being all or nothing. 
+Partial scoring allows a student to receive partial credit for a task in the lab, instead of the score for the question being all or nothing. 
 
-For example, if the lab instructions had a task to create a directory and name it "MyDirectory", and the student created the directory but didn't name it properly -- they could recieve partial credit for creating the directory, even though they didn't name it properly. 
+For example, if the lab instructions had a task to create a directory and name it "MyDirectory", and the student created the directory but didn't name it properly -- they could receive partial credit for creating the directory, even though they didn't name it properly. 
 
 Partial scoring is achieved with automated Activities in IDLx. To configure partial scoring for the example above:
 
@@ -439,6 +455,7 @@ Partial scoring is achieved with automated Activities in IDLx. To configure part
 1.  Click _New Script_.
 1. In the **Script 2** field, enter a PowerShell script to verify the directory is named properly. 
 1. Assign a score value for script 2. This will be the partial score the student will receive if the directory is name properly.
+1. Alternatively, the score value can be set for the activity using the `Set-ActivityResult` syntax discussed in the previous section. 
 
 ### Performance Based Testing 
 
@@ -474,4 +491,85 @@ To access this menu, simply click the **Activities Icon**
 
 [Back to Top](#activities)
 
+> [ps-simple-explanation]:
+> **Binary**  (Simple Script (Pass/Fail)
+>
+> This sample is gauging a file's size on the Windows file system. If the file is less than 1000 bytes the user is successful, otherwise they are unsuccessful.
 
+> [ps-simple-code]:
+> ```PowerShell-linenums
+> $result = $false
+> $file = (Get-Item C:\Users\LabUser\file.txt).length
+> if($file -lt 1000){
+>     echo "Success, filesize is $file"
+>     $result = $true
+> }
+> $result
+> ```
+
+> [ps-complex-explanation]:
+> **Explicit score value Example** (Complex Script - Partial Credit/Multiple Conditions)
+>
+> This sample actually reads the host entry on a Windows machine, and identifies both the hostname and any IPs associated with it. From there it validates if it has both the correct IP and hostname. With this design the user can get variable scores based on the following:
+> 
+> - Full credit if both the IP and hostname are found.
+> - Partial credit if the IP is found, but not the hostname
+> - No credit if the IP is not found
+
+> [ps-complex-code]:
+>```PowerShell-linenums
+>$result = $False
+>$hostname = [System.Net.DNS]::GetHostEntry('')
+>if ($hostname.HostName -eq "LabVM" -and $hostname.AddressList.IPAddressToString -contains "192.168.1.4"){
+>     #set_activity_result 1 "Success"
+>     $result = $True
+> }elseif($hostname.AddressList.IPAddressToString -contains "192.168.1.4"){
+>     #set_activity_result .5 "Partially correct"  
+> }else{
+>     "Value not found"    
+> } 
+> $result
+> ```
+
+> [bash-simple-explanation]:
+> **Binary**  (Simple Script (Pass/Fail) 
+>
+> This sample is gauging a file's size on the linux file system. If the file is less than 1000 bytes the user is successful, otherwise they are unsuccessful.
+
+> [bash-simple-code]:
+> ```Bash-linenums
+> RESULT=False
+> file=$(stat --format=%s /etc/passwd)
+> if [ $(echo $file) -lt 1000 ]
+> then 
+>  echo "success, filesize is $file"
+>  RESULT=True
+> fi
+> echo $RESULT
+> ```
+
+> [bash-complex-explanation]:
+> **Explicit score value Example** (Complex Script - Partial Credit/Multiple Conditions)
+>
+> This sample actually reads the /etc/hosts file on a Linux machine, and searches for a line that contains a specific IP. From there it if the IP has the correct hostname. With this design the user can get variable scores based on the following:
+> 
+> - Full credit if both the IP and hostname are found.
+> - Partial credit if the IP is found, but not the host name
+> - No credit if the IP is not found
+
+> [bash-complex-code]:
+> ```Bash-linenums
+> RESULT=False
+> host=$(cat /etc/hosts | grep 192.168.1.2)
+> if [[ $(echo $host) == "192.168.1.2 linuxvm"* ]]
+> then
+>  set_activity_result 1 "Success"
+>  RESULT=True
+> elif [[ $(echo $host) == "192.168.1.2"* ]]
+> then 
+>  set_activity_result .5 "Partially correct"
+> else 
+>  echo "value not found"
+> fi
+> echo $RESULT
+> ```

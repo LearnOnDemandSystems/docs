@@ -132,6 +132,8 @@ Once you have identified one or more cloud platform template documents you want 
    | **Required**           | When checked, a value must be provided for this parameter in each lab profile where the Cloud Resource Template is used. |
    | **Display To Student** | When checked, the parameter display name and value will be displayed to students in the Cloud Resources tab in the LOD UI. |
 
+    >[!knowledge] Some resource parameters require specific naming conventions. Read [Naming Conventions for Azure Resources](https://docs.microsoft.com/en-us/azure/architecture/best-practices/naming-conventions) for more information about resource naming conventions.
+
    Here is what the Parameters tab might look like once you have it configured for a Cloud Resource Template:
 
    ![Create Cloud Resource Template - Parameters Tab](images/lod-cloud-resource-template-parameters.png)

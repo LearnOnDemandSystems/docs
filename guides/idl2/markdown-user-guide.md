@@ -70,30 +70,57 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
   > ![](images/fenced-code-block.png "Fenced Code Block")
 
 - **Code Block Modifiers**
+
+    Code block modifiers change the way that code blocks are displayed. The below syntax can be used with or without a language directive. Simple leave out the language directive and only include the code block modifier.
     
-    ~~~No_code_highlighting,_copyable
+    - Prevents code from being highlighted.
+
+    ~~~
       ```powershell-nocolor
       Code Block
       ```
     ~~~
+    
+    - Prevents the code block from rendering with a tab that displays the language used.
 
-  ~~~No_tab_on_code_block,_code_highlighted,_copyable
+  ~~~
    ```powershell-notab
    Code Block
    ```
    ~~~
-    
-    ~~~No_code_highlighting,_no_tab,_not_copyable
+
+    - Prevents the code block from being highlighted, no language tab and is not copyable.
+    ~~~
     ```powershell-nocode
     code block
     ```
     ~~~
+    
+    - Code is highlights but is not copyable.
 
-    ~~~Code_highlighted,_not_copyable
+    ~~~
    ```PowerShell-nocopy
    code block
    ```
    ~~~
+   
+
+    - Multi line commands wrap to the next line.
+
+    ~~~
+   ```PowerShell-wrap
+   code block
+   ```
+   ~~~
+   
+    - Adds line numbers in the code block.
+    
+    ~~~
+   ```PowerShell-linenums
+   code block
+   ```
+   ~~~
+   
 
 [Return to Markdown formatting](#markdown-supports-the-following-types-of-formatting)
 

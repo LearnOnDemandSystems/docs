@@ -87,25 +87,38 @@ get-service | stop-service -whatif
 
 No code highlighting, copyable
 
-    ```powershell-nocolor
+    ```PowerShell-nocolor
     Code Block
     ```
 
 No tab on code block, code highlighted, copyable
 
-    ```powershell-notab
+    ```PowerShell-notab
     Code Block
     ```
 
 No code highlighting, no tab, not copyable
 
-    ```powershell-nocode
+    ```PowerShell-nocode
     Code Block
     ```
 
 Code highlighted, not copyable
 
-    ```powershell-nocopy
+    ```PowerShell-nocopy
+    Code Block
+    ```
+
+Code_highlighted, copyable, multi line command wraps to the next line
+
+    ```PowerShell-wrap
+    Code Block
+    ```
+  
+
+ Code_highlighted, copyable, line numbers added to each line
+
+    ```PowerShell-linenums
     Code Block
     ```
 

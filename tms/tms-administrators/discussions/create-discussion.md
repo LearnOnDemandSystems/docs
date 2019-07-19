@@ -1,5 +1,7 @@
 # How do I create a discussion and attach it to a course?
 
+> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you. 
+
 A well-thought out discussion can encourage and increase student interaction and learning. Any user with the **Operations Manager** role can create and manage discussions for your organization or assign supplemental roles for creating or moderating discussions. 
 
 To create a **Discussion**:
