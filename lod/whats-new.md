@@ -12,7 +12,7 @@
 
 **Private Networking in Container Labs**
 
-- Docker containers are now able to communicate with other containers in the same lab instance using a private network. A container network is configured the same was as a VM in LOD -- add a network from the Networks tab and make it available to the container on the Containers tab. 
+- Docker containers are now able to communicate with other containers in the same lab instance using a private network. A container network is configured the same way as a VM in LOD -- add a network from the Networks tab and make it available to the container on the Containers tab. 
  
 **Deleting Lab Profiles**
 
