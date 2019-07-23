@@ -24,7 +24,7 @@ To create an achievement:
      1. **Frequency Type**
 1. (Optional) Next to **Badge**, click **Choose** to open the **Choose Badge** dialog if the achievement will earn the student a badge from the outside Badge Provider.
 1. Search for and select the badge and click **OK**.
-1. Click the **Conditions** tab and enter the JSON conditions for earning the achievement (see [Achievements JSON Help and Best Practices](tms-achievement-conditions.md).)
+1. Click the **Conditions** tab and enter the JSON conditions for earning the achievement (see [Achievements JSON Help and Examples](tms-achievement-conditions.md).)
 1. Click **Save**.
 
 Once you have created achievements and have your students set to participate in them, you can track the achievements they are earning from either a user's Profile or from the Find Achievements page. To access the achievements of a student: 
