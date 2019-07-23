@@ -18,7 +18,7 @@ In the second example, **LabProfileIds:[12345,23456]** identifies the labs that 
 
 JSON conditions in the TMS should start with the Subject name:value pair, **Subject:X**, where X is the integer that specifies what the TMS entity type is for earning this achievement:
 
-- Lab = **0**
+- Lab = **0 ** (default)
 - Course = **10**
 - Course Tag = **20**
 - User Achievement = **40**
