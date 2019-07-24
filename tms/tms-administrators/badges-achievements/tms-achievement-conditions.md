@@ -48,6 +48,9 @@ Here are some example achievements and their conditions to earn the achievement:
 **Example 6 - Cumulative points earned achievement** - A user must earn 500 achievement points from any achievements to earn this achievement:
 > [{Subject:40, Points:500}] 
 
+<!-- **Example 6 - Specific achievements earned achievement** - A user must earn all of the "Cloud Technologies" achievements (AchievementIds of 10, 11, and 12):
+> [{Subject:40, AchievementIds[10,11,12]}]
+-->
 
 ## Name:Value Pairs
 The following name:value pairs are some that can be used to configure JSON Conditions in TMS. IDs can be found in the URL for the entity in the TMS.
@@ -61,8 +64,9 @@ The following name:value pairs are some that can be used to configure JSON Condi
 - **CourseTagIds:[X]**
     - X = the Ids of the course tag profiles when specific course tags are required on courses for the achievement.  If blank, any course will qualify. This name:value pair is only applicable when subject = 20 (Subject:20) indicating course tags.
 
-- **AchievementIds:[X]**
+<!-- - **AchievementIds:[X]**
     - X = the Ids of the achievement profiles required to be earned for this achievement. If blank, any achievement will qualify. This name:value pair is only applicable when subject = 40 (Subject:40) indicating user achievements.
+-->
 
 - **Count:X**    
     - X = how many times the subject/id combo must be achieved to qualify for the achievement. For example: **[{Subject:0,Count:1}]** will trigger when someone launches a single lab. Whereas, **[{Subject:0,Count:2}]** will require 2 lab launches to qualify.
