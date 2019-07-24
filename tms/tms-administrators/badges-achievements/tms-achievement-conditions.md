@@ -42,10 +42,7 @@ Here are some example achievements and their conditions to earn the achievement:
     {Subject:0, LabProfileIds:[54671], Count:1, Passed:True}
 ]
 
-**Example 5 - Specific achievements earned achievement** - A user must earn all of the "Cloud Technologies" achievements (AchievementIds of 10, 11, and 12):
-> [{Subject:40, AchievementIds[10,11,12]}]
-
-**Example 6 - Cumulative points earned achievement** - A user must earn 500 achievement points from any achievements to earn this achievement:
+**Example 5 - Cumulative points earned achievement** - A user must earn 500 achievement points from any achievements to earn this achievement:
 > [{Subject:40, Points:500}] 
 
 <!-- **Example 6 - Specific achievements earned achievement** - A user must earn all of the "Cloud Technologies" achievements (AchievementIds of 10, 11, and 12):
