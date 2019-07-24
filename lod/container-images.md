@@ -2,6 +2,8 @@
 
 Lab on Demand supports using Docker Container Images in labs. Container images are imported from Docker Hub.
 
+[Check out our video guide for creating Container Images](https://lods.one/containerimagesvideo).
+
 ## Create a Container Image in LOD
 
 1. From the LOD Admin page, click **Create Container Image**. 
