@@ -26,21 +26,28 @@ JSON conditions in the TMS should start with the Subject name:value pair, **Subj
 ## Examples
 Here are some example achievements and their conditions to earn the achievement:
 
-**Example 1**: Specific lab completion achievement, such as a user needs to complete the “Configure SQL Server” lab with an ID of 98765 once:
+**Example 1 - Specific lab completion achievement** - A user needs to complete the “Configure SQL Server” lab with an ID of 98765 once:
 > [{Subject:0, LabProfileIds:[98765], Count:1, Complete:True}]
 
-**Example 2**: Specified course completion achievement, such as a user needs to complete the “Security Fundamentals Bootcamp” course with an ID of 2345:
+**Example 2 - Specific course completion achievement** - A user needs to complete the “Security Fundamentals Bootcamp” course with an ID of 2345:
 > [{Subject:10, CourseIds:[2345], Complete:True}]
 
-**Example 3**: Specified course type with multiple completions achievement, such as a user needs to complete 3 courses tagged with the “Database” course tag has an ID of 59:
+**Example 3 - Specific course type with multiple completions achievement** - A user needs to complete 3 courses tagged with the “Database” course tag, which has an ID of 59:
 > [{Subject:20, Count:3, CourseTagIds:[59], Complete:True}]
 
-**Example 4**: Specified Learning Path completion with passed exam at the end, such as a user needs to complete all 4 courses in the “Cloud Technologies Expert” learning path (CourseIds of 1583, 1584, 1585, and 1586) and pass the final exam lab in it (ID 54671):
+**Example 4 - Specific Learning Path completion with passed exam at the end** - A user needs to complete all 4 courses in the “Cloud Technologies Expert” learning path (CourseIds of 1583, 1584, 1585, and 1586) and pass the final exam lab in it (ID 54671):
 
 > [
     {Subject:20, Count:4, CourseIds:[ 1583,1584,1585,1586], Complete:True},
     {Subject:0, LabProfileIds:[54671], Count:1, Passed:True}
 ]
+
+**Example 5 - Specific achievements earned achievement** - A user must earn all of the "Cloud Technologies" achievements (AchievementIds of 10, 11, and 12):
+> [{Subject:40, AchievementIds[10,11,12]}]
+
+**Example 6 - Cumulative points earned achievement** - A user must earn 500 achievement points from any achievements to earn this achievement:
+> [{Subject:40, Points:500}] 
+
 
 ## Name:Value Pairs
 The following name:value pairs are some that can be used to configure JSON Conditions in TMS. IDs can be found in the URL for the entity in the TMS.
@@ -55,13 +62,13 @@ The following name:value pairs are some that can be used to configure JSON Condi
     - X = the Ids of the course tag profiles when specific course tags are required on courses for the achievement.  If blank, any course will qualify. This name:value pair is only applicable when subject = 20 (Subject:20) indicating course tags.
 
 - **AchievementIds:[X]**
-    - X = the Ids of the achievement profiles required to be earned for this achievement. If blank, any achievement will qualify. This name:value pair is only applicable when subject = 40 (Subject:40)indicating user achievements.
+    - X = the Ids of the achievement profiles required to be earned for this achievement. If blank, any achievement will qualify. This name:value pair is only applicable when subject = 40 (Subject:40) indicating user achievements.
 
 - **Count:X**    
     - X = how many times the subject/id combo must be achieved to qualify for the achievement. For example: **[{Subject:0,Count:1}]** will trigger when someone launches a single lab. Whereas, **[{Subject:0,Count:2}]** will require 2 lab launches to qualify.
 
 - **Points:X**
-    - X = the number of points that must be achieved by other achievements to earn this achievement. For example, to create an achievement for when someone earned 100 achievement points, the following would be used: **[{Subject:40,Points:100}]. This name:value pair is only applicable when subject = 40 (Subject:40) indicating achievements.  
+    - X = the number of points that must be achieved by other achievements to earn this achievement. For example, to create an achievement for when someone earned 100 achievement points, the following would be used: **[{Subject:40,Points:100}]**. This name:value pair is only applicable when subject = 40 (Subject:40) indicating achievements.  
 
 - **Distinct:X**
     - X = **True** or **False** regarding whether it takes separate profiles to trigger a multiple count achievement. For example, in the  **Count:X** example above, the achievement would be earned even if the user launched the same lab 2 times. However, if the conditions contained **Distinct:true**, the achievement would require the user to launch 2 different labs: **[{Subject:0,Count:2,Distinct:true}]**. 
