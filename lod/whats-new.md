@@ -7,7 +7,7 @@
 </div>
 
 # What's New in Lab On Demand
-
+<!--
 ## **Released July 26, 2019**
 
 **Find Lab Series Assignment Output and Filter**
@@ -39,6 +39,7 @@ The following items in LOD are now referenced by an alias instead of an ID, in r
 **Bug fixes and Improvements**
 
 - Fixed a bug that prevented filing a bug report from a launched lab.
+-->
 
 ## **Released July 19, 2019**
 
