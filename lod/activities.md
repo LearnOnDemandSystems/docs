@@ -411,10 +411,10 @@ When a section of a script is completed correctly, the student is given the scor
     $result = $False
     $hostname = [System.Net.DNS]::GetHostEntry('')
     if ($hostname.HostName -eq "LabVM" -and $hostname.AddressList.IPAddressToString     contains "192.168.1.4"){
-         set_activity_result 1 "Success"
+         Set-Activity-Result 1 "Success"
          $result = $True
      }elseif($hostname.AddressList.IPAddressToString -contains "192.168.1.4"){
-         set_activity_result .5 "Partially correct"  
+         Set-Activity-Result .5 -Correct  
      }else{
          "Value not found"    
      } 
