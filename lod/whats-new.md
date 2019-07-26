@@ -8,6 +8,38 @@
 
 # What's New in Lab On Demand
 
+## **Released July 26, 2019**
+
+**Find Lab Series Assignment Output and Filter**
+
+- There is a new filter and output option for Lab Series Organization.
+
+**Lab Series Search Price Output**
+
+- When performing a lab series search, there is a new output option to display the price.
+
+**Enabled Bug Reporting Filter**
+
+- When performing a lab profile search, there is a new filter to display labs that have bug reporting enabled.
+
+**In-Lab Notifications**
+
+- Long notifications now allow scrolling. This was done to prevent the close button from being hidden when a long notification was displayed in a lab.
+
+**Token Aliases**
+
+The following items in LOD are now referenced by an alias instead of an ID, in replacement tokens. This was done to make items in LOD more flexible and import/export without errors.
+
+- IDLx activities 
+- Cloud Resource Groups
+- Cloud Templates
+- Cloud Credentials
+- Cloud Portal Credentials
+
+**Bug fixes and Improvements**
+
+- Fixed a bug that prevented filing a bug report from a launched lab.
+
 ## **Released July 19, 2019**
 
 **Private Networking in Container Labs**
