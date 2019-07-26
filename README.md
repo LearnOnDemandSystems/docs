@@ -1,4 +1,4 @@
-## One documentation repository to rule them all.
+## One documentation repository to rule them all
 
 If you would like to _contribute_ to this documentation, you are in the right place.
 
