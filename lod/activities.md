@@ -48,7 +48,7 @@ Automated Activities are PowerShell Windows command Shell Shell scripts that tar
 
 - LOD Integration services are not required to be installed but it is recommended, to enable features such as screen resizing. 
 
-- Supported Operating Systems:
+- Supported Windows Operating Systems:
     - Windows 10
     - Windows Server 2016
     - Windows Server 2019  
@@ -59,6 +59,16 @@ Automated Activities are PowerShell Windows command Shell Shell scripts that tar
 >
 >PowerShell Direct allows Windows PowerShell management inside a virtual machine regardless of the network configuration or remote management settings on either the Hyper-V host or the virtual machine. This makes it easier for Hyper-V Administrators to automate and script virtual machine management and configuration. For more information about PowerShell Direct, read [Manage Windows virtual machines with PowerShell Direct](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/manage/manage-windows-virtual-machines-with-powershell-direct).
 
+- Linux:
+
+    - Requires Hyper-V Integration Services to be installed.
+
+    - Requires a running SSH server. For more information about configuring SSH, see [Terminal Access to Virtual Machines](terminal-access.md)
+
+    - Refer to the [Microsoft Linux support information](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/supported-linux-and-freebsd-virtual-machines-for-hyper-v-on-windows) to see if a distribution is supported on Hyper-V and instructions on installing any additional integration components
+        - Network information needs to be communicated over the VMBus via Hyper-V integration services, currently RedHat, CentOS, FreeBSD, and most Debian distributions support this
+        - Kali Linux does not support VM integration components
+
 
 **VMware**: 
 
@@ -66,7 +76,7 @@ Automated Activities are PowerShell Windows command Shell Shell scripts that tar
 
 - PowerShell must be installed on the VM.
 
-- Supported Operating Systems:
+- Supported  Windows Operating Systems:
     - Windows 7
     - Windows 7 
     - Windows 8 
@@ -75,6 +85,16 @@ Automated Activities are PowerShell Windows command Shell Shell scripts that tar
     - Windows Server 2012
     - Windows Server 2016
     - Windows Server 2019
+
+- Linux 
+
+    - Requires VMware Tools to be installed
+
+    - Requires a running SSH server. For more information about configuring SSH, see [Terminal Access to Virtual Machines](terminal-access.md)
+
+    - Linux VMs must support the open-vm-tools package. On most builds, this is installed by default. It is recommended to verify this is installed using the following commands: 
+        - On **Debian/Ubuntu** builds this can be installed with ```sudo apt-get install open-vm-tools```.
+        - On **RHEL or CENTOS** ```sudo yum install open-vm-tools -y```.
 
 ### Automated Activity Syntax
 

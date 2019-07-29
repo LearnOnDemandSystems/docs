@@ -19,7 +19,7 @@ There are a couple of virtual machine (VM) requirements for SSH terminal access:
 
 1.  **For VMs hosted on ESX**
 
-    - Linux VMs must support the open-vm-tools package. On most builds, this is installed by default. It is recommeneded to verify this is installed using the following commands: 
+    - Linux VMs must support the open-vm-tools package. On most builds, this is installed by default. It is recommended to verify this is installed using the following commands: 
         - On **Debian/Ubuntu** builds this can be installed with ```sudo apt-get install open-vm-tools```.
         - On **RHEL or CENTOS** ```sudo yum install open-vm-tools -y```.
 
@@ -60,7 +60,7 @@ SSH configuration may need to be modified to enable password authentication or r
 
 1. Uncomment the line **_UseDNS yes_** and change it to **_UseDNS no_**, or add the line if you can't find it. This disables a reverse DNS lookup on terminal connect that can cause a 10 second delay.
 
-1. Disable the networkmanager-wait service if applicable. This service can result in a 20 second boot delay when using NICs set to DHCP. On most versions of linux this can be done via the following command: ```sudo systemctl disable NetworkManager-wait-online.service```.
+1. Disable the networkmanager-wait service if applicable. This service can result in a 20 second boot delay when using NICs set to DHCP. On most versions of Linux this can be done via the following command: ```sudo systemctl disable NetworkManager-wait-online.service```.
 
     >[!alert] On **Ubuntu 18.04.2**, the network manager wait service is known as `systemd-networkd-wait-online.service`. If you are using Ubuntu 18.04.2, the **network manager wait service should not be disabled**. This will prevent SSH terminal access. 
 
