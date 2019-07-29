@@ -55,6 +55,10 @@ Automated Activities are PowerShell Windows command Shell Shell scripts that tar
 
 - The VM must support Hyper-V PowerShell Direct. There are no additional steps to install or configure PowerShell Direct, but the VM must support it. 
 
+>[!knowledge] PowerShell Direct can be used to remotely manage a Windows 10, Windows Server 2016, or Windows Server 2019 virtual machine from a Windows 10, Windows Server 2016, or Windows Server 2019 Hyper-V host. 
+>
+>PowerShell Direct allows Windows PowerShell management inside a virtual machine regardless of the network configuration or remote management settings on either the Hyper-V host or the virtual machine. This makes it easier for Hyper-V Administrators to automate and script virtual machine management and configuration. For more information about PowerShell Direct, read [Manage Windows virtual machines with PowerShell Direct](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/manage/manage-windows-virtual-machines-with-powershell-direct).
+
 - Linux:
 
     - Requires Hyper-V Integration Services to be installed.
@@ -64,10 +68,6 @@ Automated Activities are PowerShell Windows command Shell Shell scripts that tar
     - Refer to the [Microsoft Linux support information](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/supported-linux-and-freebsd-virtual-machines-for-hyper-v-on-windows) to see if a distribution is supported on Hyper-V and instructions on installing any additional integration components
         - Network information needs to be communicated over the VMBus via Hyper-V integration services, currently RedHat, CentOS, FreeBSD, and most Debian distributions support this
         - Kali Linux does not support VM integration components
-
->[!knowledge] PowerShell Direct can be used to remotely manage a Windows 10, Windows Server 2016, or Windows Server 2019 virtual machine from a Windows 10, Windows Server 2016, or Windows Server 2019 Hyper-V host. 
->
->PowerShell Direct allows Windows PowerShell management inside a virtual machine regardless of the network configuration or remote management settings on either the Hyper-V host or the virtual machine. This makes it easier for Hyper-V Administrators to automate and script virtual machine management and configuration. For more information about PowerShell Direct, read [Manage Windows virtual machines with PowerShell Direct](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/manage/manage-windows-virtual-machines-with-powershell-direct).
 
 
 **VMware**: 
