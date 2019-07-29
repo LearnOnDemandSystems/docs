@@ -14,6 +14,12 @@ Lab on Demand supports using Docker Container Images in labs. Container images a
 
     - **Name**: The name of the container image on [Docker Hub](https://hub.docker.com/). The container image name needs to match the name exactly how it appears in Docker Hub. The container image will be imported from Docker Hub, based on the name. 
 
+        > [!KNOWLEDGE] For labs it is recommented that you use a version-specific tag (signified by a colon separator). This helps ensure that the same container image will be used over time. If you do not use a tag, the "latest" tag will be used automatically. This is useful if you intend to always use the latest version of the container, but runs a higher risk of getting out of sync with your lab's instructions and content. 
+        >
+        > To find tags that are available for the container image you are using, look at the container image page in [Docker Hub](https://hub.docker.com/). It will list any available tags. 
+        >
+        > It is also possible to specify an image by using a digest. This guarantees that you will use the specified image version. The format for using a digest is `image@sha256:digest`.    
+
     - **Description**: Add description of the container image or how the image will be used in a lab. 
 
     - **Organization**: Select the organization that will have permission to edit and use the container image. 
