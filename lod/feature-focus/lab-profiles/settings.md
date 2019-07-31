@@ -255,7 +255,7 @@ Exams are used in IDL (legacy) labs only. Exams in IDLx are executed by activity
 Pre-instancing enables the lab environment to be prebuilt, prior to users launching the lab. This allows lab authors to schedule the lab environment to be built and ready when the user launches the lab. This greatly reduces the amount of time it takes for the user to get into the lab environment and begin learning.
 
 1. **Enable Pre-instancing:** Check this box to enable pre-instancing on the lab profile. 
-2. **Add Schedule:** Click the add the schedule for pre-instancing. 
+1. **Add Schedule:** Click the add the schedule for pre-instancing. 
 
 ## Storage
 
@@ -265,8 +265,8 @@ This section specifies where the files for the lab profile should be stored.
 
 Unchecking **Inherit storage settings from organization** box will enable additional options.
 
-2. **Storage Loading Priority:** This will set the priority level of loading files into storage. There are multiple levels of priority; *Low, Normal and High*. If there is no priority preference, select _Disabled_. 
-3. **Datacenter Availability:** Select the datacenter(s) that the lab profile will be available to launch from. Labs can be launched from the following datacenters:
+1. **Storage Loading Priority:** This will set the priority level of loading files into storage. There are multiple levels of priority; *Low, Normal and High*. If there is no priority preference, select _Disabled_. 
+1. **Datacenter Availability:** Select the datacenter(s) that the lab profile will be available to launch from. Labs can be launched from the following datacenters:
    - AU East - located in Eastern Australia
    - External - files are stored in an external system and are used by labs that require the IDLx Cloud Client.
    - US Central - located in Central United States
@@ -306,66 +306,62 @@ For more information about Action and Event types, please see our [guide](/lod/l
 
 ## Advanced
 
-1. **Custom CSS:** CSS markup that will be included in the lab client, making it possible to control the styles of custom content that is added to the lab. This should just be the style definitions, including a style tag is not necessary. 
+1. **End Redirect URL:** If this value is set, users will be redirected to the specified URL when the lab ends. This feature isn't used often, but can help a lab fit into an external workflow. 
 
-2. **Custom CSS URL:** A URL to an externally hosted CSS stylesheet. The stylesheet will be referenced in the lab client. **HTTPS is required**.
+1. **Max Active Instance:** This sets the amount of concurrent labs that can be launched at a time. Setting to _Unlimited_ allows an unlimited amount of launches of this lab profile at a time. Entering a number limits the amount of concurrent labs to the number specified. Any labs that are attempted to be launched after the limit has been met, will be given an error message and will not be able to launch the lab until the number of labs launched is below the maximum amount.
 
-3. **End Redirect URL:** If this value is set, users will be redirected to the specified URL when the lab ends. This feature isn't used often, but can help a lab fit into an external workflow. 
+1. **Show Timer:** Checking this box will enable the lab to display a countdown timer, showing the user how much time they have left to complete the lab. 
 
-4. **Max Active Instance:** This sets the amount of concurrent labs that can be launched at a time. Setting to _Unlimited_ allows an unlimited amount of launches of this lab profile at a time. Entering a number limits the amount of concurrent labs to the number specified. Any labs that are attempted to be launched after the limit has been met, will be given an error message and will not be able to launch the lab until the number of labs launched is below the maximum amount.
+1. **Enable Navigation Warning:** A warning will be displayed if the user navigates away from the lab client before the lab is complete.
 
-5. **Show Timer:** Checking this box will enable the lab to display a countdown timer, showing the user how much time they have left to complete the lab. 
+1. **Show Navigation Bar:** 
 
-6. **Enable Navigation Warning:** A warning will be displayed if the user navigates away from the lab client before the lab is complete.
+1. **Navigation Bar Width:** This sets the width of the navigation bar in the lab UI. 
 
-7. **Show Navigation Bar:** 
+1. **Show Content Tab:** Checking this box enables the Content tab to be displayed in the lab environment.
 
-8. **Navigation Bar Width:** This sets the width of the navigation bar in the lab UI. 
+1. **Show Machines Tab:** Checking this box enables the Machines tab to be displayed in the lab environment.
 
-9. **Show Content Tab:** Checking this box enables the Content tab to be displayed in the lab environment.
+1. **Show Support Tab:** Checking this box enables the Support tab to be displayed in the lab environment.
 
-10. **Show Machines Tab:** Checking this box enables the Machines tab to be displayed in the lab environment.
+1. **Custom Content Tab label:** Custom label to be used in lab UI, in place of the Content tab.
 
-11. **Show Support Tab:** Checking this box enables the Support tab to be displayed in the lab environment.
+1. **Custom Machines Tab label:** Custom label to be used in lab UI, in place of the Machines tab.
 
-12. **Custom Content Tab label:** Custom label to be used in lab UI, in place of the Content tab.
+1. **Custom Support Tab label:** Custom label to be used in lab UI, in place of the Support tab.
 
-13. **Custom Machines Tab label:** Custom label to be used in lab UI, in place of the Machines tab.
+1. **Custom Errata Label:** Custom label to be displayed on the [Errata](#errata).
 
-14. **Custom Support Tab label:** Custom label to be used in lab UI, in place of the Support tab.
+1. **Enable Type Text:** Enables the lab to use Type Text. Type Text is used to input information into the lab environment with one click.  
 
-15. **Custom Errata Label:** Custom label to be displayed on the [Errata](#errata).
+1. **Show Virtual machine Power Options:** Checking this box enables virtual machine power options to be available to users.
 
-16. **Enable Type Text:** Enables the lab to use Type Text. Type Text is used to input information into the lab environment with one click.  
+1. **Require Hyper-V Enhanced Controller:** Checking this box requires the user to use the Hyper-V Enhanced controller to work in the lab. If this box is checked, users will not be able to use any other machine remote controllers. Note that the Hyper-V enhanced controller only allows one user to access the lab at a time. 
 
-17. **Show Virtual machine Power Options:** Checking this box enables virtual machine power options to be available to users.
+1. **Enable Instance Link Sharing:** When enabled, the lab instance URLs can be shared between users. If a user copies the URL from their browser's URL bar, they can send it to another user, or open it in a different browser. Note that most virtual machines only allow one user to access them at a time. This setting does not bypass the connection limitations of virtual machines.
 
-18. **Require Hyper-V Enhanced Controller:** Checking this box requires the user to use the Hyper-V Enhanced controller to work in the lab. If this box is checked, users will not be able to use any other machine remote controllers. Note that the Hyper-V enhanced controller only allows one user to access the lab at a time. 
-
-19. **Enable Instance Link Sharing:** When enabled, the lab instance URLs can be shared between users. If a user copies the URL from their browser's URL bar, they can send it to another user, or open it in a different browser. Note that most virtual machines only allow one user to access them at a time. This setting does not bypass the connection limitations of virtual machines.
-
-20. **Shared Class Environment:** Shared class environments allow multiple lab instances to be bound together with one or more shared networks and resources. A shared class environment consists of at least two different lab profiles, each serving a particular role. 
+1. **Shared Class Environment:** Shared class environments allow multiple lab instances to be bound together with one or more shared networks and resources. A shared class environment consists of at least two different lab profiles, each serving a particular role. 
 
     - **Shared Environment:** One lab is configured to serve as the shared environment. Exactly one instance of this lab will run per class. 
     - **Participant:** This is the lab that end-users will launch. There can potentially be more than one lab in this role per class, but they will all connect to the same shared environment instance. 
 
     Networks within the shared environment lab can be made available to participant labs, making it possible for participants to connect to each other and/or to virtual machines within the shared environment. To enable Shared Class Environment for this lab profile, select one of the options from the drop-down menu; _Shared Environment_ or _Participant_. 
 
-21. **Save/Cancel Options:** 
+1. **Save/Cancel Options:** 
     - **Allow User to Cancel Labs:** allows the user to cancel the lab at any point
     - **Allow user to Save labs:** allows the user to save the lab in it's current state and return at a later time. Note that saved labs are only saved for 48 hours. Users can extend the saved lab expiration by resuming the lab and saving again. Each save sets the timer back to 48 hours. After 48 hours has passed, the lab progress and components are discarded and cannot be recovered. 
     - **Allow User to Extend Time Remaining:** Allows the user to extend the time remaining in the lab environment. 
     - **Auto-Save incomplete Labs:** Enables the lab to automatically save incomplete labs after a specified amount of time has passed. 
 
-22. **Save/Cancel Labs When Last Console Sync Exceeds:** Amount of time given between console syncs, before the lab will automatically cancel or save. 
+1. **Save/Cancel Labs When Last Console Sync Exceeds:** Amount of time given between console syncs, before the lab will automatically cancel or save. 
 
-23. **Save/Cancel labs when last Activity Exceeds:** Amount of time given of inactivity before the lab will automatically cancel or save.
+1. **Save/Cancel labs when last Activity Exceeds:** Amount of time given of inactivity before the lab will automatically cancel or save.
 
-24. **Activity Required to Enable Auto-Save:** Amount of active time in the lab given before the lab will automatically save.
+1. **Activity Required to Enable Auto-Save:** Amount of active time in the lab given before the lab will automatically save.
 
-25. **Minimum Time Given to Saved Labs:** Minimum amount of time that students will have on the lab timer, when they resume a lab. 
+1. **Minimum Time Given to Saved Labs:** Minimum amount of time that students will have on the lab timer, when they resume a lab. 
 
-26. **Maximum Allowed Snapshots:** Maximum amount of snapshots that are allowed
+1. **Maximum Allowed Snapshots:** Maximum amount of snapshots that are allowed
 
 1. **Launch URLs**: **LTI** (Learning Tools Interoperability) is a standard defined by the IMS Global Learning Consortium that allows learning systems to consume content provided by external tools or services. This standard enables rich integration between different learning services and platforms, combining their strengths to offer more value to students of those learning systems. For more information on Lab on Demand LTI integration, see our guide here: [LTI Guide](/guides/lti/lod-lti.md).
 
