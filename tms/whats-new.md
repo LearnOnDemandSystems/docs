@@ -2,6 +2,27 @@
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## Released July 17 2019
+
+### <span style="color:#0078d7;">External Badges</span>
+
+Your students can now earn externally supported badges through their activities/achievements in the TMS. This will give your users an additional sense of accomplishment, and they will be able to share that accomplishment with others outside the TMS.
+
+You create the badges in the external badge provider and attach them to achievements you have created in the TMS. This feature has the following components:
+
+- **Badge Provider** - a repository to distribute badges. This is a third-party vendor that will issue the badge to the user. Currently the TMS only supports badges from Credly/Acclaim.
+- **Badge** - the token given by a Badge Provider to a student to share based on the achievement earned.
+- **Achievement** - the criteria needed to earn the badge. An achievement is given to users who complete a specific task(s) in the TMS. When the achievement is earned, the badge associated with it is issued.
+
+The process to create badges and associate them to achievements has four steps. The first one is completed in the Badge Provider’s system. The final three steps are inside the TMS:
+
+1. Create your badge templates
+1. [Create the Badge Provider entity](/tms/tms-administrators/badges-achievements/create-badge-provider.md)
+1. [Create the Badge entity](/tms/tms-administrators/badges-achievements/create-badge.md)
+1. Associate the badge with an [existing](/tms/tms-administrators/badges-achievements/associate-badge.md) or [new Achievement](/tms/tms-administrators/badges-achievements/create-achievements-to-motivate-learners.md)
+
+----------------------------
+
 ## Released July 03 2019
 
 ### <span style="color:#0078d7;">Achievements for Exams</span>
