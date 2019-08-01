@@ -40,3 +40,8 @@ The following settings must be in place for the user to earn an achievement:
 1. A user must have the **Participate in Achievements** field checked on the **Basic Information** tab of their profile.
 1. The achievement must belong to the organization the user belongs to OR the course must have the **Enable achievements for outside organizations** checked.
 
+## Related Article
+
+For information on badging, please see:
+
+- [What is involved in creating external badges?](badge-process.md)
