@@ -3,7 +3,7 @@ route,target
 /Achievement/Create,/tms/targets/achievement-create-edit.md
 /Achievement/Edit/{achievementId},/tms/targets/achievement-create-edit.md
 /Assessment/Create,/tms/targets/assessment-create.md
-/Badge//tms/tms-administrators/badges-achievements/create-badge.md
+/Badge/Create,/tms/tms-administrators/badges-achievements/create-badge.md
 /BadgeProvider/Create,/tms/tms-administrators/badges-achievements/create-badge-provider.md
 /Class/Create,/tms/targets/class-create-edit.md
 /Class/Search,/tms/targets/class-find.md
