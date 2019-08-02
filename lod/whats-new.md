@@ -23,7 +23,7 @@
 - When performing a lab profile search, there is a new filter to display labs that have bug reporting enabled.
 
 **Cloud Subscription ID Filter and Output**
-- When searching for lab instances or cloud subscriptions, there is a new filter and output to display the subscription ID in search results. This was done to help identify where a subscription is used in LOD. 
+- There is a new filter and output to display the subscription ID in search results for lab instances and/or cloud subscriptions. This was done to help identify where a subscription is used in LOD. 
 
 **In-Lab Notifications**
 
@@ -49,8 +49,8 @@ The following items in LOD are now referenced by an alias instead of an ID, in r
 **Bug fixes and Improvements**
 
 - Fixed a bug that prevented filing a bug report from a launched lab.
-- Fixed a bug that would cause importing to fail, when importing a lab profile from an older version of LOD.
-- Fixed a bug that would cause importing to fail, when the lab contained replacement tokens. 
+- Fixed a bug that would cause importing to fail when importing a lab profile from an older version of LOD.
+- Fixed a bug that would cause importing to fail when the lab contained replacement tokens. 
 - Fixed a bug that would prevent blocking web request LCAs to replace tokens when sent in a post/put body.
 
 ## **Released July 19, 2019**
