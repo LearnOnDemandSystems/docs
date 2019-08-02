@@ -18,3 +18,12 @@ To associate the badge with the achievement,
 When a user earns the achievement, Credly is automatically notified that the user has earned the associated badge. The user will receive an email from Credly containing instructions on how to accept and share the badge.
 
 > [!ALERT] For Credly, a badge template may be configured to allow a user to only earn one badge per badge template. Users are identified by their email addresses, and the address must follow valid email guidelines or the badge will not be earned.
+
+## Related Articles
+
+For more information on badging and achievements, please see:
+
+- [What is involved in creating external badges?](badge-process.md)
+- [How do I create a Badge Provider in the TMS?](create-badge-provider.md)
+- [How do I create a badge?](create-badge.md)
+- [How do I create achievements?](create-achievements-to-motivate-learners.md)

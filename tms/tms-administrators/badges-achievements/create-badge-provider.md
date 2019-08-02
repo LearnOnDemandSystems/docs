@@ -16,3 +16,11 @@ To create your **Badge Provider** entity:
 
 ![](/tms/images/create-badge-provider-image.png)
 
+## Related Articles
+
+For more information on badging and achievements, please see:
+
+- [What is involved in creating external badges?](badge-process.md)
+- [How do I create a badge?](create-badge.md)
+- [How do I associate a badge with an achievement?](associate-badge.md)
+- [How do I create achievements?](create-achievements-to-motivate-learners.md)

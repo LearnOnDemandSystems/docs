@@ -15,3 +15,12 @@ To create a **Badge**:
 
 ![](/tms/images/create-badge-image.png)
 
+
+## Related Articles
+
+For more information on badging and achievements, please see:
+
+- [What is involved in creating external badges?](badge-process.md)
+- [How do I create a Badge Provider in the TMS?](create-badge-provider.md)
+- [How do I associate a badge with an achievement?](associate-badge.md)
+- [How do I create achievements?](create-achievements-to-motivate-learners.md)

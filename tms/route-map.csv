@@ -1,7 +1,10 @@
 route,target
 /,/tms/home.md
 /Achievement/Create,/tms/targets/achievement-create-edit.md
+/Achievement/Edit/{achievementId},/tms/targets/achievement-create-edit.md
 /Assessment/Create,/tms/targets/assessment-create.md
+/Badge/Create,/tms/tms-administrators/badges-achievements/create-badge.md
+/BadgeProvider/Create,/tms/tms-administrators/badges-achievements/create-badge-provider.md
 /Class/Create,/tms/targets/class-create-edit.md
 /Class/Search,/tms/targets/class-find.md
 /Class/TrainingKeys/{classId},/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md
