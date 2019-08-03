@@ -8,7 +8,7 @@
 
 # What's New in Lab On Demand
 
-## **Released July 26, 2019**
+## **Released August 2, 2019**
 
 **Find Lab Series Assignment Output and Filter**
 
