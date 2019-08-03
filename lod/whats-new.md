@@ -7,7 +7,7 @@
 </div>
 
 # What's New in Lab On Demand
-<!--
+
 ## **Released July 26, 2019**
 
 **Find Lab Series Assignment Output and Filter**
@@ -21,6 +21,9 @@
 **Enabled Bug Reporting Filter**
 
 - When performing a lab profile search, there is a new filter to display labs that have bug reporting enabled.
+
+**Cloud Subscription ID Filter and Output**
+- There is a new filter and output to display the subscription ID in search results for lab instances and/or cloud subscriptions. This was done to help identify where a subscription is used in LOD. 
 
 **In-Lab Notifications**
 
@@ -36,10 +39,19 @@ The following items in LOD are now referenced by an alias instead of an ID, in r
 - Cloud Credentials
 - Cloud Portal Credentials
 
+**Credential Pool Import/Export**
+- When importing a lab that has a credential pool associated, the  pool will now be preserved on the new lab profile during import. 
+
+
+**Cloud Resource Groups Selected by Default**
+- When creating a child lab profile, cloud resource groups from the parent profile will now be selected by default on the child lab profile. 
+
 **Bug fixes and Improvements**
 
 - Fixed a bug that prevented filing a bug report from a launched lab.
--->
+- Fixed a bug that would cause importing to fail when importing a lab profile from an older version of LOD.
+- Fixed a bug that would cause importing to fail when the lab contained replacement tokens. 
+- Fixed a bug that would prevent blocking web request LCAs to replace tokens when sent in a post/put body.
 
 ## **Released July 19, 2019**
 
