@@ -26,8 +26,8 @@ documents/document2.pdf
 You could reference this content in your instructions like this...
 
 ```
-![](image1.jpg)<br>
-![](image2.jpg)<br>
+![](image1.jpg)
+![](image2.jpg)
 ![](screenshots/screenshot1.jpg)
 ![](screenshots/screenshot2.jpg)
 [Download document 1](documents/document1.pdf)
