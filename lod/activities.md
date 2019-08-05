@@ -192,10 +192,10 @@ You can optionally store automated activity output separately from a script mess
 
 An example, if you wanted to capture a list of all running services in a virtual machine, at a specific point in the lab. You could create an automated that uses PowerShell to target a Windows virtual machine with the following script:
 
->```linenums
->Get-Service | Format-List *
->Set-ActivityResult -Correct -Message 'You got it!'
->```
+```linenums
+Get-Service | Format-List *
+Set-ActivityResult -Correct -Message 'You got it!'
+```
 
 When the student clicks the button in the lab to trigger the automated activity, the script will capture a list of running services and store them on the lab instance details page, and will display "You got it!" to the student in the lab. 
 
