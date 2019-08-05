@@ -14,10 +14,6 @@
 
 - There is a new filter and output option for Lab Series Organization.
 
-**Lab Series Search Price Output**
-
-- When performing a lab series search, there is a new output option to display the price.
-
 **Enabled Bug Reporting Filter**
 
 - When performing a lab profile search, there is a new filter to display labs that have bug reporting enabled.
