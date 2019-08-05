@@ -150,7 +150,7 @@ To launch a lab via an API request in Postman:
 
     ![](images/send-button.png)
 
-1. The lab will now for the specified user. Postman will return a JSON response with information about the result of the API request. The information in the response corresponds with the information on the Launch API details documentation. 
+1. The lab will now launch for the specified user. Postman will return a JSON response with information about the result of the API request. The information in the response corresponds with the information on the Launch API details documentation. 
 
     ![](images/api-json-response.png)
 
