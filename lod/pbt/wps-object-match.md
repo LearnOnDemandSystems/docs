@@ -11,7 +11,7 @@ This script contains the following sections:
 ## Define Variables {om-wps-param}
 This is the beginning of our script, in this section we outline the various variables we will use throughout the script.
 
-```
+```linenums
 param(
     $result = $false,
     $ItemId = "File-Settings-1",
@@ -37,7 +37,7 @@ param(
 ## Retrieve Items to Score {om-wps-retrieve}
 After defining any variables to be used throughout our script, we must obtain any items that may be scored. 
 
-```
+```linenums
 try{
     $file = Get-Item -Path $filepath -Force 
 }
@@ -51,7 +51,7 @@ catch{}
 ## Establish Results {om-wps-function}
 After establishing the commands needed to retrieve the items desired to score, we must establish what we desire the value of those items to be and what the user's configuration of those items are.
 
-```
+```linenums
 function Item-Details{
 
     $script:useritem = [pscustomobject]@{
@@ -77,14 +77,14 @@ function Item-Details{
 ## Validate Items Exist {om-wps-validation}
 
 Now that we have established exactly what will be scored, the script must validate that the items exist.
-```
+```linenums
 if ($file -ne $null) {
 ```
 - Here we identify the opening of an "if" statement where we check that our scored item exists. 
     - What occurs after validation is outlined in the next section.
 
 > If there were multiple items that needed to validated, we would validate them all in this single if statement. That may make this line look something more like:
-> ```
+> ```linenums
 > if ($file -ne $null -and $file2 -ne $null) {
 > ```
 
@@ -94,7 +94,7 @@ After establishing what all of the user's settings should be, we must turn them 
 
 ### Validation Successful
 
-```
+```linenums
 # DO NOT EDIT BELOW THIS LINE
 
     # Determine if the resource has the required configuration
@@ -131,7 +131,7 @@ After establishing what all of the user's settings should be, we must turn them 
 
 ### Validation Unsuccessful
 
-```
+```linenums
 } else {
     $CompletionMessage = "Item ${ItemId}: Incorrect`n"    
     $CompletionMessage    
@@ -159,7 +159,7 @@ $result
 To see all these components together in a single script, expand the section below.
 > [!KNOWLEDGE]
 >
-> ```
+> ```linenums
 > param(
 >     $result = $false,
 >     $ItemId = "File-Settings-1",

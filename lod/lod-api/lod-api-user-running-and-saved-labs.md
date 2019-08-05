@@ -51,7 +51,7 @@ https://labondemand.com/api/v3/userrunningandsavedlabs?userid=555
 
 ## Example Response
 
-```
+```linenums
 {
     "RunningLabs": [
         {
@@ -65,7 +65,7 @@ https://labondemand.com/api/v3/userrunningandsavedlabs?userid=555
             "IsExam": false,
         }
     ],
-    "SavedLabs": [
+    "SavedLabs": [ 
         {
             "LabInstanceId": 3493,
             "LabProfileId": 1,

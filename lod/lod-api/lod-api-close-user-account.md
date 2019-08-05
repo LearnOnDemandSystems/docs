@@ -28,7 +28,7 @@ https://labondemand.com/api/v3/CloseUserAccount/?userId=555
 
 ## Example Response
 
-```
+```linenums
 {
     "Status": 1,
     "Error": null,
