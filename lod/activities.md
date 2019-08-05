@@ -192,7 +192,7 @@ You can optionally store automated activity output separately from a script mess
 
 An example, if you wanted to capture a list of all running services in a virtual machine, at a specific point in the lab. You could create an automated that uses PowerShell to target a Windows virtual machine with the following script:
 
-```
+```linenums 
 Get-Service | Format-List *
 Set-ActivityResult -Correct -Message 'You got it!'
 ```
@@ -218,14 +218,14 @@ You can set a variable and send a notification using the the variable in the fol
 
 **Script 1**
 
-```
+```linenums
 Set-LabVariable -Name Directory -Value C:/users/student/documents
 Set-ActivityResult -Correct
 ```
 
 **Script 2**
 
-```
+```linenums
 Send-LabNotification -Message "Use this directory: @lab.Variable(Directory)!"
 Set-ActivityResult -Correct
 ```

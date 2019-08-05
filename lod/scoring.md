@@ -57,7 +57,7 @@ scoring bot.
     `$score = "score value of 10"
 Set-ActivityResult -Percentage @score`
 
-`$Score` can be anything 
+    `$Score` can be anything 
 
 
 >[!knowledge] Scoring bot VMs must be Windows 10, and must use Hyper-V for the hypervisor. vSphere scoring bot VMs are not suppported at this time. 

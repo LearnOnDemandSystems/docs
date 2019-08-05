@@ -12,7 +12,7 @@ There is an option if the student opens the lab from another window. The opener 
 
 You can listen for the message using the below:
 
-```
+```linenums
 window.addEventListener("message", receiveMessage, false);
 
 function receiveMessage(e) {

@@ -36,7 +36,7 @@ Below is a list of **currently supported** and **planned support** Amazon Web Se
 |[Amazon Glacier](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonglacier.html)|glacier|planned|||
 |[Amazon GuardDuty](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonguardduty.html)|guardduty|planned|||
 |[Amazon Inspector](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoninspector.html)|inspector|planned|||
-|[Amazon Kinesis](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonkinesis.html)|kinesis|planned|||
+|[Amazon Kinesis](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonkinesis.html)|kinesis|currently supported|||
 |[Amazon Kinesis Analytics](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonkinesisanalytics.html)|kinesisanalytics|currently supported|||
 |[Amazon Kinesis Firehose](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonkinesisfirehose.html)|firehose|currently supported|||
 |[Amazon Kinesis Video Streams](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonkinesisvideostreams.html)|kinesisvideo|currently supported|||
@@ -50,7 +50,7 @@ Below is a list of **currently supported** and **planned support** Amazon Web Se
 |[Amazon RDS](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonrds.html)|rds|currently supported|||
 |[Amazon Redshift](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonredshift.html)|redshift|currently supported|||
 |[Amazon Rekognition](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonrekognition.html)|rekognition|planned|||
-|[Amazon Route 53](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonroute53.html)|route53|planned|||
+|[Amazon Route 53](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonroute53.html)|route53|currently supported|||
 |[Amazon Route 53 Auto Naming](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)|servicediscovery|planned|||
 |[Amazon Route53 Domains](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonroute53domains.html)|route53domains|planned|||
 |[Amazon SageMaker](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsagemaker.html)|sagemaker|planned|||
