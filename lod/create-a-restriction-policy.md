@@ -34,7 +34,7 @@ By default, Azure allows all resources to be provisioned, unless they are define
 
 The access control policy below will deny any resources from being provisioned unless it is a standard_DS3_v2 virtual machine to be deployed. 
 
-```
+```linenums
 {
     "if": {
         "allOf": [
@@ -64,7 +64,7 @@ By default, AWS allows denies all resources from bring provisioned, unless they 
 
 The access control policy below will allow only the EC2 service to be deplyed. Other AWS services that are not defined will not be available for deployment.
 
-```
+```linenums
 {
   "Version": "2012-10-17",
   "Statement": [

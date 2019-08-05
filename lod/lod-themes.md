@@ -24,7 +24,8 @@ Themes allow you to add cascading style sheets (CSS) to your lab profiles, to cu
 ### CSS
 
 Example: increases font size and changes the font color to gray
-```
+
+```linenums
 {
   font-size: 120%;
   color: dimgray;
@@ -34,7 +35,8 @@ Example: increases font size and changes the font color to gray
 ### Script
 
 Example: sends a popup notification from the web browser
-```
+
+```linenums
 alert("Hello! I am an alert box from the instructions!!");
 ```
 

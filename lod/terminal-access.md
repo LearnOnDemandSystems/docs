@@ -33,7 +33,8 @@ There are a couple of virtual machine (VM) requirements for SSH terminal access:
 - Create a configuration file at /etc/sysconfig/network-scripts/ifcfg-eth**X**, where X is equal to the number of adapters your VM has. It should be set to automatically start at boot and pull an address via DHCP.
     
     - Sample Configuration:
-    ```
+
+    ```linenums
     TYPE=Ethernet
     BOOTPROTO=dhcp
     NAME=eth1
@@ -44,7 +45,8 @@ There are a couple of virtual machine (VM) requirements for SSH terminal access:
 
 - Open /etc/network/interfaces and add an entry for eth**X** where X is equal to the number of adapters your VM has. It should be set to automatically start at boot and pull DHCP information.
     - Sample Configuration:
-    ```
+
+    ```linenums
     auto eth1
     allow-hotplug eth1
     iface eth1 inet dhcp
