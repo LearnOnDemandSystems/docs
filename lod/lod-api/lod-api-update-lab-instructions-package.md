@@ -28,9 +28,9 @@ You could reference this content in your instructions like this...
 ```
 ![](image1.jpg)<br>
 ![](image2.jpg)<br>
-![](screenshots/screenshot1.jpg)<br>
-![](screenshots/screenshot2.jpg)<br>
-[Download document 1](documents/document1.pdf)<br>
+![](screenshots/screenshot1.jpg)
+![](screenshots/screenshot2.jpg)
+[Download document 1](documents/document1.pdf)
 [Download document 2](documents/document2.pdf)
 ```
 
