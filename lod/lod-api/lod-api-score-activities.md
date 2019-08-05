@@ -31,5 +31,4 @@ https://labondemand.com/api/v3/scoreactivities/?id=4449999</pre>
     "Status": 1,
     "Error": null
 }
-</pre>
 ```

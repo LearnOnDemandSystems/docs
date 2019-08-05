@@ -26,11 +26,11 @@ documents/document2.pdf
 You could reference this content in your instructions like this...
 
 ```
-![](image1.jpg)<br>
-![](image2.jpg)<br>
-![](screenshots/screenshot1.jpg)<br>
-![](screenshots/screenshot2.jpg)<br>
-[Download document 1](documents/document1.pdf)<br>
+![](image1.jpg)
+![](image2.jpg)
+![](screenshots/screenshot1.jpg)
+![](screenshots/screenshot2.jpg)
+[Download document 1](documents/document1.pdf)
 [Download document 2](documents/document2.pdf)
 ```
 
@@ -60,10 +60,10 @@ https://labondemand.com/api/v3/updatelabinstructionspackage?Id=2393048
 
 ```
 var id = 2393048;<br>
-var filePath = "C:\MyStuff\Instructions.zip";<br>
-var url = ApiUrl + "UpdateLabInstructionsPackage/?Id=" + id;<br>
-var webClient = new WebClient();<br>
-webClient.Headers.Add("api_key", IntegrationKey);<br>
-var responseArray = webClient.UploadFile(url, filePath);<br>
+var filePath = "C:\MyStuff\Instructions.zip";
+var url = ApiUrl + "UpdateLabInstructionsPackage/?Id=" + id;
+var webClient = new WebClient();
+webClient.Headers.Add("api_key", IntegrationKey);
+var responseArray = webClient.UploadFile(url, filePath);
 var responseText = System.Text.Encoding.ASCII.GetString(responseArray);
 ```
