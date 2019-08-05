@@ -219,7 +219,7 @@ You can set a variable and send a notification using the the variable in the fol
 
 **Script 1**
 
-```
+```linenums
 Set-LabVariable -Name Directory -Value C:/users/student/documents
 Set-ActivityResult -Correct
 ```
