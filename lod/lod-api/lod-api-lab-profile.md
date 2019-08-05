@@ -85,7 +85,7 @@ https://labondemand.com/api/v3/labprofile?id=1
 
 ## Example Response
 
-```
+```linenums
 {
     "Id": 1,
     "Name": "Demo Lab 1",

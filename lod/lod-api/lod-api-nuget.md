@@ -74,7 +74,7 @@ https://www.nuget.org/packages/LearnOnDemandSystems.OneLearnLOD.OneLearnLODAPICl
 
 Example:
 
-```
+```linenums
 var apiUrl = "https://labondemand.com/api/v3";
 var apiKey = "YourKeyGoesHere";
 var labId = 12001; 

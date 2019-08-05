@@ -11,7 +11,7 @@ This script contains the following sections:
 ## Define Variables {if-azps-param}
 This is the beginning of our script, in this section we outline the various variables we will use throughout the script.
 
-```
+```linenums
 param (
     $successmessage = "Task successfully completed!"    
     $LabInstanceID = '@lab.LabInstance.Id',
@@ -36,7 +36,7 @@ param (
 ## Retrieve Items to Score {if-azps-retrieve}
 After defining any variables to be used throughout our script, we must obtain any items that may be scored. 
 
-```
+```linenums
 function scoredItem{
 
     $storageAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name $storageAccountName
@@ -53,7 +53,7 @@ function scoredItem{
 ## Establish Results {if-azps-function}
 After establishing the commands needed to retrieve the items desired to score, we must establish what we desire the value of those items to be and if the user's configuration meets those values.
 
-```
+```linenums
     if ($storageAccount -eq $null) {
         $evidence += "Storage Account Not Found.`n"
     }
@@ -82,7 +82,7 @@ After establishing the commands needed to retrieve the items desired to score, w
 
 After establishing what all of the user's settings should be, we must turn them into scored data. This section is where all the actual scoring occurs. 
 
-```
+```linenums
 function Evaluate{ 
     $result = $true
     $evidence = @()
@@ -126,7 +126,7 @@ To see all these components together in a single script, expand the section belo
 
 > [!KNOWLEDGE]
 >
-> ```
+> ```linenums
 > param (
 >     $successmessage = "Task successfully completed!"        
 >     $LabInstanceID = "@lab.LabInstance.Id",

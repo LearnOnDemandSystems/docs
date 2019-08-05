@@ -74,7 +74,7 @@ https://labondemand.com/api/v3/catalog
 
 ## Example Response
 
-```
+```linenums
 {
     "LabSeries": [
         {
