@@ -78,14 +78,14 @@ function Item-Details{
 ## Validate Items Exist {om-awsps-validation}
 
 Now that we have established exactly what will be scored, the script must validate that the items exist.
-```linenums
+```
 if ($vpc -ne $null) {
 ```
 - Here we identify the opening of an "if" statement where we check that our scored item exists. 
     - What occurs after validation is outlined in the next section.
 
 > If there were multiple items that needed to validated, we would validate them all in this single if statement. That may make this line look something more like:
-> ```linenums
+> ```
 > if ($vpc -ne $null -and $ec2 -ne $null) {
 > ```
 
