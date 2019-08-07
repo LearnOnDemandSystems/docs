@@ -8,7 +8,6 @@
 1. [Resources](#resources)
 1. [Errata](#errata)
 1. [Exam](#exam)
-1. [Pre-instancing](#pre-instancing)
 1. [Life Cycle](#life-cycle)
 1. [Storage](#storage)
 1. [Tags](#tags)
@@ -301,34 +300,6 @@ Exams are used in IDL (legacy) labs only. Exams in IDLx are executed by activity
 1. **Reference URL:** Provide a URL that users can reference to better understand the explanation of the answer to the question. 
 
 -->
-
-## Pre-instancing
-
-Pre-instancing enables the lab environment to be prebuilt, prior to users launching the lab. This allows lab authors to schedule the lab environment to be built and ready when the user launches the lab. This greatly reduces the amount of time it takes for the user to get into the lab environment and begin learning.
-
-1. **Enable Pre-instancing:** Check this box to enable pre-instancing on the lab profile. 
-
-    - **Saved or Running:** pre-instanced labs can either be saved or left running. Running labs allow near instantaneous user launches, but consume system resources and potentially increase costs. When in doubt, choose _Saved_. 
-
-    - **Save Delay:** When this value is greater than zero, pre-instances will be allowed to run for the configured number of seconds before being saved. This can be useful if the lab contains services or startup applications that require some time before they are ready for a user to interact with them. Note that this setting has no impact on labs that launch from a start state. (only available if state is set to saved). 
-
-    - **Batch Size:** this is the number of pre-instances that will be launched at a time until the desired stock level is reached. 
-
-    - **Stock Level:** this is how many pre-instances the system will attempt to keep in stock.
-
-1. **Add Schedule:** Click the add the schedule for pre-instancing. 
-
-    - **When:** select the start date and time for the schedule.
-
-    - **Enable**: select to enable the schedule. 
-
-    - **State**: select the state that the pre-instances will launch as; saved or running. 
-
-    - **Batch Size:** select the batch size of the scheduled pre-instances. 
-
-    - **Stock Level:** select the stock level of the scheduled pre-instances.
-
-    - **Follow Up:** Enable follow up to create another schedule that will be used after the first schedule is completed. 
 
 ## Storage
 
