@@ -72,15 +72,15 @@ Please note that the actual replacement tokens returned will vary by lab type. F
         },
         {
             "Token": "@lab.User.FirstName",
-            "Replacement": "Lab "
+            "Replacement": "John "
         },
         {
             "Token": "@lab.User.LastName",
-            "Replacement": "User"
+            "Replacement": "Doe"
         },
         {
             "Token": "@lab.User.Email",
-            "Replacement": "lab.user@sample.net"
+            "Replacement": "john.doe@sample.net"
         }
     ],
     "Error": null,
