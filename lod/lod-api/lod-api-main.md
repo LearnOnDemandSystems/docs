@@ -55,6 +55,7 @@ All dates are in unix epoch time, which is the number of seconds that have elaps
 - [LaunchForEventByExternalId](lod-api-launch-for-event-by-external-id.md) - Launches a lab instance within an event using an - external lab identifier.
 - [Result](lod-api-result.md) - Returns information about a particular lab instance result.
 - [Results](lod-api-results.md) - Returns information about all lab instance results that started or ended within a specified time range.
+- [ReplacementTokens](lod-api-replacementtokens.md) - Returns all @lab replacement tokens available for a particular lab instance.
 - [Resume](lod-api-resume.md) - Resumes a specified lab instance.
 - [RunningAndSavedLabs](lod-api-running-and-saved-labs.md) - Retrieves all labs that are currently running or saved.
 - [Save](lod-api-save.md) - Saves a specified lab instance.
