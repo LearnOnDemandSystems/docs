@@ -21,7 +21,7 @@ This command does not return scoring results. To obtain scoring results, use the
 Imagine…  A lab instance with an ID of 2393049 is running and needs to be scored.
 
 ```
-https://labondemand.com/api/v3/scoreactivities/?id=4449999</pre>
+https://labondemand.com/api/v3/scoreactivities?labinstanceid=4449999
 ```
 ## Example Response
 
