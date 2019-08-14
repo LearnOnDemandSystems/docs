@@ -24,7 +24,7 @@ The **ReplacementTokens** command retrieves all @lab replacement tokens availabl
 ## Example Usage
 
 ```
-https://labondemand.com/api/v3/replacementtokens/38922211
+https://labondemand.com/api/v3/replacementtokens/15167595
 ```
 
 ## Example Response
