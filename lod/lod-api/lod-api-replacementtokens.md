@@ -68,7 +68,7 @@ Please note that the actual replacement tokens returned will vary by lab type. F
         },
         {
             "Token": "@lab.User.Id",
-            "Replacement": "13832814"
+            "Replacement": "11832814"
         },
         {
             "Token": "@lab.User.FirstName",
