@@ -1,37 +1,30 @@
 # ReplacementTokens
 
-The **RunningAndSavedLabs** command retrieves all lab instances launched by this API Consumer that are currently running or saved.
+The **ReplacementTokens** command retrieves all @lab replacement tokens available for a particular lab instance.
 
 ## Parameters
 
-none
+|Name|Type|Required|Note|
+|--- |--- |--- |--- |
+| Id | Integer (64-bit) | No | The ID of the lab instance|
 
 ## Response
 
 |Property|Type|Nullable|Note
 |--- |--- |--- |--- |
-|RunningLabs|Array of LabInstance|No|See the LabInstance Type below|
-|SavedLabs|Array of LabInstance|No|See the LabInstance Type below|
+|ReplacementTokens|Array of ReplacementTokens|No|See the ReplacementTokens Type below|
 
-## LabInstance
+## ReplacementTokens
 
 |Property|Type|Nullable|Note
 |--- |--- |--- |--- |
-|Id|Long|No|The unique identifier of the lab instance|
-|UserId|String|No|The ID of the user the lab instance belongs to|
-|UserFirstName|String|No|The first name of the user the lab instance belongs to|
-|UserLastName|String|No|The last name of the user the lab instance belongs to|
-|LaProfileId|Int|No|The unique identifier of the lab profile the lab instance is based on|
-|LabProfileNumber|String|No|The number/code of the lab profile the lab instance is based on|
-|LabProfileName|String|No|The name of the lab profile the lab instance is based on|
-|Start|Long|No|When the lab instance was started (in Unix epoch time)|
-|Expires|Long|No|When the lab will expire (in Unix epoch time)|
-|IsExam|Boolean|No|Indicates whether the lab is considered a scorable exam|
+|Token|String|No|The token name|
+|Replacement|String|No|The replacement value for the token|
 
 ## Example Usage
 
 ```
-https://labondemand.com/api/v3/runningandsavedlabs
+https://labondemand.com/api/v3/replacementtokens/38922211
 ```
 
 ## Example Response
