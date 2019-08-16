@@ -2,7 +2,7 @@
 
 Below is a list of **currently supported** and **planned support** Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation.
 
-|Service Name|Service Prefix|Supported||
+|Service Name|Service Prefix|Supported|Considerations|
 |:---|:---|:---|:---|
 |[Alexa for Business](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_alexaforbusiness.html)|A4B|currently supported|||
 |[Amazon API Gateway](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonapigateway.html)|execute-api|currently supported|||
