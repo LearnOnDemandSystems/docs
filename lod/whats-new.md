@@ -8,6 +8,28 @@
 
 # What's New in Lab On Demand
 
+## **Released August 16, 2019**
+
+**Active Lab Instances Search**
+A filter has been added to filter active lab instances by cloud platform.
+
+**Lab with No Menu Options**
+- When no menu items appear in the Lab Client’s main menu, the menu button will no longer be visible. This can happen when the lab doesn’t allow Cancel, or Save.
+
+**AWS Improvements**
+- AWS Amazon Simple Notification Service (SNS) service is now available to use in AWS labs. 
+- AWS lab user account names will include a lab specific unique identifier. This will enable better auditing of activity in AWS labs, particularly in exam scenarios
+- Support for Amazon CloudWatch Events and Logs in AWS Cloud Slice labs.
+
+
+**Fixes and Improvements**
+- Fixed a bug that prevented concurrent ABA to perform in AWS labs. 
+- Fixed a bug that would cause the number of available cloud credentials to display incorrectly.
+- Fixed a bug that prevented low availability emails from being sent when a cloud credential pool meets the low availability threshold.
+- A bug has been fixed that prevented launching a lab as a non-administrator from an internal Lab Series Assignment.
+
+
+
 ## **Released August 2, 2019**
 
 **Find Lab Series Assignment Output and Filter**
