@@ -18,7 +18,7 @@
 
 **AWS Improvements**
 - AWS Amazon Simple Notification Service (SNS) service is now available to use in AWS labs. 
-- AWS lab user account names will include a lab specific unique identifier. This will enable better auditing of activity in AWS labs, particularly in exam scenarios
+- AWS lab user account names will include a lab specific unique identifier. This will enable better auditing of activity in AWS labs, particularly in exam scenarios.
 - Support for Amazon CloudWatch Events and Logs in AWS Cloud Slice labs.
 
 
