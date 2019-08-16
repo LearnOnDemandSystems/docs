@@ -56,7 +56,7 @@ Below is a list of **currently supported** and **planned support** Amazon Web Se
 |[Amazon SageMaker](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsagemaker.html)|sagemaker|planned|||
 |[Amazon SES](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonses.html)|ses|planned|||
 |[Amazon SimpleDB](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsimpledb.html)|sdb|currently supported|||
-|[Amazon SNS](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsns.html)|sns|planned|||
+|[Amazon SNS](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsns.html)|sns|planned||If a lab user creates an SNS subscription, but fails to verify it, the SNS subscription will be left in a pending state. Pending SNS subscriptions cannot be removed from an AWS account, thus may appear as residue in subsequent lab instances. They will be automatically removed after 3 days.|
 |[Amazon Simple Systems Manager](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)|ssm|planned|||
 |[Amazon Simple Workflow Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsimpleworkflowservice.html)|swf|planned|||
 |[Amazon SQS](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsqs.html)|sqs|planned|||
