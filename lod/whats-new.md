@@ -22,7 +22,7 @@
 - Support for Amazon CloudWatch Events and Logs in AWS Cloud Slice labs.
 
 
-**Fixes and Improvements**
+**Improvements and Fixes**
 - Fixed a bug that prevented concurrent ABA to perform in AWS labs. 
 - Fixed a bug that would cause the number of available cloud credentials to display incorrectly.
 - Fixed a bug that prevented low availability emails from being sent when a cloud credential pool meets the low availability threshold.
@@ -64,7 +64,7 @@ The following items in LOD are now referenced by an alias instead of an ID, in r
 **Cloud Resource Groups Selected by Default**
 - When creating a child lab profile, cloud resource groups from the parent profile will now be selected by default on the child lab profile. 
 
-**Bug fixes and Improvements**
+**Improvements and Fixes**
 
 - Fixed a bug that prevented filing a bug report from a launched lab.
 - Fixed a bug that would cause importing to fail when importing a lab profile from an older version of LOD.
@@ -89,7 +89,7 @@ The following items in LOD are now referenced by an alias instead of an ID, in r
 
 - Azure resource templates can now be configured to output data from Azure, back to LOD in the lab instance data. This data can be displayed in the lab via @lab replacement tokens. This is helpful in scenarios when a student needs to RDP or SSH into a VM in Azure, or when information is needed about a deployed resource such as a storage account.  
 
-**Bug Fixes and Improvements**
+**Improvements and Fixes**
 - Fixed a bug that prevented the lab extension timer from being extended by the configured amount.
 - Fixed an issue that could cause a lab to not reflect recent changes made. This issue affected a very small number of lab authors. 
 - Fixed a bug that prevented Azure cloud slice labs from deploying resources in the background and allowing the lab to display before resources were deployed. 
@@ -159,7 +159,7 @@ LOD is adding a new fabric, to run labs in containers. Currently data centers ha
 **Azure Cloud Subscription Improvements**
 - Azure cloud subscriptions now have an option to enable billing reporting when editing an existing subscription or creating a new subscription.
 
-**Bug Fixes and Improvements**
+**Improvements and Fixes**
 - Cloud subscription pages now have a link to find lab instances for the subscription. This is helpful for determining the use of a specific cloud subscription within LOD. 
 - Fixed a bug that would prevent a non-super user from being able to select Docker from the available virtualization platforms when creating a lab profile.
 - Fixed a bug that prevented VMs from being cloned using Save As from a VM profile.
@@ -172,7 +172,7 @@ LOD is adding a new fabric, to run labs in containers. Currently data centers ha
 
 ## **Released June 28, 2019**
 
-**Bug Fixes and Improvements**
+**Improvements and Fixes**
 
 - VMs that are not visible to the student but have the option for _Make lab instance data available inside virtual machine_ selected will no longer inject the username and password into the VM. This was done to prevent a hidden VM from being tampered with by the student. 
 
@@ -192,7 +192,7 @@ LOD is adding a new fabric, to run labs in containers. Currently data centers ha
 
 - Line numbers can now be added to code blocks, by adding `-linenums` when declaring the code block language. For instance `PowerShell-linenums`.
 
-**Bug Fixes and Improvements**
+**Improvements and Fixes**
 
 - Fixed a bug that caused @lab replacement tokens not to render in a lab when they were added to the lab instructions using a Markdown include from a GitHub RAW file. 
 
@@ -206,7 +206,7 @@ LOD is adding a new fabric, to run labs in containers. Currently data centers ha
 
 ## **Released June 7, 2019**
 
-**Bug Fixes and Improvements**
+**Improvements and Fixes**
 
 - Fixed a bug that would prevent files from being deleted from a class after the instructor deleted the file from the Share Files section of the Monitor Labs page.
 
@@ -220,7 +220,7 @@ LOD is adding a new fabric, to run labs in containers. Currently data centers ha
 
 - Lab profiles that have virtual machines but are not visible to the student can now be configured to a specific landing page instead of a blank VM window. The landing page is configured in the cloud tab, and can be configured to any URL. For more information about setting this up, read [VM Based Lab Landing Page](/lod/vm-based-lab-landing-page.md).
 
-**Bug Fixes and Improvements**
+**Improvements and Fixes**
 
 - Fixed a bug that prevented nested task lists from rendering markdown properly in IDLx instructions. 
 
