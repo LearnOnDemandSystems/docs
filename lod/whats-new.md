@@ -332,7 +332,7 @@ LOD is adding a new fabric, to run labs in containers. Currently data centers ha
 - Additional logic was implemented when an Azure active directory user cannot be created. LOD will attempt to create the user in Azure AD for 60 seconds, and then display an error message if the user cannot be created.
 - Azure and AWS health check services have been separated into different applications in Azure, instead of being part of the lab host service. This will allow for faster update cycles and fewer issues with performance bottlenecks, as well as resilience and ensured tear down.
 
-**Bug Fixes and Improvements**
+**Improvements and Fixes**
 
 - Updated the text on the authentication tab when creating or editing a cloud subscription pool, and choosing AWS as the cloud platform for the cloud subscription pool. 
 - Fixed a bug that would cause IDLx instructions to be checked out after editing. This was caused by a change in Google Chrome. 
@@ -463,7 +463,7 @@ _Show scoring result disabled_
 - Scroll position is automatically restored when a studen -reconnects/reloads, or save/resumes.
 - Monitor will be scrolled to match the student's page location i -real-time with no need to refresh.
 
-**Bugfix**
+**Improvements and Fixes**
 - We now prevent SCSI adapters from conflicting with SCSI disks in VMware based labs - VMware VMs shouldn't allow SCSI adapter and Disk to use same Device ID. Device ID 7 has been removed from availability. 
 
 ---
