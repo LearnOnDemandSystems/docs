@@ -351,7 +351,7 @@ LOD is adding a new fabric, to run labs in containers. Currently data centers ha
 **Access Control List (ACL) Improvements**
 - ACL details pages now show child ACLs, as well as a Find Lab Profiles link that will show all lab profiles associated with the ACL. 
 
-**Bug Fixes**
+**Improvements and Fixes**
 - Fixed a bug that prevented users from viewing the Organizations tile or Find Organizations link when they had the proper permissions to view. 
 - Fixed a bug that prevented the Edit Parameters button from displaying on cloud resource templates after saving the lab profile. 
 
@@ -425,7 +425,7 @@ _audio as a link_
 
 - When a student extends the lab timer, a note is added to the lab instance. 
 
-### **Bug Fixes**
+**Improvements and Fixes**
 
 -  Fixed a bug that caused the lab timer to be hidden when set to display, in Cloud Slice labs. 
 - Fixed a bug that prevented IDLx images from being resized properly due to case sensitivity in the syntax.
