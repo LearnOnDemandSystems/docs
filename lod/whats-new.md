@@ -11,7 +11,7 @@
 ## **Released August 23, 2019**
 
 **Lab Client Improvement**
-- Lab client memory optimizations for general stability and performance improvements.
+- The Lab client has been updated with memory optimizations for general stability and performance improvements.
 
 **Active Lab Instances Search**
 - A filter has been added to filter active lab instances by cloud platform.
@@ -24,9 +24,6 @@
 ---
 
 ## **Released August 16, 2019**
-
-**Active Lab Instances Search**
-- A filter has been added to filter active lab instances by cloud platform.
 
 **Lab with No Menu Options**
 - When no menu items appear in the Lab Client’s main menu, the menu button will no longer be visible. This can happen when the lab doesn’t allow Cancel, or Save.
