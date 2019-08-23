@@ -2,6 +2,39 @@
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## Released August 16 2019
+
+### <span style="color:#0078d7;">TMS Improvements and Fixes</span>
+
+We have pushed the following items to TMS production:
+
+- For those with the proper permissions to manage vouchers, you can now easily access your Manage Class Vouchers page from your **Organization Profile** page. There is now a Manage Class Vouchers link in the quick access bar for all organizations.
+- You can now see the both the **Expected** and **Maximum Durations** on the **Lab Profile** page in the TMS. These values are set in LOD for the lab. This will help you when planning the duration for your courses and classes.
+- You no longer need to use a shortened URL for activities in courses. The URL field for activities on the **Activities** tab of the **Course** Profile now has an unlimited character length.
+- On the **Find Training Key Pools** search page, you will now see accurate results when using the **Expiration** filter.
+
+----------------------------
+
+## Released August 8 2019
+
+### <span style="color:#0078d7;">Badges on Student Achievement Page</span>
+You and your students can now easily view the badges and the achievements they have earned in one place, the student's Achievements page. To access this age, click the **Achievements** link in the quick access bar on the student's profile page. At the top of the page, you can see the achievements with their point values and description. Below achievements, you can see the badges earned with their description.
+
+> ![](./images/whats-new/badges-on-achievements-page.png)
+
+In addition, to make it easier for your students to participate in achievements, current organizations have been updated to have achievements enabled. If you would like to disable achievements for your organization, you can do this by unchecking ‘Enable Achievements’ at the bottom of the Preferences tab of your organization profile. Child organizations, at the time of creation, will have achievements enabled/disabled based on their parent organization’s setting.
+
+### <span style="color:#0078d7;">Course Duration versus Activities Duration Check</span>
+The course duration must now be longer than the amount of time the course activities are expected to take, based on a 12-hour day. Therefore, when creating or editing a course, you will need to ensure the course duration is less than the sum of the course’s activity durations. If it is less, you will receive an error message upon attempting to save the course. This only applies to activities available to everyone. For instance, if your course has the duration set to 1 day but the activities available to everyone have durations that add up to 12 hours and 15 minutes, you will be unable to save the course. You will receive the following error message: **The expected duration of the activities you have added to this course exceeds the time given in the Course’s duration for a student to complete the work. Please increase the Course’s duration. You may contact our help desk for further assistance.** 
+
+Please be advised, once you attempt to save the course and receive this message, any changes you have made to the Activities tab prior to the save attempt currently will not be saved. You will need to make those changes again after adjusting your course's duration.
+
+### <span style="color:#0078d7;">TMS Improvement</span>
+
+The TMS will now return a 403 “Not Found. Sorry, the page you requested could not be found.” message when someone tries to access an invalid or disabled site URL.
+
+----------------------------
+
 ## Released July 17 2019
 
 ### <span style="color:#0078d7;">External Badges</span>
