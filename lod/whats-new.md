@@ -8,6 +8,21 @@
 
 # What's New in Lab On Demand
 
+## **Released August 23, 2019**
+
+**Lab Client Improvement**
+- Lab client memory optimizations for general stability and performance improvements.
+
+**Active Lab Instances Search**
+- A filter has been added to filter active lab instances by cloud platform.
+
+**Fixes and Improvements**
+- Fixed a typo on the tooltip for Introduction Content URL, on the Advanced tab of lab profiles. 
+- Fixed a bug that caused an error to occur when printing search results from a container image search or a cloud subscription pool search. 
+- Fixed a bug that prevented some fields from printing or exporting, on cloud credential pool search results. 
+
+---
+
 ## **Released August 16, 2019**
 
 **Active Lab Instances Search**
