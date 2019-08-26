@@ -56,7 +56,7 @@ Once you have determined which of the formats best fits your desired scoring exp
 
 Traditional items will have pre-defined structures, while hands-on items that are scored in an automated fashion are designed by the author using scripting languages - such as PowerShell and BASH - to evaluate the user's environment. If scoring against a Virtual Machine, be sure to review the [Virtual Machine Requirements][https://docs.learnondemandsystems.com/lod/activities.md#requirements].
 
-[Virtual Machine Requirements][https://docs.learnondemandsystems.com/lod/activities.md#requirements].
+[Virtual Machine Requirements][https://docs.learnondemandsystems.com/lod/activities.md].
 
 - [What is PowerShell?](https://docs.microsoft.com/en-us/powershell/scripting/overview?view=powershell-6)
 - [What is BASH?](https://www.gnu.org/software/bash/manual/html_node/index.html)
