@@ -10,7 +10,7 @@
 
 ## **Released August 30, 2019**
 
-**Container Changes**
+**Persist Container Changes**
 
 - Containers can now persist changes, similar to how differencing disks work for VMs. Changes can be persisted to a new container image, new lab or container image or the current container images in the lab can be updated. This allows lab authors to configure the container image and save it, so that the configuration will be present on future lab launches that use that container image.
 
