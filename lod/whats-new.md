@@ -20,7 +20,7 @@
 
 **Azure Cloud Slice Updates**
 
-- The Azure host service has been rewritten to be more resilient, perform better and make it easier to maintain and add new features in the future. Additional improvements include:
+- The Azure host service has been rewritten to be more resilient, perform better and make it easier to maintain and add new features in the future. 
 
 **Improvements and Fixes**
 
