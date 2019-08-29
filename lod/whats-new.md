@@ -18,10 +18,6 @@
 
 - LOD now supports creating custom container registries that are linked to an external registry, such as a private Docker Hub repository. When persisting changes to a container image, you can choose to save the changes to the custom container registry. This allows you to use containers defined in any registry you have access to in your labs.
 
-**Azure Cloud Slice Updates**
-
-- The Azure host service has been rewritten to be more resilient, perform better and make it easier to maintain and add new features in the future. 
-
 **Improvements and Fixes**
 
 - Fixed a bug that prevented networks from being saved to a new lab, when cloning a lab and reusing containers.
