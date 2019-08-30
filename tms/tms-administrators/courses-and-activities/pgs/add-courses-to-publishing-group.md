@@ -9,11 +9,11 @@ Now that you have created your publishing group for a specific audience, it is t
 ## Multiple Courses
 To add multiple courses at time to a publishing group:
 1. Navigate to the publishing group and click **Edit**.
-1. On the **Courses** tab, click *Add Course**.
+1. On the **Courses** tab, click **Add Course**.
 1. In the **Choose Courses** dialog, search for and select the courses you want to add and click **OK**.
 1. Click **Save**.
 
-> [!ALERT] Organizations are only allowed to have access to a course through one publishing group. Therefore, if one of the courses you are trying to add is already available to a published organization through a different publishing group, you will receive an error message: **[Organization] already has access to the [course] from the [Publishing Group].** This will block it and possibly other courses (based on when the message was triggered during adding the courses) from being added. To add the course(s), you will need to resolve the conflict first. You can do this by either removing the course from the other publishing group or removing the published organization from either publishing group.
+> [!ALERT] Organizations are only allowed to have access to a course through one publishing group. Therefore, if one of the courses you are trying to add is already available to a published organization through a different publishing group, you will receive an error message: **[Organization] already has access to the [Course] from the [Publishing Group].** This will block it and possibly other courses (based on when the message was triggered during adding the courses) from being added. To add the course(s), you will need to resolve the conflict first. You can do this by either removing the course from the other publishing group or removing the published organization from either publishing group.
 
 ## Single Course
 
