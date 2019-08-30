@@ -9,9 +9,9 @@ Now that you have created your publishing group for a specific audience and have
 ## For Organizations You Manage
 1. Navigate to the publishing group and click **Edit**.
 1. On the **Published Organizations** tab, click **Add Organizations**.
-1. In the *Choose Organizations, search for and select the organizations you want to add and click **OK**.
+1. In the **Choose Organizations**, search for and select the organizations you want to add and click **OK**.
 
-> [!ALERT] Organizations are only allowed to have access to a course through one publishing group. Therefore, you may receive an error message: **[Organization] already has access to [Course] from [Publishing Group]**. This will will block the organization from being added. To add the organization, you will need to resolve the conflict first. You can do this by either removing the course from either publishing group or removing the published organization from the othe publishing group.
+> [!ALERT] Organizations are only allowed to have access to a course through one publishing group. Therefore, you may receive an error message: **[Organization] already has access to [Course] from [Publishing Group]**. This will block the organization from being added. To add the organization, you will need to resolve the conflict first. You can do this by either removing the course from either publishing group or removing the published organization from the other publishing group.
 
 ## For Organizations You Don't Manage
 This is handled through an authorization form with LODS in the same manner as was done for content providers. If you would like to start offering your proprietary content to other LODS customers, please reach out to your Account Executive.
