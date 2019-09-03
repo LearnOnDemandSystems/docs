@@ -14,7 +14,7 @@ Published organizations are only able to have access to a course through one pub
     1. An internal Publishing Group will automatically be created for your organization if you are creating proprietary content.
 1. Add the ability for sub-organizations to add their content.
 1. Add courses (see [How do I add a course to my publishing group?](add-courses-to-publishing-group.md)).
-1. After an authorization form has been completed with LODS for an organization, the LODS Operations team will add them as a Published Organization (see [How do I designate an organization as a Published Organization for my publishing group?](add-published-orgs-to-publishing-group.md)).
+1. Add organizations you manage as Published Organizations (see [How do I designate an organization as a Published Organization for my publishing group?](add-published-orgs-to-publishing-group.md)). For those organizations you do not manage, an authorization form needs to be completed with LODS for the organization, and the LODS Operations team will add them as a Published Organization.
 
 ## Related Articles
 
