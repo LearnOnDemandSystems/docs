@@ -27,8 +27,8 @@ To add a single course to a publishing group:
 
 Courses can be removed from a publishing group at any time. Organizations that had access to the course as a Published Organization will lose access for future scheduling. However, removal will not affect past classes and post class access.
 
-The next Best Practice step for creating a publishing group is: 
-1. After an authorization form has been completed with LODS for an organization, the LODS Operations team will add them as a Published Organization (see [How do I designate an organization as a Published Organization for my publishing group?](add-published-orgs-to-publishing-group.md)).
+The final Best Practice step for creating a publishing group is: 
+1. Add organizations you manage as Published Organizations (see [How do I designate an organization as a Published Organization for my publishing group?](add-published-orgs-to-publishing-group.md)). For those organizations you do not manage, an authorization form needs to be completed with LODS for the organization, and the LODS Operations team will add them as a Published Organization.
 
 ## Related Articles
 
