@@ -8,6 +8,26 @@
 
 # What's New in Lab On Demand
 
+## **Released August 30, 2019**
+
+**Persist Container Changes**
+
+- Containers can now persist changes, similar to how differencing disks work for VMs. Changes can be persisted to a new container image, new lab and container image or the current container images in the lab can be updated. This allows lab authors to configure the container image and save it, so that the configuration will be present on future lab launches that use that container image.
+
+**Container Registries**
+
+- LOD now supports creating custom container registries that are linked to an external registry, such as a private Docker Hub repository. When persisting changes to a container image, you can choose to save the changes to the custom container registry. This allows you to use containers defined in any registry you have access to in your labs.
+
+**Improvements and Fixes**
+
+- Fixed a bug that prevented networks from being saved to a new lab, when cloning a lab and reusing containers.
+- Fixed a typo on cloud subscription authentication tab.
+- Fixed a bug that prevented roles from being removed that were created by a lab user in a lab.
+- Fixed a bug that would prevent resource deployment errors from being logged to a lab instance.
+- Fixed a bug that caused hybrid AWS and Hyper-V labs to be stuck loading during launch.
+
+---
+
 ## **Released August 23, 2019**
 
 **Lab Client Improvement**
