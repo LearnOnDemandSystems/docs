@@ -2,9 +2,7 @@
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you. 
 
-For other organizations to consume your courses through their classes and course assignments, your courses must belong to a publishing group for which the organizations are designated as published organizations. 
-
-Now that you have created your publishing group for a specific audience, it is time to add the courses that should belong to it. You can do this one of two ways: multiple courses at a time or individually.
+For other organizations to consume your courses through their classes and course assignments, you must make your courses availabile to them through a publishing group. You can do this one of two ways: multiple courses at a time or individually.
 
 ## Multiple Courses
 To add multiple courses at time to a publishing group:
@@ -13,7 +11,7 @@ To add multiple courses at time to a publishing group:
 1. In the **Choose Courses** dialog, search for and select the courses you want to add and click **OK**.
 1. Click **Save**.
 
-> [!ALERT] Organizations are only allowed to have access to a course through one publishing group. Therefore, if one of the courses you are trying to add is already available to a published organization through a different publishing group, you will receive an error message: **[Organization] already has access to the [Course] from the [Publishing Group].** This will block it and possibly other courses (based on when the message was triggered during adding the courses) from being added. To add the course(s), you will need to resolve the conflict first. You can do this by either removing the course from the other publishing group or removing the published organization from either publishing group.
+> [!ALERT] Organizations are only allowed to have access to a course through one publishing group. Therefore, if one of the courses you are trying to add is already available to a published organization through a different publishing group, you will receive an error message: **[Organization] already has access to the [Course] from the [Publishing Group].** This will block it and possibly other courses from being added (based on when the message was triggered during adding the courses). You will need to resolve the conflict before adding the course(s). You can do this by either removing the course from the other publishing group or removing the published organization from either publishing group.
 
 ## Single Course
 
@@ -25,7 +23,7 @@ To add a single course to a publishing group:
 
 > [!ALERT] If this is not the first publishing group on the course and this publishing group already has published organizations, you may receive an error message: **[The publishing group] cannot be added because one or more organizations already have access through an existing Publishing Group.** If this occurs, please read [How do I find what organizations have access to a course through other publishing groups](pg-add-pg-error-resolution.md)
 
-Courses can be removed from a publishing group at any time. Organizations that had access to the course as a Published Organization will lose access for future scheduling. However, removal will not affect past classes and post class access.
+Courses can be removed from a publishing group at any time. Organizations that had access to the course as a Published Organization will lose access for future scheduling. However, removal will not affect previously scheduled classes, classes in sessions, past classes and post class access to course labs and activities.
 
 The final Best Practice step for creating a publishing group is: 
 1. Add organizations you manage as Published Organizations (see [How do I designate an organization as a Published Organization for my publishing group?](add-published-orgs-to-publishing-group.md)). For those organizations you do not manage, an authorization form needs to be completed with LODS for the organization, and the LODS Operations team will add them as a Published Organization.
