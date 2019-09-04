@@ -68,6 +68,19 @@ Automated Activities are PowerShell Windows command Shell Shell scripts that tar
     - Refer to the [Microsoft Linux support information](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/supported-linux-and-freebsd-virtual-machines-for-hyper-v-on-windows) to see if a distribution is supported on Hyper-V and instructions on installing any additional integration components
         - Network information needs to be communicated over the VMBus via Hyper-V integration services, currently RedHat, CentOS, FreeBSD, and most Debian distributions support this
         - Kali Linux does not support VM integration components
+        
+     - Confirmed supported Linux distros:
+     
+        - Ubuntu 18.04 (G2)
+        - CentOS-7-x86_64-1804 (GEN1)
+        - Kali Linux 2019.2
+        - Debian-10.0.0.0
+        - FreeBSD-11.2
+        - openSUSE-Leap-15.1
+        - Oracle R6U10
+        - Oracle R7U7
+        - Security-Onion-16.04.6.1
+     
 
 
 **VMware**: 
