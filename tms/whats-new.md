@@ -2,6 +2,80 @@
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## Released September 5 2019
+
+### <span style="color:#0078d7;">New Badge Output Option and Filters on Find Achievements</span>
+Operations managers, you now have an easy way to view which badges are attached to which achievements and to filter for achievements with a certain badge attached. We have added the **Badge** output option to the **Find Achievements** page. This column will display the name of the badge attached to the achievement. The name is a link to the badge profile. If no badge is attached to the achievement, the column will be empty for that achievement. 
+
+You can also filter the results for those achievements that have a certain badge attached using one of two filters. The **Badge Name** filter allows you to filter on part or all of the name of the badge. The **Choose Badge** filter allows you to see badges and select the one you want to use as the filter criteria.
+
+> ![](./images/whats-new/badge-f-and-oo-2.png)
+
+### <span style="color:#0078d7;">TMS Improvements and Fixes</span>
+We have made the following improvements to our TMS:
+
+- For our users who use screen readers, we changed the **Edit User's Basic Information** tab for improved accessibility. The page no longer contains a table around the fields. This change was to meet MAS standards and reduce confusion by screen readers.
+- For managers, we have removed the **Manager/Supervisor** tab and the **Fax** field from the **Contact** tab on the **Organization Profile**. This streamlines the profile by removing items that are not used.
+
+----------------------------
+
+## Released August 29 2019
+
+### <span style="color:#0078d7;">API Created Classes Use Organization Setting for Event Training Key</span>
+If you use the TMS API to create classes, these classes will now default to allow automatic enrollment using event training key if  your organization is set to allow automatic enrollment using event training key by default in new classes.
+
+You can now pull this information for a class through the API, as well, using the **GetClass** API call response. The response will include the following properties:
+
+- EnableClassTrainingKey - True/False
+- ClassTrainingKey - the key
+
+> ![](./images/whats-new/getclass-response-2.png)
+
+### <span style="color:#0078d7;">Courses Visible on Publishing Groups</span>
+For those of you who manage your organization's publishing group, you can now save time by adding courses directly to the publishing group itself, rather than going to each course to add the publishing group to it. All restrictions and warnings are still in effect. 
+See the updated article, [How do I add a course to my publishing group?](/tms/tms-administrators/courses-and-activities/pgs/add-courses-to-publishing-group.md).
+
+In addition, for anyone who can view the publishing group's profile page, the courses are now listed at the bottom of the page. This saves you time searching courses by a publishing group. 
+
+> ![](./images/whats-new/pg-course-list-4.png)
+
+The Help articles have been updated to reflect these changes. 
+
+### <span style="color:#0078d7;">Accessibility Improvements to Meet MAS</span>
+In our continuing efforts to improve our accessibility and meet MAS, we have made the following improvements:
+
+ - Users with screen readers will now hear
+    - The page title announced as a Heading 1 on the **Simple Course Assignment** page and in the **Redeem Training Key** dialog.
+    - The **Training Key** announced as required on the **Redeem Training Key** dialog.
+    - The TMS Logo announced as **Link, Learn on Demand TMS**.
+- The language has also been set to English on pages for screen readers.
+- Users who use keyboard controls will be able to cleanly tab through the **Current Training** page due to removing tab index values greater than 0.
+- For users with impaired vision, the **Integrated Help** article links now have a color contrast greater than 4.5.
+
+### <span style="color:#0078d7;">Enable Achievements Output Option and Filter</span>
+Want to be which of your organizations have achievements enabled? On the **Find Organizations** search page, you can select the new **Enable Achievements** output option. You can also filter for those organizations who do or do not have achievements enabled using the new **Enable Achievements** filter.
+
+> ![](./images/whats-new/enable-achievements-oo-filter-find-orgs.png)
+
+### <span style="color:#0078d7;">Expected Duration Output Option</span>
+Want to be able to control the duration of a course and its activities? You can turn on the new **Expected Duration** output option in the **Choose Lab** dialog when adding a lab activity to a course to be aware of how much time it will add to your course. 
+
+> ![](./images/whats-new/expected-duration-oo.png)
+
+You can also use thise output option on the **Find Lab Instances** search page to compare how long students were in labs versus the expected duration.
+
+> ![](./images/whats-new/expected-duration-find-lab-instances.png)
+
+### <span style="color:#0078d7;">TMS Improvements and Fixes</span>
+The following improvements have been been pushed to TMS Production:
+
+- To match current practices and to save everyone time, we have changed several defaults for new organizations and new child organizations.
+- We have updated the **Maintenance and System Message** to have a more modern look.
+- The **Theme** field has been removed from the **Company Profile** page.
+- The icon on **External Link** activities in courses is now a chain link instead of the same icon used for video activities.
+
+----------------------------
+
 ## Released August 16 2019
 
 ### <span style="color:#0078d7;">TMS Improvements and Fixes</span>
@@ -292,34 +366,3 @@ You can view the results of an ABA exam on the **Exam Instance** page. The resul
 ### <span style="color:#0078d7;">TMS Update</span>
 
 The **Find Courses** page now has an Output Option for **Total RAM**.
-
-----------------------------
-## Released February 28 2019
-
-### <span style="color:#0078d7;">TMS Update</span>
-
-A new API endpoint property for **GetCourse** was added: **HTML Description**.
-
-----------------------------
-## Released February 21 2019
-
-### <span style="color:#0078d7;">TMS Updates</span>
-
-- Export survey results from the **Survey Response Summary**. Here is more information on [analyzing your results](https://docs.learnondemandsystems.com/tms/tms-administrators/miscellaneous/analyze-survey-results.md?appid=tms)
-- New filters and output options.
-    - **Internal IDs** output option on **Find Sites** and **Find Organizations**.
-    - **Organization** filter and output option on **Find** and **Choose Labs**.
-
-----------------------------
-## Released February 14 2019
-
-### <span style="color:#0078d7;">TMS Update</span>
-
-A new API endpoint property for **GetClass** was added: **Organization Name**.
-
-----------------------------
-## Released February 8 2019
-
-### <span style="color:#0078d7;">Follow Discussions</span>
-
-You can now follow **Topics** and/or **Posts** on **Discussions** and be notified when there is activity on them. This notification can come through email or as an announcement in the Message Center. Both will provide links back to the Topic and Post. Here is the [Help](https://docs.learnondemandsystems.com/tms/tms-administrators/discussions/admin-follow.md?appid=tms) article.
