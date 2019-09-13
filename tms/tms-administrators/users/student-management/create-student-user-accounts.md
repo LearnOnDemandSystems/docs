@@ -1,5 +1,7 @@
 # How do I create student user accounts?
 
+> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
+
 User accounts for students provide all the needed rights to login, attend classes, open labs and virtual classes with the Basic User role. This is the default user role in the TMS, so each user you create is automatically given Basic User privileges. The system requires using a unique email address on every user account.
 
 To create a user account:

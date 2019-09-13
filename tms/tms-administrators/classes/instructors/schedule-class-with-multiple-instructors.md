@@ -1,5 +1,7 @@
 # How do I schedule a class with multiple instructors?
 
+> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
+
 When you create a class, you can add one or more instructors to the class. One instructor will be marked as the primary instructor and will be displayed in the Find Classes output. You can assign different instructors to different classrooms (adding multiple classrooms is covered in the [How do I use multiple classrooms for a class?](../classrooms-equipment/use-multiple-classrooms-for-class.md) article).
 
 To add multiple instructors:

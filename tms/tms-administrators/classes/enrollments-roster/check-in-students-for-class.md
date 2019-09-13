@@ -1,5 +1,7 @@
 # How can I check students in for class?
 
+> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+
 You can check your students in daily in one spot for all classes running in your organization's center. The check-in page is designed for a person who is greeting and directing students as they arrive in the center. It gives them one place where they can see each class as well as its students, instructor and room. It also has links to access the Class page, edit the Class page, access the Roster, or print the sign in sheets.  
 
 >[!ALERT] In order for a class to show on the check in page, it must be set for **Physical** delivery on the class page. Only students who are registered for the class with the status of **Enrolled** or **Audit** will be listed.  

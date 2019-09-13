@@ -1,5 +1,7 @@
 # How do I create a custom event?
 
+> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+
 Custom events are used to schedule a seminar, a meeting or a class without any of the content available through a course. If you are interested in using this feature, please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help) to be given permissions to create and manage Custom Events.
 
 >[!NOTE] Courses provide content such as labs, video, external sites, assessments and documents. If course content is needed, then a Class should be created instead of a Custom Event. 

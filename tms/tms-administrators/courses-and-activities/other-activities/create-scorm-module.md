@@ -1,5 +1,7 @@
 # How do I create a SCORM Module and make it available to other orgs for their courses?
 
+> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+
 Have SCORM content you want to incorporate in your courses or allow other organizations to incorporate into theirs? This is easy to do with the proper permissions. You will first create a SCORM module in the TMS for each SCORM file. You can then add those SCORM modules to your courses. You can also make them available for your partner organizations to add them to their courses. 
 
 First you will need to ensure you have the proper permissions. Please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help) for assistance with this.

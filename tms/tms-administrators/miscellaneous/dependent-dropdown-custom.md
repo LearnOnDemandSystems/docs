@@ -1,5 +1,7 @@
 # How can I show certain choices on a dropdown based on the answer to another dropdown?
 
+> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
+
 When using custom fields, you can choose to have an answer in one field trigger a new field to display with additional information for the user to select. Dropdown List custom field choices can be set to only be available if certain values/choices were made in another custom field. That field is called the parent. A simple use case could be if you had a Region dropdown list and wanted the Country dropdown list options to only be visible if a specific choice was made for the Region (parent) field. For instance France may only appear for the Country dropdown if Europe was selected in the Region.
 
 > [!KNOWLEDGE] Best Practices: 

@@ -1,5 +1,7 @@
 # How do I create achievements?
 
+> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
+
 You can create achievements that your students earn automatically through their TMS activities. Achievements can be used to motivate your students, especially if associated with external badges. Users can choose to participate in achievements from their profile.
 
 There are several terms (fields) you will need to know before you start to create achievements:

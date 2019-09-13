@@ -1,5 +1,7 @@
 # How do assessments work?
 
+> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+
 An assessment is a multiple choice exam or test to determine a user's comprehension of material. Assessments are added as course activities and can be mixed in among labs and videos. After completing an assessment, students can review their results, if allowed. In addition, these results can be viewed within the TMS.
 
 Assessments are designed in the TMS with multiple choice questions. These questions can have a single correct answer or multiple correct answers. Students can be allowed to review the assessment after they complete it. Because of this you have the option of adding an explanation for the correct answer(s) for each question and a link to a site with additional information.

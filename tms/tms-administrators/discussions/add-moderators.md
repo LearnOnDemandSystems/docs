@@ -1,5 +1,7 @@
 # How can I control posts on discussions?
 
+> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
+
 Discussions are a wonderful tool for opening dialogs with and between students. However, to be truly effective, at times posts, responses, and/or comments may need to be removed for the good of the overall discussion. Users with the Moderator role, when added to a discussion, have the ability to delete posts, responses, and comments from that discussion. All discussions should have at least one Moderator. Users with the Operations Manager role can assign the Moderator role.
 
 To add one or more moderators to a discussion:

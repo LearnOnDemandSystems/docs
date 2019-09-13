@@ -1,5 +1,7 @@
 # How can I cancel a class?
 
+> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+
 From time to time you will need to cancel a class. When this occurs, you should cancel the students enrolled in the class or move them to another class. You are not billed for students in cancelled classes.
 
 To cancel the class after all the enrollments have been cancelled or moved:

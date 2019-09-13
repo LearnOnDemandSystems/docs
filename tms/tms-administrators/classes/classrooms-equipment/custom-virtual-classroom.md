@@ -1,5 +1,7 @@
 ## How can I use my organization’s virtual meeting program in my virtual classes?
 
+> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+
 If you have a virtual meeting program you would like to use for your virtual classes, all you will need is the URL for it. Your students will be able to access the meeting program from their class enrollment. 
 
 To set your class up to use your own virtual classroom:

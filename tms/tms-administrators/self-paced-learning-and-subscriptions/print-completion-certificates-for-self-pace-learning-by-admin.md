@@ -1,5 +1,7 @@
 # How can an administrator print completion certificates for self-pace learning?
 
+> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
+
 When completion certificate templates are added to a course, the certificate is available to be printed for any course assignment using that course. Administrators have the option of printing from a PDF of the certificate or a Word file that permits editing of the content. All data pulled into the certificates is from the TMS. For instance, if a user name is showing incorrectly, it may be changed in the User Profile or edited directly on the certificate.
 
 For self-paced learning, administrators can print a completion certificate for a course assignment once the student has completed the course assignment or it has been marked complete by an administrative user. Completion certificates for self-paced learning are available to print from the student's transcript:

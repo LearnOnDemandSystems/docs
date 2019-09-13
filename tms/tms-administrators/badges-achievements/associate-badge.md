@@ -1,5 +1,7 @@
 # How do I associate a badge with an achievement?
 
+> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
+
 Achievements contain the conditions a user must meet through their training activities to earn an award and the badge associated with it. The following settings must be in place for the user to earn an achievement and badge:
 
 1. Your organization must have the **Enable Achievements** field checked on the **Preferences** tab. This enables your users to earn achievements.

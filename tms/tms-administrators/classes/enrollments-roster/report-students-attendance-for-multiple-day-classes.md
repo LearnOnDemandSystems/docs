@@ -1,5 +1,7 @@
 # How do I report on students' attendance for multiple day classes?
 
+> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+
 To view attendance data on multiple day classes, you must register the class' attendance using the Attendance Chart. When attendance is recorded there, the consolidated data for your organization can be pulled from the Find Class Attendance page.
 
 You can go directly to the attendance chart on the Class profile for all students in one class or to Find Class Attendance to view the days any/all students were in any class.
