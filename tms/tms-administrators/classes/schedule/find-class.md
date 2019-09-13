@@ -1,5 +1,7 @@
 # How can I find a class?
 
+> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+
 To view all classes in the TMS for your organization(s):
 1. On the **Admin** menu, in the **Classes** group, click **Find Classes**. This opens up the Find Classes page. By default, the search is set to find all future classes for any organization you have access to view. 
 1. Enter the Search criteria for the class and click **Search**. 

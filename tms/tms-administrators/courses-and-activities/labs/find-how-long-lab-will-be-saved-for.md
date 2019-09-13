@@ -1,5 +1,7 @@
 # How can I find how long a lab will be saved for?
 
+> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+
 The length of time a lab is saved is determined by several factors, among them: a user's roles, the type of learning (Instructor-led vs. Self-paced) and class sessions scheduled.
 
 Standard lab saves are as follows:

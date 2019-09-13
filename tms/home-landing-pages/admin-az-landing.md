@@ -228,6 +228,9 @@
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/cascade-custom-fields.md">
         <div class="subtopic_title">How do I make the custom fields on my courses available on my classes?</div>
       </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/manual-issuance.md">
+        <div class="subtopic_title">How do I manually issue badges for my students?</div>
+      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/record-student-attendance-for-multiple-day-class.md">
         <div class="subtopic_title">How do I record student attendance for a multiple day class?</div>
       </a>

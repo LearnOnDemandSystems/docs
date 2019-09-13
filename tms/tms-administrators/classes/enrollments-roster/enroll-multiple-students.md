@@ -1,5 +1,7 @@
 # How do I enroll multiple students?
 
+> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
+
 There are a couple of tools in the TMS you can use to register students. The the class roster is the one that lets you create multiple registrations all at once. Several different registration statuses exist to help you track whether the student should be granted access to a class.
 
 To create multiple enrollments:

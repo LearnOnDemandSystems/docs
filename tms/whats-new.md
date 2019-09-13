@@ -2,6 +2,34 @@
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## Released September 12 2019
+
+### <span style="color:#0078d7;">Manual Badge Issuance</span>
+
+With the proper permissions, you and your instructors can now manually issue badges to students directly from the class Roster page. This provides you the flexibility of determining if the badge requirements have been met by a user through the class and possibly other ways not monitored by the TMS. For instance, if the badge is not tied to an achievement for the class, but you feel the class’ content meets the badge’s requirements, you could manually issue it. 
+
+A badge must be set on its profile to allow manual issuance to be issued via the roster. When you have the proper permissions and there are available badges, you will see an **Issue a Badge** icon to the right of each student from which you can choose the badge.
+
+> ![](./images/whats-new/manual-badge-issuance.png)
+
+----------------------------
+
+### <span style="color:#0078d7;">More Accessibility Improvements to Meet MAS</span>
+In our continuing efforts to improve our accessibility for all students and meet MAS, we have made the following improvements:
+
+1. When a sight-impaired user encounters errors in saving changes to their profile,
+    1. The focus will now automatically return to the first error field.
+    1. The color contrast of the error messages has been enhanced.
+1. When using keyboard navigation,
+    1. The user will now see an outline on the Save button when it has focus.
+    1. The user will now be able to navigate the User menu with the arrow keys. Some screen reader programs may interfere with this capability.
+1. For Screen reader users
+    1. The bookmark on a course assignment will clearly identify whether the bookmark has been selected or not.
+    1. The heading levels on the Contact Information page have been  corrected to progress from heading 1 to heading 2.
+    1. The Training Key field announces as required / invalid if empty on the Training Key page.
+
+----------------------------
+
 ## Released September 5 2019
 
 ### <span style="color:#0078d7;">New Badge Output Option and Filters on Find Achievements</span>
@@ -353,16 +381,3 @@ You can now set course custom fields to cascade down to the classes that use the
 > 1.0:
 
 > https://[root-url]/api/1.0/1234567890/SearchClasses?pageIndex=0&pageSize=10
-
-----------------------------
-## Released March 7 2019
-
-### <span style="color:#0078d7;">ABA Exam Results</span>
-
-You can view the results of an ABA exam on the **Exam Instance** page. The results include the student answer as well as the correct answer. Here is an example.
-
-![](./images/whats-new/aba-results.png)
-
-### <span style="color:#0078d7;">TMS Update</span>
-
-The **Find Courses** page now has an Output Option for **Total RAM**.

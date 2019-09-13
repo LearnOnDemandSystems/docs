@@ -1,5 +1,7 @@
 # How do I create a temporary user role?
 
+> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+
 You may have a time when you would like to add a role for a user, but only want to give them the role temporarily. Roles default to permanent. However, they can be set to only be in place for a set period of time.
 
 This is done when creating or editing a user. 

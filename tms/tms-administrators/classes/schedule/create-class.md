@@ -1,5 +1,7 @@
 # How do I create a class?
 
+> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
+
 Classes are used to schedule meeting times and give students access to course activities for instructor-led training. If course activities are not needed for the meeting, then a Custom Event can be used.
 
 To create a class: 

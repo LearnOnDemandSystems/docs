@@ -1,5 +1,7 @@
 # How do I create completion certificates?
 
+> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
+
 Course completion certificates can be added to the courses of your choice for your staff or your students to print. You can upload one or more certificate templates to associate with courses and these certificates are made available to users to print in the TMS. 
 
 Certificates are available to print by administrators at any time for classes and course assignments. They may edit from a Word file or print using a PDF. Students may print certificates from a PDF if a class enrollment or course assignment shows as Complete on their Transcript.
