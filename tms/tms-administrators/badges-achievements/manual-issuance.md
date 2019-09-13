@@ -13,6 +13,7 @@ To set a badge to allow manual issuance:
 To manually issue a badge:
 1. Navigate to the class' **Roster** page.
 1. To the right of each student, in the row of action icons, click **Issue a Badge**. This will open the Choose Badge dialog and display only those badges that are set to be manually issued that you can access.
+![](/tms/images/manual-badge-issuance.png)
 1. In the **Choose Badge** dialog, search for and select the badge you want to issue and click **Issue a Badge**. The button will briefly change to **Successfully Issued Badge** before closing the dialog.
 
 To confirm the badge was issued, navigate to either the student's **Achievements** page or the **Find Issued Badges** page.
