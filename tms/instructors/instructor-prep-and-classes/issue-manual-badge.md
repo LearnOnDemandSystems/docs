@@ -1,6 +1,6 @@
 # How do I issue a badge to students in my class?
 
-[!Alert] Please be aware that not all functionality covered in this article may be available to you.
+> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
 
 You may be asked to issue badges to students in your class. With the proper permissions, you can do this directly from your class' Roster page.
 
