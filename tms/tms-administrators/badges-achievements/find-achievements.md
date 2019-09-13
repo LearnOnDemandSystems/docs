@@ -2,7 +2,7 @@
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
 
-You can easily see what achievements and badges your students are earning from either a user's Achievements page or from the search pages. 
+You can easily see what achievements and badges your students are earning from either a user's Achievements page or from the two search pages below. 
 
 To access the Achievements page for a student:
 1. On the **User Profile** page, click **Achievements** in the toolbar. This opens a page displaying all achievements and badges the user has earned. This link is only available if your organization has achievements enabled. If the user does not participate in achievements, the page will be empty even if the student has been manually issued a badge.
