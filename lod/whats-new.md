@@ -8,6 +8,22 @@
 
 # What's New in Lab On Demand
 
+## **Released September 13, 2019**
+
+**Container Registry Accounts**
+
+- Add any number of external registry accounts to LOD. This is useful if you have containers in a registry such as Docker Hub, and have multiple organizational accounts for managing your container images.
+ 
+**Improvements and Fixes**
+
+- Fixed a bug that caused an error to occur during lab launch, when the option in subscriptions to override subscription pool settings is disabled and use the subscription pool authentication settings instead. 
+- Fixed a bug that could cause manually evaluated activities to be scored more than once. This issue did not impact automated ABA/PBT. 
+- Fixed an issue that prevented some pages from being able to choose an organization when the organization profile had Assignable to Users enabled. 
+- Fixed a bug that caused an application error when editing lab instructions of an AWS lab profile that does not have an AWS region configured.
+
+
+---
+
 ## **Released August 30, 2019**
 
 **Persist Container Changes**
