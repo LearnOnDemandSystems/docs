@@ -71,6 +71,8 @@ If specific IP addresses are required, use the following table as a guide for IP
 | console.au.learnondemandsystems.com | 103.18.85.8 |   |
 | rds01.eu.learnondemandsystems.com | 185.254.59.3 |   |
 | console.eu.learnondemandsystems.com | 185.254.59.8 |   |
+| sea-rds.labondemand.com | 163.47.101.8 | 163.47.101.9 |
+| sea-console.labondemand.com | 163.47.101.13 |
 
 ## Launch a Test Lab
 
