@@ -47,6 +47,6 @@ When you are persisting changes in a container lab, you can persist changes to a
 
 1. Enter the **password** used to log in to the registry account. 
 
-1. Select the organization that registry account will be available to. Any users that belong to the chosen organization will be able to push, pull and updated container images to this registry account. 
+1. Select the organization that registry account will be available to. Any users that belong to the chosen organization will be able to push, pull and update container images to this registry account. 
 
 After accounts are configured, there will be an option to select a registry account to push the changes to, when you are persisting changes in a lab.
