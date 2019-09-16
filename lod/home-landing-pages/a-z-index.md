@@ -58,6 +58,10 @@
         <div class="subtopic_title">Container Images</div>
         <div class="subtopic_description">Create Docker container images to use in lab profiles. </div>
       </a> 
+      <a class="subtopic_link" href="/lod/container-registries.md">
+        <div class="subtopic_title">Container Registries</div>
+        <div class="subtopic_description">Create custom container registries that are linked to an external registry. </div>
+      </a> 
       <a class="subtopic_link" href="/lod/create-cloud-subscription-pool.md">
         <div class="subtopic_title">Create a Cloud Subscription Pool</div>
         <div class="subtopic_description">Create a Cloud Subscription Pool to load balance labs across your cloud subscriptions.</div>
