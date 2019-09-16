@@ -50,6 +50,7 @@ For those that need to create a firewall exception rule to allow connectivity to
   - 67.214.104.0/24
   - 185.254.59.0/24
   - 103.18.85.0/24
+  - 163.47.101.0/25
 
 
 The Lab on Demand system is a cloud platform that automatically provisions and connects the learner with private sandboxed resources. There is no way to predict which IP address in the cloud the learner will connect to for the provisioning of their virtual machines. Therefore, we provide a range of IP addresses and only a second level domain name.
