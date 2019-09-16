@@ -20,8 +20,7 @@ When persisting changes to a container image, you can choose to save the changes
 
     - **Organization**: Select the organization that the container registry will be     available to. 
 
-    - **Address**: Enter the web address where the container registry is hosted. 
-
+    - **Address**: Enter the full address of the registry, e.g. registry.hub.docker.com.
     - **Enabled**: Check this box to enable the container registry for use. 
 
     - **Allow Push**: Check this box to allow container changes to be pushed to the    container registry. If this is not enabled, container changes cannot be persisted   from a running lab to this container registry. 
