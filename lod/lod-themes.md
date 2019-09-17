@@ -13,7 +13,7 @@ Themes allow you to add cascading style sheets (CSS) to your lab profiles, to cu
 
 **Instructions CSS:** CSS added to this tab will style the lab console, the portion of the lab window that houses the lab instructions.
 
-**Instructions Script:** Javascript can be inserted into the lab console, the portion of the lab window that hosues the lab instructions.
+**Instructions Script:** Javascript can be inserted into the lab console, the portion of the lab window that houses the lab instructions.
 
 **Virtualization CSS:** CSS added to this tab will style the portion of the lab window that houses virtual machines. 
 
