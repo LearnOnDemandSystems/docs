@@ -86,7 +86,7 @@ On the CustomerNet network, labs must follow additional configuration restrictio
 
 - Any DNS server with a public IP must have DNS recursion disabled. For details on how to do this, please refer to the documentation for your virtual machine operating system.
 
-- Lab profiles with public IP addresses cannot have specify ethernet (MAC) addresses enabled on their network adapters.
+- Lab profiles with public IP addresses cannot specify ethernet (MAC) addresses enabled on their network adapters.
 
 On the SecureNet network, labs must follow additional configuration restrictions. If these restrictions are not followed, web access will not function reliably. For more information, refer to the [Access Control Lists](access-control-lists.md) documentation
 
