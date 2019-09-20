@@ -2,6 +2,20 @@
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## Released September 19 2019
+
+### <span style="color:#0078d7;">TMS Improvements and Fixes</span>
+We have made the following enhancements to our TMS:
+1. Announcements can now be set by LODS employees to be seen by all organizations. These type of announcements will not happen often and will normally be targeted to **Operation Managers** only. If you do not want your organization to receive these announcements, please contact support.
+1. To make our platform more accessible for all students, two more accessibility enhancements have been added to meet MAS - 
+    1.  If you use a screen reader, the HTML content of an announcement is now read;
+    1. If you use the keyboard to navigate and/or a screen reader, the **X** to close the **Cookie Banner** now works properly.
+1. For those of you who use our API, the **SearchClasses** API method now returns whether the training key is enabled or not for each class, and if so, the training key.
+1. On the **Class** profile and **Enrollment** profile pages, the **Instructor** and **Room** lines have been removed if there is no instructor or classroom assigned to the class.
+1. On an announcement, the **Show automatically on login** checkbox, if checked, will now remain checked upon **Save**.
+
+----------------------------
+
 ## Released September 12 2019
 
 ### <span style="color:#0078d7;">Manual Badge Issuance</span>
@@ -11,8 +25,6 @@ With the proper permissions, you and your instructors can now manually issue bad
 A badge must be set on its profile to allow manual issuance to be issued via the roster. When you have the proper permissions and there are available badges, you will see an **Issue a Badge** icon to the right of each student from which you can choose the badge.
 
 > ![](./images/whats-new/manual-badge-issuance.png)
-
-----------------------------
 
 ### <span style="color:#0078d7;">More Accessibility Improvements to Meet MAS</span>
 In our continuing efforts to improve our accessibility for all students and meet MAS, we have made the following improvements:
