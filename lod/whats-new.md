@@ -403,6 +403,7 @@ LOD is adding a new fabric, to run labs in containers. Currently data centers ha
 - Fixed a bug that prevented users from viewing the Organizations tile or Find Organizations link when they had the proper permissions to view. 
 - Fixed a bug that prevented the Edit Parameters button from displaying on cloud resource templates after saving the lab profile. 
 
+<!--
 ---
 
 ## **Released March 8, 2019**
@@ -482,7 +483,6 @@ _audio as a link_
 
 ---
 
-<!--
 ## **Released January 18, 2019**
 
 ### **Show Scoring Result Upon Completion** 
