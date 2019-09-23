@@ -178,7 +178,7 @@
          <div class="subtopic_title">PBT Overview</div>
          <div class="subtopic_description">Overview of Lab on Demand supported scoring methods.</div>
       </a>
-      <a class="subtopic_link" href="/lod/pbt/persist-container-changes.md">
+      <a class="subtopic_link" href="/lod/persist-container-changes.md">
          <div class="subtopic_title">Persist Container Changes</div>
          <div class="subtopic_description">Allows you to permanently persist container changes so that they are used in future lab launches.</div>
       </a>
