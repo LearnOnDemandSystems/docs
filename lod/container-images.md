@@ -28,7 +28,7 @@ Lab on Demand supports using Docker Container Images in labs. Container images a
 
     - **Command**: Enter any commands that the container needs to function. If no commands are need, simply leave `bash` in the field. 
 
-    - **Environment Variables**: Variables can be set for items such as configuration settings, encryption keys, and external resource addresses. For more information about environment variables, read [Define Environment Variables](https://docs.docker.com/v17.12/docker-cloud/getting-started/deploy-app/6_define_environment_variables/).
+    - **Environment Variables**: Variables can be set for items such as configuration settings, encryption keys, and external resource addresses. For more information about environment variables, read [Define Environment Variables](https://docs.docker.com/compose/environment-variables/).
 
     - **Exposed Ports**: The port(s) that will be exposed on the container. Enter on port value per line. Each exposed port will be dynamically  mapped to an external port on the lab host server when the lab is deployed. The external addresses for exposed ports can be obtained in your labs via @lab tokens. 
 
