@@ -97,7 +97,7 @@ When connecting to Learn on Demand Systems Training Management Systems (TMS) por
 Software that communicates with remote servers outside of the lab environment may need addresses whitelisted with the vendor to work. The below address ranges are used by NAT internet access labs.
 
 - IP addresses/scopes: 185.254.56.125 185.254.59.0/24
-- IP Ranges: 199.101.110.5 - 199.101.110.25, 67.214.104.176 – 67.214.104.180, 67.214.104.254, 206.196.30.25, 103.245.221.106
+- IP Ranges: 199.101.110.5 - 199.101.110.25, 67.214.104.176 – 67.214.104.180, 67.214.104.254, 206.196.30.25, 103.245.221.106, 163.47.101.124 - 163.47.101.126
 
 The below ranges are used by Public IP internet access labs.
 
