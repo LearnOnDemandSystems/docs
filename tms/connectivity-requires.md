@@ -74,9 +74,9 @@ If specific IP addresses are required, use the following table as a guide for IP
 | sea-rds.labondemand.com | 163.47.101.8 | 163.47.101.9 |
 | sea-console.labondemand.com | 163.47.101.13 |
 
-## Launch a Test Lab
+## Launch a Demo Lab
 
-Click the following link to launch a test lab: [Launch a LODS Virtual Lab: Legacy Lab Orientation](https://labondemand.com/Launch/122B02AA). This will allow you to see if you are able to connect and function within the lab environment.
+Click the following link to launch a demo lab: [Launch a LODS Virtual Lab: Legacy Lab Orientation](https://www.learnondemandsystems.com/demo-labs/). This will allow you to see if you are able to connect and function within the lab environment.
 
 ## Connection Assessment Test
 
