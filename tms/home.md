@@ -105,7 +105,7 @@
           </div>
         </div>
       </div>
-      <!-- -- End categories section -->
+      <!-- -- End student categories section -->
     </div>
 
   <div class="instructorCategory userTypeSection">
@@ -233,9 +233,11 @@
         </div>
       </div>
     </div>
+          <!-- -- End instructor categories section -->
   </div>
 
   <div class="administratorCategory userTypeSection">
+    <!-- Begin administrator categories section.. -->
   <div class="categoriesHeader" tabindex="0" title="Featured Posts" aria-label="Featured Admin Docs">Featured</div>
     <div class="cardContainerFull">
       <div class="cardContent">
@@ -246,18 +248,18 @@
             <span class="categoryDescription">Your student can now earn externally supported badges through their achievements in the TMS.</span>
           </a>
         </div>
-        <div class="category"> 
+        <div class="category">
           <a href="/tms/tms-administrators/badges-achievements/create-badge.md" class="categoryThread">
-            <i class="material-icons blue" aria-hidden="true">bookmarks</i>
-            <span class="categoryTitleFeatured" title="How do I create a badge?">How do I create a badge?</span>
+            <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
+            <span class="categoryTitleFeatured" titlte="How do I create a badge?">How do I create a badge?</span>
             <span class="categoryDescription">After creating the Badge Provider entity, the next step is to set up your badges.</span>
           </a>
         </div>
-        <div class="category">
-          <a href="/tms/tms-administrators/badges-achievements/create-achievements-to-motivate-learners.md" class="categoryThread">
-            <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
-            <span class="categoryTitleFeatured" titlte="How do I create an achievement?">How do I create an achievement?</span>
-            <span class="categoryDescription">You can create achievements that your students earn automatically through their TMS activities.</span>
+        <div class="category"> 
+          <a href="/tms/tms-administrators/tms-fundamentals/training-key-types.md" class="categoryThread">
+            <i class="material-icons blue" aria-hidden="true">bookmarks</i>
+            <span class="categoryTitleFeatured" title="What are the different types of Training Keys and how can they be used?">What are the different types of Training Keys and how can they be used?</span>
+            <span class="categoryDescription">You can use training keys to quickly enroll students into either instructor-led or self-paced training without manually creating each enrollment or course assignment.</span>
           </a>
         </div>
         <div class="viewAll"><a tabindex="0" class="viewAllLink" title="View all" href="/tms/home-landing-pages/admin-featured-landing.md" aria-label="View all Featured Docs for Admins">View all</a></div>
@@ -276,6 +278,12 @@
             <a href="/tms/tms-administrators/tms-fundamentals/admin-menu.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">insert_drive_file</i>
               <span class="categoryTitle" title="What is the Admin menu and how does it work?">What is the Admin menu and how does it work?</span>
+            </a>
+          </div>
+          <div class="category"> 
+            <a href="/tms/tms-administrators/tms-fundamentals/training-key-types.md" class="categoryThread">
+              <i class="material-icons blue" aria-hidden="true">insert_drive_file</i>
+              <span class="categoryTitle" title="What are the different types of Training Keys and how can they be used?">What are the different types of Training Keys and how can they be used?</span>
             </a>
           </div>
           <div class="category"> 
@@ -318,6 +326,7 @@
         </div>
       </div>
       <div class="cardContainer">
+        <!-- Begin categories section.. -->
         <div class="pbt_scoring cardContent">
           <div class="cardHeader" tabindex="0" title="Administrator Users" aria-label="Admin User Related Docs">Users</div>
           <div class="category">
@@ -342,6 +351,7 @@
         </div>
       </div>
       <div class="cardContainer">
+        <!-- Begin categories section.. -->
         <div class="lodIntegration cardContent">
           <div class="cardHeader" tabindex="0" title="Administrator Self-Paced Learning and Subscriptions" aria-label="Admin Self-Paced Learning and Subscriptions Docs">Self-Paced Learning and Subscriptions</div>
           <div class="category">
@@ -367,6 +377,7 @@
       </div>
       <div class="cardContainer">
         <div class="lodIntegration cardContent">
+        <!-- Begin categories section.. -->
           <div class="cardHeader" tabindex="0" title="Administrator Courses and Their Activities" aria-label="Admin Courses and Their Activities Docs">Courses and Their Activities</div>
           <div class="category">
             <a href="/tms/tms-administrators/courses-and-activities/overall/create-course.md" class="categoryThread">
@@ -390,6 +401,7 @@
         </div>
       </div>
       <div class="cardContainer">
+        <!-- Begin categories section.. -->
         <div class="lodIntegration cardContent">
           <div class="cardHeader" tabindex="0" title="Administrator Achievements and Badges" aria-label="Admin Achievements and Badges Docs">Achievements and Badges</div>
           <div class="category">
@@ -414,6 +426,7 @@
         </div>
       </div>
       <div class="cardContainer">
+        <!-- Begin categories section.. -->
         <div class="lodIntegration cardContent">
           <div class="cardHeader" tabindex="0" title="Administrator Discussion" aria-label="Admin Discussion Docs">Discussions</div>
           <div class="category">
@@ -438,6 +451,7 @@
         </div>
       </div>
       <div class="cardContainer">
+        <!-- Begin categories section.. -->
         <div class="lodIntegration cardContent">
           <div class="cardHeader" tabindex="0" title="Administator Miscellaneous" aria-label="Administrator Miscellaneous Featured Docs">Miscellaneous</div>
           <div class="category">
@@ -462,6 +476,7 @@
         </div>
       </div>
       <div class="cardContainer">
+              <!-- Begin categories section.. -->
         <div class="azIndex cardContent">
           <div class="cardHeader" tabindex="0" title="Administrator A-Z Index" aria-label="Administrator A-Z Docs">A-Z Index</div>
           <div class="category">
@@ -486,10 +501,11 @@
         </div>
       </div>
     </div>
+            <!-- -- End administrator categories section -->
   </div>
 
   <div class="arvatoMarketplaceAdmin userTypeSection">
-  <!-- Begin categories section.. -->
+  <!-- Begin Arvato MarketPlace Admin categories section.. -->
     <div class="moreInfo" tabindex="0" title="Getting started?">
       <span class="moreInfo_header">Getting started?</span>
       If you purchased Learn on Demand Systems labs through the Arvato Courseware Marketplace, read the <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started.md">Getting Started</a> article first, then review the following topics/processes to access and manage your orders.
