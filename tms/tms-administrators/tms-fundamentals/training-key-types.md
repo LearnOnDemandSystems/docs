@@ -32,6 +32,8 @@ Main features:
 - Keys are only valid during the duration of the class
 - Keys must be distributed to users manually
 
+[Back to types](#What-are-the-different-types-of-Training-Keys-and-how-can-they-be-used?)
+
 ## Event Training Keys
 
 Event training keys are another method to allow students to register for instructor-led classes. With this method, you create one key for the entire class. This method is very easy to use since all students use the same key to enroll.
