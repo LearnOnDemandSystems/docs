@@ -554,8 +554,6 @@ It's also possible to simply supply the width: {width}. In this case, the height
     > \!audio[text to display]\(url)
 
 - **Image with link:** Used to embed an image that can be clicked to navigate to a specific URL (internal or external). 
-
-    > \[![text to display]url or filepath "Optional image title")]url "Optional link title")
     
     > \[![text to display]\(url or filepath "Optional image title")](url "Optional link title")
     
