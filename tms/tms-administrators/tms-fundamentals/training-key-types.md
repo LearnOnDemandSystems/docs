@@ -64,6 +64,8 @@ Main features:
 - Key can be set to allow redemption after class
 - Key can be distributed manually or through a notification plan
 
+[Back to Types](#types)
+
 ## Training Key Pools
 
 Training key pools are one method to automatically create self-paced course assignments for a specific course when students redeem their key. This method is much more efficient than creating individual course assignments for each student if multiple course assignments are needed. 
