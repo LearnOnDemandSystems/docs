@@ -21,6 +21,9 @@
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/admin-menu.md">
         <div class="subtopic_title">What is the Admin menu and how does it work?</div>
       </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/training-key-types.md">
+        <div class="subtopic_title">What are the different types of Training Keys and how can they be used?</div>
+      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/reuse-search-settings-or-create-default-settings-on-search-pages.md">
         <div class="subtopic_title">How can I reuse search settings or create default settings on search pages?</div>
       </a>
