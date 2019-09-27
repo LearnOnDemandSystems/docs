@@ -76,7 +76,7 @@ If specific IP addresses are required, use the following table as a guide for IP
 
 ## Launch a Demo Lab
 
-Click the following link to launch a demo lab: [Launch a LODS Virtual Lab: Legacy Lab Orientation](https://www.learnondemandsystems.com/demo-labs/). This will allow you to see if you are able to connect and function within the lab environment.
+Click the following link to launch a demo lab: [Launch a LODS Demo Lab](https://www.learnondemandsystems.com/demo-labs/). This will allow you to see if you are able to connect and function within the lab environment.
 
 ## Connection Assessment Test
 
