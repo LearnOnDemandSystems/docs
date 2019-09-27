@@ -556,7 +556,9 @@ It's also possible to simply supply the width: {width}. In this case, the height
 - **Image with link:** Used to embed an image that can be clicked to navigate to a specific URL (internal or external). 
 
     > \[![text to display]url or filepath "Optional image title")]url "Optional link title")
-
+    
+    > \[![text to display]\(url or filepath "Optional image title")](url "Optional link title")
+    
 - **Portal Link:** used to launch a hyperlink. In the Cloud Client, this will open the hyperlink in the left window (Resource Portal). In the traditional virtualization client (vm-based labs), this will open the hyperlink in a new local browser window.
 
     > `<[text to display](URL)`
