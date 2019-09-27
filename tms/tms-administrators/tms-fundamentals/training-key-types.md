@@ -1,6 +1,10 @@
 # What are the different types of Training Keys and how can they be used?
 
-Training Keys are a great feature in the One Learn Training Management System (TMS). You can use training keys to quickly and easily enroll students into both instructor-led and self-paced training without the need to manually create each enrollment or course assignment. Training keys can be aligned with classes, course assignments, and subscriptions. We have several different types of training keys that can be used for different purposes, each with their own advantages:
+Training Keys are a great feature in the One Learn Training Management System (TMS). You can use training keys to quickly and easily enroll students into both instructor-led and self-paced training without the need to manually create each enrollment or course assignment. Training keys can be aligned with classes, course assignments, and subscriptions. 
+
+## Types
+
+We have several different types of training keys that can be used for different purposes, each with their own advantages:
 
 - [Class Enrollment Training Keys](#class-enrollment-training-keys) - individual keys, one per student, used to create enrollments in an instructor-led class or event.
 - [Event Training Keys](#event-training-keys) - one key per event/class used to create enrollments in an instructor-led class or event.
@@ -32,7 +36,7 @@ Main features:
 - Keys are only valid during the duration of the class
 - Keys must be distributed to users manually
 
-[Back to Types](#What-are-the-different-types-of-Training-Keys-and-how-can-they-be-used)
+[Back to Types](#types)
 
 ## Event Training Keys
 
