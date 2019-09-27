@@ -100,6 +100,8 @@ Main features:
 - Training key pools are created from the Create Training Key Pool link in the Training Keys group on the Admin menu
 - Keys must be manually distributed; CSV can be exported
 
+[Back to Types](#types)
+
 ## Subscription Keys
 
 Subscription keys are another method to automatically create course assignments for courses. With this method, however, the keys are aligned to a subscription instead of a course. Subscriptions allow you to group together multiple courses in one package that can be assigned to the student. The student would then have on demand access to these courses and can choose which content they would like to consume.
@@ -121,3 +123,4 @@ Main features:
 - Key pools are created from the Subscription Keys link in the Training Keys group on the Admin menu
 - Keys must be manually distributed; CSV can be exported
 
+[Back to Types](#types)
