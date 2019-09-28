@@ -8,6 +8,30 @@
 
 # What's New in Lab On Demand
 
+## **Released September 27, 2019**
+
+
+**IDL Legacy Retirement**
+- IDL legacy is no longer available to use in new labs. The option to use IDL (legacy) for lab instructions has been removed from LOD. IDL legacy labs that have not yet been converted to IDLx will be automatically upgraded on October 1.
+
+**IDLx Page Titles**
+- The next page button in lab instructions now displays the first header on the next page for all header sizes (H1-H6), instead of only using H1 headers on the next page button.
+
+**Instruction Source from Azure DevOps (ADO)**
+- It is now possible to use an ADO repository to sync instructions to a lab profile. Syncing instructions with an ADO repository allows lab authors to utilize version control in ADO, multi-author support, as well as centralized management of lab instructions in ADO. 
+
+**Improvements and Fixes**
+- Fixed an issue that prevented custom CSS from displaying correctly on some event pages. 
+- Fixed a bug that prevented exam settings from being inherited in child lab profiles. 
+- When editing cloud templates, validation logic has been updated to ensure that changes won’t break any labs that use the template. Safe changes are allowed, changes that would break labs are blocked, and changes that might impact labs require confirmation.
+- VMware VMs can now be built using hardware version 14. 
+- Fixed a bug that prevented lab profiles with containers from being imported. 
+- Fixed a bug that prevented a network from being visible in the lab when it isn't connected to a VM.
+
+
+
+---
+
 ## **Released September 13, 2019**
 
 **Container Registry Accounts**
