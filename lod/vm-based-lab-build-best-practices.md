@@ -252,6 +252,3 @@ Create a Combined Rearm Disk
 1.  If you have Office installed, and either Office or Windows is down to one remaining rearm, create one differencing disk that contains the rearm for both Windows and Office, and then keep this differencing disk separate from all other work. See Rearm Windows When Only One Windows Rearm Remains and Rearm Office When Only One Office Rearm Remains.
 
 [Back to top](#best-practices:-virtual-machine-based-lab-development)
-
-
-Number **1**
