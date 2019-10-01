@@ -194,21 +194,21 @@ You have created or imported a virtual machine.
 
 ## Configure Office 2013 or Later in a Virtual Machine
 
-1.  Run the **Regedit** command.
+1. Run the **Regedit** command.
 
-1.  In the registry, go to **HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\OfficeVersion\\Common**, and then create a new key named **Graphics**.
+1. In the registry, go to **HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\OfficeVersion\\Common**, and then create a new key named **Graphics**.
 
-1.  In the Graphics key, create a new Dword value named **Disableanimations**.
+1. In the Graphics key, create a new Dword value named **Disableanimations**.
 
-1.  Right-click **Disableanimations**, and then click **Modify**.
+1. Right-click **Disableanimations**, and then click **Modify**.
 
 1. Select **Decimal**, enter a value of **1**, and then click **OK**.
 
-1. 
+1. Select **Deciman**, enter
 
     >[!KNOWLEDGE] This disables the animations in Office, which improves performance.
 
-1.  Launch Office to confirm the setting change.
+1. Launch Office to confirm the setting change.
 
 #### Rearm Office
 
