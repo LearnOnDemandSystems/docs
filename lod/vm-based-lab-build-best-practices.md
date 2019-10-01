@@ -204,7 +204,7 @@ You have created or imported a virtual machine.
 
 1. Select **Decimal**, enter a value of **1**, and then click **OK**.
 
-1. Select **Deciman**, enter
+1. Select **Decimal**, enter a value of **1**,
 
     >[!KNOWLEDGE] This disables the animations in Office, which improves performance.
 
