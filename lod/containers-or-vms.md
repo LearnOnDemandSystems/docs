@@ -7,18 +7,18 @@ Labs that use container images in LOD are not intended to be used to train on us
 
 ## Container and VM Differences
 
-|Containers||Virtual Machines|
+|Feature|Containers|Virtual Machines|
 |:---|---|---|
 ||||
-|Lightweight||Heavyweight|
-|Native performance||Limited performance|
-|No OS installation||Requires OS installation|
-|OS virtualization||Hardware-level virtualization|
-|Startup time in seconds||Startup time in minutes|
-|Requires less memory space||Allocates required memory|
-|Low resource overhead||Potentially large resource overhead|
-|Typically terminal based with no UI||Uses operating systems with a GUI interface|
-|Limited to Linux-based scenarios||Available to use Windows and some versions of Linux. Linux support may be limited for some scenarios||
+||Lightweight|Heavyweight|
+||Native performance|Limited performance|
+||No OS installation|Requires OS installation|
+||OS virtualization|Hardware-level virtualization|
+||Startup time in seconds|Startup time in minutes|
+||Requires less memory space|Allocates required memory|
+||Low resource overhead|Potentially large resource overhead|
+||Typically terminal based with no UI|Uses operating systems with a GUI interface|
+||Limited to Linux-based scenarios|Available to use Windows and some versions of |Linux. Linux support may be limited for some scenarios||
 
 ## Containers
 
