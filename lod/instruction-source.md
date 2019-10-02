@@ -165,7 +165,7 @@ The archive file that is saved will contain a content.md file as well as folders
 
 - [IDLx Activities](activities.md)
 
-    Activities fall into two broad categories: Questions and Automated.
+    Activities fall into two broad categories; Questions and Automated.
 
     - Questions are simply multiple choice or short answer questions.
     - Automated Activities have a script configured to run against a cloud subscription or Windows-based virtual machines running on Hyper-V in the lab.
