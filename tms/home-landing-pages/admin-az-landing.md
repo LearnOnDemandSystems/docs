@@ -303,7 +303,7 @@
       <a class="subtopic_link" href="/tms/tms-administrators/users/instructor-management/what-is-contract-instructor-pool.md">
         <div class="subtopic_title">What is the Contract Instructor Pool?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/labs/find-system-requirements-for-labs.md">
+      <a class="subtopic_link" href="/lod/connectivity-requires.md">
         <div class="subtopic_title">Where do I find the system requirements for labs?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/disappearing-links.md">
