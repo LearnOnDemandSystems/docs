@@ -56,7 +56,7 @@
       </a>
       <a class="subtopic_link" href="/lod/connectivity-requires.md">
         <div class="subtopic_title">Connectivity Requirements</div>
-        <div class="subtopic_description">Connectivity requirements for labs. </div>
+        <div class="subtopic_description">Connectivity requirements, bandwidth requirements and firewall rules for labs. </div>
       </a>     
       <a class="subtopic_link" href="/lod/container-images.md">
         <div class="subtopic_title">Container Images</div>
