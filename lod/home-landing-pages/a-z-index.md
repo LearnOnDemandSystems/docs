@@ -54,9 +54,13 @@
         <div class="subtopic_title">Cloud Slice Setup Guide</div>
         <div class="subtopic_description">Comprehensive setup guide for configuring a Cloud Slice lab with Lab on Demand and Microsoft Azure or Amazon Web Services.</div>
       </a>
+      <a class="subtopic_link" href="/lod/connectivity-requires.md">
+        <div class="subtopic_title">Connectivity Requirements</div>
+        <div class="subtopic_description">Connectivity requirements, bandwidth requirements and firewall rules for labs. </div>
+      </a>     
       <a class="subtopic_link" href="/lod/container-images.md">
         <div class="subtopic_title">Container Images</div>
-        <div class="subtopic_description">Create Docker container images to use in lab profiles. </div>
+        <div class="subtopic_description">Create container images to use in lab profiles. </div>
       </a> 
       <a class="subtopic_link" href="/lod/container-registries.md">
         <div class="subtopic_title">Container Registries</div>
@@ -178,7 +182,7 @@
          <div class="subtopic_title">PBT Overview</div>
          <div class="subtopic_description">Overview of Lab on Demand supported scoring methods.</div>
       </a>
-      <a class="subtopic_link" href="/lod/pbt/persist-container-changes.md">
+      <a class="subtopic_link" href="/lod/persist-container-changes.md">
          <div class="subtopic_title">Persist Container Changes</div>
          <div class="subtopic_description">Allows you to permanently persist container changes so that they are used in future lab launches.</div>
       </a>

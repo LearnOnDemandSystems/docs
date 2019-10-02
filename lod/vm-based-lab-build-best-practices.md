@@ -194,19 +194,19 @@ You have created or imported a virtual machine.
 
 ## Configure Office 2013 or Later in a Virtual Machine
 
-1.  Run the **Regedit** command.
+1. Run the **Regedit** command.
 
-2.  In the registry, go to **HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\OfficeVersion\\Common**, and then create a new key named **Graphics**.
+1. In the registry, go to **HKEY_CURRENT_USER\\Software\\Microsoft\\Office\\OfficeVersion\\Common**, and then create a new key named **Graphics**.
 
-3.  In the Graphics key, create a new Dword value named **Disableanimations**.
+1. In the Graphics key, create a new Dword value named **Disableanimations**.
 
-4.  Right-click **Disableanimations**, and then click **Modify**.
+1. Right-click **Disableanimations**, and then click **Modify**.
 
-5.  Select **Decimal**, enter a value of **1**, and then click **OK**.
+1. Select **Decimal**, enter a value of 1, and then click **OK**.
 
     >[!KNOWLEDGE] This disables the animations in Office, which improves performance.
 
-1.  Launch Office to confirm the setting change.
+1. Launch Office to confirm the setting change.
 
 #### Rearm Office
 
@@ -252,5 +252,3 @@ Create a Combined Rearm Disk
 1.  If you have Office installed, and either Office or Windows is down to one remaining rearm, create one differencing disk that contains the rearm for both Windows and Office, and then keep this differencing disk separate from all other work. See Rearm Windows When Only One Windows Rearm Remains and Rearm Office When Only One Office Rearm Remains.
 
 [Back to top](#best-practices:-virtual-machine-based-lab-development)
-
-
