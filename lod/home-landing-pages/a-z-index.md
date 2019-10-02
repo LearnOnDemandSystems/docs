@@ -154,10 +154,6 @@
         <div class="subtopic_title">Lab on Demand Scoring</div>
         <div class="subtopic_description">The Lab on Demand platform supports the ability to score users either in an exam/quiz format or within a hands-on lab.</div>
       </a>
-      <a class="subtopic_link" href="/lod/feature-focus/lab-profiles/create.md">
-        <div class="subtopic_title">Lab Profile Creation and Explanation</div>
-        <div class="subtopic_description">Lab profile creation, and explanation of lab profile configuration.</div>
-      </a>
       <a class="subtopic_link" href="/lod/lab-series.md">
         <div class="subtopic_title">Lab Series Creation and Explanation</div>
         <div class="subtopic_description">Lab Series creation, and explanation of lab series configuration.</div>
