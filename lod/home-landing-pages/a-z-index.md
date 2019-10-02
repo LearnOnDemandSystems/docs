@@ -55,6 +55,10 @@
         <div class="subtopic_description">Comprehensive setup guide for configuring a Cloud Slice lab with Lab on Demand and Microsoft Azure or Amazon Web Services.</div>
       </a>
       <a class="subtopic_link" href="/lod/container-images.md">
+        <div class="subtopic_title">Connectivity Requirements</div>
+        <div class="subtopic_description">Connectivity requirements for labs. </div>
+      </a>     
+      <a class="subtopic_link" href="/lod/container-images.md">
         <div class="subtopic_title">Container Images</div>
         <div class="subtopic_description">Create container images to use in lab profiles. </div>
       </a> 
