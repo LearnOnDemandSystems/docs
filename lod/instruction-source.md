@@ -10,7 +10,7 @@
 
 # Overview
 
-Lab on Demand allows you to integrate an external ADO or GitHub repository into a lab and use that repository as the source of IDLx content for that lab. 
+Lab on Demand allows you to Set ADO or GitHub as an instruction source, using an external ADO or GitHub repository into a lab and use that repository as the source of IDLx content for that lab. 
 
 Choosing to leverage these features means moving all of your content management (including editing) for a lab into ADO or GitHub. Once you have enabled this instruction source for a lab, the content in that lab will automatically be updated
 based on the the latest changes you make to your content in the external repository. 
@@ -32,7 +32,7 @@ you do not have one yet, you can create an account:
 - [Azure DevOps (ADO)](#azure-devops)
 - [GitHub](#github)
 
-Your repository will need a .md file that defines the lab content in Markdown. This file will contain the lab instructions for your lab, formatted in Markdown. 
+Your repository will need a markdown (.md) file that defines the lab content in Markdown. This file will contain the lab instructions for your lab, formatted in Markdown. 
 
 > [!KNOWLEDGE] Any images that are used in the instructions need to be at the same level in the repository as the .md file, or in a folder that is at the same level as the .md file. If your images are not structured like this, they will not display correctly in labs. 
 
@@ -53,7 +53,7 @@ content into ADO, see the [Copying Existing Lab Content into GitHub](copying-exi
 
 > [!KNOWLEDGE] You can manage more than one lab profile from a single ADO repository, by separating the lab profiles with folders in your repository. 
 
-To integrate the Markdown document in your ADO repository with a lab profile, navigate to the lab profile you want to integrate with, then follow these steps:
+To use the markdown document in your ADO repository as the instruction source with a lab profile, navigate to the lab profile you want to configure, then follow these steps:
 
 1. From your lab profile page, click **Edit**.
 
@@ -63,7 +63,7 @@ To integrate the Markdown document in your ADO repository with a lab profile, na
 
 1. Select **ADO Repository**.
 
-1. If you're not logged in already, you be will prompted to log in to the ADO account that has a repository containing lab content you want to integrate into the lab profile.
+1. If you're not logged in already, you be will prompted to log in to the ADO account that has a repository containing lab content you want to use as an instruction source in the lab profile.
 
 1. Once you are logged into ADO, you will be asked to authorize Lab on Demand to have access to your ADO account. This access is only used to create a webhook so that LOD can be notified whenever the content in your ADO repository changes. Click **Accept** to continue with the integration.
 
@@ -81,8 +81,7 @@ To integrate the Markdown document in your ADO repository with a lab profile, na
 
 1. Once the synchronization process is complete, you will have completed your integration. Click **Close** to finish the Integration wizard.
 
-1. Your lab profile now shows that content is integrated from your
-ADO repository. Click the **Save** button at the bottom of your lab profile window to exit the lab profile editor.
+1. Your lab profile now shows that instructions are sourced from your ADO repository. Click the **Save** button at the bottom of your lab profile window to exit the lab profile editor.
 
     ![Integration complete](images/ado-integration-complete.png "Integration complete")
 
@@ -101,8 +100,7 @@ content into GitHub, see the **Copying Existing Lab Content into GitHub** sectio
 
 > [!KNOWLEDGE] You can manage more than one lab profile from a single GitHub repository, by separating the lab profiles with folders in your repository. 
 
-To integrate the Markdown document in your GitHub repository with a lab profile,
-navigate to the lab profile you want to integrate with, then follow these steps:
+To use the markdown document in your GitHub repository as the instruction source with a lab profile, navigate to the lab profile you want to configure, then follow these steps:
 
 1. From your lab profile page, click **Edit**.
 
@@ -112,7 +110,7 @@ navigate to the lab profile you want to integrate with, then follow these steps:
 
 1. Select **GitHub Repository**.
 
-1. If you're not logged in already, you be will prompted to log in to the GitHub account that has a repository containing lab content you want to integrate into the lab profile.
+If you're not logged in already, you be will prompted to log in to the GitHub account that has a repository containing lab content you want to use as an instruction source in the lab profile.
 
 1. Once you are logged into GitHub, you will be asked to authorize Lab on Demand to have access to your GitHub account. This access is only used to create a webhook so that LOD can be notified whenever the
 content in your GitHub repository changes. Click **Authorize application** to
@@ -131,8 +129,7 @@ continue with the integration.
 1. Once the synchronization process is complete, you will have completed your
 integration. Click **Close** to finish the Integration wizard.
 
-1. Your lab profile now shows that content is integrated from your
-GitHub repository. Click the **Save** button at the bottom of your lab profile window to exit the lab profile editor.
+1.Your lab profile now shows that instructions are sourced from your GitHub repository. Click the **Save** button at the bottom of your lab profile window to exit the lab profile editor.
 
     ![Integration complete](images/integration-complete.png "Integration complete")
 
