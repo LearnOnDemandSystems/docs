@@ -2,6 +2,7 @@
 
 1. [Overview](#overview)
     - [Benefits](#external-management-benefits)
+    - [Disadvantages](#external-management-disadvantages)
 1. [Getting Started](#getting-started)
     - [Azure DevOps](#azure-devops)
     - [GitHub](#github)
@@ -10,18 +11,36 @@
 
 # Overview
 
-Lab on Demand allows you to set an external instruction source, using an Azure DevOps (ADO) or GitHub repository, on a lab and use that repository as the source of IDLx content for that lab.
+Lab on Demand allows you to Set Azure Devops (ADO) or GitHub as an instruction source, using an external ADO or GitHub repository into a lab and use that repository as the source of IDLx content for that lab. 
 
 Choosing to leverage these features means moving all of your content management (including editing) for a lab into ADO or GitHub. Once you have enabled this instruction source for a lab, the content in that lab will automatically be updated
 based on the the latest changes you make to your content in the external repository. 
 
-Just like the default LOD editing experience, instructins stored in GitHub or ADO must be stored in Markdown files. For more information on Markdown, see our [Markdown User Guide](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/guides/idl2/markdown-user-guide.md). Instructions stored in external sources come with a variety of both advantages and disadvantages, as outlined below.
+There is a small learning curve to overcome with Markdown such as syntax and structure; however, the benefits you will realize once you have
+learned how to write your lab content in Markdown and once you have stored those files in GitHub are well worth the effort. For more information on Markdown, see our [Markdown User Guide](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/guides/idl2/markdown-user-guide.md)
 
 ## External Management Benefits
 
 1. **Offline editing** - With external instruction management, content is created/edited as part of a structured Markdown file, that can be edited offline using one of the many free or commercial Markdown editors that are available for all mainstream platforms/devices being used today, including Windows, macOS, Linux, iOS, and Android.
 1. **Revision control** - ADO and GitHub natively support revision control, which means you get revision control for your content in labs that leverage the integration feature. This allows you to compare revisions, roll back changes, view revision history, etc.
 1. **Multi-author support** - By managing your content in a lab that leverages external instruction source, you can support multiple content authors contributing to the content for one lab at the same time.
+
+## External Management Disadvantages
+
+1. **LOD Custom Syntax Unavailable in External Repository** - when using an external repository as an instruction source, custom LOD markdown syntax is will not render in the external system. These markdown elements can still be used and rendered in a lab.  
+These include: 
+    - Knowledge block/link
+    - Alert block/link
+    - Help block/link
+    - Hint block/link
+    - Note block
+    - Copyable text
+    - Type text
+    - code block modifiers
+    - @lab replacement tokens Intellisense
+
+
+1. **Activities** - Automated and question activities are unavailable when using an external repository as an instruction source. 
 
 # Getting started
 
@@ -48,7 +67,7 @@ If you do not have an ADO account set up yet, you can [create an account here](h
 1. If you want to store videos for your lab in ADO, these can be stored in the _media_ folder as well.
 
 If you are moving content for a lab that has
-content into ADO, see the [Copying Existing Lab Content](#copying-existing-lab-content) section below to start that way instead.
+content into ADO, see the [Copying Existing Lab Content into GitHub](copying-existing-content) section below to start that way instead.
 
 > [!KNOWLEDGE] You can manage more than one lab profile from a single ADO repository, by separating the lab profiles with folders in your repository. 
 
@@ -95,7 +114,7 @@ If you do not have a GitHub account set up yet, you can [create an account here]
 1. If you want to store videos for your lab in GitHub, these can be stored in the _media_ folder as well.
 
 If you are moving content for a lab that has
-content into GitHub, see the [Copying Existing Lab Content](#copying-existing-lab-content) section below to start that way instead.
+content into GitHub, see the **Copying Existing Lab Content into GitHub** section below to start that way instead.
 
 > [!KNOWLEDGE] You can manage more than one lab profile from a single GitHub repository, by separating the lab profiles with folders in your repository. 
 
@@ -164,7 +183,7 @@ The archive file that is saved will contain a content.md file as well as folders
 
 - [IDLx Activities](activities.md)
 
-    Activities fall into two broad categories: Questions and Automated.
+    Activities fall into two broad categories; Questions and Automated.
 
     - Questions are simply multiple choice or short answer questions.
     - Automated Activities have a script configured to run against a cloud subscription or Windows-based virtual machines running on Hyper-V in the lab.
