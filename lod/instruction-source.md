@@ -11,7 +11,7 @@
 
 # Overview
 
-Lab on Demand allows you to Set Azure Devops (ADO) or GitHub as an instruction source, using an external ADO or GitHub repository into a lab and use that repository as the source of IDLx content for that lab. 
+Lab on Demand allows you to set Azure Devops (ADO) or GitHub as an instruction source, using an external ADO or GitHub repository into a lab and use that repository as the source of IDLx content for that lab. 
 
 Choosing to leverage these features means moving all of your content management (including editing) for a lab into ADO or GitHub. Once you have enabled this instruction source for a lab, the content in that lab will automatically be updated
 based on the the latest changes you make to your content in the external repository. 
