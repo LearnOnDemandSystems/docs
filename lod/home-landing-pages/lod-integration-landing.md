@@ -31,9 +31,9 @@
   <div class="subtopic">
     <div id="header_1" class="subtopic_header" tabindex="0" title="External Integration Docs" role="button" aria-selected="false">External Integration</div>
     <div id="body_1" class="subtopic_links">
-      <a class="subtopic_link" href="/guides/github-integration/github-integration.md">
-        <div class="subtopic_title">GitHub Integration</div>
-        <div class="subtopic_description">Integrate lab instructions from a GitHub repository into your lab profile.</div>
+      <a class="subtopic_link" href="/lod/instruction-source.md">
+        <div class="subtopic_title">External Instruction Source</div>
+        <div class="subtopic_description">Use an Azure DevOps or GitHub repository as the instruction source for labs.</div>
       </a>
       <a class="subtopic_link" href="/guides/lti/lod-lti.md">
         <div class="subtopic_title">Lab on Demand edX Integration</div>
