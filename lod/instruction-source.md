@@ -149,7 +149,7 @@ integration. Click **Close** to finish the Integration wizard.
 
 1.Your lab profile now shows that instructions are sourced from your GitHub repository. Click the **Save** button at the bottom of your lab profile window to exit the lab profile editor.
 
-    ![Integration complete](images/integration-complete.png "Integration complete")
+![](images/integration-complete.png)
 
 ### Copying Existing Lab Content
 
