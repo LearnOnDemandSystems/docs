@@ -102,10 +102,10 @@
         <div class="subtopic_title">Enable Cloud Slice Support in AWS</div>
         <div class="subtopic_description">Setup process to enable cloud slice support in the AWS portal.</div>
       </a>
-      <a class="subtopic_link" href="/guides/github-integration/github-integration.md">
-        <div class="subtopic_title">GitHub Integration</div>
-        <div class="subtopic_description">Integrate lab instructions from a GitHub repository into your lab profile.</div>
-      </a>
+      <a class="subtopic_link" href="/lod/instruction-source.md">
+        <div class="subtopic_title">External Instruction Source</div>
+        <div class="subtopic_description">Use an Azure DevOps or GitHub repository as the instruction source for labs.</div>
+      </a>                
       <a class="subtopic_link" href="/lod/activities.md">
         <div class="subtopic_title">IDLx Activities</div>
         <div class="subtopic_description">Activities fall into two broad categories: Questions and Automated. Questions are simply multiple choice or short answer questions. Automated Activities have a script configured to run against a cloud subscription or Windows-based virtual machines running on Hyper-V in the lab.</div>
