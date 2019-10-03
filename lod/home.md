@@ -136,9 +136,9 @@
           </a>
         </div>
         <div class="category">
-          <a href="/guides/github-integration/github-integration.md" class="categoryThread">
+          <a href="/lod/instruction-source.md" class="categoryThread">
             <i class="material-icons green" aria-hidden="true">call_merge</i>
-            <span class="categoryTitle" title="GitHub Integration">GitHub Integration</span>
+            <span class="categoryTitle" title="External Instruction Source">External Instruction Source</span>
           </a>
         </div>
         <div class="category">
