@@ -8,9 +8,9 @@ There are two places within your lab to find information on your connection;
     Here you can see a visual representation using the ubiquitous “how many bars you got?” graphic of your connection at that very moment. It will look like several bars in increasing size. The more bars that are lit, the better your connection is at that moment. You can hover over it to see a summary of your connection quality and latency.
 
 >[!knowledge] 
-
-You can view your lab latency (measured in milliseconds) by hovering your mouse cursor over the connection bars in the lab. 
-
+>
+> You can view your lab latency (measured in milliseconds) by hovering your mouse cursor over the connection bars in the lab. 
+>
 >- <= 60 milliseconds = Excellent (4 bars)
 >- <= 150 milliseconds = Good (3 bars)
 >- <= 240 milliseconds = OK (2 bars)
