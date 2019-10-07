@@ -124,3 +124,9 @@ Main features:
 - Keys must be manually distributed; CSV can be exported
 
 [Back to Types](#types)
+
+## Related Articles
+
+For more information on Training Keys, please see:
+- [How can I use class enrollment training keys for students to self-register for a class?](/tms/tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md)
+- [What information should I send to students who are registering for class using training keys?](/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md)
