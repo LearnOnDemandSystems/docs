@@ -8,9 +8,9 @@ The **UpdateLabInstructionsPackage** command allows you to update the IDL-MD ins
 |id|Integer (32-bit)|Yes|The ID of the lab profile to update.|
 
 ## Package File Format
-Standard ZIP archive
-Instructions.md file in the archive root
-An optional Content folder (to house images, videos, PDFs, etc.). The content folder can optionally contain subfolders, which allows you to organize content as you see fit.
+- Standard ZIP archive
+- **Instructions.md** file in the archive root
+- An optional **Content** folder (to house images, videos, PDFs, etc.). The content folder can optionally contain subfolders, which allows you to organize content as you see fit.
 
 Content files are referenced in your instructions markdown using relative URLs. For instance, if the content folder contained the following:
 
