@@ -10,7 +10,7 @@ When you are having the students register for class using training keys, they wi
       1. Click **Register**. This opens a page for you to create a user account and your login credentials for when you return to the site.
       1. Input your registration information and click **Save**. This opens your enrollment to the class. 
 
-If a student alread has an account in the TMS, the student can login and select **Redeem Training Key** from the **Current Training** page.
+If a student already has an account in the TMS, the student can login and select **Redeem Training Key** from the **Current Training** page.
 
 > Once class starts, **Launch** buttons will appear beside the lab modules and course activities. If you experience problems connecting to your labs, click the **Lab Support** icon to the right of the lab for system requirements and connection information. 
 
