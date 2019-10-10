@@ -104,8 +104,6 @@ The **Details** command retrieves detailed information about a specified lab ins
 |Sessions|Array of LabInstanceSession|No|An array of session times the student spent in the lab. See the LabInstanceSnapshot Type below.|
 |PublicIpAddresses|Array of IpAddressInfo|No|An array of public IP address information objects. See the IpAddressInfo Type below.|
 |CloudCredentials|Array of CloudCredentials|No|An array of credentials assigned to the lab instance. See the CloudCredentials Type below.|
-|Exam Details|Array of ExamReportDetails|No|An array of exam details containing exam questions, answers, and score results.
-
 
 ## LabInstanceSnapshot
 
