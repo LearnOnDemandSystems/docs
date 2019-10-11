@@ -2,6 +2,47 @@
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## Released October 10 2019
+
+### <span style="color:#0078d7;">Publishing Groups and Course Availability</span>
+Soon courses will only be available for classes and course assignments if they are associated with a publishing group. Therefore, to assist LODS staff and Operations Managers, courses that don't belong to a publishing are identified by a message at the top of the profile that states: **This course must be added to a Publishing Group to be available to use.** In addition, we have added a **Has Publishing Group** filter and output option to **Find Courses**.
+
+> ![](./images/whats-new/no-pg-course-message.png)
+
+### <span style="color:#0078d7;">Global Achievements</span>
+With the proper permissions, achievements can now be made globally available. Your organization has the ability to opt in or out of global achievements when it has achievements enabled. Opting in allows your student to earn these achievements. This eliminates the need to mark **Enable achievements for outside organizations** on courses.
+
+> ![](./images/whats-new/global-achievements.png)
+
+### <span style="color:#0078d7;">Sort Output Option Lists</span>
+You can now sort the Output Options list on search pages and Choose dialogs alphabetically or by groups (traditional method). Many of these pages and dialogs have large output option lists. The new Sort Alphabetically/Sort by Group toggle at the top of the lists help you to quickly find the output options you are looking for.
+
+> ![](./images/whats-new/alpha-sort-oo.png)
+
+> ![](./images/whats-new/group-sort-oo.png)
+
+**Note**: The 2CSS custom fields in the images are fictitious fields that are only shown to demonstrate that these type of fields are included in the sort.
+
+### <span style="color:#0078d7;">New Output Options on Instructor Schedule</span>
+To help those who schedule classes and plan the logistics for instructors, we have added two new output options on the **Instructor Schedule**: **City** and **Country**. When turned on, these will display the city and country the instructor is from if that data is in their profile.
+
+> ![](./images/whats-new/oo-on-instructor-schedule.png)
+
+**Note**: The instructor names in the image are fictitious.
+
+### <span style="color:#0078d7;">TMS Improvements and Fixes</span>
+We have made the following enhancements to our TMS:
+- For accessibility purposes, screen readers now correctly read the **Login Assistance** page.
+- We now prevent users from being created through the API for organizations that have been disabled.
+- All users created through the API will now have **Enable Notifications** set for them automatically.
+- You can no longer save a class with a **Custom Virtual Classroom** delivery without the **URL** for the classroom.
+- Instructors with the **Response viewing (by instructor class)** permission will now be able to export survey results from their classes.
+- New subscriptions can now be saved without an expiration date if **Expires** is unchecked.
+- Course custom fields can now be deleted.
+- The small Achievements icon is no longer visible above the **Badges** section of a student's **Achievements** page.
+
+----------------------------
+
 ## Released September 19 2019
 
 ### <span style="color:#0078d7;">TMS Improvements and Fixes</span>
@@ -364,32 +405,3 @@ You can now easily set the order that course tags will appear within their group
 - You will now receive a warning when you add a lab to a course that exceeds your **RAM** allotment.
 - The **Find Course Assignments** page now has an output option for **External IDs** that will show a column for each item that has an external Id available.
 The API **SearchClasses** method now includes **DeliveryTypeId** and **HTMLDescription** as endpoint properties.
-
-----------------------------
-## Released March 21 2019
-
-### <span style="color:#0078d7;">Cascade Course Custom Fields to Classes</span>
-
-You can now set course custom fields to cascade down to the classes that use the course. When a course custom field cascades down to a class, it is like any other class custom field on the class. However, there are a few items to be aware of:
-- If the course custom field is set to unique values, a value set in course are compared to other course values and when set in the class, it is compared to other class values.
-- If there are user role restrictions set on the field, the same restriction is imposed on the classes.
-- If a course is available to another organization, but the course custom field is not, the field will be seen on the course but not on the class by that organization.
-
-### <span style="color:#0078d7;">TMS Updates</span>
-
-- New API endpoint properties for **SearchClasses** were added:
-    - **ClassroomAddress1**
-    - **ClassroomAddress2**
-    - **ClassroomCity**
-    - **ClassroomState**
-    - **ClassroomCountry**
-    - **ClassroomZip**
-- The API key is no longer part of the URL in 2.0. It has been moved to the header and all API pages have been updated to document this change. Here is an example of that documentation update: 
-
-> 2.0:
-
-> https://[root-url]/api/2.0/SearchClasses?pageIndex=0&pageSize=10
-
-> 1.0:
-
-> https://[root-url]/api/1.0/1234567890/SearchClasses?pageIndex=0&pageSize=10
