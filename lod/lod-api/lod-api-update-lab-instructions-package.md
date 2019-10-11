@@ -14,23 +14,25 @@ The **UpdateLabInstructionsPackage** command allows you to update the IDL-MD ins
 
 Content files are referenced in your instructions markdown using relative paths. You can use subfolders if you wish. For instance, if your package contains the following files...
 
-> image1.jpg
-> image2.jpg
-> screenshots/screenshot1.jpg
-> screenshots/screenshot2.jpg
-> documents/document1.pdf
-> documents/document2.pdf
+```nocopy
+image1.jpg
+image2.jpg
+screenshots/screenshot1.jpg
+screenshots/screenshot2.jpg
+documents/document1.pdf
+documents/document2.pdf
+```
 
 You could reference these content files in your instructions like this...
 
-
-> ![](image1.jpg)
-> ![](image2.jpg)
-> ![](screenshots/screenshot1.jpg)
-> ![](screenshots/screenshot2.jpg)
-> [Download document 1](documents/document1.pdf)
->[Download document 2](documents/document2.pdf)
-
+```nocopy
+![](image1.jpg)
+![](image2.jpg)
+![](screenshots/screenshot1.jpg)
+![](screenshots/screenshot2.jpg)
+[Download document 1](documents/document1.pdf)
+[Download document 2](documents/document2.pdf)
+```
 
 ## Response
 |Property|Type|Nullable|Note|
