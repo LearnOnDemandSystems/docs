@@ -10,9 +10,9 @@ The **UpdateLabInstructionsPackage** command allows you to update the IDL-MD ins
 ## Package File Format
 - Standard ZIP archive
 - **Instructions.md** file in the archive root
-- An optional **Content** folder (to house images, videos, PDFs, etc.). The content folder can optionally contain subfolders, which allows you to organize content as you see fit.
+- You can include other content files referenced within your instructions, like images and videos.
 
-Content files are referenced in your instructions markdown using relative URLs. For instance, if the content folder contained the following:
+Content files are referenced in your instructions markdown using relative paths. You can use subfolders if you wish. For instance, if your package contains the following files...
 
 ```
 image1.jpg
@@ -23,7 +23,7 @@ documents/document1.pdf
 documents/document2.pdf
 ```
 
-You could reference this content in your instructions like this...
+You could reference these content files in your instructions like this...
 
 ```
 ![](image1.jpg)
