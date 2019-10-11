@@ -64,7 +64,6 @@ All dates are in unix epoch time, which is the number of seconds that have elaps
 - [Stats](lod-api-stats.md) - Returns statistics about how many labs are currently active and saved.
 - [UpdateClass](lod-api-update-class.md) - Updates a specified class.
 - [UpdateLabInstructions](lod-api-update-lab-instructions.md) - Allows you to update the IDL-MD instructions of a lab.
-- [UpdateLabInstructionsPackage](lod-api-update-lab-instructions-package.md) - Allows you to update the IDL-MD instructions of a lab by uploading a ZIP archive containing the instructions and any referenced files, such as images and videos.
 - [UserRunningAndSavedLabs](lod-api-user-running-and-saved-labs.md) - Retrieves all labs that are currently running or saved for a particular user account.
 
 
