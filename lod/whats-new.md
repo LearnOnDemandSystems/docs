@@ -16,10 +16,6 @@
 **Disconnect from Labs**
 - Lab profiles now have an option on the advanced tab to allow lab users to disconnect from the lab and keep the lab running. The disconnected lab will still count towards the user's active lab instances. 
 
-**Lab Content Moved to Azure Blob Storage Container**
-- Lab on Demand is moving all lab content files such as screenshots, videos, and PDFs to hosted Azure blob storage. This will ensure faster and more reliable response times within labs, and allow our content libraries to better scale in the future. 
-
-
 **Improvements and Fixes**
 - Updated text on lab profile details page to reflect external instructions, rather than Git Integration.
 - Fixed typos on instruction source selection page.
