@@ -10,6 +10,28 @@
 
 ## **Released September 27, 2019**
 
+**Enable Disk UUID**
+- It is now possible to enable Disk UUID on vSphere VMs. There is a checkbox on the VM profile to enable this feature. 
+
+**Disconnect from Labs**
+- Lab profiles now have an option on the advanced tab to allow lab users to disconnect from the lab and keep the lab running. The disconnected lab will still count towards the user's active lab instances. 
+
+**Lab Content Moved to Azure Blob Storage Container**
+- Lab on Demand is moving all lab content files such as screenshots, videos, and PDFs to hosted Azure blob storage. This will ensure faster and more reliable response times within labs, and allow our content libraries to better scale in the future. 
+
+
+**Improvements and Fixes**
+- Updated text on lab profile details page to reflect external instructions, rather than Git Integration.
+- Fixed typos on instruction source selection page.
+- Fixed a bug that prevented some users with proper permissions from deleting files in cold storage.
+- When using a filter for Key in a lab instance search, an error message is now displayed if you are searching with an invalid value (non-GUID). Enter a valid GUID allows the search to perform as expected and return search results. 
+- Fixed a bug that prevented a virtual machine from being reverted, in a shared lab environment. 
+- Disabling a lab series now disables labs that belong to that lab series from being launched. Labs that are disabled this way will not be included in the Catalog API call response. 
+- Fixed a bug that prevented a theme from being applied to event room pages.
+
+---
+
+## **Released September 27, 2019**
 
 **IDL Legacy Retirement**
 - IDL legacy is no longer available to use in new labs. The option to use IDL (legacy) for lab instructions has been removed from LOD. IDL legacy labs that have not yet been converted to IDLx will be automatically upgraded on October 1.
@@ -27,8 +49,6 @@
 - VMware VMs can now be built using hardware version 14. 
 - Fixed a bug that prevented lab profiles with containers from being imported. 
 - Fixed a bug that prevented a network from being visible in the lab when it isn't connected to a VM.
-
-
 
 ---
 
