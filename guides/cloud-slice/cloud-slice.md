@@ -54,7 +54,7 @@ If you want your students to be able to interact with the cloud virtual machines
 
 To prepare for the deployment of managed virtual machines in your Cloud Slice lab, you must upload the template virtual hard disk(s) that will be used by your managed virtual machines into your cloud platform. Select the cloud platform you are using with your lab from the list below to learn how to upload template virtual hard disk(s) into that cloud platform. If the platform listed is not a hyperlink, managed virtual machines are not yet supported on that platform.
 
-1. [Microsoft Azure](microsoft-azure/cloud-slice-upload-template-vhds.md)
+1. [Microsoft Azure](/lod/azure-virtualization.md)
 1. Amazon Web Services (coming soon)
 1. Google Cloud Platform (coming soon)
 
