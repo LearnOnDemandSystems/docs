@@ -8,7 +8,21 @@
 
 # What's New in Lab On Demand
 
-## **Released September 27, 2019**
+## **Released October 18, 2019**
+
+**Alphabetical Output Options**
+
+- A sort button has been added to sort output options alphabetically. Clicking the sort button changes to alphabetical, and clicking again changes it back to the by relevance sort order. This does not change the sequence that the fields are display in search results. This only makes it easier to find options when enabling or disabling output options.
+
+**Improvements and Fixes**
+
+- Fixed a bug that prevented PowerShell from being available for ABA scripts in cloud/container hybrid labs.
+- Fixed a bug that prevented a user profile image from displaying on the _My Labs_ page.
+- Fixed a bug that prevented the cloud subscription pool name from displaying when launching a lab using the _Launch on Subscription_ button.
+
+---
+
+## **Released October 11, 2019**
 
 **Enable Disk UUID**
 - It is now possible to enable Disk UUID on vSphere VMs. There is a checkbox on the VM profile to enable this feature. 
