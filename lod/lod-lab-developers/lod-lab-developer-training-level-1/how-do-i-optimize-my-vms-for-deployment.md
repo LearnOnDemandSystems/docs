@@ -1,4 +1,4 @@
-# How do I optimize my VMs for deployment?
+# How do I optimize my VMs with Start States?
 
 Using the Start State feature will allow you to capture your Virtual Machines in the correct state for delivery to your end users. It freezes the state of your current lab so that each end user will get a copy of the lab in its current state.
 
@@ -10,5 +10,3 @@ To use Start States:
 1. Click **OK**.
 
 > ![KNOWLEDGE] You may get a pop-up note about **Dynamic MAC addresses**. Please consider what the message says before continuing and then click **Yes** or **No**.
-
-![How Do I Optimize My VMs For Deployment?](https://www.youtube.com/watch?v=NwKby0OMEXY)
