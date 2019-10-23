@@ -2,8 +2,6 @@
 
 If you want to be able to load an ISO or a floppy disk into a virtual machine in a launched lab, you will need to create a Removable Media Profile and have the ISO or floppy disk in file format stored in your storage. A Removable Media Profile is used to connect an ISO or Floppy file to Lab Profiles so they can be used in the launched labs.
 
-For LOD lab component terminology and guidelines for building Lab Series and Lab Profiles, please read the [LOD Terminology and Guidelines for Building a Lab article](lod-terminology-and-guidelines-for-building-a-lab.md).
-
 There are three locations to create a Removable Media Profile: 
 - From the Lab Series page that will be use the removable media (automatically associates the Removable Media Profile to the series) 
 - From the Lab Profile page that will use the removable media. 
