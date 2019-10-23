@@ -14,5 +14,3 @@ Once you are logged in:
 The time it takes to upload a file is dependent on the file size and connection speed.
 
 These directions apply to both VHD(x) files and ISO files.
-
-!VIDEO[How do I upload my virtual machines to the server?](https://www.youtube.com/watch?v=3wJputCQXPg)
