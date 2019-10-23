@@ -2,7 +2,7 @@
 
 When you want to use your own VMware-based Virtual Machine images in your labs, there are a couple of important steps that you need to complete. These steps enable us to create Virtual Machine (VM) Profiles for use in your Lab Series and Profiles.
 
-1. EXPORT your VMware based virtual machines to **.OVF** or **.OVA** format. This is very important in order for us to correctly build the VM Profiles. You can normally find Export in the File menu. For more information about exporting your images in the VMware Workstation, read [VMware Workstation](https://pubs.vmware.com/workstation-9/topic/com.vmware.ws.using.doc/GUID-D1FEBF81-D0AA-469B-87C3-D8E8C45E4ED9.html). 
+1. Export your VMware based virtual machines to **.OVF** or **.OVA** format. This is very important in order for us to correctly build the VM Profiles. You can normally find Export in the File menu. For more information about exporting your images in the VMware Workstation, read [VMware Workstation](https://pubs.vmware.com/workstation-9/topic/com.vmware.ws.using.doc/GUID-D1FEBF81-D0AA-469B-87C3-D8E8C45E4ED9.html). 
 
 2. Once the image is exported, compress the image or multiple images into **.ZIP** or **.RAR files. We recommend creating 700mb .ZIP files for uploading. If retransmission of the file(s) is necessary, it is much easier to upload a single 700mb file than it is to upload the whole 3-300gb image.
 
