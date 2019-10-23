@@ -13,7 +13,7 @@ Once the lab is running and you are working on it, you can create a snapshot at 
 
 To create a snapshot:
 
-1. Click the **Commands** menu command_icon.png at the top of the lab interface
+1. Click the **Commands** menu at the top of the lab interface
 1. Click **Snapshots**. In the Snapshots window
 1. Type the name of the snapshot and click **Create Snapshot**. This creates a snapshot of all machines in the lab.
 
