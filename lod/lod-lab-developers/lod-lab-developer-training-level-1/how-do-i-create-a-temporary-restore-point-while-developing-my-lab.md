@@ -1,6 +1,6 @@
 # How do I create a temporary restore point while developing my lab?
 
-When developing a lab, you may find you want or need to restore or rollback the machines to a previous point to do something a different a way. This is where you would use snapshots, which are temporary restore points available during that session of the lab.
+When developing a lab, you may find you want or need to restore or rollback the virtual machines to a previous point to do something a different a way. This is where you would use snapshots, which are temporary restore points available during that session of the lab.
 
 You have to enable snapshots before launching the lab in order to use them within the lab. To do this:
 
