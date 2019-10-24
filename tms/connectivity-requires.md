@@ -13,10 +13,8 @@ To launch and use a lab, the following requirements must be met:
     1. Secure Web sockets on HTTPS port 443 and 43443
     2. Web sockets over HTTP port 80 and HTTP over Port 843 (Flash control) (Hyper-V only)
     3. RDP over port 21xxx or 443 (Enhanced control)
-    4. VMware custom protocol over port 902 (VMware Remote Console Plug-in – vSphere only)
     5. For more information see Browser/Controller Support below
 4. Have administrative rights on the local machine if installing the Enhanced control (Hyper-V w/RDP only).
-5. Have administrative rights on the local machine if installing the VMware Remote Console Plug-In (vSphere only).
 
 ## Bandwidth Requirements
 
@@ -100,29 +98,42 @@ The below ranges are used by Public IP internet access labs.
 
 185.254.59.0/24 185.254.58.0/24 185.254.57.0/24 168.245.202.0/23 128.136.160.9 - 128.136.160.254 103.18.85.21 - 103.18.85.254 199.101.110.31 - 199.101.110.254 199.101.111.05 - 199.101.111.254, 199.101.108.5 - 199.101.109.254
 
-## Browser/Control Support
+## Browser Support
 
-Machines in your lab can be accessed using any one of six virtual machine controls depending on the type of lab you are running. You can freely change between controls on those virtual machines not using SSH to find the one that works best for you.
+The majority of VM or container based labs can be accessed via HTML5 websocket controllers. vSphere, Hyper-V, and Docker<sup>1</sup> labs all utilize this technology. Some labs may require an alternate Enhanced controller available only for Internet Explorer which requires installation of a plugin.
 
-| Virtual Machine Control           |             | Chrome  |                |            | Firefox |                   |               | Internet Explorer |                |               | Microsoft Edge |                |
-|-----------------------------------|-------------|---------|----------------|------------|---------|-------------------|---------------|-------------------|----------------|---------------|----------------|----------------|
-|                                   |             | Version | Protocol       | Ports      | Version | Protocol          | Ports         | Version           | Protocol       | Ports         | Version        | Protocol       |
-| **HyperV/vSphere** | **HTML5 <sup>1</sup>**     | 16+     | Websockets     | 443        | 11+     | Websockets        | 443           | 10+               | Websockets     | 443           | 1+             | Websockets     |
-|                   | **SSH <sup>2</sup>**     | 16+     | Websockets     | 443        | 11+     | Websockets        | 443           | 10+               | Websockets     | 443           | 1+             | Websockets     |
-| **Hyper-V**        | **Flash**       | 11+     | Websockets     | 80 & 843 <sup>3</sup> | 11+     | Websockets        | 80 & 843 <sup>4</sup>    | 11+               | Websockets     | 80 & 843 <sup>2</sup>    | 11+            | Websockets     |
-|                                   | **Silverlight** | 4-34 <sup>4<sup>     | HTTP           | 80         | 4-52 <sup>4<sup>      | HTTP (RDP), HTTPS | 80 (RDP), 443 | 4+                | HTTP           | 80 (RDP), 443 | N/A            | N/A            |
-|                                   | **Enhanced <sup>3</sup>**  | N/A     | N/A            | N/A        | N/A     | N/A               | N/A           | 8+                | VMRDP          | 21xxx or 443  | N/A            | N/A            |
-| **vSphere** | **VMware Remote Console<sup>5</sup>** | N/A     | N/A            | N/A        | 11-56     | Custom            | 902           | 8+                | Custom         | 902           | N/A            | N/A            |
+<sup>1</sup> Docker labs that expose an external service port do so over ports 41952-65534. Connection requirements are dependent on the exposed service.
 
+### **Labs that do not explicitely require the Enhanced controller:**
 
-1 Preferred
+All connections utilize secure WebSockets connections over port 443. No plugin installation is required.
 
-2 Available only when lab is configured for SSH access
+| Browser | Version |
+| --- | --- |
+| Chrome | 16+ |
+| Firefox | 11+ |
+| Internet Explorer | 10+<sup>1</sup1> |
+| Microsoft Edge | 1+ |
 
-3 Port 843 is required by Flash Socket Policy to authorize the use of Web sockets
+<sup>1</sup> Microsoft has announced IE 10 will be End of Life on January 31, 2020
 
-4 Requires Internet Explorer. The 21xxx value depends on which host server in the cloud the lab is running on. If connection on port 21xxx fails, the Enhanced client will rollover and attempt the connection on port 443.
+### **Labs that require the Enhanced controller:**
 
-4 Support for NPAPI plugins (silverlight) was removed with version 45 of Chrome and 52 of Firefox. The plugin is not supported on Linux or macOS
+| **Virtual Machine Control** | **Browser** | **Version** | **Protocol** | **Ports** |
+| --- | --- | --- | --- | --- |
+| **Enhanced** | Internet Explorer | 8+<sup>1</sup> | VMRDP | 21xxx or 443 <sup>2</sup> |
 
-5 Windows and Linux only, not supported on Firefox version 57 or later
+<sup>1</sup> IE 8 and 9 are End of Life and are listed here for legacy purposes
+
+<sup>2</sup> The 21xxx value depends on which host server in the cloud the lab is running on. If connection on port 21xxx fails, the Enhanced client will rollover and attempt the connection on port 443.
+
+### **Alternates:**
+
+Alternatively, legacy controllers may be available. Flash and Silverlight controllers are available for Hyper-V based labs. Performance of these controllers is reduced compared to HTML5 or Enhanced control and compatibility with modern browsers is not guaranteed.
+
+| **Virtual Machine Control** | **Browser** | **Version** | **Protocol** | **Ports** |
+| --- | --- | --- | --- | --- |
+| **Flash**<sup>1</sup> | Must support Adobe Flash plugin | 8+ | VMRDP | 443 & 843 |
+| **Silverlight** | Internet Explorer | 4+ | HTTPS | 443 |
+
+<sup>1</sup> Adobe Flash is being retired by Adobe in 2020. Many browsers are limiting when the plugin can run and are expected to remove it entirely by the time Adobe retires the plugin.
