@@ -16,6 +16,8 @@
 - Life Cycle Actions now indicate if they are disabled without the need to edit the LCA.
 - Fixed a bug that prevented search pages from functioning when using Internet Explorer.
 
+---
+
 ## **Released October 18, 2019**
 
 **Alphabetical Output Options**
