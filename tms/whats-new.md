@@ -2,6 +2,51 @@
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## Released October 24 2019
+
+### <span style="color:#0078d7;">Organization Profile Fields Moved to Different Tabs</span>
+To make the **Organization Profile** more efficient and easier for you as Operations Managers to use, we have modified the **Basic Information** and **Preferences** Tabs. The **Basic Information** tab is now available to you, but the **Name** field is view-only. The **Preferences** tab has had all the fields you need for your organization moved here. These fields have been organized into the following sections for ease: 
+- Business Settings
+- User Settings
+ -Class Settings, including subsections
+     - Set Defaults on new Classes
+     - When choosing instructor(s) for class
+- Course Settings
+- Default Surveys for new Courses and Classes
+- Miscellaneous Settings
+
+In addition, several fields have been renamed for clarity.
+
+Basic Information tab:
+> ![](./images/whats-new/org-basic-info.png)
+
+Preferences tab:
+> ![](./images/whats-new/org-preferences.png)
+
+### <span style="color:#0078d7;">Basic Anonymous User Registration Form</span>
+To facilitate quicker anonymous user registration, we have updated the **Basic Anonymous User Registration** form. Now the user can select their time zone from a dropdown. We have removed the **LinkedIn** and **Twitter** fields. Also, two settings will match your organization settings: the **Enable Notifications** and **Participate in Achievements** checkboxes.
+
+> ![](./images/whats-new/basic-user-reg-form2.png)
+
+### <span style="color:#0078d7;">EULAS on Publishing Groups</span>
+As an Operations Manager, you can now add **End User License Agreements (EULAs)** to your publishing groups that users taking courses in the publishing group will have to accept. This new functionality facilitates our transition to Publishing Groups in place of Content Providers.
+
+To add a EULA to a publishing group:
+1. Edit the publishing group.
+1. On the **Basic Information** tab, click **Choose** next to **End User License Agreement**.
+1. In the **Choose License Agreement** dialog, search for and select the EULA to apply and click **OK**.
+1. Save the publishing group. 
+
+Any student who takes a class or course assignment based on any course in the publishing group will have to agree to the EULA before they can launch the activities in the course.
+
+### <span style="color:#0078d7;">TMS Improvements and Fixes</span>
+We have made the following enhancements to our TMS:
+- Announcements are no longer be marked as **Expired** before their set expiration date.
+- Course custom fields are no longer bulleted.
+- The **Missing Information** flags in the **User Profile** fields are now positioned on the right-hand side of the fields.
+
+----------------------------
+
 ## Released October 10 2019
 
 ### <span style="color:#0078d7;">Publishing Groups and Course Availability</span>
@@ -368,40 +413,3 @@ You can now view what custom fields are on your classes through the API as well 
 
 - The **Export** link on the **Class Roster** is now visible based on permissions for searching class enrollments.
 - The **Total RAM** output option will now recalculate when a lab's RAM is updated and the TMS has been synced.
-
-----------------------------
-
-## Released April 25 2019
-
-### <span style="color:#0078d7;">TMS Updates and Fixes</span>
-- The **Find Users** and **Find Instructors** search pages have a new **Output Option**: **Created By**.
-- We now use SAS keys to download files from Class Files, Course Files, and Documents. There was previously a size limit on what could be downloaded without errors.
-- During the creation of an enrollment, the Enrollment Status will no longer be retained if the administrator changes the course and they no longer have permission for the status.
-- **First Name** and **Last Name** filters now work correctly on **Find Enrollment Training Keys** page.
-
-----------------------------
-
-## Released April 18 2019
-
-### <span style="color:#0078d7;">Add Completion Certificates to Classes</span>
-
-You can now add completion certificates you have created in the TMS directly to classes. This gives you the ability to add your own certificates and still have the certificate(s) associated with the course available for instructors and students. To do this for a class, under the **Certificates** section of the class, choose to inherit the certificates from the course and/or click **Add Certificate** to add your own.
-
-### <span style="color:#0078d7;">TMS Updates</span>
-
-- The TMS has been updated to be more accessible to students using assistive technology.
-- The **Starts Exactly** filter has been removed from the **Find Classes** page and **Choose Classes** dialog.
-- The Bookmark icon is now correctly positioned in the zoomed view in the Course Catalog.
-
-----------------------------
-
-## Released April 5 2019
-
-### <span style="color:#0078d7;">Drag and Drop Course Tags to Set Order in Course Tag Groups</span>
-
-You can now easily set the order that course tags will appear within their group in the On Demand browser. Drag and drop capability has been added to the **Tags** tab of the **Course Tag Group** profile page to allow you to manually drag a tag to the location in the list you want it to be displayed in the browser. However, at the top of the tag list is a **Sort Tags Alphabetically** checkbox. If this is checked, the order of the tags in the browser will be alphabetically even if you have rearranged them on this tab manually. A screen tip has been added to this field to warn the user of this.
-
-### <span style="color:#0078d7;">TMS Updates</span>
-- You will now receive a warning when you add a lab to a course that exceeds your **RAM** allotment.
-- The **Find Course Assignments** page now has an output option for **External IDs** that will show a column for each item that has an external Id available.
-The API **SearchClasses** method now includes **DeliveryTypeId** and **HTMLDescription** as endpoint properties.
