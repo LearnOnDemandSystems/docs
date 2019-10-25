@@ -8,6 +8,14 @@
 
 # What's New in Lab On Demand
 
+## **Released October 25, 2019**
+
+**Fixes and Improvements**
+- It is now possible to add a virtual machine to a lab belonging to a different series. Previously, the VM chooser dialog was permanently filtered against the lab’s series. Now, this filter can be removed if desired. 
+- Files and folders within storage management pages are now always sorted in alphabetical order.
+- Life Cycle Actions now indicate if they are disabled without the need to edit the LCA.
+- Fixed a bug that prevented search pages from functioning when using Internet Explorer.
+
 ## **Released October 18, 2019**
 
 **Alphabetical Output Options**
