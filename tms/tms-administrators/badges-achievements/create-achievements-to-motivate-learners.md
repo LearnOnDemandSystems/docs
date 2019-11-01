@@ -1,4 +1,4 @@
-# How do I create achievements?
+# How do I create an achievement?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
 
