@@ -47,3 +47,5 @@ The following settings must be in place for the user to earn an achievement:
 For information on badging, please see:
 
 - [What is involved in creating external badges?](badge-process.md)
+
+.
