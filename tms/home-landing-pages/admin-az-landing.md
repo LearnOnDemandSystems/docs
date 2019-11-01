@@ -39,7 +39,7 @@
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/roles-thru-auth-prov.md">
         <div class="subtopic_title">How can I assign user roles using an authentication provider?</div>
       </a>
-      <a class="subtopic_link" href="../../../admin-follow.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/discussions/admin-follow.md">
         <div class="subtopic_title">How can I be notified of activity on a discussion?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/cancel-class.md">
