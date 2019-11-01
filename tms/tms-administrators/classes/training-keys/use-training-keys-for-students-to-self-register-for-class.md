@@ -1,4 +1,4 @@
-# How can I use class enrollment training keys for students to self-register for a class?
+# How can I use training keys for students to self-register for a class?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
 
