@@ -1,4 +1,4 @@
-# How do I view all SCORM attempts by my students?
+# How do I view SCORM attempts by my students?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
 
