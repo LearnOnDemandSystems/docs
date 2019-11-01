@@ -54,4 +54,3 @@ For more information on Discussions, please see:
 - [How can I add a disclaimer to all my discussions?](add-disclaimer.md)
 - [How can I be notified of activity on a discussion?](admin-follow.md)
 
-.
