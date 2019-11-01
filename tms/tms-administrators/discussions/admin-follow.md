@@ -36,5 +36,3 @@ For more information on Discussions, please see:
 - [How can I control posts on discussions?](add-moderators.md)
 - [How can I add a disclaimer to all my discussions?](add-disclaimer.md)
 - [How do my students and I participate in discussions?](participation.md)
-
-.
