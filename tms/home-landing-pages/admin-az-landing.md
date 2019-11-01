@@ -30,7 +30,7 @@
       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/print-completion-certificates-for-class-by-admin.md">
         <div class="subtopic_title">How can an administrator print completion certificates for a class?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/discussions/admin-follow.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/discussions/add-disclaimer.md">
         <div class="subtopic_title">How can I add a disclaimer to all my discussions?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/add-existing-class-enrollments-to-new-event.md">
