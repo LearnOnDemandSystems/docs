@@ -48,4 +48,3 @@ For information on badging, please see:
 
 - [What is involved in creating external badges?](badge-process.md)
 
-.
