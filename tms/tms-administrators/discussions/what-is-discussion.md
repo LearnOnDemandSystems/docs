@@ -22,4 +22,3 @@ For more information on Discussions, please see:
 - [How do my students and I participate in discussions?](participation.md)
 - [How can I be notified of activity on a discussion?](admin-follow.md)
 
-.
