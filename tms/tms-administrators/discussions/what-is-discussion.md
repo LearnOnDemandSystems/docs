@@ -21,3 +21,5 @@ For more information on Discussions, please see:
 - [How can I add a disclaimer to all my discussions?](add-disclaimer.md)
 - [How do my students and I participate in discussions?](participation.md)
 - [How can I be notified of activity on a discussion?](admin-follow.md)
+
+.
