@@ -211,7 +211,7 @@
         <div class="subtopic_title">How do I find users?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/find-achievements.md">
-        <div class="subtopic_title">How do I find what achievements my students have earned?</div>
+        <div class="subtopic_title">How do I find what achievements and/or badges my students have earned?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/pg-add-org-error-resolution.md">
         <div class="subtopic_title">How do I find what courses belong to a publishing group?</div>
@@ -300,13 +300,13 @@
       <a class="subtopic_link" href="/tms/tms-administrators/users/instructor-management/what-is-contract-instructor-pool.md">
         <div class="subtopic_title">What is the Contract Instructor Pool?</div>
       </a>
-      <a class="subtopic_link" href="/lod/connectivity-requires.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/labs/find-system-requirements-for-labs.md">
         <div class="subtopic_title">Where do I find the system requirements for labs?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/disappearing-links.md">
         <div class="subtopic_title">Why do links disappear?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/add-existing-class-enrollments-to-new-event.md">
+      <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/difference-between-lab-expiration-and-lab-access.md">
         <div class="subtopic_title">Why does my lab expire within a week when I am supposed to have access to it for a longer time?</div>
       </a>
     </div>
