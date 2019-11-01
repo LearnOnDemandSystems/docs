@@ -168,10 +168,7 @@
       <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/create-temporary-user-role.md">
         <div class="subtopic_title">How do I create a temporary user role?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/create-achievements-to-motivate-learners.md">
-        <div class="subtopic_title">How do I create achievements to motivate learners?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/create-achievements-to-motivate-learners.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/create-achievements-to-motivate-learners.md">
         <div class="subtopic_title">How do I create an achievement?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classrooms.md">
