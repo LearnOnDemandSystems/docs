@@ -20,7 +20,7 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[Amazon Cognito User Pools](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncognitouserpools.html)|cognito-idp|supported||
 |[Amazon Comprehend](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncomprehend.html)|comprehend|planned||
 |[Amazon Connect](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonconnect.html)|connect|planned||
-|[Amazon Data Lifecycle Manager](https://docs.aws.amazon.com/dlm/latest/APIReference/Welcome.html)|
+|[Amazon Data Lifecycle Manager](https://docs.aws.amazon.com/dlm/latest/APIReference/Welcome.html)|N/A|planned|
 |[Amazon DynamoDB](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazondynamodb.html)|dynamodb|supported||
 |[Amazon DynamoDB Accelerator (DAX)](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazondynamodbacceleratordax.html)|dax|supported||
 [Amazon EC2](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_identityandaccessmanagement.html)|ec2|supported||
