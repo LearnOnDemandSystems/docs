@@ -6,13 +6,14 @@ You may be asked to manually issue badges to students in your class rather than 
 
 ## Individual User Issuance
 You will use this method if you only need to issue one badge to one student. To issue the badge:
-1. On the class' **Roster** page to the right of the student, click **Issue a Badge**. This will open the Choose Badge dialog and display only those badges that are set to be manually issued.
+1. On the class' **Roster** page to the right of the student, click the **Issue a Badge** icon. This will open the Choose Badge dialog and display only those badges that can be manually issued.
 1. In the **Choose Badge** dialog, search for and select the badge you want to issue and click **(Select a Badge)**. The button will briefly change to Successfully Issued Badge before closing the dialog.
 
 > ![](/tms/images/manual-badge-issuance.png)
 
 ## Batch Issuance
 You will use this method if you have one or more badges to issue to multiple students. To do a batch issuance:
+
 1. On the class' **Roster** page, click **Issue Badges** in the quick launch bar.
 1. On the **Issue Badges** page under **Badges**, click **Add Badges**. 
 1. In the **Choose Badges** dialog, select the badges to be issued and click **(Select a Badge)**. Only badges belonging to the same organization as the class and have been marked to all manual issuance will be listed.
