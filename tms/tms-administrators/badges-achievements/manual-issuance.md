@@ -42,7 +42,7 @@ As an administrator, you can also issue badges to students from their course ass
 1. Navigate to the course assignment and click **Issue a Badge** in the quick access bar.
 1. In the **Choose Badge** dialog, select the badge to issue and click **(Select a Badge(**. Note: Only one badge can be selected/issued at a time for course assignments.
 
-> ![](./images/whats-new/issue-badge-assignment-dialog.png)
+> ![](/tms/images/issue-badge-assignment-dialog.png)
 
 There is no indication on a course assignment that the badge has been issued. To verify this, you can either look at the Find Issued Badges page or at the Achievements/Badges page of the student.
 
