@@ -29,7 +29,7 @@ As an administrator, you can also issue badges to students from their course ass
 
 > ![](./images/whats-new/issue-badge-assignment-dialog.png)
 
-There is no indication on a course assignment that the badge has been issued. To verify this, the administrator can either look at the Find Issued Badges page or at the Achievements/Badges page of the user.
+There is no indication on a course assignment that the badge has been issued. To verify this, you can either look at the Find Issued Badges page or at the Achievements/Badges page of the student.
 
 ### <span style="color:#0078d7;">Class Vouchers Return</span>
 If you use class vouchers to create classes, and have assigned any that won’t be used for enrollments in the class, you can request to have them released and made available to you to assign to a different class. To request that vouchers be released from a class, please create a Support ticket on our customer support page, https://lods.one/support.
