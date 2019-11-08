@@ -2,6 +2,57 @@
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## Released November 07 2019
+
+### <span style="color:#0078d7;">Manual Issuance of Badges by Instructors/Operations Managers</span>
+As an instructor or administrator, with the proper permissions, you can now manually issue badges to students. This allows you to add a badge to a student rather than only having badges issued automatically by meeting the requirements to earn an achievement. This can be done from the Class Roster or from individual course assignments, with a different process for each.
+
+#### Class Enrollments
+As an instructor or administrator, you can issue one or more badges to students in your class using the following steps:
+
+1. On the **Class** page, click **Roster** and then click **Issue Badges** in the quick launch bar.
+1. On the **Issue Badges** page under **Badges**, click **Add Badges**. 
+1. In the **Choose Badges** dialog, select the badges to be issued and click **(Select a Badge)**. Only badges belonging to the same organization as the class will be listed.
+1.  Under **Students**, click **Add Students**. 
+1. In the **Choose Student(s)** dialog, select the student(s) to whom to issue the badge and click **OK**. If the instructor is an organization instructor (not a contract instructor), only enrolled students from the instructor’s organization in the class are listed. If the instructor is a contract instructor, all students enrolled in the class are listed.
+1. Review the listed badges and the students and click **Issue Badges**. A list of the students and the badges issued to them will appear at the bottom of the page under the heading “The following badges were successfully issued:”
+
+> Note: Students are only allowed to earn a badge once. Therefore, if there are any errors in issuing the badge, the user will receive a warning message stating: Warning: Not all badges were successfully issued. See the Failed Badge list for details. These failures will be listed at the bottom of the page under the heading “The following badge issuances failed:”. A description of the failure will be included. 
+
+> ![](./images/whats-new/issue-badge-roster-page.png)
+
+#### Course Assignments
+As an administrator, you can also issue badges to students from their course assignments using the following steps:
+
+1. Navigate to the course assignment and click **Issue a Badge** in the quick access bar.
+1. In the **Choose Badge** dialog, select the badge to issue and click **Select a Badge**. Note: Only one badge can be selected/issued at a time for course assignments.
+
+> ![](./images/whats-new/issue-badge-assignment-dialog.png)
+
+There is no indication on a course assignment that the badge has been issued. To verify this, the administrator can either look at the Find Issued Badges page or at the Achievements/Badges page of the user.
+
+### <span style="color:#0078d7;">Class Vouchers Return</span>
+If you use class vouchers to create classes, and have assigned any that won’t be used for enrollments in the class, you can request to have them released and made available to you to assign to a different class. To request that vouchers be released from a class, please create a Support ticket on our customer support page, https://lods.one/support.
+
+### <span style="color:#0078d7;">Customized Required User Registration Fields</span>
+If you allow users to create their accounts from your login page, you can now choose which fields from the User Registration form are required to be completed. If you use the Basic User Registration form, any fields you have requested to be required will be added to the form as required. To request this customization to your User Registration form, please create a Support ticket on our customer support page, [https://lods.one/support](https://lods.one/support).
+
+Here is the list of fields you can choose to be required:
+> ![](./images/whats-new/registration-fields.png)
+
+### <span style="color:#0078d7;">TMS Improvements and Fixes</span>
+- The logos for the **TMS** and **IT Pro Challenges** will now show as favicons on the browser tabs.
+- To make it faster to select instructors to assign to a class, Class Schedulers can now filter the **Choose Instructor** dialog by those preferred by their organization. This requires that Operations Managers designate those instructors on the **Preferred Instructors** tab of the **Organization** profile.
+- To better assist their students, instructors will now be able to view the **Lab Instance** profile pages for labs launched by students in their classes.
+- Users will now be able to see when lab access expires post-class on the **Class** and **Enrollment** profile pages. This data is also available on the **Find Courses**, **Find Classes**, and **Find Enrollments** pages using the output option, **Post-class lab availability**.
+- The **Abbreviated Name** field has been removed from the **Organization** profile and thus from the API calls of **GetOrganization**, **GetOrganizationbyExternalId**, **CreateOrganization**, and **UpdateOrganization**.
+- The **Maintenance Banner** will now display properly on sites where the login page has been customized.
+- When class vouchers are used to create a class, all enrollments for the class, regardless of how they are created, will be associated with a class voucher.
+- When a class is updated through the API, users will now see, on the **Class History** page, the correct **Last Modified** and **Last Modified By** data for the update in those output columns.
+- Filters that had their closing “X” out of alignment with other filters have been fixed. All filters will have the Xs aligned.
+
+----------------------------
+
 ## Released October 24 2019
 
 ### <span style="color:#0078d7;">Organization Profile Fields Moved to Different Tabs</span>
