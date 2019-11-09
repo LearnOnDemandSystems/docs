@@ -10,6 +10,24 @@
 
 ## **Released October 25, 2019**
 
+**VMware SATA Disk Support**
+
+- It is now possible to use a SATA disk controller in VMware based labs.
+
+**Improvements and Fixes**
+
+- _My Labs_ page now displays the virtualization platform and cloud platform used for lab profiles in the _Favorites_ section.
+- Special characters can now be added to cloud credential pools when adding credentials to a pool.
+- Special characters can now be used in a password when creating or editing a user profile.
+- When a lab profile uses a theme with custom CSS, it is applied to the lab instruction editor as well as the lab.
+- When the portal window is closed on a Cloud Slice lab, portal links in the lab instructions will now reopen the portal window and direct it to the URL in the Portal link.
+- When a user logs out of the AWS portal or closes the portal window, clicking the Portal link on the Resources tab of the lab instructions will now reopen the portal window and sign the lab user back in.
+- VM thumbnail images are now a larger size to allow a better output on high dpi screens (4k/5k). Please note that the size on screen will not change, but will be scaled to display better on high resolution displays.
+- Fixed a bug that prevented Imported From links on a lab profile or lab series note section from navigating to the profile/series that it was imported from.
+---
+
+## **Released October 25, 2019**
+
 **Fixes and Improvements**
 - It is now possible to add a virtual machine to a lab belonging to a different series. Previously, the VM chooser dialog was permanently filtered against the lab’s series. Now, this filter can be removed if desired. 
 - Files and folders within storage management pages are now always sorted in alphabetical order.
