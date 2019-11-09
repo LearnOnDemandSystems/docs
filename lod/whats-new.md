@@ -24,6 +24,7 @@
 - When a user logs out of the AWS portal or closes the portal window, clicking the Portal link on the Resources tab of the lab instructions will now reopen the portal window and sign the lab user back in.
 - VM thumbnail images are now a larger size to allow a better output on high dpi screens (4k/5k). Please note that the size on screen will not change, but will be scaled to display better on high resolution displays.
 - Fixed a bug that prevented Imported From links on a lab profile or lab series note section from navigating to the profile/series that it was imported from.
+
 ---
 
 ## **Released October 25, 2019**
