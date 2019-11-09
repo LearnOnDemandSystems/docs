@@ -8,7 +8,7 @@
 
 # What's New in Lab On Demand
 
-## **Released October 25, 2019**
+## **Released November 8, 2019**
 
 **VMware SATA Disk Support**
 
