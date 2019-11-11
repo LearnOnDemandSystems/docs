@@ -72,26 +72,6 @@ The Help tab allows users to change the theme of the Lab Client, or change the M
 
 The larger pane on the left side of the client is known as the **Resource Portal**. This window will show users whatever resource they are currently viewing in the lab. Resources shown may be cloud portals, managed virtual machine desktops, videos, images, or any URL that you want displayed in the **Resource Portal**. Users can change what is shown in the portal by clicking on the resource in the Resources tab in the **Lab Console**, or they can click in links in the instructions to change what is shown in the portal if the author included links to do so using Markdown syntax (discussed later in this guide).
 
-## Enabling the IDLx Client Experience
-
-For a lab to launch with the IDLx client experience, the lab profile must be configured to use IDLx.
-
-If you have a lab that has not had any instructions added to it yet, you can enable the IDLx Client experience by performing the following steps:
-
-_For any lab that is configured to use the virtualization platform:_
-
-1. Navigate to your lab profile in Lab on Demand.
-1. Click **Edit** on the lab profile page.
-1. On the **Basic Information tab** of the lab profile Edit page, check **Instructions**, to enable the IDLx client experience.
-1. Click **Save**.
-
-_For any lab that has the virtualization platform set to "None" (e.g. Cloud Slice labs):_
-
-1. Navigate to your lab profile in Lab on Demand.
-1. Click **Edit** on the lab profile page.
-1. On the **Basic Information tab** of the lab profile Edit page, check **Instructions**.
-1. Click **Save**.
-
 ### Separating the Lab console from the Resource Portal (two windows)
 
 If you are using multiple monitors, or wish to only see the Resource Portal window, the Resource Portal can be separated into another window. Then you can display the Resource Portal with lab instructions on a monitor, and the Lab Console on a different monitor. 
