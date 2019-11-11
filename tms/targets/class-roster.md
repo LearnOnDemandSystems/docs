@@ -11,14 +11,21 @@ The following articles relate to this page:
 - [How do I enroll students in a class?](../arvato-marketplace/fulfilling-marketplace-order/enroll-students-in-class.md)
 - [What can I do if a student needs to reschedule or cancel a class?](../arvato-marketplace/faq-for-arvato-marketplace/reschedule-cancel-student.md)
 
+## Instructors
+
+The following article relates to an action that you may be able to do from this page:
+
+- [How do I issue badges to students in my class?](../instructors/instructor-prep-and-classes/issue-manual-badge.md)
+
 ## Administrators
 
-The following are articles related to actions that can be done from this page:
+The following articles relate to actions that can be done from this page:
 
 - [How do I enroll multiple students?](../tms-administrators/classes/enrollments-roster/enroll-multiple-students.md)
 - [How do I change a class enrollment status and which one should I use?](../tms-administrators/classes/enrollments-roster/change-class-enrollment-status-and-which-to-use.md)
 - [How can I add an existing class's enrollments to a new event?](../tms-administrators/classes/enrollments-roster/add-existing-class-enrollments-to-new-event.md)
 - [How do I change an enrollment's completion status and which one should I use?](../tms-administrators/classes/enrollments-roster/change-enrollments-completion-status-and-which-to-use.md)
+- [How do I manually issue badges for my students?](../tms-administrators/badges-achievements/manual-issuance.md)
 - [How can an administrator print completion certificates for a class?](../tms-administrators/classes/schedule/print-completion-certificates-for-class-by-admin.md)
 
 To see all Help articles available for the TMS, you can click the **Home** button at the top of the window.
