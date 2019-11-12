@@ -8,6 +8,7 @@ There are several options possible when creating or editing a course. The follow
 
 ## Activities
 - [How do I add labs to my course?](../tms-administrators/courses-and-activities/labs/add-labs.md)
+- [What does it mean when I get a 'Max RAM settings' warning when adding a lab to a course?](../tms-administrators/courses-and-activities/labs/max-ram.md)
 - [How do I add videos to my course?](../tms-administrators/courses-and-activities/other-activities/add-video.md)
 - [How do I add SCORM modules to my course?](../tms-administrators/courses-and-activities/other-activities/add-scorm.md)
 - [How do I add documents and external links to my course?](../tms-administrators/courses-and-activities/other-activities/add-docs-urls.md)
