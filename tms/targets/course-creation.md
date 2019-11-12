@@ -13,8 +13,6 @@ There are several options possible when creating or editing a course. The follow
 - [How do I add documents and external links to my course?](../tms-administrators/courses-and-activities/other-activities/add-docs-urls.md)
 - [How do I add an assessment to a course?](../tms-administrators/courses-and-activities/other-activities/add-assessment.md)
 <!--- [How do I add an LTI Resource link to my course?](../tms-administrators/courses-and-activities/other-activities/add-lti-resource-links.md) -->
-
-## Other Options
-These articles will be coming soon.
-
+<!--- ## Other Options
+These articles will be coming soon. -->
 To see all Help articles available for the TMS, you can click the **Home** button at the top of the window.
