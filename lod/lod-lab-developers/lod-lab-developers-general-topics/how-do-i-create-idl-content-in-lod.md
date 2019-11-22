@@ -1,13 +1,12 @@
 # How do I create IDL content in LOD?
 
-There are five methods to add Integrated Digital Lab (IDL) content into a Lab on Demand (LOD) lab profile. You can choose the one that matches your needs the best:
+There are multiple methods to add instructions to a Lab on Demand (LOD) lab profile. You can choose the one that matches your needs the best:
 
-1. Author IDLx Instructions in Lab on Demand
-1. Directly enter into IDL studio
-1. Integrate with GitHub
-1. Import Markdown document
-1. Import Word document
-1. Import archive
+1. [Author IDLx Instructions in Lab on Demand](#author-idlx-instructinos-in-lab-on-demand)
+1. [External Instruction Source](#external-instruction-source)
+1. [Import Markdown document]
+1. [Import Word document]
+1. [Import archive]
 
 ## Author IDLx Instructions in Lab on Demand
 
@@ -15,32 +14,13 @@ The IDLx platform integrates the lab instructions with the Cloud Portal of choic
 
 An advantage of this presentation format is that the lab steps take up only a relatively small amount of screen real estate. This removes the need to switch back and forth between a lab document and the lab -- these activities distract from performing the lab and can take focus away from the lab steps and goals.
 
-## Enter content directly into the IDL Studio
+## External Instruction Source
 
-This method leverages the WYSIWYG IDL Studio interface and has not changed. For information on how to enter content this way, please refer to the How do I add step-by-step instructions to my labs? article. IDL Studio allows you to enter all of your IDL content, including all components of any exercises or tasks included in your lab from within the lab UI, while you are testing the lab. If you prefer entering lab content in a UI, you have online access, and you?re not managing your lab content elsewhere, this method will work very well for you.
+Lab on Demand allows you to set Azure DevOps (ADO) or GitHub as an instruction source, using an external ADO or GitHub repository into a lab and use that repository as the source of IDLx content for that lab.
 
-## Integrate with GitHub
+Choosing to leverage these features means moving all of your content management (including editing) for a lab into ADO or GitHub. Once you have enabled this instruction source for a lab, the content in that lab will automatically be updated based on the the latest changes you make to your content in the external repository.
 
-his method allows you to manage your lab content in a combination of markdown files, screenshots, and video files inside of a GitHub repository. GitHub has native support for multiple authors, revision control, offline editing, and more. Integrating a lab with GitHub will move all content management (including editing) for that lab into GitHub, and your lab will automatically be updated in LOD as you update your content in GitHub. At a minimum you will need a Markdown document, based on our template, in GitHub and, optionally, screenshots in a screens folder and videos in a videos folder. To get started you can either export the content from a current lab profile and import that into a GitHub repository, or you can create a new GitHub repository. To integrate a lab with the repository, follow these steps:
-
-1. Edit the Lab Profile and on the **Cloud** tab, click **Configure GitHub Repository**.
-1. The Configure GitHub Repository dialog with Login with GitHub link will open. Click **Login with GitHub**.
-1. If you are already logged into GitHub, you will be presented with a list of your repositories.
-1. If you are not logged in you will be prompted for your GitHub credentials and then presented with a list of your repositories.
-1. If you do not have an account, there is an option to create one; however, as mentioned earlier, you will need to load your markdown files into your repository before continuing with this process.
-1. Click **Select** next to the repository with the markdown file in it (if no markdown files are present in the repository, you will be prompted to select another).
-1. To preview a repository before selecting it, click on the name of the repository.
-1. Once selected, the repository will open and the .md files in it will be displayed. Click **Select** next to the .md file that will be used.
-1. To preview a .md before selecting it, click on the name of .md file.
-1. Click **OK**.
-1. Refresh your browser and then ensure **Enabled** is selected on the **Cloud**.
-1. Click **Save** on the Lab Profile.
-
-At this point the lab will be integrated with GitHub and the IDL content will import. If you have a valid email address set up in GitHub for notifications, you will receive an email notifying you of success or failure.
-
-Once a lab is integrated with GitHub, if you are in LOD and want to change the lab content, you can click on the GitHub repository link on the Cloud tab. This will bring you to GitHub and the content.md file. You can also change the lab content directly in GitHub without using the LOD UI. In either case, LOD will automatically synchronize any changes you make as they are committed into your GitHub repository. These changes will be immediately available to users who launch that lab, or upon refresh for users who already have the lab launched.
-
-When a Lab Profile is integrated with GitHub, the IDL Studio options are disabled. If you remove the integration with GitHub, the IDL content will remain but is now treated as regular IDL content.
+For more information about configuring Azure DevOps or GitHub as an instruction source, read our [External Instruction Source documentation](/lod/instruction-source.md). 
 
 ## Import Markdown (.md) document using provided template
 
