@@ -8,6 +8,22 @@
 
 # What's New in Lab On Demand
 
+## **Released November 22, 2019**
+
+**Evaluation Star Rating Scale**
+- A new option has been added to Evaluations, to allow the use of a star rating scale. 
+
+**Theme Options**
+- Lab on Demand has been updated with a universal theming engine. Instead of having separate theme settings for the lab client, authoring tools, and admin tools, one theme setting now applies to all areas of the platform. No matter where you set the theme, it will apply across the entire platform. This also means that all the themes previously only available in the lab client are now available in the LOD admin site.
+
+**Improvements and Fixes**
+- Cloud subscription details pages now have a Find Lab Instances link to search for all lab instances associated with the cloud subscription. 
+- When a resource is added to a lab profile on the Advanced tab and the Lab Manual box is checked, and there are no IDLx instructions, the lab will default to the instructions tab.
+- Fixed an issue that prevented folders from appearing in alphabetical order in the storage browser when there is leading or trailing white space in the folder name. The white space is now omitted from the name when it is saved. 
+- Fixed a bug that prevented a parent lab profile from being deleted, when the child profile is deleted. 
+
+---
+
 ## **Released November 8, 2019**
 
 **VMware SATA Disk Support**
