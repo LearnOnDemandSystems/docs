@@ -2,6 +2,37 @@
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## Released November 21 2019
+
+### <span style="color:#0078d7;">Export Training Keys from Class Profile</span>
+As an Operations Manager, you can compile a complete and accurate list of all available and assigned training keys for your classes by exporting them from the Class profile page. Previously, you could only do this if the class was created using class vouchers. However, you can now do this for any class with training keys.
+
+As an Operations Manager you can export your class’ training keys by following the following steps: 
+1.	Navigate to the desired **Class** profile page. 
+1.	On the Class page, click **Training Keys** on the quick launch bar at the top of the page. 
+1.	On the **Training Keys** page, click **Export**.
+
+**Note**: All training keys from the class will be exported to a CSV file.
+
+### <span style="color:#0078d7;">Archive SCORM Modules</span>
+As an Operations Manager you can archive SCORM modules, allowing you to control which modules can be selected as course activities. You can also use the new “Is or Is Not Archived” search Filter and Output Option on the Find SCORM Modules pages to locate your desired modules easier.
+
+As an Operations Manager archive SCORM modules by using the following steps: 
+1.	Locate the page for the **SCORM Module** that you would like to archive. 
+1.	On the SCORM Module page click **Edit**. 
+1.	On the Edit page, click **Archived** at the bottom of the Basic Information tab.
+
+When a SCORM module is archived, it will still play in courses where it is present. However, it is not available to be added to new courses as an activity.
+Once archived, a SCORM module can be made available to new courses again by marking the module unarchived.
+
+### <span style="color:#0078d7;">TMS Enhancements and Fixes</span>
+- When your organization choose to not enable achievements, your users will no longer see the Participate in Achievements checkbox on their own User profile. This prevents confusion on their part regarding why they aren’t earning achievements. If your organization chooses to enable achievements, all of your users will now automatically be set to Participate in Achievements. This saves you time and ensures your users don’t miss out on earning their achievements. </br>
+- You will now easily be able to see courses that are archived in publishing groups and subscriptions. They will now be outlined in red and show a red Archived icon next to them. </br>
+- The UpdateCourseAssignment documentation page now includes the CourseAssignmentId parameter in the Parameter table and shows it as required. </br>
+- Course custom fields that are set to display on the Basic Information or Advanced tabs and cascade to classes will no longer create new “basic” or “Advanced” tabs on the course upon creation of a class using the course. In addition, these fields that cascade down to a class will no longer have the value set in a created class flow up and display in the associated course field on the initial save.
+
+----------------------------
+
 ## Released November 07 2019
 
 ### <span style="color:#0078d7;">Manual Issuance of Badges by Instructors/Operations Managers</span>
