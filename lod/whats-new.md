@@ -8,6 +8,16 @@
 
 # What's New in Lab On Demand
 
+## **Released December 13, 2019**
+
+**Improvements and Fixes**
+- When making the Details API call, the EstimatedReadySeconds property is now the sum of the time it takes to launch the lab and the Display Delay configured in the Advanced tab of the lab profile.
+- Fixed a bug that prevented a lab instance search from returning results when the lab profile contains special characters in the lab profile name. 
+- Fixed a bug that prevented a lab from honoring the default selection on VMs when a new lab was created during differencing disk capture, or when creating a new lab using Save As and choosing the option to create new VM profiles.
+- Fixed an issue that prevented lab series assignments from being retaken when the lab failed to launch. Labs that fail to launch no longer contribute to the users maximum allowed retakes. 
+
+---
+
 ## **Released November 22, 2019**
 
 **Evaluation Star Rating Scale**
