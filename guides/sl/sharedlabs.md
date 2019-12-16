@@ -27,9 +27,9 @@ profile page:
 1.  Click the Advanced tab and click the dropdown under the Shared Class
     Environment section and select Shared Environment.
 
-> ![](./media/image1.png)
->
-> ![](./media/image2.png)
+    > ![](./media/image1.png)
+    >
+    > ![](./media/image2.png)
 
 1.  When a lab is configured with the Shared Environment role, networks
     within that lab can be flagged as a "Shared Class Network." Click
@@ -49,12 +49,12 @@ Environment and its shared networks.
 2.  For **Shared Environment**, click **Choose**. Search and select the
     Shared Environment lab this participant lab will connect to
 
-> ![](./media/image4.png)
+    > ![](./media/image4.png)
 
 1.  Click the **Virtual Machines** tab and configure the VMs to use any
     of the shared networks defined in the Shared Environment.
 
-> ![](./media/image5.png)
+    > ![](./media/image5.png)
 
 Next, notify the LODS Course Requests Team
 (<courserequests@learnondemandsystems.com>) to set up the course.
@@ -76,12 +76,12 @@ start from the **Class** page:
 
 1.  Click **Monitor Labs**
 
-> ![](./media/monitor-labs-button.png)
+    > ![](./media/monitor-labs-button.png)
 
 1.  Under the basic information on the Monitor Class page, click
     **Shared Environment**.
 
-![](./media/shared-environment-button.png)
+    > ![](./media/shared-environment-button.png)
 
 ### Saving and Closing Labs
 
