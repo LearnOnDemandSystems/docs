@@ -27,9 +27,9 @@ profile page:
 1.  Click the Advanced tab and click the dropdown under the Shared Class
     Environment section and select Shared Environment.
 
-    > ![](./media/image1.png)
-    >
-    > ![](./media/image2.png)
+    ![](./media/image1.png)
+    
+    ![](./media/image2.png)
 
 1.  When a lab is configured with the Shared Environment role, networks
     within that lab can be flagged as a "Shared Class Network." Click
@@ -37,7 +37,7 @@ profile page:
     networks that be will be shared between the Shared Environment and
     the Participant(s) labs. This is the key to Shared Labs.
 
-> ![](./media/image3.png)
+    ![](./media/image3.png)
 
 Once you have set up the Shared Environment, you need to designate which
 lab profiles will be the participants that will access the Shared
@@ -49,16 +49,16 @@ Environment and its shared networks.
 2.  For **Shared Environment**, click **Choose**. Search and select the
     Shared Environment lab this participant lab will connect to
 
-    > ![](./media/image4.png)
+    ![](./media/image4.png)
 
 1.  Click the **Virtual Machines** tab and configure the VMs to use any
     of the shared networks defined in the Shared Environment.
 
-    > ![](./media/image5.png)
+    ![](./media/image5.png)
 
-Next, notify the LODS Course Requests Team
-(<courserequests@learnondemandsystems.com>) to set up the course.
-Specify the following information:
+## Create a Course in the TMS.
+The Learn on Demand System's TMS is required for shared labs. A course will need to be
+created by an operations manager or requested through our TMS administrative team. Operation Managers may open a support ticket to request permissions to create a course at https://www.learnondemandsystems.com/customer-support/
 
 1.  Name of course
 
@@ -67,8 +67,7 @@ Specify the following information:
 3.  Name of Participant labs to add as Lab Activities to the course.
     Note: Shared Environment labs do not need to be added to the course.
 
-Once the course has been created, work with the LODS Course Requests
-Team to create your class.
+Once the course has been created, a class can be scheduled.
 
 ## Process during class:
 When an Instructor wishes to launch the Shared Environment, they will
@@ -76,12 +75,12 @@ start from the **Class** page:
 
 1.  Click **Monitor Labs**
 
-    > ![](./media/monitor-labs-button.png)
+    ![](./media/monitor-labs-button.png)
 
 1.  Under the basic information on the Monitor Class page, click
     **Shared Environment**.
 
-    > ![](./media/shared-environment-button.png)
+    ![](./media/shared-environment-button.png)
 
 ### Saving and Closing Labs
 
