@@ -29,7 +29,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div id="header_1" class="subtopic_header" tabindex="0" title="Other Integration Docs" role="button" aria-selected="false">External Integration</div>
+    <div id="header_1" class="subtopic_header" tabindex="0" title="Other Integration" role="button" aria-selected="false">Other Integration</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/lod/instruction-source.md">
         <div class="subtopic_title">External Instruction Source</div>
