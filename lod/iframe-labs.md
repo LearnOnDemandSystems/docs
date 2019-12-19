@@ -3,7 +3,7 @@
 ### What is an iframe?
 An iframe is used to display a web page within a web page. Iframes are a great way to customize the look and feel for users that launch labs, but sometimes an iframe can cause issues that aren't seen when launching lab directly in Lab on Demand. 
 
-For more information about setting up and configuring iframes, read [HTML iframe syntax](https://www.w3schools.com/html/html_iframe.asp).
+For more information about setting up and configuring iframes, read [HTML iframe syntax by W3 Schools](https://www.w3schools.com/html/html_iframe.asp).
 
 ## 3rd Party Cookies 
 
