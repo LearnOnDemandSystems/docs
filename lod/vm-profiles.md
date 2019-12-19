@@ -151,8 +151,6 @@ To create a Virtual Machine profile, click **Create Virtual Machine profile** fr
 
     - **Host Integration Enabled**: Enables Hyper-V Integration Services on the VM. This includes time synchronization with the host, heartbeat detection and graceful shutdown.
 
-    - **Use Enhanced Session Mode**: Enables a connection similar to an RDP connection, that allows for better performance with the HTML5 and Enhanced controllers. Enhanced session mode leverages guest services to enabled additional features such as: automatic VM logon, redirection of clipboard, audio, drives, devices, printers, and smart cards. When ESM is used in conjuction with the Enhanced controller, the login status will be preserved when switching between multiple virtual machines in a lab environment. If ESM is enabled and the HTML5 controller utilized, the virtual machines will show a login prompt whenever switching from one to another.
-
     - **Enable Dynamic Screen Resizing**: Allows the VM to automatically resize it's resolution based on the size of the lab window. It is, however, limited to the resolution options available in the display settings of Windows. If the lab window is larger than the VM, there will be a gray space around the VM in the lab window. NOTE: this requires Integration services to be installed on the VM. This can be installed by clicking the gear icon at the top of a launched lab, and selecting _Install Integration Services_ and following the prompts.
 
     ### AWS
@@ -172,8 +170,6 @@ To create a Virtual Machine profile, click **Create Virtual Machine profile** fr
     - **Screen Height**: Enter the screen height that the VM will use, measured in pixels.
 
     - **Enabled**: Check to enable the VM profile for use in lab profiles.
-
-    - **Use Enhanced Session Mode**: Enables a connection similar to an RDP connection, that allows for better performance with the HTML5 and Enhanced controllers. Enhanced session mode leverages guest services to enabled additional features such as: automatic VM logon, redirection of clipboard, audio, drives, devices, printers, and smart cards. When ESM is used in conjuction with the Enhanced controller, the login status will be preserved when switching between multiple virtual machines in a lab environment. If ESM is enabled and the HTML5 controller utilized, the virtual machines will show a login prompt whenever switching from one to another.
 
     - **Enable Dynamic Screen Resizing**: Allows the VM to automatically resize it's resolution based on the size of the lab window. It is, however, limited to the resolution options available in the display settings of Windows. If the lab window is larger than the VM, there will be a gray space around the VM in the lab window. NOTE: this requires Integration services to be installed on the VM. This can be installed by clicking the gear icon at the top of a launched lab, and selecting _Install Integration Services_ and following the prompts.
 
