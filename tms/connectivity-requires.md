@@ -4,17 +4,18 @@ To launch and use a lab, the following requirements must be met:
 
 1. Use a supported operating system:
     1. Windows 7 or later
-    2. Ubuntu 14.04 or later (or comparable distribution)
-    3. macOS 10.12 or later
-2. Have a supported browser. IE, Edge, Chrome, Firefox, Safari.
+    1. Ubuntu 14.04 or later (or comparable distribution)
+    1. macOS 10.12 or later
+1. Have a supported browser. IE, Edge, Chrome, Firefox, Safari.
     1. Latest version is preferred, but full support details can be found below
-    2. Chromium based browsers such as Opera or Vivaldi can connect, but default hotkeys they set may interfere with lab inputs
-3. Be connected to a network that allows at least one of the following:
+    1. Chromium based browsers such as Opera or Vivaldi can connect, but default hotkeys they set may interfere with lab inputs
+1. Be connected to a network that allows at least one of the following:
     1. Secure Web sockets on HTTPS port 443 and 43443
-    2. Web sockets over HTTP port 80 and HTTP over Port 843 (Flash control) (Hyper-V only)
-    3. RDP over port 21xxx or 443 (Enhanced control)
-    5. For more information see Browser/Controller Support below
-4. Have administrative rights on the local machine if installing the Enhanced control (Hyper-V w/RDP only).
+    1. Web sockets over HTTP port 80 and HTTP over Port 843 (Flash control) (Hyper-V only)
+    1. RDP over port 21xxx or 443 (Enhanced control)
+    1. For more information see Browser/Controller Support below
+1. Have administrative rights on the local machine if installing the Enhanced control (Hyper-V w/RDP only).
+
 
 ## Bandwidth Requirements
 
@@ -104,7 +105,11 @@ The majority of VM or container based labs can be accessed via HTML5 websocket c
 
 <sup>1</sup> Docker labs that expose an external service port do so over ports 41952-65534. Connection requirements are dependent on the exposed service.
 
-### **Labs that do not explicitely require the Enhanced controller:**
+### **Labs that use an iframe integration to display**
+
+If a lab uses an iframe integration, 3rd party cookies must not be blocked by the web browser used to access the lab. If 3rd party cookies are blocked, an _Access Denied_ message will be displayed when launching the lab. Most web browsers do not block 3rd party cookies by default. If you're browser is blocking 3rd party cookies, please check with the browser's vendor to learn more about how third party cookies may be blocked.
+
+### **Labs that do not explicitly require the Enhanced controller:**
 
 All connections utilize secure WebSockets connections over port 443. No plugin installation is required.
 
@@ -137,3 +142,4 @@ Alternatively, legacy controllers may be available. Flash and Silverlight contro
 | **Silverlight** | Internet Explorer | 4+ | HTTPS | 443 |
 
 <sup>1</sup> Adobe Flash is being retired by Adobe in 2020. Many browsers are limiting when the plugin can run and are expected to remove it entirely by the time Adobe retires the plugin.
+

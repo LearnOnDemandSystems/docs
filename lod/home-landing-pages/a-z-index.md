@@ -130,6 +130,10 @@
         <div class="subtopic_title">IDLx Lab Variables</div>
         <div class="subtopic_description">Variables are used to store information that is not known at the time of lab instruction authoring. Variables store information and then that information can be recalled in later lab steps using a Replacement Token. This document covers how to use Variables in your IDLx lab.</div>
       </a>
+      <a class="subtopic_link" href="/lod/iframe-labs.md">
+        <div class="subtopic_title">Iframe Integrated Labs</div>
+        <div class="subtopic_description">Considerations for labs that are integrated into an iframe.</div>
+      </a>      
       <a class="subtopic_link" href="/lod/feature-focus/lod-experience.md">
         <div class="subtopic_title">Introduction to Lab on Demand UI</div>
         <div class="subtopic_description">Explanation of Lab on Demand UI.</div>
