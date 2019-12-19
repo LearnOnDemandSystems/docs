@@ -132,7 +132,7 @@
         <div class="category">
           <a href="/lod/iframe-labs.md" class="categoryThread">
             <i class="material-icons light-green" aria-hidden="true">call_merge</i>
-            <span class="categoryTitle" title="Iframe integrated labs">LTI Integration</span>
+            <span class="categoryTitle" title="Iframe integrated labs">Iframe integrated labs</span>
           </a>
         </div>
         <div class="category">
