@@ -130,9 +130,9 @@
       <div class="lodIntegration cardContent">
         <div class="cardHeader" tabindex="0" title="Lab on Demand Integration" aria-label="Lab on Demand Integration Docs">Lab on Demand Integration</div>
         <div class="category">
-          <a href="/lod/lab-on-demand-lti-integration.md" class="categoryThread">
+          <a href="/lod/iframe-labs.md" class="categoryThread">
             <i class="material-icons light-green" aria-hidden="true">call_merge</i>
-            <span class="categoryTitle" title="LTI Integration">LTI Integration</span>
+            <span class="categoryTitle" title="Iframe integrated labs">LTI Integration</span>
           </a>
         </div>
         <div class="category">

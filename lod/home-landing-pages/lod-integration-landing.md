@@ -29,12 +29,16 @@
     </div>
   </div>
   <div class="subtopic">
-    <div id="header_1" class="subtopic_header" tabindex="0" title="External Integration Docs" role="button" aria-selected="false">External Integration</div>
+    <div id="header_1" class="subtopic_header" tabindex="0" title="Other Integration Docs" role="button" aria-selected="false">External Integration</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/lod/instruction-source.md">
         <div class="subtopic_title">External Instruction Source</div>
         <div class="subtopic_description">Use an Azure DevOps or GitHub repository as the instruction source for labs.</div>
       </a>
+      <a class="subtopic_link" href="/lod/iframe-labs.md">
+        <div class="subtopic_title">Iframe Integrated Labs</div>
+        <div class="subtopic_description">Considerations for labs that are integrated into an iframe.</div>
+      </a>      
       <a class="subtopic_link" href="/guides/lti/lod-lti.md">
         <div class="subtopic_title">Lab on Demand edX Integration</div>
         <div class="subtopic_description">Integrate edX into your lab profile.</div>
