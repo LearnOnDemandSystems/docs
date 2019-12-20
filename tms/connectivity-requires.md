@@ -105,11 +105,11 @@ The majority of VM or container based labs can be accessed via HTML5 websocket c
 
 <sup>1</sup> Docker labs that expose an external service port do so over ports 41952-65534. Connection requirements are dependent on the exposed service.
 
-### **Labs that use an iframe integration to display**
+### Labs that use an iframe integration to display:
 
 If a lab uses an iframe integration, 3rd party cookies must not be blocked by the web browser used to access the lab. If 3rd party cookies are blocked, an _Access Denied_ message will be displayed when launching the lab. Most web browsers do not block 3rd party cookies by default. If you're browser is blocking 3rd party cookies, please check with the browser's vendor to learn more about how third party cookies may be blocked.
 
-### **Labs that do not explicitly require the Enhanced controller:**
+### Labs that do not explicitly require the Enhanced controller:
 
 All connections utilize secure WebSockets connections over port 443. No plugin installation is required.
 
@@ -122,7 +122,7 @@ All connections utilize secure WebSockets connections over port 443. No plugin i
 
 <sup>1</sup> Microsoft has announced IE 10 will be End of Life on January 31, 2020
 
-### **Labs that require the Enhanced controller:**
+### Labs that require the Enhanced controller:
 
 | **Virtual Machine Control** | **Browser** | **Version** | **Protocol** | **Ports** |
 | --- | --- | --- | --- | --- |
@@ -132,7 +132,7 @@ All connections utilize secure WebSockets connections over port 443. No plugin i
 
 <sup>2</sup> The 21xxx value depends on which host server in the cloud the lab is running on. If connection on port 21xxx fails, the Enhanced client will rollover and attempt the connection on port 443.
 
-### **Alternates:**
+### Alternates:
 
 Alternatively, legacy controllers may be available. Flash and Silverlight controllers are available for Hyper-V based labs. Performance of these controllers is reduced compared to HTML5 or Enhanced control and compatibility with modern browsers is not guaranteed.
 
