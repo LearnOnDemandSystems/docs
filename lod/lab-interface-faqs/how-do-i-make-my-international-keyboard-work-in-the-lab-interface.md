@@ -42,26 +42,6 @@ When using the Enhanced Controller with Hyper-V, your non-US keyboard should aut
 - Portuguese
 - French
 
-However, for vSphere labs, you will also need to **install the VMRC plug-in**. To do this, **use Internet Explorer 11** and:
-
-1. Launch your vSphere lab as you normally would.
-
-1. When the **Install Virtual Machine Remote Console Plug-in** window appears, click the Download the **VMRC Plug-in Installer**.
-
-1. In the popup dialog at the bottom of the window, **click Run** and allow the file, **VMware-viclient-all-6.0.0-4437566.exe**, to download and initiate.
-
-1. When the **User Account Control** dialog appears, click **Yes** to allow it to make changes to your computer.
-
-1. When the **VMware vSphere Client 6.0 – Install Shield Wizard** dialog appears, close all instances of **Internet Explorer** 11 and then **click OK**.
-
-1. Follow the default on screen prompts to complete the installation.
-
-1. Set the **Machine Remote controller** in the lab UI to use the VMRC Plug-in:
-
-    - Open **Internet Explorer 11** and start your lab as you normally would.
-
-    - When your lab starts, click on the **Support** tab and in the **Machine Remote Controller** dropdown, select **VMRC Plug-in**.
-
 ### Changing Local Settings on Local or Virtual Machines
 
 Your local machine and the lab’s VMs must be set to the correct language. To do this, follow these steps on your local machine and each VM:
