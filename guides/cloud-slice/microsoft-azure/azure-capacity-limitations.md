@@ -48,7 +48,7 @@ Click **Next** to proceed
 9. 8. Select **Severity** 
 
 > - Severity has 3 options; A - Critical impact, B - Moderate impact and C - Minimal impact.
-> - Microsoft will downgrade requests marked with A Severity to B Severity, after the request is submitted.
+> - Microsoft may downgrade requests marked with A Severity to B Severity, after the request is submitted.
 
 ![select severity](images/azure-severity.png)
 
