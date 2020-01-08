@@ -6,7 +6,7 @@ EdX and OneLearn Lab on Demand are two learning systems that support the LTI sta
 
 Here’s an example showing this integration in action:
 
-![alt text](media/integration-in-action.png "Open edX integration with LOD")
+![alt text](media/20200108155113.png "Open edX integration with LOD")
 
 This screenshot shows the student view of an edX course they are participating in with an integrated Lab on Demand environment embedded directly inside of their course user experience. In labs that are integrated this way, students can apply their knowledge first hand to give them more learning opportunities and optionally be graded on the work that they do in the lab as well. In addition to instructional content, quizzes, and assignments, edX course authors can now include labs in the courses they design to provide the ultimate learning experience for students of technology-focused courses.
 
@@ -28,43 +28,53 @@ Once you have these pieces of information in hand, you can begin integrating you
 
 Inside of edX Studio, click on the course where you want to integrate an online lab, as shown below.
 
-![alt text](media/select-open-edx-course.png "Select the course into which you want to integrate LOD content")
+![alt text](media/20200108153405.png "Select the course into which you want to integrate LOD content")
 
 Once you are inside of the course editor, click Settings, then Advanced Settings to enable the course as an LTI consumer.
 
-![alt text](media/click-advanced-settings.png "Click Settings, then Advanced Settings")
+![alt text](media/20200108153429.png "Click Settings, then Advanced Settings")
 
 Enabling the course as an LTI consumer allows content from your Lab on Demand course to be embedded in the edX course you are editing. To achieve this, you must make two modifications. First, in the Advanced Module List, add "lti_consumer" to the list of advanced modules.
 
-![alt text](media/add-lti-consumer.png "Add lti_consumer to the Advanced Module List")
+![alt text](media/20200108153554.png "Add lti_consumer to the Advanced Module List")
 
 Further down the same page, add a string that defines the passport for your OneLearn Lab on Demand course to the LTI Passports section.
 
-![alt text](media/define-lti-passport.png "Define the LTI Passport for your OneLearn Lab on Demand course")
+![alt text](media/20200108153750.png "Define the LTI Passport for your OneLearn Lab on Demand course")
 
-LTI Passports are simply strings composed of three values: a passport id of your own choosing, the LTI Client Key for the lab you are integrating, and the LTI Client Secret for the lab you are integrating (e.g. “lod_lti_edx:5c0fdf55-c060-4499-ab1e-a32cbe5e343c:c30979a2-44d3-43c3-a866-96289be2e83f”). Click on the Save Changes button to save the settings you just changed. Then click on Content, then Outline to return to the course content editor.
+LTI Passports are simply strings composed of three values: a passport id of your own choosing, the LTI Client Key for the lab you are integrating, and the LTI Client Secret for the lab you are integrating (e.g. “"LTIConsumer:a30c6344-bcbd-479a-98d2-95245730b31e:da630575-44d3-43c3-a866-96289be2e83f”). Click on the Save Changes button to save the settings you just changed. Then click on Content, then Outline to return to the course content editor.
+
+Once the configuration is saved, select the course at the top of the page to navigate to the content editor.
+
+![alt text](media/20200108153917.png "This is a shortcut to the content editor of the course.")
 
 In the course content editor, either create a new unit or click on an existing unit where you want to show an integrated lab.
 
-![alt text](media/choose-a-course-unit.png "Select the unit where you want to show an integrated lab")
+![alt text](media/20200108154000.png "Select the unit where you want to show an integrated lab")
 
+![alt text](media/20200108154020.png "You must create a subsection before configuring your LTI Unit.")
+
+![alt text](media/20200108154052.png "The unit can now be added.")
 In the Unit editor, click on the Advanced button, and then select LTI Consumer to add an LTI Consumer component.
 
-![alt text](media/click-advanced-button.png "Click on the Advanced button")
+![alt text](media/20200108161359.png "Click on the Advanced button")
 
 Click Edit to add the LTI Provider details to the new LTI Consumer component you just added.
 
-![alt text](media/click-edit-to-add-lti-provider-details.png "Click Edit to add LTI Provider details")
+![alt text](media/20200108154150.png "Click Edit to add LTI Provider details")
+
+Edit the Unit to add your LTI configurations
+![alt text](media/20200108161546.png "Edit the Unit")
 
 Inside the LTI Consumer editor, you must set the LTI ID to the id that you chose when you defined the LTI Passport in the course settings, and you must set the LTI URL to the content URI that is associated with the Lab on Demand course that you are integrating.  
 
-![alt text](media/set-lti-passport-id-and-launch-url.png "Set the LTI ID (Passport ID) and the Launch URL")
+![alt text](media/20200108154516.png "Set the LTI ID (Passport ID) and the Launch URL")
 
 There are three different methods that can be used to display the content of the LTI URL in an edX course: inline, modal, or in a new window. By default, the LTI content will render inside of an inline IFrame in the current page.  When using this default, it is recommended that you set the value of Inline Height in the LTI Consumer editor to 600. If you prefer to display the LTI content in a modal dialog box or on a new tab in your browser, select Modal or New Window in the list of LTI Launch Target values as shown below.
 
-![alt text](media/select-your-lti-launch-target.png "Select your LTI launch target")
+![alt text](media/20200108161730.png "Select your LTI launch target")
 
-If you choose Modal in this list, then it is also recommended that you set the Modal Height property to 768 and the Modal Width property to 1024.
+Modal and Inline are not very practical for this application. We recommend opening the lab in a new window.
 
 Regardless of which method you choose to display the LTI content, you can optionally use the Scored and Weight properties to enable scoring and define the weight of the scoring in the overall course, respectively. When you have finished making changes to these settings, click Save.
 
@@ -72,15 +82,15 @@ At this point, if you entered all of the information properly you should see the
 
 Here is a screenshot showing the lab in the edX Studio authoring environment with the LTI content displayed inline in an IFrame:
 
-![alt text](media/displaying-lod-content-in-iframe.png "Displaying LOD content in an IFrame")
+![alt text](media/20200108162116.png "Displaying LOD content in an IFrame")
 
 Below you can see the same lab in the edX Studio authoring environment when the LTI content is configured to be displayed in a new window (i.e. on a new tab in your web browser):
 
-![alt text](media/link-to-launch-lod-in-new-window.png "Link to launch LOD content in a new window")
+![alt text](media/20200108162321.png "Link to launch LOD content in a new window")
 
 Lastly, here is the same lab from the perspective of a student with the integrated LTI content displayed for them in a modal dialog:
 
-![alt text](media/lab-content-in-new-window.png "Student's view of lab content in a new window")
+![alt text](media/20200108163102.png "Student's view of lab content in a new window")
 
 As you can see, regardless of which display method you choose, LTI support in these two great learning solutions makes it very easy to offer more value to students of the courses that you offer through edX.
 
@@ -96,7 +106,7 @@ You will see either one or two options in the **Scoring Policy** drop-down menu,
 
 - You can see these options in the screenshot below.
 
-![alt text](media/launch-urls-scoring-policy.png "Scoring Policy is in Advanced tab")
+    ![alt text](media/launch-urls-scoring-policy.png "Scoring Policy is in Advanced tab")
 
 If you select **Time Spent**, the scoring will be based on how much time the student spends in the lab. The **Scoring Format** can be:
 
