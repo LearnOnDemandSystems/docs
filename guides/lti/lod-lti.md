@@ -74,8 +74,6 @@ There are three different methods that can be used to display the content of the
 
 ![alt text](media/20200108161730.png "Select your LTI launch target")
 
-Modal and Inline are not very practical for this application. We recommend opening the lab in a new window.
-
 Regardless of which method you choose to display the LTI content, you can optionally use the Scored and Weight properties to enable scoring and define the weight of the scoring in the overall course, respectively. When you have finished making changes to these settings, click Save.
 
 At this point, if you entered all of the information properly you should see the Lab on Demand course loading directly inside of the LTI Consumer unit where you added it. When you are satisfied with the integration, you can click on the Publish button as shown below, allowing students to begin working with an online lab as part of their learning experience.
