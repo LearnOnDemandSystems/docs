@@ -45,7 +45,7 @@ For those that need to create a firewall exception rule to allow connectivity to
   - *.au.learnondemandsystems.com
 
 - IP Range:
-  - 104.214.106.31/25, 206.196.30.001 - 206.196.30.056
+  - 104.214.106.0/25, 206.196.30.001 - 206.196.30.056
   - 185.254.59.0/24
   - 103.18.85.0/24
   - 163.47.101.0/25
