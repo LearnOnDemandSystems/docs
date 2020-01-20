@@ -15,6 +15,3 @@ There are two places within your lab to find information on your connection;
 >- <= 150 milliseconds = Good (3 bars)
 >- <= 240 milliseconds = OK (2 bars)
 >- \> 240 milliseconds = Poor (1 bars)
-
-You can also check your ports and internet speed to our servers using the **Trouble with your test lab?** link in the Training Management System. These comprehensive tests will show your actual connection latency and bandwidth (not just speed) to our servers. This information can be very valuable in helping you improve the performance your internet connection and is needed by the technical support teams.
-
