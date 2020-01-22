@@ -2,10 +2,6 @@
 
 If you are experiencing issues in your lab such as, **slow response time**, **lag in typing**, or **disconnections** you should check the quality of your internet connection to the lab servers. This information will let you know if there is something happening with your connection and will assist the help desk in identifying a possible cause.
 
-# How Can I See The Quality Of My Connection To My Lab?
-
-If you are experiencing issues in your lab such as, slow response time, lag in typing, or disconnections you should check the quality of your internet connection to the lab servers. This information will let you know if there is something happening with your connection and will assist the help desk in identifying a possible cause.
-
 Just to the left of the title of the lab, you can see a visual representation using the ubiquitous “how many bars you got?” graphic of your connection at that very moment. It will look like several bars in increasing size. The more bars that are lit, the better your connection is at that moment. You can hover over it to see a summary of your connection quality and latency. 
 
 ![Screenshot showing location of Quality indicator.](../images/IDLxConnectionIndicator.png "Connection Quality Indicator")
