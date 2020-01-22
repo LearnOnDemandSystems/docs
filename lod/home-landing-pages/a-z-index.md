@@ -90,11 +90,11 @@
         <div class="subtopic_title">Differencing Disk Capture</div>
         <div class="subtopic_description">Capture differencing disks from a running lab, to store changes made on the virtual machine in the lab.</div>
       </a>
-      <a class="subtopic_link" href="/lod/docker.md">
+      <a class="subtopic_link" href="/lod/differencing-disks.md">
         <div class="subtopic_title">Differencing Disk Rollback</div>
         <div class="subtopic_description">Rollback differencing disks to a previous configuration or add differencing disks back to a disk chain after they have been removed.</div>
       </a>
-      <a class="subtopic_link" href="/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md">
+      <a class="subtopic_link" href="/lod/docker.md">
         <div class="subtopic_title">Docker Support</div>
         <div class="subtopic_description">Supported Docker configurations.</div>
       </a>
