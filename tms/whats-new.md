@@ -57,7 +57,7 @@ The awareness message reads, “This course is scheduled to be archived on [auto
 
 Please note: Once a course is archived, we do not maintain labs or any other course content. Labs may be deactivated on archived courses; it is advisable to find a newer version once a course has been archived.
 
-
+----------------------------
 
 ## Released November 21 2019
 
