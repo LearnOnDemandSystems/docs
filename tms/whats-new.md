@@ -2,6 +2,63 @@
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+----------------------------
+
+## Released January 16 2020
+
+### <span style="color:#0078d7;">Reporting Percentage Completed on Labs</span>
+
+Operations Managers and Instructors may display the percentage of work completed in a lab along with the Completion Status on the Find Lab Instances page. Completion Statuses of labs can be, Complete, Cancelled, In Progress, or Error. The percentage of lab completed shows what percent of the lab’s tasks a student completed prior to saving or cancelling, or before the lab errored out. We are awaiting an update from Lab on Demand (LOD) to report the full range of percentages, at this time they are only reporting lab percentages of 0 or 100%.
+
+### <span style="color:#0078d7;">Auto-Archive Date Blocks Class Creation</span>
+
+Class Schedulers and Operations Managers will be prevented from creating classes after a course’s auto-archive date. This is being enforced to support course life cycle planning, allowing course managers to retire courses and labs without conflicting with organizations’ scheduling and students’ lab access. 
+
+When scheduling a class directly in the TMS or through the API, if an auto-archive date is set and any class sessions fall after that date, then the class will not be created. The class import tool checks against the class start date during the upload and will not create classes that start after the auto-archive date. Classes scheduled directly in the TMS or through the API will prevent saving and show an error message, “The course associated with this class is being retired on [Date]. Content will no longer be maintained as of this date. Session dates cannot be scheduled beyond this date. Please consider changing to a newer version of the course; you must change the course or choose different date(s) to save this class.”
+
+### <span style="color:#0078d7;">Auto-Archive Date May Block Saving an Edited Class</span>
+
+For a class that was scheduled prior to setting the associated course’s auto-archive date, Class Schedulers and Operations Managers may edit the class, but will be prevented from saving it if a class session is more than 60 days after the course’s auto-archive date. We want to honor our customers’ training schedules and give you sufficient time to plan and prepare for a change of course content, while still supporting course life cycle planning allowing course managers to retire courses and labs without conflicting with organizations’ scheduling and students’ lab access. 
+
+Updating classes past the archive date through the API will fail and classes edited in the TMS will not be saved. Both will show this error message, “The course associated with this class is scheduled to be archived on [Date]. When editing an existing class, its sessions must fall within 60 days or less after the course auto-archive date. Please consider changing to a newer version of the course; you must change the course or choose different date(s) to save this class.” 
+
+### <span style="color:#0078d7;">TMS Enhancements and Fixes</span>
+	
+1. Sites – Site profile has had a check box added to turn on or off a Register with Training Key box on customers’ login pages. This functionality speeds up the process for our TMS Coordinator to create standard options for new customers. Sites that already have custom login pages will not be affected by this checkbox field.
+1.	Training Keys – Exporting Training Keys was sometimes changing some of the training key values in Excel. The export function for Training Key Pools, Class Enrollment Training Keys, Subscription Training Keys, Class Vouchers, and Event training keys has been corrected to transmit the true key values. 
+1.	Class Enrollments – Enrollments created using training keys or the API are now passed to the Customer Portal allowing them to be invoiced to customers.
+1.	Courses – When a course creator creates or edits a course adding activities and they exceed the 12-hour expected duration activity limit per day, all activities are retained, but the course is not saved. This allows the course creator to decide how to manage the course; they may increase the course duration and or change the activities.
+1.	Course Lab Activities – Some course activities can be set to allow or prevent retakes. The wording displayed for Lab Activities which are set to prevent retakes has been updated to read, “Once you have completed this activity you will not be able to retake it. Do you want to continue?” The message previously read, “Once you have launched this activity you will not be able to retake it.” However, relaunching of the activity is only prevented if the activity has been completed.
+
+----------------------------
+
+## Released December 19 2019
+
+### <span style="color:#0078d7;">Phone Number Added for Instructor Help Desk Support</span>
+We want to offer immediate support to instructors teaching a live class. We have set up a direct phone number to our Help Desk for instructor who encounter issues and have questions. Our new Instructor direct support phone number displays on the Class details page; this only shows to the instructor(s) scheduled to teach the class, they can see it before, during, and after class is in session. 
+
+### <span style="color:#0078d7;">Auto Archive Warning Message when Creating or Editing Classes</span>
+Class schedulers will receive a warning message when they schedule a class using a course scheduled to be retired. We would like to increase awareness of pending archive dates since labs will not be maintained once the course is retired and after a certain point the labs will become unavailable, which may affect your students’ post class lab access experience.
+
+If the auto archive date is set up and any class session is scheduled to take place on or within 30 days before the auto archive date, the following warning displays when the class is saved, “This course is being retired on [auto archive date and time displayed]. Content will no longer be maintained as of this date. Please consider a newer version.” After clicking OK the class is saved.
+
+The warning displays when creating, editing or cloning a class within 30 days before the auto archive date on the course. Please note the following variances if you are using any of these features:
+	
+1. Class Import tool: If you are using the class import tool, the warning shows if the start date on a class is within 30 days before the auto-archive date on the course. The import only looks at the start date in the CSV file, it does not calculate dates based on sessions you are scheduling to show a warning.
+1. API: No warning will appear for classes created or edited through the API.
+1. Class voucher: Warnings or restrictions on scheduling do not apply to classes scheduled using vouchers since they are paid for in advance of redeeming them. 
+
+As a reminder, once a course is archived, the course can no longer be used to create a class or set up self-paced training, however, the labs and course activities still work for students in existing training.
+
+### <span style="color:#0078d7;">Auto Archive Awareness Message on Courses</span>
+Class schedulers and Operations managers will see a message highlighted on course profiles when an auto archive date is set. We added this message to increase awareness of approaching archive dates on courses for anyone who can schedule classes; we hope this will assist with your planning and remind you to be looking for a newer version of the course for future classes. 
+
+The awareness message reads, “This course is scheduled to be archived on [auto archive date displayed]. Session dates cannot be scheduled beyond this date. Course content will not be maintained past this date.”
+
+Please note: Once a course is archived, we do not maintain labs or any other course content. Labs may be deactivated on archived courses; it is advisable to find a newer version once a course has been archived.
+
+
+
 ## Released November 21 2019
 
 ### <span style="color:#0078d7;">Export Training Keys from Class Profile</span>
@@ -31,6 +88,9 @@ Once archived, a SCORM module can be made available to new courses again by mark
 - You will now easily be able to see courses that are archived in publishing groups and subscriptions. They will now be outlined in red and show a red **Archived** icon next to them.
 - The **UpdateCourseAssignment** documentation page now includes the **CourseAssignmentId** parameter in the **Parameter** table and shows it as required.
 - Course custom fields that are set to display on the **Basic Information** or **Advanced** tabs and cascade to classes will no longer create new “basic” or “Advanced” tabs on the course upon creation of a class using the course. In addition, these fields that cascade down to a class will no longer have the value set in a created class flow up and display in the associated course field on the initial save.
+
+### <span style="color:#0078d7;">TMS Enhancements and Fixes</span>
+1. Find Lab Instances – We have corrected an issue on our Find Lab Instances search page, it produced errors when searching for a lab profile with special characters in the name.
 
 ----------------------------
 
@@ -401,64 +461,3 @@ The second option, **Event training key can be redeemed during event or after it
 - The Recordings link is now accurately hidden for classes with the Event Builder virtual host.
 
 ----------------------------
-
-## Released June 13 2019
-
-### <span style="color:#0078d7;">Course Duplication</span>
-
-You can now duplicate an existing course without having to create a new one from scratch. With this you can easily create multiple courses for different customers or uses with slight differences in activities, availability, custom fields, etc.
-
-To duplicate a Course:
-
-1. On the Course profile page, click Edit.
-
-1. Make all changes you wish to be reflected in the new course.
-
-1. Scroll down to the bottom of the page and click Save As. You will be prompted to enter the name for the new course.
-
-1. Click Save. The newly created Course will automatically open in Edit mode to ensure any additional changes can been made.
-
-Note: When you click Save As, if a custom field requiring unique values is present, you will be prompted to change it prior to creation of the new course.
-
-### <span style="color:#0078d7;">Personalized Notifications</span>
-
-You can now personalize notifications to recipients by including the new replacement text fields in the body of the notification:
-- RecipientFirstName
-- RecipientLastName
-- RecipientFullName
-- RecipientSiteUrl
-
-When these are used, the email notification will pull the recipient’s information and include it in-place of the fields. For instance, if Amelia Johnston, an instructor, is receiving a notification that a student has cancelled, the notification could be addressed **Dear [RecipientFirstName] [RecipientLastName]**. The email that Amelia would receive would read Dear Amelia Johnston.
-
-### <span style="color:#0078d7;">TMS Updates and Fixes</span>
-
-- The **Find Publishing Group** page now has the **Internal Ids** output option. This output option is included in exported and printed search results.
-- You can now include your **External Ids** in the **Class Import** template.
-- The **GetClass** and the **SearchClasses** API methods now return:
-    - **InstructorId**
-    - **InstructorFirstName**
-    - **InstructorLastName**
-- The **HTML Description** field on the **Course Profile** page is now an accordion section below Activities.
-- We now properly filter and show output options for enrollments when the payment type is class enrollment training key. We also store and report in Enrollment History if a class enrollment was created using an event training key.
-- On Find Notification Plans, the Received By filter now contains all possible recipient types, including Creator, Class Custom Users, and Editing Delegates.
-- On the Organization Profile page, the dependent field, Default Organization Manager Role, is now directly below the Allow Anonymous Organization Registration section instead of after the Account Manager field.
-
-----------------------------
-
-## Released June 3 2019
-
-### <span style="color:#0078d7;">Accessibility Updates</span>
-
-We have made several improvements to student facing pages to ensure they are accessble to all students. These include:
-
-- The **Sign In** dialog choices now have dotted outlines when they are in focus.
-- System messages and temporary status messages will now stay open until you close them or leave the page. In addition, if you are using a screen reader, the messages and their **Close** (**X**) button are now read.
-- The **Course Image** on the **Course Profile** page now has the **ALT text** attribute.
-- Pages available to students have been parsed correctly.
-- The **Search** link on the **Course Profile** page has been hidden for students. They should use the **Course Catalog**, if available to search for courses.
-- The tabs on the **Simple Course Assignment** page now wrap if the window is zoomed or resized to be smaller. In addition, if you are using a screen reader, the tabs are now read as part of a list including their number in the list and their status at point of focus and selection. The tabs' contents are also read when you enter the tab and give it focus.
-
-### <span style="color:#0078d7;">TMS Update and Fixes</span>
-
-- You can now use the arrow keys and **Enter** to scroll the **Admin menu** search results to select an item from the results.
-- Course activities now properly roll-up their prices to the course level, regardless of whether they are in a section or not. This was already in Production as an emergency hotfix in May.
