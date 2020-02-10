@@ -4,6 +4,25 @@
 
 ----------------------------
 
+## Released February 6 2020
+
+### <span style="color:#0078d7;">Cancelling Course Assignments</span>
+
+We want our Operations Managers to have the ability to cancel course assignments that have been created in error. Course assignments, which are used for self-paced learning, will now have a Course Assignment Status field that is set to either Active or Cancelled. The status defaults to Active when created and is billed for the month when it was created. Operations Managers can change a Course Assignment to the Cancelled status within 24 hours of its creation date/time and only if none of the course activities have been launched. 
+
+### <span style="color:#0078d7;">TMS Enhancements and Fixes</span>
+1. Achievements – We corrected an issue where Achievements that were set up to be earned multiple times were only being awarded once.
+1.  API – Our CreateClass API now passes the instructor into the TMS as the Primary Instructor, and now show in the Find Classes search results Instructor column.
+1.  Custom Fields – We have fixed an issue where user role restrictions that applied to editing Custom Fields were incorrectly limiting viewing of the fields for other user roles.
+1.  Accessibility updates – Several keyboard focus and navigation updates have been made. Keyboard focus indicator is now visible for:
+      - Search buttons on Find pages.
+      - The Sort Alphabetically button and Display Times Output Options on the Course Catalog page.
+      - The Sign In button in the How Would you Like to Sign In dialog on our Login page.
+      - The Send Instructions button on our Forgot Password Login Assistance page.
+      - Users can now use the keyboard to navigate to the Edit, Share, and Delete links in the Open and Saved search dialogs on our Find pages.
+
+----------------------------
+
 ## Released January 16 2020
 
 ### <span style="color:#0078d7;">Reporting Percentage Completed on Labs</span>
@@ -376,88 +395,5 @@ Please be advised, once you attempt to save the course and receive this message,
 
 The TMS will now return a 403 “Not Found. Sorry, the page you requested could not be found.” message when someone tries to access an invalid or disabled site URL.
 
-----------------------------
-
-## Released July 17 2019
-
-### <span style="color:#0078d7;">External Badges</span>
-
-Your students can now earn externally supported badges through their activities/achievements in the TMS. This will give your users an additional sense of accomplishment, and they will be able to share that accomplishment with others outside the TMS.
-
-You create the badges in the external badge provider and attach them to achievements you have created in the TMS. This feature has the following components:
-
-- **Badge Provider** - a repository to distribute badges. This is a third-party vendor that will issue the badge to the user. Currently the TMS only supports badges from Credly/Acclaim.
-- **Badge** - the token given by a Badge Provider to a student to share based on the achievement earned.
-- **Achievement** - the criteria needed to earn the badge. An achievement is given to users who complete a specific task(s) in the TMS. When the achievement is earned, the badge associated with it is issued.
-
-The process to create badges and associate them to achievements has four steps. The first one is completed in the Badge Provider’s system. The final three steps are inside the TMS:
-
-1. Create your badge templates
-1. [Create the Badge Provider entity](/tms/tms-administrators/badges-achievements/create-badge-provider.md)
-1. [Create the Badge entity](/tms/tms-administrators/badges-achievements/create-badge.md)
-1. Associate the badge with an [existing](/tms/tms-administrators/badges-achievements/associate-badge.md) or [new Achievement](/tms/tms-administrators/badges-achievements/create-achievements-to-motivate-learners.md)
-
-----------------------------
-
-## Released July 03 2019
-
-### <span style="color:#0078d7;">Achievements for Exams</span>
-
-Your students can now earn achievements when they pass an exam or complete a learning path and if badges are attached to the achievements, they can share the externally hosted badge with others.
-
-You can now build achievements for exams and learning paths. The JSON conditions can be written for passing the exam for a simple achievement or can be more complex including multiple conditions. Here are some examples:
-
-Simple conditions for passing the exam lab with the ID of 12345 – 
-[
-   {
-      Subject:0,
-      Count:1,
-      Passed:true,
-      LabProfileIds:[12345]
-    }
-]
-
-Complex conditions for completing a learning that is comprises of 2 courses with one regular lab each (IDs 11223 and 11224) and a course with an exam lab (ID 12345) -
-
-[
-   {
-      Subject:0,
-      Count:1,
-      Complete:true,
-      Distinct:true,
-      LabProfileIds: [11223,11224]
-   },
-   {
-      Subject:0,
-      Count:1,
-      Passed:true,
-      LabProfileIds: [12345]
-   }
-]
-
-### <span style="color:#0078d7;">Keyboard Navigation for some Dropdown Filter Menus</span>
-
-On Search pages that contain the **Organization**, **Program** and/or **Classroom** filters, you can now navigate these filters’ dropdown menus with the keyboard using **TAB**, the **Arrow** keys, and **ENTER. **
-
-When on a search page that has one of these filters applied, 
-1. Tab to the dropdown for one of these filters and press **ENTER**. The dropdown menu will open to the list of filter criteria. 
-1. Use the arrow keys to navigate up and down the list. 
-1. When the arrow next to a “Parent” in the list is highlighted, press **ENTER** to expand its hierarchy to allow the selection of children from the dropdown menu. 
-1. When the item you want is highlighted, press **ENTER** again to select and add it to your search filter as the criteria.
-
-### <span style="color:#0078d7;">Event Training Key Redemption</span>
-
-As an administrator, you can now limit the time Event training keys can be used to create enrollments: until the class ends or for a set amount after the class. These two options are on the Create/Edit Class under Allow automatic enrollment using event training key.
-
-![](./images/whats-new/event-key-options.png)
-
-The first option, **Event training key can only be redeemed until event ends**, is the default option and restricts any enrollments being created using the key after the event ends. 
-
-The second option, **Event training key can be redeemed during event or after it ends**, restricts after-class enrollments from being created outside the post-class lab availability window. This timeline is controlled by the Post-class lab availability set on the course. 
-
-### <span style="color:#0078d7;">TMS Updates and Fixes</span>
-
-- A **Roadmap** link now shows in the TMS Default Top Navigation bar. When you click this, you will be taken to our Roadmap page on our website, which has explanations of our latest product updates on both the TMS and LOD. If a TMS site has a custom top navigation bar per the customer's request, this link will not be seen.
-- The Recordings link is now accurately hidden for classes with the Event Builder virtual host.
 
 ----------------------------
