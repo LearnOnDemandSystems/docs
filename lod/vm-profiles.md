@@ -15,6 +15,8 @@ For information which operating systems are supposed by Hyper-V and VMware, clic
 
 - [VMware Compatibility Guide](https://www.vmware.com/resources/compatibility/search.php?deviceCategory=software&details=1&releases=428&productNames=15&page=1&display_interval=10&sortColumn=Partner&sortOrder=Asc&testConfig=16)
 
+- [VMware Virtual Machine Hardware Versions](https://kb.vmware.com/s/article/1003746)
+
 ## Create a Virtual Machine Profile
 
 To look at documentation for a specific section of a virtual machine profile, choose an option below:
