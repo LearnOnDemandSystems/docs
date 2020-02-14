@@ -8,6 +8,43 @@
 
 # What's New in Lab On Demand
 
+## **Released February 14, 2020**
+
+**Save As for Access Control Policies and Resource Templates**
+- It is now possible to create a copy of an Access Control Policy (ACP) or Resource Template (RT) from an existing ACP or RT, by clicking Save As. This behaves similar to Save As on a lab profile. This will provide the creation of policies and templates in a timely manner without having to manually enter the same settings. 
+ 
+**Cloud Security Review**
+- Lab profiles that use cloud orchestration are subject to a cloud security review. Until a review is completed, the lab cannot be launched via TMS, API, LTI, or other outside Learning Management Systems. The cloud components that are used in lab profile must be reviewed for any security issues, such as: Access Control Policies, Resource Templates. Additionally, any changes made to the lab profile's Cloud tab will cause the lab to undergo a security review again before the lab can be launched. 
+ 
+**Events**
+- Start and End times can now be defined for an Event. Labs are available to launch only during this time period.
+This will allow us to exercise greater control over cloud and virtualization resources.
+ 
+**Improvements and Fixes**
+- Architectural improvements have been made to increase throughput, stability, and resiliency in the LOD Platform.
+- Lab Profile RAM is now calculated to include overhead from NAT network after adding or removing RAM from a VM profile belonging to the lab profile.
+- The network required for Linux ABA scoring is now properly created when launching lab profiles that inherit content.
+- Lab Profile ID is now an Output Option when searching for Lab Instances.
+- Client Landing Page URL now accepts up to 512 characters, previously this limit was 256 characters.
+- Cloud Credentials are now issued to lab instances according to expiration date, and then by creation date.
+- There are two new result codes that can be returned when launching a lab via API. Result code 100 is returned when a user has launched the maximum number of instances for the lab profile. The was previously displayed as an result code of 0. Result code 110 is returned when a lab profile requires a security review.
+- Select cookies for Labondemand will now be set to Secure with SameSite policy explicitly set to none.
+- Added new logic to handle scoring and tear down of multiple labs when scoring stalls on a particular lab instance.
+- Bug report, Tag, Theme, and Display Delay fields now included when exporting lab profile.
+- The LabClient service has been updated to .Net Core 3.1.
+- Fixed a bug where the browser would open a very small window when launching container labs.
+- Fixed a bug that resulted in the Display Delay being shown while resuming labs. Display delay messages are no longer displayed when resuming a saved lab.
+- Hyper-V Virtual Switches are now removed when the lab instance that spawned them is no longer running.
+- Fixed a bug that prevented searching for child lab profiles using Access Control Policies.
+- Fixed a bug that prevented Sign in History from displaying after modifying user's account.
+- Updated missing fields in various Print and Export reports.
+- Fixed a bug that prevented lab instances from going to the correct state when a lab is cancelled during the save operation.
+- Fixed a bug that prevented a lab from being submitted for grading, when on-demand evaluation was enabled and then later disabled during lab authoring.
+- Fixed a bug that prevented a lab developer from being able to create and find virtual machine profiles, if they didn't belong to an organization but they did have management over an organization.
+- Fixed a bug that caused _Edit Instructions_ to show in a launched lab that uses GitHub or Azure DevOps as an external instruction source.
+
+---
+
 ## **Released December 13, 2019**
 
 **Improvements and Fixes**
