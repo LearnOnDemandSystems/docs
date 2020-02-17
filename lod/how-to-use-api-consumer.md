@@ -6,7 +6,7 @@
 1. [API Consumer Best Practices](#api-consumer-best-practices)
     - [API Workflow](#api-workflow)
     - [Do Not Use Strict Mapping](#do-not-use-strict-mapping)
-    - [Window Manipulation](#how-to-make-an-api-request)
+    - [Window Manipulation](#window-manipulation)
 
 <!--
 ## How to Use and Set Up an API Consumer in Lab on Demand
