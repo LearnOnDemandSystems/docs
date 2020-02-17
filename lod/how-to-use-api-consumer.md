@@ -200,7 +200,7 @@ If you launch a lab in a new window using JavaScript, Lab on Demand (LOD) will r
 
 To launch a lab in a new window, use the following JavaScript:
     
-`window.open(labUrl, "lab", "width=800,height=600,status=0,resizable=1,toolbar=0,menubar=0,location=0,scrollbars=0");`
+```window.open(labUrl, "lab", "width=800,height=600,status=0,resizable=1,toolbar=0,menubar=0,location=0,scrollbars=0");```
 
 This tells the browser to open a new window with dimensions of 800x600. After a new window is opened, LOD will resize the window appropriately for the lab type that is being launched (Virtualization or Cloud Slice). Since the initial window dimensions were set by a script, future scripts are permitted to change those dimensions (resize the window). 
 
