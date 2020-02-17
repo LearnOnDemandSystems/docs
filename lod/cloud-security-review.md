@@ -9,7 +9,9 @@ When creating or editing a lab profile that uses cloud orchestration, the lab pr
 
 Once the lab is ready to publish, marking the lab profile as complete on the Basic Information tab will generate a notification to Learn on Demand Systems staff, signaling that the lab and [Access Control Policy (ACP)](https://docs.learnondemandsystems.com/lod/create-a-restriction-policy.md) are ready for review.
 Once the review has been completed, the lab profile will show either approved or denied along with a note containing the reasoning. 
+
 ![Approved Status](images/cloud-security-approved.png)
+
 You may manually request a cloud security review using the link next to the envelope icon in the Security Review area. This link will appear when the status is Pending, Expired, or Denied.
 
 ![Request Security Review](images/request-security-review.png)
