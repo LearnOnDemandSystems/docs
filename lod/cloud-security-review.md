@@ -5,6 +5,7 @@ Lab profiles that use cloud orchestration are subject to a cloud security review
 ### How to Request a Security Review
 
 When creating or editing a lab profile that uses cloud orchestration, the lab profile will display a notice, showing that the lab requires a cloud security review.
+
 ![Pending Status](images/required-security-review.png)
 
 Once the lab is ready to publish, marking the lab profile as complete on the Basic Information tab will generate a notification to Learn on Demand Systems staff, signaling that the lab and [Access Control Policy (ACP)](https://docs.learnondemandsystems.com/lod/create-a-restriction-policy.md) are ready for review.

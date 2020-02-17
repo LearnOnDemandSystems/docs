@@ -50,7 +50,7 @@
         <div class="subtopic_title">Azure Resource Template - Best Practices</div>
         <div class="subtopic_description">Recommendations and best practices for Azure Resource templates.</div>
       </a>
-      <a class="subtopic_link" href="lod/cloud-security-review.md">
+      <a class="subtopic_link" href="/lod/cloud-security-review.md">
          <div class="subtopic_title">Cloud Security Review</div>
          <div class="subtopic_description">Information Regarding the Cloud Security Review Process</div>
       </a>
