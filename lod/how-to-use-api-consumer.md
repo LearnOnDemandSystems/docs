@@ -196,14 +196,19 @@ We advise against using strict mapping of API objects. We will add new API objec
 
 ### Window Manipulation
 
-When launching labs via API, you should consider the size of the browser window that the lab will use, especially for Cloud Slice labs. We recommend using JavaScript to spawn new windows, and change the size of the windows to your desired size. 
+If you launch a lab in a new window using JavaScript, Lab on Demand (LOD) will resize the lab window after it is launched. 
 
-For Cloud Slice, labs consist of two windows; the resource portal and lab console. The lab console is typically on the right side of the screen, housing the instructions and any lab resources. The resource portal is typically on the left side of the screen, housing the cloud platform the lab utilizes. If JavaScript isn't used to re-size the windows, the lab will launch with both windows at the same size, with one on top of the other. 
+To launch a lab in a new window, use the following JavaScript:
+    
+`window.open(labUrl, "lab", "width=800,height=600,status=0,resizable=1,toolbar=0,menubar=0,location=0,scrollbars=0");`
 
-Resizing the windows to make the resource portal consume 75% of the screen, and the lab console consuming 25%, provides the best user experience and is how IDLx labs were designed to be used. 
+This tells the browser to open a new window with dimensions of 800x600. After a new window is opened, LOD will resize the window appropriately for the lab type that is being launched (Virtualization or Cloud Slice). Since the initial window dimensions were set by a script, future scripts are permitted to change those dimensions (resize the window). 
 
-For virtual machine based labs, you should use JavaScript to spawn a new window. No Window resizing is needed for these labs, as the VM and lab console are housed in the same browser window.
+>[!alert] Windows spawned in any other context are only resizable by the user. If you open the window using an HTML link, or simply redirect the current window to the lab URL, LOD will be prevented from resizing the window.
 
-For more information about window resizing, check out [W3Schools](https://www.w3schools.com/jsref/met_win_resizeto.asp).
+- **Cloud Slice** labs consist of two windows; the resource portal and lab console. 
+- **Virtualization** based labs consist of one window; the virtual machine and the lab console. 
+    - Lab console: on the right side of the screen, housing the instructions and any lab resources. 
+    - Resource portal: on the left side of the screen, housing the cloud platform or the virtual machine(s) that the lab utilizes. 
 
 [Back to top](#api-consumer-usage-and-best-practices)
