@@ -1,6 +1,14 @@
 ## Cloud Security Review.
 Lab profiles that use cloud orchestration are subject to a cloud security review. Until a review is completed, the lab cannot be launched via TMS, API, LTI, or other methods outside of the Labondemand interface.
 
+### Which Labs Require a Security Review?
+
+- #### AWS
+    Anytime a student is required to build cloud resources in AWS, these resources will need to be explicitly allowed in an Access Control Policy. Once an Access Control Policy is added to the lab profile, a security review will be required.
+
+
+- #### Azure
+    When using Azure, lab profiles containing a resource group and a User account with Contributor or Owner roles will be required to undergo a security review.
 
 ### How to Request a Security Review
 
@@ -8,12 +16,14 @@ When creating or editing a lab profile that uses cloud orchestration, the lab pr
 
 ![Pending Status](images/required-security-review.png)
 
-Before marking the lab as complete, a security review may be requested, signaling that the lab and [Access Control Policy (ACP)](https://docs.learnondemandsystems.com/lod/create-a-restriction-policy.md) are ready for review.
+Before marking the lab as complete, a security review may be requested, signaling that the lab and [Access Control Policy (ACP)](https://docs.learnondemandsystems.com/lod/create-a-restriction-policy.md) are ready for review. 
 
 ![Request Initial Security Review](images/initial-security-review-request.png)
 
 Once the review has been completed, the lab profile will show either approved or denied along with a note containing the reasoning. 
 Once approved, the lab may be marked as complete and published.
+
+If the lab profile is published before the security review is requested, a security review request will be entered automatically, but the lab will continue to be unavailable until the review is completed and approved.
 
 ![Approved Status](images/cloud-security-approved.png)
 
@@ -22,12 +32,6 @@ You may request an additional cloud security review using the link next to the e
 ![Request Security Review](images/request-security-review.png)
 
 
-- #### AWS
-    Anytime a student is required to build cloud resources in AWS, these resources will need to be explicitly allowed in an Access Control Policy. Once an Access Control Policy is added to the lab profile, a security review will be required.
-
-
-- #### Azure
-    When using Azure, lab profiles containing a resource group and a User account with Contributor or Owner roles will be required to undergo a security review.
 
 ### Security Review Management and Revocation.
 
