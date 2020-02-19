@@ -28,7 +28,7 @@
 1. **Development Status:** Used to show lab profile development status. (In Development, Awaiting Verification, In Verification, Verification Failed, Complete.) Lab profiles in _Complete_ Development Status will be available for use, other development status' will only be available to registered lab developers. 
 1. **Expected Duration:** The expected amount of time it will take a user to complete the lab.
 1. **Maximum Duration:** The maximum amount of time that a user can spend in the lab.
-1. **Language:** The language that the lab UI will be displayed in. This will not change the language displayed in the OS of any virtual machines used unless the virtual machine was configured to display a specific language.
+1. **Language:** The language that the lab UI will be displayed in. This will not change the language displayed in the OS of any virtual machines used unless the virtual machine was configured to display a specific language. Language options include: Chinese (simplified), English, French, German, Japanese, Korean, Portuguese, and Spanish.  
 1. **Level:** Sets the Level for the lab; this can be 100, 200, 300, or 400. 
 1. **Evaluation:** Click to add an Evaluation to the lab profile. The Evaluation must already be created to add it to the lab profile using this button.
 
