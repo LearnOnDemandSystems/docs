@@ -68,6 +68,10 @@
   <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="Lab on Demand Configuration Docs" role="button" aria-selected="false">Lab on Demand Configuration</div>
     <div class="subtopic_links">
+      <a class="subtopic_link" href="/lod/cloud-security-review.md">
+         <div class="subtopic_title">Cloud Security Review</div>
+         <div class="subtopic_description">Information Regarding the Cloud Security Review Process</div>
+      </a>
       <a class="subtopic_link" href="/guides/cloud-slice/cloud-slice.md">
         <div class="subtopic_title">Cloud Slice Setup Guide</div>
         <div class="subtopic_description">Comprehensive setup guide for configuring a Cloud Slice lab with Lab on Demand and Microsoft Azure or Amazon Web Services.</div>
