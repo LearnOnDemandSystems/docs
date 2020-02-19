@@ -423,7 +423,7 @@ For more information about Action and Event types, please see our [guide](/lod/l
 
     - **Minimum Time Given to Saved Labs:** Minimum amount of time that students will have on the lab timer, when they resume a lab. 
 
-    - **Maximum Allowed Snapshots:** Maximum amount of snapshots that are allowed
+    - **Maximum Allowed Snapshots:** Maximum amount of [snapshots](/lod/snapshots.md) that are allowed
 
 1. **GitHub Integration:** Allows you to integrate a GitHub repository into a lab and use that repository as the source of IDLx content for that lab. For more information, read [GitHub Integration](/guides/github-integration/github-integration.md).
 

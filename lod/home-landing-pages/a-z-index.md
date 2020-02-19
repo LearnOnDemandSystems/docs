@@ -198,6 +198,10 @@
         <div class="subtopic_title">Replacement Tokens</div>
         <div class="subtopic_description">Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.</div>
       </a>
+      <a class="subtopic_link" href="/lod/snapshots.md">
+         <div class="subtopic_title">Snapshots</div>
+         <div class="subtopic_description">Lab Profile Snapshots</div>
+      </a>
       <a class="subtopic_link" href="/guides/sl/sharedlabs.md">
         <div class="subtopic_title">Shared Labs (a.k.a. Cyber-Range)</div>
         <div class="subtopic_description">Configure a Shared Lab environment.</div>
