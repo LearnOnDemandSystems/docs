@@ -3,7 +3,7 @@ Lab profiles that use cloud orchestration are subject to a cloud security review
 
 ## Which Labs Require a Security Review?
 
-- ### AWS
+- <h3>AWS</h3>
     Anytime a student is required to build cloud resources in AWS, these resources will need to be explicitly allowed in an Access Control Policy. Once an Access Control Policy is added to the lab profile, a security review will be required.
 
 - <h3>Azure</h3>
