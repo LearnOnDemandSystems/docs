@@ -8,6 +8,31 @@
 
 # What's New in Lab On Demand
 
+## **Released February 28, 2020**
+
+**Alt+Tab Shortcut Available in Commands Menu**
+- The Alt+Tab keyboard combination is now available as a shortcut under the Commands Menu. This allows students to swiftly switch between two full screen applications in their lab instance. When switching between three or more applications, the shift key may be held while selecting the Alt+Tab shortcut to cycle through all open applications on Windows and select Linux virtual machines.
+
+**Cloud Security Review**
+- A Cloud Security Last Reviewed filter is now available when searching for lab profiles. The output will display the date and time that the last Cloud Security Review was completed.
+- Access Control Policies can now be sorted by Requires Security Review.
+- Never has been added to the list of available options in the Cloud Security Review Approval Expires filter when searching for lab profiles.
+
+**Lab Variables Now Configurable by Lab Authors**
+- Lab authors can now initialize lab variables from the very start of the lab. These can be used in Life Cycle Actions(LCA) as well as Activity Based Assessments(ABA). These variables are available in IDLx using @lab.Variable(name).
+
+**Improvements and Fixes**
+- Access Control Policies can now be sorted by Requires Security Review.
+- Tooltips have been added to the Advanced tab of API consumer profiles, to describe the available options.
+- Two new filters, Is parent of and Is child of, are now available when searching for organizations on Labondemand.com.
+- Updated the root file path of resources on the Lab profile details page.
+- Lab Tags are now returned when the LabProfile API method is called.
+- Fixed a bug allowing students to launch an additional lab when they should have been limited by the number of retakes configured on the lab series.
+- Fixed a bug preventing labs from launching when URL reserved characters are passed to the lab host as cloud passwords.
+- Fixed a bug that prevented Last Activity and Last Console Sync from periodically 
+
+---
+
 ## **Released February 14, 2020**
 
 **Save As for Access Control Policies and Resource Templates**
