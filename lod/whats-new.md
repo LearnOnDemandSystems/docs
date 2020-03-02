@@ -24,7 +24,6 @@
 **Improvements and Fixes**
 - Access Control Policies can now be sorted by Requires Security Review.
 - Tooltips have been added to the Advanced tab of API consumer profiles, to describe the available options.
-- A Subnet ID has been added to datacenter public IP management. 
 - Two new filters, Is parent of and Is child of, are now available when searching for organizations on Labondemand.com.
 - Updated the root file path of resources on the Lab profile details page.
 - Lab Tags are now returned when the LabProfile API method is called.
