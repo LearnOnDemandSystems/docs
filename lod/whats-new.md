@@ -8,7 +8,7 @@
 
 # What's New in Lab On Demand
 
-## **Released February 14, 2020**
+## **Released February 28, 2020**
 
 **Alt+Tab Shortcut Available in Commands Menu**
 - The Alt+Tab keyboard combination is now available as a shortcut under the Commands Menu. This allows students to swiftly switch between two full screen applications in their lab instance. When switching between three or more applications, the shift key may be held while selecting the Alt+Tab shortcut to cycle through all open applications on Windows and select Linux virtual machines.
