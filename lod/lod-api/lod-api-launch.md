@@ -21,7 +21,7 @@ The **Launch** command will launch a specified lab for a specified user.
 
 |Property|Type|Nullable|Notes|
 |---|---|---|---|
-|Result| Integar | False | 0 = Error 
+|Result| Integer | False | 0 = Error 
 ||  |  | 1 = Success
 ||  |  | 2 = User has too many active labs
 ||  |  | 3 = Insufficient host resources
