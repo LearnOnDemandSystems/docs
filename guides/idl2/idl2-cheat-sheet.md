@@ -73,9 +73,11 @@ Callback the variable
 
 ---
 
-<font size="3">**Code Blocks**</font>
+<font size="3">**Inline Code**</font>
 
-Inline code block  <code>`code block`</code>   
+Inline code  <code>`code`</code>   
+
+<font size="3">**Code Blocks**</font>
 
 ~~~Fenced_code_block
 ```PowerShell
