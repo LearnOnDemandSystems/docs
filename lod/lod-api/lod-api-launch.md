@@ -38,7 +38,7 @@ The **Launch** command will launch a specified lab for a specified user.
 ||  |  | 80 = Lab series doesn't have enough available RAM
 ||  |  | 90 = Too many labs within the specified class are currently active for another lab to be launched.
 ||  |  | 100 = User has launched the maximum number of instances of this lab profile.
-||  |  | 110 = This lab profile requires a security review before it can be launched via API.
+||  |  | 110 = This lab is not currently available for launch via API. It is awaiting security review.
 |Url|String|False|A URL where the lab can be viewed by the user|
 |LabInstanceId|Long|False|The Id assigned to the new lab instance|
 |Expires|Long|False|When the lab will expire (in Unix epoch time)|
