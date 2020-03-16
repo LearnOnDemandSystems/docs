@@ -78,10 +78,6 @@ Click the Help button at the top of the page in LOD, to use our Integrated Help 
 
 - If you are on a page other than the Admin page, you will be presented with documentation (if available) for the page you are on. If the documentation presented is not what you are looking for, click the Home icon at the top of the page, and you will be directed to a list of topics to choose from. 
 
-If you would like to hit the ground running, see our [Quick Starts](/lod-home.md/#quick-starts) documentation.
-
-If you simply want to learn more about a specific feature in LOD, see our [Feature Focus](/lod-home.md/#feature-focus) documentation, which will provide you with in-depth information about a feature.
-
 <!-- The below styling is to make the icon glyphs render properly-->
 
 <style type="text/css">
