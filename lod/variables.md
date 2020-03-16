@@ -1,8 +1,10 @@
 # Lab Variables
 
-Variables are used to store information that is not known at the time of lab instruction authoring. Variables store information and then that information can be recalled or used in the lab. Variables can be used in Life Cycle Actions, Automated Activities, and in lab instructions.  
+Variables store information and then that information can be recalled or used in the lab. Variables can be used in Life Cycle Actions, Automated Activities, and in lab instructions.  
 
 Click to navigate to a specific section:
+
+[Lab Author Defined Variables](#lab-author-defined-variables)
 
 [Variables in Lab Instructions](#variables-in-lab-instructions)
 
@@ -10,14 +12,18 @@ Click to navigate to a specific section:
 
 [Variables in Automated Activities](#variables-in-automated-activities)
 
+# Lab Author Defined Variables 
 
+A lab author may define variables before the lab is even launched. To do so, select the @lab icon at the top of the edit instructions page. From the @lab Token and Variables page, select Variables. It is here that a lab author may set predefined variables for use in the lab instructions, life cycle actions, and automated activities. 
+
+![](images/variables-screen.png)
 # Variables in Lab Instructions
 
 Variables can be defined in lab instructions so that lab users can input expected information unique to their lab, that can then be utilized later in the instructions. This is accomplished utilizing a combination of replacement tokens. 
 
-Variables defined  lab instructions use two Replacement tokens;
+Variables defined in lab instructions can use two Replacement tokens;
 
-- **&commat;lab.TextBox(name)** : used to define a variable called "name"
+- **&commat;lab.TextBox(name)** : used to define or change a variable called "name"
 
 - **&commat;lab.Variable(name)** : used to recall the information stored in the variable "name".
 
@@ -84,7 +90,7 @@ Automated activities are configured in IDLx labs via PowerShell scripts. Variabl
 
 Variables that are set in an automated activity script can be used as a replacement token in subsequent scripts in the same activity, or in another automated activity that occurs after the variable is set. They may not be utilized in the same script that where they are set. 
 
-Automated activites can also use variables set by a life cycle action, as long as the life cycle event occurs before the automated activity is exectuted. If the life cycle event does not occur before the variable is referenced, the variable will remain as a placeholder.
+Automated activities can also use variables set by a life cycle action, as long as the life cycle event occurs before the automated activity is executed. If the life cycle event does not occur before the variable is referenced, the variable will remain as a placeholder.
 
 Automated Activities support PowerShell Windows Command Shell, and Bash. Cloud Subscriptions must be targeted by a PowerShell script, and Windows-based virtual machines running on Hyper-V can be targeted by PowerShell or Windows Command  Shell. Linux-based VMs running Hyper-V or VMware can be targeted by Bash. 
 
@@ -94,7 +100,7 @@ Automated Activities support PowerShell Windows Command Shell, and Bash. Cloud S
 
 Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there is additional syntax that can be used. 
 
-- Setting Lab Variables: sets a variable that can be recalled in subsequent lab instructions using @lab replacement tokens, as many times as neccessary. 
+- Setting Lab Variables: sets a variable that can be recalled in subsequent lab instructions using @lab replacement tokens, as many times as necessary. 
 
 - Sending Lab Notifications: Sends a a popup notification to the lab, using the text specified in the syntax.
 
