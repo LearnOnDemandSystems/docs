@@ -3,7 +3,21 @@
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
 ----------------------------
+## Released February 20 2020
 
+### <span style="color:#0078d7;">View Students Progress from the Class Roster</span>
+
+The Class Roster now shows a column for the percentage of course activities completed by each student. This gives an overview of the class’ progress through the lab work and other course activities without going to the individual student enrollments. The column is triggered to display once any student has completed an activity. To be included in the calculation the activity must be required for course completion. Labs, SCORM and LTI modules must be completed to be included while external links, documents, or videos are counted once launched. A numeric percentage shows on the roster while progress bars along with the percentage can be seen on enrollments and course assignments.
+
+### <span style="color:#0078d7;">Cancelling Course Assignments</span>
+
+1. Lab filters for Has Labs or Course Labs now also show results for lab types that do not use RAM like Azure, AWS, or Docker.
+1. Find Lab Instances – The Output Option for Exam now shows up when using the print and export links on the Find Lab Instances page.
+1. Merge Users – Two user accounts cannot be merged when both students used a training key to enroll into the same class. An assistance message has been added, “We are unable to process this account merge due to multiple enrollments in the same training created by training keys. Please open a Support ticket at https://lods.one/support for assistance.”
+1. SCORM video player – SCORM videos played in the Chrome browser encountered a bug that prevented adjusting your place in a video. Players in Chrome can now be adjusted to move forward, to skip ahead, and go back within the video. Seeking in Chrome may take 3-8 seconds to load after moving to a new spot.
+1. Class profile – The URL field for the Custom Virtual Classroom class delivery method has increased its capacity from 200 to 500 characters.
+
+----------------------------
 ## Released February 6 2020
 
 ### <span style="color:#0078d7;">Cancelling Course Assignments</span>
@@ -304,96 +318,5 @@ We have made the following improvements to our TMS:
 
 - For our users who use screen readers, we changed the **Edit User's Basic Information** tab for improved accessibility. The page no longer contains a table around the fields. This change was to meet MAS standards and reduce confusion by screen readers.
 - For managers, we have removed the **Manager/Supervisor** tab and the **Fax** field from the **Contact** tab on the **Organization Profile**. This streamlines the profile by removing items that are not used.
-
-----------------------------
-
-## Released August 29 2019
-
-### <span style="color:#0078d7;">API Created Classes Use Organization Setting for Event Training Key</span>
-If you use the TMS API to create classes, these classes will now default to allow automatic enrollment using event training key if  your organization is set to allow automatic enrollment using event training key by default in new classes.
-
-You can now pull this information for a class through the API, as well, using the **GetClass** API call response. The response will include the following properties:
-
-- EnableClassTrainingKey - True/False
-- ClassTrainingKey - the key
-
-> ![](./images/whats-new/getclass-response-2.png)
-
-### <span style="color:#0078d7;">Courses Visible on Publishing Groups</span>
-For those of you who manage your organization's publishing group, you can now save time by adding courses directly to the publishing group itself, rather than going to each course to add the publishing group to it. All restrictions and warnings are still in effect. 
-See the updated article, [How do I add a course to my publishing group?](/tms/tms-administrators/courses-and-activities/pgs/add-courses-to-publishing-group.md).
-
-In addition, for anyone who can view the publishing group's profile page, the courses are now listed at the bottom of the page. This saves you time searching courses by a publishing group. 
-
-> ![](./images/whats-new/pg-course-list-4.png)
-
-The Help articles have been updated to reflect these changes. 
-
-### <span style="color:#0078d7;">Accessibility Improvements to Meet MAS</span>
-In our continuing efforts to improve our accessibility and meet MAS, we have made the following improvements:
-
- - Users with screen readers will now hear
-    - The page title announced as a Heading 1 on the **Simple Course Assignment** page and in the **Redeem Training Key** dialog.
-    - The **Training Key** announced as required on the **Redeem Training Key** dialog.
-    - The TMS Logo announced as **Link, Learn on Demand TMS**.
-- The language has also been set to English on pages for screen readers.
-- Users who use keyboard controls will be able to cleanly tab through the **Current Training** page due to removing tab index values greater than 0.
-- For users with impaired vision, the **Integrated Help** article links now have a color contrast greater than 4.5.
-
-### <span style="color:#0078d7;">Enable Achievements Output Option and Filter</span>
-Want to be which of your organizations have achievements enabled? On the **Find Organizations** search page, you can select the new **Enable Achievements** output option. You can also filter for those organizations who do or do not have achievements enabled using the new **Enable Achievements** filter.
-
-> ![](./images/whats-new/enable-achievements-oo-filter-find-orgs.png)
-
-### <span style="color:#0078d7;">Expected Duration Output Option</span>
-Want to be able to control the duration of a course and its activities? You can turn on the new **Expected Duration** output option in the **Choose Lab** dialog when adding a lab activity to a course to be aware of how much time it will add to your course. 
-
-> ![](./images/whats-new/expected-duration-oo.png)
-
-You can also use thise output option on the **Find Lab Instances** search page to compare how long students were in labs versus the expected duration.
-
-> ![](./images/whats-new/expected-duration-find-lab-instances.png)
-
-### <span style="color:#0078d7;">TMS Improvements and Fixes</span>
-The following improvements have been been pushed to TMS Production:
-
-- To match current practices and to save everyone time, we have changed several defaults for new organizations and new child organizations.
-- We have updated the **Maintenance and System Message** to have a more modern look.
-- The **Theme** field has been removed from the **Company Profile** page.
-- The icon on **External Link** activities in courses is now a chain link instead of the same icon used for video activities.
-
-----------------------------
-
-## Released August 16 2019
-
-### <span style="color:#0078d7;">TMS Improvements and Fixes</span>
-
-We have pushed the following items to TMS production:
-
-- For those with the proper permissions to manage vouchers, you can now easily access your Manage Class Vouchers page from your **Organization Profile** page. There is now a Manage Class Vouchers link in the quick access bar for all organizations.
-- You can now see the both the **Expected** and **Maximum Durations** on the **Lab Profile** page in the TMS. These values are set in LOD for the lab. This will help you when planning the duration for your courses and classes.
-- You no longer need to use a shortened URL for activities in courses. The URL field for activities on the **Activities** tab of the **Course** Profile now has an unlimited character length.
-- On the **Find Training Key Pools** search page, you will now see accurate results when using the **Expiration** filter.
-
-----------------------------
-
-## Released August 8 2019
-
-### <span style="color:#0078d7;">Badges on Student Achievement Page</span>
-You and your students can now easily view the badges and the achievements they have earned in one place, the student's Achievements page. To access this age, click the **Achievements** link in the quick access bar on the student's profile page. At the top of the page, you can see the achievements with their point values and description. Below achievements, you can see the badges earned with their description.
-
-> ![](./images/whats-new/badges-on-achievements-page.png)
-
-In addition, to make it easier for your students to participate in achievements, current organizations have been updated to have achievements enabled. If you would like to disable achievements for your organization, you can do this by unchecking ‘Enable Achievements’ at the bottom of the Preferences tab of your organization profile. Child organizations, at the time of creation, will have achievements enabled/disabled based on their parent organization’s setting.
-
-### <span style="color:#0078d7;">Course Duration versus Activities Duration Check</span>
-The course duration must now be longer than the amount of time the course activities are expected to take, based on a 12-hour day. Therefore, when creating or editing a course, you will need to ensure the course duration is less than the sum of the course’s activity durations. If it is less, you will receive an error message upon attempting to save the course. This only applies to activities available to everyone. For instance, if your course has the duration set to 1 day but the activities available to everyone have durations that add up to 12 hours and 15 minutes, you will be unable to save the course. You will receive the following error message: **The expected duration of the activities you have added to this course exceeds the time given in the Course’s duration for a student to complete the work. Please increase the Course’s duration. You may contact our help desk for further assistance.** 
-
-Please be advised, once you attempt to save the course and receive this message, any changes you have made to the Activities tab prior to the save attempt currently will not be saved. You will need to make those changes again after adjusting your course's duration.
-
-### <span style="color:#0078d7;">TMS Improvement</span>
-
-The TMS will now return a 403 “Not Found. Sorry, the page you requested could not be found.” message when someone tries to access an invalid or disabled site URL.
-
 
 ----------------------------

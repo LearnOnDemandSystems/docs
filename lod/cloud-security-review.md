@@ -1,16 +1,25 @@
-## Cloud Security Review
+# Cloud Security Review
 Lab profiles that use cloud orchestration are subject to a cloud security review. Until a review is completed, the lab cannot be launched via TMS, API, LTI, or other methods outside of the Labondemand interface.
 
-### Which Labs Require a Security Review?
+## Which Labs Require a Security Review?
 
-- #### AWS
+- <h3>AWS</h3>
     Anytime a student is required to build cloud resources in AWS, these resources will need to be explicitly allowed in an Access Control Policy. Once an Access Control Policy is added to the lab profile, a security review will be required.
 
-
-- #### Azure
+- <h3>Azure</h3>
     When using Azure, lab profiles containing a resource group and a User account with Contributor or Owner roles will be required to undergo a security review.
 
-### How to Request a Security Review
+## What is a Security Review?
+
+Security reviews evaluate numerous components of cloud slice labs (such as Access Control Policies and Life Cycle Actions), including aspects like the publishing context (where is the lab going to be utilized). These reviews are designed to give the lab a rating of how vulnerable to potential abuse from malicious users it is and to ensure lab owners are aware of these vulnerabilities - aiding in reinforcing the lab if desired.
+
+A lab owner will always be notified of the risk level a lab was evaluated at, whether it was approved for external consumption or not, and the reasons for these desicions upon them being made.
+
+## How can I ensure ahead of time that my lab will pass a security review?
+
+There may be changes to evaluation critera over time, however a living document can be be found [here](./cloud-slice/cloud-security-standards.md) which gives an idea to the major vulnerabilities looked for in security reviews.
+
+## How to Request a Security Review
 
 When creating or editing a lab profile that uses cloud orchestration, the lab profile will display a notice, showing that the lab requires a cloud security review.
 
@@ -33,14 +42,14 @@ You may request an additional cloud security review using the link next to the e
 
 
 
-### Security Review Management and Revocation
+## Security Review Management and Revocation
 
 A lab profile will need to undergo an additional security review if the underlying Access Control Policy(ACP) or Cloud Resource Template is changed or removed from the lab profile. A notification email will be sent to the owner's email address if configured on the lab profile. The lab will be unavailable to launch outside the Labondemand interface until the new security review is approved. When making a change that will impact lab profile(s), the following message will be displayed. 
 
 ![](images/cloud-security-review.png)
 
 
-### Alternatives to Security Review
+## Alternatives to Security Review
 
  In lieu of a security review, lab authors may choose to use a preconfigured Access Control Policy. To find policies that have already been approved, use the filter _Does Not_ - _Require Security Review_. These policies will also show in search results when enabling the _No_ output option, under _Requires Security Review_.
 
