@@ -1,8 +1,8 @@
-## How can I use my organization’s virtual meeting program in my virtual classes?
+## How can I use my organization’s streaming service in my classes?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
 
-If you have a virtual meeting program you would like to use for your virtual classes, all you will need is the URL for it. Your students will be able to access the meeting program from their class enrollment. 
+If you have a streaming service or virtual meeting provider you would like to use for your classes, all you will need is the meeting URL to use for your class. Your students will be able to access the virtual meeting from their class enrollment. 
 
 To set your class up to use your own virtual classroom:
 1. On the **Create/Edit Class** page, expand the **Delivery** section.
