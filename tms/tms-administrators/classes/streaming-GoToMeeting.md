@@ -21,15 +21,15 @@ The TMS passes along the classId, studentLastName, studentFirstName, and student
 
 BEST PRACTICE: Once a Customer Virtual Classroom URL is added the Enter Classroom button is available to students from their class enrollment, even before the class starts and after it is over. Therefore, it is best to use unique URLs for each class to avoid students from a class accidentally accessing another class they are not scheduled to attend. 
 
-**Additional Resources**
+# Additional Resources
 
-More Information on Creating Classes 
+**Creating Classes** 
 
  [What are the basics to create a class?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/schedule/create-class-basic.md) 
  
  [How do I create a class?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/schedule/create-class.md) 
 
-Creating User Accounts and Enrolling Students 
+**Creating User Accounts and Enrolling Students**
 
 We have several methods of creating user accounts and enrolling students. The simplest method is to provide each student a training key; the key allows them to create a user account and enroll into class. 
 
@@ -39,10 +39,13 @@ We have several methods of creating user accounts and enrolling students. The si
 
 User accounts can be created manually or imported. Once created the users can be enrolled as a group into your class. 
 
-How to Create User Accounts?  
-How do I Create Instructor User Accounts?  
-How do I to Create Multiple User Accounts?  
-How do I Enroll Multiple Students? 
+ [How do I create user accounts?](https://docs.learnondemandsystems.com/tms/tms-administrators/users/student-management/create-student-user-accounts.md) 
+
+ [How do I create instructor user accounts?](https://docs.learnondemandsystems.com/tms/tms-administrators/users/instructor-management/create-instructor-user-accounts.md) 
+
+ [How do I create multiple user accounts at once?](https://docs.learnondemandsystems.com/tms/tms-administrators/users/student-management/create-multiple-user-accounts-at-once.md) 
+
+ [How can I enroll one or more students?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/enrollments-roster/enroll-multiple-students.md) 
 
 Finding Meeting URLs for Classes 
 
