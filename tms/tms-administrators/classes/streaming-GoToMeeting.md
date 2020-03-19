@@ -49,4 +49,6 @@ User accounts can be created manually or imported. Once created the users can be
 
 Finding Meeting URLs for Classes 
 
+ [How can I meeting URLs assigned to classes?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/enrollments-roster/enroll-multiple-students.md) 
+
 How can I Find Meeting URLs Assigned to Classes?  
