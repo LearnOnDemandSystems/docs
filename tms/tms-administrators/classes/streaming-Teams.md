@@ -8,7 +8,7 @@ Give your students and instructors the convenience of one place for all members 
 
 Start by scheduling a meeting in Teams through the Calendar. You will need to add an attendee in order to have a link display for the meeting; this may be yourself or the class instructor.  Once you have scheduled the meeting, open the meeting to access the meeting’s URL to input in the TMS class. **Right-click on the Join Microsoft Teams Meeting** link and choose **Copy Link** to obtain the URL provided within the meeting invitation. Using this will log your users in without needing to input a code to enter the meeting. 
 
-![](/tms/images/TeamsMeetingURL1.png)
+![](/tms/images/TeamsMeetingURL.png)
 
 **Enter your Teams URL in your Class**
 
@@ -18,7 +18,7 @@ If you have used the TMS before for classes, then the only new element is adding
 1. The Virtual Meeting Host menu appears below with **Custom Virtual Classroom** selected and a URL field displayed. Input your GoToMeeting meeting URL in the **URL** field. 
 
 
-![](/tms/images/TeamsVirtualMeetingHostURL.png) 
+![](/tms/images/TeamsVirtualMeetingHostURL1.png) 
 
 The TMS passes along the classId, studentLastName, studentFirstName, and studentEmail to the receiving site. 
 
