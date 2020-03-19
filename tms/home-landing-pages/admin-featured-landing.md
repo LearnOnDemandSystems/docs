@@ -26,11 +26,7 @@
         <div class="subtopic_title">What are the different types of Training Keys and how can they be used?</div>
         <div class="subtopic_description">You can use training keys to quickly enroll students into either instructor-led or self-paced training without manually creating each enrollment or course assignment.</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/admin-menu.md">
-        <div class="subtopic_title">What is the Admin menu and how does it work?</div>
-        <div class="subtopic_description">The admin menu reinvents the way you use the TMS. Utilize the search menu to locate particular settings or utilize the history section to access your most used options.</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/schedule-self-paced-learning.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/schedule-self-paced-learning.md">
         <div class="subtopic_title">How do I schedule self-paced learning for a student?</div>
         <div class="subtopic_description">Self-paced learning is done through a course assignment. It gives the student direct access to labs without a class enrollment.</div>
      </a>
