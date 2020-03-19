@@ -24,23 +24,23 @@ BEST PRACTICE: Once a Customer Virtual Classroom URL is added the Enter Classroo
 **Additional Resources**
 More Information on Creating Classes 
 
-    What are the basics to create a class?  
-    How do I Create a Class? 
+What are the basics to create a class?  
+How do I Create a Class? 
 
 Creating User Accounts and Enrolling Students 
 
 We have several methods of creating user accounts and enrolling students. The simplest method is to provide each student a training key; the key allows them to create a user account and enroll into class. 
 
-    How to Create Training Keys for Student Registration   
-    What Information to Send Students to Register with Training Keys  
+How to Create Training Keys for Student Registration   
+What Information to Send Students to Register with Training Keys  
 
 User accounts can be created manually or imported. Once created the users can be enrolled as a group into your class. 
 
-    How to Create User Accounts?  
-    How do I Create Instructor User Accounts?  
-    How do I to Create Multiple User Accounts?  
-    How do I Enroll Multiple Students? 
+How to Create User Accounts?  
+How do I Create Instructor User Accounts?  
+How do I to Create Multiple User Accounts?  
+How do I Enroll Multiple Students? 
 
 Finding Meeting URLs for Classes 
 
-    How can I Find Meeting URLs Assigned to Classes?  
+How can I Find Meeting URLs Assigned to Classes?  
