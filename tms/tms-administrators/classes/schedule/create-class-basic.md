@@ -1,4 +1,4 @@
-# How do I create a class? Just the basic instructions.
+# What are the basics to create a class? 
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
 
