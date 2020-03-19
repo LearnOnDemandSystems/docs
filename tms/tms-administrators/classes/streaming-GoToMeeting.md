@@ -1,10 +1,10 @@
-##How can I Stream a Class in the TMS using GoToMeeting? 
+# How can I Stream a Class in the TMS using GoToMeeting? 
 
- [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
 
 Give your students and instructors the convenience of one place for all members of the class to open their virtual classroom and all their course activities and labs. Deliver your Instructor-led training virtually with GoToMeeting within a TMS class.  
 
-**Find your GoToMeeting URL **
+**Find your GoToMeeting URL**
 
 Start by scheduling a meeting in GoToMeeting, when this is completed you can access the meeting’s URL to input in the TMS class. In the GoToMeeting set up, locate the meeting ID or the installation URL. Your meeting URL will read: https://global.gotomeeting.com/join/ + meeting ID without any dashes. If your meeting ID is 904-466-685, then the URL would be **https://global.gotomeeting.com/join/904466685**. This URL will log in your users without needing to input a code to enter the meeting. 
 
@@ -22,10 +22,11 @@ The TMS passes along the classId, studentLastName, studentFirstName, and student
 BEST PRACTICE: Once a Customer Virtual Classroom URL is added the Enter Classroom button is available to students from their class enrollment, even before the class starts and after it is over. Therefore, it is best to use unique URLs for each class to avoid students from a class accidentally accessing another class they are not scheduled to attend. 
 
 **Additional Resources**
+
 More Information on Creating Classes 
 
-What are the basics to create a class?  
-How do I Create a Class? 
+ [What are the basics to create a class?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/schedule/create-class-basic.md) 
+How do I create a Class? 
 
 Creating User Accounts and Enrolling Students 
 
