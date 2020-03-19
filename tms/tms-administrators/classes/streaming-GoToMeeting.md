@@ -26,7 +26,7 @@ BEST PRACTICE: Once a Customer Virtual Classroom URL is added the Enter Classroo
 More Information on Creating Classes 
 
  [What are the basics to create a class?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/schedule/create-class-basic.md) 
-How do I create a Class? 
+ [How do I create a class?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/schedule/create-class.md) 
 
 Creating User Accounts and Enrolling Students 
 
