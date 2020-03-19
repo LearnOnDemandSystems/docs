@@ -267,8 +267,11 @@
       <a class="subtopic_link" href="/tms/tms-administrators/users/instructor-management/different-ways-to-set-up-instructor-access.md">
         <div class="subtopic_title">What are different ways to set up instructor access?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/training-key-types.md">
+       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/training-key-types.md">
         <div class="subtopic_title">What are the different types of Training Keys and how can they be used?</div>
+      </a>
+        <a class="subtopic_link" href="tms/tms-administrators/classes/schedule/create-class-basic.md">
+        <div class="subtopic_title">What are the basics to create a class?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/duplicate-user-accounts.md">
         <div class="subtopic_title">What can I do about duplicate user accounts?</div>
