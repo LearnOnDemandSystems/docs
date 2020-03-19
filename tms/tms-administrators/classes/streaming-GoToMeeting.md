@@ -33,8 +33,9 @@ Creating User Accounts and Enrolling Students
 
 We have several methods of creating user accounts and enrolling students. The simplest method is to provide each student a training key; the key allows them to create a user account and enroll into class. 
 
-How to Create Training Keys for Student Registration   
-What Information to Send Students to Register with Training Keys  
+ [How to create training keys for student registration](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md) 
+
+ [What information do I send to students to register with training keys](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md) 
 
 User accounts can be created manually or imported. Once created the users can be enrolled as a group into your class. 
 
