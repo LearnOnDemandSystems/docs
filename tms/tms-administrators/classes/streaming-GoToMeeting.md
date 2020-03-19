@@ -19,7 +19,7 @@ If you have used the TMS before for classes, then the only new element is adding
 
 The TMS passes along the classId, studentLastName, studentFirstName, and studentEmail to the receiving site. 
 
-[!KNOWLEDGE] **<sup>1</sup>BEST PRACTICE**: Once a Customer Virtual Classroom URL is added the Enter Classroom button is available to students from their class enrollment, even before the class starts and after it is over. Therefore, it is best to use unique URLs for each class to avoid students from a class accidentally accessing another class they are not scheduled to attend. 
+> [!KNOWLEDGE] **<sup>1</sup>BEST PRACTICE**: Once a Customer Virtual Classroom URL is added the Enter Classroom button is available to students from their class enrollment, even before the class starts and after it is over. Therefore, it is best to use unique URLs for each class to avoid students from a class accidentally accessing another class they are not scheduled to attend. 
 
 # Additional Resources
 
@@ -48,6 +48,8 @@ User accounts can be created manually or imported. Once created the users can be
  [How can I enroll one or more students?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/enrollments-roster/enroll-multiple-students.md) 
 
 **Finding Meeting URLs for Classes**
+
 Information on finding meeting URLs is located at the bottom of this article.
+
  [How can I meeting URLs assigned to classes?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/enrollments-roster/enroll-multiple-students.md) 
 
