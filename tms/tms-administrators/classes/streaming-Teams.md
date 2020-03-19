@@ -18,7 +18,7 @@ If you have used the TMS before for classes, then the only new element is adding
 1. The Virtual Meeting Host menu appears below with **Custom Virtual Classroom** selected and a URL field displayed. Input your GoToMeeting meeting URL in the **URL** field. 
 
 
-![](/tms/images/TeamsVirtualMeetingHostURL.png)
+![](/tms/images/TeamsVirtualMeetingHostURL.png) 
 
 The TMS passes along the classId, studentLastName, studentFirstName, and studentEmail to the receiving site. 
 
