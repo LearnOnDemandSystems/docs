@@ -15,7 +15,7 @@ Start by scheduling a meeting in Teams through the Calendar. You will need to ad
 If you have used the TMS before for classes, then the only new element is adding Teams for your class’ delivery. If you have not set up a class before, you can find links to additional resources below. 
 1. On the **Create/Edit Class** page, expand the **Delivery** section. 
 1. On the **Delivery Type** dropdown select **Virtual**. 
-1. The Virtual Meeting Host menu appears below with **Custom Virtual Classroom** selected and a URL field displayed. Input your GoToMeeting meeting URL in the **URL** field. 
+1. The Virtual Meeting Host menu appears below with **Custom Virtual Classroom** selected and a URL field displayed. Input your Teams meeting URL in the **URL** field. 
 
 
 ![](/tms/images/TeamsVirtualMeetingHostURL1.png) 
