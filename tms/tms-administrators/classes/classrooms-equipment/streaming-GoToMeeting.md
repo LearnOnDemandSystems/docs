@@ -26,9 +26,9 @@ The TMS passes along the classId, studentLastName, studentFirstName, and student
 
 > [!KNOWLEDGE] **<sup>1</sup>BEST PRACTICE**: Once a Customer Virtual Classroom URL is added the Enter Classroom button is available to students from their class enrollment, even before the class starts and after it is over. Therefore, it is best to use unique URLs for each class to avoid students from a class accidentally accessing another class they are not scheduled to attend. 
 
-# Additional Resources
+## Additional Resources
 
-**Creating Classes** 
+#### Creating Classes 
 
  [What are the basics to create a class?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/schedule/create-class-basic.md) 
  
