@@ -50,7 +50,7 @@ User accounts can be created manually or imported. Once created the users can be
 
  [How can I enroll one or more students?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/enrollments-roster/enroll-multiple-students.md) 
 
-#### **Finding Meeting URLs for Classes
+#### Finding Meeting URLs for Classes
 
 Information on finding meeting URLs is located at the bottom of this article.
 
