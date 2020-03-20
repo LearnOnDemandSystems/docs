@@ -19,7 +19,9 @@ When students come to their enrollment, they can enter the virtual meeting or op
 ## How to Find Meeting URLs from your Streaming Provider 
 
 [Find a GoToMeeting URL](tms/tms-administrators/classes/schedule/streaming-GoToMeeting.md)
+
 [Find a Microsoft Teams meeting URL](tms/tms-administrators/classes/schedule/streaming-Teams.md)
+
 [Find a Zoom Meeting URL](tms/tms-administrators/classes/schedule/streaming-Zoom.md)
 
 ## Additional Resources
