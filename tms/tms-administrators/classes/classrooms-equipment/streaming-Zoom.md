@@ -1,5 +1,5 @@
 # How can I Stream a Class in the TMS using Zoom? 
-https://github.com/LearnOnDemandSystems/docs/blob/master/tms/tms-administrators/classes/streaming-Zoom.md
+
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
 
 Give your students and instructors the convenience of one place for all members of the class to open their virtual classroom and all their course activities and labs. Deliver your Instructor-led training virtually with Zoom within a TMS class.  
