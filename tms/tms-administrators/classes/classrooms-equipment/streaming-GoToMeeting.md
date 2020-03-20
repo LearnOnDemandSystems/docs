@@ -34,7 +34,7 @@ The TMS passes along the classId, studentLastName, studentFirstName, and student
  
  [How do I create a class?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/schedule/create-class.md) 
 
-**Creating User Accounts and Enrolling Students**
+#### Creating User Accounts and Enrolling Students
 
 We have several methods of creating user accounts and enrolling students. The simplest method is to provide each student a training key; the key allows them to create a user account and enroll into class. 
 
@@ -52,7 +52,7 @@ User accounts can be created manually or imported. Once created the users can be
 
  [How can I enroll one or more students?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/enrollments-roster/enroll-multiple-students.md) 
 
-**Finding Meeting URLs for Classes**
+#### **Finding Meeting URLs for Classes
 
 Information on finding meeting URLs is located at the bottom of this article.
 
