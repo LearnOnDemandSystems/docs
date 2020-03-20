@@ -25,16 +25,16 @@
         <div class="subtopic_title">How do I create a class?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/Integrate-Streaming-Provider.md">
-            <div class="subtopic_title">How does LODS Integrate with my Streaming Provider?</div>
+        <div class="subtopic_title">How does LODS Integrate with my Streaming Provider?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-GoToMeeting.md">
-            <div class="subtopic_title">How can I Stream a Class in the TMS using GoToMeeting?</div>
+        <div class="subtopic_title">How can I Stream a Class in the TMS using GoToMeeting?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-Teams.md">
-            <div class="subtopic_title">How can I Stream a Class in the TMS using Microsoft Teams?</div>
+        <div class="subtopic_title">How can I Stream a Class in the TMS using Microsoft Teams?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-Zoom.md">
-            <div class="subtopic_title">How can I Stream a Class in the TMS using Zoom?</div>
+        <div class="subtopic_title">How can I Stream a Class in the TMS using Zoom?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/cancel-class.md">
         <div class="subtopic_title">How can I cancel a class?</div>
@@ -178,17 +178,20 @@
       <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classroom-outside-org.md">
         <div class="subtopic_title">How can I create a classroom that is outside my organization's physical location?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classrooms.md">
-        <div class="subtopic_title">How do I create classrooms?</div>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/instructors/find-classes-for-particular-instructor.md">
+        <div class="subtopic_title">How can I find the classes for a particular instructor?</div>
       </a>
        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-GoToMeeting.md">
-            <div class="subtopic_title">How can I Stream a Class in the TMS using GoToMeeting?</div>
+       <div class="subtopic_title">How can I Stream a Class in the TMS using GoToMeeting?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-Teams.md">
-            <div class="subtopic_title">How can I Stream a Class in the TMS using Microsoft Teams?</div>
+        <div class="subtopic_title">How can I Stream a Class in the TMS using Microsoft Teams?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-Zoom.md">
-            <div class="subtopic_title">How can I Stream a Class in the TMS using Zoom?</div>
+        <div class="subtopic_title">How can I Stream a Class in the TMS using Zoom?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classrooms.md">
+        <div class="subtopic_title">How do I create classrooms?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/enroll-multiple-students.md">
         <div class="subtopic_title">How do I enroll multiple students?</div>
@@ -201,9 +204,6 @@
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/find-all-classes-student-has-been-registered-for.md">
         <div class="subtopic_title">How do I find all the classes a student has ever been registered to take?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/instructors/find-classes-for-particular-instructor.md">
-        <div class="subtopic_title">How can I find the classes for a particular instructor?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/record-student-attendance-for-multiple-day-class.md">
         <div class="subtopic_title">How do I record student attendance for a multiple day class?</div>
