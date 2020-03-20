@@ -18,7 +18,7 @@ When the students click Enter Classroom, they will be taken to the URL provided.
 
 
 
-**Find your class meeting IDs**
+## Find your class meeting IDs
 
 To find your classes that use custom virtual classrooms, you can use the new **Custom Virtual Classroom** filter and output option on **Find Classes**.
 
