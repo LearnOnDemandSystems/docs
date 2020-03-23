@@ -20,6 +20,8 @@ When students come to their enrollment, they can enter the virtual meeting or op
 
 [Find an Adobe Connect URL or integrate Adobe Connect in the TMS](/tms/tms-administrators/classes/schedule/streaming-AdobeConnect.md)
 
+[Find a Google Meet URL](/tms/tms-administrators/classes/schedule/streaming-Googlemeet.md)
+
 [Find a GoToMeeting URL](/tms/tms-administrators/classes/schedule/streaming-GoToMeeting.md)
 
 [Find a Microsoft Teams meeting URL](/tms/tms-administrators/classes/schedule/streaming-Teams.md)
