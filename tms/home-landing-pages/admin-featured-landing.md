@@ -1,5 +1,5 @@
 <!-- 
-    Adding new documents!
+    Adding new documents!  
     1. Duplicate the following:
         <a class="subtopic_link" href="insert_document_link_here*">
             <div class="subtopic_title">insert_document_title here</div>
