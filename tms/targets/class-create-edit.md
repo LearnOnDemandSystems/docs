@@ -19,4 +19,12 @@ There are several options possible when creating or editing a class. The followi
 - [How can I use my organization’s virtual meeting program in my virtual classes?](../tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md)
 - [How do I use multiple classrooms for a class?](../tms-administrators/classes/classrooms-equipment/use-multiple-classrooms-for-class.md)
 
+## Virtual Classroom Delivery
+You can add your streaming provider as the Delivery for a TMS class. The following articles explain adding blah blah...
+
+- [How does LODS Integrate with my Streaming Provider?](../tms/tms-administrators/classes/schedule/integrate-streaming-provider.md)
+
+- [How can I Stream a Class in the TMS using GoToMeeting?](../tms/tms-administrators/classes/schedule/streaming-gotomeeting.md)
+
+
 To see all Help articles available for the TMS, you can click the **Home** button at the top of the window.
