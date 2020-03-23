@@ -3,6 +3,18 @@
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
 ----------------------------
+## Released March 19 2020
+
+### <span style="color:#0078d7;">TMS Enhancements and Fixes</span>
+
+1. Find pages – We have corrected a sorting issue on the Output Options menu. When output options other than the defaults for a page are selected, now when you switch between Sort Alphabetically and Sort by Group, your selections will be retained.
+1. Find Classes – We have added an Output Option to the Find Classes page showing the Max Lab RAM per Student showing the highest amount of RAM used in the class’ course per student.
+1. Find Enrollments – We have added an Output Option to the Find Enrollments page showing the Job Title field’s data from the User profile.
+1. Browse on Demand Catalog – We have updated the Browse on Demand pages to allow multiple Course Tags to be selected by default when users arrive on the page. Along with this, the page can now be set to default either the Match Any or Match All selections on the page. 
+1. Class Training Key – We corrected an Application Error which was showing up when you saved after editing a Class Training Key. 
+1. Find Lab Instances – We have repositioned the Percent Complete column when the search results are exported from the TMS to match column order on the Find Lab Instances page. 
+
+----------------------------
 ## Released February 20 2020
 
 ### <span style="color:#0078d7;">View Students Progress from the Class Roster</span>
@@ -261,62 +273,5 @@ We have made the following enhancements to our TMS:
 - New subscriptions can now be saved without an expiration date if **Expires** is unchecked.
 - Course custom fields can now be deleted.
 - The small Achievements icon is no longer visible above the **Badges** section of a student's **Achievements** page.
-
-----------------------------
-
-## Released September 19 2019
-
-### <span style="color:#0078d7;">TMS Improvements and Fixes</span>
-We have made the following enhancements to our TMS:
-1. Announcements can now be set by LODS employees to be seen by all organizations. These type of announcements will not happen often and will normally be targeted to **Operation Managers** only. If you do not want your organization to receive these announcements, please contact support.
-1. To make our platform more accessible for all students, two more accessibility enhancements have been added to meet MAS - 
-    1.  If you use a screen reader, the HTML content of an announcement is now read;
-    1. If you use the keyboard to navigate and/or a screen reader, the X to close the Cookie Banner now works properly.
-1. For those of you who use our API, the **SearchClasses** API method now returns whether the training key is enabled or not for each class, and if so, the training key.
-1. On the **Class** profile and **Enrollment** profile pages, the **Instructor** and **Room** lines have been removed if there is no instructor or classroom assigned to the class.
-1. On an announcement, the **Show automatically on login** checkbox, if checked, will now remain checked upon **Save**.
-
-----------------------------
-
-## Released September 12 2019
-
-### <span style="color:#0078d7;">Manual Badge Issuance</span>
-
-With the proper permissions, you and your instructors can now manually issue badges to students directly from the class Roster page. This provides you the flexibility of determining if the badge requirements have been met by a user through the class and possibly other ways not monitored by the TMS. For instance, if the badge is not tied to an achievement for the class, but you feel the class’ content meets the badge’s requirements, you could manually issue it. 
-
-A badge must be set on its profile to allow manual issuance to be issued via the roster. When you have the proper permissions and there are available badges, you will see an **Issue a Badge** icon to the right of each student from which you can choose the badge.
-
-> ![](./images/whats-new/manual-badge-issuance.png)
-
-### <span style="color:#0078d7;">More Accessibility Improvements to Meet MAS</span>
-In our continuing efforts to improve our accessibility for all students and meet MAS, we have made the following improvements:
-
-1. When a sight-impaired user encounters errors in saving changes to their profile,
-    1. The focus will now automatically return to the first error field.
-    1. The color contrast of the error messages has been enhanced.
-1. When using keyboard navigation,
-    1. The user will now see an outline on the Save button when it has focus.
-    1. The user will now be able to navigate the User menu with the arrow keys. Some screen reader programs may interfere with this capability.
-1. For Screen reader users
-    1. The bookmark on a course assignment will clearly identify whether the bookmark has been selected or not.
-    1. The heading levels on the Contact Information page have been  corrected to progress from heading 1 to heading 2.
-    1. The Training Key field announces as required / invalid if empty on the Training Key page.
-
-----------------------------
-
-## Released September 5 2019
-
-### <span style="color:#0078d7;">New Badge Output Option and Filters on Find Achievements</span>
-Operations managers, you now have an easy way to view which badges are attached to which achievements and to filter for achievements with a certain badge attached. We have added the **Badge** output option to the **Find Achievements** page. This column will display the name of the badge attached to the achievement. The name is a link to the badge profile. If no badge is attached to the achievement, the column will be empty for that achievement. 
-
-You can also filter the results for those achievements that have a certain badge attached using one of two filters. The **Badge Name** filter allows you to filter on part or all of the name of the badge. The **Choose Badge** filter allows you to see badges and select the one you want to use as the filter criteria.
-
-> ![](./images/whats-new/badge-f-and-oo-2.png)
-
-### <span style="color:#0078d7;">TMS Improvements and Fixes</span>
-We have made the following improvements to our TMS:
-
-- For our users who use screen readers, we changed the **Edit User's Basic Information** tab for improved accessibility. The page no longer contains a table around the fields. This change was to meet MAS standards and reduce confusion by screen readers.
-- For managers, we have removed the **Manager/Supervisor** tab and the **Fax** field from the **Contact** tab on the **Organization Profile**. This streamlines the profile by removing items that are not used.
 
 ----------------------------
