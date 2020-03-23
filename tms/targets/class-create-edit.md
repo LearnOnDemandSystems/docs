@@ -24,6 +24,10 @@ You can add your streaming service as the method to deliver a class allowing you
 
 - [How does LODS Integrate with my Streaming Provider?](/tms/tms-administrators/classes/schedule/Integrate-Streaming-Provider.md)
 
+- [Find an Adobe Connect URL or integrate Adobe Connect in the TMS](/tms/tms-administrators/classes/schedule/streaming-AdobeConnect.md)
+
+- [Find a Google Meet URL](/tms/tms-administrators/classes/schedule/streaming-Googlemeet.md)
+
 - [How can I Stream a Class in the TMS using GoToMeeting?](/tms/tms-administrators/classes/schedule/streaming-GoToMeeting.md)
 
 - [How can I Stream a Class in the TMS using Microsoft Teams?](/tms/tms-administrators/classes/schedule/streaming-Teams.md)
