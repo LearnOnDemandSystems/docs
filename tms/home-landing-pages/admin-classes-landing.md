@@ -233,5 +233,5 @@
         <div class="subtopic_title">Why does my lab expire within a week when I am supposed to have access to it for a longer time?</div>
       </a>
     </div>
-  </div>
+  </div> 
 </div>
