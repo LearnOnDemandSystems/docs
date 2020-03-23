@@ -28,7 +28,7 @@ You can add your streaming service as the method to deliver a class allowing you
 
 - [How can I Stream a Class in the TMS using Microsoft Teams?](/tms/tms-administrators/classes/schedule/streaming-Teams.md)
 
-- [How can I Stream a Class in the TMS using Webex?](/tms/tms-administrators/classes/schedule/Webex.md)
+- [How can I Stream a Class in the TMS using Webex?](/tms/tms-administrators/classes/schedule/streaming-Webex.md)
 
 - [How can I Stream a Class in the TMS using Zoom?](/tms/tms-administrators/classes/schedule/streaming-Zoom.md)
 
