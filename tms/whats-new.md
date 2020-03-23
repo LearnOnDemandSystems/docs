@@ -3,7 +3,7 @@
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
 ----------------------------
-## Released March 19 2020
+## Released March 19 2020 
 
 ### <span style="color:#0078d7;">TMS Enhancements and Fixes</span>
 
