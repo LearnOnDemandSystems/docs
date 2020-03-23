@@ -231,7 +231,7 @@
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/add-existing-class-enrollments-to-new-event.md">
         <div class="subtopic_title">Why does my lab expire within a week when I am supposed to have access to it for a longer time?</div>
-      </a>X
+      </a>
     </div>
   </div> 
 </div>
