@@ -245,7 +245,7 @@
           <a href="/tms/tms-administrators/classes/schedule/Integrate-Streaming-Provider.md" class="categoryThread">
             <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
             <span class="categoryTitleFeatured" title="How does LODS Integrate with my Streaming Provider?">How does LODS Integrate with my Streaming Provider?</span>
-            <span class="categoryDescription">Find out how to integrate your streaming provider into a TMS class giving your students and instructor one place to connect virtually, launch their labs and course activities .</span>
+            <span class="categoryDescription">Find out how to integrate your streaming provider into a TMS class giving your students and instructor one place to connect virtually, launch their labs and course activities.</span>
           </a>
         </div>
           <div class="category">
