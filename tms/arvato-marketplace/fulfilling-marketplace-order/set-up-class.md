@@ -37,6 +37,7 @@ Instructors and students can be added later.
 ## Related Articles
 Here are other articles that will help you get started and manage your training in the TMS:
 
+- [How does the TMS integrate with my Streaming Provider?](/tms/tms-administrators/classes/schedule/Integrate-Streaming-Provider.md)
 - [How do I add an instructor to a class?](add-instructor-to-class.md)
 - [Do I need to purchase labs for the instructor?](../faq-for-arvato-marketplace/purchase-labs-for-instructor.md)
 - [How do I enroll students in a class?](enroll-students-in-class.md)
