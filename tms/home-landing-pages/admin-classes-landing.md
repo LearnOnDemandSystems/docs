@@ -24,6 +24,9 @@
         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/create-class.md">
         <div class="subtopic_title">How do I create a class?</div>
       </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/integrate-streaming-provider.md">
+            <div class="subtopic_title">How does LODS Integrate with my Streaming Provider?</div>
+        </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/Integrate-Streaming-Provider.md">
         <div class="subtopic_title">How does LODS Integrate with my Streaming Provider?</div>
       </a>
