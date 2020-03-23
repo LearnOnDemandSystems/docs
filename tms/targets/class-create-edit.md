@@ -19,8 +19,8 @@ There are several options possible when creating or editing a class. The followi
 - [How can I use my organization’s virtual meeting program in my virtual classes?](../tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md)
 - [How do I use multiple classrooms for a class?](../tms-administrators/classes/classrooms-equipment/use-multiple-classrooms-for-class.md)
 
-## Virtual Classroom Delivery
-You can add your streaming provider as the Delivery for a TMS class. The following articles explain adding blah blah...
+## Virtual Classes
+You can add your streaming service as the method to deliver a class allowing your class to enter a virtual meeting, launch their labs and course activities from the same page. The following articles explain adding a streaming service or virtual meeting provider for a class.
 
 - [How does LODS Integrate with my Streaming Provider?](../tms/tms-administrators/classes/schedule/integrate-streaming-provider.md)
 
