@@ -18,7 +18,7 @@
   <div class="subtopic selected">
     <div id="header_1" class="subtopic_header" tabindex="0" title="TMS Featured Docs" role="button" aria-selected="true" selected>Featured</div>
     <div id="body_1" class="subtopic_links">
-     <a class="subtopic_link" href="tms/tms-administrators/classes/schedule/integratevirtualmeetingprovider.md">
+     <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/integratevirtualmeetingprovider.md">
             <div class="subtopic_title">How does LODS Integrate with my Virtual Meeting Provider?</div>
             <div class="subtopic_description">Learn how to use your preferred virtual meeting service for your TMS classes.</div>
       </a>
