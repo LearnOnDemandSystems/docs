@@ -1,4 +1,4 @@
-# How can I Stream a Class in the TMS using Google Meet? 
+# How can I use Google Meet in a TMS class? 
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
 
