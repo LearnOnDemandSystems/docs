@@ -8,7 +8,7 @@ Give your students and instructors the convenience of one place for all members 
 
 Start by scheduling a meeting in Google Meet. When you have completed scheduling it you can access the meeting’s URL to input in the TMS class. Copy the URL provided within the meeting invitation. 
 
-![](/tms/images/GooglemeetURL.png)
+![](/tms/images/cvcgoogleurl.png)
 
 **Enter your Google Meet URL in your Class**
 
@@ -18,7 +18,7 @@ If you have used the TMS before for classes, then the only new element is adding
 1. The Virtual Meeting Host menu appears below with **Custom Virtual Classroom** selected and a URL field displayed. Input your Google Meet meeting URL in the **URL** field. 
 
 
-![](/tms/images/GooglemeetVirtualMeetingHostURL.png) 
+![](/tms/images/cvcgoogleclassurl.png) 
 
 The TMS passes along the classId, studentLastName, studentFirstName, and studentEmail to the receiving site. 
 
