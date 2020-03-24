@@ -290,6 +290,7 @@ The following items in LOD are now referenced by an alias instead of an ID, in r
 - Fixed a bug that would cause importing to fail when the lab contained replacement tokens. 
 - Fixed a bug that would prevent blocking web request LCAs to replace tokens when sent in a post/put body.
 
+<!--
 ## **Released July 19, 2019**
 
 **Private Networking in Container Labs**
@@ -433,3 +434,4 @@ LOD is adding a new fabric, to run labs in containers. Currently data centers ha
 
 ---
 
+-->
