@@ -6,11 +6,9 @@ Give your students and instructors the convenience of one place for all members 
 
 **Find your GoToMeeting URL**
 
-Start by scheduling a meeting in GoToMeeting, when this is completed you can access the meeting’s URL to input in the TMS class. In the GoToMeeting set up, locate the meeting ID or the installation URL. Your meeting URL will read: https:// + global.gotomeeting.com/join/ + meeting ID without any dashes. If your meeting ID is 904-466-685, then the URL would be **global.gotomeeting.com/join/904466685**. This URL will log in your users without needing to input a code to enter the meeting. 
+Start by scheduling a meeting in GoToMeeting, when this is completed you can access the meeting’s URL to input in the TMS class. In the meeting information locate the meeting URL and copy it into your TMS class. 
 
-You may type in the meeting URL or find and copy the install URL. If you use the install URL you will need to replace the word “install” with “join” for the correct URL to input into your TMS class. 
-
-![](/tms/images/GoToMeeting-URL.png)
+![](/tms/images/cvcgotomeetingurl.png)
 
 **Enter your GoToMeeting URL in your Class**
 
@@ -20,7 +18,7 @@ If you have used the TMS before for classes, then the only new element is adding
 1. The Virtual Meeting Host menu appears below with **Custom Virtual Classroom** selected and a URL field displayed. Input your GoToMeeting meeting URL in the **URL** field. 
 
 
-![](/tms/images/GotoMeeting-custom-virtual-host-URL.png)
+![](/tms/images/cvcgotomeetingclassurl.png)
 
 The TMS passes along the classId, studentLastName, studentFirstName, and studentEmail to the receiving site. 
 
