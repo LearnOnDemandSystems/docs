@@ -18,9 +18,9 @@
   <div class="subtopic selected">
     <div id="header_1" class="subtopic_header" tabindex="0" title="TMS Featured Docs" role="button" aria-selected="true" selected>Featured</div>
     <div id="body_1" class="subtopic_links">
-     <a class="subtopic_link" href="tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md">
-            <div class="subtopic_title">How can I use my organization’s streaming service in my classes?</div>
-            <div class="subtopic_description">Learn how to use your preferred streaming service for your TMS classes.</div>
+     <a class="subtopic_link" href="tms/tms-administrators/classes/schedule/integratevirtualmeetingprovider.md">
+            <div class="subtopic_title">How does LODS Integrate with my Virtual Meeting Provider?</div>
+            <div class="subtopic_description">Learn how to use your preferred virtual meeting service for your TMS classes.</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/badge-process.md">
         <div class="subtopic_title">What is involved in creating external badges?</div>
