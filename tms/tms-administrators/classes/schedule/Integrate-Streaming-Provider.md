@@ -1,6 +1,6 @@
-# How does LODS Integrate with my Streaming Provider? 
+# How does LODS Integrate with my Virtual Meeting Provider? 
 
-You can easily integrate with the streaming provider of your choice to provide hands-on, interactive virtual training solutions. Integrating a streaming provider or virtual meeting host with the Learn on Demand Systems platform just takes a few clicks to set-up. You can set up training in the LODS Training Management System (TMS) using your preferred virtual meeting provider in your classes. If you are using Teams, GoToMeeting, Adobe Connect, Zoom or another service, it can be used to give students and instructors access within a class. This will give your instructors and students everything they need for their class by clicking buttons on one page. 
+You can easily integrate with the wirtual meeting provider of your choice to provide hands-on, interactive virtual training solutions. Integrating a virtual meeting provider with the Learn on Demand Systems platform just takes a few clicks to set-up. You can set up training in the LODS Training Management System (TMS) using your preferred virtual meeting provider in your classes. If you are using Teams, GoToMeeting, Adobe Connect, Zoom or another service, it can be used to give students and instructors access within a class. This will give your instructors and students everything they need for their class by clicking buttons on one page. 
 
 ## Enter your Meeting URL for your Class 
 
@@ -16,7 +16,7 @@ When students come to their enrollment, they can enter the virtual meeting or op
 
  ![](/tms/images/EnrollmentVMHLaunch.png)
 
-## How to Find Meeting URLs from your Streaming Provider 
+## How to Find Meeting URLs from your Virtual Meeting Provider 
 
 [Find an Adobe Connect URL or integrate Adobe Connect in the TMS](/tms/tms-administrators/classes/schedule/streaming-AdobeConnect.md)
 
