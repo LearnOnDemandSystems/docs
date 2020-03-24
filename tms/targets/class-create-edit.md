@@ -19,4 +19,21 @@ There are several options possible when creating or editing a class. The followi
 - [How can I use my organization’s virtual meeting program in my virtual classes?](../tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md)
 - [How do I use multiple classrooms for a class?](../tms-administrators/classes/classrooms-equipment/use-multiple-classrooms-for-class.md)
 
+## Virtual Classes
+You can add your streaming service as the method to deliver a class allowing your class to enter a virtual meeting, launch their labs and course activities from the same page. The following articles explain adding a streaming service or virtual meeting provider for a class.
+
+- [How does LODS Integrate with my Streaming Provider?](/tms/tms-administrators/classes/schedule/Integrate-Streaming-Provider.md)
+
+- [Find an Adobe Connect URL or integrate Adobe Connect in the TMS](/tms/tms-administrators/classes/schedule/streaming-AdobeConnect.md)
+
+- [Find a Google Meet URL](/tms/tms-administrators/classes/schedule/streaming-Googlemeet.md)
+
+- [How can I Stream a Class in the TMS using GoToMeeting?](/tms/tms-administrators/classes/schedule/streaming-GoToMeeting.md)
+
+- [How can I Stream a Class in the TMS using Microsoft Teams?](/tms/tms-administrators/classes/schedule/streaming-Teams.md)
+
+- [How can I Stream a Class in the TMS using Webex?](/tms/tms-administrators/classes/schedule/streaming-Webex.md)
+
+- [How can I Stream a Class in the TMS using Zoom?](/tms/tms-administrators/classes/schedule/streaming-Zoom.md)
+
 To see all Help articles available for the TMS, you can click the **Home** button at the top of the window.

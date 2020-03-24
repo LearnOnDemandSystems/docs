@@ -16,6 +16,13 @@ To set up a class after a purchase:
 
 From here you will enter the Class information:
 1. Confirm, and correct if necessary, the information displaying in the **Basic Information** section.
+1. To run the class virtually, follow the directions in this section. If you are running an in-person class skip to the Session Times section.
+     1. **Set up a meeting** using your streaming provider.
+     1. Find and copy the **meeting URL**.
+     1. Expand the class **Delivery** section.
+     1. On the **Delivery Type** dropdown select **Virtual**. 
+     1. The Virtual Meeting Host menu appears below with **Custom Virtual Classroom** selected and a URL field displayed. Input your meeting URL in the **URL** field. 
+     For additional help finding specific meeting URLs [click here.](/tms/tms-administrators/classes/schedule/Integrate-Streaming-Provider.md)
 1. Expand the **Session Times** section. This is where you will designate the days and times for the class.
      1. Click **Add Multiple Session Times**.
      1. Confirm or revise **# Sessions** for your class.
@@ -30,6 +37,7 @@ Instructors and students can be added later.
 ## Related Articles
 Here are other articles that will help you get started and manage your training in the TMS:
 
+- [How does the TMS integrate with my Streaming Provider?](/tms/tms-administrators/classes/schedule/Integrate-Streaming-Provider.md)
 - [How do I add an instructor to a class?](add-instructor-to-class.md)
 - [Do I need to purchase labs for the instructor?](../faq-for-arvato-marketplace/purchase-labs-for-instructor.md)
 - [How do I enroll students in a class?](enroll-students-in-class.md)

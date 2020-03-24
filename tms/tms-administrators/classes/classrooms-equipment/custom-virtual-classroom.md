@@ -1,8 +1,8 @@
-## How can I use my organization’s virtual meeting program in my virtual classes?
+## How can I use my organization’s streaming service in my classes?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
 
-If you have a virtual meeting program you would like to use for your virtual classes, all you will need is the URL for it. Your students will be able to access the meeting program from their class enrollment. 
+If you have a streaming service or virtual meeting provider you would like to use for your classes, all you will need is the meeting URL to use for your class. Your students will be able to access the virtual meeting from their class enrollment. 
 
 To set your class up to use your own virtual classroom:
 1. On the **Create/Edit Class** page, expand the **Delivery** section.
@@ -15,6 +15,10 @@ To set your class up to use your own virtual classroom:
 When the students click Enter Classroom, they will be taken to the URL provided. The TMS passes along the classId, studentLastName, studentFirstName, and studentEmail to the receiving site.
 
 > [!KNOWLEDGE] **<sup>1</sup>BEST PRACTICE**: The Enter Classroom button remains available to students on their class enrollment after the class is over. Therefore, it is best to use unique URLs for each class to avoid students from an old class accidentally getting into a new class.
+
+
+
+## Find your class meeting IDs
 
 To find your classes that use custom virtual classrooms, you can use the new **Custom Virtual Classroom** filter and output option on **Find Classes**.
 
