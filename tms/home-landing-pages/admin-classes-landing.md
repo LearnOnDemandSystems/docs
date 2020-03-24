@@ -24,26 +24,26 @@
         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/create-class.md">
         <div class="subtopic_title">How do I create a class?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/integrate-streaming-provider.md">
-            <div class="subtopic_title">How does LODS Integrate with my Streaming Provider?</div>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/integratevirtualmeetingprovider.md">
+            <div class="subtopic_title">How does LODS Integrate with my Virtual Meeting Provider?</div>
         </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-AdobeConnect.md">
-        <div class="subtopic_title">Find an Adobe Connect URL or integrate Adobe Connect in the TMS</div>
+        <div class="subtopic_title">How can I set up Adobe Connect to open directly in a class?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-Googlemeet.md">
-        <div class="subtopic_title">Find a Google Meet URL</div>
+        <div class="subtopic_title">How can I set up Google Meet to open directly in a class?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-GoToMeeting.md">
-        <div class="subtopic_title">How can I Stream a Class in the TMS using GoToMeeting?</div>
+        <div class="subtopic_title">How can I set up GoToMeeting to open directly in a class?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-Teams.md">
-        <div class="subtopic_title">How can I Stream a Class in the TMS using Microsoft Teams?</div>
+        <div class="subtopic_title">How can I set up Microsoft Teams to open directly in a class?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-Webex.md">
-        <div class="subtopic_title">How can I Stream a Class in the TMS using Webex?</div>
+        <div class="subtopic_title">How can I set up Webex to open directly in a class?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-Zoom.md">
-        <div class="subtopic_title">How can I Stream a Class in the TMS using Zoom?</div>
+        <div class="subtopic_title">How can I set up Zoom to open directly in a class?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/cancel-class.md">
         <div class="subtopic_title">How can I cancel a class?</div>
