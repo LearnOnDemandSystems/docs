@@ -27,7 +27,7 @@
         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/integratevirtualmeetingprovider.md">
             <div class="subtopic_title">How does LODS Integrate with my Virtual Meeting Provider?</div>
         </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-AdobeConnect.md">
+        <a class="subtopic_link" href="tms/tms-administrators/classes/schedule/streaming-AdobeConnect.md">
         <div class="subtopic_title">How can I set up Adobe Connect to open directly in a class?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-Googlemeet.md">
