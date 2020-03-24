@@ -242,7 +242,7 @@
     <div class="cardContainerFull">
       <div class="cardContent">
           <div class="category">
-          <a href="/docs/tms/tms-administrators/classes/schedule/Integrate-Streaming-Provider.md" class="categoryThread">
+          <a href="/tms/tms-administrators/classes/schedule/Integrate-Streaming-Provider.md" class="categoryThread">
             <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
             <span class="categoryTitleFeatured" title="How does LODS Integrate with my Virtual Meeting Provider?">How does LODS Integrate with my Virtual Meeting Provider?</span>
             <span class="categoryDescription">Find out how to integrate your virtual meeting provider into a TMS class giving your students and instructor one place to connect virtually, launch their labs and course activities.</span>
