@@ -1,4 +1,4 @@
-# How can I Stream a Class in the TMS using Zoom? 
+# How can I set up Zoom to open directly in a class?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
 
