@@ -246,17 +246,23 @@
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/set-defaults-for-creating-users-and-classes.md">
         <div class="subtopic_title">How do I set the defaults for creating users and classes?</div>
       </a>
-         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-GoToMeeting.md">
-       <div class="subtopic_title">How can I Stream a Class in the TMS using GoToMeeting?</div>
+         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-adobeconnect.md">
+       <div class="subtopic_title">How can use Adobe Connect in a TMS class?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-Teams.md">
-        <div class="subtopic_title">How can I Stream a Class in the TMS using Microsoft Teams?</div>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-googlemeet.md">
+       <div class="subtopic_title">How can I use Google Meet in a TMS class?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-Webex.md">
-        <div class="subtopic_title">How can I Stream a Class in the TMS using Webex?</div>
+       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-gotomeeting.md">
+       <div class="subtopic_title">How can I use GoToMeeting for a TMS class?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-Zoom.md">
-        <div class="subtopic_title">How can I Stream a Class in the TMS using Zoom?</div>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-teams.md">
+        <div class="subtopic_title">How can I use Microsoft Teams in a TMS class?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-webex.md">
+        <div class="subtopic_title">How can I set up Webex to open directly in a class?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-zoom.md">
+        <div class="subtopic_title">How can I set up Zoom to open directly in a class?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/view-scorm-attempts.md">
         <div class="subtopic_title">How do I view SCORM attempts by my students?</div>
@@ -270,8 +276,8 @@
       <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/surveys.md">
         <div class="subtopic_title">How do surveys work?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/Integrate-Streaming-Provider.md">
-        <div class="subtopic_title">How does LODS Integrate with my Streaming Provider?</div>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/integratevirtualmeetingprovider.md">
+        <div class="subtopic_title">How does LODS Integrate with my Virtual Meeting Provider?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/class-or-custom-event-or-course-assignment-to-schedule-training.md">
         <div class="subtopic_title">Should I use a Class or a Custom Event or a Course Assignment to schedule training?</div>
