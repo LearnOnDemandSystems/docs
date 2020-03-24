@@ -1,4 +1,4 @@
-# How can use Adobe Connect in a TMS class? 
+# How can I use Adobe Connect in a TMS class? 
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
 
