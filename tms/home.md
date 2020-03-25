@@ -241,18 +241,18 @@
   <div class="categoriesHeader" tabindex="0" title="Featured Posts" aria-label="Featured Admin Docs">Featured</div>
     <div class="cardContainerFull">
       <div class="cardContent">
-        <div class="category">
+          <div class="category">
+          <a href="/tms/tms-administrators/classes/schedule/integratevirtualmeetingprovider.md" class="categoryThread">
+            <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
+            <span class="categoryTitleFeatured" title="How does LODS Integrate with my Virtual Meeting Provider?">How does LODS Integrate with my Virtual Meeting Provider?</span>
+            <span class="categoryDescription">Find out how to integrate your virtual meeting provider into a TMS class giving your students and instructor one place to connect virtually, launch their labs and course activities.</span>
+          </a>
+        </div>
+          <div class="category">
           <a href="/tms/tms-administrators/badges-achievements/badge-process.md" class="categoryThread">
             <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
             <span class="categoryTitleFeatured" title="What is involved in creating external badges?">What is involved in creating external badges?</span>
             <span class="categoryDescription">Your student can now earn externally supported badges through their achievements in the TMS.</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/tms/tms-administrators/badges-achievements/create-badge.md" class="categoryThread">
-            <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
-            <span class="categoryTitleFeatured" titlte="How do I create a badge?">How do I create a badge?</span>
-            <span class="categoryDescription">After creating the Badge Provider entity, the next step is to set up your badges.</span>
           </a>
         </div>
         <div class="category"> 

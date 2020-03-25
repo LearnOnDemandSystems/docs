@@ -246,6 +246,24 @@
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/set-defaults-for-creating-users-and-classes.md">
         <div class="subtopic_title">How do I set the defaults for creating users and classes?</div>
       </a>
+         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-adobeconnect.md">
+       <div class="subtopic_title">How can use Adobe Connect in a TMS class?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-googlemeet.md">
+       <div class="subtopic_title">How can I use Google Meet in a TMS class?</div>
+      </a>
+       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-gotomeeting.md">
+       <div class="subtopic_title">How can I use GoToMeeting for a TMS class?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-teams.md">
+        <div class="subtopic_title">How can I use Microsoft Teams in a TMS class?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-webex.md">
+        <div class="subtopic_title">How can I set up Webex to open directly in a class?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-zoom.md">
+        <div class="subtopic_title">How can I set up Zoom to open directly in a class?</div>
+      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/view-scorm-attempts.md">
         <div class="subtopic_title">How do I view SCORM attempts by my students?</div>
       </a>
@@ -258,6 +276,9 @@
       <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/surveys.md">
         <div class="subtopic_title">How do surveys work?</div>
       </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/integratevirtualmeetingprovider.md">
+        <div class="subtopic_title">How does LODS Integrate with my Virtual Meeting Provider?</div>
+      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/class-or-custom-event-or-course-assignment-to-schedule-training.md">
         <div class="subtopic_title">Should I use a Class or a Custom Event or a Course Assignment to schedule training?</div>
       </a>
@@ -267,7 +288,10 @@
       <a class="subtopic_link" href="/tms/tms-administrators/users/instructor-management/different-ways-to-set-up-instructor-access.md">
         <div class="subtopic_title">What are different ways to set up instructor access?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/training-key-types.md">
+       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/create-class-basic.md">
+        <div class="subtopic_title">What are the basics to create a class?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/training-key-types.md">
         <div class="subtopic_title">What are the different types of Training Keys and how can they be used?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/duplicate-user-accounts.md">
