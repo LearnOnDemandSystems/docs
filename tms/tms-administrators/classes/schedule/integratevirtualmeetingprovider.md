@@ -18,17 +18,17 @@ When students come to their enrollment, they can enter the virtual meeting or op
 
 ## How to Find Meeting URLs from your Virtual Meeting Provider 
 
-[Find an Adobe Connect URL or integrate Adobe Connect in the TMS](/tms/tms-administrators/classes/schedule/streaming-adobeconnect.md)
+[How can I set up Adobe Connect directly in a class?](/tms/tms-administrators/classes/schedule/streaming-adobeconnect.md)
 
-[Find a Google Meet URL](/tms/tms-administrators/classes/schedule/streaming-googlemeet.md)
+[How can I set up Google Meet directly in a class?](/tms/tms-administrators/classes/schedule/streaming-googlemeet.md)
 
-[Find a GoToMeeting URL](/tms/tms-administrators/classes/schedule/streaming-gotomeeting.md)
+[How can I set up GoToMeeting directly in a class?](/tms/tms-administrators/classes/schedule/streaming-gotomeeting.md)
 
-[Find a Microsoft Teams meeting URL](/tms/tms-administrators/classes/schedule/streaming-teams.md)
+[How can I set up Microsoft Teams directly in a class?](/tms/tms-administrators/classes/schedule/streaming-teams.md)
 
-[Find a Webex meeting URL](/tms/tms-administrators/classes/schedule/streaming-webex.md)
+[How can I set up Webex directly in a class?](/tms/tms-administrators/classes/schedule/streaming-webex.md)
 
-[Find a Zoom Meeting URL](/tms/tms-administrators/classes/schedule/streaming-zoom.md)
+[How can I set up Zoom directly in a class?](/tms/tms-administrators/classes/schedule/streaming-zoom.md)
 
 ## Additional Resources
 
