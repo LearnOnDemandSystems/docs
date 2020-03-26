@@ -512,7 +512,7 @@
         </div> 
     <div class="moreInfo" tabindex="0" title="Meet Virtually">
       <span class="moreInfo_header">Meet Virtually</span>
-      Learn how to use your virtual meeting provider with LODS labs. Your instructor and students access labs from a class. You can provide access to your virtual meeting host and the labs from the same page. For more information on integrating your virtual meeting host <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/integrate-virtualmeetingprovider.md">click here.</a> For informtion on creating a class that integrates a virtual meeting host <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md">click here.</a> Additional links are provided to assist you through the class set process for access to your labs. 
+      Learn how to use your virtual meeting provider with LODS labs. You can provide access to your virtual meeting host and your LODS labs from within a class, giving your students and instructor everything they need on one page. For more information on integrating your virtual meeting host <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/integrate-virtualmeetingprovider.md">click here.</a> For informtion on creating a class that integrates a virtual meeting host <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md">click here.</a>  
     </div>
     <div class="cardsContainer">
     <div class="cardContainer">
