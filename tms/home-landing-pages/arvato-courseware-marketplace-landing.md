@@ -90,7 +90,25 @@
       <a class="subtopic_link" href="/tms/arvato-marketplace/faq-for-arvato-marketplace/students-access-labs.md">
         <div class="subtopic_title">How and when can students access labs?</div>
       </a>
-      <a class="subtopic_link" href="/tms/arvato-marketplace/faq-for-arvato-marketplace/access-skillpipe-courseware.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-adobeconnect.md">
+        <div class="subtopic_title">How can I use Adobe Connect in a TMS class?</div>
+      </a>
+              <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-googlemeet.md">
+        <div class="subtopic_title">How can I use Google Meet in a TMS class?</div>
+      </a>
+              <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-teams.md">
+        <div class="subtopic_title">How can I use GoToMeeting for a TMS class?</div>
+      </a>
+              <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-adobeconnect.md">
+        <div class="subtopic_title">How can I use Microsoft Teams in a TMS class?</div>
+      </a>
+              <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-webex.md">
+        <div class="subtopic_title">How can I set up Webex to open directly in a class?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-zoom.md">
+        <div class="subtopic_title">How can I set up Zoom to open directly in a class?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/arvato-marketplace/faq-for-arvato-marketplace/access-skillpipe-courseware.md">
         <div class="subtopic_title">How can my students access Skillpipe courseware from their class enrollment?</div>
       </a>
       <a class="subtopic_link" href="/tms/arvato-marketplace/user-accounts/reset-user-password.md">
@@ -117,7 +135,10 @@
       <a class="subtopic_link" href="/tms/arvato-marketplace/user-accounts/create-operations-manager.md">
         <div class="subtopic_title">How do I set up another user to schedule classes?</div>
       </a>
-      <a class="subtopic_link" href="/tms/arvato-marketplace/faq-for-arvato-marketplace/need-account-to-schedule-class.md">
+        <a class="subtopic_link" href="/tms/arvato-marketplace/fulfilling-marketplace-order/integrate-virtualmeetingprovider.md">
+        <div class="subtopic_title">How does LODS Integrate with my Virtual Meeting Provider?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/arvato-marketplace/faq-for-arvato-marketplace/need-account-to-schedule-class.md">
         <div class="subtopic_title">I don't have a user account or permissions to set up a class, what should I do?</div>
       </a>
       <a class="subtopic_link" href="/tms/arvato-marketplace/faq-for-arvato-marketplace/reschedule-cancel-student.md">
