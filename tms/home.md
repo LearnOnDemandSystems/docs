@@ -509,6 +509,10 @@
     <div class="moreInfo" tabindex="0" title="Getting started?">
       <span class="moreInfo_header">Getting started?</span>
       If you purchased Learn on Demand Systems labs through the Arvato Courseware Marketplace, read the <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started.md">Getting Started</a> article first, then review the following topics/processes to access and manage your orders.
+        
+     <div class="moreInfo" tabindex="0" title="Meet Virtually">    
+      <span class="moreInfo_header">Meet Virtually</span>
+      Learn how to use your virtual meeting provider with LODS labs. Your instructor and students access labs from a class. You can provide access to your virtual meeting host and the labs from the same page. For more information <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/integrate-virtualmeetingprovider.md">click here.</a> Additional links are provided to assist you through the class set process for access to your labs. 
     </div>
     <div class="cardsContainer">
     <div class="cardContainer">
