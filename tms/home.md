@@ -528,7 +528,7 @@
           <div class="category">  
             <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/integrate-virtualmeetingprovider.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">cloud_done</i>
-              <span class="categoryTitle" title="How can I add a virtual meeting provider to a class?">ow can I add a virtual meeting provider to a class?</span>
+              <span class="categoryTitle" title="How can I add a virtual meeting provider to a class?">How can I add a virtual meeting provider to a class?</span>
             </a>
             </div>
           <div class="category">  
