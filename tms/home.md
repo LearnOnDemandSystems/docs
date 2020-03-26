@@ -526,15 +526,15 @@
             </a>
           </div>
           <div class="category">  
+            <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/integrate-virtualmeetingprovider.md" class="categoryThread">
+              <i class="material-icons light-blue" aria-hidden="true">cloud_done</i>
+              <span class="categoryTitle" title="How can I add a virtual meeting provider to a class?">How do I add an instructor to a class?</span>
+            </a>
+            </div>
+          <div class="category">  
             <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/enroll-students-in-class.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">cloud_done</i>
               <span class="categoryTitle" title="How do I enroll students in a class?">How do I enroll students in a class?</span>
-            </a>
-          </div>
-          <div class="category">  
-            <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/add-instructor-to-class.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">cloud_done</i>
-              <span class="categoryTitle" title="How do I add an instructor to a class?">How do I add an instructor to a class?</span>
             </a>
           </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/arvato-courseware-marketplace-landing.md" title="View all" aria-label="View all Arvato Marketplace Fulfilling Your Lab Order Docs">View all</a></div>
