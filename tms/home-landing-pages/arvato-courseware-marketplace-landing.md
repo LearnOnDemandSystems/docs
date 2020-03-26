@@ -24,6 +24,9 @@
       <a class="subtopic_link" href="/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md">
         <div class="subtopic_title">How do I set up a class?</div>
       </a>
+        <a class="subtopic_link" href="/tms/arvato-marketplace/fulfilling-marketplace-order/integrate-virtualmeetingprovider.md">
+        <div class="subtopic_title">How can I add a virtual meeting provider to a class?</div>
+      </a>
       <a class="subtopic_link" href="/tms/arvato-marketplace/fulfilling-marketplace-order/enroll-students-in-class.md">
         <div class="subtopic_title">How do I enroll students in a class?</div>
       </a>
