@@ -16,7 +16,9 @@ The **Launch** command will launch a specified lab for a specified user.
 |tag|String|No|An optional parameter that can be used for tagging the lab instance with your own custom data.|
 |ipAddress|String|No|When specified, Lab on Demand will attempt to launch the lab in the closest available delivery region. You should provide the IP address of the user that is taking the lab, not the IP address of your system.|
 |regionId|Integer|No|When specified, Lab on Demand will attempt to launch the lab in the specified delivery region. Delivery regions can be found using the DeliveryRegions command or Catalog command.|
-|variable-*name*|string|No|Allows you to set the values of named parameters used within the lab|
+|roleId|Integer|No|Allows you specify the role(s) to assign to the user. You may pass multiple instances of this parameter to specify multiple roles. Roles are used for specialized integration purposes and are not needed in typical integration scenarios. Role IDs will be provided by Learn on Demand Systems when appropriate.|
+|variable-*name*|string|No|Allows you to set the values of named parameters used within the lab instance.|
+|lang|string|No|Allows you to override the lab client UI language. Please note this only affects the lab client UI elements such as menus, tabs, and dialogs. The lab instructions and content are not affected.|
 ## Response
 
 |Property|Type|Nullable|Notes|
