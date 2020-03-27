@@ -15,8 +15,8 @@ The **Launch** command will launch a specified lab for a specified user.
 |canBeMarkedComplete|Integer|No|An optional parameter used to specify if the lab can be marked as complete by the student. 1 = true, 2 = false. If not specified, defaults to 1 (true).|
 |tag|String|No|An optional parameter that can be used for tagging the lab instance with your own custom data.|
 |ipAddress|String|No|When specified, Lab on Demand will attempt to launch the lab in the closest available delivery region. You should provide the IP address of the user that is taking the lab, not the IP address of your system.|
-|regionId|Integer|No|When specified, Lab on Demand will attempt to launch the lab in the specified delivery region. Delivery regions can be found using the DeliveryRegions command or Catalog command.
-
+|regionId|Integer|No|When specified, Lab on Demand will attempt to launch the lab in the specified delivery region. Delivery regions can be found using the DeliveryRegions command or Catalog command.|
+|variable-*name*|string|No|Allows you to set the values of named parameters used within the lab|
 ## Response
 
 |Property|Type|Nullable|Notes|
