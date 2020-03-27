@@ -147,11 +147,11 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
 >
 > ### **PowerShell**
 >
-> Variables can be declared via PowerShell and then re-used in lab instructions by the following syntax - where <nameHere> is the variable name and <valueHere> is the variable value:
+> Variables can be declared via PowerShell and then re-used in lab instructions by the following syntax - where nameHere is the variable name and valueHere is the variable value:
 > 
 > Set the variable
 >
-> ```Set-LabVariable -Name <nameHere> -Value <valueHere>```
+> ```Set-LabVariable -Name nameHere -Value valueHere```
 > 
 > Recall the variable
 >  
