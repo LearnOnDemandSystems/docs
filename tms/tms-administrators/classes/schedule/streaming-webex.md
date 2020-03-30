@@ -8,7 +8,7 @@ Give your students and instructors the convenience of one place for all members 
 
 When you have completed scheduling a meeting in Webex you can access the meeting’s URL to input in the TMS class. Look up the meeting by name on your Cisco Webex site. Under Meeting Information, you will find the Meeting Link. Copy the URL provided. If you have not set a password for the meeting, your users can attend once the meeting has started without registering or entering a password.
 
-![](/tms/images/cvcwebexurl.png)
+![](/tms/images/cvcwebexurl1.png)
 
 **Enter your webex URL in your Class**
 
