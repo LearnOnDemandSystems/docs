@@ -8,7 +8,7 @@ Give your students and instructors the convenience of one place for all members 
 
 Start by scheduling a meeting in GoToMeeting, when this is completed you can access the meeting’s URL to input in the TMS class. In the meeting information locate the meeting URL and copy it into your TMS class. 
 
-![](/tms/images/cvcgotomeetingurl.png)
+![](/tms/images/cvcgotomeetingurl1.png)
 
 **Enter your GoToMeeting URL in your Class**
 
