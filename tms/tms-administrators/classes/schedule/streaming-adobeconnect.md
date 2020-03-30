@@ -4,7 +4,7 @@
 
 Give your students and instructors the convenience of one place for all members of the class to open their virtual classroom and all their course activities and labs. Deliver your Instructor-led training virtually with Adobe Connect within a TMS class.  
 
-If you have an Adobe Connect license, you have a choice in how you set up your virtual meeting delivery. We have an integration in the TMS using Adobe Connect. The convenience of this choice is that creating a class also schedules your meeting in Adobe, can be set up to use a class templates, and has settings to control how long the Enter Classroom button shows before and after class for instructors or students. If you would like to integrate Adobe Connect, please contact [Customer Support.](https://www.learnondemandsystems.com/customer-support/) Alternately, you can use our Custom Virtual Meeting Host. 
+If you have an Adobe Connect license, you have a choice in how you set up your virtual meeting delivery. We have an integration in the TMS using Adobe Connect. The convenience of this choice is that creating a class also schedules your meeting in Adobe, can be set up to use class meeting templates, has settings to control how long the Enter Classroom button shows before and after class for instructors or students, and also gives students access to recordings of class sessions through their TMS enrollment. If you would like to integrate Adobe Connect, please contact [Customer Support.](https://www.learnondemandsystems.com/customer-support/) Alternately, you can use our Custom Virtual Meeting Host. 
 
 **Find your Adobe Connect meeting URL**
 
