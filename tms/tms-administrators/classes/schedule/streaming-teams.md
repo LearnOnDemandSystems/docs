@@ -8,7 +8,7 @@ Give your students and instructors the convenience of one place for all members 
 
 Start by scheduling a meeting in Teams through the Calendar. You will need to add an attendee in order to have a link display for the meeting; this may be yourself or the class instructor.  Once you have scheduled the meeting, open it from the calendar to access the meeting’s URL to input in the TMS class. **Right-click on the Join Microsoft Teams Meeting** link and choose **Copy Link** to obtain the URL provided within the meeting invitation. Using this will log your users in without needing to input a code to enter the meeting. 
 
-![](/tms/images/cvcteamsurl.png)
+![](/tms/images/cvcteamsurl1.png)
 
 **Enter your Teams URL in your Class**
 
