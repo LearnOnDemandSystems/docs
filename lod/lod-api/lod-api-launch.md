@@ -18,6 +18,7 @@ The **Launch** command will launch a specified lab for a specified user.
 |regionId|Integer|No|When specified, Lab on Demand will attempt to launch the lab in the specified delivery region. Delivery regions can be found using the DeliveryRegions command or Catalog command.|
 |roleId|Integer|No|Allows you specify the role(s) to assign to the user. You may pass multiple instances of this parameter to specify multiple roles. Roles are used for specialized integration purposes and are not needed in typical integration scenarios. Role IDs will be provided by Learn on Demand Systems when appropriate.|
 |variable-*name*|string|No|Allows you to set the values of named variables used within the lab instance.|
+<!--
 |lang|string|No|Allows you to override the lab client UI language. Please note this only affects the lab client UI elements such as menus, tabs, and dialogs. The lab instructions and content are not affected.|
 | | | | en = English |
 | | | | es = Spanish |
@@ -26,6 +27,8 @@ The **Launch** command will launch a specified lab for a specified user.
 | | | | pa = Japanese  |
 | | | | zh = Chinese  |
 | | | | ko = Korean  |
+
+-->
 
 ## Response
 
