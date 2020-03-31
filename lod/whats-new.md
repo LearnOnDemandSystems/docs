@@ -26,8 +26,6 @@
 
     	> :::
 
-    	> ![](images/section-in-lab-instructions.png "Sections")
-
     - **IDLx Drop-down**: there is a new @lab token to add a drop-down menu to lab instructions, and assign multiple values to the drop-down menu. The values added to the drop-down become variables in the lab and can be assigned to IDLx sections as a way to show/hide lab instructions. The @lab token can be found in the @lab button when editing lab instructions or by using the syntax below.
 
     - **Dynamic Includes**: IDLx already supports displaying lab instructions stored in GitHub via a Markdown Include. That functionality has been expanded to use variables set in the lab to display lab instructions based on the drop-down menu selection. This requires the file names of the content in GitHub to have the variable value at the end of the file name, and a Section created in the lab instructions with a variable that has been set via LCA, ABA, an IDLx textbox or an IDLx drop-down menu.
