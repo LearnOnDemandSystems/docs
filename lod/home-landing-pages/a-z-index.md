@@ -218,6 +218,10 @@
         <div class="subtopic_title">Upgrade IDL (legacy) to IDLx</div>
         <div class="subtopic_description">This document assists in upgrading an IDL (legacy) lab to IDLx.</div>
       </a>
+      <a class="subtopic_link" href="/lod/variable-display.md">
+        <div class="subtopic_title">Variable Display for Lab Instructions</div>
+        <div class="subtopic_description">Variably display lab instructions and lab instructions elements based on lab variables.</div>
+      </a>
       <a class="subtopic_link" href="/lod/vm-based-lab-build-best-practices.md">
         <div class="subtopic_title">Virtual Machine Based Lab Development - Best Practices</div>
         <div class="subtopic_description">Recommendations and best practices for cloud-hosted and datacenter-hosted virtual machines.</div>

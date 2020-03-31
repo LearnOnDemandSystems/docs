@@ -35,21 +35,21 @@
   <div class="subtopic">
     <div id="header_1" class="subtopic_header" tabindex="0" title="Lab Instruction Authoring Docs" role="button" aria-selected="false">Lab Instruction Authoring</div>
     <div id="body_1" class="subtopic_links">
-      <a class="subtopic_link" href="/guides/idl2/idlv2-authoring-guide-and-best-practice.md">
-        <div class="subtopic_title">IDLx Authoring Guide</div>
-        <div class="subtopic_description">This document covers Markdown, lab instruction editor interface, uploading files into your lab, and many other topics to assist with authoring your IDLx lab.</div>
-      </a>
       <a class="subtopic_link" href="/lod/idlx-development-best-practices.md">
         <div class="subtopic_title">IDLx Lab Development Best Practices</div>
         <div class="subtopic_description">This document covers best practices for IDLx lab development, to assist in creating a rich learning experience.</div>
+      </a>
+      <a class="subtopic_link" href="/guides/idl2/idlv2-authoring-guide-and-best-practice.md">
+        <div class="subtopic_title">IDLx Authoring Guide</div>
+        <div class="subtopic_description">This document covers Markdown, lab instruction editor interface, uploading files into your lab, and many other topics to assist with authoring your IDLx lab.</div>
       </a>
       <a class="subtopic_link" href="/guides/idl2/markdown-user-guide.md">
         <div class="subtopic_title">Markdown User Guide</div>
         <div class="subtopic_description">This document covers Markdown in detail, including syntax for all supported Markdown.</div>
       </a>
-                  <a class="subtopic_link" href="/lod/idlx-lab-instruction-editor.md">
-        <div class="subtopic_title">IDLx Instruction Editor Overview</div>
-        <div class="subtopic_description">This document is an overview of the lab instruction editor, and an explanation of the various functions available.</div>
+      <a class="subtopic_link" href="/lod/variable-display.md">
+        <div class="subtopic_title">Variable Display for Lab Instructions</div>
+        <div class="subtopic_description">Variably display lab instructions and lab instructions elements based on lab variables.</div>
       </a>
     </div>
   </div>
