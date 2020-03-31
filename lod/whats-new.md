@@ -20,13 +20,13 @@
 
     - **Sections**: Sections are used to group lab instructions and elements together so they may be called up on and manipulated as one. This is done by assigning a lab variable that has been set via LCA, ABA, an IDLx textbox  or an IDLx drop-down menu.
 
-        > Syntax for Sections:
-        >
-	    > :::SectionName(variableName=variableValue)
-	    >
-        > Lab instructions or markdown elements
-        >
-        > :::
+    	> :::sectionName(variableName-variabelValue)
+
+    	> section text or markdown elements
+
+    	> :::
+
+    	> ![](images/section-in-lab-instructions.png "Sections")
 
     - **IDLx Drop-down**: there is a new @lab token to add a drop-down menu to lab instructions, and assign multiple values to the drop-down menu. The values added to the drop-down become variables in the lab and can be assigned to IDLx sections as a way to show/hide lab instructions. The @lab token can be found in the @lab button when editing lab instructions or by using the syntax below.
 
