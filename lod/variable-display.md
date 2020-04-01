@@ -141,7 +141,7 @@ If you have not created a drop-down menu, please see the [IDLx Drop-down Menu se
 Lab instructions can be dynamically displayed based on the variable set in the lab and the variable value appended to the file name in the external repository. 
 
 1. From the lab profile, click **Edit Instructions**.
-1. If the lab variable is not already set in your lab, use [one of the methods above](#-setting-variables) to set a lab variable. 
+1. If the lab variable is not already set in your lab, use [one of the methods above](#setting-variables) to set a lab variable. 
 1. In the lab instructions, enter a Markdown include with a lab variable appended: `!instructions[](url-@lab.Variable(variableName).md)`
 1. Replace `url` with the url to the raw file in your external repository.
 1. Replace `variableName` with the name of the variable you wish to use.
