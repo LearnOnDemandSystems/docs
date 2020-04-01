@@ -30,6 +30,10 @@
         <div class="subtopic_title">Markdown User Guide</div>
         <div class="subtopic_description">This document covers Markdown in detail, including syntax for all supported Markdown.</div>
       </a>
+      <a class="subtopic_link" href="/lod/variable-display.md">
+        <div class="subtopic_title">Variable Display for Lab Instructions</div>
+        <div class="subtopic_description">Variably display lab instructions and lab instructions elements based on lab variables.</div>
+      </a>
     </div>
   </div>
   <div class="subtopic">
