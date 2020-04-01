@@ -157,7 +157,7 @@ Lab instructions can be dynamically displayed based on the variable set in the l
 >
 >**Include syntax with variable in file name**: 
 > 
-> `!instructions[(https://raw.githubusercontent.com/user1/sample1-@lab.Variable(language).md)`
+> `![instructions](https://raw.githubusercontent.com/user1/sample1-@lab.Variable(language).md)`
 > 
 > In this example, the variable value is `en` and the variable name is `language`. 
 
