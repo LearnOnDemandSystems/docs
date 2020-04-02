@@ -170,7 +170,7 @@
         <div class="subtopic_title">How can I track laptops being used for classes taught outside my organization?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md">
-        <div class="subtopic_title">How can I use my organization’s virtual meeting program in my virtual classes?</div>
+        <div class="subtopic_title">How can I find the virtual meeting IDs for classes?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md">
         <div class="subtopic_title">How can I use training keys for students to self-register for a class?</div>
