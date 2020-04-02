@@ -1,4 +1,4 @@
-## How can I find the virtual meeting IDs for classes?
+## How can I find virtual meeting IDs for classes?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
 
