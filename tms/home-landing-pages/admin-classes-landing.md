@@ -126,7 +126,7 @@
     <div class="subtopic_header" tabindex="0" title="Classrooms and Equipment Docs" role="button" aria-selected="false">Classrooms and Equipment</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md">
-        <div class="subtopic_title">How can I find the virtual meeting IDs for classes?</div>
+        <div class="subtopic_title">How can I find virtual meeting IDs for classes?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classrooms.md">
         <div class="subtopic_title">How do I create classrooms?</div>
@@ -163,14 +163,14 @@
       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/find-class-in-session.md">
         <div class="subtopic_title">How can I find a class that is in session?</div>
       </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md">
+        <div class="subtopic_title">How can I find virtual meeting IDs for classes?</div>
+      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/see-classes-in-calendar-view.md">
         <div class="subtopic_title">How can I see classes in a calendar view?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/track-laptops-being-used-for-classes-outside-org.md">
         <div class="subtopic_title">How can I track laptops being used for classes taught outside my organization?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md">
-        <div class="subtopic_title">How can I find the virtual meeting IDs for classes?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md">
         <div class="subtopic_title">How can I use training keys for students to self-register for a class?</div>
