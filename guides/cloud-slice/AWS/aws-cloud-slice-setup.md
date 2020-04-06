@@ -38,8 +38,6 @@ To enable Cloud Slice support, you must perform the following tasks once in each
 
 ### IAM User Creation 
 
- After you have completed the ticket,  you may continue with the next steps in the AWS portal. The ticket confirmation is needed before setting up AWS Cloud Slice in Lab on Demand. In the meantime, you may continue with the below steps in the AWS portal. 
-
 1. Click the **AWS icon** in the upper-left corner to return home. 
 
 1. Under **Find Services**, search for **IAM**. 
@@ -122,7 +120,7 @@ To increase the maximum amount of accounts that can be created:
 
 1. Click **Submit**. 
 
-AWS generally responds within 24 hours, notifying that the case has been completed and limits are increased. 
+AWS generally responds within 24 hours, notifying that the case has been completed and limits are increased. The ticket confirmation is needed before setting up AWS Cloud Slice in Lab on Demand.
  
 Once you have completed the above steps, and AWS has confirmed the maximum amount of accounts has been increased, you will need to [set up your Cloud Slice labs in LOD](aws-setup-cloud-sub-pool-in-lod.md). 
 
