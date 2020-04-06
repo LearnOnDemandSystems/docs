@@ -36,46 +36,6 @@ To enable Cloud Slice support, you must perform the following tasks once in each
 
 1. On the right side of the page, click **Enable** next to _Service control policies_. 
 
-### Increase Maximum Amount of Accounts
-
-Next, we need to increase the maximum amount of accounts that can be created. If you expect 20 lab users, you will need 20 accounts. It is a good idea to increase this amount to allow more accounts than needed, to ensure future events will be supported, or if more lab users join the event. A new ticket with AWS will need to be created each time this needs increased. 
-
->[!Knowledge] Over 1500 accounts requires additional correspondence on the ticket from AWS. They may want justification or more information about why so many accounts are needed.
-
-To increase the maximum amount of accounts that can be created:
-
-1. Click **Support** in the upper-right corner of the page. 
-
-1. Click **Support Center**. 
-
-    ![](../images/aws-support-center.png)
-
-1. Click **Create Case**. 
-
-    ![](../images/create-case.png)
-
-1. Click **Service Limit Increase**. 
-
-1. Under Case Classification; Limit Type, select **Organization**
-
-    ![](../images/case-classification-organizations.png)
-
-1. Under Requests; Limit, select **Number of accounts**. 
-
-    ![](../images/requests-number-of-accounts.png)
-
-1. Enter the number of accounts for the upper limit to be increased to.
-
-1. Under Case Description, enter a justification, or explanation of why you are increasing the number of accounts.
-
-1. Under Contact Options, select **web**. If you prefer, you may selet a different language. 
-
-    ![](../images/contact-options.png)
-
-1. Click **Submit**. 
-
- AWS generally responds within 24 hours, notifying that the case has been completed and limits are increased. 
-
 ### IAM User Creation 
 
  After you have completed the ticket,  you may continue with the next steps in the AWS portal. The ticket confirmation is needed before setting up AWS Cloud Slice in Lab on Demand. In the meantime, you may continue with the below steps in the AWS portal. 
@@ -124,6 +84,46 @@ To increase the maximum amount of accounts that can be created:
 
 >[!alert] Record your access key ID and secret access key in a secure location. Once this page is closed, you will not be able to obtain this information again. If it is lost, the access key must be recreated from the user account settings. 
 
+### Increase Maximum Amount of Accounts
+
+Next, we need to increase the maximum amount of accounts that can be created. If you expect 20 lab users, you will need 20 accounts. It is a good idea to increase this amount to allow more accounts than needed, to ensure future events will be supported, or if more lab users join the event. A new ticket with AWS will need to be created each time this needs increased. 
+
+>[!Knowledge] Over 1500 accounts requires additional correspondence on the ticket from AWS. They may want justification or more information about why so many accounts are needed.
+
+To increase the maximum amount of accounts that can be created:
+
+1. Click **Support** in the upper-right corner of the page. 
+
+1. Click **Support Center**. 
+
+    ![](../images/aws-support-center.png)
+
+1. Click **Create Case**. 
+
+    ![](../images/create-case.png)
+
+1. Click **Service Limit Increase**. 
+
+1. Under Case Classification; Limit Type, select **Organization**
+
+    ![](../images/case-classification-organizations.png)
+
+1. Under Requests; Limit, select **Number of accounts**. 
+
+    ![](../images/requests-number-of-accounts.png)
+
+1. Enter the number of accounts for the upper limit to be increased to.
+
+1. Under Case Description, enter a justification, or explanation of why you are increasing the number of accounts.
+
+1. Under Contact Options, select **web**. If you prefer, you may selet a different language. 
+
+    ![](../images/contact-options.png)
+
+1. Click **Submit**. 
+
+AWS generally responds within 24 hours, notifying that the case has been completed and limits are increased. 
+ 
 Once you have completed the above steps, and AWS has confirmed the maximum amount of accounts has been increased, you will need to [set up your Cloud Slice labs in LOD](aws-setup-cloud-sub-pool-in-lod.md). 
 
 [Back to top][back-to-top]
