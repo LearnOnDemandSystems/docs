@@ -62,7 +62,27 @@
       </a>
     </div>
   </div>
-  <div class="subtopic">
+    <div class="subtopic">
+    <div class="subtopic_header" tabindex="0" title="Classrooms and Equipment Docs" role="button" aria-selected="false">Classrooms and Equipment</div>
+    <div class="subtopic_links">
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md">
+        <div class="subtopic_title">How can I find virtual meeting IDs for classes?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classrooms.md">
+        <div class="subtopic_title">How do I create classrooms?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classroom-outside-org.md">
+        <div class="subtopic_title">How can I create a classroom that is outside my organization's physical location?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/use-multiple-classrooms-for-class.md">
+        <div class="subtopic_title">How do I use multiple classrooms for a class?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/track-laptops-being-used-for-classes-outside-org.md">
+        <div class="subtopic_title">How can I track laptops being used for classes taught outside my organization?</div>
+      </a>
+    </div>
+  </div>
+    <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="Enrollments and Rosters Docs" role="button" aria-selected="false">Enrollments and Rosters</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/change-class-enrollment-status-and-which-to-use.md">
@@ -119,26 +139,6 @@
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md">
         <div class="subtopic_title">What information should I send to students who are registering for class using training keys?</div>
-      </a>
-    </div>
-  </div>
-  <div class="subtopic">
-    <div class="subtopic_header" tabindex="0" title="Classrooms and Equipment Docs" role="button" aria-selected="false">Classrooms and Equipment</div>
-    <div class="subtopic_links">
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md">
-        <div class="subtopic_title">How can I find virtual meeting IDs for classes?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classrooms.md">
-        <div class="subtopic_title">How do I create classrooms?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classroom-outside-org.md">
-        <div class="subtopic_title">How can I create a classroom that is outside my organization's physical location?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/use-multiple-classrooms-for-class.md">
-        <div class="subtopic_title">How do I use multiple classrooms for a class?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/track-laptops-being-used-for-classes-outside-org.md">
-        <div class="subtopic_title">How can I track laptops being used for classes taught outside my organization?</div>
       </a>
     </div>
   </div>
