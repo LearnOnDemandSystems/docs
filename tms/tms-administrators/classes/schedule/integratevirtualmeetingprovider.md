@@ -34,7 +34,7 @@ When students come to their enrollment, they can enter the virtual meeting or op
 
 ## How to Set up a Full Integration for a Virtual Meeting Host
 
-[How can I set up an integrated virtual meeting host?](/tms/tms-administrators/classes/schedule/streaming-zoom.md)
+[How can I set up an integrated virtual meeting host?](/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md)
 
 ## Additional Resources
 
