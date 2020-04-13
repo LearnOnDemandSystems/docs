@@ -10,9 +10,9 @@ Please note, we have no control over changes made in Adobe Connect or Zoom or ou
 
 Once you have an Adobe Connect contract you will need to send LODS the following information. 
 
-1.	The URL for your Adobe Connect account
-1.	The username and password for your account; the account must have full Administrator account permissions
-1.	The number of licenses purchased
+1.	The **URL** for your Adobe Connect account
+1.	The **username** and **password** for your account; the account must have full Administrator account permissions
+1.	The number of **licenses** purchased
 1.	Gather this information and send a request to LODS. [Click here to request a TMS/Adobe Connect integration.](https://supportrequest.learnondemandsystems.com/form-4500904/support-request) 
 
 ## Zoom Integrated Meeting Host Setup
@@ -21,10 +21,10 @@ To integrate Zoom into the TMS, you will need a licensed Zoom account, set up a 
 
 Go to the [Zoom App Marketplace.](https://marketplace.zoom.us/) 
 
-1.	From the Develop menu, select Build App
-1.	This opens a Choose your app type page, on the JWT tile click Create.
+1.	From the **Develop** menu, select **Build App**
+1.	This opens a **Choose your app type** page, on the **JWT** tile click **Create**.
 1.	Fill out the information to create the app
-1.	To set up Zoom, we will need your API Key and API Secret. We also need the email of a licensed Zoom user to verify the set up.  [Click here to request a TMS/Zoom integration.](https://supportrequest.learnondemandsystems.com/form-4500904/support-request) 
+1.	To set up Zoom, we will need your **API Key** and **API Secret**. We also need the **email of a licensed Zoom user** to verify the set up.  [Click here to request a TMS/Zoom integration.](https://supportrequest.learnondemandsystems.com/form-4500904/support-request) 
   
 
 The integration will be broken if you regenerate the API Secret after the integration is set up.
