@@ -62,6 +62,26 @@
       </a>
     </div>
   </div>
+      <div class="subtopic">
+    <div class="subtopic_header" tabindex="0" title="Virtual Meeting Hosts" role="button" aria-selected="false">Virtual Meeting Hosts</div>
+    <div class="subtopic_links">
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md">
+        <div class="subtopic_title">How can I set up an integrated virtual meeting host?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classrooms.md">
+        <div class="subtopic_title">How do I create classrooms?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classroom-outside-org.md">
+        <div class="subtopic_title">How can I create a classroom that is outside my organization's physical location?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/use-multiple-classrooms-for-class.md">
+        <div class="subtopic_title">How do I use multiple classrooms for a class?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/track-laptops-being-used-for-classes-outside-org.md">
+        <div class="subtopic_title">How can I track laptops being used for classes taught outside my organization?</div>
+      </a>
+    </div>
+  </div>
     <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="Classrooms and Equipment Docs" role="button" aria-selected="false">Classrooms and Equipment</div>
     <div class="subtopic_links">
