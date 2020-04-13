@@ -68,16 +68,25 @@
       <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md">
         <div class="subtopic_title">How can I set up an integrated virtual meeting host?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classrooms.md">
-        <div class="subtopic_title">How do I create classrooms?</div>
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-adobeconnect.md">
+        <div class="subtopic_title">How can I use Adobe Connect in a TMS class?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classroom-outside-org.md">
-        <div class="subtopic_title">How can I create a classroom that is outside my organization's physical location?</div>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-googlemeet.md">
+        <div class="subtopic_title">How can I use Google Meet in a TMS class?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/use-multiple-classrooms-for-class.md">
-        <div class="subtopic_title">How do I use multiple classrooms for a class?</div>
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-gotomeeting.md">
+        <div class="subtopic_title">How can I use Go to Meeting in a TMS class?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-teams.md">
+        <div class="subtopic_title">How can I use Microsoft Teams in a TMS class?</div>
+      </a>
+            <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-webex.md">
+        <div class="subtopic_title">How can I use Webex in a TMS class?</div>
+      </a>
+              <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-zoom.md">
+        <div class="subtopic_title">How can I use Zoom in a TMS class?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/custom-virtual-classroom.md">
         <div class="subtopic_title">How can I find virtual meeting IDs for classes?</div>
       </a>
     </div>
