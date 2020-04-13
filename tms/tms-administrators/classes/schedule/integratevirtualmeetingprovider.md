@@ -28,7 +28,7 @@ When students come to their enrollment, they can enter the virtual meeting or op
 
 [How can I set up Microsoft Teams directly in a class?](/tms/tms-administrators/classes/virtual-meetings/streaming-teams.md)
 
-[How can I set up Webex directly in a class?](/tms/tms-administrators/classes/schedule/streaming-webex.md)
+[How can I set up Webex directly in a class?](/tms/tms-administrators/classes/virtual-meetings/streaming-webex.md)
 
 [How can I set up Zoom directly in a class?](/tms/tms-administrators/classes/virtual-meetings/streaming-zoom.md)
 
