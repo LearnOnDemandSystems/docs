@@ -2,6 +2,8 @@
 
 You can easily use the virtual meeting provider of your choice to provide hands-on, interactive virtual training solutions. Setting up a virtual meeting provider with the Learn on Demand Systems platform just takes a few clicks. You can create training in the LODS Training Management System (TMS) using your preferred virtual meeting provider in your classes. If you are using Teams, GoToMeeting, Adobe Connect, Zoom or another service, it can be used to give students and instructors access within a class. This will give your instructors and students everything they need for their class by clicking buttons on one page. 
 
+We also have a full integration into the TMS available using Adobe Connect or Zoom. [Click here for more information.](/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md) 
+
 ## Enter your Meeting URL for your Class 
 
 It quick and easy to set up class access to your virtual meeting provider within a TMS class. All you need is the meeting URL to enter as the Virtual Delivery type when you create a class. 
