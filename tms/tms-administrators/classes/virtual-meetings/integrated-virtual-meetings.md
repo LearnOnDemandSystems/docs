@@ -1,7 +1,5 @@
 # Set up Integrated Virtual Meeting Hosts
 
-> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
-
 We have an integration in place for two virtual meeting platforms: Adobe Connect and Zoom. Integrating a virtual meeting host into the TMS makes scheduling easier. Scheduling a class in the TMS automatically creates a meeting in your virtual meeting host. It also gives each student links to class recordings directly in their enrollment. This gives your students and instructors one place to open their virtual meeting, launch all their class activities, and access any class recordings. 
 
 Please note, we have no control over changes made in Adobe Connect or Zoom or outages on their platforms. We are only providing a service to allow meetings to be created and opened within the TMS platform.
