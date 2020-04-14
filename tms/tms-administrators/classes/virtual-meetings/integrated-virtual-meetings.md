@@ -11,6 +11,8 @@ Once you have an Adobe Connect contract you will need to send LODS the following
 1.	The **URL** for your Adobe Connect account
 1.	The **username** and **password** for your account; the account must have full Administrator account permissions
 1.	The number of **licenses** purchased
+1. The amount of time before class starts and after class ends for your instructor to be able to launch into the meeting. If this is not specified, it will default to 60 minutes before class starts and zero minutes after the class session ends.
+1. The amount of time before class starts and after class ends for your students to be able to launch into the meeting. If this is not specified, it will default to 15 minutes before class starts and zero minutes after the class session ends.
 1.	Gather this information and send a request to LODS. [Click here to request a TMS/Adobe Connect integration.](https://supportrequest.learnondemandsystems.com/form-4500904/support-request) 
 
 ## Zoom Integrated Meeting Host Setup
