@@ -24,27 +24,6 @@
         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/create-class.md">
         <div class="subtopic_title">How do I create a class?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/integratevirtualmeetingprovider.md">
-            <div class="subtopic_title">How does LODS Integrate with my Virtual Meeting Provider?</div>
-        </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-adobeconnect.md">
-        <div class="subtopic_title">How can I set up Adobe Connect to open directly in a class?</div>
-      </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-googlemeet.md">
-        <div class="subtopic_title">How can I set up Google Meet to open directly in a class?</div>
-      </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-gotomeeting.md">
-        <div class="subtopic_title">How can I set up GoToMeeting to open directly in a class?</div>
-      </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-teams.md">
-        <div class="subtopic_title">How can I set up Microsoft Teams to open directly in a class?</div>
-      </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-webex.md">
-        <div class="subtopic_title">How can I set up Webex to open directly in a class?</div>
-      </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-zoom.md">
-        <div class="subtopic_title">How can I set up Zoom to open directly in a class?</div>
-      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/cancel-class.md">
         <div class="subtopic_title">How can I cancel a class?</div>
       </a>
@@ -65,7 +44,10 @@
       <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="Virtual Meeting Hosts" role="button" aria-selected="false">Virtual Meeting Hosts</div>
     <div class="subtopic_links">
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/integratevirtualmeetingprovider.md">
+        <div class="subtopic_title">How can I use my Virtual Meeting Provider in LODS?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md">
         <div class="subtopic_title">How can I set up an integrated virtual meeting host?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-adobeconnect.md">
