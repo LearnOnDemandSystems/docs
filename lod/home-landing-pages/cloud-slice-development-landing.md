@@ -39,7 +39,7 @@
         <div class="subtopic_title">Azure Capacity Limitations</div>
         <div class="subtopic_description">Azure resource capacity limitations, how to avoid them, and what to do if you run into capacity limitations with your Azure subscription.</div>
       </a>
-      <a class="subtopic_link" href="/lod/ACPCreationProcess.md">
+      <a class="subtopic_link" href="/lod/acpcreationprocess.md">
         <div class="subtopic_title">Azure Access Control Policy Creation</div>
         <div class="subtopic_description">Basic information on the steps for creating a restrictive Access Control Policy (ACP) that limits a lab to only the resources it requires.</div>
       </a>
