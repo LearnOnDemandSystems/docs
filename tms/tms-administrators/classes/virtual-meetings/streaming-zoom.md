@@ -4,6 +4,8 @@
 
 Give your students and instructors the convenience of one place for all members of the class to open their virtual classroom and all their course activities and labs. Deliver your Instructor-led training virtually with Zoom within a TMS class.  
 
+If you have a Aoom, you have a choice in how you set up your virtual meeting delivery. We have a full integration in the TMS using Zoom. The convenience of this choice is that creating a class also schedules your meeting in Zoom and also gives students access to recordings of class sessions through their TMS enrollment. If you would like to integrate Zoom, please contact Customer Support. Alternately, you can use our Custom Virtual Meeting Host.
+
 **Find your Zoom meeting URL**
 
 Start by scheduling a meeting in Zoom. When you have completed scheduling it you can access the meeting’s URL to input in the TMS class. Copy the URL provided within the meeting invitation. Using this will log your users in without needing to input a code to enter the meeting. 
@@ -49,6 +51,12 @@ User accounts can be created manually or imported. Once created the users can be
  [How do I create multiple user accounts at once?](https://docs.learnondemandsystems.com/tms/tms-administrators/users/student-management/create-multiple-user-accounts-at-once.md) 
 
  [How can I enroll one or more students?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/enrollments-roster/enroll-multiple-students.md) 
+
+**How to Set up a Full Integration for a Virtual Meeting Host**
+
+[Comparison of using Custom Virtual Meeting Host with a Full Integration of Adobe Connect or Zoom](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/virtual-meetings/vmh-comparison.md)
+
+[How can I set up an integrated virtual meeting host?](/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md)
 
 **Finding Meeting URLs for Classes**
 
