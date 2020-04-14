@@ -76,7 +76,7 @@
     <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="Classrooms and Equipment Docs" role="button" aria-selected="false">Classrooms and Equipment</div>
     <div class="subtopic_links">
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/custom-virtual-classroom.md">
         <div class="subtopic_title">How can I find virtual meeting IDs for classes?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classrooms.md">
@@ -237,8 +237,8 @@
       <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/use-multiple-classrooms-for-class.md">
         <div class="subtopic_title">How do I use multiple classrooms for a class?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/Integrate-Streaming-Provider.md">
-            <div class="subtopic_title">How does LODS Integrate with my Streaming Provider?</div>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/Integrate-Streaming-Provider.md">
+            <div class="subtopic_title">How does LODS Integrate with my Virtual Meeting Provider?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/information-to-send-to-students-when-enrollments-created.md">
         <div class="subtopic_title">What information should I send to students when I create their enrollments?</div>
