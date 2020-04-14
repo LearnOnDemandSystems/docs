@@ -22,7 +22,7 @@ There are several options possible when creating or editing a class. The followi
 ## Using Virtual Meetings in Classes
 You can add your streaming service as the method to deliver a class allowing your class to enter a virtual meeting, launch their labs and course activities from the same page. The following articles explain adding a streaming service or virtual meeting provider for a class.
 
-- [How does LODS Integrate with my Virtual Meeting Provider?](/tms/tms-administrators/classes/schedule/integratevirtualmeetingprovider.md)
+- [How does LODS Integrate with my Virtual Meeting Provider?](/tms/tms-administrators/classes/virtual-meetings/integratevirtualmeetingprovider.md)
 
 - [How can I use Adobe Connect in a class?](/tms/tms-administrators/classes/virtual-meetings/streaming-adobeconnect.md)
 
