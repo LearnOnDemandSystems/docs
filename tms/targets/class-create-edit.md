@@ -24,16 +24,16 @@ You can add your streaming service as the method to deliver a class allowing you
 
 - [How does LODS Integrate with my Virtual Meeting Provider?](/tms/tms-administrators/classes/schedule/integratevirtualmeetingprovider.md)
 
-- [How can I use Adobe Connect in a class?](/tms/tms-administrators/classes/schedule/streaming-adobeconnect.md)
+- [How can I use Adobe Connect in a class?](/tms/tms-administrators/classes/virtual-meetings/streaming-adobeconnect.md)
 
-- [How can I use Google Meet in a class?](/tms/tms-administrators/classes/schedule/streaming-googlemeet.md)
+- [How can I use Google Meet in a class?](/tms/tms-administrators/classes/virtual-meetings/streaming-googlemeet.md)
 
-- [How can I use GoToMeeting in a class?](/tms/tms-administrators/classes/schedule/streaming-gotomeeting.md)
+- [How can I use GoToMeeting in a class?](/tms/tms-administrators/classes/virtual-meetings/streaming-gotomeeting.md)
 
-- [How can I use Microsoft Teams in a class?](/tms/tms-administrators/classes/schedule/streaming-teams.md)
+- [How can I use Microsoft Teams in a class?](/tms/tms-administrators/classes/virtual-meetings/streaming-teams.md)
 
-- [How can I use Webex in a class?](/tms/tms-administrators/classes/schedule/streaming-webex.md)
+- [How can I use Webex in a class?](/tms/tms-administrators/classes/virtual-meetings/streaming-webex.md)
 
-- [How can I use Zoom in a class?](/tms/tms-administrators/classes/schedule/streaming-zoom.md)
+- [How can I use Zoom in a class?](/tms/tms-administrators/classes/virtual-meetings/streaming-zoom.md)
 
 To see all Help articles available for the TMS, you can click the **Home** button at the top of the window.
