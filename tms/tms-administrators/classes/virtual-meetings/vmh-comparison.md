@@ -6,7 +6,22 @@ Scheduling a virtual meeting is from the Delivery section when creating or editi
 
 Below is a comparison chart of features in the Custom VMH, integrated Adobe Connect VMH, and integrated Zoom VMH. Below the chart is more information on the differences in using these features.
 
-
+**Features** | **Custom VMH** | **Integrated Adobe Connect VMH** | **Integrated Zoom VMH**
+-------------|----------------|----------------------------------|------------------------
+**Create a class in TMS and meeting in VHM**
+Manually create meeting in VMH and then input meeting URL in TMS class | X |   |   |
+Creating a class in TMS automatically creates a meeting in VMH |   | X | X |
+**Contracts**
+Contract or License required |   | X | X |
+Requires LODS staff to set up integration |   | X | X |
+**Entering Class**
+Instructor and students launch virtual classroom and class activities from one page | X | X | X |
+Enter classroom link available from the time of set up until link is removed from class, can be launched anytime  | X |   |   |
+Enter classroom link available to instructor 60 minutes before class session starts until class session end time  |   |   | X |
+Enter classroom link available to students 15 minutes before class session starts until class session end time  |   |   | X |
+Enter classroom link access before and after class session is customizable for instructors and students  |   | X |   |
+**Recording Classes**
+Class session recording links available in TMS to instructors and students |   | X | X |
 
 ## Custom Virtual Meeting Host
 
