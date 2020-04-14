@@ -261,7 +261,7 @@
         <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-teams.md">
         <div class="subtopic_title">How can I use Microsoft Teams in a TMS class?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schevirtual-meetingsdule/streaming-webex.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-webex.md">
         <div class="subtopic_title">How can I use Webex in a TMS class?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-zoom.md">
