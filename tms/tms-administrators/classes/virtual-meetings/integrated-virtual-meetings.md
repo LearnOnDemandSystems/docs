@@ -29,4 +29,7 @@ Go to the [Zoom App Marketplace.](https://marketplace.zoom.us/)
 
 The integration will be broken if you regenerate the API Secret after the integration is set up.
 
+### Additional Resources
 
+[Comparison of using Custom Virtual Meeting Host with a Full Integration of Adobe Connect or Zoom](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/virtual-meetings/vmh-comparison.md)
+ 
