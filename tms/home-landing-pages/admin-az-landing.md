@@ -243,10 +243,10 @@
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/see-available-courses-and-determine-cost-for-lab-in-one.md">
         <div class="subtopic_title">How do I see available courses and determine how much I will be charged for a lab in one of them?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/set-defaults-for-creating-users-and-classes.md">
         <div class="subtopic_title">How do I set the defaults for creating users and classes?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-zoom.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md">
         <div class="subtopic_title">How can I set up an integrated virtual meeting host?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-adobeconnect.md">
