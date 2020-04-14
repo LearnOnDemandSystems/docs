@@ -1,4 +1,4 @@
-# How can I set up Webex to open directly in a class?
+# How can I use Webex in a TMS class?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
 
