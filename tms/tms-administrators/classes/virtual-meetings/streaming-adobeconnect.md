@@ -52,6 +52,12 @@ User accounts can be created manually or imported. Once created the users can be
 
  [How can I enroll one or more students?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/enrollments-roster/enroll-multiple-students.md) 
 
+**How to Set up a Full Integration for a Virtual Meeting Host**
+
+[Comparison of using Custom Virtual Meeting Host with a Full Integration of Adobe Connect or Zoom](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/virtual-meetings/vmh-comparison.md)
+
+[How can I set up an integrated virtual meeting host?](/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md)
+
 **Finding Meeting URLs for Classes**
 
 Information on finding meeting URLs is located at the bottom of this article.
