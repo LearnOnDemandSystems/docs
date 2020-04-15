@@ -1,26 +1,24 @@
-# How can I use Adobe Connect in a TMS class? 
+# How can I use Microsoft Teams in a TMS class?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
 
-Give your students and instructors the convenience of one place for all members of the class to open their virtual classroom and all their course activities and labs. Deliver your Instructor-led training virtually with Adobe Connect within a TMS class.  
+Give your students and instructors the convenience of one place for all members of the class to open their virtual classroom and all their course activities and labs. Deliver your Instructor-led training virtually with Microsoft Teams within a TMS class.  
 
-If you have an Adobe Connect license, you have a choice in how you set up your virtual meeting delivery. We have an integration in the TMS using Adobe Connect. The convenience of this choice is that creating a class also schedules your meeting in Adobe, can be set up to use a class templates, and has settings to control how long the Enter Classroom button shows before and after class for instructors or students. If you would like to integrate Adobe Connect, please contact [Customer Support.](https://www.learnondemandsystems.com/customer-support/) Alternately, you can use our Custom Virtual Meeting Host. 
+**Find your Teams meeting URL**
 
-**Find your Adobe Connect meeting URL**
+Start by scheduling a meeting in Teams through the Calendar. You will need to add an attendee in order to have a link display for the meeting; this may be yourself or the class instructor.  Once you have scheduled the meeting, open it from the calendar to access the meeting’s URL to input in the TMS class. **Right-click on the Join Microsoft Teams Meeting** link and choose **Copy Link** to obtain the URL provided within the meeting invitation. Using this will log your users in without needing to input a code to enter the meeting. 
 
-If you choose to use the Custom Virtual Meeting Host rather than the integrated feature, you will need to begin by scheduling a meeting in Adobe Connect. When you have completed scheduling it you can access the meeting’s URL to input in the TMS class. Copy the URL provided in the meeting information. 
+![](/tms/images/cvcteamsurl1.png)
 
-![](/tms/images/cvcadobeurl1.png)
-
-**Enter your Adobe Connect URL in your Class**
+**Enter your Teams URL in your Class**
 
 If you have used the TMS before for classes, then the only new element is adding Teams for your class’ delivery. If you have not set up a class before, you can find links to additional resources below. 
 1. On the **Create/Edit Class** page, expand the **Delivery** section. 
 1. On the **Delivery Type** dropdown select **Virtual**. 
-1. The Virtual Meeting Host menu appears below with **Custom Virtual Classroom** selected and a URL field displayed. Input your Adobe Connect meeting URL in the **URL** field. 
+1. The Virtual Meeting Host menu appears below with **Custom Virtual Classroom** selected and a URL field displayed. Input your Teams meeting URL in the **URL** field. 
 
 
-![](/tms/images/cvcadobeclassurl1.png) 
+![](/tms/images/cvcteamsclassurl.png) 
 
 The TMS passes along the classId, studentLastName, studentFirstName, and studentEmail to the receiving site. 
 
@@ -56,4 +54,4 @@ User accounts can be created manually or imported. Once created the users can be
 
 Information on finding meeting URLs is located at the bottom of this article.
 
- [How can I meeting URLs assigned to classes?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md) 
+ [How can I meeting URLs assigned to classes?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/virtual-meetings/custom-virtual-classroom.md) 

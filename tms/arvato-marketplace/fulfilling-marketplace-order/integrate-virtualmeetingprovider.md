@@ -34,27 +34,11 @@ When students come to their enrollment, they can enter the virtual meeting or op
 
 #### Creating Classes 
 
- [What are the basics to create a class?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/schedule/create-class-basic.md) 
- 
- [How do I create a class?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/schedule/create-class.md) 
+ [How do I create a class?](https://https://docs.learnondemandsystems.com/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md) 
 
 #### Creating User Accounts and Enrolling Students
 
-We have several methods of creating user accounts and enrolling students. The simplest method is to provide each student a training key; the key allows them to create a user account and enroll into class. 
-
- [How to create training keys for student registration](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md) 
-
- [What information do I send to students to register with training keys](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md) 
-
-User accounts can be created manually or imported. Once created the users can be enrolled as a group into your class. 
-
- [How do I create user accounts?](https://docs.learnondemandsystems.com/tms/tms-administrators/users/student-management/create-student-user-accounts.md) 
-
- [How do I create instructor user accounts?](https://docs.learnondemandsystems.com/tms/tms-administrators/users/instructor-management/create-instructor-user-accounts.md) 
-
- [How do I create multiple user accounts at once?](https://docs.learnondemandsystems.com/tms/tms-administrators/users/student-management/create-multiple-user-accounts-at-once.md) 
-
- [How can I enroll one or more students?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/enrollments-roster/enroll-multiple-students.md) 
+ [How do I enroll students in a class?](https://https://docs.learnondemandsystems.com/tms/arvato-marketplace/fulfilling-marketplace-order/enroll-students-in-class.md) 
 
 #### Finding Meeting URLs for Classes
 

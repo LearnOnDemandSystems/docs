@@ -281,6 +281,8 @@ The following are some best practices for incorporating screenshots into your la
 - Do not cover menu labels with context menus that appear when you right-click.
 - Consider highlighting elements in the screenshot that are of particular importance.
 - Make sure that titles of items, dialog boxes, pages, etc. are clearly visible.
+- You should enter alt text and title to the image, so that when a user mouses over it, a description will appear. You can add alt text and a title with the following syntax: `!IMAGE[image alt text](Image.jpg "image title text")`.
+
 
 #### Virtual Machine Select
 
@@ -435,6 +437,8 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
    
 ### Link formatting
 
+>[!KNOWLEDGE] You should enter alt text and title to the link, so that when a user mouses over it, a description will appear. You can add alt text and a title with the following syntax: `!IMAGE[image alt text](Image.jpg "image title text")` 
+
 - **Internal link**: Used to link to a specific section within a document. 
 
     > \[text to display](#link-location "optional link title")
@@ -508,6 +512,8 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 ### Embedded content
 
+>[!KNOWLEDGE] You should enter alt text and title to the embedded content, so that when a user mouses over it, a description will appear. You can add alt text and a title with the following syntax: `!IMAGE[image alt text](Image.jpg "image title text")`  
+
 - **Image**: Used to embed an image inline with other content. When images are clicked, they will open in a new window and display at the images full resolution.
 
     > \![text to display]\(url)
@@ -515,7 +521,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 - **Image Dimensions**: You can specify image dimensions in your lab. Dimension values are in pixels and are placed inside curly braces, immediately after the end of the link URL syntax. Height and width are separated by a "x" in this format:{widthxheight}
 It's also possible to simply supply the width: {width}. In this case, the height is automatically calculated for you to be proportional to the provided width.
 
-  > `![](image url){heightXwidth}` or `{height}`
+    > `![](image url){heightXwidth}` or `{height}`
 
 - **Video:** Used to embed a video inline with other content. The syntax format should look the same as an image, except the video should begin the word VIDEO (all caps).
 
@@ -664,6 +670,19 @@ It's also possible to simply supply the width: {width}. In this case, the height
   
     > ![](images/note-block.png "Note Block")
 
+- **Sections:** used to group lab instructions and elements together so they may be called up on and manipulated as one. This is done by assigning a lab variable that has been set via LCA, ABA, an IDLx textbox  or an IDLx drop-down menu.
+
+    > :::sectionName(variableName-variabelValue)
+
+    > section text or markdown elements
+
+    > :::
+
+    > ![](images/section-in-lab-instructions.png "Sections")
+
+
+
+
 - **Dialog:** Used to open a dialog popup, to display additonal information. This can be useful to make additional information available to the student. Dialogs **should not be used to display websites that are in an iFrame**, as this can cause some abnormal page rendering in the dialog. 
 
     > ^[Text to display in lab  instructions][Reference Link]
@@ -779,22 +798,23 @@ Replacement tokens use the syntax &commat;lab._replacementTokenName_. You can se
 
    > | Replacement token           |                                          |
    > | --------------------------- | ---------------------------------------- |
-   > | lab.LabInstance.Id          | The unique ID of the running lab instance. |
-   > | lab.LabInstance.GlobalId    | The globally unique ID of the running lab instance. |
-   > | lab.LabProfile.Id          | The unique ID of the lab profile.        |
-   > | lab.User.Id                 | The unique ID of user running the lab.   |
-   > | lab.User.FirstName          | The first name of the user running the lab. |
-   > | lab.User.LastName           | The last name of the user running the lab. |
-   > | lab.User.Email              | The e-mail address of the user running the lab. |
-   > | lab.User.ExternalId         | The external ID of the user running the lab (if launched via API). |
-   > | lab.Tag                    | The tag associated with the lab instance (if specified when launched via API). |
-   > | lab.CloudPortal.Link       | A link to the cloud portal.              |
-   > | lab.CloudPortal.Url       | The cloud portal URL (rendered as text, not a link). |
-   > | lab.CloudPortal.SignInLink  | A cloud portal sign-in link.             |
-   > | lab.CloudPortal.SignInUrl   | The cloud portal sign-in URL (rendered as text, not a link). |
-   > | lab.CloudPortal.SignOutLink | A cloud portal sign-out link.            |
-   > | lab.CloudPortal.SignOutUrl  | The cloud portal sign-out URL (rendered as text, not a link). |
-   > | lab.LabInstance.StartDate | The start date of the lab instance |
+   > | `lab.LabInstance.Id`         | The unique ID of the running lab instance. |
+   > | `lab.LabInstance.GlobalId`   | The globally unique ID of the running lab instance. |
+   > |`lab.LabProfile.Id`         | The unique ID of the lab profile.        |
+   > |`lab.User.Id`                 | The unique ID of user running the lab.   |
+   > | `lab.User.FirstName`          | The first name of the user running the lab. |
+   > |`lab.User.LastName`           | The last name of the user running the lab. |
+   > | `lab.User.Email`              | The e-mail address of the user running the lab. |
+   > | `lab.User.ExternalId`         | The external ID of the user running the lab (if launched via API). |
+   > | `lab.Tag`                    | The tag associated with the lab instance (if specified when launched via API). |
+   > | `lab.CloudPortal.Link`       | A link to the cloud portal.              |
+   > | `lab.CloudPortal.Url`       | The cloud portal URL (rendered as text, not a link). |
+   > | `lab.CloudPortal.SignInLink`  | A cloud portal sign-in link.             |
+   > | `lab.CloudPortal.SignInUrl`   | The cloud portal sign-in URL (rendered as text, not a link). |
+   > | `lab.CloudPortal.SignOutLink` | A cloud portal sign-out link.            |
+   > | `lab.CloudPortal.SignOutUrl`  | The cloud portal sign-out URL (rendered as text, not a link). |
+   > | `lab.LabInstance.StartDate` | The start date of the lab instance |
+   > | `lab.DropDownList(name)[val1,val2]` | Adds a drop-down menu with configurable values.|
 
 # Activities
 

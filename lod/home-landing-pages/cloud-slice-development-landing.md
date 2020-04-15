@@ -76,10 +76,6 @@
         <div class="subtopic_title">Cloud Slice Setup Guide</div>
         <div class="subtopic_description">Comprehensive setup guide for configuring a Cloud Slice lab with Lab on Demand and Microsoft Azure or Amazon Web Services.</div>
       </a>
-      <a class="subtopic_link" href="/lod/create-a-restriction-policy.md">
-        <div class="subtopic_title">Create an Access Control Policy</div>
-        <div class="subtopic_description">Create a Cloud Access Control Policy.</div>
-      </a>
       <a class="subtopic_link" href="/lod/feature-focus/cloud-resource-templates/replacement-tokens.md">
         <div class="subtopic_title">Replacement Tokens</div>
         <div class="subtopic_description">Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat; replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.</div>
@@ -104,6 +100,10 @@
       <a class="subtopic_link" href="/guides/idl2/markdown-user-guide.md">
         <div class="subtopic_title">Markdown User Guide</div>
         <div class="subtopic_description">This document covers Markdown in detail, including syntax for all supported Markdown.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/variable-display.md">
+        <div class="subtopic_title">Variable Display for Lab Instructions</div>
+        <div class="subtopic_description">Variably display lab instructions and lab instructions elements based on lab variables.</div>
       </a>
     </div>
   </div>

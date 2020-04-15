@@ -24,27 +24,6 @@
         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/create-class.md">
         <div class="subtopic_title">How do I create a class?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/integratevirtualmeetingprovider.md">
-            <div class="subtopic_title">How does LODS Integrate with my Virtual Meeting Provider?</div>
-        </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-adobeconnect.md">
-        <div class="subtopic_title">How can I set up Adobe Connect to open directly in a class?</div>
-      </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-googlemeet.md">
-        <div class="subtopic_title">How can I set up Google Meet to open directly in a class?</div>
-      </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-gotomeeting.md">
-        <div class="subtopic_title">How can I set up GoToMeeting to open directly in a class?</div>
-      </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-teams.md">
-        <div class="subtopic_title">How can I set up Microsoft Teams to open directly in a class?</div>
-      </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-webex.md">
-        <div class="subtopic_title">How can I set up Webex to open directly in a class?</div>
-      </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-zoom.md">
-        <div class="subtopic_title">How can I set up Zoom to open directly in a class?</div>
-      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/cancel-class.md">
         <div class="subtopic_title">How can I cancel a class?</div>
       </a>
@@ -62,7 +41,62 @@
       </a>
     </div>
   </div>
-  <div class="subtopic">
+      <div class="subtopic">
+    <div class="subtopic_header" tabindex="0" title="Virtual Meeting Hosts" role="button" aria-selected="false">Virtual Meeting Hosts</div>
+    <div class="subtopic_links">
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/integratevirtualmeetingprovider.md">
+        <div class="subtopic_title">How can I use my Virtual Meeting Provider in LODS?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/vmh-comparison.md">
+        <div class="subtopic_title">Comparison of using Custom Virtual Meeting Host with a Full Integration of Adobe Connect or Zoom</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md">
+        <div class="subtopic_title">How can I set up an integrated virtual meeting host?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-adobeconnect.md">
+        <div class="subtopic_title">How can I use Adobe Connect in a TMS class?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-googlemeet.md">
+        <div class="subtopic_title">How can I use Google Meet in a TMS class?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-gotomeeting.md">
+        <div class="subtopic_title">How can I use Go to Meeting in a TMS class?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-teams.md">
+        <div class="subtopic_title">How can I use Microsoft Teams in a TMS class?</div>
+      </a>
+            <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-webex.md">
+        <div class="subtopic_title">How can I use Webex in a TMS class?</div>
+      </a>
+              <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-zoom.md">
+        <div class="subtopic_title">How can I use Zoom in a TMS class?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/custom-virtual-classroom.md">
+        <div class="subtopic_title">How can I find virtual meeting IDs for classes?</div>
+      </a>
+    </div>
+  </div>
+    <div class="subtopic">
+    <div class="subtopic_header" tabindex="0" title="Classrooms and Equipment Docs" role="button" aria-selected="false">Classrooms and Equipment</div>
+    <div class="subtopic_links">
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/custom-virtual-classroom.md">
+        <div class="subtopic_title">How can I find virtual meeting IDs for classes?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classrooms.md">
+        <div class="subtopic_title">How do I create classrooms?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classroom-outside-org.md">
+        <div class="subtopic_title">How can I create a classroom that is outside my organization's physical location?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/use-multiple-classrooms-for-class.md">
+        <div class="subtopic_title">How do I use multiple classrooms for a class?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/track-laptops-being-used-for-classes-outside-org.md">
+        <div class="subtopic_title">How can I track laptops being used for classes taught outside my organization?</div>
+      </a>
+    </div>
+  </div>
+    <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="Enrollments and Rosters Docs" role="button" aria-selected="false">Enrollments and Rosters</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/change-class-enrollment-status-and-which-to-use.md">
@@ -123,29 +157,12 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header" tabindex="0" title="Classrooms and Equipment Docs" role="button" aria-selected="false">Classrooms and Equipment</div>
-    <div class="subtopic_links">
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md">
-        <div class="subtopic_title">How can I use my organization’s virtual meeting program in my virtual classes?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classrooms.md">
-        <div class="subtopic_title">How do I create classrooms?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classroom-outside-org.md">
-        <div class="subtopic_title">How can I create a classroom that is outside my organization's physical location?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/use-multiple-classrooms-for-class.md">
-        <div class="subtopic_title">How do I use multiple classrooms for a class?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/track-laptops-being-used-for-classes-outside-org.md">
-        <div class="subtopic_title">How can I track laptops being used for classes taught outside my organization?</div>
-      </a>
-    </div>
-  </div>
-  <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="Admin Classes A-Z Docs" role="button" aria-selected="false">A-Z Index</div>
     <div class="subtopic_links">
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/print-completion-certificates-for-class-by-admin.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/vmh-comparison.md">
+        <div class="subtopic_title">Comparison of using Custom Virtual Meeting Host with a Full Integration of Adobe Connect or Zoom</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/print-completion-certificates-for-class-by-admin.md">
         <div class="subtopic_title">How can an administrator print completion certificates for a class?</div>
       </a>
       <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/access-completed-labs.md">
@@ -163,14 +180,14 @@
       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/find-class-in-session.md">
         <div class="subtopic_title">How can I find a class that is in session?</div>
       </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md">
+        <div class="subtopic_title">How can I find virtual meeting IDs for classes?</div>
+      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/see-classes-in-calendar-view.md">
         <div class="subtopic_title">How can I see classes in a calendar view?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/track-laptops-being-used-for-classes-outside-org.md">
         <div class="subtopic_title">How can I track laptops being used for classes taught outside my organization?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md">
-        <div class="subtopic_title">How can I use my organization’s virtual meeting program in my virtual classes?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md">
         <div class="subtopic_title">How can I use training keys for students to self-register for a class?</div>
@@ -190,14 +207,26 @@
         <a class="subtopic_link" href="/tms/tms-administrators/classes/instructors/find-classes-for-particular-instructor.md">
         <div class="subtopic_title">How can I find the classes for a particular instructor?</div>
       </a>
-       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-GoToMeeting.md">
-       <div class="subtopic_title">How can I Stream a Class in the TMS using GoToMeeting?</div>
+       <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md">
+       <div class="subtopic_title">How can I set up an integrated Virtual Meeting Host?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-Teams.md">
-        <div class="subtopic_title">How can I Stream a Class in the TMS using Microsoft Teams?</div>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-adobeconnect.md">
+       <div class="subtopic_title">How can I use Adobe Connect in a TMS class?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-Zoom.md">
-        <div class="subtopic_title">How can I Stream a Class in the TMS using Zoom?</div>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-googlemeet.md">
+        <div class="subtopic_title">How can I use Google Meet in a TMS class?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meeting/streaming-gotomeeting.md">
+        <div class="subtopic_title">How can I use GoToMeeting for a TMS class?</div>
+      </a>       
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meeting/streaming-teams.md">
+       <div class="subtopic_title">How can I use Microsoft Teams in a TMS class?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meeting/streaming-webex.md">
+        <div class="subtopic_title">How can I use Webex in a TMS class?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meeting/streaming-Zoom.md">
+        <div class="subtopic_title">How can I use Zoom in a TMS class?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classrooms.md">
         <div class="subtopic_title">How do I create classrooms?</div>
@@ -226,8 +255,8 @@
       <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/use-multiple-classrooms-for-class.md">
         <div class="subtopic_title">How do I use multiple classrooms for a class?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/Integrate-Streaming-Provider.md">
-            <div class="subtopic_title">How does LODS Integrate with my Streaming Provider?</div>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/Integrate-Streaming-Provider.md">
+            <div class="subtopic_title">How does LODS Integrate with my Virtual Meeting Provider?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/information-to-send-to-students-when-enrollments-created.md">
         <div class="subtopic_title">What information should I send to students when I create their enrollments?</div>

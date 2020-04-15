@@ -3,6 +3,19 @@
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
 ----------------------------
+## Released April 02 2020 
+
+### <span style="color:#0078d7;">TMS Enhancements and Fixes</span>
+
+1. API – We added some return values to several API calls. The SearchLabInstances call now returns the LastActivity value. The GetCourse and the GetCourseByExternalId calls now include values for CourseDateCreated and CourseLastModifiedDate.
+1. Date and Time formats – We have updated the date formatting to configure based on the browser’s language setting rather than only show in US date format of MM/DD/YYYY. 
+1. Classes – We have modified classes so that the start date and start time must be equal to or later than the user’s current date and time. 
+1. Training Key Pools - Ops Managers are no longer able to create a Training Key Pool using an archived course or a course scheduled to be auto-archived before the expiration date set on the pool. Saving a new pool using an archived course shows the message, “Sorry, the course you are trying to create training keys for is archived.” Saving a pool with a start or expiration date that falls after the auto-archive date, shows either the message, “Sorry, the course you are trying to create training keys for is scheduled to be archived before the training key pool start date. Please select another course.”  Or “Sorry, the course you are trying to create training keys for is scheduled to be archived before the training key pool expiration date. Please select another course.”
+1. Find Subscriptions – We have added an output option for Price on the Find Subscription search page.
+1. Class Roster – We have corrected the negative figure in the Percent complete column on the Class Roster page. The Percent complete column shows the percentage of the required course activities that have been completed by each student. This was displaying a negative number before students started the labs and has been corrected to show zero. 
+1. Find Lab Instances – We have updated the Lab Instance details page which was giving a Server Error. From the Find Lab Instances search, a server error displayed when the Details link was selected. LOD removed some legacy exam information which the page previously displayed. Initially, a fix was put in place that incorrectly removed exam results information, this information has been restored.
+
+----------------------------
 ## Released March 19 2020 
 
 ### <span style="color:#0078d7;">TMS Enhancements and Fixes</span>
@@ -187,91 +200,5 @@ Here is the list of fields you can choose to be required:
 - When class vouchers are used to create a class, all enrollments for the class, regardless of how they are created, will be associated with a class voucher.
 - When a class is updated through the API, users will now see, on the **Class History** page, the correct **Last Modified** and **Last Modified By** data for the update in those output columns.
 - Filters that had their closing “X” out of alignment with other filters have been fixed. All filters will have the Xs aligned.
-
-----------------------------
-
-## Released October 24 2019
-
-### <span style="color:#0078d7;">Organization Profile Fields Moved to Different Tabs</span>
-To make the **Organization Profile** more efficient and easier for you as Operations Managers to use, we have modified the **Basic Information** and **Preferences** Tabs. The **Basic Information** tab is now available to you, but the **Name** field is view-only. The **Preferences** tab has had all the fields you need for your organization moved here. These fields have been organized into the following sections for ease: 
-- Business Settings
-- User Settings
- -Class Settings, including subsections
-     - Set Defaults on new Classes
-     - When choosing instructor(s) for class
-- Course Settings
-- Default Surveys for new Courses and Classes
-- Miscellaneous Settings
-
-In addition, several fields have been renamed for clarity.
-
-Basic Information tab:
-> ![](./images/whats-new/org-basic-info.png)
-
-Preferences tab:
-> ![](./images/whats-new/org-preferences.png)
-
-### <span style="color:#0078d7;">Basic Anonymous User Registration Form</span>
-To facilitate quicker anonymous user registration, we have updated the **Basic Anonymous User Registration** form. Now the user can select their time zone from a dropdown. We have removed the **LinkedIn** and **Twitter** fields. Also, two settings will match your organization settings: the **Enable Notifications** and **Participate in Achievements** checkboxes.
-
-> ![](./images/whats-new/basic-user-reg-form2.png)
-
-### <span style="color:#0078d7;">EULAS on Publishing Groups</span>
-As an Operations Manager, you can now add **End User License Agreements (EULAs)** to your publishing groups that users taking courses in the publishing group will have to accept. This new functionality facilitates our transition to Publishing Groups in place of Content Providers.
-
-To add a EULA to a publishing group:
-1. Edit the publishing group.
-1. On the **Basic Information** tab, click **Choose** next to **End User License Agreement**.
-1. In the **Choose License Agreement** dialog, search for and select the EULA to apply and click **OK**.
-1. Save the publishing group. 
-
-Any student who takes a class or course assignment based on any course in the publishing group will have to agree to the EULA before they can launch the activities in the course.
-
-### <span style="color:#0078d7;">TMS Improvements and Fixes</span>
-We have made the following enhancements to our TMS:
-- Announcements are no longer be marked as **Expired** before their set expiration date.
-- Course custom fields are no longer bulleted.
-- The **Missing Information** flags in the **User Profile** fields are now positioned on the right-hand side of the fields.
-
-----------------------------
-
-## Released October 10 2019
-
-### <span style="color:#0078d7;">Publishing Groups and Course Availability</span>
-Soon courses will only be available for classes and course assignments if they are associated with a publishing group. Therefore, to assist LODS staff and Operations Managers, courses that don't belong to a publishing group are identified by a message at the top of the profile that states: **This course must be added to a Publishing Group to be available for use.** In addition, we have added a **Has Publishing Group** filter and output option to **Find Courses**.
-
-> ![](./images/whats-new/no-pg-course-message.png)
-
-### <span style="color:#0078d7;">Global Achievements</span>
-With the proper permissions, achievements can now be made globally available. Your organization has the ability to opt in or out of global achievements when it has achievements enabled. Opting in allows your student to earn these achievements. This eliminates the need to mark **Enable achievements for outside organizations** on courses.
-
-> ![](./images/whats-new/global-achievements.png)
-
-### <span style="color:#0078d7;">Sort Output Option Lists</span>
-You can now sort the Output Options list on search pages and Choose dialogs alphabetically or by groups (traditional method). Many of these pages and dialogs have large output option lists. The new Sort Alphabetically/Sort by Group toggle at the top of the lists help you to quickly find the output options you are looking for.
-
-> ![](./images/whats-new/alpha-sort-oo.png)
-
-> ![](./images/whats-new/group-sort-oo.png)
-
-**Note**: The 2CSS custom fields in the images are fictitious fields that are only shown to demonstrate that these type of fields are included in the sort.
-
-### <span style="color:#0078d7;">New Output Options on Instructor Schedule</span>
-To help those who schedule classes and plan the logistics for instructors, we have added two new output options on the **Instructor Schedule**: **City** and **Country**. When turned on, these will display the city and country the instructor is from if that data is in their profile.
-
-> ![](./images/whats-new/oo-on-instructor-schedule.png)
-
-**Note**: The instructor names in the image are fictitious.
-
-### <span style="color:#0078d7;">TMS Improvements and Fixes</span>
-We have made the following enhancements to our TMS:
-- For accessibility purposes, screen readers now correctly read the **Login Assistance** page.
-- We now prevent users from being created through the API for organizations that have been disabled.
-- All users created through the API will now have **Enable Notifications** set for them automatically.
-- You can no longer save a class with a **Custom Virtual Classroom** delivery without the **URL** for the classroom.
-- Instructors with the **Response viewing (by instructor class)** permission will now be able to export survey results from their classes.
-- New subscriptions can now be saved without an expiration date if **Expires** is unchecked.
-- Course custom fields can now be deleted.
-- The small Achievements icon is no longer visible above the **Badges** section of a student's **Achievements** page.
 
 ----------------------------

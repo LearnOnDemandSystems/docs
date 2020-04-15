@@ -1,4 +1,4 @@
-# How can I set up Webex to open directly in a class?
+# How can I use Webex in a TMS class?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
 
@@ -8,7 +8,7 @@ Give your students and instructors the convenience of one place for all members 
 
 When you have completed scheduling a meeting in Webex you can access the meeting’s URL to input in the TMS class. Look up the meeting by name on your Cisco Webex site. Under Meeting Information, you will find the Meeting Link. Copy the URL provided. If you have not set a password for the meeting, your users can attend once the meeting has started without registering or entering a password.
 
-![](/tms/images/cvcwebexurl.png)
+![](/tms/images/cvcwebexurl1.png)
 
 **Enter your webex URL in your Class**
 
@@ -54,4 +54,4 @@ User accounts can be created manually or imported. Once created the users can be
 
 Information on finding meeting URLs is located at the bottom of this article.
 
- [How can I meeting URLs assigned to classes?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md) 
+ [How can I meeting URLs assigned to classes?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/virtual-meetings/custom-virtual-classroom.md) 
