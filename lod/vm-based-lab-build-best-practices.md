@@ -32,7 +32,7 @@ You have created or imported a virtual machine.
 
 1.  Select **Enable Dynamic Screen Resizing (requires helper app)** if you want to use dynamic screen resizing.
 
-    >[!KNOWLEDGE] This only works with Windows virtual machines. To use dynamic screen resizing, you need to install **Integration Services**.
+    >[!KNOWLEDGE] This only works with Windows virtual machines. To use dynamic screen resizing, you need to install **[Integration Services](#for-hyper-v-virtual-machines)**.
 
 #### vSphere Virtual Machines
 
@@ -42,17 +42,15 @@ You have created or imported a virtual machine.
 
 1.  Set the **number of processors and the cores per processor**. These values are multiplicative. You can set both the number of processors and the cores per processor and still adhere to the 4 core maximum.
 
-1.  If you need 3D video, select **Enable 3D Video**, and then set an appropriate video RAM value.
-
 #### Network Adapters Tab
 
-1.  If you are configuring an **internal NIC**, select **Specify Ethernet (MAC) Address**, and then generate the MAC address.
+1.  If you are configuring a network adapter to connect to an **internal network**, select **Specify Ethernet (MAC) Address**, and then click "+ Generate" to generate a MAC address.
 
-1.  If you are configuring an **internet-connected NIC using NAT**, select **Specify Ethernet (MAC) address** and generate one.
+1.  If you are configuring an **internet-connected network adapter using Web Access (NAT)**, select **Specify Ethernet (MAC) address** and generate one.
 
     >[!KNOWLEDGE] If you are **configuring multiple virtual machines** at the same time, generate the MAC addresses for one virtual machine, and then save the VM Profile for that virtual machine before configuring the next virtual machine, otherwise the LOD system will generate the same MAC address for each VM Profile for which you click **Generate**.
 
-1.  If you are configuring a NIC that needs a Public IP address, ensure that Specify Ethernet (MAC) address is not checked.
+1.  If you are configuring a network adapter to use with a Web Access (Public IP) network, ensure that "Specify Ethernet (MAC) address" is **not** checked.
 
 ## Create and Edit Lab Profiles
 
@@ -74,7 +72,7 @@ You have created or imported a virtual machine.
 
     >[!KNOWLEDGE] When using DHCP, unless a conflicting IP scope exists in the virtual machine setup, the best practice is to use the pre-configured IP scope and gateway.
 
-1.  For a public IP connection, contact the Help Desk to request approval, and then select **Web Access (Public IP)**.
+1.  For a public IP connection, contact the Help Desk to request approval, to have **Web Access (Public IP)** enabled on the Lab Profile.
 
     >[!ALERT] A public IP address requires approval. In order to get Public IP access, contact the Help Desk at https://lod.one/help.
 
@@ -84,13 +82,13 @@ You have created or imported a virtual machine.
 
     >[!KNOWLEDGE] The recommended best practice is to start the domain controllers first, followed by the servers (as needed), and then clients. 15 to 30 second staggered delays should be sufficient, but this value is dependent on your environment.
 
-1.  When using a start state, set the **Resume Order/Delays**.
+1.  When using a start state, it may be beneficial to set the **Resume Order/Delays** in the same manner.
 
 #### Hyper-V Lab Profiles
 
 1.  For all non-Windows virtual machines, uncheck **Wait for heartbeat before displaying to user**.
 
-    >[!ALERT] The Wait for heartbeat before displaying to user setting does not work with non-Windows virtual machines.
+    >[!ALERT] The **Wait for heartbeat before displaying to user** setting does not work with non-Windows virtual machines.
 
 #### vSphere Lab Profiles
 
@@ -130,7 +128,7 @@ You have created or imported a virtual machine.
 
 8.  In Background, **select a solid color**.
 
-    >[!NOTE] This will provide a smoother controller by the users when the background is visible.
+    >[!NOTE] This will provide a much smoother control by the users when the background is visible.
 
 1.  In Windows Firewall, select **Turn Off** (if appropriate).
 
@@ -152,7 +150,9 @@ You have created or imported a virtual machine.
 
 10. Disable Windows Update.
 
-    >[!KNOWLEDGE] For Windows 8.1 or earlier, you can do this from the Control Panel. In Windows 10, go to Services, double-click Windows Update (wuauserv), and then on the Log On tab, set to logon as "." with no Password. Disable the service, and then set the Startup Type to Disabled.
+    >[!KNOWLEDGE] For Windows 8.1 or earlier, you can do this from the Control Panel. In Windows 10, go to Services, double-click Windows Update (wuauserv), and then on the Log On tab, set to logon as ".\Guest" with no Password. Disable the service, and then set the Startup Type to Disabled.
+    >
+    > You may want to do the same with the Windows Medic Service to keep the Windows Update service disabled.
 
 #### For Hyper-V Virtual Machines
 
@@ -160,11 +160,11 @@ You have created or imported a virtual machine.
 
     >[!NOTE] This will attach a DVD from which you can install Integration Services. If you are prompted to install .NET 4.5, you’ll find a .NET 4.5 installer included on the DVD. You can use File Explorer to open the installer.
 
-    >[!KNOWLEDGE] Integration Services allows automatic screen resizing, command execution within a virtual machine, and automated performance-based scoring.
+    >[!KNOWLEDGE] Integration Services allows automatic screen resizing, command execution within a virtual machine, activities and automated performance-based scoring.
 
 #### For vSphere Platform Virtual Machines
 
-1.  In the lab profile, on the Removable Media tab, click **ESX_VMTools_ForWindows**.
+1.  In the lab profile, on the Removable Media tab, add a **ESX_VMTools_ForWindows** Removable Media Profile.
 
     >[!ALERT] If you don’t see the ESX_VMTools_ForWindows Removable Media option, click **Create Removable Media**, set the name to **ESX_VMTools_ForWindows**, and then in Path, click **Choose (VMware)**. Browse to **VMWare(vm)-tools-windows-9.0.5-1137270.iso**, click **OK**, and then click **Save**. Launch the lab, and then in the DVD Drive list, click **ESX_VMTools_ForWindows**.
 
