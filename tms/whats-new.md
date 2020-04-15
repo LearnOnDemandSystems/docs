@@ -3,6 +3,33 @@
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
 ----------------------------
+## Released April 10 2020
+
+### <span style="color:#0078d7;">Use Zoom for your Integrated Virtual Meeting Host</span>
+
+Zoom can now be integrated in the TMS, allowing you to schedule a class and create the Zoom meeting all at once. The integration also gives each student links to class recordings directly from their enrollment. 
+
+For information about how a Zoom integration functions, click here and for information about setting up a Zoom integration, click here.
+
+### <span style="color:#0078d7;">Enable or Disable Class Activities</span>
+
+You can control when and if students have access to class activities. Instructors can enable or disable any activity in a class they teach. Operations managers can disable activities in classes they manage. This allows blocking students from launching labs requiring an Azure pass. 
+
+The course controls if activities can be disabled in a class. Courses default to not permitting activities to be disabled. When a course allows for activities in a class to be disabled, then any class using that course shows an Enabled check box on activities. All activities in a class, labs, external links (video, document, website), assessments, and SCORM modules can be disabled or re-enabled during class. Surveys cannot be disabled.
+
+In the class, all activities are enabled by default. Instructors and operations managers have a check box on each class activity to disable or re-enable it. Uncheck the Enabled box to disable the activity. Students will see the update to the status of the activity within 30 seconds without refreshing the page. 
+
+> ![](./images/whats-new/tms/images/enable-activity.png)
+
+A disabled activity displays, slightly grayed out with a “Disabled by Instructor” message for students and the Launch button does not display.
+
+> ![](./docs/tms/images/student-disabled-activity.png)
+
+### <span style="color:#0078d7;">TMS Enhancements and Fixes</span>
+
+1. Edit Class – We have corrected the prohibition from editing a class after it has started when the date has not been changed. Users were receiving a message, “You don't have the necessary permissions to set this class’s start date prior the current date and time." when they attempted to update fields other than the class start date and save a class.
+
+----------------------------
 ## Released April 02 2020 
 
 ### <span style="color:#0078d7;">TMS Enhancements and Fixes</span>
