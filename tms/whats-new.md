@@ -23,7 +23,7 @@ In the class, all activities are enabled by default. Instructors and operations 
 
 A disabled activity displays, slightly grayed out with a “Disabled by Instructor” message for students and the Launch button does not display.
 
-> ![](./docs/tms/images/student-disabled-activity.png)
+> ![](./tms/images/student-disabled-activity.png)
 
 ### <span style="color:#0078d7;">TMS Enhancements and Fixes</span>
 
