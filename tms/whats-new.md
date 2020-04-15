@@ -19,11 +19,11 @@ The course controls if activities can be disabled in a class. Courses default to
 
 In the class, all activities are enabled by default. Instructors and operations managers have a check box on each class activity to disable or re-enable it. Uncheck the Enabled box to disable the activity. Students will see the update to the status of the activity within 30 seconds without refreshing the page. 
 
-> ![](./images/whats-new/tms/images/enable-activity.png)
+> ![](https://github.com/LearnOnDemandSystems/docs/blob/master/tms/images/enable-activity.png)
 
 A disabled activity displays, slightly grayed out with a “Disabled by Instructor” message for students and the Launch button does not display.
 
-> ![](./tms/images/student-disabled-activity.png)
+> ![](https://github.com/LearnOnDemandSystems/docs/blob/master/tms/images/student-disabled-activity.png)
 
 ### <span style="color:#0078d7;">TMS Enhancements and Fixes</span>
 
