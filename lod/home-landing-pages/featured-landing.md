@@ -18,6 +18,10 @@
   <div class="subtopic selected">
     <div id="header_1" class="subtopic_header" tabindex="0" title="A-Z Help Docs" role="button" aria-selected="true" selected>Featured</div>
     <div id="body_1" class="subtopic_links">
+      <a class="subtopic_link" href="/lod/lab-on-demand-lti-1p3-integration.md">
+        <div class="subtopic_title">LTI 1.3 Integration Spec</div>
+        <div class="subtopic_description">Information for evaluating LTI 1.3</div>
+      </a>
       <a class="subtopic_link" href="/lod/access-control-lists.md">
         <div class="subtopic_title">Access Control Lists</div>
         <div class="subtopic_description">Controls which websites can be accessed in the lab, by using blacklists and whitelists.</div>
@@ -29,11 +33,7 @@
       <a class="subtopic_link" href="/lod/how-to-use-api-consumer.md">
         <div class="subtopic_title">API Best Practices and How to Use an API Consumer</div>
         <div class="subtopic_description">Guides through the steps to configure an API Consumer in LOD, as well as best practices.</div>
-      </a>
-      <a class="subtopic_link" href="/lod/container-images.md">
-        <div class="subtopic_title">Container Images</div>
-        <div class="subtopic_description">Create Docker container images to use in lab profiles.</div>
-      </a>      
+      </a>     
       <a class="subtopic_link" href="/lod/terminal-access.md">
         <div class="subtopic_title">SSH Terminal Access</div>
         <div class="subtopic_description">Configure virtual machines for SSH terminal access.</div>
