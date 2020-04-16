@@ -41,3 +41,32 @@ More information on configuring Activity Based Assessments and Performance-based
 
 ## LOD LTI Implementation Details
 
+### LTI Launch Specification
+
+For lab launches, Lab On Demand supports LTI Resource Link Launch Requests 
+
+[Learning Tools Interoperability Core Specification](https://www.imsglobal.org/spec/lti/v1p3/#resource-link-launch-request-message)
+
+#### Required Values
+
+- https://purl.imsglobal.org/spec/lti/claim/message_type - will include “LtiResourceLinkRequest”
+
+- https://purl.imsglobal.org/spec/lti/claim/version - must be set to “1.3.0”
+
+- https://purl.imsglobal.org/spec/lti/claim/deployment_id - this value is provided by the platform after initial integration.
+
+- https://purl.imsglobal.org/spec/lti/claim/target_link_uri - default for Lab on Demand is "https://lod-lti-api.labondemand.com/LtiV13/Launch". Use this value unless given something different. 
+
+- https://purl.imsglobal.org/spec/lti/claim/resource_link - this will include and ID, usually a course/module and activity identifier configured by the platform. May also include the title of the activity. 
+
+- User Identity Claims - Valid Identity Claims include sub, given_name, family_name, name, and email. We require only the subject identifier (sub) as outlined in [OpenID Connect Core 1.0](https://openid.net/specs/openid-connect-core-1_0.html#SubjectIDTypes). Anonymous launches are not supported.
+
+-  https://purl.imsglobal.org/spec/lti/claim/roles - Must be declared but can be blank. Will default to unknown if no value provided.
+
+- https://purl.imsglobal.org/spec/lti/claim/custom - this is where the lab id to be launched will be provided as a custom claim. The format in the claim is typically in the format "labid": "<labid>", eg "labid": "15922"
+
+> ### Looking for more information?
+>
+> If you're looking for more LTI 1.3 integration information? Please contact us via your sales representative or [open a support ticket.](https://www.learnondemandsystems.com/customer-support/)
+
+[Back to top](#Lab-on-Demand-LTI-1.3-Integration)
