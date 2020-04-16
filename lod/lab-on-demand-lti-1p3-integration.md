@@ -2,14 +2,14 @@
 
 In Learning Tools Interoperability (LTI), the learning management system (LMS) being used by a student is referred to as the **Platform**, and the external tool or service that is being integrated into that learning management system is referred to as the **Tool**. This LTI support is what allows external course authors to integrate rich Lab on Demand content directly into their learning solution. Since LTI is a standard protocol, Lab on Demand content can be integrated into any learning system that supports the LTI standard as an LTI Consumer.
 
-To integrate content from an **Tool** into an **Platform**, the following information is required:
+To integrate content from a **Tool** into a **Platform**, the following information is required:
 
 The Tool will be responsible for supplying the following.
 - **LTI 1.3 Login / Connect Url** - this URL is used for initially authenticate between the Tool and Platform.
 - **LTI Redirect URL / Launch URL** - this URL serves two purposes. It is used to validate the information passed between the provider and consumer. It also serves as the target URL or launch URL for the labs. You may need to enter this twice into two separate fields depending on the Platform you are using.
 - **JWKS URL / PEM Public Key** - Lab On Demand supports LTI 1.3 authentication by issuing either a JWKS or PEM formatted public key. Please let us know which Platform you are using if you are unsure which authentication method to request.
 
-Once the above information is entered into an Platform, the following information will be returned by the Platform and should be shared with Lab On Demand admin.
+Once the above information is entered into a Platform, the following information will be returned by the Platform and should be shared with Lab On Demand admin.
 
 - **Client ID** - this is used to identify the Platform in the Lab On Demand tool.
 - **Issuer** - this is the base URL of the Platform and is found on the certificate used to sign LTI request. 
@@ -67,6 +67,6 @@ For lab launches, Lab On Demand supports LTI Resource Link Launch Requests
 
 > ### Looking for more information?
 >
-> If you're looking for more LTI 1.3 integration information? Please contact us via your sales representative or [open a support ticket.](https://www.learnondemandsystems.com/customer-support/)
+> If you're looking for more LTI 1.3 integration information, please contact us via your sales representative or [open a support ticket.](https://www.learnondemandsystems.com/customer-support/)
 
 [Back to top](#Lab-on-Demand-LTI-1.3-Integration)
