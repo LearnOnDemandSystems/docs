@@ -61,9 +61,9 @@ For lab launches, Lab On Demand supports LTI Resource Link Launch Requests
 
 - User Identity Claims - Valid Identity Claims include sub, given_name, family_name, name, and email. We require only the subject identifier (sub) as outlined in [OpenID Connect Core 1.0](https://openid.net/specs/openid-connect-core-1_0.html#SubjectIDTypes). Anonymous launches are not supported.
 
--  https://purl.imsglobal.org/spec/lti/claim/roles - Must be declared but can be blank. Will default to unknown if no value provided.
+-  https://purl.imsglobal.org/spec/lti/claim/roles - Must be declared but can be blank.
 
-- https://purl.imsglobal.org/spec/lti/claim/custom - this is where the lab id to be launched will be provided as a custom claim. The format in the claim is typically in the format "labid": "<labid>", eg "labid": "15922"
+- https://purl.imsglobal.org/spec/lti/claim/custom - The format of this claim is typically in the format "labid": "15922" where "15922" is the lab profile ID to be launched.
 
 > ### Looking for more information?
 >
