@@ -17,10 +17,6 @@ Once the above information is entered into a Platform, the following information
 - **JWKS URL** - the endpoint hosting the JWKS used for signing LTI request.
 - **Access Token URL** - the endpoint used to exchange the requested OAuth2 access token during authorization.
 
-[LTI Scoring](#lti-1.3-scoring)
-
-[LOD LTI Implementation Details](#lod-lti-implementation-details)
-
 ## LTI Scoring
 
 Labs initialized through the platform and running in the Lab on Demand tool may return a score to the platform upon completion.
@@ -32,6 +28,9 @@ The scoring can be broken up into two categories, Per Exam level scoring and Per
 >[!knowledge] An optional feature can send the output returned by each individual activity. Please let us know if you are interested in this feature when requesting an API LTI consumer.
 
 More information on configuring Activity Based Assessments and Performance-based Testing can be found below.
+
+- [Activity Based Assessments ](activities.md)
+- [Performance-based Testing](pbt/overview.md#pbt)
 
 ## LOD LTI Implementation Details
 
