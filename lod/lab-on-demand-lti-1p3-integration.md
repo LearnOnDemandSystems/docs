@@ -17,13 +17,11 @@ Once the above information is entered into a Platform, the following information
 - **JWKS URL** - the endpoint hosting the JWKS used for signing LTI request.
 - **Access Token URL** - the endpoint used to exchange the requested OAuth2 access token during authorization.
 
-[LTI 1.3 Scoring](#lti-1.3-scoring)
-
-[Integrating Content](#integrating-content)
+[LTI Scoring](#lti-1.3-scoring)
 
 [LOD LTI Implementation Details](#lod-lti-implementation-details)
 
-## LTI 1.3 Scoring
+## LTI Scoring
 
 Labs initialized through the platform and running in the Lab on Demand tool may return a score to the platform upon completion.
 The scoring can be broken up into two categories, Per Exam level scoring and Per Activity level scoring. Please be sure to specify if you are interested in implementing either scoring option when requesting an API LTI consumer.
@@ -49,21 +47,21 @@ For lab launches, Lab On Demand supports LTI Resource Link Launch Requests
 
 #### Required Values
 
-- https://purl.imsglobal.org/spec/lti/claim/message_type - will include “LtiResourceLinkRequest”
+- <article>https://purl.imsglobal.org/spec/lti/claim/message_type - will include “LtiResourceLinkRequest”</article>
 
-- https://purl.imsglobal.org/spec/lti/claim/version - must be set to “1.3.0”
+- <article>https://purl.imsglobal.org/spec/lti/claim/version - must be set to “1.3.0”</article>
 
-- https://purl.imsglobal.org/spec/lti/claim/deployment_id - this value is provided by the platform after initial integration.
+- <article>https://purl.imsglobal.org/spec/lti/claim/deployment_id - this value is provided by the platform after initial integration.</article>
 
-- https://purl.imsglobal.org/spec/lti/claim/target_link_uri - default for Lab on Demand is "https://lod-lti-api.labondemand.com/LtiV13/Launch". Use this value unless given something different. 
+- <article>https://purl.imsglobal.org/spec/lti/claim/target_link_uri - default for Lab on Demand is "https://lod-lti-api.labondemand.com/LtiV13/Launch". Use this value unless given something different. </article>
 
-- https://purl.imsglobal.org/spec/lti/claim/resource_link - this will include and ID, usually a course/module and activity identifier configured by the platform. May also include the title of the activity. 
+- <article>https://purl.imsglobal.org/spec/lti/claim/resource_link - this will include and ID, usually a course/module and activity identifier configured by the platform. May also include the title of the activity. </article>
 
 - User Identity Claims - Valid Identity Claims include sub, given_name, family_name, name, and email. We require only the subject identifier (sub) as outlined in [OpenID Connect Core 1.0](https://openid.net/specs/openid-connect-core-1_0.html#SubjectIDTypes). Anonymous launches are not supported.
 
--  https://purl.imsglobal.org/spec/lti/claim/roles - Must be declared but can be blank.
+-  <article>https://purl.imsglobal.org/spec/lti/claim/roles - must be declared but can be blank.</article>
 
-- https://purl.imsglobal.org/spec/lti/claim/custom - The format of this claim is typically in the format "labid": "15922" where "15922" is the lab profile ID to be launched.
+- <article>https://purl.imsglobal.org/spec/lti/claim/custom - the format of this claim is typically in the format "labid": "15922" where "15922" is the lab profile ID to be launched.</article>
 
 > ### Looking for more information?
 >
