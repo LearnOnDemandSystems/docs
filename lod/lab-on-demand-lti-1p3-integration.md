@@ -33,10 +33,6 @@ The scoring can be broken up into two categories, Per Exam level scoring and Per
 
 More information on configuring Activity Based Assessments and Performance-based Testing can be found below.
 
-- [Activity Based Assessments ](activities.md)
-- [Performance-based Testing](pbt/overview.md#pbt)
-
-
 ## LOD LTI Implementation Details
 
 ### LTI Launch Specification
@@ -47,21 +43,21 @@ For lab launches, Lab On Demand supports LTI Resource Link Launch Requests
 
 #### Required Claims and Values
 
-- <article> https://purl.imsglobal.org/spec/lti/claim/message_type - will include “LtiResourceLinkRequest”</article>
+- <b><article>https://purl.imsglobal.org/spec/lti/claim/message_type</b> - will include “LtiResourceLinkRequest”</article>
 
-- <article>https://purl.imsglobal.org/spec/lti/claim/version - must be set to “1.3.0”</article>
+- <b><article>https://purl.imsglobal.org/spec/lti/claim/version</b> - must be set to “1.3.0”</article>
 
-- <article>https://purl.imsglobal.org/spec/lti/claim/deployment_id - this value is provided by the platform after initial integration.</article>
+- <b><article>https://purl.imsglobal.org/spec/lti/claim/deployment_id</b> - this value is provided by the platform after initial integration.</article>
 
-- <article>https://purl.imsglobal.org/spec/lti/claim/target_link_uri - default for Lab on Demand is "https://lod-lti-api.labondemand.com/LtiV13/Launch". Use this value unless given something different. </article>
+- <b><article>https://purl.imsglobal.org/spec/lti/claim/target_link_uri</b> - default for Lab on Demand is "https://lod-lti-api.labondemand.com/LtiV13/Launch". Use this value unless given something different. </article>
 
-- <article>https://purl.imsglobal.org/spec/lti/claim/resource_link - this will include and ID, usually a course/module and activity identifier configured by the platform. May also include the title of the activity. </article>
+- <b><article>https://purl.imsglobal.org/spec/lti/claim/resource_link</b> - this will include and ID, usually a course/module and activity identifier configured by the platform. May also include the title of the activity. </article>
 
-- User Identity Claims - Valid Identity Claims include sub, given_name, family_name, name, and email. We require only the subject identifier (sub) as outlined in [OpenID Connect Core 1.0](https://openid.net/specs/openid-connect-core-1_0.html#SubjectIDTypes). Anonymous launches are not supported.
+- <b>User Identity Claims</b> - Valid Identity Claims include sub, given_name, family_name, name, and email. We require only the subject identifier (sub) as outlined in [OpenID Connect Core 1.0](https://openid.net/specs/openid-connect-core-1_0.html#SubjectIDTypes). Anonymous launches are not supported.
 
--  <article>https://purl.imsglobal.org/spec/lti/claim/roles - must be declared but can be blank.</article>
+-  <b><article>https://purl.imsglobal.org/spec/lti/claim/roles</b> - must be declared but can be blank.</article>
 
-- <article>https://purl.imsglobal.org/spec/lti/claim/custom - the format of this claim is typically in the format "labid": "15922" where "15922" is the lab profile ID to be launched.</article>
+- <b><article>https://purl.imsglobal.org/spec/lti/claim/custom</b> - the format of this claim is typically in the format "labid": "15922" where "15922" is the lab profile ID to be launched.</article>
 
 > ### Looking for more information?
 >
