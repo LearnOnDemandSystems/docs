@@ -44,8 +44,12 @@
         <div class="subtopic_description">Integrate edX into your lab profile.</div>
       </a>
       <a class="subtopic_link" href="/lod/lab-on-demand-lti-integration.md">
-        <div class="subtopic_title">LTI Integration</div>
+        <div class="subtopic_title">LTI 1.1 Integration</div>
         <div class="subtopic_description">Documentation on how to configure LTI on a lab profile, and integrate with popular LMS systems.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/lab-on-demand-lti-1p3-integration.md">
+        <div class="subtopic_title">LTI 1.3 Integration Spec</div>
+        <div class="subtopic_description">Information for evaluating LTI 1.3</div>
       </a>
     </div>
   </div>

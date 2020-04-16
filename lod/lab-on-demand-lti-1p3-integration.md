@@ -45,9 +45,9 @@ For lab launches, Lab On Demand supports LTI Resource Link Launch Requests
 
 [Learning Tools Interoperability Core Specification](https://www.imsglobal.org/spec/lti/v1p3/#resource-link-launch-request-message)
 
-#### Required Values
+#### Required Claims and Values
 
-- <article>https://purl.imsglobal.org/spec/lti/claim/message_type - will include “LtiResourceLinkRequest”</article>
+- <article> https://purl.imsglobal.org/spec/lti/claim/message_type - will include “LtiResourceLinkRequest”</article>
 
 - <article>https://purl.imsglobal.org/spec/lti/claim/version - must be set to “1.3.0”</article>
 
