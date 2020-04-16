@@ -175,8 +175,12 @@
         <div class="subtopic_description">Define actions to occur at certain times within the lab's life cycle, such as calling an external service when the lab builds, or sending a notification to the user when the lab is resumed.</div>
       </a>
       <a class="subtopic_link" href="/lod/lab-on-demand-lti-integration.md">
-        <div class="subtopic_title">LTI Integration</div>
-        <div class="subtopic_description">Documentation on how to configure LTI on a lab profile, and integrate with popular LMS systems.</div>
+        <div class="subtopic_title">LTI 1.1 Integration</div>
+        <div class="subtopic_description">Documentation on how to configure LTI 1.1 on a lab profile, and integrate with popular LMS systems.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/lab-on-demand-lti-1p3-integration.md">
+        <div class="subtopic_title">LTI 1.3 Integration Spec</div>
+        <div class="subtopic_description">Information for evaluating LTI 1.3</div>
       </a>
       <a class="subtopic_link" href="/guides/idl2/markdown-user-guide.md">
         <div class="subtopic_title">Markdown User Guide</div>
