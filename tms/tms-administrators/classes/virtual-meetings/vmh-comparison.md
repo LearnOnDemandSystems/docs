@@ -1,4 +1,4 @@
-# Comparison of using Custom Virtual Meeting Host with a Full Integration of Adobe Connect or Zoom
+# Comparison of using Custom Virtual Meeting Host or a Full Integration of Adobe Connect or Zoom
 
 LODS has two options for using a virtual meeting host (VMH) in a TMS class. You may use the Custom VMH or an integrated VMH. Our integrated options are Adobe Connect or Zoom. Each of these features works a little differently and each has benefits and drawbacks to consider.
 
@@ -44,8 +44,9 @@ Recordings are available for each recorded class session. Class recordings are a
 
 ## Zoom Virtual Meeting Host Integration
 
-Once you have a Zoom contract, you will need to set up a JSon Web Token application through Zoom, and send information to our LODS staff to implement the [integration.](/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md)
- Once in place, your Zoom VMH is the default selection for virtual delivery. Scheduling a class automatically creates a Zoom meeting when a licensed Zoom user is added as an instructor. 
+Once you have a Zoom contract, you will need to set up a JSon Web Token application through Zoom, and send information to our LODS staff to implement the [integration.](/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md) Once in place, your Zoom VMH is the default selection for virtual delivery. Scheduling a class automatically creates a Zoom meeting when a licensed Zoom user is added as an instructor. 
+
+The account used to set up the JWT application is where the meetings will be located. The primary instructor in a class must be licensed from the same account that is set up on the JWT application in order to be verified through the API. Your contract with Zoom provides a pool of licenses that are not owned individually, they can be assigned to different users. You may switch out instructors on the licenses in your contract. 
 
 The primary instructor added to a class must be a licensed Zoom user or the class will not save. A class can be created without any instructor added, but you will receive a warning and the meeting in Zoom will not be scheduled until an instructor is added. Students will still see the Enter Classroom button 15 minutes before class but will receive an error if they click it prior to a licensed instructor being added to the class. 
 
@@ -53,7 +54,9 @@ Pre-class and post class access to the virtual classroom defaults to allowing th
 
 The first licensed Zoom instructor to enter the meeting becomes the host, any other instructor entering the meeting will be a participant but enters the meeting directly. A host in Zoom can promote any other participant to be Host. By doing this, the original host loses the privileges and the new host gains them. Prior hosts can always take back hosting duties. 
 
-Once a student selects the Enter Classroom button, they may need to load software prior to entering the meeting. All students enter a lobby where they wait to be until the instructor adds them to the meeting. This gives the instructor the control of who is in the class, they can verify students against the class roster. Students and Instructors may not be identified with their TMS username when they enter a Zoom meeting. This depends on how Zoom identifies them; different factors include if they have attended a Zoom meeting before, the username on their devise, or using multiple instructors in a class. 
+Once a student selects the Enter Classroom button, they may need to load software prior to entering the meeting. All students enter a lobby where they wait to be until the instructor adds them to the meeting. This gives the instructor the control of who is in the class, they can verify students against the class roster. The API enforces use of the lobby since Zoom does not prevent access enter a meeting. 
+
+Students and Instructors may not be identified with their TMS username when they enter a Zoom meeting. This depends on how Zoom identifies them; different factors include if they have attended a Zoom meeting before, the username on their devise, or using multiple instructors in a class. 
 
 If the host exits or is bumped out of the meeting without ending it, someone else will be promoted to host. The new host is set with no regard for whether or not the user is an instructor. 
 
