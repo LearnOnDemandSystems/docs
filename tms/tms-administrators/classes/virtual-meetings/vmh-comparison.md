@@ -1,6 +1,6 @@
 # Comparison of using Custom Virtual Meeting Host or a Full Integration of Adobe Connect or Zoom
 
-LODS has two options for using a virtual meeting host (VMH) in a TMS class. You may use the Custom VMH or an integrated VMH. Our integrated options are Adobe Connect or Zoom. You can use one VMH or have multiple VMHs options for your classes, setting up one does not prevent you from using any of the others. Each of these features works a little differently and each has benefits and drawbacks to consider.
+LODS has two ways to use virtual meeting hosts (VMH) in a TMS class. You may use the Custom VMH or an integrated VMH. Our integrated options are Adobe Connect or Zoom. You can use one or multiple VMHs options for your classes, setting up one does not prevent you from using any of the others. Each of these features works a little differently and each has benefits and drawbacks to consider.
 
 Scheduling a virtual meeting is from the Delivery section when creating or editing a class. When the Delivery Type of Virtual or Physical and Virtual is chosen virtual meeting options display. If you have an integrated VMH it will be selected by default, if not, you will only see the option for Custom Virtual Classroom with a field to enter a URL. For multiple day classes, set up a session for each day using the Add Multiple Session Times link in the Session Times section. 
 
