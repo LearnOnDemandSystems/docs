@@ -48,7 +48,7 @@
         <div class="subtopic_title">How can I use my Virtual Meeting Provider in LODS?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/vmh-comparison.md">
-        <div class="subtopic_title">Comparison of using Custom Virtual Meeting Host with a Full Integration of Adobe Connect or Zoom</div>
+        <div class="subtopic_title">Comparison of using Custom Virtual Meeting Host or a Full Integration of Adobe Connect or Zoom</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md">
         <div class="subtopic_title">How can I set up an integrated virtual meeting host?</div>
