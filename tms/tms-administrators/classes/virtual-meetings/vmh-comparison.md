@@ -1,10 +1,10 @@
 # Virtual Meeting Host Comparison
 
-LODS has two ways to use virtual meeting hosts (VMH) in a TMS class. You may use the Custom VMH or an integrated VMH. Our integrated options are Adobe Connect or Zoom. You can have multiple VMHs options for your classes, by having multiple licenses or integrated VMH or using Custom VMHs. Each of these features works a little differently and each has benefits and drawbacks to consider.
+LODS has two ways to use virtual meeting hosts (VMH) in a TMS class. You may use the custom VMH or an integrated VMH. Our integrated options are Adobe Connect or Zoom. You can have multiple VMHs options for your classes, by having multiple licenses or integrated VMH or using custom VMHs. Each of these features works a little differently and each has benefits and drawbacks to consider.
 
-Scheduling a virtual meeting is from the Delivery section when creating or editing a class. When the Delivery Type of Virtual or Physical and Virtual is chosen virtual meeting options display. If you have an integrated VMH it will be selected by default, but you can select another option like a Custom VHM. If you do not have an integrated VMH, you will only see the option for Custom Virtual Classroom with a field to enter a URL. Only one VHM can be used per class. For multiple day classes, set up a session for each day using the Add Multiple Session Times link in the Session Times section. 
+Scheduling a virtual meeting is from the Delivery section when creating or editing a class. When the Delivery Type of Virtual or Physical and Virtual is chosen virtual meeting options display. If you have an integrated VMH it will be selected by default, but you can select another option like a custom VHM. If you do not have an integrated VMH, you will only see the option for custom Virtual Classroom with a field to enter a URL. Only one VHM can be used per class. For multiple day classes, set up a session for each day using the Add Multiple Session Times link in the Session Times section. 
 
-Below is a comparison chart of features in the Custom VMH, integrated Adobe Connect VMH, and integrated Zoom VMH. Below the chart is more information on the differences in using these features.
+Below is a comparison chart of features in the custom VMH, integrated Adobe Connect VMH, and integrated Zoom VMH. Below the chart is more information on the differences in using these features.
 
 **Features** | **Custom VMH** | **Integrated Adobe Connect VMH** | **Integrated Zoom VMH**
 -------------|----------------|----------------------------------|------------------------
@@ -25,7 +25,7 @@ Class session recording links available in TMS to instructors and students |   |
 
 ## Custom Virtual Meeting Host
 
-The Custom VMH is available to all organizations anytime you schedule a class. You need to set up a meeting in your preferred VHM, then add the meeting URL to the Delivery section of your TMS class. Once the meeting URL is added to the class, the students and instructor have an Enter Classroom button, the button is available to them for as long as the URL is on the class. For this reason, you should either use unique meeting URLs for each class or remove the URL from the class once it is completed to prevent students from accessing a class they are not enrolled in. 
+The custom VMH is available to all organizations anytime you schedule a class. You need to set up a meeting in your preferred VHM, then add the meeting URL to the Delivery section of your TMS class. Once the meeting URL is added to the class, the students and instructor have an Enter Classroom button, the button is available to them for as long as the URL is on the class. For this reason, you should either use unique meeting URLs for each class or remove the URL from the class once it is completed to prevent students from accessing a class they are not enrolled in. 
 
 The TMS passes along the classId, studentLastName, studentFirstName, and studentEmail to the receiving site. 
 No recordings are available through the TMS.
