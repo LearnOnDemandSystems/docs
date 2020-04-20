@@ -36,7 +36,7 @@ When students come to their enrollment, they can enter the virtual meeting or op
 
 [How can I set up an integrated virtual meeting host?](/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md)
 
-[Comparison of using Custom Virtual Meeting Host with a Full Integration of Adobe Connect or Zoom](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/virtual-meetings/vmh-comparison.md)
+[Virtual Meeting Host Comparison](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/virtual-meetings/vmh-comparison.md)
 
 ## Additional Resources
 
