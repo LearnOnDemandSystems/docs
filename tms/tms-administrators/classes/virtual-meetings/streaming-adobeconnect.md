@@ -54,7 +54,7 @@ User accounts can be created manually or imported. Once created the users can be
 
 **How to Set up a Full Integration for a Virtual Meeting Host**
 
-[Comparison of using Custom Virtual Meeting Host with a Full Integration of Adobe Connect or Zoom](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/virtual-meetings/vmh-comparison.md)
+[Virtual Meeting Host Comparison](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/virtual-meetings/vmh-comparison.md)
 
 [How can I set up an integrated virtual meeting host?](/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md)
 
