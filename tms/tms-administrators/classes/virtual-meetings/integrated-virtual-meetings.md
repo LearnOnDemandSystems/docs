@@ -31,5 +31,5 @@ The integration will be broken if you regenerate the API Secret after the integr
 
 ### Additional Resources
 
-[Comparison of using Custom Virtual Meeting Host with a Full Integration of Adobe Connect or Zoom](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/virtual-meetings/vmh-comparison.md)
+[Comparison of using Custom Virtual Meeting Host or a Full Integration of Adobe Connect or Zoom](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/virtual-meetings/vmh-comparison.md)
  
