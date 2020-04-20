@@ -54,7 +54,7 @@ Pre-class and post class access to the virtual classroom defaults to allowing th
 
 The first licensed Zoom instructor to enter the meeting becomes the host, any other instructor entering the meeting will be a participant but enters the meeting directly. A host in Zoom can promote any other participant to be Host. By doing this, the original host loses the privileges and the new host gains them. Prior hosts can always take back hosting duties. 
 
-Once a student selects the Enter Classroom button, they may need to load software prior to entering the meeting. All students enter a lobby where they wait to be until the instructor adds them to the meeting. This gives the instructor the control of who is in the class, they can verify students against the class roster. The API enforces use of the lobby since Zoom does not prevent access enter a meeting. 
+Once a student selects the Enter Classroom button, they may need to load software prior to entering the meeting. All students enter a lobby where they wait until the instructor adds them to the meeting. This gives the instructor the control of who is in the class, they can verify students against the class roster. The API enforces use of the lobby since Zoom does not prevent anyone access to enter a meeting. 
 
 Students and Instructors may not be identified with their TMS username when they enter a Zoom meeting. This depends on how Zoom identifies them; different factors include if they have attended a Zoom meeting before, the username on their devise, or using multiple instructors in a class. 
 
