@@ -1,4 +1,4 @@
-# Comparison of using Custom Virtual Meeting Host or a Full Integration of Adobe Connect or Zoom
+# Virtual Meeting Host Comparison
 
 LODS has two ways to use virtual meeting hosts (VMH) in a TMS class. You may use the Custom VMH or an integrated VMH. Our integrated options are Adobe Connect or Zoom. You can have multiple VMHs options for your classes, by having multiple licenses or integrated VMH or using Custom VMHs. Each of these features works a little differently and each has benefits and drawbacks to consider.
 
