@@ -60,7 +60,7 @@ Students and Instructors may not be identified with their TMS username when they
 
 If the host exits or is bumped out of the meeting without ending it, someone else will be promoted to host. The new host is set with no regard for whether or not the user is an instructor. 
 
-Instructors need to save the recording to the cloud to make it available to the TMS. The recording is available as soon as it is compiled in Zoom after the meeting has ended. Recordings are not available until after the meeting ends, regardless of if the recording was stopped before the meeting ended. The recording ends when the session ends; the instructor should end the session when class is over otherwise the session ends itself after 24 hours. Recording length may be limited based on your contract with Zoom. If the storage limit is reached during a recording, the meeting will continue to record until it is ended.
+Instructors need to save the recording to the cloud to make it available to the TMS. The recording is available as soon as it is compiled in Zoom after the meeting has ended; the instructor is emailed a notification when the recording becomes available. Recordings are not available until after the meeting ends, regardless of if the recording was stopped before the meeting ended. The recording ends when the session ends; the instructor should end the session when class is over otherwise the session ends itself after 24 hours. Recording length may be limited based on your contract with Zoom. If the storage limit is reached during a recording, the meeting will continue to record until it is ended. 
 
 Students have access through their enrollment for each recorded class session. Class recordings are available for 180 days after the last day of class. 
 
