@@ -1,6 +1,6 @@
 # Virtual Meeting Host Comparison
 
-LODS has two ways to use virtual meeting hosts (VMH) in a TMS class. You may use the custom VMH or an integrated VMH. Our integrated options are Adobe Connect or Zoom. You can have multiple VMHs options for your classes, by having multiple licenses or integrated VMH or using custom VMHs. Each of these features works a little differently and each has benefits and drawbacks to consider.
+Virtual meeting host providers (VMH) can be added to a class using two different methods: a custom VMH or integrated VMH. Class creators can specify delivery by custom virtual classroom and then add the meeting URL from your preferred VMH or use one of the two supported integrable VMHs. You can have multiple VMHs options associated to with your organization, but only a single VMH can be associated to each class.
 
 Scheduling a virtual meeting is from the Delivery section when creating or editing a class. When the Delivery Type of Virtual or Physical and Virtual is chosen virtual meeting options display. If you have an integrated VMH it will be selected by default, but you can select another option like a custom VHM. If you do not have an integrated VMH, you will only see the option for custom Virtual Classroom with a field to enter a URL. Only one VHM can be used per class. For multiple day classes, set up a session for each day using the Add Multiple Session Times link in the Session Times section. 
 
@@ -62,7 +62,7 @@ If the host exits or is bumped out of the meeting without ending it, someone els
 
 Instructors need to save the recording to the cloud to make it available to the TMS. The recording is available as soon as it is compiled in Zoom after the meeting has ended; the instructor is emailed a notification when the recording becomes available. Recordings are not available until after the meeting ends, regardless of if the recording was stopped before the meeting ended. The recording ends when the session ends; the instructor should end the session when class is over otherwise the session ends itself after 24 hours. Recording length may be limited based on your contract with Zoom. If the storage limit is reached during a recording, the meeting will continue to record until it is ended. 
 
-Students have access through their enrollment for each recorded class session. Class recordings are available for 180 days after the last day of class. 
+Students have access through their enrollment for each recorded class session. Class recordings are available for 180 days after the last day of class. You cannot impersonate a student to access recordings only users associated with the class as students or instructors can watch recordings.
 
 ### Additional Resources
  
