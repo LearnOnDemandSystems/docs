@@ -36,7 +36,7 @@ More information on configuring Activity Based Assessments and Performance-based
 
 ### LTI Launch Specification
 
-[LTI LTI v1.3 Interoperability Implementation Guide](https://www.imsglobal.org/spec/lti/v1p3/impl/) 
+[LTI v1.3 Interoperability Implementation Guide](https://www.imsglobal.org/spec/lti/v1p3/impl/) 
 
 For lab launches, Lab On Demand supports LTI Resource Link Launch Requests 
 
