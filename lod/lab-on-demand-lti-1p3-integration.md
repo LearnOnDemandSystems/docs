@@ -62,6 +62,8 @@ For lab launches, Lab On Demand supports LTI Resource Link Launch Requests
 
 > ### Looking for more information?
 >
+>[LTI LTI v1.3 Interoperability Implementation Guide](https://www.imsglobal.org/spec/lti/v1p3/impl/) 
+>
 > If you're looking for more LTI 1.3 integration information, please contact us via your sales representative or [open a support ticket.](https://www.learnondemandsystems.com/customer-support/)
 
 [Back to top](#Lab-on-Demand-LTI-1.3-Integration)
