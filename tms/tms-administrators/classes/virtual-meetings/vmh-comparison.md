@@ -44,7 +44,7 @@ Recordings are available for each recorded class session. Class recordings are a
 
 ## Zoom Virtual Meeting Host Integration
 
-Once you have a Zoom contract, you will need to set up a JSon Web Token application through Zoom, and send information to our LODS staff to implement the [integration.](/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md) Once in place, your Zoom VMH is the default selection for virtual delivery. Scheduling a class automatically creates a Zoom meeting when a licensed Zoom user is added as an instructor. 
+Once you have a Zoom contract, you will need to set up a JSon Web Token application through Zoom, and send information to our LODS staff to implement the [integration.](/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md) Once in place, your Zoom VMH is the default selection for virtual delivery. Scheduling a class automatically creates a Zoom meeting when a licensed Zoom user is added as an instructor. When a Zoom meeting scheduled through the TMS is opened, it will show in the UTC time zone.
 
 The account used to set up the JWT application is where the meetings will be located. The primary instructor in a class must be licensed from the same account that is set up on the JWT application in order to be verified through the API. Your instructor's email address in their TMS profile must match the email address in your Zoom account for them to be verified. Your contract with Zoom provides a pool of licenses that are not owned individually, they can be assigned to different users. You may switch out instructors on the licenses in your contract.  
 
