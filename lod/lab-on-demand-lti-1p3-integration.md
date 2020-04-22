@@ -1,6 +1,8 @@
 # Lab on Demand LTI 1.3 Integration
 
-In Learning Tools Interoperability (LTI), the learning management system (LMS) being used by a student is referred to as the **Platform**, and the external tool or service that is being integrated into that learning management system is referred to as the **Tool**. This LTI support is what allows external course authors to integrate rich Lab on Demand content directly into their learning solution. Since LTI is a standard protocol, Lab on Demand content can be integrated into any learning system that supports the LTI standard as an LTI Consumer.
+Learn on Demand Systems is now [LTI Advantage Complete certified.](https://site.imsglobal.org/certifications/learn-demand-systems/lab-demand) LTI v1.3 allows external course authors to integrate rich Lab on Demand (LOD) content directly into their learning management system (LMS) in a standard way.
+
+ For the purposes of this documentation, please note that the LMS being used by a student is referred to as the Platform, and the external tool or service (LOD) that the LMS is integrated with is referred to as the Tool.
 
 To integrate content from a **Tool** into a **Platform**, the following information is required:
 
