@@ -1,8 +1,6 @@
 # Lab on Demand LTI 1.3 Integration
 
-Learn on Demand Systems is now [LTI Advantage Complete certified.](https://site.imsglobal.org/certifications/learn-demand-systems/lab-demand) LTI v1.3 allows external course authors to integrate rich Lab on Demand (LOD) content directly into their learning management system (LMS) in a standard way.
-
- For the purposes of this documentation, please note that the LMS being used by a student is referred to as the Platform, and the external tool or service (LOD) that the LMS is integrated with is referred to as the Tool.
+Learn on Demand Systems is now [LTI Advantage Complete certified.](https://site.imsglobal.org/certifications/learn-demand-systems/lab-demand) LTI v1.3 allows external course authors to integrate rich Lab on Demand (LOD) content directly into their learning management system (LMS) in a standard way. For the purposes of this documentation, please note that the LMS being used by a student is referred to as the Platform, and the external tool or service (LOD) that the LMS is integrated with is referred to as the Tool.
 
 To integrate content from a **Tool** into a **Platform**, the following information is required:
 
@@ -38,6 +36,8 @@ More information on configuring Activity Based Assessments and Performance-based
 
 ### LTI Launch Specification
 
+[LTI LTI v1.3 Interoperability Implementation Guide](https://www.imsglobal.org/spec/lti/v1p3/impl/) 
+
 For lab launches, Lab On Demand supports LTI Resource Link Launch Requests 
 
 [Learning Tools Interoperability Core Specification](https://www.imsglobal.org/spec/lti/v1p3/#resource-link-launch-request-message)
@@ -61,8 +61,6 @@ For lab launches, Lab On Demand supports LTI Resource Link Launch Requests
 - <b><article>https://purl.imsglobal.org/spec/lti/claim/custom</b> - the format of this claim is typically in the format "labid": "15922" where "15922" is the lab profile ID to be launched.</article>
 
 > ### Looking for more information?
->
->[LTI LTI v1.3 Interoperability Implementation Guide](https://www.imsglobal.org/spec/lti/v1p3/impl/) 
 >
 > If you're looking for more LTI 1.3 integration information, please contact us via your sales representative or [open a support ticket.](https://www.learnondemandsystems.com/customer-support/)
 
