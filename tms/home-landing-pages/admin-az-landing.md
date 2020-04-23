@@ -240,9 +240,6 @@
       <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/schedule-self-paced-learning.md">
         <div class="subtopic_title">How do I schedule self-paced learning for a student?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/see-available-courses-and-determine-cost-for-lab-in-one.md">
-        <div class="subtopic_title">How do I see available courses and determine how much I will be charged for a lab in one of them?</div>
-      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/set-defaults-for-creating-users-and-classes.md">
         <div class="subtopic_title">How do I set the defaults for creating users and classes?</div>
       </a>
