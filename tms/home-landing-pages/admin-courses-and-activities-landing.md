@@ -21,9 +21,6 @@
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/create-course.md">
         <div class="subtopic_title">How do I create a basic course?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/see-available-courses-and-determine-cost-for-lab-in-one.md">
-        <div class="subtopic_title">How do I see available courses and determine how much I will be charged for a lab in one of them?</div>
-      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/cascade-custom-fields.md">
         <div class="subtopic_title">How do I make the custom fields on my courses available on my classes?</div>
       </a>
@@ -154,9 +151,6 @@
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/cascade-custom-fields.md">
         <div class="subtopic_title">How do I make the custom fields on my courses available on my classes?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/see-available-courses-and-determine-cost-for-lab-in-one.md">
-        <div class="subtopic_title">How do I see available courses and determine how much I will be charged for a lab in one of them?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/view-scorm-attempts.md">
         <div class="subtopic_title">How do I view SCORM attempts by my students?</div>
