@@ -32,10 +32,16 @@ The **Catalog** command will return all lab series, lab profiles, and delivery r
 |Id|Int|No|The unique identifier of the lab profile|
 |Name|String|No|The name of the lab profile|
 |Number|String|Yes|The lab number (usually to identify a lab within a series, e.g. Module 1, Module 2, etc.)|
-|PlatformId|Int|No|1 = Virtual Server
-||||2 = Hyper-V
+|PlatformId|Integer|No|The virtualization platform the lab is run on.|
+||||-1 = None|
+||||2 = Hyper-V|
 ||||3 = vSphere|
-|CloudPlatformId|Int|Yes|10 = Azure|
+||||10 = Azure|
+||||11 = AWS|
+||||20 = Docker|
+|CloudPlatformId|Int|Yes|The cloud platform the lab is run on.
+||||10 = Azure|
+||||11 = AWS|
 |Enabled|Boolean|No|Whether the lab is currently enabled for launch.|
 |ReasonDisabled|String|Yes|The reason the lab is disabled. Only supplied when the lab is not enabled.|
 |DevelopmentStatusId|Int|No|Indicates the development status of the lab. In general, a lab not marked as Complete should not be launched (though it can be).
