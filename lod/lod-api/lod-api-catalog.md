@@ -57,6 +57,10 @@ The **Catalog** command will return all lab series, lab profiles, and delivery r
 |PremiumPrice|Decimal|No|The consumption cost of the lab when premium experience features are included.|
 |BasicPrice|Decimal|No|The consumption cost of the lab when only basic experience features are included.|
 |Tags|Array of String|No|A list of tags associated with the lab profile.|
+|SharedClassEnvironmentRoleId|Integer|Yes|Indicates the role the lab plays in a shared environment|
+||||0 = None. This lab has no shared environment involvement at all. Most labs work this way.)|
+||||10 = Shared Environment. This lab provides the shared infrastructure that participant labs will connect into. Typically launched and maintained by an administrator or instructor.|
+||||20 = Participant. This lab will connect into shared environments and act as a participant. Typically launched by students.|
 
 ## DeliveryRegion
 
@@ -140,6 +144,7 @@ https://labondemand.com/api/v3/catalog
             "LabManualUrl" : "http://labondemand.com/LabLabProfile/Manual/2",
             "PremiumPrice" : 4.00,
             "BasicPrice" : 4.00,
+            "SharedClassEnvironmentRoleId": 0,
             "Tags": [
                 "Tag1",
                 "Tag2"
