@@ -15,9 +15,13 @@ The **LabProfile** command will return information about a specific lab profile.
 |Id|Int|No|The unique identifier of the lab profile|
 |Name|String|No|The name of the lab profile|
 |Number|String|Yes|The lab number (usually to identify a lab within a series, e.g. Module 1, Module 2, etc.)|
-|PlatformId|Int|No|1 = Virtual Server
-||||2 = Hyper-V
+|PlatformId|Integer|No|The virtualization platform the lab is run on.|
+||||-1 = None|
+||||2 = Hyper-V|
 ||||3 = vSphere|
+||||10 = Azure|
+||||11 = AWS|
+||||20 = Docker|
 |CloudPlatformId|Int|Yes|10 = Azure|
 |SeriesId|Int|Yes|The unique identifier of the series the lab profile belongs to|
 |Enabled|Boolean|No|Whether the lab is currently enabled for launch.|
