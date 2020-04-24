@@ -41,7 +41,7 @@ The **LabProfile** command will return information about a specific lab profile.
 |BasicPrice|Decimal|No|The consumption cost of the lab when only basic experience features are included.|
 |Exam Pages|Array of ExamPages|No|An array of pages containing exam questions and answers|
 |Tags|Array of String|No|A list of tags associated with the lab profile.
-[SharedClassEnvironmentRoleId]Integer|Yes|Indicates the role the lab plays in a shared environment|
+|SharedClassEnvironmentRoleId|Integer|Yes|Indicates the role the lab plays in a shared environment|
 ||||0 = None (no shared environment involvement at all, most labs work this way)|
 ||||10 = Shared Environment - this lab provides the shared infrastructure/environment that participant labs will connect into. This is typically launched and maintained by an administrator or instructor|
 ||||7 = Participant - this lab will connect into shared environments and act as a participant. This is typically used by students.|
