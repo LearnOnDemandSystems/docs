@@ -23,6 +23,7 @@ The **LabProfile** command will return information about a specific lab profile.
 ||||11 = AWS|
 ||||20 = Docker|
 |CloudPlatformId|Int|Yes|The cloud platform the lab is run on.
+||||null = None|
 ||||10 = Azure|
 ||||11 = AWS|
 |SeriesId|Int|Yes|The unique identifier of the series the lab profile belongs to|
