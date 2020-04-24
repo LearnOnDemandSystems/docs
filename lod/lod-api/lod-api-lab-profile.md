@@ -80,7 +80,6 @@ https://labondemand.com/api/v3/labprofile?id=1
     "HasIntegratedContent": true,
     "ContentVersion": 2,
     "IsExam": false,
-    "LabManualUrl" : "http://labondemand.com/LabLabProfile/Manual/1",
     "PremiumPrice" : 10.00,
     "BasicPrice" : 8.00,
     "SharedClassEnvironmentRoleId": 0,
