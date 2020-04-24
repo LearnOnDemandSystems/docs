@@ -22,7 +22,9 @@ The **LabProfile** command will return information about a specific lab profile.
 ||||10 = Azure|
 ||||11 = AWS|
 ||||20 = Docker|
-|CloudPlatformId|Int|Yes|10 = Azure|
+|CloudPlatformId|Int|Yes|The cloud platform the lab is run on.
+||||10 = Azure|
+||||11 = AWS|
 |SeriesId|Int|Yes|The unique identifier of the series the lab profile belongs to|
 |Enabled|Boolean|No|Whether the lab is currently enabled for launch.|
 |ReasonDisabled|String|Yes|The reason the lab is disabled. Only supplied when the lab is not enabled.|
