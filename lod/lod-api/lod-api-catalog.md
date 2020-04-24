@@ -40,6 +40,7 @@ The **Catalog** command will return all lab series, lab profiles, and delivery r
 ||||11 = AWS|
 ||||20 = Docker|
 |CloudPlatformId|Int|Yes|The cloud platform the lab is run on.
+||||null = None|
 ||||10 = Azure|
 ||||11 = AWS|
 |Enabled|Boolean|No|Whether the lab is currently enabled for launch.|
