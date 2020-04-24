@@ -121,9 +121,9 @@ https://labondemand.com/api/v3/catalog
             "HasIntegratedContent": true,
             "ContentVersion": 2,
             "IsExam": false,
-            "LabManualUrl" : "http://labondemand.com/LabLabProfile/Manual/1",
             "PremiumPrice" : 10.00,
             "BasicPrice" : 8.00,
+            "SharedClassEnvironmentRoleId": 0,
             "Tags": [
                 "Tag1",
                 "Tag2"
@@ -148,7 +148,6 @@ https://labondemand.com/api/v3/catalog
             "HasIntegratedContent": true,
             "ContentVersion": 2,
             "IsExam": false,
-            "LabManualUrl" : "http://labondemand.com/LabLabProfile/Manual/2",
             "PremiumPrice" : 4.00,
             "BasicPrice" : 4.00,
             "SharedClassEnvironmentRoleId": 0,
