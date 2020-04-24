@@ -45,15 +45,6 @@ The **LabProfile** command will return information about a specific lab profile.
 ||||10 = Shared Environment. This lab provides the shared infrastructure that participant labs will connect into. Typically launched and maintained by an administrator or instructor.|
 ||||20 = Participant. This lab will connect into shared environments and act as a participant. Typically launched by students.|
 
-## ExamPage
-
-|Name|Type|Required|Note
-|--- |--- |--- |--- 
-|Id|Long|No|Id of the ExamPage.|
-|Name|String|No|Name of the Exam page displayed during the exam.|
-|SortIndex|Integer|No|Sort order for this page in the pages collection.|
-|Questions|Array of ExamQuestion|No|Array of Exam Questions containing data for all questions in this page.|
-
 ## Example Usage
 
 ```
