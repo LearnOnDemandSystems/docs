@@ -44,7 +44,7 @@ The **LabProfile** command will return information about a specific lab profile.
 |SharedClassEnvironmentRoleId|Integer|Yes|Indicates the role the lab plays in a shared environment|
 ||||0 = None (no shared environment involvement at all, most labs work this way)|
 ||||10 = Shared Environment - this lab provides the shared infrastructure/environment that participant labs will connect into. This is typically launched and maintained by an administrator or instructor|
-||||7 = Participant - this lab will connect into shared environments and act as a participant. This is typically used by students.|
+||||20 = Participant - this lab will connect into shared environments and act as a participant. This is typically used by students.|
 
 ## ExamPage
 
@@ -112,6 +112,7 @@ https://labondemand.com/api/v3/labprofile?id=1
     "LabManualUrl" : "http://labondemand.com/LabLabProfile/Manual/1",
     "PremiumPrice" : 10.00,
     "BasicPrice" : 8.00,
+    "SharedClassEnvironmentRoleId": 0,
     "Status": 1,
     "Error": null,
     "ExamPages":[
