@@ -8,6 +8,46 @@
 
 # What's New in Lab On Demand
 
+## **Released April 24, 2020**
+
+**We are now LTI Advantage Complete Certified**
+
+LTI allows administrators to easily integrate labs into their existing LTI 1.3 compliant learning management systems.
+In addition to more granular scoring and grading, LTI offers enhanced security utilizing OAuth 2 tokens and an improved authentication flow.
+
+**Azure Cloud Slice Subscription (CSS)**
+
+There are now two variants of Azure Cloud Slice; Cloud Slice Subscription (CSS) and Cloud Slice Resource Group (CSR). CSS allows full access to an Azure subscription, to allow Azure training at the subscription level, rather than at the resource group level. This solution will be a functional replacement for Azure Passes for MOC courses. Cloud Slice Resource Group (CSR) has had no changes in functionality. For more information about CSS, read Enabling Azure Learning in the Post Azure Pass Era.
+
+**Accessibility Enhancements**
+
+Many accessibility improvements have been made to the lab client resulting in an improved experience for those utilizing assistive technology. Some of these enhancements include the following.
+- Menu buttons are now 100% accessible using keyboard commands.
+- Notifications, text fields, and status messages can now be announced by screen readers in real time.
+- The colors used in Lab on Demand lab client  themes have been adjusted so that text is easier to read and differentiate from the background. All themes now meet WCAG AA guidelines.
+	
+**Lab Client Localization API Parameter** 
+
+Platform generated Dialogs, tabs, and menu items in the lab client can now be localized using the lang parameter during API launches. The available options include Chinese, English, French, Japanese, Korean, Portuguese, and Spanish.
+
+**Lab Instance Sharing**
+
+Lab instances can now be shared from the hamburger menu in the lab. This allows those with permissions to share their lab instance with another individual. When sharing, an email will automatically be sent out to the email address provided. Optional features may be extended from the original user's account such as saving differencing disks and editing instructions. The share can optionally be set to expire at a specified time and date. Additionally, the lab instance share can be protected by an established authentication provider.
+
+**Virtual Machine (VM) Profile Improvements**
+- VM profiles now display the hard disk capacity on the details page. 
+- Lab developers can now create VM disks up to 2TB in capacity, this was previously limited to 256GB.
+
+**Improvements and Fixes**
+- When exporting a lab profile that uses a vSphere VM with EFI enabled, that setting will now persist when the lab is exported.
+- Increased security for authenticated launch links and introduced optional per user retake logic.
+- Fixed a bug in the lab client that could prevent a lab from syncing with the server when the lab is configured for virtualization but does not contain any VMs.
+- Fixed a bug in the lab edit page that prevented the minimum show time on Content URLs from being removed.
+- Removed the validation warning when saving an Azure CSS lab without a Resource Group configured.
+- Improved logic to require an Access Control Policy in Azure CSS labs when a user is given Contributor or Subscription Permissions.
+- Updated tool tip in Cloud Subscription Pool Automation Settings.
+- A column has been added to Lab Series details pages to identify the cloud platform that is being used in each lab profile. 
+
 ## **Released March 27, 2020**
 
 **Lab Instruction Improvements**
@@ -158,7 +198,7 @@ This will allow us to exercise greater control over cloud and virtualization res
 - Fixed a bug that prevented Imported From links on a lab profile or lab series note section from navigating to the profile/series that it was imported from.
 
 ---
-
+<!--
 ## **Released October 25, 2019**
 
 **Fixes and Improvements**
@@ -334,7 +374,7 @@ The following items in LOD are now referenced by an alias instead of an ID, in r
 - Fixed a bug that would cause importing to fail when the lab contained replacement tokens. 
 - Fixed a bug that would prevent blocking web request LCAs to replace tokens when sent in a post/put body.
 
-<!--
+
 ## **Released July 19, 2019**
 
 **Private Networking in Container Labs**
