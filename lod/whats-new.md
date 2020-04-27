@@ -17,7 +17,7 @@ In addition to more granular scoring and grading, LTI offers enhanced security u
 
 **Azure Cloud Slice Subscription (CSS)**
 
-There are now two variants of Azure Cloud Slice; Cloud Slice Subscription (SCC) and Cloud Slice Resource Group (CSR). CSS allows full access to an Azure subscription, to allow Azure training at the subscription level, rather than at the resource group level. This solution will be a functional replacement for Azure Passes for MOC courses. Cloud Slice Resource Group (CSR) has had no changes in functionality. For more information about CSS, read Enabling Azure Learning in the Post Azure Pass Era.
+There are now two variants of Azure Cloud Slice; Cloud Slice Subscription (CSS) and Cloud Slice Resource Group (CSR). CSS allows full access to an Azure subscription, to allow Azure training at the subscription level, rather than at the resource group level. This solution will be a functional replacement for Azure Passes for MOC courses. Cloud Slice Resource Group (CSR) has had no changes in functionality. For more information about CSS, read Enabling Azure Learning in the Post Azure Pass Era.
 
 **Accessibility Enhancements**
 
@@ -39,9 +39,9 @@ Lab instances can now be shared from the hamburger menu in the lab. This allows 
 - Lab developers can now create VM disks up to 2TB in capacity, this was previously limited to 256GB.
 
 **Improvements and Fixes**
-- When exporting a lab profile that uses a vSphere VM with EFI enabled, that setting will now persist when the is exported.
+- When exporting a lab profile that uses a vSphere VM with EFI enabled, that setting will now persist when the lab is exported.
 - Increased security for authenticated launch links and introduced optional per user retake logic.
-- Fixed a bug in the lab client that could prevent a lab from syncing with the server when the lab is for virtualization but does not contain any VMs.
+- Fixed a bug in the lab client that could prevent a lab from syncing with the server when the lab is configured for virtualization but does not contain any VMs.
 - Fixed a bug in the lab edit page that prevented the minimum show time on Content URLs from being removed.
 - Removed the validation warning when saving an Azure CSS lab without a Resource Group configured.
 - Improved logic to require an Access Control Policy in Azure CSS labs when a user is given Contributor or Subscription Permissions.
