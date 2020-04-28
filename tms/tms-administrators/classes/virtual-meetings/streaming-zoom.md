@@ -4,7 +4,7 @@
 
 Give your students and instructors the convenience of one place for all members of the class to open their virtual classroom and all their course activities and labs. Deliver your Instructor-led training virtually with Zoom within a TMS class.  
 
-If you have a Aoom, you have a choice in how you set up your virtual meeting delivery. We have a full integration in the TMS using Zoom. The convenience of this choice is that creating a class also schedules your meeting in Zoom and also gives students access to recordings of class sessions through their TMS enrollment. If you would like to integrate Zoom, please contact Customer Support. Alternately, you can use our Custom Virtual Meeting Host.
+If you have a Zoom, you have a choice in how you set up your virtual meeting delivery. We have a full integration in the TMS using Zoom. The convenience of this choice is that creating a class also schedules your meeting in Zoom and also gives students access to recordings of class sessions through their TMS enrollment. If you would like to integrate Zoom, please contact Customer Support. Alternately, you can use our Custom Virtual Meeting Host.
 
 **Find your Zoom meeting URL**
 
