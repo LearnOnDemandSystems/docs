@@ -78,7 +78,8 @@ To manage differencing disk files:
 
     - When capturing a differencing disk, part of the automated process shuts down the VM before capturing the differencing disk. In some scenarios, a processes in Windows (such as Windows updates) could prevent a graceful shutdown of the VM, and cause the disk capture to time out. 
 
+### Manual Captures
 
+- In the rare event of errors during the differencing disk save process it is possible for us to capture the disks manually to update the lab data on the profile, should this happen please reach out to us via our normal Customer Support forms by [opening a support ticket](https://supportrequest.learnondemandsystems.com/form-4500904/support-request).
 
-
-
+    >[!alert] Following a manual capture, it is necessary to end and relaunch the lab before any further differencing disk saves can be made to the lab profile. Failing to do so will result in any further changes to the profile failing until it is relaunched.
