@@ -3,6 +3,56 @@
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
 ----------------------------
+## Released May 7 2020
+
+
+### <span style="color:#0078d7;">Class Browser - Multiple Tag IDs in URL</span>
+
+You can craft your Class Browser URL with multiple tags in it so the page loads with them automatically checked and the page filtered by them when it loads. 
+
+For multiple tags without group reference, the URL structure is https://[site url]/class/browse?tagId,tagId&matchtype=1. The matchtype is optional. If you leave it off, Match All will be checked. If you include it, use 0 for Match All and 1 for Match Any.
+ 
+For a tag in a specific group and a tag in any group, the URL structure is https://[site url]/class/browse?groupIdtag,tagId. Use the group Id for the specific group in which you want the tag to be checked.
+
+### <span style="color:#0078d7;">Find Lab Instances - Company Filter/Output Option</span>
+
+Need to see your students’ lab instances by the company they belong to? You can do this using the new the new Company output option on Find Lab Instances. This column will display the company set in the user’s profile. You can also narrow the results to see only lab instances from a specific company’s users with the new Company filters available, Choose Company or Company Name. 
+
+> ![](https://github.com/LearnOnDemandSystems/docs/blob/master/tms/images/FindLabInstances-CompanyFOO.png)
+ 
+### <span style="color:#0078d7;">Instructors in All Sessions of Class Automatically</span>
+
+Now when you set up a class with multiple instructors, all instructors will be automatically added to all sessions of the class. In addition, if you add an instructor later, they are also automatically added to all sessions. If you add another session, all instructors are added to it. When you remove an instructor from one or more sessions, they will not be re-added unless the you click Add all instructors to all sessions in the Instructors section of the class. 
+
+### <span style="color:#0078d7;">Position of HTML Description on Courses</span> 
+
+Want the HTML Description on your courses to be easier to see? This section is now at the top of the Course Profile page, directly below the Description, if present. The HTML Description section will be expanded by default. 
+
+> ![](https://github.com/LearnOnDemandSystems/docs/blob/master/tms/images/CourseHTMLDescription.png)
+
+### <span style="color:#0078d7;">Disabled Class Activities Re-enabled at Class End</span> 
+
+Do you or your instructor’s forget to re-enable class activities at the end of class? No worries. Now, if the course is set to allow activities to be auto enabled after class ends, any activities disabled for students in a class will automatically be enabled for them when the class ends.
+
+> ![](https://github.com/LearnOnDemandSystems/docs/blob/master/tms/images/ClassActivitiesReenabling.png)
+
+### <span style="color:#0078d7;">Accessibility Items</span> 
+
+Two improvements have been made to assist users with accessibility needs.
+1. Users can now use the keyboard to access the pagination elements of search pages to pull up different pages of results.
+1. The contrast ratio for the Incorrect Username and Password message on the login page has been increased to help with visual clarity.
+
+### <span style="color:#0078d7;">TMS Enhancements and Fixes</span>
+
+1. Class Browser/Course Catalog/On-Demand Browser. We have improved the filter functionality on these pages to not allow a change in filters until the previous filter results are loaded.
+
+1. Tab alignment on Create/Edit pages. Tabs on the second row of an entity's Create/Edit page now stay properly aligned and do not move over to be underneath the selected tab.
+
+1. Featured Date Chooser in User's Date Format. The Date Chooser will now input the date, using the browser setting of the user, into the Featured field in the Create/Edit Course page.
+
+1. Percent Complete Column for New Students. The Percent Complete column will now appear correctly for new students added to a class roster.
+
+----------------------------
 ## Released April 23 2020
 
 ### <span style="color:#0078d7;">TMS Enhancements and Fixes</span>
@@ -158,91 +208,5 @@ Class schedulers and Operations managers will see a message highlighted on cours
 The awareness message reads, “This course is scheduled to be archived on [auto archive date displayed]. Session dates cannot be scheduled beyond this date. Course content will not be maintained past this date.”
 
 Please note: Once a course is archived, we do not maintain labs or any other course content. Labs may be deactivated on archived courses; it is advisable to find a newer version once a course has been archived.
-
-----------------------------
-
-## Released November 21 2019
-
-### <span style="color:#0078d7;">Export Training Keys from Class Profile</span>
-As an Operations Manager, you can compile a complete and accurate list of all available and assigned training keys for your classes by exporting them from the Class profile page. Previously, you could only do this if the class was created using class vouchers. However, you can now do this for any class with training keys.
-
-To export your class’ training keys: 
-1.	Navigate to the desired **Class** profile page. 
-1.	On the **Class** page, click **Training Keys** on the quick launch bar at the top of the page. 
-1.	On the **Training Keys** page, click **Export**.
-
-**Note**: All training keys from the class will be exported to a CSV file.
-
-### <span style="color:#0078d7;">Archive SCORM Modules</span>
-As an Operations Manager you can archive SCORM modules, allowing you to control which modules can be selected as course activities. You can also use the new “Is or Is Not Archived” search Filter and Output Option on the Find SCORM Modules pages to locate your desired modules easier.
-
-To archive SCORM modules: 
-1.	Locate the page for the **SCORM Module** that you would like to archive. 
-1.	On the **SCORM Module** page click **Edit**. 
-1.	On the **Edit** page, click **Archived** at the bottom of the **Basic Information** tab.
-
-When a SCORM module is archived, it will still play in courses where it is present. However, it is not available to be added to new courses as an activity.
-
-Once archived, a SCORM module can be made available to new courses again by marking the module unarchived.
-
-### <span style="color:#0078d7;">TMS Enhancements and Fixes</span>
-- When your organization chooses to not enable achievements, your users will no longer see the **Participate in Achievements** checkbox on their own **User** profile. This prevents confusion on their part regarding why they aren’t earning achievements. If your organization chooses to enable achievements, all of your users will now automatically be set to Participate in Achievements. This saves you time and ensures your users don’t miss out on earning their achievements.
-- You will now easily be able to see courses that are archived in publishing groups and subscriptions. They will now be outlined in red and show a red **Archived** icon next to them.
-- The **UpdateCourseAssignment** documentation page now includes the **CourseAssignmentId** parameter in the **Parameter** table and shows it as required.
-- Course custom fields that are set to display on the **Basic Information** or **Advanced** tabs and cascade to classes will no longer create new “basic” or “Advanced” tabs on the course upon creation of a class using the course. In addition, these fields that cascade down to a class will no longer have the value set in a created class flow up and display in the associated course field on the initial save.
-
-### <span style="color:#0078d7;">TMS Enhancements and Fixes</span>
-1. Find Lab Instances – We have corrected an issue on our Find Lab Instances search page, it produced errors when searching for a lab profile with special characters in the name.
-
-----------------------------
-
-## Released November 07 2019
-
-### <span style="color:#0078d7;">Manual Issuance of Badges by Instructors/Operations Managers</span>
-As an instructor or administrator, with the proper permissions, you can now manually issue badges to students. This allows you to add a badge to a student rather than only having badges issued automatically by meeting the requirements to earn an achievement. This can be done from the Class Roster or from individual course assignments, with a different process for each.
-
-#### Class Enrollments
-As an instructor or administrator, you can issue one or more badges to students in your class using the following steps:
-
-1. On the **Class** page, click **Roster** and then click **Issue Badges** in the quick launch bar.
-1. On the **Issue Badges** page under **Badges**, click **Add Badges**. 
-1. In the **Choose Badges** dialog, select the badges to be issued and click **(Select a Badge)**. Only badges belonging to the same organization as the class will be listed.
-1.  Under **Students**, click **Add Students**. 
-1. In the **Choose Student(s)** dialog, select the student(s) to whom to issue the badge and click **OK**. If the instructor is an organization instructor (not a contract instructor), only enrolled students from the instructor’s organization in the class are listed. If the instructor is a contract instructor, all students enrolled in the class are listed.
-1. Review the listed badges and the students and click **Issue Badges**. A list of the students and the badges issued to them will appear at the bottom of the page under the heading “The following badges were successfully issued:”
-
-> Note: Students are only allowed to earn a badge once. Therefore, if there are any errors in issuing the badge, the user will receive a warning message stating: Warning: Not all badges were successfully issued. See the Failed Badge list for details. These failures will be listed at the bottom of the page under the heading “The following badge issuances failed:”. A description of the failure will be included. 
-
-> ![](./images/whats-new/issue-badge-roster-page.png)
-
-#### Course Assignments
-As an administrator, you can also issue badges to students from their course assignments using the following steps:
-
-1. Navigate to the course assignment and click **Issue a Badge** in the quick access bar.
-1. In the **Choose Badge** dialog, select the badge to issue and click **Select a Badge**. Note: Only one badge can be selected/issued at a time for course assignments.
-
-> ![](./images/whats-new/issue-badge-assignment-dialog.png)
-
-There is no indication on a course assignment that the badge has been issued. To verify this, you can either look at the Find Issued Badges page or at the Achievements/Badges page of the student.
-
-### <span style="color:#0078d7;">Class Vouchers Return</span>
-If you use class vouchers to create classes, and have assigned any that won’t be used for enrollments in the class, you can request to have them released and made available to you to assign to a different class. To request that vouchers be released from a class, please create a Support ticket on our customer support page, https://lods.one/support.
-
-### <span style="color:#0078d7;">Customized Required User Registration Fields</span>
-If you allow users to create their accounts from your login page, you can now choose which fields from the User Registration form are required to be completed. If you use the Basic User Registration form, any fields you have requested to be required will be added to the form as required. To request this customization to your User Registration form, please create a Support ticket on our customer support page, [https://lods.one/support](https://lods.one/support).
-
-Here is the list of fields you can choose to be required:
-> ![](./images/whats-new/registration-fields.png)
-
-### <span style="color:#0078d7;">TMS Improvements and Fixes</span>
-- The logos for the **TMS** and **IT Pro Challenges** will now show as favicons on the browser tabs.
-- To make it faster to select instructors to assign to a class, Class Schedulers can now filter the **Choose Instructor** dialog by those preferred by their organization. This requires that Operations Managers designate those instructors on the **Preferred Instructors** tab of the **Organization** profile.
-- To better assist their students, instructors will now be able to view the **Lab Instance** profile pages for labs launched by students in their classes.
-- Users will now be able to see when lab access expires post-class on the **Class** and **Enrollment** profile pages. This data is also available on the **Find Courses**, **Find Classes**, and **Find Enrollments** pages using the output option, **Post-class lab availability**.
-- The **Abbreviated Name** field has been removed from the **Organization** profile and thus from the API calls of **GetOrganization**, **GetOrganizationbyExternalId**, **CreateOrganization**, and **UpdateOrganization**.
-- The **Maintenance Banner** will now display properly on sites where the login page has been customized.
-- When class vouchers are used to create a class, all enrollments for the class, regardless of how they are created, will be associated with a class voucher.
-- When a class is updated through the API, users will now see, on the **Class History** page, the correct **Last Modified** and **Last Modified By** data for the update in those output columns.
-- Filters that had their closing “X” out of alignment with other filters have been fixed. All filters will have the Xs aligned.
 
 ----------------------------
