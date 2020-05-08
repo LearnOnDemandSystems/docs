@@ -24,5 +24,5 @@ Each video activity has the following fields you can set for more control over t
 
 ## Related Articles
 For more information regarding video activities and their URLs, please see:
-- How do I set my YouTub video activity to open within a frame in the same window? (coming soon) <!-- (in-frame-video.md)-->
+- How do I set my YouTube video activity to open within a frame in the same window? (coming soon) <!-- (in-frame-video.md)-->
 - [How can I capture user data for users who access my externally hosted activities from the TMS?](capture-user-data-for-externally-hosted-activities.md)
