@@ -79,3 +79,79 @@ It is also possible to change the language/region using the command line interfa
     - `LANG=en_US`
 
     - `LANGUAGE=en_US`
+
+## Supported Keyboard Layouts
+
+For both VMware and Hyper-V LOD will detect the language set in the browser, to select the keyboard layout. If LOD doesn't support the detected language, it will default to English (US).
+
+### VMware Keyboard Layouts
+
+- English (US)
+- French
+- German
+- Italian
+- Japanese
+- Spanish
+- Portuguese
+- Swiss-French
+- Swiss-German
+
+### Hyper-V Keyboard Layouts
+
+- Bulgarian
+- Croatian
+- Czech
+- Danish
+- Dutch (Belgian)
+- Dutch (Standard)
+- English (US)
+- English (Australia)
+- English (Canada)
+- English (United Kingdom)
+- English (Ireland)
+- English (New Zealand)
+- Finnish
+- French
+- French (Belgium)
+- French (Canada)
+- French (Switzerland)
+- German
+- German (Austrian)
+- German (Switzerland)
+- Greek
+- Hungarian
+- Icelandic
+- Italian
+- Italian (Swiss)
+- Japanese
+- Korean
+- Norwegian (Bokmal)
+- Norwegian (Nynorsk)
+- Polish
+- Portuguese
+- Portuguese(Brazilian)
+- Romanian
+- Russian (Russia)
+- Slovakian
+- Slovenian
+- Spanish (Spain)
+- Spanish (Mexico)
+- Spanish (Guatemala)
+- Spanish (Costa Rica)
+- Spanish (Panama)
+- Spanish (Dominican Republic)
+- Spanish (Venezuela)
+- Spanish (Colombia)
+- Spanish (Peru)
+- Spanish (Argentina)
+- Spanish (Ecuador)
+- Spanish (Chile)
+- Spanish (Uruguay)
+- Spanish (Paraguay)
+- Spanish (Bolivia)
+- Spanish (El Salvador)
+- Spanish (Honduras)
+- Spanish (Nicaragua)
+- Spanish (Puerto Rico)
+- Swedish
+- Turkish
