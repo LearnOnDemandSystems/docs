@@ -1,13 +1,13 @@
-## LTI 1.3 Integration
+# LTI 1.3 Integration
 
 > [!alert] All letters in any given URL/URI should be lowercase. 
 
 - [Blackboard Integration](#blackboard-integration)
 - [Canvas Integration](#canvas-integration)
 
-### Blackboard Integration
+## Blackboard Integration
 
-#### Registering an Application
+### Registering an Application
 
 1. Create a Lab on Demand API consumer and enable LTI 1.3 under the LTI tab. Keep this page open for reference.
 
@@ -19,7 +19,7 @@
     ![image-20200504103553670](images/blackboard-new-app.png)
     
 1. On the Register a new application page, toggle the *My Integration supports LTI 1.3* option and fill in the information provided from the API consumer as follows. 
-    
+   
     > [!alert] When configuring the URIs, please use all lower case letters.
     
     ![image-20200511164845945](images/Blackboard-registering-app.png)
@@ -47,7 +47,7 @@
 
 1. Share the Application ID/Client ID with the Blackboard administrator so that they can complete the following section. 
 
-#### Register the Application Key
+### Register the Application Key
 
 > [!note] As a Blackboard administrator, you may need to enable LTI if this is the first LTI provider to be configured. You may read about it [here.](https://docs.blackboard.com/standards/LTI%20In%20Learn%20-%20Turn%20On%20All%20The%20Switches!)
 
@@ -66,7 +66,7 @@
     - Allow Membership Service Access - yes
 1. Make sure the tool is set to approved. In the next section, we'll manage a simple placement.
 
-#### Configuring a Placement
+### Configuring a Placement
 
 1. From the LTI Tools Provider page, hover over the Tool/Provider and select *Manage Placements* from the drop-down menu.
     ![image-20200504143726506](images/blackboard-manage-placements.png)
@@ -84,7 +84,7 @@
         *In this example, 69707 is the Lab Profile ID of the Lab I will be using in a course.*
         ![image-20200511165159738](images/blackboard-placement-lab-settings.png)
 
-#### Adding the Placement to the Course
+### Adding the Placement to the Course
 
 1. When on the course page, the lab can be selected under the * Build Content* menu on the *Content* page.
     The title under build content is the same title used when configuring the placement.
@@ -92,9 +92,9 @@
 1. Once the lab is selected, you can enter a Name you would like students to see in their course, and set the grading (if required.) 
 1. Once the course is published, students will be able to access the lab.
 
-### Canvas Integration
+## Canvas Integration
 
-#### Developer Key
+### Developer Key
 
 1. Create a Lab on Demand API consumer and enable LTI 1.3 under the LTI tab. Be sure to generate the Public/Private Key set before saving the consumer. Keep this page open for reference.
    
@@ -136,7 +136,7 @@
 
 1. From the Configuration Type drop-down menu, select *By Client ID* and enter the Client ID from the Developer Key page. Finish installing the app by following the prompts.
 
-#### Adding a Lab to the Course
+### Adding a Lab to the Course
 
 A lab can now be added to the course as an assignment. 
 
