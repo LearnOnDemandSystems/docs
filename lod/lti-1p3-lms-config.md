@@ -1,5 +1,7 @@
 ## LTI 1.3 Integration
 
+> [!alert] All letters in any given URL/URI should be lowercase. 
+
 - [Blackboard Integration](#blackboard-integration)
 - [Canvas Integration](#canvas-integration)
 
@@ -8,20 +10,28 @@
 #### Registering an Application
 
 1. Create a Lab on Demand API consumer and enable LTI 1.3 under the LTI tab. Keep this page open for reference.
+
 1. Visit https://developer.blackboard.com/ and register an account. Obtain access to the Learn on Demand Systems group for new accounts. An active admin can assist you with this.
+
 1. Select *My Apps* from the top level menu bar.
+
 1. Off to the right, under the main title is a *+* icon. Use this icon to register a new application.
     ![image-20200504103553670](images/blackboard-new-app.png)
+    
 1. On the Register a new application page, toggle the *My Integration supports LTI 1.3* option and fill in the information provided from the API consumer as follows. When configuring the URIs, please use all lower case letters.
-    ![image-20200504153356388](images/Blackboard-registering-app.png)
+    [!alert] When configuring the URIs, please use all lower case letters.
+    
+    ![image-20200511164845945](images/Blackboard-registering-app.png)
+    
     - Application Name: *LODS - API Consumer Name*
     - Description: Integrated Digital Learning eXperience
-    - Domain(s): labondemand.com
+    - Domain(s): lod-lti-api.labondemand.com:257 (replace 257 with the API Consumer ID)
     - Group: Learn on Demand Systems (may need permissions to access.)
     - Login Initiation URL: This is the LTI 1.3 Login / Connect URL
     - Tool Redirect URL(s): This is the *LTI 1.3 Launch URL*
     - Tool JWKS URL: Leave this field blank to generate a private key.
     - Signing Algorithm: RS256
+    
 1. When the app is successfully registered, you will receive the values need to finish configuring the LOD API Consumer. They consist of the following;
     - Application key: You can copy this into the consumer but is not required for LTI 1.3
     - Secret: You can copy this into the consumer but is not required for LTI 1.3
@@ -31,10 +41,14 @@
     - Auth token endpoint: LTI 1.3 Access Token URL
     - OIDC auth request endpoint: LTI 1.3 Authorize URL
     - Tool Private Key: Copy this into the Private Key field on the API Consumer.
+    
 1. Review all settings and save the Lab on Demand API consumer before closing out the above information. You will not be able to access this information again.
+
 1. Share the Application ID/Client ID with the Blackboard administrator so that they can complete the following section. 
 
 #### Register the Application Key
+
+> [!note] As a Blackboard administrator, you may need to enable LTI if this is the first LTI provider to be configured. You may read about it [here.](https://docs.blackboard.com/standards/LTI%20In%20Learn%20-%20Turn%20On%20All%20The%20Switches!)
 
 1. Under the System Admin page, select *LTI Tool Providers.*
     ![image-20200504142445873](images/blackboard-lti-provider.png)
@@ -64,10 +78,10 @@
     - Type: we recommend a *Course Content tool* that *Allows grading*
     - Launch in New Window: Blackboard works best when the lab is launched in a new tab/window
         ![image-20200504150128222](images/blackboard-placement-base-settings.png)
-    - Tool Provider URL: lod-lti-api.labondemand.com
+    - Tool Provider URL: lod-lti-api.labondemand.com:257 (replace 257 with the API Consumer ID)
     - Tool Provider Custom Parameters: labid=69707
         *In this example, 69707 is the Lab Profile ID of the Lab I will be using in a course.*
-        ![image-20200504150446720](images/blackboard-placement-lab-settings.png)
+        ![image-20200511165159738](images/blackboard-placement-lab-settings.png)
 
 #### Adding the Placement to the Course
 
@@ -91,7 +105,9 @@
 1. On the Developer Key page, select the blue drop down menu labeled +Developer Key and select +LTI Key.
     ![image-20200430130214256](images/canvas-developer-keys.png)
 
-1. On the Key Settings page, choose the Manual Entry method and fill in the information provided from the API consumer as follows. When configuring the URIs, please use all lower case letters.
+1. On the Key Settings page, choose the Manual Entry method and fill in the information provided from the API consumer as follows.
+
+    > [!alert] When configuring the URIs, please use all lower case letters.
 
     - Redirect URIs: This is the *LTI 1.3 Launch URL
     - Title: Learn on Demand Systems
