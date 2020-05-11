@@ -173,4 +173,4 @@ A lab can now be added to the course as an assignment.
     
 1. Once back on the assignment page, edit the URL to include the Lab Profile ID before saving and publishing the assignment. We can provide a list of the Lab Profiles available. Once the assignment is published, the lab will be available to launch.
 
-![image-20200430133755465](images/canvas-url-update.png)
+	![image-20200430133755465](images/canvas-url-update.png)
