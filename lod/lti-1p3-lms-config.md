@@ -18,8 +18,9 @@
 1. Off to the right, under the main title is a *+* icon. Use this icon to register a new application.
     ![image-20200504103553670](images/blackboard-new-app.png)
     
-1. On the Register a new application page, toggle the *My Integration supports LTI 1.3* option and fill in the information provided from the API consumer as follows. When configuring the URIs, please use all lower case letters.
-    [!alert] When configuring the URIs, please use all lower case letters.
+1. On the Register a new application page, toggle the *My Integration supports LTI 1.3* option and fill in the information provided from the API consumer as follows. 
+    
+    > [!alert] When configuring the URIs, please use all lower case letters.
     
     ![image-20200511164845945](images/Blackboard-registering-app.png)
     
