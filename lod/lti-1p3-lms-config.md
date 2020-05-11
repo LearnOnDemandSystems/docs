@@ -143,11 +143,16 @@ A lab can now be added to the course as an assignment.
 1. From the main menu on the left side, select Courses and then from the flyout, the course you will be adding the lab to.
 1. On the course page, select Assignments > + Assignment
     ![image-20200504193010927](images/canvas-add-assignment.png)
+    
 1. When adding as an assignment, choose *External Tool* as the *Submission Type.* To find the placement you configured, Select Find.
     ![image-20200430133306619](images/canvas-find-placement.png)
+    
 1. Locate and select the tool/placement.
     ![image-20200504193343908](images/canvas-choose-tool.png)
-1. Once back on the assignment page, edit the URL to include the Lab Profile ID before saving and publishing the assignment. We can provide a list of the Lab Profiles available. Once the assignment is published, the lab will be available to launch.![image-20200430133755465](images/canvas-url-update.png)
+    
+1. Once back on the assignment page, edit the URL to include the Lab Profile ID before saving and publishing the assignment. We can provide a list of the Lab Profiles available. Once the assignment is published, the lab will be available to launch.
+![image-20200430133755465](images/canvas-url-update.png)
+
 
 
 
