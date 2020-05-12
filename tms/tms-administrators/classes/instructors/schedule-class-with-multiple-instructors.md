@@ -10,15 +10,13 @@ To add multiple instructors:
 1. All instructors matching your criteria will be displayed. Click the ones you want to add to the class and click **OK**.
 1. The first instructor added will be set as the Primary instructor for the whole class. To change this, click the **Primary** radial button for the instructor you want set as the primary. This will be the instructor displayed in the Find Classes results in the Instructor column.
 
-Instructors can only see the class on their Instructor Calendar if they are added to class sessions. By default, only the initial primary instructor is added to all class sessions and the additional instructors are not added to any class sessions.
+When an instructor is added to a class they are also added to all class sessions; instructors can only see the class on their Instructor Calendar if they are added to class sessions. 
 
->[!Alert] Changing the primary instructor designation in the Instructors section does not add or remove any instructor to class sessions. 
-
-1. To add all instructors to all sessions, click **Add all instructors to all sessions**. 
-
-You can also add/remove instructors to individual sessions. To do this: 
+You can add/remove instructors to individual sessions. To do this: 
 1. Expand the **Session Times** section and click **Edit** next to the session you want to change. 
 1. Click the **Instructor** dropdown and check or uncheck the box beside the instructor(s) name(s). Select which instructor is **Primary** for that session. This does not have to be the same instructor that is primary for the whole class.
 1. Click **OK**.
+
+If you edit class sessions to remove an instructor from one or more sessions, you will see a link in the Instructors section **Add all instructors to all sessions**, clicking this link will add all the instructors listed to all the sessions. 
 
 When you are finished creating/editing the class, click **Save**. If you have removed the automatic filter for schedule conflicts and one of the instructors has a conflict, you will be notified upon attempting to save. Click **Yes** to continue saving the class with the instructor conflict or click **No** to go back and change the conflict.
