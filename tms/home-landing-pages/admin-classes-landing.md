@@ -156,10 +156,7 @@
   <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="Admin Classes A-Z Docs" role="button" aria-selected="false">A-Z Index</div>
     <div class="subtopic_links">
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/vmh-comparison.md">
-        <div class="subtopic_title">Virtual Meeting Host Comparison</div>
-      </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/print-completion-certificates-for-class-by-admin.md">
+       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/print-completion-certificates-for-class-by-admin.md">
         <div class="subtopic_title">How can an administrator print completion certificates for a class?</div>
       </a>
       <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/access-completed-labs.md">
@@ -254,6 +251,9 @@
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/Integrate-Streaming-Provider.md">
             <div class="subtopic_title">How does LODS Integrate with my Virtual Meeting Provider?</div>
+      </a>
+         <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/vmh-comparison.md">
+        <div class="subtopic_title">Virtual Meeting Host Comparison</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/information-to-send-to-students-when-enrollments-created.md">
         <div class="subtopic_title">What information should I send to students when I create their enrollments?</div>
