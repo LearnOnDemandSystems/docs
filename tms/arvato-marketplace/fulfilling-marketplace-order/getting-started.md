@@ -4,6 +4,13 @@ The Learn on Demand Systems’ Training Management System (TMS) syncs with the C
 
 ## New Customers
 
+To provision your hands-on labs for an upcoming class you will need to take the following steps: 
+
+1. Create a center and user account in the TMS 
+1. Use the vouchers from your purchase to create your class(es) 
+1. Create training keys for your students to self-register in the class 
+1. Send the training keys and instructions on self-registration to your students 
+
 When you have placed your first order with LoDS, you will need to create an organization and user account in TMS for the vouchers from the Courseware Marketplace to sync. To create your organization, you will need your **Arvato Customer Number**. Then:
 1. Go to **https://alh.learnondemand.net/Organization/Register/2069**.
 1. Fill in your contact information as well as your organization information. Your **Arvato Customer Number** is required to synchronize your purchase to the TMS.
@@ -12,6 +19,12 @@ When you have placed your first order with LoDS, you will need to create an orga
 A Welcome page is provided to help with the next steps. There is also more information in the **Related Articles** section below.
 
 ## Returning Customers
+
+To provision your hands-on labs for an upcoming class you will need to take the following steps: 
+ 
+1. Use the vouchers from your purchase to create your class(es) 
+1. Create training keys for your students to self-register in the class 
+1. Send the training keys and instructions on self-registration to your students 
 
 As a returning customer, you already have an organization set up in the TMS. You do not need to create a new organization to access your vouchers and set up your classes for labs. Your vouchers are automatically sync'd from the Courseware Marketplace and loaded into the TMS. It may take up to 10 minutes for the sync to occur. Simply:
 1. Go to **https://alh.learnondemand.net** and click **Sign In**.
