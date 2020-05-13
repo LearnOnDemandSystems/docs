@@ -24,8 +24,6 @@ There are 6 class completion statuses. A completion status can only be set for a
 - **No Show** – Did not show up for class.
 - **Failed** – May have completed attending the class but did not successfully complete other items related to the class, like an exam.
 
-> [!NOTE] Students logging into Adobe Connect virtual classrooms are automatically marked Attending for their Completion Status.
-
 ## Related Article
 For more information on using the Attendance chart, please see:
 
