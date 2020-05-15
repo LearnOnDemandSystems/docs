@@ -38,6 +38,9 @@
   <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="Labs Docs" role="button" aria-selected="false">Labs</div>
     <div class="subtopic_links">
+      <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/keyboard-accessibility.md">
+        <div class="subtopic_title">Are labs keyboard accessible?</div>
+      </a>
       <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-without-user-account.md">
         <div class="subtopic_title">How do I access my labs using a lab code without a user account?</div>
       </a>
@@ -75,6 +78,9 @@
   <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="Student A-Z Docs" role="button" aria-selected="false">A-Z Index</div>
     <div class="subtopic_links">
+      <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/keyboard-accessibility.md">
+        <div class="subtopic_title">Are labs keyboard accessible?</div>
+      </a>
       <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/where-do-i-get-help.md">
         <div class="subtopic_title">How can I reach someone for help?</div>
       </a>
