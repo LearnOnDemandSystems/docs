@@ -8,16 +8,54 @@
 
 # What's New in Lab On Demand
 
+## **Released May 15, 2020**
+
+**Life Cycle Action**
+- A new Life Cycle Action hook has been added to Lab on Demand. A script can now be run against a VM or Container when the lab is Tearing Down and the Blocking option enabled. This combination will allow the script to complete before tearing down the resources required by the script.
+
+**Lab Instance Sharing**
+- Lab instance Sharing is now available for Cloud Slice Labs.
+- Fixed a bug preventing the validation of an email address when the character-case didn't match the value returned by the authentication provider.
+
+**Lab Instance Monitoring**
+- The Class monitoring page has been upgraded to include a grid layout that displays currently running labs. There are three different sizes of thumbnail to choose from and the layout can be toggled to the legacy layout when desired.
+
+**Azure CSS and CSR Improvements**
+- When a CSS lab profile is exported and imported, the subscription level settings (ACP and user permissions) are now preserved during the export/import.
+- The subscription prefix setting on enrollment accounts has been moved to the CSS subscription pool, so that the prefix will be applied to all enrollment accounts in the pool.
+- Reworked CSS resource provisioning so that resources deployed via Resource Templates are not blocked by the Access Control Policies configured in the lab profile. 
+- Azure CSS labs are now subject to Cloud Security Review based on Access Control Policies. 
+- Improved the way that Access Control Policies are applied in CSS labs to scope subscription and resource group ACPs appropriately. 
+- Updated the naming convention on the LOD Policy Set in Azure, to include identifiers for the platform and type of Azure lab. A script will be ran to update any references to this in Life Cycle Actions and Activity Based Assessments. 
+
+**Accessibility**
+- Star rating evaluations are now announced by a screen reader and are keyboard navigable. 
+- Added and corrected labels used by assistive technologies.
+
+**Improvements and Fixes**
+- Updated Snapshot feature to use an improved process for transferring files.
+- In Azure and AWS labs the User Account name prefix is pre-populated with the text, User1-.
+- LTI 1.3 Error messages are now properly presented in HTML instead of text.
+- Updated logic in LTI 1.3 service to respect enabled/disabled status of an API consumer when it is set to integration testing status.
+- Removed dialog that would be improperly displayed  when assigning an AWS user to a region when saving a new lab profile.
+- Removed references to deleted lab profiles on Shared Environment Lab Profile pages.
+- Fixed a bug that prevented the VLAN ID set in a VM profile from initializing on a lab host.
+- Fixed a bug that caused some vSphere VM profiles to display the wrong OS version on the details page.
+- Fixed a bug preventing variables from populating in the Intellisense menu while editing lab instructions in a running lab. 
+- Fixed a bug preventing labs utilizing German language option from launching.
+
+---
+
 ## **Released April 24, 2020**
 
 **We are now LTI Advantage Complete Certified**
 
-LTI allows administrators to easily integrate labs into their existing LTI 1.3 compliant learning management systems.
+- LTI allows administrators to easily integrate labs into their existing LTI 1.3 compliant learning management systems.
 In addition to more granular scoring and grading, LTI offers enhanced security utilizing OAuth 2 tokens and an improved authentication flow.
 
 **Azure Cloud Slice Subscription (CSS)**
 
-There are now two variants of Azure Cloud Slice; Cloud Slice Subscription (CSS) and Cloud Slice Resource Group (CSR). CSS allows full access to an Azure subscription, to allow Azure training at the subscription level, rather than at the resource group level. This solution will be a functional replacement for Azure Passes for MOC courses. Cloud Slice Resource Group (CSR) has had no changes in functionality. For more information about CSS, read Enabling Azure Learning in the Post Azure Pass Era.
+- There are now two variants of Azure Cloud Slice; Cloud Slice Subscription (CSS) and Cloud Slice Resource Group (CSR). CSS allows full access to an Azure subscription, to allow Azure training at the subscription level, rather than at the resource group level. This solution will be a functional replacement for Azure Passes for MOC courses. Cloud Slice Resource Group (CSR) has had no changes in functionality. For more information about CSS, read Enabling Azure Learning in the Post Azure Pass Era.
 
 **Accessibility Enhancements**
 
@@ -28,11 +66,11 @@ Many accessibility improvements have been made to the lab client resulting in an
 	
 **Lab Client Localization API Parameter** 
 
-Platform generated Dialogs, tabs, and menu items in the lab client can now be localized using the lang parameter during API launches. The available options include Chinese, English, French, Japanese, Korean, Portuguese, and Spanish.
+- Platform generated Dialogs, tabs, and menu items in the lab client can now be localized using the lang parameter during API launches. The available options include Chinese, English, French, Japanese, Korean, Portuguese, and Spanish.
 
 **Lab Instance Sharing**
 
-Lab instances can now be shared from the hamburger menu in the lab. This allows those with permissions to share their lab instance with another individual. When sharing, an email will automatically be sent out to the email address provided. Optional features may be extended from the original user's account such as saving differencing disks and editing instructions. The share can optionally be set to expire at a specified time and date. Additionally, the lab instance share can be protected by an established authentication provider.
+- Lab instances can now be shared from the hamburger menu in the lab. This allows those with permissions to share their lab instance with another individual. When sharing, an email will automatically be sent out to the email address provided. Optional features may be extended from the original user's account such as saving differencing disks and editing instructions. The share can optionally be set to expire at a specified time and date. Additionally, the lab instance share can be protected by an established authentication provider.
 
 **Virtual Machine (VM) Profile Improvements**
 - VM profiles now display the hard disk capacity on the details page. 
