@@ -11,7 +11,7 @@ The **Launch** command will launch a specified lab for a specified user.
 |firstName|String|Yes|The user’s first name|
 |lastName|String|Yes|The user’s last name|
 |email|String|Yes|The user’s email address|
-|classId|String|No|An optional parameter used to associate the lab with a class (see GetOrCreateClass. This is the unique identifier of the class as it is represented in your organization.|
+|classId|String|No|An optional parameter used to associate the lab with a class (see [GetOrCreateClass](lod-api-get-or-create-class.md). This is the unique identifier of the class as it is represented in your organization.|
 |canBeMarkedComplete|Integer|No|An optional parameter used to specify if the lab can be marked as complete by the student. 1 = true, 2 = false. If not specified, defaults to 1 (true).|
 |tag|String|No|An optional parameter that can be used for tagging the lab instance with your own custom data.|
 |ipAddress|String|No|When specified, Lab on Demand will attempt to launch the lab in the closest available delivery region. You should provide the IP address of the user that is taking the lab, not the IP address of your system.|
