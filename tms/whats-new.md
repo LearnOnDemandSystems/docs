@@ -3,6 +3,20 @@
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
 ----------------------------
+## Released May 21 2020
+
+
+### <span style="color:#0078d7;">Wait-Listed Enrollments – Automatic enrollment after cancellation</span>
+We can now automatically enroll a student from the Wait-List when an enrolled student cancels.  This requires an organization to enable this feature under Preferences on the Organization profile.  Auto-enrollment is only done when a student cancels their own enrollment and class is at its maximum capacity; not when an Operation Manager cancels the student. Automatic enrollment is based on earliest created date. If there are no Wait-Listed students, it will look for Requested enrollments to promote. 
+
+![](/tms/images/waitlist-enrollment.png)
+
+### <span style="color:#0078d7;">TMS Enhancements and Fixes</span>
+
+* Zoom. We have fixed the recordings display issues from zoom accounts configured to save recording files outside MP4.
+* Find Class Sessions – Has Labs Filter.  We have fixed the Has Lab filter to be based on Activity type in order for cloud-based lab class sessions to appear in the Does Have Lab results. 
+
+----------------------------
 ## Released May 7 2020
 
 
