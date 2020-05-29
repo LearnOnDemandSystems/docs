@@ -45,3 +45,8 @@ Event training keys can be generated when the class is created or while editing 
     1. You may replace it with a unique training key of your choice, or
     1. Click **Generate New Key**.
 1. Set either **Event training key can only be redeemed until the event ends** (default selection) or **Event training key can be redeemed during this event or after it ends**.
+
+## Related Articles
+
+- [How can I use class enrollment training keys for students to self-register for a class?](/tms/tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md)
+- [What information should I send to students who are registering for class using training keys?](/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md)
