@@ -1,8 +1,11 @@
-# What Types of Training Keys can be used for Classes
+# How can I use training keys for students to register for classes?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
 
 Two types of training keys are available to directly enroll students into a class: Enrollment Training Keys and Event Training Keys. For either key, an administrator creates a class and generates the enrollment keys or the event key. All training keys allow users to self-register by creating a user account and provisioning their training. Existing users can login and redeem their key to open their training. 
+
+Some setup by the LODS team is needed to enable the ability for students to create user accounts from your login page. Please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help) for information.
+
 
 ![](/tms/images/class-training-keys.png)
 
@@ -50,5 +53,4 @@ Event training keys can be generated when the class is created or while editing 
 
 ## Related Articles
 
-- [How can I use class enrollment training keys for students to self-register for a class?](/tms/tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md)
 - [What information should I send to students who are registering for class using training keys?](/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md)
