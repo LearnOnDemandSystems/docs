@@ -6,8 +6,8 @@ Training Keys are a great feature to help manage creating user accounts and trai
 
 We have several different types of training keys that can be used for different purposes, each with their own advantages:
 
-- [Enrollment Training Keys](#class-enrollment-training-keys) - Unique keys with one distributed to each student, used to create enrollments in an instructor-led class.
-- [Event Training Keys](#event-training-keys) - One key shared to all students to create enrollments in an instructor-led class.
+- ![Enrollment Training Keys](/tms/tms-administrators/classes/training-keys/class-training-keys.md) - Unique keys with one distributed to each student, used to create enrollments in an instructor-led class.
+- ![Event Training Keys](/tms/tms-administrators/classes/training-keys/class-training-keys.md) - One key shared to all students to create enrollments in an instructor-led class.
 - [Training Key Pools](#training-key-pools) - A batch of keys aligned with a course used to create course assignments for the course.
 - [Subscription Keys](#subscription-keys) - A batch of keys aligned with a subscription profile used to create a subscription assignment giving access the user to create course assignment from any of the courses in the subscription profile.
 
