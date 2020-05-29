@@ -1,15 +1,15 @@
 # What are the different types of Training Keys and how can they be used?
 
-Training Keys are a great feature in the One Learn Training Management System (TMS). You can use training keys to quickly and easily enroll students into both instructor-led and self-paced training without the need to manually create each enrollment or course assignment. Training keys can be aligned with classes, course assignments, and subscriptions. 
+Training Keys are a great feature to help manage creating user accounts and training for students. You can use training keys to quickly and easily enroll students into both instructor-led or self-paced training without the need to manually create each training assignment. A training key is a code you distribute to users, that code is then redeemed creating their training and it can also be used for them to create their user account. Training keys can be aligned with classes, course assignments, and subscriptions. 
 
 ## Types
 
 We have several different types of training keys that can be used for different purposes, each with their own advantages:
 
-- [Class Enrollment Training Keys](#class-enrollment-training-keys) - individual keys, one per student, used to create enrollments in an instructor-led class or event.
-- [Event Training Keys](#event-training-keys) - one key per event/class used to create enrollments in an instructor-led class or event.
-- [Training Key Pools](#training-key-pools) - a pool of keys aligned with a course used to create course assignments for the course.
-- [Subscription Keys](#subscription-keys) - a pool of keys aligned with a subscription profile used to create course assignments to the courses in the subscription profile.
+- [Enrollment Training Keys](#class-enrollment-training-keys) - Unique keys with one distributed to each student, used to create enrollments in an instructor-led class.
+- [Event Training Keys](#event-training-keys) - One key shared to all students to create enrollments in an instructor-led class.
+- [Training Key Pools](#training-key-pools) - A batch of keys aligned with a course used to create course assignments for the course.
+- [Subscription Keys](#subscription-keys) - A batch of keys aligned with a subscription profile used to create a subscription assignment giving access the user to create course assignment from any of the courses in the subscription profile.
 
 ## Class Enrollment Training Keys
 
