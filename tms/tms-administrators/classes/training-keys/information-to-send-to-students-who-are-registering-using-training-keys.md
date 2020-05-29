@@ -5,6 +5,7 @@ When you have students register for class with training keys, they will use the 
 > Here is the training key for your class enrollment: **[provide either the event training key or a unique training key for each student for your class]**
 
 > To access your class - 
+
   Go to **[provide login page URL]** and:
   1. Input the **Training Key** supplied in the field in the **Register with a Training Key** box.
   1. Click **Register**. This opens a page for you to create a user account and your login credentials for when you return to the site.
