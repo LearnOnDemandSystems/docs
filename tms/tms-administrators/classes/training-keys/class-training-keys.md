@@ -6,7 +6,7 @@ Two types of training keys are available to directly enroll students into a clas
 
 ## Enrollment Training Keys
 
-Enrollment training keys allow students to register automatically for instructor-led training. With this method, a unique key is generated for each individual user to be enrolled in the class up to the number of maximum enrollments set on a class.
+Enrollment training keys allow students to register automatically for instructor-led training. With this method, a unique key is generated for each individual user to be enrolled in the class up to the number of maximum students set on a class.
 
 You can provide the training keys to students prior to class to create their own enrollments, then monitor which students have redeemed keys and when.
 
@@ -24,18 +24,18 @@ Main features:
 
 - Class enrollment keys are used for instructor-led class deliveries
 - A key is generated for each enrollment or student
-- Keys can be generated up to the number of max enrollments set on the class
+- Keys can be generated up to the number of maximum students set on the class
 - Keys are created from the Training Keys link on the Class profile page
-- Keys are only valid during the duration of the class
-- Keys must be distributed to users manually
+- Keys are only valid from key creation through the class' end date
+- Keys are usually distributed to users through email
 
 ## Event Training Keys
 
-Event training keys are also allow students to register for instructor-led classes. With this method, you create one key for the entire class. This method is very easy to use since all students use the same key to enroll.
+Event training keys are also allow students to register for instructor-led classes. With this method, you create one key for the entire class. This is very easy to use since all students use the same key to enroll.
 
-There are unique benefits to using an event training key. If you have an automated notifcation setup to send class enrollment reminders, you can provide students with the event training key in the notification using a replacement token. In addition, you can set the timeframe when the key is valid with the event training key method. For instance, if you are running a one-day seminar and would like to offer participants access to the labs after the event has ended, the event training key can be set to allow this.
+There are unique benefits to using an event training key. If you have an automated notification set up to send class enrollment reminders, you can provide students with the event training key in the notification using replacement text. In addition, you have options in setting the timeframe when the key is valid. Event training keys have the option of being set to be redeemed before class starts and while it is in session or before class starts, while it is in session, and until post class lab access expires. Post class lab access begins from the class' end date, not on when the key was redeemed.
 
-While the event training key is a simple solution for enrolling students, there is a downside to its use. It is recommended that when you use an event training key, you set the maximum number of students on the class to match the number of expected students. Because the key can be redeemed by anyone who has it, there is the potential that the key may be given to an unexpected user or a student may accidentally double enroll. Setting the maximum students can help keep your roster manageable and accurate. Another downside is that you will not be able to see when a key was redeemed without navigating to each student’s enrollment page.
+While the event training key is a simple solution for enrolling students, its use requires special management. It is recommended that when you use an event training key, you set the maximum number of students on the class to match the number of expected students. This is because the key can be redeemed by anyone who has it, there is the potential that the key may be given to an unexpected user or a student may accidentally double enroll. Setting the maximum students can help keep your roster manageable and accurate.
 
 Event training keys can be generated when the class is created or while editing an already scheduled class. To add an event training key:
 1. Navigate to the **Class** profile page and click **Edit**.
