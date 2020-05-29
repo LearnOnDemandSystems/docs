@@ -1,5 +1,7 @@
 # What Types of Training Keys can be used for Classes
 
+> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+
 Two types of training keys are available to directly enroll students into a class: Enrollment Training Keys and Event Training Keys. For either key, an administrator creates a class and generates the enrollment keys or the event key. All training keys allow users to self-register by creating a user account and provisioning their training. Existing users can login and redeem their key to open their training. 
 
 ![](/tms/images/class-training-keys.png)
