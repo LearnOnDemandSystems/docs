@@ -52,6 +52,14 @@ Event training keys can be generated when the class is created or while editing 
 1. Set either **Event training key can only be redeemed until the event ends** (default selection) or **Event training key can be redeemed during this event or after it ends**.
 1. **Save**. The event training key displays on the class profile and can be viewed by the instructor or administrators.
 
+Main features:
+- Event Training keys are used for instructor led training class deliveries
+- One key is generated per class; all students use the same key
+- Key allows anyone to redeem; requires management of maximum students on the class
+- Key is created from the Create/Edit Class page
+- Key can be set to allow redemption after class, up until the post class lab access expires
+- Key can be shared at the beginning of a class or through a notification plan
+
 ## Related Articles
 
 - [What information should I send to students who are registering for class using training keys?](/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md)
