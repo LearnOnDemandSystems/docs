@@ -6,9 +6,9 @@ When you have students register for class with training keys, they will use the 
 
 > To access your class - 
   Go to **[provide login page URL]** and:
-      * Input the **Training Key** supplied in the field in the **Register with a Training Key** box.
-      * Click **Register**. This opens a page for you to create a user account and your login credentials for when you return to the site.
-      * Input your registration information and click **Save**. This opens your enrollment to the class. 
+  1. Input the **Training Key** supplied in the field in the **Register with a Training Key** box.
+  1. Click **Register**. This opens a page for you to create a user account and your login credentials for when you return to the site.
+  1. Input your registration information and click **Save**. This opens your enrollment to the class. 
 
 If a student already has an account in the TMS, the student can login and then select **Redeem Training Key** from the **Current Training** page.
 
