@@ -1,6 +1,6 @@
 # What information should I send to students who are registering for class using training keys?
 
-When you are having the students register for class using training keys, they will use the key provided to create their own user account and class enrollment. You will need to send them the URL to login along with a training key. The following template provides information you can revise to send to your students. It provides instructions on redeeming the training key, steps on how to access their labs and prepare for class.
+When you have students register for class with training keys, they will use the key provided to create their own user account and class enrollment. You need to send them the URL to login along with a training key. The following template provides information you can revise to send to your students, it provides instructions on redeeming the training key, steps on how to access their labs and prepare for class.
 
 > Here is the training key for your class enrollment: **[provide either the event training key or a unique training key for each student for your class]**
 
@@ -19,5 +19,5 @@ If a student already has an account in the TMS, the student can login and select
 ## Related Articles
 
 For more information on Training Keys, please see:
-- [What are the different types of Training Keys and how can they be used?](/tms/tms-administrators/tms-fundamentals/training-key-types.md)
+- [What Types of Training Keys can be used for Classes?](class-training-keys.md)
 - [How can I use class enrollment training keys for students to self-register for a class?](use-training-keys-for-students-to-self-register-for-class.md)
