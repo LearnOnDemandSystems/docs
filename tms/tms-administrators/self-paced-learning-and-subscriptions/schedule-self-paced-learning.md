@@ -4,6 +4,8 @@
 
 Self-paced learning is provisioned through course assignments. This gives a student direct access to labs and course activities without attending a class. When you create a course assignment, the student's access begins immediately and normally defaults to expire in 180 days. The expiration defaults based on the maximum days of access for a course assignment set on the organization profile. Course assignments are billed based on their creation date, but can be cancelled within 24 hours of creation if no labs have been launched. After the 24 hour window a request must be made to [**https://lod.one/help**](https://lod.one/help) for cancellation. 
 
+![](/tms/images/create-course-assignment.png)
+
 Students can access the course assignment from their **Current Training** page; under **Course Assignments**, the student clicks the name of the course to open it and access their activities. After a course assignment is completed, the assignment moves to the student's **Transcript** page. A completed course assignment is accessed by clicking the **Transcript** link and then the course name. Students have the ability to launch a new instance of completed labs as long as the expiration date has not passed.
 
 If a completion certificate is connected to the course and the student has completed the assignment, then they can print their certificate using the certificate icon beside their course assignment on the transcript page.
