@@ -50,6 +50,7 @@ Event training keys can be generated when the class is created or while editing 
     1. You may replace it with a unique training key of your choice, or
     1. Click **Generate New Key**.
 1. Set either **Event training key can only be redeemed until the event ends** (default selection) or **Event training key can be redeemed during this event or after it ends**.
+1. **Save**. The event training key displays on the class profile and can be viewed by the instructor or administrators.
 
 ## Related Articles
 
