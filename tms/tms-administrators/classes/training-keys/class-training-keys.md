@@ -62,4 +62,5 @@ Main features:
 
 ## Related Articles
 
-- [What information should I send to students who are registering for class using training keys?](/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md)
+- [What are the different types of training keys?](/tms/tms-administrators/tms-fundamentals/training-key-types.md)
+- [What information should I send to students who are registering for training using training keys?](/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md)
