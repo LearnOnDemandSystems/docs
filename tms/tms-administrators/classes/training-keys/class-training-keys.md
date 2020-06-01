@@ -60,7 +60,10 @@ Main features:
 - Key can be set to allow redemption after class, up until the post class lab access expires
 - Key can be shared at the beginning of a class or through a notification plan
 
-## Related Articles
+### Related Articles
 
+For more information on Training Keys, please see:
 - [What are the different types of training keys?](/tms/tms-administrators/tms-fundamentals/training-key-types.md)
+- [How can I use training keys for self-paced learning?](training-key-pool.md)
+- [How can I use subscription training keys for self-paced learning?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-training-key.md)
 - [What information should I send to students who are registering for training using training keys?](/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md)
