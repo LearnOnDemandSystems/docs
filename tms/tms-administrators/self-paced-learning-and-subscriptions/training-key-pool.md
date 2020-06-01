@@ -1,5 +1,7 @@
 # How can I use training key pools for self-paced learning?
 
+> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+
 Training key pools allow you to distribute keys to users for them to create self-paced course assignments. The pool gives access to one course, with multiple keys to distribute to different users. The user can take and re-take the training for as long as the course assignment is valid. This method is much more efficient than creating individual course assignments for each student if multiple course assignments are needed. With training key pools you can set the duration of access to content for students, designating that students have access to the course's labs for a limited amount of time.
 
 ![](/tms/images/training-key-pool-self-paced-training.png)
@@ -30,3 +32,11 @@ Main features:
 - Student access to content can be configured up to 180 days
 - Training key pools are created from the Admin menu's Training Keys tile using the Create Training Key Pool link 
 - Keys can be exported for distribution
+
+### Related Articles
+
+For more information on Training Keys, please see:
+- [What are the different types of training keys?](/tms/tms-administrators/tms-fundamentals/training-key-types.md)
+- [How can I use training keys for students to register for classes?](class-training-keys.md)
+- [How can I use subscription training keys for self-paced learning?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-training-key.md)
+- [What information should I send to students who are registering for training using training keys?](/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md)
