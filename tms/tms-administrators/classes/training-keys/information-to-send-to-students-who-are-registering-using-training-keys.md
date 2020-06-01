@@ -22,7 +22,7 @@ When you have students register for a class, self-paced training, or a subscript
 ## Related Articles
 
 For more information on Training Keys, please see:
-- [What Types of Training Keys can be used for Classes?](class-training-keys.md)
-- [How can I use class enrollment training keys for students to self-register for a class?](/tms/tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md)
+- [What are the different types of training keys?](/tms/tms-administrators/tms-fundamentals/training-key-types.md)
+- [How can I use training keys for students to register for classes?](class-training-keys.md)
 - [How can I use training key pools for self-paced learning?](/tms/tms-administrators/self-paced-learning-and-subscriptions/training-key-pool.md)
 - [How can I use subscription training keys for self-paced learning?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-training-keys.md)
