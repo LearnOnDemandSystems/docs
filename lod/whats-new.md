@@ -8,6 +8,87 @@
 
 # What's New in Lab On Demand
 
+## **Released May 29, 2020**
+
+**Lab Instance Transfer**
+
+- When permitted, students, instructors, and lab developers can transfer their lab instance to one another using email. This setting can be turned on at the organization level. LOD administrators will also be able to swap lab instances between users using a Transfer console available through the lab instance details page.
+
+**Lab Instance Time Extension** 
+
+- When permitted, students and/or instructors can be allowed to extend their lab instance via the pencil icon next to the lab timer. When the icon is selected, they will be presented with a calendar to set the new expiration date for their lab. The maximum amount of time that the lab can be extended is configured on the Organization that owns the lab profile. Once a maximum extension time is set, a drop-down menu in the lab profile will have three options to select who can extend their lab. 
+
+    The options consist of:
+    - Not Allowed
+    - Allow only instructors to extend lab expiration
+    - Allow users to extend lab expiration (includes instructors)
+
+**Activity Based Assessment (ABA)**
+
+- There is a new ABA option for both Question and Automated activities that allows  page navigation to be blocked until the student answers or completes the activity correctly. This feature will be very beneficial for challenge based lab scenarios.
+
+- Fixed a bug that prevented multiple answer ABA activities from displaying properly in a task list. 
+
+**Evaluations**
+
+- When creating or editing an Evaluation, there is now a setting labeled Allow Skipping. By default, Evaluations will allow skipping, but it is now possible to disable the option to skip an evaluation, by unchecking the Allow Skipping setting.
+
+**Improved Error Messaging** 
+
+- We have updated error messaging to better indicate why a lab cannot be launched. The new messages include:
+    - All available hosts have hit a launch throttle limit.
+    - A host with sufficient RAM could not be found.
+    - A host with access to all required virtual disk files could not be found.
+    - A host with sufficient local storage could not be found.
+    - A public IP address is not currently available.
+    - A host with an available external container port is not currently available.
+
+**API Error Console**
+
+- A new console for tracking API launch errors is now available under the Lab Instances tile. This will allow LOD and organization admin to quickly identify the following issues that students may encounter when trying to launch a lab through the LOD API. Note the values in parentheses are only placeholders and will likely be different depending on the resources requested during the launch.
+    - A host with sufficient local storage could not be found.
+    - This lab is not currently available for launch via API. It is awaiting security review.
+    - Sorry, you have taken this lab the maximum number of (3) times.
+    - User has too many active labs (2).
+    - Student is already using too much RAM to launch this lab (max 100 GB).
+    - External API integration has reached the maximum number of concurrent lab instances (1000).
+    - API consumer is using the maximum amount of allowed RAM (1000 GB).
+    - The maximum number of current labs for this lab profile are currently running (10).
+    - The user's organization currently has the maximum allowed active labs (300).
+    - The user's organization is currently using the maximum allowed amount of RAM (800 GB).
+    - The maximum amount of RAM for labs belonging to ABC Learning Co. is currently in use (1200 GB).
+    - The maximum number of labs that belong to ABC Learning Co. are currently running (800).
+    - The maximum number of current labs for this lab series are currently running (30).
+    - The user's organization is currently using the maximum allowed amount of RAM (1200 GB).
+    - Class has reached the maximum number of concurrent lab instances (30).
+
+**Improvements and Fixes**
+
+- Updated markdown to HTML parser. This update allows better integration with Github flavored markdown.
+- The number of results displayed on an event's homepage can now be set when configuring the event.
+- The number of concurrent instances allowed per user can now be set with the API parameter maxActiveLabs.
+- Added Win Shortcut key to the commands menu (lightning bolt)
+- Activities and LCAs are now saved into new lab profiles created from a running lab instance.
+- When configuring a lab profile that uses Azure or AWS as the virtualization platform, the tabs are re-ordered in a more intuitive order so that a lab developer can configure the lab one tab at a time, from left to right.
+- Validation has been added to VM profiles to ensure that a network adapter is added, when creating a new Azure VM profile or editing an existing profile.
+- Corrected typo in lab instance sharing tool tip and also Container port unavailable error message.
+- When creating or editing a VM profile that uses AWS as the platform, unsupported checkbox options have been removed from the bottom of the Basic Information tab. Removed options include: Host Integration Enabled, Use Enhanced Session Mode, and Enabled Dynamic Screen Resizing.
+- When creating or editing a VM profile that uses vSphere, AWS, or Azure as the platform, unsupported checkbox Use Enhanced Session Mode has been removed.
+- VMware VM display names are now limited to 64 characters.
+- The Zoom slider will move above the tab labels in the lab client when long custom tabs are configured on the lab profile or the slider would otherwise overlap the tabs.
+- Added a loading screen to lab profiles that have a hidden VM and no Cloud landing page.
+- Improved resilience during the Differencing Disk process when capturing very large virtual machines.
+- In addition to standard PKCS#1 keys, LTI 1.3 now supports PKCS#8 keys provided by Blackboard for launching and scoring labs.
+- Fixed a bug resulting in an error when searching for Lab Profiles by Expected Cloud Cost.
+- Fixed a bug that allowed a user to continue using expired permissions so long as they used AAD to sign in.
+- Fixed a bug that prevented the instructions from being carried over when saving a running lab as a new lab profile.
+- Fixed a bug that caused an application error when force checking in lab instructions.
+- Fixed a bug that prevented some applications from honoring line breaks when using Type Text.
+- Fixed a bug that prevented Cloud Resource Templates from being saved, cloned, or deleted.
+- Fixed a bug that allowed a lab to be pre-instanced from a disabled Lab Series.
+
+
+
 ## **Released May 15, 2020**
 
 **Life Cycle Action**
@@ -191,7 +272,7 @@ This will allow us to exercise greater control over cloud and virtualization res
 - Fixed a bug that caused _Edit Instructions_ to show in a launched lab that uses GitHub or Azure DevOps as an external instruction source.
 
 ---
-
+<!--
 ## **Released December 13, 2019**
 
 **Improvements and Fixes**
@@ -236,7 +317,7 @@ This will allow us to exercise greater control over cloud and virtualization res
 - Fixed a bug that prevented Imported From links on a lab profile or lab series note section from navigating to the profile/series that it was imported from.
 
 ---
-<!--
+
 ## **Released October 25, 2019**
 
 **Fixes and Improvements**
