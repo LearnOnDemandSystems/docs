@@ -18,5 +18,5 @@ Some setup by the LODS team is needed to enable the ability for students to crea
 For more information on Training Keys, please see:
 - [How can I use class enrollment training keys for students to self-register for a class?](/tms/tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md)
 - [How can I use training key pools for self-paced learning?](/tms/tms-administrators/self-paced-learning-and-subscriptions/training-key-pool.md)
-- [How can I use subscription training keys for self-paced learning?](/tms/tms-administrators/classes/training-keys/subscription-keys.md)
+- [How can I use subscription training keys for self-paced learning?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-training-keys.md)
 - [What information should I send to students who are registering for class using training keys?](/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md)
