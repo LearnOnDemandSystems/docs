@@ -145,11 +145,14 @@
   <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="Training Keys Docs" role="button" aria-selected="false">Training Keys</div>
     <div class="subtopic_links">
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md">
-        <div class="subtopic_title">How can I find enrollment training keys from classes?</div>
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/training-keys/class-training-keys.md">
+        <div class="subtopic_title">How can I use training keys to register students for classes?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md">
-        <div class="subtopic_title">What information should I send to students who are registering for class using training keys?</div>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md">
+        <div class="subtopic_title">What information should I send to students who are registering using training keys?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md">
+        <div class="subtopic_title">How can I find enrollment training keys from classes?</div>
       </a>
     </div>
   </div>
