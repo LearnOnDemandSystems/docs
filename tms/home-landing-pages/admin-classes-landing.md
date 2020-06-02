@@ -177,6 +177,9 @@
       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/find-class-in-session.md">
         <div class="subtopic_title">How can I find a class that is in session?</div>
       </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md">
+        <div class="subtopic_title">How can I find enrollment training keys from classes?</div>
+      </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md">
         <div class="subtopic_title">How can I find virtual meeting IDs for classes?</div>
       </a>
@@ -218,6 +221,9 @@
       </a>       
         <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meeting/streaming-teams.md">
        <div class="subtopic_title">How can I use Microsoft Teams in a TMS class?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/training-keys/class-training-keys.md">
+        <div class="subtopic_title">How can I use training keys to register students for classes?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meeting/streaming-webex.md">
         <div class="subtopic_title">How can I use Webex in a TMS class?</div>
