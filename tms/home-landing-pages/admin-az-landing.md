@@ -93,12 +93,18 @@
       <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/track-laptops-being-used-for-classes-outside-org.md">
         <div class="subtopic_title">How can I track laptops being used for classes taught outside my organization?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md">
+        <div class="subtopic_title">How can I find enrollment training keys from classes?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md">
         <div class="subtopic_title">How can I use my organization’s virtual meeting program in my virtual classes?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md">
-        <div class="subtopic_title">How can I use training keys for students to self-register for a class?</div>
-      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-training-keys.md">
+        <div class="subtopic_title">How can I use subscription training keys for self-paced learning?</div>
+      </a>      
+        <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/training-key-pool.md"">
+        <div class="subtopic_title">How can I use training key pools for self-paced learning?</div>
+      </a>      
       <a class="subtopic_link" href="/tms/tms-administrators/users/instructor-management/set-up-organization-to-use-contract-instructors.md">
         <div class="subtopic_title">How can my organization be set up to use contract instructors?</div>
       </a>
