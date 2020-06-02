@@ -268,7 +268,7 @@
         <div class="subtopic_title">What information should I send to students when I create their enrollments?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md">
-        <div class="subtopic_title">What information should I send to students who are registering for class using training keys?</div>
+        <div class="subtopic_title">What information should I send to students who are registering using training keys?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/add-existing-class-enrollments-to-new-event.md">
         <div class="subtopic_title">Why does my lab expire within a week when I am supposed to have access to it for a longer time?</div>
