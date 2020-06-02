@@ -258,7 +258,7 @@
         <div class="category"> 
           <a href="/tms/tms-administrators/tms-fundamentals/training-key-types.md" class="categoryThread">
             <i class="material-icons blue" aria-hidden="true">bookmarks</i>
-            <span class="categoryTitleFeatured" title="What are the different types of Training Keys and how can they be used?">What are the different types of Training Keys and how can they be used?</span>
+            <span class="categoryTitleFeatured" title="What are the different types of Training Keys?">What are the different types of Training Keys and how can they be used?</span>
             <span class="categoryDescription">You can use training keys to quickly enroll students into either instructor-led or self-paced training without manually creating each enrollment or course assignment.</span>
           </a>
         </div>
