@@ -21,7 +21,13 @@
       <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/schedule-self-paced-learning.md">
         <div class="subtopic_title">How do I schedule self-paced learning for a student?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/print-completion-certificates-for-self-pace-learning-by-admin.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/training-key-pool.md">
+        <div class="subtopic_title">How can I use training key pools for self-paced learning?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-training-keys.md">
+        <div class="subtopic_title">How can I use subscription training keys for self-paced learning?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/print-completion-certificates-for-self-pace-learning-by-admin.md">
         <div class="subtopic_title">How can an administrator print completion certificates for self-paced learning?</div>
       </a>
     </div>
