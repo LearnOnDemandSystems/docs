@@ -1,4 +1,4 @@
-# How can I use training keys for students to register for classes?
+# How can I use training keys to register students for classes?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
 
