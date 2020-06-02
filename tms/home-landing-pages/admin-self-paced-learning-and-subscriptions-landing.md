@@ -27,6 +27,9 @@
       <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-training-keys.md">
         <div class="subtopic_title">How can I use subscription training keys for self-paced learning?</div>
       </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md">
+        <div class="subtopic_title">What information should I send to students who are registering using training keys?</div>
+      </a>
         <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/print-completion-certificates-for-self-pace-learning-by-admin.md">
         <div class="subtopic_title">How can an administrator print completion certificates for self-paced learning?</div>
       </a>
