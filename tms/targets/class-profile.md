@@ -25,7 +25,7 @@ The following articles provide information about links on the Class Profile page
 
 The following are articles related to actions that can be done from this page:
 
-- [How can I use training keys for students to self-register for a class?](../tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md)
+- [How can I use training keys for students to self-register for a class?](../tms/tms-administrators/classes/training-keys/class-training-keys.md)
 - [How can an administrator print completion certificates for a class?](../tms-administrators/classes/schedule/print-completion-certificates-for-class-by-admin.md)
 - [How do I record student attendance for a multiple day class?](../tms-administrators/classes/enrollments-roster/record-student-attendance-for-multiple-day-class.md)
 
