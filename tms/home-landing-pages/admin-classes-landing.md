@@ -27,7 +27,10 @@
       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/cancel-class.md">
         <div class="subtopic_title">How can I cancel a class?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/find-class.md">
+      <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/disable-class-activities.md">
+        <div class="subtopic_title">How can I disable class activities?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/find-class.md">
         <div class="subtopic_title">How can I find a class?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/find-class-in-session.md">
@@ -203,6 +206,9 @@
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classroom-outside-org.md">
         <div class="subtopic_title">How can I create a classroom that is outside my organization's physical location?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/disable-class-activities.md">
+        <div class="subtopic_title">How can I disable class activities?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/instructors/find-classes-for-particular-instructor.md">
         <div class="subtopic_title">How can I find the classes for a particular instructor?</div>
