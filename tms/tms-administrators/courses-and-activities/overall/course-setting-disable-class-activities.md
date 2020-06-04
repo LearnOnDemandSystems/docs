@@ -22,4 +22,4 @@ To set up activity disablement:
 
 ### Additional Resources
 
-- How to Disable Class Activities
+- [How to can I disable class activities?](/tms/instructors/instructor-prep-and-classes/disable-class-activities.md)
