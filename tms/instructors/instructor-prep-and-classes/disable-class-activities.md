@@ -20,5 +20,5 @@ Students have a Launch button for all enabled activities. Disabled activities ap
 
 ### Additional Resources
 
-- [How to Setup a Course so that Class Activities can be Disableds](/tms/tms-administrators/courses-and-activities/overall/course-setting-disable-class-activities.md)
+- [How can I set up a course to disable class activities?](/tms/tms-administrators/courses-and-activities/overall/course-setting-disable-class-activities.md)
 
