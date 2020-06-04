@@ -39,7 +39,10 @@
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/roles-thru-auth-prov.md">
         <div class="subtopic_title">How can I assign user roles using an authentication provider?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/discussions/admin-follow.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/auto-enroll-waitlisted-students.md">
+        <div class="subtopic_title">How can I automate enrollment of wait-listed students?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/discussions/admin-follow.md">
         <div class="subtopic_title">How can I be notified of activity on a discussion?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/cancel-class.md">
@@ -63,7 +66,10 @@
       <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/create-multiple-user-accounts-at-once.md">
         <div class="subtopic_title">How can I create multiple user accounts at once?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/find-class.md">
+      <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/disable-class-activities.md">
+        <div class="subtopic_title">How can I disable class activities?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/find-class.md">
         <div class="subtopic_title">How can I find a class?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/find-class-in-session.md">
@@ -249,7 +255,10 @@
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/set-defaults-for-creating-users-and-classes.md">
         <div class="subtopic_title">How do I set the defaults for creating users and classes?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/course-setting-disable-class-activities.md">
+        <div class="subtopic_title">How can I set up a course for disabling class activities?</div>
+      </a>
+       <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md">
         <div class="subtopic_title">How can I set up an integrated virtual meeting host?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-adobeconnect.md">
