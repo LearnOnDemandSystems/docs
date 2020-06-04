@@ -35,8 +35,11 @@
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/labs/max-ram.md">
         <div class="subtopic_title">What does it mean when I get a 'Max RAM settings' warning when adding a lab to a course?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/labs/find-how-long-lab-will-be-saved-for.md">
-        <div class="subtopic_title">How can I find how long a lab will be saved for?</div>
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/course-setting-disable-class-activities.md">
+        <div class="subtopic_title">How can I set up a course for disabling class activities?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/labs/find-how-long-lab-will-be-saved-for.md">
+        <div class="subtopic_title">How can I find how long a lab will be saved?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/labs/find-if-student-launched-lab.md">
         <div class="subtopic_title">How do I find if or when a student has launched a lab?</div>
@@ -49,7 +52,10 @@
   <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="Other Activities Docs" role="button" aria-selected="false">Other Activities</div>
     <div class="subtopic_links">
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/create-scorm-module.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/course-setting-disable-class-activities.md">
+        <div class="subtopic_title">How can I set up a course for disabling class activities?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/create-scorm-module.md">
         <div class="subtopic_title">How do I create a SCORM Module and make it available to other organizations for their courses?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/add-scorm.md">
@@ -105,10 +111,13 @@
         <div class="subtopic_title">How can I capture user data for users who access my externally hosted activities from the TMS?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/labs/find-how-long-lab-will-be-saved-for.md">
-        <div class="subtopic_title">How can I find how long a lab will be saved for?</div>
+        <div class="subtopic_title">How can I find how long a lab will be saved?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/start-scorm-module.md">
         <div class="subtopic_title">How can I preview a SCORM module belonging to my organization?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/course-setting-disable-class-activities.md">
+        <div class="subtopic_title">How can I set up a course for disabling class activities?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/add-courses-to-publishing-group.md">
         <div class="subtopic_title">How do I add a course to my publishing group?</div>
