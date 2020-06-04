@@ -1,4 +1,4 @@
-# How to Disable Class Activities
+# How to can I disable class activities?
 
 You can control when and if students have access to class activities, including labs, external links (video, document and/or website), assessments and SCORM modules (Note: Surveys cannot be disabled).
 
