@@ -174,7 +174,13 @@
       <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/check-in-students-for-class.md">
         <div class="subtopic_title">How can I check students in for class?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/find-class.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classroom-outside-org.md">
+        <div class="subtopic_title">How can I create a classroom that is outside my organization's physical location?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/disable-class-activities.md">
+        <div class="subtopic_title">How can I disable class activities?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/find-class.md">
         <div class="subtopic_title">How can I find a class?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/find-class-in-session.md">
@@ -182,6 +188,9 @@
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md">
         <div class="subtopic_title">How can I find enrollment training keys from classes?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/instructors/find-classes-for-particular-instructor.md">
+        <div class="subtopic_title">How can I find the classes for a particular instructor?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md">
         <div class="subtopic_title">How can I find virtual meeting IDs for classes?</div>
@@ -192,31 +201,10 @@
       <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/track-laptops-being-used-for-classes-outside-org.md">
         <div class="subtopic_title">How can I track laptops being used for classes taught outside my organization?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md">
-        <div class="subtopic_title">How can I use training keys for students to self-register for a class?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/change-class-enrollment-status-and-which-to-use.md">
-        <div class="subtopic_title">How do I change a class enrollment status and which one should I use?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/change-enrollments-completion-status-and-which-to-use.md">
-        <div class="subtopic_title">How do I change an enrollment's completion status and which one should I use?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/create-class.md">
-        <div class="subtopic_title">How do I create a class?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classroom-outside-org.md">
-        <div class="subtopic_title">How can I create a classroom that is outside my organization's physical location?</div>
-      </a>
-        <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/disable-class-activities.md">
-        <div class="subtopic_title">How can I disable class activities?</div>
-      </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/instructors/find-classes-for-particular-instructor.md">
-        <div class="subtopic_title">How can I find the classes for a particular instructor?</div>
-      </a>
-       <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md">
        <div class="subtopic_title">How can I set up an integrated Virtual Meeting Host?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-adobeconnect.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-adobeconnect.md">
        <div class="subtopic_title">How can I use Adobe Connect in a TMS class?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-googlemeet.md">
@@ -228,8 +216,8 @@
         <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meeting/streaming-teams.md">
        <div class="subtopic_title">How can I use Microsoft Teams in a TMS class?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/training-keys/class-training-keys.md">
-        <div class="subtopic_title">How can I use training keys to register students for classes?</div>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md">
+        <div class="subtopic_title">How can I use training keys for students to self-register for a class?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meeting/streaming-webex.md">
         <div class="subtopic_title">How can I use Webex in a TMS class?</div>
@@ -237,7 +225,16 @@
         <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meeting/streaming-Zoom.md">
         <div class="subtopic_title">How can I use Zoom in a TMS class?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classrooms.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/change-class-enrollment-status-and-which-to-use.md">
+        <div class="subtopic_title">How do I change a class enrollment status and which one should I use?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/change-enrollments-completion-status-and-which-to-use.md">
+        <div class="subtopic_title">How do I change an enrollment's completion status and which one should I use?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/create-class.md">
+        <div class="subtopic_title">How do I create a class?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classrooms.md">
         <div class="subtopic_title">How do I create classrooms?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/enroll-multiple-students.md">
