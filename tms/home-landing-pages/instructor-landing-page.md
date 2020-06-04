@@ -83,7 +83,10 @@
       <a class="subtopic_link" href="/tms/tms-administrators/discussions/admin-follow.md">
         <div class="subtopic_title">How can I be notified of activity on a discussion?</div>
       </a>
-      <a class="subtopic_link" href="/tms/instructors/instructor-profile/show-unavailable-times.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/course-setting-disable-class-activities.md">
+      <div class="subtopic_title">How can I disable class activities?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/instructors/instructor-profile/show-unavailable-times.md">
         <div class="subtopic_title">How can I show times when I am unavailable?</div>
       </a>
       <a class="subtopic_link" href="/tms/instructors/instructor-profile/show-courses-qualified-to-teach.md">
