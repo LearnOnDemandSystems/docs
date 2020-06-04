@@ -8,6 +8,8 @@ When a course is set up to allow class activities to be disabled, then all class
 
 The ability to disable activities must be set on the course or the Enabled check boxes do not show in the class. You can edit courses created by your organization. Vendors control features in courses contracted from them. 
 
+![](/tms/images/course-disable-class-activities.png)
+
 Activities need to be re-enabled for students to access them after class. You can activate a setting on the course which automatically enables all the class activities at the end of class in case an instructor forgets to re-enable any activities. 
 
 To set up activity disablement:
