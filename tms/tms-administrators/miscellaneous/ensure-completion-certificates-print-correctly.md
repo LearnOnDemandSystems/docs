@@ -1,4 +1,4 @@
-# How do I ensure my Course Completion Certificates print correctly?
+# How do I ensure my course completion certificates print correctly?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
 
