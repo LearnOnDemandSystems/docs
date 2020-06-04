@@ -142,7 +142,11 @@
         <div class="subtopic_title">Introduction to Lab on Demand UI</div>
         <div class="subtopic_description">Explanation of Lab on Demand UI.</div>
       </a>
-      <a class="subtopic_link" href="/lod/lab-interface-faq.md">
+      <a class="subtopic_link" href="/lod/lod-lab-developers/lab-instance-sharing.md">
+        <div class="subtopic_title">Lab Instance Sharing</div>
+        <div class="subtopic_description">Lab Instance Sharing allows multiple users to work together in a lab profile at the same time. </div>
+      </a>
+        <a class="subtopic_link" href="/lod/lab-interface-faq.md">
         <div class="subtopic_title">Lab Interface Frequently Asked Questions</div>
         <div class="subtopic_description">Frequently asked questions about the Lab on Demand lab interface.</div>
       </a>
