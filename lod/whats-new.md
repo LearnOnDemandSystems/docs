@@ -8,6 +8,38 @@
 
 # What's New in Lab On Demand
 
+## **Released June 12, 2020**
+
+**IDLx Replacements**
+- There is a new option in the IDLx @lab menu for Replacements. Replacements allow for text or regex find and replace. Replacements can be used to cleanup or extend existing instructions sources, potentially eliminating  the need for lab errata. 
+
+**Azure CSS Improvements**
+- Azure CSS Resource Group names have been simplified to be read more user friendly.
+- Removed the Name field from Azure Enrollment Accounts. Only the Principal Name is displayed.
+ 
+**LOD Improvements and Fixes**
+
+- Per hour pricing is now displayed on lab profile details pages and returned in a LabProfile and Catalog API calls. 
+- When a cloud based lab inherits the environment from another lab, the virtualization platform and cloud platform are now disabled.
+- Users can now choose to cancel a lab instance directly from a running lab when saving their current lab would otherwise exceed the number of allowed saved labs configured on their account.
+- When starting a virtual machine in a running lab instance, the message "There is not enough available memory to start this Virtual Machine. Please try again later." will appear when their isn't enough RAM on the host.
+- The DeepLink URL is now displayed on API Consumer page.
+- Dark theme updated so that autofill fields match other text fields. 
+- Updated outgoing TS1 notification to include the reason and user org when an API launch fails.
+- Search filters are now shown in alphabetical order when selecting from the add filter drop-down menu.
+- Cloud hosted VMs no longer take Datacenter availability into account.
+- Themes applied to the lab will now render when viewing the instructions through the Lab Manual view.
+- When lab instructions contain a non-breaking space, it will no longer be parsed and displayed in lab instructions or in IDLx syntax such as code blocks.
+- Additional logging of API errors has been added to the API Error Console to provide more information about the error that occurred. 
+- Fixed a bug that prevented IDLx sections with variable dependencies from showing/hiding in a Lab Manual. 
+- Fixed a bug resulting in an error when a description is provided through an LTI 1.3 launch.
+- Fixed a bug that prevented ACP enforcement on a lab profile with specific user permission configuration.
+- Fixed a bug that caused an application error when viewing a lab instance for a lab profile where the cloud platform is changed on a lab profile while there are running lab instances. 
+- Fixed a bug that would populate CSS settings on the Cloud tab when a lab was configured for CSS, changed to CSR and then back to CSS. 
+- Fixed a bug that prevented Expected Cloud Cost to be displayed when printing or exporting lab profile search results. 
+- Fixed a bug that prevented labs from displaying when the lab profile is configured for French language.
+
+
 ## **Released May 29, 2020**
 
 **Lab Instance Transfer**
