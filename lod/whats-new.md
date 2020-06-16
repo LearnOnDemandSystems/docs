@@ -20,7 +20,7 @@
 **LOD Improvements and Fixes**
 
 - Per hour pricing is now displayed on lab profile details pages and returned in a LabProfile and Catalog API calls. 
-- When a cloud based lab inherits the environment from another lab, the virtualization platform and cloud platform are now disabled.
+- When a cloud based lab inherits the environment from another lab, the virtualization and cloud platforms are now disabled.
 - Users can now choose to cancel a lab instance directly from a running lab when saving their current lab would otherwise exceed the number of allowed saved labs configured on their account.
 - When starting a virtual machine in a running lab instance, the message "There is not enough available memory to start this Virtual Machine. Please try again later." will appear when their isn't enough RAM on the host.
 - The DeepLink URL is now displayed on API Consumer page.
