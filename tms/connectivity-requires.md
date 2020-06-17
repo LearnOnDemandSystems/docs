@@ -78,8 +78,6 @@ Click the following link to launch a test lab: [Launch the Lab Orientation & Con
 
 If you are experiencing frequent disconnects or lag when controlling your machines, you may run a [speed test](https://www.learnondemandsystems.com/speedtest/). This page allows you to run a connection assessment test. A connection assessment test is a very deep and thorough test that measures throughput speed, capacity, and packet quality to assess the user experience of a connection to their respective data center. This includes efficiency, data loss, recovery, duplication of data, retransmissions and even corruption.
 
-For help with analyzing the results of your test, please review the [Interpreting Your Connection Assessment Results](connection-results.md) article.
-
 ## When Connections Traverse a Proxy
 
 When connecting to a lab instance via a proxy, certain configuration requirements must be met for each remote controller. For more information, please review the [Proxy Requirements](proxy-requires.md) article.
