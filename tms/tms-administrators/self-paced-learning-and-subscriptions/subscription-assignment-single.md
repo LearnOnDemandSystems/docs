@@ -2,7 +2,7 @@
 
 A subscription assignment gives a user access to multiple courses to take as self-paced training. Users can take and retake the courses an unlimited number of times until their subscription expires. Using subscriptions enables your users to work through the training they want, when they want it, without your staff having to manage individual course assignments.
 
-To assign a subscription, a Subscription Profile must be in place. [Click here] (/tms/tms-administrators/self-paced-learning-and-subscriptions/create-subscription.md)
+To assign a subscription, a Subscription Profile must be in place. [Click here](/tms/tms-administrators/self-paced-learning-and-subscriptions/create-subscription.md)
 
 for information on creating one. The profile acts as a template for assignments, as it supplies the courses and defaults the assignment duration. After creating the assignment, the user can open their On-Demand subscription from their Current Training page to view the On-Demand Subscription catalog and begin taking training.
 
