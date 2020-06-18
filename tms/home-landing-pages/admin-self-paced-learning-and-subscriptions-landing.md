@@ -21,9 +21,24 @@
       <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/schedule-self-paced-learning.md">
         <div class="subtopic_title">How do I schedule self-paced learning for a student?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/training-key-pool.md">
-        <div class="subtopic_title">How can I use training key pools for self-paced learning?</div>
+        <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-description.md">
+        <div class="subtopic_title">What is a subscription?</div>
       </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/create-subscription.md">
+        <div class="subtopic_title">How to create a subscription?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-single.md">
+        <div class="subtopic_title">How can I assign a subscription to a user?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-multiple.md">
+        <div class="subtopic_title">How can I assign a subscription to multiple users?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/create-learning-path.md">
+        <div class="subtopic_title">How can I create learning paths for a subscription?</div>
+      </a>
+       <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/training-key-pool.md">
+        <div class="subtopic_title">How can I use training key pools for self-paced learning?</div>
+      </a> 
       <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-training-keys.md">
         <div class="subtopic_title">How can I use subscription training keys for self-paced learning?</div>
       </a>
