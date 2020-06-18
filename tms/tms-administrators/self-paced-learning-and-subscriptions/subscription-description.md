@@ -17,10 +17,10 @@ Once you have created a Subscription Profile, you can assign subscriptions to us
 ![](/tms/images/subscription-image.png)
 
 ### Additional Resources
-- [How can I create a subscription?] (/tms/tms-administrators/self-paced-learning-and-subscriptions/create-subscription.md)
-- [How can I create learning paths?] (/tms/tms-administrators/self-paced-learning-and-subscriptions/create-learning-path.md)
-- [How can I create filters for a catalog?] (/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-filters.md)
-- [How can I assign a subscription to a user?] (/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-single.md)
-- [How can I assign one or more subscriptions to one or more users?] (/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-multiple.md)
+- [How can I create a subscription?](/tms/tms-administrators/self-paced-learning-and-subscriptions/create-subscription.md)
+- [How can I create learning paths?](/tms/tms-administrators/self-paced-learning-and-subscriptions/create-learning-path.md)
+- [How can I create filters for a catalog?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-filters.md)
+- [How can I assign a subscription to a user?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-single.md)
+- [How can I assign one or more subscriptions to one or more users?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-multiple.md)
 - [How can I use subscription training keys for self-paced learning?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-training-keys.md)
 
