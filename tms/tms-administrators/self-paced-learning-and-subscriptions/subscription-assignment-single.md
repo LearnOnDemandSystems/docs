@@ -14,7 +14,7 @@ Take the following steps to create a single subscription assignment.
 
 2.	Click the **Create Subscription** link, this opens the Create Subscription page with the Subscription Profile filled in.
 
-**Basic Information tab**
+3. **Basic Information tab**
 
 * Beside the **Studen**t field, select **Choose**; the Choose Student dialog opens.
 
@@ -26,15 +26,15 @@ Take the following steps to create a single subscription assignment.
 
 * **Target Completion** is an optional field where the expected completion of the subscription assignment can be input. This field may be used by administrators, it does not show to the student and does not control any access. 
 
-**HTML Description tab**
+4. **HTML Description tab**
 
 Optional field to add a custom formatted description. This description only shows on the Subscription Assignment.
 
-**Note tab**
+5. **Note tab**
 
 Optional field to add a note to the student’s subscription assignment, a title and text must both be added. Notes can only be seen by administrators.
 
-3.	**Save**.
+6.	**Save**.
 
 Users with subscriptions can be found from the Site Administration page, on the Subscriptions tile by selecting Assigned Subscriptions. This opens the Find Subscriptions page where you may add filters and output options for the search results you desire.
 
