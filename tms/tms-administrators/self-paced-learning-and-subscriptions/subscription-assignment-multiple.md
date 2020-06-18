@@ -11,9 +11,9 @@ Take the following steps to create a multiple subscription assignments:
 
 1.	From **Site Administration** on the **Subscriptions** tile, select **Assigned Subscriptions**. This opens the Find Subscriptions page. 
 
-1.	Click the **Create Multiple Subscriptions** link, this opens the Create Subscriptions page.
+2.	Click the **Create Multiple Subscriptions** link, this opens the Create Subscriptions page.
 
-**Students tab**
+3. **Students tab**
 
 All users you wish to assign a subscription should be added. 
 
@@ -21,7 +21,7 @@ All users you wish to assign a subscription should be added.
 
 * Search for and select all users you wish to add, then click **OK**.
 
-**Basic Information tab**
+4. **Basic Information tab**
 
 * Beside the **Subscription Profile** field, select **Choose**; the Choose Subscription profile dialog opens.
 
@@ -33,15 +33,15 @@ All users you wish to assign a subscription should be added.
 
 * **Target Completion** is an optional field where the expected completion of the subscription assignment can be input. This field may be used by administrators, it does not show to the student and does not control any access.
 
-**HTML Description tab**
+5. **HTML Description tab**
 
 Optional field to add a custom formatted description. This description only shows on the Subscription Assignments.
 
-**Note tab**
+6. **Note tab**
 
 Optional field to add a note to the student’s subscription assignment, a title and text must both be added. Notes can only be seen by administrators.
 
-3.	**Save**.
+7.	**Save**.
 
 Users with subscriptions can be found from the Site Administration page, on the Subscriptions tile by selecting Assigned Subscriptions. This opens the Find Subscriptions page where you may add filters and output options for the search results you desire.
 
