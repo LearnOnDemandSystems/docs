@@ -41,7 +41,10 @@
       <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/get-to-class-scheduled-to-teach.md">
         <div class="subtopic_title">How do I get to a class I am scheduled to teach?</div>
       </a>
-      <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/issue-manual-badge.md">
+      <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/disable-class-activities.md">
+        <div class="subtopic_title">How can I disable class activities?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/issue-manual-badge.md">
       <div class="subtopic_title">How do I issue a badge to students in my class?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/discussions/participation.md">
@@ -80,7 +83,10 @@
       <a class="subtopic_link" href="/tms/tms-administrators/discussions/admin-follow.md">
         <div class="subtopic_title">How can I be notified of activity on a discussion?</div>
       </a>
-      <a class="subtopic_link" href="/tms/instructors/instructor-profile/show-unavailable-times.md">
+      <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/disable-class-activities.md">
+        <div class="subtopic_title">How can I disable class activities?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/instructors/instructor-profile/show-unavailable-times.md">
         <div class="subtopic_title">How can I show times when I am unavailable?</div>
       </a>
       <a class="subtopic_link" href="/tms/instructors/instructor-profile/show-courses-qualified-to-teach.md">
