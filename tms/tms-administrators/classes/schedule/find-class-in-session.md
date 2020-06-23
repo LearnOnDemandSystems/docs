@@ -1,4 +1,4 @@
-# How can I find a class that is in session?
+# How do I find a class that is in session?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
 
