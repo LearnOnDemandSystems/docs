@@ -1,4 +1,4 @@
-# How can I control posts on discussions?
+# How do I control discussons posts?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
 
@@ -38,6 +38,6 @@ View of discussion by Moderator not assigned to it:
 For more information on Discussions, please see:
 
 - [How do I create a discussion and attach it to a course?](create-discussion.md)
-- [How can I add a disclaimer to all my discussions?](add-disclaimer.md)
+- [How do I add a disclaimer to all my discussions?](add-disclaimer.md)
 - [How do my students and I participate in discussions?](participation.md)
 - [How can I be notified of activity on a discussion?](admin-follow.md)
