@@ -1,4 +1,4 @@
-# How can I find the classes for a particular instructor?
+# How do I find the classes for a particular instructor?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
 
