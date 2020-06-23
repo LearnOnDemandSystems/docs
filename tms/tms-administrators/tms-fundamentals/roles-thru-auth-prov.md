@@ -1,4 +1,4 @@
-# How can I assign user roles using an authentication provider?
+# How do I assign user roles using an authentication provider?
 
 Roles can be assigned to users in several ways: by editing a user account, through an API call, by having default roles set for new users created in your organizatio, and by login through a specified authentication provider (AP). Your organization can enable Authentication Providers (APs) to use, and each different AP can have specific user roles associated with it. When a user logs in via the authentication provider, the role(s) are automatically added to the user. If the role is later removed from the user’s profile by an administrator, the next time the user logs in using the AP, the role will again be assigned to the user.
 
