@@ -47,7 +47,7 @@
       <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="Virtual Meeting Hosts" role="button" aria-selected="false">Virtual Meeting Hosts</div>
     <div class="subtopic_links">
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/integratevirtualmeetingprovider.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/integratevirtualmeetingprovider.md">
         <div class="subtopic_title">How can I use my Virtual Meeting Provider in LODS?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/vmh-comparison.md">
