@@ -1,4 +1,4 @@
-#   How can I create filters for a catalog?
+#   How do I create filters for a catalog?
 
 You can add custom filters to your organization’s Course catalog and On-Demand Subscription catalog to assist your users in locating courses that interest them. Both catalogs use the same style of filters and the setup is very similar. 
 
@@ -123,10 +123,10 @@ Take look at your Course catalog or assign yourself a subscription assignment to
 
 ## Additional Resources
 - [What is a subscription?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-description.md)
-- [How can I create a subscription?](/tms/tms-administrators/self-paced-learning-and-subscriptions/create-subscription.md)
-- [How can I create learning paths?](/tms/tms-administrators/self-paced-learning-and-subscriptions/create-learning-path.md)
-- [How can I assign a subscription to a user?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-single.md)
-- [How can I assign one or more subscriptions to one or more users?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-multiple.md)
-- [How can I use subscription training keys for self-paced learning?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-training-keys.md)
+- [How do I create a subscription?](/tms/tms-administrators/self-paced-learning-and-subscriptions/create-subscription.md)
+- [How do I create learning paths?](/tms/tms-administrators/self-paced-learning-and-subscriptions/create-learning-path.md)
+- [How do I assign a subscription to a user?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-single.md)
+- [How do I assign one or more subscriptions to one or more users?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-multiple.md)
+- [How do I use subscription training keys for self-paced learning?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-training-keys.md)
 
 
