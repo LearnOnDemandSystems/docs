@@ -1,4 +1,4 @@
-# How can I see classes in a calendar view?
+# How do I see classes in a calendar view?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
 
