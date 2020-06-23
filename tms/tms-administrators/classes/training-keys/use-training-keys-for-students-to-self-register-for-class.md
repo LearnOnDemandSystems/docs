@@ -1,4 +1,4 @@
-# How can I find enrollment training keys from classes?
+# How do I find enrollment training keys from classes?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
 
