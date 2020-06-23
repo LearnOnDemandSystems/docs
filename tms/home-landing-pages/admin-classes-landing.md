@@ -63,7 +63,7 @@
         <div class="subtopic_title">How can I use Google Meet in a TMS class?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-gotomeeting.md">
-        <div class="subtopic_title">How can I use Go to Meeting in a TMS class?</div>
+        <div class="subtopic_title">How can I use GotoMeeting in a TMS class?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-teams.md">
         <div class="subtopic_title">How can I use Microsoft Teams in a TMS class?</div>
