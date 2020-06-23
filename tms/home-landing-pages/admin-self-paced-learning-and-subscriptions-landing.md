@@ -36,6 +36,9 @@
         <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/create-learning-path.md">
         <div class="subtopic_title">How can I create learning paths for a subscription?</div>
       </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-filters.md">
+        <div class="subtopic_title">How can I create filters for a catalog?</div>
+      </a>
        <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/training-key-pool.md">
         <div class="subtopic_title">How can I use training key pools for self-paced learning?</div>
       </a> 
