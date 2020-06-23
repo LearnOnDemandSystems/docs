@@ -1,4 +1,4 @@
-# How can I capture user data for users who access my externally hosted activities from the TMS?
+# How do I capture data for users accessing externally hosted activities launched from the TMS?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
 
