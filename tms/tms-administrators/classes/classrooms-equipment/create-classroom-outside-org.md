@@ -1,4 +1,4 @@
-# How can I create a classroom that is outside my organization's physical location?
+# How do I create a classroom outside of my organization's physical location?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
 
