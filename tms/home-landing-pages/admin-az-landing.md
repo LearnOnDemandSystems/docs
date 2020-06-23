@@ -18,247 +18,235 @@
   <div class="subtopic selected">
     <div class="subtopic_header" tabindex="0" title="Instructor Docs" role="button" aria-selected="true" selected>A-Z Index</div>
     <div class="subtopic_links">
-      <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/tms-achievement-conditions.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/tms-achievement-conditions.md">
         <div class="subtopic_title">Achievements JSON Help and Examples</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/rearrange-items-on-site-administration.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/rearrange-items-on-site-administration.md">
         <div class="subtopic_title">Can I rearrange items on the Site Administration page?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/use-survey-or-assessment.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/use-survey-or-assessment.md">
         <div class="subtopic_title">Do I want to use a survey or an assessment?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/print-completion-certificates-for-class-by-admin.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/print-completion-certificates-for-class-by-admin.md">
         <div class="subtopic_title">How can an administrator print completion certificates for a class?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/discussions/add-disclaimer.md">
-        <div class="subtopic_title">How can I add a disclaimer to all my discussions?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/add-existing-class-enrollments-to-new-event.md">
-        <div class="subtopic_title">How can I add an existing class's enrollments to a new event?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/roles-thru-auth-prov.md">
-        <div class="subtopic_title">How can I assign user roles using an authentication provider?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/auto-enroll-waitlisted-students.md">
-        <div class="subtopic_title">How can I automate enrollment of wait-listed students?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/discussions/admin-follow.md">
         <div class="subtopic_title">How can I be notified of activity on a discussion?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/cancel-class.md">
-        <div class="subtopic_title">How can I cancel a class?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/capture-user-data-for-externally-hosted-activities.md">
-        <div class="subtopic_title">How can I capture user data for users who access my externally hosted activities from the TMS?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/check-in-students-for-class.md">
-        <div class="subtopic_title">How can I check students in for class?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/discussions/add-moderators.md">
-        <div class="subtopic_title">How can I control posts on discussions?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classroom-outside-org.md">
-        <div class="subtopic_title">How can I create a classroom that is outside my organization's physical location?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/create-way-to-find-group-of-users.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/create-way-to-find-group-of-users.md">
         <div class="subtopic_title">How can I create a way to find a group of users?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-filters.md">
-        <div class="subtopic_title">How can I create filters for a catalog?</div>
-      </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/create-multiple-user-accounts-at-once.md">
-        <div class="subtopic_title">How can I create multiple user accounts at once?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/disable-class-activities.md">
-        <div class="subtopic_title">How can I disable class activities?</div>
-      </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/find-class.md">
-        <div class="subtopic_title">How can I find a class?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/find-class-in-session.md">
-        <div class="subtopic_title">How can I find a class that is in session?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/labs/find-how-long-lab-will-be-saved-for.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/labs/find-how-long-lab-will-be-saved-for.md">
         <div class="subtopic_title">How can I find how long a lab will be saved for?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/users/instructor-management/find-instructors-that-teach-specific-course.md">
-        <div class="subtopic_title">How can I find instructors that can teach a specific course?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/instructors/find-classes-for-particular-instructor.md">
-        <div class="subtopic_title">How can I find the classes for a particular instructor?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/start-scorm-module.md">
-        <div class="subtopic_title">How can I preview a SCORM module belonging to my organization?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/reuse-search-settings-or-create-default-settings-on-search-pages.md">
-        <div class="subtopic_title">How can I reuse search settings or create default settings on search pages?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/see-classes-in-calendar-view.md">
-        <div class="subtopic_title">How can I see classes in a calendar view?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/dependent-dropdown-custom.md">
-        <div class="subtopic_title">How can I show certain choices on a dropdown based on the answer to another dropdown?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/track-laptops-being-used-for-classes-outside-org.md">
-        <div class="subtopic_title">How can I track laptops being used for classes taught outside my organization?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md">
-        <div class="subtopic_title">How can I find enrollment training keys from classes?</div>
-      </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md">
-        <div class="subtopic_title">How can I use my organization’s program in my virtual classes?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-training-keys.md">
         <div class="subtopic_title">How can I use subscription training keys for self-paced learning?</div>
       </a>      
         <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/training-key-pool.md"">
         <div class="subtopic_title">How can I use training key pools for self-paced learning?</div>
-      </a>      
-      <a class="subtopic_link" href="/tms/tms-administrators/users/instructor-management/set-up-organization-to-use-contract-instructors.md">
-        <div class="subtopic_title">How can my organization be set up to use contract instructors?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/access-moc-courseware.md">
+      </a>     
+        <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/access-moc-courseware.md">
         <div class="subtopic_title">How can my students access Skillpipe courseware from their class enrollment?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/students-print-completion-certificates.md">
-        <div class="subtopic_title">How can students print completion certificates?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/assessments.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/assessments.md">
         <div class="subtopic_title">How do assessments work?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/add-courses-to-publishing-group.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/add-courses-to-publishing-group.md">
         <div class="subtopic_title">How do I add a course to my publishing group?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/add-assessment.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/add-assessment.md">
         <div class="subtopic_title">How do I add an assessment to a course?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/add-docs-urls.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/discussions/add-disclaimer.md">
+        <div class="subtopic_title">How do I add a disclaimer to all my discussions?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/add-docs-urls.md">
         <div class="subtopic_title">How do I add documents and external links to my course?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/labs/add-labs.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/add-existing-class-enrollments-to-new-event.md">
+        <div class="subtopic_title">How do I add an existing class's enrollments to a new event?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/labs/add-labs.md">
         <div class="subtopic_title">How do I add labs to my course?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/add-scorm.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/add-scorm.md">
         <div class="subtopic_title">How do I add SCORM modules to my course?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/add-video.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/add-video.md">
         <div class="subtopic_title">How do I add videos to my course?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/associate-badge.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/roles-thru-auth-prov.md">
+        <div class="subtopic_title">How do I assign user roles using an authentication provider?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/associate-badge.md">
         <div class="subtopic_title">How do I associate a badge with an achievement?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/change-class-enrollment-status-and-which-to-use.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/auto-enroll-waitlisted-students.md">
+        <div class="subtopic_title">How do I automate enrollment of wait-listed students?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/cancel-class.md">
+        <div class="subtopic_title">How do I cancel a class?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/capture-user-data-for-externally-hosted-activities.md">
+        <div class="subtopic_title">How do I capture data for users accessing externally hosted activities launched from the TMS?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/change-class-enrollment-status-and-which-to-use.md">
         <div class="subtopic_title">How do I change a class enrollment status and which one should I use?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/change-enrollments-completion-status-and-which-to-use.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/change-enrollments-completion-status-and-which-to-use.md">
         <div class="subtopic_title">How do I change an enrollment's completion status and which one should I use?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/create-badge.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/check-in-students-for-class.md">
+        <div class="subtopic_title">How do I check students in for class?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/discussions/add-moderators.md">
+        <div class="subtopic_title">How do I control discussons posts?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/create-badge.md">
         <div class="subtopic_title">How do I create a badge?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/create-badge-provider.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/create-badge-provider.md">
         <div class="subtopic_title">How do I create a badge provider in the TMS?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/create-course.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/create-course.md">
         <div class="subtopic_title">How do I create a basic course?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/create-class.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/create-class.md">
         <div class="subtopic_title">How do I create a class?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/create-custom-event.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classroom-outside-org.md">
+        <div class="subtopic_title">How do I create a classroom outside of my organization's physical location?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/create-custom-event.md">
         <div class="subtopic_title">How do I create a custom event?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/create-custom-fields.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/create-custom-fields.md">
         <div class="subtopic_title">How do I create a custom field?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/discussions/create-discussion.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/discussions/create-discussion.md">
         <div class="subtopic_title">How do I create a discussion and attach it to a course?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/create-publishing-group.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/create-publishing-group.md">
         <div class="subtopic_title">How do I create a publishing group?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/create-scorm-module.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/create-scorm-module.md">
         <div class="subtopic_title">How do I create a SCORM Module and make it available to other organizations for their courses?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/create-temporary-user-role.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/create-temporary-user-role.md">
         <div class="subtopic_title">How do I create a temporary user role?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/create-achievements-to-motivate-learners.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/create-achievements-to-motivate-learners.md">
         <div class="subtopic_title">How do I create an achievement?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classrooms.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/create-classrooms.md">
         <div class="subtopic_title">How do I create classrooms?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/create-completion-certificates.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/create-completion-certificates.md">
         <div class="subtopic_title">How do I create completion certificates?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/users/instructor-management/create-instructor-user-accounts.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-filters.md">
+        <div class="subtopic_title">How do I create filters for a catalog?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/users/instructor-management/create-instructor-user-accounts.md">
         <div class="subtopic_title">How do I create instructor user accounts?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/create-student-user-accounts.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/create-multiple-user-accounts-at-once.md">
+        <div class="subtopic_title">How do I create multiple user accounts at once?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/create-student-user-accounts.md">
         <div class="subtopic_title">How do I create student user accounts?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/create-subscription.md">
         <div class="subtopic_title">How do I create a subscription?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/add-published-orgs-to-publishing-group.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/add-published-orgs-to-publishing-group.md">
         <div class="subtopic_title">How do I designate an organization as a Published Organization for my publishing group?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/enroll-multiple-students.md">
+        <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/disable-class-activities.md">
+        <div class="subtopic_title">How do I disable class activities?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/find-class.md">
+        <div class="subtopic_title">How do I find a class?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/find-class-in-session.md">
+        <div class="subtopic_title">How do I find a class that is in session?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/users/instructor-management/find-instructors-that-teach-specific-course.md">
+        <div class="subtopic_title">How do I find instructors that can teach a specific course?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/instructors/find-classes-for-particular-instructor.md">
+        <div class="subtopic_title">How do I find the classes for a particular instructor?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/enroll-multiple-students.md">
         <div class="subtopic_title">How do I enroll multiple students?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/ensure-completion-certificates-print-correctly.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/ensure-completion-certificates-print-correctly.md">
         <div class="subtopic_title">How do I ensure my course completion certificates print correctly?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/analyze-survey-results.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/analyze-survey-results.md">
         <div class="subtopic_title">How do I export survey responses and analyze them in Excel?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/find-students-completed-classes.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/find-students-completed-classes.md">
         <div class="subtopic_title">How do I find a student's completed classes?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/find-students-upcoming-classes.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/find-students-upcoming-classes.md">
         <div class="subtopic_title">How do I find a student's upcoming classes?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/find-all-classes-student-has-been-registered-for.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/find-all-classes-student-has-been-registered-for.md">
         <div class="subtopic_title">How do I find all the classes a student has ever been registered to take?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/labs/find-if-student-launched-lab.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/training-keys/use-training-keys-for-students-to-self-register-for-class.md">
+        <div class="subtopic_title">How do I find enrollment training keys from classes?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/labs/find-if-student-launched-lab.md">
         <div class="subtopic_title">How do I find if or when a student has launched a lab?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/find-users.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/find-users.md">
         <div class="subtopic_title">How do I find users?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/find-achievements.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/custom-virtual-classroom.md">
+        <div class="subtopic_title">How do I find virtual meeting URLs for classes?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/find-achievements.md">
         <div class="subtopic_title">How do I find what achievements and/or badges my students have earned?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/pg-add-org-error-resolution.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/pg-add-org-error-resolution.md">
         <div class="subtopic_title">How do I find what courses belong to a publishing group?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/pg-add-pg-error-resolution.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/pg-add-pg-error-resolution.md">
         <div class="subtopic_title">How do I find what organizations have access to a course through other publishing groups?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/custom-landing-page.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/custom-landing-page.md">
         <div class="subtopic_title">How do I have users land on a custom page when logging in?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/cascade-custom-fields.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/cascade-custom-fields.md">
         <div class="subtopic_title">How do I make the custom fields on my courses available on my classes?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/manual-issuance.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/manual-issuance.md">
         <div class="subtopic_title">How do I manually issue badges for my students?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/record-student-attendance-for-multiple-day-class.md">
-        <div class="subtopic_title">How do I record student attendance for a multiple day class?</div>
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/start-scorm-module.md">
+        <div class="subtopic_title">How do I preview a SCORM module belonging to my organization?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/report-students-attendance-for-multiple-day-classes.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/report-students-attendance-for-multiple-day-classes.md">
         <div class="subtopic_title">How do I report on students' attendance for multiple day classes?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/instructors/schedule-class-with-multiple-instructors.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/reuse-search-settings-or-create-default-settings-on-search-pages.md">
+        <div class="subtopic_title">How do I reuse search settings or create default settings on search pages?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/instructors/schedule-class-with-multiple-instructors.md">
         <div class="subtopic_title">How do I schedule a class with multiple instructors?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/schedule-self-paced-learning.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/schedule-self-paced-learning.md">
         <div class="subtopic_title">How do I schedule self-paced learning for a student?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/set-defaults-for-creating-users-and-classes.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/see-classes-in-calendar-view.md">
+        <div class="subtopic_title">How do I see classes in a calendar view?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/dependent-dropdown-custom.md">
+        <div class="subtopic_title">How do I set a custom field to display additional choices?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/set-defaults-for-creating-users-and-classes.md">
         <div class="subtopic_title">How do I set the defaults for creating users and classes?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/course-setting-disable-class-activities.md">
@@ -267,40 +255,52 @@
        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md">
         <div class="subtopic_title">How can I set up an integrated virtual meeting host?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-adobeconnect.md">
-       <div class="subtopic_title">How can use Adobe Connect in a TMS class?</div>
+      <a class="subtopic_link" href="/tms/tms-administrators/users/instructor-management/set-up-organization-to-use-contract-instructors.md">
+        <div class="subtopic_title">How do I set up my organization to use contract instructors?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/record-student-attendance-for-multiple-day-class.md">
+        <div class="subtopic_title">How do I record student attendance for a multiple day class?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/track-laptops-being-used-for-classes-outside-org.md">
+        <div class="subtopic_title">How do I track laptops being used for classes taught outside my organization?</div>
+      </a>
+       <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-adobeconnect.md">
+       <div class="subtopic_title">How do I use Adobe Connect in a TMS class?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-googlemeet.md">
-       <div class="subtopic_title">How can I use Google Meet in a TMS class?</div>
+       <div class="subtopic_title">How do I use Google Meet in a TMS class?</div>
       </a>
        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-gotomeeting.md">
-       <div class="subtopic_title">How can I use GoToMeeting for a TMS class?</div>
+       <div class="subtopic_title">How do I use GoToMeeting for a TMS class?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-teams.md">
-        <div class="subtopic_title">How can I use Microsoft Teams in a TMS class?</div>
+        <div class="subtopic_title">How do I use Microsoft Teams in a TMS class?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/use-multiple-classrooms-for-class.md">
+        <div class="subtopic_title">How do I use multiple classrooms for a class?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/integratevirtualmeetingprovider.md">
+        <div class="subtopic_title">How do I use my Virtual Meeting Provider in LODS?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-webex.md">
-        <div class="subtopic_title">How can I use Webex in a TMS class?</div>
+        <div class="subtopic_title">How do I use Webex in a TMS class?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-zoom.md">
-        <div class="subtopic_title">How can I use Zoom in a TMS class?</div>
+        <div class="subtopic_title">How do I use Zoom in a TMS class?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/view-scorm-attempts.md">
         <div class="subtopic_title">How do I view SCORM attempts by my students?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/use-multiple-classrooms-for-class.md">
-        <div class="subtopic_title">How do I use multiple classrooms for a class?</div>
-      </a>
         <a class="subtopic_link" href="/tms/tms-administrators/discussions/participation.md">
         <div class="subtopic_title">How do my students and I participate in discussions?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/students-print-completion-certificates.md">
+        <div class="subtopic_title">How do students print completion certificates?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/surveys.md">
         <div class="subtopic_title">How do surveys work?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/integratevirtualmeetingprovider.md">
-        <div class="subtopic_title">How can I use my Virtual Meeting Provider in LODS?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/class-or-custom-event-or-course-assignment-to-schedule-training.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/class-or-custom-event-or-course-assignment-to-schedule-training.md">
         <div class="subtopic_title">Should I use a Class or a Custom Event or a Course Assignment to schedule training?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/custom-fields.md">
