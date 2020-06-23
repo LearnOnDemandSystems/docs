@@ -1,4 +1,4 @@
-# How can I cancel a class?
+# How do I cancel a class?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
 
