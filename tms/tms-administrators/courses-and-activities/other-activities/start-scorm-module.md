@@ -1,4 +1,4 @@
-# How can I preview a SCORM module belonging to my organization?
+# How do I preview a SCORM module belonging to my organization?
 
 > [!Alert] Please be aware that not all functionality covered in this and the linked articles may be available to you.
 
