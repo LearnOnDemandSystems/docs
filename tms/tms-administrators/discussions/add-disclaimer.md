@@ -1,4 +1,4 @@
-# How can I add a disclaimer to all my discussions?
+# How do I add a disclaimer to all my discussions?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
 
@@ -22,6 +22,6 @@ When a user accesses any of your organization’s discussions, the disclaimer wi
 For more information on Discussions, please see:
 
 - [How do I create a discussion and attach it to a course?](create-discussion.md)
-- [How can I control posts on discussions?](add-moderators.md)
+- [How do I control posts on discussions?](add-moderators.md)
 - [How do my students and I participate in discussions?](participation.md)
 - [How can I be notified of activity on a discussion?](admin-follow.md)
