@@ -1,4 +1,4 @@
-# How can I find instructors that can teach a specific course?
+# How do I find instructors that can teach a specific course?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
 
