@@ -1,4 +1,4 @@
-# How can I track laptops being used for classes taught outside my organization?
+# How do I track laptops being used for classes taught outside my organization?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
 
