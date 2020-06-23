@@ -1,4 +1,4 @@
-# How can students print completion certificates?
+# How do students print completion certificates?
 
 Students can access and print a completion certificate from a PDF for completed training in the TMS. In order for students to print certificates, 
 - the course must have a certificate template, 
