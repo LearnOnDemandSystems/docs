@@ -1,4 +1,4 @@
-# How can I check-in students for class?
+# How do I check-in students for class?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
 
