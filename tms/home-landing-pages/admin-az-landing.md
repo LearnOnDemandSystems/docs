@@ -354,9 +354,6 @@
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/disappearing-links.md">
         <div class="subtopic_title">Why do links disappear?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/difference-between-lab-expiration-and-lab-access.md">
-        <div class="subtopic_title">Why does my lab expire within a week when I am supposed to have access to it for a longer time?</div>
-      </a>
     </div>
   </div>
 </div>
