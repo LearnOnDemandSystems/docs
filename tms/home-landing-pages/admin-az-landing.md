@@ -297,8 +297,8 @@
       <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/surveys.md">
         <div class="subtopic_title">How do surveys work?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/integratevirtualmeetingprovider.md">
-        <div class="subtopic_title">How does LODS Integrate with my Virtual Meeting Provider?</div>
+        <a class="subtopic_link" href="/docs/tms/tms-administrators/classes/virtual-meetings/integratevirtualmeetingprovider.md">
+        <div class="subtopic_title">How can I use my Virtual Meeting Provider in LODS?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/class-or-custom-event-or-course-assignment-to-schedule-training.md">
         <div class="subtopic_title">Should I use a Class or a Custom Event or a Course Assignment to schedule training?</div>
