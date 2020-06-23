@@ -1,4 +1,4 @@
-# How can I create multiple user accounts at once?
+# How do I create multiple user accounts at once?
 
 > [!Alert] Please be aware that not all functionality covered in this and the linked articles may be available to you.
 
