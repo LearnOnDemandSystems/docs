@@ -63,7 +63,10 @@
       <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/create-way-to-find-group-of-users.md">
         <div class="subtopic_title">How can I create a way to find a group of users?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/create-multiple-user-accounts-at-once.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-filters.md">
+        <div class="subtopic_title">How can I create filters for a catalog?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/create-multiple-user-accounts-at-once.md">
         <div class="subtopic_title">How can I create multiple user accounts at once?</div>
       </a>
       <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/disable-class-activities.md">
@@ -154,7 +157,7 @@
         <div class="subtopic_title">How do I create a badge?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/create-badge-provider.md">
-        <div class="subtopic_title">How do I create a Badge Provider in the TMS?</div>
+        <div class="subtopic_title">How do I create a badge provider in the TMS?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/create-course.md">
         <div class="subtopic_title">How do I create a basic course?</div>
@@ -172,7 +175,7 @@
         <div class="subtopic_title">How do I create a discussion and attach it to a course?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/create-publishing-group.md">
-        <div class="subtopic_title">How do I create a Publishing Group?</div>
+        <div class="subtopic_title">How do I create a publishing group?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/create-scorm-module.md">
         <div class="subtopic_title">How do I create a SCORM Module and make it available to other organizations for their courses?</div>
@@ -194,6 +197,9 @@
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/create-student-user-accounts.md">
         <div class="subtopic_title">How do I create student user accounts?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/create-subscription.md">
+        <div class="subtopic_title">How do I create a subscription?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/add-published-orgs-to-publishing-group.md">
         <div class="subtopic_title">How do I designate an organization as a Published Organization for my publishing group?</div>
@@ -328,9 +334,12 @@
         <div class="subtopic_title">What is a discussion and how can I use it to increase student interaction in their learning?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/what-is-publishing-group.md">
-        <div class="subtopic_title">What is a Publishing Group?</div>
+        <div class="subtopic_title">What is a publishing group?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/badge-process.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-description.md">
+        <div class="subtopic_title">What is a subscription?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/badge-process.md">
         <div class="subtopic_title">What is involved in creating external badges?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/admin-menu.md">
