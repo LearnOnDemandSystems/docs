@@ -1,4 +1,4 @@
-# How can I reuse search settings or create default settings on search pages?
+# How do I reuse search settings or create default settings on search pages?
 
 Are you tired of having to add the same search filters and criteria every time you are on a search page? If so, you can save your search parameters for reuse any time. You can save one or more searches and you can choose a search to be the default search which automatically opens each time you return to that page. Using saved searches is also a convenient way to build reports you will run periodically.
 
