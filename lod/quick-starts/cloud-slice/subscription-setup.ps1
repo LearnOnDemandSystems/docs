@@ -2,7 +2,13 @@ $spDisplayName = ''
 $cancel = $false
 
 function aad-auth{
-    $currentTenant = Get-AzureADTenantDetail
+    try{
+        $currentTenant = Get-AzureADTenantDetail
+    }catch{
+        Connect-AzureAD
+        $currentTenant = Get-AzureADTenantDetail
+    }
+    
     "`n"
     "Current Tenant Information Below:"
     "Name: $($currentTenant.DisplayName)"
