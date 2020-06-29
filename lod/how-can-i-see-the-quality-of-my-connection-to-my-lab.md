@@ -14,8 +14,8 @@ Just to the left of the title of the lab, you can see a visual representation us
 >
 > You can view your lab latency (measured in milliseconds) by hovering your mouse cursor over the connection bars in the lab. 
 >
->- 0 - 150 milliseconds = Excellent
->- 150 - 250 milliseconds = Good
+>- 0 - 100 milliseconds = Excellent
+>- 100 - 250 milliseconds = Good
 >- 250 - 500 milliseconds = OK
 >- Over 500 milliseconds = Poor
 
