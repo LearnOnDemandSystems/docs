@@ -8,6 +8,30 @@
 
 # What's New in Lab On Demand
 
+## **Released June 26, 2020**
+
+**Lab Latency**
+- Lab instance average latency now filters out outliers that could skew the overall average of the latency value displayed in the lab client, as well as lab instance details pages. 
+- Lab instance and lab instance connection history pages now show the latency deviation for that lab instance. Lab instance deviation is the standard deviation of all recorded latency values for the lab instance. A high standard of deviation indicates an inconsistent and potentially unstable network connection. 
+
+**Azure CSS Improvements**
+-  Lab instance details pages now show the cloud subscription instance that the lab used. Additional details are available for the subscription, including subscription state, pool, cloud subscription ID, enrollment account, state last changed, created and Azure management group. This will assist with management and administrative tasks.
+- CSS Subscription pools Now have search buttons to view lab instances and Cloud Subscription Instances that are associated to the subscription pool.
+
+**LTI 1.3**
+- Deep linking is now generally available for use with Canvas and Blackboard. Speak with your Account Executive to help determine if your LMS is LTI 1.3 compatible.
+
+**LOD Improvements and Fixes**
+- Cloud Slice labs will now launch an interstitial page to help with resizing and relocation if opened in a window or tab that cannot readily be resized or moved. 
+- You can now search for API Consumers by specifying which lab series are available to them using the Available Lab Series and Available Lab Series Name filters.
+- A note is now placed on the lab instance details page when the instance is canceled using the API cancel call.
+- Fixed a bug that prevented enhanced users from saving a differencing disk to their organization storage.
+- Fixed a bug that prevented a user with the proper permissions from being able to view lab tags that they have added to lab profiles. 
+- Fixed a bug that caused an improper title to appear in the Network drop-down selector in the lab client.
+- Fixed a bug that prevented a user with proper permissions from deleting a cloud resource template.
+- Fixed a bug that prevented a lab instance from closing when using the split windows view.
+- Fixed a bug that caused a VMware lab to fail to launch when ESX creates a folder that already exists.
+
 ## **Released June 12, 2020**
 
 **IDLx Replacements**
