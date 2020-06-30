@@ -18,7 +18,7 @@
 -  Lab instance details pages now show the cloud subscription instance that the lab used. Additional details are available for the subscription, including subscription state, pool, cloud subscription ID, enrollment account, state last changed, created and Azure management group. This will assist with management and administrative tasks.
 - CSS Subscription pools Now have search buttons to view lab instances and Cloud Subscription Instances that are associated to the subscription pool.
 
-**LTI 1.3**
+**LTI 1.3 Deep Linking**
 - Deep linking is now generally available for use with Canvas and Blackboard. Speak with your Account Executive to help determine if your LMS is LTI 1.3 compatible.
 
 **LOD Improvements and Fixes**
