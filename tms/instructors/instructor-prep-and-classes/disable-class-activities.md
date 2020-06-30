@@ -18,6 +18,8 @@ Students have a Launch button for all enabled activities. Disabled activities ap
 
 ![](/tms/images/student-disabled-class-activities.png)
 
+Note: If a course is set to Allow activities to be auto-enabled after a class ends, any activities that were disabled when class ends  still show as disabled in the class to instructors or administrators but will be enabled for the students on their enrollments.
+
 ### Additional Resources
 
 - [How do I set up a course to disable class activities?](/tms/tms-administrators/courses-and-activities/overall/course-setting-disable-class-activities.md)
