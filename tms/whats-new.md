@@ -3,6 +3,65 @@
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
 ----------------------------
+## Released June 29 2020
+
+
+### <span style="color:#0078d7;">Segmented Student Class Activity Assignments</span>
+
+For Classes where different activities should be completed by different Students, Instructors and others can now assign individual Class activities to a subset of Students.  This allows some Students to see and access some activities while other Students will see and access others. This feature is best utilized if you are running Classes in a Shared Lab Environment. 
+
+This feature is enabled on the individual activities in the Course using the “Assign to Students Manually” checkbox.  When this is checked for an activity, if a User has one of the new permissions, they can then assign that activity to one or more Students in the class. The activities are assigned and unassigned manually. Only those Students assigned an activity will see it in their Enrollments.  If no Students are assigned to the activity, no student will see it.   
+
+If an Instructor assigns an activity to a Student while the Student is looking at the Enrollment, the activity will automatically appear after a few seconds.  If a Student’s assignment is removed it can take up to 25 seconds to be removed from the Student’s Enrollment.  If they click the Launch button prior to it disappearing, they will receive a message stating “Sorry, you don’t currently have access to this activity.  Please see instructor”.  
+
+This feature is separate from the Disable activities feature released in April of this year, which is used to disable an activity for all students.  Note: If a course is set to Allow activities to be auto-enabled after a class ends, any activities that were disabled when class ends will still show as disabled for anyone looking at the Class but will be enabled for the Students. 
+
+### <span style="color:#0078d7;">Multi-Language Support for TMS Pages</span>
+
+We now support the localized language on a user’s browser setting for many of the core TMS platform pages. Available Language Translations for localization are: 
+
+* English 
+* Chinese (Simplified) 
+* German (Germany)
+* Japanese 
+* Korean 
+* Portuguese (Portugal)
+* Spanish (Spain)
+
+### <span style="color:#0078d7;">Lab Instance Transfers via TMS</span>
+
+Earlier this month, we released functionality that allowed a user to transfer their lab instance to another user via email within the Lab on Demand platform. We’ve now included this functionality within the TMS.  
+
+A user can now transfer their lab instance to another user from within the same organization. The transfer occurs via the recipient’s email address. 
+
+> ![](https://github.com/LearnOnDemandSystems/docs/blob/master/tms/images/transfer-lab-email.png)
+
+Items to be aware of: 
+The system looks in the Primary Email address field in the transferee’s LOD profile. The user must belong to the same organization as the owning user in LOD.  If the email address is not found, the following message will appear in the Transfer window: “Sorry, this user was not found within your organization”. 
+
+> ![](https://github.com/LearnOnDemandSystems/docs/blob/master/tms/images/transfer-lab.png)
+
+This will occur if either of the following is true:  
+* The transferee has never launched a lab 
+* The transferee last launched a lab while belonging to an organization outside of the LOD organization family tree the user transferring the instance belongs to.  
+
+If the transferee has the maximum number of saved labs when the transfer is initiated, the transfer will fail, and the following message will appear in the Transfer dialog: “Transferee has the maximum number of saved lab instances”. 
+
+### <span style="color:#0078d7;">Accessibility Items</span>
+In our continuing effort to improve accessibility for all our users we have made the following updates to the TMS: 
+* The Screen Reader will narrate Close “X” and “Display times in” on Output Options.  
+* The “Featured” and “New” icons on courses meet the minimum luminosity ration of 4.5:1. 
+
+### <span style="color:#0078d7;">Enhancements and Fixes</span>
+* Has Shared Lab Filter and Output Option.  We have added “Has Shared Labs” as a filter and output option on Find Courses, Classes, Enrollments and Labs. 
+* Training Keys and archived courses.  Training Keys will be expired for courses that are archived. Users will receive an error message when using these keys.  Training key pools will display the following message “The course aligned to this pool has been archived and the keys in this pool have been expired.” 
+* Zoom Update: Zoom recordings will now show properly. We have fixed an issue with the Zoom api query and its date parameters.  
+* TMS Administrators: You will no longer receive an application error when modifying your own roles when you have permissions to do so.  
+* Courses: Courses will now always archive on their auto archive date and the message displayed on the course will now be “This course is archived.”  
+* Has Shared Lab Filter and Output Option.  We have added “Has Shared Labs” as a filter and output option on Find Courses, Classes, Enrollments and Labs.   
+* Training Keys and archived courses.  Training Keys will be expired for courses that are archived. Users will receive an error message when using these keys.  Training key pools will display the following message “The course aligned to this pool has been archived and the keys in this pool have been expired.” 
+
+----------------------------
 ## Released May 21 2020
 
 
@@ -195,32 +254,5 @@ Updating classes past the archive date through the API will fail and classes edi
 1.	Class Enrollments – Enrollments created using training keys or the API are now passed to the Customer Portal allowing them to be invoiced to customers.
 1.	Courses – When a course creator creates or edits a course adding activities and they exceed the 12-hour expected duration activity limit per day, all activities are retained, but the course is not saved. This allows the course creator to decide how to manage the course; they may increase the course duration and or change the activities.
 1.	Course Lab Activities – Some course activities can be set to allow or prevent retakes. The wording displayed for Lab Activities which are set to prevent retakes has been updated to read, “Once you have completed this activity you will not be able to retake it. Do you want to continue?” The message previously read, “Once you have launched this activity you will not be able to retake it.” However, relaunching of the activity is only prevented if the activity has been completed.
-
-----------------------------
-
-## Released December 19 2019
-
-### <span style="color:#0078d7;">Phone Number Added for Instructor Help Desk Support</span>
-We want to offer immediate support to instructors teaching a live class. We have set up a direct phone number to our Help Desk for instructor who encounter issues and have questions. Our new Instructor direct support phone number displays on the Class details page; this only shows to the instructor(s) scheduled to teach the class, they can see it before, during, and after class is in session. 
-
-### <span style="color:#0078d7;">Auto Archive Warning Message when Creating or Editing Classes</span>
-Class schedulers will receive a warning message when they schedule a class using a course scheduled to be retired. We would like to increase awareness of pending archive dates since labs will not be maintained once the course is retired and after a certain point the labs will become unavailable, which may affect your students’ post class lab access experience.
-
-If the auto archive date is set up and any class session is scheduled to take place on or within 30 days before the auto archive date, the following warning displays when the class is saved, “This course is being retired on [auto archive date and time displayed]. Content will no longer be maintained as of this date. Please consider a newer version.” After clicking OK the class is saved.
-
-The warning displays when creating, editing or cloning a class within 30 days before the auto archive date on the course. Please note the following variances if you are using any of these features:
-	
-1. Class Import tool: If you are using the class import tool, the warning shows if the start date on a class is within 30 days before the auto-archive date on the course. The import only looks at the start date in the CSV file, it does not calculate dates based on sessions you are scheduling to show a warning.
-1. API: No warning will appear for classes created or edited through the API.
-1. Class voucher: Warnings or restrictions on scheduling do not apply to classes scheduled using vouchers since they are paid for in advance of redeeming them. 
-
-As a reminder, once a course is archived, the course can no longer be used to create a class or set up self-paced training, however, the labs and course activities still work for students in existing training.
-
-### <span style="color:#0078d7;">Auto Archive Awareness Message on Courses</span>
-Class schedulers and Operations managers will see a message highlighted on course profiles when an auto archive date is set. We added this message to increase awareness of approaching archive dates on courses for anyone who can schedule classes; we hope this will assist with your planning and remind you to be looking for a newer version of the course for future classes. 
-
-The awareness message reads, “This course is scheduled to be archived on [auto archive date displayed]. Session dates cannot be scheduled beyond this date. Course content will not be maintained past this date.”
-
-Please note: Once a course is archived, we do not maintain labs or any other course content. Labs may be deactivated on archived courses; it is advisable to find a newer version once a course has been archived.
 
 ----------------------------
