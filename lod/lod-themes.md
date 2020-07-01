@@ -1,7 +1,7 @@
 ---
 title: "Themes"
 description: "Create themes to customize the look and feel of labs using CSS, and JavaScript."
-isPublished: false
+isPublished: true
 ---
 
 # Lab on Demand Themes
