@@ -1,3 +1,8 @@
+---
+title: "How do I set a custom field to display additional choices?"
+isPublished: true
+---
+
 # How do I set a custom field to display additional choices?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.

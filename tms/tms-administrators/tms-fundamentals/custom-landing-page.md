@@ -1,3 +1,8 @@
+---
+title: "How do I have users land on a custom page when logging in?"
+isPublished: true
+---
+
 # How do I have users land on a custom page when logging in?
 
 If your organization has site in the TMS (a custom URL), you can choose where your students and administrators will land when they sign in. There can be a landing page for your students and a different one for your administrators.
@@ -17,4 +22,3 @@ For users with administrative functions, you can choose the following for the Ad
 *Note: If you use a TMS webpage for either landing page, it must be enabled for anonymous access.
 
 For help setting your landing pages, please submit a support ticket from our [Customer Support](https://www.learnondemandsystems.com/customer-support/) page.
-

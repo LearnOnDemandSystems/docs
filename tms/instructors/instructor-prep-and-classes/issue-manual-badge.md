@@ -1,3 +1,8 @@
+---
+title: "How do I issue a badge to students in my class?"
+isPublished: true
+---
+
 # How do I issue badges to students in my class?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.

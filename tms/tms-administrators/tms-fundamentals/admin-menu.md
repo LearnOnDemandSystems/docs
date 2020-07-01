@@ -1,3 +1,8 @@
+---
+title: "What is the Admin menu and how does it work?"
+isPublished: true
+---
+
 # What is the Admin menu and how does it work?
 
 The Admin menu offers you the grouped administrative links from the Site Administration page in a menu format without leaving your current page. It has some important capabilities for you:

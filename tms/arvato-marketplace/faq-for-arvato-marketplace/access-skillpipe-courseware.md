@@ -1,3 +1,8 @@
+---
+title: "How can my students access Skillpipe courseware from their class enrollment?"
+isPublished: true
+---
+
 # How can my students access Skillpipe courseware from their class enrollment?
 
 Your students can easily access their Skillpipe courseware through a single sign-on from their TMS enrollment page. When a student is enrolled in a Microsoft Official Curriculum (MOC) class, an **Access Courseware** button will become visible. This button will appear only for students who are **Enrolled** in the class and only after the start time on the first day of class. Once class starts, enrolled students may have to refresh their page to see the **Access Courseware** button.
@@ -22,4 +27,4 @@ If the student's TMS profile email address is not the same as the email aligned 
 ![](/tms/images/skillpipe-registration.png)
 
 This feature is enabled at the Organization level. Once enabled on your organization, all enrollments with a status of Enrolled  that are aligned with MOC courses will have the **Access Courseware** button. If you are not interested in using this feature and would like to disable it, please submit a support ticket at [**https://lod.one/help**](https://lod.one/help) requesting that it be disabled for your organization.
-Â 
+Â

@@ -1,3 +1,8 @@
+---
+title: "How do I create multiple user accounts at once?"
+isPublished: true
+---
+
 # How do I create multiple user accounts at once?
 
 > [!Alert] Please be aware that not all functionality covered in this and the linked articles may be available to you.
@@ -40,4 +45,4 @@ Once the import completes you will be provided with a list of users that have be
 ## Related Article
 If you receive a  message that usernames or emails have already been used, please read:
 
-- [What do I do if an email address is unavailable when I am creating a user account?](email-address-unavailable.md)  
+- [What do I do if an email address is unavailable when I am creating a user account?](email-address-unavailable.md)

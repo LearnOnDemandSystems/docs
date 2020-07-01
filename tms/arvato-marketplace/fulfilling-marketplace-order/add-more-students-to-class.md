@@ -1,3 +1,8 @@
+---
+title: "How do I add more students to a class I have already created?"
+isPublished: true
+---
+
 # How do I add more students to a class I have already created?
 
 There may be times when you need to add more students into a class. If you want to increase the capacity of a scheduled class, you must have unused class vouchers available. The class must match the new vouchers' course.

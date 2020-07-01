@@ -1,3 +1,8 @@
+---
+title: "How do I create a discussion and attach it to a course?"
+isPublished: true
+---
+
 # How do I create a discussion and attach it to a course?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you. 
@@ -39,4 +44,3 @@ For more information on Discussions, please see:
 - [How can I add a disclaimer to all my discussions?](add-disclaimer.md)
 - [How do my students and I participate in discussions?](participation.md)
 - [How can I be notified of activity on a discussion?](admin-follow.md)
-

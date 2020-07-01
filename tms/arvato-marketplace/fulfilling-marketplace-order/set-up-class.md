@@ -1,3 +1,8 @@
+---
+title: "How do I set up a class?"
+isPublished: true
+---
+
 # How do I set up a class?
 
 To give your students access to the labs you purchase in the Courseware Marketplace from Learn on Demand Systems, you need to set up a class in our TMS. To synchronize the purchase from the Courseware Marketplace to the TMS, your organization must have your Arvato Customer ID associated with it. Your vouchers are automatically sync'd from the Courseware Marketplace and loaded into the TMS. It may take up to 10 minutes for the sync to occur. Once the vouchers are available in the TMS, you can use them to set up a class.

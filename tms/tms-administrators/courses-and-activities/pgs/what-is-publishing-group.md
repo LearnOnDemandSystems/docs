@@ -1,3 +1,8 @@
+---
+title: "What is a publishing group?"
+isPublished: true
+---
+
 # What is a Publishing Group?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you. 
@@ -22,5 +27,3 @@ For more information on Publishing Groups, please see:
 
 - [How do I find what organizations have access to a course through other publishing groups?](pg-add-pg-error-resolution.md)
 - [How do I find what courses belong to a publishing group?](pg-add-org-error-resolution.md)
-
-

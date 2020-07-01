@@ -1,3 +1,8 @@
+---
+title: "What does it mean when I get a 'Max RAM settings' warning when adding a lab to a course?"
+isPublished: true
+---
+
 # What does it mean when I get a 'Max RAM settings' warning when adding a lab to a course?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you. 

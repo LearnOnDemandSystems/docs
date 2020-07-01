@@ -1,3 +1,8 @@
+---
+title: "How do I create a subscription?"
+isPublished: true
+---
+
 # How can I create a subscription?
 
 A subscription is a set of courses available to a subscriber to take and retake an unlimited number of times within a limited time period. While a user’s subscription is active, they can select any course in the subscription catalog, auto-create a course assignment and immediately begin their training. Using subscriptions enables your users to work through the training they want, when they want it, without your staff having to manage individual course assignments.

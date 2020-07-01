@@ -1,3 +1,9 @@
+---
+title: "Access Control Lists"
+description: "Controls which websites can be accessed in the lab, by using blacklists and whitelists."
+isPublished: true
+---
+
 # Custom Access Control Lists
 
 Access control lists (ACLs) are used to control how students use the Web within a virtual machine. 

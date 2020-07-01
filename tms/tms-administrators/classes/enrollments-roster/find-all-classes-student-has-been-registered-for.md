@@ -1,3 +1,8 @@
+---
+title: "How do I find all the classes a student has ever been registered to take?"
+isPublished: true
+---
+
 # How do I find all the classes a student has ever been registered to take?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.

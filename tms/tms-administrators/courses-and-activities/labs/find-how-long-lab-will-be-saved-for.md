@@ -1,3 +1,8 @@
+---
+title: "How can I find how long a lab will be saved for?"
+isPublished: true
+---
+
 # How can I find how long a lab will be saved?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.

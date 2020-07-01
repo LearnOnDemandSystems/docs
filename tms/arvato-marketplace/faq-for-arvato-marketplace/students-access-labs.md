@@ -1,3 +1,8 @@
+---
+title: "How and when can students access labs?"
+isPublished: true
+---
+
 # How and when can students access labs?
 
 You can set up your classes at any time in the TMS. However, students cannot access the labs until the first class session begins.
@@ -27,4 +32,3 @@ After class starts, the labs can be launched, saved, and resumed through the end
 ## Related Article
 For more information on student enrollments, please see:
 - [How do I enroll students in a class?](../fulfilling-marketplace-order/enroll-students-in-class.md)
-

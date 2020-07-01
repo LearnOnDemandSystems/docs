@@ -1,3 +1,8 @@
+---
+title: "How do I prepare for a course that I am not scheduled to teach?"
+isPublished: true
+---
+
 # How do I prepare for a course that I am not scheduled to teach?
 
 Are you interested in preparing for a course that you are not yet scheduled to teach? As a trainer you have access to numerous courses and their activities including labs and SCORM modules. You can preview the activities to become familiar with their content. To access courses:

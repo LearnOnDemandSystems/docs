@@ -1,3 +1,8 @@
+---
+title: "How do I access and change my user profile?"
+isPublished: true
+---
+
 # How do I access and change my user profile?
 
 If you want to change your username, contact information, or any other information in your user profile:

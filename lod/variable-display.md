@@ -1,3 +1,9 @@
+---
+title: "Variable Display for Lab Instructions"
+description: "Variably display lab instructions and lab instructions elements based on lab variables."
+isPublished: true
+---
+
 # Variable Display in Labs
 
 IDLx has a function to allow showing and hiding of lab instructions and lab instruction elements. This is done by setting a lab variable and then using that lab variable in the lab instructions. This also works in conjunction with labs that use instructions stored in an external repository and displayed in the lab instructions using a Markdown Include - this allows the lab instructions to be displayed dynamically based on the variable in the lab instructions. Additionally, the variable can be selected with an API launch. This allows the lab to show specific content when the lab launches. 
@@ -171,4 +177,3 @@ Launch a lab using the Launch API command to launch a lab for a specified user a
 1. Replace `variableValue` with the value of the variable you wish to use.
 
 For more information about the Launch command, see our [Launch command API documentation](lod-api/lod-api-launch.md).
-

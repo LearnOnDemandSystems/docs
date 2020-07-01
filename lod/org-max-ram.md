@@ -1,3 +1,9 @@
+---
+title: "Organization RAM Limits"
+description: "Max RAM usage, max active lab instances and max RAM per lab profile."
+isPublished: true
+---
+
 # Organization Maximum RAM
 
 Each limit can be set to unlimited or to a specified amount of gigabytes (GB).

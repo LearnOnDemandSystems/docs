@@ -1,3 +1,8 @@
+---
+title: "How do I report on students' attendance for multiple day classes?"
+isPublished: true
+---
+
 # How do I report on students' attendance for multiple day classes?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
@@ -14,4 +19,4 @@ To open the reporting:
  
 ![](/tms/images/find-attendance.png)
 
-The report's filters and output options can be adjusted to report the data you need and then you can export the data to Excel. 
+The report's filters and output options can be adjusted to report the data you need and then you can export the data to Excel.

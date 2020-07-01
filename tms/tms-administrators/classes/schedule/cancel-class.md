@@ -1,3 +1,8 @@
+---
+title: "How do I cancel a class?"
+isPublished: true
+---
+
 # How do I cancel a class?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.

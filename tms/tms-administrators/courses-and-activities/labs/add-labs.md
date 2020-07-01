@@ -1,3 +1,8 @@
+---
+title: "How do I add labs to my course?"
+isPublished: true
+---
+
 # How do I add labs to my course?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you. 
@@ -22,6 +27,3 @@ Each lab activity has the following fields you can set for more control over tha
 For more information regarding lab activities, please see:
 - [What does it mean when I get a 'Max RAM settings' warning when adding a lab to a course?](max-ram.md)
 - [Where do I find the system requirements for labs?](find-system-requirements-for-labs.md)
-
-
-

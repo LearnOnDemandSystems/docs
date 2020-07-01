@@ -1,3 +1,8 @@
+---
+title: "How can I set up a course for disabling class activities?"
+isPublished: true
+---
+
 # How do I set up a course which allows class activities to be disabled?
 
 You can control when and if students have access to class activities. Instructors can enable or disable any activity in a class they are assigned to teach, and Operations managers can disable activities in classes they manage. 

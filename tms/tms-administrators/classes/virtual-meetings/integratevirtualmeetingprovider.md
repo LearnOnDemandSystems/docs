@@ -1,3 +1,8 @@
+---
+title: "How do I use my Virtual Meeting Provider in LODS?"
+isPublished: true
+---
+
 # How can I use my Virtual Meeting Provider in LODS? 
 
 You can easily use the virtual meeting provider of your choice to provide hands-on, interactive virtual training solutions. Setting up a virtual meeting provider with the Learn on Demand Systems platform just takes a few clicks. You can create training in the LODS Training Management System (TMS) using your preferred virtual meeting provider in your classes. If you are using Teams, GoToMeeting, Adobe Connect, Zoom or another service, it can be used to give students and instructors access within a class. This will give your instructors and students everything they need for their class from one page. 
@@ -68,4 +73,4 @@ User accounts can be created manually or imported. Once created the users can be
 
 Information on finding meeting URLs is located at the bottom of this article.
 
- [How can I meeting URLs assigned to classes?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/virtual-meetings/custom-virtual-classroom.md) 
+ [How can I meeting URLs assigned to classes?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/virtual-meetings/custom-virtual-classroom.md)

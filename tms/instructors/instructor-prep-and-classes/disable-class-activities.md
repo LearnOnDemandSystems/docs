@@ -1,3 +1,8 @@
+---
+title: "How do I disable class activities?"
+isPublished: true
+---
+
 # How do I disable class activities?
 
 You can control when and if students have access to class activities, including labs, external links (video, document and/or website), assessments and SCORM modules (Note: Surveys cannot be disabled).
@@ -23,4 +28,3 @@ Note: If a course is set to Allow activities to be auto-enabled after a class en
 ### Additional Resources
 
 - [How do I set up a course to disable class activities?](/tms/tms-administrators/courses-and-activities/overall/course-setting-disable-class-activities.md)
-

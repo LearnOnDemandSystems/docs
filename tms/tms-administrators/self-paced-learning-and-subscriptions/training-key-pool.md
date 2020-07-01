@@ -1,3 +1,8 @@
+---
+title: "How can I use training key pools for self-paced learning?"
+isPublished: true
+---
+
 # How can I use training key pools for self-paced learning?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.

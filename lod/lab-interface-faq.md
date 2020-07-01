@@ -1,3 +1,9 @@
+---
+title: "Lab Interface Frequently Asked Questions"
+description: "Frequently asked questions about the Lab on Demand lab interface."
+isPublished: true
+---
+
 # Lab Interface FAQ
 
 ### Documentation to assist users with a launched lab. 

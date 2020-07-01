@@ -1,3 +1,8 @@
+---
+title: "How do I find what courses belong to a publishing group?"
+isPublished: true
+---
+
 # How do I find what courses belong to a publishing group?
 
 It is easy to see what courses belong to a publishing group. Simply navigate to the publishing group's Profile page. Under **Courses**, you can see a list of all the courses that are in the publishing group and under **Published Organizations**, you can see all organizations that have access to the publishing group's courses. 

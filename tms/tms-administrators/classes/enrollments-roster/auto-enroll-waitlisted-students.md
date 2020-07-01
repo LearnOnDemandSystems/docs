@@ -1,3 +1,8 @@
+---
+title: "How do I automate enrollment of wait-listed students?"
+isPublished: true
+---
+
 # How do I automate enrollment of wait-listed students?
 
 You can set up your classes to automatically enroll wait-listed and requested students. This can assist you with managing enrollments to keep your classes running at maximum capacity. Auto-enrollment takes place when an enrolled student cancels their own enrollment, the class is at its maximum capacity and there are students in a wait-listed or requested status.  

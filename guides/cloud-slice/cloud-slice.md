@@ -1,3 +1,9 @@
+---
+title: "Cloud Slice Setup Guide"
+description: "Comprehensive setup guide for configuring a Cloud Slice lab with Lab on Demand and Microsoft Azure or Amazon Web Services."
+isPublished: true
+---
+
 # Cloud Slice Guide
 
 This guide will walk you through how to create a lab that provisions dynamically created cloud subscriptions to each student using that lab. These subscriptions may contain one or more cloud resources (virtual machines, networks, databases, websites, etc.). Each student will have access to the cloud subscription that is provided to them, along with the resources contained within that subscription, for the duration of the lab. The combination of one of these subscriptions with the resources contained within it is collectively referred to as a Cloud Slice.

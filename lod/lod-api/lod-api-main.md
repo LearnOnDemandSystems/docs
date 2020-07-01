@@ -1,3 +1,9 @@
+---
+title: "API Documentation"
+description: "Documentation on how and when to use the Lab on Demand API."
+isPublished: true
+---
+
 # Lab on Demand API v3.0
 
 ## Production API and Integration Testing

@@ -1,3 +1,9 @@
+---
+title: "Lab Instance Sharing"
+description: "Lab Instance Sharing allows multiple users to work together in a lab profile at the same time. "
+isPublished: true
+---
+
 # Lab Instance Sharing
 
 Lab Instance Sharing allows multiple users to work together in a lab profile at the same time. This may add to your efficiency as different users can simultaneously work on tasks. For example, a lab developer can email a link to another user to work on a lab (see Figure 1 for the lab developer and user relationship). When sending a link, the lab developer simply sets permissions for the user and when their access expires. The lab developer retains ownership of the lab.  
@@ -46,4 +52,4 @@ Once enabled, you can share the instance from within the Lab Interface.
 
 ![](/tms/images/lab-instance-sharing-permissions.png)
 
-Once shared, an email is sent to the designated user with a link to open the lab instance. Clicking the link forces authentication, based on the authentication provider set on your LOD Organization profile. After authenticating, the lab interface opens and the user can work in conjunction with other users based on the permission and expiration settings. 
+Once shared, an email is sent to the designated user with a link to open the lab instance. Clicking the link forces authentication, based on the authentication provider set on your LOD Organization profile. After authenticating, the lab interface opens and the user can work in conjunction with other users based on the permission and expiration settings.

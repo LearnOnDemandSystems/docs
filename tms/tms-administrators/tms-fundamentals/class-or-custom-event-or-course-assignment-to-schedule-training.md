@@ -1,3 +1,8 @@
+---
+title: "Should I use a Class or a Custom Event or a Course Assignment to schedule training?"
+isPublished: true
+---
+
 # Should I use a class, a custom event or a course assignment to schedule training?
 
 Three different types of training options are designed to be used in the TMS: Classes, Custom Events and Course Assignments. Classes and Custom Events are both used to schedule meeting sessions. Course Assignments are used to schedule self-paced training.

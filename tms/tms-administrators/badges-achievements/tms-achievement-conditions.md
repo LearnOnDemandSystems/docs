@@ -1,3 +1,8 @@
+---
+title: "Achievements JSON Help and Examples"
+isPublished: true
+---
+
 # Achievements JSON Help and Examples
 
 Achievement Conditions are structured using JSON format. 
@@ -87,20 +92,3 @@ The following name:value pairs are some that can be used to configure JSON Condi
     - X= **True** or **False** regarding whether the user must pass the exam lab to earn the achievement. When **False**, simply taking the exam lab will earn the achievement. When set to **True**, the user must actually pass the exam to earn the achievement: **[{Subject:0,LabProfileIds:[13578],Passed:True}]**
 
 > [!NOTE] If a value is left blank on a ID or event item, it will default to 0. If a value is left blank on a True or False item, it will default to false.
-
-
-
-
-
-
-
-
-    
-
-    
-
-
-
-
-
-

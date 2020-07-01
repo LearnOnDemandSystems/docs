@@ -1,3 +1,8 @@
+---
+title: "How do I change an enrollment's completion status and which one should I use?"
+isPublished: true
+---
+
 # How do I change an enrollment's completion status and which one should I use?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.

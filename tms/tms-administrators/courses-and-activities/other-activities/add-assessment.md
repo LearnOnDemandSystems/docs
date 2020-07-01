@@ -1,3 +1,8 @@
+---
+title: "How do I add an assessment to a course?"
+isPublished: true
+---
+
 # How do I add an assessment to a course?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you. 

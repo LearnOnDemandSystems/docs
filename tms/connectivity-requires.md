@@ -1,3 +1,9 @@
+---
+title: "Connectivity Requirements"
+description: "Connectivity requirements, bandwidth requirements and firewall rules for labs. "
+isPublished: true
+---
+
 # Connectivity Requirements
 
 To launch and use a lab, the following requirements must be met:
@@ -140,4 +146,3 @@ Alternatively, legacy controllers may be available. Flash and Silverlight contro
 | **Silverlight** | Internet Explorer | 4+ | HTTPS | 443 |
 
 <sup>1</sup> Adobe Flash is being retired by Adobe in 2020. Many browsers are limiting when the plugin can run and are expected to remove it entirely by the time Adobe retires the plugin.
-

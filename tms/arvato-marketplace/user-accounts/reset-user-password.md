@@ -1,3 +1,8 @@
+---
+title: "How do I, as an Administrative user, reset a user's password?"
+isPublished: true
+---
+
 # How do I, as an Administrative user, reset a user's password?
 
 If you have the Operations Manager role, you have the ability to reset the password of student and instructor accounts belonging to your organization.

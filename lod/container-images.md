@@ -1,3 +1,9 @@
+---
+title: "Container Images"
+description: "Create container images to use in lab profiles. "
+isPublished: true
+---
+
 # Container Images
 
 Lab on Demand supports using Docker Container Images in labs. Container images are imported from Docker Hub.
@@ -64,5 +70,4 @@ To configure a container image on a lab profile:
 
     - **Visible to student**: Allows the container image to be visible to the student. 
 
-    - **Default selection**: Set the lab to focus on the container as the default selection when the lab launches.  
-
+    - **Default selection**: Set the lab to focus on the container as the default selection when the lab launches.

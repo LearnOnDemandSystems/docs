@@ -1,3 +1,8 @@
+---
+title: "How do I create student user accounts?"
+isPublished: true
+---
+
 # How do I create student user accounts?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
@@ -20,4 +25,3 @@ You may fill-in data in other fields if you wish to capture it here. These field
 ## Related Article
 If you receive a  message that the username or email has already been used, please read:
 - [What do I do if an email address is unavailable when I am creating a user account?](email-address-unavailable.md)
-

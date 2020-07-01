@@ -1,3 +1,8 @@
+---
+title: "How do I, as an Instructor, reset a student's password?"
+isPublished: true
+---
+
 # How do I, as an Instructor, reset a student's password?
 
 You may, as an instructor, reset a student's password as well as revise their username if they are a student in a class you are teaching.

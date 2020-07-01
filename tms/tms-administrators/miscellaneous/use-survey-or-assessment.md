@@ -1,3 +1,8 @@
+---
+title: "Do I want to use a survey or an assessment?"
+isPublished: true
+---
+
 # Do I want to use a survey or an assessment?
 
 Surveys and assessments are both means to ask questions of a user.

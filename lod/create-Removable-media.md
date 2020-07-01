@@ -1,3 +1,9 @@
+---
+title: "Create Removable Media"
+description: "Removable Media to be used with virtual machines."
+isPublished: true
+---
+
 # Create Removable Media
 
 Removable Media is used in lab environments, to supplement lab instrucitons. Removable Media is used in the form of DVDs, or Floppy disks.
@@ -21,4 +27,3 @@ To create Removable media, click **Create Removable Media** on the Removable Med
 1. **Path**: **Microsoft** (Hyper-V) or **VMWare vSphere** (ESXi)
 
 _We don't recommend sharing Removable media profiles between vendor platforms. However, if you need this removable media to be available to both Microsoft-based and VMware-based platforms, you will need to ensure that the file resides in the same relative location for both vendors._
-

@@ -1,3 +1,8 @@
+---
+title: "How do I check students in for class?"
+isPublished: true
+---
+
 # How do I check-in students for class?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
@@ -14,5 +19,4 @@ To check students in:
 1. On the **Student Check-In** page, expand the class name to view the students in that class. 
 1. Click next to the student's name to mark them as checked in. It will add a time stamp next to their name. 
 
-Links on the right side provide access to the Class page and the Roster if changes need to be made. 
-
+Links on the right side provide access to the Class page and the Roster if changes need to be made.

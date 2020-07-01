@@ -1,3 +1,8 @@
+---
+title: "How can I show what I am qualified to teach?"
+isPublished: true
+---
+
 # How can I show what I am qualified to teach?
 
 You can use Instructor Competencies to show the courses you are qualified to teach. Using this feature shows organizations using contract instructors the courses you can teach.

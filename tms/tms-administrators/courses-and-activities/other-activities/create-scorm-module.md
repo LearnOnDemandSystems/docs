@@ -1,3 +1,8 @@
+---
+title: "How do I create a SCORM Module and make it available to other organizations for their courses?"
+isPublished: true
+---
+
 # How do I create a SCORM Module and make it available to other organizations for their courses?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.

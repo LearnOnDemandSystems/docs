@@ -1,3 +1,8 @@
+---
+title: "How do I find a student's completed classes?"
+isPublished: true
+---
+
 # How do I find a student's completed classes?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.

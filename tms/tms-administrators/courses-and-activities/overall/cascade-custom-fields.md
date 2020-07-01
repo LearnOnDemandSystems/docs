@@ -1,3 +1,8 @@
+---
+title: "How do I make the custom fields on my courses available on my classes?"
+isPublished: true
+---
+
 # How do I make the custom fields on my courses available on my classes?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.

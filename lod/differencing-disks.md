@@ -1,3 +1,9 @@
+---
+title: "Differencing Disk Rollback"
+description: "Rollback differencing disks to a previous configuration or add differencing disks back to a disk chain after they have been removed."
+isPublished: true
+---
+
 # Rollback Differencing Disks
 
 A differencing disk is a virtual hard disk (VHD) that stores changes made on the virtual machine in the lab. The purpose of differencing disks is to contain the changes to the virtual disk since the previous differencing disk. This captures the current configuration in the lab, and if needed it allows changes to be made such as rolling back to a previous configuration or deleting disks.  

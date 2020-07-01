@@ -1,3 +1,8 @@
+---
+title: "How do I change a class enrollment status and which one should I use?"
+isPublished: true
+---
+
 # How do I change a class enrollment status and which one should I use?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.

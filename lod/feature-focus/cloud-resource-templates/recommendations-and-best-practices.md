@@ -1,3 +1,9 @@
+---
+title: "Azure Resource Template - Best Practices"
+description: "Recommendations and best practices for Azure Resource templates."
+isPublished: true
+---
+
 # Use Azure ARM Template for Cloud Slice
 
 This document outlines the considerations and recommendations for Lab Authors who wish to use Azure ARM templates as part of a Cloud Slice deployment. No guidance is a substitute for thorough testing, and all templates should be fully tested before release and on a regular basis during the life of the lab they support. Azure frequently changes, and changes may have a negative impact on existing, especially older, templates, which may require updates to remain current and valid.
