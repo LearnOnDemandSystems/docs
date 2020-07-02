@@ -75,6 +75,9 @@
         <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/add-video.md">
         <div class="subtopic_title">How do I add videos to my course?</div>
       </a>
+        <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/assign-class-activities.md">
+        <div class="subtopic_title">How do I assign access to a class activity to different students?</div>
+      </a>
         <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/roles-thru-auth-prov.md">
         <div class="subtopic_title">How do I assign user roles using an authentication provider?</div>
       </a>
@@ -163,7 +166,7 @@
         <div class="subtopic_title">How do I designate an organization as a Published Organization for my publishing group?</div>
       </a>
         <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/disable-class-activities.md">
-        <div class="subtopic_title">How do I disable class activities?</div>
+        <div class="subtopic_title">How do I disable class activities for all students?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/find-class.md">
         <div class="subtopic_title">How do I find a class?</div>
