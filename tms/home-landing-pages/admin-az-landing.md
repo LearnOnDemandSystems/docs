@@ -243,6 +243,9 @@
         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/see-classes-in-calendar-view.md">
         <div class="subtopic_title">How do I see classes in a calendar view?</div>
       </a>
+        <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/my-language.md">
+        <div class="subtopic_title">How do I see the TMS in my language?</div>
+      </a>
         <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/dependent-dropdown-custom.md">
         <div class="subtopic_title">How do I set a custom field to display additional choices?</div>
       </a>
