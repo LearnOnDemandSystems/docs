@@ -188,7 +188,7 @@
         <div class="subtopic_title">How can I create a classroom that is outside my organization's physical location?</div>
       </a>
       <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/disable-class-activities.md">
-        <div class="subtopic_title">How can I disable class activities?</div>
+        <div class="subtopic_title">How can I disable class activities for all students?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/find-class.md">
         <div class="subtopic_title">How can I find a class?</div>
