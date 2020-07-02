@@ -18,7 +18,10 @@
   <div class="subtopic selected">
     <div class="subtopic_header" tabindex="0" title="Basics Docs" role="button" aria-selected="true" selected>Basics</div>
     <div id="body_1" class="subtopic_links">
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/forgot-password.md">
+      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/my-language.md">
+        <div class="subtopic_title">How do I see the TMS in my language?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/forgot-password.md">
         <div class="subtopic_title">What do I do if I forgot my password?</div>
       </a>
       <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/change-password.md">
@@ -108,13 +111,16 @@
       <a class="subtopic_link" href="/tms/end-user-student-faqs/class-self-paced/print-completion-certificate.md">
         <div class="subtopic_title">How do I print my completion certificate?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/windows-server-os.md">
+      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/my-language.md">
+        <div class="subtopic_title">How do I see the TMS in my language?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/windows-server-os.md">
         <div class="subtopic_title">Important Note for Windows Server Operating Systems Users</div>
       </a>
       <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/forgot-password.md">
         <div class="subtopic_title">What do I do if I forgot my password?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/class-self-paced/access-my-courseware.md">
+        <a class="subtopic_link" href="/tms/end-user-student-faqs/class-self-paced/access-my-courseware.md">
         <div class="subtopic_title">What is the Access Courseware button and how do I use it?</div>
       </a>
       <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/access-completed-labs.md">
