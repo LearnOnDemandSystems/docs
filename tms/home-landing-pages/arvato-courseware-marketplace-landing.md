@@ -158,7 +158,10 @@
       <a class="subtopic_link" href="/tms/arvato-marketplace/fulfilling-marketplace-order/enroll-students-in-class.md">
         <div class="subtopic_title">How do I enroll students in a class?</div>
       </a>
-      <a class="subtopic_link" href="/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md">
+      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/my-language.md">
+        <div class="subtopic_title">How do I see the TMS in my language?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md">
         <div class="subtopic_title">How do I set up a class?</div>
       </a>
       <a class="subtopic_link" href="/tms/arvato-marketplace/user-accounts/create-operations-manager.md">
