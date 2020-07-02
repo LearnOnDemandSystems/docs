@@ -42,7 +42,10 @@
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/disappearing-links.md">
         <div class="subtopic_title">Why do links disappear?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/rearrange-items-on-site-administration.md">
+      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/my-language.md">
+        <div class="subtopic_title">How do I see the TMS in my language?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/rearrange-items-on-site-administration.md">
         <div class="subtopic_title">Can I rearrange items on the Site Administration page?</div>
       </a>
     </div>
