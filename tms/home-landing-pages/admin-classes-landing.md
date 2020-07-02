@@ -28,7 +28,11 @@
         <div class="subtopic_title">How can I cancel a class?</div>
       </a>
       <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/disable-class-activities.md">
-        <div class="subtopic_title">How can I disable class activities?</div>
+        <div class="subtopic_title">How can I disable class activities for all students?</div>
+      </a>
+        </a>
+        <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/assign-class-activities.md">
+        <div class="subtopic_title">How do I assign access to a class activity to different students?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/find-class.md">
         <div class="subtopic_title">How can I find a class?</div>
@@ -231,7 +235,11 @@
         <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meeting/streaming-Zoom.md">
         <div class="subtopic_title">How can I use Zoom in a TMS class?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/change-class-enrollment-status-and-which-to-use.md">
+        </a>
+        <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/assign-class-activities.md">
+        <div class="subtopic_title">How do I assign access to a class activity to different students?</div>
+      </a>
+    <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/change-class-enrollment-status-and-which-to-use.md">
         <div class="subtopic_title">How do I change a class enrollment status and which one should I use?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/enrollments-roster/change-enrollments-completion-status-and-which-to-use.md">
