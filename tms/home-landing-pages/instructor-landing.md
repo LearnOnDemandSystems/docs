@@ -47,8 +47,11 @@
       <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/disable-class-activities.md">
         <div class="subtopic_title">How can I disable class activities?</div>
       </a>
-        <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/issue-manual-badge.md">
-      <div class="subtopic_title">How do I issue a badge to students in my class?</div>
+        <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/assign-class-activities.md">
+        <div class="subtopic_title">How do I assign access to a class activity to different students?</div>
+      </a>
+       <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/issue-manual-badge.md">
+       <div class="subtopic_title">How do I issue a badge to students in my class?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/discussions/participation.md">
         <div class="subtopic_title">How do my students and I participate in discussions?</div>
@@ -98,7 +101,10 @@
       <a class="subtopic_link" href="/tms/instructors/general/reset-student-password.md">
         <div class="subtopic_title">How do I, as an Instructor, reset a student's password?</div>
       </a>
-      <a class="subtopic_link" href="/tms/instructors/student-labs/assist-students.md">
+      <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/assign-class-activities.md">
+        <div class="subtopic_title">How do I assign access to a class activity to different students?</div>
+      </a>
+       <a clas<a class="subtopic_link" href="/tms/instructors/student-labs/assist-students.md">
         <div class="subtopic_title">How do I assist my students with their labs?</div>
       </a>
       <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/find-classes-scheduled-to-teach.md">
