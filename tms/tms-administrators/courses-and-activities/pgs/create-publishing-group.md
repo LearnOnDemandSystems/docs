@@ -1,3 +1,8 @@
+---
+title: "How do I create a publishing group?"
+isPublished: true
+---
+
 # How do I create a Publishing Group?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you. 

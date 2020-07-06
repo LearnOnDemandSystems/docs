@@ -1,3 +1,8 @@
+---
+title: "How do my students and I participate in discussions?"
+isPublished: true
+---
+
 # How do my students and I participate in discussions?
 
 All users are permitted to participate in discussions by default. When a discussion is associated with a course, the discussion becomes available through the following pages depending on the user's access:
@@ -53,4 +58,3 @@ For more information on Discussions, please see:
 - [How can I control posts on discussions?](add-moderators.md)
 - [How can I add a disclaimer to all my discussions?](add-disclaimer.md)
 - [How can I be notified of activity on a discussion?](admin-follow.md)
-

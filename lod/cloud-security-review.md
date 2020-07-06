@@ -1,3 +1,9 @@
+---
+title: "Cloud Security Review"
+description: "Information Regarding the Cloud Security Review Process"
+isPublished: true
+---
+
 # Cloud Security Review
 Lab profiles that use cloud orchestration are subject to a cloud security review. Until a review is completed, the lab cannot be launched via TMS, API, LTI, or other methods outside of the Labondemand interface.
 

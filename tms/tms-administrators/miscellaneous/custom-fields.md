@@ -1,3 +1,8 @@
+---
+title: "What are custom fields?"
+isPublished: true
+---
+
 # What are custom fields?
 
 > [!Alert] Please be aware that not all functionality covered in this and the linked articles may be available to you.
@@ -39,4 +44,3 @@ For more information regarding custom fields, please see:
 - [How do I create a custom field?](create-custom-fields.md)
 - [How can I show certain choices on a dropdown based on the answer to another dropdown?](dependent-dropdown-custom.md)
 - [How can I make a course custom field available to classes that use the course?](../courses-and-activities/overall/cascade-custom-fields.md)
-

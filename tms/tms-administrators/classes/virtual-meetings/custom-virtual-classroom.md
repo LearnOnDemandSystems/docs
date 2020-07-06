@@ -1,3 +1,8 @@
+---
+title: "How do I find virtual meeting URLs for classes?"
+isPublished: true
+---
+
 ## How do I find virtual meeting URLs for classes?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.

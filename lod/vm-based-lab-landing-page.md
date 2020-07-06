@@ -1,3 +1,9 @@
+---
+title: "Virtual Machine Based Landing Page Instead of VM"
+description: "Configure a lab to hide the VM from student view and display a specified URL instead."
+isPublished: true
+---
+
 # Virtual Machine Based Labs Landing Page
 
 Virtual machines (VM) are typically displayed alongside lab instructions, however for some scenarios a lab developer may choose to make the VM hidden from the student view.
@@ -22,4 +28,4 @@ A lab can be configured to display the lab instructions on the right side of the
 
 1. Click **Save** to save the lab profile. 
 
-The lab will now launch with the lab instructions on the right side of the screen, and the specified URL on the left side of the screen. 
+The lab will now launch with the lab instructions on the right side of the screen, and the specified URL on the left side of the screen.

@@ -1,3 +1,9 @@
+---
+title: "LTI 1.1 Integration"
+description: "Documentation on how to configure LTI 1.1 on a lab profile, and integrate with popular LMS systems."
+isPublished: true
+---
+
 # Lab on Demand LTI 1.1 Integration
 
 In Learning Tools Interoperability (LTI), the learning system being used by a student is referred to as the **LTI Consumer**, and the external tool or service that is being integrated into that learning system is referred to as the **LTI Provider**. This LTI support is what allows external course authors to integrate rich Lab on Demand content directly into their learning solution. Since LTI is a standard protocol, Lab on Demand content can be integrated into any learning system that supports the LTI standard as an LTI Consumer.

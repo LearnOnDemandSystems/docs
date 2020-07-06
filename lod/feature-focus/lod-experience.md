@@ -1,3 +1,9 @@
+---
+title: "Introduction to Lab on Demand UI"
+description: "Explanation of Lab on Demand UI."
+isPublished: true
+---
+
 # Lab on Demand Experience
 
 ## Admin
@@ -116,4 +122,3 @@ Click the Help button at the top of the page in LOD, to use our Integrated Help 
         content: "\e734";
     }
 </style>
-

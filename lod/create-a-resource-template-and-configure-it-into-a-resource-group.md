@@ -1,3 +1,9 @@
+---
+title: "Create a an Azure Resource Template and Resource Group Configuration"
+description: "Create a Resource Template and Configure it into a Resource Group."
+isPublished: true
+---
+
 # Create a Resource Template and Configure it into a Resource Group
 
 In the OneLearn Lab on Demand platform (LOD), a Resource Group contains resource templates, restriction policies, and portal user permissions. This document covers creating a Resource template and configuring it into a Resource Group. If you have not created a Restriction Policy or would like to create one, see our guide on [creating a Restriction Policy](create-a-restriction-policy.md). 
@@ -74,4 +80,3 @@ To create your first Resource Template in LOD, you must perform the following ta
 1. Click **Save** to save the updated lab profile. 
 
 [Back to top](#create-a-resource-template-and-configure-it-into-a-resource-group)
-

@@ -1,3 +1,8 @@
+---
+title: "How do I view SCORM attempts by my students?"
+isPublished: true
+---
+
 # How do I view SCORM attempts by my students?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.

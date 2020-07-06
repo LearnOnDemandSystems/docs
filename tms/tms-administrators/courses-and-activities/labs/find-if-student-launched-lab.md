@@ -1,3 +1,8 @@
+---
+title: "How do I find if or when a student has launched a lab?"
+isPublished: true
+---
+
 # How do I find if or when a student has launched a lab?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.

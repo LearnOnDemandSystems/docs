@@ -1,3 +1,9 @@
+---
+title: "Azure Capacity Limitations"
+description: "Azure resource capacity limitations, how to avoid them, and what to do if you run into capacity limitations with your Azure subscription."
+isPublished: true
+---
+
 ## Azure Resource Capacity Limitations
 
 [Return to the Cloud Slice guide][back]

@@ -1,3 +1,8 @@
+---
+title: "How do I use Microsoft Teams in a TMS class?"
+isPublished: true
+---
+
 # How can I use Microsoft Teams in a TMS class?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
@@ -54,4 +59,4 @@ User accounts can be created manually or imported. Once created the users can be
 
 Information on finding meeting URLs is located at the bottom of this article.
 
- [How can I meeting URLs assigned to classes?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/virtual-meetings/custom-virtual-classroom.md) 
+ [How can I meeting URLs assigned to classes?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/virtual-meetings/custom-virtual-classroom.md)

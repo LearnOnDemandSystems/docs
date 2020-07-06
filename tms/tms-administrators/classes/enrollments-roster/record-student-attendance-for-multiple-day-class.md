@@ -1,3 +1,8 @@
+---
+title: "How do I record student attendance for a multiple day class?"
+isPublished: true
+---
+
 # How do I record student attendance for a multiple day class?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
@@ -16,4 +21,4 @@ To open the **Attendance Chart**:
 
 ![](/tms/images/attendance-chart.png)
 
-Please note, the class start date and time is the trigger to display the attendance chart link. 
+Please note, the class start date and time is the trigger to display the attendance chart link.

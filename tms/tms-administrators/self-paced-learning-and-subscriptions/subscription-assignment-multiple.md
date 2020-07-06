@@ -1,3 +1,8 @@
+---
+title: "How can I assign a subscription to multiple users?"
+isPublished: true
+---
+
 # How can I assign a subscription to multiple users?
 
 A subscription assignment gives a user access to multiple courses to take as self-paced training. Users can take and retake the courses an unlimited number of times until their subscription expires. Using subscriptions enables your users to work through the training they want, when they want it, without your staff having to manage individual course assignments.
@@ -53,5 +58,3 @@ Users with subscriptions can be found from the Site Administration page, on the 
 - [How can I create filters for a catalog?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-filters.md)
 - [How can I assign a subscription to a user?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-single.md)
 - [How can I use subscription training keys for self-paced learning?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-training-keys.md)
-
-

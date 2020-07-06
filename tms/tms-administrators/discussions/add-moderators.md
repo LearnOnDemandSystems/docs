@@ -1,3 +1,8 @@
+---
+title: "How do I control discussons posts?"
+isPublished: true
+---
+
 # How do I control discussons posts?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.

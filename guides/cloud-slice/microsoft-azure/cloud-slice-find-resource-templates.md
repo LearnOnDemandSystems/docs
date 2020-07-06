@@ -1,3 +1,9 @@
+---
+title: "Azure Resource Templates"
+description: "How to find Azure Resource Manager templates for use with Microsoft Azure."
+isPublished: true
+---
+
 # Cloud Slice Guide - Find resource templates for Microsoft Azure
 
 [Return to the Cloud Slice guide][back]
@@ -42,4 +48,3 @@ This should help get you started on finding templates that you can draw from to 
 
 [back-to-top]: #cloud-slice-guide---find-resource-templates-for-microsoft-azure "Return to the top of the document"
 [back]: ../cloud-slice.md#create-cloud-resource-templates-in-onelearn-lab-on-demand "Return to the Cloud Slice guide"
-

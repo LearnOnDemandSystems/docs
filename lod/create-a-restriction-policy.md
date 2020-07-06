@@ -1,3 +1,9 @@
+---
+title: "Create an Access Control Policy"
+description: "Create a Cloud Access Control Policy."
+isPublished: true
+---
+
 # Create an Access Control Policy 
 
 An Access Control Policy  is used by a cloud provider, to limit the resources that can be provisioned by the cloud provider. This helps to prevent additional charges from incurring if students configure something in the Cloud portal that is outside of the scope of the lab. Access Control Policies also help students stay within the goals of the lab.

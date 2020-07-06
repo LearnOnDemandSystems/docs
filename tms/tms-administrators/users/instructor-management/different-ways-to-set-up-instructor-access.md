@@ -1,3 +1,8 @@
+---
+title: "What are different ways to set up instructor access?"
+isPublished: true
+---
+
 # What are different ways to set up instructor access?
 
 When creating instructor accounts for your organization, there are two different ways you can set up instructor access. Their user accounts can be:

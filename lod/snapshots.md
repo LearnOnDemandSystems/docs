@@ -1,3 +1,9 @@
+---
+title: "Snapshots"
+description: "Lab Profile Snapshots"
+isPublished: true
+---
+
 # Snapshots
 
 Snapshots allow students and instructors to set a restore point in their lab instance. Once a snapshot is created in the lab instance, the lab can be rolled back to this point in time. 
@@ -23,4 +29,3 @@ When enabled, a student may create a snapshot by selecting *Snapshots...* from u
 The snapshot menu will allow you to save a new snapshot by entering a name and selecting "Create Snapshot". Existing snapshots can also be applied or deleted from this screen. Simply choose your prefered action next to one of the snapshots listed.
 
 ![Snapshot Menu ](images/snapshot-menu.png)
-

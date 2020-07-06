@@ -1,3 +1,8 @@
+---
+title: "Are labs keyboard accessible?"
+isPublished: true
+---
+
 # Are Labs Keyboard Accessible?
 
 Labs are keyboard accessible using standard keyboard controls such as Tab, Space, and Enter.

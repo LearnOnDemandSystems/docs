@@ -1,3 +1,8 @@
+---
+title: "How do I manually issue badges for my students?"
+isPublished: true
+---
+
 # How do I manually issue badges for my students?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.

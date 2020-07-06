@@ -1,3 +1,8 @@
+---
+title: "How do I track laptops being used for classes taught outside my organization?"
+isPublished: true
+---
+
 # How do I track laptops being used for classes taught outside my organization?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
@@ -14,4 +19,4 @@ To create a "classroom" of one or more laptops:
 1. Fill out the **Administrative Notes** tab if needed.
 1. Click **Save**. 
 
-To book the laptops, simply add their "classroom" to the class they will be used in as you would any other classroom. 
+To book the laptops, simply add their "classroom" to the class they will be used in as you would any other classroom.

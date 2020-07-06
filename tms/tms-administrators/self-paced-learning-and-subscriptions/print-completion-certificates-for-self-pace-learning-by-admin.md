@@ -1,3 +1,8 @@
+---
+title: "How can an administrator print completion certificates for self-paced learning?"
+isPublished: true
+---
+
 # How can an administrator print completion certificates for self-pace learning?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.

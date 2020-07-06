@@ -1,3 +1,8 @@
+---
+title: "How do I set up my organization to use contract instructors?"
+isPublished: true
+---
+
 # How do I set up my organization to use contract instructors?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.

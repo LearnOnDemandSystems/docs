@@ -1,3 +1,9 @@
+---
+title: "External Instruction Source"
+description: "Use an Azure DevOps or GitHub repository as the instruction source for labs."
+isPublished: true
+---
+
 # External Instruction Source
 
 1. [Overview](#overview)
@@ -201,13 +207,3 @@ The archive file that is saved will contain a content.md file as well as folders
     Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.
 
 [Back to top](#external-instruction-source)
-
-
-
-
-
-
-
-
-
-

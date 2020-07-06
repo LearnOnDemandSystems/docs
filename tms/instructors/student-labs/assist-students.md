@@ -1,3 +1,8 @@
+---
+title: "How do I assist my students with their labs?"
+isPublished: true
+---
+
 # How do I assist my students with their labs?
 
 During class you may want to watch your students' progress in their labs. This can be done with the lab monitoring tool.

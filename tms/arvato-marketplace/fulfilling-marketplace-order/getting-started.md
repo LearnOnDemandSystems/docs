@@ -1,3 +1,8 @@
+---
+title: "I just purchased labs from LoDS. How do I get started?"
+isPublished: true
+---
+
 # I just purchased labs from LoDS. How do I get started?
 
 The Learn on Demand Systems’ Training Management System (TMS) syncs with the Courseware Marketplace using your Arvato Customer Number when you purchase labs. The TMS gives you everything you need to manage your labs as well as your learning and training programs.

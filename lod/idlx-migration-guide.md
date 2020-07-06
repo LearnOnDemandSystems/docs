@@ -1,3 +1,9 @@
+---
+title: "Upgrade IDL (legacy) to IDLx"
+description: "This document assists in upgrading an IDL (legacy) lab to IDLx."
+isPublished: true
+---
+
 # Upgrade IDL (legacy) to IDLx
 
 Upgrading your lab to IDLx is simple, fast and easy. 

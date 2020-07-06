@@ -1,3 +1,8 @@
+---
+title: "How do I associate a badge with an achievement?"
+isPublished: true
+---
+
 # How do I associate a badge with an achievement?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.

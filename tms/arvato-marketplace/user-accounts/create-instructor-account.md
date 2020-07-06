@@ -1,3 +1,8 @@
+---
+title: "How do I create an Instructor account?"
+isPublished: true
+---
+
 # How do I create an Instructor account?
 
 Need to set up your instructors in the TMS? You may either create a new user account for the instructor or modify an existing user to become an instructor. 
@@ -34,4 +39,3 @@ For more information on instructors and other user accounts, please see:
 - [How do I add an instructor to a class?](../fulfilling-marketplace-order/add-instructor-to-class.md)
 - [Do I need to purchase labs for the instructor?](../faq-for-arvato-marketplace/purchase-labs-for-instructor.md)
 - [How do I set up other users to schedule classes?](create-operations-manager.md)
-

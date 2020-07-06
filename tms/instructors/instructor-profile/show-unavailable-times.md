@@ -1,3 +1,8 @@
+---
+title: "How can I show times when I am unavailable?"
+isPublished: true
+---
+
 # How can I show times when I am unavailable?
 
 You can set times that you are unavailable to teach. This time is displayed on the Instructor Schedule, can be specifically searched for from the Site Administration page, and is part of the schedule conflict filter on the Choose Instructor dialog box.

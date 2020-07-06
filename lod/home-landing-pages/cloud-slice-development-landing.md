@@ -51,6 +51,10 @@
         <div class="subtopic_title">Azure Resource Template - Best Practices</div>
         <div class="subtopic_description">Recommendations and best practices for Azure Resource templates.</div>
       </a>
+      <a class="subtopic_link" href="/lod/azure-virtualization.md">
+         <div class="subtopic_title">Azure Virtualization</div>
+         <div class="subtopic_description">Deploy an Azure hosted virtual machine.</div>
+      </a>        
       <a class="subtopic_link" href="/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md">
         <div class="subtopic_title">Create a an Azure Resource Template and Resource Group Configuration</div>
         <div class="subtopic_description">Create a Resource Template and Configure it into a Resource Group.</div>

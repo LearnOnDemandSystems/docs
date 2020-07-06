@@ -1,3 +1,8 @@
+---
+title: "Replacement Tokens"
+description: "Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button."
+isPublished: true
+---
 
 # Replacement Tokens
 

@@ -1,3 +1,8 @@
+---
+title: "How do I get into my virtual classroom?"
+isPublished: true
+---
+
 # How do I get into my virtual classroom?
 
 Entering your virtual classroom may vary slightly depending on the set up and virtual meeting host used by the organization running the class.

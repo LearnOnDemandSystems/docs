@@ -1,3 +1,9 @@
+---
+title: "Markdown User Guide"
+description: "This document covers Markdown in detail, including syntax for all supported Markdown."
+isPublished: true
+---
+
 # Markdown Syntax
 
 Markdown is an easy to use markup language to format text, that offers multiple ways to achieve the same result. Markdown was designed to be easy to learn as well as be easy to read and write. Markdown allows the author to keep their hands on the keyboard and focus on writing content. Markdown supports HTML, and HTML syntax can be used in combination with Markdown.

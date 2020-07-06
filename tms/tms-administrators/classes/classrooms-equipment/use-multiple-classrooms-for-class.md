@@ -1,3 +1,8 @@
+---
+title: "How do I use multiple classrooms for a class?"
+isPublished: true
+---
+
 # How do I use multiple classrooms for a class?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
@@ -25,4 +30,4 @@ For classes with only one classroom, all students enrolled are automatically ass
 
 If you are blocked from saving an enrollment because the classroom does not have any seats left, you will need resolve the capacity issue or choose a different classroom for the student. To resolve the issue:
 - Change the capacity set on the classroom profile if possible -OR- 
-- Change one of the other enrollments from this class or another class using the classroom. 
+- Change one of the other enrollments from this class or another class using the classroom.

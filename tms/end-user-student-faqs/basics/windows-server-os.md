@@ -1,3 +1,8 @@
+---
+title: "Important Note for Windows Server Operating Systems Users"
+isPublished: true
+---
+
 # Important Note for Windows Server Operating Systems Users
 
 When connecting to the Learn on Demand Systems Training Management Systems (TMS) from a Windows Server OS computer, you may experience difficulty connecting to the sign-in page or clicking on some buttons.

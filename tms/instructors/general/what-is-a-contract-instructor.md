@@ -1,3 +1,8 @@
+---
+title: "What does it mean to be a contract instructor?"
+isPublished: true
+---
+
 # What does it mean to be a contract instructor?
 
 A contract instructor is an instructor who is available to work for multiple organizations. Any instructor may choose to be a contract instructor. Any organization using the TMS that opts in to use contract instructors can search for qualified instructors based on the competencies they have set up, can view some of the contract instructor's contact information, and schedule instructors for their classes.

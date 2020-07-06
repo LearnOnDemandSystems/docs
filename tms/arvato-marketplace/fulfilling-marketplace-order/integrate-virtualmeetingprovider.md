@@ -1,3 +1,8 @@
+---
+title: "How can I add a virtual meeting provider to a class?"
+isPublished: true
+---
+
 # How does LODS Integrate with my Virtual Meeting Provider? 
 
 You can easily integrate with the virtual meeting provider of your choice to provide hands-on, interactive virtual training solutions. Integrating a virtual meeting provider with the Learn on Demand Systems platform just takes a few clicks to set-up. You can set up training in the LODS Training Management System (TMS) using your preferred virtual meeting provider in your classes. If you are using Teams, GoToMeeting, Adobe Connect, Zoom or another service, it can be used to give students and instructors access within a class. This will give your instructors and students everything they need for their class by clicking buttons on one page. 
@@ -44,4 +49,4 @@ When students come to their enrollment, they can enter the virtual meeting or op
 
 Information on finding meeting URLs is located at the bottom of this article.
 
- [How can I meeting URLs assigned to classes?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md) 
+ [How can I meeting URLs assigned to classes?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md)

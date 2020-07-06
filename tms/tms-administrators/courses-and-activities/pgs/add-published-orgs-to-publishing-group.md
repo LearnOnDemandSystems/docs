@@ -1,3 +1,8 @@
+---
+title: "How do I designate an organization as a Published Organization for my publishing group?"
+isPublished: true
+---
+
 # How do I designate an organization as a Published Organization for my publishing group?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you. 

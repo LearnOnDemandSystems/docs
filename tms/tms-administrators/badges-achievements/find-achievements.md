@@ -1,3 +1,8 @@
+---
+title: "How do I find what achievements and/or badges my students have earned?"
+isPublished: true
+---
+
 # How do I find what achievements and/or badges my students have earned?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
@@ -15,4 +20,3 @@ To see all the badges achieved by your students and the status of those badges:
 1. Click **Find Issued Badges** in the **Badges** group on the **Admin** menu.
 1. On the **Output Options** dropdown, select **Issued Status** and any other output options you want.
 1. Add and set any filters needed and click **Search**.
-

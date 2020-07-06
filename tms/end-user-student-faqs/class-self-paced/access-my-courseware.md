@@ -1,3 +1,8 @@
+---
+title: "What is the Access Courseware button and how do I use it?"
+isPublished: true
+---
+
 # What is the Access Courseware button and how do I use it?
 
 If you see the **Access Courseware** button on your class enrollment page, you can use it to easily access your Skillpipe courseware. To see the button you must be enrolled in a class based on a course with courseware in Skillpipe and your organization must participate. This button only appears after the start time on the first day of class. Once class starts, you may have to refresh your page to see it.

@@ -1,3 +1,8 @@
+---
+title: "How do I export survey responses and analyze them in Excel?"
+isPublished: true
+---
+
 # How do I export survey responses and analyze them in Excel?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
@@ -83,4 +88,3 @@ Click the dropdown on **Count of Responses** and select **Value Field Settings**
 ![](/tms/images/survey-results-pivottable.png)
 
 This article is not an indepth explanation of Excel’s filters and PivotTables. It just provides some simple examples of how you might get started in analyzing your survey responses.
-

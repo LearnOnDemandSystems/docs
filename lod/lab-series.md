@@ -1,3 +1,9 @@
+---
+title: "Lab Series Creation and Explanation"
+description: "Lab Series creation, and explanation of lab series configuration."
+isPublished: true
+---
+
 # Lab Series
 
 Lab Profiles in Lab on Demand (LOD) can be housed in a lab Series. The Lab Series contains Lab Profiles and settings for the Lab Series.
@@ -52,5 +58,3 @@ For organizations that have proprietary content, an option is available to desig
 
 
 ---------
-
-

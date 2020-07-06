@@ -1,3 +1,8 @@
+---
+title: "How do I add a disclaimer to all my discussions?"
+isPublished: true
+---
+
 # How do I add a disclaimer to all my discussions?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.

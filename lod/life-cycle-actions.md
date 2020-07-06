@@ -1,3 +1,9 @@
+---
+title: "Life Cycle Actions"
+description: "Define actions to occur at certain times within the lab's life cycle, such as calling an external service when the lab builds, or sending a notification to the user when the lab is resumed."
+isPublished: true
+---
+
 # Life Cycle Actions
 
 With the Life Cycle Actions (LCA) feature, LOD is able to execute actions when specific events occur during the lab instance life cycle. 

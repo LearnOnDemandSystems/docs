@@ -1,3 +1,8 @@
+---
+title: "What can I do about duplicate user accounts?"
+isPublished: true
+---
+
 # What can I do about duplicate user accounts?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
@@ -16,4 +21,4 @@ To do this you will need to determine which account will be the primary account.
 1. You can click on **Details** next to each profile to ensure they are the correct accounts. 
 1. Click **Merge**. 
 
-Everything from User Profile 2 will be moved into User Profile 1 except the Basic Information. When the merge is complete, the second profile is deleted. 
+Everything from User Profile 2 will be moved into User Profile 1 except the Basic Information. When the merge is complete, the second profile is deleted.

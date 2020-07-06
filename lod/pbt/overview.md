@@ -1,3 +1,9 @@
+---
+title: "Lab on Demand Scoring"
+description: "The Lab on Demand platform supports the ability to score users either in an exam/quiz format or within a hands-on lab."
+isPublished: true
+---
+
 # Lab on Demand Scoring
 
 ### Table of Contents:

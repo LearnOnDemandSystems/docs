@@ -1,3 +1,8 @@
+---
+title: "How do I create a custom event?"
+isPublished: true
+---
+
 # How do I create a custom event?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
@@ -37,4 +42,4 @@ On the **Instructors** section:
 
 The sections for Visibility, Payment, and HTML Description are not needed for scheduling an event. 
 
-To create the event, click **Save**. 
+To create the event, click **Save**.

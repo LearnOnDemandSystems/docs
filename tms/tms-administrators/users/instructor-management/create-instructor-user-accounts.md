@@ -1,3 +1,8 @@
+---
+title: "How do I create instructor user accounts?"
+isPublished: true
+---
+
 # How do I create instructor user accounts?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.

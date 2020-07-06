@@ -1,3 +1,8 @@
+---
+title: "How do surveys work?"
+isPublished: true
+---
+
 # How do surveys work?
 
 A survey is a questionnaire to allow users to report their opinions and experience. They can be added to classes and taken by students, instructors or organization administrators. Each of these users can open their survey from the class' course activities. Survey responses can be accessed from the class, course, and surveys. Results can be viewed in the TMS or exported.

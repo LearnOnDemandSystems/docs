@@ -1,3 +1,9 @@
+---
+title: "Setup your AWS cloud subscription in OneLearn Lab on Demand"
+description: "Configure a subscription pool in Lab on Demand, for use with AWS cloud slice."
+isPublished: true
+---
+
 # Setup your AWS cloud subscription in OneLearn Lab on Demand
 
 [Return to Cloud Slice Guide](../cloud-slice.md)
@@ -51,5 +57,3 @@ To add a Cloud Subscription Pool to OneLearn Lab on Demand (LOD), perform the fo
 11. Click **Run Pool Setup**. This will automatically configure your cloud subscription pool. 
 
 [Back to top](#setup-your-aws-cloud-subscription-in-onelearn-lab-on-demand)
-
-

@@ -1,3 +1,8 @@
+---
+title: "How do I enroll multiple students?"
+isPublished: true
+---
+
 # How do I enroll multiple students?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
