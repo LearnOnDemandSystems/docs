@@ -1,3 +1,6 @@
+title: "Assign Class Activities"
+isPublished: true
+
 # How can I assign access to a class activity to different students?
 
 You can assign specific class activities to each student, enabling them to see and access their assigned activities while other students may see and access different activities. This is helpful for classes where sets of class activities should be completed by different students, like classes using a shared lab environment. 
