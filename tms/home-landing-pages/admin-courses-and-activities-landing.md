@@ -38,7 +38,7 @@
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/course-setting-disable-class-activities.md">
         <div class="subtopic_title">How can I set up a course for disabling class activities?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/course-enable-assigning-class-activities.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/labs/course-enable-assigning-class-activities.md">
         <div class="subtopic_title">How do I set up a course to enable assigning class activities to different students?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/labs/find-how-long-lab-will-be-saved-for.md">
@@ -58,7 +58,7 @@
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/course-setting-disable-class-activities.md">
         <div class="subtopic_title">How can I set up a course for disabling class activities?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/course-enable-assigning-class-activities.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/labs/course-enable-assigning-class-activities.md">
         <div class="subtopic_title">How do I set up a course to enable assigning class activities to different students?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/create-scorm-module.md">
