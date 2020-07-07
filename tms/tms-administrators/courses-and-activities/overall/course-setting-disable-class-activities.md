@@ -1,5 +1,6 @@
 ---
 title: "How can I set up a course for disabling class activities?"
+description: "Configure a course to allow an instructor to disable activities for all students in a class. Set activities to be re-enabled for all students when class ends. "
 isPublished: true
 ---
 
