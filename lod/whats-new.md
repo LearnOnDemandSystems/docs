@@ -8,6 +8,10 @@
 
 # What's New in Lab On Demand
 
+## **Released July 6, 2020**
+
+- The Docs app has been updated with a search function in the top menu bar. This will search document titles, as well as the contents of available LOD and TMS documentation, and list any documentation that matches your search term(s).
+
 ## **Released June 26, 2020**
 
 **Lab Latency**
