@@ -1,3 +1,9 @@
+---
+title: "Setup your Azure cloud subscription in OneLearn Lab on Demand"
+description: "Configure a subscription pool in Lab on Demand, for use with Azure cloud slice."
+isPublished: true
+---
+
 # Setup your Azure cloud subscription in OneLearn Lab on Demand
 
 [Return to Cloud Slice Guide](../cloud-slice.md)

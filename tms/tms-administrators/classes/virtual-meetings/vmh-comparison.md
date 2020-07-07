@@ -1,3 +1,8 @@
+---
+title: "Virtual Meeting Host Comparison"
+isPublished: true
+---
+
 # Virtual Meeting Host Comparison
 
 Virtual meeting host providers (VMH) can be added to a class using two different methods: a custom VMH or integrated VMH. Class creators can specify delivery by custom virtual classroom and then add the meeting URL from your preferred VMH or use one of the two supported integrable VMHs. You can have multiple VMHs options associated to with your organization, but only a single VMH can be associated to each class.
@@ -83,4 +88,3 @@ Students have access through their enrollment for each recorded class session. C
 [How can I set up Webex directly in a class?](/tms/tms-administrators/classes/virtual-meetings/streaming-webex.md)
 
 [How can I set up Zoom directly in a class?](/tms/tms-administrators/classes/virtual-meetings/streaming-zoom.md)
-

@@ -1,3 +1,8 @@
+---
+title: "What can I do if a student needs to reschedule or cancel a class?"
+isPublished: true
+---
+
 # What can I do if a student needs to reschedule or cancel a class?
 
 In some cases, you may need to reschedule a student who cannot attend the class they are registered for. If a student registration needs to be rescheduled, the best practice is to first cancel the student’s enrollment. This will open up the seat in the class and the training key can then be used by a different student in the class.

@@ -1,3 +1,8 @@
+---
+title: "What is a subscription?"
+isPublished: true
+---
+
 # What is a subscription?
 
 Subscriptions deliver on-demand, self-paced training to your users through a set of courses. These courses are available to the user to take and retake an unlimited number of times within a limited time period. While a user’s subscription is active, they can select any course in the subscription catalog and immediately begin their training. Using subscriptions enables your users to work through the training they want, when they want it, without your staff having to manage individual course assignments.
@@ -29,4 +34,3 @@ When setting pricing, be aware of the length the course assignment for the cours
 - [How can I assign a subscription to a user?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-single.md)
 - [How can I assign one or more subscriptions to one or more users?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-multiple.md)
 - [How can I use subscription training keys for self-paced learning?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-training-keys.md)
-

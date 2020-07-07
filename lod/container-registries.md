@@ -1,3 +1,9 @@
+---
+title: "Container Registries"
+description: "Create custom container registries that are linked to an external registry. "
+isPublished: true
+---
+
 # Container Registries
 
 LOD supports creating custom container registries that are linked to an external registry, such as a Docker Hub repository. 

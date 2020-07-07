@@ -1,3 +1,9 @@
+---
+title: "IDLx Lab Variables"
+description: "Variables are used to store information that is not known at the time of lab instruction authoring. Variables store information and then that information can be recalled in later lab steps using a Replacement Token. This document covers how to use Variables in your IDLx lab."
+isPublished: true
+---
+
 # Lab Variables
 
 Variables store information and then that information can be recalled or used in the lab. Variables can be used in Life Cycle Actions, Automated Activities, and in lab instructions.  

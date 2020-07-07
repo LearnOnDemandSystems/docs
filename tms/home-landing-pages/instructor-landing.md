@@ -24,6 +24,9 @@
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/admin-menu.md">
         <div class="subtopic_title">What is the Admin menu and how does it work?</div>
       </a>
+        <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/my-language.md">
+        <div class="subtopic_title">How do I see the TMS in my language?</div>
+      </a>
       <a class="subtopic_link" href="/tms/instructors/general/reset-student-password.md">
         <div class="subtopic_title">How do I, as an Instructor, reset a student's password?</div>
       </a>
@@ -44,8 +47,11 @@
       <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/disable-class-activities.md">
         <div class="subtopic_title">How can I disable class activities?</div>
       </a>
-        <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/issue-manual-badge.md">
-      <div class="subtopic_title">How do I issue a badge to students in my class?</div>
+        <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/assign-class-activities.md">
+        <div class="subtopic_title">How do I assign access to a class activity to different students?</div>
+      </a>
+       <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/issue-manual-badge.md">
+       <div class="subtopic_title">How do I issue a badge to students in my class?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/discussions/participation.md">
         <div class="subtopic_title">How do my students and I participate in discussions?</div>
@@ -95,7 +101,10 @@
       <a class="subtopic_link" href="/tms/instructors/general/reset-student-password.md">
         <div class="subtopic_title">How do I, as an Instructor, reset a student's password?</div>
       </a>
-      <a class="subtopic_link" href="/tms/instructors/student-labs/assist-students.md">
+      <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/assign-class-activities.md">
+        <div class="subtopic_title">How do I assign access to a class activity to different students?</div>
+      </a>
+       <a clas<a class="subtopic_link" href="/tms/instructors/student-labs/assist-students.md">
         <div class="subtopic_title">How do I assist my students with their labs?</div>
       </a>
       <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/find-classes-scheduled-to-teach.md">
@@ -110,7 +119,10 @@
       <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/prepare-for-course-not-scheduled-to-teach.md">
         <div class="subtopic_title">How do I prepare for a course that I am not scheduled to teach?</div>
       </a>
-      <a class="subtopic_link" href="/tms/instructors/student-labs/share-files-with-students.md">
+      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/my-language.md">
+        <div class="subtopic_title">How do I see the TMS in my language?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/instructors/student-labs/share-files-with-students.md">
         <div class="subtopic_title">How do I share files with students?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/discussions/participation.md">

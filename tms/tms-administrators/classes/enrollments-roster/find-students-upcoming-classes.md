@@ -1,3 +1,8 @@
+---
+title: "How do I find a student's upcoming classes?"
+isPublished: true
+---
+
 # How do I find a student's upcoming classes?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.
@@ -21,4 +26,4 @@ To find upcoming classes for any or all students, use Find Enrollments from the 
 1. On the **Admin** menu, in the **Class Enrollments** group, select **Find Enrollments**. 
 1. To see all students' future enrollments, click **Search**.
 1. Add filters to narrow the search.
-1. Input the criteria and click **Search**. 
+1. Input the criteria and click **Search**.

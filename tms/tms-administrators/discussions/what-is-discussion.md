@@ -1,3 +1,8 @@
+---
+title: "What is a discussion and how can I use it to increase student interaction in their learning?"
+isPublished: true
+---
+
 # What is a discussion and how can I use it to increase student interaction in their learning?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you. 
@@ -21,4 +26,3 @@ For more information on Discussions, please see:
 - [How can I add a disclaimer to all my discussions?](add-disclaimer.md)
 - [How do my students and I participate in discussions?](participation.md)
 - [How can I be notified of activity on a discussion?](admin-follow.md)
-

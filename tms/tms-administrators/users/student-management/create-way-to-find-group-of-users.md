@@ -1,3 +1,8 @@
+---
+title: "How can I create a way to find a group of users?"
+isPublished: true
+---
+
 # How can I create a way to find a group of users?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.

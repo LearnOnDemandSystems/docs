@@ -1,3 +1,9 @@
+---
+title: "Custom UUID on VMware Virtual Machines"
+description: "Assign a custom unique ID to a virtual machine hosted on a VMware host."
+isPublished: true
+---
+
 # Custom UUID in VMware Virtual Machines
 
 If you would like to assign a custom unique ID to a virtual machine hosted on a VMware host, you can configure this on in the VM profile in Lab on Demand (LOD).

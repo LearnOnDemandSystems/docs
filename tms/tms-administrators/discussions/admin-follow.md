@@ -1,3 +1,8 @@
+---
+title: "How can I be notified of activity on a discussion?"
+isPublished: true
+---
+
 # How can I be notified of activity on a discussion?
 
 To be notified of activity on a discussion, you can follow Topics and/or Posts on them. You decide if you are notified by email or as an announcement in the Message Center. Both will provide links back to the Topic and Post which has had the activity.

@@ -1,3 +1,9 @@
+---
+title: "IDLx Lab Development Best Practices"
+description: "This document covers best practices for IDLx lab development, to assist in creating a rich learning experience."
+isPublished: true
+---
+
 # IDLx Lab Development Best Practices
 
 This best practices guide is intended for lab authors who are creating labs using the Integrated Digital Lab eXperience (IDLx) platform. IDLx provides lab authors with the ability to enhance the user experience with contextual learning material and graphics while keeping a user focused on the tasks in the lab.

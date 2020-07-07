@@ -1,3 +1,8 @@
+---
+title: "What information should I send to students when I create their enrollments?"
+isPublished: true
+---
+
 # What information should I send to students when I create their enrollments?
 
 When you have created user accounts and enrolled students into a class, you will need to send them the URL to login along with their login credentials. You can revise the following template to send your students login instructions as well as steps on how to access their labs and prepare for class.

@@ -1,3 +1,9 @@
+---
+title: "API Best Practices and How to Use an API Consumer"
+description: "Guides through the steps to configure an API Consumer in LOD, as well as best practices."
+isPublished: true
+---
+
 # API Consumer Usage and Best Practices
 
 1. [How to Make an API Request](#how-to-make-an-api-request)

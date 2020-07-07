@@ -1,3 +1,9 @@
+---
+title: "IDLx Instruction Editor Overview"
+description: "This document is an overview of the lab instruction editor, and an explanation of the various functions available."
+isPublished: true
+---
+
 # IDLx Lab Instruction Editor Overview
 
 ![](images/idx-text-editor.png)

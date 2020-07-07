@@ -1,3 +1,9 @@
+---
+title: "Lab Network Restrictions"
+description: "Overview of the networks available to labs and any network restrictions."
+isPublished: true
+---
+
 # Lab Network Restrictions
 
 ## Overview

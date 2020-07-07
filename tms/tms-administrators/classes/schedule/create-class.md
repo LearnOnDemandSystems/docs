@@ -1,3 +1,8 @@
+---
+title: "How do I create a class?"
+isPublished: true
+---
+
 # How do I create a class?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.

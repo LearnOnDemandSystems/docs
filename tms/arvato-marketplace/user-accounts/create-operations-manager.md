@@ -1,3 +1,8 @@
+---
+title: "How do I set up another user to schedule classes?"
+isPublished: true
+---
+
 # How do I set up another user to schedule classes?
 
 You can set up additional users to be class schedulers in your TMS organization. These users, either new or existing, will need the Operations Manager role. 

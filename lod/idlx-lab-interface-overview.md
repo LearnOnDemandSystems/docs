@@ -1,3 +1,9 @@
+---
+title: "IDLx Lab Interface Overview"
+description: "This document is an overview of the lab interface, and an explanation of the various functions available."
+isPublished: true
+---
+
 # IDLx Lab Interface Overview
 
 The lab client is divided into two main parts: the **Lab Console**, and the **Resource Portal**.

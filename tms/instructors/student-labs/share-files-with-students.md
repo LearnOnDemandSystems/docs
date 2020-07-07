@@ -1,3 +1,8 @@
+---
+title: "How do I share files with students?"
+isPublished: true
+---
+
 # How do I share files with students?
 
 There may be times when you wish to share files with your students. This is simple to do. There are two paths to do this depending on your permissions. You can distribute files from your computer to your students from the **Manage Files** link on the Class Profile or through the **lab monitoring** tool.

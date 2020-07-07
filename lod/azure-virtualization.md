@@ -1,3 +1,9 @@
+---
+title: "Azure Virtualization"
+description: "Deploy an Azure hosted virtual machine."
+isPublished: true
+---
+
 # Create an Azure Hosted Virtual Machine
 
 1. [Overview](#overview)

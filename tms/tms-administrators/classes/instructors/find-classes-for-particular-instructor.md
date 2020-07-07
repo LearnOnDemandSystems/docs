@@ -1,3 +1,8 @@
+---
+title: "How do I find the classes for a particular instructor?"
+isPublished: true
+---
+
 # How do I find the classes for a particular instructor?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.

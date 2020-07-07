@@ -1,3 +1,8 @@
+---
+title: "Why do links disappear?"
+isPublished: true
+---
+
 # Why do links disappear?
 
 Have you navigated to a page in the TMS and a link you expect to be there isn't showing? This is because the TMS links are context sensitive. You only see the links that pertain to the item at a time when they are needed. Or another way of looking at it is, we hide all the irrelevant items to try to cut down on the clutter.

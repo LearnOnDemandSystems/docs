@@ -1,3 +1,8 @@
+---
+title: "How do I participate in a discussion?"
+isPublished: true
+---
+
 # How do I participate in a discussion?
 
 > [!ALERT] Please be aware that the functionality covered in this article may not be available to you.

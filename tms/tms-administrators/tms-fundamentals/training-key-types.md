@@ -1,3 +1,8 @@
+---
+title: "What are the different types of Training Keys and how can they be used?"
+isPublished: true
+---
+
 # What are the different types of training keys?
 
 Training Keys are a great feature to help manage creating user accounts and training for students. You can use training keys to quickly and easily enroll students into both instructor-led or self-paced training without the need to manually create each training assignment. A training key is a code you distribute to users, that code is then redeemed creating their training and it can also be used for them to create their user account. Training keys can be aligned with classes, course assignments, and subscriptions. 

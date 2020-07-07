@@ -1,3 +1,8 @@
+---
+title: "How do I create an account for a student?"
+isPublished: true
+---
+
 # How do I create an account for a student?
 
 Students must have accounts in the TMS to be enrolled in classes to access their labs. You can manually create these accounts for your students.
@@ -17,4 +22,4 @@ Students will need to be provided their User credentials and directed to log int
 
 ## Related Article
 To manually enroll students in your classes, see:
-- [How do I enroll students in a class?](../fulfilling-marketplace-order/enroll-students-in-class.md) 
+- [How do I enroll students in a class?](../fulfilling-marketplace-order/enroll-students-in-class.md)

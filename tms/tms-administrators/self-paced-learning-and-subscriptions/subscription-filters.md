@@ -1,3 +1,8 @@
+---
+title: "How do I create filters for a catalog?"
+isPublished: true
+---
+
 #   How do I create filters for a catalog?
 
 You can add custom filters to your organization’s Course catalog and On-Demand Subscription catalog to assist your users in locating courses that interest them. Both catalogs use the same style of filters and the setup is very similar. 
@@ -128,5 +133,3 @@ Take look at your Course catalog or assign yourself a subscription assignment to
 - [How do I assign a subscription to a user?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-single.md)
 - [How do I assign one or more subscriptions to one or more users?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-multiple.md)
 - [How do I use subscription training keys for self-paced learning?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-training-keys.md)
-
-

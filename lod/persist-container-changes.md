@@ -1,3 +1,9 @@
+---
+title: "Persist Container Changes"
+description: "Allows you to permanently persist container changes so that they are used in future lab launches."
+isPublished: true
+---
+
 # Persist Container Changes
 
 This feature allows you to permanently persist container changes so that they are used in future lab launches.
@@ -44,4 +50,4 @@ To persist changes to a container image:
 
         1. Select the container images to update. You may only push changes to containers that belong to a container registry that you have push rights to. 
 
-        1. Add a note summarizing the changes made or configuration of the container image. This is optional but highly recommended. 
+        1. Add a note summarizing the changes made or configuration of the container image. This is optional but highly recommended.

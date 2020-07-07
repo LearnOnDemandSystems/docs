@@ -1,3 +1,9 @@
+---
+title: "Virtual Machine Based Lab Development - Best Practices"
+description: "Recommendations and best practices for cloud-hosted and datacenter-hosted virtual machines."
+isPublished: true
+---
+
 # Best Practices: Virtual Machine Based Lab Development
 
 This document outlines the considerations and recommendations for lab authors who plan to use virtual machine-based labs as part of their lab development strategy.

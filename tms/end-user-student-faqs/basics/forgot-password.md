@@ -1,3 +1,8 @@
+---
+title: "What do I do if I forgot my password?"
+isPublished: true
+---
+
 # What do I do if I forgot my password?
 
 If you are unable to log in because you have forgotten your password, you can reset it through the log in process. The steps will depend upon your authentication provider. If you see the dialog below when you click Sign In, and possibly select your method to sign in, follow these steps. If you do not see this dialog, follow the directions in the authentication provider's dialog instead.

@@ -1,3 +1,9 @@
+---
+title: "LTI 1.3 Integration Spec"
+description: "Information for evaluating LTI 1.3"
+isPublished: true
+---
+
 # Lab on Demand LTI 1.3 Integration
 
 Learn on Demand Systems is now [LTI Advantage Complete certified.](https://site.imsglobal.org/certifications/learn-demand-systems/lab-demand) LTI v1.3 allows external course authors to integrate rich Lab on Demand (LOD) content directly into their learning management system (LMS) in a standard way. For the purposes of this documentation, please note that the LMS being used by a student is referred to as the Platform, and the external tool or service (LOD) that the LMS is integrated with is referred to as the Tool.

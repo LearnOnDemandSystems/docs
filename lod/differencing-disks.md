@@ -1,3 +1,9 @@
+---
+title: "Differencing Disk Rollback"
+description: "Rollback differencing disks to a previous configuration or add differencing disks back to a disk chain after they have been removed."
+isPublished: true
+---
+
 # Rollback Differencing Disks
 
 A differencing disk is a virtual hard disk (VHD) that stores changes made on the virtual machine in the lab. The purpose of differencing disks is to contain the changes to the virtual disk since the previous differencing disk. This captures the current configuration in the lab, and if needed it allows changes to be made such as rolling back to a previous configuration or deleting disks.  
@@ -20,7 +26,7 @@ In Lab on Demand (LOD), to rollback to a previous differencing disk, you must de
 
     ![](images/edit-vm-profile-hard-disks-tab-x-button.png)
 
-If you would like to rollback and delete multiple disks, you can click the **X** on the disk immediately following the one you want to roll back to, and select **Include all child disks**, when prompted.
+If you would like to rollback and delete multiple disks, you can click the `X` on the disk immediately following the one you want to roll back to, and select **Include all child disks** when prompted.
 
 >[!knowledge] If you're rolling disks back on a set of VMs that all belong to the same domain, make sure you roll each VM Profile back to the same point, otherwise you may run intoTrust Relationship errors between the virtual machines.
 

@@ -1,3 +1,9 @@
+---
+title: "Enable Cloud Slice Support in AWS"
+description: "Setup process to enable cloud slice support in the AWS portal."
+isPublished: true
+---
+
 # Cloud Slice Guide - AWS
 
 [Return to the Cloud Slice guide][back]
@@ -130,4 +136,3 @@ Once you have completed the above steps, and AWS has confirmed the maximum amoun
 
 [back-to-top]: #cloud-slice-guide---AWS "Return to the top of the document"
 [back]: ../cloud-slice.md#enable-cloud-slice-support-in-your-cloud-platform "Return to the Cloud Slice guide"
-

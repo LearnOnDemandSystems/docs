@@ -1,3 +1,8 @@
+---
+title: "Where do I find the system requirements for labs?"
+isPublished: true
+---
+
 # Where do I find the system requirements for labs?
 
 Every lab has certain network system requirements. Some of these requirements may vary depending on the type of lab you are launching.  You can view the requirements without accessing a class: [System Requirements Documentation](/tms/connectivity-requires.md)

@@ -1,3 +1,9 @@
+---
+title: "Themes"
+description: "Create themes to customize the look and feel of labs using CSS, and JavaScript."
+isPublished: true
+---
+
 # Lab on Demand Themes
 
 Themes allow you to add cascading style sheets (CSS) to your lab profiles, to customize the look and feel, as well as using custom Javascript.
@@ -39,4 +45,3 @@ Example: sends a popup notification from the web browser.
 ```linenums
 alert("Hello! I am an alert box from the instructions!!");
 ```
-

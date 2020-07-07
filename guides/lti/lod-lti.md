@@ -1,3 +1,9 @@
+---
+title: "Lab on Demand edX Integration"
+description: "Integrate edX into your lab profile."
+isPublished: true
+---
+
 # Embedding Lab on Demand content into edX courses
 
 [Learning Tools Interoperability (LTI)](http://www.imsglobal.org/activity/learning-tools-interoperability) is a standard defined by the IMS Global Learning Consortium that allows learning systems (e.g. a training management system, or TMS) to consume content provided by external tools or services. This standard enables rich integration between different learning services and platforms, combining their strengths to offer more value to students of those learning systems.

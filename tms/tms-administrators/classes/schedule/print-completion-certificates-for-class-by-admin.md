@@ -1,3 +1,8 @@
+---
+title: "How can an administrator print completion certificates for a class?"
+isPublished: true
+---
+
 # How can an administrator print completion certificates for a class?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.

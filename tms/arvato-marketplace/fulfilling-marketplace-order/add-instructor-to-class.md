@@ -1,3 +1,8 @@
+---
+title: "How do I add an instructor to a class?"
+isPublished: true
+---
+
 # How do I add an instructor to a class?
 
 You can add an instructor to a class when you are creating or editing a class. You may need to **create the instructor** user account, however, if the instructor already has a user account in the TMS, you may simply **add them** to the class.

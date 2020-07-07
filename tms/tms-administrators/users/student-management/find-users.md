@@ -1,3 +1,8 @@
+---
+title: "How do I find users?"
+isPublished: true
+---
+
 # How do I find users?
 
 Users can be found by name, e-mail address, username, role, organization, organizations they have management over, when they were created and several other options as well.

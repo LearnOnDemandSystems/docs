@@ -1,3 +1,8 @@
+---
+title: "What is the Contract Instructor Pool?"
+isPublished: true
+---
+
 # What is the Contract Instructor Pool?
 
 The Contract Instructor Pool is a feature allowing instructors to make themselves available to be contacted to teach classes for interested organizations. Instructors choose to opt in to be a contract instructor and organizations opt in to use contract instructors. An organization looking for an instructor can view the instructor's name, email address, phone numbers, city, state, zip code, and country listed in instructor's user profile. The organization cannot view the user profile but can pull this information using output options on the **Find Instructors** page.

@@ -1,3 +1,8 @@
+---
+title: "How can I create learning paths for a subscription?"
+isPublished: true
+---
+
 # How can I create learning paths for a subscription?
 
 A Learning Path is a subset of courses within a subscription to direct learning of a specific topic. Adding learning paths into your subscription gives you the opportunity to guide a user through courses relating to a subject, giving them a suggested order of progress to take the courses to build their learning on the topic through the end of the path. You can have one or multiple paths set up for your subscription. Users are not restricted to take the courses in the order offered in the path, they can choose to take any course at any time.
@@ -72,4 +77,3 @@ An individual path shows the courses listed in the order created in the path. De
 - [How can I assign a subscription to a user?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-single.md)
 - [How can I assign one or more subscriptions to one or more users?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-multiple.md)
 - [How can I use subscription training keys for self-paced learning?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-training-keys.md)
-

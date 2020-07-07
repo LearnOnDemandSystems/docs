@@ -1,3 +1,8 @@
+---
+title: "Why does my lab expire within a week when I am supposed to have access to it for a longer time?"
+isPublished: true
+---
+
 # Why does my lab expire within a week when I am supposed to have access to it for a longer time?
 
 Sometimes people are confused when they see that their lab will expire within a few days when they thought they had access to the lab for a much longer period time. The confusion is between your lab access for a class and your saved lab’s expiration.

@@ -1,3 +1,8 @@
+---
+title: "What are the basics to create a class?"
+isPublished: true
+---
+
 # What are the basics to create a class? 
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
@@ -41,4 +46,4 @@ Expand the Instructors section to create a user account for your instructor if i
 1. Click **Add Instructor**.
 1. Input part of the **Last Name and First Name** of the instructor and click **Search**. Select the **instructor' name** from the search results and click **OK**.
 
-Click **Save** to create the class. To opent the class ou justs created, click the **class name** at the bottom of the page. 
+Click **Save** to create the class. To opent the class ou justs created, click the **class name** at the bottom of the page.

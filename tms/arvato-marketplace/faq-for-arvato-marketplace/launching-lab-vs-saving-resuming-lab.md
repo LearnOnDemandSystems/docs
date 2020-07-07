@@ -1,3 +1,8 @@
+---
+title: "What is the difference between launching a lab and saving and resuming a lab?"
+isPublished: true
+---
+
 # What is the difference between launching a lab and saving and resuming a lab?
 
 Launching a lab starts a new lab instance. When you first access your labs, you launch the labs by clicking the **Launch** button in the **Class** activities. 

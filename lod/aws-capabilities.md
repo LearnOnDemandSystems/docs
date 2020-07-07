@@ -1,3 +1,9 @@
+---
+title: "Amazon Web Services API Capabilities"
+description: "A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation. Below the table is a brief description for each service name."
+isPublished: true
+---
+
 # Lab on Demand AWS API Capabilities 
 
 Below is a list of **supported** and **planned support** Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation.
@@ -138,4 +144,3 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[Single Sign-On](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)|sso|planned||
 |[TensorFlow on AWS](https://aws.amazon.com/tensorflow/?nc2=h_m1)|N/A|planned||
 |[Virtual Private Cloud](https://aws.amazon.com/vpc/?hp=tile&so-exp=below)|ec2|supported||
-

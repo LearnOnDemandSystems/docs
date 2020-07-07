@@ -1,3 +1,9 @@
+---
+title: "Shared Labs (a.k.a. Cyber-Range)"
+description: "Configure a Shared Lab environment."
+isPublished: true
+---
+
 # Shared Labs
 
 Shared Labs is a tool used in LODS to create environments which share

@@ -1,3 +1,8 @@
+---
+title: "What information should I send to students who are registering for class using training keys?"
+isPublished: true
+---
+
 # What information should I send to students who are registering using training keys?
 
 When you have students register for a class, self-paced training, or a subscription with training keys, they will use the key provided to create their own user account and provision their training. You need to send them the URL to login along with a training key. The following template provides information you can revise to send to your students, it provides instructions on redeeming the training key and steps on how to access their labs.

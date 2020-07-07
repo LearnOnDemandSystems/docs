@@ -1,3 +1,9 @@
+---
+title: "SSH Terminal Access"
+description: "Configure virtual machines for SSH terminal access."
+isPublished: true
+---
+
 # Terminal Access to Virtual Machines
 
 ![](images/terminal-window.png)

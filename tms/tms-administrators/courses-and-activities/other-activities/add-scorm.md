@@ -1,3 +1,8 @@
+---
+title: "How do I add SCORM modules to my course?"
+isPublished: true
+---
+
 # How do I add SCORM modules to my course?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you. 
@@ -22,6 +27,3 @@ Each SCORM activity has the following fields you can set for more control over t
 For more information regarding SCORM modules, please see:
 - [How do I create a SCORM Module and make it available to other orgs for their courses?](create-scorm-module.md)
 - [How do I view all SCORM attempts by my students?](view-scorm-attempts.md)
-
-
-

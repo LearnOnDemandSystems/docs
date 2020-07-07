@@ -1,3 +1,8 @@
+---
+title: "How do I schedule a class with multiple instructors?"
+isPublished: true
+---
+
 # How do I schedule a class with multiple instructors?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.

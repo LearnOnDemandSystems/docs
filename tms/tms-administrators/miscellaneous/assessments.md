@@ -1,3 +1,8 @@
+---
+title: "How do assessments work?"
+isPublished: true
+---
+
 # How do assessments work?
 
 > [!Alert] Please be aware that not all functionality covered in this article may be available to you.

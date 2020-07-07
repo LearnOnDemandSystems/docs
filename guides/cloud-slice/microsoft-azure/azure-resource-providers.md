@@ -1,3 +1,9 @@
+---
+title: "Azure Resource Providers"
+description: "Azure Resource Providers, and how to get the resources you need for your lab."
+isPublished: true
+---
+
 # Azure Resource Providers
 
 [Return to the Cloud Slice guide][back]
