@@ -38,6 +38,9 @@
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/course-setting-disable-class-activities.md">
         <div class="subtopic_title">How can I set up a course for disabling class activities?</div>
       </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/course-enable-assigning-class-activities.md">
+        <div class="subtopic_title">How do I set up a course to enable assigning class activities to different students?</div>
+      </a>
         <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/labs/find-how-long-lab-will-be-saved-for.md">
         <div class="subtopic_title">How can I find how long a lab will be saved?</div>
       </a>
@@ -54,6 +57,9 @@
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/course-setting-disable-class-activities.md">
         <div class="subtopic_title">How can I set up a course for disabling class activities?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/course-enable-assigning-class-activities.md">
+        <div class="subtopic_title">How do I set up a course to enable assigning class activities to different students?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/create-scorm-module.md">
         <div class="subtopic_title">How do I create a SCORM Module and make it available to other organizations for their courses?</div>
