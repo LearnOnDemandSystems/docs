@@ -42,7 +42,7 @@ The **Result** command returns information about a particular lab instance resul
 |LabHostId|Integer|Yes|The ID of the lab host server that the lab instance is housed on.|
 |DatacenterId|Integer|Yes|The ID of the datacetner that the lab instance is located in.|
 |DeliveryRegionId|Integer|Yes|The ID of the delivery region that the lab instance is located in.|
-|Exam Details|Array of ExamReportDetails|No|An array of exam details containing exam questions, answers, and score results|
+|ExamDetails|Array of ExamReportDetails|No|An array of exam details containing exam questions, answers, and score results|
 
 ## ExamReportDetails
 
