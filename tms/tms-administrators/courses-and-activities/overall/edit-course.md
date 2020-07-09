@@ -1,10 +1,10 @@
 ---
-title: "When can I edit a course?"
+title: "Coming Soon: When can I edit a course?"
 description: "Learn about when you can edit all fields on a course and editing restrictions in place for courses. Information is also available on cloning a course to use for upcoming training and support for courses used in a class that is in progress."
 isPublished: false
 ---
 
-# When can I edit a course?
+# Coming Soon: When can I edit a course?
 
 Courses created by an organization are open for editing to users with course creation permissions. All fields, activities, and settings can be edited while no active training events are using the course. When a class is in progress or a course assignment is active, the course fields available for editing are limited. This limitation is in place to meet with Learn on Demand Systems billing procedure.
 
