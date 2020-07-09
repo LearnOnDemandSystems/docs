@@ -60,6 +60,8 @@ All Lab Environments (Shared and Participant) can been saved and closed as norma
 
 ## Additional Resources
  
- - [How do I disable class activities for all students?](/tms/instructors/instructor-prep-and-classes/disable-class-activities.md)
- - [How do I disable class activities for all students?](/tms/instructors/instructor-prep-and-classes/disable-class-activities.md)
+- [How do I set up a shared labs course?](/tms/tms-administrators/courses-and-activities/overall/shared-lab-course.md)
+- [How do I assign access to a class activity to different students?](/tms/instructors/instructor-prep-and-classes/assign-class-activities.md)
+- [How do I disable class activities for all students?](/tms/tms-administrators/courses-and-activities/labs/disable-class-activities.md)
+
 
