@@ -1,10 +1,10 @@
 ---
-title: "How do I create a course with shared labs?"
+title: "Coming Soon: How do I create a course with shared labs?"
 description: "Learn about configuration requirments for shared lab courses and how to have them set up for you."
 isPublished: false
 ---
 
-# How do I create a course with shared labs?
+# Coming Soon: How do I create a course with shared labs?
 
 A shared lab provides interaction and collaboration amongst participant labs connected to a shared environment lab. All students can access the one shared lab environment simultaneously but with specific tools and services aligned with their participant lab. Shared labs may be used to create different learning experiences:
 * **Cyber Range** – Groups of students can attack a common target, which is defended by another group of students, all in a safe and isolated network.
