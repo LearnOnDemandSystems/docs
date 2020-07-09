@@ -28,3 +28,10 @@ The following configurations will be implemented for all courses using a shared 
 * Participant lab(s) are consumed by students.
 * Lab access is limited to days and times of the scheduled class sessions, for example, if class is scheduled Monday through Wednesday from 8:00am – 12:00pm, no labs can be launched until 8:00am or after 12:00pm on class days.
 * No post-class lab access is given for courses with shared or participant labs.
+
+## Additional Resources
+
+- [How do I run a shared labs class?](/tms/instructors/instructor-prep-and-classes/shared-labs-class.md)
+- [How do I assign access to a class activity to different students?](/tms/instructors/instructor-prep-and-classes/assign-class-activities.md)
+- [How do I disable class activities for all students?](/tms/tms-administrators/courses-and-activities/labs/disable-class-activities.md)
+
