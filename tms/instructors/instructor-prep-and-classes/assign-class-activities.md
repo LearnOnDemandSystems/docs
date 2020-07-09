@@ -1,5 +1,8 @@
-title: "Assign Class Activities"
+---
+title: "How can I assign access to a class activity to different students?"
+description: "Learn how to assign class activities to only be seen and launched by specific students."
 isPublished: true
+---
 
 # How can I assign access to a class activity to different students?
 
