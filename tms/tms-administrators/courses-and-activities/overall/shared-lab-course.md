@@ -21,6 +21,12 @@ Requests for altered course configurations require pre-approval by both the Lear
 
 Please Note: Due to the requirements for course configurations, only Learn on Demand Systems staff can create courses that incorporate shared labs. 
 
+Notify the LODS Course Requests Team at https://lod.one/help to set up the course. Specify the following information:
+
+- Name of course
+- Name of Lab Series in LOD
+- Name of Participant labs to add as Lab Activities to the course.
+
 The following configurations will be implemented for all courses using a shared lab:
 
 * Delivery is set to Available Instructor-led.
