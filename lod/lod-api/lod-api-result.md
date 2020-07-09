@@ -78,7 +78,7 @@ The **Result** command returns information about a particular lab instance resul
 |Type|string|No|The type of question. Possible values:
 ||||MultipleChoiceSingleAnswer
 ||||MultipleChoiceMultipleAnswer
-||||TextExacthWord
+||||TextExactWord
 ||||TextRegexMatch|
 |Text|string|No|Question text that is displayed to the user.|
 |SortIndex|Integer|No|Sort order for display of this question in the questions collection.|
