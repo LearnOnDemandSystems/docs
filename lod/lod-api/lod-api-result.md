@@ -113,6 +113,7 @@ https://labondemand.com/api/v3/Result/?labinstanceId=2393049
     "LabProfileId": 1,
     "Start": 1338224609,
     "End": 1338224624,
+    "LastActivity": 1338224624,
     "UserId": "555",
     "ClassId": null,
     "CompletionStatus": 4,
