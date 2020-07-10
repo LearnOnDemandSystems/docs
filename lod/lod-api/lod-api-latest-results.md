@@ -21,6 +21,7 @@ The **LatestResults** command returns information about all lab instance results
 |LabProfileId|Int|No|The unique identifier of the lab profile the lab instance is based on|
 |Start|Integer (64-bit)|No|When the lab was started (in Unix epoch time)|
 |End|Integer (64-bit)|Yes|When the lab ended (in Unix epoch time)|
+|LastActivity|Integer (64-bit)|Yes|The last time the student interacted with the lab (in Unix epoch time)|
 |UserId|String|Yes|The unique identifier of the user, as represented in your system|
 |ClassId|String|Yes|The unique identifier of the class the lab is related to, as represented in your system|
 |CompletionStatus|Int|No|1 = Cancelled
