@@ -9,6 +9,24 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## **Released July 10, 2020**
+
+**Multi-fabric Sequencing**
+Lab profiles have a new option on the Advanced tab, to configure lab fabric build sequence. This allows labs that contain multiple fabrics to control which fabric is built first or if building can occur simultaneously. Lab fabrics can be built virtualization then cloud, cloud then virtualization or parallel to each other. 
+ 
+**Shared Labs**
+Lab authors can now choose whether a shared lab environment will automatically launch when a participant lab is launched or if an instructor will first need to launch the shared environment before participants are allowed access. Automatic launching is enabled by selecting the checkbox next to the shared environment role on the advanced tab of a lab profile.
+ 
+**LOD Improvements and Fixes**
+- Variable output and text replacements will be rendered in the lab client immediately upon any creation or update.
+- A read only copy of the instructions is now available via the edit instructions link in lab profiles with externally managed instructions. This allows authors to utilize the recently released Replacements feature as well as manage replacement tokens and activities.
+- The connection quality indicators in LabonDemand and the lab client have been updated with new values to better align with the recently implemented changes in how latency is calculated. 
+- Total score, passing score, and passed results are now displayed on the lab instance details page of scored labs.
+- LTI 1.3 Deep Linking is now available for Moodle.
+- Fixed a bug causing select browsers/OS combinations to loop through the launch process for cloud labs.
+- Fixed a bug that prevented the close button from appearing in modal dialog windows.
+- Fixed a bug that prevented the lab client from tracking progress when selecting tasks list configured in Git Integration and includes.
+
 ## **Released July 6, 2020**
 
 - The Docs app has been updated with a search function in the top menu bar. This will search document titles, as well as the contents of available LOD and TMS documentation, and list any documentation that matches your search term(s).
@@ -296,7 +314,7 @@ Many accessibility improvements have been made to the lab client resulting in an
 - Fixed a bug that prevented Last Activity and Last Console Sync from periodically 
 
 ---
-
+<!--
 ## **Released February 14, 2020**
 
 **Save As for Access Control Policies and Resource Templates**
@@ -333,7 +351,7 @@ This will allow us to exercise greater control over cloud and virtualization res
 - Fixed a bug that caused _Edit Instructions_ to show in a launched lab that uses GitHub or Azure DevOps as an external instruction source.
 
 ---
-<!--
+
 ## **Released December 13, 2019**
 
 **Improvements and Fixes**
