@@ -13,7 +13,8 @@ The **Result** command returns information about a particular lab instance resul
 |--- |--- |--- |--- |
 |LabProfileId|Int|No|The unique identifier of the lab profile the lab is based on|
 |Start|Long|No|When the lab instance was started (in Unix epoch time)|
-|End|Long|Yes|When the lab instance was started (in Unix epoch time)|
+|End|Long|Yes|When the lab instance was ended (in Unix epoch time)|
+|LastActivity|Long|Yes|The last time the student interacted with the lab (in Unix epoch time)|
 |UserId|String|Yes|The user ID as represented in your organization|
 |ClassId|String|Yes|The class ID as represented in your organization|
 |CompletionStatus|Int|No|1 = Cancelled
@@ -112,6 +113,7 @@ https://labondemand.com/api/v3/Result/?labinstanceId=2393049
     "LabProfileId": 1,
     "Start": 1338224609,
     "End": 1338224624,
+    "LastActivity": 1338224624,
     "UserId": "555",
     "ClassId": null,
     "CompletionStatus": 4,

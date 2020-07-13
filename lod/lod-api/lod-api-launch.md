@@ -19,17 +19,14 @@ The **Launch** command will launch a specified lab for a specified user.
 |roleId|Integer|No|Allows you specify the role(s) to assign to the user. You may pass multiple instances of this parameter to specify multiple roles. Roles are used for specialized integration purposes and are not needed in typical integration scenarios. Role IDs will be provided by Learn on Demand Systems when appropriate.|
 |variable-*name*|string|No|Allows you to set the values of named variables used within the lab instance.|
 |maxActiveLabs|Integer|No|The max number of concurrent lab instances is capped by the number configured on your API consumer.|
-<!--
 |lang|string|No|Allows you to override the lab client UI language. Please note this only affects the lab client UI elements such as menus, tabs, and dialogs. The lab instructions and content are not affected.|
 | | | | en = English |
 | | | | es = Spanish |
 | | | | fr = French  |
 | | | | pt = Portuguese  |
-| | | | pa = Japanese  |
+| | | | ja = Japanese  |
 | | | | zh = Chinese  |
 | | | | ko = Korean  |
-
--->
 
 ## Response
 

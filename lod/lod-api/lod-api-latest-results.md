@@ -21,6 +21,7 @@ The **LatestResults** command returns information about all lab instance results
 |LabProfileId|Int|No|The unique identifier of the lab profile the lab instance is based on|
 |Start|Integer (64-bit)|No|When the lab was started (in Unix epoch time)|
 |End|Integer (64-bit)|Yes|When the lab ended (in Unix epoch time)|
+|LastActivity|Integer (64-bit)|Yes|The last time the student interacted with the lab (in Unix epoch time)|
 |UserId|String|Yes|The unique identifier of the user, as represented in your system|
 |ClassId|String|Yes|The unique identifier of the class the lab is related to, as represented in your system|
 |CompletionStatus|Int|No|1 = Cancelled
@@ -65,6 +66,7 @@ https://labondemand.com/api/v3/LatestResults/?minutes=60
             "LabProfileId": 5522,
             "Start": 1325376800,
             "End": 1325376900,
+            "LastActivity": 1325376899,
             "UserId": "555",
             "ClassId": null,
             "CompletionStatus": 1,
@@ -90,6 +92,7 @@ https://labondemand.com/api/v3/LatestResults/?minutes=60
             "LabProfileId": 5523,
             "Start": 1325377000,
             "End": 1325377100,
+            "LastActivity": 1325377099,
             "UserId": "555",
             "ClassId": null,
             "CompletionStatus": 1,
