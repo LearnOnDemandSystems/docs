@@ -21,7 +21,7 @@ none
 |UserId|String|No|The ID of the user the lab instance belongs to|
 |UserFirstName|String|No|The first name of the user the lab instance belongs to|
 |UserLastName|String|No|The last name of the user the lab instance belongs to|
-|LaProfileId|Int|No|The unique identifier of the lab profile the lab instance is based on|
+|LabProfileId|Int|No|The unique identifier of the lab profile the lab instance is based on|
 |LabProfileNumber|String|No|The number/code of the lab profile the lab instance is based on|
 |LabProfileName|String|No|The name of the lab profile the lab instance is based on|
 |Start|Long|No|When the lab instance was started (in Unix epoch time)|
