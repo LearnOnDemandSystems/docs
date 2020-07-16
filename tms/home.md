@@ -537,12 +537,12 @@
               <span class="categoryTitle" title="How do I enroll students in a class?">How do I enroll students in a class?</span>
             </a>
           </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/arvato-courseware-marketplace-landing.md" title="View all" aria-label="View all Courseware Marketplace Fulfilling Your Lab Order Docs">View all</a></div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/arvato-courseware-marketplace-landing.md" title="View all" aria-label="View all Arvato Courseware Marketplace Fulfilling Your Lab Order Docs">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
         <div class="vmLabDev cardContent">
-          <div class="cardHeader" tabindex="0" title="Courseware Marketplace Managing Your Users" aria-label="Courseware Marketplace Managing Your Users Featured Docs">Managing Your Users</div>
+          <div class="cardHeader" tabindex="0" title="Arvato Courseware Marketplace Managing Your Users" aria-label="Arvato Courseware Marketplace Managing Your Users Featured Docs">Managing Your Users</div>
           <div class="category">
             <a href="/tms/arvato-marketplace/user-accounts/create-student-account.md" class="categoryThread">
               <i class="material-icons light-green" aria-hidden="true">supervised_user_circle</i>
@@ -566,7 +566,7 @@
       </div>
       <div class="cardContainer">
         <div class="pbt_scoring cardContent">
-          <div class="cardHeader" tabindex="0" title="Courseware Marketplace FAQs for Courseware Marketplace Orders" aria-label="Courseware Marketplace FAQs for Courseware Marketplace Orders Featured Docs">FAQs for Courseware Marketplace Orders</div>
+          <div class="cardHeader" tabindex="0" title="Arvato Courseware Marketplace FAQs for Courseware Marketplace Orders" aria-label="Arvato Courseware Marketplace FAQs for Courseware Marketplace Orders Featured Docs">FAQs for Courseware Marketplace Orders</div>
           <div class="category">
             <a href="/tms/arvato-marketplace/faq-for-arvato-marketplace/purchase-labs-for-instructor.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">help</i>
@@ -585,7 +585,7 @@
               <span class="categoryTitle" title="How and when can students access labs?">How and when can students access labs?</span>
             </a>
           </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/arvato-courseware-marketplace-landing.md" title="View all" aria-label="View all Courseware Marketplace FAQs for Courseware Marketplace Orders docs">View all</a></div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/arvato-courseware-marketplace-landing.md" title="View all" aria-label="View all Arvato Courseware Marketplace FAQs for Courseware Marketplace Orders docs">View all</a></div>
         </div>
       </div>
     </div>
