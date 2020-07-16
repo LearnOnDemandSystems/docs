@@ -13,7 +13,7 @@
     4. Ensure to add the new document in A-Z index
 -->
 
-<div class="categoriesHeader" tabindex="0" title="Arvato Marketplace Admin Docs Container">Arvato Marketplace Admin</div>
+<div class="categoriesHeader" tabindex="0" title="Courseware Marketplace Admin Docs Container">Courseware Marketplace Admin</div>
 <div class="accordionModule">
   <div class="subtopic selected">
     <div class="subtopic_header" tabindex="0" title="Fulfilling Your Lab Order Docs" role="button" aria-selected="true" selected>Fulfilling Your Lab Order</div>
@@ -111,7 +111,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header" tabindex="0" title="Arvator Marketplace Admin A-Z Docs" role="button" aria-selected="false">A-Z Index</div>
+    <div class="subtopic_header" tabindex="0" title="Courseware Marketplace Admin A-Z Docs" role="button" aria-selected="false">A-Z Index</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/arvato-marketplace/faq-for-arvato-marketplace/purchase-labs-for-instructor.md">
         <div class="subtopic_title">Do I need to purchase labs for the instructor?</div>
