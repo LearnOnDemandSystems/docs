@@ -508,7 +508,7 @@
   <!-- Begin Arvato MarketPlace Admin categories section.. -->
     <div class="moreInfo" tabindex="0" title="Getting started?">
       <span class="moreInfo_header">Getting started?</span>
-      If you purchased Learn on Demand Systems labs through the ee, read the <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started.md">Getting Started</a> article first, then review the following topics/processes to access and manage your orders.
+      If you purchased Learn on Demand Systems labs through the Courseware Marketplace, read the <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started.md">Getting Started</a> article first, then review the following topics/processes to access and manage your orders.
         </div> 
     <div class="moreInfo" tabindex="0" title="Meet Virtually">
       <span class="moreInfo_header">Meet Virtually</span>
