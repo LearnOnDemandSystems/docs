@@ -504,8 +504,8 @@
             <!-- -- End administrator categories section -->
   </div>
 
-  <div class="arvatoMarketplaceAdmin userTypeSection">
-  <!-- Begin Arvato MarketPlace Admin categories section.. -->
+  <div class="CoursewareMarketplaceAdmin userTypeSection">
+  <!-- Begin Courseware MarketPlace Admin categories section.. -->
     <div class="moreInfo" tabindex="0" title="Getting started?">
       <span class="moreInfo_header">Getting started?</span>
       If you purchased Learn on Demand Systems labs through the Courseware Marketplace, read the <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started.md">Getting Started</a> article first, then review the following topics/processes to access and manage your orders.
@@ -537,7 +537,7 @@
               <span class="categoryTitle" title="How do I enroll students in a class?">How do I enroll students in a class?</span>
             </a>
           </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/arvato-courseware-marketplace-landing.md" title="View all" aria-label="View all Arvato Marketplace Fulfilling Your Lab Order Docs">View all</a></div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/arvato-courseware-marketplace-landing.md" title="View all" aria-label="View all Courseware Marketplace Fulfilling Your Lab Order Docs">View all</a></div>
         </div>
       </div>
       <div class="cardContainer">
