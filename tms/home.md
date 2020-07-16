@@ -504,8 +504,8 @@
             <!-- -- End administrator categories section -->
   </div>
 
-  <div class="CoursewareMarketplaceAdmin userTypeSection">
-  <!-- Begin Courseware MarketPlace Admin categories section.. -->
+  <div class="ArvatoMarketplaceAdmin userTypeSection">
+  <!-- Begin Arvato MarketPlace Admin categories section.. -->
     <div class="moreInfo" tabindex="0" title="Getting started?">
       <span class="moreInfo_header">Getting started?</span>
       If you purchased Learn on Demand Systems labs through the Courseware Marketplace, read the <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started.md">Getting Started</a> article first, then review the following topics/processes to access and manage your orders.
