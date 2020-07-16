@@ -13,7 +13,7 @@
     4. Ensure to add the new document in A-Z index
 -->
 
-<div class="categoriesHeader" tabindex="0" title="Courseware Marketplace Admin Docs Container">Courseware Marketplace Admin</div>
+<div class="categoriesHeader" tabindex="0" title="Arvato Marketplace Admin Docs Container">Courseware Marketplace Admin</div>
 <div class="accordionModule">
   <div class="subtopic selected">
     <div class="subtopic_header" tabindex="0" title="Fulfilling Your Lab Order Docs" role="button" aria-selected="true" selected>Fulfilling Your Lab Order</div>
