@@ -3,6 +3,21 @@
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
 ----------------------------
+## Released July 9 2020
+
+### <span style="color:#0078d7;">Enhancements and Fixes</span>
+
+* End User License Agreement - A user impersonating a student will no longer receive “Access Denied”.  The message displayed will now be “Only [Student Name] can accept this agreement.  Impersonated users cannot accept License Agreements”.
+* Lab Profile - The lab profile Expected Duration in the TMS will now match the Expected Duration in LOD. 
+* Find Lab Instances – The Start filter default has been changed from “Anytime” to “Within Last [Number] Days”.
+
+### <span style="color:#0078d7;">Accessibility Items</span>
+
+In our continuing effort to improve accessibility for all our students and meet MAS standards, the Screen Reader now narrates:
+- The Find Course header.
+- The Pagination and Next controls on the Course Catalog page.
+
+----------------------------
 ## Released June 29 2020
 
 
