@@ -9,6 +9,7 @@ isPublished: true
 1. [Overview](#overview)
     - [Benefits](#external-management-benefits)
     - [Disadvantages](#external-management-disadvantages)
+    - [Best Practices](#best-practices)
 1. [Getting Started](#getting-started)
     - [Azure DevOps](#azure-devops)
     - [GitHub](#github)
@@ -47,6 +48,16 @@ These include:
 
 
 1. **Activities** - Automated and question activities are unavailable when using an external repository as an instruction source. 
+
+## Best Practices
+ 
+ When using an external instruction source, there are a few things to consider. 
+
+ - The overall size of the repository cannot exceed 500MB.
+
+ - We highly recommend using repositories dedicated to your lab content and not mixing other content within these repositories.
+    
+- You are able to host content for multiple lab profiles within the same repository, but keep in mind you could eventually need to break this up into multiple repositories if the lab content exceeds the maximum file size per repo. A good rule of thumb would be one repository per course or lab series. 
 
 # Getting started
 
