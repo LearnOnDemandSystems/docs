@@ -90,14 +90,17 @@ Course tag groups must be associated with the subscription in order to display i
 Follow these steps to add course tag groups to a subscription profile:
 1.	From the Site Administration page on the **Subscriptions** tile, select **Subscription Profiles** to open the Find Subscription Profiles page.
 1.	Search for and select the edit link for the **subscription** you wish to connect with your group, this opens the selected subscription profile.
-1.	Select the **Course Tag Groups** tab, 
-1. Select the **Add Course Tag Group** to open the Course Tag Group chooser and select an existing tag group(s) to associate with your tag.
+1.	Enable On-Demand course access must be selected.
+1. Open the **Course Tag Groups** tab, 
+1. Click the **Add Course Tag Group** to open the Course Tag Group chooser and select an existing tag group(s) to associate with your tag.
 1. Search for and select the all the **tag groups** to connect with your tag, then click **OK**.
 1.	**Save**. 
 
+![](/tms/images/subscription-default-course-tag-groups.png)
+
 ## Organization profile
 
-Adding course tag groups to your organization profile applies the selected tag groups to all courses created in your organization giving a listing of all tag groups and their associated tags. Once the tag groups are listed on the course, you can select which tags are used to filter for the course. All tag groups added to the organization display in the Course catalog even if none of group’s filters are associated with courses in the catalog.
+Adding course tag groups to your organization profile applies the selected tag groups to all courses created in your organization. Each created course is given a listing of all tag groups and their associated tags. Once the tag groups are listed on the course, you can select which tags are used to filter for the course. All tag groups added to the organization display in the Course catalog even if none of group’s filters are associated with courses in the catalog.
 
 Follow these steps to add course tag groups to your organization:
 1.	From the Site Administration page on the **Organizations** tile, select **My Organizations** to open the My Organizations page.
@@ -107,6 +110,8 @@ Follow these steps to add course tag groups to your organization:
 1. Select the **Add Course Tag Group** to open the Course Tag Group chooser and select an existing tag group(s) to associate with your tag.
 1. Search for and select the all the **tag groups** to connect with your tag, then click **OK**.
 1.	**Save**.
+
+![](/tms/images/org-default-course-tag-groups.png)
 
 ## Courses
 
