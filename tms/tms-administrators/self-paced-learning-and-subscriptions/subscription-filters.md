@@ -127,6 +127,8 @@ Follow these steps to enable course tags on your courses:
 1. Check boxes for any tag to use as a filter for this course.
 1.	**Save**.
 
+![](/tms/images/courses-default-course-tag-groups.png)
+
 You can find courses assigned a course tag from Find Courses by adding the filter for Course Tags. The Additional Tags can be used to add course tags to filter by in Find Courses, however, tags added there will not show on a catalog.
 
 Take look at your Course catalog or assign yourself a subscription assignment to view the On-Demand Subscription catalog to review your filters.
