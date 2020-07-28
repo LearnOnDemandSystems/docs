@@ -504,7 +504,7 @@
             <!-- -- End administrator categories section -->
   </div>
 
-  <div class="arvatoMarketplaceAdmin userTypeSection">
+  <div class="coursewareMarketplaceAdmin userTypeSection">
   <!-- Begin Arvato MarketPlace Admin categories section.. -->
     <div class="moreInfo" tabindex="0" title="Getting started?">
       <span class="moreInfo_header">Getting started?</span>
