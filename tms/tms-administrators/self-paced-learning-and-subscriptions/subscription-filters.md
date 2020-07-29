@@ -7,7 +7,7 @@ isPublished: true
 
 You can add custom filters to your organization’s Course catalog and On-Demand Subscription catalog to assist your users in locating courses that interest them. Both catalogs use the same style of filters and the setup is very similar. 
 
-![](/tms/images/course-catalog.png)
+![](/tms/images/catalog-with-filters.png)
  
 *Filters used in a Course catalog*
 
