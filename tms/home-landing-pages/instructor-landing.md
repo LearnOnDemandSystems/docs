@@ -50,6 +50,9 @@
         <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/assign-class-activities.md">
         <div class="subtopic_title">How do I assign access to a class activity to different students?</div>
       </a>
+        <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/shared-labs-class.md">
+       <div class="subtopic_title">How do I run a shared labs class?</div>
+      </a>
        <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/issue-manual-badge.md">
        <div class="subtopic_title">How do I issue a badge to students in my class?</div>
       </a>
