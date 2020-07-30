@@ -21,7 +21,13 @@
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/create-course.md">
         <div class="subtopic_title">How do I create a basic course?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/cascade-custom-fields.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/edit-course.md">
+        <div class="subtopic_title">When can I edit a course?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/shared-lab--course.md">
+        <div class="subtopic_title">How do I create a course with shared labs?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/cascade-custom-fields.md">
         <div class="subtopic_title">How do I make the custom fields on my courses available on my classes?</div>
       </a>
     </div>
