@@ -4,7 +4,7 @@ description: "Learn about when you can edit all fields on a course and editing r
 isPublished: True
 ---
 
-# Coming Soon: When can I edit a course?
+# When can I edit a course?
 
 Courses created by an organization are open for editing to users with course creation permissions. All fields, activities, and settings can be edited before any training events use the course. Once a class or a course assignment has started, the course fields available for editing are limited for the life of the course. This limitation is in place to meet with Learn on Demand Systems billing procedure.
 
