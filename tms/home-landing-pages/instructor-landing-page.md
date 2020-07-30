@@ -33,24 +33,7 @@
     <div class="subtopic_header">Preparation and Classes</div>
     <div class="subtopic_links">
       
-      <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/find-classes-scheduled-to-teach.md">
-        <div class="subtopic_title">How do I find classes I am scheduled to teach?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/get-to-class-scheduled-to-teach.md">
-        <div class="subtopic_title">How do I get to a class I am scheduled to teach?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/course-setting-disable-class-activities.md">
-      <div class="subtopic_title">How can I disable class activities?</div>
-      </a>
-        <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/issue-manual-badge.md">
-      <div class="subtopic_title">How do I issue a badge to students in my class?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/discussions/participation.md">
-        <div class="subtopic_title">How do my students and I participate in discussions?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/discussions/admin-follow.md">
-        <div class="subtopic_title">How can I be notified of activity on a discussion?</div>
-      </a>
+    
     </div>
   </div>
   <div class="subtopic">
