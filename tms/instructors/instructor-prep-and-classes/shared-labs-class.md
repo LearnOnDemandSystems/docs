@@ -1,10 +1,10 @@
 ---
-title: "Coming Soon: How do I run a shared labs class?"
+title: "How do I run a shared labs class?"
 description: "Share labs have a lab the class shares and participant labs for the students. This article provides information on managing both the shared and participant labs, special considerations in launching, saving, and cancelling labs, as well as tools to manage access to labs."
-ispublished: false
+ispublished: true
 ---
 
-# Coming Soon: How do I run a shared labs class?
+# How do I run a shared labs class?
 
 Shared labs allow students to participate in the shared lab environment for activities like cyber-range, collaborative learning, or role playing. 
 Shared labs classes have a lab the class shares, working in it at the same time, and participant labs for the students to access the shared environment lab. 
