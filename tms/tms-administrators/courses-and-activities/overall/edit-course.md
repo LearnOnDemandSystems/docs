@@ -1,7 +1,7 @@
 ---
-title: "Coming Soon: When can I edit a course?"
+title: "When can I edit a course?"
 description: "Learn about when you can edit all fields on a course and editing restrictions in place for courses. Information is also available on cloning a course to use for upcoming training and support for courses used in a class that is in progress."
-isPublished: false
+isPublished: True
 ---
 
 # Coming Soon: When can I edit a course?
