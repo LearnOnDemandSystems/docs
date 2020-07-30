@@ -32,9 +32,7 @@
   <div class="subtopic">
     <div class="subtopic_header">Preparation and Classes</div>
     <div class="subtopic_links">
-      <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/prepare-for-course-not-scheduled-to-teach.md">
-        <div class="subtopic_title">How do I prepare for a course that I am not scheduled to teach?</div>
-      </a>
+      
       <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/find-classes-scheduled-to-teach.md">
         <div class="subtopic_title">How do I find classes I am scheduled to teach?</div>
       </a>
