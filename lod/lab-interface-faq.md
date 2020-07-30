@@ -28,8 +28,6 @@ isPublished: true
 
 - [**How Do I Resize The Screen Resolution Setting On My Own Computer To View The Lab Better?**](lab-interface-faqs/how-do-i-resize-the-screen-resolution-setting-on-my-own-computer-to-view-the-lab-better.md)
 
-- [**Why Do I Have To Select My Client Every Time I Launch A Lab?**](lab-interface-faqs/why-do-i-have-to-select-my-client-every-time-i-launch-a-lab.md)
-
 > ### Looking for more information?
 >
 >If you've already read through all of the documentation that is available on a topic, and you are still looking for more information, or have questions, check out the resources available to you on our [Contact Us](/contact-us.md) page.
