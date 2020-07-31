@@ -20,7 +20,7 @@ isPublished: true
 
 - [**How Do I Extend The Amount Of Time On The Lab Timer?**](lab-interface-faqs/how-do-i-extend-the-amount-of-time-on-the-lab-timer.md)
 
-- [**Is There A Quick Way To Switch Virtual Machines?**](lab-interface-faqs/is-there-a-quick-way-to-switch-virtual-machines.md)
+- [**Is There A Quick Way To Switch Virtual Machines?**](is-there-a-quick-way-to-switch-virtual-machines.md)
 
 - [**How Do I Remove The Scroll Bars In My Lab’s Virtual Machine?**](lab-interface-faqs/how-do-i-remove-the-scroll-bars-in-my-labs-virtual-machine.md)
 
