@@ -17,7 +17,7 @@ All class activities are enabled by default. Instructors and Operations managers
 
 Simply uncheck the Enabled box to disable the activity or check it again to re-enable it. Students see the activity’s availability within 30 seconds. You can also check the Disable all activities box to disable all activities in the class.
 
-![](/tms/images/class-disable-activities.png)
+![](/tms/images/class-disable-activities1.png)
 
 Students have a Launch button for all enabled activities. Disabled activities appear slightly grayed out with a **Disabled by Instructor** message for students and the Launch button is not available.
 
