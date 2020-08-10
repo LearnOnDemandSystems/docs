@@ -44,7 +44,7 @@
 - The instructor monitoring experience has been upgraded with the following features:
     - Better screen refresh rates provide a smoother view of what is happening in the lab.
     - Works with Enhanced Session Mode.
-    - Allows instructors to see the mouse cursor of the student
+    - Allows instructors to see the mouse cursor of the student.
     - When taking control, students and instructors will see each other’s initials next to their respective cursors in real time.
 
 **LOD Improvements and Fixes**
