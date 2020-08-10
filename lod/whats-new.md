@@ -30,8 +30,8 @@
 
 **Additional API Options**
 - We have two new API commands. A parameter of id can be used to specify the lab profile.
-    - _GetLabInstructions_ 
-    - _GetLabInstructionsPackage_ 
+    - _GetLabInstructions_: allows you to update the IDL-MD instructions of a lab. 
+    - _GetLabInstructionsPackage_: allows you to download the IDL-MD instructions of a lab as a Binary.
 - We have added two parameters to the Catalog API Call.
     - _LabSeriesID_: will limit results to the Lab Series specified.
     - _organizationID_: will limit results to the Organization specified The Organization ID is the integer at the end of URL when visiting the organization page in LOD. For example, https://labondemand.com/Organization/3 , the organization ID would be 3.
