@@ -1,11 +1,11 @@
 # GetLabInstructionsPackage
 
-The **GetLabInstructionsPackage** command allows you to download the IDL-MD instructions of a lab as a Binary. 
+The **GetLabInstructionsPackage** command allows you to download the IDL-MD instructions of a lab as an archived file.
 
 ## Parameters
 |Name|Type|Required|Note|
 |--- |--- |--- |--- |
-|id|Integer (32-bit)|Yes|The ID of the lab profile that will be the source of the instructions.|
+|id|Integer (32-bit)|Yes|The ID of the lab profile that will be the source of the instructions. The profile must be owned by the organization on the API consumer.|
 
 
 ## Response
