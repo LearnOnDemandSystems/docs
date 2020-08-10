@@ -33,8 +33,8 @@
     - _GetLabInstructions_ 
     - _GetLabInstructionsPackage_ 
 - We have added two parameters to the Catalog API Call.
-- _LabSeriesID_: will limit results to the Lab Series specified.
-- _organizationID_: will limit results to the Organization specified The Organization ID is the integer at the end of URL when visiting the organization page in LOD. For example, https://labondemand.com/Organization/3 , the organization ID would be 3
+    - _LabSeriesID_: will limit results to the Lab Series specified.
+    - _organizationID_: will limit results to the Organization specified The Organization ID is the integer at the end of URL when visiting the organization page in LOD. For example, https://labondemand.com/Organization/3 , the organization ID would be 3.
 
 **Cloud Slice Geolocation**
 - Cloud Slice labs can now be geolocated to launch in the cloud region that is physically closest to the lab user. 
