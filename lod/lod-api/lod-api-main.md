@@ -53,6 +53,8 @@ All dates are in unix epoch time, which is the number of seconds that have elaps
 - [Details](lod-api-details.md) - Retrieves detailed information about a specified lab instance.
 - [GetEvaluationResponses](lod-api-get-evaluations-responses.md) - Returns evaluation data for a specific evaluation.
 - [GetEvaluationResponsesForEvent](lod-api-get-evaluations-responses-for-event.md) - Returns evaluation data for a specific event.
+- [GetLabInstructions](lod-api-get-lab-instructions.md) - Returns instructions for a specific lab.
+- [GetLabInstructionsPackage](lod-api-get-lab-instructions-package.md) - Returns the contents of the instructions for a specific lab as a file archive.
 - [GetOrCreateClass](lod-api-get-or-create-class.md) - Returns information about a class. If the class doesn’t exist, it is created.
 - [LabProfile](lod-api-lab-profile.md) - Retrieves information about a specified lab profile.
 - [LatestResults](lod-api-latest-results.md) - Returns information about all lab instance results that have recently started or ended.
