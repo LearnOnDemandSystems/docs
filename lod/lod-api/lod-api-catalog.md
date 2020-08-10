@@ -7,6 +7,8 @@ The **Catalog** command will return all lab series, lab profiles, and delivery r
 |Name|Type|Required|Note
 |--- |--- |--- |--- |
 |includeAll|int|No|This parameter can usually be ignored. When not included (or passed as any value except 1), labs that are not currently available for launch will not be included in catalog results. If you want to include all lab profiles, regardless of whether they are enabled or are developmentally complete, you can pass includeAll=1.|
+|LabSeriesID|int|No|By providing a LabSeriesID, the response will be filtered so that only lab profiles within the specified lab series will be returned.
+|OrganizationID|int|No|By providing an OrganizationID, the response will be filtered so that only lab profiles belonging to the specified organization will be returned.
 
 ## Response
 
