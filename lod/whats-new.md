@@ -9,6 +9,61 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## **Released August 7, 2020**
+
+**External Instruction Source**
+- When an error occurs between the lab profile and the external instruction source, the error message is now displayed on the lab profile details page. A note will be displayed at the top of the page to indicate that there is an error. 
+- External instruction source configuration messaging has been updated to not mention any specific external instruction sources. 
+- When configuring a lab to use external instructions, a warning will now be displayed if the repository exceeds the maximum repo size limit (500mb) or if the repo is getting close to the limit.
+
+**Search Filters and Output Options**
+- Search filters have been added for _Was Launched_ and _Was Not Launched_ to the following search pages:
+    - Find Cloud Credential Pools
+    - Find Subscription Pools
+    - Find Organizations
+    - Find Lab Series
+    - Find Lab Profiles
+- A new output option has been added to the Find Lab Profiles search page. 
+    - number (#) networks is now available as a filter and output option.
+- A new output option has been added to the Find Organizations search page. 
+    - _Parent_ is now available as an output option.
+
+**Additional API Options**
+- We have two new API commands. A parameter of id can be used to specify the lab profile.
+    - _GetLabInstructions_: returns the IDL-MD instructions of a lab profile as a string. 
+    - _GetLabInstructionsPackage_: allows you to download the IDL-MD instructions of a lab as a binary file.
+- We have added two parameters to the Catalog API Call.
+    - _LabSeriesID_: will limit results to the Lab Series specified.
+    - _organizationID_: will limit results to the Organization specified The Organization ID is the integer at the end of URL when visiting the organization page in LOD. For example, https://labondemand.com/Organization/3 , the organization ID would be 3.
+
+**Cloud Slice Geolocation**
+- Cloud Slice labs can now be geolocated to launch in the cloud region that is physically closest to the lab user. 
+- In addition to IPv4 geolocation services, LOD can now process IPv6 IP addresses during the lab launch process. 
+ 
+**Upgraded Instructor Monitoring for Hyper-V Labs** 
+- The instructor monitoring experience has been upgraded with the following features:
+    - Better screen refresh rates provide a smoother view of what is happening in the lab.
+    - Works with Enhanced Session Mode.
+    - Allows instructors to see the mouse cursor of the student.
+    - When taking control, students and instructors will see each other’s initials next to their respective cursors in real time.
+
+**LOD Improvements and Fixes**
+- The _My Labs_ link in LOD has been replaced with _Dashboard_. When logging into Lab on Demand, lab developers will be directed to Dashboard instead of the Admin page.
+- Cloud Resource Templates no longer display the description in the Resources tab of the lab client for Cloud Slice labs. 
+- The sort order of resources configured on the Advanced tab of a lab profile are now reflected in the lab client. Subsequent changes to the sort order are reflected in the lab after the lab has been reloaded.
+- Updated vSphere Activity Based Assessment logic to be more resilient when scoring.
+- LTI 1.3 can now provide a status of complete/incomplete for labs that do not have any scoring. 
+- Updated localization on virtualization set up screen to localize all text displayed.  
+- Class monitor pages now default the layout to display lab instances in small tiles, instead of a list view.
+- Updated logic when detecting windows for cloud slice split view results in greater accuracy when determining whether an interstitial page should be shown.
+- Added the ability to remove an expiration date on a cloud subscription in a Subscription Pool. 
+- Fixed a bug that caused an application error when a lab tag is deleted while a lab profile that uses the lab tag is being saved.
+- Fixed an issue that caused an application error when viewing a lab instance details page, from a lab profile where the cloud tab was edited while there were active lab instances. 
+- Fixed an issue that prevented saving some child labs that use a CSS subscription pool.
+- Fixed a bug that hid the _Allow Setting Expiration Time_ drop-down menu when creating new lab profiles.
+- Fixed a bug that prevented lab developers from adding VM profiles to a lab profile when the number of vCPUs did not exceed the limit.
+- Fixed a bug that resulted in some extraneous text displayed next to the Force Check In link in the instruction editor.
+
 ## **Released July 10, 2020**
 
 **Multi-fabric Sequencing**
