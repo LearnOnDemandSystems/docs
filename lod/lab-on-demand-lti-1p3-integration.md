@@ -14,6 +14,7 @@ The Tool will be responsible for supplying the following.
 - **LTI 1.3 Login / Connect Url** - this URL is used for initially authenticate between the Tool and Platform.
 - **LTI Redirect URL / Launch URL** - this URL serves two purposes. It is used to validate the information passed between the provider and consumer. It also serves as the target URL or launch URL for the labs. You may need to enter this twice into two separate fields depending on the Platform you are using.
 - **JWKS URL / PEM Public Key** - Lab On Demand supports LTI 1.3 authentication by issuing either a JWKS or PEM formatted public key. Please let us know which Platform you are using if you are unsure which authentication method to request.
+- **LTI 1.3 DeepLink Url** - Used as the target link for Deep Link Launches. (Must be supported by the LMS)
 
 Once the above information is entered into a Platform, the following information will be returned by the Platform and should be shared with Lab On Demand admin.
 
