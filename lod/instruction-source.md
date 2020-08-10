@@ -55,6 +55,8 @@ These include:
 
  - The overall size of the repository cannot exceed 500MB.
 
+ - Keep your repository as small as possible. Large repositories can possibly present problems. For example, if your repo is approaching the size limit and then multiple commits are made very quickly, some of the commits may not be displayed in the lab instructions.
+
  - We highly recommend using repositories dedicated to your lab content and not mixing other content within these repositories.
     
 - You are able to host content for multiple lab profiles within the same repository, but keep in mind you could eventually need to break this up into multiple repositories if the lab content exceeds the maximum file size per repo. A good rule of thumb would be one repository per course or lab series. 
@@ -72,6 +74,8 @@ Your repository will need a markdown (.md) file that defines the lab content in 
 > [!KNOWLEDGE] Any images that are used in the instructions need to be at the same level in the repository as the .md file, or in a folder that is at the same level as the .md file. If your images are not structured like this, they will not display correctly in labs. 
 
 When you configure a lab profile to use an external instruction source, you will be directed to an external login page, where you will be asked to allow Lab On Demand permission to access your repositories. Lab On Demand will need access to your email address for push notifications, repository access, and admin permissions to modify web hooks.
+
+> [!Alert] The overall size of the repository cannot exceed 500MB. Once the repo reaches the file size limit, the lab profile will stop syncing with the repository until the repository size is below the file size limit. 
 
 ## Azure DevOps
 
