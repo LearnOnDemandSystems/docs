@@ -10,21 +10,22 @@ The **LatestResults** command returns information about all lab instance results
 
 ## Response
 
-|Name|Type|Required|Note|
+|Name|Type|Nullable|Note|
 |--- |--- |--- |--- |
 |Results|Array of LabResult|No|See LabResult type below|
+|Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
 ## LabResult
 |Name|Type|Required|Note|
 |--- |--- |--- |--- |
 |LabInstanceId|Integer (64-bit)|No|The unique identifier of the lab instance|
-|LabProfileId|Int|No|The unique identifier of the lab profile the lab instance is based on|
+|LabProfileId|Integer|No|The unique identifier of the lab profile the lab instance is based on|
 |Start|Integer (64-bit)|No|When the lab was started (in Unix epoch time)|
 |End|Integer (64-bit)|Yes|When the lab ended (in Unix epoch time)|
 |LastActivity|Integer (64-bit)|Yes|The last time the student interacted with the lab (in Unix epoch time)|
 |UserId|String|Yes|The unique identifier of the user, as represented in your system|
 |ClassId|String|Yes|The unique identifier of the class the lab is related to, as represented in your system|
-|CompletionStatus|Int|No|1 = Cancelled
+|CompletionStatus|Integer|No|1 = Cancelled
 ||||2 = No Show
 ||||3 = Incomplete
 ||||4 = Complete
@@ -34,8 +35,8 @@ The **LatestResults** command returns information about all lab instance results
 ||||40 = Save Failed
 ||||50 = Submitted For Grading
 ||||60 = Grading In Progress|
-|TotalRunTimeSeconds|Int|No|The total number of seconds the lab was running, whether or not the student was present.|
-|TaskCompletePercent|Int|No|If the lab has integrated tasks, the percentage of tasks that the user has completed.|
+|TotalRunTimeSeconds|Integer|No|The total number of seconds the lab was running, whether or not the student was present.|
+|TaskCompletePercent|Integer|No|If the lab has integrated tasks, the percentage of tasks that the user has completed.|
 |IsExam|Bool|No|Indicates whether the lab is scored as an exam|
 |ExamPassed|Bool|Yes|Indicates whether the user passed the exam. Will only be set if the lab is an exam (IsExam = true) and the exam has been scored.|
 |ExamScore|Integer|Yes|Indicates the exam score. Will only be set if the lab is an exam (IsExam = true) and the exam has been scored.|

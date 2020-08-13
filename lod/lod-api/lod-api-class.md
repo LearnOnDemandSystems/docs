@@ -10,7 +10,7 @@ The **Class** command returns information about a class.
 
 ## Response
 
-|Name|Type|Required|Note
+|Name|Type|Nullable|Note
 |--- |--- |--- |--- |
 |Id|String|No|The unique identifier of the class, as represented in your organization|
 |Name|String|No|The name of the class|
@@ -19,9 +19,10 @@ The **Class** command returns information about a class.
 |Expires|Long|No|When labs can no longer be associated with the class (in Unix epoch time)|
 |Instructor|Instructor|Yes|The class instructor. See the Instructor Type below.|
 |Url|String|No|A URL where the class can be viewed|
+|Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
 ## Instructor
-|Name|Type|Required|Note
+|Name|Type|Nullable|Note
 |--- |--- |--- |--- |
 |Id|String|No|The unique identifier of the instructor, as represented in your external system|
 |FirstName|String|No|The instructor's first name|

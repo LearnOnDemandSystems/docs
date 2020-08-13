@@ -16,9 +16,10 @@ The **UpdateClass** command updates a specified class.
 
 ## Response
 
-|Name|Type|Required|Note|
+|Name|Type|Nullable|Note|
 |--- |--- |--- |--- |
 |Success|Boolean|No|
+|Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
 ## Example Usage
 Imagine… An existing class must be updated with the following data:

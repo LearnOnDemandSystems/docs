@@ -13,6 +13,7 @@ The **ReplacementTokens** command retrieves all @lab replacement tokens availabl
 |Property|Type|Nullable|Note
 |--- |--- |--- |--- |
 |ReplacementTokens|Array of ReplacementToken|No|See the ReplacementToken Type below|
+|Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
 ## ReplacementToken
 

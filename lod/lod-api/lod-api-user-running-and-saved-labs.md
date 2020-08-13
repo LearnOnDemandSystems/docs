@@ -9,13 +9,14 @@ The **UserRunningAndSavedLabs** command retrieves all labs that are currently ru
 |userId|String|Yes|The unique identifier used to identify the user in within your organization|
 
 ## Response
-|Name|Type|Required|Note|
+|Name|Type|Nullable|Note|
 |--- |--- |--- |--- |
 |RunningLabs|Array of RunningLab|No|See the RunningLab Type below|
 |SavedLabs|Array of SavedLab|No|See the SavedLab Type below|
+|Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
 ## RunningLab
-|Name|Type|Required|Note|
+|Name|Type|Nullable|Note|
 |--- |--- |--- |--- |
 |LabInstanceId|Long|No|The unique identifier of the lab instance|
 |LabProfileId|Int|No|The unique identifier of the lab profile the lab instance is based on|
@@ -28,13 +29,13 @@ The **UserRunningAndSavedLabs** command retrieves all labs that are currently ru
 
 ## SavedLab
 
-|Name|Type|Required|Note|
+|Name|Type|Nullable|Note|
 |--- |--- |--- |--- |
 |LabInstanceId|Long|No|The unique identifier of the lab instance|
-|LabProfileId|Int|No|The unique identifier of the lab profile the lab instance is based on|
+|LabProfileId|Integer|No|The unique identifier of the lab profile the lab instance is based on|
 |LabProfileName|String|No|The name of the lab profile the lab instance is based on|
 |LabProfileNumber|String|No|The number/code of the lab profile the lab instance is based on|
-|MinutesRemaining|Int|No|The number of minutes remaining for the student to complete the lab (when resumed)|
+|MinutesRemaining|Integer|No|The number of minutes remaining for the student to complete the lab (when resumed)|
 |Saved|Long|No|When the lab was saved (in Unix epoch time)|
 |Expires|Long|No|When the saved lab will expire (in Unix epoch time). The student must resume the lab for this date, or the lab will be deleted.|
 |SaveInProgress|Boolean|No|True/false indicating whether the lab is currently in the process of being saved|

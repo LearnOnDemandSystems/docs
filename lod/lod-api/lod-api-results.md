@@ -11,13 +11,14 @@ The **Results** command returns information about all lab instance results that 
 
 ## Response
 
-|Name|Type|Required|Note|
+|Name|Type|Nullable|Note|
 |--- |--- |--- |--- |
 |Results|Array of LabResult|No|See LabResult type below|
+|Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
 ## LabResult
 
-|Name|Type|Required|Note|
+|Name|Type|Nullable|Note|
 |--- |--- |--- |--- |
 |LabInstanceId|Integer (64-bit)|No|The unique identifier of the lab instance|
 |LabProfileId|Int|No|The unique identifier of the lab profile the lab instance is based on|

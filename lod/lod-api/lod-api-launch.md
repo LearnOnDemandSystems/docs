@@ -10,7 +10,7 @@ The **Launch** command will launch a specified lab for a specified user.
 |userId|String|Yes|The ID you use to identify the user in your external system.|
 |firstName|String|Yes|The user’s first name|
 |lastName|String|Yes|The user’s last name|
-|email|String|Yes|The user’s email address|
+|email|String|No|The user’s email address|
 |classId|String|No|An optional parameter used to associate the lab with a class (see [GetOrCreateClass](lod-api-get-or-create-class.md). This is the unique identifier of the class as it is represented in your organization.|
 |canBeMarkedComplete|Integer|No|An optional parameter used to specify if the lab can be marked as complete by the student. 1 = true, 2 = false. If not specified, defaults to 1 (true).|
 |tag|String|No|An optional parameter that can be used for tagging the lab instance with your own custom data.|
@@ -18,6 +18,7 @@ The **Launch** command will launch a specified lab for a specified user.
 |regionId|Integer|No|When specified, Lab on Demand will attempt to launch the lab in the specified delivery region. Delivery regions can be found using the [DeliveryRegions command](lod-api-delivery-regions.md) or [Catalog command](lod-api-catalog.md).|
 |roleId|Integer|No|Allows you specify the role(s) to assign to the user. You may pass multiple instances of this parameter to specify multiple roles. Roles are used for specialized integration purposes and are not needed in typical integration scenarios. Role IDs will be provided by Learn on Demand Systems when appropriate.|
 |variable-*name*|string|No|Allows you to set the values of named variables used within the lab instance.|
+|maxSavedLabs|Integer|No|The max number of labs an individual user may save is capped by the number configured on your API consumer.|
 |maxActiveLabs|Integer|No|The max number of concurrent lab instances is capped by the number configured on your API consumer.|
 |lang|string|No|Allows you to override the lab client UI language. Please note this only affects the lab client UI elements such as menus, tabs, and dialogs. The lab instructions and content are not affected.|
 | | | | en = English |
@@ -50,6 +51,11 @@ The **Launch** command will launch a specified lab for a specified user.
 ||  |  | 90 = Too many labs within the specified class are currently active for another lab to be launched.
 ||  |  | 100 = User has launched the maximum number of instances of this lab profile.
 ||  |  | 110 = This lab is not currently available for launch via API. It is awaiting security review.
+||  |  | 120 = Lab instance is not in the correct state to perform the requested action.
+||  |  | 130 = This lab is not currently available for launch via API. It is awaiting security review.
+||  |  | 140 = The request is invalid or contains invalid parameters.
+||  |  | 150 = The participant lab instance cannot be launched because the shared class environment is not currently available.
+||  |  | 160 = The lab cannot be launched because the user is required to provide additional information.
 |Url|String|False|A URL where the lab can be viewed by the user|
 |LabInstanceId|Long|False|The Id assigned to the new lab instance|
 |Expires|Long|False|When the lab will expire (in Unix epoch time)|

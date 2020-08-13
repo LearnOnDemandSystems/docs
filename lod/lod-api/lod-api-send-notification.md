@@ -14,11 +14,11 @@ The **SendNotification** command allows you to send a notification to a specifie
 
 ## Response
 
-|Name|Type|Required|Note
+|Name|Type|Nullable|Note
 |--- |--- |--- |--- |
 |name|String|No|An optional name for the notification. If you name the notification, subsequent SendNotification commands using the same labInstanceId and name will cause the existing notification to be updated. It is also possible to delete a named notification by sending the name along with no notification value.|
 |Id|Integer (64-bit)|No|The unique identifier of the notification|
-|Result|Int|False|0 = Error
+|Result|Integer|False|0 = Error
 ||||1 = Success|
 |Error|String|False|In the event of an error, this will contain a detailed error message.|
 
