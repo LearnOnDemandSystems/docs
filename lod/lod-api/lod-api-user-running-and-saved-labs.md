@@ -19,7 +19,7 @@ The **UserRunningAndSavedLabs** command retrieves all labs that are currently ru
 |Name|Type|Nullable|Note|
 |--- |--- |--- |--- |
 |LabInstanceId|Long|No|The unique identifier of the lab instance|
-|LaProfileId|Integer|No|The unique identifier of the lab profile the lab instance is based on|
+|LabProfileId|Integer|No|The unique identifier of the lab profile the lab instance is based on|
 |LabProfileName|String|No|The name of the lab profile the lab instance is based on|
 |LabProfileNumber|String|No|The number/code of the lab profile the lab instance is based on|
 |Start|Long|No|When the lab instance was started (in Unix epoch time)|
