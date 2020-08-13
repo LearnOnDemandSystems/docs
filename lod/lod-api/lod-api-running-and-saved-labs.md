@@ -12,6 +12,7 @@ none
 |--- |--- |--- |--- |
 |RunningLabs|Array of LabInstance|No|See the LabInstance Type below|
 |SavedLabs|Array of LabInstance|No|See the LabInstance Type below|
+|Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
 ## LabInstance
 

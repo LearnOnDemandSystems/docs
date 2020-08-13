@@ -6,13 +6,14 @@ The **DeleteClass** command deletes a specified class.
 
 |Name|Type|Required|Note|
 |--- |--- |--- |--- |
-|id|string|Yes|The unique identifier of the class, as represented in your organization|
+|id|String|Yes|The unique identifier of the class, as represented in your organization|
 
 ## Response
 
-|Name|Type|Required|Note|
+|Name|Type|Nullable|Note|
 |--- |--- |--- |--- |
 |Success|Boolean|No|
+|Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
 ## Example Usage
 

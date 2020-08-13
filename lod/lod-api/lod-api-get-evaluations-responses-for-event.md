@@ -10,13 +10,13 @@ The **GetEvaluationResponsesForEvent** command returns evaluation responses for 
 
 ## Response
 
-|Name|Type|Required|Note|
+|Name|Type|Nullable|Note|
 |--- |--- |--- |--- |
 |Responses|Array of EvaluationAnswerResponse|No|See the EvaluationAnswerResponse Type below|
 
 ## EvaluationAnswerResponse
 
-|Name|Type|Required|Note|
+|Name|Type|Nullable|Note|
 |--- |--- |--- |--- |
 |Number|String|No|The lab number.|
 |Name|String|No|The lab name.|

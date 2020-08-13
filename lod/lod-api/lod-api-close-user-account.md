@@ -10,12 +10,12 @@ The **CloseUserAccount** command closes a user account and removes all user info
 
 ## Response
 
-|Name|Type|Required|Note|
+|Name|Type|Nullable|Note|
 |--- |--- |--- |--- |
 |Status|Integer|No|Indicates the status of the API request
 ||||0 = Error
 ||||1 = Success|
-|Error|String|Yes|Error details. This will only have a value if an error was encountered. The status property will also be set to Error (0).|
+|Error|String|Yes|In the event of an error, this will contain a detailed error message. The status property will also be set to Error (0).|
 |RowsAffected|int|No|The number of database rows affected while removing all user data for the account.|
 
 ## Example Usage

@@ -9,15 +9,15 @@ The **Result** command returns information about a particular lab instance resul
 |labInstanceId|Long|Yes|The ID of the lab instance|
 
 ## Response
-|Name|Type|Required|Note
+|Name|Type|Nullable|Note
 |--- |--- |--- |--- |
-|LabProfileId|Int|No|The unique identifier of the lab profile the lab is based on|
+|LabProfileId|Integer|No|The unique identifier of the lab profile the lab is based on|
 |Start|Long|No|When the lab instance was started (in Unix epoch time)|
 |End|Long|Yes|When the lab instance was ended (in Unix epoch time)|
 |LastActivity|Long|Yes|The last time the student interacted with the lab (in Unix epoch time)|
 |UserId|String|Yes|The user ID as represented in your organization|
 |ClassId|String|Yes|The class ID as represented in your organization|
-|CompletionStatus|Int|No|1 = Cancelled
+|CompletionStatus|Integer|No|1 = Cancelled
 ||||2 = No Show
 ||||3 = Incomplete
 ||||4 = Complete
@@ -27,8 +27,8 @@ The **Result** command returns information about a particular lab instance resul
 ||||40 = Save Failed
 ||||50 = Submitted For Grading
 ||||60 = Grading In Progress|
-|TotalRunTimeSeconds|Int|No|The total number of seconds the lab was running, whether or not the student was present.|
-|TaskCompletePercent|Int|No|If the lab has integrated tasks, the percentage of tasks that the user has completed.|
+|TotalRunTimeSeconds|Integer|No|The total number of seconds the lab was running, whether or not the student was present.|
+|TaskCompletePercent|Integer|No|If the lab has integrated tasks, the percentage of tasks that the user has completed.|
 |IsExam|Bool|No|Indicates whether the lab is scored as an exam|
 |ExamPassed|Bool|Yes|Indicates whether the user passed the exam. Will only be set if the lab is an exam (IsExam = true) and the exam has been scored.|
 |ExamScore|Integer|Yes|Indicates the exam score. Will only be set if the lab is an exam (IsExam = true) and the exam has been scored.|
@@ -44,10 +44,11 @@ The **Result** command returns information about a particular lab instance resul
 |DatacenterId|Integer|Yes|The ID of the datacetner that the lab instance is located in.|
 |DeliveryRegionId|Integer|Yes|The ID of the delivery region that the lab instance is located in.|
 |ExamDetails|Array of ExamReportDetails|No|An array of exam details containing exam questions, answers, and score results|
+|Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
 ## ExamReportDetails
 
-|Name|Type|Required|Note
+|Name|Type|Nullable|Note
 |--- |--- |--- |--- |
 |ExamPages|Array of ExamPages|No|Array containing exam pages with questions and possible answers.|
 |ExamAnswerResponses|Array of longs|No|Array containing AnswerIds the user selected from the answers in the exam pages.|
@@ -55,7 +56,7 @@ The **Result** command returns information about a particular lab instance resul
 
 ## ExamPage
 
-|Name|Type|Required|Note
+|Name|Type|Nullable|Note
 |--- |--- |--- |--- |
 |Id|Long|No|Id of the ExamPage.|
 |Name|String|No|Name of the Exam page displayed during the exam.|
@@ -64,7 +65,7 @@ The **Result** command returns information about a particular lab instance resul
 
 ## TextAnswerResponse
 
-|Name|Type|Required|Note
+|Name|Type|Nullable|Note
 |--- |--- |--- |--- |
 |Id|Long|No|Id of the TextAnswerResponse.|
 |ResponseText|String|No|User provided response to the corrisponding question.|
@@ -73,7 +74,7 @@ The **Result** command returns information about a particular lab instance resul
 
 ## ExamQuestion
 
-|Name|Type|Required|Note
+|Name|Type|Nullable|Note
 |--- |--- |--- |--- |
 |Id|long|No|Id of the ExamQuestion.|
 |Type|string|No|The type of question. Possible values:
@@ -91,7 +92,7 @@ The **Result** command returns information about a particular lab instance resul
 
 ## ExamAnswers
 
-|Name|Type|Required|Note
+|Name|Type|Nullable|Note
 |--- |--- |--- |--- |
 |Id|Long|No|Id of the ExamAnswer|
 |Text|String|No|Answer text displayed to the user.|

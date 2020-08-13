@@ -13,9 +13,9 @@ The **Details** command retrieves detailed information about a specified lab ins
 |Property|Type|Nullable|Note
 |---|---|---|---|
 |Id|Integer (64-bit)|No|The ID of the lab instance|
-|LabProfileId|Int|No|The ID of the lab profile|
+|LabProfileId|Integer|No|The ID of the lab profile|
 |LabProfileName|String|No|The name of the lab profile|
-|SeriesId|Int|Yes|The ID of the lab series.|
+|SeriesId|Integer|Yes|The ID of the lab series.|
 |SeriesName|String|Yes|The name of the lab series.|
 |UserId|String|No|The ID you use to identify the user in your external system.|
 |UserFirstName|String|No|The user's first name.|
@@ -57,7 +57,7 @@ The **Details** command retrieves detailed information about a specified lab ins
 ||||Hyper-V
 ||||Virtual Server
 ||||vSphere|
-|CloudPlatformId|Int|Yes|10 = Azure|
+|CloudPlatformId|Integer|Yes|10 = Azure|
 |LabHostId|Integer|No|The ID of the lab host machine.|
 |LabHostName|String|No|The name of the lab host machine.|
 |DatacenterId|Integer|No|The ID of the datacenter where the lab is located.|
@@ -73,11 +73,11 @@ The **Details** command retrieves detailed information about a specified lab ins
 ||||By Administrator
 ||||Automatic
 ||||From API Consumer|
-|TotalRunTime|Int|No|The total number of seconds the lab was running, whether or not the student was present.|
-|TimeInSession|Int|No|The total number of seconds the user spent in the lab.|
-|TimeRemaining|Int|No|The total number of seconds remaining before the lab expires.|
+|TotalRunTime|Integer|No|The total number of seconds the lab was running, whether or not the student was present.|
+|TimeInSession|Integer|No|The total number of seconds the user spent in the lab.|
+|TimeRemaining|Integer|No|The total number of seconds remaining before the lab expires.|
 |InstructorName|String|Yes|The name of the instructor for the associated class.|
-|StartupDuration|Int|Yes|The number of seconds it took the lab to start.|
+|StartupDuration|Integer|Yes|The number of seconds it took the lab to start.|
 |HasContent|Boolean|No|Indicates whethere the lab has content, or simply houses virtual machines.|
 |IsExam|Bool|No|Indicates whether the lab is scored as an exam|
 |ExamPassed|Bool|Yes|Indicates whether the user passed the exam. Will only be set if the lab is an exam (IsExam = true) and the exam has been scored.|
@@ -89,9 +89,9 @@ The **Details** command retrieves detailed information about a specified lab ins
 |ExamScoredTime|Long (Unix epoch time)|Yes|When the exam was scored (in Unix epoch time). Will only be set if the lab is an exam (IsExam = true) and the exam has been scored.|
 |Task|String|Yes|If the lab has content (HasContent=true), indicates the name of the task the student is working on.|
 |Exercise|String|Yes|If the lab has content (HasContent=true), indicates the name of the exercise the student is working on.|
-|NumTasks|Int|No|If the lab has content (HasContent=true), indicates the total number of tasks in the lab.|
-|NumCompletedTasks|Int|No|If the lab has content (HasContent=true), indicates the number of tasks the student has completed.|
-|TaskCompletePercent|Int|No|If the lab has content (HasContent=true), indicates the percentage of tasks that the student has completed.|
+|NumTasks|Integer|No|If the lab has content (HasContent=true), indicates the total number of tasks in the lab.|
+|NumCompletedTasks|Integer|No|If the lab has content (HasContent=true), indicates the number of tasks the student has completed.|
+|TaskCompletePercent|Integer|No|If the lab has content (HasContent=true), indicates the percentage of tasks that the student has completed.|
 |MonitorUrl|String|Yes|If the lab is currently running, a URL at which the lab can be monitored in real time.|
 |Errors|Array of String|No|An array of all errors associated with the lab instance.|
 |IpAddress|String|Yes|The user's IP address. This is only included if the IP address was provided when the lab was launched.|
@@ -104,6 +104,7 @@ The **Details** command retrieves detailed information about a specified lab ins
 |Sessions|Array of LabInstanceSession|No|An array of session times the student spent in the lab. See the LabInstanceSnapshot Type below.|
 |PublicIpAddresses|Array of IpAddressInfo|No|An array of public IP address information objects. See the IpAddressInfo Type below.|
 |CloudCredentials|Array of CloudCredentials|No|An array of credentials assigned to the lab instance. See the CloudCredentials Type below.|
+|Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
 ## LabInstanceSnapshot
 

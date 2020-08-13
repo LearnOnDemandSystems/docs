@@ -11,7 +11,7 @@ The **Save** command allows you to save a specified lab instance.
 ## Response 
 |Property|Type|Nullable|Note|
 |--- |--- |--- |--- |
-|Result|Int|No|0 = Unknown Error
+|Result|Integer|No|0 = Unknown Error
 ||||1 = Success
 ||||2 = Invalid State|
 |Expires|Long|No|When the saved lab will expire (in Unix epoch time)|

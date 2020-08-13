@@ -10,8 +10,8 @@ non
 
 |Property|Type|Nullable|Note|
 |--- |--- |--- |--- |
-|NumActive|Int|False|The number of currently active labs (starting, running, tearing down, saving, resuming, etc)|
-|NumSaved|Int|False|The number of currently saved labs|
+|NumActive|Integer|False|The number of currently active labs (starting, running, tearing down, saving, resuming, etc)|
+|NumSaved|Integer|False|The number of currently saved labs|
 
 ## Example Usage
 

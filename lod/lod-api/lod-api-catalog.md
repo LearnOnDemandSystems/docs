@@ -6,34 +6,35 @@ The **Catalog** command will return all lab series, lab profiles, and delivery r
 
 |Name|Type|Required|Note
 |--- |--- |--- |--- |
-|includeAll|int|No|This parameter can usually be ignored. When not included (or passed as any value except 1), labs that are not currently available for launch will not be included in catalog results. If you want to include all lab profiles, regardless of whether they are enabled or are developmentally complete, you can pass includeAll=1.|
-|LabSeriesID|int|No|By providing a LabSeriesID, the response will be filtered so that only lab profiles within the specified lab series will be returned.
-|OrganizationID|int|No|By providing an OrganizationID, the response will be filtered so that only lab profiles belonging to the specified organization will be returned.
+|includeAll|Integer|No|This parameter can usually be ignored. When not included (or passed as any value except 1), labs that are not currently available for launch will not be included in catalog results. If you want to include all lab profiles, regardless of whether they are enabled or are developmentally complete, you can pass includeAll=1.|
+|LabSeriesID|Integer|No|By providing a LabSeriesID, the response will be filtered so that only lab profiles within the specified lab series will be returned.
+|OrganizationID|Integer|No|By providing an OrganizationID, the response will be filtered so that only lab profiles belonging to the specified organization will be returned.
 
 ## Response
 
-|Name|Type|Required|Note
+|Name|Type|Nullable|Note
 |--- |--- |--- |--- |
 |LabSeries|Array of Lab Series|No|See the LabSeries Type below|
 |LabProfiles|Array of Lab Profile|No|See the LabProfile Type below|
 |DeliveryRegions|Array of DeliveryRegion|No|See the DeliveryRegion Type below|
+|Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
 ## LabSeries
 
-|Name|Type|Required|Note
+|Name|Type|Nullable|Note
 |--- |--- |--- |--- |
-|Id|Int|No|The unique identifier of the lab series|
+|Id|Integer|No|The unique identifier of the lab series|
 |Name|String|No|The name of the lab series|
 |Description|String|Yes|A brief description of the lab series|
-|NumTrainingDays|Int|No|The number of training days expected to complete the series|
+|NumTrainingDays|Integer|No|The number of training days expected to complete the series|
 
 ## LabProfile
 
-|Name|Type|Required|Note
+|Name|Type|Nullable|Note
 |--- |--- |--- |--- |
-|Id|Int|No|The unique identifier of the lab profile|
+|Id|Integer|No|The unique identifier of the lab profile|
 |Name|String|No|The name of the lab profile|
-|Number|String|Yes|The lab number (usually to identify a lab within a series, e.g. Module 1, Module 2, etc.)|
+|Number|String|No|The lab number (usually to identify a lab within a series, e.g. Module 1, Module 2, etc.)|
 |PlatformId|Integer|No|The virtualization platform the lab is run on.|
 ||||-1 = None|
 ||||2 = Hyper-V|
@@ -41,27 +42,27 @@ The **Catalog** command will return all lab series, lab profiles, and delivery r
 ||||10 = Azure|
 ||||11 = AWS|
 ||||20 = Docker|
-|CloudPlatformId|Int|Yes|The cloud platform the lab is run on.
+|CloudPlatformId|Integer|Yes|The cloud platform the lab is run on.
 ||||null = None|
 ||||10 = Azure|
 ||||11 = AWS|
 |Enabled|Boolean|No|Whether the lab is currently enabled for launch.|
 |ReasonDisabled|String|Yes|The reason the lab is disabled. Only supplied when the lab is not enabled.|
-|DevelopmentStatusId|Int|No|Indicates the development status of the lab. In general, a lab not marked as Complete should not be launched (though it can be).
+|DevelopmentStatusId|Integer|No|Indicates the development status of the lab. In general, a lab not marked as Complete should not be launched (though it can be).
 ||||1 = In Development
 ||||5 = AwaitingVerification
 ||||7 = InVerification
 ||||8 = VerificationFailed
 ||||10 = Complete|
 |Description|String|Yes|A brief description of the lab profile|
-|SeriesId|Int|Yes|The unique identifier of the series the lab profile belongs to|
+|SeriesId|Integer|Yes|The unique identifier of the series the lab profile belongs to|
 |Objective|String|Yes|Text describing the objective of the lab|
 |Scenario|String|Yes|Text describing the scenario of the lab|
-|ExpectedDurationMinutes|Int|No|The expected number of minutes a user will take to complete the lab|
-|DurationMinutes|Int|No|The maximum number of minutes a lab instance is allowed to run before it expires|
-|RAM|Int|No|The amount of RAM in MB used by the lab|
+|ExpectedDurationMinutes|Integer|No|The expected number of minutes a user will take to complete the lab|
+|DurationMinutes|Integer|No|The maximum number of minutes a lab instance is allowed to run before it expires|
+|RAM|Integer|No|The amount of RAM in MB used by the lab|
 |HasIntegratedContent|Bool|No|Indicates whether the lab has integrated digital lab (IDL) content|
-|ContentVersion|Int|No|Indicates the content version (only applicable if HasIntegratedContent = true)|
+|ContentVersion|Integer|No|Indicates the content version (only applicable if HasIntegratedContent = true)|
 |IsExam|Bool|No|Indicates whether the lab is scored as an exam|
 |PremiumPrice|Decimal|No|The consumption cost of the lab when premium experience features are included.|
 |BasicPrice|Decimal|No|The consumption cost of the lab when only basic experience features are included.|
@@ -75,7 +76,7 @@ The **Catalog** command will return all lab series, lab profiles, and delivery r
 
 |Name|Type|Required|Note
 |--- |--- |--- |--- |
-|Id|Int|No|The unique identifier of the delivery region|
+|Id|Integer|No|The unique identifier of the delivery region|
 |Name|String|No|The name of the delivery region|
 |Description|String|Yes|A brief description of the delivery region|
 

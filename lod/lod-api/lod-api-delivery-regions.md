@@ -11,12 +11,13 @@ none
 |Property|Type|Nullable|Note
 |--- |--- |--- |--- |
 |DeliveryRegions|Array of DeliveryRegion|No|See the DeliveryRegion Type below|
+|Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
 ## DeliveryRegion
 
 |Property|Type|Nullable|Note
 |--- |--- |--- |--- |
-|Id|Int|No|The unique identifier of the delivery region|
+|Id|Integer|No|The unique identifier of the delivery region|
 |Name|String|No|The name of the delivery region|
 |Description|String|Yes|A brief description of the delivery region|
 

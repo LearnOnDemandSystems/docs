@@ -14,13 +14,14 @@ The **GetEvaluationResponses** command returns evaluation responses.
 
 ## Response
 
-|Name|Type|Required|Note|
+|Name|Type|Nullable|Note|
 |--- |--- |--- |--- |
 |Responses|Array of EvaluationAnswerResponse|No|See the EvaluationAnswerResponse Type below|
+|Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
 ## EvaluationAnswerResponse
 
-|Name|Type|Required|Note|
+|Name|Type|Nullable|Note|
 |--- |--- |--- |--- |
 |Number|String|No|The lab number.|
 |Name|String|No|The lab name.|

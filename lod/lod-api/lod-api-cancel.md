@@ -14,7 +14,7 @@ The **Cancel** command allows you to cancel a specified lab instance.
 |--- |--- |--- |--- |
 |Result|Int|False|0 = Error
 ||||1 = Success|
-|Error|String|False|In the event of an error, this will contain a detailed error message.|
+|Error|String|True|In the event of an error, this will contain a detailed error message.|
 
 ## Example Usage
 
