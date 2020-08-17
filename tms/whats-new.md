@@ -2,6 +2,37 @@
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## Released August 17 2020
+
+### <span style="color:#0078d7;">Class Session Times</span>
+We have made the following updates to class Session Times:
+* The Session section now automatically displays the Add Multiple Session Times option and the # Sessions defaults based on the Training Days set on the course.
+* Add Multiple Session Times has been renamed to Add Session Times
+* Add Session Times has been moved to the left displaying as the first option and Add Single Session Time has moved to the right
+
+![](/tms/images/add-multiple-session-times.png)
+
+### <span style="color:#0078d7;">Enhancements and Fixes</span>
+
+Additions to API Method Results:
+* CourseSearchResult – We added Created and LastModified to the results that are returned from the SearchCourses API method.
+* SearchLabInstances – We have added LastActivityTime as a Parameter to the SearchLabInstances API Method.
+
+Other Enhancements:
+* Enrollment Retake - When a student redeems an Event Training Key, it was not being recognized as a retake within the post-class lab availability. It now recognizes the enrollment as a retake.
+* Find Classes - On the Course Profile page, clicking on Find Classes used to navigate to the Event Schedule; it now navigates to Find Classes.  Also, clicking on Class Schedule, now lands on the Event Schedule.
+
+----------------------------
+
+## Released July 30 2020
+
+### <span style="color:#0078d7;">Enhancements and Fixes</span>
+
+* Course – Activity Sections: If the first activity within a section is not “Available Instructor-Led,” all other activities within the section that are “Available Instructor-Led” will now be displayed in classes and class enrollments
+* Subscriptions - We have fixed the multiple subscription duration from defaulting to 1 year to the duration set on the subscription profile
+* Zoom - We have fixed the Zoom API to look for more than 30 users when validating licensed users
+
+Class Launch Button:  The Launch button has been changed from Launch Class to Enter Classroom prior to the class starting
 ----------------------------
 ## Released July 9 2020
 
@@ -223,51 +254,5 @@ The Class Roster now shows a column for the percentage of course activities comp
 1. Merge Users – Two user accounts cannot be merged when both students used a training key to enroll into the same class. An assistance message has been added, “We are unable to process this account merge due to multiple enrollments in the same training created by training keys. Please open a Support ticket at https://lods.one/support for assistance.”
 1. SCORM video player – SCORM videos played in the Chrome browser encountered a bug that prevented adjusting your place in a video. Players in Chrome can now be adjusted to move forward, to skip ahead, and go back within the video. Seeking in Chrome may take 3-8 seconds to load after moving to a new spot.
 1. Class profile – The URL field for the Custom Virtual Classroom class delivery method has increased its capacity from 200 to 500 characters.
-
-----------------------------
-## Released February 6 2020
-
-### <span style="color:#0078d7;">Cancelling Course Assignments</span>
-
-We want our Operations Managers to have the ability to cancel course assignments that have been created in error. Course assignments, which are used for self-paced learning, will now have a Course Assignment Status field that is set to either Active or Cancelled. The status defaults to Active when created and is billed for the month when it was created. Operations Managers can change a Course Assignment to the Cancelled status within 24 hours of its creation date/time and only if none of the course activities have been launched. 
-
-### <span style="color:#0078d7;">TMS Enhancements and Fixes</span>
-1. Achievements – We corrected an issue where Achievements that were set up to be earned multiple times were only being awarded once.
-1.  API – Our CreateClass API now passes the instructor into the TMS as the Primary Instructor, and now show in the Find Classes search results Instructor column.
-1.  Custom Fields – We have fixed an issue where user role restrictions that applied to editing Custom Fields were incorrectly limiting viewing of the fields for other user roles.
-1.  Accessibility updates – Several keyboard focus and navigation updates have been made. Keyboard focus indicator is now visible for:
-      - Search buttons on Find pages.
-      - The Sort Alphabetically button and Display Times Output Options on the Course Catalog page.
-      - The Sign In button in the How Would you Like to Sign In dialog on our Login page.
-      - The Send Instructions button on our Forgot Password Login Assistance page.
-      - Users can now use the keyboard to navigate to the Edit, Share, and Delete links in the Open and Saved search dialogs on our Find pages.
-
-----------------------------
-
-## Released January 16 2020
-
-### <span style="color:#0078d7;">Reporting Percentage Completed on Labs</span>
-
-Operations Managers and Instructors may display the percentage of work completed in a lab along with the Completion Status on the Find Lab Instances page. Completion Statuses of labs can be, Complete, Cancelled, In Progress, or Error. The percentage of lab completed shows what percent of the lab’s tasks a student completed prior to saving or cancelling, or before the lab errored out. We are awaiting an update from Lab on Demand (LOD) to report the full range of percentages, at this time they are only reporting lab percentages of 0 or 100%.
-
-### <span style="color:#0078d7;">Auto-Archive Date Blocks Class Creation</span>
-
-Class Schedulers and Operations Managers will be prevented from creating classes after a course’s auto-archive date. This is being enforced to support course life cycle planning, allowing course managers to retire courses and labs without conflicting with organizations’ scheduling and students’ lab access. 
-
-When scheduling a class directly in the TMS or through the API, if an auto-archive date is set and any class sessions fall after that date, then the class will not be created. The class import tool checks against the class start date during the upload and will not create classes that start after the auto-archive date. Classes scheduled directly in the TMS or through the API will prevent saving and show an error message, “The course associated with this class is being retired on [Date]. Content will no longer be maintained as of this date. Session dates cannot be scheduled beyond this date. Please consider changing to a newer version of the course; you must change the course or choose different date(s) to save this class.”
-
-### <span style="color:#0078d7;">Auto-Archive Date May Block Saving an Edited Class</span>
-
-For a class that was scheduled prior to setting the associated course’s auto-archive date, Class Schedulers and Operations Managers may edit the class, but will be prevented from saving it if a class session is more than 60 days after the course’s auto-archive date. We want to honor our customers’ training schedules and give you sufficient time to plan and prepare for a change of course content, while still supporting course life cycle planning allowing course managers to retire courses and labs without conflicting with organizations’ scheduling and students’ lab access. 
-
-Updating classes past the archive date through the API will fail and classes edited in the TMS will not be saved. Both will show this error message, “The course associated with this class is scheduled to be archived on [Date]. When editing an existing class, its sessions must fall within 60 days or less after the course auto-archive date. Please consider changing to a newer version of the course; you must change the course or choose different date(s) to save this class.” 
-
-### <span style="color:#0078d7;">TMS Enhancements and Fixes</span>
-	
-1. Sites – Site profile has had a check box added to turn on or off a Register with Training Key box on customers’ login pages. This functionality speeds up the process for our TMS Coordinator to create standard options for new customers. Sites that already have custom login pages will not be affected by this checkbox field.
-1.	Training Keys – Exporting Training Keys was sometimes changing some of the training key values in Excel. The export function for Training Key Pools, Class Enrollment Training Keys, Subscription Training Keys, Class Vouchers, and Event training keys has been corrected to transmit the true key values. 
-1.	Class Enrollments – Enrollments created using training keys or the API are now passed to the Customer Portal allowing them to be invoiced to customers.
-1.	Courses – When a course creator creates or edits a course adding activities and they exceed the 12-hour expected duration activity limit per day, all activities are retained, but the course is not saved. This allows the course creator to decide how to manage the course; they may increase the course duration and or change the activities.
-1.	Course Lab Activities – Some course activities can be set to allow or prevent retakes. The wording displayed for Lab Activities which are set to prevent retakes has been updated to read, “Once you have completed this activity you will not be able to retake it. Do you want to continue?” The message previously read, “Once you have launched this activity you will not be able to retake it.” However, relaunching of the activity is only prevented if the activity has been completed.
 
 ----------------------------
