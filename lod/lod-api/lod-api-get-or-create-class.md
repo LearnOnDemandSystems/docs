@@ -29,7 +29,7 @@ The **GetOrCreateClass** command returns information about a class. If the class
 |End|Long|No|When the class ends (in Unix epoch time)|
 |Expires|Long|No|When labs can no longer be associated with the class (in Unix epoch time)|
 |Instructor|Instructor|Yes|The class instructor. See the Instructor Type below.|
-|Url|String|No|A URL where the class can be viewed, including real-time monitoring of labs launched within it|
+|Url|String|No|A URL where the class can be viewed, including real-time monitoring of labs launched within it.|
 |maxActiveLabInstances|Integer|Yes|The maximum number of active lab instances than can exist concurrently within this class context.|
 |availableLabs|Integer Array|Yes|The IDs of labs available for launch within the class when using the class attendance UI directly in Lab on Demand (generally not used for class deliveries managed outside of Lab on Demand).
 
