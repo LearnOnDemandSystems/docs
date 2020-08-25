@@ -74,7 +74,7 @@ The **Catalog** command will return all lab series, lab profiles, and delivery r
 
 ## DeliveryRegion
 
-|Name|Type|Required|Note
+|Name|Type|Nullable|Note
 |--- |--- |--- |--- |
 |Id|Integer|No|The unique identifier of the delivery region|
 |Name|String|No|The name of the delivery region|
