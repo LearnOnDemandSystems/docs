@@ -6,13 +6,15 @@ isPublished: true
 
 # Lab Instance Sharing
 
-Lab Instance Sharing allows multiple users to work together in a lab profile at the same time. This may add to your efficiency as different users can simultaneously work on tasks. For example, a lab developer can email a link to another user to work on a lab (see Figure 1 for the lab developer and user relationship). When sending a link, the lab developer simply sets permissions for the user and when their access expires. The lab developer retains ownership of the lab.  
+Lab Instance Sharing allows multiple users to work together in a lab profile at the same time. This may add to your efficiency as different users can simultaneously work on tasks. For example, a lab developer can email a link to another user to work on a lab (see Figure 1 for the lab developer and user relationship). When sending a link, the lab developer simply sets permissions for the user and when their access expires. The lab developer retains ownership of the lab instance.
 
-![](/tms/images/lab-instance-sharing-process.png)
+>[!note] To share a lab profile, lab instance sharing must be enabled for the organization listed on the lab profile. This setting is not inherited by child organizations.
+
+![](/tms/images/lab-instance-sharing-process.png "The lab developer and user relationship during Lab Instance Sharing")
 
 *Figure 1: The lab developer and user relationship during Lab Instance Sharing*
 
-If you would like this feature enabled, contact our [Customer Support](http://www.learnondemandsystems.com/customer-support/) team. Please provide them with the authentication provider you want enabled for access through lab instance sharing as well as the sharing setting.  
+If you would like this feature enabled, contact our [Customer Support](http://www.learnondemandsystems.com/customer-support/) team. Please provide them with the authentication provider you want enabled for access through lab instance sharing as well as the sharing setting. 
 
 For reference, authentication options include: 
 
@@ -23,8 +25,13 @@ For reference, authentication options include:
 
 Sharing setting options include: 
 
-* **Share within organization** – You can share a link with users in your organization. Users must have launched at least one lab successfully or already have a user account in Learn on Demand (LOD). 
-* **Share with anyone** – You can send a link giving access to anyone. 
+* **Share within organization** – You can share a link with users in your organization. 
+    
+    >[!note]Users must have launched at least one lab successfully or already have a user account in Learn on Demand (LOD). 
+
+    >[!note]Users may be from related organization, either child, parent, or sibling organizations.
+
+* **Share with anyone** – You can send a link giving access to anyone.
 
 ## Sharing a Lab 
 
