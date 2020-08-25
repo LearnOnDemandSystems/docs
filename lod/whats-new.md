@@ -8,6 +8,38 @@
 
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
+## **Released August 22, 2020**
+
+## **Released August 22, 2020**
+
+**Multi-Instance Labs**
+Labs can now be configured to allow users to launch and access multiple instances of the same lab profile at any given time. Upon launching the same lab twice using a specially configured API consumer, users will be presented with the option to open an existing lab instance or create a new lab instance. From this screen, they will also be able to save and cancel previous instances of this lab.
+ 
+**Azure Virtualization**
+Several optimizations and improvements have been made for Azure virtual machines (VM). 
+- Azure hosted VM labs show a connection quality (latency) indicator in the lab client. 
+- Shadow monitoring is available for Azure hosted VMs.
+ 
+**Lab Profile Scheduled Disablement**
+Lab profiles now have an option on the Advanced tab to schedule a date and time for the lab profile to be disabled. Once it is disabled, it cannot be launched until the lab is manually enabled. 
+ 
+**External Instruction Source**
+External instruction source has been updated with performance enhancements for the following scenarios
+- When a repository is synced with multiple lab profiles. 
+- When multiple commits are made to the content file in the external repository rapidly.
+- When a repository is very large and synced with multiple lab profiles and the repository is updated rapidly.
+ 
+**LOD Improvements and Fixes**
+- When launching a lab using the Launch API call, MaxActiveLabs and MaxSavedLabs parameters will default to the maximum allowed by the API consumer when the values specified are greater than is allowed. (Out of range values were previously ignored) 
+- Get/Update Lab instructions API calls will now work with child organizations of the organization listed on the API consumer.
+- Updated Lab Manual link on the instance details page.
+- VM profiles can now properly be sorted by number of vCPU (output option)
+- ABA on demand feedback styling has been updated when displaying correct or incorrect answers. 
+- The lab client no longer produces an erroneous error on the first attempt to save a lab.
+- Short answer exact match questions will now ignore leading and trailing spaces when scoring the given answer.
+- When a lab is disabled, it no longer displays in the Deep link modal dialog. 
+- Fixed a bug that occurred when saving non-cloud labs from saving when edited by a user without cloud permissions.
+
 
 ## **Released August 7, 2020**
 
