@@ -6,7 +6,7 @@ The **ReplacementTokens** command retrieves all @lab replacement tokens availabl
 
 |Name|Type|Required|Note|
 |--- |--- |--- |--- |
-| Id | Integer (64-bit) | No | The ID of the lab instance|
+| labInstanceId | Integer (64-bit) | No | The ID of the lab instance|
 
 ## Response
 
