@@ -508,8 +508,12 @@
   <!-- Begin Arvato MarketPlace Admin categories section.. -->
     <div class="moreInfo" tabindex="0" title="Getting started?">
       <span class="moreInfo_header">Getting started?</span>
-      If you purchased Learn on Demand Systems labs through the Courseware Marketplace, read the <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started.md">Getting Started</a> article first, then review the following topics/processes to access and manage your orders.
+      If you are a first time purchaser of Learn on Demand Systems labs through the Courseware Marketplace, read the <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started.md">Getting Started</a> article first, then review the following topics/processes to access and manage your orders.
         </div> 
+    <div class="moreInfo" tabindex="0" title="Returning Customer?">
+      <span class="moreInfo_header">Meet Virtually</span>
+      If you have purchased Learn on Demand Systems labs before through the Courseware Marketplace, read the <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started-returning-customers.md">Getting Started for Returning Customers</a> article first, then review the following topics/processes to access and manage your orders.
+    </div>
     <div class="moreInfo" tabindex="0" title="Meet Virtually">
       <span class="moreInfo_header">Meet Virtually</span>
       Learn how to use your virtual meeting provider with LODS labs. You can provide access to your virtual meeting host and your LODS labs from within a class, giving your students and instructor everything they need on one page. For more information on integrating your virtual meeting host <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/integrate-virtualmeetingprovider.md">click here.</a> For informtion on creating a class that integrates a virtual meeting host <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md">click here.</a>  
