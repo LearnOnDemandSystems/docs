@@ -24,6 +24,9 @@
         <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-description.md">
         <div class="subtopic_title">What is a subscription?</div>
       </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-billing.md">
+        <div class="subtopic_title">How are subscriptions billed?</div>
+      </a>
         <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/create-subscription.md">
         <div class="subtopic_title">How to create a subscription?</div>
       </a>
