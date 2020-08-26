@@ -19,9 +19,12 @@
     <div class="subtopic_header" tabindex="0" title="Fulfilling Your Lab Order Docs" role="button" aria-selected="true" selected>Fulfilling Your Lab Order</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started.md">
-        <div class="subtopic_title">I just purchased labs from LoDS. How do I get started?</div>
+        <div class="subtopic_title">I just ordered online labs through Courseware Marketplace and am new to Learn on Demand Systems. How do I get started?</div>
       </a>
-      <a class="subtopic_link" href="/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md">
+      <a class="subtopic_link" href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started-returning-customers.md">
+        <div class="subtopic_title">I just ordered online labs through Courseware Marketplace and am returning to Learn on Demand Systems. How do I get started?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md">
         <div class="subtopic_title">How do I set up a class?</div>
       </a>
         <a class="subtopic_link" href="/tms/arvato-marketplace/fulfilling-marketplace-order/integrate-virtualmeetingprovider.md">
