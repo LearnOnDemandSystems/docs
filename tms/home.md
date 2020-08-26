@@ -511,7 +511,7 @@
       If you are a first time purchaser of Learn on Demand Systems labs through the Courseware Marketplace, read the <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started.md">Getting Started</a> article first, then review the following topics/processes to access and manage your orders.
         </div> 
     <div class="moreInfo" tabindex="0" title="Returning Customer?">
-      <span class="moreInfo_header">Meet Virtually</span>
+      <span class="moreInfo_header">Returning Customer?</span>
       If you have purchased Learn on Demand Systems labs before through the Courseware Marketplace, read the <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started-returning-customers.md">Getting Started for Returning Customers</a> article first, then review the following topics/processes to access and manage your orders.
     </div>
     <div class="moreInfo" tabindex="0" title="Meet Virtually">
