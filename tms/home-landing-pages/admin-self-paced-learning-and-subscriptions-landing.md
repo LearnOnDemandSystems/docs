@@ -28,19 +28,19 @@
         <div class="subtopic_title">How are subscriptions billed?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/create-subscription.md">
-        <div class="subtopic_title">How to create a subscription?</div>
+        <div class="subtopic_title">How do I create a subscription?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-single.md">
-        <div class="subtopic_title">How can I assign a subscription to a user?</div>
+        <div class="subtopic_title">How do I assign a subscription to a user?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-multiple.md">
-        <div class="subtopic_title">How can I assign a subscription to multiple users?</div>
+        <div class="subtopic_title">How do I assign a subscription to multiple users?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/create-learning-path.md">
-        <div class="subtopic_title">How can I create learning paths for a subscription?</div>
+        <div class="subtopic_title">How do I create learning paths for a subscription?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-filters.md">
-        <div class="subtopic_title">How can I create filters for a catalog?</div>
+        <div class="subtopic_title">How do I create filters for a catalog?</div>
       </a>
        <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/training-key-pool.md">
         <div class="subtopic_title">How can I use training key pools for self-paced learning?</div>
