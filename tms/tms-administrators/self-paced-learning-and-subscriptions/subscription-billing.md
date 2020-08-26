@@ -4,7 +4,7 @@ description: "Information on billing for subscriptions created by organizations 
 ispublished: yes
 ---
 
-# Subscription Billing
+# How are subscriptions billed?
 
 Subscriptions are billed for each course assignment created through the subscription. Each time a subscriber starts a course, a course assignment is created, this is the billable event, it does not matter if they launch any activities. Each course assignment is invoiced for the month when it is created.
 
