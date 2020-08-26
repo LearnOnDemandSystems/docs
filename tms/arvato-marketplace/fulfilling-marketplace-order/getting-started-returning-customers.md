@@ -4,7 +4,7 @@ description: "Instructions for returning purchasers of LODS labs through the Cou
 isPublished: true
 ---
 
-# I just ordered online labs through Courseware Marketplace and am new to Learn on Demand Systems. How do I get started? 
+# I just ordered online labs through Courseware Marketplace and am returning to Learn on Demand Systems. How do I get started? 
 
 As a returning partner, you should already have an organization and user account setup in Learn on Demand Systems’ OneLearn Training Management System (TMS). You do not need to create a new organization or user account. Your vouchers will automatically sync over from Courseware Marketplace and be available in the TMS. It may take up to 10 minutes for the sync to occur after purchase. 
 
