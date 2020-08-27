@@ -18,7 +18,7 @@ To get your class(es) setup, you will need to:
 
 ## Related Articles
 
-Here are other articles that will help you get started and manage your training in the TMS (click [**Home**](./home.md) to return to the main Help page):
+View our list of related articles below which will help you get started with class management in the TMS. To navigate back to the TMS Knowledge Center homepage, click the [**Home**](./home.md) icon in the upper left.
 
 - [How do I set up a class?](set-up-class.md)
 - [How do I add an instructor to a class?](add-instructor-to-class.md)
