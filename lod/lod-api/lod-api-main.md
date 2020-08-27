@@ -32,7 +32,7 @@ For example, a request to get the entire lab catalog will look like:
 
 `https://labondemand.com/api/v3/catalog`
 
-You may download a Postman Collection (2.1) of calls [here](Lab-on-Demand.postman_collection.json)
+You may download a Postman Collection (2.1) of calls [here.](Lab-on-Demand.postman_collection.json) Be sure to edit the authorization header.
 
 ## API Key
 - All methods require an API key, which must be obtained from Learn on Demand Systems. This key is used by Lab on Demand to validate your account. The key can be passed as an HTTP request header with the header name "api_key".
