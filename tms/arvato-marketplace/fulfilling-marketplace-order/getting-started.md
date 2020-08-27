@@ -10,18 +10,16 @@ You’ve come to the right place! View the Get Started information below if you 
 
 ## Next Steps
 
-To provision your hands-on labs for an upcoming class you will need to take the following steps:
-
 To get setup in the TMS and create your first class, you will need to: 
 
 1. [Create an organization and user account](https://alh.learnondemand.net/Organization/Register/2069) in the TMS by registering with your Arvato Customer Number. After registration, you will automatically be are logged into the TMS and, vouchers from Courseware Marketplace will sync to your organization in the TMS.  
-1. Sign into the TMS and view the announcement which will provides helpful next steps. 
 1. [Create class(es)](https://docs.learnondemandsystems.com/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md) with lab vouchers. A voucher is equivalent to your online lab purchase. For example, if you purchased 20 online labs through Courseware Marketplace, you will see 20 vouchers in the TMS available which you can redeem to schedule 20 students in a class. 
 1. [Create training keys](https://docs.learnondemandsystems.com/tms/arvato-marketplace/fulfilling-marketplace-order/enroll-students-in-class.md) for your students to self-register in the class. After setting up training keys, send the training keys and [self-registration instructions](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md) to your students.  
 
 ## Related Articles
 
-Here are other articles that will help you get started and manage your training in the TMS (click [**Home**](./home.md) to return to the main Help page):
+View our list of related articles below which will help you get started with class management in the TMS. To navigate back to the TMS Knowledge Center homepage, click the [**Home**](./home.md) icon in the upper left.
+
 - [How do I set up a class?](set-up-class.md)
 - [How do I add an instructor to a class?](add-instructor-to-class.md)
 - [How and when can students access labs?](../faq-for-arvato-marketplace/students-access-labs.md)
