@@ -1,0 +1,1157 @@
+{
+	"info": {
+		"_postman_id": "4374f561-b035-4a93-8996-621b522d7085",
+		"name": "Lab on Demand Postman Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Cancel",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/cancel?labinstanceid=12345678",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"cancel"
+					],
+					"query": [
+						{
+							"key": "labinstanceid",
+							"value": "12345678",
+							"description": "The ID of the lab instance to cancel"
+						}
+					]
+				},
+				"description": "The Cancel command allows you to cancel a specified lab instance.\r\n\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "Catalaog",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/catalog?includeAll=1&LabSeriesID=123456&OrganizationID=3",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"catalog"
+					],
+					"query": [
+						{
+							"key": "includeAll",
+							"value": "1",
+							"description": "This parameter can usually be ignored. When not included (or passed as any value except 1), labs that are not currently available for launch will not be included in catalog results. If you want to include all lab profiles, regardless of whether they are enabled or are developmentally complete, you can pass includeAll=1."
+						},
+						{
+							"key": "LabSeriesID",
+							"value": "123456",
+							"description": "By providing a LabSeriesID, the response will be filtered so that only lab profiles within the specified lab series will be returned."
+						},
+						{
+							"key": "OrganizationID",
+							"value": "3",
+							"description": "By providing an OrganizationID, the response will be filtered so that only lab profiles belonging to the specified organization will be returned. Typically omitted."
+						}
+					]
+				},
+				"description": "The Catalog command will return all lab series, lab profiles, and delivery regions available to your organization. Lab profiles are generally grouped into series. Depending on your organization, you may have multiple physical delivery regions available to you."
+			},
+			"response": []
+		},
+		{
+			"name": "Class",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/class/?id=1223334444",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"class",
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1223334444",
+							"description": "The unique identifier of the class, as represented in your organization."
+						}
+					]
+				},
+				"description": "The Class command returns information about a class."
+			},
+			"response": []
+		},
+		{
+			"name": "CloseUserAccount",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/CloseUserAccount/?userId=555",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"CloseUserAccount",
+						""
+					],
+					"query": [
+						{
+							"key": "userId",
+							"value": "555",
+							"description": "The ID of the user to retrieve. This is usually a unique identifier used by the calling system."
+						}
+					]
+				},
+				"description": "The CloseUserAccount command closes a user account and removes all user information using an ID. This is usually a unique identifier used by the calling system.\r\n\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteClass",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/deleteclass/?id=1223334444",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"deleteclass",
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1223334444",
+							"description": "The unique identifier of the class, as represented in your organization."
+						}
+					]
+				},
+				"description": "The DeleteClass command deletes a specified class."
+			},
+			"response": []
+		},
+		{
+			"name": "DeliveryRegions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/deliveryregions",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"deliveryregions"
+					]
+				},
+				"description": "The DeliveryRegions command will return all delivery regions available to your organization."
+			},
+			"response": []
+		},
+		{
+			"name": "Details",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/details?labinstanceid=12393049",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"details"
+					],
+					"query": [
+						{
+							"key": "labinstanceid",
+							"value": "12393049",
+							"description": "The ID of the lab instance"
+						}
+					]
+				},
+				"description": "The Details command retrieves detailed information about a specified lab instance."
+			},
+			"response": []
+		},
+		{
+			"name": "GetEvaluationResponses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/GetEvaluationResponses/?id=12345&takenAfter=1598292299&takenBefore=1598465099&classId=1223334444&eventId=24",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"GetEvaluationResponses",
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "12345",
+							"description": "The unique identifier of the evaluation."
+						},
+						{
+							"key": "takenAfter",
+							"value": "1598292299",
+							"description": "The date/time (in Unix epoch time) that the evaluation response is after."
+						},
+						{
+							"key": "takenBefore",
+							"value": "1598465099",
+							"description": "The date/time (in Unix epoch time) that the evaluation response is after."
+						},
+						{
+							"key": "classId",
+							"value": "1223334444",
+							"description": "The unique identifier of the class the evaluation was taken in."
+						},
+						{
+							"key": "eventId",
+							"value": "24",
+							"description": "The unique identifier of the event the evaluation was taken in."
+						}
+					]
+				},
+				"description": "The GetEvaluationResponses command returns evaluation responses."
+			},
+			"response": []
+		},
+		{
+			"name": "GetEvaluationResponsesForEvent",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/GetEvaluationResponsesForEvent/?id=24",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"GetEvaluationResponsesForEvent",
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "24",
+							"description": "The unique identifier of the event."
+						}
+					]
+				},
+				"description": "The GetEvaluationResponsesForEvent command returns evaluation responses for a specific event."
+			},
+			"response": []
+		},
+		{
+			"name": "GetLabInstructions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/GetLabInstructions?id=2393048",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"GetLabInstructions"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2393048",
+							"description": "The ID of the lab profile that will be the source of the instructions. The profile must be owned by the organization on the API consumer."
+						}
+					]
+				},
+				"description": "The GetLabInstructions command allows you to download the IDL-MD instructions of a lab as a string."
+			},
+			"response": []
+		},
+		{
+			"name": "GetLabInstructionsPackage",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/GetLabInstructionsPackage?id=2393048",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"GetLabInstructionsPackage"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2393048",
+							"description": "The ID of the lab profile that will be the source of the instructions. The profile must be owned by the organization on the API consumer."
+						}
+					]
+				},
+				"description": "The GetLabInstructionsPackage command allows you to download the IDL-MD instructions of a lab as an archived file.\r\n\r\nThe results can be exported as a .zip file when using Postman."
+			},
+			"response": []
+		},
+		{
+			"name": "GetOrCreateClass",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					},
+					{
+						"key": "",
+						"value": "",
+						"type": "text",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/GetOrCreateClass/?id=1223334444&name=Sample+Class&start=1333267200&end=1333299600&expires=1335978000&instructorId=65214&instructorFirstName=Demo&instructorLastName=Instructor&maxActiveLabInstances=20&AvailableLabs=17390&AvailableLabs=17432",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"GetOrCreateClass",
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1223334444",
+							"description": "The unique identifier of the class, as represented in your organization"
+						},
+						{
+							"key": "name",
+							"value": "Sample+Class",
+							"description": "The name of the class"
+						},
+						{
+							"key": "start",
+							"value": "1333267200",
+							"description": "When the class starts (in Unix epoch time)"
+						},
+						{
+							"key": "end",
+							"value": "1333299600",
+							"description": "When the class ends (in Unix epoch time"
+						},
+						{
+							"key": "expires",
+							"value": "1335978000",
+							"description": "When labs can no longer be associated with the class (in Unix epoch time)"
+						},
+						{
+							"key": "instructorId",
+							"value": "65214",
+							"description": "The ID you use to identify the class instructor in your external system."
+						},
+						{
+							"key": "instructorFirstName",
+							"value": "Demo",
+							"description": "The first name of the class instructor"
+						},
+						{
+							"key": "instructorLastName",
+							"value": "Instructor",
+							"description": "The last name of the class instructo"
+						},
+						{
+							"key": "maxActiveLabInstances",
+							"value": "20",
+							"description": "The maximum number of active lab instances than can exist concurrently within this class context. This is optional in most situations. However, it is required for classes that host shared environments. If a shared lab is launched against a class that doesn't have this value set, the launch will fail"
+						},
+						{
+							"key": "AvailableLabs",
+							"value": "17390",
+							"description": "An optional array of lab profile IDs. When provided, Lab on Demand will know that these labs are available within the class. You do not need to set this value in order to launch labs against the class. This is useful when using Lab on Demand to display a class attendance page, or when consuming shared class environments and you want the shared environment launch link to appear on the class monitor page."
+						},
+						{
+							"key": "AvailableLabs",
+							"value": "17432",
+							"description": "You can list AvailableLabs multiple times to specify multiple labs."
+						},
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				},
+				"description": "The GetOrCreateClass command returns information about a class. If the class doesn’t exist, it is created."
+			},
+			"response": []
+		},
+		{
+			"name": "Lab Profile",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/labprofile?id=77457",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"labprofile"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "77457",
+							"description": "The unique identifier of the lab profile"
+						}
+					]
+				},
+				"description": "The LabProfile command will return information about a specific lab profile."
+			},
+			"response": []
+		},
+		{
+			"name": "LatestResults",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/LatestResults/?minutes=60",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"LatestResults",
+						""
+					],
+					"query": [
+						{
+							"key": "minutes",
+							"value": "60",
+							"description": "Lab instances that have changed state within this many minutes of the current time will be included. This value cannot exceed 10,080 (7 days)"
+						}
+					]
+				},
+				"description": "The LatestResults command returns information about all lab instance results that have recently changed state."
+			},
+			"response": []
+		},
+		{
+			"name": "Launch",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/launch?labid=100&userid=555&firstname=Joe&lastname=Smith&email=joe.smith@email.com&classId=1223334444&canBeMarkedComplete=1&tag=testlaunch&ipAddress=1.1.1.1&regionId=1&roleId=1&variable-name=Chad&maxSavedLabs=2&maxActiveLabs=1&lang=en",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"launch"
+					],
+					"query": [
+						{
+							"key": "labid",
+							"value": "100",
+							"description": "The ID of the lab profile"
+						},
+						{
+							"key": "userid",
+							"value": "555",
+							"description": "The ID you use to identify the user in your external system."
+						},
+						{
+							"key": "firstname",
+							"value": "Joe",
+							"description": "The user’s first name"
+						},
+						{
+							"key": "lastname",
+							"value": "Smith",
+							"description": "The user’s last name"
+						},
+						{
+							"key": "email",
+							"value": "joe.smith@email.com",
+							"description": "The user’s email address"
+						},
+						{
+							"key": "classId",
+							"value": "1223334444",
+							"description": "An optional parameter used to associate the lab with a class (see GetOrCreateClass. This is the unique identifier of the class as it is represented in your organization"
+						},
+						{
+							"key": "canBeMarkedComplete",
+							"value": "1",
+							"description": "An optional parameter used to specify if the lab can be marked as complete by the student. 1 = true, 2 = false. If not specified, defaults to 1 (true)"
+						},
+						{
+							"key": "tag",
+							"value": "testlaunch",
+							"description": "An optional parameter that can be used for tagging the lab instance with your own custom data."
+						},
+						{
+							"key": "ipAddress",
+							"value": "1.1.1.1",
+							"description": "When specified, Lab on Demand will attempt to launch the lab in the closest available delivery region. You should provide the IP address of the user that is taking the lab, not the IP address of your system."
+						},
+						{
+							"key": "regionId",
+							"value": "1",
+							"description": "When specified, Lab on Demand will attempt to launch the lab in the specified delivery region. Delivery regions can be found using the DeliveryRegions command or Catalog command."
+						},
+						{
+							"key": "roleId",
+							"value": "1",
+							"description": "Allows you specify the role(s) to assign to the user. You may pass multiple instances of this parameter to specify multiple roles. Roles are used for specialized integration purposes and are not needed in typical integration scenarios. Role IDs will be provided by Learn on Demand Systems when appropriate."
+						},
+						{
+							"key": "variable-name",
+							"value": "Chad",
+							"description": "Allows you to set the values of named variables used within the lab instance."
+						},
+						{
+							"key": "maxSavedLabs",
+							"value": "2",
+							"description": "The max number of labs an individual user may save is capped by the number configured on your API consumer."
+						},
+						{
+							"key": "maxActiveLabs",
+							"value": "1",
+							"description": "The max number of concurrent lab instances is capped by the number configured on your API consumer.\n"
+						},
+						{
+							"key": "lang",
+							"value": "en",
+							"description": "Allows you to override the lab client UI language. Please note this only affects the lab client UI elements such as menus, tabs, and dialogs. The lab instructions and content are not affected. en, es, fr, pt, ja, zh, ka"
+						}
+					]
+				},
+				"description": "The Launch command will launch a specified lab for a specified user."
+			},
+			"response": []
+		},
+		{
+			"name": "Launch for Event",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/LaunchForEvent?labId=100&eventId=24&userid=555&firstname=Joe&lastname=Smith&email=joe.smith@email.com&classId=1223334444&canBeMarkedComplete=1&tag=eventLaunch&ipAddress=1.1.1.1&regionId=1",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"LaunchForEvent"
+					],
+					"query": [
+						{
+							"key": "labId",
+							"value": "100",
+							"description": "The ID of the lab profile\n"
+						},
+						{
+							"key": "eventId",
+							"value": "24",
+							"description": "The ID of the event the lab is part of."
+						},
+						{
+							"key": "userid",
+							"value": "555",
+							"description": "The ID you use to identify the user in your external system."
+						},
+						{
+							"key": "firstname",
+							"value": "Joe",
+							"description": "The user’s first name"
+						},
+						{
+							"key": "lastname",
+							"value": "Smith",
+							"description": "The user’s last name"
+						},
+						{
+							"key": "email",
+							"value": "joe.smith@email.com",
+							"description": "The user’s email address"
+						},
+						{
+							"key": "classId",
+							"value": "1223334444",
+							"description": "An optional parameter used to associate the lab with a class (see GetOrCreateClass). This is the unique identifier of the class as it is represented in your organization."
+						},
+						{
+							"key": "canBeMarkedComplete",
+							"value": "1",
+							"description": "An optional parameter used to specify if the lab can be marked as complete by the student. 1 = true, 2 = false. If not specified, defaults to 1 (true).\n"
+						},
+						{
+							"key": "tag",
+							"value": "eventLaunch",
+							"description": "An optional parameter that can be used for tagging the lab instance with your own custom data.\n"
+						},
+						{
+							"key": "ipAddress",
+							"value": "1.1.1.1",
+							"description": "When specified, Lab on Demand will attempt to launch the lab in the closest available delivery region. You should provide the IP address of the user that is taking the lab, not the IP address of your system."
+						},
+						{
+							"key": "regionId",
+							"value": "1",
+							"description": "When specified, Lab on Demand will attempt to launch the lab in the specified delivery region. Delivery regions can be found using the DeliveryRegions command or Catalog command."
+						}
+					]
+				},
+				"description": "The Launch command will launch a specified lab for a specified user."
+			},
+			"response": []
+		},
+		{
+			"name": "Result",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/Result/?labinstanceId=2393049",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"Result",
+						""
+					],
+					"query": [
+						{
+							"key": "labinstanceId",
+							"value": "2393049",
+							"description": "The ID of the lab instance"
+						}
+					]
+				},
+				"description": "The Result command returns information about a particular lab instance result."
+			},
+			"response": []
+		},
+		{
+			"name": "Results",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/Results/?start=1325376000&end=1357002000",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"Results",
+						""
+					],
+					"query": [
+						{
+							"key": "start",
+							"value": "1325376000",
+							"description": "The start of the timeframe to check against (in Unix epoch time)\n"
+						},
+						{
+							"key": "end",
+							"value": "1357002000",
+							"description": "The end of the timeframe to check against (in Unix epoch time)\n"
+						}
+					]
+				},
+				"description": "The Results command returns information about all lab instance results that started or ended within a specified time range. The time range cannot exceed 7 days."
+			},
+			"response": []
+		},
+		{
+			"name": "ReplacementTokens",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/replacementtokens/?labInstanceId=1286841",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"replacementtokens",
+						""
+					],
+					"query": [
+						{
+							"key": "labInstanceId",
+							"value": "1286841",
+							"description": "The ID of the lab instance"
+						}
+					]
+				},
+				"description": "The ReplacementTokens command retrieves all @lab replacement tokens available for a particular lab instance."
+			},
+			"response": []
+		},
+		{
+			"name": "Resume",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/resume?labinstanceid=2393049",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"resume"
+					],
+					"query": [
+						{
+							"key": "labinstanceid",
+							"value": "2393049",
+							"description": "The ID of the lab instance to resume."
+						}
+					]
+				},
+				"description": "The Resume command allows you to resume a specified lab instance."
+			},
+			"response": []
+		},
+		{
+			"name": "RunningAndSavedLabs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/runningandsavedlabs",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"runningandsavedlabs"
+					]
+				},
+				"description": "The RunningAndSavedLabs command retrieves all lab instances launched by this API Consumer that are currently running or saved."
+			},
+			"response": []
+		},
+		{
+			"name": "Save",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/save?labinstanceid=2393049",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"save"
+					],
+					"query": [
+						{
+							"key": "labinstanceid",
+							"value": "2393049",
+							"description": "The ID of the lab instance to save"
+						}
+					]
+				},
+				"description": "The Save command allows you to save a specified lab instance."
+			},
+			"response": []
+		},
+		{
+			"name": "Score Activities",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/scoreactivities?labinstanceid=12186142",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"scoreactivities"
+					],
+					"query": [
+						{
+							"key": "labinstanceid",
+							"value": "12186142"
+						}
+					]
+				},
+				"description": "The ScoreActivities command causes all scored activities in a particular lab instance to undergo scoring. Please note that this is API command is only necessary in specialized situations. In most cases, scoring is triggered by the student in the lab client and this command is not needed. However, if your students do not use our lab client, ScoreActivities provides a mechanism to trigger scoring."
+			},
+			"response": []
+		},
+		{
+			"name": "Send Notification",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/sendnotification?labinstanceid=2393048&notification=I'd+like+to+let+you+know&name=Hello",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"sendnotification"
+					],
+					"query": [
+						{
+							"key": "labinstanceid",
+							"value": "2393048",
+							"description": "The ID of the lab instance to send the notification to.\n"
+						},
+						{
+							"key": "notification",
+							"value": "I'd+like+to+let+you+know",
+							"description": "The text of the notification to send. Please ensure the message is properly encoded. Line breaks can be included using \\n. For notifications sent using the GET HTTP verb, the notification text is limited to 800 characters. For notifications sent using the POST HTTP verb, the notification text is limited to 4000 characters."
+						},
+						{
+							"key": "name",
+							"value": "Hello",
+							"description": "An optional name for the notification. If you name the notification, subsequent SendNotification commands using the same labInstanceId and name will cause the existing notification to be updated. It is also possible to delete a named notification by sending the name along with no notification value."
+						}
+					]
+				},
+				"description": "The SendNotification command allows you to send a notification to a specified lab instance for the user to see."
+			},
+			"response": []
+		},
+		{
+			"name": "Stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/stats",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"stats"
+					]
+				},
+				"description": "The Stats command returns statistics about how many labs are currently active and saved."
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateClass",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "",
+						"type": "text",
+						"value": "",
+						"disabled": true
+					},
+					{
+						"key": "",
+						"type": "text",
+						"value": "",
+						"disabled": true
+					}
+				],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/updateclass/?id=1223334444&name=Sample+Class&start=1333267200&end=1333299600&expires=1335978000&instructorFirstName=Demo&instructorLastName=Instructor&maxActiveLabInstances=20&AvailableLabs=17390&AvailableLabs=17432",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"updateclass",
+						""
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "1223334444",
+							"description": "The unique identifier of the class, as represented in your organization"
+						},
+						{
+							"key": "name",
+							"value": "Sample+Class",
+							"description": "The name of the class"
+						},
+						{
+							"key": "start",
+							"value": "1333267200",
+							"description": "When the class starts (in Unix epoch time)"
+						},
+						{
+							"key": "end",
+							"value": "1333299600",
+							"description": "When the class ends (in Unix epoch time"
+						},
+						{
+							"key": "expires",
+							"value": "1335978000",
+							"description": "When labs can no longer be associated with the class (in Unix epoch time)"
+						},
+						{
+							"key": "instructorFirstName",
+							"value": "Demo",
+							"description": "The first name of the class instructor"
+						},
+						{
+							"key": "instructorLastName",
+							"value": "Instructor",
+							"description": "The last name of the class instructo"
+						},
+						{
+							"key": "maxActiveLabInstances",
+							"value": "20",
+							"description": "The maximum number of active lab instances than can exist concurrently within this class context. This is optional in most situations. However, it is required for classes that host shared environments. If a shared lab is launched against a class that doesn't have this value set, the launch will fail"
+						},
+						{
+							"key": "AvailableLabs",
+							"value": "17390",
+							"description": "An optional array of lab profile IDs. When provided, Lab on Demand will know that these labs are available within the class. You do not need to set this value in order to launch labs against the class. This is useful when using Lab on Demand to display a class attendance page, or when consuming shared class environments and you want the shared environment launch link to appear on the class monitor page."
+						},
+						{
+							"key": "AvailableLabs",
+							"value": "17432",
+							"description": "You can list AvailableLabs multiple times to specify multiple labs."
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				},
+				"description": "The GetOrCreateClass command returns information about a class. If the class doesn’t exist, it is created."
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateLabInstructions",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "The UpdateLabInstructions command allows you to update the IDL-MD instructions of a lab. In order to support longer instructions lengths, this method requires an HTTP POST. The Content-Type of your post should be set to application/x-www-form-urlencoded.\r\n\r\n"
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateLabInstructionsPackage",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "File",
+							"type": "file",
+							"src": [],
+							"disabled": true
+						}
+					]
+				},
+				"url": {
+					"raw": "https://labondemand.com/api/v3/updatelabinstructionspackage?Id=2393048",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"updatelabinstructionspackage"
+					],
+					"query": [
+						{
+							"key": "Id",
+							"value": "2393048",
+							"description": "The ID of the lab profile to update."
+						}
+					]
+				},
+				"description": "The UpdateLabInstructionsPackage command allows you to update the IDL-MD instructions of a lab by uploading a ZIP archive containing the instructions and any referenced files, such as images and videos. This method requires an HTTP POST. The Content-Type of your post should be set to multipart/form-data. This is the same behavior that a browser uses to upload a file to a server. In .NET environments, the System.Net.WebClient class provides an UploadFile method that can be used. Set your content by using the body tab in postman."
+			},
+			"response": []
+		},
+		{
+			"name": "UserRunningAndSavedLabs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/userrunningandsavedlabs?userid=555",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"userrunningandsavedlabs"
+					],
+					"query": [
+						{
+							"key": "userid",
+							"value": "555",
+							"description": "The unique identifier used to identify the user in within your organization"
+						}
+					]
+				},
+				"description": "The UserRunningAndSavedLabs command retrieves all labs that are currently running or saved for a particular user account."
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "bffd030f-e3a7-48ba-b870-f60f0a38d28e",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "4a2ff8f9-d0bb-41b8-984c-fd0a890e4548",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
