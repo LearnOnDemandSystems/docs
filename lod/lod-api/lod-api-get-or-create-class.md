@@ -16,7 +16,6 @@ The **GetOrCreateClass** command returns information about a class. If the class
 |instructorLastName|String|No|The last name of the class instructor|
 |maxActiveLabInstances|Integer|No|The maximum number of active lab instances than can exist concurrently within this class context. This is optional in most situations. However, it is required for classes that host shared environments. If a shared lab is launched against a class that doesn't have this value set, the launch will fail.|
 |availableLabs|Integer Array|No|An optional array of lab profile IDs. When provided, Lab on Demand will know that these labs are available within the class. You do not need to set this value in order to launch labs against the class. This is useful when using Lab on Demand to display a class attendance page, or when consuming shared class environments and you want the shared environment launch link to appear on the class monitor page.
-|Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
 
 ## Response
