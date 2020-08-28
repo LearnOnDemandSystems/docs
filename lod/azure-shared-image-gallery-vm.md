@@ -1,4 +1,10 @@
-# Azure Shared Image Gallery Virtual Machine
+---
+title: "Azure Shared Image Gallery Virtualization"
+description: "Deploy an Azure hosted virtual machine using Azure Shared Image Gallery."
+isPublished: false
+---
+
+# Azure Shared Image Gallery Virtualization
 
 A virtual machine (VM) can be deployed in Azure and accessed from a launch lab using [Azure Shared Image Gallery](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/shared-image-galleries). The VM can be replicated to multiple regions, so that it can geolocate the lab user and launch the VM in the Azure region that is physically closest to the lab user. 
 
