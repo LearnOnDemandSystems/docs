@@ -35,7 +35,7 @@
 			"response": []
 		},
 		{
-			"name": "Catalaog",
+			"name": "Catalog",
 			"request": {
 				"method": "GET",
 				"header": [],
