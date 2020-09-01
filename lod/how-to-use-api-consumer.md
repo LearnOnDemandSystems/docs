@@ -100,7 +100,7 @@ A typical API request would look like:
 
 If you want to test your API requests before implementing them, you can do so using an API testing tool. There are many tools available for testing an API request. One of the most common tool used is Postman, and is available on Windows, macOS and Linux (x32/x64).
 
-You may download a Postman Collection (2.1) of calls [here.](Lab-on-Demand.postman_collection.json) Be sure to edit the authorization header.
+You may download a Postman Collection (2.1) of calls [here.](./lod-api/Lab-on-Demand.postman_collection.json) Be sure to edit the authorization header.
 
 In this guide, we will walk through the steps to use the _Launch_ APi request, to launch a specified lab for a specified user.
 
