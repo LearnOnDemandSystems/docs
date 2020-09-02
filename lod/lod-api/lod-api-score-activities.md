@@ -8,7 +8,7 @@ This command does not return scoring results. To obtain scoring results, use the
 
 |Name|Type|Required|Note|
 |--- |--- |--- |--- |
-| Id | Integer (64-bit) | No | The ID of the lab instance|
+| labinstanceId | Integer (64-bit) | No | The ID of the lab instance|
 
 ## Response
 
