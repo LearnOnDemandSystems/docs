@@ -33,7 +33,7 @@ ABA Activity Groups allow question and automated activities to be grouped togeth
 - Upgraded to Httpclientfactory library when launching labs and accessing deep links.
 
 **LOD Improvements and Fixes**
-- Whites-pace is trimmed when configuring credentials for Cloud Subscriptions and Cloud Subscription Pools.
+- Whitespace is trimmed when configuring credentials for Cloud Subscriptions and Cloud Subscription Pools.
 - Cloud fabric VMs will automatically target a resource group when added to a lab profile.
 - Storage fields removed from subscription page when not applicable.
 - Removed erroneous label on "Choose File" dialog when adding resources.
