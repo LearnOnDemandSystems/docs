@@ -8,7 +8,41 @@
 
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
-## **Released August 22, 2020**
+## **Released September 3, 2020**
+
+**Activity Based Assessments(ABA) Activity Groups**
+
+ABA Activity Groups allow question and automated activities to be grouped together so that they may be managed as one unit. Some of the benefits of this approach include:
+- Activities can easily be sorted into groups and the order chosen by the lab author. A group is then inserted into the instructions using one @lab replacement token.
+- Drop a group into your instructions and allow the platform to handle displaying individual activities. As new activities are added to the group, there is no need to update the IDLx markdown.
+- Activities can be randomized when displayed to a student with the click of a button.
+- The number of activities to display from each group can be specified by the lab author. This allows the author to create a pool of activities to draw from, further randomizing the assessment between students. Scoring will be normalized to a value specified in the group when this option is enabled.
+- A new option to consolidate evaluation buttons has been added. Instead of displaying an individual "Check" or "Evaluate" button for every single activity within a group, a single button that will perform on-demand evaluation for the entire group may be displayed.
+- Additionally, the answers to multiple choice questions can be displayed in a random order in both activity groups and standalone activities.
+
+**Un-assign Cloud Credentials**
+- A new button is now shown in the lab client next to the cloud credentials to un-assign the credential from the user it was assigned to when the lab launched. This button is only visible to users with permissions to edit the cloud credential pool. When the credential is unassigned, it is immediately available to subsequent lab launches for labs that use the credential pool.
+ 
+**LTI 1.3**
+- Select LTI 1.3 claims are now available as replacement tokens in labs. The list of available claims and tokens include (case sensitive):
+    - context_id = @lab.Variable(LtiContextId)
+    - context_label = @lab.Variable(LtiContextLabel)
+    - context_title = @lab.Variable(LtiContextTitle)
+    - roles = @lab.Variable(LtiRoles)
+- Fixed a bug resulting in an invalid launch when a global custom claim is provided in the Canvas developer key.
+- Upgraded to Httpclientfactory library when launching labs and accessing deep links.
+
+**LOD Improvements and Fixes**
+- Whites-pace is trimmed when configuring credentials for Cloud Subscriptions and Cloud Subscription Pools.
+- Cloud fabric VMs will automatically target a resource group when added to a lab profile.
+- Storage fields removed from subscription page when not applicable.
+- Removed erroneous label on "Choose File" dialog when adding resources.
+- Removed external class link from class monitoring page when accessed through the API.
+- Fixed a bug that caused a cloud subscription to display on a lab profile details page after the cloud platform was set to none. 
+- Fixed a bug preventing a cloud lab from launching after adding a non-cloud lab parent and inheriting environment.
+- Fixed a bug where the target of an automated activity was lost upon export/import of a lab profile.
+- Fixed a bug that would cause images to disappear in a lab that had been exported/imported.
+
 
 ## **Released August 22, 2020**
 
