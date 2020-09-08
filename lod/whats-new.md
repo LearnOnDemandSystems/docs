@@ -23,7 +23,7 @@ ABA Activity Groups allow question and automated activities to be grouped togeth
 **Un-assign Cloud Credentials**
 - A new button is now shown in the lab client next to the cloud credentials to un-assign the credential from the user it was assigned to when the lab launched. This button is only visible to users with permissions to edit the cloud credential pool. When the credential is unassigned, it is immediately available to subsequent lab launches for labs that use the credential pool.
  
-**LTI 1.3**
+**LTI 1.3 Improvements**
 - Select LTI 1.3 claims are now available as replacement tokens in labs. The list of available claims and tokens include (case sensitive):
     - context_id = @lab.Variable(LtiContextId)
     - context_label = @lab.Variable(LtiContextLabel)
