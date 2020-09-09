@@ -24,6 +24,14 @@ Once the above information is entered into a Platform, the following information
 - **JWKS URL** - the endpoint hosting the JWKS used for signing LTI request.
 - **Access Token URL** - the endpoint used to exchange the requested OAuth2 access token during authorization.
 
+## Replacement Tokens
+
+Select LTI 1.3 claims are available as replacement tokens in labs. The list of Available claims and tokens include(case sensitive):
+- Context_id = @lab.Variable(LtiContextId)
+- Context_label = @lab.Variable(LtiContextLabel)
+- Context_title = @lab.Variable(LtiContextTitle)
+- Roles = @lab.Variable(LtiRoles)
+
 ## LTI Scoring
 
 Labs initialized through the platform and running in the Lab on Demand tool may return a score to the platform upon completion.
