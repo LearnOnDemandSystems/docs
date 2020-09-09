@@ -42,7 +42,9 @@ Click to go to a specific section, or continue reading to learn more about creat
 - [Scoring](#scoring)
     - [Performance Based Testing](#performance-based-testing)
     - [Scoring Methods](#scoring-methods)
+- [Group Management](#group-management)
 - [Activity Management](#activity-management)
+
 
 ## Automated Activities 
 
@@ -168,6 +170,8 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
 
 - **Name**: this will be the title of the automated Activity, and will be displayed in the lab instruction editor, in the activities menu.
 
+- **Replacement Token Alias**: this allows you to change the token to something more identifiable when reviewing the IDLx of the lab.
+
 - **Instructions**: this is where instructions for the Activity are entered, and will be displayed to students, in the lab instructions. 
 
 - **Scored**: enables the question to be scored. Scoring must be enabled in your lab. [Scoring is covered below in this document](#scoring).
@@ -182,7 +186,9 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
 
 - **Required for submission**: requires the student to perform the Activity, to submit their lab for grading.
 
-- **Blocks page navigation**: checking this box prevents the student from navigating to the next page in the lab instructions, unless they have entered or selected an answer to this question. 
+- **Blocks page navigation until evaluated**: checking this box prevents the student from navigating to the next page in the lab instructions unless they have entered or selected an answer to this question. 
+
+- **Blocks page navigation until passed**: checking this box prevents the student from navigating to the next page in the lab instructions until the objective in the automated activity is completed.
 
 - **Correct answer feedback**: this will be displayed to the user upon entering or selecting a correct answer to a question. 
 
@@ -319,15 +325,23 @@ Optionally, you can enable scoring for Questions in your lab. Once scoring is en
 
 - **Add Answer**: click to add an answer to the multiple choice question. 
 
+- **Group**: You can choose to add this to a Activity Group by selecting from the dropdown. This option is only displayed if a group is active.
+
+- **Randomize Answer Sequence**: When selected, the answers provided will be displayed to the student in random order.
+
 - **Scored**: enables the question to be scored. Scoring must be enabled in your lab. [Scoring is covered below in this document](#scoring).
 
 - **Score Value**: the value the student will receive upon selecting a correct answer.
 
 - **On-Demand Evaluation**: enables a button that the user can click to check their answer to a multiple choice question in the lab, or to score their answer if Activities are set to be scored.
- 
+
+- **Custom Evaluation Button Text**: allows you to customized the text displayed on the evaluation button. 
+
 - **Allow retries**: allows the user to retry a question if they select an incorrect answer. This option is not available when On-Demand Evaluation is disabled. 
 
-- **Blocks page navigation**: checking this box prevents the student from navigating to the next page in the lab instructions, unless they have selected an answer to this question. 
+- **Blocks page navigation until answered**: checking this box prevents the student from navigating to the next page in the lab instructions, unless they have selected an answer to this question. 
+
+- **Blocks page navigation until passed**: checking this box prevents the student from navigating to the next page in the lab instructions until the question is answered correctly.
 
 - **Required for submission**: click to make this multiple choice question required, for the student to submit their lab. 
 
@@ -347,6 +361,8 @@ Optionally, you can enable scoring for Questions in your lab. Once scoring is en
 
 - **Text**: This is where the short answer question is entered. This will also be the text that is displayed in the Activities editing menu.
 
+- **Group**: You can choose to add this to a Activity Group by selecting from the dropdown. This option is only displayed if a group is active.
+
 - **Format**: the format can be changed by clicking the drop-down menu. Format options include:
     - Short answer, exact match
     - Short answer, regex match
@@ -360,6 +376,8 @@ Optionally, you can enable scoring for Questions in your lab. Once scoring is en
 - **Score Value**: the value the student will receive upon entering a correct answer.
 
 - **On-Demand Evaluation**: enables a button that the user can click to check their answer to a short answer question in the lab, or to score their answer if Activities are set to be scored.
+
+- **Custom Evaluation Button Text**: allows you to customized the text displayed on the evaluation button. 
  
 - **Allow retries**: allows the user to retry a question if they enter an incorrect answer. This option is not available when On-Demand Evaluation is disabled. 
 
@@ -498,9 +516,35 @@ Partial scoring is achieved with automated Activities in IDLx. To configure part
 
 ### Performance Based Testing 
 
-Labs can be scored with a performance based testing scenario by leaving the _On-demand_ checbox unchecked, when creating automated activities. When activities are configured this way, they are scored when the lab is completed by the student. The score can be obtained by viewing the lab instance details. 
+Labs can be scored with a performance based testing scenario by leaving the _On-demand_ checkbox unchecked, when creating automated activities. When activities are configured this way, they are scored when the lab is completed by the student. The score can be obtained by viewing the lab instance details. 
 
 ![](images/display-as-task-list.png)
+
+## Group Management
+
+Activities can be sorted into groups so that they are easier to manage. Multiple groups can be specified. By default, the activities will be displayed in the order they are added to the group, but may be rearranged using the caret on the far right of the activity row.  
+
+![](../lod/images/activities-edit-menu.png)
+
+**The following options apply to activity groups:**
+
+![](../lod/images/group-management.png)
+
+- **Name**: Human readable, this makes it easier to distinguish activities.
+
+- **Replacement Token Alias**: this allows you to change the token to something more identifiable when reviewing the IDLx of the lab.
+
+- **Randomize**: When selected, the activities within the group will be displayed to the student in random order.
+
+- **# Activities to Display**: All activities within the group will be displayed by default, but you can set the lab to randomly display a subset of activities by specifying an integer here.
+
+- **Scored**: this controls whether the activities in the group will be scored. If all activities are shown, scoring will default to what is specified in the individual activity rather than what is specified at the group level.
+
+- **Activity Score Value**: when displaying only a subset of activities from the group and scoring enabled, a score must be specified for all activities within the group. Due to the randomization, all activities within the group will have the same score to normalize the outcome across all deliveries of the exam.
+
+- **On-Demand evaluation**: when any activities within the group are configured for On-demand evaluation, selecting this option will allow the student to select just one button to evaluate all applicable activities. Activities belonging to the group but configured without On-Demand evaluation set on the activity level will be evaluated only when the exam is submitted. 
+
+- **Custom Evaluation Button Text**: allows you to customized the text displayed on the evaluation button. 
 
 ## Activity Management
 
@@ -547,7 +591,7 @@ To access this menu, simply click the **Activities Icon**
 > ```
 
 > [ps-complex-explanation]:
-> **Explicit score value Example** (Complex Script - Partial Credit/Multiple Conditions)
+> **Explicit Score Value Example** (Complex Script - Partial Credit/Multiple Conditions)
 >
 > This sample actually reads the host entry on a Windows machine, and identifies both the hostname and any IPs associated with it. From there it validates if it has both the correct IP and hostname. With this design the user can get variable scores based on the following:
 > 
@@ -612,3 +656,5 @@ To access this menu, simply click the **Activities Icon**
 > fi
 > echo $RESULT
 > ```
+
+[Back to Top](#activities)
