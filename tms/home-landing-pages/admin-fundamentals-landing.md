@@ -48,7 +48,7 @@
         <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/rearrange-items-on-site-administration.md">
         <div class="subtopic_title">Can I rearrange items on the Site Administration page?</div>
       </a>
-    </div>
+   
   <div class="subtopic selected">
     <div class="subtopic_header" tabindex="0" title="General Docs" role="button" aria-selected="true" selected>TMS Fundamentals Videos</div>
     <div id="body_1" class="subtopic_links">
