@@ -482,26 +482,26 @@
       </div><div class="cardContainer">
               <!-- Begin categories section.. -->
         <div class="azIndex cardContent">
-          <div class="cardHeader" tabindex="0" title="Administrator A-Z Index" aria-label="Administrator A-Z Docs">A-Z Index</div>
+          <div class="cardHeader" tabindex="0" title="Administrator TMS Videos" aria-label="Administrator TMS Videos">TMS Videos</div>
           <div class="category">
-            <a href="/tms/tms-administrators/tms-fundamentals/rearrange-items-on-site-administration.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">help</i>
-              <span class="categoryTitle" title="Can I rearrange items on the Site Administration page?">Can I rearrange items on the Site Administration page?</span>
-            </a>
+             <a class="subtopic_link" href="https://youtu.be/ZKaDXJbTG7c" target="_blank">
+        <div class="subtopic_title">What are the tools I need to set up training?</div>
+          <div class="subtopic_description">We overview the tools needed to get labs and content into the hands of your users. This includes a brief description of courses, options for setting up users, and how a student redeems a training key. We also give a high level look at subscriptions and a look at tools in instructor led classes, including lab monitoring.</div>
+      </a>
           </div>
           <div class="category">
-            <a href="/tms/tms-administrators/miscellaneous/use-survey-or-assessment.md" class="categoryThread">
-              <i class="material-icons blue" aria-hidden="true">help</i>
-              <span class="categoryTitle" title="Do I want to use a survey or an assessment?">Do I want to use a survey or an assessment?</span>
-            </a>
+              <a href="/tms/tms-administrators/tms-videos.md" class="categoryThread">
+              <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
+              <span class="categoryTitle" title="Introduction to TMS Fundamentals">Introduction to TMS Fundamentals</span>
+           </a>
           </div>
-          <div class="category">
-            <a href="/tms/tms-administrators/classes/schedule/print-completion-certificates-for-class-by-admin.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">help</i>
-              <span class="categoryTitle" title="How can an administrator print completion certificates for a class?">How can an administrator print completion certificates for a class?</span>
-            </a>
-          </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-az-landing.md" title="View all" aria-label="View all Admin Docs A to Z">View all</a></div>
+              <div class="category">
+              <a href="/tms/tms-administrators/tms-videos.md" class="categoryThread">
+              <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
+              <span class="categoryTitle" title="Tips and Tricks on Delivering Virtual Classes">Introduction to TMS Fundamentals</span>
+             </a>
+            </div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-tms-videos.md" title="View all" aria-label="View all Admin TMS Videos">View all</a></div>
         </div>
       </div>
     </div>
