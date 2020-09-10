@@ -267,7 +267,7 @@
     </div> 
     <div class="moreInfo"  tabindex="0" title="API Client">
       <span class="moreInfo_header">API Client</span>
-        Our API is written so that when we add new response fields there is no need for updates by clients. To ensure your API calls work consistently, when building your API client write your implementation to ignore any fields you are not using in your code. This allows your implementation to be stable while the API is dynamic. To assist with this, review our <a href="https://www.nuget.org/packages/LearnOnDemandSystems.OneLearnTMS.OneLearnTMSAPIClient/">client library</a>, which adheres to our best practices.
+        We have written our API to allow us to add new response fields without clients needing to make updates. To ensure your API calls work consistently, write your API client implementation to ignore any fields you are not using in your code. This allows your implementation to be stable while the API is dynamic. To assist with this, review our <a href="https://www.nuget.org/packages/LearnOnDemandSystems.OneLearnTMS.OneLearnTMSAPIClient/">client library</a>, which adheres to our best practices.
     </div>
     <div class="cardsContainer">
       <div class="cardContainer">
