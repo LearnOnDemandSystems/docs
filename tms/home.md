@@ -271,6 +271,31 @@
     </div>
     <div class="cardsContainer">
       <div class="cardContainer">
+        <div class="cardContainer">
+              <!-- Begin categories section.. -->
+        <div class="azIndex cardContent">
+          <div class="cardHeader" tabindex="0" title="Administrator TMS Videos" aria-label="Administrator TMS Videos">TMS Videos</div>
+          <div class="category">
+             <a href="/tms/tms-administrators/tms-videos.md" class="categoryThread">
+              <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
+              <span class="categoryTitle" title="What are the tools I need to set up training?">What are the tools I need to set up training?</span>
+          </a>
+          </div>
+          <div class="category">
+              <a href="/tms/tms-administrators/tms-videos.md" class="categoryThread">
+              <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
+              <span class="categoryTitle" title="Introduction to TMS Fundamentals">Introduction to TMS Fundamentals</span>
+           </a>
+          </div>
+              <div class="category">
+              <a href="/tms/tms-administrators/tms-videos.md" class="categoryThread">
+              <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
+              <span class="categoryTitle" title="Tips and Tricks on Delivering Virtual Classes">Tips and Tricks on Delivering Virtual Classes</span>
+             </a>
+            </div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-tms-videos.md" title="View all" aria-label="View all Admin TMS Videos">View all</a></div>
+        </div>
+      </div>
         <!-- Begin categories section.. -->
         <div class="cloudSlice cardContent">
           <div class="cardHeader" tabindex="0" title="Administrator Fundamentals" aria-label="Admin Docs for Fundamentals">Fundamentals</div>
@@ -479,32 +504,8 @@
           </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-miscellaneous-landing.md" title="View all" aria-label="View all Miscellanous Admin Docs">View all</a></div>
         </div>
-      </div><div class="cardContainer">
-              <!-- Begin categories section.. -->
-        <div class="azIndex cardContent">
-          <div class="cardHeader" tabindex="0" title="Administrator TMS Videos" aria-label="Administrator TMS Videos">TMS Videos</div>
-          <div class="category">
-             <a href="/tms/tms-administrators/tms-videos.md" class="categoryThread">
-              <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
-              <span class="categoryTitle" title="What are the tools I need to set up training?">What are the tools I need to set up training?</span>
-          </a>
-          </div>
-          <div class="category">
-              <a href="/tms/tms-administrators/tms-videos.md" class="categoryThread">
-              <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
-              <span class="categoryTitle" title="Introduction to TMS Fundamentals">Introduction to TMS Fundamentals</span>
-           </a>
-          </div>
-              <div class="category">
-              <a href="/tms/tms-administrators/tms-videos.md" class="categoryThread">
-              <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
-              <span class="categoryTitle" title="Tips and Tricks on Delivering Virtual Classes">Tips and Tricks on Delivering Virtual Classes</span>
-             </a>
-            </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-tms-videos.md" title="View all" aria-label="View all Admin TMS Videos">View all</a></div>
-        </div>
       </div>
-    </div>
+     </div>
             <!-- -- End administrator categories section -->
   </div>
 
