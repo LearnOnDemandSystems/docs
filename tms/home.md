@@ -453,45 +453,21 @@
       <div class="cardContainer">
         <!-- Begin categories section.. -->
         <div class="lodIntegration cardContent">
-          <div class="cardHeader" tabindex="0" title="Administator Miscellaneous" aria-label="Administrator Miscellaneous Featured Docs">Miscellaneous</div>
+          <div class="cardHeader" tabindex="0" title="Administator Assessments & Surveys" aria-label="Administrator Assessments & Surveys Featured Docs">Assessments & Surveys</div>
           <div class="category">
-            <a href="/tms/tms-administrators/miscellaneous/create-completion-certificates.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">description</i>
-              <span class="categoryTitle" title="How do I create completion certificates?">How do I create completion certificates?</span>
-            </a>
-          </div>
-          <div class="category">
-            <a href="/tms/tms-administrators/miscellaneous/ensure-completion-certificates-print-correctly.md" class="categoryThread">
-              <i class="material-icons blue" aria-hidden="true">description</i>
-              <span class="categoryTitle" title="How do I ensure my Course Completion Certificates print correctly?">How do I ensure my Course Completion Certificates print correctly?</span>
-            </a>
-          </div>
-          <div class="category">
-            <a href="/tms/tms-administrators/miscellaneous/use-survey-or-assessment.md" class="categoryThread">
+              <a href="/tms/tms-administrators/Assessments & Surveys/use-survey-or-assessment.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">description</i>
               <span class="categoryTitle" title="Do I want to use a survey or an assessment?">Do I want to use a survey or an assessment?</span>
             </a>
           </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-miscellaneous-landing.md" title="View all" aria-label="View all Miscellanous Admin Docs">View all</a></div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/Assessments & Surveys" title="View all" aria-label="View all Assessments & Surveys Admin Docs">View all</a></div>
         </div>
       </div>
        <div class="cardContainer">
         <!-- Begin categories section.. -->
         <div class="lodIntegration cardContent">
-          <div class="cardHeader" tabindex="0" title="Administator Miscellaneous" aria-label="Administrator Miscellaneous Featured Docs">Miscellaneous</div>
-          <div class="category">
-            <a href="/tms/tms-administrators/miscellaneous/create-completion-certificates.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">description</i>
-              <span class="categoryTitle" title="How do I create completion certificates?">How do I create completion certificates?</span>
-            </a>
-          </div>
-          <div class="category">
-            <a href="/tms/tms-administrators/miscellaneous/ensure-completion-certificates-print-correctly.md" class="categoryThread">
-              <i class="material-icons blue" aria-hidden="true">description</i>
-              <span class="categoryTitle" title="How do I ensure my Course Completion Certificates print correctly?">How do I ensure my Course Completion Certificates print correctly?</span>
-            </a>
-          </div>
-          <div class="category">
+          <div class="cardHeader" tabindex="0" title="Administator Assessments & Surveys" aria-label="Administrator Assessments & Surveys Featured Docs">Assessments & Surveys</div>
+           <div class="category">
             <a href="/tms/tms-administrators/miscellaneous/use-survey-or-assessment.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">description</i>
               <span class="categoryTitle" title="Do I want to use a survey or an assessment?">Do I want to use a survey or an assessment?</span>
