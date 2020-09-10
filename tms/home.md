@@ -245,13 +245,7 @@
         <!-- Begin categories section.. -->
         <div class="cloudSlice cardContent">
           <div class="cardHeader" tabindex="0" title="Administrator Fundamentals" aria-label="Admin Docs for Fundamentals">Fundamentals</div>
-          <div class="category">
-            <a href="/tms/tms-administrators/tms-fundamentals/admin-menu.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">insert_drive_file</i>
-              <span class="categoryTitle" title="What is the Admin menu and how does it work?">What is the Admin menu and how does it work?</span>
-            </a>
-          </div>
-          <div class="category"> 
+            <div class="category"> 
             <a href="/tms/tms-administrators/tms-fundamentals/training-key-types.md" class="categoryThread">
               <i class="material-icons blue" aria-hidden="true">insert_drive_file</i>
               <span class="categoryTitle" title="What are the different types of Training Keys and how can they be used?">What are the different types of Training Keys and how can they be used?</span>
