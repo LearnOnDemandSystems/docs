@@ -484,10 +484,10 @@
         <div class="azIndex cardContent">
           <div class="cardHeader" tabindex="0" title="Administrator TMS Videos" aria-label="Administrator TMS Videos">TMS Videos</div>
           <div class="category">
-             <a class="subtopic_link" href="https://youtu.be/ZKaDXJbTG7c" target="_blank">
-        <div class="subtopic_title">What are the tools I need to set up training?</div>
-          <div class="subtopic_description">We overview the tools needed to get labs and content into the hands of your users. This includes a brief description of courses, options for setting up users, and how a student redeems a training key. We also give a high level look at subscriptions and a look at tools in instructor led classes, including lab monitoring.</div>
-      </a>
+             <a href="/tms/tms-administrators/tms-videos.md" class="categoryThread">
+              <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
+              <span class="categoryTitle" title="What are the tools I need to set up training?">What are the tools I need to set up training?</span>
+          </a>
           </div>
           <div class="category">
               <a href="/tms/tms-administrators/tms-videos.md" class="categoryThread">
@@ -498,7 +498,7 @@
               <div class="category">
               <a href="/tms/tms-administrators/tms-videos.md" class="categoryThread">
               <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
-              <span class="categoryTitle" title="Tips and Tricks on Delivering Virtual Classes">Introduction to TMS Fundamentals</span>
+              <span class="categoryTitle" title="Tips and Tricks on Delivering Virtual Classes">Tips and Tricks on Delivering Virtual Classes</span>
              </a>
             </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-tms-videos.md" title="View all" aria-label="View all Admin TMS Videos">View all</a></div>
