@@ -49,5 +49,14 @@
         <div class="subtopic_title">Can I rearrange items on the Site Administration page?</div>
       </a>
     </div>
+  <div class="subtopic selected">
+    <div class="subtopic_header" tabindex="0" title="General Docs" role="button" aria-selected="true" selected>TMS Fundamentals Videos</div>
+    <div id="body_1" class="subtopic_links">
+      <a class="subtopic_link" href="https://youtu.be/J6q49kpcrP0">
+        <div class="subtopic_title">Introduction to TMS Fundamentals</div>
+      </a>
+      <a class="subtopic_link" href="https://youtu.be/ZKaDXJbTG7c">
+        <div class="subtopic_title">What are the tools I need to set up training?</div>
+      </a>
   </div>
 </div>
