@@ -80,31 +80,7 @@
             <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/student-landing.md" title="View all" aria-label="View all Student Docs for Classes and Self-Paced Learning">View all</a></div>
           </div>
         </div>
-        <div class="cardContainer">
-          <div class="azIndex cardContent">
-            <div class="cardHeader" tabindex="0" title="Student A-Z Index" aria-label="Student Docs A to Z">A-Z Index</div>
-            <div class="category">
-              <a href="/tms/end-user-student-faqs/basics/where-do-i-get-help.md" class="categoryThread">
-                <i class="material-icons light-green" aria-hidden="true">help</i>
-                <span class="categoryTitle" title="How can I reach someone for help?">How can I reach someone for help?</span>
-              </a>
-            </div>
-            <div class="category">
-              <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-with-user-account.md" class="categoryThread">
-                <i class="material-icons green" aria-hidden="true">help</i>
-                <span class="categoryTitle" title="How do I access and change my user profile?">How do I access and change my user profile?</span>
-              </a>
-            </div>
-            <div class="category">
-              <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-with-user-account.md" class="categoryThread">
-                <i class="material-icons light-green" aria-hidden="true">help</i>
-                <span class="categoryTitle" title="How do I access my labs for a class using a lab code when I have a user account?">How do I access my labs for a class using a lab code when I have a user account?</span>
-              </a>
-            </div>
-            <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/student-landing.md" title="View all" aria-label="View all Student Docs A to Z">View all</a></div>
-          </div>
-        </div>
-      </div>
+       </div>
       <!-- -- End student categories section -->
     </div>
 
@@ -208,31 +184,7 @@
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all Instructor Profile Related Docs" aria-label="View all Instructor Profile Related Docs">View all</a></div>
         </div>
       </div>
-      <div class="cardContainer">
-        <div class="azIndex cardContent">
-          <div class="cardHeader" tabindex="0" title="Instructor A-Z Index" aria-label="Instructor Docs A to Z">A-Z Index</div>
-          <div class="category">
-            <a href="/tms/tms-administrators/discussions/admin-follow.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">help</i>
-              <span class="categoryTitle" title="How can I be notified of activity on a discussion?">How can I be notified of activity on a discussion?</span>
-            </a>
-          </div>
-          <div class="category">
-            <a href="/tms/instructors/instructor-profile/show-unavailable-times.md" class="categoryThread">
-              <i class="material-icons blue" aria-hidden="true">help</i>
-              <span class="categoryTitle" title="How can I show times when I am unavailable?">How can I show times when I am unavailable?</span>
-            </a>
-          </div>
-          <div class="category">
-            <a href="/tms/instructors/instructor-profile/show-courses-qualified-to-teach.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">help</i>
-              <span class="categoryTitle" title="How can I show what I am qualified to teach?">How can I show what I am qualified to teach?</span>
-            </a>
-          </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor Docs A to Z">View all</a></div>
-        </div>
-      </div>
-    </div>
+     </div>
           <!-- -- End instructor categories section -->
   </div>
 
