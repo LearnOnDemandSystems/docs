@@ -54,9 +54,11 @@
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="https://youtu.be/J6q49kpcrP0">
         <div class="subtopic_title">Introduction to TMS Fundamentals</div>
+          <div class="subtopic_description">TMS Fundamentals introduces important basics to working in the TMS. We cover terminology, what are courses, classes, course assignments and subscriptions. We familiarize you with the platform's navigation. And demonstrate searches, saving searches and creating defaults for your search page.</div>
       </a>
       <a class="subtopic_link" href="https://youtu.be/ZKaDXJbTG7c">
         <div class="subtopic_title">What are the tools I need to set up training?</div>
+          <div class="subtopic_description">We overview the tools needed to get labs and content into the hands of your users. This includes a brief description of courses, options for setting up users, and how a student redeems a training key. We also give a high level look at subscriptions and a look at tools in instructor led classes, including lab monitoring.</div>
       </a>
   </div>
 </div>
