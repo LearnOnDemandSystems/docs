@@ -450,7 +450,7 @@
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-discussions-landing.md" title="View all" aria-label="View all Discussion Admin Related Docs">View all</a></div>
         </div>
       </div>
-      <div class="cardContainer">
+        <div class="cardContainer">
         <!-- Begin categories section.. -->
         <div class="lodIntegration cardContent">
           <div class="cardHeader" tabindex="0" title="Administator Assessments & Surveys" aria-label="Administrator Assessments & Surveys Featured Docs">Assessments & Surveys</div>
@@ -460,17 +460,21 @@
               <span class="categoryTitle" title="Do I want to use a survey or an assessment?">Do I want to use a survey or an assessment?</span>
             </a>
           </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/Assessments & Surveys" title="View all" aria-label="View all Assessments & Surveys Admin Docs">View all</a></div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/Assessments & Surveys" title="View all" aria-label="View all Assessments & Surveys Admin Docs">View all</a></div>        
         </div>
       </div>
        <div class="cardContainer">
         <!-- Begin categories section.. -->
         <div class="lodIntegration cardContent">
-          <div class="cardHeader" tabindex="0" title="Administator Assessments & Surveys" aria-label="Administrator Assessments & Surveys Featured Docs">Assessments & Surveys</div>
+          <div class="cardHeader" tabindex="0" title="Administator Miscellaneous" aria-label="Administrator Miscellaneous Featured Docs">Miscellaneous</div>
            <div class="category">
-            <a href="/tms/tms-administrators/miscellaneous/use-survey-or-assessment.md" class="categoryThread">
+            <a href="/tms/tms-administrators/miscellaneous/custom-fields.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">description</i>
-              <span class="categoryTitle" title="Do I want to use a survey or an assessment?">Do I want to use a survey or an assessment?</span>
+              <span class="categoryTitle" title="What are custom fields?">What are custom fields?</span>
+            </a>
+            <a href="/tms/tms-administrators/miscellaneous/create-completion-certificates.md" class="categoryThread">
+              <i class="material-icons light-blue" aria-hidden="true">description</i>
+              <span class="categoryTitle" title="How do I create completion certificates?">How do I create completion certificates?</span>
             </a>
           </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-miscellaneous-landing.md" title="View all" aria-label="View all Miscellanous Admin Docs">View all</a></div>
