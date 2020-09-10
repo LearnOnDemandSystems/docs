@@ -97,13 +97,7 @@
               <span class="categoryTitle" title="What does it mean to be a contract instructor?">What does it mean to be a contract instructor?</span>
             </a>
           </div>
-          <div class="category"> 
-            <a href="/tms/tms-administrators/tms-fundamentals/admin-menu.md" class="categoryThread">
-              <i class="material-icons blue" aria-hidden="true">supervised_user_circle</i>
-              <span class="categoryTitle" title="What is the Admin menu and how does it work?">What is the Admin menu and how does it work?</span>
-            </a>
-          </div>
-          <div class="category">
+            <div class="category">
             <a href="/tms/instructors/general/reset-student-password.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">supervised_user_circle</i>
               <span class="categoryTitle" title="How do I, as an Instructor, reset a student's password?">How do I, as an Instructor, reset a student's password?</span>
