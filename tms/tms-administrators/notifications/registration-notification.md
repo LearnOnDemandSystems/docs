@@ -1,5 +1,5 @@
 ---
-title: "How do I create a registration notification"
+title: "How do I create a registration notification?"
 ispublished: true
 ---
 
