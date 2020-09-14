@@ -420,7 +420,7 @@
         <div class="lodIntegration cardContent">
           <div class="cardHeader" tabindex="0" title="Administator Assessments & Surveys" aria-label="Administrator Assessments & Surveys Featured Docs">Assessments & Surveys</div>
           <div class="category">
-              <a href="/tms/tms-administrators/Assessments & Surveys/use-survey-or-assessment.md" class="categoryThread">
+              <a href="/tms/tms-administrators/miscellaneous/use-survey-or-assessment.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">description</i>
               <span class="categoryTitle" title="Do I want to use a survey or an assessment?">Do I want to use a survey or an assessment?</span>
             </a>
