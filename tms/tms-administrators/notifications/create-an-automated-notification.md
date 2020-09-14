@@ -9,7 +9,8 @@ Automated notifications are a way to notify students, instructors and staff when
 
 Please keep in mind, all users have the right to opt out of notifications. Even though a notification is sent out by the platform it does not mean that the email will be received by the user.
 
-![*Overview of the process of creating a notification*](/tms/images/notification-process.md)
+![](/tms/images/notification-process.png)
+*Overview of the process of creating a notification*
 
 ## Preparation for creating a notification
 Take some time to answer the following questions for each notification you want to create. 
