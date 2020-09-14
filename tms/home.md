@@ -266,7 +266,8 @@
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-fundamentals-landing.md" title="View all" aria-label="View all Admin Docs for Fundamentals">View all</a></div>
         </div>
       </div>
-      <div class="cardContainer">
+       <!-- Begin categories section.. -->
+        <div class="cardContainer">
         <div class="vmLabDev cardContent">
           <div class="cardHeader" tabindex="0" title="Administrator Classes" aria-label="Administrator Docs for Classes">Classes</div>
           <div class="category">
