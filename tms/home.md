@@ -424,6 +424,14 @@
               <i class="material-icons light-blue" aria-hidden="true">description</i>
               <span class="categoryTitle" title="Do I want to use a survey or an assessment?">Do I want to use a survey or an assessment?</span>
             </a>
+              <a href="/tms/tms-administrators/miscellaneous/surveys.md" class="categoryThread">
+              <i class="material-icons light-blue" aria-hidden="true">description</i>
+              <span class="categoryTitle" title="How do surveys work?">How do surveys work?</span>
+            </a>
+              <a href="/tms/tms-administrators/miscellaneous/assessments.md" class="categoryThread">
+              <i class="material-icons light-blue" aria-hidden="true">description</i>
+              <span class="categoryTitle" title="How do assessments work?">How do assessments work?</span>
+            </a>
           </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-assessments-&-surveys-landing.md" title="View all" aria-label="View all Assessments & Surveys Admin Docs">View all</a></div>        
         </div>
