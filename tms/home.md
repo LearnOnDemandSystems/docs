@@ -425,7 +425,7 @@
               <span class="categoryTitle" title="Do I want to use a survey or an assessment?">Do I want to use a survey or an assessment?</span>
             </a>
           </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/Assessments & Surveys" title="View all" aria-label="View all Assessments & Surveys Admin Docs">View all</a></div>        
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-assessments-&-surveys-landing.md" title="View all" aria-label="View all Assessments & Surveys Admin Docs">View all</a></div>        
         </div>
       </div>
        <div class="cardContainer">
