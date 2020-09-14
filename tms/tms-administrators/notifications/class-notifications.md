@@ -3,7 +3,7 @@ title: "How do I create class notifications?"
 ispublished: true
 ---
 
-# How do I create instructor notifications?
+# How do I create class notifications?
 
 Automated notifications are a way to notify students, instructors and staff when something changes in the TMS. Most notifications are triggered based on an action taken in the platform, but we also have time triggers for enrollments, classes and course assignments. Using notifications can save you a significant amount of time because you will not need to email people with updates.
 
