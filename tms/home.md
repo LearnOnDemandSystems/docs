@@ -243,7 +243,7 @@
       </div>
            <div class="cardContainer">
         <!-- Begin categories section.. -->
-        <div class="cloudSlice cardContent">
+        <div class="azIndex cardContent">
           <div class="cardHeader" tabindex="0" title="Administrator Fundamentals" aria-label="Admin Docs for Fundamentals">Fundamentals</div>
             <div class="category"> 
             <a href="/tms/tms-administrators/tms-fundamentals/training-key-types.md" class="categoryThread">
