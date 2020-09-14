@@ -266,8 +266,8 @@
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-fundamentals-landing.md" title="View all" aria-label="View all Admin Docs for Fundamentals">View all</a></div>
         </div>
       </div>
-       <!-- Begin categories section.. -->
         <div class="cardContainer">
+            <!-- Begin categories section.. -->
         <div class="vmLabDev cardContent">
           <div class="cardHeader" tabindex="0" title="Administrator Classes" aria-label="Administrator Docs for Classes">Classes</div>
           <div class="category">
@@ -342,9 +342,9 @@
         </div>
       </div>
       <div class="cardContainer">
-        <div class="lodIntegration cardContent">
         <!-- Begin categories section.. -->
-          <div class="cardHeader" tabindex="0" title="Administrator Courses and Their Activities" aria-label="Admin Courses and Their Activities Docs">Courses and Their Activities</div>
+        <div class="lodIntegration cardContent">
+        <div class="cardHeader" tabindex="0" title="Administrator Courses and Their Activities" aria-label="Admin Courses and Their Activities Docs">Courses and Their Activities</div>
           <div class="category">
             <a href="/tms/tms-administrators/courses-and-activities/overall/create-course.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">ondemand_video</i>
