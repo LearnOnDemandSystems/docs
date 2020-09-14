@@ -1,9 +1,9 @@
 ---
-title: "How do I create a user role added notification?"
+title: "How do I create a user role assignment notification?"
 ispublished: true
 ---
 
-# How do I create a user role added notification?
+# How do I create a user role assignment notification?
 
 Automated notifications are a way to notify students, instructors and staff when something changes in the TMS. Most notifications are triggered based on an action taken in the platform, but we also have time triggers for enrollments, classes and course assignments. Using notifications can save you a significant amount of time because you will not need to email people with updates.
 
@@ -153,12 +153,11 @@ Do the following to add user roles as triggers for notifications. Using user rol
 
 ### Additional Resources
 
-[How can I use automated notifications?](http://github.com)
-[How do I create an automated notification?](http://github.com)
-[How do I create registration notifications?](http://github.com)
-[How do I create instructor notifications?](http://github.com)
-[How do I create class notifications?](http://github.com)
-[How do I create course assignment notifications?](http://github.com)
-[How do I create a user created notification?](http://github.com)
-[How do I create a subscription assignment notification?](http://github.com)
-How do I create registration notifications?(http://github.com)
+[How can I use automated notifications?](/tms/tms-administrators/notifications/use-automated-notifications.md)
+[How do I create an automated notification?](/tms/tms-administrators/notifications/create-an-automated-notification.md)
+[How do I create registration notifications?](/tms/tms-administrators/notifications/registration-notification.md)
+[How do I create instructor notifications?](/tms/tms-administrators/notifications/instructor-notifications.md)
+[How do I create class notifications?](/tms/tms-administrators/notifications/class-notifications.md)
+[How do I create course assignment notifications?](/tms/tms-administrators/notifications/course-assignment-notifications.md)
+[How do I create a user created notification?](/tms/tms-administrators/notifications/new-user-created-notification.md)
+[How do I create a subscription assignment notification?](/tms/tms-administrators/notifications/subscription-assignment-notification.md)
