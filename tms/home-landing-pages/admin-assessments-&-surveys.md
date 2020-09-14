@@ -10,7 +10,7 @@
         subtopic_title text with your document's title
         subtopic_description text with your document's description
     3. Place in respective subtopic group
-    4. Ensure to add the new document in A-Z index
+    
 -->
 
 <div class="categoriesHeader" tabindex="0" title="Administrator - Assessments & Surveys Docs Container">Assessments & Surveys Docs</div>
