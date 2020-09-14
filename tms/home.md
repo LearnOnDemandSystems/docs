@@ -394,6 +394,31 @@
       <div class="cardContainer">
         <!-- Begin categories section.. -->
         <div class="lodIntegration cardContent">
+          <div class="cardHeader" tabindex="0" title="Administrator Automated Notifications" aria-label="Admin Automated Notifications Docs">Automated Notifications</div>
+          <div class="category">
+            <a href="/tms/tms-administrators/notifications/use-automated-notifications.md" class="categoryThread">
+             <i class="material-icons blue" aria-hidden="true">input</i>
+              <span class="categoryTitle" title="How can I use automated notifications?">How can I use automated notifications?</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/tms/tms-administrators/notifications/registration-notification.md" class="categoryThread">
+              <i class="material-icons blue" aria-hidden="true">input</i>
+              <span class="categoryTitle" title="How do I create a registration notification?">How do I create a registration notification?</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/tms/tms-administrators/notifications/instructor-notifications.md" class="categoryThread">
+              <i class="material-icons blue" aria-hidden="true">input</i>
+              <span class="categoryTitle" title="How do I create instructor notifications?">How do I create instructor notifications?</span>
+            </a>
+          </div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-notifications-landing.md" title="View all" aria-label="View all Notification Admin Related Docs">View all</a></div>
+         </div>
+      </div>
+      <div class="cardContainer">
+        <!-- Begin categories section.. -->
+        <div class="lodIntegration cardContent">
           <div class="cardHeader" tabindex="0" title="Administrator Discussion" aria-label="Admin Discussion Docs">Discussions</div>
           <div class="category">
             <a href="/tms/tms-administrators/discussions/what-is-discussion.md" class="categoryThread">
