@@ -185,4 +185,4 @@ Do the following to add courses as triggers for notifications. Using courses as 
 [How do I create a user created notification?](http://github.com)
 [How do I create a user role assigned notification?](http://github.com)
 [How do I create a subscription assignment notification?](http://github.com)
-How do I create registration notifications?(http://github.com)
+[How do I create registration notifications?](http://github.com)
