@@ -1,3 +1,7 @@
+---
+title: "How do I set up LTI activities to be used in courses?"
+ispublished: true
+--- 
 
 # How do I set up LTI activities to be used in courses?
 
