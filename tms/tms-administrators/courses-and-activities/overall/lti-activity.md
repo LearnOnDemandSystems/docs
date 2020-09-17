@@ -13,6 +13,7 @@ To integrate content from an LTI Provider into the TMS, the following informatio
 Once you have the information, you can create an LTI provider, create an LTI resource link and then the LTI resource link can be added to a Course as an activity. Courses are used to hold content being offered in instructor led classes and in self-paced training. Students access the course through a class enrollment or a self-paced course assignment.
  
 ![](/tms/images/lti-process.png)
+
 *Overview of the process to create and deliver LTI content.*
 
 ## Create an LTI Provider
