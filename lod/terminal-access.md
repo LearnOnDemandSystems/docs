@@ -49,7 +49,12 @@ There are a couple of virtual machine (VM) requirements for SSH terminal access:
 
 ### Debian/Ubuntu
 
-- Open /etc/network/interfaces and add an entry for eth**X** where X is equal to the number of adapters your VM has. It should be set to automatically start at boot and pull DHCP information.
+Depending on your distribution, you will need to use one of two methods to add a new network adapter: 
+
+1. Using /etc/network/interfaces. This is based on the ifupdown package, which has been superseded by a new default method (Netplan) that uses either the Network Manager or Systemd-netorkd renderers. 
+2. Using [Netplan](https://netplan.io/"Netplan) YAML configuration files. The Netplan YAML file contains a description of the network interfaces and their respective configurations. 
+
+- To add a network interface using a distribution configured to use the ifupdown package, open /etc/network/interfaces and add an entry for eth**X** where X is equal to the number of adapters your VM has. It should be set to automatically start at boot and pull DHCP information.
     - Sample Configuration:
 
     ```linenums
@@ -57,6 +62,30 @@ There are a couple of virtual machine (VM) requirements for SSH terminal access:
     allow-hotplug eth1
     iface eth1 inet dhcp
     ```
+- To add a network interface using a distribution configured to use Netplan YAML files,
+    - Go to /etc/netplan, and, using an editor of your choice, open the \*-config.yaml (the name will vary) file used to create the network configuration.
+    - Under the ethernets node, add an adapter and configure it to use DHCP, as shown in the sample below:
+    
+        - Sample YAML File, showing a static IP and DHCP configuration:
+        ```
+        networks
+          ethernets:
+            ens32:
+              addresses:
+              - 192.168.1.1.21/24
+              gateway4: 192.168.1.1
+              nameservers:
+              - 192.168.1.2
+              search:
+              - hexelo.com
+            ens33:
+              dhcp4: true
+          version 2
+          ```
+    >[!alert] Please note that YAML files are sensitive to whitespace and indentation. Do not use the tab key to indent items: always use the space bar.
+    - After making the changes to the YAML file, run the command `sudo netplan apply`.
+    
+    
 
 ## Configure a running SSH server
 
