@@ -68,9 +68,9 @@ SSH configuration may need to be modified to enable password authentication or r
 
 1. Uncomment the line **_UseDNS yes_** and change it to **_UseDNS no_**, or add the line if you can't find it. This disables a reverse DNS lookup on terminal connect that can cause a 10 second delay.
 
-1. Disable the networkmanager-wait service if applicable. This service can result in a 20 second boot delay when using NICs set to DHCP. On most versions of Linux this can be done via the following command: ```sudo systemctl disable NetworkManager-wait-online.service```.
+1. Disable the networkmanager-wait or the networkd-wait service if applicable. This service can result in a 20 second boot delay when using NICs set to DHCP. On most versions of Linux this can be done via the following command: ```sudo systemctl disable NetworkManager-wait-online.service``` or ```sudo systemctl mask systemd-networkd-wait-online.service```. 
 
-    >[!alert] On **Ubuntu 18.04.2**, the network manager wait service is known as `systemd-networkd-wait-online.service`. If you are using Ubuntu 18.04.2, the **network manager wait service should not be disabled**. This will prevent SSH terminal access. 
+    >[!alert] On recent versions of Ubuntu, you may get unpredicatable results by disabling the network manager or the networkd service (`systemd-networkd-wait-online.service`). As an alternative, you can mask the service by using the command ```sudo systemctl mask systemd-networkd-wait-online.service``` or ```sudo systemctl mask NetworkManager-wait-online.service```, depending on which is applicable. The `systemctl mask` command is very powerful and should be used carefully. However, before disabling or masking these services, you shold verify whether, in fact, you need to make this configuration change. When booting the VM, watch to see whether the boot processes pauses for any reason during the network configuration. If it doesn't pause, or the pause is only a few seconds, you do not need to take any action.
 
 1. Make sure the SSH service auto boots. On most versions of linux can be done by entering the following command: ```sudo systemctl enable ssh```.
 
