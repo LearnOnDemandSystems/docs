@@ -199,10 +199,17 @@ Do the following to add courses as triggers for notifications. Using courses as 
 ### Additional Resources
 
 [How can I use automated notifications?](/tms/tms-administrators/notifications/use-automated-notifications.md)
+
 [How do I create an automated notification?](/tms/tms-administrators/notifications/create-an-automated-notification.md)
+
 [How do I create registration notifications?](/tms/tms-administrators/notifications/registration-notification.md)
+
 [How do I create instructor notifications?](/tms/tms-administrators/notifications/instructor-notifications.md)
+
 [How do I create course assignment notifications?](/tms/tms-administrators/notifications/course-assignment-notifications.md)
+
 [How do I create a user created notification?](/tms/tms-administrators/notifications/new-user-created-notification.md)
+
 [How do I create a user role assignment notification?](/tms/tms-administrators/notifications/user-role-notification.md)
+
 [How do I create a subscription assignment notification?](/tms/tms-administrators/notifications/subscription-assignment-notification.md)
