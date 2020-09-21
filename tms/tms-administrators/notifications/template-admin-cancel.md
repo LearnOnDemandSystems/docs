@@ -2,7 +2,7 @@
 title: "How do I create a notification that is sent to students when their enrollment is cancelled by an administrator?"
 description: "This is a template containing all the settings you need to create an automated notification to be sent to students when they are cancelled."
 ispublished: yes
-
+---
 
 # How do I create a notification that is sent to students when their enrollment is cancelled by an administrator?
 
