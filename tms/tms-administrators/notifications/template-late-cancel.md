@@ -8,6 +8,7 @@ ispublished: yes
 
 *If you want late cancellation set up, go to your Organization profile, select Edit, and go to the Preferences tab. Under Enrollment Settings you can set the late cancellation window, this is needed to trigger as a late cancellation.*
 
+1. Open notification plans, from Site Administration on the **Notifications** tile, select **Create Notification Plan**.
 1. Input a name and description for the notification.
 1. The trigger is when a student’s enrollment status is changed to cancelled. The Trigger Event is **Class Enrollment Late Cancelled**.
 1. Add filters, for example you may want to set the Class Status to **Scheduled**, then nothing is sent for a class in another status.
