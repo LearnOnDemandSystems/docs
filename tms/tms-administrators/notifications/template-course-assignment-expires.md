@@ -1,3 +1,4 @@
+---
 title: "How do I create a notification reminding a student when their course assignment will expire?"
 description: "This is a template containing all the settings you need to create an automated notification to be sent to remind a student when their course assignment will expire."
 ispublished: yes
