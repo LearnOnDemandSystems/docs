@@ -20,7 +20,7 @@ ispublished: yes
 1. If you wish to limit it the notification to specific courses, select them on the **Courses** tab.
 
 
-###Additional Resources
+### Additional Resources
 
 For more information on instructor notifications and descriptions of all the available fields, go to the article below.
 
