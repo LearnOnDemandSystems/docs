@@ -8,6 +8,33 @@
 
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
+
+
+## **Released September 3, 2020**
+
+
+**Lab Profile Save As**
+- When using _Save As_ on a lab profile, to create a new lab profile or a child lab profile, there are now options to change the organization and lab series in the prompt. This only affects the new lab profile and does not change the parent lab profile's lab series or organization.
+- When a new lab profile is created using _Save As_, if the user performing the task does not have permissions to interact with different network types, the networks on the lab profile will be downgraded to a private network and a note will be left on the lab profile to specify which networks were downgraded. Users must have permissions for Public IP networks, as well as Web Access (NAT) networks in order to clone them into a new lab profile. 
+ 
+**Instructions Modified By**
+- When a lab profile's instructions are edited, a timestamp is added to the lab profile at the bottom of the page for Instructions Modified.  This notes the date/time, as well as who modified the instructions last. 
+ 
+**Inline Virtual Machine and Container Terminals**
+- It is now possible to display a Virtual Machine or Container Terminal inline with the lab instructions. This allows the lab to launch in a single window, showing the VMs and terminals only where the lab author specifies in the lab instructions. You can enable inline VMs/terminals by marking them as hidden from the student on the lab profile virtual machines tab, and then inserting them into lab instructions using @lab tokens. 
+ 
+**LOD Improvements and Fixes**
+ 
+- Updated VM OS identifier list to include _Red Hat Enterprise Linux 8 (64 bit)_ and _Windows Server 2016 or later (64 bit)_.
+- Updated translation when using German in the lab-client.
+- When searching Lab Series Assignment, more refined Max RAM and Total Ram output options based on lab completion status are displayed. Only labs marked Complete will impact these values.
+- When saving a lab profile that previously required a security review, but no longer needs one, we will no longer leave a security review invalidation note on the lab.
+- The VM import options will no longer appear on the Lab Profile Details page for users without Lab host viewing permissions.
+- Fixed a bug preventing the creation of AWS pools in select configurations. 
+- Fixed a bug that prevented Evaluations from displaying on scored labs. 
+- Fixed a bug that prevented ABA groups from displaying in a standalone lab manual. 
+- Fixed a bug that prevented _Blocks page navigation_ until evaluated from working properly in automated activities.
+
 ## **Released September 3, 2020**
 
 **Activity Based Assessments(ABA) Activity Groups**
