@@ -6,6 +6,7 @@ ispublished: yes
 
 # How do I create a notification that is sent to students when their enrollment is cancelled by an administrator?
 
+1. Open notification plans, from Site Administration on the **Notifications** tile, select **Create Notification Plan**.
 1. Input a name and description for the notification.
 1. The trigger is when a student’s enrollment status is changed to cancelled. The Trigger Event is **Class Enrollment Cancelled**.
 1. Add filters, for example you may want to set the Class Status to **Scheduled**, then nothing is sent for a class in another status.
