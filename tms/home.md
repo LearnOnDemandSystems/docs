@@ -80,31 +80,7 @@
             <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/student-landing.md" title="View all" aria-label="View all Student Docs for Classes and Self-Paced Learning">View all</a></div>
           </div>
         </div>
-        <div class="cardContainer">
-          <div class="azIndex cardContent">
-            <div class="cardHeader" tabindex="0" title="Student A-Z Index" aria-label="Student Docs A to Z">A-Z Index</div>
-            <div class="category">
-              <a href="/tms/end-user-student-faqs/basics/where-do-i-get-help.md" class="categoryThread">
-                <i class="material-icons light-green" aria-hidden="true">help</i>
-                <span class="categoryTitle" title="How can I reach someone for help?">How can I reach someone for help?</span>
-              </a>
-            </div>
-            <div class="category">
-              <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-with-user-account.md" class="categoryThread">
-                <i class="material-icons green" aria-hidden="true">help</i>
-                <span class="categoryTitle" title="How do I access and change my user profile?">How do I access and change my user profile?</span>
-              </a>
-            </div>
-            <div class="category">
-              <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-with-user-account.md" class="categoryThread">
-                <i class="material-icons light-green" aria-hidden="true">help</i>
-                <span class="categoryTitle" title="How do I access my labs for a class using a lab code when I have a user account?">How do I access my labs for a class using a lab code when I have a user account?</span>
-              </a>
-            </div>
-            <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/student-landing.md" title="View all" aria-label="View all Student Docs A to Z">View all</a></div>
-          </div>
-        </div>
-      </div>
+       </div>
       <!-- -- End student categories section -->
     </div>
 
@@ -121,13 +97,7 @@
               <span class="categoryTitle" title="What does it mean to be a contract instructor?">What does it mean to be a contract instructor?</span>
             </a>
           </div>
-          <div class="category"> 
-            <a href="/tms/tms-administrators/tms-fundamentals/admin-menu.md" class="categoryThread">
-              <i class="material-icons blue" aria-hidden="true">supervised_user_circle</i>
-              <span class="categoryTitle" title="What is the Admin menu and how does it work?">What is the Admin menu and how does it work?</span>
-            </a>
-          </div>
-          <div class="category">
+            <div class="category">
             <a href="/tms/instructors/general/reset-student-password.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">supervised_user_circle</i>
               <span class="categoryTitle" title="How do I, as an Instructor, reset a student's password?">How do I, as an Instructor, reset a student's password?</span>
@@ -208,34 +178,9 @@
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all Instructor Profile Related Docs" aria-label="View all Instructor Profile Related Docs">View all</a></div>
         </div>
       </div>
-      <div class="cardContainer">
-        <div class="azIndex cardContent">
-          <div class="cardHeader" tabindex="0" title="Instructor A-Z Index" aria-label="Instructor Docs A to Z">A-Z Index</div>
-          <div class="category">
-            <a href="/tms/tms-administrators/discussions/admin-follow.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">help</i>
-              <span class="categoryTitle" title="How can I be notified of activity on a discussion?">How can I be notified of activity on a discussion?</span>
-            </a>
-          </div>
-          <div class="category">
-            <a href="/tms/instructors/instructor-profile/show-unavailable-times.md" class="categoryThread">
-              <i class="material-icons blue" aria-hidden="true">help</i>
-              <span class="categoryTitle" title="How can I show times when I am unavailable?">How can I show times when I am unavailable?</span>
-            </a>
-          </div>
-          <div class="category">
-            <a href="/tms/instructors/instructor-profile/show-courses-qualified-to-teach.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">help</i>
-              <span class="categoryTitle" title="How can I show what I am qualified to teach?">How can I show what I am qualified to teach?</span>
-            </a>
-          </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor Docs A to Z">View all</a></div>
-        </div>
-      </div>
-    </div>
+     </div>
           <!-- -- End instructor categories section -->
   </div>
-
   <div class="administratorCategory userTypeSection">
     <!-- Begin administrator categories section.. -->
   <div class="categoriesHeader" tabindex="0" title="Featured Posts" aria-label="Featured Admin Docs">Featured</div>
@@ -267,20 +212,40 @@
     </div> 
     <div class="moreInfo"  tabindex="0" title="API Client">
       <span class="moreInfo_header">API Client</span>
-        Our API is written to allow new response fields we add to be ignored by clients. However, to ensure your API calls consistently work, when building your API client, make sure that your implementation is written in such a way as to ignore any fields you are not using in your code. This will help ensure your implementation remains stable while the API can remain dynamic. To assist with this, we have provided our <a href="https://www.nuget.org/packages/LearnOnDemandSystems.OneLearnTMS.OneLearnTMSAPIClient/">client library</a>, which adheres to these best practices.
+        We have written our API to allow us to add new response fields without clients making any updates. To ensure your API calls work consistently, write your API client implementation to ignore any fields you are not using in your code. This allows your implementation to be stable while the API is dynamic. To assist with this, review our <a href="https://www.nuget.org/packages/LearnOnDemandSystems.OneLearnTMS.OneLearnTMSAPIClient/">client library</a>, which adheres to our best practices.
     </div>
     <div class="cardsContainer">
       <div class="cardContainer">
-        <!-- Begin categories section.. -->
-        <div class="cloudSlice cardContent">
-          <div class="cardHeader" tabindex="0" title="Administrator Fundamentals" aria-label="Admin Docs for Fundamentals">Fundamentals</div>
+        <div class="cardContainer">
+              <!-- Begin categories section.. -->
+        <div class="azIndex cardContent">
+          <div class="cardHeader" tabindex="0" title="Administrator TMS Videos" aria-label="Administrator TMS Videos">TMS Videos</div>
           <div class="category">
-            <a href="/tms/tms-administrators/tms-fundamentals/admin-menu.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">insert_drive_file</i>
-              <span class="categoryTitle" title="What is the Admin menu and how does it work?">What is the Admin menu and how does it work?</span>
-            </a>
+             <a href="/tms/tms-administrators/tms-videos.md" class="categoryThread">
+              <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
+              <span class="categoryTitle" title="What are the tools I need to set up training?">What are the tools I need to set up training?</span>
+          </a>
           </div>
-          <div class="category"> 
+          <div class="category">
+              <a href="/tms/tms-administrators/tms-videos.md" class="categoryThread">
+              <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
+              <span class="categoryTitle" title="Introduction to TMS Fundamentals">Introduction to TMS Fundamentals</span>
+           </a>
+          </div>
+              <div class="category">
+              <a href="/tms/tms-administrators/tms-videos.md" class="categoryThread">
+              <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
+              <span class="categoryTitle" title="Tips and Tricks on Delivering Virtual Classes">Tips and Tricks on Delivering Virtual Classes</span>
+             </a>
+            </div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-tms-videos.md" title="View all" aria-label="View all Admin TMS Videos">View all</a></div>
+        </div>
+      </div>
+           <div class="cardContainer">
+        <!-- Begin categories section.. -->
+        <div class="azIndex cardContent">
+          <div class="cardHeader" tabindex="0" title="Administrator Fundamentals" aria-label="Admin Docs for Fundamentals">Fundamentals</div>
+            <div class="category"> 
             <a href="/tms/tms-administrators/tms-fundamentals/training-key-types.md" class="categoryThread">
               <i class="material-icons blue" aria-hidden="true">insert_drive_file</i>
               <span class="categoryTitle" title="What are the different types of Training Keys and how can they be used?">What are the different types of Training Keys and how can they be used?</span>
@@ -295,13 +260,14 @@
           <div class="category">  
             <a href="/tms/tms-administrators/tms-fundamentals/set-defaults-for-creating-users-and-classes.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">insert_drive_file</i>
-              <span class="categoryTitle" title="How do I set the defaults for creating users and classes?">How do I set the defaults for creating users and classes?</span>
+              <span class="categoryTitle" title="How do I set the defaults for creating users and classes?">How do I set the defaults for creating users and classes</span>
             </a>
           </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-fundamentals-landing.md" title="View all" aria-label="View all Admin Docs for Fundamentals">View all</a></div>
         </div>
       </div>
-      <div class="cardContainer">
+        <div class="cardContainer">
+            <!-- Begin categories section.. -->
         <div class="vmLabDev cardContent">
           <div class="cardHeader" tabindex="0" title="Administrator Classes" aria-label="Administrator Docs for Classes">Classes</div>
           <div class="category">
@@ -376,9 +342,9 @@
         </div>
       </div>
       <div class="cardContainer">
-        <div class="lodIntegration cardContent">
         <!-- Begin categories section.. -->
-          <div class="cardHeader" tabindex="0" title="Administrator Courses and Their Activities" aria-label="Admin Courses and Their Activities Docs">Courses and Their Activities</div>
+        <div class="lodIntegration cardContent">
+        <div class="cardHeader" tabindex="0" title="Administrator Courses and Their Activities" aria-label="Admin Courses and Their Activities Docs">Courses and Their Activities</div>
           <div class="category">
             <a href="/tms/tms-administrators/courses-and-activities/overall/create-course.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">ondemand_video</i>
@@ -428,6 +394,31 @@
       <div class="cardContainer">
         <!-- Begin categories section.. -->
         <div class="lodIntegration cardContent">
+          <div class="cardHeader" tabindex="0" title="Administrator Automated Notifications" aria-label="Admin Automated Notifications Docs">Automated Notifications</div>
+          <div class="category">
+            <a href="/tms/tms-administrators/notifications/use-automated-notifications.md" class="categoryThread">
+             <i class="material-icons blue" aria-hidden="true">input</i>
+              <span class="categoryTitle" title="How can I use automated notifications?">How can I use automated notifications?</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/tms/tms-administrators/notifications/registration-notification.md" class="categoryThread">
+              <i class="material-icons blue" aria-hidden="true">input</i>
+              <span class="categoryTitle" title="How do I create a registration notification?">How do I create a registration notification?</span>
+            </a>
+          </div>
+          <div class="category">
+            <a href="/tms/tms-administrators/notifications/instructor-notifications.md" class="categoryThread">
+              <i class="material-icons blue" aria-hidden="true">input</i>
+              <span class="categoryTitle" title="How do I create instructor notifications?">How do I create instructor notifications?</span>
+            </a>
+          </div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-notifications-landing.md" title="View all" aria-label="View all Notification Admin Related Docs">View all</a></div>
+         </div>
+      </div>
+      <div class="cardContainer">
+        <!-- Begin categories section.. -->
+        <div class="lodIntegration cardContent">
           <div class="cardHeader" tabindex="0" title="Administrator Discussion" aria-label="Admin Discussion Docs">Discussions</div>
           <div class="category">
             <a href="/tms/tms-administrators/discussions/what-is-discussion.md" class="categoryThread">
@@ -450,57 +441,45 @@
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-discussions-landing.md" title="View all" aria-label="View all Discussion Admin Related Docs">View all</a></div>
         </div>
       </div>
-      <div class="cardContainer">
+        <div class="cardContainer">
+        <!-- Begin categories section.. -->
+        <div class="lodIntegration cardContent">
+          <div class="cardHeader" tabindex="0" title="Administator Assessments & Surveys" aria-label="Administrator Assessments & Surveys Featured Docs">Assessments & Surveys</div>
+          <div class="category">
+              <a href="/tms/tms-administrators/miscellaneous/use-survey-or-assessment.md" class="categoryThread">
+              <i class="material-icons light-blue" aria-hidden="true">description</i>
+              <span class="categoryTitle" title="Do I want to use a survey or an assessment?">Do I want to use a survey or an assessment?</span>
+            </a>
+              <a href="/tms/tms-administrators/miscellaneous/surveys.md" class="categoryThread">
+              <i class="material-icons light-blue" aria-hidden="true">description</i>
+              <span class="categoryTitle" title="How do surveys work?">How do surveys work?</span>
+            </a>
+              <a href="/tms/tms-administrators/miscellaneous/assessments.md" class="categoryThread">
+              <i class="material-icons light-blue" aria-hidden="true">description</i>
+              <span class="categoryTitle" title="How do assessments work?">How do assessments work?</span>
+            </a>
+          </div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-assessments-&-surveys-landing.md" title="View all" aria-label="View all Assessments & Surveys Admin Docs">View all</a></div>        
+        </div>
+      </div>
+       <div class="cardContainer">
         <!-- Begin categories section.. -->
         <div class="lodIntegration cardContent">
           <div class="cardHeader" tabindex="0" title="Administator Miscellaneous" aria-label="Administrator Miscellaneous Featured Docs">Miscellaneous</div>
-          <div class="category">
+           <div class="category">
+            <a href="/tms/tms-administrators/miscellaneous/custom-fields.md" class="categoryThread">
+              <i class="material-icons light-blue" aria-hidden="true">description</i>
+              <span class="categoryTitle" title="What are custom fields?">What are custom fields?</span>
+            </a>
             <a href="/tms/tms-administrators/miscellaneous/create-completion-certificates.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">description</i>
               <span class="categoryTitle" title="How do I create completion certificates?">How do I create completion certificates?</span>
             </a>
           </div>
-          <div class="category">
-            <a href="/tms/tms-administrators/miscellaneous/ensure-completion-certificates-print-correctly.md" class="categoryThread">
-              <i class="material-icons blue" aria-hidden="true">description</i>
-              <span class="categoryTitle" title="How do I ensure my Course Completion Certificates print correctly?">How do I ensure my Course Completion Certificates print correctly?</span>
-            </a>
-          </div>
-          <div class="category">
-            <a href="/tms/tms-administrators/miscellaneous/use-survey-or-assessment.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">description</i>
-              <span class="categoryTitle" title="Do I want to use a survey or an assessment?">Do I want to use a survey or an assessment?</span>
-            </a>
-          </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-miscellaneous-landing.md" title="View all" aria-label="View all Miscellanous Admin Docs">View all</a></div>
         </div>
       </div>
-      <div class="cardContainer">
-              <!-- Begin categories section.. -->
-        <div class="azIndex cardContent">
-          <div class="cardHeader" tabindex="0" title="Administrator A-Z Index" aria-label="Administrator A-Z Docs">A-Z Index</div>
-          <div class="category">
-            <a href="/tms/tms-administrators/tms-fundamentals/rearrange-items-on-site-administration.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">help</i>
-              <span class="categoryTitle" title="Can I rearrange items on the Site Administration page?">Can I rearrange items on the Site Administration page?</span>
-            </a>
-          </div>
-          <div class="category">
-            <a href="/tms/tms-administrators/miscellaneous/use-survey-or-assessment.md" class="categoryThread">
-              <i class="material-icons blue" aria-hidden="true">help</i>
-              <span class="categoryTitle" title="Do I want to use a survey or an assessment?">Do I want to use a survey or an assessment?</span>
-            </a>
-          </div>
-          <div class="category">
-            <a href="/tms/tms-administrators/classes/schedule/print-completion-certificates-for-class-by-admin.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">help</i>
-              <span class="categoryTitle" title="How can an administrator print completion certificates for a class?">How can an administrator print completion certificates for a class?</span>
-            </a>
-          </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-az-landing.md" title="View all" aria-label="View all Admin Docs A to Z">View all</a></div>
-        </div>
-      </div>
-    </div>
+     </div>
             <!-- -- End administrator categories section -->
   </div>
 

@@ -49,7 +49,12 @@ There are a couple of virtual machine (VM) requirements for SSH terminal access:
 
 ### Debian/Ubuntu
 
-- Open /etc/network/interfaces and add an entry for eth**X** where X is equal to the number of adapters your VM has. It should be set to automatically start at boot and pull DHCP information.
+Depending on your distribution, you will need to use one of two methods to add a new network adapter: 
+
+1. Using /etc/network/interfaces. This is based on the ifupdown package, which has been superseded by a new default method (Netplan) that uses either the Network Manager or Systemd-netorkd renderers. 
+2. Using [Netplan](https://netplan.io/"Netplan) YAML configuration files. The Netplan YAML file contains a description of the network interfaces and their respective configurations. 
+
+- To add a network interface using a distribution configured to use the ifupdown package, open /etc/network/interfaces and add an entry for eth**X** where X is equal to the number of adapters your VM has. It should be set to automatically start at boot and pull DHCP information.
     - Sample Configuration:
 
     ```linenums
@@ -57,6 +62,30 @@ There are a couple of virtual machine (VM) requirements for SSH terminal access:
     allow-hotplug eth1
     iface eth1 inet dhcp
     ```
+- To add a network interface using a distribution configured to use Netplan YAML files,
+    - Go to /etc/netplan, and, using an editor of your choice, open the \*-config.yaml (the name will vary) file used to create the network configuration.
+    - Under the ethernets node, add an adapter and configure it to use DHCP, as shown in the sample below:
+    
+        - Sample YAML File, showing a static IP and DHCP configuration:
+        ```
+        networks
+          ethernets:
+            ens32:
+              addresses:
+              - 192.168.1.1.21/24
+              gateway4: 192.168.1.1
+              nameservers:
+              - 192.168.1.2
+              search:
+              - hexelo.com
+            ens33:
+              dhcp4: true
+          version 2
+          ```
+    >[!alert] Please note that YAML files are sensitive to whitespace and indentation. Do not use the tab key to indent items: always use the space bar.
+    - After making the changes to the YAML file, run the command `sudo netplan apply`.
+    
+    
 
 ## Configure a running SSH server
 
@@ -68,9 +97,9 @@ SSH configuration may need to be modified to enable password authentication or r
 
 1. Uncomment the line **_UseDNS yes_** and change it to **_UseDNS no_**, or add the line if you can't find it. This disables a reverse DNS lookup on terminal connect that can cause a 10 second delay.
 
-1. Disable the networkmanager-wait service if applicable. This service can result in a 20 second boot delay when using NICs set to DHCP. On most versions of Linux this can be done via the following command: ```sudo systemctl disable NetworkManager-wait-online.service```.
+1. Disable the networkmanager-wait or the networkd-wait service if applicable. This service can result in a 20 second boot delay when using NICs set to DHCP. On most versions of Linux this can be done via the following command: ```sudo systemctl disable NetworkManager-wait-online.service``` or ```sudo systemctl mask systemd-networkd-wait-online.service```. 
 
-    >[!alert] On **Ubuntu 18.04.2**, the network manager wait service is known as `systemd-networkd-wait-online.service`. If you are using Ubuntu 18.04.2, the **network manager wait service should not be disabled**. This will prevent SSH terminal access. 
+    >[!alert] On recent versions of Ubuntu, you may get unpredicatable results by disabling the network manager or the networkd service (`systemd-networkd-wait-online.service`). As an alternative, you can mask the service by using the command ```sudo systemctl mask systemd-networkd-wait-online.service``` or ```sudo systemctl mask NetworkManager-wait-online.service```, depending on which is applicable. The `systemctl mask` command is very powerful and should be used carefully. However, before disabling or masking these services, you shold verify whether, in fact, you need to make this configuration change. When booting the VM, watch to see whether the boot processes pauses for any reason during the network configuration. If it doesn't pause, or the pause is only a few seconds, you do not need to take any action.
 
 1. Make sure the SSH service auto boots. On most versions of linux can be done by entering the following command: ```sudo systemctl enable ssh```.
 

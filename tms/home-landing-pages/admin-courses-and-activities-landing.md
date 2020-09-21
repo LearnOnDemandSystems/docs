@@ -91,6 +91,9 @@
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/add-assessment.md">
         <div class="subtopic_title">How do I add an assessment to a course?</div>
       </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/lti-activity.md">
+        <div class="subtopic_title">How do I set up LTI activities to be used in courses?</div>
+      </a>
     </div>
   </div>
   <div class="subtopic">

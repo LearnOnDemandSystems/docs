@@ -27,7 +27,7 @@
 
 <div class="roadmapContainer home">
   <div id="roadmap" class="moreInfo" tabindex="0" title="Roadmap">
-    <span class="moreInfo_header">LODS Roadmap</span>
-    Review our <a href="https://www.learnondemandsystems.com/roadmap/" title="Roadmap">Roadmap</a> and sign up to receive e-mail notifications of all platform and service updates as they are announced.
-   </div>
+    <span class="moreInfo_header">LODS Roadmaps</span>
+    Visit our <a href="https://www.learnondemandsystems.com/content-updates/" title="Content Roadmap">Content Roadmap</a>, <a href="https://www.learnondemandsystems.com/roadmap/" title="Platform Roadmap">Platform Roadmap</a> and <a href="https://www.learnondemandsystems.com/customer-support/" title="Services">Services page</a> to view updates and sign up to receive e-mail notifications to stay informed.
+    </div>
 </div>
