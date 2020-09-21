@@ -1,10 +1,10 @@
 ---
-title: "How do I create a notification to be sent to administrators and/or student when a student cancels their own enrollment?"
+title: "How do I create a notification to be sent to administrators and/or students when a student cancels their own enrollment?"
 description: "This is a template containing all the settings you need to create an automated notification to be sent to staff when a student cancels their own enrollment."
 ispublished: yes
 ---
 
-# How do I create a notification to be sent to administrators and/or student when a student cancels their own enrollment?
+# How do I create a notification to be sent to administrators and/or students when a student cancels their own enrollment?
 
 1. Open notification plans, from Site Administration on the **Notifications** tile, select **Create Notification Plan**.
 1. Input a name and description for the notification.
