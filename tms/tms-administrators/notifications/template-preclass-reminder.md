@@ -22,4 +22,5 @@ ispublished: yes
 ### Additional Resources
 
 For more information on enrollment notifications and descriptions of all the available fields, go to the article below. 
+
 [How do I create registration notifications?](/tms/tms-administrators/notifications/registration-notification.md)
