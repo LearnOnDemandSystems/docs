@@ -6,6 +6,7 @@ ispublished: yes
 
 # How do I create a notification to remind a student or instructor of their class before it begins?
 
+1. Open notification plans, from Site Administration on the **Notifications** tile, select **Create Notification Plan**.
 1. Input a name and description for the notification.
 1. The trigger is the amount of time you set before class begins. The Trigger Event is **Class time trigger**.
 1. Add filters, for example you may want to set the Class Status to **Scheduled** and the Enrollment Status set to **Enrolled**. 
