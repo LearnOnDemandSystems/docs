@@ -1,10 +1,10 @@
 ---
-title: "How do I create a notification to let students and instructor know a class is cancelled?"
+title: "How do I create a notification to let students and instructors know a class is cancelled?"
 description: "This is a template containing all the settings you need to create an automated notification to be sent to students and instructors when a class is cancelled."
 ispublished: yes
 ---
 
-# How do I create a notification to let students and instructor know a class is cancelled?
+# How do I create a notification to let students and instructors know a class is cancelled?
 
 1. Open notification plans, from Site Administration on the **Notifications** tile, select **Create Notification Plan**.
 1. Input a name and description for the notification.
