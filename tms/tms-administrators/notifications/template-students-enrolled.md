@@ -22,4 +22,5 @@ ispublished: yes
 ### Additional Resources
 
 For descriptions of enrollment filters go to the following article.
+
 [How do I create registration notifications?](/tms/tms-administrators/notifications/registration-notification.md)
