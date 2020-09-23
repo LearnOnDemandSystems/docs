@@ -24,6 +24,7 @@ route,target
 /DiscussionBoard/Discuss/{discussionBoardId},/tms/targets/discussions-participate.md
 /DiscussionBoard/Create,/tms/targets/discussions-manage.md
 /Instructor/Search,/tms/targets/instructor-find.md
+/NotificationPlan/Create,/tms/targets/notification-create.md
 /Organization/MyOrganizations,/tms/targets/org-profile-my-orgs.md
 /Organization/Calendar/{organizationId},/tms/tms-administrators/classes/schedule/see-classes-in-calendar-view.md
 /Organization/Edit/{organizationId},/tms/targets/org-edit.md
