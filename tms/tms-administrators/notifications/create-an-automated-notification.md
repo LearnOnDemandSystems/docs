@@ -87,10 +87,12 @@ Editing delegates is for organizations using roles that limit editing of a class
 Class custom users is a custom field option that can be added to a class allowing specific users to be selected based on their role. Enabling Class custom users on your notification allows you to select from custom fields that are enabled to use Class custom users. Select the custom fields you want added and notifications are sent to the users added to a class through that field. 
 
 **Organization Managers**
-Adding Organization managers allows you to choose roles, like Operations Manager or Automated Notification Recipient 1, once added all users with that role are sent a notification.
+Adding Organization managers allows you to choose roles, like Operations Manager or Automated Notification Recipient 1*, once added all users with that role are sent a notification.
 
 **Company Managers**
 A company manager has access to users based on the Company added on their User profile, management of users in a company is added on the User profile’s Company Management tab. Adding Company managers to your notification allows you to choose roles, like Company Training Manager, once added all users with that role are sent a notification.
+
+* Please note: We have created roles called "Automated Notifications Recipient" and they are numbered 1-5. These roles do not have permissions, they are in place to give you flexibility to assign a user the role to have them receive a notification. 
 
 ### Add recipients of the notification
 One or multiple recipients can be set for a notification. Follow the instructions below to add recipients in the To field.
@@ -172,7 +174,9 @@ Do the following to add courses as triggers for notifications. Using courses as 
 1. Open the **Courses** tab, Applies to all courses is selected by default, click the radio button beside **Specify courses**.
 1. Under Course Groups, click the **Add Course Group** link, this opens the Choose Course Group dialog. 
 1. Input part of the **course group name**, click **Search**, and select the desired **course group**.
-1. Continue to search and select all the course groups needed, then click **OK**. The selections are added under the Course Groups heading.
+1. Continue to search and select all the course groups needed, then click **OK**. The selections are added under the Course Groups heading. 
+
+Please note: Notifications related to a class must have Enable Notifications checked to have them sent. This can be done on a class, in the Basic Information section select Show Advanced Settings and check the box for Enable Notifications. You can also add this as a default setting so that each class created has notifications enabled. To do this, edit to your Organization profile, open the Preferences tab and under Class Settings, check Enable Class Notifications.
 
 ### Additional Resources
 
