@@ -460,7 +460,7 @@ Although potentially any task could be reduced to an action that can be executed
 
 - **Type Text:** used to target the Portal window to input text. Clicking the text in the lab instructions will input text into the item in focus, on the Portal Window Type three + (plus) symbols on each side of the text that should be made into Type Text. 
 
-  > \+++Click to type in to your managed VM+++
+  > \+\+\+Click to type in to your managed VM+++
   >
   > ![](images/type-text.png "Type Text")
 
