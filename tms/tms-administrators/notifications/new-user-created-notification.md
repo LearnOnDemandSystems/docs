@@ -80,7 +80,9 @@ Editing delegates is for organizations using roles that limit editing of a class
 Class custom users is a custom field option that can be added to a class allowing specific users to be selected based on their role. Enabling Class custom users on your notification allows you to select from custom fields that are enabled to use Class custom users. Select the custom fields you want added and notifications are sent to the users added to a class through that field. 
 
 **Organization Managers**
-Adding Organization managers allows you to choose roles, like Operations Manager or Automated Notification Recipient 1, once added all users with that role are sent a notification.
+Adding Organization managers allows you to choose roles, like Operations Manager or Automated Notification Recipient 1, once added all users with that role are sent a notification.*
+
+*Please note: We have created roles called "Automated Notifications Recipient" and they are numbered 1-5. These roles do not have permissions, they are in place to give you flexibility to assign a user the role to have them receive a notification. 
 
 **Company Managers**
 A company manager has access to users based on the Company added on their User profile, management of users in a company is added on the User profile’s Company Management tab. Adding Company managers to your notification allows you to choose roles, like Company Training Manager, once added all users with that role are sent a notification.
