@@ -185,6 +185,8 @@ Do the following to add courses as triggers for notifications. Using courses as 
 1. Input part of the **course group name**, click **Search**, and select the desired **course group**.
 1. Continue to search and select all the course groups needed, then click **OK**. The selections are added under the Course Groups heading.
 
+Please note: Notifications related to a class must have Enable Notifications checked to have them sent. This can be done on a class, in the **Basic Information** section select **Show Advanced Settings** and check the box for **Enable Notifications**. You can also add this as a default setting so that each class created has notifications enabled. To do this, edit to your **Organization** profile, open the **Preferences** tab and under Class Settings, check **Enable Class Notifications**.
+
 ### Additional Resources
 
 [How can I use automated notifications?](/tms/tms-administrators/notifications/use-automated-notifications.md)
