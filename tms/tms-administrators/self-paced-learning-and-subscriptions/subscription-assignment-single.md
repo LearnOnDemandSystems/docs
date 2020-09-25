@@ -21,7 +21,7 @@ Take the following steps to create a single subscription assignment.
 
 3. **Basic Information tab**
 
-* Beside the **Studen**t field, select **Choose**; the Choose Student dialog opens.
+* Beside the **Student** field, select **Choose**; the Choose Student dialog opens.
 
 * Search for and **select a user**, then click **OK**, adding the user to the assignment.
 
