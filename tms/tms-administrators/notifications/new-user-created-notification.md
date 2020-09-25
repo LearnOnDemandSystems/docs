@@ -146,14 +146,14 @@ Follow the instructions below to enable your notification in your chosen organiz
 
 Testing a notification gives you the opportunity to verify that the notification sends when you want it to go out and does not send when you do not want it to go out. 
 
-Open your Notification Plan, if you have disabled the notification you will need to add the **Enabled** filter on the Find Notifications page and filter by **Is not Enabled**.
+Open your Notification Plan, if you have disabled the notification you will need to add the **Enabled** filter on the **Find Notifications** page and filter by **Is not Enabled**.
 
 Prepare your notification for testing.
 1. Click **Edit** on the notification.
 1. On the **Basic Information** tab, check the **Enabled** box. 
 1. **Save**.
 
-Next create a user account. [Information on creating a user account.](/tms/tms-administrators/users/student-management/create-student-user-accounts.md)
+Create a user account. [Information on creating a user account.](/tms/tms-administrators/users/student-management/create-student-user-accounts.md)
 1. Create a user account for a fake user.
 1. **Save** the user account.
 
