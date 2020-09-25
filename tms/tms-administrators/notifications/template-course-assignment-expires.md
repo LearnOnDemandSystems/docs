@@ -24,7 +24,7 @@ Testing a notification gives you the opportunity to verify that the notification
 
 Time triggered notifications are a bit more difficult to test because triggers based on days trigger at midnight. If set the trigger to before the course assignment expiration it will check for anything in the next 24 hours and if set to the trigger after the course assignment expires then it checks for anything in the previous 24 hours. When testing this notification you must wait overnight to verify that a notification is sent. If there are multiple tests you want to run, set them all up to trigger overnight so that verification does not take multiple days.
 
-Open your Notification Plan, if you have disabled the notification you will need to add the **Enabled** filter and filter by **Is not Enabled**.
+Open your Notification Plan, if you have disabled the notification you will need to add the **Enabled** filter on the Find Notifications page and filter by **Is not Enabled**.
 
 To set up testing, begin by preparing your notification.
 1. Click **Edit** on the notification.
