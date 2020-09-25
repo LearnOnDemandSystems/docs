@@ -194,7 +194,8 @@ Do the following to add courses as triggers for notifications. Using courses as 
 
 Testing a notification gives you the opportunity to verify that the notification sends when you want it to go out and does not send when you do not want it to go out. You can limit the impact by restricting the notification to only go out for one course.
 
-Open your Notification Plan, if you have disabled the notification you will need to add the **Enabled** filter on the Find Notifications page and filter by **Is not Enabled**.
+Open your Notification Plan, if you have disabled the notification you will need to add the **Enabled** filter on the **Find Notifications** page and filter by **Is not Enabled**.
+
 To set up testing, begin by preparing your notification.
 1. Click **Edit** on the notification.
 1. Open the **Courses** tab and select **Specify courses**.
@@ -203,7 +204,7 @@ To set up testing, begin by preparing your notification.
 1. On the **Basic Information** tab, check the **Enabled** box. 
 1. **Save**.
 
-Next create a course assignment.
+Create a course assignment.
 1. Create a new course assignment using the course set on your notification. 
 1. **Save** the course assignment.
 1. If the notification is set to only trigger on the first occurrence, you will need to create a second course assignment for the same student with the same course to verify the notification.
