@@ -26,18 +26,20 @@ To enable notifications on a class,
 1. Edit the class and stay in the **Basic Information** section.
 1. Select **Show Advanced Settings** in the top right above the section header.
 1. Check the box for **Enable Notifications**. 
+1. **Save**.
 
 You can also add this as a default setting so that each class created has notifications enabled. To do this, 
 1. Edit your **Organization** profile. 
 1. Open the **Preferences** tab. 
 1. Under Class Settings, check **Enable Class Notifications**.
+1. **Save**.
 
 ## Test a pre-class reminder notification
 Testing a notification gives you the opportunity to verify that the notification sends when you want it to go out and does not send when you do not want it to go out. You can limit the impact by restricting the notification to only go out for one course.
 
 Time trigger notifications are sent out at the top of each hour and trigger for any class within the previous 59 minutes. If your notification is set up to send a reminder 24 hours before class starts, you will need to schedule a class starting the next day at the at the beginning of the next hour (at 12:00, 1:00, 2:00, etc.) or within the 59 minutes before the next hour. For example, if it is currently July 1st at 1:45PM when you are testing the notification, you will schedule the class for July 2nd at 2PM. 
 
-Open your Notification Plan, if you have disabled the notification you will need to add the **Enabled** filter on the Find Notifications page and filter by **Is not Enabled**.
+Open your Notification Plan, if you have disabled the notification you will need to add the **Enabled** filter on the **Find Notifications** page and filter by **Is not Enabled**.
 
 To set up testing, begin by preparing your notification.
 1. Click **Edit** on the notification.
@@ -51,7 +53,7 @@ Create a class.
 1. Create a new class using the course set on your notification.
 1. Verify the time zone matches the time zone you are in.
 1. Verify any notification filters you have set are set in the class. For example, if the class must be Dedicated for the notification to send, then assign a company to the class.
-1. Schedule the first class session for tomorrow's date and have it on the next hour, if it is 1:01PM-1:59PM set the class to start at 2PM.
+1. Schedule the first class session for tomorrow's date and have it on the next hour, for example, if it is currently 1:01PM-1:59PM set the class to start at 2PM.
 1. **Save** the class.
 
 Check for notifications.
