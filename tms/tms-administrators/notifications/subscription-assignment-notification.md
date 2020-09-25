@@ -162,10 +162,11 @@ Do the following to add subscription profiles as triggers for notifications. Add
 Testing a notification gives you the opportunity to verify that the notification sends when you want it to go out and does not send when you do not want it to go out. You can limit the impact by restricting the notification to only go out for one subscription profile.
 
 To set up testing, begin by setting up a Subscription profile. [Instructions to set up a subscription profile.](/tms/tms-administrators/self-paced-learning-and-subscriptions/create-subscription.md)
+1. Create a Subscription Profile.
 1.  On the **Courses** tab, search for and select a course named, **Testing Automated Notifications**, then click **OK**. If you do not have access to this course open a ticket to our Help Desk.
 1. **Save**
 
-Open your Notification Plan, if you have disabled the notification you will need to add the **Enabled** filter on the Find Notifications page and filter by **Is not Enabled**.
+Open your Notification Plan, if you have disabled the notification you will need to add the **Enabled** filter on the **Find Notifications** page and filter by **Is not Enabled**.
 
 Prepare your notification for testing.
 1. Click **Edit** on the notification.
@@ -175,7 +176,7 @@ Prepare your notification for testing.
 1. On the **Basic Information** tab, check the **Enabled** box. 
 1. **Save**.
 
-Next create a subscription assignment.  [Instructions to create a subscription assignment.](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-single.md)
+Create a subscription assignment.  [Instructions to create a subscription assignment.](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-single.md)
 1. Create a **subscription assignment** using the subscription profile set on your notification. 
 1. **Save** the assignment.
 
