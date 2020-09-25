@@ -87,6 +87,6 @@
         <div class="subtopic_title">How do I create a notification reminding a student when their course assignment will expire?</div>
       </a>
     </div>
-  </div>
+  </div> 
 </div>
 
