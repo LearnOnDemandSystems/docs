@@ -155,9 +155,9 @@ Do the following to add user roles as triggers for notifications. Using user rol
 
 ## Test a user role assigned notification
 
-Testing a notification gives you the opportunity to verify that the notification sends when you want it to go out and does not send when you do not want it to go out. You can limit the impact by restricting the notification to only go out for one subscription profile.
+Testing a notification gives you the opportunity to verify that the notification sends when you want it to go out and does not send when you do not want it to go out. 
 
-Open your Notification Plan, if you have disabled the notification you will need to add the **Enabled** filter on the Find Notifications page and filter by **Is not Enabled**.
+Open your Notification Plan, if you have disabled the notification you will need to add the **Enabled** filter on the **Find Notifications** page and filter by **Is not Enabled**.
 
 Prepare your notification for testing.
 1. Click **Edit** on the notification.
@@ -167,7 +167,7 @@ Prepare your notification for testing.
 1. On the **Basic Information** tab, check the **Enabled** box. 
 1. **Save**.
 
-Next create add the role to a user account.
+Create add the role to a user account.
 1. **Edit** your own account or a test user account and add the **Automated Notifications Recipient 1** role. 
 1. **Save** the user account.
 
