@@ -278,25 +278,23 @@ Create enrollments.
 1. Click **Save** at the bottom of the roster to complete the enrollments.
 
 Check for notifications.
-1. Click the **Details** link in the top right corner of the page to return to the Class profile.
+1. Click the **Details** link in the top right corner of the page to return to the **Class** profile.
 1. Click the **Find Sent Notifications** link to view all notifications sent for the class.
 
 
 ### Additional Resources
 
-[How can I use automated notifications?](/tms/tms-administrators/notifications/use-automated-notifications.md)
-
-[How do I create an automated notification?](/tms/tms-administrators/notifications/create-an-automated-notification.md)
-
-[How do I create instructor notifications?](/tms/tms-administrators/notifications/instructor-notifications.md)
-
-[How do I create class notifications?](/tms/tms-administrators/notifications/class-notifications.md)
-
-[How do I create course assignment notifications?](/tms/tms-administrators/notifications/course-assignment-notifications.md)
-
-[How do I create a user created notification?](/tms/tms-administrators/notifications/new-user-created-notification.md)
-
-[How do I create a user role assignment notification?](/tms/tms-administrators/notifications/user-role-notification.md)
-
-[How do I create a subscription assignment notification?](/tms/tms-administrators/notifications/subscription-assignment-notification.md)
+- [How do I create a notification that is sent to students when they are enrolled?](/tms/tms-administrators/notifications/template-students-enrolled.md)
+- [How do I create a notification that is sent to students when their enrollment is cancelled by an administrator?](/tms/tms-administrators/notifications/template-admin-cancel.md)
+- [How do I create a notification to be sent to administrators and/or students when a student cancels their own enrollment?](/tms/tms-administrators/notifications/template-student-cancels.md)
+- [How do I create a notification to be sent to a student who has cancelled their enrollment in the late cancellation window?](/tms/tms-administrators/notifications/template-late-cancel.md)
+- [How do I create a notification to be sent to my organization’s staff when a student requests enrollment?](/tms/tms-administrators/notifications/template-student-request-enrollment.md)
+- [How can I use automated notifications?](/tms/tms-administrators/notifications/use-automated-notifications.md)
+- [How do I create an automated notification?](/tms/tms-administrators/notifications/create-an-automated-notification.md)
+- [How do I create instructor notifications?](/tms/tms-administrators/notifications/instructor-notifications.md)
+- [How do I create class notifications?](/tms/tms-administrators/notifications/class-notifications.md)
+- [How do I create course assignment notifications?](/tms/tms-administrators/notifications/course-assignment-notifications.md)
+- [How do I create a user created notification?](/tms/tms-administrators/notifications/new-user-created-notification.md)
+- [How do I create a user role assignment notification?](/tms/tms-administrators/notifications/user-role-notification.md)
+- [How do I create a subscription assignment notification?](/tms/tms-administrators/notifications/subscription-assignment-notification.md)
 
