@@ -145,10 +145,10 @@ Follow the instructions below to enable your notification in your chosen organiz
 1. Open the **Organizations** tab, you will see a listing of organizations you manage.
 1. Check the box beside the **organization(s)** that will use the notification.
 
-## Specify which courses are required for the notification to be sent
+## Specify which subscription profiles are required for the notification to be sent
 Your notification can be set to apply to all subscription profiles or to only apply to specific subscription profiles. It defaults to being used with specific subscription profiles.
 
-### Add courses to trigger notifications
+### Add subscriptions to trigger notifications
 Do the following to add subscription profiles as triggers for notifications. Adding subscription profiles as a trigger limits the notification to only be sent for the selected subscriptions.
 
 **Individual subscription profiles**
@@ -159,13 +159,13 @@ Do the following to add subscription profiles as triggers for notifications. Add
 
 ## Test a subscription assignment notification
 
-Testing a notification gives you the opportunity to verify that the notification sends when you want it to go out and does not send when you do not want it to go out. You can limit the impact by restricting the notification to only go out for one course.
-
-Open your Notification Plan, if you have disabled the notification you will need to add the **Enabled** filter and filter by **Is not Enabled**.
+Testing a notification gives you the opportunity to verify that the notification sends when you want it to go out and does not send when you do not want it to go out. You can limit the impact by restricting the notification to only go out for one subscription profile.
 
 To set up testing, begin by setting up a Subscription profile. [Instructions to set up a subscription profile.](/tms/tms-administrators/self-paced-learning-and-subscriptions/create-subscription.md)
 1.  On the **Courses** tab, search for and select a course named, **Testing Automated Notifications**, then click **OK**. If you do not have access to this course open a ticket to our Help Desk.
 1. **Save**
+
+Open your Notification Plan, if you have disabled the notification you will need to add the **Enabled** filter and filter by **Is not Enabled**.
 
 Prepare your notification for testing.
 1. Click **Edit** on the notification.
