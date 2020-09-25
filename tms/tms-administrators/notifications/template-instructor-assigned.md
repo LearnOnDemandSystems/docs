@@ -57,6 +57,14 @@ Check for notifications.
 1. Click the **Details** link in the top right corner of the page to return to the **Class** profile.
 1. Click the **Find Sent Notifications** link to view all notifications sent for the class.
 
+## Enable your notification
+
+Once you have completed testing, you will want to enable your notification to put it in use.
+1. Return to your **Notification Plan** to click **Edit** and open the **Courses** tab. 
+1. To make your notification available for all courses used in your organization, remove the **Testing Automated Notifications** course and select **Applies to all courses**.
+1. To make your notification available for specific courses used in your organization, remove the **Testing Automated Notifications** course. Click **Add Course** and select all courses that need this notification.
+1. **Save**.
+
 ### Additional Resources
 
 For more information on instructor notifications and descriptions of all the available fields, go to the article below.
