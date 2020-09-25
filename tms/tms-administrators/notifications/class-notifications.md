@@ -211,7 +211,7 @@ You can also add this as a default setting so that each class created has notifi
 1. Open the **Preferences** tab. 
 1. Under Class Settings, check **Enable Class Notifications**.
 
-## Test a registration notification
+## Test a class notification
 
 Testing a notification gives you the opportunity to verify that the notification sends when you want it to go out and does not send when you do not want it to go out. You can limit the impact by restricting the notification to only go out for one course.
 
