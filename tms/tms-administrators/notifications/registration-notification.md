@@ -240,17 +240,21 @@ Do the following to add courses as triggers for notifications. Using courses as 
 1. Continue to search and select all the course groups needed, then click **OK**. The selections are added under the Course Groups heading.
 
 ## Enable notifications on a class
+
 Notifications related to classes must have Enable Notifications checked to have them sent. 
 
 To enable notifications on a class,
 1. Edit the class and stay in the **Basic Information** section.
 1. Select **Show Advanced Settings** in the top right above the section header.
 1. Check the box for **Enable Notifications**. 
+1. **Save.**
 
 You can also add this as a default setting so that each class created has notifications enabled. To do this, 
 1. Edit your **Organization** profile. 
 1. Open the **Preferences** tab. 
 1. Under Class Settings, check **Enable Class Notifications**.
+1. **Save.**
+
 
 ## Test a registration notification
 
