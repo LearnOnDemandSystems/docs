@@ -180,8 +180,7 @@ Next create a subscription assignment.  [Instructions to create a subscription a
 1. **Save** the assignment.
 
 Check for notifications.
-1. Click the **Details** link in the top right corner of the page to return to the **Class** profile.
-1. Click the **Find Sent Notifications** link to view all notifications sent for the class.
+1. On the Site Administration page, on the **Notification Plans** tile, click the **Find Sent Notifications** link to view all notifications sent.
 
 ## Enable your notification
 
