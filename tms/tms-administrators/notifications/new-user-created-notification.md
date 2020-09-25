@@ -144,7 +144,7 @@ Follow the instructions below to enable your notification in your chosen organiz
 
 ## Test a user created notification
 
-Testing a notification gives you the opportunity to verify that the notification sends when you want it to go out and does not send when you do not want it to go out. You can limit the impact by restricting the notification to only go out for one subscription profile.
+Testing a notification gives you the opportunity to verify that the notification sends when you want it to go out and does not send when you do not want it to go out. 
 
 Open your Notification Plan, if you have disabled the notification you will need to add the **Enabled** filter on the Find Notifications page and filter by **Is not Enabled**.
 
