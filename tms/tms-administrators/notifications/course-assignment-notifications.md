@@ -57,7 +57,7 @@ Notifications are normally sent each time your selected trigger event(s) takes p
 **Time Trigger - days**
 Only displays for the Course assignment expiration trigger.
 
-Input the number of days before course assignment expires to notify a student that their course assignment access is nearly over.
+Input the number of days before course assignment expires to notify a student that their course assignment access is nearly over. Or input the number of days after the course assignment expires to notify a student that their access is over.
 
 ### Add trigger filters
 Select filters you wish to add.
@@ -190,20 +190,47 @@ Do the following to add courses as triggers for notifications. Using courses as 
 1. Input part of the **course group name**, click **Search**, and select the desired **course group**.
 1. Continue to search and select all the course groups needed, then click **OK**. The selections are added under the Course Groups heading.
 
+## Test a course assignment notification
+
+Testing a notification gives you the opportunity to verify that the notification sends when you want it to go out and does not send when you do not want it to go out. You can limit the impact by restricting the notification to only go out for one course.
+
+Open your Notification Plan, if you have disabled the notification you will need to add the **Enabled** filter and filter by **Is not Enabled**.
+
+To set up testing, begin by preparing your notification.
+1. Click **Edit** on the notification.
+1. Open the **Courses** tab and select **Specify courses**.
+1. Under the **Individual courses** heading, click **Add course**.
+1. Search for and select a course named, **Testing Automated Notifications**, then click **OK**. If you do not have access to this course open a ticket to our Help Desk.
+1. On the **Basic Information** tab, check the **Enabled** box. 
+1. **Save**.
+
+Next create a course assignment.
+1. Create a new course assignment using the course set on your notification. 
+1. **Save** the course assignment.
+1. If the notification is set to only trigger on the first occurrence, you will need to create a second course assignment for the same student with the same course to verify the notification.
+
+Time triggered notification testing.
+Time triggered notifications are a bit more difficult to test because triggers based on hours only trigger at the top of the hour and include anything in the previous 59 minutes. Triggers based on days, trigger at midnight; if set to before the course assignment expiration it will check for anything in the next 24 hours, and if set to the trigger after the course assignment expires then it checks for anything in the previous 24 hours. 
+
+Course assignment expiration is triggered in days, which means you must wait overnight to verify that a notification is sent. If there are multiple tests you want to run, set them all up to trigger overnight so that verification does not take multiple days.
+
+1. If you are setting up a notification for a course assignment expiration notification, first follow the steps above to create a course assignment.
+1. **Edit** the course assigment, 
+- to test **XX days Before Course Assignment Expires** change the **Exires** date to XX plus 1 day. For example, if you have set the notification to be sent 30 days before the course assignment expires, then you will want the course assignment to be set to expire 31 days from the current date. 
+- to test **XX days After Course Assignment Expires** change the **Exires** date to XX minus 1 day. For example, if you have set the notification to be sent 1 day after the course assignment expires, then you will want the course assignment to be set to expire on the current date. 
+
+Check for notifications.
+1. Click the **Details** link in the top right corner of the page to return to the **Class** profile.
+1. Click the **Find Sent Notifications** link to view all notifications sent for the class.
+
 ### Additional Resources
 
-[How can I use automated notifications?](/tms/tms-administrators/notifications/use-automated-notifications.md)
-
-[How do I create an automated notification?](/tms/tms-administrators/notifications/create-an-automated-notification.md)
-
-[How do I create registration notifications?](/tms/tms-administrators/notifications/registration-notification.md)
-
-[How do I create instructor notifications?](/tms/tms-administrators/notifications/instructor-notifications.md)
-
-[How do I create class notifications?](/tms/tms-administrators/notifications/class-notifications.md)
-
-[How do I create a user created notification?](/tms/tms-administrators/notifications/new-user-created-notification.md)
-
-[How do I create a user role assignment notification?](/tms/tms-administrators/notifications/user-role-notification.md)
-
-[How do I create a subscription assignment notification?](/tms/tms-administrators/notifications/subscription-assignment-notification.md)
+- [How do I create a notification reminding a student when their course assignment will expire?](/tms/tms-administrators/notifications/template-course-assignment-expires.md)
+- [How can I use automated notifications?](/tms/tms-administrators/notifications/use-automated-notifications.md)
+- [How do I create an automated notification?](/tms/tms-administrators/notifications/create-an-automated-notification.md)
+- [How do I create registration notifications?](/tms/tms-administrators/notifications/registration-notification.md)
+- [How do I create instructor notifications?](/tms/tms-administrators/notifications/instructor-notifications.md)
+- [How do I create class notifications?](/tms/tms-administrators/notifications/class-notifications.md)
+- [How do I create a user created notification?](/tms/tms-administrators/notifications/new-user-created-notification.md)
+- [How do I create a user role assignment notification?](/tms/tms-administrators/notifications/user-role-notification.md)
+- [How do I create a subscription assignment notification?](/tms/tms-administrators/notifications/subscription-assignment-notification.md)
