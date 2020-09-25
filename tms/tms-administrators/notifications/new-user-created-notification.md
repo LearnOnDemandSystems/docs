@@ -142,20 +142,33 @@ Follow the instructions below to enable your notification in your chosen organiz
 1. Open the **Organizations** tab, you will see a listing of organizations you manage.
 1. Check the box beside the **organization(s)** that will use the notification.
 
+## Test a user created notification
+
+Testing a notification gives you the opportunity to verify that the notification sends when you want it to go out and does not send when you do not want it to go out. You can limit the impact by restricting the notification to only go out for one subscription profile.
+
+Open your Notification Plan, if you have disabled the notification you will need to add the **Enabled** filter on the Find Notifications page and filter by **Is not Enabled**.
+
+Prepare your notification for testing.
+1. Click **Edit** on the notification.
+1. On the **Basic Information** tab, check the **Enabled** box. 
+1. **Save**.
+
+Next create a user account. [Information on creating a user account.](/tms/tms-administrators/users/student-management/create-student-user-accounts.md)
+1. Create a user account for a fake user.
+1. **Save** the user account.
+
+Check for notifications.
+1. On the Site Administration page, on the **Notification Plans** tile, click the **Find Sent Notifications** link to view all notifications sent.
+
+Your user creation notification is enabled and in place, if it is not working as desired, be sure to edit the notification plan to disable it.
+
 ### Additional Resources
 
-[How can I use automated notifications?](/tms/tms-administrators/notifications/use-automated-notifications.md)
-
-[How do I create an automated notification?](/tms/tms-administrators/notifications/create-an-automated-notification.md)
-
-[How do I create registration notifications?](/tms/tms-administrators/notifications/registration-notification.md)
-
-[How do I create instructor notifications?](/tms/tms-administrators/notifications/instructor-notifications.md)
-
-[How do I create class notifications?](/tms/tms-administrators/notifications/class-notifications.md)
-
-[How do I create course assignment notifications?](/tms/tms-administrators/notifications/course-assignment-notifications.md)
-
-[How do I create a user role assigned notification?](/tms/tms-administrators/notifications/user-role-notification.md)
-
-[How do I create a subscription assignment notification?](/tms/tms-administrators/notifications/subscription-assignment-notification.md)
+- [How can I use automated notifications?](/tms/tms-administrators/notifications/use-automated-notifications.md)
+- [How do I create an automated notification?](/tms/tms-administrators/notifications/create-an-automated-notification.md)
+- [How do I create registration notifications?](/tms/tms-administrators/notifications/registration-notification.md)
+- [How do I create instructor notifications?](/tms/tms-administrators/notifications/instructor-notifications.md)
+- [How do I create class notifications?](/tms/tms-administrators/notifications/class-notifications.md)
+- [How do I create course assignment notifications?](/tms/tms-administrators/notifications/course-assignment-notifications.md)
+- [How do I create a user role assigned notification?](/tms/tms-administrators/notifications/user-role-notification.md)
+- [How do I create a subscription assignment notification?](/tms/tms-administrators/notifications/subscription-assignment-notification.md)
