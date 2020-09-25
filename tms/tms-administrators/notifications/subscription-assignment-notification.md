@@ -157,20 +157,48 @@ Do the following to add subscription profiles as triggers for notifications. Add
 1. Input part of the **profile name**, click **Search**, and select the desired **subscription**.
 1. Continue to search and select all the subscriptions needed, then click **OK**. The selections are added under the Individual subscription profiles heading.
 
+## Test a subscription assignment notification
+
+Testing a notification gives you the opportunity to verify that the notification sends when you want it to go out and does not send when you do not want it to go out. You can limit the impact by restricting the notification to only go out for one course.
+
+Open your Notification Plan, if you have disabled the notification you will need to add the **Enabled** filter and filter by **Is not Enabled**.
+
+To set up testing, begin by setting up a Subscription profile. [Instructions to set up a subscription profile.](/tms/tms-administrators/self-paced-learning-and-subscriptions/create-subscription.md)
+1.  On the **Courses** tab, search for and select a course named, **Testing Automated Notifications**, then click **OK**. If you do not have access to this course open a ticket to our Help Desk.
+1. **Save**
+
+Prepare your notification for testing.
+1. Click **Edit** on the notification.
+1. Open the **Subscription Profiles** tab and select **Specify subscription profiles**.
+1. Click **Add Subscription Profile**.
+1. Search for and select the subscription profile you created for testing, then click **OK**.
+1. On the **Basic Information** tab, check the **Enabled** box. 
+1. **Save**.
+
+Next create a subscription assignment.  [Instructions to create a subscription assignment.](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-single.md)
+1. Create a **subscription assignment** using the subscription profile set on your notification. 
+1. **Save** the assignment.
+
+Check for notifications.
+1. Click the **Details** link in the top right corner of the page to return to the **Class** profile.
+1. Click the **Find Sent Notifications** link to view all notifications sent for the class.
+
+## Enable your notification
+
+Once you have completed testing, you will want to enable your notification to put it in use.
+1. Return to your **Notification Plan** to click **Edit** and open the **Subscription Profiles** tab. 
+1. To make your notification available for all subscriptions used in your organization, remove the subscription profile used to test the notification and select **Applies to all subscription profiles**.
+1. To make your notification available for specific subscription profiles used in your organization, remove the subscription profile used to test the notification. Click **Add Subscription Profile** and select all subscriptions that need this notification, then click **OK**.
+1. **Save**.
+
+
 ### Additional Resources
 
-[How can I use automated notifications?](/tms/tms-administrators/notifications/use-automated-notifications.md)
-
-[How do I create an automated notification?](/tms/tms-administrators/notifications/create-an-automated-notification.md)
-
-[How do I create registration notifications?](/tms/tms-administrators/notifications/registration-notification.md)
-
-[How do I create instructor notifications?](/tms/tms-administrators/notifications/instructor-notifications.md)
-
-[How do I create class notifications?](/tms/tms-administrators/notifications/class-notifications.md)
-
-[How do I create course assignment notifications?](/tms/tms-administrators/notifications/course-assignment-notifications.md)
-
-[How do I create a user created notification?](/tms/tms-administrators/notifications/new-user-created-notification.md)
-
-[How do I create a user role assignment notification?](/tms/tms-administrators/notifications/user-role-notification.md)
+- [How can I use automated notifications?](/tms/tms-administrators/notifications/use-automated-notifications.md)
+- [How do I create an automated notification?](/tms/tms-administrators/notifications/create-an-automated-notification.md)
+- [How do I create registration notifications?](/tms/tms-administrators/notifications/registration-notification.md)
+- [How do I create instructor notifications?](/tms/tms-administrators/notifications/instructor-notifications.md)
+- [How do I create class notifications?](/tms/tms-administrators/notifications/class-notifications.md)
+- [How do I create course assignment notifications?](/tms/tms-administrators/notifications/course-assignment-notifications.md)
+- [How do I create a user created notification?](/tms/tms-administrators/notifications/new-user-created-notification.md)
+- [How do I create a user role assignment notification?](/tms/tms-administrators/notifications/user-role-notification.md)
