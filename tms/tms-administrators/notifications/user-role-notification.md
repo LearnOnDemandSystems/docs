@@ -162,7 +162,7 @@ Open your Notification Plan, if you have disabled the notification you will need
 Prepare your notification for testing.
 1. Click **Edit** on the notification.
 1. Open the **User Roles** tab and select **Specify user roles**.
-1. Click **Add Subscription PUser Role**.
+1. Click **Add User Role**.
 1. Search for and select the **Automated Notifications Recipient 1** role, then click **OK**.
 1. On the **Basic Information** tab, check the **Enabled** box. 
 1. **Save**.
