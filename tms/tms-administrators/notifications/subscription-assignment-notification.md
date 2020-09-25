@@ -165,7 +165,7 @@ To set up testing, begin by setting up a Subscription profile. [Instructions to 
 1.  On the **Courses** tab, search for and select a course named, **Testing Automated Notifications**, then click **OK**. If you do not have access to this course open a ticket to our Help Desk.
 1. **Save**
 
-Open your Notification Plan, if you have disabled the notification you will need to add the **Enabled** filter and filter by **Is not Enabled**.
+Open your Notification Plan, if you have disabled the notification you will need to add the **Enabled** filter on the Find Notifications page and filter by **Is not Enabled**.
 
 Prepare your notification for testing.
 1. Click **Edit** on the notification.
