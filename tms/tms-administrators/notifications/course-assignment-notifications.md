@@ -220,8 +220,7 @@ Course assignment expiration is triggered in days, which means you must wait ove
 - to test **XX days After Course Assignment Expires** change the **Exires** date to XX minus 1 day. For example, if you have set the notification to be sent 1 day after the course assignment expires, then you will want the course assignment to be set to expire on the current date. 
 
 Check for notifications.
-1. Click the **Details** link in the top right corner of the page to return to the **Class** profile.
-1. Click the **Find Sent Notifications** link to view all notifications sent for the class.
+1. On the Site Administration page, on the **Notification Plans** tile, click the **Find Sent Notifications** link to view all notifications sent.
 
 ## Enable your notification
 
