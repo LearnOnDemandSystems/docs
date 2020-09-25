@@ -268,7 +268,7 @@ To set up testing, begin by preparing your notification.
 
 Next create a class.
 1. Create a new class using the course set on your notification. 
-1. Verify any filters you have set are set in the class. For example, if the Class Status must be Scheduled for the notification to send, then set your Class Status to Scheduled.
+1. Verify any notification filters you have set are set in the class. For example, if the Class Status must be Scheduled for the notification to send, then set your Class Status to Scheduled.
 1. **Save** the class.
 
 Create enrollments.
