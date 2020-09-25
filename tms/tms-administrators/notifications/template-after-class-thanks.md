@@ -32,7 +32,7 @@ You can also add this as a default setting so that each class created has notifi
 1. Open the **Preferences** tab. 
 1. Under Class Settings, check **Enable Class Notifications**.
 
-## Test POST-class notification
+## Test post-class notification
 Testing a notification gives you the opportunity to verify that the notification sends when you want it to go out and does not send when you do not want it to go out. You can limit the impact by restricting the notification to only go out for one course.
 
 Time trigger notifications are sent out at the top of each hour and trigger for any class within the previous 59 minutes. If your notification is set up to send a reminder 24 hours after class ends, you will need to schedule a class starting the today and check that the notification has been sent tomorrow. 
