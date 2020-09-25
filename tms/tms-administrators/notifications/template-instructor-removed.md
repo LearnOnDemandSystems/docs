@@ -63,7 +63,7 @@ Check for notifications.
 Once you have completed testing, you will want to enable your notification to put it in use.
 1. Return to your **Notification Plan** to click **Edit** and open the **Courses** tab. 
 1. To make your notification available for all courses used in your organization, remove the **Testing Automated Notifications** course and select **Applies to all courses**.
-1. To make your notification available for specific courses used in your organization, remove the **Testing Automated Notifications** course. Click **Add Course** and select all courses that need this notification.
+1. To make your notification available for specific courses used in your organization, remove the **Testing Automated Notifications** course. Click **Add Course** and select all courses that need this notification, then click **OK**.
 1. **Save**.
 
 ### Additional Resources
