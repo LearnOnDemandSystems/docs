@@ -1,0 +1,3511 @@
+{
+	"info": {
+		"_postman_id": "670dd1f3-b295-41d6-b266-d41afd0349eb",
+		"name": "TMS Postman Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GetUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/GetUser?id=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"GetUser"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The ID of the user to retrieve"
+						}
+					]
+				},
+				"description": "Allows you to get information about a user."
+			},
+			"response": []
+		},
+		{
+			"name": "GetUserByEmail",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/GetUserByEmail?email=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"GetUserByEmail"
+					],
+					"query": [
+						{
+							"key": "email",
+							"value": "",
+							"description": "The e-mail address of the user to retrieve"
+						}
+					]
+				},
+				"description": "Allows you to get information about a user by providing an email address."
+			},
+			"response": []
+		},
+		{
+			"name": "GetUserByExternalId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/GetUserByExternalId?id=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"GetUserByExternalId"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The external ID of the user to retrieve"
+						}
+					]
+				},
+				"description": "Allows you to get information about a user by providing a unique identifier from your external system."
+			},
+			"response": []
+		},
+		{
+			"name": "CreateUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/CreateUser?UserName=&Password=&Email=&FirstName=&LastName=&OrganizationId=&ExternalId=&MiddleName=&Title=&CompanyId=&ManagerId=&Disabled=&Phone=&Phone2=&Address1=&Address1=&City=&State=&Country=&Zip=&ProfileImageUrl=&TimeZoneId=&RoleId=&ManagedOrganizationId=&ForcePasswordChange=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"CreateUser"
+					],
+					"query": [
+						{
+							"key": "UserName",
+							"value": "",
+							"description": "The user's username (used during sign-in)"
+						},
+						{
+							"key": "Password",
+							"value": "",
+							"description": "The user's password (used during sign-in)"
+						},
+						{
+							"key": "Email",
+							"value": "",
+							"description": "The user's e-mail address"
+						},
+						{
+							"key": "FirstName",
+							"value": "",
+							"description": "The user's first name"
+						},
+						{
+							"key": "LastName",
+							"value": "",
+							"description": "The user's last name"
+						},
+						{
+							"key": "OrganizationId",
+							"value": "",
+							"description": "The unique identifier of the organization the user belongs to"
+						},
+						{
+							"key": "ExternalId",
+							"value": "",
+							"description": "The user's external ID, usually a unique identifier from the calling system"
+						},
+						{
+							"key": "MiddleName",
+							"value": "",
+							"description": "The user's middle name"
+						},
+						{
+							"key": "Title",
+							"value": "",
+							"description": "The user's title"
+						},
+						{
+							"key": "CompanyId",
+							"value": "",
+							"description": "The Id of the user's company (set only if the user belongs to a company)"
+						},
+						{
+							"key": "ManagerId",
+							"value": "",
+							"description": "The user Id of the user's manager (set only if the user belongs to a manager)"
+						},
+						{
+							"key": "Disabled",
+							"value": "",
+							"description": "Indicates whether the user account has been disabled"
+						},
+						{
+							"key": "Phone",
+							"value": "",
+							"description": "The user's phone number"
+						},
+						{
+							"key": "Phone2",
+							"value": "",
+							"description": "The user's secondary phone number"
+						},
+						{
+							"key": "Address1",
+							"value": "",
+							"description": "First line of the user's address"
+						},
+						{
+							"key": "Address1",
+							"value": "",
+							"description": "Second line of the user's address"
+						},
+						{
+							"key": "City",
+							"value": "",
+							"description": "The user's city"
+						},
+						{
+							"key": "State",
+							"value": "",
+							"description": "The user's state"
+						},
+						{
+							"key": "Country",
+							"value": "",
+							"description": "The user's country"
+						},
+						{
+							"key": "Zip",
+							"value": "",
+							"description": "The user's zip/postal code"
+						},
+						{
+							"key": "ProfileImageUrl",
+							"value": "",
+							"description": "URL to the user's profile image"
+						},
+						{
+							"key": "TimeZoneId",
+							"value": "",
+							"description": "The user's time zone"
+						},
+						{
+							"key": "RoleId",
+							"value": "",
+							"description": "An identifier for the role the user should belong to"
+						},
+						{
+							"key": "ManagedOrganizationId",
+							"value": "",
+							"description": "An identifier for the organization the user should have management rights for"
+						},
+						{
+							"key": "ForcePasswordChange",
+							"value": "",
+							"description": "An optional parameter to force the user to change their password on the next login"
+						}
+					]
+				},
+				"description": "Allows you to create a user."
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/DeleteUser?Id=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"DeleteUser"
+					],
+					"query": [
+						{
+							"key": "Id",
+							"value": "",
+							"description": "The user's ID"
+						}
+					]
+				},
+				"description": "Allows you to delete a user."
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/UpdateUser?Id=&UserName=&Email=&FirstName=&LastName=&OrganizationId=&ExternalId=&MiddleName=&Title=&CompanyId=&ManagerId=&Disabled=&Phone=&Phone2=&Address1=&Address1=&City=&State=&Country=&Zip=&ProfileImageUrl=&TimeZoneId=&ForcePasswordChange=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"UpdateUser"
+					],
+					"query": [
+						{
+							"key": "Id",
+							"value": "",
+							"description": "The user's LMS unique identifier"
+						},
+						{
+							"key": "UserName",
+							"value": "",
+							"description": "The user's username (used during sign-in)"
+						},
+						{
+							"key": "Email",
+							"value": "",
+							"description": "The user's e-mail address"
+						},
+						{
+							"key": "FirstName",
+							"value": "",
+							"description": "The user's first name"
+						},
+						{
+							"key": "LastName",
+							"value": "",
+							"description": "The user's last name"
+						},
+						{
+							"key": "OrganizationId",
+							"value": "",
+							"description": "The unique identifier of the organization the user belongs to"
+						},
+						{
+							"key": "ExternalId",
+							"value": "",
+							"description": "The user's external ID, usually a unique identifier from the calling system"
+						},
+						{
+							"key": "MiddleName",
+							"value": "",
+							"description": "The user's middle name"
+						},
+						{
+							"key": "Title",
+							"value": "",
+							"description": "The user's title"
+						},
+						{
+							"key": "CompanyId",
+							"value": "",
+							"description": "The Id of the user's company (set only if the user belongs to a company)"
+						},
+						{
+							"key": "ManagerId",
+							"value": "",
+							"description": "The user Id of the user's manager (set only if the user belongs to a manager)"
+						},
+						{
+							"key": "Disabled",
+							"value": "",
+							"description": "Indicates whether the user account has been disabled"
+						},
+						{
+							"key": "Phone",
+							"value": "",
+							"description": "The user's phone number"
+						},
+						{
+							"key": "Phone2",
+							"value": "",
+							"description": "The user's secondary phone number"
+						},
+						{
+							"key": "Address1",
+							"value": "",
+							"description": "First line of the user's address"
+						},
+						{
+							"key": "Address1",
+							"value": "",
+							"description": "Second line of the user's address"
+						},
+						{
+							"key": "City",
+							"value": "",
+							"description": "The user's city"
+						},
+						{
+							"key": "State",
+							"value": "",
+							"description": "The user's state"
+						},
+						{
+							"key": "Country",
+							"value": "",
+							"description": "The user's country"
+						},
+						{
+							"key": "Zip",
+							"value": "",
+							"description": "The user's zip/postal code"
+						},
+						{
+							"key": "ProfileImageUrl",
+							"value": "",
+							"description": "URL to the user's profile image"
+						},
+						{
+							"key": "TimeZoneId",
+							"value": "",
+							"description": "The user's time zone"
+						},
+						{
+							"key": "ForcePasswordChange",
+							"value": "",
+							"description": "An optional parameter to force the user to change their password on the next login"
+						}
+					]
+				},
+				"description": "Allows you to update a user"
+			},
+			"response": []
+		},
+		{
+			"name": "AddUserToRole",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/AddUserToRole?UserId=&RoleId=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"AddUserToRole"
+					],
+					"query": [
+						{
+							"key": "UserId",
+							"value": "",
+							"description": "The user's ID"
+						},
+						{
+							"key": "RoleId",
+							"value": "",
+							"description": "The role ID"
+						}
+					]
+				},
+				"description": "Allows you to add a user to a role"
+			},
+			"response": []
+		},
+		{
+			"name": "AddUserToRoles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/AddUserToRoles?UserId=&RoleId=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"AddUserToRoles"
+					],
+					"query": [
+						{
+							"key": "UserId",
+							"value": "",
+							"description": "The user's ID"
+						},
+						{
+							"key": "RoleId",
+							"value": "",
+							"description": "An identifier for the role the user should belong to"
+						}
+					]
+				},
+				"description": "Allows you to add a user to multiple roles"
+			},
+			"response": []
+		},
+		{
+			"name": "RemoveUserFromRole",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/RemoveUserFromRole?UserId=&RoleId=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"RemoveUserFromRole"
+					],
+					"query": [
+						{
+							"key": "UserId",
+							"value": "",
+							"description": "The user's ID"
+						},
+						{
+							"key": "RoleId",
+							"value": "",
+							"description": "The role ID"
+						}
+					]
+				},
+				"description": "Allows you remove a user from a role"
+			},
+			"response": []
+		},
+		{
+			"name": "AddOrganizationManagementToUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/AddOrganizationManagementToUser?UserId=&OrganizationId=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"AddOrganizationManagementToUser"
+					],
+					"query": [
+						{
+							"key": "UserId",
+							"value": "",
+							"description": "The user's ID"
+						},
+						{
+							"key": "OrganizationId",
+							"value": "",
+							"description": "The organization ID"
+						}
+					]
+				},
+				"description": "Allows you to assign management rights over an organization to a single user"
+			},
+			"response": []
+		},
+		{
+			"name": "RemoveOrganizationManagementFromUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/RemoveOrganizationManagementFromUser?UserId=&OrganizationId=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"RemoveOrganizationManagementFromUser"
+					],
+					"query": [
+						{
+							"key": "UserId",
+							"value": "",
+							"description": "The user's ID"
+						},
+						{
+							"key": "OrganizationId",
+							"value": "",
+							"description": "The organization ID"
+						}
+					]
+				},
+				"description": "Allows you remove management rights over an organization from a single user"
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateUserPassword",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/UpdateUserPassword?Id=&Password=&ForcePasswordChange=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"UpdateUserPassword"
+					],
+					"query": [
+						{
+							"key": "Id",
+							"value": "",
+							"description": "The user's ID"
+						},
+						{
+							"key": "Password",
+							"value": "",
+							"description": "The new password"
+						},
+						{
+							"key": "ForcePasswordChange",
+							"value": "",
+							"description": "An optional parameter to force the user to change their password on the next login"
+						}
+					]
+				},
+				"description": "Allows you to update a user's password."
+			},
+			"response": []
+		},
+		{
+			"name": "GetSsoRedirectUrl",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/GetSsoRedirectUrl?UserId=&DestinationUrl=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"GetSsoRedirectUrl"
+					],
+					"query": [
+						{
+							"key": "UserId",
+							"value": "",
+							"description": "The user's LMS unique identifier"
+						},
+						{
+							"key": "DestinationUrl",
+							"value": "",
+							"description": "An optional URL that you want the user to land on within the LMS"
+						}
+					]
+				},
+				"description": "Allows you to get a URL for redirecting a user into the the LMS for single sign"
+			},
+			"response": []
+		},
+		{
+			"name": "SearchSignInHistory",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/SearchSignInHistory?pageIndex=&pageSize=&sort=&userId=&userExternalId=&after=&before=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"SearchSignInHistory"
+					],
+					"query": [
+						{
+							"key": "pageIndex",
+							"value": "",
+							"description": "A 0-based index of the paged results you wish to receive"
+						},
+						{
+							"key": "pageSize",
+							"value": "",
+							"description": "Indicates how many results you want per page"
+						},
+						{
+							"key": "sort",
+							"value": "",
+							"description": "The value you want to sort by"
+						},
+						{
+							"key": "userId",
+							"value": "",
+							"description": "An optional parameter user to filter for sign-ins for a particular user"
+						},
+						{
+							"key": "userExternalId",
+							"value": "",
+							"description": "An optional parameter used to filter for sign-ins for a particular user using an external identifier"
+						},
+						{
+							"key": "after",
+							"value": "",
+							"description": "An optional parameter used to filter for sign-ins that occured after a specified date"
+						},
+						{
+							"key": "before",
+							"value": "",
+							"description": "An optional parameter used to filter for sign-ins that occured before a specified date"
+						}
+					]
+				},
+				"description": "Allows you to search for user sign"
+			},
+			"response": []
+		},
+		{
+			"name": "SearchUserActivity",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/SearchUserActivity?pageIndex=&pageSize=&sort=&userId=&userExternalId=&activityAfter=&activityBefore=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"SearchUserActivity"
+					],
+					"query": [
+						{
+							"key": "pageIndex",
+							"value": "",
+							"description": "A 0-based index of the paged results you wish to receive"
+						},
+						{
+							"key": "pageSize",
+							"value": "",
+							"description": "Indicates how many results you want per page"
+						},
+						{
+							"key": "sort",
+							"value": "",
+							"description": "The value you want to sort by"
+						},
+						{
+							"key": "userId",
+							"value": "",
+							"description": "An optional parameter user to filter for activity for a particular user"
+						},
+						{
+							"key": "userExternalId",
+							"value": "",
+							"description": "An optional parameter used to filter for activity for a particular user using an external identifier"
+						},
+						{
+							"key": "activityAfter",
+							"value": "",
+							"description": "An optional parameter used to filter for sign-ins that occured after a specified date"
+						},
+						{
+							"key": "activityBefore",
+							"value": "",
+							"description": "An optional parameter used to filter for sign-ins that occured before a specified date"
+						}
+					]
+				},
+				"description": "Allows you to search for user activity."
+			},
+			"response": []
+		},
+		{
+			"name": "GetActiveSystemAnnouncements",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/GetActiveSystemAnnouncements?organizationId=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"GetActiveSystemAnnouncements"
+					],
+					"query": [
+						{
+							"key": "organizationId",
+							"value": "",
+							"description": "The ID of the organization for which you would like to retrieve system announcements"
+						}
+					]
+				},
+				"description": "Allows you to retreive active system announcements."
+			},
+			"response": []
+		},
+		{
+			"name": "CloseUserAccountById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/CloseUserAccountById?id=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"CloseUserAccountById"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The ID of the user to retrieve"
+						}
+					]
+				},
+				"description": "Allows you close a user account removing all identifying information from the system."
+			},
+			"response": []
+		},
+		{
+			"name": "CloseUserAccountByExternalId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/CloseUserAccountByExternalId?id=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"CloseUserAccountByExternalId"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The external ID of the user whose account to close"
+						}
+					]
+				},
+				"description": "Allows you close a user account removing all identifying information from the system by providing a unique identifier from your external system."
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteUserDataById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/DeleteUserDataById?id=&dataTypeId=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"DeleteUserDataById"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The ID of the user to delete data of"
+						},
+						{
+							"key": "dataTypeId",
+							"value": "",
+							"description": "The ID of the data type to delete"
+						}
+					]
+				},
+				"description": "Allows you remove specific types of user data for a user in the system."
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteUserDataByExternalId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/DeleteUserDataByExternalId?id=&dataTypeId=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"DeleteUserDataByExternalId"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The external ID of the user to delete data of"
+						},
+						{
+							"key": "dataTypeId",
+							"value": "",
+							"description": "The ID of the data type to delete"
+						}
+					]
+				},
+				"description": "Allows you remove specific types of user data for a user in the system by providing a unique identifier from your external system."
+			},
+			"response": []
+		},
+		{
+			"name": "GetUserRoles",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/GetUserRoles",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"GetUserRoles"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Allows you to view all user roles available to your API integration."
+			},
+			"response": []
+		},
+		{
+			"name": "GetOrganization",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/GetOrganization?id=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"GetOrganization"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The ID of the organization to retrieve"
+						}
+					]
+				},
+				"description": "Allows you to get information about an organization."
+			},
+			"response": []
+		},
+		{
+			"name": "GetOrganizationByExternalId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/GetOrganizationByExternalId?id=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"GetOrganizationByExternalId"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The external ID of the organization to retrieve"
+						}
+					]
+				},
+				"description": "Allows you to get information about an organization by providing a unique identifier from your external system."
+			},
+			"response": []
+		},
+		{
+			"name": "CreateOrganization",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/CreateOrganization?Name=&ExternalId=&Description=&ParentId=&TimeZoneId=&Culture=&DefaultRoleId=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"CreateOrganization"
+					],
+					"query": [
+						{
+							"key": "Name",
+							"value": "",
+							"description": "The organization's name"
+						},
+						{
+							"key": "ExternalId",
+							"value": "",
+							"description": "The organization's external ID, usually a unique identifier from the calling system"
+						},
+						{
+							"key": "Description",
+							"value": "",
+							"description": "An optional description"
+						},
+						{
+							"key": "ParentId",
+							"value": "",
+							"description": "The ID of the organization's parent organization"
+						},
+						{
+							"key": "TimeZoneId",
+							"value": "",
+							"description": "The organization's default time zone"
+						},
+						{
+							"key": "Culture",
+							"value": "",
+							"description": "The organization's default language/culture setting"
+						},
+						{
+							"key": "DefaultRoleId",
+							"value": "",
+							"description": "An identifier for the role new users should be assigned by default"
+						}
+					]
+				},
+				"description": "Allows you to create an organization."
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteOrganization",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/DeleteOrganization?Id=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"DeleteOrganization"
+					],
+					"query": [
+						{
+							"key": "Id",
+							"value": "",
+							"description": "The organization ID"
+						}
+					]
+				},
+				"description": "Allows you to delete an organization."
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateOrganization",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/UpdateOrganization?Id=&Name=&ExternalId=&Description=&ParentId=&TimeZoneId=&Culture=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"UpdateOrganization"
+					],
+					"query": [
+						{
+							"key": "Id",
+							"value": "",
+							"description": "The organization's LMS ID"
+						},
+						{
+							"key": "Name",
+							"value": "",
+							"description": "The organization's name"
+						},
+						{
+							"key": "ExternalId",
+							"value": "",
+							"description": "The organization's external ID, usually a unique identifier from the calling system"
+						},
+						{
+							"key": "Description",
+							"value": "",
+							"description": "An optional description"
+						},
+						{
+							"key": "ParentId",
+							"value": "",
+							"description": "The ID of the organization's parent organization"
+						},
+						{
+							"key": "TimeZoneId",
+							"value": "",
+							"description": "The organization's default time zone"
+						},
+						{
+							"key": "Culture",
+							"value": "",
+							"description": "The organization's default language/culture setting"
+						}
+					]
+				},
+				"description": "Allows you to update an organization."
+			},
+			"response": []
+		},
+		{
+			"name": "SearchCourses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/SearchCourses?pageIndex=&pageSize=&sort=&name=&externalId=&hasLabs=&createdAfter=&createdBefore=&lastModifiedAfter=&lastModifiedBefore=&availableInstructorLed=&availableSelfPaced=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"SearchCourses"
+					],
+					"query": [
+						{
+							"key": "pageIndex",
+							"value": "",
+							"description": "A 0-based index of the paged results you wish to receive"
+						},
+						{
+							"key": "pageSize",
+							"value": "",
+							"description": "Indicates how many results you want per page"
+						},
+						{
+							"key": "sort",
+							"value": "",
+							"description": "The value you want to sort by"
+						},
+						{
+							"key": "name",
+							"value": "",
+							"description": "An optional parameter used to filter for courses by name"
+						},
+						{
+							"key": "externalId",
+							"value": "",
+							"description": "An optional parameter used to filter for courses by external ID"
+						},
+						{
+							"key": "hasLabs",
+							"value": "",
+							"description": "An optional parameter used to filter for courses that contain labs"
+						},
+						{
+							"key": "createdAfter",
+							"value": "",
+							"description": "An optional parameter used to filter for courses created after a specified date"
+						},
+						{
+							"key": "createdBefore",
+							"value": "",
+							"description": "An optional parameter used to filter for courses created before a specified date"
+						},
+						{
+							"key": "lastModifiedAfter",
+							"value": "",
+							"description": "An optional parameter used to filter for courses modified after a specified date"
+						},
+						{
+							"key": "lastModifiedBefore",
+							"value": "",
+							"description": "An optional parameter used to filter for courses modified before a specified date"
+						},
+						{
+							"key": "availableInstructorLed",
+							"value": "",
+							"description": "An optional parameter used to filter for courses that are available instructor-led"
+						},
+						{
+							"key": "availableSelfPaced",
+							"value": "",
+							"description": "An optional parameter used to filter for courses that are available self-paced"
+						}
+					]
+				},
+				"description": "Allows you to search for courses."
+			},
+			"response": []
+		},
+		{
+			"name": "GetCourse",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/GetCourse?id=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"GetCourse"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The ID of the course to retrieve"
+						}
+					]
+				},
+				"description": "Allows you to get information about a course."
+			},
+			"response": []
+		},
+		{
+			"name": "GetCourseByExternalId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/GetCourseByExternalId?id=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"GetCourseByExternalId"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The external ID of the course to retrieve"
+						}
+					]
+				},
+				"description": "Allows you to get information about a course by providing a unique identifier from your external system."
+			},
+			"response": []
+		},
+		{
+			"name": "SearchCourseTagGroups",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/SearchCourseTagGroups?pageIndex=&pageSize=&sort=&name=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"SearchCourseTagGroups"
+					],
+					"query": [
+						{
+							"key": "pageIndex",
+							"value": "",
+							"description": "A 0-based index of the paged results you wish to receive"
+						},
+						{
+							"key": "pageSize",
+							"value": "",
+							"description": "Indicates how many results you want per page"
+						},
+						{
+							"key": "sort",
+							"value": "",
+							"description": "The value you want to sort by"
+						},
+						{
+							"key": "name",
+							"value": "",
+							"description": "An optional parameter used to filter for course tag groups by name"
+						}
+					]
+				},
+				"description": "Allows you to search for course tag groups."
+			},
+			"response": []
+		},
+		{
+			"name": "SearchCourseFeedback",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/SearchCourseFeedback?pageIndex=&pageSize=&sort=&courseId=&name=&createdAfter=&createdBefore=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"SearchCourseFeedback"
+					],
+					"query": [
+						{
+							"key": "pageIndex",
+							"value": "",
+							"description": "A 0-based index of the paged results you wish to receive"
+						},
+						{
+							"key": "pageSize",
+							"value": "",
+							"description": "Indicates how many results you want per page"
+						},
+						{
+							"key": "sort",
+							"value": "",
+							"description": "The value you want to sort by"
+						},
+						{
+							"key": "courseId",
+							"value": "",
+							"description": "An optional parameter used to filter for a course by Id"
+						},
+						{
+							"key": "name",
+							"value": "",
+							"description": "An optional parameter used to filter for courses by name"
+						},
+						{
+							"key": "createdAfter",
+							"value": "",
+							"description": "An optional parameter used to filter for feedback entries created after a specified date"
+						},
+						{
+							"key": "createdBefore",
+							"value": "",
+							"description": "An optional parameter used to filter for feedback entries created before a specified date"
+						}
+					]
+				},
+				"description": "Allows you to search for course feedback."
+			},
+			"response": []
+		},
+		{
+			"name": "GetClassEnrollment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/GetClassEnrollment?id=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"GetClassEnrollment"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The ID of the class enrollment to retrieve"
+						}
+					]
+				},
+				"description": "Allows you to get basic information about a class enrollment."
+			},
+			"response": []
+		},
+		{
+			"name": "GetClassEnrollmentByClassAndUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/GetClassEnrollmentByClassAndUser?classId=&userId=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"GetClassEnrollmentByClassAndUser"
+					],
+					"query": [
+						{
+							"key": "classId",
+							"value": "",
+							"description": "The ID of the class the enrollment to retrieve is for"
+						},
+						{
+							"key": "userId",
+							"value": "",
+							"description": "The ID of the user the enrollment to retrieve is for"
+						}
+					]
+				},
+				"description": "Allows you to get information about a class enrollment by providing class and user identifiers."
+			},
+			"response": []
+		},
+		{
+			"name": "GetClassEnrollmentByExternalId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/GetClassEnrollmentByExternalId?id=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"GetClassEnrollmentByExternalId"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The external ID of the class enrollment to retrieve"
+						}
+					]
+				},
+				"description": "Allows you to get information about a class enrollment by providing a unique identifier from your external system."
+			},
+			"response": []
+		},
+		{
+			"name": "CreateClassEnrollment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/CreateClassEnrollment?externalId=&classId=&userId=&enrollmentStatusId=&completionStatusId=&lateCancel=&retake=&LocationTypeId=&ClassroomId=&HoursSpent=&Grade=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"CreateClassEnrollment"
+					],
+					"query": [
+						{
+							"key": "externalId",
+							"value": "",
+							"description": "The exernal ID of the class enrollment, usually a unique identifier from the calling system"
+						},
+						{
+							"key": "classId",
+							"value": "",
+							"description": "The Id of the related class"
+						},
+						{
+							"key": "userId",
+							"value": "",
+							"description": "The Id of the related user"
+						},
+						{
+							"key": "enrollmentStatusId",
+							"value": ""
+						},
+						{
+							"key": "completionStatusId",
+							"value": ""
+						},
+						{
+							"key": "lateCancel",
+							"value": "",
+							"description": "Indicates if the class enrollment was cancelled outside the late cancellation window"
+						},
+						{
+							"key": "retake",
+							"value": "",
+							"description": "Indicates if the class enrollment is a retake"
+						},
+						{
+							"key": "LocationTypeId",
+							"value": ""
+						},
+						{
+							"key": "ClassroomId",
+							"value": "",
+							"description": "The ID of the classroom (if any) in which the student is assigned to attend the class"
+						},
+						{
+							"key": "HoursSpent",
+							"value": "",
+							"description": "The hours spent by the student in the class enrollment"
+						},
+						{
+							"key": "Grade",
+							"value": "",
+							"description": "The grade the student received for the class enrollment"
+						}
+					]
+				},
+				"description": "Allows you to create a class enrollment."
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteClassEnrollment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/DeleteClassEnrollment?id=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"DeleteClassEnrollment"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The ID of the class enrollment to delete"
+						}
+					]
+				},
+				"description": "Allows you to delete a class enrollment."
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateClassEnrollment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/UpdateClassEnrollment?id=&externalId=&classId=&userId=&enrollmentStatusId=&completionStatusId=&lateCancel=&retake=&LocationTypeId=&ClassroomId=&HoursSpent=&Grade=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"UpdateClassEnrollment"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The ID of the class enrollment"
+						},
+						{
+							"key": "externalId",
+							"value": "",
+							"description": "The exernal ID of the class enrollment, usually a unique identifier from the calling system"
+						},
+						{
+							"key": "classId",
+							"value": "",
+							"description": "The Id of the related class"
+						},
+						{
+							"key": "userId",
+							"value": "",
+							"description": "The Id of the related user"
+						},
+						{
+							"key": "enrollmentStatusId",
+							"value": ""
+						},
+						{
+							"key": "completionStatusId",
+							"value": ""
+						},
+						{
+							"key": "lateCancel",
+							"value": "",
+							"description": "Indicates if the class enrollment was cancelled outside the late cancellation window"
+						},
+						{
+							"key": "retake",
+							"value": "",
+							"description": "Indicates if the class enrollment is a retake"
+						},
+						{
+							"key": "LocationTypeId",
+							"value": ""
+						},
+						{
+							"key": "ClassroomId",
+							"value": "",
+							"description": "The ID of the classroom (if any) in which the student is assigned to attend the class"
+						},
+						{
+							"key": "HoursSpent",
+							"value": "",
+							"description": "The hours spent by the student in the class enrollment"
+						},
+						{
+							"key": "Grade",
+							"value": "",
+							"description": "The grade the student received for the class enrollment"
+						}
+					]
+				},
+				"description": "Allows you to update a class enrollment."
+			},
+			"response": []
+		},
+		{
+			"name": "SearchClassEnrollments",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/SearchClassEnrollments?pageIndex=&pageSize=&sort=&className=&studentId=&createdAfter=&createdBefore=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"SearchClassEnrollments"
+					],
+					"query": [
+						{
+							"key": "pageIndex",
+							"value": "",
+							"description": "A 0-based index of the paged results you wish to receive"
+						},
+						{
+							"key": "pageSize",
+							"value": "",
+							"description": "Indicates how many results you want per page"
+						},
+						{
+							"key": "sort",
+							"value": "",
+							"description": "The value you want to sort by"
+						},
+						{
+							"key": "className",
+							"value": "",
+							"description": "An optional parameter used to filter for class enrollments by class name"
+						},
+						{
+							"key": "studentId",
+							"value": "",
+							"description": "An optional parameter used to filter for class enrollments by the associated student's ID"
+						},
+						{
+							"key": "createdAfter",
+							"value": "",
+							"description": "An optional parameter used to filter for class enrollments created after a specified date"
+						},
+						{
+							"key": "createdBefore",
+							"value": "",
+							"description": "An optional parameter used to filter for class enrollments created before a specified date"
+						}
+					]
+				},
+				"description": "Allows you to search for a class enrollment."
+			},
+			"response": []
+		},
+		{
+			"name": "GetCourseAssignment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/GetCourseAssignment?id=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"GetCourseAssignment"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The ID of the course assignment to retrieve"
+						}
+					]
+				},
+				"description": "Allows you to get information about a course assignment."
+			},
+			"response": []
+		},
+		{
+			"name": "GetCourseAssignmentByExternalId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/GetCourseAssignmentByExternalId?id=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"GetCourseAssignmentByExternalId"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The external ID of the course assignment to retrieve"
+						}
+					]
+				},
+				"description": "Allows you to get information about a course assignment by providing a unique identifier from your external system."
+			},
+			"response": []
+		},
+		{
+			"name": "CreateCourseAssignment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/CreateCourseAssignment?ExternalId=&CourseId=&UserId=&ClubMembershipId=&Expires=&TargetCompletionDate=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"CreateCourseAssignment"
+					],
+					"query": [
+						{
+							"key": "ExternalId",
+							"value": "",
+							"description": "The course assignment's external ID, usually a unique identifier from the calling system"
+						},
+						{
+							"key": "CourseId",
+							"value": "",
+							"description": "The Id of the course associated with this course assignment"
+						},
+						{
+							"key": "UserId",
+							"value": "",
+							"description": "The UserId of the user that is associated with this course assignment"
+						},
+						{
+							"key": "ClubMembershipId",
+							"value": "",
+							"description": "The subscription (if any) associated with this course assignment"
+						},
+						{
+							"key": "Expires",
+							"value": "",
+							"description": "When the course assignment expires (if ever) (as a date string in format yyyy-MM-dd ex: 2025-12-04)"
+						},
+						{
+							"key": "TargetCompletionDate",
+							"value": "",
+							"description": "When course assignment is expected to be completed by the student (as a date string in format yyyy-MM-dd ex: 2025-12-04)"
+						}
+					]
+				},
+				"description": "Allows you to create a course assignment."
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteCourseAssignment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/DeleteCourseAssignment?id=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"DeleteCourseAssignment"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The ID of the course assignment to delete"
+						}
+					]
+				},
+				"description": "Allows you to delete a course assignment."
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateCourseAssignment",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/UpdateCourseAssignment?CourseAssignmentId=&ExternalId=&CourseId=&UserId=&ClubMembershipId=&Expires=&TargetCompletionDate=&Started=&Completed=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"UpdateCourseAssignment"
+					],
+					"query": [
+						{
+							"key": "CourseAssignmentId",
+							"value": "",
+							"description": "The ID of the course assignment"
+						},
+						{
+							"key": "ExternalId",
+							"value": "",
+							"description": "The course assignment's external ID, usually a unique identifier from the calling system"
+						},
+						{
+							"key": "CourseId",
+							"value": "",
+							"description": "The Id of the course associated with this course assignment"
+						},
+						{
+							"key": "UserId",
+							"value": "",
+							"description": "The UserId of the user that is associated with this course assignment"
+						},
+						{
+							"key": "ClubMembershipId",
+							"value": "",
+							"description": "The subscription (if any) associated with this course assignment"
+						},
+						{
+							"key": "Expires",
+							"value": "",
+							"description": "When the course assignment expires (if ever) (in a string representation of the date)"
+						},
+						{
+							"key": "TargetCompletionDate",
+							"value": "",
+							"description": "When course assignment is expected to be completed by the student (in a string representation of the date)"
+						},
+						{
+							"key": "Started",
+							"value": "",
+							"description": "When the course assignment was started (if ever) (in a string representation of the date)"
+						},
+						{
+							"key": "Completed",
+							"value": "",
+							"description": "When the course assignment was completed (if ever) (in a string representation of the date)"
+						}
+					]
+				},
+				"description": "Allows you to update a course assignment."
+			},
+			"response": []
+		},
+		{
+			"name": "SearchCourseAssignments",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/SearchCourseAssignments?pageIndex=&pageSize=&sort=&userId=&userExternalId=&courseId=&completionStatus=&createdAfter=&createdBefore=&expiresAfter=&expiresBefore=&startedAfter=&startedBefore=&completedAfter=&completedBefore=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"SearchCourseAssignments"
+					],
+					"query": [
+						{
+							"key": "pageIndex",
+							"value": "",
+							"description": "A 0-based index of the paged results you wish to receive"
+						},
+						{
+							"key": "pageSize",
+							"value": "",
+							"description": "Indicates how many results you want per page"
+						},
+						{
+							"key": "sort",
+							"value": "",
+							"description": "The value you want to sort by"
+						},
+						{
+							"key": "userId",
+							"value": "",
+							"description": "An optional parameter used to filter for course assignments for a particular user"
+						},
+						{
+							"key": "userExternalId",
+							"value": "",
+							"description": "An optional parameter used to filter for course assignments for a particular user using an external identifier"
+						},
+						{
+							"key": "courseId",
+							"value": "",
+							"description": "An optional parameter used to filter for course assignments for a particular course"
+						},
+						{
+							"key": "completionStatus",
+							"value": "",
+							"description": "An optional parameter used to filter for course assignments with a particular completion status"
+						},
+						{
+							"key": "createdAfter",
+							"value": "",
+							"description": "An optional parameter used to filter for course assignments created after a specified date"
+						},
+						{
+							"key": "createdBefore",
+							"value": "",
+							"description": "An optional parameter used to filter for course assignments created before a specified date"
+						},
+						{
+							"key": "expiresAfter",
+							"value": "",
+							"description": "An optional parameter used to filter for course assignments that expire after a specified date"
+						},
+						{
+							"key": "expiresBefore",
+							"value": "",
+							"description": "An optional parameter used to filter for course assignments that expire before a specified date"
+						},
+						{
+							"key": "startedAfter",
+							"value": "",
+							"description": "An optional parameter used to filter for course assignments started after a specified date"
+						},
+						{
+							"key": "startedBefore",
+							"value": "",
+							"description": "An optional parameter used to filter for course assignments started before a specified date"
+						},
+						{
+							"key": "completedAfter",
+							"value": "",
+							"description": "An optional parameter used to filter for course assignments completed after a specified date"
+						},
+						{
+							"key": "completedBefore",
+							"value": "",
+							"description": "An optional parameter used to filter for course assignments completed before a specified date"
+						}
+					]
+				},
+				"description": "Allows you to search for course assignments."
+			},
+			"response": []
+		},
+		{
+			"name": "SearchCourseCatalogSearchHistory",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/SearchCourseCatalogSearchHistory?pageIndex=&pageSize=&sort=&userId=&userExternalId=&searchedAfter=&searchedBefore=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"SearchCourseCatalogSearchHistory"
+					],
+					"query": [
+						{
+							"key": "pageIndex",
+							"value": "",
+							"description": "A 0-based index of the paged results you wish to receive"
+						},
+						{
+							"key": "pageSize",
+							"value": "",
+							"description": "Indicates how many results you want per page"
+						},
+						{
+							"key": "sort",
+							"value": "",
+							"description": "The value you want to sort by"
+						},
+						{
+							"key": "userId",
+							"value": "",
+							"description": "An optional parameter used to filter for searches run by a particular user"
+						},
+						{
+							"key": "userExternalId",
+							"value": "",
+							"description": "An optional parameter used to filter for searches run by a particular user using an external identifier"
+						},
+						{
+							"key": "searchedAfter",
+							"value": "",
+							"description": "An optional parameter used to filter for searches run after a specified date"
+						},
+						{
+							"key": "searchedBefore",
+							"value": "",
+							"description": "An optional parameter used to filter for searches run before a specified date"
+						}
+					]
+				},
+				"description": "Allows you to search course catalog search history records."
+			},
+			"response": []
+		},
+		{
+			"name": "SearchLabInstances",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/SearchLabInstances?pageIndex=&pageSize=&sort=&userId=&userExternalId=&labId=&courseId=&completionStatus=&startedAfter=&startedBefore=&endedAfter=&endedBefore=&lastActivityTimeAfter=&lastActivityTimeBefore=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"SearchLabInstances"
+					],
+					"query": [
+						{
+							"key": "pageIndex",
+							"value": "",
+							"description": "A 0-based index of the paged results you wish to receive"
+						},
+						{
+							"key": "pageSize",
+							"value": "",
+							"description": "Indicates how many results you want per page"
+						},
+						{
+							"key": "sort",
+							"value": "",
+							"description": "The value you want to sort by"
+						},
+						{
+							"key": "userId",
+							"value": "",
+							"description": "An optional parameter used to filter for lab instances run by a particular user"
+						},
+						{
+							"key": "userExternalId",
+							"value": "",
+							"description": "An optional parameter used to filter for lab instances for a particular user using an external identifier"
+						},
+						{
+							"key": "labId",
+							"value": "",
+							"description": "An optional parameter used to filter for instances of a particular lab"
+						},
+						{
+							"key": "courseId",
+							"value": "",
+							"description": "An optional parameter used to filter for lab instances launched from a particular course"
+						},
+						{
+							"key": "completionStatus",
+							"value": "",
+							"description": "Filters for lab instances with a particular completion status"
+						},
+						{
+							"key": "startedAfter",
+							"value": "",
+							"description": "An optional parameter used to filter for lab instances started after a specified date"
+						},
+						{
+							"key": "startedBefore",
+							"value": "",
+							"description": "An optional parameter used to filter for lab instances started before a specified date"
+						},
+						{
+							"key": "endedAfter",
+							"value": "",
+							"description": "An optional parameter used to filter for lab instances ended after a specified date"
+						},
+						{
+							"key": "endedBefore",
+							"value": "",
+							"description": "An optional parameter used to filter for lab instances ended before a specified date"
+						},
+						{
+							"key": "lastActivityTimeAfter",
+							"value": "",
+							"description": "An optional parameter used to filter for lab instances who's last activity time is after a specified date"
+						},
+						{
+							"key": "lastActivityTimeBefore",
+							"value": "",
+							"description": "An optional parameter used to filter for lab instances who's last activity time is before a specified date"
+						}
+					]
+				},
+				"description": "Allows you to search for lab instances."
+			},
+			"response": []
+		},
+		{
+			"name": "SearchCourseExternalActivityLaunches",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/SearchCourseExternalActivityLaunches?pageIndex=&pageSize=&sort=&userId=&userExternalId=&courseId=&activityType=&launchedAfter=&launchedBefore=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"SearchCourseExternalActivityLaunches"
+					],
+					"query": [
+						{
+							"key": "pageIndex",
+							"value": "",
+							"description": "A 0-based index of the paged results you wish to receive"
+						},
+						{
+							"key": "pageSize",
+							"value": "",
+							"description": "Indicates how many results you want per page"
+						},
+						{
+							"key": "sort",
+							"value": "",
+							"description": "The value you want to sort by"
+						},
+						{
+							"key": "userId",
+							"value": "",
+							"description": "An optional parameter used to filter for launches made by a particular user"
+						},
+						{
+							"key": "userExternalId",
+							"value": "",
+							"description": "An optional parameter used to filter for launches made by a particular user using an external identifier"
+						},
+						{
+							"key": "courseId",
+							"value": "",
+							"description": "An optional parameter used to filter for launches from a particular course"
+						},
+						{
+							"key": "activityType",
+							"value": "",
+							"description": "Filters for activities of a particular type"
+						},
+						{
+							"key": "launchedAfter",
+							"value": "",
+							"description": "An optional parameter used to filter for activities launched after a specified date"
+						},
+						{
+							"key": "launchedBefore",
+							"value": "",
+							"description": "An optional parameter used to filter for activities launched before a specified date"
+						}
+					]
+				},
+				"description": "Allows you to search external course activity launches (videos, documents, etc.)."
+			},
+			"response": []
+		},
+		{
+			"name": "GetClass",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/GetClass?id=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"GetClass"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The ID of the class to retrieve"
+						}
+					]
+				},
+				"description": "Allows you to get information about a class."
+			},
+			"response": []
+		},
+		{
+			"name": "GetClassByClassTrainingKey",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/GetClassByClassTrainingKey?id=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"GetClassByClassTrainingKey"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The external ID of the class to retrieve"
+						}
+					]
+				},
+				"description": "Allows you to get information about a class using the class training key."
+			},
+			"response": []
+		},
+		{
+			"name": "GetClassByExternalId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/GetClassByExternalId?id=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"GetClassByExternalId"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The external ID of the class to retrieve"
+						}
+					]
+				},
+				"description": "Allows you to get information about a class by providing a unique identifier from your external system."
+			},
+			"response": []
+		},
+		{
+			"name": "CreateClass",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/CreateClass?CourseId=&Name=&Description=&HtlmDescription=&ConfirmationStatusId=&OrganizationId=&CompanyId=&DeliveryTypeId=&VirtualMeetingHostId=&CustomVirtualClassroomUrl=&PrimaryInstructorId=&PrimaryClassroomId=&TimeZoneId=&MinStudents=&MaxStudents=&AllowSelfEnrollment=&IsPublic=&DisableLabs=&SurveyId=&StudentSurveyAvailabilityStartTypeId=&SurveyAvailabilityStartHours=&SurveyAvailabilityEndDays=&InstructorSurveyId=&OrganizationSurveyId=&ExternalId=&ClassMeetings=&AvailableToOrganizationIds=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"CreateClass"
+					],
+					"query": [
+						{
+							"key": "CourseId",
+							"value": "",
+							"description": "The internal Id of the course the class is based on"
+						},
+						{
+							"key": "Name",
+							"value": "",
+							"description": "The name of the class"
+						},
+						{
+							"key": "Description",
+							"value": "",
+							"description": "A short description of the class"
+						},
+						{
+							"key": "HtlmDescription",
+							"value": "",
+							"description": "A description of the class in HTML"
+						},
+						{
+							"key": "ConfirmationStatusId",
+							"value": "",
+							"description": "The confirmation status of the class"
+						},
+						{
+							"key": "OrganizationId",
+							"value": "",
+							"description": "The internal Id of the Organization that is running the class"
+						},
+						{
+							"key": "CompanyId",
+							"value": "",
+							"description": "The internal company Id if this class is to be dedicated to a specific company"
+						},
+						{
+							"key": "DeliveryTypeId",
+							"value": "",
+							"description": "The delivery type of the class"
+						},
+						{
+							"key": "VirtualMeetingHostId",
+							"value": "",
+							"description": "The internal Id of the virtual meeting host to use if a class is to be run virtually"
+						},
+						{
+							"key": "CustomVirtualClassroomUrl",
+							"value": "",
+							"description": "The url of the custom virtual classroom used for the class"
+						},
+						{
+							"key": "PrimaryInstructorId",
+							"value": "",
+							"description": "The internal user id of the instructor for the class"
+						},
+						{
+							"key": "PrimaryClassroomId",
+							"value": "",
+							"description": "The internal id of the classroom that this class will take place in"
+						},
+						{
+							"key": "TimeZoneId",
+							"value": "",
+							"description": "The "
+						},
+						{
+							"key": "MinStudents",
+							"value": "",
+							"description": "The minimum student enrollments for the class to be run"
+						},
+						{
+							"key": "MaxStudents",
+							"value": "",
+							"description": "The maximum student enrollments allowed for the class"
+						},
+						{
+							"key": "AllowSelfEnrollment",
+							"value": "",
+							"description": "Sets this class to allow students to self-enroll"
+						},
+						{
+							"key": "IsPublic",
+							"value": "",
+							"description": "This sets if this class will be displayed on the Public Schedule"
+						},
+						{
+							"key": "DisableLabs",
+							"value": "",
+							"description": "This sets if you would like to disable lab access for this class"
+						},
+						{
+							"key": "SurveyId",
+							"value": "",
+							"description": "The internal id of the student survey to associate with this class"
+						},
+						{
+							"key": "StudentSurveyAvailabilityStartTypeId",
+							"value": "",
+							"description": "The setting for when the students should begin to see that the survey is available to them"
+						},
+						{
+							"key": "SurveyAvailabilityStartHours",
+							"value": "",
+							"description": "The number of hours before the end of the event when the student survey will become available"
+						},
+						{
+							"key": "SurveyAvailabilityEndDays",
+							"value": "",
+							"description": "The number of days that the student survey will be available to students after the event ends"
+						},
+						{
+							"key": "InstructorSurveyId",
+							"value": "",
+							"description": "The internal id of the survey to present to instructors of the class"
+						},
+						{
+							"key": "OrganizationSurveyId",
+							"value": "",
+							"description": "The internal id of the organization survey for the class"
+						},
+						{
+							"key": "ExternalId",
+							"value": "",
+							"description": "The class's external ID, usually a unique identifier from the calling system"
+						},
+						{
+							"key": "ClassMeetings",
+							"value": "",
+							"description": "A collection of ClassMeetings (see ClassMeeting definition below) in JSON format"
+						},
+						{
+							"key": "AvailableToOrganizationIds",
+							"value": "",
+							"description": "A comma separated list of int organization Ids that this class should be available to"
+						}
+					]
+				},
+				"description": "Allows you to create a class."
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateClass",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/UpdateClass?CourseId=&Name=&Description=&HtlmDescription=&ConfirmationStatusId=&OrganizationId=&CompanyId=&DeliveryTypeId=&VirtualMeetingHostId=&CustomVirtualClassroomUrl=&PrimaryInstructorId=&PrimaryClassroomId=&TimeZoneId=&MinStudents=&MaxStudents=&AllowSelfEnrollment=&IsPublic=&DisableLabs=&SurveyId=&StudentSurveyAvailabilityStartTypeId=&SurveyAvailabilityStartHours=&SurveyAvailabilityEndDays=&InstructorSurveyId=&OrganizationSurveyId=&ExternalId=&ClassMeetings=&AvailableToOrganizationIds=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"UpdateClass"
+					],
+					"query": [
+						{
+							"key": "CourseId",
+							"value": "",
+							"description": "The internal Id of the course the class is based on"
+						},
+						{
+							"key": "Name",
+							"value": "",
+							"description": "The name of the class"
+						},
+						{
+							"key": "Description",
+							"value": "",
+							"description": "A short description of the class"
+						},
+						{
+							"key": "HtlmDescription",
+							"value": "",
+							"description": "A description of the class in HTML"
+						},
+						{
+							"key": "ConfirmationStatusId",
+							"value": "",
+							"description": "The confirmation status of the class"
+						},
+						{
+							"key": "OrganizationId",
+							"value": "",
+							"description": "The internal Id of the Organization that is running the class"
+						},
+						{
+							"key": "CompanyId",
+							"value": "",
+							"description": "The internal company Id if this class is to be dedicated to a specific company"
+						},
+						{
+							"key": "DeliveryTypeId",
+							"value": "",
+							"description": "The delivery type of the class"
+						},
+						{
+							"key": "VirtualMeetingHostId",
+							"value": "",
+							"description": "The internal Id of the virtual meeting host to use if a class is to be run virtually"
+						},
+						{
+							"key": "CustomVirtualClassroomUrl",
+							"value": "",
+							"description": "The url of the custom virtual classroom used for the class"
+						},
+						{
+							"key": "PrimaryInstructorId",
+							"value": "",
+							"description": "The internal user id of the instructor for the class"
+						},
+						{
+							"key": "PrimaryClassroomId",
+							"value": "",
+							"description": "The internal id of the classroom that this class will take place in"
+						},
+						{
+							"key": "TimeZoneId",
+							"value": "",
+							"description": "The "
+						},
+						{
+							"key": "MinStudents",
+							"value": "",
+							"description": "The minimum student enrollments for the class to be run"
+						},
+						{
+							"key": "MaxStudents",
+							"value": "",
+							"description": "The maximum student enrollments allowed for the class"
+						},
+						{
+							"key": "AllowSelfEnrollment",
+							"value": "",
+							"description": "Sets this class to allow students to self-enroll"
+						},
+						{
+							"key": "IsPublic",
+							"value": "",
+							"description": "This sets if this class will be displayed on the Public Schedule"
+						},
+						{
+							"key": "DisableLabs",
+							"value": "",
+							"description": "This sets if you would like to disable lab access for this class"
+						},
+						{
+							"key": "SurveyId",
+							"value": "",
+							"description": "The internal id of the student survey to associate with this class"
+						},
+						{
+							"key": "StudentSurveyAvailabilityStartTypeId",
+							"value": "",
+							"description": "The setting for when the students should begin to see that the survey is available to them"
+						},
+						{
+							"key": "SurveyAvailabilityStartHours",
+							"value": ""
+						},
+						{
+							"key": "SurveyAvailabilityEndDays",
+							"value": "",
+							"description": "The number of days that the student survey will be available to students after the event ends"
+						},
+						{
+							"key": "InstructorSurveyId",
+							"value": "",
+							"description": "The internal id of the survey to present to instructors of the class"
+						},
+						{
+							"key": "OrganizationSurveyId",
+							"value": "",
+							"description": "The internal id of the organization survey for the class"
+						},
+						{
+							"key": "ExternalId",
+							"value": "",
+							"description": "The class's external ID, usually a unique identifier from the calling system"
+						},
+						{
+							"key": "ClassMeetings",
+							"value": "",
+							"description": "A collection of ClassMeetings (see ClassMeeting definition below) in JSON format"
+						},
+						{
+							"key": "AvailableToOrganizationIds",
+							"value": "",
+							"description": "A comma separated list of int organization Ids that this class should be available to"
+						}
+					]
+				},
+				"description": "Allows you to update a class."
+			},
+			"response": []
+		},
+		{
+			"name": "SearchClasses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/SearchClasses?pageIndex=&pageSize=&sort=&name=&courseId=&startsAfter=&startsBefore=&endsAfter=&endsBefore=&hasLabs=&availableOnline=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"SearchClasses"
+					],
+					"query": [
+						{
+							"key": "pageIndex",
+							"value": "",
+							"description": "A 0-based index of the paged results you wish to receive"
+						},
+						{
+							"key": "pageSize",
+							"value": "",
+							"description": "Indicates how many results you want per page"
+						},
+						{
+							"key": "sort",
+							"value": "",
+							"description": "The value you want to sort by"
+						},
+						{
+							"key": "name",
+							"value": "",
+							"description": "An optional parameter used to filter for classes by name"
+						},
+						{
+							"key": "courseId",
+							"value": "",
+							"description": "An optional parameter used to filter for classes for a particular course"
+						},
+						{
+							"key": "startsAfter",
+							"value": "",
+							"description": "An optional parameter used to filter for classes that start after a specified date"
+						},
+						{
+							"key": "startsBefore",
+							"value": "",
+							"description": "An optional parameter used to filter for classes that start before a specified date"
+						},
+						{
+							"key": "endsAfter",
+							"value": "",
+							"description": "An optional parameter used to filter for classes that end after a specified date"
+						},
+						{
+							"key": "endsBefore",
+							"value": "",
+							"description": "An optional parameter used to filter for classes that end before a specified date"
+						},
+						{
+							"key": "hasLabs",
+							"value": "",
+							"description": "An optional parameter used to filter for classes that have available labs"
+						},
+						{
+							"key": "availableOnline",
+							"value": "",
+							"description": "An optional parameter used to filter for classes that are available online"
+						}
+					]
+				},
+				"description": "Allows you to search for classes belonging to your organization."
+			},
+			"response": []
+		},
+		{
+			"name": "SearchPublicClassSchedule",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/SearchPublicClassSchedule?pageIndex=&pageSize=&sort=&name=&hasLabs=&availableOnline=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"SearchPublicClassSchedule"
+					],
+					"query": [
+						{
+							"key": "pageIndex",
+							"value": "",
+							"description": "A 0-based index of the paged results you wish to receive"
+						},
+						{
+							"key": "pageSize",
+							"value": "",
+							"description": "Indicates how many results you want per page"
+						},
+						{
+							"key": "sort",
+							"value": "",
+							"description": "The value you want to sort by"
+						},
+						{
+							"key": "name",
+							"value": "",
+							"description": "An optional parameter used to filter for classes by name"
+						},
+						{
+							"key": "hasLabs",
+							"value": "",
+							"description": "An optional parameter used to filter for classes that have available labs"
+						},
+						{
+							"key": "availableOnline",
+							"value": "",
+							"description": "An optional parameter used to filter for classes that are available online"
+						}
+					]
+				},
+				"description": "Allows you to search the public class schedule for your organization, including classes made available to your organization by partner organizations."
+			},
+			"response": []
+		},
+		{
+			"name": "GetClassCustomFields",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/GetClassCustomFields",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"GetClassCustomFields"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						},
+						{
+							"key": "",
+							"value": "",
+							"disabled": true
+						}
+					]
+				},
+				"description": "Retreives a list of all available custom fields for your organization."
+			},
+			"response": []
+		},
+		{
+			"name": "GetClassCustomFieldValue",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/GetClassCustomFieldValue?customFieldId=&classId=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"GetClassCustomFieldValue"
+					],
+					"query": [
+						{
+							"key": "customFieldId",
+							"value": "",
+							"description": "The ID of the custom field of which's value to retrieve"
+						},
+						{
+							"key": "classId",
+							"value": "",
+							"description": "The ID of the class of which's custom field value to retrieve"
+						}
+					]
+				},
+				"description": "Retreives the current value of a specific custom field for a class."
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateClassCustomFieldValue",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/UpdateClassCustomFieldValue?customFieldId=&classId=&textValue=&numericValue=&booleanValue=&separatedListValues=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"UpdateClassCustomFieldValue"
+					],
+					"query": [
+						{
+							"key": "customFieldId",
+							"value": "",
+							"description": "The ID of the custom field of which's value to update"
+						},
+						{
+							"key": "classId",
+							"value": "",
+							"description": "The ID of the class of which's custom field value to update"
+						},
+						{
+							"key": "textValue",
+							"value": "",
+							"description": "The value of a text type class custom field: Textbox and Dropdown List"
+						},
+						{
+							"key": "numericValue",
+							"value": "",
+							"description": "The value of a numeric type class custom field"
+						},
+						{
+							"key": "booleanValue",
+							"value": "",
+							"description": "The value for a boolean type class custom field: Checkbox"
+						},
+						{
+							"key": "separatedListValues",
+							"value": "",
+							"description": "A Tab separated list of all the text values for a multi-select custom field type: Checkbox List"
+						}
+					]
+				},
+				"description": "Updates the current value of a specific custom field for a class."
+			},
+			"response": []
+		},
+		{
+			"name": "GetClubMembership",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/GetClubMembership?id=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"GetClubMembership"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The ID of the subscription to retrieve"
+						}
+					]
+				},
+				"description": "Allows you to get basic information about a subscription."
+			},
+			"response": []
+		},
+		{
+			"name": "GetClubMembershipByExternalId",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/GetClubMembershipByExternalId?id=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"GetClubMembershipByExternalId"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The external ID of the subscription to retrieve"
+						}
+					]
+				},
+				"description": "Allows you to get information about a subscription by providing a unique identifier from your external system."
+			},
+			"response": []
+		},
+		{
+			"name": "CreateClubMembership",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/CreateClubMembership?externalId=&clubId=&userId=&starts=&expires=&targetCompletion=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"CreateClubMembership"
+					],
+					"query": [
+						{
+							"key": "externalId",
+							"value": "",
+							"description": "The exernal ID of the subscription, usually a unique identifier from the calling system"
+						},
+						{
+							"key": "clubId",
+							"value": "",
+							"description": "The Id of the related subscription profile"
+						},
+						{
+							"key": "userId",
+							"value": "",
+							"description": "The Id of the related user"
+						},
+						{
+							"key": "starts",
+							"value": "",
+							"description": "When the subscription starts (in Unix epoch time)"
+						},
+						{
+							"key": "expires",
+							"value": "",
+							"description": "When the subscription expires (in Unix epoch time)"
+						},
+						{
+							"key": "targetCompletion",
+							"value": "",
+							"description": "When the subscription is expected to be completed by the student (in Unix epoch time)"
+						}
+					]
+				},
+				"description": "Allows you to create a subscription."
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteClubMembership",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/DeleteClubMembership?id=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"DeleteClubMembership"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The ID of the subscription to delete"
+						}
+					]
+				},
+				"description": "Allows you to delete a subscription."
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateClubMembership",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/UpdateClubMembership?id=&externalId=&clubId=&userId=&starts=&expires=&targetCompletion=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"UpdateClubMembership"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The ID of the subscription"
+						},
+						{
+							"key": "externalId",
+							"value": "",
+							"description": "The exernal ID of the subscription, usually a unique identifier from the calling system"
+						},
+						{
+							"key": "clubId",
+							"value": "",
+							"description": "The Id of the related subscription profile"
+						},
+						{
+							"key": "userId",
+							"value": "",
+							"description": "The Id of the related user"
+						},
+						{
+							"key": "starts",
+							"value": "",
+							"description": "When the subscription starts (in Unix epoch time)"
+						},
+						{
+							"key": "expires",
+							"value": "",
+							"description": "When the subscription expires (in Unix epoch time)"
+						},
+						{
+							"key": "targetCompletion",
+							"value": "",
+							"description": "When the subscription is expected to be completed by the student (in Unix epoch time)"
+						}
+					]
+				},
+				"description": "Allows you to update a subscription."
+			},
+			"response": []
+		},
+		{
+			"name": "CreateCompany",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/CreateCompany?Name=&ExternalId=&Description=&OrganizationId=&OwningUserId=&AssignableToUsers=&Theme=&Address1=&Address1=&City=&State=&Zip=&Country=&Email=&Phone=&Phone2=&Fax=&WebSiteUrl=&CustomDropdown1=&CustomDropdown2=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"CreateCompany"
+					],
+					"query": [
+						{
+							"key": "Name",
+							"value": "",
+							"description": "The Name of the company (limit 150 characters)"
+						},
+						{
+							"key": "ExternalId",
+							"value": "",
+							"description": "The External Id of the company (limit 50 characters)"
+						},
+						{
+							"key": "Description",
+							"value": "",
+							"description": "The Description of the company (limit 800 characters)"
+						},
+						{
+							"key": "OrganizationId",
+							"value": "",
+							"description": "The Id of the Organization associated with this company"
+						},
+						{
+							"key": "OwningUserId",
+							"value": "",
+							"description": "The Id of the owning User (if any) associated with this company"
+						},
+						{
+							"key": "AssignableToUsers",
+							"value": "",
+							"description": "Indicates whether the Company is Assignable to Users"
+						},
+						{
+							"key": "Theme",
+							"value": "",
+							"description": "The name of the Theme to be used for the company"
+						},
+						{
+							"key": "Address1",
+							"value": "",
+							"description": "The first Address line for a Company (limit 250 characters)"
+						},
+						{
+							"key": "Address1",
+							"value": "",
+							"description": "The second Address line for a Company (limit 250 characters)"
+						},
+						{
+							"key": "City",
+							"value": "",
+							"description": "The City for a Company (limit 80 characters)"
+						},
+						{
+							"key": "State",
+							"value": "",
+							"description": "The State for a Company (recommended use standard 2-character abbreviation, limit 50 characters)"
+						},
+						{
+							"key": "Zip",
+							"value": "",
+							"description": "The Zip code for a Company (limit 20 characters)"
+						},
+						{
+							"key": "Country",
+							"value": "",
+							"description": "The Country for a Company (recommended use standard 2-character abbreviation, limit 80 characters)"
+						},
+						{
+							"key": "Email",
+							"value": "",
+							"description": "The Email address for a Company (limit 256 characters)"
+						},
+						{
+							"key": "Phone",
+							"value": "",
+							"description": "The Phone number for a Company (limit 50 characters)"
+						},
+						{
+							"key": "Phone2",
+							"value": "",
+							"description": "The alternate Phone number for a Company (limit 50 characters)"
+						},
+						{
+							"key": "Fax",
+							"value": "",
+							"description": "The Fax number for a Company (limit 50 characters)"
+						},
+						{
+							"key": "WebSiteUrl",
+							"value": "",
+							"description": "The Web Site Url for a Company (limit 200 characters)"
+						},
+						{
+							"key": "CustomDropdown1",
+							"value": "",
+							"description": "The first Custom Dropdown list for a Company (limit 200 characters)"
+						},
+						{
+							"key": "CustomDropdown2",
+							"value": "",
+							"description": "The second Custom Dropdown list for a Company (limit 200 characters)"
+						}
+					]
+				},
+				"description": "Allows you to create a company."
+			},
+			"response": []
+		},
+		{
+			"name": "UpdateCompany",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/UpdateCompany?Id=&Name=&ExternalId=&Description=&OrganizationId=&OwningUserId=&AssignableToUsers=&Theme=&Address1=&Address1=&City=&State=&Zip=&Country=&Email=&Phone=&Phone2=&Fax=&WebSiteUrl=&CustomDropdown1=&CustomDropdown2=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"UpdateCompany"
+					],
+					"query": [
+						{
+							"key": "Id",
+							"value": "",
+							"description": "The ID of the company"
+						},
+						{
+							"key": "Name",
+							"value": "",
+							"description": "The Name of the company (limit 150 characters)"
+						},
+						{
+							"key": "ExternalId",
+							"value": "",
+							"description": "The External Id of the company (limit 50 characters)"
+						},
+						{
+							"key": "Description",
+							"value": "",
+							"description": "The Description of the company (limit 800 characters)"
+						},
+						{
+							"key": "OrganizationId",
+							"value": "",
+							"description": "The Id of the Organization associated with this company"
+						},
+						{
+							"key": "OwningUserId",
+							"value": "",
+							"description": "The Id of the owning User (if any) associated with this company"
+						},
+						{
+							"key": "AssignableToUsers",
+							"value": "",
+							"description": "Indicates whether the Company is Assignable to Users"
+						},
+						{
+							"key": "Theme",
+							"value": "",
+							"description": "The name of the Theme to be used for the company"
+						},
+						{
+							"key": "Address1",
+							"value": "",
+							"description": "The first Address line for a Company (limit 250 characters)"
+						},
+						{
+							"key": "Address1",
+							"value": "",
+							"description": "The second Address line for a Company (limit 250 characters)"
+						},
+						{
+							"key": "City",
+							"value": "",
+							"description": "The City for a Company (limit 80 characters)"
+						},
+						{
+							"key": "State",
+							"value": "",
+							"description": "The State for a Company (recommended use standard 2-character abbreviation, limit 50 characters)"
+						},
+						{
+							"key": "Zip",
+							"value": "",
+							"description": "The Zip code for a Company (limit 20 characters)"
+						},
+						{
+							"key": "Country",
+							"value": "",
+							"description": "The Country for a Company (recommended use standard 2-character abbreviation, limit 80 characters)"
+						},
+						{
+							"key": "Email",
+							"value": "",
+							"description": "The Email address for a Company (limit 256 characters)"
+						},
+						{
+							"key": "Phone",
+							"value": "",
+							"description": "The Phone number for a Company (limit 50 characters)"
+						},
+						{
+							"key": "Phone2",
+							"value": "",
+							"description": "The alternate Phone number for a Company (limit 50 characters)"
+						},
+						{
+							"key": "Fax",
+							"value": "",
+							"description": "The Fax number for a Company (limit 50 characters)"
+						},
+						{
+							"key": "WebSiteUrl",
+							"value": "",
+							"description": "The Web Site Url for a Company (limit 200 characters)"
+						},
+						{
+							"key": "CustomDropdown1",
+							"value": "",
+							"description": "The first Custom Dropdown list for a Company (limit 200 characters)"
+						},
+						{
+							"key": "CustomDropdown2",
+							"value": "",
+							"description": "The second Custom Dropdown list for a Company (limit 200 characters)"
+						}
+					]
+				},
+				"description": "Allows you to update a company."
+			},
+			"response": []
+		},
+		{
+			"name": "DeleteCompany",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/DeleteCompany?id=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"DeleteCompany"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The ID of the company to delete"
+						}
+					]
+				},
+				"description": "Allows you to delete a company."
+			},
+			"response": []
+		},
+		{
+			"name": "GetCompany",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/GetCompany?id=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"GetCompany"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The ID of the company to retrieve"
+						}
+					]
+				},
+				"description": "Allows you to get a company."
+			},
+			"response": []
+		},
+		{
+			"name": "ExportSurveyResponses",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/ExportSurveyResponses?id=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"ExportSurveyResponses"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "",
+							"description": "The ID of the survey to retrieve"
+						}
+					]
+				},
+				"description": "Allows you to get a company."
+			},
+			"response": []
+		},
+		{
+			"name": "SearchClubs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://{{[root-url]}}/api/2.0/SearchClubs?pageIndex=&pageSize=&sort=&name=&courseId=&createdAfter=&createdBefore=",
+					"protocol": "https",
+					"host": [
+						"{{[root-url]}}"
+					],
+					"path": [
+						"api",
+						"2.0",
+						"SearchClubs"
+					],
+					"query": [
+						{
+							"key": "pageIndex",
+							"value": "",
+							"description": "A 0-based index of the paged results you wish to receive"
+						},
+						{
+							"key": "pageSize",
+							"value": "",
+							"description": "Indicates how many results you want per page"
+						},
+						{
+							"key": "sort",
+							"value": "",
+							"description": "The value you want to sort by"
+						},
+						{
+							"key": "name",
+							"value": "",
+							"description": "An optional parameter used to filter for subscription profiles by name"
+						},
+						{
+							"key": "courseId",
+							"value": "",
+							"description": "An optional parameter used to filter for subscription profiles by the associated course ID"
+						},
+						{
+							"key": "createdAfter",
+							"value": "",
+							"description": "An optional parameter used to filter for subscription profiles created after a specified date"
+						},
+						{
+							"key": "createdBefore",
+							"value": "",
+							"description": "An optional parameter used to filter for subscription profiles created before a specified date"
+						}
+					]
+				},
+				"description": "Allows you to search for subscription profiles."
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "5080bd4c-c9c5-483b-aad9-5aaba489ee70",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "8c445852-5aac-492c-9367-9f3631691f11",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "f7486975-be5c-4811-8c9b-985c349ca887",
+			"key": "[root-url]",
+			"value": "lms.learnondemand.net"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
