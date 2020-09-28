@@ -12,8 +12,8 @@
       <div class="category">
         <a href="https://www.learnondemandsystems.com/simplified-developer-experience/" class="categoryThread">
           <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
-          <span class="categoryTitleFeatured" title="Container Images">Container Images</span>
-          <span class="categoryDescription" title="Create Docker container images to use in lab profiles.">Create Docker container images to use in lab profiles.</span>
+          <span class="categoryTitleFeatured" title="Simplified Developer Experience">Container Images</span>
+          <span class="categoryDescription" title="Introducing the User Dashboard and Template Gallery.">Introducing the User Dashboard and Template Gallery.</span>
         </a>
       </div>
         <div class="category">
