@@ -10,6 +10,13 @@
   <div class="cardContainerFull">
     <div class="cardContent">
       <div class="category">
+        <a href="/lod/container-images.md" class="categoryThread">
+          <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
+          <span class="categoryTitleFeatured" title="Container Images">Container Images</span>
+          <span class="categoryDescription" title="Create Docker container images to use in lab profiles.">Create Docker container images to use in lab profiles.</span>
+        </a>
+      </div>
+        <div class="category">
         <a href="lod-api/lod-api-main.md" class="categoryThread">
           <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
           <span class="categoryTitleFeatured" title="API Documentation">API Documentation</span>
@@ -21,13 +28,6 @@
           <i class="material-icons blue" aria-hidden="true">bookmarks</i>
           <span class="categoryTitleFeatured" title="PBT Overview">PBT Overview</span>
           <span class="categoryDescription" title="Overview of Lab on Demand supported scoring methods.">Overview of Lab on Demand supported scoring methods.</span>
-        </a>
-      </div>
-      <div class="category">
-        <a href="/lod/container-images.md" class="categoryThread">
-          <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
-          <span class="categoryTitleFeatured" title="Container Images">Container Images</span>
-          <span class="categoryDescription" title="Create Docker container images to use in lab profiles.">Create Docker container images to use in lab profiles.</span>
         </a>
       </div>
       <div class="viewAll"><a href="/lod/home-landing-pages/featured-landing.md" tabindex="0" class="viewAllLink" title="View all" aria-label="View all Featured Posts">View all</a></div>
