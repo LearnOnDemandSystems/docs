@@ -12,7 +12,7 @@
       <div class="category">
         <a href="https://www.learnondemandsystems.com/simplified-developer-experience/" class="categoryThread">
           <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
-          <span class="categoryTitleFeatured" title="Simplified Developer Experience">Container Images</span>
+          <span class="categoryTitleFeatured" title="Simplified Developer Experience">Simplified Developer Experience</span>
           <span class="categoryDescription" title="Introducing the User Dashboard and Template Gallery.">Introducing the User Dashboard and Template Gallery.</span>
         </a>
       </div>
