@@ -10,7 +10,7 @@
   <div class="cardContainerFull">
     <div class="cardContent">
       <div class="category">
-        <a href="/lod/container-images.md" class="categoryThread">
+        <a href="https://www.learnondemandsystems.com/simplified-developer-experience/" class="categoryThread">
           <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
           <span class="categoryTitleFeatured" title="Container Images">Container Images</span>
           <span class="categoryDescription" title="Create Docker container images to use in lab profiles.">Create Docker container images to use in lab profiles.</span>
