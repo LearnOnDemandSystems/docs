@@ -46,8 +46,9 @@ All dates are in unix epoch time, which is the number of seconds that have elaps
 
 ## Postman Collection
 
-Postman can import the Lab on Demand Postman Collection via link, ++lod.one/LabondemandCollection++
-You may download the Lab on Demand Postman Collection (2.1) of calls [here.](Lab-on-Demand.postman_collection.json)
+Postman can import the Lab on Demand Postman Collection via link, ++http://lod.one/LabondemandCollection++
+
+Alternatively, you may review the Lab on Demand Postman Collection (2.1) of calls [here.](Lab-on-Demand.postman_collection.json)
 
 >[!note] Be sure to edit the authorization header to match your API key.
 
