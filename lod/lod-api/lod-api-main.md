@@ -32,7 +32,6 @@ For example, a request to get the entire lab catalog will look like:
 
 `https://labondemand.com/api/v3/catalog`
 
-You may download a Postman Collection (2.1) of calls [here.](Lab-on-Demand.postman_collection.json) Be sure to edit the authorization header.
 
 ## API Key
 - All methods require an API key, which must be obtained from Learn on Demand Systems. This key is used by Lab on Demand to validate your account. The key can be passed as an HTTP request header with the header name "api_key".
@@ -44,6 +43,13 @@ All responses are formatted as JSON. A full explanation of each response is incl
 ## Date Formats
 
 All dates are in unix epoch time, which is the number of seconds that have elapsed since midnight UTC January 1st, 1970. Values are always rounded to the nearest whole second.
+
+## Postman Collection
+
+Postman can import the Lab on Demand Postman Collection via link, ++lod.one/LabondemandCollection++
+You may download the Lab on Demand Postman Collection (2.1) of calls [here.](Lab-on-Demand.postman_collection.json)
+
+>[!note] Be sure to edit the authorization header to match your API key.
 
 ## Commands
 - [Cancel](lod-api-cancel.md) - Cancels a specified lab instance.
@@ -76,7 +82,6 @@ All dates are in unix epoch time, which is the number of seconds that have elaps
 - [UpdateLabInstructions](lod-api-update-lab-instructions.md) - Allows you to update the IDL-MD instructions of a lab.
 - [UpdateLabInstructionsPackage](lod-api-update-lab-instructions-package.md) - Allows you to update the IDL-MD instructions of a lab by uploading a ZIP archive containing the instructions and any referenced files, such as images and videos.
 - [UserRunningAndSavedLabs](lod-api-user-running-and-saved-labs.md) - Retrieves all labs that are currently running or saved for a particular user account.
-
 
 ## API Client
 A .NET API client library is available via Nuget. This will allow you to use the API using only .NET code. 
