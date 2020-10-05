@@ -9,9 +9,30 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## **Released October 2, 2020**
+
+**Enhanced Lab Saving**
+
+- As part of the New Lab Developer Experience, a new save dialog window has been introduced into the Lab on Demand Lab Client. Lab Developers will be able to update and create new lab profiles by selecting _Save_ from the hamburger menu.
+ 
+    - Update the number of processors and RAM on virtual machines right from the lab    instance, no need to relaunch.
+    - Improved workflow when capturing differencing disks and committing container  changes. 
+    - Easily create new lab profiles by specifying the RAM, Processor count, Number, Name,  Description, Organization, Expected and Maximum Duration.
+    - Dynamically create new lab series or select existing ones for assignment when saving  a new lab profile.
+    - Save current lab instance with no more clicks than before.
+ 
+ 
+**Cloud Subscription Name Replacement Token**
+- A new lab token has been added for Azure CSS labs to show the cloud subscription name. This can be used in lab instructions, ABA or LCA. 
+ 
+**LOD Improvements and Fixes**
+- Updated translation on the _Next_ and _Previous_ buttons when using German in the lab-client.
+- Fixed a bug that caused the number of credential pools to be inaccurate on lab profile details pages.
+- Fixed a bug that prevented some fields from being displayed during a lab profile import. 
+- Fixed a bug that allowed configuring multiple virtualization platforms in a lab profile while editing or creating a lab profile. 
+- Fixed a bug that prevented adding a second script in an automated activity. 
 
 ## **Released September 3, 2020**
-
 
 **Lab Profile Save As**
 - When using _Save As_ on a lab profile, to create a new lab profile or a child lab profile, there are now options to change the organization and lab series in the prompt. This only affects the new lab profile and does not change the parent lab profile's lab series or organization.
