@@ -15,7 +15,7 @@
 
 - As part of the New Lab Developer Experience, a new save dialog window has been introduced into the Lab on Demand Lab Client. Lab Developers will be able to update and create new lab profiles by selecting _Save_ from the hamburger menu.
  
-    - Update the number of processors and RAM on virtual machines right from the lab    instance, no need to relaunch.
+    - Update the number of processors and RAM on virtual machines right from the lab instance, no need to relaunch.
     - Improved workflow when capturing differencing disks and committing container  changes. 
     - Easily create new lab profiles by specifying the RAM, Processor count, Number, Name,  Description, Organization, Expected and Maximum Duration.
     - Dynamically create new lab series or select existing ones for assignment when saving  a new lab profile.
