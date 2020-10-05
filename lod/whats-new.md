@@ -17,13 +17,13 @@
  
     - Update the number of processors and RAM on virtual machines right from the lab instance, no need to relaunch.
     - Improved workflow when capturing differencing disks and committing container  changes. 
-    - Easily create new lab profiles by specifying the RAM, Processor count, Number, Name,  Description, Organization, Expected and Maximum Duration.
+    - Easily create new lab profiles by specifying the RAM, Processor count, Number, Name, Description, Organization, Expected and Maximum Duration.
     - Dynamically create new lab series or select existing ones for assignment when saving  a new lab profile.
     - Save current lab instance with no more clicks than before.
  
  
 **Cloud Subscription Name Replacement Token**
-- A new lab token has been added for Azure CSS labs to show the cloud subscription name. This can be used in lab instructions, ABA or LCA. 
+- A new lab token has been added for Azure CSS labs to show the cloud subscription name. This can be used in lab instructions, Activity Based Assessments or Life Cycle Actions.
  
 **LOD Improvements and Fixes**
 - Updated translation on the _Next_ and _Previous_ buttons when using German in the lab-client.
