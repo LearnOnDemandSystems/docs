@@ -21,7 +21,7 @@
     - Dynamically create new lab series or select existing ones for assignment when saving  a new lab profile.
     - Save current lab instance with no more clicks than before.
  
- 
+
 **Cloud Subscription Name Replacement Token**
 - A new lab token has been added for Azure CSS labs to show the cloud subscription name. This can be used in lab instructions, Activity Based Assessments or Life Cycle Actions.
  
