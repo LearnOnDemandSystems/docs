@@ -6,7 +6,7 @@ isPublished: false
 
 # Template Gallery
 
-The template gallery allows lab authors to easily search for and select pre-created labs to use as the base for a new lab. Lab authors can select templates from the public template gallery maintained by Learn on Demand Systems or create a private gallery available only to their own users. Users can search by name or favorite individual templates and filter by only templates they have favorites for ease of finding frequently used templates. When accessing labs from the template gallery, authors are provided two options:
+The template gallery allows lab authors to easily search for and select pre-created labs to use as the base for a new lab. Lab authors can select templates from the public template gallery maintained by Learn on Demand Systems or create a private gallery available only to their own users. Users can search by name or favorite individual templates and filter by only templates they have favorites for ease of finding frequently used templates. When accessing labs from the template gallery, authors are provided a few options:
 
  - The Create option allows you to generate a new lab directly from the gallery simply by defining some information – such as name, series and organization – about where you would like to save the new lab.
  - The Preview option allows you to launch the lab so you can review the environment and confirm it is what you are looking for before creating a new lab based on it.
@@ -46,7 +46,7 @@ The templates can be filtered based on their availability and technology focus.
 
 Organization Managers and Lab Authors can add additional filters for technology focus by tagging lab profiles with a lab tag. Lab Tags can be created from the admin portal by selecting *Lab Tags* under the Lab Profile pane. 
 
-The Lab tags are in a *Title:Subject* format.
+The Lab tags are in a *Title: Subject* format.
 Here is an example of what one of the *Included Technology* tags would look like wile configuring it. Before saving, ensure Publish to Template Gallery is enabled.
 
 
