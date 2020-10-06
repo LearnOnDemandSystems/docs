@@ -27,8 +27,8 @@
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/reuse-search-settings-or-create-default-settings-on-search-pages.md">
         <div class="subtopic_title">How can I reuse search settings or create default settings on search pages?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/set-defaults-for-creating-users-and-classes.md">
-        <div class="subtopic_title">How do I set the defaults for creating users and classes?</div>
+      <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/set-defaults.md">
+        <div class="subtopic_title">How do I set defaults for my site?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/roles-thru-auth-prov.md">
         <div class="subtopic_title">How can I assign user roles using an authentication provider?</div>
