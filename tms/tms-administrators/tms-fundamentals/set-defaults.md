@@ -31,6 +31,6 @@ Several defaults can be set for the classes you create such as the class capacit
 |:------|:--------|
 | **Class Minimum Capacity** | Set a minimum capacity to use as a search for classes you may want to cancel if the minimum number of students have not enrolled. To use this search criteria, go to **Find Classes** and filter by **Has not Met Minimum Enrollment**. |
 | **Class Maximum Capacity** | Set a maximum capacity for classes. This restricts the total number of enrollments for your classes to the number you have set. |
-| **Class Session Pattern** | Check the days of the week you normally want your classes to run. Class session will be scheduled on the checked days and skip the unchecked days. For example, if you do not hold classes on Saturday and Sunday leave those days unchecked, if you scheduled a 10 day class, by default it will only be scheduled on days Monday - Friday.|
+| **Class Session Pattern** | Check the days of the week you normally want your classes to run. Class session will be scheduled on the checked days and skip the unchecked days. For example, if you do not hold classes on Saturday and Sunday leave those days unchecked, if you scheduled a 10 day class, by default, it will only be scheduled on dates falling on Monday - Friday.|
 | **Class Session Start** and **End Time** | Set the class start and end times for your normal class day. |
 | **Class Status** | Select from the dropdown the default class status. Please note, for class functionality to work the status must be set to either **Scheduled** or **Guaranteed to run** |.
