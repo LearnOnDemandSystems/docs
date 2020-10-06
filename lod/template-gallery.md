@@ -19,11 +19,11 @@ To create a lab profile from the Template, select Create on the chosen template 
 
 - Number: The number of your Lab Profile.
 - Name: The title of your Lab Profile.
-- Descriptions: A description of the lab.
+- Descriptions: A description of the Lab Profile.
 - Organization: You may choose from any of the organizations your manage.
 - Series: Select or Dynamically create a new Lab Series to which your profile will be assigned. You may also choose none.
-- Expected Duration: The expected duration of the lab.
-- Maximum Duration: The maximum duration of the lab.
+- Expected Duration: The expected duration of the Lab Profile.
+- Maximum Duration: The maximum duration of the Lab Profile.
 - Tags: By selecting one or more tags, the lab will be available under these filters when/if published to the template gallery. 
 
 ![](images/template-gallery-create-profile.png)
