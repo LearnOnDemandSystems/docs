@@ -1,5 +1,5 @@
 ---
-title: "How can I add an existing class's enrollments to a new event?"
+title: "Why can't I find my completed labs?"
 isPublished: true
 ---
 

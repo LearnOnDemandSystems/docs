@@ -476,28 +476,44 @@ Although potentially any task could be reduced to an action that can be executed
 
 - **Replacement Token:** used to replace text in lab instructions with a variable that is unknown at the time of authoring the lab instructions. These variables may not be generated or created until the lab is launched by the student. These can include usernames, user first name, user last name, running lab instance ID number, etc. To apply a Replacement Token, in the parameter value field, simply enter "&commat;lab", and the press the period key. The moment you type the period you will be presented with all available replacement tokens for your lab. 
 
-  > | Replacement token           |                                          |
-  > | --------------------------- | ---------------------------------------- |
-  > | `lab.LabInstance.Id`        | The unique ID of the running lab instance. |
-  > | `lab.LabInstance.GlobalId`    | The globally unique ID of the running lab instance. |
-  > | `lab.LabProfile.Id`           | The unique ID of the lab profile.        |
-  > | `lab.User.Id`                 | The unique ID of user running the lab.   |
-  > | `lab.User.FirstName`          | The first name of the user running the lab. |
-  > | `lab.User.LastName`           | The last name of the user running the lab. |
-  > | `lab.User.Email`              | The e-mail address of the user running the lab. |
-  > | `lab.User.ExternalId`         | The external ID of the user running the lab (if launched via API). |
-  > | `lab.Tag`                    | The tag associated with the lab instance (if specified when launched via API). |
-  > | `lab.CloudPortal.Link`        | A link to the cloud portal.              |
-  > | `lab.CloudPortal.Url`         | The cloud portal URL (rendered as text, not a link). |
-  > | `lab.CloudPortal.SignInLink` | A cloud portal sign-in link.             |
-  > | `lab.CloudPortal.SignInUrl`   | The cloud portal sign-in URL (rendered as text, not a link). |
-  > | `lab.CloudPortal.SignOutLink` | A cloud portal sign-out link.            |
-  > | `lab.CloudPortal.SignOutUrl`  | The cloud portal sign-out URL (rendered as text, not a link). |
-  > | `lab.VirtualMachine(VM-ID).SelectLink` | A link to select the (VM-ID) virtual machine |
-  > | `lab.VirtualMachine(VM-ID).Username` | Username for signing into the (VM-ID) virtual machine. |
-  > | `lab.VirtualMachine(VM-ID).Password` | Password for signing into the (VM-ID) virtual machine. |
-  > | `lab.LabInstance.StartDate` | The start date of the lab instance |
-  > | `lab.DropDownList(name)[val1,val2]` | Adds a drop-down menu with configurable values.|
+  > |Lab Replacement Token|Description|
+  > |--|--|
+  >|`@lab.Activity(Automated1)`|Inserts activity Automated1 into the instructions.|
+  >|`@lab.Activity(Question1)`|Inserts activity Question1 into the instructions.|
+  >|`@lab.LabInstance.Id`|The unique ID of the running lab instance.|
+  >|`@lab.LabInstance.GlobalId`|The globally unique ID of the running lab instance.|
+  >|`@lab.LabInstance.StartDate`|The UTC start date of the running lab instance. Format: yyyyMMdd|
+  >|`@lab.LabProfile.Id`|The unique ID of the lab profile.|
+  >|`@lab.User.Id`|The unique ID of user running the lab.|
+  >|`@lab.User.FirstName`|The first name of the user running the lab.|
+  >|`@lab.User.LastName`|The last name of the user running the lab.|
+  >|`@lab.User.Email`|The e-mail address of the user running the lab.|
+  >|`@lab.User.ExternalId`|The external ID of the user running the lab (if launched via    API).|
+  >|`@lab.User.Organization.Id`|The ID of the organization the user belongs to.|
+  >|`@lab.User.Organization.Name`|The name of the organization the user belongs to.|
+  >|`@lab.Tag`|The tag associated with the lab instance (if specified when launched via    API).|
+  >|`@lab.CloudSubscription.Id`|The unique ID of the subscription backing the lab    instance.|
+  >|`@lab.CloudSubscription.Name`|The name of the subscription backing the lab instance.|
+  >|`@lab.CloudSubscription.TenantName`|The tenant name of the subscription backing the    lab instance.|
+  >|`@lab.CloudResourceGroup(1).Name`|The instance name of the ResourceGroup1 resource    group.|
+  >|`@lab.CloudResourceTemplate(Template1).Name`|The instance name of the VNET resource.|
+  >|`@lab.CloudResourceTemplate(Template1).DeploymentLink`|A deployment link for the    VNET resource.|
+  >|`@lab.CloudResourceTemplate(Template1).DeploymentUrl`|A deployment URL for the VNET    resource (rendered as text, not a link).|
+  >|`@lab.CloudResourceTemplate(Template1).Parameters[complex-VNETName]`|The value sent    for the complex-VNETName parameter when creating the VNET resource.|
+  >|`@lab.CloudPortalCredential(User1).Username`|The username of the User1-* cloud    portal user account.|
+  >|`@lab.CloudPortalCredential(User1).Password`|The password of the User1-* cloud    portal user account.|
+  >|`@lab.CloudCredential(PoolName).Username`|The Username assigned from the PoolName credential pool.|
+  >|`@lab.CloudCredential(PoolName).Password`|The Password assigned from the PoolName credential pool.|
+  >|`@lab.CloudCredential(PoolName).TenantName`|The TenantName assigned from the PoolName credential pool.|
+  >|`@lab.CloudCredential(PoolName).TenantPrefix`|The TenantPrefix assigned from the   PoolName credential pool.|
+  >|`@lab.CloudPortal.Link`|A link to the cloud portal.|
+  >|`@lab.CloudPortal.Url`|The cloud portal URL (rendered as text, not a link).|
+  >|`@lab.CloudPortal.SignInLink`|A cloud portal sign-in link.|
+  >|`@lab.CloudPortal.SignInUrl`|The cloud portal sign-in URL (rendered as text, not a    link).|
+  >|`@lab.CloudPortal.SignOutLink`|A cloud portal sign-out link.|
+  >|`@lab.CloudPortal.SignOutUrl`|The cloud portal sign-out URL (rendered as text, not a    link).|
+  >|`@lab.TextBox(name)`|A text box that allows the user to set the value of a named    variable. This variable value can then be displayed elsewhere using @lab.Variable(name)   .|
+  >|`@lab.DropDownList(name)[val1,val2]`|A dropdown list that allows the user to set the    value of a named variable. This variable value can then be displayed elsewhere using    @lab.Variabl(name).|
 
   *(VM-ID) should be replaced with the unique ID of the virtual machine in use.
 
