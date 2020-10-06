@@ -14,6 +14,12 @@ To set your defaults:
 1. Click **Edit**. 
 1. Open the **Preferences** tab. 
 
+## Business Settings
+You can set the days and times your organization is open, this displays when any user views your organization profile.
+
+1. On the Organization profile's **Preferences** tab under Business Settings, check the boxes beside the **days** of the week you are open.
+1. Once a day is selected, an **Open** and a **Close** field display. Click inside the field to view an Hour and Minute chart. Select the **AM** or **PM** times when your organization opens and closes. 
+
 ## User Defaults
 Three defaults can be set for creating new user accounts: the User Password, the UserName Pattern, and the User Role(s). 
 
