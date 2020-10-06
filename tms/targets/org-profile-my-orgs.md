@@ -9,7 +9,7 @@ The Organization Profile page provides information for one organization. It has 
 The following are articles related to actions that can be done from either of these pages:
 
 - [How can I see classes in a calendar view?](../tms-administrators/classes/schedule/see-classes-in-calendar-view.md)
-- [How do I set the defaults for creating users and classes?](../tms-administrators/tms-fundamentals/set-defaults-for-creating-users-and-classes.md)
+- [How do I set defaults for my site?](../tms-administrators/tms-fundamentals/set-defaults.md)
 - [How can my organization be set up to use contract instructors?](../tms-administrators/users/instructor-management/set-up-organization-to-use-contract-instructors.md)
 - [How can I check students in for class?](../tms-administrators/classes/enrollments-roster/check-in-students-for-class.md)
 
