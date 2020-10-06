@@ -258,9 +258,9 @@
             </a>
           </div>
           <div class="category">  
-            <a href="/tms/tms-administrators/tms-fundamentals/set-defaults-for-creating-users-and-classes.md" class="categoryThread">
+            <a href="/tms/tms-administrators/tms-fundamentals/set-defaults.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">insert_drive_file</i>
-              <span class="categoryTitle" title="How do I set the defaults for creating users and classes?">How do I set the defaults for creating users and classes</span>
+              <span class="categoryTitle" title="How do I set defaults my site?">How do I set defaults for my site?</span>
             </a>
           </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-fundamentals-landing.md" title="View all" aria-label="View all Admin Docs for Fundamentals">View all</a></div>
