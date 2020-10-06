@@ -22,15 +22,15 @@ To create a lab profile from the Template, select Create on the chosen template 
 - Number: The number of your Lab Profile.
 - Name: The title of your Lab Profile.
 - Descriptions: A description of the Lab Profile.
-- Organization: You may choose from any of the organizations your manage.
-- Series: Select or Dynamically create a new Lab Series to which your profile will be assigned. You may also choose none.
+- Organization: You may choose from any of the organizations you manage.
+- Series: Select or dynamically create a new Lab Series to which your profile will be assigned. You may also choose none.
 - Expected Duration: The expected duration of the Lab Profile.
 - Maximum Duration: The maximum duration of the Lab Profile.
 - Tags: By selecting one or more tags, the lab will be available under these filters when/if published to the template gallery. 
 
 ![](images/template-gallery-create-profile.png)
 
-## Filters and Tags
+## Filters
 
 The templates can be filtered based on their availability and technology focus.
 
@@ -41,6 +41,8 @@ The templates can be filtered based on their availability and technology focus.
 - *Favorites* will show any templates you have previously favorited(starred).
 
 ![](images/template-gallery-filters.png)
+
+## Lab Tags
 
 Organization Managers and Lab Authors can add additional filters for technology focus by tagging lab profiles with a lab tag. Lab Tags can be created from the admin portal by selecting *Lab Tags* under the Lab Profile pane. 
 
@@ -59,5 +61,3 @@ Labs can be published to the organization gallery by selecting *Publish to Organ
 When you can't find a template that meets your requirement, you can create the lab profile from the ground-up using the Create Custom Environment link.
 
 ![](images/template-gallery-to-legacy.png)
-
-## 
