@@ -1,9 +1,9 @@
 ---
-title: "How do I set the defaults for creating users and classes?"
+title: "How do I set defaults for my site?"
 isPublished: true
 ---
 
-# How do I set the defaults for creating users and classes?
+# How do I set defaults for my site?
 
 Creating users and creating classes have fields which allow for each organization to choose their own default values. The default value will automatically display when you are creating a new user or class, and each of these items can be revised as needed. You can set defaults through Organization Preferences.
 
