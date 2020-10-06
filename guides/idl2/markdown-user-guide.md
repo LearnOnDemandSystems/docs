@@ -479,6 +479,7 @@ Although potentially any task could be reduced to an action that can be executed
   > |Lab Replacement Token|Description|
   > |--|--|
   >|`@lab.Activity(Automated1)`|Inserts activity Automated1 into the instructions.|
+  >|`@lab.Activity(Question1)`|Inserts activity Question1 into the instructions.|
   >|`@lab.LabInstance.Id`|The unique ID of the running lab instance.|
   >|`@lab.LabInstance.GlobalId`|The globally unique ID of the running lab instance.|
   >|`@lab.LabInstance.StartDate`|The UTC start date of the running lab instance. Format: yyyyMMdd|
@@ -513,7 +514,6 @@ Although potentially any task could be reduced to an action that can be executed
   >|`@lab.CloudPortal.SignOutUrl`|The cloud portal sign-out URL (rendered as text, not a    link).|
   >|`@lab.TextBox(name)`|A text box that allows the user to set the value of a named    variable. This variable value can then be displayed elsewhere using @lab.Variable(name)   .|
   >|`@lab.DropDownList(name)[val1,val2]`|A dropdown list that allows the user to set the    value of a named variable. This variable value can then be displayed elsewhere using    @lab.Variabl(name).|
-  >|`@lab.Activity(Question1)`|Inserts activity Question1 into the instructions.|
 
   *(VM-ID) should be replaced with the unique ID of the virtual machine in use.
 
