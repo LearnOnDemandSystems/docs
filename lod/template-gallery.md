@@ -10,6 +10,8 @@ The template gallery allows lab authors to easily search for and select pre-crea
 
  - The Create option allows you to generate a new lab directly from the gallery simply by defining some information – such as name, series and organization – about where you would like to save the new lab.
  - The Preview option allows you to launch the lab so you can review the environment and confirm it is what you are looking for before creating a new lab based on it.
+ - The Pencil Icon allows you to edit the profile if you have management rights
+ -The Star Icon allows you to Favorite a template for future use.
 
 ![](images/template-gallery.png)
 
