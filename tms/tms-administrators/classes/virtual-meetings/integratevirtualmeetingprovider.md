@@ -16,13 +16,13 @@ It quick and easy to set up class access to your virtual meeting provider within
 When editing or creating your class, 
 1. Expand the **Delivery** section.
 1. For **Delivery Type** choose **Virtual** or **Physical and Virtual**.
-1. For **Virtual Meeting Host** select **Custom Virtual Classroom**, this opens additional fields to input the meeting URL and set the times the Enter Classroom is available to users.
+1. For **Virtual Meeting Host** select **Custom Virtual Classroom**, this opens additional fields to input the meeting URL and set the times the Enter Classroom button is available to users.
 1. Input the **URL** from the meeting you have scheduled in your preferred virtual meeting provider.
 1. Check the **Set Pre and Post Class Launch Access** box, this must be checked for the times to work.
 1. In the **Instructor Pre-Class Launch Window** input the number of minutes before the class session start time(s) the instructor(s) can enter the virtual classroom.
 1. In the **Student Pre-Class Launch Window** input the number of minutes before the class session start time(s) the students can enter the virtual classroom. 
-1. In the **Instructor Post-Class Launch Window** put the number of minutes after the class session end time(s) the instructor(s) can still enter the virtual classroom. 
-1. In the **Student Post-Class Launch Window** put the number of minutes after the class session end time(s) the students can still enter the virtual classroom.
+1. In the **Instructor Post-Class Launch Window** input the number of minutes after the class session end time(s) the instructor(s) can still enter the virtual classroom. 
+1. In the **Student Post-Class Launch Window** input the number of minutes after the class session end time(s) the students can still enter the virtual classroom.
 1. Continue setting up your class or click **Save** to commit the changes.
 
 ![](/tms/images/virtual-class-launch-windows.png) 
@@ -31,7 +31,7 @@ If you do not set pre and post class launch windows, then your instructors and s
 
  ![](/tms/images/cvcinstructorenterclassroom.png) 
 
-When students come to their enrollment, they can enter the virtual meeting or open their labs. Clicking the Enter Classroom button directly adds them into the meeting. If the meeting host has not started the meeting, they need to wait for the meeting to begin. The launch buttons for labs and course activities appear when class begins. 
+When students come to their enrollment, they can enter the virtual meeting or open their labs. Clicking the Enter Classroom button directly adds them into the virtual meeting. If the meeting host has not started the meeting, they need to wait for the meeting to begin. The launch buttons for labs and course activities appear when class begins. 
 
  ![](/tms/images/cvcstudententerclassroom.png)
 
