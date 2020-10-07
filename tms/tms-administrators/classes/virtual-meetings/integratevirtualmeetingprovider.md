@@ -7,15 +7,27 @@ isPublished: true
 
 You can easily use the virtual meeting provider of your choice to provide hands-on, interactive virtual training solutions. Setting up a virtual meeting provider with the Learn on Demand Systems platform just takes a few clicks. You can create training in the LODS Training Management System (TMS) using your preferred virtual meeting provider in your classes. If you are using Teams, GoToMeeting, Adobe Connect, Zoom or another service, it can be used to give students and instructors access within a class. This will give your instructors and students everything they need for their class from one page. 
 
-We also have a full integration into the TMS available using Adobe Connect or Zoom. [Click here for more information.](/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md) The information below applies to any virtual meeting host.
+We also have a full integration into the TMS available using Adobe Connect and Zoom. [Click here for more information.](/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md) The information below applies to any virtual meeting host.
 
 ## Enter your Meeting URL for your Class 
 
-It quick and easy to set up class access to your virtual meeting provider within a TMS class. All you need is the meeting URL to enter as the Virtual Delivery type when you create a class. 
+It quick and easy to set up class access to your virtual meeting provider within a TMS class. All you need is the meeting URL to enter when you create a class. You can set the number of minutes prior to the class atart time and after the class end time the instructor(s) and students can enter the virtual classroom. 
 
-![](/tms/images/cvcurlgotomeeting.png) 
+When editing or creating your class, 
+1. Expand the **Delivery** section.
+1. For **Delivery Type** choose **Virtual** or **Physical and Virtual**.
+1. For **Virtual Meeting Host** select **Custom Virtual Classroom**, this opens additional fields to input the meeting URL and set the times the Enter Classroom is available to users.
+1. Input the **URL** from the meeting you have scheduled in your preferred virtual meeting provider.
+1. Check the **Set Pre and Post Class Launch Access** box, this must be checked for the times to work.
+1. In the **Instructor Pre-Class Launch Window** input the number of minutes before the class session start time(s) the instructor(s) can enter the virtual classroom.
+1. In the **Student Pre-Class Launch Window** input the number of minutes before the class session start time(s) the students can enter the virtual classroom. 
+1. In the **Instructor Post-Class Launch Window** put the number of minutes after the class session end time(s) the instructor(s) can still enter the virtual classroom. 
+1. In the **Student Post-Class Launch Window** put the number of minutes after the class session end time(s) the students can still enter the virtual classroom.
+1. Continue setting up your class or click **Save** to commit the changes.
 
-Once it is added your instructors and students will see an Enter Classroom button to access your virtual meeting from their class. When instructors go to their class, they can enter the virtual meeting and they always have access to open their labs.   
+![](/tms/images/virtual-class-launch-windows.png) 
+
+If you do not set pre and post class launch windows, then your instructors and students will see the Enter Classroom button immediately; with times entered, the Enter Classroom button is available based on your settings.  
 
  ![](/tms/images/cvcinstructorenterclassroom.png) 
 
