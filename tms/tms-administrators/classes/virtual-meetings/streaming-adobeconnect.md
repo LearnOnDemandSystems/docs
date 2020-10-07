@@ -9,7 +9,7 @@ isPublished: true
 
 Give your students and instructors the convenience of one place for all members of the class to open their virtual classroom and all their course activities and labs. Deliver your Instructor-led training virtually with Adobe Connect within a TMS class.  
 
-If you have an Adobe Connect license, you have a choice in how you set up your virtual meeting delivery. We have an integration in the TMS using Adobe Connect. The convenience of this choice is that creating a class also schedules your meeting in Adobe, can be set up to use class meeting templates, has settings to control how long the Enter Classroom button shows before and after class for instructors or students, and also gives students access to recordings of class sessions through their TMS enrollment. If you would like to integrate Adobe Connect, please contact [Customer Support.](https://www.learnondemandsystems.com/customer-support/) Alternately, you can use our Custom Virtual Meeting Host. 
+If you have an Adobe Connect license, you have a choice in how you set up your virtual meeting delivery. We have an integration in the TMS using Adobe Connect. The convenience of this choice is that creating a class also schedules your meeting in Adobe, can be set up to use class meeting templates, and also gives students access to recordings of class sessions through their TMS enrollment. If you would like to integrate Adobe Connect, please contact [Customer Support.](https://www.learnondemandsystems.com/customer-support/) Alternately, you can use our Custom Virtual Classroom. 
 
 **Find your Adobe Connect meeting URL**
 
@@ -19,17 +19,24 @@ If you choose to use the Custom Virtual Meeting Host rather than the integrated 
 
 **Enter your Adobe Connect URL in your Class**
 
-If you have used the TMS before for classes, then the only new element is adding Teams for your class’ delivery. If you have not set up a class before, you can find links to additional resources below. 
-1. On the **Create/Edit Class** page, expand the **Delivery** section. 
-1. On the **Delivery Type** dropdown select **Virtual**. 
-1. The Virtual Meeting Host menu appears below with **Custom Virtual Classroom** selected and a URL field displayed. Input your Adobe Connect meeting URL in the **URL** field. 
+If you have used the TMS before for classes, then the only new element is adding the Adobe Connect meeting URL for your class’ delivery. If you have not set up a class before, you can find links to additional resources below. 
 
+hen editing or creating your class, 
+1. Expand the **Delivery** section.
+1. For **Delivery Type** choose **Virtual** or **Physical and Virtual**.
+1. For **Virtual Meeting Host** select **Custom Virtual Classroom**, this opens additional fields to input the meeting URL and set the times the Enter Classroom button is available to users.
+1. Input the **URL** from the meeting you have scheduled in your preferred virtual meeting provider.
+1. Check the **Set Pre and Post Class Launch Access** box, this must be checked for the times to work.
+1. In the **Instructor Pre-Class Launch Window** input the number of minutes before the class session start time(s) the instructor(s) can enter the virtual classroom.
+1. In the **Student Pre-Class Launch Window** input the number of minutes before the class session start time(s) the students can enter the virtual classroom. 
+1. In the **Instructor Post-Class Launch Window** input the number of minutes after the class session end time(s) the instructor(s) can still enter the virtual classroom. 
+1. In the **Student Post-Class Launch Window** input the number of minutes after the class session end time(s) the students can still enter the virtual classroom.
+1. Continue setting up your class or click **Save** to commit the changes.
 
-![](/tms/images/cvcadobeclassurl1.png) 
+![](/tms/images/virtual-class-launch-windows.png) 
+ 
 
 The TMS passes along the classId, studentLastName, studentFirstName, and studentEmail to the receiving site. 
-
-> [!KNOWLEDGE] **<sup>1</sup>BEST PRACTICE**: Once a Customer Virtual Classroom URL is added the Enter Classroom button is available to students from their class enrollment, even before the class starts and after it is over. Therefore, it is best to use unique URLs for each class to avoid students from a class accidentally accessing another class they are not scheduled to attend. 
 
 # Additional Resources
 
