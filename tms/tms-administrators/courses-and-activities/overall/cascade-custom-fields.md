@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I make the custom fields on my courses available on my classes?
 
-> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
+> :small_blue_diamond: Please be aware that functionality covered in this and linked articles may not be available to you.
 
 You can set course custom fields to cascade down to the classes that use the course. When a course custom field is enabled to cascade down to a class, it creates a new class custom field. This new field is like any other class custom field on a class. However, there are a few items to be aware of:
 - If the course custom field is set to unique values, the value set in course is compared to other course values and, if a value is set set in the class, it is compared to other class values.
