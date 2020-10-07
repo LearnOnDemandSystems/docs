@@ -18,6 +18,7 @@ Start by scheduling a meeting in Google Meet. When you have completed scheduling
 **Enter your Google Meet URL in your Class**
 
 If you have used the TMS before for classes, then the only new element is adding Teams for your class’ delivery. If you have not set up a class before, you can find links to additional resources below. 
+
 When editing or creating your class, 
 1. Expand the **Delivery** section.
 1. For **Delivery Type** choose **Virtual** or **Physical and Virtual**.
