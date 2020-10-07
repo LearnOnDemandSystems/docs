@@ -1,6 +1,7 @@
 # How do I see available courses and determine how much I will be charged for a lab in one of them?
 
-> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+> :small_blue_diamond: Please be aware that functionality covered in this and linked articles may not be available to you.
+
 
 When you want to find which courses are available in the system and whether they have labs or not, you can do this from the Find Courses page. 
 
