@@ -18,16 +18,23 @@ When you have completed scheduling a meeting in Webex you can access the meeting
 **Enter your webex URL in your Class**
 
 If you have used the TMS before for classes, then the only new element is adding Webex for your class’ delivery. If you have not set up a class before, you can find links to additional resources below. 
-1. On the **Create/Edit Class** page, expand the **Delivery** section. 
-1. On the **Delivery Type** dropdown select **Virtual**. 
-1. The Virtual Meeting Host menu appears below with **Custom Virtual Classroom** selected and a URL field displayed. Input your Webex meeting URL in the **URL** field. 
 
+When editing or creating your class, 
+1. Expand the **Delivery** section.
+1. For **Delivery Type** choose **Virtual** or **Physical and Virtual**.
+1. For **Virtual Meeting Host** select **Custom Virtual Classroom**, this opens additional fields to input the meeting URL and set the times the Enter Classroom button is available to users.
+1. Input the **URL** from the meeting you have scheduled in your preferred virtual meeting provider.
+1. Check the **Set Pre and Post Class Launch Access** box, this must be checked for the times to work.
+1. In the **Instructor Pre-Class Launch Window** input the number of minutes before the class session start time(s) the instructor(s) can enter the virtual classroom.
+1. In the **Student Pre-Class Launch Window** input the number of minutes before the class session start time(s) the students can enter the virtual classroom. 
+1. In the **Instructor Post-Class Launch Window** input the number of minutes after the class session end time(s) the instructor(s) can still enter the virtual classroom. 
+1. In the **Student Post-Class Launch Window** input the number of minutes after the class session end time(s) the students can still enter the virtual classroom.
+1. Continue setting up your class or click **Save** to commit the changes.
 
-![](/tms/images/cvcwebexclassurl.png)
+![](/tms/images/virtual-class-launch-windows.png) 
 
 The TMS passes along the classId, studentLastName, studentFirstName, and studentEmail to the receiving site. 
-
-> [!KNOWLEDGE] **<sup>1</sup>BEST PRACTICE**: Once a Customer Virtual Classroom URL is added the Enter Classroom button is available to students from their class enrollment, even before the class starts and after it is over. Therefore, it is best to use unique URLs for each class to avoid students from a class accidentally accessing another class they are not scheduled to attend. 
+ 
 
 # Additional Resources
 
