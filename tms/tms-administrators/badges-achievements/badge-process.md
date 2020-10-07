@@ -5,7 +5,7 @@ isPublished: true
 
 # What is involved in creating external badges?
 
-> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
+> :small_blue_diamond: Please be aware that functionality covered in this and linked articles may not be available to you.
 
 Your students can now earn externally supported badges through their activities/achievements in the TMS. This will give your users an additional sense of accomplishment, and they will be able to share that accomplishment with others outside the TMS.
 
