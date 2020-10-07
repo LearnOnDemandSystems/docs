@@ -11,7 +11,7 @@ Virtual meetings are scheduled in the Delivery section when creating or editing 
 
 Below is a comparison chart of features in the custom VMH, integrated Adobe Connect VMH, and integrated Zoom VMH. Below the chart is more information on the differences in using these features.
 
-**Features** | **Custom VMH** | **Integrated Adobe Connect VMH** | **Integrated Zoom VMH**
+**Features** | **Custom Virtual Classroom** | **Adobe Connect Integration** | **Zoom Integration**
 -------------|----------------|----------------------------------|------------------------
 **Create a class in TMS and meeting in VHM**
 Manually create meeting in VMH and then input meeting URL in TMS class | X |   |   |
