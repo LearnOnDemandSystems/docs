@@ -60,4 +60,44 @@ Several defaults can be set for the classes you create such as the class capacit
 | **Show Organization filter to choose instructors from outside my organization** | When creating or editing a class and adding an instructor, the Instructor chooser dialog can be set to add the organization by default. Adding the filter when choosing an instructor allows you to select from organizations you have access to. |
 | **Uses Contract Instructors** | Check this box to opt in to use contract instructors, you gain access to view contract instructor contact information and the ability to schedule these instructors for your classes. [**What is the Contract Instructor Pool?**](https://docs.learnondemandsystems.com/tms/tms-administrators/users/instructor-management/what-is-contract-instructor-pool.md) |
 
+## Course Settings
+Several defaults can be set for your courses such as, adding a new icon, and set defaults for course feedback or course ratings. 
 
+| Field | Default Data |
+|:------|:--------|
+| **Available Instructor-Led** | Check this box to have newly created courses default to have available instructor-led enabled. |
+| **Available Self-Paced** | Check this box to have newly created courses default to have available self-paced enabled. |
+| **Show "New" icon (# of days)** | Input the number of days you would like a new icon to display on Find Courses and a course catalog for any newly created courses. |
+| **Enable simple course feedback** | Check this box to have course feedback enabled on all newly created courses. |
+| **Display course ratings** | Enable course ratings based on Simple course feedback to show on the course catalog. Once checked additional choices show for a minimum of ratings to display and to only show if a minimum rating is set. |
+| **Total ratings required before displaying** | Input the number of ratings that must be submitted through Simple course feedback before the rating displays. |
+| **Specify minimum course rating** | Check specify minimum course rating to reveal a percentage field, enter the minimum rating that must be met for course ratings to display on a course catalog. |
+| **Automatically create course when new lab profile is found on lab sync** | Courses can be created automatically from newly published labs if the feature is enabled. For a published Lab Series, marking a Lab Profile complete triggers immediate creation of a course for a lab profile in the TMS. Additional set up is required by LODS staff. |
+| **Program** | Input the Program set for the course for an automatically created course from a lab profile. |
+| **Content Provider** | Input the Content Provider set for the course for an automatically created course from a lab profile. |
+| **Publishing Group** | Input the Publishing group set for the course for an automatically created course from a lab profile.  |
+
+## Default Surveys on new Courses and Classes
+
+Surveys can be set to be added by default on all new courses and all new classes. If different survey selections are added directly on a course, then a class based on the course inherits the course's surveys. Surveys can be added or changed on a class.
+
+| Field | Default Data |
+|:------|:--------|
+| **Student Survey** | Input a default student survey to be added by default to all newly created courses and classes. |
+| **Survey Availability** | Input the number of hours you want the student survey to show in the class activities after the event begins or before the event ends. Also input the number of days after the event ends the survey will be available for students to take. |
+| **Instructor Survey** | Input a default instructor survey to be added to all newly created courses and classes. |
+| **Organization Survey** | Input a default organization survey to be added to all newly created courses and classes. |
+
+## Miscellaneous Settings
+
+
+| Field | Default Data |
+|:------|:--------|
+| **Course Assignment - Use simple course assignment** | Enable using simple course assignment to use the most update user interface for self-paced learning. |
+| **Discussion Disclaimer - Set a Disclaimer** | Discussions can have a disclaimer message added which displays to users on discussion posts. |
+| **On-Demand Course browser - Show subscription profile name** | You can display the subscription name when you have the On-Demand course browser enabled on the subscription profile. |
+| **Organization Room Calendar - Include external classrooms** | Organizations have several calendars available, the Room Calendar can have external classrooms display. |
+| **Participate In Global Announcements** | You can choose whether to participate in LODS announcements we occasionally send regarding scheduled maintenance or outages which display on each user's TMS page. |
+| **Achievements - Enable using Achievements** | Achievements allow you to award users for accomplishing designated parameters either automatically or by assigning them. |
+| **Participate in Global Achievements** | LODS has achievements which can be enabled and used by your organization. |
+| **Enable Courseware launch for Skillpipe** | Digital courseware from Skillpipe can be enabled with students using single sign on to access their Skillpipe library and to redeem codes for new courseware. |
