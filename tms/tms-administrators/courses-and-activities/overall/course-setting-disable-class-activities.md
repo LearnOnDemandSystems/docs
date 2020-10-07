@@ -6,6 +6,8 @@ isPublished: true
 
 # How do I set up a course which allows class activities to be disabled?
 
+> :small_blue_diamond: Please be aware that functionality covered in this and linked articles may not be available to you.
+
 You can control when and if students have access to class activities. Instructors can enable or disable any activity in a class they are assigned to teach, and Operations managers can disable activities in classes they manage. 
 
 When a course is set up to allow class activities to be disabled, then all classes built on that course have activity disablement enabled. This includes all activities in the class, labs, external links (video, document and/or website), assessments, and SCORM modules can be disabled or re-enabled during class. 
