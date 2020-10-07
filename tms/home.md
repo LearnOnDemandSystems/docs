@@ -221,13 +221,13 @@
         <div class="azIndex cardContent">
           <div class="cardHeader" tabindex="0" title="Administrator TMS Videos" aria-label="Administrator TMS Videos">TMS Videos</div>
           <div class="category">
-             <a href="/tms/tms-administrators/tms-videos.md" class="categoryThread">
+             <a href="/tms/home-landing-pages/admin-tms-videos.md" class="categoryThread">
               <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
               <span class="categoryTitle" title="What are the tools I need to set up training?">What are the tools I need to set up training?</span>
           </a>
           </div>
           <div class="category">
-              <a href="/tms/tms-administrators/tms-videos.md" class="categoryThread">
+              <a href="/tms/home-landing-pages/admin-tms-videos.md" class="categoryThread">
               <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
               <span class="categoryTitle" title="Introduction to TMS Fundamentals">Introduction to TMS Fundamentals</span>
            </a>
