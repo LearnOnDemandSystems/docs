@@ -221,22 +221,9 @@
         <div class="azIndex cardContent">
           <div class="cardHeader" tabindex="0" title="Administrator TMS Videos" aria-label="Administrator TMS Videos">TMS Videos</div>
           <div class="category">
-             <a href="/tms/home-landing-pages/admin-tms-videos.md" class="categoryThread">
               <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
-              <span class="categoryTitle" title="What are the tools I need to set up training?">What are the tools I need to set up training?</span>
+              <span class="categoryTitle" title="View videos on using the TMS. We have getting started videos covering TMS fundamentals and videos from our Thursday webinars that give in depth information on features.">View videos on using the TMS. We have getting started videos covering TMS fundamentals and videos from our Thursday webinars that give in depth information on features.</span>
           </a>
-          </div>
-          <div class="category">
-              <a href="/tms/home-landing-pages/admin-tms-videos.md" class="categoryThread">
-              <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
-              <span class="categoryTitle" title="Introduction to TMS Fundamentals">Introduction to TMS Fundamentals</span>
-           </a>
-          </div>
-              <div class="category">
-              <a href="/tms/tms-administrators/tms-videos.md" class="categoryThread">
-              <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
-              <span class="categoryTitle" title="Tips and Tricks on Delivering Virtual Classes">Tips and Tricks on Delivering Virtual Classes</span>
-             </a>
             </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-tms-videos.md" title="View all" aria-label="View all Admin TMS Videos">View all</a></div>
         </div>
