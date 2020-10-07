@@ -5,7 +5,8 @@ isPublished: true
 
 # How do I create a basic course?
 
-> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you. 
+> :small_blue_diamond: Please be aware that functionality covered in this and linked articles may not be available to you.
+ 
 
 Courses are the building blocks of most training in the TMS. For example, they are used in classes, course assignments, subscriptions, and learning paths to deliver the learning content. Creating a course may be complex depending on the permission set within your roles and the activities and attributes you want to include. This article will cover how to build a basic course with no content; adding activities and setting other attributes will be covered in other articles.
 
