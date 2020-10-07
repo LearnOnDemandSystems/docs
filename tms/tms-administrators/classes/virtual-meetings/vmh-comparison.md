@@ -5,9 +5,9 @@ isPublished: true
 
 # Virtual Meeting Host Comparison
 
-Virtual meeting host providers (VMH) can be added to a class using two different methods: a custom VMH or integrated VMH. Class creators can specify delivery by custom virtual classroom and then add the meeting URL from your preferred VMH or use one of the two supported integrable VMHs. You can have multiple VMHs options associated to with your organization, but only a single VMH can be associated to each class.
+Virtual meeting host providers (VMH) can be added to a class using two different methods: a custom VMH or integrated VMH. Class creators can specify delivery by custom virtual classroom and then add the meeting URL from your preferred VMH or use one of the two supported, integrable VMHs. You can have multiple VMHs options associated with your organization, but only a single VMH can be associated to each class.
 
-Scheduling a virtual meeting is from the Delivery section when creating or editing a class. When the Delivery Type of Virtual or Physical and Virtual is chosen virtual meeting options display. If you have an integrated VMH it will be selected by default, but you can select another option like a custom VHM. If you do not have an integrated VMH, you will only see the option for custom Virtual Classroom with a field to enter a URL. Only one VHM can be used per class. For multiple day classes, set up a session for each day using the Add Multiple Session Times link in the Session Times section. 
+Virtual meetings are scheduled in the Delivery section when creating or editing a class. When the Delivery Type of Virtual or Physical and Virtual is chosen virtual meeting options display. If you have an integrated VMH it will be selected by default, but you can select another option like the custom virtual classroom. If you do not have an integrated VMH, you will only see the option for Custom Virtual Classroom with a field to enter a URL. Only one VHM can be used per class. For multiple day classes, set up class sessions using the Add Multiple Session Times link in the Session Times section. 
 
 Below is a comparison chart of features in the custom VMH, integrated Adobe Connect VMH, and integrated Zoom VMH. Below the chart is more information on the differences in using these features.
 
@@ -21,19 +21,16 @@ Contract or License required |   | X | X |
 Requires LODS staff to set up integration |   | X | X |
 **Entering Class**
 Instructor and students launch virtual classroom and class activities from one page | X | X | X |
-Enter classroom link available from the time of set up until link is removed from class, can be launched anytime  | X |   |   |
-Enter classroom link available to instructor 60 minutes before class session starts until class session end time  |   |   | X |
-Enter classroom link available to students 15 minutes before class session starts until class session end time  |   |   | X |
-Enter classroom link access before and after class session is customizable for instructors and students  |   | X |   |
+Enter classroom button availability is set on the class  | X |   |   |
+Enter classroom button is available to instructor 60 minutes before class session starts until class session end time  |   |   | X |
+Enter classroom button is available to students 15 minutes before class session starts until class session end time  |   |   | X |
+Enter classroom button access before and after class session can be customized for all classes for instructors and students  |   | X |   |
 **Recording Classes**
 Class session recording links available in TMS to instructors and students |   | X | X |
 
-## Custom Virtual Meeting Host
+## Custom Virtual Classroom
 
-The custom VMH is available to all organizations anytime you schedule a class. You need to set up a meeting in your preferred VHM, then add the meeting URL to the Delivery section of your TMS class. Once the meeting URL is added to the class, the students and instructor have an Enter Classroom button, the button is available to them for as long as the URL is on the class. For this reason, you should either use unique meeting URLs for each class or remove the URL from the class once it is completed to prevent students from accessing a class they are not enrolled in. 
-
-The TMS passes along the classId, studentLastName, studentFirstName, and studentEmail to the receiving site. 
-No recordings are available through the TMS.
+The custom virtual classroom is available to all organizations anytime you schedule a class. You need to set up a meeting in your preferred VHM, then add the meeting URL to the Delivery section of your TMS class. After entering the meeting URL, you can control when the Enter Classroom button is available to users by checking the Set Pre and Post Class Launch Access box and then input times for Instructor and Student Pre-Class Launch Window and for Instructor and Student Post-Class Launch Window.
 
 ## Adobe Connect Virtual Meeting Host Integration
 
