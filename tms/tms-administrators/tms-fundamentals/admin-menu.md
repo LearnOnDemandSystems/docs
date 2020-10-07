@@ -5,6 +5,8 @@ isPublished: true
 
 # What is the Admin menu and how does it work?
 
+> :small_blue_diamond: Please be aware that functionality covered in this and linked articles may not be available to you.
+
 The Admin menu offers you the grouped administrative links from the Site Administration page in a menu format without leaving your current page. It has some important capabilities for you:
 1. Search bar that allows you to search for a link without leaving the menu and click the link within the search results.
 1. Group order so you can to choose to view the groups in their default order or in alphabetical order. 
