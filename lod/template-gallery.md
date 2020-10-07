@@ -19,14 +19,16 @@ The template gallery allows lab authors to easily search for and select pre-crea
 
 To create a lab profile from the Template, select Create on the chosen template and fill in the following fields.
 
-- Number: The number of your Lab Profile.
-- Name: The title of your Lab Profile.
+- Number: Numbers are used in the title of the lab profile.
+- Name: This will be the display name of the lab profile.
 - Descriptions: A description of the Lab Profile.
-- Organization: You may choose from any of the organizations you manage.
+- Organization:  Select the organization that will own the lab profile and be responsible for maintaining the profile. You may choose from any of the organizations you manage.
 - Series: Select or dynamically create a new Lab Series to which your profile will be assigned. You may also choose none.
-- Expected Duration: The expected duration of the Lab Profile.
-- Maximum Duration: The maximum duration of the Lab Profile.
-- Tags: By selecting one or more tags, the lab will be available under these filters when/if published to the template gallery. 
+- Expected Duration: The expected amount of time it will take a user to complete the lab.
+- Maximum Duration: The maximum amount of time that a user can spend in the lab.
+- Tags: By selecting one or more tags, the lab profile will be available as a template under these filters when/if published to the template gallery. 
+
+> [!note]These settings and more can later be modified from the lab profile edit page. 
 
 ![](images/template-gallery-create-profile.png)
 
@@ -44,20 +46,20 @@ The templates can be filtered based on their availability and technology focus.
 
 ## Lab Tags
 
-Organization Managers and Lab Authors can add additional filters for technology focus by tagging lab profiles with a lab tag. Lab Tags can be created from the admin portal by selecting *Lab Tags* under the Lab Profile pane. 
+Organization Managers and Lab Authors can add additional filters for technology focus by tagging lab profiles with a lab tag. Lab Tags can be created in the LOD admin portal by selecting *Lab Tags* under the Lab Profile pane. 
 
-The Lab tags are in a *Title: Subject* format.
-Here is an example of what one of the *Included Technology* tags would look like wile configuring it. Before saving, ensure Publish to Template Gallery is enabled.
+The Lab tags are in a *Title: Subject* format, separated by a colon.
+Here is an example of what one of the *Included Technology* tags from the screenshot above would look like during configuration. Before saving, ensure *Publish to Template Gallery* is enabled if you would like it available as a filter.
 
 
 ![](images/template-gallery-lab-tags.png)
 
 ## Publishing Labs.
 
-Labs can be published to the organization gallery by selecting *Publish to Organization Template Gallery* options on the advanced tab of the lab profile. Additionally, lab profiles may be tagged from the Tags tab of the same page.
+Labs may be published to the organization gallery as a template by selecting *Publish to Organization Template Gallery* options on the advanced tab of the lab profile. Additionally, lab profiles may be tagged from the Tags tab of the same page.
 
 ## Custom Environments
 
-When you can't find a template that meets your requirement, you can create the lab profile from the ground-up using the Create Custom Environment link.
+If you find none of the templates meets your requirements, or you have something special in mind, you may create the lab profile from the ground-up using the *Create Custom Environment* link in the top right corner.
 
 ![](images/template-gallery-to-legacy.png)
