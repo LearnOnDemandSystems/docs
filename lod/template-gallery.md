@@ -34,7 +34,7 @@ To create a lab profile from the Template, select Create on the chosen template 
 
 ## Filters
 
-The templates can be filtered based on their availability and technology focus.
+The lab templates in the gallery may be filtered based on their availability and technology focus.
 
 - *Public* will show templates available to everyone in using Lab on Demand.
 
@@ -46,17 +46,17 @@ The templates can be filtered based on their availability and technology focus.
 
 ## Lab Tags
 
-Organization Managers and Lab Authors can add additional filters for technology focus by tagging lab profiles with a lab tag. Lab Tags can be created in the LOD admin portal by selecting *Lab Tags* under the Lab Profile pane. 
+Organization Managers and Lab Authors can add additional filters for technology focus by tagging lab profiles with a lab tag. Lab Tags are created in the LOD admin portal by selecting *Lab Tags* under the Lab Profile pane. 
 
 The Lab tags are in a *Title: Subject* format, separated by a colon.
-Here is an example of what one of the *Included Technology* tags from the screenshot above would look like during configuration. Before saving, ensure *Publish to Template Gallery* is enabled if you would like it available as a filter.
+Here is an example of what one of the *Included Technology* tags from the screenshot above would look like during configuration. Before saving, ensure *Publish to Template Gallery* is enabled if you would like it available as a filter in the template gallery.
 
 
 ![](images/template-gallery-lab-tags.png)
 
 ## Publishing Labs.
 
-Labs may be published to the organization gallery as a template by selecting *Publish to Organization Template Gallery* options on the advanced tab of the lab profile. Additionally, lab profiles may be tagged from the Tags tab of the same page.
+Labs may be published to the organization gallery as a template by selecting the *Publish to Organization Template Gallery* option on the advanced tab when editing a lab profile. Additionally, lab profiles may be tagged from the Tags tab of the same page.
 
 ## Custom Environments
 
