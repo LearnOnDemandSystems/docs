@@ -468,8 +468,9 @@
       </div>
      </div>
             <!-- -- End administrator categories section -->
-  </div>
-
+ </div>
+      </div>
+      <div class="cardContainer">
   <div class="coursewareMarketplaceAdmin userTypeSection">
   <!-- Begin Arvato MarketPlace Admin categories section.. -->
     <div class="moreInfo" tabindex="0" title="Getting started?">
