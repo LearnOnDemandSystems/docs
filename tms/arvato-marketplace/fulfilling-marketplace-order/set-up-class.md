@@ -12,6 +12,10 @@ LoDS lab access is controlled by class start time. This allows you to set up the
 To set up a class after a purchase:
 1. On the **Admin** menu in the **Class Vouchers** group, click **Manage Class Vouchers**.
 
+![](/tms/images/cwm-site-admin-class-vouchers.png)
+*Tiles can be moved and may not be in the same order as pictured here.*
+
+
 > The Manage Class Vouchers page has the Available Vouchers and Create Class sections. Voucher use is tallied under the Available Vouchers section.
 
 1. Verify your vouchers show in the **Available** column. You cannot create classes until the vouchers show as available.
@@ -19,8 +23,15 @@ To set up a class after a purchase:
 1. Enter the number of students who will be enrolled in the class in the **Students** field. Since you may create multiple classes using the vouchers, this can be less than or equal to the number of vouchers that are available for the course.
 1. Click **Create Class**. This will take you to the Create Class page.
 
+![](/tms/images/cwm-manage-vouchers.png)
+*Manage class vouchers page, select course and create your class.*
+
 From here you will enter the Class information:
 1. Confirm, and correct if necessary, the information displaying in the **Basic Information** section.
+
+![](/tms/images/cwm-create-class-open-delivery.png)
+*Create class page, verify information in the Basic Information section.*
+
 1. To run the class virtually, follow the directions in this section. If you are running an in-person class skip to the Session Times section.
      1. **Set up a meeting** using your streaming provider.
      1. Find and copy the **meeting URL**.
@@ -28,6 +39,10 @@ From here you will enter the Class information:
      1. On the **Delivery Type** dropdown select **Virtual**. 
      1. The Virtual Meeting Host menu appears below with **Custom Virtual Classroom** selected and a URL field displayed. Input your meeting URL in the **URL** field. 
      For additional help finding specific meeting URLs [click here.](/tms/tms-administrators/classes/schedule/Integrate-Streaming-Provider.md)
+
+![](/tms/images/cwm-add-virtual-classroom.png)
+*Create class page, add a virtual classroom.*
+     
 1. Expand the **Session Times** section. This is where you will designate the days and times for the class.
      1. Click **Add Multiple Session Times**.
      1. Confirm or revise **# Sessions** for your class.
@@ -35,7 +50,14 @@ From here you will enter the Class information:
      1. Set the date the class will start in the **First Day** field.
      1. Confirm or revise the **Start** and **End Times** for the class. *Note that student access to labs begins at the **Start Time** on the **First Day** of class set in the TMS.*
      1. Click **OK**.
+
+![](/tms/images/cwm-class-sessions.png)
+*Create class page, set up the times and dates of your class sessions.*
+
 1. Click **Save**. The Class profile page will open for the class you just created.
+
+![](/tms/images/cwm-save-class.png)
+*Create class page, save your class.*
 
 Instructors and students can be added later. 
 
