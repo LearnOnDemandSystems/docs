@@ -40,6 +40,11 @@ To use training keys:
         ![](/tms/images/cwm-register-page.png)
         *Fill in registration information*         
         
+        5. This opens your enrollment.
+        
+        ![](/tms/images/cwm-enrollment-opens.png)
+        *Student's enrollment page*          
+        
     1. If you are a returning user-
         1. Click **Sign In**.
         1. Input your **Username** and **Password** and click **Sign In**.
@@ -53,10 +58,25 @@ You can create enrollments manually for your students for the class. If your stu
 
 To add students to a class:
 1. Navigate to the **Class** page.
-1. Click the **Roster** link.
-1. Click **Add Students**.
-1. Choose all the students you would like to enroll and then click **OK**.
-1. Click **Save Changes** button.
+2. Click the **Roster** link.
+
+![](/tms/images/cwm-roster-link.png)
+*Select the Roster link*
+
+3. Click **Add Students**.
+
+![](/tms/images/cwm-add-students-roster.png)
+*Select the Add Students link*
+
+4. Choose all the students you would like to enroll and then click **OK**.
+
+![](/tms/images/cwm-add-students-chooser.png)
+*Select the students for your class*
+
+5. Click **Save Changes** button.
+
+![](/tms/images/cwm-enroll-roster.png)
+*Save your changes*
 
 Students must be in the **Enrolled** status to be able to launch their labs. They will not be given access to launch labs until the class starts. You may cancel a student up until the class begins.
 
