@@ -56,7 +56,7 @@ From here you will enter the Class information:
 
 3. Click **Save**. The Class profile page will open for the class you just created.
 
-![](/tms/images/cwm-save-class2.png)
+![](/tms/images/cwm-save-class3.png)
 *Create class page, save your class.*
 
 Instructors and students can be added later. 
