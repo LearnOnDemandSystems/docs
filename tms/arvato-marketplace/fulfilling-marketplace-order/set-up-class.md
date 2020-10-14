@@ -12,7 +12,7 @@ LoDS lab access is controlled by class start time. This allows you to set up the
 To set up a class after a purchase:
 1. On the **Admin** menu in the **Class Vouchers** group, click **Manage Class Vouchers**.
 
-![](/tms/images/cwm-site-admin-class-vouchers1.png)
+![](/tms/images/cwm-site-admin-class-vouchers2.png)
 *Tiles can be moved and may not be in the same order as pictured here.*
 
 
@@ -56,7 +56,7 @@ From here you will enter the Class information:
 
 3. Click **Save**. The Class profile page will open for the class you just created.
 
-![](/tms/images/cwm-save-class1.png)
+![](/tms/images/cwm-save-class2.png)
 *Create class page, save your class.*
 
 Instructors and students can be added later. 
