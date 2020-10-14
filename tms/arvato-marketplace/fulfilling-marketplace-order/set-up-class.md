@@ -12,7 +12,7 @@ LoDS lab access is controlled by class start time. This allows you to set up the
 To set up a class after a purchase:
 1. On the **Admin** menu in the **Class Vouchers** group, click **Manage Class Vouchers**.
 
-![](/tms/images/cwm-site-admin-class-vouchers3.png)
+![](/tms/images/cwm-site-admin-class-vouchers4.png)
 *Tiles can be moved and may not be in the same order as pictured here.*
 
 
