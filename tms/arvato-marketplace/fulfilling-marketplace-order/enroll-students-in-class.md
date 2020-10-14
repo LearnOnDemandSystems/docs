@@ -11,15 +11,35 @@ Two different methods are available for setting up your students. You may either
 The simplest method of enrolling students into a class is to have your students self-register into the class by providing them with training keys. 
 
 To use training keys:
-1. Navigate to the **Class** page and click the **Class Training Keys** link. This will open a list of the class vouchers and Training Keys. 
-1. Export or copy the training keys from this column. Each student will need one of these unique keys to self-enroll. 
-1. Send the training keys to the students with the the following instructions to assist with their self-registration:
+1. Navigate to the **Class** page and click the **Class Training Keys** link. This will open a list of the class vouchers and Training Keys.
+
+![](/tms/images/cwm-training-key-link.png)
+*Select the Class Training Keys link*
+
+2. Export or copy the training keys from this column. Each student will need one of these unique keys to self-enroll. 
+
+![](/tms/images/cwm-export-keys.png)
+*Export Training Keys*
+
+3. Send the training keys to the students with the the following instructions to assist with their self-registration:
     1. Go to **https://alh.learnondemand.net**
     1. If you are a first time user-
         1. Click **Register with Training Key**.
-        1. Input your training key in the **Register with a Training Key** field.
-        1. Click **Register**.
-        1. This opens the registration page to create a user account. Input your registration information and click **Save**. Your enrollment will then open.
+        
+        ![](/tms/images/cwm-register-with-training-key.png)
+        *Select Register with Training Key button*
+        
+        2. Input your training key in the **Register with a Training Key** field.
+        3. Click **Register**.
+        
+        ![](/tms/images/cwm-input-key.png)
+        *Input training key*        
+                
+        4. This opens the registration page to create a user account. Input your registration information and click **Save**. Your enrollment will then open.
+        
+        ![](/tms/images/cwm-register-page.png)
+        *Fill in registration information*         
+        
     1. If you are a returning user-
         1. Click **Sign In**.
         1. Input your **Username** and **Password** and click **Sign In**.
@@ -36,6 +56,7 @@ To add students to a class:
 1. Click the **Roster** link.
 1. Click **Add Students**.
 1. Choose all the students you would like to enroll and then click **OK**.
+1. Click **Save Changes** button.
 
 Students must be in the **Enrolled** status to be able to launch their labs. They will not be given access to launch labs until the class starts. You may cancel a student up until the class begins.
 
