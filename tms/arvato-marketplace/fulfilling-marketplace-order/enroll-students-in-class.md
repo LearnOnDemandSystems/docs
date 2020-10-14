@@ -58,7 +58,7 @@ To use training keys:
         
         3. You will be taken to your Current Training page. Click **Redeem Training Key**.
         
-        ![](/tms/images/cwm-input-training-key.png)
+        ![](/tms/images/cwm-input-training-key1.png)
         *Input your training key*  
         
         4. Input your training key and click **Redeem Training Key**. 
