@@ -47,9 +47,30 @@ To use training keys:
         
     1. If you are a returning user-
         1. Click **Sign In**.
-        1. Input your **Username** and **Password** and click **Sign In**.
-        1. You will be taken to your Current Training page. Click **Redeem Training Key**.
-        1. Input your training key and click **Redeem Training Key**. This opens your enrollment.
+        
+        ![](/tms/images/cwm-sign-in.png)
+        *Click the sign in button*  
+        
+        2. Input your **Username** and **Password** and click **Sign In**.
+        
+        ![](/tms/images/cwm-input-username-and-pw.png)
+        *Input your username and password*  
+        
+        3. You will be taken to your Current Training page. Click **Redeem Training Key**.
+        
+        ![](/tms/images/cwm-input-training-key.png)
+        *Input your training key*  
+        
+        4. Input your training key and click **Redeem Training Key**. 
+        
+        ![](/tms/images/cwm-redeem-key-link.png)
+        *Click the Redeem Training Key link*  
+        
+        5. This opens your enrollment.
+        
+        ![](/tms/images/cwm-enrollment-opens.png)
+        *Student's enrollment page*          
+        
     1. Please launch a test lab to check for connectivity issues and to familiarize yourself with the lab interface. Once class starts, the Launch buttons will appear beside the labs.
     1. For assistance anytime, click **Contact** on the TMS website or click here, **https://alh.learnondemand.net/Home/Contact** to go to the page now.
 
