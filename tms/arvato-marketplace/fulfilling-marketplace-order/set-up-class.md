@@ -12,7 +12,7 @@ LoDS lab access is controlled by class start time. This allows you to set up the
 To set up a class after a purchase:
 1. On the **Admin** menu in the **Class Vouchers** group, click **Manage Class Vouchers**.
 
-![](/tms/images/cwm-site-admin-class-vouchers.png)
+![](/tms/images/cwm-site-admin-class-vouchers1.png)
 *Tiles can be moved and may not be in the same order as pictured here.*
 
 
@@ -43,7 +43,7 @@ From here you will enter the Class information:
 ![](/tms/images/cwm-add-virtual-classroom.png)
 *Create class page, add a virtual classroom.*
      
-1. Expand the **Session Times** section. This is where you will designate the days and times for the class.
+2. Expand the **Session Times** section. This is where you will designate the days and times for the class.
      1. Click **Add Multiple Session Times**.
      1. Confirm or revise **# Sessions** for your class.
      1. Check the **Days** the class will be held.
@@ -54,9 +54,9 @@ From here you will enter the Class information:
 ![](/tms/images/cwm-class-sessions.png)
 *Create class page, set up the times and dates of your class sessions.*
 
-1. Click **Save**. The Class profile page will open for the class you just created.
+3. Click **Save**. The Class profile page will open for the class you just created.
 
-![](/tms/images/cwm-save-class.png)
+![](/tms/images/cwm-save-class1.png)
 *Create class page, save your class.*
 
 Instructors and students can be added later. 
