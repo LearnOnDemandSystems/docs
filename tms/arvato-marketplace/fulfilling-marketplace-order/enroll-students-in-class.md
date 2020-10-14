@@ -58,13 +58,13 @@ To use training keys:
         
         3. You will be taken to your Current Training page. Click **Redeem Training Key**.
         
-        ![](/tms/images/cwm-input-training-key1.png)
-        *Input your training key*  
+        ![](/tms/images/cwm-redeem-key-link1.png)
+        *Click the Redeem Training Key link* 
         
         4. Input your training key and click **Redeem Training Key**. 
-        
-        ![](/tms/images/cwm-redeem-key-link.png)
-        *Click the Redeem Training Key link*  
+         
+        ![](/tms/images/cwm-input-training-key1.png)
+        *Input your training key*  
         
         5. This opens your enrollment.
         
