@@ -320,7 +320,13 @@ Unchecking **Inherit storage settings from organization** box will enable additi
 
 **Life Cycle Actions:** Actions can be defined to occur at certain points in the lab life cycle. For instance, an external service could be called when the lab builds, or send a notification to the user when the lab is resumed.  
 
-Actions include:
+**Inherit Life Cycle Actions**
+
+When a child lab profile is configured to inherit the lab environment from a parent lab profile, LCAs can optionally be set to inherit from the parent lab profile. 
+
+To inherit Life Cycle Actions, click the checkbox on the Life Cycle tab of the child lab profile, to enable inheritance. Once inheritance is enabled, no other LCA configuration will be available on the child lab profile. All LCA changes must be made on the parent lab profile. 
+
+**Life Cycle Actions**:
 
 - **Send a web request:** sends a web request to the URL specified. The URL can optionally contain placeholders that will be replaced by live data, with @lab replacement tokens.
 - **Send a notification to the user:**  sends a notification to the user during the specified event.
@@ -329,7 +335,7 @@ Actions include:
 - **Execute Script in Container:** sends a Bash command to a container.
 - **Execute Script in Cloud Platform:** sends a PowerShell command to the cloud platform.
 
-Events include:
+**Life Cycle Events**:
 
 - **Pre-Build**: the lab components are being deployed, as well as any cloud resources.
 - **Post-Build**: the lab environment has been built, but components like virtual machines may still be starting. 

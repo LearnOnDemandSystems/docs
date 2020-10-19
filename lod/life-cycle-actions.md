@@ -8,7 +8,25 @@ isPublished: true
 
 With the Life Cycle Actions (LCA) feature, LOD is able to execute actions when specific events occur during the lab instance life cycle. 
 
-Actions include:
+## Life Cycle Actions Management
+
+Once you have added Life Cycle Actions to your lab, they will be listed on the Life Cycle tab of the lab profile, organized by event. If there is more than one LCA per Event, they can be arranged in the order they should execute when the Event happens. 
+
+To change the order, click the Up or Down arrow on the right side of the Action you want to move. You can only move Actions within an Event. Life Cycle Actions can be edited or deleted from the buttons on the right side of it as well.
+
+### Child Lab Profile LCA inheritance
+
+When a child lab profile is configured to inherit the lab environment from a parent lab profile, LCAs can optionally be set to inherit from the parent lab profile. 
+
+To inherit Life Cycle Actions, click the checkbox on the Life Cycle tab of the child lab profile, to enable inheritance. Once inheritance is enabled, no other LCA configuration will be available on the child lab profile. All LCA changes must be made on the parent lab profile. 
+
+## Life Cycle Configuration
+
+Life Cycle Actions are configured to execute an action at a specified event during the life cycle of the lab. 
+
+First, decide what type of action should be executed, then decide when that action should be executed in your lab. 
+
+**Life Cycle Actions include**:
 
 - **[Send a web request:](#send-web-request)** sends a web request to the URL specified. The URL can optionally contain placeholders that will be replaced by live data, with @lab replacement tokens.
 - **[Send a notification to the user:](#send-notification-to-user)**  sends a notification to the user during the specified event.
@@ -17,7 +35,7 @@ Actions include:
 - **[Execute Script in Container:](#execute-machine-command)** sends a Bash command to a container.
 - **[Execute Script in Cloud Platform:](#execute-cloud-platform-command)** sends a PowerShell command to the cloud platform.
 
-Events include:
+**Life Cycle Events include**:
 
 - **Pre-Build**: the lab components are being deployed, as well as any cloud resources.
 - **Post-Build**: the lab environment has been built, but components like virtual machines may still be starting. 
@@ -117,11 +135,5 @@ Cloud Platform commands are used to target a cloud platform such as Microsoft Az
 Cloud Platform commands support Blocking, which allows you to block further execution of the lab life cycle until the action completes. You can use this to sequence actions that depend on each other. It is recommended to use the blocking feature if the script in the LCA will take very long to complete. 
 
 Cloud Platform commands also support @lab replacement tokens, that can be used in PowerShell commands.
-
-## Manage Life Cycle Actions
-
-Once you have added Life Cycle Actions to your lab, they will be listed with their details by the Event that triggers them under Life Cycle Actions in the Lab Profile. If there is more than one Action per trigger Event, they can be arranged in the order they should occur when the Event happens. To do this, click the Up or Down arrow on the right side of the Action you want to move. You can only move Actions within a trigger Event.
-
-You can **Edit** and **Delete** an Action from the buttons on the right side of it as well.
 
 [Back to top](#life-cycle-actions)
