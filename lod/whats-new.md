@@ -9,6 +9,37 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## **Released October 16, 2020**
+
+**Cloud Watchdog**
+The Cloud Health Monitor Service has been improved and given a new name. The service is now called Cloud Watchdog. It now performs better and more efficiently than the Cloud Health Monitor Service.  The service works in multiple stages:
+- Stage 1 - Find service: Finds issues and logs them.
+- Stage 2 - Remediation: Resolve issues found in stage 1, delete resources that failed to tear down if needed.
+- Stage 3 - Report: Report issues in Health Check emails if necessary, and update cloud subscription pool Health Check UI
+    - Features include:
+        - Health Checks now apply to CSS labs, the same way they applied to CSR. 
+        - Health Checks have two functions; checks for orphaned resources are a frequent rate, and checks for subscription configuration issues such as invalid credentials or expiration, at a longer interval. 
+        - Health Check intervals have been updated to check every hour/day/week.
+        - If an issue is detected, the subscription owner listed on the subscription pool will receive an email with a list of the issues found, as well as a link to the associated pool. 
+	
+**Life Cycle Action Inheritance**
+Life Cycle Actions (LCA) can now be inherited on child lab profiles. Child lab profiles can also use different LCAs than the parent lab profile, by disabling LCA inheritance on the child lab profile. Child lab profiles have a checkbox on the LCA tab to enable inheritance on the LCAs from the parent lab profile.
+
+**Multiple API Keys for API Consumers**
+- API consumers now support creating, disabling, expiring, and revoking API keys.
+- Manual key rotation available, add a new key and mark the old one to expire after a set period of time.
+- Keys can be named to describe intended purpose.
+- Keys can be copied to clipboard with the click of a button without exposing the key.
+
+**LOD Improvements and Fixes**
+
+- New lab profile search filter "Allow Multiple Active Instances per User" allows you to filter on if a user can launch more than one instance of a lab. 
+- Clients and internal staff will now see the price of labs and series after acquiring the Price viewing (by organization) permission.
+- The Launch API call email parameter now how a 256 character limit (previously 50).
+- The "Let's open a lab window" page won't be available after the lab has been completed, cancelled, or timed out.
+- When choosing a particular cloud subscription to launch a cloud lab, only subscriptions in the pool configured on the lab profile will be shown. 
+- Updates to virtual machines, including differencing disks, will be blocked when a snapshot is detected on the VM due to incompatibility. If needed, the snapshots may be removed to restore differencing functionality. 
+
 ## **Released October 2, 2020**
 
 **Enhanced Lab Saving**
