@@ -12,6 +12,7 @@
 ## **Released October 16, 2020**
 
 **Cloud Watchdog**
+
 The Cloud Health Monitor Service has been improved and given a new name. The service is now called Cloud Watchdog. It now performs better and more efficiently than the Cloud Health Monitor Service.  The service works in multiple stages:
 - Stage 1 - Find service: Finds issues and logs them.
 - Stage 2 - Remediation: Resolve issues found in stage 1, delete resources that failed to tear down if needed.
@@ -23,6 +24,7 @@ The Cloud Health Monitor Service has been improved and given a new name. The ser
         - If an issue is detected, the subscription owner listed on the subscription pool will receive an email with a list of the issues found, as well as a link to the associated pool. 
 	
 **Life Cycle Action Inheritance**
+
 Life Cycle Actions (LCA) can now be inherited on child lab profiles. Child lab profiles can also use different LCAs than the parent lab profile, by disabling LCA inheritance on the child lab profile. Child lab profiles have a checkbox on the LCA tab to enable inheritance on the LCAs from the parent lab profile.
 
 **Multiple API Keys for API Consumers**
