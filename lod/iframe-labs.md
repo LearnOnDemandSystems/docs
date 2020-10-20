@@ -16,3 +16,9 @@ For more information about setting up and configuring iframes, read [HTML iframe
 Lab on Demand (LOD) uses session cookies to ensure secure access to labs. If 3rd party cookies are blocked by the browser, the lab is unable to be displayed within the iframe web page. 
 
 If a lab uses an iframe integration to display the lab, 3rd party cookies must not be blocked by the web browser used to access the lab. If 3rd party cookies are blocked, an _Access Denied_ message will be displayed when launching the lab. Most web browsers do not block 3rd party cookies by default. If you're browser is blocking 3rd party cookies, please check with the browser's vendor to learn more about how third party cookies may be blocked.
+
+To allow 3rd party cookies in your browser, select your browser below for assistance allowing cookies: 
+ 
+- [Google Chrome](https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl=en)
+- [Microsoft Edge](https://support.microsoft.com/en-us/search?query=enable%20cookies%20in%20edge)    
+- [Mozilla Firefox](https://support.mozilla.org/en-US/kb/disable-third-party-cookies)
