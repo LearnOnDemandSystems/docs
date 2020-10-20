@@ -52,9 +52,9 @@
           </a>
         </div>
         <div class="category"> 
-          <a href="/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md" class="categoryThread">
+          <a href="lod/azure-shared-image-gallery-vm.md" class="categoryThread">
             <i class="material-icons blue" aria-hidden="true">cloud_done</i>
-            <span class="categoryTitle" title="Setup your Azure cloud subscription in OneLearn Lab on Demand">Setup your Azure cloud subscription in OneLearn Lab on Demand</span>
+            <span class="categoryTitle" title="Deploy an Azure hosted virtual machine using Azure Shared Image Gallery">Deploy an Azure hosted virtual machine using Azure Shared Image Gallery</span>
           </a>
         </div>
         <div class="category">  
