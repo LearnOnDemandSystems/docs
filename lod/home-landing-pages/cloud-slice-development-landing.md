@@ -52,9 +52,13 @@
         <div class="subtopic_description">Recommendations and best practices for Azure Resource templates.</div>
       </a>
       <a class="subtopic_link" href="/lod/azure-virtualization.md">
-         <div class="subtopic_title">Azure Virtualization</div>
-         <div class="subtopic_description">Deploy an Azure hosted virtual machine.</div>
+         <div class="subtopic_title">Azure Virtualization - Managed Disks</div>
+         <div class="subtopic_description">Deploy an Azure hosted virtual machine using Managed Disks.</div>
       </a>        
+      <a class="subtopic_link" href="/lod/azure-shared-image-gallery-vm.md">
+         <div class="subtopic_title">Azure Virtualization - Shared Image Gallery</div>
+         <div class="subtopic_description">Deploy an Azure hosted virtual machine using Azure Shared Image Gallery.</div>
+      </a>                
       <a class="subtopic_link" href="/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md">
         <div class="subtopic_title">Create a an Azure Resource Template and Resource Group Configuration</div>
         <div class="subtopic_description">Create a Resource Template and Configure it into a Resource Group.</div>
