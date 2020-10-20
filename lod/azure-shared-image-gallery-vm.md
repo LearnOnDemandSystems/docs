@@ -1,7 +1,7 @@
 ---
 title: "Azure Shared Image Gallery Virtualization"
 description: "Deploy an Azure hosted virtual machine using Azure Shared Image Gallery."
-isPublished: false
+isPublished: true
 ---
 
 # Azure Shared Image Gallery Virtualization
