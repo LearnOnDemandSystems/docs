@@ -54,7 +54,7 @@
         <div class="category"> 
           <a href="lod/azure-shared-image-gallery-vm.md" class="categoryThread">
             <i class="material-icons blue" aria-hidden="true">cloud_done</i>
-            <span class="categoryTitle" title="Deploy an Azure hosted virtual machine using Azure Shared Image Gallery">Deploy an Azure hosted virtual machine using Azure Shared Image Gallery</span>
+            <span class="categoryTitle" title="Deploy an Azure hosted virtual machine using Azure Shared Image Gallery">Azure Shared Image Gallery VM</span>
           </a>
         </div>
         <div class="category">  
