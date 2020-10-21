@@ -99,4 +99,4 @@ Surveys can be set to be added by default on all new courses and all new classes
 | **Organization Room Calendar - Include external classrooms** | Organizations have several calendars available, the Room Calendar can have external classrooms display. |
 | **Achievements - Enable using Achievements** | Achievements allow you to award users for accomplishing designated parameters either automatically or by assigning them. |
 | **Participate in Global Achievements** | LODS has achievements which can be enabled and used by your organization. |
-| **Enable Courseware launch for Skillpipe** | Digital courseware from Skillpipe can be enabled with students using single sign on to access their Skillpipe library and to redeem codes for new courseware. |
+
