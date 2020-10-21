@@ -97,7 +97,6 @@ Surveys can be set to be added by default on all new courses and all new classes
 | **Discussion Disclaimer - Set a Disclaimer** | Discussions can have a disclaimer message added which displays to users on discussion posts. |
 | **On-Demand Course browser - Show subscription profile name** | You can display the subscription name when you have the On-Demand course browser enabled on the subscription profile. |
 | **Organization Room Calendar - Include external classrooms** | Organizations have several calendars available, the Room Calendar can have external classrooms display. |
-| **Participate In Global Announcements** | You can choose whether to participate in LODS announcements we occasionally send regarding scheduled maintenance or outages which display on each user's TMS page. |
 | **Achievements - Enable using Achievements** | Achievements allow you to award users for accomplishing designated parameters either automatically or by assigning them. |
 | **Participate in Global Achievements** | LODS has achievements which can be enabled and used by your organization. |
 | **Enable Courseware launch for Skillpipe** | Digital courseware from Skillpipe can be enabled with students using single sign on to access their Skillpipe library and to redeem codes for new courseware. |
