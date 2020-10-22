@@ -81,7 +81,7 @@ Create an image definition to define specifications for virtual machines that ar
 1. **Publisher**: Enter a publisher name for the Image Definition. This can be the lab author or the organization that is publishing the VM for student use. 
 1. **Offer**: Enter the name of the Image Definition offer. 
 1. **SKU**: Enter the name of the Image Definition SKU.
-1. select **Next: Publishing options** in the Azure portal to add Publishing options.
+1. Select **Next: Publishing options** in the Azure portal to add Publishing options.
     1. **Recommended VM vCPUs**: Select the minimum and maximum number of vCPUs that can be used in any VMs that are deployed using this image definition. 
     1. **Recommended VM memory**: 
     1. **Excluded disk types**: select any disk types that should be excluded. 
