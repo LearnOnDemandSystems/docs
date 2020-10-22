@@ -17,6 +17,8 @@ Lab on Demand (LOD) uses session cookies to ensure secure access to labs. If 3rd
 
 If a lab uses an iframe integration to display the lab, 3rd party cookies must not be blocked by the web browser used to access the lab. If 3rd party cookies are blocked, an _Access Denied_ message will be displayed when launching the lab. Most web browsers do not block 3rd party cookies by default. If you're browser is blocking 3rd party cookies, please check with the browser's vendor to learn more about how third party cookies may be blocked.
 
+### Allow 3rd Party Cookies 
+
 To allow 3rd party cookies in your browser, select your browser below for assistance allowing cookies: 
  
 - [Google Chrome](https://support.google.com/chrome/answer/95647?co=GENIE.Platform%3DDesktop&hl=en)

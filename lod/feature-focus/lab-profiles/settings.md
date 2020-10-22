@@ -5,11 +5,9 @@
 1. [Virtual Machines](#virtual-machines)
 1. [Removable Media](#removable-media)
 1. [Cloud](#cloud)
-1. [Resources](#resources)
-1. [Errata](#errata)
-1. [Exam](#exam)
+1. [Pre-Instancing](#pre-instancing)
 1. [Life Cycle](#life-cycle)
-1. [Storage](#storage)
+1. [Availability](#availability)
 1. [Tags](#tags)
 1. [Advanced](#advanced)
 
@@ -25,33 +23,19 @@
 1. **Organization:** Select the organization that will own the lab profile and be responsible for maintaining the profile. 
 1. **Virtualization Platform:** Select the virtualization platform that the lab profile will use. (Hyper-V, vSphere or none.) Selecting _None_ will cause the lab profile to use the Cloud Client. 
 1. **Parent:** A lab can optionally inherit some properties from a parent lab profile. Both the virtual environment (virtual machines, virtual networks, etc) can be inherited, as well as resources and content (manuals, scenario, objective, exercises, tasks, etc). Changes to the parent lab profile will be reflected in instances of this lab.
+1. **Storage Reservation Per Instance:** This is the amount of storage that the lab scheduler will ensure is available before an instance of this lab is Launched on a lab host server. 
 1. **Development Status:** Used to show lab profile development status. (In Development, Awaiting Verification, In Verification, Verification Failed, Complete.) Lab profiles in _Complete_ Development Status will be available for use, other development status' will only be available to registered lab developers. 
 1. **Expected Duration:** The expected amount of time it will take a user to complete the lab.
 1. **Maximum Duration:** The maximum amount of time that a user can spend in the lab.
 1. **Language:** The language that the lab UI will be displayed in. This will not change the language displayed in the OS of any virtual machines used unless the virtual machine was configured to display a specific language. Language options include: Chinese (simplified), English, French, German, Japanese, Korean, Portuguese, and Spanish.  
 1. **Level:** Sets the Level for the lab; this can be 100, 200, 300, or 400. 
 1. **Evaluation:** Click to add an Evaluation to the lab profile. The Evaluation must already be created to add it to the lab profile using this button.
-
 1. **Advertising Campaign:** Used to show introductory content while the lab is loading. This can be a video, PowerPoint presentation or anything accessible by a URL. 
-
 1. **Description:** Used to provide more information about the lab profile. 
-
-<!--
-1. **Introduction Content URL:** The content at this URL will be displayed in a dialog when the lab interface first opens. The content can either be an HTML page or an MP4 video file. The URL must use HTTPS.
-
-1. **Objective:** Used to provide specific information about the lab. It should include a summary of the lab instructions and a list of specific goals that the lab is intended to meet.
-
-1. **Scenario:** Used to establish the context in which the lab tasks are performed or to provide more general background information.
--->
-
-1. **Instructions:** Select to enable lab instructions. Checking the box for _Use Legacy Format_ will cause the lab to use IDL (legacy) instead of IDLx (not recommended)
-.
 1. **Enabled:** Used to enable or disable the lab profile for use. If the lab is disabled, it will only be accessible to lab developers. 
-
 1. **Enable Bug Reporting:** Allows bug reporting on the lab profile. Bug reports are collected on the lab profile details page by selecting **Edit** in the upper-right corner of the lab profile page. 
-
+1. **Bug Report Email Address:** If this value is set, bug reports submitted by end users will be emailed to the supplied address. Notice that this field is not required in order for bug reporting and tracking to work. 
 1. **Owner Name:** The name of the owner of the lab profile. 
-
 1. **Owner E-mail:** The e-mail address of the owner of the lab profile. 
 
 ## Networks
@@ -130,7 +114,7 @@ To use network features, such as external internet access or communication betwe
 
             On Unix-based systems: `/tmp/labinstance`.
 
-        All @lab token names and values will be included, as well as the following legacy items:
+        All @lab token names and values will be included:
 
         - Lab Instance ID
 
@@ -176,9 +160,11 @@ To use network features, such as external internet access or communication betwe
 
 ## Cloud
 
+### Orchestration
 1. **Add Cloud Credential Pool:** Click to add a Cloud Credential Pool to the lab profile. The pool must already be created to add it to the lab profile using this button.
 1. **Cloud Platform:** Select the cloud platform to be used by the lab profile. Selecting a Cloud Platform will allow the lab profile to use the IDLx Cloud Client.
-1. **Cloud Portal URL:** Enter the URL that the portal window will display. This is used in IDLx Cloud Client. Leave this field blank if no Cloud Platform is selected in the previous step. 
+1. **Override Client landing Page:** Enables the portal window to display a specific URL, configured in the Client Landing Page field after enabling this feature by checking the box. 
+1. **Client Landing Page:** Enter the URL that the portal window will display. This is used in IDLx Cloud Client. Leave this field blank if no Cloud Platform is selected in the previous step. 
 1. **Append Lab Date:** When this is enabled, the following lab data will be appended to the URL as URL parameters in _name=value_ format. 
    - labProfileId
    - labInstanceId
@@ -189,7 +175,7 @@ To use network features, such as external internet access or communication betwe
    - firstName
    - lastName
    - tag (if included when launched via API)
-
+1. **Enable Automatic Login (AWS Only):** When this option is enabled, users will be directly logged into the cloud portal. No cloud portal users are required. If disabled users will need to manually log into the portal using a required cloud portal user supplied in the user section. 
 1. **Subscription Pool:** select the subscription pool that the lab will use. 
 
 1. **Deployment Failure:** Select the deployment failure action.
@@ -199,20 +185,25 @@ To use network features, such as external internet access or communication betwe
     - **Terminate Lab:** the lab will be terminated if resources fail to deploy.
 
     - **Send User Notification:** a notification will be sent to the user in the lab if resources fail to deploy and the lab will still launch. 
+1. **Expected Cloud Cost:** the estimated cost of cloud resources that the lab will use.
+1. **Datacenter Availability:** One or more datacenters that resources will be deployed to. If multiple datacenters are selected, the datacenter physically closest to the lab user will be selected. If a region is marked as 'Privileged' then additional clearance from the fabric owner may be needed to successfully launch labs in that region. 
 
+### User Accounts
 1. **Add User Account:** Add a portal user account. Enabling this will allow the lab to display credentials to log in to the cloud portal. 
 
     - **Name Prefix:** prefix that will be used to display the portal username. 
 
     - **Replacement Token Alias:** alias that will be used in replacement tokens to reference the portal username and password. 
 
-1. **Add Resource Group:** Add a resource group that houses resources, access control policies and permissions for the lab. 
+1. **Add Cloud Resource Group (Azure ) - Add Stack Deployment (AWS):** Add a resource group or Stack Deployment that houses resources, access control policies and permissions for the lab. 
 
     - **Name Prefix:** prefix that will be used to display the name of the resource group. 
 
     - **Replacement Token Alias:** alias that will be used in replacement tokens to reference the resource group.
 
-    - **Region**: the region of the cloud platform that the lab will deploy to.
+    - **Override Region:** Override to the region selected on the Cloud Resource Group or Stack Deployment.  
+
+    - **Region**: Once Override Region has been selected, the region drop-down will be available. This specifies the region that the cloud resources will be deployed to. 
 
 1. **Add Permissions:** select the user from the previous steps to add permissions to. 
 
@@ -228,93 +219,29 @@ To use network features, such as external internet access or communication betwe
 
     - **Create Template:** create a new resource template in LOD. 
 
-## Resources
+## Pre-Instancing
 
-1. **Add Resource:** Click to add resource. 
+**Current Settings**
 
-1. **Name:** This will be the display name of the resource.
+1. **Enabled Pre-instancing:** Enables the lab profiles to be available for pre-instancing. 
 
-1. **Type:** Select the type of resource to add. Types of resources include:
-   - External link
-   - PDF document
-   - Word document
-   - XPS document
-   - HTML document
-   - Image
-   - Video
-   - Other
+**Schedule** 
 
-1. **URL:** Enter the URL of the external link or browse to the file that you wish to upload as a resource for use in the lab.
+1. **Add to Schedule:**
 
-1. **Display:** Select where the resource will be available for users to access.
+    - **when:** select the date and time when the lab should be pre-instanced. 
 
-1. **Description:** Used to provide more detail about the resource.
+    - **Enable:** select to enable the schedule. 
 
-1. **Lab Manual:** Check this box to include a link to the lab manual on the Lab Profile page. 
+    - **State:** select the state that the lab instances will pre-instanced to. Options include _Saved_ or _Running_.
 
-<!--
-## Errata
+    - **Batch Size:** enter the amount of labs that should be pre-instanced at a time. 
 
-The Errata is used to give a message to users working in the lab. The Errata appears in the lab environment, after the lab is launched. The Errata is displayed in a window, over the lab UI and virtual machines. This can be used to notify users of known issues in the lab, helpful tips or it can be used to provide any other information that the lab author wishes to provide. The Errata can be referenced by users at any time during the lab by clicking the Errata link.
+    - **Stock Level:** enter the minimum amount of labs to be pre-instanced at any given time. 
 
-## Exam
+    - **Datacenters:** select which datacenters where the lab instances will be pre-instanced. 
 
-Exams are used in IDL (legacy) labs only. Exams in IDLx are executed by activity based assessments. For more information about IDLx Activities, read [IDLx Activities](/lod/activities.md)
-1. **Has Exam:** Checking this box enables options 2-5. If the box is unchecked, these options are not applicable. 
-
-1. **Scoring Type:** Select the type of scoring that the lab profile will use. Types of scoring include:
-   - Assessment
-   - Automated
-   - Manual
-
-1. **Passing Score:** Enter the minimum score that users need to achieve to pass the exam.
-
-1. **Show Result:** Check this box if you wish to show exam results.
-
-1. **Report Detail Level:** Select how the exam report details will be generated. Report details include:
-
-   - None
-
-   - Summary
-
-   - Detailed
-1. **Add Page:** Click to add a page to the exam. Pages contain questions for the user to select answers.
-
-1. **Name:** Provide a name for the page (optional).
-
-1. **Text:** Enter the text of the question.
-
-1. **Format:** Select the format of the question. Format types include:
-
-   - Multiple choice, only one answer
-   - Multiple choice, multiple answers
-   - Text response, exact match
-   - Text response, regex match
-
-1. **Add Answer:** Enter the answer(s) to the question. Multiple answers should be entered. Select the checkbox next to the correct answer or select multiple boxes if there are multiple correct answers to the question. 
-
-1. **Score Value:** Enter the value that the user should receive for selecting the correct answer. 
-
-1. **Explanation:** Provide an explanation of the answer to the question. 
-
-1. **Reference URL:** Provide a URL that users can reference to better understand the explanation of the answer to the question. 
-
--->
-
-## Storage
-
-This section specifies where the files for the lab profile should be stored. 
-
-1. **Inherit storage settings from organization:** Checking this box enables the lab profile to inherit storage settings from the organization specified on the Basic Information section.
-
-Unchecking **Inherit storage settings from organization** box will enable additional options.
-
-1. **Storage Loading Priority:** This will set the priority level of loading files into storage. There are multiple levels of priority; *Low, Normal and High*. If there is no priority preference, select _Disabled_. 
-1. **Datacenter Availability:** Select the datacenter(s) that the lab profile will be available to launch from. Labs can be launched from the following datacenters:
-   - AU East - located in Eastern Australia
-   - External - files are stored in an external system and are used by labs that require the IDLx Cloud Client.
-   - US Central - located in Central United States
-   - US East - located in Eastern United States
+    - **Follow-Up:** allows subsequent batches to be scheduled, following the completion of the current batch.
 
 ## Life Cycle
 
@@ -355,16 +282,40 @@ There are additional settings that can **optionally** be configured:
 
 - **Delay**: allows you to introduce a delay between the moment the life cycle event occurs and the action is executed. 
 
-- **Error Action**: controls how Lab on Demand will handle errors that occur when executing this action. All errors are logged against the lab instance by default. You can also choose to notify the user about the error or to end the lab. To prevent users from losing their work, only events early in the lifecycle (buld, bulding, running, etc) allow you to end the lab when an error occurs. 
+- **Error Action**: controls how Lab on Demand will handle errors that occur when executing this action. All errors are logged against the lab instance by default. You can also choose to notify the user about the error or to end the lab. To prevent users from losing their work, only events early in the lifecycle (build, building, running, etc) allow you to end the lab when an error occurs. 
 
 
 For more information about Action and Event types, please see our [guide](/lod/life-cycle-actions.md)
-   
+
+## Availability
+
+This section specifies where the files for the lab profile should be stored. 
+
+1. **Inherit storage settings from organization:** Checking this box enables the lab profile to inherit storage settings from the organization specified on the Basic Information section.
+
+Unchecking **Inherit storage settings from organization** box will enable additional options.
+
+1. **Storage Loading Priority:** This will set the priority level of loading files into storage. There are multiple levels of priority; *Low, Normal and High*. If there is no priority preference, select _Disabled_.
+
+1. **Datacenter Availability:** Select the datacenter(s) that the lab profile will be available to launch from. 
+
+<!--
+Labs can be launched from the following datacenters:
+   - AU East - located in Eastern Australia
+   - External - files are stored in an external system and are used by labs that require the IDLx Cloud Client.
+   - US West - located in Western United States
+   - US East - located in Eastern United States
+-->
+
 ## Tags
+
+**Lab Tags**
 
 1. **Add Tag:** Click to add a tag to the lab profile. The Tag must already be created to add it to the lab profile. 
 
-1. **Lab Host tags:** Lab host tags are used to specify which Lab Host(s) the lab profile will use when users launch the lab. The Lab Host tag must already be created to add it to the lab profile using this button.
+**Lab Host Tags**
+
+1. **Add Lab Host Tag:** Lab host tags are used to specify which Lab Host(s) the lab profile will use when users launch the lab. The Lab Host tag must already be created to add it to the lab profile using this button.
 
 ## Advanced
 
@@ -408,6 +359,18 @@ For more information about Action and Event types, please see our [guide](/lod/l
 
 1. **Enable Instance Link Sharing:** When enabled, the lab instance URLs can be shared between users. If a user copies the URL from their browser's URL bar, they can send it to another user, or open it in a different browser. Note that most virtual machines only allow one user to access them at a time. This settings does not bypass the connection limitation of virtual machines. 
 
+1. **Allow Lab instance Naming:** allows users to change the name of their lab instances. By default, lab instances have the same name as the lab profile they are based on. 
+
+1. **Allow Multiple Active Instances Per User:** allows a user to have multiple active instances of this lab. This should be left disabled unless all users are willing and able to manage multiple instances. This typically isn't applicable to training scenarios. 
+
+1. **Automatically Disable:** the lab profile will be disabled at the specified time. 
+
+1. **Publish to Organization Template Gallery:** when enabled, this lab profile will be available as a new lab profile template within the organization template gallery. 
+
+1. **Publish to Public Template Gallery:** when enabled, this lab profile will be available as a new lab profile template within the public template gallery. 
+
+### Shared Class Environment
+
 1. **Shared Class Environment:** Shared class environments allow multiple lab instances to be bound together with one or more shared networks and resources. A shared class environment consists of at least two different lab profiles, each serving a particular role. 
 
     - **Shared Environment:** One lab is configured to serve as the shared environment. Exactly one instance of this lab will run per class. 
@@ -415,23 +378,50 @@ For more information about Action and Event types, please see our [guide](/lod/l
 
     Networks within the shared environment lab can be made available to participant labs, making it possible for participants to connect to each other and/or to virtual machines within the shared environment. To enable Shared Class Environment for this lab profile, select one of the options from the drop-down menu; _Shared Environment_ or _Participant_. 
 
-1. **Save/Cancel Options:** 
-    - **Allow User to Cancel Labs:** allows the user to cancel the lab at any point
-    - **Allow user to Save labs:** allows the user to save the lab in it's current state and return at a later time. Note that saved labs are only saved for 48 hours. Users can extend the saved lab expiration by resuming the lab and saving again. Each save sets the timer back to 48 hours. After 48 hours has passed, the lab progress and components are discarded and cannot be recovered. 
-    - **Allow User to Extend Time Remaining:** Allows the user to extend the time remaining in the lab environment. 
-    - **Auto-Save incomplete Labs:** Enables the lab to automatically save incomplete labs after a specified amount of time has passed. 
+### Save/Cancel Options
 
-    - **Save/Cancel Labs When Last Console Sync Exceeds:** Amount of time given between console syncs, before the lab will automatically cancel or save. 
+- **Allow User to Cancel Labs:** allows the user to cancel the lab at any point
+- **Allow user to Save labs:** allows the user to save the lab in it's current state and return at a later time. Note that saved labs are only saved for 48 hours. Users can extend the saved lab expiration by resuming the lab and saving again. Each save sets the timer back to 48 hours. After48 hours has passed, the lab progress and components are discarded and cannot be recovered. 
+- **Allow User to Disconnect from Lab Client:** Allows the user to disconnect from the lab client and leave the lab running. 
+- **Automatically prompt user to extend time by `X` Minutes when `X` Minutes Remain:** automatically prompt the user to extend the lab time by a specified amount of time when a specified amount of time is remaining. 
+- **Auto-Save incomplete Labs:** Enables the lab to automatically save in complete labs after a specified amount of time has passed. 
+- **Save/Cancel Labs When Last Console Sync Exceeds:** Amount of time given between console syncs, before the lab will automatically cancel or save. 
+- **Save/Cancel labs when last Activity Exceeds:** Amount of time given of inactivity before the lab will automatically cancel or save.
+- **Notify User by Email `X` `Minutes` Before Lab Instance Expires:** notifies the user via email at a specified time before the lab instance expires. 
+- **Activity Required to Enable Auto-Save:** Amount of active time in the lab given before the lab will automatically save.
+- **Minimum Time Given to Saved Labs:** Minimum amount of time that students will have on the lab timer, when they resume a lab. 
+- **Maximum Allowed Snapshots:** Maximum amount of [snapshots](/lodsnapshots.md) that are allowed
+- **Allow Setting Expiration Time:** allows the lab expiration timer to be extended from the lab client. 
 
-    - **Save/Cancel labs when last Activity Exceeds:** Amount of time given of inactivity before the lab will automatically cancel or save.
+    - **Allow only instructors to extend lab expiration:** only instructors will be able to extend the lab expiration timer. 
 
-    - **Activity Required to Enable Auto-Save:** Amount of active time in the lab given before the lab will automatically save.
+    - **Allow users to extend lab expiration:** instructors and students will be able to extend the lab expiration timer. 
 
-    - **Minimum Time Given to Saved Labs:** Minimum amount of time that students will have on the lab timer, when they resume a lab. 
+### Instructions Source
 
-    - **Maximum Allowed Snapshots:** Maximum amount of [snapshots](/lod/snapshots.md) that are allowed
+Lab on Demand allows you to set Azure DevOps (ADO) or GitHub as an instruction source, using an external ADO or GitHub repository into a lab and use that repository as the source of IDLx content for that lab. For more information, read [External Instruction Source](/lod/instruction-source.md).
 
-1. **GitHub Integration:** Allows you to integrate a GitHub repository into a lab and use that repository as the source of IDLx content for that lab. For more information, read [GitHub Integration](/guides/github-integration/github-integration.md).
+- **Instructions Source:** indicates the source of the instructions; GitHub or Azure DevOps. 
+
+- **Repository:** the name of the external repository where the instructions are stored. 
+
+- **Username:** the username of the external repository where the instructions are stored. 
+
+- **Branch:** the branch of the external repository where the instructions are stored.
+
+- **Content File:** the name and file path of the content file. 
+
+- **Last Sync Time:** the last time a sync was attempted or completed between Lab on Demand and the external instruction source. 
+
+- **Last Sync Status:** the status of the last sync attempt.
+
+- **Last Import Size:** the size of the last import of instructions and percentage of maximum allowed size used. 
+
+- **Configuration Complete:** indication if the external instruction source is configured on this lab profile. 
+
+- **Enabled:** enables the external instruction source to supply instructions in the lab.
+
+### LTI (For LTI 1.1 and older only)
 
 1. **Launch URLs**: **LTI** (Learning Tools Interoperability) is a standard defined by the IMS Global Learning Consortium that allows learning systems to consume content provided by external tools or services. This standard enables rich integration between different learning services and platforms, combining their strengths to offer more value to students of those learning systems. For more information on Lab on Demand LTI integration, see our guide here: [LTI Guide](/guides/lti/lod-lti.md).
 
@@ -440,14 +430,32 @@ For more information about Action and Event types, please see our [guide](/lod/l
     - **Scoring Format:** Select the Scoring Format. Types of Scoring Format include: _% Complete_ and _Pass/Fail_.
     - **Time:** Define the amount of time that the Scoring Policy should use.
  
- <!--
- 1. Allow Anonymous Launch
- 
-    - **Allow Anonymous Launches:** Check this box to allow this lab profile to be launched by anonymous users. 
-    - **Add Authenticated Launch URL:** Click this to add an Authenticated Launch URL to the lab profile. The URL must already be created to add it to the lab profile. 
-    - **Anonymouse Launch Expires:**
-    - **Allow Anonymous Save:**
--->
+ ### Authenticated Launch URLs
 
+- **Add Authenticated Launch URL:** Click this to add an Authenticated Launch URL to the lab profile. The URL must already be created to add it to the lab profile. 
+
+### Resources
+
+1. **Add Resource:** Click to add resource. 
+
+1. **Name:** This will be the display name of the resource.
+
+1. **Type:** Select the type of resource to add. Types of resources include:
+   - External link
+   - PDF document
+   - Word document
+   - XPS document
+   - HTML document
+   - Image
+   - Video
+   - Other
+
+1. **URL:** Enter the URL of the external link or browse to the file that you wish to upload as a resource for use in the lab.
+
+1. **Display:** Select where the resource will be available for users to access.
+
+1. **Description:** Used to provide more detail about the resource.
+
+1. **Lab Manual:** Check this box to include a link to the lab manual on the Lab Profile page. 
 
 [Back to top](#lab-profile-settings)
