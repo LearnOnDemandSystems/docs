@@ -58,6 +58,19 @@
         <a class="subtopic_link" href="https://youtu.be/JIauDXYAgfc" target="_blank">
         <div class="subtopic_title">Gathering Feedback with Surveys</div>
           <div class="subtopic_description">See how surveys can be used in OneLearn Training Management System (TMS). You'll learn best practices for building, see tools available for designing, gain an understanding of how to implement and ultimately, where you find the results.
+       </a>
+        <a class="subtopic_link" href="https://youtu.be/q9NrsL3f-Z8" target="_blank">
+        <div class="subtopic_title">How to Assign Class Activities and Manage Waitlists</div>
+          <div class="subtopic_description">In this video, we describe our new features for class activities, such as the option to disable activities for students and the ability to assign specific activities to students in a class. We also discuss a feature available for classes to automate enrollment when a student cancels their class attendance.
+       </a>
+        <a class="subtopic_link" href="https://youtu.be/OCqQFxNy5qo" target="_blank">
+        <div class="subtopic_title">How to Optimize your Organization</div>
+          <div class="subtopic_description">Customize your site by setting up default settings for classes, courses, users,  enrollment cancellations and more. Using default settings can provide a consistent experience for your users and (even more importantly) save time for you and your staff.
+       </a>
+        <a class="subtopic_link" href="https://youtu.be/Aa3cS-z80aY" target="_blank">
+        <div class="subtopic_title">How to Save Time Using Automated Notifications</div>
+          <div class="subtopic_description">Learn about a time-saving tool in the OneLearn TMS that you're sure to love: automated  notifications. You now have the ability to use and create your organization's automated notifications, enabling you to set them up according to need. 
+       </a>
 </div>
       </a>
      </a>
