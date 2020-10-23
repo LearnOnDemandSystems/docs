@@ -17,7 +17,7 @@
 <div class="accordionModule">
   <div class="subtopic selected">
     <div class="subtopic_header" tabindex="0" title="Instructor Docs" role="button" aria-selected="true" selected>TMS Training Videos - Basics</div>
-    <div class="subtopic_links">
+    <div id="body_1" class="subtopic_links">
         <a class="subtopic_link" href="https://youtu.be/J6q49kpcrP0" target="_blank">
         <div class="subtopic_title">Introduction to TMS Fundamentals</div>
           <div class="subtopic_description">TMS Fundamentals introduces important basics to working in the TMS. We cover terminology, what are courses, classes, course assignments and subscriptions. We familiarize you with the platform's navigation. And demonstrate searches, saving searches and creating defaults for your search page.</div>
@@ -35,7 +35,7 @@
           <div class="subtopic_description">We introduce ways to create user accounts individually, through the user import tool, through training keys, and by 3rd party authentication. We show how to create temporary role assignments as well as create a student, instructor and operations manager user account.</div>
       </a>
         </div>
-        </div>
+      </div>
       <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="TMS Webinar Videos" role="button" aria-selected="false">TMS Webinar Videos</div>
     <div class="subtopic_links">
