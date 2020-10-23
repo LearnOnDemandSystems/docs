@@ -13,11 +13,11 @@
     4. Ensure to add the new document in TMS Videos index
 -->
 
-<div class="categoriesHeader" tabindex="0" title="Instructor Docs Container">TMS Videos</div>
+<div class="categoriesHeader" tabindex="0" title="Administrator TMS Videos">TMS Videos</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div class="subtopic_header" tabindex="0" title="Instructor Docs" role="button" aria-selected="true" selected>TMS Training Videos - Basics</div>
-    <div id="body_1" class="subtopic_links">
+    <div class="subtopic_header" tabindex="0" title="Administrator TMS Videos" role="button" aria-selected="true" selected>TMS Training Videos - Basics</div>
+     <div class="subtopic_links">
         <a class="subtopic_link" href="https://youtu.be/J6q49kpcrP0" target="_blank">
         <div class="subtopic_title">Introduction to TMS Fundamentals</div>
           <div class="subtopic_description">TMS Fundamentals introduces important basics to working in the TMS. We cover terminology, what are courses, classes, course assignments and subscriptions. We familiarize you with the platform's navigation. And demonstrate searches, saving searches and creating defaults for your search page.</div>
