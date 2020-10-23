@@ -25,6 +25,7 @@
       <a class="subtopic_link" href="https://youtu.be/ZKaDXJbTG7c" target="_blank">
         <div class="subtopic_title">What are the tools I need to set up training?</div>
           <div class="subtopic_description">We overview the tools needed to get labs and content into the hands of your users. This includes a brief description of courses, options for setting up users, and how a student redeems a training key. We also give a high level look at subscriptions and a look at tools in instructor led classes, including lab monitoring.</div>
+      </a>
           <a class="subtopic_link" href="https://youtu.be/XRk4TkXjnY0" target="_blank">
         <div class="subtopic_title">What are Learn on Demand Systems connectivity requirements for labs?</div>
           <div class="subtopic_description">We overview how to find connectivity requirements, where to find and how to run a speed test, troubleshooting tips on lab connectivity, and different ways to open Support tickets.</div>
@@ -32,6 +33,7 @@
           <a class="subtopic_link" href="https://youtu.be/7yFNAvKm9E4" target="_blank">
         <div class="subtopic_title">How do I create users?</div>
           <div class="subtopic_description">We introduce ways to create user accounts individually, through the user import tool, through training keys, and by 3rd party authentication. We show how to create temporary role assignments as well as create a student, instructor and operations manager user account.</div>
+      </a>
         </div>
         </div>
       <div class="subtopic">
