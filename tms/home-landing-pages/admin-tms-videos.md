@@ -34,9 +34,9 @@
         <div class="subtopic_title">How do I create users?</div>
           <div class="subtopic_description">We introduce ways to create user accounts individually, through the user import tool, through training keys, and by 3rd party authentication. We show how to create temporary role assignments as well as create a student, instructor and operations manager user account.</div>
       </a>
-        </div>
       </div>
-      <div class="subtopic">
+  </div>
+    <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="TMS Webinar Videos" role="button" aria-selected="false">TMS Webinar Videos</div>
     <div class="subtopic_links">
         <a class="subtopic_link" href="https://youtu.be/_7AlUcKP4oM" target="_blank">
