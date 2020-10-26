@@ -1,7 +1,7 @@
 ---
 title: "Template Gallery"
 description: "Introduction to the Template Gallery"
-isPublished: false
+isPublished: True
 ---
 
 # Template Gallery
