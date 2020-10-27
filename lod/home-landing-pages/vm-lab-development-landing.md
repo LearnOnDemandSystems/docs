@@ -91,6 +91,10 @@
         <div class="subtopic_title">SSH Terminal Access</div>
         <div class="subtopic_description">Configure virtual machines for SSH terminal access. </div>
       </a>
+      <a class="subtopic_link" href="/lod/template-callery.md">
+        <div class="subtopic_title">Template Gallery</div>
+        <div class="subtopic_description">Create Lab Profiles from a Collection of Templates</div>
+      </a>
       <a class="subtopic_link" href="/lod/vm-based-lab-build-best-practices.md">
         <div class="subtopic_title">Virtual Machine Based Lab Development - Best Practices</div>
         <div class="subtopic_description">Recommendations and best practices for cloud-hosted and datacenter-hosted virtual machines.</div>
