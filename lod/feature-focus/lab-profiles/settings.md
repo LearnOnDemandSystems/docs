@@ -381,7 +381,7 @@ Labs can be launched from the following datacenters:
 ### Save/Cancel Options
 
 - **Allow User to Cancel Labs:** allows the user to cancel the lab at any point
-- **Allow user to Save labs:** allows the user to save the lab in it's current state and return at a later time. Note that saved labs are only saved for 48 hours. Users can extend the saved lab expiration by resuming the lab and saving again. Each save sets the timer back to 48 hours. After48 hours has passed, the lab progress and components are discarded and cannot be recovered. 
+- **Allow user to Save labs:** allows the user to save the lab in it's current state and return at a later time. Users have a specified maximum number of labs that can be saved at a time. Once users reach their maximum number of saved lab instances, they will need to cancel one of the saved labs, to be able to save a new lab instance. The spefified maximum is set by the user's organization. Note that saved labs are only saved for 48 hours. Users can extend the saved lab expiration by resuming the lab and saving again. Each save sets the timer back to 48 hours. After48 hours has passed, the lab progress and components are discarded and cannot be recovered. 
 - **Allow User to Disconnect from Lab Client:** Allows the user to disconnect from the lab client and leave the lab running. 
 - **Automatically prompt user to extend time by `X` Minutes when `X` Minutes Remain:** automatically prompt the user to extend the lab time by a specified amount of time when a specified amount of time is remaining. 
 - **Auto-Save incomplete Labs:** Enables the lab to automatically save in complete labs after a specified amount of time has passed. 
