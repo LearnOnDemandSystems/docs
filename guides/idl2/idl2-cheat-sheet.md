@@ -57,9 +57,7 @@
 | Copyable and Type Text         | `++++Copyable and Type text++++`|
 | Replacement Token | `click the @ lab toolbar button ` |
 | Embed YouTube video | `!video[text to display](url)` (URLs from YouTube.com auto embed)               |
-| Sections |`:::sectionName(variableName-variabelValue)`
-|| `section text or markdown elements`
-||`:::`
+| Sections |`:::sectionName(variableName=variableValue)`<br>`section text or markdown elements`<br>`:::`
 |<BR> | |
 
 ---
