@@ -1,6 +1,6 @@
 ---
 title: "Template Gallery"
-description: "Introduction to the Template Gallery"
+description: "Create Lab Profiles from a collection of Templates"
 isPublished: True
 ---
 

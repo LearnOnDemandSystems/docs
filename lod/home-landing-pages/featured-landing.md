@@ -18,6 +18,10 @@
   <div class="subtopic selected">
     <div id="header_1" class="subtopic_header" tabindex="0" title="A-Z Help Docs" role="button" aria-selected="true" selected>Featured</div>
     <div id="body_1" class="subtopic_links">
+      <a class="subtopic_link" href="/lod/template-callery.md">
+        <div class="subtopic_title">Template Gallery</div>
+        <div class="subtopic_description">Create Lab Profiles from a Collection of Templates</div>
+      </a>
       <a class="subtopic_link" href="/lod/lab-on-demand-lti-1p3-integration.md">
         <div class="subtopic_title">LTI 1.3 Integration Spec</div>
         <div class="subtopic_description">Information for evaluating LTI 1.3</div>
@@ -25,10 +29,6 @@
       <a class="subtopic_link" href="/lod/access-control-lists.md">
         <div class="subtopic_title">Access Control Lists</div>
         <div class="subtopic_description">Controls which websites can be accessed in the lab, by using blacklists and whitelists.</div>
-      </a>
-      <a class="subtopic_link" href="/lod/aws-capabilities.md">
-        <div class="subtopic_title">Amazon Web Services API Capabilities</div>
-        <div class="subtopic_description">A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation.</div>
       </a>
       <a class="subtopic_link" href="/lod/how-to-use-api-consumer.md">
         <div class="subtopic_title">API Best Practices and How to Use an API Consumer</div>
