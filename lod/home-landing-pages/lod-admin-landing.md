@@ -42,7 +42,7 @@
         <div class="subtopic_title">Organization RAM Limits</div>
         <div class="subtopic_description">Max RAM usage, max active lab instances and max RAM per lab profile.</div>
       </a>
-      <a class="subtopic_link" href="/lod/template-callery.md">
+      <a class="subtopic_link" href="/lod/template-gallery.md">
         <div class="subtopic_title">Template Gallery</div>
         <div class="subtopic_description">Create Lab Profiles from a Collection of Templates</div>
       </a>

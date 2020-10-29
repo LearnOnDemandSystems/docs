@@ -18,7 +18,7 @@
   <div class="subtopic selected">
     <div id="header_1" class="subtopic_header" tabindex="0" title="A-Z Help Docs" role="button" aria-selected="true" selected>Featured</div>
     <div id="body_1" class="subtopic_links">
-      <a class="subtopic_link" href="/lod/template-callery.md">
+      <a class="subtopic_link" href="/lod/template-gallery.md">
         <div class="subtopic_title">Template Gallery</div>
         <div class="subtopic_description">Create Lab Profiles from a Collection of Templates</div>
       </a>
