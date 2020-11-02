@@ -18,16 +18,4 @@ To connect to a lab over a proxy, the following requirements must be met for eac
 
 1. The Enhanced controller functions using RDP over port 21xxx, RDP traffic through these ports must be allowed
 
-1. If the connection to 21xxx fails, a RDP over HTTPS connection will be used, with restrictions similar to Silverlight
-
-### Legacy Remote Controllers:
-
-**Flash:**
-
-1. Websocket connections over port 80 and flash control over port 843 must be supported
-
-1. Websocket connection upgrade request (ws://) headers must not be altered
-
-**Silverlight:**
-
-1. The Silverlight controller functions using RDP over HTTP/HTTPS. When using an Apache proxy, the connection may fail over HTTP due to an incompatibility [described here](https://bz.apache.org/bugzilla/show_bug.cgi?id=40029)
+1. If the connection to 21xxx fails, a RDP over HTTPS connection will be used.
