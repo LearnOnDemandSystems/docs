@@ -17,7 +17,6 @@ To launch and use a lab, the following requirements must be met:
     1. Chromium based browsers such as Opera or Vivaldi can connect, but default hotkeys they set may interfere with lab inputs
 1. Be connected to a network that allows at least one of the following:
     1. Secure Web sockets on HTTPS port 443 and 43443
-    1. Web sockets over HTTP port 80 and HTTP over Port 843 (Flash control) (Hyper-V only)
     1. RDP over port 21xxx or 443 (Enhanced control)
     1. For more information see Browser/Controller Support below
 1. Have administrative rights on the local machine if installing the Enhanced control (Hyper-V w/RDP only).
@@ -138,11 +137,6 @@ All connections utilize secure WebSockets connections over port 443. No plugin i
 
 ### Alternates:
 
-Alternatively, legacy controllers may be available. Flash and Silverlight controllers are available for Hyper-V based labs. Performance of these controllers is reduced compared to HTML5 or Enhanced control and compatibility with modern browsers is not guaranteed.
+Both Flash and Silverlight legacy controllers will be, or have been, removed on November 6th, 2020.
 
-| **Virtual Machine Control** | **Browser** | **Version** | **Protocol** | **Ports** |
-| --- | --- | --- | --- | --- |
-| **Flash**<sup>1</sup> | Must support Adobe Flash plugin | 8+ | VMRDP | 443 & 843 |
-| **Silverlight** | Internet Explorer | 4+ | HTTPS | 443 |
 
-<sup>1</sup> Adobe Flash is being retired by Adobe in 2020. Many browsers are limiting when the plugin can run and are expected to remove it entirely by the time Adobe retires the plugin.
