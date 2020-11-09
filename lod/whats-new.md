@@ -38,7 +38,6 @@ The permissions required to inspect disks in Lab on Demand have been adjusted.
 - Updated verification message when deleting cloud subscriptions pools.
 - Fixed a bug that improperly appended title information to container labs.
 - Fixed a bug preventing ABA scripts from appearing in lab profiles created from the template gallery.
-Fixed a bug that caused LCA targets to be removed from lab profiles created from the template gallery.
 
 ## **Released October 16, 2020**
 
