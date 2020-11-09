@@ -9,6 +9,37 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## **Released November 6, 2020**
+
+**Support Chat**
+- Lab on Demand now has a support chat option on the Admin site, as well as in the lab client. Users can initiate a chat session with our Support Team. This feature is enabled by default for all organizations, but it can be disabled if needed from the organization profile. Chat transcripts are stored in a support ticket, and a copy is emailed to the user.
+
+**Lab on Demand legacy Flash and Silverlight Machine Remote Controllers Removed**
+
+Lab on Demand legacy Flash and Silverlight machine remote controllers have been removed. 
+
+- Any students still using Flash or Silverlight machine remote controller are encouraged to migrate to the HTML5 machine remote controller. Connectivity requirements for the HTML5 controller are available in our [Connectivity Requirements documentation](https://docs.learnondemandsystems.com/tms/connectivity-requires.md).
+
+**Disk Inspection Permission Adjusted**
+
+The permissions required to inspect disks in Lab on Demand have been adjusted. 
+- Inspection of a disk on a datacenter is now based on viewing rights on the datacenter.
+- Inspection of a disk on a file share is now based on viewing rights on the file share.
+- Inspection of a disk on a lab host is now based on viewing rights on the lab host.
+
+**API Consumer Configuration**
+- A new API Consumer configuration option has been added on API Consumer profiles for exams.
+
+**LOD Improvements and Fixes**
+- Mouse cursors in Hyper-V based labs will now dynamically change when resizing windows, while hovering over a text field, and selecting anchor points. 
+- More flexible API configurations by allowing presets to be adjusted.
+- Virtual machines can now be renamed when saving a new lab profile from a running lab instance.
+- Improved Task Tracking behavior when using in conjunction with Includes.
+- Updated verification message when deleting cloud subscriptions pools.
+- Fixed a bug that improperly appended title information to container labs.
+- Fixed a bug preventing ABA scripts from appearing in lab profiles created from the template gallery.
+Fixed a bug that caused LCA targets to be removed from lab profiles created from the template gallery.
+
 ## **Released October 16, 2020**
 
 **Cloud Watchdog**
