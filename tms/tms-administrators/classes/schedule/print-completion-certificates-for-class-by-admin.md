@@ -5,7 +5,7 @@ isPublished: true
 
 # How can an administrator print completion certificates for a class?
 
-> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+> :small_blue_diamond: Please be aware that functionality covered in this and linked articles may not be available to you.
 
 Once completion certificate templates are added to a course, the certificate is available to be printed for any class using that course. Administrators have the option of printing from a PDF of the certificate or a Word file that permits editing of the content. All data pulled into the certificates is from the TMS. For instance, if a user name is showing incorrectly, it may be changed in the User Profile or edited directly on the certificate.
 
