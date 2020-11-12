@@ -5,6 +5,8 @@ isPublished: true
 
 # How do I find what organizations have access to a course through other publishing groups?
 
+> Please be aware that functionality covered in this and linked articles may not be available to you.
+
 When you have received the **[The publishing group] cannot be added because one or more organizations already have access through an existing Publishing Group.** error message and need to find the organizations that have access to the course, you can use the Find Publishing Groups search page. 
 
 To do this: 
