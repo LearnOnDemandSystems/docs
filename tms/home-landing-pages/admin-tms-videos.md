@@ -63,7 +63,7 @@
             <div class="subtopic_description">In this video, we describe our new features for class activities, such as the option to disable activities for students and the ability to assign specific activities to students in a class. We also discuss a feature available for classes to automate enrollment when a student cancels their class attendance.</div>
         </a>
         <a class="subtopic_link" href="https://youtu.be/OCqQFxNy5qo" target="_blank">
-            <div class="subtopic_title">Hw to Optimize your Organization</div>
+            <div class="subtopic_title">How to Optimize your Organization</div>
             <div class="subtopic_description">Customize your site by setting up default settings for classes, courses, users,  enrollment cancellations and more. Using default settings can provide a consistent experience for your users and (even more importantly) save time for you and your staff.</div>
         </a>
         <a class="subtopic_link" href="https://youtu.be/Aa3cS-z80aY" target="_blank">
