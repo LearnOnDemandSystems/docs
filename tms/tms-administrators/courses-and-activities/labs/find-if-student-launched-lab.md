@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I find if or when a student has launched a lab?
 
-> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+> Please be aware that not all functionality covered in this article may be available to you.
 
 When you need to know if or when students have launched a lab, you can use the Find Lab Instances search page. You can find any instance of a lab which was launched and search by items like a student's name, an instructor's name, a class name, a lab name and/or a time period.
 
