@@ -224,7 +224,7 @@
       </a>
       <a class="subtopic_link" href="/lod/lod-support-chat.md">
         <div class="subtopic_title">Support Chat</div>
-        <div class="subtopic_description">Chat with our Support team or submit a support ticket..</div>
+        <div class="subtopic_description">Chat with our Support team or submit a support ticket.</div>
       </a>
       <a class="subtopic_link" href="/lod/template-gallery.md">
         <div class="subtopic_title">Template Gallery</div>

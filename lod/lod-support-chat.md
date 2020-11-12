@@ -1,3 +1,9 @@
+---
+title: "Lab on Demand Support Chat"
+description: "Chat with our Support team or submit a support ticket"
+isPublished: true
+---
+
 # Lab on Demand Support Chat
 
 Lab on Demand (LOD) has a support chat option on the Admin site, as well as in the lab client in a launched lab. 
