@@ -5,7 +5,7 @@ ispublished: true
 
 # How do I set up LTI activities to be used in courses?
 
-> :small_blue_diamond: Please be aware that functionality covered in this and linked articles may not be available to you.
+> Please be aware that functionality covered in this and linked articles may not be available to you.
 
 Learning Tools Interoperability (LTI) enables our TMS to communicate with external systems. LTI is used to integrate course content provided by a third party into the TMS, without the student realizing that they’re using another tool.
 
