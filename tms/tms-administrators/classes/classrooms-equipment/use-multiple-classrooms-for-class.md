@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I use multiple classrooms for a class?
 
-> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
+> :small_blue_diamond: Please be aware that functionality covered in this and linked articles may not be available to you.
 
 When you create a class, you can add one or more classrooms to the class. One classroom will be marked as the primary classroom and will show up on the Find Classes output. You can assign different instructors to different classrooms (covered in the [How do I schedule a class with multiple instructors?](../instructors/schedule-class-with-multiple-instructors.md) article).
 
