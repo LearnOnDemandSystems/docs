@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I track laptops being used for classes taught outside my organization?
 
-> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+> :small_blue_diamond: Please be aware that functionality covered in this and linked articles may not be available to you.
 
 When you are using your organization's laptops to teach a class offsite, you can use the TMS to schedule the your equipment as a group or as individual items. Scheduling the use of your laptops checks against availability to verify you are not double-booking the equipment during that timeframe.  
 
