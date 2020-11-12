@@ -30,7 +30,7 @@ To remove an organization's access to a publishing group, the organization can b
 1. On the **Published Organizations** tab, click the X next to the organization you manage that you would like to remove.
 1. Click **Save** to save the change.
 
-> [!NOTE] Removing access to content from an organization will not automatically alert the organization, but it removes access to see the courses, which prevents them from scheduling any new events. Classes that have taken place in the past, are currently running, or already scheduled will not be affected. Students in these classes will still be able to launch the labs until their regular access has expired.
+> :small_blue_diamond: Removing access to content from an organization will not automatically alert the organization, but it removes access to see the courses, which prevents them from scheduling any new events. Classes that have taken place in the past, are currently running, or already scheduled will not be affected. Students in these classes will still be able to launch the labs until their regular access has expired.
 
 ## Related Articles
 
