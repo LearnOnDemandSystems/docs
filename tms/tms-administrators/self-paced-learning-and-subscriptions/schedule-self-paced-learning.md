@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I schedule self-paced learning for a student?
 
-> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
+> Please be aware that not all functionality covered in this and linked articles may be available to you.
 
 Self-paced learning is provisioned through course assignments. This gives a student direct access to labs and course activities without attending a class. When you create a course assignment, the student's access begins immediately and normally defaults to expire in 180 days. The expiration defaults based on the maximum days of access for a course assignment set on the organization profile. Course assignments are billed based on their creation date, but can be cancelled within 24 hours of creation if no labs have been launched. After the 24 hour window a request must be made to [**https://lod.one/help**](https://lod.one/help) for cancellation. 
 
