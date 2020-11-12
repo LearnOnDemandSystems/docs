@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I capture data for users accessing externally hosted activities launched from the TMS?
 
-> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+> Please be aware that not all functionality covered in this article may be available to you.
 
 Need to collect data on the users that are accessing your externally hosted course activities? You can add parameters to your external URL that will cause the TMS to pass the requested information about the user to you. Externally hosted activities include any course activity using an external link such as: Add Video, Add Document or Add External Link.
 
