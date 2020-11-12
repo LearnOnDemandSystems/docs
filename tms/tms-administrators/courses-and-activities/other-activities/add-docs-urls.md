@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I add documents and external links to my course?
 
-> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you. 
+> Please be aware that not all functionality covered in this and linked articles may be available to you. 
 
 Course activities provide access to documents, external links, and other learning components in classes, course assignments, and learning paths. These activities provide direct access to document or web pages on the web. When the student clicks the Launch button on the activity, the document or web page will open. You control if it opens in new window or within a frame in the same window.
 
