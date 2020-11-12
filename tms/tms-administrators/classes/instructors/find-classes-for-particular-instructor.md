@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I find the classes for a particular instructor?
 
-> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+> Please be aware that not all functionality covered in this article may be available to you.
 
 You can filter the **Find Classes** page for classes that a particular instructor has been added. The instructor does not have to be assigned to any sessions or be the primary instructor for the class or a session. They just have to be in the class(es).
 
