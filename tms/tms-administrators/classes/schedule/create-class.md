@@ -32,7 +32,7 @@ Expand the **Session Times** section.
 1. Modify the **Start Time** and **End Time** as needed. 
 1. Click **OK**.
 
-> :small_blue_diamond: The number and duration of the class sessions are for scheduling only. The Duration of the course affects the billing of the class based on 8 hour training days. If the course has a different duration than your sessions, do one of the following: 1) Select the course with the correct duration, if available, 2) if you own the course, duplicate it and change the duration to reflect training days that are longer or shorter than 8 hours, or 3) if you do not own the course, open a support ticket immediately to request assistance to ensure your class is billed correctly.
+>NOTE The number and duration of the class sessions are for scheduling only. The Duration of the course affects the billing of the class based on 8 hour training days. If the course has a different duration than your sessions, do one of the following: 1) Select the course with the correct duration, if available, 2) if you own the course, duplicate it and change the duration to reflect training days that are longer or shorter than 8 hours, or 3) if you do not own the course, open a support ticket immediately to request assistance to ensure your class is billed correctly.
 
 Expand the **Delivery** section. 
 1. If this class will be delivered in person only, ensure **Delivery Type** is set to **Physical**.
@@ -48,7 +48,7 @@ Expand the **Instructors** section.
 
 Finally, click **Save** to create the class. 
 
->!NOTE The other sections (Visibility, Payment, and HTML Description) can be changed later. 
+>NOTE The other sections (Visibility, Payment, and HTML Description) can be changed later. 
 
 Once the class is created the TMS creates a template by retaining all of your selections except for the class dates, this is to help you create additional classes more quickly.
 
