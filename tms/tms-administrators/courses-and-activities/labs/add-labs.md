@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I add labs to my course?
 
-> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you. 
+> Please be aware that not all functionality covered in this and linked articles may be available to you. 
 
 Course activities provide access to hands-on labs and other learning components in classes, course assignments, and learning paths. A lab activity provides access to a lab built on the Learn on Demand Systems' Lab on Demand platform. When the student clicks the Launch button on the activity, the lab interface opens in another window. 
 
