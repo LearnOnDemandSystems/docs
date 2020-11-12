@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I create instructor user accounts?
 
-> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
+> Please be aware that not all functionality covered in this and linked articles may be available to you.
 
 User accounts specific for instructors can be added in the TMS. These accounts will automatically assign the Instructor permissions your trainers will need to login, manage classes and labs, and host virtual classes. Each user account created must use a unique email address.
 
