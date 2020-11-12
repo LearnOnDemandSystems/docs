@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I create classrooms?
 
-> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+> :small_blue_diamond: Please be aware that functionality covered in this and linked articles may not be available to you.
 
 You can prevent double booking and overbooking of your physical classrooms when you add them to the TMS and assign them to your classes. When a classroom is assigned to a class, the TMS checks its availability and will warn you of conflicts. It also checks the capacity of the room when enrollments assigned to the classroom are added to the class.
 
