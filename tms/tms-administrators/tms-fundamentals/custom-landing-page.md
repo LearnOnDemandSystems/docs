@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I have users land on a custom page when logging in?
 
-If your organization has site in the TMS (a custom URL), you can choose where your students and administrators will land when they sign in. There can be a landing page for your students and a different one for your administrators.
+Organizations with a site in the TMS (a custom URL) can choose where students and administrators land when they sign in. There can be a landing page for your students and a different one for your administrators.
 
 For students, you can choose one of the following for the Default Landing Page:
 - **Default** – the default landing page, currently the My Training page
