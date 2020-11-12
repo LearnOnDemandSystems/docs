@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I set up my organization to use contract instructors?
 
-> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
+> Please be aware that not all functionality covered in this and linked articles may be available to you.
 
 If your organization would like to use contract instructors when scheduling classes, you may opt in to our contract instructor program. By opting in, you gain access to view contract instructor contact information and the ability to schedule these instructors for your classes.
 
