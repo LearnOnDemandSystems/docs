@@ -5,11 +5,11 @@ isPublished: true
 
 # How do I change an enrollment's completion status and which one should I use?
 
-> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
+> Please be aware that not all functionality covered in this and linked articles may be available to you.
 
 Need to change the completion status of one or more of your students’ enrollments? You may change the completion status on the class Roster, which provides a list of students in the class You can view the completion status in multiple places, such as Find Enrollments or the student’s enrollment.
 
-> [!KNOWLEDGE] Completion statuses are used to reflect students’ overall attendance while class is in session and their fulfillment of the class’ objectives when class is over. Students' daily attendance can be tracked using the Attendance Chart; a link appears for this once a class starts. Completion status is used to move class enrollments and course assignments into students’ transcripts and enables their ability to print completion certificates when they are available for a course.
+> :small_blue_diamond: Completion statuses are used to reflect students’ overall attendance while class is in session and their fulfillment of the class’ objectives when class is over. Students' daily attendance can be tracked using the Attendance Chart; a link appears for this once a class starts. Completion status is used to move class enrollments and course assignments into students’ transcripts and enables their ability to print completion certificates when they are available for a course.
 
 ## Students in a Class
 
