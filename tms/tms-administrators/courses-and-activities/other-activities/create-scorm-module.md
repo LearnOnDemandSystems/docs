@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I create a SCORM Module and make it available to other organizations for their courses?
 
-> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+> Please be aware that not all functionality covered in this article may be available to you.
 
 Have SCORM content you want to incorporate in your courses or allow other organizations to incorporate into theirs? This is easy to do with the proper permissions. You will first create a SCORM module in the TMS for each SCORM file. You can then add those SCORM modules to your courses. You can also make them available for your partner organizations to add them to their courses. 
 
@@ -16,13 +16,13 @@ Once you have the permissions needed,
 1. On the **Admin** menu in the **SCORM / AICC** group, click **Create SCORM Module**.
 1. The Choose SCORM Module dialog will open. Currently the process requires Adobe Flash Player. If necessary, click the **Adobe Flash Player** button to run Adobe Flash Player. 
 
->[!ALERT] If you are using Firefox as your browser, this button might be black. Other browsers may render the button differently as well. However, if you hover your mouse over it, you will get a screen tip, Adobe Flash Player.
+> :small_blue_diamond: If you are using Firefox as your browser, this button might be black. Other browsers may render the button differently as well. However, if you hover your mouse over it, you will get a screen tip, Adobe Flash Player.
 
 1. Click **Allow** in the message asking to **Run Flash**.
 1. Click **Choose File** in the **Choose SCORM Module** dialog.
 1. Navigate to and select the SCORM file and click **Open**. 
 
->[!ALERT] The file must be in .zip format and no larger than 1GB. They also must contain the proper formatted files to process
+> :small_blue_diamond: The file must be in .zip format and no larger than 1GB. They also must contain the proper formatted files to process
 
 1. The file will upload and process and you will land on the Basic Information tab of the Create SCORM Module Profile page. Edit the **Name** if desired.
 1. Select the **Evaluation Method** from the dropdown to use when a user completes the module. This method will record this result in the SCORM Module Attempt of the users.
