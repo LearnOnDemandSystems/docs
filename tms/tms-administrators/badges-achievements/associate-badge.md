@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I associate a badge with an achievement?
 
-> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
+> Please be aware that not all functionality covered in this and linked articles may be available to you.
 
 Achievements contain the conditions a user must meet through their training activities to earn an award and the badge associated with it. The following settings must be in place for the user to earn an achievement and badge:
 
@@ -24,7 +24,7 @@ To associate the badge with the achievement,
 
 When a user earns the achievement, Credly is automatically notified that the user has earned the associated badge. The user will receive an email from Credly containing instructions on how to accept and share the badge.
 
-> [!ALERT] For Credly, a badge template may be configured to allow a user to only earn one badge per badge template. Users are identified by their email addresses, and the address must follow valid email guidelines or the badge will not be earned.
+> :small_blue_diamond: For Credly, a badge template may be configured to allow a user to only earn one badge per badge template. Users are identified by their email addresses, and the address must follow valid email guidelines or the badge will not be earned.
 
 ## Related Articles
 
