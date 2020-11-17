@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I enroll multiple students?
 
-> :small_blue_diamond: Please be aware that functionality covered in this and linked articles may not be available to you.
+> Please be aware that functionality covered in this and linked articles may not be available to you.
 
 
 There are a couple of tools in the TMS you can use to register students. The the class roster is the one that lets you create multiple registrations all at once. Several different registration statuses exist to help you track whether the student should be granted access to a class.
@@ -23,11 +23,11 @@ To create multiple enrollments:
 1. All students will be added to the Roster with the status of Enrolled. Change the enrollment status to **Requested**. 
 1. Click **Save** to add them to the class. 
 
-> **Best practice** for adding students to class is to set the Enrollment Status to Requested. Then when the students show up for the class, mark them Enrolled. If they do not show up, mark them Cancelled. Note that LODS uses the Enrolled status to trigger billing for lab usage. Therefore, after a class begins the system will not permit the Enrollment Status of **Enrolled** to be changed. But you can change the **Requested** status to another status.
+> :small_blue_diamond: Adding students to class it is best to set the Enrollment Status to Requested. Then when the students show up for the class, mark them Enrolled. If they do not show up, mark them Cancelled. Note that LODS uses the Enrolled status to trigger billing for lab usage. Therefore, after a class begins the system will not permit the Enrollment Status of **Enrolled** to be changed. But you can change the **Requested** status to another status.
 
 Students' enrollment statuses will need to be changed to Enrolled or Cancelled after the class starts.
 
-> Remember that students must be in the status of Enrolled to be able to launch their labs when class starts.
+> :small_blue_diamond: Students must be in the status of Enrolled to be able to launch their labs when class starts.
 
 ## Related Article
 For information on the different enrollment statuses, please see:
