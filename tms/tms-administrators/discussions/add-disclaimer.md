@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I add a disclaimer to all my discussions?
 
-> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
+> Please be aware that not all functionality covered in this and linked articles may be available to you.
 
 You can easily add a consistent message or policy to every discussion for your organization at once. This is done through your organization’s profile, and the Discussion Disclaimer tab. 
 
