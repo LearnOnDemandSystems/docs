@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I find what achievements and/or badges my students have earned?
 
-> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+> Please be aware that not all functionality covered in this article may be available to you.
 
 You can easily see what achievements and badges your students are earning from either a user's Achievements page or from the two search pages below. 
 
