@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I create a classroom outside of my organization's physical location?
 
-> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+> Please be aware that not all functionality covered in this article may be available to you.
 
 There may be times when you will be holding a class at a site external to your organization's physical location. You can create a classroom in the TMS for this site. When you use this classroom for a class in the TMS, your students and instructor can click the Classroom name link to see its address, and, if provided, a map. In addition, you can control enrollments based on its capacity.
 
