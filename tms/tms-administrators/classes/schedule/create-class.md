@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I create a class?
 
-> :small_blue_diamond: Please be aware that functionality covered in this and linked articles may not be available to you.
+> Please be aware that functionality covered in this and linked articles may not be available to you.
 
 
 Classes are used to schedule meeting times and give students access to course activities for instructor-led training. If course activities are not needed for the meeting, then a Custom Event can be used.
