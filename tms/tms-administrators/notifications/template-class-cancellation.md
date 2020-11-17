@@ -6,6 +6,8 @@ ispublished: yes
 
 # How do I create a notification to let students and instructors know a class is cancelled?
 
+> Please be aware that all functionality may not be available to you.
+
 1. Open notification plans, from Site Administration on the **Notifications** tile, select **Create Notification Plan**.
 1. Input a name and description for the notification.
 1. The trigger is when a class’s status is changed to cancelled. The Trigger Event is **Class Cancelled**.
