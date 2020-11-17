@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I create a badge?
 
-> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
+> Please be aware that not all functionality covered in this and linked articles may be available to you.
 
 After creating the Badge Provider entity, the next step is to set up your badges. Badges in the TMS attach to achievements and use the badge template IDs in the external badge provider (currently Credly) to ensure the correct badge is issued when the achievement is earned. 
 
