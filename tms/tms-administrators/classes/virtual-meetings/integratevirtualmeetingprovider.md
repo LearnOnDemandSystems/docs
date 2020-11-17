@@ -5,7 +5,7 @@ isPublished: true
 
 # How can I use my Virtual Meeting Provider in LODS? 
 
-> :small_blue_diamond: Please be aware that the functionality covered in this and linked articles may not be available to you.
+> Please be aware that the functionality covered in this and linked articles may not be available to you.
 
 You can easily use the virtual meeting provider of your choice to provide interactive virtual training solutions. Setting up a virtual meeting provider just takes a few clicks, you can create training using your preferred virtual meeting provider in your classes. If you are using Teams, GoToMeeting, Adobe Connect, Zoom or another service, it can be used to give students and instructors access within a class. This will give your instructors and students everything they need for their class from one page. 
 
