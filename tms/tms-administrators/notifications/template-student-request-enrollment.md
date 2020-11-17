@@ -8,6 +8,8 @@ ispublished: yes
 
 > Please be aware that all functionality may not be available to you.
 
+> :small_blue_diamond: Please be aware that all functionality may not be available to you.
+
 > :small_blue_diamond: Students can only request enrollment when a class schedule has been made available to them.
 
 1. Open notification plans, from Site Administration on the **Notifications** tile, select **Create Notification Plan**.
