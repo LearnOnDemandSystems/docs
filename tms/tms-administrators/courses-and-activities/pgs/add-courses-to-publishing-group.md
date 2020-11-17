@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I add a course to my publishing group?
 
-> [Please be aware that not all functionality covered in this and linked articles may be available to you. 
+> Please be aware that not all functionality covered in this and linked articles may be available to you. 
 
 For other organizations to consume your courses through their classes and course assignments, you must make your courses availabile to them through a publishing group. You can do this one of two ways: multiple courses at a time or individually.
 
