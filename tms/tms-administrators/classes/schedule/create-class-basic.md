@@ -5,7 +5,7 @@ isPublished: true
 
 # What are the basics to create a class? 
 
-> :small_blue_diamond: Please be aware that functionality covered in this and linked articles may not be available to you.
+> Please be aware that functionality covered in this and linked articles may not be available to you.
 
 While scheduling a class has many options available for you to revise, there are only four items you must set to create an instructor-led class using a custom virtual meeting. You must choose the course, set the meeting times, set the meeting place, and add your instructor.
 
