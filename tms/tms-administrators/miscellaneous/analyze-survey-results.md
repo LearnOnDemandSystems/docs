@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I export survey responses and analyze them in Excel?
 
-> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+> Please be aware that not all functionality covered in this article may be available to you.
 
 When you need to analyze the responses to a survey you have attached to a course or classes, you can export the responses to a CSV file for analysis in Excel or other programs. 
 
