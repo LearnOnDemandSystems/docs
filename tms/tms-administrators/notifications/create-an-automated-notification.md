@@ -5,6 +5,8 @@ ispublished: true
 
 # How do I create an automated notification?
 
+> Please be aware that all functionality may not be available to you.
+
 Automated notifications are a way to notify students, instructors and staff when something changes in the TMS. Most notifications are triggered based on an action taken in the platform, but we also have time triggers for enrollments, classes and course assignments. Using notifications can save you a significant amount of time because you will not need to email people with updates.
 
 Please keep in mind, all users have the right to opt out of notifications. Even though a notification is sent out by the platform it does not mean that the email will be received by the user.
