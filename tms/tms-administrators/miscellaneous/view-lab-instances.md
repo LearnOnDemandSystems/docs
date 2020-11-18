@@ -25,6 +25,6 @@ Scroll to the bottom of the Lab Instance details page to view the exam questions
 
 ## Additional Resources
 
-[How do I reuse search settings or create default settings on search pages?]( tms/tms-administrators/users/instructor-management/lab-instance-viewing-permissions.md) 
+[How do I reuse search settings or create default settings on search pages?](tms/tms-administrators/users/instructor-management/lab-instance-viewing-permissions.md) 
 
-[How do I allow instructors to see lab instances and exam labs scores]( tms/tms-administrators/tms-fundamentals/reuse-search-settings-or-create-default-settings-on-search-pages.md) 
+[How do I allow instructors to see lab instances and exam labs scores](tms/tms-administrators/tms-fundamentals/reuse-search-settings-or-create-default-settings-on-search-pages.md) 
