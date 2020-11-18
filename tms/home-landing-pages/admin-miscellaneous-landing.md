@@ -51,6 +51,9 @@
       <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/create-achievements-to-motivate-learners.md">
         <div class="subtopic_title">How do I create achievements to motivate learners?</div>
       </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/view-lab-instances.md">
+        <div class="subtopic_title">How can I view lab exam scores?</div>
+        </a>
       <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/create-custom-event.md">
         <div class="subtopic_title">How do I create a custom event?</div>
       </a>
