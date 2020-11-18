@@ -53,6 +53,9 @@
       <a class="subtopic_link" href="/tms/tms-administrators/users/instructor-management/create-instructor-user-accounts.md">
         <div class="subtopic_title">How do I create instructor user accounts?</div>
       </a>
+      a class="subtopic_link" href="/tms/tms-administrators/users/instructor-management/lab-instance-viewing-permissions.md">
+        <div class="subtopic_title">How do I allow instructors to see lab instances and exam labs scores</div>
+      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/users/instructor-management/what-is-contract-instructor-pool.md">
         <div class="subtopic_title">What is the Contract Instructor Pool?</div>
       </a>
