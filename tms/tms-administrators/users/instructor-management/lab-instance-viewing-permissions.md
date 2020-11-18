@@ -1,6 +1,6 @@
 ---
 title: "How do I allow instructors to see lab instances and exam labs scores?"
-description: "Learn how to set up your instructors to see lab instances and exam labs.
+description: "Learn how to set up your instructors to see lab instances and exam labs."
 isPublished: true
 ---
 
