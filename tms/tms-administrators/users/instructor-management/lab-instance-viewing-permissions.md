@@ -1,10 +1,10 @@
 ---
-title: "How can I allow instructors to see lab instances and exam labs scores?"
+title: "How do I allow instructors to see lab instances and exam labs scores?"
 description: "Learn how to set up your instructors to see lab instances and exam labs.
 isPublished: true
 ---
 
-# How can I allow instructors to see lab instances and exam labs scores 
+# How do I allow instructors to see lab instances and exam labs scores 
 
 > Please be aware that functionality covered in this article may not be available to you.
  
@@ -20,11 +20,16 @@ To add the role and organization management,
 
 ![](/tms/images/instructor-supplemental-role.png)
 
-1.	Open the **Organization Management** tab, check the organization the instructor is working in. 
+7.	Open the **Organization Management** tab, check the organization the instructor is working in. 
 
 ![](/tms/images/instructor-org-management.png)
 
-1.	**Save**.
+8.	**Save**.
 
  
 > :small_blue_diamond:  When choosing organization management only give access to the level you want that instructor to have visibility to lab instances. If you have multiple organizations in your hierarchy with parent and child organizations, giving access to an organization at a parent level also gives access to all the child or subordinate organizations under it; those organizations will be checked and read only if the parent is selected. 
+
+## Additional Resources
+
+[How do I view exam lab instances?]( tms/tms-administrators/miscellaneous/view-lab-instances.md) 
+
