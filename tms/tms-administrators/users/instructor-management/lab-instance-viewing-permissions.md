@@ -4,7 +4,7 @@ description: "Learn how to set up your instructors to see lab instances and exam
 isPublished: true
 ---
 
-# How do I allow instructors to see lab instances and exam labs scores 
+# How do I allow instructors to see lab instances and exam labs scores?
 
 > Please be aware that functionality covered in this article may not be available to you.
  
