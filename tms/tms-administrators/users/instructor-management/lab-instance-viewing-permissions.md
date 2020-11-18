@@ -31,5 +31,5 @@ To add the role and organization management,
 
 ## Additional Resources
 
-[How do I view exam lab instances?]( tms/tms-administrators/miscellaneous/view-lab-instances.md) 
+[How do I view exam lab instances?](https://docs.learnondemandsystems.com/tms/tms-administrators/miscellaneous/view-lab-instances.md) 
 
