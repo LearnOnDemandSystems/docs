@@ -9,7 +9,7 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
-## **Released November 6, 2020**
+## **Released November 20, 2020**
 
 **AWS v2 Lab Host**
 - AWS lab fabric support has been updated with changes that will improve stability, efficiency and scalability. 
