@@ -11,6 +11,34 @@
 
 ## **Released November 6, 2020**
 
+**AWS v2 Lab Host**
+- AWS lab fabric support has been updated with changes that will improve stability, efficiency and scalability. 
+
+**Access Control Policy Search Filter Added**
+- A new filter has been added to Access Control Policies (ACP) search, to filter results based on the JSON content. This will provide the ability to quickly locate ACPs in Lab on Demand that use specific resources.
+ 
+**Detailed Scoring Results**
+- When a lab uses Activity Based Assessments (ABA) that are scored, it is now possible to show detailed score results to the lab user when the lab is scored. This option is configured in the Activity editor within the lab profile. 
+ 
+**Activity Based Assessment Script Order**
+- It is now possible to change the order of scripts when an Activity Based Assessment (ABA) has multiple scripts. Changing the order of the scripts in the UI also changes the order that the scripts will be executed. 
+ 
+ 
+**Shared Lab Improvements**
+- When a Shared Environment lab is cancelled, a warning is now displayed to notify the user that all participant labs will be cancelled. 
+- When setting a lab to be a Shared Class Environment, the setting to save/cancel labs when the Last Activity threshold is exceeded, is now unchecked. This will prevent participant labs from being cancelled when the Shared Environment is cancelled due to inactivity. 
+ 
+ 
+**LOD Improvements and Fixes**
+- Added a new IDLx replacement token that shows the region where a cloud resource group is deployed.
+- Activity Task Lists now list results in lab instance details page.
+- Fixed a bug that prevented the Override Client Landing Page from displaying when a cloud platform or virtualization platform was not configured on the lab profile. 
+- Fixed a bug that prevented a scored lab created via the save as function from properly inheriting scoring information.
+- Fixed a bug causing errors when viewing, modifying, or exporting lab manuals after exporting and importing an AWS lab series.
+- Fixed a bug that prevented the Enable Navigation Warning setting working in some lab configurations. 
+
+## **Released November 6, 2020**
+
 **Support Chat**
 - Lab on Demand now has a support chat option on the Admin site, as well as in the lab client. Users can initiate a chat session with our Support Team. This feature is enabled by default for all organizations, but it can be disabled if needed from the organization profile. Chat transcripts are stored in a support ticket, and a copy is emailed to the user.
 
