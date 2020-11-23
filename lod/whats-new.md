@@ -35,7 +35,7 @@
 - Fixed a bug that prevented the Override Client Landing Page from displaying when a cloud platform or virtualization platform was not configured on the lab profile. 
 - Fixed a bug that prevented a scored lab created via the save as function from properly inheriting scoring information.
 - Fixed a bug causing errors when viewing, modifying, or exporting lab manuals after exporting and importing an AWS lab series.
-- Fixed a bug that prevented the Enable Navigation Warning setting working in some lab configurations. 
+- Fixed a bug that prevented the Enable Navigation Warning setting from working in some lab configurations. 
 
 ## **Released November 6, 2020**
 
