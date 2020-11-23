@@ -26,7 +26,7 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[Amazon Cognito User Pools](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncognitouserpools.html)|cognito-idp|supported||
 |[Amazon Comprehend](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncomprehend.html)|comprehend|planned||
 |[Amazon Connect](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonconnect.html)|connect|planned||
-|[Amazon Data Lifecycle Manager](https://docs.aws.amazon.com/dlm/latest/APIReference/Welcome.html)|N/A|planned|
+|[Amazon Data Lifecycle Manager](https://docs.aws.amazon.com/dlm/latest/APIReference/Welcome.html)|N/A|Supported|
 |[Amazon DynamoDB](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazondynamodb.html)|dynamodb|supported||
 |[Amazon DynamoDB Accelerator (DAX)](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazondynamodbacceleratordax.html)|dax|supported||
 [Amazon EC2](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_identityandaccessmanagement.html)|ec2|supported||
@@ -64,7 +64,7 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[Amazon SES](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonses.html)|ses|planned||
 |[Amazon SimpleDB](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsimpledb.html)|sdb|supported||
 |[Amazon SNS](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsns.html)|sns|supported|If a lab user creates an SNS subscription, but fails to verify it, the SNS subscription will be left in a pending state. Pending SNS subscriptions cannot be removed from an AWS account, thus may appear as residue in subsequent lab instances. Pending SNS subscriptions are automatically removed after 3 days.||
-|[Amazon Simple Systems Manager](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)|ssm|planned||
+|[Amazon Simple Systems Manager](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)|ssm|Supported||
 |[Amazon Simple Workflow Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsimpleworkflowservice.html)|swf|planned||
 |[Amazon SQS](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsqs.html)|sqs|planned||
 |[Amazon Sumerian](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsumerian.html)|sumerian|planned||
@@ -89,7 +89,7 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[AWS CodePipeline](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscodepipeline.html)|codepipeline|planned||
 |[AWS Code Signing for Amazon FreeRTOS](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscodesigningforamazonfreertos.html)|signer|planned||
 |[AWS CodeStar](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscodestar.html)|codestar|planned||
-|[AWS Config](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsconfig.html)|config|planned||
+|[AWS Config](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsconfig.html)|config|Supported||
 |[AWS Cost and Usage Report](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscostandusagereport.html)|cur|planned||
 |[AWS Cost Explorer Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscostexplorerservice.html)|N/A|planned||
 |[AWS Database Migration Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsdatabasemigrationservice.html)|dms|planned||
