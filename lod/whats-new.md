@@ -35,7 +35,7 @@
 - Fixed a typo on the pre-instance dashboard when clearing instances.
 - Lab profile details page hardened against application error when lab series is null.
 - Terms and Conditions are now linked in the footer of Lab on Demand.
-Fixed a bug resulting in users exceeding the maximum number of retakes allowed in a lab series.
+- Fixed a bug resulting in users exceeding the maximum number of retakes allowed in a lab series.
 
 ## **Released November 20, 2020**
 
