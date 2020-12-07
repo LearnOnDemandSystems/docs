@@ -9,6 +9,34 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## **Released December 4, 2020**
+
+**External Instruction Service**
+- Optimizations have been made to support upcoming changes in ADO and GitHub, to change the primary branch name from Master to Main.
+- Optimizations have been made to remove invalid webhooks in ADO repositories, when syncing external instructions with a lab profile. 
+- Optimizations have been made when syncing a lab profile with an ADO repository and the repository belongs to an ADO project that has been synced with other lab profiles. 
+	
+**LOD API now supports a new parameter in the Launch call; maxSaveDays**
+- This parameter allows an organization to set the number of days a student may save their lab, subject to the contracted configuration on the API consumer.
+
+**ABA Display and Output Options**
+- Basic Markdown can now be used in Correct Answer Feedback and Text fields of Activity Based Assessments. Emojis, Images , Bold, Italic, Strikethrough, Bullets, Numbers, and Headers are all supported. Characters may be escaped as needed using ``` \``` just prior to the character. 
+- When ABA feedback or output from an activity is returned, the output will be displayed under the evaluation button when On-Demand evaluation is enabled.
+- When enabled, the evaluation button for Task Lists can be configured to display over or under the lists of tasks in the lab instructions.
+- Removed incorrect invalidation message when configuring an ABA Task List.
+- Task list sort order is now properly reflected in the lab profile edit instructions preview pane.
+
+**AWS Improvements**
+- AWS output tokens are now properly shown on first display in Hyper-V and vSphere lab profiles.
+- Improved logic when tearing down multiple AWS Cloudslice lab instances.
+
+**LOD Improvements and Fixes**
+- Lab Series can now be scheduled for disablement at a specified time and date. The labs will no longer be available to launch after the series is disabled.
+- Fixed a typo on the pre-instance dashboard when clearing instances.
+- Lab profile details page hardened against application error when lab series is null.
+- Terms and Conditions are now linked in the footer of Lab on Demand.
+- Fixed a bug resulting in users exceeding the maximum number of retakes allowed in a lab series.
+
 ## **Released November 20, 2020**
 
 **AWS v2 Lab Host**
