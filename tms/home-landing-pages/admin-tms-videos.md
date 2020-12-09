@@ -34,7 +34,27 @@
         <div class="subtopic_title">How do I create users?</div>
           <div class="subtopic_description">We introduce ways to create user accounts individually, through the user import tool, through training keys, and by 3rd party authentication. We show how to create temporary role assignments as well as create a student, instructor and operations manager user account.</div>
       </a>
-     </div>
+         <a class="subtopic_link" href="https://youtu.be/FJSFkp5TQhM" target="_blank">
+        <div class="subtopic_title">How do I create a class?</div>
+          <div class="subtopic_description">This video describes how to create a basic class. This includes adding a course, session times, delivery and instructors. Advanced settings are discussed in the "How can I use the advanced settings on a class" video.</div>
+      </a>
+      <a class="subtopic_link" href="https://youtu.be/5QWM385xCJI" target="_blank">
+        <div class="subtopic_title">How do I use the advanced settings on a class?</div>
+          <div class="subtopic_description">After creating a basic class, you may be interested in some of the advanced options. Advanced settings include enabling automated notifications, dedicating a class, surveys, enabling self enrollment, materials and certificates.</div>
+      </a>
+      <a class="subtopic_link" href="https://youtu.be/tSXmej6_dwM" target="_blank">
+        <div class="subtopic_title">How can I use the class links showing before class starts?</div>
+          <div class="subtopic_description">Once a class is created and before it has started, a number of links are available to prepare for class. We take the time to demonstrate all these features in this video: pre-class checklist, class history, enrollment training keys, sign in sheets, printing completion certificates, manage files, and sent notifications. </div>
+      </a>
+      <a class="subtopic_link" href="https://youtu.be/Ug4AYUyHKhw" target="_blank">
+        <div class="subtopic_title">How can I use the class links showing after class starts?</div>
+          <div class="subtopic_description">After a class is has started, additional links are available to manage class. We take the time to demonstrate all these features in this video: roster, roster icons, attendance chart, lab instances, survey results, and monitor labs.</div>
+      </a>
+      <a class="subtopic_link" href="https://youtu.be/3O3b8xAv9II" target="_blank">
+        <div class="subtopic_title">How do I create enrollments?</div>
+          <div class="subtopic_description">After you have created a class and user accounts, you have several ways to create enrollments. This video covers ways to create enrollments without using training keys, such as, creating a single enrollment, multiple enrollments, adding enrollments through the roster, and adding enrollments from another class. We also discuss enrollment statuses, classroom assignment, double booking, cancellations and billing.</div>
+      </a>
+      </div>
     </div>
     <div class="subtopic_header" tabindex="0" title="TMS Webinar Videos" role="button" aria-selected="false">TMS Webinar Videos</div>
     <div class="subtopic_links">
