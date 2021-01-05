@@ -18,7 +18,7 @@ To get setup in the TMS and create your first class, you will need to:
 
 ## Related Articles
 
-View our list of related articles below which will help you get started with class management in the TMS. To navigate back to the TMS Knowledge Center homepage, click the [**Home**](./home.md) icon in the upper left.
+View our list of related articles below which will help you get started with class management in the TMS. To navigate back to the TMS Knowledge Center homepage, click the [**Home**](https://docs.learnondemandsystems.com/tms/home-landing-pages/arvato-courseware-marketplace-landing.md) icon in the upper left.
 
 - [How do I set up a class?](set-up-class.md)
 - [How do I add an instructor to a class?](add-instructor-to-class.md)
