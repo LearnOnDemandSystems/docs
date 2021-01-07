@@ -54,7 +54,10 @@
         <div class="subtopic_title">How do I create enrollments?</div>
           <div class="subtopic_description">After you have created a class and user accounts, you have several ways to create enrollments. This video covers ways to create enrollments without using training keys, such as, creating a single enrollment, multiple enrollments, adding enrollments through the roster, and adding enrollments from another class. We also discuss enrollment statuses, classroom assignment, double booking, cancellations and billing.</div>
       </a>
-      </div>
+      <a class="subtopic_link" href="https://youtu.be/NcnPhredIfo" target="_blank">
+        <div class="subtopic_title">How do I assign Challenge Labs?</div>
+          <div class="subtopic_description">Using Learn on Demand Systems Challenge Labs requires its own unique set up and assignment. This video reviews how to find Challenge Labs, three ways to create Subscription assignments for users, and other items of interest for the set up and reporting on these labs.</div>
+          </div>
     </div>
     <div class="subtopic_header" tabindex="0" title="TMS Webinar Videos" role="button" aria-selected="false">TMS Webinar Videos</div>
     <div class="subtopic_links">
