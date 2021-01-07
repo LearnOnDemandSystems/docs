@@ -68,7 +68,7 @@ Users with a subscription assignment can view their learning paths from a link i
 
 ![](/tms/images/learning-paths-image.png)
 
-An individual path shows the courses listed in the order created in the path. Details are available on the left panel. Learning paths can be bookmarked and a progress bar display the percent of completed courses. Clicking on the course name opens a course assignment, circles beside the course name show if a course has not been started (empty circle), is incomplete (half-filled circle) or completed (check-marked circle).
+An individual path shows the courses listed in the order created in the path. Details are available on the left panel. Learning paths have a progress bar displaying the percent of completed courses. Clicking on the course name opens a course assignment, circles beside the course name show if a course has not been started (empty circle), is incomplete (half-filled circle) or completed (check-marked circle).
 
 ![](/tms/images/learning-path-single.png)
 
