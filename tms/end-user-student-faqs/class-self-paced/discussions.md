@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I participate in a discussion?
 
-> [!ALERT] Please be aware that the functionality covered in this article may not be available to you.
+> :small_blue_diamond: Please note: Please be aware that the functionality covered in this article may not be available to you.
 
 Your class enrollment or course assignment may have a discussion attached to it that allows you and other participants to have an asynchronous conversation. To be able to participate, you must have a role which grants discussion participation AND one of the following based on a course that has a discussion associated with it:
 
@@ -60,4 +60,4 @@ Email:
 
 ![](/tms/images/disc-email.png)
 
-> [!NOTE] When you click **more** in an announcement, the **Message Center** stays open on the original tab and the item is marked as **Read**. You must click **OK** to save the **Read** status of the announcement. If the **Message Center** is opened from another tab before this, the announcement will not show as **Read**.
+> :small_blue_diamond: Please note: When you click **more** in an announcement, the **Message Center** stays open on the original tab and the item is marked as **Read**. You must click **OK** to save the **Read** status of the announcement. If the **Message Center** is opened from another tab before this, the announcement will not show as **Read**.
