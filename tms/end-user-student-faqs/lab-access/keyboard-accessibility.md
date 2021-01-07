@@ -15,4 +15,4 @@ If your lab is equipped with a virtual machine, there will be a selection of com
 
 Virtual machines will automatically capture keyboard input when focused. When running a Hyper-V hosted lab, the keyboard shortcut **Ctrl+Alt+Break** can be used to break focus from the virtual machine and return focus to the lab interface. After using this shortcut, you will be able to send keyboard input to the surrounding lab interface instead of the virtual machine.
 
->[!note] On many keyboards, the Pause and Break keys share the same physical key, with Break utilizing the alternative function.
+> :small_blue_diamond: Please note: On many keyboards, the Pause and Break keys share the same physical key, with Break utilizing the alternative function.
