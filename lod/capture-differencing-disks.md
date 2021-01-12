@@ -20,7 +20,9 @@ To capture a differencing disk:
 
 1. Log in to the VM and make any changes that you would like to persist for each lab instance of the lab. For example, software installations and/or configurations.
 
-1. In the running lab, click the Hamburger menu in the top right and choose the **Save** option. ![](images/HamburgerMenu.png)
+1. In the running lab, click the Hamburger menu in the top right and choose the **Save** option. 
+
+    ![](images/HamburgerMenu.png)
 
 1. A dialog window will appear with two development options:
 
@@ -32,7 +34,7 @@ To capture a differencing disk:
    
     ![](images/Diff-Update-Lab-Profile.png)
 
-1. After selecting an option, fill out all fields as needed ensuring that all disks that have chanages are checked and then click _Next_. 
+1. After selecting an option, fill out all fields as needed ensuring that all disks that have changes are checked and then click _Next_. 
 
 1. The differencing disk will now begin to capture. 
 
