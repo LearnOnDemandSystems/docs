@@ -300,3 +300,5 @@ Is 2020 a leap year?
 1. Submit the Code and you will see the results of the tests you created before. Success! 
 
 ## Congratulations, you've created your first code lab!
+
+^[Code Lab Example](lod/code-lab-example.md)
