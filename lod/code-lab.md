@@ -133,6 +133,7 @@ A Code Language is a specific programming language. Code labs can have multiple 
    - The second page has typetext which when clicked will replace everything in the code editor with a completed, working version of the code.
 <details>
   <summary>Example Leap Year Instructions - Click to expand!</summary>
+    ^[Example Leap Year Instructions - Click to expand!](code-lab-example.md)
 
 ~~~text 
 #Coding Challenge: Leap Years
@@ -301,4 +302,4 @@ Is 2020 a leap year?
 
 ## Congratulations, you've created your first code lab!
 
-^[Code Lab Example](code-lab-example.md)
+^[Code Lab Example](code-lab-example.txt)
