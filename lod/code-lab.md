@@ -301,4 +301,4 @@ Is 2020 a leap year?
 
 ## Congratulations, you've created your first code lab!
 
-^[Code Lab Example](/code-lab-example.md)
+^[Code Lab Example](code-lab-example.md)
