@@ -5,8 +5,8 @@ isPublished: true
 
 # How do I change a class enrollment status and which one should I use?
 
-> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
-
+> Please be aware that functionality covered in this and linked articles may not be available to you.
+ 
 Need to change the class enrollment status of one or more of your students? There are three locations for this. The main difference between locations is whether you are working with students in a particular class, a student in multiple classes or all students in all classes.
 
 ## Students in a Class
@@ -48,4 +48,4 @@ There are 7 class enrollment statuses. Which ones you use depend upon the proces
 - **Audit** - Attending the class but only in an audit capacity. This status acts like Enrolled, giving the student access to course activities and labs. An audit student will count against the number of students that can be physically seated in a classroom but not against the Maximum Students set on the class.
 - **Enrolled** - Attending the class. Students need to be marked Enrolled (or Audit) to access course activities once the class begins by logging in from anywhere. 
 
-> [!Alert] You cannot change the Enrolled status after class begins. Please note, we use the Enrolled status for billing and we bill for every student marked Enrolled.
+> :small_blue_diamond: You cannot change the Enrolled status after class begins. Please note, we use the Enrolled status for billing and we bill for every student marked Enrolled.

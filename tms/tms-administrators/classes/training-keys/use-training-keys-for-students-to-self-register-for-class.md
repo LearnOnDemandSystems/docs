@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I find enrollment training keys from classes?
 
-> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+> Please be aware that not all functionality covered in this article may be available to you.
 
 Enrollment training keys are unique codes handed out to each student to enroll into a class. Used and unused keys can be found in several places, on the class profile by selecting the Training Keys link or from Find Enrollment Training Keys. To view training keys from Find Enrollments, add an output option for Payment Type. 
 

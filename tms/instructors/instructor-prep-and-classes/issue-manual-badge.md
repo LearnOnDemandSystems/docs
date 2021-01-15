@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I issue badges to students in my class?
 
-> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+:small_blue_diamond: Please be aware that not all functionality covered in this article may be available to you.
 
 You may be asked to manually issue badges to students in your class rather than only having badges issued automatically by meeting the requirements to earn an achievement. With the proper permissions, you can do this directly from your class' Roster page either to one student at a time or in a batch. In both cases, you will receive an error message if you issue a badge to a student who already has it.
 
@@ -26,6 +26,6 @@ Use this method if you want to issue multiple badges to one student or one or mo
 1. In the **Choose Student(s)** dialog, select the student(s) to whom to issue the badge and click **OK**. If the instructor is an organization instructor (not a contract instructor), only enrolled students from the instructor’s organization in the class are listed. If the instructor is a contract instructor, all students enrolled in the class are listed.
 1. Review the listed badges and the students and click **Issue Badges**. A list of the students and the badges issued to them will appear at the bottom of the page under the heading “The following badges were successfully issued:”
 
-> Note: Students are only allowed to earn a badge once. Therefore, if there are any errors in issuing the badge, you will receive a warning message stating: **Warning: Not all badges were successfully issued. See the Failed Badge list for details.** These failures will be listed at the bottom of the page under the heading “The following badge issuances failed:”. A description of the failure will be included. 
+> :small_blue_diamond: Please note: Students are only allowed to earn a badge once. Therefore, if there are any errors in issuing the badge, you will receive a warning message stating: **Warning: Not all badges were successfully issued. See the Failed Badge list for details.** These failures will be listed at the bottom of the page under the heading “The following badge issuances failed:”. A description of the failure will be included. 
 
 > ![](/tms/images/issue-badge-roster-page.png)

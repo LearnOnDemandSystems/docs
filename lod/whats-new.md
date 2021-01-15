@@ -9,6 +9,92 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## **Released December 4, 2020**
+
+**External Instruction Service**
+- Optimizations have been made to support upcoming changes in ADO and GitHub, to change the primary branch name from Master to Main.
+- Optimizations have been made to remove invalid webhooks in ADO repositories, when syncing external instructions with a lab profile. 
+- Optimizations have been made when syncing a lab profile with an ADO repository and the repository belongs to an ADO project that has been synced with other lab profiles. 
+	
+**LOD API now supports a new parameter in the Launch call; maxSaveDays**
+- This parameter allows an organization to set the number of days a student may save their lab, subject to the contracted configuration on the API consumer.
+
+**ABA Display and Output Options**
+- Basic Markdown can now be used in Correct Answer Feedback and Text fields of Activity Based Assessments. Emojis, Images , Bold, Italic, Strikethrough, Bullets, Numbers, and Headers are all supported. Characters may be escaped as needed using ``` \``` just prior to the character. 
+- When ABA feedback or output from an activity is returned, the output will be displayed under the evaluation button when On-Demand evaluation is enabled.
+- When enabled, the evaluation button for Task Lists can be configured to display over or under the lists of tasks in the lab instructions.
+- Removed incorrect invalidation message when configuring an ABA Task List.
+- Task list sort order is now properly reflected in the lab profile edit instructions preview pane.
+
+**AWS Improvements**
+- AWS output tokens are now properly shown on first display in Hyper-V and vSphere lab profiles.
+- Improved logic when tearing down multiple AWS Cloudslice lab instances.
+
+**LOD Improvements and Fixes**
+- Lab Series can now be scheduled for disablement at a specified time and date. The labs will no longer be available to launch after the series is disabled.
+- Fixed a typo on the pre-instance dashboard when clearing instances.
+- Lab profile details page hardened against application error when lab series is null.
+- Terms and Conditions are now linked in the footer of Lab on Demand.
+- Fixed a bug resulting in users exceeding the maximum number of retakes allowed in a lab series.
+
+## **Released November 20, 2020**
+
+**AWS v2 Lab Host**
+- AWS lab fabric support has been updated with changes that will improve stability, efficiency and scalability. 
+
+**Access Control Policy Search Filter Added**
+- A new filter has been added to Access Control Policies (ACP) search, to filter results based on the JSON content. This will provide the ability to quickly locate ACPs in Lab on Demand that use specific resources.
+ 
+**Detailed Scoring Results**
+- When a lab uses Activity Based Assessments (ABA) that are scored, it is now possible to show detailed score results to the lab user when the lab is scored. This option is configured in the Activity editor within the lab profile. 
+ 
+**Activity Based Assessment Script Order**
+- It is now possible to change the order of scripts when an Activity Based Assessment (ABA) has multiple scripts. Changing the order of the scripts in the UI also changes the order that the scripts will be executed. 
+ 
+ 
+**Shared Lab Improvements**
+- When a Shared Environment lab is cancelled, a warning is now displayed to notify the user that all participant labs will be cancelled. 
+- When setting a lab to be a Shared Class Environment, the setting to save/cancel labs when the Last Activity threshold is exceeded, is now unchecked. This will prevent participant labs from being cancelled when the Shared Environment is cancelled due to inactivity. 
+ 
+ 
+**LOD Improvements and Fixes**
+- Added a new IDLx replacement token that shows the region where a cloud resource group is deployed.
+- Activity Task Lists now list results in lab instance details page.
+- Fixed a bug that prevented the Override Client Landing Page from displaying when a cloud platform or virtualization platform was not configured on the lab profile. 
+- Fixed a bug that prevented a scored lab created via the save as function from properly inheriting scoring information.
+- Fixed a bug causing errors when viewing, modifying, or exporting lab manuals after exporting and importing an AWS lab series.
+- Fixed a bug that prevented the Enable Navigation Warning setting from working in some lab configurations. 
+
+## **Released November 6, 2020**
+
+**Support Chat**
+- Lab on Demand now has a support chat option on the Admin site, as well as in the lab client. Users can initiate a chat session with our Support Team. This feature is enabled by default for all organizations, but it can be disabled if needed from the organization profile. Chat transcripts are stored in a support ticket, and a copy is emailed to the user.
+
+**Lab on Demand legacy Flash and Silverlight Machine Remote Controllers Removed**
+
+Lab on Demand legacy Flash and Silverlight machine remote controllers have been removed. 
+
+- Any students still using Flash or Silverlight machine remote controller are encouraged to migrate to the HTML5 machine remote controller. Connectivity requirements for the HTML5 controller are available in our [Connectivity Requirements documentation](https://docs.learnondemandsystems.com/tms/connectivity-requires.md).
+
+**Disk Inspection Permission Adjusted**
+
+The permissions required to inspect disks in Lab on Demand have been adjusted. 
+- Inspection of a disk on a datacenter is now based on viewing rights on the datacenter.
+- Inspection of a disk on a file share is now based on viewing rights on the file share.
+- Inspection of a disk on a lab host is now based on viewing rights on the lab host.
+
+**API Consumer Configuration**
+- A new API Consumer configuration option has been added on API Consumer profiles for exams.
+
+**LOD Improvements and Fixes**
+- Mouse cursors in Hyper-V based labs will now dynamically change when resizing windows, while hovering over a text field, and selecting anchor points. 
+- More flexible API configurations by allowing presets to be adjusted.
+- Virtual machines can now be renamed when saving a new lab profile from a running lab instance.
+- Improved Task Tracking behavior when using in conjunction with Includes.
+- Updated verification message when deleting cloud subscriptions pools.
+- Fixed a bug that improperly appended title information to container labs.
+- Fixed a bug preventing ABA scripts from appearing in lab profiles created from the template gallery.
+
 ## **Released October 16, 2020**
 
 **Cloud Watchdog**

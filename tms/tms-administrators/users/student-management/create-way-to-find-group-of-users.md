@@ -5,7 +5,7 @@ isPublished: true
 
 # How can I create a way to find a group of users?
 
-> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+> Please be aware that not all functionality covered in this article may be available to you.
 
 If you are looking for a way to search for a group of users, then User Groups is the tool to use. You can name a group and apply it to a set of users. You can then use the group as a filter on Find pages and Choose dialogs for users. This can be a helpful tool to categorize your instructors or students.
 

@@ -54,9 +54,9 @@ Options on the Details View page include, but are not limited to:
 
 There may be other options available, such as Favorite, depending on the Details View page you are on. 
 
-## My labs
+## Dashboard
 
-The My Labs page contains all of your Lab on Demand activity. You can get to the My Labs page by clicking the button at the top of the page in LOD.
+The Dashboard page contains all of your Lab on Demand activity. You can get to the Dashboard page by clicking the button at the top of the page in LOD.
 
 This page includes, but is not limited to:
 
@@ -70,11 +70,19 @@ This page includes, but is not limited to:
 
 - **Recent Lab Instances**: lab instances for recent labs you have launched will be listed here. This includes labs that have been cancelled, completed, and saved. 
 
->[!KNOWLEDGE] Labs you create will not automatically appear on the My Labs page. You must add them as a favorite, launch, check out, or be assigned a lab series, to appear on this page.
+>[!KNOWLEDGE] Labs you create will not automatically appear on the Dashboard page. You must add them as a favorite, launch, check out, or be assigned a lab series, to appear on this page.
 
 ## News
 
 Click the News button at the top of the page in LOD, to navigate to the Lab on Demand Blog, where you can read about what's new in Lab on Demand. 
+
+## Roadmap
+
+Click the Roadmap button to view the Learn on Demand Systems roadmap. This shows recently released features, as well as upcoming features. 
+
+## Community
+
+Click the Community button to join our Learn on Demand Systems Slack community, where you can interact with other lab authors, get lab authoring ideas and tips, and hear about upcoming events and announcements.
 
 ## Help
 

@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I create a badge brovider in the TMS?
 
-> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
+> Please be aware that not all functionality covered in this and linked articles may be available to you.
 
 The Badge Provider entity in the TMS identifies and links to your external badge provider account. Your badges in the TMS will be associated with this badge provider. 
 

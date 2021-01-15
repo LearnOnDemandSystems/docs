@@ -6,6 +6,8 @@ ispublished: yes
 
 # How do I create a notification reminding a student when their course assignment will expire?
 
+> Please be aware that all functionality may not be available to you.
+
 1. Open notification plans, from Site Administration on the **Notifications** tile, select **Create Notification Plan**.
 1. Input a name and description for the notification.
 1. The trigger is the amount of time you set before the course assignment expires. The Trigger Event is **Course assignment expiration**.

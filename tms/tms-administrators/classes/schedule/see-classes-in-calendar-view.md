@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I see classes in a calendar view?
 
-> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+> Please be aware that functionality covered in this and linked articles may not be available to you.
 
 When classes are created, their sessions are scheduled and can be viewed in the organization's calendar. This way, an organization can see all classes for a month.
 

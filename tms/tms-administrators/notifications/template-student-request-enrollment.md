@@ -6,7 +6,9 @@ ispublished: yes
 
 # How do I create a notification to be sent to my organization’s staff when a student requests enrollment?
 
-*Students can only request enrollment when a class schedule has been made available to them.*
+> Please be aware that all functionality may not be available to you.
+
+> :small_blue_diamond: Students can only request enrollment when a class schedule has been made available to them.
 
 1. Open notification plans, from Site Administration on the **Notifications** tile, select **Create Notification Plan**.
 1. Input a name and description for the notification.

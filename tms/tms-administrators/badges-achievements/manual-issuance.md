@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I manually issue badges for my students?
 
-> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
+> Please be aware that not all functionality covered in this and linked articles may be available to you.
 
 As an administrator, with the proper permissions, you and your instructors can now manually issue badges to students. This allows you to add a badge to a student rather than only having badges issued automatically by meeting the requirements to earn an achievement. In these cases, you can set the badge to be manually issued and then you can issue the badge from the class' Roster or from individual course assignments.
 

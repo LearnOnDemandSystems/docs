@@ -5,11 +5,11 @@ isPublished: true
 
 # How do I create a custom field?
 
-[!Alert] Please be aware that not all functionality covered in this and the linked articles may be available to you.
+> Please be aware that not all functionality covered in this and the linked articles may be available to you.
 
 Custom fields are very useful when you need to track data that is not part of the standard TMS. The fields can be created for the following entities: courses, classes, users, subscription profiles, and tracks. 
 
-> [!ALERT] Because of the complexity and flexibility of custom fields, it is HIGHLY recommended that before you create any custom field in the production TMS environment, you test them with all affected roles in our TMS ACC environment to ensure they work as expected and do not block creation or editing of entities. To be set up in our ACC environment, please submit a support ticket from our [Customer Support](https://www.learnondemandsystems.com/customer-support/) page.
+> :small_blue_diamond: Because of the complexity and flexibility of custom fields, it is HIGHLY recommended that before you create any custom field in the production TMS environment, you test them with all affected roles in our TMS ACC environment to ensure they work as expected and do not block creation or editing of entities. To be set up in our ACC environment, please submit a support ticket from our [Customer Support](https://www.learnondemandsystems.com/customer-support/) page.
 
 To begin to create any custom field:
 1. On the **Admin** menu in the appropriate entity's group, click **"X" Custom Fields**. 

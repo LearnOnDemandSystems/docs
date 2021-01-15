@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I find a class that is in session?
 
-> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+> Please be aware that functionality covered in this and linked articles may not be available to you.
 
 You can view all classes in the TMS for your organization(s). By default, the Find Classes search is set to find all future classes for your organization(s). This means if the class is going to start in one minute or 5 weeks, the class will show in the search results. However, if the class has started already, it is considered to be in progress or started in the past. Because of this, you need to search for it differently.
 

@@ -5,7 +5,7 @@ isPublished: true
 
 # How can I use training keys to register students for classes?
 
-> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+:small_blue_diamond: Please be aware that not all functionality covered in this article may be available to you.
 
 Two types of training keys are available to directly enroll students into a class: 
 

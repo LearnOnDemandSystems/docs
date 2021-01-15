@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I view SCORM attempts by my students?
 
-> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+> Please be aware that not all functionality covered in this article may be available to you.
 
 When you need to know if or when students have attempted a SCORM module, you can use the Find SCORM Attempts search page. This page allows you to see all SCORM attempts made by your students. You can narrow the search to specific attempts based on a student's name, the SCORM module's name, the status, a time period. etc.
 

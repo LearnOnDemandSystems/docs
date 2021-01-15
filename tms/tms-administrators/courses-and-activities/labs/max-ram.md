@@ -5,7 +5,7 @@ isPublished: true
 
 # What does it mean when I get a 'Max RAM settings' warning when adding a lab to a course?
 
-> [!Alert] Please be aware that not all functionality covered in this article may be available to you. 
+> Please be aware that not all functionality covered in this article may be available to you. 
 
 To ensure LODS maintains a high level of availability for labs, organizations have limits on the size of lab they can add to their courses. This limit may vary based on the type of lab. If the RAM of a lab you are adding to a course exceeds the limit for your organization for that type of lab, you will receive the following message upon the addition of the lab:
 

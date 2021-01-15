@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I create a discussion and attach it to a course?
 
-> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you. 
+> Please be aware that not all functionality covered in this and linked articles may be available to you. 
 
 A well-thought out discussion can encourage and increase student interaction and learning. Any user with the **Operations Manager** role can create and manage discussions for your organization or assign supplemental roles for creating or moderating discussions. 
 
@@ -33,7 +33,7 @@ To attach to a course:
 1. Save the course.
 Once a Discussion is attached to a course, a link becomes visible to end users with participant permissions on the Course profile page as well as all Class, Class Enrollment, and Course Assignment profile pages using the course. 
 
-> [!NOTE] If the course is available to multiple organizations, users in those organizations will be able to access and post to the discussion board from the same pages as users in the owning organization.
+> :Small_blue_diamond: If the course is available to multiple organizations, users in those organizations will be able to access and post to the discussion board from the same pages as users in the owning organization.
 
 ## Related Articles
 

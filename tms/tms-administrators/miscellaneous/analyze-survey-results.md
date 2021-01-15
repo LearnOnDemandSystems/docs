@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I export survey responses and analyze them in Excel?
 
-> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+> Please be aware that functionality covered in this article may not be available to you.
 
 When you need to analyze the responses to a survey you have attached to a course or classes, you can export the responses to a CSV file for analysis in Excel or other programs. 
 
@@ -71,7 +71,7 @@ To add a **PivotTable**:
 
 ![](/tms/images/survey-insert-pivottable.png)
 
-> [!NOTE] The following steps may differ depending on your needs and the way your questions are configured in your survey.
+> The following steps may differ depending on your needs and the way your questions are configured in your survey.
 
 1. In the **PivotTable Fields** menu box, check and drag **Instructor** to the **Columns** area at the bottom of the menu box.
 1. Check and drag **Question** to the **Filters** (or **Rows**) area.
@@ -83,7 +83,7 @@ Click the dropdown on **Count of Responses** and select **Value Field Settings**
 1. Click **OK** again to close the **Value Field Settings** dialog.
 1. In the table, click the filter dropdown next to **Question**, and select the knowledge question and click **OK**.
 
-> [!NOTE] When using the Average summary for the Values, all data must be numerical. When a data point is not numerical, its value is ignored. If all data points are text, you will receive a #DIV/0! Error in that cell as can be seen in the screenshot for Andy Barkl. In this case, the Response scale has numbers except for 1 and 10, which are “1 Not effective” and “10 Effective”. Andy received all “10 Effective” responses to a couple of items and thus you see the error.  
+> :small_blue_diamond: When using the Average summary for the Values, all data must be numerical. When a data point is not numerical, its value is ignored. If all data points are text, you will receive a #DIV/0! Error in that cell as can be seen in the screenshot for Andy Barkl. In this case, the Response scale has numbers except for 1 and 10, which are “1 Not effective” and “10 Effective”. Andy received all “10 Effective” responses to a couple of items and thus you see the error.  
 
 ![](/tms/images/survey-results-pivottable.png)
 

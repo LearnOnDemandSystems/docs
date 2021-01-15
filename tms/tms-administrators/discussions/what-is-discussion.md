@@ -5,7 +5,7 @@ isPublished: true
 
 # What is a discussion and how can I use it to increase student interaction in their learning?
 
-> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you. 
+> Please be aware that not all functionality covered in this and linked articles may be available to you. 
 
 A Discussion is a great feature for enhancing learning by giving students and instructors a place to hold asynchronous, topic-structured conversations regarding a course. A Discussion contains topics that guide the conversation. When it is added to a course, a person with access to the course, its classes or course assignments may participate if they have the prerequisite permissions. Without the permissions, the discussion is not seen.
 

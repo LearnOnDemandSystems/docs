@@ -43,7 +43,7 @@
 | Portal Link       |  `<[text to display](URL)`     | 
 | Image Link        |  `image[text to display](URL)`| 
 | Video Link        |  `video[text to display](URL)`| 
-| Image Dimensions  | `![](image url){heightXwidth}` or `{height}` (width will be calculated automatically) |
+| Image Dimensions  | `![](image url){widthXheight}` or `{width}` (height will be calculated automatically) |
 |<BR> | |
  |<font size="3">**Special**</font>|                                          |
 | Knowledge Block        | `>[!knowledge] Knowledge blocks help students learn more` |
@@ -57,7 +57,7 @@
 | Copyable and Type Text         | `++++Copyable and Type text++++`|
 | Replacement Token | `click the @ lab toolbar button ` |
 | Embed YouTube video | `!video[text to display](url)` (URLs from YouTube.com auto embed)               |
-| Sections |`:::sectionName(variableName-variabelValue)`
+| Sections |`:::sectionName(variableName-variableValue)`
 || `section text or markdown elements`
 ||`:::`
 |<BR> | |

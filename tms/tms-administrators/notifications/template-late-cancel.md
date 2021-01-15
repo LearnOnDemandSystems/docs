@@ -6,7 +6,9 @@ ispublished: yes
 
 # How do I create a notification to be sent to a student who has cancelled their enrollment in the late cancellation window? 
 
-*If you want late cancellation set up, go to your Organization profile, select Edit, and go to the Preferences tab. Under Enrollment Settings you can set the late cancellation window, this is needed to trigger as a late cancellation.*
+> Please be aware that all functionality may not be available to you.
+
+> :small_blue_diamond: If you want late cancellation set up, go to your Organization profile, select Edit, and go to the Preferences tab. Under Enrollment Settings you can set the late cancellation window, this is needed to trigger as a late cancellation.
 
 1. Open notification plans, from Site Administration on the **Notifications** tile, select **Create Notification Plan**.
 1. Input a name and description for the notification.

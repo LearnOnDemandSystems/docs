@@ -5,6 +5,8 @@ isPublished: true
 
 # How do I disable class activities for all students?
 
+> :small_blue_diamond: Please be aware that functionality covered in this and linked articles may not be available to you.
+
 You can control when and if students have access to class activities, including labs, external links (video, document and/or website), assessments and SCORM modules (Note: Surveys cannot be disabled).
 
 Instructors can enable or disable any activity in classes they are assigned to teach, and Operations managers can disable activities in classes they manage. Enabling or disabling an activity applies that setting for all students in the class.

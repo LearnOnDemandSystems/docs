@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I create completion certificates?
 
-> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you.
+> Please be aware that functionality covered in this article may not be available to you.
 
 Course completion certificates can be added to the courses of your choice for your staff or your students to print. You can upload one or more certificate templates to associate with courses and these certificates are made available to users to print in the TMS. 
 
@@ -58,4 +58,4 @@ To add a certificate to a course:
 1. Check the boxes of all the certificate templates you wish to add to the course and click **OK**. 
 1. Click **Save** to update the course.
 
-> [!Alert] The **Short Name** of the course will be used as the name of the zipped file when the certificates are downloaded to print. As a result, the zipped file and its contents will not be able to be opened if there are any special characters in the **Short Name**.
+> :small_blue_diamond: The **Short Name** of the course will be used as the name of the zipped file when the certificates are downloaded to print. As a result, the zipped file and its contents will not be able to be opened if there are any special characters in the **Short Name**.

@@ -5,7 +5,7 @@ isPublished: true
 
 # How can I use training key pools for self-paced learning?
 
-> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+> Please be aware that not all functionality covered in this article may be available to you.
 
 Training key pools allow you to distribute keys to users for them to create self-paced course assignments. The pool gives access to one course, with multiple keys to distribute to different users. The user can take and re-take the training for as long as the course assignment is valid. This method is much more efficient than creating individual course assignments for each student if multiple course assignments are needed. With training key pools you can set the duration of access to content for students, designating that students have access to the course's labs for a limited amount of time.
 

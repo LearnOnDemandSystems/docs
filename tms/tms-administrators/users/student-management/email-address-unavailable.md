@@ -5,6 +5,8 @@ isPublished: true
 
 # What do I do if an email address is unavailable when I am creating a user account?
 
+> Please be aware that functionality covered in this and linked articles may not be available to you.
+
 When you are trying to create a user or instructor account and the email address you used shows as unavailable, this means the address has already been used.
 
 The first thing to do is to find the existing user account. 

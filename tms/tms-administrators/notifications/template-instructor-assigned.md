@@ -6,6 +6,8 @@ ispublished: yes
 
 # How do I create a notification to send when an instructor is added to a class?
 
+> Please be aware that all functionality may not be available to you.
+
 1. Open notification plans, from Site Administration on the **Notifications** tile, select **Create Notification Plan**.
 1. Input a name and description for the notification.
 1. The trigger is when an instructor has been added to a class. The Trigger Event is **Instructor assigned to class**.

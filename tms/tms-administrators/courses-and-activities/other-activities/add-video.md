@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I add videos to my course?
 
-> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you. 
+> Please be aware that not all functionality covered in this and linked articles may be available to you. 
 
 Course activities provide access to videos and other learning components in classes, course assignments, and learning paths. A video activity provides direct access to a stored video or one on the web. When the student clicks the Launch button on the activity, the video will open and begin to play. You control if it opens in new window or within a frame in the same window.
 

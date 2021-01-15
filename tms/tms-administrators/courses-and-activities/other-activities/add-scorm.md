@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I add SCORM modules to my course?
 
-> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you. 
+> Please be aware that not all functionality covered in this and linked articles may be available to you. 
 
 Course activities provide access to SCORM modules and other learning components in classes, course assignments, and learning paths. A SCORM module activity provides direct access to SCORM content that has been uploaded to a SCORM module (see [Related Articles](#related-articles) for information on uploading SCORM content). When the student clicks the Launch button on the activity, the SCORM content will open and begin to play. 
 

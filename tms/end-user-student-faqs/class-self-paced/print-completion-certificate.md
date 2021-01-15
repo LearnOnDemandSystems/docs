@@ -17,4 +17,4 @@ To print the completion certification:
 
 This will download a pdf of the certificate. Open the file on your local system to print it.
 
-> [!ALERT] If you do not have the permissions required to print your completion certifcate, please reach out to your learning organization for assistance.
+> :small_blue_diamond: Please note:  If you do not have the permissions required to print your completion certifcate, please reach out to your learning organization for assistance.

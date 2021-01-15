@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I find all the classes a student has ever been registered to take?
 
-> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+> Please be aware that not all functionality covered in this article may be available to you.
 
 There are a couple of ways to find all of a student's class registrations. You can find this from the either the student's User Profile or from Find Enrollments. From the User Profile page you can only find information related to one user, while through Find Enrollments you can search for information on any enrollment.
 

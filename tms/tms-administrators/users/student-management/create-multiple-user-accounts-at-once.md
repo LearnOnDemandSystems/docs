@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I create multiple user accounts at once?
 
-> [!Alert] Please be aware that not all functionality covered in this and the linked articles may be available to you.
+> Please be aware that not all functionality covered in this and the linked articles may be available to you.
 
 If you have several users you want to create and want to save time from doing them individually, you can use the Import Users feature. This will allow creating up to 10,000 users at a time through the use of a CSV (comma-separated values) formatted file. Guidance on this file and the required/optional fields are provided on the Import Users page.  
 
@@ -15,7 +15,9 @@ To create multiple users:
 1. Click **user import template** to download the template to build the CSV file for your users. 
 1. Once the file is built and the data is verified for accuracy, return to the **Import Users** page (if you have left it) and complete the fields at the top of the page. 
 
-> [!ALERT] IMPORTANT! These fields will apply to all users that are part of the import. If a subset of the users you wish to import do not match all the same field settings, you have two choices: 1) correct each of them after import or 2) do separate imports for user(s) that have different values. The following is a table explaining the fields to be completed: 
+> :small_blue_diamond: These fields will apply to all users that are part of the import. If a subset of the users you wish to import do not match all the same field settings, you have two choices: 1) correct each of them after import or 2) do separate imports for user(s) that have different values. 
+
+The following is a table explaining the fields to be completed: 
 
 | **Field** | **Explanation** |
 |:----- |:----- |

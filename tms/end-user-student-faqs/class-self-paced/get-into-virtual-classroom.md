@@ -22,7 +22,7 @@ From your **Current Training** page, under **Classes**, click the name of the cl
    * Click the checkbox to verify you have successfully entered the configuration room.
    * Click **Enter Classroom** to enter your classroom.
    
-    > [!KNOWLEDGE] Under the Pre-Class Preparation, you may see a countdown timer 8 hours before the class starts showing how long it will be before the virtual classroom can be launched. The Enter Classroom button will be available before class starts. 
+> :small_blue_diamond: Please note: Please note: Under the Pre-Class Preparation, you may see a countdown timer 8 hours before the class starts showing how long it will be before the virtual classroom can be launched. The Enter Classroom button will be available before class starts. 
 
 
 ## Instructor

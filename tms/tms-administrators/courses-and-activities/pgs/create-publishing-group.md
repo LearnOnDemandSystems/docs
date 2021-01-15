@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I create a Publishing Group?
 
-> [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you. 
+> Please be aware that not all functionality covered in this and linked articles may be available to you. 
 
 Publishing groups are the way to grant access to other organizations to consume your content for their training. Creating a publishing group and making it available to others is a multi-step process that will include coordination with LODS. This article will cover how to build a basic publishing group with no content or published organizations; adding courses and published organizations will be covered in other articles.
 

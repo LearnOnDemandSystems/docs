@@ -5,7 +5,7 @@ isPublished: true
 
 # What are custom fields?
 
-> [!Alert] Please be aware that not all functionality covered in this and the linked articles may be available to you.
+> Please be aware that not all functionality covered in this and the linked articles may be available to you.
 
 Custom fields are fields that you create just for your organization to track data that is not a standard part of the TMS. There are 6 different types of fields and they can be created for each of the following entities:
 - Courses
@@ -19,7 +19,6 @@ A unique relationship can be enabled between a custom field on a course and a cl
 Class custom fields take cloned classes into consideration. You can set the data from a class custom field to be included in the new class when the original class is cloned. This option can be a filter and/or output option on the Find Custom Fields page. In addition, class custom fields are displayed as columns on the Class History page if they have data in them.
 
 Permissions are required to create, view, and edit these fields. Once they are created, they are visible on the Create and Edit pages of the entities.
-
 
 The 6 types of custom fields are:
 - **Text Box** – plain text. You set the maximum character limit.
@@ -37,7 +36,7 @@ Here are some examples of how you might use each type:
 - **User Selector** - the SME for the course; the sales rep responsible for the class; a mentor; etc.
 - **Checkbox List** – related yes/no items such as possible characteristics, eligible user groups, main languages spoken/read, etc.
 
-> [!ALERT] Because of the complexity and flexibility of custom fields, it is HIGHLY recommended that before you create any custom field in the production TMS environment, you test them with all affected roles in our TMS ACC environment to ensure they work as expected and do not block creation or editing of entities. To be set up in our ACC environment, please submit a support ticket from our [Customer Support](https://www.learnondemandsystems.com/customer-support/) page.
+> :small_blue_diamond: Because of the complexity and flexibility of custom fields, it is HIGHLY recommended that before you create any custom field in the production TMS environment, you test them with all affected roles in our TMS ACC environment to ensure they work as expected and do not block creation or editing of entities. To be set up in our ACC environment, please submit a support ticket from our [Customer Support](https://www.learnondemandsystems.com/customer-support/) page.
 
 ## Related Articles
 For more information regarding custom fields, please see:

@@ -6,6 +6,8 @@ isPublished: true
 
 # How do I set up a course to enable assigning class activities to different students?
 
+> Please be aware that functionality covered in this and linked articles may not be available to you.
+
 You can assign specific class activities to each student, enabling them to see and access their assigned activities while other students may see and access different activities. This is helpful for classes where sets of class activities should be completed by different students, like classes using a shared lab environment. 
 
 A course must be set up for Instructor-led training and then any activity in the course can be set to assign manually to students; all activity types can be set to manual assignment. When the course is used to create a class, operations managers and instructors can manage the activities to assign or unassign them to one or more students within the class. 

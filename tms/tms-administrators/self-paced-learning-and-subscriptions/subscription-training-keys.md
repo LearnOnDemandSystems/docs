@@ -5,7 +5,7 @@ isPublished: true
 
 # How can I use subscription training keys for self-paced learning?
 
-> [!Alert] Please be aware that not all functionality covered in this article may be available to you.
+> Please be aware that not all functionality covered in this article may be available to you.
 
 Subscription keys are a method to automatically assign a subscription to a user. Keys are aligned to a subscription, and subscriptions allow you to group together multiple courses in one package to assign to students for a specified length of time. Students then have on demand access to the courses and can choose which content they would like to consume.
 

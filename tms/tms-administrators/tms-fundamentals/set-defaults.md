@@ -6,7 +6,7 @@ isPublished: true
 
 # How do I set defaults for my site?
 
-> :small_blue_diamond: Please be aware that functionality covered in this and linked articles may not be available to you.
+> Please be aware that functionality covered in this and linked articles may not be available to you.
 
 Creating users, classes, and courses have fields allowing organizations to choose their own default values. The default value automatically displays when you are creating a new entity, and each of these items can be revised as needed. You can set defaults through Organization Preferences.
 
