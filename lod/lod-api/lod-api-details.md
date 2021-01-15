@@ -190,7 +190,7 @@ CloudPlatform|Integer|No| The ID of the cloud platform to which the credentials 
 |DisplayScriptsAsTaskList|Boolean|Yes| Whether automated activities are scored as a TaskList or individually.|
 |AnswerResults|Array|Yes|A collection of the answers available in single-answer activities|
 |AnswerTexts|Array|Yes|A collection of the answers available in multi- answer activities|
-|ScriptResults|Array|Yes|A collection of the results of the an automated activity. Includes Script ID, Score, Passing Status, UiResponse, ScriptResponse, PlatformError, and ScriptError.|
+|ScriptResults|Array|Yes|A collection of the results of the an automated activity. Includes Script ID, Score, Passing Status, UiResponse and ScriptResponse.|
 |ScriptTexts|Array|Yes|The Activity ID and Text displayed in the Task List if  Task List is enabled on the activity.|
 
 
