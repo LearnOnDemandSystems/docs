@@ -122,7 +122,7 @@ The **Details** command retrieves detailed information about a specified lab ins
 |VirtualMachineCredentials|Array|Yes|An array of credentials used to access the virtual machines. See the VirtualMachineCredentials Type below. |
 |ClientUrl|String|No|The URL at which a student may access their lab instance.|
 |ActivityResults|Array of ActivityResults|Yes|An array of results for activities displayed in the lab instance. See the ActivityResults Type below.|
-|EstimatedReadySeconds|Integer|No|An estimaated number of seconds before the lab is ready.|
+|EstimatedReadySeconds|Integer|No|An estimated number of seconds before the lab is ready.|
 |Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
 ## LabInstanceSnapshot
@@ -190,7 +190,7 @@ CloudPlatform|Integer|No| The ID of the cloud platform to which the credentials 
 |DisplayScriptsAsTaskList|Boolean|Yes| Whether automated activities are scored as a TaskList or individually.|
 |AnswerResults|Array|Yes|A collection of the answers available in single-answer activities|
 |AnswerTexts|Array|Yes|A collection of the answers available in multi- answer activities|
-|ScriptResults|Array|Yes|A collection of the results of the an automated activity. Includes Script ID, Score, Passing Status, UiResponse and ScriptResponse.|
+|ScriptResults|Array|Yes|A collection of the results of the an automated activity. Includes Script ID, Score, Passing Status, UiResponse, ScriptResponse, PlatformError, and ScriptError.|
 |ScriptTexts|Array|Yes|The Activity ID and Text displayed in the Task List if  Task List is enabled on the activity.|
 
 
