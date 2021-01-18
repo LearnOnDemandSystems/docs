@@ -17,7 +17,7 @@
 
 ## Basic Information 
 
-**1**. **Number:** Numbers are used in the title of the lab profile. 
+1. **Number:** Numbers are used in the title of the lab profile. 
 1. **Name:** This will be the display name of the lab profile.
 1. **Series:** Select the lab series that the lab profile will be associated with.
 1. **Organization:** Select the organization that will own the lab profile and be responsible for maintaining the profile. 
