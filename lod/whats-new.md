@@ -9,6 +9,47 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## **Released January 16, 2021**
+
+**Activity Based Assessment Outcomes**
+Outcomes offer adaptive learning experiences based on the result of an automated activity or question. This allows lab authors to provide additional guidance if a student were to answer a question incorrectly, or move the student forward at an expedited pace if the student answers correctly. An outcome consist of an event, condition, action, and target. 
+
+- Event: When a question is Answered or Evaluated, or when a script is Evaluated.
+- Conditions: 
+	- Correct
+	- Incorrect
+	- Correct or Incorrect
+	- Answer = (Question only)
+	- Score Value =
+	- Score Value >
+	- Score Value >= 
+	- Score Value <
+	- Score Value <=
+- Actions: Can set either a variable or progress the student to a different page within the lab.
+- Target: The variable to set or page number the student will be forwarded to.
+
+**AWS Service**
+- Cloud Formation Deployments will now reflect of the name of the Cloud Formation Template, allowing for custom naming. Special characters will be removed and spaces replaced with short dashes.
+- AWS *Retry Cleanup* will now use the same logic to renew the account as when a lab is torn down.
+- There is now an AWS Bulkhead Status display at the top of the AWS host page. This shows current operations impacting the AWS host.
+- Fixed a naming conflict when using two AWS cloud formation templates in the same stack
+
+**Automated Activity Output**
+- Automated Activities now have the option to disable output to the lab user. This feature will default to showing output to the user, but can be disabled, so that the user only sees the Correct/Incorrect Answer Feedback.
+- When a script fails due to a scripting error or platform error, we will now note it on the lab instance details page. It is also available under ActivityResults > ScriptResults in the lab Details API call.
+
+**LOD Improvements and Fixes**
+- Cloud resource groups will be checked by default when creating a lab profile using inheritance.
+- When creating a lab profile from the template gallery, the org selection will now default to the first org managed by the lab developer.
+- Updated the error message for labs left in a starting state for more than thirty minutes.
+- Added a feature that allows admins to edit the number of days a lab may be saved for individual lab instances.
+- The automatically prompt user to extend time feature now honors an organizations "Maximum Lab Extension Hours" value.
+- URL encoding in IDLx will no longer under certain circumstances double encode image titles and links.
+- Fixed a bug that prevented subsequent labs from launching against an AWS account after a nearly blank lab is torn down.
+- Assigning a background cloud deployment now persists when adding a resource template simultaneously.
+- Fixed a bug that prevented API Consumers with LTI 1.3 integration from correctly provisioning a JWK based on the Client ID.
+- Incoming LTI 1.3 tokens will now be recorded to the lab instance details page for better visibility.
+
 ## **Released December 4, 2020**
 
 **External Instruction Service**
@@ -295,7 +336,7 @@ External instruction source has been updated with performance enhancements for t
 - Fixed a bug that hid the _Allow Setting Expiration Time_ drop-down menu when creating new lab profiles.
 - Fixed a bug that prevented lab developers from adding VM profiles to a lab profile when the number of vCPUs did not exceed the limit.
 - Fixed a bug that resulted in some extraneous text displayed next to the Force Check In link in the instruction editor.
-
+<!--
 ## **Released July 10, 2020**
 
 **Multi-fabric Sequencing**
@@ -601,7 +642,7 @@ Many accessibility improvements have been made to the lab client resulting in an
 - Fixed a bug that prevented Last Activity and Last Console Sync from periodically 
 
 ---
-<!--
+
 ## **Released February 14, 2020**
 
 **Save As for Access Control Policies and Resource Templates**
