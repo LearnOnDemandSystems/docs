@@ -1,7 +1,7 @@
 ---
 title: "Upgrade IDL (legacy) to IDLx"
 description: "This document assists in upgrading an IDL (legacy) lab to IDLx."
-isPublished: true
+isPublished: false
 ---
 
 # Upgrade IDL (legacy) to IDLx
