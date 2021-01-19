@@ -26,7 +26,7 @@
       <div class="category"> 
         <a href="/lod/code-lab.md" class="categoryThread">
           <i class="material-icons blue" aria-hidden="true">bookmarks</i>
-          <span class="categoryTitleFeatured" title="Code Labs">PBT Overview</span>
+          <span class="categoryTitleFeatured" title="Code Labs">Code Labs</span>
           <span class="categoryDescription" title="Code Lab Authoring explained. Glossary of terms and walkthrough for creating your first code lab.">Code Lab Authoring explained. Glossary of terms and walkthrough for creating your first code lab.</span>
         </a>
       </div>
