@@ -12,7 +12,8 @@ On the URL provided to you:
 1. This opens My Training page. Click **Redeem Training Key**.
 1. Enter the training key or code that you received, and click **Redeem Training Key**.
 
-    > You should now be returned to your Current Training page, with your course added. 
+    > You your training assignment will open.
 
-1. Click the **course name** and your labs will display under the **Activities** section.
 1. Click **Launch** next to the lab you want to start.
+
+>:small_orange_diamond: [View a video on redeeming a training key.](https://youtu.be/mE5rCfADc_I) 
