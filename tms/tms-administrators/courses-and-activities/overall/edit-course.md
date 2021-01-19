@@ -6,22 +6,15 @@ isPublished: True
 
 # When can I edit a course?
 
-> Please be aware that functionality covered in this and linked articles may not be available to you.
+:small_blue_diamond: Please be aware that functionality covered in this and linked articles may not be available to you.
 
-Courses created by an organization are open for editing to users with course creation permissions. All fields, activities, and settings can be edited before any training events use the course. Once a class or a course assignment has started, the course fields available for editing are limited for the life of the course. This limitation is in place to meet with Learn on Demand Systems billing procedure.
+Courses created by an organization are open for editing to users with course creation permissions. All fields, activities, and settings can be edited before any training events use the course. Once a class or a course assignment has started, the course lab activities are limited for the life of the course. This limitation is in place to meet with Learn on Demand Systems billing procedure.
 
-Editing a course profile is restricted when training aligned with the course is in progress. From the time a class or course assignments starts editing of the related course profile is restricted to the following:
-* Course name
-* Short name 
-* Version
-* Description
-* HTML Description
-* Auto Archive
-* Archive
+Editing a course profile is restricted when training aligned with the course is in progress. From the time a class or course assignments starts editing of the related course profile is restricted so that lab activities cannot be added or removed.
 
-If you edit a course after any training has started, a message displays stating: This course has been used for a class or a course assignment and some fields cannot be changed. If you need to update the content, we recommend using the **Save As** button to [clone the course](/tms/tms-administratots/courses-and-activities/overall/clone-course.md) creating a new version of the course for future deliveries.
+If you edit a course after any training has started, a message displays stating: This course has been used for a class or a course assignment and some fields cannot be changed. If you need to update the content, we recommend using the **Save As** button to [clone the course](/tms/tms-administratots/courses-and-activities/overall/clone-course.md) create a new version of the course for future deliveries.
 
-To access all course features for editing, edit the course and select the **Save As** button. This creates a duplicate course profile and opens a dialog box to name the new course. The new course has all fields, activities, and settings open for editing; it can be updated and saved. Future deliveries of classes and course assignments can be created using the new course profile.
+To make changes to the lab activities in the course, edit the course and select the **Save As** button. This creates a duplicate course profile and opens a dialog box to name the new course. The new course has all fields, activities, and settings open for editing; it can be updated and saved. Future deliveries of classes and course assignments can be created or updated using the new course profile.
 
 Changes needed for a class in progress can be made by cloning the course and making the needed changes. The [class in progress can also be cloned] (/tms/tms-administrators/classes/schedule/clone-class.md), the course changed to the new course and saved. On the roster you can use the **Add Students from Event** link to choose the original class and add all those students as enrolled. 
 
