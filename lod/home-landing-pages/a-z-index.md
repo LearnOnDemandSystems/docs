@@ -62,6 +62,10 @@
         <div class="subtopic_title">Cloud Slice Setup Guide</div>
         <div class="subtopic_description">Comprehensive setup guide for configuring a Cloud Slice lab with Lab on Demand and Microsoft Azure or Amazon Web Services.</div>
       </a>
+      <a class="subtopic_link" href="/lod/code-lab.md">
+        <div class="subtopic_title">Code Labs</div>
+        <div class="subtopic_description">Code Lab Authoring explained. Glossary of terms and walkthrough for creating your first code lab.</div>
+      </a>      
       <a class="subtopic_link" href="/tms/connectivity-requires.md">
         <div class="subtopic_title">Connectivity Requirements</div>
         <div class="subtopic_description">Connectivity requirements, bandwidth requirements and firewall rules for labs. </div>

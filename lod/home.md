@@ -1,4 +1,4 @@
-<style>
+<style>    
     h1:first-of-type {margin-top:0;}
 </style>
 
@@ -24,10 +24,10 @@
         </a>
       </div>
       <div class="category"> 
-        <a href="/lod/pbt/overview.md" class="categoryThread">
+        <a href="/lod/code-lab.md" class="categoryThread">
           <i class="material-icons blue" aria-hidden="true">bookmarks</i>
-          <span class="categoryTitleFeatured" title="PBT Overview">PBT Overview</span>
-          <span class="categoryDescription" title="Overview of Lab on Demand supported scoring methods.">Overview of Lab on Demand supported scoring methods.</span>
+          <span class="categoryTitleFeatured" title="Code Labs">PBT Overview</span>
+          <span class="categoryDescription" title="Code Lab Authoring explained. Glossary of terms and walkthrough for creating your first code lab.">Code Lab Authoring explained. Glossary of terms and walkthrough for creating your first code lab.</span>
         </a>
       </div>
       <div class="viewAll"><a href="/lod/home-landing-pages/featured-landing.md" tabindex="0" class="viewAllLink" title="View all" aria-label="View all Featured Posts">View all</a></div>

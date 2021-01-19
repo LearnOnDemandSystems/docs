@@ -17,6 +17,7 @@ Code Labs are a lab platform type with a code editor user interface (UI) in the 
 - [Building Your First Code Lab](#building-your-first-code-lab)
     - [Running the Default Lab](#running-the-default-lab)
     - [Building Your Lab](#building-your-lab)
+    - [Code Editor in a Launched Lab](#code-editor-in-a-launched-lab)
 
 ## Code Lab Dialog
 
@@ -79,6 +80,7 @@ A Code Language is a specific programming language. Code labs can have multiple 
 
    >[!knowledge] Please note that this default setup has a completed function "MyFunction" in the Template field. When you create your lab MyFunction will be empty, and the code inside will be written by the student.
 
+
 ## Building Your Lab
 
 1. Now we will start writing our lab. This example will be a Leap Year Calculator which outputs how many leap years have occurred since the given input year. 
@@ -140,4 +142,27 @@ A Code Language is a specific programming language. Code labs can have multiple 
 
 1. Submit the Code and you will see the results of the tests you created before. Success! 
 
-## Congratulations, you've created your first code lab!
+Congratulations, you've created your first code lab!
+
+## Code Editor in a Launched Lab
+
+When the lab is launched, the lab user will see a code editor on the left and instructions on the right. Under the Code Editor, there are multiple sections to show Tests, Custom Tests, Output and Errors. There is also buttons to reset the code and submit the code. 
+
+![](images/code-editor.png)
+
+- **Language**: select the language to use. This drop-down list will be populated with languages based on the language specific settings that were configured during lab authoring. 
+
+- **Tests**: after the student submits their code, this will display the results of the tests that were configured during lab authoring. 
+
+- **Custom Tests**: create custom unit tests. After clicking _Custom Tests_, click _Edit Tests_. The next screen will allow you to configure custom unit tests. Unit Tests are configured with 1 input and 1 output. 
+
+- **Output**: this will display the output of the program's code. This displays the input, expected output, the actual output and if the code is correct or incorrect. 
+
+- **Errors**: this will display any errors that occur as a result of the code written in the code editor. 
+
+- **Score**: after code is submitted, a score will be displayed based on the code that was submitted compared to the test that was configured. 
+
+- **Reset Code**: If the lab user entered any code, this will remove it and reset the code back to the template code that was configured during lab authoring. 
+
+- **Submit Code**: submits the code for evaluation against the tests configured. 
+
