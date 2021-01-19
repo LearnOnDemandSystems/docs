@@ -80,7 +80,6 @@ A Code Language is a specific programming language. Code labs can have multiple 
 
    >[!knowledge] Please note that this default setup has a completed function "MyFunction" in the Template field. When you create your lab MyFunction will be empty, and the code inside will be written by the student.
 
-
 ## Building Your Lab
 
 1. Now we will start writing our lab. This example will be a Leap Year Calculator which outputs how many leap years have occurred since the given input year. 
