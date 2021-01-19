@@ -13,8 +13,13 @@ You’ve come to the right place! View the Get Started information below if you 
 To get setup in the TMS and create your first class, you will need to: 
 
 1. [Create an organization and user account](https://alh.learnondemand.net/Organization/Register/2069) in the TMS by registering with your Arvato Customer Number. After registration, you will automatically be are logged into the TMS and, vouchers from Courseware Marketplace will sync to your organization in the TMS.  
-1. [Create class(es)](https://docs.learnondemandsystems.com/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md) with lab vouchers. A voucher is equivalent to your online lab purchase. For example, if you purchased 20 online labs through Courseware Marketplace, you will see 20 vouchers in the TMS available which you can redeem to schedule 20 students in a class. 
-1. [Create training keys](https://docs.learnondemandsystems.com/tms/arvato-marketplace/fulfilling-marketplace-order/enroll-students-in-class.md) for your students to self-register in the class. After setting up training keys, send the training keys and [self-registration instructions](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md) to your students.  
+>:small_orange_diamond: [View a video on creating your organization and user account](https://youtu.be/DpzAt0oNzwU) 
+
+2. [Create class(es)](https://docs.learnondemandsystems.com/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md) with lab vouchers. A voucher is equivalent to your online lab purchase. For example, if you purchased 20 online labs through Courseware Marketplace, you will see 20 vouchers in the TMS available which you can redeem to schedule 20 students in a class. 
+>:small_orange_diamond: [View a video on creating your class.](https://youtu.be/DpzAt0oNzwU) 
+
+3. [Create training keys](https://docs.learnondemandsystems.com/tms/arvato-marketplace/fulfilling-marketplace-order/enroll-students-in-class.md) for your students to self-register in the class. After setting up training keys, send the training keys and [self-registration instructions](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md) to your students.  
+>:small_orange_diamond: [View a video on creating enrollments and training keys.](https://youtu.be/JDHKsGMrYIY) 
 
 ## Related Articles
 
