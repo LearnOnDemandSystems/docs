@@ -12,7 +12,9 @@ The **Resume** command allows you to resume a specified lab instance.
 
 |Property|Type|Nullable|Note|
 |--- |--- |--- |--- |
-|Result|Integer|False|0 = Error            1 = Success
+|Result|Integer|False||
+||||0 = Error            
+||||1 = Success
 ||||2 = User has too many active labs
 ||||3 = Insufficient host resources
 ||||5 = API integration has too many active labs
