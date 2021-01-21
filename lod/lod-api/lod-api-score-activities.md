@@ -14,7 +14,7 @@ This command does not return scoring results. To obtain scoring results, use the
 
 |Property|Type|Nullable|Note|
 |--- |--- |--- |--- |
-| Success | Boolean | No |
+| Status | Integer | No |
 |Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
 ## Example Usage
