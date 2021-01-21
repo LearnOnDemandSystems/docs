@@ -28,7 +28,6 @@ https://labondemand.com/api/v3/scoreactivities?labinstanceid=4449999
 
 ```linenums
 {
-    "Success": true,
     "Status": 1,
     "Error": null
 }
