@@ -33,7 +33,7 @@ Click to go to a specific section, or continue reading to learn more about creat
     - [Automated Activity Syntax](#automated-activity-syntax)
     - [Automated Activity Creation](#automated-activity-creation)
     - [Automated Activity Output](#automated-activity-output)
-    - [Activity Based Assessment Outcomes](#-activity-based-assessment-outcomes)
+    - [Activity Based Assessment Outcomes](#activity-based-assessment-outcomes)
     - [Automated Activity Best Practices and Guidelines](#automated-activity-best-practices-and-guidelines)
     - [Automated Activity Notifications and Variables](#automated-activity-notifications-and-variables)
     - [Example Automated Activities](#example-automated-activities)
