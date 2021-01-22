@@ -225,8 +225,6 @@ Set-ActivityResult -Correct -Message 'You got it!'
 
 When the student clicks the button in the lab to trigger the automated activity, the script will capture a list of running services and store them on the lab instance details page, and will display "You got it!" to the student in the lab. 
 
-### Activity Based Assessment Outcomes 
-
 !INSTRUCTIONS[](aba-outcomes.md)
 
 ### Automated Activity Best Practices and Guidelines
