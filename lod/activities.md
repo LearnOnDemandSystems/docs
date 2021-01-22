@@ -33,6 +33,7 @@ Click to go to a specific section, or continue reading to learn more about creat
     - [Automated Activity Syntax](#automated-activity-syntax)
     - [Automated Activity Creation](#automated-activity-creation)
     - [Automated Activity Output](#automated-activity-output)
+    - [Activity Based Assessment Outcomes](#-activity-based-assessment-outcomes)
     - [Automated Activity Best Practices and Guidelines](#automated-activity-best-practices-and-guidelines)
     - [Automated Activity Notifications and Variables](#automated-activity-notifications-and-variables)
     - [Example Automated Activities](#example-automated-activities)
@@ -63,9 +64,9 @@ Automated Activities are PowerShell Windows command Shell Shell scripts that tar
 
 - The VM must support Hyper-V PowerShell Direct. There are no additional steps to install or configure PowerShell Direct, but the VM must support it. 
 
->[!knowledge] PowerShell Direct can be used to remotely manage a Windows 10, Windows Server 2016, or Windows Server 2019 virtual machine from a Windows 10, Windows Server 2016, or Windows Server 2019 Hyper-V host. 
->
->PowerShell Direct allows Windows PowerShell management inside a virtual machine regardless of the network configuration or remote management settings on either the Hyper-V host or the virtual machine. This makes it easier for Hyper-V Administrators to automate and script virtual machine management and configuration. For more information about PowerShell Direct, read [Manage Windows virtual machines with PowerShell Direct](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/manage/manage-windows-virtual-machines-with-powershell-direct).
+    >[!knowledge] PowerShell Direct can be used to remotely manage a Windows 10, Windows Server 2016, or Windows Server 2019 virtual machine from a Windows 10, Windows Server 2016, or Windows Server 2019 Hyper-V host. 
+    >
+    >PowerShell Direct allows Windows PowerShell management inside a virtual machine regardless of the network configuration or remote management settings on either the Hyper-V host or the virtual machine. This makes it easier for Hyper-V Administrators to automate and script virtual machine management and configuration. For more information about PowerShell Direct, read [Manage Windows virtual machines with PowerShell Direct](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/manage/manage-windows-virtual-machines-with-powershell-direct).
 
 - Linux:
 
@@ -195,9 +196,10 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
 - **Incorrect answer feedback**: this will be displayed to the user upon entering or selecting a incorrect answer to a question. 
 
 - **Script 1**:
-    - **Score Value**: the score value the student will recieve for completing the Activity correctly. This score contributes to their overall score in the lab.
     - **Target**: the virtual machine or cloud subscription that the script will target. Cloud subscriptions must be targeted by PowerShell, and virtual machines running on Hyper-V or VMware can be targeted by PowerShell or Windows Command Shell. Linux-based VMs running Hyper-V or VMware can be targeted by Bash.
     - **Language**: the scripting language that will be used. PowerShell, Windows Command Shell, and Bash are supported. Enabling Bash scripting or terminal connections will not take effect on running lab instances, users will have to relaunch their lab.
+    - **Score Value**: the score value the student will recieve for completing the Activity correctly. This score contributes to their overall score in the lab.
+    - **Show Output To User**: this will show the output of the script to the user when enabled. If this is not enabled, the user will be shown the Correct Answer Feedback or the Incorrect Answer Feedback. 
     - **Script**: enter the script that will be executed. @lab replacement tokens that are used in scripts will be replaced in the lab instructions when the lab is launched.
 
     - **New Script**: click to add an additional script to this Activity. The new script will be represented by a button, in a Task List. 
@@ -222,6 +224,10 @@ Set-ActivityResult -Correct -Message 'You got it!'
 ```
 
 When the student clicks the button in the lab to trigger the automated activity, the script will capture a list of running services and store them on the lab instance details page, and will display "You got it!" to the student in the lab. 
+
+### Activity Based Assessment Outcomes 
+
+!INSTRUCTIONS[](aba-outcomes.md)
 
 ### Automated Activity Best Practices and Guidelines
 
