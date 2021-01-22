@@ -1,3 +1,9 @@
+---
+title: "ABA Outcomes"
+description: "Outcomes offer adaptive learning experiences based on the result of an automated activity or question."
+isPublished: true
+---
+
 # Activity Based Assessment Outcomes
 
 Activity Based Assessments (ABA) Outcomes offer adaptive learning experienced based on the result of an automated activity or a question activity. This allows lab authors to provide additional guidance based on how a student interacts with an activity in the lab instructions.  For example, an ABA could be configured to direct the lab user to more learning resources if they do not answer an ABA correctly, or they could be directed to a page further in the lab instructions if they do not need the additional learning material. 
