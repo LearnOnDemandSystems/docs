@@ -18,6 +18,10 @@
   <div class="subtopic selected">
     <div id="header_1" class="subtopic_header" tabindex="0" title="A-Z Help Docs" role="button" aria-selected="true" selected>A-Z Help</div>
     <div id="body_1" class="subtopic_links">
+      <a class="subtopic_link" href="/lod/aba-outcomes">
+        <div class="subtopic_title">Activity Based Assessment Outcomes</div>
+        <div class="subtopic_description">Outcomes offer adaptive learning experiences based on the result of an automated activity or question.</div>
+      </a>
       <a class="subtopic_link" href="/lod/access-control-lists.md">
         <div class="subtopic_title">Access Control Lists</div>
         <div class="subtopic_description">Controls which websites can be accessed in the lab, by using blacklists and whitelists.</div>
@@ -237,10 +241,6 @@
       <a class="subtopic_link" href="/lod/lod-themes.md">
         <div class="subtopic_title">Themes</div>
         <div class="subtopic_description">Create themes to customize the look and feel of labs using CSS, and JavaScript.</div>
-      </a>
-      <a class="subtopic_link" href="/lod/idlx-migration-guide.md">
-        <div class="subtopic_title">Upgrade IDL (legacy) to IDLx</div>
-        <div class="subtopic_description">This document assists in upgrading an IDL (legacy) lab to IDLx.</div>
       </a>
       <a class="subtopic_link" href="/lod/variable-display.md">
         <div class="subtopic_title">Variable Display for Lab Instructions</div>
