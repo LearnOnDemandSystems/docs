@@ -229,7 +229,7 @@ When the student clicks the button in the lab to trigger the automated activity,
 
 Activity Based Assessments (ABA) Outcomes offer adaptive learning experienced based on the result of an automated activity or a question activity. This allows lab authors to provide additional guidance based on how a student interacts with an activity in the lab instructions.  For example, an ABA could be configured to direct the lab user to more learning resources if they do not answer an ABA correctly, or they could be directed to a page further in the lab instructions if they do not need the additional learning material. 
 
-#### An ABA Outcome consists of an event, condition, action, and target. 
+An ABA Outcome consists of an event, condition, action, and target. 
 
 - **Event**: When a question is Answered or Evaluated, or when a script is Evaluated.
 - **Conditions**: 
