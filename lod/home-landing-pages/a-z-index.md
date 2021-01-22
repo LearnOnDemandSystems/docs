@@ -18,7 +18,7 @@
   <div class="subtopic selected">
     <div id="header_1" class="subtopic_header" tabindex="0" title="A-Z Help Docs" role="button" aria-selected="true" selected>A-Z Help</div>
     <div id="body_1" class="subtopic_links">
-      <a class="subtopic_link" href="/lod/aba-outcomes">
+      <a class="subtopic_link" href="/lod/aba-outcomes.md">
         <div class="subtopic_title">Activity Based Assessment Outcomes</div>
         <div class="subtopic_description">Outcomes offer adaptive learning experiences based on the result of an automated activity or question.</div>
       </a>
