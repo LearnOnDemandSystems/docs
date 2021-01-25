@@ -38,7 +38,7 @@ Before marking the lab as complete, a security review may be requested, signalin
 Once the review has been completed, the lab profile will show either approved or denied along with a note containing the reasoning. 
 Once approved, the lab may be marked as complete and published.
 
-If the lab profile is published before the security review is requested, a security review request will be entered automatically, but the lab will continue to be unavailable until the review is completed and approved.
+If the lab profile is published before the security review is requested, a security review request will be entered automatically, but the lab will continue to be unavailable until the review is completed and approved. A cloud security review may be requested for all children lab profile by requesting the review from the parent lab profile and selecting the *Include Children* check box. 
 
 ![Approved Status](images/cloud-security-approved.png)
 
