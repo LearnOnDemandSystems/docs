@@ -8,6 +8,7 @@ isPublished: true
 To give your students access to the labs you purchase in the Courseware Marketplace from Learn on Demand Systems, you need to set up a class in our TMS. To synchronize the purchase from the Courseware Marketplace to the TMS, your organization must have your Arvato Customer ID associated with it. Your vouchers are automatically sync'd from the Courseware Marketplace and loaded into the TMS. It may take up to 10 minutes for the sync to occur. Once the vouchers are available in the TMS, you can use them to set up a class.
 
 LoDS lab access is controlled by class start time. This allows you to set up the class with labs immediately after purchase, well in advance of the class starting. Students will not be able to access the labs until they are enrolled in the class and the class has started. Instructors can access the labs as soon as they are added as instructors to the class. You do not need to purchase labs for the instructors.
+>:small_orange_diamond: [View a video on setting up your class](https://youtu.be/377YlEyOego) 
 
 To set up a class after a purchase:
 1. On the **Admin** menu in the **Class Vouchers** group, click **Manage Class Vouchers**.
