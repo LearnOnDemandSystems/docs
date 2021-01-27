@@ -6,6 +6,7 @@ isPublished: true
 # How do I enroll students in a class?
 
 Two different methods are available for setting up your students. You may either issue **training keys**, which allows them to self-register, and self-enroll into class or you can **set up your students' user accounts and enrollments** for them directly in the TMS platform.
+>:small_orange_diamond: [View a video on enrolling students to a class or registering with training keys.](https://youtu.be/JDHKsGMrYIY) 
 
 ## Student Self-Enrollment with Training Keys
 The simplest method of enrolling students into a class is to have your students self-register into the class by providing them with training keys. 
