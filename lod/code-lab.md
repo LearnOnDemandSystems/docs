@@ -1,7 +1,7 @@
 ---
 title: "Code Labs"
 description: "Code Lab Authoring explained. Glossary of terms and walkthrough for creating your first code lab."
-isPublished: false
+isPublished: true
 ---
 
 # Code Labs
