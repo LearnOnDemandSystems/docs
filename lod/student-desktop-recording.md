@@ -17,7 +17,7 @@ When a lab user launches a lab, the RDP session will begin recording after the v
     - [Enabling On a Lab profile](#enabling-on-a-lab-profile)
 - [Accessing Session Recordings](#accessing-session-recordings)
     - [View Session Recordings From a Particular Lab Profile](#view-session-recordings-from-a-particular-lab-profile)
-    - [View Session Recordings For a Particular User](#view-Session-recordings-for-a-particular-user)
+    - [View Session Recordings For a Particular User](#view-session-recordings-for-a-particular-user)
 - [Known Issues and Limitations](#known-issues-and-limitations)
 
 ## Enabling Student Desktop Recording 
