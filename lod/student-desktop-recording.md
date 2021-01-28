@@ -6,9 +6,9 @@ isPublished: true
 
 # Student Desktop Recording 
 
-Student Desktop Recording allows the RDP session between the lab user and the lab to be captured in a video that can be used to view the lab user's activity in the lab after the lab has ended. This feature is only available through an **Exam-configured API Consumer**. 
+This feature is only available through an **Exam-configured API Consumer**. 
 
-When a lab user launches a lab, the RDP session will begin recording after the virtual machine (VM) connects. After the lab has ended, a video recording of the lab activity will be saved to the user's lab instance details page for that session. 
+Student Desktop Recording allows the RDP session between the lab user and the lab to be captured in a video that can be used to view the lab user's activity in the lab after the lab has ended. When a lab user launches a lab, the RDP session will begin recording after the virtual machine (VM) connects. After the lab has ended, a video recording of the lab activity will be saved to the user's lab instance details page for that session. 
 
 >[!alert] **This feature is in beta and there are some [known issues and limitations](#known-issues-and-limitations).**
 
