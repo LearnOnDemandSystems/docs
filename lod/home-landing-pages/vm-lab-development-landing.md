@@ -91,6 +91,10 @@
         <div class="subtopic_title">SSH Terminal Access</div>
         <div class="subtopic_description">Configure virtual machines for SSH terminal access. </div>
       </a>
+      <a class="subtopic_link" href="/lod/student-desktop-recording.md">
+        <div class="subtopic_title">Student Desktop Recording</div>
+        <div class="subtopic_description">Allow lab profiles to record RDP sessions and store them in a lab instance.</div>
+      </a>
       <a class="subtopic_link" href="/lod/template-gallery.md">
         <div class="subtopic_title">Template Gallery</div>
         <div class="subtopic_description">Create Lab Profiles from a Collection of Templates</div>

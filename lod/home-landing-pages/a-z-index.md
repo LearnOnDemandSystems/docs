@@ -230,6 +230,10 @@
         <div class="subtopic_title">SSH Terminal Access</div>
         <div class="subtopic_description">Configure virtual machines for SSH terminal access.</div>
       </a>
+      <a class="subtopic_link" href="/lod/student-desktop-recording.md">
+        <div class="subtopic_title">Student Desktop Recording</div>
+        <div class="subtopic_description">Allow lab profiles to record RDP sessions and store them in a lab instance.</div>
+      </a>
       <a class="subtopic_link" href="/lod/lod-support-chat.md">
         <div class="subtopic_title">Support Chat</div>
         <div class="subtopic_description">Chat with our Support team or submit a support ticket.</div>
