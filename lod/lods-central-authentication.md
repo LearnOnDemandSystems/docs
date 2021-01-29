@@ -1,6 +1,6 @@
 ---
-title: "Title of document"
-description: "Description of document."
+title: "LODS Central Authentication"
+description: "Learn on Demand Systems central authentication."
 isPublished: false
 ---
 
