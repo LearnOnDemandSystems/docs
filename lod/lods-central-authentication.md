@@ -1,12 +1,12 @@
 ---
-title: "LODS Central Authentication"
+title: "Learn on Demand Systems Central Authentication"
 description: "Learn on Demand Systems central authentication."
 isPublished: false
 ---
 
 # Learn on Demand Systems Central Authentication 
 
-This document provides guidance with authenticating into Learn on Demand Systems(LODS) Platforms, as well as account management in each platform. 
+This document provides guidance with authenticating into Learn on Demand Systems Platforms, as well as account management in each platform. 
 
 - [Login](#login)
 - [Logout](#logout)
@@ -19,19 +19,19 @@ This document provides guidance with authenticating into Learn on Demand Systems
 
 ## Login
 
-When you navigate to the Training Management System (TMS) or Lab on Demand (LOD), you will be greeted with a login screen with three options to login. You can use an AAD Corporate account, a Microsoft account or an (LODS) account. 
+When you navigate to the Training Management System (TMS) or Lab on Demand (LOD), you will be greeted with a login screen with three options to login. You can use an AAD Corporate account, a Microsoft account or a Learn on Demand Systems account. 
 
-- **AAD Corporate**: this allows you to authenticate into LODS platforms using your existing AAD Corporate account. 
+- **AAD Corporate Account**: this allows you to authenticate into Learn on Demand Systems platforms using your existing AAD Corporate account credentials. 
 
-- **Microsoft Account**: this allows you to authenticate into LODS platforms using your existing Microsoft account, such as an Outlook, Live, or Hotmail account. 
+- **Microsoft Account**: this allows you to authenticate into Learn on Demand Systems platforms using your existing Microsoft account credentials, such as an Outlook, Live, or Hotmail account. 
 
-- **Sign in with an LODS Account**: this allows you to authenticate into LODS platforms using an LODS account you have created previously. If you need to create an account, please see the [Create User section of this document](#create-user-account).
+- **Sign in with a Learn on Demand Systems Account**: this allows you to authenticate into Learn on Demand Systems platforms using a Learn on Demand Systems account you have created previously. If you need to create an account, please see the [Create User section of this document](#create-user-account).
 
-1. Choose an authentication method; Corporate Azure AD, Microsoft Account or a LODS account.
+1. Choose an authentication method; Corporate Azure AD, Microsoft Account or a Learn on Demand Systems account.
 
 1. If you choose Corporate Azure AD or a Microsoft account, you will be directed to a page to authenticate using your credentials. 
 
-1. If you would like to login with an LODS account, enter your username or email address, and your password.  
+1. If you would like to login with an Learn on Demand Systems account, enter your username or email address, and your password.  
 
 ## Logout
 
@@ -69,15 +69,15 @@ You can edit your user profile from any page in TMS or LOD.
 
 ## Users who have email addresses associated with multiple organizations
 
-If your email address is associated with multiple organizations in TMS, you can use your LODS account to login to those. 
+If your email address is associated with multiple organizations in TMS, you can use your Corporate AAD, Microsoft account, or Learn on Demand Systems account to login.
 
 1. Navigate to the URL that corresponds with the organization that you wish to login to. 
 
-1. Choose an authentication method; Corporate Azure AD, Microsoft Account, or an LODS account. 
+1. Choose an authentication method; Corporate Azure AAD, Microsoft Account, or a Learn on Demand Systems account. 
 
-1. If you choose Corporate Azure AD, or a Microsoft account, you will be directed to a page to authenticate using your credentials. 
+1. If you choose Corporate AAD, or a Microsoft account, you will be directed to a page to authenticate using your credentials. 
 
-1. If you would like to login with an LODS account, enter your username or email address, and your password. 
+1. If you choose to login with a Learn on Demand Systems account, enter your username or email address, and your password. 
 
 ## Change Email
 
@@ -89,7 +89,7 @@ If you wish to change the email address on your Microsoft account, please read [
 
 ## Change Password
 
-Your LODS password can be changed at any time by viewing your account and clicking the Change Password button. 
+Your Learn on Demand Systems account password can be changed at any time by viewing your account and clicking the Change Password button. 
 
 1. In TMS or LOD, click your name in the upper-right corner of the page. 
 
@@ -105,7 +105,7 @@ If you would like to change your Microsoft account password, please follow [Micr
 
 ## Forgot password
 
-If your forget your LODS password, you can reset it by clicking the _Forgot your password?_ link and providing your email address. This must
+If your forget your Learn on Demand Systems account password, you can reset it by clicking the _Forgot your password?_ link and providing your email address. This must be the same email address that is on your Learn on Demand Systems account. 
 
 1. Click the _Forgot your password?_ link on the sign in page. 
 
