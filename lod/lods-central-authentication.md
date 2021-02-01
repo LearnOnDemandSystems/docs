@@ -105,7 +105,7 @@ If you would like to change your Microsoft account password, please follow [Micr
 
 ## Forgot password
 
-If your forget your Learn on Demand Systems account password, you can reset it by clicking the _Forgot your password?_ link and providing your email address. This must be the same email address that is on your Learn on Demand Systems account. 
+If you forget your Learn on Demand Systems account password, you can reset it by clicking the _Forgot your password?_ link and providing your email address. This must be the same email address that is on your Learn on Demand Systems account. 
 
 1. Click the _Forgot your password?_ link on the sign in page. 
 
