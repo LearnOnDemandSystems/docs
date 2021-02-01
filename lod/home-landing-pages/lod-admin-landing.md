@@ -38,6 +38,10 @@
         <div class="subtopic_title">Lab Instance Sharing</div>
         <div class="subtopic_description">Lab Instance Sharing allows multiple users to work together in a lab profile at the same time. </div>
       </a>
+      <a class="subtopic_link" href="/lod/lods-enhanced-account-security.md">
+        <div class="subtopic_title">Learn on Demand Systems Enhanced Account Security</div>
+        <div class="subtopic_description">Guidance for authenticating user accounts with Learn on Demand Systems Platforms, as well as account management in each platform.</div>
+      </a>      
       <a class="subtopic_link" href="/lod/org-max-ram.md">
         <div class="subtopic_title">Organization RAM Limits</div>
         <div class="subtopic_description">Max RAM usage, max active lab instances and max RAM per lab profile.</div>
