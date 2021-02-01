@@ -186,6 +186,10 @@
         <div class="subtopic_title">Lab Series Creation and Explanation</div>
         <div class="subtopic_description">Lab Series creation, and explanation of lab series configuration.</div>
       </a>
+      <a class="subtopic_link" href="/lod/lods-enhanced-account-security.md">
+        <div class="subtopic_title">Learn on Demand Systems Enhanced Account Security</div>
+        <div class="subtopic_description">Guidance for authenticating user accounts with Learn on Demand Systems Platforms, as well as account management in each platform.</div>
+      </a>      
       <a class="subtopic_link" href="/lod/life-cycle-actions.md">
         <div class="subtopic_title">Life Cycle Actions</div>
         <div class="subtopic_description">Define actions to occur at certain times within the lab's life cycle, such as calling an external service when the lab builds, or sending a notification to the user when the lab is resumed.</div>
