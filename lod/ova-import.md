@@ -29,7 +29,7 @@ To import a VM from an OVA file into a lab profile, you must first upload the OV
 
 1. Click **Storage** at the top of the page. 
 
-    ![Organization Storage](images/storage-button.png)
+    ![Organization Storage](images/organization-storage-button.png)
 
 1. In the upper-left, select the datacenter you wish to upload to. 
 
@@ -41,7 +41,7 @@ To import a VM from an OVA file into a lab profile, you must first upload the OV
 
 1. Click **Upload File** on the right side of the page. 
 
-    ![Upload File](images/upload-file.png)
+    ![Upload File](images/storage-upload-file.png)
 
 1. Choose a file or drag files to the designated area, and click **Upload**. 
 
@@ -59,7 +59,7 @@ The VM will be created by importing the OVA file on the lab profile. Importing r
 
 1. Click **Virtual machines from OVA**, then click OK. 
 
-    ![Virtual machines from OVA](images/virtual-machines-from-ova.png)
+    ![Virtual machines from OVA](images/import-virtual-machines-from-ova.png)
     
 1. In the _Choose OVA File_ menu, navigate to the OVA file that was uploaded. 
 
