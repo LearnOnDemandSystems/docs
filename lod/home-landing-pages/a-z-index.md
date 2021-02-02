@@ -149,7 +149,11 @@
       <a class="subtopic_link" href="/lod/iframe-labs.md">
         <div class="subtopic_title">Iframe Integrated Labs</div>
         <div class="subtopic_description">Considerations for labs that are integrated into an iframe.</div>
-      </a>      
+      </a>
+      <a class="subtopic_link" href="/lod/ova-import.md">
+        <div class="subtopic_title">Importing an VMware Virtual Machine From an OVA.</div>
+        <div class="subtopic_description">Virtual machine profile creation, and explanation of virtual machine profile configuration.</div>
+      </a>            
       <a class="subtopic_link" href="/lod/feature-focus/lod-experience.md">
         <div class="subtopic_title">Introduction to Lab on Demand UI</div>
         <div class="subtopic_description">Explanation of Lab on Demand UI.</div>
