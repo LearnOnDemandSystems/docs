@@ -68,6 +68,10 @@
         <div class="subtopic_title">Docker Support</div>
         <div class="subtopic_description">Supported Docker configurations.</div>
       </a>
+      <a class="subtopic_link" href="/lod/ova-import.md">
+        <div class="subtopic_title">Importing an VMware Virtual Machine From an OVA.</div>
+        <div class="subtopic_description">Virtual machine profile creation, and explanation of virtual machine profile configuration.</div>
+      </a>    
       <a class="subtopic_link" href="/lod/lab-networks.md">
         <div class="subtopic_title">Lab Network Restrictions</div>
         <div class="subtopic_description">Overview of the networks available to labs and any network restrictions.</div>
@@ -110,7 +114,7 @@
       <a class="subtopic_link" href="/lod/vm-based-lab-landing-page.md">
         <div class="subtopic_title">Virtual Machine Based Landing Page Instead of VM</div>
         <div class="subtopic_description">Configure a lab to hide the VM from student view and display a specified URL instead.</div>
-      </a>
+      </a>  
     </div>
   </div>
 </div>
