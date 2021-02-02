@@ -4,7 +4,7 @@ description: "Import a virtual machine from an OVA file."
 isPublished: true
 ---
 
-# VMware OVA Import
+# Importing an VMware Virtual Machine From an OVA
 
 Virtual machine (VM) profiles can be created by importing an OVA file into a lab profile. An OVA file is created from exporting a VMware VM from outside of Lab on Demand (LOD). 
 
