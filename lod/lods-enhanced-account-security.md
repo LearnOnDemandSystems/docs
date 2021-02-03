@@ -19,15 +19,17 @@ This document provides guidance for authenticating user accounts with Learn on D
 
 ## Login
 
-When you navigate to the Training Management System (TMS) or Lab on Demand (LOD), you will be greeted with three options to login. You can use a Corporate Azure AD, a Microsoft account or a Learn on Demand Systems account. 
+When you navigate to the Training Management System (TMS) or Lab on Demand (LOD), you will be greeted with four options to login. You can use a Corporate Azure AD, a Microsoft account, a Google account or a Learn on Demand Systems account. 
 
 - **Corporate Azure AD**: Allows you to authenticate into Learn on Demand Systems platforms using your existing Corporate Azure AD credentials. 
 
 - **Microsoft Account**: Allows you to authenticate into Learn on Demand Systems platforms using your existing Microsoft account credentials, such as an Outlook, Live, or Hotmail account. 
 
+- **Google**: Allows you to authenticate into Learn on Demand Systems platforms using your existing Google account credentials. 
+
 - **Sign in with a Learn on Demand Systems Account**: Allows you to authenticate into Learn on Demand Systems platforms using a Learn on Demand Systems account you have created previously. If you need to create an account, please see the [Create User section of this document](#create-user-account).
 
-1. Choose an authentication method; Corporate Azure AD, Microsoft Account or a Learn on Demand Systems account.
+1. Choose an authentication method; Corporate Azure AD, Microsoft account, Google account or a Learn on Demand Systems account.
 
 1. If you choose Corporate Azure AD or a Microsoft account, you will be directed to a page to authenticate using your credentials. 
 
@@ -55,7 +57,7 @@ If you are a lab developer and would like an account in LOD, please reach out to
 
 ## Account Management
 
-You may want to edit your user profile to change some information, or update information if it has changed since you initially create your account. 
+You may want to edit your user profile to change some information, or update information if it has changed since you initially created your account. 
 
 You can edit your user profile from any page in TMS or LOD.
 
@@ -69,13 +71,13 @@ You can edit your user profile from any page in TMS or LOD.
 
 ## Users who have email addresses associated with multiple organizations
 
-If your email address is associated with multiple organizations in TMS, you can use your Corporate Azure AD, Microsoft account, or Learn on Demand Systems account to login.
+If your email address is associated with multiple organizations in TMS, you can use your Corporate Azure AD, Microsoft account, Google account or Learn on Demand Systems account to login.
 
 1. Navigate to the URL that corresponds with the organization that you wish to login to. 
 
-1. Choose an authentication method; Corporate Azure AD, Microsoft Account, or a Learn on Demand Systems account. 
+1. Choose an authentication method; Corporate Azure AD, Microsoft account, Google account or a Learn on Demand Systems account. 
 
-1. If you choose Corporate Azure AD, or a Microsoft account, you will be directed to a page to authenticate using your credentials. 
+1. If you choose Corporate Azure AD, a Microsoft account, or a Google account you will be directed to a page to authenticate using your credentials. 
 
 1. If you choose to login with a Learn on Demand Systems account, enter your username or email address, and your password. 
 
@@ -87,6 +89,7 @@ If you wish to change the email address of your Corporate Azure AD, please reach
 
 If you wish to change the email address on your Microsoft account, please read [Microsoft's documentation](https://support.microsoft.com/en-us/account-billing/change-the-email-address-or-phone-number-for-your-microsoft-account-761a662d-8032-88f4-03f3-c9ba8ba0e00b).
 
+If you wish to change the email address on your Google account, please read [Google Account Help](https://support.google.com/accounts/answer/19870?co=GENIE.Platform%3DAndroid&hl=en).
 ## Change Password
 
 Your Learn on Demand Systems account password can be changed at any time by viewing your account and clicking the Change Password button. 
@@ -103,6 +106,7 @@ If you would like to change your Corporate Azure AD password, please reach out t
 
 If you would like to change your Microsoft account password, please follow [Microsoft's guidance on recovering your account](https://account.live.com/ResetPassword.aspx).
 
+If you would like to change your Google account password, please read [Google Account Help](https://support.google.com/accounts/answer/41078?co=GENIE.Platform%3DDesktop&hl=en).
 ## Forgot password
 
 If you forget your Learn on Demand Systems account password, you can reset it by clicking the _Reset Password_ link and providing your email address. This must be the same email address that is on your Learn on Demand Systems account. 
@@ -115,4 +119,6 @@ If you forget your Learn on Demand Systems account password, you can reset it by
 
 If you forgot your Corporate Azure AD password, please reach out to your company support team for assistance. 
 
-If you forgot your Microsoft account, please follow [Microsoft's guidance on recovering your account](https://account.live.com/ResetPassword.aspx). 
+If you forgot your Microsoft account password, please follow [Microsoft's guidance on recovering your account](https://account.live.com/ResetPassword.aspx). 
+
+If you forgot your Google account password, please follow [Google's guidance on recovering your account](https://accounts.google.com/signin/recovery).
