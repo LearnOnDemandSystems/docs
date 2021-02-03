@@ -8,6 +8,41 @@
 
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
+## **Released January 30, 2021**
+
+**Code Labs**
+
+Code Labs can help you provide a comprehensive development environment for learners to grow their coding skills. Each lab will open to a browser based code editor where students can test their coding skills against challenges defined by lab authors. When the student is ready, they may run the code to return a pass/fail for each challenge. Code labs will be released with support for the following languages:
+-	C 
+-	C# 
+-	Go 
+-	Java 
+-	PHP 
+-	Python 
+-	R 
+
+**New Note Fields**
+Notes may now be left on the following entities from the details page. A notes dialog will also prompt when updating an existing entity.
+-	Organizations. 
+-	Cloud Credentials Pools. 
+-	Cloud Subscription Pools. 
+
+**LOD Improvements and Fixes**
+-	Support for AWS EventBridge and Backup added. 
+-	LTI 1.3 integration now supports multi-domain instances of Canvas LMS. 
+-	Virtual Machines can now be located and added to lab profiles by Virtual Machine Profile ID. 
+-	Updated compatibility between the transfer lab instances feature and the multiple active instances per user feature. 
+-	Cloud Security Reviews may now simultaneously  be requested for both parent and children lab profiles by selecting the Include Children checkbox.  
+-	Updated the error message received when lab launches for an organization exceed the organization wide limit. 
+-	ID is now available as an output option when searching for lab series. 
+-	Type text will now function correctly for Enhanced Session Mode VMs without clipboard redirection enabled. 
+-	Removed the Show Navigation Bar option from the Advanced lab settings. 
+-	Fixed a scrolling issue when lab developers that occurred when arranging activities. 
+-	Fixed a bug preventing the Show Detailed Results toggle from displaying on newly created scored labs. 
+-	Fixed a bug preventing lab developers from saving changes to their account information. 
+-	Fixed a bug that prevented saved labs from resuming. 
+-	Fixed a scrolling issue when lab developers were rearranging activities. 
+-	The Move Up/Move Down buttons are now populated when adding new scripts to an activity. 
 
 ## **Released January 16, 2021**
 
