@@ -86,6 +86,8 @@ To configure ABA Outcomes in a lab profile, your lab instructions must have a Qu
 
     - **Go to Page**: directs the user to a specific page in the lab instructions.
 
+        >[!alert] Inserting pages into an existing lab or inserting pages between two pages with outcome targets configured could change the outcome targets, as some page numbers may change. 
+
 1. After selecting Set Variable, select a variable that is already set in the lab instructions or select _New Variable_. 
 
 1. Set the value of the variable in the _To_ field. If you are using an existing variable and enter a value that is different than the value that is set on the existing variable, the value will be replaced with the value entered in the _To_ field.
@@ -144,6 +146,9 @@ ABA Outcomes are only available on Automated Activities that have On-Demand Eval
 
     - **Go to Page**: directs the user to a specific page in the lab instructions.
 
+        >[!alert] Inserting pages into an existing lab or inserting pages between two pages with outcome targets configured could change the outcome targets, as some page numbers may change. 
+
 1. After selecting Set Variable, select a variable that is already set in the lab instructions or select _New Variable_. 
 
 1. Set the value of the variable in the _To_ field. If you are using an existing variable and enter a value that is different than the value that is set on the existing variable, the value will be replaced with the value entered in the _To_ field.
+
