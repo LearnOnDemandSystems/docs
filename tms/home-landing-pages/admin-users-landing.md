@@ -27,6 +27,10 @@
       <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/create-multiple-user-accounts-at-once.md">
         <div class="subtopic_title">How can I create multiple user accounts at once?</div>
       </a>
+        </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/bulk-edit.md">
+        <div class="subtopic_title">How do I update multiple user accounts at once?</div>
+      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/duplicate-user-accounts.md">
         <div class="subtopic_title">What can I do about duplicate user accounts?</div>
       </a>
