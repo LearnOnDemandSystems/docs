@@ -7,6 +7,8 @@ isPublished: true
 
 You can use Instructor Competencies to show the courses you are qualified to teach. Using this feature shows organizations using contract instructors the courses you can teach.
 
+>:small_orange_diamond: [Watch a video on showing which courses you are qualified to teach.](https://youtu.be/bK_RiEbbjHA) 
+
 To access the Instructor Competencies:
 1. Navigate to your user profile. Click **Instructor Competencies** under the **Instructor Information** section. 
 1. On the **Instructor Competencies** page, click **Add course competency**. 
