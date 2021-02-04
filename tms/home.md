@@ -83,7 +83,6 @@
        </div>
       <!-- -- End student categories section -->
     </div>
-
   <div class="instructorCategory userTypeSection">
   <!-- instructor categories section.. -->
            <div class="cardContainer">
