@@ -7,6 +7,8 @@ isPublished: true
 
 You may, as an instructor, reset a student's password as well as revise their username if they are a student in a class you are teaching.
 
+>:small_orange_diamond: [Watch a video on how to reset a student's password.](https://youtu.be/C1kWaVl2NMQ) 
+
 To change either the password or username:
 1. Navigate to the **Class Profile** page and click **Roster**.
 1. On the right side of the **Roster** page on the row for the student, click the **Username and Password** icon (looks like a lock). 
