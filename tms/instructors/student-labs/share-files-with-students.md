@@ -30,7 +30,11 @@ Files that are set to be visible to students are available to them on their **Cl
 
 ## Monitor Labs
 
-There may be times when you want the files to be easily accessed by the students while they are working on a lab without having to leave the lab. For this scenario, you should use the Monitor Labs tool: 
+There may be times when you want the files to be easily accessed by the students while they are working on a lab without having to leave the lab. 
+
+>:small_orange_diamond: [Watch a video on lab monitoring and sharing files in the lab interface.](https://youtu.be/Ey4DLXe74Uc) 
+
+For this scenario, you should use the Monitor Labs tool: 
 1.  Navigate to the **Class Profile** page for the class.
 1. Click **Monitor Labs**. 
 1. A new browser tab will open up with all your class's active lab instances displayed. In the **Instructor Files** box, click **Share Files**. 
