@@ -83,12 +83,10 @@
        </div>
       <!-- -- End student categories section -->
     </div>
+
   <div class="instructorCategory userTypeSection">
   <!-- instructor categories section.. -->
-           <div class="azIndex cardContainer">
-        <!-- Begin categories section.. -->
-        <div class="azIndex cardContent">
-            <div class="cardsContainer">
+    <div class="cardsContainer">
     <div class="cardContainer">
         <!-- Begin categories section.. -->
         <div class="cloudSlice cardContent">
