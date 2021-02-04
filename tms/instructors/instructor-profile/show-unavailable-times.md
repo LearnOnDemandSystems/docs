@@ -7,6 +7,9 @@ isPublished: true
 
 You can set times that you are unavailable to teach. This time is displayed on the Instructor Schedule, can be specifically searched for from the Site Administration page, and is part of the schedule conflict filter on the Choose Instructor dialog box.
 
+
+>:small_orange_diamond: [Watch a video on scheduling times you are unavailable to teach.](https://youtu.be/S0XMTRAYTw4) 
+
 To set times when you are unavailable: 
 1. Click **Admin** to open the **Admin** menu and click **Create Instructor Blockout Time** in the **Instructors** group. 
 1. Type a **Name** and **Description** for the blockout time. The name will be visible to anyone who can see instructor blockout times and links to the page displaying the description as well as the Start and End of the blockout time. 
