@@ -46,8 +46,9 @@ For those that need to create a firewall exception rule to allow connectivity to
   - *.learnondemandsystems.com
   - *.learnondemand.net
   - *.holsystems.com
-  - *.eu.learnondemandsystems.com
-  - *.au.learnondemandsystems.com
+
+- Authentication domains:
+  - learnondemandsystemsb2c.b2clogin.com
 
 - IP Range:
   - 104.214.106.0/25, 206.196.30.001 - 206.196.30.056
