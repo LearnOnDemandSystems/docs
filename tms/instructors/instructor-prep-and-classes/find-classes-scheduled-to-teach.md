@@ -5,7 +5,11 @@ isPublished: true
 
 # How do I find classes I am scheduled to teach?
 
-The easiest way to find classes you are teaching is through the Instructor Calendar. You can see your full schedule in a calendar format.
+The easiest way to find classes you are teaching is through the Instructor Calendar. 
+
+>:small_orange_diamond: [Watch a video on finding classes you are scheduled to teach.](https://youtu.be/o5Kh7FzV37k) 
+
+You can see your full schedule in a calendar format.
 
 1. Once you are logged in, click **My Calendar** at the top of any window. 
 1. This will open up your Instructor Calendar. Navigate the calendar using the arrow keys.
