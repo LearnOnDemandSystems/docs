@@ -86,7 +86,20 @@
 
   <div class="instructorCategory userTypeSection">
   <!-- instructor categories section.. -->
-    <div class="cardsContainer">
+    <div class="azIndex cardContent">
+          <div class="cardHeader" tabindex="0" title="Administrator TMS Videos" aria-label="Administrator TMS Videos">TMS Videos</div>
+          <div class="category">
+              <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
+              <a><span class="categoryTitle" title="View videos on using the TMS.">View videos on using the TMS.</span>
+          </a>
+            </div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-tms-videos.md" title="View all" aria-label="View all Admin TMS Videos">View all</a></div>
+        </div>
+      </div>
+           <div class="cardContainer">
+        <!-- Begin categories section.. -->
+        <div class="azIndex cardContent">
+            <div class="cardsContainer">
     <div class="cardContainer">
         <!-- Begin categories section.. -->
         <div class="cloudSlice cardContent">
