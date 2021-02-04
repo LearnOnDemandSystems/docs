@@ -85,7 +85,7 @@
     </div>
   <div class="instructorCategory userTypeSection">
   <!-- instructor categories section.. -->
-           <div class="cardContainer">
+           <div class="azIndex cardContainer">
         <!-- Begin categories section.. -->
         <div class="azIndex cardContent">
             <div class="cardsContainer">
