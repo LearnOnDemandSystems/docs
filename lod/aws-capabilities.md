@@ -76,6 +76,7 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[Amazon WorkSpaces Application Manager](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonworkspacesapplicationmanager.html)|N/A|planned||
 |[AWS AppSync](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsappsync.html)|appsync|planned||
 |[AWS Artifact](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsartifact.html)|artifact|planned||
+|[AWS Backup](https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsbackup.html)|backup|supported||
 |[AWS Budget Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsbudgetservice.html)|budgets|planned||
 |[AWS Certificate Manager](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscertificatemanager.html)|acm|planned||
 |[AWS Certificate Manager Private Certificate Authority](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscertificatemanagerprivatecertificateauthority.html)|acm-pca|planned||
@@ -139,6 +140,7 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[Data Pipeline](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_datapipeline.html)|datapipeline|planned||
 |[Elastic Load Balancing](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_elasticloadbalancing.html)|elasticloadbalancing|supported||
 |[Elastic Load Balancing V2](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_elasticloadbalancingv2.html)|elasticloadbalancing|supported||
+|[EventBridge](https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoneventbridge.html)|events|supported||
 |[Identity And Access Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_identityandaccessmanagement.html)|iam|supported||
 |[Manage Amazon API Gateway](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_manageamazonapigateway.html)|apigateway|supported||
 |[Single Sign-On](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)|sso|planned||
