@@ -76,6 +76,10 @@
         <div class="subtopic_title">Lab Network Restrictions</div>
         <div class="subtopic_description">Overview of the networks available to labs and any network restrictions.</div>
       </a>
+      <a class="subtopic_link" href="/lod/lab-profile-cloning.md">
+        <div class="subtopic_title">Lab Profile Cloning and Explanation</div>
+        <div class="subtopic_description">Create a duplicate copy of a lab profile by cloning.</div>
+      </a>        
       <a class="subtopic_link" href="/lod/feature-focus/lab-profiles/create.md">
         <div class="subtopic_title">Lab Profile Creation and Explanation</div>
         <div class="subtopic_description">Lab profile creation, and explanation of lab profile configuration.</div>
