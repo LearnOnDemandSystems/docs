@@ -47,7 +47,7 @@ You will be taken to the new lab profile. If you need to make changes to the new
 
 Cloning a lab profile using Export/Import is not recommended for typical lab cloning, but may be useful depending on your needs. 
 
-   >[!alert] When using Export/Import, some lab components are not exported, and will not be in a new lab profile when you import the exported files. It is highly recommended to use **Save As** to clone lab profiles. You should only use Export/Import to clone a lab if you accept the risk that the cloned lab may not contain all lab components and settings.
+   >[!alert] When using Export/Import, some lab components are not exported, and will not be in a new lab profile when you import the exported files. It is highly recommended to >use **Save As** to clone lab profiles. You should only use Export/Import to clone a lab if you accept the risk that the cloned lab may not contain all lab components and >settings.
 > 
 > Lab Profiles that have Start States configured on them should not be cloned. Cloning a Lab Profile with a Start State may cause the cloned Lab Profile to work improperly. If you need to clone a lab that has a Start State, remove the Start State, clone the lab and recapture the Start State. 
 
