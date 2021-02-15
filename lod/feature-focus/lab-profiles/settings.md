@@ -50,7 +50,15 @@ To use network features, such as external internet access or communication betwe
 
    - Private: private network (no internet access), typically used for communication between virtual machines. 
 
+        - VLAN ID: Select automatic VLAD ID assignment or specify a specific VLAN ID. 
+
    - Web Access (NAT): internet accessible with NAT (network address translation)
+
+        - VLAN ID: Select automatic VLAD ID assignment or specify a specific VLAN ID. 
+
+        - Gateway address: specify the gateway address or use the default address of 192.168.1.1.
+
+        - Subnet Mask: specify a Subnet mask or use the default Subnet Mask of 255.255.255.0. 
 
         - Enable DHCP: check to enable DHCP (dynamic configuration host protocol).
 
@@ -59,8 +67,6 @@ To use network features, such as external internet access or communication betwe
         - DHCP End Range: enter the ending value of the IP range that will be available in the lab.
 
    - Web Access (Public IP): internet accessible network with a public IP address
-
-   - Preconfigured on lab host: internet accessible network with access provided by the lab host that the lab instance is launched on
 
 1. **Access Control List:** user to control how students use the web within a virtual machine. 
 
