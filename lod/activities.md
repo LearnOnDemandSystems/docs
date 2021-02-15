@@ -161,6 +161,52 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
 
     `set_activity_result .5 "good job!"`
 
+<!--
+#### **Python**
+
+- **Setting Variables**
+
+    Prepend your command with the parameter defined in your function. In the example below the parameter is `param1`.
+
+    ```Python
+    def run(param1):
+        param1.setLabVariable('Name','John')
+        return True,'output shown to the user in lab instructions'
+    ```
+
+- **Sending Lab Notifications**
+
+    ```Python
+    def run(param1):
+        param1.sendLabNotification('message shown in the notification popup')
+        return True,'output shown to the user under the activity'
+    ```
+
+- **Custom Python Script**
+
+    Define your script inside of a Python function using the template below.
+
+    - **Template**
+
+    ```
+    def run(param1):
+        your command here
+        return boolean,"output shown to the user in lab instruction"
+    ```
+
+    - **Example**
+    ```
+    def run(param1):
+        if 1 == 1:
+            outcome = True
+            outcomeText = '1 equals 1'
+        else:
+            outcome = False
+            outcomeText = 'Please check statement'
+        return outcome,outcomeText
+    ```
+-->
+
 ### Automated Activity Creation
 
 1. If you would like the lab to be scored, Click the **switch** next to _Enable Scoring_. If you would not like the lab to be scored, simply leave the **Switch** turned off. 
@@ -174,6 +220,8 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
 - **Replacement Token Alias**: this allows you to change the token to something more identifiable when reviewing the IDLx of the lab.
 
 - **Instructions**: this is where instructions for the Activity are entered, and will be displayed to students, in the lab instructions. 
+
+- **Group**: You can choose to add this to a Activity Group by selecting from the dropdown. This option is only displayed if a group is active.
 
 - **Scored**: enables the question to be scored. Scoring must be enabled in your lab. [Scoring is covered below in this document](#scoring).
 
@@ -191,6 +239,8 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
 
 - **Blocks page navigation until passed**: checking this box prevents the student from navigating to the next page in the lab instructions until the objective in the automated activity is completed.
 
+- **Show Results in Reports**: check this box to show the results of the script on the lab instance. If this is unchecked, the result of the script will not be displayed on the lab instance. Leaving this unchecked is useful for scripts that are automating a task that doesn't require reporting or feedback. 
+
 - **Correct answer feedback**: this will be displayed to the user upon entering or selecting a correct answer to a question. 
 
 - **Incorrect answer feedback**: this will be displayed to the user upon entering or selecting a incorrect answer to a question. 
@@ -198,8 +248,12 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
 - **Script 1**:
     - **Target**: the virtual machine or cloud subscription that the script will target. Cloud subscriptions must be targeted by PowerShell, and virtual machines running on Hyper-V or VMware can be targeted by PowerShell or Windows Command Shell. Linux-based VMs running Hyper-V or VMware can be targeted by Bash.
     - **Language**: the scripting language that will be used. PowerShell, Windows Command Shell, and Bash are supported. Enabling Bash scripting or terminal connections will not take effect on running lab instances, users will have to relaunch their lab.
-    - **Score Value**: the score value the student will recieve for completing the Activity correctly. This score contributes to their overall score in the lab.
+    <!--
+    - **Version**: **(Cloud subscription only)** select the scripting language version that the script will use. 
+    -->
+    - **Score Value**: the score value the student will receive for completing the Activity correctly. This score contributes to their overall score in the lab.
     - **Show Output To User**: this will show the output of the script to the user when enabled. If this is not enabled, the user will be shown the Correct Answer Feedback or the Incorrect Answer Feedback. 
+    - **Enable**: check the box to enable the script. If the script is not enabled, it will not be executed in a Task list or during on-demand evaluation.
     - **Script**: enter the script that will be executed. @lab replacement tokens that are used in scripts will be replaced in the lab instructions when the lab is launched.
 
     - **New Script**: click to add an additional script to this Activity. The new script will be represented by a button, in a Task List. 

@@ -9,6 +9,7 @@ This command does not return scoring results. To obtain scoring results, use the
 |Name|Type|Required|Note|
 |--- |--- |--- |--- |
 | labinstanceId | Integer (64-bit) | No | The ID of the lab instance|
+| rescoreAll    | Integer          | No | Rescores all Activities in the lab instructions
 
 ## Response
 
@@ -19,10 +20,10 @@ This command does not return scoring results. To obtain scoring results, use the
 
 ## Example Usage
 
-Imagine…  A lab instance with an ID of 2393049 is running and needs to be scored.
+Imagine…  A lab instance with an ID of 2393049 is running and needs to be scored or rescored it it has been scored already.
 
 ```
-https://labondemand.com/api/v3/scoreactivities?labinstanceid=4449999
+https://labondemand.com/api/v3/scoreactivities?labinstanceid=2393049&rescoreAll=1
 ```
 ## Example Response
 

@@ -21,6 +21,7 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[Amazon CloudWatch Events](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncloudwatchevents.html)|events|supported||
 |[Amazon CloudWatch Logs](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncloudwatchlogs.html)|logs|supported||
 |[Amazon CloudFront](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncloudfront.html)|cloudfront|planned||
+|[Amazon CloudShell](https://docs.aws.amazon.com/service-authorization/latest/reference/list_awscloudshell.html)|cloudshell|supported||
 |[Amazon Cognito Identity](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncognitoidentity.html)|cognito-identity|planned||
 |[Amazon Cognito Sync](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncognitosync.html)|cognito-sync|planned||
 |[Amazon Cognito User Pools](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncognitouserpools.html)|cognito-idp|supported||

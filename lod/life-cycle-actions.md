@@ -55,7 +55,7 @@ There are additional settings that can **optionally** be configured:
 
 - **Delay**: allows you to introduce a delay between the moment the life cycle event occurs and the action is executed. 
 
-- **Error Action**: controls how Lab on Demand will handle errors that occur when executing this action. All errors are logged against the lab instance by default. You can also choose to notify the user about the error or to end the lab. To prevent users from losing their work, only events early in the lifecycle (buld, bulding, running, etc) allow you to end the lab when an error occurs. 
+- **Error Action**: controls how Lab on Demand will handle errors that occur when executing this action. All errors are logged against the lab instance by default. You can also choose to notify the user about the error or to end the lab. To prevent users from losing their work, only events early in the lifecycle (build, building, running, etc) allow you to end the lab when an error occurs. 
 
 ## Send Web Request
 
@@ -130,10 +130,22 @@ Multiple commands types are available:
 
 ## Execute Cloud Platform Command
 
-Cloud Platform commands are used to target a cloud platform such as Microsoft Azure or Amazon Web Services with a PowerShell command. 
+Cloud Platform commands are used to target a cloud platform such as Microsoft Azure or Amazon Web Services with a PowerShell <!--or Python --> command. 
+
+<!--
+Select the Cloud Execution Type: 
+
+- **Legacy PowerShell**: uses Azure RM modules and PowerShell version 5.
+- **PowerShell**: uses PowerShell version 7.  
+    - **Azure**: Azure AZ 4.8.0
+    - **AWS**: AWSPowerShell.NetCore 4.1.7.0
+- **Python**: uses Python version 3.8
+    - **Azure**: AZ Cli 
+    - **AWS**: AWS Boto3
+-->
 
 Cloud Platform commands support Blocking, which allows you to block further execution of the lab life cycle until the action completes. You can use this to sequence actions that depend on each other. It is recommended to use the blocking feature if the script in the LCA will take very long to complete. 
 
-Cloud Platform commands also support @lab replacement tokens, that can be used in PowerShell commands.
+Cloud Platform commands also support @lab replacement tokens, that can be used in PowerShell <!-- or Python --> commands.
 
 [Back to top](#life-cycle-actions)
