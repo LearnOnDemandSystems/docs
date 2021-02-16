@@ -8,6 +8,40 @@
 
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
+
+## **Released February 12, 2021**
+
+**Central Authentication**
+
+Lab on Demand implemented enhanced account security for user accounts that sign in with a username/password. You can learn more about these security measures [here](https://www.learnondemandsystems.com/enhanced-account-security-faq/).
+Local users will be prompted to reset their LOD password upon login at https://labondemand.com. Users logging in through API or Corporate Azure AD will not be prompted to reset their password.
+
+**Multiple Cloud Slice Subscriptions**
+
+Lab on Demand now supports multiple Azure subscriptions in Cloud Slice Subscription labs. 
+
+**AWS Services**
+
+AWS Cloudshell Service now supported.
+
+**LOD Improvements and Fixes**
+- Lab authors can now disable individual scripts within automated activities.
+- Code labs now allow tests and test inputs to be created without first adding a code language.
+- IDLx activities can now be hidden from the scoring output of a lab instance.
+- The "go to page" feature of outcomes now correctly sends users to the top of the target page.
+- The search field is no longer obscured while searching within the Cloud Resource Template editor. 
+- Full screen view is no longer obscured within the Cloud Resource Template editor.
+- Added a Launch on Datacenter option to launch on-prem virtualization labs on a target datacenter.
+- Added a rescoreAll parameter to the ScoreActivities API call. Triggering scoring of a lab with the rescoreAll=1 parameter rescores all lab activities, overwriting all previous results.
+- The number of ports utilized by a container lab is now shown in the basic information tab of the lab profile.
+- An Email Confirmation has been added when creating an account.
+- vLan ID can now be specified per network on vSphere fabric lab profiles.
+- Fixed a bug resulting in broken links when on a Lab on Demand class.
+- Fixed a bug resulting in an incompatibility between Wait for Heartbeat option on VM and Deploy in Background option on resource group in cloud tab of a lab profile.
+- Fixed a bug where cloud security review would persist when updating the parent of a child lab profile
+- Fixed a bug preventing child labs from inheriting resources when updating to a different parent profile.
+
+
 ## **Released January 30, 2021**
 
 **Code Labs**
@@ -22,6 +56,7 @@ Code Labs can help you provide a comprehensive development environment for learn
 -	R 
 
 **New Note Fields**
+
 Notes may now be left on the following entities from the details page. A notes dialog will also prompt when updating an existing entity.
 -	Organizations. 
 -	Cloud Credentials Pools. 
