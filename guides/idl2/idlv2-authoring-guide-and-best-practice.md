@@ -6,6 +6,64 @@ isPublished: true
 
 # Learn on Demand Systems Integrated Digital Lab eXperience Authoring Guide 
 
+### Table of Contents:
+
+  * [Overview of the Integrated Digital Lab eXperience (IDLx) Platform](#overview-of-the-integrated-digital-lab-experience--idlx--platform)
+    + [Launching a lab](#launching-a-lab)
+    + [Advertising Campaigns and Introductory Content](#advertising-campaigns-and-introductory-content)
+    + [Lab Instructions](#lab-instructions)
+  * [Overview of the Lab Client](#overview-of-the-lab-client)
+    + [Separating the Lab console from the Resource Portal (two windows)](#separating-the-lab-console-from-the-resource-portal--two-windows-)
+    + [Edit Instructions](#edit-instructions)
+  * [Authoring Lab Instructions](#authoring-lab-instructions)
+    + [Using the Lab Instruction Editor](#using-the-lab-instruction-editor)
+    + [Regex Tips](#regex-tips)
+    + [Upload Media and Documents](#upload-media-and-documents)
+    + [Instruction Recommendations](#instruction-recommendations)
+      - [Headings](#headings)
+      - [Introduction Message](#introduction-message)
+        * [Objective and Scenario Best Practices and Guidelines](#objective-and-scenario-best-practices-and-guidelines)
+      - [Completion message](#completion-message)
+      - [Lab Instruction Placement](#lab-instruction-placement)
+      - [Tasks](#tasks)
+      - [Screenshots](#screenshots)
+      - [Virtual Machine Select](#virtual-machine-select)
+          + [VM displayed **in lab instructions** using a Replacement Token.](#vm-displayed---in-lab-instructions---using-a-replacement-token)
+          + [VMs are displayed on the Resources tab.](#vms-are-displayed-on-the-resources-tab)
+      - [Removable Media](#removable-media)
+  * [Markdown Syntax](#markdown-syntax)
+    + [Headings](#headings-1)
+    + [Text Formatting](#text-formatting)
+    + [Link formatting](#link-formatting)
+    + [Link Behavior Prefixes](#link-behavior-prefixes)
+    + [Page formatting](#page-formatting)
+    + [Embedded content](#embedded-content)
+    + [Task and List formatting](#task-and-list-formatting)
+    + [Table formatting](#table-formatting)
+    + [Special formatting](#special-formatting)
+- [Activities](#activities)
+  * [Automated Activity](#automated-activity)
+    + [Automated Activity Best Practice and Guidelines](#automated-activity-best-practice-and-guidelines)
+    + [Example Automated Activity](#example-automated-activity)
+  * [Questions](#questions)
+    + [Multiple Choice Questions](#multiple-choice-questions)
+    + [Short Answer Questions](#short-answer-questions)
+  * [Scoring](#scoring)
+  * [Edit Activities](#edit-activities)
+  * [Add Review Questions as an Assessment Exam to a Lab](#add-review-questions-as-an-assessment-exam-to-a-lab)
+  * [Additional Features](#additional-features)
+    + [Create and Incorporate Advertising Campaigns](#create-and-incorporate-advertising-campaigns)
+    + [Incorporate Rich Media Content as Part of Lab Introduction](#incorporate-rich-media-content-as-part-of-lab-introduction)
+  * [Common Style Guidelines](#common-style-guidelines)
+  * [Acronyms and Initialisms](#acronyms-and-initialisms)
+    + [Trademarks](#trademarks)
+    + [Bold Formatting](#bold-formatting)
+    + [Initial Caps](#initial-caps)
+    + [Sentence Case](#sentence-case)
+    + [Title Case](#title-case)
+  * [Describing the User Interface](#describing-the-user-interface)
+  * [Appendix: Advanced Settings in Lab Profiles](#appendix--advanced-settings-in-lab-profiles)
+
 ## Overview of the Integrated Digital Lab eXperience (IDLx) Platform
 
 The IDLx platform integrates the lab instructions with the Cloud Portal of choice or virtual machines (VMs) in the lab environment, to guide the users in completing the lab. The IDLx platform allows users to view lab instructions inline with the Cloud portal or VMs.
@@ -48,7 +106,7 @@ If you are including introductory content directly within the lab instructions, 
 
 ### Lab Instructions
 
-In labs configured to use the IDLx platform, lab instructions are written in an IDL flavor of Markdown (idl-md), and what those instructions contain is completely up to the author. There is no predefined format that has to be followed. You simply author lab instructions the way that you want, and they will appear that way to users of the lab. The content you include in your instructions may be all on one page, or you may break up your content across multiple pages. You may include task lists, with or without numbering, with or without subtasks, and you can go as many levels deep as you like. How the lab instructions present to users of your lab is entirely up to you.
+In labs configured to use the IDLx platform, lab instructions are written in Markdown, and what those instructions contain is completely up to the author. There is no predefined format that has to be followed. You simply author lab instructions the way that you want, and they will appear that way to users of the lab. The content you include in your instructions may be all on one page, or you may break up your content across multiple pages. You may include task lists, with or without numbering, with or without subtasks, and you can go as many levels deep as you like. How the lab instructions present to users of your lab is entirely up to you.
 
 ![](images/idl2-exercises-tasks.png "Lab instructions")
 
@@ -68,7 +126,7 @@ Even though the instructions are free form, here are a few general tips that you
 
 The lab client is divided into two main parts: the **Lab Console**, and the **Resource Portal**.
 
-The **Lab Console** is initially displayed on the right side of the lab client, with the Instructions tab showing. This initial view allows users to get started with a lab immediately once it has launched. All instructions written in idl-md will be rendered within the Instructions tab. In the screenshot below, you see a sample lab showing a portion of the instructions for the lab. Activities that the user is instructed to do can optionally be created in a task list, which will render with checkboxes before each task (as you can see in the same screenshot), allowing users to track their progress in the lab. When a user checks a checkbox, all preceding checkboxes that were unchecked will be checked. This allows users to perform multiple tasks quickly, and then mark them as complete with a single click. As users mark tasks as complete, this progress is tracked and reported to LOD and TMS, while providing a visual marker to the end user indicating where they are in the lab. Overall lab progress is reported as the percentage of tasks that are marked as complete in the lab instructions.
+The **Lab Console** is initially displayed on the right side of the lab client, with the Instructions tab showing. This initial view allows users to get started with a lab immediately once it has launched. All instructions written in Markdown will be rendered within the Instructions tab. In the screenshot below, you see a sample lab showing a portion of the instructions for the lab. Activities that the user is instructed to do can optionally be created in a task list, which will render with checkboxes before each task (as you can see in the same screenshot), allowing users to track their progress in the lab. When a user checks a checkbox, all preceding checkboxes that were unchecked will be checked. This allows users to perform multiple tasks quickly, and then mark them as complete with a single click. As users mark tasks as complete, this progress is tracked and reported to LOD and TMS, while providing a visual marker to the end user indicating where they are in the lab. Overall lab progress is reported as the percentage of tasks that are marked as complete in the lab instructions.
 
 ![](images/idl2-example-with-instructions.png "Lab Client, shown with the Dark theme")
 
@@ -100,7 +158,7 @@ To join the two windows back into a single window:
 
 Once the IDLx client experience is enabled, you are now able to edit the lab instructions. When the Edit Instructions button is clicked, this checks out the lab manual. Checking out the lab manual ensures that only you are able to edit lab instructions, and if another author attempts to edit the lab instructions while you are actively editing the lab instructions, the lab instruction editor will simply open in read-only mode. After you are done editing the lab instructions, close the the instructions editor, and the lab manual will be checked in automatically. Once the lab manual is checked in, another author will be able to edit the lab instructions.  
 
-To begin editing lab instructions, while viewing a lab profile, click **Edit Instructions** in the upper-right corner, to open the instruction editor, as shown below. This will open a new window with an idl-md (markdown) editor on the left and a preview pane on the right. This gives you the ability to create lab instructions, and see a live preview of how they will be displayed to the user during the lab.
+To begin editing lab instructions, while viewing a lab profile, click **Edit Instructions** in the upper-right corner, to open the instruction editor, as shown below. This will open a new window with a markdown editor on the left and a preview pane on the right. This gives you the ability to create lab instructions, and see a live preview of how they will be displayed to the user during the lab.
 
 ![](images/edit-instructions.png "Edit Instructions")
 
@@ -119,7 +177,10 @@ The image below shows what will be seen after clicking **Edit instructions**, as
 ![](images/idl2-text-editor.png "IDL 2 Instruction Editor")
 
 - **Disk icon:** Click to save current progress; this is not necessary if autosave is enabled.
-- **&commat;lab:** Replacement Tokens are used to create a placeholder for dynamic text that will be added to the lab when it is launched. This is helpful if you do not know the information at the time of authoring the lab, but would like specific information to be inserted later when the user is in the lab. Examples of this are usernames, passwords, unique ID numbers, etc.
+- **&commat;lab menu:** 
+    - **Replacement Tokens**: Replacement Tokens are used to create a placeholder for dynamic text that will be added to the lab when it is launched. This is helpful if you do not know the information at the time of authoring the lab, but would like specific information to be inserted later when the user is in the lab. Examples of this are usernames, passwords, unique ID numbers, etc.
+    - **Variables**:  Used to store information that is not known at the time of lab authoring. Variables are created with a Name/Value pair and are inserted into lab instructions with a replacement token. 
+    - **Replacements**: Find and replace any text in lab instructions. Text can be found in lab instructions that matches the case of the Find word, or by a regex expression. For more information about Regex expressions, see [Regex Tips](#regex-tips).
 - **Upload:** Used to upload files or images to the lab.
 - **Activities:** Activities Menu
     - Question Activities
@@ -136,6 +197,35 @@ The image below shows what will be seen after clicking **Edit instructions**, as
     - Auto-check previous tasks: when this is enabled and a task is completed, all previous tasks will be automatically checked. 
 - **Markdown Help:** displays common Markdown syntax, used for reference while writing lab instructions. Clicking the *Learn More* button will display more information that may be helpful with authoring your lab. 
 
+### Regex Tips
+
+Some of the most frequently used parts of regex syntax:
+
+|Expression|Description|
+|---|---|
+|.|Matches any single character (use "\." to match a ".").|
+|[abc]|Matches one of the characters ([abc] matches a single "a" or "b" or "c")|
+|[c-g]|Matches one of the characters in the range ("[c-g]" matches a single "c" or "d" or "e" or "f" or "g".|
+||"[a-z0-9]" matches any single letter or digit.|
+||"[-/.:?]" matches any single "-" or "/" or "." or ":" or "?".).|
+|?|None or one of the preceding ("words?" will match "word" and "words".|
+||"[abc]?" matches a single "a" or "b" or "c" or nothing (i.e. "")).|
+|*|None or more of the preceding ("words*" will match "word", "words" and "wordsssssss". ".*" will match anything including nothing).|
+|+|One or more of the preceding ("xxx+" will match a sequence of 3 or more "x").|
+|(expr1\|expr2)|One of the expressions, which in turn may contain a similar construction ("(foo\|bar)" will match "foo" or "bar". "(foo\|bar)? will match "foo" or "bar" or nothing (i.e. "")).|
+|$|The end of the line ("(foo\|bar)$" will match "foo" or "bar"only at the end of a line).|
+|\x|Disable the special meaning of x where x is one of the special regex characters ".?*+()^$[]{}\"  ("\." will match a single ".", "\\" a single "\" etc.)|
+
+For more information on Expressions, check out the [SquidGuard documentation](https://web.archive.org/web/20180807025620/http://squidguard.org/Doc/expressionlist.html).
+
+For example, a basic expression list to allow access (if placed in the whitelist) to the Azure portal and some Azure features: 
+
+`.*\.azure\.net`
+
+`.*\.azure\.com`
+
+`.*\.core\.windows\.net`
+
 ### Upload Media and Documents
 
 Media and documents can be uploaded and inserted into lab instructions. 
@@ -145,8 +235,8 @@ Media and documents can be uploaded and inserted into lab instructions.
     ![Upload Button](images/upload-button.png)
 
 1. A **Dialog** will appear that allows you to add files by **dragging them into the lab instructions window** or by clicking the **Choose Files** button, as well as some additional options:
-    - **Display Inline** or **As a link**: Inline will **render the image with lab instrucitons**, As a link **provides a link** that the user can click, to view the image in a new window.
-    - **Overwrite existing files**: chosing this option will **overwrite files with the same file name**, that are currently saved in Lab on Demand. This is useful when the wrong file gets uploaded and needs to be replaced with the correct file. 
+    - **Display Inline** or **As a link**: Inline will **render the image with lab instructions**, As a link **provides a link** that the user can click, to view the image in a new window.
+    - **Overwrite existing files**: choosing this option will **overwrite files with the same file name**, that are currently saved in Lab on Demand. This is useful when the wrong file gets uploaded and needs to be replaced with the correct file. 
 
 ![](images/drag-and-drop-screenshots.png)
 
@@ -254,7 +344,7 @@ To add a screenshot by pasting from your local clipboard:
 1. Press **CTRL+V** to paste the screenshot into the lab instructions. 
 
 1. A **Dialog** will appear, asking to **choose options** for the content:
-    - **Display Inline** or **As a link**: Inline will **render the image with lab instrucitons**, As a link **provides a link** that the user can click, to view the image in a new window.
+    - **Display Inline** or **As a link**: Inline will **render the image with lab instructions**, As a link **provides a link** that the user can click, to view the image in a new window.
     - **Format**: JPG or PNG. Choose the format you wish to use for the screenshot.
     - **File Name**: You can provide a file name for the screenshot. If a file name is not provided, the screenshot will be assigned a randomly generated name and stored in Lab on Demand.
     
@@ -273,8 +363,8 @@ To Add a screenshot by dragging an image into the lab instructions window:
 1. **Drag the screenshot** into the lab editor interface.
 
 1.  A **Dialog** will appear, asking to **choose options** for the  content:
-    - **Display Inline** or **As a link**: Inline will **render the image with lab instrucitons**, As a link **provides a link** that the user can click, to view the image in a new window.
-    - **Overwrite existing files**: chosing this option will **overwrite files with the same file name**, that are currently saved in Lab on Demand. This is useful when the wrong file gets uploaded and needs to be replaced with the correct file. 
+    - **Display Inline** or **As a link**: Inline will **render the image with lab instructions**, As a link **provides a link** that the user can click, to view the image in a new window.
+    - **Overwrite existing files**: choosing this option will **overwrite files with the same file name**, that are currently saved in Lab on Demand. This is useful when the wrong file gets uploaded and needs to be replaced with the correct file. 
 
 **Note**: Other media types such as videos and documents can be added using this method. 
 
@@ -689,7 +779,7 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
 
 
-- **Dialog:** Used to open a dialog popup, to display additonal information. This can be useful to make additional information available to the student. Dialogs **should not be used to display websites that are in an iFrame**, as this can cause some abnormal page rendering in the dialog. 
+- **Dialog:** Used to open a dialog popup, to display additional information. This can be useful to make additional information available to the student. Dialogs **should not be used to display websites that are in an iFrame**, as this can cause some abnormal page rendering in the dialog. 
 
     > ^[Text to display in lab  instructions][Reference Link]
 
@@ -904,7 +994,7 @@ Automated Activities are PowerShell or Shell scripts that target a Cloud Subscri
 - **Incorrect answer feedback**: this will be displayed to the user upon entering or selecting a incorrect answer to a question. 
 
 - **Script 1**:
-    - **Score Value**: the score value the student will recieve for completing the Activity correctly. This score contributes to their overall score in the lab.
+    - **Score Value**: the score value the student will receive for completing the Activity correctly. This score contributes to their overall score in the lab.
     - **Target**: the virtual machine or cloud subscription that the script will target. Cloud subscriptions must be targeted by PowerShell, and Windows-based virtual machines running on Hyper-V can be targeted by PowerShell or Shell.
     - **Language**: the scripting language that will be used. PowerShell and Shell are supported. 
     - **Script**: enter the script that will be executed.
