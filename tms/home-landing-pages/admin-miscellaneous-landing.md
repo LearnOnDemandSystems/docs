@@ -57,6 +57,10 @@
       <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/create-custom-event.md">
         <div class="subtopic_title">How do I create a custom event?</div>
       </a>
+        </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/moc-api-lti-consumer.md">
+        <div class="subtopic_title">Microsoft Official Curriculum (MOC) API/LTI Consumer Information</div>
+      </a>      
     </div>
   </div>
 </div>
