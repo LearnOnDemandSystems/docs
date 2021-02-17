@@ -22,7 +22,7 @@ To view our list of available Lab Series and Lab Profiles, visit our [MOC API/LT
 
 
 ## Instructor Information 
-To view our Azure Cloud Slice Instructor Guide (specific to API/LTI consumers), please download our [PDF](https://lodmanuals.blob.core.windows.net/lms/Microsoft%20Official%20Curriculum%20(MOC)/Azure%20Cloud%20Slice%20API%20Instructor%20Guide.pdf). This information should be distributed to technical contacts and instructors as needed. 
+To view our Azure Cloud Slice Instructor Guide (specific to API/LTI consumers), please download our [PDF](https://lodmanuals.blob.core.windows.net/lms/Microsoft%20Official%20Curriculum%20\(MOC\)/Azure%20Cloud%20Slice%20API%20Instructor%20Guide.pdf). This information should be distributed to technical contacts and instructors as needed. 
 
 ## Shared Dynamics Tenants 
 Some MOC labs use a shared Dynamics 365 tenant. To ensure proper setup to consume these labs through Learn on Demand Systems API or LTI, please carefully review tenant configuration and impacts below. 
