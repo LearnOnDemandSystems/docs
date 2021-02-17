@@ -1,7 +1,7 @@
 ---
 title: "MOC API/LTI CONSUMER INFORMATION "
-description: "Description of document."
-isPublished: false
+description: "Information for Learning Partners consuming Microsoft Official Curriculum (MOC) through Learn on Demand Systems API or LTI."
+isPublished: true
 ---
 
 # Microsoft Official Curriculum (MOC) API/LTI Consumer Information 
