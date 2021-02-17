@@ -27,16 +27,16 @@ To view our Azure Cloud Slice Instructor Guide (specific to API/LTI consumers), 
 ## Shared Dynamics Tenants 
 Some MOC labs use a shared Dynamics 365 tenant. To ensure proper setup to consume these labs through Learn on Demand Systems API or LTI, please carefully review tenant configuration and impacts below. 
 
-## Courses Impacted 
+#### Courses Impacted 
 |Course Number |Version|Course Title|
 |:---|:---|:---|
 |MB-210T01 |A|Microsoft Dynamics 365 Sales|
 |MB-220T00 |A|Microsoft Dynamics 365 Marketing|
 |MB-230T01 |A|Microsoft Dynamics 365 Customer Service|
 |MB-240T00 |A|Microsoft Dynamics 365 Field Service |
-|MB-901T00 |A|Microsoft Dynamics 365 Fundamentals 
+|MB-901T00 |A|Microsoft Dynamics 365 Fundamentals |
 
-## User/Class Impact 
+#### User/Class Impact 
 
 - A single tenant is provided per class with 1 admin credential for the instructor & 24 student credentials. 
 
@@ -48,7 +48,7 @@ Some MOC labs use a shared Dynamics 365 tenant. To ensure proper setup to consum
 
 - Student 180 days post class is still available. 
 
-## Setup for API/LTI 
+#### Setup for API/LTI 
 
 These labs must be launched in a “class” context for the instructor and student credentials to be distributed. These labs cannot be consumed in a self-paced setting, this is a result of tenant configuration and the first time we’ve seen this tenant type. If the labs are launched outside a class, then credentials will not be assigned. 
 
