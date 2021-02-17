@@ -26,7 +26,7 @@ Some Microsoft Official Curriculum (MOC) labs use a shared Dynamics 365 tenant. 
 
 ## Courses Impacted 
 |Course Number |Version|Course Title|
-|:---|:---|:---|
+|:---|:---:|:---|
 |MB-210T01 |A|Microsoft Dynamics 365 Sales|
 |MB-220T00 |A|Microsoft Dynamics 365 Marketing|
 |MB-230T01 |A|Microsoft Dynamics 365 Customer Service|
