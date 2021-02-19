@@ -120,7 +120,7 @@ The Access Control Policies that are defined here apply to the subscription. An 
 
 - **Override Region**: This overrides the region(s) selected in the Datacenter Availability menu. Check this box to select a region to override the Resource Group deployment to. 
 
-    >[!knowledge] When Override Region is selected, the datacenter physically closest to the lab user will be selected. 
+    >[!knowledge] When Override Region is selected, the datacenter physically closest to the lab user will not be selected. The region selected next to Override Region will be used. 
 
 #### Permissions
 These permissions apply to this Resource Group only.
