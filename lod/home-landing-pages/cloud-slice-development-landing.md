@@ -67,6 +67,10 @@
         <div class="subtopic_title">Find Azure Resource Templates</div>
         <div class="subtopic_description">How to find Azure Resource Manager templates for use with Microsoft Azure.</div>
       </a>
+      <a class="subtopic_link" href="/lod/azure-css.md">
+        <div class="subtopic_title">Microsoft Azure Cloud Slice Subscription</div>
+        <div class="subtopic_description">Configure a lab profile to deliver training on Microsoft Azure subscriptions.</div>
+      </a>
       <a class="subtopic_link" href="/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md">
         <div class="subtopic_title">Setup your Azure cloud subscription in OneLearn Lab on Demand</div>
         <div class="subtopic_description">Configure a subscription pool in Lab on Demand, for use with Azure cloud slice.</div>

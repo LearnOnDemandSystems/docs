@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Azure Cloud Slice Subscription"
 description: "Configure a lab profile to deliver training on Microsoft Azure subscriptions."
-isPublished: false
+isPublished: true
 ---
 
 # Microsoft Azure Cloud Slice Subscription 
