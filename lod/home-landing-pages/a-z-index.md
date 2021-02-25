@@ -214,6 +214,10 @@
         <div class="subtopic_title">Markdown User Guide</div>
         <div class="subtopic_description">This document covers Markdown in detail, including syntax for all supported Markdown.</div>
       </a>
+      <a class="subtopic_link" href="/lod/azure-css.md">
+        <div class="subtopic_title">Microsoft Azure Cloud Slice Subscription</div>
+        <div class="subtopic_description">Configure a lab profile to deliver training on Microsoft Azure subscriptions.</div>
+      </a>
       <a class="subtopic_link" href="/lod/org-max-ram.md">
         <div class="subtopic_title">Organization RAM Limits</div>
         <div class="subtopic_description">Max RAM usage, max active lab instances and max RAM per lab profile.</div>
