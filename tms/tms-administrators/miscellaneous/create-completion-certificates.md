@@ -40,6 +40,15 @@ To upload the certificate template:
 1. On the **Admin** menu in the **Courses** group, click **Manage Completion Certificates**.
 1. Click **Create Course Certificate Template**. 
 1. Add a **Name** and **Description**, and click **Upload new file**.
+1. Select the **Course Certificate Date Format**: 
+     - MM/dd/yyyy
+     - MM-dd-yyyy
+     - dd/MM/yyyy
+     - dd-MM-yyyy
+     - dd MMM yyy
+     - dddd, dd MMMM yyyy
+     - yyyy-MM-dd
+     - yyy/MM/dd
 1. Select the DOCX file in your file system and click **Open**.
 1. Click **Save**.
 
