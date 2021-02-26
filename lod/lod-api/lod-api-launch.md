@@ -21,7 +21,7 @@ The **Launch** command will launch a specified lab for a specified user.
 |maxSavedLabs|Integer|No|The max number of labs an individual user may save. This is capped by the number configured on your API consumer.|
 |maxSaveDays|Integer|No|The max number of days an individual user may save their lab. This is capped by the number configured on your API consumer.|
 |maxActiveLabs|Integer|No|The max number of concurrent lab instances is capped by the number configured on your API consumer.|
-|lang|string|No|Allows you to override the lab client UI language. Please note this only affects the lab client UI elements such as menus, tabs, and dialogs. The lab instructions and content are not affected.|
+|lang|String|No|Allows you to override the lab client UI language. Please note this only affects the lab client UI elements such as menus, tabs, and dialogs. The lab instructions and content are not affected.|
 | | | | en = English |
 | | | | es = Spanish |
 | | | | fr = French  |
