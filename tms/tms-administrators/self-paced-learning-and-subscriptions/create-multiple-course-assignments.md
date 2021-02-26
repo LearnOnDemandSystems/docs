@@ -13,7 +13,9 @@ A Course Assignment allows you to give access to a course's activities and resou
 - Is not designed to be supervised by an instructor.
 - Does not have a classroom (physical or virtual).
 
-Take the following steps to create a Learning Path:
+## Create Course Assignments 
+
+Take the following steps to create Course Assignments:
 
 1. Click **Create Multiple Course Assignments** on the **Course Assignments** tile from the Administration page. 
 
