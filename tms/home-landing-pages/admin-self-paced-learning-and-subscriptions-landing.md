@@ -30,7 +30,7 @@
         <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/create-subscription.md">
         <div class="subtopic_title">How do I create a subscription?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/multiple-course-assignments.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/create-multiple-course-assignments.md">
         <div class="subtopic_title">How do I create multiple course assignments?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-single.md">
