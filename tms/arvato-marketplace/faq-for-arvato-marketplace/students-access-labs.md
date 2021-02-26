@@ -15,7 +15,7 @@ Student access to labs is based on several factors in the TMS:
 When student register using **Training Keys**, they are automatically added as **Enrolled** in the class.
 >:small_orange_diamond: [View a video on how new students can use a training key to access class.](https://youtu.be/3dQI5V51QJ8) 
 >
->:small_orange_diamond: [View a video on how students with an existing user account in the TMS plarform can use a training key to access class.](https://youtu.be/8u_iCARW1TM) 
+>:small_orange_diamond: [View a video on how students with an existing user account in the TMS plarform can use a training key to access class.](https://youtu.be/-MlxmEnPnB0) 
 
 To access their class and labs, students will:
 1. Log into **https://alh.learnondemand.net**. They will land on their **Current Training** page. This page will display all their current enrollments as well as any saved labs they may have.
