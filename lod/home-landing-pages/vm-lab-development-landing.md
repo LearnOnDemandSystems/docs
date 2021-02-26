@@ -79,7 +79,11 @@
       <a class="subtopic_link" href="/lod/lab-profile-cloning.md">
         <div class="subtopic_title">Lab Profile Cloning</div>
         <div class="subtopic_description">Create a duplicate copy of a lab profile by cloning.</div>
-      </a>        
+      </a>
+      <a class="subtopic_link" href="/lod/lab-series-cloning.md">
+        <div class="subtopic_title">Lab Series Cloning</div>
+        <div class="subtopic_description">Create a duplicate copy of a Lab Series by cloning.</div>
+      </a>     
       <a class="subtopic_link" href="/lod/feature-focus/lab-profiles/create.md">
         <div class="subtopic_title">Lab Profile Creation and Explanation</div>
         <div class="subtopic_description">Lab profile creation, and explanation of lab profile configuration.</div>
