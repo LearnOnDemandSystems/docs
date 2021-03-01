@@ -24,7 +24,7 @@ Instructor and students launch virtual classroom and class activities from one p
 Enter classroom button availability is set on the class  | X |   |   |
 Enter classroom button is available to instructor 60 minutes before class session starts until class session end time  |   |   | X |
 Enter classroom button is available to students 15 minutes before class session starts until class session end time  |   |   | X |
-Enter classroom button access before and after class session can be customized for all classes for instructors and students  |   | X |   |
+Enter classroom button access before and after class session can be customized for all classes for instructors and students  | X | X |   |
 **Recording Classes**
 Class session recording links available in TMS to instructors and students |   | X | X |
 
