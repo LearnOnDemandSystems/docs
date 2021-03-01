@@ -8,58 +8,122 @@ isPublished: true
 
 Code Labs are a lab platform type with a code editor user interface (UI) in the lab client and a backend service calling docker containers to run code. The code is executed in a Code Container, which a language specific docker image with a compiler run time where the code is compiled and evaluated.
 
-- [Code Lab Dialog](#code-lab-dialog)
-    - [Common Language Settings](#common-language-settings)
-    - [Language Specific Settings](#language-specific-settings)
-- [Code Language Dialog](#code-language-dialog)
-    - [Add Code Language](#add-code-language)
-    - [Advanced Options](#show-advanced-options)
-- [Building Your First Code Lab](#building-your-first-code-lab)
-    - [Running the Default Lab](#running-the-default-lab)
-    - [Building Your Lab](#building-your-lab)
-    - [Code Editor in a Launched Lab](#code-editor-in-a-launched-lab)
+- [Starting a Code Lab](#Starting-a-Code-Lab)
+- [Code Lab Settings](#Code-Lab-Settings)
+- [Code Lab Client](#Code-Lab-Client)
+- [Language Settings](#Language-Settings)
+    - [Adding a supported language](#Adding-a-supported-language)
+    - [Template](#Template)
+    - [Program Wrapper](#Program-Wrapper)
+    - [Advanced](#Advanced)
+- [Tests](#Tests)
+    - [Inputs](#Inputs)
+    - [Adding Tests](#Adding-Tests)
+- [Example Code Lab](#Example-Code-Lab)
 
-## Code Lab Dialog
+## Starting a Code Lab
 
-The </> button in Edit Instructions of your lab profile will open the Code Fabric settings. 
+[<img src="images/codelabs/1_cl_enable.png" width="500"/>]
 
-![](images/code-lab-dialog.png)
+To enable Code Labs in a Lab Profile, select the Code Lab Fabric checkbox in the inital Lab Profile creation.  This profile will now be set up for using Code Labs.
 
-### Common Language Settings
 
-Used to test the student's code submission. Inputs are passed in on the command line, and the output of the program is compared to the expected output. If they match, the test passes. Each test is a separate run of the program.
+## Code Lab Settings 
 
-- **Add Test Input Column**: adds an additional input to the code test.
-- **Remove Test Input Column**: removes inputs in the order that they were added.
-- **Add New Test**: adds a new code test.
+With Code Labs enabled, you will now be able to edit the Code Lab settins by selecing the code icon in the Lab Instructions.
 
-### Language Specific Settings
+[<img src="images/codelabs/2_cl_button.png" width="300"/>]
 
-A Code Language is a specific programming language. Code labs can have multiple languages, each language has pieces which need to be defined by the lab author; configuration and templates that are unique for each programming language. Each set is functionally the same, but translated to a different language.
+Selecting the Code Lab icon will launch the Code Labs Settings dialog.
 
-- **Add Code language**: adds a code language.  Clicking this button will open the [Code Language Dialog](#code-language-dialog).
+[<img src="images/codelabs/3_cl_admin_empty.png" width="700"/>]
 
-## Code Language Dialog
+The Code Lab Settings consist of 5 parts:
+ 1) Add supported languages to your Code Lab
+ 2) Manage settings for languages
+ 3) Add test inputs
+ 4) Add tests the will run in the Code Lab Client
+ 5) Manage Code Lab Tests
 
-![](images/add-code-language.png)
+## Code Lab Client
 
-### Add Code Language 
+[<img src="images/codelabs/5_cl_empty.png?1" width="700"/>]
 
-- **Language**: select the language that you wish to use.
+The Code Lab client is the student facing side of Code Labs.  The Client is a simplified IDE where students can write their own code, add their own tests, and ultimately submit their code for scoring or testing.
 
-- **Template**: presented to the student when the lab is launched. Usually a blank function, the student writes code inside this empty function template.
+The Code Lab Client consists of 9 parts:
 
-- **Program Wrapper**: wraps the students code, **must contain the string `#CODE#`** which is replaced by the student's code submission. Hides implementation details used to execute the function as part of a full program in the backend LOD service. Contains library includes, passing command line arguments to the student's function, and printing output back to console for testing.
+1) The Code Language Selector - Used by the student to choose which language they prefer to use for the Code Lab.  These reflect the languages added to in the Code Lab Settings.
+2) Reset - This will reset any student code to the original template set up in Code Lab Settings.
+3) Submit - This will run any code entered by the student, and compare the result in Tests and Custom Tests
+4) IDE - A simplified IDE.  This will populate with the initial Code Lab Language Template, and students can edit code in this area.
+5) Output - All program output will show here.
+6) Errors - Any program errors will show here.
+7) Tests - All tests added in the Code Lab Settings will show here, and be evaluated on submit.
+8) Custom Tests - Students have the ability to add custom tests to each Code Lab.  These will be evaluated on submit.
+9) Instructions - Standard Lab Profile instructions.
 
-### Show Advanced Options
 
-- **Test Command String**: a command to run the created program. String.Format is used to replace arguments with test inputs. {0} is input 1, {1} is input 2, etc. The program is executed once per test.
+## Language Settings
 
-- **Compilation Command**: for compiled languages only, this command is ran to compile source code into an executable.
+[<img src="images/codelabs/6_cl_lang.png" width="700"/>]
 
-- **Project Wrapper**: extra project information.
+A Code Language is a specific programming language. Code labs can have multiple supported languages, but all languages will take the same test inputs.
 
-# Building Your First Code Lab
+Once a Supported Language is added to the Code Lab, instructors will have 3 settings areas for adjusting settings.
+
+### Template
+
+The Starting Template is the initial code that is presented to a student when a lab is launched.  Usually a blank function, the student writes code inside this empty function template.  This code is then populated in the `#CODE#` area of the **Program Wrapper**.
+
+### Program Wrapper
+
+[<img src="images/codelabs/7_cl_lang_pr.png" width="700"/>]
+
+The Program Wrapper wraps the students code, and **must contain the string `#CODE#`** which is replaced by the student's code submission. This hides implementation details used to execute the function as part of a full program in the backend LOD service. The Program Wrapper can contains library includes, pass command line arguments to the student's function, and finally print results for comparison against **Tests** and **Custom Tests**.
+
+
+
+### Advanced
+
+[<img src="images/codelabs/8_cl_lang_advanced.png" width="700"/>]
+
+- **Test Command String** - A command to run the created program. String.Format is used to replace arguments with test inputs. {0} is input 1, {1} is input 2, etc. The program is executed once per test.
+
+- **Compilation Command** - For compiled languages only, this command is ran to compile source code into an executable.
+
+- **Project Wrapper** - Extra project information as needed per language.
+
+
+
+
+## Tests
+
+[<img src="images/codelabs/10_cl_tests.png" width="700"/>]
+
+Tests are added to Code Labs and ran once code is submitted from the Code Lab Client.  These can be used to help students as they progress through the lesson, and also to to verify student submissions.  Tests can be hidden from students to verify code functions as expected and is not simply brute-force passes.
+
+
+[<img src="images/codelabs/9_cl_add_input.png" width="700"/>]
+
+
+### Inputs
+
+It is important to note that adding an input in the test area **automatically adds an input to the Test Command String in Advanced Settings**.  Test inputs are passed to the program wrapper via arguement vectors.  Each language notes the expected argument vector array that the program will use.
+
+**Be sure to pass the correct number or argument vectors to your Program Wrapper and Starting Template**
+
+To add and remove test inputs, simply select the corrisponding button.
+
+### Adding Tests
+
+[<img src="images/codelabs/11_cl_add_test.png" width="700"/>]
+
+Simply click the **Add Test** button to add a test to your Code Lab.  You will now be able to give the test a friendly name, add inputs, and give the expected output.
+
+Tests can be hidden from students to verify code functions as expected and is not simply brute-force passes.
+
+# Example Code Lab
 
 ## Running the Default Lab
 
@@ -69,14 +133,14 @@ A Code Language is a specific programming language. Code labs can have multiple 
 
 1. Click Edit Instructions, then click the Code Fabric button `</>` at the top. This dialog contains all the code fabric specific configuration.
 
-1. Click **Add Code Language** to add the first language to your lab. 
+1. Click **Add Supported Language** to add the first language to your lab. 
 
     We will start with c, compiled using gcc:10.2.0. The dialog will contain working default templates for a very simple program that takes a single integer input and adds 1 to it. Look over these fields to get an idea of how your lab will work. 
    - If you want to run the default template, close the Add Code Language dialog now. Add a new test with working values like `TEST1, 1, 2`. 
 
 1. Click Save and launch your lab. 
 
-1. After the lab launches, click "Submit Code" and your function will be evaluated, you should get a successful test run.
+1. After the lab launches, click "Run Code" and your function will be evaluated, you should get a successful test run.
 
    >[!knowledge] Please note that this default setup has a completed function "MyFunction" in the Template field. When you create your lab MyFunction will be empty, and the code inside will be written by the student.
 
@@ -85,8 +149,6 @@ A Code Language is a specific programming language. Code labs can have multiple 
 1. Now we will start writing our lab. This example will be a Leap Year Calculator which outputs how many leap years have occurred since the given input year. 
 
 1. Go to the menu in your running lab and click **Edit Instructions**, then click the Code Fabric button `</>`.
-
-1. Edit the language definition by clicking the pencil next to **Language** c.
 
 1. We will start with the Template. This is an empty function the student will see when they first launch their lab.
     
@@ -114,9 +176,8 @@ A Code Language is a specific programming language. Code labs can have multiple 
     #CODE#  
     ```
 
-1. **Optional**: We don't need to change any advanced options for this lab, but if you wanted a function that accepted multiple inputs you would need to change the Test Command String. The test command uses _String.Format_ to run tests. IE a test with 2 inputs would be "./myapp {0} {1}".
+1. **Optional**: We don't need to change any advanced options for this lab, but if you wanted a function that accepted multiple inputs you would need to verify the test string, program wrapper, and template all have the correct arguement vectors.
 
-1. Click Close to return to the previous dialog.
 
 3. Create your tests. 
     - Test Name is for display purposes only. 
@@ -142,26 +203,3 @@ A Code Language is a specific programming language. Code labs can have multiple 
 1. Submit the Code and you will see the results of the tests you created before. Success! 
 
 Congratulations, you've created your first code lab!
-
-## Code Editor in a Launched Lab
-
-When the lab is launched, the lab user will see a code editor on the left and instructions on the right. Under the Code Editor, there are multiple sections to show Tests, Custom Tests, Output and Errors. There is also buttons to reset the code and submit the code. 
-
-![](images/code-editor.png)
-
-- **Language**: select the language to use. This drop-down list will be populated with languages based on the language specific settings that were configured during lab authoring. 
-
-- **Tests**: after the student submits their code, this will display the results of the tests that were configured during lab authoring. 
-
-- **Custom Tests**: create custom unit tests. After clicking _Custom Tests_, click _Edit Tests_. The next screen will allow you to configure custom unit tests. Unit Tests are configured with 1 input and 1 output. 
-
-- **Output**: this will display the output of the program's code. This displays the input, expected output, the actual output and if the code is correct or incorrect. 
-
-- **Errors**: this will display any errors that occur as a result of the code written in the code editor. 
-
-- **Score**: after code is submitted, a score will be displayed based on the code that was submitted compared to the test that was configured. 
-
-- **Reset Code**: If the lab user entered any code, this will remove it and reset the code back to the template code that was configured during lab authoring. 
-
-- **Submit Code**: submits the code for evaluation against the tests configured. 
-
