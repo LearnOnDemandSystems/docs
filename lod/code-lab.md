@@ -25,6 +25,8 @@ Code Labs are a lab platform type with a code editor user interface (UI) in the 
 
 [<img src="images/codelabs/1_cl_enable.png" width="500"/>]
 
+![](images/codelabs/1_cl_enable.png)
+
 To enable Code Labs in a Lab Profile, select the Code Lab Fabric checkbox in the inital Lab Profile creation.  This profile will now be set up for using Code Labs.
 
 
