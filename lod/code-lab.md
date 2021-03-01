@@ -23,8 +23,6 @@ Code Labs are a lab platform type with a code editor user interface (UI) in the 
 
 ## Starting a Code Lab
 
-[<img src="images/codelabs/1_cl_enable.png" width="500"/>]
-
 ![](images/codelabs/1_cl_enable.png){500}
 
 To enable Code Labs in a Lab Profile, select the Code Lab Fabric checkbox in the inital Lab Profile creation.  This profile will now be set up for using Code Labs.
@@ -34,11 +32,11 @@ To enable Code Labs in a Lab Profile, select the Code Lab Fabric checkbox in the
 
 With Code Labs enabled, you will now be able to edit the Code Lab settins by selecing the code icon in the Lab Instructions.
 
-[<img src="images/codelabs/2_cl_button.png" width="300"/>]
+![](images/codelabs/2_cl_button.png){300}
 
 Selecting the Code Lab icon will launch the Code Labs Settings dialog.
 
-[<img src="images/codelabs/3_cl_admin_empty.png" width="700"/>]
+![](images/codelabs/3_cl_admin_empty.png){700}
 
 The Code Lab Settings consist of 5 parts:
  1) Add supported languages to your Code Lab
@@ -49,7 +47,7 @@ The Code Lab Settings consist of 5 parts:
 
 ## Code Lab Client
 
-[<img src="images/codelabs/5_cl_empty.png?1" width="700"/>]
+![](images/codelabs/5_cl_empty.png){700}
 
 The Code Lab client is the student facing side of Code Labs.  The Client is a simplified IDE where students can write their own code, add their own tests, and ultimately submit their code for scoring or testing.
 
@@ -68,7 +66,7 @@ The Code Lab Client consists of 9 parts:
 
 ## Language Settings
 
-[<img src="images/codelabs/6_cl_lang.png" width="700"/>]
+![](images/codelabs/6_cl_lang.png){700}
 
 A Code Language is a specific programming language. Code labs can have multiple supported languages, but all languages will take the same test inputs.
 
@@ -80,7 +78,7 @@ The Starting Template is the initial code that is presented to a student when a 
 
 ### Program Wrapper
 
-[<img src="images/codelabs/7_cl_lang_pr.png" width="700"/>]
+![](images/codelabs/7_cl_lang_pr.png){700}
 
 The Program Wrapper wraps the students code, and **must contain the string `#CODE#`** which is replaced by the student's code submission. This hides implementation details used to execute the function as part of a full program in the backend LOD service. The Program Wrapper can contains library includes, pass command line arguments to the student's function, and finally print results for comparison against **Tests** and **Custom Tests**.
 
@@ -88,7 +86,7 @@ The Program Wrapper wraps the students code, and **must contain the string `#COD
 
 ### Advanced
 
-[<img src="images/codelabs/8_cl_lang_advanced.png" width="700"/>]
+![](images/codelabs/8_cl_lang_advanced.png){700}
 
 - **Test Command String** - A command to run the created program. String.Format is used to replace arguments with test inputs. {0} is input 1, {1} is input 2, etc. The program is executed once per test.
 
@@ -101,13 +99,11 @@ The Program Wrapper wraps the students code, and **must contain the string `#COD
 
 ## Tests
 
-[<img src="images/codelabs/10_cl_tests.png" width="700"/>]
+![](images/codelabs/10_cl_tests.png){700}
 
 Tests are added to Code Labs and ran once code is submitted from the Code Lab Client.  These can be used to help students as they progress through the lesson, and also to to verify student submissions.  Tests can be hidden from students to verify code functions as expected and is not simply brute-force passes.
 
-
-[<img src="images/codelabs/9_cl_add_input.png" width="700"/>]
-
+![](images/codelabs/9_cl_add_input.png){700}
 
 ### Inputs
 
@@ -119,7 +115,7 @@ To add and remove test inputs, simply select the corrisponding button.
 
 ### Adding Tests
 
-[<img src="images/codelabs/11_cl_add_test.png" width="700"/>]
+![](images/codelabs/11_cl_add_test.png){700}
 
 Simply click the **Add Test** button to add a test to your Code Lab.  You will now be able to give the test a friendly name, add inputs, and give the expected output.
 
