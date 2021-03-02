@@ -13,7 +13,7 @@ The template gallery allows lab authors to easily search for and select pre-crea
  - The Pencil Icon allows you to edit the profile if you have management rights.
  - The Star Icon allows you to Favorite a template for future use.
 
-![](images/template-gallery.png){1000}
+![](images/template-gallery.png){1200}
 
 ## Create from Template
 
@@ -30,7 +30,7 @@ To create a lab profile from the Template, select Create on the chosen template 
 
 > [!note]These settings and more can later be modified from the lab profile edit page. 
 
-![](images/template-gallery-create-profile.png){1000}
+![](images/template-gallery-create-profile.png){1200}
 
 ## Filters
 
@@ -42,7 +42,7 @@ The lab templates in the gallery may be filtered based on their availability and
 
 - *Favorites* will show any templates you have previously favorited(starred).
 
-![](images/template-gallery-filters.png){600}
+![](images/template-gallery-filters.png){400}
 
 ## Lab Tags
 
