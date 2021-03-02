@@ -9,6 +9,53 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## **Released February 26, 2021**
+
+**Lab Series Save-as**
+
+The option to save a lab series as a new series has been added to Lab on Demand.
+After selecting the Save-as link from the lab series edit page, a dialog box will be shown allowing you to name the new series, choose a different organization, and deselect any lab profiles you would not like to carry over into the new series.
+
+**Restricted Editing Permissions Around Lab Profiles Published to The Template Gallery**
+
+Editing of Lab Profiles and dependencies will be restricted to those able to publish to the gallery when a lab profile is already published to the corresponding gallery (Public or Organization). A banner has also been placed at the top of any lab profile published to a gallery. Dependencies include:
+- VM profiles
+- Container Profiles
+- Cloud Templates
+- Access Control Policies
+- Instructions
+- Differencing Disks
+- Start States
+ 
+**Azure Cloud Slice**
+
+- Azure CSS labs now maintain their Access Control Policies when created via the Save menu within the lab client. 
+- Added additional retries to Azure Management Group operations.
+- Azure hosted VMs running in Azure CSR labs now properly deallocate and resume when a lab is saved.
+- The lab instance details page now supports showing all subscriptions for multiple subscription CSS labs.
+ 
+**Code Labs**
+
+ - Code lab custom tests can now be edited after creation.
+ - Code labs now retain custom tests after the page has been refreshed.
+ - Code labs custom tests now properly display returned results for multiple tests.
+ - A default language for Code labs can now be chosen from the Code lab creation menu.
+ - Code labs can now be immediately started after creation, without adding a default test or language.
+ 
+**Launch on Datacenter**
+
+Hyper-V and vSphere lab profiles can now be launched against a chosen datacenter. To view the Launch on Datacenter option in the lab profile, lab developers will need organization management and storage management permissions. The organization they manage will all need to be configured so that storage is available across multiple datacenters.
+ 
+**LOD Improvements and Fixes**
+
+- Updated VM Gateway Client Scripts.
+- Updated translations for Japanese, Simplified Chinese, Korean, French, and Spanish.
+- When searching for Lab Instance Errors from a selected Cloud Subscription Pool, search results are now returned properly.
+- Fixed a bug preventing an admin from launching a second instance of participant lab belonging to a shared lab class in Lab on Demand. 
+- Fixed a bug preventing multi-subscription labs from importing with the correct number of subscriptions.
+- Fixed a bug preventing vSphere labs from saving or resuming after having been moved between lab hosts.
+- Fixed a bug preventing an instructor from launching into a shared environment lab when initially launched in conjunction with a participant lab.
+
 ## **Released February 12, 2021**
 
 **Central Authentication**
