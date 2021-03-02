@@ -22,6 +22,10 @@
         <div class="subtopic_title">Amazon Web Services API Capabilities</div>
         <div class="subtopic_description">A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation.</div>
       </a>
+      <a class="subtopic_link" href="/lod/aws-cloud-log-transfer.md">
+        <div class="subtopic_title">AWS Cloud Trail Log Transfer</div>
+        <div class="subtopic_description">AWS Cloud Trail logging enables the ability to audit all cloud logs in a user session and store those logs in a storage location.</div>
+      </a>
       <a class="subtopic_link" href="/guides/cloud-slice/aws/aws-cloud-slice-setup.md">
         <div class="subtopic_title">Enable Cloud Slice Support in AWS</div>
         <div class="subtopic_description">Setup process to enable cloud slice support in the AWS portal.</div>

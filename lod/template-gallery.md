@@ -30,7 +30,7 @@ To create a lab profile from the Template, select Create on the chosen template 
 
 > [!note]These settings and more can later be modified from the lab profile edit page. 
 
-![](images/template-gallery-create-profile.png)
+![](images/template-gallery-create-profile.png){500}
 
 ## Filters
 
@@ -52,11 +52,23 @@ The Lab tags are in a *Title: Subject* format, separated by a colon.
 Here is an example of what one of the *Included Technology* tags from the screenshot above would look like during configuration. Before saving, ensure *Publish to Template Gallery* is enabled if you would like it available as a filter in the template gallery.
 
 
-![](images/template-gallery-lab-tags.png)
+![](images/template-gallery-lab-tags.png){300}
 
 ## Publishing Labs.
 
 Labs may be published to the organization gallery as a template by selecting the *Publish to Organization Template Gallery* option on the advanced tab when editing a lab profile. Additionally, lab profiles may be tagged from the Tags tab of the same page.
+
+### Restricted Editing Permissions Around Lab Profiles Published To The Template Gallery.
+Editing of Lab Profiles and dependencies will be restricted to users that are able to publish to the gallery, when a lab profile is already published to the corresponding gallery ( Public or Organization). A banner has also been placed at the top of any lab profile published to a gallery. 
+
+Dependencies include:
+- VM profiles 
+- Container Profiles 
+- Cloud Templates 
+- Access Control Policies 
+- Instructions 
+- Differencing Disks 
+- Start States
 
 ## Custom Environments
 
