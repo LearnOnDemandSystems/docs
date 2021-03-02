@@ -42,7 +42,7 @@ The lab templates in the gallery may be filtered based on their availability and
 
 - *Favorites* will show any templates you have previously favorited(starred).
 
-![](images/template-gallery-filters.png){400}
+![](images/template-gallery-filters.png){300}
 
 ## Lab Tags
 
@@ -52,7 +52,7 @@ The Lab tags are in a *Title: Subject* format, separated by a colon.
 Here is an example of what one of the *Included Technology* tags from the screenshot above would look like during configuration. Before saving, ensure *Publish to Template Gallery* is enabled if you would like it available as a filter in the template gallery.
 
 
-![](images/template-gallery-lab-tags.png){600}
+![](images/template-gallery-lab-tags.png){500}
 
 ## Publishing Labs.
 
@@ -74,4 +74,4 @@ Dependencies include:
 
 If you find none of the templates meets your requirements, or you have something special in mind, you may create the lab profile from the ground-up using the *Create Custom Environment* link in the top right corner.
 
-![](images/template-gallery-to-legacy.png){1000}
+![](images/template-gallery-to-legacy.png){1200}
