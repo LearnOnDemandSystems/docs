@@ -155,7 +155,7 @@ Next, we need to gather some information in AWS and use it to configure the subs
 1. In a separate browser tab or window, navigate to the AWS portal, and ensure you are logged into the same account as previous steps. 
 1. Gather the required information below and configure in the LOD subscription pool.
 
-	#### **Cloud Watch Log Group**
+	#### Cloud Watch Log Group
 
 	1. In AWS, go to the **CloudTrail service page**. 
 	1. Click **Trails** on the left side of the page. 
@@ -165,7 +165,7 @@ Next, we need to gather some information in AWS and use it to configure the subs
 	1. In the LOD subscription pool, enter the Log Group name into the **Cloud Watch Log Group** field. 
 	1. In the LOD subscription pool, **select the region** that matches the home region of your CloudTrail. 
 
-	#### **Cloud Log Staging**
+	#### Cloud Log Staging
 
 	1. In AWS, go to the **S3 service page**.
 	1. Click the name of the S3 bucket you created.
