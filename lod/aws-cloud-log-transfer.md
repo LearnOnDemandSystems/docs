@@ -25,8 +25,8 @@ isPublished: true
 * [Gather Information and Configure LOD](#gather-information-and-configure-lod)
   + [LOD Subscription Pool](#lod-subscription-pool)
   + [AWS](#aws)
-	- [Cloud Watch Log Group](#--cloud-watch-log-group--)
-    - [Cloud Log Staging](#--cloud-log-staging--)
+	- [Cloud Watch Log Group](#cloud-watch-log-group)
+    - [Cloud Log Staging](#cloud-log-staging)
 * [Reviewing Logs](#reviewing-logs)
 
 Amazon Web Services (AWS) Cloud Trail logging enables the ability to audit all cloud logs in a user session and store those logs in a storage location. After logs are captured, they are transferred to AWS CloudWatch, then to an S3 storage bucket and then finally to an SFTP storage location.
