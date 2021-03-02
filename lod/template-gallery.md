@@ -30,7 +30,7 @@ To create a lab profile from the Template, select Create on the chosen template 
 
 > [!note]These settings and more can later be modified from the lab profile edit page. 
 
-![](images/template-gallery-create-profile.png){500}
+![](images/template-gallery-create-profile.png){1000}
 
 ## Filters
 
@@ -52,7 +52,7 @@ The Lab tags are in a *Title: Subject* format, separated by a colon.
 Here is an example of what one of the *Included Technology* tags from the screenshot above would look like during configuration. Before saving, ensure *Publish to Template Gallery* is enabled if you would like it available as a filter in the template gallery.
 
 
-![](images/template-gallery-lab-tags.png){300}
+![](images/template-gallery-lab-tags.png){600}
 
 ## Publishing Labs.
 
