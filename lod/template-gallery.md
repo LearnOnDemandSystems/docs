@@ -13,7 +13,7 @@ The template gallery allows lab authors to easily search for and select pre-crea
  - The Pencil Icon allows you to edit the profile if you have management rights.
  - The Star Icon allows you to Favorite a template for future use.
 
-![](images/template-gallery.png){1000}
+![](images/template-gallery.png){800}
 
 ## Create from Template
 
