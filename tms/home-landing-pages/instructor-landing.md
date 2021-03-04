@@ -16,7 +16,7 @@
 <div class="categoriesHeader" tabindex="0" title="Instructor - Docs Container">Instructor</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div class="subtopic_header" tabindex="0" title="General Docs" role="button" aria-selected="true" selected>General</div>
+    <div class="subtopic_header" tabindex="0" title="Instructor Guide Videos" role="button" aria-selected="true" selected>General</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/tms/instructors/general/what-is-a-contract-instructor.md">
         <div class="subtopic_title">What does it mean to be a contract instructor?</div>
@@ -33,7 +33,7 @@
     </div>
    </div>
     <div class="subtopic">
-    <div class="subtopic_header" tabindex="0" title="General Docs" role="button" aria-selected="true" selected>General</div>
+    <div class="subtopic_header" tabindex="0" title="General Docs" role="button" aria-selected="false">selected>General</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/tms/instructors/general/what-is-a-contract-instructor.md">
         <div class="subtopic_title">What does it mean to be a contract instructor?</div>
