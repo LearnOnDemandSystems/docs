@@ -31,6 +31,7 @@
         <div class="subtopic_title">How do I, as an Instructor, reset a student's password?</div>
       </a>
     </div>
+   </div>
     <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="General Docs" role="button" aria-selected="true" selected>General</div>
     <div id="body_1" class="subtopic_links">
@@ -47,6 +48,7 @@
         <div class="subtopic_title">How do I, as an Instructor, reset a student's password?</div>
       </a>
     </div>
+   </div>
   </div><div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="Preparation and Classes Docs" role="button" aria-selected="false">Preparation and Classes</div>
     <div class="subtopic_links">
