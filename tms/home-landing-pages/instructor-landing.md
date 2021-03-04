@@ -16,7 +16,7 @@
 <div class="categoriesHeader" tabindex="0" title="Instructor - Docs Container">Instructor</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div class="subtopic_header" tabindex="0" title="Instructor Guide Videos" role="button" aria-selected="true" selected>Instructor Guide Videos</div>
+    <div class="subtopic_header" tabindex="0" title="instructor guide videos" role="button" aria-selected="true" selected>Instructor Guide Videos</div>
     <div id="body_1" class="subtopic_links">
            <a class="subtopic_link" href="/tms/instructors/Instructor Guide Videos/https://youtu.be/lIZjr1t14-0">
         <div class="subtopic_title">Where do I find lab connectivity requirements and get help?</div>
