@@ -13,7 +13,7 @@ In addition, we have added a new Notification user interface that will allow use
 
 From My Notifications you can view any notification that has been sent to you and mark them as read. 
 
-![](/tms/images/org note plan mang 2.ng)
+![](/tms/images/org-note-plan-mang-2.png)
 
 ### <span style="color:#0078d7;">Multiple Instances of the Same Lab</span>
 An organization can now launch multiple instances of the same lab based on their organization limit. The user will be prompted with the option to launch an existing lab instance or launch a new lab instance.  From the screen, they’ll be able to save and cancel previous instances of this lab. 
