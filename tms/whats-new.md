@@ -2,6 +2,34 @@
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## Released September 17 2020
+
+### <span style="color:#0078d7;">Courses – Class Absolute Maximum Capacity</span>
+
+We have added a Class Absolute Maximum Capacity field on the Basic Information section on a Course Profile.  This will allow an Operations Manager, with the appropriate role to set the Class Absolute Maximum Capacity when creating or editing a course. The lowest value set on either the Class Absolute Maximum Capacity or the Owned Class Maximum Capacity on an organization will supersede, unless the Override Organization Owned Max Capacity is checked. 
+
+When checked, the Override Organization Owned Max Capacity, will override any organization setting regarding the course capacity.
+
+### <span style="color:#0078d7;">Courses - Microsoft Learn Catalog</span>
+
+We have added support for Microsoft Learn with an Activity option on the Activities section of a Course, which will allow an Operations Manager, with the appropriate role to add Microsoft content to courses.
+ 
+### <span style="color:#0078d7;">Accessibility Item</span>
+
+In our continuing effort to improve accessibility for all our students and meet MAS standards,
+* Aria-Role has been changed to Role in the Close Maintenance button.
+
+### <span style="color:#0078d7;">Enhancements and Fixes</span>
+* Class Details. We have renamed the Expires field to Post Class Lab Expiration Date.  
+
+* Course Profile – Tab Alignment. Tabs on the second row of an entity Edit page now stay properly aligned and do not move over to be underneath the selected tab.  
+
+* Instructor Profile. We have renamed Is Contract Instructor to “Check this box to op-in as a Contract Instructor.”  We added a new link named More Info that will direct a user to more information on What is the Contract Instructor Pool?
+
+* Site Navigation. We have added a new option for single page site navigation and branding removal. 
+    *	When entering ?nav=0 to the end of any URL within TMS, the branding and header/footer are removed. For the branding and header/footer to return, the user will need to click Show site navigation. 
+    *	When entering ?nav=-1, the branding and header/footer are removed.  The user can either navigate to a different page in TMS or click Show site navigation for the branding and header/footer to return. 
+
 ## Released September 3 2020
 
 ### <span style="color:#0078d7;">Organization Notification Plan Management</span>
