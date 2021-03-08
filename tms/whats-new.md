@@ -2,6 +2,33 @@
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## Released September 3 2020
+
+### <span style="color:#0078d7;">Organization Notification Plan Management</span>
+We have made enhancements to our Notification Plan feature to allow ownership of notifications at the Org level.  An Operations Manager, with the appropriate roles, can manage their own notification plans for their organization. This will allow you to create your own automated notifications based on configured trigger actions that occur within the TMS (ex: new class created; course assignment completed etc.). 
+
+In addition, we have added a new Notification user interface that will allow users, when logged in, to view any notification that have been sent to them directly within their user profile. To view notifications, click the Envelope icon to navigate to My Notifications.
+
+![](/tms/images/org-note-plan-mang-1.png)
+
+From My Notifications you can view any notification that has been sent to you and mark them as read. 
+
+![](/tms/images/org note plan mang 2.ng)
+
+### <span style="color:#0078d7;">Multiple Instances of the Same Lab</span>
+An organization can now launch multiple instances of the same lab based on their organization limit. The user will be prompted with the option to launch an existing lab instance or launch a new lab instance.  From the screen, they’ll be able to save and cancel previous instances of this lab. 
+
+![](/tms/images/mult instance of same lab.png)
+
+### <span style="color:#0078d7;">Enhancements and Fixes</span>
+
+* Find Material Responsibilities. When a search is saved, it did not filter for organization management. We have fixed the issue to include organization management. 
+* API. The documentation for CreateCourseAssignment and UpdateCourseAssignment API methods have had these two parameters updated from Expire and TargetCompletion to Expires and TargetCompletionDate.
+* Course – Activities. When a section was added to the Activities, you would need to Save twice before the section would appear on the class page.  We have fixed the issue and the section will appear when saving on the first attempt. 
+
+
+----------------------------
+
 ## Released August 17 2020
 
 ### <span style="color:#0078d7;">Class Session Times</span>
