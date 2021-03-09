@@ -2,7 +2,7 @@
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
-## Released February 25 2021
+## Released February 25, 2021
 ### <span style="color:#0078d7;">Accessibility Items</span>
 *   In our continuing effort to improve accessibility for all our students and meet MAS standards:
     *   General search pages will retain the focus on Add Filter after a filter option is selected. 
@@ -17,7 +17,7 @@
 *   API Documentation – SearchClasses: A CustomFieldSearchFilter has been added to the SearchClasses API calls. 
 *   Bulk Update User Profiles – Organization Management: We have fixed an issue when Bulk Editing Users auto-checking all organizations and assigning organization management to edited users.  
 
-## Released February 11 2021
+## Released February 11, 2021
 ### <span style="color:#0078d7;">Accessibility Item</span>
 *   In our continuing effort to improve accessibility for all our students and meet MAS standards, 
     *   The Screen Reader will narrate Include Children for the add filter option of Belongs to Organization on Find Courses.
@@ -29,7 +29,7 @@ An option to create multiple course assignments for multiple students has been a
 *   Find Courses – Subscription Filters: We have added a “Subscription Profile (Choose) and Subscription Profile Name” filter on Find Courses. 
 *   Find Courses – Organization Search:  You will no longer receive a query message indicating to reduce the scope of your query when finding courses. We have increased the default maximum organizations that you are able to search from 50 to 100.
 
-## Released January 28 2021
+## Released January 28, 2021
 ### <span style="color:#0078d7;">Enhanced account security scheduled for implementation at 10:00pm ET Friday, February 12th</span>
 Learn on Demand Systems is implementing enhanced account security for user accounts that sign in with a username/password. You can learn more about these security measures here.
 Starting 10:00pm ET on Friday, February 12, local users will be prompted to reset your TMS password upon login at https://lms.learnondemand.net. Users logging in through API or Corporate Azure AD will not be prompted to reset their password
@@ -52,7 +52,7 @@ Find Entities by ID – Filter: We have added an “ID” filter to the followin
 *	Find/Choose Subscriptions
 *	Find/Choose Users
 
-## Released January 14 2021
+## Released January 14, 2021
 ### <span style="color:#0078d7;">Enhancements and Fixes</span>
 *   Find Lab Instances – E-mail Address: We have added a student “E-mail” address filter and output option on Find Lab Instances.
 *   Find Publishing Group – Aligned To An Organization:  We have added an “Aligned To An Organization” filter on Find Publishing Groups.
@@ -60,7 +60,7 @@ Find Entities by ID – Filter: We have added an “ID” filter to the followin
 *   Edit User Profile – Roles: The Starts/Expires time fields now fully display AM or PM and no longer stacked.
 *   Course, Class, and Catalog Browsers – Default Search Save: When saving a search and making it default, then navigating away the default search is now saving.
 
-## Released December 17 2020
+## Released December 17, 2020
 ### <span style="color:#0078d7;">Bulk Update User Profiles</span>
 A new Bulk Update User Profiles page has been added to TMS. This page allows TMS administrators to disable users, set time zones, change company and account executives, assign permanent or temporary roles, and designate user accounts for organization management en masse. It can also flag the following fields for update on next user login:
 
@@ -85,7 +85,7 @@ A new Bulk Update User Profiles page has been added to TMS. This page allows TMS
 *   Bug Fix – Lab Instance Search Page: Fixed an issue on the Lab Instance Search page that displayed a non-translated string in a filter dropdown.
 *   Bug Fix – Deferred Launch Labs: Fixed an issue that caused deferred launched labs to not be associated with a user profile.
 
-## Released December 3 2020
+## Released December 3, 2020
 ### <span style="color:#0078d7;">User Role Expiration on Bulk User Import</span>
 When assigning individual roles to users during the user import process, an option has been added to add automatic expiration dates for each role on a per user basis. 
 
@@ -95,7 +95,7 @@ When assigning individual roles to users during the user import process, an opti
 *   Bug Fix – Course Progress Bars: Fixed an issue that caused progress bars on the Enrollment and Course Assignment pages to not properly reflect a student’s progress.
 *   Bug Fix – Launch Activities Buttons: Fixed an issue that caused Activity Launch buttons to not appear when viewing the Class Details page.
 
-## Released November 19 2020
+## Released November 19, 2020
 ### <span style="color:#0078d7;">Browser and Catalog Save Filter Selections</span>
 When enabled, users will now be able to save custom search filters on the Course Browser, Class Browser, and Course Catalog pages.
 
@@ -104,7 +104,7 @@ When enabled, users will now be able to save custom search filters on the Course
 *   Bug Fix – Enrollment status: Users with the enrollment statuses of Requested, Cancelled, or Denied are no longer treated as being enrolled in the class.
 *   Bug Fix – Zoom recordings: Fixed an issue that would cause single delivery classrooms delivered over multiple days to only display the first days Zoom recordings.
 
-## Released October 29 2020
+## Released October 29, 2020
 ### <span style="color:#0078d7;">Create Multiple Enrollments</span>
 We have added a Create Multiple Enrollments link on the Classes tile. Operations managers can now waitlist and enroll multiple students to multiple classes simultaneously from a single menu. If the class is full and users are added with an enrollment status of “Enrolled,” the enrollment status changes to “Wait-Listed” when then enrollments are saved. 
 
@@ -120,7 +120,7 @@ We have added a Create Multiple Enrollments link on the Classes tile. Operations
 * Find Courses – Training days: A training days field has been added as an output option and search filter to the Find Courses search. 
 
 
-## Released October 15 2020
+## Released October 15, 2020
 ### <span style="color:#0078d7;">TMS Platform – Adobe Flash</span>
 At the end of 2020, Adobe will permanently end the life of Flash. To prepare for this, the SCORM video upload and Adobe Connect integration have been updated to remove Flash from the platform. It should be noted that Internet Explorer only has legacy Adobe Connect available; once Flash is deprecated, students using Internet Explorer will have to download the Adobe Connect Client or switch to a different browser.
 
@@ -142,7 +142,7 @@ If the instructor is not assigned to the class but has an Enrollment Status of W
 *   Class - Lab Activities: Resolved an issue that allowed non-basic users to launch otherwise disabled class activities.
 
 
-## Released October 1 2020
+## Released October 1, 2020
 
 ### <span style="color:#0078d7;">Courses – Virtual Meeting Host – Custom Virtual Classroom</span>
 
@@ -153,7 +153,7 @@ We have updated the Custom Virtual Classroom to specify when the “Enter Classr
 * Class Details: We have removed Manage Courseware Vouchers from the quick launch menu bar on the Class Details page.
 * Notifications: Attach a Calendar Event - We have fixed the .ics file attached to a calendar event from displaying as “Not Supported Calendar Message” within Outlook.
 
-## Released September 17 2020
+## Released September 17, 2020
 
 ### <span style="color:#0078d7;">Courses – Class Absolute Maximum Capacity</span>
 
@@ -181,7 +181,7 @@ In our continuing effort to improve accessibility for all our students and meet 
     *	When entering ?nav=0 to the end of any URL within TMS, the branding and header/footer are removed. For the branding and header/footer to return, the user will need to click Show site navigation. 
     *	When entering ?nav=-1, the branding and header/footer are removed.  The user can either navigate to a different page in TMS or click Show site navigation for the branding and header/footer to return. 
 
-## Released September 3 2020
+## Released September 3, 2020
 
 ### <span style="color:#0078d7;">Organization Notification Plan Management</span>
 We have made enhancements to our Notification Plan feature to allow ownership of notifications at the Org level.  An Operations Manager, with the appropriate roles, can manage their own notification plans for their organization. This will allow you to create your own automated notifications based on configured trigger actions that occur within the TMS (ex: new class created; course assignment completed etc.). 
@@ -208,7 +208,7 @@ An organization can now launch multiple instances of the same lab based on their
 
 ----------------------------
 
-## Released August 17 2020
+## Released August 17, 2020
 
 ### <span style="color:#0078d7;">Class Session Times</span>
 We have made the following updates to class Session Times:
@@ -230,7 +230,7 @@ Other Enhancements:
 
 ----------------------------
 
-## Released July 30 2020
+## Released July 30, 2020
 
 ### <span style="color:#0078d7;">Enhancements and Fixes</span>
 
@@ -255,7 +255,7 @@ In our continuing effort to improve accessibility for all our students and meet 
 - The Pagination and Next controls on the Course Catalog page.
 
 ----------------------------
-## Released June 29 2020
+## Released June 29, 2020
 
 
 ### <span style="color:#0078d7;">Segmented Student Class Activity Assignments</span>
@@ -314,7 +314,7 @@ In our continuing effort to improve accessibility for all our users we have made
 * Training Keys and archived courses.  Training Keys will be expired for courses that are archived. Users will receive an error message when using these keys.  Training key pools will display the following message “The course aligned to this pool has been archived and the keys in this pool have been expired.” 
 
 ----------------------------
-## Released May 21 2020
+## Released May 21, 2020
 
 
 ### <span style="color:#0078d7;">Wait-Listed Enrollments – Automatic enrollment after cancellation</span>
@@ -328,7 +328,7 @@ We can now automatically enroll a student from the Wait-List when an enrolled st
 * Find Class Sessions – Has Labs Filter.  We have fixed the Has Lab filter to be based on Activity type in order for cloud-based lab class sessions to appear in the Does Have Lab results. 
 
 ----------------------------
-## Released May 7 2020
+## Released May 7, 2020
 
 
 ### <span style="color:#0078d7;">Class Browser - Multiple Tag IDs in URL</span>
@@ -378,7 +378,7 @@ Two improvements have been made to assist users with accessibility needs.
 1. Percent Complete Column for New Students. The Percent Complete column will now appear correctly for new students added to a class roster.
 
 ----------------------------
-## Released April 23 2020
+## Released April 23, 2020
 
 ### <span style="color:#0078d7;">TMS Enhancements and Fixes</span>
 
@@ -395,7 +395,7 @@ o	Sorting on the Payment Type column groups by types of payments but not within 
 1. Chrome browser back button – A search issue in Chrome has been corrected, you can now use the Back button to return to a search page and have it return results. The issue was that on any “Find” page, if you ran a search, navigated away, then used the Back button to return to the search and run it again, you would receive an error message.  
 
 ----------------------------
-## Released April 10 2020
+## Released April 10, 2020
 
 ### <span style="color:#0078d7;">Use Zoom for your Integrated Virtual Meeting Host</span>
 
@@ -422,7 +422,7 @@ A disabled activity displays, slightly grayed out with a “Disabled by Instruct
 1. Edit Class – We have corrected the prohibition from editing a class after it has started when the date has not been changed. Users were receiving a message, “You don't have the necessary permissions to set this class’s start date prior the current date and time." when they attempted to update fields other than the class start date and save a class.
 
 ----------------------------
-## Released April 02 2020 
+## Released April 02, 2020 
 
 ### <span style="color:#0078d7;">TMS Enhancements and Fixes</span>
 
@@ -435,7 +435,7 @@ A disabled activity displays, slightly grayed out with a “Disabled by Instruct
 1. Find Lab Instances – We have updated the Lab Instance details page which was giving a Server Error. From the Find Lab Instances search, a server error displayed when the Details link was selected. LOD removed some legacy exam information which the page previously displayed. Initially, a fix was put in place that incorrectly removed exam results information, this information has been restored.
 
 ----------------------------
-## Released March 19 2020 
+## Released March 19, 2020 
 
 ### <span style="color:#0078d7;">TMS Enhancements and Fixes</span>
 
@@ -447,7 +447,7 @@ A disabled activity displays, slightly grayed out with a “Disabled by Instruct
 1. Find Lab Instances – We have repositioned the Percent Complete column when the search results are exported from the TMS to match column order on the Find Lab Instances page. 
 
 ----------------------------
-## Released February 20 2020
+## Released February 20, 2020
 
 ### <span style="color:#0078d7;">View Students Progress from the Class Roster</span>
 
