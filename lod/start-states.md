@@ -61,7 +61,7 @@ To create a Start State:
 
 1. Click the menu in the upper right corner of the lab. 
 
-    ![Lab Client Menu](images/lab-client-menu.png){400}
+    ![Lab Client Menu](images/lab-client-menu.png){600}
 
 1. Click **Save**.
 
@@ -69,7 +69,7 @@ To create a Start State:
 
 1. On the next screen, select **Capture start state**. 
 
-    ![Update Lab Profile](images/update-lab-profile.png){400}
+    ![Update Lab Profile](images/update-lab-profile.png){600}
 
     >[!knowledge] If your lab contains a NAT Web access network that uses DHCP, it is not a recommended configuration for a lab starting from a saved state. Because the DHCP leases will likely have expired when the lab starts, it could take several minutes for the virtual machines to regain network access. You should consider editing the lab profile and disabling DHCP in all NAT Web access networks, as well as assigning static IP addresses within your virtual machines.
 
@@ -101,7 +101,7 @@ To Remove a Start State:
 
 1. Click **Clear Start State** at the top of the screen. 
 
-    ![Clear Start State](images/clear-start-state.png){400}
+    ![Clear Start State](images/clear-start-state.png){600}
 
 1. Click **OK** on the confirmation dialog. 
 
@@ -115,7 +115,7 @@ For complex labs, the boot sequence must account for dependencies between lab co
 
 In Lab on Demand, there are options to control how VMs start. These options can be found on the Virtual Machines tab of a lab profile.
 
-![VM Configuration](images/vm-configuration.png){500}
+![VM Configuration](images/vm-configuration.png){600}
 
 - **Start Automatically**: this options controls if the VM starts when the lab launches. 
     - Enable this option to allow the VM to start automatically.
