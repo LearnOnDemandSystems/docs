@@ -14,7 +14,7 @@ Start States allow you to create a point-in-time capture of Virtual Machine(s) (
   - [Launch Time](#launch-time)
   - [Boot Sequence Dependencies](#boot-sequence-dependencies)
   - [Software Configuration](#software-configuration)
-  - [Minimizing Waste](#minimizing-waste)
+  - [Minimize Start State Scope](#minimize-start-state-scope)
 - [Creating a Start State](#creating-a-start-state)
 - [Updating VMs in a Lab That has a Start State Configured](#updating-vms-in-a-lab-that-has-a-start-state-configured)
 - [Best Practices](#best-practices)
@@ -46,9 +46,9 @@ If you have a complex lab, your boot sequence must account for dependencies betw
 
 If the lab uses any software that requires any configuration after booting a VM, it is helpful to configure the software and then capture a Start State. This allows the lab user to launch the lab and start using the software as it is intended to be used, instead of readying the software first. 
 
-### Minimizing Waste
+### Minimize Start State Scope
 
-It is highly recommended that Start States be leveraged as an 'end-cap' solutions to a Lab, doing only what is necessary for readying the lab for users at lab launch. Capturuing extensive Lab Development work in a Start State may be counter-productive, as removing the Start State may become necessary to complete additional Lab Development work.
+It is highly recommended that Start States be leveraged as an 'end-cap' solutions to a Lab, doing little Lab Development work beyond what would be otherwise necessary for the students to complete, or wait for, after lab launch. Capturuing extensive Lab Development work in a Start State may be counter-productive, as removing the Start State may become necessary to complete additional Lab Development work.
 
 ## Creating a Start State
 
