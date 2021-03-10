@@ -48,7 +48,7 @@ If the lab uses any software that requires any configuration after booting a VM,
 
 ### Minimize Start State Scope
 
-It is highly recommended that Start States be leveraged as an 'end-cap' solutions to a Lab, doing little Lab Development work beyond what would be otherwise necessary for the students to complete, or wait for, after lab launch. Capturuing extensive Lab Development work in a Start State may be counter-productive, as removing the Start State may become necessary to complete additional Lab Development work.
+It is highly recommended that Start States be leveraged as an 'end-cap' solutions to a Lab, doing little Lab Development work beyond what would be otherwise necessary for the students to complete, or wait for, after lab launch. Capturing extensive Lab Development work in a Start State may be counter-productive, as removing the Start State may become necessary to complete additional Lab Development work.
 
 ## Creating a Start State
 
