@@ -6,7 +6,7 @@ isPublished: true
 
 # Hyper-V Start States
 
-Start States allow you to create a point in a lab where the lab will launch from for subsequent launches. In many cases, Start States can highly reduce lab start times, especially for large and complex labs.
+Start States allow you to create a point-in-time capture of Virtual Machine(s) (VMs) within a Lab Profile, that will be leveraged in subsequent launches of the Lab Profile. In many cases, Start States can significantly reduce lab startup duration, especially for large and complex labs.
 
 >[!alert] Start States are limited to Hyper-V virtualization labs. Start States are not supported on vSphere.
 
@@ -14,6 +14,7 @@ Start States allow you to create a point in a lab where the lab will launch from
   - [Launch Time](#launch-time)
   - [Boot Sequence Dependencies](#boot-sequence-dependencies)
   - [Software Configuration](#software-configuration)
+  - [Minimize Start State Scope](#minimize-start-state-scope)
 - [Creating a Start State](#creating-a-start-state)
 - [Updating VMs in a Lab That has a Start State Configured](#updating-vms-in-a-lab-that-has-a-start-state-configured)
 - [Best Practices](#best-practices)
@@ -24,17 +25,18 @@ Start States allow you to create a point in a lab where the lab will launch from
 
 ## Overview
 
-Hyper-V Start states allow a lab to be resumed instead of booted. When deciding to use a Start State vs naturally booting virtual machines (VM) in a lab, there are a few things to consider.
+Hyper-V Start states allow a lab to be resumed from a point-in-time, instead of booting from the Virtual Machine's (VM) disk. When deciding to use a Start State vs a naturally booting VM in a lab, there are a few things to consider.
 
 - Launch time
 - Boot sequence dependencies
 - Software configuration
+- Minimizing Waste
 
-Start States may not be an optimal solution for some lab scenarios. Start States come with some drawbacks, including restrictions on the ability to update the lab without additional steps. Some software does not work well being restored from a Start State. 
+Start States may not be an optimal solution for some lab scenarios. Start States come with some drawbacks, including restrictions on the ability to update the lab without additional steps. Some software does not work well being restored from a Start State. In addition, where systems replicate data between nodes (Active Directory being an example), a Start State can cause data consistency issues if a Start State is not captured on all VMs within the Lab Profile.
 
 ### Launch Time
 
-Depending on the complexity of the lab and the lab components used, the launch times for your lab may vary. Creating a Start State at a point in the lab after lab components and services are started and running in the desired state will allow future lab launches to resume at that point, resulting in a quicker lab launch. 
+Depending on the complexity of the lab and the lab components used, the launch times for your lab may vary. Creating a Start State at a point in the lab after lab components and services are started and running in the desired state will allow future lab launches to resume at that point-in-time, resulting in a quicker lab launch. 
 
 ### Boot Sequence Dependencies
 
@@ -42,12 +44,15 @@ If you have a complex lab, your boot sequence must account for dependencies betw
 
 ### Software Configuration 
 
-If the lab uses any software that requires any configuration, it is helpful to configure the software and then capture a Start State. This allows the lab user to launch the lab and start using the software as it is intended to be used, instead of configuring the software first. 
+If the lab uses any software that requires any configuration after booting a VM, it is helpful to configure the software and then capture a Start State. This allows the lab user to launch the lab and start using the software as it is intended to be used, instead of readying the software first. 
 
+### Minimize Start State Scope
+
+It is highly recommended that Start States be leveraged as an 'end-cap' solutions to a Lab, doing little Lab Development work beyond what would be otherwise necessary for the students to complete, or wait for, after lab launch. Capturing extensive Lab Development work in a Start State may be counter-productive, as removing the Start State may become necessary to complete additional Lab Development work.
 
 ## Creating a Start State
 
-Start States can only be created on Hyper-V VMs. Start States are not supported on vSphere VMs. 
+Start States can only be created on Hyper-V VMs. Start States are not supported on vSphere VMs.
 
 >[!alert] Do not implement Start States until you have fully validated your lab is working and you anticipate no changes. 
 
@@ -77,7 +82,9 @@ To create a Start State:
 
 1. Select the VM(s) that will be captured. 
 
-1. If any of the VMs used in the lab have time-limited software, check the box to **Disable Host Time Synchronization**. 
+1. If any of the VMs used in the lab have time-limited software, check the box to **Disable Host Time Synchronization**.
+
+    >[!knowledge] If you have internet access enabled on the Lab Profile, depending on the configuration of your VMs, they can automatically update to the actual date/time.
 
 1. Click **OK**. 
 
@@ -85,7 +92,9 @@ To create a Start State:
 
 1. After the changes are committed, a screen will be shown to indicate success. 
 
-1. If additional changes need to be made that should be captured in the Start State, repeat the previous steps. If no additional changes need to be made, click the menu in the upper right corner of the lab and choose **End** to close the lab. 
+1. If additional changes need to be made that should be captured in the Start State, repeat the previous steps. If no additional changes need to be made, click the menu in the upper right corner of the lab and choose **End** to close the lab.
+
+    >[!knowledge] Due to the nature of the data being captured, Start States are more volatile than differencing disks, so additional updates to a Start State can introduce data corruption. If that occurs, removing and re-capturing the Start State will be necessary. See [Minimizing Waste](#minimizing-waste) for direction.
 
 Subsequent lab launches will launch in the state the lab was in when the Start State was captured. 
 
@@ -126,7 +135,7 @@ In Lab on Demand, there are options to control how VMs start. These options can 
 
 ### VM RAM Consideration
 
-When using Start States, sequencing can be important. VMs with a high amount of RAM will take longer to restore than VMs with a low amount of RAM.
+When using Start States, sequencing can be important. VMs with a high amount of RAM will take longer to restore than VMs with a low amount of RAM, as Start States capture the data in the VM's RAM as well as the changes made to the VM's disk(s).
 
 - If your lab does not require a high amount of RAM, use only the amount needed. 
 
