@@ -18,7 +18,7 @@ To create your first Resource Template in LOD, you must perform the following ta
 
 1. Click Create Resource Template in the upper-right corner of the page.
 
-    ![](images/create-resource-template.png){600}
+    ![](images/create-resource-template.png){1000}
 
 1. Enter the following values into the Create a Resource Template form:
 
