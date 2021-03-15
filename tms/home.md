@@ -108,9 +108,11 @@
             </a>
           </div>
              <div class="azIndex cardContent">
-          <div class="cardHeader" tabindex="0" title="instructor guide videos" aria-label="instructor guide videos">Instructor Guide Videos</div>
+          <div class="cardHeader" tabindex="0" title="Instructor Guide Videos" aria-label="Instructor Guide Videos">Instructor Guide Videos</div>
+                 <div/>
           <div class="category">
-              <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
+              <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
+               <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
               <a><span class="categoryTitle" title="View videos">View videos</span>
           </a>
             </div>
