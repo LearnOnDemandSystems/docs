@@ -18,7 +18,7 @@
   <div class="subtopic selected">
     <div class="subtopic_header" tabindex="0" title="instructor guide videos" role="button" aria-selected="true" selected>Instructor Guide Videos</div>
     <div class="subtopic_links">
-           <a class="subtopic_link" href="/tms/instructors/Instructor Guide Videos/https://youtu.be/lIZjr1t14-0" target="_blank">
+           <a class="subtopic_link" href="https://youtu.be/lIZjr1t14-0" target="_blank">
         <div class="subtopic_title">Where do I find lab connectivity requirements and get help?</div>
       <div class="subtopic_description">View our lab connectivity, and bandwidth requirments, and firewall exception rules. See where to do a speed test. We also provide some troubleshooting steps from our Help Desk.</div>
       </a>
