@@ -24,39 +24,39 @@
       </a>
       <a class="subtopic_link" href="https://youtu.be/Gv9AkFCWwvU" target="_blank">
         <div class="subtopic_title">How do I prepare to teach a course?</div>
-       <div class="subtopic_description"></div>
+       <div class="subtopic_description">Find how to find courses to access labs of the courses you want to teach.</div>
         </a>
       <a class="subtopic_link" href="https://youtu.be/o5Kh7FzV37k" target="_blank">
         <div class="subtopic_title">How do I find and open my classes?</div>
-       <div class="subtopic_description"></div>
+       <div class="subtopic_description">See how to open your class to teach.</div>
         </a>
       <a class="subtopic_link" href="https://youtu.be/Ey4DLXe74Uc" target="_blank">
         <div class="subtopic_title">How do I monitor labs and share files in a lab?</div>
-       <div class="subtopic_description"></div>
+       <div class="subtopic_description">You can virtually monitor your students' labs as they work in them, share files and send messages in the lab interface, and take control of a student's lab to help them work through a difficult area.</div>
         </a>
       <a class="subtopic_link" href="https://youtu.be/C1kWaVl2NMQ" target="_blank">
         <div class="subtopic_title">How do I reset a student's username or password?</div>
-       <div class="subtopic_description"></div>
+       <div class="subtopic_description">Learn where you can look up and change a student's username and password.</div>
         </a>
       <a class="subtopic_link" href="https://youtu.be/BNmy39wGdRM" target="_blank">
         <div class="subtopic_title">How do I mark students' daily attendance?</div>
-       <div class="subtopic_description"></div>
+       <div class="subtopic_description">See how you can take daily attendance for your class.</div>
         </a>
       <a class="subtopic_link" href="https://youtu.be/E7faRq3D46I" target="_blank">
         <div class="subtopic_title">What do I do if a student doesn't see a Launch button?</div>
-       <div class="subtopic_description"></div>
+       <div class="subtopic_description">Here are troubleshooting steps to follow if a student is not seeing their launch buttons.</div>
         </a>
       <a class="subtopic_link" href="https://youtu.be/Ji6oS_qwX70" target="_blank">
         <div class="subtopic_title">What features are in my user profile?</div>
-       <div class="subtopic_description"></div>
+       <div class="subtopic_description">Find out how to add a biography, set up which courses you're qualified to teach, and set up being a contract instructor.</div>
         </a>
       <a class="subtopic_link" href="https://youtu.be/S0XMTRAYTw4" target="_blank">
         <div class="subtopic_title">How do I schedule times I am unavailable to teach?</div>
-       <div class="subtopic_description"></div>
+       <div class="subtopic_description">Take a look at how you can input times you are not available to teach within the TMS.</div>
         </a>
       <a class="subtopic_link" href="https://youtu.be/bK_RiEbbjHA" target="_blank">
         <div class="subtopic_title">How do I show what I am qualified to teach?</div>
-       <div class="subtopic_description"></div>
+       <div class="subtopic_description">Find how you can show the courses you are qualified to teach in the TMS.</div>
         </a>
       </div>
    </div>
