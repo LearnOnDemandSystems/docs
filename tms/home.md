@@ -97,8 +97,19 @@
               <span class="categoryTitle" title="What does it mean to be a contract instructor?">What does it mean to be a contract instructor?</span>
             </a>
           </div>
-            <div class="category">
-            <a href="/tms/instructors/general/reset-student-password.md" class="categoryThread">
+             <div class="azIndex cardContent">
+          <div class="cardHeader" tabindex="0" title="instructor guide videos" aria-label="instructor guide videos">Instructor Guide Videos</div>
+          <div class="category">
+              <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
+              <a><span class="categoryTitle" title="View videos">View videos</span>
+          </a>
+            </div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-tms-videos.md" title="View all" aria-label="View all Admin TMS Videos">View all</a></div>
+        </div>
+      </div>
+        </div>
+      </div>
+        <a href="/tms/instructors/general/reset-student-password.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">supervised_user_circle</i>
               <span class="categoryTitle" title="How do I, as an Instructor, reset a student's password?">How do I, as an Instructor, reset a student's password?</span>
             </a>
