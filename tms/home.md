@@ -134,7 +134,7 @@
                 <span class="categoryTitle" title="How do I access my labs for a class using a lab code when I have a user account?">How do I access my labs for a class using a lab code when I have a user account?</span>
               </a>
             </div>
-          <</div>
+          </div>
         </div>
         <div class="cardContainer">
           <div class="vmLabDev cardContent"> 
@@ -159,6 +159,7 @@
           </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor Docs for Preparation and Classes">View all</a></div>
         </div>
+       </div>
       </div>
       <div class="cardContainer">
         <div class="pbt_scoring cardContent">
