@@ -117,6 +117,8 @@
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-tms-videos.md" title="View all" aria-label="View all Admin TMS Videos">View all</a></div>
          </a>
          </div>
+        </div>
+        </div>
         <div class="cardContainer">
           <div class="vmLabDev cardContent">
             <div class="cardHeader" tabindex="0" title="Student Labs" aria-label="Student Docs for Labs">Labs</div>
