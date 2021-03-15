@@ -24,7 +24,7 @@
       </a>
       <a class="subtopic_link" href="https://youtu.be/Gv9AkFCWwvU" target="_blank">
         <div class="subtopic_title">How do I prepare to teach a course?</div>
-       <div class="subtopic_description">Find how to find courses to access labs of the courses you want to teach.</div>
+       <div class="subtopic_description">See how you can find courses to access labs of the courses you want to teach.</div>
         </a>
       <a class="subtopic_link" href="https://youtu.be/o5Kh7FzV37k" target="_blank">
         <div class="subtopic_title">How do I find and open my classes?</div>
