@@ -86,16 +86,15 @@
 
   <div class="instructorCategory userTypeSection">
   <!-- instructor categories section.. -->
-    <div class="cardsContainer">
-        <div class="cardContainer">
+     <div class="cardContainer">
           <!-- Begin categories section.. -->
           <div class="cloudSlice cardContent">
-            <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Featured Instructor General Docs">General</div>
-            <div class="category">
-              <a href="/tms/instructors/general/reset-student-password.md" class="categoryThread">
-                <i class="material-icons light-blue" title="Student Basics" aria-hidden="true">supervised_user_circle</i>
-                <span class="categoryTitle" title="How do I, as an Instructor, reset a student's password?">How do I, as an Instructor, reset a student's password?</span>
-              </a>
+          <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Featured Instructor General Docs">General</div>
+          <div class="category">
+            <a href="/tms/instructors/general/reset-student-password.md" class="categoryThread">
+              <i class="material-icons light-blue" aria-hidden="true">supervised_user_circle</i>
+              <span class="categoryTitle" title="How do I, as an Instructor, reset a student's password?">How do I, as an Instructor, reset a student's password?</span>
+            </a>
             </div>
             <div class="category"> 
               <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
