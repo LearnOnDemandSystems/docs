@@ -17,8 +17,7 @@ we have made the following changes:
 
 
 ### <span style="color:#0078d7;">Enhancements and Fixes</span>
-*   User Impersonation: We have enhanced security and access for those who can impersonate another user by preventing the impersonator from seeing the Active Lab Instances link on the Labs tile.
-*   User Password Complexity: We have added an application setting to allow for a minimum ¾   of the applied rules to meet the password complexity requirement check. 
+*   User Impersonation: For those who can impersonate another user we have prevented the impersonator from seeing the Active Lab Instances link on the Labs tile.
 
 ----------------------------
 ## Released February 25 2021
