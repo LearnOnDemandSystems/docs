@@ -116,10 +116,7 @@
             </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-tms-videos.md" title="View all" aria-label="View all Admin TMS Videos">View all</a></div>
         </div>
-      </div>
-        </div>
-         </div>
-          <div class="vmLabDev cardContent">
+          <div class="azIndex cardContent">
           <div class="cardHeader" tabindex="0" title="Instructor Preparation and Classes" aria-label="Instructor Docs for Preparation and Classes">Preparation and Classes</div>
           <div class="category">
             <a href="/tms/instructors/instructor-prep-and-classes/prepare-for-course-not-scheduled-to-teach.md" class="categoryThread">
