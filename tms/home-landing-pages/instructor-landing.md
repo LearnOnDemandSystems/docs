@@ -22,37 +22,43 @@
         <div class="subtopic_title">Where do I find lab connectivity requirements and get help?</div>
       <div class="subtopic_description">View our lab connectivity, and bandwidth requirments, and firewall exception rules. See where to do a speed test. We also provide some troubleshooting steps from our Help Desk.</div>
       </a>
-      <a class="subtopic_link" href="/tms/instructors/Instructor Guide Videos/https://youtu.be/Gv9AkFCWwvU">
+      <a class="subtopic_link" href="https://youtu.be/Gv9AkFCWwvU" target="_blank">
         <div class="subtopic_title">How do I prepare to teach a course?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/instructors/Instructor Guide Videos/https://youtu.be/o5Kh7FzV37k">
+       <div class="subtopic_description"></div>
+        </a>
+      <a class="subtopic_link" href="https://youtu.be/o5Kh7FzV37k" target="_blank">
         <div class="subtopic_title">How do I find and open my classes?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/instructors/Instructor Guide Videos/https://youtu.be/Ey4DLXe74Uc">
+       <div class="subtopic_description"></div>
+        </a>
+      <a class="subtopic_link" href="https://youtu.be/Ey4DLXe74Uc" target="_blank">
         <div class="subtopic_title">How do I monitor labs and share files in a lab?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/instructors/Instructor Guide Videos/https://youtu.be/C1kWaVl2NMQ">
+       <div class="subtopic_description"></div>
+        </a>
+      <a class="subtopic_link" href="https://youtu.be/C1kWaVl2NMQ" target="_blank">
         <div class="subtopic_title">How do I reset a student's username or password?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/instructors/Instructor Guide Videos/https://youtu.be/BNmy39wGdRM">
+       <div class="subtopic_description"></div>
+        </a>
+      <a class="subtopic_link" href="https://youtu.be/BNmy39wGdRM" target="_blank">
         <div class="subtopic_title">How do I mark students' daily attendance?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/instructors/Instructor Guide Videos/https://youtu.be/E7faRq3D46I">
+       <div class="subtopic_description"></div>
+        </a>
+      <a class="subtopic_link" href="https://youtu.be/E7faRq3D46I" target="_blank">
         <div class="subtopic_title">What do I do if a student doesn't see a Launch button?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/instructors/Instructor Guide Videos/https://youtu.be/Ji6oS_qwX70">
+       <div class="subtopic_description"></div>
+        </a>
+      <a class="subtopic_link" href="https://youtu.be/Ji6oS_qwX70" target="_blank">
         <div class="subtopic_title">What features are in my user profile?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/instructors/Instructor Guide Videos/https://youtu.be/S0XMTRAYTw4">
+       <div class="subtopic_description"></div>
+        </a>
+      <a class="subtopic_link" href="https://youtu.be/S0XMTRAYTw4" target="_blank">
         <div class="subtopic_title">How do I schedule times I am unavailable to teach?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/instructors/Instructor Guide Videos/https://youtu.be/bK_RiEbbjHA">
+       <div class="subtopic_description"></div>
+        </a>
+      <a class="subtopic_link" href="https://youtu.be/bK_RiEbbjHA" target="_blank">
         <div class="subtopic_title">How do I show what I am qualified to teach?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/instructors/general/reset-student-password.md">
-        <div class="subtopic_title">How do I, as an Instructor, reset a student's password?</div>
-      </a>
-    </div>
+       <div class="subtopic_description"></div>
+        </a>
+      </div>
    </div>
   </div><div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="General Docs" role="button" aria-selected="false">General</div>
