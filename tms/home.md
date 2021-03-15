@@ -115,8 +115,26 @@
           </a>
             </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-tms-videos.md" title="View all" aria-label="View all Admin TMS Videos">View all</a></div>
+         </a>
         </div>
-          <div class="azIndex cardContent">
+        </div>
+        </div>
+        <div class="cardContainer">
+          <div class="vmLabDev cardContent">
+            <div class="cardHeader" tabindex="0" title="Student Labs" aria-label="Student Docs for Labs">Labs</div>
+            <div class="category">
+              <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-without-user-account.md " class="categoryThread">
+                <i class="material-icons light-green" aria-hidden="true">desktop_windows</i>
+                <span class="categoryTitle" title="How do I access my labs using a lab code without a user account?">How do I access my labs using a lab code without a user account?</span>
+              </a>
+            </div>
+            <div class="category">
+              <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-with-user-account.md" class="categoryThread">
+                <i class="material-icons green" aria-hidden="true">desktop_windows</i>
+                <span class="categoryTitle" title="How do I access my labs for a class using a lab code when I have a user account?">How do I access my labs for a class using a lab code when I have a user account?</span>
+              </a>
+            </div>
+          <div class="category"> 
           <div class="cardHeader" tabindex="0" title="Instructor Preparation and Classes" aria-label="Instructor Docs for Preparation and Classes">Preparation and Classes</div>
           <div class="category">
             <a href="/tms/instructors/instructor-prep-and-classes/prepare-for-course-not-scheduled-to-teach.md" class="categoryThread">
