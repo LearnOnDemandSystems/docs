@@ -94,7 +94,7 @@
         </div>
         <div class="category">  
             <a href="/tms/instructors/general/reset-student-password.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">supervised_user_circle</i>
+              <i class="material-icons light-blue"aria-hidden="true">supervised_user_circle</i>
               <span class="categoryTitle" title="How do I, as an Instructor, reset a student's password?">How do I, as an Instructor, reset a student's password?</span>
             </a>
          </div>
