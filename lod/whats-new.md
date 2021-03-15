@@ -9,6 +9,25 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## **Released March 12, 2021**
+
+**Code Labs**
+
+- Expanded the size of the input fields for creating custom test variables to better accommodate testing against strings. 
+- The enabled icon now accurately shows the status of the selected language without having to exit or refresh the Code Lab editor. 
+- Improved handling of the default language selection: 
+  - When no default language is selected, the Code Lab will display the first enabled language. 
+  - Disabling a language that has been selected as default will remove the selection. 
+
+**Lab on Demand API Accounts**
+
+When launching via API call, we will now append a unique identifier to the username when an existing user not associated with an API consumer shares the same username.
+
+**LOD Improvements and Fixes**
+
+- Updated the Lab Client Main Menu button to show an outline on focus. 
+- Default Lab on Demand session length has been extended to 240 minutes 
+
 ## **Released February 26, 2021**
 
 **Lab Series Save-as**
