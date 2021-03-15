@@ -91,6 +91,16 @@
         <!-- Begin categories section.. -->
         <div class="cloudSlice cardContent">
           <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Featured Instructor General Docs">General</div>
+        </div>
+        <div class="category">  
+            <a href="/tms/instructors/general/reset-student-password.md" class="categoryThread">
+              <i class="material-icons light-blue" aria-hidden="true">supervised_user_circle</i>
+              <span class="categoryTitle" title="How do I, as an Instructor, reset a student's password?">How do I, as an Instructor, reset a student's password?</span>
+            </a>
+         </div>
+        </div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor General Docs">View all</a></div>
+        </div>
         <div class="category">  
             <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">supervised_user_circle</i>
@@ -108,16 +118,7 @@
         </div>
       </div>
         </div>
-      </div>
-        <a href="/tms/instructors/general/reset-student-password.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">supervised_user_circle</i>
-              <span class="categoryTitle" title="How do I, as an Instructor, reset a student's password?">How do I, as an Instructor, reset a student's password?</span>
-            </a>
          </div>
-        </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor General Docs">View all</a></div>
-        </div>
-      </div>
       <div class="cardContainer">
         <div class="vmLabDev cardContent">
           <div class="cardHeader" tabindex="0" title="Instructor Preparation and Classes" aria-label="Instructor Docs for Preparation and Classes">Preparation and Classes</div>
