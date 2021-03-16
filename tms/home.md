@@ -112,7 +112,6 @@
           </a>
           </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-tms-videos.md" title="View all" aria-label="View all Admin TMS Videos">View all</a></div>
-         </div>
         </div>
         </div>
         <div class="cardContainer">
@@ -131,7 +130,6 @@
               </a>
             </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor Docs for Labs">View all</a></div>
-        </div>
        </div>
       </div>
         <div class="cardContainer">
@@ -156,7 +154,6 @@
             </a>
           </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor Docs for Preparation and Classes">View all</a></div>
-         </div>
         </div>
         </div>
         <div class="cardContainer">
