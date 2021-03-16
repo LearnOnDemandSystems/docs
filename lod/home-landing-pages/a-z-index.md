@@ -125,7 +125,11 @@
       <a class="subtopic_link" href="/lod/instruction-source.md">
         <div class="subtopic_title">External Instruction Source</div>
         <div class="subtopic_description">Use an Azure DevOps or GitHub repository as the instruction source for labs.</div>
-      </a>                
+      </a>            
+      <a class="subtopic_link" href="/lod/start-states.md">
+        <div class="subtopic_title">Hyper-V Start States</div>
+        <div class="subtopic_description">Start States allow you to create a point in a lab where the lab will launch from for subsequent launches.</div>
+      </a>            
       <a class="subtopic_link" href="/lod/activities.md">
         <div class="subtopic_title">IDLx Activities</div>
         <div class="subtopic_description">Activities fall into two broad categories: Questions and Automated. Questions are simply multiple choice or short answer questions. Automated Activities have a script configured to run against a cloud subscription or Windows-based virtual machines running on Hyper-V in the lab.</div>

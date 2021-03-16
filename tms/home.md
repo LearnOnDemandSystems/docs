@@ -83,32 +83,57 @@
        </div>
       <!-- -- End student categories section -->
     </div>
-
   <div class="instructorCategory userTypeSection">
   <!-- instructor categories section.. -->
-    <div class="cardsContainer">
-    <div class="cardContainer">
-        <!-- Begin categories section.. -->
-        <div class="cloudSlice cardContent">
+     <div class="cardContainer">
+          <!-- Begin categories section.. -->
+          <div class="cloudSlice cardContent">
           <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Featured Instructor General Docs">General</div>
-        <div class="category">  
-            <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">supervised_user_circle</i>
-              <span class="categoryTitle" title="What does it mean to be a contract instructor?">What does it mean to be a contract instructor?</span>
-            </a>
-          </div>
-            <div class="category">
+          <div class="category">
             <a href="/tms/instructors/general/reset-student-password.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">supervised_user_circle</i>
               <span class="categoryTitle" title="How do I, as an Instructor, reset a student's password?">How do I, as an Instructor, reset a student's password?</span>
             </a>
+            </div>
+            <div class="category"> 
+              <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
+                <i class="material-icons blue" title="Student Basics" aria-hidden="true">supervised_user_circle</i>
+                <span class="categoryTitle" title="What does it mean to be a contract instructor?">What does it mean to be a contract instructor?</span>
+              </a>
+          </div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-tms-videos.md" title="View all" aria-label="View all Instructor Documents">View all</a></div>
          </div>
+          <div class="cloudSlice cardContent">
+          <div class="cardHeader" tabindex="0" title="Instructor Guide Videos" aria-label="Instructor Guide Videos">Instructor Guide Videos</div>
+          <div class="category">
+              <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
+               <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
+              <span class="categoryTitle" title="View videos">View videos</span>
+          </a>
+          </div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-tms-videos.md" title="View all" aria-label="View all Admin TMS Videos">View all</a></div>
         </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor General Docs">View all</a></div>
         </div>
+        <div class="cardContainer">
+          <div class="vmLabDev cardContent">
+            <div class="cardHeader" tabindex="0" title="Student Labs" aria-label="Student Docs for Labs">Labs</div>
+            <div class="category">
+              <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-without-user-account.md " class="categoryThread">
+                <i class="material-icons light-green" aria-hidden="true">desktop_windows</i>
+                <span class="categoryTitle" title="How do I access my labs using a lab code without a user account?">How do I access my labs using a lab code without a user account?</span>
+              </a>
+            </div>
+            <div class="category">
+              <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-with-user-account.md" class="categoryThread">
+                <i class="material-icons green" aria-hidden="true">desktop_windows</i>
+                <span class="categoryTitle" title="How do I access my labs for a class using a lab code when I have a user account?">How do I access my labs for a class using a lab code when I have a user account?</span>
+              </a>
+            </div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor Docs for Labs">View all</a></div>
+       </div>
       </div>
-      <div class="cardContainer">
-        <div class="vmLabDev cardContent">
+        <div class="cardContainer">
+          <div class="vmLabDev cardContent"> 
           <div class="cardHeader" tabindex="0" title="Instructor Preparation and Classes" aria-label="Instructor Docs for Preparation and Classes">Preparation and Classes</div>
           <div class="category">
             <a href="/tms/instructors/instructor-prep-and-classes/prepare-for-course-not-scheduled-to-teach.md" class="categoryThread">
@@ -130,11 +155,11 @@
           </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor Docs for Preparation and Classes">View all</a></div>
         </div>
-      </div>
-      <div class="cardContainer">
-        <div class="pbt_scoring cardContent">
-          <div class="cardHeader" tabindex="0" title="Instructor Student Labs" aria-label="Instructor Docs for Student Labs">Student Labs</div>
-          <div class="category">
+        </div>
+        <div class="cardContainer">
+          <div class="vmLabDev cardContent">
+            <div class="cardHeader" tabindex="0" title="Instructor Student Labs" aria-label="Instructor Docs for Student Labs">Student Labs</div>
+            <div class="category">
             <a href="/tms/instructors/student-labs/assist-students.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">settings_system_daydream</i>
               <span class="categoryTitle" title="How do I assist my students with their labs?">How do I assist my students with their labs?</span>
@@ -144,12 +169,6 @@
             <a href="/tms/instructors/student-labs/share-files-with-students.md" class="categoryThread">
               <i class="material-icons blue" aria-hidden="true">settings_system_daydream</i>
               <span class="categoryTitle" title="How do I share files with students?">How do I share files with students?</span>
-            </a>
-          </div>
-          <div class="category">
-            <a href="" class="categoryThread" onclick="return false" aria-label="blank">
-              <i class="material-icons light-blue" aria-hidden="true"></i>
-              <span class="categoryTitle" aria-hidden="true"></span>
             </a>
           </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all Instructor Docs for Student Labs" aria-label="View all Instructor Docs for Student Labs">View all</a></div>
@@ -168,12 +187,6 @@
             <a href="/tms/instructors/instructor-profile/show-courses-qualified-to-teach.md" class="categoryThread">
               <i class="material-icons green" aria-hidden="true">person</i>
               <span class="categoryTitle" title="How can I show what I am qualified to teach?">How can I show what I am qualified to teach?</span>
-            </a>
-          </div>
-          <div class="category">
-            <a href="" class="categoryThread"onclick="return false" aria-label="blank">
-              <i class="material-icons light-green" aria-hidden="true"></i>
-              <span class="categoryTitle" aria-hidden="true"></span>
             </a>
           </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all Instructor Profile Related Docs" aria-label="View all Instructor Profile Related Docs">View all</a></div>

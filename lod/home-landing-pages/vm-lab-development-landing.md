@@ -68,6 +68,10 @@
         <div class="subtopic_title">Docker Support</div>
         <div class="subtopic_description">Supported Docker configurations.</div>
       </a>
+      <a class="subtopic_link" href="/lod/start-states.md">
+        <div class="subtopic_title">Hyper-V Start States</div>
+        <div class="subtopic_description">Start States allow you to create a point in a lab where the lab will launch from for subsequent launches.</div>
+      </a>         
       <a class="subtopic_link" href="/lod/ova-import.md">
         <div class="subtopic_title">Importing an VMware Virtual Machine From an OVA.</div>
         <div class="subtopic_description">Virtual machine profile creation, and explanation of virtual machine profile configuration.</div>
