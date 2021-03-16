@@ -155,7 +155,8 @@
             </a>
           </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor Docs for Preparation and Classes">View all</a></div>
-        </div>
+          </a>
+       </div>
        </div>
       </div>
       <div class="cardContainer">
