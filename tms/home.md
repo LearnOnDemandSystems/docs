@@ -155,13 +155,13 @@
             </a>
           </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor Docs for Preparation and Classes">View all</a></div>
+         </div>
         </div>
-       </div>
-      </div>
-      <div class="cardContainer">
-        <div class="pbt_scoring cardContent">
-          <div class="cardHeader" tabindex="0" title="Instructor Student Labs" aria-label="Instructor Docs for Student Labs">Student Labs</div>
-          <div class="category">
+        </div>
+        <div class="cardContainer">
+          <div class="vmLabDev cardContent">
+            <div class="cardHeader" tabindex="0" title="Instructor Student Labs" aria-label="Instructor Docs for Student Labs">Student Labs</div>
+            <div class="category">
             <a href="/tms/instructors/student-labs/assist-students.md" class="categoryThread">
               <i class="material-icons light-blue" aria-hidden="true">settings_system_daydream</i>
               <span class="categoryTitle" title="How do I assist my students with their labs?">How do I assist my students with their labs?</span>
