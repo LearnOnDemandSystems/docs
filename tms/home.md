@@ -101,7 +101,7 @@
                 <span class="categoryTitle" title="What does it mean to be a contract instructor?">What does it mean to be a contract instructor?</span>
               </a>
           </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/instructors/instructor-guide-videos/instructor-videos.md" title="View all" aria-label="View all Instructor Videos">View all</a></div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor Videos">View all</a></div>
          </div>
           <div class="cloudSlice cardContent">
           <div class="cardHeader" tabindex="0" title="Instructor Guide Videos" aria-label="Instructor Guide Videos">Instructor Guide Videos</div>
@@ -111,7 +111,7 @@
               <span class="categoryTitle" title="View videos">View videos</span>
           </a>
           </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/instructors/instructor-guide-videos/instructor-videos.md" title="View all" aria-label="View all Admin TMS Videos">View all</a></div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Admin TMS Videos">View all</a></div>
         </div>
         </div>
         <div class="cardContainer">
