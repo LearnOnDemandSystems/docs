@@ -48,7 +48,7 @@
       </a>
       <a class="subtopic_link" href="https://youtu.be/Ug4AYUyHKhw" target="_blank">
         <div class="subtopic_title">How can I use the class links showing after class starts?</div>
-          <div class="subtopic_description">After a class is has started, additional links are available to manage class. We take the time to demonstrate all these features in this video: roster, roster icons, attendance chart, lab instances, survey results, and monitor labs.</div>
+          <div class="subtopic_description">After a class has started, additional links are available to manage class. We take the time to demonstrate all these features in this video: roster, roster icons, attendance chart, lab instances, survey results, and monitor labs.</div>
       </a>
       <a class="subtopic_link" href="https://youtu.be/3O3b8xAv9II" target="_blank">
         <div class="subtopic_title">How do I create enrollments?</div>
