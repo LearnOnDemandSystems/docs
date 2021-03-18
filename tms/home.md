@@ -111,7 +111,7 @@
               <span class="categoryTitle" title="View videos">View videos</span>
           </a>
           </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-tms-videos.md" title="View all" aria-label="View all Admin TMS Videos">View all</a></div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/instructors/instructor-guide-videos.md" title="View all" aria-label="View all Admin TMS Videos">View all</a></div>
         </div>
         </div>
         <div class="cardContainer">
