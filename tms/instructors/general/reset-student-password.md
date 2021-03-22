@@ -15,6 +15,13 @@ To change either the password or username:
 1. The Login Credentials: Student dialog opens.
 1. Change the **Username** if needed.
 1. Check **Change Password** if needed.
+    >[!knowledge] Passwords must meet the following complexity requirements: 
+    > - 8 characters
+    > - 1 number
+    > - 1 letter
+    > - 1 lower-case letter
+    > - 1 special character
+
     1. Input and confirm the **New Password**.
     1. Click **Save**.
 

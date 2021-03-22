@@ -11,7 +11,12 @@ To change your password:
 1. On your **User Profile** page, click **Change Password**. 
 1. In the dialog that opens, enter a password of your choice in the **New Password** and **Confirm Password** fields.
 
-    > Passwords must be at least 8 characters
+    > Passwords must meet the following complexity requirements: 
+    - 8 characters
+    - 1 number
+    - 1 letter
+    - 1 lower-case letter
+    - 1 special character
     
 1. Click **OK**. 
 
