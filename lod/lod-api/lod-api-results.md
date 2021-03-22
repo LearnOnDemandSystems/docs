@@ -41,7 +41,7 @@ The **Results** command returns information about all lab instance results that 
 |TaskCompletePercent|Int|No|If the lab has integrated tasks, the percentage of tasks that the user has completed.|
 |IsExam|Bool|No|Indicates whether the lab is scored as an exam|
 |ExamPassed|Bool|Yes|Indicates whether the user passed the exam. Will only be set if the lab is an exam (IsExam = true) and the exam has been scored.|
-|ExamScore|Integer|Yes|Indicates the exam score. Will only be set if the lab is an exam (IsExam = true) and the exam has been scored.|
+|ExamScore|Decimal|Yes|Indicates the exam score. Will only be set if the lab is an exam (IsExam = true) and the exam has been scored.|
 |ExamMaxPossibleScore|Integer|Yes|Indicates the exam maximum possible score. Will only be set if the lab is an exam (IsExam = true) and the exam has been scored.|
 |ExamPassingScore|Integer|Yes|Indicates the minimum score required to pass the exam. Will only be set if the lab is an exam (IsExam = true) and the exam has been scored.|
 |IpAddress|String|Yes|The user's IP address. This is only included if the IP address was provided when the lab was launched.|
