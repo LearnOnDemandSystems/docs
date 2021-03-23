@@ -8,7 +8,7 @@ isPublished: true
 
 An Access Control Policy is used by a cloud provider to limit the resources that can be provisioned within the resource group. This prevents additional cloud costs by preventing users from creating resources that are not relevant to the content and/or outside the scope of the lab.
 
->[!Note] In LOD, ACPs are attached to a resource group. To add an ACP to a Lab Profile, you will need to [create a resource template and configure a resource group](create-a-resource-template-and-configure-it-into-a-resource-group.md) first. 
+>[!Note] In LOD, ACPs are attached to a resource group. To add an ACP to a Lab Profile, you will need to [create a resource template and configure a resource group](./create-a-resource-template-and-configure-it-into-a-resource-group.md) first. 
 
 ## Finding an Existing ACP
 
@@ -18,7 +18,7 @@ LOD has a library of existing ACPs to make building common cloud labs easier and
 2. Add the filter **Organization Name**, select **Does** **Equal**, and enter **LOD Managed**
 3. You can narrow your search further by filtering for the desired **Cloud Platform** and whether or not the ACP requires a Security Review:
 
-![LOD Managed ACPs](images/find-acp-lodmanaged.png)
+![LOD Managed ACPs](./images/find-acp-lodmanaged.png)
 
 > [!Note] These ACPs are created, maintained, and publicly available by LODS to all developers. While the resouces allowed on these ACPs will not change, the syntax is subject to change depending on cloud security best practices.
 
@@ -32,7 +32,7 @@ You can also search your own Organization's existing ACPs by following the same 
 
 1. Click **Create Access Control Policy** in the upper-right corner of the page. 
 
-   ![Create Cloud Access Control Policy ](images/find-access-control-policy.png)
+   ![Create Cloud Access Control Policy ](./images/find-access-control-policy.png)
 
 1. Enter the following values into the Create an Access Control Policy form:
 
@@ -142,8 +142,8 @@ With this Access Control Policy in place, lab users will be restricted to creati
 
 ## Additional Information
 
-> [!Note]Changing the ACP on a Lab Profile or making changes to an ACP itself will invalidate a security review. To learn more about the security review process, check out our [Cloud Security Review Documentation](../lod/cloud-security/cloud-security-review.md).
+> [!Note]Changing the ACP on a Lab Profile or making changes to an ACP itself will invalidate a security review. To learn more about the security review process, check out our [Cloud Security Review Documentation](./cloud-security/cloud-security-review.md).
 
-Or go back to [Cloud Security Home](../lod/cloud-security/cloud-security-home.md).
+Or go back to [Cloud Security Home](./cloud-security/cloud-security-home.md).
 
 [Back to top](#access-control-policies-acp)

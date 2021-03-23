@@ -16,9 +16,9 @@ The risk levels of **High**, **Medium**, and **Low** are defined below with the 
 
 Access Control Policies, or ACPs, apply restrictions to the lab user's cloud environment and prevent them from creating resources that are not relevant to the content.
 
-To learn how to find an appropriate ACP for your lab, or how to write your own, check out [How to Create an Access Control Policy](../lod/create-a-restriction-policy.md). 
+To learn how to find an appropriate ACP for your lab, or how to write your own, check out [How to Create an Access Control Policy](../create-a-restriction-policy.md). 
 
-> [!Knowledge]Some Access Control Policies (ACPs) are pre-approved and made available to lab developers. Labs that only contain pre-approved ACPs do not require a security review. Learn more about pre-approved ACPs [here](../lod/create-a-restriction-policy.md).
+> [!Knowledge]Some Access Control Policies (ACPs) are pre-approved and made available to lab developers. Labs that only contain pre-approved ACPs do not require a security review. Learn more about pre-approved ACPs [here](../create-a-restriction-policy.md).
 
 ## Access Control Policy (ACP) Format
 ### Azure
@@ -184,8 +184,8 @@ Low risk labs may be approved for any intended use.
 
 > [!Note]Cloud security is an ever-changing landscape, and these standards are subject to change to ensure labs align with up-to-date security practices. 
 
-To learn how to find a secure ACP for your lab, or how to write your own, check out [How to Create an Access Control Policy](../lod/create-a-restriction-policy.md).
+To learn how to find a secure ACP for your lab, or how to write your own, check out [How to Create an Access Control Policy](../create-a-restriction-policy.md).
 
-Or go back to [Cloud Security Home](../lod/cloud-security/cloud-security-home.md).
+Or go back to [Cloud Security Home](./cloud-security-home.md).
 
 [Back to top.](#cloud-security-standards)
