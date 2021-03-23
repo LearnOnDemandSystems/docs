@@ -58,7 +58,11 @@
          <div class="subtopic_title">Azure Virtualization</div>
          <div class="subtopic_description">Deploy an Azure hosted virtual machine.</div>
       </a>
-      <a class="subtopic_link" href="/lod/cloud-security-review.md">
+      <a class="subtopic_link" href="/lod/cloud-security/cloud-security-home.md">
+         <div class="subtopic_title">Cloud Security Resources</div>
+         <div class="subtopic_description">Information on Cloud Security Reviews, Access Control Policies, and cloud security standards for Cloud Slice labs</div>
+      </a>
+      <a class="subtopic_link" href="/lod/cloud-security/cloud-security-review.md">
          <div class="subtopic_title">Cloud Security Review</div>
          <div class="subtopic_description">Information Regarding the Cloud Security Review Process</div>
       </a>
