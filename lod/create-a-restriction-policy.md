@@ -1,28 +1,40 @@
 ---
 title: "Create an Access Control Policy"
-description: "Create a Cloud Access Control Policy."
+description: "Instructions on how to find, create, and attach Cloud Access Control Policies to a Lab Profile."
 isPublished: true
 ---
 
-# Create an Access Control Policy 
+# Access Control Policies (ACP)
 
-An Access Control Policy  is used by a cloud provider, to limit the resources that can be provisioned by the cloud provider. This helps to prevent additional charges from incurring if students configure something in the Cloud portal that is outside of the scope of the lab. Access Control Policies also help students stay within the goals of the lab.
+An Access Control Policy is used by a cloud provider to limit the resources that can be provisioned within the resource group. This prevents additional cloud costs by preventing users from creating resources that are not relevant to the content and/or outside the scope of the lab.
 
-For more information about the items that can be used in an Access Control Policy , see [Microsoft Azure Access Control Policy  Templates](https://docs.microsoft.com/en-us/azure/azure-policy/json-samples).
+>[!Note] In LOD, ACPs are attached to a resource group. To add an ACP to a Lab Profile, you will need to [create a resource template and configure a resource group](create-a-resource-template-and-configure-it-into-a-resource-group.md) first. 
 
->[!alert] In LOD, Access Control Policies are housed inside of a resource group. If you have not created a Resource Group, you will not be able to configure the Access Control Policy to the lab profile until the Resource Group is created and assigned to the lab profile. See our guide for more information about [creating a resource template and configure it into a resource group](create-a-resource-template-and-configure-it-into-a-resource-group.md). 
+## Finding an Existing ACP
+
+LOD has a library of existing ACPs to make building common cloud labs easier and more secure. To find publicly accessible ACPs:
+
+1. From the **Admin** page, in the **Cloud Services** tile, select **Access Control Policies**.
+2. Add the filter **Organization Name**, select **Does** **Equal**, and enter **LOD Managed**
+3. You can narrow your search further by filtering for the desired **Cloud Platform** and whether or not the ACP requires a Security Review:
+
+![LOD Managed ACPs](images/find-acp-lodmanaged.png)
+
+> [!Note] These ACPs are created, maintained, and publicly available by LODS to all developers. While the resouces allowed on these ACPs will not change, the syntax is subject to change depending on cloud security best practices.
+
+You can also search your own Organization's existing ACPs by following the same process and changing the **Organization** filter to your desired Organization. 
 
 ## Creating an Access Control Policy in Lab on Demand (LOD)
 
-1. **Navigate** to the **Cloud Services** tile, on the LOD Admin page.
+1. Navigate to the **Cloud Services** tile, on the LOD Admin page.
 
-1. Click **Cloud Access Control Policies**.
+1. Click **Access Control Policies**.
 
-1. Click **Create Acess Control Policy** in the upper-right corner of the page. 
+1. Click **Create Access Control Policy** in the upper-right corner of the page. 
 
    ![Create Cloud Access Control Policy ](images/find-access-control-policy.png)
 
-1. Enter the following values into the Create an Access Control Policy  form:
+1. Enter the following values into the Create an Access Control Policy form:
 
     |Tab|Field Name|Field Value|
     |--|--|--|
@@ -32,13 +44,13 @@ For more information about the items that can be used in an Access Control Polic
     ||**Access Control Policy**|Enter the Access Control Policy  here, in JSON format.|
     ||**Enabled**|Check the box to enable this Access Control Policy  for use.|
 
-## Examples
+## ACP Examples
 
 ### Azure
 
-By default, Azure allows all resources to be provisioned, unless they are defined as denied by an access control policy. 
+By default, Azure allows all resources to be provisioned, unless they denied by an access control policy. 
 
-The access control policy below will deny any resources from being provisioned unless it is a standard_DS3_v2 virtual machine to be deployed. 
+This example policy below will deny any resources from being provisioned unless it is a "standard_DS3_v2" virtual machine:
 
 ```linenums
 {
@@ -66,56 +78,72 @@ The access control policy below will deny any resources from being provisioned u
 
 ### AWS
 
-By default, AWS allows denies all resources from bring provisioned, unless they are defined as allowed by an access control policy. 
+By default, AWS denies all resources from bring provisioned, unless they are allowed by an access control policy. 
 
-The access control policy below will allow only the EC2 service to be deplyed. Other AWS services that are not defined will not be available for deployment.
+The access control policy below will allow all EC2 resources except Virtual Machines. Other AWS services that are not defined will not be available for deployment.
 
 ```linenums
 {
   "Version": "2012-10-17",
   "Statement": [
     {
-      "Sid": "Stmt1547479378374",
-      "Action": [
-                "ec2:*"   
-      ],
-      "Effect": "Allow",
-      "Resource": "*"
+      "Action": "ec2:*",
+      "Resource": "*",
+      "Effect": "Allow"
+    },
+    {
+      "Action": "ec2:RunInstances",
+      "Resource": "arn:aws:ec2:*:*:instance/*",
+      "Effect": "Deny"
     }
   ]
 }
 ```
 
-## Adding a Access Control Policy  To a Cloud Slice Lab in LOD
+## ACP Authoring Resources
 
-1. Navigate to the lab profile that you wish to add the Access Control Policy  to.
+**Learn On Demand Systems**: For more in-depth information on how to create your own custom ACPs, our [Lab developer Github](https://github.com/LearnOnDemandSystems/labauthor/tree/master/access-control-policies/) provides examples of various ACPs, as well as guidance on how to create your own.
+
+**Azure**: For more information about the items that can be used in an Azure policy, see [Microsoft Azure Access Control Policy Templates](https://docs.microsoft.com/en-us/azure/azure-policy/json-samples).
+
+**AWS**: To quickly generate a json policy for AWS, check out Amazon's [AWS Policy Generator](https://awspolicygen.s3.amazonaws.com/policygen.html).
+
+## Adding an Access Control Policy to a Cloud Slice Lab
+
+1. Navigate to the Lab Profile to which you are adding the ACP.
 
     >[!knowledge] You can search for your lab profile by doing the following:
     >
     >1. Return to the Lab on Demand Administration page.
     >
-    >1. Click Find Lab Profiles to find your lab profile.
+    >1. Select **Find Lab Profiles** to find your lab profile.
     >
     >1. Enter the name of the lab profile into the **Name** field, and change the operator drop down adjacent to it to **Equal**. 
     >
-    >1. Click **Search** to find your lab profile.
+    >1. Select **Search** to find your lab profile.
     >
     >1. In the search results, click the Name of your lab profile to open the Lab Profile details view.
 
-1. Click **Edit Profile** to open the edit view for your lab profile.
+2. Click **Edit Profile** to open the edit view.
 
-1. Select the **Cloud** tab.
+3. Select the **Cloud** tab.
 
-1. Scroll down to your resource group, then click **Add Access Control Policies** below the _Cloud Access Control Policies_ heading.
+4. Scroll down to your resource group, then click **Add Policy** below the **Access Control Policies** heading.
 
-1. Enter the name you gave your Access Control Policy  into the **Name** field, and change the operator drop down adjacent to it to **Equal**. (Access Control Policy  created in previous steps)
+5. Enter the name you gave your Access Control Policy into the **Name** field (see [Creating an ACP](#creating-an-access-control-policy-in-lab-on-demand-lod)).
 
-1. Click **Search** to find your Access Control Policy .
+6. Click **Search** to find your Access Control Policy (see [Finding an Existing ACP](#finding-an-existing-acp)).
 
-1. Select your Access Control Policy  in the list of results, then click **OK**.
+7. Select your Access Control Policy in the list of results, then click **OK**.
 
-1. Click **Save** to save the updated lab profile.
+8. Click **Save** to save the updated lab profile.
 
-With this Access Control Policy  in place, lab users will be restricted from creating resources that are defined in the Access Control Policy , in their Cloud Slice lab.
+With this Access Control Policy in place, lab users will be restricted to creating resources that are defined in the ACP in their Cloud Slice lab.
 
-[Back to top](#an-access-control-policy)
+## Additional Information
+
+> [!Note]Changing the ACP on a Lab Profile or making changes to an ACP itself will invalidate a security review. To learn more about the security review process, check out our [Cloud Security Review Documentation](../lod/cloud-security/cloud-security-review.md).
+
+Or go back to [Cloud Security Home](../lod/cloud-security/cloud-security-home.md).
+
+[Back to top](#access-control-policies-acp)
