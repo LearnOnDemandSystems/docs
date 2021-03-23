@@ -30,7 +30,10 @@
       <a class="subtopic_link" href="/tms/tms-administrators/miscellaneouss/assessments.md">
         <div class="subtopic_title">How do assessments work?</div>
       </a>
-    </div>
+    <a class="subtopic_link" href="/tms/tms-administrators/miscellaneouss/write-assessments.md">
+        <div class="subtopic_title">Tips and tricks for writing assessments</div>
+      </a>
+      </div>
   </div>
 </div>
 
