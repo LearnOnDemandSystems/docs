@@ -27,10 +27,10 @@
        <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/analyze-survey-results.md">
         <div class="subtopic_title">How do I export survey responses and analyze them in Excel?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/miscellaneouss/assessments.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/assessments.md">
         <div class="subtopic_title">How do assessments work?</div>
       </a>
-    <a class="subtopic_link" href="/tms/tms-administrators/miscellaneouss/write-assessments.md">
+    <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/write-assessments.md">
         <div class="subtopic_title">Tips and tricks for writing assessments</div>
       </a>
       </div>
