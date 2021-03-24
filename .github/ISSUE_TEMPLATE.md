@@ -10,7 +10,7 @@
 -->
 
 **Description of proposed changes**: 
-Enter descriptoin here
+Enter description here
 
 **Link to the document**: 
 Enter link here
