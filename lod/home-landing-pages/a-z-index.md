@@ -62,9 +62,17 @@
          <div class="subtopic_title">Azure Virtualization</div>
          <div class="subtopic_description">Deploy an Azure hosted virtual machine.</div>
       </a>
-      <a class="subtopic_link" href="/lod/cloud-security-review.md">
+      <a class="subtopic_link" href="/lod/cloud-security/cloud-security-home.md">
+         <div class="subtopic_title">Cloud Security Resources</div>
+         <div class="subtopic_description">Information on Cloud Security Reviews, Access Control Policies, and cloud security standards for Cloud Slice labs</div>
+      </a>
+      <a class="subtopic_link" href="/lod/cloud-security/cloud-security-review.md">
          <div class="subtopic_title">Cloud Security Review</div>
          <div class="subtopic_description">Information Regarding the Cloud Security Review Process</div>
+      </a>
+      <a class="subtopic_link" href="/lod/cloud-security/cloud-security-standards.md">
+         <div class="subtopic_title">Cloud Security Standards</div>
+         <div class="subtopic_description">Outlines how risk level is determined and criteria for a lab passing security review.</div>
       </a>
       <a class="subtopic_link" href="/guides/cloud-slice/cloud-slice.md">
         <div class="subtopic_title">Cloud Slice Setup Guide</div>
@@ -96,7 +104,7 @@
       </a>
       <a class="subtopic_link" href="/lod/create-a-restriction-policy.md">
         <div class="subtopic_title">Create an Access Control Policy</div>
-        <div class="subtopic_description">Create a Cloud Access Control Policy.</div>
+        <div class="subtopic_description">How to find or create an appropriate Access Control Policy and add it to your lab.</div>
       </a>
       <a class="subtopic_link" href="/lod/create-removable-media.md">
         <div class="subtopic_title">Create Removable Media</div>
