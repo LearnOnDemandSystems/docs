@@ -47,6 +47,7 @@ we have made the following changes:
 
 ----------------------------
 ## Released February 25 2021
+
 ### <span style="color:#0078d7;">Accessibility Items</span>
 *   In our continuing effort to improve accessibility for all our students and meet MAS standards:
     *   General search pages will retain the focus on Add Filter after a filter option is selected. 
@@ -61,8 +62,11 @@ we have made the following changes:
 *   API Documentation – SearchClasses: A CustomFieldSearchFilter has been added to the SearchClasses API calls. 
 *   Bulk Update User Profiles – Organization Management: We have fixed an issue when Bulk Editing Users auto-checking all organizations and assigning organization management to edited users.  
 
+
 ----------------------------
+
 ## Released February 11 2021
+
 ### <span style="color:#0078d7;">Accessibility Item</span>
 *   In our continuing effort to improve accessibility for all our students and meet MAS standards, 
     *   The Screen Reader will narrate Include Children for the add filter option of Belongs to Organization on Find Courses.
@@ -74,8 +78,11 @@ An option to create multiple course assignments for multiple students has been a
 *   Find Courses – Subscription Filters: We have added a “Subscription Profile (Choose) and Subscription Profile Name” filter on Find Courses. 
 *   Find Courses – Organization Search:  You will no longer receive a query message indicating to reduce the scope of your query when finding courses. We have increased the default maximum organizations that you are able to search from 50 to 100.
 
+
 ----------------------------
+
 ## Released January 28 2021
+
 ### <span style="color:#0078d7;">Enhanced account security scheduled for implementation at 10:00pm ET Friday, February 12th</span>
 Learn on Demand Systems is implementing enhanced account security for user accounts that sign in with a username/password. You can learn more about these security measures here.
 Starting 10:00pm ET on Friday, February 12, local users will be prompted to reset your TMS password upon login at https://lms.learnondemand.net. Users logging in through API or Corporate Azure AD will not be prompted to reset their password
@@ -98,8 +105,11 @@ Find Entities by ID – Filter: We have added an “ID” filter to the followin
 *	Find/Choose Subscriptions
 *	Find/Choose Users
 
+
 ----------------------------
+
 ## Released January 14 2021
+
 ### <span style="color:#0078d7;">Enhancements and Fixes</span>
 *   Find Lab Instances – E-mail Address: We have added a student “E-mail” address filter and output option on Find Lab Instances.
 *   Find Publishing Group – Aligned To An Organization:  We have added an “Aligned To An Organization” filter on Find Publishing Groups.
@@ -107,8 +117,11 @@ Find Entities by ID – Filter: We have added an “ID” filter to the followin
 *   Edit User Profile – Roles: The Starts/Expires time fields now fully display AM or PM and no longer stacked.
 *   Course, Class, and Catalog Browsers – Default Search Save: When saving a search and making it default, then navigating away the default search is now saving.
 
+
 ----------------------------
+
 ## Released December 17 2020
+
 ### <span style="color:#0078d7;">Bulk Update User Profiles</span>
 A new Bulk Update User Profiles page has been added to TMS. This page allows TMS administrators to disable users, set time zones, change company and account executives, assign permanent or temporary roles, and designate user accounts for organization management en masse. It can also flag the following fields for update on next user login:
 
@@ -133,8 +146,11 @@ A new Bulk Update User Profiles page has been added to TMS. This page allows TMS
 *   Bug Fix – Lab Instance Search Page: Fixed an issue on the Lab Instance Search page that displayed a non-translated string in a filter dropdown.
 *   Bug Fix – Deferred Launch Labs: Fixed an issue that caused deferred launched labs to not be associated with a user profile.
 
+
 ----------------------------
+
 ## Released December 3 2020
+
 ### <span style="color:#0078d7;">User Role Expiration on Bulk User Import</span>
 When assigning individual roles to users during the user import process, an option has been added to add automatic expiration dates for each role on a per user basis. 
 
@@ -144,8 +160,11 @@ When assigning individual roles to users during the user import process, an opti
 *   Bug Fix – Course Progress Bars: Fixed an issue that caused progress bars on the Enrollment and Course Assignment pages to not properly reflect a student’s progress.
 *   Bug Fix – Launch Activities Buttons: Fixed an issue that caused Activity Launch buttons to not appear when viewing the Class Details page.
 
+
 ----------------------------
+
 ## Released November 19 2020
+
 ### <span style="color:#0078d7;">Browser and Catalog Save Filter Selections</span>
 When enabled, users will now be able to save custom search filters on the Course Browser, Class Browser, and Course Catalog pages.
 
@@ -154,8 +173,11 @@ When enabled, users will now be able to save custom search filters on the Course
 *   Bug Fix – Enrollment status: Users with the enrollment statuses of Requested, Cancelled, or Denied are no longer treated as being enrolled in the class.
 *   Bug Fix – Zoom recordings: Fixed an issue that would cause single delivery classrooms delivered over multiple days to only display the first days Zoom recordings.
 
+
 ----------------------------
+
 ## Released October 29 2020
+
 ### <span style="color:#0078d7;">Create Multiple Enrollments</span>
 We have added a Create Multiple Enrollments link on the Classes tile. Operations managers can now waitlist and enroll multiple students to multiple classes simultaneously from a single menu. If the class is full and users are added with an enrollment status of “Enrolled,” the enrollment status changes to “Wait-Listed” when then enrollments are saved. 
 
@@ -171,8 +193,11 @@ We have added a Create Multiple Enrollments link on the Classes tile. Operations
 *   Find Enrollments/Find Course Assignments – Duration: Duration has been added as an output option to the Find Enrollments and Find Course Assignments searches. 
 * Find Courses – Training days: A training days field has been added as an output option and search filter to the Find Courses search. 
 
+
 ----------------------------
+
 ## Released October 15 2020
+
 ### <span style="color:#0078d7;">TMS Platform – Adobe Flash</span>
 At the end of 2020, Adobe will permanently end the life of Flash. To prepare for this, the SCORM video upload and Adobe Connect integration have been updated to remove Flash from the platform. It should be noted that Internet Explorer only has legacy Adobe Connect available; once Flash is deprecated, students using Internet Explorer will have to download the Adobe Connect Client or switch to a different browser.
 
@@ -193,8 +218,11 @@ If the instructor is not assigned to the class but has an Enrollment Status of W
 *   Custom Sites - Training Key Pool: Users can now redeem keys against a central (parent) site and still be placed correctly into the appropriate child org. This removes corner cases where students could register on a parent organization site that uses an older custom login page file that bypasses the normal org id check process, leaving the user registered incorrectly.
 *   Class - Lab Activities: Resolved an issue that allowed non-basic users to launch otherwise disabled class activities.
 
+
 ----------------------------
+
 ## Released October 1 2020
+
 
 ### <span style="color:#0078d7;">Courses – Virtual Meeting Host – Custom Virtual Classroom</span>
 
@@ -205,8 +233,11 @@ We have updated the Custom Virtual Classroom to specify when the “Enter Classr
 * Class Details: We have removed Manage Courseware Vouchers from the quick launch menu bar on the Class Details page.
 * Notifications: Attach a Calendar Event - We have fixed the .ics file attached to a calendar event from displaying as “Not Supported Calendar Message” within Outlook.
 
+
 ----------------------------
+
 <!--
+
 ## Released September 17, 2020
 
 ### <span style="color:#0078d7;">Courses – Class Absolute Maximum Capacity</span>
@@ -514,5 +545,4 @@ The Class Roster now shows a column for the percentage of course activities comp
 1. Merge Users – Two user accounts cannot be merged when both students used a training key to enroll into the same class. An assistance message has been added, “We are unable to process this account merge due to multiple enrollments in the same training created by training keys. Please open a Support ticket at https://lods.one/support for assistance.”
 1. SCORM video player – SCORM videos played in the Chrome browser encountered a bug that prevented adjusting your place in a video. Players in Chrome can now be adjusted to move forward, to skip ahead, and go back within the video. Seeking in Chrome may take 3-8 seconds to load after moving to a new spot.
 1. Class profile – The URL field for the Custom Virtual Classroom class delivery method has increased its capacity from 200 to 500 characters.
-
 -->
