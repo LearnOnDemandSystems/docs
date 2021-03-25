@@ -2,6 +2,32 @@
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## Released March 25, 2021
+### <span style="color:#0078d7;">Subscription Training Key</span>
+We now allow a single Subscription Training Key to be used by multiple users that will align with a subscription. On Create/Edit Subscription Keys, we have added an ‘Expires’ and ‘Max number of uses per key’ field.  This will allow a user with the appropriate permission to set an expiration date and number of uses a subscription training key can be used.  If no expiration is set, the training key never expires.  If no value is set on ‘Max number of uses per key’, it will default to a single use.
+
+On the Find Subscription Keys page, we removed the Redeemed filter and added the following Output Options on the Find Subscription Key page: 
+* Max number of uses per key
+* Subscriptions created from key
+* Expires 
+
+### <span style="color:#0078d7;">Accessibility Items</span>
+In our continuing effort to improve accessibility for all our students and meet MAS standards,we have made the following changes:
+*   The Screen Reader now narrates ‘Table of Contents’ and ‘Description’ for simple course assignments. 
+
+### <span style="color:#0078d7;">Enhancements and Fixes</span>
+*   Training Key – Character Update: We have increased the Training Key default from 8 to 16 characters.  
+*   PercentComplete Column – Class Roster:  We have fixed the ‘PercentComplete’ on the class rosters showing 0% despite students completing their activities. 
+*   API Documentation – SearchCourseAssignments:  We have included Training Key and Subscription as a ‘PaymentType’ to the ‘CourseAssignmentSearchResult’.
+*   Translation - File Update:   We have updated the language files in TMS for the following supported languages: 
+    *   Chinese (Simplified)
+    *   German
+    *   Japanese
+    *   Korean
+    *   Portuguese
+    *   Spanish
+
+----------------------------
 ## Released March 11, 2021
 ### <span style="color:#0078d7;">Accessibility Items</span>
 Accessibility Items
