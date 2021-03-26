@@ -50,6 +50,7 @@ The table below lists the replacement tokens that are available to use. Some rep
    >|`@lab.CloudPortal.SignOutUrl`|The cloud portal sign-out URL (rendered as text, not a    link).|
    >|`@lab.TextBox(name)`|A text box that allows the user to set the value of a named    variable. This variable value can then be displayed elsewhere using @lab.Variable(name)   .|
    >|`@lab.DropDownList(name)[val1,val2]`|A dropdown list that allows the user to set the    value of a named variable. This variable value can then be displayed elsewhere using    @lab.Variable(name).|
+   >|`@lab.KeyCombo(title of button)[key combo]`|Generates a button that sends a combination of key codes to the active VM.|
 
 
 ## Using Replacement Tokens as Cloud Resource Template Parameters 
