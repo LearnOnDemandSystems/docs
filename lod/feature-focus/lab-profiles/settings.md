@@ -184,6 +184,8 @@ To use network features, such as external internet access or communication betwe
 1. **Enable Automatic Login (AWS Only):** When this option is enabled, users will be directly logged into the cloud portal. No cloud portal users are required. If disabled users will need to manually log into the portal using a required cloud portal user supplied in the user section. 
 1. **Subscription Pool:** select the subscription pool that the lab will use. 
 
+1. **Deploy Default VPC (AWS Only)**: When enabled, the lab instances will contain default VPC (Virtual Private Cloud) and resources. Default resources typically contain a VPC, Gateway and other networking resources. Default resources will be deployed prior to template deployment and may add to the instance launch time. 
+
 1. **Deployment Failure:** Select the deployment failure action.
 
     - **No Action**: no action will be taken if resources fail to deploy.

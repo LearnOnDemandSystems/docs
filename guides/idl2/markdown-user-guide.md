@@ -341,7 +341,7 @@ It's also possible to simply supply the width: {width}. In this case, the height
     >
     > ![](images/hint-block.png "Hint Block")
 
-- **Help Block:** Used to provide help, such as showing additional about the section of the lab that the student is working on.
+- **Help Block:** used to provide help, such as showing additional about the section of the lab that the student is working on.
 
     > \> [!help] help text here.
     >
@@ -352,6 +352,14 @@ It's also possible to simply supply the width: {width}. In this case, the height
     > \> [!NOTE] note text here.
     >
     > ![](images/note-block.png "Note Block")
+
+- **Key Combo:** used to generate a button that sends a combination of key codes to the active VM. The key codes used are standard Javascript event key codes. Characters supported for key combo labels include: A-Z, 0-9, underscore, dash and plus. Other special characters will not work. 
+
+  >[!alert] Some key codes may not function as expected when using vSphere. It is highly recommended to test each key combo before publishing the lab instructions for production use. 
+
+    > \> @lab.KeyCombo(label)[keyCode1,keyCode2].
+    >
+    > ![](images/key-combo.png "Key Combo")
 
 - **Sections:** used to group lab instructions and elements together so they may be called up on and manipulated as one. This is done by assigning a lab variable that has been set via LCA, ABA, an IDLx textbox  or an IDLx drop-down menu.
 
@@ -514,6 +522,7 @@ Although potentially any task could be reduced to an action that can be executed
   >|`@lab.CloudPortal.SignOutUrl`|The cloud portal sign-out URL (rendered as text, not a    link).|
   >|`@lab.TextBox(name)`|A text box that allows the user to set the value of a named    variable. This variable value can then be displayed elsewhere using @lab.Variable(name)   .|
   >|`@lab.DropDownList(name)[val1,val2]`|A dropdown list that allows the user to set the    value of a named variable. This variable value can then be displayed elsewhere using    @lab.Variabl(name).|
+   >|`@lab.KeyCombo(title of button)[key combo]`|Generates a button that sends a combination of key codes to the active VM.|
 
   *(VM-ID) should be replaced with the unique ID of the virtual machine in use.
 
