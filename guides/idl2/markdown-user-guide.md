@@ -355,11 +355,11 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
 - **Key Combo:** used to generate a button that sends a combination of key codes to the active VM. The key codes used are standard Javascript event key codes. Characters supported for key combo labels include: A-Z, 0-9, underscore, dash and plus. Other special characters will not work. 
 
->[!alert] Some key codes may not function as expected when using vSphere. It is highly recommended to test each key combo before publishing the lab instructions for production use. 
+    >[!alert] Some key codes may not function as expected when using vSphere. It is highly recommended to test each key combo before publishing the lab instructions for production use. 
 
-    > \> @lab.KeyCombo(label)[keyCode1,keyCode2].
-    >
-    > ![](images/key-combo.png "Key Combo")
+        > \> @lab.KeyCombo(label)[keyCode1,keyCode2].
+        >
+        > ![](images/key-combo.png "Key Combo")
 
 - **Sections:** used to group lab instructions and elements together so they may be called up on and manipulated as one. This is done by assigning a lab variable that has been set via LCA, ABA, an IDLx textbox  or an IDLx drop-down menu.
 
