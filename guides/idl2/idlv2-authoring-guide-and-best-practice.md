@@ -778,11 +778,11 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
 - **Key Combo:** used to generate a button that sends a combination of key codes to the active VM. The key codes used are standard Javascript event key codes. Characters supported for key combo labels include: A-Z, 0-9, underscore, dash and plus. Other special characters will not work. 
 
-  >[!alert] Some key codes may not function as expected when using vSphere. It is highly recommended to test each key combo before publishing the lab instructions for production use. 
+    >[!alert] Some key codes may not function as expected when using vSphere. It is highly recommended to test each key combo before publishing the lab instructions for production use. 
 
-    > \> @lab.KeyCombo(label)[keyCode1,keyCode2].
-    >
-    > ![](images/key-combo.png "Key Combo")
+        > \> @lab.KeyCombo(label)[keyCode1,keyCode2].
+        > >
+        > >> > ![](images/key-combo.png "Key Combo")
 
 - **Dialog:** Used to open a dialog popup, to display additional information. This can be useful to make additional information available to the student. Dialogs **should not be used to display websites that are in an iFrame**, as this can cause some abnormal page rendering in the dialog. 
 
