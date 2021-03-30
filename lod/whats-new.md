@@ -9,6 +9,24 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## **Released March 26, 2021**
+
+**Virtual Machine Key Codes**
+The username field has been removed from the Create User page. Usernames will now automatically be set from the email address provided when creating a user in Lab on Demand.  The username field remains available when editing a user.
+
+**LOD Improvements and Fixes**
+
+- A new Lab Profile search filter, Code Lab, has been added to help locate labs that are or are not code labs.
+- Cloud Slice labs that deploy resources to the cloud in the background now require at least one ACP to be immediately applied on lab launch.
+- Shared Class environments may no longer be launched after the end of a class availability. A message will be shown informing the instructor why they may not launch the lab, "The class this shared lab environment is being launched against is no longer available." 
+- The Code Lab Save icon now properly reflects the save status while editing Code Labs.
+- Updated the error messages and required asterisks on the create user page for conformity and clarity.
+- AWS Cloud Slice labs no longer show an invalid option to Enable Multiple Subscriptions.
+- Fixed an issue that allows Azure Cloud Slice labs to properly clean up Recovery Services Vaults with Protected Items.
+- Fixed an issue preventing S3 buckets from being torn down when they contained an item.
+- Resolved a bug that prevented scrolling in a virtual machine when using Chrome 89
+
+
 ## **Released March 12, 2021**
 
 **Code Labs**
@@ -326,7 +344,7 @@ Life Cycle Actions (LCA) can now be inherited on child lab profiles. Child lab p
 - Fixed a bug that prevented some fields from being displayed during a lab profile import. 
 - Fixed a bug that allowed configuring multiple virtualization platforms in a lab profile while editing or creating a lab profile. 
 - Fixed a bug that prevented adding a second script in an automated activity. 
-
+<!--
 ## **Released September 3, 2020**
 
 **Lab Profile Save As**
@@ -472,7 +490,7 @@ External instruction source has been updated with performance enhancements for t
 - Fixed a bug that hid the _Allow Setting Expiration Time_ drop-down menu when creating new lab profiles.
 - Fixed a bug that prevented lab developers from adding VM profiles to a lab profile when the number of vCPUs did not exceed the limit.
 - Fixed a bug that resulted in some extraneous text displayed next to the Force Check In link in the instruction editor.
-<!--
+
 ## **Released July 10, 2020**
 
 **Multi-fabric Sequencing**
