@@ -12,7 +12,7 @@
 ## **Released March 26, 2021**
 
 **Virtual Machine Key Codes**
-The username field has been removed from the Create User page. Usernames will now automatically be set from the email address provided when creating a user in Lab on Demand.  The username field remains available when editing a user.
+Clickable links to send keyboard shortcuts to a virtual machine can now be added via the @lab.KeyCombo(Label)[KeyCode1, KeyCode2] syntax. For example, when @lab.KeyCombo(Win+Tab)[91,9] is written into the instructions, a clickable link with the text Win+Tab will be rendered into the instruction pane. When the link is selected by a student, the keycodes 91 (Windows Meta Key) and 9 (Tab) will be sent to the virtual machine. These particular keycodes will open task view in the Windows operating system. Not all keycodes/combos are available, please verify the keycodes required for your scenario are available before publishing your lab.
 
 **LOD Improvements and Fixes**
 
