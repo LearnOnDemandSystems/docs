@@ -24,7 +24,7 @@ Clickable links to send keyboard shortcuts to a virtual machine can now be added
 - AWS Cloud Slice labs no longer show an invalid option to Enable Multiple Subscriptions.
 - Fixed an issue that allows Azure Cloud Slice labs to properly clean up Recovery Services Vaults with Protected Items.
 - Fixed an issue preventing S3 buckets from being torn down when they contained an item.
-- Resolved a bug that prevented scrolling in a virtual machine when using Chrome 89
+- Resolved a bug that prevented scrolling in a virtual machine when using Chrome 89.
 
 
 ## **Released March 12, 2021**
