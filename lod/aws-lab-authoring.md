@@ -53,7 +53,7 @@ Configuration Checklist:
 
 1. **Subscription Pool**: Select your subscription pool that has all of your organizations's AWS accounts configured that you want to use with this lab profile. The subscription pool will be used to deploy AWS resources in the AWS portal. These accounts are shared among users that launch the lab and will be used in a round robin fashion. 
 
-1. **Deployment Failure**: Select the option you want to happen if resources fail to deploy for the lab for any reason. During lab authoring, it is recommended to set this option to "Send notification", so that you can get real-time feedback on the deployment failure. The notification will be sent to your lab when it is launched. After the lab is authored, a more favorable option would be to terminate the lab or no action. 
+1. **Deployment Failure**: Select the option you want to happen if resources fail to deploy for the lab for any reason. During lab authoring, it is recommended to set this option to "Send notification", so that you can get real-time feedback on any deployment failures. The notification will be sent to your lab when it is launched. After the lab is authored, a more favorable option would be to terminate the lab or no action. 
 
 1. **Expected Cloud Cost**: (OPTIONAL) This field is used to help track the average costs of cloud resources. This field does not affect any resource deployment or any other settings on the lab profile. 
 
