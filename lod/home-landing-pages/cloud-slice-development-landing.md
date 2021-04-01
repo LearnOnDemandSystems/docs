@@ -26,6 +26,14 @@
         <div class="subtopic_title">AWS Cloud Trail Log Transfer</div>
         <div class="subtopic_description">AWS Cloud Trail logging enables the ability to audit all cloud logs in a user session and store those logs in a storage location.</div>
       </a>
+      <a class="subtopic_link" href="/lod/aws-lab-authoring.md">
+        <div class="subtopic_title">AWS Lab Authoring </div>
+        <div class="subtopic_description">Authoring a lab profile that uses AWS cloud technologies.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/aws-virtualization.md">
+        <div class="subtopic_title">AWS Virtualization</div>
+        <div class="subtopic_description">Upload a VHD to AWS and create a VM profile.</div>
+      </a>      
       <a class="subtopic_link" href="/guides/cloud-slice/aws/aws-cloud-slice-setup.md">
         <div class="subtopic_title">Enable Cloud Slice Support in AWS</div>
         <div class="subtopic_description">Setup process to enable cloud slice support in the AWS portal.</div>

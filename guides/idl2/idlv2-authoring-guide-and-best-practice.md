@@ -535,9 +535,11 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 >[!KNOWLEDGE] You should enter alt text and title to the link, so that when a user mouses over it, a description will appear. You can add alt text and a title with the following syntax: `!IMAGE[image alt text](Image.jpg "image title text")` 
 
-- **Internal link**: Used to link to a specific section within a document. 
-
-    > \[text to display](#link-location "optional link title")
+- **Internal link**: Used to link to a specific section within a document. Internal links must be all lower-case, alphanumeric and separated by hyphens. Any characters that are not alphanumeric should be omitted, and spaces should be replaced with a hyphen. 
+  - remove anything that is not a letter, number, space or hyphen
+	- changes any space to a hyphen.
+	- If that is not unique, add "-1", "-2", "-3",... to make it unique
+  > \[text to display](#heading-to-link-to "optional link title")
 
 - **External link**: Used to link to a page outside of the document.  
 
