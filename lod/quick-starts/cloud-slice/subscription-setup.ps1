@@ -158,7 +158,7 @@ function configure-resource-providers($subId,$subscriptionName){
     # Register Databricks Provider
     $databricks = Get-AzResourceProvider -ProviderNamespace Microsoft.Databricks
     if($databricks.RegistrationState -ne "Registered"){
-        $registering = Register-AResourceProvider -ProviderNamespace Microsoft.Databricks
+        $registering = Register-AzResourceProvider -ProviderNamespace Microsoft.Databricks
         "$($registering.ProviderNamespace): $($registering.RegistrationState)"
     }
 
