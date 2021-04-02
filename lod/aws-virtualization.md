@@ -88,7 +88,9 @@ Next an IAM user needs to be created.
 ## Lab on Demand Subscription Pool Setup
 
 1. From the LOD Admin page, click **Subscription Pools** on the Cloud Services tile.
+
 	![Subscription Pools](images/subscription-pools.png){400}
+	
 1. Click **Create Cloud Subscription Pool** in the upper-right corner.
 
 ![Create Cloud Subscription Pool](images/create-cloud-subscription-pool-2.png){600}
