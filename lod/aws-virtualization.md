@@ -12,7 +12,7 @@ isPublished: true
 - [Lab on Demand Subscription Setup in Subscription Pool](#lab-on-demand-subscription-setup-in-subscription-pool)
 - [Virtual Machine Prep](#virtual-machine-prep)
 - [Upload VHD to AWS and Create AMI](#upload-vhd-to-aws-and-create-ami)
-- [Lab Profile Creation](#lab-profile-creation)
+- [VM Profile Creation](#vm-profile-creation)
 
 ## Organization Account creation
 
@@ -90,7 +90,9 @@ Next an IAM user needs to be created.
 1. From the LOD Admin page, click **Subscription Pools** on the Cloud Services tile.
 	![Subscription Pools](images/subscription-pools.png){400}
 1. Click **Create Cloud Subscription Pool** in the upper-right corner.
+
 ![Create Cloud Subscription Pool](images/create-cloud-subscription-pool-2.png){600}
+
 1. Select **AWS** from the Cloud Platform drop-down menu. 
 1. Select **Shared** from the Subscription Mode drop-down menu. 
 1. Select **Manual** from the Pool type drop-down menu.
@@ -107,13 +109,17 @@ Next an IAM user needs to be created.
 1. Navigate to the Subscription Pool that was created in previous steps. 
 1. Click **Create Cloud Subscription**.
 2. On the **Basic Information tab**, configure the following:
+
 	![Create subscription - Basic Information](images/create-subscription-basic-info.png){400}
+	
 	1. Enter a **Name** for the subscription
 	1. Enter a **Description** for the subscription. 
 	1. (Optional) Enter an expiration date and time. The subscription will not be available to use once the expiration date and time occurs.
 	1. Check the box to enable the subscription for use.
 3. On the **Authentication tab**, configure the following:
+
 	![Create subscription - Authentication](images/create-subscription-authentication.png){400}
+	
 	1. Check the box to **Override Pool Authentication**. Selecting this will use the authentication information on the subscription instead of the authentication information on the subscription pool.
 	1. Enter the Catch All Domain that was used during organization account creation. 
 	1. Enter the Access Key ID that was generated during IAM user account creation. 
@@ -197,14 +203,18 @@ The virtual machine needs to be prepared:
 
 The AMi can now be configured in a Lab on Demand lab profile. 
 
-## Lab Profile Creation
+## VM Profile Creation
 
 1. Go to [Lab on Demand](https://labondemand.com). 
 
 1. From the Admin page, click **Create Virtual Machine Profile** from the Virtual Machines tile. 
+
 	![Create virtual machine profile](images/create-virtual-machine-profile.png){400}
+	
 1. Complete the following fields on the VM profile: 
+ 
 	![](images/create-virtual-machine-profile-basic-information.png){600}
+	
 	- Name: use the same friendly name that was used for the AMI in the AWS management console. 
 	- Description: describe the intended use of the VM.
 	- Series: Select the lab series that the lab profile will be associated with.
