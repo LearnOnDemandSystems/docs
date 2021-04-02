@@ -21,12 +21,16 @@ An account must be created in your organization. This account will be used to la
 1. Log in to the [AWS Management Console](https://aws.amazon.com/console/) with your root account credentials.
 2. Go to **My Organization** from the menu in the upper-right corner of the page.
 3. Click **Add Account**.
+
 	![Add account](images/add-user-to-aws-org.png){500}
+	
 1. If you already have an organization account, click **Invite Account**.
 	1. Enter the email or Account ID of the organization account. 
 	1. Click **Invite**. 
 1. If you need to create an Account, click **Create account**.
+
 	![Create account details](images/aws-create-account-details.png){500}
+	
 	1. Enter an AWS account name. 
 	1. Enter an email address for the account, that belongs to the catch all domain. This is the email address that will be used to contact you about this account. 
 	1. Enter an IAM role name for this account. AWS Organizations create this role to grant the organization full administrative control over the new account.
