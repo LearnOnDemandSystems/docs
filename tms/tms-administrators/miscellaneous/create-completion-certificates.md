@@ -45,7 +45,7 @@ To upload the certificate template:
      - MM-dd-yyyy
      - dd/MM/yyyy
      - dd-MM-yyyy
-     - dd MMM yyy
+     - dd MMM yyyY
      - dddd, dd MMMM yyyy
      - yyyy-MM-dd
      - yyy/MM/dd
