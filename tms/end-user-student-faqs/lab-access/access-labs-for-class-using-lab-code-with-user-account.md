@@ -16,4 +16,4 @@ On the URL provided to you:
 
 1. Click **Launch** next to the lab you want to start.
 
->:small_orange_diamond: [View a video on redeeming a training key.](https://youtu.be/mE5rCfADc_I) 
+>:small_orange_diamond: [View a video on redeeming a training key.](https://youtu.be/qKN34ItbIB8) 
