@@ -2,6 +2,15 @@
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## Released April 8, 2021
+### <span style="color:#0078d7;">Enhancements and Fixes</span>
+*   Course Details - Activities Count: A summary count for the number of activities will display next to the ‘Activities’ header.
+*   Find Training Key Pools – Expires Default Filter: We have added ‘Expires In the Future’ as a default filter. This will automatically filter out any training key pools that have expired.
+*   Zoom - Recordings: Users no longer had access to class recordings after 30 days.  We have fixed the issue and post-class recording access is available for 180 days.
+* Course Certificate Date Format:  We have changed the date format of ‘dd MMM yyy’ to ‘dd MMM yyyy’.
+*   Instructor Calendar – Calendar Color Olive: We have fixed the calendar color ‘Olive’ from changing ‘White’ when placing the cursor over the event name.
+
+----------------------------
 ## Released March 25, 2021
 ### <span style="color:#0078d7;">Subscription Training Key</span>
 We now allow a single Subscription Training Key to be used by multiple users that will align with a subscription. On Create/Edit Subscription Keys, we have added an ‘Expires’ and ‘Max number of uses per key’ field.  This will allow a user with the appropriate permission to set an expiration date and number of uses a subscription training key can be used.  If no expiration is set, the training key never expires.  If no value is set on ‘Max number of uses per key’, it will default to a single use.
@@ -173,9 +182,7 @@ When enabled, users will now be able to save custom search filters on the Course
 *   Bug Fix – Enrollment status: Users with the enrollment statuses of Requested, Cancelled, or Denied are no longer treated as being enrolled in the class.
 *   Bug Fix – Zoom recordings: Fixed an issue that would cause single delivery classrooms delivered over multiple days to only display the first days Zoom recordings.
 
-
-----------------------------
-
+<!--
 ## Released October 29 2020
 
 ### <span style="color:#0078d7;">Create Multiple Enrollments</span>
@@ -233,7 +240,7 @@ We have updated the Custom Virtual Classroom to specify when the “Enter Classr
 * Class Details: We have removed Manage Courseware Vouchers from the quick launch menu bar on the Class Details page.
 * Notifications: Attach a Calendar Event - We have fixed the .ics file attached to a calendar event from displaying as “Not Supported Calendar Message” within Outlook.
 
-
+-->
 ----------------------------
 
 <!--
