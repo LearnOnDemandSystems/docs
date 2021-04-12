@@ -40,7 +40,7 @@ Selecting the Code Lab icon will launch the Code Labs Settings dialog.
 ![](images/codelabs/3_cl_admin_empty.png){700}
 
 The Code Lab Settings consist of 5 parts:
- 1) Add supported languages to your Code Lab. 
+ 1) Add supported languages to your Code Lab
  2) Manage settings for languages
  3) Add test inputs
  4) Add tests the will run in the Code Lab Client
