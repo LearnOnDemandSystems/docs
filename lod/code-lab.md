@@ -19,18 +19,19 @@ Code Labs are a lab platform type with a code editor user interface (UI) in the 
 - [Tests](#Tests)
     - [Inputs](#Inputs)
     - [Adding Tests](#Adding-Tests)
+- [Code Lab Scoring](#code-lab-scoring)
 - [Example Code Lab](#Example-Code-Lab)
 
 ## Starting a Code Lab
 
 ![](images/codelabs/1_cl_enable.png){500}
 
-To enable Code Labs in a Lab Profile, select the Code Lab Fabric checkbox in the inital Lab Profile creation.  This profile will now be set up for using Code Labs.
+To enable Code Labs in a Lab Profile, select the Code Lab Fabric checkbox in the initial Lab Profile creation.  This profile will now be set up for using Code Labs.
 
 
 ## Code Lab Settings 
 
-With Code Labs enabled, you will now be able to edit the Code Lab settins by selecing the code icon in the Lab Instructions.
+With Code Labs enabled, you will now be able to edit the Code Lab settings by selecting the code icon in the Lab Instructions.
 
 ![](images/codelabs/2_cl_button.png){300}
 
@@ -68,9 +69,22 @@ The Code Lab Client consists of 9 parts:
 
 ![](images/codelabs/6_cl_lang.png){700}
 
+### Adding a Supported Language
+
 A Code Language is a specific programming language. Code labs can have multiple supported languages, but all languages will take the same test inputs.
 
 Once a Supported Language is added to the Code Lab, instructors will have 3 settings areas for adjusting settings.
+
+Languages include:
+- C
+- C#
+- Go
+- Java
+- PHP
+- Python
+- R
+- Ruby
+- Swift
 
 ### Template
 
@@ -81,8 +95,6 @@ The Starting Template is the initial code that is presented to a student when a 
 ![](images/codelabs/7_cl_lang_pr.png){700}
 
 The Program Wrapper wraps the students code, and **must contain the string `#CODE#`** which is replaced by the student's code submission. This hides implementation details used to execute the function as part of a full program in the backend LOD service. The Program Wrapper can contains library includes, pass command line arguments to the student's function, and finally print results for comparison against **Tests** and **Custom Tests**.
-
-
 
 ### Advanced
 
@@ -107,11 +119,11 @@ Tests are added to Code Labs and ran once code is submitted from the Code Lab Cl
 
 ### Inputs
 
-It is important to note that adding an input in the test area **automatically adds an input to the Test Command String in Advanced Settings**.  Test inputs are passed to the program wrapper via arguement vectors.  Each language notes the expected argument vector array that the program will use.
+It is important to note that adding an input in the test area **automatically adds an input to the Test Command String in Advanced Settings**.  Test inputs are passed to the program wrapper via argument vectors.  Each language notes the expected argument vector array that the program will use.
 
 **Be sure to pass the correct number or argument vectors to your Program Wrapper and Starting Template**
 
-To add and remove test inputs, simply select the corrisponding button.
+To add and remove test inputs, simply select the corresponding button.
 
 ### Adding Tests
 
@@ -120,6 +132,14 @@ To add and remove test inputs, simply select the corrisponding button.
 Simply click the **Add Test** button to add a test to your Code Lab.  You will now be able to give the test a friendly name, add inputs, and give the expected output.
 
 Tests can be hidden from students to verify code functions as expected and is not simply brute-force passes.
+
+## Code Lab Scoring
+
+Code Labs can be scored via API. When scoring a Code lab via API, code must be submitted in the lab or the score returned will be 0.  
+
+Scoring can be executed using the [ScoreActivities API command](https://docs.learnondemandsystems.com/lod/lod-api/lod-api-score-activities.md). 
+
+After the lab has been scored, details about the lab including score results can be obtained using the [Details API command](https://docs.learnondemandsystems.com/lod/lod-api/lod-api-details.md).
 
 # Example Code Lab
 
@@ -159,7 +179,7 @@ Tests can be hidden from students to verify code functions as expected and is no
 
     > [!alert] Most importantly note the string #CODE# which is replaced by the student's code submission when it's time to compile.
     
-    This lab uses the _time.h_ library, so we include it here. We also need to convert command line arguments into integers to pass into the students function, and then print the result of the function with printf. This is used to run tests.   
+    This lab uses the _time.h_ library, so we include it here. We also need to convert command line arguments into integers to pass into the students function, and then print the result of the function with print. This is used to run tests.   
     ```
     #include <stdio.h>
     #include <stdlib.h>
@@ -174,7 +194,7 @@ Tests can be hidden from students to verify code functions as expected and is no
     #CODE#  
     ```
 
-1. **Optional**: We don't need to change any advanced options for this lab, but if you wanted a function that accepted multiple inputs you would need to verify the test string, program wrapper, and template all have the correct arguement vectors.
+1. **Optional**: We don't need to change any advanced options for this lab, but if you wanted a function that accepted multiple inputs you would need to verify the test string, program wrapper, and template all have the correct argument vectors.
 
 
 3. Create your tests. 
