@@ -9,9 +9,28 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## **Released April 9, 2021**
+
+**Code Labs**
+
+- Swift has been added as a supported code language.
+- Ruby has been added as a supported code language.
+- Code Labs now support scoring via API. For more information about scoring labs via API, click <a href="https://docs.learnondemandsystems.com/lod/lod-api/lod-api-score-activities.md">here</a>.
+- Code Labs lab instance details can now be returned via API. For more information about returning lab details via API, click <a href="https://docs.learnondemandsystems.com/lod/lod-api/lod-api-details.md">here</a>.
+- Code Labs tests activity results are now displayed on the lab details page. The details contain the console output, as well as metadata such as language and elapsed runtime.
+- Code Labs now support the Learning Tools Interoperability (LTI) 1.1 & 1.3 standard for integration with Learning Management Systems. 
+
+**LOD Improvements and Fixes**
+- Cloud Slice Subscription labs are now returned as results when searching by Access Control Policy.
+- Fixed a dependency issue that would prevent the removal of CloudFormation stacks dependent on a missing role.
+- Fixed a bug preventing AWS Fabric labs from launching after they are created via Save-As.
+- The support chat link appearing in the lab client will now be determined by the organization the lab user is a member of, rather than the source organization for the lab.
+- AWS Fabric labs with shared subscriptions no longer support executing Life Cycle Actions against AWS.
+
 ## **Released March 26, 2021**
 
 **Virtual Machine Key Codes**
+
 Clickable links to send keyboard shortcuts to a virtual machine can now be added via the @lab.KeyCombo(Label)[KeyCode1, KeyCode2] syntax. For example, when @lab.KeyCombo(Win+Tab)[91,9] is written into the instructions, a clickable link with the text Win+Tab will be rendered into the instruction pane. When the link is selected by a student, the keycodes 91 (Windows Meta Key) and 9 (Tab) will be sent to the virtual machine. These particular keycodes will open task view in the Windows operating system. Not all keycodes/combos are available, please verify the keycodes required for your scenario are available before publishing your lab.
 
 **LOD Improvements and Fixes**
