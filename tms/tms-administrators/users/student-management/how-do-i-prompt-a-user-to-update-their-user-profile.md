@@ -1,5 +1,5 @@
 ---
-title: "How do I Prompt a User to Update Their User Profile?"
+title: "How do I prompt a user to update their user profile?"
 isPublished: true
 ---
 
