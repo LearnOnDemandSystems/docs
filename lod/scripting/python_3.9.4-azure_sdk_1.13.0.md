@@ -13,7 +13,7 @@ subscription_id = os.environ["AZURE_SUBSCRIPTION_ID"]
 You can also use standard @lab replacement token syntax.
 
 ```
-subscription_id = '@lab.CloudSubscription.Id'
+subscription_id = "@lab.CloudSubscription.Id"
 ```
 
 For details working with the Azure SDK for Python, please see Microsoft's documentation.
