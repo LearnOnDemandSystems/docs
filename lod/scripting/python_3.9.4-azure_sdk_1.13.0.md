@@ -16,6 +16,16 @@ You can also use standard @lab replacement token syntax.
 subscription_id = "@lab.CloudSubscription.Id"
 ```
 
+#Azure Authentication
+
+The script environment will be pre-configured for your lab instance. You can use the DefaultAzureCredential class to obtain credentials, which can then be passed other Azure service clients.
+
+```
+credentials = DefaultAzureCredential()
+subscription_id = os.environ["AZURE_SUBSCRIPTION_ID"]
+resource_client = ResourceManagementClient(credentials, subscription_id)
+```
+
 For details working with the Azure SDK for Python, please see Microsoft's documentation.
 
  - [Use the Azure libraries (SDK) for Python](https://docs.microsoft.com/en-us/azure/developer/python/azure-sdk-overview)
