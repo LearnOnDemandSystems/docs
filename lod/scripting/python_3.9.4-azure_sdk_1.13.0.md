@@ -1,5 +1,7 @@
 #Python 3.9.4 with Azure SDK 1.13.0
 
+This script execution environment is running Python 3.9.4 and Azure libraries (SDK) for Python. All packages avaiable as of 4/15/2021 are avaiable. The full package list is avaiable below.
+
 ##Accessing your lab's subscription.
 
 The lab's subscription ID  can be obtained from an environment variable.
@@ -10,7 +12,14 @@ subscription_id = os.environ["AZURE_SUBSCRIPTION_ID"]
 
 You can also use standard @lab replacement token syntax.
 
+```
 subscription_id = '@lab.CloudSubscription.Id'
+```
+
+For details working with the Azure SDK for Python, please see Microsoft's documentation.
+
+ - [https://docs.microsoft.com/en-us/azure/developer/python/azure-sdk-overview](Use the Azure libraries (SDK) for Python)
+ - [https://docs.microsoft.com/en-us/python/api/?view=azure-python](Python API Browser) 
 
 ##Python Package list
 
