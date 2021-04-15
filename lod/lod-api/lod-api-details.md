@@ -30,7 +30,7 @@ The **Details** command retrieves detailed information about a specified lab ins
 |SaveExpires|Integer (64-bit)|Yes|If the lab instance is saved, when the saved data will expire and be deleted (in Unix epoch time).|
 |State|String|No|The state of the lab instance. Possible values:
 ||||Off
-||||Provisioning Storag
+||||Provisioning Storage
 ||||Building
 ||||Building (Displayable)
 ||||Starting
