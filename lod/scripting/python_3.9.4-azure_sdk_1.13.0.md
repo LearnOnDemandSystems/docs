@@ -21,7 +21,7 @@ For details working with the Azure SDK for Python, please see Microsoft's docume
  - [Use the Azure libraries (SDK) for Python](https://docs.microsoft.com/en-us/azure/developer/python/azure-sdk-overview)
  - [Python API Browser](https://docs.microsoft.com/en-us/python/api/?view=azure-python) 
 
-##Python Package list
+##Python Package List
 
 |Package                                         |Version
 |------------------------------------------------|-----------
