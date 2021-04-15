@@ -1,6 +1,6 @@
 #Python 3.9.4 with Azure SDK 1.13.0
 
-This script execution environment is running Python 3.9.4 and Azure libraries (SDK) for Python. All packages avaiable as of 4/15/2021 are avaiable. The full package list is avaiable below.
+This script execution environment is running Python 3.9.4 and Azure libraries (SDK) for Python.
 
 ##Accessing your lab's subscription.
 
