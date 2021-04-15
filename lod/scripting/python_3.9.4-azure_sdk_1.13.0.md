@@ -2,7 +2,7 @@
 
 This script execution environment is running Python 3.9.4 and Azure libraries (SDK) for Python.
 
-##Accessing Your Lab's Subscription.
+##Accessing Your Lab's Subscription
 
 The lab's subscription ID  can be obtained from an environment variable.
 
@@ -16,7 +16,7 @@ You can also use standard @lab replacement token syntax.
 subscription_id = "@lab.CloudSubscription.Id"
 ```
 
-#Azure Authentication
+##Azure Authentication
 
 The script environment will be pre-configured for your lab instance. You can use the DefaultAzureCredential class to obtain credentials, which can then be passed other Azure service clients.
 
