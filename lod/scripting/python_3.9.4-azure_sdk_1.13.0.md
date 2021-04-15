@@ -2,7 +2,7 @@
 
 This script execution environment is running Python 3.9.4 and Azure libraries (SDK) for Python.
 
-##Accessing your lab's subscription.
+##Accessing Your Lab's Subscription.
 
 The lab's subscription ID  can be obtained from an environment variable.
 
