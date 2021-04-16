@@ -2,7 +2,7 @@
 
 This script execution environment is running Python 3.9.4 and Azure libraries (SDK) for Python.
 
-##Accessing Your Lab's Subscription
+## Accessing Your Lab's Subscription
 
 The lab's subscription ID  can be obtained from an environment variable.
 
@@ -16,7 +16,7 @@ You can also use standard @lab replacement token syntax.
 subscription_id = "@lab.CloudSubscription.Id"
 ```
 
-##Azure Authentication
+## Azure Authentication
 
 The script environment will be pre-configured for your lab instance. You can use the DefaultAzureCredential class to obtain credentials, which can then be passed other Azure service clients.
 
@@ -31,11 +31,11 @@ For details working with the Azure SDK for Python, please see Microsoft's docume
  - [Use the Azure libraries (SDK) for Python](https://docs.microsoft.com/en-us/azure/developer/python/azure-sdk-overview)
  - [Python API Browser](https://docs.microsoft.com/en-us/python/api/?view=azure-python) 
 
-##Interacting with Lab on Demand
+## Interacting with Lab on Demand
 
 Your scripts can communicate success or failure to LOD in one of two ways.
 
-###Return a boolean value 
+### Return a boolean value 
 
 At its simplest...
 
@@ -49,7 +49,7 @@ return True
 return False
 ```
 
-###Use setActivityResult
+### Use setActivityResult
 
 ```
 #do stuff... all good
@@ -68,7 +68,7 @@ You can also report the result as a score...
 setActivityResult(score=0.5)
 ```
 
-###Send a Notification to the User
+### Send a Notification to the User
 
 Notifications appear as real-time toasts in the lab client.
 
@@ -76,7 +76,7 @@ Notifications appear as real-time toasts in the lab client.
 sendLabNotification("A notification from Python!")
 ```
 
-###Lab Variables
+### Lab Variables
 
 Lab variables are always string name/value pairs. Variable values are scoped to the lab instances and become avaialble within the lab instructions as well as subsequent script executions. 
 
@@ -91,7 +91,7 @@ You can "receive" a variable in your script...
 myVariable1 = "@lab.Variable(myVariable1)"
 ```
 
-##Python Package List
+## Python Package List
 
 |Package                                         |Version
 |------------------------------------------------|-----------
