@@ -31,6 +31,56 @@ For details working with the Azure SDK for Python, please see Microsoft's docume
  - [Use the Azure libraries (SDK) for Python](https://docs.microsoft.com/en-us/azure/developer/python/azure-sdk-overview)
  - [Python API Browser](https://docs.microsoft.com/en-us/python/api/?view=azure-python) 
 
+##Interacting with Lab on Demand
+
+Your scripts can communicate success or failure to LOD in one of two ways.
+
+###Return a boolean value 
+
+At its simplest...
+
+```
+#do stuff... all good
+return True
+```
+
+```
+#do stuff... uh oh
+return False
+```
+
+###Use setActivityResult
+
+```
+#do stuff... all good
+setActivityResult(correct=true)
+```
+
+```
+#do stuff... uh oh
+setActivityResult(correct=false)
+```
+
+You can also report the result as a score...
+
+```
+#do stuff... we want to score our findings
+setActivityResult(score=0.5)
+```
+
+##Sending a notification (toast) to the user
+
+```
+sendLabNotification("A notification from Python!")
+```
+
+
+##Setting a lab variable (which will be avialble in the instructions and any subsequent script executions). Variables are always strings.
+
+```
+setLabVariable("myVariable1", "This was set within a Python script!")
+```
+
 ##Python Package List
 
 |Package                                         |Version
