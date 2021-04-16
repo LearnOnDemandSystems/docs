@@ -68,17 +68,27 @@ You can also report the result as a score...
 setActivityResult(score=0.5)
 ```
 
-##Sending a notification (toast) to the user
+###Send a Notification to the User
+
+Notifications appear as real-time toasts in the lab client.
 
 ```
 sendLabNotification("A notification from Python!")
 ```
 
+###Lab Variables
 
-##Setting a lab variable (which will be avialble in the instructions and any subsequent script executions). Variables are always strings.
+Lab variables are always string name/value pairs. Variable values are scoped to the lab instances and become avaialble within the lab instructions as well as subsequent script executions. 
 
 ```
 setLabVariable("myVariable1", "This was set within a Python script!")
+```
+
+You can "receive" a variable in your script...
+
+```
+#a variable set elsewhere in the lab, but we can use it in our script
+myVariable1 = "@lab.Variable(myVariable1)"
 ```
 
 ##Python Package List
