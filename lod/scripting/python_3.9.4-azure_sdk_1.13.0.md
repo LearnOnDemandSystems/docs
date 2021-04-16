@@ -1,4 +1,4 @@
-#Python 3.9.4 with Azure SDK 1.13.0
+# Python 3.9.4 with Azure SDK 1.13.0
 
 This script execution environment is running Python 3.9.4 and Azure libraries (SDK) for Python.
 
