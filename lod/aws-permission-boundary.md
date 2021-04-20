@@ -19,8 +19,7 @@ Create a group:
 1. From the IAM dashboard, click on **Groups** from the menu on the left. 
 1. Click **Create New Group**. 
 
-    ![Create New Group](images/aws-create-new-group.png){500}
-    
+    ![Create New Group](images/aws-create-new-group.png){600}
 1. For the **Group Name**, enter a name and then click on **Next Step**. 
 1. Click on the **checkbox next to any policies** you wish to apply to the group and then click **Next Step**. 
 1. Review the details of the group and click **Create Group**. 
@@ -37,8 +36,7 @@ If you need additional groups, repeat the steps above.
     1. For the 3rd User name, enter another name.
 1. Select the checkbox next to AWS Management Console access.
 
-    ![AWS Management Console access](images/aws-management-console-access.png){500}
-    
+    ![AWS Management Console access](images/aws-management-console-access.png){800}
 1. Click Next: Permissions.
 1. Click the checkbox next to the group created in previous steps.
 1. Click on the arrow next to Set permissions boundary to expand the available selections.
