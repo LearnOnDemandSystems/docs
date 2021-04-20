@@ -9,6 +9,10 @@ isPublished: false
 Permission boundaries are needed in AWS labs where user accounts are created.
 Following the principle of least privilege, the permissions boundary ensures that users you create have only the permissions they require to perform lab tasks.  
 
+- [AWS Permission Boundary](#aws-permission-boundary)
+  * [Create a Group](#create-a-group)
+  * [Create Users and Assign Them to their Respective Group](#create-users-and-assign-them-to-their-respective-group)
+
 ## Create a Group
 
 IAM users belong to user groups and user groups are assigned policies. 
