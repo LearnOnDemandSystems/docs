@@ -44,7 +44,7 @@ If you need additional groups, repeat the steps above.
 1. Click the checkbox next to the group created in previous steps.
 1. Click on the arrow next to Set permissions boundary to expand the available selections.
 
-    ![Set permission boundary](images/set-permission-boundary.png){400}
+    ![Set permission boundary](images/set-permission-boundary.png){300}
 1. Select **Use a permissions boundary** to control the maximum user permissions.
 1. In the search box, enter `LODS` and select the policy.
 1. Click Next: Tags.
