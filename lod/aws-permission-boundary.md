@@ -1,10 +1,10 @@
 ---
-title: "AWS Permission Boundary"
+title: "AWS Permission Boundaries"
 description: "Following the principle of least privilege, the permissions boundary ensures that users you create have only the permissions they require to perform lab tasks."
-isPublished: false
+isPublished: true
 ---
 
-# AWS Permission Boundary 
+# AWS Permission Boundaries
 
 Permission boundaries are needed in AWS labs where user accounts are created.
 Following the principle of least privilege, the permissions boundary ensures that users you create have only the permissions they require to perform lab tasks.  
