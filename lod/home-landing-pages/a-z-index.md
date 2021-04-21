@@ -38,6 +38,10 @@
         <div class="subtopic_title">AWS Lab Authoring </div>
         <div class="subtopic_description">Authoring a lab profile that uses AWS cloud technologies.</div>
       </a>
+      <a class="subtopic_link" href="/lod/aws-permission-boundary.md">
+        <div class="subtopic_title">AWS Permission Boundaries</div>
+        <div class="subtopic_description">Following the principle of least privilege, the permissions boundary ensures that users you create have only the permissions they require to perform lab tasks.</div>
+      </a>
       <a class="subtopic_link" href="/lod/aws-virtualization.md">
         <div class="subtopic_title">AWS Virtualization</div>
         <div class="subtopic_description">Upload a VHD to AWS and create a VM profile.</div>
