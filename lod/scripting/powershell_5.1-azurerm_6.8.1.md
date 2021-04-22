@@ -1,8 +1,8 @@
-#PowerShell 5.1 with AzureRM 6.8.1
+# PowerShell 5.1 with AzureRM 6.8.1
 
 **This is a legacy script execution environment.**
 
-##PowerShell Modules
+## PowerShell Modules
 
 Name                                  | Version    
 ----                                  | -------   
