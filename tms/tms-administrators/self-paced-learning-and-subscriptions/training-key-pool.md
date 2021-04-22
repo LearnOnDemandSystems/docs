@@ -11,7 +11,7 @@ Training key pools allow you to distribute keys to users for them to create self
 
 ![](/tms/images/training-key-pool-self-paced-training.png)
 
-Each key is unique and assigned to an individual user. Keys can only be used once by one user. A list of keys can be exported as a CSV file to accomodate distribution to your students. The training key pool keeps track redeemed keys displaying who redeemed a key and when it was redeemed. There’s no limit to the number of keys created, if the number of keys initially generated is insufficient, new keys can be created later and added to the same pool. You are not billed when keys are created, but will be invoiced when a key is redeemed creating a course assignment.
+Each key is unique and assigned to an individual user. Keys can only be used once by one user. A list of keys can be exported as a CSV file to accommodate distribution to your students. The training key pool keeps track redeemed keys displaying who redeemed a key and when it was redeemed. There’s no limit to the number of keys created, if the number of keys initially generated is insufficient, new keys can be created later and added to the same pool. You are not billed when keys are created, but will be invoiced when a key is redeemed creating a course assignment.
 
 To create a training key pool:
 
@@ -22,6 +22,7 @@ To create a training key pool:
 1. Set the **Starts** date - when the keys can start to be redeemed.
 1. Set the **Expires** date – when the keys can no longer be redeemed. This may be helpful if you know that a new version of the course will soon be available and would like to ensure that the keys for an older version are no longer used.
 1. Set the **Content Availability**, this limits the duration students have access to the course. This can be set up to 180 days.
+1. Select the box next to **Make these keys available to everyone using [Organization name]**. This allows keys in this pool to be used by child organizations within the parent organization that owns this pool. 
 1. Click the **Training Keys** tab. Here you may either create your own keys or generate keys. Each key is required to be unique.
 1. Enter the first key and click **Add Training Key** for each additional key  – OR – 
 1. Click **Add Multiple Training Keys** and in the **Add Multiple Training Keys** dialog, paste your training keys with one per line and click **OK** – OR – 
