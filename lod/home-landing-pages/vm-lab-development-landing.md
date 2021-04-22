@@ -26,6 +26,10 @@
         <div class="subtopic_title">IDLx Authoring Guide</div>
         <div class="subtopic_description">This document covers Markdown, lab instruction editor interface, uploading files into your lab, and many other topics to assist with authoring your IDLx lab.</div>
       </a>
+      <a class="subtopic_link" href="/lod/feature-focus/lod-experience.md">
+        <div class="subtopic_title">Lab Developer FAQ</div>
+        <div class="subtopic_description">Frequently asked questions to assist lab developers.</div>
+      </a>
       <a class="subtopic_link" href="/guides/idl2/markdown-user-guide.md">
         <div class="subtopic_title">Markdown User Guide</div>
         <div class="subtopic_description">This document covers Markdown in detail, including syntax for all supported Markdown.</div>
