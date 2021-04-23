@@ -18,7 +18,7 @@ Student Desktop Recording allows the RDP session between the lab user and the la
 - [Accessing Session Recordings](#accessing-session-recordings)
     - [View Session Recordings From a Particular Lab Profile](#view-session-recordings-from-a-particular-lab-profile)
     - [View Session Recordings For a Particular User](#view-session-recordings-for-a-particular-user)
-- [Download Recordings](#-download-recordings)
+- [Download Recordings](#download-recordings)
 - [Known Issues and Limitations](#known-issues-and-limitations)
 
 ## Enabling Student Desktop Recording 
