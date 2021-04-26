@@ -2,6 +2,34 @@
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## Released April 22, 2021
+### <span style="color:#0078d7;">Training Key Pool Availability</span>
+An Organization can now make a ‘Training Key Pool’ available to use across any child within the Parent Organization. On the Create Training Key Pool page, we have added a checkbox called ‘Make these keys available to everyone using’ [Site Name and URL]. Displaying the name of the site that the owning organization belongs to and displays the site URL. This option is enabled by default, but it will not be automatically enabled for existing training key pools.  With this enabled any organization within the Parent Organization that redeems the training key must be using the same site. 
+
+On the Find Training Key Pool page, we added ‘Sitewide use’ as a filter and output option. 
+
+### <span style="color:#0078d7;">Accessibility Items</span>
+In our continuing effort to improve accessibility for all our students and meet MAS standards on the Course Catalog page:
+*   'BookMark’ control is accessible using the keyboard.
+*   'Focus’ indicator is visible on the course tile while navigating using the ‘Tab / Shift’ tab keys.
+*   Screen Reader now narrates the ‘Bookmark’ button click to bookmark a course.
+*   Screen Reader now narrates the icon information within the tile. 
+*   The ‘Course’ tile border is now visible in High Contrast Black and White theme Mode.
+*   The ‘Focus’ indicator (Dotted Lines) is now visible on Facebook, Twitter and Linkedln image links while navigating using keyboard Tab / Shift tab keys.
+*   Filter Control is now accessibility friendly. 
+*   The ‘Course’ tile is now accessible using keyboard functionality. 
+*   Screen Reader now narrates the ‘Button’ and state as ‘Expand/Collapse’ for ‘Filters’ and ‘Course Topic’ while navigating using the down arrow key 
+*   Screen Reader now narrates ‘Match Any and All’ checkboxes when pressing the tab key.
+
+### <span style="color:#0078d7;">Lab Activities for Simple Course Assignments</span>
+On the Organization Preference tab, when the ‘Course Assignment – Use simple course assignment’ is enabled, a student with a simple course assignment can now launch the lab activity by clicking anywhere within the ‘Table of Contents’ activities tile.
+
+### <span style="color:#0078d7;">Enhancements and Fixes</span>
+*   SeachClubMemberships & SearchSubscriptions: We have added 2 new API calls for SearchClubMemberships and SearchSubscriptions.
+* GetUser: We have added a ‘CustomFieldValues’ on ‘GetUser’ API Method.
+* GetSsoRedirect:  We have fixed an issue with an ‘Exception Error’ appearing when no ‘UserID’ is supplied and passed through the API call.
+
+----------------------------
 ## Released April 8, 2021
 ### <span style="color:#0078d7;">Enhancements and Fixes</span>
 *   Course Details - Activities Count: A summary count for the number of activities will display next to the ‘Activities’ header.
