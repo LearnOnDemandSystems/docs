@@ -85,6 +85,7 @@ Languages include:
 - R
 - Ruby
 - Swift
+- JavaScript
 
 ### Template
 
