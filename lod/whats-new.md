@@ -9,6 +9,47 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## **Released April 25, 2021**
+
+**Code Labs**
+
+- JavaScript has been added as a Code Lab language.
+- Setting a language as default now correctly displays that language when starting a Code Lab.
+- When canceling a lab conversion to a code lab fabric, the code lab fabric checkbox is now unchecked.
+- Copying a Code Lab that contains activities generates new internal activity IDs.
+
+**RDP Session Recording**
+
+- When editing an Organization, the "Retain session Recording for * days" information icon now correctly displays help text.
+- Lab Instance Virtual Machine Recordings can now be downloaded from the Lab Instance Virtual Machine Recordings page as .rdpv files.
+- The  Lab Instance Virtual Machine Recordings page now contains a link to navigate back to the parent Lab Session Details page.
+
+**AWS**
+
+- AWS Service Linked Roles will now be removed on cloud teardown. The following roles will persist through lab instances.
+    - AWSServiceRoleForSupport
+    - AWSServiceRoleForCloudTrail
+    - AWSServiceRoleForTrustedAdvisor
+    - AWSServiceRoleForOrganizations
+    - OrganizationAccountAccessRole
+    - AWSServiceRoleForSSO
+- Added additional logic to AWS so that Virtual Machines with termination protection are properly torn down.
+- Added verification to AWS Stack Deployment Name Field.
+
+**LOD Improvements and Fixes**
+
+- The ability to export Virtual Machines have been restricted to those with Global Storage Management permissions.
+- Added additional logic to AWS so that Virtual Machines with termination protection are properly torn down.
+- Unassign Credential Link is now displayed next to the first property in the resources tab of the lab client.
+- Corrected a typo in the security review dialog displayed on a cloud lab profile.
+- The German localization for "ID" has been updated.
+- Public IP replacement tokens now appear in the instructions editor for child labs inheriting an environment. 
+- The Subscription Token dropdown will now be populated on newly created Multi-Subscription Cloud Slice Subscription labs.
+- Labs will no longer launch against disabled classes through API consumer.
+- Fixed a typo in an Azure provisioning error message.
+- Attempting to save a new Azure Cloud Subscription to a Cloud Subscription Pool without a Cloud Subscription Id will now warn that a valid Cloud Subscription Id is required.
+- Azure hosted Virtual Machines in Azure Cloud Slice Subscription saved labs now properly resume when the lab is resumed.
+
 ## **Released April 9, 2021**
 
 **Code Labs**
