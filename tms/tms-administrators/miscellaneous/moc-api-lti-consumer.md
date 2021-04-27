@@ -35,6 +35,7 @@ Some MOC labs use a shared Dynamics 365 tenant. To ensure proper setup to consum
 |MB-230T01 |A|Microsoft Dynamics 365 Customer Service|
 |MB-240T00 |A|Microsoft Dynamics 365 Field Service |
 |MB-901T00 |A|Microsoft Dynamics 365 Fundamentals |
+|MB-800T00 |A|Microsoft Dynamics 365 Business Central Functional Consultant|
 
 #### User/Class Impact 
 
