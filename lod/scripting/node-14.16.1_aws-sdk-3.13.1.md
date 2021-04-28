@@ -1,6 +1,74 @@
+#Node.js 14.16.1 with AWS SDK for JavaScript 3.13.1
 
-#Packages List
+This script execution environment is running Node.js 14.16.1 and Azure SDK for JavaSCript 3.13.1.
 
+AWS SDK for JavaScript documentation: [https://github.com/aws/aws-sdk-js-v3](https://github.com/aws/aws-sdk-js-v3)
+
+##AWS Authentication
+
+Your environment will be configured with your lab's AWS acount crentials. In most cases, you should be able to start working with the various AWS client classes and authentication should be handled for you.
+## Interacting with Lab on Demand
+
+Your scripts can communicate success or failure to LOD in one of two ways.
+
+### Return a boolean value 
+
+At its simplest...
+
+```javascript
+//do stuff... all good
+return true;
+```
+
+```javascript
+//do stuff... uh oh
+return false;
+```
+
+### Use setActivityResult
+
+```javascript
+//do stuff... all good
+setActivityResult(true)
+```
+
+```
+//do stuff... uh oh
+setActivityResult(false)
+```
+
+You can also report the result as a score...
+
+```javascript
+//do stuff... we want to score our findings
+setActivityResult({score:0.5});
+```
+
+### Send a Notification to the User
+
+Notifications appear as real-time toasts in the lab client.
+
+```javascript
+sendLabNotification("A notification from Node.js!");
+```
+
+### Lab Variables
+
+Lab variables are always string name/value pairs. Variable values are scoped to the lab instances and become avaialble within the lab instructions as well as subsequent script executions. 
+
+```javascript
+setLabVariable("myVariable1", "This was set by Node.js in the cloud!");
+```
+
+You can "receive" a variable in your script...
+
+```javascript
+#a variable set elsewhere in the lab, but we can use it in our script
+const myVariable1 = "@lab.Variable(myVariable1)";
+```
+
+
+#Package List
 
 <pre>
 +-- @aws-sdk/client-accessanalyzer@3.13.1
