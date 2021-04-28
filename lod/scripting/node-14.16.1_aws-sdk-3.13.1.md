@@ -7,7 +7,7 @@ AWS SDK for JavaScript documentation: [https://github.com/aws/aws-sdk-js-v3](htt
 ##Example
 
 ```JavaScript
-//let's create an S3 bucket..
+//let's create an S3 bucket...
 return await (new Promise((resolve, reject) => {
 
   const {
