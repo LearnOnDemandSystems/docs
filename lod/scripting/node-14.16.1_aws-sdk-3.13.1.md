@@ -111,6 +111,32 @@ setTimeout(function() {
 return false; //<- this will have no effect, as it will be evaluated before the async code is run.
 ```
 
+A more practical example...
+
+```JavaScript
+//let's list S3 buckets in my lab's AWS account...
+const {
+  S3Client,
+  ListBucketsCommand
+} = require("@aws-sdk/client-s3");
+const s3 = new S3Client({ region: "us-east-1" });
+(async () => {
+  try {
+    const data = await s31.send(new ListBucketsCommand({}));
+    if (data.Buckets.length === 0){
+      console.log("No S3 buckets found");
+    } else {
+      for (let i = 0; i < data.Buckets.length; i++) {
+        console.log(data.Buckets[i].Name);
+      }    
+    }
+    setActivityResult(true);
+  } catch (err) {
+    setActivityResult(false, err.message);
+  }  
+})();
+```
+
 ### Use a Promise
 
 You can use a promise and return the result to Lab on Demand by resolving the promise.
