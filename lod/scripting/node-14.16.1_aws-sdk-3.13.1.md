@@ -37,11 +37,11 @@ setActivityResult(true);
 setActivityResult(false);
 ```
 
-You can also report the result as a score...
+You can also report the result as a score %...
 
 ```javascript
-//do stuff... we want to report success and set the score value
-setActivityResult(true, 0.5);
+//do stuff... we want to report success and set the score value as 50%
+setActivityResult(0.5);
 ```
 
 ### Send a Notification to the User
