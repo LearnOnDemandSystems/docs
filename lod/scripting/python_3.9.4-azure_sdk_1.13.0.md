@@ -6,13 +6,13 @@ This script execution environment is running Python 3.9.4 and Azure libraries (S
 
 The lab's subscription ID  can be obtained from an environment variable.
 
-```
+```Python
 subscription_id = os.environ["AZURE_SUBSCRIPTION_ID"]
 ```
 
 You can also use standard @lab replacement token syntax.
 
-```
+```Python
 subscription_id = "@lab.CloudSubscription.Id"
 ```
 
@@ -20,7 +20,7 @@ subscription_id = "@lab.CloudSubscription.Id"
 
 The script environment will be pre-configured for your lab instance. You can use the DefaultAzureCredential class to obtain credentials, which can then be passed other Azure service clients.
 
-```
+```Python
 credentials = DefaultAzureCredential()
 subscription_id = os.environ["AZURE_SUBSCRIPTION_ID"]
 resource_client = ResourceManagementClient(credentials, subscription_id)
