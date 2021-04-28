@@ -4,6 +4,34 @@ This script execution environment is running Node.js 14.16.1 and Azure SDK for J
 
 AWS SDK for JavaScript documentation: [https://github.com/aws/aws-sdk-js-v3](https://github.com/aws/aws-sdk-js-v3)
 
+##Example
+
+```JavaScript
+//let's create an S3 bucket..
+return await (new Promise((resolve, reject) => {
+
+  const {
+    S3Client,
+    CreateBucketCommand
+  } = require("@aws-sdk/client-s3");
+
+  const s3 = new S3Client({ region: "us-east-1" });
+
+  (async () => {
+    try {
+      const bucketName = "bucket-@lab.LabInstance.Id";
+      const bucketParams = { Bucket: bucketName };
+      const data = await s32.send(new CreateBucketCommand(bucketParams));
+      console.log("Created " + bucketName);
+      resolve(true);
+    } catch (err) {
+      reject(err);
+    }  
+  })();
+
+}));
+```
+
 ##AWS Authentication
 
 Your environment will be configured with your lab's AWS acount crentials. In most cases, you should be able to start working with the various AWS client classes and authentication should be handled for you.
@@ -67,6 +95,34 @@ You can "receive" a variable in your script...
 const myVariable1 = "@lab.Variable(myVariable1)";
 ```
 
+##Dealing with Async
+
+It's very common to work with asynchronous JavaScript. The AWS SDK for Javascript uses asynchrous programming extensively. This can complicate returning simple true/false values to LOD to signify whether a script execution should be considered successful. There are two primary ways to deal with this.
+
+### Use setActivityResult
+
+If you choose to use setActivityResult, the last time it is called within your script will determine the outcome.
+
+```javascript
+setTimeout(function() {
+    console.log("This message was left inside the async code.");
+    setActivityResult(true);
+}, 1000);
+return false; //<- this will have no effect, as it will be evaluated before the async code is run.
+```
+
+### Use a Promise
+
+You can use a promise and return the result to Lab on Demand by resolving the promise.
+
+```javascript
+return await (new Promise((resolve, reject) => {
+    setTimeout(function() {
+        console.log("This message was left inside the async code.");
+        resolve(true);
+    }, 1000);
+}));
+```
 
 #Package List
 
