@@ -43,19 +43,19 @@ Your scripts can communicate success or failure to LOD in one of two ways.
 
 At its simplest...
 
-```javascript
+```JavaScript
 //do stuff... all good
 return true;
 ```
 
-```javascript
+```JavaScript
 //do stuff... uh oh
 return false;
 ```
 
 ### Use setActivityResult
 
-```javascript
+```JavaScript
 //do stuff... all good
 setActivityResult(true);
 ```
@@ -67,7 +67,7 @@ setActivityResult(false);
 
 You can also report the result as a score %...
 
-```javascript
+```JavaScript
 //do stuff... we want to report success and set the score value as 50%
 setActivityResult(0.5);
 ```
@@ -76,7 +76,7 @@ setActivityResult(0.5);
 
 Notifications appear as real-time toasts in the lab client.
 
-```javascript
+```JavaScript
 sendLabNotification("A notification from Node.js!");
 ```
 
@@ -84,13 +84,13 @@ sendLabNotification("A notification from Node.js!");
 
 Lab variables are always string name/value pairs. Variable values are scoped to the lab instances and become avaialble within the lab instructions as well as subsequent script executions. 
 
-```javascript
+```JavaScript
 setLabVariable("myVariable1", "This was set by Node.js in the cloud!");
 ```
 
 You can "receive" a variable in your script...
 
-```javascript
+```JavaScript
 #a variable set elsewhere in the lab, but we can use it in our script
 const myVariable1 = "@lab.Variable(myVariable1)";
 ```
@@ -103,7 +103,7 @@ It's very common to work with asynchronous JavaScript. The AWS SDK for Javascrip
 
 If you choose to use setActivityResult, the last time it is called within your script will determine the outcome.
 
-```javascript
+```JavaScript
 setTimeout(function() {
     console.log("This message was left inside the async code.");
     setActivityResult(true);
@@ -115,7 +115,7 @@ return false; //<- this will have no effect, as it will be evaluated before the 
 
 You can use a promise and return the result to Lab on Demand by resolving the promise.
 
-```javascript
+```JavaScript
 return await (new Promise((resolve, reject) => {
     setTimeout(function() {
         console.log("This message was left inside the async code.");
