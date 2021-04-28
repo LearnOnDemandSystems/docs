@@ -29,19 +29,19 @@ return false;
 
 ```javascript
 //do stuff... all good
-setActivityResult(true)
+setActivityResult(true);
 ```
 
 ```
 //do stuff... uh oh
-setActivityResult(false)
+setActivityResult(false);
 ```
 
 You can also report the result as a score...
 
 ```javascript
-//do stuff... we want to score our findings
-setActivityResult({score:0.5});
+//do stuff... we want to report success and set the score value
+setActivityResult(true, 0.5);
 ```
 
 ### Send a Notification to the User
