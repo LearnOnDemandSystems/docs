@@ -124,6 +124,34 @@ return await (new Promise((resolve, reject) => {
 }));
 ```
 
+A more practical example...
+
+```JavaScript
+//let's list S3 buckets in my lab's AWS account...
+return await (new Promise((resolve, reject) => {
+  const {
+    S3Client,
+    ListBucketsCommand
+  } = require("@aws-sdk/client-s3");
+  const s3 = new S3Client({ region: "us-east-1" });
+  (async () => {
+    try {
+      const data = await s3.send(new ListBucketsCommand({}));
+      if (data.Buckets.length === 0){
+        console.log("No S3 buckets found");
+      } else {
+        for (let i = 0; i < data.Buckets.length; i++) {
+          console.log(data.Buckets[i].Name);
+        }    
+      }
+      resolve(true);
+    } catch (err) {
+      reject(err);
+    }  
+  })();
+}));
+```
+
 #Package List
 
 <pre>
