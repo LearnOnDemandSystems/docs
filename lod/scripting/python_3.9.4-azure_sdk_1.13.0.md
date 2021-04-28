@@ -39,31 +39,31 @@ Your scripts can communicate success or failure to LOD in one of two ways.
 
 At its simplest...
 
-```
+```Python
 #do stuff... all good
 return True
 ```
 
-```
+```Python
 #do stuff... uh oh
 return False
 ```
 
 ### Use setActivityResult
 
-```
+```Python
 #do stuff... all good
 setActivityResult(correct=true)
 ```
 
-```
+```Python
 #do stuff... uh oh
 setActivityResult(correct=false)
 ```
 
 You can also report the result as a score...
 
-```
+```Python
 #do stuff... we want to score our findings
 setActivityResult(score=0.5)
 ```
@@ -72,7 +72,7 @@ setActivityResult(score=0.5)
 
 Notifications appear as real-time toasts in the lab client.
 
-```
+```Python
 sendLabNotification("A notification from Python!")
 ```
 
@@ -80,13 +80,13 @@ sendLabNotification("A notification from Python!")
 
 Lab variables are always string name/value pairs. Variable values are scoped to the lab instances and become avaialble within the lab instructions as well as subsequent script executions. 
 
-```
+```Python
 setLabVariable("myVariable1", "This was set within a Python script!")
 ```
 
 You can "receive" a variable in your script...
 
-```
+```Python
 #a variable set elsewhere in the lab, but we can use it in our script
 myVariable1 = "@lab.Variable(myVariable1)"
 ```
