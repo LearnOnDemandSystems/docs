@@ -98,13 +98,13 @@ For launches, Lab On Demand supports LTI Basic Launch 1.1.
 
 - resource_link_id - must be set to the ID of the lab being launched
 
-- oauth_consumer_key -  must be set to the API consumer key provided by LODS
+- oauth_consumer_key -  must be set to the API consumer key provided by Learn on Demand Systems
 
 - oauth_timestamp -  must be set to the current time (Unix epoch time). Requests older than 1 hour are rejected
 
 - oauth_signature_method-  must be set to a valid OAuth 1.0 signing method (minimum HMAC-SHA1)
 
-- oauth_signature -  must be set to the OAuth signature generated using the LTI secret key shared with LODS
+- oauth_signature -  must be set to the OAuth signature generated using the LTI secret key shared with Learn on Demand Systems
 
 - oauth_nonce -  must be set to a unique value (each request will have a unique nonce)
 

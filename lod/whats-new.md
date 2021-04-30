@@ -7,7 +7,7 @@
 </div>
 
 # What's New in Lab On Demand
-<span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
+<span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other Learn on Demand Systems platforms?</a></span>
 
 ## **Released April 25, 2021**
 
