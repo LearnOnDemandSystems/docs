@@ -70,7 +70,7 @@
             <div class="subtopic_title">Tips and Tricks on Delivering Virtual Classes</div>
             <div class="subtopic_description">Learn all about your options for using virtual meetings with the TMS. Learn on Demand Systems has integrated options as well as the ability to use your virtual meeting host of choice. View how instructors and students experience using the virtual meeting in the TMS.</div>
         </a>
-       <a class="subtopic_link" href="https://youtu.be/YCixm7y9nLQ" target="_blank">
+       <a class="subtopic_link" href="https://youtu.be/o7qKPFzkdhE" target="_blank">
             <div class="subtopic_title">Overview of Self-paced Learning Using Subscriptions</div>
             <div class="subtopic_description">ubscriptions are a way to sell course bundles for self-paced training. A student has unlimited access to take the course until the desired expiration date. Learn the ins and outs of creating subscriptions and the student experience in using them.</div>
         </a>
