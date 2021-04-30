@@ -34,11 +34,11 @@
         <div class="subtopic_title">How do I create users?</div>
           <div class="subtopic_description">We introduce ways to create user accounts individually, through the user import tool, through training keys, and by 3rd party authentication. We show how to create temporary role assignments as well as create a student, instructor and operations manager user account.</div>
       </a>
-         <a class="subtopic_link" href="https://youtu.be/IqGdtbEZZNI" target="_blank">
+         <a class="subtopic_link" href="https://youtu.be/FJSFkp5TQhM" target="_blank">
         <div class="subtopic_title">How do I create a class?</div>
           <div class="subtopic_description">This video describes how to create a basic class. This includes adding a course, session times, delivery and instructors. Advanced settings are discussed in the "How can I use the advanced settings on a class" video.</div>
       </a>
-      <a class="subtopic_link" href="https://youtu.be/5QWM385xCJI" target="_blank">
+      <a class="subtopic_link" href="https://youtu.be/IqGdtbEZZNI" target="_blank">
         <div class="subtopic_title">How do I use the advanced settings on a class?</div>
           <div class="subtopic_description">After creating a basic class, you may be interested in some of the advanced options. Advanced settings include enabling automated notifications, dedicating a class, surveys, enabling self enrollment, materials and certificates.</div>
       </a>
