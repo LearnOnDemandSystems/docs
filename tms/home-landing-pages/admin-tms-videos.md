@@ -30,11 +30,11 @@
         <div class="subtopic_title">What are Learn on Demand Systems connectivity requirements for labs?</div>
           <div class="subtopic_description">We overview how to find connectivity requirements, where to find and how to run a speed test, troubleshooting tips on lab connectivity, and different ways to open Support tickets.</div>
       </a>
-         <a class="subtopic_link" href="https://youtu.be/7yFNAvKm9E4" target="_blank">
+         <a class="subtopic_link" href="https://youtu.be/VcWiTOW-Iq0" target="_blank">
         <div class="subtopic_title">How do I create users?</div>
           <div class="subtopic_description">We introduce ways to create user accounts individually, through the user import tool, through training keys, and by 3rd party authentication. We show how to create temporary role assignments as well as create a student, instructor and operations manager user account.</div>
       </a>
-         <a class="subtopic_link" href="https://youtu.be/FJSFkp5TQhM" target="_blank">
+         <a class="subtopic_link" href="https://youtu.be/IqGdtbEZZNI" target="_blank">
         <div class="subtopic_title">How do I create a class?</div>
           <div class="subtopic_description">This video describes how to create a basic class. This includes adding a course, session times, delivery and instructors. Advanced settings are discussed in the "How can I use the advanced settings on a class" video.</div>
       </a>
@@ -42,7 +42,7 @@
         <div class="subtopic_title">How do I use the advanced settings on a class?</div>
           <div class="subtopic_description">After creating a basic class, you may be interested in some of the advanced options. Advanced settings include enabling automated notifications, dedicating a class, surveys, enabling self enrollment, materials and certificates.</div>
       </a>
-      <a class="subtopic_link" href="https://youtu.be/tSXmej6_dwM" target="_blank">
+      <a class="subtopic_link" href="https://youtu.be/pU3HAt5jm8o" target="_blank">
         <div class="subtopic_title">How can I use the class links showing before class starts?</div>
           <div class="subtopic_description">Once a class is created and before it has started, a number of links are available to prepare for class. We take the time to demonstrate all these features in this video: pre-class checklist, class history, enrollment training keys, sign in sheets, printing completion certificates, manage files, and sent notifications. </div>
       </a>
@@ -54,16 +54,17 @@
         <div class="subtopic_title">How do I create enrollments?</div>
           <div class="subtopic_description">After you have created a class and user accounts, you have several ways to create enrollments. This video covers ways to create enrollments without using training keys, such as, creating a single enrollment, multiple enrollments, adding enrollments through the roster, and adding enrollments from another class. We also discuss enrollment statuses, classroom assignment, double booking, cancellations and billing.</div>
       </a>
-      <a class="subtopic_link" href="https://youtu.be/NcnPhredIfo" target="_blank">
+      <a class="subtopic_link" href="https://youtu.be/tw0M4c7BchM" target="_blank">
         <div class="subtopic_title">How do I assign Challenge Labs?</div>
           <div class="subtopic_description">Using Learn on Demand Systems Challenge Labs requires its own unique set up and assignment. This video reviews how to find Challenge Labs, three ways to create Subscription assignments for users, and other items of interest for the set up and reporting on these labs.</div>
           </div>
     </div>
     <div class="subtopic_header" tabindex="0" title="TMS Webinar Videos" role="button" aria-selected="false">TMS Webinar Videos</div>
     <div class="subtopic_links">
-         <a class="subtopic_link" href="https://youtu.be/_7AlUcKP4oM" target="_blank">
+         <a class="subtopic_link" href="https://youtu.be/gxxrrFUpdXY" target="_blank">
             <div class="subtopic_title">Save Time on Scheduling Logistics with Training Keys</div>
-            <div class="subtopic_description">Training keys are to help manage creating user accounts and training for students. A training key is a code you can distribute to users, that code is redeemed creating their training. It can also be used for them to create their user account. We'll discuss using 4 different types of training keys, how to create them and the ins and outs of each of them.</div>
+            <div class="subtopic_description">Training keys are to help manage creating user accounts and training for students. A training key is a code you can distribute to 
+                users, that code is redeemed creating their training. It can also be used for them to create their user account. We'll discuss using 4 different types of training keys, how to create them and the ins and outs of each of them.</div>
         </a>  
        <a class="subtopic_link" href="https://youtu.be/faZC2WEz47Q" target="_blank">
             <div class="subtopic_title">Tips and Tricks on Delivering Virtual Classes</div>
