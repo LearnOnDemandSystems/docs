@@ -12,7 +12,7 @@ Following the principle of least privilege, the permissions boundary ensures tha
 - [Create a Group](#create-a-group)
 - [Create Users and Assign Them to their Respective Group](#create-users-and-assign-them-to-their-respective-group)
 
-## Create a Group
+## Use the IAM Dashboard to Create a Group
 
 IAM users belong to user groups and user groups are assigned policies. 
 
@@ -29,7 +29,7 @@ Create a group:
 
 If you need additional groups, repeat the steps above. 
 
-## Create Users and Assign Them to their Respective Group
+## Use the IAM Dashboard to Create Users and Assign Them to their Respective Group
 
 1. From the IAM dashboard, select **Users** from the menu on the left.
 1. Select **Add User**.
@@ -46,8 +46,37 @@ If you need additional groups, repeat the steps above.
 
     ![Set permission boundary](images/set-permission-boundary.png){300}
 1. Select **Use a permissions boundary** to control the maximum user permissions.
-1. In the search box, enter `LODS` and select the policy.
+1. In the search box, enter `LabSecureAccess` and select the policy.
 1. Select **Next: Tags**.
 1. Select **Next: Review**.
 1. Select **Create User**.
 
+## Use the AWS PowerShell to Create Users 
+
+  >NOTE: This procedure requires that you know the access key and the secret key for the AWS account you will use to create the user account. 
+
+1. Open Windows PowerShell and run the following command to sign in to AWS.
+
+    ```
+    Set-AWSCredential -AccessKey [AccessKey] -SecretKey [SecretKey]
+    ```
+ 
+ 1. Run the following command to create the IAM user with the permissions boundary..
+
+    ```
+    New-IAMUser -UserName [UserName] -PermissionsBoundary "arn:aws:iam::@lab.CloudSubscription.Id:policy/LabSecureAccess"
+    ```
+    
+    >Note that @lab.CloudSubscription.Id is variable that contains the AWS account ID.
+    
+  ## Use the AWS CLI to Create Users 
+
+  >NOTE: This procedure assumes that you have properly configured AWS CLI and have connected to the AWS account by using your access and secret keys. 
+
+1. At the shell prompt, enter the following command to create the IAM user with the permissions boundary.
+
+    ```
+    aws iam create-user --user-name [UserName] --permissions-boundary "arn:aws:iam::@lab.CloudSubscription.Id:policy/LabSecureAccess"
+    ```
+ 
+ 
