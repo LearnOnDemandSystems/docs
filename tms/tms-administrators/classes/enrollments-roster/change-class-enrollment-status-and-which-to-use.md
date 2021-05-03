@@ -38,7 +38,7 @@ For the most flexibility working with student enrollments,
 1. Make your changes and click **Save**.
 
 ## Statuses
-There are 7 class enrollment statuses. Which ones you use depend upon the process flow for your organization and permissions in the roles you have. The following lists the statuses and possible uses for a student?s enrollment:
+There are 7 class enrollment statuses. Which ones you use depend upon the process flow for your organization and permissions in the roles you have. The following lists the statuses and possible uses for a student's enrollment:
 
 - **Requested** - Not yet been approved to attend or the default status used until class begins.
 - **Cancelled** - No longer requesting or taking the class.
