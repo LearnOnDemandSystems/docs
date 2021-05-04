@@ -1,6 +1,6 @@
 #Node.js 14.16.1 with AWS SDK for JavaScript 3.13.1
 
-This script execution environment is running Node.js 14.16.1 and Azure SDK for JavaSCript 3.13.1.
+This script execution environment is running Node.js 14.16.1 and Azure SDK for JavaScript 3.13.1.
 
 AWS SDK for JavaScript documentation: [https://github.com/aws/aws-sdk-js-v3](https://github.com/aws/aws-sdk-js-v3)
 
