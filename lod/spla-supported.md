@@ -75,9 +75,9 @@ Example billing scenarios:
 # FAQ
 ## Windows Server 
 
-  #### 1. How is VMWare support different?
+#### 1. How is VMWare support different?
   
-  VMWare is supported, using a KMS or Key Management Server on a WebNet network.
+VMWare is supported, using a KMS or Key Management Server on a WebNet network.
     
 ### 2. Are any VMs that run on SPLA tagged servers automatically activated?
   
