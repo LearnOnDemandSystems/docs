@@ -75,25 +75,20 @@ Example billing scenarios:
 # FAQ
 ## Windows Server 
 
-  1. #### How is VMWare support different?
+  #### 1. How is VMWare support different?
   
     VMWare is supported, using a KMS or Key Management Server on a WebNet network.
     
-  1. ### Are any VMs that run on SPLA tagged servers automatically activated?
+  ### 2. Are any VMs that run on SPLA tagged servers automatically activated?
   
     Only if they are of a supported Operating System version. On VMWare the client must be able to connect to the KMS server on a WebNet network. 
 
 ## Office
 
-  1. ### Are Office Products available in any region and Platform?
+  ### 1. Are Office Products available in any region and Platform?
   
     Yes.  Because Office is a 'per user' consumption, capacity does not need to be exclusive.  Additionally it does not rely on any features of the underlying Hyper-Visor.
 
-  1. ### How does the Office product billing work?
+  ### 2. How does the Office product billing work?
   
     We report all usage and Microsoft makes no distinction in a 'launch' vs a 'user' in our world. The billing model is not designed for how Learn on Demand System operates and does not cater to our unique use cases. The SPLA team has had conversations with our SPLA program partner about this and will report accurately, within reason, to Microsoft our use case.  It is important you reading this and your customers, understand these situations and how rigid they are.
-    
-  ### 1. How does the Office product billing work?
-  
-    We report all usage and Microsoft makes no distinction in a 'launch' vs a 'user' in our world. The billing model is not designed for how Learn on Demand System operates and does not cater to our unique use cases. The SPLA team has had conversations with our SPLA program partner about this and will report accurately, within reason, to Microsoft our use case.  It is important you reading this and your customers, understand these situations and how rigid they are.
-
