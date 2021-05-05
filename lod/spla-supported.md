@@ -92,3 +92,8 @@ Example billing scenarios:
   1. ### How does the Office product billing work?
   
     We report all usage and Microsoft makes no distinction in a 'launch' vs a 'user' in our world. The billing model is not designed for how Learn on Demand System operates and does not cater to our unique use cases. The SPLA team has had conversations with our SPLA program partner about this and will report accurately, within reason, to Microsoft our use case.  It is important you reading this and your customers, understand these situations and how rigid they are.
+    
+  ### 1. How does the Office product billing work?
+  
+    We report all usage and Microsoft makes no distinction in a 'launch' vs a 'user' in our world. The billing model is not designed for how Learn on Demand System operates and does not cater to our unique use cases. The SPLA team has had conversations with our SPLA program partner about this and will report accurately, within reason, to Microsoft our use case.  It is important you reading this and your customers, understand these situations and how rigid they are.
+
