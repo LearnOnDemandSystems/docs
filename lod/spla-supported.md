@@ -12,7 +12,6 @@ isPublished: true
 - [Billing Scenarios](#billing-scenarios)
 - [FAQ](#faq)
     - [Windows Server](#windows-server)
-        - [How is VMWare support different?](#windows-server)
         - [Are any VMs that run on SPLA tagged servers automatically activated?](#windows-server)
     - [Office](#office)
         - [Are Office Products available in any region and Platform?](#office)
