@@ -73,12 +73,8 @@ Example billing scenarios:
 
 # FAQ
 ## Windows Server 
-
-   1. **How is VMWare support different?**
-   
-   VMWare is supported, using a KMS or Key Management Server on a WebNet network.
     
-   2. **Are any VMs that run on SPLA tagged servers automatically activated?**
+   1. **Are any VMs that run on SPLA tagged servers automatically activated?**
    
    No.  The VM must run the correct version of Windows.  The VM must be configured to know where the KMS server is and the VM must be able to connect to the KMS server on a WebNet network.  
 
