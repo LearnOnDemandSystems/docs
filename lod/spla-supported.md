@@ -81,7 +81,7 @@ Example billing scenarios:
     
    2. **Are any VMs that run on SPLA tagged servers automatically activated?**
    
-   Only if they are of a supported Operating System version. On VMWare the client must be able to connect to the KMS server on a WebNet network. 
+   No.  The VM must run the correct version of Windows.  The VM must be configured to know where the KMS server is and the VM must be able to connect to the KMS server on a WebNet network.  
 
 ## Office
 
