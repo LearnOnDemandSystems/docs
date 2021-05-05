@@ -11,12 +11,12 @@ isPublished: true
 - [Other Software Supported by SPLA](#other-software-supported-by-spla)
 - [Billing Scenarios](#billing-scenarios)
 - [FAQ](#faq)
-  * [Windows Server](#windows-server)
-    + [How is VMWare support different?](#how-is-vmware-support-different-)
-    + [Are any VMs that run on SPLA tagged servers automatically activated?](#are-any-vms-that-run-on-spla-tagged-servers-automatically-activated-)
-  * [Office](#office)
-    + [Are Office Products available in any region and Platform?](#are-office-products-available-in-any-region-and-platform-)
-    + [How does the Office product billing work?](#how-does-the-office-product-billing-work-)
+    - [Windows Server](#windows-server)
+        - [How is VMWare support different?](#how-is-vmware-support-different-)
+        - [Are any VMs that run on SPLA tagged servers automatically activated?](#are-any-vms-that-run-on-spla-tagged-servers-automatically-activated-)
+    - [Office](#office)
+        - [Are Office Products available in any region and Platform?](#are-office-products-available-in-any-region-and-platform-)
+        - [How does the Office product billing work?](#how-does-the-office-product-billing-work-)
 
 ## Windows and Office
 
