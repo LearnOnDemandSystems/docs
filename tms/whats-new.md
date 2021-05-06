@@ -2,6 +2,17 @@
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## Released May 6, 2021
+### <span style="color:#0078d7;">Simple Course Assignments</span>
+On a simple course assignment when a student clicks the ‘Start’ button and completes a lab activity the ‘Start’ button now changes to ‘Continue’ and moves to the next lab activity that has a Status of ‘Not Started’ or ‘Incomplete’. 
+
+### <span style="color:#0078d7;">Enhancements and Fixes</span>
+*   UpdateUserCustomFieldValue:  We have added a new API call for UpdateUserCustomFieldValue.  This updates the current value of a specific custom field for a user. 
+*   Class – Payment Section: The ‘Payment’ section on Create or Edit a class has been removed. 
+*   SearchClubMemberships & SearchSubscriptions:  We have fixed the API documentation for SearchClubMemvberships and SearchSubscriptions.  An extra ‘s’ in ‘Subscriptions’ is removed from the Example Usage URL for version 2.0.
+*   User Profile – Change Password:  The ‘Change Password’ dialog box has been fixed so that when a user clicks on the ‘Show Characters’ checkbox it no longer applies encoding onto the password characters.
+
+----------------------------
 ## Released April 22, 2021
 ### <span style="color:#0078d7;">Training Key Pool Availability</span>
 An Organization can now make a ‘Training Key Pool’ available to use across any child within the Parent Organization. On the Create Training Key Pool page, we have added a checkbox called ‘Make these keys available to everyone using’ [Site Name and URL]. Displaying the name of the site that the owning organization belongs to and displays the site URL. This option is enabled by default, but it will not be automatically enabled for existing training key pools.  With this enabled any organization within the Parent Organization that redeems the training key must be using the same site. 
@@ -200,6 +211,7 @@ When assigning individual roles to users during the user import process, an opti
 
 ----------------------------
 
+<!--
 ## Released November 19 2020
 
 ### <span style="color:#0078d7;">Browser and Catalog Save Filter Selections</span>
