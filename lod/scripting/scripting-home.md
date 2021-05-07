@@ -1,10 +1,10 @@
 ---
-title: "Scripting in Lab on Demand"
-description: "Description of document."
-isPublished: false
+title: "Lab on Demand Cloud Script Execution"
+description: "Scripting language syntax for interacting with Lab on Demand and Cloud providers."
+isPublished: true
 ---
 
-# Scripting in Lab on Demand
+# Lab on Demand Cloud Script Execution
 
 Lab on Demand allows execution of scripts against a cloud subscription, as well as executing scripts that do not have a target. Scripts are used in Automated Activites and Life Cycle Actions.
 
