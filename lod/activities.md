@@ -159,7 +159,7 @@ Along with traditional syntax, there is additional syntax that can be used.
 
 - **Scoring**
 
-    `set_activity_result .5 "good job!"`
+    `Set-ActivityResult -Score .5 "good job!"`
 
 <!--
 #### **Python**
