@@ -34,7 +34,7 @@ return await (new Promise((resolve, reject) => {
 
 ##AWS Authentication
 
-Your environment will be configured with your lab's AWS acount crentials. In most cases, you should be able to start working with the various AWS client classes and authentication should be handled for you.
+Your environment will be configured with your lab's AWS account credentials. In most cases, you should be able to start working with the various AWS client classes and authentication should be handled for you.
 
 ## Interacting with Lab on Demand
 
