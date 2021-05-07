@@ -6,6 +6,14 @@
 ### <span style="color:#0078d7;">Simple Course Assignments</span>
 On a simple course assignment when a student clicks the ‘Start’ button and completes a lab activity the ‘Start’ button now changes to ‘Continue’ and moves to the next lab activity that has a Status of ‘Not Started’ or ‘Incomplete’. 
 
+### <span style="color:#0078d7;">Product Guides</span>
+Product guides have been added to the TMS for the following topics:
+- Create a user
+- Create a course
+
+These product guides may not be available to you, depending on your user account permissions.
+
+
 ### <span style="color:#0078d7;">Enhancements and Fixes</span>
 *   UpdateUserCustomFieldValue:  We have added a new API call for UpdateUserCustomFieldValue.  This updates the current value of a specific custom field for a user. 
 *   Class – Payment Section: The ‘Payment’ section on Create or Edit a class has been removed. 
