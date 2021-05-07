@@ -1,6 +1,6 @@
 # Python 3.9.4 with AWS Boto3 1.17.50
 
-# Interacting with Lab on Demand
+## Interacting with Lab on Demand
 
 Your scripts can communicate success or failure to LOD in one of two ways.
 

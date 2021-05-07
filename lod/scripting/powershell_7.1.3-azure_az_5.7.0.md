@@ -1,6 +1,6 @@
 # PowerShell 7.1.3 with Azure AZ 5.7.0
 
-# Interacting with Lab on Demand
+## Interacting with Lab on Demand
 
 Your scripts can communicate success or failure to LOD in one of two ways.
 
