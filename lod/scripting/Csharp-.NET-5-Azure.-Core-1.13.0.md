@@ -22,19 +22,19 @@ return false;
 
 ```C#
 //do stuff... all good
-setActivityResult(true);
+#Set-ActivityResult -Correct -Message 'Nice job'
 ```
 
-```
+```C#
 //do stuff... uh oh
-setActivityResult(false);
+#Set-ActivityResult -Correct -Message 'Please try again'
 ```
 
-You can also report the result as a score %...
+You can also report the result as a score percentage...
 
 ```C#
 //do stuff... we want to report success and set the score value as 50%
-setActivityResult(0.5);
+Set-ActivityResult -Percentage .5 -Message "You received half credit"
 ```
 
 ### Send a Notification to the User
@@ -42,7 +42,7 @@ setActivityResult(0.5);
 Notifications appear as real-time toasts in the lab client.
 
 ```C#
-sendLabNotification("A notification from Node.js!");
+Send-LabNotification 'Hello from Azure CLI'
 ```
 
 ### Lab Variables
@@ -50,24 +50,12 @@ sendLabNotification("A notification from Node.js!");
 Lab variables are always string name/value pairs. Variable values are scoped to the lab instances and become avaialble within the lab instructions as well as subsequent script executions. 
 
 ```C#
-setLabVariable("myVariable1", "This was set by Node.js in the cloud!");
+Set-LabVariable -Name 'firstName' -Value 'John'
 ```
 
 You can "receive" a variable in your script...
 
 ```C#
 #a variable set elsewhere in the lab, but we can use it in our script
-const myVariable1 = "@lab.Variable(myVariable1)";
-```
-
-### Use setActivityResult
-
-If you choose to use setActivityResult, the last time it is called within your script will determine the outcome.
-
-```C#
-setTimeout(function() {
-    console.log("This message was left inside the async code.");
-    setActivityResult(true);
-}, 1000);
-return false; //<- this will have no effect, as it will be evaluated before the async code is run.
+Console.WriteLine(myVariable1); = "@lab.Variable(myVariable1)"
 ```
