@@ -57,5 +57,5 @@ You can "receive" a variable in your script...
 
 ```C#
 #a variable set elsewhere in the lab, but we can use it in our script
-Console.WriteLine(myVariable1); = "@lab.Variable(myVariable1)"
+var myVariable1 = "@lab.Variable(myVariable1)";
 ```
