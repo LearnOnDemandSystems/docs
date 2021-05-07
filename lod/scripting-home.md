@@ -26,7 +26,7 @@ Scripting languages are available in three versions; Azure, AWS  and no cloud pr
     - [PS 7.1.3 | Az 5.7.0](/lod/scripting/powershell_7.1.3-azure_az_5.7.0.md)
     - [PS 7.1.3 | Azure-CLI 2.22.1](/lod/scripting/PS-7.1.3-Azure-CLI-2.22.1.md) 
 - **Python**
-    - [Python 3.9.4](lod/scripting/Python-3.9.4.md)
+    - [Python 3.9.4](/lod/scripting/Python-3.9.4.md)
     - [Python 3.9.4 | AWS Boto3 1.17.50](/lod/scripting/python_3.9.4-aws_boto3_1.17.50.md)
     - [Python 3.9.4 | Azure SDK 1.13.0](/lod/scripting/python_3.9.4-azure_sdk_1.13.0.md)
 
