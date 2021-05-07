@@ -50,7 +50,7 @@ Send-LabNotification -Message "Hello from a script"
 Lab variables are always string name/value pairs. Variable values are scoped to the lab instances and become avaialble within the lab instructions as well as subsequent script executions. 
 
 ```PowerShell
-`Set-LabVariable -Name firstName -Value John`
+Set-LabVariable -Name firstName -Value John
 ```
 
 You can "receive" a variable in your script...
