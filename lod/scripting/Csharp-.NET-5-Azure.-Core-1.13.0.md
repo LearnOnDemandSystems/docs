@@ -1,5 +1,20 @@
 # C# .NET 5 | Azure.Core 1.13.0
 
+## Azure Authentication
+
+The script environment will be pre-configured for your lab instance. You can use the DefaultAzureCredential class to obtain credentials, which can then be passed other Azure service clients.
+
+```C#
+var subscriptionId = Environment.GetEnvironmentVariable("AZURE_SUBSCRIPTION_ID");
+var resourceClient = new ResourcesManagementClient(subscriptionId, new DefaultAzureCredential());
+var resourceGroupsClient = resourceClient.ResourceGroups;
+```
+
+For details working with the Azure SDK for Python, please see Microsoft's documentation.
+
+ - [Use the Azure libraries (SDK) for .NET](https://docs.microsoft.com/en-us/dotnet/azure/sdk/azure-sdk-for-dotnet)
+ - [.NET API Browser](https://docs.microsoft.com/en-us/dotnet/api/?view=azure-dotnet) 
+
 ## Interacting with Lab on Demand
 
 Your scripts can communicate success or failure to LOD in one of two ways.
