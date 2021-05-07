@@ -1,6 +1,6 @@
 # PS 7.1.3 | AWS CLI 2.1.39
 
-# Interacting with Lab on Demand
+## Interacting with Lab on Demand
 
 Your scripts can communicate success or failure to LOD in one of two ways.
 

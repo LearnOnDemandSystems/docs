@@ -1,7 +1,8 @@
 # PowerShell 5.1 with AzureRM 6.8.1
 
 **This is a legacy script execution environment.**
-# Interacting with Lab on Demand
+
+## Interacting with Lab on Demand
 
 Your scripts can communicate success or failure to LOD in one of two ways.
 

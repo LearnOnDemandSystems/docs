@@ -1,6 +1,6 @@
 # C# .NET 5 | Azure.Core 1.13.0
 
-# Interacting with Lab on Demand
+## Interacting with Lab on Demand
 
 Your scripts can communicate success or failure to LOD in one of two ways.
 
