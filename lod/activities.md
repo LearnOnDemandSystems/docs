@@ -119,7 +119,7 @@ Automated Activities are PowerShell Windows command Shell Shell scripts that tar
 
 ### Automated Activity Syntax
 
-Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there is additional syntax that can be used. 
+Along with traditional syntax, there is additional syntax that can be used. 
 
 - Setting Lab Variables: sets a variable that can be recalled in subsequent lab instructions using @lab replacement tokens, as many times as necessary. 
 
