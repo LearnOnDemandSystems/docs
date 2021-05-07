@@ -10,7 +10,7 @@ var resourceClient = new ResourcesManagementClient(subscriptionId, new DefaultAz
 var resourceGroupsClient = resourceClient.ResourceGroups;
 ```
 
-For details working with the Azure SDK for Python, please see Microsoft's documentation.
+For details working with the Azure SDK for .NET, please see Microsoft's documentation.
 
  - [Use the Azure libraries (SDK) for .NET](https://docs.microsoft.com/en-us/dotnet/azure/sdk/azure-sdk-for-dotnet)
  - [.NET API Browser](https://docs.microsoft.com/en-us/dotnet/api/?view=azure-dotnet) 
