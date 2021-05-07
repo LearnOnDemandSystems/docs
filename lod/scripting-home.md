@@ -20,7 +20,7 @@ Scripting languages are available in three versions; Azure, AWS  and no cloud pr
 - **PowerShell**
     - [PS 5.1 with AWSPowerShell.netcore 4.1.3.0](/lod/scripting/powershell_5.1-awspowershell.netcore_4.1.3.0.md) 
     - [PS 5.1 with AzureRM 6.8.1](/lod/scripting/powershell_5.1-azurerm_6.8.1.md)
-    - [PS 7.1.3](PS-7.1.3.md) 
+    - [PS 7.1.3](/lod/scripting/PS-7.1.3.md) 
     - [PS 7.1.3 | AWS CLI 2.1.39](/lod/scripting/PS-7.1.3-AWS-CLI-2.1.39.md) 
     - [PS 7.1.3 | AWS.Tools 4.1.10.0](/lod/scripting/powershell_7.1.3-aws.tools_4.1.10.0.md)
     - [PS 7.1.3 | Az 5.7.0](/lod/scripting/powershell_7.1.3-azure_az_5.7.0.md)
