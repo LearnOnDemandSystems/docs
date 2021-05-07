@@ -135,7 +135,7 @@ Cloud Platform commands are used to target a cloud platform such as Microsoft Az
 <!--
 Select the Cloud Execution Type: 
 
-- **Legacy PowerShell**: uses Azure RM modules and PowerShell version 5.
+- **Legacy PowerShell**: uses Azure RM 6.8.1 modules and PowerShell version 5.1.
 - **PowerShell**: uses PowerShell version 7.  
     - **Azure**: Azure AZ 4.8.0
     - **AWS**: AWSPowerShell.NetCore 4.1.7.0
