@@ -8,7 +8,7 @@ isPublished: true
 
 Lab on Demand allows execution of scripts against a cloud subscription, as well as executing scripts that do not have a target. Scripts are used in Automated Activites and Life Cycle Actions.
 
-Scripting languages are available in three versions; Azure, AWS  and no cloud provider. Available scripting languages include: 
+Scripting languages are available in three versions; Azure, AWS  and no cloud provider. For more information, click one of the available scripting languages below: 
 
 - **C#**
     - [C# .NET 5](Csharp-.NET-5.md) 
@@ -28,3 +28,5 @@ Scripting languages are available in three versions; Azure, AWS  and no cloud pr
     - [Python 3.9.4](Python-3.9.4.md)
     - [Python 3.9.4 | AWS Boto3 1.17.50](python_3.9.4-aws_boto3_1.17.50.md)
     - [Python 3.9.4 | Azure SDK 1.13.0](python_3.9.4-azure_sdk_1.13.0.md)
+
+For more information please see our [Activities](/activities.md) and [Life Cycle Actions](/life-cycle-actions.md) documentation.
