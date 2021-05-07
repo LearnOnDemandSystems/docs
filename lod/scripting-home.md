@@ -30,4 +30,4 @@ Scripting languages are available in three versions; Azure, AWS  and no cloud pr
     - [Python 3.9.4 | AWS Boto3 1.17.50](/lod/scripting/python_3.9.4-aws_boto3_1.17.50.md)
     - [Python 3.9.4 | Azure SDK 1.13.0](/lod/scripting/python_3.9.4-azure_sdk_1.13.0.md)
 
-For more information please see our [Activities](/activities.md) and [Life Cycle Actions](/life-cycle-actions.md) documentation.
+For more information please see our [Activities](/lod/activities.md) and [Life Cycle Actions](/lod/life-cycle-actions.md) documentation.
