@@ -214,7 +214,7 @@
         <div class="subtopic_title">Lab on Demand Scoring</div>
         <div class="subtopic_description">The Lab on Demand platform supports the ability to score users either in an exam/quiz format or within a hands-on lab.</div>
       </a>
-      <a class="subtopic_link" href="/scripting/scripting-home.md">
+      <a class="subtopic_link" href="scripting-home.md">
         <div class="subtopic_title">Lab on Demand Cloud Script Execution</div>
         <div class="subtopic_description">Scripting language syntax for interacting with Lab on Demand and Cloud providers.</div>
       </a>
