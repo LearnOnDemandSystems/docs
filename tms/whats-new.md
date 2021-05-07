@@ -7,8 +7,8 @@
 On a simple course assignment when a student clicks the ‘Start’ button and completes a lab activity the ‘Start’ button now changes to ‘Continue’ and moves to the next lab activity that has a Status of ‘Not Started’ or ‘Incomplete’. 
 
 ### <span style="color:#0078d7;">Product Guides</span>
-These product guides may not be available to you, depending on your user account permissions.
-Product guides have been added to the TMS for the following topics:
+Product guides have been added to the TMS for the following topics. These product guides may not be available to you, depending on your user account permissions.
+
 - Create a user
 - Create a course
 
