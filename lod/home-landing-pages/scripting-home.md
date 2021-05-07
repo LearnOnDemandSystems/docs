@@ -13,6 +13,7 @@ Scripting languages are available in three versions; Azure, AWS  and no cloud pr
 - **C#**
     - [C# .NET 5](../scripting/Csharp-.NET-5.md) 
     - [C# .NET 5 | Azure.Core 1.13.0](../scripting/Csharp-.NET-5-Azure.-Core-1.13.0.md) **
+
 - **Javascript**
     - [node.js 14.16.1](../scripting/Node-js-14-16-1.md)
     - [node.js 14 | AWS SDK for JS 3](../scripting/node-14.16.1_aws-sdk-3.13.1.md) 
@@ -29,4 +30,4 @@ Scripting languages are available in three versions; Azure, AWS  and no cloud pr
     - [Python 3.9.4 | AWS Boto3 1.17.50](../scripting/python_3.9.4-aws_boto3_1.17.50.md)
     - [Python 3.9.4 | Azure SDK 1.13.0](../scripting/python_3.9.4-azure_sdk_1.13.0.md)
 
-For more information please see our [Activities](/activities.md) and [Life Cycle Actions](/life-cycle-actions.md) documentation.
+For more information please see our [Activities](../activities.md) and [Life Cycle Actions](../life-cycle-actions.md) documentation.
