@@ -55,7 +55,7 @@ Set-LabVariable -Name firstName -Value John
 
 You can "receive" a variable in your script...
 
-```JavaScript
+```PowerShell
 #a variable set elsewhere in the lab, but we can use it in our script
 $myVariable1 = "@lab.Variable(myVariable1)"
 ```
