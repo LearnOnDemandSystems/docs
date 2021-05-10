@@ -25,7 +25,7 @@ return false;
 setActivityResult(true);
 ```
 
-```
+```Python
 //do stuff... uh oh
 setActivityResult(false);
 ```
@@ -42,7 +42,7 @@ setActivityResult(0.5);
 Notifications appear as real-time toasts in the lab client.
 
 ```Python
-sendLabNotification("A notification from Node.js!");
+sendLabNotification("A notification from Python!");
 ```
 
 ### Lab Variables
@@ -50,7 +50,7 @@ sendLabNotification("A notification from Node.js!");
 Lab variables are always string name/value pairs. Variable values are scoped to the lab instances and become avaialble within the lab instructions as well as subsequent script executions. 
 
 ```Python
-setLabVariable("myVariable1", "This was set by Node.js in the cloud!");
+setLabVariable("myVariable1", "This was set by Python in the cloud!");
 ```
 
 You can "receive" a variable in your script...
