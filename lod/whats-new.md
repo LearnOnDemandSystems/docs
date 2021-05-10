@@ -9,6 +9,48 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
 
+## **Released May 7, 2021**
+
+**Script Execution Engine**
+
+Our next generation Script Execution Engine, SEE is now available to power ABA automated activities and scripted Life Cycle Actions. This new engine allows LOD to expand into new scripting languages and also makes it easy for lab developers to add custom modules from select repositories. Languages will be available via a drop-down menu when authoring activities. Legacy options will still be available to run existing scripts already in place. In addition to running on virtual machines and containers, the following language combinations are now available:
+
+- C# .NET 5
+- C# .NET 5 | Azure.Core 1.13.0
+- node.js 14 | AWS SDK for JS 3
+- node.js 14.16.1
+- PS 7.1.3
+- PS 7.1.3 | AWS CLI 2.1.39
+- PS 7.1.3 | AWS.Tools 4.1.10.0
+- PS 7.1.3 | Az 5.7.0
+- PS 7.1.3 | Azure-CLI 2.22.1
+- Python 3.9.4
+- Python 3.9.4 | AWS Boto3 1.17.50
+- Python 3.9.4 | Azure SDK 1.13.0
+- PS 5.1 | AWSPowershell.netcore 4.1.3.0 (Legacy)
+- PS 5.1 | AzureRM 6.8.1 (Legacy)
+
+**Disable Compatibility Mode**
+
+HyperV Virtual Machines now can have Compatibility Mode disabled from the Advanced tab of the Edit Virtual Machine Profile page. Disabling Compatibility mode passes the flag limitProcessorFeatures=false to the hypervisor on Virtual Machine creation, allowing advanced instruction sets to be utilized by the guest Virtual Machine. Lab Profiles containing Virtual Machines with Compatibility Mode disabled cannot be migrated between hosts, and cannot utilize Virtual Machine Start States.
+
+Two permissions have been added to LOD to manage Compatibility Mode under Lab Development: Host Compatibility Edit Global and Host Compatibility Edit By Organization.
+
+**AWS**
+
+- Added Support for AWS Service Event Bridge Schema
+- Added Support for AWS Service SQS
+- Fixed a bug preventing labs from saving when an access key was added to a user account.
+
+**LOD Improvements and Fixes**
+
+- HTML5 gateway updated to allow sound recording via Chrome and Edge browsers.
+- Cloud automated activities can now set the activity's score by percentage.
+- Script Execution Engine no longer displays a cloud subscription chooser in Cloud Slice Subscription multi-subscription labs when a locally hosted virtual machine is selected as the script target.
+- The start state cache link will no longer be shown when the account viewing the lab profile page does not have the permissions necessary to modify the cached start state.
+- The LOD API service now returns ActivityGroupResults as part of the Lab Instance Details call. 
+
+
 ## **Released April 25, 2021**
 
 **Code Labs**
