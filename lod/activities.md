@@ -183,10 +183,9 @@ For more information about the available languages and which versions are suppor
     Set-LabVariable -Name firstName -Value John
     ```
 
-    You can "receive" a variable in your script:
+    You can "receive" a variable in your script: a variable set elsewhere in the lab, but we can use it in our script
 
     ```PowerShell
-    #a variable set elsewhere in the lab, but we can use it in our script
     $myVariable1 = "@lab.Variable(myVariable1)"
     ```
 
