@@ -245,6 +245,50 @@ For more information about the available languages and which versions are suppor
     const myVariable1 = "@lab.Variable(myVariable1)";
     ```
 
+<!--
+- **Setting Variables**
+
+    Prepend your command with the parameter defined in your function. In the example below the parameter is `param1`.
+
+    ```Python
+    def run(param1):
+        param1.setLabVariable('Name','John')
+        return True,'output shown to the user in lab instructions'
+    ```
+
+- **Sending Lab Notifications**
+
+    ```Python
+    def run(param1):
+        param1.sendLabNotification('message shown in the notification popup')
+        return True,'output shown to the user under the activity'
+    ```
+
+- **Custom Python Script**
+
+    Define your script inside of a Python function using the template below.
+
+    - **Template**
+
+    ```
+    def run(param1):
+        your command here
+        return Boolean,"output shown to the user in lab instruction"
+    ```
+
+    - **Example**
+    ```
+    def run(param1):
+        if 1 == 1:
+            outcome = True
+            outcomeText = '1 equals 1'
+        else:
+            outcome = False
+            outcomeText = 'Please check statement'
+        return outcome,outcomeText
+    ```
+-->
+
 #### JavaScript
 
 - **Return a Boolean value**
