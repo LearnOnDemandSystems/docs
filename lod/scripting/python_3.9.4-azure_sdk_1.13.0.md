@@ -35,9 +35,7 @@ For details working with the Azure SDK for Python, please see Microsoft's docume
 
 Your scripts can communicate success or failure to LOD in one of two ways.
 
-### Return a boolean value 
-
-At its simplest...
+### Return a Boolean value 
 
 ```Python
 #do stuff... all good

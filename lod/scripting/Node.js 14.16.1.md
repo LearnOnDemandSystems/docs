@@ -1,4 +1,4 @@
-#Node.js 14.16.1 with AWS SDK for JavaScript 3.13.1
+# Node.js 14.16.1
 
 This script execution environment is running Node.js 14.16.1 and AWS SDK for JavaScript 3.13.1.
 
