@@ -8,6 +8,22 @@ isPublished: true
 
 With the Life Cycle Actions (LCA) feature, LOD is able to execute actions when specific events occur during the lab instance life cycle. 
 
+
+* [Life Cycle Actions Management](#life-cycle-actions-management)
+  + [Child Lab Profile LCA inheritance](#child-lab-profile-lca-inheritance)
+* [Life Cycle Configuration](#life-cycle-configuration)
+* [Send Web Request](#send-web-request)
+  + [Lab data can be appended to the URL](#lab-data-can-be-appended-to-the-url)
+  + [Web Requests have multiple verb options](#web-requests-have-multiple-verb-options-)
+  + [Headers](#headers)
+* [Send Notification to User](#send-notification-to-user)
+* [Send E-mail to user](#send-e-mail-to-user)
+* [Execute Machine Command](#execute-machine-command)
+* [Execute Cloud Platform Command](#execute-cloud-platform-command)
+  + [Azure](#azure)
+  + [AWS](#aws)
+* [Execute Custom Script](#execute-custom-script)
+
 ## Life Cycle Actions Management
 
 Once you have added Life Cycle Actions to your lab, they will be listed on the Life Cycle tab of the lab profile, organized by event. If there is more than one LCA per Event, they can be arranged in the order they should execute when the Event happens. 
@@ -34,6 +50,7 @@ First, decide what type of action should be executed, then decide when that acti
 - **[Execute Script in Virtual Machine:](#execute-machine-command)** sends a PowerShell or Shell command to a virtual machine.
 - **[Execute Script in Container:](#execute-machine-command)** sends a Bash command to a container.
 - **[Execute Script in Cloud Platform:](#execute-cloud-platform-command)** sends a PowerShell command to the cloud platform.
+- [Execute Custom Script](#execute-custom-script)
 
 **Life Cycle Events include**:
 
@@ -130,22 +147,55 @@ Multiple commands types are available:
 
 ## Execute Cloud Platform Command
 
-Cloud Platform commands are used to target a cloud platform such as Microsoft Azure or Amazon Web Services with a PowerShell <!--or Python --> command. 
+Cloud Platform commands are used to target a cloud platform such as Microsoft Azure or Amazon Web Services with a PowerShell, Python, C# or JavaScript command. 
 
-<!--
-Select the Cloud Execution Type: 
+Along with traditional syntax, there is additional syntax that can be used to interact with Lab on Demand. 
 
-- **Legacy PowerShell**: uses Azure RM 6.8.1 modules and PowerShell version 5.1.
-- **PowerShell**: uses PowerShell version 7.  
-    - **Azure**: Azure AZ 4.8.0
-    - **AWS**: AWSPowerShell.NetCore 4.1.7.0
-- **Python**: uses Python version 3.8
-    - **Azure**: AZ Cli 
-    - **AWS**: AWS Boto3
--->
+- Setting Lab Variables: sets a variable that can be recalled in subsequent lab instructions using @lab replacement tokens, as many times as necessary. 
+
+- Sending Lab Notifications: Sends a a popup notification to the lab, using the text specified in the syntax.
 
 Cloud Platform commands support Blocking, which allows you to block further execution of the lab life cycle until the action completes. You can use this to sequence actions that depend on each other. It is recommended to use the blocking feature if the script in the LCA will take very long to complete. 
 
 Cloud Platform commands also support @lab replacement tokens, that can be used in PowerShell <!-- or Python --> commands.
+
+Language options include: 
+
+### Azure
+
+- **Legacy PowerShell**: uses PowerShell version 5.1. 
+    - **Azure**: Azure RM 6.8.1.
+- **PowerShell**: uses PowerShell version 7.1.3.  
+    - **Azure**: 
+        - Azure AZ 5.7.0.
+        - Azure-CLI 2.22.1.
+- **Python**: uses Python version 3.9.4.
+    - **Azure**: AZ SKY 1.13.0.
+- **C#: (Azure Only**) uses C# .NET 5.
+    - **Azure**: Azure.Core 1.13.0.
+
+### AWS
+
+- **Legacy PowerShell**: uses PowerShell version 5.1. 
+    - **AWS**: AWSPowerShell.netcore 4.1.3.0.
+- **PowerShell**: uses PowerShell version 7.1.3.  
+    - **AWS**: 
+        - AWS CLI 2.1.39.
+        - AWS.Tools 4.1.10.0.
+- **Python**: uses Python version 3.9.4.
+    - **AWS**: AWS Boto3 1.17.50.
+- **JavaScript (AWS Only)**: uses node.js 14
+    - **AWS**: AWS SDK for JS 3
+
+
+## Execute Custom Script
+
+Scripts can be executed against a custom target, using a specific package for the selected language. Scripts can use packages that are hosted by supported package providers. 
+- PowerShell: [PowerShell Gallery](https://wwpowershellgallery.com/)
+- Python: [PyPi](https://pypi.org/)
+- JavaScript: [NPM](https://www.npmjs.com/)
+- C#: [Nuget](https://www.nuget.org/)
+
+For more information about the available languages, see our [Lab on Demand Scripting documentation](scripting-home.md).
 
 [Back to top](#life-cycle-actions)

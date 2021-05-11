@@ -6,9 +6,7 @@
 
 Your scripts can communicate success or failure to LOD in one of two ways.
 
-### Return a boolean value 
-
-At its simplest...
+### Return a Boolean value 
 
 ```PowerShell
 //do stuff... all good
@@ -57,7 +55,7 @@ Set-LabVariable -Name firstName -Value John
 
 You can "receive" a variable in your script...
 
-```JavaScript
+```PowerShell
 #a variable set elsewhere in the lab, but we can use it in our script
 $myVariable1 = "@lab.Variable(myVariable1)"
 ```
