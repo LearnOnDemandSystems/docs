@@ -243,6 +243,7 @@ For more information about the available languages and which versions are suppor
     ```Python
     #a variable set elsewhere in the lab, but we can use it in our script
     const myVariable1 = "@lab.Variable(myVariable1)";
+    ```
 
 #### JavaScript
 
