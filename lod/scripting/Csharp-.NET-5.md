@@ -4,9 +4,7 @@
 
 Your scripts can communicate success or failure to LOD in one of two ways.
 
-### Return a boolean value 
-
-At its simplest...
+### Return a Boolean value 
 
 ```C#
 //do stuff... all good

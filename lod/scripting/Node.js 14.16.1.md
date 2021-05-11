@@ -40,9 +40,7 @@ Your environment will be configured with your lab's AWS account credentials. In 
 
 Your scripts can communicate success or failure to LOD in one of two ways.
 
-### Return a boolean value 
-
-At its simplest...
+### Return a Boolean value 
 
 ```JavaScript
 //do stuff... all good

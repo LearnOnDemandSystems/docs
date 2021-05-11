@@ -6,9 +6,7 @@ This script execution environment is running Node.js 14.16.1.
 
 Your scripts can communicate success or failure to LOD in one of two ways.
 
-### Return a boolean value 
-
-At its simplest...
+### Return a Boolean value 
 
 ```JavaScript
 //do stuff... all good
