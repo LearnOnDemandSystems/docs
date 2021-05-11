@@ -45,11 +45,11 @@ First, decide what type of action should be executed, then decide when that acti
 **Life Cycle Actions include**:
 
 - **[Send a web request:](#send-web-request)** sends a web request to the URL specified. The URL can optionally contain placeholders that will be replaced by live data, with @lab replacement tokens.
-- **[Send a notification to the user:](#send-notification-to-user)**  sends a notification to the user during the specified event.
-- **[Send an email to the user:](#send-e-mail-to-user)** sends an email to the user during the specified event.
-- **[Execute Script in Virtual Machine:](#execute-machine-command)** sends a PowerShell or Shell command to a virtual machine.
-- **[Execute Script in Container:](#execute-machine-command)** sends a Bash command to a container.
-- **[Execute Script in Cloud Platform:](#execute-cloud-platform-command)** sends a PowerShell command to the cloud platform.
+- [Send a notification to the user:](#send-notification-to-user)  sends a notification to the user during the specified event.
+- [Send an email to the user:](#send-e-mail-to-user) sends an email to the user during the specified event.
+- [Execute Script in Virtual Machine:](#execute-machine-command) sends a PowerShell or Shell command to a virtual machine.
+- [Execute Script in Container:](#execute-machine-command) sends a Bash command to a container.
+- [Execute Script in Cloud Platform:](#execute-cloud-platform-command) sends a PowerShell command to the cloud platform.
 - [Execute Custom Script](#execute-custom-script)
 
 **Life Cycle Events include**:
