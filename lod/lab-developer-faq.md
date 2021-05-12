@@ -15,7 +15,7 @@ If you are new to lab development and the Lab on Demand platform, the following 
 
 - [How do I create a Lab Series?](lab-series.md)
 - 
-- [How do I create a Lab Profile?](feature-focus/lab-profiles/create.md)
+[How do I create a Lab Profile?](feature-focus/lab-profiles/create.md)
 
 - [How do I create Lab Profile from a Template](template-gallery.md)
 
