@@ -9,7 +9,7 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other Learn on Demand Systems platforms?</a></span>
 
-## <u>**Released May 7, 2021**<u/>
+## **Released May 7, 2021**
 
 **Script Execution Engine**
 
