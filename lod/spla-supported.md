@@ -1,5 +1,5 @@
 ---
-title: "SPLA Support Software"
+title: "SPLA Supported Software"
 description: "Supported products and the conditions within Learn on Demand Systems implementation of the SPLA program."
 isPublished: true
 ---
