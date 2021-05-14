@@ -100,7 +100,7 @@ Automated activities can also use variables set by a life cycle action, as long 
 
 Automated Activities support PowerShell Windows Command Shell, and Bash. Cloud Subscriptions must be targeted by a PowerShell script, and Windows-based virtual machines running on Hyper-V can be targeted by PowerShell or Windows Command  Shell. Linux-based VMs running Hyper-V or VMware can be targeted by Bash. 
 
->![knowledge] Enabling Bash scripting or terminal connections will not take effect on running lab instances, users will have to relaunch their lab.
+>[!knowledge] Enabling Bash scripting or terminal connections will not take effect on running lab instances, users will have to relaunch their lab.
 
 ### Automated Activity Syntax
 
