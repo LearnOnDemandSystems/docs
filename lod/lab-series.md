@@ -32,6 +32,8 @@ To create a Lab series, click **Create Lab Series** on the Lab Series tile, on t
 
 1. **Enabled**: Check this box to enable the Lab Series. If this box is left unchecked, the Lab Series will not be available to users.
 
+1. **Automatically Disable**: The date that the lab series can be set to be disabled. A disabled series is not accessible via API and the labs within cannot be launched.
+
 ## Limits
 
 1. **Max RAM Usage**: The maximum amount of RAM that can be used in the Lab Series, across all lab launches. Once this limit is reached, users will not be able to launch labs until another user closes their lab.
@@ -52,9 +54,3 @@ To create a Lab series, click **Create Lab Series** on the Lab Series tile, on t
 For organizations that have proprietary content, an option is available to designate a person to have the permission to publish a lab series to the respective API consumer. After an organization designates someone to publish to their API, future requests to Learn on Demand Systems to publish a lab series will be a billable service. Permission to publish to the API consumer will be provided on-request from an administrator of the organization. 
 
 1. Select the API Consumer to publish the Lab Series to. This will allow the lab profiles aligned with this lab series to be available for consumption via the chosen API.
-
-1. Select the API Consumer to publish the Lab Series to. This will allow the lab profiles aligned with this lab series to be available for consumption via the chosen API.
-
-
-
----------
