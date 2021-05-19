@@ -1,5 +1,17 @@
 # Python 3.9.4 with AWS Boto3 1.17.50
 
+## Using Python Import Keyword
+
+The `import` keyword is used to import modules.
+
+```Python
+#Import the datetime module and display the current date and time
+import datetime
+
+x = datetime.datetime.now()
+print(x)
+```
+
 ## Interacting with Lab on Demand
 
 Your scripts can communicate success or failure to LOD in one of two ways.
