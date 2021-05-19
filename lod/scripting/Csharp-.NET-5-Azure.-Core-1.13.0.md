@@ -15,6 +15,24 @@ For details working with the Azure SDK for .NET, please see Microsoft's document
  - [Use the Azure libraries (SDK) for .NET](https://docs.microsoft.com/en-us/dotnet/azure/sdk/azure-sdk-for-dotnet)
  - [.NET API Browser](https://docs.microsoft.com/en-us/dotnet/api/?view=azure-dotnet) 
 
+## Using Directives
+
+C# scripts in Lab on Demand can use the `Using` directive at the beginning of a script, to help simplify your code. 
+
+```C#
+//To allow the use of types in a namespace so that you do not have to qualify the use of a type in that namespace:
+using System.Text;
+```
+
+```C#
+//To allow you to access static members and nested types of a type without having to qualify the access with the type name.
+using static System.Math;
+```
+
+```C#
+//To create an alias for a namespace or a type. This is called a using alias directive.
+using Project = PC.MyCompany.Project;
+
 ## Interacting with Lab on Demand
 
 Your scripts can communicate success or failure to LOD in one of two ways.

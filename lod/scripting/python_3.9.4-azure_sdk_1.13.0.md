@@ -31,6 +31,18 @@ For details working with the Azure SDK for Python, please see Microsoft's docume
  - [Use the Azure libraries (SDK) for Python](https://docs.microsoft.com/en-us/azure/developer/python/azure-sdk-overview)
  - [Python API Browser](https://docs.microsoft.com/en-us/python/api/?view=azure-python) 
 
+## Using Python Import Keyword
+
+The `import` keyword is used to import modules.
+
+```Python
+#Import the datetime module and display the current date and time
+import datetime
+
+x = datetime.datetime.now()
+print(x)
+```
+
 ## Interacting with Lab on Demand
 
 Your scripts can communicate success or failure to LOD in one of two ways.
