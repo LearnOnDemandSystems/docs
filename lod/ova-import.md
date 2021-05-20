@@ -13,6 +13,7 @@ Virtual machine (VM) profiles can be created by importing an OVA file into a lab
 - [Uploading an OVA File](#uploading-an-ova-file)
     - [Organization Storage](#organization-storage)
 - [Importing an OVA File as a VM ](#importing-an-ova-file-as-a-vm)
+    - [Import Limitations](#import-limitations)
     - [Lab Profile](#lab-profile)
 
 ## Uploading an OVA File
@@ -51,6 +52,22 @@ After the file finishes uploading, it will be available to import as a VM on lab
 
 The VM will be created by importing the OVA file on the lab profile. Importing requires your user account to have the proper permissions to edit and import lab profiles. If you do not have the proper permissions, or if you are unsure if you have the proper permissions, please reach out to our [customer support team](http://www.learnondemandsystems.com/customer-support/).
 
+### Import Limitations
+
+OVA templates provide a standardization on importing into compatible platforms. 
+
+- Uploading large file sizes may result in upload failure. 
+
+- OVA templates can only be imported if they were exported from a VMware product. Exports from other products are not supported. 
+
+- If an OVA template contains multiple virtual machines, it cannot be imported. Only single virtual machine OVA templates are supported. 
+
+- OVA templates that have been customized with custom virtual machine properties are not supported. 
+
+- OVA templates that contain additional files such as NVRAM, ISO, floppy disk, etc, will not be imported. These additional files may cause the import to fail.
+
+- OVA templates with video RAM greater than 64 MB is not supported. 
+
 ### Lab Profile
 
 1. Navigate to the lab profile you wish to import the VM to. 
@@ -68,7 +85,7 @@ The VM will be created by importing the OVA file on the lab profile. Importing r
 1. On the next screen you will be asked to enter information about the VM that will be imported. 
 
     - **Name**: The name of the VM profile. 
-    - **Username**: The login username for the VM. This must match the username of the VM before it was exported to OVA formatx.  
+    - **Username**: The login username for the VM. This must match the username of the VM before it was exported to OVA format.  
     - **Password**: The login password for the VM. This must match the password of the VM before it was exported to OVA format.  
     - **Start Automatically**: Enables the VM to start automatically when the lab is launched. If this is not enabled, the VM will not start automatically and the user will have to manually start the VM. 
 
