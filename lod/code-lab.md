@@ -70,7 +70,7 @@ The Code Lab Client consists of 9 parts:
 
 1. Custom Tests - Students have the ability to add custom tests to each Code Lab.  These will be evaluated on submit.
 
-17) Instructions - Standard Lab Profile instructions.
+1. Instructions - Standard Lab Profile instructions.
 
 
 ## Language Settings
