@@ -5,7 +5,6 @@
 ### Accessibility Items
 In our continuing effort to improve accessibility for all our students and meet MAS standards we have updated the Course Catalog page:
 *	On the ‘Course Catalog’ page, at 200% zoom mode, the user profile menu and notification icon no longer disappear.
-*	On the ‘Course Catalog’ page, resizing the page at 400%, the horizontal scroll bar no longer appears on the page.
 
 ### Enhancements and Fixes
 * Lab Activities - Status and Scoring Fields: On the Organization Preference tab, we have added a ‘Show Activity Status and Score on activities listings’ checkbox for Course Assignment / Class Enrollment. This will allow an organization to hide the Status and Score fields for all lab activities and the feature will be enabled by default.
