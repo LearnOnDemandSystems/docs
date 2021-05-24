@@ -40,11 +40,11 @@ Selecting the Code Lab icon will launch the Code Labs Settings dialog.
 ![](images/codelabs/3_cl_admin_empty.png){700}
 
 The Code Lab Settings consist of 5 parts:
- 1) Add supported languages to your Code Lab
- 2) Manage settings for languages
- 3) Add test inputs
- 4) Add tests the will run in the Code Lab Client
- 5) Manage Code Lab Tests
+ 1. Add supported languages to your Code Lab
+ 1. Manage settings for languages
+ 1. Add test inputs
+ 1. Add tests the will run in the Code Lab Client
+ 1. Manage Code Lab Tests
 
 ## Code Lab Client
 
@@ -54,15 +54,23 @@ The Code Lab client is the student facing side of Code Labs.  The Client is a si
 
 The Code Lab Client consists of 9 parts:
 
-1) The Code Language Selector - Used by the student to choose which language they prefer to use for the Code Lab.  These reflect the languages added to in the Code Lab Settings.
-2) Reset - This will reset any student code to the original template set up in Code Lab Settings.
-3) Submit - This will run any code entered by the student, and compare the result in Tests and Custom Tests
-4) IDE - A simplified IDE.  This will populate with the initial Code Lab Language Template, and students can edit code in this area.
-5) Output - All program output will show here.
-6) Errors - Any program errors will show here.
-7) Tests - All tests added in the Code Lab Settings will show here, and be evaluated on submit.
-8) Custom Tests - Students have the ability to add custom tests to each Code Lab.  These will be evaluated on submit.
-9) Instructions - Standard Lab Profile instructions.
+1. The Code Language Selector - Used by the student to choose which language they prefer to use for the Code Lab.  These reflect the languages added to in the Code Lab Settings.
+
+1. Reset - This will reset any student code to the original template set up in Code Lab Settings.
+
+1. Submit - This will run any code entered by the student, and compare the result in Tests and Custom Tests
+
+1. IDE - A simplified IDE.  This will populate with the initial Code Lab Language Template, and students can edit code in this area.
+
+1. Output - All program output will show here.
+
+1. Errors - Any program errors will show here.
+
+1. Tests - All tests added in the Code Lab Settings will show here, and be evaluated on submit.
+
+1. Custom Tests - Students have the ability to add custom tests to each Code Lab.  These will be evaluated on submit.
+
+1. Instructions - Standard Lab Profile instructions.
 
 
 ## Language Settings
