@@ -748,7 +748,7 @@ It's also possible to simply supply the width: {width}. In this case, the height
         ![](../../lod/images/password-in-lab-instruction-editor.png)
 
     - Defining the password as a variable in the lab from the student view: 
-    - 
+    
         ![](../../lod/images/masked-textbox-empty.png)
 
     - The student enters their password into the Masked textbox in the lab instructions: 
