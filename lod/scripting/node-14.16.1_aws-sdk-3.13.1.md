@@ -73,7 +73,7 @@ setActivityResult(0.5);
 
 ### Send a Notification to the User
 
-Notifications appear as real-time toasts in the lab client.
+Notifications appear as real-time toast notification in the lab client.
 
 ```JavaScript
 sendLabNotification("A notification from Node.js!");
