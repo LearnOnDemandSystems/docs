@@ -56,7 +56,7 @@ Set-ActivityResult -Percentage .5 -Message "You received half credit"
 
 ### Send a Notification to the User
 
-Notifications appear as real-time toasts in the lab client.
+Notifications appear as real-time toast notification in the lab client.
 
 ```C#
 Send-LabNotification 'Hello from Azure CLI'
