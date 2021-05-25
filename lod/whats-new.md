@@ -14,7 +14,7 @@
 
 **IDLx**
 
-- IDLx variable assignment now supports a new password textbox. The textbox can be created in IDLx via the @lab token @lab.TextBoxPassword(Name). Text entered into the box will be obscured from the user, and will be assigned to the lab variable Name.
+- IDLx variable assignment now supports a new password textbox. The textbox can be created in IDLx via the @lab token @lab.MaskedPassword(Name). Text entered into the box will be obscured from the user, and will be assigned to the lab variable Name.
 - Fixed an issue preventing IDLx replacement tokens with repeated special characters from displaying properly.
 
 **Nested Virtualization**
