@@ -1,7 +1,18 @@
 # What's New in the TMS
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a> 
+## <u>Released May 24, 2021</u>
+### Accessibility Items
+In our continuing effort to improve accessibility for all our students and meet MAS standards we have updated the Course Catalog page:
+*	On the ‘Course Catalog’ page, at 200% zoom mode, the user profile menu and notification icon no longer disappear.
 
+### Enhancements and Fixes
+* Lab Activities - Status and Scoring Fields: On the Organization Preference tab, we have added a ‘Show Activity Status and Score on activities listings’ checkbox for Course Assignment / Class Enrollment. This will allow an organization to hide the Status and Score fields for all lab activities and the feature will be enabled by default.
+* API – SearchClubs: We have fixed the API results from listing archived courses.
+* Disabled Organization Text: On the Organization profile page, ‘Temporarily’ is removed from the text for disabled organizations.
+* Notification Replacement Text - [ClassStartTimeLocal] and [ClassEndTimeLocal]:  We have fixed an issue with the replacement text values of [ClassStartTimeLocal] and [ClassEndTimeLocal] from inheriting the browser language setting when a notification is triggered by the UI.
+* Course Assignments – Activities Complete: Completed required lab activities within sections now calculates the correct percentage.  
+----------------------------
 ## <u>Released May 6, 2021</u>
 
 ### Simple Course Assignments
