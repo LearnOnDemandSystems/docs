@@ -24,7 +24,6 @@ Please visit our [customer support page](http://www.learnondemandsystems.com/cus
 |||
 |---|---|
 |**E-Mail** | sales@learnondemandsystems.com|
-|**Skype** | lodsales|
 |**Toll-free Phone** | +1 888-763-7730|
 |**Phone** | +1 727-264-1330|
 
