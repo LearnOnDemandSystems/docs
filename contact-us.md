@@ -17,7 +17,7 @@ Please visit our [customer support page](http://www.learnondemandsystems.com/cus
 |**Product Support Contacts**||**International Phone Numbers**|
 |Toll-free: +1 866-668-7505 || Australia: +61 1800-531-776|
 |Phone: +1 512-782-2243 || Canada +1 866-694-8215|
-|Skype ID: labondemand || Singapore: +65 800-852-6361|
+||| Singapore: +65 800-852-6361|
 |||United Kingdom +44 800-029-3469|
 
 ## Sales Support
