@@ -9,7 +9,25 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other Learn on Demand Systems platforms?</a></span>
 
-## <u>Released May 7, 2021</u>
+
+## **Released May 22, 2021**
+
+**IDLx**
+
+- IDLx variable assignment now supports a new password textbox. The textbox can be created in IDLx via the @lab token @lab.TextBoxPassword(Name). Text entered into the box will be obscured from the user, and will be assigned to the lab variable Name.
+- Fixed an issue preventing IDLx replacement tokens with repeated special characters from displaying properly.
+
+**Nested Virtualization**
+
+An option to allow a vSphere VM guests to know their virtualization status has been added to vSphere fabric virtual machine profiles.
+
+**LOD Improvements and Fixes**
+
+- An improvement to the batch operation efficiency of AWS Log transfer has been implemented.
+- Implemented compatibility mode for HyperV Gen1 virtual machines.
+- Fixed an issue causing Series Save As to not save the answers for multiple choice questions in IDLx.
+
+## **Released May 7, 2021**
 
 **Script Execution Engine**
 
