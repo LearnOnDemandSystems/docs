@@ -225,9 +225,11 @@ Available channels include:
 
     For more information about setting a custom UUID, read [Custom UUID Documentation](/lod/uuid.md).
 
-- **Allow Disk Updates in Lab console**: This must be enabled for differencing disk capture or start states on the VM, in a lab.
+- **Allow Updates in Lab Client**: This must be enabled for differencing disk capture or start states on the VM, in a lab.
 
-- **Connect via Remote Desktop Connection (external to lab console)**: allows the VM to be connected to by an RDP connection. This is used in conjunction with the _Has Virtual Machines Pool_ checkbox on the Virtual Machines tab of a lab profile. A VM profile is required for each concurrent user, otherwise each user will receive the same RDP file and only 1 user will be able to connect to the VM at a time. 
+- **Connect via Remote Desktop Connection (external to lab client)**: allows the VM to be connected to by an RDP connection. This is used in conjunction with the _Has Virtual Machines Pool_ checkbox on the Virtual Machines tab of a lab profile. A VM profile is required for each concurrent user, otherwise each user will receive the same RDP file and only 1 user will be able to connect to the VM at a time. 
+
+- **Enable Host Compatibility**: Turning off host compatibility will give you access to the most recent CPU instructions sets. Disabling Host Compatibility prevents use of Start States and the ability to move virtual machine between hosts, which reduces the available host pool. Only supported for Hyper-V (Sets "limitProcessorFeatures" flag to Off). Host Compatibility is enabled by default. 
 
 ### Internal Notes
 

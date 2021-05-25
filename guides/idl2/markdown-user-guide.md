@@ -306,25 +306,45 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
   - Defining Variable in lab instruction editor view:
   
-   ![](../../lod/images/variables-in-lab-instruction-editor.png)
+      ![](../../lod/images/variables-in-lab-instruction-editor.png)
   
-    - Defining Variable in lab from Student view in the lab:
+  - Defining Variable in lab from Student view in the lab:
   
-   ![](../../lod/images/variables-in-lab.png)
+      ![](../../lod/images/variables-in-lab.png)
   
-    - The student enters their password in the lab:
+  - The student enters their password in the lab:
   
-    ![](../../lod/images/variables-enter-password.png)
+      ![](../../lod/images/variables-enter-password.png)
   
-   The password is recalled in later lab steps using the Replacement Token below
+  The password is recalled in later lab steps using the Replacement Token below
   
-    - Calling Variable in lab instruction editor view:
+  - Calling Variable in lab instruction editor view:
    
-    ![](../../lod/images/variables-callback-variable-instruction-editor.png)
+      ![](../../lod/images/variables-callback-variable-instruction-editor.png)
   
-    - Calling Variable in lab from Student view in the lab:
+  - Calling Variable in lab from Student view in the lab:
   
-    ![](../../lod/images/variables-callback-variable-in-lab.png)
+      ![](../../lod/images/variables-callback-variable-in-lab.png)
+
+- **Masked Textbox**: Alternatively, you could use **&commat;MaskedTextBox (name)** to store the user's password and define the variable in the (name), and then use &commat;lab.Variable(name) to recall the password later in lab instructions, or in automated activities. 
+
+    > [!knowledge] Masked Textboxes only obscures the text of the password from view. It does not encrypt the text that is entered into the textbox.
+    
+    - Defining the password as a variable in the lab instruction editor view: 
+
+        ![](../../lod/images/password-in-lab-instruction-editor.png)
+
+    - Defining the password as a variable in the lab from the student view: 
+    
+        ![](../../lod/images/masked-textbox-empty.png)
+        
+    - The student enters their password into the Masked textbox in the lab instructions: 
+
+        ![](../../lod/images/masked-textbox.png)
+
+    - The password is recalled in later lab steps using the Replacement Token below:
+
+        ![](../../lod/images/masked-textbox-callback-password-in-lab.png)
 
 - **Knowledge Block:** Used to provide additional information, to help students better understand lab steps or lab content. Knowledge blocks are limited to only show 4 lines of the lab content. After 4 lines, a _more_ link will be shown, allowing the student to expand the knowledge block and review additional information.
 

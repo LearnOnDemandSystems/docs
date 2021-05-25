@@ -38,6 +38,10 @@
         <div class="subtopic_title">AWS Lab Authoring </div>
         <div class="subtopic_description">Authoring a lab profile that uses AWS cloud technologies.</div>
       </a>
+      <a class="subtopic_link" href="/lod/aws-permission-boundary.md">
+        <div class="subtopic_title">AWS Permission Boundaries</div>
+        <div class="subtopic_description">Following the principle of least privilege, the permissions boundary ensures that users you create have only the permissions they require to perform lab tasks.</div>
+      </a>
       <a class="subtopic_link" href="/lod/aws-virtualization.md">
         <div class="subtopic_title">AWS Virtualization</div>
         <div class="subtopic_description">Upload a VHD to AWS and create a VM profile.</div>
@@ -182,6 +186,10 @@
         <div class="subtopic_title">Introduction to Lab on Demand UI</div>
         <div class="subtopic_description">Explanation of Lab on Demand UI.</div>
       </a>
+      <a class="subtopic_link" href="/lod/lab-developer-faq.md">
+        <div class="subtopic_title">Lab Developer FAQ</div>
+        <div class="subtopic_description">Frequently asked questions to assist lab developers.</div>
+      </a>
       <a class="subtopic_link" href="/lod/lod-lab-developers/lab-instance-sharing.md">
         <div class="subtopic_title">Lab Instance Sharing</div>
         <div class="subtopic_description">Lab Instance Sharing allows multiple users to work together in a lab profile at the same time. </div>
@@ -205,6 +213,10 @@
       <a class="subtopic_link" href="/lod/pbt/overview.md">
         <div class="subtopic_title">Lab on Demand Scoring</div>
         <div class="subtopic_description">The Lab on Demand platform supports the ability to score users either in an exam/quiz format or within a hands-on lab.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/scripting-home.md">
+        <div class="subtopic_title">Lab on Demand Cloud Script Execution</div>
+        <div class="subtopic_description">Scripting language syntax for interacting with Lab on Demand and Cloud providers.</div>
       </a>
       <a class="subtopic_link" href="/lod/lab-profile-cloning.md">
         <div class="subtopic_title">Lab Profile Cloning</div>
@@ -269,6 +281,10 @@
       <a class="subtopic_link" href="/guides/sl/sharedlabs.md">
         <div class="subtopic_title">Shared Labs (a.k.a. Cyber-Range)</div>
         <div class="subtopic_description">Configure a Shared Lab environment.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/spla-supported.md">
+        <div class="subtopic_title">SPLA Supported Software</div>
+        <div class="subtopic_description">Supported products and the conditions within Learn on Demand Systems implementation of the SPLA program.</div>
       </a>
       <a class="subtopic_link" href="/lod/terminal-access.md">
         <div class="subtopic_title">SSH Terminal Access</div>

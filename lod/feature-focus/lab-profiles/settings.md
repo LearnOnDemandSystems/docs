@@ -21,7 +21,8 @@
 1. **Name:** This will be the display name of the lab profile.
 1. **Series:** Select the lab series that the lab profile will be associated with.
 1. **Organization:** Select the organization that will own the lab profile and be responsible for maintaining the profile. 
-1. **Virtualization Platform:** Select the virtualization platform that the lab profile will use. (Hyper-V, vSphere or none.) Selecting _None_ will cause the lab profile to use the Cloud Client. 
+1. **Virtualization Platform:** Select the virtualization platform that the lab profile will use. (Hyper-V, vSphere, Azure, AWS, Docker or none.) Selecting _None_ will cause the lab profile to use the Cloud Client. 
+1. **Code Lab Fabric**: 
 1. **Parent:** A lab can optionally inherit some properties from a parent lab profile. Both the virtual environment (virtual machines, virtual networks, etc) can be inherited, as well as resources and content (manuals, scenario, objective, exercises, tasks, etc). Changes to the parent lab profile will be reflected in instances of this lab.
 1. **Storage Reservation Per Instance:** This is the amount of storage that the lab scheduler will ensure is available before an instance of this lab is Launched on a lab host server. 
 1. **Development Status:** Used to show lab profile development status. (In Development, Awaiting Verification, In Verification, Verification Failed, Complete.) Lab profiles in _Complete_ Development Status will be available for use, other development status' will only be available to registered lab developers. 
@@ -247,8 +248,6 @@ To use network features, such as external internet access or communication betwe
 
     - **Stock Level:** enter the minimum amount of labs to be pre-instanced at any given time. 
 
-    - **Datacenters:** select which datacenters where the lab instances will be pre-instanced. 
-
     - **Follow-Up:** allows subsequent batches to be scheduled, following the completion of the current batch.
 
 ## Life Cycle
@@ -294,26 +293,6 @@ There are additional settings that can **optionally** be configured:
 
 
 For more information about Action and Event types, please see our [guide](/lod/life-cycle-actions.md)
-
-## Availability
-
-This section specifies where the files for the lab profile should be stored. 
-
-1. **Inherit storage settings from organization:** Checking this box enables the lab profile to inherit storage settings from the organization specified on the Basic Information section.
-
-Unchecking **Inherit storage settings from organization** box will enable additional options.
-
-1. **Storage Loading Priority:** This will set the priority level of loading files into storage. There are multiple levels of priority; *Low, Normal and High*. If there is no priority preference, select _Disabled_.
-
-1. **Datacenter Availability:** Select the datacenter(s) that the lab profile will be available to launch from. 
-
-<!--
-Labs can be launched from the following datacenters:
-   - AU East - located in Eastern Australia
-   - External - files are stored in an external system and are used by labs that require the IDLx Cloud Client.
-   - US West - located in Western United States
-   - US East - located in Eastern United States
--->
 
 ## Tags
 
@@ -376,6 +355,10 @@ Labs can be launched from the following datacenters:
 1. **Publish to Organization Template Gallery:** when enabled, this lab profile will be available as a new lab profile template within the organization template gallery. 
 
 1. **Publish to Public Template Gallery:** when enabled, this lab profile will be available as a new lab profile template within the public template gallery. 
+
+1. **Enable virtual machine instance RAM/vCPU editing**: When this feature is enabled, an option will be available to users in the lab client to edit the amount of RAM and number of vCPU for individual virtual machines in the lab instance. Note these VM changes are isolated to the current lab instance and are not committed to the lab profile. Also note the user will have to have the _Edit Virtual Machine Instance RAM/vCPU_ permission with the lab client. 
+
+1. **Record RDP Session**: When this is enabled, RDP sessions for a lab instance will be recorded. Recordings can later be viewed in the lab instance details page. 
 
 ### Shared Class Environment
 

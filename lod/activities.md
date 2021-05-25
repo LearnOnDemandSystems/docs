@@ -119,51 +119,133 @@ Automated Activities are PowerShell Windows command Shell Shell scripts that tar
 
 ### Automated Activity Syntax
 
-Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there is additional syntax that can be used. 
+Along with traditional syntax, there is additional syntax that can be used to interact with Lab on Demand.
 
 - Setting Lab Variables: sets a variable that can be recalled in subsequent lab instructions using @lab replacement tokens, as many times as necessary. 
 
 - Sending Lab Notifications: Sends a a popup notification to the lab, using the text specified in the syntax.
 
-- Scoring: used to determine how much of the score value the lab user will receive for the activity. This can be used to award partial score values for the automated activity. The partial score is dictated by a numerical value in the syntax, that represents the percentage of the score value that will be awarded. For Windows Command Shell and Bash, you can also display a message in the lab instructions with text specified scoring syntax.
+- Scoring: used to determine how much of the score value the lab user will receive for the activity by setting the Activity result. This can be used to award partial score values for the automated activity. The partial score is dictated by a numerical value in the syntax, that represents the percentage of the score value that will be awarded. For Windows Command Shell and Bash, you can also display a message in the lab instructions with text specified scoring syntax.
+
+    - [PowerShell Syntax](#powershell)
+    - [Python Syntax](#python)
+    - [JavaScript Syntax](#JavaScript)
+    - [C# Syntax](#C#)
+
+For more information about the available languages and which versions are supported, see our [Lab on Demand Scripting documentation](scripting-home.md).
 
 #### **PowerShell** 
 
-- **Setting Variables**
-    
-    `Set-LabVariable -Name firstName -Value John`
+- **Return a Boolean value**
 
-    `Set-LabVariable -Name lastName -Value Smith`
+    ```PowerShell
+    //do stuff... all good
+    return true
+    ```
 
-- **Sending Lab Notifications**
+    ```PowerShell
+    //do stuff... uh oh
+    return false
+    ```
 
-    `Send-LabNotification -Message "Hello from a script"`
+- **Use setActivityResult**
 
-- **Scoring**
+    ```PowerShell
+    //do stuff... all good
+    Set-ActivityResult -Correct
+    ```
 
-    `Set-ActivityResult .5 -Correct`
+    ```
+    //do stuff... uh oh
+    Set-ActivityResult -Incorrect
+    ```
 
-#### **Windows Command Shell and Bash**
+    You can also report the result as a score percentage:
 
-- **Setting Variables**
-    
-    `set_lab_variable "firstname" "John"`
+    ```PowerShell
+    //do stuff... we want to report success and set the score value as 50%
+    Set-ActivityResult -Score .5
+    ```
 
-    `set_lab_variable "lastname" "Smith"`
+- **Send a Notification to the User**
 
-- **Sending Lab Notifications**
+    Notifications appear as real-time toast notification in the lab client.
 
-    `send_lab_notification "Hello from a script"`
+    ```PowerShell
+    Send-LabNotification -Message "Hello from a script"
+    ```
 
-    `send_lab_notification "I hope you're doing well"`
+- **Lab Variables**
 
-- **Scoring**
+    Lab variables are always string name/value pairs. Variable values are scoped    to the lab instances and become avaialble within the lab instructions as   well as subsequent script executions. 
 
-    `set_activity_result .5 "good job!"`
+    ```PowerShell
+    Set-LabVariable -Name firstName -Value John
+    ```
 
-<!--
+    You can "receive" a variable in your script: 
+
+    ```PowerShell
+    #a variable set elsewhere in the lab, but we can use it in our script
+    $myVariable1 = "@lab.Variable(myVariable1)"
+    ```
+
 #### **Python**
 
+- **Return a Boolean value**
+
+    ```Python
+    //do stuff... all good
+    return true;
+    ```
+
+    ```Python
+    //do stuff... uh oh
+    return false;
+    ```
+- **Use setActivityResult**
+
+    ```Python
+    //do stuff... all good
+    setActivityResult(true);
+    ```
+
+    ```Python
+    //do stuff... uh oh
+    setActivityResult(false);
+    ```
+
+    You can also report the result as a score %...
+
+    ```Python
+    //do stuff... we want to report success and set the score value as 50%
+    setActivityResult(0.5);
+    ```
+
+- **Send a Notification to the User**
+
+    Notifications appear as real-time toast notification in the lab client.
+
+    ```Python
+    sendLabNotification("A notification from Python!");
+    ```
+
+- **Lab Variables**
+
+    Lab variables are always string name/value pairs. Variable values are scoped to the lab instances and become avaialble within the lab instructions as well as subsequent script executions. 
+
+    ```Python
+    setLabVariable("myVariable1", "This was set by Python in the cloud!");
+    ```
+
+    You can "receive" a variable in your script...
+
+    ```Python
+    #a variable set elsewhere in the lab, but we can use it in our script
+    const myVariable1 = "@lab.Variable(myVariable1)";
+    ```
+
+<!--
 - **Setting Variables**
 
     Prepend your command with the parameter defined in your function. In the example below the parameter is `param1`.
@@ -191,7 +273,7 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
     ```
     def run(param1):
         your command here
-        return boolean,"output shown to the user in lab instruction"
+        return Boolean,"output shown to the user in lab instruction"
     ```
 
     - **Example**
@@ -206,6 +288,118 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
         return outcome,outcomeText
     ```
 -->
+
+#### JavaScript
+
+- **Return a Boolean value**
+
+    ```JavaScript
+    //do stuff... all good
+    return true;
+    ```
+
+    ```JavaScript
+    //do stuff... uh oh
+    return false;
+    ```
+
+- **Use setActivityResult**
+
+    ```JavaScript
+    //do stuff... all good
+    setActivityResult(true);
+    ```
+
+    ```
+    //do stuff... uh oh
+    setActivityResult(false);
+    ```
+
+    You can also report the result as a score percentage:
+
+    ```JavaScript
+    //do stuff... we want to report success and set the score value as 50%
+    setActivityResult(0.5);
+    ```
+
+- **Send a Notification to the User**
+
+    Notifications appear as real-time toast notification in the lab client.
+
+    ```JavaScript
+    sendLabNotification("A notification from Node.js!");
+    ```
+
+- **Lab Variables**
+
+    Lab variables are always string name/value pairs. Variable values are scoped    to the lab instances and become avaialble within the lab instructions as well  as subsequent script executions. 
+
+    ```JavaScript
+    setLabVariable("myVariable1", "This was set by Node.js in the cloud!");
+    ```
+
+    You can "receive" a variable in your script:
+
+    ```JavaScript
+    #a variable set elsewhere in the lab, but we can use it in our script
+    const myVariable1 = "@lab.Variable(myVariable1)";
+    ```
+
+#### C#
+
+- **Return a Boolean value**
+
+    ```C#
+    //do stuff... all good
+    return true;
+    ```
+
+    ```C#
+    //do stuff... uh oh
+    return false;
+    ```
+
+- **Use setActivityResult**
+
+    ```C#
+    //do stuff... all good
+    #Set-ActivityResult -Correct -Message 'Nice job'
+    ```
+
+    ```C#
+    //do stuff... uh oh
+    #Set-ActivityResult -Correct -Message 'Please try again'
+    ```
+
+    You can also report the result as a score percentage.
+
+    ```C#
+    //do stuff... we want to report success and set the score value as 50%
+    Set-ActivityResult -Percentage .5 -Message "You received half credit"
+    ```
+
+- **Send a Notification to the User**
+
+    Notifications appear as real-time toast notification in the lab client.
+
+    ```C#
+    Send-LabNotification 'Hello from Azure CLI'
+    ```
+
+- **Lab Variables**
+
+    Lab variables are always string name/value pairs. Variable values are scoped    to the lab instances and become avaialble within the lab instructions as   well as subsequent script executions. 
+
+    ```C#
+    Set-LabVariable -Name 'firstName' -Value 'John'
+    ```
+
+    You can "receive" a variable in your script...
+
+    ```C#
+    #a variable set elsewhere in the lab, but we can use it in our script
+    var myVariable1 = "@lab.Variable(myVariable1)";
+    ```
 
 ### Automated Activity Creation
 
@@ -246,11 +440,58 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
 - **Incorrect answer feedback**: this will be displayed to the user upon entering or selecting a incorrect answer to a question. 
 
 - **Script 1**:
-    - **Target**: the virtual machine or cloud subscription that the script will target. Cloud subscriptions must be targeted by PowerShell, and virtual machines running on Hyper-V or VMware can be targeted by PowerShell or Windows Command Shell. Linux-based VMs running Hyper-V or VMware can be targeted by Bash.
-    - **Language**: the scripting language that will be used. PowerShell, Windows Command Shell, and Bash are supported. Enabling Bash scripting or terminal connections will not take effect on running lab instances, users will have to relaunch their lab.
-    <!--
-    - **Version**: **(Cloud subscription only)** select the scripting language version that the script will use. 
-    -->
+    - **Target**: The virtual machine, cloud subscription, or custom target that the script will target. 
+        - Cloud subscriptions can be targeted by PowerShell, Python, C# or JavaScript.
+        - virtual machines running on Hyper-V or VMware can be targeted by PowerShell or Windows Command Shell. 
+        - Linux-based VMs running Hyper-V or VMware can be targeted by Bash. 
+        - **Custom Target**: Scripts can be executed against a custom target, using specific package for the selected language. Scripts can use packages that are hosted by supported package providers. 
+
+            - PowerShell: [PowerShell Gallery](https://wwpowershellgallery.com/)
+            - Python: [PyPi](https://pypi.org/)
+            - JavaScript: [NPM](https://www.npmjs.com/)
+            - C#: [Nuget](https://www.nuget.org/)
+    
+            In the lab instructions, you can configure a custom target by doing the following: 
+
+            1. From the Activities menu, click **New Automated Activity**.
+            1. Complete the fields at the top of the dialog, and then **Scroll to the Script 1 section**. 
+            1. Select the **Target drop-down menu** and change it to **Custom**.
+            1. Select the **Language drop-down menu** and select the    **Language** that the script will use. 
+            1. On the next line, a button will appear to add a custom module    or package. The text on the button will reflect the language   selected and display the name of the supported package provider. Select **Click to add a module or package**.
+            1. **Enter the name of the package** exactly as it appears in the   package provider repository. 
+            1. **Enter the version** of the package you wish to use.
+            1. Next, **Enter the script** in the script field. 
+
+    - **Language**: the scripting language that will be used.Enabling Bash scripting or terminal connections will not take effect on running lab instances, users will have to relaunch their lab. Supported languages include: 
+        - Windows Command Shell (VM based labs)
+        - Bash (VM based labs)
+        - PowerShell (Azure, AWS and VM based labs)
+        - Python (Azure and AWS labs)
+        - C# (Azure only)
+        - JavaScript (AWS only) 
+
+        For more information about the available languages, see our [Lab on Demand Scripting documentation](scripting-home.md).
+    
+    - **Version**: **(Cloud subscription execution only)** select the scripting language version that the script will use. 
+
+        - **Legacy PowerShell**: uses PowerShell version 5.1. 
+            - **Azure**: Azure RM 6.8.1.
+            - **AWS**: AWSPowerShell.netcore 4.1.3.0.            
+        - **PowerShell**: uses PowerShell version 7.1.3.  
+            - **Azure**: 
+                - Azure AZ 5.7.0.
+                - Azure-CLI 2.22.1.
+            - **AWS**: 
+                - AWS CLI 2.1.39.
+                - AWS.Tools 4.1.10.0.
+        - **Python**: uses Python version 3.9.4.
+            - **Azure**: AZ SKY 1.13.0.
+            - **AWS**: AWS Boto3 1.17.50.
+        - **C#: (Azure Only**) uses C# .NET 5.
+            - **Azure**: Azure.Core 1.13.0.
+        - **JavaScript (AWS Only)**: uses node.js 14
+            - **AWS**: AWS SDK for JS 3
+
     - **Score Value**: the score value the student will receive for completing the Activity correctly. This score contributes to their overall score in the lab.
     - **Show Output To User**: this will show the output of the script to the user when enabled. If this is not enabled, the user will be shown the Correct Answer Feedback or the Incorrect Answer Feedback. 
     - **Enable**: check the box to enable the script. If the script is not enabled, it will not be executed in a Task list or during on-demand evaluation.

@@ -67,7 +67,7 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[Amazon SNS](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsns.html)|sns|supported|If a lab user creates an SNS subscription, but fails to verify it, the SNS subscription will be left in a pending state. Pending SNS subscriptions cannot be removed from an AWS account, thus may appear as residue in subsequent lab instances. Pending SNS subscriptions are automatically removed after 3 days.||
 |[Amazon Simple Systems Manager](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)|ssm|Supported||
 |[Amazon Simple Workflow Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsimpleworkflowservice.html)|swf|planned||
-|[Amazon SQS](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsqs.html)|sqs|planned||
+|[Amazon SQS](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsqs.html)|sqs|Supported||
 |[Amazon Sumerian](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsumerian.html)|sumerian|planned||
 |[Amazon Transcribe](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazontranscribe.html)|transcribe|planned||
 |[Amazon Translate](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazontranslate.html)|translate|planned||
@@ -142,6 +142,7 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[Elastic Load Balancing](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_elasticloadbalancing.html)|elasticloadbalancing|supported||
 |[Elastic Load Balancing V2](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_elasticloadbalancingv2.html)|elasticloadbalancing|supported||
 |[EventBridge](https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoneventbridge.html)|events|supported||
+|[EventBridge Schema](https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoneventbridgeschemas.html)|schemas|supported||
 |[Identity And Access Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_identityandaccessmanagement.html)|iam|supported||
 |[Manage Amazon API Gateway](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_manageamazonapigateway.html)|apigateway|supported||
 |[Single Sign-On](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)|sso|planned||

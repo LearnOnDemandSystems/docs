@@ -7,14 +7,24 @@ isPublished: true
 
 > Please be aware that functionality covered in this and linked articles may not be available to you.
 
+There are a couple of tools in the TMS you can use to register students. The the class roster is the one that lets you create multiple registrations all at once while the Create Multiple Enrollments tool lets you add enrollments to one or more classes for one or more students. Several different registration statuses exist to help you track whether the student should be granted access to a class.
 
-There are a couple of tools in the TMS you can use to register students. The the class roster is the one that lets you create multiple registrations all at once. Several different registration statuses exist to help you track whether the student should be granted access to a class.
+### Use Create Multiple Enrollments
+Using Create Multiple Enrollments has the flexibility to let you enroll one student in multiple classes, multiple students into one class, or multiple students into multiple classes. When creating multiple enrollments, successful and failed enrollments are listed after the registrations are saved; the tool checks if the user is already registered for a class or if there will be a schedule conflict, either of these conflicts will cause a registration to fail.
 
-To create multiple enrollments:
+1. On the **Admin** menu in the **Enrollments** group, click **Create Multiple Enrollments** to open the Enroll Students page.
+1. Click **Add Events** to open the class chooser.
+1. Input part of the name of a class you want in the **Name** field and click **Search** and select the class name in the search results, repeat until you have chosen all the classes you want to enroll all the students in, then click **OK**.
+1. Click **Add Students** to open the user chooser.
+1. Input part of the name of a student you want in the **Name** field and click **Search** and select the student's name in the search results, repeat until you have chosen all the students you want to enroll in all the classes you have selected, then click **OK**. 
+1. Registered students default to the Waitlisted status, change this to **Enrolled** as needed.
+1. Click **Save** and view the links to the completed enrollments and any failed enrollments at the bottom of the page.
+
+### To create multiple enrollments from the roster:
 
 1. On the **Admin** menu in the **Classes** group, click **Find Classes**. This opens the Find Classes page.
 1. Input part of the name of the class you want in the **Name** field and click **Search**.
-1.  Find the class in the search results, and on the class's row click the **Roster** link (the icon of 2 students) on the right. 
+1. Find the class in the search results, and on the class's row click the **Roster** link (the icon of 2 students) on the right. 
 1. On the **Roster** page, click **Add Students**. This opens the Choose User dialog. 
 1. Input part of the name of a student, click **Search**. 
 1. Check the box next to the student to enroll. 

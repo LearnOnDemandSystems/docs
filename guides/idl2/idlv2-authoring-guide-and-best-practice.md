@@ -712,30 +712,54 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
 ### Special formatting
 
-- **Variables**: Used to store information that is not known at the time of lab authoring. Variables use two Replacement tokens; **&commat;lab.textbox(name)** and **&commat;lab.Variable(name)**. **Use &commat;lab.texbox(name) to define** the variable in the (name). **Use &commat;lab.Variable(name) to recall** the information store in the variable. For example, you could create a variable with &commat;lab.textbox(studentPassword) and ask the student to enter a password in the field. Later in the lab you could call back the student's password with &commat;lab.Variable(studentPassword). This prevents the student from having to remember or write down their password, since it is stored in the lab by a variable. 
+- **Variables**: Used to store information that is not known at the time of lab authoring. Variables use Replacement tokens; **&commat;lab.textbox(name)**, **&commat;lab.Variable(name)** and **&commat;MaskedTextBox(name)**. 
+
+    - **Use &commat;lab.texbox(name) to define** the variable in the (name). 
+    - **Use &commat;lab.Variable(name) to recall** the information store in the variable. For example, you could create a variable with &commat;lab.textbox(studentPassword) and ask the student to enter a password in the field. Later in the lab you could call back the student's password with &commat;lab.Variable(studentPassword). This prevents the student from having to remember or write down their password, since it is stored in the lab by a variable. 
 
     - Defining Variable in lab instruction editor view:
   
-   ![](../../lod/images/variables-in-lab-instruction-editor.png)
+        ![](../../lod/images/variables-in-lab-instruction-editor.png)
   
-    - Defining Variable in lab from Student view in the lab:
+    - Defining the variable in the lab from student view in the lab:
   
-   ![](../../lod/images/variables-in-lab.png)
+        ![](../../lod/images/variables-in-lab.png)
   
     - The student enters their password in the lab:
   
-    ![](../../lod/images/variables-enter-password.png)
+        ![](../../lod/images/variables-enter-password.png)
   
-   The password is recalled in later lab steps using the Replacement Token below
+    - The password is recalled in later lab steps using the Replacement Token below
   
     - Calling Variable in lab instruction editor view:
    
-    ![](../../lod/images/variables-callback-variable-instruction-editor.png)
+        ![](../../lod/images/variables-callback-variable-instruction-editor.png)
   
     - Calling Variable in lab from Student view in the lab:
   
-    ![](../../lod/images/variables-callback-variable-in-lab.png)
-  
+        ![](../../lod/images/variables-callback-variable-in-lab.png)
+
+- **Masked Textbox**: Alternatively, you could use **&commat;MaskedTextBox (name)** to store the user's password and define the variable in the (name), and then use &commat;lab.Variable(name) to recall the password later in lab instructions, or in automated activities. 
+
+    > [!knowledge] Masked Textboxes only obscures the text of the password from view. It does not encrypt the text that is entered into the textbox.
+
+    - Defining the password as a variable in the lab instruction editor view: 
+
+        ![](../../lod/images/password-in-lab-instruction-editor.png)
+
+    - Defining the password as a variable in the lab from the student view: 
+    
+        ![](../../lod/images/masked-textbox-empty.png)
+
+    - The student enters their password into the Masked textbox in the lab instructions: 
+
+        ![](../../lod/images/masked-textbox.png)
+
+    - The password is recalled in later lab steps using the Replacement Token below:
+
+        ![](../../lod/images/masked-textbox-callback-password-in-lab.png)
+
+
 - **Knowledge Block:** Used to provide additional information, to help students better understand lab steps or lab content. It can also be used to provide alternative instructions or store commands that you want users to enter. Knowledge blocks are limited to only show 4 lines of the lab content. After 4 lines, a _more_ link will be shown, allowing the student to expand the Knowledge Block and review additional information.
 
     -  If you use the Knowledge box for lab steps or a series of commands, please make sure you include a note directing users to execute the steps or commands there. (For example, “At the PowerShell prompt,type the commands listed in the Knowledge box, pressing ENTER after each one.”)

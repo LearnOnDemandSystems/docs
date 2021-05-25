@@ -30,7 +30,7 @@ The **Details** command retrieves detailed information about a specified lab ins
 |SaveExpires|Integer (64-bit)|Yes|If the lab instance is saved, when the saved data will expire and be deleted (in Unix epoch time).|
 |State|String|No|The state of the lab instance. Possible values:
 ||||Off
-||||Provisioning Storag
+||||Provisioning Storage
 ||||Building
 ||||Building (Displayable)
 ||||Starting
@@ -122,6 +122,7 @@ The **Details** command retrieves detailed information about a specified lab ins
 |VirtualMachineCredentials|Array|Yes|An array of credentials used to access the virtual machines. See the VirtualMachineCredentials Type below. |
 |ClientUrl|String|No|The URL at which a student may access their lab instance.|
 |ActivityResults|Array of ActivityResults|Yes|An array of results for activities displayed in the lab instance. See the ActivityResults Type below.|
+|ActivityGroupResults|Array of ActivityGroupResults|Yes|An array of results for activity groups displayed in the lab instance. See the ActivityResults Type below.|
 |EstimatedReadySeconds|Integer|No|An estimated number of seconds before the lab is ready.|
 |Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 

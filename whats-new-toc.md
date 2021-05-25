@@ -2,7 +2,7 @@
 
 ## Welcome! 
 
-### Use the links below to access the Release Notes for each platform in the LODS family.
+### Use the links below to access the Release Notes for each platform in the Learn on Demand Systems family.
 
 - [**OneLearn Lab on Demand**](/lod/whats-new.md). Build and manage your labs for training consumption.
 

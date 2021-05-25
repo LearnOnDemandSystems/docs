@@ -8,7 +8,7 @@ isPublished: true
 
 This feature is only available for labs that are launched through an **Exam-configured API Consumer**. 
 
-Student Desktop Recording allows the RDP session between the lab user and the lab to be captured in a video that can be used to view the lab user's activity in the lab after the lab has ended. When a lab user launches a lab, the RDP session will begin recording after the virtual machine (VM) connects. After the lab has ended, a video recording of the lab activity will be saved to the user's lab instance details page for that session. 
+Student Desktop Recording allows the RDP session between the lab user and the lab to be captured in a video that can be used to view the lab user's activity in the lab after the lab has ended. When a lab user launches a lab, the RDP session will begin recording after the virtual machine (VM) connects. After the lab has ended, a video only recording of the lab activity will be saved to the user's lab instance details page for that session. **RDP recordings of the lab session do not capture audio**. 
 
 >[!alert] **This feature is in beta and there are some [known issues and limitations](#known-issues-and-limitations).**
 
@@ -18,6 +18,7 @@ Student Desktop Recording allows the RDP session between the lab user and the la
 - [Accessing Session Recordings](#accessing-session-recordings)
     - [View Session Recordings From a Particular Lab Profile](#view-session-recordings-from-a-particular-lab-profile)
     - [View Session Recordings For a Particular User](#view-session-recordings-for-a-particular-user)
+- [Download Recordings](#download-recordings)
 - [Known Issues and Limitations](#known-issues-and-limitations)
 
 ## Enabling Student Desktop Recording 
@@ -98,6 +99,31 @@ Lab session recordings can be viewed from the lab instance page for the lab sess
 
 1. Click Play to start playback of the recording. 
 
+## Download Recordings
+
+If you would like to download a copy of the lab instance recording for archival purposes, you may do some from the lab instance page. 
+
+1. Navigate to the lab profile. 
+
+1. Click _Find Lab Instances_ at the top of the page. 
+
+    >[!knowledge] Alternatively, you can use the _Find Lab Instances_ link on the Administration page of Lab on Demand, and filter for the lab profile you want to view. 
+
+1. The next page will show all lab instances that are associated with the lab profile. 
+
+1. Click _Details_ next to the lab instance you wish to see the recording of. 
+
+    ![Find Lab Instance - Click Details](images/find-lab-instances.png)
+
+1. Next, click **Open** next to _RDP Session Recordings_. 
+
+    ![Open RDP Recording](images/open-rdp-recording.png)
+
+1. The next page will show all RDP recordings for the lab instance in the upper-right corner. 
+
+1. Select the recording you wish to download.
+
+1. An _rdpv_ file will be downloaded to  your local machine. 
 
 ## Known Issues and Limitations
 
@@ -115,6 +141,7 @@ Lab session recordings can be viewed from the lab instance page for the lab sess
 
 
 **Known Limitations**
-- Video playback is only available on https://labondemand.com cannot be downloaded or retrieved via API. 
+- Video playback is only available on https://labondemand.com 
+- The recording can be downloaded but cannot be retrieved via API. 
 - Periods of inactivity in the VM session may not be captured in the recording.
 - If there is no activity in the VM during the lab session, the recording may appear like nothing was recorded. 
