@@ -34,7 +34,7 @@ To set the classroom on a Class:
 
 1. Select the **Delivery Type**. 
 
-1. Select **Add Classroom** to select a classroom, or select **Create a Classroom** if you need to create a class. 
+1. Select **Add Classroom** to select a classroom, or select **Create a Classroom** if you need to create a classroom. 
 
     >[!knowledge] For more information about creating a classroom, see our [Create a Classroom documentation](create-classrooms.md).
 
