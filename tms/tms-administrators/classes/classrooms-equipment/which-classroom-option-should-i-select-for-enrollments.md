@@ -13,7 +13,7 @@ Classrooms have 3 options available:
 
 - **Classroom**: Students enrolled to attend in a physical classroom in your center. Select the classroom name.
 
-- **Remote classroom**: A classroom or location organized by your organization where students can virtually attend a class. **Set the enrollment classroom to Virtual/Remote and assign a physical classroom to their enrollment.
+- **Remote classroom**: A classroom or location organized by your organization where students can virtually attend a class. Set the enrollment classroom to Virtual/Remote and assign a physical classroom to their enrollment.
 
 - **Virtual**: Students attending virtually are not using any of your organization's space, and may be attending from home or the office. Set the enrollment's classroom to Virtual/Remote and **do not assign a physical classroom**. 
 
