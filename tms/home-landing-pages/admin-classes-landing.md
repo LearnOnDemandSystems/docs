@@ -99,7 +99,7 @@
         <div class="subtopic_title">How can I track laptops being used for classes taught outside my organization?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/classrooms-equipment/which-classroom-option-should-i-select-for-enrollments.md">
-        <div class="subtopic_title">Which Classroom Option Should I Select for Classes and Class Enrollments?</div>
+        <div class="subtopic_title">Which classroom option should I select for Classes and Class Enrollments?</div>
       </a>
     </div>
   </div>
