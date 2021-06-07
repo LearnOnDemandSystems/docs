@@ -74,6 +74,10 @@
          <div class="subtopic_title">Azure Virtualization</div>
          <div class="subtopic_description">Deploy an Azure hosted virtual machine.</div>
       </a>
+      <a class="subtopic_link" href="/lod/blackboard-lti-initialization.md">
+        <div class="subtopic_title">Blackboard LTI Initialization</div>
+        <div class="subtopic_description">Configure an instance of Blackboard to use LTI.</div>
+      </a>
       <a class="subtopic_link" href="/lod/cloud-security/cloud-security-home.md">
          <div class="subtopic_title">Cloud Security Resources</div>
          <div class="subtopic_description">Information on Cloud Security Reviews, Access Control Policies, and cloud security standards for Cloud Slice labs</div>
