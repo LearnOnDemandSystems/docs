@@ -31,6 +31,10 @@
   <div class="subtopic">
     <div id="header_1" class="subtopic_header" tabindex="0" title="Other Integration" role="button" aria-selected="false">Other Integration</div>
     <div id="body_1" class="subtopic_links">
+      <a class="subtopic_link" href="/lod/blackboard-lti-initialization.md">
+        <div class="subtopic_title">Blackboard LTI Initialization</div>
+        <div class="subtopic_description">Configure an instance of Blackboard to use LTI.</div>
+      </a>
       <a class="subtopic_link" href="/lod/instruction-source.md">
         <div class="subtopic_title">External Instruction Source</div>
         <div class="subtopic_description">Use an Azure DevOps or GitHub repository as the instruction source for labs.</div>
