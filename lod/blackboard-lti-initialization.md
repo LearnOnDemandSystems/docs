@@ -13,7 +13,7 @@ When configuring a new instance of Blackboard or using an instance of Blackboard
   - [Organization Settings](#organization-settings)
   - [LTI Tool Providers](#lti-tool-providers)
 
- ## Configuration
+## Configuration
 
 To configure your Blackboard instance for LTI use: 
 
