@@ -1,7 +1,7 @@
 ---
 title: "Blackboard LTI Initialization"
 description: "Configure an instance of Blackboard to use LTI."
-isPublished: false
+isPublished: true
 ---
 
 # Blackboard LTI Initialization
