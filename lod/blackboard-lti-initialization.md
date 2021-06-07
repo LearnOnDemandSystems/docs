@@ -13,9 +13,6 @@ When configuring a new instance of Blackboard or using an instance of Blackboard
   - [Organization Settings](#organization-settings)
   - [LTI Tool Providers](#lti-tool-providers)
 
-<small><i><a href='http://ecotrust-canada.github.io/markdown-toc/'>Table of contents generated with markdown-toc</a></i></small>
-
-
  ## Configuration
 
 To configure your Blackboard instance for LTI use: 
