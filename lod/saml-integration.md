@@ -1,6 +1,6 @@
 ---
-title: "Title of document"
-description: "Description of document."
+title: "B2C SAML Integration"
+description: "Configure an Azure Enterprise Application for SAML-based Single Sign-On."
 isPublished: false
 ---
 
@@ -13,22 +13,13 @@ SAML is an open standard that allows Identity Providers (IDP) and Service Provid
 
   > If you think of Single Sign On (SSO) as "One set of credentials for many services", think of SAML as the glue that connects them together. 
 
-
-<!--
-Learn on Demand Systems prefers using OpenID Connect alongside OAuth 2.0. However, if you prefer to use SAML, we can authenticate with SAML. 
-
-SAML is a secure way to authenticate if OpenID Connect and OAuth 2.0 are not being used. 
-
-OpenID Connect and OAuth 2.0 way of doing things is LODS' preferred medium for auth, but if cannot do those because you need the particular type security that SAML provides, we can accommodate that. 
-
-We prefer OpenID Connect alongside OAuth 2.0
--->
-
-* [Create Azure Enterprise App](#create-azure-enterprise-app)
-  + [Modify Application Configuration](#modify-application-configuration)
-  + [User Attributes](#user-attributes)
-  + [SAML Signing Certificate](#saml-signing-certificate)
-  + [Application Setup with Learn on Demand Systems](#application-setup-with-learn-on-demand-systems)
+- [B2C SAML Integration](#b2c-saml-integration)
+  - [What is SAML?](#what-is-saml-)
+  - [Create Azure Enterprise App](#create-azure-enterprise-app)
+  - [Modify Application Configuration for Single Sign On with SAML](#modify-application-configuration-for-single-sign-on-with-saml)
+    - [Basic SAML Configuration](#basic-saml-configuration)
+    - [User Attributes and Claims](#user-attributes-and-claims)
+    - [Application Setup with Learn on Demand Systems](#application-setup-with-learn-on-demand-systems)
 
 ## Create Azure Enterprise App 
 
@@ -36,26 +27,41 @@ If your Identity Provider uses Azure, you must create an Enterprise Application 
 
 1. In Azure, **navigate to the Enterprise Applications section**. You can get to this by searching for _Enterprise Application_ in the top search bar in Azure.
 
-1. Select **New Application** in the upper-left corner of the page. 
+1. Select **New application** in the upper-left corner of the page. 
 
-1. **WHAT IS THE NAME OF THE APPLICATION THAT THEY SHOULD USE?**
+1. Select **Create your own application**. 
 
-1. Navigate to **Set up Single Sign-On with SAML**, then select **Basic SAML Configuration**.
+1. Provide a **name** for your application. 
 
-### Modify Application Configuration 
+1. Select the option to **Integrate any other application you don't find in the gallery (non-gallery)**. 
 
-1. Modify the configuration of your application and **add the following Configuration values** in your SAML Enterprise application.
+1. Select **Create**. 
 
-    |Name      |Example      | 
-    |----------|:-------------|
-    | Identifier (Entity ID) |  `https://{Service Provider B2C Tenant}.b2clogin.   com/lodsaccb2c.onmicrosoft.com/B2C_1A_TrustFrameworkBase` |
-    | Reply URL (Assertion Consumer Service URL) |`https://{Service Provider B2C     Tenant}.b2clogin.com/lodsaccb2c.onmicrosoft.com/B2C_1A_TrustFrameworkBase/    samlp/sso/assertionconsumer`
-    | Sign on URL (different in each lods application) |`http://portal.   learnondemandsystems.com/Authentication/SamlIdpRedirect? idp=B2C_1A_signup_signin_LOD-ACC_customer-name` |  
-    | Logout Url |`https://{Service Provider B2C Tenant}.b2clogin.com/lodsaccb2c.onmicrosoft.com/B2C_1A_signup_signin_lods_acc_portal_customer-name/samlp/sso/logout` |  
+## Modify Application Configuration for Single Sign On with SAML
 
-### User Attributes 
+1. **Navigate to your application**, if you are not there already. 
 
-1. Make sure the following **User Attributes are configured** in your application:
+1. Select **Set up single sign on**. 
+
+1. Select **SAML**. 
+
+### Basic SAML Configuration
+
+1. Select the **Edit** button on the **Basic SAML Configuration** section.
+
+1. **Add the following Configuration values**:
+
+    |Name      |Description|Example      | 
+    |----------|:-------------|:-------------|
+    |Unique Identifier (Entity ID) |This value must be unique across all applications in your Azure Active Directory tenant.|  `https://{Service Provider B2C Tenant}.b2clogin.com/lodsaccb2c.onmicrosoft.com/B2C_1A_TrustFrameworkBase`|
+    | Reply URL (Assertion Consumer Service URL) |The reply URL is where the application expects to receive the authentication token. This is also referred to as the "Assertion Consumer Service" (ACS) in SAML.|`https://{Service Provider B2CTenant}.b2clogin.com/lodsaccb2c.onmicrosoft.com/B2C_1A_TrustFrameworkBase/samlp/sso/assertionconsumer`
+    | Sign on URL |This URL contains the sign-in page for this application that will perform the service provider-initiated single sing-on. |`http://{application URL}/Authentication/SamlIdpRedirect?idp={policy name}` |  
+    |Relay State | Leave this blank. Configuring Relay State is not neccessary for this configuration. | `N/A`
+    | Logout Url |This URL is used to send the SAML Logout response back to the application.| `https://{Service Provider B2C Tenant}.b2clogin.com/{Service Provider B2C Tenant}.onmicrosoft.com/{Policy Name}/samlp/sso/logout` |  
+
+### User Attributes and Claims
+
+1. Ensure the following **User Attributes are configured** 
 
     |Attribute Name      |Attribute Syntax      | 
     |----------|:-------------|
@@ -65,18 +71,14 @@ If your Identity Provider uses Azure, you must create an Enterprise Application 
     |Name|`user.userprincipalname`|
     |Unique User Identifier|`user.userprincipalname`|
 
-### SAML Signing Certificate
+1. If these are not configured, select the **Edit** button on the **User Attributes and Claims** section, and modify each value. 
 
-  Need more information about this topic.
-
-1. Do this 
-1. Do that
 ### Application Setup with Learn on Demand Systems
 
 1. **Provide Learn on Demand Systems the following URLs**. The values in these URLs will vary. The following is an example of how these may look. 
 
     |Value Name      |Example     | 
     |----------|:-------------|
-    |SAML Single Sign-On Service URL|`https://login.microsoftonline.com/   d2b68fa4-10b2-4d1e-bc44-30360174d4fa/saml2`|
-    |SAML Entity ID|`https://sts.windows.net/d2b68fa4-10b2-4d1e-bc44-30360174d4fa/`|
-    |Sign-Out URL|`https://login.microsoftonline.com/    d2b68fa4-10b2-4d1e-bc44-30360174d4fa/saml2`|
+    |SAML Single Sign-On Service URL|`https://login.microsoftonline.com/{Tenant ID}/saml2`|
+    |SAML Entity ID|`https://sts.windows.net/{Tenant ID}/`|
+    |Sign-Out URL|`https://login.microsoftonline.com/{Tenant ID}/saml2`|
