@@ -53,7 +53,7 @@ If your Identity Provider uses Azure, you must create an Enterprise Application 
 
     |Name      |Description|Example      | 
     |----------|:-------------|:-------------|
-    |Unique Identifier (Entity ID) |This value must be unique across all applications in your Azure Active Directory tenant.|  `https://{Service Provider B2C Tenant}.b2clogin.com/lodsaccb2c.onmicrosoft.com/B2C_1A_TrustFrameworkBase`|
+    |Unique Identifier (Entity ID) |This value must be unique across all applications in your Azure Active Directory tenant.|  https://{Service Provider B2C Tenant}.b2clogin.com/lodsaccb2c.onmicrosoft.com/B2C_1A_TrustFrameworkBase|
     | Reply URL (Assertion Consumer Service URL) |The reply URL is where the application expects to receive the authentication token. This is also referred to as the "Assertion Consumer Service" (ACS) in SAML.|`https://{Service Provider B2CTenant}.b2clogin.com/lodsaccb2c.onmicrosoft.com/B2C_1A_TrustFrameworkBase/samlp/sso/assertionconsumer`
     | Sign on URL |This URL contains the sign-in page for this application that will perform the service provider-initiated single sing-on. |`http://{application URL}/Authentication/SamlIdpRedirect?idp={policy name}` |  
     |Relay State | Leave this blank. Configuring Relay State is not neccessary for this configuration. | `N/A`
