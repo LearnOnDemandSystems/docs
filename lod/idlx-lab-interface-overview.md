@@ -1,7 +1,7 @@
 ---
 title: "IDLx Lab Interface Overview"
 description: "This document is an overview of the lab interface, and an explanation of the various functions available."
-isPublished: true
+isPublished: false
 ---
 
 # IDLx Lab Interface Overview
