@@ -104,7 +104,7 @@ Within the lab interface, some buttons expand to display a menu of options.
  and executing UI commands within a virtual machine. 
 ### Hamburger Menu 
 
-![Hamburger menu](images/lab-menu.png){500}
+![Hamburger menu](images/lab-menu.png){800}
 
 1. **Save**:
 
