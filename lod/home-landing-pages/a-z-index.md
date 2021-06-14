@@ -170,14 +170,6 @@
         <div class="subtopic_title">IDLx Lab Development Best Practices</div>
         <div class="subtopic_description">This document covers best practices for IDLx lab development, to assist in creating a rich learning experience.</div>
       </a>
-      <a class="subtopic_link" href="/lod/lab-interface.md">
-        <div class="subtopic_title">Lab Interface Explanation</div>
-        <div class="subtopic_description">Explanation of all lab interface buttons and menus.</div>
-      </a>
-      <a class="subtopic_link" href="/lod/idlx-lab-interface-overview.md">
-        <div class="subtopic_title">IDLx Lab Interface Overview</div>
-        <div class="subtopic_description">This document is an overview of the lab interface, and an explanation of the various functions available.</div>
-      </a>
       <a class="subtopic_link" href="/lod/variables.md">
         <div class="subtopic_title">IDLx Lab Variables</div>
         <div class="subtopic_description">Variables are used to store information that is not known at the time of lab instruction authoring. Variables store information and then that information can be recalled in later lab steps using a Replacement Token. This document covers how to use Variables in your IDLx lab.</div>
@@ -201,6 +193,10 @@
       <a class="subtopic_link" href="/lod/lod-lab-developers/lab-instance-sharing.md">
         <div class="subtopic_title">Lab Instance Sharing</div>
         <div class="subtopic_description">Lab Instance Sharing allows multiple users to work together in a lab profile at the same time. </div>
+      </a>
+      <a class="subtopic_link" href="/lod/lab-interface.md">
+        <div class="subtopic_title">Lab Interface Explanation</div>
+        <div class="subtopic_description">Explanation of all lab interface buttons and menus.</div>
       </a>
         <a class="subtopic_link" href="/lod/lab-interface-faq.md">
         <div class="subtopic_title">Lab Interface Frequently Asked Questions</div>
