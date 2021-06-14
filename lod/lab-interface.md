@@ -1,7 +1,7 @@
 ---
 title: "Lab Interface"
-description: "Description of document."
-isPublished: false
+description: "Explanation of all lab interface buttons and menus."
+isPublished: true
 ---
 
 # Lab Interface 
@@ -33,17 +33,17 @@ Within the lab interface, some buttons expand to display a menu of options.
 
 1. **Pin/unpin**: This allows pinning or unpinning the top bar that contains the Commands menu, Display menu, Developer menu and connection indicator. 
 
-1. **Connection indicator**: Displays the connection quality between your local machine and the virtual machine in the lab environment. The connection quality is displayed in milliseconds and a description of Excellent, Good, Fair and Poor. For more information about each connection quality description, or conduct a speed test, please see our [Learn on Demand Systems Speed Test](https://www.learnondemandsystems.com/speedtest/).
+1. **Connection indicator**: Displays the connection quality between your local machine and the virtual machine in the lab environment. The connection quality is displayed in milliseconds and a description of Excellent, Good, Fair and Poor. For more information about each connection quality description, or to conduct a speed test, please see our [Learn on Demand Systems Speed Test](https://www.learnondemandsystems.com/speedtest/).
 
 1. **Lab instruction pane**: Displays the lab instructions. 
 
 1. **Lab resources**: Contains lab resources such as virtual machines, cloud resources, and any credentials needed to complete the lab instructions. 
 
-1. **Lab help**: Contains theme settings, lab instance ID, FAQ and a link to submit a support request. 
+1. **Lab help**: Contains lab theme settings, lab instance ID, FAQ and a link to submit a support request. 
 
-    **NOTE**: The Help tab may not be available to you, depending on your learning organization. 
+    **NOTE**: The Help tab may not be available to you, depending on your learning organization settings. 
 
-1. **Lab instruction zoom slider**: This allows you to zoom the display of the each tab in the lab instruction window. 
+1. **Lab instruction zoom slider**: This allows you to zoom the display of the each tab in the lab instruction window (Instructions, Resources and Help). 
 
 1. **Hamburger menu**: Contains options to save the lab and return to it later, save changes to the virtual machines in the lab, edit instructions, share your lab instance, or transfer your lab instance to another user. See the [Hamburger menu](#hamburger-menu) section for more information. 
 
@@ -66,13 +66,13 @@ Within the lab interface, some buttons expand to display a menu of options.
 1. **Ctrl+Alt+Delete**: Sends the Ctrl-Alt-Delete key combination to the virtual machine. 
 1. **ALT+Tab**: Sends the ALT+Tab key combination to the virtual machine. 
 1. **Windows Key**: Sends the Windows key command to the virtual machine. 
-1. **Type Text**: Sends text to the virtual machine. 
+1. **Type Text**:  
 
-    A. **Type Username**: Types the username into the virtual machine.
+    A. **Type Username**: Types the username into the virtual machine at the current cursor position.
 
-    B. **Type Password**: Types the password into the virtual machine.
+    B. **Type Password**: Types the password into the virtual machine at the current cursor position.
 
-    C. **Type Clipboard Text**: Opens a dialog box to paste text into from your local clipboard. 
+    C. **Type Clipboard Text**: Opens a dialog box to paste text into from your local clipboard, and paste into the virtual machine at the current cursor position. 
     
 1. **Power**:
 
@@ -115,7 +115,7 @@ Within the lab interface, some buttons expand to display a menu of options.
     
 1. **Edit Instructions** This allows lab authors to edit the instructions that are displayed in the instruction pane of the lab. 
 
-1. **Split Windows**: This allows splitting the windows into two separate windows; with the Virtual machine in one window, and the lab instruction pane in another window. 
+1. **Split Windows**: This allows splitting the windows into two separate windows; with the Virtual machine in one window, and the lab instruction pane in another window. After windows are split, this button will change to display _Join Windows_, this is used to join the windows back together into a single browser window. 
 
 
 

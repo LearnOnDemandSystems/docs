@@ -170,6 +170,10 @@
         <div class="subtopic_title">IDLx Lab Development Best Practices</div>
         <div class="subtopic_description">This document covers best practices for IDLx lab development, to assist in creating a rich learning experience.</div>
       </a>
+      <a class="subtopic_link" href="/lod/lab-interface.md">
+        <div class="subtopic_title">Lab Interface Explanation</div>
+        <div class="subtopic_description">Explanation of all lab interface buttons and menus.</div>
+      </a>
       <a class="subtopic_link" href="/lod/idlx-lab-interface-overview.md">
         <div class="subtopic_title">IDLx Lab Interface Overview</div>
         <div class="subtopic_description">This document is an overview of the lab interface, and an explanation of the various functions available.</div>

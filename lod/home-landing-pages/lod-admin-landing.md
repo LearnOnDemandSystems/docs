@@ -26,6 +26,10 @@
         <div class="subtopic_title">Lab Developer FAQ</div>
         <div class="subtopic_description">Frequently asked questions to assist lab developers.</div>
       </a>
+      <a class="subtopic_link" href="/lod/lab-interface.md">
+        <div class="subtopic_title">Lab Interface Explanation</div>
+        <div class="subtopic_description">Explanation of all lab interface buttons and menus.</div>
+      </a>
       <a class="subtopic_link" href="/lod/lab-interface-faq.md">
         <div class="subtopic_title">Lab Interface Frequently Asked Questions</div>
         <div class="subtopic_description">Frequently asked questions about the Lab on Demand lab interface.</div>
