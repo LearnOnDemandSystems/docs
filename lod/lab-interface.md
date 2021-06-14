@@ -104,7 +104,8 @@ Within the lab interface, some buttons expand to display a menu of options.
  and executing UI commands within a virtual machine. 
 ### Hamburger Menu 
 
-![Hamburger menu](images/lab-menu.png)
+![Hamburger menu](images/lab-menu.png){500}
+
 1. **Save**:
 
     A. **Save my lab instance and return to it later**: This allows you to save your lab and return to it later. Please note the expiration date and time that is displayed after you save your lab. Once the expiration date and time has elapsed, the lab is cancelled and any work in the lab will be lost. 
