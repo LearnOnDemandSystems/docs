@@ -8,6 +8,8 @@ isPublished: false
 
 ### Documentation to assist users with a launched lab. 
 
+- [**How do I interact and use the lab interface?**](lab-interface.md)
+
 - [**How do I make my international keyboard work in the lab interface?**](lab-interface-faqs/how-do-i-make-my-international-keyboard-work-in-the-lab-interface.md)
 
 - [**How Can I See The Quality Of My Connection To My Lab?**](lab-interface-faqs/how-can-i-see-the-quality-of-my-connection-to-my-lab.md)
