@@ -21,7 +21,7 @@ depending on the virtualization fabric and remote controller that is used.
 
 ## Table of Contents
 - [Configuring Netplwiz](#configuring-netplwiz)
-- [Configuring Automatic Login for Hyper-V and Enhanced Session Mode](#configuring-automatic-login-for-hyper-v-and-enhanced-session)
+- [Configuring Automatic Login for Hyper-V and Enhanced Session Mode](#configuring-automatic-login-for-hyper-v-and-enhanced-session-mode)
   - [Disable Limit Local Accounts use of Blank Passwords](#disable-limit-local-accounts-use-of-blank-passwords)
   - [Disable Password Complexity Requirements](#disable-password-complexity-requirements)
   - [Set a Blank Password](#set-a-blank-password)
