@@ -22,7 +22,7 @@ Each SCORM activity has the following fields you can set for more control over t
 - **Required for course completion** - requires a student to complete the SCORM module for the course assignment or class enrollment to be marked **Complete**.
 - **Available Instructor-Led** - makes the activity visible in classes and class enrollments.
 - 
-    >[!knowledge] Available Instructor-led is not checked by default when added as a course activity. This is because a course may be set up to be used as both Instructor led and Self-pace, and classes have an instructor to explain the content, but self-paced does not, so classes do not necessarily need SCORM content. 
+>[!knowledge] Available Instructor-led is not checked by default when added as a course activity. This is because a course may be set up to be used as both Instructor led and Self-pace, and classes have an instructor to explain the content, but self-paced does not, so classes do not necessarily need SCORM content. 
 
 - **Available Self-Paced** - makes the activity visible in course assignments.
 - **Post-class SCORM availability**: When a SCORM module is instructor led, the option to configure post-class SCORM module availability is available. It is best practice to set this to match the post-class lab access availability, so that students have access to both labs and SCORM content after the class has ended. 
