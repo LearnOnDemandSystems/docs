@@ -1,10 +1,10 @@
 ---
-title: "Windows Automatic Login"
-description: "Description of document."
-isPublished: false
+title: "Automatic Login for Windows Virtual Machines"
+description: "Configure a Windows virtual machine to log in automatically without the need to enter a username and password."
+isPublished: true
 ---
 
-# VM Automatic Login 
+# Virtual Machine Automatic Login 
 
 Virtual machines (VMs) can be configured to log into Windows automatically when the VM is booted. The steps to configure automatic login are different, 
 depending on the virtualization fabric and remote controller that is used.
@@ -52,7 +52,7 @@ Netplwiz is a utility built into Windows that allows you to manage user accounts
 
 1. Repeat steps 3-7 for any other VMs that should be automatically logged in.
 
-1. Save these changes to the VM disk(s).
+1. Save these changes to the VM disk(s). For more information about saving changes to the VM disk(s), see our [Differencing Disk Documentation](capture-differencing-disks.md).
 
     1. Select the **Hamburger menu** in the upper-right corner of the lab. 
 
@@ -175,7 +175,7 @@ Edit the registry and ensure the values match the table below:
 
 1. Repeat all previous steps for any other VMs that should be automatically logged in.
 
-1. Save these changes to the VM disk(s).
+1. Save these changes to the VM disk(s). For more information about saving changes to the VM disk(s), see our [Differencing Disk Documentation](capture-differencing-disks.md).
 
     1. Select the **Hamburger menu** in the upper-right corner of the lab. 
 

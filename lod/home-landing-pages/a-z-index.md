@@ -30,6 +30,10 @@
         <div class="subtopic_title">Amazon Web Services API Capabilities</div>
         <div class="subtopic_description">A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation. Below the table is a brief description for each service name.</div>
       </a>
+      <a class="subtopic_link" href="/lod/vm-auto-login.md">
+        <div class="subtopic_title">Automatic Login for Windows Virtual Machines</div>
+        <div class="subtopic_description">Configure a Windows virtual machine to log in automatically without the need to enter a username and password.</div>
+      </a>
       <a class="subtopic_link" href="/lod/aws-cloud-log-transfer.md">
         <div class="subtopic_title">AWS Cloud Trail Log Transfer</div>
         <div class="subtopic_description">AWS Cloud Trail logging enables the ability to audit all cloud logs in a user session and store those logs in a storage location.</div>
