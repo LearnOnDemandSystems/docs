@@ -48,6 +48,10 @@
         <div class="subtopic_description">Controls which websites can be accessed in the lab, by using blacklists and whitelists.</div>
       </a>
       </a>
+      <a class="subtopic_link" href="/lod/vm-auto-login.md">
+        <div class="subtopic_title">Automatic Login for Windows Virtual Machines</div>
+        <div class="subtopic_description">Configure a Windows virtual machine to log in automatically without the need to enter a username and password.</div>
+      </a>
       <a class="subtopic_link" href="/lod/container-images.md">
         <div class="subtopic_title">Container Images</div>
         <div class="subtopic_description">Create Docker container images to use in lab profiles. </div>
