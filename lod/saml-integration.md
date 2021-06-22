@@ -1,7 +1,7 @@
 ---
 title: "B2C SAML Integration"
 description: "Configure an Azure Enterprise Application for SAML-based Single Sign-On."
-isPublished: false
+isPublished: true
 ---
 
 # B2C SAML Integration 

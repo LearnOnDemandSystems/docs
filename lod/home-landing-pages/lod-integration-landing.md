@@ -35,6 +35,11 @@
         <div class="subtopic_title">Blackboard LTI Initialization</div>
         <div class="subtopic_description">Configure an instance of Blackboard to use LTI.</div>
       </a>
+      </a>
+      <a class="subtopic_link" href="/lod/saml-integration.md">
+        <div class="subtopic_title">B2C SAML Integration</div>
+        <div class="subtopic_description">Configure an Azure Enterprise Application for SAML-based Single Sign-On.</div>
+      </a>
       <a class="subtopic_link" href="/lod/instruction-source.md">
         <div class="subtopic_title">External Instruction Source</div>
         <div class="subtopic_description">Use an Azure DevOps or GitHub repository as the instruction source for labs.</div>
