@@ -37,7 +37,8 @@ Within the lab interface, some buttons expand to display a menu of options.
 
 1. **Lab instruction pane**: Displays the lab instructions. 
 
-1. **Lab resources**: Contains lab resources such as virtual machines, cloud resources, and any credentials needed to complete the lab instructions. 
+1. **Lab resources**: Contains lab resources such as virtual machines, cloud resources, and any credentials needed to complete the lab instructions. This is also where you can load files into your virtual machine. 
+    >[!knowledge] To load files into your VM, select the VM you wish to load files to and then select _Load Files_.
 
 1. **Lab help**: Contains lab theme settings, lab instance ID, FAQ and a link to submit a support request. 
 
