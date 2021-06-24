@@ -50,4 +50,4 @@ When students come to their enrollment, they can enter the virtual meeting or op
 
 Information on finding meeting URLs is located at the bottom of this article.
 
- [How can I meeting URLs assigned to classes?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md)
+ [How can I find meeting URLs assigned to classes?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md)
