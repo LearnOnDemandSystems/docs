@@ -50,6 +50,7 @@ _Save the class,_
 ![](/tms/images/class-challenge-3.png)
 ![](/tms/images/class-challenge-4.png)
 ![](/tms/images/class-challenge-5.png)
+![](/tms/images/class-challenge-6.png)
 
 ## Task 5
 ### Limit students in class
@@ -59,7 +60,7 @@ _Limit the class to only be able to enroll 7 students_
 _Edit your class,_
 * _On the Basic Information tab's Maximum Capacity field, set the number to 7.
 
-![](/tms/images/class-challenge-3.png)
+![](/tms/images/class-challenge-7.png)
 
 ## Task 6
 ### Add a Zoom meeting
