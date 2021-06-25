@@ -13,7 +13,7 @@ _From the Site Administration page on the Classes tile, select Create Class_
 
 ### Answer 2
 _On the Create Class page,_
-* _Select a course from the Course field
+* _Select a course from the Course field_
 * _Change the class name to My Class Challenge._
 ___________________________________________________________________________________________________________________________
 > ### Choose a course and change the Display name
