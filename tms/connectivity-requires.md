@@ -56,6 +56,7 @@ For those that need to create a firewall exception rule to allow connectivity to
   - 103.18.85.0/24
   - 163.47.101.0/25
 
+Certain lab environments utilize GitHub; therefore, the following URL should be excepted: `https://githubusercontent.com`.
 
 The Lab on Demand system is a cloud platform that automatically provisions and connects the learner with private sandboxed resources. There is no way to predict which IP address in the cloud the learner will connect to for the provisioning of their virtual machines. Therefore, we provide a range of IP addresses and only a second level domain name.
 
@@ -75,8 +76,6 @@ If specific IP addresses are required, use the following table as a guide for IP
 | console.eu.learnondemandsystems.com | 185.254.59.8 |   |
 | sea-rds.labondemand.com | 163.47.101.8 | 163.47.101.9 |
 | sea-console.labondemand.com | 163.47.101.13 |
-
-Certain lab environments utilize GitHub; therefore, the following URL should be excepted: `https://githubusercontent.com`.
 
 ## Launch the Lab Orientation & Connectivity Check
 
