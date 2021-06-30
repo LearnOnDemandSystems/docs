@@ -22,7 +22,7 @@
 1. **Series:** Select the lab series that the lab profile will be associated with.
 1. **Organization:** Select the organization that will own the lab profile and be responsible for maintaining the profile. 
 1. **Virtualization Platform:** Select the virtualization platform that the lab profile will use. (Hyper-V, vSphere, Azure, AWS, Docker or none.) Selecting _None_ will cause the lab profile to use the Cloud Client. 
-1. **Code Lab Fabric**: 
+1. **Code Lab Fabric**: Enable the lab to be use the Code Lab fabric. For more information, read [Terminal Access](/lod/code-lab.md).
 1. **Parent:** A lab can optionally inherit some properties from a parent lab profile. Both the virtual environment (virtual machines, virtual networks, etc) can be inherited, as well as resources and content (manuals, scenario, objective, exercises, tasks, etc). Changes to the parent lab profile will be reflected in instances of this lab.
 1. **Storage Reservation Per Instance:** This is the amount of storage that the lab scheduler will ensure is available before an instance of this lab is Launched on a lab host server. 
 1. **Development Status:** Used to show lab profile development status. (In Development, Awaiting Verification, In Verification, Verification Failed, Complete.) Lab profiles in _Complete_ Development Status will be available for use, other development status' will only be available to registered lab developers. 
@@ -105,7 +105,7 @@ To use network features, such as external internet access or communication betwe
 
     - **Synchronize system time with host**: synchronizes the VM system time with the time on the host that the VM is running on. 
 
-    - **Set initial system time** (available on vSphere only): Allows you to set the date and time that the VM will launch at. This can be used in conjunction with _Synchronize system time with host_ to freeze the date and time.
+    - **Set initial system time** (available on **vSphere only**): Allows you to set the date and time that the VM will launch at. This can be used in conjunction with _Synchronize system time with host_ to freeze the date and time.
 
     - **Allow user to revert to initial state**: Allows the user to revert to the initial state that the lab was launched at. The user can roll back the VM no matter what has been done in the lab instance. This option is found in the Commands menu (lightning bolt icon) in the lab. 
 
@@ -167,22 +167,21 @@ To use network features, such as external internet access or communication betwe
 
 ## Cloud
 
-### Orchestration
-1. **Add Cloud Credential Pool:** Click to add a Cloud Credential Pool to the lab profile. The pool must already be created to add it to the lab profile using this button.
 1. **Cloud Platform:** Select the cloud platform to be used by the lab profile. Selecting a Cloud Platform will allow the lab profile to use the IDLx Cloud Client.
 1. **Override Client landing Page:** Enables the portal window to display a specific URL, configured in the Client Landing Page field after enabling this feature by checking the box. 
-1. **Client Landing Page:** Enter the URL that the portal window will display. This is used in IDLx Cloud Client. Leave this field blank if no Cloud Platform is selected in the previous step. 
-1. **Append Lab Date:** When this is enabled, the following lab data will be appended to the URL as URL parameters in _name=value_ format. 
-   - labProfileId
-   - labInstanceId
-   - globalLabInstanceId
-   - userId
-   - userExternalId (if the lab is launched via API)
-   - email
-   - firstName
-   - lastName
-   - tag (if included when launched via API)
+    1. **Client Landing Page:** Enter the URL that the portal window will display.  This is used in IDLx Cloud Client. Leave this field blank if no Cloud Platform   is selected in the previous step. 
+    1. **Append Lab Date:** This option is only available when Override Client Landing Page is enabled. When Append Lab Data is enabled, the following lab data will be    appended to the URL as URL parameters in _name=value_ format. 
+       - labProfileId
+       - labInstanceId
+       - globalLabInstanceId
+       - userId
+       - userExternalId (if the lab is launched via API)
+       - email
+       - firstName
+       - lastName
+       - tag (if included when launched via API)
 1. **Enable Automatic Login (AWS Only):** When this option is enabled, users will be directly logged into the cloud portal. No cloud portal users are required. If disabled users will need to manually log into the portal using a required cloud portal user supplied in the user section. 
+
 1. **Subscription Pool:** select the subscription pool that the lab will use. 
 
 1. **Deploy Default VPC (AWS Only)**: When enabled, the lab instances will contain default VPC (Virtual Private Cloud) and resources. Default resources typically contain a VPC, Gateway and other networking resources. Default resources will be deployed prior to template deployment and may add to the instance launch time. 
@@ -194,8 +193,10 @@ To use network features, such as external internet access or communication betwe
     - **Terminate Lab:** the lab will be terminated if resources fail to deploy.
 
     - **Send User Notification:** a notification will be sent to the user in the lab if resources fail to deploy and the lab will still launch. 
-1. **Expected Cloud Cost:** the estimated cost of cloud resources that the lab will use.
+
 1. **Datacenter Availability:** One or more datacenters that resources will be deployed to. If multiple datacenters are selected, the datacenter physically closest to the lab user will be selected. If a region is marked as 'Privileged' then additional clearance from the fabric owner may be needed to successfully launch labs in that region. 
+
+    - **Max Lab Instances**: This must be enabled for each datacenter that is made available. Once this is enabled, you can specify the maximum number of lab instances that can be launched in that datacenter. 
 
 ### User Accounts
 1. **Add User Account:** Add a portal user account. Enabling this will allow the lab to display credentials to log in to the cloud portal. 
@@ -292,7 +293,7 @@ There are additional settings that can **optionally** be configured:
 - **Error Action**: controls how Lab on Demand will handle errors that occur when executing this action. All errors are logged against the lab instance by default. You can also choose to notify the user about the error or to end the lab. To prevent users from losing their work, only events early in the lifecycle (build, building, running, etc) allow you to end the lab when an error occurs. 
 
 
-For more information about Action and Event types, please see our [guide](/lod/life-cycle-actions.md)
+For more information about Action and Event types, please see our [Life Cycle Actions documentation](/lod/life-cycle-actions.md).
 
 ## Tags
 
@@ -306,6 +307,7 @@ For more information about Action and Event types, please see our [guide](/lod/l
 
 ## Advanced
 
+1. **Fabric Build Sequence**: If the lab contains cloud configuration and virtualization components, you can specify which will build first, or set them to build in parallel. 
 1. **Theme:** Themes allow you to use custom styles and scripts across multiple lab profiles. Themes are usually set at the series or organization level. Set a theme here only if this lab requires customization that differs from other labs in this series and organization.  
 
 1. **Display Delay:** When set, the lab will not be displayed to the user until the delay time has transpired. You can use this to allow a lab to _cook_ a bit before giving your users access to it. For instance if a critical service with in the lab takes time to spin up and you don't want the user to immediately interact with it. 
@@ -424,6 +426,10 @@ Lab on Demand allows you to set Azure DevOps (ADO) or GitHub as an instruction s
  ### Authenticated Launch URLs
 
 - **Add Authenticated Launch URL:** Click this to add an Authenticated Launch URL to the lab profile. The URL must already be created to add it to the lab profile. 
+
+### Cloud Credential Pools
+
+1. **Add Cloud Credential Pool:** Click to add a Cloud Credential Pool to the lab profile. The pool must already be created to add it to the lab profile using this button.
 
 ### Resources
 
