@@ -76,6 +76,8 @@ If specific IP addresses are required, use the following table as a guide for IP
 | sea-rds.labondemand.com | 163.47.101.8 | 163.47.101.9 |
 | sea-console.labondemand.com | 163.47.101.13 |
 
+Certain lab environments utilize GitHub; therefore, the following URL should be excepted: `https://githubusercontent.com`.
+
 ## Launch the Lab Orientation & Connectivity Check
 
 Click the following link to launch a test lab: [Launch the Lab Orientation & Connectivity Check](https://labondemand.com/Launch/122B02AA). This will allow you to see if you are able to connect and function within the lab environment.
