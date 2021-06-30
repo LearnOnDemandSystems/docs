@@ -324,8 +324,6 @@ For more information about Action and Event types, please see our [Life Cycle Ac
 
 1. **Enable Navigation Warning:** A warning will be displayed if the user navigates away from the lab client before the lab is complete.
 
-1. **Show Navigation Bar:** Enables the navigation bar to be displayed.
-
 1. **Navigation Bar Width:** This sets the width of the navigation bar in the lab UI. 
 
 1. **Show Instructions Tab:** Show the instructions tab of the lab. If this isn't enabled, the instructions tab will not be displayed. 
