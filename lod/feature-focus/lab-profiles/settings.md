@@ -195,9 +195,9 @@ To use network features, such as external internet access or communication betwe
     - **Send User Notification:** a notification will be sent to the user in the lab if resources fail to deploy and the lab will still launch. 
 
 1. **Datacenter Availability:** One or more datacenters that resources will be deployed to. If multiple datacenters are selected, the datacenter physically closest to the lab user will be selected. If a region is marked as 'Privileged' then additional clearance from the fabric owner may be needed to successfully launch labs in that region. 
-
+<!--
     - **Max Lab Instances**: This must be enabled for each datacenter that is made available. Once this is enabled, you can specify the maximum number of lab instances that can be launched in that datacenter. 
-
+-->
 ### User Accounts
 1. **Add User Account:** Add a portal user account. Enabling this will allow the lab to display credentials to log in to the cloud portal. 
 
