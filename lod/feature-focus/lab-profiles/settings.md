@@ -22,7 +22,7 @@
 1. **Series:** Select the lab series that the lab profile will be associated with.
 1. **Organization:** Select the organization that will own the lab profile and be responsible for maintaining the profile. 
 1. **Virtualization Platform:** Select the virtualization platform that the lab profile will use. (Hyper-V, vSphere, Azure, AWS, Docker or none.) Selecting _None_ will cause the lab profile to use the Cloud Client. 
-1. **Code Lab Fabric**: Enable the lab to be use the Code Lab fabric. For more information, read [Terminal Access](/lod/code-lab.md).
+1. **Code Lab Fabric**: Enable the lab to be use the Code Lab fabric. For more information, read [Code Labs documentation](/lod/code-lab.md).
 1. **Parent:** A lab can optionally inherit some properties from a parent lab profile. Both the virtual environment (virtual machines, virtual networks, etc) can be inherited, as well as resources and content (manuals, scenario, objective, exercises, tasks, etc). Changes to the parent lab profile will be reflected in instances of this lab.
 1. **Storage Reservation Per Instance:** This is the amount of storage that the lab scheduler will ensure is available before an instance of this lab is Launched on a lab host server. 
 1. **Development Status:** Used to show lab profile development status. (In Development, Awaiting Verification, In Verification, Verification Failed, Complete.) Lab profiles in _Complete_ Development Status will be available for use, other development status' will only be available to registered lab developers. 
