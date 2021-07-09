@@ -19,8 +19,8 @@ Uploaded resources can be made available to students, instructors or both. If a 
 
 ### Supported Resource Formats
 
-- aspx 
 - asp
+- aspx 
 - bmp
 - csv
 - doc
