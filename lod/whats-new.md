@@ -9,6 +9,50 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other Learn on Demand Systems platforms?</a></span>
 
+## **Released July 1, 2021**
+
+**Pricing**
+
+- Lab costs are now shown in USD, regardless of user language. 
+
+**Code Labs**
+
+- Lab On Demand now supports a new type of container image classed as CodeLab. The type filter on the Find Container Image page now supports filtering by type Codelab. 
+- A new Code Language Administration page has been created. This allows for the management of the container used, the default templates shown in the Edit Code Fabric screen, and information used to process submitted code in the CodeHost. 
+- Code language data is now pulled from a database object instead of being stored uniquely in each lab profile. 
+- <a href="https://docs.learnondemandsystems.com/lod/code-lab.md">Code Lab Documentation</a>
+
+**Lab Instance Error Viewing By Organization**
+
+- Lab authors with the "Error Viewing (by organization)" permission can now view any lab instance errors occurring in lab instances of lab profiles belonging to the organizations they manage. The Find Lab Instance Errors search page can be located under the Lab Instance tile on the Lab on Demand admin page.
+
+**AWS**
+
+- Two new services are now available in AWS Cloud Slice, Tag Editor and Resource Group Editor. 
+- Fixed a bug allowing a user to access an AWS region selected in the Override Datacenter drop-down menu even when not enabled on the lab profile.
+- <a href="https://docs.learnondemandsystems.com/lod/aws-capabilities.md">AWS Services capabilities documentation</a>
+
+**LOD Improvements and Fixes**
+
+- Cloud Slice Subscription labs that apply an Access Control Policy at the subscription level are now returned in search results for that Access Control Policy. 
+- If Background Event Service discovers residue on a virtualized host, cloud hosts will now ignore requests to tear down resources on the associated dedicated subscription if the subscription has already been assigned to another lab instance. 
+- Child lab profiles inheriting an environment can no longer be exported. 
+- Docker host app settings have been moved into environment specific files. 
+- Client-side gateway scripts updated to allow Firefox to work with client-side ESM audio recording. 
+- Activity groups in the Lab on Demand API v3.0 have been updated. When an activity group is used, the name of the group is sent as a variable with the total score for activities within that group only. In addition, full responses are sent for each individual activity. 
+- Implemented support for SES scale out. 
+- Implemented Secure HTTP headers in Lab on Demand Admin Site (LOD.Web) 
+- Updated LOD.Web to jquery 2.2.4. 
+- Fixed a bug preventing an ABA from picking up a variable set by a previous ABA when scoring a lab/exam. 
+- Fixed a bug preventing lab authors from taking VM screenshots from the instructions editor. 
+- Fixed a bug preventing internal administration of an account when removing an API consumer. 
+- Fixed a bug preventing a post-build LCA from executing when preceded by a blocking post-build LCA. 
+- Fixed a bug preventing lab saves on newly launched container labs. 
+- Fixed a bug preventing changing a Virtual Machine Display Name. 
+- Fixed a bug resulting in some users unable to launch into pre-instanced labs due to public IP availability. 
+- Fixed a bug resulting in an application error when navigating back from an error page generated when saving a lab profile. 
+- Fixed a bug resulting in an error when scripts are rapidly executed against a single-instance SEE container. 
+- Fixed a bug resulting in an unknown platform type on removable media when imported as part of a lab profile. 
 
 ## **Released May 22, 2021**
 
