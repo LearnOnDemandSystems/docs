@@ -42,8 +42,6 @@ Uploaded resources can be made available to students, instructors or both. If a 
 
 Resources are managed from the course profile page. 
 
-![Course Profile - Manage Resources](tms/images/course-profile.png)
-
 ### Add Resources
 
 1. Navigate to the **Course Profile** you wish to add resources to. 
