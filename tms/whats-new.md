@@ -10,7 +10,7 @@ In our continuing effort to improve accessibility for all our students and meet 
 ### Enhancements and Fixes
 *   Classroom Maximum Capacity - Error on Roster: We have fixed an issue on the class roster where users received the error message below when changing the Enrollment Status to Enrolled.
 
-‘This enrollment would cause the selected classroom to exceed maximum occupancy.’  
+   ‘This enrollment would cause the selected classroom to exceed maximum occupancy.’  
 
 *   Translation - files Update:   We have updated the language files in TMS for the following supported languages:  
     * Chinese (Simplified) 
