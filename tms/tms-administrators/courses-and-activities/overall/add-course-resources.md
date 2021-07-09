@@ -21,22 +21,22 @@ Uploaded resources can be made available to students, instructors or both. If a 
 
 - aspx 
 - asp
+- bmp
+- csv
 - doc
 - docx
-- ppt
-- pptx 
-- csv
-- txt
-- zip
-- xls
-- xlsx
+- gif
 - jpg
 - jpeg
-- gif
-- png
-- bmp
 - pdf
+- png
+- ppt
+- pptx 
+- txt
 - rar
+- xls
+- xlsx
+- zip
 
 ## Add and Manage Resources
 
