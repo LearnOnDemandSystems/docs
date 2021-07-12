@@ -1,7 +1,6 @@
 ---
-title: "Title of document"
-description: "Description of document."
-isPublished: false
+title: "How do I add resources to a course?"
+isPublished: true
 ---
 
 # How do I Add Resources to a Course?
