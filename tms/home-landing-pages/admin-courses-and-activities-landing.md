@@ -67,7 +67,7 @@
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/course-setting-disable-class-activities.md">
         <div class="subtopic_title">How can I set up a course for disabling class activities?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/how-do-I-add-a-microsoft-learn-activity-as-a-course-activity.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/how-do-i-add-a-microsoft-learn-activity-as-a-course-activity.md">
         <div class="subtopic_title">How do I add a Microsoft Learn Activity as a Course activity?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/labs/course-enable-assigning-class-activities.md">
