@@ -18,6 +18,9 @@
   <div class="subtopic selected">
     <div class="subtopic_header" tabindex="0" title="General Docs" role="button" aria-selected="true" selected>General</div>
     <div id="body_1" class="subtopic_links">
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/how-do-i-add-a-course-to-a-subscription-profile-from-a-course.md">
+        <div class="subtopic_title">How do I add a Course to a Subscription Profile from a Course?</div>
+      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/add-course-resources.md">
         <div class="subtopic_title">How do I add resources to a course?</div>
       </a>
