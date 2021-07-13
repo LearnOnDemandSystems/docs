@@ -7,7 +7,7 @@ isPublished: true
 
 > Please be aware that not all functionality covered in this and linked articles may be available to you.
 
-Subscriptions deliver on-demand, self-paced training to your users through a set of courses. These courses are available to the user to take and retake an unlimited number of times within a limited time period. For more information, read our [Subscriptions Documentation](tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-description.md).
+Subscriptions deliver on-demand, self-paced training to your users through a set of courses. These courses are available to the user to take and retake an unlimited number of times within a limited time period. For more information, read our [Subscriptions Documentation](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-description.md).
 
 ## Add a Course to a Subscription from a Course Profile
 
