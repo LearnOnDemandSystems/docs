@@ -39,7 +39,7 @@ Either a Class or a Custom Event will allow you to select the days and times of 
 | Automatic notifications <a href="#note3">**<sup>3</sup>**</a> | Yes | Yes | Yes |
 | Training key to add training for student(s) | Yes | Yes | Yes |
 
-> <a id="note1">**<sup>1</sup>**</a> Adobe Connect virtual classroom access requires a signed contract with Adobe Connect before access is granted. If you have a different virtual classroom provider, please review [How can I use my organization’s virtual meeting program in my virtual classes?](/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md).
+> <a id="note1">**<sup>1</sup>**</a> Adobe Connect virtual classroom access requires a signed contract with Adobe Connect before access is granted. If you have a different virtual classroom provider, please review [How can I use my organization’s virtual meeting platform in my virtual classes?](/tms/tms-administrators/classes/virtual-meetings/integratevirtualmeetingprovider.md).
 
 > <a id="note2">**<sup>2</sup>**</a> The standard Instructor role does not permit a user to monitor course assignments. Course Assignments can be monitored by Operations Managers or by an instructor if organization management is assigned with the Instructor role. This gives the instructor administrative access to all the organization's data.
 
