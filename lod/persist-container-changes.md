@@ -1,7 +1,7 @@
 ---
 title: "Persist Container Changes"
 description: "Allows you to permanently persist container changes so that they are used in future lab launches."
-isPublished: true
+isPublished: false
 ---
 
 # Persist Container Changes
