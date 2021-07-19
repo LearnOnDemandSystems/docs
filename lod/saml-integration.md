@@ -1,10 +1,10 @@
 ---
-title: "B2C SAML Integration"
+title: "Central Authentication SAML Integration"
 description: "Configure an Azure Enterprise Application for SAML-based Single Sign-On."
 isPublished: true
 ---
 
-# B2C SAML Integration 
+# Central Authentication SAML Integration 
 
 ## What is SAML?
 Secure Assertion Markup Language (SAML). 
@@ -13,7 +13,7 @@ SAML is an open standard that allows Identity Providers (IDP) and Service Provid
 
   > If you think of Single Sign On (SSO) as "One set of credentials for many services", think of SAML as the glue that connects them together. 
 
-- [B2C SAML Integration](#b2c-saml-integration)
+- [Central Authentication SAML Integration](#central-authentication-saml-integration)
   - [What is SAML?](#what-is-saml-)
   - [Create Azure Enterprise App](#create-azure-enterprise-app)
   - [Modify Application Configuration for Single Sign On with SAML](#modify-application-configuration-for-single-sign-on-with-saml)
