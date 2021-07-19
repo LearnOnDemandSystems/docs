@@ -49,15 +49,43 @@ If your Identity Provider uses Azure, you must create an Enterprise Application 
 
 1. Select the **Edit** button on the **Basic SAML Configuration** section.
 
-1. **Add the following Configuration values**:
+1. **Add the following Configuration values for each platform**. 
+    >[!note] Replace the following information in the URL before configuring these values:
+    >
+    >    - **Lab on Demand** 
+    >      - Sign on URL: replace `{customer}` with your customer name.
+    >    - **Training Management System**: 
+    >      - Sign on URL: replace `{TMS-Site}` with your TMS site. 
+    >      - Logout URL: replace `{TMS-Site}` with your TMS site.
+    >    - **Portal**:
+    >      - Sign on URL: replace `{customer}` with your customer name.
 
-    |Name      |Description|Example      | 
-    |----------|:-------------|:-------------|
-    |Unique Identifier (Entity ID) |This value must be unique across all applications in your Azure Active Directory tenant.|  https://{Service Provider B2C Tenant}.b2clogin.com/lodsaccb2c.onmicrosoft.com/B2C_1A_TrustFrameworkBase|
-    | Reply URL (Assertion Consumer Service URL) |The reply URL is where the application expects to receive the authentication token. This is also referred to as the "Assertion Consumer Service" (ACS) in SAML.|https://{Service Provider B2CTenant}.b2clogin.com/lodsaccb2c.onmicrosoft.com/B2C_1A_TrustFrameworkBase/samlp/sso/assertionconsumer
-    | Sign on URL |This URL contains the sign-in page for this application that will perform the service provider-initiated single sing-on. |http://{application URL}/Authentication/SamlIdpRedirect?idp={policy name} |  
+    ### **Lab on Demand (LOD)**
+    |Name|Description|Example | 
+    |:---|:---|:---|
+    |Unique Identifier (Entity ID) |This value must be unique across all applications in your Azure Active Directory tenant.| https://learnondemandsystemsb2c.b2clogin.com/learnondemandsystemsb2c.onmicrosoft.com/B2C_1A_TrustFrameworkExtensions_LOD-PROD |
+    | Reply URL (Assertion Consumer Service URL) |The reply URL is where the application expects to receive the authentication token. This is also referred to as the "Assertion Consumer Service" (ACS) in SAML.|https://learnondemandsystemsb2c.b2clogin.com/learnondemandsystemsb2c.onmicrosoft.com/B2C_1A_TrustFrameworkExtensions_LOD-PROD/samlp/sso/assertionconsumer
+    | Sign on URL |This URL contains the sign-in page for this application that will perform the service provider-initiated single sing-on. |https://labondemand.com/AuthenticationProvider/SamlIdpRedirect?idp=B2C_1A_signup_signin_LOD_SAML-PROD-{Customer} |  
     |Relay State | Leave this blank. Configuring Relay State is not neccessary for this configuration. | N/A
-    | Logout Url |This URL is used to send the SAML Logout response back to the application.| https://{Service Provider B2C Tenant}.b2clogin.com/{Service Provider B2C Tenant}.onmicrosoft.com/{Policy Name}/samlp/sso/logout |  
+    | Logout Url |This URL is used to send the SAML Logout response back to the application.| https://learnondemandsystemsb2c.b2clogin.com/learnondemandsystemsb2c.onmicrosoft.com/B2C_1A_TrustFrameworkExtensions_LOD-PROD/samlp/sso/logout |  
+
+    ### **Training Management System (TMS)**
+    |Name|Description|Example | 
+    |:---|:---|:---|
+    |Unique Identifier (Entity ID) |This value must be unique across all applications in your Azure Active Directory tenant.| https://learnondemandsystemsb2c.b2clogin.com/learnondemandsystemsb2c.onmicrosoft.com/B2C_1A_TrustFrameworkExtensions_TMS |
+    | Reply URL (Assertion Consumer Service URL) |The reply URL is where the application expects to receive the authentication token. This is also referred to as the "Assertion Consumer Service" (ACS) in SAML.|https://learnondemandsystemsb2c.b2clogin.com/learnondemandsystemsb2c.onmicrosoft.com/B2C_1A_TrustFrameworkExtensions_TMS/samlp/sso/assertionconsumer
+    | Sign on URL |This URL contains the sign-in page for this application that will perform the service provider-initiated single sing-on. |https://{TMS-Site}.learnondemand.net/User/CurrentTraining (or any designated landing page) |  
+    |Relay State | Leave this blank. Configuring Relay State is not neccessary for this configuration. | N/A
+    | Logout Url |This URL is used to send the SAML Logout response back to the application.| https://{TMS-Site}.learnondemand.net/User/Logout |  
+
+    ### **Portal**
+    |Name|Description|Example | 
+    |:---|:---|:---|
+    |Unique Identifier (Entity ID) |This value must be unique across all applications in your Azure Active Directory tenant.| https://learnondemandsystemsb2c.b2clogin.com/learnondemandsystemsb2c.onmicrosoft.com/B2C_1A_TrustFrameworkExtensions_portal |
+    | Reply URL (Assertion Consumer Service URL) |The reply URL is where the application expects to receive the authentication token. This is also referred to as the "Assertion Consumer Service" (ACS) in SAML.|https://learnondemandsystemsb2c.b2clogin.com/learnondemandsystemsb2c.onmicrosoft.com/B2C_1A_TrustFrameworkExtensions_TMS/samlp/sso/assertionconsumer
+    | Sign on URL |This URL contains the sign-in page for this application that will perform the service provider-initiated single sing-on. |https://portal.learnondemandsystems.com/Authentication/SamlIdpRedirect?idp=B2C_1A_signup_signin_TMS_SAML-PROD-{Customer} |  
+    |Relay State | Leave this blank. Configuring Relay State is not neccessary for this configuration. | N/A
+    | Logout Url |This URL is used to send the SAML Logout response back to the application.| https://portal.learnondemandsystems.com/Authentication/LogOut |  
 
 ### User Attributes and Claims
 
