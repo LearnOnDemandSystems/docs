@@ -8,19 +8,19 @@ isPublished: true
 
 Code Labs are a lab platform type with a code editor user interface (UI) in the lab client and a backend service calling docker containers to run code. The code is executed in a Code Container, which a language specific docker image with a compiler run time where the code is compiled and evaluated.
 
-- [Starting a Code Lab](#Starting-a-Code-Lab)
-- [Code Lab Settings](#Code-Lab-Settings)
-- [Code Lab Client](#Code-Lab-Client)
-- [Language Settings](#Language-Settings)
-    - [Adding a supported language](#Adding-a-supported-language)
-    - [Template](#Template)
-    - [Program Wrapper](#Program-Wrapper)
-    - [Advanced](#Advanced)
-- [Tests](#Tests)
-    - [Inputs](#Inputs)
-    - [Adding Tests](#Adding-Tests)
+- [Starting a Code Lab](#starting-a-code-lab)
+- [Code Lab Settings](#code-lab-settings)
+- [Code Lab Client](#code-lab-client)
+- [Language Settings](#language-settings)
+    - [Adding a supported language](#adding-a-supported-language)
+    - [Template](#template)
+    - [Program Wrapper](#program-wrapper)
+    - [Advanced](#advanced)
+- [Tests](#tests)
+    - [Inputs](#inputs)
+    - [Adding Tests](#adding-tests)
 - [Code Lab Scoring](#code-lab-scoring)
-- [Example Code Lab](#Example-Code-Lab)
+- [Example Code Lab](#example-code-lab)
 
 ## Starting a Code Lab
 
