@@ -169,7 +169,7 @@ After the lab has been scored, details about the lab including score results can
 
 1. After the lab launches, click "Run Code" and your function will be evaluated, you should get a successful test run.
 
-   >[!knowledge] Please note that this default setup has a completed function "MyFunction" in the Template field. When you create your lab MyFunction will be empty, and the code inside will be written by the student.
+   > [!knowledge] Please note that this default setup has a completed function "MyFunction" in the Template field. When you create your lab MyFunction will be empty, and the code inside will be written by the student.
 
 ## Building Your Lab
 
