@@ -8,19 +8,19 @@ isPublished: true
 
 Code Labs are a lab platform type with a code editor user interface (UI) in the lab client and a backend service calling docker containers to run code. The code is executed in a Code Container, which a language specific docker image with a compiler run time where the code is compiled and evaluated.
 
-- [Starting a Code Lab](#Starting-a-Code-Lab)
-- [Code Lab Settings](#Code-Lab-Settings)
-- [Code Lab Client](#Code-Lab-Client)
-- [Language Settings](#Language-Settings)
-    - [Adding a supported language](#Adding-a-supported-language)
-    - [Template](#Template)
-    - [Program Wrapper](#Program-Wrapper)
-    - [Advanced](#Advanced)
-- [Tests](#Tests)
-    - [Inputs](#Inputs)
-    - [Adding Tests](#Adding-Tests)
+- [Starting a Code Lab](#starting-a-code-lab)
+- [Code Lab Settings](#code-lab-settings)
+- [Code Lab Client](#code-lab-client)
+- [Language Settings](#language-settings)
+    - [Adding a supported language](#adding-a-supported-language)
+    - [Template](#template)
+    - [Program Wrapper](#program-wrapper)
+    - [Advanced](#advanced)
+- [Tests](#tests)
+    - [Inputs](#inputs)
+    - [Adding Tests](#adding-tests)
 - [Code Lab Scoring](#code-lab-scoring)
-- [Example Code Lab](#Example-Code-Lab)
+- [Example Code Lab](#example-code-lab)
 
 ## Starting a Code Lab
 
@@ -169,7 +169,7 @@ After the lab has been scored, details about the lab including score results can
 
 1. After the lab launches, click "Run Code" and your function will be evaluated, you should get a successful test run.
 
-   >[!knowledge] Please note that this default setup has a completed function "MyFunction" in the Template field. When you create your lab MyFunction will be empty, and the code inside will be written by the student.
+   > [!knowledge] Please note that this default setup has a completed function "MyFunction" in the Template field. When you create your lab MyFunction will be empty, and the code inside will be written by the student.
 
 ## Building Your Lab
 
