@@ -33,7 +33,7 @@ When editing or creating your class,
 1. In the **Student Post-Class Launch Window** input the number of minutes after the class session end time(s) the students can still enter the virtual classroom.
 1. Continue setting up your class or click **Save** to commit the changes.
 
-![](/tms/images/virtual-class-launch-windows.png) 
+![](/tms/images/virtual-class-launch-windows.png){1000}
 
 The TMS passes along the classId, studentLastName, studentFirstName, and studentEmail to the receiving site. 
 
