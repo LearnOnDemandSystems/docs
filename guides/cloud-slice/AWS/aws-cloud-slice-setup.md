@@ -12,9 +12,11 @@ This document explains how to give the OneLearn Lab on Demand (LOD) platform per
 
 The following are required to use AWS Cloud Slice with LOD:
 
-- AWS account: must be a **root** account that can be set up as an organization. It cannot be a sub-account from an existing organization. 
+- **AWS account**: must be a **root** account that can be set up as an organization. It cannot be a sub-account from an existing organization. 
 - Billing must be set up on the account
-- An IAM User Account must be created
+- An **IAM User Account** must be created
+
+    >[!alert] It is highly recommended to **use an AWS account that is dedicated to Cloud Slice lab use**. This account should not be an extension of your organization's production AWS account that may be used for other purposes. 
 
 ## Enable Cloud Slice support in your AWS Account(s)
 
