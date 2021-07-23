@@ -14,7 +14,7 @@ To add a Cloud Subscription Pool to OneLearn Lab on Demand (LOD), perform the fo
 
 1. Open the **Subscription Pools** section on the Cloud Services tile.
 
-1. Click **Create Cloud Subscription Pool** to create a new cloud subscription pool in LOD.
+1. Select**Create Cloud Subscription Pool** to create a new cloud subscription pool in LOD.
 
 1. Select **AWS** from the **Cloud Platform** drop-down menu. 
 
@@ -39,7 +39,7 @@ To add a Cloud Subscription Pool to OneLearn Lab on Demand (LOD), perform the fo
 
    |Field Name|Description|
    |----|----|
-   |**Catch&nbsp;All&nbsp;Domain**|When AWS accounts are created for cloud slice, the root users will use this domain in the email address. It is best practice to have a catch all email inbox for all emails from AWS supposrt for password reset requests if access is required to one of the root user accoutns. If you choose to close an account, this will be required to gain access to the root user account. |
+   |**Catch&nbsp;All&nbsp;Domain**|When AWS accounts are created for cloud slice, the root users will use this domain in the email address. It is best practice to have a catch all email inbox for all emails from AWS support for password reset requests if access is required to one of the root user accounts. If you choose to close an account, this will be required to gain access to the root user account. |
    |**Access&nbsp;Key&nbsp;Id**|Security Credential Access key secret for a user with Programmatic access in IAM. This is generated from the user settings Security Credentials in IAM.|
    |**Access&nbsp;Key&nbsp;Secret**|Security Credential Access key ID for a user with Programmatic access in IAM. This is generated from the user settings Security Credentials tab in IAM.|
 
@@ -49,11 +49,17 @@ To add a Cloud Subscription Pool to OneLearn Lab on Demand (LOD), perform the fo
 
    |Field Name|Description|
    |----|----|
-   |**Number&nbsp;Of&nbsp;Subscriptions**|For dedicated pools, subscriptions will be automatically created ahead of time. When this hapens, LOD will create up to the number of subscriptions specified here. Please ensure that all limits on your account or subscription (set by the cloud host provider) are greater than or equal to the number entered here. For example, if your subscription limit or account limit is 20, you should not enter more than 20 in this field. |
+   |**Number&nbsp;Of&nbsp;Subscriptions**|For dedicated pools, subscriptions will be automatically created ahead of time. When this happens, LOD will create up to the number of subscriptions specified here. Please ensure that all limits on your account or subscription (set by the cloud host provider) are greater than or equal to the number entered here. For example, if your subscription limit or account limit is 20, you should not enter more than 20 in this field. |
    |**Subscription&nbsp;Name&nbsp;Prefix**|When subscriptions are created, the name of the subscription or account will start with this text.|
 
-10. Click **Save** to create the Cloud Subscription Pool.
+10. Select **Save** to create the Cloud Subscription Pool.
 
-11. Click **Run Pool Setup**. This will automatically configure your cloud subscription pool. 
+11. Next, accounts need to be created in the subscription pool. The amount of accounts to create should reflect the number of lab users you expect to have at a time. It is best practice to increase the amount of accounts to allow for more accounts than users. This helps to ensure events are supported with enough accounts for each lab user.
+
+12. Please **reach out to our [customer support team](http://www.learnondemandsystems.com/customer-support/)** to have these accounts created. 
+
+<!--
+11. Select**Run Pool Setup**. This will automatically configure your cloud subscription pool. 
+-->
 
 [Back to top](#setup-your-aws-cloud-subscription-in-onelearn-lab-on-demand)
