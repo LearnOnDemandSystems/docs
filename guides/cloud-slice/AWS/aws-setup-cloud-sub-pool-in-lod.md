@@ -54,6 +54,8 @@ To add a Cloud Subscription Pool to OneLearn Lab on Demand (LOD), perform the fo
 
 10. Click **Save** to create the Cloud Subscription Pool.
 
-11. Click **Run Pool Setup**. This will automatically configure your cloud subscription pool. 
+11. At this point you will need to submit a support ticket with our helpdesk including the number of accounts that will be needed. If you expect 20 lab users, you will need 20 accounts. It is a good idea to increase this amount to allow more accounts than needed, to ensure future events will be supported, or if more lab users join the event. A new ticket with AWS will need to be created each time this needs increased. 
+
+** Our Support link https://www.learnondemandsystems.com/customer-support/
 
 [Back to top](#setup-your-aws-cloud-subscription-in-onelearn-lab-on-demand)
