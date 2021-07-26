@@ -113,7 +113,7 @@ Two permissions have been added to LOD to manage Compatibility Mode under Lab De
 - The LOD API service now returns ActivityGroupResults as part of the Lab Instance Details call. 
 
 
-## <u>Released April 25, 2021</u>
+## <u>Released April 23, 2021</u>
 
 **Code Labs**
 
