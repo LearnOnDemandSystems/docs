@@ -19,4 +19,4 @@ If this occurs, ensure that you are signed on to your machine as a user with adm
 1. Navigate to the TMS.
 1. Sign in normally.
 
-![](../images/server-manager.png)
+
