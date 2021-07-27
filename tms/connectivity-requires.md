@@ -91,7 +91,7 @@ When connecting to a lab instance via a proxy, certain configuration requirement
 
 ## When Using Windows Server Operating Systems
 
-When connecting to Learn on Demand Systems Training Management Systems (TMS) portals with a computer having Windows Server operating systems on it, you may experience difficulty in connecting to the sign-in page or clicking on some buttons. Steps to remediate can be found [here.](/end-user-student-faqs/class-self-paced/important-note-when-using-windows-server-operating-systems.md)
+When connecting to Learn on Demand Systems Training Management Systems (TMS) portals with a computer having Windows Server operating systems on it, you may experience difficulty in connecting to the sign-in page or clicking on some buttons. Steps to remediate can be found [here.](/end-user-student-faqs/class-self-paced/windows-server-os.md)
 
 ## In-Lab Software Whitelisting Information for Lab Developers
 
