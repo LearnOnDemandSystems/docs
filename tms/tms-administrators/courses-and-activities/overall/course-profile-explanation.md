@@ -68,9 +68,7 @@ This can also be used to provide supplementary course information, such as a syl
 
 ## Availability
 
-1. **Available To All Organizations**: By default the course is only available to the organization that was selected on the Basic Information tab. Enabling the _Available To All Organizations_ feature will allow other organizations to use this course. 
-
-1. **Add Publishing Groups**: Add this course to a Publishing Group. A Publishing Group is a set of courses that you grant access to other organizations, for them to use for their classes and course assignments.
+1. **Add Publishing Groups**: Add this course to a Publishing Group. A Publishing Group is a set of courses that you grant access to other organizations, for them to use for their classes and course assignments. If a course is not added to a publishing group, it will not be available to be scheduled in a class. 
 
 ## Prerequisites 
 
@@ -80,11 +78,13 @@ This can also be used to provide supplementary course information, such as a syl
 
 ## Tags
 
-Course Tags will be displayed on the details page of the course. 
+Course tags are used to search for courses, or add filters to a course catalog or subscription catalog. Course Tags will be displayed on the details page of the course. 
 
 1. **Add Tags**: Add tags to the course. 
 
 ## Completion Certificates
+
+Certificates are available to instructions and admins as a PDF or an editable Word document, to be printed for the successful completion of a course. Students may have a PDF version available to print when a course is completed through a class or a course assignment. 
 
 1. **Add Certification Template**: Add Completion Certificates that will be students will receive upon completing a course assignment or class that uses this course. 
 
@@ -104,9 +104,8 @@ Course Tags will be displayed on the details page of the course.
 1. **Student Survey**: A survey can be added from surveys you have created in the Training Management System for students to take for a class. 
 1. **Instructor Survey**: A survey can be added from surveys you have created in the Training Management System for instructors to take for a class. 
 1. **Organization Survey**: A survey can be added from surveys you have created in the Training Management System for operation managers to take for a class. 
-1. **Maximum course assignment length**: Enter the maximum amount of days a course assignment can be configured.
 1. **Allow Class Self-Enrollment**: Sets any class using this course to default to allowing self-enrollment for anyone with the self-enrollment role. 
-1. **Allow Self-paced Self-assignment**: Sets this course to allow users with a serf-assignment role to create their own course assignment. 
+1. **Allow Self-paced Self-assignment**: Sets this course to allow users with a self-assignment role to create their own course assignment. 
 1. **Allow recordings**: This allows you to enable or disable recordings from being saved and accessible to students for classes that are scheduled using the course. This applies to organizations using an integrated virtual meeting host such as Adobe Connect or Zoom. By default this option is enabled.
     1. **Post-class recording availability**: This sets the amount of time students have to access recordings after the class ends.
 1. **Course assignment requires valid subscription**: Prevents a course assignment creation unless the user has a valid subscription. 
