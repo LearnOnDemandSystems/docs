@@ -9,6 +9,29 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other Learn on Demand Systems platforms?</a></span>
 
+## **Released July 29, 2021**
+
+**LOD Improvements and Fixes**
+
+- Improved Pre-Instance performance using in-memory data and by removing recursive logic
+- Rather than default to CSFX, cloud scripts will now target SEE by default.
+- Added scale-out support for developer files.
+- A new field has been added to Lab Series, Default Assignment Duration Days. The duration of all Lab Series assignments created using this lab series will be set to the value of this field.
+- Mandatory note fields can no longer be bypassed by entering a space character.
+- Removed the Cloud Log Transfer tab from Azure Cloud Subscription Pools.
+- Network ACL is now included when exporting and importing lab profiles.
+- vSphere labs no longer display a Record RDP Session option. RDP session recordings are only available for Hyper-V labs.
+- Newly created Organizations will now have the Template Gallery enabled by default.
+- When signing into Lab on Demand using Corporate Azure Active Directory authentication, you will now be prompted to select the account used to sign in.
+- When searching for Lab Profiles, the search can now be filtered by the presence or absence of Life Cycle Actions.
+- Outcome variable names and languages are now persistent when editing an Automated Activity.
+- Fixed a bug resulting in an AWS teardown error due to a dependency on IAM resource. 
+- Fixed a bug resulting in the wrong SCSI ID to be used in newly created virtual machine profiles when using the Save-as New Lab functionality from a running lab.
+- Fixed a bug resulting in an application error when creating a Lab Series from an Organization page.
+- Fixed a bug preventing lab authors from overwriting files when uploading a file/image to a lab profile's instructions. 
+- Fixed several bugs preventing Azure Cloud Slice Subscriptions from moving between management groups correctly.
+- Fixed a bug preventing AWS VPC deployment to default regions.
+
 ## **Released July 1, 2021**
 
 **Pricing**
