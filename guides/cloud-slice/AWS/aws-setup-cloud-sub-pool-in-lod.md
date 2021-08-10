@@ -14,7 +14,7 @@ To add a Cloud Subscription Pool to OneLearn Lab on Demand (LOD), perform the fo
 
 1. Open the **Subscription Pools** section on the Cloud Services tile.
 
-1. Select**Create Cloud Subscription Pool** to create a new cloud subscription pool in LOD.
+1. Select **Create Cloud Subscription Pool** to create a new cloud subscription pool in LOD.
 
 1. Select **AWS** from the **Cloud Platform** drop-down menu. 
 
