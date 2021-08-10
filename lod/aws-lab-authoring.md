@@ -127,10 +127,10 @@ The lab profile can now be saved and launched.
 
 ## Related Links
 
+- [Setup your AWS cloud subscription in Lab on Demand](../guides/cloud-slice/AWS/aws-setup-cloud-sub-pool-in-lod.md)
+- [Enable cloud slice support in AWS](../guides/cloud-slice/AWS/aws-cloud-slice-setup.md)
+- [AWS permission boundaries](aws-permission-boundary.md)
+- [AWS Cloud Log transfer](aws-cloud-log-transfer.md)
 - [AWS virtualization](aws-virtualization.md)
-- [Enable Cloud Slice Support in AWS](../guides/cloud-slice/AWS/aws-cloud-slice-setup.md)
-- [AWS Cloud Log Transfer](aws-cloud-log-transfer.md)
-- [Setup your AWS cloud subscription in OneLearn Lab on Demand](../guides/cloud-slice/AWS/aws-setup-cloud-sub-pool-in-lod.md)
-- [AWS Permission Boundaries](aws-permission-boundary.md)
-- [Lab on Demand AWS API Capabilities](aws-capabilities.md)
+- [Lab on Demand AWS API capabilities](aws-capabilities.md)
 
