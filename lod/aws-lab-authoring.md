@@ -14,6 +14,20 @@ Configuration Checklist:
 - Setup your AWS Account in a Lab on Demand subscription pool.
 - Configure a lab profile to use the subscription pool associated with your AWS account(s).
 
+## Table of Contents
+
+- [Creating a lab profile](#creating-a-lab-profile)
+- [Basic Information](#basic-information)
+- [Cloud Tab](#cloud-tab)
+    - [Orchestration](#orchestration)
+  - [User Accounts](#user-accounts)
+  - [Stack Deployments](#stack-deployments)
+  - [Permissions](#permissions)
+  - [Resource Templates](#resource-templates)
+  - [Access Control Policies](#access-control-policies)
+  - [Save The Lab Profile](#save-the-lab-profile)
+- [Related Links](#related-links)
+
 ## Creating a lab profile 
 
 1. From the Lab on Demand (LOD) Administration page, click _Create Lab Profile_ on the Lab Profiles tile. 
@@ -111,4 +125,12 @@ Additional Stack Deployments can be added if needed, but are not required. If ad
 
 The lab profile can now be saved and launched. 
 
+## Related Links
+
+- [AWS virtualization](aws-virtualization.md)
+- [Enable Cloud Slice Support in AWS](../guides/cloud-slice/AWS/aws-cloud-slice-setup.md)
+- [AWS Cloud Log Transfer](aws-cloud-log-transfer.md)
+- [Setup your AWS cloud subscription in OneLearn Lab on Demand](../guides/cloud-slice/AWS/aws-setup-cloud-sub-pool-in-lod.md)
+- [AWS Permission Boundaries](aws-permission-boundary.md)
+- [Lab on Demand AWS API Capabilities](aws-capabilities.md)
 

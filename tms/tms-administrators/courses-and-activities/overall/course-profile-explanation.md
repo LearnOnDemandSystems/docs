@@ -108,5 +108,6 @@ Certificates are available to instructions and admins as a PDF or an editable Wo
 1. **Allow Self-paced Self-assignment**: Sets this course to allow users with a self-assignment role to create their own course assignment. 
 1. **Allow recordings**: This allows you to enable or disable recordings from being saved and accessible to students for classes that are scheduled using the course. This applies to organizations using an integrated virtual meeting host such as Adobe Connect or Zoom. By default this option is enabled.
     1. **Post-class recording availability**: This sets the amount of time students have to access recordings after the class ends.
+1. **Allow supplemental recording access**: Allows recordings access to users that are not part of the class. After this option is enabled, recordings can be shared from the class page by clicking _Recordings_ at the top of the page and then selecting recording availability; enrolled students, anyone from delivery organization, any authenticated user, or anyone (public).
 1. **Course assignment requires valid subscription**: Prevents a course assignment creation unless the user has a valid subscription. 
 1. **Allow Anonymous Access to Course Details Page**: Allows sharing of the course URL for users to view the course without logging in. 
