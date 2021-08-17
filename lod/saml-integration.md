@@ -1,6 +1,6 @@
 ---
-title: "Central Authentication SAML Integration"
-description: "Configure an Azure Enterprise Application for SAML-based Single Sign-On."
+title: "SSO Authentication via Azure Active Directory and SAML"
+description: "Configure an Azure Active Directory Enterprise Application for SAML-based Single Sign-On."
 isPublished: true
 ---
 
