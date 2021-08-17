@@ -10,12 +10,11 @@ The following is an example of how to configure your Azure AD to support LODS SS
 
 LODS supports SAML authentication.  SAML is an open standard that allows Identity Providers (IdP) and Service Providers (SP) to send authorization credentials to each other, to authenticate a user. This allows using one set of credentials to log in to multiple services and/or websites.
 
-- [Central Authentication SAML Integration](#central-authentication-saml-integration)
-  - [Create an Azure Active Directory Enterprise App](#create-an-azure-active-directory-enterprise-app)
-  - [Modify Application Configuration for Single Sign On with SAML](#modify-application-configuration-for-single-sign-on-with-saml)
-    - [Basic SAML Configuration](#basic-saml-configuration)
-    - [User Attributes and Claims](#user-attributes-and-claims)
-  - [Application Setup with Learn on Demand Systems](#application-setup-with-learn-on-demand-systems)
+- [Create an Azure Active Directory Enterprise App](#create-an-azure-active-directory-enterprise-app)
+- [Modify Application Configuration for Single Sign On with SAML](#modify-application-configuration-for-single-sign-on-with-saml)
+  - [Basic SAML Configuration](#basic-saml-configuration)
+  - [User Attributes and Claims](#user-attributes-and-claims)
+- [Application Setup with Learn on Demand Systems](#application-setup-with-learn-on-demand-systems)
 
 ## Create an Azure Active Directory Enterprise App 
 
@@ -99,7 +98,7 @@ If your Identity Provider is Azure, you must create an Enterprise Application in
 
 ### Application Setup with Learn on Demand Systems
 
-1. **Provide Learn on Demand Systems the following URLs**. The values in these URLs will vary. The following is an example of how these may look. 
+1. **Open a support ticket and provide Learn on Demand Systems the following URLs**. The values in these URLs will vary. The following is an example of how these may look. 
 
     |Value Name      |Example     | 
     |----------|:-------------|
