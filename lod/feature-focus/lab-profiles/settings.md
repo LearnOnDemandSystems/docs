@@ -356,6 +356,10 @@ For more information about Action and Event types, please see our [Life Cycle Ac
 
 1. **Publish to Public Template Gallery:** when enabled, this lab profile will be available as a new lab profile template within the public template gallery. 
 
+    1. **Reuse Template Container and Virtual machine Profiles**: when this option is enabled, new lab profiles created from this template will reuse the container and virtual machine proifles referenced in this template. When this option is disabled, new labs created from this template will have brand new container and virtual machine profiles cloned into them. 
+
+        >[!alert] If virtual machine and container profiles are resued in new labs, changes made to those profiles will impact all labs that use them, including this template.  
+
 1. **Enable virtual machine instance RAM/vCPU editing**: When this feature is enabled, an option will be available to users in the lab client to edit the amount of RAM and number of vCPU for individual virtual machines in the lab instance. Note these VM changes are isolated to the current lab instance and are not committed to the lab profile. Also note the user will have to have the _Edit Virtual Machine Instance RAM/vCPU_ permission with the lab client. 
 
 1. **Record RDP Session**: When this is enabled, RDP sessions for a lab instance will be recorded. Recordings can later be viewed in the lab instance details page. 
