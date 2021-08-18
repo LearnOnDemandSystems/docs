@@ -98,7 +98,7 @@ If your Identity Provider is Azure, you must create an Enterprise Application in
 
 ### Application Setup with Learn on Demand Systems
 
-1. **Open a support ticket and provide Learn on Demand Systems the following URLs**. The values in these URLs will vary. The following is an example of how these may look. 
+1. **Open a [support ticket](http://www.learnondemandsystems.com/customer-support/) and provide Learn on Demand Systems the following URLs**. The values in these URLs will vary. The following is an example of how these may look. 
 
     |Value Name      |Example     | 
     |----------|:-------------|
