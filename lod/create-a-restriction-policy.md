@@ -12,7 +12,7 @@ An Access Control Policy is used by a cloud provider to limit the resources that
 
 ## Table of Contents
 - [Finding an Existing ACP](#finding-an-existing-acp)
-- [Creating an Access Control Policy in Lab on Demand (LOD)](#creating-an-access-control-policy-in-lab-on-demand--lod-)
+- [Creating an Access Control Policy in Lab on Demand (LOD)](#creating-an-access-control-policy-in-lab-on-demand)
 - [ACP Examples](#acp-examples)
     - [Azure](#azure)
     - [AWS](#aws)
@@ -22,7 +22,7 @@ An Access Control Policy is used by a cloud provider to limit the resources that
 
 ## Finding an Existing ACP
 
-LOD has a library of existing ACPs to make building common cloud labs easier and more secure. To find publicly accessible ACPs:
+Lab on Demand (LOD) has a library of existing ACPs to make building common cloud labs easier and more secure. To find publicly accessible ACPs:
 
 1. From the **Admin** page, in the **Cloud Services** tile, select **Access Control Policies**.
 2. Add the filter **Organization Name**, select **Does** **Equal**, and enter **LOD Managed**
@@ -34,7 +34,7 @@ LOD has a library of existing ACPs to make building common cloud labs easier and
 
 You can also search your own Organization's existing ACPs by following the same process and changing the **Organization** filter to your desired Organization. 
 
-## Creating an Access Control Policy in Lab on Demand (LOD)
+## Creating an Access Control Policy in Lab on Demand 
 
 1. Navigate to the **Cloud Services** tile, on the LOD Admin page.
 
