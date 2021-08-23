@@ -30,7 +30,11 @@ To create a Lab series, click **Create Lab Series** on the Lab Series tile, on t
 
 1. **# of Training Days**: The expected number of days for end users to use any of the lab profiles within the lab series. This does not restrict users from using labs after the expected number of days, it is used to determine resources consumption of the labs.
 
+1. **Default Assignment Duration**: The number of days that an automatically created lab series assignment will be active for. If not set, this value is pulled from the API consumer. 
+
 1. **Enabled**: Check this box to enable the Lab Series. If this box is left unchecked, the Lab Series will not be available to users.
+
+1. **Automatically Disable**: The date that the lab series can be set to be disabled. A disabled series is not accessible via API and the labs within cannot be launched.
 
 ## Limits
 
@@ -49,12 +53,6 @@ To create a Lab series, click **Create Lab Series** on the Lab Series tile, on t
 
 ## Publish
 
-For organizations that have proprietary content, an option is available to designate a person to have the permission to publish a lab series to the respective API consumer. After an organization designates someone to publish to their API, future requests to LODS to publish a lab series will be a billable service. Permission to publish to the API consumer will be provided on-request from an administrator of the organization. 
+For organizations that have proprietary content, an option is available to designate a person to have the permission to publish a lab series to the respective API consumer. After an organization designates someone to publish to their API, future requests to Learn on Demand Systems to publish a lab series will be a billable service. Permission to publish to the API consumer will be provided on-request from an administrator of the organization. 
 
 1. Select the API Consumer to publish the Lab Series to. This will allow the lab profiles aligned with this lab series to be available for consumption via the chosen API.
-
-1. Select the API Consumer to publish the Lab Series to. This will allow the lab profiles aligned with this lab series to be available for consumption via the chosen API.
-
-
-
----------

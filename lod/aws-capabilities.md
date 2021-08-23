@@ -21,6 +21,7 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[Amazon CloudWatch Events](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncloudwatchevents.html)|events|supported||
 |[Amazon CloudWatch Logs](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncloudwatchlogs.html)|logs|supported||
 |[Amazon CloudFront](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncloudfront.html)|cloudfront|planned||
+|[Amazon CloudShell](https://docs.aws.amazon.com/service-authorization/latest/reference/list_awscloudshell.html)|cloudshell|supported||
 |[Amazon Cognito Identity](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncognitoidentity.html)|cognito-identity|planned||
 |[Amazon Cognito Sync](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncognitosync.html)|cognito-sync|planned||
 |[Amazon Cognito User Pools](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncognitouserpools.html)|cognito-idp|supported||
@@ -66,7 +67,7 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[Amazon SNS](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsns.html)|sns|supported|If a lab user creates an SNS subscription, but fails to verify it, the SNS subscription will be left in a pending state. Pending SNS subscriptions cannot be removed from an AWS account, thus may appear as residue in subsequent lab instances. Pending SNS subscriptions are automatically removed after 3 days.||
 |[Amazon Simple Systems Manager](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)|ssm|Supported||
 |[Amazon Simple Workflow Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsimpleworkflowservice.html)|swf|planned||
-|[Amazon SQS](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsqs.html)|sqs|planned||
+|[Amazon SQS](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsqs.html)|sqs|Supported||
 |[Amazon Sumerian](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsumerian.html)|sumerian|planned||
 |[Amazon Transcribe](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazontranscribe.html)|transcribe|planned||
 |[Amazon Translate](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazontranslate.html)|translate|planned||
@@ -76,6 +77,7 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[Amazon WorkSpaces Application Manager](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonworkspacesapplicationmanager.html)|N/A|planned||
 |[AWS AppSync](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsappsync.html)|appsync|planned||
 |[AWS Artifact](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsartifact.html)|artifact|planned||
+|[AWS Backup](https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsbackup.html)|backup|supported||
 |[AWS Budget Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsbudgetservice.html)|budgets|planned||
 |[AWS Certificate Manager](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscertificatemanager.html)|acm|planned||
 |[AWS Certificate Manager Private Certificate Authority](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscertificatemanagerprivatecertificateauthority.html)|acm-pca|planned||
@@ -120,7 +122,8 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[AWS Organizations](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsorganizations.html)|N/A|planned||
 |[AWS Performance Insights](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsperformanceinsights.html)|pi|planned||
 |[AWS Price List](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awspricelist.html)|pricing|planned||
-|[AWS Resource Groups](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsresourcegroups.html)|resource-groups|planned||
+|[AWS Resource Groups](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsresourcegroups.html)|resource-groups|Supported||
+[AWS Resource Group Tagging](https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonresourcegrouptaggingapi.html)|tag|Supported||
 [Amazon S3](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazons3.html)|s3|supported||
 |[AWS Secrets Manager](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awssecretsmanager.html)|secretsmanager|supported||
 |[AWS Security Token Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awssecuritytokenservice.html)|sts|planned||
@@ -139,8 +142,11 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[Data Pipeline](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_datapipeline.html)|datapipeline|planned||
 |[Elastic Load Balancing](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_elasticloadbalancing.html)|elasticloadbalancing|supported||
 |[Elastic Load Balancing V2](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_elasticloadbalancingv2.html)|elasticloadbalancing|supported||
+|[EventBridge](https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoneventbridge.html)|events|supported||
+|[EventBridge Schema](https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoneventbridgeschemas.html)|schemas|supported||
 |[Identity And Access Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_identityandaccessmanagement.html)|iam|supported||
 |[Manage Amazon API Gateway](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_manageamazonapigateway.html)|apigateway|supported||
 |[Single Sign-On](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)|sso|planned||
 |[TensorFlow on AWS](https://aws.amazon.com/tensorflow/?nc2=h_m1)|N/A|planned||
+|[Tag Editor](https://docs.aws.amazon.com/ARG/latest/userguide/tag-editor.html)|N/A|Supported||
 |[Virtual Private Cloud](https://aws.amazon.com/vpc/?hp=tile&so-exp=below)|ec2|supported||

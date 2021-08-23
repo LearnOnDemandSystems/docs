@@ -31,7 +31,7 @@ The guide further assumes that the reader has knowledge of how to build labs in 
 This guide will walk you through how to create Life Cycle Actions in a lab. In the past, you could send a request to an outside URL when a lab was first built or torn down using the Build Service URL and Tear Down Service URL fields on the Advanced tab of the Lab Profile. This functionality has been expanded to include more actions and a wider range of life cycle events of the lab. These are called Life Cycle Actions. The types of actions that can be performed are:
 
 - **Send Web Request** – Like the Service URLs in the past, calls an external service URL.The information that is sent is based on that URL, the verb used to send the information, and the receiving API.
-- **Send Notification to User** – Uses the Send Notification functionality to send information to the lab user in the form of a toast in the lab interface.
+- **Send Notification to User** – Uses the Send Notification functionality to send information to the lab user in the form of a toast notification in the lab interface.
 - **Send E-mail to User** – Sends an e-mail to the lab user. The subject and content of the e-mail will be the same for each lab user.
 - **Execute Machine Command** – Execute Machine Command - Runs a command on the specified virtual machine (VM). For this to work, the lab user must be logged into the VM, and the VM must have the Lab on Demand integration service installed. Replacement tokens may be used within the command text. 
 - **Execute Subscription Command** - Runs a PowerShell command against the Cloud Slice subscription. Replacement tokens may be used within the command text. 
@@ -60,7 +60,7 @@ To add Life Cycle Action to your lab profile, follow these steps for every Actio
 3. From the **Event** dropdown, select the event when you want the web request to be sent.
 4. In the **Delay** box, set the number of seconds after the Life Cycle Event occurs that the Action should trigger, if wanted.
 5. In the **Error Action** dropdown, select the type of action to LOD will take if an error occurs.
-   1. If you select **Notify User** as the **Error Action**, an **Error Notification** field will appear. Type the text the user will receive in the Notifications toast in the lab interface.
+   1. If you select **Notify User** as the **Error Action**, an **Error Notification** field will appear. Type the text the user will receive in the toast notification in the lab interface.
 6. Uncheck **Enabled** if necessary.
 7. Click **OK** to add the **Life Cycle Action**.
 

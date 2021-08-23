@@ -1,0 +1,83 @@
+# Python 3.9.4
+
+## Using Python Import Keyword
+
+The `import` keyword is used to import modules.
+
+```Python
+#Import the datetime module and display the current date and time
+import datetime
+
+x = datetime.datetime.now()
+print(x)
+```
+
+## Interacting with Lab on Demand
+
+Your scripts can communicate success or failure to LOD in one of two ways.
+
+### Return a Boolean value 
+
+```Python
+//do stuff... all good
+return true;
+```
+
+```Python
+//do stuff... uh oh
+return false;
+```
+
+### Use setActivityResult
+
+```Python
+//do stuff... all good
+setActivityResult(true);
+```
+
+```Python
+//do stuff... uh oh
+setActivityResult(false);
+```
+
+You can also report the result as a score %...
+
+```Python
+//do stuff... we want to report success and set the score value as 50%
+setActivityResult(0.5);
+```
+
+### Send a Notification to the User
+
+Notifications appear as real-time toast notification in the lab client.
+
+```Python
+sendLabNotification("A notification from Python!");
+```
+
+### Lab Variables
+
+Lab variables are always string name/value pairs. Variable values are scoped to the lab instances and become avaialble within the lab instructions as well as subsequent script executions. 
+
+```Python
+setLabVariable("myVariable1", "This was set by Python in the cloud!");
+```
+
+You can "receive" a variable in your script...
+
+```Python
+#a variable set elsewhere in the lab, but we can use it in our script
+const myVariable1 = "@lab.Variable(myVariable1)";
+```
+
+### Use setActivityResult
+
+If you choose to use setActivityResult, the last time it is called within your script will determine the outcome.
+
+```Python
+setTimeout(function() {
+    console.log("This message was left inside the async code.");
+    setActivityResult(true);
+}, 1000);
+return false; //<- this will have no effect, as it will be evaluated before the async code is run.
+```

@@ -26,6 +26,10 @@
         <div class="subtopic_title">IDLx Authoring Guide</div>
         <div class="subtopic_description">This document covers Markdown, lab instruction editor interface, uploading files into your lab, and many other topics to assist with authoring your IDLx lab.</div>
       </a>
+      <a class="subtopic_link" href="/lod/lab-developer-faq.md">
+        <div class="subtopic_title">Lab Developer FAQ</div>
+        <div class="subtopic_description">Frequently asked questions to assist lab developers.</div>
+      </a>
       <a class="subtopic_link" href="/guides/idl2/markdown-user-guide.md">
         <div class="subtopic_title">Markdown User Guide</div>
         <div class="subtopic_description">This document covers Markdown in detail, including syntax for all supported Markdown.</div>
@@ -43,6 +47,10 @@
         <div class="subtopic_title">Access Control Lists</div>
         <div class="subtopic_description">Controls which websites can be accessed in the lab, by using blacklists and whitelists.</div>
       </a>
+      </a>
+      <a class="subtopic_link" href="/lod/vm-auto-login.md">
+        <div class="subtopic_title">Automatic Login for Windows Virtual Machines</div>
+        <div class="subtopic_description">Configure a Windows virtual machine to log in automatically without the need to enter a username and password.</div>
       </a>
       <a class="subtopic_link" href="/lod/container-images.md">
         <div class="subtopic_title">Container Images</div>
@@ -68,6 +76,10 @@
         <div class="subtopic_title">Docker Support</div>
         <div class="subtopic_description">Supported Docker configurations.</div>
       </a>
+      <a class="subtopic_link" href="/lod/start-states.md">
+        <div class="subtopic_title">Hyper-V Start States</div>
+        <div class="subtopic_description">Start States allow you to create a point in a lab where the lab will launch from for subsequent launches.</div>
+      </a>         
       <a class="subtopic_link" href="/lod/ova-import.md">
         <div class="subtopic_title">Importing an VMware Virtual Machine From an OVA.</div>
         <div class="subtopic_description">Virtual machine profile creation, and explanation of virtual machine profile configuration.</div>
@@ -76,6 +88,14 @@
         <div class="subtopic_title">Lab Network Restrictions</div>
         <div class="subtopic_description">Overview of the networks available to labs and any network restrictions.</div>
       </a>
+      <a class="subtopic_link" href="/lod/lab-profile-cloning.md">
+        <div class="subtopic_title">Lab Profile Cloning</div>
+        <div class="subtopic_description">Create a duplicate copy of a lab profile by cloning.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/lab-series-cloning.md">
+        <div class="subtopic_title">Lab Series Cloning</div>
+        <div class="subtopic_description">Create a duplicate copy of a Lab Series by cloning.</div>
+      </a>     
       <a class="subtopic_link" href="/lod/feature-focus/lab-profiles/create.md">
         <div class="subtopic_title">Lab Profile Creation and Explanation</div>
         <div class="subtopic_description">Lab profile creation, and explanation of lab profile configuration.</div>
@@ -90,6 +110,10 @@
       <a class="subtopic_link" href="/guides/sl/sharedlabs.md">
         <div class="subtopic_title">Shared Labs (a.k.a. Cyber-Range)</div>
         <div class="subtopic_description">Configure a Shared Lab environment.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/spla-supported.md">
+        <div class="subtopic_title">SPLA Supported Software</div>
+        <div class="subtopic_description">Supported products and the conditions within Learn on Demand Systems implementation of the SPLA program.</div>
       </a>
       <a class="subtopic_link" href="/lod/terminal-access.md">
         <div class="subtopic_title">SSH Terminal Access</div>

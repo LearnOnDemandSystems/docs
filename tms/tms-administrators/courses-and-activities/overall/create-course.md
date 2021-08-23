@@ -37,6 +37,7 @@ Many fields have default values and/or are optional.  Below is an explanation of
 - **Training Days** - sets the default number of sessions when a new class is created from the course. It defaults to 5, therefore, classes created from it would be 5 sessions, by default. You can change the number here or it can be overridden at the class level.
 - **Discussion** - assigns a discussion to the course. See [What is a discussion and how can I use it to increase student interaction in their learning?](/tms/tms-administrators/discussions/what-is-discussion.md) for more information on discussions.
 - **Archived** - sets the course to be unavailable for anyone to schedule future classes or course assignments. 
+    - **Auto Archive Date** - allows you to input a date for the course to be automatically archived in the future. 
 - **Available Instructor-Led** – makes the course available for scheduling classes. It will also default the activities to be visible in classes.
 - **Available Self-Paced** – makes the course available for creating course assignments. It will also default the activities to be visible in course assignments.
 - **Show on Course Catalog** – adds the course to your organization’s Course Catalog if the catalog is turned on.
@@ -60,7 +61,7 @@ There are many options such as different types of activities that you may want t
 1. [How do I add videos to my course?](../other-activities/add-video.md)
 1. [How do I add documents and external links to my course?](../other-activities/add-docs-urls.md)
 1. [How do I add an assessment to a course?](../other-activities/add-assessment.md)
-1. How do I add an LTI Resource link to my course?] (Coming soon) <!-- (../other-activities/add-lti-resource-link.md)-->
+1. [How do I add an LTI Resource link to my course?](https://docs.learnondemandsystems.com/tms/tms-administrators/courses-and-activities/overall/lti-activity.md)
 
 **Other Options** – (Coming Soon)
 <!--

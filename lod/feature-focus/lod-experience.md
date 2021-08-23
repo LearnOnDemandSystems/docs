@@ -6,6 +6,16 @@ isPublished: true
 
 # Lab on Demand Experience
 
+- [Lab on Demand Experience](#lab-on-demand-experience)
+  * [Admin](#admin)
+    + [Admin Tiles](#admin-tiles)
+    + [Details View](#details-view)
+  * [Dashboard](#dashboard)
+  * [News](#news)
+  * [Roadmap](#roadmap)
+  * [Community](#community)
+  * [Help](#help)
+
 ## Admin
 
 The OneLearn Lab on Demand Admin page consists of several tiles. Each tile contains links to accomplish tasks related to the same topic. For example, the Lab Profiles tile only contains links for tasks related to a Lab Profile. 
@@ -39,7 +49,7 @@ Optionally, you can create new items from the respective Find page. After you cl
 
 >[!KNOWLEDGE] If a tile does not have a Find or Create link, click a link for the item you wish to find or create, on the tile. For example, the Cloud Services tile does not contain Find or Create links. If you wish to find or create a new Cloud Subscription, click the Cloud Subscriptions link. The next page will allow you to Find Cloud Subscriptions, and a Create link will be located in the upper-right corner.
 
-Tiles may contain other links, than Create and Find. Those links are related to the tile where they are located. Check our [Feature Focus Section](/lod-home.md/#feature-focus) for more information. If you've already read through all of the documentation that is available on that topic, and you are still looking for more information, or have questions, please visit our [Contact Us](/docs/contact-us.md/#contact) page.
+Tiles may contain other links, than Create and Find. Those links are related to the tile where they are located. 
 
 ### Details View
 

@@ -37,7 +37,10 @@ function get-spperms{
         $script:msGraphAccess.ResourceAccess += $resourceAccess
     }
 
-    $aadGraphPrincipal = Get-AzureADServicePrincipal -All $true | Where-Object {$_.DisplayName -eq "Microsoft.Azure.ActiveDirectory"}
+    $aadGraphPrincipal = Get-AzureADServicePrincipal -All $true | Where-Object {$_.DisplayName -eq "Windows Azure Active Directory"}
+    if($aadGraphPrincipal -eq $null){
+        $aadGraphPrincipal = Get-AzureADServicePrincipal -All $true | Where-Object {$_.DisplayName -eq "Microsoft.Azure.ActiveDirectory"}
+    }
     $script:aadGraphAccess = New-Object -TypeName "Microsoft.Open.AzureAD.Model.RequiredResourceAccess"
     $script:aadGraphAccess.ResourceAppId = $aadGraphPrincipal.AppId
     foreach($guid in $($aadGraphPrincipal.Oauth2Permissions.Id)){
@@ -155,7 +158,7 @@ function configure-resource-providers($subId,$subscriptionName){
     # Register Databricks Provider
     $databricks = Get-AzResourceProvider -ProviderNamespace Microsoft.Databricks
     if($databricks.RegistrationState -ne "Registered"){
-        $registering = Register-AResourceProvider -ProviderNamespace Microsoft.Databricks
+        $registering = Register-AzResourceProvider -ProviderNamespace Microsoft.Databricks
         "$($registering.ProviderNamespace): $($registering.RegistrationState)"
     }
 

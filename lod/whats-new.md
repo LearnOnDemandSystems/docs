@@ -7,8 +7,313 @@
 </div>
 
 # What's New in Lab On Demand
-<span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a></span>
-## **Released January 30, 2021**
+<span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other Learn on Demand Systems platforms?</a></span>
+
+## **Released July 29, 2021**
+
+**LOD Improvements and Fixes**
+
+- Improved Pre-Instance performance using in-memory data and by removing recursive logic
+- Rather than default to CSFX, cloud scripts will now target SEE by default.
+- Added scale-out support for developer files.
+- A new field has been added to Lab Series, Default Assignment Duration Days. The duration of all Lab Series assignments created using this lab series will be set to the value of this field.
+- Mandatory note fields can no longer be bypassed by entering a space character.
+- Removed the Cloud Log Transfer tab from Azure Cloud Subscription Pools.
+- Network ACL is now included when exporting and importing lab profiles.
+- vSphere labs no longer display a Record RDP Session option. RDP session recordings are only available for Hyper-V labs.
+- Newly created Organizations will now have the Template Gallery enabled by default.
+- When signing into Lab on Demand using Corporate Azure Active Directory authentication, you will now be prompted to select the account used to sign in.
+- When searching for Lab Profiles, the search can now be filtered by the presence or absence of Life Cycle Actions.
+- Outcome variable names and languages are now persistent when editing an Automated Activity.
+- Fixed a bug resulting in an AWS teardown error due to a dependency on IAM resource. 
+- Fixed a bug resulting in the wrong SCSI ID to be used in newly created virtual machine profiles when using the Save-as New Lab functionality from a running lab.
+- Fixed a bug resulting in an application error when creating a Lab Series from an Organization page.
+- Fixed a bug preventing lab authors from overwriting files when uploading a file/image to a lab profile's instructions. 
+- Fixed several bugs preventing Azure Cloud Slice Subscriptions from moving between management groups correctly.
+- Fixed a bug preventing AWS VPC deployment to default regions.
+
+## **Released July 1, 2021**
+
+**Pricing**
+
+- Lab costs are now shown in USD, regardless of user language. 
+
+**Code Labs**
+
+- Lab On Demand now supports a new type of container image classed as CodeLab. The type filter on the Find Container Image page now supports filtering by type Codelab. 
+- A new Code Language Administration page has been created. This allows for the management of the container used, the default templates shown in the Edit Code Fabric screen, and information used to process submitted code in the CodeHost. 
+- Code language data is now pulled from a database object instead of being stored uniquely in each lab profile. 
+- <a href="https://docs.learnondemandsystems.com/lod/code-lab.md">Code Lab Documentation</a>
+
+**Lab Instance Error Viewing By Organization**
+
+- Lab authors with the "Error Viewing (by organization)" permission can now view any lab instance errors occurring in lab instances of lab profiles belonging to the organizations they manage. The Find Lab Instance Errors search page can be located under the Lab Instance tile on the Lab on Demand admin page.
+
+**AWS**
+
+- Two new services are now available in AWS Cloud Slice, Tag Editor and Resource Group Editor. 
+- Fixed a bug allowing a user to access an AWS region selected in the Override Datacenter drop-down menu even when not enabled on the lab profile.
+- <a href="https://docs.learnondemandsystems.com/lod/aws-capabilities.md">AWS Services capabilities documentation</a>
+
+**LOD Improvements and Fixes**
+
+- Cloud Slice Subscription labs that apply an Access Control Policy at the subscription level are now returned in search results for that Access Control Policy. 
+- If Background Event Service discovers residue on a virtualized host, cloud hosts will now ignore requests to tear down resources on the associated dedicated subscription if the subscription has already been assigned to another lab instance. 
+- Child lab profiles inheriting an environment can no longer be exported. 
+- Docker host app settings have been moved into environment specific files. 
+- Client-side gateway scripts updated to allow Firefox to work with client-side ESM audio recording. 
+- Activity groups in the Lab on Demand API v3.0 have been updated. When an activity group is used, the name of the group is sent as a variable with the total score for activities within that group only. In addition, full responses are sent for each individual activity. 
+- Implemented support for SES scale out. 
+- Fixed a bug preventing an ABA from picking up a variable set by a previous ABA when scoring a lab/exam. 
+- Fixed a bug preventing lab authors from taking VM screenshots from the instructions editor. 
+- Fixed a bug preventing internal administration of an account when removing an API consumer. 
+- Fixed a bug preventing a post-build LCA from executing when preceded by a blocking post-build LCA. 
+- Fixed a bug preventing lab saves on newly launched container labs. 
+- Fixed a bug preventing changing a Virtual Machine Display Name. 
+- Fixed a bug resulting in some users unable to launch into pre-instanced labs due to public IP availability. 
+- Fixed a bug resulting in an application error when navigating back from an error page generated when saving a lab profile. 
+- Fixed a bug resulting in an error when scripts are rapidly executed against a single-instance SEE container. 
+- Fixed a bug resulting in an unknown platform type on removable media when imported as part of a lab profile. 
+
+## **Released May 22, 2021**
+
+**IDLx**
+
+- IDLx variable assignment now supports a new password textbox. The textbox can be created in IDLx via the @lab token @lab.MaskedPassword(name). Text entered into the box will be obscured from the user, and will be assigned to the lab variable Name.
+- Fixed an issue preventing IDLx replacement tokens with repeated special characters from displaying properly.
+
+**Nested Virtualization**
+
+An option to allow a vSphere VM guests to know their virtualization status has been added to vSphere fabric virtual machine profiles.
+
+**LOD Improvements and Fixes**
+
+- An improvement to the batch operation efficiency of AWS Log transfer has been implemented.
+- Implemented compatibility mode for HyperV Gen1 virtual machines.
+- Fixed an issue causing Series Save As to not save the answers for multiple choice questions in IDLx.
+
+## **Released May 7, 2021**
+
+**Script Execution Engine**
+
+Our next generation Script Execution Engine, SEE is now available to power ABA automated activities and scripted Life Cycle Actions. This new engine allows LOD to expand into new scripting languages and also makes it easy for lab developers to add custom modules from select repositories. Languages will be available via a drop-down menu when authoring activities. Legacy options will still be available to run existing scripts already in place. In addition to running on virtual machines and containers, the following language combinations are now available:
+
+- C# .NET 5
+- C# .NET 5 | Azure.Core 1.13.0
+- node.js 14 | AWS SDK for JS 3
+- node.js 14.16.1
+- PS 7.1.3
+- PS 7.1.3 | AWS CLI 2.1.39
+- PS 7.1.3 | AWS.Tools 4.1.10.0
+- PS 7.1.3 | Az 5.7.0
+- PS 7.1.3 | Azure-CLI 2.22.1
+- Python 3.9.4
+- Python 3.9.4 | AWS Boto3 1.17.50
+- Python 3.9.4 | Azure SDK 1.13.0
+- PS 5.1 | AWSPowershell.netcore 4.1.3.0 (Legacy)
+- PS 5.1 | AzureRM 6.8.1 (Legacy)
+
+**Disable Compatibility Mode**
+
+HyperV Virtual Machines now can have Compatibility Mode disabled from the Advanced tab of the Edit Virtual Machine Profile page. Disabling Compatibility mode passes the flag limitProcessorFeatures=false to the hypervisor on Virtual Machine creation, allowing advanced instruction sets to be utilized by the guest Virtual Machine. Lab Profiles containing Virtual Machines with Compatibility Mode disabled cannot be migrated between hosts, and cannot utilize Virtual Machine Start States.
+
+Two permissions have been added to LOD to manage Compatibility Mode under Lab Development: Host Compatibility Edit Global and Host Compatibility Edit By Organization.
+
+**AWS**
+
+- Added Support for AWS Service Event Bridge Schema
+- Added Support for AWS Service SQS
+- Fixed a bug preventing labs from saving when an access key was added to a user account.
+
+**LOD Improvements and Fixes**
+
+- HTML5 gateway updated to allow sound recording via Chrome and Edge browsers.
+- Cloud automated activities can now set the activity's score by percentage.
+- Script Execution Engine no longer displays a cloud subscription chooser in Cloud Slice Subscription multi-subscription labs when a locally hosted virtual machine is selected as the script target.
+- The start state cache link will no longer be shown when the account viewing the lab profile page does not have the permissions necessary to modify the cached start state.
+- The LOD API service now returns ActivityGroupResults as part of the Lab Instance Details call. 
+
+
+## <u>Released April 23, 2021</u>
+
+**Code Labs**
+
+- JavaScript has been added as a Code Lab language.
+- Setting a language as default now correctly displays that language when starting a Code Lab.
+- When canceling a lab conversion to a code lab fabric, the code lab fabric checkbox is now unchecked.
+- Copying a Code Lab that contains activities generates new internal activity IDs.
+
+**RDP Session Recording**
+
+- When editing an Organization, the "Retain session Recording for * days" information icon now correctly displays help text.
+- Lab Instance Virtual Machine Recordings can now be downloaded from the Lab Instance Virtual Machine Recordings page as .rdpv files.
+- The  Lab Instance Virtual Machine Recordings page now contains a link to navigate back to the parent Lab Session Details page.
+
+**AWS**
+
+- AWS Service Linked Roles will now be removed on cloud teardown. The following roles will persist through lab instances.
+    - AWSServiceRoleForSupport
+    - AWSServiceRoleForCloudTrail
+    - AWSServiceRoleForTrustedAdvisor
+    - AWSServiceRoleForOrganizations
+    - OrganizationAccountAccessRole
+    - AWSServiceRoleForSSO
+- Added additional logic to AWS so that Virtual Machines with termination protection are properly torn down.
+- Added verification to AWS Stack Deployment Name Field.
+
+**LOD Improvements and Fixes**
+
+- The ability to export Virtual Machines have been restricted to those with Global Storage Management permissions.
+- Added additional logic to AWS so that Virtual Machines with termination protection are properly torn down.
+- Unassign Credential Link is now displayed next to the first property in the resources tab of the lab client.
+- Corrected a typo in the security review dialog displayed on a cloud lab profile.
+- The German localization for "ID" has been updated.
+- Public IP replacement tokens now appear in the instructions editor for child labs inheriting an environment. 
+- The Subscription Token dropdown will now be populated on newly created Multi-Subscription Cloud Slice Subscription labs.
+- Labs will no longer launch against disabled classes through API consumer.
+- Fixed a typo in an Azure provisioning error message.
+- Attempting to save a new Azure Cloud Subscription to a Cloud Subscription Pool without a Cloud Subscription Id will now warn that a valid Cloud Subscription Id is required.
+- Azure hosted Virtual Machines in Azure Cloud Slice Subscription saved labs now properly resume when the lab is resumed.
+
+## <u>Released April 9, 2021</u>
+
+**Code Labs**
+
+- Swift has been added as a supported code language.
+- Ruby has been added as a supported code language.
+- Code Labs now support scoring via API. For more information about scoring labs via API, click <a href="https://docs.learnondemandsystems.com/lod/lod-api/lod-api-score-activities.md">here</a>.
+- Code Labs lab instance details can now be returned via API. For more information about returning lab details via API, click <a href="https://docs.learnondemandsystems.com/lod/lod-api/lod-api-details.md">here</a>.
+- Code Labs tests activity results are now displayed on the lab details page. The details contain the console output, as well as metadata such as language and elapsed runtime.
+- Code Labs now support the Learning Tools Interoperability (LTI) 1.1 & 1.3 standard for integration with Learning Management Systems. 
+
+**LOD Improvements and Fixes**
+- Cloud Slice Subscription labs are now returned as results when searching by Access Control Policy.
+- Fixed a dependency issue that would prevent the removal of CloudFormation stacks dependent on a missing role.
+- Fixed a bug preventing AWS Fabric labs from launching after they are created via Save-As.
+- The support chat link appearing in the lab client will now be determined by the organization the lab user is a member of, rather than the source organization for the lab.
+- AWS Fabric labs with shared subscriptions no longer support executing Life Cycle Actions against AWS.
+
+## <u>Released March 26, 2021</u>
+
+**Virtual Machine Key Codes**
+
+Clickable links to send keyboard shortcuts to a virtual machine can now be added via the `@lab.KeyCombo(Label)[KeyCode1, KeyCode2]` syntax. 
+
+For example, when `@lab.KeyCombo(Win+Tab)[91,9]` is written into the instructions, a clickable link with the text Win+Tab will be rendered into the instruction pane. When the link is selected by a student, the keycodes 91 (Windows Meta Key) and 9 (Tab) will be sent to the virtual machine. These particular keycodes will open task view in the Windows operating system. Not all keycodes/combos are available, please verify the keycodes required for your scenario are available before publishing your lab.
+
+**LOD Improvements and Fixes**
+
+- A new Lab Profile search filter, Code Lab, has been added to help locate labs that are or are not code labs.
+- Cloud Slice labs that deploy resources to the cloud in the background now require at least one ACP to be immediately applied on lab launch.
+- Shared Class environments may no longer be launched after the end of a class availability. A message will be shown informing the instructor why they may not launch the lab, "The class this shared lab environment is being launched against is no longer available." 
+- The Code Lab Save icon now properly reflects the save status while editing Code Labs.
+- Updated the error messages and required asterisks on the create user page for conformity and clarity.
+- AWS Cloud Slice labs no longer show an invalid option to Enable Multiple Subscriptions.
+- Fixed an issue that allows Azure Cloud Slice labs to properly clean up Recovery Services Vaults with Protected Items.
+- Fixed an issue preventing S3 buckets from being torn down when they contained an item.
+- Resolved a bug that prevented scrolling in a virtual machine when using Chrome 89.
+
+
+## <u>Released March 12, 2021</u>
+
+**Code Labs**
+
+- Expanded the size of the input fields for creating custom test variables to better accommodate testing against strings. 
+- The enabled icon now accurately shows the status of the selected language without having to exit or refresh the Code Lab editor. 
+- Improved handling of the default language selection: 
+  - When no default language is selected, the Code Lab will display the first enabled language. 
+  - Disabling a language that has been selected as default will remove the selection. 
+
+**Lab on Demand API Accounts**
+
+When launching via API call, we will now append a unique identifier to the username when an existing user not associated with an API consumer shares the same username.
+
+**LOD Improvements and Fixes**
+
+- Updated the Lab Client Main Menu button to show an outline on focus. 
+- Default Lab on Demand session length has been extended to 240 minutes 
+
+## <u>Released February 26, 2021</u>
+
+**Lab Series Save-as**
+
+The option to save a lab series as a new series has been added to Lab on Demand.
+After selecting the Save-as link from the lab series edit page, a dialog box will be shown allowing you to name the new series, choose a different organization, and deselect any lab profiles you would not like to carry over into the new series.
+
+**Restricted Editing Permissions Around Lab Profiles Published to The Template Gallery**
+
+Editing of Lab Profiles and dependencies will be restricted to those able to publish to the gallery when a lab profile is already published to the corresponding gallery (Public or Organization). A banner has also been placed at the top of any lab profile published to a gallery. Dependencies include:
+- VM profiles
+- Container Profiles
+- Cloud Templates
+- Access Control Policies
+- Instructions
+- Differencing Disks
+- Start States
+ 
+**Azure Cloud Slice**
+
+- Azure CSS labs now maintain their Access Control Policies when created via the Save menu within the lab client. 
+- Added additional retries to Azure Management Group operations.
+- Azure hosted VMs running in Azure CSR labs now properly deallocate and resume when a lab is saved.
+- The lab instance details page now supports showing all subscriptions for multiple subscription CSS labs.
+ 
+**Code Labs**
+
+ - Code lab custom tests can now be edited after creation.
+ - Code labs now retain custom tests after the page has been refreshed.
+ - Code labs custom tests now properly display returned results for multiple tests.
+ - A default language for Code labs can now be chosen from the Code lab creation menu.
+ - Code labs can now be immediately started after creation, without adding a default test or language.
+ 
+**Launch on Datacenter**
+
+Hyper-V and vSphere lab profiles can now be launched against a chosen datacenter. To view the Launch on Datacenter option in the lab profile, lab developers will need organization management and storage management permissions. The organization they manage will all need to be configured so that storage is available across multiple datacenters.
+ 
+**LOD Improvements and Fixes**
+
+- Updated VM Gateway Client Scripts.
+- Updated translations for Japanese, Simplified Chinese, Korean, French, and Spanish.
+- When searching for Lab Instance Errors from a selected Cloud Subscription Pool, search results are now returned properly.
+- Fixed a bug preventing an admin from launching a second instance of participant lab belonging to a shared lab class in Lab on Demand. 
+- Fixed a bug preventing multi-subscription labs from importing with the correct number of subscriptions.
+- Fixed a bug preventing vSphere labs from saving or resuming after having been moved between lab hosts.
+- Fixed a bug preventing an instructor from launching into a shared environment lab when initially launched in conjunction with a participant lab.
+
+## <u>Released February 12, 2021</u>
+
+**Central Authentication**
+
+Lab on Demand implemented enhanced account security for user accounts that sign in with a username/password. You can learn more about these security measures [here](https://www.learnondemandsystems.com/enhanced-account-security-faq/).
+Local users will be prompted to reset their LOD password upon login at https://labondemand.com. Users logging in through API or Corporate Azure AD will not be prompted to reset their password.
+
+**Multiple Cloud Slice Subscriptions**
+
+Lab on Demand now supports multiple Azure subscriptions in Cloud Slice Subscription labs. 
+
+**AWS Services**
+
+AWS Cloudshell Service now supported.
+
+**LOD Improvements and Fixes**
+- Lab authors can now disable individual scripts within automated activities.
+- Code labs now allow tests and test inputs to be created without first adding a code language.
+- IDLx activities can now be hidden from the scoring output of a lab instance.
+- The "go to page" feature of outcomes now correctly sends users to the top of the target page.
+- The search field is no longer obscured while searching within the Cloud Resource Template editor. 
+- Full screen view is no longer obscured within the Cloud Resource Template editor.
+- Added a Launch on Datacenter option to launch on-prem virtualization labs on a target datacenter.
+- Added a rescoreAll parameter to the ScoreActivities API call. Triggering scoring of a lab with the rescoreAll=1 parameter rescores all lab activities, overwriting all previous results.
+- The number of ports utilized by a container lab is now shown in the basic information tab of the lab profile.
+- An Email Confirmation has been added when creating an account.
+- vLan ID can now be specified per network on vSphere fabric lab profiles.
+- Fixed a bug resulting in broken links when on a Lab on Demand class.
+- Fixed a bug resulting in an incompatibility between Wait for Heartbeat option on VM and Deploy in Background option on resource group in cloud tab of a lab profile.
+- Fixed a bug where cloud security review would persist when updating the parent of a child lab profile
+- Fixed a bug preventing child labs from inheriting resources when updating to a different parent profile.
+
+
+## <u>Released January 30, 2021</u>
 
 **Code Labs**
 
@@ -22,6 +327,7 @@ Code Labs can help you provide a comprehensive development environment for learn
 -	R 
 
 **New Note Fields**
+
 Notes may now be left on the following entities from the details page. A notes dialog will also prompt when updating an existing entity.
 -	Organizations. 
 -	Cloud Credentials Pools. 
@@ -44,7 +350,7 @@ Notes may now be left on the following entities from the details page. A notes d
 -	Fixed a scrolling issue when lab developers were rearranging activities. 
 -	The Move Up/Move Down buttons are now populated when adding new scripts to an activity. 
 
-## **Released January 16, 2021**
+## <u>Released January 16, 2021</u>
 
 **Activity Based Assessment Outcomes**
 Outcomes offer adaptive learning experiences based on the result of an automated activity or question. This allows lab authors to provide additional guidance if a student were to answer a question incorrectly, or move the student forward at an expedited pace if the student answers correctly. An outcome consist of an event, condition, action, and target. 
@@ -85,7 +391,7 @@ Outcomes offer adaptive learning experiences based on the result of an automated
 - Fixed a bug that prevented API Consumers with LTI 1.3 integration from correctly provisioning a JWK based on the Client ID.
 - Incoming LTI 1.3 tokens will now be recorded to the lab instance details page for better visibility.
 
-## **Released December 4, 2020**
+## <u>Released December 4, 2020</u>
 
 **External Instruction Service**
 - Optimizations have been made to support upcoming changes in ADO and GitHub, to change the primary branch name from Master to Main.
@@ -113,7 +419,7 @@ Outcomes offer adaptive learning experiences based on the result of an automated
 - Terms and Conditions are now linked in the footer of Lab on Demand.
 - Fixed a bug resulting in users exceeding the maximum number of retakes allowed in a lab series.
 
-## **Released November 20, 2020**
+## <u>Released November 20, 2020</u>
 
 **AWS v2 Lab Host**
 - AWS lab fabric support has been updated with changes that will improve stability, efficiency and scalability. 
@@ -132,7 +438,6 @@ Outcomes offer adaptive learning experiences based on the result of an automated
 - When a Shared Environment lab is cancelled, a warning is now displayed to notify the user that all participant labs will be cancelled. 
 - When setting a lab to be a Shared Class Environment, the setting to save/cancel labs when the Last Activity threshold is exceeded, is now unchecked. This will prevent participant labs from being cancelled when the Shared Environment is cancelled due to inactivity. 
  
- 
 **LOD Improvements and Fixes**
 - Added a new IDLx replacement token that shows the region where a cloud resource group is deployed.
 - Activity Task Lists now list results in lab instance details page.
@@ -141,7 +446,7 @@ Outcomes offer adaptive learning experiences based on the result of an automated
 - Fixed a bug causing errors when viewing, modifying, or exporting lab manuals after exporting and importing an AWS lab series.
 - Fixed a bug that prevented the Enable Navigation Warning setting from working in some lab configurations. 
 
-## **Released November 6, 2020**
+## <u>Released November 6, 2020</u>
 
 **Support Chat**
 - Lab on Demand now has a support chat option on the Admin site, as well as in the lab client. Users can initiate a chat session with our Support Team. This feature is enabled by default for all organizations, but it can be disabled if needed from the organization profile. Chat transcripts are stored in a support ticket, and a copy is emailed to the user.
@@ -171,7 +476,7 @@ The permissions required to inspect disks in Lab on Demand have been adjusted.
 - Fixed a bug that improperly appended title information to container labs.
 - Fixed a bug preventing ABA scripts from appearing in lab profiles created from the template gallery.
 
-## **Released October 16, 2020**
+## <u>Released October 16, 2020</u>
 
 **Cloud Watchdog**
 
@@ -204,7 +509,9 @@ Life Cycle Actions (LCA) can now be inherited on child lab profiles. Child lab p
 - When choosing a particular cloud subscription to launch a cloud lab, only subscriptions in the pool configured on the lab profile will be shown. 
 - Updates to virtual machines, including differencing disks, will be blocked when a snapshot is detected on the VM due to incompatibility. If needed, the snapshots may be removed to restore differencing functionality. 
 
-## **Released October 2, 2020**
+<!--
+
+## <u>Released October 2, 2020</u>
 
 **Enhanced Lab Saving**
 
@@ -371,7 +678,7 @@ External instruction source has been updated with performance enhancements for t
 - Fixed a bug that hid the _Allow Setting Expiration Time_ drop-down menu when creating new lab profiles.
 - Fixed a bug that prevented lab developers from adding VM profiles to a lab profile when the number of vCPUs did not exceed the limit.
 - Fixed a bug that resulted in some extraneous text displayed next to the Force Check In link in the instruction editor.
-<!--
+
 ## **Released July 10, 2020**
 
 **Multi-fabric Sequencing**

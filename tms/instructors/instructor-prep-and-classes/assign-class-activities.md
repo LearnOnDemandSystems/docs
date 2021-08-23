@@ -55,5 +55,5 @@ Enrolled students only see the activities that are manually assigned to them or 
 
 ### Additional Resources
 - [How do I set up a course to enable assigning class activities to different students?](tms/tms-administrators/courses-and-activities/labs/course-enable-assigning-class-activities.md)
-- [How do I disable class activities for all students?](/tms/tms-administrators/courses-and-activities/labs/disable-class-activities.md)
+- [How do I disable class activities for all students?](/tms/instructors/instructor-prep-and-classes/disable-class-activities.md)
 

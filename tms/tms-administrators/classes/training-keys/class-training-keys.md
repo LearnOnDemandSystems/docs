@@ -47,7 +47,7 @@ Main features:
 
 ## Event Training Keys
 
-vent training keys also allow students to register for instructor-led classes. With this method, you create one key for the entire class. This is very easy to use since all students use the same key to enroll. 
+Event training keys also allow students to register for instructor-led classes. With this method, you create one key for the entire class. This is very easy to use since all students use the same key to enroll. 
 
 There are unique benefits to using an event training key. If you have an automated notification set up to send class enrollment reminders, you can provide students with the event training key in the notification using replacement text. In addition, you have options in setting the timeframe when the key is valid. Event training keys have the option of being set to be redeemed before class starts and while it is in session or before class starts, while it is in session, and until post class lab access expires. Post class lab access begins from the class' end date, not on when the key was redeemed. 
 

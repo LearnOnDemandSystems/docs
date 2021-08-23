@@ -18,6 +18,15 @@
   <div class="subtopic selected">
     <div class="subtopic_header" tabindex="0" title="General Docs" role="button" aria-selected="true" selected>General</div>
     <div id="body_1" class="subtopic_links">
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/course-profile-explanation.md">
+        <div class="subtopic_title">Course Profile Explanation</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/how-do-i-add-a-course-to-a-subscription-profile-from-a-course.md">
+        <div class="subtopic_title">How do I add a course to a subscription profile from a course?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/add-course-resources.md">
+        <div class="subtopic_title">How do I add resources to a course?</div>
+      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/create-course.md">
         <div class="subtopic_title">How do I create a basic course?</div>
       </a>
@@ -63,6 +72,9 @@
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/course-setting-disable-class-activities.md">
         <div class="subtopic_title">How can I set up a course for disabling class activities?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/how-do-i-add-a-microsoft-learn-activity-as-a-course-activity.md">
+        <div class="subtopic_title">How do I add a Microsoft Learn Activity as a Course activity?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/labs/course-enable-assigning-class-activities.md">
         <div class="subtopic_title">How do I set up a course to enable assigning class activities to different students?</div>

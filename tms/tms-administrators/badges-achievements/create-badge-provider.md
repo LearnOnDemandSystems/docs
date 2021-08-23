@@ -3,7 +3,7 @@ title: "How do I create a badge provider in the TMS?"
 isPublished: true
 ---
 
-# How do I create a badge brovider in the TMS?
+# How do I create a badge provider in the TMS?
 
 > Please be aware that not all functionality covered in this and linked articles may be available to you.
 

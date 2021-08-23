@@ -22,6 +22,22 @@
         <div class="subtopic_title">Amazon Web Services API Capabilities</div>
         <div class="subtopic_description">A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation.</div>
       </a>
+      <a class="subtopic_link" href="/lod/aws-cloud-log-transfer.md">
+        <div class="subtopic_title">AWS Cloud Trail Log Transfer</div>
+        <div class="subtopic_description">AWS Cloud Trail logging enables the ability to audit all cloud logs in a user session and store those logs in a storage location.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/aws-lab-authoring.md">
+        <div class="subtopic_title">AWS Lab Authoring </div>
+        <div class="subtopic_description">Authoring a lab profile that uses AWS cloud technologies.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/aws-permission-boundary.md">
+        <div class="subtopic_title">AWS Permission Boundaries</div>
+        <div class="subtopic_description">Following the principle of least privilege, the permissions boundary ensures that users you create have only the permissions they require to perform lab tasks.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/aws-virtualization.md">
+        <div class="subtopic_title">AWS Virtualization</div>
+        <div class="subtopic_description">Upload a VHD to AWS and create a VM profile.</div>
+      </a>      
       <a class="subtopic_link" href="/guides/cloud-slice/aws/aws-cloud-slice-setup.md">
         <div class="subtopic_title">Enable Cloud Slice Support in AWS</div>
         <div class="subtopic_description">Setup process to enable cloud slice support in the AWS portal.</div>
@@ -66,6 +82,10 @@
       <a class="subtopic_link" href="/guides/cloud-slice/microsoft-azure/cloud-slice-find-resource-templates.md">
         <div class="subtopic_title">Find Azure Resource Templates</div>
         <div class="subtopic_description">How to find Azure Resource Manager templates for use with Microsoft Azure.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/azure-css.md">
+        <div class="subtopic_title">Microsoft Azure Cloud Slice Subscription</div>
+        <div class="subtopic_description">Configure a lab profile to deliver training on Microsoft Azure subscriptions.</div>
       </a>
       <a class="subtopic_link" href="/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md">
         <div class="subtopic_title">Setup your Azure cloud subscription in OneLearn Lab on Demand</div>

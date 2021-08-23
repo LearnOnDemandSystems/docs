@@ -30,6 +30,26 @@
         <div class="subtopic_title">Amazon Web Services API Capabilities</div>
         <div class="subtopic_description">A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation. Below the table is a brief description for each service name.</div>
       </a>
+      <a class="subtopic_link" href="/lod/vm-auto-login.md">
+        <div class="subtopic_title">Automatic Login for Windows Virtual Machines</div>
+        <div class="subtopic_description">Configure a Windows virtual machine to log in automatically without the need to enter a username and password.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/aws-cloud-log-transfer.md">
+        <div class="subtopic_title">AWS Cloud Trail Log Transfer</div>
+        <div class="subtopic_description">AWS Cloud Trail logging enables the ability to audit all cloud logs in a user session and store those logs in a storage location.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/aws-lab-authoring.md">
+        <div class="subtopic_title">AWS Lab Authoring </div>
+        <div class="subtopic_description">Authoring a lab profile that uses AWS cloud technologies.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/aws-permission-boundary.md">
+        <div class="subtopic_title">AWS Permission Boundaries</div>
+        <div class="subtopic_description">Following the principle of least privilege, the permissions boundary ensures that users you create have only the permissions they require to perform lab tasks.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/aws-virtualization.md">
+        <div class="subtopic_title">AWS Virtualization</div>
+        <div class="subtopic_description">Upload a VHD to AWS and create a VM profile.</div>
+      </a>      
       <a class="subtopic_link" href="/lod/how-to-use-api-consumer.md">
         <div class="subtopic_title">API Best Practices and How to Use an API Consumer</div>
         <div class="subtopic_description">Guides through the steps to configure an API Consumer in LOD, as well as best practices.</div>
@@ -57,6 +77,14 @@
       <a class="subtopic_link" href="/lod/azure-virtualization.md">
          <div class="subtopic_title">Azure Virtualization</div>
          <div class="subtopic_description">Deploy an Azure hosted virtual machine.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/blackboard-lti-initialization.md">
+        <div class="subtopic_title">Blackboard LTI Initialization</div>
+        <div class="subtopic_description">Configure an instance of Blackboard to use LTI.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/saml-integration.md">
+        <div class="subtopic_title">B2C SAML Integration</div>
+        <div class="subtopic_description">Configure an Azure Enterprise Application for SAML-based Single Sign-On.</div>
       </a>
       <a class="subtopic_link" href="/lod/cloud-security/cloud-security-home.md">
          <div class="subtopic_title">Cloud Security Resources</div>
@@ -129,7 +157,11 @@
       <a class="subtopic_link" href="/lod/instruction-source.md">
         <div class="subtopic_title">External Instruction Source</div>
         <div class="subtopic_description">Use an Azure DevOps or GitHub repository as the instruction source for labs.</div>
-      </a>                
+      </a>            
+      <a class="subtopic_link" href="/lod/start-states.md">
+        <div class="subtopic_title">Hyper-V Start States</div>
+        <div class="subtopic_description">Start States allow you to create a point in a lab where the lab will launch from for subsequent launches.</div>
+      </a>            
       <a class="subtopic_link" href="/lod/activities.md">
         <div class="subtopic_title">IDLx Activities</div>
         <div class="subtopic_description">Activities fall into two broad categories: Questions and Automated. Questions are simply multiple choice or short answer questions. Automated Activities have a script configured to run against a cloud subscription or Windows-based virtual machines running on Hyper-V in the lab.</div>
@@ -145,10 +177,6 @@
       <a class="subtopic_link" href="/lod/idlx-development-best-practices.md">
         <div class="subtopic_title">IDLx Lab Development Best Practices</div>
         <div class="subtopic_description">This document covers best practices for IDLx lab development, to assist in creating a rich learning experience.</div>
-      </a>
-      <a class="subtopic_link" href="/lod/idlx-lab-interface-overview.md">
-        <div class="subtopic_title">IDLx Lab Interface Overview</div>
-        <div class="subtopic_description">This document is an overview of the lab interface, and an explanation of the various functions available.</div>
       </a>
       <a class="subtopic_link" href="/lod/variables.md">
         <div class="subtopic_title">IDLx Lab Variables</div>
@@ -170,9 +198,17 @@
         <div class="subtopic_title">Lab Developer Roles</div>
         <div class="subtopic_description">This guide covers which roles enable lab developers to utilize certain features.</div>
       </a>
+      <a class="subtopic_link" href="/lod/lab-developer-faq.md">
+        <div class="subtopic_title">Lab Developer FAQ</div>
+        <div class="subtopic_description">Frequently asked questions to assist lab developers.</div>
+      </a>
       <a class="subtopic_link" href="/lod/lod-lab-developers/lab-instance-sharing.md">
         <div class="subtopic_title">Lab Instance Sharing</div>
         <div class="subtopic_description">Lab Instance Sharing allows multiple users to work together in a lab profile at the same time. </div>
+      </a>
+      <a class="subtopic_link" href="/lod/lab-interface.md">
+        <div class="subtopic_title">Lab Interface Explanation</div>
+        <div class="subtopic_description">Explanation of all lab interface buttons and menus.</div>
       </a>
         <a class="subtopic_link" href="/lod/lab-interface-faq.md">
         <div class="subtopic_title">Lab Interface Frequently Asked Questions</div>
@@ -194,6 +230,18 @@
         <div class="subtopic_title">Lab on Demand Scoring</div>
         <div class="subtopic_description">The Lab on Demand platform supports the ability to score users either in an exam/quiz format or within a hands-on lab.</div>
       </a>
+      <a class="subtopic_link" href="/lod/scripting-home.md">
+        <div class="subtopic_title">Lab on Demand Cloud Script Execution</div>
+        <div class="subtopic_description">Scripting language syntax for interacting with Lab on Demand and Cloud providers.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/lab-profile-cloning.md">
+        <div class="subtopic_title">Lab Profile Cloning</div>
+        <div class="subtopic_description">Create a duplicate copy of a lab profile by cloning.</div>
+      </a>  
+      <a class="subtopic_link" href="/lod/lab-series-cloning.md">
+        <div class="subtopic_title">Lab Series Cloning</div>
+        <div class="subtopic_description">Create a duplicate copy of a Lab Series by cloning.</div>
+      </a>  
       <a class="subtopic_link" href="/lod/feature-focus/lab-profiles/create.md">
         <div class="subtopic_title">Lab Profile Creation and Explanation</div>
         <div class="subtopic_description">Lab profile creation, and explanation of lab profile configuration.</div>
@@ -222,6 +270,10 @@
         <div class="subtopic_title">Markdown User Guide</div>
         <div class="subtopic_description">This document covers Markdown in detail, including syntax for all supported Markdown.</div>
       </a>
+      <a class="subtopic_link" href="/lod/azure-css.md">
+        <div class="subtopic_title">Microsoft Azure Cloud Slice Subscription</div>
+        <div class="subtopic_description">Configure a lab profile to deliver training on Microsoft Azure subscriptions.</div>
+      </a>
       <a class="subtopic_link" href="/lod/org-max-ram.md">
         <div class="subtopic_title">Organization RAM Limits</div>
         <div class="subtopic_description">Max RAM usage, max active lab instances and max RAM per lab profile.</div>
@@ -245,6 +297,10 @@
       <a class="subtopic_link" href="/guides/sl/sharedlabs.md">
         <div class="subtopic_title">Shared Labs (a.k.a. Cyber-Range)</div>
         <div class="subtopic_description">Configure a Shared Lab environment.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/spla-supported.md">
+        <div class="subtopic_title">SPLA Supported Software</div>
+        <div class="subtopic_description">Supported products and the conditions within Learn on Demand Systems implementation of the SPLA program.</div>
       </a>
       <a class="subtopic_link" href="/lod/terminal-access.md">
         <div class="subtopic_title">SSH Terminal Access</div>

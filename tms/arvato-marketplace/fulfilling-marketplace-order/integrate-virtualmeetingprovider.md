@@ -12,15 +12,15 @@ You can easily integrate with the virtual meeting provider of your choice to pro
 
 It quick and easy to set up class access to your virtual meeting provider within a TMS class. All you need is the meeting URL to enter as the Virtual Delivery type when you create a class. 
 
-![](/tms/images/cvcurlgotomeeting.png) 
+![](/tms/images/cvcurlgotomeeting.png){800}
 
 Once it is added your instructors and students will see an Enter Classroom button to access your virtual meeting from their class. When instructors go to their class, they can enter the virtual meeting and they always have access to open their labs.   
 
- ![](/tms/images/cvcinstructorenterclassroom.png) 
+ ![](/tms/images/cvcinstructorenterclassroom.png){800}
 
 When students come to their enrollment, they can enter the virtual meeting or open their labs. Clicking the Enter Classroom button directly adds them into the meeting. If the meeting host has not started the meeting, they need to wait for the meeting to begin. The launch buttons for labs and course activities appear when class begins. 
 
- ![](/tms/images/cvcstudententerclassroom.png)
+ ![](/tms/images/cvcstudententerclassroom.png){800}
 
 ## How to Find Meeting URLs from your Virtual Meeting Provider 
 
@@ -50,4 +50,4 @@ When students come to their enrollment, they can enter the virtual meeting or op
 
 Information on finding meeting URLs is located at the bottom of this article.
 
- [How can I meeting URLs assigned to classes?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md)
+ [How can I find meeting URLs assigned to classes?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/classrooms-equipment/custom-virtual-classroom.md)

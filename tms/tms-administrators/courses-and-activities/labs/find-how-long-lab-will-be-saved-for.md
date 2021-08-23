@@ -15,14 +15,8 @@ Standard lab saves are as follows:
 - Users with an **Instructor** role can save 5 labs for 7 days.
 - Students can save up to 2 labs:
      - Self-paced learning through a course assignment provides 7-day lab saves 
-     - Instructor-led training scheduled on consecutive class days has 2-day lab saves 
+     - Instructor-led training scheduled on consecutive class days has 7-day lab saves
      - Instructor-led training scheduled on non-consecutive class days has 7-day lab saves 
-
-## Class Sessions
-
-The way that class sessions are scheduled directly affects lab save times. When setting up sessions for a class, we recommend using the **Add Multiple Session Times** link when a class meets for more than one day. The TMS uses sessions to determine lab save times for students.
-
-If a class has sessions on consecutive days, student labs are saved for 2 days. If a class has sessions on nonconsecutive days, student labs are saved for 7 days. These are the standard labs saves applied across the TMS, however, there are exceptions. For example, this does not apply to all courses; courses using Public IP Addresses require a lab save every 3 days.
 
 We can set up lab saves outside of these defaults for special circumstances when necessary. If you need labs in a class to be saved for a different time period, please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help). 
 

@@ -20,6 +20,6 @@ Some of our organizations give out lab codes or training keys to unlock access t
 1. Fill in all the fields to register and click **Save**. 
 1. This will open your class Enrollment page, and your labs will display under the Activities section. Click **Launch** beside the lab you want to start.  
 
->:small_orange_diamond: [View a video on redeeming a training key.](https://youtu.be/iEgylayfgI4) 
+>:small_orange_diamond: [View a video on redeeming a training key.](https://youtu.be/XjWBNMslySY) 
 
 Once you have an account and have redeemed your Training Key, you will no longer need the lab code/training key to login. You will simply logon with your username and password at the same URL as before. This will open the Current Training page. You will click on the course name to return to your labs.

@@ -97,7 +97,7 @@ To create a Virtual Machine profile, click **Create Virtual Machine profile** fr
 
     - **Host Integration Enabled**: Enables Hyper-V Integration Services on the VM. This includes time synchronization with the host, heartbeat detection and graceful shutdown.
 
-    - **Use Enhanced Session Mode**: Enables a connection similar to an RDP connection, that allows for better performance with the HTML5 and Enhanced controllers. Enhanced session mode leverages guest services to enabled additional features such as: automatic VM logon, redirection of clipboard, audio, drives, devices, printers, and smart cards. When ESM is used in conjuction with the Enhanced controller, the login status will be preserved when switching between multiple virtual machines in a lab environment. If ESM is enabled and the HTML5 controller utilized, the virtual machines will show a login prompt whenever switching from one to another.
+    - **Use Enhanced Session Mode**: Enables a connection similar to an RDP connection, that allows for better performance with the HTML5 and Enhanced controllers. Enhanced session mode leverages guest services to enabled additional features such as: automatic VM logon, redirection of clipboard, audio, drives, devices, printers, and smart cards. When ESM is used in conjunction with the Enhanced controller, the login status will be preserved when switching between multiple virtual machines in a lab environment. If ESM is enabled and the HTML5 controller utilized, the virtual machines will show a login prompt whenever switching from one to another.
 
     - **Enable Dynamic Screen Resizing**: Allows the VM to automatically resize it's resolution based on the size of the lab window. It is, however, limited to the resolution options available in the display settings of Windows. If the lab window is larger than the VM, there will be a gray space around the VM in the lab window. NOTE: this requires Integration services to be installed on the VM. This can be installed by clicking the gear icon at the top of a launched lab, and selecting _Install Integration Services_ and following the prompts.
 
@@ -225,10 +225,14 @@ Available channels include:
 
     For more information about setting a custom UUID, read [Custom UUID Documentation](/lod/uuid.md).
 
-- **Allow Disk Updates in Lab console**: This must be enabled for differencing disk capture or start states on the VM, in a lab.
+- **Allow Updates in Lab Client**: This must be enabled for differencing disk capture or start states on the VM, in a lab.
 
-- **Connect via Remote Desktop Connection (external to lab console)**: allows the VM to be connected to by an RDP connection. This is used in conjunction with the _Has Virtual Machines Pool_ checkbox on the Virtual Machines tab of a lab profile. A VM profile is required for each concurrent user, otherwise each user will receive the same RDP file and only 1 user will be able to connect to the VM at a time. 
+- **Connect via Remote Desktop Connection (external to lab client)**: allows the VM to be connected to by an RDP connection. This is used in conjunction with the _Has Virtual Machines Pool_ checkbox on the Virtual Machines tab of a lab profile. A VM profile is required for each concurrent user, otherwise each user will receive the same RDP file and only 1 user will be able to connect to the VM at a time. 
 
+- **Enable Host Compatibility**: Turning off host compatibility will give you access to the most recent CPU instructions sets. Disabling Host Compatibility prevents use of Start States and the ability to move virtual machine between hosts, which reduces the available host pool. Only supported for Hyper-V (Sets "limitProcessorFeatures" flag to Off). Host Compatibility is enabled by default. 
+
+    >[!Alert] If your lab leverages the use of Hyper-V Start States, virtual machines used by the lab profile must have Host Compatibility enabled. Disabling Host Compatibility will prevent the use of Start States and the ability to move virtual machines between hosts. 
+    
 ### Internal Notes
 
 This area is used to record notes, or additional information about the VM. This is useful if the VM has specific configurations, or if there are multiple users/authors that use the VM.

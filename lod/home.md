@@ -52,9 +52,9 @@
           </a>
         </div>
         <div class="category"> 
-          <a href="azure-shared-image-gallery-vm.md" class="categoryThread">
+          <a href="azure-css.md" class="categoryThread">
             <i class="material-icons blue" aria-hidden="true">cloud_done</i>
-            <span class="categoryTitle" title="Deploy an Azure hosted virtual machine using Azure Shared Image Gallery">Azure Shared Image Gallery VM</span>
+            <span class="categoryTitle" title="Microsoft Azure Cloud Slice Subscription">Microsoft Azure Cloud Slice Subscription</span>
           </a>
         </div>
         <div class="category">  

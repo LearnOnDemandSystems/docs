@@ -5,7 +5,7 @@ isPublished: true
 
 # What is a Publishing Group?
 
-A Publishing Group is set of courses that you grant access to other organizations for them to use for their classes and course assignments. You can have multiple publishing groups, each for a different purpose or audience without having to duplicate your courses for each group.
+A Publishing Group is a set of courses that you grant access to other organizations for them to use for their classes and course assignments. You can have multiple publishing groups, each for a different purpose or audience without having to duplicate your courses for each group.
 
 There are two types of access to publishing groups that can be granted:
 1. **Availability** - this allows your sub-organizations to make their courses available through your publishing group for other organizations to use.

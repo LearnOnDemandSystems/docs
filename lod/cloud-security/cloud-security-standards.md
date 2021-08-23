@@ -6,13 +6,31 @@ isPublished: true
 
 # Cloud Security Standards
 
-Learn on Demand Systems (LODS) requires that any Cloud Slice labs must be evaluated for risk before external consumption. The LODS Security Review process defines a lab's security as **High**, **Medium**, or **Low** risk. 
+Learn on Demand Systems requires that any Cloud Slice labs must be evaluated for risk before external consumption. The Learn on Demand Systems Security Review process defines a lab's security as **High**, **Medium**, or **Low** risk. 
 
-While this evalutation determines a lab's risk for cloud resource abuse, even **Low** risk labs still have potential for abuse but are determined to be designed in such a way that the risk is minimal.
+While this evaluation determines a lab's risk for cloud resource abuse, even **Low** risk labs still have potential for abuse but are determined to be designed in such a way that the risk is minimal.
 
 The risk levels of **High**, **Medium**, and **Low** are defined below with the requirements for a lab to be classified at that risk level. Each risk level also has a set of conditions under which it may be approved for publishing.
 
-# Access Control Policies (ACP)
+## Table of Contents 
+
+- [Access Control Policies (ACP)](#access-control-policies)
+  - [Access Control Policy (ACP) Format](#access-control-policy-format)
+    - [Azure](#azure)
+    - [Amazon Web Services (AWS)](#amazon-web-services)
+  - [Life Cycle Actions (LCA)](#life-cycle-actions)
+  - [Background Deployments](#background-deployments)
+- [Risk Definitions](#risk-definitions)
+  - [High Risk](#high-risk)
+  - [Medium Risk](#medium-risk)
+  - [Low Risk](#low-risk)
+- [Approval Conditions](#approval-conditions)
+  - [High Risk](#high-risk-1)
+  - [Medium Risk](#medium-risk-1)
+  - [Low Risk](#low-risk-1)
+- [Additional Information](#additional-information)
+
+# Access Control Policies 
 
 Access Control Policies, or ACPs, apply restrictions to the lab user's cloud environment and prevent them from creating resources that are not relevant to the content.
 
@@ -20,7 +38,7 @@ To learn how to find an appropriate ACP for your lab, or how to write your own, 
 
 > [!Knowledge]Some Access Control Policies (ACPs) are pre-approved and made available to lab developers. Labs that only contain pre-approved ACPs do not require a security review. Learn more about pre-approved ACPs [here](../create-a-restriction-policy.md).
 
-## Access Control Policy (ACP) Format
+## Access Control Policy Format
 ### Azure
 
 Azure allows all resources by default. Because of this, Azure ACPs must be designed to deny everything, making exceptions for specified resources. Azure labs should use the following whitelist syntax:
@@ -46,7 +64,7 @@ Azure allows all resources by default. Because of this, Azure ACPs must be desig
 ```
 Where "**Resource #**" is a defined Azure resource. This ensures only the specified resources are allowed while everything else is denied.
 
-### Amazon Web Services (AWS)
+### Amazon Web Services
 
 AWS denies all resources by default. AWS ACPs can be designed to only allow specified resources. AWS labs should use the following whitelist syntax:
 
@@ -68,7 +86,7 @@ AWS denies all resources by default. AWS ACPs can be designed to only allow spec
 - Where "**y**" is the action that the user can perform. The format is *category:action*. Ex 1: "**ec2:\***" means all **ec2** actions. Ex 2: "**iam:GetRole**" specifies reading IAM roles. 
 - Where "**z**" is the resource on which these actions can be performed. Ex: "**\***". 
 
-## Life Cycle Actions (LCA)
+## Life Cycle Actions
 
 If a lab has or inherits a Life Cycle Action that does **any** of the following:
 - Creates a new Resource Group
@@ -155,7 +173,7 @@ Risk level tolerance depends on consumption context. This means that *where* and
 
 ## High Risk
 
-High risk labs require an expiration if set to "Approved". A high risk lab will never be permenantly approved unless it has been authorized by both Cloud Security Management at LODS and the Cloud Subscription owner.
+High risk labs require an expiration if set to "Approved". A high risk lab will never be permanently approved unless it has been authorized by both Cloud Security Management at Learn on Demand Systems and the Cloud Subscription owner.
 
 High risk labs may be approved under the following conditions:
 

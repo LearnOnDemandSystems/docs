@@ -13,7 +13,7 @@ The template gallery allows lab authors to easily search for and select pre-crea
  - The Pencil Icon allows you to edit the profile if you have management rights.
  - The Star Icon allows you to Favorite a template for future use.
 
-![](images/template-gallery.png)
+![](images/template-gallery.png){1200}
 
 ## Create from Template
 
@@ -30,7 +30,7 @@ To create a lab profile from the Template, select Create on the chosen template 
 
 > [!note]These settings and more can later be modified from the lab profile edit page. 
 
-![](images/template-gallery-create-profile.png)
+![](images/template-gallery-create-profile.png){1200}
 
 ## Filters
 
@@ -42,7 +42,7 @@ The lab templates in the gallery may be filtered based on their availability and
 
 - *Favorites* will show any templates you have previously favorited(starred).
 
-![](images/template-gallery-filters.png)
+![](images/template-gallery-filters.png){300}
 
 ## Lab Tags
 
@@ -52,14 +52,26 @@ The Lab tags are in a *Title: Subject* format, separated by a colon.
 Here is an example of what one of the *Included Technology* tags from the screenshot above would look like during configuration. Before saving, ensure *Publish to Template Gallery* is enabled if you would like it available as a filter in the template gallery.
 
 
-![](images/template-gallery-lab-tags.png)
+![](images/template-gallery-lab-tags.png){500}
 
 ## Publishing Labs.
 
 Labs may be published to the organization gallery as a template by selecting the *Publish to Organization Template Gallery* option on the advanced tab when editing a lab profile. Additionally, lab profiles may be tagged from the Tags tab of the same page.
 
+### Restricted Editing Permissions Around Lab Profiles Published To The Template Gallery.
+Editing of Lab Profiles and dependencies will be restricted to users that are able to publish to the gallery, when a lab profile is already published to the corresponding gallery ( Public or Organization). A banner has also been placed at the top of any lab profile published to a gallery. 
+
+Dependencies include:
+- VM profiles 
+- Container Profiles 
+- Cloud Templates 
+- Access Control Policies 
+- Instructions 
+- Differencing Disks 
+- Start States
+
 ## Custom Environments
 
 If you find none of the templates meets your requirements, or you have something special in mind, you may create the lab profile from the ground-up using the *Create Custom Environment* link in the top right corner.
 
-![](images/template-gallery-to-legacy.png)
+![](images/template-gallery-to-legacy.png){1200}

@@ -135,6 +135,9 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 >[!KNOWLEDGE] You should enter alt text and title to the link, so that when a user mouses over it, a description will appear. You can add alt text and a title with the following syntax: `!IMAGE[image alt text](Image.jpg "image title text")` 
 
 - **Internal link**: Used to link to a specific section within a document. Internal links must be all lower-case, alphanumeric and separated by hyphens. Any characters that are not alphanumeric should be omitted, and spaces should be replaced with a hyphen. 
+  - remove anything that is not a letter, number, space or hyphen
+	- changes any space to a hyphen.
+	- If that is not unique, add "-1", "-2", "-3",... to make it unique
   > \[text to display](#heading-to-link-to "optional link title")
 
 - **External link**: Used to link to a page outside of the document.  
@@ -303,25 +306,45 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
   - Defining Variable in lab instruction editor view:
   
-   ![](../../lod/images/variables-in-lab-instruction-editor.png)
+      ![](../../lod/images/variables-in-lab-instruction-editor.png)
   
-    - Defining Variable in lab from Student view in the lab:
+  - Defining Variable in lab from Student view in the lab:
   
-   ![](../../lod/images/variables-in-lab.png)
+      ![](../../lod/images/variables-in-lab.png)
   
-    - The student enters their password in the lab:
+  - The student enters their password in the lab:
   
-    ![](../../lod/images/variables-enter-password.png)
+      ![](../../lod/images/variables-enter-password.png)
   
-   The password is recalled in later lab steps using the Replacement Token below
+  The password is recalled in later lab steps using the Replacement Token below
   
-    - Calling Variable in lab instruction editor view:
+  - Calling Variable in lab instruction editor view:
    
-    ![](../../lod/images/variables-callback-variable-instruction-editor.png)
+      ![](../../lod/images/variables-callback-variable-instruction-editor.png)
   
-    - Calling Variable in lab from Student view in the lab:
+  - Calling Variable in lab from Student view in the lab:
   
-    ![](../../lod/images/variables-callback-variable-in-lab.png)
+      ![](../../lod/images/variables-callback-variable-in-lab.png)
+
+- **Masked Textbox**: Alternatively, you could use **&commat;MaskedTextBox (name)** to store the user's password and define the variable in the (name), and then use &commat;lab.Variable(name) to recall the password later in lab instructions, or in automated activities. 
+
+    > [!knowledge] Masked Textboxes only obscures the text of the password from view. It does not encrypt the text that is entered into the textbox.
+    
+    - Defining the password as a variable in the lab instruction editor view: 
+
+        ![](../../lod/images/password-in-lab-instruction-editor.png)
+
+    - Defining the password as a variable in the lab from the student view: 
+    
+        ![](../../lod/images/masked-textbox-empty.png)
+        
+    - The student enters their password into the Masked textbox in the lab instructions: 
+
+        ![](../../lod/images/masked-textbox.png)
+
+    - The password is recalled in later lab steps using the Replacement Token below:
+
+        ![](../../lod/images/masked-textbox-callback-password-in-lab.png)
 
 - **Knowledge Block:** Used to provide additional information, to help students better understand lab steps or lab content. Knowledge blocks are limited to only show 4 lines of the lab content. After 4 lines, a _more_ link will be shown, allowing the student to expand the knowledge block and review additional information.
 
@@ -341,7 +364,7 @@ It's also possible to simply supply the width: {width}. In this case, the height
     >
     > ![](images/hint-block.png "Hint Block")
 
-- **Help Block:** Used to provide help, such as showing additional about the section of the lab that the student is working on.
+- **Help Block:** used to provide help, such as showing additional about the section of the lab that the student is working on.
 
     > \> [!help] help text here.
     >
@@ -352,6 +375,14 @@ It's also possible to simply supply the width: {width}. In this case, the height
     > \> [!NOTE] note text here.
     >
     > ![](images/note-block.png "Note Block")
+
+- **Key Combo:** used to generate a button that sends a combination of key codes to the active VM. The key codes used are standard Javascript event key codes. Characters supported for key combo labels include: A-Z, 0-9, underscore, dash and plus. Other special characters will not work. 
+ 
+    **Some key codes may not function as expected when using vSphere. It is highly recommended to test each key combo before publishing the lab instructions for production use.**
+
+    > \> @lab.KeyCombo(label)[keyCode1,keyCode2].
+    >
+    > ![](images/key-combo.png "Key Combo")
 
 - **Sections:** used to group lab instructions and elements together so they may be called up on and manipulated as one. This is done by assigning a lab variable that has been set via LCA, ABA, an IDLx textbox  or an IDLx drop-down menu.
 
@@ -514,6 +545,7 @@ Although potentially any task could be reduced to an action that can be executed
   >|`@lab.CloudPortal.SignOutUrl`|The cloud portal sign-out URL (rendered as text, not a    link).|
   >|`@lab.TextBox(name)`|A text box that allows the user to set the value of a named    variable. This variable value can then be displayed elsewhere using @lab.Variable(name)   .|
   >|`@lab.DropDownList(name)[val1,val2]`|A dropdown list that allows the user to set the    value of a named variable. This variable value can then be displayed elsewhere using    @lab.Variabl(name).|
+   >|`@lab.KeyCombo(title of button)[key combo]`|Generates a button that sends a combination of key codes to the active VM.|
 
   *(VM-ID) should be replaced with the unique ID of the virtual machine in use.
 

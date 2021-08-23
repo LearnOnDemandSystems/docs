@@ -76,6 +76,9 @@ Several defaults can be set for your courses such as, adding a new icon, and set
 | **Program** | Input the Program set for the course for an automatically created course from a lab profile. |
 | **Content Provider** | Input the Content Provider set for the course for an automatically created course from a lab profile. |
 | **Publishing Group** | Input the Publishing group set for the course for an automatically created course from a lab profile.  |
+|**Show activity status on activities listings**|Enables showing the status of activities on Course Assignment and Class Enrollment pages.|
+|**Show activity score on activities listings**|Enables showing the score of activities on Course Assignment and Class Enrollment pages.|
+
 
 ## Default Surveys on new Courses and Classes
 

@@ -10,9 +10,19 @@ An Access Control Policy is used by a cloud provider to limit the resources that
 
 >[!Note] In LOD, ACPs are attached to a resource group. To add an ACP to a Lab Profile, you will need to [create a resource template and configure a resource group](./create-a-resource-template-and-configure-it-into-a-resource-group.md) first. 
 
+## Table of Contents
+- [Finding an Existing ACP](#finding-an-existing-acp)
+- [Creating an Access Control Policy in Lab on Demand (LOD)](#creating-an-access-control-policy-in-lab-on-demand)
+- [ACP Examples](#acp-examples)
+    - [Azure](#azure)
+    - [AWS](#aws)
+- [ACP Authoring Resources](#acp-authoring-resources)
+- [Adding an Access Control Policy to a Cloud Slice Lab](#adding-an-access-control-policy-to-a-cloud-slice-lab)
+- [Additional Information](#additional-information)
+
 ## Finding an Existing ACP
 
-LOD has a library of existing ACPs to make building common cloud labs easier and more secure. To find publicly accessible ACPs:
+Lab on Demand (LOD) has a library of existing ACPs to make building common cloud labs easier and more secure. To find publicly accessible ACPs:
 
 1. From the **Admin** page, in the **Cloud Services** tile, select **Access Control Policies**.
 2. Add the filter **Organization Name**, select **Does** **Equal**, and enter **LOD Managed**
@@ -20,11 +30,11 @@ LOD has a library of existing ACPs to make building common cloud labs easier and
 
 ![LOD Managed ACPs](./images/find-acp-lodmanaged.png)
 
-> [!Note] These ACPs are created, maintained, and publicly available by LODS to all developers. While the resouces allowed on these ACPs will not change, the syntax is subject to change depending on cloud security best practices.
+> [!Note] These ACPs are created, maintained, and publicly available by Learn on Demand Systems to all developers. While the resources allowed on these ACPs will not change, the syntax is subject to change depending on cloud security best practices.
 
 You can also search your own Organization's existing ACPs by following the same process and changing the **Organization** filter to your desired Organization. 
 
-## Creating an Access Control Policy in Lab on Demand (LOD)
+## Creating an Access Control Policy in Lab on Demand 
 
 1. Navigate to the **Cloud Services** tile, on the LOD Admin page.
 
@@ -102,7 +112,7 @@ The access control policy below will allow all EC2 resources except Virtual Mach
 
 ## ACP Authoring Resources
 
-**Learn On Demand Systems**: For more in-depth information on how to create your own custom ACPs, our [Lab developer Github](https://github.com/LearnOnDemandSystems/labauthor/tree/master/access-control-policies/) provides examples of various ACPs, as well as guidance on how to create your own.
+**Learn On Demand Systems**: For more in-depth information on how to create your own custom ACPs, our [Lab developer GitHub](https://github.com/LearnOnDemandSystems/labauthor/tree/master/access-control-policies/) provides examples of various ACPs, as well as guidance on how to create your own.
 
 **Azure**: For more information about the items that can be used in an Azure policy, see [Microsoft Azure Access Control Policy Templates](https://docs.microsoft.com/en-us/azure/azure-policy/json-samples).
 

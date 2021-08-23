@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I create a class?
 
-> Please be aware that functionality covered in this and linked articles may not be available to you.
+> :small_blue_diamond: Please be aware that functionality covered in this and linked articles may not be available to you.
 
 
 Classes are used to schedule meeting times and give students access to course activities for instructor-led training. If course activities are not needed for the meeting, then a Custom Event can be used.
@@ -48,7 +48,7 @@ Expand the **Instructors** section.
 
 Finally, click **Save** to create the class. 
 
-> The other sections (Visibility, Payment, and HTML Description) can be changed later. 
+> :small_orange_diamond: The other sections (Visibility, Payment, and HTML Description) can be changed later. 
 
 Once the class is created the TMS creates a template by retaining all of your selections except for the class dates, this is to help you create additional classes more quickly.
 

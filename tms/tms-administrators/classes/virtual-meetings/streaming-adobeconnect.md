@@ -15,7 +15,7 @@ If you have an Adobe Connect license, you have a choice in how you set up your v
 
 If you choose to use the Custom Virtual Meeting Host rather than the integrated feature, you will need to begin by scheduling a meeting in Adobe Connect. When you have completed scheduling it you can access the meeting’s URL to input in the TMS class. Copy the URL provided in the meeting information. 
 
-![](/tms/images/cvcadobeurl2.png)
+![](/tms/images/cvcadobeurl2.png){800}
 
 **Enter your Adobe Connect URL in your Class**
 
@@ -33,7 +33,7 @@ hen editing or creating your class,
 1. In the **Student Post-Class Launch Window** input the number of minutes after the class session end time(s) the students can still enter the virtual classroom.
 1. Continue setting up your class or click **Save** to commit the changes.
 
-![](/tms/images/virtual-class-launch-windows.png) 
+![](/tms/images/virtual-class-launch-windows.png){1000}
  
 
 The TMS passes along the classId, studentLastName, studentFirstName, and studentEmail to the receiving site. 
