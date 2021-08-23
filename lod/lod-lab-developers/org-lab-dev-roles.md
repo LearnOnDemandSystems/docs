@@ -10,7 +10,7 @@ When developing labs on Lab On Demand (LOD), various development functions will 
 
 ## Philosophy
 
-The Organization Lab Developer role set on LOD uses a additive model where common functions are enabled by **Base Roles**, and additional functionality is given via **Supplemental Roles**. This allows for modular customization of permissions for an Organization while giving developers the specific permissions needed for their workflow. 
+The Organization Lab Developer role set on LOD uses an additive model where common functions are enabled by **Base Roles**, and additional functionality is given via **Supplemental Roles**. This allows for modular customization of permissions for an Organization while giving developers the specific permissions needed for their workflow. 
 
   * [Roles](#roles)
     + [Organization Role Admin](#organization-role-admin)
