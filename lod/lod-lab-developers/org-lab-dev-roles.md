@@ -1,3 +1,9 @@
+---
+title: "Lab Developer Roles"
+description: "This guide covers which roles enable lab developers to utilize certain features."
+isPublished: true
+---
+
 # Lab Developer Roles
 
 When developing labs on Lab On Demand (LOD), various development functions will require different permissions. If you are an Organization Administrator, this guide will cover which roles are needed for lab developers to utilize certain features. 
@@ -5,6 +11,26 @@ When developing labs on Lab On Demand (LOD), various development functions will 
 ## Philosophy
 
 The Organization Lab Developer role set on LOD uses a additive model where common functions are enabled by **Base Roles**, and additional functionality is given via **Supplemental Roles**. This allows for modular customization of permissions for an Organization while giving developers the specific permissions needed for their workflow. 
+
+  * [Roles](#roles)
+    + [Organization Role Admin](#organization-role-admin)
+  * [Base Roles](#base-roles)
+    + [Default User](#default-user)
+    + [Organization Lab Developer](#organization-lab-developer)
+    + [Organization Lab Report Viewer](#organization-lab-report-viewer)
+  * [Supplemental Roles](#supplemental-roles)
+    + [Organization Activity Editor](#organization-activity-editor)
+    + [Organization Advertising Editor](#organization-advertising-editor)
+    + [Organization Bug Report Manager](#organization-bug-report-manager)
+    + [Organization Evaluation Control](#organization-evaluation-control)
+    + [Organization Evaluation Viewer](#organization-evaluation-viewer)
+    + [Organization Lab Instance Monitor](#organization-lab-instance-monitor)
+    + [Organization Lab Instance Report Viewer](#organization-lab-instance-report-viewer)
+    + [Organization Lab Launcher](#organization-lab-launcher)
+    + [Organization Lab Profile Viewer](#organization-lab-profile-viewer)
+    + [Organization Template Gallery Management](#organization-template-gallery-management)
+    + [Organization Theme Management](#organization-theme-management)
+  * [Organization Management](#organization-management)
 
 ## Roles
 This section defines the roles available to lab developers.
