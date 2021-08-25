@@ -5,28 +5,28 @@ isPublished: true
 
 # Virtual Meeting Host Comparison
 
-Virtual meeting host providers (VMH) can be added to a class using two different methods: a custom VMH or integrated VMH. Class creators can specify delivery by custom virtual classroom and then add the meeting URL from your preferred VMH or use one of the two supported, integrable VMHs. You can have multiple VMHs options associated with your organization, but only a single VMH can be associated to each class.
+Virtual meeting host providers (VMH) can be added to a class using two different methods: a custom VMH or integrated VMH. Class creators can specify delivery by custom virtual classroom and then add the meeting URL from your preferred VMH or use one of the three supported, integrable VMHs. You can have multiple VMHs options associated with your organization, but only a single VMH can be associated to each class.
 
 Virtual meetings are scheduled in the Delivery section when creating or editing a class. When the Delivery Type of Virtual or Physical and Virtual is chosen virtual meeting options display. If you have an integrated VMH it will be selected by default, but you can select another option like the custom virtual classroom. If you do not have an integrated VMH, you will only see the option for Custom Virtual Classroom with a field to enter a URL. Only one VHM can be used per class. For multiple day classes, set up class sessions using the Add Multiple Session Times link in the Session Times section. 
 
 Below is a comparison chart of features in the custom VMH, integrated Adobe Connect VMH, and integrated Zoom VMH. Below the chart is more information on the differences in using these features.
 
-**Features** | **Custom Virtual Classroom** | **Adobe Connect Integration** | **Zoom Integration**
--------------|----------------|----------------------------------|------------------------
+**Features** | **Custom Virtual Classroom** | **Adobe Connect Integration** | **Zoom Integration**| **Webex Integration** |
+|:---:|:---:|:---:|:---:|:---:|
 **Create a class in TMS and meeting in VHM**
 Manually create meeting in VMH and then input meeting URL in TMS class | X |   |   |
-Creating a class in TMS automatically creates a meeting in VMH |   | X | X |
+Creating a class in TMS automatically creates a meeting in VMH |   | X | X | X |
 **Contracts**
-Contract or License required |   | X | X |
-Requires LODS staff to set up integration |   | X | X |
+Contract or License required |   | X | X | X |
+Requires LODS staff to set up integration |   | X | X | X |
 **Entering Class**
-Instructor and students launch virtual classroom and class activities from one page | X | X | X |
+Instructor and students launch virtual classroom and class activities from one page | X | X | X | X |
 Enter classroom button availability is set on the class  | X |   |   |
-Enter classroom button is available to instructor 60 minutes before class session starts until class session end time  |   |   | X |
-Enter classroom button is available to students 15 minutes before class session starts until class session end time  |   |   | X |
+Enter classroom button is available to instructor 60 minutes before class session starts until class session end time  |   |   | X | X |
+Enter classroom button is available to students 15 minutes before class session starts until class session end time  |   |   | X | X |
 Enter classroom button access before and after class session can be customized for all classes for instructors and students  | X | X |   |
 **Recording Classes**
-Class session recording links available in TMS to instructors and students |   | X | X |
+Class session recording links available in TMS to instructors and students |   | X | X | X |
 
 ## Custom Virtual Classroom
 
@@ -67,6 +67,20 @@ If the host exits or is bumped out of the meeting without ending it, someone els
 Instructors need to save the recording to the cloud to make it available to the TMS. The recording is available as soon as it is compiled in Zoom after the meeting has ended; the instructor is emailed a notification when the recording becomes available. Recordings are not available until after the meeting ends, regardless of if the recording was stopped before the meeting ended. The recording ends when the session ends; the instructor should end the session when class is over otherwise the session ends itself after 24 hours. Recording length may be limited based on your contract with Zoom. If the storage limit is reached during a recording, the meeting will continue to record until it is ended. 
 
 Students have access through their enrollment for each recorded class session. Class recordings are available for 180 days after the last day of class. You cannot impersonate a student to access recordings only users associated with the class as students or instructors can watch recordings.
+
+## Webex Virtual Meeting Host Integration
+
+Once you have a Webex contract, you can send information to our LODS staff to implement an [integration.](/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md) Once in place, your Webex VMH is the default selection for virtual delivery. Scheduling a class using Webex as your virtual delivery automatically creates a meeting in Webex. 
+
+You can customize pre-class and post class access to the virtual classroom. If you do not specify these settings, they default to allowing the instructor to enter the meeting 60 minutes before the class session begins and students to enter 15 minutes beforehand. The default is set to zero minutes after the session ends for the instructor and students. Your settings apply to all classes. 
+
+When setting the pre-class access, consider how much time instructors may need to set up the meeting and load materials; and how soon you want students in the meeting. When deciding on the post class meeting access, consider the amount of time that the class may still be discussing after the scheduled session end time. This time setting does not end the virtual meeting session, it will continue while the host is there, however, if someone is bumped out after the schedule end time, they cannot re-enter the virtual meeting.
+
+All instructors enter the meeting as hosts. Once a student selects the Enter Classroom button, they may need to load software prior to entering the meeting. All students enter the meeting as participants.
+
+Licenses in your contract cover any instructor scheduled for a class as a host for a meeting. The number of licenses in your contract affects the number of hosts (instructors) that can be scheduled. If you have multiple licenses, then the TMS can automatically add them as meeting hosts. If you have one license, then you must manually remove and add your host in Webex to schedule a different instructor into a class.
+
+Recordings are available for each recorded class session. Class recordings are available for 180 days after the last day of class to students through their enrollment. Webex makes the recording available for as long as you maintain your contract. 
 
 ### Additional Resources
  
