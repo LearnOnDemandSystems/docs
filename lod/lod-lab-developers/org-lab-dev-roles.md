@@ -30,6 +30,7 @@ The Organization Lab Developer role set on LOD uses an additive model where comm
     + [Organization Lab Profile Viewer](#organization-lab-profile-viewer)
     + [Organization Template Gallery Management](#organization-template-gallery-management)
     + [Organization Theme Management](#organization-theme-management)
+    + [Organization VM Profile Viewer](#organization-vm-profile-viewer)
   * [Organization Management](#organization-management)
 
 ## Roles
@@ -58,6 +59,7 @@ This role grants no developer permissions, but grants the ability to assign othe
 [Organization Lab Profile Viewer](#organization-lab-profile-viewer)  
 [Organization Template Gallery Management](#organization-template-gallery-management)  
 [Organization Theme Management](#organization-template-gallery-management)  
+[Organization VM Profile Viewer](#organization-vm-profile-viewer)
 
 The permissions that come with these roles are outlined below.
 
@@ -131,7 +133,10 @@ Grants the ability to view Lab Profiles and Lab Series. These permissions are in
 Grants the ability to publish Lab Profiles to the Organization [Template Gallery](https://docs.learnondemandsystems.com/lod/template-gallery.md), and grants Lab Tag management. 
 
 ### Organization Theme Management
-Grants the ability to manage [Themes](https://docs.learnondemandsystems.com/lod/lod-themes.md). These permissions are included in [Organization Lab Developer](#organization-lab-developer)
+Grants the ability to manage [Themes](https://docs.learnondemandsystems.com/lod/lod-themes.md). These permissions are included in [Organization Lab Developer](#organization-lab-developer).
+
+### Organization VM Profile Viewer
+Grants the ability to view [VM Profiles](https://docs.learnondemandsystems.com/lod/vm-profiles.md). These permissions are included in [Organization Lab Developer](#organization-lab-developer).
 
 ## Organization Management
 
