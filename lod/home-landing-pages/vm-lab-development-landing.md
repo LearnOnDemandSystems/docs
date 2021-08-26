@@ -55,7 +55,15 @@
       <a class="subtopic_link" href="/lod/container-images.md">
         <div class="subtopic_title">Container Images</div>
         <div class="subtopic_description">Create Docker container images to use in lab profiles. </div>
-      </a>       
+      </a> 
+      <a class="subtopic_link" href="/lod/container-registries.md">
+        <div class="subtopic_title">Container Registries</div>
+        <div class="subtopic_description">Create custom container registries that are linked to an external registry. </div>
+      </a> 
+      <a class="subtopic_link" href="/lod/container-web-display.md">
+        <div class="subtopic_title">Container Web Display</div>
+        <div class="subtopic_description">Display the output of an exposed container port in a web browser. </div>
+      </a> 
       <a class="subtopic_link" href="/lod/create-removable-media.md">
         <div class="subtopic_title">Create Removable Media</div>
         <div class="subtopic_description">Removable Media to be used with virtual machines.</div>
