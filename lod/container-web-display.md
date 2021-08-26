@@ -1,7 +1,7 @@
 ---
 title: "Container Web Display"
 description: "Display the output of an exposed container port in a web browser."
-isPublished: false
+isPublished: true
 ---
 
 # Container Web Display 
