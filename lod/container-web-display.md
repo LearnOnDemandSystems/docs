@@ -42,7 +42,15 @@ Selecting the Web Display option for the exposed port will allow the container t
 
 1. On the **Networks** tab, select **Add Network** to add a network. Web display requires a network on the lab profile. 
 
-1. On the **Containers** tab, 
+1. On the **Containers** tab, select **Add Container Image**. 
+
+    1. **Search** for the name of **your container**. 
+    1. **Select** your **container**. 
+    1. Select **OK**. 
+
+1. Select **Save** to save your lab profile. 
+
+Your lab should now be configured to display the output of the container to a web browser.
 
 ## Example Configuration
 
