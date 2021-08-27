@@ -45,7 +45,7 @@ Lab on Demand supports using Docker Container Images in labs. Container images a
         - **Display**: Select how the exposed ports will be displayed. 
 
             - **Terminal**: allows a terminal connection to the exposed port of the container.
-            - **Web**: allows the lab client to connect to the exposed port and display the output of that port from the container. 
+            - **Web**: allows the lab client to connect to the exposed port and display the output of that port from the container. Web display requires the lab profile to have at least one network attached. 
              
 
     - **Enabled**: Check the box to enable the container image. 

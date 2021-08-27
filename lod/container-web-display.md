@@ -12,7 +12,15 @@ Selecting the Web Display option for the exposed port will allow the container t
 
 >[!note] Web display of exposed container ports may not work with all container images. The author of the container image must enable port output support in the container image for this to work correctly. 
 
+- [Configuring a Container Profile for Web Display](#configuring-a-container-profile-for-web-display)
+    - [Container Configuration](#container-configuration)
+    - [Lab Profile Configuration](#lab-profile-configuration)
+- [Example Configuration](#example-configuration)
+- [Related Information](#related-information)
+
 ## Configuring a Container Profile for Web Display 
+
+### Container Configuration 
 
 1. **Navigate to the container** you wish to output the display, or create a new container. 
 
@@ -27,6 +35,14 @@ Selecting the Web Display option for the exposed port will allow the container t
 1. Select **Web** on the **Display** option. 
 
 1. **Save** the container profile. 
+
+### Lab Profile Configuration 
+
+1. **Navigate to the Lab Profile** you wish to use the container image with. 
+
+1. On the **Networks** tab, select **Add Network** to add a network. Web display requires a network on the lab profile. 
+
+1. On the **Containers** tab, 
 
 ## Example Configuration
 
