@@ -56,7 +56,7 @@ Your lab should now be configured to display the output of the container to a we
 
 This example configuration uses the [Visual Studio Code in the browser](https://hub.docker.com/r/codercom/code-server) to output Visual Studio Code to port 8080 and display in a web browser.
 
-![](images/vs-code-browser-hello-world.png){800}
+![](images/vs-code-browser-hello-world.png){1000}
 
 1. **Create** a new **container profile**. 
 
