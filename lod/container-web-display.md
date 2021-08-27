@@ -83,7 +83,7 @@ This example configuration uses the [Visual Studio Code in the browser](https://
 
 1. Verify your container matches the image below and then select **Save** to save the container image. 
 
-![](images/container-exposed-port-display.png)600}
+![](images/container-exposed-port-display.png){600}
 
 
 ## Related Information 
