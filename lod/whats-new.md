@@ -9,6 +9,66 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other Learn on Demand Systems platforms?</a></span>
 
+## **Released August 26, 2021**
+
+**Caching Improvements**
+
+- When a differencing disk is added to a VM profile, the lab availability records will be purged for all associated labs.
+- When a Lab Profile or VM Profile is updated, the lab availability records will be purged for all associated labs.
+- Storage Profiler will now compare a lab profile's last modification date and date of cache, flushing the cache when applicable.
+
+**vSphere**
+
+- When creating a new vSphere Virtual Machine Profile, the Hardware Version will now default to 14.
+- vSphere Hardware Version 15 is now supported by vSphere Virtual Machines running in Lab on Demand.
+ 
+**Docker**
+
+- In addition to terminal connections, LOD now supports connecting directly to a port on a docker container. A container configured this way can be displayed in the regular lab client alongside regular terminal connections.
+    - <a href="https://docs.learnondemandsystems.com/lod/terminal-access.md">Terminal Access Documentation</a>
+    - <a href="https://docs.learnondemandsystems.com/lod/container-web-display.md">Container Web Display</a>
+ 
+**Template Gallery**
+
+- Lab profiles that are published to the template gallery now have an option on the Advanced tab to Reuse Template Container and Virtual Machine Profiles. Selecting the option will cause Lab Profiles created from the Template Gallery to reuse the existing Container and Virtual Machine Profiles from the template.
+    - <a href="https://docs.learnondemandsystems.com/lod/feature-focus/lab-profiles/create.md">Lab Profile Documentation</a>
+ 
+**Organization Name Changes**
+
+- Organization names may no longer be changed from LOD unless they are a child organization configured with the same customer ID as their parent. Organization names should be modified from the Portal when they cannot be modified in LOD.
+
+**LOD Improvements and Fixes**
+
+- Update to HTML5 Gateway will release mouse on cursor exit of VM interface.
+- Lab instances of exam type will now be scored when Mark as complete is chosen using the end option under the hamburger menu.
+- Newly created users passwords will no longer expire.
+- Parameters set on a Cloud Resource Template via JSON parameter file import can now be upper case. 
+- vSphere shared environment networks can no longer be set to specific VLAN IDs.
+- Price data when searching for lab series assignments now uses the lab series price field instead of summing prices.
+- API Service no longer has a missing dependency injection registration.
+- Added support for S3 Access Points.
+    - <a href="https://docs.learnondemandsystems.com/lod/aws-capabilities.md">AWS Capabilities Documentation</a>
+- Fields beginning with an "=" will be sanitized when exported to CSV by prepending the string with a single quote. This is done to prevent excel formula injection attacks.
+- Added logic to prevent distribution of malformed credentials from recyclable tenant pools.
+- Icon added to Application card on Admin page.
+- The Application card logo color should now match the rest of the theme color.
+- Advertising icon has been restored on the Advertising card when using the purple theme.
+- Fixed a typo in an error message shown when attempting to update the name of a Virtual Machine in a lab profile. 
+- The Virtualization Platform read only tooltip now appears only when the virtualization platform setting is read only. 
+- A Custom Audience Claim (Aud) can be defined in the LTI configuration of an API consumer. 
+- The LOD.web scheduler now ignores shared lab environments when enforcing Class Max Active Lab Instances.
+- When selecting a SCSI disk ID, the ID will be chosen from a pool of unused IDs rather than defaulting to ID 10. 
+- Fixed an issue resulting in an error message when inspecting or adding disks to vSphere VMs. 
+- Fixed an issue preventing the proper parenting of differencing disks when saved in quick succession. 
+- Fixed an issue preventing the modification of an Organization Customer ID.
+- Fixed an issue in AWS VPC teardown occurring when dependencies can't be resolved.
+- Fixed an issue resulting in an error message when attempting to update a running Docker Container lab.
+- Fixed an issue preventing HyperV host from self-updating. 
+- Fixed an issue preventing double quotes from properly rendering in tool tips (info icons).
+- Fixed an issue preventing users from editing their account information.
+- Fixed an issue where an access key could remain active while a lab is in a saved state.
+- Fixed an issue preventing CWD from Cleaning up Azure Cloud Resource Groups.
+
 ## **Released July 29, 2021**
 
 **LOD Improvements and Fixes**
