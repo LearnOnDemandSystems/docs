@@ -7,7 +7,16 @@ isPublished: true
 # Cloud Security Review
 Labs that use cloud orchestration are require a **Cloud Security Review** before they are available outside Lab On Demand. Until this review is completed, cloud labs cannot be launched via the Training Management System (TMS), API, LTI, or any other methods outside of the Lab On Demand interface.
 
-## Which Labs Require a Security Review?
+## Table of Contents 
+
+* [Which Labs Require a Security Review?](#which-labs-require-a-security-review)
+* [What is a Security Review?](#what-is-a-security-review)
+* [How can I ensure that my lab will pass a security review?](#how-can-i-ensure-that-my-lab-will-pass-a-security-review)
+* [How to Request a Security Review](#how-to-request-a-security-review)
+* [Security Review Management and Revocation](#security-review-management-and-revocation)
+* [Additional Information](#additional-information)
+
+## Which Labs Require a Security Review
 
 If a Lab Profile...
 1. Has a Cloud Platform selected (in the Orchestration section of the Cloud tab on Lab Profile),  
@@ -18,7 +27,7 @@ If a Lab Profile...
 
 ...then LOD will automatically flag that Lab Profile for Security Review. 
 
-## What is a Security Review?
+## What is a Security Review
 
 Security reviews evaluate numerous components of cloud slice labs (such as Access Control Policies, Life Cycle Actions, and user permissions) to determine its risk level for unwanted use of cloud subscriptions. The risk level is then weighed against a lab's consumption context.
 
@@ -28,7 +37,7 @@ These reviews are designed to rate a lab on its vulnerability to potential abuse
 
 A lab owner will always be notified of the evaluated risk level, whether or not the lab is approved for external consumption, and the reasons behind the result.
 
-## How can I ensure that my lab will pass a security review?
+## How can I ensure that my lab will pass a security review
 
 Evaluations are based on our [Cloud Security Standards](./cloud-security-standards.md) which outline criteria for various risk levels. 
 
@@ -73,7 +82,8 @@ When invalidated, a notification email will be sent to the owner's email address
 ![Changes to Lab Profile](../images/cloud-security-review.png)
 
 ## Additional Information
-Learn more about what is used to determine's a lab's security review status on our [Cloud Security Standards](./cloud-security-standards.md).
+
+Learn more about what is used to determines a lab's security review status on our [Cloud Security Standards](./cloud-security-standards.md).
 
 Or go back to [Cloud Security Home](./cloud-security-home.md).
 

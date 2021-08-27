@@ -122,8 +122,10 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[AWS Organizations](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsorganizations.html)|N/A|planned||
 |[AWS Performance Insights](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsperformanceinsights.html)|pi|planned||
 |[AWS Price List](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awspricelist.html)|pricing|planned||
-|[AWS Resource Groups](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsresourcegroups.html)|resource-groups|planned||
+|[AWS Resource Groups](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsresourcegroups.html)|resource-groups|Supported||
+[AWS Resource Group Tagging](https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonresourcegrouptaggingapi.html)|tag|Supported||
 [Amazon S3](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazons3.html)|s3|supported||
+[Amazon S3 Access points](https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazons3.html#amazons3-actions-as-permissions)|s3|supported||
 |[AWS Secrets Manager](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awssecretsmanager.html)|secretsmanager|supported||
 |[AWS Security Token Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awssecuritytokenservice.html)|sts|planned||
 |[AWS Serverless Application Repository](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsserverlessapplicationrepository.html)|serverlessrepo|planned||
@@ -147,4 +149,5 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[Manage Amazon API Gateway](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_manageamazonapigateway.html)|apigateway|supported||
 |[Single Sign-On](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)|sso|planned||
 |[TensorFlow on AWS](https://aws.amazon.com/tensorflow/?nc2=h_m1)|N/A|planned||
+|[Tag Editor](https://docs.aws.amazon.com/ARG/latest/userguide/tag-editor.html)|N/A|Supported||
 |[Virtual Private Cloud](https://aws.amazon.com/vpc/?hp=tile&so-exp=below)|ec2|supported||

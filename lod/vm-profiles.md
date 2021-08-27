@@ -231,6 +231,8 @@ Available channels include:
 
 - **Enable Host Compatibility**: Turning off host compatibility will give you access to the most recent CPU instructions sets. Disabling Host Compatibility prevents use of Start States and the ability to move virtual machine between hosts, which reduces the available host pool. Only supported for Hyper-V (Sets "limitProcessorFeatures" flag to Off). Host Compatibility is enabled by default. 
 
+    >[!Alert] If your lab leverages the use of Hyper-V Start States, virtual machines used by the lab profile must have Host Compatibility enabled. Disabling Host Compatibility will prevent the use of Start States and the ability to move virtual machines between hosts. 
+    
 ### Internal Notes
 
 This area is used to record notes, or additional information about the VM. This is useful if the VM has specific configurations, or if there are multiple users/authors that use the VM.

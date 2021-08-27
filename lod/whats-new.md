@@ -124,8 +124,6 @@
 - Client-side gateway scripts updated to allow Firefox to work with client-side ESM audio recording. 
 - Activity groups in the Lab on Demand API v3.0 have been updated. When an activity group is used, the name of the group is sent as a variable with the total score for activities within that group only. In addition, full responses are sent for each individual activity. 
 - Implemented support for SES scale out. 
-- Implemented Secure HTTP headers in Lab on Demand Admin Site (LOD.Web) 
-- Updated LOD.Web to jquery 2.2.4. 
 - Fixed a bug preventing an ABA from picking up a variable set by a previous ABA when scoring a lab/exam. 
 - Fixed a bug preventing lab authors from taking VM screenshots from the instructions editor. 
 - Fixed a bug preventing internal administration of an account when removing an API consumer. 
@@ -141,7 +139,7 @@
 
 **IDLx**
 
-- IDLx variable assignment now supports a new password textbox. The textbox can be created in IDLx via the @lab token @lab.TextBoxPassword(Name). Text entered into the box will be obscured from the user, and will be assigned to the lab variable Name.
+- IDLx variable assignment now supports a new password textbox. The textbox can be created in IDLx via the @lab token @lab.MaskedPassword(name). Text entered into the box will be obscured from the user, and will be assigned to the lab variable Name.
 - Fixed an issue preventing IDLx replacement tokens with repeated special characters from displaying properly.
 
 **Nested Virtualization**
@@ -196,7 +194,7 @@ Two permissions have been added to LOD to manage Compatibility Mode under Lab De
 - The LOD API service now returns ActivityGroupResults as part of the Lab Instance Details call. 
 
 
-## <u>Released April 25, 2021</u>
+## <u>Released April 23, 2021</u>
 
 **Code Labs**
 

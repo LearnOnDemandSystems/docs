@@ -1,12 +1,14 @@
 ---
 title: "Lab Interface Frequently Asked Questions"
 description: "Frequently asked questions about the Lab on Demand lab interface."
-isPublished: true
+isPublished: false
 ---
 
 # Lab Interface FAQ
 
 ### Documentation to assist users with a launched lab. 
+
+- [**How do I interact and use the lab interface?**](lab-interface.md)
 
 - [**How do I make my international keyboard work in the lab interface?**](lab-interface-faqs/how-do-i-make-my-international-keyboard-work-in-the-lab-interface.md)
 

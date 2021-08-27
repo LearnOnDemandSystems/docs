@@ -24,6 +24,9 @@
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/training-key-types.md">
         <div class="subtopic_title">What are the different types of Training Keys?</div>
       </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/trainingkey-basics.md">
+        <div class="subtopic_title">Training key basics</div>
+      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/reuse-search-settings-or-create-default-settings-on-search-pages.md">
         <div class="subtopic_title">How can I reuse search settings or create default settings on search pages?</div>
       </a>

@@ -1,6 +1,27 @@
 # What's New in the TMS
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a> 
+
+## <u>Released July 7, 2021</u>
+### Accessibility Items
+In our continuing effort to improve accessibility for all our students and meet MAS standards:
+*   Resizing the page at 400% zoom will now act according to accessibility standards.
+
+### Enhancements and Fixes
+*   Classroom Maximum Capacity - Error on Roster: We have fixed an issue on the class roster where users received the error message below when changing the Enrollment Status to Enrolled.
+
+   ‘This enrollment would cause the selected classroom to exceed maximum occupancy.’  
+
+*   Translation - files Update:   We have updated the language files in TMS for the following supported languages:  
+    * Chinese (Simplified) 
+    * German 
+    * Japanese 
+    * Korean 
+    * Portuguese 
+    * Spanish 
+*   Create / Edit Subscription Membership:  We have fixed an issue with the Expires date field not calculating the correct Start Date format when is not MM/DD/YYYY.
+
+----------------------------
 ## <u>Released May 24, 2021</u>
 ### Accessibility Items
 In our continuing effort to improve accessibility for all our students and meet MAS standards we have updated the Course Catalog page:
@@ -151,7 +172,7 @@ An option to create multiple course assignments for multiple students has been a
 
 
 ----------------------------
-
+<!--
 ## <u>Released January 28 2021</u>
 
 ###  Enhanced account security scheduled for implementation at 10:00pm ET Friday, February 12th 

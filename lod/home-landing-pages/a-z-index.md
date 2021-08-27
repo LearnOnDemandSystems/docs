@@ -30,6 +30,10 @@
         <div class="subtopic_title">Amazon Web Services API Capabilities</div>
         <div class="subtopic_description">A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation. Below the table is a brief description for each service name.</div>
       </a>
+      <a class="subtopic_link" href="/lod/vm-auto-login.md">
+        <div class="subtopic_title">Automatic Login for Windows Virtual Machines</div>
+        <div class="subtopic_description">Configure a Windows virtual machine to log in automatically without the need to enter a username and password.</div>
+      </a>
       <a class="subtopic_link" href="/lod/aws-cloud-log-transfer.md">
         <div class="subtopic_title">AWS Cloud Trail Log Transfer</div>
         <div class="subtopic_description">AWS Cloud Trail logging enables the ability to audit all cloud logs in a user session and store those logs in a storage location.</div>
@@ -74,6 +78,14 @@
          <div class="subtopic_title">Azure Virtualization</div>
          <div class="subtopic_description">Deploy an Azure hosted virtual machine.</div>
       </a>
+      <a class="subtopic_link" href="/lod/blackboard-lti-initialization.md">
+        <div class="subtopic_title">Blackboard LTI Initialization</div>
+        <div class="subtopic_description">Configure an instance of Blackboard to use LTI.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/saml-integration.md">
+        <div class="subtopic_title">B2C SAML Integration</div>
+        <div class="subtopic_description">Configure an Azure Enterprise Application for SAML-based Single Sign-On.</div>
+      </a>
       <a class="subtopic_link" href="/lod/cloud-security/cloud-security-home.md">
          <div class="subtopic_title">Cloud Security Resources</div>
          <div class="subtopic_description">Information on Cloud Security Reviews, Access Control Policies, and cloud security standards for Cloud Slice labs</div>
@@ -105,6 +117,10 @@
       <a class="subtopic_link" href="/lod/container-registries.md">
         <div class="subtopic_title">Container Registries</div>
         <div class="subtopic_description">Create custom container registries that are linked to an external registry. </div>
+      </a> 
+      <a class="subtopic_link" href="/lod/container-web-display.md">
+        <div class="subtopic_title">Container Web Display</div>
+        <div class="subtopic_description">Display the output of an exposed container port in a web browser. </div>
       </a> 
       <a class="subtopic_link" href="/lod/create-cloud-subscription-pool.md">
         <div class="subtopic_title">Create a Cloud Subscription Pool</div>
@@ -166,10 +182,6 @@
         <div class="subtopic_title">IDLx Lab Development Best Practices</div>
         <div class="subtopic_description">This document covers best practices for IDLx lab development, to assist in creating a rich learning experience.</div>
       </a>
-      <a class="subtopic_link" href="/lod/idlx-lab-interface-overview.md">
-        <div class="subtopic_title">IDLx Lab Interface Overview</div>
-        <div class="subtopic_description">This document is an overview of the lab interface, and an explanation of the various functions available.</div>
-      </a>
       <a class="subtopic_link" href="/lod/variables.md">
         <div class="subtopic_title">IDLx Lab Variables</div>
         <div class="subtopic_description">Variables are used to store information that is not known at the time of lab instruction authoring. Variables store information and then that information can be recalled in later lab steps using a Replacement Token. This document covers how to use Variables in your IDLx lab.</div>
@@ -186,6 +198,10 @@
         <div class="subtopic_title">Introduction to Lab on Demand UI</div>
         <div class="subtopic_description">Explanation of Lab on Demand UI.</div>
       </a>
+      <a class="subtopic_link" href="/lod/lod-lab-developers/org-lab-dev-roles.md">
+        <div class="subtopic_title">Lab Developer Roles</div>
+        <div class="subtopic_description">This guide covers which roles enable lab developers to utilize certain features.</div>
+      </a>
       <a class="subtopic_link" href="/lod/lab-developer-faq.md">
         <div class="subtopic_title">Lab Developer FAQ</div>
         <div class="subtopic_description">Frequently asked questions to assist lab developers.</div>
@@ -193,6 +209,10 @@
       <a class="subtopic_link" href="/lod/lod-lab-developers/lab-instance-sharing.md">
         <div class="subtopic_title">Lab Instance Sharing</div>
         <div class="subtopic_description">Lab Instance Sharing allows multiple users to work together in a lab profile at the same time. </div>
+      </a>
+      <a class="subtopic_link" href="/lod/lab-interface.md">
+        <div class="subtopic_title">Lab Interface Explanation</div>
+        <div class="subtopic_description">Explanation of all lab interface buttons and menus.</div>
       </a>
         <a class="subtopic_link" href="/lod/lab-interface-faq.md">
         <div class="subtopic_title">Lab Interface Frequently Asked Questions</div>

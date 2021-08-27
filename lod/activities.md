@@ -446,7 +446,7 @@ For more information about the available languages and which versions are suppor
         - Linux-based VMs running Hyper-V or VMware can be targeted by Bash. 
         - **Custom Target**: Scripts can be executed against a custom target, using specific package for the selected language. Scripts can use packages that are hosted by supported package providers. 
 
-            - PowerShell: [PowerShell Gallery](https://wwpowershellgallery.com/)
+            - PowerShell: [PowerShell Gallery](https://www.powershellgallery.com/)
             - Python: [PyPi](https://pypi.org/)
             - JavaScript: [NPM](https://www.npmjs.com/)
             - C#: [Nuget](https://www.nuget.org/)
