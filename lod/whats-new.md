@@ -26,6 +26,7 @@
 
 - In addition to terminal connections, LOD now supports connecting directly to a port on a docker container. A container configured this way can be displayed in the regular lab client alongside regular terminal connections.
     - <a href="https://docs.learnondemandsystems.com/lod/terminal-access.md">Terminal Access Documentation</a>
+    - <a href="https://docs.learnondemandsystems.com/lod/container-web-display.md">Container Web Display</a>
  
 **Template Gallery**
 
@@ -53,7 +54,6 @@
 - The Application card logo color should now match the rest of the theme color.
 - Advertising icon has been restored on the Advertising card when using the purple theme.
 - Fixed a typo in an error message shown when attempting to update the name of a Virtual Machine in a lab profile. 
-- LOD.web System.Text.Json library has been updated to match that of LOD.Caching (5.0.2)
 - The Virtualization Platform read only tooltip now appears only when the virtualization platform setting is read only. 
 - A Custom Audience Claim (Aud) can be defined in the LTI configuration of an API consumer. 
 - The LOD.web scheduler now ignores shared lab environments when enforcing Class Max Active Lab Instances.
