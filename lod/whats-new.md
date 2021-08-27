@@ -25,8 +25,8 @@
 **Docker**
 
 - In addition to terminal connections, LOD now supports connecting directly to a port on a docker container. A container configured this way can be displayed in the regular lab client alongside regular terminal connections.
-    - <a href="https://docs.learnondemandsystems.com/lod/terminal-access.md">Terminal Access Documentation</a>
-    - <a href="https://docs.learnondemandsystems.com/lod/container-web-display.md">Container Web Display</a>
+    - <a href="https://docs.learnondemandsystems.com/lod/terminal-access.md">Terminal Access documentation</a>
+    - <a href="https://docs.learnondemandsystems.com/lod/container-web-display.md">Container Web Display documentation</a>
  
 **Template Gallery**
 
