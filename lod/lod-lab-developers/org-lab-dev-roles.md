@@ -54,8 +54,8 @@ This role grants no developer permissions, but grants the ability to assign othe
 **Supplemental Roles**  
 [Organization Activity Editor](#organization-activity-editor)  
 [Organization Advertising Editor](#organization-advertising-editor)  
-[Organization Bug Report Manager](#organization-bug-report-manager) 
-[Organization Cloud Slice for Lab Authors](#organization-cloud-slice-for-lab-authors) 
+[Organization Bug Report Manager](#organization-bug-report-manager)  
+[Organization Cloud Slice for Lab Authors](#organization-cloud-slice-for-lab-authors)  
 [Organization Evaluation Control](#organization-evaluation-control)  
 [Organization Evaluation Viewer](#organization-evaluation-viewer)  
 [Organization Instruction Editor](#organization-instruction-editor)  
