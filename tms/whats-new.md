@@ -2,6 +2,33 @@
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a> 
 
+## <u>Released August 30, 2021</u>
+### Accessibility Items
+In our continuing effort to improve accessibility for all our students and meet MAS standards we have implemented the following features:
+*   Luminosity ration for the focus indicator is greater than or equal to the minimum contrast ration 3:1 for the ‘Close my Account’ control. 
+*   Keyboard focus will not move to the non-interactive elements in ‘Login Assistance’ page while navigating through keyboard tab.
+*   Keyboard focus will stay on the first interactive element Close (X) button once the ‘How would you like to sign in?’ dialog is opened while navigating through keyboard tab.
+*   Keyboard focus will restore back on the ‘Learn on Demand Systems Account’ control after invoking the ‘Cancel’ button in the ‘How would you like to sign in?' dialog.
+*   NVDA focus will move to the first error field ‘Username’ after invoking ‘Sign in” button without filing mandatory fields on the page, when navigating using NVDA browse mode. 
+
+### Enhancements and Fixes
+*   Cloud Platform – AWS:  We have fixed the Cloud Platform filter dropdown to include AWS on the Find Labs page.
+*   Publishing Groups: We have fixed an issue with Publishing Groups allowing an Operations Manager to set the Organization running a class to an organization they manage that doesn’t have availability to the course.  If the course is selected during the class creation process, the following message will occur when the Save button is clicked. 
+
+    'Organization Name does not have access to deliver Course Name, please select another delivery organization.'
+
+    Previously, when creating a class using an Organization in the Publishing Group with a course from the Publishing Group, the Operations Manager could then change the organization to one they manage that is outside of that Publishing Group. Now, the following message will occur when a valid Organization is selected and then changed to an Organization outside of the Publishing Group.
+
+    'The selected organization does not have access to deliver the selected course. Please choose another organization.'
+
+    If the OK button is clicked, the following message will occur when saving.
+
+    'Organization Name does not have access to deliver Course Name, please select another delivery organization.'
+
+*   All Virtual Class Launches: When a student with an Enrollment Status of Enrolled launches a virtual class the Completion status will automatically be marked as Attending.
+*   API Course Assignment – API Create Against Subscription: We have updated the Create and Update Course Assignment API end points to properly associate subscriptions memberships when provided.
+ 
+----------------------------
 ## <u>Released July 7, 2021</u>
 ### Accessibility Items
 In our continuing effort to improve accessibility for all our students and meet MAS standards:
@@ -138,6 +165,7 @@ we have made the following changes:
 *   User Impersonation: For those who can impersonate another user we have prevented the impersonator from seeing the Active Lab Instances link on the Labs tile.
 
 ----------------------------
+<!-->
 ## <u>Released February 25 2021</u>
 
 ###  Accessibility Items 
@@ -169,7 +197,6 @@ An option to create multiple course assignments for multiple students has been a
 ###  Enhancements and Fixes 
 *   Find Courses – Subscription Filters: We have added a “Subscription Profile (Choose) and Subscription Profile Name” filter on Find Courses. 
 *   Find Courses – Organization Search:  You will no longer receive a query message indicating to reduce the scope of your query when finding courses. We have increased the default maximum organizations that you are able to search from 50 to 100.
-
 
 ----------------------------
 <!--
