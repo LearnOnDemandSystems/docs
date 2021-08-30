@@ -16,6 +16,7 @@ The Organization Lab Developer role set on LOD uses an additive model where comm
     + [Organization Role Admin](#organization-role-admin)
   * [Base Roles](#base-roles)
     + [Default User](#default-user)
+    + [Organization Cloud Orchestration Admin](#organization-cloud-orchestration-admin)
     + [Organization Lab Developer](#organization-lab-developer)
     + [Organization Lab Report Viewer](#organization-lab-report-viewer)
   * [Supplemental Roles](#supplemental-roles)
@@ -25,6 +26,7 @@ The Organization Lab Developer role set on LOD uses an additive model where comm
     + [Organization Cloud Slice for Lab Authors](#organization-cloud-slice-for-lab-authors)
     + [Organization Evaluation Control](#organization-evaluation-control)
     + [Organization Evaluation Viewer](#organization-evaluation-viewer)
+    + [Organization Instruction Editor](#organization-instruction-editor)
     + [Organization Lab Instance Monitor](#organization-lab-instance-monitor)
     + [Organization Lab Instance Report Viewer](#organization-lab-instance-report-viewer)
     + [Organization Lab Launcher](#organization-lab-launcher)
@@ -45,6 +47,7 @@ This role grants no developer permissions, but grants the ability to assign othe
 
 **Base Roles**  
 [Default User](#default-user)  
+[Organization Cloud Orchestration Admin](#organization-cloud-orchestration-admin)  
 [Organization Lab Developer](#organization-lab-developer)  
 [Organization Lab Report Viewer](#organization-lab-report-viewer)  
 
@@ -55,6 +58,7 @@ This role grants no developer permissions, but grants the ability to assign othe
 [Organization Cloud Slice for Lab Authors](#organization-cloud-slice-for-lab-authors) 
 [Organization Evaluation Control](#organization-evaluation-control)  
 [Organization Evaluation Viewer](#organization-evaluation-viewer)  
+[Organization Instruction Editor](#organization-instruction-editor)  
 [Organization Lab Instance Monitor](#organization-lab-instance-monitor)  
 [Organization Lab Instance Report Viewer](#organization-lab-instance-report-viewer)  
 [Organization Lab Launcher](#organization-lab-launcher)  
@@ -69,6 +73,17 @@ The permissions that come with these roles are outlined below.
 
 ### Default User
 This role is required for a user to login to Lab On Demand. It will be added by default to any user created by the **Organization Role Admin**.
+
+### Organization Cloud Orchestration Admin
+This role is designed for users who manage the cloud subscription accounts and within an Organization. 
+
+**Organization Cloud Orchestration Admins** have the ability to access and manage the following LOD features:
+
+- [Access Control Policies](https://docs.learnondemandsystems.com/lod/create-a-restriction-policy.md#access-control-policies-acp)
+- Cloud Credential Pools
+- [Cloud Orchestration](https://docs.learnondemandsystems.com/guides/cloud-slice/cloud-slice.md)
+- [Cloud Subscription Pools](https://docs.learnondemandsystems.com/lod/create-cloud-subscription-pool.md)
+- Cloud Subscriptions
 
 ### Organization Lab Developer
 This role is the base role for lab development. It grants access to most lab development fuctions.
@@ -114,13 +129,16 @@ Grants the ability to manage Advertising Campaigns.
 Grants the ability to manage Bug Reports.
 
 ### Organization Cloud Slice for Lab Authors
-Grants [Cloud Orchestration](https://docs.learnondemandsystems.com/guides/cloud-slice/cloud-slice.md) functionality in Lab Profiles, [Access Control Policy](https://docs.learnondemandsystems.com/lod/create-a-restriction-policy.md#access-control-policies-acp) management, and [Cloud Resource Template](https://docs.learnondemandsystems.com/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md) management. Also grants the ability to view Cloud Subscriptions. 
+Grants [Cloud Orchestration](https://docs.learnondemandsystems.com/guides/cloud-slice/cloud-slice.md) functionality in Lab Profiles, [Access Control Policy](https://docs.learnondemandsystems.com/lod/create-a-restriction-policy.md#access-control-policies-acp) management, and [Cloud Resource Template](https://docs.learnondemandsystems.com/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md) management. Also grants the ability to view Cloud Subscriptions. These permissions are included in [Organization Cloud Orchestration Admin](#organization-cloud-orchestration-admin)
 
 ### Organization Evaluation Control
 Grants the ability to manage post-lab Evalutations and view responses.
 
 ### Organization Evaluation Viewer
 Grants the ability to view Evaluations and their responses. These permissions are included in [Organization Evaluation Control](#organization-evaluation-control).
+
+### Organization Instruction Editor
+Grants the ability to edit lab instructions and launch labs. These permissions are included in [Organization Lab Developer](#organization-lab-developer). 
 
 ### Organization Lab Instance Monitor
 Grants the ability to Monitor Instances and view users. 
