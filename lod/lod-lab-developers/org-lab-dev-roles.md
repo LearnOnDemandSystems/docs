@@ -22,6 +22,7 @@ The Organization Lab Developer role set on LOD uses an additive model where comm
     + [Organization Activity Editor](#organization-activity-editor)
     + [Organization Advertising Editor](#organization-advertising-editor)
     + [Organization Bug Report Manager](#organization-bug-report-manager)
+    + [Organization Cloud Slice for Lab Authors](#organization-cloud-slice-for-lab-authors)
     + [Organization Evaluation Control](#organization-evaluation-control)
     + [Organization Evaluation Viewer](#organization-evaluation-viewer)
     + [Organization Lab Instance Monitor](#organization-lab-instance-monitor)
@@ -50,7 +51,8 @@ This role grants no developer permissions, but grants the ability to assign othe
 **Supplemental Roles**  
 [Organization Activity Editor](#organization-activity-editor)  
 [Organization Advertising Editor](#organization-advertising-editor)  
-[Organization Bug Report Manager](#organization-bug-report-manager)  
+[Organization Bug Report Manager](#organization-bug-report-manager) 
+[Organization Cloud Slice for Lab Authors](#organization-cloud-slice-for-lab-authors) 
 [Organization Evaluation Control](#organization-evaluation-control)  
 [Organization Evaluation Viewer](#organization-evaluation-viewer)  
 [Organization Lab Instance Monitor](#organization-lab-instance-monitor)  
@@ -110,6 +112,9 @@ Grants the ability to manage Advertising Campaigns.
 
 ### Organization Bug Report Manager
 Grants the ability to manage Bug Reports.
+
+### Organization Cloud Slice for Lab Authors
+Grants [Cloud Orchestration](https://docs.learnondemandsystems.com/guides/cloud-slice/cloud-slice.md) functionality in Lab Profiles, [Access Control Policy](https://docs.learnondemandsystems.com/lod/create-a-restriction-policy.md#access-control-policies-acp) management, and [Cloud Resource Template](https://docs.learnondemandsystems.com/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md) management. Also grants the ability to view Cloud Subscriptions. 
 
 ### Organization Evaluation Control
 Grants the ability to manage post-lab Evalutations and view responses.
