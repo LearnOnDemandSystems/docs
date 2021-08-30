@@ -125,6 +125,7 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[AWS Resource Groups](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsresourcegroups.html)|resource-groups|Supported||
 [AWS Resource Group Tagging](https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazonresourcegrouptaggingapi.html)|tag|Supported||
 [Amazon S3](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazons3.html)|s3|supported||
+[Amazon S3 Access points](https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazons3.html#amazons3-actions-as-permissions)|s3|supported||
 |[AWS Secrets Manager](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awssecretsmanager.html)|secretsmanager|supported||
 |[AWS Security Token Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awssecuritytokenservice.html)|sts|planned||
 |[AWS Serverless Application Repository](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsserverlessapplicationrepository.html)|serverlessrepo|planned||
