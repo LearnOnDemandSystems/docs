@@ -5,11 +5,11 @@
 ## <u>Released August 30, 2021</u>
 ### Accessibility Items
 In our continuing effort to improve accessibility for all our students and meet MAS standards we have implemented the following features:
-*   Luminosity ration for the focus indicator is greater than or equal to the minimum contrast ration 3:1 for the ‘Close my Account’ control. 
+*   Luminosity ratio for the focus indicator is greater than or equal to the minimum contrast ratio 3:1 for the ‘Close my Account’ control. 
 *   Keyboard focus will not move to the non-interactive elements in ‘Login Assistance’ page while navigating through keyboard tab.
 *   Keyboard focus will stay on the first interactive element Close (X) button once the ‘How would you like to sign in?’ dialog is opened while navigating through keyboard tab.
 *   Keyboard focus will restore back on the ‘Learn on Demand Systems Account’ control after invoking the ‘Cancel’ button in the ‘How would you like to sign in?' dialog.
-*   NVDA focus will move to the first error field ‘Username’ after invoking ‘Sign in” button without filing mandatory fields on the page, when navigating using NVDA browse mode. 
+*   Screen reader focus will move to the first error field ‘Username’ after invoking ‘Sign in” button without filing mandatory fields on the page, when navigating using NVDA browse mode. 
 
 ### Enhancements and Fixes
 *   Cloud Platform – AWS:  We have fixed the Cloud Platform filter dropdown to include AWS on the Find Labs page.
