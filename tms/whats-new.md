@@ -13,6 +13,8 @@ In our continuing effort to improve accessibility for all our students and meet 
 
 ### Enhancements and Fixes
 *   Cloud Platform – AWS:  We have fixed the Cloud Platform filter dropdown to include AWS on the Find Labs page.
+*   All Virtual Class Launches: When a student with an Enrollment Status of Enrolled launches a virtual class the Completion status will automatically be marked as Attending.
+*   API Course Assignment – API Create Against Subscription: We have updated the Create and Update Course Assignment API end points to properly associate subscriptions memberships when provided.
 *   Publishing Groups: We have fixed an issue with Publishing Groups allowing an Operations Manager to set the Organization running a class to an organization they manage that doesn’t have availability to the course.  If the course is selected during the class creation process, the following message will occur when the Save button is clicked. 
 
     'Organization Name does not have access to deliver Course Name, please select another delivery organization.'
@@ -24,9 +26,6 @@ In our continuing effort to improve accessibility for all our students and meet 
     If the OK button is clicked, the following message will occur when saving.
 
     'Organization Name does not have access to deliver Course Name, please select another delivery organization.'
-
-*   All Virtual Class Launches: When a student with an Enrollment Status of Enrolled launches a virtual class the Completion status will automatically be marked as Attending.
-*   API Course Assignment – API Create Against Subscription: We have updated the Create and Update Course Assignment API end points to properly associate subscriptions memberships when provided.
  
 ----------------------------
 ## <u>Released July 7, 2021</u>
