@@ -82,9 +82,10 @@ The Code Lab Client consists of 9 parts:
 A Code Language is a specific programming language. Code labs can have multiple supported languages, but all languages will take the same test inputs.
 
 Once a Supported Language is added to the Code Lab, instructors will have 3 settings areas for adjusting settings:
-    - [Starting Template](#starting-template)
-    - [Program Wrapper](#program-wrapper)
-    - [Advanced](#advanced)
+
+   - [Starting Template](#starting-template)
+   - [Program Wrapper](#program-wrapper)
+   - [Advanced](#advanced)
 
 
 Languages include:
