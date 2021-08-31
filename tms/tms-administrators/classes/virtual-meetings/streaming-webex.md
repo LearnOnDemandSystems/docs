@@ -35,7 +35,6 @@ When editing or creating your class,
 
 The TMS passes along the classId, studentLastName, studentFirstName, and studentEmail to the receiving site. 
  
-
 # Additional Resources
 
 **Creating Classes** 
