@@ -187,7 +187,7 @@ For more information about the available languages and which versions are suppor
 
     ```PowerShell
     #a variable set elsewhere in the lab, but we can use it in our script
-    $myVariable1 = "@lab.Variable(myVariable1)"
+    $myVariable1 = '@lab.Variable(myVariable1)'
     ```
 
 #### **Python**
