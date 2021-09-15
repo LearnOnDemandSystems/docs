@@ -81,7 +81,7 @@ A Web Request is used to send a URL request. The URL can optionally contain plac
 Placeholders include:
 
 - @lab.LabProfile.Id
-- @lab.LabInstanceId
+- @lab.LabInstance.Id
 - @lab.LabInstance.GlobalId
 - @lab.User.Id
 - @lab.User.ExternalId (if launched via API)
