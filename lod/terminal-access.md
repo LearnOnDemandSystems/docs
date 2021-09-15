@@ -67,7 +67,7 @@ Depending on your distribution, you will need to use one of two methods to add a
     - Under the ethernets node, add an adapter and configure it to use DHCP, as shown in the sample below:
     
         - Sample YAML File, showing a static IP and DHCP configuration:
-        ```
+        ```linenums
         networks
           ethernets:
             ens32:
@@ -81,7 +81,7 @@ Depending on your distribution, you will need to use one of two methods to add a
             ens33:
               dhcp4: true
           version 2
-          ```
+         ```
     >[!alert] Please note that YAML files are sensitive to whitespace and indentation. Do not use the tab key to indent items: always use the space bar.
     - After making the changes to the YAML file, run the command `sudo netplan apply`.
     
