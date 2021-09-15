@@ -14,7 +14,7 @@ With the Life Cycle Actions (LCA) feature, LOD is able to execute actions when s
 * [Life Cycle Configuration](#life-cycle-configuration)
 * [Send Web Request](#send-web-request)
   + [Lab data can be appended to the URL](#lab-data-can-be-appended-to-the-url)
-  + [Web Requests have multiple verb options](#web-requests-have-multiple-verb-options-)
+  + [Web Requests have multiple verb options](#web-requests-have-multiple-verb-options)
   + [Headers](#headers)
 * [Send Notification to User](#send-notification-to-user)
 * [Send E-mail to user](#send-e-mail-to-user)
@@ -104,7 +104,7 @@ When Append Lab Data is enabled, the following lab data will be appended to the 
 - lastName
 - tag (if included when launched via API)
 
-### Web Requests have multiple verb options:
+### Web Requests have multiple verb options
 
 - GET
 - POST

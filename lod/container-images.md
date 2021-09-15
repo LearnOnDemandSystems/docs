@@ -38,9 +38,15 @@ Lab on Demand supports using Docker Container Images in labs. Container images a
 
     - **Exposed Ports**: The port(s) that will be exposed on the container. Enter on port value per line. Each exposed port will be dynamically  mapped to an external port on the lab host server when the lab is deployed. The external addresses for exposed ports can be obtained in your labs via @lab tokens. 
 
-        For example, an exposed port of 5000 might be referenced as: `@lab.Container(alias).ExposedPort(exposedPortValue).Address`.
+        For example, an exposed port of 5000 might be referenced as: `@lab.Container(alias).ExposedPort(5000).Address`.
 
         Please note that the external port will most likely **not** be the same as the container's exposed port. The external port is 100% dynamic and not something that can be directly controlled. 
+
+        - **Display**: Select how the exposed ports will be displayed. 
+
+            - **Terminal**: allows a terminal connection to the exposed port of the container.
+            - **Web**: allows the lab client to connect to the exposed port and display the output of that port from the container. Web display requires the lab profile to have at least one network attached. 
+             
 
     - **Enabled**: Check the box to enable the container image. 
 

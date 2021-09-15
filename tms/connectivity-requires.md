@@ -91,7 +91,7 @@ When connecting to a lab instance via a proxy, certain configuration requirement
 
 ## When Using Windows Server Operating Systems
 
-When connecting to Learn on Demand Systems Training Management Systems (TMS) portals with a computer having Windows Server operating systems on it, you may experience difficulty in connecting to the sign-in page or clicking on some buttons. Steps to remediate can be found [here.](/end-user-student-faqs/class-self-paced/important-note-when-using-windows-server-operating-systems.md)
+When connecting to Learn on Demand Systems Training Management Systems (TMS) portals with a computer having Windows Server operating systems on it, you may experience difficulty in connecting to the sign-in page or clicking on some buttons. Steps to remediate can be found [here.](/tms/end-user-student-faqs/basics/windows-server-os.md)
 
 ## In-Lab Software Whitelisting Information for Lab Developers
 
@@ -102,7 +102,7 @@ Software that communicates with remote servers outside of the lab environment ma
 
 The below ranges are used by Public IP internet access labs.
 
-185.254.59.40 - 185.254.59.255, 185.254.58.0/24 185.254.57.0/24 168.245.200.0/23 168.245.202.0/23 128.136.160.9 - 128.136.160.254 103.18.85.21 - 103.18.85.254 199.101.110.31 - 199.101.110.254 199.101.111.05 - 199.101.111.254, 199.101.108.5 - 199.101.109.254
+185.254.59.40 - 185.254.59.255, 185.254.58.0/24 185.254.57.0/24 168.245.200.0/23 168.245.202.0/23 128.136.160.9 - 128.136.160.254 103.18.85.21 - 103.18.85.254 199.101.110.31 - 199.101.110.254 199.101.111.05 - 199.101.111.254, 199.101.108.5 - 199.101.109.254, 103.8.28.0/24
 
 A CSV containing these ranges is available for use in automating any whitelist changes. It can be found [here](lods-whitelist-ips.csv).
 

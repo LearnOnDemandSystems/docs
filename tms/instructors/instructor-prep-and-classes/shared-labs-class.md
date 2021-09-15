@@ -50,7 +50,7 @@ Participant labs are in the class for students to access the shared environment 
 
 Participant labs are launched by students by clicking the activity's Launch button. Opening the participant lab gives students access to the shared lab environment when it is running. 
 
-Having multiple participant labs available to all students may lead to mishaps if a student(s) launches the wrong lab. You have the ability to assign each student to the participant lab they should use and prevent students from seeing the labs they should not access. Using the [assign access to class activities](/tms/instructors/instructor-prep-and-classes/assign-class-activities.md) feature, each activity enabled for assignment will only be seen and accessed by students assigned to it. This feature must be enabled on the course to be available in a class. When used the class activity display a link is disabled for all students and displays a message stating the activity is disabled by the instructor. Access is disabled by unchecking the Enabled checkbox on a class activity and re-enabled by checking it again; activity access automatically resets for students in approximately 30 seconds.
+Having multiple participant labs available to all students may lead to mishaps if a student(s) launches the wrong lab. You have the ability to assign each student to the participant lab they should use and prevent students from seeing the labs they should not access. Using the [assign access to class activities](/tms/instructors/instructor-prep-and-classes/assign-class-activities.md) feature, each activity enabled for assignment will only be seen and accessed by students assigned to it. This feature must be enabled on the course to be available in a class. When used the class activity display a link is disabled and displays a message stating the activity is disabled by the instructor. Access is disabled by unchecking the Enabled checkbox on a class activity and re-enabled by checking it again; activity access automatically resets for students in approximately 30 seconds.
 
 ### Saving and Closing Labs
 
@@ -66,6 +66,6 @@ Work in a lab is lost when a lab is cancelled.
  
 - [How do I set up a shared labs course?](/tms/tms-administrators/courses-and-activities/overall/shared-lab-course.md)
 - [How do I assign access to a class activity to different students?](/tms/instructors/instructor-prep-and-classes/assign-class-activities.md)
-- [How do I disable class activities for all students?](/tms/tms-administrators/courses-and-activities/labs/disable-class-activities.md)
+- [How do I disable class activities for all students?](/tms/instructors/instructor-prep-and-classes/disable-class-activities.md)
 
 

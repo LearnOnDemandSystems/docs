@@ -1,29 +1,24 @@
 ---
-title: "Central Authentication SAML Integration"
-description: "Configure an Azure Enterprise Application for SAML-based Single Sign-On."
+title: "SSO Authentication via Azure Active Directory and SAML"
+description: "Configure an Azure Active Directory Enterprise Application for SAML-based Single Sign-On."
 isPublished: true
 ---
 
-# Central Authentication SAML Integration 
+# SSO Authentication via Azure Active Directory and SAML
 
-## What is SAML?
-Secure Assertion Markup Language (SAML). 
+The following is an example of how to configure your Azure AD to support LODS SSO authentication via SAML.  While this example is for Azure AD, any SAML Identify Provider should work.
 
-SAML is an open standard that allows Identity Providers (IDP) and Service Providers (SP) to send authorization credentials to each other, to authenticate a user. This allows using one set of credentials to log in to multiple services and/or websites.
+LODS supports SAML authentication.  SAML is an open standard that allows Identity Providers (IdP) and Service Providers (SP) to send authorization credentials to each other, to authenticate a user. This allows using one set of credentials to log in to multiple services and/or websites.
 
-  > If you think of Single Sign On (SSO) as "One set of credentials for many services", think of SAML as the glue that connects them together. 
+- [Create an Azure Active Directory Enterprise App](#create-an-azure-active-directory-enterprise-app)
+- [Modify Application Configuration for Single Sign On with SAML](#modify-application-configuration-for-single-sign-on-with-saml)
+  - [Basic SAML Configuration](#basic-saml-configuration)
+  - [User Attributes and Claims](#user-attributes-and-claims)
+- [Application Setup with Learn on Demand Systems](#application-setup-with-learn-on-demand-systems)
 
-- [Central Authentication SAML Integration](#central-authentication-saml-integration)
-  - [What is SAML?](#what-is-saml-)
-  - [Create Azure Enterprise App](#create-azure-enterprise-app)
-  - [Modify Application Configuration for Single Sign On with SAML](#modify-application-configuration-for-single-sign-on-with-saml)
-    - [Basic SAML Configuration](#basic-saml-configuration)
-    - [User Attributes and Claims](#user-attributes-and-claims)
-    - [Application Setup with Learn on Demand Systems](#application-setup-with-learn-on-demand-systems)
+## Create an Azure Active Directory Enterprise App 
 
-## Create Azure Enterprise App 
-
-If your Identity Provider uses Azure, you must create an Enterprise Application in Azure.
+If your Identity Provider is Azure, you must create an Enterprise Application in Azure Active Directory.
 
 1. In Azure, **navigate to the Enterprise Applications section**. You can get to this by searching for _Enterprise Application_ in the top search bar in Azure.
 
@@ -103,7 +98,7 @@ If your Identity Provider uses Azure, you must create an Enterprise Application 
 
 ### Application Setup with Learn on Demand Systems
 
-1. **Provide Learn on Demand Systems the following URLs**. The values in these URLs will vary. The following is an example of how these may look. 
+1. **Open a [support ticket](http://www.learnondemandsystems.com/customer-support/) and provide Learn on Demand Systems the following URLs**. The values in these URLs will vary. The following is an example of how these may look. 
 
     |Value Name      |Example     | 
     |----------|:-------------|

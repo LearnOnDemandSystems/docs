@@ -9,7 +9,7 @@ Surveys and survey availability can be set to be added by default on all new cou
 
 Surveys can be added for different user roles, and presented to users according to their role. 
 
-- **Student**: survey presented to the student, to provide feedback about the class or course assignment.
+- **Student**: survey presented to the student, to provide feedback about the class.
 - **Instructor**: survey presented to the instructor, to provide feedback about the class. 
 - **Organization**: survey presented to organization managers, to provide feedback about the class. 
 

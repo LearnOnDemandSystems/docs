@@ -30,6 +30,8 @@ To create a Lab series, click **Create Lab Series** on the Lab Series tile, on t
 
 1. **# of Training Days**: The expected number of days for end users to use any of the lab profiles within the lab series. This does not restrict users from using labs after the expected number of days, it is used to determine resources consumption of the labs.
 
+1. **Default Assignment Duration**: The number of days that an automatically created lab series assignment will be active for. If not set, this value is pulled from the API consumer. 
+
 1. **Enabled**: Check this box to enable the Lab Series. If this box is left unchecked, the Lab Series will not be available to users.
 
 1. **Automatically Disable**: The date that the lab series can be set to be disabled. A disabled series is not accessible via API and the labs within cannot be launched.
