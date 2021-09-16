@@ -18,7 +18,7 @@ MOC labs are no longer maintained by Learn on Demand Systems after the Microsoft
 ## Available Lab IDs 
 To view our list of available Lab Series and Lab Profiles, visit our [MOC API/LTI Lab IDs webpage](https://lms.learnondemand.net/WebPage/143). This page refreshes daily and displays Lab IDs for currently offered MOC courses.  
 
->[!knowledge] Learn on Demand Systems makes every effort to avoid creation of new Lab Series’ or Profiles, however this is sometimes unavoidable. If a new Lab ID is created to replace an existing ID, LODS will notify API/LTI consumers by email with necessary information. LODS will leave the old Lab Series/Profile(s) enabled for 30 days after notification to allow for updates to take place on the API/LTI consumer’s end. After 30 days, the old Lab Series/Profiles will be automatically disabled.]
+>[!knowledge] We make every effort to avoid creation of new Lab Series’ or Profiles, however this is sometimes unavoidable. If a new Lab ID is created to replace an existing ID, we will notify API/LTI consumers by email with necessary information. We will leave the old Lab Series/Profile(s) enabled for 30 days after notification to allow for updates to take place on the API/LTI consumer’s end. After 30 days, the old Lab Series/Profiles will be automatically disabled.]
 
 
 ## Instructor Information 
