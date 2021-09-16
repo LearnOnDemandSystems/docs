@@ -86,7 +86,7 @@ This example policy below will deny any resources from being provisioned unless 
 }
 ```
 
-To create an Access Control Policy in Microsoft Azure, see our [Azure Access Control Policy Creation Process guide](lod/acp-creation-process.md).
+To create an Access Control Policy in Microsoft Azure, see our [Azure Access Control Policy Creation Process guide](/acp-creation-process.md).
 
 
 ### AWS
