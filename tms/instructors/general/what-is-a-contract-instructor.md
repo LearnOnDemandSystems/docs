@@ -11,7 +11,7 @@ Organizations that choose to use contract instructors will see contract instruct
 
 This allows a contract instructor to discretely teach for multiple organizations. You can access all of your classes for various organizations using the same login credentials; you do not have to have multiple accounts for each organization you are teaching for. Once you are scheduled in the TMS to teach a class with an organization, you will see the event show up on your instructor calendar. The simplest way to access a class you are teaching is from your instructor calendar. However, best practice is to login from the organization's URL so that when you display your screen it will show the organization's logo. 
 
-Learn on Demand Systems offers access to be a contract instructor and use contract instructors as a convenience for all parties. We do not certify any instructors or verify their qualifications to teach a course. All communication, scheduling, contracted rates and payment are the responsibility of the booking organization and the instructor.
+We offer access to be a contract instructor and use contract instructors as a convenience for all parties. We do not certify any instructors or verify their qualifications to teach a course. All communication, scheduling, contracted rates and payment are the responsibility of the booking organization and the instructor.
 
 If you would like to opt in to become a contract instructor, you need to enable the setting on your user profile. To access your user profile:
 1. From the top right corner of any page, click your name or if available, the expand pick list beside your name and click **View account**. 
