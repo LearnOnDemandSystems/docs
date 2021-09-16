@@ -27,7 +27,7 @@
           <div class="subtopic_description">We overview the tools needed to get labs and content into the hands of your users. This includes a brief description of courses, options for setting up users, and how a student redeems a training key. We also give a high level look at subscriptions and a look at tools in instructor led classes, including lab monitoring.</div>
       </a>
           <a class="subtopic_link" href="https://youtu.be/XRk4TkXjnY0" target="_blank">
-        <div class="subtopic_title">What are Learn on Demand Systems connectivity requirements for labs?</div>
+        <div class="subtopic_title">What are the connectivity requirements for labs?</div>
           <div class="subtopic_description">We overview how to find connectivity requirements, where to find and how to run a speed test, troubleshooting tips on lab connectivity, and different ways to open Support tickets.</div>
       </a>
          <a class="subtopic_link" href="https://youtu.be/VcWiTOW-Iq0" target="_blank">
@@ -56,7 +56,7 @@
       </a>
       <a class="subtopic_link" href="https://youtu.be/tw0M4c7BchM" target="_blank">
         <div class="subtopic_title">How do I assign Challenge Labs?</div>
-          <div class="subtopic_description">Using Learn on Demand Systems Challenge Labs requires its own unique set up and assignment. This video reviews how to find Challenge Labs, three ways to create Subscription assignments for users, and other items of interest for the set up and reporting on these labs.</div>
+          <div class="subtopic_description">Using Challenge Labs requires its own unique set up and assignment. This video reviews how to find Challenge Labs, three ways to create Subscription assignments for users, and other items of interest for the set up and reporting on these labs.</div>
           </div>
     </div>
     <div class="subtopic_header" tabindex="0" title="TMS Webinar Videos" role="button" aria-selected="false">TMS Webinar Videos</div>
@@ -68,7 +68,7 @@
         </a>  
        <a class="subtopic_link" href="https://youtu.be/faZC2WEz47Q" target="_blank">
             <div class="subtopic_title">Tips and Tricks on Delivering Virtual Classes</div>
-            <div class="subtopic_description">Learn all about your options for using virtual meetings with the TMS. Learn on Demand Systems has integrated options as well as the ability to use your virtual meeting host of choice. View how instructors and students experience using the virtual meeting in the TMS.</div>
+            <div class="subtopic_description">Learn all about your options for using virtual meetings with the TMS. We have integrated options as well as the ability to use your virtual meeting host of choice. View how instructors and students experience using the virtual meeting in the TMS.</div>
         </a>
        <a class="subtopic_link" href="https://youtu.be/o7qKPFzkdhE" target="_blank">
             <div class="subtopic_title">Overview of Self-paced Learning Using Subscriptions</div>
