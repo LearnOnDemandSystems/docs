@@ -203,7 +203,7 @@ An option to create multiple course assignments for multiple students has been a
 ## <u>Released January 28 2021</u>
 
 ###  Enhanced account security scheduled for implementation at 10:00pm ET Friday, February 12th 
-Learn on Demand Systems is implementing enhanced account security for user accounts that sign in with a username/password. You can learn more about these security measures here.
+We are implementing enhanced account security for user accounts that sign in with a username/password. You can learn more about these security measures here.
 Starting 10:00pm ET on Friday, February 12, local users will be prompted to reset your TMS password upon login at https://lms.learnondemand.net. Users logging in through API or Corporate Azure AD will not be prompted to reset their password
 
 ###  This password reset will require email verification.  
