@@ -83,6 +83,10 @@
         <div class="subtopic_title">Find Azure Resource Templates</div>
         <div class="subtopic_description">How to find Azure Resource Manager templates for use with Microsoft Azure.</div>
       </a>
+      <a class="subtopic_link" href="/lod/Microsoft Azure Access Control Policy Creation Process">
+        <div class="subtopic_title"> Microsoft Azure Access Control Policy Creation Process.</div>
+        <div class="subtopic_description">Basic information on the steps for creating a restrictive Access Control Policy (ACP) that limits a lab to only the resources it requires and will meet cloud security standards.</div>
+      </a>      
       <a class="subtopic_link" href="/lod/azure-css.md">
         <div class="subtopic_title">Microsoft Azure Cloud Slice Subscription</div>
         <div class="subtopic_description">Configure a lab profile to deliver training on Microsoft Azure subscriptions.</div>
