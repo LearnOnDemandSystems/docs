@@ -1,8 +1,9 @@
 # What's New in the TMS
 
-<span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a> 
+<span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in our other platforms?</a> 
 
 ## <u>Released August 30, 2021</u>
+   
 ### Accessibility Items
 In our continuing effort to improve accessibility for all our students and meet MAS standards we have implemented the following features:
 *   Luminosity ratio for the focus indicator is greater than or equal to the minimum contrast ratio 3:1 for the ‘Close my Account’ control. 
