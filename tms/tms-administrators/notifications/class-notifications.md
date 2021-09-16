@@ -137,7 +137,7 @@ One or multiple recipients can be set for a notification. Follow the instruction
 Each notification sends an email showing a Subject line and From line. You can also add a CC’d email to receive the notification. 
 
 ### Notification From line
-You need to provide a valid email address to display in the From address, an invalid email address may be read as spam and be rejected by a recipient’s email server. The email will be sent by LODS, but this is the address which is shown to recipients. 
+You need to provide a valid email address to display in the From address, an invalid email address may be read as spam and be rejected by a recipient’s email server. The email will be sent by our servers, but this is the address which is shown to recipients. 
 
 ### Notification CC line
 A carbon copy (CC) email address can be added. When in place a copy of each notification is sent to the recipient.
