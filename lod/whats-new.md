@@ -3,7 +3,7 @@
 </style>
  
 <div style="float:right; padding-top:5px; font-size:120%;">
-   <a href="https://lods.one/updates">Subscribe to Receive Email Notifications about Platform and Service Updates</a>
+   <a href="https://www.learnondemandsystems.com/roadmap-updates-form/">Subscribe to Receive Email Notifications about Platform and Service Updates</a>
 </div>
 
 # What's New in Lab On Demand
