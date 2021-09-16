@@ -30,7 +30,7 @@ The Trigger Event is an action in the platform causing a notification to be sent
 One or more trigger events may be used. When multiple triggers are in place a notification is sent when any of the event triggers are met. After choosing the first trigger the selection list is limited to similar types of notifications based on filters and replacement text options used. 
 
 ### User created notification
-The User created trigger is the only notification available that sends the username and password. The password can only be sent on the creation of a user, if needed a password reset link can be sent from a user’s profile. A notification is triggered when a user is manually created, a group of users is imported, or users are created through the API and Learn on Demand Systems is the authenticator. 
+The User created trigger is the only notification available that sends the username and password. The password can only be sent on the creation of a user, if needed a password reset link can be sent from a user’s profile. A notification is triggered when a user is manually created, a group of users is imported, or users are created through the API and our platform is used as the authenticator. 
 
 ### Add a trigger event
 Select trigger(s) for your automated notification.
