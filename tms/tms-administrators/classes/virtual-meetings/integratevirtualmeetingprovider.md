@@ -1,9 +1,9 @@
 ---
-title: "How do I use my Virtual Meeting Provider in LODS?"
+title: "How do I use my Virtual Meeting Provider in classes?"
 isPublished: true
 ---
 
-# How can I use my Virtual Meeting Provider in LODS? 
+# How can I use my Virtual Meeting Provider in classes? 
 
 > Please be aware that the functionality covered in this and linked articles may not be available to you.
 
