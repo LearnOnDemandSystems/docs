@@ -43,4 +43,4 @@ Either a Class or a Custom Event will allow you to select the days and times of 
 
 > <a id="note2">**<sup>2</sup>**</a> The standard Instructor role does not permit a user to monitor course assignments. Course Assignments can be monitored by Operations Managers or by an instructor if organization management is assigned with the Instructor role. This gives the instructor administrative access to all the organization's data.
 
-> <a id="note3">**<sup>3</sup>**</a> Automated Notifications must be set up by LODS support before they can be enabled for Classes, Custom Events or Course Assignments.
+> <a id="note3">**<sup>3</sup>**</a> You can set up automated notifications, they can be enabled for Classes, Custom Events or Course Assignments.
