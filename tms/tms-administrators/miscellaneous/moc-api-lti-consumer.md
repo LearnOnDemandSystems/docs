@@ -1,13 +1,13 @@
 ---
 title: "MOC API/LTI Consumer Information "
-description: "Information for Learning Partners consuming Microsoft Official Curriculum (MOC) through Learn on Demand Systems API or LTI."
+description: "Information for Learning Partners consuming Microsoft Official Curriculum (MOC) through our API or LTI."
 isPublished: true
 ---
 
 # Microsoft Official Curriculum (MOC) API/LTI Consumer Information 
 
 ## Lab Access 
-API/LTI consumers of Microsoft Official Curriculum (MOC) get access to all our course offerings. We publish all labs to API and LTI consumers when at the same time they are released through our OneLearn Training Management Systems (TMS). 
+API/LTI consumers of Microsoft Official Curriculum (MOC) get access to all our course offerings. We publish all labs to API and LTI consumers when at the same time they are released through our OneLearn Training Management System (TMS). 
 
 ## Post Class Access 
 API/LTI consumers of MOC receive the standard 180 days post class access to labs. This is the same post class access length users receive through our OneLearn Training Management System (TMS). 
