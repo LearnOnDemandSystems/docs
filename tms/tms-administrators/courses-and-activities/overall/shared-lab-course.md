@@ -19,9 +19,9 @@ Any other course profile configuration will impact pricing.
 
 Pricing is also impacted by all available participant labs whose development status is **Complete**, the lab is enabled and published for consumption. Though a participant lab may not be a lab activity in a course, if its shared environment lab is a lab activity in a course and it is the most resource-intensive participant lab published, then its price will be used to configure pricing for the course. Therefore, do not publish any participant lab that should not be consumed. 
 
-Requests for altered course configurations require pre-approval by both the Learn on Demand Systems Chief Product Officer and your Account Executive before being created and made available to your organization for scheduling and consumption.
+Requests for altered course configurations require pre-approval by both the our Chief Product Officer and your sales person before being created and made available to your organization for scheduling and consumption.
 
-> :small_blue_diamond: Due to the requirements for course configurations, only Learn on Demand Systems staff can create courses that incorporate shared labs. 
+> :small_blue_diamond: Due to the requirements for course configurations, only our staff can create courses that incorporate shared labs. 
 
 Notify our help desk at https://lod.one/help to set up the course. Specify the following information:
 
