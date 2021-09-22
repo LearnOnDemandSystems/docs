@@ -6,7 +6,7 @@ isPublished: true
 
 # Code Labs
 
-Code Labs are a lab platform type with a code editor user interface (UI) in the lab client and a backend service calling docker containers to run code. The code is executed in a Code Container, which a language specific docker image with a compiler run time where the code is compiled and evaluated.
+Code Labs are a lab platform type with a code editor user interface (UI) in the lab client and a backend service calling docker containers to run code. The code is executed in a Code Container, which a language specific Docker image with a compiler run time where the code is compiled and evaluated.
 
 ## Table of Contents
   * [Starting a Code Lab](#starting-a-code-lab)
@@ -31,7 +31,7 @@ Code Labs are a lab platform type with a code editor user interface (UI) in the 
 ## Starting a Code Lab
 
 ![](images/codelabs/1_cl_enable.png){500}
-W
+
 To enable Code Labs in a Lab Profile, select the Code Lab Fabric checkbox on the Basic Information tab of your lab profile. This profile will now be set up for using Code Labs.
 
 Next, you need to configure the code lab activity settings. 
@@ -55,12 +55,12 @@ With Code Labs enabled, you will now be able to edit the Code Lab settings by se
 
     ![Edit existing Code Lab Activity](images/codelabs/edit-existing-code-lab-activity.png){400}
 
-
 ### Code Activity Setup
 
 ![](images/codelabs/3_cl_admin_empty.png){700}
 
 The Code Activity Setup consist of 5 parts:
+
  1. Add supported languages to your Code Lab
  1. Manage settings for languages
  1. Add test inputs
@@ -75,23 +75,23 @@ The Code Lab client is the student facing side of Code Labs.  The Client is a si
 
 The Code Lab Client consists of 9 parts:
 
-1. The Code Language Selector - Used by the student to choose which language they prefer to use for the Code Lab. These reflect the languages added to in the Code Lab Settings.
+1. **The Code Language Selector**: Used by the student to choose which language they prefer to use for the Code Lab. These reflect the languages added to in the Code Lab Settings.
 
-1. Reset - This will reset any student code to the original template set up in Code Lab Settings.
+1. **Reset**: This will reset any student code to the original template set up in Code Lab Settings.
 
-1. Submit - This will run any code entered by the student, and compare the result in Tests and Custom Tests
+1. **Submit**: This will run any code entered by the student, and compare the result in Tests and Custom Tests
 
-1. IDE - A simplified IDE. This will populate with the initial Code Lab Language Template, and students can edit code in this area.
+1. **IDE**: A simplified IDE. This will populate with the initial Code Lab Language Template, and students can edit code in this area.
 
-1. Output - All program output will show here.
+1. **Output**: All program output will show here.
 
-1. Errors - Any program errors will show here.
+1. **Errors**: Any program errors will show here.
 
-1. Tests - All tests added in the Code Lab Settings will show here, and be evaluated on submit.
+1. **Tests**: All tests added in the Code Lab Settings will show here, and be evaluated on submit.
 
-1. Custom Tests - Students have the ability to add custom tests to each Code Lab.  These will be evaluated on submit.
+1. **Custom Tests**:Students have the ability to add custom tests to each Code Lab.  These will be evaluated on submit.
 
-1. Instructions - Standard Lab Profile instructions.
+1. **Instructions**: Standard Lab Profile instructions.
 
 
 ## Language Settings
@@ -108,7 +108,6 @@ Once a Supported Language is added to the Code Lab, instructors will have 3 sett
    - [Starting Template](#starting-template)
    - [Program Wrapper](#program-wrapper)
    - [Advanced](#advanced)
-
 
 Languages include:
 - C
@@ -136,15 +135,15 @@ The Program Wrapper wraps the students code, and **must contain the string `#COD
 
 ![](images/codelabs/8_cl_lang_advanced.png){700}
 
-- **Test Command String** - A command to run the created program. String.Format is used to replace arguments with test inputs. {0} is input 1, {1} is input 2, etc. The program is executed once per test.
+- **Test Command String**: A command to run the created program. String.Format is used to replace arguments with test inputs. {0} is input 1, {1} is input 2, etc. The program is executed once per test.
 
-- **Compilation Command** - For compiled languages only, this command is ran to compile source code into an executable.
+- **Compilation Command**: For compiled languages only, this command is ran to compile source code into an executable.
 
-- **Project Wrapper** - Extra project information as needed per language.
+- **Project Wrapper**: Extra project information as needed per language.
 
-- **Enabled** - Select this to enable this language for use. Deselect this to disable the language. 
+- **Enabled**: Select this to enable this language for use. Deselect this to disable the language. 
 
-- **Remove Language** - Select to remove the language from the lab. 
+- **Remove Language**: Select to remove the language from the lab. 
 
 ## Tests
 
