@@ -8,38 +8,59 @@ isPublished: true
 
 Code Labs are a lab platform type with a code editor user interface (UI) in the lab client and a backend service calling docker containers to run code. The code is executed in a Code Container, which a language specific docker image with a compiler run time where the code is compiled and evaluated.
 
-- [Starting a Code Lab](#starting-a-code-lab)
-- [Code Lab Settings](#code-lab-settings)
-- [Code Lab Client](#code-lab-client)
-- [Language Settings](#language-settings)
-    - [Adding a supported language](#adding-a-supported-language)
-    - [Starting Template](#starting-template)
-    - [Program Wrapper](#program-wrapper)
-    - [Advanced](#advanced)
-- [Tests](#tests)
-    - [Inputs](#inputs)
-    - [Adding Tests](#adding-tests)
-- [Code Lab Scoring](#code-lab-scoring)
+
+  * [Starting a Code Lab](#starting-a-code-lab)
+  * [Code Lab Settings](#code-lab-settings)
+    + [New Code Lab Activity](#new-code-lab-activity)
+    + [Edit Existing Code Lab Activity](#edit-existing-code-lab-activity)
+    + [Code Activity Setup](#code-activity-setup)
+  * [Code Lab Client](#code-lab-client)
+  * [Language Settings](#language-settings)
+    + [Adding a Supported Language](#adding-a-supported-language)
+    + [Starting Template](#starting-template)
+    + [Program Wrapper](#program-wrapper)
+    + [Advanced](#advanced)
+  * [Tests](#tests)
+    + [Inputs](#inputs)
+    + [Adding Tests](#adding-tests)
+  * [Code Lab Scoring](#code-lab-scoring)
 - [Example Code Lab](#example-code-lab)
+  * [Running the Default Lab](#running-the-default-lab)
+  * [Building Your Lab](#building-your-lab)
 
 ## Starting a Code Lab
 
 ![](images/codelabs/1_cl_enable.png){500}
 
-To enable Code Labs in a Lab Profile, select the Code Lab Fabric checkbox in the initial Lab Profile creation.  This profile will now be set up for using Code Labs.
+To enable Code Labs in a Lab Profile, select the Code Lab Fabric checkbox on the Basic Information tab of your lab profile. This profile will now be set up for using Code Labs.
 
+Next, you need to configure the code lab activity settings. 
 
 ## Code Lab Settings 
 
-With Code Labs enabled, you will now be able to edit the Code Lab settings by selecting the code icon in the Lab Instructions.
+With Code Labs enabled, you will now be able to edit the Code Lab settings by selecting the Activities menu in the Lab Instruction editor.
 
-![](images/codelabs/2_cl_button.png){300}
+![](images/2_cl_activities_menu.png){500}
 
-Selecting the Code Lab icon will launch the Code Labs Settings dialog.
+### New Code Lab Activity 
+1. Selecting the Activities menu will launch the Activities menu.
+
+1. Select **New Code Activity** to launch the code activity setup. 
+
+    ![New Code Activity](images/codelabs/new-code-activity.png){400}
+### Edit Existing Code Lab Activity
+
+1. Selecting the Activities menu will launch the Activities menu.
+1. If the lab already has a Code Lab Activity, select **Edit** next to the activity.
+
+    ![Edit existing Code Lab Activity](images/codelabs/edit-existing-code-lab-activity.png){400}
+
+
+### Code Activity Setup
 
 ![](images/codelabs/3_cl_admin_empty.png){700}
 
-The Code Lab Settings consist of 5 parts:
+The Code Activity Setup consist of 5 parts:
  1. Add supported languages to your Code Lab
  1. Manage settings for languages
  1. Add test inputs
@@ -54,13 +75,13 @@ The Code Lab client is the student facing side of Code Labs.  The Client is a si
 
 The Code Lab Client consists of 9 parts:
 
-1. The Code Language Selector - Used by the student to choose which language they prefer to use for the Code Lab.  These reflect the languages added to in the Code Lab Settings.
+1. The Code Language Selector - Used by the student to choose which language they prefer to use for the Code Lab. These reflect the languages added to in the Code Lab Settings.
 
 1. Reset - This will reset any student code to the original template set up in Code Lab Settings.
 
 1. Submit - This will run any code entered by the student, and compare the result in Tests and Custom Tests
 
-1. IDE - A simplified IDE.  This will populate with the initial Code Lab Language Template, and students can edit code in this area.
+1. IDE - A simplified IDE. This will populate with the initial Code Lab Language Template, and students can edit code in this area.
 
 1. Output - All program output will show here.
 
@@ -75,6 +96,7 @@ The Code Lab Client consists of 9 parts:
 
 ## Language Settings
 
+Language settings can be configured by editing the Code Lab Activity from the Activities menu. 
 ![](images/codelabs/6_cl_lang.png){700}
 
 ### Adding a Supported Language
