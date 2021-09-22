@@ -8,9 +8,9 @@ isPublished: true
 
 Code Labs are a lab platform type with a code editor user interface (UI) in the lab client and a backend service calling docker containers to run code. The code is executed in a Code Container, which a language specific docker image with a compiler run time where the code is compiled and evaluated.
 
-
+## Table of Contents
   * [Starting a Code Lab](#starting-a-code-lab)
-  * [Code Lab Settings](#code-lab-settings)
+  * [Code Lab Activity Settings](#code-lab-activity-settings)
     + [New Code Lab Activity](#new-code-lab-activity)
     + [Edit Existing Code Lab Activity](#edit-existing-code-lab-activity)
     + [Code Activity Setup](#code-activity-setup)
@@ -31,12 +31,12 @@ Code Labs are a lab platform type with a code editor user interface (UI) in the 
 ## Starting a Code Lab
 
 ![](images/codelabs/1_cl_enable.png){500}
-
+W
 To enable Code Labs in a Lab Profile, select the Code Lab Fabric checkbox on the Basic Information tab of your lab profile. This profile will now be set up for using Code Labs.
 
 Next, you need to configure the code lab activity settings. 
 
-## Code Lab Settings 
+## Code Lab Activity Settings 
 
 With Code Labs enabled, you will now be able to edit the Code Lab settings by selecting the Activities menu in the Lab Instruction editor.
 
