@@ -86,6 +86,9 @@ This example policy below will deny any resources from being provisioned unless 
 }
 ```
 
+To create an Access Control Policy in Microsoft Azure, see our [Azure Access Control Policy Creation Process guide](acp-creation-process.md).
+
+
 ### AWS
 
 By default, AWS denies all resources from bring provisioned, unless they are allowed by an access control policy. 
@@ -112,7 +115,7 @@ The access control policy below will allow all EC2 resources except Virtual Mach
 
 ## ACP Authoring Resources
 
-**Learn On Demand Systems**: For more in-depth information on how to create your own custom ACPs, our [Lab developer GitHub](https://github.com/LearnOnDemandSystems/labauthor/tree/master/access-control-policies/) provides examples of various ACPs, as well as guidance on how to create your own.
+For more in-depth information on how to create your own custom ACPs, our [Lab developer GitHub](https://github.com/LearnOnDemandSystems/labauthor/tree/master/access-control-policies/) provides examples of various ACPs, as well as guidance on how to create your own.
 
 **Azure**: For more information about the items that can be used in an Azure policy, see [Microsoft Azure Access Control Policy Templates](https://docs.microsoft.com/en-us/azure/azure-policy/json-samples).
 

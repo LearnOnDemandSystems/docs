@@ -1,6 +1,6 @@
 ## How do I capture a screenshot to send to the Help Desk team?
 
-When contacting the Learn on Demand Systems Help Desk Team, it is often helpful, and in some cases required, for you to send us a screenshot to show what kind of difficulty you are having. Capturing the right information can help us help you more effectively. Use the following information and screenshot examples as a guide for capturing and submitting your error messages or other issues that you might be having.
+When contacting our [customer support team](http://www.learnondemandsystems.com/customer-support/), it is often helpful, and in some cases required, for you to send us a screenshot to show what kind of difficulty you are having. Capturing the right information can help us help you more effectively. Use the following information and screenshot examples as a guide for capturing and submitting your error messages or other issues that you might be having.
 
 First, use the Windows-based screenshot tools to capture what you need. On some Windows editions (Vista and newer) you can use a tool called the **Snipping Tool**.
 

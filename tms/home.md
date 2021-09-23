@@ -203,7 +203,7 @@
           <div class="category">
           <a href="/tms/tms-administrators/classes/virtual-meetings/integratevirtualmeetingprovider.md" class="categoryThread">
             <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
-            <span class="categoryTitleFeatured" title="How does LODS Integrate with my Virtual Meeting Provider?">How does LODS Integrate with my Virtual Meeting Provider?</span>
+            <span class="categoryTitleFeatured" title="How does my Virtual Meeting Provider integrate with the TMS?">How does my Virtual Meeting Provider integrate with the TMS?</span>
             <span class="categoryDescription">Find out how to integrate your virtual meeting provider into a TMS class giving your students and instructor one place to connect, launch their labs and course activities.</span>
           </a>
         </div>
@@ -497,7 +497,7 @@
     </div>
     <div class="moreInfo" tabindex="0" title="Meet Virtually">
       <span class="moreInfo_header">Meet Virtually</span>
-      Learn how to use your virtual meeting provider with LODS labs. You can provide access to your virtual meeting host and your LODS labs from within a class, giving your students and instructor everything they need on one page. For more information on integrating your virtual meeting host <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/integrate-virtualmeetingprovider.md">click here.</a> For informtion on creating a class that integrates a virtual meeting host <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md">click here.</a>  
+      Learn how to use your virtual meeting provider for classes in the TMS. You can provide access to your virtual meeting host and your labs from within a class, giving your students and instructor everything they need on one page. For more information on integrating your virtual meeting host <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/integrate-virtualmeetingprovider.md">click here.</a> For informtion on creating a class that integrates a virtual meeting host <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md">click here.</a>  
     </div>
     <div class="cardsContainer">
     <div class="cardContainer">

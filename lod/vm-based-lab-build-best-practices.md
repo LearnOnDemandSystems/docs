@@ -94,7 +94,7 @@ You have created or imported a virtual machine.
 
 1.  For all non-Windows virtual machines, uncheck **Wait for heartbeat before displaying to user**.
 
-    >[!ALERT] The **Wait for heartbeat before displaying to user** setting does not work with non-Windows virtual machines.
+    >[!ALERT] The **Wait for heartbeat before displaying to user** setting may not work with some non-Windows virtual machines.
 
 #### vSphere Lab Profiles
 

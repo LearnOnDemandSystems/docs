@@ -385,7 +385,7 @@ For more information about Action and Event types, please see our [Life Cycle Ac
 - **Notify User by Email `X` `Minutes` Before Lab Instance Expires:** notifies the user via email at a specified time before the lab instance expires. 
 - **Activity Required to Enable Auto-Save:** Amount of active time in the lab given before the lab will automatically save.
 - **Minimum Time Given to Saved Labs:** Minimum amount of time that students will have on the lab timer, when they resume a lab. 
-- **Maximum Allowed Snapshots:** Maximum amount of [snapshots](/lodsnapshots.md) that are allowed
+- **Maximum Allowed Snapshots:** Maximum amount of [snapshots](/snapshots.md) that are allowed
 - **Allow Setting Expiration Time:** allows the lab expiration timer to be extended from the lab client. 
 
     - **Allow only instructors to extend lab expiration:** only instructors will be able to extend the lab expiration timer. 

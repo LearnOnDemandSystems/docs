@@ -1,4 +1,4 @@
-# Learn on Demand Systems Token Store Guide - in Construction
+# Token Store Guide - in Construction
 
 ## Introduction
 

@@ -1,31 +1,31 @@
 ---
 title: "MOC API/LTI Consumer Information "
-description: "Information for Learning Partners consuming Microsoft Official Curriculum (MOC) through Learn on Demand Systems API or LTI."
+description: "Information for Learning Partners consuming Microsoft Official Curriculum (MOC) through our API or LTI."
 isPublished: true
 ---
 
 # Microsoft Official Curriculum (MOC) API/LTI Consumer Information 
 
 ## Lab Access 
-API/LTI consumers of Microsoft Official Curriculum (MOC) get access to all our course offerings. Learn on Demand Systems publishes all labs to API and LTI consumers when at the same time they are released through our OneLearn Training Management Systems (TMS). 
+API/LTI consumers of Microsoft Official Curriculum (MOC) get access to all our course offerings. We publish all labs to API and LTI consumers when at the same time they are released through our OneLearn Training Management System (TMS). 
 
 ## Post Class Access 
-Learn on Demand Systems API/LTI consumers of MOC receive the standard 180 days post class access to labs. This is the same post class access length users receive through our OneLearn Training Management System (TMS). 
+API/LTI consumers of MOC receive the standard 180 days post class access to labs. This is the same post class access length users receive through our OneLearn Training Management System (TMS). 
 
 ## Retirement Lifecycle 
-MOC labs are no longer maintained by Learn on Demand Systems after the Microsoft official retirement date. Lab access is automatically disabled 180 days after Microsoft’s official retirement date to accommodate user post class access. API/LTI consumers should be aware of Microsoft retirement schedule to ensure automatic lab disable does not impact end users. 
+MOC labs are no longer maintained after the Microsoft official retirement date. Lab access is automatically disabled 180 days after Microsoft’s official retirement date to accommodate user post class access. API/LTI consumers should be aware of Microsoft retirement schedule to ensure automatic lab disable does not impact end users. 
 
 ## Available Lab IDs 
 To view our list of available Lab Series and Lab Profiles, visit our [MOC API/LTI Lab IDs webpage](https://lms.learnondemand.net/WebPage/143). This page refreshes daily and displays Lab IDs for currently offered MOC courses.  
 
->[!knowledge] Learn on Demand Systems makes every effort to avoid creation of new Lab Series’ or Profiles, however this is sometimes unavoidable. If a new Lab ID is created to replace an existing ID, LODS will notify API/LTI consumers by email with necessary information. LODS will leave the old Lab Series/Profile(s) enabled for 30 days after notification to allow for updates to take place on the API/LTI consumer’s end. After 30 days, the old Lab Series/Profiles will be automatically disabled.]
+>[!knowledge] We make every effort to avoid creation of new Lab Series’ or Profiles, however this is sometimes unavoidable. If a new Lab ID is created to replace an existing ID, we will notify API/LTI consumers by email with necessary information. We will leave the old Lab Series/Profile(s) enabled for 30 days after notification to allow for updates to take place on the API/LTI consumer’s end. After 30 days, the old Lab Series/Profiles will be automatically disabled.]
 
 
 ## Instructor Information 
 To view our Azure Cloud Slice Instructor Guide (specific to API/LTI consumers), please download our [PDF](https://lodmanuals.blob.core.windows.net/lms/Microsoft%20Official%20Curriculum%20\(MOC\)/Azure%20Cloud%20Slice%20API%20Instructor%20Guide.pdf). This information should be distributed to technical contacts and instructors as needed. 
 
 ## Shared Dynamics Tenants 
-Some MOC labs use a shared Dynamics 365 tenant. To ensure proper setup to consume these labs through Learn on Demand Systems API or LTI, please carefully review tenant configuration and impacts below. 
+Some MOC labs use a shared Dynamics 365 tenant. To ensure proper setup to consume these labs through our API or LTI, please carefully review tenant configuration and impacts below. 
 
 #### Courses Impacted 
 |Course Number |Version|Course Title|

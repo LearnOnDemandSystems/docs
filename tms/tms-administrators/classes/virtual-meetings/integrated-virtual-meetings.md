@@ -11,18 +11,18 @@ Please note, we have no control over changes made in Adobe Connect or Zoom or ou
 
 ## Adobe Connect Integrated Meeting Host Setup
 
-Once you have an Adobe Connect contract you will need to send LODS the following information. 
+Once you have an Adobe Connect contract you will need to send our help desk the following information. 
 
 1.	The **URL** for your Adobe Connect account
 1.	The **username** and **password** for your account; the account must have full Administrator account permissions
 1.	The number of **licenses** purchased
 1. The amount of time before class starts and after class ends for your instructor to be able to launch into the meeting. If this is not specified, it will default to 60 minutes before class starts and zero minutes after the class session ends.
 1. The amount of time before class starts and after class ends for your students to be able to launch into the meeting. If this is not specified, it will default to 15 minutes before class starts and zero minutes after the class session ends.
-1.	Gather this information and send a request to LODS. [Click here to request a TMS/Adobe Connect integration.](https://supportrequest.learnondemandsystems.com/form-4500904/support-request) 
+1.	Gather this information and send a request to our help desk. [Click here to request a TMS/Adobe Connect integration.](https://supportrequest.learnondemandsystems.com/form-4500904/support-request) 
 
 ## Zoom Integrated Meeting Host Setup
 
-To integrate Zoom into the TMS, you will need a licensed Zoom account, set up a JSon Web Token (JWT) in Zoom, and send some information to LODS for set up in the TMS. Once you have decided on a Zoom plan and have an account, you will need to set up a JWT app, this lets Zoom and the TMS communicate. Follow the instructions below to create the JWT app and send us the API key, API secret, and the email of a licensed user. 
+To integrate Zoom into the TMS, you will need a licensed Zoom account, set up a JSon Web Token (JWT) in Zoom, and send some information to our help desk for set up in the TMS. Once you have decided on a Zoom plan and have an account, you will need to set up a JWT app, this lets Zoom and the TMS communicate. Follow the instructions below to create the JWT app and send us the API key, API secret, and the email of a licensed user. 
 
 Go to the [Zoom App Marketplace.](https://marketplace.zoom.us/) 
 
@@ -31,8 +31,19 @@ Go to the [Zoom App Marketplace.](https://marketplace.zoom.us/)
 1.	Fill out the information to create the app
 1.	To set up Zoom, we will need your **API Key** and **API Secret**. We also need the **email of a licensed Zoom user** to verify the set up.  [Click here to request a TMS/Zoom integration.](https://supportrequest.learnondemandsystems.com/form-4500904/support-request) 
   
-
 The integration will be broken if you regenerate the API Secret after the integration is set up.
+
+## Webex Integrated Meeting Host Setup
+
+To integrate WebEx into the TMS, you will need a licensed WebEx account. Once you have an WebEx contract you will need to send our help desk the following information.
+
+1.	The **Site Name** for the WebEx account.
+1.	The **username and password for your account**; the accounts must have full **Administrator** account permissions.
+1.	The **amount of time before class starts and after class ends for your instructor to be able to launch** into the meeting. If this is not specified, it will default to 60 minutes before class starts and zero minutes after the class session ends.
+1.	The **amount of time before class starts and after class ends for your students to be able to launch** into the meeting. If this is not specified, it will default to 15 minutes before class starts and zero minutes after the class session ends.
+1.	Gather this information and send a request to our help desk. [Click here to request a TMS/Webex integration.](https://supportrequest.learnondemandsystems.com/form-4500904/support-request) 
+  
+
 
 ### Additional Resources
 

@@ -1,7 +1,34 @@
 # What's New in the TMS
 
-<span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in the other LODS platforms?</a> 
+<span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in our other platforms?</a> 
 
+## <u>Released August 30, 2021</u>
+   
+### Accessibility Items
+In our continuing effort to improve accessibility for all our students and meet MAS standards we have implemented the following features:
+*   Luminosity ratio for the focus indicator is greater than or equal to the minimum contrast ratio 3:1 for the ‘Close my Account’ control. 
+*   Keyboard focus will not move to the non-interactive elements in ‘Login Assistance’ page while navigating through keyboard tab.
+*   Keyboard focus will stay on the first interactive element Close (X) button once the ‘How would you like to sign in?’ dialog is opened while navigating through keyboard tab.
+*   Keyboard focus will restore back on the ‘Learn on Demand Systems Account’ control after invoking the ‘Cancel’ button in the ‘How would you like to sign in?' dialog.
+*   Screen reader focus will move to the first error field ‘Username’ after invoking ‘Sign in” button without filing mandatory fields on the page, when navigating using NVDA browse mode. 
+
+### Enhancements and Fixes
+*   Cloud Platform – AWS:  We have fixed the Cloud Platform filter dropdown to include AWS on the Find Labs page.
+*   All Virtual Class Launches: When a student with an Enrollment Status of Enrolled launches a virtual class the Completion status will automatically be marked as Attending.
+*   API Course Assignment – API Create Against Subscription: We have updated the Create and Update Course Assignment API end points to properly associate subscriptions memberships when provided.
+*   Publishing Groups: We have fixed an issue with Publishing Groups allowing an Operations Manager to set the Organization running a class to an organization they manage that doesn’t have availability to the course.  If the course is selected during the class creation process, the following message will occur when the Save button is clicked. 
+
+    'Organization Name does not have access to deliver Course Name, please select another delivery organization.'
+
+    Previously, when creating a class using an Organization in the Publishing Group with a course from the Publishing Group, the Operations Manager could then change the organization to one they manage that is outside of that Publishing Group. Now, the following message will occur when a valid Organization is selected and then changed to an Organization outside of the Publishing Group.
+
+    'The selected organization does not have access to deliver the selected course. Please choose another organization.'
+
+    If the OK button is clicked, the following message will occur when saving.
+
+    'Organization Name does not have access to deliver Course Name, please select another delivery organization.'
+ 
+----------------------------
 ## <u>Released July 7, 2021</u>
 ### Accessibility Items
 In our continuing effort to improve accessibility for all our students and meet MAS standards:
@@ -138,6 +165,7 @@ we have made the following changes:
 *   User Impersonation: For those who can impersonate another user we have prevented the impersonator from seeing the Active Lab Instances link on the Labs tile.
 
 ----------------------------
+<!-->
 ## <u>Released February 25 2021</u>
 
 ###  Accessibility Items 
@@ -170,13 +198,12 @@ An option to create multiple course assignments for multiple students has been a
 *   Find Courses – Subscription Filters: We have added a “Subscription Profile (Choose) and Subscription Profile Name” filter on Find Courses. 
 *   Find Courses – Organization Search:  You will no longer receive a query message indicating to reduce the scope of your query when finding courses. We have increased the default maximum organizations that you are able to search from 50 to 100.
 
-
 ----------------------------
 <!--
 ## <u>Released January 28 2021</u>
 
 ###  Enhanced account security scheduled for implementation at 10:00pm ET Friday, February 12th 
-Learn on Demand Systems is implementing enhanced account security for user accounts that sign in with a username/password. You can learn more about these security measures here.
+We are implementing enhanced account security for user accounts that sign in with a username/password. You can learn more about these security measures here.
 Starting 10:00pm ET on Friday, February 12, local users will be prompted to reset your TMS password upon login at https://lms.learnondemand.net. Users logging in through API or Corporate Azure AD will not be prompted to reset their password
 
 ###  This password reset will require email verification.  
@@ -621,19 +648,4 @@ A disabled activity displays, slightly grayed out with a “Disabled by Instruct
 1. Browse on Demand Catalog – We have updated the Browse on Demand pages to allow multiple Course Tags to be selected by default when users arrive on the page. Along with this, the page can now be set to default either the Match Any or Match All selections on the page. 
 1. Class Training Key – We corrected an Application Error which was showing up when you saved after editing a Class Training Key. 
 1. Find Lab Instances – We have repositioned the Percent Complete column when the search results are exported from the TMS to match column order on the Find Lab Instances page. 
-
-----------------------------
-## Released February 20, 2020
-
-###  View Students Progress from the Class Roster 
-
-The Class Roster now shows a column for the percentage of course activities completed by each student. This gives an overview of the class’ progress through the lab work and other course activities without going to the individual student enrollments. The column is triggered to display once any student has completed an activity. To be included in the calculation the activity must be required for course completion. Labs, SCORM and LTI modules must be completed to be included while external links, documents, or videos are counted once launched. A numeric percentage shows on the roster while progress bars along with the percentage can be seen on enrollments and course assignments.
-
-###  Cancelling Course Assignments 
-
-1. Lab filters for Has Labs or Course Labs now also show results for lab types that do not use RAM like Azure, AWS, or Docker.
-1. Find Lab Instances – The Output Option for Exam now shows up when using the print and export links on the Find Lab Instances page.
-1. Merge Users – Two user accounts cannot be merged when both students used a training key to enroll into the same class. An assistance message has been added, “We are unable to process this account merge due to multiple enrollments in the same training created by training keys. Please open a Support ticket at https://lods.one/support for assistance.”
-1. SCORM video player – SCORM videos played in the Chrome browser encountered a bug that prevented adjusting your place in a video. Players in Chrome can now be adjusted to move forward, to skip ahead, and go back within the video. Seeking in Chrome may take 3-8 seconds to load after moving to a new spot.
-1. Class profile – The URL field for the Custom Virtual Classroom class delivery method has increased its capacity from 200 to 500 characters.
 -->

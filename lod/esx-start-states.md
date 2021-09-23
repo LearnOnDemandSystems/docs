@@ -17,6 +17,6 @@ This method may not work every time and Learn on Demand Systems is unable to sup
 There are some alternatives that we recommend for using Start States in a lab.  
 - **Pre-instancing**: A pool of labs are kept in a saved state. When a user launches a lab that belongs to that pool, a lab from the pool will be given to the user. The lab will launch much quicker than the above mentioned method.
 
-- **User Microsoft Hyper-V**: Hyper-V supports importing and cloing of virtual machines with a saved memory state. This is supported by Learn on Demand Systems and is available to lab authors to use. Hyper-V is not supported by all virtual machines, but it is the best option to use, when it is possible. 
+- **Use Microsoft Hyper-V**: Hyper-V supports importing and cloning of virtual machines with a saved memory state. This is supported by Learn on Demand Systems and is available to lab authors to use. Hyper-V is not supported by all virtual machines, but it is the best option to use, when it is possible. 
     
 Learn on Demand Systems is available to help convert existing labs to use Microsoft Hyper-V, for a service fee. Please speak to your Sales representative for more information.

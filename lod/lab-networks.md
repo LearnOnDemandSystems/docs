@@ -96,13 +96,13 @@ On the CustomerNet network, labs must follow additional configuration restrictio
 
 On the SecureNet network, labs must follow additional configuration restrictions. If these restrictions are not followed, web access will not function reliably. For more information, refer to the [Access Control Lists](access-control-lists.md) documentation
 
-- For labs without an internal DNS server, all virtual machiness should use the NAT gateway for their DNS server (this is automatic if DHCP is enabled for the NAT network)
+- For labs without an internal DNS server, all virtual machines should use the NAT gateway for their DNS server (this is automatic if DHCP is enabled for the NAT network)
 
 - For labs with an internal DNS server, the internal server should have a forwarder added for the NAT gateway 
 
 ## Bandwidth
 
-Bandwidth on all networks is regulated and monitored, utilizing per-IP and per-network restrictions. This is done to ensure platform stability and provide a minimum baseline to all labs. Due to the shared nature of the platform, it is strongly recommended that any downloads in a lab be prestaged to prevent issues or delays in a live class.
+Bandwidth on all networks is regulated and monitored, utilizing per-IP and per-network restrictions. This is done to ensure platform stability and provide a minimum baseline to all labs. Due to the shared nature of the platform, it is strongly recommended that any downloads in a lab be pre-staged to prevent issues or delays in a live class.
 
 ## Notice
 

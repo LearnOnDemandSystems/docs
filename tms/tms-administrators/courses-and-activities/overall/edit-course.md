@@ -8,7 +8,7 @@ isPublished: True
 
 :small_blue_diamond: Please be aware that functionality covered in this and linked articles may not be available to you.
 
-Courses created by an organization are open for editing to users with course creation permissions. All fields, activities, and settings can be edited before any training events use the course. Once a class or a course assignment has started, the course lab activities are limited for the life of the course. This limitation is in place to meet with Learn on Demand Systems billing procedure.
+Courses created by an organization are open for editing to users with course creation permissions. All fields, activities, and settings can be edited before any training events use the course. Once a class or a course assignment has started, the course lab activities are limited for the life of the course. This limitation is in place to meet with our billing procedures.
 
 Editing a course profile is restricted when training aligned with the course is in progress. From the time a class or course assignments starts editing of the related course profile is restricted so that lab activities cannot be added or removed.
 
@@ -18,9 +18,9 @@ To make changes to the lab activities in the course, edit the course and select 
 
 Changes needed for a class in progress can be made by cloning the course and making the needed changes. The [class in progress can also be cloned] (/tms/tms-administrators/classes/schedule/clone-class.md), the course changed to the new course and saved. On the roster you can use the **Add Students from Event** link to choose the original class and add all those students as enrolled. 
 
-In order to not be invoiced for enrollments from a class in progress that was replaced by a new class using the new course, _you are required to contact Learn on Demand Systems Support the first day of class._ We can cancel the class session on your behalf. Requesting cancellation of classes beyond the first day of a class or beyond course assignment’s creation date requires approval by your Account Executive.
+In order to not be invoiced for enrollments from a class in progress that was replaced by a new class using the new course, _you are required to contact our help desk the first day of class._ We can cancel the class session on your behalf. Requesting cancellation of classes beyond the first day of a class or beyond course assignment’s creation date requires approval by your Account Executive.
 
-If you need assistance setting up a new course or class, please contact [LODS Support](http://www.learnondemandsystems.com/customer-support/)
+If you need assistance setting up a new course or class, please contact our [help desk](http://www.learnondemandsystems.com/customer-support/)
 
 ### Additional Resources
 

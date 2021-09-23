@@ -13,7 +13,7 @@ Code Labs are a lab platform type with a code editor user interface (UI) in the 
 - [Code Lab Client](#code-lab-client)
 - [Language Settings](#language-settings)
     - [Adding a supported language](#adding-a-supported-language)
-    - [Template](#template)
+    - [Starting Template](#starting-template)
     - [Program Wrapper](#program-wrapper)
     - [Advanced](#advanced)
 - [Tests](#tests)
@@ -81,7 +81,12 @@ The Code Lab Client consists of 9 parts:
 
 A Code Language is a specific programming language. Code labs can have multiple supported languages, but all languages will take the same test inputs.
 
-Once a Supported Language is added to the Code Lab, instructors will have 3 settings areas for adjusting settings.
+Once a Supported Language is added to the Code Lab, instructors will have 3 settings areas for adjusting settings:
+
+   - [Starting Template](#starting-template)
+   - [Program Wrapper](#program-wrapper)
+   - [Advanced](#advanced)
+
 
 Languages include:
 - C
@@ -95,7 +100,7 @@ Languages include:
 - Swift
 - JavaScript
 
-### Template
+### Starting Template
 
 The Starting Template is the initial code that is presented to a student when a lab is launched.  Usually a blank function, the student writes code inside this empty function template.  This code is then populated in the `#CODE#` area of the **Program Wrapper**.
 
@@ -115,8 +120,9 @@ The Program Wrapper wraps the students code, and **must contain the string `#COD
 
 - **Project Wrapper** - Extra project information as needed per language.
 
+- **Enabled** - Select this to enable this language for use. Deselect this to disable the language. 
 
-
+- **Remove Language** - Select to remove the language from the lab. 
 
 ## Tests
 

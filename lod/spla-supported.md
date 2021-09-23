@@ -35,7 +35,7 @@ Below are supported products and the conditions within Learn on Demand Systems i
 | Office Project Standard / Professional | YES | YES | **NO** | **NO** | | Supported|
 
 ## Other Software Supported by SPLA
-The following is a list of other software supported by the SPLA program but **NOT** supported by LODS implementation of the program.  However, if you have a viable need, implementation is possible under SPLA for the following:
+The following is a list of other software supported by the SPLA program but **NOT** supported by our implementation of the program.  However, if you have a viable need, implementation is possible under SPLA for the following:
 
 * SharePoint Server
 * SQL Server Standard 

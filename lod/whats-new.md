@@ -3,7 +3,7 @@
 </style>
  
 <div style="float:right; padding-top:5px; font-size:120%;">
-   <a href="https://lods.one/updates">Subscribe to Receive Email Notifications about Platform and Service Updates</a>
+   <a href="https://www.learnondemandsystems.com/roadmap-updates-form/">Subscribe to Receive Email Notifications about Platform and Service Updates</a>
 </div>
 
 # What's New in Lab On Demand
@@ -47,8 +47,8 @@ The Cloud Subscription Pool pages have been updated to include the following fea
 **Docker**
 
 - In addition to terminal connections, LOD now supports connecting directly to a port on a docker container. A container configured this way can be displayed in the regular lab client alongside regular terminal connections.
-    - <a href="https://docs.learnondemandsystems.com/lod/terminal-access.md">Terminal Access Documentation</a>
-    - <a href="https://docs.learnondemandsystems.com/lod/container-web-display.md">Container Web Display</a>
+    - <a href="https://docs.learnondemandsystems.com/lod/terminal-access.md">Terminal Access documentation</a>
+    - <a href="https://docs.learnondemandsystems.com/lod/container-web-display.md">Container Web Display documentation</a>
  
 **Template Gallery**
 
