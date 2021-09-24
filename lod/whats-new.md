@@ -19,8 +19,8 @@ The Cloud Subscription Pool pages have been updated to include the following fea
 - A link to the last lab instance run against dedicated subscriptions.
 - A link to federated login.
 - Sorting and Keyword Filtering of data fields.
-  - <a href="https://docs.learnondemandsystems.com/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md">Azure Subscription Pool setup documentation</a>
-  - <a href="https://docs.learnondemandsystems.com/guides/cloud-slice/aws/aws-setup-cloud-sub-pool-in-lod.md">AWS Subscription Pool setup documentation</a>
+  - [Azure Subscription Pool setup documentation](/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md)
+  - [AWS Subscription Pool setup documentation](/guides/cloud-slice/aws/aws-setup-cloud-sub-pool-in-lod.md)
 
 **LOD Improvements and Fixes**
 
