@@ -57,7 +57,7 @@ With Code Labs enabled, you will now be able to edit the Code Lab settings by se
 
 ### Code Activity Setup
 
-![](images/codelabs/3_cl_admin_empty.png){900}
+![](images/codelabs/3_cl_admin_empty.png){1100}
 
 The Code Activity Setup consist of 5 parts:
 
@@ -98,7 +98,7 @@ The Code Lab Client consists of 9 parts:
 
 Language settings can be configured by editing the Code Lab Activity from the Activities menu. 
 
-![](images/codelabs/6_cl_lang.png){900}
+![](images/codelabs/6_cl_lang.png){1100}
 
 ### Adding a Supported Language
 
@@ -128,13 +128,13 @@ The Starting Template is the initial code that is presented to a student when a 
 
 ### Program Wrapper
 
-![](images/codelabs/7_cl_lang_pr.png){900}
+![](images/codelabs/7_cl_lang_pr.png){1100}
 
 The Program Wrapper wraps the students code, and **must contain the string `#CODE#`** which is replaced by the student's code submission. This hides implementation details used to execute the function as part of a full program in the backend LOD service. The Program Wrapper can contains library includes, pass command line arguments to the student's function, and finally print results for comparison against **Tests** and **Custom Tests**.
 
 ### Advanced
 
-![](images/codelabs/8_cl_lang_advanced.png){900}
+![](images/codelabs/8_cl_lang_advanced.png){1100}
 
 - **Test Command String**: A command to run the created program. String.Format is used to replace arguments with test inputs. {0} is input 1, {1} is input 2, etc. The program is executed once per test.
 
@@ -148,11 +148,11 @@ The Program Wrapper wraps the students code, and **must contain the string `#COD
 
 ## Tests
 
-![](images/codelabs/10_cl_tests.png){900}
+![](images/codelabs/10_cl_tests.png){1100}
 
 Tests are added to Code Labs and ran once code is submitted from the Code Lab Client.  These can be used to help students as they progress through the lesson, and also to to verify student submissions.  Tests can be hidden from students to verify code functions as expected and is not simply brute-force passes.
 
-![](images/codelabs/9_cl_add_input.png){900}
+![](images/codelabs/9_cl_add_input.png){1100}
 
 ### Inputs
 
@@ -164,7 +164,7 @@ To add and remove test inputs, simply select the corresponding button.
 
 ### Adding Tests
 
-![](images/codelabs/11_cl_add_test.png){900}
+![](images/codelabs/11_cl_add_test.png){1100}
 
 Simply click the **Add Test** button to add a test to your Code Lab.  You will now be able to give the test a friendly name, add inputs, and give the expected output.
 
