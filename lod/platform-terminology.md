@@ -155,5 +155,5 @@ A Virtual Machine profile represents the hardware configuration of a virtual mac
 # Additional Resources 
 
 - [Introduction to Lab on Demand UI](/lod/feature-focus/lod-experience.md)
-- [Lab Developer FAQ](/lab-developer-faq.md)
-- [Lab Developer Roles](/lod-lab-developers/org-lab-dev-roles.md)
+- [Lab Developer FAQ](/lod/lab-developer-faq.md)
+- [Lab Developer Roles](/lod/lod-lab-developers/org-lab-dev-roles.md)
