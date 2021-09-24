@@ -4,7 +4,7 @@ description: "Explanation of terminology used in Lab on Demand"
 isPublished: true
 ---
 
-# Terminology
+# Platform Terminology
 
 This document provides a brief overview of terminology used in Lab on Demand.
 
