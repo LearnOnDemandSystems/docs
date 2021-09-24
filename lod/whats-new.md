@@ -25,7 +25,7 @@ The Cloud Subscription Pool pages have been updated to include the following fea
 **LOD Improvements and Fixes**
 
 - The API End Webhook is now called for scored labs when the lab ends.
-- LTI scored labs that run beyond their access token expiration are now be able to post score back to the LMS without getting an access token expired error message.
+- LTI scored labs that run beyond their access token expiration are now able to post score back to the LMS without getting an access token expired error message.
 - The Cloud Resource Groups title has been replaced with Stack Deployments in the LOD Admin site when reviewing AWS Specific Lab profiles.
 - External Stockpile Name requirement has been removed from recyclable type credential pools.
 - Fixed an issue that incorrectly displayed the Record Desktop option on container labs.
