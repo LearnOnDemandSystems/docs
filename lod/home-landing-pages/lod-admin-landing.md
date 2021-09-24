@@ -58,6 +58,10 @@
         <div class="subtopic_title">Organization RAM Limits</div>
         <div class="subtopic_description">Max RAM usage, max active lab instances and max RAM per lab profile.</div>
       </a>
+      <a class="subtopic_link" href="/lod/platform-terminology.md">
+        <div class="subtopic_title">Platform Terminology</div>
+        <div class="subtopic_description">Explanation of terminology used in Lab on Demand.</div>
+      </a>
       <a class="subtopic_link" href="/lod/lod-support-chat.md">
         <div class="subtopic_title">Support Chat</div>
         <div class="subtopic_description">Chat with our Support team or submit a support ticket..</div>
