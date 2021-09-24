@@ -9,6 +9,28 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other Learn on Demand Systems platforms?</a></span>
 
+## **Released September 23, 2021**
+
+**Cloud Subscription Pool**
+
+The Cloud Subscription Pool pages have been updated to include the following features where applicable:
+- Paging for increased performance.
+- A Cloud Subscription Pool Summary visual to display subscription/account states.
+- A link to the last lab instance run against dedicated subscriptions.
+- A link to federated login.
+- Sorting and Keyword Filtering of data fields.
+  - [Azure Subscription Pool setup documentation](/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md)
+  - [AWS Subscription Pool setup documentation](/guides/cloud-slice/aws/aws-setup-cloud-sub-pool-in-lod.md)
+
+**LOD Improvements and Fixes**
+
+- The API End Webhook is now called for scored labs when the lab ends.
+- LTI scored labs that run beyond their access token expiration are now able to post score back to the LMS without getting an access token expired error message.
+- The Cloud Resource Groups title has been replaced with Stack Deployments in the LOD Admin site when reviewing AWS Specific Lab profiles.
+- External Stockpile Name requirement has been removed from recyclable type credential pools.
+- Fixed an issue that incorrectly displayed the Record Desktop option on container labs.
+- Fixed an intermittent issue delaying vSphere lab launches with non-Windows Virtual Machines.
+
 ## **Released August 26, 2021**
 
 **Caching Improvements**
