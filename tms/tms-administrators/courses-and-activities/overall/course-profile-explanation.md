@@ -65,7 +65,6 @@ This can also be used to provide supplementary course information, such as a syl
 1. **Add LTI Resource Link**: Add an LTI resource link as an available activity in the course.
 1. **Add Microsoft Learn Activity**: Add a Microsoft Learn activity as an available activity in the course.
 1. **Post-class SCORM module availability**: This sets the amount of time students have to access SCORM module activities after the class ends.
-1. **Post-class lab availability**: This sets the amount of time students have to access lab activities after the class ends.
 
 ## Availability
 
