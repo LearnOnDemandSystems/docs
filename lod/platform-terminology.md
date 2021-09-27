@@ -12,7 +12,7 @@ This document provides a brief overview of terminology used in Lab on Demand.
 
 
   * [Activities](#activities)
-  * [Activity-based Assessment (ABA)](#activity-based-assessment)
+  * [Activity-Based Assessment (ABA)](#activity-based-assessment)
   * [Cloud Slice](#cloud-slice)
   * [Cloud Subscription](#cloud-subscription)
   * [Cloud Subscription Pool](#cloud-subscription-pool)
