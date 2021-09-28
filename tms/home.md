@@ -105,6 +105,7 @@
               <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
           </a>
           </div>
+         </div>  
         <div class="cardContainer">
           <div class="vmLabDev cardContent">
             <div class="cardHeader" tabindex="0" title="Student Labs" aria-label="Student Docs for Labs">Labs</div>
