@@ -7,5 +7,3 @@ Once you are logged in:
 1. Input a **Name** and the **# Training Days** (if known) and then click **Save**.
 
 For LOD lab component terminology and guidelines for building Lab Series and Lab Profiles, please read the [LOD Terminology and Guidelines for Building a Lab article](lod-terminology-and-guidelines-for-building-a-lab.md).
-
-!VIDEO[How do I create a Lab Series?](https://www.youtube.com/watch?v=9-IjaD0INzw).

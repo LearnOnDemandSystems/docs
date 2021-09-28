@@ -8,5 +8,3 @@ In the [How do I create a VM Profile?](how-do-i-create-a-vm-profile.md) article,
 1. Fill in the **Name** and **Size** for the virtual hard disk and click **Next**. 
 1. In the **Choose New Hard Disk Location**, select a folder in your storage you want to store the file in and click **OK**. 
 1. Complete the remaining fields and tabs and click **Save**.
-
-!VIDEO[How do I create a Hard Disk from scratch in a VM Profile?](https://www.youtube.com/watch?v=DREsij3T_Ys)

@@ -15,5 +15,3 @@ The other choice is covered in the [How do I create a new lab profile with virtu
 1. Click **Next**. 
 1. If the storage folder that the virtual hard disks came from is read-only, you will be prompted for the folder to store the differencing disks in. 1. Select the folder and click **Next**. The differencing disks will be captured. 
 1. In the **Save Successful** window, click **OK**.
-
-!VIDEO[How Do I Make A Change To My Lab?](https://www.youtube.com/watch?v=aPGbcDVpFyA)

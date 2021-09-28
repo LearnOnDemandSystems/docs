@@ -42,5 +42,3 @@ The remaining tabs are:
 |Network Adapters|Add the network adapter|
 |SCSI Adapters|One is provided and more can be added|
 |DVD-ROM Drives|One is provided and more can be added|
-
-!VIDEO[How do I create a VM Profile?](https://www.youtube.com/watch?v=FCIp9TRDVYk)
