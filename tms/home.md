@@ -103,14 +103,6 @@
           </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor Videos">View all</a></div>
          </div>
-          <div class="cloudSlice cardContent">
-          <div class="cardHeader" tabindex="0" title="Instructor Guide Videos" aria-label="Instructor Guide Videos">Instructor Guide Videos</div>
-          <div class="category">
-              <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
-               <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
-              <span class="categoryTitle" title="View videos">View videos</span>
-          </a>
-          </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Admin TMS Videos">View all</a></div>
         </div>
         </div>
