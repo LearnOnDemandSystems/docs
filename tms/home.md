@@ -188,7 +188,7 @@
         </div>
       </div>
      </div>
-          <!-- -- End instructor categories section -->
+    <!-- -- End instructor categories section -->
   </div>
   <div class="administratorCategory userTypeSection">
     <!-- Begin administrator categories section.. -->
