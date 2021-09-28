@@ -28,7 +28,7 @@ Once you are logged in:
 |Language|Y|Language the lab uses|
 |Level|Y|Set by default|
 |Evaluation|N|Field to associate an evaluation with the lab|
-|Advertising Campaing|N|Field to associate an advertising campaign with the lab|
+|Advertising Campaign|N|Field to associate an advertising campaign with the lab|
 |Description|N|Brief description of the lab; seen in the TMS when the Lab Profile is associated with a course|
 |Objective|N|Place for the objectives of the lab; if filled out, seen in a window when the lab first launches|
 |Scenario|N|Place for the scenario of the lab; if filled out, seen in the same window as the objectives|
@@ -37,8 +37,8 @@ Once you are logged in:
 
 The rest of the tabs are listed below and will covered in later articles and videos where needed (not all tabs may be available to you).
 
-|Tab|Use to|
-|--- |--- |--- |
+|Tab|Use to||
+|---|---|---|
 |Networks|Add the network switch(es) for the lab|
 |Virtual Machines|Add the VM Profiles for the virtual machines|
 |Removable Media|Add media to be used in the lab either in development or by end-user|
@@ -52,5 +52,3 @@ The rest of the tabs are listed below and will covered in later articles and vid
 |Advanced|Add customization to lab|
 
 4. When you have filled out the required information on the Basic Information tab and the other tabs (if needed), click Save.
-
-!VIDEO[How do I create a Lab Profile?](https://www.youtube.com/watch?v=KzdoZoQgGw0)
