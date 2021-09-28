@@ -187,7 +187,7 @@
      </div>
     <!-- -- End instructor categories section -->
   </div>
-  <div class="administratorCategory userTypeSection">
+  <div class="administratorCategory userTypeSection visible">
     <!-- Begin administrator categories section.. -->
   <div class="categoriesHeader" tabindex="0" title="Featured Posts" aria-label="Featured Admin Docs">Featured</div>
     <div class="cardContainerFull">
