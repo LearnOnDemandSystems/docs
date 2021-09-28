@@ -100,8 +100,6 @@
                 <i class="material-icons blue" title="Student Basics" aria-hidden="true">supervised_user_circle</i>
                 <span class="categoryTitle" title="What does it mean to be a contract instructor?">What does it mean to be a contract instructor?</span>
               </a>
-          </div>
-         <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor Videos">View all</a></div>
          </div>
           <div class="cloudSlice cardContent">
               <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
