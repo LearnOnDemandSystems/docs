@@ -85,7 +85,8 @@
     </div>
   <div class="instructorCategory userTypeSection">
   <!-- Begin instructor categories section.. -->
-     <div class="cardContainer">
+     <div class="cardsContainer">
+         <div class="cardContainer">
           <!-- Begin categories section.. -->
           <div class="cloudSlice cardContent">
           <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Featured Instructor General Docs">General</div>
