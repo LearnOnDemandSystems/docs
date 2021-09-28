@@ -101,10 +101,6 @@
                 <span class="categoryTitle" title="What does it mean to be a contract instructor?">What does it mean to be a contract instructor?</span>
               </a>
          </div>
-          <div class="cloudSlice cardContent">
-              <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
-          </a>
-          </div>
          </div>  
         <div class="cardContainer">
           <div class="vmLabDev cardContent">
