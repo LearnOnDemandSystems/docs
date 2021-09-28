@@ -85,7 +85,6 @@
     </div>
   <div class="instructorCategory userTypeSection">
   <!-- Begin instructor categories section.. -->
-     <div class="cardsContainer">
          <div class="cardContainer">
           <!-- Begin categories section.. -->
           <div class="cloudSlice cardContent">
@@ -227,9 +226,7 @@
         <div class="azIndex cardContent">
           <div class="category">
           </a>
-            </div>
-        </div>
-      </div>
+         </div>
            <div class="cardContainer">
         <!-- Begin categories section.. -->
         <div class="azIndex cardContent">
