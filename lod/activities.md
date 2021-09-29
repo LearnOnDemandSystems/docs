@@ -98,7 +98,6 @@ Automated Activities are PowerShell Windows command Shell Shell scripts that tar
 - PowerShell must be installed on the VM.
 
 - Supported  Windows Operating Systems:
-    - Windows 7
     - Windows 7 
     - Windows 8 
     - Windows 10
