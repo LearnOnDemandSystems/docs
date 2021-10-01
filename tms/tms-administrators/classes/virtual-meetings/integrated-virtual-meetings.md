@@ -38,11 +38,14 @@ The integration will be broken if you regenerate the API Secret after the integr
 To integrate WebEx into the TMS, you will need a licensed WebEx account. Once you have an WebEx contract you will need to send our help desk the following information.
 
 1.	The **Site Name** for the WebEx account.
-1.	The **username and password for your account**; the accounts must have full **Administrator** account permissions.
+1.	The **username and password for your account**; the account needs to be a level above all users that are instructors, since the user schedules meetings on their behalf; and must at the minimum be able to:
+-	Create meetings
+-	Delete meetings
+-	Update meetings
 1.	The **amount of time before class starts and after class ends for your instructor to be able to launch** into the meeting. If this is not specified, it will default to 60 minutes before class starts and zero minutes after the class session ends.
 1.	The **amount of time before class starts and after class ends for your students to be able to launch** into the meeting. If this is not specified, it will default to 15 minutes before class starts and zero minutes after the class session ends.
 1.	Gather this information and send a request to our help desk. [Click here to request a TMS/Webex integration.](https://supportrequest.learnondemandsystems.com/form-4500904/support-request) 
-  
+
 
 
 ### Additional Resources
