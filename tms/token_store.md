@@ -10,7 +10,7 @@ This guide assumes that the reader:
 
 -   Has existing knowledge to navigate the Training Management System (TMS)
 -   Has an account with sufficient permissions to create and modify a token store and its elements.
--   ??
+-   This is a sentence.
 
 <!--
 
