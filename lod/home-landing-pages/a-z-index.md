@@ -242,6 +242,10 @@
         <div class="subtopic_title">Lab Profile Cloning</div>
         <div class="subtopic_description">Create a duplicate copy of a lab profile by cloning.</div>
       </a>  
+      <a class="subtopic_link" href="/lod/inherit-lab-profile.md">
+        <div class="subtopic_title">Lab Profile Inheritance</div>
+        <div class="subtopic_description">Configure a lab profile to inherit the environment and content from another lab profile.</div>
+      </a>
       <a class="subtopic_link" href="/lod/lab-series-cloning.md">
         <div class="subtopic_title">Lab Series Cloning</div>
         <div class="subtopic_description">Create a duplicate copy of a Lab Series by cloning.</div>
