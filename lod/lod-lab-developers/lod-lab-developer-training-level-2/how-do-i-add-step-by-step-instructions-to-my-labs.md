@@ -66,5 +66,5 @@ Like the Exercise fields, you can type or copy/paste the content into the Task f
 
 Content is saved as it is added. To add another exercise or task after the currently selected task, click **New Exercise** or **New Task** on the **Content** tab on the right side. When you have finished adding all of the exercises and steps for the lab from the lab manual, you can cancel the launched lab. Finally in the **Lab Profile**, click **Check In** to release the content.
 
-For a comprehensive guide on building lab content, review the [Learn On Demand Systems Integrated Digital Lab Authoring Guide](http://lodmanuals.blob.core.windows.net/support-files/IDL_Guide/IDL_Guide.pdf).
+For a comprehensive guide on building lab content, review the [Skillable Integrated Digital Lab Authoring Guide](http://lodmanuals.blob.core.windows.net/support-files/IDL_Guide/IDL_Guide.pdf).
 

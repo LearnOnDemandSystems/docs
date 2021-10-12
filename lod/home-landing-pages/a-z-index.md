@@ -258,9 +258,9 @@
         <div class="subtopic_title">Lab Series Creation and Explanation</div>
         <div class="subtopic_description">Lab Series creation, and explanation of lab series configuration.</div>
       </a>
-      <a class="subtopic_link" href="/lod/lods-enhanced-account-security.md">
-        <div class="subtopic_title">Learn on Demand Systems Enhanced Account Security</div>
-        <div class="subtopic_description">Guidance for authenticating user accounts with Learn on Demand Systems Platforms, as well as account management in each platform.</div>
+      <a class="subtopic_link" href="/lod/skillable-enhanced-account-security.md">
+        <div class="subtopic_title">Skillable Enhanced Account Security</div>
+        <div class="subtopic_description">Guidance for authenticating user accounts with Skillable Platforms, as well as account management in each platform.</div>
       </a>      
       <a class="subtopic_link" href="/lod/life-cycle-actions.md">
         <div class="subtopic_title">Life Cycle Actions</div>
@@ -312,7 +312,7 @@
       </a>
       <a class="subtopic_link" href="/lod/spla-supported.md">
         <div class="subtopic_title">SPLA Supported Software</div>
-        <div class="subtopic_description">Supported products and the conditions within Learn on Demand Systems implementation of the SPLA program.</div>
+        <div class="subtopic_description">Supported products and the conditions within Skillable implementation of the SPLA program.</div>
       </a>
       <a class="subtopic_link" href="/lod/terminal-access.md">
         <div class="subtopic_title">SSH Terminal Access</div>

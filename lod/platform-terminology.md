@@ -87,7 +87,7 @@ Gallery templates can be favorited in the template gallery for quick access. The
 Integrated Digital Lab Experience. The IDLx platform integrates the lab instructions with the LOD Lab Client in the lab environment.  The content written within the IDLx interface is normally written in Markdown, an easy to use markup language for formatting text,
 
 ## Lab Fabric
-Lab Fabrics are the various platforms we offer for the delivery of labs. Fabrics can either be different virtualization technologies and containers hosted in an LODS datacenters or be public cloud.
+Lab Fabrics are the various platforms we offer for the delivery of labs. Fabrics can either be different virtualization technologies and containers hosted in a Skillable datacenters or be public cloud.
 
 ## Lab Platform 
 A lab platform is the technology used to create a lab environment, for example, a Hyper-V virtual machine, or a V-Sphere virtual machine. Platform and fabric can be used in conjunction with one another.

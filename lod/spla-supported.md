@@ -1,6 +1,6 @@
 ---
 title: "SPLA Supported Software"
-description: "Supported products and the conditions within Learn on Demand Systems implementation of the SPLA program."
+description: "Supported products and the conditions within Skillable implementation of the SPLA program."
 isPublished: true
 ---
 
@@ -19,7 +19,7 @@ isPublished: true
 
 ## Windows and Office
 
-Below are supported products and the conditions within Learn on Demand Systems implementation of the SPLA program.  
+Below are supported products and the conditions within Skillable implementation of the SPLA program.  
 
 | Software       | Hyper-V | VMWare | Azure | AWS | Notes                         | Status |
 |----------------|-------------|-----------|-------------------------------|--------|-|-|

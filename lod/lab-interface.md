@@ -33,7 +33,7 @@ Within the lab interface, some buttons expand to display a menu of options.
 
 1. **Pin/unpin**: This allows pinning or unpinning the top bar that contains the Commands menu, Display menu, Developer menu and connection indicator. 
 
-1. **Connection indicator**: Displays the connection quality between your local machine and the virtual machine in the lab environment. The connection quality is displayed in milliseconds and a description of Excellent, Good, Fair and Poor. For more information about each connection quality description, or to conduct a speed test, please see our [Learn on Demand Systems Speed Test](https://www.learnondemandsystems.com/speedtest/).
+1. **Connection indicator**: Displays the connection quality between your local machine and the virtual machine in the lab environment. The connection quality is displayed in milliseconds and a description of Excellent, Good, Fair and Poor. For more information about each connection quality description, or to conduct a speed test, please see our [Skillable Speed Test](https://www.learnondemandsystems.com/speedtest/).
 
 1. **Lab instruction pane**: Displays the lab instructions. 
 

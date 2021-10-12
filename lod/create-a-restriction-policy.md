@@ -30,7 +30,7 @@ Lab on Demand (LOD) has a library of existing ACPs to make building common cloud
 
 ![LOD Managed ACPs](./images/find-acp-lodmanaged.png)
 
-> [!Note] These ACPs are created, maintained, and publicly available by Learn on Demand Systems to all developers. While the resources allowed on these ACPs will not change, the syntax is subject to change depending on cloud security best practices.
+> [!Note] These ACPs are created, maintained, and publicly available by Skillable, to all developers. While the resources allowed on these ACPs will not change, the syntax is subject to change depending on cloud security best practices.
 
 You can also search your own Organization's existing ACPs by following the same process and changing the **Organization** filter to your desired Organization. 
 

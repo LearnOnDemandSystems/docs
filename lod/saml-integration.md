@@ -14,7 +14,7 @@ SAML is an open standard that allows Identity Providers (IdP) and Service Provid
 - [Modify Application Configuration for Single Sign On with SAML](#modify-application-configuration-for-single-sign-on-with-saml)
   - [Basic SAML Configuration](#basic-saml-configuration)
   - [User Attributes and Claims](#user-attributes-and-claims)
-- [Application Setup with Learn on Demand Systems](#application-setup-with-learn-on-demand-systems)
+- [Application Setup with Skillable](#application-setup-with-learn-on-demand-systems)
 
 ## Create an Azure Active Directory Enterprise App 
 
@@ -96,9 +96,9 @@ If your Identity Provider is Azure, you must create an Enterprise Application in
 
 1. If these are not configured, select the **Edit** button on the **User Attributes and Claims** section, and modify each value. 
 
-### Application Setup with Learn on Demand Systems
+### Application Setup with Skillable
 
-1. **Open a [support ticket](http://www.learnondemandsystems.com/customer-support/) and provide Learn on Demand Systems the following URLs**. The values in these URLs will vary. The following is an example of how these may look. 
+1. **Open a [support ticket](http://www.learnondemandsystems.com/customer-support/) and provide Skillable the following URLs**. The values in these URLs will vary. The following is an example of how these may look. 
 
     |Value Name      |Example     | 
     |----------|:-------------|

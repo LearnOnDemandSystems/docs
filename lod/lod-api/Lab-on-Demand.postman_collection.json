@@ -580,7 +580,7 @@
 						{
 							"key": "roleId",
 							"value": "1",
-							"description": "Allows you specify the role(s) to assign to the user. You may pass multiple instances of this parameter to specify multiple roles. Roles are used for specialized integration purposes and are not needed in typical integration scenarios. Role IDs will be provided by Learn on Demand Systems when appropriate."
+							"description": "Allows you specify the role(s) to assign to the user. You may pass multiple instances of this parameter to specify multiple roles. Roles are used for specialized integration purposes and are not needed in typical integration scenarios. Role IDs will be provided by Skillable when appropriate."
 						},
 						{
 							"key": "variable-name",

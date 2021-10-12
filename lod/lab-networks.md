@@ -88,7 +88,7 @@ On all networks, including CustomerNet, the following services are prohibited:
 - LDAP inbound
 - SMB inbound
 
-On the CustomerNet network, labs must follow additional configuration restrictions. Any lab not following these restrictions may be updated by Learn on Demand Systems to bring it into compliance or removed from availability until changes are made.
+On the CustomerNet network, labs must follow additional configuration restrictions. Any lab not following these restrictions may be updated by Skillable to bring it into compliance or removed from availability until changes are made.
 
 - Any DNS server with a public IP must have DNS recursion disabled. For details on how to do this, please refer to the documentation for your virtual machine operating system.
 
