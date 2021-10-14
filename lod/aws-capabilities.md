@@ -20,7 +20,7 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[Amazon CloudWatch](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncloudwatch.html)|cloudwatch|supported||
 |[Amazon CloudWatch Events](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncloudwatchevents.html)|events|supported||
 |[Amazon CloudWatch Logs](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncloudwatchlogs.html)|logs|supported||
-|[Amazon CloudFront](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncloudfront.html)|cloudfront|planned||
+|[Amazon CloudFront](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncloudfront.html)|cloudfront|supported||
 |[Amazon CloudShell](https://docs.aws.amazon.com/service-authorization/latest/reference/list_awscloudshell.html)|cloudshell|supported||
 |[Amazon Cognito Identity](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncognitoidentity.html)|cognito-identity|planned||
 |[Amazon Cognito Sync](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncognitosync.html)|cognito-sync|planned||
@@ -75,7 +75,7 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[Amazon WorkMail](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonworkmail.html)|workmail|planned||
 |[Amazon WorkSpaces](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonworkspaces.html)|workspaces|planned||
 |[Amazon WorkSpaces Application Manager](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonworkspacesapplicationmanager.html)|N/A|planned||
-|[AWS AppSync](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsappsync.html)|appsync|planned||
+|[AWS AppSync](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsappsync.html)|appsync|supported||
 |[AWS Artifact](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsartifact.html)|artifact|planned||
 |[AWS Backup](https://docs.aws.amazon.com/service-authorization/latest/reference/list_awsbackup.html)|backup|supported||
 |[AWS Budget Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsbudgetservice.html)|budgets|planned||
@@ -135,8 +135,8 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[Amazon Storage Gateway](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonstoragegateway.html)|storagegateway|planned||
 |[AWS Support](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awssupport.html)|support|planned||
 |[AWS Trusted Advisor](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awstrustedadvisor.html)|trustedadvisor|planned||
-|[AWS WAF](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awswaf.html)|waf|planned||
-|[AWS WAF Regional](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awswafregional.html)|waf-regional|planned||
+|[AWS WAF](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awswaf.html)|waf|supported||
+|[AWS WAF Regional](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awswafregional.html)|waf-regional|supported||
 |[AWS XRay](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsxray.html)|xray|planned||
 |[Auto Scaling](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsautoscaling.html)|autoscaling|planned||
 |[Auto Scaling Plans](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsbatch.html)|autoscaling-plans|supported||
@@ -148,6 +148,8 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[Identity And Access Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_identityandaccessmanagement.html)|iam|supported||
 |[Manage Amazon API Gateway](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_manageamazonapigateway.html)|apigateway|supported||
 |[Single Sign-On](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)|sso|planned||
+|[Target Groups](https://docs.aws.amazon.com/elasticloadbalancing/latest/network/load-balancer-target-groups.html)|N/A|supported||
 |[TensorFlow on AWS](https://aws.amazon.com/tensorflow/?nc2=h_m1)|N/A|planned||
 |[Tag Editor](https://docs.aws.amazon.com/ARG/latest/userguide/tag-editor.html)|N/A|Supported||
 |[Virtual Private Cloud](https://aws.amazon.com/vpc/?hp=tile&so-exp=below)|ec2|supported||
+
