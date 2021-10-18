@@ -98,7 +98,7 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[AWS Device Farm](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsdevicefarm.html)|devicefarm|planned||
 |[AWS Direct Connect](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsdirectconnect.html)|directconnect|planned||
 |[AWS Directory Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsdirectoryservice.html)|ds|planned||
-|[AWS Elastic Beanstalk](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awselasticbeanstalk.html)|elasticbeanstalk|planned||
+|[AWS Elastic Beanstalk](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awselasticbeanstalk.html)|elasticbeanstalk|supported||
 |[AWS Elemental MediaConvert](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awselementalmediaconvert.html)|mediaconvert|planned||
 |[AWS Elemental MediaLive](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awselementalmedialive.html)|medialive|planned||
 |[AWS Elemental MediaPackage](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awselementalmediapackage.html)|mediapackage|planned||
@@ -136,7 +136,7 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[AWS Support](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awssupport.html)|support|planned||
 |[AWS Trusted Advisor](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awstrustedadvisor.html)|trustedadvisor|planned||
 |[AWS WAF](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awswaf.html)|waf|supported||
-|[AWS WAF Regional](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awswafregional.html)|waf-regional|supported||
+|[AWS WAF Regional](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awswafregional.html)|waf-regional|planned||
 |[AWS XRay](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsxray.html)|xray|planned||
 |[Auto Scaling](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsautoscaling.html)|autoscaling|planned||
 |[Auto Scaling Plans](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsbatch.html)|autoscaling-plans|supported||
