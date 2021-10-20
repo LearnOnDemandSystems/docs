@@ -1,13 +1,12 @@
 ---
-title: "Title of document"
-description: "Description of document."
+title: "Publishing a Lab Series to Prodcution"
+description: "This document describes the process of moving labs from Development to Production in Lab on Demand.."
 isPublished: false
 ---
 
 # Publishing a Lab Series 
 
-This document describes the process of moving labs from Development to Production in Lab on Demand. The instructions below are for the most direct way to publish a new Lab Series, that is 
-in Development to Production. This procedure should be used anytime that a new course is being published to production.  
+This document describes the process of moving labs from Development to Production in Lab on Demand. The instructions below are for the most direct way to publish a new Lab Series, that is in Development to Production. This procedure should be used anytime that a new course is being published to production.  
 
 ## Table of Contents
 - [Publishing a Lab Series](#publishing-a-lab-series)
