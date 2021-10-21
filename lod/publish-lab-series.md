@@ -6,7 +6,7 @@ isPublished: true
 
 # Publishing a Lab Series 
 
-This document describes the process of moving labs from Development to Production in Lab on Demand. The instructions below are for the most direct way to publish a new Lab Series, that is in Development to Production. This procedure should be used anytime that a new course is being published to production.  
+This document describes the process of publishing labs from Development to Production in Lab on Demand. This procedure should be used anytime a new course is being published to Production.  
 
 ## Table of Contents
 - [Publishing a Lab Series](#publishing-a-lab-series)
@@ -33,15 +33,15 @@ After you have finished development on a lab series in Lab on Demand, complete t
     1. Next to the **Organization** field, **select** the **Choose** button, then select the production organization that will own the Lab Series. 
     1. **Select** the **Lab Profiles** that will be saved to the new production Lab Series. This can be any combination of Lab Profiles in the list, or you may choose **Select All** to add all Lab Profiles in the list to the new production Lab Series. 
 
-## Launch Lab Profiles and Set Development Status
+### Launch Lab Profiles and Set Development Status
 
 Next, you must launch each Lab Profile one time to confirm that they launch and function as expected, and then set the Development Status to _Complete_. 
 
 1. Navigate to the first Lab Profile in the new Lab Series. 
 
-1. Launch the lab and confirm it launches and functions as expected. Once it is launched and you have confirmed it works as expected, end the lab from within the launched lab. 
+1. Launch the lab and confirm it launches and functions as expected. Once it is launched and you have confirmed it works as expected, end the lab. 
 
-1. **Edit** the Lab profile, and **Select** the drop-down menu next to the **Development Status** field. 
+1. **Edit** the Lab profile, and **select** the drop-down menu next to the **Development Status** field. 
 
 1. Change this to **Complete**. 
 
@@ -59,9 +59,10 @@ Once you have launched each Lab Profile in the Lab Series, and set the developme
 
 1. **Select** the **Publish** tab of the Lab Series. 
 
-1. **Select Add API Consumer**. 
+1. Select **Add API Consumer**. 
 
-    1. Search for the API Consumer for your organization or if you are publishing to the Training Management System (TMS), search for _Training Management System_ and add that API Consumer. 
+    1. Search for the API Consumer for your organization
+    1. If you are publishing to the Training Management System (TMS), search for _Training Management System_ and add that API Consumer. 
 
 1. Click **Save** on the **Lab Series**.
 
