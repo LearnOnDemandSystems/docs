@@ -9,6 +9,43 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other Learn on Demand Systems platforms?</a></span>
 
+## **Released October 21, 2021**
+
+**AWS**
+
+- Service-Roles deployed via Stack are now properly torn down. 
+- Fixed an issue where AWS labs failed to remove inline policy from user accounts after being resumed from a saved state.
+- Fixed an issue where AWS Backup Plan could prevent Cloud Formation from being torn down.
+- Added support for Web Application Firewall Classic (WAF)
+- Added support for AppSync
+- Added support for Amazon CloudFront
+- Target Group support added.
+- Corrected issues when tearing down RDS MySQL resources.
+- User permissions now restored on lab resume.
+- Added teardown support for CloudFormation Stacks in an Update_Failed Status.
+  - [AWS Capabilities documentation](/https://docs.learnondemandsystems.com/lod/aws-capabilities.md)
+
+**User Interface Updates**
+
+- A new confirm dialog is now in place when canceling an active lab from the lab instance details or lab profile screens. This new non-blocking modern style dialog replaces the older browser alert dialog that was used previously to cancel labs and will begin to be rolled out to replace other dialogs used in LOD.web.
+
+**Accessibility: Screen reader experience**
+- When launching a Cloud Lab using a screen reader, the following dialogue will now be read:  "Clicking 'Get Started' will open two windows. The cloud portal will be in the left window, and the lab instructions in the right window."
+- The lab evaluation star rating now supports adding and subtracting stars via the arrow keys as described by a screen reader
+
+**LOD Improvements and Fixes**
+
+- Better handling of error messages created when tearing down cloud labs. 
+- Added lab profile number field to LTI deep link selection page.
+- Removed an invalid details link from the Create API Consumer page.
+- Edited the Provisioning files on high-performance storage message for clarity.
+- Updated translations for French, German, Japanese, Korean, Portuguese, Spanish, and Chinese.
+- Updated the gray lab client theme to meet accessibility standards.
+- Added additional logging and timeout checks to the host HealthMonitorService.
+- Fixed an issue that delayed changes made to Access Control Policies applying to new lab launches for a short period of time.
+
+
+
 ## **Released September 23, 2021**
 
 **Cloud Subscription Pool**
