@@ -1,7 +1,7 @@
 ---
-title: "Publishing a Lab Series to Prodcution"
-description: "This document describes the process of moving labs from Development to Production in Lab on Demand.."
-isPublished: false
+title: "Publishing a Lab Series to Production"
+description: "This document describes the process of moving labs from Development to Production in Lab on Demand."
+isPublished: true
 ---
 
 # Publishing a Lab Series 
@@ -14,10 +14,8 @@ This document describes the process of moving labs from Development to Productio
   * [Launch Lab Profiles and Set Development Status](#launch-lab-profiles-and-set-development-status)
   * [Publishing the Lab Series to Production](#publishing-the-lab-series-to-production)
 
-> **Need Clarification**
-> If a course has been updated in Development and the requirement is for the updated course to replace the previous production version of a course, please refer to the [Lab Profile Inheritance documentation](lab-profile-inheritance.md). 
->
->request the Parent/child document which discusses how the updated profile is published to production and then linked to the existing Lab Profile, so the Lab Profile ID stays the same and there is no need for modification within a customer’s LMS.
+
+>[!knowledge] If a Lab Profile in production is linked to a course and the course needs to be updated with content from a Lab Profile that is in development, it is recommended to use Lab Profile Inheritance, so that the course will not need to be recreated. For more information, please read our [Lab Profile Inheritance documentation](lab-profile-inheritance.md). 
 
 ## Saving a New Lab Series
 
@@ -29,7 +27,7 @@ After you have finished development on a lab series in Lab on Demand, complete t
 
 1. Scroll to the bottom of the page and **Select Save As**. 
 
-1. On the Save As dialog, specify the following: 
+1. In the **Save As dialog**, specify the following: 
 
     1. Enter a **name** for the new Lab Series.
     1. Next to the **Organization** field, **select** the **Choose** button, then select the production organization that will own the Lab Series. 
