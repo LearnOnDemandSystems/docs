@@ -42,6 +42,10 @@
         <div class="subtopic_title">Lab Profile Creation and Explanation</div>
         <div class="subtopic_description">Lab profile creation, and explanation of lab profile configuration.</div>
       </a>
+      <a class="subtopic_link" href="/lod/inherit-lab-profile.md">
+        <div class="subtopic_title">Lab Profile Inheritance</div>
+        <div class="subtopic_description">Configure a lab profile to inherit the environment and content from another lab profile.</div>
+      </a>
       <a class="subtopic_link" href="/lod/lab-series.md">
         <div class="subtopic_title">Lab Series Creation and Explanation</div>
         <div class="subtopic_description">Lab Series creation, and explanation of lab series configuration.</div>
@@ -57,6 +61,10 @@
       <a class="subtopic_link" href="/lod/org-max-ram.md">
         <div class="subtopic_title">Organization RAM Limits</div>
         <div class="subtopic_description">Max RAM usage, max active lab instances and max RAM per lab profile.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/platform-terminology.md">
+        <div class="subtopic_title">Platform Terminology</div>
+        <div class="subtopic_description">Explanation of terminology used in Lab on Demand.</div>
       </a>
       <a class="subtopic_link" href="/lod/lod-support-chat.md">
         <div class="subtopic_title">Support Chat</div>

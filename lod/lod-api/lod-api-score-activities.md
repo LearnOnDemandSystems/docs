@@ -20,7 +20,7 @@ This command does not return scoring results. To obtain scoring results, use the
 
 ## Example Usage
 
-Imagine…  A lab instance with an ID of 2393049 is running and needs to be scored or rescored it it has been scored already.
+Imagine…  A lab instance with an ID of 2393049 is running and needs to be scored or rescored if it has been scored already.
 
 ```
 https://labondemand.com/api/v3/scoreactivities?labinstanceid=2393049&rescoreAll=1

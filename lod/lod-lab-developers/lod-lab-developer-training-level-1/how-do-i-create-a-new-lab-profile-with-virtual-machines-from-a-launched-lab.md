@@ -26,5 +26,3 @@ In the Create New Lab Profile window:
 7. In the Save Successful window, click OK. 
 
 You can then continue working in the running lab or cancel it.
-
-!VIDEO[How Do I Create A New Lab Profile With Virtual Machines From A Launched Lab?](https://www.youtube.com/watch?v=_hTXonYoazg)

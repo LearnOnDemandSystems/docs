@@ -242,6 +242,10 @@
         <div class="subtopic_title">Lab Profile Cloning</div>
         <div class="subtopic_description">Create a duplicate copy of a lab profile by cloning.</div>
       </a>  
+      <a class="subtopic_link" href="/lod/inherit-lab-profile.md">
+        <div class="subtopic_title">Lab Profile Inheritance</div>
+        <div class="subtopic_description">Configure a lab profile to inherit the environment and content from another lab profile.</div>
+      </a>
       <a class="subtopic_link" href="/lod/lab-series-cloning.md">
         <div class="subtopic_title">Lab Series Cloning</div>
         <div class="subtopic_description">Create a duplicate copy of a Lab Series by cloning.</div>
@@ -289,6 +293,10 @@
       <a class="subtopic_link" href="/lod/persist-container-changes.md">
          <div class="subtopic_title">Persist Container Changes</div>
          <div class="subtopic_description">Allows you to permanently persist container changes so that they are used in future lab launches.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/platform-terminology.md">
+        <div class="subtopic_title">Platform Terminology</div>
+        <div class="subtopic_description">Explanation of terminology used in Lab on Demand.</div>
       </a>
       <a class="subtopic_link" href="/lod/feature-focus/cloud-resource-templates/replacement-tokens.md">
         <div class="subtopic_title">Replacement Tokens</div>

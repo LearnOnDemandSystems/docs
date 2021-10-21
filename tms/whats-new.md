@@ -1,7 +1,54 @@
 # What's New in the TMS
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in our other platforms?</a> 
+## <u>Released September 27, 2021</u>
+### Accessibility Items
+*   In our continuing effort to improve accessibility for all our students and meet MAS standards we have implemented the following features:
+    * Keyboard focus returns back to the ‘Displays Times in’ control after selecting the value for the combo box present in the ‘Output Options menu control.
+    *   Keyboard focus returns to the ‘Edit’ control after pressing enter on ‘Save or Cancel’ controls present in the ‘Open’ saved search dialog. 
+    *   Keyboard focus will now move to the ‘Privacy Policy’ link and move to the ‘Close (X)’ button.
+    *   Tab Focus order is now logical while navigating on the page for Print, Export and Results/Page.
+    *   When the Keyboard Tab focus is on the ‘Close (X)’ button and after pressing Tab key the focus will now move to the first list checkbox in the ‘Output Options’ list.
+    *   Keyboard focus within the Filters area will move to the next interactive element after invoking ‘filter remove (x) button’.
+    *   Tab Focus will now remain on the Output Options list when the ‘Close (X)’ button is pressed. 
+    *   Tab Focus will now remain within the Open Saved Search dialog box when pressing ‘This is my default search’ checkbox.
+    *   Keyboard Focus will only go to static text present in the ‘Description’ tab on the Course Assignment page.
+    *   From a Simple Course Assignment, the keyboard tab order will go to Bookmark, Table of Contents and Description.
+    *   From a student’s Current Training Page, the ‘Actions’ column header will be provided on ‘Bookmarks’ table.
+    *   From the Course Catalog page, the ‘Open Saved Search’ dialog box Edit link label will be provided.
+    *   From a Simple Course Assignment, the left/right arrow keys will navigate to the ‘Table of Contents’ and ‘Description’.
+    *   From the Current Training page, screen reader will narrate ‘Bookmarks’, while navigating using the table shortcut key (T).
+    *   From the TMS Home page, screen reader will narrate the user’s menu dropdown in Expand/Collapse state.
+    *   From the Sign In page, screen reader will navigate main content using ‘Skip to navigation’ while in scan mode. 
+    *   ‘LinkedIn’ and ‘Twitter’ URL meet minimum Luminosity ration greater than 4.5.1.
+    *   From the Sign In page, if the ‘Username’ is not provided, screen reader will narrate ‘Please Enter the text in Email Format’.
+    *   From the Edit User profile page, screen reader will narrate the First/Last Name, Primary E-mail address and Username.
+    *   From a Simple Course Assignment page, an ARIA attribute aria-selected=true will not be used for the ‘Bookmark’ button. 
+    *	Screen reader will no longer narrate the ‘Organization Belongs to’ filter twice on Find Courses page.
+    *	From the Course Catalog page, screen reader will identify the table which is present in the ‘Open Save Search’ dialog using table short cut key (T).
 
+### Enhancements and Fixes
+*   Class Vouchers:  We have fixed an issue with the Course ‘Class Absolute Maximum Capacity’ and the ‘Override Organization Owned Max Capacity’ fields. An Operations Manager was able to exceed the ‘Class Absolute Maximum Capacity’ by clicking the ‘Add Class Voucher’ link on the class Roster page. Now, when the ‘Class Absolute Maximum Capacity’ has been met the following message appears if additional vouchers are requested.
+    
+    ' You Cannot have more than (X) students in this event.'
+
+*   Publishing Groups: We have fixed an issue with Publishing Groups and Courses added to a Subscription.  When an Operation Manager created a course without a Publishing Group, it allowed them to assign a Subscription Profile for that course and create a Course Assignment from the Subscription.  A user was able to select a course from the assigned Subscription and launch the labs.   
+ 
+    Now, if a Course does not have a Publishing Group and a Subscription Profile is added the following message will appear when the Course is Saved.  
+
+    'The subscription profile 'Profile Name' is not valid because the course is not available to *Organization Name'
+*   Translation - files Update:   We have updated the language files in TMS for   the following supported languages:  
+    *   Chinese (Simplified) 
+    *   German 
+    *   Japanese 
+    *   Korean 
+    *   Portuguese 
+    *   Spanish 
+
+*   Certificate of Completion – Preview: We have fixed an issue with an Application Error occurring when previewing the certificate without any data.
+*   Instructor Schedule Page: We have fixed an issue with the Instructor and Instructor Name Column not being aligned and the ‘More Than’ was removed from the ‘Schedule Timeframe’ filter.
+
+----------------------------
 ## <u>Released August 30, 2021</u>
    
 ### Accessibility Items
@@ -79,6 +126,7 @@ Product guides have been added to the TMS for the following topics. These produc
 *   User Profile – Change Password:  The ‘Change Password’ dialog box has been fixed so that when a user clicks on the ‘Show Characters’ checkbox it no longer applies encoding onto the password characters.
 
 ----------------------------
+<!-->
 ## <u>Released April 22, 2021</u>
 
 ### Training Key Pool Availability
@@ -165,7 +213,7 @@ we have made the following changes:
 *   User Impersonation: For those who can impersonate another user we have prevented the impersonator from seeing the Active Lab Instances link on the Labs tile.
 
 ----------------------------
-<!-->
+<!--
 ## <u>Released February 25 2021</u>
 
 ###  Accessibility Items 

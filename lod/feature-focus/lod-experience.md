@@ -4,7 +4,7 @@ description: "Explanation of Lab on Demand UI."
 isPublished: true
 ---
 
-# Lab on Demand Experience
+# Introduction to Lab on Demand UI
 
 - [Lab on Demand Experience](#lab-on-demand-experience)
   * [Admin](#admin)

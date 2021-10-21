@@ -84,8 +84,8 @@
       <!-- -- End student categories section -->
     </div>
   <div class="instructorCategory userTypeSection">
-  <!-- instructor categories section.. -->
-     <div class="cardContainer">
+  <!-- Begin instructor categories section.. -->
+         <div class="cardContainer">
           <!-- Begin categories section.. -->
           <div class="cloudSlice cardContent">
           <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Featured Instructor General Docs">General</div>
@@ -100,20 +100,8 @@
                 <i class="material-icons blue" title="Student Basics" aria-hidden="true">supervised_user_circle</i>
                 <span class="categoryTitle" title="What does it mean to be a contract instructor?">What does it mean to be a contract instructor?</span>
               </a>
-          </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor Videos">View all</a></div>
          </div>
-          <div class="cloudSlice cardContent">
-          <div class="cardHeader" tabindex="0" title="Instructor Guide Videos" aria-label="Instructor Guide Videos">Instructor Guide Videos</div>
-          <div class="category">
-              <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
-               <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
-              <span class="categoryTitle" title="View videos">View videos</span>
-          </a>
-          </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Admin TMS Videos">View all</a></div>
-        </div>
-        </div>
+         </div>  
         <div class="cardContainer">
           <div class="vmLabDev cardContent">
             <div class="cardHeader" tabindex="0" title="Student Labs" aria-label="Student Docs for Labs">Labs</div>
@@ -189,11 +177,11 @@
               <span class="categoryTitle" title="How can I show what I am qualified to teach?">How can I show what I am qualified to teach?</span>
             </a>
           </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all Instructor Profile Related Docs" aria-label="View all Instructor Profile Related Docs">View all</a></div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor Profile Related Docs">View all</a></div>
         </div>
       </div>
      </div>
-          <!-- -- End instructor categories section -->
+    <!-- -- End instructor categories section -->
   </div>
   <div class="administratorCategory userTypeSection">
     <!-- Begin administrator categories section.. -->
@@ -229,22 +217,9 @@
         We have written our API to allow us to add new response fields without clients making any updates. To ensure your API calls work consistently, write your API client implementation to ignore any fields you are not using in your code. This allows your implementation to be stable while the API is dynamic. To assist with this, review our <a href="https://www.nuget.org/packages/LearnOnDemandSystems.OneLearnTMS.OneLearnTMSAPIClient/">client library</a>, which adheres to our best practices.
     </div>
     <div class="cardsContainer">
-      <div class="cardContainer">
         <div class="cardContainer">
               <!-- Begin categories section.. -->
-        <div class="azIndex cardContent">
-          <div class="cardHeader" tabindex="0" title="Administrator TMS Videos" aria-label="Administrator TMS Videos">TMS Videos</div>
-          <div class="category">
-              <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
-              <a><span class="categoryTitle" title="View videos on using the TMS.">View videos on using the TMS.</span>
-          </a>
-            </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-tms-videos.md" title="View all" aria-label="View all Admin TMS Videos">View all</a></div>
-        </div>
-      </div>
-           <div class="cardContainer">
-        <!-- Begin categories section.. -->
-        <div class="azIndex cardContent">
+         <div class="azIndex cardContent">
           <div class="cardHeader" tabindex="0" title="Administrator Fundamentals" aria-label="Admin Docs for Fundamentals">Fundamentals</div>
             <div class="category"> 
             <a href="/tms/tms-administrators/tms-fundamentals/training-key-types.md" class="categoryThread">
