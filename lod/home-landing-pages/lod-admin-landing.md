@@ -66,6 +66,10 @@
         <div class="subtopic_title">Platform Terminology</div>
         <div class="subtopic_description">Explanation of terminology used in Lab on Demand.</div>
       </a>
+      <a class="subtopic_link" href="/lod/publish-lab-series.md">
+        <div class="subtopic_title">Publishing a Lab Series to Production</div>
+        <div class="subtopic_description">This document describes the process of moving labs from Development to Production in Lab on Demand.</div>
+      </a>
       <a class="subtopic_link" href="/lod/lod-support-chat.md">
         <div class="subtopic_title">Support Chat</div>
         <div class="subtopic_description">Chat with our Support team or submit a support ticket..</div>
