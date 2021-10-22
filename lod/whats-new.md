@@ -9,6 +9,34 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other Learn on Demand Systems platforms?</a></span>
 
+## **Released October 21, 2021**
+
+**AWS Cloud Slice**
+
+- Added support for AppSync.
+- Added support for Amazon CloudFront.
+- Added support Load Balancer Target Groups.
+- Added teardown support for CloudFormation Stacks in an Update_Failed Status.
+- Fixed an issue where RDS MySQL resources may not tear down properly.
+- Fixed an issue where Service-Roles deployed via Stack would not tear down properly. 
+- Fixed an issue where AWS Backup Plan could prevent Cloud Formation from being torn down.
+- Fixed an issue where user permissions would not be restored on lab resume.
+  - [AWS Capabilities documentation](/https://docs.learnondemandsystems.com/lod/aws-capabilities.md)
+
+**User Interface and Accessibility Updates**
+
+- When canceling an active lab from the lab instance details or lab profile details page, updated the confirmation dialog to be platform native instead of using the browser’s. 
+- When launching a Cloud Lab using a screen reader, the following dialogue will now be read:  "Clicking 'Get Started' will open two windows. The cloud portal will be in the left window, and the lab instructions in the right window."
+- When completing end of lab evaluations, the star rating now supports adding and subtracting stars via the arrow keys as described by a screen reader
+- Updated the gray lab client theme to meet accessibility contrast standards.
+- Updated translations for French, German, Japanese, Korean, Portuguese, Spanish, and Chinese.
+- Fixed a typo on the “Provisioning files on high-performance storage” message.
+
+**LOD Improvements and Fixes**
+
+- Added lab profile number field to LTI deep link selection page.
+- Fixed an issue where changes made to Access Control Policies had a delayed period before they would begin applying to new lab launches.
+
 ## **Released September 23, 2021**
 
 **Cloud Subscription Pool**
