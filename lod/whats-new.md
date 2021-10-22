@@ -16,7 +16,6 @@
 - Service-Roles deployed via Stack are now properly torn down. 
 - Fixed an issue where AWS labs failed to remove inline policy from user accounts after being resumed from a saved state.
 - Fixed an issue where AWS Backup Plan could prevent Cloud Formation from being torn down.
-- Added support for Web Application Firewall Classic (WAF)
 - Added support for AppSync
 - Added support for Amazon CloudFront
 - Target Group support added.
