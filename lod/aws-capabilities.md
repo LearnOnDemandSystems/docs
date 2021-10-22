@@ -135,7 +135,7 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[Amazon Storage Gateway](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonstoragegateway.html)|storagegateway|planned||
 |[AWS Support](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awssupport.html)|support|planned||
 |[AWS Trusted Advisor](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awstrustedadvisor.html)|trustedadvisor|planned||
-|[AWS WAF](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awswaf.html)|waf|supported||
+|[AWS WAF](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awswaf.html)|waf|planned||
 |[AWS WAF Regional](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awswafregional.html)|waf-regional|planned||
 |[AWS XRay](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsxray.html)|xray|planned||
 |[Auto Scaling](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsautoscaling.html)|autoscaling|planned||
