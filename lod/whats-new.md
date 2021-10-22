@@ -13,7 +13,6 @@
 
 **AWS Cloud Slice**
 
-- Added support for Web Application Firewall Classic (WAF).
 - Added support for AppSync.
 - Added support for Amazon CloudFront.
 - Added support Load Balancer Target Groups.
