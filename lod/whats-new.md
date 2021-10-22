@@ -11,40 +11,32 @@
 
 ## **Released October 21, 2021**
 
-**AWS**
+**AWS Cloud Slice**
 
-- Service-Roles deployed via Stack are now properly torn down. 
-- Fixed an issue where AWS labs failed to remove inline policy from user accounts after being resumed from a saved state.
-- Fixed an issue where AWS Backup Plan could prevent Cloud Formation from being torn down.
-- Added support for Web Application Firewall Classic (WAF)
-- Added support for AppSync
-- Added support for Amazon CloudFront
-- Target Group support added.
-- Corrected issues when tearing down RDS MySQL resources.
-- User permissions now restored on lab resume.
+- Added support for Web Application Firewall Classic (WAF).
+- Added support for AppSync.
+- Added support for Amazon CloudFront.
+- Added support Load Balancer Target Groups.
 - Added teardown support for CloudFormation Stacks in an Update_Failed Status.
+- Fixed an issue where RDS MySQL resources may not tear down properly.
+- Fixed an issue where Service-Roles deployed via Stack would not tear down properly. 
+- Fixed an issue where AWS Backup Plan could prevent Cloud Formation from being torn down.
+- Fixed an issue where user permissions would not be restored on lab resume.
   - [AWS Capabilities documentation](/https://docs.learnondemandsystems.com/lod/aws-capabilities.md)
 
-**User Interface Updates**
+**User Interface and Accessibility Updates**
 
-- A new confirm dialog is now in place when canceling an active lab from the lab instance details or lab profile screens. This new non-blocking modern style dialog replaces the older browser alert dialog that was used previously to cancel labs and will begin to be rolled out to replace other dialogs used in LOD.web.
-
-**Accessibility: Screen reader experience**
+- When canceling an active lab from the lab instance details or lab profile details page, updated the confirmation dialog to be platform native instead of using the browser’s. 
 - When launching a Cloud Lab using a screen reader, the following dialogue will now be read:  "Clicking 'Get Started' will open two windows. The cloud portal will be in the left window, and the lab instructions in the right window."
-- The lab evaluation star rating now supports adding and subtracting stars via the arrow keys as described by a screen reader
+- When completing end of lab evaluations, the star rating now supports adding and subtracting stars via the arrow keys as described by a screen reader
+- Updated the gray lab client theme to meet accessibility contrast standards.
+- Updated translations for French, German, Japanese, Korean, Portuguese, Spanish, and Chinese.
+- Fixed a typo on the “Provisioning files on high-performance storage” message.
 
 **LOD Improvements and Fixes**
 
-- Better handling of error messages created when tearing down cloud labs. 
 - Added lab profile number field to LTI deep link selection page.
-- Removed an invalid details link from the Create API Consumer page.
-- Edited the Provisioning files on high-performance storage message for clarity.
-- Updated translations for French, German, Japanese, Korean, Portuguese, Spanish, and Chinese.
-- Updated the gray lab client theme to meet accessibility standards.
-- Added additional logging and timeout checks to the host HealthMonitorService.
-- Fixed an issue that delayed changes made to Access Control Policies applying to new lab launches for a short period of time.
-
-
+- Fixed an issue where changes made to Access Control Policies had a delayed period before they would begin applying to new lab launches.
 
 ## **Released September 23, 2021**
 
