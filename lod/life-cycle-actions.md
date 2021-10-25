@@ -57,7 +57,6 @@ First, decide what type of action should be executed, then decide when that acti
 - **Pre-Build**: the lab components are being deployed, as well as any cloud resources.
 - **Post-Build**: the lab environment has been built, but components like virtual machines may still be starting. 
 - **First Displayable**: all components of the lab are now running and the user can now interact with the lab.
-- **IP Addresses Assigned**: if the lab has public IP addresses, this event will wire when all public IP addresses have been verified to be assigned to the lab's virtual machine(s).
 - **Saving**: the lab is in the process of being saved.
 - **Saved**: the lab is in a saved state and no longer active. 
 - **Resuming**: the lab is resuming from a saved state.
