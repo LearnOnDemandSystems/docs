@@ -1,38 +1,16 @@
 # What's New in the TMS
 
 ## <u>Released October 25, 2021</u>
-### Accessibility Items
-*   In our continuing effort to improve accessibility for all our students and meet MAS standards we have implemented the following features:
-    *   From the Sign In page, the high contrast black/white mode, static focus indicator will not be present on ‘Sign In’ link.
-    *   From the Edit User profile page, if the ‘First Name’ field is removed and the ‘Save’ button is pressed, screen reader will narrate as ‘First Name Edit first name required’ when focus is on ‘First Name’ field when pressing the down arrow.
-    *   From the Course Catalog page, when pressing the ‘Open’ link and navigating using the keyboard navigation (Tab) key, screen reader will narrate the ‘Save/Cancel’ links.
-    *   From a Simple Course Assignment, screen reader will narrate the ‘Hour and Minutes’ when using the arrow keys. 
-    *   From the Course Catalog Search page, the Developer Tools (F12) multiple H1 Headings Tags will not be defined for the below text in the page.
-        *	CLI Search of man Pages [Guided]
-        *   CLF-001
-    *   From the Course Catalog page, screen reader will narrate the ‘Edit and Delete’ links that are present in the ‘Open Saved Search’ dialog. 
-    *   From the Find Courses page, the Output Options will narrate ‘Sort by Group and Sort Alphabetically’.
-    *   From the Course Catalog page, screen reader will not narrate unnecessary table information for ‘Belongs to’, ‘Organization Name’ and ‘Include children’ controls present under ‘Add filter.’
-    *   From the Find Courses page, screen reader will not narrate unnecessary state information for the ‘Remove filter (X)’ links under ‘Add filter.’
-    *   From the Course Details page, screen reader will narrate updated information while pressing enter on ‘Remove Bookmark’ / ‘Add Bookmark’ links while using browse mode down arrow. 
-    * From the Home page, screen reader will narrate the position for ‘User’ within the list menu ‘Edit Profile’, ‘View Account’ and ‘Sign Out’. 
-    *   From the banner, narrate ‘My Training’, ‘My Transcript’, ‘Road Map’, ‘Contact’ and ‘Help’. 
-    * When clicking the ‘Start’ button for a course assignment, screen reader focus will be on the close button by default after the ‘License Agreement’ dialog is opened while using browser mode. 
-    * From My Training page, JAWS will identify the table which is present under ‘Bookmarks’ using JAWS Table short cut key ‘T’.
-    * Screen reader focus will move in sequential order in the ‘My Transcript’ page while navigating through browse mode. 
-    *   From the Course Catalog page, a table column Headers will be provided for the table present in the ‘Open Saved Search’ dialog.
-    *   From My Training page, screen reader will narrate ‘Sorting’ information for multiple table headers after invoking and navigating back in browser mode. 
-    *   From the Course Catalog, for the Save Search Edit the visual label of ‘Name’ will be provided.
-    *   From the User Profile page, screen reader will narrate ‘Export My Data’.
 
-### Enhancements and Fixes
-* Course Assignment Expiration Date:  We have fixed an issue with the Course Assignment Expires date. It was allowing an Operation Manager to delete the Expires date and show as ‘Never’.  Now, if the Expires date is deleted the following message will appear when the Save button is clicked.
+### Course Assignments 
+- Fixed an issue where the ‘Course Assignment Expires’ date was allowing an Operations Manager to delete the Expires date and show as ‘Never’. 
+- Fixed an issue with the ‘Course Assignment ID’ column not appearing on the Export. 
+ 
+### General Improvements and Fixes 
+- Numerous updates to accessibility in a continuing effort to improve access and usability for those that are differently abled.  
+- Individual courses may no longer be configured for access by individual organizations. Courses must now be added to a publishing group for cross-organization availability. 
+- Fixed an issue when users purchasing Microsoft Official Curriculum via Courseware Marketplace attempts to register with a Username/Email which already exists, the registration form was attempting to create another user with the same Username/Email. 
 
-    'Please fill out this field' 
-
-* Courseware MarketPlace:  We have fixed an issue where a user registers with a same Username /Email which already exists in the ALH site, the registration form was attempting to create another user with the same Username/Email. Now, it will check on post that a user can be created, and if not return an error that the email is already in use. 
-* Course Assignment- ID Output Option: We have fixed an issue with the Course Assignment ID column not appearing on the Export. 
-* Publishing Groups:  From the Course Availability tab, the checkbox for ‘Available To all Organizations’ and the section for ‘Directly available to any Organizations’ have been removed.  Content providers have had, the ‘Content Availability’ tab removed. Now, only Publishing Groups can give access to content.
 
 ----------------------------
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in our other platforms?</a> 
