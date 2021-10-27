@@ -1,5 +1,7 @@
 # What's New in the TMS
 
+<span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in our other platforms?</a> 
+ 
 ## <u>Released October 25, 2021</u>
 
 ### Course Assignments 
@@ -13,7 +15,7 @@
 
 
 ----------------------------
-<span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in our other platforms?</a> 
+
 ## <u>Released September 27, 2021</u>
 ### Accessibility Items
 *   In our continuing effort to improve accessibility for all our students and meet MAS standards we have implemented the following features:
