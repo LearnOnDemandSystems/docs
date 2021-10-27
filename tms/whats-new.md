@@ -1,5 +1,18 @@
 # What's New in the TMS
 
+## <u>Released October 25, 2021</u>
+
+### Course Assignments 
+- Fixed an issue where the ‘Course Assignment Expires’ date was allowing an Operations Manager to delete the Expires date and show as ‘Never’. 
+- Fixed an issue with the ‘Course Assignment ID’ column not appearing on the Export. 
+ 
+### General Improvements and Fixes 
+- Numerous updates to accessibility in a continuing effort to improve access and usability for those that are differently abled.  
+- Individual courses may no longer be configured for access by individual organizations. Courses must now be added to a publishing group for cross-organization availability. 
+- Fixed an issue when users purchasing Microsoft Official Curriculum via Courseware Marketplace attempts to register with a Username/Email which already exists, the registration form was attempting to create another user with the same Username/Email. 
+
+
+----------------------------
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in our other platforms?</a> 
 ## <u>Released September 27, 2021</u>
 ### Accessibility Items
@@ -108,6 +121,7 @@ In our continuing effort to improve accessibility for all our students and meet 
 * Notification Replacement Text - [ClassStartTimeLocal] and [ClassEndTimeLocal]:  We have fixed an issue with the replacement text values of [ClassStartTimeLocal] and [ClassEndTimeLocal] from inheriting the browser language setting when a notification is triggered by the UI.
 * Course Assignments – Activities Complete: Completed required lab activities within sections now calculates the correct percentage.  
 ----------------------------
+<
 ## <u>Released May 6, 2021</u>
 
 ### Simple Course Assignments
@@ -126,7 +140,7 @@ Product guides have been added to the TMS for the following topics. These produc
 *   User Profile – Change Password:  The ‘Change Password’ dialog box has been fixed so that when a user clicks on the ‘Show Characters’ checkbox it no longer applies encoding onto the password characters.
 
 ----------------------------
-<!-->
+<!--
 ## <u>Released April 22, 2021</u>
 
 ### Training Key Pool Availability
@@ -212,6 +226,7 @@ we have made the following changes:
 ###  Enhancements and Fixes 
 *   User Impersonation: For those who can impersonate another user we have prevented the impersonator from seeing the Active Lab Instances link on the Labs tile.
 
+-->
 ----------------------------
 <!--
 ## <u>Released February 25 2021</u>
