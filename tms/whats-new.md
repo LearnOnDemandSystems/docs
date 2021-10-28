@@ -288,7 +288,6 @@ Find Entities by ID – Filter: We have added an “ID” filter to the followin
 *	Find/Choose Subscriptions
 *	Find/Choose Users
 
-
 ----------------------------
 
 ## <u>Released January 14 2021</u>
@@ -299,7 +298,6 @@ Find Entities by ID – Filter: We have added an “ID” filter to the followin
 *   Edit Users – Flag: When flagging fields for change, then editing the users page a second time and saving the formerly flagged fields are now flagged.  
 *   Edit User Profile – Roles: The Starts/Expires time fields now fully display AM or PM and no longer stacked.
 *   Course, Class, and Catalog Browsers – Default Search Save: When saving a search and making it default, then navigating away the default search is now saving.
-
 
 ----------------------------
 
@@ -329,7 +327,6 @@ A new Bulk Update User Profiles page has been added to TMS. This page allows TMS
 *   Bug Fix – Lab Instance Search Page: Fixed an issue on the Lab Instance Search page that displayed a non-translated string in a filter dropdown.
 *   Bug Fix – Deferred Launch Labs: Fixed an issue that caused deferred launched labs to not be associated with a user profile.
 
-
 ----------------------------
 
 ## <u>Released December 3 2020</u>
@@ -343,7 +340,6 @@ When assigning individual roles to users during the user import process, an opti
 *   Bug Fix – Course Progress Bars: Fixed an issue that caused progress bars on the Enrollment and Course Assignment pages to not properly reflect a student’s progress.
 *   Bug Fix – Launch Activities Buttons: Fixed an issue that caused Activity Launch buttons to not appear when viewing the Class Details page.
 
-
 ----------------------------
 
 ## Released November 19 2020
@@ -356,7 +352,6 @@ When enabled, users will now be able to save custom search filters on the Course
 *   Bug Fix – Enrollment status: Users with the enrollment statuses of Requested, Cancelled, or Denied are no longer treated as being enrolled in the class.
 *   Bug Fix – Zoom recordings: Fixed an issue that would cause single delivery classrooms delivered over multiple days to only display the first days Zoom recordings.
 
-<!--
 ## Released October 29 2020
 
 ###  Create Multiple Enrollments 
@@ -373,7 +368,6 @@ We have added a Create Multiple Enrollments link on the Classes tile. Operations
 *   Sites – Use training key pool checkbox: The Use training key pool owner organization for new user registrations checkbox will now appear when the Enable register by training key on logon page is checked.
 *   Find Enrollments/Find Course Assignments – Duration: Duration has been added as an output option to the Find Enrollments and Find Course Assignments searches. 
 * Find Courses – Training days: A training days field has been added as an output option and search filter to the Find Courses search. 
-
 
 ----------------------------
 
