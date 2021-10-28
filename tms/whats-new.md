@@ -142,7 +142,7 @@ Product guides have been added to the TMS for the following topics. These produc
 *   User Profile – Change Password:  The ‘Change Password’ dialog box has been fixed so that when a user clicks on the ‘Show Characters’ checkbox it no longer applies encoding onto the password characters.
 
 ----------------------------
-<!--
+
 ## <u>Released April 22, 2021</u>
 
 ### Training Key Pool Availability
@@ -347,7 +347,6 @@ When assigning individual roles to users during the user import process, an opti
 
 ----------------------------
 
-<!--
 ## Released November 19 2020
 
 ###  Browser and Catalog Save Filter Selections 
