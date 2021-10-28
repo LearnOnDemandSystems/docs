@@ -303,6 +303,8 @@ Two permissions have been added to LOD to manage Compatibility Mode under Lab De
 - The support chat link appearing in the lab client will now be determined by the organization the lab user is a member of, rather than the source organization for the lab.
 - AWS Fabric labs with shared subscriptions no longer support executing Life Cycle Actions against AWS.
 
+<!--
+
 ## <u>Released March 26, 2021</u>
 
 **Virtual Machine Key Codes**
@@ -618,8 +620,6 @@ Life Cycle Actions (LCA) can now be inherited on child lab profiles. Child lab p
 - The "Let's open a lab window" page won't be available after the lab has been completed, cancelled, or timed out.
 - When choosing a particular cloud subscription to launch a cloud lab, only subscriptions in the pool configured on the lab profile will be shown. 
 - Updates to virtual machines, including differencing disks, will be blocked when a snapshot is detected on the VM due to incompatibility. If needed, the snapshots may be removed to restore differencing functionality. 
-
-<!--
 
 ## <u>Released October 2, 2020</u>
 
