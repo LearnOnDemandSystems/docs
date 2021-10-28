@@ -182,6 +182,7 @@ On the Organization Preference tab, when the ‘Course Assignment – Use simple
 * Course Certificate Date Format:  We have changed the date format of ‘dd MMM yyy’ to ‘dd MMM yyyy’.
 *   Instructor Calendar – Calendar Color Olive: We have fixed the calendar color ‘Olive’ from changing ‘White’ when placing the cursor over the event name.
 
+<!--
 ----------------------------
 ## <u>Released March 25, 2021</u>
 
@@ -228,9 +229,8 @@ we have made the following changes:
 ###  Enhancements and Fixes 
 *   User Impersonation: For those who can impersonate another user we have prevented the impersonator from seeing the Active Lab Instances link on the Labs tile.
 
--->
 ----------------------------
-<!--
+
 ## <u>Released February 25 2021</u>
 
 ###  Accessibility Items 
