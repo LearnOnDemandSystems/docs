@@ -415,10 +415,7 @@ We have updated the Custom Virtual Classroom to specify when the “Enter Classr
 * Class Details: We have removed Manage Courseware Vouchers from the quick launch menu bar on the Class Details page.
 * Notifications: Attach a Calendar Event - We have fixed the .ics file attached to a calendar event from displaying as “Not Supported Calendar Message” within Outlook.
 
--->
 ----------------------------
-
-<!--
 
 ## Released September 17, 2020
 
@@ -523,7 +520,6 @@ In our continuing effort to improve accessibility for all our students and meet 
 
 ----------------------------
 ## Released June 29, 2020
-
 
 ###  Segmented Student Class Activity Assignments 
 
@@ -712,4 +708,5 @@ A disabled activity displays, slightly grayed out with a “Disabled by Instruct
 1. Browse on Demand Catalog – We have updated the Browse on Demand pages to allow multiple Course Tags to be selected by default when users arrive on the page. Along with this, the page can now be set to default either the Match Any or Match All selections on the page. 
 1. Class Training Key – We corrected an Application Error which was showing up when you saved after editing a Class Training Key. 
 1. Find Lab Instances – We have repositioned the Percent Complete column when the search results are exported from the TMS to match column order on the Find Lab Instances page. 
+
 -->
