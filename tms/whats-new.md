@@ -247,7 +247,6 @@ we have made the following changes:
 *   API Documentation – SearchClasses: A CustomFieldSearchFilter has been added to the SearchClasses API calls. 
 *   Bulk Update User Profiles – Organization Management: We have fixed an issue when Bulk Editing Users auto-checking all organizations and assigning organization management to edited users.  
 
-
 ----------------------------
 
 ## <u>Released February 11 2021</u>
@@ -264,7 +263,7 @@ An option to create multiple course assignments for multiple students has been a
 *   Find Courses – Organization Search:  You will no longer receive a query message indicating to reduce the scope of your query when finding courses. We have increased the default maximum organizations that you are able to search from 50 to 100.
 
 ----------------------------
-<!--
+
 ## <u>Released January 28 2021</u>
 
 ###  Enhanced account security scheduled for implementation at 10:00pm ET Friday, February 12th 
