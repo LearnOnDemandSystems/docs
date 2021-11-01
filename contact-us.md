@@ -10,7 +10,7 @@ Find answers to your questions through short topical articles in the [Help Cente
 
 ## Technical Support
 
-Please visit our [customer support page](http://www.learnondemandsystems.com/customer-support/) to submit a Support Ticket, access Help Articles or view our Service Status.
+Please visit our [customer support page](https://skillable.com/customer-support/) to submit a Support Ticket, access Help Articles or view our Service Status.
 
 ||||
 |---|---|---|
