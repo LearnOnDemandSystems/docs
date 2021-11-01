@@ -29,7 +29,7 @@ Microsoft Azure Cloud Slice Subscription (CSS) provides an environment that allo
 
 Azure CSS labs require a subscription pool to be configured and linked to any Lab Profiles that will be used for Azure CSS. 
 
-A subscription pool should be created and configured before proceeding to the next steps. If you do not have a subscription pool created and configured, please reach out to our [customer support team](http://www.learnondemandsystems.com/customer-support/) for assistance. 
+A subscription pool should be created and configured before proceeding to the next steps. If you do not have a subscription pool created and configured, please reach out to our [customer support team](https://skillable.com/customer-support/) for assistance. 
 
 ## Configuring a Lab profile
 
@@ -64,7 +64,7 @@ A subscription pool should be created and configured before proceeding to the ne
 
 1. **Subscription Pool:** Select your subscription pool. 
 
-    Subscription Pools are used to deploy resources in a subscription. Subscriptions will be shared among users with permissions to only access resource groups or virtual machines provisioned for their lab instance. If you do not have a subscription pool created and configured, please reach out to our [customer support team](http://www.learnondemandsystems.com/customer-support/) for assistance. 
+    Subscription Pools are used to deploy resources in a subscription. Subscriptions will be shared among users with permissions to only access resource groups or virtual machines provisioned for their lab instance. If you do not have a subscription pool created and configured, please reach out to our [customer support team](https://skillable.com/customer-support/) for assistance. 
 
 1. **Enable Multiple Subscriptions** (OPTIONAL): enable this option if the lab profile needs more than one Azure subscription. This option is not commonly enabled, only enable this if you are sure you need multiple subscriptions. Leave this unchecked for a single subscription configuration. 
 

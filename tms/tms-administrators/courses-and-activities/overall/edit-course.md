@@ -20,7 +20,7 @@ Changes needed for a class in progress can be made by cloning the course and mak
 
 In order to not be invoiced for enrollments from a class in progress that was replaced by a new class using the new course, _you are required to contact our help desk the first day of class._ We can cancel the class session on your behalf. Requesting cancellation of classes beyond the first day of a class or beyond course assignment’s creation date requires approval by your Account Executive.
 
-If you need assistance setting up a new course or class, please contact our [help desk](http://www.learnondemandsystems.com/customer-support/)
+If you need assistance setting up a new course or class, please contact our [help desk](https://skillable.com/customer-support/)
 
 ### Additional Resources
 

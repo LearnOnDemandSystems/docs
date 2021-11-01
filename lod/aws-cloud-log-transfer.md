@@ -50,7 +50,7 @@ AWS Cloud Trail logging requires configuration in AWS and in Lab on Demand (LOD)
 
 ## Enable Cloud Log Transfer for Your Organization 
 
-To use Cloud Log Transfer, your organization must have the feature enabled. To enable the feature for your organization, please contact our [customer support team](http://www.learnondemandsystems.com/customer-support/). 
+To use Cloud Log Transfer, your organization must have the feature enabled. To enable the feature for your organization, please contact our [customer support team](https://skillable.com/customer-support/). 
 
 
 ## Create AWS Cloud Trail
