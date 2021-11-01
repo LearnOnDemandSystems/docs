@@ -121,7 +121,7 @@
       </a>
       <a class="subtopic_link" href="/lod/spla-supported.md">
         <div class="subtopic_title">SPLA Supported Software</div>
-        <div class="subtopic_description">Supported products and the conditions within Learn on Demand Systems implementation of the SPLA program.</div>
+        <div class="subtopic_description">Supported products and the conditions within Skillable implementation of the SPLA program.</div>
       </a>
       <a class="subtopic_link" href="/lod/terminal-access.md">
         <div class="subtopic_title">SSH Terminal Access</div>

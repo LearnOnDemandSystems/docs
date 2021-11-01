@@ -1,12 +1,12 @@
 ---
-title: "Learn on Demand Systems Enhanced Account Security"
-description: "Guidance for authenticating user accounts with Learn on Demand Systems Platforms, as well as account management in each platform."
+title: "Skillable Enhanced Account Security"
+description: "Guidance for authenticating user accounts with Skillable Platforms, as well as account management in each platform."
 isPublished: true
 ---
 
-# Learn on Demand Systems Enhanced Account Security 
+# Skillable Enhanced Account Security 
 
-This document provides guidance for authenticating user accounts with Learn on Demand Systems Platforms, as well as account management in each platform. 
+This document provides guidance for authenticating user accounts with Skillable Platforms, as well as account management in each platform. 
 
 - [Login](#login)
 - [Logout](#logout)
@@ -19,21 +19,21 @@ This document provides guidance for authenticating user accounts with Learn on D
 
 ## Login
 
-When you navigate to the Training Management System (TMS) or Lab on Demand (LOD), you will be greeted with four options to login. You can use a Corporate Azure AD, a Microsoft account, a Google account or a Learn on Demand Systems account. 
+When you navigate to the Training Management System (TMS) or Lab on Demand (LOD), you will be greeted with four options to login. You can use a Corporate Azure AD, a Microsoft account, a Google account or a Skillable account. 
 
-- **Corporate Azure AD**: Allows you to authenticate into Learn on Demand Systems platforms using your existing Corporate Azure AD credentials. 
+- **Corporate Azure AD**: Allows you to authenticate into Skillable platforms using your existing Corporate Azure AD credentials. 
 
-- **Microsoft Account**: Allows you to authenticate into Learn on Demand Systems platforms using your existing Microsoft account credentials, such as an Outlook, Live, or Hotmail account. 
+- **Microsoft Account**: Allows you to authenticate into Skillable platforms using your existing Microsoft account credentials, such as an Outlook, Live, or Hotmail account. 
 
-- **Google**: Allows you to authenticate into Learn on Demand Systems platforms using your existing Google account credentials. 
+- **Google**: Allows you to authenticate into Skillable platforms using your existing Google account credentials. 
 
-- **Sign in with a Learn on Demand Systems Account**: Allows you to authenticate into Learn on Demand Systems platforms using a Learn on Demand Systems account you have created previously. If you need to create an account, please see the [Create User section of this document](#create-user-account).
+- **Sign in with a Skillable Account**: Allows you to authenticate into Skillable platforms using a Skillable account you have created previously. If you need to create an account, please see the [Create User section of this document](#create-user-account).
 
-1. Choose an authentication method; Corporate Azure AD, Microsoft account, Google account or a Learn on Demand Systems account.
+1. Choose an authentication method; Corporate Azure AD, Microsoft account, Google account or a Skillable account.
 
 1. If you choose Corporate Azure AD or a Microsoft account, you will be directed to a page to authenticate using your credentials. 
 
-1. If you would like to login with an Learn on Demand Systems account, enter your username or email address, and your password.  
+1. If you would like to login with an Skillable account, enter your username or email address, and your password.  
 
 ## Logout
 
@@ -71,15 +71,15 @@ You can edit your user profile from any page in TMS or LOD.
 
 ## Users who have email addresses associated with multiple organizations
 
-If your email address is associated with multiple organizations in TMS, you can use your Corporate Azure AD, Microsoft account, Google account or Learn on Demand Systems account to login.
+If your email address is associated with multiple organizations in TMS, you can use your Corporate Azure AD, Microsoft account, Google account or Skillable account to login.
 
 1. Navigate to the URL that corresponds with the organization that you wish to login to. 
 
-1. Choose an authentication method; Corporate Azure AD, Microsoft account, Google account or a Learn on Demand Systems account. 
+1. Choose an authentication method; Corporate Azure AD, Microsoft account, Google account or a Skillable account. 
 
 1. If you choose Corporate Azure AD, a Microsoft account, or a Google account you will be directed to a page to authenticate using your credentials. 
 
-1. If you choose to login with a Learn on Demand Systems account, enter your username or email address, and your password. 
+1. If you choose to login with a Skillable account, enter your username or email address, and your password. 
 
 ## Change Email
 
@@ -92,7 +92,7 @@ If you wish to change the email address on your Microsoft account, please read [
 If you wish to change the email address on your Google account, please read [Google Account Help](https://support.google.com/accounts/answer/19870?co=GENIE.Platform%3DAndroid&hl=en).
 ## Change Password
 
-Your Learn on Demand Systems account password can be changed at any time by viewing your account and clicking the Change Password button. 
+Your Skillable account password can be changed at any time by viewing your account and clicking the Change Password button. 
 
 1. In TMS or LOD, click your name in the upper-right corner of the page. 
 
@@ -109,7 +109,7 @@ If you would like to change your Microsoft account password, please follow [Micr
 If you would like to change your Google account password, please read [Google Account Help](https://support.google.com/accounts/answer/41078?co=GENIE.Platform%3DDesktop&hl=en).
 ## Forgot password
 
-If you forget your Learn on Demand Systems account password, you can reset it by clicking the _Reset Password_ link and providing your email address. This must be the same email address that is on your Learn on Demand Systems account. 
+If you forget your Skillable account password, you can reset it by clicking the _Reset Password_ link and providing your email address. This must be the same email address that is on your Skillable account. 
 
 1. Click the _Reset Password_ link on the sign in page. 
 

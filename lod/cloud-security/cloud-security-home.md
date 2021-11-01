@@ -6,7 +6,7 @@ isPublished: true
 
 # Cloud Security
 
-Cloud Slice Labs can come with unique security challenges. Learn On Demand Systems is dedicated to providing developers with tools to protect their cloud environments from abuse while still maintaining the flexibility to create whatever environment your lab requires. 
+Cloud Slice Labs can come with unique security challenges. Skillable is dedicated to providing developers with tools to protect their cloud environments from abuse while still maintaining the flexibility to create whatever environment your lab requires. 
 
 The following documents outline our approach to cloud security, how the security review process fits into lab development, and best practices for how to create a secure cloud lab.
 
