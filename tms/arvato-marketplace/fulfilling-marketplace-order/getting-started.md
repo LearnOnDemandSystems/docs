@@ -1,12 +1,12 @@
 ---
-title: "I just ordered online labs through Courseware Marketplace and am new to Learn on Demand Systems. How do I get started?"
-description: "Instructions for first time purchasers of LODS labs through the Courseware Marketplace. Explaining where to go to set up delivery, redeem vouchers for the labs by creating a class, and how to add students for lab access in the class."
+title: "I just ordered online labs through Courseware Marketplace and am new to Skillable. How do I get started?"
+description: "Instructions for first time purchasers of Skillable labs through the Courseware Marketplace. Explaining where to go to set up delivery, redeem vouchers for the labs by creating a class, and how to add students for lab access in the class."
 isPublished: true
 ---
 
-# I just ordered online labs through Courseware Marketplace and am new to Learn on Demand Systems. How do I get started? 
+# I just ordered online labs through Courseware Marketplace and am new to Skillable. How do I get started? 
 
-You’ve come to the right place! View the Get Started information below if you are new to Learn on Demand Systems. All class management will take place in Learn on Demand Systems’ OneLearn Training Management System (TMS).  
+You’ve come to the right place! View the Get Started information below if you are new to Skillable. All class management will take place in Skillable's OneLearn Training Management System (TMS).  
 
 ## Next Steps
 

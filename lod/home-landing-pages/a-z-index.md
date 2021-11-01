@@ -298,6 +298,10 @@
         <div class="subtopic_title">Platform Terminology</div>
         <div class="subtopic_description">Explanation of terminology used in Lab on Demand.</div>
       </a>
+      <a class="subtopic_link" href="/lod/publish-lab-series.md">
+        <div class="subtopic_title">Publishing a Lab Series to Production</div>
+        <div class="subtopic_description">This document describes the process of moving labs from Development to Production in Lab on Demand.</div>
+      </a>
       <a class="subtopic_link" href="/lod/feature-focus/cloud-resource-templates/replacement-tokens.md">
         <div class="subtopic_title">Replacement Tokens</div>
         <div class="subtopic_description">Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.</div>

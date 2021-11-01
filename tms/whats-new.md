@@ -1,6 +1,21 @@
 # What's New in the TMS
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in our other platforms?</a> 
+ 
+## <u>Released October 25, 2021</u>
+
+### Course Assignments 
+- Fixed an issue where the ‘Course Assignment Expires’ date was allowing an Operations Manager to delete the Expires date and show as ‘Never’. 
+- Fixed an issue with the ‘Course Assignment ID’ column not appearing on the Export. 
+ 
+### General Improvements and Fixes 
+- Numerous updates to accessibility in a continuing effort to improve access and usability for those that are differently abled.  
+- Individual courses may no longer be configured for access by individual organizations. Courses must now be added to a publishing group for cross-organization availability. 
+- Fixed an issue when users purchasing Microsoft Official Curriculum via Courseware Marketplace attempts to register with a Username/Email which already exists, the registration form was attempting to create another user with the same Username/Email. 
+
+
+----------------------------
+
 ## <u>Released September 27, 2021</u>
 ### Accessibility Items
 *   In our continuing effort to improve accessibility for all our students and meet MAS standards we have implemented the following features:
@@ -108,6 +123,7 @@ In our continuing effort to improve accessibility for all our students and meet 
 * Notification Replacement Text - [ClassStartTimeLocal] and [ClassEndTimeLocal]:  We have fixed an issue with the replacement text values of [ClassStartTimeLocal] and [ClassEndTimeLocal] from inheriting the browser language setting when a notification is triggered by the UI.
 * Course Assignments – Activities Complete: Completed required lab activities within sections now calculates the correct percentage.  
 ----------------------------
+<
 ## <u>Released May 6, 2021</u>
 
 ### Simple Course Assignments
@@ -126,7 +142,7 @@ Product guides have been added to the TMS for the following topics. These produc
 *   User Profile – Change Password:  The ‘Change Password’ dialog box has been fixed so that when a user clicks on the ‘Show Characters’ checkbox it no longer applies encoding onto the password characters.
 
 ----------------------------
-<!-->
+
 ## <u>Released April 22, 2021</u>
 
 ### Training Key Pool Availability
@@ -166,6 +182,7 @@ On the Organization Preference tab, when the ‘Course Assignment – Use simple
 * Course Certificate Date Format:  We have changed the date format of ‘dd MMM yyy’ to ‘dd MMM yyyy’.
 *   Instructor Calendar – Calendar Color Olive: We have fixed the calendar color ‘Olive’ from changing ‘White’ when placing the cursor over the event name.
 
+<!--
 ----------------------------
 ## <u>Released March 25, 2021</u>
 
@@ -213,7 +230,7 @@ we have made the following changes:
 *   User Impersonation: For those who can impersonate another user we have prevented the impersonator from seeing the Active Lab Instances link on the Labs tile.
 
 ----------------------------
-<!--
+
 ## <u>Released February 25 2021</u>
 
 ###  Accessibility Items 
@@ -229,7 +246,6 @@ we have made the following changes:
 *   User Profile – Time Zone Flag: We have added the ability to set a flag on the Time Zone field on the User Profile.  
 *   API Documentation – SearchClasses: A CustomFieldSearchFilter has been added to the SearchClasses API calls. 
 *   Bulk Update User Profiles – Organization Management: We have fixed an issue when Bulk Editing Users auto-checking all organizations and assigning organization management to edited users.  
-
 
 ----------------------------
 
@@ -247,7 +263,7 @@ An option to create multiple course assignments for multiple students has been a
 *   Find Courses – Organization Search:  You will no longer receive a query message indicating to reduce the scope of your query when finding courses. We have increased the default maximum organizations that you are able to search from 50 to 100.
 
 ----------------------------
-<!--
+
 ## <u>Released January 28 2021</u>
 
 ###  Enhanced account security scheduled for implementation at 10:00pm ET Friday, February 12th 
@@ -272,7 +288,6 @@ Find Entities by ID – Filter: We have added an “ID” filter to the followin
 *	Find/Choose Subscriptions
 *	Find/Choose Users
 
-
 ----------------------------
 
 ## <u>Released January 14 2021</u>
@@ -283,7 +298,6 @@ Find Entities by ID – Filter: We have added an “ID” filter to the followin
 *   Edit Users – Flag: When flagging fields for change, then editing the users page a second time and saving the formerly flagged fields are now flagged.  
 *   Edit User Profile – Roles: The Starts/Expires time fields now fully display AM or PM and no longer stacked.
 *   Course, Class, and Catalog Browsers – Default Search Save: When saving a search and making it default, then navigating away the default search is now saving.
-
 
 ----------------------------
 
@@ -313,7 +327,6 @@ A new Bulk Update User Profiles page has been added to TMS. This page allows TMS
 *   Bug Fix – Lab Instance Search Page: Fixed an issue on the Lab Instance Search page that displayed a non-translated string in a filter dropdown.
 *   Bug Fix – Deferred Launch Labs: Fixed an issue that caused deferred launched labs to not be associated with a user profile.
 
-
 ----------------------------
 
 ## <u>Released December 3 2020</u>
@@ -327,10 +340,8 @@ When assigning individual roles to users during the user import process, an opti
 *   Bug Fix – Course Progress Bars: Fixed an issue that caused progress bars on the Enrollment and Course Assignment pages to not properly reflect a student’s progress.
 *   Bug Fix – Launch Activities Buttons: Fixed an issue that caused Activity Launch buttons to not appear when viewing the Class Details page.
 
-
 ----------------------------
 
-<!--
 ## Released November 19 2020
 
 ###  Browser and Catalog Save Filter Selections 
@@ -341,7 +352,6 @@ When enabled, users will now be able to save custom search filters on the Course
 *   Bug Fix – Enrollment status: Users with the enrollment statuses of Requested, Cancelled, or Denied are no longer treated as being enrolled in the class.
 *   Bug Fix – Zoom recordings: Fixed an issue that would cause single delivery classrooms delivered over multiple days to only display the first days Zoom recordings.
 
-<!--
 ## Released October 29 2020
 
 ###  Create Multiple Enrollments 
@@ -358,7 +368,6 @@ We have added a Create Multiple Enrollments link on the Classes tile. Operations
 *   Sites – Use training key pool checkbox: The Use training key pool owner organization for new user registrations checkbox will now appear when the Enable register by training key on logon page is checked.
 *   Find Enrollments/Find Course Assignments – Duration: Duration has been added as an output option to the Find Enrollments and Find Course Assignments searches. 
 * Find Courses – Training days: A training days field has been added as an output option and search filter to the Find Courses search. 
-
 
 ----------------------------
 
@@ -399,10 +408,7 @@ We have updated the Custom Virtual Classroom to specify when the “Enter Classr
 * Class Details: We have removed Manage Courseware Vouchers from the quick launch menu bar on the Class Details page.
 * Notifications: Attach a Calendar Event - We have fixed the .ics file attached to a calendar event from displaying as “Not Supported Calendar Message” within Outlook.
 
--->
 ----------------------------
-
-<!--
 
 ## Released September 17, 2020
 
@@ -507,7 +513,6 @@ In our continuing effort to improve accessibility for all our students and meet 
 
 ----------------------------
 ## Released June 29, 2020
-
 
 ###  Segmented Student Class Activity Assignments 
 
@@ -696,4 +701,5 @@ A disabled activity displays, slightly grayed out with a “Disabled by Instruct
 1. Browse on Demand Catalog – We have updated the Browse on Demand pages to allow multiple Course Tags to be selected by default when users arrive on the page. Along with this, the page can now be set to default either the Match Any or Match All selections on the page. 
 1. Class Training Key – We corrected an Application Error which was showing up when you saved after editing a Class Training Key. 
 1. Find Lab Instances – We have repositioned the Percent Complete column when the search results are exported from the TMS to match column order on the Find Lab Instances page. 
+
 -->

@@ -9,6 +9,34 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other Skillable platforms?</a></span>
 
+## **Released October 21, 2021**
+
+**AWS Cloud Slice**
+
+- Added support for AppSync.
+- Added support for Amazon CloudFront.
+- Added support Load Balancer Target Groups.
+- Added teardown support for CloudFormation Stacks in an Update_Failed Status.
+- Fixed an issue where RDS MySQL resources may not tear down properly.
+- Fixed an issue where Service-Roles deployed via Stack would not tear down properly. 
+- Fixed an issue where AWS Backup Plan could prevent Cloud Formation from being torn down.
+- Fixed an issue where user permissions would not be restored on lab resume.
+  - [AWS Capabilities documentation](/https://docs.learnondemandsystems.com/lod/aws-capabilities.md)
+
+**User Interface and Accessibility Updates**
+
+- When canceling an active lab from the lab instance details or lab profile details page, updated the confirmation dialog to be platform native instead of using the browser’s. 
+- When launching a Cloud Lab using a screen reader, the following dialogue will now be read:  "Clicking 'Get Started' will open two windows. The cloud portal will be in the left window, and the lab instructions in the right window."
+- When completing end of lab evaluations, the star rating now supports adding and subtracting stars via the arrow keys as described by a screen reader
+- Updated the gray lab client theme to meet accessibility contrast standards.
+- Updated translations for French, German, Japanese, Korean, Portuguese, Spanish, and Chinese.
+- Fixed a typo on the “Provisioning files on high-performance storage” message.
+
+**LOD Improvements and Fixes**
+
+- Added lab profile number field to LTI deep link selection page.
+- Fixed an issue where changes made to Access Control Policies had a delayed period before they would begin applying to new lab launches.
+
 ## **Released September 23, 2021**
 
 **Cloud Subscription Pool**
@@ -274,6 +302,8 @@ Two permissions have been added to LOD to manage Compatibility Mode under Lab De
 - Fixed a bug preventing AWS Fabric labs from launching after they are created via Save-As.
 - The support chat link appearing in the lab client will now be determined by the organization the lab user is a member of, rather than the source organization for the lab.
 - AWS Fabric labs with shared subscriptions no longer support executing Life Cycle Actions against AWS.
+
+<!--
 
 ## <u>Released March 26, 2021</u>
 
@@ -590,8 +620,6 @@ Life Cycle Actions (LCA) can now be inherited on child lab profiles. Child lab p
 - The "Let's open a lab window" page won't be available after the lab has been completed, cancelled, or timed out.
 - When choosing a particular cloud subscription to launch a cloud lab, only subscriptions in the pool configured on the lab profile will be shown. 
 - Updates to virtual machines, including differencing disks, will be blocked when a snapshot is detected on the VM due to incompatibility. If needed, the snapshots may be removed to restore differencing functionality. 
-
-<!--
 
 ## <u>Released October 2, 2020</u>
 
