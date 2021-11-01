@@ -41,7 +41,7 @@ The **Result** command returns information about a particular lab instance resul
 |Latitude|Decimal|Yes|The user's latitude as determined by IP address geolocation. This is only included if the IP address was provided when the lab was launched.|
 |Longitude|Decimal|Yes|The user's longitude as determined by IP address geolocation. This is only included if the IP address was provided when the lab was launched.|
 |LabHostId|Integer|Yes|The ID of the lab host server that the lab instance is housed on.|
-|DatacenterId|Integer|Yes|The ID of the datacetner that the lab instance is located in.|
+|DatacenterId|Integer|Yes|The ID of the datacenter that the lab instance is located in.|
 |DeliveryRegionId|Integer|Yes|When specified, Lab on Demand will attempt to launch the lab in the specified delivery region if a suitable host in that region is available and all required storage is available in that region. Delivery regions can be found using the [DeliveryRegions command](lod-api-delivery-regions.md) or [Catalog command](lod-api-catalog.md). Using the ipAddress parameter will result in a more reliable geo-location of the lab for the end user.|
 |ExamDetails|Array of ExamReportDetails|No|An array of exam details containing exam questions, answers, and score results|
 |Error|String|Yes|In the event of an error, this will contain a detailed error message.|
