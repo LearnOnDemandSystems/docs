@@ -1,12 +1,12 @@
 ---
-title: " I just ordered online labs through Courseware Marketplace and am returning to Learn on Demand Systems. Can you remind me what to do next?"
-description: "Instructions for returning purchasers of LODS labs through the Courseware Marketplace. Explaining where to go to set up delivery, redeem vouchers for the labs by creating a class, and how to add students for lab access in the class."
+title: " I just ordered online labs through Courseware Marketplace and am returning to Skillable. Can you remind me what to do next?"
+description: "Instructions for returning purchasers of Skillable labs through the Courseware Marketplace. Explaining where to go to set up delivery, redeem vouchers for the labs by creating a class, and how to add students for lab access in the class."
 isPublished: true
 ---
 
-# I just ordered online labs through Courseware Marketplace and am returning to Learn on Demand Systems. How do I get started? 
+# I just ordered online labs through Courseware Marketplace and am returning to Skillable. How do I get started? 
 
-As a returning partner, you should already have an organization and user account setup in Learn on Demand Systems’ OneLearn Training Management System (TMS). You do not need to create a new organization or user account. Your vouchers will automatically sync over from Courseware Marketplace and be available in the TMS. It may take up to 10 minutes for the sync to occur after purchase. 
+As a returning partner, you should already have an organization and user account setup in Skillable's OneLearn Training Management System (TMS). You do not need to create a new organization or user account. Your vouchers will automatically sync over from Courseware Marketplace and be available in the TMS. It may take up to 10 minutes for the sync to occur after purchase. 
 
 ## Next Steps
 
