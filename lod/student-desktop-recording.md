@@ -27,7 +27,7 @@ Student Desktop Recording is enabled for an organization, and then it is enabled
 
 ### Enabling for the Organization
 
-If you are interested in using Student Desktop Recording, please contact our [customer support team](http://www.learnondemandsystems.com/customer-support/) to enable this feature for your organization. Once it is enabled for your organization, you can enable it on any lab profiles that belong to that organization. 
+If you are interested in using Student Desktop Recording, please contact our [customer support team](https://skillable.com/customer-support/) to enable this feature for your organization. Once it is enabled for your organization, you can enable it on any lab profiles that belong to that organization. 
 
 ### Enabling on a Lab Profile 
 

@@ -49,11 +49,11 @@ You can log out of your account from any page in TMS or LOD.
 
 ### TMS
 
-If your account has the proper permissions to create an account in the TMS, you may create accounts as you have before. If you do not have the proper permissions, unsure if you have the proper permissions, or need assistance creating an account, please reach out to our [customer support team](http://www.learnondemandsystems.com/customer-support/).
+If your account has the proper permissions to create an account in the TMS, you may create accounts as you have before. If you do not have the proper permissions, unsure if you have the proper permissions, or need assistance creating an account, please reach out to our [customer support team](https://skillable.com/customer-support/).
 
 ### LOD 
 
-If you are a lab developer and would like an account in LOD, please reach out to our [customer support team](http://www.learnondemandsystems.com/customer-support/) for assistance. 
+If you are a lab developer and would like an account in LOD, please reach out to our [customer support team](https://skillable.com/customer-support/) for assistance. 
 
 ## Account Management
 
@@ -67,7 +67,7 @@ You can edit your user profile from any page in TMS or LOD.
 
 1. You may change anything on your user profile that has a text field. 
 
-1. If you wish to change some information that does not have a text field, please reach out to our [customer support team](http://www.learnondemandsystems.com/customer-support/) for assistance. 
+1. If you wish to change some information that does not have a text field, please reach out to our [customer support team](https://skillable.com/customer-support/) for assistance. 
 
 ## Users who have email addresses associated with multiple organizations
 
@@ -83,7 +83,7 @@ If your email address is associated with multiple organizations in TMS, you can 
 
 ## Change Email
 
-If you wish to change the email address on your LOD account, please reach out to our [customer support team](http://www.learnondemandsystems.com/customer-support/) for assistance. 
+If you wish to change the email address on your LOD account, please reach out to our [customer support team](https://skillable.com/customer-support/) for assistance. 
 
 If you wish to change the email address of your Corporate Azure AD, please reach out to your company support for assistance. 
 

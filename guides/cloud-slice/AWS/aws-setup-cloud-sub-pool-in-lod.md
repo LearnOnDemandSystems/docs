@@ -56,7 +56,7 @@ To add a Cloud Subscription Pool to OneLearn Lab on Demand (LOD), perform the fo
 
 11. Next, accounts need to be created in the subscription pool. The amount of accounts to create should reflect the number of lab users you expect to have at a time. It is best practice to increase the amount of accounts to allow for more accounts than users. This helps to ensure events are supported with enough accounts for each lab user.
 
-12. Please **reach out to our [customer support team](http://www.learnondemandsystems.com/customer-support/)** to have these accounts created. 
+12. Please **reach out to our [customer support team](https://skillable.com/customer-support/)** to have these accounts created. 
 
 <!--
 11. Select**Run Pool Setup**. This will automatically configure your cloud subscription pool. 
