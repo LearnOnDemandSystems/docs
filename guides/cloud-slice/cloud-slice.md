@@ -162,7 +162,7 @@ In a lab profile, there are many configurable options; however, only a small set
 
 ### Virtualization Platform - Basic Information tab
 
-The **Virtualization Platform** setting defines the platform used to launch managed virtual machines. If you have template virtual hard disks loaded into your master Cloud Subscription that you want provisioned and launched when the lab is launched, select the cloud platform where those template files are located (e.g. Azure). If you instead want your students to use virtual machines running in a Learn on Demand Systems datacenter while working with their Cloud Slice, select the virtualization platform that will be used to launch those VMs (e.g. Hyper-V or vSphere). If you don't have any managed virtual machines in your lab, select None.
+The **Virtualization Platform** setting defines the platform used to launch managed virtual machines. If you have template virtual hard disks loaded into your master Cloud Subscription that you want provisioned and launched when the lab is launched, select the cloud platform where those template files are located (e.g. Azure). If you instead want your students to use virtual machines running in a Skillable datacenter while working with their Cloud Slice, select the virtualization platform that will be used to launch those VMs (e.g. Hyper-V or vSphere). If you don't have any managed virtual machines in your lab, select None.
 
 ![Selecting the virtualization platform for managed virtual machines in a lab profile](images/lod-lab-profile-virtualization-platform.png)
 

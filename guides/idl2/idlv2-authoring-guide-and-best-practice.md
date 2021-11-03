@@ -4,7 +4,7 @@ description: "This document covers Markdown, lab instruction editor interface, u
 isPublished: true
 ---
 
-# Learn on Demand Systems Integrated Digital Lab eXperience Authoring Guide 
+# Skillable Integrated Digital Lab eXperience Authoring Guide 
 
 ### Table of Contents:
 
