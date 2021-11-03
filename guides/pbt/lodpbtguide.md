@@ -1,4 +1,4 @@
-# Learn on Demand Systems Performance Based Testing Guide
+# Skillable Performance Based Testing Guide
 
 <!--
 **Revision History**
@@ -11,7 +11,7 @@
 
 This document supports a release of a software product
 that may be changed substantially in the future. It is
-provided for informational purposes only and Learn on Demand Systems,
+provided for informational purposes only and Skillable,
 LLC, makes no warranties, either express or implied, in this document.
 Information in this document, including URL and other Internet Web site
 references, is subject to change without notice. The entire risk of the
@@ -28,14 +28,14 @@ transmitted in any form or by any means (electronic, mechanical,
 photocopying, recording, or otherwise), or for any purpose, without the
 express written permission of Microsoft Corporation.
 
-Learn on Demand Systems, LLC may have patents, patent applications,
+Skillable may have patents, patent applications,
 trademarks, copyrights, or other intellectual property rights covering
 subject matter in this document. Except as expressly provided in any
-written license agreement from Learn on Demand Systems, the furnishing
+written license agreement from Skillable, the furnishing
 of this document does not give you any license to these patents,
 trademarks, copyrights, or other intellectual property.
 
-Copyright 2017 © Learn on Demand Systems, LLC. All rights reserved.
+Copyright 2021 © Skillable. All rights reserved.
 
 All other trademarks are property of their respective owners.
 

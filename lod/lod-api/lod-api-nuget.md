@@ -27,7 +27,7 @@ For example, a request to get the entire lab catalog will look like:
 `https://labondemand.com/api/v3/catalog`
 
 ## API Key
-- All methods require an API key, which must be obtained from Learn on Demand Systems. This key is used by Lab on Demand to validate your account. The key can be passed as an HTTP request header with the header name "api_key".
+- All methods require an API key, which must be obtained from Skillable. This key is used by Lab on Demand to validate your account. The key can be passed as an HTTP request header with the header name "api_key".
 
 ## API Response Format
 
