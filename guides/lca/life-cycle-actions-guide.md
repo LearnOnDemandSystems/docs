@@ -7,7 +7,7 @@ This document supports a release of a software product that may be changed subst
 
 Skillable, LLC may have patents, patent applications, trademarks, copyrights, or other intellectual property rights covering subject matter in this document. Except as expressly provided in any written license agreement from Skillable, the furnishing of this document does not give you any license to these patents, trademarks, copyrights, or other intellectual property.
 
-Copyright 2017 © Skillable, LLC. All rights reserved.
+Copyright 2021 © Skillable, LLC. All rights reserved.
 
 All other trademarks are property of their respective owners.
 

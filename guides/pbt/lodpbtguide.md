@@ -35,7 +35,7 @@ written license agreement from Skillable, the furnishing
 of this document does not give you any license to these patents,
 trademarks, copyrights, or other intellectual property.
 
-Copyright 2017 © Skillable. All rights reserved.
+Copyright 2021 © Skillable. All rights reserved.
 
 All other trademarks are property of their respective owners.
 
