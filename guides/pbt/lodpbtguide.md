@@ -53,7 +53,7 @@ This guide assumes that the reader:
 -   Has a developer account with sufficient permissions to create a lab
     guide and modify select properties of a Lab Profile.
 
--   Has existing labs hosted by LODS.
+-   Has existing labs hosted by Skillable.
 
 -   Has a help desk support contract to pay for additional custom
     contract work.
