@@ -1,4 +1,4 @@
-# What's New in the LODS Platforms
+# What's New in the Skillable Platforms
 
 ## Welcome! 
 

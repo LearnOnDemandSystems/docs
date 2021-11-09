@@ -21,7 +21,7 @@ This guide provides information on building Life Cycle Actions in labs in Lab on
 This guide assumes that the reader:
 
 - Has a developer account with sufficient permissions to create a lab and modify select properties of a Lab Profile.
-- Has existing labs hosted by LODS.
+- Has existing labs hosted by Skillable.
 - Has a help desk support contract to pay for additional custom contract work.
 
 The guide further assumes that the reader has knowledge of how to build labs in LOD and knowledge of life cycle events of LOD labs..
