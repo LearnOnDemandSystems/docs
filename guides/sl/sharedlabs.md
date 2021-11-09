@@ -6,7 +6,7 @@ isPublished: true
 
 # Shared Labs
 
-Shared Labs is a tool used in LODS to create environments which share
+Shared Labs is a tool used in Skillable to create environments which share
 their networks with each other to allow machines to communicate between
 a Shared Lab Environment and a Participant (or Participants). This can
 be done with any current or new Lab Profile with the correct
