@@ -6,7 +6,7 @@ isPublished: true
 
 # Create Removable Media
 
-Removable Media is used in lab environments, to supplement lab instrucitons. Removable Media is used in the form of DVDs, or Floppy disks.
+Removable Media is used in lab environments, to supplement lab instructions. Removable Media is used in the form of DVDs, or Floppy disks.
 
 To create Removable media, click **Create Removable Media** on the Removable Media tile, on the Site Administration page.
 
