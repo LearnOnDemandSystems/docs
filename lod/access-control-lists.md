@@ -75,7 +75,7 @@ Some of the most frequently used parts of regex syntax:
 
 |Expression|Description|
 |---|---|
-|.|Matches any single character (use \"\." to match a ".").|
+|.|Matches any single character (use "\\." to match a ".").|
 |[abc]|Matches one of the characters ([abc] matches a single "a" or "b" or "c")|
 |[c-g]|Matches one of the characters in the range ("[c-g]" matches a single "c" or "d" or "e" or "f" or "g".|
 ||"[a-z0-9]" matches any single letter or digit.|
