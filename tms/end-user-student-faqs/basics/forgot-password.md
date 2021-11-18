@@ -5,15 +5,16 @@ isPublished: true
 
 # What do I do if I forgot my password?
 
-If you are unable to log in because you have forgotten your password, you can reset it through the log in process. The steps will depend upon your authentication provider. If you see the dialog below when you click Sign In, and possibly select your method to sign in, follow these steps. If you do not see this dialog, follow the directions in the authentication provider's dialog instead.
+If you are unable to log in because you have forgotten your password, you can reset it through the log in process; the steps will depend upon your authentication provider. After selecting Sign In on the login page, select your method to sign in. Follow the directions in the authentication provider's dialog or if you are using a Skillable account, you may request a password reset.
 
 
-![](/tms/images/forgot-password.png)
+![](/tms/images/password_reset.png)
 
-When you are on the above dialog:
-1. Click **Forgot Your Password?** link.
-1. In the **Primary Email** field, type in your email address and click **Send Instructions**.
+In the Sign In dialog, under **Sign in with your user name**:
+1. Click **Reset Password** link.
+This opens the Login Assistance page,
+1. Fill in the **Primary Email** field, and click **Send Instructions**.
 
 ![](/tms/images/send-instructions.png)
 
-This will send you an email that walk you through resetting your password in the system.
+This will send you an email that walks you through resetting your password in the system.
