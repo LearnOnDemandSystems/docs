@@ -12,7 +12,7 @@ When you have created user accounts and enrolled students into a class, you will
 Go to URL: **[Input the URL to your login page]**
 
 Input your login information:
-- Username: **[Input the username you created for the student]**
+- User name: **[Email address was automatically input for the user name]**
  - Password: **[Input the password you created for the student]**
 
 This opens your Current Training page. Under the **Classes** section, click the class name to access your enrollment. 
