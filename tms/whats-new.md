@@ -2,6 +2,32 @@
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in our other platforms?</a> 
  
+## <u>Released November 22, 2021</u>
+### Lab Activity Launch Limits
+*   TMS Administrators can now optionally limit the maximum number of lab instances that learners are able to launch within each class or course assignment delivery. This will only restrict the number of times users may launch lab activities and does not impact any other activity types.
+Maximum number of lab launches per delivery may be configured with a default value at the course level and overridden on specific classes or assignments.
+When configuring lab activities in a course for “Allow Retakes”, TMS Administrators may now optionally configure a Maximum Number of Attempts users may take on individual activities instead of it always being unlimited. This may be used in combination with the new Maximum Labs Launches per Delivery.
+
+### Usernames
+*   Usernames must now match the user’s email.
+*   On the import user’s csv file, the username field has been removed. The username for new imports will be set to match the email address.
+When using the old import user’s csv file, an error will be returned.
+*   On user create pages, username is automatically populated from the email field and is no longer labeled “required”.
+
+### Badges
+*   Improved message handling around badge issuing failures.
+*   Fixed an issue where sorting did not work on the Badge Provider column.
+*   Updated error handling on the Manual Badge Issuance “Create Multiple” page.
+*   Add filters on search / choose for ‘Badge Provider Name”.
+*   Added a link to “Find Badges” from the Badge Provider Details page.
+
+### General Improvements and Fixes
+*   Fixed an issue where an ‘Application Error’ would occur when creating a Training Key Pool and the browser language was set to Dutch.
+*   Fixed an issue with uploading a zip file when using MacOS.
+*   When using the Request Enrollment button on the Class page, added a confirmation message to reflect when an enrollment has been successfully requested.
+
+
+----------------------------
 ## <u>Released October 25, 2021</u>
 
 ### Course Assignments 
@@ -111,6 +137,7 @@ In our continuing effort to improve accessibility for all our students and meet 
 *   Create / Edit Subscription Membership:  We have fixed an issue with the Expires date field not calculating the correct Start Date format when is not MM/DD/YYYY.
 
 ----------------------------
+<!--
 ## <u>Released May 24, 2021</u>
 ### Accessibility Items
 In our continuing effort to improve accessibility for all our students and meet MAS standards we have updated the Course Catalog page:
