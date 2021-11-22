@@ -14,7 +14,6 @@ To create a user account:
     - **First Name**
     - **Last Name**
     - **Primary Email**
-    - **Username**
     - **Password** and **Confirm Password**
 1. Click **Save**.
 
