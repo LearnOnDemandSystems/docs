@@ -15,7 +15,6 @@ To set up a new Instructor account:
      - **First Name**
      - **Last Name**
      - **Primary Email**
-     - **User Name**
      - **Password**
 1. Click **Save**.
      
