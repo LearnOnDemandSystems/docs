@@ -23,14 +23,13 @@ You can set the days and times your organization is open, this displays when any
 1. Once a day is selected, an **Open** and a **Close** field display. Click inside the field to view an Hour and Minute chart. Select the **AM** or **PM** times when your organization opens and closes. 
 
 ## User Settings
-Three defaults can be set for creating new user accounts: the User Password, the UserName Pattern, and the User Role(s). 
+Two defaults can be set for creating new user accounts: the User Password and the User Role(s). 
 
 Organizations default to having the Basic User roles added for new users. You may have other roles added to all new users by default. If this is what you want, please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help) to set up default user role(s).
 
 | Field | Default Data |
 |:------|:--------|
 | **User Password** | Type a password for all new user accounts. The password must be at least 8 characters long. Your default password is applied to users created directly in the TMS or can be used when importing users. |
-| **UserName Pattern** | Select either **E-mail** or **FirstName.LastName** |
 
 ## Enrollment Settings
 
