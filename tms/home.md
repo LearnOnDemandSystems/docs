@@ -96,13 +96,6 @@ aria-hidden="true">assignment</i>
           <div class="cloudSlice cardContent">
           <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Featured Instructor General Docs">General</div>
           <div class="category">
-            <a href="/tms/instructors/general/reset-student-password.md" class="categoryThread">
-              <i class="material-icons light-green"
- aria-hidden="true">supervised_user_circle</i>
-              <span class="categoryTitle" title="How do I, as an Instructor, reset a student's password?">How do I, as an Instructor, reset a student's password?</span>
-            </a>
-            </div>
-            <div class="category"> 
               <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
                 <i class="material-icons green"
  title="Student Basics" aria-hidden="true">supervised_user_circle</i>
