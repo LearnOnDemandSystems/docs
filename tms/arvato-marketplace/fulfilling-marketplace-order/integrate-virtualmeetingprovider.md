@@ -6,7 +6,7 @@ isPublished: true
 # How can I add a virtual meeting provider to a class? 
 
 You can easily integrate with the virtual meeting provider of your choice to provide hands-on, interactive virtual training solutions. Integrating a virtual meeting provider with the our platform just takes a few clicks to set-up. You can set up training in our Training Management System (TMS) using your preferred virtual meeting provider in your classes. If you are using Teams, GoToMeeting, Adobe Connect, Zoom or another service, it can be used to give students and instructors access within a class. This will give your instructors and students everything they need for their class by clicking buttons on one page. 
->:small_orange_diamond: [View a video on adding any virtual meeting host to your class](https://youtu.be/68JV8wF-7Ok) 
+>:small_orange_diamond: [View a video on adding any virtual meeting host to your class](https://youtu.be/zpU-Z6xRcww?list=PLoXguRLJE8rmUa3KXKJqebpN9cmTtEAdY) 
 
 ## Enter your Meeting URL for your Class 
 
