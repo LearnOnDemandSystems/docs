@@ -9,6 +9,38 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other Skillable platforms?</a></span>
 
+## **Released November 19, 2021**
+
+**Consumption Rules – New to Lab on Demand**
+- Consumption Rules allow Lab on Demand administrators to limit launches of lab profiles as well as modify Themes and support URLs applied to specified lab instances based on a set of conditions such as API Consumer, Lab Series, and more!
+- Please contact Skillable Support to configure rules for your organization.
+
+**Security**
+- Fixed an issue that allowed users to resubmit activities for scoring even when the activity did not allow retries.
+- Numerous Platform and API hardening improvements.
+
+**AWS, Azure, VMWare, and Container Lab Fabrics**
+- Support added for AWS WAF CloudFront
+- In labs using AWS Cloud Slice, Target Groups are now removed when Attached to an Application Load Balancer.
+- Fixed an issue causing VMWare storage to be created with the wrong path.
+- Fixed an issue allowing students to see containers that should be hidden. 
+	
+
+**Search and Auditing Improvements**
+- Notes have been updated to use a paged structure and are only pulled from the server when needed. This will reduce load time for some entities, reduce DB overhead, and improve the UI. 
+- Added "Custom API data / Tag" filter and output option to find lab instances page.
+- A Script Execution Error filter has been added to the Lab Instance Search page.
+- Improved page performance on the Lab Series Storage page
+
+**General LOD Improvements and Fixes**
+- LTI 1.3 calls no longer require the lti_message_hint parameter.
+- Lab variables are now updated between each script within a given activity.
+- Corrected a display issue when selecting an image link on the Lab Manual preview page.
+- Fixed an issue where notifications are sent, but no message is displayed to user.
+- Fixed an issue preventing the Lab Profile edit page from honoring the sort order of Virtual Machines in the VM tab.
+- Fixed an issue preventing Lab Manual viewing on labs inheriting content from a parent lab profile.
+- Fixed an issue causing Lab Profiles inheriting an environment and content to be displayed multiple times on the parent Lab Profile.
+
 ## **Released October 21, 2021**
 
 **AWS Cloud Slice**
