@@ -18,7 +18,7 @@ When persisting changes to a container image, you can choose to save the changes
 
 1. Populate the following fields:
 
-    ![](images/create-container-registry.png)
+    ![](NEEDS NEW IMAGE)
 
     - **Name**: Enter the name of the container registry. This will be the display  name in LOD. 
 
@@ -46,7 +46,7 @@ When you are persisting changes in a container lab, you can persist changes to a
 
 1. From container registry details page, click **Add Account**
 
-    ![](images/container-registry-account.png)
+    ![](NEEDS A NEW IMAGE)
 
 1. Enter the **username** used to log in to the registry account. 
 
