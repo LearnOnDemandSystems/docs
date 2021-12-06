@@ -46,8 +46,6 @@ When you are persisting changes in a container lab, you can persist changes to a
 
 1. From container registry details page, click **Add Account**
 
-    ![](images/container-registry-account.png)
-
 1. Enter the **username** used to log in to the registry account. 
 
 1. Enter the **password** used to log in to the registry account. 
