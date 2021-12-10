@@ -53,7 +53,7 @@ Integrating videos is just as easy. Here's one that talks about PowerShell:
 
 !VIDEO[](https://youtu.be/f25-cj8mriQ)
 
-You can also include normal hyperlinks where ever you like, such as [this one](https://learnondemandsystems.com).
+You can also include normal hyperlinks where ever you like, such as [this one](https://skillable.com).
 
 [Here's a useful tip!]("Exclamation marks before multimedia (IMAGE/VIDEO) links tell Lab on Demand to be embed the content inline, in the current location.")
 

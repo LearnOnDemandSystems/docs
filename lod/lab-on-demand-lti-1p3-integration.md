@@ -77,6 +77,6 @@ For lab launches, Lab On Demand supports LTI Resource Link Launch Requests
 
 > ### Looking for more information?
 >
-> If you're looking for more LTI 1.3 integration information, please contact us via your sales representative or [open a support ticket.](https://www.learnondemandsystems.com/customer-support/)
+> If you're looking for more LTI 1.3 integration information, please contact us via your sales representative or [open a support ticket.](https://www.skillable.com/customer-support/)
 
 [Back to top](#Lab-on-Demand-LTI-1.3-Integration)

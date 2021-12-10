@@ -22,7 +22,7 @@ A lab can be configured to display the lab instructions on the right side of the
 
 1. Next, click the **Cloud** tab of the lab profile. 
 
-1. Under **Orchestration**, click the checkbox for **Override Client Landing Page**, and enter a URL that you want to be displayed on the left side of the lab instructions, in place of a VM. 
+1. Select the checkbox for **Override Client Landing Page**, and enter a URL that you want to be displayed on the left side of the lab instructions, in place of a VM. 
 
     ![](images/enter-landing-page-url.png)
 

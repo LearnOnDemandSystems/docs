@@ -51,7 +51,7 @@ Blocked Categories:
 
 - Unknown Applications
 
->[!Knowledge] When building a lab, please verify the function of all services needed. If a specific service is required for a lab environment and does not function, or if the lab uses a service classified as a proxy, please [contact support](https://www.learnondemandsystems.com/customer-support/).
+>[!Knowledge] When building a lab, please verify the function of all services needed. If a specific service is required for a lab environment and does not function, or if the lab uses a service classified as a proxy, please [contact support](https://www.skillable.com/customer-support/).
 
 ### Web Filtering
 
@@ -106,4 +106,4 @@ Bandwidth on all networks is regulated and monitored, utilizing per-IP and per-n
 
 ## Notice
 
-All information in this document is regularly maintained and updated, but does not represent a guarantee. Network policies and restrictions may change at any time due to the constantly evolving nature of network security. If you have any questions, feedback, or concerns, please [contact support](https://www.learnondemandsystems.com/customer-support/).
+All information in this document is regularly maintained and updated, but does not represent a guarantee. Network policies and restrictions may change at any time due to the constantly evolving nature of network security. If you have any questions, feedback, or concerns, please [contact support](https://www.skillable.com/customer-support/).

@@ -18,7 +18,7 @@ Once you have an Adobe Connect contract you will need to send our help desk the 
 1.	The number of **licenses** purchased
 1. The amount of time before class starts and after class ends for your instructor to be able to launch into the meeting. If this is not specified, it will default to 60 minutes before class starts and zero minutes after the class session ends.
 1. The amount of time before class starts and after class ends for your students to be able to launch into the meeting. If this is not specified, it will default to 15 minutes before class starts and zero minutes after the class session ends.
-1.	Gather this information and send a request to our help desk. [Click here to request a TMS/Adobe Connect integration.](https://supportrequest.learnondemandsystems.com/form-4500904/support-request) 
+1.	Gather this information and send a request to our help desk. [Click here to request a TMS/Adobe Connect integration.](https://supportrequest.skillable.com/form-4500904/support-request) 
 
 ## Zoom Integrated Meeting Host Setup
 
@@ -29,7 +29,7 @@ Go to the [Zoom App Marketplace.](https://marketplace.zoom.us/)
 1.	From the **Develop** menu, select **Build App**
 1.	This opens a **Choose your app type** page, on the **JWT** tile click **Create**.
 1.	Fill out the information to create the app
-1.	To set up Zoom, we will need your **API Key** and **API Secret**. We also need the **email of a licensed Zoom user** to verify the set up.  [Click here to request a TMS/Zoom integration.](https://supportrequest.learnondemandsystems.com/form-4500904/support-request) 
+1.	To set up Zoom, we will need your **API Key** and **API Secret**. We also need the **email of a licensed Zoom user** to verify the set up.  [Click here to request a TMS/Zoom integration.](https://supportrequest.skillable.com/form-4500904/support-request) 
   
 The integration will be broken if you regenerate the API Secret after the integration is set up.
 
@@ -44,10 +44,10 @@ To integrate WebEx into the TMS, you will need a licensed WebEx account. Once yo
 -	Update meetings
 1.	The **amount of time before class starts and after class ends for your instructor to be able to launch** into the meeting. If this is not specified, it will default to 60 minutes before class starts and zero minutes after the class session ends.
 1.	The **amount of time before class starts and after class ends for your students to be able to launch** into the meeting. If this is not specified, it will default to 15 minutes before class starts and zero minutes after the class session ends.
-1.	Gather this information and send a request to our help desk. [Click here to request a TMS/Webex integration.](https://supportrequest.learnondemandsystems.com/form-4500904/support-request) 
+1.	Gather this information and send a request to our help desk. [Click here to request a TMS/Webex integration.](https://supportrequest.skillable.com/form-4500904/support-request) 
 
 
 
 ### Additional Resources
 
-[Virtual Meeting Host Comparison](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/virtual-meetings/vmh-comparison.md)
+[Virtual Meeting Host Comparison](https://docs.skillable.com/tms/tms-administrators/classes/virtual-meetings/vmh-comparison.md)

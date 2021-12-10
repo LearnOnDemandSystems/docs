@@ -58,6 +58,6 @@ These labs must be launched in a “class” context for the instructor and stud
 
 To get credentials for these courses over API or LTI, 2 separate API calls are required. This is only required for the labs that have this tenant solution. 
 
-To receive student credentials over API, create a class using the [GetOrCreateClass](https://docs.learnondemandsystems.com/lod/lod-api/lod-api-get-or-create-class.md) command and then launch the lab using that class Id parameter.  
+To receive student credentials over API, create a class using the [GetOrCreateClass](https://docs.skillable.com/lod/lod-api/lod-api-get-or-create-class.md) command and then launch the lab using that class Id parameter.  
 
 The class does not explicitly need an “instructor” (specified when the class is created), however the instructor API call will provide that user with Admin credentials. Admin credentials have a higher permission level and are intended for ILT instructor use. If an instructor is not identified through API, they would receive student credentials. If the user launching matches the Instructor parameters, then they will be assigned the Admin credential.  

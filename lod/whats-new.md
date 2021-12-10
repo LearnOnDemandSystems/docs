@@ -3,7 +3,7 @@
 </style>
  
 <div style="float:right; padding-top:5px; font-size:120%;">
-   <a href="https://www.learnondemandsystems.com/roadmap-updates-form/">Subscribe to Receive Email Notifications about Platform and Service Updates</a>
+   <a href="https://www.skillable.com/roadmap-updates-form/">Subscribe to Receive Email Notifications about Platform and Service Updates</a>
 </div>
 
 # What's New in Lab On Demand
@@ -53,7 +53,7 @@
 - Fixed an issue where Service-Roles deployed via Stack would not tear down properly. 
 - Fixed an issue where AWS Backup Plan could prevent Cloud Formation from being torn down.
 - Fixed an issue where user permissions would not be restored on lab resume.
-  - [AWS Capabilities documentation](/https://docs.learnondemandsystems.com/lod/aws-capabilities.md)
+  - [AWS Capabilities documentation](/https://docs.skillable.com/lod/aws-capabilities.md)
 
 **User Interface and Accessibility Updates**
 
@@ -107,13 +107,13 @@ The Cloud Subscription Pool pages have been updated to include the following fea
 **Docker**
 
 - In addition to terminal connections, LOD now supports connecting directly to a port on a docker container. A container configured this way can be displayed in the regular lab client alongside regular terminal connections.
-    - <a href="https://docs.learnondemandsystems.com/lod/terminal-access.md">Terminal Access documentation</a>
-    - <a href="https://docs.learnondemandsystems.com/lod/container-web-display.md">Container Web Display documentation</a>
+    - <a href="https://docs.skillable.com/lod/terminal-access.md">Terminal Access documentation</a>
+    - <a href="https://docs.skillable.com/lod/container-web-display.md">Container Web Display documentation</a>
  
 **Template Gallery**
 
 - Lab profiles that are published to the template gallery now have an option on the Advanced tab to Reuse Template Container and Virtual Machine Profiles. Selecting the option will cause Lab Profiles created from the Template Gallery to reuse the existing Container and Virtual Machine Profiles from the template.
-    - <a href="https://docs.learnondemandsystems.com/lod/feature-focus/lab-profiles/create.md">Lab Profile Documentation</a>
+    - <a href="https://docs.skillable.com/lod/feature-focus/lab-profiles/create.md">Lab Profile Documentation</a>
  
 **Organization Name Changes**
 
@@ -129,7 +129,7 @@ The Cloud Subscription Pool pages have been updated to include the following fea
 - Price data when searching for lab series assignments now uses the lab series price field instead of summing prices.
 - API Service no longer has a missing dependency injection registration.
 - Added support for S3 Access Points.
-    - <a href="https://docs.learnondemandsystems.com/lod/aws-capabilities.md">AWS Capabilities Documentation</a>
+    - <a href="https://docs.skillable.com/lod/aws-capabilities.md">AWS Capabilities Documentation</a>
 - Fields beginning with an "=" will be sanitized when exported to CSV by prepending the string with a single quote. This is done to prevent excel formula injection attacks.
 - Added logic to prevent distribution of malformed credentials from recyclable tenant pools.
 - Icon added to Application card on Admin page.
@@ -185,7 +185,7 @@ The Cloud Subscription Pool pages have been updated to include the following fea
 - Lab On Demand now supports a new type of container image classed as CodeLab. The type filter on the Find Container Image page now supports filtering by type Codelab. 
 - A new Code Language Administration page has been created. This allows for the management of the container used, the default templates shown in the Edit Code Fabric screen, and information used to process submitted code in the CodeHost. 
 - Code language data is now pulled from a database object instead of being stored uniquely in each lab profile. 
-- <a href="https://docs.learnondemandsystems.com/lod/code-lab.md">Code Lab Documentation</a>
+- <a href="https://docs.skillable.com/lod/code-lab.md">Code Lab Documentation</a>
 
 **Lab Instance Error Viewing By Organization**
 
@@ -195,7 +195,7 @@ The Cloud Subscription Pool pages have been updated to include the following fea
 
 - Two new services are now available in AWS Cloud Slice, Tag Editor and Resource Group Editor. 
 - Fixed a bug allowing a user to access an AWS region selected in the Override Datacenter drop-down menu even when not enabled on the lab profile.
-- <a href="https://docs.learnondemandsystems.com/lod/aws-capabilities.md">AWS Services capabilities documentation</a>
+- <a href="https://docs.skillable.com/lod/aws-capabilities.md">AWS Services capabilities documentation</a>
 
 **LOD Improvements and Fixes**
 
@@ -323,8 +323,8 @@ Two permissions have been added to LOD to manage Compatibility Mode under Lab De
 
 - Swift has been added as a supported code language.
 - Ruby has been added as a supported code language.
-- Code Labs now support scoring via API. For more information about scoring labs via API, click <a href="https://docs.learnondemandsystems.com/lod/lod-api/lod-api-score-activities.md">here</a>.
-- Code Labs lab instance details can now be returned via API. For more information about returning lab details via API, click <a href="https://docs.learnondemandsystems.com/lod/lod-api/lod-api-details.md">here</a>.
+- Code Labs now support scoring via API. For more information about scoring labs via API, click <a href="https://docs.skillable.com/lod/lod-api/lod-api-score-activities.md">here</a>.
+- Code Labs lab instance details can now be returned via API. For more information about returning lab details via API, click <a href="https://docs.skillable.com/lod/lod-api/lod-api-details.md">here</a>.
 - Code Labs tests activity results are now displayed on the lab details page. The details contain the console output, as well as metadata such as language and elapsed runtime.
 - Code Labs now support the Learning Tools Interoperability (LTI) 1.1 & 1.3 standard for integration with Learning Management Systems. 
 
@@ -428,7 +428,7 @@ Hyper-V and vSphere lab profiles can now be launched against a chosen datacenter
 
 **Central Authentication**
 
-Lab on Demand implemented enhanced account security for user accounts that sign in with a username/password. You can learn more about these security measures [here](https://www.learnondemandsystems.com/enhanced-account-security-faq/).
+Lab on Demand implemented enhanced account security for user accounts that sign in with a username/password. You can learn more about these security measures [here](https://www.skillable.com/enhanced-account-security-faq/).
 Local users will be prompted to reset their LOD password upon login at https://labondemand.com. Users logging in through API or Corporate Azure AD will not be prompted to reset their password.
 
 **Multiple Cloud Slice Subscriptions**
@@ -599,7 +599,7 @@ Outcomes offer adaptive learning experiences based on the result of an automated
 
 Lab on Demand legacy Flash and Silverlight machine remote controllers have been removed. 
 
-- Any students still using Flash or Silverlight machine remote controller are encouraged to migrate to the HTML5 machine remote controller. Connectivity requirements for the HTML5 controller are available in our [Connectivity Requirements documentation](https://docs.learnondemandsystems.com/tms/connectivity-requires.md).
+- Any students still using Flash or Silverlight machine remote controller are encouraged to migrate to the HTML5 machine remote controller. Connectivity requirements for the HTML5 controller are available in our [Connectivity Requirements documentation](https://docs.skillable.com/tms/connectivity-requires.md).
 
 **Disk Inspection Permission Adjusted**
 
@@ -1428,7 +1428,7 @@ LOD is adding a new fabric, to run labs in containers. Currently data centers ha
     - Split window support 
     - Activity based assessments (ABA). 
     - Life Cycle Actions (LCA)
-    - ABA and LCA in containers use Bash for scripting and scoring. Refer to the [Activities documentation](https://docs.learnondemandsystems.com/lod/activities.md) for more information about Bash scripts.
+    - ABA and LCA in containers use Bash for scripting and scoring. Refer to the [Activities documentation](https://docs.skillable.com/lod/activities.md) for more information about Bash scripts.
 
 **Exposed Ports in Docker Labs**
 - Lab authors will now have the ability to reference host and/or port values independently of the overall address. Many applications reference addresses differently than the standard host:port syntax, so making the components available independently will allow maximum flexibility.

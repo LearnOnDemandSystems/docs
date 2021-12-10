@@ -21,7 +21,7 @@ To make a dropdown list's choices be dependent:
 1. Next to the parent field, type (or paste) in the value that the parent must have to make this choice visible. This must be the EXACT value.
 1. Repeat steps 1 thru 6 for each choice as needed.
 
-> :small_blue_diamond: Because of the complexity and flexibility of custom fields, it is HIGHLY recommended that before you create any custom field in the production TMS environment, you test them with all affected roles in our TMS ACC environment to ensure they work as expected and do not block creation or editing of entities. To be set up in our ACC environment, please submit a support ticket from our [Customer Support](https://www.learnondemandsystems.com/customer-support/) page.
+> :small_blue_diamond: Because of the complexity and flexibility of custom fields, it is HIGHLY recommended that before you create any custom field in the production TMS environment, you test them with all affected roles in our TMS ACC environment to ensure they work as expected and do not block creation or editing of entities. To be set up in our ACC environment, please submit a support ticket from our [Customer Support](https://www.skillable.com/customer-support/) page.
 
 ## Related Articles
 For more information regarding custom fields, please see:

@@ -15,16 +15,16 @@ To get your class(es) setup, you will need to:
 1. [Sign into the TMS](https://alh.learnondemand.net) and view the announcement which will provides helpful next steps.  
 >:small_orange_diamond: [View a video on accessing the TMS and signing in.](https://youtu.be/wOKCkYhSw-U?list=PLoXguRLJE8rmUa3KXKJqebpN9cmTtEAdY) 
 
-1. [Create class(es)](https://docs.learnondemandsystems.com/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md) with lab vouchers. A voucher is equivalent to your online lab purchase. For example, if you purchased 20 online labs through Courseware Marketplace, you will see 20 vouchers in the TMS available which you can redeem to schedule 20 students in a class.
+1. [Create class(es)](https://docs.skillable.com/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md) with lab vouchers. A voucher is equivalent to your online lab purchase. For example, if you purchased 20 online labs through Courseware Marketplace, you will see 20 vouchers in the TMS available which you can redeem to schedule 20 students in a class.
 >:small_orange_diamond: [View a video on managing vouchers and creating a class.](https://youtu.be/a_O5-9GMwpg?list=PLoXguRLJE8rmUa3KXKJqebpN9cmTtEAdY) 
 
-1. [Create training keys](https://docs.learnondemandsystems.com/tms/arvato-marketplace/fulfilling-marketplace-order/enroll-students-in-class.md) for your students to self-register in the class. After setting up training keys, send the training keys and [self-registration instructions](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md) to your students.  
+1. [Create training keys](https://docs.skillable.com/tms/arvato-marketplace/fulfilling-marketplace-order/enroll-students-in-class.md) for your students to self-register in the class. After setting up training keys, send the training keys and [self-registration instructions](https://docs.skillable.com/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md) to your students.  
 >:small_orange_diamond: [View a video on enrolling students to a class or registering with training keys.](https://youtu.be/CudN7P1Nr60?list=PLoXguRLJE8rmUa3KXKJqebpN9cmTtEAdY) 
 
 
 ## Related Articles
 
-View our list of related articles below which will help you get started with class management in the TMS. To navigate back to the TMS Knowledge Center homepage, click the [**Home**](https://docs.learnondemandsystems.com/tms/home-landing-pages/arvato-courseware-marketplace-landing.md) icon in the upper left.
+View our list of related articles below which will help you get started with class management in the TMS. To navigate back to the TMS Knowledge Center homepage, click the [**Home**](https://docs.skillable.com/tms/home-landing-pages/arvato-courseware-marketplace-landing.md) icon in the upper left.
 
 - [How do I set up a class?](set-up-class.md)
 - [How do I add an instructor to a class?](add-instructor-to-class.md)
