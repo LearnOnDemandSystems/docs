@@ -13,4 +13,4 @@ Virtual classes may be set up using a custom virtual meeting host. Once a meetin
 
 To find your classes that use custom virtual classrooms, you can use the **Custom Virtual Classroom** filter and output option on **Find Classes**.
 
-![](/tms/images/CVC_FindMeetingIDs.png)
+![](/tms/images/CVC_FindMeetingids-1.png)
