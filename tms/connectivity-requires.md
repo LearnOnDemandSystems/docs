@@ -43,7 +43,7 @@ For those that need to create a firewall exception rule to allow connectivity to
 
 - Domain Names:
   - *.labondemand.com
-  - *.learnondemandsystems.com
+  - *.skillable.com
   - *.learnondemand.net
   - *.holsystems.com
 
@@ -83,7 +83,7 @@ Click the following link to launch a test lab: [Launch the Lab Orientation & Con
 
 ## Speed Test
 
-If you are experiencing frequent disconnects or lag when controlling your machines, you may run a [speed test](https://www.learnondemandsystems.com/speedtest/). This page allows you to run a connection assessment test. A connection assessment test is a very deep and thorough test that measures throughput speed, capacity, and packet quality to assess the user experience of a connection to their respective data center. This includes efficiency, data loss, recovery, duplication of data, retransmissions and even corruption.
+If you are experiencing frequent disconnects or lag when controlling your machines, you may run a [speed test](https://www.skillable.com/speedtest/). This page allows you to run a connection assessment test. A connection assessment test is a very deep and thorough test that measures throughput speed, capacity, and packet quality to assess the user experience of a connection to their respective data center. This includes efficiency, data loss, recovery, duplication of data, retransmissions and even corruption.
 
 ## When Connections Traverse a Proxy
 

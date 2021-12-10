@@ -7,4 +7,4 @@
 
 ## For General Questions and Assistance
 
-- Please open a support ticket at [https://www.learnondemandsystems.com/customer-support/](https://www.learnondemandsystems.com/customer-support/)
+- Please open a support ticket at [https://www.skillable.com/customer-support/](https://www.skillable.com/customer-support/)

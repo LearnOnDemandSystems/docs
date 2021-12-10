@@ -61,7 +61,7 @@ There are many options such as different types of activities that you may want t
 1. [How do I add videos to my course?](../other-activities/add-video.md)
 1. [How do I add documents and external links to my course?](../other-activities/add-docs-urls.md)
 1. [How do I add an assessment to a course?](../other-activities/add-assessment.md)
-1. [How do I add an LTI Resource link to my course?](https://docs.learnondemandsystems.com/tms/tms-administrators/courses-and-activities/overall/lti-activity.md)
+1. [How do I add an LTI Resource link to my course?](https://docs.skillable.com/tms/tms-administrators/courses-and-activities/overall/lti-activity.md)
 
 **Other Options** – (Coming Soon)
 <!--

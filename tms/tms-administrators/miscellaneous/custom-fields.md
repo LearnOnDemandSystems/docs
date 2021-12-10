@@ -36,7 +36,7 @@ Here are some examples of how you might use each type:
 - **User Selector** - the SME for the course; the sales rep responsible for the class; a mentor; etc.
 - **Checkbox List** – related yes/no items such as possible characteristics, eligible user groups, main languages spoken/read, etc.
 
-> :small_blue_diamond: Because of the complexity and flexibility of custom fields, it is HIGHLY recommended that before you create any custom field in the production TMS environment, you test them with all affected roles in our TMS ACC environment to ensure they work as expected and do not block creation or editing of entities. To be set up in our ACC environment, please submit a support ticket from our [Customer Support](https://www.learnondemandsystems.com/customer-support/) page.
+> :small_blue_diamond: Because of the complexity and flexibility of custom fields, it is HIGHLY recommended that before you create any custom field in the production TMS environment, you test them with all affected roles in our TMS ACC environment to ensure they work as expected and do not block creation or editing of entities. To be set up in our ACC environment, please submit a support ticket from our [Customer Support](https://www.skillable.com/customer-support/) page.
 
 ## Related Articles
 For more information regarding custom fields, please see:

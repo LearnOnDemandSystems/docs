@@ -174,9 +174,9 @@ Tests can be hidden from students to verify code functions as expected and is no
 
 Code Labs can be scored via API. When scoring a Code lab via API, code must be submitted in the lab or the score returned will be 0.  
 
-Scoring can be executed using the [ScoreActivities API command](https://docs.learnondemandsystems.com/lod/lod-api/lod-api-score-activities.md). 
+Scoring can be executed using the [ScoreActivities API command](https://docs.skillable.com/lod/lod-api/lod-api-score-activities.md). 
 
-After the lab has been scored, details about the lab including score results can be obtained using the [Details API command](https://docs.learnondemandsystems.com/lod/lod-api/lod-api-details.md).
+After the lab has been scored, details about the lab including score results can be obtained using the [Details API command](https://docs.skillable.com/lod/lod-api/lod-api-details.md).
 
 # Example Code Lab
 

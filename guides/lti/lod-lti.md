@@ -132,4 +132,4 @@ If you have IDL Content in the lab and select **Tasks Complete**, the scoring wi
 
   ![alt text](media/scoring-format-tasks-complete-minimum-tasks-complete.png )
 
-If you would like more information, please contact [sales@learnondemandsystems.com](mailto:sales@learnondemandsystems.com).
+If you would like more information, please contact [sales@skillable.com](mailto:sales@skillable.com).

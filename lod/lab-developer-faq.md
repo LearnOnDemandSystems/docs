@@ -53,4 +53,4 @@ If you are new to lab development and the Lab on Demand platform, the following 
 
 - [Virtual machine based lab best practices](vm-based-lab-build-best-practices.md)
 
-If there are other topics that you would like to learn about, please view [ our documentation library](https://docs.learnondemandsystems.com/lod/home.md). If you are interested in a topic that is not listed, please reach out to our [Support Team](https://skillable.com/customer-support/).
+If there are other topics that you would like to learn about, please view [ our documentation library](https://docs.skillable.com/lod/home.md). If you are interested in a topic that is not listed, please reach out to our [Support Team](https://skillable.com/customer-support/).
