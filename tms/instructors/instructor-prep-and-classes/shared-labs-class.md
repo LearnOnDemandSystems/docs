@@ -35,7 +35,7 @@ When an instructor wishes to launch the shared environment lab:
 
 1.  Under the class information on the monitor page, click the link beside the **rocket** icon displaying the **shared environment lab's name** to give access to the shared environment lab to your students.
 
-    ![](/tms/images/instructor-launch-shared-lab-environment.png)
+    ![](/tms/images/instructor-launch-shared-lab-environment-1.png)
 
 #### Student launch of the shared environment lab
 A shared environment lab can have a setting enabled allowing students to launch it. When this is enabled, if the shared environment lab is not launched yet, when the first student launches their participant lab then both the participant lab and shared lab are launched. If this setting is enabled, an awareness notice stating "TBD" displays to the instructor on the class page. 
