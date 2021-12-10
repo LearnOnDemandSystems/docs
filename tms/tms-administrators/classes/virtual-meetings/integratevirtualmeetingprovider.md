@@ -31,7 +31,7 @@ When editing or creating your class,
 
 If you do not set pre and post class launch windows, then your instructors and students will see the Enter Classroom button immediately; with times entered, the Enter Classroom button is available based on your settings.  
 
- ![](/tms/images/cvcinstructorenterclassroom.png) 
+ ![](/tms/images/cvcinstructorenterclassroom-1.png) 
 
 When students come to their enrollment, they can enter the virtual meeting or open their labs. Clicking the Enter Classroom button directly adds them into the virtual meeting. If the meeting host has not started the meeting, they need to wait for the meeting to begin. The launch buttons for labs and course activities appear when class begins. 
 
