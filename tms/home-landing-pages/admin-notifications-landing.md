@@ -69,7 +69,7 @@
         <div class="subtopic_title">How do I create a notification to thank students for attending class after class ends?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/notifications/template-student-request-enrollment.md">
-        <div class="subtopic_title">How do I create a notification to be sent to my organization’s staff when a student requests enrollment?</div>
+        <div class="subtopic_title">How do I create a notification to be sent to my staff when a student requests enrollment?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/notifications/template-class-cancellation.md">
         <div class="subtopic_title">How do I create a notification to let students and instructors know a class is cancelled?</div>
