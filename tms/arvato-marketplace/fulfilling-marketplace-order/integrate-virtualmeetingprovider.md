@@ -16,7 +16,7 @@ It quick and easy to set up class access to your virtual meeting provider within
 
 Once it is added your instructors and students will see an Enter Classroom button to access your virtual meeting from their class. When instructors go to their class, they can enter the virtual meeting and they always have access to open their labs.   
 
- ![](/tms/images/cvcinstructorenterclassroom.png){800}
+ ![](/tms/images/cvcinstructorenterclassroom-1.png){800}
 
 When students come to their enrollment, they can enter the virtual meeting or open their labs. Clicking the Enter Classroom button directly adds them into the meeting. If the meeting host has not started the meeting, they need to wait for the meeting to begin. The launch buttons for labs and course activities appear when class begins. 
 
