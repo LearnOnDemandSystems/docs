@@ -14,12 +14,12 @@ The simplest method of enrolling students into a class is to have your students 
 To use training keys:
 1. Navigate to the **Class** page and click the **Class Training Keys** link. This will open a list of the class vouchers and Training Keys.
 
-![](/tms/images/cwm-training-key-link.png)
+![](/tms/images/cwm-training-key-link-1.png)
 *Select the Class Training Keys link*
 
 2. Export or copy the training keys from this column. Each student will need one of these unique keys to self-enroll. 
 
-![](/tms/images/cwm-export-keys.png)
+![](/tms/images/cwm-export-keys-11.png)
 *Export Training Keys*
 
 3. Send the training keys to the students with the the following instructions to assist with their self-registration:
@@ -27,49 +27,49 @@ To use training keys:
     1. If you are a first time user-
         1. Click **Register with Training Key**.
         
-        ![](/tms/images/cwm-register-with-training-key.png)
+        ![](/tms/images/cwm-register-with-training-key-1.png)
         *Select Register with Training Key button*
         
         2. Input your training key in the **Register with a Training Key** field.
         3. Click **Register**.
         
-        ![](/tms/images/cwm-input-key.png)
+        ![](/tms/images/cwm-input-key-1.png)
         *Input training key*        
                 
         4. This opens the registration page to create a user account. Input your registration information and click **Save**. Your enrollment will then open.
         
-        ![](/tms/images/cwm-register-page.png)
+        ![](/tms/images/cwm-register-page-1.png)
         *Fill in registration information*         
         
         5. This opens your enrollment.
         
-        ![](/tms/images/cwm-enrollment-opens.png)
+        ![](/tms/images/cwm-enrollment-opens-1.png)
         *Student's enrollment page*          
         
     1. If you are a returning user-
         1. Click **Sign In**.
         
-        ![](/tms/images/cwm-sign-in.png)
+         ![](/tms/images/cwm-register-with-training-key-1.png)
         *Click the sign in button*  
         
         2. Input your **Username** and **Password** and click **Sign In**.
         
-        ![](/tms/images/cwm-input-username-and-pw.png)
+        ![](/tms/images/cwm-input-username-and-pw-1.png)
         *Input your username and password*  
         
         3. You will be taken to your Current Training page. Click **Redeem Training Key**.
         
-        ![](/tms/images/cwm-redeem-key-link1.png)
+        ![](/tms/images/cwm-redeem-key-link1-1.png)
         *Click the Redeem Training Key link* 
         
         4. Input your training key and click **Redeem Training Key**. 
          
-        ![](/tms/images/cwm-input-training-key1.png)
+        ![](/tms/images/cwm-input-training-key1-1.png)
         *Input your training key*  
         
         5. This opens your enrollment.
         
-        ![](/tms/images/cwm-enrollment-opens.png)
+        ![](/tms/images/cwm-enrollment-opens-1.png)
         *Student's enrollment page*          
         
     1. Please launch a test lab to check for connectivity issues and to familiarize yourself with the lab interface. Once class starts, the Launch buttons will appear beside the labs.
@@ -82,22 +82,22 @@ To add students to a class:
 1. Navigate to the **Class** page.
 2. Click the **Roster** link.
 
-![](/tms/images/cwm-roster-link.png)
+![](/tms/images/cwm-roster-link-1.png)
 *Select the Roster link*
 
 3. Click **Add Students**.
 
-![](/tms/images/cwm-add-students-roster.png)
+![](/tms/images/Inkedcwm-add-students-roster-2.png)
 *Select the Add Students link*
 
 4. Choose all the students you would like to enroll and then click **OK**.
 
-![](/tms/images/cwm-add-students-chooser.png)
+![](/tms/images/cwm-add-students-chooser-1.png)
 *Select the students for your class*
 
 5. Click **Save Changes** button.
 
-![](/tms/images/cwm-enroll-roster.png)
+![](/tms/images/cwm-enroll-roster-1.png)
 *Save your changes*
 
 Students must be in the **Enrolled** status to be able to launch their labs. They will not be given access to launch labs until the class starts. You may cancel a student up until the class begins.
