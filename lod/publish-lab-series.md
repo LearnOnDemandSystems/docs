@@ -69,3 +69,5 @@ Once you have launched each Lab Profile in the Lab Series, and set the developme
 1. Add a note about publishing the Lab Series. It is recommended to list the API Consumers that the Lab Series was published to during this step. 
 
 You will now be able to launch the new production Lab Profile(s) via the API Consumers that the Lab Series was published to. You can find the new Lab Profile ID(s) under the new Lab Series, to configure in your API calls. 
+
+[!Alert] Please note that if you are using our TMS and you did not inherit the environment of the new Lab Profile you will need to create a new Course in the TMS and set the new Lab Profile as the activity in the new course.
