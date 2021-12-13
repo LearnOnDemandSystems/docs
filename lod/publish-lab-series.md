@@ -70,5 +70,5 @@ Once you have launched each Lab Profile in the Lab Series, and set the developme
 
 You will now be able to launch the new production Lab Profile(s) via the API Consumers that the Lab Series was published to. You can find the new Lab Profile ID(s) under the new Lab Series, to configure in your API calls. 
 
->[!alert] If you are using the Skillable Training Management System(TMS), and the lab(s) in the Lab Series are not inheriting the environment from a parent lab profile, the lab(s) will need to be added to a course profile as an activity, before they can be launched from the TMS. For more information on creating courses, see our [Course Creation Documentation](../tms/tms-administrators/courses-and-activities/overall/create-course.md)
+>[!knowledge] If you are using the Skillable Training Management System(TMS), and the lab(s) in the Lab Series are not inheriting the environment from a parent lab profile, the lab(s) will need to be added to a course profile as an activity, before they can be launched from the TMS. For more information on creating courses, see our [Course Creation Documentation](../tms/tms-administrators/courses-and-activities/overall/create-course.md)
 
