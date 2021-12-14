@@ -42,6 +42,7 @@ In addition to the software requirements above we recommend the following:
 For those that need to create a firewall exception rule to allow connectivity to the Lab on Demand servers (this isn&#39;t common), the following information can be used to create a limited destination rule to only allow the above protocols and ports from your network to the Lab on Demand cloud.
 
 - Domain Names:
+  - *.skillable.com
   - *.labondemand.com
   - *.skillable.com
   - *.learnondemand.net
