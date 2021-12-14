@@ -26,8 +26,8 @@
 1. **Parent:** A lab can optionally inherit some properties from a parent lab profile. Both the virtual environment (virtual machines, virtual networks, etc) can be inherited, as well as resources and content (manuals, scenario, objective, exercises, tasks, etc). Changes to the parent lab profile will be reflected in instances of this lab.
 1. **Storage Reservation Per Instance:** This is the amount of storage that the lab scheduler will ensure is available before an instance of this lab is Launched on a lab host server. 
 1. **Development Status:** Used to show lab profile development status. (In Development, Awaiting Verification, In Verification, Verification Failed, Complete.) Lab profiles in _Complete_ Development Status will be available for use, other development status' will only be available to registered lab developers. 
-1. **Expected Duration:** The expected amount of time it will take a user to complete the lab.
-1. **Maximum Duration:** The maximum amount of time that a user can spend in the lab.
+1. **Duration:** The expected amount of time it will take a user to complete the lab. After setting the duration, the maximum duration of the lab will be will be set to 150% of the duration. 
+1. **Prompt user to extend time** by `X` Minutes when `X` Minutes Remain: automatically prompt the user to extend the lab time by a specified amount of time when a specified amount of time is remaining. 
 1. **Language:** The language that the lab UI will be displayed in. This will not change the language displayed in the OS of any virtual machines used unless the virtual machine was configured to display a specific language. Language options include: Chinese (simplified), English, French, German, Japanese, Korean, Portuguese, and Spanish.  
 1. **Level:** Sets the Level for the lab; this can be 100, 200, 300, or 400. 
 1. **Evaluation:** Click to add an Evaluation to the lab profile. The Evaluation must already be created to add it to the lab profile using this button.
@@ -35,7 +35,7 @@
 1. **Description:** Used to provide more information about the lab profile. 
 1. **Enabled:** Used to enable or disable the lab profile for use. If the lab is disabled, it will only be accessible to lab developers. 
 1. **Enable Bug Reporting:** Allows bug reporting on the lab profile. Bug reports are collected on the lab profile details page by selecting **Edit** in the upper-right corner of the lab profile page. 
-1. **Bug Report Email Address:** If this value is set, bug reports submitted by end users will be emailed to the supplied address. Notice that this field is not required in order for bug reporting and tracking to work. 
+    - **Bug Report Email Address:** If this value is set, bug reports submitted by end users will be emailed to the supplied address. Notice that this field is not required in order for bug reporting and tracking to work. 
 1. **Owner Name:** The name of the owner of the lab profile. 
 1. **Owner E-mail:** The e-mail address of the owner of the lab profile. 
 
@@ -253,7 +253,7 @@ To use network features, such as external internet access or communication betwe
 
 ## Life Cycle
 
-**Life Cycle Actions:** Actions can be defined to occur at certain points in the lab life cycle. For instance, an external service could be called when the lab builds, or send a notification to the user when the lab is resumed.  
+**Life Cycle Actions:** Actions can be defined to occur at certain points in the lab life cycle. For instance, an external service could be called when the lab builds, or send a notification to the user when the lab is resumed. 
 
 **Inherit Life Cycle Actions**
 
@@ -376,9 +376,8 @@ For more information about Action and Event types, please see our [Life Cycle Ac
 ### Save/Cancel Options
 
 - **Allow User to Cancel Labs:** allows the user to cancel the lab at any point
-- **Allow user to Save labs:** allows the user to save the lab in it's current state and return at a later time. Users have a specified maximum number of labs that can be saved at a time. Once users reach their maximum number of saved lab instances, they will need to cancel one of the saved labs, to be able to save a new lab instance. The default maximum instaces per user is typically 2, but may vary by organization. Note that saved labs are only saved for 48 hours. Users can extend the saved lab expiration by resuming the lab and saving again. Each save sets the timer back to 48 hours. After48 hours has passed, the lab progress and components are discarded and cannot be recovered. 
+- **Allow user to Save labs:** allows the user to save the lab in it's current state and return at a later time. Users have a specified maximum number of labs that can be saved at a time. Once users reach their maximum number of saved lab instances, they will need to cancel one of the saved labs, to be able to save a new lab instance. The default maximum instances per user is typically 2, but may vary by organization. Note that saved labs are only saved for 48 hours. Users can extend the saved lab expiration by resuming the lab and saving again. Each save sets the timer back to 48 hours. After48 hours has passed, the lab progress and components are discarded and cannot be recovered. 
 - **Allow User to Disconnect from Lab Client:** Allows the user to disconnect from the lab client and leave the lab running. 
-- **Automatically prompt user to extend time by `X` Minutes when `X` Minutes Remain:** automatically prompt the user to extend the lab time by a specified amount of time when a specified amount of time is remaining. 
 - **Auto-Save incomplete Labs:** Enables the lab to automatically save in complete labs after a specified amount of time has passed. 
 - **Save/Cancel Labs When Last Console Sync Exceeds:** Amount of time given between console syncs, before the lab will automatically cancel or save. 
 - **Save/Cancel labs when last Activity Exceeds:** Amount of time given of inactivity before the lab will automatically cancel or save.
