@@ -44,7 +44,6 @@ For those that need to create a firewall exception rule to allow connectivity to
 - Domain Names:
   - *.skillable.com
   - *.labondemand.com
-  - *.skillable.com
   - *.learnondemand.net
   - *.holsystems.com
 
