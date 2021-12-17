@@ -48,7 +48,7 @@ VMs enforce max number of NICs
 
 - When creating or editing a Virtual Machine Profile, a maximum number of NICs will be applied based on the virtual machine size selected.
 
-**LOD Improvements and Fixes**
+**LOD Enhancements and Fixes**
 
 - Fixed and issue that resulted in delayed implementation times for Access Control Policies.
 - When monitoring a Hyper-V lab that uses Enhanced Session Mode, screenshots and thumbnails will inform the user that Enhanced Session Mode is in use. 
@@ -85,7 +85,7 @@ VMs enforce max number of NICs
 - A Script Execution Error filter has been added to the Lab Instance Search page.
 - Improved page performance on the Lab Series Storage page
 
-**LOD Improvements and Fixes**
+**LOD enhancements and fixes **
 - LTI 1.3 calls no longer require the lti_message_hint parameter.
 - Lab variables are now updated between each script within a given activity.
 - Corrected a display issue when selecting an image link on the Lab Manual preview page.
@@ -117,7 +117,7 @@ VMs enforce max number of NICs
 - Updated translations for French, German, Japanese, Korean, Portuguese, Spanish, and Chinese.
 - Fixed a typo on the “Provisioning files on high-performance storage” message.
 
-**LOD Improvements and Fixes**
+**LOD enhancements and fixes **
 
 - Added lab profile number field to LTI deep link selection page.
 - Fixed an issue where changes made to Access Control Policies had a delayed period before they would begin applying to new lab launches.
@@ -135,7 +135,7 @@ The Cloud Subscription Pool pages have been updated to include the following fea
   - [Azure Subscription Pool setup documentation](/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md)
   - [AWS Subscription Pool setup documentation](/guides/cloud-slice/aws/aws-setup-cloud-sub-pool-in-lod.md)
 
-**LOD Improvements and Fixes**
+**LOD enhancements and fixes **
 
 - The API End Webhook is now called for scored labs when the lab ends.
 - LTI scored labs that run beyond their access token expiration are now able to post score back to the LMS without getting an access token expired error message.
@@ -172,7 +172,7 @@ The Cloud Subscription Pool pages have been updated to include the following fea
 
 - Organization names may no longer be changed from LOD unless they are a child organization configured with the same customer ID as their parent. Organization names should be modified from the Portal when they cannot be modified in LOD.
 
-**LOD Improvements and Fixes**
+**LOD enhancements and fixes **
 
 - Update to HTML5 Gateway will release mouse on cursor exit of VM interface.
 - Lab instances of exam type will now be scored when Mark as complete is chosen using the end option under the hamburger menu.
@@ -206,7 +206,7 @@ The Cloud Subscription Pool pages have been updated to include the following fea
 
 ## **Released July 29, 2021**
 
-**LOD Improvements and Fixes**
+**LOD enhancements and fixes **
 
 - Improved Pre-Instance performance using in-memory data and by removing recursive logic
 - Rather than default to CSFX, cloud scripts will now target SEE by default.
@@ -250,7 +250,7 @@ The Cloud Subscription Pool pages have been updated to include the following fea
 - Fixed a bug allowing a user to access an AWS region selected in the Override Datacenter drop-down menu even when not enabled on the lab profile.
 - <a href="https://docs.skillable.com/lod/aws-capabilities.md">AWS Services capabilities documentation</a>
 
-**LOD Improvements and Fixes**
+**LOD enhancements and fixes **
 
 - Cloud Slice Subscription labs that apply an Access Control Policy at the subscription level are now returned in search results for that Access Control Policy. 
 - If Background Event Service discovers residue on a virtualized host, cloud hosts will now ignore requests to tear down resources on the associated dedicated subscription if the subscription has already been assigned to another lab instance. 
@@ -281,7 +281,7 @@ The Cloud Subscription Pool pages have been updated to include the following fea
 
 An option to allow a vSphere VM guests to know their virtualization status has been added to vSphere fabric virtual machine profiles.
 
-**LOD Improvements and Fixes**
+**LOD enhancements and fixes **
 
 - An improvement to the batch operation efficiency of AWS Log transfer has been implemented.
 - Implemented compatibility mode for HyperV Gen1 virtual machines.
@@ -320,7 +320,7 @@ Two permissions have been added to LOD to manage Compatibility Mode under Lab De
 - Added Support for AWS Service SQS
 - Fixed a bug preventing labs from saving when an access key was added to a user account.
 
-**LOD Improvements and Fixes**
+**LOD enhancements and fixes **
 
 - HTML5 gateway updated to allow sound recording via Chrome and Edge browsers.
 - Cloud automated activities can now set the activity's score by percentage.
@@ -356,7 +356,7 @@ Two permissions have been added to LOD to manage Compatibility Mode under Lab De
 - Added additional logic to AWS so that Virtual Machines with termination protection are properly torn down.
 - Added verification to AWS Stack Deployment Name Field.
 
-**LOD Improvements and Fixes**
+**LOD enhancements and fixes **
 
 - The ability to export Virtual Machines have been restricted to those with Global Storage Management permissions.
 - Added additional logic to AWS so that Virtual Machines with termination protection are properly torn down.
@@ -381,7 +381,7 @@ Two permissions have been added to LOD to manage Compatibility Mode under Lab De
 - Code Labs tests activity results are now displayed on the lab details page. The details contain the console output, as well as metadata such as language and elapsed runtime.
 - Code Labs now support the Learning Tools Interoperability (LTI) 1.1 & 1.3 standard for integration with Learning Management Systems. 
 
-**LOD Improvements and Fixes**
+**LOD enhancements and fixes **
 - Cloud Slice Subscription labs are now returned as results when searching by Access Control Policy.
 - Fixed a dependency issue that would prevent the removal of CloudFormation stacks dependent on a missing role.
 - Fixed a bug preventing AWS Fabric labs from launching after they are created via Save-As.
