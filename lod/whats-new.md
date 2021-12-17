@@ -48,6 +48,20 @@ VMs enforce max number of NICs
 
 - When creating or editing a Virtual Machine Profile, a maximum number of NICs will be applied based on the virtual machine size selected.
 
+**LOD Improvements and Fixes**
+
+- Fixed and issue that resulted in delayed implementation times for Access Control Policies.
+- When monitoring a Hyper-V lab that uses Enhanced Session Mode, screenshots and thumbnails will inform the user that Enhanced Session Mode is in use. 
+- vSphere labs with no Virtual Machines now show Screen Unavailable when monitored. 
+- Fixed an issue preventing TMS lab instance monitoring from displaying screenshots.
+- Fixed an issue preventing users from updating their password using the Reset Password link. 
+- Fixed an issue that would cause duplicate identity claims during log in. 
+- When importing and overwriting instructions into an existing lab, all existing content and files will now be removed.
+- Fixed an issue resulting in the Template Gallery becoming disabled for an Organization.
+- Fixed an issue resulting in LCAs appearing out of order when editing a lab profile. 
+- Fixed an issue resulting in an Application Error occurring when logging into LOD under certain conditions. 
+- Fixed an issue preventing JAWS from reading messages when starting a cloud lab.
+
 ## **Released November 19, 2021**
 
 **Consumption Rules – New to Lab on Demand**
@@ -71,7 +85,7 @@ VMs enforce max number of NICs
 - A Script Execution Error filter has been added to the Lab Instance Search page.
 - Improved page performance on the Lab Series Storage page
 
-**General LOD Improvements and Fixes**
+**LOD Improvements and Fixes**
 - LTI 1.3 calls no longer require the lti_message_hint parameter.
 - Lab variables are now updated between each script within a given activity.
 - Corrected a display issue when selecting an image link on the Lab Manual preview page.
