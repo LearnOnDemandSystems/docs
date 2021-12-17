@@ -9,6 +9,45 @@
 # What's New in Lab On Demand
 <span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other Skillable platforms?</a></span>
 
+## **Released December 17, 2021**
+
+Lab Save & Timer Updates 
+
+**Refinement of lab duration and save configuration options**
+
+Expected Duration Changed to "Duration"
+
+- On a lab profile, Expected Duration is now defined as Duration.
+- On the lab profile edit screen, Duration now a drop down of selectable time options.
+
+Lab Client Timer Based on Duration
+
+- In the lab client, the timer now reflects Duration instead of Max Duration.
+- On the lab profile edit screen, the Automatically Prompt User to Extend setting has moved from the Advanced to the Basic Information tab.
+
+System Generated Max Duration
+
+- On the lab profile edit screen, the Minimum time given to saved labs setting has been removed.
+- On a lab profile, Max Duration is no longer a customizable field. This is now automatically calculated at 150% Duration if extensions are enabled.
+- In a lab instance, Max Duration now enforced as maximum amount of time users may be within the lab.
+
+In Development Labs May Extend Indefinitely
+- Labs with a status of In Development may continue to be extended for an indefinite period of time.
+
+Revamped Virtualization Sizes
+
+**Virtual Machine and Docker Container size definitions have been modernized and simplified. More information available [here](https://skillable.com/vm-tiers/)**.
+
+Change Docker RAM and CPU from Text Box to Dropdown
+
+- When creating or editing a Container Image Profile, RAM and vCPU values are now defined via a single dropdown instead of multiple text boxes.
+Change VM RAM and CPU from Text Box to Dropdown
+- When creating or editing a Virtual Machine Profile, RAM and vCPU values are now defined via a single dropdown instead of multiple text boxes.
+
+VMs enforce max number of NICs
+
+- When creating or editing a Virtual Machine Profile, a maximum number of NICs will be applied based on the virtual machine size selected.
+
 ## **Released November 19, 2021**
 
 **Consumption Rules – New to Lab on Demand**
