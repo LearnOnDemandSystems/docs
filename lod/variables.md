@@ -186,7 +186,7 @@ Along with traditional PowerShell, Windows Command Shell, and Bash syntax, there
 > 
 > Set the variable
 >
-> ```Set_Lab_Variable "nameOfVariable" "valueHere"```
+> ```set_lab_variable "nameOfVariable" "valueHere"```
 > 
 > Recall the variable
 >  
