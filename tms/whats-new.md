@@ -2,6 +2,14 @@
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in our other platforms?</a> 
  
+ ## <u>Released December 20, 2021</u>
+### General Improvements and Fixes
+*  	Updates to accessibility in a continuing effort to improve access and usability for those that are differently abled.  
+*   On the Course Edit page, fixed an issue with an Application Error occurring when assigning multiple subscriptions profiles that are not available via Publishing Groups to an organization.
+*   On Course Activities, relabeled ‘Allow Retakes’ to ‘Allow Multiple Attempts’.
+*   Renamed Clubs and Club Memberships to Subscriptions and Subscriptions Profiles.  This will exclude existing API calls. 
+
+ ----------------------------
 ## <u>Released November 22, 2021</u>
 ### Lab Activity Launch Limits
 *   TMS Administrators can now optionally limit the maximum number of lab instances that learners are able to launch within each class or course assignment delivery. This will only restrict the number of times users may launch lab activities and does not impact any other activity types.
@@ -117,6 +125,7 @@ In our continuing effort to improve accessibility for all our students and meet 
     'Organization Name does not have access to deliver Course Name, please select another delivery organization.'
  
 ----------------------------
+<!--
 ## <u>Released July 7, 2021</u>
 ### Accessibility Items
 In our continuing effort to improve accessibility for all our students and meet MAS standards:
