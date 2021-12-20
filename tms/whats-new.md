@@ -4,7 +4,6 @@
  
  ## <u>Released December 20, 2021</u>
 ### General Improvements and Fixes
-*  	Updates to accessibility in a continuing effort to improve access and usability for those that are differently abled.  
 *   On the Course Edit page, fixed an issue with an Application Error occurring when assigning multiple subscriptions profiles that are not available via Publishing Groups to an organization.
 *   On Course Activities, relabeled ‘Allow Retakes’ to ‘Allow Multiple Attempts’.
 *   Renamed Clubs and Club Memberships to Subscriptions and Subscriptions Profiles.  This will exclude existing API calls. 
