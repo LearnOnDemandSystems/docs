@@ -2,7 +2,7 @@
 
 <span style="font-size:90%;"> <a href="/whats-new-toc.md">What's New in our other platforms?</a> 
  
- ## <u>Released December 20, 2021</u>
+## <u>Released December 20, 2021</u>
 ### General Improvements and Fixes
 *   On the Course Edit page, fixed an issue with an Application Error occurring when assigning multiple subscriptions profiles that are not available via Publishing Groups to an organization.
 *   On Course Activities, relabeled ‘Allow Retakes’ to ‘Allow Multiple Attempts’.
