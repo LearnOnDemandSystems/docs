@@ -4,7 +4,6 @@
  
  ## <u>Released December 20, 2021</u>
 ### General Improvements and Fixes
-*   New users created via external authentication methods (B2C or API) will now have Notifications enabled by default.
 *   On the Course Edit page, fixed an issue with an Application Error occurring when assigning multiple subscriptions profiles that are not available via Publishing Groups to an organization.
 *   On Course Activities, relabeled ‘Allow Retakes’ to ‘Allow Multiple Attempts’.
 *   Renamed Clubs and Club Memberships to Subscriptions and Subscriptions Profiles.  This will exclude existing API calls. 
