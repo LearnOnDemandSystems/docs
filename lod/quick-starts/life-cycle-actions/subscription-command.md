@@ -33,7 +33,7 @@ Estimated time to completion: **10 minutes**.
 
     > [!KNOWLEDGE] The **Error Action** drop-down menu is used to set how errors will be handled in the lab. The default setting is to save errors to the lab instance in LOD. Alternatively you can set errors to notify the user, or end the lab.
 
-1. Check the **Enabled** box. If this is unchecked, the life cycle action will not be exectued.
+1. Check the **Enabled** box. If this is unchecked, the life cycle action will not be executed.
 
 1. Click to copy this message and paste into the text field; +++Example Subscription Command+++. 
 

@@ -31,7 +31,7 @@ Once the lab has completely launched, notice the **Developer** menu on the lab t
 |---|---|---|---|---|
 |**Field**|**Required**|**Type**|**Displayed in Launched labs**|**Content**|
 **Name**|Yes|Plain text|In outline of Content tab and in Exercise dialog boxes|Exercise name|
-|**Introduction Message**|No|Rich text|In Exercise window when user first accesses the ecercise in the lab| Introductory information for the exercise|
+|**Introduction Message**|No|Rich text|In Exercise window when user first accesses the exercise in the lab| Introductory information for the exercise|
 **Introduction Content URL**|No|Link|In separate window on user's device after Exercise Introduction window is cleared.|URL to other content, such as a video you want your users to see at the beginning of the exercise|
 **Completion Message**|No|Rich text|In Exercise window when the user complete the steps in the exercise| Completion information for the exercise|
 **Completion Content URL**|No|Link|In separate window on user's device after Exercise Completion window cleared|URL to other content, such as a video you want your users to see at the end of the exercise. 
@@ -55,10 +55,10 @@ Covered in other articles:
 ||||||
 |---|---|---|---|---|
 |**Field**|**Required**|**Displayed in Launched labs**|**Content**|
-|**Screen shot**|No|In a separate pop-up window when the user clicks the Screen shot (camera) icon in the lower left corner of the lab interface|Screen shot taken of active VM using Developer manu in lab interface or uploaded PNG file|
+|**Screen shot**|No|In a separate pop-up window when the user clicks the Screen shot (camera) icon in the lower left corner of the lab interface|Screen shot taken of active VM using Developer menu in lab interface or uploaded PNG file|
 |**Video**|No|In separate pop-up window when the user clicks the Video button in the left side of the lab interface|Video file|
-|**VM Select**|No|Displays Switch to Machine button to the right of the step direction to make different VM active|Name of another VM included in lab on the Virtual Machines tba of the lab profile|
-|**Floppy Drive**|No|Displays Load Disk buttonto the right of the step directions to load the floppy in the active VM|A floppy disk added on the Removable Media tab of the lab profile|
+|**VM Select**|No|Displays Switch to Machine button to the right of the step direction to make different VM active|Name of another VM included in lab on the Virtual Machines tab of the lab profile|
+|**Floppy Drive**|No|Displays Load Disk button to the right of the step directions to load the floppy in the active VM|A floppy disk added on the Removable Media tab of the lab profile|
 |**DVD Drive**|No|Displays Load Media button to the right of the step directions to load the optical disk in the active VM|An optical disk added on the Removable Media tab of the lab profile|
 |**Command**|No|Displays Command button to the right of the step directions to assist user in completing step|Drop-down for type of command and a Command box with the content you want executed when the button is clicked|
 

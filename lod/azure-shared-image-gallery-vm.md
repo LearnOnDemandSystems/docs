@@ -83,7 +83,7 @@ Create an image definition to define specifications for virtual machines that ar
 1. **SKU**: Enter the name of the Image Definition SKU.
 1. Select **Next: Publishing options** in the Azure portal to add Publishing options.
     1. **Recommended VM vCPUs**: Select the minimum and maximum number of vCPUs that can be used in any VMs that are deployed using this image definition. 
-    1. **Recommended VM memory**: Select the minimum and maximum amoutn of memory that can be used in any VMs that are deployed using this image definition. 
+    1. **Recommended VM memory**: Select the minimum and maximum amount of memory that can be used in any VMs that are deployed using this image definition. 
     1. **Excluded disk types**: select any disk types that should be excluded. 
 1. Click **Next: Review + Create**.
 1. Click **Create**.
@@ -202,7 +202,7 @@ To map the shared image gallery in the subscription:
 
 1. Enter the name of each in LOD, to align with the containers in your Azure storage account.
 
-    - **Image Libray Name**: 
+    - **Image Library Name**: 
     - **Image Library Resource Group**:
 
     >[!knowledge] These fields need to be configured for each subscription in the subscription pool. 

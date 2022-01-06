@@ -42,7 +42,7 @@ All responses are formatted as JSON. A full explanation of each response is incl
 
 ## Date Formats
 
-All dates are in unix epoch time, which is the number of seconds that have elapsed since midnight UTC January 1st, 1970. Values are always rounded to the nearest whole second.
+All dates are in Unix Epoch time, which is the number of seconds that have elapsed since midnight UTC January 1st, 1970. Values are always rounded to the nearest whole second.
 
 ## Postman Collection
 

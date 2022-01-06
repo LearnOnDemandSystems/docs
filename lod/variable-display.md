@@ -149,7 +149,7 @@ Lab instructions can be dynamically displayed based on the variable set in the l
 1. From the lab profile, click **Edit Instructions**.
 1. If the lab variable is not already set in your lab, use [one of the methods above](#setting-variables) to set a lab variable. 
 1. In the lab instructions, enter a Markdown include with a lab variable appended: `!instructions[](url-@lab.Variable(variableName).md)`
-1. Replace `url` with the url to the raw file in your external repository.
+1. Replace `url` with the URL to the raw file in your external repository.
 1. Replace `variableName` with the name of the variable you wish to use.
 1. Choose an option:
     - Insert a drop-down menu or textbox is the lab instructions that corresponds to the variable. These can be found in the @lab menu at the top of the window. 

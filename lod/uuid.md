@@ -25,7 +25,7 @@ An example BIOS GUI looks like
 
 ## Custom UUID
 
-This controls the UUID set within the virtual machine's configuration. The UUID is a 128-bit integar. The 16 bytes of this value are separated by spaces, except for a dash between the eighth and ninth hexadecimal pairs.
+This controls the UUID set within the virtual machine's configuration. The UUID is a 128-bit integer. The 16 bytes of this value are separated by spaces, except for a dash between the eighth and ninth hexadecimal pairs.
 
 An example UUID looks like
 

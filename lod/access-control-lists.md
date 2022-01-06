@@ -90,7 +90,7 @@ Some of the most frequently used parts of regex syntax:
 
 For more information on Expressions, check out the [SquidGuard documentation](https://web.archive.org/web/20180807025620/http://squidguard.org/Doc/expressionlist.html).
 
-For example, a basic expressionlist to allow access (if placed in the whitelist) to the Azure portal and some Azure features: 
+For example, a basic expression list to allow access (if placed in the whitelist) to the Azure portal and some Azure features: 
 
 `.*\.azure\.net`
 

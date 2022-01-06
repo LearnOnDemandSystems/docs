@@ -19,6 +19,6 @@ If you want the Virtual Machines Profiles that will use this Network to obtain t
 
 For labs which will use a start state, we recommend setting the IPv4 settings of the NIC to use a static IP address, subnet mask, and gateway which match the scope and gateway address of the NAT network. You can use any external DNS you would like. Alternatively, you can change the gateway IP and subnet of the NAT network to something that will fit your current IP scope in the lab environment.
 
-You can sellect an Access Control List for the network. Access control lists (ACLs) are used to control how students use the Web within a virtual machine, using whitelists and blacklists. [Read here learn more about ACLs](/lod/access-control-lists.md).
+You can select an Access Control List for the network. Access control lists (ACLs) are used to control how students use the Web within a virtual machine, using whitelists and blacklists. [Read here learn more about ACLs](/lod/access-control-lists.md).
 
 

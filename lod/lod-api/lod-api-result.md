@@ -68,9 +68,9 @@ The **Result** command returns information about a particular lab instance resul
 |Name|Type|Nullable|Note
 |--- |--- |--- |--- |
 |Id|Long|No|Id of the TextAnswerResponse.|
-|ResponseText|String|No|User provided response to the corrisponding question.|
+|ResponseText|String|No|User provided response to the corresponding question.|
 |IsCorrect|Boolean|No|Grading result of the user provided text response.|
-|AnswerId|Long|No|Id that corrisponds to the answer object that holds the regular expression that this must match to be correct.|
+|AnswerId|Long|No|Id that corresponds to the answer object that holds the regular expression that this must match to be correct.|
 
 ## ExamQuestion
 
