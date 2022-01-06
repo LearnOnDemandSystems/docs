@@ -51,7 +51,7 @@ To create a restrictive policy that allows only the resources required for a lab
 
 10. For each resource group, append the resource information to the text file.
 
-11. Save the text file with a descriptive name, such as **MOC20765C-Mod1-Resources.JSON**.
+11. Save the text file with a descriptive name, such as **MOC20765C-Mod1-Resources.json**.
 
 ## Creating the ACP
 
