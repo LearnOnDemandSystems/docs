@@ -36,7 +36,7 @@ The **Catalog** command will return all lab series, lab profiles, and delivery r
 |Name|String|No|The name of the lab profile|
 |Number|String|No|The lab number (usually to identify a lab within a series, e.g. Module 1, Module 2, etc.)|
 |PlatformId|Integer|No|The virtualization platform the lab is run on.|
-||||-1 = None|
+||||1 = None|
 ||||2 = Hyper-V|
 ||||3 = vSphere|
 ||||10 = Azure|
