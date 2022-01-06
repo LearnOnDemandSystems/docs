@@ -26,6 +26,6 @@ When enabled, a student may create a snapshot by selecting *Snapshots...* from u
 
 ![Snapshot Menu Item](images/snapshot-menu-item.png)
 
-The snapshot menu will allow you to save a new snapshot by entering a name and selecting "Create Snapshot". Existing snapshots can also be applied or deleted from this screen. Simply choose your prefered action next to one of the snapshots listed.
+The snapshot menu will allow you to save a new snapshot by entering a name and selecting "Create Snapshot". Existing snapshots can also be applied or deleted from this screen. Simply choose your preferred action next to one of the snapshots listed.
 
 ![Snapshot Menu ](images/snapshot-menu.png)

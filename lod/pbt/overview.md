@@ -87,7 +87,7 @@ The below samples are designed to aid in the design of your scoring scripts. Whi
 
 Arguably more important than what your script looks like or how easy it is to read, is what your output looks like. Having verbose output that can be referenced later and easily used to identify why someone got an item correct or incorrect may be important for formats such as Performance Based Testing in the event a user disputes an item., but more user friendly messages may be better for formats such as Activity Based Assessments.
 
-A best practice is to keep formats as consistent across your items of the same format as possible so that most of the script can be simply copy/pasted from item to item, with minimal lines requiring modifications. Maintaining the same format from item to item also aids in readibility across items.
+A best practice is to keep formats as consistent across your items of the same format as possible so that most of the script can be simply copy/pasted from item to item, with minimal lines requiring modifications. Maintaining the same format from item to item also aids in readability across items.
 
 #### **Object Matching Method**
 

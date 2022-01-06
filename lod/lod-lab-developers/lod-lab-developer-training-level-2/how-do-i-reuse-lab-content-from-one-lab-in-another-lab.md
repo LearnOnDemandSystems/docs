@@ -1,6 +1,6 @@
 # How do I reuse lab content from one lab in another lab?
 
-There may be instances when you have exercises (content) in a lab that you want to use in another lab. For instance:
+There may be instances when you have content in a lab that you want to use in another lab. For instance:
 - When a new version of courseware comes out and the new labs are very similar to the old labs. 
 - When labs from different courses have one or more exercises that are almost identical. There are a couple of options for adding the existing content rather than building it from scratch.
 
@@ -34,7 +34,7 @@ It does not include:
 1. Save the zip file to a location on your machine.
 1. Open the **Lab Profile** page for the lab you would like to use the exported content in. 
 1. Click **Import** from its toolbar. 
-1. Select **IDL Conten** and click **OK**. 
+1. Select **IDL Content** and click **OK**. 
 1. On the **Import Integrated Manual Content** page, click **Browse**. 
 1. Locate and select the zip file that was saved from the exported content.  
 1. Click **Open**.

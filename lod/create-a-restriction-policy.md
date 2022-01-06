@@ -119,7 +119,7 @@ For more in-depth information on how to create your own custom ACPs, our [Lab de
 
 **Azure**: For more information about the items that can be used in an Azure policy, see [Microsoft Azure Access Control Policy Templates](https://docs.microsoft.com/en-us/azure/azure-policy/json-samples).
 
-**AWS**: To quickly generate a json policy for AWS, check out Amazon's [AWS Policy Generator](https://awspolicygen.s3.amazonaws.com/policygen.html).
+**AWS**: To quickly generate a JSON policy for AWS, check out Amazon's [AWS Policy Generator](https://awspolicygen.s3.amazonaws.com/policygen.html).
 
 ## Adding an Access Control Policy to a Cloud Slice Lab
 

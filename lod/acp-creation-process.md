@@ -51,7 +51,7 @@ To create a restrictive policy that allows only the resources required for a lab
 
 10. For each resource group, append the resource information to the text file.
 
-11. Save the text file with a descriptive name, such as **MOC20765C-Mod1-Resources.json**.
+11. Save the text file with a descriptive name, such as **MOC20765C-Mod1-Resources.JSON**.
 
 ## Creating the ACP
 
@@ -69,7 +69,7 @@ The resources you collected earlier allow you to easily create a comprehensive b
 
     >NOTE: In some cases, you might find that VM names are created by using functions that generate non-deterministic random strings, making it very difficult to restrict VM creation by name. In this case, as a last-restort compromise, it is acceptable to limit by SKU and region only --but, only as a last resort and only when accompanied by other measures to mitigate risk.
 
--   For all other resources, it is acceptable to allow any resource to be created under the parent node. For example, consider a lab that uses the both Microsoft,Network/networkinterfaces and Microsoft.Network/networkSecurityGroups resources. You do not have to explicitly allow both Microsoft.Network/networkinterfaces and Microsoft.Network/networkSecurityGroups. You can simply allow all resources to be created under Microsft.Network node.
+-   For all other resources, it is acceptable to allow any resource to be created under the parent node. For example, consider a lab that uses the both Microsoft,Network/networkinterfaces and Microsoft.Network/networkSecurityGroups resources. You do not have to explicitly allow both Microsoft.Network/networkinterfaces and Microsoft.Network/networkSecurityGroups. You can simply allow all resources to be created under Microsoft.Network node.
 
 -  If possible, you should try to restrict resources by SKU, family, tier, and/or capacity if there is a risk of a significant impact (cost) if a user chooses a more expensive SKU than required by the lab. 
  
@@ -131,7 +131,7 @@ This could also be expressed as follows by making use of the **in** condition:
 }
 ```
 
-Examine the text file that contains an inventory of resources you saved earlier, and then replace or add the resources as appropriate to the Json code above.
+Examine the text file that contains an inventory of resources you saved earlier, and then replace or add the resources as appropriate to the JSON code above.
 
 ### Creating an ACP for a lab that has one or more Azure VMs
 
@@ -215,11 +215,11 @@ For labs that use Azure VMs, you ***must*** limit VM creation by name and by SKU
 
 In this case, the policy allows the creation of only VMs that are named WebVM1 in the East US and East US 2 regions. Further, the user must choose 1 of 3 allowable sizes.
 
-   > NOTE: We could also use a function, [resourceGroup().location], to limit the region for the Azure virtual machine creation to the *same* region where the resource group is deployed without hard coding the specific regions. For infomation on how to do this, please see Advanced ACP creation topics later on in this guide.
+   > NOTE: We could also use a function, [resourceGroup().location], to limit the region for the Azure virtual machine creation to the *same* region where the resource group is deployed without hard coding the specific regions. For information on how to do this, please see Advanced ACP creation topics later on in this guide.
 
 ### Creating an ACP for a lab that uses Azure Container Instances (ACI)
 
-LIke Azure VMs, containers provide compute resources. As such, for labs that use use containers, you ***must*** limit container creation by name, memory, cpu, and gpu resources. You should also consider limiting by region as well. 
+LIke Azure VMs, containers provide compute resources. As such, for labs that use use containers, you ***must*** limit container creation by name, memory, CPU, and GPU resources. You should also consider limiting by region as well. 
 
    > NOTE: This section refers to Azure Container Instances (ACI), not Azure Kubernetes Service (AKS). AKS provides a container orchestration service for managing clusters and pods to deploy and scale applications. Examples of how to limit resources for labs that use AKS resources are provided later in this document. 
 
@@ -433,7 +433,7 @@ The following shows how to limit an Azure SQL Server instance by name and the da
     }
 }
 ```
-   > NOTE: The above ACP uses some advanced techniques, namely functions, to limit resource names and regions. For  infomation on how to use functions in an ACP, please see see the next topic.
+   > NOTE: The above ACP uses some advanced techniques, namely functions, to limit resource names and regions. For  information on how to use functions in an ACP, please see see the next topic.
 
 
 ## Advanced ACP creation topics
@@ -529,7 +529,7 @@ The **match**, **matchInsensitively**, **notMatch**, and **notMatchInsenstively*
      "matchinsensitively": "WinVM-###"
 }
 ```
-This said, dependending on the context, using the match conditions does provide another element of control. Consider this snippet which is used to restrict the allowed names for virutual machines that are created as part of an Azure Kubernetes Service (AKS) cluster. It is not possible to determine the specific names in advance; however, it may be possible to determine the naming pattern and use that as the restricting principle. 
+This said, depending on the context, using the match conditions does provide another element of control. Consider this snippet which is used to restrict the allowed names for virtual machines that are created as part of an Azure Kubernetes Service (AKS) cluster. It is not possible to determine the specific names in advance; however, it may be possible to determine the naming pattern and use that as the restricting principle. 
 
 ```json
 {
@@ -550,7 +550,7 @@ Consider a scenario where a lab author uses an Azure Resource Manager (ARM) temp
 [concat('wvm', uniqueString(resourceGroup().id))]
 ```
 
-You can use the same function in the policy rule, since the uniqueString function generates a deterministic name from a hash of the resource group ID. The following policy rule statment shows how you can craft a policy statement that restricts VM resource creation to that specific name, even though you do not know in advance what the unique string is.
+You can use the same function in the policy rule, since the uniqueString function generates a deterministic name from a hash of the resource group ID. The following policy rule statement shows how you can craft a policy statement that restricts VM resource creation to that specific name, even though you do not know in advance what the unique string is.
 
 ```
 {
@@ -567,7 +567,7 @@ Or, consider a scenario where a lab author asks users to create VMs that are a c
 Create two virtual machines named vmweb@lab.labInstance.id and vmapp@lab.labInstance.id. 
 ```
 
-The lab instance ID is added to the resource group properities as a tag. 
+The lab instance ID is added to the resource group properties as a tag. 
 
    ![](images/2020-05-25_9-09-18.png)
 
@@ -584,7 +584,7 @@ You can, therefore, use the following policy rule statement to restrict the VM n
 }
 ```
 
-Just as functions can be used to restrict resources by names that are both deterministic, but not known in advance, you can also use a function to restrict resources to the same location where the resource group is deployed. Consider this json snippet:
+Just as functions can be used to restrict resources by names that are both deterministic, but not known in advance, you can also use a function to restrict resources to the same location where the resource group is deployed. Consider this JSON snippet:
 
 ```json
 {

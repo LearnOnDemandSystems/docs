@@ -31,4 +31,4 @@ isPublished: true
     - Preview zoom: adjusts the zoom level on the preview pane of the instruction editor. 
     - Track Task Progress: enables the percentage of completed tasks to be reflected on the lab instance page, as well as the class page if the lab is part of an active class. 
     - Auto-check previous tasks: when this is enabled and a task is completed, all previous tasks will be automatically checked. 
-- **Qustion Mark icon (markdown help):** displays common Markdown syntax, used for reference while writing lab instructions. Clicking the *Learn More* button will display more information that may be helpful with authoring your lab.
+- **Question Mark icon (markdown help):** displays common Markdown syntax, used for reference while writing lab instructions. Clicking the *Learn More* button will display more information that may be helpful with authoring your lab.

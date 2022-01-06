@@ -17,10 +17,10 @@ Once you are logged in, you will need to upload your removable media file to you
 |Description|N|Information on what is on the media or how it will be used|
 |Series|Y|Automatically filled in from the Lab Series where the process started|
 |Organization|Y|Automatically filled in from the Organization in your User’s Profile|
-|Type|Y|Drop-down with Optical (iso) or Floppy|
+|Type|Y|Drop-down with Optical (ISO) or Floppy|
 |Platform|Y|Select the virtualization platform that the media will be used with|
 |Path|Y|Path to the storage folder where the file is stored|
 
-3. In the **Path** field, you can type in the path or click either **Choose (Microsoft)** or **Choose (Vmware)** to browse to those folders to fill in the path to the file. Read the important information below this field before proceeding.
+3. In the **Path** field, you can type in the path or click either **Choose (Microsoft)** or **Choose (VMware)** to browse to those folders to fill in the path to the file. Read the important information below this field before proceeding.
 
 The Enabled checkbox is checked by default so this profile can be added to Lab Profiles. Click **Save** to save the **Removable Media** Profile. This profile can now be added to Lab Profiles in the series from their Removable Media tab.

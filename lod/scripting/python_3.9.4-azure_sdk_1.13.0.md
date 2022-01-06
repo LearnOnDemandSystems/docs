@@ -88,7 +88,7 @@ sendLabNotification("A notification from Python!")
 
 ### Lab Variables
 
-Lab variables are always string name/value pairs. Variable values are scoped to the lab instances and become avaialble within the lab instructions as well as subsequent script executions. 
+Lab variables are always string name/value pairs. Variable values are scoped to the lab instances and become available within the lab instructions as well as subsequent script executions. 
 
 ```Python
 setLabVariable("myVariable1", "This was set within a Python script!")

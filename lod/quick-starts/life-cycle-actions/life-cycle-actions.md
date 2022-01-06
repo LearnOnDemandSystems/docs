@@ -16,7 +16,7 @@ Events include:
 - **Built**: the lab environment has been built, but components like virtual machines may still be starting. 
 - **Running**: all components of the lab are now running and the user can now interact with the lab.
 - **IP Addresses Assigned**: if the lab has public IP addresses, this event will wire when all public IP addresses have been verified to be assigned to the lab's virtual machine(s).
-- **Saving**: the lab is in the rpocess of being saved.
+- **Saving**: the lab is in the process of being saved.
 - **Saved**: the lab is in a saved state and no longer active. 
 - **Resuming**: the lab is resuming from a saved state.
 - **Resumed**: the lab has been resumed from a saved state and the user can interact with the lab again. 

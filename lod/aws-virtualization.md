@@ -67,7 +67,7 @@ Next an IAM user needs to be created.
 
 1. In the _Filter Policies_ field, search for ***Org***.
 
-1. Click the checkbox to select the policy name ***AWSOrganizationsFullAccess***. AWSOrganizationsFullAccessbe being assigned is required, so that the LOD service account can manage the organization. 
+1. Click the checkbox to select the policy name ***AWSOrganizationsFullAccess***. AWSOrganizationsFullAccess being assigned is required, so that the LOD service account can manage the organization. 
 
     ![](/guides/cloud-slice/images/aws-organizationfullaccess.png)
 

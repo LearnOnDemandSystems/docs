@@ -51,7 +51,7 @@ The following is a list of other software supported by the SPLA program but **NO
 
 Windows Server is offered under the following terms:
 * **Concurrency GB Model** - offered in increments of 768GB RAM
-* **Per GB RAM/hr Model** - offered per GB, calculated per hour
+* **Per GB RAM/HR Model** - offered per GB, calculated per hour
 
 Office Products are billed on a 'Per User' basis.  Every launch in Lab on Demand constitutes a billable consumption.  
 
