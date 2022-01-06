@@ -4,7 +4,7 @@ The **Stats** command returns statistics about how many labs are currently activ
 
 ## Parameters
 
-non
+none
 
 ## Response
 
