@@ -16,7 +16,7 @@ The **LabProfile** command will return information about a specific lab profile.
 |Name|String|No|The name of the lab profile|
 |Number|String|Yes|The lab number (usually to identify a lab within a series, e.g. Module 1, Module 2, etc.)|
 |PlatformId|Integer|No|The virtualization platform the lab is run on.|
-||||-1 = None|
+||||1 = None|
 ||||2 = Hyper-V|
 ||||3 = vSphere|
 ||||10 = Azure|
@@ -76,7 +76,7 @@ https://labondemand.com/api/v3/labprofile?id=1
     "Scenario":" This is the HTML-formatted scenario of the lab",
     "DurationMinutes": 360,
     "ExpectedDurationMinutes":60,
-    "RAM": 512,
+    "Ram": 512,
     "HasIntegratedContent": true,
     "ContentVersion": 2,
     "IsExam": false,
