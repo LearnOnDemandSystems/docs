@@ -2,6 +2,8 @@
 
 The **LaunchForEvent** command launches a lab instance within an event.
 
+## Parameters
+
 |Name|Type|Required|Note|
 |--- |--- |--- |--- |
 |labId|Integer|Yes|The ID of the lab profile|
