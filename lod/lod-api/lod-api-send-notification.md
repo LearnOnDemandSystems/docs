@@ -8,8 +8,6 @@ The **SendNotification** command allows you to send a notification to a specifie
 |--- |--- |--- |--- |
 |labInstanceId|Integer (64-bit)|Yes|The ID of the lab instance to send the notification to.|
 |notification|String|Yes, unless the notification has been named|The text of the notification to send. Please ensure the message is properly encoded. Line breaks can be included using \n. For notifications sent using the GET HTTP verb, the notification text is limited to 800 characters. For notifications sent using the POST HTTP verb, the notification text is limited to 4000 characters.
-||||VIRTUALIZATION LABS: If you'd like some of the text to be typeable directly into a virtual machine, you can mark it up using the following format. {typeable Type This!}In this case, "Type This!" appears with as clickable text within the notification. When the user clicks the text, "Type This!" is typed directly into the virtual machine. 
-||||CLOUD SLICE LABS: If you'd like some of the test to be copyable, you can mark it up using the following format.{copyable Copy This!}. In this case, "Copy This!" appears with as clickable text within the notification. When the user clicks the text, "Copy This!" is copied to the user's clipboard.
 |name|String|No|An optional name for the notification. If you name the notification, subsequent SendNotification commands using the same labInstanceId and name will cause the existing notification to be updated. It is also possible to delete a named notification by sending the name along with no notification value.|
 
 ## Response
