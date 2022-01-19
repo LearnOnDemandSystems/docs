@@ -8,12 +8,12 @@ Your scripts can communicate success or failure to LOD in one of two ways.
 
 ```PowerShell
 //do stuff... all good
-return true
+return $true
 ```
 
 ```PowerShell
 //do stuff... uh oh
-return false
+return $false
 ```
 
 ### Use setActivityResult
