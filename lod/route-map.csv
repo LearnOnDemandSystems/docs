@@ -27,5 +27,6 @@ route,target
 /TemplateGallery,/lod/template-gallery.md
 /Theme/Create,/lod/lod-themes.md
 /Theme/Edit{themeId},/lod/lod-themes.md
+/VirtualMachineProfile/{vmProfileId},/lod/vm-profiles.md
 /VirtualMachineProfile/Create,/lod/vm-profiles.md
 /VirtualMachineProfile/Edit/{vmProfileId},/lod/vm-profiles.md
