@@ -2,7 +2,7 @@ route,target
 /,/lod/home.md
 /AccessControlList/Create,/lod/access-control-lists.md
 /AccessControlList/Edit/{accessControlListId},/lod/access-control-lists.md
-/AccessControlPolicy,/lod/create-a-restriction-policy.md
+/AccessControlPolicy/{AccessControlPolicyId},/lod/create-a-restriction-policy.md
 /AccessControlPolicy/Create,/lod/create-a-restriction-policy.md
 /AccessControlPolicy/Edit/{AccessControlPolicyId},/lod/create-a-restriction-policy.md
 /ApiConsumer/Create,/lod/lod-api/lod-api-main.md
