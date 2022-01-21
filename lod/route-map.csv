@@ -13,7 +13,7 @@ route,target
 /CloudSubscriptionPool/Edit/{cloudPoolId},/lod/create-cloud-subscription-pool.md
 /CloudTemplate/{cloudTemplateId},/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md
 /CloudTemplate/Create,/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md
-/CloudTemplate/Edit{cloudTemplateId},/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md
+/CloudTemplate/Edit/{cloudTemplateId},/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md
 /ContainerImage/Create,/lod/container-images.md
 /ContainerImage/Edit{containerId},/lod/container-images.md
 /ContainerRegistry,/lod/container-registries.md
