@@ -8,6 +8,7 @@ route,target
 /ApiConsumer/Edit{apiConsumerId},/lod/lod-api/lod-api-main.md
 /CloudSubscription/Create,/lod/create-cloud-subscription.md
 /CloudSubscription/Edit/{subscriptionId},/lod/create-cloud-subscription.md
+/CloudSubscriptionPool/{cloudPoolId},/lod/create-cloud-subscription-pool.md
 /CloudSubscriptionPool,/lod/create-cloud-subscription-pool.md
 /CloudSubscriptionPool/Edit/{cloudPoolId},/lod/create-cloud-subscription-pool.md
 /CloudTemplate/Create,/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md
