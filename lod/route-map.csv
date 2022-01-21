@@ -27,9 +27,9 @@ route,target
 /LabSeries/{labSeriesId},/lod/lab-series.md
 /LabSeries/Create,/lod/lab-series.md
 /LabSeries/Edit/{labSeriesId},/lod/lab-series.md
-/RemovableMedia/{removeableMediaId},/lod/create-removeable-media.md
-/RemovableMedia/Create,/lod/create-removeable-media.md
-/RemovableMedia/Edit/{removeableMediaId},/lod/create-removeable-media.md
+/RemovableMedia/{removeableMediaId},/lod/create-removable-media.md
+/RemovableMedia/Create,/lod/create-removable-media.md
+/RemovableMedia/Edit/{removeableMediaId},/lod/create-removable-media.md
 /TemplateGallery,/lod/template-gallery.md
 /Theme/{themeId},/lod/lod-themes.md
 /Theme/Create,/lod/lod-themes.md
