@@ -114,8 +114,6 @@ You have created or imported a virtual machine.
 
 1.  When using an attached manual with the display set to **In-line, side-by-side with main content area**, as a best practice, set the **Navigation Bar Width** to **Large**, **X-Large**, or **Custom**.
 
-2.  As a best practice, use the same value when setting the **Minimum Time Given To Saved Labs** and the **Expected Duration**.
-
 ## Build a Windows Virtual Machine
 
 1.  Set screen resolution to **1024x768**, set the desktop to a solid color, and empty the Recycle Bin.
