@@ -7,7 +7,6 @@
 </div>
 
 # What's New in Lab On Demand
-<span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other Skillable platforms?</a></span>
 
 What's new? 
 Glad you asked. 
@@ -15,6 +14,8 @@ Glad you asked.
 Check out our latest release notes **[here](https://skillable.com/release-notes/)**.
 
 <!--
+<span style="font-size:100%;"> <a href="/whats-new-toc.md">What's New in the other Skillable platforms?</a></span>
+
 ## **Released December 17, 2021**
 
 Lab Save & Timer Updates 
