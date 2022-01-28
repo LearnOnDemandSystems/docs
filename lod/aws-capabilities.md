@@ -135,8 +135,9 @@ Below is a list of **supported** and **planned support** Amazon Web Services (AW
 |[Amazon Storage Gateway](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonstoragegateway.html)|storagegateway|planned||
 |[AWS Support](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awssupport.html)|support|planned||
 |[AWS Trusted Advisor](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awstrustedadvisor.html)|trustedadvisor|planned||
-|[AWS WAF](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awswaf.html)|waf|planned||
-|[AWS WAF Regional](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awswafregional.html)|waf-regional|planned||
+|[AWS WAF Classic](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awswaf.html)|waf|Supported||
+|[AWS WAF v2](https://docs.aws.amazon.com/service-authorization/latest/reference/list_awswafv2.html)|wafv2|Supported||
+|[AWS WAF Regional](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awswafregional.html)|waf-regional|Supported||
 |[AWS XRay](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsxray.html)|xray|planned||
 |[Auto Scaling](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsautoscaling.html)|autoscaling|planned||
 |[Auto Scaling Plans](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsbatch.html)|autoscaling-plans|supported||
