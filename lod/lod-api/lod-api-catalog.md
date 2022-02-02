@@ -36,7 +36,7 @@ The **Catalog** command will return all lab series, lab profiles, and delivery r
 |Name|String|No|The name of the lab profile|
 |Number|String|No|The lab number (usually to identify a lab within a series, e.g. Module 1, Module 2, etc.)|
 |PlatformId|Integer|No|The virtualization platform the lab is run on.|
-||||-1 = None|
+||||1 = None|
 ||||2 = Hyper-V|
 ||||3 = vSphere|
 ||||10 = Azure|
@@ -76,7 +76,7 @@ The **Catalog** command will return all lab series, lab profiles, and delivery r
 
 |Name|Type|Nullable|Note
 |--- |--- |--- |--- |
-|Id|Integer|No|The unique identifier of the delivery region|
+|Id|Integer|No|The unique identifier of the delivery region. When specified, Lab on Demand will attempt to launch the lab in the specified delivery region if a suitable host in that region is available and all required storage is available in that region. Delivery regions can be found using the [DeliveryRegions command](lod-api-delivery-regions.md) or [Catalog command](lod-api-catalog.md). Using the ipAddress parameter will result in a more reliable geo-location of the lab for the end user.||
 |Name|String|No|The name of the delivery region|
 |Description|String|Yes|A brief description of the delivery region|
 
@@ -120,7 +120,7 @@ https://labondemand.com/api/v3/catalog
             "Scenario":" This is the HTML-formatted scenario of the lab",
             "DurationMinutes": 360,
             "ExpectedDurationMinutes":60,
-            "RAM": 8192,
+            "Ram": 8192,
             "HasIntegratedContent": true,
             "ContentVersion": 2,
             "IsExam": false,
@@ -147,7 +147,7 @@ https://labondemand.com/api/v3/catalog
             "Scenario": "This is the HTML-formatted scenario of the lab",
             "DurationMinutes": 360,
             "ExpectedDurationMinutes":60,
-            "RAM": 4096,
+            "Ram": 4096,
             "HasIntegratedContent": true,
             "ContentVersion": 2,
             "IsExam": false,

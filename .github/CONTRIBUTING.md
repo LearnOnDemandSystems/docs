@@ -1,5 +1,5 @@
-## Contribute to Learn on Demand Systems technical documentation
-We welcome contributions from our community as well as from Learn on Demand Systems employees from outside the documentation teams. How you contribute depends on who you are and the sort of changes you'd like to contribute:
+## Contribute to Skillable technical documentation
+We welcome contributions from our community as well as from Skillable employees from outside the documentation teams. How you contribute depends on who you are and the sort of changes you'd like to contribute:
 
 * **Community - minor updates**: If you are contributing minor updates, you can find the article in this repository using the search field, or by navigating to [Lab on Demand](https://labondemand.com) or our [Training Management System](https://lms.learnondemand.net), clicking the **Help** button at the top of the window, navigating to the help documentation that you want to contribute to, and then clicking the **Edit** button in the Integrated Help client. Then, use the GitHub UI to make your updates. Or, you are welcome to fork the repository and submit updates from your fork.
 

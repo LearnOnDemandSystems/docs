@@ -10,22 +10,22 @@
   <div class="cardContainerFull">
     <div class="cardContent">
       <div class="category">
-        <a href="https://www.learnondemandsystems.com/simplified-developer-experience/" class="categoryThread">
-          <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
+        <a href="https://www.skillable.com/simplified-developer-experience/" class="categoryThread">
+          <i class="material-icons light-green" aria-hidden="true">bookmarks</i>
           <span class="categoryTitleFeatured" title="Simplified Developer Experience">Simplified Developer Experience</span>
           <span class="categoryDescription" title="Introducing the User Dashboard and Template Gallery.">Introducing the User Dashboard and Template Gallery.</span>
         </a>
       </div>
         <div class="category">
         <a href="lod-api/lod-api-main.md" class="categoryThread">
-          <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
+          <i class="material-icons light-green" aria-hidden="true">bookmarks</i>
           <span class="categoryTitleFeatured" title="API Documentation">API Documentation</span>
           <span class="categoryDescription" title="Documentation on how and when to use the Lab on Demand API.">Documentation on how and when to use the Lab on Demand API.</span>
         </a>
       </div>
       <div class="category"> 
         <a href="/lod/code-lab.md" class="categoryThread">
-          <i class="material-icons blue" aria-hidden="true">bookmarks</i>
+          <i class="material-icons green" aria-hidden="true">bookmarks</i>
           <span class="categoryTitleFeatured" title="Code Labs">Code Labs</span>
           <span class="categoryDescription" title="Code Lab Authoring explained. Glossary of terms and walkthrough for creating your first code lab.">Code Lab Authoring explained. Glossary of terms and walkthrough for creating your first code lab.</span>
         </a>
@@ -47,19 +47,19 @@
         <div class="cardHeader" tabindex="0" title="Cloud Slice Lab Development" aria-label="Cloud Slice Lab Development Docs">Cloud Slice Lab Development</div>
         <div class="category">
           <a href="/guides/cloud-slice/aws/aws-cloud-slice-setup.md" class="categoryThread">
-            <i class="material-icons light-blue" aria-hidden="true">cloud_done</i>
+            <i class="material-icons light-green" aria-hidden="true">cloud_done</i>
             <span class="categoryTitle" title="Enable Cloud Slice Support in AWS">Enable Cloud Slice Support in AWS</span>
           </a>
         </div>
         <div class="category"> 
           <a href="azure-css.md" class="categoryThread">
-            <i class="material-icons blue" aria-hidden="true">cloud_done</i>
+            <i class="material-icons green" aria-hidden="true">cloud_done</i>
             <span class="categoryTitle" title="Microsoft Azure Cloud Slice Subscription">Microsoft Azure Cloud Slice Subscription</span>
           </a>
         </div>
         <div class="category">  
           <a href="/guides/cloud-slice/cloud-slice.md" class="categoryThread">
-            <i class="material-icons light-blue" aria-hidden="true">cloud_done</i>
+            <i class="material-icons light-green" aria-hidden="true">cloud_done</i>
             <span class="categoryTitle" title="Cloud Slice Setup Guide">Cloud Slice Setup Guide</span>
           </a>
         </div>
@@ -103,19 +103,19 @@
         <div class="cardHeader" tabindex="0" title="Performance Based Testing and Scoring" aria-label="Performance Based Testing and Scoring Docs">Performance Based Testing and Scoring</div>
         <div class="category">
           <a href="/lod/activities.md" class="categoryThread">
-            <i class="material-icons light-blue" aria-hidden="true">assessment</i>
+            <i class="material-icons light-green" aria-hidden="true">assessment</i>
             <span class="categoryTitle">IDLx Activities</span>
           </a>
         </div>
         <div class="category">
           <a href="/lod/pbt/overview.md" class="categoryThread">
-            <i class="material-icons blue" aria-hidden="true">assessment</i>
+            <i class="material-icons green" aria-hidden="true">assessment</i>
             <span class="categoryTitle" title="PBT Overview">PBT Overview</span>
           </a>
         </div>
         <div class="category">
           <a href="/guides/idl2/idlv2-authoring-guide-and-best-practice.md" class="categoryThread">
-            <i class="material-icons light-blue" aria-hidden="true">assessment</i>
+            <i class="material-icons light-green" aria-hidden="true">assessment</i>
             <span class="categoryTitle" title="IDLx Authoring Guide">IDLx Authoring Guide</span>
           </a>
         </div>
@@ -159,19 +159,19 @@
         <div class="cardHeader" tabindex="0" title="Lab on Demand Administration" aria-label="Lab on Demand Administration Docs">Lab on Demand Administration</div>
         <div class="category">
           <a href="/lod/feature-focus/lod-experience.md" class="categoryThread">
-            <i class="material-icons light-blue" aria-hidden="true">account_box</i>
+            <i class="material-icons light-green" aria-hidden="true">account_box</i>
             <span class="categoryTitle" title="Introduction to Lab on Demand UI">Introduction to Lab on Demand UI</span>
           </a>
         </div>
         <div class="category">
           <a href="/lod/feature-focus/lab-profiles/create.md" class="categoryThread">
-            <i class="material-icons blue" aria-hidden="true">account_box</i>
+            <i class="material-icons green" aria-hidden="true">account_box</i>
             <span class="categoryTitle" title="Lab Profile Creation and Explanation">Lab Profile Creation and Explanation</span>
           </a>
         </div>
         <div class="category">
           <a href="/lod/vm-profiles.md" class="categoryThread">
-            <i class="material-icons light-blue" aria-hidden="true">account_box</i>
+            <i class="material-icons light-green" aria-hidden="true">account_box</i>
             <span class="categoryTitle" title="Virtual Machine Profile Creation and Explanation">Virtual Machine Profile Creation and Explanation</span>
           </a>
         </div>

@@ -34,7 +34,7 @@ For example, a request to get the entire lab catalog will look like:
 
 
 ## API Key
-- All methods require an API key, which must be obtained from Learn on Demand Systems. This key is used by Lab on Demand to validate your account. The key can be passed as an HTTP request header with the header name "api_key".
+- All methods require an API key, which must be obtained from Skillable. This key is used by Lab on Demand to validate your account. The key can be passed as an HTTP request header with the header name "api_key".
 
 ## API Response Format
 
@@ -42,7 +42,7 @@ All responses are formatted as JSON. A full explanation of each response is incl
 
 ## Date Formats
 
-All dates are in unix epoch time, which is the number of seconds that have elapsed since midnight UTC January 1st, 1970. Values are always rounded to the nearest whole second.
+All dates are in Unix Epoch time, which is the number of seconds that have elapsed since midnight UTC January 1st, 1970. Values are always rounded to the nearest whole second.
 
 ## Postman Collection
 

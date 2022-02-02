@@ -19,4 +19,4 @@ For users with administrative functions, you can choose the following for the Ad
 - **Site Admin** - currently is the same as Default
 - **Custom** – requires the URL of the page you want as the landing page. This can be a page in the TMS or a TMS webpage*.
 
-For help setting your landing pages, please submit a support ticket from our [Customer Support](https://www.learnondemandsystems.com/customer-support/) page.
+For help setting your landing pages, please submit a support ticket from our [Customer Support](https://www.skillable.com/customer-support/) page.

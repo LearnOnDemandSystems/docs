@@ -18,7 +18,7 @@ The **Class** command returns information about a class.
 |End|Long|No|When the class ends (in Unix epoch time)|
 |Expires|Long|No|When labs can no longer be associated with the class (in Unix epoch time)|
 |Instructor|Instructor|Yes|The class instructor. See the Instructor Type below.|
-|Url|String|No|A URL where the class can be viewed|
+|URL|String|No|A URL where the class can be viewed|
 |Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
 ## Instructor

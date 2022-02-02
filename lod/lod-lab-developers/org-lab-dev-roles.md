@@ -42,7 +42,7 @@ This section defines the roles available to lab developers.
 
 ### Organization Role Admin
 
-This role grants no developer permissions, but grants the ability to assign other Lab Developer Roles to users in their Organization. This role is reserved for Organization Administrators and provides the opportunity for self-service permission managemnent.
+This role grants no developer permissions, but grants the ability to assign other Lab Developer Roles to users in their Organization. This role is reserved for Organization Administrators and provides the opportunity for self-service permission management.
 
 **Organization Role Admins** can assign the following roles:
 
@@ -81,45 +81,45 @@ This role is designed for users who manage the cloud subscription accounts and w
 
 **Organization Cloud Orchestration Admins** have the ability to access and manage the following LOD features:
 
-- [Access Control Policies](https://docs.learnondemandsystems.com/lod/create-a-restriction-policy.md#access-control-policies-acp)
+- [Access Control Policies](https://docs.skillable.com/lod/create-a-restriction-policy.md#access-control-policies-acp)
 - Cloud Credential Pools
-- [Cloud Orchestration](https://docs.learnondemandsystems.com/guides/cloud-slice/cloud-slice.md)
-- [Cloud Subscription Pools](https://docs.learnondemandsystems.com/lod/create-cloud-subscription-pool.md)
+- [Cloud Orchestration](https://docs.skillable.com/guides/cloud-slice/cloud-slice.md)
+- [Cloud Subscription Pools](https://docs.skillable.com/lod/create-cloud-subscription-pool.md)
 - Cloud Subscriptions
 
 ### Organization Lab Developer
-This role is the base role for lab development. It grants access to most lab development fuctions.
+This role is the base role for lab development. It grants access to most lab development functions.
 
 **Organization Lab Developers** have the ability to access and manage the following LOD features:  
 
-- [Access Control Lists](https://docs.learnondemandsystems.com/lod/access-control-lists.md)
-- [Container Images](https://docs.learnondemandsystems.com/lod/container-images.md)
-- [Container Registries](https://docs.learnondemandsystems.com/lod/container-registries.md)
+- [Access Control Lists](https://docs.skillable.com/lod/access-control-lists.md)
+- [Container Images](https://docs.skillable.com/lod/container-images.md)
+- [Container Registries](https://docs.skillable.com/lod/container-registries.md)
 - Storage
-- [Exam Scoring](https://docs.learnondemandsystems.com/lod/pbt/overview.md)
+- [Exam Scoring](https://docs.skillable.com/lod/pbt/overview.md)
 - Developer Files
 - Launching Labs
 - Lab Instructions
-- [Lab Profiles](https://docs.learnondemandsystems.com/lod/feature-focus/lab-profiles/create.md)
-- [Lab Series](https://docs.learnondemandsystems.com/lod/lab-series.md)
+- [Lab Profiles](https://docs.skillable.com/lod/feature-focus/lab-profiles/create.md)
+- [Lab Series](https://docs.skillable.com/lod/lab-series.md)
 - Lab Tags
-- [Removable Media](https://docs.learnondemandsystems.com/lod/create-removable-media.md)
-- [Themes](https://docs.learnondemandsystems.com/lod/lod-themes.md)
-- [Virtual Machine Profiles](https://docs.learnondemandsystems.com/lod/vm-profiles.md)
+- [Removable Media](https://docs.skillable.com/lod/create-removable-media.md)
+- [Themes](https://docs.skillable.com/lod/lod-themes.md)
+- [Virtual Machine Profiles](https://docs.skillable.com/lod/vm-profiles.md)
 
 ### Organization Lab Report Viewer
 This is a view-only role is intended for collecting data and viewing reports on lab activity within an Organization. **Organization Lab Report Viewers** can view the following:
-- [API](https://docs.learnondemandsystems.com/lod/lod-api/lod-api-main.md) errors
+- [API](https://docs.skillable.com/lod/lod-api/lod-api-main.md) errors
 - Lab Instances
-- [Lab Profiles](https://docs.learnondemandsystems.com/lod/feature-focus/lab-profiles/create.md)
+- [Lab Profiles](https://docs.skillable.com/lod/feature-focus/lab-profiles/create.md)
 - Lab Profile statistics
-- [Lab Series](https://docs.learnondemandsystems.com/lod/lab-series.md)
+- [Lab Series](https://docs.skillable.com/lod/lab-series.md)
 - Users
 
 **Note**: This role also grants the ability to launch labs. 
 
 ## Supplemental Roles
-Supplemental Roles are intented to be added in addition to Base Roles. They can be assigned alone, but this can result in missing dependent permissions.
+Supplemental Roles are intended to be added in addition to Base Roles. They can be assigned alone, but this can result in missing dependent permissions.
 
 ### Organization Activity Editor
 Grants the ability to manage lab activities. These permissions are included in [Organization Lab Developer](#organization-lab-developer). 
@@ -131,10 +131,10 @@ Grants the ability to manage Advertising Campaigns.
 Grants the ability to manage Bug Reports.
 
 ### Organization Cloud Slice for Lab Authors
-Grants [Cloud Orchestration](https://docs.learnondemandsystems.com/guides/cloud-slice/cloud-slice.md) functionality in Lab Profiles, [Access Control Policy](https://docs.learnondemandsystems.com/lod/create-a-restriction-policy.md#access-control-policies-acp) management, and [Cloud Resource Template](https://docs.learnondemandsystems.com/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md) management. Also grants the ability to view Cloud Subscriptions. These permissions are included in [Organization Cloud Orchestration Admin](#organization-cloud-orchestration-admin)
+Grants [Cloud Orchestration](https://docs.skillable.com/guides/cloud-slice/cloud-slice.md) functionality in Lab Profiles, [Access Control Policy](https://docs.skillable.com/lod/create-a-restriction-policy.md#access-control-policies-acp) management, and [Cloud Resource Template](https://docs.skillable.com/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md) management. Also grants the ability to view Cloud Subscriptions. These permissions are included in [Organization Cloud Orchestration Admin](#organization-cloud-orchestration-admin)
 
 ### Organization Evaluation Control
-Grants the ability to manage post-lab Evalutations and view responses.
+Grants the ability to manage post-lab Evaluations and view responses.
 
 ### Organization Evaluation Viewer
 Grants the ability to view Evaluations and their responses. These permissions are included in [Organization Evaluation Control](#organization-evaluation-control).
@@ -158,13 +158,13 @@ Grants the ability to view Lab Profiles and Lab Series. These permissions are in
 Grants the ability to view and Publish Lab Series to [API Consumers](https://docs.learnondemandsystems.com/lod/lod-api/lod-api-main.md).
 
 ### Organization Template Gallery Management
-Grants the ability to publish Lab Profiles to the Organization [Template Gallery](https://docs.learnondemandsystems.com/lod/template-gallery.md), and grants Lab Tag management. 
+Grants the ability to publish Lab Profiles to the Organization [Template Gallery](https://docs.skillable.com/lod/template-gallery.md), and grants Lab Tag management. 
 
 ### Organization Theme Management
-Grants the ability to manage [Themes](https://docs.learnondemandsystems.com/lod/lod-themes.md). These permissions are included in [Organization Lab Developer](#organization-lab-developer).
+Grants the ability to manage [Themes](https://docs.skillable.com/lod/lod-themes.md). These permissions are included in [Organization Lab Developer](#organization-lab-developer).
 
 ### Organization VM Profile Viewer
-Grants the ability to view [VM Profiles](https://docs.learnondemandsystems.com/lod/vm-profiles.md). These permissions are included in [Organization Lab Developer](#organization-lab-developer).
+Grants the ability to view [VM Profiles](https://docs.skillable.com/lod/vm-profiles.md). These permissions are included in [Organization Lab Developer](#organization-lab-developer).
 
 ## Organization Management
 

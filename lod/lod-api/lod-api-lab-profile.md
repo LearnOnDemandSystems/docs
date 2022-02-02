@@ -16,7 +16,7 @@ The **LabProfile** command will return information about a specific lab profile.
 |Name|String|No|The name of the lab profile|
 |Number|String|Yes|The lab number (usually to identify a lab within a series, e.g. Module 1, Module 2, etc.)|
 |PlatformId|Integer|No|The virtualization platform the lab is run on.|
-||||-1 = None|
+||||1 = None|
 ||||2 = Hyper-V|
 ||||3 = vSphere|
 ||||10 = Azure|
@@ -26,7 +26,7 @@ The **LabProfile** command will return information about a specific lab profile.
 ||||null = None|
 ||||10 = Azure|
 ||||11 = AWS|
-|SeriesId|Integer|Yes|The unique identifier of the series the lab profile belongs to|
+|SeriesId|Integer|Yes|The unique identifier of the series the lab profile belongs to.|
 |Enabled|Boolean|No|Whether the lab is currently enabled for launch.|
 |ReasonDisabled|String|Yes|The reason the lab is disabled. Only supplied when the lab is not enabled.|
 |DevelopmentStatusId|Integer|No|Indicates the development status of the lab. In general, a lab not marked as Complete should not be launched (though it can be).
@@ -38,7 +38,7 @@ The **LabProfile** command will return information about a specific lab profile.
 |Description|String|Yes|A brief description of the lab profile|
 |Objective|String|Yes|Text describing the objective of the lab|
 |Scenario|String|Yes|Text describing the scenario of the lab|
-|ExpectedDurationMinutes|Integer|No|The expected number of minutes a user will take to complete the lab|
+|ExpectedDurationMinutes|Integer|No|This response property is obsolete, and will reflect the same value shown for DurationMinutes. |
 |DurationMinutes|Integer|No|The maximum number of minutes a lab instance is allowed to run before it expires|
 |RAM|Integer|No|The amount of RAM in MB used by the lab|
 |HasIntegratedContent|Bool|No|Indicates whether the lab has integrated digital lab (IDL) content|
@@ -76,7 +76,7 @@ https://labondemand.com/api/v3/labprofile?id=1
     "Scenario":" This is the HTML-formatted scenario of the lab",
     "DurationMinutes": 360,
     "ExpectedDurationMinutes":60,
-    "RAM": 512,
+    "Ram": 512,
     "HasIntegratedContent": true,
     "ContentVersion": 2,
     "IsExam": false,

@@ -30,7 +30,7 @@ The Trigger Event is an action in the platform causing a notification to be sent
 One or more trigger events may be used. When multiple triggers are in place a notification is sent when any of the event triggers are met. After choosing the first trigger the selection list is limited to similar types of notifications based on filters and replacement text options used. 
 
 ### User created notification
-The User created trigger is the only notification available that sends the username and password. The password can only be sent on the creation of a user, if needed a password reset link can be sent from a user’s profile. A notification is triggered when a user is manually created, a group of users is imported, or users are created through the API and Learn on Demand Systems is the authenticator. 
+The User created trigger is the only notification available that sends the username and password. The password can only be sent on the creation of a user, if needed a password reset link can be sent from a user’s profile. A notification is triggered when a user is manually created, a group of users is imported, or users are created through the API and our platform is used as the authenticator. 
 
 ### Add a trigger event
 Select trigger(s) for your automated notification.
@@ -101,7 +101,7 @@ One or multiple recipients can be set for a notification. Follow the instruction
 Each notification sends an email showing a Subject line and From line. You can also add a CC’d email to receive the notification. 
 
 ### Notification From line
-You need to provide a valid email address to display in the From address, an invalid email address may be read as spam and be rejected by a recipient’s email server. The email will be sent by LODS, but this is the address which is shown to recipients. 
+You need to provide a valid email address to display in the From address, an invalid email address may be read as spam and be rejected by a recipient’s email server. The email will be sent by our servers, but this is the address which is shown to recipients. 
 
 ### Notification CC line
 A carbon copy (CC) email address can be added. When in place a copy of each notification is sent to the recipient.

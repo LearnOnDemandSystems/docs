@@ -242,6 +242,10 @@
         <div class="subtopic_title">Lab Profile Cloning</div>
         <div class="subtopic_description">Create a duplicate copy of a lab profile by cloning.</div>
       </a>  
+      <a class="subtopic_link" href="/lod/inherit-lab-profile.md">
+        <div class="subtopic_title">Lab Profile Inheritance</div>
+        <div class="subtopic_description">Configure a lab profile to inherit the environment and content from another lab profile.</div>
+      </a>
       <a class="subtopic_link" href="/lod/lab-series-cloning.md">
         <div class="subtopic_title">Lab Series Cloning</div>
         <div class="subtopic_description">Create a duplicate copy of a Lab Series by cloning.</div>
@@ -254,9 +258,9 @@
         <div class="subtopic_title">Lab Series Creation and Explanation</div>
         <div class="subtopic_description">Lab Series creation, and explanation of lab series configuration.</div>
       </a>
-      <a class="subtopic_link" href="/lod/lods-enhanced-account-security.md">
-        <div class="subtopic_title">Learn on Demand Systems Enhanced Account Security</div>
-        <div class="subtopic_description">Guidance for authenticating user accounts with Learn on Demand Systems Platforms, as well as account management in each platform.</div>
+      <a class="subtopic_link" href="/lod/skillable-enhanced-account-security.md">
+        <div class="subtopic_title">Skillable Enhanced Account Security</div>
+        <div class="subtopic_description">Guidance for authenticating user accounts with Skillable Platforms, as well as account management in each platform.</div>
       </a>      
       <a class="subtopic_link" href="/lod/life-cycle-actions.md">
         <div class="subtopic_title">Life Cycle Actions</div>
@@ -290,6 +294,14 @@
          <div class="subtopic_title">Persist Container Changes</div>
          <div class="subtopic_description">Allows you to permanently persist container changes so that they are used in future lab launches.</div>
       </a>
+      <a class="subtopic_link" href="/lod/platform-terminology.md">
+        <div class="subtopic_title">Platform Terminology</div>
+        <div class="subtopic_description">Explanation of terminology used in Lab on Demand.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/publish-lab-series.md">
+        <div class="subtopic_title">Publishing a Lab Series to Production</div>
+        <div class="subtopic_description">This document describes the process of moving labs from Development to Production in Lab on Demand.</div>
+      </a>
       <a class="subtopic_link" href="/lod/feature-focus/cloud-resource-templates/replacement-tokens.md">
         <div class="subtopic_title">Replacement Tokens</div>
         <div class="subtopic_description">Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.</div>
@@ -304,7 +316,7 @@
       </a>
       <a class="subtopic_link" href="/lod/spla-supported.md">
         <div class="subtopic_title">SPLA Supported Software</div>
-        <div class="subtopic_description">Supported products and the conditions within Learn on Demand Systems implementation of the SPLA program.</div>
+        <div class="subtopic_description">Supported products and the conditions within Skillable implementation of the SPLA program.</div>
       </a>
       <a class="subtopic_link" href="/lod/terminal-access.md">
         <div class="subtopic_title">SSH Terminal Access</div>

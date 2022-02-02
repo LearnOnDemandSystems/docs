@@ -6,7 +6,7 @@ isPublished: true
 
 # Shared Labs
 
-Shared Labs is a tool used in LODS to create environments which share
+Shared Labs is a tool used in Skillable to create environments which share
 their networks with each other to allow machines to communicate between
 a Shared Lab Environment and a Participant (or Participants). This can
 be done with any current or new Lab Profile with the correct
@@ -64,7 +64,7 @@ Environment and its shared networks.
 
 ## Create a Course in the TMS.
 The Learn on Demand System's TMS is required for shared labs. A course will need to be
-created by an operations manager or requested through our TMS administrative team. Operation Managers may open a support ticket to request permissions to create a course at https://www.learnondemandsystems.com/customer-support/
+created by an operations manager or requested through our TMS administrative team. Operation Managers may open a support ticket to request permissions to create a course at https://www.skillable.com/customer-support/
 
 1.  Name of course
 

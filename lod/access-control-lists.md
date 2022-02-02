@@ -32,7 +32,7 @@ ACLs use blacklists and whitelists. Domains added to the blacklist will not be r
     - **Enabled**: select to enable this ACL for use. 
 
 1. Under **Blacklist**:
-    - In the **Domains** field, enter any domains you want to dissallow access to in the lab, each on a newline.
+    - In the **Domains** field, enter any domains you want to disallow access to in the lab, each on a newline.
 
     - In the **Expressions** field, enter any regular expressions, each on a newline.
 
@@ -41,17 +41,17 @@ ACLs use blacklists and whitelists. Domains added to the blacklist will not be r
 
     - In the **Expressions** field, enter any regular expressions, each on a newline.
 
-Domains and expressions added to the Blacklist will be superceeded by domains and expressions added to the Whitelist. 
+Domains and expressions added to the Blacklist will be superseded by domains and expressions added to the Whitelist. 
 
 For example, you could:
-- Add `.*learnondemandsystems\.com` to the blacklist expressions field
-- Add `docs.learnondemandsystems.com` to the whitelist domains field 
+- Add `*skillable\.com` to the blacklist expressions field
+- Add `docs.skillable.com` to the whitelist domains field 
 
     ![](images/configured-black-and-white-lists.png)
 
-This configuration would block the VM from accessing learnondemandsystems.com, but would allow access to docs.learnondemandsystems.com
+This configuration would block the VM from accessing skillable.com, but would allow access to docs.skillable.com
 
->[!knowledge] Some browswers may handle regex differently and you may need to adjust regex expressions. For example, some browsers may work with an expression like`.*\.learnondemandsystems\.com` and some browsers may work better with an expression like `.*learnondemandsystems\.com`.
+>[!knowledge] Some browsers may handle regex differently and you may need to adjust regex expressions. For example, some browsers may work with an expression like`.*\.skillable\.com` and some browsers may work better with an expression like `.*skillable\.com`.
 
 ## Assigning an Access Control List
 
@@ -75,7 +75,7 @@ Some of the most frequently used parts of regex syntax:
 
 |Expression|Description|
 |---|---|
-|.|Matches any single character (use "\." to match a ".").|
+|.|Matches any single character (use "\\." to match a ".").|
 |[abc]|Matches one of the characters ([abc] matches a single "a" or "b" or "c")|
 |[c-g]|Matches one of the characters in the range ("[c-g]" matches a single "c" or "d" or "e" or "f" or "g".|
 ||"[a-z0-9]" matches any single letter or digit.|
@@ -90,7 +90,7 @@ Some of the most frequently used parts of regex syntax:
 
 For more information on Expressions, check out the [SquidGuard documentation](https://web.archive.org/web/20180807025620/http://squidguard.org/Doc/expressionlist.html).
 
-For example, a basic expressionlist to allow access (if placed in the whitelist) to the Azure portal and some Azure features: 
+For example, a basic expression list to allow access (if placed in the whitelist) to the Azure portal and some Azure features: 
 
 `.*\.azure\.net`
 

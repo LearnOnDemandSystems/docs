@@ -3,8 +3,10 @@ title: "Azure Virtualization"
 description: "Deploy an Azure hosted virtual machine."
 isPublished: true
 ---
-
 # Create an Azure Hosted Virtual Machine
+
+> [!alert] This is a deprecated method. For new implementations, please use the [Shared Image Gallery](/lod/azure-shared-image-gallery-vm.md) method instead. 
+
 
 1. [Overview](#overview)
 1. [Azure Set Up](#azure-set-up)

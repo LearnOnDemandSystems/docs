@@ -4,7 +4,11 @@ The **Stats** command returns statistics about how many labs are currently activ
 
 ## Parameters
 
-non
+There are no parameters for this API command. 
+
+|Name|Type|Required|Note|
+|--- |--- |--- |--- |
+|N/A|N/A|N/A|N/A|
 
 ## Response
 

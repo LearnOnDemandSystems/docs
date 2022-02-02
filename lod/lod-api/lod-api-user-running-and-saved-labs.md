@@ -24,7 +24,7 @@ The **UserRunningAndSavedLabs** command retrieves all labs that are currently ru
 |LabProfileNumber|String|No|The number/code of the lab profile the lab instance is based on|
 |Start|Long|No|When the lab instance was started (in Unix epoch time)|
 |Expires|Long|No|When the lab will expire (in Unix epoch time)|
-|Url|String|No|A URL where the lab can be viewed by the user|
+|URL|String|No|A URL where the lab can be viewed by the user|
 |IsExam|Boolean|No|Indicates whether the lab is considered a scorable exam|
 
 ## SavedLab

@@ -169,7 +169,7 @@ The IDLx environment provides markdown characters that define the format of your
 
 -   If you are following the [Microsoft Writing Style Guide](https://docs.microsoft.com/en-us/style-guide/welcome/), use sentence case for your headings.
 
-\##Heading 2
+    \##Heading 2
 
 - Use Heading 2 style for tasks that are all on the same page.
 

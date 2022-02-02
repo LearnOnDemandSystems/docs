@@ -18,7 +18,7 @@ Virtual machine (VM) profiles can be created by importing an OVA file into a lab
 
 ## Uploading an OVA File
 
-As a lab developer, you can create a VM from an OVA file on a lab profile. Your user account must have the proper permissions to allow editing and importing lab profiles. If you do not have the proper permissions, or if you are unsure if you have the proper permissions, please reach out to our [customer support team](http://www.learnondemandsystems.com/customer-support/).
+As a lab developer, you can create a VM from an OVA file on a lab profile. Your user account must have the proper permissions to allow editing and importing lab profiles. If you do not have the proper permissions, or if you are unsure if you have the proper permissions, please reach out to our [customer support team](https://skillable.com/customer-support/).
 
 ### Organization Storage
 
@@ -50,7 +50,7 @@ After the file finishes uploading, it will be available to import as a VM on lab
 
 ## Importing an OVA File as a VM
 
-The VM will be created by importing the OVA file on the lab profile. Importing requires your user account to have the proper permissions to edit and import lab profiles. If you do not have the proper permissions, or if you are unsure if you have the proper permissions, please reach out to our [customer support team](http://www.learnondemandsystems.com/customer-support/).
+The VM will be created by importing the OVA file on the lab profile. Importing requires your user account to have the proper permissions to edit and import lab profiles. If you do not have the proper permissions, or if you are unsure if you have the proper permissions, please reach out to our [customer support team](https://skillable.com/customer-support/).
 
 ### Import Limitations
 
@@ -89,7 +89,7 @@ OVA templates provide a standardization on importing into compatible platforms.
     - **Password**: The login password for the VM. This must match the password of the VM before it was exported to OVA format.  
     - **Start Automatically**: Enables the VM to start automatically when the lab is launched. If this is not enabled, the VM will not start automatically and the user will have to manually start the VM. 
 
-1. After you have completed each field, click **OK**. LOD will begin to extract the OVA file and create a virtual machine profile. The time it takes to import will vary depending on the size of the OVA file. The import process will timeout after 2 hours have elapsed. If you are not able to upload your file within the timeout period, please reach out to our [customer support team](http://www.learnondemandsystems.com/customer-support/) for assistance. 
+1. After you have completed each field, click **OK**. LOD will begin to extract the OVA file and create a virtual machine profile. The time it takes to import will vary depending on the size of the OVA file. The import process will timeout after 2 hours have elapsed. If you are not able to upload your file within the timeout period, please reach out to our [customer support team](https://skillable.com/customer-support/) for assistance. 
 
     After the import completes, the VM profile will be added to your lab. 
 

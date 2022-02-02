@@ -42,6 +42,10 @@
         <div class="subtopic_title">Lab Profile Creation and Explanation</div>
         <div class="subtopic_description">Lab profile creation, and explanation of lab profile configuration.</div>
       </a>
+      <a class="subtopic_link" href="/lod/inherit-lab-profile.md">
+        <div class="subtopic_title">Lab Profile Inheritance</div>
+        <div class="subtopic_description">Configure a lab profile to inherit the environment and content from another lab profile.</div>
+      </a>
       <a class="subtopic_link" href="/lod/lab-series.md">
         <div class="subtopic_title">Lab Series Creation and Explanation</div>
         <div class="subtopic_description">Lab Series creation, and explanation of lab series configuration.</div>
@@ -50,13 +54,21 @@
         <div class="subtopic_title">Lab Instance Sharing</div>
         <div class="subtopic_description">Lab Instance Sharing allows multiple users to work together in a lab profile at the same time. </div>
       </a>
-      <a class="subtopic_link" href="/lod/lods-enhanced-account-security.md">
-        <div class="subtopic_title">Learn on Demand Systems Enhanced Account Security</div>
-        <div class="subtopic_description">Guidance for authenticating user accounts with Learn on Demand Systems Platforms, as well as account management in each platform.</div>
+      <a class="subtopic_link" href="/lod/skillable-enhanced-account-security.md">
+        <div class="subtopic_title">Skillable Enhanced Account Security</div>
+        <div class="subtopic_description">Guidance for authenticating user accounts with Skillable Platforms, as well as account management in each platform.</div>
       </a>      
       <a class="subtopic_link" href="/lod/org-max-ram.md">
         <div class="subtopic_title">Organization RAM Limits</div>
         <div class="subtopic_description">Max RAM usage, max active lab instances and max RAM per lab profile.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/platform-terminology.md">
+        <div class="subtopic_title">Platform Terminology</div>
+        <div class="subtopic_description">Explanation of terminology used in Lab on Demand.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/publish-lab-series.md">
+        <div class="subtopic_title">Publishing a Lab Series to Production</div>
+        <div class="subtopic_description">This document describes the process of moving labs from Development to Production in Lab on Demand.</div>
       </a>
       <a class="subtopic_link" href="/lod/lod-support-chat.md">
         <div class="subtopic_title">Support Chat</div>

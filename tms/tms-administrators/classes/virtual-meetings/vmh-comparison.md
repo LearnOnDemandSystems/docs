@@ -18,7 +18,7 @@ Manually create meeting in VMH and then input meeting URL in TMS class | X |   |
 Creating a class in TMS automatically creates a meeting in VMH |   | X | X | X |
 **Contracts**
 Contract or License required |   | X | X | X |
-Requires LODS staff to set up integration |   | X | X | X |
+Requires our staff to set up integration |   | X | X | X |
 **Entering Class**
 Instructor and students launch virtual classroom and class activities from one page | X | X | X | X |
 Enter classroom button availability is set on the class  | X |   |   |
@@ -34,7 +34,7 @@ The custom virtual classroom is available to all organizations anytime you sched
 
 ## Adobe Connect Virtual Meeting Host Integration
 
-Once you have an Adobe Connect contract, you can send information to our LODS staff to implement an [integration.](/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md) Once in place, your Adobe Connect VMH is the default selection for virtual delivery. Scheduling a class using Adobe Connect as your virtual delivery automatically creates a meeting in Adobe Connect. 
+Once you have an Adobe Connect contract, you can send information to our help desk to implement an [integration.](/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md) Once in place, your Adobe Connect VMH is the default selection for virtual delivery. Scheduling a class using Adobe Connect as your virtual delivery automatically creates a meeting in Adobe Connect. 
 
 - You can customize pre-class and post class access to the virtual classroom. If you do not specify these settings, they default to allowing the instructor to enter the meeting 60 minutes before the class session begins and students to enter 15 minutes beforehand. The default is set to zero minutes after the session ends for the instructor and students. Your settings apply to all classes. 
 
@@ -48,7 +48,7 @@ Once you have an Adobe Connect contract, you can send information to our LODS st
 
 ## Zoom Virtual Meeting Host Integration
 
-Once you have a Zoom contract, you will need to set up a JSon Web Token application through Zoom, and send information to our LODS staff to implement an [integration.](/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md) Once in place, your Zoom VMH is the default selection for virtual delivery. Scheduling a class automatically creates a Zoom meeting when a licensed Zoom user is added as an instructor. When a Zoom meeting scheduled through the TMS is opened, it will show in the UTC time zone.
+Once you have a Zoom contract, you will need to set up a JSon Web Token application through Zoom, and send information to our help desk to implement an [integration.](/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md) Once in place, your Zoom VMH is the default selection for virtual delivery. Scheduling a class automatically creates a Zoom meeting when a licensed Zoom user is added as an instructor. When a Zoom meeting scheduled through the TMS is opened, it will show in the UTC time zone.
 
 - The account used to set up the JWT application is where the meetings will be located. The primary instructor in a class must be licensed from the same account that is set up on the JWT application in order to be verified through the API. Your instructor's email address in their TMS profile must match the email address in your Zoom account for them to be verified. Your contract with Zoom provides a pool of licenses that are not owned individually, they can be assigned to different users. You may switch out instructors on the licenses in your contract.  
 
@@ -70,7 +70,7 @@ Once you have a Zoom contract, you will need to set up a JSon Web Token applicat
 
 ## Webex Virtual Meeting Host Integration
 
-Once you have a Webex contract, you can send information to our LODS staff to implement an [integration.](/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md) Once in place, your Webex VMH is the default selection for virtual delivery. Scheduling a class using Webex as your virtual delivery automatically creates a meeting in Webex. 
+Once you have a Webex contract, you can send information to our help desk to implement an [integration.](/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md) Once in place, your Webex VMH is the default selection for virtual delivery. Scheduling a class using Webex as your virtual delivery automatically creates a meeting in Webex. 
 
 - When the class is in progress, the Virtual Meeting Host cannot be changed from WebEx to Zoom or Adobe Connect.  A new class will need to be created to accommodate this scenario.  
 
@@ -90,7 +90,7 @@ Once you have a Webex contract, you can send information to our LODS staff to im
 
 ### Additional Resources
  
-[How can I set up a class using a VMH?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/virtual-meetings/integratevirtualmeetingprovider.md) 
+[How can I set up a class using a VMH?](/tms/tms-administrators/classes/virtual-meetings/integratevirtualmeetingprovider.md) 
 
 [How can I set up an integrated virtual meeting host?](/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md)
 

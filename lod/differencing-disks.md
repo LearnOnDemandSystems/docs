@@ -39,7 +39,7 @@ To add a disk back to a VM profile, do the following:
 
 1. From the VM Profile page, click **Edit**.
 1. Scroll to the bottom of the disk chain and click **Add Differencing Disk**. 
-1. Click **Use an existing virftual hard disk file**. 
+1. Click **Use an existing virtual hard disk file**. 
 1. Navigate to the **virtual hard disk** that you wish to add to the VM profile, and click **OK**.
 1. If you receive any warnings after clicking OK, please read the warning carefully, as the disk you are attempting to use may cause issues with your VM profile. 
 1. Click **Save**.

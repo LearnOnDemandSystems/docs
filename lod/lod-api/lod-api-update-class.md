@@ -2,6 +2,8 @@
 
 The **UpdateClass** command updates a specified class.
 
+## Parameters
+
 |Name|Type|Required|Note|
 |--- |--- |--- |--- |
 |id|string|Yes|The unique identifier of the class, as represented in your organization|

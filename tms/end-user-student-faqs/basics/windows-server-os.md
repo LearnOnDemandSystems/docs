@@ -5,7 +5,7 @@ isPublished: true
 
 # Important Note for Windows Server Operating Systems Users
 
-When connecting to the Learn on Demand Systems Training Management Systems (TMS) from a Windows Server OS computer, you may experience difficulty connecting to the sign-in page or clicking on some buttons.
+When connecting to the Training Management System (TMS) from a Windows Server OS computer, you may experience difficulty connecting to the sign-in page or clicking on some buttons.
 
 If this occurs, ensure that you are signed on to your machine as a user with administrative privileges and do the following to turn off IE Enhanced Security Configuration (IE ESC):
 

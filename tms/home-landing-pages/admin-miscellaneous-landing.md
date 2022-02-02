@@ -48,9 +48,6 @@
       <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/access-moc-courseware.md">
         <div class="subtopic_title">How can my students access Skillpipe courseware from their class enrollment?</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/create-achievements-to-motivate-learners.md">
-        <div class="subtopic_title">How do I create achievements to motivate learners?</div>
-      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/view-lab-instances.md">
         <div class="subtopic_title">How can I view lab exam scores?</div>
         </a>

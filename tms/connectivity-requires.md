@@ -42,8 +42,8 @@ In addition to the software requirements above we recommend the following:
 For those that need to create a firewall exception rule to allow connectivity to the Lab on Demand servers (this isn&#39;t common), the following information can be used to create a limited destination rule to only allow the above protocols and ports from your network to the Lab on Demand cloud.
 
 - Domain Names:
+  - *.skillable.com
   - *.labondemand.com
-  - *.learnondemandsystems.com
   - *.learnondemand.net
   - *.holsystems.com
 
@@ -83,7 +83,7 @@ Click the following link to launch a test lab: [Launch the Lab Orientation & Con
 
 ## Speed Test
 
-If you are experiencing frequent disconnects or lag when controlling your machines, you may run a [speed test](https://www.learnondemandsystems.com/speedtest/). This page allows you to run a connection assessment test. A connection assessment test is a very deep and thorough test that measures throughput speed, capacity, and packet quality to assess the user experience of a connection to their respective data center. This includes efficiency, data loss, recovery, duplication of data, retransmissions and even corruption.
+If you are experiencing frequent disconnects or lag when controlling your machines, you may run a [speed test](https://www.skillable.com/speedtest/). This page allows you to run a connection assessment test. A connection assessment test is a very deep and thorough test that measures throughput speed, capacity, and packet quality to assess the user experience of a connection to their respective data center. This includes efficiency, data loss, recovery, duplication of data, retransmissions and even corruption.
 
 ## When Connections Traverse a Proxy
 
@@ -91,7 +91,7 @@ When connecting to a lab instance via a proxy, certain configuration requirement
 
 ## When Using Windows Server Operating Systems
 
-When connecting to Learn on Demand Systems Training Management Systems (TMS) portals with a computer having Windows Server operating systems on it, you may experience difficulty in connecting to the sign-in page or clicking on some buttons. Steps to remediate can be found [here.](/tms/end-user-student-faqs/basics/windows-server-os.md)
+When connecting to our Training Management System (TMS) portals with a computer having Windows Server operating systems on it, you may experience difficulty in connecting to the sign-in page or clicking on some buttons. Steps to remediate can be found [here.](/tms/end-user-student-faqs/basics/windows-server-os.md)
 
 ## In-Lab Software Whitelisting Information for Lab Developers
 

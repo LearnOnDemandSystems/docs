@@ -1,6 +1,6 @@
 # How can I set my nested VMware VMs to keep their UUID so they launch properly?
 
-When opening a nested VM, have you received the following message: "**Question (id = 0) : msg.uuid.altered:This virtual machine might have been moved or copied.**?? This is because VMware ESX believes the nested VM has been moved or copied and doesn?t recognize its universally unique identifier (UUID).
+When opening a nested VM, have you received the following message: "**Question (id = 0) : msg.uuid.altered:This virtual machine might have been moved or copied.**?? This is because VMware ESX believes the nested VM has been moved or copied and doesn't recognize its universally unique identifier (UUID).
 
 A UUID is based on the physical computer's identifier and the path to the virtual machine's configuration file. This UUID is generated when you power on or reset the virtual machine. As long as you do not move or copy the virtual machine to another location, the UUID remains constant. Since your labs are not starting on physical machines, instead using virtual machines, they are essentially starting a ?new? piece of ESX hardware every time. Nested VMs that were running previously will not successfully resume.
 

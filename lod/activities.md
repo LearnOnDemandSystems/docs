@@ -98,7 +98,6 @@ Automated Activities are PowerShell Windows command Shell Shell scripts that tar
 - PowerShell must be installed on the VM.
 
 - Supported  Windows Operating Systems:
-    - Windows 7
     - Windows 7 
     - Windows 8 
     - Windows 10
@@ -187,7 +186,7 @@ For more information about the available languages and which versions are suppor
 
     ```PowerShell
     #a variable set elsewhere in the lab, but we can use it in our script
-    $myVariable1 = "@lab.Variable(myVariable1)"
+    $myVariable1 = '@lab.Variable(myVariable1)'
     ```
 
 #### **Python**
@@ -909,10 +908,10 @@ When a section of a script is completed correctly, the student is given the scor
     $result = $False
     $hostname = [System.Net.DNS]::GetHostEntry('')
     if ($hostname.HostName -eq "LabVM" -and $hostname.AddressList.IPAddressToString     contains "192.168.1.4"){
-         Set-Activity-Result 1 "Success"
+         Set-ActivityResult 1 -Message "Success"
          $result = $True
      }elseif($hostname.AddressList.IPAddressToString -contains "192.168.1.4"){
-         Set-Activity-Result .5 -Correct  
+         Set-ActivityResult .5 -Correct  
      }else{
          "Value not found"    
      } 
@@ -926,7 +925,7 @@ When a section of a script is completed correctly, the student is given the scor
     host=$(cat /etc/hosts | grep 192.168.1.2)
     if [[ $(echo $host) == "192.168.1.2 linuxvm"* ]]
     then
-     set_activity_result 1 "Success"
+     set_activity_result 1 -Message "Success"
      RESULT=True
     elif [[ $(echo $host) == "192.168.1.2"* ]]
     then 

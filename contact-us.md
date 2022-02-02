@@ -10,7 +10,7 @@ Find answers to your questions through short topical articles in the [Help Cente
 
 ## Technical Support
 
-Please visit our [customer support page](http://www.learnondemandsystems.com/customer-support/) to submit a Support Ticket, access Help Articles or view LODS Service Status.
+Please visit our [customer support page](https://skillable.com/customer-support/) to submit a Support Ticket, access Help Articles or view our Service Status.
 
 ||||
 |---|---|---|
@@ -23,7 +23,7 @@ Please visit our [customer support page](http://www.learnondemandsystems.com/cus
 ## Sales Support
 |||
 |---|---|
-|**E-Mail** | sales@learnondemandsystems.com|
+|**E-Mail** | sales@skillable.com|
 |**Toll-free Phone** | +1 888-763-7730|
 |**Phone** | +1 727-264-1330|
 

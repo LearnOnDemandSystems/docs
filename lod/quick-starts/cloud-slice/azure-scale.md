@@ -65,12 +65,12 @@ Requests are typically fulfilled by Microsoft within a few hours, depending on t
 1. Select **Sku** 
     - For more information about Azure SKU families, see [here](https://azure.microsoft.com/en-ca/pricing/details/virtual-machines/series/).
     
-    !IMAGE[select sku family](images/azure-sku-family.png)
+    !IMAGE[select Sku family](images/azure-sku-family.png)
 
 1. Enter **New limit** amount
     - increases should only be requested for the amount of resources needed, to avoid overconsumption that could result in resources becoming unavailable to other users. 
     
-    !IMAGE[azure sku new limit](images/azure-sku-new-limit.png)
+    !IMAGE[azure Sku new limit](images/azure-sku-new-limit.png)
 
 1. Complete **Contact information** details
 
