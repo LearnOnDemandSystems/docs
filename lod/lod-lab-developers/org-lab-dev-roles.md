@@ -31,6 +31,7 @@ The Organization Lab Developer role set on LOD uses an additive model where comm
     + [Organization Lab Instance Report Viewer](#organization-lab-instance-report-viewer)
     + [Organization Lab Launcher](#organization-lab-launcher)
     + [Organization Lab Profile Viewer](#organization-lab-profile-viewer)
+    + [Organization Lab Series Publisher](#organization-lab-series-publisher)
     + [Organization Template Gallery Management](#organization-template-gallery-management)
     + [Organization Theme Management](#organization-theme-management)
     + [Organization VM Profile Viewer](#organization-vm-profile-viewer)
@@ -63,6 +64,7 @@ This role grants no developer permissions, but grants the ability to assign othe
 [Organization Lab Instance Report Viewer](#organization-lab-instance-report-viewer)  
 [Organization Lab Launcher](#organization-lab-launcher)  
 [Organization Lab Profile Viewer](#organization-lab-profile-viewer)  
+[Organization Lab Series Publisher](#organization-lab-series-publisher)  
 [Organization Template Gallery Management](#organization-template-gallery-management)  
 [Organization Theme Management](#organization-template-gallery-management)  
 [Organization VM Profile Viewer](#organization-vm-profile-viewer)
@@ -151,6 +153,9 @@ Grants the ability to view and launch labs. These permissions are included in [O
 
 ### Organization Lab Profile Viewer
 Grants the ability to view Lab Profiles and Lab Series. These permissions are included in [Organization Lab Developer](#organization-lab-developer), [Organization Lab Launcher](#organization-lab-launcher), and [Organization Lab Instance Report Viewer](#organization-lab-instance-report-viewer).
+
+### Organization Lab Series Publisher
+Grants the ability to view and Publish Lab Series to [API Consumers](https://docs.skillable.com/lod/lod-api/lod-api-main.md).
 
 ### Organization Template Gallery Management
 Grants the ability to publish Lab Profiles to the Organization [Template Gallery](https://docs.skillable.com/lod/template-gallery.md), and grants Lab Tag management. 
