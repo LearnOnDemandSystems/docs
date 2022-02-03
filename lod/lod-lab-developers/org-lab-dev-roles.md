@@ -155,7 +155,7 @@ Grants the ability to view and launch labs. These permissions are included in [O
 Grants the ability to view Lab Profiles and Lab Series. These permissions are included in [Organization Lab Developer](#organization-lab-developer), [Organization Lab Launcher](#organization-lab-launcher), and [Organization Lab Instance Report Viewer](#organization-lab-instance-report-viewer).
 
 ### Organization Lab Series Publisher
-Grants the ability to view and Publish Lab Series to [API Consumers](https://docs.learnondemandsystems.com/lod/lod-api/lod-api-main.md).
+Grants the ability to view and Publish Lab Series to [API Consumers](https://docs.skillable.com/lod/lod-api/lod-api-main.md).
 
 ### Organization Template Gallery Management
 Grants the ability to publish Lab Profiles to the Organization [Template Gallery](https://docs.skillable.com/lod/template-gallery.md), and grants Lab Tag management. 
