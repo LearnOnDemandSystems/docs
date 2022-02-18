@@ -2,7 +2,6 @@
 
 The **Class** command returns information about a class.
 
-> [!alert] This is now deprecated
 ## Parameters
 
 |Name|Type|Required|Note
