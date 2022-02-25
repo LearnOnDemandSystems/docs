@@ -224,5 +224,3 @@ The archive file that is saved will contain a content.md file as well as folders
 - [Replacement Tokens](feature-focus/cloud-resource-templates/replacement-tokens.md)
 
     Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.
-
-[Back to top](#external-instruction-source)

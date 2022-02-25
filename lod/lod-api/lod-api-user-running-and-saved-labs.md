@@ -27,7 +27,7 @@ The **UserRunningAndSavedLabs** command retrieves all labs that are currently ru
 |LabProfileNumber|String|No|The number/code of the lab profile the lab instance is based on|
 |Start|Long|No|When the lab instance was started (in Unix epoch time)|
 |Expires|Long|No|When the lab will expire (in Unix epoch time)|
-|URL|String|No|A URL where the lab can be viewed by the user|
+|URL|String|No|This response property is deprecated. Unless explicitly allowed by Skillable, this field will always be null. To obtain an access URL, use the [Launch command](lod-api-launch.md) or the [ClassAccessUrl command](lod-api-classaccessurl.md).|
 |IsExam|Boolean|No|Indicates whether the lab is considered a scorable exam|
 
 ### SavedLab
@@ -65,7 +65,7 @@ https://labondemand.com/api/v3/userrunningandsavedlabs?userid=555
             "LabProfileNumber": "LAB001",
             "Start": 1338223121,
             "Expires": 1338244721,
-            "Url": https://labondemand.com/console/setup/7fdf8e48-6d66-435d-8069-04e540db9b74,
+            "Url": null,
             "IsExam": false,
         }
     ],

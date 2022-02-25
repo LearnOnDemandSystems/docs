@@ -50,7 +50,7 @@ https://labondemand.com/api/v3/class/?id=4449999
     "Expires": 1335978000,
     "InstructorFirstName": "Demo",
     "InstructorLastName": "Instructor",
-    "Url": https://labondemand.com/class/5bbca218-2cbe-47ab-bd37-bd9b5b623dea,
+    "Url": null,
     "Status": 1,
     "Error": null
 }
