@@ -56,7 +56,7 @@ Alternatively, you may review the Lab on Demand Postman Collection (2.1) of call
 - [Cancel](lod-api-cancel.md) - Cancels a specified lab instance.
 - [Catalog](lod-api-catalog.md) - Returns all lab series, lab profiles, and delivery regions available to your organization.
 - [Class](lod-api-class.md) - Returns information about a class.
-- [ClassAccessUrl](/lod-api/lod-api-classaccessurl.md) - Returns a single use URL to access a class.
+- [ClassAccessUrl](lod-api-classaccessurl.md) - Returns a single use URL to access a class.
 - [CloseUserAccount](lod-api-close-user-account.md) - Allows an API consumer to close a user account created within the system removing all identifying information.
 - [DeleteClass](lod-api-delete-class.md) - Deletes a specified class.
 - [DeliveryRegions](lod-api-delivery-regions.md) - Returns all delivery regions available to your organization.
@@ -66,8 +66,8 @@ Alternatively, you may review the Lab on Demand Postman Collection (2.1) of call
 - [GetLabInstructions](lod-api-get-lab-instructions.md) - Returns instructions for a specific lab.
 - [GetLabInstructionsPackage](lod-api-get-lab-instructions-package.md) - Returns the contents of the instructions for a specific lab as a file archive.
 - [GetOrCreateClass](lod-api-get-or-create-class.md) - Returns information about a class. If the class doesn’t exist, it is created.
-- [LabAccessUrl](/lod-api/lod-api-lab-access-url.md) - Returns a single use URL is used to access a lab instance.
-- [LabMonitorUrl](/lod-api/lod-api-lab-monitor-url.md) - Returns a single use URL to monitor a lab instance. 
+- [LabAccessUrl](lod-api-lab-access-url.md) - Returns a single use URL is used to access a lab instance.
+- [LabMonitorUrl](lod-api-lab-monitor-url.md) - Returns a single use URL to monitor a lab instance. 
 - [LabProfile](lod-api-lab-profile.md) - Retrieves information about a specified lab profile.
 - [LatestResults](lod-api-latest-results.md) - Returns information about all lab instance results that have recently started or ended.
 - [Launch](lod-api-launch.md) - Launches a specified lab for a specified user.
