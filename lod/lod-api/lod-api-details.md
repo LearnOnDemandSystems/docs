@@ -104,7 +104,7 @@ The **Details** command retrieves detailed information about a specified lab ins
 |NumTasks|Integer|No|If the lab has content (HasContent=true), indicates the total number of tasks in the lab.|
 |NumCompletedTasks|Integer|No|If the lab has content (HasContent=true), indicates the number of tasks the student has completed.|
 |TaskCompletePercent|Integer|No|If the lab has content (HasContent=true), indicates the percentage of tasks that the student has completed.|
-|MonitorUrl|String|Yes|This response property is deprecated. Unless explicitly allowed by Skillable, this field will always be null. To obtain an access URL, use the [Launch command](/lod-api-launch.md) or the [ClassAccessUrl command](/lod-api-classaccessurl.md).
+|MonitorUrl|String|Yes|This response property is deprecated. Unless explicitly allowed by Skillable, this field will always be null. To obtain an access URL, use the [Launch command](lod-api-launch.md) or the [ClassAccessUrl command](lod-api-classaccessurl.md).
 |DetailsUrl|String|No|The URL at which the lab instance details can be reviewed (required authentication to view)|
 |Errors|Array of String|No|An array of all errors associated with the lab instance.|
 |IpAddress|String|Yes|The user's IP address. This is only included if the IP address was provided when the lab was launched.|
@@ -120,7 +120,7 @@ The **Details** command retrieves detailed information about a specified lab ins
 |CloudCredentials|Array|Yes|An array of credentials assigned to the lab instance. See the CloudCredentials Type below.|
 |CloudPortalCredentials|Array|Yes|An array of credentials assigned to the lab instance. See the CloudPortalCredentials Type below. |
 |VirtualMachineCredentials|Array|Yes|An array of credentials used to access the virtual machines. See the VirtualMachineCredentials Type below. |
-|ClientUrl|String|No|This response property is deprecated. Unless explicitly allowed by Skillable, this field will always be null. To obtain an access URL, use the [Launch command](/lod-api-launch.md) or the [ClassAccessUrl command](/lod-api-classaccessurl.md).|
+|ClientUrl|String|No|This response property is deprecated. Unless explicitly allowed by Skillable, this field will always be null. To obtain an access URL, use the [Launch command](lod-api-launch.md) or the [ClassAccessUrl command](lod-api-classaccessurl.md).|
 |ActivityResults|Array of ActivityResults|Yes|An array of results for activities displayed in the lab instance. See the ActivityResults Type below.|
 |ActivityGroupResults|Array of ActivityGroupResults|Yes|An array of results for activity groups displayed in the lab instance. See the ActivityResults Type below.|
 |EstimatedReadySeconds|Integer|No|An estimated number of seconds before the lab is ready.|
