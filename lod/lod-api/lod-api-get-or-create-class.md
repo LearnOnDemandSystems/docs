@@ -28,7 +28,7 @@ The **GetOrCreateClass** command returns information about a class. If the class
 |End|Long|No|When the class ends (in Unix epoch time)|
 |Expires|Long|No|When labs can no longer be associated with the class (in Unix epoch time)|
 |Instructor|Instructor|Yes|The class instructor. See the Instructor Type below.|
-|URL|String|No|This response property is deprecated. Unless explicitly allowed by Skillable, this field will always be null. To obtain a class URL, use the [ClassAccessUrl API](/lod-api-classaccessurl.md).|
+|URL|String|No|This response property is deprecated. Unless explicitly allowed by Skillable, this field will always be null. To obtain a class URL, use the [ClassAccessUrl API](lod-api-classaccessurl.md).|
 |maxActiveLabInstances|Integer|Yes|The maximum number of active lab instances than can exist concurrently within this class context.|
 |availableLabs|Integer Array|Yes|The IDs of labs available for launch within the class when using the class attendance UI directly in Lab on Demand (generally not used for class deliveries managed outside of Lab on Demand).
 
