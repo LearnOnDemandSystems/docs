@@ -19,9 +19,12 @@ The **Class** command returns information about a class.
 |Expires|Long|No|When labs can no longer be associated with the class (in Unix epoch time)|
 |Instructor|Instructor|Yes|The class instructor. See the Instructor Type below.|
 |URL|String|No|A URL where the class can be viewed|
+|Status|Integer|No|Indicates the status of the API request
+||||0 = Error
+||||1 = Success|
 |Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
-## Instructor
+### Instructor
 |Name|Type|Nullable|Note
 |--- |--- |--- |--- |
 |Id|String|No|The unique identifier of the instructor, as represented in your external system|

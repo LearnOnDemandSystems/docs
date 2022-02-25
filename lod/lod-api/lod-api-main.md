@@ -11,10 +11,10 @@ isPublished: true
 Only lab profiles with a development status of **Complete** are consumable  via API. 
 
 Development/Integration Testing API available with all the same API calls your production API can make, but has the following settings:
-- Max Active Lab Instances - 5
-- Max Saved Labs per User - 1
-- Max Active Lab Instances per user - 1
-- Max lab duration - 30 minutes
+- Max Active Lab Instances: 5
+- Max Saved Labs per User: 1
+- Max Active Lab Instances per user: 5
+- Max lab duration: 30 minutes
 - Allows launching of lab profiles with any Development Status
     - i.e. is not restricted to a _Complete_ development status
 - Has a dedicated API key

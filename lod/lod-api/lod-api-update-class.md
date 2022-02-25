@@ -21,6 +21,9 @@ The **UpdateClass** command updates a specified class.
 |Name|Type|Nullable|Note|
 |--- |--- |--- |--- |
 |Success|Boolean|No|
+|Status|Integer|No|Indicates the status of the API request
+||||0 = Error
+||||1 = Success|
 |Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
 ## Example Usage
@@ -47,6 +50,3 @@ https://labondemand.com/api/v3/updateclass/?id=4449999&name=Another+Sample+Class
     "Error": null
 }
 ```
-
-
-

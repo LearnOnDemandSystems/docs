@@ -44,9 +44,12 @@ The **Result** command returns information about a particular lab instance resul
 |DatacenterId|Integer|Yes|The ID of the datacenter that the lab instance is located in.|
 |DeliveryRegionId|Integer|Yes|When specified, Lab on Demand will attempt to launch the lab in the specified delivery region if a suitable host in that region is available and all required storage is available in that region. Delivery regions can be found using the [DeliveryRegions command](lod-api-delivery-regions.md) or [Catalog command](lod-api-catalog.md). Using the ipAddress parameter will result in a more reliable geo-location of the lab for the end user.|
 |ExamDetails|Array of ExamReportDetails|No|An array of exam details containing exam questions, answers, and score results|
+|Status|Integer|No|Indicates the status of the API request
+||||0 = Error
+||||1 = Success|
 |Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
-## ExamReportDetails
+### ExamReportDetails
 
 |Name|Type|Nullable|Note
 |--- |--- |--- |--- |
@@ -54,7 +57,7 @@ The **Result** command returns information about a particular lab instance resul
 |ExamAnswerResponses|Array of longs|No|Array containing AnswerIds the user selected from the answers in the exam pages.|
 |TextAnswerResponses|Array of TextAnswerResponse|No|Array of text based typed responses from the user.|
 
-## ExamPage
+### ExamPage
 
 |Name|Type|Nullable|Note
 |--- |--- |--- |--- |
@@ -63,7 +66,7 @@ The **Result** command returns information about a particular lab instance resul
 |SortIndex|Integer|No|Sort order for this page in the pages collection.|
 |Questions|Array of ExamQuestion|No|Array of Exam Questions containing data for all questions in this page.|
 
-## TextAnswerResponse
+### TextAnswerResponse
 
 |Name|Type|Nullable|Note
 |--- |--- |--- |--- |
@@ -72,7 +75,7 @@ The **Result** command returns information about a particular lab instance resul
 |IsCorrect|Boolean|No|Grading result of the user provided text response.|
 |AnswerId|Long|No|Id that corresponds to the answer object that holds the regular expression that this must match to be correct.|
 
-## ExamQuestion
+### ExamQuestion
 
 |Name|Type|Nullable|Note
 |--- |--- |--- |--- |
@@ -90,7 +93,7 @@ The **Result** command returns information about a particular lab instance resul
 |AnswerReferenceUrl|string|No|A URL reference to the reasoning for the correct answer.|
 |Answers|Array of ExamAnswers.|No|Possible answers presented to the user for this question.|
 
-## ExamAnswers
+### ExamAnswers
 
 |Name|Type|Nullable|Note
 |--- |--- |--- |--- |

@@ -13,9 +13,12 @@ The **UserRunningAndSavedLabs** command retrieves all labs that are currently ru
 |--- |--- |--- |--- |
 |RunningLabs|Array of RunningLab|No|See the RunningLab Type below|
 |SavedLabs|Array of SavedLab|No|See the SavedLab Type below|
+|Status|Integer|No|Indicates the status of the API request
+||||0 = Error
+||||1 = Success|
 |Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
-## RunningLab
+### RunningLab
 |Name|Type|Nullable|Note|
 |--- |--- |--- |--- |
 |LabInstanceId|Long|No|The unique identifier of the lab instance|
@@ -27,7 +30,7 @@ The **UserRunningAndSavedLabs** command retrieves all labs that are currently ru
 |URL|String|No|A URL where the lab can be viewed by the user|
 |IsExam|Boolean|No|Indicates whether the lab is considered a scorable exam|
 
-## SavedLab
+### SavedLab
 
 |Name|Type|Nullable|Note|
 |--- |--- |--- |--- |

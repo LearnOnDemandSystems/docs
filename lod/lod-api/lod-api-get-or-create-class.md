@@ -31,8 +31,12 @@ The **GetOrCreateClass** command returns information about a class. If the class
 |URL|String|No|A URL where the class can be viewed, including real-time monitoring of labs launched within it.|
 |maxActiveLabInstances|Integer|Yes|The maximum number of active lab instances than can exist concurrently within this class context.|
 |availableLabs|Integer Array|Yes|The IDs of labs available for launch within the class when using the class attendance UI directly in Lab on Demand (generally not used for class deliveries managed outside of Lab on Demand).
+|Status|Integer|No|Indicates the status of the API request
+||||0 = Error
+||||1 = Success|
+|Error|String|True|In the event of an error, this will contain a detailed error message.|
 
-## Instructor
+### Instructor
 
 |Name|Type|Nullable|Note|
 |--- |--- |--- |--- |

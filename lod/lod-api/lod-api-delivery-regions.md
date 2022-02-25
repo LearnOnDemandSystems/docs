@@ -11,9 +11,12 @@ none
 |Property|Type|Nullable|Note
 |--- |--- |--- |--- |
 |DeliveryRegions|Array of DeliveryRegion|No|See the DeliveryRegion Type below|
+|Status|Integer|No|Indicates the status of the API request.
+||||0 = Error
+||||1 = Success|
 |Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
-## DeliveryRegion
+### DeliveryRegion
 
 |Property|Type|Nullable|Note
 |--- |--- |--- |--- |

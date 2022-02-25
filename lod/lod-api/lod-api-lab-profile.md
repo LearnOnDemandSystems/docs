@@ -46,11 +46,15 @@ The **LabProfile** command will return information about a specific lab profile.
 |IsExam|Bool|No|Indicates whether the lab is scored as an exam|
 |PremiumPrice|Decimal|No|The consumption cost of the lab when premium experience features are included.|
 |BasicPrice|Decimal|No|The consumption cost of the lab when only basic experience features are included.|
-|Tags|Array of String|No|A list of tags associated with the lab profile.
 |SharedClassEnvironmentRoleId|Integer|Yes|Indicates the role the lab plays in a shared environment|
 ||||0 = None. This lab has no shared environment involvement at all. Most labs work this way.)|
 ||||10 = Shared Environment. This lab provides the shared infrastructure that participant labs will connect into. Typically launched and maintained by an administrator or instructor.|
 ||||20 = Participant. This lab will connect into shared environments and act as a participant. Typically launched by students.|
+|Status|Integer|No|Indicates the status of the API request
+||||0 = Error
+||||1 = Success|
+|Error|String|True|In the event of an error, this will contain a detailed error message.|
+|Tags|Array of String|No|A list of tags associated with the lab profile.
 
 ## Example Usage
 
