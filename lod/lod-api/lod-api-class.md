@@ -18,7 +18,7 @@ The **Class** command returns information about a class.
 |End|Long|No|When the class ends (in Unix epoch time)|
 |Expires|Long|No|When labs can no longer be associated with the class (in Unix epoch time)|
 |Instructor|Instructor|Yes|The class instructor. See the Instructor Type below.|
-|URL|String|No|A URL where the class can be viewed|
+|URL|String|No|This response property is deprecated. Unless explicitly allowed by Skillable, this field will always be null. To obtain a class URL, use the [ClassAccessUrl API](lod-api-classaccessurl.md). |
 |Status|Integer|No|Indicates the status of the API request
 ||||0 = Error
 ||||1 = Success|
