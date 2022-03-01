@@ -1,6 +1,6 @@
 # ClassAccessUrl
 
-The **ClassAccessUrl** command returns a single use URL to access the class monitoring page. 
+The **ClassAccessUrl** command returns a single use URL to access the class management page. 
 
 ## Parameters
 
@@ -19,10 +19,10 @@ The **ClassAccessUrl** command returns a single use URL to access the class moni
 
 ## Example Usage
 
-Imagine… An Instructor requires access to the Lab Monitoring dashboard which belongs to a class, with a class ID = 2393048
+Imagine… You have a class within your system with an ID = 4449999 that already exists in Lab on Demand.
 
 ```
-https://labondemand.com/api/v3/ClassAccessUrl?id=2393048 
+https://labondemand.com/api/v3/ClassAccessUrl?id=4449999 
 ```
 
 ## Example Response
