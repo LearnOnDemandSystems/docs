@@ -1,6 +1,6 @@
 # ClassAccessUrl
 
-The **ClassAccessUrl** command returns a single use URL to access a class. 
+The **ClassAccessUrl** command returns a single use URL to access the class management page. 
 
 ## Parameters
 
@@ -19,10 +19,10 @@ The **ClassAccessUrl** command returns a single use URL to access a class.
 
 ## Example Usage
 
-Imagine… A user is running a lab instance with an ID = 2393048
+Imagine… You have a class within your system with an ID = 4449999 that already exists in Lab on Demand.
 
 ```
-https://labondemand.com/api/v3/ClassAccessUrl/?id=1234567 
+https://labondemand.com/api/v3/ClassAccessUrl?id=4449999 
 ```
 
 ## Example Response
