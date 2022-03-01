@@ -6,7 +6,7 @@ The **LabMonitorUrl** command returns a single use URL to monitor a lab instance
 
 |Name|Type|Required|Note|
 |--- |--- |--- |--- |
-|labInstanceId|Long|Yes|The unique identifier of the class, as represented in your organization.
+|labInstanceId|Long|Yes|The unique identifier of the lab instance.
 
 ## Response 
 
@@ -19,7 +19,7 @@ The **LabMonitorUrl** command returns a single use URL to monitor a lab instance
 
 ## Example Usage
 
-Imagine… You have a class within your system with an ID = 4449999 that already exists in Lab on Demand.
+Imagine… A user has a lab instance with an ID = 4449999.
 
 ```
 https://labondemand.com/api/v3/LabMonitorUrl?LabInstanceId=4449999
