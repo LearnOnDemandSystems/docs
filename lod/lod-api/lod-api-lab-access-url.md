@@ -6,7 +6,7 @@ The **LabAccessUrl** command returns a single use URL to access a lab instance.
 
 |Name|Type|Required|Note|
 |--- |--- |--- |--- |
-|labInstanceId|Long|Yes|The unique identifier of the class, as represented in your organization.
+|labInstanceId|Long|Yes|The unique identifier of the lab instance.
 |roleId|Integer|No|Allows you specify the role(s) to assign to the user. You may pass multiple instances of this parameter to specify multiple roles. Roles are used for specialized integration purposes and are not needed in typical integration scenarios. Role IDs will be provided by Skillable when appropriate.|
 
 ## Response 
@@ -20,7 +20,7 @@ The **LabAccessUrl** command returns a single use URL to access a lab instance.
 
 ## Example Usage
 
-Imagine… You have a class within your system with an ID = 4449999 that already exists in Lab on Demand.
+Imagine… A user has a lab instance with an ID = 4449999.
 
 ```
 https://labondemand.com/api/v3/LabAccessUrl?LabInstanceId=4449999
