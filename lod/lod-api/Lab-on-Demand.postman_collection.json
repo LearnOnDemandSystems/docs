@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "4374f561-b035-4a93-8996-621b522d7085",
+		"_postman_id": "8181f66c-7f5d-42ea-a2f3-11a3a066e842",
 		"name": "Lab on Demand Postman Collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -441,7 +441,7 @@
 						},
 						{
 							"key": "",
-							"value": "null",
+							"value": "",
 							"disabled": true
 						}
 					]
@@ -1040,7 +1040,7 @@
 						},
 						{
 							"key": "",
-							"value": "null",
+							"value": "",
 							"disabled": true
 						}
 					]
