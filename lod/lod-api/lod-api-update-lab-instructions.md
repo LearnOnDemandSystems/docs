@@ -6,7 +6,7 @@ The **UpdateLabInstructions** command allows you to update the IDL-MD instructio
 |Name|Type|Required|Note|
 |--- |--- |--- |--- |
 |id|Integer (32-bit)|Yes|The ID of the lab profile to update.|
-|instructions|String|Yes|The IDL-MD instructions. This should included in the body of the post.|
+|instructions|String|Yes|The IDLx instructions. This should included in the body of the post.|
 
 ## Response
 |Property|Type|Nullable|Note|
