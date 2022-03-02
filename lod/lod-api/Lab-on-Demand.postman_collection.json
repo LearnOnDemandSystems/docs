@@ -441,7 +441,7 @@
 						},
 						{
 							"key": "",
-							"value": null,
+							"value": "null",
 							"disabled": true
 						}
 					]
@@ -1040,7 +1040,7 @@
 						},
 						{
 							"key": "",
-							"value": null,
+							"value": "null",
 							"disabled": true
 						}
 					]
@@ -1055,7 +1055,27 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": ""
+					"raw": "https://labondemand.com/api/v3/updatelabinstructions?id=2393048&instructions=The IDLx instructions. This should included in the body of the post.\n",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"updatelabinstructions"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2393048"
+						},
+						{
+							"key": "instructions",
+							"value": "The IDLx instructions. This should included in the body of the post.\n"
+						}
+					]
 				},
 				"description": "The UpdateLabInstructions command allows you to update the IDL-MD instructions of a lab. In order to support longer instructions lengths, this method requires an HTTP POST. The Content-Type of your post should be set to application/x-www-form-urlencoded.\r\n\r\n"
 			},
@@ -1135,7 +1155,6 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "bffd030f-e3a7-48ba-b870-f60f0a38d28e",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -1145,13 +1164,11 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "4a2ff8f9-d0bb-41b8-984c-fd0a890e4548",
 				"type": "text/javascript",
 				"exec": [
 					""
 				]
 			}
 		}
-	],
-	"protocolProfileBehavior": {}
+	]
 }
