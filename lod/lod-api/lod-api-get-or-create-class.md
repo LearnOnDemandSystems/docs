@@ -10,7 +10,7 @@ The **GetOrCreateClass** command returns information about a class. If the class
 |name|String|Yes|The name of the class|
 |start|Long|Yes|When the class starts (in Unix epoch time)|
 |end|Long|Yes|When the class ends (in Unix epoch time)|
-|expires|Long|Yes|When labs can no longer be associated with the class (in Unix epoch time)|
+|expires|Long|Yes|When the class expires (in Unix epoch time)|
 |instructorId|String|No|The ID you use to identify the class instructor in your external system.|
 |instructorFirstName|String|No|The first name of the class instructor|
 |instructorLastName|String|No|The last name of the class instructor|
