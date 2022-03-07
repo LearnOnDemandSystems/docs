@@ -22,6 +22,10 @@
         <div class="subtopic_title">Introduction to Lab on Demand UI</div>
         <div class="subtopic_description">Explanation of Lab on Demand UI.</div>
       </a>
+      <a class="subtopic_link" href="/lod/cloud-credential-pool.md">
+        <div class="subtopic_title">Cloud Credential Pools</div>
+        <div class="subtopic_description">Overview and explanation of Cloud Credential Pools.</div>
+      </a>
       <a class="subtopic_link" href="/lod/lod-lab-developers/org-lab-dev-roles.md">
         <div class="subtopic_title">Lab Developer Roles</div>
         <div class="subtopic_description">This guide covers which roles enable lab developers to utilize certain features.</div>
