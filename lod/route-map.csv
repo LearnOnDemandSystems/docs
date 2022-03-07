@@ -8,6 +8,7 @@ route,target
 /ApiConsumer/{apiConsumerId},/lod/lod-api/lod-api-main.md
 /ApiConsumer/Create,/lod/lod-api/lod-api-main.md
 /ApiConsumer/Edit/{apiConsumerId},/lod/lod-api/lod-api-main.md
+/CloudCredentialPool,/lod/cloud-credential-pool.md
 /CloudCredentialPool/Create,/lod/cloud-credential-pool.md
 /CloudCredentialPool/Edit/{CloudCredentialPoolId},/lod/cloud-credential-pool.md
 /CloudCredentialPool/{CloudCredentialPoolId},/lod/cloud-credential-pool.md
