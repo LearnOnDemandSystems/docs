@@ -53,7 +53,7 @@ Imagine… A class must be created with the following data:
 - Expires May 2 2012 5PM UTC
 
 ```
-https://labondemand.com/api/v3/GetOrCreateClass/?id=4449999&name=Sample+Class&instructorFirstName=Demo&instructorLastName=Instructor&start=1333267200&end=1333299600&expires=1335978000
+https://labondemand.com/api/v3/GetOrCreateClass?id=4449999&name=Sample+Class&instructorFirstName=Demo&instructorLastName=Instructor&start=1333267200&end=1333299600&expires=1335978000
 ```
 
 ## Example Response
