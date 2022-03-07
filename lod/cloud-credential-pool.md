@@ -8,7 +8,7 @@ isPublished: true
 
 Cloud Credential Pools are used to allow you to upload credentials and then distribute sets of credentials to lab users, in the lab instructions. These credentials can be to log in to a cloud platform, a website, or any other platform that your lab uses.
 
-   >[!Knowledge] Credential pools are not used to provide credentials to virtual machines (VM). VM credentials are provided in lab instructions, based on the credentials configured in the VM profile. 
+>[!Knowledge] Credential pools are not used to provide credentials to virtual machines (VM). VM credentials are provided in lab instructions, based on the credentials configured in the VM profile. 
 
 ## Table of Contents 
 
