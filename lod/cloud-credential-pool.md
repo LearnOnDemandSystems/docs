@@ -37,7 +37,6 @@ Cloud Credential Pools are used to allow you to upload credentials and then dist
     1. **Low availability notification expiration threshold**: If credentials expiring before this threshold will cause the number of Available credentials to drop below the "Low availability notification threshold", then a notification will be sent.
     1. **Low availability notification email**: The email address that low availability notifications will be sent to.
 1. **Block lab launches when no credentials are available**: Select this to prevent any lab profile from launching that has this credential pool attached, when there are no credentials available for use in the pool. 
-1. **Use External Stockpile**: Select this to pull credentials from an external stockpile of credentials. 
 1. **Custom credentials unavailable message**: Enter a message that will be displayed in the lab instructions, if there are no credentials available for use. 
 
 ## Credentials Properties 
