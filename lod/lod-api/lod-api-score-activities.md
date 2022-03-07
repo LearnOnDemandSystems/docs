@@ -15,7 +15,9 @@ This command does not return scoring results. To obtain scoring results, use the
 
 |Property|Type|Nullable|Note|
 |--- |--- |--- |--- |
-| Status | Integer | No | 0 = Error, 1 = Success
+|Status|Integer|No|Indicates the status of the API request
+||||0 = Error
+||||1 = Success|
 |Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
 ## Example Usage

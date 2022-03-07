@@ -6,13 +6,17 @@ The **Cancel** command allows you to cancel a specified lab instance.
 
 |Name|Type|Required|Note|
 |--- |--- |--- |--- |
-|labInstanceId|Long|Yes|The ID of the lab instance to cancel
+|labInstanceId|Long|Yes|The ID of the lab instance to cancel.
 
 ## Response 
 
 |Property|Type|Nullable|Note|
 |--- |--- |--- |--- |
-|Result|Int|False|0 = Error
+|Result|Int|False|Indicates the result of the lab instance cancellation.
+||||0 = Error
+||||1 = Success|
+|Status|Integer|No|Indicates the status of the API request.
+||||0 = Error
 ||||1 = Success|
 |Error|String|True|In the event of an error, this will contain a detailed error message.|
 

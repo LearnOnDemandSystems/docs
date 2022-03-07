@@ -124,23 +124,26 @@ The **Details** command retrieves detailed information about a specified lab ins
 |ActivityResults|Array of ActivityResults|Yes|An array of results for activities displayed in the lab instance. See the ActivityResults Type below.|
 |ActivityGroupResults|Array of ActivityGroupResults|Yes|An array of results for activity groups displayed in the lab instance. See the ActivityResults Type below.|
 |EstimatedReadySeconds|Integer|No|An estimated number of seconds before the lab is ready.|
+|Status|Integer|No|Indicates the status of the API request.
+||||0 = Error
+||||1 = Success|
 |Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
-## LabInstanceSnapshot
+### LabInstanceSnapshot
 
 |Property|Type|Nullable|Note
 |---|---|---|---|
 |Name|String|No|The name that the student gave to the snapshot|
 |Time|Long|No|When the student created the snapshot (in Unix epoch time)
 
-## LabInstanceSession
+### LabInstanceSession
 
 |Property|Type|Nullable|Note|
 |---|---|---|---|
 |Start|Long|No|When the session started (in Unix epoch time)|
 |End|Long|Yes|When the session ended (in Unix epoch time)|
 
-## IpAddressInfo
+### IpAddressInfo
 
 |Property|Type|Nullable|Note
 |---|---|---|---|
@@ -148,7 +151,7 @@ The **Details** command retrieves detailed information about a specified lab ins
 |MacAddress|String|No|The MAC address of the NIC that the IP address was assigned to.|
 |MachineInstanceName|String|No|The name of the virtual machine instance that the IP address was assigned to.|
 
-## CloudCredentials
+### CloudCredentials
 
 |Property|Type|Nullable|Note
 |---|---|---|---|
@@ -156,7 +159,7 @@ The **Details** command retrieves detailed information about a specified lab ins
 |Expires|Long|No|When the credentials expire (in Unix epoch time).|
 |DisplayName|String|No|Friendly credential name displayed in the lab user interface.|
 
-## CloudPortalCredentials
+### CloudPortalCredentials
 
 |Property|Type|Nullable|Note
 |---|---|---|---|
@@ -165,7 +168,7 @@ CloudPlatform|Integer|No| The ID of the cloud platform to which the credentials 
 ||||11 = AWS
 |PropertiesJson|String|No|Json serialized properties for the credentials.|
 
-## VirtualMachineCredentials
+### VirtualMachineCredentials
 |Property|Type|Nullable|Note
 |---|---|---|---|
 |Id|Integer|No|ID of the virtual machine.|
@@ -173,7 +176,7 @@ CloudPlatform|Integer|No| The ID of the cloud platform to which the credentials 
 |Username|String|No|Username used to accces the virtual machine.|
 |Password|String|No|Password used to access the virtual machine.|
 
-## ActivityResults
+### ActivityResults
 |Property|Type|Nullable|Note
 |---|---|---|---|
 |ActivityId|Integer|No|ID of the Activity.|

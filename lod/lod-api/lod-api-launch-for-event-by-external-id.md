@@ -38,6 +38,9 @@
 |URL|String|False|A URL where the lab can be viewed by the user|
 |LabInstanceId|Long|False|The Id assigned to the new lab instance|
 |Expires|Long|False|When the lab will expire (in Unix epoch time)|
+|Status|Integer|No|Indicates the status of the API request
+||||0 = Error
+||||1 = Success|
 |Error|String|False|In the event of an error, this will contain a detailed error message.|
 
 ## Example Usage

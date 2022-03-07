@@ -17,9 +17,12 @@ The **Catalog** command will return all lab series, lab profiles, and delivery r
 |LabSeries|Array of Lab Series|No|See the LabSeries Type below|
 |LabProfiles|Array of Lab Profile|No|See the LabProfile Type below|
 |DeliveryRegions|Array of DeliveryRegion|No|See the DeliveryRegion Type below|
+|Status|Integer|No|Indicates the status of the API request
+||||0 = Error
+||||1 = Success|
 |Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
-## LabSeries
+### LabSeries
 
 |Name|Type|Nullable|Note
 |--- |--- |--- |--- |
@@ -28,7 +31,7 @@ The **Catalog** command will return all lab series, lab profiles, and delivery r
 |Description|String|Yes|A brief description of the lab series|
 |NumTrainingDays|Integer|No|The number of training days expected to complete the series|
 
-## LabProfile
+### LabProfile
 
 |Name|Type|Nullable|Note
 |--- |--- |--- |--- |
@@ -72,7 +75,7 @@ The **Catalog** command will return all lab series, lab profiles, and delivery r
 ||||10 = Shared Environment. This lab provides the shared infrastructure that participant labs will connect into. Typically launched and maintained by an administrator or instructor.|
 ||||20 = Participant. This lab will connect into shared environments and act as a participant. Typically launched by students.|
 
-## DeliveryRegion
+### DeliveryRegion
 
 |Name|Type|Nullable|Note
 |--- |--- |--- |--- |

@@ -14,8 +14,11 @@ The **ReplacementTokens** command retrieves all @lab replacement tokens availabl
 |--- |--- |--- |--- |
 |ReplacementTokens|Array of ReplacementToken|No|See the ReplacementToken Type below|
 |Error|String|Yes|In the event of an error, this will contain a detailed error message.|
+|Status|Integer|No|Indicates the status of the API request
+||||0 = Error
+||||1 = Success|
 
-## ReplacementToken
+### ReplacementToken
 
 |Property|Type|Nullable|Note
 |--- |--- |--- |--- |

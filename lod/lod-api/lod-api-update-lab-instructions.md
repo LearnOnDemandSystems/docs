@@ -13,6 +13,9 @@ The **UpdateLabInstructions** command allows you to update the IDL-MD instructio
 |--- |--- |--- |--- |
 |Result|Int|False|0 = Error
 ||||1 = Success|
+|Status|Integer|No|Indicates the status of the API request
+||||0 = Error
+||||1 = Success|
 |Error|String|False|In the event of an error, this will contain a detailed error message.|
 
 

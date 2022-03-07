@@ -28,6 +28,9 @@ The **Resume** command allows you to resume a specified lab instance.
 ||||80 = Lab series doesn't have enough available RAM|
 |URL|String|False|A URL where the lab can be viewed by the user|
 |Expires|Long|False|When the saved lab will expire (in Unix epoch time)|
+|Status|Integer|No|Indicates the status of the API request
+||||0 = Error
+||||1 = Success|
 |Error|String|False|In the event of an error, this will contain a detailed error message.|
 
 ## Example Usage
