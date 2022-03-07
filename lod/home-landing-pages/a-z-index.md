@@ -82,9 +82,9 @@
         <div class="subtopic_title">Blackboard LTI Initialization</div>
         <div class="subtopic_description">Configure an instance of Blackboard to use LTI.</div>
       </a>
-      <a class="subtopic_link" href="/lod/saml-integration.md">
-        <div class="subtopic_title">B2C SAML Integration</div>
-        <div class="subtopic_description">Configure an Azure Enterprise Application for SAML-based Single Sign-On.</div>
+      <a class="subtopic_link" href="/lod/cloud-credential-pool.md">
+        <div class="subtopic_title">Cloud Credential Pools</div>
+        <div class="subtopic_description">Overview and explanation of Cloud Credential Pools.</div>
       </a>
       <a class="subtopic_link" href="/lod/cloud-security/cloud-security-home.md">
          <div class="subtopic_title">Cloud Security Resources</div>
@@ -321,6 +321,10 @@
       <a class="subtopic_link" href="/lod/terminal-access.md">
         <div class="subtopic_title">SSH Terminal Access</div>
         <div class="subtopic_description">Configure virtual machines for SSH terminal access.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/saml-integration.md">
+        <div class="subtopic_title">SSO Authentication via Azure Active Directory and SAML</div>
+        <div class="subtopic_description">Configure an Azure Enterprise Application for SAML-based Single Sign-On.</div>
       </a>
       <a class="subtopic_link" href="/lod/student-desktop-recording.md">
         <div class="subtopic_title">Student Desktop Recording</div>

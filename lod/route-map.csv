@@ -8,6 +8,9 @@ route,target
 /ApiConsumer/{apiConsumerId},/lod/lod-api/lod-api-main.md
 /ApiConsumer/Create,/lod/lod-api/lod-api-main.md
 /ApiConsumer/Edit/{apiConsumerId},/lod/lod-api/lod-api-main.md
+/CloudCredentialPool/Create,/lod/cloud-credential-pool.md
+/CloudCredentialPool/Edit/{CloudCredentialPoolId},/lod/cloud-credential-pool.md
+/CloudCredentialPool/{CloudCredentialPoolId},/lod/cloud-credential-pool.md
 /CloudSubscription/Create,/lod/create-cloud-subscription.md
 /CloudSubscription/Edit/{subscriptionId},/lod/create-cloud-subscription.md
 /CloudSubscriptionPool/{cloudPoolId},/lod/create-cloud-subscription-pool.md
