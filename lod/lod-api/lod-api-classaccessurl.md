@@ -13,7 +13,8 @@ The **ClassAccessUrl** command returns a single use URL to access a class.
 |Property|Type|Nullable|Note|
 |--- |--- |--- |--- |
 |URL|String||The URL 
-|Result|Int|False|0 = Error
+|Status|Integer|No|Indicates the status of the API request.
+||||0 = Error
 ||||1 = Success|
 |Error|String|True|In the event of an error, this will contain a detailed error message.|
 
