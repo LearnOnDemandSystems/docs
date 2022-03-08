@@ -533,7 +533,7 @@
 						{
 							"key": "roleId",
 							"value": null,
-							"description": "Allows you specify the role(s) to assign to the user. You may pass multiple instances of this parameter to specify multiple roles. Roles are used for specialized integration purposes and are not needed in typical integration scenarios. Role IDs will be provided by Skillable when appropriate.",
+							"description": "Allows you to specify the role(s) to assign to the user. You may pass multiple instances of this parameter to specify multiple roles. Roles are used for specialized integration purposes and are not needed in typical integration scenarios. Role IDs will be provided by Skillable when appropriate.",
 							"disabled": true
 						}
 					]
