@@ -18,12 +18,14 @@
   <div class="subtopic selected">
     <div class="subtopic_header" tabindex="0" title="General Docs" role="button" aria-selected="true" selected>General</div>
     <div id="body_1" class="subtopic_links">
-      <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/create-completion-certificates.md">
+      ##Completion Certificates
+        <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/create-completion-certificates.md">
         <div class="subtopic_title">How do I create completion certificates?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/ensure-completion-certificates-print-correctly.md">
         <div class="subtopic_title">How do I ensure my course completion certificates print correctly?</div>
       </a>
+        ##Custom Fields
       <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/custom-fields.md">
         <div class="subtopic_title">What are custom fields?</div>
       </a>
@@ -33,6 +35,7 @@
       <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/dependent-dropdown-custom.md">
         <div class="subtopic_title">How can I show certain choices on a custom field dropdown based on the answer to another dropdown?</div>
       </a>
+        ##Other Topics
       <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/access-moc-courseware.md">
         <div class="subtopic_title">How can my students access Skillpipe courseware from their class enrollment?</div>
       </a>
