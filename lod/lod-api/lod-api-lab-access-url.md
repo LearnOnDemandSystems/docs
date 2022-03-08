@@ -7,7 +7,7 @@ The **LabAccessUrl** command returns a single use URL to access a lab instance.
 |Name|Type|Required|Note|
 |--- |--- |--- |--- |
 |labInstanceId|Long|Yes|The unique identifier of the lab instance.
-|roleId|Integer|No|Allows you specify the role(s) to assign to the user. You may pass multiple instances of this parameter to specify multiple roles. Roles are used for specialized integration purposes and are not needed in typical integration scenarios. Role IDs will be provided by Skillable when appropriate.|
+|roleId|Integer|No|Allows you to specify the role(s) to assign to the user. You may pass multiple instances of this parameter to specify multiple roles. Roles are used for specialized integration purposes and are not needed in typical integration scenarios. Role IDs will be provided by Skillable when appropriate.|
 
 ## Response 
 
