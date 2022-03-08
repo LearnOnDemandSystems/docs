@@ -104,6 +104,34 @@
 			"response": []
 		},
 		{
+			"name": "ClassAccessUrl",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/ClassAccessUrl?id=4449999 ",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"ClassAccessUrl"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "4449999 ",
+							"description": "The unique identifier of the class, as represented in your organization."
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
 			"name": "CloseUserAccount",
 			"request": {
 				"method": "GET",
@@ -476,6 +504,68 @@
 					]
 				},
 				"description": "The LabProfile command will return information about a specific lab profile."
+			},
+			"response": []
+		},
+		{
+			"name": "LabAccessUrl",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/LabAccessUrl?LabInstanceId=4449999",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"LabAccessUrl"
+					],
+					"query": [
+						{
+							"key": "LabInstanceId",
+							"value": "4449999",
+							"description": "The unique identifier of the lab instance.\n"
+						},
+						{
+							"key": "roleId",
+							"value": null,
+							"description": "Allows you specify the role(s) to assign to the user. You may pass multiple instances of this parameter to specify multiple roles. Roles are used for specialized integration purposes and are not needed in typical integration scenarios. Role IDs will be provided by Skillable when appropriate.",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LabMonitorUrl",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/LabMonitorUrl?LabInstanceId=4449999",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"LabMonitorUrl"
+					],
+					"query": [
+						{
+							"key": "LabInstanceId",
+							"value": "4449999",
+							"description": "The unique identifier of the lab instance.\n"
+						}
+					]
+				}
 			},
 			"response": []
 		},
