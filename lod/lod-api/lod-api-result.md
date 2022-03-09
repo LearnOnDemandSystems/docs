@@ -107,7 +107,7 @@ The **Result** command returns information about a particular lab instance resul
 Imagine… A user has a lab instance with an ID = 2393049
 
 ```
-https://labondemand.com/api/v3/Result/?labinstanceId=2393049
+https://labondemand.com/api/v3/Result?labinstanceId=2393049
 ```
 
 ## Example Response
