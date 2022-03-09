@@ -43,64 +43,10 @@ The **Result** command returns information about a particular lab instance resul
 |LabHostId|Integer|Yes|The ID of the lab host server that the lab instance is housed on.|
 |DatacenterId|Integer|Yes|The ID of the datacenter that the lab instance is located in.|
 |DeliveryRegionId|Integer|Yes|When specified, Lab on Demand will attempt to launch the lab in the specified delivery region if a suitable host in that region is available and all required storage is available in that region. Delivery regions can be found using the [DeliveryRegions command](lod-api-delivery-regions.md) or [Catalog command](lod-api-catalog.md). Using the ipAddress parameter will result in a more reliable geo-location of the lab for the end user.|
-|ExamDetails|Array of ExamReportDetails|No|An array of exam details containing exam questions, answers, and score results|
 |Status|Integer|No|Indicates the status of the API request
 ||||0 = Error
 ||||1 = Success|
 |Error|String|Yes|In the event of an error, this will contain a detailed error message.|
-
-### ExamReportDetails
-
-|Name|Type|Nullable|Note
-|--- |--- |--- |--- |
-|ExamPages|Array of ExamPages|No|Array containing exam pages with questions and possible answers.|
-|ExamAnswerResponses|Array of longs|No|Array containing AnswerIds the user selected from the answers in the exam pages.|
-|TextAnswerResponses|Array of TextAnswerResponse|No|Array of text based typed responses from the user.|
-
-### ExamPage
-
-|Name|Type|Nullable|Note
-|--- |--- |--- |--- |
-|Id|Long|No|Id of the ExamPage.|
-|Name|String|No|Name of the Exam page displayed during the exam.|
-|SortIndex|Integer|No|Sort order for this page in the pages collection.|
-|Questions|Array of ExamQuestion|No|Array of Exam Questions containing data for all questions in this page.|
-
-### TextAnswerResponse
-
-|Name|Type|Nullable|Note
-|--- |--- |--- |--- |
-|Id|Long|No|Id of the TextAnswerResponse.|
-|ResponseText|String|No|User provided response to the corresponding question.|
-|IsCorrect|Boolean|No|Grading result of the user provided text response.|
-|AnswerId|Long|No|Id that corresponds to the answer object that holds the regular expression that this must match to be correct.|
-
-### ExamQuestion
-
-|Name|Type|Nullable|Note
-|--- |--- |--- |--- |
-|Id|long|No|Id of the ExamQuestion.|
-|Type|string|No|The type of question. Possible values:
-||||MultipleChoiceSingleAnswer
-||||MultipleChoiceMultipleAnswer
-||||TextExactWord
-||||TextRegexMatch|
-|Text|string|No|Question text that is displayed to the user.|
-|SortIndex|Integer|No|Sort order for display of this question in the questions collection.|
-|ScoreValue|Integer|No|How many points the question is worth in the exam.|
-|IsRequired|Boolean|No|True if this question requires an answer.|
-|AnswerExplanation|string|No|Reason the answer is correct. This is shown to the user in the exam results.|
-|AnswerReferenceUrl|string|No|A URL reference to the reasoning for the correct answer.|
-|Answers|Array of ExamAnswers.|No|Possible answers presented to the user for this question.|
-
-### ExamAnswers
-
-|Name|Type|Nullable|Note
-|--- |--- |--- |--- |
-|Id|Long|No|Id of the ExamAnswer|
-|Text|String|No|Answer text displayed to the user.|
-|IsCorrect|Boolean|No|Is true if this is the correct answer or one of the correct answers.|
-|SortIndex|Integer|No|Sort order for display of this answer in the answer collection|
 
 ## Example Usage
 
@@ -128,46 +74,6 @@ https://labondemand.com/api/v3/Result?labinstanceId=2393049
     "ExamScore":null,
     "ExamMaxPossibleScore":null,
     "ExamPassingScore":null,
-        "ExamDetails": {
-        "ExamPages":[
-        {
-            "Id": 12345,
-            "LabProfileId": ,
-            "Name": "Example Lab",
-            "SortIndex": 0,
-            "Questions": [
-            {
-                "Id": 0,
-                "Type": "MultipleChoiceSingleAnswer",
-                "Text": "What does LOD offer?",
-                "SortIndex": 0,
-                "ScoreValue": 1,
-                "IsRequired": false,
-                "AnswerExplanation": "LOD offers learning experiences on demand and does not offer cupcakes on demand.",
-                "AnswerReferenceUrl": "www.skillable.com",
-                "Answers": [
-                {
-                    "Id": 0,
-                    "Text": "On demand labs and learning experiences.",
-                    "IsCorrect": true,
-                    "SortIndex": 0
-                },{
-                    "Id": 1,
-                    "Text": "Cupcakes",
-                    "IsCorrect": false,
-                    "SortIndex": 1
-                }
-            ]},
-        }],
-        "ExamAnswerResponses" : [0],
-        "TextAnswerResponses": [
-        {
-            "Id": 12345,
-            "ResponseText": "Response Text Example",
-            "IsCorrect": true,
-            "AnswerId": 0
-        }]
-    },
     "IpAddress":null,
     "Country":null,
     "Region":null,
