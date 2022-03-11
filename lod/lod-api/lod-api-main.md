@@ -90,7 +90,7 @@ Alternatively, you may review the Lab on Demand Postman Collection (2.1) of call
 ## API Client
 A .NET API client library is available via Nuget. This will allow you to use the API using only .NET code. 
 
-https://www.nuget.org/packages/LearnOnDemandSystems.OneLearnLOD.OneLearnLODAPIClient/ 
+[Skillable LOD Nuget Package](https://www.nuget.org/packages/LearnOnDemandSystems.OneLearnLOD.OneLearnLODAPIClient/)
 
 Example:
 
