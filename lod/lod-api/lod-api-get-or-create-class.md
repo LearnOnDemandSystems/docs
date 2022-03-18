@@ -1,3 +1,10 @@
+---
+title: "GetOrCreateClass API Command"
+description: "The GetOrCreateClass command returns information about a class. If the class doesn’t exist, it is created.
+"
+isPublished: true
+---
+
 # GetOrCreateClass
 
 The **GetOrCreateClass** command returns information about a class. If the class doesn’t exist, it is created.

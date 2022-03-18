@@ -1,3 +1,9 @@
+---
+title: "Resume API Command"
+description: "The Resume command allows you to resume a specified lab instance."
+isPublished: true
+---
+
 # Resume
 
 The **Resume** command allows you to resume a specified lab instance.

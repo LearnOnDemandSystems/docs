@@ -1,3 +1,9 @@
+---
+title: "Details API Command"
+description: "The Details command retrieves detailed information about a specified lab instance."
+isPublished: true
+---
+
 # Details
 
 The **Details** command retrieves detailed information about a specified lab instance.

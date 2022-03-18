@@ -1,3 +1,9 @@
+---
+title: "GetEvaluationResponsesForEvent API Command"
+description: "The GetEvaluationResponsesForEvent command returns evaluation responses for a specific event."
+isPublished: true
+---
+
 # GetEvaluationResponsesForEvent
 
 The **GetEvaluationResponsesForEvent** command returns evaluation responses for a specific event.

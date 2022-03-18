@@ -1,3 +1,10 @@
+---
+title: "GetEvaluationResponses API Command"
+description: "The GetEvaluationResponses command returns evaluation responses.
+"
+isPublished: true
+---
+
 # GetEvaluationResponses
 
 The **GetEvaluationResponses** command returns evaluation responses.

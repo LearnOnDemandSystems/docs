@@ -1,3 +1,10 @@
+---
+title: "LabAccessUrl API Command"
+description: "The LabAccessUrl command returns a single use URL to access a lab instance.
+"
+isPublished: true
+---
+
 # LabAccessUrl
 
 The **LabAccessUrl** command returns a single use URL to access a lab instance.

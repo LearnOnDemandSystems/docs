@@ -1,6 +1,12 @@
+---
+title: "UpdateLabInstructions API Command"
+description: "The UpdateLabInstructions command allows you to update the IDLx instructions of a lab."
+isPublished: true
+---
+
 # UpdateLabInstructions
 
-The **UpdateLabInstructions** command allows you to update the IDL-MD instructions of a lab. In order to support longer instructions lengths, **this method requires an HTTP POST**. The Content-Type of your post should be set to application/x-www-form-urlencoded.
+The **UpdateLabInstructions** command allows you to update the IDLx instructions of a lab. In order to support longer instructions lengths, **this method requires an HTTP POST**. The Content-Type of your post should be set to application/x-www-form-urlencoded.
 
 ## Parameters
 |Name|Type|Required|Note|

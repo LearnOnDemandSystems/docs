@@ -1,3 +1,9 @@
+---
+title: "CloseUserAccount API Command"
+description: "The CloseUserAccount command closes a user account and removes all user information using an ID. This is usually a unique identifier used by the calling system."
+isPublished: true
+---
+
 # CloseUserAccount
 
 The **CloseUserAccount** command closes a user account and removes all user information using an ID. This is usually a unique identifier used by the calling system.

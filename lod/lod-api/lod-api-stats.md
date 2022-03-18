@@ -1,3 +1,9 @@
+---
+title: "Stats API Command"
+description: "The Stats command returns statistics about how many labs are currently active and saved."
+isPublished: true
+---
+
 # Stats
 
 The **Stats** command returns statistics about how many labs are currently active and saved.
