@@ -35,7 +35,6 @@ Main features:
 - Key pools are course specific
 - There is no limit to the number of keys that can be generated
 - Keys can only be redeemed while pools are active
-- Student access to content can be configured up to 180 days
 - Training key pools are created from the Admin menu's Training Keys tile using the Create Training Key Pool link 
 - Keys can be exported for distribution
 
