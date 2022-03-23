@@ -23,6 +23,7 @@ Click to navigate to a specific section:
 A lab author may define variables before the lab is even launched. To do so, select the @lab icon at the top of the edit instructions page. From the @lab Token and Variables page, select Variables. It is here that a lab author may set predefined variables for use in the lab instructions, life cycle actions, and automated activities. 
 
 ![](images/variables-screen.png)
+
 # Variables in Lab Instructions
 
 Variables can be defined in lab instructions so that lab users can input expected information unique to their lab, that can then be utilized later in the instructions. This is accomplished utilizing a combination of replacement tokens. 
