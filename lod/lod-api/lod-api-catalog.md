@@ -30,6 +30,9 @@ The **Catalog** command will return all lab series, lab profiles, and delivery r
 |Name|String|No|The name of the lab series|
 |Description|String|Yes|A brief description of the lab series|
 |NumTrainingDays|Integer|No|The number of training days expected to complete the series|
+|EnableScheduledArchive|Bool|No|The number of training days expected to complete the series|
+|ScheduledArchiveDateTime|Datetime|No|The number of training days expected to complete the series|
+
 
 ### LabProfile
 
@@ -99,12 +102,16 @@ https://labondemand.com/api/v3/catalog
             "Name": "Demo Series 1",
             "Description": "A demo lab series",
             "NumTrainingDays": 5
+            "EnableScheduledArchive": true,
+            "ScheduledArchiveDateTime": "2022-03-07T08:00:00"
         },
         {
             "Id": 2,
             "Name": "Demo Series 2",
             "Description": Another demo lab series,
             "NumTrainingDays": 5
+            "EnableScheduledArchive": false,
+            "ScheduledArchiveDateTime": null
         }
     ],
     "LabProfiles": [

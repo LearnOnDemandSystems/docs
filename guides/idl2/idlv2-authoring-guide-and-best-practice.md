@@ -919,7 +919,7 @@ Although potentially any task could be reduced to an action that can be executed
 
     > `!video[text to display](url)` 
 
-- **Replacement Token:** Used to replace text in lab instructions with a variable that is unknown at the time of authoring the lab instructions. These variables may not be generated or created until the lab is launched by the student. These can include usernames, user first name, user last name, running lab instance ID number, etc. 
+- **Replacement Token:** Used to replace text with a variable that is unknown at the time of authoring the lab. The value of these variables may not be generated or created until the lab is launched by the student. These can include usernames, user first name, user last name, running lab instance ID number, etc. 
 
     Replacement tokens use the syntax &commat;lab._replacementTokenName_. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button. 
 
@@ -939,16 +939,29 @@ Although potentially any task could be reduced to an action that can be executed
    >|`@lab.User.Organization.Id`|The ID of the organization the user belongs to.|
    >|`@lab.User.Organization.Name`|The name of the organization the user belongs to.|
    >|`@lab.Tag`|The tag associated with the lab instance (if specified when launched via    API).|
-   >|`@lab.CloudSubscription.Id`|The unique ID of the subscription backing the lab    instance.|
-   >|`@lab.CloudSubscription.Name`|The name of the subscription backing the lab instance.|
-   >|`@lab.CloudSubscription.TenantName`|The tenant name of the subscription backing the    lab instance.|
-   >|`@lab.CloudResourceGroup(1).Name`|The instance name of the ResourceGroup1 resource    group.|
+   >|`@lab.CtrlAltDelete`|Sends Ctrl+Alt+Delete to the currently active virtual machine.|
+   >|`@lab.VirtualMachine(VirtualMachineName).SelectLink`|A link to select the VirtualMachineName virtual machine.|
+   >|`@lab.VirtualMachine(VirtualMachineName).Username`|Username for signing into the VirtualMachineName virtual machine.|
+   >|`@lab.VirtualMachine(VirtualMachineName).Password`|Password for signing into the VirtualMachineName virtual machine.|
+   >|`@lab.VirtualMachine(VirtualMachineName).Console`|Inline console for the VirtualMachineName virtual machine.|
+   >|`@lab.OpticalMedia(1).LoadLink`|A link to load optical media on the active virtual machine.|
+   >|`@lab.Container(containerName).InstanceName`|The instance name for container (containerName).|
+   >|`@lab.Container(containerName).Terminal`|Terminal for (containerName)|
+   >|`@lab.Container(containerName).ExpostedPort(portValue).Address`|The address for the exposed port (portValue) on container (containerName).|
+   >|`@lab.Container(containerName).ExpostedPort(portValue).HostName`|	The host name for the exposed port (portValue) on container (containerName).|
+   >|`@lab.Container(containerName).ExpostedPort(portValue).HostPort`|The host port for the exposed port (portValue) on container (containerName).|
+   >|`@lab.CloudSubscription.Id`|The unique ID of the subscription the lab is launched against.|
+   >|`@lab.CloudSubscription.Name`|The name of the subscription the lab is launched against.|
+   >|`@lab.CloudSubscription.TenantName`|The tenant name of the subscription the lab is launched against.|
+   >|`@lab.CloudResourceGroup(1).Name`|The instance name of the ResourceGroup1 resource group.|
+   >|`@lab.CloudResourceGroup(StackName).Name`|The instance name of the (StackName) resource group. This applies to AWS only|
+   >|`@lab.CloudResourceGroup(StackName).Location`|The cloud platform region/location where (StackName) resources are deployed.|
    >|`@lab.CloudResourceTemplate(Template1).Name`|The instance name of the VNET resource.|
-   >|`@lab.CloudResourceTemplate(Template1).DeploymentLink`|A deployment link for the    VNET resource.|
-   >|`@lab.CloudResourceTemplate(Template1).DeploymentUrl`|A deployment URL for the VNET    resource (rendered as text, not a link).|
-   >|`@lab.CloudResourceTemplate(Template1).Parameters[complex-VNETName]`|The value sent    for the complex-VNETName parameter when creating the VNET resource.|
-   >|`@lab.CloudPortalCredential(User1).Username`|The username of the User1-* cloud    portal user account.|
-   >|`@lab.CloudPortalCredential(User1).Password`|The password of the User1-* cloud    portal user account.|
+   >|`@lab.CloudResourceTemplate(Template1).DeploymentLink`|A deployment link for the VNET resource.|
+   >|`@lab.CloudResourceTemplate(Template1).DeploymentUrl`|A deployment URL for the VNET resource (rendered as text, not a link).|
+   >|`@lab.CloudResourceTemplate(Template1).Parameters[complex-VNETName]`|The value sent for the complex-VNETName parameter when creating the VNET resource.|
+   >|`@lab.CloudPortalCredential(User1).Username`|The username of the User1 cloud portal user account.|
+   >|`@lab.CloudPortalCredential(User1).Password`|The password of the User1 cloud portal user account.|
    >|`@lab.CloudCredential(PoolName).Username`|The Username assigned from the PoolName credential pool.|
    >|`@lab.CloudCredential(PoolName).Password`|The Password assigned from the PoolName credential pool.|
    >|`@lab.CloudCredential(PoolName).TenantName`|The TenantName assigned from the PoolName credential pool.|
@@ -956,13 +969,14 @@ Although potentially any task could be reduced to an action that can be executed
    >|`@lab.CloudPortal.Link`|A link to the cloud portal.|
    >|`@lab.CloudPortal.Url`|The cloud portal URL (rendered as text, not a link).|
    >|`@lab.CloudPortal.SignInLink`|A cloud portal sign-in link.|
-   >|`@lab.CloudPortal.SignInUrl`|The cloud portal sign-in URL (rendered as text, not a    link).|
+   >|`@lab.CloudPortal.SignInUrl`|The cloud portal sign-in URL (rendered as text, not a link).|
    >|`@lab.CloudPortal.SignOutLink`|A cloud portal sign-out link.|
-   >|`@lab.CloudPortal.SignOutUrl`|The cloud portal sign-out URL (rendered as text, not a    link).|
-   >|`@lab.TextBox(name)`|A text box that allows the user to set the value of a named    variable. This variable value can then be displayed elsewhere using @lab.Variable(name)   .|
-   >|`@lab.DropDownList(name)[val1,val2]`|A dropdown list that allows the user to set the    value of a named variable. This variable value can then be displayed elsewhere using    @lab.Variable(name).|
-   >|`@lab.KeyCombo(title of button)[key combo]`|Generates a button that sends a combination of key codes to the active VM.|
-
+   >|`@lab.CloudPortal.SignOutUrl`|The cloud portal sign-out URL (rendered as text, not a link).|
+   >|`@lab.TextBox(name)`|A text box that allows the user to set the value of a named    variable. This variable value can then be displayed elsewhere using @lab.Variable(name).|
+   >|`@lab.MaskedTextBox(name)`|A text box with hidden contents used for passwords.|
+   >|`@lab.DropDownList(name)[val1,val2]`|A dropdown list that allows the user to set the value of a named variable. This variable value can then be displayed elsewhere using @lab.Variable(name).|
+   >|`@lab.KeyCombo(label)[key combo]`|Generates a button that sends a combination of key codes to the active VM.|
+   >|`@lab.EssayTextBox(name)[height]`	|A larger essay style text box that can hold up to 5000 characters. **Height in number of lines declared by [height] is optional**. This variable value can then be displayed elsewhere using `@lab.Variable(name)`.|
 # Activities
 
  Activities are configured in the lab instructions, using the lab instruction editor. Activities can be modified at anytime, by anyone that has access to edit the lab instructions. When an Activity is created, it is represented in the lab instructions by a Replacement Token. 
