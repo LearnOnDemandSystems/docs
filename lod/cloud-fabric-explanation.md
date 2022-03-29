@@ -18,21 +18,21 @@ isPublished: true
 
 With Cloud Slice, you can provide individual subscriptions (Azure) or accounts (AWS) that may contain one or more cloud resources (virtual machines, networks, databases, websites, etc.). Each student will have access to the cloud subscription or account that is provided to them, along with the resources contained within that subscription/account, for the duration of the lab. The combination of one of these subscriptions/accounts, along with the resources contained within it, is collectively referred to as a Cloud Slice. 
 
-With our Cloud Slice feature, you can also use your Azure subscription or Amazon Web Services (AWS) account, to create temporary subscription/account credentials for your lab users, to access administrative functions of the subscription or account.
+With our Cloud Slice feature, you can also use your Azure subscription or Amazon Web Services (AWS) account to create temporary subscription/account credentials for your lab users that will grant them access to delegated, circumscribed and tightly controlled administrative functions of the subscription or account.
 
 Additionally, Lab on Demand (LOD) offers cloud virtualization for both Azure and AWS. Using either option you can deploy a virtual machine (VM) in the cloud environment, and access the VM in the lab, or access it in the cloud environment directly.
 
 ## Access Control 
 
-Both AWS and Azure use Access Control Policies (ACP) to control resource provisioning in the subscription/account used in the lab. 
+Both AWS and Azure use Access Control Policies (ACP) to control resource provisioning to limit access in the subscription/account used in the lab. 
 
-- **Azure** uses ACPs to limit what the user can do. By default, Azure allows every resource to be provisioned, and it is up to the lab author to define what the lab user is explicitly denied from provisioning in the lab. 
+- **Azure** uses ACPs to limit what the user can do. By default, Azure allows every resource to be provisioned. It is up to the lab author to define in the ACP what the lab user is explicitly allowed to provision in the lab. Followig best practices, the lab author does this by creating an ACP that denies all resources except those that are explicitly permitted by the ACP.
 
 - **AWS** uses ACPs to specify what the user can do. By default, AWS disallows every resource from being provisioned, and it is up to the lab author to define what the user can explicitly provision in the lab. 
 
 **The key takeaway is the AWS and Azure use very different permissions models**. 
 
-> [!knowledge] Before a lab with any cloud configuration for Azure or AWS can be used in Lab on Demand, the lab must be evaluated for risk of abuse using the Skillable Cloud Security standards review. For more information about security reviews, read our [Cloud Security Review](/lod/cloud-security/cloud-security-review.md) documentation. 
+> [!knowledge] To mitigate risk, before a lab with any cloud configuration for Azure or AWS can be published in Lab on Demand, the lab must be evaluated for risk of abuse using the Skillable Cloud Security standards review. For more information about security reviews, read our [Cloud Security Review](/lod/cloud-security/cloud-security-review.md) documentation. Labs that are in development do not require a cloud security review.
 
 ## Amazon Web Services
 
@@ -52,7 +52,7 @@ For Azure cloud slice we define roles; Owner, Contributor, and Reader, to determ
 
 In Azure, all resources are permitted to be provisioned, based on lab user's role permissions unless it is explicitly denied in an Access Control Policy (ACP). 
 
-For example, if you have an ACP that allows all resources to be provisioned and you have an account that has Owner or Contributor role, you can create almost any kind of resource. The only limitations are those defined by your Azure subscription and Resource Group limits set by Microsoft. An ACP to limit or disallow specific resources that the user shouldn't deploy will need to be configured on the lab profile. 
+For example, if you have an ACP that allows all resources to be provisioned and you have an account that has Owner or Contributor role, you can create almost any kind of resource. The only limitations are those defined by your Azure subscription and Resource Group limits set by Microsoft. To mitigate risk, you will need to author and configure on the lab profile an ACP that denies access to all resources except those resoures that are explictly permitted by the ACP. 
 
 ## Related Topics
 
