@@ -86,6 +86,10 @@
         <div class="subtopic_title">Cloud Credential Pools</div>
         <div class="subtopic_description">Overview and explanation of Cloud Credential Pools.</div>
       </a>
+      <a class="subtopic_link" href="/lod/cloud-fabric-explanation.md">
+        <div class="subtopic_title">Cloud Fabric Explanation</div>
+        <div class="subtopic_description">Characteristics and Differences of Supported Cloud Fabrics.</div>
+      </a>
       <a class="subtopic_link" href="/lod/cloud-security/cloud-security-home.md">
          <div class="subtopic_title">Cloud Security Resources</div>
          <div class="subtopic_description">Information on Cloud Security Reviews, Access Control Policies, and cloud security standards for Cloud Slice labs</div>
