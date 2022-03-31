@@ -1,14 +1,14 @@
 ---
-title: "Importing a VMware Virtual Machine From an OVA"
+title: "Importing a ESX Virtual Machine From an OVA"
 description: "Import a virtual machine from an OVA file."
 isPublished: true
 ---
 
-# Importing a VMware Virtual Machine From an OVA
+# Importing an ESX Virtual Machine From an OVA
 
-Virtual machine (VM) profiles can be created by importing an OVA file into a lab profile. An OVA file is created from exporting a VMware VM from outside of Lab on Demand (LOD). 
+Virtual machine (VM) profiles can be created by importing an OVA file into a lab profile. An OVA file is created from exporting an ESX VM from outside of Lab on Demand (LOD). 
 
->[!knowledge] An OVA file is a package that contains files used to describe a VM, which includes an . OVF descriptor file, optional manifest (. MF),  certificate files, and other related files. To learn more about OVA file format, please read [VMware OVA file format and template documentation](https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.vm_admin.doc/GUID-AE61948B-C2EE-436E-BAFB-3C7209088552.html). 
+>[!knowledge] An OVA file is a package that contains files used to describe a VM, which includes an . OVF descriptor file, optional manifest (. MF),  certificate files, and other related files. To learn more about OVA file format, please read [ESX OVA file format and template documentation](https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.vm_admin.doc/GUID-AE61948B-C2EE-436E-BAFB-3C7209088552.html). 
 
 - [Uploading an OVA File](#uploading-an-ova-file)
     - [Organization Storage](#organization-storage)
@@ -36,9 +36,9 @@ To import a VM from an OVA file into a lab profile, you must first upload the OV
 
     >[!knowledge] Choosing a datacenter where your lab profiles or VMs are stored will improve the initial launch times of your lab profile during lab development. If you choose a datacenter to upload the OVA file that is different from where the lab profile is stored, the files will have to be copied over before the lab will launch successfully.  
 
-1. Select VMware Storage.
+1. Select ESX Storage.
 
-1. Select or create a folder in **VMware Storage** to upload to. 
+1. Select or create a folder in **ESX Storage** to upload to. 
 
 1. Click **Upload File** on the right side of the page. 
 
@@ -58,7 +58,7 @@ OVA templates provide a standardization on importing into compatible platforms.
 
 - Uploading large file sizes may result in upload failure. 
 
-- OVA templates can only be imported if they were exported from a VMware product. Exports from other products are not supported. 
+- OVA templates can only be imported if they were exported from an ESX product. Exports from other products are not supported. 
 
 - If an OVA template contains multiple virtual machines, it cannot be imported. Only single virtual machine OVA templates are supported. 
 

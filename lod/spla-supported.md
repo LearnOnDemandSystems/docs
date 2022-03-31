@@ -21,7 +21,7 @@ isPublished: true
 
 Below are supported products and the conditions within Skillable implementation of the SPLA program.  
 
-| Software       | Hyper-V | VMWare | Azure | AWS | Notes                         | Status |
+| Software       | Hyper-V | ESX | Azure | AWS | Notes                         | Status |
 |----------------|-------------|-----------|-------------------------------|--------|-|-|
 | Windows Server 2012 R2 / 2016 / 2019 Datacenter | YES | YES | **NO** | **NO** | No Further Support Coming | Supported|
 | Windows Server 2012 R2 / 2016 / 2019 Standard | YES  | YES | **NO** | **NO** | No Further Support Coming | Supported|

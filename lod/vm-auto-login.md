@@ -9,7 +9,7 @@ isPublished: true
 Virtual machines (VMs) can be configured to log into Windows automatically when the VM is booted. The steps to configure automatic login are different, 
 depending on the virtualization fabric and remote controller that is used.
 
-#### vSphere 
+#### ESX 
 
 - Automatic login is configured using the Netplwiz utility built into Windows.
 

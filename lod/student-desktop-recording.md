@@ -141,7 +141,7 @@ If you would like to download a copy of the lab instance recording for archival 
 
 
 **Known Limitations**
-- RDP session recording is not available on vSphere labs. It is only available for Hyper-V based labs. 
+- RDP session recording is not available on ESX labs. It is only available for Hyper-V based labs. 
 - Video playback is only available on https://labondemand.com 
 - The recording can be downloaded but cannot be retrieved via API. 
 - Periods of inactivity in the VM session may not be captured in the recording.

@@ -21,7 +21,7 @@
 1. **Name:** This will be the display name of the lab profile.
 1. **Series:** Select the lab series that the lab profile will be associated with.
 1. **Organization:** Select the organization that will own the lab profile and be responsible for maintaining the profile. 
-1. **Virtualization Platform:** Select the virtualization platform that the lab profile will use. (Hyper-V, vSphere, Azure, AWS, Docker or none.) Selecting _None_ will cause the lab profile to use the Cloud Client. 
+1. **Virtualization Platform:** Select the virtualization platform that the lab profile will use. (Hyper-V, ESX, Azure, AWS, Docker or none.) Selecting _None_ will cause the lab profile to use the Cloud Client. 
 1. **Code Lab Fabric**: Enable the lab to be use the Code Lab fabric. For more information, read [Code Labs documentation](/lod/code-lab.md).
 1. **Parent:** A lab can optionally inherit some properties from a parent lab profile. Both the virtual environment (virtual machines, virtual networks, etc) can be inherited, as well as resources and content (manuals, scenario, objective, exercises, tasks, etc). Changes to the parent lab profile will be reflected in instances of this lab.
 1. **Storage Reservation Per Instance:** This is the amount of storage that the lab scheduler will ensure is available before an instance of this lab is Launched on a lab host server. 
@@ -97,7 +97,7 @@ To use network features, such as external internet access or communication betwe
 
     - **Wait for heartbeat before displaying to user**: When this is enabled, the lab client will not display the lab to the user until the virtual machine reports a heartbeat to the virtualization platform. This is useful if you want to prevent the user from accessing the lab before critical machines are up and running. 
     
-        >[!knowledge] this feature requires the VM to have Hyper-V integration services installed on Hyper-V VMs, and VMware Tools installed on a vSphere VM. Windows operating systems starting with Windows 10 and Server 2016 have Hyper-V integration services installed by default. Other operating systems require them to be installed. Additionally, on vSphere VMs, you must ensure that the user credentials in the virtual machine profile are correct (they are used to initiate the file creation in the VM).
+        >[!knowledge] this feature requires the VM to have Hyper-V integration services installed on Hyper-V VMs, and VMware Tools installed on an ESX VM. Windows operating systems starting with Windows 10 and Server 2016 have Hyper-V integration services installed by default. Other operating systems require them to be installed. Additionally, on ESX VMs, you must ensure that the user credentials in the virtual machine profile are correct (they are used to initiate the file creation in the VM).
         >
         >- For more information Hyper-V Integration Services, please see the [Hyper-V Integration Services Documentation](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/integration-services).
         >
@@ -105,17 +105,17 @@ To use network features, such as external internet access or communication betwe
 
     - **Synchronize system time with host**: synchronizes the VM system time with the time on the host that the VM is running on. 
 
-    - **Set initial system time** (available on **vSphere only**): Allows you to set the date and time that the VM will launch at. This can be used in conjunction with _Synchronize system time with host_ to freeze the date and time.
+    - **Set initial system time** (available on **ESX only**): Allows you to set the date and time that the VM will launch at. This can be used in conjunction with _Synchronize system time with host_ to freeze the date and time.
 
     - **Allow user to revert to initial state**: Allows the user to revert to the initial state that the lab was launched at. The user can roll back the VM no matter what has been done in the lab instance. This option is found in the Commands menu (lightning bolt icon) in the lab. 
 
-    - **Make lab instance data available inside virtual machine**: When this option is enabled, lab instance data will be available in the virtual machine. The location varies depending on the platform used (Hyper-v or vSphere):
+    - **Make lab instance data available inside virtual machine**: When this option is enabled, lab instance data will be available in the virtual machine. The location varies depending on the platform used (Hyper-v or ESX):
 
         - Hyper-V: 
         
             On Windows registry: `HKLM\SOFTWARE\Microsoft\Virtual Machine\External`.
 
-        - vSphere: 
+        - ESX: 
         
             On Windows-based systems: `C:\Users\Public\Documents\LabInstance.txt`.
 
@@ -163,7 +163,7 @@ To use network features, such as external internet access or communication betwe
 
 1. **Create Removable Media:** Click to create removable media. This will create removable media that can be used in the lab. Removable media types include Floppy and Optical.
 
-    > [!ALERT] When removable media is created, you must choose a platform that the removable media will be used on; Hyper-V or vSphere. The removable media is tagged in LOD with the platform. The media can only be used with the chosen platform. 
+    > [!ALERT] When removable media is created, you must choose a platform that the removable media will be used on; Hyper-V or ESX. The removable media is tagged in LOD with the platform. The media can only be used with the chosen platform. 
 
 ## Cloud
 
