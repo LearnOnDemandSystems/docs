@@ -98,7 +98,7 @@ When connecting to our Training Management System (TMS) portals with a computer 
 Software that communicates with remote servers outside of the lab environment may need addresses whitelisted with the vendor to work. The below address ranges are used by NAT internet access labs.
 
 - IP addresses/scopes: 185.254.56.125, 103.245.221.106
-- IP Ranges: 199.101.110.5 - 199.101.110.25, 163.47.101.118 - 163.47.101.126, 185.254.59.224 - 185.254.59.232, 103.18.85.29 - 103.18.85.30, 103.18.87.240 - 103.18.87.249
+- IP Ranges: 199.101.110.5 - 199.101.110.25, 163.47.101.118 - 163.47.101.126, 185.254.59.118 - 185.254.59.127, 103.18.85.29 - 103.18.85.30, 103.18.87.240 - 103.18.87.249
 
 The below ranges are used by Public IP internet access labs.
 

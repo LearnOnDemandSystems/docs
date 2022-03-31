@@ -62,11 +62,3 @@ There are many options such as different types of activities that you may want t
 1. [How do I add documents and external links to my course?](../other-activities/add-docs-urls.md)
 1. [How do I add an assessment to a course?](../other-activities/add-assessment.md)
 1. [How do I add an LTI Resource link to my course?](https://docs.skillable.com/tms/tms-administrators/courses-and-activities/overall/lti-activity.md)
-
-**Other Options** – (Coming Soon)
-<!--
-1. [How do I set prerequisites to a course?]()
-1. [How can I add a course to a subscription profile?]()
-1. [How can I control how a course looks and is found on the On-Demand browser and Course Catalog pages?]()
-1. [What is the Advanced tab on a course profile?]()
--->
