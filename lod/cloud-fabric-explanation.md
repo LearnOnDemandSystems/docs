@@ -61,4 +61,4 @@ For example, if you have an ACP that allows all resources to be provisioned and 
 - [Azure virtualization](/lod/azure-virtualization.md)
 - [Cloud Security Review](/lod/cloud-security/cloud-security-review.md)
     - [Cloud Security Standards](/lod/cloud-security/cloud-security-standards.md)
-- [Create an Access Control Policy](lod/create-a-restriction-policy.md)
+- [Create an Access Control Policy](/lod/create-a-restriction-policy.md)
