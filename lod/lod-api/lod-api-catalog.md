@@ -47,7 +47,7 @@ The **Catalog** command will return all lab series, lab profiles, and delivery r
 |PlatformId|Integer|No|The virtualization platform the lab is run on.|
 ||||1 = None|
 ||||2 = Hyper-V|
-||||3 = vSphere|
+||||3 = ESX|
 ||||10 = Azure|
 ||||11 = AWS|
 ||||20 = Docker|

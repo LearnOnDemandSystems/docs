@@ -36,7 +36,7 @@ If you are new to lab development and the Lab on Demand platform, the following 
 
 - [How do I configure scoring in my lab?](pbt/overview.md)
 
-- [How do I import a VMware virtual machine from an OVA?](ova-import.md) 
+- [How do I import a ESX virtual machine from an OVA?](ova-import.md) 
 
 - [How do I capture a differencing disk?](capture-differencing-disks.md)
 

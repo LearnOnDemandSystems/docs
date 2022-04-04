@@ -1,6 +1,6 @@
 # How can I add Internet accessibility to my labs?
 
->[!ALERT] This only applies to labs running on the Hyper-V platform only. Users working with labs using the VSphere environment should contact our Help Desk Team at https://lod.one/help.
+>[!ALERT] This only applies to labs running on the Hyper-V platform only. Users working with labs using the ESX environment should contact our Help Desk Team at https://lod.one/help.
 
 When creating a Lab Profile, you can add Internet access to the lab by setting a network in the profile to a Web Access (NAT) type. 
 

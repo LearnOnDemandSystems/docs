@@ -1,6 +1,6 @@
 # VM Import Guidelines
 
-Skillable has both VMware ESXi and Windows Hyper-V available for lab hosting. When sending VMs to be imported into the system via a [Lab Services request](https://www.skillable.com/customer-support/), we support multiple formats and versions depending on the platform. The table below describes what VM sources we can import from. A full import means we can import both the virtual disks and any VM configuration information. A virtual disk import means we can import the disks, but VM configuration is manual and information including CPU and RAM settings needs to be sent alongside the VMs to import.
+Skillable has both ESX and Windows Hyper-V available for lab hosting. When sending VMs to be imported into the system via a [Lab Services request](https://www.skillable.com/customer-support/), we support multiple formats and versions depending on the platform. The table below describes what VM sources we can import from. A full import means we can import both the virtual disks and any VM configuration information. A virtual disk import means we can import the disks, but VM configuration is manual and information including CPU and RAM settings needs to be sent alongside the VMs to import.
 
 Hyper-V on Windows 10 or Server 2016 has different VM Configuration Versions depending on the OS version. Editions earlier than 1709 (Windows 10 Fall Anniversary Update / Server 2016 SAC 1709) support up to VM Configuration Version 8.0. 1709 and later default to configuration version 8.2. VM configuration 8.2 is not compatible with a full import.
 
@@ -14,6 +14,6 @@ Hyper-V on Windows 10 or Server 2016 has different VM Configuration Versions dep
 
 <sup>1</sup> To ensure the best compatibility, we recommend using the latest editions of software. Successful import of VMs from earlier editions is not guaranteed.
 
-<sup>2</sup> This applies to VMs uploaded to FTP or shipped via drive. For VMs uploaded through the LOD web interface, disk-only is the only supported method, and the disks must be in the correct format (.vhd/.vhdx for Hyper-V, ESXi format .vmdk for vSphere).
+<sup>2</sup> This applies to VMs uploaded to FTP or shipped via drive. For VMs uploaded through the LOD web interface, disk-only is the only supported method, and the disks must be in the correct format (.vhd/.vhdx for Hyper-V, ESXi format .vmdk for ESX).
 
 If you have VM in a format not listed, from a hypervisor not listed, or have any questions please [contact support](https://www.skillable.com/customer-support/).

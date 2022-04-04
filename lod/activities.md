@@ -10,7 +10,7 @@ Activities are configured in the lab instructions, using the lab instruction edi
 
 Activities fall into two broad categories: Questions and Automated. 
 - Questions are simply multiple choice or short answer questions. 
-- Automated Activities have a script configured to run against a cloud subscription or virtual machines running on Hyper-V or VMware in the lab.  
+- Automated Activities have a script configured to run against a cloud subscription or virtual machines running on Hyper-V or ESX in the lab.  
 
 > [!KNOWLEDGE] If your lab profile does not use a Cloud Subscription, or if it does not have virtual machines configured, Automated Activities are not available in the Activities menu. 
 
@@ -24,7 +24,7 @@ To get started with Activities:
 
 ![](../lod/images/activity-icon.png)
 
-Next, you should decide what type of Activity you would like to create -- Question, or an Automated Activity that targets a Cloud Subscription or a virtual machines running on Hyper-V or VMware, with a PowerShell or Shell script. 
+Next, you should decide what type of Activity you would like to create -- Question, or an Automated Activity that targets a Cloud Subscription or a virtual machines running on Hyper-V or ESX, with a PowerShell or Shell script. 
 
 Click to go to a specific section, or continue reading to learn more about creating Activities in your lab. 
 
@@ -49,7 +49,7 @@ Click to go to a specific section, or continue reading to learn more about creat
 
 ## Automated Activities 
 
-Automated Activities are PowerShell Windows command Shell Shell scripts that target a Cloud Subscription, or virtual machine running on Hyper-V or VMware in the lab. Cloud Subscriptions are targeted by a PowerShell script, and Windows-based virtual machines can be targeted by both PowerShell and Shell. Automated Activities support using @lab replacement tokens in scripts as well. Automated Activities can be used to help make sure the student has configured their lab environment correctly, help the student understand mistakes that are made in their lab, as well as give the student confirmation that they are completing the lab instructions correctly. Automated Activities can also be used to automate any configuration or lab steps that you wish to automate. 
+Automated Activities are PowerShell Windows command Shell Shell scripts that target a Cloud Subscription, or virtual machine running on Hyper-V or ESX in the lab. Cloud Subscriptions are targeted by a PowerShell script, and Windows-based virtual machines can be targeted by both PowerShell and Shell. Automated Activities support using @lab replacement tokens in scripts as well. Automated Activities can be used to help make sure the student has configured their lab environment correctly, help the student understand mistakes that are made in their lab, as well as give the student confirmation that they are completing the lab instructions correctly. Automated Activities can also be used to automate any configuration or lab steps that you wish to automate. 
 
 ### Virtual Machine Requirements {requirements}
 
@@ -78,7 +78,7 @@ Automated Activities are PowerShell Windows command Shell Shell scripts that tar
         - Network information needs to be communicated over the VMBus via Hyper-V integration services, currently RedHat, CentOS, FreeBSD, and most Debian distributions support this
         
     - Confirmed supported Linux distros:
-     
+    
         - Ubuntu 18.04 
         - CentOS-7-x86_64-1804 
         - Kali Linux 2019.2
@@ -91,7 +91,7 @@ Automated Activities are PowerShell Windows command Shell Shell scripts that tar
      
 
 
-**VMware**: 
+**ESX**: 
 
 - VMware Tools must be installed.
 
@@ -441,8 +441,8 @@ For more information about the available languages and which versions are suppor
 - **Script 1**:
     - **Target**: The virtual machine, cloud subscription, or custom target that the script will target. 
         - Cloud subscriptions can be targeted by PowerShell, Python, C# or JavaScript.
-        - virtual machines running on Hyper-V or VMware can be targeted by PowerShell or Windows Command Shell. 
-        - Linux-based VMs running Hyper-V or VMware can be targeted by Bash. 
+        - virtual machines running on Hyper-V or ESX can be targeted by PowerShell or Windows Command Shell. 
+        - Linux-based VMs running Hyper-V or ESX can be targeted by Bash. 
         - **Custom Target**: Scripts can be executed against a custom target, using specific package for the selected language. Scripts can use packages that are hosted by supported package providers. 
 
             - PowerShell: [PowerShell Gallery](https://www.powershellgallery.com/)
@@ -671,7 +671,7 @@ ABA Outcomes are only available on Automated Activities that have On-Demand Eval
 
 - If more than one script is configured on an Activity, the scripts will execute in sequential order. If one of your scripts is relying on another script to be completed, make sure you order the scripts appropriately to prevent your Automated Activity from not working correctly. 
 
-- Automated Activities support PowerShell Windows Command Shell, and Bash. Cloud Subscriptions must be targeted by a PowerShell script, and virtual machines running on Hyper-V or VMware can be targeted by PowerShell or Windows Command  Shell. Linux-based VMs running Hyper-V or VMware can be targeted by Bash.
+- Automated Activities support PowerShell Windows Command Shell, and Bash. Cloud Subscriptions must be targeted by a PowerShell script, and virtual machines running on Hyper-V or ESX can be targeted by PowerShell or Windows Command  Shell. Linux-based VMs running Hyper-V or ESX can be targeted by Bash.
 
 ### Automated Activity Notifications and Variables
 

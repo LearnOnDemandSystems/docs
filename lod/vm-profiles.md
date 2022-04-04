@@ -6,16 +6,16 @@ isPublished: true
 
 # Virtual Machine Profiles
 
-Virtual machine (VM) profiles in Lab on Demand (LOD) are used in lab profiles. VMs in LOD use Hyper-V or VMware as the hypervisor, or Virtual machines can also be deployed in a cloud environment. 
+Virtual machine (VM) profiles in Lab on Demand (LOD) are used in lab profiles. VMs in LOD use Hyper-V or ESX as the hypervisor, or Virtual machines can also be deployed in a cloud environment. 
 
 ## Table of Contents
 
   * [Supported Operating Systems](#supported-operating-systems)
     + [Hyper-V](#hyper-v)
-    + [VMware](#vmware)
+    + [ESX](#esx)
 - [Basic Information](#basic-information)
     - [Hyper-V](#hyper-v-1)
-    - [vSphere](#vsphere)
+    - [ESX](#esx)
     - [Azure](#azure)
     - [AWS](#aws)
 + [Hard Disks](#hard-disks)
@@ -26,7 +26,7 @@ Virtual machine (VM) profiles in Lab on Demand (LOD) are used in lab profiles. V
 + [Internal Notes](#internal-notes)
 
 ## Supported Operating Systems
-For information which operating systems are supposed by Hyper-V and VMware, click below:
+For information which operating systems are supposed by Hyper-V and ESX, click below:
 
 ### Hyper-V
 
@@ -34,11 +34,11 @@ For information which operating systems are supposed by Hyper-V and VMware, clic
 
 - [Linux](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/supported-linux-and-freebsd-virtual-machines-for-hyper-v-on-windows)
 
-### VMware
+### ESX
 
-- [VMware Compatibility Guide](https://www.vmware.com/resources/compatibility/search.php?deviceCategory=software&details=1&releases=428&productNames=15&page=1&display_interval=10&sortColumn=Partner&sortOrder=Asc&testConfig=16)
+- [ESX Compatibility Guide](https://www.vmware.com/resources/compatibility/search.php?deviceCategory=software&details=1&releases=428&productNames=15&page=1&display_interval=10&sortColumn=Partner&sortOrder=Asc&testConfig=16)
 
-- [VMware Virtual Machine Hardware Versions](https://kb.vmware.com/s/article/1003746)
+- [ESX Virtual Machine Hardware Versions](https://kb.vmware.com/s/article/1003746)
 
 ## Create a Virtual Machine Profile 
 
@@ -59,13 +59,13 @@ To create a Virtual Machine profile, click **Create Virtual Machine profile** fr
 
 1. **Platform**: Select the virtualization platform that the VM profile will use.
 
-    Available platforms include: Hyper-V, vSphere, Azure and AWS. Each platform will have different options listed below. 
+    Available platforms include: Hyper-V, ESX, Azure and AWS. Each platform will have different options listed below. 
 
    The next set of options on the basic information tab are different, based on the Platform used:
 
     - [Hyper-V](#hyper--v)
 
-    - [vSphere](#vsphere)
+    - [ESX](#esx)
 
     - [Azure](#azure)
 
@@ -103,9 +103,9 @@ To create a Virtual Machine profile, click **Create Virtual Machine profile** fr
 
     - **Enable Nested Virtualization**: Allows the VM profile to perform nested virtualization and run another VM on the VM.
 
-    #### vSphere
+    #### ESX
 
-    - **Hardware Version**: Select the hardware version that the VM will use. Each hardware version allows for more features to be available to the guest operating system. Some features may not be available on older hardware versions, such as nested virtualization. For learn more about VMware hardware features, read [VMware documentation on hardware features](https://docs.vmware.com/en/VMware-vSphere/6.7/com.vmware.vsphere.vm_admin.doc/GUID-789C3913-1053-4850-A0F0-E29C3D32B6DA.html).
+    - **Hardware Version**: Select the hardware version that the VM will use. Each hardware version allows for more features to be available to the guest operating system. Some features may not be available on older hardware versions, such as nested virtualization. For learn more about ESX hardware features, read [ESX documentation on hardware features](https://docs.vmware.com/en/VMware-vSphere/6.7/com.vmware.vsphere.vm_admin.doc/GUID-789C3913-1053-4850-A0F0-E29C3D32B6DA.html).
     
     - **Operating System**: Select the operating system that the VM will use.
 

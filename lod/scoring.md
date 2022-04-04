@@ -60,5 +60,5 @@ Set-ActivityResult -Percentage @score`
     `$Score` can be anything 
 
 
->[!knowledge] Scoring bot VMs must be Windows 10, and must use Hyper-V for the hypervisor. vSphere scoring bot VMs are not supported at this time. 
+>[!knowledge] Scoring bot VMs must be Windows 10, and must use Hyper-V for the hypervisor. ESX scoring bot VMs are not supported at this time. 
 

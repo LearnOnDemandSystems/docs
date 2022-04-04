@@ -86,7 +86,7 @@ To set a variable in a Life Cycle Action:
 1. In the **Command** field, add your PowerShell script.
 1. Within your PowerShell script, include the syntax below.
 
-Life Cycle Actions support PowerShell Windows Command Shell, and Bash. Cloud Subscriptions must be targeted by a PowerShell script, and Windows-based virtual machines running on Hyper-V can be targeted by PowerShell or Windows Command  Shell. Linux-based VMs running Hyper-V or VMware can be targeted by Bash.
+Life Cycle Actions support PowerShell Windows Command Shell, and Bash. Cloud Subscriptions must be targeted by a PowerShell script, and Windows-based virtual machines running on Hyper-V can be targeted by PowerShell or Windows Command  Shell. Linux-based VMs running Hyper-V or ESX can be targeted by Bash.
 
 !INSTRUCTIONS[][syntax]
 
@@ -98,7 +98,7 @@ Variables that are set in an automated activity script can be used as a replacem
 
 Automated activities can also use variables set by a life cycle action, as long as the life cycle event occurs before the automated activity is executed. If the life cycle event does not occur before the variable is referenced, the variable will remain as a placeholder.
 
-Automated Activities support PowerShell Windows Command Shell, and Bash. Cloud Subscriptions must be targeted by a PowerShell script, and Windows-based virtual machines running on Hyper-V can be targeted by PowerShell or Windows Command  Shell. Linux-based VMs running Hyper-V or VMware can be targeted by Bash. 
+Automated Activities support PowerShell Windows Command Shell, and Bash. Cloud Subscriptions must be targeted by a PowerShell script, and Windows-based virtual machines running on Hyper-V can be targeted by PowerShell or Windows Command  Shell. Linux-based VMs running Hyper-V or ESX can be targeted by Bash. 
 
 >[!knowledge] Enabling Bash scripting or terminal connections will not take effect on running lab instances, users will have to relaunch their lab.
 

@@ -24,6 +24,6 @@ To create Removable media, click **Create Removable Media** on the Removable Med
 
 1. **Type**: Select the type of Removable media; Optical (DVD) or Floppy disk.
 
-1. **Path**: **Microsoft** (Hyper-V) or **VMWare vSphere** (ESXi)
+1. **Path**: **Microsoft** (Hyper-V) or **ESX**
 
-_We don't recommend sharing Removable media profiles between vendor platforms. However, if you need this removable media to be available to both Microsoft-based and VMware-based platforms, you will need to ensure that the file resides in the same relative location for both vendors._
+_We don't recommend sharing Removable media profiles between vendor platforms. However, if you need this removable media to be available to both Microsoft-based and ESX-based platforms, you will need to ensure that the file resides in the same relative location for both vendors._

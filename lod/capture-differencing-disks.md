@@ -78,7 +78,7 @@ To manage differencing disk files:
 
     - [Citrix Optimizer](https://support.citrix.com/article/CTX224676?download)
 
-    - [VMware OS Optimization Tool](https://labs.vmware.com/flings/vmware-os-optimization-tool)
+    - [ESX OS Optimization Tool](https://labs.vmware.com/flings/vmware-os-optimization-tool)
 
 - After installing the operating system and completing software configurations, you should consider using a second differencing disk capture for any files needed in the lab. If you need to add or remove these files later, you will be making changes to a much smaller disk. Additionally, this allows you to use the disk in different lab profiles that may need to use those lab files. 
 

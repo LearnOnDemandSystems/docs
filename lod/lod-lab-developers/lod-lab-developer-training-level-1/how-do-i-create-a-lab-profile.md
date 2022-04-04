@@ -21,7 +21,7 @@ Once you are logged in:
 |Name|Y|Name of lab|
 |Series|Y|Automatically filled in from the Lab Series where the process stared|
 |Organization|Y|Automatically filled in from the Organization in your User's Profile|
-|Platform|Y|Drop-down with Virtual Server, Hyper-V, vSphere, and Azure platforms|
+|Platform|Y|Drop-down with Virtual Server, Hyper-V, ESX, and Azure platforms|
 |Storage Reservation|Y|Amount of storage you feel the launched lab will take (see explanation under the question mark in the Lab Profile)|
 |Development Status|Y|Drop-down for your use - only Complete labs can be published|
 |Duration|Y|Amount of time the launched lab will provide the user|
