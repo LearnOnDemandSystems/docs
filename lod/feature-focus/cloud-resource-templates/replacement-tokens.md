@@ -21,7 +21,7 @@ Replacement Tokens are used to replace text with a variable that is unknown at t
 
 You can see the list of all &commat;lab replacement tokens available to your lab by editing the instructions, and clicking on the &commat;lab button. Any replacement tokens that are applicable to your lab configuration, will be shown. 
 
-   ![](/lod//images/at-lab-button.png)
+   ![](lod//images/at-lab-button.png)
 
 Alternatively, while editing the lab instructions, you can type &commat;lab anywhere in the lab instructions, and all available replacement tokens will be displayed and selectable, with a description of each replacement token. 
 
