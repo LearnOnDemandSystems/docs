@@ -1,3 +1,9 @@
+---
+title: "LabProfile API Command"
+description: "The LabProfile command will return information about a specific lab profile."
+isPublished: true
+---
+
 # Lab Profile
 
 The **LabProfile** command will return information about a specific lab profile.
@@ -18,7 +24,7 @@ The **LabProfile** command will return information about a specific lab profile.
 |PlatformId|Integer|No|The virtualization platform the lab is run on.|
 ||||1 = None|
 ||||2 = Hyper-V|
-||||3 = vSphere|
+||||3 = ESX|
 ||||10 = Azure|
 ||||11 = AWS|
 ||||20 = Docker|

@@ -1,3 +1,9 @@
+---
+title: "Class API Command"
+description: "The Class command returns information about a class."
+isPublished: true
+---
+
 # Class
 
 The **Class** command returns information about a class.

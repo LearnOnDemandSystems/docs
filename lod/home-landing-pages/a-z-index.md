@@ -86,6 +86,10 @@
         <div class="subtopic_title">Cloud Credential Pools</div>
         <div class="subtopic_description">Overview and explanation of Cloud Credential Pools.</div>
       </a>
+      <a class="subtopic_link" href="/lod/cloud-fabric-explanation.md">
+        <div class="subtopic_title">Cloud Fabric Explanation</div>
+        <div class="subtopic_description">Characteristics and Differences of Supported Cloud Fabrics.</div>
+      </a>
       <a class="subtopic_link" href="/lod/cloud-security/cloud-security-home.md">
          <div class="subtopic_title">Cloud Security Resources</div>
          <div class="subtopic_description">Information on Cloud Security Reviews, Access Control Policies, and cloud security standards for Cloud Slice labs</div>
@@ -139,8 +143,8 @@
         <div class="subtopic_description">Removable Media to be used with virtual machines.</div>
       </a>
       <a class="subtopic_link" href="/lod/uuid.md">
-        <div class="subtopic_title">Custom UUID on VMware Virtual Machines</div>
-        <div class="subtopic_description">Assign a custom unique ID to a virtual machine hosted on a VMware host.</div>
+        <div class="subtopic_title">Custom UUID on an ESX Virtual Machines</div>
+        <div class="subtopic_description">Assign a custom unique ID to a virtual machine hosted on an ESX host.</div>
       </a>
       <a class="subtopic_link" href="/lod/capture-differencing-disks.md">
         <div class="subtopic_title">Differencing Disk Capture</div>
@@ -191,7 +195,7 @@
         <div class="subtopic_description">Considerations for labs that are integrated into an iframe.</div>
       </a>
       <a class="subtopic_link" href="/lod/ova-import.md">
-        <div class="subtopic_title">Importing an VMware Virtual Machine From an OVA.</div>
+        <div class="subtopic_title">Importing an ESX Virtual Machine From an OVA.</div>
         <div class="subtopic_description">Virtual machine profile creation, and explanation of virtual machine profile configuration.</div>
       </a>            
       <a class="subtopic_link" href="/lod/feature-focus/lod-experience.md">

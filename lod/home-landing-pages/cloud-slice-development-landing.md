@@ -37,6 +37,10 @@
       <a class="subtopic_link" href="/lod/aws-virtualization.md">
         <div class="subtopic_title">AWS Virtualization</div>
         <div class="subtopic_description">Upload a VHD to AWS and create a VM profile.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/cloud-fabric-explanation.md">
+        <div class="subtopic_title">Cloud Fabric Explanation</div>
+        <div class="subtopic_description">Characteristics and Differences of Supported Cloud Fabrics.</div>
       </a>      
       <a class="subtopic_link" href="/guides/cloud-slice/aws/aws-cloud-slice-setup.md">
         <div class="subtopic_title">Enable Cloud Slice Support in AWS</div>
@@ -74,7 +78,11 @@
       <a class="subtopic_link" href="/lod/azure-shared-image-gallery-vm.md">
          <div class="subtopic_title">Azure Virtualization - Shared Image Gallery</div>
          <div class="subtopic_description">Deploy an Azure hosted virtual machine using Azure Shared Image Gallery.</div>
-      </a>                
+      </a> 
+      <a class="subtopic_link" href="/lod/cloud-fabric-explanation.md">
+        <div class="subtopic_title">Cloud Fabric Explanation</div>
+        <div class="subtopic_description">Characteristics and Differences of Supported Cloud Fabrics.</div>
+      </a>               
       <a class="subtopic_link" href="/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md">
         <div class="subtopic_title">Create a an Azure Resource Template and Resource Group Configuration</div>
         <div class="subtopic_description">Create a Resource Template and Configure it into a Resource Group.</div>

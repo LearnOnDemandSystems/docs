@@ -1,3 +1,9 @@
+---
+title: "Details API Command"
+description: "The Details command retrieves detailed information about a specified lab instance."
+isPublished: true
+---
+
 # Details
 
 The **Details** command retrieves detailed information about a specified lab instance.
@@ -64,7 +70,7 @@ The **Details** command retrieves detailed information about a specified lab ins
 |PoolMemberName|String|Yes|If the lab contains a virtual machine pool, the name of the pool member that was used.|
 |PlatformId|String|No|The platform the lab has hosted on. Possible values:
 ||||2 = Hyper-V
-||||3 = vSphere
+||||3 = ESX
 ||||20 = Docker
 ||||-1 = None
 |CloudPlatformId|Integer|Yes|10 = Azure

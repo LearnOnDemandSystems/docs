@@ -1,3 +1,10 @@
+---
+title: "GetLabInstructions API Command"
+description: "The GetLabInstructions command allows you to download the IDL-MD instructions of a lab as a string. 
+"
+isPublished: true
+---
+
 # GetLabInstructions
 
 The **GetLabInstructions** command allows you to download the IDL-MD instructions of a lab as a string. 

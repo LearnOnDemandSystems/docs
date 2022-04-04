@@ -75,6 +75,7 @@ This can also be used to provide supplementary course information, such as a syl
 1. **Add Prerequisite**: Add a prerequisite course. 
     1. After a course is added, select the **Status Requirement**; enrolled, started, completed, completed or credit. 
     1. Add a **Blocked Action** to designate the action that is blocked until the prerequisite course status requirement is met. 
+Please note, you can choose to have prerequisites enforced or not within a [subscription](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-create-subscription.md). 
 
 ## Tags
 

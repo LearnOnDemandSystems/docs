@@ -27,6 +27,7 @@ This document provides a brief overview of terminology used in Lab on Demand.
 * [Development Environment](#development-environment)
 * [Development Status](#development-status)
 * [Duration](#duration)
+* [ESX](#esx)
 * [Evaluation](#evaluation)
 * [Favorites](#favorites)
 * [Hyper-V](#hyper-v)
@@ -60,7 +61,6 @@ This document provides a brief overview of terminology used in Lab on Demand.
 * [Virtual Disk Chain](#virtual-disk-chain)
 * [Virtual Machine Profile](#virtual-machine-profile)
 * [Virtualization Platform](#virtualization-platform)
-* [vSphere](#vsphere)
 * [Additional Resources](#additional-resources)
 
 ## Access Control Policy
@@ -229,13 +229,13 @@ A Virtual Machine profile represents the hardware configuration of a virtual mac
 ## Virtualization Platform
 The virtualization platform that a lab profile will use for virtual machines or Containers. A virtualization platform is not needed for labs that do not use virtual machines or Containers. Options include: 
     - Hyper-V 
-    - vSphere
+    - ESX
     - Azure
     - AWS
     - Docker
 
-## vSphere
-VMware hardware virtualization platform that enables the use of virtual machines. 
+## ESX
+ESX hardware virtualization platform that enables the use of virtual machines. 
 
 # Additional Resources 
 

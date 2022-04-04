@@ -1,4 +1,10 @@
-## Launch for Event
+---
+title: "LaunchForEventAPI Command"
+description: "The LaunchForEvent command launches a lab instance within an event."
+isPublished: true
+---
+
+## LaunchForEvent
 
 The **LaunchForEvent** command launches a lab instance within an event.
 

@@ -98,7 +98,7 @@ To set a variable in a Life Cycle Action:
 1. In the **Command** field, add your PowerShell script.
 1. Within your PowerShell script, include the syntax below.
 
-Life Cycle Actions support PowerShell Windows Command Shell, and Bash. Cloud Subscriptions must be targeted by a PowerShell script, and Windows-based virtual machines running on Hyper-V can be targeted by PowerShell or Windows Command  Shell. Linux-based VMs running Hyper-V or VMware can be targeted by Bash.
+Life Cycle Actions support PowerShell Windows Command Shell, and Bash. Cloud Subscriptions must be targeted by a PowerShell script, and Windows-based virtual machines running on Hyper-V can be targeted by PowerShell or Windows Command  Shell. Linux-based VMs running Hyper-V or ESX can be targeted by Bash.
 
 !INSTRUCTIONS[][syntax]
 

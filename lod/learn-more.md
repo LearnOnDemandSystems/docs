@@ -2,6 +2,10 @@
 
 ### Click one of the links below to learn more about a specific topic. 
 
+- [Activity Based Assessment Outcomes](aba-outcomes.md)
+
+    - Outcomes offer adaptive learning experiences based on the result of an automated activity or question.
+
 - [IDLx Authoring Guide](../guides/idl2/idlv2-authoring-guide-and-best-practice.md)
 
     - This document covers Markdown, IDLx best practices, lab instruction editor interface, uploading files into your lab, and many other topics to assist with authoring your IDLx lab.
@@ -24,6 +28,14 @@
 - [Replacement Tokens](feature-focus/cloud-resource-templates/replacement-tokens.md)
 
     - Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.
+
+- [Themes](lod-themes.md)
+
+    - Themes allow you to add cascading style sheets (CSS) to your lab profiles, to customize the look and feel, as well as using custom JavaScript.
+
+- [Variable Display](variable-display.md)
+
+    - IDLx has a function to allow showing and hiding of lab instructions and lab instruction elements. Variably display lab instructions and lab instructions elements based on lab variables.
 
 > ### Looking for more information?
 >

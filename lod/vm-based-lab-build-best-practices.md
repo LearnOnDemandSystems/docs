@@ -38,7 +38,7 @@ This document assumes that you have created or imported a virtual machine.
 
     >[!KNOWLEDGE] This only works with Windows virtual machines. To use dynamic screen resizing, you need to install **[Integration Services](#for-hyper-v-virtual-machines)**.
 
-#### vSphere Virtual Machines
+#### ESX Virtual Machines
 
 1.  Ensure that the **Operating System** value is accurate.
 
@@ -94,7 +94,7 @@ This document assumes that you have created or imported a virtual machine.
 
     >[!ALERT] The **Wait for heartbeat before displaying to user** setting may not work with some non-Windows virtual machines.
 
-#### vSphere Lab Profiles
+#### ESX Lab Profiles
 
 1.  To freeze the virtual machines at a specific date and time, uncheck **Synchronize system time with host**, and then check **Set initial system time**.
 
@@ -162,11 +162,11 @@ This document assumes that you have created or imported a virtual machine.
 
     >[!KNOWLEDGE] Integration Services allows automatic screen resizing, command execution within a virtual machine, activities and automated performance-based scoring.
 
-#### For vSphere Platform Virtual Machines
+#### For ESX Platform Virtual Machines
 
 1.  In the lab profile, on the Removable Media tab, add a **ESX_VMTools_ForWindows** Removable Media Profile.
 
-    >[!ALERT] If you don’t see the ESX_VMTools_ForWindows Removable Media option, select **Create Removable Media**, set the name to **ESX_VMTools_ForWindows**, and then in Path, select **Choose (VMware)**. Browse to **VMWare(vm)-tools-windows-9.0.5-1137270.iso**, select **OK**, and then select **Save**. Launch the lab, and then in the DVD Drive list, select **ESX_VMTools_ForWindows**.
+    >[!ALERT] If you don’t see the ESX_VMTools_ForWindows Removable Media option, select **Create Removable Media**, set the name to **ESX_VMTools_ForWindows**, and then in Path, select **Choose (ESX)**. Browse to **VMWare(vm)-tools-windows-9.0.5-1137270.iso**, select **OK**, and then select **Save**. Launch the lab, and then in the DVD Drive list, select **ESX_VMTools_ForWindows**.
 
     >[!KNOWLEDGE] ESX_VMTools_ForWindows contains VMware Tools for Windows Guests that, in this environment, is primarily useful for enabling mouse control of the Virtual Machine.
 

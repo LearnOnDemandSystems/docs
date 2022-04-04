@@ -1,3 +1,9 @@
+---
+title: "Result API Command"
+description: "The Result command returns information about a particular lab instance result."
+isPublished: true
+---
+
 # Result
 
 The **Result** command returns information about a particular lab instance result.

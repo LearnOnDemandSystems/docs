@@ -8,7 +8,7 @@ When using the Lab on Demand (LOD) lab interface, there is support for internati
 - [Changing Settings in Windows](#changing-settings-in-windows)
 - [Steps to Change Languages in Linux](#steps-to-change-languages-in-linux)
 - [Supported Keyboard Layouts](#supported-keyboard-layouts)
-    - [VMware Keyboard Layouts](#vmware-keyboard-layouts)
+    - [ESX Keyboard Layouts](#esx-keyboard-layouts)
     - [Hyper-V Keyboard Layouts](#hyper-v-keyboard-layouts)
 
 ## General Requirements for International Keyboards:
@@ -89,7 +89,7 @@ It is also possible to change the language/region using the command line interfa
 
 ## Supported Keyboard Layouts
 
-### VMware Keyboard Layouts
+### ESX Keyboard Layouts
 
 - English (US)
 - French

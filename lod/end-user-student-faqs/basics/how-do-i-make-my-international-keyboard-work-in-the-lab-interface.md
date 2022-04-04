@@ -8,7 +8,7 @@ When using the Lab on Demand (LOD) lab interface, there is some support for inte
 
 1. The Lab VM(s) must be set to the desired language.
 
-### When Using the HTML5 Controller in Hyper-V and vSphere Labs
+### When Using the HTML5 Controller in Hyper-V and ESX Labs
 
 Our default HTML5 controller is built for quick and easy launches with minimum launch requirements. It may not understand different keyboard layouts depending on the configuration of the lab you are accessing. For example, even when the language within the VM is set to German, your German keyboard may not be properly recognized. Your browser must be set to the desired language for your non-US keyboard to work as intended:
 
@@ -31,7 +31,7 @@ Our default HTML5 controller is built for quick and easy launches with minimum l
     - [] Ensure the desired language is listed at the top of the list of languages. 
 
 
-### When Using the Enhanced Controller in Hyper-V and vSphere Labs
+### When Using the Enhanced Controller in Hyper-V and ESX Labs
 
 When using the Enhanced Controller with Hyper-V, your non-US keyboard should automatically be detected for the following languages:
 

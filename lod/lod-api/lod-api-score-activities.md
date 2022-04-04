@@ -1,4 +1,10 @@
-# Score Activities
+---
+title: "ScoreActivities API Command"
+description: "The ScoreActivities command causes all scored activities in a particular lab instance to undergo scoring."
+isPublished: true
+---
+
+# ScoreActivities
 
 The **ScoreActivities** command causes all scored activities in a particular lab instance to undergo scoring. Please note that this is API command is only necessary in specialized situations. In most cases, scoring is triggered by the student in the lab client and this command is not needed. However, if your students do not use our lab client, ScoreActivities provides a mechanism to trigger scoring. 
 

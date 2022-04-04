@@ -46,7 +46,7 @@ All dates are in Unix Epoch time, which is the number of seconds that have elaps
 
 ## Postman Collection
 
-Postman can import the Lab on Demand Postman Collection via link, ++http://lod.one/LabondemandCollection++
+Postman can import the Lab on Demand Postman Collection via link, ++http://skill.info/LabondemandCollection++
 
 Alternatively, you may review the Lab on Demand Postman Collection (2.1) of calls [here.](Lab-on-Demand.postman_collection.json)
 
