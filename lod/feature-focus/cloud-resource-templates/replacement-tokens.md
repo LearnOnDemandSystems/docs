@@ -21,11 +21,11 @@ Replacement Tokens are used to replace text with a variable that is unknown at t
 
 You can see the list of all &commat;lab replacement tokens available to your lab by editing the instructions, and clicking on the &commat;lab button. Any replacement tokens that are applicable to your lab configuration, will be shown. 
 
-   ![](lod//images/at-lab-button.png)
+   ![](../../images/at-lab-button.png)
 
 Alternatively, while editing the lab instructions, you can type &commat;lab anywhere in the lab instructions, and all available replacement tokens will be displayed and selectable, with a description of each replacement token. 
 
-   ![](/lod/images/add-replacement-token-in-lab-instructions.png)
+   ![](../../images/add-replacement-token-in-lab-instructions.png)
 
 ## Using Replacement Tokens in a Cloud Resource Template
 
@@ -39,7 +39,7 @@ To use replacement tokens inside a Cloud Resource Template, insert the &commat;l
 
 When you are assigning parameter values for a Cloud Resource template, you can provide specific values, or you can apply &commat;lab replacement tokens. To apply a Replacement Token, in the parameter value field, enter _&commat;lab,_ and then press the period key. The moment you type the period you will be presented with all available replacement tokens for your lab, based on how the lab is configured.  
 
-   ![](/lod/images/replacement-tokens-cloud-template.png)
+   ![](../../images/replacement-tokens-cloud-template.png)
 
 ## Available Replacement tokens
 
