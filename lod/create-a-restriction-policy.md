@@ -6,7 +6,7 @@ isPublished: true
 
 # Access Control Policies (ACP)
 
-An Access Control Policy is used by a cloud provider to limit the resources that can be provisioned within the cloud environment. This prevents additional cloud costs by preventing users from creating resources that are not relevant to the content and/or outside the scope of the lab.
+An Access Control Policy is used by a cloud provider to limit the resources that can be provisioned within the resource group. This prevents additional cloud costs by preventing users from creating resources that are not relevant to the content or outside the scope of the lab.
 
 >[!Note] In LOD, ACPs are attached to a resource group. To add an ACP to a Lab Profile, you will need to [create a resource template and configure a resource group](./create-a-resource-template-and-configure-it-into-a-resource-group.md) first. 
 

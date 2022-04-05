@@ -23,5 +23,6 @@ Outlines how risk level is determined and criteria for a lab passing security re
 
 ## Best Practices
 
-### [Access Control Policies: Best Practices for Lab Developers](https://github.com/LearnOnDemandSystems/labauthor/tree/master/access-control-policies/)
-Our Lab developer GitHub that walks through the creation of your own custom Access Control Policies.
+### [Access Control Policies: Best Practices for Lab Developers](../acp-best-practices.md)
+Best Practices for using Access Control Policies in a cloud evironment.
+
