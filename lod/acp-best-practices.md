@@ -73,5 +73,5 @@ Yes you can. Amazon also supplies documentation on the overall policy structure 
 
 ## Related Topics
 
-- [Create an Access Control Policy in Lab on Demand](/create-a-restriction-policy.md)
+- [Create an Access Control Policy in Lab on Demand](/lod/create-a-restriction-policy.md)
 - [Create an Access Control Policy in Microsoft Azure](/lod/acp-creation-process.md)
