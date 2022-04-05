@@ -1,3 +1,9 @@
+---
+title: "Resume API Command"
+description: "The Resume command allows you to resume a specified lab instance."
+isPublished: true
+---
+
 # Resume
 
 The **Resume** command allows you to resume a specified lab instance.
@@ -26,8 +32,11 @@ The **Resume** command allows you to resume a specified lab instance.
 ||||60 = Lab organization has too many active instances
 ||||70 = Lab series has too many active instances
 ||||80 = Lab series doesn't have enough available RAM|
-|Url|String|False|A URL where the lab can be viewed by the user|
+|URL|String|False|A URL where the lab can be viewed by the user|
 |Expires|Long|False|When the saved lab will expire (in Unix epoch time)|
+|Status|Integer|No|Indicates the status of the API request
+||||0 = Error
+||||1 = Success|
 |Error|String|False|In the event of an error, this will contain a detailed error message.|
 
 ## Example Usage

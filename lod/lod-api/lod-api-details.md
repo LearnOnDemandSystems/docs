@@ -1,3 +1,9 @@
+---
+title: "Details API Command"
+description: "The Details command retrieves detailed information about a specified lab instance."
+isPublished: true
+---
+
 # Details
 
 The **Details** command retrieves detailed information about a specified lab instance.
@@ -64,7 +70,7 @@ The **Details** command retrieves detailed information about a specified lab ins
 |PoolMemberName|String|Yes|If the lab contains a virtual machine pool, the name of the pool member that was used.|
 |PlatformId|String|No|The platform the lab has hosted on. Possible values:
 ||||2 = Hyper-V
-||||3 = vSphere
+||||3 = ESX
 ||||20 = Docker
 ||||-1 = None
 |CloudPlatformId|Integer|Yes|10 = Azure
@@ -73,7 +79,7 @@ The **Details** command retrieves detailed information about a specified lab ins
 |LabHostName|String|No|The name of the lab host machine.|
 |DatacenterId|Integer|No|The ID of the datacenter where the lab is located.|
 |DatacenterName|String|No|The name of the datacenter where the lab is located.|
-|DeliveryRegionId|Integer|No|The ID of the delivery region where the lab is located.|
+|DeliveryRegionId|Integer|No|When specified, Lab on Demand will attempt to launch the lab in the specified delivery region if a suitable host in that region is available and all required storage is available in that region. Delivery regions can be found using the [DeliveryRegions command](lod-api-delivery-regions.md) or [Catalog command](lod-api-catalog.md). Using the ipAddress parameter will result in a more reliable geo-location of the lab for the end user.|
 |DeliveryRegionName|String|No|The name of the delivery region where the lab is located.|
 |RemoteController|String|No|The name of the remote controller used by the user.|
 |BrowserUserAgent|String|Yes|The browser user agent used by the user.|
@@ -104,7 +110,7 @@ The **Details** command retrieves detailed information about a specified lab ins
 |NumTasks|Integer|No|If the lab has content (HasContent=true), indicates the total number of tasks in the lab.|
 |NumCompletedTasks|Integer|No|If the lab has content (HasContent=true), indicates the number of tasks the student has completed.|
 |TaskCompletePercent|Integer|No|If the lab has content (HasContent=true), indicates the percentage of tasks that the student has completed.|
-|MonitorUrl|String|Yes|If the lab is currently running, a URL at which the lab can be monitored in real time.|
+|MonitorUrl|String|Yes|This response property is deprecated. Unless explicitly allowed by Skillable, this field will always be null. To obtain an access URL, use the [LabMonitorUrl](lod-api-lab-monitor-url.md) command.
 |DetailsUrl|String|No|The URL at which the lab instance details can be reviewed (required authentication to view)|
 |Errors|Array of String|No|An array of all errors associated with the lab instance.|
 |IpAddress|String|Yes|The user's IP address. This is only included if the IP address was provided when the lab was launched.|
@@ -120,27 +126,30 @@ The **Details** command retrieves detailed information about a specified lab ins
 |CloudCredentials|Array|Yes|An array of credentials assigned to the lab instance. See the CloudCredentials Type below.|
 |CloudPortalCredentials|Array|Yes|An array of credentials assigned to the lab instance. See the CloudPortalCredentials Type below. |
 |VirtualMachineCredentials|Array|Yes|An array of credentials used to access the virtual machines. See the VirtualMachineCredentials Type below. |
-|ClientUrl|String|No|The URL at which a student may access their lab instance.|
+|ClientUrl|String|No|This response property is deprecated. Unless explicitly allowed by Skillable, this field will always be null. To obtain an access URL, use the [LabAccessUrl](lod-api-lab-access-url.md) command.
 |ActivityResults|Array of ActivityResults|Yes|An array of results for activities displayed in the lab instance. See the ActivityResults Type below.|
 |ActivityGroupResults|Array of ActivityGroupResults|Yes|An array of results for activity groups displayed in the lab instance. See the ActivityResults Type below.|
 |EstimatedReadySeconds|Integer|No|An estimated number of seconds before the lab is ready.|
+|Status|Integer|No|Indicates the status of the API request.
+||||0 = Error
+||||1 = Success|
 |Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
-## LabInstanceSnapshot
+### LabInstanceSnapshot
 
 |Property|Type|Nullable|Note
 |---|---|---|---|
 |Name|String|No|The name that the student gave to the snapshot|
 |Time|Long|No|When the student created the snapshot (in Unix epoch time)
 
-## LabInstanceSession
+### LabInstanceSession
 
 |Property|Type|Nullable|Note|
 |---|---|---|---|
 |Start|Long|No|When the session started (in Unix epoch time)|
 |End|Long|Yes|When the session ended (in Unix epoch time)|
 
-## IpAddressInfo
+### IpAddressInfo
 
 |Property|Type|Nullable|Note
 |---|---|---|---|
@@ -148,7 +157,7 @@ The **Details** command retrieves detailed information about a specified lab ins
 |MacAddress|String|No|The MAC address of the NIC that the IP address was assigned to.|
 |MachineInstanceName|String|No|The name of the virtual machine instance that the IP address was assigned to.|
 
-## CloudCredentials
+### CloudCredentials
 
 |Property|Type|Nullable|Note
 |---|---|---|---|
@@ -156,7 +165,7 @@ The **Details** command retrieves detailed information about a specified lab ins
 |Expires|Long|No|When the credentials expire (in Unix epoch time).|
 |DisplayName|String|No|Friendly credential name displayed in the lab user interface.|
 
-## CloudPortalCredentials
+### CloudPortalCredentials
 
 |Property|Type|Nullable|Note
 |---|---|---|---|
@@ -165,7 +174,7 @@ CloudPlatform|Integer|No| The ID of the cloud platform to which the credentials 
 ||||11 = AWS
 |PropertiesJson|String|No|Json serialized properties for the credentials.|
 
-## VirtualMachineCredentials
+### VirtualMachineCredentials
 |Property|Type|Nullable|Note
 |---|---|---|---|
 |Id|Integer|No|ID of the virtual machine.|
@@ -173,7 +182,7 @@ CloudPlatform|Integer|No| The ID of the cloud platform to which the credentials 
 |Username|String|No|Username used to accces the virtual machine.|
 |Password|String|No|Password used to access the virtual machine.|
 
-## ActivityResults
+### ActivityResults
 |Property|Type|Nullable|Note
 |---|---|---|---|
 |ActivityId|Integer|No|ID of the Activity.|
@@ -314,7 +323,7 @@ https://labondemand.com/api/v3/details?labinstanceid=360701
         }
     ],
     "CloudPlatformId": 10,
-    "ClientUrl": "https://labclient.labondemand.com/Setup/a37e1990-e7c8-4fc9-9512-a0d2418bc0a3",
+    "ClientUrl": null,
     "ActivityResults": [
         {
             "ActivityId": 4910,

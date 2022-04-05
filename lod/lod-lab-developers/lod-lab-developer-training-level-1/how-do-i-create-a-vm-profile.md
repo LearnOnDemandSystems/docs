@@ -18,7 +18,7 @@ Once you are logged in:
 |Description|Description of virtual machine|
 |Series|Automatically filled in from the Lab Series where the process started|
 |Organization|Automatically filled in from the Organization in your User’s Profile|
-|Platform|Drop-down with Virtual Server, Hyper-V, vSphere, and Azure platforms|
+|Platform|Drop-down with Virtual Server, Hyper-V, ESX, and Azure platforms|
 |Generation|Drop-down with information available on the page to help|
 |Operating System|Drop-down for the OS the virtual machine will use|
 |Username|Default profile name for logging on|
@@ -42,5 +42,3 @@ The remaining tabs are:
 |Network Adapters|Add the network adapter|
 |SCSI Adapters|One is provided and more can be added|
 |DVD-ROM Drives|One is provided and more can be added|
-
-!VIDEO[How do I create a VM Profile?](https://www.youtube.com/watch?v=FCIp9TRDVYk)

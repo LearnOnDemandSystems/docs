@@ -67,7 +67,7 @@ Depending on your distribution, you will need to use one of two methods to add a
     - Under the ethernets node, add an adapter and configure it to use DHCP, as shown in the sample below:
     
         - Sample YAML File, showing a static IP and DHCP configuration:
-        ```
+        ```linenums
         networks
           ethernets:
             ens32:
@@ -81,7 +81,7 @@ Depending on your distribution, you will need to use one of two methods to add a
             ens33:
               dhcp4: true
           version 2
-          ```
+         ```
     >[!alert] Please note that YAML files are sensitive to whitespace and indentation. Do not use the tab key to indent items: always use the space bar.
     - After making the changes to the YAML file, run the command `sudo netplan apply`.
     
@@ -101,7 +101,7 @@ SSH configuration may need to be modified to enable password authentication or r
 
     >[!alert] On recent versions of Ubuntu, you may get unpredicatable results by disabling the network manager or the networkd service (`systemd-networkd-wait-online.service`). As an alternative, you can mask the service by using the command ```sudo systemctl mask systemd-networkd-wait-online.service``` or ```sudo systemctl mask NetworkManager-wait-online.service```, depending on which is applicable. The `systemctl mask` command is very powerful and should be used carefully. However, before disabling or masking these services, you shold verify whether, in fact, you need to make this configuration change. When booting the VM, watch to see whether the boot processes pauses for any reason during the network configuration. If it doesn't pause, or the pause is only a few seconds, you do not need to take any action.
 
-1. Make sure the SSH service auto boots. On most versions of linux can be done by entering the following command: ```sudo systemctl enable ssh```.
+1. Make sure the SSH service auto boots. On most versions of Linux can be done by entering the following command: ```sudo systemctl enable ssh```.
 
 1. Start the service with the following command: ```sudo systemctl startssh```.
 

@@ -29,7 +29,7 @@ Announcement:
 
 Email:
 
-![](/tms/images/disc-email.png)
+![](/tms/images/disc-email-1.png)
 
 > :small_blue_diamond: When you click **more** in an announcement, the **Message Center** stays open on the original tab and the item is marked as **Read**. You must click **OK** to save the **Read** status of the announcement. If the **Message Center** is opened from another tab before this, the announcement will not show as **Read**.
 

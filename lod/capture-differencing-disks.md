@@ -78,7 +78,7 @@ To manage differencing disk files:
 
     - [Citrix Optimizer](https://support.citrix.com/article/CTX224676?download)
 
-    - [VMware OS Optimization Tool](https://labs.vmware.com/flings/vmware-os-optimization-tool)
+    - [ESX OS Optimization Tool](https://labs.vmware.com/flings/vmware-os-optimization-tool)
 
 - After installing the operating system and completing software configurations, you should consider using a second differencing disk capture for any files needed in the lab. If you need to add or remove these files later, you will be making changes to a much smaller disk. Additionally, this allows you to use the disk in different lab profiles that may need to use those lab files. 
 
@@ -88,6 +88,6 @@ To manage differencing disk files:
 
 ### Manual Captures
 
-- In the rare event of errors during the differencing disk save process it is possible for us to capture the disks manually to update the lab data on the profile, should this happen please reach out to us via our normal Customer Support forms by [opening a support ticket](https://supportrequest.learnondemandsystems.com/form-4500904/support-request).
+- In the rare event of errors during the differencing disk save process it is possible for us to capture the disks manually to update the lab data on the profile, should this happen please reach out to us via our normal Customer Support forms by [opening a support ticket](http://www.skillable.com/customer-support/).
 
     >[!alert] Following a manual capture, it is necessary to end and relaunch the lab before any further differencing disk saves can be made to the lab profile. Failing to do so will result in any further changes to the profile failing until it is relaunched.

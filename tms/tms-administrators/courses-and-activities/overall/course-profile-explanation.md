@@ -57,6 +57,7 @@ This can also be used to provide supplementary course information, such as a syl
 
 1. **Add Section**: Adds a section to the courses activities. Sections can house SCORM modules, labs, videos, documents, external links, assessments, LTI Resource Links and Microsoft Learn Activities. 
 1. **Add SCORM Module**: Add a SCORM module as an available activity in the course. 
+1. **Add Lab**: Add a lab from Lab on Demand as an available activity in the course. 
 1. **Add Video**: Add a video as an available activity in the course.
 1. **Add Document**: Add a document as an available activity in the course.
 1. **Add External Link**: Add an external link as an available activity in the course.
@@ -64,7 +65,6 @@ This can also be used to provide supplementary course information, such as a syl
 1. **Add LTI Resource Link**: Add an LTI resource link as an available activity in the course.
 1. **Add Microsoft Learn Activity**: Add a Microsoft Learn activity as an available activity in the course.
 1. **Post-class SCORM module availability**: This sets the amount of time students have to access SCORM module activities after the class ends.
-1. **Post-class lab availability**: This sets the amount of time students have to access lab activities after the class ends.
 
 ## Availability
 
@@ -75,6 +75,7 @@ This can also be used to provide supplementary course information, such as a syl
 1. **Add Prerequisite**: Add a prerequisite course. 
     1. After a course is added, select the **Status Requirement**; enrolled, started, completed, completed or credit. 
     1. Add a **Blocked Action** to designate the action that is blocked until the prerequisite course status requirement is met. 
+Please note, you can choose to have prerequisites enforced or not within a [subscription](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-create-subscription.md). 
 
 ## Tags
 

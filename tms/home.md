@@ -13,19 +13,22 @@
             <div class="cardHeader" tabindex="0" title="Student Basics" aria-label="Student Basics docs">Basics</div>
             <div class="category">
               <a href="/tms/end-user-student-faqs/basics/forgot-password.md" class="categoryThread">
-                <i class="material-icons light-blue" title="Student Basics" aria-hidden="true">person</i>
+                <i class="material-icons light-green"
+ title="Student Basics" aria-hidden="true">person</i>
                 <span class="categoryTitle" title="What do I do if I forgot my password?">What do I do if I forgot my password?</span>
               </a>
             </div>
             <div class="category"> 
               <a href="/tms/end-user-student-faqs/basics/change-password.md" class="categoryThread">
-                <i class="material-icons blue" title="Student Basics" aria-hidden="true">person</i>
+                <i class="material-icons green"
+ title="Student Basics" aria-hidden="true">person</i>
                 <span class="categoryTitle" title="How do I change my password?">How do I change my password?</span>
               </a>
             </div>
             <div class="category">  
               <a href="/tms/end-user-student-faqs/basics/change-user-profile.md" class="categoryThread">
-                <i class="material-icons light-blue" title="Student Basics" aria-hidden="true">person</i>
+                <i class="material-icons light-green"
+ title="Student Basics" aria-hidden="true">person</i>
                 <span class="categoryTitle" title="How do I access and change my user profile?">How do I access and change my user profile?</span>
               </a>
             </div>
@@ -61,19 +64,22 @@
             <div class="cardHeader" tabindex="0" title="Student Classes and Self-Paced Learning" aria-label="Student Docs for Classes and Self-Paced Learning">Classes and Self-Paced Learning</div>
             <div class="category">
               <a href="/tms/end-user-student-faqs/class-self-paced/get-into-virtual-classroom.md" class="categoryThread">
-                <i class="material-icons light-blue" aria-hidden="true">assignment</i>
+                <i class="material-icons light-green"
+ aria-hidden="true">assignment</i>
                 <span class="categoryTitle" title="How do I get into my virtual classroom?">How do I get into my virtual classroom?</span>
               </a>
             </div>
             <div class="category">
               <a href="/tms/end-user-student-faqs/class-self-paced/discussions.md" class="categoryThread">
-                <i class="material-icons blue"aria-hidden="true">assignment</i>
+                <i class="material-icons green"
+aria-hidden="true">assignment</i>
                 <span class="categoryTitle" title="How do I participate in a discussion?">How do I participate in a discussion?</span>
               </a>
             </div>
             <div class="category">
               <a href="/tms/end-user-student-faqs/class-self-paced/print-completion-certificate.md" class="categoryThread">
-                <i class="material-icons light-blue" aria-hidden="true">assignment</i>
+                <i class="material-icons light-green"
+ aria-hidden="true">assignment</i>
                 <span class="categoryTitle" title="How do I print my completion certificate?">How do I print my completion certificate?</span>
               </a>
             </div>
@@ -84,36 +90,19 @@
       <!-- -- End student categories section -->
     </div>
   <div class="instructorCategory userTypeSection">
-  <!-- instructor categories section.. -->
-     <div class="cardContainer">
+  <!-- Begin instructor categories section.. -->
+         <div class="cardContainer">
           <!-- Begin categories section.. -->
           <div class="cloudSlice cardContent">
           <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Featured Instructor General Docs">General</div>
           <div class="category">
-            <a href="/tms/instructors/general/reset-student-password.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">supervised_user_circle</i>
-              <span class="categoryTitle" title="How do I, as an Instructor, reset a student's password?">How do I, as an Instructor, reset a student's password?</span>
-            </a>
-            </div>
-            <div class="category"> 
               <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
-                <i class="material-icons blue" title="Student Basics" aria-hidden="true">supervised_user_circle</i>
+                <i class="material-icons green"
+ title="Student Basics" aria-hidden="true">supervised_user_circle</i>
                 <span class="categoryTitle" title="What does it mean to be a contract instructor?">What does it mean to be a contract instructor?</span>
               </a>
-          </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor Videos">View all</a></div>
          </div>
-          <div class="cloudSlice cardContent">
-          <div class="cardHeader" tabindex="0" title="Instructor Guide Videos" aria-label="Instructor Guide Videos">Instructor Guide Videos</div>
-          <div class="category">
-              <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
-               <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
-              <span class="categoryTitle" title="View videos">View videos</span>
-          </a>
-          </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Admin TMS Videos">View all</a></div>
-        </div>
-        </div>
+         </div>  
         <div class="cardContainer">
           <div class="vmLabDev cardContent">
             <div class="cardHeader" tabindex="0" title="Student Labs" aria-label="Student Docs for Labs">Labs</div>
@@ -161,13 +150,15 @@
             <div class="cardHeader" tabindex="0" title="Instructor Student Labs" aria-label="Instructor Docs for Student Labs">Student Labs</div>
             <div class="category">
             <a href="/tms/instructors/student-labs/assist-students.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">settings_system_daydream</i>
+              <i class="material-icons light-green"
+ aria-hidden="true">settings_system_daydream</i>
               <span class="categoryTitle" title="How do I assist my students with their labs?">How do I assist my students with their labs?</span>
             </a>
           </div>
           <div class="category">
             <a href="/tms/instructors/student-labs/share-files-with-students.md" class="categoryThread">
-              <i class="material-icons blue" aria-hidden="true">settings_system_daydream</i>
+              <i class="material-icons green"
+ aria-hidden="true">settings_system_daydream</i>
               <span class="categoryTitle" title="How do I share files with students?">How do I share files with students?</span>
             </a>
           </div>
@@ -189,11 +180,11 @@
               <span class="categoryTitle" title="How can I show what I am qualified to teach?">How can I show what I am qualified to teach?</span>
             </a>
           </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all Instructor Profile Related Docs" aria-label="View all Instructor Profile Related Docs">View all</a></div>
+          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor Profile Related Docs">View all</a></div>
         </div>
       </div>
      </div>
-          <!-- -- End instructor categories section -->
+    <!-- -- End instructor categories section -->
   </div>
   <div class="administratorCategory userTypeSection">
     <!-- Begin administrator categories section.. -->
@@ -202,21 +193,24 @@
       <div class="cardContent">
           <div class="category">
           <a href="/tms/tms-administrators/classes/virtual-meetings/integratevirtualmeetingprovider.md" class="categoryThread">
-            <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
-            <span class="categoryTitleFeatured" title="How does LODS Integrate with my Virtual Meeting Provider?">How does LODS Integrate with my Virtual Meeting Provider?</span>
+            <i class="material-icons light-green"
+ aria-hidden="true">bookmarks</i>
+            <span class="categoryTitleFeatured" title="How does my Virtual Meeting Provider integrate with the TMS?">How does my Virtual Meeting Provider integrate with the TMS?</span>
             <span class="categoryDescription">Find out how to integrate your virtual meeting provider into a TMS class giving your students and instructor one place to connect, launch their labs and course activities.</span>
           </a>
         </div>
           <div class="category">
           <a href="/tms/tms-administrators/badges-achievements/badge-process.md" class="categoryThread">
-            <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
+            <i class="material-icons light-green"
+ aria-hidden="true">bookmarks</i>
             <span class="categoryTitleFeatured" title="What is involved in creating external badges?">What is involved in creating external badges?</span>
             <span class="categoryDescription">Your student can now earn externally supported badges through their achievements in the TMS.</span>
           </a>
         </div>
         <div class="category"> 
           <a href="/tms/tms-administrators/tms-fundamentals/training-key-types.md" class="categoryThread">
-            <i class="material-icons blue" aria-hidden="true">bookmarks</i>
+            <i class="material-icons green"
+ aria-hidden="true">bookmarks</i>
             <span class="categoryTitleFeatured" title="What are the different types of Training Keys?">What are the different types of Training Keys and how can they be used?</span>
             <span class="categoryDescription">You can use training keys to quickly enroll students into either instructor-led or self-paced training without manually creating each enrollment or course assignment.</span>
           </a>
@@ -229,38 +223,28 @@
         We have written our API to allow us to add new response fields without clients making any updates. To ensure your API calls work consistently, write your API client implementation to ignore any fields you are not using in your code. This allows your implementation to be stable while the API is dynamic. To assist with this, review our <a href="https://www.nuget.org/packages/LearnOnDemandSystems.OneLearnTMS.OneLearnTMSAPIClient/">client library</a>, which adheres to our best practices.
     </div>
     <div class="cardsContainer">
-      <div class="cardContainer">
         <div class="cardContainer">
               <!-- Begin categories section.. -->
-        <div class="azIndex cardContent">
-          <div class="cardHeader" tabindex="0" title="Administrator TMS Videos" aria-label="Administrator TMS Videos">TMS Videos</div>
-          <div class="category">
-              <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
-              <a><span class="categoryTitle" title="View videos on using the TMS.">View videos on using the TMS.</span>
-          </a>
-            </div>
-          <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-tms-videos.md" title="View all" aria-label="View all Admin TMS Videos">View all</a></div>
-        </div>
-      </div>
-           <div class="cardContainer">
-        <!-- Begin categories section.. -->
-        <div class="azIndex cardContent">
+         <div class="azIndex cardContent">
           <div class="cardHeader" tabindex="0" title="Administrator Fundamentals" aria-label="Admin Docs for Fundamentals">Fundamentals</div>
             <div class="category"> 
             <a href="/tms/tms-administrators/tms-fundamentals/training-key-types.md" class="categoryThread">
-              <i class="material-icons blue" aria-hidden="true">insert_drive_file</i>
+              <i class="material-icons green"
+ aria-hidden="true">insert_drive_file</i>
               <span class="categoryTitle" title="What are the different types of Training Keys and how can they be used?">What are the different types of Training Keys and how can they be used?</span>
             </a>
           </div>
           <div class="category"> 
             <a href="/tms/tms-administrators/tms-fundamentals/reuse-search-settings-or-create-default-settings-on-search-pages.md" class="categoryThread">
-              <i class="material-icons blue" aria-hidden="true">insert_drive_file</i>
+              <i class="material-icons green"
+ aria-hidden="true">insert_drive_file</i>
               <span class="categoryTitle" title="How can I reuse search settings or create default settings on search pages?">How can I reuse search settings or create default settings on search pages?</span>
             </a>
           </div>
           <div class="category">  
             <a href="/tms/tms-administrators/tms-fundamentals/set-defaults.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">insert_drive_file</i>
+              <i class="material-icons light-green"
+ aria-hidden="true">insert_drive_file</i>
               <span class="categoryTitle" title="How do I set defaults for my site?">How do I set defaults for my site?</span>
             </a>
           </div>
@@ -298,19 +282,22 @@
           <div class="cardHeader" tabindex="0" title="Administrator Users" aria-label="Admin User Related Docs">Users</div>
           <div class="category">
             <a href="/tms/tms-administrators/users/student-management/create-student-user-accounts.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">person</i>
+              <i class="material-icons light-green"
+ aria-hidden="true">person</i>
               <span class="categoryTitle" title="How do I create student user accounts?">How do I create student user accounts?</span>
             </a>
           </div>
           <div class="category">
             <a href="/tms/tms-administrators/users/instructor-management/different-ways-to-set-up-instructor-access.md" class="categoryThread">
-              <i class="material-icons blue" aria-hidden="true">person</i>
+              <i class="material-icons green"
+ aria-hidden="true">person</i>
               <span class="categoryTitle" title="What are different ways to set up instructor access?">What are different ways to set up instructor access?</span>
             </a>
           </div>
           <div class="category">
             <a href="/tms/tms-administrators/users/student-management/find-users.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">person</i>
+              <i class="material-icons light-green"
+ aria-hidden="true">person</i>
               <span class="categoryTitle" title="How do I find users?">How do I find users?</span>
             </a>
           </div>
@@ -348,19 +335,22 @@
         <div class="cardHeader" tabindex="0" title="Administrator Courses and Their Activities" aria-label="Admin Courses and Their Activities Docs">Courses and Their Activities</div>
           <div class="category">
             <a href="/tms/tms-administrators/courses-and-activities/overall/create-course.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">ondemand_video</i>
+              <i class="material-icons light-green"
+ aria-hidden="true">ondemand_video</i>
               <span class="categoryTitle" title="How do I create a basic course?">How do I create a basic course?</span>
             </a>
           </div>
           <div class="category">
             <a href="/tms/tms-administrators/courses-and-activities/labs/add-labs.md" class="categoryThread">
-              <i class="material-icons blue" aria-hidden="true">ondemand_video</i>
+              <i class="material-icons green"
+ aria-hidden="true">ondemand_video</i>
               <span class="categoryTitle" title="How do I add labs to my course?">How do I add labs to my course?</span>
             </a>
           </div>
           <div class="category">
             <a href="/tms/tms-administrators/courses-and-activities/pgs/what-is-publishing-group.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">ondemand_video</i>
+              <i class="material-icons light-green"
+ aria-hidden="true">ondemand_video</i>
               <span class="categoryTitle" title="What is a Publishing Group?">What is a Publishing Group?</span>
             </a>
           </div>
@@ -398,19 +388,22 @@
           <div class="cardHeader" tabindex="0" title="Administrator Automated Notifications" aria-label="Admin Automated Notifications Docs">Automated Notifications</div>
           <div class="category">
             <a href="/tms/tms-administrators/notifications/use-automated-notifications.md" class="categoryThread">
-             <i class="material-icons blue" aria-hidden="true">input</i>
+             <i class="material-icons green"
+ aria-hidden="true">input</i>
               <span class="categoryTitle" title="How can I use automated notifications?">How can I use automated notifications?</span>
             </a>
           </div>
           <div class="category">
             <a href="/tms/tms-administrators/notifications/registration-notification.md" class="categoryThread">
-              <i class="material-icons blue" aria-hidden="true">input</i>
+              <i class="material-icons green"
+ aria-hidden="true">input</i>
               <span class="categoryTitle" title="How do I create a registration notification?">How do I create a registration notification?</span>
             </a>
           </div>
           <div class="category">
             <a href="/tms/tms-administrators/notifications/instructor-notifications.md" class="categoryThread">
-              <i class="material-icons blue" aria-hidden="true">input</i>
+              <i class="material-icons green"
+ aria-hidden="true">input</i>
               <span class="categoryTitle" title="How do I create instructor notifications?">How do I create instructor notifications?</span>
             </a>
           </div>
@@ -448,15 +441,18 @@
           <div class="cardHeader" tabindex="0" title="Administator Assessments & Surveys" aria-label="Administrator Assessments & Surveys Featured Docs">Assessments & Surveys</div>
           <div class="category">
               <a href="/tms/tms-administrators/miscellaneous/use-survey-or-assessment.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">description</i>
+              <i class="material-icons light-green"
+ aria-hidden="true">description</i>
               <span class="categoryTitle" title="Do I want to use a survey or an assessment?">Do I want to use a survey or an assessment?</span>
             </a>
               <a href="/tms/tms-administrators/miscellaneous/surveys.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">description</i>
+              <i class="material-icons light-green"
+ aria-hidden="true">description</i>
               <span class="categoryTitle" title="How do surveys work?">How do surveys work?</span>
             </a>
               <a href="/tms/tms-administrators/miscellaneous/assessments.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">description</i>
+              <i class="material-icons light-green"
+ aria-hidden="true">description</i>
               <span class="categoryTitle" title="How do assessments work?">How do assessments work?</span>
             </a>
           </div>
@@ -469,11 +465,13 @@
           <div class="cardHeader" tabindex="0" title="Administator Miscellaneous" aria-label="Administrator Miscellaneous Featured Docs">Miscellaneous</div>
            <div class="category">
             <a href="/tms/tms-administrators/miscellaneous/custom-fields.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">description</i>
+              <i class="material-icons light-green"
+ aria-hidden="true">description</i>
               <span class="categoryTitle" title="What are custom fields?">What are custom fields?</span>
             </a>
             <a href="/tms/tms-administrators/miscellaneous/create-completion-certificates.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">description</i>
+              <i class="material-icons light-green"
+ aria-hidden="true">description</i>
               <span class="categoryTitle" title="How do I create completion certificates?">How do I create completion certificates?</span>
             </a>
           </div>
@@ -489,15 +487,15 @@
   <!-- Begin Arvato MarketPlace Admin categories section.. -->
     <div class="moreInfo" tabindex="0" title="Getting started?">
       <span class="moreInfo_header">Getting started?</span>
-      If you are a first time purchaser of Learn on Demand Systems labs through the Courseware Marketplace, read the <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started.md">Getting Started</a> article first, then review the following topics/processes to access and manage your orders.
+      If you are a first time purchaser of Skillable labs through the Courseware Marketplace, read the <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started.md">Getting Started</a> article first, then review the following topics/processes to access and manage your orders.
         </div> 
     <div class="moreInfo" tabindex="0" title="Returning Customer?">
       <span class="moreInfo_header">Returning Customer?</span>
-      If you have purchased Learn on Demand Systems labs before through the Courseware Marketplace, read the <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started-returning-customers.md">Getting Started for Returning Customers</a> article first, then review the following topics/processes to access and manage your orders.
+      If you have purchased Skillable labs before through the Courseware Marketplace, read the <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started-returning-customers.md">Getting Started for Returning Customers</a> article first, then review the following topics/processes to access and manage your orders.
     </div>
     <div class="moreInfo" tabindex="0" title="Meet Virtually">
       <span class="moreInfo_header">Meet Virtually</span>
-      Learn how to use your virtual meeting provider with LODS labs. You can provide access to your virtual meeting host and your LODS labs from within a class, giving your students and instructor everything they need on one page. For more information on integrating your virtual meeting host <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/integrate-virtualmeetingprovider.md">click here.</a> For informtion on creating a class that integrates a virtual meeting host <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md">click here.</a>  
+      Learn how to use your virtual meeting provider for classes in the TMS. You can provide access to your virtual meeting host and your labs from within a class, giving your students and instructor everything they need on one page. For more information on integrating your virtual meeting host <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/integrate-virtualmeetingprovider.md">click here.</a> For informtion on creating a class that integrates a virtual meeting host <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md">click here.</a>  
     </div>
     <div class="cardsContainer">
     <div class="cardContainer">
@@ -506,19 +504,22 @@
           <div class="cardHeader" tabindex="0" title="Arvato Marketplace Fulfilling Your Lab Order" aria-label="Arvato Marketplace Fulfilling Your Lab Order Docs">Fulfilling Your Lab Order</div>
           <div class="category"> 
             <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md" class="categoryThread">
-              <i class="material-icons blue" aria-hidden="true">cloud_done</i>
+              <i class="material-icons green"
+ aria-hidden="true">cloud_done</i>
               <span class="categoryTitle" title="How do I set up a class?">How do I set up a class?</span>
             </a>
           </div>
           <div class="category">  
             <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/integrate-virtualmeetingprovider.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">cloud_done</i>
+              <i class="material-icons light-green"
+ aria-hidden="true">cloud_done</i>
               <span class="categoryTitle" title="How can I add a virtual meeting provider to a class?">How can I add a virtual meeting provider to a class?</span>
             </a>
             </div>
           <div class="category">  
             <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/enroll-students-in-class.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">cloud_done</i>
+              <i class="material-icons light-green"
+ aria-hidden="true">cloud_done</i>
               <span class="categoryTitle" title="How do I enroll students in a class?">How do I enroll students in a class?</span>
             </a>
           </div>
@@ -554,19 +555,22 @@
           <div class="cardHeader" tabindex="0" title="Arvato Marketplace FAQs for Courseware Marketplace Orders" aria-label="Arvato Marketplace FAQs for Courseware Marketplace Orders Featured Docs">FAQs for Courseware Marketplace Orders</div>
           <div class="category">
             <a href="/tms/arvato-marketplace/faq-for-arvato-marketplace/purchase-labs-for-instructor.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">help</i>
+              <i class="material-icons light-green"
+ aria-hidden="true">help</i>
               <span class="categoryTitle" title="Do I need to purchase labs for the instructor?">Do I need to purchase labs for the instructor?</span>
             </a>
           </div>
           <div class="category">
             <a href="/tms/arvato-marketplace/faq-for-arvato-marketplace/vouchers-not-showing-in-manage-class-vouchers.md" class="categoryThread">
-              <i class="material-icons blue" aria-hidden="true">help</i>
+              <i class="material-icons green"
+ aria-hidden="true">help</i>
               <span class="categoryTitle" title="Why are my class vouchers not showing in Manage Class Vouchers?">Why are my class vouchers not showing in Manage Class Vouchers?</span>
             </a>
           </div>
           <div class="category">
             <a href="/tms/arvato-marketplace/faq-for-arvato-marketplace/students-access-labs.md" class="categoryThread">
-              <i class="material-icons light-blue" aria-hidden="true">help</i>
+              <i class="material-icons light-green"
+ aria-hidden="true">help</i>
               <span class="categoryTitle" title="How and when can students access labs?">How and when can students access labs?</span>
             </a>
           </div>

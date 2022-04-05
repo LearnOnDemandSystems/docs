@@ -52,17 +52,29 @@
         <div class="subtopic_title">Automatic Login for Windows Virtual Machines</div>
         <div class="subtopic_description">Configure a Windows virtual machine to log in automatically without the need to enter a username and password.</div>
       </a>
+      <a class="subtopic_link" href="/lod/cloud-credential-pool.md">
+        <div class="subtopic_title">Cloud Credential Pools</div>
+        <div class="subtopic_description">Overview and explanation of Cloud Credential Pools.</div>
+      </a>
       <a class="subtopic_link" href="/lod/container-images.md">
         <div class="subtopic_title">Container Images</div>
         <div class="subtopic_description">Create Docker container images to use in lab profiles. </div>
-      </a>       
+      </a> 
+      <a class="subtopic_link" href="/lod/container-registries.md">
+        <div class="subtopic_title">Container Registries</div>
+        <div class="subtopic_description">Create custom container registries that are linked to an external registry. </div>
+      </a> 
+      <a class="subtopic_link" href="/lod/container-web-display.md">
+        <div class="subtopic_title">Container Web Display</div>
+        <div class="subtopic_description">Display the output of an exposed container port in a web browser. </div>
+      </a> 
       <a class="subtopic_link" href="/lod/create-removable-media.md">
         <div class="subtopic_title">Create Removable Media</div>
         <div class="subtopic_description">Removable Media to be used with virtual machines.</div>
       </a>
       <a class="subtopic_link" href="/lod/uuid.md">
-        <div class="subtopic_title">Custom UUID on VMware Virtual Machines</div>
-        <div class="subtopic_description">Assign a custom unique ID to a virtual machine hosted on a VMware host.</div>
+        <div class="subtopic_title">Custom UUID on an ESX Virtual Machines</div>
+        <div class="subtopic_description">Assign a custom unique ID to a virtual machine hosted on an ESX host.</div>
       </a>
       <a class="subtopic_link" href="/lod/capture-differencing-disks.md">
         <div class="subtopic_title">Differencing Disk Capture</div>
@@ -81,7 +93,7 @@
         <div class="subtopic_description">Start States allow you to create a point in a lab where the lab will launch from for subsequent launches.</div>
       </a>         
       <a class="subtopic_link" href="/lod/ova-import.md">
-        <div class="subtopic_title">Importing an VMware Virtual Machine From an OVA.</div>
+        <div class="subtopic_title">Importing an ESX Virtual Machine From an OVA.</div>
         <div class="subtopic_description">Virtual machine profile creation, and explanation of virtual machine profile configuration.</div>
       </a>    
       <a class="subtopic_link" href="/lod/lab-networks.md">
@@ -113,7 +125,7 @@
       </a>
       <a class="subtopic_link" href="/lod/spla-supported.md">
         <div class="subtopic_title">SPLA Supported Software</div>
-        <div class="subtopic_description">Supported products and the conditions within Learn on Demand Systems implementation of the SPLA program.</div>
+        <div class="subtopic_description">Supported products and the conditions within Skillable implementation of the SPLA program.</div>
       </a>
       <a class="subtopic_link" href="/lod/terminal-access.md">
         <div class="subtopic_title">SSH Terminal Access</div>

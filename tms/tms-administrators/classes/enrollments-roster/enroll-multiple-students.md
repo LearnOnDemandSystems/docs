@@ -33,7 +33,7 @@ Using Create Multiple Enrollments has the flexibility to let you enroll one stud
 1. All students will be added to the Roster with the status of Enrolled. Change the enrollment status to **Requested**. 
 1. Click **Save** to add them to the class. 
 
-> :small_blue_diamond: Adding students to class it is best to set the Enrollment Status to Requested. Then when the students show up for the class, mark them Enrolled. If they do not show up, mark them Cancelled. Note that LODS uses the Enrolled status to trigger billing for lab usage. Therefore, after a class begins the system will not permit the Enrollment Status of **Enrolled** to be changed. But you can change the **Requested** status to another status.
+> :small_blue_diamond: Adding students to class it is best to set the Enrollment Status to Requested. Then when the students show up for the class, mark them Enrolled. If they do not show up, mark them Cancelled. Note that we use the Enrolled status to trigger billing for lab usage. Therefore, after a class begins the system will not permit the Enrollment Status of **Enrolled** to be changed. But you can change the **Requested** status to another status.
 
 Students' enrollment statuses will need to be changed to Enrolled or Cancelled after the class starts.
 

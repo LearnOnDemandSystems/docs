@@ -17,7 +17,7 @@ To create a course, click **Create Course** in the **Courses** group on the **Ad
 The Basic Information tab contains many properties for the course. Only a few are required. To create a basic course use these fields:
 1. In **Name**, enter the name for the course. This will be used for course assignments and will be the default name for classes.
 1. Next to **Content Provider**, click **Choose**.
-1. In the **Choose Content Provider** dialog, search for and select the **Content Provider** to assign to the course and click **OK**. This sets content ownership and may be used by LODS to set availability of contracted content, e.g. distribution of MOC courses.
+1. In the **Choose Content Provider** dialog, search for and select the **Content Provider** to assign to the course and click **OK**. This sets content catagories and is a legacy billing field.
 1. Click **Save**.
 
 You have now created a basic course that can be used for scheduling training.
@@ -61,12 +61,4 @@ There are many options such as different types of activities that you may want t
 1. [How do I add videos to my course?](../other-activities/add-video.md)
 1. [How do I add documents and external links to my course?](../other-activities/add-docs-urls.md)
 1. [How do I add an assessment to a course?](../other-activities/add-assessment.md)
-1. [How do I add an LTI Resource link to my course?](https://docs.learnondemandsystems.com/tms/tms-administrators/courses-and-activities/overall/lti-activity.md)
-
-**Other Options** – (Coming Soon)
-<!--
-1. [How do I set prerequisites to a course?]()
-1. [How can I add a course to a subscription profile?]()
-1. [How can I control how a course looks and is found on the On-Demand browser and Course Catalog pages?]()
-1. [What is the Advanced tab on a course profile?]()
--->
+1. [How do I add an LTI Resource link to my course?](https://docs.skillable.com/tms/tms-administrators/courses-and-activities/overall/lti-activity.md)

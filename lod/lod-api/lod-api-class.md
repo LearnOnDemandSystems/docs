@@ -1,3 +1,9 @@
+---
+title: "Class API Command"
+description: "The Class command returns information about a class."
+isPublished: true
+---
+
 # Class
 
 The **Class** command returns information about a class.
@@ -18,10 +24,13 @@ The **Class** command returns information about a class.
 |End|Long|No|When the class ends (in Unix epoch time)|
 |Expires|Long|No|When labs can no longer be associated with the class (in Unix epoch time)|
 |Instructor|Instructor|Yes|The class instructor. See the Instructor Type below.|
-|Url|String|No|A URL where the class can be viewed|
+|URL|String|No|This response property is deprecated. Unless explicitly allowed by Skillable, this field will always be null. To obtain a class URL, use the [ClassAccessUrl API](lod-api-classaccessurl.md). |
+|Status|Integer|No|Indicates the status of the API request
+||||0 = Error
+||||1 = Success|
 |Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
-## Instructor
+### Instructor
 |Name|Type|Nullable|Note
 |--- |--- |--- |--- |
 |Id|String|No|The unique identifier of the instructor, as represented in your external system|
@@ -47,7 +56,7 @@ https://labondemand.com/api/v3/class/?id=4449999
     "Expires": 1335978000,
     "InstructorFirstName": "Demo",
     "InstructorLastName": "Instructor",
-    "Url": https://labondemand.com/class/5bbca218-2cbe-47ab-bd37-bd9b5b623dea,
+    "Url": null,
     "Status": 1,
     "Error": null
 }

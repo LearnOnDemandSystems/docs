@@ -1,3 +1,9 @@
+---
+title: "Launch API Command"
+description: "The Launch command will launch a specified lab for a specified user. "
+isPublished: true
+---
+
 # Launch
 
 The **Launch** command will launch a specified lab for a specified user. 
@@ -15,8 +21,8 @@ The **Launch** command will launch a specified lab for a specified user.
 |canBeMarkedComplete|Integer|No|An optional parameter used to specify if the lab can be marked as complete by the student. 1 = true, 2 = false. If not specified, defaults to 1 (true).|
 |tag|String|No|An optional parameter that can be used for tagging the lab instance with your own custom data.|
 |ipAddress|String|No|When specified, Lab on Demand will attempt to launch the lab in the closest available delivery region. You should provide the IP address of the user that is taking the lab, not the IP address of your system. IPv4 and IPv6 address are supported.|
-|regionId|Integer|No|When specified, Lab on Demand will attempt to launch the lab in the specified delivery region. Delivery regions can be found using the [DeliveryRegions command](lod-api-delivery-regions.md) or [Catalog command](lod-api-catalog.md). Using the ipAddress parameter will result in a more reliable geo-location of the lab for the end user.|
-|roleId|Integer|No|Allows you specify the role(s) to assign to the user. You may pass multiple instances of this parameter to specify multiple roles. Roles are used for specialized integration purposes and are not needed in typical integration scenarios. Role IDs will be provided by Learn on Demand Systems when appropriate.|
+|regionId|Integer|No|When specified, Lab on Demand will attempt to launch the lab in the specified delivery region if a suitable host in that region is available and all required storage is available in that region. Delivery regions can be found using the [DeliveryRegions command](lod-api-delivery-regions.md) or [Catalog command](lod-api-catalog.md). Using the ipAddress parameter will result in a more reliable geo-location of the lab for the end user.|
+|roleId|Integer|No|Allows you specify the role(s) to assign to the user. You may pass multiple instances of this parameter to specify multiple roles. Roles are used for specialized integration purposes and are not needed in typical integration scenarios. Role IDs will be provided by Skillable when appropriate.|
 |variable-*name*|string|No|Allows you to set the values of named variables used within the lab instance.|
 |maxSavedLabs|Integer|No|The max number of labs an individual user may save. This is capped by the number configured on your API consumer.|
 |maxSaveDays|Integer|No|The max number of days an individual user may save their lab. This is capped by the number configured on your API consumer.|
@@ -60,6 +66,9 @@ The **Launch** command will launch a specified lab for a specified user.
 |Url|String|False|A URL where the lab can be viewed by the user|
 |LabInstanceId|Long|False|The Id assigned to the new lab instance|
 |Expires|Long|False|When the lab will expire (in Unix epoch time)|
+|Status|Integer|No|Indicates the status of the API request
+||||0 = Error
+||||1 = Success|
 |Error|String|False|In the event of an error, this will contain a detailed error message.|
 
 ## Example Usage

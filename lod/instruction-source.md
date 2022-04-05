@@ -18,7 +18,7 @@ isPublished: true
 
 # Overview
 
-Lab on Demand allows you to set Azure Devops (ADO) or GitHub as an instruction source, using an external ADO or GitHub repository into a lab and use that repository as the source of IDLx content for that lab. 
+Lab on Demand allows you to set Azure DevOps (ADO) or GitHub as an instruction source, using an external ADO or GitHub repository into a lab and use that repository as the source of IDLx content for that lab. 
 
 Choosing to leverage these features means moving all of your content management (including editing) for a lab into ADO or GitHub. Once you have enabled this instruction source for a lab, the content in that lab will automatically be updated
 based on the the latest changes you make to your content in the external repository. 
@@ -106,7 +106,9 @@ To use the markdown document in your ADO repository as the instruction source wi
 
 1. Once you are logged into ADO, you will be asked to authorize Lab on Demand to have access to your ADO account. This access is only used to create a webhook so that LOD can be notified whenever the content in your ADO repository changes. Click **Accept** to continue with the integration.
 
+<!--
     ![Authorize application](images/ado-authorization.png "Authorize application")
+-->
 
 1. At this point you will be presented with a list of organizations that are associated with your ADO account. Click select next the organization containing the project file to be used as the instructions source. 
 
@@ -155,7 +157,9 @@ If you're not logged in already, you be will prompted to log in to the GitHub ac
 content in your GitHub repository changes. Click **Authorize application** to
 continue with the integration.
 
+<!--
     ![Authorize application](images/04-authorize-application.png "Authorize application")
+-->
 
 1. At this point you will be presented with a list of repositories that are associated with your GitHub account. Click select next the repository containing the markdown file to be used as the instructions source. 
 
@@ -220,5 +224,3 @@ The archive file that is saved will contain a content.md file as well as folders
 - [Replacement Tokens](feature-focus/cloud-resource-templates/replacement-tokens.md)
 
     Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.
-
-[Back to top](#external-instruction-source)

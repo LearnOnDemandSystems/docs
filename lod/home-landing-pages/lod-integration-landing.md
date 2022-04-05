@@ -36,10 +36,6 @@
         <div class="subtopic_description">Configure an instance of Blackboard to use LTI.</div>
       </a>
       </a>
-      <a class="subtopic_link" href="/lod/saml-integration.md">
-        <div class="subtopic_title">Central Authentication SAML Integration</div>
-        <div class="subtopic_description">Configure an Azure Enterprise Application for SAML-based Single Sign-On.</div>
-      </a>
       <a class="subtopic_link" href="/lod/instruction-source.md">
         <div class="subtopic_title">External Instruction Source</div>
         <div class="subtopic_description">Use an Azure DevOps or GitHub repository as the instruction source for labs.</div>
@@ -59,6 +55,10 @@
       <a class="subtopic_link" href="/lod/lab-on-demand-lti-1p3-integration.md">
         <div class="subtopic_title">LTI 1.3 Integration Spec</div>
         <div class="subtopic_description">Information for evaluating LTI 1.3</div>
+      </a>
+       <a class="subtopic_link" href="/lod/saml-integration.md">
+        <div class="subtopic_title">SSO Authentication via Azure Active Directory and SAML</div>
+        <div class="subtopic_description">Configure an Azure Enterprise Application for SAML-based Single Sign-On.</div>
       </a>
     </div>
   </div>

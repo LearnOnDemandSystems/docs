@@ -21,7 +21,7 @@ To create a training key pool:
 1. In the **Choose Course** dialog, search for and select the course to align the pool with and click **OK**.
 1. Set the **Starts** date - when the keys can start to be redeemed.
 1. Set the **Expires** date – when the keys can no longer be redeemed. This may be helpful if you know that a new version of the course will soon be available and would like to ensure that the keys for an older version are no longer used.
-1. Set the **Content Availability**, this limits the duration students have access to the course. This can be set up to 180 days.
+1. Set the **Content Availability**, this limits the duration students have access to the course.
 1. Select the box next to **Make these keys available to everyone using [Organization name]**. This allows keys in this pool to be used by child organizations within the parent organization that owns this pool. 
 1. Click the **Training Keys** tab. Here you may either create your own keys or generate keys. Each key is required to be unique.
 1. Enter the first key and click **Add Training Key** for each additional key  – OR – 
@@ -35,7 +35,6 @@ Main features:
 - Key pools are course specific
 - There is no limit to the number of keys that can be generated
 - Keys can only be redeemed while pools are active
-- Student access to content can be configured up to 180 days
 - Training key pools are created from the Admin menu's Training Keys tile using the Create Training Key Pool link 
 - Keys can be exported for distribution
 

@@ -1,3 +1,10 @@
+---
+title: "GetEvaluationResponses API Command"
+description: "The GetEvaluationResponses command returns evaluation responses.
+"
+isPublished: true
+---
+
 # GetEvaluationResponses
 
 The **GetEvaluationResponses** command returns evaluation responses.
@@ -18,8 +25,11 @@ The **GetEvaluationResponses** command returns evaluation responses.
 |--- |--- |--- |--- |
 |Responses|Array of EvaluationAnswerResponse|No|See the EvaluationAnswerResponse Type below|
 |Error|String|Yes|In the event of an error, this will contain a detailed error message.|
+|Status|Integer|No|Indicates the status of the API request
+||||0 = Error
+||||1 = Success|
 
-## EvaluationAnswerResponse
+### EvaluationAnswerResponse
 
 |Name|Type|Nullable|Note|
 |--- |--- |--- |--- |

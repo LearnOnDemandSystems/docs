@@ -4,7 +4,7 @@ description: "This is a template containing all the settings you need to create 
 ispublished: yes
 ---
 
-# How do I create a notification to be sent to my organization’s staff when a student requests enrollment?
+# How do I create a notification to be sent to my staff when a student requests enrollment?
 
 > Please be aware that all functionality may not be available to you.
 

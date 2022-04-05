@@ -52,6 +52,8 @@ Optional fields:
 
 *	**Auto-Assignment Lab Tags** – This field works in conjunction with a feature in LOD. Organizations creating their own lab content can apply lab tags on their lab and the same tags in this field to auto-publish a course and have it automatically added to a subscription.
 
+*       **Enforce course prerequisites** - Enable this field to require prerequisites set on courses to be enforced for all courses within the subscription.
+
 4.	**HTML Description tab** 
 
 Optional field to add a custom formatted description. This description only shows on the Subscription Profile.

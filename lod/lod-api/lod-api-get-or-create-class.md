@@ -1,3 +1,10 @@
+---
+title: "GetOrCreateClass API Command"
+description: "The GetOrCreateClass command returns information about a class. If the class doesn’t exist, it is created.
+"
+isPublished: true
+---
+
 # GetOrCreateClass
 
 The **GetOrCreateClass** command returns information about a class. If the class doesn’t exist, it is created.
@@ -10,7 +17,7 @@ The **GetOrCreateClass** command returns information about a class. If the class
 |name|String|Yes|The name of the class|
 |start|Long|Yes|When the class starts (in Unix epoch time)|
 |end|Long|Yes|When the class ends (in Unix epoch time)|
-|expires|Long|Yes|When labs can no longer be associated with the class (in Unix epoch time)|
+|expires|Long|Yes|When the class expires (in Unix epoch time)|
 |instructorId|String|No|The ID you use to identify the class instructor in your external system.|
 |instructorFirstName|String|No|The first name of the class instructor|
 |instructorLastName|String|No|The last name of the class instructor|
@@ -28,11 +35,15 @@ The **GetOrCreateClass** command returns information about a class. If the class
 |End|Long|No|When the class ends (in Unix epoch time)|
 |Expires|Long|No|When labs can no longer be associated with the class (in Unix epoch time)|
 |Instructor|Instructor|Yes|The class instructor. See the Instructor Type below.|
-|Url|String|No|A URL where the class can be viewed, including real-time monitoring of labs launched within it.|
+|URL|String|No|This response property is deprecated. Unless explicitly allowed by Skillable, this field will always be null. To obtain a class URL, use the [ClassAccessUrl API](lod-api-classaccessurl.md).|
 |maxActiveLabInstances|Integer|Yes|The maximum number of active lab instances than can exist concurrently within this class context.|
 |availableLabs|Integer Array|Yes|The IDs of labs available for launch within the class when using the class attendance UI directly in Lab on Demand (generally not used for class deliveries managed outside of Lab on Demand).
+|Status|Integer|No|Indicates the status of the API request
+||||0 = Error
+||||1 = Success|
+|Error|String|True|In the event of an error, this will contain a detailed error message.|
 
-## Instructor
+### Instructor
 
 |Name|Type|Nullable|Note|
 |--- |--- |--- |--- |
@@ -53,7 +64,7 @@ Imagine… A class must be created with the following data:
 - Expires May 2 2012 5PM UTC
 
 ```
-https://labondemand.com/api/v3/GetOrCreateClass/?id=4449999&name=Sample+Class&instructorFirstName=Demo&instructorLastName=Instructor&start=1333267200&end=1333299600&expires=1335978000
+https://labondemand.com/api/v3/GetOrCreateClass?id=4449999&name=Sample+Class&instructorFirstName=Demo&instructorLastName=Instructor&start=1333267200&end=1333299600&expires=1335978000
 ```
 
 ## Example Response
@@ -67,7 +78,7 @@ https://labondemand.com/api/v3/GetOrCreateClass/?id=4449999&name=Sample+Class&in
     "Expires": 1335978000,
     "InstructorFirstName": "Demo",
     "InstructorLastName": "Instructor",
-    "Url": https://labondemand.com/class/5bbca218-2cbe-47ab-bd37-bd9b5b623dea,
+    "Url": null,
     "MaxActiveLabInstances": null,
     "AvailableLabs":[],
     "Status": 1,

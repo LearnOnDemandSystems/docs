@@ -36,7 +36,7 @@ If you are new to lab development and the Lab on Demand platform, the following 
 
 - [How do I configure scoring in my lab?](pbt/overview.md)
 
-- [How do I import a VMware virtual machine from an OVA?](ova-import.md) 
+- [How do I import a ESX virtual machine from an OVA?](ova-import.md) 
 
 - [How do I capture a differencing disk?](capture-differencing-disks.md)
 
@@ -53,4 +53,4 @@ If you are new to lab development and the Lab on Demand platform, the following 
 
 - [Virtual machine based lab best practices](vm-based-lab-build-best-practices.md)
 
-If there are other topics that you would like to learn about, please view [ our documentation library](https://docs.learnondemandsystems.com/lod/home.md). If you are interested in a topic that is not listed, please reach out to our [Support Team](http://www.learnondemandsystems.com/customer-support/).
+If there are other topics that you would like to learn about, please view [ our documentation library](https://docs.skillable.com/lod/home.md). If you are interested in a topic that is not listed, please reach out to our [Support Team](https://skillable.com/customer-support/).

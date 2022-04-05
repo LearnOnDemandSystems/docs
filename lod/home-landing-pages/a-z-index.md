@@ -86,9 +86,13 @@
         <div class="subtopic_title">Blackboard LTI Initialization</div>
         <div class="subtopic_description">Configure an instance of Blackboard to use LTI.</div>
       </a>
-      <a class="subtopic_link" href="/lod/saml-integration.md">
-        <div class="subtopic_title">B2C SAML Integration</div>
-        <div class="subtopic_description">Configure an Azure Enterprise Application for SAML-based Single Sign-On.</div>
+      <a class="subtopic_link" href="/lod/cloud-credential-pool.md">
+        <div class="subtopic_title">Cloud Credential Pools</div>
+        <div class="subtopic_description">Overview and explanation of Cloud Credential Pools.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/cloud-fabric-explanation.md">
+        <div class="subtopic_title">Cloud Fabric Explanation</div>
+        <div class="subtopic_description">Characteristics and Differences of Supported Cloud Fabrics.</div>
       </a>
       <a class="subtopic_link" href="/lod/cloud-security/cloud-security-home.md">
          <div class="subtopic_title">Cloud Security Resources</div>
@@ -122,6 +126,10 @@
         <div class="subtopic_title">Container Registries</div>
         <div class="subtopic_description">Create custom container registries that are linked to an external registry. </div>
       </a> 
+      <a class="subtopic_link" href="/lod/container-web-display.md">
+        <div class="subtopic_title">Container Web Display</div>
+        <div class="subtopic_description">Display the output of an exposed container port in a web browser. </div>
+      </a> 
       <a class="subtopic_link" href="/lod/create-cloud-subscription-pool.md">
         <div class="subtopic_title">Create a Cloud Subscription Pool</div>
         <div class="subtopic_description">Create a Cloud Subscription Pool to load balance labs across your cloud subscriptions.</div>
@@ -139,8 +147,8 @@
         <div class="subtopic_description">Removable Media to be used with virtual machines.</div>
       </a>
       <a class="subtopic_link" href="/lod/uuid.md">
-        <div class="subtopic_title">Custom UUID on VMware Virtual Machines</div>
-        <div class="subtopic_description">Assign a custom unique ID to a virtual machine hosted on a VMware host.</div>
+        <div class="subtopic_title">Custom UUID on an ESX Virtual Machines</div>
+        <div class="subtopic_description">Assign a custom unique ID to a virtual machine hosted on an ESX host.</div>
       </a>
       <a class="subtopic_link" href="/lod/capture-differencing-disks.md">
         <div class="subtopic_title">Differencing Disk Capture</div>
@@ -191,7 +199,7 @@
         <div class="subtopic_description">Considerations for labs that are integrated into an iframe.</div>
       </a>
       <a class="subtopic_link" href="/lod/ova-import.md">
-        <div class="subtopic_title">Importing an VMware Virtual Machine From an OVA.</div>
+        <div class="subtopic_title">Importing an ESX Virtual Machine From an OVA.</div>
         <div class="subtopic_description">Virtual machine profile creation, and explanation of virtual machine profile configuration.</div>
       </a>            
       <a class="subtopic_link" href="/lod/feature-focus/lod-experience.md">
@@ -242,6 +250,10 @@
         <div class="subtopic_title">Lab Profile Cloning</div>
         <div class="subtopic_description">Create a duplicate copy of a lab profile by cloning.</div>
       </a>  
+      <a class="subtopic_link" href="/lod/inherit-lab-profile.md">
+        <div class="subtopic_title">Lab Profile Inheritance</div>
+        <div class="subtopic_description">Configure a lab profile to inherit the environment and content from another lab profile.</div>
+      </a>
       <a class="subtopic_link" href="/lod/lab-series-cloning.md">
         <div class="subtopic_title">Lab Series Cloning</div>
         <div class="subtopic_description">Create a duplicate copy of a Lab Series by cloning.</div>
@@ -254,9 +266,9 @@
         <div class="subtopic_title">Lab Series Creation and Explanation</div>
         <div class="subtopic_description">Lab Series creation, and explanation of lab series configuration.</div>
       </a>
-      <a class="subtopic_link" href="/lod/lods-enhanced-account-security.md">
-        <div class="subtopic_title">Learn on Demand Systems Enhanced Account Security</div>
-        <div class="subtopic_description">Guidance for authenticating user accounts with Learn on Demand Systems Platforms, as well as account management in each platform.</div>
+      <a class="subtopic_link" href="/lod/skillable-enhanced-account-security.md">
+        <div class="subtopic_title">Skillable Enhanced Account Security</div>
+        <div class="subtopic_description">Guidance for authenticating user accounts with Skillable Platforms, as well as account management in each platform.</div>
       </a>      
       <a class="subtopic_link" href="/lod/life-cycle-actions.md">
         <div class="subtopic_title">Life Cycle Actions</div>
@@ -290,6 +302,14 @@
          <div class="subtopic_title">Persist Container Changes</div>
          <div class="subtopic_description">Allows you to permanently persist container changes so that they are used in future lab launches.</div>
       </a>
+      <a class="subtopic_link" href="/lod/platform-terminology.md">
+        <div class="subtopic_title">Platform Terminology</div>
+        <div class="subtopic_description">Explanation of terminology used in Lab on Demand.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/publish-lab-series.md">
+        <div class="subtopic_title">Publishing a Lab Series to Production</div>
+        <div class="subtopic_description">This document describes the process of moving labs from Development to Production in Lab on Demand.</div>
+      </a>
       <a class="subtopic_link" href="/lod/feature-focus/cloud-resource-templates/replacement-tokens.md">
         <div class="subtopic_title">Replacement Tokens</div>
         <div class="subtopic_description">Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.</div>
@@ -304,11 +324,15 @@
       </a>
       <a class="subtopic_link" href="/lod/spla-supported.md">
         <div class="subtopic_title">SPLA Supported Software</div>
-        <div class="subtopic_description">Supported products and the conditions within Learn on Demand Systems implementation of the SPLA program.</div>
+        <div class="subtopic_description">Supported products and the conditions within Skillable implementation of the SPLA program.</div>
       </a>
       <a class="subtopic_link" href="/lod/terminal-access.md">
         <div class="subtopic_title">SSH Terminal Access</div>
         <div class="subtopic_description">Configure virtual machines for SSH terminal access.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/saml-integration.md">
+        <div class="subtopic_title">SSO Authentication via Azure Active Directory and SAML</div>
+        <div class="subtopic_description">Configure an Azure Enterprise Application for SAML-based Single Sign-On.</div>
       </a>
       <a class="subtopic_link" href="/lod/student-desktop-recording.md">
         <div class="subtopic_title">Student Desktop Recording</div>

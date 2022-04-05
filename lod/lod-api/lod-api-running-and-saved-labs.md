@@ -1,3 +1,9 @@
+---
+title: "RunningAndSavedLabs API Command"
+description: "The RunningAndSavedLabs command retrieves all lab instances launched by this API Consumer that are currently running or saved."
+isPublished: true
+---
+
 # RunningAndSavedLabs
 
 The **RunningAndSavedLabs** command retrieves all lab instances launched by this API Consumer that are currently running or saved.
@@ -12,9 +18,12 @@ none
 |--- |--- |--- |--- |
 |RunningLabs|Array of LabInstance|No|See the LabInstance Type below|
 |SavedLabs|Array of LabInstance|No|See the LabInstance Type below|
+|Status|Integer|No|Indicates the status of the API request
+||||0 = Error
+||||1 = Success|
 |Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
-## LabInstance
+### LabInstance
 
 |Property|Type|Nullable|Note
 |--- |--- |--- |--- |

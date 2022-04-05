@@ -1,3 +1,9 @@
+---
+title: "Save API Command"
+description: "The Save command allows you to save a specified lab instance."
+isPublished: true
+---
+
 # Save
 
 The **Save** command allows you to save a specified lab instance.
@@ -15,6 +21,9 @@ The **Save** command allows you to save a specified lab instance.
 ||||1 = Success
 ||||2 = Invalid State|
 |Expires|Long|No|When the saved lab will expire (in Unix epoch time)|
+|Status|Integer|No|Indicates the status of the API request
+||||0 = Error
+||||1 = Success|
 |Error|String|No|In the event of an error, this will contain a detailed error message.|
 
 ## Example Usage

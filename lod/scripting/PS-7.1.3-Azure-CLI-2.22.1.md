@@ -8,12 +8,12 @@ Your scripts can communicate success or failure to LOD in one of two ways.
 
 ```PowerShell
 //do stuff... all good
-return true
+return $true
 ```
 
 ```PowerShell
 //do stuff... uh oh
-return false
+return $false
 ```
 
 ### Use setActivityResult
@@ -45,7 +45,7 @@ Send-LabNotification -Message "Hello from a script"
 
 ### Lab Variables
 
-Lab variables are always string name/value pairs. Variable values are scoped to the lab instances and become avaialble within the lab instructions as well as subsequent script executions. 
+Lab variables are always string name/value pairs. Variable values are scoped to the lab instances and become available within the lab instructions as well as subsequent script executions. 
 
 ```PowerShell
 Set-LabVariable -Name firstName -Value John

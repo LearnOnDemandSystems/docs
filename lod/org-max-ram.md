@@ -12,13 +12,13 @@ Each limit can be set to unlimited or to a specified amount of gigabytes (GB).
 
 - By Lab Ownership: Limits the amount of RAM that can be in use at any given time for lab profiles that belong to this organization. This includes labs launched anonymously and by users from different organizations. 
 
-- By User Membership: Limits the amount of RAM that can be in use at any given mtime for users that belong to this organization. 
+- By User Membership: Limits the amount of RAM that can be in use at any given time for users that belong to this organization. 
 
     ![](images/max-ram-usage.png)
 
 ## Max Active Lab Instances
 
-- By Lab Ownership: Limits the number of labn instances that can be active at any given time for lab profiles that belong to this organization. This includes labs launched anonymously and by users from different organizatinos. 
+- By Lab Ownership: Limits the number of lab instances that can be active at any given time for lab profiles that belong to this organization. This includes labs launched anonymously and by users from different organizations. 
 
 - By User Membership: Limits the number of lab instances that can be active at any given time for users belonging to this organization.
 

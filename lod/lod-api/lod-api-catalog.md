@@ -1,3 +1,9 @@
+---
+title: "Catalog API Command"
+description: "The Catalog command will return all lab series, lab profiles, and delivery regions available to your organization. Lab profiles are generally grouped into series. Depending on your organization, you may have multiple physical delivery regions available to you."
+isPublished: true
+---
+
 # Catalog
 
 The **Catalog** command will return all lab series, lab profiles, and delivery regions available to your organization. Lab profiles are generally grouped into series. Depending on your organization, you may have multiple physical delivery regions available to you.
@@ -17,9 +23,12 @@ The **Catalog** command will return all lab series, lab profiles, and delivery r
 |LabSeries|Array of Lab Series|No|See the LabSeries Type below|
 |LabProfiles|Array of Lab Profile|No|See the LabProfile Type below|
 |DeliveryRegions|Array of DeliveryRegion|No|See the DeliveryRegion Type below|
+|Status|Integer|No|Indicates the status of the API request
+||||0 = Error
+||||1 = Success|
 |Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
-## LabSeries
+### LabSeries
 
 |Name|Type|Nullable|Note
 |--- |--- |--- |--- |
@@ -27,8 +36,11 @@ The **Catalog** command will return all lab series, lab profiles, and delivery r
 |Name|String|No|The name of the lab series|
 |Description|String|Yes|A brief description of the lab series|
 |NumTrainingDays|Integer|No|The number of training days expected to complete the series|
+|EnableScheduledArchive|Bool|No|The number of training days expected to complete the series|
+|ScheduledArchiveDateTime|Datetime|No|The number of training days expected to complete the series|
 
-## LabProfile
+
+### LabProfile
 
 |Name|Type|Nullable|Note
 |--- |--- |--- |--- |
@@ -36,9 +48,9 @@ The **Catalog** command will return all lab series, lab profiles, and delivery r
 |Name|String|No|The name of the lab profile|
 |Number|String|No|The lab number (usually to identify a lab within a series, e.g. Module 1, Module 2, etc.)|
 |PlatformId|Integer|No|The virtualization platform the lab is run on.|
-||||-1 = None|
+||||1 = None|
 ||||2 = Hyper-V|
-||||3 = vSphere|
+||||3 = ESX|
 ||||10 = Azure|
 ||||11 = AWS|
 ||||20 = Docker|
@@ -72,11 +84,11 @@ The **Catalog** command will return all lab series, lab profiles, and delivery r
 ||||10 = Shared Environment. This lab provides the shared infrastructure that participant labs will connect into. Typically launched and maintained by an administrator or instructor.|
 ||||20 = Participant. This lab will connect into shared environments and act as a participant. Typically launched by students.|
 
-## DeliveryRegion
+### DeliveryRegion
 
 |Name|Type|Nullable|Note
 |--- |--- |--- |--- |
-|Id|Integer|No|The unique identifier of the delivery region|
+|Id|Integer|No|The unique identifier of the delivery region. When specified, Lab on Demand will attempt to launch the lab in the specified delivery region if a suitable host in that region is available and all required storage is available in that region. Delivery regions can be found using the [DeliveryRegions command](lod-api-delivery-regions.md) or [Catalog command](lod-api-catalog.md). Using the ipAddress parameter will result in a more reliable geo-location of the lab for the end user.||
 |Name|String|No|The name of the delivery region|
 |Description|String|Yes|A brief description of the delivery region|
 
@@ -96,12 +108,16 @@ https://labondemand.com/api/v3/catalog
             "Name": "Demo Series 1",
             "Description": "A demo lab series",
             "NumTrainingDays": 5
+            "EnableScheduledArchive": true,
+            "ScheduledArchiveDateTime": "2022-03-07T08:00:00"
         },
         {
             "Id": 2,
             "Name": "Demo Series 2",
             "Description": Another demo lab series,
             "NumTrainingDays": 5
+            "EnableScheduledArchive": false,
+            "ScheduledArchiveDateTime": null
         }
     ],
     "LabProfiles": [
@@ -120,7 +136,7 @@ https://labondemand.com/api/v3/catalog
             "Scenario":" This is the HTML-formatted scenario of the lab",
             "DurationMinutes": 360,
             "ExpectedDurationMinutes":60,
-            "RAM": 8192,
+            "Ram": 8192,
             "HasIntegratedContent": true,
             "ContentVersion": 2,
             "IsExam": false,
@@ -147,7 +163,7 @@ https://labondemand.com/api/v3/catalog
             "Scenario": "This is the HTML-formatted scenario of the lab",
             "DurationMinutes": 360,
             "ExpectedDurationMinutes":60,
-            "RAM": 4096,
+            "Ram": 4096,
             "HasIntegratedContent": true,
             "ContentVersion": 2,
             "IsExam": false,

@@ -1,6 +1,6 @@
 ---
 title: "SPLA Supported Software"
-description: "Supported products and the conditions within Learn on Demand Systems implementation of the SPLA program."
+description: "Supported products and the conditions within Skillable implementation of the SPLA program."
 isPublished: true
 ---
 
@@ -19,9 +19,9 @@ isPublished: true
 
 ## Windows and Office
 
-Below are supported products and the conditions within Learn on Demand Systems implementation of the SPLA program.  
+Below are supported products and the conditions within Skillable implementation of the SPLA program.  
 
-| Software       | Hyper-V | VMWare | Azure | AWS | Notes                         | Status |
+| Software       | Hyper-V | ESX | Azure | AWS | Notes                         | Status |
 |----------------|-------------|-----------|-------------------------------|--------|-|-|
 | Windows Server 2012 R2 / 2016 / 2019 Datacenter | YES | YES | **NO** | **NO** | No Further Support Coming | Supported|
 | Windows Server 2012 R2 / 2016 / 2019 Standard | YES  | YES | **NO** | **NO** | No Further Support Coming | Supported|
@@ -35,7 +35,7 @@ Below are supported products and the conditions within Learn on Demand Systems i
 | Office Project Standard / Professional | YES | YES | **NO** | **NO** | | Supported|
 
 ## Other Software Supported by SPLA
-The following is a list of other software supported by the SPLA program but **NOT** supported by LODS implementation of the program.  However, if you have a viable need, implementation is possible under SPLA for the following:
+The following is a list of other software supported by the SPLA program but **NOT** supported by our implementation of the program.  However, if you have a viable need, implementation is possible under SPLA for the following:
 
 * SharePoint Server
 * SQL Server Standard 
@@ -51,7 +51,7 @@ The following is a list of other software supported by the SPLA program but **NO
 
 Windows Server is offered under the following terms:
 * **Concurrency GB Model** - offered in increments of 768GB RAM
-* **Per GB RAM/hr Model** - offered per GB, calculated per hour
+* **Per GB RAM/HR Model** - offered per GB, calculated per hour
 
 Office Products are billed on a 'Per User' basis.  Every launch in Lab on Demand constitutes a billable consumption.  
 

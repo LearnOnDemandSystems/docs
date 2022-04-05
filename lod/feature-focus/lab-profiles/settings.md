@@ -21,13 +21,13 @@
 1. **Name:** This will be the display name of the lab profile.
 1. **Series:** Select the lab series that the lab profile will be associated with.
 1. **Organization:** Select the organization that will own the lab profile and be responsible for maintaining the profile. 
-1. **Virtualization Platform:** Select the virtualization platform that the lab profile will use. (Hyper-V, vSphere, Azure, AWS, Docker or none.) Selecting _None_ will cause the lab profile to use the Cloud Client. 
+1. **Virtualization Platform:** Select the virtualization platform that the lab profile will use. (Hyper-V, ESX, Azure, AWS, Docker or none.) Selecting _None_ will cause the lab profile to use the Cloud Client. 
 1. **Code Lab Fabric**: Enable the lab to be use the Code Lab fabric. For more information, read [Code Labs documentation](/lod/code-lab.md).
 1. **Parent:** A lab can optionally inherit some properties from a parent lab profile. Both the virtual environment (virtual machines, virtual networks, etc) can be inherited, as well as resources and content (manuals, scenario, objective, exercises, tasks, etc). Changes to the parent lab profile will be reflected in instances of this lab.
 1. **Storage Reservation Per Instance:** This is the amount of storage that the lab scheduler will ensure is available before an instance of this lab is Launched on a lab host server. 
 1. **Development Status:** Used to show lab profile development status. (In Development, Awaiting Verification, In Verification, Verification Failed, Complete.) Lab profiles in _Complete_ Development Status will be available for use, other development status' will only be available to registered lab developers. 
-1. **Expected Duration:** The expected amount of time it will take a user to complete the lab.
-1. **Maximum Duration:** The maximum amount of time that a user can spend in the lab.
+1. **Duration:** The expected amount of time it will take a user to complete the lab. After setting the duration, the maximum duration of the lab will be will be set to 150% of the duration. 
+1. **Prompt user to extend time** by `X` Minutes when `X` Minutes Remain: automatically prompt the user to extend the lab time by a specified amount of time when a specified amount of time is remaining. 
 1. **Language:** The language that the lab UI will be displayed in. This will not change the language displayed in the OS of any virtual machines used unless the virtual machine was configured to display a specific language. Language options include: Chinese (simplified), English, French, German, Japanese, Korean, Portuguese, and Spanish.  
 1. **Level:** Sets the Level for the lab; this can be 100, 200, 300, or 400. 
 1. **Evaluation:** Click to add an Evaluation to the lab profile. The Evaluation must already be created to add it to the lab profile using this button.
@@ -35,7 +35,7 @@
 1. **Description:** Used to provide more information about the lab profile. 
 1. **Enabled:** Used to enable or disable the lab profile for use. If the lab is disabled, it will only be accessible to lab developers. 
 1. **Enable Bug Reporting:** Allows bug reporting on the lab profile. Bug reports are collected on the lab profile details page by selecting **Edit** in the upper-right corner of the lab profile page. 
-1. **Bug Report Email Address:** If this value is set, bug reports submitted by end users will be emailed to the supplied address. Notice that this field is not required in order for bug reporting and tracking to work. 
+    - **Bug Report Email Address:** If this value is set, bug reports submitted by end users will be emailed to the supplied address. Notice that this field is not required in order for bug reporting and tracking to work. 
 1. **Owner Name:** The name of the owner of the lab profile. 
 1. **Owner E-mail:** The e-mail address of the owner of the lab profile. 
 
@@ -97,7 +97,7 @@ To use network features, such as external internet access or communication betwe
 
     - **Wait for heartbeat before displaying to user**: When this is enabled, the lab client will not display the lab to the user until the virtual machine reports a heartbeat to the virtualization platform. This is useful if you want to prevent the user from accessing the lab before critical machines are up and running. 
     
-        >[!knowledge] this feature requires the VM to have Hyper-V integration services installed on Hyper-V VMs, and VMware Tools installed on a vSphere VM. Windows operating systems starting with Windows 10 and Server 2016 have Hyper-V integration services installed by default. Other operating systems require them to be installed. Additionally, on vSphere VMs, you must ensure that the user credentials in the virtual machine profile are correct (they are used to initiate the file creation in the VM).
+        >[!knowledge] this feature requires the VM to have Hyper-V integration services installed on Hyper-V VMs, and VMware Tools installed on an ESX VM. Windows operating systems starting with Windows 10 and Server 2016 have Hyper-V integration services installed by default. Other operating systems require them to be installed. Additionally, on ESX VMs, you must ensure that the user credentials in the virtual machine profile are correct (they are used to initiate the file creation in the VM).
         >
         >- For more information Hyper-V Integration Services, please see the [Hyper-V Integration Services Documentation](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/integration-services).
         >
@@ -105,17 +105,17 @@ To use network features, such as external internet access or communication betwe
 
     - **Synchronize system time with host**: synchronizes the VM system time with the time on the host that the VM is running on. 
 
-    - **Set initial system time** (available on **vSphere only**): Allows you to set the date and time that the VM will launch at. This can be used in conjunction with _Synchronize system time with host_ to freeze the date and time.
+    - **Set initial system time** (available on **ESX only**): Allows you to set the date and time that the VM will launch at. This can be used in conjunction with _Synchronize system time with host_ to freeze the date and time.
 
     - **Allow user to revert to initial state**: Allows the user to revert to the initial state that the lab was launched at. The user can roll back the VM no matter what has been done in the lab instance. This option is found in the Commands menu (lightning bolt icon) in the lab. 
 
-    - **Make lab instance data available inside virtual machine**: When this option is enabled, lab instance data will be available in the virtual machine. The location varies depending on the platform used (Hyper-v or vSphere):
+    - **Make lab instance data available inside virtual machine**: When this option is enabled, lab instance data will be available in the virtual machine. The location varies depending on the platform used (Hyper-v or ESX):
 
         - Hyper-V: 
         
             On Windows registry: `HKLM\SOFTWARE\Microsoft\Virtual Machine\External`.
 
-        - vSphere: 
+        - ESX: 
         
             On Windows-based systems: `C:\Users\Public\Documents\LabInstance.txt`.
 
@@ -163,7 +163,7 @@ To use network features, such as external internet access or communication betwe
 
 1. **Create Removable Media:** Click to create removable media. This will create removable media that can be used in the lab. Removable media types include Floppy and Optical.
 
-    > [!ALERT] When removable media is created, you must choose a platform that the removable media will be used on; Hyper-V or vSphere. The removable media is tagged in LOD with the platform. The media can only be used with the chosen platform. 
+    > [!ALERT] When removable media is created, you must choose a platform that the removable media will be used on; Hyper-V or ESX. The removable media is tagged in LOD with the platform. The media can only be used with the chosen platform. 
 
 ## Cloud
 
@@ -253,7 +253,7 @@ To use network features, such as external internet access or communication betwe
 
 ## Life Cycle
 
-**Life Cycle Actions:** Actions can be defined to occur at certain points in the lab life cycle. For instance, an external service could be called when the lab builds, or send a notification to the user when the lab is resumed.  
+**Life Cycle Actions:** Actions can be defined to occur at certain points in the lab life cycle. For instance, an external service could be called when the lab builds, or send a notification to the user when the lab is resumed. 
 
 **Inherit Life Cycle Actions**
 
@@ -356,6 +356,10 @@ For more information about Action and Event types, please see our [Life Cycle Ac
 
 1. **Publish to Public Template Gallery:** when enabled, this lab profile will be available as a new lab profile template within the public template gallery. 
 
+    1. **Reuse Template Container and Virtual machine Profiles**: when this option is enabled, new lab profiles created from this template will reuse the container and virtual machine proifles referenced in this template. When this option is disabled, new labs created from this template will have brand new container and virtual machine profiles cloned into them. 
+
+        >[!alert] If virtual machine and container profiles are resued in new labs, changes made to those profiles will impact all labs that use them, including this template.  
+
 1. **Enable virtual machine instance RAM/vCPU editing**: When this feature is enabled, an option will be available to users in the lab client to edit the amount of RAM and number of vCPU for individual virtual machines in the lab instance. Note these VM changes are isolated to the current lab instance and are not committed to the lab profile. Also note the user will have to have the _Edit Virtual Machine Instance RAM/vCPU_ permission with the lab client. 
 
 1. **Record RDP Session**: When this is enabled, RDP sessions for a lab instance will be recorded. Recordings can later be viewed in the lab instance details page. 
@@ -372,21 +376,13 @@ For more information about Action and Event types, please see our [Life Cycle Ac
 ### Save/Cancel Options
 
 - **Allow User to Cancel Labs:** allows the user to cancel the lab at any point
-- **Allow user to Save labs:** allows the user to save the lab in it's current state and return at a later time. Users have a specified maximum number of labs that can be saved at a time. Once users reach their maximum number of saved lab instances, they will need to cancel one of the saved labs, to be able to save a new lab instance. The default maximum instaces per user is typically 2, but may vary by organization. Note that saved labs are only saved for 48 hours. Users can extend the saved lab expiration by resuming the lab and saving again. Each save sets the timer back to 48 hours. After48 hours has passed, the lab progress and components are discarded and cannot be recovered. 
+- **Allow user to Save labs:** allows the user to save the lab in it's current state and return at a later time. Users have a specified maximum number of labs that can be saved at a time. Once users reach their maximum number of saved lab instances, they will need to cancel one of the saved labs, to be able to save a new lab instance. The default maximum instances per user is typically 2, but may vary by organization. Note that saved labs are only saved for 48 hours. Users can extend the saved lab expiration by resuming the lab and saving again. Each save sets the timer back to 48 hours. After48 hours has passed, the lab progress and components are discarded and cannot be recovered. 
 - **Allow User to Disconnect from Lab Client:** Allows the user to disconnect from the lab client and leave the lab running. 
-- **Automatically prompt user to extend time by `X` Minutes when `X` Minutes Remain:** automatically prompt the user to extend the lab time by a specified amount of time when a specified amount of time is remaining. 
 - **Auto-Save incomplete Labs:** Enables the lab to automatically save in complete labs after a specified amount of time has passed. 
 - **Save/Cancel Labs When Last Console Sync Exceeds:** Amount of time given between console syncs, before the lab will automatically cancel or save. 
 - **Save/Cancel labs when last Activity Exceeds:** Amount of time given of inactivity before the lab will automatically cancel or save.
-- **Notify User by Email `X` `Minutes` Before Lab Instance Expires:** notifies the user via email at a specified time before the lab instance expires. 
 - **Activity Required to Enable Auto-Save:** Amount of active time in the lab given before the lab will automatically save.
-- **Minimum Time Given to Saved Labs:** Minimum amount of time that students will have on the lab timer, when they resume a lab. 
-- **Maximum Allowed Snapshots:** Maximum amount of [snapshots](/lodsnapshots.md) that are allowed
-- **Allow Setting Expiration Time:** allows the lab expiration timer to be extended from the lab client. 
-
-    - **Allow only instructors to extend lab expiration:** only instructors will be able to extend the lab expiration timer. 
-
-    - **Allow users to extend lab expiration:** instructors and students will be able to extend the lab expiration timer. 
+- **Maximum Allowed Snapshots:** Maximum amount of [snapshots](/snapshots.md) that are allowed
 
 ### Instructions Source
 

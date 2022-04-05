@@ -6,10 +6,27 @@ isPublished: true
 
 # Virtual Machine Profiles
 
-Virtual machine (VM) profiles in Lab on Demand (LOD) are used in lab profiles. VMs in LOD use either Hyper-V or VMware as the hypervisor. 
+Virtual machine (VM) profiles in Lab on Demand (LOD) are used in lab profiles. VMs in LOD use Hyper-V or ESX as the hypervisor, or Virtual machines can also be deployed in a cloud environment. 
+
+## Table of Contents
+
+  * [Supported Operating Systems](#supported-operating-systems)
+    + [Hyper-V](#hyper-v)
+    + [ESX](#esx)
+- [Basic Information](#basic-information)
+    - [Hyper-V](#hyper-v-1)
+    - [ESX](#esx)
+    - [Azure](#azure)
+    - [AWS](#aws)
++ [Hard Disks](#hard-disks)
++ [Network Adapters](#network-adapters)
++ [SCSI Adapters](#scsi-adapters)
++ [DVD ROM Drives](#dvd-rom-drives)
++ [Advanced](#advanced)
++ [Internal Notes](#internal-notes)
 
 ## Supported Operating Systems
-For information which operating systems are supposed by Hyper-V and VMware, click below:
+For information which operating systems are supposed by Hyper-V and ESX, click below:
 
 ### Hyper-V
 
@@ -17,35 +34,20 @@ For information which operating systems are supposed by Hyper-V and VMware, clic
 
 - [Linux](https://docs.microsoft.com/en-us/windows-server/virtualization/hyper-v/supported-linux-and-freebsd-virtual-machines-for-hyper-v-on-windows)
 
-### VMware
+### ESX
 
-- [VMware Compatibility Guide](https://www.vmware.com/resources/compatibility/search.php?deviceCategory=software&details=1&releases=428&productNames=15&page=1&display_interval=10&sortColumn=Partner&sortOrder=Asc&testConfig=16)
+- [ESX Compatibility Guide](https://www.vmware.com/resources/compatibility/search.php?deviceCategory=software&details=1&releases=428&productNames=15&page=1&display_interval=10&sortColumn=Partner&sortOrder=Asc&testConfig=16)
 
-- [VMware Virtual Machine Hardware Versions](https://kb.vmware.com/s/article/1003746)
+- [ESX Virtual Machine Hardware Versions](https://kb.vmware.com/s/article/1003746)
 
-## Create a Virtual Machine Profile
-
-To look at documentation for a specific section of a virtual machine profile, choose an option below:
-
-### [Basic Information](#basic-information)
-
-### [Hard Disks](#hard-disks)
-
-### [Network Adapters](#network-adapters)
-
-### [SCSI Adapters](#scsi-adapters)
-
-### [DVD-ROM Drives](#dvd-rom-drives)
-
-### [Advanced](#advanced)
-
-### [Internal Notes](#internal-notes)
+## Create a Virtual Machine Profile 
 
 To create a Virtual Machine profile, click **Create Virtual Machine profile** from the LOD Site Administration page.
 
 ![](images/create-vm-profile.png)
 
-### Basic Information
+
+## Basic Information
 
 1. **Name**: The display name of the VM.
 
@@ -57,17 +59,19 @@ To create a Virtual Machine profile, click **Create Virtual Machine profile** fr
 
 1. **Platform**: Select the virtualization platform that the VM profile will use.
 
-    Available platforms include: Hyper-V, vSphere, Azure and AWS. Each platform will have different options listed below. 
+    Available platforms include: Hyper-V, ESX, Azure and AWS. Each platform will have different options listed below. 
 
    The next set of options on the basic information tab are different, based on the Platform used:
 
     - [Hyper-V](#hyper--v)
 
-    - [vSphere](#vsphere)
+    - [ESX](#esx)
 
     - [Azure](#azure)
 
     - [AWS](#aws)
+
+1. **Size**: Select the size of the VM. These size profiles will set the amount of RAM, number of processors, and will govern the number of NICs allowed to be configured on the machine.
 
     #### Hyper-V
 
@@ -82,10 +86,6 @@ To create a Virtual Machine profile, click **Create Virtual Machine profile** fr
     - **Username**: Enter a username for the VM.
 
     - **Password**: Enter a password for the VM.
-
-    - **# Processors**: Select the number of processors that the VM will use.
-
-    - **RAM**: Enter the amount of RAM the VM will use. Ram can be specified in MB or GB.
 
     - **Screen Width**: Enter the screen width that the VM will use, measured in pixels.
 
@@ -103,21 +103,15 @@ To create a Virtual Machine profile, click **Create Virtual Machine profile** fr
 
     - **Enable Nested Virtualization**: Allows the VM profile to perform nested virtualization and run another VM on the VM.
 
-    #### vSphere
+    #### ESX
 
-    - **Hardware Version**: Select the hardware version that the VM will use. Each hardware version allows for more features to be available to the guest operating system. Some features may not be available on older hardware versions, such as nested virtualization. For learn more about VMware hardware features, read [VMware documentation on hardware features](https://docs.vmware.com/en/VMware-vSphere/6.7/com.vmware.vsphere.vm_admin.doc/GUID-789C3913-1053-4850-A0F0-E29C3D32B6DA.html).
+    - **Hardware Version**: Select the hardware version that the VM will use. Each hardware version allows for more features to be available to the guest operating system. Some features may not be available on older hardware versions, such as nested virtualization. For learn more about ESX hardware features, read [ESX documentation on hardware features](https://docs.vmware.com/en/VMware-vSphere/6.7/com.vmware.vsphere.vm_admin.doc/GUID-789C3913-1053-4850-A0F0-E29C3D32B6DA.html).
     
     - **Operating System**: Select the operating system that the VM will use.
 
     - **Username**: Enter a username for the VM.
 
     - **Password**: Enter a password for the VM.
-    
-    - **# Processors**: Select the number of processors that the Vm will use.
-
-    - **# Core Per Processor**: Select the number of cores per processor.
-    
-    - **RAM**: Enter the amount of RAM the VM will use. RAM can be specified in MB or GB.
 
     - **Video RAM**: Select the amount of video RAM the VM will use. Video RAM is specified in MB.
     
@@ -161,7 +155,7 @@ To create a Virtual Machine profile, click **Create Virtual Machine profile** fr
 
     - **Enable Dynamic Screen Resizing**: Allows the VM to automatically resize it's resolution based on the size of the lab window. It is, however, limited to the resolution options available in the display settings of Windows. If the lab window is larger than the VM, there will be a gray space around the VM in the lab window. NOTE: this requires Integration services to be installed on the VM. This can be installed by clicking the gear icon at the top of a launched lab, and selecting _Install Integration Services_ and following the prompts.
 
-    ### AWS
+    #### AWS
 
     - **Machine Type**: Select the AWS SKU for the machine type the VM will use. For more information about AWS virtual machines, read [Amazon EC2 Pricing](https://aws.amazon.com/ec2/pricing/on-demand/).
 

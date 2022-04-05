@@ -8,7 +8,7 @@ isPublished: true
 
 ## Overview
 
-Lab environments hosted on Hyper-V or vSphere virtualization platforms utilize Learn on Demand System's on-premise environments. As part of standard network management we utilize monitoring and filtering technology to ensure network stability and security. Three separate networks are available for use:
+Lab environments hosted on Hyper-V or ESX virtualization platforms utilize Learn on Demand System's on-premise environments. As part of standard network management we utilize monitoring and filtering technology to ensure network stability and security. Three separate networks are available for use:
 
 - WebNet - This is default network when internet access is required. Labs on WebNet launch with a unique NAT gateway that provides routing and network isolation.
 
@@ -51,7 +51,7 @@ Blocked Categories:
 
 - Unknown Applications
 
->[!Knowledge] When building a lab, please verify the function of all services needed. If a specific service is required for a lab environment and does not function, or if the lab uses a service classified as a proxy, please [contact support](https://www.learnondemandsystems.com/customer-support/).
+>[!Knowledge] When building a lab, please verify the function of all services needed. If a specific service is required for a lab environment and does not function, or if the lab uses a service classified as a proxy, please [contact support](https://www.skillable.com/customer-support/).
 
 ### Web Filtering
 
@@ -88,7 +88,7 @@ On all networks, including CustomerNet, the following services are prohibited:
 - LDAP inbound
 - SMB inbound
 
-On the CustomerNet network, labs must follow additional configuration restrictions. Any lab not following these restrictions may be updated by Learn on Demand Systems to bring it into compliance or removed from availability until changes are made.
+On the CustomerNet network, labs must follow additional configuration restrictions. Any lab not following these restrictions may be updated by Skillable to bring it into compliance or removed from availability until changes are made.
 
 - Any DNS server with a public IP must have DNS recursion disabled. For details on how to do this, please refer to the documentation for your virtual machine operating system.
 
@@ -96,14 +96,14 @@ On the CustomerNet network, labs must follow additional configuration restrictio
 
 On the SecureNet network, labs must follow additional configuration restrictions. If these restrictions are not followed, web access will not function reliably. For more information, refer to the [Access Control Lists](access-control-lists.md) documentation
 
-- For labs without an internal DNS server, all virtual machiness should use the NAT gateway for their DNS server (this is automatic if DHCP is enabled for the NAT network)
+- For labs without an internal DNS server, all virtual machines should use the NAT gateway for their DNS server (this is automatic if DHCP is enabled for the NAT network)
 
 - For labs with an internal DNS server, the internal server should have a forwarder added for the NAT gateway 
 
 ## Bandwidth
 
-Bandwidth on all networks is regulated and monitored, utilizing per-IP and per-network restrictions. This is done to ensure platform stability and provide a minimum baseline to all labs. Due to the shared nature of the platform, it is strongly recommended that any downloads in a lab be prestaged to prevent issues or delays in a live class.
+Bandwidth on all networks is regulated and monitored, utilizing per-IP and per-network restrictions. This is done to ensure platform stability and provide a minimum baseline to all labs. Due to the shared nature of the platform, it is strongly recommended that any downloads in a lab be pre-staged to prevent issues or delays in a live class.
 
 ## Notice
 
-All information in this document is regularly maintained and updated, but does not represent a guarantee. Network policies and restrictions may change at any time due to the constantly evolving nature of network security. If you have any questions, feedback, or concerns, please [contact support](https://www.learnondemandsystems.com/customer-support/).
+All information in this document is regularly maintained and updated, but does not represent a guarantee. Network policies and restrictions may change at any time due to the constantly evolving nature of network security. If you have any questions, feedback, or concerns, please [contact support](https://www.skillable.com/customer-support/).

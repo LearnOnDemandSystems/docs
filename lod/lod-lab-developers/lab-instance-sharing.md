@@ -14,7 +14,7 @@ Lab Instance Sharing allows multiple users to work together in a lab profile at 
 
 *Figure 1: The lab developer and user relationship during Lab Instance Sharing*
 
-If you would like this feature enabled, contact our [Customer Support](http://www.learnondemandsystems.com/customer-support/) team. Please provide them with the authentication provider you want enabled for access through lab instance sharing as well as the sharing setting. 
+If you would like this feature enabled, contact our [Customer Support](https://skillable.com/customer-support/) team. Please provide them with the authentication provider you want enabled for access through lab instance sharing as well as the sharing setting. 
 
 For reference, authentication options include: 
 

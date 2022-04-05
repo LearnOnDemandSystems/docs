@@ -27,7 +27,7 @@ To allow 3rd party cookies in your browser, select your browser below for assist
 
 ## X-Frame-Options
 
-The X-Frame-Options header determines whether a webpage can be embedded into another page as decided by the site owner. Learn on Demand Systems does not set the X-Frame-Options header in the lab client.
+The X-Frame-Options header determines whether a webpage can be embedded into another page as decided by the site owner. The lab client does not set the X-Frame-Options header. 
 
 - If the header is not set, there are no restrictions placed on where the site may be embedded.
 - When set to Sameorgin, the site may only be displayed in pages belonging to the same website.

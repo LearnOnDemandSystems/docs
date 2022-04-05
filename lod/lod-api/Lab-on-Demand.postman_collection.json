@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "4374f561-b035-4a93-8996-621b522d7085",
+		"_postman_id": "8181f66c-7f5d-42ea-a2f3-11a3a066e842",
 		"name": "Lab on Demand Postman Collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -100,6 +100,34 @@
 					]
 				},
 				"description": "The Class command returns information about a class."
+			},
+			"response": []
+		},
+		{
+			"name": "ClassAccessUrl",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/ClassAccessUrl?id=4449999 ",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"ClassAccessUrl"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "4449999 ",
+							"description": "The unique identifier of the class, as represented in your organization."
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -441,7 +469,7 @@
 						},
 						{
 							"key": "",
-							"value": null,
+							"value": "",
 							"disabled": true
 						}
 					]
@@ -476,6 +504,68 @@
 					]
 				},
 				"description": "The LabProfile command will return information about a specific lab profile."
+			},
+			"response": []
+		},
+		{
+			"name": "LabAccessUrl",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/LabAccessUrl?LabInstanceId=4449999",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"LabAccessUrl"
+					],
+					"query": [
+						{
+							"key": "LabInstanceId",
+							"value": "4449999",
+							"description": "The unique identifier of the lab instance.\n"
+						},
+						{
+							"key": "roleId",
+							"value": null,
+							"description": "Allows you to specify the role(s) to assign to the user. You may pass multiple instances of this parameter to specify multiple roles. Roles are used for specialized integration purposes and are not needed in typical integration scenarios. Role IDs will be provided by Skillable when appropriate.",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LabMonitorUrl",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/LabMonitorUrl?LabInstanceId=4449999",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"LabMonitorUrl"
+					],
+					"query": [
+						{
+							"key": "LabInstanceId",
+							"value": "4449999",
+							"description": "The unique identifier of the lab instance.\n"
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -580,7 +670,7 @@
 						{
 							"key": "roleId",
 							"value": "1",
-							"description": "Allows you specify the role(s) to assign to the user. You may pass multiple instances of this parameter to specify multiple roles. Roles are used for specialized integration purposes and are not needed in typical integration scenarios. Role IDs will be provided by Learn on Demand Systems when appropriate."
+							"description": "Allows you specify the role(s) to assign to the user. You may pass multiple instances of this parameter to specify multiple roles. Roles are used for specialized integration purposes and are not needed in typical integration scenarios. Role IDs will be provided by Skillable when appropriate."
 						},
 						{
 							"key": "variable-name",
@@ -1040,7 +1130,7 @@
 						},
 						{
 							"key": "",
-							"value": null,
+							"value": "",
 							"disabled": true
 						}
 					]
@@ -1055,7 +1145,27 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": ""
+					"raw": "https://labondemand.com/api/v3/updatelabinstructions?id=2393048&instructions=The IDLx instructions. This should included in the body of the post.\n",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"updatelabinstructions"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2393048"
+						},
+						{
+							"key": "instructions",
+							"value": "The IDLx instructions. This should included in the body of the post.\n"
+						}
+					]
 				},
 				"description": "The UpdateLabInstructions command allows you to update the IDL-MD instructions of a lab. In order to support longer instructions lengths, this method requires an HTTP POST. The Content-Type of your post should be set to application/x-www-form-urlencoded.\r\n\r\n"
 			},
@@ -1135,7 +1245,6 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "bffd030f-e3a7-48ba-b870-f60f0a38d28e",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -1145,13 +1254,11 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "4a2ff8f9-d0bb-41b8-984c-fd0a890e4548",
 				"type": "text/javascript",
 				"exec": [
 					""
 				]
 			}
 		}
-	],
-	"protocolProfileBehavior": {}
+	]
 }

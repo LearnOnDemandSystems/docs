@@ -30,7 +30,7 @@ Lab on Demand (LOD) has a library of existing ACPs to make building common cloud
 
 ![LOD Managed ACPs](./images/find-acp-lodmanaged.png)
 
-> [!Note] These ACPs are created, maintained, and publicly available by Learn on Demand Systems to all developers. While the resources allowed on these ACPs will not change, the syntax is subject to change depending on cloud security best practices.
+> [!Note] These ACPs are created, maintained, and publicly available by Skillable, to all developers. While the resources allowed on these ACPs will not change, the syntax is subject to change depending on cloud security best practices.
 
 You can also search your own Organization's existing ACPs by following the same process and changing the **Organization** filter to your desired Organization. 
 
@@ -86,6 +86,9 @@ This example policy below will deny any resources from being provisioned unless 
 }
 ```
 
+To create an Access Control Policy in Microsoft Azure, see our [Azure Access Control Policy Creation Process guide](acp-creation-process.md).
+
+
 ### AWS
 
 By default, AWS denies all resources from bring provisioned, unless they are allowed by an access control policy. 
@@ -112,11 +115,11 @@ The access control policy below will allow all EC2 resources except Virtual Mach
 
 ## ACP Authoring Resources
 
-**Learn On Demand Systems**: For more in-depth information on how to create your own custom ACPs, our [Lab developer GitHub](https://github.com/LearnOnDemandSystems/labauthor/tree/master/access-control-policies/) provides examples of various ACPs, as well as guidance on how to create your own.
+For more in-depth information on how to create your own custom ACPs, our [Lab developer GitHub](https://github.com/LearnOnDemandSystems/labauthor/tree/master/access-control-policies/) provides examples of various ACPs, as well as guidance on how to create your own.
 
 **Azure**: For more information about the items that can be used in an Azure policy, see [Microsoft Azure Access Control Policy Templates](https://docs.microsoft.com/en-us/azure/azure-policy/json-samples).
 
-**AWS**: To quickly generate a json policy for AWS, check out Amazon's [AWS Policy Generator](https://awspolicygen.s3.amazonaws.com/policygen.html).
+**AWS**: To quickly generate a JSON policy for AWS, check out Amazon's [AWS Policy Generator](https://awspolicygen.s3.amazonaws.com/policygen.html).
 
 ## Adding an Access Control Policy to a Cloud Slice Lab
 

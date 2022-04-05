@@ -1,6 +1,6 @@
 ## Lab on Demand Terminology and Guidelines for Building a Lab
 
-When building labs in Learn on Demand Systems, you need to know the LOD terminology used for the pieces or components of the lab and guidelines for determining what you will need. At the end of this article are the links to help you build the main components.
+When building labs in Skillable, you need to know the LOD terminology used for the pieces or components of the lab and guidelines for determining what you will need. At the end of this article are the links to help you build the main components.
 
 ###  Required components
 

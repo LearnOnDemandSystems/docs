@@ -42,8 +42,8 @@ In addition to the software requirements above we recommend the following:
 For those that need to create a firewall exception rule to allow connectivity to the Lab on Demand servers (this isn&#39;t common), the following information can be used to create a limited destination rule to only allow the above protocols and ports from your network to the Lab on Demand cloud.
 
 - Domain Names:
+  - *.skillable.com
   - *.labondemand.com
-  - *.learnondemandsystems.com
   - *.learnondemand.net
   - *.holsystems.com
 
@@ -67,9 +67,9 @@ If specific IP addresses are required, use the following table as a guide for IP
 | **DNS name** | **IP Address 1** | **IP Address 2** |
 | --- | --- | --- |
 | labondemand.com | 104.214.106.31 |   |
-| lms.learnondemand.net | 104.215.95.25 |   |
-| tampa1.holsystems.com | 206.196.30.5 |   |
-| tpalabgateway.learnondemandsystems.com | 206.196.30.15 | 206.196.30.24 |
+| lms.learnondemand.net | 13.66.39.88 |   |
+| tampa1.holsystems.com | 199.101.111.174 |   |
+| tpalabgateway.learnondemandsystems.com | 199.101.111.150 | 199.101.111.151 |
 | au-rds.au.learnondemandsystems.com | 103.18.85.2 |   |
 | console.au.learnondemandsystems.com | 103.18.85.8 |   |
 | rds01.eu.learnondemandsystems.com | 185.254.59.3 |   |
@@ -83,7 +83,7 @@ Click the following link to launch a test lab: [Launch the Lab Orientation & Con
 
 ## Speed Test
 
-If you are experiencing frequent disconnects or lag when controlling your machines, you may run a [speed test](https://www.learnondemandsystems.com/speedtest/). This page allows you to run a connection assessment test. A connection assessment test is a very deep and thorough test that measures throughput speed, capacity, and packet quality to assess the user experience of a connection to their respective data center. This includes efficiency, data loss, recovery, duplication of data, retransmissions and even corruption.
+If you are experiencing frequent disconnects or lag when controlling your machines, you may run a [speed test](https://www.skillable.com/speedtest/). This page allows you to run a connection assessment test. A connection assessment test is a very deep and thorough test that measures throughput speed, capacity, and packet quality to assess the user experience of a connection to their respective data center. This includes efficiency, data loss, recovery, duplication of data, retransmissions and even corruption.
 
 ## When Connections Traverse a Proxy
 
@@ -91,18 +91,19 @@ When connecting to a lab instance via a proxy, certain configuration requirement
 
 ## When Using Windows Server Operating Systems
 
-When connecting to Learn on Demand Systems Training Management Systems (TMS) portals with a computer having Windows Server operating systems on it, you may experience difficulty in connecting to the sign-in page or clicking on some buttons. Steps to remediate can be found [here.](/tms/end-user-student-faqs/basics/windows-server-os.md)
+When connecting to our Training Management System (TMS) portals with a computer having Windows Server operating systems on it, you may experience difficulty in connecting to the sign-in page or clicking on some buttons. Steps to remediate can be found [here.](/tms/end-user-student-faqs/basics/windows-server-os.md)
 
 ## In-Lab Software Whitelisting Information for Lab Developers
 
 Software that communicates with remote servers outside of the lab environment may need addresses whitelisted with the vendor to work. The below address ranges are used by NAT internet access labs.
 
 - IP addresses/scopes: 185.254.56.125, 103.245.221.106
-- IP Ranges: 199.101.110.5 - 199.101.110.25, 163.47.101.124 - 163.47.101.126, 185.254.59.24 - 185.254.59.25, 103.18.85.29 - 103.18.85.30
+- IP Ranges: 199.101.110.5 - 199.101.110.25, 163.47.101.118 - 163.47.101.126, 185.254.59.118 - 185.254.59.127, 103.18.85.29 - 103.18.85.30, 103.18.87.240 - 103.18.87.249
 
 The below ranges are used by Public IP internet access labs.
 
-185.254.59.40 - 185.254.59.255, 185.254.58.0/24 185.254.57.0/24 168.245.200.0/23 168.245.202.0/23 128.136.160.9 - 128.136.160.254 103.18.85.21 - 103.18.85.254 199.101.110.31 - 199.101.110.254 199.101.111.05 - 199.101.111.254, 199.101.108.5 - 199.101.109.254, 103.8.28.0/24
+185.254.59.40 - 185.254.59.255, 185.254.58.0/24 185.254.57.0/24 168.245.200.0/23 168.245.202.0/23 128.136.160.9 - 128.136.160.254 103.18.85.21 - 103.18.85.254 199.101.110.31 - 199.101.110.254 199.101.111.05 - 199.101.111.254, 199.101.108.5 - 199.101.109.254, 103.8.28.0/24, 103.177.46.0/25
+
 
 A CSV containing these ranges is available for use in automating any whitelist changes. It can be found [here](lods-whitelist-ips.csv).
 

@@ -11,10 +11,10 @@ isPublished: true
 Only lab profiles with a development status of **Complete** are consumable  via API. 
 
 Development/Integration Testing API available with all the same API calls your production API can make, but has the following settings:
-- Max Active Lab Instances - 5
-- Max Saved Labs per User - 1
-- Max Active Lab Instances per user - 1
-- Max lab duration - 30 minutes
+- Max Active Lab Instances: 5
+- Max Saved Labs per User: 1
+- Max Active Lab Instances per user: 5
+- Max lab duration: 30 minutes
 - Allows launching of lab profiles with any Development Status
     - i.e. is not restricted to a _Complete_ development status
 - Has a dedicated API key
@@ -34,7 +34,7 @@ For example, a request to get the entire lab catalog will look like:
 
 
 ## API Key
-- All methods require an API key, which must be obtained from Learn on Demand Systems. This key is used by Lab on Demand to validate your account. The key can be passed as an HTTP request header with the header name "api_key".
+- All methods require an API key, which must be obtained from Skillable. This key is used by Lab on Demand to validate your account. The key can be passed as an HTTP request header with the header name "api_key".
 
 ## API Response Format
 
@@ -42,11 +42,11 @@ All responses are formatted as JSON. A full explanation of each response is incl
 
 ## Date Formats
 
-All dates are in unix epoch time, which is the number of seconds that have elapsed since midnight UTC January 1st, 1970. Values are always rounded to the nearest whole second.
+All dates are in Unix Epoch time, which is the number of seconds that have elapsed since midnight UTC January 1st, 1970. Values are always rounded to the nearest whole second.
 
 ## Postman Collection
 
-Postman can import the Lab on Demand Postman Collection via link, ++http://lod.one/LabondemandCollection++
+Postman can import the Lab on Demand Postman Collection via link, ++http://skill.info/LabondemandCollection++
 
 Alternatively, you may review the Lab on Demand Postman Collection (2.1) of calls [here.](Lab-on-Demand.postman_collection.json)
 
@@ -56,6 +56,7 @@ Alternatively, you may review the Lab on Demand Postman Collection (2.1) of call
 - [Cancel](lod-api-cancel.md) - Cancels a specified lab instance.
 - [Catalog](lod-api-catalog.md) - Returns all lab series, lab profiles, and delivery regions available to your organization.
 - [Class](lod-api-class.md) - Returns information about a class.
+- [ClassAccessUrl](lod-api-classaccessurl.md) - Returns a single use URL to access a class.
 - [CloseUserAccount](lod-api-close-user-account.md) - Allows an API consumer to close a user account created within the system removing all identifying information.
 - [DeleteClass](lod-api-delete-class.md) - Deletes a specified class.
 - [DeliveryRegions](lod-api-delivery-regions.md) - Returns all delivery regions available to your organization.
@@ -65,6 +66,8 @@ Alternatively, you may review the Lab on Demand Postman Collection (2.1) of call
 - [GetLabInstructions](lod-api-get-lab-instructions.md) - Returns instructions for a specific lab.
 - [GetLabInstructionsPackage](lod-api-get-lab-instructions-package.md) - Returns the contents of the instructions for a specific lab as a file archive.
 - [GetOrCreateClass](lod-api-get-or-create-class.md) - Returns information about a class. If the class doesn’t exist, it is created.
+- [LabAccessUrl](lod-api-lab-access-url.md) - Returns a single use URL is used to access a lab instance.
+- [LabMonitorUrl](lod-api-lab-monitor-url.md) - Returns a single use URL to monitor a lab instance. 
 - [LabProfile](lod-api-lab-profile.md) - Retrieves information about a specified lab profile.
 - [LatestResults](lod-api-latest-results.md) - Returns information about all lab instance results that have recently started or ended.
 - [Launch](lod-api-launch.md) - Launches a specified lab for a specified user.
@@ -87,7 +90,7 @@ Alternatively, you may review the Lab on Demand Postman Collection (2.1) of call
 ## API Client
 A .NET API client library is available via Nuget. This will allow you to use the API using only .NET code. 
 
-https://www.nuget.org/packages/LearnOnDemandSystems.OneLearnLOD.OneLearnLODAPIClient/ 
+[Skillable LOD Nuget Package](https://www.nuget.org/packages/LearnOnDemandSystems.OneLearnLOD.OneLearnLODAPIClient/)
 
 Example:
 

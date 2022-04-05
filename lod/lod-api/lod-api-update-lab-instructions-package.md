@@ -1,6 +1,12 @@
+---
+title: "UpdateLabInstructionsPackage API Command"
+description: "The UpdateLabInstructionsPackage command allows you to update the IDLx instructions of a lab by uploading a ZIP archive containing the instructions and any referenced files, such as images and videos."
+isPublished: true
+---
+
 # UpdateLabInstructionsPackage
 
-The **UpdateLabInstructionsPackage** command allows you to update the IDL-MD instructions of a lab by uploading a ZIP archive containing the instructions and any referenced files, such as images and videos. **This method requires an HTTP POST**. The Content-Type of your post should be set to multipart/form-data. This is the same behavior that a browser uses to upload a file to a server. In .NET environments, the System.Net.WebClient class provides an UploadFile method that can be used.
+The **UpdateLabInstructionsPackage** command allows you to update the IDLx instructions of a lab by uploading a ZIP archive containing the instructions and any referenced files, such as images and videos. **This method requires an HTTP POST**. The Content-Type of your post should be set to multipart/form-data. This is the same behavior that a browser uses to upload a file to a server. In .NET environments, the System.Net.WebClient class provides an UploadFile method that can be used.
 
 ## Parameters
 |Name|Type|Required|Note|
@@ -38,6 +44,9 @@ You could reference these content files in your instructions like this...
 |Property|Type|Nullable|Note|
 |--- |--- |--- |--- |
 |Result|Int|False|0 = Error
+||||1 = Success|
+|Status|Integer|No|Indicates the status of the API request
+||||0 = Error
 ||||1 = Success|
 |Error|String|False|In the event of an error, this will contain a detailed error message.|
 

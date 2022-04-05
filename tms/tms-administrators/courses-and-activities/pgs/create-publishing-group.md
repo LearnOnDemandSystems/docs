@@ -7,7 +7,7 @@ isPublished: true
 
 > Please be aware that not all functionality covered in this and linked articles may be available to you. 
 
-Publishing groups are the way to grant access to other organizations to consume your content for their training. Creating a publishing group and making it available to others is a multi-step process that will include coordination with LODS. This article will cover how to build a basic publishing group with no content or published organizations; adding courses and published organizations will be covered in other articles.
+Publishing groups are the way to grant access for other organizations to consume your content for their training. Creating a publishing group and making it available to others is a multi-step process that will include coordination with our help desk. This article will cover how to build a basic publishing group with no content or published organizations; adding courses and published organizations will be covered in other articles.
 
 To create a publishing group:
 1. Click **Publishing Groups** in the **Courses** group on the **Admin** menu. This opens the Find Publishing Groups page. 
@@ -21,7 +21,7 @@ To create a publishing group:
 
 The next Best Practice steps for creating a publishing group are: 
 1. Add courses (see [How do I add a course to my publishing group?](add-courses-to-publishing-group.md))
-1. Add organizations you manage as Published Organizations (see [How do I designate an organization as a Published Organization for my publishing group?](add-published-orgs-to-publishing-group.md)). For those organizations you do not manage, an authorization form needs to be completed with LODS for the organization, and the LODS Operations team will add them as a Published Organization.
+1. Add organizations you manage as Published Organizations (see [How do I designate an organization as a Published Organization for my publishing group?](add-published-orgs-to-publishing-group.md)). For those organizations you do not manage, an authorization form needs to be completed with your sales person for the organization, and our Operations team will add them as a Published Organization.
 
 ## Related Articles
 

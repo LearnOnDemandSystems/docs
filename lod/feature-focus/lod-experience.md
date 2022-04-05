@@ -4,7 +4,7 @@ description: "Explanation of Lab on Demand UI."
 isPublished: true
 ---
 
-# Lab on Demand Experience
+# Introduction to Lab on Demand UI
 
 - [Lab on Demand Experience](#lab-on-demand-experience)
   * [Admin](#admin)
@@ -88,11 +88,11 @@ Click the News button at the top of the page in LOD, to navigate to the Lab on D
 
 ## Roadmap
 
-Click the Roadmap button to view the Learn on Demand Systems roadmap. This shows recently released features, as well as upcoming features. 
+Click the Roadmap button to view the Skillable roadmap. This shows recently released features, as well as upcoming features. 
 
 ## Community
 
-Click the Community button to join our Learn on Demand Systems Slack community, where you can interact with other lab authors, get lab authoring ideas and tips, and hear about upcoming events and announcements.
+Click the Community button to join our Skillable Slack community, where you can interact with other lab authors, get lab authoring ideas and tips, and hear about upcoming events and announcements.
 
 ## Help
 

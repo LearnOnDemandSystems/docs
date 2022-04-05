@@ -8,7 +8,7 @@ isPublished: true
 
 This feature is only available for labs that are launched through an **Exam-configured API Consumer**. 
 
-Student Desktop Recording allows the Hyper-V RDP session between the lab user and the lab to be captured in a video that can be used to view the lab user's activity in the lab after the lab has ended. When a lab user launches a lab, the RDP session will begin recording after the virtual machine (VM) connects. After the lab has ended, a video only recording of the lab activity will be saved to the user's lab instance details page for that session. **RDP recordings of the lab session do not capture audio**. 
+Student Desktop Recording allows the Hyper-V or Azure Virtualization RDP session between the lab user and the lab to be captured in a video that can be used to view the lab user's activity in the lab after the lab has ended. When a lab user launches a lab, the RDP session will begin recording after the virtual machine (VM) connects. After the lab has ended, a video only recording of the lab activity will be saved to the user's lab instance details page for that session. **RDP recordings of the lab session do not capture audio**. 
 
 >[!alert] **This feature is in beta and there are some [known issues and limitations](#known-issues-and-limitations).**
 
@@ -27,7 +27,7 @@ Student Desktop Recording is enabled for an organization, and then it is enabled
 
 ### Enabling for the Organization
 
-If you are interested in using Student Desktop Recording, please contact our [customer support team](http://www.learnondemandsystems.com/customer-support/) to enable this feature for your organization. Once it is enabled for your organization, you can enable it on any lab profiles that belong to that organization. 
+If you are interested in using Student Desktop Recording, please contact our [customer support team](https://skillable.com/customer-support/) to enable this feature for your organization. Once it is enabled for your organization, you can enable it on any lab profiles that belong to that organization. 
 
 ### Enabling on a Lab Profile 
 
@@ -141,7 +141,8 @@ If you would like to download a copy of the lab instance recording for archival 
 
 
 **Known Limitations**
-- RDP session recording is not available on vSphere labs. It is only available for Hyper-V based labs. 
+
+- RDP session recording is not available on ESX labs. It is only available for Hyper-V based labs. 
 - Video playback is only available on https://labondemand.com 
 - The recording can be downloaded but cannot be retrieved via API. 
 - Periods of inactivity in the VM session may not be captured in the recording.

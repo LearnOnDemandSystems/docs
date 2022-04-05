@@ -1,3 +1,9 @@
+---
+title: "GetEvaluationResponsesForEvent API Command"
+description: "The GetEvaluationResponsesForEvent command returns evaluation responses for a specific event."
+isPublished: true
+---
+
 # GetEvaluationResponsesForEvent
 
 The **GetEvaluationResponsesForEvent** command returns evaluation responses for a specific event.
@@ -13,8 +19,12 @@ The **GetEvaluationResponsesForEvent** command returns evaluation responses for 
 |Name|Type|Nullable|Note|
 |--- |--- |--- |--- |
 |Responses|Array of EvaluationAnswerResponse|No|See the EvaluationAnswerResponse Type below|
+|Error|String|True|In the event of an error, this will contain a detailed error message.|
+|Status|Integer|No|Indicates the status of the API request
+||||0 = Error
+||||1 = Success|
 
-## EvaluationAnswerResponse
+### EvaluationAnswerResponse
 
 |Name|Type|Nullable|Note|
 |--- |--- |--- |--- |

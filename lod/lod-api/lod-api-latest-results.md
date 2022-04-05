@@ -1,3 +1,9 @@
+---
+title: "LatestResults API Command"
+description: "The LatestResults command returns information about all lab instance results that have recently changed state."
+isPublished: true
+---
+
 # LatestResults
 
 The **LatestResults** command returns information about all lab instance results that have recently changed state.
@@ -13,9 +19,12 @@ The **LatestResults** command returns information about all lab instance results
 |Name|Type|Nullable|Note|
 |--- |--- |--- |--- |
 |Results|Array of LabResult|No|See LabResult type below|
+|Status|Integer|No|Indicates the status of the API request
+||||0 = Error
+||||1 = Success|
 |Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
-## LabResult
+### LabResult
 |Name|Type|Required|Note|
 |--- |--- |--- |--- |
 |LabInstanceId|Integer (64-bit)|No|The unique identifier of the lab instance|
