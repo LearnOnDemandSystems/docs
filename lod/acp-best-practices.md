@@ -10,15 +10,16 @@ An Access Control Policy is used by a cloud provider to limit the resources that
 
 ## Table of Contents 
 
-  - [What Are Access Control Policies?](#what-are-access-control-policies)
+  - [What Are Access Control Policies](#what-are-access-control-policies)
   - [Why Do I Need an Access Control Policy](#why-do-i-need-an-access-control-policy)
 - [Frequently Asked Questions](#frequently-asked-questions)
   - [Will an Access Control Policy block my lab resource templates from deploying](#will-an-access-control-policy-block-my-lab-resource-templates-from-deploying)
   - [Are there sample policies available somewhere](#are-there-sample-policies-available-somewhere)
-  - [I am creating a policy from scratch, how do I know what conditions or fields I can use](#i-am-creating-a-policy-from-scratch--how-do-i-know-what-conditions-or-fields-i-can-use)
+  - [How do I know what conditions or fields I can use when I am creating a policy from scratch](#how-do-i-know-what-conditions-or-fields-i-can-use-when-i-am-creating-a-policy-from-scratch)
     - [Microsoft Azure](#microsoft-azure)
     - [Amazon Web Services](#amazon-web-services)
-      - [The AWS visual editor is great, but can I just use JSON?](#the-aws-visual-editor-is-great--but-can-i-just-use-json-)
+    - [Can I use JSON instead of using the AWS visual editor](#can-i-use-json-instead-of-using-the-aws-visual-editor)
+  - [Related Topics](#related-topics)
 
 ## What Are Access Control Policies
 Access Control Policy is a Lab on Demand (LOD) platform term. More natively, these have different names depending on the cloud provider you are authoring for as seen in the below table:
@@ -55,7 +56,8 @@ Yes! For more samples, see the table below for each of the cloud providers:
 |Microsoft Azure|[LODS Azure Samples](./Azure/)|[Microsoft Docs](https://docs.microsoft.com/en-us/azure/governance/policy/samples/index)|
 |Amazon Web Services|[LODS AWS Samples](./AWS/)|[AWS Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_examples.html)|
 
-## I am creating a policy from scratch, how do I know what conditions or fields I can use
+
+## How do I know what conditions or fields I can use when I am creating a policy from scratch
 
 This will vary based on the cloud platform you are working with as noted below:
 
@@ -67,7 +69,7 @@ Microsoft policies utilize a JSON definition. Very thorough documentation on thi
 
 Amazon supplies a full graphical user interface (GUI) called the "Visual Editor" to make policy creation simple without knowing complex code languages like JSON. Instructions for using the visual editor can be found [here](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html#access_policies_create-visual-editor).
 
-#### The AWS visual editor is great, but can I just use JSON?
+### Can I use JSON instead of using the AWS visual editor
 
 Yes you can. Amazon also supplies documentation on the overall policy structure available [here](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies.html#access_policies-json) and deeper information about specific policy elements [here](https://docs.aws.amazon.com/IAM/latest/UserGuide/reference_policies_elements.html).
 
