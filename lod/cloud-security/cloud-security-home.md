@@ -19,5 +19,5 @@ Outlines how risk level is determined and criteria for a lab passing security re
 ### [How to Create an Access Control Policy](../create-a-restriction-policy.md)
 How to find or create an appropriate Access Control Policy and add it to your lab.
 
-### [Access Control Policies: Best Practices for Lab Developers](https://github.com/LearnOnDemandSystems/labauthor/tree/master/access-control-policies/)
-Our Lab developer Github that walks through the creation of your own custom Access Control Policies.
+### [Access Control Policies: Best Practices for Lab Developers](../acp-best-practices.md)
+Best Practices for using Access Control Policies in a cloud evironment.

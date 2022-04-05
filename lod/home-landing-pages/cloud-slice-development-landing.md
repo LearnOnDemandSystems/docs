@@ -18,6 +18,10 @@
   <div class="subtopic selected">
     <div class="subtopic_header" tabindex="0" title="Amazon Web Services Cloud Slice Development Docs" role="button" aria-selected="true" selected>Amazon Web Services Cloud Slice Development</div>
     <div id="body_1" class="subtopic_links">
+      <a class="subtopic_link" href="/lod/acp-best-practices.md">
+        <div class="subtopic_title">Access Control Policy Best Practices</div>
+        <div class="subtopic_description">Best Practices for using Access Control Policies in a cloud evironment.</div>
+      </a>
       <a class="subtopic_link" href="/lod/aws-capabilities.md">
         <div class="subtopic_title">Amazon Web Services API Capabilities</div>
         <div class="subtopic_description">A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation.</div>
@@ -51,6 +55,10 @@
   <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="Microsoft Azure Cloud Slice Development Docs" role="button" aria-selected="false">Microsoft Azure Cloud Slice Development</div>
     <div class="subtopic_links">
+      <a class="subtopic_link" href="/lod/acp-best-practices.md">
+        <div class="subtopic_title">Access Control Policy Best Practices</div>
+        <div class="subtopic_description">Best Practices for using Access Control Policies in a cloud evironment.</div>
+      </a>
       <a class="subtopic_link" href="/guides/cloud-slice/microsoft-azure/azure-capacity-limitations.md">
         <div class="subtopic_title">Azure Capacity Limitations</div>
         <div class="subtopic_description">Azure resource capacity limitations, how to avoid them, and what to do if you run into capacity limitations with your Azure subscription.</div>

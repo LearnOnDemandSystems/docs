@@ -26,6 +26,10 @@
         <div class="subtopic_title">Access Control Lists</div>
         <div class="subtopic_description">Controls which websites can be accessed in the lab, by using blacklists and whitelists.</div>
       </a>
+      <a class="subtopic_link" href="/lod/acp-best-practices.md">
+        <div class="subtopic_title">Access Control Policy Best Practices</div>
+        <div class="subtopic_description">Best Practices for using Access Control Policies in a cloud evironment.</div>
+      </a>
       <a class="subtopic_link" href="/lod/aws-capabilities.md">
         <div class="subtopic_title">Amazon Web Services API Capabilities</div>
         <div class="subtopic_description">A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation. Below the table is a brief description for each service name.</div>
