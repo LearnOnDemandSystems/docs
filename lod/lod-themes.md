@@ -6,7 +6,7 @@ isPublished: true
 
 # Lab on Demand Themes
 
-Themes allow you to add cascading style sheets (CSS) to your lab profiles, to customize the look and feel, as well as using custom JavaScript. CSS and JavaScript can target lab instructions or the virtualization window in a lab. 
+Themes allow you to add cascading style sheets (CSS) to your lab profiles, to customize the look and feel, as well as using custom JavaScript. CSS and JavaScript can target lab instructions or the virtualization window in a lab..
 
 ## Table of Contents
 
