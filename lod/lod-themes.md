@@ -48,7 +48,7 @@ Themes allow you to add cascading style sheets (CSS) to your lab profiles, to cu
 
 ### CSS Example
 
-```linenums
+```CSS-linenums
 /* This Instructions CSS controls the look and feel of the right hand panel in LOD
 Below are some examples of customisation that can be performed.
 */
@@ -133,7 +133,7 @@ For example these settings control the underline thinkness and color when one of
 
 ### JavaScript Example
 
-```
+```JavaScript-Llinenums
 /*  All content is commented out
 
 //This highlights two of many things that can be customised within the Lab Client
