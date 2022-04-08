@@ -133,7 +133,7 @@ For example these settings control the underline thinkness and color when one of
 
 ### JavaScript Example
 
-```JavaScript-Llinenums
+```JavaScript-linenums
 /*  All content is commented out
 
 //This highlights two of many things that can be customised within the Lab Client
