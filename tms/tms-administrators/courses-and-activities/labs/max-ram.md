@@ -11,7 +11,7 @@ To ensure we maintain a high level of availability for labs, organizations have 
 
 ![](/tms/images/max-ram-error.png)
 
-This message has a link to submit support ticket. Upon submittal of this ticket, the help desk team will assist with updating the course upon approval of your sales person and an understanding of your consumption projections. The default setting is 50GB RAM for each type of lab, Hyper-V and vSphere.
+This message has a link to submit support ticket. Upon submittal of this ticket, the help desk team will assist with updating the course upon approval of your sales person and an understanding of your consumption projections. The default setting is 50GB RAM for each type of lab, Hyper-V and ESX.
 
 You can view the size of labs when adding them to a course:
 1. In the **Choose Lab** dialog, click **Output Options**.
