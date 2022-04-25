@@ -85,7 +85,7 @@ The **Details** command retrieves detailed information about a specified lab ins
 |DeliveryRegionId|Integer|No|When specified, Lab on Demand will attempt to launch the lab in the specified delivery region if a suitable host in that region is available and all required storage is available in that region. Delivery regions can be found using the [DeliveryRegions command](lod-api-delivery-regions.md) or [Catalog command](lod-api-catalog.md). Using the ipAddress parameter will result in a more reliable geo-location of the lab for the end user.|
 |DeliveryRegionName|String|No|The name of the delivery region where the lab is located.|
 |RemoteController|String|No|The name of the remote controller used by the user.|
-|Tag|String|Lab instance tag data|
+|Tag|String|No|Lab instance tag data|
 |BrowserUserAgent|String|Yes|The browser user agent used by the user.|
 |LastLatency|Integer|Yes|The last known latency value as measured between the client and the lab's datacenter.|
 |LastSaveTriggerType|String|Yes|If the lab is currently saved, what triggered the save operation. Possible values:
