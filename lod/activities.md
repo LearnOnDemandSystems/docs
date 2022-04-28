@@ -51,6 +51,8 @@ Click to go to a specific section, or continue reading to learn more about creat
 
 Automated Activities are PowerShell Windows command Shell Shell scripts that target a Cloud Subscription, or virtual machine running on Hyper-V or ESX in the lab. Cloud Subscriptions are targeted by a PowerShell script, and Windows-based virtual machines can be targeted by both PowerShell and Shell. Automated Activities support using @lab replacement tokens in scripts as well. Automated Activities can be used to help make sure the student has configured their lab environment correctly, help the student understand mistakes that are made in their lab, as well as give the student confirmation that they are completing the lab instructions correctly. Automated Activities can also be used to automate any configuration or lab steps that you wish to automate. 
 
+>[!knowledge] If an automated activity script fails to execute, Lab on Demand will attempt to execute the script up to five times. Once the script fails to execute five times, it will not be attempted again and a detailed note will be left on the lab instance details page. 
+
 ### Virtual Machine Requirements {requirements}
 
 **Hyper-V**:
@@ -672,6 +674,8 @@ ABA Outcomes are only available on Automated Activities that have On-Demand Eval
 - If more than one script is configured on an Activity, the scripts will execute in sequential order. If one of your scripts is relying on another script to be completed, make sure you order the scripts appropriately to prevent your Automated Activity from not working correctly. 
 
 - Automated Activities support PowerShell Windows Command Shell, and Bash. Cloud Subscriptions must be targeted by a PowerShell script, and virtual machines running on Hyper-V or ESX can be targeted by PowerShell or Windows Command  Shell. Linux-based VMs running Hyper-V or ESX can be targeted by Bash.
+
+-  If an automated activity script fails to execute, Lab on Demand will attempt to execute the script up to five times. Once the script fails to execute five times, it will not be attempted again and a detailed note will be left on the lab instance details page. 
 
 ### Automated Activity Notifications and Variables
 

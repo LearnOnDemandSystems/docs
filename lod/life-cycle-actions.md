@@ -144,6 +144,8 @@ Multiple commands types are available:
 
 - **Shell with UI**: Shell command execution with Command Prompt UI visible to the student. 
 
+>[!knowledge] If a script in a LIfe Cycel ACtion fails to execute, Lab on Demand will attempt to execute the script up to three times. Once the script fails to execute three times, it will not be attempted again and a detailed note will be left on the lab instance details page. 
+
 ## Execute Cloud Platform Command
 
 Cloud Platform commands are used to target a cloud platform such as Microsoft Azure or Amazon Web Services with a PowerShell, Python, C# or JavaScript command. 
@@ -186,6 +188,7 @@ Language options include:
 - **JavaScript (AWS Only)**: uses node.js 14
     - **AWS**: AWS SDK for JS 3
 
+>[!knowledge] If a script in a LIfe Cycel ACtion fails to execute, Lab on Demand will attempt to execute the script up to three times. Once the script fails to execute three times, it will not be attempted again and a detailed note will be left on the lab instance details page. 
 
 ## Execute Custom Script
 
