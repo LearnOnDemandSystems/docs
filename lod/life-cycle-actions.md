@@ -144,7 +144,7 @@ Multiple commands types are available:
 
 - **Shell with UI**: Shell command execution with Command Prompt UI visible to the student. 
 
->[!knowledge] If a script in a LIfe Cycel ACtion fails to execute, Lab on Demand will attempt to execute the script up to three times. Once the script fails to execute three times, it will not be attempted again and a detailed note will be left on the lab instance details page. 
+>[!knowledge] If a Life Cycle Action script encounters an error, and that error is not caught, Lab on Demand will attempt to execute the script from the beginning up to five times. If after five attempts the the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
 
 ## Execute Cloud Platform Command
 
@@ -188,7 +188,8 @@ Language options include:
 - **JavaScript (AWS Only)**: uses node.js 14
     - **AWS**: AWS SDK for JS 3
 
->[!knowledge] If a script in a LIfe Cycel ACtion fails to execute, Lab on Demand will attempt to execute the script up to three times. Once the script fails to execute three times, it will not be attempted again and a detailed note will be left on the lab instance details page. 
+>[!knowledge] If a Life Cycle Action script encounters an error, and that error is not caught, Lab on Demand will attempt to execute the script from the beginning up to five times. If after five attempts the the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
+
 
 ## Execute Custom Script
 
