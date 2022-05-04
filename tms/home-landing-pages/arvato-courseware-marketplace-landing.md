@@ -67,22 +67,22 @@
         <a class="subtopic_link" href="/tms/arvato-marketplace/fulfilling-marketplace-order/integrate-virtualmeetingprovider.md">
         <div class="subtopic_title">How can I add a virtual meeting provider to a class?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-adobeconnect.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-adobeconnect.md">
         <div class="subtopic_title">How can I use Adobe Connect in a TMS class?</div>
       </a>
-              <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-googlemeet.md">
+              <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-googlemeet.md">
         <div class="subtopic_title">How can I use Google Meet in a TMS class?</div>
       </a>
-              <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-teams.md">
+              <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-teams.md">
         <div class="subtopic_title">How can I use GoToMeeting for a TMS class?</div>
       </a>
-              <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-adobeconnect.md">
+              <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-adobeconnect.md">
         <div class="subtopic_title">How can I use Microsoft Teams in a TMS class?</div>
       </a>
-              <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-webex.md">
+              <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-webex.md">
         <div class="subtopic_title">How can I set up Webex to open directly in a class?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-zoom.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-zoom.md">
         <div class="subtopic_title">How can I set up Zoom to open directly in a class?</div>
       </a>
       </div>
