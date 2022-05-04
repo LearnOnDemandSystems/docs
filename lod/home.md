@@ -17,10 +17,10 @@
         </a>
       </div>
         <div class="category">
-        <a href="lod-api/lod-api-main.md" class="categoryThread">
+        <a href="https://connect.skillable.com/lod" class="categoryThread">
           <i class="material-icons light-green" aria-hidden="true">bookmarks</i>
-          <span class="categoryTitleFeatured" title="API Documentation">API Documentation</span>
-          <span class="categoryDescription" title="Documentation on how and when to use the Lab on Demand API.">Documentation on how and when to use the Lab on Demand API.</span>
+          <span class="categoryTitleFeatured" title="Documentation on how and when to use Skillable Connect: LOD Edition">API Documentation</span>
+          <span class="categoryDescription" title="Documentation on how and when to use Skillable Connect: LOD Edition.">Documentation on how and when to use Skillable Connect: LOD Edition.</span>
         </a>
       </div>
       <div class="category"> 
@@ -142,9 +142,9 @@
           </a>
         </div>
         <div class="category">
-          <a href="/lod/lod-api/lod-api-main.md" class="categoryThread">
+          <a href="/lod/lod-api/lab-on-demand-lti-1p3-integration.md" class="categoryThread">
             <i class="material-icons light-green" aria-hidden="true">call_merge</i>
-            <span class="categoryTitle" title="Lab on Demand API Documentation">Lab on Demand API Documentation</span>
+            <span class="categoryTitle" title="LTI 1.3 Integration Spec">LTI 1.3 Integration Spec</span>
           </a>
         </div>
         <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-integration-landing.md" title="View all" aria-label="View all Lab on Demand Integration Docs">View all</a></div>
