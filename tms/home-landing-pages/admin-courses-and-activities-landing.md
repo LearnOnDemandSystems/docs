@@ -21,7 +21,7 @@
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/course-profile-explanation.md">
         <div class="subtopic_title">Course Profile Explanation</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/how-do-i-add-a-course-to-a-subscription-profile-from-a-course.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/how-do-i-add-a-course-to-a-subscription-profile-from-a-course.md">
         <div class="subtopic_title">How do I add a course to a subscription profile from a course?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/add-course-resources.md">
