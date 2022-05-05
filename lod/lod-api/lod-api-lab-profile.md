@@ -1,7 +1,7 @@
 ---
 title: "LabProfile API Command"
 description: "The LabProfile command will return information about a specific lab profile."
-isPublished: true
+isPublished: false
 ---
 
 # Lab Profile

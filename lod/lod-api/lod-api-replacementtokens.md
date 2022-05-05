@@ -1,7 +1,7 @@
 ---
 title: "ReplacementTokens API Command"
 description: "The ReplacementTokens command retrieves all @lab replacement tokens available for a particular lab instance."
-isPublished: true
+isPublished: false
 ---
 
 # ReplacementTokens

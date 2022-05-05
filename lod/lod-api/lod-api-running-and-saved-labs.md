@@ -1,7 +1,7 @@
 ---
 title: "RunningAndSavedLabs API Command"
 description: "The RunningAndSavedLabs command retrieves all lab instances launched by this API Consumer that are currently running or saved."
-isPublished: true
+isPublished: false
 ---
 
 # RunningAndSavedLabs

@@ -1,7 +1,7 @@
 ---
 title: "Cancel API Command"
 description: "The Cancel command allows you to cancel a specified lab instance."
-isPublished: true
+isPublished: false
 ---
 
 # Cancel
