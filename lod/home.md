@@ -142,7 +142,7 @@
           </a>
         </div>
         <div class="category">
-          <a href="/lod-api/lab-on-demand-lti-1p3-integration.md" class="categoryThread">
+          <a href="/lod/lab-on-demand-lti-1p3-integration.md" class="categoryThread">
             <i class="material-icons light-green" aria-hidden="true">call_merge</i>
             <span class="categoryTitle" title="LTI 1.3 Integration Spec">LTI 1.3 Integration Spec</span>
           </a>
