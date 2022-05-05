@@ -20,7 +20,7 @@
         <a href="https://connect.skillable.com/lod" class="categoryThread">
           <i class="material-icons light-green" aria-hidden="true">bookmarks</i>
           <span class="categoryTitleFeatured" title="API Documentation">API Documentation</span>
-          <span class="categoryDescription" title="Documentation on how and when to use Skillable Connect: LOD Edition.">Documentation on how and when to use Skillable Connect: LOD Edition.</span>
+          <span class="categoryDescription" title="API Documentation">Documentation on how and when to use Skillable Connect: LOD Edition.</span>
         </a>
       </div>
       <div class="category"> 
