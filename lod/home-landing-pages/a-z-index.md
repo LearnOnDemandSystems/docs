@@ -58,7 +58,7 @@
         <div class="subtopic_title">API Best Practices and How to Use an API Consumer</div>
         <div class="subtopic_description">Guides through the steps to configure an API Consumer in LOD, as well as best practices.</div>
       </a>
-      <a class="subtopic_link" href="/lod/lod-api/lod-api-main.md">
+      <a class="subtopic_link" href="https://connect.skillable.com/lod/">
         <div class="subtopic_title">API Documentation</div>
         <div class="subtopic_description">Documentation on how and when to use the Lab on Demand API.</div>
       </a>
