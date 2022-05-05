@@ -1,7 +1,7 @@
 ---
 title: "Save API Command"
 description: "The Save command allows you to save a specified lab instance."
-isPublished: true
+isPublished: false
 ---
 
 # Save

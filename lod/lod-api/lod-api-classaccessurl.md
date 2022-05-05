@@ -1,7 +1,7 @@
 ---
 title: "ClassAccessUrl API Command"
 description: "The ClassAccessUrl command returns a single use URL to access the class management page."
-isPublished: true
+isPublished: false
 ---
 
 # ClassAccessUrl

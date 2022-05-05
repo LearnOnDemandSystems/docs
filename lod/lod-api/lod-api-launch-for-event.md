@@ -1,7 +1,7 @@
 ---
 title: "LaunchForEventAPI Command"
 description: "The LaunchForEvent command launches a lab instance within an event."
-isPublished: true
+isPublished: false
 ---
 
 ## LaunchForEvent

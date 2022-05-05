@@ -1,7 +1,7 @@
 ---
 title: "LaunchForEventByExternalID API Command"
 description: "The LaunchForEvent command launches a lab instance within an event by external ID."
-isPublished: true
+isPublished: false
 ---
 
 # LaunchForEventByExternalID

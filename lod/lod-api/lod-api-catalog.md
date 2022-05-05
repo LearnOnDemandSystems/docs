@@ -1,7 +1,7 @@
 ---
 title: "Catalog API Command"
 description: "The Catalog command will return all lab series, lab profiles, and delivery regions available to your organization. Lab profiles are generally grouped into series. Depending on your organization, you may have multiple physical delivery regions available to you."
-isPublished: true
+isPublished: false
 ---
 
 # Catalog

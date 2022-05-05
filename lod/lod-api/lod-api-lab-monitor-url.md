@@ -1,7 +1,7 @@
 ---
 title: "LabMonitorUrl API Command"
 description: "The LabMonitorUrl command returns a single use URL to monitor a lab instance."
-isPublished: true
+isPublished: false
 ---
 
 # LabMonitorUrl

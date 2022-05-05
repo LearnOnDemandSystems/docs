@@ -1,7 +1,7 @@
 ---
 title: "ScoreActivities API Command"
 description: "The ScoreActivities command causes all scored activities in a particular lab instance to undergo scoring."
-isPublished: true
+isPublished: false
 ---
 
 # ScoreActivities

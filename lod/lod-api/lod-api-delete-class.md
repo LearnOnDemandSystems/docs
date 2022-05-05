@@ -1,7 +1,7 @@
 ---
 title: "DeleteClass API Command"
 description: "The DeleteClass command deletes a specified class."
-isPublished: true
+isPublished: false
 ---
 
 # DeleteClass

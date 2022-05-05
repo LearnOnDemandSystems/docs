@@ -1,7 +1,7 @@
 ---
 title: "UpdateLabInstructions API Command"
 description: "The UpdateLabInstructions command allows you to update the IDLx instructions of a lab."
-isPublished: true
+isPublished: false
 ---
 
 # UpdateLabInstructions

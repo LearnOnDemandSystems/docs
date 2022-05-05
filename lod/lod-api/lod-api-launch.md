@@ -1,7 +1,7 @@
 ---
 title: "Launch API Command"
 description: "The Launch command will launch a specified lab for a specified user. "
-isPublished: true
+isPublished: false
 ---
 
 # Launch

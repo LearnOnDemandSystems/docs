@@ -1,7 +1,7 @@
 ---
 title: "UpdateClass API Command"
 description: "The UpdateClass command updates a specified class."
-isPublished: true
+isPublished: false
 ---
 
 # UpdateClass

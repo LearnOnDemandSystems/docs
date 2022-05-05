@@ -1,7 +1,7 @@
 ---
 title: "DeliveryRegions API Command"
 description: "The DeliveryRegions command will return all delivery regions available to your organization."
-isPublished: true
+isPublished: false
 ---
 
 # DeliveryRegions

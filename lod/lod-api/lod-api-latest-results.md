@@ -1,7 +1,7 @@
 ---
 title: "LatestResults API Command"
 description: "The LatestResults command returns information about all lab instance results that have recently changed state."
-isPublished: true
+isPublished: false
 ---
 
 # LatestResults
