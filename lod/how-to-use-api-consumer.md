@@ -19,7 +19,7 @@ isPublished: true
 
 To obtain API Consumer access, please [submit a support ticket](https://lod.one/help) for assistance.
 
-If you already have API Consumer access, and would like to use an API consumer with Lab on Demand (LOD), you must configure the API on the lab profile, lab series, and the organization profile that will be used with API calls. For more information on how the API can be used, have a look at our [API Documentation](lod-api/lod-api-main.md). 
+If you already have API Consumer access, and would like to use an API consumer with Lab on Demand (LOD), you must configure the API on the lab profile, lab series, and the organization profile that will be used with API calls. For more information on how the API can be used, have a look at our [API Documentation]https://connect.skillable.com/lod/). 
 
 - **Lab Series**: The lab series must be published to the API consumer that will be used. By publishing a lab series to an API Consumer, that API Consumer will be able to launch any current and future lab profiles that belong to that series.
 
@@ -54,7 +54,7 @@ The API Consumer needs to be made available to the organization that will use it
 
 To make the API Consumer available, please contact our Support team at https://lod.one/help.
 
-Your API Consumer is now setup and is ready to use. If you would like to view the various ways you can interact with LOD via API, have a look at our [API Documentation](lod-api/lod-api-main.md).
+Your API Consumer is now setup and is ready to use. If you would like to view the various ways you can interact with LOD via API, have a look at our [API Documentation](https://connect.skillable.com/lod/).
 
 -->
 
@@ -100,7 +100,7 @@ A typical API request would look like:
 
 If you want to test your API requests before implementing them, you can do so using an API testing tool. There are many tools available for testing an API request. One of the most common tool used is Postman, and is available on Windows, macOS and Linux (x32/x64).
 
-You may download a Postman Collection (2.1) of calls [here.](./lod-api/Lab-on-Demand.postman_collection.json) Be sure to edit the authorization header.
+You may download a Postman Collection (2.1) of calls [here.](https://raw.githubusercontent.com/LearnOnDemandSystems/ConnectAPI/main/Skillable-lod-OpenAPI.yaml) Be sure to edit the authorization header.
 
 In this guide, we will walk through the steps to use the _Launch_ APi request, to launch a specified lab for a specified user.
 
@@ -122,7 +122,7 @@ To launch a lab via an API request in Postman:
 
     ![](images/get-selected.png)
 
-1. Copy the example API request below from the [Launch API request documentation](https://docs.skillable.com/lod/lod-api/lod-api-launch.md):
+1. Copy the example API request below from the [Launch API request documentation](https://connect.skillable.com/lod/):
 
     - `https://labondemand.com/api/v3/launch?labid=100&userid=555&firstname=Joe&lastname=Smith&email=joe.smith@email.com`
 
