@@ -18,12 +18,10 @@ Lab access is how long you have access to **launch** a new instance of a lab. Ac
 Limits can be set on the number of times a lab can be launched, see Lab launch limits below.
 The class instructors and operations managers have access to their class labs at any time, course labs are sometimes restricted from instructor access.
 
-![](/tms/images/lab-expiration-date1.png)
-
 ## Lab expiration
 Lab expiration is when a lab you have saved expires. When you have launched a lab and then saved it, you are shown a date and time when it will be automatically cancelled from the system. If your lab is cancelled, you lose all the work you have done in the lab, but you may have the option to launch a fresh instance of the lab depending on your post class lab access and any lab launch limits.
 
-![](/tms/images/saved-lab-expiration.png)
+![](/tms/images/lab-expiration-date1.png)
 
 You can prevent your lab from being cancelled by reopening it prior to the expiration date and saving it again extending the time by receiving a new expiration date and time. If you have unlimited lab launches, then regardless of the expiration date set on a saved lab, you are able to launch a fresh lab as long as you are still working within the time frame of your class or post class lab access.
 
