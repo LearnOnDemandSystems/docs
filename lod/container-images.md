@@ -40,8 +40,10 @@ Lab on Demand supports using Docker Container Images in labs. Container images a
 
         Please note that the external port will most likely **not** be the same as the container's exposed port. The external port is 100% dynamic and not something that can be directly controlled. 
 
-        - **Display**: Select how the exposed ports will be displayed. 
-
+        - **Display**: Select how the first exposed ports will be displayed. 
+        
+            >[!note] Terminal and Web display will only connect to the first port that is configured on the container profile.
+            
             - **Terminal**: allows a terminal connection to the exposed port of the container.
             - **Web**: allows the lab client to connect to the exposed port and display the output of that port from the container. Web display requires the lab profile to have at least one network attached. 
              
