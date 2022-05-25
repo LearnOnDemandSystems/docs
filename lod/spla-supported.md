@@ -23,8 +23,8 @@ Below are supported products and the conditions within Skillable implementation 
 
 | Software       | Hyper-V | ESX | Azure | AWS | Notes                         | Status |
 |----------------|-------------|-----------|-------------------------------|--------|-|-|
-| Windows Server 2012 R2 / 2016 / 2019 Datacenter | YES | YES | **NO** | **NO** | No Further Support Coming | Supported|
-| Windows Server 2012 R2 / 2016 / 2019 Standard | YES  | YES | **NO** | **NO** | No Further Support Coming | Supported|
+| Windows Server 2012 R2 / 2016 / 2019 / 2022 Datacenter | YES | YES | **NO** | **NO** | No Further Support Coming | Supported|
+| Windows Server 2012 R2 / 2016 / 2019 / 2022 Standard | YES  | YES | **NO** | **NO** | No Further Support Coming | Supported|
 | Windows Server 2012 R2 / 2016 / 2019 Essentials | YES  | YES | **NO** | **NO** | No Further Support Coming | Supported|
 | Any other Windows Server Version | **NO** | **NO** | **NO** | **NO** | Every supported version accounted for | Supported|
 | Windows Client | **NO** | **NO** | **NO** | **NO** | Windows Client is not supported, in any form, under SPLA | Possible at a future date|
