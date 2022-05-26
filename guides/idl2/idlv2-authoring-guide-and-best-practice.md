@@ -945,11 +945,14 @@ Although potentially any task could be reduced to an action that can be executed
    >|`@lab.VirtualMachine(VirtualMachineName).Password`|Password for signing into the VirtualMachineName virtual machine.|
    >|`@lab.VirtualMachine(VirtualMachineName).Console`|Inline console for the VirtualMachineName virtual machine.|
    >|`@lab.OpticalMedia(1).LoadLink`|A link to load optical media on the active virtual machine.|
+   >|`@lab.FloppyMedia(1).LoadLink`|A link to load floppy media on the active virtual machine.|
    >|`@lab.Container(containerName).InstanceName`|The instance name for container (containerName).|
    >|`@lab.Container(containerName).Terminal`|Terminal for (containerName)|
    >|`@lab.Container(containerName).ExpostedPort(portValue).Address`|The address for the exposed port (portValue) on container (containerName).|
    >|`@lab.Container(containerName).ExpostedPort(portValue).HostName`|	The host name for the exposed port (portValue) on container (containerName).|
    >|`@lab.Container(containerName).ExpostedPort(portValue).HostPort`|The host port for the exposed port (portValue) on container (containerName).|
+   >|`@lab.Container(alias).WebDisplayUrl`  | The web display URL for container (alias).|
+   >|`@lab.Container(alias).WebDisplayPath` | The web display path (folder portion of the URL) for container (alias).|
    >|`@lab.CloudSubscription.Id`|The unique ID of the subscription the lab is launched against.|
    >|`@lab.CloudSubscription.Name`|The name of the subscription the lab is launched against.|
    >|`@lab.CloudSubscription.TenantName`|The tenant name of the subscription the lab is launched against.|
@@ -977,6 +980,7 @@ Although potentially any task could be reduced to an action that can be executed
    >|`@lab.DropDownList(name)[val1,val2]`|A dropdown list that allows the user to set the value of a named variable. This variable value can then be displayed elsewhere using @lab.Variable(name).|
    >|`@lab.KeyCombo(label)[key combo]`|Generates a button that sends a combination of key codes to the active VM.|
    >|`@lab.EssayTextBox(name)[height]`	|A larger essay style text box that can hold up to 5000 characters. **Height in number of lines declared by [height] is optional**. This variable value can then be displayed elsewhere using `@lab.Variable(name)`.|
+
 # Activities
 
  Activities are configured in the lab instructions, using the lab instruction editor. Activities can be modified at anytime, by anyone that has access to edit the lab instructions. When an Activity is created, it is represented in the lab instructions by a Replacement Token. 

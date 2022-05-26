@@ -76,6 +76,8 @@ The table below lists the replacement tokens that are available to use in Lab on
    >|`@lab.Container(containerName).ExpostedPort(portValue).Address`|The address for the exposed port (portValue) on container (containerName).|
    >|`@lab.Container(containerName).ExpostedPort(portValue).HostName`|	The host name for the exposed port (portValue) on container (containerName).|
    >|`@lab.Container(containerName).ExpostedPort(portValue).HostPort`|The host port for the exposed port (portValue) on container (containerName).|
+   >|`@lab.Container(alias).WebDisplayUrl`  | The web display URL for container (alias).|
+   >|`@lab.Container(alias).WebDisplayPath` | The web display path (folder portion of the URL) for container (alias).|
    >|`@lab.CloudSubscription.Id`|The unique ID of the subscription the lab is launched against.|
    >|`@lab.CloudSubscription.Name`|The name of the subscription the lab is launched against.|
    >|`@lab.CloudSubscription.TenantName`|The tenant name of the subscription the lab is launched against.|
