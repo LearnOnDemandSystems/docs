@@ -88,6 +88,6 @@ To configure a container image on a lab profile:
 
 ## Related Topics 
 
-- [Container Registry documentation](container-registries.md)
+- [Container Registries](container-registries.md)
 
 - [Container Web Display](container-web-display.md)
