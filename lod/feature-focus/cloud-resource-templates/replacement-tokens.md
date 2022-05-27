@@ -33,7 +33,7 @@ Each Cloud Resource Template is associated with a raw template document that def
 
 To use replacement tokens inside a Cloud Resource Template, insert the &commat;lab replacement token(s) in to your raw template document where you want them to be used. 
 
->[!KNOWLEDGE] Using replacement tokens as Cloud Resource Template parameters is a best practice, and highly preferred over using replacement tokens directly inside of raw template documents. This helps help keep resource names unique. 
+> [!KNOWLEDGE] Using replacement tokens as Cloud Resource Template parameters is a best practice, and highly preferred over using replacement tokens directly inside of raw template documents. This helps help keep resource names unique. 
 
 ### Using Replacement Tokens as Cloud Resource Template Parameters 
 
@@ -45,7 +45,7 @@ When you are assigning parameter values for a Cloud Resource template, you can p
 
 The table below lists the replacement tokens that are available to use in Lab on Demand. 
 
-   >[!Knowledge] Some replacement tokens may not be available in your lab, depending on the lab's configuration. I.E. Cloud related tokens are not available in labs that do not use cloud orchestration, and virtualization related tokens are not available in labs that only use a cloud-based configuration. 
+   > [!Knowledge] Some replacement tokens may not be available in your lab, depending on the lab's configuration. I.E. Cloud related tokens are not available in labs that do not use cloud orchestration, and virtualization related tokens are not available in labs that only use a cloud-based configuration. 
 
 
    > |Lab Replacement Token|Description|
