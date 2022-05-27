@@ -8,7 +8,7 @@ isPublished: true
 
 Replacement Tokens are used to replace text with a variable that is unknown at the time of authoring the lab. The value of these variables may not be generated or created until the lab is launched by the student. These can include usernames, passwords, user first name, user last name, running lab instance ID number, cloud platform information, virtual machines, etc. Replacement tokens use the syntax &commat;lab.replacementTokenName. 
 
-   > [!KNOWLEDGE] Some replacement tokens may not be available in your lab, depending on the lab's configuration. I.E. Cloud related tokens are not available in labs that do not use cloud orchestration, and virtualization related tokens are not available in labs that only use a cloud-based configuration. 
+> [!KNOWLEDGE] Some replacement tokens may not be available in your lab, depending on the lab's configuration. I.E. Cloud related tokens are not available in labs that do not use cloud orchestration, and virtualization related tokens are not available in labs that only use a cloud-based configuration. 
 
 ## Table of Contents 
 
@@ -45,7 +45,7 @@ When you are assigning parameter values for a Cloud Resource template, you can p
 
 The table below lists the replacement tokens that are available to use in Lab on Demand. 
 
-   > [!KNOWLEDGE] Some replacement tokens may not be available in your lab, depending on the lab's configuration. I.E. Cloud related tokens are not available in labs that do not use cloud orchestration, and virtualization related tokens are not available in labs that only use a cloud-based configuration. 
+> [!KNOWLEDGE] Some replacement tokens may not be available in your lab, depending on the lab's configuration. I.E. Cloud related tokens are not available in labs that do not use cloud orchestration, and virtualization related tokens are not available in labs that only use a cloud-based configuration. 
 
 
    > |Lab Replacement Token|Description|
