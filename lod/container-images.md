@@ -28,7 +28,7 @@ Lab on Demand supports using Docker Container Images in labs. Container images a
 
     - **Organization**: Select the organization that will have permission to edit and use the container image. 
 
-    - **Registry**: Select the container registry where your container is managed. For more information, see our [Container Registry documentation](/lod/container-registries.md). 
+    - **Registry**: Select the container registry where your container is managed. For more information, see our [Container Registry documentation](/container-registries.md). 
 
     - **Size**: Select the size of the container. These size profiles will set the amount of RAM, number of processors, and will govern the number of NICs allowed to be configured on the machine.
 
@@ -88,6 +88,6 @@ To configure a container image on a lab profile:
 
 ## Related Topics 
 
-- [Container Registry documentation](/lod/container-registries.md)
+- [Container Registry documentation](/container-registries.md)
 
-- [Container Web Display](/lod/container-web-display.md)
+- [Container Web Display](/container-web-display.md)
