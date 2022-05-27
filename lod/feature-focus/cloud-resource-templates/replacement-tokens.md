@@ -45,7 +45,7 @@ When you are assigning parameter values for a Cloud Resource template, you can p
 
 The table below lists the replacement tokens that are available to use in Lab on Demand. 
 
-   >![Knowledge] Some replacement tokens may not be available in your lab, depending on the lab's configuration. I.E. Cloud related tokens are not available in labs that do not use cloud orchestration, and virtualization related tokens are not available in labs that only use a cloud-based configuration. 
+   >[!Knowledge] Some replacement tokens may not be available in your lab, depending on the lab's configuration. I.E. Cloud related tokens are not available in labs that do not use cloud orchestration, and virtualization related tokens are not available in labs that only use a cloud-based configuration. 
 
 
    > |Lab Replacement Token|Description|
