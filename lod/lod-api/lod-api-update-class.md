@@ -6,6 +6,9 @@ isPublished: false
 
 # UpdateClass
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **UpdateClass** command updates a specified class.
 
 ## Parameters
@@ -56,3 +59,4 @@ https://labondemand.com/api/v3/updateclass/?id=4449999&name=Another+Sample+Class
     "Error": null
 }
 ```
+-->

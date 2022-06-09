@@ -6,6 +6,9 @@ isPublished: false
 
 # LatestResults
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **LatestResults** command returns information about all lab instance results that have recently changed state.
 
 ## Parameters
@@ -128,3 +131,4 @@ https://labondemand.com/api/v3/LatestResults/?minutes=60
     "Error": null
 }
 ```
+-->

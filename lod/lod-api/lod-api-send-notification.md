@@ -6,6 +6,9 @@ isPublished: false
 
 # SendNotification 
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **SendNotification** command allows you to send a notification to a specified lab instance for the user to see.
 
 ## Parameters
@@ -67,3 +70,4 @@ https://labondemand.com/api/v3/sendnotification?labinstanceid=2393048
 ```
 notification=Hello from the API!
 ```
+-->

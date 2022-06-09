@@ -6,6 +6,9 @@ isPublished: false
 
 # Results
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **Results** command returns information about all lab instance results that started or ended within a specified time range. **The time range cannot exceed 7 days**.
 
 ## Parameters
@@ -130,3 +133,4 @@ https://labondemand.com/api/v3/Results/?start=1325376000&end=1357002000
     "Error": null
 }
 ```
+-->

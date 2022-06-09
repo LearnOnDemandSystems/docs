@@ -6,6 +6,9 @@ isPublished: false
 
 # UpdateLabInstructions
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **UpdateLabInstructions** command allows you to update the IDLx instructions of a lab. In order to support longer instructions lengths, **this method requires an HTTP POST**. The Content-Type of your post should be set to application/x-www-form-urlencoded.
 
 ## Parameters
@@ -45,3 +48,4 @@ instructions=Updated from the API
    "Error": null
 }
 ```
+-->

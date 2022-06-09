@@ -6,6 +6,9 @@ isPublished: false
 
 # Launch
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **Launch** command will launch a specified lab for a specified user. 
 
 ## Parameters
@@ -91,3 +94,4 @@ https://labondemand.com/api/v3/launch?labid=100&userid=555&firstname=Joe&lastnam
     "Error": null
 }
 ```
+-->

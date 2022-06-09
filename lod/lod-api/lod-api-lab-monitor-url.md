@@ -6,6 +6,9 @@ isPublished: false
 
 # LabMonitorUrl
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **LabMonitorUrl** command returns a single use URL to monitor a lab instance. 
 
 ## Parameters
@@ -40,3 +43,4 @@ https://labondemand.com/api/v3/LabMonitorUrl?LabInstanceId=4449999
     "Status": 1
 }
 ```
+-->

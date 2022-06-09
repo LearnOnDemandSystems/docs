@@ -6,6 +6,9 @@ isPublished: false
 
 # UpdateLabInstructionsPackage
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **UpdateLabInstructionsPackage** command allows you to update the IDLx instructions of a lab by uploading a ZIP archive containing the instructions and any referenced files, such as images and videos. **This method requires an HTTP POST**. The Content-Type of your post should be set to multipart/form-data. This is the same behavior that a browser uses to upload a file to a server. In .NET environments, the System.Net.WebClient class provides an UploadFile method that can be used.
 
 ## Parameters
@@ -76,3 +79,4 @@ webClient.Headers.Add("api_key", IntegrationKey);
 var responseArray = webClient.UploadFile(url, filePath);
 var responseText = System.Text.Encoding.ASCII.GetString(responseArray);
 ```
+-->

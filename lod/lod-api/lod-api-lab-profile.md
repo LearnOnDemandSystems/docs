@@ -6,6 +6,9 @@ isPublished: false
 
 # Lab Profile
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **LabProfile** command will return information about a specific lab profile.
 
 ## Parameters
@@ -101,3 +104,4 @@ https://labondemand.com/api/v3/labprofile?id=1
     ]
 }
 ```
+-->

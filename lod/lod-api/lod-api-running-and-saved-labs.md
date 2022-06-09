@@ -6,6 +6,9 @@ isPublished: false
 
 # RunningAndSavedLabs
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **RunningAndSavedLabs** command retrieves all lab instances launched by this API Consumer that are currently running or saved.
 
 ## Parameters
@@ -80,3 +83,4 @@ https://labondemand.com/api/v3/runningandsavedlabs
     "Error": null
 }
 ```
+-->

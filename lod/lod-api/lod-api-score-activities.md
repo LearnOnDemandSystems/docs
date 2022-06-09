@@ -6,6 +6,9 @@ isPublished: false
 
 # ScoreActivities
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **ScoreActivities** command causes all scored activities in a particular lab instance to undergo scoring. Please note that this is API command is only necessary in specialized situations. In most cases, scoring is triggered by the student in the lab client and this command is not needed. However, if your students do not use our lab client, ScoreActivities provides a mechanism to trigger scoring. 
 
 This command does not return scoring results. To obtain scoring results, use the @Html.ActionLink("Details", "Details") command.
@@ -41,3 +44,4 @@ https://labondemand.com/api/v3/scoreactivities?labinstanceid=2393049&rescoreAll=
     "Error": null
 }
 ```
+-->
