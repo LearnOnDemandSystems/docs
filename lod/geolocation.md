@@ -1,7 +1,7 @@
 ---
 title: "Geolocation for Lab Launches"
 description: "The process for geolocating labs when they are launched."
-isPublished: false
+isPublished: true
 ---
 
 # Lab Launch Geolocation 
