@@ -170,6 +170,10 @@
         <div class="subtopic_title">External Instruction Source</div>
         <div class="subtopic_description">Use an Azure DevOps or GitHub repository as the instruction source for labs.</div>
       </a>            
+      <a class="subtopic_link" href="/lod/geolocation.md">
+        <div class="subtopic_title">Geolocation for Lab Launches</div>
+        <div class="subtopic_description">The process for geolocating labs when they are launched.</div>
+      </a>
       <a class="subtopic_link" href="/lod/start-states.md">
         <div class="subtopic_title">Hyper-V Start States</div>
         <div class="subtopic_description">Start States allow you to create a point in a lab where the lab will launch from for subsequent launches.</div>
