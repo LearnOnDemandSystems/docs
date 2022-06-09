@@ -6,6 +6,9 @@ isPublished: false
 
 # GetOrCreateClass
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **GetOrCreateClass** command returns information about a class. If the class doesn’t exist, it is created.
 
 ## Parameters
@@ -84,3 +87,4 @@ https://labondemand.com/api/v3/GetOrCreateClass?id=4449999&name=Sample+Class&ins
     "Error": null
 }
 ```
+-->

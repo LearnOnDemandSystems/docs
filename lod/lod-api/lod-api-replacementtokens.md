@@ -6,6 +6,9 @@ isPublished: false
 
 # ReplacementTokens
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **ReplacementTokens** command retrieves all @lab replacement tokens available for a particular lab instance.
 
 ## Parameters
@@ -97,3 +100,4 @@ Please note that the actual replacement tokens returned will vary by lab type. F
     "Status": 1
 }
 ```
+-->

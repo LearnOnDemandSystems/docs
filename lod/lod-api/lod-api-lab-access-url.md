@@ -6,6 +6,9 @@ isPublished: false
 
 # LabAccessUrl
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **LabAccessUrl** command returns a single use URL to access a lab instance.
 
 ## Parameters
@@ -41,3 +44,4 @@ https://labondemand.com/api/v3/LabAccessUrl?LabInstanceId=4449999
     "Status": 1
 }
 ```
+-->

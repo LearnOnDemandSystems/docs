@@ -6,6 +6,9 @@ isPublished: false
 
 # CloseUserAccount
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **CloseUserAccount** command closes a user account and removes all user information using an ID. This is usually a unique identifier used by the calling system.
 
 ## Parameters
@@ -41,3 +44,5 @@ https://labondemand.com/api/v3/CloseUserAccount/?userId=555
     "RowsAffected": 25
 }
 ```
+
+-->

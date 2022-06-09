@@ -4,6 +4,10 @@ description: "The Cancel command allows you to cancel a specified lab instance."
 isPublished: false
 ---
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
+
 # Cancel
 
 The **Cancel** command allows you to cancel a specified lab instance.
@@ -42,3 +46,5 @@ https://labondemand.com/api/v3/cancel?labinstanceid=2393048
    "Error": null
 }
 ```
+
+-->

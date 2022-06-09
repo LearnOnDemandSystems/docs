@@ -4,6 +4,9 @@ description: "The Class command returns information about a class."
 isPublished: false
 ---
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 # Class
 
 The **Class** command returns information about a class.
@@ -61,3 +64,4 @@ https://labondemand.com/api/v3/class/?id=4449999
     "Error": null
 }
 ```
+-->

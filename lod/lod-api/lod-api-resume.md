@@ -6,6 +6,9 @@ isPublished: false
 
 # Resume
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **Resume** command allows you to resume a specified lab instance.
 
 ## Parameters
@@ -58,3 +61,4 @@ https://labondemand.com/api/v3/resume?labinstanceid=2393049
     "Error": null
 }
 ```
+-->

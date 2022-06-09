@@ -6,8 +6,10 @@ isPublished: false
 
 # Details
 
-The **Details** command retrieves detailed information about a specified lab instance.
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
 
+<!--
+The **Details** command retrieves detailed information about a specified lab instance.
 
 ## Parameters
 
@@ -452,3 +454,4 @@ https://labondemand.com/api/v3/details?labinstanceid=360701
     "Status": 1
 }
 ```
+-->

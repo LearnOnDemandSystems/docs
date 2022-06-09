@@ -6,6 +6,9 @@ isPublished: false
 
 # Result
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **Result** command returns information about a particular lab instance result.
 
 ## Parameters
@@ -93,3 +96,4 @@ https://labondemand.com/api/v3/Result?labinstanceId=2393049
     "Error": null,
 }
 ```
+-->

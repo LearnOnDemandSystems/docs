@@ -4,6 +4,10 @@ description: "The Catalog command will return all lab series, lab profiles, and 
 isPublished: false
 ---
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
+
 # Catalog
 
 The **Catalog** command will return all lab series, lab profiles, and delivery regions available to your organization. Lab profiles are generally grouped into series. Depending on your organization, you may have multiple physical delivery regions available to you.
@@ -192,3 +196,5 @@ https://labondemand.com/api/v3/catalog
     "Error": null
 }
 ```
+
+-->

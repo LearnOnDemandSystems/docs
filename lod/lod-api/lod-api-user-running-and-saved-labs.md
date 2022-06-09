@@ -6,6 +6,9 @@ isPublished: false
 
 # UserRunningAndSavedLabs
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **UserRunningAndSavedLabs** command retrieves all labs that are currently running or saved for a particular user account.
 
 ## Parameters
@@ -93,3 +96,4 @@ https://labondemand.com/api/v3/userrunningandsavedlabs?userid=555
     "Error": null
 }
 ```
+-->
