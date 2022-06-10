@@ -45,7 +45,7 @@ To create a Lab series, click **Create Lab Series** on the Lab Series tile, on t
 
 1. **Max Instances Per Lab Per User (Retakes)**: This allows the number of retakes or relaunches via API, to be limited to a specific number of launches. Once the limit has been reached per lab, per user, an error will be returned in the API call. Additionally, you can restrict the scope of time that the user can relaunch labs within, in the _Days_ field.
 
-    - **Scope Retakes per Class**: If a user is assigned a Lab Series Assignment, the number of relaunches or retakes will be reset back to 0, for that lab and that user.
+    - **Scope retakes per class**: If a user is assigned a Lab Series Assignment, the number of relaunches or retakes will be reset back to 0, for that lab and that user.
 
 ## Lab Host Tags
 
