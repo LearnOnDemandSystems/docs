@@ -16,7 +16,7 @@ Virtual machine (VM) profiles can be created by importing an OVA file into a lab
     - [Import Limitations](#import-limitations)
     - [Lab Profile](#lab-profile)
 
->[!alert] For compatibility, uploads to our platform must have virtual hardware version 15 or lower. Please refer to your software's documentation for instructions on downgrading the virtual hardware version, then reupload the file and import again.
+>[!alert] For compatibility, uploads to our platform must have virtual hardware version 15 or lower. If your virtual hardware version is higher than version 15, please refer to your software's documentation for instructions on downgrading the virtual hardware version before uploading.
 
 ## Uploading an OVA File
 
