@@ -49,13 +49,15 @@ To use network features, such as external internet access or communication betwe
 
 1. **Type of network:** The type of network to be used by the lab profile. There are four options:
 
+    >[!knowledge] VLAN IDs are configured differently for Hyper-V and ESX. The VLAN ID is set on the VM profile for Hyper-V and set on the Networks tab of the Lab Profile for ESX.
+
    - Private: private network (no internet access), typically used for communication between virtual machines. 
 
-        - VLAN ID: Select automatic VLAD ID assignment or specify a specific VLAN ID. 
+        - VLAN ID: Select automatic VLAN ID assignment or specify a specific VLAN ID. 
 
    - Web Access (NAT): internet accessible with NAT (network address translation)
 
-        - VLAN ID: Select automatic VLAD ID assignment or specify a specific VLAN ID. 
+        - VLAN ID: Select automatic VLAN ID assignment or specify a specific VLAN ID. 
 
         - Gateway address: specify the gateway address or use the default address of 192.168.1.1.
 
