@@ -16,6 +16,8 @@ Virtual machine (VM) profiles can be created by importing an OVA file into a lab
     - [Import Limitations](#import-limitations)
     - [Lab Profile](#lab-profile)
 
+>[!alert] For compatibility, uploads to our platform must have virtual hardware version 15 or lower. Please refer to your software's documentation for instructions on downgrading the virtual hardware version, then reupload the file and import again.
+
 ## Uploading an OVA File
 
 As a lab developer, you can create a VM from an OVA file on a lab profile. Your user account must have the proper permissions to allow editing and importing lab profiles. If you do not have the proper permissions, or if you are unsure if you have the proper permissions, please reach out to our [customer support team](https://skillable.com/customer-support/).
