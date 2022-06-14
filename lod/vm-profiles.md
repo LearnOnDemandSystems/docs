@@ -191,6 +191,8 @@ To create a Virtual Machine profile, click **Create Virtual Machine profile** fr
 
 - **Enable virtual LAN (VLAN) identification**: Allows a custom VLAN ID to be assigned.
 
+    >[!knowledge] VLAN IDs are configured differently for Hyper-V and ESX. The VLAN ID is set on the VM profile for Hyper-V and set on the Networks tab of the Lab Profile for ESX.
+
 - **Monitoring mode**: Enables Hyper-v port mirroring, to monitor network traffic. Monitoring the source or destination traffic is supported.  
 
 
