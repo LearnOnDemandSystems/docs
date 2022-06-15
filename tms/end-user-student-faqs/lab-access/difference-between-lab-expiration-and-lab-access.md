@@ -1,5 +1,5 @@
 ---
-title: "# What do I need to know about lab access, lab expiration, and lab launch limits?"
+title: "What do I need to know about lab access, lab expiration, and lab launch limits?"
 isPublished: true
 ---
 
