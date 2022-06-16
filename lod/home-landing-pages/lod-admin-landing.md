@@ -58,10 +58,10 @@
         <div class="subtopic_title">Lab Instance Sharing</div>
         <div class="subtopic_description">Lab Instance Sharing allows multiple users to work together in a lab profile at the same time. </div>
       </a>
-      <a class="subtopic_link" href="/lod/skillable-enhanced-account-security.md">
-        <div class="subtopic_title">Skillable Enhanced Account Security</div>
-        <div class="subtopic_description">Guidance for authenticating user accounts with Skillable Platforms, as well as account management in each platform.</div>
-      </a>      
+      <a class="subtopic_link" href="/lod/lod-lab-developers/lab-instance-sharing.md">
+        <div class="subtopic_title">Lab Instance Transfer</div>
+        <div class="subtopic_description">Lab Instance Transfer allows a running lab to transferred to another user account. </div>
+      </a>   
       <a class="subtopic_link" href="/lod/org-max-ram.md">
         <div class="subtopic_title">Organization RAM Limits</div>
         <div class="subtopic_description">Max RAM usage, max active lab instances and max RAM per lab profile.</div>
@@ -74,6 +74,10 @@
         <div class="subtopic_title">Publishing a Lab Series to Production</div>
         <div class="subtopic_description">This document describes the process of moving labs from Development to Production in Lab on Demand.</div>
       </a>
+      <a class="subtopic_link" href="/lod/skillable-enhanced-account-security.md">
+        <div class="subtopic_title">Skillable Enhanced Account Security</div>
+        <div class="subtopic_description">Guidance for authenticating user accounts with Skillable Platforms, as well as account management in each platform.</div>
+      </a>   
       <a class="subtopic_link" href="/lod/lod-support-chat.md">
         <div class="subtopic_title">Support Chat</div>
         <div class="subtopic_description">Chat with our Support team or submit a support ticket..</div>

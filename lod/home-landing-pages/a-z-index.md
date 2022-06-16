@@ -218,9 +218,13 @@
         <div class="subtopic_title">Lab Developer FAQ</div>
         <div class="subtopic_description">Frequently asked questions to assist lab developers.</div>
       </a>
-      <a class="subtopic_link" href="/lod/lod-lab-developers/lab-instance-sharing.md">
+      <a class="subtopic_link" href="/lod/lab-instance-transfer.md">
         <div class="subtopic_title">Lab Instance Sharing</div>
         <div class="subtopic_description">Lab Instance Sharing allows multiple users to work together in a lab profile at the same time. </div>
+      </a>
+      <a class="subtopic_link" href="/lod/lod-lab-developers/lab-instance-sharing.md">
+        <div class="subtopic_title">Lab Instance Transfer</div>
+        <div class="subtopic_description">Lab Instance Transfer allows a running lab to transferred to another user account. </div>
       </a>
       <a class="subtopic_link" href="/lod/lab-interface.md">
         <div class="subtopic_title">Lab Interface Explanation</div>
