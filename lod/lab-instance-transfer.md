@@ -1,14 +1,14 @@
 ---
 title: "Lab Instance Transfer"
-description: "Lab Instance Transfer allows a running lab to transferred to another user account."
+description: "Lab Instance Transfer allows a running lab to be transferred to another user account."
 isPublished: true
 ---
 
 # Lab Instance Transfer
 
-Lab Instance Transfer allows a running lab to transferred to another user account. Once the lab instance is transferred, only the recipient will have access to the lab instance. 
+Lab Instance Transfer allows a running lab to be transferred to another user account. Once the lab instance is transferred, only the recipient will have access to the lab instance. 
 
-Lab Instance Transfer is enabled a the organization level. Once it is enabled, all users within that organization will have the ability to transfer lab instances to another user within the organization. 
+Lab Instance Transfer is enabled at the organization level. Once it is enabled, all users within that organization will have the ability to transfer lab instances to another user within the organization. 
 
 ## Table of Contents 
 
@@ -23,13 +23,13 @@ Lab Instance Transfer is enabled a the organization level. Once it is enabled, a
 
 ## Enable Lab Instance Transfer
 
-When enabled, lab instances that belong to this organization can be transferred between users. The receiving user must belong to this organizational tree (this organization, a parent organization, a child organization, or a sibling organization).
+When enabled, lab instances that belong to an organization can be transferred between users. The receiving user must belong to this organizational tree (this organization, a parent organization, a child organization, or a sibling organization).
 
-To enable Lab Instance Transfer, it must be enabled at organization level. 
+Lab Instance Transfer must be enabled at organization level. 
 
 1. Contact our [Customer Support Team](https://skill.info/support) to request enabling this feature.  
 
-1. Provide a custom message that will sent to lab instance recipients. When a lab is transferred from one user to another, the recipient receives a simple email notification. Any text provided here will be appended to the message. 
+1. Provide a custom message that will be sent to lab instance recipients. When a lab is transferred from one user to another, the recipient receives a simple email notification. Any text provided will be appended to the message. 
 
 ## Transferring a Lab Instance
 
@@ -101,4 +101,4 @@ If the **recipient is a TMS user**, complete the following steps to find lab ins
 
 ### API User
 
-If the **recipient is an API user** that access lab instances from an external system, please refer to your external system's native tools to access the lab instance.
+If the **recipient is an API user** accessing lab instances from an external system, please refer to your external system's native tools to access the lab instance.
