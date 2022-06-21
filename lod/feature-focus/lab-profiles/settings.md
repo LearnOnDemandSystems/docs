@@ -322,6 +322,12 @@ For more information about Action and Event types, please see our [Life Cycle Ac
 
 1. **Max Active Instance:** This sets the amount of concurrent labs that can be launched at a time. Setting to _Unlimited_ allows an unlimited amount of launches of this lab profile at a time. Entering a number limits the amount of concurrent labs to the number specified. Any labs that are attempted to be launched after the limit has been met, will be given an error message and will not be able to launch the lab until the number of labs launched is below the maximum amount.
 
+1. **Max Allowed Build Time:** The maximum amount of time for the lab to build. Once the configured maximum amount of time has elapsed, the lab will be set to the option selected in the next field, even if the lab has not completed building. The default max build time is 30 minutes for labs that only use Hyper-V or ESX virtual machines, and 60 minutes for labs with a cloud configuration. If a lab contains Hyper-V or ESX virtual machines and a cloud configuration, the max build time will default to 60 minutes. The build time can be set anywhere from 1 minute to 24 hours. 
+
+    Once the maximum build time has elapsed, options include: 
+    - Mark as Running: the lab instance state will be set to _Running_ and the lab user will be given access to the lab.
+    - Cancel and Teardown: the lab will be cancelled and all VM and/or cloud resources will be torn down. 
+
 1. **Show Timer:** Checking this box will enable the lab to display a countdown timer, showing the user how much time they have left to complete the lab. 
 
 1. **Enable Navigation Warning:** A warning will be displayed if the user navigates away from the lab client before the lab is complete.
