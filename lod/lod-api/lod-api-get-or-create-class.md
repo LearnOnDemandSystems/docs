@@ -4,6 +4,6 @@ description: "The GetOrCreateClass command returns information about a class. If
 isPublished: false
 ---
 
-# GetOrCreateClass.
+# GetOrCreateClass
 
 !INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
