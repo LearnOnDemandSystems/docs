@@ -43,7 +43,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
   > \**Bold text**
 
-- **Italic**: used to show emphasis or distinction. Type two _ (underline) on each side of text that is to be emphasized.
+- **Italic**: used to show emphasis or distinction. Type an _ (underline) on each side of text that is to be emphasized.
 
   > \_Italic text_
 
@@ -216,11 +216,11 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
   > `![](image url){heightXwidth}` or `{height}`
 
-- **Video:** Used to embed an image inline with other content. The syntax format should look the same as an image, except the video should begin with a ! (explanation mark), followed by the word VIDEO. 
+- **Video:** Used to embed an image inline with other content. The syntax format should look the same as an image, except the video should begin with a ! (exclamation mark), followed by the word video. 
 
   > \!video[text to display]\(url)
   
-- **Audio:** Used to embed an inline audio player, or a link to an audio recording.The syntax format should look the same as a video, except the audio should begin with a ! (explanation mark), followed by the word audio.
+- **Audio:** Used to embed an inline audio player, or a link to an audio recording.The syntax format should look the same as a video, except the audio should begin with a ! (exclamation mark), followed by the word audio.
 
   > \!audio[text to display](URL)
 
@@ -302,7 +302,7 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
 ## Special formatting 
 
-- **Variables**: Used to store information that is not known at the time of lab authoring. Variables use two Replacement tokens; **&commat;lab.textbox(name)** and **&commat;lab.Variable(name)**. **Use &commat;lab.texbox(name) to define** the variable in the (name). **Use &commat;lab.Variable(name) to recall** the information store in the variable. For example, you could create a variable with &commat;lab.textbox(studentPassword) and ask the student to enter a password in the field. Later in the lab you could call back the student's password with &commat;lab.Variable(studentPassword). This prevents the student from having to remember or write down their password, since it is stored in the lab by a variable. 
+- **Variables**: Used to store information that is not known at the time of lab authoring. Variables use two Replacement tokens; **&commat;lab.TextBox(name)** and **&commat;lab.Variable(name)**. **Use &commat;lab.TextBox(name) to define** the variable in the (name). **Use &commat;lab.Variable(name) to recall** the information store in the variable. For example, you could create a variable with &commat;lab.textbox(studentPassword) and ask the student to enter a password in the field. Later in the lab you could call back the student's password with &commat;lab.Variable(studentPassword). This prevents the student from having to remember or write down their password, since it is stored in the lab by a variable. 
 
   - Defining Variable in lab instruction editor view:
   
@@ -386,10 +386,10 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
 - **Sections:** used to group lab instructions and elements together so they may be called up on and manipulated as one. This is done by assigning a lab variable that has been set via LCA, ABA, an IDLx textbox  or an IDLx drop-down menu.
 
-    > :::sectionName(variableName-variabelValue)
-
+    > :::sectionName(variableName-variableValue)
+    > 
     > section text or markdown elements
-
+    > 
     > :::
 
     > ![](images/section-in-lab-instructions.png "Sections")
@@ -497,13 +497,13 @@ Although potentially any task could be reduced to an action that can be executed
 
 - **Copyable and Type Text:** used to make text copy to the local clipboard and type into a virtual machine when the student clicks the text. Type four + (plus) symbols on each side of the text that should be made copyable and type text. 
 
-  > \++Click to copy to clipboard and type into a VM++
+  > \++++Click to copy to clipboard and type into a VM++++
   >
   > ![](images/copyable-and-type-text.png "Copyable Text")
   
 - **Embed YouTube video:** used to embed a YouTube video inline with the lab instructions. URLs from YouTube.com automatically embed. Videos from any other URL will not embed.
 
-  > `!VIDEO[text to display](url)` 
+  > `!video[text to display](url)` 
 
 - **Replacement Token:** used to replace text in lab instructions with a variable that is unknown at the time of authoring the lab instructions. These variables may not be generated or created until the lab is launched by the student. These can include usernames, user first name, user last name, running lab instance ID number, etc. To apply a Replacement Token, in the parameter value field, simply enter "&commat;lab", and the press the period key. The moment you type the period you will be presented with all available replacement tokens for your lab. 
 
