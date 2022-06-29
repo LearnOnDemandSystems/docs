@@ -7,3 +7,5 @@ isPublished: false
 # GetOrCreateClass
 
 !INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+.. 
