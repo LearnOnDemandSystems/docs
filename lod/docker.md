@@ -6,7 +6,7 @@ isPublished: true
 
 # Using Docker in Lab on Demand
 
-When using Docker to host containers in labs, there are several considerations to keep in mind..
+When using Docker to host containers in labs, there are several considerations to keep in mind.
 
 ## Configuration
 
