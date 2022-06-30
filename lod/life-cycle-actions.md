@@ -193,11 +193,17 @@ Language options include:
 
 ## Execute Custom Script
 
-Scripts can be executed against a custom target, using a specific package for the selected language. Scripts can use packages that are hosted by supported package providers. 
+Custom scripts allow you to execute scripts during the life cycle of a lab, using a specific package for the selected language or using native syntax for the selected language. 
+
+Scripts executed using this method are typically used to target outside of Lab on Demand. As a best practice, it is recommended to use [Execute Machine Command](#execute-machine-command) to target virtual machines and [Execute Cloud Platform Command](#execute-cloud-platform-command) to target cloud environments. 
+
 - PowerShell: [PowerShell Gallery](https://wwpowershellgallery.com/)
 - Python: [PyPi](https://pypi.org/)
+    - Add NuGet Package
 - JavaScript: [NPM](https://www.npmjs.com/)
+    - Add NPM Package
 - C#: [Nuget](https://www.nuget.org/)
+    - Add PyPI package
 
 For more information about the available languages, see our [Lab on Demand Scripting documentation](scripting-home.md).
 
