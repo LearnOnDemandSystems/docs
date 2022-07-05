@@ -892,11 +892,11 @@ Commands can perform any action that is possible to do from a command or Windows
 >[!knowledge] When using the command prompt to run commands that are not in the command path, and have spaces in their fully qualified name, they need special attention.  For   
 > example if there is a requirement to run MSEdge (C:\Program Files (x86)\Microsoft\Edge\Applications\msedge.exe), this will not work as expected surrounded by double > quotes.  To run this type of command either proceed the command with an **&** or use the PowerShell **Start-Process** command, as per these examples:
 >
->    @[Text to display](`& "c:\program files (x86)\microsoft\edge\application\msedge.exe"`){shell}    
+>    \@[Text to display](`& "c:\program files (x86)\microsoft\edge\application\msedge.exe"`){shell}    
 >    
 > Or
 >
->    @[Text to display](`Start-Process "c:\program files (x86)\microsoft\edge\application\msedge.exe"`){PowerShell}     
+>    \@[Text to display](`Start-Process "c:\program files (x86)\microsoft\edge\application\msedge.exe"`){PowerShell}     
 
 Although potentially any task could be reduced to an action that can be executed as a command shell or Windows PowerShell command, you should use this feature judiciously. Users should still know how to open File Explorer and perform other basic actions. This feature is most useful for a complex task that involves numerous steps, opening file locations deep down in directory structures, opening specific Web pages, and other similar activities.
    
