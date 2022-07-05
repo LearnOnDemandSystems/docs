@@ -888,7 +888,8 @@ Below is an example of how a multi line command would look for a **PowerShell cm
 > [!KNOWLEDGE] PowerShell commands are executed in a CMD prompt, in the lab. The command will still function as intended.
 
 Commands can perform any action that is possible to do from a command or Windows PowerShell prompt. For example, the command could open File Explorer at a particular location within a directory structure, open dialog boxes, start scripts, open documents and web pages, and many others.    
-One scenario to be aware of.  When using the command prompt to run commands that are not in the command path, and have spaces in their fully qualified name, they need special attention.  For example if there is a requirement to run MSEdge (C:\Program Files (x86)\Microsoft\Edge\Applications\msedge.exe), this will not work as expected surrounded by double quotes.  To run this type of command either proceed the command with an **&** or use the PowerShell **Start-Process** command, as per these examples:
+
+When using the command prompt to run commands that are not in the command path, and have spaces in their fully qualified name, they need special attention.  For example if there is a requirement to run MSEdge (C:\Program Files (x86)\Microsoft\Edge\Applications\msedge.exe), this will not work as expected surrounded by double quotes.  To run this type of command either proceed the command with an **&** or use the PowerShell **Start-Process** command, as per these examples:
 
     @[Text to display](`& "c:\program files (x86)\microsoft\edge\application\msedge.exe"`){shell}    
     
