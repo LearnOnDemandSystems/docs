@@ -895,7 +895,7 @@ Commands can perform any action that is possible to do from a command or Windows
 >
 > - @[Text to display](\`& "c:\program files (x86)\microsoft\edge\application\msedge.exe"`){shell}    
 >    
-> Or
+> 	Or
 >
 > - @[Text to display](\`Start-Process "c:\program files (x86)\microsoft\edge\application\msedge.exe"`){PowerShell}     
 
