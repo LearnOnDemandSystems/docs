@@ -20,7 +20,7 @@ You can also take actions through the lab monitoring tool like:
 - Take control of the student's lab.
 - Share files with students.
 
->:small_orange_diamond: [Watch a video on lab monitoring.](https://youtu.be/Ey4DLXe74Uc) 
+>:small_orange_diamond: [Watch a video on lab monitoring.](https://youtu.be/YzUQveZ56tQ) 
 
 To monitor and assist students:
 1. Click **My Calendar** at the top of any window. 
