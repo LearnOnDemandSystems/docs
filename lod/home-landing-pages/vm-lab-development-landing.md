@@ -18,6 +18,10 @@
   <div class="subtopic selected">
     <div id="header_1" class="subtopic_header" tabindex="0" title="Lab Instruction Authoring Docs" role="button" aria-selected="true" selected>Lab Instruction Authoring</div>
     <div id="body_1" class="subtopic_links">
+      <a class="subtopic_link" href="/lod/lab-content-replication">
+        <div class="subtopic_title">Lab Content Replication</div>
+        <div class="subtopic_description">The expected amount of time for lab profile updates to replicate across available delivery regions.</div>
+      </a>
       <a class="subtopic_link" href="/lod/idlx-development-best-practices.md">
         <div class="subtopic_title">IDLx Lab Development Best Practices</div>
         <div class="subtopic_description">This document covers best practices for IDLx lab development, to assist in creating a rich learning experience.</div>
