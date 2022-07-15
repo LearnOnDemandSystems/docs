@@ -210,7 +210,7 @@
         <div class="subtopic_title">Introduction to Lab on Demand UI</div>
         <div class="subtopic_description">Explanation of Lab on Demand UI.</div>
       </a>
-      <a class="subtopic_link" href="/lod/lab-content-replication">
+      <a class="subtopic_link" href="/lod/lab-content-replication.md">
         <div class="subtopic_title">Lab Content Replication</div>
         <div class="subtopic_description">The expected amount of time for lab profile updates to replicate across available delivery regions.</div>
       </a>
