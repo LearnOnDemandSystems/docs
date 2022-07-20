@@ -83,7 +83,7 @@ AWS denies all resources by default. AWS ACPs can be designed to only allow spec
 ```
 
 - Where "x" is the statement ID defined by the policy writer. This is used for policy management. Ex: "VisualEditor0"
-- Where "y" is the action that the user can perform. The format is *category:action*. Ex 1: "ec2:*" means all **ec2** actions. Ex 2: "iam:GetRole" specifies reading IAM roles. 
+- Where "y" is the action that the user can perform. The format is *category:action*. Ex 1: "ec2:*" means all ec2 actions. Ex 2: "iam:GetRole" specifies reading IAM roles. 
 - Where "z" is the resource on which these actions can be performed. Ex: "**\***". 
 
 ## Life Cycle Actions
