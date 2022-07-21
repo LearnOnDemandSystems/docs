@@ -6,7 +6,7 @@ isPublished: true
 
 # Container Web Display 
 
-In Lab on Demand (LOD), containers can be configured to expose specific ports. Each exposed port will be dynamically mapped to an external port on the lab host server when the lab is deployed. Skillable uses a proxty to secure the web application, and adds an SSL certificate, to prevent unauthorized users from accessing your content.  
+In Lab on Demand (LOD), containers can be configured to expose specific ports. Each exposed port will be dynamically mapped to an external port on the lab host server when the lab is deployed. Skillable uses a proxy to secure the web application, and adds an SSL certificate, to prevent unauthorized users from accessing your content.  
 
 Selecting the Web Display option for the exposed port will allow the container to output through the exposed port and display in a web browser. 
 
