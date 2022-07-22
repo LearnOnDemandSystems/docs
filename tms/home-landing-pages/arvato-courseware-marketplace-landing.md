@@ -90,7 +90,10 @@
   <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="FAQs for Courseware Marketplace Orders Docs" role="button" aria-selected="false">FAQs for Courseware Marketplace Orders</div>
     <div class="subtopic_links">
-      <a class="subtopic_link" href="/tms/arvato-marketplace/faq-for-arvato-marketplace/purchase-labs-for-instructor.md">
+      <a class="subtopic_link" href="/tms/arvato-marketplace/faq-for-arvato-marketplace/expiration.md">
+        <div class="subtopic_title">Do the labs I purchased through Courseware Marketplace have an expiration date?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/arvato-marketplace/faq-for-arvato-marketplace/purchase-labs-for-instructor.md">
         <div class="subtopic_title">Do I need to purchase labs for the instructor?</div>
       </a>
       <a class="subtopic_link" href="/tms/arvato-marketplace/faq-for-arvato-marketplace/vouchers-not-showing-in-manage-class-vouchers.md">
