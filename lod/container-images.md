@@ -51,7 +51,7 @@ Lab on Demand supports using Docker Container Images in labs. Container images a
             >[!note] Terminal and Web display will only connect to the first port that is configured on the container profile.
             
             - **Terminal**: allows a terminal connection to the exposed port of the container.
-            - **Web**: allows the lab client to connect to the exposed port and display the output of that port from the container. Web display requires the lab profile to have at least one network attached. Skillable uses a proxty to secure the web application, and adds an SSL certificate, to prevent unauthorized users from accessing your content.  
+            - **Web**: allows the lab client to connect to the exposed port and display the output of that port from the container. Web display requires the lab profile to have at least one network attached. Skillable uses a proxy to secure the web application, and adds an SSL certificate, to prevent unauthorized users from accessing your content.  
                 - **Start path**: allows signing in to the web application in the container, using a URL parameter. `Example: app/login`
                 - **Use Relative Links**: how the container's web application generates links to pages within the web application. Enable this option to use relative links within the container. Disabling will cause the container to use absolute links. 
              
