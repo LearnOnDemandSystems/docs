@@ -106,8 +106,6 @@ aria-hidden="true">assignment</i>
                 <i class="material-icons green"
  title="Student Basics" aria-hidden="true">supervised_user_circle</i>
             <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
-                <i class="material-icons green"
- title="Student Basics" aria-hidden="true">supervised_user_circle</i>
                 <span class="categoryTitle" title="What does it mean to be a contract instructor?">What does it mean to be a contract instructor?</span>
               </a>
          </div>
