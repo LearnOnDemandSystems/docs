@@ -105,6 +105,10 @@ aria-hidden="true">assignment</i>
             <span class="categoryDescription">Find out more about the Instructor Dashboard.</span>
           </a>
         </div>
+              </div>
+    <div class="cardsContainer">
+        <div class="cardContainer">
+              <!-- Begin categories section.. -->
           <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Featured Instructor General Docs">General</div>
           <div class="category">
               <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
