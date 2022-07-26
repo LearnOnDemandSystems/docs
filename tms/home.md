@@ -97,28 +97,20 @@ aria-hidden="true">assignment</i>
           <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Featured Instructor General Docs">General</div>
           <div class="category">
           <a href="/tms/instructors/general/instructordashboard.md" class="categoryThread">
-            <i class="material-icons green"
- aria-hidden="true">bookmarks</i>
+            <i class="material-icons green" 
+ title="Student Basics" aria-hidden="true">supervised_user_circle</i>
             <span class="categoryTitleFeatured" title="What is the Instructor Dashboard?">What is the Instructor Dashboard?</span>
           </a>
         </div>
-          <a href="/tms/instructors/general/instructordashboard.md" class="categoryThread">
-                <i class="material-icons green"
+         <div class="cloudSlice cardContent">
+          <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Featured Instructor General Docs">General</div>
+          <div class="category">
+          <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
+            <i class="material-icons green" 
  title="Student Basics" aria-hidden="true">supervised_user_circle</i>
-            <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
-                <span class="categoryTitle" title="What does it mean to be a contract instructor?">What does it mean to be a contract instructor?</span>
-              </a>
-         </div>
-         </div>  
-        <div class="cardContainer">
-          <div class="vmLabDev cardContent">
-            <div class="cardHeader" tabindex="0" title="Student Labs" aria-label="Student Docs for Labs">Labs</div>
-            <div class="category">
-              <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-without-user-account.md " class="categoryThread">
-                <i class="material-icons light-green" aria-hidden="true">desktop_windows</i>
-                <span class="categoryTitle" title="How do I access my labs using a lab code without a user account?">How do I access my labs using a lab code without a user account?</span>
-              </a>
-            </div>
+            <span class="categoryTitleFeatured" title="What does it mean to be a contract instructor?">What does it mean to be a contract instructor?</span>
+          </a>
+        </div>
             <div class="category">
               <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-with-user-account.md" class="categoryThread">
                 <i class="material-icons green" aria-hidden="true">desktop_windows</i>
