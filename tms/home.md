@@ -94,21 +94,6 @@ aria-hidden="true">assignment</i>
          <div class="cardContainer">
           <!-- Begin categories section.. -->
           <div class="cloudSlice cardContent">
-   <div class="categoriesHeader" tabindex="0" title="Featured Posts" aria-label="Featured Instructor Docs">Featured</div>
-    <div class="cardContainerFull">
-      <div class="cardContent">
-          <div class="category">
-          <a href="/tms/instructors/general/instructordashboard.md" class="categoryThread">
-            <i class="material-icons light-green"
- aria-hidden="true">bookmarks</i>
-            <span class="categoryTitleFeatured" title="What is the Instructor Dashboard?">What is the Instructor Dashboard?</span>
-            <span class="categoryDescription">Find out more about the Instructor Dashboard.</span>
-          </a>
-        </div>
-              </div>
-    <div class="cardsContainer">
-        <div class="cardContainer">
-              <!-- Begin categories section.. -->
           <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Featured Instructor General Docs">General</div>
           <div class="category">
               <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
