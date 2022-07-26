@@ -102,7 +102,10 @@ aria-hidden="true">assignment</i>
                 <span class="categoryTitle" title="What is the Instructor Dashboard?">What is the Instructor Dashboard?</span>
               </a>
          </div>
-              <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
+             <a href="/tms/instructors/general/instructordashboard.md" class="categoryThread">
+                <i class="material-icons green"
+ title="Student Basics" aria-hidden="true">supervised_user_circle</i>
+            <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
                 <i class="material-icons green"
  title="Student Basics" aria-hidden="true">supervised_user_circle</i>
                 <span class="categoryTitle" title="What does it mean to be a contract instructor?">What does it mean to be a contract instructor?</span>
