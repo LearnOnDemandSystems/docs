@@ -96,12 +96,15 @@ aria-hidden="true">assignment</i>
           <div class="cloudSlice cardContent">
           <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Featured Instructor General Docs">General</div>
           <div class="category">
-              <a href="/tms/instructors/general/instructordashboard.md" class="categoryThread">
+          <a href="/tms/instructors/general/instructordashboard.md" class="categoryThread">
+            <i class="material-icons green"
+ aria-hidden="true">bookmarks</i>
+            <span class="categoryTitleFeatured" title="What is the Instructor Dashboard?">What is the Instructor Dashboard?</span>
+          </a>
+        </div>
+          <a href="/tms/instructors/general/instructordashboard.md" class="categoryThread">
                 <i class="material-icons green"
  title="Student Basics" aria-hidden="true">supervised_user_circle</i>
-                <span class="categoryTitle" title="What is the Instructor Dashboard?">What is the Instructor Dashboard?</span>
-              </a>
-         </div>
             <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
                 <i class="material-icons green"
  title="Student Basics" aria-hidden="true">supervised_user_circle</i>
