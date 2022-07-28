@@ -12,7 +12,7 @@ To launch and use a lab, the following requirements must be met:
     1. Windows 7 or later
     1. Ubuntu 14.04 or later (or comparable distribution)
     1. macOS 10.12 or later
-1. Have a supported browser. IE, Edge, Chrome, Firefox, Safari.
+1. Have a supported browser. Edge, Chrome, Firefox, Safari.
     1. Latest version is preferred, but full support details can be found below
     1. Chromium based browsers such as Opera or Vivaldi can connect, but default hotkeys they set may interfere with lab inputs
 1. Be connected to a network that allows at least one of the following:
