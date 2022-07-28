@@ -126,10 +126,7 @@ All connections utilize secure WebSockets connections over port 443. No plugin i
 | --- | --- |
 | Chrome | 16+ |
 | Firefox | 11+ |
-| Internet Explorer | 10+<sup>1</sup1> |
 | Microsoft Edge | 1+ |
-
-<sup>1</sup> Microsoft has announced IE 10 will be End of Life on January 31, 2020
 
 ### Labs that require the Enhanced controller:
 
@@ -140,9 +137,3 @@ All connections utilize secure WebSockets connections over port 443. No plugin i
 <sup>1</sup> IE 8 and 9 are End of Life and are listed here for legacy purposes
 
 <sup>2</sup> The 21xxx value depends on which host server in the cloud the lab is running on. If connection on port 21xxx fails, the Enhanced client will rollover and attempt the connection on port 443.
-
-### Alternates:
-
-Both Flash and Silverlight legacy controllers will be, or have been, removed on November 6th, 2020.
-
-
