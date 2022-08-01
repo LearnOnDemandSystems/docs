@@ -110,7 +110,7 @@ A CSV containing these ranges is available for use in automating any whitelist c
 
 ## Browser Support
 
-The majority of VM or container based labs can be accessed via HTML5 websocket controllers. ESX, Hyper-V, and Docker<sup>1</sup> labs all utilize this technology. Some labs may require an alternate Enhanced controller available only for Internet Explorer which requires installation of a plugin.
+The majority of VM or container based labs can be accessed via HTML5 websocket controllers. ESX, Hyper-V, and Docker<sup>1</sup> labs all utilize this technology.
 
 <sup>1</sup> Docker labs that expose an external service port do so over ports 41952-65534. Connection requirements are dependent on the exposed service.
 
