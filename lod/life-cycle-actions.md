@@ -188,7 +188,7 @@ Language options include:
 - **JavaScript (AWS Only)**: uses node.js 14
     - **AWS**: AWS SDK for JS 3
 
->[!knowledge] If a Life Cycle Action script encounters an error, and that error is not caught, Lab on Demand will attempt to execute the script from the beginning up to three times. If after three attempts the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
+>[!knowledge] If a Life Cycle Action cloud platform script encounters an error, and that error is not caught, Lab on Demand will attempt to execute the script from the beginning every 60 seconds until true for up to 30 minutes. If after 30 minutes the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
 
 
 ## Execute Custom Script
@@ -204,6 +204,8 @@ Scripts executed using this method are typically used to target outside of Lab o
     - Add NPM Package
 - C#: [Nuget](https://www.nuget.org/)
     - Add PyPI package
+
+>[!knowledge] If a Life Cycle Action custom script encounters an error, and that error is not caught, Lab on Demand will attempt to execute the script from the beginning every 60 seconds until true for up to 30 minutes. If after 30 minutes the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
 
 For more information about the available languages, see our [Lab on Demand Scripting documentation](scripting-home.md).
 
