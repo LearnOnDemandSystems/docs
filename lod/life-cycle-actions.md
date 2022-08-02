@@ -188,14 +188,14 @@ Language options include:
 - **JavaScript (AWS Only)**: uses node.js 14
     - **AWS**: AWS SDK for JS 3
 
->[!knowledge] If a Life Cycle Action script encounters an error, and that error is not caught, Skillable Studiowill attempt to execute the script from the beginning up to three times. If after three attempts the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
+>[!knowledge] If a Life Cycle Action script encounters an error, and that error is not caught, Skillable Studio will attempt to execute the script from the beginning up to three times. If after three attempts the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
 
 
 ## Execute Custom Script
 
 Custom scripts allow you to execute scripts during the life cycle of a lab, using a specific package for the selected language or using native syntax for the selected language. 
 
-Scripts executed using this method are typically used to target outside of Lab on Demand. As a best practice, it is recommended to use [Execute Machine Command](#execute-machine-command) to target virtual machines and [Execute Cloud Platform Command](#execute-cloud-platform-command) to target cloud environments. 
+Scripts executed using this method are typically used to target outside of Skillable Studio. As a best practice, it is recommended to use [Execute Machine Command](#execute-machine-command) to target virtual machines and [Execute Cloud Platform Command](#execute-cloud-platform-command) to target cloud environments. 
 
 - PowerShell: [PowerShell Gallery](https://wwpowershellgallery.com/)
 - Python: [PyPi](https://pypi.org/)

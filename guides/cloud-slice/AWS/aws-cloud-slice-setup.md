@@ -122,7 +122,7 @@ To increase the maximum amount of accounts that can be created:
 
 1. Under Case Description, enter a justification, or explanation of why you are increasing the number of accounts.
 
-1. Under Contact Options, select **web**. If you prefer, you may selet a different language. 
+1. Under Contact Options, select **web**. If you prefer, you may select a different language. 
 
     ![](../images/contact-options.png)
 

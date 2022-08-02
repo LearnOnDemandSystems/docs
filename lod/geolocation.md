@@ -8,7 +8,7 @@ isPublished: true
 
 When a lab is launched, Skillable Studio can use the location of the user's IP address to determine the best location to place the lab instance. 
 
-The location to place a lab instance is defined by the Delivery Regions available to an organization. A delivery region is composed of one or more datacenters. Within a delivery region, launches are placed based on capacity and lab profile content availability. If a lab's content doesn't exist in a delivery region, the lab cannot be launched in that delivery region and LOD will choose the next available delivery region. 
+The location to place a lab instance is defined by the Delivery Regions available to an organization. A delivery region is composed of one or more datacenters. Within a delivery region, launches are placed based on capacity and lab profile content availability. If a lab's content doesn't exist in a delivery region, the lab cannot be launched in that delivery region and Skillable Studio will choose the next available delivery region. 
 
 ## Table of Contents
 
@@ -47,7 +47,7 @@ Using a VPN while launching a lab is not recommended. If a VPN is used while lau
 
 ### Lab Instances Launched from Skillable Studio 
 
-- Lab launches from (LOD) directly are geolocated if the user's IP address is detected. LOD uses the IP information to geolocate the user and launch the lab in the closest available delivery region available. 
+- Lab launches from Skillable Studio directly are geolocated if the user's IP address is detected. Skillable Studio uses the IP information to geolocate the user and launch the lab in the closest available delivery region available. 
 
 ### Lab Instances that are pre-instanced from Skillable Studio
 

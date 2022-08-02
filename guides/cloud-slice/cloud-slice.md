@@ -128,7 +128,7 @@ Once you have identified one or more cloud platform template documents you want 
 
    ![Create Cloud Resource Template - Basic Information Tab](images/lod-cloud-resource-template-basic-information.png)
 
-1. If your Cloud Resource Template has parameters whose values you want displayed to students, or whose values must be set when the Cloud Resource Template is added to a lab profile, click the **Parameters** tab. From this tab you can either add individual template parameters by clicking the **Add Template Parameter** button, or you can add a set of template parameters by clicking the **Import From Json** button to import a JSON document that defines the parameters. In either case, you will end up with one or more parameters defined for your Cloud Resource Template. Each parameter has the following properties:
+1. If your Cloud Resource Template has parameters whose values you want displayed to students, or whose values must be set when the Cloud Resource Template is added to a lab profile, click the **Parameters** tab. From this tab you can either add individual template parameters by clicking the **Add Template Parameter** button, or you can add a set of template parameters by clicking the **Import From JSON** button to import a JSON document that defines the parameters. In either case, you will end up with one or more parameters defined for your Cloud Resource Template. Each parameter has the following properties:
 
    | **Property Name**      | **Description**                          |
    | ---------------------- | ---------------------------------------- |
@@ -197,7 +197,7 @@ The first step is to define a Cloud Resource Group. Click **Add Cloud Resource G
 | ---------------------- | ---------------------------------------- |
 | **Name Prefix**        | This is the prefix that will be applied to the resource group when it is created. All resource groups are created using the name prefix, followed by the lab instance id, and then the lab profile id. |
 | **Region**             | Indicates the region where the resource group will be created. |
-| **Permisisons**             | Select the permission level of the user account(s) added. Select the user, and then select the permission level to be given to that user.
+| **Permissions**             | Select the permission level of the user account(s) added. Select the user, and then select the permission level to be given to that user.
 ||Reader: read-only access|
 ||Contributor: read-write access |
 ||Owner: read-write access with the ability to manage permissions |

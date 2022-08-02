@@ -37,7 +37,7 @@ The table below describes the expected amount of time for replication to be comp
 
 ## Delivery Regions
 
-The list below is all Skillable Delivery Regions. Some regions may not be available to you, based on your organization's settings in Lab on Demand. 
+The list below is all Skillable Delivery Regions. Some regions may not be available to you, based on your organization's settings in Skillable Studio. 
 
 - North America
 - Australia
