@@ -492,6 +492,10 @@ aria-hidden="true">assignment</i>
     <div class="moreInfo" tabindex="0" title="Returning Customer?">
       <span class="moreInfo_header">Returning Customer?</span>
       If you have purchased Skillable labs before through the Courseware Marketplace, read the <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started-returning-customers.md">Getting Started for Returning Customers</a> article first, then review the following topics/processes to access and manage your orders.
+      </div>
+    <div class="moreInfo" tabindex="0" title="Expiration on Purchased Labs">
+      <span class="moreInfo_header">Expiration of Purchased Labs</span>
+      Skillable labs purchased through the Courseware Marketplace may be assigned to users up to 180 days after the purchase date. They are invalid after this time period.
     </div>
     <div class="moreInfo" tabindex="0" title="Meet Virtually">
       <span class="moreInfo_header">Meet Virtually</span>

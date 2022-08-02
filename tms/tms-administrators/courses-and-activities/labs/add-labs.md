@@ -19,12 +19,12 @@ To add a lab to your course:
 Each lab activity has the following fields you can set for more control over that activity.
 - **Availability** dropdown - limits who can view and launch the lab activity. It defaults to Everyone but you can limit it to Instructors only if the activity is not intended for student consumption. When **Everyone** is selected the **Assign to Students Manually** option displays.
 - **Required for course completion** - requires a student to complete the lab for the course assignment or class enrollment to be marked **Complete**.
-- **Available Instructor-Led** - makes the activity visible in classes and class enrollments.
-- **Available Self-Paced** - makes the activity visible in course assignments.
-- **Allow Retakes** - controls whether the student is able to launch the lab again after completing it.
-- **Allow Multiple Attempts** - allows unlimited lab launches by learner.
-  - **Limit Attempts** - set the number of times a learner can launch the lab.
-- **Assign to Students Manually** - gives class instructors the ability to assign the activity to individual students in a class.
+- **Available Instructor-Led** - makes the activity visible in classes and class enrollments
+- **Available Self-Paced** - makes the activity visible in course assignments
+- **Allow Retakes** - controls whether the student is able to launch the lab again after completing it
+- **Allow Multiple Attempts** - allows unlimited lab launches by learner
+  - **Limit Attempts** - set the number of times a learner can launch the lab
+- **Assign to Students Manually** - gives class instructors the ability to assign the activity to individual students in a class
 
 ## Related Articles
 For more information regarding lab activities, please see:

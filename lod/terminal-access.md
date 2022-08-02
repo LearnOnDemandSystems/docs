@@ -103,7 +103,7 @@ SSH configuration may need to be modified to enable password authentication or r
 
 1. Make sure the SSH service auto boots. On most versions of Linux can be done by entering the following command: ```sudo systemctl enable ssh```.
 
-1. Start the service with the following command: ```sudo systemctl startssh```.
+1. Start the service with the following command: ```sudo systemctl start ssh```.
 
 1. Once this is done, capture a differencing disk. 
 

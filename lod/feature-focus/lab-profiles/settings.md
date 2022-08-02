@@ -28,7 +28,7 @@
 1. **Development Status:** Used to show lab profile development status. (In Development, Awaiting Verification, In Verification, Verification Failed, Complete.) Lab profiles in _Complete_ Development Status will be available for use, other development status' will only be available to registered lab developers. 
 1. **Duration:** The expected amount of time it will take a user to complete the lab. After setting the duration, the maximum duration of the lab will be will be set to 150% of the duration. 
 1. **Prompt user to extend time** by `X` Minutes when `X` Minutes Remain: automatically prompt the user to extend the lab time by a specified amount of time when a specified amount of time is remaining. 
-1. **Language:** The language that the lab UI will be displayed in. This will not change the language displayed in the OS of any virtual machines used unless the virtual machine was configured to display a specific language. Language options include: Chinese (simplified), English, French, German, Japanese, Korean, Portuguese, and Spanish.  
+1. **Language:** The language that the lab UI will be displayed in. This will not change the language displayed in the OS of any virtual machines used unless the virtual machine is configured to display a specific language. Language options include: Chinese (simplified), English, French, German, Japanese, Korean, Portuguese, and Spanish.  
 1. **Level:** Sets the Level for the lab; this can be 100, 200, 300, or 400. 
 1. **Evaluation:** Click to add an Evaluation to the lab profile. The Evaluation must already be created to add it to the lab profile using this button.
 1. **Advertising Campaign:** Used to show introductory content while the lab is loading. This can be a video, PowerPoint presentation or anything accessible by a URL. 
@@ -321,6 +321,12 @@ For more information about Action and Event types, please see our [Life Cycle Ac
 1. **End Redirect URL:** If this value is set, users will be redirected to the specified URL when the lab ends. This feature isn't used often, but can help a lab fit into an external workflow. 
 
 1. **Max Active Instance:** This sets the amount of concurrent labs that can be launched at a time. Setting to _Unlimited_ allows an unlimited amount of launches of this lab profile at a time. Entering a number limits the amount of concurrent labs to the number specified. Any labs that are attempted to be launched after the limit has been met, will be given an error message and will not be able to launch the lab until the number of labs launched is below the maximum amount.
+
+1. **Max Allowed Build Time:** The maximum amount of time for the lab to build. Once the configured maximum amount of time has elapsed, the lab will be set to the option selected in the next field, even if the lab has not completed building. The default max build time is 30 minutes for labs that only use Hyper-V or ESX virtual machines, and 60 minutes for labs with a cloud configuration. If a lab contains Hyper-V or ESX virtual machines and a cloud configuration, the max build time will default to 60 minutes. The build time can be set anywhere from 1 minute to 24 hours. 
+
+    Once the maximum build time has elapsed, options include: 
+    - Mark as Running: the lab instance state will be set to _Running_ and the lab user will be given access to the lab.
+    - Cancel and Teardown: the lab will be cancelled and all VM and/or cloud resources will be torn down. 
 
 1. **Show Timer:** Checking this box will enable the lab to display a countdown timer, showing the user how much time they have left to complete the lab. 
 
