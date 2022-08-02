@@ -26,10 +26,10 @@ Once you have set up the Shared Environment, you need to designate which lab pro
 
 ## Create the course in the LMS
 
-Notify the Skillable Course Requests Team at https://lod.one/help to set up the course. Specify the following information:
+Notify the Skillable Course Requests Team at https://skill.info/support to set up the course. Specify the following information:
 
 - Name of course
-- Name of Lab Series in LOD
+- Name of Lab Series in Skillable Studio
 - Name of Participant labs to add as Lab Activities to the course.
 
 >[!KNOWLEDGE] Shared - Environment labs do not need to be added to the course.

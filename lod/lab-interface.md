@@ -101,7 +101,7 @@ Within the lab interface, some buttons expand to display a menu of options.
 
 ![Developer menu](images/developer-menu.png)
 
-1. **Install Integration Service**: This installs the Lab on Demand Integration Service. This allows automatic screen resizing (limited resolutions)
+1. **Install Integration Service**: This installs the Skillable Studio Integration Service. This allows automatic screen resizing (limited resolutions)
  and executing UI commands within a virtual machine. 
 ### Hamburger Menu 
 

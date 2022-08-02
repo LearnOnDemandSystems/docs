@@ -91,7 +91,7 @@ AWS denies all resources by default. AWS ACPs can be designed to only allow spec
 If a lab has or inherits a Life Cycle Action that does **any** of the following:
 - Creates a new Resource Group
 - Modifies user permissions
-- Removes or modifies the "LOD Policy Set" on Azure
+- Removes or modifies the "Skillable Studio Policy Set" on Azure
 
 then it may be considered **High Risk**.
 
@@ -108,7 +108,7 @@ Labs with a High risk security status are extremely vulnerable to abuse.
 A lab qualifies as **High Risk** if ANY of the following are true:
 
     Life Cycle Actions:
-        • Azure Only - Remove or modify in any way the "LOD Policy Set".
+        • Azure Only - Remove or modify in any way the "Skillable Studio Policy Set".
     Access Control Policies:
         • Lab is open to all VMs/containers without limits.
         • Lab is open to VMs/containers of more than 4 sizes and are only limited by SKU.
@@ -126,7 +126,7 @@ A lab is **Medium Risk** if ALL of the following are true:
 
     Life Cycle Actions:
         • Do not modify user roles or permissions in any way.
-        • Azure Only - Do not Remove or modify in any way the "LOD Policy Set".
+        • Azure Only - Do not Remove or modify in any way the "Skillable Studio Policy Set".
 
 **and** ANY of the following:
 
@@ -155,7 +155,7 @@ ALL of the following:
 
     Life Cycle Actions:
         Do not modify user roles or permissions in any way.
-        Azure Only - Do not Remove or modify in any way the "LOD Policy Set".
+        Azure Only - Do not Remove or modify in any way the "Skillable Studio Policy Set".
     Access Control Policies:
         Lab is limited to only the resources that it requires.
         Azure Only - SQL Servers are completely denied.

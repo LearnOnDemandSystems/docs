@@ -28,7 +28,7 @@ To edit a Credential Pool, select the **Edit** button in the upper-right corner 
 
 ### Basic Information  
 
-1. **Name**: The name of the pool, as shown in Lab on Demand administration pages. 
+1. **Name**: The name of the pool, as shown in Skillable Studio administration pages. 
 1. **Display Name**: The display name will be shown in the lab instructions, to lab users.
 1. **Description**: A description of the credentials in the pool. 
 1. **Organization**: Select the organization with access to manage the pool.
@@ -78,7 +78,7 @@ Credentials can be added from the details page of the credential pool. The prope
 
 ### Move Credentials 
 
-Credentials can be moved from a Credential Pool, to another Credential Pool in Lab on Demand. 
+Credentials can be moved from a Credential Pool, to another Credential Pool in Skillable Studio. 
 
 1. Select **Move Credentials** at the top of the page. 
 

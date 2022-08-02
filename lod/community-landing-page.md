@@ -1,4 +1,4 @@
-# Lab on Demand Author Community
+# Skillable Studio Author Community
 
 ## Join our new Slack community to engage with other lab authors.  Get help from fellow authors with discussions, suggestions and announcements.
 

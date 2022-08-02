@@ -5,7 +5,7 @@ isPublished: true
 ---
 
 # Cloud Security Review
-Labs that use cloud orchestration are require a **Cloud Security Review** before they are available outside Lab On Demand. Until this review is completed, cloud labs cannot be launched via the Training Management System (TMS), API, LTI, or any other methods outside of the Lab On Demand interface.
+Labs that use cloud orchestration are require a **Cloud Security Review** before they are available outside of Skillable Studio. Until this review is completed, cloud labs cannot be launched via the Training Management System (TMS), API, LTI, or any other methods outside of the Skillable Studio interface.
 
 ## Table of Contents 
 
@@ -25,7 +25,7 @@ If a Lab Profile...
    **and**
 3. Has a non-exempt Access Control Policy ([Click here](../create-a-restriction-policy.md) to find out which policies are exempt.)
 
-...then LOD will automatically flag that Lab Profile for Security Review. 
+   ...then Skillable Studio will automatically flag that Lab Profile for Security Review. 
 
 ## What is a Security Review
 

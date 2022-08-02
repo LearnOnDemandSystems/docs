@@ -122,7 +122,7 @@ To Remove a Start State:
 
 For complex labs, the boot sequence must account for dependencies between lab components. This is important so that components that depend on other components are put into place at the proper time in the boot sequence. 
 
-In Lab on Demand, there are options to control how VMs start. These options can be found on the Virtual Machines tab of a lab profile.
+In Skillable Studio, there are options to control how VMs start. These options can be found on the Virtual Machines tab of a lab profile.
 
 ![VM Configuration](images/vm-configuration.png){800}
 

@@ -2,13 +2,13 @@
 
 [Return to the Cloud Slice guide][back]
 
-This document explains how to give the OneLearn Lab on Demand platform permissions to each Microsoft Azure subscription that it will use, enabling labs to use those subscriptions when creating Cloud Slices.
+This document explains how to give the Skillable Studio platform permissions to each Microsoft Azure subscription that it will use, enabling labs to use those subscriptions when creating Cloud Slices.
 
 ## Enable Cloud Slice support in your Microsoft Azure subscription(s)
 
-In Microsoft Azure, an application registration is used to create the subscription and resources contained in each Cloud Slice and to provide students with the user account that they will use to manage that subscription for the duration of their lab. In order to make this possible, this application registration must be configured as owner over each Azure subscription from which it will create each Cloud Slice subscription that is needed. You only need one Azure Subscription to be able to use Cloud Slice functionality in a lab; however, using multiple Azure subscriptions will give you the benefit of automatic load balancing of a lab across a pool of Azure subscriptions. As a best practice, the Azure subscriptions that you grant OneLearn Lab on Demand access to should only be used for the provisioning of Cloud Slices.
+In Microsoft Azure, an application registration is used to create the subscription and resources contained in each Cloud Slice and to provide students with the user account that they will use to manage that subscription for the duration of their lab. In order to make this possible, this application registration must be configured as owner over each Azure subscription from which it will create each Cloud Slice subscription that is needed. You only need one Azure Subscription to be able to use Cloud Slice functionality in a lab; however, using multiple Azure subscriptions will give you the benefit of automatic load balancing of a lab across a pool of Azure subscriptions. As a best practice, the Azure subscriptions that you grant Skillable Studio access to should only be used for the provisioning of Cloud Slices.
 
-To enable Cloud Slice support, you must perform the following tasks once in each Microsoft Azure subscription that you want to use with OneLearn Lab on Demand:
+To enable Cloud Slice support, you must perform the following tasks once in each Microsoft Azure subscription that you want to use with Skillable Studio:
 
 1. [Create a new application registration in Azure Active Directory with a specific set of permissions][create-app-registration].
 2. [Create an API key for the application registration and record subscription authentication details][create-api-key-and-record-authentication-details].
@@ -69,7 +69,7 @@ Click on the **Grant Permissions** button to grant the new permissions to the ap
 
 ### Create an API key for the application registration and record authentication details
 
-Now that you have the application registration created, and now that you have assigned appropriate directory permissions for that application registration, you need to create an API key for the application registration, and record it for later. You will also need to record the application registration's application id, the id of the Azure subscription that will be used to provision Cloud Slices, and the Azure Active Directory domain name (this is commonly referred to as your tenant name). These four pieces of information are required by the OneLearn Lab on Demand authentication process in order for it to be able to provision Cloud Slices for your labs in this Azure subscription.
+Now that you have the application registration created, and now that you have assigned appropriate directory permissions for that application registration, you need to create an API key for the application registration, and record it for later. You will also need to record the application registration's application id, the id of the Azure subscription that will be used to provision Cloud Slices, and the Azure Active Directory domain name (this is commonly referred to as your tenant name). These four pieces of information are required by the Skillable Studio authentication process in order for it to be able to provision Cloud Slices for your labs in this Azure subscription.
 
 #### Create application registration API key
 
@@ -114,7 +114,7 @@ To copy the Azure Active Directory domain name, do the following:
 Once you have created the application registration and assigned appropriate directory permissions for that application registration, you need to add it as an owner of the Azure subscription from which you want to provision Cloud Slices. This can be done from within the <a href="https://portal.azure.com/" target="_blank">Microsoft Azure Portal</a>, by following these steps:
 
 1. Open the **Subscriptions** service.
-2. Select the Azure subscription from which OneLearn Lab on Demand will create Cloud Slices.
+2. Select the Azure subscription from which Skillable Studio will create Cloud Slices.
 3. Click on **Access control (IAM)** to open the identity and access management options for the subscription.
 4. Click on the **Add** button to add permissions to the subscription.
 5. In the **Role** drop down list, ensure that Owner is selected.
@@ -225,7 +225,7 @@ You should also have captured the following pieces of information for each Azure
 - Azure application registration application ID
 - Azure application registration API key
 
-These values are required for the OneLearn Lab on Demand platform to be able to provision Cloud Slices for your labs. If you are missing one or more of those values, or if you feel you did not complete one of the tasks listed above, review the steps in this document to find out what you missed.
+These values are required for the Skillable Studio platform to be able to provision Cloud Slices for your labs. If you are missing one or more of those values, or if you feel you did not complete one of the tasks listed above, review the steps in this document to find out what you missed.
 
 [Back to top][back-to-top]
 

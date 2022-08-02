@@ -3,7 +3,7 @@
 # Create a Cloud Subscription
 Cloud Subscriptions are used to configure labs to utilize cloud environments, including cloud resources. 
 
-1. To **create a Cloud Subscription**, click on **Cloud Subscriptions** from the Lab on Demand Administration page. 
+1. To **create a Cloud Subscription**, click on **Cloud Subscriptions** from the Skillable Studio Administration page. 
 
 1. Next, click **Create Cloud Subscription** in the upper-right corner of the page. 
 
@@ -17,7 +17,7 @@ Cloud Subscriptions are used to configure labs to utilize cloud environments, in
 
 1. **Description**: Text used to describe the managed Cloud Subscription that you are setting up.
 
-1. **Organization**: The organization in LOD where the managed Cloud Subscription will be used.
+1. **Organization**: The organization in Skillable Studio where the managed Cloud Subscription will be used.
 
 1. **Cloud Subscription Pool**: Choose the Cloud Subscription Pool you wish to use with the Cloud Subscription.
 

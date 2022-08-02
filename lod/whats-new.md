@@ -6,7 +6,7 @@
    <a href="https://www.skillable.com/roadmap-updates-form/">Subscribe to Receive Email Notifications about Platform and Service Updates</a>
 </div>
 
-# What's New in Lab On Demand
+# What's New in Skillable Studio
 
 What's new? 
 Glad you asked. 

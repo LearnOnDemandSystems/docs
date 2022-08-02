@@ -1,10 +1,10 @@
-## Lab on Demand Terminology and Guidelines for Building a Lab
+## Skillable Studio Terminology and Guidelines for Building a Lab
 
-When building labs in Skillable, you need to know the LOD terminology used for the pieces or components of the lab and guidelines for determining what you will need. At the end of this article are the links to help you build the main components.
+When building labs in Skillable, you need to know the Skillable Studio terminology used for the pieces or components of the lab and guidelines for determining what you will need. At the end of this article are the links to help you build the main components.
 
 ###  Required components
 
-- **Lab Series**: A Lab Series is the identifier for a related group of lab components that will comprise your lab(s). It is used in Searches, filters, and other locations within LOD to find these components. It is also used by other programs to identify the group of components. You should build this first in LOD.
+- **Lab Series**: A Lab Series is the identifier for a related group of lab components that will comprise your lab(s). It is used in Searches, filters, and other locations within Skillable Studio to find these components. It is also used by other programs to identify the group of components. You should build this first in Skillable Studio.
 
 - **Lab Profile**: A Lab Profile is the component or vehicle that provides your users with the lab interface that they will interact with and other optional components. You may have one or more Lab Profiles associated to a Lab Series.
 
@@ -14,7 +14,7 @@ See the [Guidelines](#guidelines) section for help determining how many Lab Seri
 
 - **VM Profile**: Contains specifics about one virtual machine including RAM, screen resolution, number of hard disks, operating system, etc. In each Lab Profile, you will associate all the VM Profiles for the virtual machines the user will need for that launched lab. The Lab Series should be set in each VM Profile to ensure it is easy to find and associate with Lab Profiles. A VM Profile can be associated with  more than one Lab Profile. 
 
-- **Removeable Media**: Contains specifics about an ISO or a floppy disk that is stored in LOD storage. In each Lab Profile, you will associate all the Removeable Media profiles the user will need in that launched lab. The Lab Series should be set in each Removable Media profile to ensure it is easy to find and associate with Lab Profiles. A Removable Media profile can be associated with more than one Lab Profile. 
+- **Removeable Media**: Contains specifics about an ISO or a floppy disk that is stored in Skillable Studio storage. In each Lab Profile, you will associate all the Removeable Media profiles the user will need in that launched lab. The Lab Series should be set in each Removable Media profile to ensure it is easy to find and associate with Lab Profiles. A Removable Media profile can be associated with more than one Lab Profile. 
 
 - **Content**: Contains the lab instructions provided within a launched lab for a user to complete. Content replaces the need for a separate manual for the user to follow to complete instructions in the lab. Content is a sub-component of a Lab Profile and does not have it's own separate container. 
 
@@ -31,7 +31,7 @@ See the [Guidelines](#guidelines) section for help determining how many Lab Seri
 
 When you are planning how to design your structure, you should consider the following:
 
-1. Do you have more than one general topic, course, presentation, etc. that you want to use LOD for? 
+1. Do you have more than one general topic, course, presentation, etc. that you want to use Skillable Studio for? 
 
     >[!KNOWLEDGE] You should build one Lab Series for each general topic, course, presentation, etc. This will make it easy to identify all the components that will be used for that topic, course, etc.
 

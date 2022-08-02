@@ -13,14 +13,14 @@
     4. Ensure to add the new document in A-Z index
 -->
 
-<div class="categoriesHeader" tabindex="0" title="LOD Admin Docs Container">Administration</div>
+<div class="categoriesHeader" tabindex="0" title="Skillable Studio Admin Docs Container">Administration</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div id="header_1" class="subtopic_header" tabindex="0" title="LOD Admin Docs" role="button" aria-selected="true" selected>Lab on Demand Administration</div>
+    <div id="header_1" class="subtopic_header" tabindex="0" title="Skillable Studio Admin Docs" role="button" aria-selected="true" selected>Skillable Studio Administration</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/lod/feature-focus/lod-experience.md">
-        <div class="subtopic_title">Introduction to Lab on Demand UI</div>
-        <div class="subtopic_description">Explanation of Lab on Demand UI.</div>
+        <div class="subtopic_title">Introduction to Skillable Studio UI</div>
+        <div class="subtopic_description">Explanation of Skillable Studio UI.</div>
       </a>
       <a class="subtopic_link" href="/lod/cloud-credential-pool.md">
         <div class="subtopic_title">Cloud Credential Pools</div>
@@ -40,7 +40,7 @@
       </a>
       <a class="subtopic_link" href="/lod/lab-interface-faq.md">
         <div class="subtopic_title">Lab Interface Frequently Asked Questions</div>
-        <div class="subtopic_description">Frequently asked questions about the Lab on Demand lab interface.</div>
+        <div class="subtopic_description">Frequently asked questions about the Skillable Studio lab interface.</div>
       </a>
       <a class="subtopic_link" href="/lod/feature-focus/lab-profiles/create.md">
         <div class="subtopic_title">Lab Profile Creation and Explanation</div>
@@ -68,11 +68,11 @@
       </a>
       <a class="subtopic_link" href="/lod/platform-terminology.md">
         <div class="subtopic_title">Platform Terminology</div>
-        <div class="subtopic_description">Explanation of terminology used in Lab on Demand.</div>
+        <div class="subtopic_description">Explanation of terminology used in Skillable Studio.</div>
       </a>
       <a class="subtopic_link" href="/lod/publish-lab-series.md">
         <div class="subtopic_title">Publishing a Lab Series to Production</div>
-        <div class="subtopic_description">This document describes the process of moving labs from Development to Production in Lab on Demand.</div>
+        <div class="subtopic_description">This document describes the process of moving labs from Development to Production in Skillable Studio.</div>
       </a>
       <a class="subtopic_link" href="/lod/skillable-enhanced-account-security.md">
         <div class="subtopic_title">Skillable Enhanced Account Security</div>

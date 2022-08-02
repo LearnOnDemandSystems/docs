@@ -21,4 +21,4 @@ Once you are logged into the TMS, you may change your password from your user pr
 1. Click **OK**
 1. Click **OK** to close the dialog stating that your password was successfully changed
 
-> :small_blue_diamond: Please note: Your password can be changed in Lab on Demand, using the same steps.
+> :small_blue_diamond: Please note: Your password can be changed in Skillable Studio, using the same steps.

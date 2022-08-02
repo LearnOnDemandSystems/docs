@@ -43,9 +43,9 @@ x = datetime.datetime.now()
 print(x)
 ```
 
-## Interacting with Lab on Demand
+## Interacting with Skillable Studio
 
-Your scripts can communicate success or failure to LOD in one of two ways.
+Your scripts can communicate success or failure to Skillable Studio in one of two ways.
 
 ### Return a Boolean value 
 

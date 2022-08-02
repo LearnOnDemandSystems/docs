@@ -1,8 +1,8 @@
 # PowerShell 7.1.3 with AWS.Tools 4.1.10.0
 
-## Interacting with Lab on Demand
+## Interacting with Skillable Studio
 
-Your scripts can communicate success or failure to LOD in one of two ways.
+Your scripts can communicate success or failure to Skillable Studio in one of two ways.
 
 ### Return a Boolean value 
 

@@ -1,7 +1,7 @@
 {
 	"info": {
 		"_postman_id": "8181f66c-7f5d-42ea-a2f3-11a3a066e842",
-		"name": "Lab on Demand Postman Collection",
+		"name": "Skillable Studio Postman Collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -460,7 +460,7 @@
 						{
 							"key": "AvailableLabs",
 							"value": "17390",
-							"description": "An optional array of lab profile IDs. When provided, Lab on Demand will know that these labs are available within the class. You do not need to set this value in order to launch labs against the class. This is useful when using Lab on Demand to display a class attendance page, or when consuming shared class environments and you want the shared environment launch link to appear on the class monitor page."
+							"description": "An optional array of lab profile IDs. When provided, Skillable Studio will know that these labs are available within the class. You do not need to set this value in order to launch labs against the class. This is useful when using Skillable Studio to display a class attendance page, or when consuming shared class environments and you want the shared environment launch link to appear on the class monitor page."
 						},
 						{
 							"key": "AvailableLabs",
@@ -660,12 +660,12 @@
 						{
 							"key": "ipAddress",
 							"value": "1.1.1.1",
-							"description": "When specified, Lab on Demand will attempt to launch the lab in the closest available delivery region. You should provide the IP address of the user that is taking the lab, not the IP address of your system."
+							"description": "When specified, Skillable Studio will attempt to launch the lab in the closest available delivery region. You should provide the IP address of the user that is taking the lab, not the IP address of your system."
 						},
 						{
 							"key": "regionId",
 							"value": "1",
-							"description": "When specified, Lab on Demand will attempt to launch the lab in the specified delivery region. Delivery regions can be found using the DeliveryRegions command or Catalog command."
+							"description": "When specified, Skillable Studio will attempt to launch the lab in the specified delivery region. Delivery regions can be found using the DeliveryRegions command or Catalog command."
 						},
 						{
 							"key": "roleId",
@@ -764,12 +764,12 @@
 						{
 							"key": "ipAddress",
 							"value": "1.1.1.1",
-							"description": "When specified, Lab on Demand will attempt to launch the lab in the closest available delivery region. You should provide the IP address of the user that is taking the lab, not the IP address of your system."
+							"description": "When specified, Skillable Studio will attempt to launch the lab in the closest available delivery region. You should provide the IP address of the user that is taking the lab, not the IP address of your system."
 						},
 						{
 							"key": "regionId",
 							"value": "1",
-							"description": "When specified, Lab on Demand will attempt to launch the lab in the specified delivery region. Delivery regions can be found using the DeliveryRegions command or Catalog command."
+							"description": "When specified, Skillable Studio will attempt to launch the lab in the specified delivery region. Delivery regions can be found using the DeliveryRegions command or Catalog command."
 						}
 					]
 				},
@@ -1116,7 +1116,7 @@
 						{
 							"key": "AvailableLabs",
 							"value": "17390",
-							"description": "An optional array of lab profile IDs. When provided, Lab on Demand will know that these labs are available within the class. You do not need to set this value in order to launch labs against the class. This is useful when using Lab on Demand to display a class attendance page, or when consuming shared class environments and you want the shared environment launch link to appear on the class monitor page."
+							"description": "An optional array of lab profile IDs. When provided, Skillable Studio will know that these labs are available within the class. You do not need to set this value in order to launch labs against the class. This is useful when using Skillable Studio to display a class attendance page, or when consuming shared class environments and you want the shared environment launch link to appear on the class monitor page."
 						},
 						{
 							"key": "AvailableLabs",

@@ -41,7 +41,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div id="header_1" class="subtopic_header" tabindex="0" title="Lab on Demand Configuration Docs" role="button" aria-selected="false">Lab on Demand Configuration</div>
+    <div id="header_1" class="subtopic_header" tabindex="0" title="Skillable Studio Configuration Docs" role="button" aria-selected="false">Skillable Studio Configuration</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/lod/access-control-lists.md">
         <div class="subtopic_title">Access Control Lists</div>

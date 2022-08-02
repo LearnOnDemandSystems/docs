@@ -68,7 +68,7 @@ created by an operations manager or requested through our TMS administrative tea
 
 1.  Name of course
 
-2.  Name of Lab Series in LOD
+2.  Name of Lab Series in Skillable Studio
 
 3.  Name of Participant labs to add as Lab Activities to the course.
     Note: Shared Environment labs do not need to be added to the course.

@@ -44,7 +44,7 @@ All other trademarks are property of their respective owners.
 
 
 This guide provides information on building Performance-Based Testing
-(PBT) exam labs in Lab on Demand.
+(PBT) exam labs in Skillable Studio.
 
 **Intended Audience**
 
@@ -59,13 +59,13 @@ This guide assumes that the reader:
     contract work.
 
 The guide further assumes that the reader has knowledge of how to build
-labs in LOD and knowledge of performance-based testing design.
+labs in Skillable Studio and knowledge of performance-based testing design.
 
 -->
 
 **Getting Started**
 
-Lab on Demand supports performance-based exams in addition to Integrated
+Skillable Studio supports performance-based exams in addition to Integrated
 Digital Lab (IDL) content. Our Performance Based Testing platform
 enables you to create multiple types of assessments including automated
 VM Scoring of Windows and Linux, scoring of Azure subscription
@@ -88,7 +88,7 @@ page, click Create Exam on the Exams tile.
 
 Once you have marked the lab as an exam, you will be presented with new
 options regarding the type of scoring the lab will use. There are
-currently three types of scoring exams available in LOD:
+currently three types of scoring exams available in Skillable Studio:
 
 -   Assessment – Used for multiple choice exams and is fully automated.
 
@@ -341,9 +341,9 @@ someone to grade it; it uses scripts to check if the user manipulated
 the environment as directed. It is graded automatically upon submission
 for grading. One major difference however is that for the scoring
 scripts to work, the VMs in the exam that the scripts will run against
-*must* have the LOD integration service installed on them.
+*must* have the Skillable Studio integration service installed on them.
 
-**Installation of LOD Integration Service on VMs**
+**Installation of Skillable Studio Integration Service on VMs**
 
 This service should be installed before you build your exam questions.
 To do this follow these steps after you have created the lab profile,

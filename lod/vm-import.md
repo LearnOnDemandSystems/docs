@@ -14,6 +14,6 @@ Hyper-V on Windows 10 or Server 2016 has different VM Configuration Versions dep
 
 <sup>1</sup> To ensure the best compatibility, we recommend using the latest editions of software. Successful import of VMs from earlier editions is not guaranteed.
 
-<sup>2</sup> This applies to VMs uploaded to FTP or shipped via drive. For VMs uploaded through the LOD web interface, disk-only is the only supported method, and the disks must be in the correct format (.vhd/.vhdx for Hyper-V, ESXi format .vmdk for ESX).
+<sup>2</sup> This applies to VMs uploaded to FTP or shipped via drive. For VMs uploaded through the Skillable Studio web interface, disk-only is the only supported method, and the disks must be in the correct format (.vhd/.vhdx for Hyper-V, ESXi format .vmdk for ESX).
 
 If you have VM in a format not listed, from a hypervisor not listed, or have any questions please [contact support](https://www.learnondemandsystems.com/customer-support/).

@@ -5,7 +5,7 @@ This guide will walk you through how to create Life Cycle Actions in a lab. In t
 - **Send Web Request** – Like the Service URLs in the past, calls an external service URL.The information that is sent is based on that URL, the verb used to send the information, and the receiving API.
 - **Send Notification to User**– Uses the Send Notification functionality to send information to the lab user in the form of a toast notification in the lab interface.
 - **Send E-mail to User** – Sends an e-mail to the lab user. The subject and content of the e-mail will be the same for each lab user.
-- **Execute Machine Command** – Like the Command field on lab steps. It requires the lab user to be logged into a virtual machine that has the Lab on Demand integration service installed. It runs a machine command on the active machine.
+- **Execute Machine Command** – Like the Command field on lab steps. It requires the lab user to be logged into a virtual machine that has the Skillable Studio integration service installed. It runs a machine command on the active machine.
 
 Each of these actions have different events and fields related to them. Currently there are 10 overall events:
 
@@ -28,7 +28,7 @@ To add Life Cycle Action to your lab profile, follow these steps for every Actio
 2. From the **Action Type** dropdown, select the action you want performed.
 3. From the **Event** dropdown, select the event when you want the Action to be triggered.
 4. In the **Delay** box, set the number of seconds after the Life Cycle Event occurs that the Action should trigger, if wanted.
-5. In the **Error Action** dropdown, select the type of action to LOD will take if an error occurs.
+5. In the **Error Action** dropdown, select the type of action to Skillable Studio will take if an error occurs.
    1. If you select **Notify User** as the **Error Action**, an **Error Notification** field will appear. Type the text the user will receive in the Notifications toast notification in the lab interface.
 6. Uncheck **Enabled** if necessary.
 7. Click **OK** to add the **Life Cycle Action**.
@@ -95,7 +95,7 @@ Once you have added Life Cycle Actions to your lab, navigate to [Manage Life Cyc
 
 ## Execute Machine Command
 
-The Execute Machine Command action can only be triggered by the Running, IP Addresses Assigned, and Resumed events. For the command to run successfully, the user must be logged into the virtual machine and the machine must have the Lab on Demand integration service installed. Because the user must be logged in, we recommend only using this feature when the lab is resumed or launched from a saved state.
+The Execute Machine Command action can only be triggered by the Running, IP Addresses Assigned, and Resumed events. For the command to run successfully, the user must be logged into the virtual machine and the machine must have the Skillable Studio integration service installed. Because the user must be logged in, we recommend only using this feature when the lab is resumed or launched from a saved state.
 
 1.   From the **Machine **dropdown, select the VM on which you want the command to run.
 2.   From the **Command Type** dropdown, select the type of command:

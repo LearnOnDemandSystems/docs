@@ -50,7 +50,7 @@ Optional fields:
 
 *	**Search Keywords** – Add words to use to find the subscription from Find Subscription Profiles.
 
-*	**Auto-Assignment Lab Tags** – This field works in conjunction with a feature in LOD. Organizations creating their own lab content can apply lab tags on their lab and the same tags in this field to auto-publish a course and have it automatically added to a subscription.
+*	**Auto-Assignment Lab Tags** – This field works in conjunction with a feature in Skillable Studio. Organizations creating their own lab content can apply lab tags on their lab and the same tags in this field to auto-publish a course and have it automatically added to a subscription.
 
 *       **Enforce course prerequisites** - Enable this field to require prerequisites set on courses to be enforced for all courses within the subscription.
 

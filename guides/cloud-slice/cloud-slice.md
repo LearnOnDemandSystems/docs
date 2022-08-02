@@ -1,6 +1,6 @@
 ---
 title: "Cloud Slice Setup Guide"
-description: "Comprehensive setup guide for configuring a Cloud Slice lab with Lab on Demand and Microsoft Azure or Amazon Web Services."
+description: "Comprehensive setup guide for configuring a Cloud Slice lab with Skillable Studio  and Microsoft Azure or Amazon Web Services."
 isPublished: true
 ---
 
@@ -10,27 +10,27 @@ This guide will walk you through how to create a lab that provisions dynamically
 
 There are two ways that cloud resources are made available within a Cloud Slice: as managed cloud resources and as unmanaged cloud resources.
 
-Managed cloud resources are cloud resources that are more tightly integrated with the OneLearn Lab on Demand (LOD) user experience. They do not require the definition of Cloud Resource Templates to deploy them into a Cloud Slice, and instead use a more traditional user interface to configure the cloud resource options. At this time there are only two types of managed cloud resources: virtual machines and virtual networks. Managed virtual machines can also be displayed to students as tiles within the LOD UI, allowing students to easily view and interact with the desktop of those machines from directly within LOD.
+Managed cloud resources are cloud resources that are more tightly integrated with the Skillable Studio  user experience. They do not require the definition of Cloud Resource Templates to deploy them into a Cloud Slice, and instead use a more traditional user interface to configure the cloud resource options. At this time there are only two types of managed cloud resources: virtual machines and virtual networks. Managed virtual machines can also be displayed to students as tiles within the Skillable Studio  UI, allowing students to easily view and interact with the desktop of those machines from directly within Skillable Studio .
 
-Unmanaged cloud resources are cloud resources that are created during the deployment of a Cloud Slice as part of a Cloud Resource Template. Unmanaged cloud resources may also include any cloud resources that are created directly by a student or an event within a Cloud Slice. These resources are not directly integrated with the LOD user experience. To view and interact with unmanaged cloud resources, students must use the appropriate portal for the cloud platform that they are using in the lab.
+Unmanaged cloud resources are cloud resources that are created during the deployment of a Cloud Slice as part of a Cloud Resource Template. Unmanaged cloud resources may also include any cloud resources that are created directly by a student or an event within a Cloud Slice. These resources are not directly integrated with the Skillable Studio  user experience. To view and interact with unmanaged cloud resources, students must use the appropriate portal for the cloud platform that they are using in the lab.
 
 The Cloud Slice feature allows you to create labs in the cloud that are pre-configured with compute, networking, and storage cloud resources, and/or that allow students to create their own compute, networking, and storage cloud resources as part of the steps they must complete within that lab. Before adding Cloud Slice support in your labs, there are several tasks you must perform. These tasks are listed below and any optional ones are appropriately marked with "(Optional)". As you work through these tasks, you can use the list below to navigate to the one you are currently working on and then return to the list to continue with another task.
 
 1. [Enable Cloud Slice support on the cloud platform of your choice](#enable-cloud-slice-support-in-your-cloud-platform).
 1. [Configure resource capacity limitations to allow your labs to scale](#configure-resource-capacity-limitations).
 1. [(Optional) Upload any virtual hard disks that you want to use as a template into the appropriate storage container in your cloud platform](#upload-template-vhds-into-your-cloud-platform).
-1. [Setup your cloud subscription(s) in OneLearn Lab on Demand](#setup-your-cloud-subscriptions-in-onelearn-lab-on-demand).
-1. [(Optional) Create a Cloud Resource Template for each template that you want to use during the deployment of your lab(s)](#create-cloud-resource-templates-in-onelearn-lab-on-demand).
+1. [Setup your cloud subscription(s) in Skillable Studio ](#setup-your-cloud-subscriptions-in-lab-on-demand).
+1. [(Optional) Create a Cloud Resource Template for each template that you want to use during the deployment of your lab(s)](#create-cloud-resource-templates-in-lab-on-demand).
 1. [Add Cloud Slice support to your lab profile(s\)](#add-cloud-slice-support-to-your-lab-profiles).
 
 
 ## Enable Cloud Slice support in your cloud platform
 
-To expose the Cloud Slice capability to your lab(s), you must first grant the OneLearn Lab on Demand (LOD) platform access to the cloud platform that your students will be using within your lab(s). The steps required to grant this access depend on the cloud platform that you are working with.
+To expose the Cloud Slice capability to your lab(s), you must first grant the Skillable Studio platform access to the cloud platform that your students will be using within your lab(s). The steps required to grant this access depend on the cloud platform that you are working with.
 
 > #### Lab scalability in a cloud platform
 >
-> LOD will automatically load balance Cloud Slices across the pool of subscriptions that Cloud Slice labs are configured to use. To take advantage of this load balancing functionality so that your cloud resources are managed properly, you may have to repeat several tasks on each cloud platform where you will be provisioning Cloud Slices. You also need to ensure that any limits on resources that are imposed by your cloud platform are configured appropriately to support your lab requirements. The combination of load balancing and appropriately configured resource limits are essential to allow your Cloud Slice labs to scale to support all students registered for your labs. See the documentation specific to the cloud platform you are using for more details on how to set that up.
+> Skillable Studio  will automatically load balance Cloud Slices across the pool of subscriptions that Cloud Slice labs are configured to use. To take advantage of this load balancing functionality so that your cloud resources are managed properly, you may have to repeat several tasks on each cloud platform where you will be provisioning Cloud Slices. You also need to ensure that any limits on resources that are imposed by your cloud platform are configured appropriately to support your lab requirements. The combination of load balancing and appropriately configured resource limits are essential to allow your Cloud Slice labs to scale to support all students registered for your labs. See the documentation specific to the cloud platform you are using for more details on how to set that up.
 
 Select one of the following cloud platforms to learn how you can grant the required access to that platform. If the platform listed is not a hyperlink, that platform is not yet supported for Cloud Slice labs.
 
@@ -56,7 +56,7 @@ Select one of the following cloud platforms to learn how you can request for res
 
 *This is optional and should only be done if you want to include managed virtual machines that are running in your cloud platform within your Cloud Slice lab(s).*
 
-If you want your students to be able to interact with the cloud virtual machines included in your Cloud Slice lab directly from within the OneLearn Lab on Demand (LOD) user experience, you need to include managed cloud virtual machines in your lab. Managed cloud virtual machines are provisioned as part of the Cloud Slice deployment process. They are dynamically created in the cloud platform you are using from a template virtual hard disk that is stored in the master cloud subscription in your subscription pool. The virtual hard disk file that they will access when launched is stored inside of the Cloud Slice. The specific location of the template virtual hard disk and the deployed virtual hard disk are defined using the optional settings on the Storage tab in the master subscription (see the next section, Create a Cloud Subscription...).
+If you want your students to be able to interact with the cloud virtual machines included in your Cloud Slice lab directly from within the Skillable Studio user experience, you need to include managed cloud virtual machines in your lab. Managed cloud virtual machines are provisioned as part of the Cloud Slice deployment process. They are dynamically created in the cloud platform you are using from a template virtual hard disk that is stored in the master cloud subscription in your subscription pool. The virtual hard disk file that they will access when launched is stored inside of the Cloud Slice. The specific location of the template virtual hard disk and the deployed virtual hard disk are defined using the optional settings on the Storage tab in the master subscription (see the next section, Create a Cloud Subscription...).
 
 To prepare for the deployment of managed virtual machines in your Cloud Slice lab, you must upload the template virtual hard disk(s) that will be used by your managed virtual machines into your cloud platform. Select the cloud platform you are using with your lab from the list below to learn how to upload template virtual hard disk(s) into that cloud platform. If the platform listed is not a hyperlink, managed virtual machines are not yet supported on that platform.
 
@@ -66,9 +66,9 @@ To prepare for the deployment of managed virtual machines in your Cloud Slice la
 
 [Back to top][back-to-top]
 
-## Setup your cloud subscription(s) in OneLearn Lab on Demand
+## Setup your cloud subscription(s) in Skillable Studio 
 
-Once you have enabled Cloud Slice support in the cloud platform of your choice (see previous section), you need to create a Cloud Subscription Pool that contains one or more cloud subscriptions in OneLearn Lab on Demand (LOD). Each cloud subscription that you will be managing with this platform must be added to a Cloud Subscription Pool.
+Once you have enabled Cloud Slice support in the cloud platform of your choice (see previous section), you need to create a Cloud Subscription Pool that contains one or more cloud subscriptions in Skillable Studio. Each cloud subscription that you will be managing with this platform must be added to a Cloud Subscription Pool.
 
 Cloud Subscription Pools are used by labs to provision Cloud Slices in a load balanced fashion. As users launch a Cloud Slice lab, they will be given access to a slice of one of the available subscriptions in the subscription pool associated with the lab. Even if you are only using one managed Cloud Subscription, you still must create a Cloud Subscription Pool. This setup allows you to add additional subscriptions to your subscription pool later, at which point you will gain the benefits of the load balancing support that the platform provides.
 
@@ -76,17 +76,17 @@ Load balancing evenly distributes Cloud Slices across subscriptions in a Cloud S
 
 The first Cloud Subscription you add to a Cloud Subscription Pool is the master Cloud Subscription for that pool. The master subscription is the subscription that is used when creating managed virtual machines in Cloud Slices from template virtual hard disk files that are in the master subscription. 
 
-To create a cloud subscription pool and configure it in LOD, select the cloud platform you are using with your lab from the list below to learn how to create and configure a subscription pool for use with that cloud platform. 
+To create a cloud subscription pool and configure it in Skillable Studio, select the cloud platform you are using with your lab from the list below to learn how to create and configure a subscription pool for use with that cloud platform. 
 
 1. [Microsoft Azure](/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md)
 1. [Amazon Web Services](/guides/cloud-slice/AWS/aws-setup-cloud-sub-pool-in-lod.md)
 1. Google Cloud Platform (coming soon)
 
-## Create Cloud Resource Templates in OneLearn Lab on Demand   
+## Create Cloud Resource Templates in Skillable Studio    
 
-When you create a Cloud Slice lab, you can provide students with an empty cloud subscription from which to work, or a cloud subscription that includes resources that were provisioned when the student launched their lab. In order to set up the latter, you must define Cloud Resource Templates within OneLearn Lab on Demand (LOD) that you will later include in one or more lab profiles.
+When you create a Cloud Slice lab, you can provide students with an empty cloud subscription from which to work, or a cloud subscription that includes resources that were provisioned when the student launched their lab. In order to set up the latter, you must define Cloud Resource Templates within Skillable Studio that you will later include in one or more lab profiles.
 
-A Cloud Resource Template contains a template document that defines the resources that will be deployed in a Cloud Slice along with some parameter metadata. This metadata configures how parameters within that template document will be exposed to a lab profile. Each cloud platform uses a different template format. In Microsoft Azure, Azure Resource Manager (ARM) templates are used to deploy resources into an Azure subscription. In Amazon Web Services, CloudFormation templates are used. Cloud Deployment Manager templates do the same thing in the Google Cloud Platform. Regardless of which cloud platform you use, you need to create Cloud Resource Templates in LOD if you want to provision cloud resources as part of the lab deployment process.
+A Cloud Resource Template contains a template document that defines the resources that will be deployed in a Cloud Slice along with some parameter metadata. This metadata configures how parameters within that template document will be exposed to a lab profile. Each cloud platform uses a different template format. In Microsoft Azure, Azure Resource Manager (ARM) templates are used to deploy resources into an Azure subscription. In Amazon Web Services, CloudFormation templates are used. Cloud Deployment Manager templates do the same thing in the Google Cloud Platform. Regardless of which cloud platform you use, you need to create Cloud Resource Templates in Skillable Studio if you want to provision cloud resources as part of the lab deployment process.
 
 Before you get started creating Cloud Resource Templates, you need at least one cloud platform template that you want to use in a Cloud Slice lab. If you haven't already identified templates that you want to use in your lab, select the cloud platform you are using with your lab from the list below to learn how to find templates for that cloud platform. If the platform listed is not a hyperlink, Cloud Resource Templates are not yet supported on that platform.
 
@@ -97,7 +97,7 @@ Before you get started creating Cloud Resource Templates, you need at least one 
 1. [Amazon Web Services](aws/aws-cloud-slice-find-resource-templates.md)
 -->
 
-Once you have identified one or more cloud platform template documents you want to use, you can create a Cloud Resource Template in LOD by logging on to the Lab on Demand portal and completing the following steps:
+Once you have identified one or more cloud platform template documents you want to use, you can create a Cloud Resource Template in Skillable Studio by logging on to the Skillable Studio  portal and completing the following steps:
 
 1. Click **Cloud Resource Templates** in the Cloud Services tile.
 
@@ -120,7 +120,7 @@ Once you have identified one or more cloud platform template documents you want 
    | Tab                   | Field Name               | Description                              |
    | --------------------- | ------------------------ | ---------------------------------------- |
    | **Basic Information** | **Description**          | Text used to describe the Cloud Resource Template that you are setting up. |
-   |                       | **Organization**         | The organization in LOD where the Cloud Resource Template will be used. |
+   |                       | **Organization**         | The organization in Skillable Studio where the Cloud Resource Template will be used. |
    |                       | **Enabled**              | Indicates whether or not the Cloud Resource Template is enabled. |
    |                       | **Required For Display** | When checked, indicates that the resource(s) provisioned by the template must be deployed before the lab will be made available to a student. When left unchecked, the resources will be provisioned in the background while the student begins their lab. |
 
@@ -133,10 +133,10 @@ Once you have identified one or more cloud platform template documents you want 
    | **Property Name**      | **Description**                          |
    | ---------------------- | ---------------------------------------- |
    | **Name**               | The name of the parameter. This must exactly match the name of a parameter that is defined in the template document (external or pasted into the basic tab). |
-   | **Display Name**       | The display name of the parameter. This is the name that will be displayed to students using the Cloud Slice lab in the LOD Cloud Resources tab. |
+   | **Display Name**       | The display name of the parameter. This is the name that will be displayed to students using the Cloud Slice lab in the Skillable Studio Cloud Resources tab. |
    | **Description**        | The description of the parameter. This is displayed in a lab profile when a lab author reviews the parameters available to a resource template they are adding to a lab. |
    | **Required**           | When checked, a value must be provided for this parameter in each lab profile where the Cloud Resource Template is used. |
-   | **Display To Student** | When checked, the parameter display name and value will be displayed to students in the Cloud Resources tab in the LOD UI. |
+   | **Display To Student** | When checked, the parameter display name and value will be displayed to students in the Cloud Resources tab in the Skillable Studio UI. |
 
     >[!knowledge] Some resource parameters require specific naming conventions. Read [Naming Conventions for Azure Resources](https://docs.microsoft.com/en-us/azure/architecture/best-practices/naming-conventions) for more information about resource naming conventions.
 
@@ -146,13 +146,13 @@ Once you have identified one or more cloud platform template documents you want 
 
    If you want to remove a parameter that you mistakenly added, you can click the **Delete** button to the right of the parameter you want to remove.
 
-1. Once you have configured your Cloud Resource Template, click **Save** to save it in LOD.
+1. Once you have configured your Cloud Resource Template, click **Save** to save it in Skillable Studio.
 
 [Back to top][back-to-top]
 
 ## Add Cloud Slice Support to your lab profile(s)
 
-Once you have configured your cloud platform to allow OneLearn Lab on Demand (LOD) to create Cloud Slices, configured one or more Cloud Subscription Pools, and optionally loaded template virtual hard disks into your cloud platform and/or loaded Cloud Resource Templates into the LOD platform, you are ready to add Cloud Slice support to your lab profile. If you feel you are missing any of the items that were just mentioned that you want to use in your lab, please review previous sections in this document to see if you missed any steps.
+Once you have configured your cloud platform to allow Skillable Studio to create Cloud Slices, configured one or more Cloud Subscription Pools, and optionally loaded template virtual hard disks into your cloud platform and/or loaded Cloud Resource Templates into the Skillable Studio platform, you are ready to add Cloud Slice support to your lab profile. If you feel you are missing any of the items that were just mentioned that you want to use in your lab, please review previous sections in this document to see if you missed any steps.
 
 If you have not created a lab profile yet, create a lab profile now by clicking **Create Lab Profile** in the Lab Profiles tile. Otherwise, open the lab profile to which you want to add Cloud Slice support.
 
@@ -179,13 +179,13 @@ If you have virtual machines that you are launching in your cloud platform when 
 1. On the **Hard Disks** tab, click **Add Hard Disk** and type in the name of the template virtual hard disk file that you uploaded into your cloud subscription that you want to use as a template when provisioning this virtual hard disk.
 1. On the **Network Adapters** tab, if you want a network adapter provisioned for the virtual machine, click **Add Network Adapter**, give that network adapter a name in the **Name** field, and configure the other options you want for your network adapter.
 
-Those settings aside, the remaining settings for the virtual machine profile should be familiar to you if you have already created virtual machine profiles in LOD. Once you have finished creating the virtual machine, click **Save** to save it and then return to the **Create Lab Profile** view.
+Those settings aside, the remaining settings for the virtual machine profile should be familiar to you if you have already created virtual machine profiles in Skillable Studio. Once you have finished creating the virtual machine, click **Save** to save it and then return to the **Create Lab Profile** view.
 
 ### Orchestration  - Cloud tab
 
 To enable Cloud Slice support in your lab profile, open the **Cloud** tab, and in the **Orchestration** section, click **Choose** and select the Subscription Pool that will be used for your Cloud Slice lab. Once you have finished that, you should see something that looks like this:
 
-![Choose Cloud Subscription Pool in Lab Profile](images/lod-create-lab-profile-subscription-pool.png)
+![Choose Cloud Subscription Pool in Lab Profile](images/Skillable Studio-create-lab-profile-subscription-pool.png)
 
 ### Cloud Resource Groups - Cloud tab
 

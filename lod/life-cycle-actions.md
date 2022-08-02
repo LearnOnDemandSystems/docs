@@ -6,7 +6,7 @@ isPublished: true
 
 # Life Cycle Actions
 
-With the Life Cycle Actions (LCA) feature, LOD is able to execute actions when specific events occur during the lab instance life cycle. 
+With the Life Cycle Actions (LCA) feature, Skillable Studio is able to execute actions when specific events occur during the lab instance life cycle. 
 
 
 * [Life Cycle Actions Management](#life-cycle-actions-management)
@@ -71,7 +71,7 @@ There are additional settings that can **optionally** be configured:
 
 - **Delay**: allows you to introduce a delay between the moment the life cycle event occurs and the action is executed. 
 
-- **Error Action**: controls how Lab on Demand will handle errors that occur when executing this action. All errors are logged against the lab instance by default. You can also choose to notify the user about the error or to end the lab. To prevent users from losing their work, only events early in the lifecycle (build, building, running, etc) allow you to end the lab when an error occurs. 
+- **Error Action**: controls how Skillable Studiowill handle errors that occur when executing this action. All errors are logged against the lab instance by default. You can also choose to notify the user about the error or to end the lab. To prevent users from losing their work, only events early in the lifecycle (build, building, running, etc) allow you to end the lab when an error occurs. 
 
 ## Send Web Request
 
@@ -144,13 +144,13 @@ Multiple commands types are available:
 
 - **Shell with UI**: Shell command execution with Command Prompt UI visible to the student. 
 
->[!knowledge] If a Life Cycle Action script encounters an error, and that error is not caught, Lab on Demand will attempt to execute the script from the beginning up to three times. If after three attempts the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
+>[!knowledge] If a Life Cycle Action script encounters an error, and that error is not caught, Skillable Studiowill attempt to execute the script from the beginning up to three times. If after three attempts the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
 
 ## Execute Cloud Platform Command
 
 Cloud Platform commands are used to target a cloud platform such as Microsoft Azure or Amazon Web Services with a PowerShell, Python, C# or JavaScript command. 
 
-Along with traditional syntax, there is additional syntax that can be used to interact with Lab on Demand. 
+Along with traditional syntax, there is additional syntax that can be used to interact with Skillable Studio. 
 
 - Setting Lab Variables: sets a variable that can be recalled in subsequent lab instructions using @lab replacement tokens, as many times as necessary. 
 
@@ -188,7 +188,7 @@ Language options include:
 - **JavaScript (AWS Only)**: uses node.js 14
     - **AWS**: AWS SDK for JS 3
 
->[!knowledge] If a Life Cycle Action script encounters an error, and that error is not caught, Lab on Demand will attempt to execute the script from the beginning up to three times. If after three attempts the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
+>[!knowledge] If a Life Cycle Action script encounters an error, and that error is not caught, Skillable Studiowill attempt to execute the script from the beginning up to three times. If after three attempts the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
 
 
 ## Execute Custom Script
@@ -199,6 +199,6 @@ Scripts can be executed against a custom target, using a specific package for th
 - JavaScript: [NPM](https://www.npmjs.com/)
 - C#: [Nuget](https://www.nuget.org/)
 
-For more information about the available languages, see our [Lab on Demand Scripting documentation](scripting-home.md).
+For more information about the available languages, see our [Skillable StudioScripting documentation](scripting-home.md).
 
 [Back to top](#life-cycle-actions)

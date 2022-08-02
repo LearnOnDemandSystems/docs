@@ -1,6 +1,6 @@
 ---
 title: "API Best Practices and How to Use an API Consumer"
-description: "Guides through the steps to configure an API Consumer in LOD, as well as best practices."
+description: "Guides through the steps to configure an API Consumer in Skillable Studio, as well as best practices."
 isPublished: true
 ---
 
@@ -15,11 +15,11 @@ isPublished: true
     - [Window Manipulation](#window-manipulation)
 
 <!--
-## How to Use and Set Up an API Consumer in Lab on Demand
+## How to Use and Set Up an API Consumer in Skillable Studio
 
-To obtain API Consumer access, please [submit a support ticket](https://lod.one/help) for assistance.
+To obtain API Consumer access, please [submit a support ticket](https://skill.info/support) for assistance.
 
-If you already have API Consumer access, and would like to use an API consumer with Lab on Demand (LOD), you must configure the API on the lab profile, lab series, and the organization profile that will be used with API calls. For more information on how the API can be used, have a look at our [API Documentation]https://connect.skillable.com/lod/). 
+If you already have API Consumer access, and would like to use an API consumer with Skillable Studio, you must configure the API on the lab profile, lab series, and the organization profile that will be used with API calls. For more information on how the API can be used, have a look at our [API Documentation]https://connect.skillable.com/lod/). 
 
 - **Lab Series**: The lab series must be published to the API consumer that will be used. By publishing a lab series to an API Consumer, that API Consumer will be able to launch any current and future lab profiles that belong to that series.
 
@@ -32,7 +32,7 @@ If you already have API Consumer access, and would like to use an API consumer w
 
 The lab series must be published to the API consumer that will be used. By publishing a lab series to an API Consumer, that API Consumer will be able to launch any current and future lab profiles that belong to that series. 
 
-To publish the Lab Series, please contact our Support team at https://lod.one/help.
+To publish the Lab Series, please contact our Support team at https://skill.info/support.
 
 
 ### Lab Profile
@@ -52,9 +52,9 @@ To associate your lab profile with a lab series:
 
 The API Consumer needs to be made available to the organization that will use it. This should be the same organization that the lab series and lab profile belong to. 
 
-To make the API Consumer available, please contact our Support team at https://lod.one/help.
+To make the API Consumer available, please contact our Support team at https://skill.info/support.
 
-Your API Consumer is now setup and is ready to use. If you would like to view the various ways you can interact with LOD via API, have a look at our [API Documentation](https://connect.skillable.com/lod/).
+Your API Consumer is now setup and is ready to use. If you would like to view the various ways you can interact with Skillable Studio via API, have a look at our [API Documentation](https://connect.skillable.com/lod/).
 
 -->
 
@@ -86,7 +86,7 @@ A typical API request would look like:
 >
 >**labid**, **userid**, **firstname**, **lastname** and **email** are the >**parameters**.
 >
->- **labid**: this is the lab ID of the lab that is to be launched. The ID can be >found in the URL while viewing the lab profile in LOD. 
+>- **labid**: this is the lab ID of the lab that is to be launched. The ID can be >found in the URL while viewing the lab profile in Skillable Studio. 
 >
 >- **userid**: the user ID you use to identify the user in your external system.
 >
@@ -138,7 +138,7 @@ To launch a lab via an API request in Postman:
 
     ![](images/completed-replaced-date-postman.png)
 
-1. Next, **Headers** need to be configured with the API key, to authenticate and use the API consumer. The API key is found in LOD, or it can be obtained from your organization. 
+1. Next, **Headers** need to be configured with the API key, to authenticate and use the API consumer. The API key is found in Skillable Studio, or it can be obtained from your organization. 
 
     ![](images/api-key-in-lod.png)
 
@@ -188,7 +188,7 @@ As a best practice the API key should **never** be exposed to client side code. 
 
 1. An ajax call is made to the customer-owned service, or learning management system.
 
-1. The customer-owned service makes a Launch API call and receives the lab URL from Lab on Demand. 
+1. The customer-owned service makes a Launch API call and receives the lab URL from Skillable Studio. 
 
 1. The ajax call returns to the browser and includes the lab URL.
 
@@ -204,15 +204,15 @@ We advise against using strict mapping of API objects. We will add new API objec
 
 ### Window Manipulation
 
-If you launch a lab in a new window using JavaScript, Lab on Demand (LOD) will resize the lab window after it is launched. 
+If you launch a lab in a new window using JavaScript, Skillable Studio will resize the lab window after it is launched. 
 
 To launch a lab in a new window, use the following JavaScript:
     
 ```window.open(labUrl, "lab", "width=800,height=600,status=0,resizable=1,toolbar=0,menubar=0,location=0,scrollbars=0");```
 
-This tells the browser to open a new window with dimensions of 800x600. After a new window is opened, LOD will resize the window appropriately for the lab type that is being launched (Virtualization or Cloud Slice). Since the initial window dimensions were set by a script, future scripts are permitted to change those dimensions (resize the window). 
+This tells the browser to open a new window with dimensions of 800x600. After a new window is opened, Skillable Studio will resize the window appropriately for the lab type that is being launched (Virtualization or Cloud Slice). Since the initial window dimensions were set by a script, future scripts are permitted to change those dimensions (resize the window). 
 
->[!alert] Windows spawned in any other context are only resizable by the user. If you open the window using an HTML link, or simply redirect the current window to the lab URL, LOD will be prevented from resizing the window.
+>[!alert] Windows spawned in any other context are only resizable by the user. If you open the window using an HTML link, or simply redirect the current window to the lab URL, Skillable Studio will be prevented from resizing the window.
 
 - **Cloud Slice** labs consist of two windows; the resource portal and lab console. 
 - **Virtualization** based labs consist of one window; the virtual machine and the lab console. 

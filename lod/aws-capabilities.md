@@ -4,7 +4,7 @@ description: "A list of supported and planned support Amazon Web Services (AWS) 
 isPublished: true
 ---
 
-# Lab on Demand AWS API Capabilities 
+# Skillable Studio AWS API Capabilities 
 
 Below is a list of **supported** and **planned support** Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation.
 

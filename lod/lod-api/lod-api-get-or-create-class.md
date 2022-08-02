@@ -24,7 +24,7 @@ The **GetOrCreateClass** command returns information about a class. If the class
 |instructorFirstName|String|No|The first name of the class instructor|
 |instructorLastName|String|No|The last name of the class instructor|
 |maxActiveLabInstances|Integer|No|The maximum number of active lab instances than can exist concurrently within this class context. This is optional in most situations. However, it is required for classes that host shared environments. If a shared lab is launched against a class that doesn't have this value set, the launch will fail.|
-|availableLabs|Integer Array|No|An optional array of lab profile IDs. When provided, Lab on Demand will know that these labs are available within the class. You do not need to set this value in order to launch labs against the class. This is useful when using Lab on Demand to display a class attendance page, or when consuming shared class environments and you want the shared environment launch link to appear on the class monitor page.
+|availableLabs|Integer Array|No|An optional array of lab profile IDs. When provided, Skillable Studio will know that these labs are available within the class. You do not need to set this value in order to launch labs against the class. This is useful when using Skillable Studio to display a class attendance page, or when consuming shared class environments and you want the shared environment launch link to appear on the class monitor page.
 
 
 ## Response
@@ -39,7 +39,7 @@ The **GetOrCreateClass** command returns information about a class. If the class
 |Instructor|Instructor|Yes|The class instructor. See the Instructor Type below.|
 |URL|String|No|This response property is deprecated. Unless explicitly allowed by Skillable, this field will always be null. To obtain a class URL, use the [ClassAccessUrl API](lod-api-classaccessurl.md).|
 |maxActiveLabInstances|Integer|Yes|The maximum number of active lab instances than can exist concurrently within this class context.|
-|availableLabs|Integer Array|Yes|The IDs of labs available for launch within the class when using the class attendance UI directly in Lab on Demand (generally not used for class deliveries managed outside of Lab on Demand).
+|availableLabs|Integer Array|Yes|The IDs of labs available for launch within the class when using the class attendance UI directly in Skillable Studio (generally not used for class deliveries managed outside of Skillable Studio).
 |Status|Integer|No|Indicates the status of the API request
 ||||0 = Error
 ||||1 = Success|

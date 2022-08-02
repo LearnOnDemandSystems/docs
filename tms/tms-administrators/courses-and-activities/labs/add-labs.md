@@ -7,7 +7,7 @@ isPublished: true
 
 > Please be aware that not all functionality covered in this and linked articles may be available to you. 
 
-Course activities provide access to hands-on labs and other learning components in classes, course assignments, and learning paths. A lab activity provides access to a lab built on the Skillable' Lab on Demand platform. When the student clicks the Launch button on the activity, the lab interface opens in another window. 
+Course activities provide access to hands-on labs and other learning components in classes, course assignments, and learning paths. A lab activity provides access to a lab built on the Skillable Studio platform. When the student clicks the Launch button on the activity, the lab interface opens in another window. 
 
 The steps below assume you have completed the Basic Information section in the course ([How do I create a basic course?](./overall/create-course.md)). Before adding a course activity, you should select whether the course will available instructor-led and/or available self-paced on the Basic Information tab. This will affect the defaults for visibility of the activities you add for classes and course assignments.
 

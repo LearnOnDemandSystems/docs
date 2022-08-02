@@ -28,4 +28,4 @@ The student will not be notified when their password is changed. Therefore, plea
 
 > [!Note] You will not be able to reset a password for a user logging into the TMS through an outside authentication such as Google or Microsoft Live. 
 
-If you experience any issues resetting a user’s password, please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help) for assistance with the password reset.
+If you experience any issues resetting a user’s password, please submit a Support ticket at [**https://skill.info/support**](https://skill.info/support) for assistance with the password reset.

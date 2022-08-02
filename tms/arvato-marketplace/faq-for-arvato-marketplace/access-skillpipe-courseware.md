@@ -11,7 +11,7 @@ Your students can easily access their Skillpipe courseware through a single sign
 
 When your student clicks this button the first time, they will be taken to either the **Authorization Request** page or the **Registration** page for Skillpipe. If the student's TMS account has the same primary email address as their Skillpipe account, on the **Authorization Request** page, they will:
 1. Enter their Skillpipe **password**
-1. Click **Authorize Access** to authorize **OneLearn TMS** to access to their Skillpipe account. 
+1. Click **Authorize Access** to authorize **TMS** to access to their Skillpipe account. 
 
 ![](/tms/images/authorize-access.png)
 
@@ -26,5 +26,5 @@ If the student's TMS profile email address is not the same as the email aligned 
 
 ![](/tms/images/skillpipe-registration.png)
 
-This feature is enabled at the Organization level. Once enabled on your organization, all enrollments with a status of Enrolled  that are aligned with MOC courses will have the **Access Courseware** button. If you are not interested in using this feature and would like to disable it, please submit a support ticket at [**https://lod.one/help**](https://lod.one/help) requesting that it be disabled for your organization.
-Â
+This feature is enabled at the Organization level. Once enabled on your organization, all enrollments with a status of Enrolled  that are aligned with MOC courses will have the **Access Courseware** button. If you are not interested in using this feature and would like to disable it, please submit a support ticket at [**https://skill.info/support**](https://skill.info/support) requesting that it be disabled for your organization.
+ï¿½

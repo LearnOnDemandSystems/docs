@@ -24,8 +24,8 @@ The **LaunchForEvent** command launches a lab instance within an event by extern
 |classId|String|No|An optional parameter used to associate the lab with a class (see GetOrCreateClass). This is the unique identifier of the class as it is represented in your organization.|
 |canBeMarkedComplete|Integer|No|An optional parameter used to specify if the lab can be marked as complete by the student. 1 = true, 2 = false. If not specified, defaults to 1 (true).|
 |tag|String|No|An optional parameter that can be used for tagging the lab instance with your own custom data.|
-|ipAddress|String|No|When specified, Lab on Demand will attempt to launch the lab in the closest available delivery region. You should provide the IP address of the user that is taking the lab, not the IP address of your system.|
-|regionId|Integer|No|When specified, Lab on Demand will attempt to launch the lab in the specified delivery region if a suitable host in that region is available and all required storage is available in that region. Delivery regions can be found using the [DeliveryRegions command](lod-api-delivery-regions.md) or [Catalog command](lod-api-catalog.md). Using the ipAddress parameter will result in a more reliable geo-location of the lab for the end user.|
+|ipAddress|String|No|When specified, Skillable Studio will attempt to launch the lab in the closest available delivery region. You should provide the IP address of the user that is taking the lab, not the IP address of your system.|
+|regionId|Integer|No|When specified, Skillable Studio will attempt to launch the lab in the specified delivery region if a suitable host in that region is available and all required storage is available in that region. Delivery regions can be found using the [DeliveryRegions command](lod-api-delivery-regions.md) or [Catalog command](lod-api-catalog.md). Using the ipAddress parameter will result in a more reliable geo-location of the lab for the end user.|
 
 ## Response
 

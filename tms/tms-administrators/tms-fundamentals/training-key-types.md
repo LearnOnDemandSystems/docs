@@ -18,7 +18,7 @@ We have several different types of training keys that can be used for different 
 - [Training Key Pools](/tms/tms-administrators/self-paced-learning-and-subscriptions/training-key-pool.md) - A batch of keys aligned with a course used to create course assignments for the course.
 - [Subscription Keys](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-training-keys.md) - A batch of keys aligned with a subscription profile used to create a subscription assignment giving access the user to create course assignment from any of the courses in the subscription profile.
 
-Some setup by our help desk is needed to enable the ability for students to create user accounts from your login page. Please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help) for information.
+Some setup by our help desk is needed to enable the ability for students to create user accounts from your login page. Please submit a Support ticket at [**https://skill.info/support**](https://skill.info/support) for information.
 
 ## Related Articles
 

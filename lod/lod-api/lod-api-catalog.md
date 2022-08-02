@@ -92,7 +92,7 @@ The **Catalog** command will return all lab series, lab profiles, and delivery r
 
 |Name|Type|Nullable|Note
 |--- |--- |--- |--- |
-|Id|Integer|No|The unique identifier of the delivery region. When specified, Lab on Demand will attempt to launch the lab in the specified delivery region if a suitable host in that region is available and all required storage is available in that region. Delivery regions can be found using the [DeliveryRegions command](lod-api-delivery-regions.md) or [Catalog command](lod-api-catalog.md). Using the ipAddress parameter will result in a more reliable geo-location of the lab for the end user.||
+|Id|Integer|No|The unique identifier of the delivery region. When specified, Skillable Studio will attempt to launch the lab in the specified delivery region if a suitable host in that region is available and all required storage is available in that region. Delivery regions can be found using the [DeliveryRegions command](lod-api-delivery-regions.md) or [Catalog command](lod-api-catalog.md). Using the ipAddress parameter will result in a more reliable geo-location of the lab for the end user.||
 |Name|String|No|The name of the delivery region|
 |Description|String|Yes|A brief description of the delivery region|
 

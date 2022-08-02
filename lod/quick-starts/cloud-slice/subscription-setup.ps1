@@ -68,7 +68,7 @@ function create-sp($spDisplayName){
 
     $app = New-AzureADApplication -DisplayName $spDisplayName -HomePage $signInURL -ReplyUrl $signInURL -RequiredResourceAccess $msGraphAccess,$aadGraphAccess
     $script:sp = New-AzureADServicePrincipal -AppId $app.AppId 
-    $secret = New-AzureADApplicationPasswordCredential -ObjectId $app.ObjectId -CustomKeyIdentifier "LOD Initial Setup" -EndDate (get-date).AddYears(50)
+    $secret = New-AzureADApplicationPasswordCredential -ObjectId $app.ObjectId -CustomKeyIdentifier "Skillable Studio Initial Setup" -EndDate (get-date).AddYears(50)
     $companyAdminRole = Get-AzureADDirectoryRole | Where-Object DisplayName -eq 'Global Administrator'
     Add-AzureADDirectoryRoleMember -ObjectId $companyAdminRole.ObjectId -RefObjectId $sp.ObjectId
     
