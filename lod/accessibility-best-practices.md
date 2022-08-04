@@ -12,8 +12,8 @@ Accessibility features and considerations allow people to understand and navigat
 
 ## Table of Contents 
 - [Labeling](#labeling)
-- [Sizing and Visibility](#sizing-and-visibility)
 - [Layout](#layout)
+- [Sizing and Visibility](#sizing-and-visibility)
 - [Additional Resources](#additional-resources)
 
 ## Labeling
