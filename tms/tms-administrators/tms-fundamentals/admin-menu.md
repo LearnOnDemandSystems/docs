@@ -14,12 +14,20 @@ The Admin menu offers you the grouped administrative links from the Site Adminis
 
 ![](/tms/images/admin-menu-initial.png)
 
+### Article contents
+- [Search bar](#search-bar)
+- [Grouping order](#grouping-order)
+- [History](#history)
+- [Comparison of Admin menu and Site Administration page](#comparison-of-admin-menu-and-site-administration-page)
+
 ## Search bar
 When you open the **Admin** menu, your cursor is in the Search bar; as you type, links that match what you have typed appear. This list is narrowed as you continue to type. If you press **Enter**, you will be taken to the page corresponding to the first link in the results list. You can also click on any link in the results to navigate to that page.
 
 ![](/tms/images/admin-search-bar.png)
 
-## Group Order
+[Return to Article contents](#article-contents)
+
+## Grouping Order
 There are two orders for the Admin groups on the menu: **Group** (default) and **A-Z**. The menu always opens with the groups ordered in the default view. Click **A-Z** to vertically alphabetize the groups. 
 
 ![](/tms/images/admin-alpha-sort.png)
@@ -33,6 +41,8 @@ History continues to track your usage each time you open the menu and click a li
 
 ![](/tms/images/admin-history-clear-legacy.png)
 
+[Return to Article contents](#article-contents)
+
 ## Comparison of Admin menu and Site Administration page
 Below is a comparison of the functionality between the Admin menu and Site Admin page:
 
@@ -41,3 +51,5 @@ Below is a comparison of the functionality between the Admin menu and Site Admin
 | **Search** | Use intgrated Search bar in menu. Can click links directly from results or press **Enter** to be taken to first page in results. | Must use browser’s searching capability. |
 | **Group Order** | Groups set by default but can view alphabetically (vertical). | Tiles can be rearranged via drag-and-drop. |
 | **History** | The eight most frequently used links display on left side. Dynamically updates as menu is used. Can be cleared. Does not record links right-clicked or clicks on Site Administration page. | No history or tracking of usage available for easy access of links. |
+
+[Return to Article contents](#article-contents)
