@@ -74,7 +74,7 @@
         <div class="subtopic_title">How do I print my completion certificate?</div>
       </a>
       <a class="subtopic_link" href="/tms/end-user-student-faqs/class-self-paced/access-my-courseware.md">
-        <div class="subtopic_title">What is the Access Courseware button and how do I use it?</div>
+        <div class="subtopic_title">What is the Access Courseware or MS Learn Courseware button and how do I use it?</div>
       </a>
     </div>
   </div>
