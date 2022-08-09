@@ -23,7 +23,7 @@ Some setup by our help desk is needed to enable the ability for students to crea
 ## Related Articles
 
 For more information on Training Keys, please see:
-- [How can I use training keys for students to register for classes?](/tms/tms-administrators/classes/training-keys/class-training-keys.md))
+- [How can I use training keys for students to register for classes?](/tms/tms-administrators/classes/training-keys/class-training-keys.md)
 - [How can I use training key pools for self-paced learning?](/tms/tms-administrators/self-paced-learning-and-subscriptions/training-key-pool.md)
 - [How can I use subscription training keys for self-paced learning?](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-training-keys.md)
 - [What information should I send to students who are registering using training keys?](/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md)
