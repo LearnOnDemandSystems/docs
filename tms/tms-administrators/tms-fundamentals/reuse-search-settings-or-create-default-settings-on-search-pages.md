@@ -89,8 +89,8 @@ To change your search:
 1. **Select the search** you wish to revise, click **OK**
 1. Make changes to your search parameters then click **Search**
 1. Click **Save** to open the Save Search dialog
-1. **Select the search** you want to hold the changes, click **OK**
-1. When the message "**You already have a saved search named "Oops a Daisy courses." Would you like to overwrite it?**" appears, click **OK**
+1. **Select the search** you want to change, click **OK**
+1. When the message "**You already have a saved search named '[search name].' Would you like to overwrite it?**" appears, click **OK**
 
 ![](/tms/images/revise-search.png)
 
