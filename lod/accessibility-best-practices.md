@@ -17,7 +17,7 @@ Accessibility features and considerations allow people to understand and navigat
 - [Additional Resources](#additional-resources)
 
 ## Labeling
-- All buttons, links, and detail sections in lab instructions should be labeled to make it clear what the intention of the button is.
+- All buttons, links, and detail sections in lab instructions should be labeled to make it clear what the intention is.
 - Unit of measurement should be written in simple terms. (e.g., use 1 hour, 30 minutes, instead of 90 minutes)
 - Start each page of lab instructions with a header that clearly describes the page. This will make the _Next_ button identify the page. 
 - Highlight key differences between similar answer choices.
