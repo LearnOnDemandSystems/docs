@@ -18,9 +18,9 @@
   <div class="subtopic selected">
     <div id="header_1" class="subtopic_header" tabindex="0" title="A-Z Help Docs" role="button" aria-selected="true" selected>A-Z Help</div>
     <div id="body_1" class="subtopic_links">
-      <a class="subtopic_link" href="/lod/aba-outcomes.md">
-        <div class="subtopic_title">Activity Based Assessment Outcomes</div>
-        <div class="subtopic_description">Outcomes offer adaptive learning experiences based on the result of an automated activity or question.</div>
+      <a class="subtopic_link" href="/lod/accessibility-best-practices">
+        <div class="subtopic_title">Accessibility Best Practices</div>
+        <div class="subtopic_description">Accessibility best practices when authoring lab profiles and lab instructions.</div>
       </a>
       <a class="subtopic_link" href="/lod/access-control-lists.md">
         <div class="subtopic_title">Access Control Lists</div>
@@ -28,7 +28,11 @@
       </a>
       <a class="subtopic_link" href="/lod/acp-best-practices.md">
         <div class="subtopic_title">Access Control Policy Best Practices</div>
-        <div class="subtopic_description">Best Practices for using Access Control Policies in a cloud evironment.</div>
+        <div class="subtopic_description">Best Practices for using Access Control Policies in a cloud environment.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/aba-outcomes.md">
+        <div class="subtopic_title">Activity Based Assessment Outcomes</div>
+        <div class="subtopic_description">Outcomes offer adaptive learning experiences based on the result of an automated activity or question.</div>
       </a>
       <a class="subtopic_link" href="/lod/aws-capabilities.md">
         <div class="subtopic_title">Amazon Web Services API Capabilities</div>
