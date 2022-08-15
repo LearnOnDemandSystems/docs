@@ -6,7 +6,7 @@ When you want to use your own ESX-based Virtual Machine images in your labs, the
 
 2. Once the image is exported, compress the image or multiple images into **.ZIP** or **.RAR files. We recommend creating 700mb .ZIP files for uploading. If retransmission of the file(s) is necessary, it is much easier to upload a single 700mb file than it is to upload the whole 3-300gb image.
 
-3. Next, contact our **Lab Requests** team at https://lod.one/help to obtain the credentials and site information for uploading the compressed image files. Once the upload has finished, notify **Lab Requests** with the following information:
+3. Next, contact our **Lab Requests** team at https://skill.info/support to obtain the credentials and site information for uploading the compressed image files. Once the upload has finished, notify **Lab Requests** with the following information:
 
     - Names of the Virtual Machine Profiles that you want created (usually the names of the images that you send us, but sometimes different)
     - Credentials (username and password) to log in to the virtual machines

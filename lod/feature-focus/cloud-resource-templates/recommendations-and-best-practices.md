@@ -68,7 +68,7 @@ Templates can be stored natively in Lab on Demand, or can be stored on an extern
 
 ## ARM Template Load Testing
 
-If your template will be used for a high volume of concurrent users such as large events or conferences, please contact us at https://lod.one/help for assistance. if you are not already working with Skillable event staff.
+If your template will be used for a high volume of concurrent users such as large events or conferences, please contact us at https://skill.info/support for assistance. if you are not already working with Skillable event staff.
 
 > [!ALERT] **NOTE**: While this is an optional phase, it is highly recommended prior to large deliveries and the only way to guarantee subscriptions are configured correctly for scaling.
 
