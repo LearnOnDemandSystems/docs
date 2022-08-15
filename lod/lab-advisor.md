@@ -1,7 +1,7 @@
 ---
-title: "title"
-description: "description"
-isPublished: false
+title: "Skillable Studio Lab Advisor"
+description: "The Lab Advisor provides recommendations for possible issues found in lab profiles and lab profile configuration."
+isPublished: true
 ---
 
 # Lab Advisor
