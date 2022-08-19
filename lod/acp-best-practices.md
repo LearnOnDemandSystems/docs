@@ -1,6 +1,6 @@
 ---
 title: "Access Control Policies: Best Practices"
-description: "Best Practices for using Access Control Policies in a cloud evironment."
+description: "Best Practices for using Access Control Policies in a cloud environment."
 isPublished: true
 ---
 

@@ -18,9 +18,13 @@
   <div class="subtopic selected">
     <div class="subtopic_header" tabindex="0" title="Amazon Web Services Cloud Slice Development Docs" role="button" aria-selected="true" selected>Amazon Web Services Cloud Slice Development</div>
     <div id="body_1" class="subtopic_links">
+      <a class="subtopic_link" href="/lod/accessibility-best-practices.md">
+        <div class="subtopic_title">Accessibility Best Practices</div>
+        <div class="subtopic_description">Accessibility best practices when authoring lab profiles and lab instructions.</div>
+      </a>
       <a class="subtopic_link" href="/lod/acp-best-practices.md">
         <div class="subtopic_title">Access Control Policy Best Practices</div>
-        <div class="subtopic_description">Best Practices for using Access Control Policies in a cloud evironment.</div>
+        <div class="subtopic_description">Best Practices for using Access Control Policies in a cloud environment.</div>
       </a>
       <a class="subtopic_link" href="/lod/aws-capabilities.md">
         <div class="subtopic_title">Amazon Web Services API Capabilities</div>
@@ -61,7 +65,7 @@
     <div class="subtopic_links">
       <a class="subtopic_link" href="/lod/acp-best-practices.md">
         <div class="subtopic_title">Access Control Policy Best Practices</div>
-        <div class="subtopic_description">Best Practices for using Access Control Policies in a cloud evironment.</div>
+        <div class="subtopic_description">Best Practices for using Access Control Policies in a cloud environment.</div>
       </a>
       <a class="subtopic_link" href="/guides/cloud-slice/microsoft-azure/azure-capacity-limitations.md">
         <div class="subtopic_title">Azure Capacity Limitations</div>

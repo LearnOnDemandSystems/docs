@@ -12,7 +12,7 @@ To launch and use a lab, the following requirements must be met:
     1. Windows 7 or later
     1. Ubuntu 14.04 or later (or comparable distribution)
     1. macOS 10.12 or later
-1. Have a supported browser. IE, Edge, Chrome, Firefox, Safari.
+1. Have a supported browser. Edge, Chrome, Firefox, Safari.
     1. Latest version is preferred, but full support details can be found below
     1. Chromium based browsers such as Opera or Vivaldi can connect, but default hotkeys they set may interfere with lab inputs
 1. Be connected to a network that allows at least one of the following:
@@ -110,7 +110,7 @@ A CSV containing these ranges is available for use in automating any whitelist c
 
 ## Browser Support
 
-The majority of VM or container based labs can be accessed via HTML5 websocket controllers. ESX, Hyper-V, and Docker<sup>1</sup> labs all utilize this technology. Some labs may require an alternate Enhanced controller available only for Internet Explorer which requires installation of a plugin.
+The majority of VM or container based labs can be accessed via HTML5 websocket controllers. ESX, Hyper-V, and Docker<sup>1</sup> labs all utilize this technology.
 
 <sup>1</sup> Docker labs that expose an external service port do so over ports 41952-65534. Connection requirements are dependent on the exposed service.
 
@@ -125,11 +125,10 @@ All connections utilize secure WebSockets connections over port 443. No plugin i
 | Browser | Version |
 | --- | --- |
 | Chrome | 16+ |
-| Firefox | 11+ |
-| Internet Explorer | 10+<sup>1</sup1> |
+| Firefox<sup>1</sup> | 11+ |
 | Microsoft Edge | 1+ |
 
-<sup>1</sup> Microsoft has announced IE 10 will be End of Life on January 31, 2020
+<sup>1</sup> In some cases, the Firefox browser can cause repeating characters in ESX labs.
 
 ### Labs that require the Enhanced controller:
 
@@ -140,9 +139,3 @@ All connections utilize secure WebSockets connections over port 443. No plugin i
 <sup>1</sup> IE 8 and 9 are End of Life and are listed here for legacy purposes
 
 <sup>2</sup> The 21xxx value depends on which host server in the cloud the lab is running on. If connection on port 21xxx fails, the Enhanced client will rollover and attempt the connection on port 443.
-
-### Alternates:
-
-Both Flash and Silverlight legacy controllers will be, or have been, removed on November 6th, 2020.
-
-
