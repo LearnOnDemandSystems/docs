@@ -18,6 +18,10 @@
   <div class="subtopic selected">
     <div id="header_1" class="subtopic_header" tabindex="0" title="Lab Instruction Authoring Docs" role="button" aria-selected="true" selected>Lab Instruction Authoring</div>
     <div id="body_1" class="subtopic_links">
+      <a class="subtopic_link" href="/lod/accessibility-best-practices.md">
+        <div class="subtopic_title">Accessibility Best Practices</div>
+        <div class="subtopic_description">Accessibility best practices when authoring lab profiles and lab instructions.</div>
+      </a>
       <a class="subtopic_link" href="/lod/lab-content-replication.md">
         <div class="subtopic_title">Lab Content Replication</div>
         <div class="subtopic_description">The expected amount of time for lab profile updates to replicate across available delivery regions.</div>
