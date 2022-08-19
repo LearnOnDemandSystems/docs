@@ -2,7 +2,7 @@
 
 Virtual Machine Profiles are optional components for a lab. Each virtual machine you will use in your labs will need its own Virtual Machine Profile. You can add VM’s you have uploaded to storage.
 
-For LOD lab component terminology and guidelines for building Lab Series and Lab Profiles, please read the LOD Terminology and Guidelines for Building a Lab article.
+For Skillable Studio lab component terminology and guidelines for building Lab Series and Lab Profiles, please read the Skillable Studio Terminology and Guidelines for Building a Lab article.
 
 There are two locations to create a VM Profile: 1) from the Lab Series page you want to add the VM Profile to (automatically associates the VM Profile to the series) and 2) from the Admin page on the Virtual Machine Profiles tile (not automatically associated with any Lab Series). This article will cover from the Lab Series page.
 

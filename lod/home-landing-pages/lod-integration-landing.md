@@ -13,18 +13,18 @@
     4. Ensure to add the new document in A-Z index
 -->
 
-<div class="categoriesHeader" tabindex="0" title="Lab on Demand Integration Docs Container">Lab on Demand Integration</div>
+<div class="categoriesHeader" tabindex="0" title="Skillable Studio Integration Docs Container">Skillable Studio Integration</div>
 <div class="accordionModule">
   <div class="subtopic selected">
     <div id="header_1" class="subtopic_header" tabindex="0" title="API Docs" role="button" aria-selected="true" selected>API</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/lod/lod-api/lod-api-main.md">
         <div class="subtopic_title">API Documentation</div>
-        <div class="subtopic_description">Documentation on how and when to use the Lab on Demand API.</div>
+        <div class="subtopic_description">Documentation on how and when to use the Skillable Studio API.</div>
       </a>
       <a class="subtopic_link" href="/lod/how-to-use-api-consumer.md">
         <div class="subtopic_title">API Best Practices and How to Use an API Consumer</div>
-        <div class="subtopic_description">Guides through the steps to configure an API Consumer in LOD, as well as best practices.</div>
+        <div class="subtopic_description">Guides through the steps to configure an API Consumer in Skillable Studio, as well as best practices.</div>
       </a>
     </div>
   </div>
@@ -45,7 +45,7 @@
         <div class="subtopic_description">Considerations for labs that are integrated into an iframe.</div>
       </a>      
       <a class="subtopic_link" href="/guides/lti/lod-lti.md">
-        <div class="subtopic_title">Lab on Demand edX Integration</div>
+        <div class="subtopic_title">Skillable Studio edX Integration</div>
         <div class="subtopic_description">Integrate edX into your lab profile.</div>
       </a>
       <a class="subtopic_link" href="/lod/lab-on-demand-lti-integration.md">

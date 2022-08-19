@@ -6,7 +6,7 @@ isPublished: true
 
 # Virtual Machine Profiles
 
-Virtual machine (VM) profiles in Lab on Demand (LOD) are used in lab profiles. VMs in LOD use Hyper-V or ESX as the hypervisor, or Virtual machines can also be deployed in a cloud environment. 
+Virtual machine (VM) profiles in Skillable Studio are used in lab profiles. VMs in Skillable Studio use Hyper-V or ESX as the hypervisor, or Virtual machines can also be deployed in a cloud environment. 
 
 ## Table of Contents
 
@@ -46,7 +46,7 @@ For information which operating systems are supposed by Hyper-V and ESX, click b
 
 ## Create a Virtual Machine Profile 
 
-To create a Virtual Machine profile, click **Create Virtual Machine profile** from the LOD Site Administration page.
+To create a Virtual Machine profile, click **Create Virtual Machine profile** from the Skillable Studio site administration page.
 
 ![](images/create-vm-profile.png)
 

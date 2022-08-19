@@ -30,13 +30,13 @@ From here you can review what the template is for as well as the parameters that
 
 ![Azure Quickstart Template contents on GitHub](images/azure-quickstart-template-contents-on-github.png)
 
-From here, you can review the technical details for the template by looking at the contents of the azuredeploy.json file. If you want to copy this template into a Cloud Resource Template in OneLearn Lab on Demand, you  would copy the contents of the azuredeploy.json file into the Template field on the Basic Information tab of your Cloud Resource Template. If you want to link to the template instead, you should copy the template files into your own GitHub repository and link to it from that repository.
+From here, you can review the technical details for the template by looking at the contents of the azuredeploy.json file. If you want to copy this template into a Cloud Resource Template in Skillable Studio, you  would copy the contents of the azuredeploy.json file into the Template field on the Basic Information tab of your Cloud Resource Template. If you want to link to the template instead, you should copy the template files into your own GitHub repository and link to it from that repository.
 
 > #### Best Practice: Create your own Azure Resource Manager template library
 >
-> While it is possible to create Cloud Resource Templates in OneLearn Lab on Demand that link to Azure Resource Manager templates in the Azure Quickstart Template library or in other locations that you don't manage on the Internet, you should never actually do this. Instead, you should create your own repository in GitHub and store your ARM templates there. This is necessary to ensure that you can manage all changes to templates that are in use in your labs.
+> While it is possible to create Cloud Resource Templates in Skillable Studio that link to Azure Resource Manager templates in the Azure Quickstart Template library or in other locations that you don't manage on the Internet, you should never actually do this. Instead, you should create your own repository in GitHub and store your ARM templates there. This is necessary to ensure that you can manage all changes to templates that are in use in your labs.
 >
-> Whether you copy the contents of your templates into Cloud Resource Templates in OneLearn Lab on Demand or link to their contents directly, having them in a GitHub repository will give you version control and multi-author support, and it will enable you to test your templates outside of OneLearn Lab on Demand to ensure that they are working before you start using them with a Cloud Slice lab.
+> Whether you copy the contents of your templates into Cloud Resource Templates in Skillable Studio or link to their contents directly, having them in a GitHub repository will give you version control and multi-author support, and it will enable you to test your templates outside of Skillable Studio to ensure that they are working before you start using them with a Cloud Slice lab.
 
 You can also try out the template from here by clicking **Deploy to Azure**, or you can visualize the template in armviz.io by clicking **Visualize**.
 
@@ -47,4 +47,4 @@ This should help get you started on finding templates that you can draw from to 
 [Return to the Cloud Slice guide][back]
 
 [back-to-top]: #cloud-slice-guide---find-resource-templates-for-microsoft-azure "Return to the top of the document"
-[back]: ../cloud-slice.md#create-cloud-resource-templates-in-onelearn-lab-on-demand "Return to the Cloud Slice guide"
+[back]: ../cloud-slice.md#create-cloud-resource-templates-in-lab-on-demand "Return to the Cloud Slice guide"

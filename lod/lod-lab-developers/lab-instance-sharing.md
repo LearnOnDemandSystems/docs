@@ -27,7 +27,7 @@ Sharing setting options include:
 
 * **Share within organization** – You can share a link with users in your organization. 
     
-    >[!note]Users must have launched at least one lab successfully or already have a user account in Learn on Demand (LOD). 
+    >[!note]Users must have launched at least one lab successfully or already have a user account in Skillable Studio. 
 
     >[!note]Users may be from related organization, either child, parent, or sibling organizations.
 
@@ -41,7 +41,7 @@ Once enabled, you can share the instance from within the Lab Interface.
 
 ![](/tms/images/lab-instance-sharing-menu.png)
 
-3. This opens the **Share this lab instance** dialog, input an **email address** to share the lab with another user. For the email to be valid, it must match to a user in your LOD organization. 
+3. This opens the **Share this lab instance** dialog, input an **email address** to share the lab with another user. For the email to be valid, it must match to a user in your Skillable Studio organization. 
 4. Set the expiration for the user’s lab instance.  
    * **When the lab ends** – Choosing End from the lab menu by any user terminates the user’s access to the lab instance. 
    *  **At a particular time** – Set the date and time when the user’s access is over 
@@ -50,7 +50,7 @@ Once enabled, you can share the instance from within the Lab Interface.
    * **Edit lab activities** – Grants Lab authoring rights to edit lab activities in the Lab Editor. 
    * **Edit lab instructions** – Gives the user rights to edit lab instructions in the Lab Editor. 
    * **Edit lab profile data** – This feature set to release in the future. 
-   * **Install LOD virtualization integration services** – Grants rights to install Integration Services to use features like dynamic screen resizing. 
+   * **Install Skillable Studio virtualization integration services** – Grants rights to install Integration Services to use features like dynamic screen resizing. 
    * **Load developer files** – Grants rights to upload files from their system into the VM(s) of the lab. 
    * **Save differencing/delta disks in the current lab profile** – Grants rights to add a differencing disk to the current lab profile. 
    * **Save differencing/delta disks in a new lab profile** – Grants rights to create a new lab profile with the updated VM profile with a new differencing disk. 
@@ -59,4 +59,4 @@ Once enabled, you can share the instance from within the Lab Interface.
 
 ![](/tms/images/lab-instance-sharing-permissions.png)
 
-Once shared, an email is sent to the designated user with a link to open the lab instance. Clicking the link forces authentication, based on the authentication provider set on your LOD Organization profile. After authenticating, the lab interface opens and the user can work in conjunction with other users based on the permission and expiration settings.
+Once shared, an email is sent to the designated user with a link to open the lab instance. Clicking the link forces authentication, based on the authentication provider set on your Skillable Studio Organization profile. After authenticating, the lab interface opens and the user can work in conjunction with other users based on the permission and expiration settings.

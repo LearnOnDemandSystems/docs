@@ -10,7 +10,7 @@ A virtual machine (VM) can be deployed in Azure and accessed from a launch lab u
 
 ## Overview
 
-To set a VM using a Shared Image Gallery, there is some configuration to do in Azure before you can configure a VM profile and Lab profile in Lab on Demand. You will need to create several components in Azure and they must be completed in the order below, as each one builds upon the previous. 
+To set a VM using a Shared Image Gallery, there is some configuration to do in Azure before you can configure a VM profile and Lab profile in Skillable Studio. You will need to create several components in Azure and they must be completed in the order below, as each one builds upon the previous. 
 1. Shared Image Gallery
 1. Image Definition
 1. Image Version
@@ -32,7 +32,7 @@ To set a VM using a Shared Image Gallery, there is some configuration to do in A
 - [Update Replication](#update-replication)
 - [Azure Check List](#azure-check-list)
 
-[Lab on Demand Setup](#lab-on-demand-setup)
+[Skillable Studio Setup](#skillable-studio-setup)
 - [Subscription Pool](#subscription-pool)
 - [Virtual Machine Profile](#virtual-machine-profile)
 - [Lab Profile](#lab-profile)
@@ -74,7 +74,7 @@ Create an image definition to define specifications for virtual machines that ar
 1. Go to the Shared Image Gallery you just created. 
 1. Click **+Add new image definition** in the upper-left of the page. 
 1. **Region**: Select a region where the image definition will be created. 
-1. **Image definition name**: Name the image definition. This name will be used in LOD in the _Machine Image_ fields on the VM profile. 
+1. **Image definition name**: Name the image definition. This name will be used in Skillable Studio in the _Machine Image_ fields on the VM profile. 
 1. **Operating system**: select the operating system that your VM will use. 
 1. **VM Generation**: Select the VM generation that your VM will use. 
 1. **Operating system state**: Select the state that the OS will be in at the time of launch. Generalized typically boots slower, but may be needed for some learning scenarios. Specialized typically boots quicker, but may skip some basic configuration steps that some learning scenarios may benefit from including. 
@@ -182,7 +182,7 @@ At this point, you should have the following created in your resource group in A
 
 If you are missing any of these items in your resource group, please go back to previous steps and complete any sections that were missed. 
 
-## Lab On Demand Setup
+## Skillable Studio Setup
 
 ### Subscription Pool
 Create a subscription pool, using the authentication information from your subscription in Azure. 
@@ -194,13 +194,13 @@ The Shared Image Gallery where the image definition is stored needs to be mapped
 
 To map the shared image gallery in the subscription:
 
-1. Navigate to the **cloud subscription** in LOD. 
+1. Navigate to the **cloud subscription** in Skillable Studio. 
 
 1. Click **Edit** next to the subscription that you want to map. 
 
 1. Click the **Storage** tab of the _Edit Cloud Subscription_ dialog. 
 
-1. Enter the name of each in LOD, to align with the containers in your Azure storage account.
+1. Enter the **name** of each in Skillable Studio, to align with the containers in your Azure storage account.
 
     - **Image Library Name**: 
     - **Image Library Resource Group**:

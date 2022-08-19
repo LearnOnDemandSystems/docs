@@ -1,6 +1,6 @@
 # Send a notification to the user
 
-This is the first in a Series of Quick Starts about Life Cycle Actions in OneLearn Lab on Demand (LOD).
+This is the first in a Series of Quick Starts about Life Cycle Actions in Skillable Studio.
 
 In this Quick Start, you will configure a notification to popup for the user, in their lab environment
 
@@ -44,7 +44,7 @@ Estimated time to completion: **5 minutes**
 
 1. Leave the **Error Action** as _Default_.
 
-    > [!KNOWLEDGE] The **Error Action** drop-down menu is used to set how errors will be handled in the lab. The default setting is to save errors to the lab instance in LOD. Alternatively you can set errors to notify the user, or end the lab.
+    > [!KNOWLEDGE] The **Error Action** drop-down menu is used to set how errors will be handled in the lab. The default setting is to save errors to the lab instance in Skillable Studio. Alternatively you can set errors to notify the user, or end the lab.
 
 1. Check the **Enabled** box. If this is unchecked, the life cycle action will not be executed.
 

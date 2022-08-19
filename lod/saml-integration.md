@@ -14,7 +14,7 @@ SAML is an open standard that allows Identity Providers (IdP) and Service Provid
 - [Modify Application Configuration for Single Sign On with SAML](#modify-application-configuration-for-single-sign-on-with-saml)
   - [Basic SAML Configuration](#basic-saml-configuration)
   - [User Attributes and Claims](#user-attributes-and-claims)
-- [Application Setup with Skillable](#application-setup-with-learn-on-demand-systems)
+- [Application Setup with Skillable](#application-setup-with-skillable)
 
 ## Create an Azure Active Directory Enterprise App 
 
@@ -47,7 +47,7 @@ If your Identity Provider is Azure, you must create an Enterprise Application in
 1. **Add the following Configuration values for each platform**. 
     >[!note] Replace the following information in the URL before configuring these values:
     >
-    >    - **Lab on Demand** 
+    >    - **Skillable Studio** 
     >      - Sign on URL: replace `{customer}` with your customer name.
     >    - **Training Management System**: 
     >      - Sign on URL: replace `{TMS-Site}` with your TMS site. 
@@ -55,7 +55,7 @@ If your Identity Provider is Azure, you must create an Enterprise Application in
     >    - **Portal**:
     >      - Sign on URL: replace `{customer}` with your customer name.
 
-    ### **Lab on Demand (LOD)**
+    ### **Skillable Studio**
     |Name|Description|Example | 
     |:---|:---|:---|
     |Unique Identifier (Entity ID) |This value must be unique across all applications in your Azure Active Directory tenant.| https://learnondemandsystemsb2c.b2clogin.com/learnondemandsystemsb2c.onmicrosoft.com/B2C_1A_TrustFrameworkExtensions_LOD-PROD |

@@ -20,7 +20,7 @@ With Cloud Slice, you can provide individual subscriptions (Azure) or accounts (
 
 With our Cloud Slice feature, you can also use your Azure subscription or Amazon Web Services (AWS) account to create temporary subscription/account credentials for your lab users that will grant them access to delegated, circumscribed and tightly controlled administrative functions of the subscription or account.
 
-Additionally, Lab on Demand (LOD) offers cloud virtualization for both Azure and AWS. Using either option you can deploy a virtual machine (VM) in the cloud environment, and access the VM in the lab, or access it in the cloud environment directly.
+Additionally, Skillable Studio offers cloud virtualization for both Azure and AWS. Using either option you can deploy a virtual machine (VM) in the cloud environment, and access the VM in the lab, or access it in the cloud environment directly.
 
 ## Access Control 
 
@@ -32,11 +32,11 @@ Both AWS and Azure use Access Control Policies (ACP) to control resource provisi
 
 **The key takeaway is the AWS and Azure use very different permissions models**. 
 
-> [!knowledge] To mitigate risk, before a lab with any cloud configuration for Azure or AWS can be published in Lab on Demand, the lab must be evaluated for risk of abuse using the Skillable Cloud Security standards review. For more information about security reviews, read our [Cloud Security Review](/lod/cloud-security/cloud-security-review.md) documentation. Labs that are in development do not require a cloud security review.
+> [!knowledge] To mitigate risk, before a lab with any cloud configuration for Azure or AWS can be published in Skillable Studio, the lab must be evaluated for risk of abuse using the Skillable Cloud Security standards review. For more information about security reviews, read our [Cloud Security Review](/lod/cloud-security/cloud-security-review.md) documentation. Labs that are in development do not require a cloud security review.
 
 ## Amazon Web Services
 
-Amazon Web Services is another cloud provider Lab on Demand supports as a lab fabric. Using Cloud Slice you can build lab profiles similar Azure. Using stack deployments, you can customize the environment and the level of access your users have.
+Amazon Web Services is another cloud provider Skillable Studio supports as a lab fabric. Using Cloud Slice you can build lab profiles similar Azure. Using stack deployments, you can customize the environment and the level of access your users have.
 
 For AWS cloud slice, we define a permissions boundary (AWS policy) that determines the maximum permissions that could potentially be granted to a lab user. We allow AWS lab users to create users. However, they have to be created by using the predefined AWS `labsecureaccess` policy, which limits the permissions that created user can have.
  
@@ -46,7 +46,7 @@ For example, to allow a user to create an EC2 instance (virtual machine), we hav
 
 ## Microsoft Azure
 
-Microsoft Azure is one of the cloud providers Lab on Demand supports as a lab fabric. Using Cloud Slice you can build labs that either do or do not contain a virtual machine (VM) and you can use resource templates known as ARM templates to potentially pre-provision resources. Then you can use policies known as ACP’s to limit what users may have access to in your subscription. 
+Microsoft Azure is one of the cloud providers Skillable Studio supports as a lab fabric. Using Cloud Slice you can build labs that either do or do not contain a virtual machine (VM) and you can use resource templates known as ARM templates to potentially pre-provision resources. Then you can use policies known as ACP’s to limit what users may have access to in your subscription. 
 
 For Azure cloud slice we define roles; Owner, Contributor, and Reader, to determine what permissions a lab user has over the resource group in the case of Cloud Slice Resource (CSR), or over the subscription in the case of Cloud Slice Subscription (CSS). These roles are subsets of similarly named built-in Azure roles. When you use the lab platform to create a lab user, you must assign the user one of these 3 roles in the lab profile Cloud settings.
 

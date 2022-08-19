@@ -2,9 +2,9 @@
 
 Estimated time to completion: **10 minutes**.
 
-To create your first Cloud Resource Template in the OneLearn Lab on Demand platform (LOD), you must perform the following tasks:
+To create your first Cloud Resource Template in the Skillable Studio platform, you must perform the following tasks:
 
-1. Return to the <[Lab on Demand Administration page](/Admin).
+1. Return to the <[Skillable Studio Administration page](/Admin).
 
 1. Click <[Cloud Resource Templates](/CloudTemplate) on the Cloud Services tile.
 
@@ -81,7 +81,7 @@ To create your first Cloud Resource Template in the OneLearn Lab on Demand platf
 
 Congratulations, you have just created your first Cloud Resource Template! Now let's use this template to provision a single storage account with a unique name that starts with "sa" into a resource group in your Cloud Slice lab.
 
-1. Return to the <[Lab on Demand Administration page](/Admin).
+1. Return to the <[Skillable Studio Administration page](/Admin).
 
 1. Click <[Find Lab Profiles](/LabProfile) to find your lab profile.
 

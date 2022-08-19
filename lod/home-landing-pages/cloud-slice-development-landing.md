@@ -55,8 +55,8 @@
         <div class="subtopic_description">Setup process to enable cloud slice support in the AWS portal.</div>
       </a>
       <a class="subtopic_link" href="/guides/cloud-slice/aws/aws-setup-cloud-sub-pool-in-lod.md">
-        <div class="subtopic_title">Setup your AWS cloud subscription in OneLearn Lab on Demand</div>
-        <div class="subtopic_description">Configure a subscription pool in Lab on Demand, for use with AWS cloud slice.</div>
+        <div class="subtopic_title">Setup your AWS cloud subscription in Skillable Studio</div>
+        <div class="subtopic_description">Configure a subscription pool in Skillable Studio, for use with AWS cloud slice.</div>
       </a>
     </div>
   </div>
@@ -112,13 +112,13 @@
         <div class="subtopic_description">Configure a lab profile to deliver training on Microsoft Azure subscriptions.</div>
       </a>
       <a class="subtopic_link" href="/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md">
-        <div class="subtopic_title">Setup your Azure cloud subscription in OneLearn Lab on Demand</div>
-        <div class="subtopic_description">Configure a subscription pool in Lab on Demand, for use with Azure cloud slice.</div>
+        <div class="subtopic_title">Setup your Azure cloud subscription in Skillable Studio</div>
+        <div class="subtopic_description">Configure a subscription pool in Skillable Studio, for use with Azure cloud slice.</div>
       </a>
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header" tabindex="0" title="Lab on Demand Configuration Docs" role="button" aria-selected="false">Lab on Demand Configuration</div>
+    <div class="subtopic_header" tabindex="0" title="Skillable Studio Configuration Docs" role="button" aria-selected="false">Skillable Studio Configuration</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/lod/cloud-security/cloud-security-home.md">
          <div class="subtopic_title">Cloud Security Resources</div>
@@ -130,7 +130,7 @@
       </a>
       <a class="subtopic_link" href="/guides/cloud-slice/cloud-slice.md">
         <div class="subtopic_title">Cloud Slice Setup Guide</div>
-        <div class="subtopic_description">Comprehensive setup guide for configuring a Cloud Slice lab with Lab on Demand and Microsoft Azure or Amazon Web Services.</div>
+        <div class="subtopic_description">Comprehensive setup guide for configuring a Cloud Slice lab with Skillable Studio and Microsoft Azure or Amazon Web Services.</div>
       </a>
       <a class="subtopic_link" href="/lod/geolocation.md">
         <div class="subtopic_title">Geolocation for Lab Launches</div>

@@ -7,10 +7,10 @@ isPublished: true
 # Microsoft Official Curriculum (MOC) API/LTI Consumer Information 
 
 ## Lab Access 
-API/LTI consumers of Microsoft Official Curriculum (MOC) get access to all our course offerings. We publish all labs to API and LTI consumers when at the same time they are released through our OneLearn Training Management System (TMS). 
+API/LTI consumers of Microsoft Official Curriculum (MOC) get access to all our course offerings. We publish all labs to API and LTI consumers when at the same time they are released through our Training Management System (TMS). 
 
 ## Post Class Access 
-API/LTI consumers of MOC receive the standard 180 days post class access to labs. This is the same post class access length users receive through our OneLearn Training Management System (TMS). 
+API/LTI consumers of MOC receive the standard 180 days post class access to labs. This is the same post class access length users receive through our Training Management System (TMS). 
 
 ## Retirement Lifecycle 
 MOC labs are no longer maintained after the Microsoft official retirement date. Lab access is automatically disabled 180 days after Microsoft’s official retirement date to accommodate user post class access. API/LTI consumers should be aware of Microsoft retirement schedule to ensure automatic lab disable does not impact end users. 

@@ -10,13 +10,13 @@ Cloud Subscription Pools are used by labs to provision Cloud Slices in a load ba
 
 Load balancing evenly distributes Cloud Slices across subscriptions in a Cloud Subscription Pool. When a user launches a Cloud Slice lab, they are provided with a slice of whichever subscription in the pool has the lightest load (the lowest number of users) at the time. This load balancing distributes resource load across all of the subscriptions in the pool, which can help keep resource counts lower, avoiding any maximum limits that the subscriptions in the pool have on specific resource types.
 
-To add a Cloud Subscription Pool to OneLearn Lab on Demand (LOD), perform the following steps:
+To add a Cloud Subscription Pool to Skillable Studio , perform the following steps:
 
-1. Navigate to the <a href="https://labondemand.com" target="_blank">OneLearn Lab on Demand portal</a> and sign in.
+1. Navigate to the <a href="https://labondemand.com" target="_blank">Skillable Studio  portal</a> and sign in.
 
 1. Open the **Subscription Pools** section on the Cloud Services tile.
 
-1. Click **Create Cloud Subscription Pool** to create a new cloud subscription pool in LOD.
+1. Click **Create Cloud Subscription Pool** to create a new cloud subscription pool in Skillable Studio .
 
 1. Select a cloud platform from the **Cloud Platform** drop-down menu. 
 
@@ -30,10 +30,10 @@ To add a Cloud Subscription Pool to OneLearn Lab on Demand (LOD), perform the fo
    |----|----|
    |Name&nbsp;(required)|The name of the Cloud Subscription Pool being created.|
    |Description|The Description should describe the capabilities or the intent of the Subscription Pool.|
-   |Organization&nbsp;(required)|The organization in LOD where the managed Cloud Subscription pool will be used.|
+   |Organization&nbsp;(required)|The organization in Skillable Studio  where the managed Cloud Subscription pool will be used.|
    |Enabled|This checkbox determines if the Cloud Subscription Pool is enabled or disabled.|
    |Custom&nbsp;subscription&nbsp;unavailable&nbsp;message|This message will be presented to users if they try to launch a lab and a subscription is unavailable. If this field is blank, the default message will be used.|
-   |Enable&nbsp;Health&nbsp;Checks&nbsp;|Enable health checks across all subscriptions in this pool. LOD will periodically check the subscription for configuration errors and other potential problems.|
+   |Enable&nbsp;Health&nbsp;Checks&nbsp;|Enable health checks across all subscriptions in this pool. Skillable Studio  will periodically check the subscription for configuration errors and other potential problems.|
    |Health&nbsp;Check&nbsp;Interval&nbsp;|Health check frequency. The health checks for each subscription will be completed at the specified interval.|
    |Enabled&nbsp;|Enables the subscription pool for use. Unchecking this box will disable the subscription pool.|)
 
@@ -49,7 +49,7 @@ To add a Cloud Subscription Pool to OneLearn Lab on Demand (LOD), perform the fo
 
 |Field Name|Description|
    |----|----|
-   |**Number&nbsp;Of&nbsp;Subscriptions**|For dedicated pools, subscriptions will be automatically created ahead of time. When this hapens, LOD will create up to the number of subscriptions specified here. Please ensure that all limits on your account or subscription (set by the cloud host provider) are greater than or equal to the number entered here. For example, if your subscription limit or account limit is 20, you should not enter more than 20 in this field. |
+   |**Number&nbsp;Of&nbsp;Subscriptions**|For dedicated pools, subscriptions will be automatically created ahead of time. When this hapens, Skillable Studio  will create up to the number of subscriptions specified here. Please ensure that all limits on your account or subscription (set by the cloud host provider) are greater than or equal to the number entered here. For example, if your subscription limit or account limit is 20, you should not enter more than 20 in this field. |
    |**Subscription&nbsp;Name&nbsp;Prefix**|When subscriptions are created, the name of the subscription or account will start with this text.|
 
 10. Click **Save** to create the Cloud Subscription Pool.
@@ -60,7 +60,7 @@ To add a Cloud Subscription Pool to OneLearn Lab on Demand (LOD), perform the fo
 
 
 <!--
-1. To **create a Cloud Subscription**, click on **Cloud Subscription Pools** from the Lab on Demand Administration page. 
+1. To **create a Cloud Subscription**, click on **Cloud Subscription Pools** from the Skillable Studio  Administration page. 
 
 ![Cloud Subscription Pools](images/lod-open-cloud-subscription-pools.png)
 
@@ -74,7 +74,7 @@ To add a Cloud Subscription Pool to OneLearn Lab on Demand (LOD), perform the fo
 
 1. **Description**: The Description should describe the capabilities or the intent of the Subscription Pool.
 
-1. **Organization**: The organization in LOD where the managed Cloud Subscription pool will be used.
+1. **Organization**: The organization in Skillable Studio where the managed Cloud Subscription pool will be used.
 
 1. **Enabled**: This checkbox determines if the Cloud Subscription Pool is enabled or disabled.
 

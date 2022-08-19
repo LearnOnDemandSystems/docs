@@ -14,7 +14,7 @@ Two types of training keys are available to directly enroll students into a clas
 
 For either key, an administrator creates a class and generates the enrollment keys or the event key (see Figure 1 below for the administrator to user flow). All training keys allow users to self-register by creating a user account and provisioning their training. Existing users can login and redeem their key to open their training. 
 
-Some setup by our help desk is needed to enable the ability for students to create user accounts from your login page. Please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help) for information.
+Some setup by our help desk is needed to enable the ability for students to create user accounts from your login page. Please submit a Support ticket at [**https://skill.info/support**](https://skill.info/support) for information.
 
 
 ![](/tms/images/class-training-keys.png)

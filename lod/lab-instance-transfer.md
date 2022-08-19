@@ -17,7 +17,7 @@ Lab Instance Transfer is enabled at the organization level. Once it is enabled, 
   + [Transfer From a Running Lab](#transfer-from-a-running-lab)
   + [Transfer From a Saved Lab](#transfer-from-a-saved-lab)
 * [Accessing a Transferred Lab Instance](#accessing-a-transferred-lab-instance)
-  + [Lab on Demand User](#lab-on-demand-user)
+  + [Skillable Studio User](#skillable-studio-user)
   + [Training Management System User](#training-management-system-user)
   + [API User](#api-user)
 
@@ -57,7 +57,7 @@ To transfer a lab instance from a running lab, complete the following steps:
 
 To transfer a lab instance from a saved lab, complete the following steps: 
 
-1. In Lab on Demand, navigate to the lab instance details page for the lab instance you wish to transfer. 
+1. In Skillable Studio, navigate to the lab instance details page for the lab instance you wish to transfer. 
 
 1. Select the **Transfer** button next to the User name. 
 
@@ -71,11 +71,11 @@ To transfer a lab instance from a saved lab, complete the following steps:
 
 ## Accessing a Transferred Lab Instance
 
-### Lab on Demand User
+### Skillable Studio User
 
-If the **recipient is a Lab on Demand user**, complete the following steps to find lab instances that are transferred to your account: 
+If the **recipient is a Skillable Studio user**, complete the following steps to find lab instances that are transferred to your account: 
 
-1. Log in to your Lab on Demand account. 
+1. Log in to your Skillable Studio account. 
 
 1. Select **Dashboard** at the top of the page. 
 

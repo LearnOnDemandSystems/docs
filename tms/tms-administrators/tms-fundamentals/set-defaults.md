@@ -25,7 +25,7 @@ You can set the days and times your organization is open, this displays when any
 ## User Settings
 Two defaults can be set for creating new user accounts: the User Password and the User Role(s). 
 
-Organizations default to having the Basic User roles added for new users. You may have other roles added to all new users by default. If this is what you want, please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help) to set up default user role(s).
+Organizations default to having the Basic User roles added for new users. You may have other roles added to all new users by default. If this is what you want, please submit a Support ticket at [**https://skill.info/support**](https://skill.info/support) to set up default user role(s).
 
 | Field | Default Data |
 |:------|:--------|

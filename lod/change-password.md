@@ -11,4 +11,4 @@ To change your password in Labondemand:
 
 1. Click **OK** to close the dialog stating that your password was successfully changed.
 
-> [!KNOWLEDGE] Your password can be changed in Lab on Demand, using the same steps. 
+    > [!KNOWLEDGE] Your password can be changed in Skillable Studio, using the same steps. 

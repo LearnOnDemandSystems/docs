@@ -17,7 +17,7 @@ To create an Access Control List:
 
 ACLs use blacklists and whitelists. Domains added to the blacklist will not be resolvable, and domains added to the whitelist will resolve. You can also allow or deny domains based on  expressions. 
 
-1. From the Admin page in Lab on Demand, click **Access Control Lists** on the Virtual Machines tile.  
+1. From the Admin page in Skillable Studio, click **Access Control Lists** on the Virtual Machines tile.  
 
 1. Click **Create Access Control List**.
 

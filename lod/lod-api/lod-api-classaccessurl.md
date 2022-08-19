@@ -29,7 +29,7 @@ The **ClassAccessUrl** command returns a single use URL to access the class mana
 
 ## Example Usage
 
-Imagine… You have a class within your system with an ID = 4449999 that already exists in Lab on Demand.
+Imagine… You have a class within your system with an ID = 4449999 that already exists in Skillable Studio.
 
 ```
 https://labondemand.com/api/v3/ClassAccessUrl?id=4449999 

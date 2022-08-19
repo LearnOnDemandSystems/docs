@@ -4,7 +4,7 @@ description: "Create themes to customize the look and feel of labs using CSS, an
 isPublished: true
 ---
 
-# Lab on Demand Themes
+# Skillable Studio Themes
 
 Themes allow you to add cascading style sheets (CSS) to your lab profiles, to customize the look and feel, as well as using custom JavaScript. CSS and JavaScript can target lab instructions or the virtualization window in a lab.
 
@@ -49,7 +49,7 @@ Themes allow you to add cascading style sheets (CSS) to your lab profiles, to cu
 ### CSS Example
 
 ```CSS-linenums
-/* This Instructions CSS controls the look and feel of the right hand panel in LOD
+/* This Instructions CSS controls the look and feel of the right hand panel in Skillable Studio
 Below are some examples of customisation that can be performed.
 */
 
@@ -149,7 +149,7 @@ a.target= '_blank';
 ul = document.getElementsByClassName('iconLinksList')[0]
 li = document.createElement("li")
 li.appendChild(a);
-li.setAttribute("class", "lodsupport");
+li.setAttribute("class", "SkillableStudioSupport");
 ul.appendChild(li);
 
 //This section shows the ability to load a graphic onto the help page to give users further guidance.

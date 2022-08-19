@@ -25,7 +25,7 @@ Click the **Access Courseware** button.
 
 When you click this button the first time, you will be taken to either the **Authorization Request** page or the **Registration** page for Skillpipe. If your TMS account has the same primary email address as your Skillpipe account, on the **Authorization Request** page, you will:
 1. Enter your Skillpipe **password**
-1. Click **Authorize Access** to authorize **OneLearn TMS** to access to your Skillpipe account. 
+1. Click **Authorize Access** to authorize **TMS** to access to your Skillpipe account. 
 
 ![](/tms/images/authorize-access.png)
 

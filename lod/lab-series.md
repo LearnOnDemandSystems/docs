@@ -6,11 +6,11 @@ isPublished: true
 
 # Lab Series
 
-Lab Profiles in Lab on Demand (LOD) can be housed in a lab Series. The Lab Series contains Lab Profiles and settings for the Lab Series.
+Lab Profiles in Skillable Studio can be housed in a lab Series. The Lab Series contains Lab Profiles and settings for the Lab Series.
 
 The lab profile is where the settings are configured for the lab. These settings include (but are not limited to): Name, owning organization, expected duration, resource requirements, virtual machines, network configuration, and much more. Lab profiles can exist on their own or they can be part of a Lab Series that contains multiple lab profiles. 
 
-To create a Lab series, click **Create Lab Series** on the Lab Series tile, on the LOD Site Administration page.
+To create a Lab series, click **Create Lab Series** on the Lab Series tile, on the Skillable Studio site administration page.
 
 ![Create a Lab Series](images/create-lab-series.png)
 

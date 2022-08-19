@@ -6,13 +6,13 @@ isPublished: true
 
 # Create a Resource Template and Configure it into a Resource Group
 
-In the OneLearn Lab on Demand platform (LOD), a Resource Group contains resource templates, restriction policies, and portal user permissions. This document covers creating a Resource template and configuring it into a Resource Group. If you have not created a Restriction Policy or would like to create one, see our guide on [creating a Restriction Policy](create-a-restriction-policy.md). 
+In Skillable Studio, a Resource Group contains resource templates, restriction policies, and portal user permissions. This document covers creating a Resource template and configuring it into a Resource Group. If you have not created a Restriction Policy or would like to create one, see our guide on [creating a Restriction Policy](create-a-restriction-policy.md). 
 
 ## Creating a Resource Template 
 
-To create your first Resource Template in LOD, you must perform the following tasks:
+To create your first Resource Template in Skillable Studio, you must perform the following tasks:
 
-1. Navigate to the Lab on Demand Administration page.
+1. Navigate to the Skillable Studio Administration page.
 
 1. Click Cloud Resource Templates on the Cloud Services tile.
 
@@ -39,7 +39,7 @@ To create your first Resource Template in LOD, you must perform the following ta
 
     >[!knowledge] You can search for your lab profile by doing the following:
     >
-    >1. Return to the Lab on Demand Administration page.
+    >1. Return to the Skillable Studio Administration page.
     >
     >1. Click Find Lab Profiles to find your lab profile.
     >

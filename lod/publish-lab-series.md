@@ -1,12 +1,12 @@
 ---
 title: "Publishing a Lab Series to Production"
-description: "This document describes the process of moving labs from Development to Production in Lab on Demand."
+description: "This document describes the process of moving labs from Development to Production in Skillable Studio."
 isPublished: true
 ---
 
 # Publishing a Lab Series 
 
-This document describes the process of publishing labs from Development to Production in Lab on Demand. This procedure should be used anytime a new course is being published to Production.  
+This document describes the process of publishing labs from Development to Production in Skillable Studio. This procedure should be used anytime a new course is being published to Production.  
 
 ## Table of Contents
 - [Publishing a Lab Series](#publishing-a-lab-series)
@@ -19,7 +19,7 @@ This document describes the process of publishing labs from Development to Produ
 
 ## Saving a New Lab Series
 
-After you have finished development on a lab series in Lab on Demand, complete the following steps to publish to production. 
+After you have finished development on a lab series in Skillable Studio, complete the following steps to publish to production. 
 
 1. **Navigate** to the **Lab Series** that you want to publish to production. 
 

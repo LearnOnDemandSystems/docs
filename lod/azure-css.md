@@ -106,9 +106,9 @@ These permissions only apply to the selected subscription.
 
 The Access Control Policies that are defined here apply to the subscription. An Access Control Policy is used by Azure, to limit the resources that can be provisioned. For more information, read our [Access Control Policies documentation](create-a-restriction-policy.md).
 
-1. **Add Policy**: add an Access Control Policy that is already created in LOD.
+1. **Add Policy**: add an Access Control Policy that is already created in Skillable Studio.
 
-1. **Create Policy**: create an Access Control Policy in LOD.
+1. **Create Policy**: create an Access Control Policy in Skillable Studio.
 
 ### Cloud Resource Groups: 
 
@@ -141,16 +141,16 @@ These permissions apply to this Resource Group only.
 
 Resource templates are used to deploy resources to a Resource Group in Azure.
 
-- **Add Template**: add a resource template that is already created in LOD.
+- **Add Template**: add a resource template that is already created in Skillable Studio.
 
-- **Create Template**: create a new resource template in LOD.
+- **Create Template**: create a new resource template in Skillable Studio.
 
 #### Access Control Policies
 The Access Control Policies that are defined here apply to this Resource Group only. An Access Control Policy is used by Azure, to limit the resources that can be provisioned. For more information, read our [Access Control Policies documentation](create-a-restriction-policy.md).
 
-- **Add Policy**: add an Access Control Policy that is already created in LOD.
+- **Add Policy**: add an Access Control Policy that is already created in Skillable Studio.
 
-- **Create Policy**: create an Access Control Policy in LOD.
+- **Create Policy**: create an Access Control Policy in Skillable Studio.
 
 Click **Save** to save the Lab Profile. 
 

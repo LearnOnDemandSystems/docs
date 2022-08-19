@@ -39,7 +39,7 @@ In addition to the software requirements above we recommend the following:
 
 ## Firewall Exception Rule Information
 
-For those that need to create a firewall exception rule to allow connectivity to the Lab on Demand servers (this isn&#39;t common), the following information can be used to create a limited destination rule to only allow the above protocols and ports from your network to the Lab on Demand cloud.
+For those that need to create a firewall exception rule to allow connectivity to the Skillable Studio servers (this isn&#39;t common), the following information can be used to create a limited destination rule to only allow the above protocols and ports from your network to the Skillable Studio cloud.
 
 - Domain Names:
   - *.skillable.com
@@ -59,7 +59,7 @@ For those that need to create a firewall exception rule to allow connectivity to
 
 Certain lab environments utilize GitHub; therefore, the following URL should be excepted: ```https://githubusercontent.com```
 
-The Lab on Demand system is a cloud platform that automatically provisions and connects the learner with private sandboxed resources. There is no way to predict which IP address in the cloud the learner will connect to for the provisioning of their virtual machines. Therefore, we provide a range of IP addresses and only a second level domain name.
+The Skillable Studio system is a cloud platform that automatically provisions and connects the learner with private sandboxed resources. There is no way to predict which IP address in the cloud the learner will connect to for the provisioning of their virtual machines. Therefore, we provide a range of IP addresses and only a second level domain name.
 
 For Hyper-V and Hyper-V w/RDP only labs, the domains and IP addresses in the table below may also be required as firewall exceptions. We strongly encourage using names, and not IP addresses, for firewall and proxy configuration if possible, as the IP addresses may change without warning (and without documentation update). This allows access even in network failover and future geographic targeting scenarios.
 

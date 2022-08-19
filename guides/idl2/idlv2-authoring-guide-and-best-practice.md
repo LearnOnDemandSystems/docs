@@ -126,7 +126,7 @@ Even though the instructions are free form, here are a few general tips that you
 
 The lab client is divided into two main parts: the **Lab Console**, and the **Resource Portal**.
 
-The **Lab Console** is initially displayed on the right side of the lab client, with the Instructions tab showing. This initial view allows users to get started with a lab immediately once it has launched. All instructions written in Markdown will be rendered within the Instructions tab. In the screenshot below, you see a sample lab showing a portion of the instructions for the lab. Activities that the user is instructed to do can optionally be created in a task list, which will render with checkboxes before each task (as you can see in the same screenshot), allowing users to track their progress in the lab. When a user checks a checkbox, all preceding checkboxes that were unchecked will be checked. This allows users to perform multiple tasks quickly, and then mark them as complete with a single click. As users mark tasks as complete, this progress is tracked and reported to LOD and TMS, while providing a visual marker to the end user indicating where they are in the lab. Overall lab progress is reported as the percentage of tasks that are marked as complete in the lab instructions.
+The **Lab Console** is initially displayed on the right side of the lab client, with the Instructions tab showing. This initial view allows users to get started with a lab immediately once it has launched. All instructions written in Markdown will be rendered within the Instructions tab. In the screenshot below, you see a sample lab showing a portion of the instructions for the lab. Activities that the user is instructed to do can optionally be created in a task list, which will render with checkboxes before each task (as you can see in the same screenshot), allowing users to track their progress in the lab. When a user checks a checkbox, all preceding checkboxes that were unchecked will be checked. This allows users to perform multiple tasks quickly, and then mark them as complete with a single click. As users mark tasks as complete, this progress is tracked and reported to Skillable Studio and TMS, while providing a visual marker to the end user indicating where they are in the lab. Overall lab progress is reported as the percentage of tasks that are marked as complete in the lab instructions.
 
 ![](images/idl2-example-with-instructions.png "Lab Client, shown with the Dark theme")
 
@@ -236,7 +236,7 @@ Media and documents can be uploaded and inserted into lab instructions.
 
 1. A **Dialog** will appear that allows you to add files by **dragging them into the lab instructions window** or by clicking the **Choose Files** button, as well as some additional options:
     - **Display Inline** or **As a link**: Inline will **render the image with lab instructions**, As a link **provides a link** that the user can click, to view the image in a new window.
-    - **Overwrite existing files**: choosing this option will **overwrite files with the same file name**, that are currently saved in Lab on Demand. This is useful when the wrong file gets uploaded and needs to be replaced with the correct file. 
+    - **Overwrite existing files**: choosing this option will **overwrite files with the same file name**, that are currently saved in Skillable Studio. This is useful when the wrong file gets uploaded and needs to be replaced with the correct file. 
 
 ![](images/drag-and-drop-screenshots.png)
 
@@ -327,7 +327,7 @@ To create a screenshot:
 
     >[!KNOWLEDGE]the screenshot is captured at the size that the VM is sized to,  when screenshot button is clicked. 
 
-If you use this method, the screenshot is stored in LOD and automatically added in the lab instructions where your mouse cursor is. Please keep in mind that when you take a screenshot using this method, you take a screenshot of the entire desktop of the VM, which may not be desirable. 
+If you use this method, the screenshot is stored in Skillable Studio and automatically added in the lab instructions where your mouse cursor is. Please keep in mind that when you take a screenshot using this method, you take a screenshot of the entire desktop of the VM, which may not be desirable. 
 
 Screenshots can also be added by pasting from your local clipboard, dragging images into the lab editor interface or using the Upload files feature. 
 
@@ -346,7 +346,7 @@ To add a screenshot by pasting from your local clipboard:
 1. A **Dialog** will appear, asking to **choose options** for the content:
     - **Display Inline** or **As a link**: Inline will **render the image with lab instructions**, As a link **provides a link** that the user can click, to view the image in a new window.
     - **Format**: JPG or PNG. Choose the format you wish to use for the screenshot.
-    - **File Name**: You can provide a file name for the screenshot. If a file name is not provided, the screenshot will be assigned a randomly generated name and stored in Lab on Demand.
+    - **File Name**: You can provide a file name for the screenshot. If a file name is not provided, the screenshot will be assigned a randomly generated name and stored in Skillable Studio.
     
     **Note**: Pasting images into the lab instructions is not supported in Internet Explorer 11.
 
@@ -364,7 +364,7 @@ To Add a screenshot by dragging an image into the lab instructions window:
 
 1.  A **Dialog** will appear, asking to **choose options** for the  content:
     - **Display Inline** or **As a link**: Inline will **render the image with lab instructions**, As a link **provides a link** that the user can click, to view the image in a new window.
-    - **Overwrite existing files**: choosing this option will **overwrite files with the same file name**, that are currently saved in Lab on Demand. This is useful when the wrong file gets uploaded and needs to be replaced with the correct file. 
+    - **Overwrite existing files**: choosing this option will **overwrite files with the same file name**, that are currently saved in Skillable Studio. This is useful when the wrong file gets uploaded and needs to be replaced with the correct file. 
 
 **Note**: Other media types such as videos and documents can be added using this method. 
 
@@ -661,7 +661,7 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
 - **Unordered list:** Used to list items in no particular order, separated by bullets rather than numbers. Type a - (dash or hyphen) followed by a space and then the text to be listed. Pressing enter at the end of the text will start the next line with a bullet. 
 - **Ordered list:** Used to list items in a particular order, separated by numbers rather than bullets. Type the number 1, followed by a space and then the text to be listed. Pressing enter at the end of the text will start the next line with number 2.
-- Both Unordered and Ordered lists can contain Task Checkboxes for the student to check off steps as completed. Both list types can be combined in the same list. Task Checkboxes are used track and report lab progress to LOD and TMS, as well as a visual marker for students. Lab progress is calculated by the percentage of Task Checkboxes that are checked in the lab instructions.
+- Both Unordered and Ordered lists can contain Task Checkboxes for the student to check off steps as completed. Both list types can be combined in the same list. Task Checkboxes are used track and report lab progress to Skillable Studio and TMS, as well as a visual marker for students. Lab progress is calculated by the percentage of Task Checkboxes that are checked in the lab instructions.
 
 ```Unordered_Task_List
 - [] Item 1
@@ -1087,7 +1087,7 @@ This script is to make sure the student has created a storage account correctly,
 ```
 param($LabInstanceId)
 $result = $false
-$resourceGroupName = "CSSTlod${LabInstanceId}"
+$resourceGroupName = "CSSTSkillableStudio${LabInstanceId}"
 $storAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name "sa${LabInstanceId}" -ErrorAction Ignore
 if ($storAccount -eq $null){
     "The Storage Account has not been created"
@@ -1271,7 +1271,7 @@ To create a multiple choice review, in the Scoring Type drop-down, select **Asse
 
 ### Create and Incorporate Advertising Campaigns
 
-An advertising campaign allows you to provide introductory content across multiple labs that are grouped by lab series, organization or event. This topic describes how to add an advertising campaign to a lab profile or a lab series. The advertising campaign must first be configured from the Lab on Demand Admin page, as show below.
+An advertising campaign allows you to provide introductory content across multiple labs that are grouped by lab series, organization or event. This topic describes how to add an advertising campaign to a lab profile or a lab series. The advertising campaign must first be configured from the Skillable Studio Admin page, as show below.
 
 _You will require special permissions to see this tile._
 

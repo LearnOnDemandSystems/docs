@@ -13,7 +13,7 @@
     4. Notify Corey B. of the addition of a new document so he can add it to the search module.
 -->
 
-<div class="categoriesHeader" tabindex="0" title="Lab on Demand A-Z Docs Container">Lab on Demand A-Z Index</div>
+<div class="categoriesHeader" tabindex="0" title="Skillable Studio A-Z Docs Container">Skillable Studio A-Z Index</div>
 <div class="accordionModule">
   <div class="subtopic selected">
     <div id="header_1" class="subtopic_header" tabindex="0" title="A-Z Help Docs" role="button" aria-selected="true" selected>A-Z Help</div>
@@ -60,11 +60,11 @@
       </a>      
       <a class="subtopic_link" href="/lod/how-to-use-api-consumer.md">
         <div class="subtopic_title">API Best Practices and How to Use an API Consumer</div>
-        <div class="subtopic_description">Guides through the steps to configure an API Consumer in LOD, as well as best practices.</div>
+        <div class="subtopic_description">Guides through the steps to configure an API Consumer in Skillable Studio, as well as best practices.</div>
       </a>
       <a class="subtopic_link" href="https://connect.skillable.com/lod/">
         <div class="subtopic_title">API Documentation</div>
-        <div class="subtopic_description">Documentation on how and when to use the Lab on Demand API.</div>
+        <div class="subtopic_description">Documentation on how and when to use the Skillable Studio API.</div>
       </a>
       <a class="subtopic_link" href="/guides/cloud-slice/microsoft-azure/azure-capacity-limitations.md">
         <div class="subtopic_title">Azure Capacity Limitations</div>
@@ -112,7 +112,7 @@
       </a>
       <a class="subtopic_link" href="/guides/cloud-slice/cloud-slice.md">
         <div class="subtopic_title">Cloud Slice Setup Guide</div>
-        <div class="subtopic_description">Comprehensive setup guide for configuring a Cloud Slice lab with Lab on Demand and Microsoft Azure or Amazon Web Services.</div>
+        <div class="subtopic_description">Comprehensive setup guide for configuring a Cloud Slice lab with Skillable Studio and Microsoft Azure or Amazon Web Services.</div>
       </a>
       <a class="subtopic_link" href="/lod/code-lab.md">
         <div class="subtopic_title">Code Labs</div>
@@ -211,8 +211,8 @@
         <div class="subtopic_description">Virtual machine profile creation, and explanation of virtual machine profile configuration.</div>
       </a>            
       <a class="subtopic_link" href="/lod/feature-focus/lod-experience.md">
-        <div class="subtopic_title">Introduction to Lab on Demand UI</div>
-        <div class="subtopic_description">Explanation of Lab on Demand UI.</div>
+        <div class="subtopic_title">Introduction to Skillable Studio UI</div>
+        <div class="subtopic_description">Explanation of Skillable Studio UI.</div>
       </a>
       <a class="subtopic_link" href="/lod/lab-content-replication.md">
         <div class="subtopic_title">Lab Content Replication</div>
@@ -240,27 +240,27 @@
       </a>
         <a class="subtopic_link" href="/lod/lab-interface-faq.md">
         <div class="subtopic_title">Lab Interface Frequently Asked Questions</div>
-        <div class="subtopic_description">Frequently asked questions about the Lab on Demand lab interface.</div>
+        <div class="subtopic_description">Frequently asked questions about the Skillable Studio lab interface.</div>
       </a>
       <a class="subtopic_link" href="/lod/lab-networks.md">
         <div class="subtopic_title">Lab Network Restrictions</div>
         <div class="subtopic_description">Overview of the networks available to labs and any network restrictions.</div>
       </a>
       <a class="subtopic_link" href="/lod/lod-api/lod-api-main.md">
-        <div class="subtopic_title">Lab on Demand API Documentation</div>
-        <div class="subtopic_description">Documentation on how and when to use the Lab on Demand API.</div>
+        <div class="subtopic_title">Skillable Studio API Documentation</div>
+        <div class="subtopic_description">Documentation on how and when to use the Skillable Studio API.</div>
       </a>
       <a class="subtopic_link" href="/guides/lti/lod-lti.md">
-        <div class="subtopic_title">Lab on Demand edX Integration</div>
+        <div class="subtopic_title">Skillable Studio edX Integration</div>
         <div class="subtopic_description">Integrate edX into your lab profile.</div>
       </a>
       <a class="subtopic_link" href="/lod/pbt/overview.md">
-        <div class="subtopic_title">Lab on Demand Scoring</div>
-        <div class="subtopic_description">The Lab on Demand platform supports the ability to score users either in an exam/quiz format or within a hands-on lab.</div>
+        <div class="subtopic_title">Skillable Studio Scoring</div>
+        <div class="subtopic_description">The Skillable Studio platform supports the ability to score users either in an exam/quiz format or within a hands-on lab.</div>
       </a>
       <a class="subtopic_link" href="/lod/scripting-home.md">
-        <div class="subtopic_title">Lab on Demand Cloud Script Execution</div>
-        <div class="subtopic_description">Scripting language syntax for interacting with Lab on Demand and Cloud providers.</div>
+        <div class="subtopic_title">Skillable Studio Cloud Script Execution</div>
+        <div class="subtopic_description">Scripting language syntax for interacting with Skillable Studio and Cloud providers.</div>
       </a>
       <a class="subtopic_link" href="/lod/lab-profile-cloning.md">
         <div class="subtopic_title">Lab Profile Cloning</div>
@@ -308,7 +308,7 @@
       </a>
       <a class="subtopic_link" href="/lod/pbt/overview.md">
          <div class="subtopic_title">PBT Overview</div>
-         <div class="subtopic_description">Overview of Lab on Demand supported scoring methods.</div>
+         <div class="subtopic_description">Overview of Skillable Studio supported scoring methods.</div>
       </a>
       <a class="subtopic_link" href="/lod/persist-container-changes.md">
          <div class="subtopic_title">Persist Container Changes</div>
@@ -316,11 +316,11 @@
       </a>
       <a class="subtopic_link" href="/lod/platform-terminology.md">
         <div class="subtopic_title">Platform Terminology</div>
-        <div class="subtopic_description">Explanation of terminology used in Lab on Demand.</div>
+        <div class="subtopic_description">Explanation of terminology used in Skillable Studio.</div>
       </a>
       <a class="subtopic_link" href="/lod/publish-lab-series.md">
         <div class="subtopic_title">Publishing a Lab Series to Production</div>
-        <div class="subtopic_description">This document describes the process of moving labs from Development to Production in Lab on Demand.</div>
+        <div class="subtopic_description">This document describes the process of moving labs from Development to Production in Skillable Studio.</div>
       </a>
       <a class="subtopic_link" href="/lod/feature-focus/cloud-resource-templates/replacement-tokens.md">
         <div class="subtopic_title">Replacement Tokens</div>

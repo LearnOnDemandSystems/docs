@@ -26,4 +26,4 @@ Surveys are created directly in the TMS with a variety of question types availab
 - Matrix, one answer per row
 - Matrix, multiple answers per row
 
-If you need to have permissions to create surveys or see survey responses, please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help).
+If you need to have permissions to create surveys or see survey responses, please submit a Support ticket at [**https://skill.info/support**](https://skill.info/support).

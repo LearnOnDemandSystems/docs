@@ -1,6 +1,6 @@
 ## How Do I Make My International Keyboard Work In The Lab Interface?
 
-When using the Lab on Demand (LOD) lab interface, there is support for international keyboards and languages. However, depending on the lab platform and the controller you are using, you may need to change settings in your browser, and/or the VM.
+When using the Skillable Studio lab interface, there is support for international keyboards and languages. However, depending on the lab platform and the controller you are using, you may need to change settings in your browser, and/or the VM.
 
 ## Table of Contents
 - [General Requirements for International Keyboards](#general-requirements-for-international-keyboards)
