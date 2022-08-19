@@ -131,6 +131,10 @@
         <div class="subtopic_title">Shared Labs (a.k.a. Cyber-Range)</div>
         <div class="subtopic_description">Configure a Shared Lab environment.</div>
       </a>
+      <a class="subtopic_link" href="/lod/lab-advisor.md">
+         <div class="subtopic_title">Skillable Studio Lab Advisor</div>
+         <div class="subtopic_description">The Lab Advisor provides recommendations for possible issues found in lab profiles and lab profile configuration.</div>
+      </a>
       <a class="subtopic_link" href="/lod/spla-supported.md">
         <div class="subtopic_title">SPLA Supported Software</div>
         <div class="subtopic_description">Supported products and the conditions within Skillable implementation of the SPLA program.</div>
