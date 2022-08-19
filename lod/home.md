@@ -24,10 +24,10 @@
         </a>
       </div>
       <div class="category"> 
-        <a href="/lod/code-lab.md" class="categoryThread">
+        <a href="/lod/lab-advisor.md" class="categoryThread">
           <i class="material-icons green" aria-hidden="true">bookmarks</i>
-          <span class="categoryTitleFeatured" title="Code Labs">Code Labs</span>
-          <span class="categoryDescription" title="Code Lab Authoring explained. Glossary of terms and walkthrough for creating your first code lab.">Code Lab Authoring explained. Glossary of terms and walkthrough for creating your first code lab.</span>
+          <span class="categoryTitleFeatured" title="Skillable Studio Lab Advisor">Skillable Studio Lab Advisor</span>
+          <span class="categoryDescription" title="The Lab Advisor provides recommendations for possible issues found in lab profiles and lab profile configuration.">The Lab Advisor provides recommendations for possible issues found in lab profiles and lab profile configuration.</span>
         </a>
       </div>
       <div class="viewAll"><a href="/lod/home-landing-pages/featured-landing.md" tabindex="0" class="viewAllLink" title="View all" aria-label="View all Featured Posts">View all</a></div>

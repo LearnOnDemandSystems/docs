@@ -281,11 +281,7 @@
       <a class="subtopic_link" href="/lod/lab-series.md">
         <div class="subtopic_title">Lab Series Creation and Explanation</div>
         <div class="subtopic_description">Lab Series creation, and explanation of lab series configuration.</div>
-      </a>
-      <a class="subtopic_link" href="/lod/skillable-enhanced-account-security.md">
-        <div class="subtopic_title">Skillable Enhanced Account Security</div>
-        <div class="subtopic_description">Guidance for authenticating user accounts with Skillable Platforms, as well as account management in each platform.</div>
-      </a>      
+      </a>   
       <a class="subtopic_link" href="/lod/life-cycle-actions.md">
         <div class="subtopic_title">Life Cycle Actions</div>
         <div class="subtopic_description">Define actions to occur at certain times within the lab's life cycle, such as calling an external service when the lab builds, or sending a notification to the user when the lab is resumed.</div>
@@ -329,6 +325,14 @@
       <a class="subtopic_link" href="/lod/feature-focus/cloud-resource-templates/replacement-tokens.md">
         <div class="subtopic_title">Replacement Tokens</div>
         <div class="subtopic_description">Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/skillable-enhanced-account-security.md">
+        <div class="subtopic_title">Skillable Enhanced Account Security</div>
+        <div class="subtopic_description">Guidance for authenticating user accounts with Skillable Platforms, as well as account management in each platform.</div>
+      </a>   
+      <a class="subtopic_link" href="/lod/lab-advisor.md">
+         <div class="subtopic_title">Skillable Studio Lab Advisor</div>
+         <div class="subtopic_description">The Lab Advisor provides recommendations for possible issues found in lab profiles and lab profile configuration.</div>
       </a>
       <a class="subtopic_link" href="/lod/snapshots.md">
          <div class="subtopic_title">Snapshots</div>
