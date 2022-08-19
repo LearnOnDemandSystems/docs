@@ -9,5 +9,5 @@ This document describes how to find AWS templates for use with AWS.
 [Return to the Cloud Slice guide][back]
 
 [back-to-top]: #cloud-slice-guide---find-resource-templates-for-microsoft-azure "Return to the top of the document"
-[back]: ../cloud-slice.md#create-cloud-resource-templates-in-lab-on-demand "Return to the Cloud Slice guide"
+[back]: ../cloud-slice.md#create-cloud-resource-templates-in-onelearn-lab-on-demand "Return to the Cloud Slice guide"
 
