@@ -71,13 +71,13 @@ There are additional settings that can **optionally** be configured:
 
 - **Delay**: allows you to introduce a delay between the moment the life cycle event occurs and the action is executed. 
 
-- **Timeout**: (**applies to execution of cloud platform scripts and custom scripts**) Controls how long Lab on Demand will wait for the script to execute before giving up. Timeouts will trigger an error that can be defined in the _Error Action_ field. 
+- **Timeout**: (**applies to execution of cloud platform scripts and custom scripts**) Controls how long Skillable Studio will wait for the script to execute before giving up. Timeouts will trigger an error that can be defined in the _Error Action_ field. 
 
 - **Repeat**: (**applies to execution of cloud platform scripts and custom scripts**) The life cycle action script can be repeated one or more times until it returns a value of true. This can be useful when checking the state of a remote resource. For instance, if a previous action began as an asynchronous deployment in an external platform, this action could be used to check for completion of that deployment. By returning false if the deployment is still under way and true if the deployment is complete, repeating the script will hold up the lab deployment process until your remote resource is ready. 
 
     >[!note] The script will need to return true/false to trigger the repeat feature. 
 
-- **Error Action**: controls how Lab on Demand will handle errors that occur when executing this action. All errors are logged against the lab instance by default. You can also choose to notify the user about the error or to end the lab. To prevent users from losing their work, only events early in the lifecycle (build, building, running, etc) allow you to end the lab when an error occurs. 
+- **Error Action**: controls how Skillable Studio will handle errors that occur when executing this action. All errors are logged against the lab instance by default. You can also choose to notify the user about the error or to end the lab. To prevent users from losing their work, only events early in the lifecycle (build, building, running, etc) allow you to end the lab when an error occurs. 
 
 ## Send Web Request
 
@@ -150,13 +150,13 @@ Multiple commands types are available:
 
 - **Shell with UI**: Shell command execution with Command Prompt UI visible to the student. 
 
->[!knowledge] If a Life Cycle Action script encounters an error, and that error is not caught, Lab on Demand will attempt to execute the script from the beginning up to three times. If after three attempts the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
+>[!knowledge] If a Life Cycle Action script encounters an error, and that error is not caught, Skillable Studio will attempt to execute the script from the beginning up to three times. If after three attempts the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
 
 ## Execute Cloud Platform Command
 
 Cloud Platform commands are used to target a cloud platform such as Microsoft Azure or Amazon Web Services with a PowerShell, Python, C# or JavaScript command. 
 
-Along with traditional syntax, there is additional syntax that can be used to interact with Lab on Demand. 
+Along with traditional syntax, there is additional syntax that can be used to interact with Skillable Studio. 
 
 - Setting Lab Variables: sets a variable that can be recalled in subsequent lab instructions using @lab replacement tokens, as many times as necessary. 
 
@@ -194,13 +194,13 @@ Language options include:
 - **JavaScript (AWS Only)**: uses node.js 14
     - **AWS**: AWS SDK for JS 3
 
->[!knowledge] If a Life Cycle Action cloud platform script encounters an error, and that error is not caught, Lab on Demand will attempt to execute the script from the beginning every 60 seconds until true for up to 30 minutes. If after 30 minutes the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
+>[!knowledge] If a Life Cycle Action cloud platform script encounters an error, and that error is not caught, Skillable Studio will attempt to execute the script from the beginning every 60 seconds until true for up to 30 minutes. If after 30 minutes the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
 
 ## Execute Custom Script
 
 Custom scripts allow you to execute scripts during the life cycle of a lab, using a specific package for the selected language or using native syntax for the selected language. 
 
-Scripts executed using this method are typically used to target outside of Lab on Demand. As a best practice, it is recommended to use [Execute Machine Command](#execute-machine-command) to target virtual machines and [Execute Cloud Platform Command](#execute-cloud-platform-command) to target cloud environments. 
+Scripts executed using this method are typically used to target outside of Skillable Studio. As a best practice, it is recommended to use [Execute Machine Command](#execute-machine-command) to target virtual machines and [Execute Cloud Platform Command](#execute-cloud-platform-command) to target cloud environments. 
 
 - PowerShell: [PowerShell Gallery](https://wwpowershellgallery.com/)
 - Python: [PyPi](https://pypi.org/)
@@ -210,8 +210,8 @@ Scripts executed using this method are typically used to target outside of Lab o
 - C#: [Nuget](https://www.nuget.org/)
     - Add PyPI package
 
->[!knowledge] If a Life Cycle Action custom script encounters an error, and that error is not caught, Lab on Demand will attempt to execute the script from the beginning every 60 seconds until true for up to 30 minutes. If after 30 minutes the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
+>[!knowledge] If a Life Cycle Action custom script encounters an error, and that error is not caught, Skillable Studio will attempt to execute the script from the beginning every 60 seconds until true for up to 30 minutes. If after 30 minutes the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
 
-For more information about the available languages, see our [Lab on Demand Scripting documentation](scripting-home.md).
+For more information about the available languages, see our [Skillable Studio Scripting documentation](scripting-home.md).
 
 [Back to top](#life-cycle-actions)
