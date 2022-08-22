@@ -58,15 +58,15 @@ To remediate a recommendation, perform the following steps:
 
 ## Frequently Asked Questions
 
-- **Q**: What resources can Lab Advisor provide recommendations for? 
+- Q: What resources can Lab Advisor provide recommendations for? 
  
-  **A**: Lab Advisor scans lab profiles and reports issues found with lab profile configuration and components used in lab profiles.
+  A: Lab Advisor scans lab profiles and reports issues found with lab profile configuration and components used in lab profiles.
 
-- **Q**: Which lab profiles will lab advisor show me on my dashboard? 
+- Q: Which lab profiles will lab advisor show me on my dashboard? 
 
-    **A**: Lab Advisor can report on lab profiles that are configured on your user account on the _Managed Organizations_ tab. 
+    A: Lab Advisor can report on lab profiles that are configured on your user account on the _Managed Organizations_ tab. 
 
-- **Q**: What information can the lab advisor recommend? 
+- Q*: What information can the lab advisor recommend? 
  
   **A**: Lab Advisor can provide recommendations for the following categories: 
     
