@@ -68,7 +68,7 @@ To remediate a recommendation, perform the following steps:
 
 - Q*: What information can the lab advisor recommend? 
  
-  **A**: Lab Advisor can provide recommendations for the following categories: 
+  A: Lab Advisor can provide recommendations for the following categories: 
     
   - Cost
   - In-lab Experience
