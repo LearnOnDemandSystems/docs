@@ -9,7 +9,7 @@ isPublished: true
 ## Table of Contents
 
 - [Overview](#overview)
-- [Replication TImes](#replication-times)
+- [Replication Times](#replication-times)
 - [Delivery Regions](#delivery-regions)
 
 ## Overview 
