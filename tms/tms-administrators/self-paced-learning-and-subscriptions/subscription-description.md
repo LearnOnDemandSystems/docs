@@ -1,5 +1,6 @@
 ---
 title: "What is a subscription?"
+details: "A description of subscription and its features."
 isPublished: true
 ---
 
@@ -7,17 +8,19 @@ isPublished: true
 
 Subscriptions deliver on-demand, self-paced training to your users through a set of courses. These courses are available to the user to take and retake an unlimited number of times within a limited time period. While a user’s subscription is active, they can select any course in the subscription catalog and immediately begin their training. Using subscriptions enables your users to work through the training they want, when they want it, without your staff having to manage individual course assignments.
 
-![](/tms/images/subscription-process.png)
+![](/tms/images/subcription-process-redone.png.png)
 
 There are several components to a subscription:
 
 * **Subscription Profile** – A subscription is set up using a template called a Subscription Profile. This determines the available courses and the duration a subscriber has access to those courses.
-* **Subscription Assignment** – Access to a subscription given to a specific person.
-* **On-Demand Subscription Catalog** – A listing of all course available, where subscribers can select any course as self-paced training through a course assignment. The catalog automatically has bookmarks, and you can choose to display courses using tiles. Both filters and learning paths can be added.
+* **Subscription** – An assignment to a specific learner to access the subscription profile content.
+* **On-Demand Subscription Catalog** – A listing of all courses available, where subscribers can select any course as self-paced training through a course assignment. Both filters and learning paths can be added.
 * **Bookmark** – A placeholder to mark courses to access later. Bookmarked courses can be viewed from the Bookmarks link in the catalog or on the user’s Current Training page.
-* **Learning Path** – A subset of courses within a subscription to direct user learning to a specific topic. Users can access learning paths from a link in the catalog.
+* **Learning Path** – A subset of courses within a subscription to direct learning for a specific topic. Users can access learning paths from a link in the catalog.
 
 Once you have created a Subscription Profile, you can assign subscriptions to users. The subscriber opens their assignment to a catalog of courses available to them. They can bookmark courses of interest, filter and search for courses, review learning paths for recommended learning on a topic and begin self-paced training on any course.
+
+An assigned subscription can be cancelled within 24 hours of creation if the learner has not launched any course activities.
 
 ![](/tms/images/subscription-image.png)
 
