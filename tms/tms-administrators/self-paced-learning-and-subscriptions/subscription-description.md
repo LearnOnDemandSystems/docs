@@ -8,7 +8,7 @@ isPublished: true
 
 Subscriptions deliver on-demand, self-paced training to your users through a set of courses. These courses are available to the user to take and retake an unlimited number of times within a limited time period. While a user’s subscription is active, they can select any course in the subscription catalog and immediately begin their training. Using subscriptions enables your users to work through the training they want, when they want it, without your staff having to manage individual course assignments.
 
-![](/tms/images/subcription-process-redone.png)
+![](/tms/images/subcription-process-redone1.png)
 
 There are several components to a subscription:
 
