@@ -165,7 +165,7 @@ For more information about the available languages and which versions are suppor
 
     ```PowerShell
     //do stuff... we want to report success and set the score value as 50%
-    Set-ActivityResult -Score .5
+    Set-ActivityResult -Percentage .5
     ```
 
 - **Send a Notification to the User**
