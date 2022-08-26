@@ -14,33 +14,11 @@ Our default HTML5 controller is built for quick and easy launches with minimum l
 
 1. In **Edge**, the language is tied to the local machine's language.
 
-1. In **Internet Explorer**;
-
-    - [] Open **Internet Options**
-
-    - [] At the bottom of the **General Tab**, click **Languages**
-
-    - [] Click **Set Language Preferences**.
-
-    - [] Ensure your language is listed as the top option.
-
 1. In other browsers such as Google Chrome or Mozilla Firefox;
 
     - [] Open the **Settings** menu and locate the **language settings** section.
 
     - [] Ensure the desired language is listed at the top of the list of languages. 
-
-
-### When Using the Enhanced Controller in Hyper-V and ESX Labs
-
-When using the Enhanced Controller with Hyper-V, your non-US keyboard should automatically be detected for the following languages:
-
-- English
-- Japanese
-- German
-- Italian
-- Portuguese
-- French
 
 ### Changing Local Settings on Local or Virtual Machines
 

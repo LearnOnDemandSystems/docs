@@ -348,8 +348,6 @@ To add a screenshot by pasting from your local clipboard:
     - **Format**: JPG or PNG. Choose the format you wish to use for the screenshot.
     - **File Name**: You can provide a file name for the screenshot. If a file name is not provided, the screenshot will be assigned a randomly generated name and stored in Skillable Studio.
     
-    **Note**: Pasting images into the lab instructions is not supported in Internet Explorer 11.
-
 ![](images/paste-image-dialog.png)
 
 To Add a screenshot by dragging an image into the lab instructions window:
@@ -1459,8 +1457,6 @@ The following settings on the advanced tab allow you to customize the client use
 - **Enable Type Text:** Enables Type Text support in the lab.
 
 - **Show Virtual Machine Power Options:** Checking this box enables virtual machine power options to be available to users.
-
-- **Require Hyper-V Enhanced Controller:** Checking this box requires the user to use the Hyper-V Enhanced controller to work in the lab. If this box is checked, users will not be able to use any other machine remote controllers. Note that the Hyper-V enhanced controller only allows one user to access the lab at a time. 
 
 - **Save/Cancel Options:** 
 
