@@ -24,6 +24,8 @@ An assigned subscription can be cancelled within 24 hours of creation if the lea
 
 ![](/tms/images/subscription-image.png)
 
+ _A view of the On-Demand Subscription Catalog_
+
 ### Additional Resources
 - [How can I create a subscription?](/tms/tms-administrators/self-paced-learning-and-subscriptions/create-subscription.md)
 - [How can I create learning paths?](/tms/tms-administrators/self-paced-learning-and-subscriptions/create-learning-path.md)
