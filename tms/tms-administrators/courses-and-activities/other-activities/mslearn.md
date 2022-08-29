@@ -1,6 +1,6 @@
 ---
 title : "How do I enable Microsoft Learn Courseware and Achievement Code Access in Skillable TMS?"
-ispublished: no
+ispublished: yes
 ---
 
 # How do I enable Microsoft Learn Courseware and Achievement Code Access in Skillable TMS?
