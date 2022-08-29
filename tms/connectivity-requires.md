@@ -112,9 +112,7 @@ The majority of VM or container based labs can be accessed via HTML5 websocket c
 
 ### Custom Integrations and iFrames:
 
-If a lab uses an iframe integration, 3rd party cookies must not be blocked by the web browser used to access the lab. If 3rd party cookies are blocked, an _Access Denied_ message will be displayed when launching the lab. Most web browsers do not block 3rd party cookies by default. If you're browser is blocking 3rd party cookies, please check with the browser's vendor to learn more about how third party cookies may be blocked.
-
-### Labs that do not explicitly require the Enhanced controller:
+If a lab uses an iframe integration, 3rd party cookies must not be blocked by the web browser used to access the lab. If 3rd party cookies are blocked, an _Access Denied_ message will be displayed when launching the lab. Most web browsers do not block 3rd party cookies by default. If your browser is blocking 3rd party cookies, please check with the browser's vendor to learn more about how third party cookies may be blocked.
 
 All connections utilize secure WebSockets connections over port 443. No plugin installation is required.
 
@@ -125,13 +123,3 @@ All connections utilize secure WebSockets connections over port 443. No plugin i
 | Microsoft Edge | 1+ |
 
 <sup>1</sup> In some cases, the Firefox browser can cause repeating characters in ESX labs.
-
-### Labs that require the Enhanced controller:
-
-| **Virtual Machine Control** | **Browser** | **Version** | **Protocol** | **Ports** |
-| --- | --- | --- | --- | --- |
-| **Enhanced** | Internet Explorer | 8+<sup>1</sup> | VMRDP | 21xxx or 443 <sup>2</sup> |
-
-<sup>1</sup> IE 8 and 9 are End of Life and are listed here for legacy purposes
-
-<sup>2</sup> The 21xxx value depends on which host server in the cloud the lab is running on. If connection on port 21xxx fails, the Enhanced client will rollover and attempt the connection on port 443.
