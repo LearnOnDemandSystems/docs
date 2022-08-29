@@ -90,10 +90,6 @@ If you are experiencing frequent disconnects or lag when controlling your machin
 
 When connecting to a lab instance via a proxy, certain configuration requirements must be met for each remote controller. For more information, please review the [Proxy Requirements](proxy-requires.md) article.
 
-## When Using Windows Server Operating Systems
-
-When connecting to our Training Management System (TMS) portals with a computer having Windows Server operating systems on it, you may experience difficulty in connecting to the sign-in page or clicking on some buttons. Steps to remediate can be found [here.](/tms/end-user-student-faqs/basics/windows-server-os.md)
-
 ## In-Lab Software Whitelisting Information for Lab Developers
 
 Software that communicates with remote servers outside of the lab environment may need addresses whitelisted with the vendor to work. The below address ranges are used by NAT internet access labs.
