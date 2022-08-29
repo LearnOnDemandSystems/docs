@@ -1,6 +1,6 @@
 ---
-title: "Azure Shared Image Gallery Virtualization"
-description: "Deploy an Azure hosted virtual machine using Azure Shared Image Gallery."
+title: "Azure Compute Gallery Virtualization"
+description: "Deploy an Azure hosted virtual machine using Azure Compute Gallery."
 isPublished: true
 ---
 
@@ -43,7 +43,7 @@ To set a VM using a Compute Gallery, there is some configuration to do in Azure 
 When a region option must be selected, it is recommended to select the same region for each to avoid issues during the process. Once the process is completed, the files needed to launch the VM in a different region can be replicated to all needed regions.
 
 ### Create a Resource Group
-Create a new resource group. This will be used to store your Shared Image Gallery. 
+Create a new resource group. This will be used to store your Compute Gallery. 
 
 1. Go to the [Azure portal](https://portal.azure.com) and log in to your account. 
 1. From the Azure Admin page, click **Resource Groups** on the left side navigation.
@@ -61,15 +61,15 @@ Create a Compute Gallery. This will be used to store your Image Definitions, Ima
 1. Click **+Add** in the upper-left of the resource group section of the page. 
 1. Search for Azure Compute Gallery and select it from the search results.
 
-    1. **Subscription**: Select the subscription that the Shared Image Gallery will bill to when resource are deployed. 
-    1. **Resource Group**: Select the resource group where the shared image gallery will be deployed to. This should default to the resource group selected in the previous step. 
-    1. **Name**: Name the shared image gallery.
-    1. **Region**: Select a region where the shared image gallery will be deployed.
+    1. **Subscription**: Select the subscription that the Compute Gallery will bill to when resource are deployed. 
+    1. **Resource Group**: Select the resource group where the Compute Gallery will be deployed to. This should default to the resource group selected in the previous step. 
+    1. **Name**: Name the Compute Gallery.
+    1. **Region**: Select a region where the Compute Gallery will be deployed.
     1. Click **Next: Review + Create**.
     1. Click **Create**.
 
 ### Add Image Definition
-Create an image definition to define specifications for virtual machines that are created and deployed from your shared image gallery. 
+Create an image definition to define specifications for virtual machines that are created and deployed from your Compute Gallery. 
 
 1. Go to the Compute Gallery you just created. 
 1. Click **+Add new image definition** in the upper-left of the page. 
@@ -174,7 +174,7 @@ On the **Create a managed disk** page, enter the following:
 
 At this point, you should have the following created in your resource group in Azure:
 
-- Shared Image Gallery
+- Compute Gallery
 - Image Definition
 - Image Version
 - Disk
@@ -190,9 +190,9 @@ Create a subscription pool, using the authentication information from your subsc
 1. Click **Create Cloud Subscription**.
 1. Configure the storage settings on the subscription itself.
 
-The Shared Image Gallery where the image definition is stored needs to be mapped in the cloud subscription that is associated with the lab that will use the VM.
+The Compute Gallery where the image definition is stored needs to be mapped in the cloud subscription that is associated with the lab that will use the VM.
 
-To map the shared image gallery in the subscription:
+To map the Compute Gallery in the subscription:
 
 1. Navigate to the **cloud subscription** in Skillable Studio. 
 
@@ -209,7 +209,7 @@ To map the shared image gallery in the subscription:
 
     ![](IMAGES/cloud-subscription-storage-sig.png)
 
->[knowledge] The following fields are used for Managed Disk VMs, **skip these fields for Shared Image Gallery configuration**. To learn more about managed disk configuration, read [Azure Managed Disk Virtualization](azure-virtualization.md).
+>[knowledge] The following fields are used for Managed Disk VMs, **skip these fields for Compute Gallery configuration**. To learn more about managed disk configuration, read [Azure Managed Disk Virtualization](azure-virtualization.md).
 >
 > - Template Storage Account
 > - Template Storage Resource Group
