@@ -5,7 +5,7 @@ isPublished: true
 ---
 # Create an Azure Hosted Virtual Machine
 
-> [!alert] This is a deprecated method. For new implementations, please use the [Shared Image Gallery](/lod/azure-shared-image-gallery-vm.md) method instead. 
+> [!alert] This is a deprecated method. For new implementations, please use the [Compute Gallery](/lod/azure-shared-image-gallery-vm.md) method instead. 
 
 
 1. [Overview](#overview)

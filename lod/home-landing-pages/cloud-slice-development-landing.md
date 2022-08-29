@@ -88,8 +88,8 @@
          <div class="subtopic_description">Deploy an Azure hosted virtual machine using Managed Disks.</div>
       </a>        
       <a class="subtopic_link" href="/lod/azure-shared-image-gallery-vm.md">
-         <div class="subtopic_title">Azure Virtualization - Shared Image Gallery</div>
-         <div class="subtopic_description">Deploy an Azure hosted virtual machine using Azure Shared Image Gallery.</div>
+         <div class="subtopic_title">Azure Virtualization - Compute Gallery</div>
+         <div class="subtopic_description">Deploy an Azure hosted virtual machine using Azure Compute Gallery.</div>
       </a> 
       <a class="subtopic_link" href="/lod/cloud-fabric-explanation.md">
         <div class="subtopic_title">Cloud Fabric Explanation</div>
