@@ -4,14 +4,14 @@ description: "Deploy an Azure hosted virtual machine using Azure Shared Image Ga
 isPublished: true
 ---
 
-# Azure Shared Image Gallery Virtualization
+# Azure Compute Gallery Virtualization
 
-A virtual machine (VM) can be deployed in Azure and accessed from a launch lab using [Azure Shared Image Gallery](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/shared-image-galleries). The VM can be replicated to multiple regions, so that it can geolocate the lab user and launch the VM in the Azure region that is physically closest to the lab user. 
+A virtual machine (VM) can be deployed in Azure and accessed from a launch lab using [Azure Compute Gallery](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/shared-image-galleries) (formerly known as Shared Image Gallery). The VM can be replicated to multiple regions, so that it can geolocate the lab user and launch the VM in the Azure region that is physically closest to the lab user. 
 
 ## Overview
 
-To set a VM using a Shared Image Gallery, there is some configuration to do in Azure before you can configure a VM profile and Lab profile in Skillable Studio. You will need to create several components in Azure and they must be completed in the order below, as each one builds upon the previous. 
-1. Shared Image Gallery
+To set a VM using a Compute Gallery, there is some configuration to do in Azure before you can configure a VM profile and Lab profile in Skillable Studio. You will need to create several components in Azure. These must be completed in the order below, as each one builds upon the previous. 
+1. Compute Gallery
 1. Image Definition
 1. Image Version
 1. Disk
@@ -20,14 +20,14 @@ To set a VM using a Shared Image Gallery, there is some configuration to do in A
 
 [Azure Setup](#azure-setup)
 - [Create a Resource Group](#create-a-resource-group)
-- [Create a Shared Image Gallery](#create-a-shared-image-gallery)
+- [Create a Compute Gallery](#create-a-compute-gallery)
 - [Add Image Definition](#add-image-definition)
 - [Upload a VHD File](#upload-a-vhd-file)
     - [Create a Storage Account Inside the New Resource Group](#create-a-storage-account-inside-the-resource-group)
     - [Create Containers Inside of the Blob Service in Your Storage Account](#create-containers-inside-of-the-blob-service-in-your-storage-account)
     - [Uploading a VHD To Azure](#uploading-a-vhd-to-azure)
 - [Create Managed Disk](#create-managed-disk)
-    - [Create Snapshot](#create-snapshot)
+    - [Create Snapshot](#create-a-snapshot)
 - [Create Image Version](#create-image-version)
 - [Update Replication](#update-replication)
 - [Azure Check List](#azure-check-list)
@@ -54,12 +54,12 @@ Create a new resource group. This will be used to store your Shared Image Galler
     1. Click **Next: Review + Create**.
     1. Click **Create**.
 
-### Create Shared Image Gallery
-Create a Shared Image Gallery. This will be used to store your Image Definitions, Image Versions, Snapshots and Disks. 
+### Create a Compute Gallery
+Create a Compute Gallery. This will be used to store your Image Definitions, Image Versions, Snapshots and Disks. 
 
 1. Go to the resource group you just created.
 1. Click **+Add** in the upper-left of the resource group section of the page. 
-1. Search for Shared Image Gallery and select it from the search results.
+1. Search for Azure Compute Gallery and select it from the search results.
 
     1. **Subscription**: Select the subscription that the Shared Image Gallery will bill to when resource are deployed. 
     1. **Resource Group**: Select the resource group where the shared image gallery will be deployed to. This should default to the resource group selected in the previous step. 
@@ -71,7 +71,7 @@ Create a Shared Image Gallery. This will be used to store your Image Definitions
 ### Add Image Definition
 Create an image definition to define specifications for virtual machines that are created and deployed from your shared image gallery. 
 
-1. Go to the Shared Image Gallery you just created. 
+1. Go to the Compute Gallery you just created. 
 1. Click **+Add new image definition** in the upper-left of the page. 
 1. **Region**: Select a region where the image definition will be created. 
 1. **Image definition name**: Name the image definition. This name will be used in Skillable Studio in the _Machine Image_ fields on the VM profile. 
