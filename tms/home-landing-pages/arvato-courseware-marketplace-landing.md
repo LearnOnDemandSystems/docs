@@ -93,11 +93,11 @@
       <a class="subtopic_link" href="/tms/arvato-marketplace/faq-for-arvato-marketplace/expiration.md">
         <div class="subtopic_title">Do the labs I purchased through Courseware Marketplace have an expiration date?</div>
       </a>
-         <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/mslearn.md">
-        <div class="subtopic_title">Do I need to purchase labs for the instructor?</div>
+         <a class="subtopic_link" href="/tms/arvato-marketplace/faq-for-arvato-marketplace/purchase-labs-for-instructor.md">
+        <div class="subtopic_title">How do I enable Microsoft Learn Courseware and Achievement Code Access in Skillable TMS?</div>
       </a>
-        <a class="subtopic_link" href="/tms/arvato-marketplace/faq-for-arvato-marketplace/purchase-labs-for-instructor.md">
-        <div class="subtopic_title">DoHow do I enable Microsoft Learn Courseware and Achievement Code Access in Skillable TMS?</div>
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/mslearn.md">
+        <div class="subtopic_title">Do I need to purchase labs for the instructor?</div>
       </a>
       <a class="subtopic_link" href="/tms/arvato-marketplace/faq-for-arvato-marketplace/vouchers-not-showing-in-manage-class-vouchers.md">
         <div class="subtopic_title">Why are my class vouchers not showing in Manage Class Vouchers?</div>
