@@ -33,9 +33,6 @@
       <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/where-do-i-get-help.md">
         <div class="subtopic_title">How can I reach someone for help?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/windows-server-os.md">
-        <div class="subtopic_title">Important Note for Windows Server Operating Systems Users</div>
-      </a>
     </div>
   </div>
   <div class="subtopic">
