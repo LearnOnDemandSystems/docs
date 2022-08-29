@@ -46,7 +46,7 @@ To surface the button for learners on their enrollment page, you will need to su
 1. Complete entering your class information
 1. **Save**
 
-![](tms/images/achieve-code.png)
+![](/tms/images/achieve-code.png)
 
 _Achievement Code URL field on the Class page_
 
