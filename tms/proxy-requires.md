@@ -8,8 +8,8 @@ To connect to a lab over a proxy, the following requirements must be met for eac
 
 **HTML5:**
 
-1. Secure websocket connections over port 443 must be supported
+1. Secure websocket connections over port 443 must be supported.
 
-1. Websocket connection upgrade request (ws:// or wss://) headers must not be altered
+1. Websocket connection upgrade request (ws:// or wss://) headers must not be altered.
 
-1. Certificates must not be altered or repackaged
+1. Certificates must not be altered or repackaged.

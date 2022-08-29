@@ -1460,7 +1460,7 @@ The following settings on the advanced tab allow you to customize the client use
 
 - **Save/Cancel Options:** 
 
-    - **Allow User to Cancel Labs:** allows the user to cancel the lab at any point
+    - **Allow User to Cancel Labs:** Allows the user to cancel the lab at any point
     - **Allow user to Save labs:** allows the user to save the lab in it's current state and return at a later time. Note that saved labs are only saved for 48 hours. Users can extend the saved lab expiration by resuming the lab and saving again. Each save sets the timer back to 48 hours. After 48 hours has passed, the lab progress and components are discarded and cannot be recovered. 
     - **Allow User to Extend Time Remaining:** Allows the user to extend the time remaining in the lab environment. 
     - **Auto-Save incomplete Labs:** Enables the lab to automatically save incomplete labs after a specified amount of time has passed.

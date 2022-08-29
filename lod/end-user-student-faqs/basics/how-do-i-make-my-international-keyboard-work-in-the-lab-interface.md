@@ -14,7 +14,7 @@ Our default HTML5 controller is built for quick and easy launches with minimum l
 
 1. In **Edge**, the language is tied to the local machine's language.
 
-1. In other browsers such as Google Chrome or Mozilla Firefox;
+1. In browsers such as Google Chrome or Mozilla Firefox;
 
     - [] Open the **Settings** menu and locate the **language settings** section.
 

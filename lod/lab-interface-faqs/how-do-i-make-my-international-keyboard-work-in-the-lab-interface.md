@@ -25,7 +25,7 @@ When using the Skillable Studio lab interface, there is support for internationa
 
     1. Set your local machine settings to the desired language. 
 
-- In other browsers such as **Google Chrome** or **Mozilla Firefox**;
+- In browsers such as **Google Chrome** or **Mozilla Firefox**;
 
     1. Open the **Settings** menu and locate the **language settings** section.
 
