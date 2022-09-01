@@ -19,7 +19,6 @@ To launch and use a lab, the following requirements must be met:
     1. Secure Web sockets on HTTPS port 443 and 43443
     1. RDP over port 21xxx or 443 (Enhanced control)
     1. For more information see Browser/Controller Support below
-1. Have administrative rights on the local machine if installing the Enhanced control (Hyper-V w/RDP only).
 
 
 ## Bandwidth Requirements
