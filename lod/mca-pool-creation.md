@@ -37,8 +37,9 @@ An Azure enterprise application needs to be created for Cloud Slice. The applica
 1. Select **+ New Application**.
 1. Select **+ Create your own application**.
 1. Enter a name for the application. 
+1. Select the option **Integration any other application you don't find in the gallery (Non-gallery)**.
 1. Select **Create**.
-1. Navigate to **App Registrations** in Azure AD and select the cloud-slice-app you've created.
+1. Navigate to **App Registrations** in Azure AD and select the application you just created.
 1. Select **Certificates & Secrets** and generate a client secret for Skillable Studio to use, taking note of the value of the secret you generate. Store this information in a secure location. 
  
 ## MCA CSS Pool Creation
