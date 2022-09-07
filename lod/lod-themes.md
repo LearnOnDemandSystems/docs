@@ -160,4 +160,3 @@ b.alt="Alternative text to help screen readers goes here"
 
 */
 ```
-.
