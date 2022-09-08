@@ -1,3 +1,8 @@
+---
+title: "What is the Upcoming Events link?"
+isPublished: true
+---
+
 # What is the Upcoming Events link?
 
 Several navigation links can be found at the top of every page in the TMS. One of the links you may see is for **Upcoming Events**; this may also be labeled as **Events** or **Schedule**.
