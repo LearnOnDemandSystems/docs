@@ -9,16 +9,16 @@ During class you may want to watch your students' progress in their labs. This c
 
 By using lab monitoring you can see a listing of all students' running labs which includes:
 
-- Name of the lab being worked in.
-- Active virtual machine in the lab.
-- How long the lab has been running.
-- Amount of time since the student's last activity was performed in the lab.
+- Name of the lab being worked in
+- Active virtual machine in the lab
+- How long the lab has been running
+- Amount of time since the student's last activity was performed in the lab
 
 You can also take actions through the lab monitoring tool like:
 
-- View the student's lab as they work in it.
-- Take control of the student's lab.
-- Share files with students.
+- View the student's lab as they work in it
+- Take control of the student's lab
+- Share files with students
 
 >:small_orange_diamond: [Watch a video on lab monitoring.](https://youtu.be/YzUQveZ56tQ) 
 
