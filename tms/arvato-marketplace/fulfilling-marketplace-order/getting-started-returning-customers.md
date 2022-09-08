@@ -1,5 +1,5 @@
 ---
-title: " I just ordered online labs through Courseware Marketplace and am returning to Skillable. Can you remind me what to do next?"
+title: "I just ordered online labs through Courseware Marketplace and am returning to Skillable. Can you remind me what to do next?"
 description: "Instructions for returning purchasers of Skillable labs through the Courseware Marketplace. Explaining where to go to set up delivery, redeem vouchers for the labs by creating a class, and how to add students for lab access in the class."
 isPublished: true
 ---
