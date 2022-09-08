@@ -1,17 +1,17 @@
 ---
-title: "Azure Shared Image Gallery Virtualization"
-description: "Deploy an Azure hosted virtual machine using Azure Shared Image Gallery."
+title: "Azure Compute Gallery Virtualization"
+description: "Deploy an Azure hosted virtual machine using Azure Compute Gallery."
 isPublished: true
 ---
 
-# Azure Shared Image Gallery Virtualization
+# Azure Compute Gallery Virtualization
 
-A virtual machine (VM) can be deployed in Azure and accessed from a launch lab using [Azure Shared Image Gallery](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/shared-image-galleries). The VM can be replicated to multiple regions, so that it can geolocate the lab user and launch the VM in the Azure region that is physically closest to the lab user. 
+A virtual machine (VM) can be deployed in Azure and accessed from a launch lab using [Azure Compute Gallery](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/shared-image-galleries) (formerly known as Shared Image Gallery). The VM can be replicated to multiple regions, so that it can geolocate the lab user and launch the VM in the Azure region that is physically closest to the lab user. 
 
 ## Overview
 
-To set a VM using a Shared Image Gallery, there is some configuration to do in Azure before you can configure a VM profile and Lab profile in Lab on Demand. You will need to create several components in Azure and they must be completed in the order below, as each one builds upon the previous. 
-1. Shared Image Gallery
+To set a VM using a Compute Gallery, there is some configuration to do in Azure before you can configure a VM profile and Lab profile in Skillable Studio. You will need to create several components in Azure. These must be completed in the order below, as each one builds upon the previous. 
+1. Compute Gallery
 1. Image Definition
 1. Image Version
 1. Disk
@@ -20,19 +20,19 @@ To set a VM using a Shared Image Gallery, there is some configuration to do in A
 
 [Azure Setup](#azure-setup)
 - [Create a Resource Group](#create-a-resource-group)
-- [Create a Shared Image Gallery](#create-a-shared-image-gallery)
+- [Create a Compute Gallery](#create-a-compute-gallery)
 - [Add Image Definition](#add-image-definition)
 - [Upload a VHD File](#upload-a-vhd-file)
     - [Create a Storage Account Inside the New Resource Group](#create-a-storage-account-inside-the-resource-group)
     - [Create Containers Inside of the Blob Service in Your Storage Account](#create-containers-inside-of-the-blob-service-in-your-storage-account)
     - [Uploading a VHD To Azure](#uploading-a-vhd-to-azure)
 - [Create Managed Disk](#create-managed-disk)
-    - [Create Snapshot](#create-snapshot)
+    - [Create Snapshot](#create-a-snapshot)
 - [Create Image Version](#create-image-version)
 - [Update Replication](#update-replication)
 - [Azure Check List](#azure-check-list)
 
-[Lab on Demand Setup](#lab-on-demand-setup)
+[Skillable Studio Setup](#skillable-studio-setup)
 - [Subscription Pool](#subscription-pool)
 - [Virtual Machine Profile](#virtual-machine-profile)
 - [Lab Profile](#lab-profile)
@@ -43,7 +43,7 @@ To set a VM using a Shared Image Gallery, there is some configuration to do in A
 When a region option must be selected, it is recommended to select the same region for each to avoid issues during the process. Once the process is completed, the files needed to launch the VM in a different region can be replicated to all needed regions.
 
 ### Create a Resource Group
-Create a new resource group. This will be used to store your Shared Image Gallery. 
+Create a new resource group. This will be used to store your Compute Gallery. 
 
 1. Go to the [Azure portal](https://portal.azure.com) and log in to your account. 
 1. From the Azure Admin page, click **Resource Groups** on the left side navigation.
@@ -54,27 +54,27 @@ Create a new resource group. This will be used to store your Shared Image Galler
     1. Click **Next: Review + Create**.
     1. Click **Create**.
 
-### Create Shared Image Gallery
-Create a Shared Image Gallery. This will be used to store your Image Definitions, Image Versions, Snapshots and Disks. 
+### Create a Compute Gallery
+Create a Compute Gallery. This will be used to store your Image Definitions, Image Versions, Snapshots and Disks. 
 
 1. Go to the resource group you just created.
 1. Click **+Add** in the upper-left of the resource group section of the page. 
-1. Search for Shared Image Gallery and select it from the search results.
+1. Search for Azure Compute Gallery and select it from the search results.
 
-    1. **Subscription**: Select the subscription that the Shared Image Gallery will bill to when resource are deployed. 
-    1. **Resource Group**: Select the resource group where the shared image gallery will be deployed to. This should default to the resource group selected in the previous step. 
-    1. **Name**: Name the shared image gallery.
-    1. **Region**: Select a region where the shared image gallery will be deployed.
+    1. **Subscription**: Select the subscription that the Compute Gallery will bill to when resource are deployed. 
+    1. **Resource Group**: Select the resource group where the Compute Gallery will be deployed to. This should default to the resource group selected in the previous step. 
+    1. **Name**: Name the Compute Gallery.
+    1. **Region**: Select a region where the Compute Gallery will be deployed.
     1. Click **Next: Review + Create**.
     1. Click **Create**.
 
 ### Add Image Definition
-Create an image definition to define specifications for virtual machines that are created and deployed from your shared image gallery. 
+Create an image definition to define specifications for virtual machines that are created and deployed from your Compute Gallery. 
 
-1. Go to the Shared Image Gallery you just created. 
+1. Go to the Compute Gallery you just created. 
 1. Click **+Add new image definition** in the upper-left of the page. 
 1. **Region**: Select a region where the image definition will be created. 
-1. **Image definition name**: Name the image definition. This name will be used in LOD in the _Machine Image_ fields on the VM profile. 
+1. **Image definition name**: Name the image definition. This name will be used in Skillable Studio in the _Machine Image_ fields on the VM profile. 
 1. **Operating system**: select the operating system that your VM will use. 
 1. **VM Generation**: Select the VM generation that your VM will use. 
 1. **Operating system state**: Select the state that the OS will be in at the time of launch. Generalized typically boots slower, but may be needed for some learning scenarios. Specialized typically boots quicker, but may skip some basic configuration steps that some learning scenarios may benefit from including. 
@@ -174,7 +174,7 @@ On the **Create a managed disk** page, enter the following:
 
 At this point, you should have the following created in your resource group in Azure:
 
-- Shared Image Gallery
+- Compute Gallery
 - Image Definition
 - Image Version
 - Disk
@@ -182,7 +182,7 @@ At this point, you should have the following created in your resource group in A
 
 If you are missing any of these items in your resource group, please go back to previous steps and complete any sections that were missed. 
 
-## Lab On Demand Setup
+## Skillable Studio Setup
 
 ### Subscription Pool
 Create a subscription pool, using the authentication information from your subscription in Azure. 
@@ -190,17 +190,17 @@ Create a subscription pool, using the authentication information from your subsc
 1. Click **Create Cloud Subscription**.
 1. Configure the storage settings on the subscription itself.
 
-The Shared Image Gallery where the image definition is stored needs to be mapped in the cloud subscription that is associated with the lab that will use the VM.
+The Compute Gallery where the image definition is stored needs to be mapped in the cloud subscription that is associated with the lab that will use the VM.
 
-To map the shared image gallery in the subscription:
+To map the Compute Gallery in the subscription:
 
-1. Navigate to the **cloud subscription** in LOD. 
+1. Navigate to the **cloud subscription** in Skillable Studio. 
 
 1. Click **Edit** next to the subscription that you want to map. 
 
 1. Click the **Storage** tab of the _Edit Cloud Subscription_ dialog. 
 
-1. Enter the name of each in LOD, to align with the containers in your Azure storage account.
+1. Enter the **name** of each in Skillable Studio, to align with the containers in your Azure storage account.
 
     - **Image Library Name**: 
     - **Image Library Resource Group**:
@@ -209,7 +209,7 @@ To map the shared image gallery in the subscription:
 
     ![](IMAGES/cloud-subscription-storage-sig.png)
 
->[knowledge] The following fields are used for Managed Disk VMs, **skip these fields for Shared Image Gallery configuration**. To learn more about managed disk configuration, read [Azure Managed Disk Virtualization](azure-virtualization.md).
+>[knowledge] The following fields are used for Managed Disk VMs, **skip these fields for Compute Gallery configuration**. To learn more about managed disk configuration, read [Azure Managed Disk Virtualization](azure-virtualization.md).
 >
 > - Template Storage Account
 > - Template Storage Resource Group

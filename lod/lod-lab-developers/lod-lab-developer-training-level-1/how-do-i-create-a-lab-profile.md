@@ -2,7 +2,7 @@
 
 A Lab Profile is used to provide the lab interface, the virtual machines, and other items used in the lab to the user. A Lab Profile is a required component of all labs.
 
-For LOD lab component terminology and guidelines for building Lab Series and Lab Profiles, please read the [LOD Terminology and Guidelines for Building a Lab article](lod-terminology-and-guidelines-for-building-a-lab.md).
+For Skillable Studio lab component terminology and guidelines for building Lab Series and Lab Profiles, please read the [Skillable Studio Terminology and Guidelines for Building a Lab article](lod-terminology-and-guidelines-for-building-a-lab.md).
 
 There are two locations to create a Lab Profile: 
 

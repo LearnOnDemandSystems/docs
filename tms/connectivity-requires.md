@@ -19,7 +19,6 @@ To launch and use a lab, the following requirements must be met:
     1. Secure Web sockets on HTTPS port 443 and 43443
     1. RDP over port 21xxx or 443 (Enhanced control)
     1. For more information see Browser/Controller Support below
-1. Have administrative rights on the local machine if installing the Enhanced control (Hyper-V w/RDP only).
 
 
 ## Bandwidth Requirements
@@ -39,7 +38,7 @@ In addition to the software requirements above we recommend the following:
 
 ## Firewall Exception Rule Information
 
-For those that need to create a firewall exception rule to allow connectivity to the Lab on Demand servers (this isn&#39;t common), the following information can be used to create a limited destination rule to only allow the above protocols and ports from your network to the Lab on Demand cloud.
+For those that need to create a firewall exception rule to allow connectivity to the Skillable Studio servers (this isn&#39;t common), the following information can be used to create a limited destination rule to only allow the above protocols and ports from your network to the Skillable Studio cloud.
 
 - Domain Names:
   - *.skillable.com
@@ -59,7 +58,7 @@ For those that need to create a firewall exception rule to allow connectivity to
 
 Certain lab environments utilize GitHub; therefore, the following URL should be excepted: ```https://githubusercontent.com```
 
-The Lab on Demand system is a cloud platform that automatically provisions and connects the learner with private sandboxed resources. There is no way to predict which IP address in the cloud the learner will connect to for the provisioning of their virtual machines. Therefore, we provide a range of IP addresses and only a second level domain name.
+The Skillable Studio system is a cloud platform that automatically provisions and connects the learner with private sandboxed resources. There is no way to predict which IP address in the cloud the learner will connect to for the provisioning of their virtual machines. Therefore, we provide a range of IP addresses and only a second level domain name.
 
 For Hyper-V and Hyper-V w/RDP only labs, the domains and IP addresses in the table below may also be required as firewall exceptions. We strongly encourage using names, and not IP addresses, for firewall and proxy configuration if possible, as the IP addresses may change without warning (and without documentation update). This allows access even in network failover and future geographic targeting scenarios.
 
@@ -90,10 +89,6 @@ If you are experiencing frequent disconnects or lag when controlling your machin
 
 When connecting to a lab instance via a proxy, certain configuration requirements must be met for each remote controller. For more information, please review the [Proxy Requirements](proxy-requires.md) article.
 
-## When Using Windows Server Operating Systems
-
-When connecting to our Training Management System (TMS) portals with a computer having Windows Server operating systems on it, you may experience difficulty in connecting to the sign-in page or clicking on some buttons. Steps to remediate can be found [here.](/tms/end-user-student-faqs/basics/windows-server-os.md)
-
 ## In-Lab Software Whitelisting Information for Lab Developers
 
 Software that communicates with remote servers outside of the lab environment may need addresses whitelisted with the vendor to work. The below address ranges are used by NAT internet access labs.
@@ -116,9 +111,7 @@ The majority of VM or container based labs can be accessed via HTML5 websocket c
 
 ### Custom Integrations and iFrames:
 
-If a lab uses an iframe integration, 3rd party cookies must not be blocked by the web browser used to access the lab. If 3rd party cookies are blocked, an _Access Denied_ message will be displayed when launching the lab. Most web browsers do not block 3rd party cookies by default. If you're browser is blocking 3rd party cookies, please check with the browser's vendor to learn more about how third party cookies may be blocked.
-
-### Labs that do not explicitly require the Enhanced controller:
+If a lab uses an iframe integration, 3rd party cookies must not be blocked by the web browser used to access the lab. If 3rd party cookies are blocked, an _Access Denied_ message will be displayed when launching the lab. Most web browsers do not block 3rd party cookies by default. If your browser is blocking 3rd party cookies, please check with the browser's vendor to learn more about how third party cookies may be blocked.
 
 All connections utilize secure WebSockets connections over port 443. No plugin installation is required.
 
@@ -129,13 +122,3 @@ All connections utilize secure WebSockets connections over port 443. No plugin i
 | Microsoft Edge | 1+ |
 
 <sup>1</sup> In some cases, the Firefox browser can cause repeating characters in ESX labs.
-
-### Labs that require the Enhanced controller:
-
-| **Virtual Machine Control** | **Browser** | **Version** | **Protocol** | **Ports** |
-| --- | --- | --- | --- | --- |
-| **Enhanced** | Internet Explorer | 8+<sup>1</sup> | VMRDP | 21xxx or 443 <sup>2</sup> |
-
-<sup>1</sup> IE 8 and 9 are End of Life and are listed here for legacy purposes
-
-<sup>2</sup> The 21xxx value depends on which host server in the cloud the lab is running on. If connection on port 21xxx fails, the Enhanced client will rollover and attempt the connection on port 443.

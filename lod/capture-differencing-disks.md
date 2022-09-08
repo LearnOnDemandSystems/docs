@@ -49,7 +49,7 @@ Lab developers have options for managing differencing disks. They can delete, re
 
 To manage differencing disk files:
 
-1. From the LOD admin page, click **Manage Storage** on the Storage tile. 
+1. From the Skillable Studio admin page, click **Manage Storage** on the Storage tile. 
 
 1. Click [insert where to click here] and drill down to the disks and files you wish to manage. 
 

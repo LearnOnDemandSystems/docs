@@ -53,7 +53,7 @@ Windows Server is offered under the following terms:
 * **Concurrency GB Model** - offered in increments of 768GB RAM
 * **Per GB RAM/HR Model** - offered per GB, calculated per hour
 
-Office Products are billed on a 'Per User' basis.  Every launch in Lab on Demand constitutes a billable consumption.  
+Office Products are billed on a 'Per User' basis.  Every launch in Skillable Studio constitutes a billable consumption.  
 
 * Any lab that uses a licensed version of Office through SPLA and launched will incur a billable event despite duration or if a user makes use of it.
 * A student that launches the same lab 5 times incurs 5 billable events for that lab.

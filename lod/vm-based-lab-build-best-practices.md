@@ -52,7 +52,7 @@ This document assumes that you have created or imported a virtual machine.
 
 1.  If you are configuring an **internet-connected network adapter using Web Access (NAT)**, select **Specify Ethernet (MAC) address** and generate one.
 
-    >[!KNOWLEDGE] If you are **configuring multiple virtual machines** at the same time, generate the MAC addresses for one virtual machine, and then save the VM Profile for that virtual machine before configuring the next virtual machine, otherwise the LOD system will generate the same MAC address for each VM Profile for which you select **Generate**.
+    >[!KNOWLEDGE] If you are **configuring multiple virtual machines** at the same time, generate the MAC addresses for one virtual machine, and then save the VM Profile for that virtual machine before configuring the next virtual machine, otherwise the Skillable Studio system will generate the same MAC address for each VM Profile for which you select **Generate**.
 
 1.  If you are configuring a network adapter to use with a Web Access (Public IP) network, ensure that "Specify Ethernet (MAC) address" is **not** checked.
 

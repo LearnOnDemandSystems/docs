@@ -51,13 +51,13 @@ Click to go to a specific section, or continue reading to learn more about creat
 
 Automated Activities are PowerShell, Windows command shell, or Bash shell scripts that target a Cloud Subscription or virtual machine running on Hyper-V or ESX in the lab. Cloud Subscriptions are targeted by a PowerShell script, and Windows-based virtual machines can be targeted by both PowerShell and Shell. Automated Activities support using @lab replacement tokens in scripts as well. Automated Activities can be used to help make sure the student has configured their lab environment correctly, help the student understand mistakes that are made in their lab, as well as give the student confirmation that they are completing the lab instructions correctly. Automated Activities can also be used to automate any configuration or lab steps that you wish to automate. 
 
->[!knowledge] If an automated activity script encounters an error, and that error is not caught, Lab on Demand will attempt to execute the script from the beginning up to five times. If after five attempts the the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. If the user would normally get a message from the activity, they may instead see the error. For languages that support error handling, you may catch errors to give the user a different message.
+>[!knowledge] If an automated activity script encounters an error, and that error is not caught, Skillable Studio will attempt to execute the script from the beginning up to five times. If after five attempts the the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. If the user would normally get a message from the activity, they may instead see the error. For languages that support error handling, you may catch errors to give the user a different message.
 
 ### Virtual Machine Requirements {requirements}
 
 **Hyper-V**:
 
-- LOD Integration services are not required to be installed but it is recommended, to enable features such as screen resizing. 
+- Skillable Studio Integration services are not required to be installed but it is recommended, to enable features such as screen resizing. 
 
 - Supported Windows Operating Systems:
     - Windows 10
@@ -120,7 +120,7 @@ Automated Activities are PowerShell, Windows command shell, or Bash shell script
 
 ### Automated Activity Syntax
 
-Along with traditional syntax, there is additional syntax that can be used to interact with Lab on Demand.
+Along with traditional syntax, there is additional syntax that can be used to interact with Skillable Studio.
 
 - Setting Lab Variables: sets a variable that can be recalled in subsequent lab instructions using @lab replacement tokens, as many times as necessary. 
 
@@ -133,7 +133,7 @@ Along with traditional syntax, there is additional syntax that can be used to in
     - [JavaScript Syntax](#JavaScript)
     - [C# Syntax](#C#)
 
-For more information about the available languages and which versions are supported, see our [Lab on Demand Scripting documentation](scripting-home.md).
+For more information about the available languages and which versions are supported, see our [Skillable Studio Scripting documentation](scripting-home.md).
 
 #### **PowerShell** 
 
@@ -165,7 +165,7 @@ For more information about the available languages and which versions are suppor
 
     ```PowerShell
     //do stuff... we want to report success and set the score value as 50%
-    Set-ActivityResult -Score .5
+    Set-ActivityResult -Percentage .5
     ```
 
 - **Send a Notification to the User**
@@ -471,7 +471,7 @@ For more information about the available languages and which versions are suppor
         - C# (Azure only)
         - JavaScript (AWS only) 
 
-        For more information about the available languages, see our [Lab on Demand Scripting documentation](scripting-home.md).
+        For more information about the available languages, see our [Skillable Studio Scripting documentation](scripting-home.md).
     
     - **Version**: **(Cloud subscription execution only)** select the scripting language version that the script will use. 
 
@@ -675,7 +675,7 @@ ABA Outcomes are only available on Automated Activities that have On-Demand Eval
 
 - Automated Activities support PowerShell Windows Command Shell, and Bash. Cloud Subscriptions must be targeted by a PowerShell script, and virtual machines running on Hyper-V or ESX can be targeted by PowerShell or Windows Command  Shell. Linux-based VMs running Hyper-V or ESX can be targeted by Bash.
 
--  If an automated activity script encounters an error, and that error is not caught, Lab on Demand will attempt to execute the script from the beginning up to five times. If after five attempts the the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. If the user would normally get a message from the activity, they may instead see the error. For languages that support error handling, you may catch errors to give the user a different message.
+-  If an automated activity script encounters an error, and that error is not caught, Skillable Studio will attempt to execute the script from the beginning up to five times. If after five attempts the the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. If the user would normally get a message from the activity, they may instead see the error. For languages that support error handling, you may catch errors to give the user a different message.
 
 ### Automated Activity Notifications and Variables
 
@@ -861,7 +861,7 @@ To enable Scoring in your lab:
 
 There are two methods to return a scoring result from an automated activity.
 
-- **A binary value**: a value indicating pass or fail. A binary result allows for very simple script authoring. A binary result from a script means that the score value defined in the activity will be used. If the activity is completed correctly, the student will receive the score value defined in the LOD instructions editor for the activity. 
+- **A binary value**: a value indicating pass or fail. A binary result allows for very simple script authoring. A binary result from a script means that the score value defined in the activity will be used. If the activity is completed correctly, the student will receive the score value defined in the Skillable Studio instructions editor for the activity. 
     - If the last value encountered in the script output is a **true** value, then the script will be considered to have **passed** and the student will receive the score value of the activity. 
     - If the last value encountered in the script output is a **false** value, then the script will be considered to have **failed** and the student will not receive the score value of the activity.
 

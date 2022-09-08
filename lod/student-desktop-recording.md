@@ -59,7 +59,7 @@ Lab session recordings can be viewed from the lab instance page for the lab sess
 
 1. Click _Find Lab Instances_ at the top of the page. 
 
-    >[!knowledge] Alternatively, you can use the _Find Lab Instances_ link on the Administration page of Lab on Demand, and filter for the lab profile you want to view. 
+    >[!knowledge] Alternatively, you can use the _Find Lab Instances_ link on the Administration page of Skillable Studio, and filter for the lab profile you want to view. 
 
 1. The next page will show all lab instances that are associated with the lab profile. 
 
@@ -79,7 +79,7 @@ Lab session recordings can be viewed from the lab instance page for the lab sess
 
 ### View Session Recordings for a Particular User
 
-1. Navigate to the user's profile page in Lab on Demand. 
+1. Navigate to the user's profile page in Skillable Studio. 
 
 1. Click _Lab Instances_ at the top of the page to view all the user's lab instances. 
 
@@ -107,7 +107,7 @@ If you would like to download a copy of the lab instance recording for archival 
 
 1. Click _Find Lab Instances_ at the top of the page. 
 
-    >[!knowledge] Alternatively, you can use the _Find Lab Instances_ link on the Administration page of Lab on Demand, and filter for the lab profile you want to view. 
+    >[!knowledge] Alternatively, you can use the _Find Lab Instances_ link on the Administration page of Skillable Studio , and filter for the lab profile you want to view. 
 
 1. The next page will show all lab instances that are associated with the lab profile. 
 

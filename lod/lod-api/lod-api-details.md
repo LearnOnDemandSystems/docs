@@ -84,7 +84,7 @@ The **Details** command retrieves detailed information about a specified lab ins
 |LabHostName|String|No|The name of the lab host machine.|
 |DatacenterId|Integer|No|The ID of the datacenter where the lab is located.|
 |DatacenterName|String|No|The name of the datacenter where the lab is located.|
-|DeliveryRegionId|Integer|No|When specified, Lab on Demand will attempt to launch the lab in the specified delivery region if a suitable host in that region is available and all required storage is available in that region. Delivery regions can be found using the [DeliveryRegions command](lod-api-delivery-regions.md) or [Catalog command](lod-api-catalog.md). Using the ipAddress parameter will result in a more reliable geo-location of the lab for the end user.|
+|DeliveryRegionId|Integer|No|When specified, Skillable Studio will attempt to launch the lab in the specified delivery region if a suitable host in that region is available and all required storage is available in that region. Delivery regions can be found using the [DeliveryRegions command](lod-api-delivery-regions.md) or [Catalog command](lod-api-catalog.md). Using the ipAddress parameter will result in a more reliable geo-location of the lab for the end user.|
 |DeliveryRegionName|String|No|The name of the delivery region where the lab is located.|
 |RemoteController|String|No|The name of the remote controller used by the user.|
 |Tag|String|Yes|Lab instance tag data.|

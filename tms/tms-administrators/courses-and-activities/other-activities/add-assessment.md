@@ -7,7 +7,7 @@ isPublished: true
 
 > Please be aware that not all functionality covered in this and linked articles may be available to you. 
 
-An assessment is a multiple-choice exam or test to determine a user's comprehension of material. Assessments are added as course activities and can be mixed in among other activities. If you are interested in creating your own assessments for your courses, please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help).
+An assessment is a multiple-choice exam or test to determine a user's comprehension of material. Assessments are added as course activities and can be mixed in among other activities. If you are interested in creating your own assessments for your courses, please submit a Support ticket at [**https://skill.info/support**](https://skill.info/support).
 
 The steps below assume you have completed the Basic Information section in the course ([How do I create a basic course?](../overall/create-course.md)). Before adding a course activity, you should select whether the course will available instructor-led and/or available self-paced on the Basic Information tab. This will affect the defaults for visibility of the activities you add for classes and course assignments.
 

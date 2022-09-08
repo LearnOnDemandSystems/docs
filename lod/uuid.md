@@ -6,7 +6,7 @@ isPublished: true
 
 # Custom UUID in an ESX Virtual Machines
 
-If you would like to assign a custom unique ID to a virtual machine hosted on an ESX host, you can configure this on in the VM profile in Lab on Demand (LOD).
+If you would like to assign a custom unique ID to a virtual machine hosted on an ESX host, you can configure this on in the VM profile in Skillable Studio.
 
 There are two types of unique IDs that can be configured:
 

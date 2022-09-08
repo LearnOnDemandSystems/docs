@@ -57,7 +57,7 @@ This can also be used to provide supplementary course information, such as a syl
 
 1. **Add Section**: Adds a section to the courses activities. Sections can house SCORM modules, labs, videos, documents, external links, assessments, LTI Resource Links and Microsoft Learn Activities. 
 1. **Add SCORM Module**: Add a SCORM module as an available activity in the course. 
-1. **Add Lab**: Add a lab from Lab on Demand as an available activity in the course. 
+1. **Add Lab**: Add a lab from Skillable Studio as an available activity in the course. 
 1. **Add Video**: Add a video as an available activity in the course.
 1. **Add Document**: Add a document as an available activity in the course.
 1. **Add External Link**: Add an external link as an available activity in the course.

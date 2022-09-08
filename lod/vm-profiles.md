@@ -6,7 +6,7 @@ isPublished: true
 
 # Virtual Machine Profiles
 
-Virtual machine (VM) profiles in Lab on Demand (LOD) are used in lab profiles. VMs in LOD use Hyper-V or ESX as the hypervisor, or Virtual machines can also be deployed in a cloud environment. 
+Virtual machine (VM) profiles in Skillable Studio are used in lab profiles. VMs in Skillable Studio use Hyper-V or ESX as the hypervisor, or Virtual machines can also be deployed in a cloud environment. 
 
 ## Table of Contents
 
@@ -36,13 +36,17 @@ For information which operating systems are supposed by Hyper-V and ESX, click b
 
 ### ESX
 
+- macOS 11 Big Sur (64 bit)
+
+- macOS 12 Monterey (64 bit)
+
 - [ESX Compatibility Guide](https://www.vmware.com/resources/compatibility/search.php?deviceCategory=software&details=1&releases=428&productNames=15&page=1&display_interval=10&sortColumn=Partner&sortOrder=Asc&testConfig=16)
 
 - [ESX Virtual Machine Hardware Versions](https://kb.vmware.com/s/article/1003746)
 
 ## Create a Virtual Machine Profile 
 
-To create a Virtual Machine profile, click **Create Virtual Machine profile** from the LOD Site Administration page.
+To create a Virtual Machine profile, click **Create Virtual Machine profile** from the Skillable Studio site administration page.
 
 ![](images/create-vm-profile.png)
 
@@ -97,9 +101,9 @@ To create a Virtual Machine profile, click **Create Virtual Machine profile** fr
 
     - **Host Integration Enabled**: Enables Hyper-V Integration Services on the VM. This includes time synchronization with the host, heartbeat detection and graceful shutdown.
 
-    - **Use Enhanced Session Mode**: Enables a connection similar to an RDP connection, that allows for better performance with the HTML5 and Enhanced controllers. Enhanced session mode leverages guest services to enabled additional features such as: automatic VM logon, redirection of clipboard, audio, drives, devices, printers, and smart cards. When ESM is used in conjunction with the Enhanced controller, the login status will be preserved when switching between multiple virtual machines in a lab environment. If ESM is enabled and the HTML5 controller utilized, the virtual machines will show a login prompt whenever switching from one to another.
+    - **Use Enhanced Session Mode**: Enables a connection similar to an RDP connection. Enhanced session mode leverages guest services to enabled additional features such as: automatic VM logon, redirection of clipboard, audio, drives, devices, printers, and smart cards. If ESM is enabled and the HTML5 controller utilized, the virtual machines will show a login prompt whenever switching from one to another.
 
-    - **Enable Dynamic Screen Resizing**: Allows the VM to automatically resize it's resolution based on the size of the lab window. It is, however, limited to the resolution options available in the display settings of Windows. If the lab window is larger than the VM, there will be a gray space around the VM in the lab window. NOTE: this requires Integration services to be installed on the VM. This can be installed by clicking the gear icon at the top of a launched lab, and selecting _Install Integration Services_ and following the prompts.
+    - **Enable Dynamic Screen Resizing**: Allows the VM to automatically resize its resolution based on the size of the lab window. It is, however, limited to the resolution options available in the display settings of Windows. If the lab window is larger than the VM, there will be a gray space around the VM in the lab window. NOTE: this requires Integration services to be installed on the VM. This can be installed by clicking the gear icon at the top of a launched lab, and selecting _Install Integration Services_ and following the prompts.
 
     - **Enable Nested Virtualization**: Allows the VM profile to perform nested virtualization and run another VM on the VM.
 
@@ -172,8 +176,9 @@ To create a Virtual Machine profile, click **Create Virtual Machine profile** fr
     - **Screen Height**: Enter the screen height that the VM will use, measured in pixels.
 
     - **Enabled**: Check to enable the VM profile for use in lab profiles.
-
+<!--
     - **Enable Dynamic Screen Resizing**: Allows the VM to automatically resize it's resolution based on the size of the lab window. It is, however, limited to the resolution options available in the display settings of Windows. If the lab window is larger than the VM, there will be a gray space around the VM in the lab window. NOTE: this requires Integration services to be installed on the VM. This can be installed by clicking the gear icon at the top of a launched lab, and selecting _Install Integration Services_ and following the prompts.
+-->
 
 ### Hard Disks
 

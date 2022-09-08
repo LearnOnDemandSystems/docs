@@ -6,6 +6,8 @@ isPublished: true
 
 # Amazon Web Services Cloud Trail Log Transfer 
 
+## Table of Contents 
+
 - [Enable Cloud Log Transfer for Your Organization](#enable-cloud-log-transfer-for-your-organization)
 * [Create AWS Cloud Trail](#create-aws-cloud-trail)
   + [Choose Trail Attributes](#choose-trail-attributes)
@@ -22,8 +24,8 @@ isPublished: true
     - [Tags - optional](#tags---optional)
     - [Default Encryption](#default-encryption)
 * [Confirm CloudTrail and CloudWatch are configured correctly](#confirm-cloudtrail-and-cloudwatch-are-configured-correctly)
-* [Gather Information and Configure LOD](#gather-information-and-configure-lod)
-  + [LOD Subscription Pool](#lod-subscription-pool)
+* [Gather Information and Configure Skillable Studio](#gather-information-and-configure-skillable-studio)
+  + [Skillable Studio Subscription Pool](#skillable-studio-subscription-pool)
   + [AWS](#aws)
 	- [Cloud Watch Log Group](#cloud-watch-log-group)
     - [Cloud Log Staging](#cloud-log-staging)
@@ -39,13 +41,13 @@ To Configure the organization to use an SFTP, the following information must be 
 - Configure Username
 - Configure Password
 
-AWS Cloud Trail logging requires configuration in AWS and in Lab on Demand (LOD).
+AWS Cloud Trail logging requires configuration in AWS and in Skillable Studio.
 
-- Enable _Allow Cloud Log Transfer_ for your organization in LOD
+- Enable _Allow Cloud Log Transfer_ for your organization in Skillable Studio
 - Create an AWS Cloud Trail
 - Create an S3 bucket in AWS
 - Enable CloudWatch Logs in AWS
-- Configure Cloud Log Transfer settings in an LOD subscription pool
+- Configure Cloud Log Transfer settings in an Skillable Studio subscription pool
 
 
 ## Enable Cloud Log Transfer for Your Organization 
@@ -139,13 +141,13 @@ Click **Create Bucket**.
 	- If see events, CloudTrail and CloudWatch are configured correctly in AWS. 
 	- If you do not see events, review all previous steps and ensure a step was not missed or misconfigured.
 
-## Gather Information and Configure LOD
+## Gather Information and Configure Skillable Studio
 
-Next, we need to gather some information in AWS and use it to configure the subscription pool in LOD. In this section you should have your LOD subscription pool open, as well as the AWS Management Console. 
+Next, we need to gather some information in AWS and use it to configure the subscription pool in Skillable Studio. In this section you should have your Skillable Studio subscription pool open, as well as the AWS Management Console. 
 
-### LOD Subscription Pool
+### Skillable Studio Subscription Pool
 
-1. Navigate to your LOD subscription Pool and click **Edit**. 
+1. Navigate to your Skillable Studio subscription Pool and click **Edit**. 
 1. Go to the **Cloud Log Transfer** tab. 
 1. Check the box next to **Enable Cloud Log Transfer**.
 1. Continue to the next step in AWS. 
@@ -153,7 +155,7 @@ Next, we need to gather some information in AWS and use it to configure the subs
 ### AWS
 
 1. In a separate browser tab or window, navigate to the AWS portal, and ensure you are logged into the same account as previous steps. 
-1. Gather the required information below and configure in the LOD subscription pool.
+1. Gather the required information below and configure in the Skillable Studio subscription pool.
 
 	#### Cloud Watch Log Group
 
@@ -162,19 +164,19 @@ Next, we need to gather some information in AWS and use it to configure the subs
 	1. Note the Home Region where your Trail is created. 
 	1. Click the name of the Trail that you created. 
 	1. Copy the value for the Log group under CloudWatch Logs.
-	1. In the LOD subscription pool, enter the Log Group name into the **Cloud Watch Log Group** field. 
-	1. In the LOD subscription pool, **select the region** that matches the home region of your CloudTrail. 
+	1. In the Skillable Studio subscription pool, enter the Log Group name into the **Cloud Watch Log Group** field. 
+	1. In the Skillable Studio subscription pool, **select the region** that matches the home region of your CloudTrail. 
 
 	#### Cloud Log Staging
 
 	1. In AWS, go to the **S3 service page**.
 	1. Click the name of the S3 bucket you created.
 	1. Copy bucket name at the top of the page. 
-	1. In the LOD subscription pool, enter the S3 bucket name in the **Cloud Log Staging** field. 
+	1. In the Skillable Studio subscription pool, enter the S3 bucket name in the **Cloud Log Staging** field. 
 
-In the LOD subscription pool, SFTP settings can be overridden if needed. If SFTP settings are overridden the pool will not use the SFTP settings that are configured on the organization profile, and SFTP settings will need to be entered into the subscription pool. 
+In the Skillable Studio subscription pool, SFTP settings can be overridden if needed. If SFTP settings are overridden the pool will not use the SFTP settings that are configured on the organization profile, and SFTP settings will need to be entered into the subscription pool. 
 
-Save the LOD subscription pool. Cloud Trail Log Transfer is now configured and logs will be captured for all lab launches that use the subscription pool.  
+Save the Skillable Studio subscription pool. Cloud Trail Log Transfer is now configured and logs will be captured for all lab launches that use the subscription pool.  
 
 ## Reviewing Logs
 

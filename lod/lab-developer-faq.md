@@ -6,7 +6,7 @@ isPublished: true
 
 # Lab Developer FAQ
 
-If you are new to lab development and the Lab on Demand platform, the following list will get you started.
+If you are new to lab development and the Skillable Studio platform, the following list will get you started.
 
 
 ## Getting Started
@@ -45,11 +45,11 @@ If you are new to lab development and the Lab on Demand platform, the following 
 ## Helpful Links
 
 
-- [Introduction to Lab on Demand UI](../lod/feature-focus/lod-experience.md)
+- [Introduction to Skillable Studio UI](../lod/feature-focus/lod-experience.md)
 
 - [Lab interface FAQ](lab-interface-faq.md)
 
-- [Lab on Demand API documentation](lod-api/lod-api-main.md)
+- [Skillable Studio API documentation](lod-api/lod-api-main.md)
 
 - [Virtual machine based lab best practices](vm-based-lab-build-best-practices.md)
 

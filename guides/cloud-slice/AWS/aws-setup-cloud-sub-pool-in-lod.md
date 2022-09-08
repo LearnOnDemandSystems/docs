@@ -1,20 +1,20 @@
 ---
-title: "Setup your AWS cloud subscription in OneLearn Lab on Demand"
-description: "Configure a subscription pool in Lab on Demand, for use with AWS cloud slice."
+title: "Setup your AWS cloud subscription in Skillable Studio"
+description: "Configure a subscription pool in Skillable Studio, for use with AWS cloud slice."
 isPublished: true
 ---
 
-# Setup your AWS cloud subscription in OneLearn Lab on Demand
+# Setup your AWS cloud subscription in Skillable Studio
 
 [Return to Cloud Slice Guide](../cloud-slice.md)
 
-To add a Cloud Subscription Pool to OneLearn Lab on Demand (LOD), perform the following steps:
+To add a Cloud Subscription Pool to Skillable Studio, perform the following steps:
 
-1. Navigate to the <a href="https://labondemand.com" target="_blank">OneLearn Lab on Demand portal</a> and sign in.
+1. Navigate to the <a href="https://labondemand.com" target="_blank">Skillable Studio portal</a> and sign in.
 
 1. Open the **Subscription Pools** section on the Cloud Services tile.
 
-1. Select **Create Cloud Subscription Pool** to create a new cloud subscription pool in LOD.
+1. Select **Create Cloud Subscription Pool** to create a new cloud subscription pool in Skillable Studio.
 
 1. Select **AWS** from the **Cloud Platform** drop-down menu. 
 
@@ -28,10 +28,10 @@ To add a Cloud Subscription Pool to OneLearn Lab on Demand (LOD), perform the fo
    |----|----|
    |Name&nbsp;(required)|The name of the Cloud Subscription Pool being created.|
    |Description|The Description should describe the capabilities or the intent of the Subscription Pool.|
-   |Organization&nbsp;(required)|The organization in LOD where the managed Cloud Subscription pool will be used.|
+   |Organization&nbsp;(required)|The organization in Skillable Studio where the managed Cloud Subscription pool will be used.|
    |Enabled|This checkbox determines if the Cloud Subscription Pool is enabled or disabled.|
    |Custom&nbsp;subscription&nbsp;unavailable&nbsp;message|This message will be presented to users if they try to launch a lab and a subscription is unavailable. If this field is blank, the default message will be used.|
-   |Enable&nbsp;Health&nbsp;Checks&nbsp;|Enable health checks across all subscriptions in this pool. LOD will periodically check the subscription for configuration errors and other potential problems.|
+   |Enable&nbsp;Health&nbsp;Checks&nbsp;|Enable health checks across all subscriptions in this pool. Skillable Studio will periodically check the subscription for configuration errors and other potential problems.|
    |Health&nbsp;Check&nbsp;Interval&nbsp;|Health check frequency. The health checks for each subscription will be completed at the specified interval.|
    |Enabled&nbsp;|Enables the subscription pool for use. Unchecking this box will disable the subscription pool.|
 
@@ -49,7 +49,7 @@ To add a Cloud Subscription Pool to OneLearn Lab on Demand (LOD), perform the fo
 
    |Field Name|Description|
    |----|----|
-   |**Number&nbsp;Of&nbsp;Subscriptions**|For dedicated pools, subscriptions will be automatically created ahead of time. When this happens, LOD will create up to the number of subscriptions specified here. Please ensure that all limits on your account or subscription (set by the cloud host provider) are greater than or equal to the number entered here. For example, if your subscription limit or account limit is 20, you should not enter more than 20 in this field. |
+   |**Number&nbsp;Of&nbsp;Subscriptions**|For dedicated pools, subscriptions will be automatically created ahead of time. When this happens, Skillable Studio will create up to the number of subscriptions specified here. Please ensure that all limits on your account or subscription (set by the cloud host provider) are greater than or equal to the number entered here. For example, if your subscription limit or account limit is 20, you should not enter more than 20 in this field. |
    |**Subscription&nbsp;Name&nbsp;Prefix**|When subscriptions are created, the name of the subscription or account will start with this text.|
 
 10. Select **Save** to create the Cloud Subscription Pool.
@@ -62,4 +62,4 @@ To add a Cloud Subscription Pool to OneLearn Lab on Demand (LOD), perform the fo
 11. Select**Run Pool Setup**. This will automatically configure your cloud subscription pool. 
 -->
 
-[Back to top](#setup-your-aws-cloud-subscription-in-onelearn-lab-on-demand)
+[Back to top](#setup-your-aws-cloud-subscription-in-lab-on-demand)

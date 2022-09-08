@@ -13,7 +13,7 @@
     4. Notify Corey B. of the addition of a new document so he can add it to the search module.
 -->
 
-<div class="categoriesHeader" tabindex="0" title="Lab on Demand Featured Docs Container">Lab on Demand Featured Documents</div>
+<div class="categoriesHeader" tabindex="0" title="Skillable Studio Featured Docs Container">Skillable Studio Featured Documents</div>
 <div class="accordionModule">
   <div class="subtopic selected">
     <div id="header_1" class="subtopic_header" tabindex="0" title="A-Z Help Docs" role="button" aria-selected="true" selected>Featured</div>
@@ -32,11 +32,11 @@
       </a>
       <a class="subtopic_link" href="/lod/how-to-use-api-consumer.md">
         <div class="subtopic_title">API Best Practices and How to Use an API Consumer</div>
-        <div class="subtopic_description">Guides through the steps to configure an API Consumer in LOD, as well as best practices.</div>
+        <div class="subtopic_description">Guides through the steps to configure an API Consumer in Skillable Studio, as well as best practices.</div>
       </a>   
       <a class="subtopic_link" href="/lod/pbt/overview.md">
         <div class="subtopic_title">PBT Overview</div>
-        <div class="subtopic_description">Overview of Lab on Demand supported scoring methods.</div>
+        <div class="subtopic_description">Overview of Skillable Studio supported scoring methods.</div>
       </a>  
       <a class="subtopic_link" href="/lod/terminal-access.md">
         <div class="subtopic_title">SSH Terminal Access</div>

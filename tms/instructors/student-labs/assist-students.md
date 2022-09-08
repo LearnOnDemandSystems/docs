@@ -28,5 +28,3 @@ To monitor and assist students:
 1. Click **Monitor Labs**. 
 1. A new browser tab will open up with all your class's active lab instances displayed with pertinent data about their labs. Click the **Monitor Student** to view a student's activity as they work in a lab. 
 1. You then have the option to click **Take Control** to work through an exercise with a student.
-
->:small_blue_diamond: Monitoring labs is not available when the labs are using ESM in conjunction with Enhanced controller. You may only see the login prompt. One instance is when audio has been enabled on the VMs.

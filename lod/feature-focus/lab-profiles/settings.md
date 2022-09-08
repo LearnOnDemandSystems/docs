@@ -4,7 +4,7 @@
 1. [Networks](#networks)
 1. [Virtual Machines](#virtual-machines)
 1. [Removable Media](#removable-media)
-1. [Cloud](#cloud)
+1. [Cloud](#cloud)E
 1. [Pre-Instancing](#pre-instancing)
 1. [Life Cycle](#life-cycle)
 1. [Availability](#availability)
@@ -165,7 +165,7 @@ To use network features, such as external internet access or communication betwe
 
 1. **Create Removable Media:** Click to create removable media. This will create removable media that can be used in the lab. Removable media types include Floppy and Optical.
 
-    > [!ALERT] When removable media is created, you must choose a platform that the removable media will be used on; Hyper-V or ESX. The removable media is tagged in LOD with the platform. The media can only be used with the chosen platform. 
+    > [!ALERT] When removable media is created, you must choose a platform that the removable media will be used on; Hyper-V or ESX. The removable media is tagged in Skillable Studio with the platform. The media can only be used with the chosen platform. 
 
 ## Cloud
 
@@ -227,9 +227,9 @@ To use network features, such as external internet access or communication betwe
 
 1. **Resource Templates**: templates used to deploy resources in a cloud platform. 
 
-    - **Add Resource Template:** add a resource template that is already created in LOD. 
+    - **Add Resource Template:** add a resource template that is already created in Skillable Studio. 
 
-    - **Create Template:** create a new resource template in LOD. 
+    - **Create Template:** create a new resource template in Skillable Studio. 
 
 ## Pre-Instancing
 
@@ -292,7 +292,7 @@ There are additional settings that can **optionally** be configured:
 
 - **Delay**: allows you to introduce a delay between the moment the life cycle event occurs and the action is executed. 
 
-- **Error Action**: controls how Lab on Demand will handle errors that occur when executing this action. All errors are logged against the lab instance by default. You can also choose to notify the user about the error or to end the lab. To prevent users from losing their work, only events early in the lifecycle (build, building, running, etc) allow you to end the lab when an error occurs. 
+- **Error Action**: controls how Skillable Studio will handle errors that occur when executing this action. All errors are logged against the lab instance by default. You can also choose to notify the user about the error or to end the lab. To prevent users from losing their work, only events early in the lifecycle (build, building, running, etc) allow you to end the lab when an error occurs. 
 
 
 For more information about Action and Event types, please see our [Life Cycle Actions documentation](/lod/life-cycle-actions.md).
@@ -350,7 +350,9 @@ For more information about Action and Event types, please see our [Life Cycle Ac
 
 1. **Show Virtual machine Power Options:** Checking this box enables virtual machine power options to be available to users.
 
-1. **Require Hyper-V Enhanced Controller:** Checking this box requires the user to use the Hyper-V Enhanced controller to work in the lab. If this box is checked, users will not be able to use any other machine remote controllers. Note that the Hyper-V enhanced controller only allows one user to access the lab at a time. 
+<!--
+1. **Require Hyper-V:** Checking this box requires the user to use the Hyper-V Enhanced controller to work in the lab. If this box is checked, users will not be able to use any other machine remote controllers. Note that the Hyper-V enhanced controller only allows one user to access the lab at a time. 
+-->
 
 1. **Enable Instance Link Sharing:** When enabled, the lab instance URLs can be shared between users. If a user copies the URL from their browser's URL bar, they can send it to another user, or open it in a different browser. Note that most virtual machines only allow one user to access them at a time. This settings does not bypass the connection limitation of virtual machines. 
 
@@ -394,7 +396,7 @@ For more information about Action and Event types, please see our [Life Cycle Ac
 
 ### Instructions Source
 
-Lab on Demand allows you to set Azure DevOps (ADO) or GitHub as an instruction source, using an external ADO or GitHub repository into a lab and use that repository as the source of IDLx content for that lab. For more information, read [External Instruction Source](/lod/instruction-source.md).
+Skillable Studio allows you to set Azure DevOps (ADO) or GitHub as an instruction source, using an external ADO or GitHub repository into a lab and use that repository as the source of IDLx content for that lab. For more information, read [External Instruction Source](/lod/instruction-source.md).
 
 - **Instructions Source:** indicates the source of the instructions; GitHub or Azure DevOps. 
 
@@ -406,7 +408,7 @@ Lab on Demand allows you to set Azure DevOps (ADO) or GitHub as an instruction s
 
 - **Content File:** the name and file path of the content file. 
 
-- **Last Sync Time:** the last time a sync was attempted or completed between Lab on Demand and the external instruction source. 
+- **Last Sync Time:** the last time a sync was attempted or completed between Skillable Studio and the external instruction source. 
 
 - **Last Sync Status:** the status of the last sync attempt.
 
@@ -418,7 +420,7 @@ Lab on Demand allows you to set Azure DevOps (ADO) or GitHub as an instruction s
 
 ### LTI (For LTI 1.1 and older only)
 
-1. **Launch URLs**: **LTI** (Learning Tools Interoperability) is a standard defined by the IMS Global Learning Consortium that allows learning systems to consume content provided by external tools or services. This standard enables rich integration between different learning services and platforms, combining their strengths to offer more value to students of those learning systems. For more information on Lab on Demand LTI integration, see our guide here: [LTI Guide](/guides/lti/lod-lti.md).
+1. **Launch URLs**: **LTI** (Learning Tools Interoperability) is a standard defined by the IMS Global Learning Consortium that allows learning systems to consume content provided by external tools or services. This standard enables rich integration between different learning services and platforms, combining their strengths to offer more value to students of those learning systems. For more information on Skillable Studio LTI integration, see our guide here: [LTI Guide](/guides/lti/lod-lti.md).
 
     - **LTI Launch URL:** the URL to launch the lab via LTI.
     - **Scoring Policy:** Select the type of Scoring Policy. Types of Scoring Policy include: _Time Spent_ and _Tasks Complete_.

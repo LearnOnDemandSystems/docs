@@ -1,4 +1,4 @@
-## Copy an Azure Resource Manager (ARM) template into LOD
+## Copy an Azure Resource Manager (ARM) template into Skillable Studio
 
 1. The code block below contains an ARM template. Click anywhere in that code block to copy its contents to your clipboard.
 

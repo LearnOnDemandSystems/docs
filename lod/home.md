@@ -20,14 +20,14 @@
         <a href="https://connect.skillable.com/lod" class="categoryThread">
           <i class="material-icons light-green" aria-hidden="true">bookmarks</i>
           <span class="categoryTitleFeatured" title="API Documentation">API Documentation</span>
-          <span class="categoryDescription" title="API Documentation">Documentation on how and when to use Skillable Connect: LOD Edition.</span>
+          <span class="categoryDescription" title="API Documentation">Documentation on how and when to use Skillable Connect: Skillable Studio Edition.</span>
         </a>
       </div>
       <div class="category"> 
-        <a href="/lod/code-lab.md" class="categoryThread">
+        <a href="/lod/lab-advisor.md" class="categoryThread">
           <i class="material-icons green" aria-hidden="true">bookmarks</i>
-          <span class="categoryTitleFeatured" title="Code Labs">Code Labs</span>
-          <span class="categoryDescription" title="Code Lab Authoring explained. Glossary of terms and walkthrough for creating your first code lab.">Code Lab Authoring explained. Glossary of terms and walkthrough for creating your first code lab.</span>
+          <span class="categoryTitleFeatured" title="Skillable Studio Lab Advisor">Skillable Studio Lab Advisor</span>
+          <span class="categoryDescription" title="The Lab Advisor provides recommendations for possible issues found in lab profiles and lab profile configuration.">The Lab Advisor provides recommendations for possible issues found in lab profiles and lab profile configuration.</span>
         </a>
       </div>
       <div class="viewAll"><a href="/lod/home-landing-pages/featured-landing.md" tabindex="0" class="viewAllLink" title="View all" aria-label="View all Featured Posts">View all</a></div>
@@ -123,12 +123,12 @@
       </div>
     </div>
 
-    <!-- Card - Lab on Demand Integration 
+    <!-- Card - Skillable Studio Integration 
           Max of 3 items - replace href (link), text in categoryTitle
     -->
     <div class="cardContainer">
-      <div class="lodIntegration cardContent">
-        <div class="cardHeader" tabindex="0" title="Lab on Demand Integration" aria-label="Lab on Demand Integration Docs">Lab on Demand Integration</div>
+      <div class="SkillableStudioIntegration cardContent">
+        <div class="cardHeader" tabindex="0" title="Skillable Studio Integration" aria-label="Skillable Studio Integration Docs">Skillable Studio Integration</div>
         <div class="category">
           <a href="/lod/iframe-labs.md" class="categoryThread">
             <i class="material-icons light-green" aria-hidden="true">call_merge</i>
@@ -147,20 +147,20 @@
             <span class="categoryTitle" title="LTI 1.3 Integration Spec">LTI 1.3 Integration Spec</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-integration-landing.md" title="View all" aria-label="View all Lab on Demand Integration Docs">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-integration-landing.md" title="View all" aria-label="View all Skillable Studio Integration Docs">View all</a></div>
       </div>
     </div>
 
-    <!-- Card - Lab on Demand Administration 
+    <!-- Card - Skillable Studio Administration 
           Max of 3 items - replace href (link), text in categoryTitle
     -->
     <div class="cardContainer">
-      <div class="lod_admin cardContent">
-        <div class="cardHeader" tabindex="0" title="Lab on Demand Administration" aria-label="Lab on Demand Administration Docs">Lab on Demand Administration</div>
+      <div class="SkillableStudio_admin cardContent">
+        <div class="cardHeader" tabindex="0" title="Skillable Studio Administration" aria-label="Skillable Studio Administration Docs">Skillable Studio Administration</div>
         <div class="category">
           <a href="/lod/feature-focus/lod-experience.md" class="categoryThread">
             <i class="material-icons light-green" aria-hidden="true">account_box</i>
-            <span class="categoryTitle" title="Introduction to Lab on Demand UI">Introduction to Lab on Demand UI</span>
+            <span class="categoryTitle" title="Introduction to Skillable Studio UI">Introduction to Skillable Studio UI</span>
           </a>
         </div>
         <div class="category">
@@ -175,7 +175,7 @@
             <span class="categoryTitle" title="Virtual Machine Profile Creation and Explanation">Virtual Machine Profile Creation and Explanation</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-admin-landing.md" title="View all" aria-label="View all Lab on Demand Administration Docs">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/lod-admin-landing.md" title="View all" aria-label="View all Skillable Studio Administration Docs">View all</a></div>
       </div>
     </div>
 
@@ -184,7 +184,7 @@
     -->
     <div class="cardContainer">
       <div class="azIndex cardContent">
-        <div class="cardHeader" tabindex="0" title="LOD A-Z Index" aria-label="LOD Docs A to Z">A-Z Index</div>
+        <div class="cardHeader" tabindex="0" title="Skillable Studio A-Z Index" aria-label="Skillable Studio Docs A to Z">A-Z Index</div>
         <div class="category">
           <a href="access-control-lists.md" class="categoryThread">
             <i class="material-icons light-green" aria-hidden="true">help</i>
@@ -203,7 +203,7 @@
             <span class="categoryTitle" title="API Best Practices and How to Use an API Consumer">API Best Practices and How to Use an API Consumer</span>
           </a>
         </div>
-        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/a-z-index.md" title="View all" aria-label="View all LOD Docs A to Z">View all</a></div>
+        <div class="viewAll"><a class="viewAllLink" href="/lod/home-landing-pages/a-z-index.md" title="View all" aria-label="View all Skillable Studio Docs A to Z">View all</a></div>
       </div>
     </div>
 

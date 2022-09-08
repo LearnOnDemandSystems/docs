@@ -1,6 +1,6 @@
 ---
 title: "Lab Interface Frequently Asked Questions"
-description: "Frequently asked questions about the Lab on Demand lab interface."
+description: "Frequently asked questions about the Skillable Studio lab interface."
 isPublished: true
 ---
 

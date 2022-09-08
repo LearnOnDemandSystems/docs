@@ -1,6 +1,6 @@
 ## How Do I Make My International Keyboard Work In The Lab Interface?
 
-When using the Lab on Demand (LOD) lab interface, there is support for international keyboards and languages. However, depending on the lab platform and the controller you are using, you may need to change settings in your browser, and/or the VM.
+When using the Skillable Studio lab interface, there is support for international keyboards and languages. However, depending on the lab platform and the controller you are using, you may need to change settings in your browser, and/or the VM.
 
 ## Table of Contents
 - [General Requirements for International Keyboards](#general-requirements-for-international-keyboards)
@@ -25,17 +25,7 @@ When using the Lab on Demand (LOD) lab interface, there is support for internati
 
     1. Set your local machine settings to the desired language. 
 
-- In **Internet Explorer**;
-
-    1. Open **Internet Options**
-
-    1. At the bottom of the **General Tab**, click **Languages**
-
-    1. Click **Set Language Preferences**.
-
-    1. Ensure your language is listed as the top option.
-
-- In other browsers such as **Google Chrome** or **Mozilla Firefox**;
+- In browsers such as **Google Chrome** or **Mozilla Firefox**;
 
     1. Open the **Settings** menu and locate the **language settings** section.
 
@@ -160,18 +150,3 @@ It is also possible to change the language/region using the command line interfa
 - Spanish (Puerto Rico)
 - Swedish
 - Turkish
-
-
-
-<!--
-When using the Enhanced Controller with Hyper-V, your non-US keyboard should automatically be detected for the following languages:
-
-- English
-- Japanese
-- German
-- Italian
-- Portuguese
-- French
-
-Our default HTML5 controller is built for quick and easy launches with minimum launch requirements. It may not understand different keyboard layouts depending on the configuration of the lab you are accessing. For example, even when the language within the VM is set to German, your German keyboard may not be properly recognized. Your browser must be set to the desired language for your non-US keyboard to work as intended.
--->

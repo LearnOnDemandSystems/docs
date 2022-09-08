@@ -1,10 +1,10 @@
 ## How Do I Make My International Keyboard Work In The Lab Interface?
 
-When using the Lab on Demand (LOD) lab interface, there is some support for international keyboards and languages. However, depending on the lab platform and the controller you are using, you may need to change settings on your local machine, the browser, and/or the VM and possibly download a file.
+When using the Skillable Studio lab interface, there is some support for international keyboards and languages. However, depending on the lab platform and the controller you are using, you may need to change settings on your local machine, the browser, and/or the VM and possibly download a file.
 
 #### General Requirements for International Keyboards:
 
-1. Your local machine must be set to the desired language (see [Changing Local Settings on Local or Virtual Machines](#) below)
+1. Your local machine must be set to the desired language (see [Changing Local Settings on Local or Virtual Machines](#changing-local-settings-on-local-or-virtual-machines) below)
 
 1. The Lab VM(s) must be set to the desired language.
 
@@ -14,33 +14,11 @@ Our default HTML5 controller is built for quick and easy launches with minimum l
 
 1. In **Edge**, the language is tied to the local machine's language.
 
-1. In **Internet Explorer**;
-
-    - [] Open **Internet Options**
-
-    - [] At the bottom of the **General Tab**, click **Languages**
-
-    - [] Click **Set Language Preferences**.
-
-    - [] Ensure your language is listed as the top option.
-
-1. In other browsers such as Google Chrome or Mozilla Firefox;
+1. In browsers such as Google Chrome or Mozilla Firefox;
 
     - [] Open the **Settings** menu and locate the **language settings** section.
 
     - [] Ensure the desired language is listed at the top of the list of languages. 
-
-
-### When Using the Enhanced Controller in Hyper-V and ESX Labs
-
-When using the Enhanced Controller with Hyper-V, your non-US keyboard should automatically be detected for the following languages:
-
-- English
-- Japanese
-- German
-- Italian
-- Portuguese
-- French
 
 ### Changing Local Settings on Local or Virtual Machines
 

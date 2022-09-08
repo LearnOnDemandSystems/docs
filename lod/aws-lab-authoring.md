@@ -6,12 +6,12 @@ isPublished: true
 
 # Authoring a Lab Profile to Use AWS Technologies
 
-Lab Profiles can utilize Amazon Web Services (AWS) technologies in a Cloud Slice lab environment. This requires an AWS Account, and configuration in both Lab on Demand and The AWS Portal. 
+Lab Profiles can utilize Amazon Web Services (AWS) technologies in a Cloud Slice lab environment. This requires an AWS Account, and configuration in both Skillable Studio and The AWS Portal. 
 
 Configuration Checklist: 
 
 - Enable Cloud Slice support for your AWS account in the AWS portal.  
-- Setup your AWS Account in a Lab on Demand subscription pool.
+- Setup your AWS Account in a Skillable Studio subscription pool.
 - Configure a lab profile to use the subscription pool associated with your AWS account(s).
 
 ## Table of Contents
@@ -30,7 +30,7 @@ Configuration Checklist:
 
 ## Creating a lab profile 
 
-1. From the Lab on Demand (LOD) Administration page, click _Create Lab Profile_ on the Lab Profiles tile. 
+1. From the Skillable Studio Administration page, click _Create Lab Profile_ on the Lab Profiles tile. 
 
 1. You may be taken to the Template Gallery page. If you are, click **Create Custom Environment** in the upper-right corner. 
 
@@ -103,7 +103,7 @@ Stack deployments contain Permissions, Resource Templates and Access Control Pol
 
 Resource Templates are used to specify which cloud resources will be deployed in AWS when the lab is launched. These resources will be torn down and removed from AWS when the lab is ended. 
 
-- **Add Template**: Click to add a Resource Template that has already been created in Lab on Demand. 
+- **Add Template**: Click to add a Resource Template that has already been created in Skillable Studio. 
 
 - **Create Template**: Click to create a Resource Template. For more information about Resource Template creation, [click here](create-a-resource-template-and-configure-it-into-a-resource-group.md). 
 
@@ -115,7 +115,7 @@ Access Control Policies (ACP) are used to control which resources can be deploye
 
 By default deployment of all resources in AWS is denied. Resources must be explicitly allowed in an Access Control Policy for lab users to be able to deploy them. These permissions will be granted to the user that was specified in the [Permissions](#permissions) section. 
 
-- **Add Policy**: Click to add a Resource Template that has already been created in Lab on Demand. 
+- **Add Policy**: Click to add a Resource Template that has already been created in Skillable Studio. 
 
 - **Create Policy**: Click to create an Access Control Policy. For more information about Access Control Policy creation, click [here](create-a-restriction-policy.md).
 
@@ -127,10 +127,10 @@ The lab profile can now be saved and launched.
 
 ## Related Links
 
-- [Setup your AWS cloud subscription in Lab on Demand](../guides/cloud-slice/AWS/aws-setup-cloud-sub-pool-in-lod.md)
+- [Setup your AWS cloud subscription in Skillable Studio](../guides/cloud-slice/AWS/aws-setup-cloud-sub-pool-in-lod.md)
 - [Enable cloud slice support in AWS](../guides/cloud-slice/AWS/aws-cloud-slice-setup.md)
 - [AWS permission boundaries](aws-permission-boundary.md)
 - [AWS Cloud Log transfer](aws-cloud-log-transfer.md)
 - [AWS virtualization](aws-virtualization.md)
-- [Lab on Demand AWS API capabilities](aws-capabilities.md)
+- [Skillable Studio AWS API capabilities](aws-capabilities.md)
 

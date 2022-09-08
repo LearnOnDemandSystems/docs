@@ -49,7 +49,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div id="header_1" class="subtopic_header" tabindex="0" title="Lab on Demand Configuration Docs" role="button" aria-selected="false">Lab on Demand Configuration</div>
+    <div id="header_1" class="subtopic_header" tabindex="0" title="Skillable Studio Configuration Docs" role="button" aria-selected="false">Skillable Studio Configuration</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/lod/access-control-lists.md">
         <div class="subtopic_title">Access Control Lists</div>
@@ -134,6 +134,10 @@
       <a class="subtopic_link" href="/guides/sl/sharedlabs.md">
         <div class="subtopic_title">Shared Labs (a.k.a. Cyber-Range)</div>
         <div class="subtopic_description">Configure a Shared Lab environment.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/lab-advisor.md">
+         <div class="subtopic_title">Skillable Studio Lab Advisor</div>
+         <div class="subtopic_description">The Lab Advisor provides recommendations for possible issues found in lab profiles and lab profile configuration.</div>
       </a>
       <a class="subtopic_link" href="/lod/spla-supported.md">
         <div class="subtopic_title">SPLA Supported Software</div>

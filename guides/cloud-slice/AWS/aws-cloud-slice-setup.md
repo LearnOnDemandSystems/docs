@@ -8,9 +8,9 @@ isPublished: true
 
 [Return to the Cloud Slice guide][back]
 
-This document explains how to give the OneLearn Lab on Demand (LOD) platform permissions to each Amazon Web Services account that it will use, enabling labs to use those accounts when creating Cloud Slices.
+This document explains how to give the Skillable Studio platform permissions to each Amazon Web Services account that it will use, enabling labs to use those accounts when creating Cloud Slices.
 
-The following are required to use AWS Cloud Slice with LOD:
+The following are required to use AWS Cloud Slice with Skillable Studio:
 
 - **AWS account**: must be a **root** account that can be set up as an organization. It cannot be a sub-account from an existing organization. 
 - Billing must be set up on the account
@@ -20,7 +20,7 @@ The following are required to use AWS Cloud Slice with LOD:
 
 ## Enable Cloud Slice support in your AWS Account(s)
 
-To enable Cloud Slice support, you must perform the following tasks once in each AWS Account that you want to use with OneLearn Lab on Demand:
+To enable Cloud Slice support, you must perform the following tasks once in each AWS Account that you want to use with Skillable Studio:
 
 1. Navigate to the [AWS Portal](https://aws.amazon.com/).
 
@@ -58,7 +58,7 @@ To enable Cloud Slice support, you must perform the following tasks once in each
 
 1. Click **Add User**. 
 
-1. Enter a name for the user. I.E. _LODAPI_. The naming doesn't really matter, as long as the lab author will recognize it later. 
+1. Enter a name for the user. I.E. _SkillableStudioAPI_. The naming doesn't really matter, as long as the lab author will recognize it later. 
 
 1. Next, select **programmatic  Access**. This enables an access key ID and secret access key for the AWS API, CLI, SDK, and other development tools. 
 
@@ -70,13 +70,13 @@ To enable Cloud Slice support, you must perform the following tasks once in each
 
 1. In the _Filter Policies_ field, search for **Org**.
 
-1. Click the checkbox to select **AWSOrganizationsFullAccess**. AWSOrganizationsFullAccessbe being assigned is required, so that the LOD service account can manage the organization created in previous steps. 
+1. Click the checkbox to select **AWSOrganizationsFullAccess**. AWSOrganizationsFullAccessbe being assigned is required, so that the Skillable Studio service account can manage the organization created in previous steps. 
 
     ![](../images/aws-organizationfullaccess.png)
 
 1. In the _Filter Policies_ field, search for **Admin**
 
-1. Click the checkbox to select **AdministratorAccess**. This will allow LOD service account full access to manage the root AWS Account.
+1. Click the checkbox to select **AdministratorAccess**. This will allow Skillable Studio service account full access to manage the root AWS Account.
 
     ![](../images/aws-administrator-access.png)
 
@@ -122,15 +122,15 @@ To increase the maximum amount of accounts that can be created:
 
 1. Under Case Description, enter a justification, or explanation of why you are increasing the number of accounts.
 
-1. Under Contact Options, select **web**. If you prefer, you may selet a different language. 
+1. Under Contact Options, select **web**. If you prefer, you may select a different language. 
 
     ![](../images/contact-options.png)
 
 1. Click **Submit**. 
 
-AWS generally responds within 24 hours, notifying that the case has been completed and limits are increased. The ticket confirmation is needed before setting up AWS Cloud Slice in Lab on Demand.
+AWS generally responds within 24 hours, notifying that the case has been completed and limits are increased. The ticket confirmation is needed before setting up AWS Cloud Slice in Skillable Studio.
  
-Once you have completed the above steps, and AWS has confirmed the maximum amount of accounts has been increased, you will need to [set up your Cloud Slice labs in LOD](aws-setup-cloud-sub-pool-in-lod.md). 
+Once you have completed the above steps, and AWS has confirmed the maximum amount of accounts has been increased, you will need to [set up your Cloud Slice labs in Skillable Studio](aws-setup-cloud-sub-pool-in-lod.md). 
 
 [Back to top][back-to-top]
 

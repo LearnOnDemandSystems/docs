@@ -6,11 +6,11 @@ isPublished: true
 
 # Container Images
 
-Lab on Demand supports using Docker Container Images in labs. Container images are imported from Docker Hub.
+Skillable Studio supports using Docker Container Images in labs. Container images are imported from Docker Hub.
 
-## Create a Container Image in LOD
+## Create a Container Image in Skillable Studio
 
-1. From the LOD Admin page, click **Create Container Image**. 
+1. From the Skillable Studio Admin page, click **Create Container Image**. 
 
     ![](images/container-images-tile.png)
 

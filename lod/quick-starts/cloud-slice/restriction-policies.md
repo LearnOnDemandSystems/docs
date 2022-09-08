@@ -5,15 +5,15 @@
 > This guide is **optional**, but it is recommended to avoid incurring additional charges from Cloud providers. 
 >
 > To complete this quick start, you must have the following:
-> * a cloud subscription configured for use with the One Learn Lab on Demand platform (LOD);
+> * a cloud subscription configured for use with the Skillable Studio platform;
 >
-> * a Cloud Subscription Pool created in LOD that contains the cloud subscription(s) you will use with your Cloud Slice;
+> * a Cloud Subscription Pool created in Skillable Studio that contains the cloud subscription(s) you will use with your Cloud Slice;
 >
 > * a lab profile that is properly configured to be a Cloud Slice lab;
 >
-> If you have not yet configured your cloud subscription for use with LOD, go through the [Configure Subscription Quick Start](configure-subscription.md).
+> If you have not yet configured your cloud subscription for use with Skillable Studio, go through the [Configure Subscription Quick Start](configure-subscription.md).
 >
-> If you have configured your cloud subscription properly but have not added your subscription into LOD for use with Cloud Slice labs, go through the [Add Subscription into LOD Quick Start](add-subscription-into-lod.md)
+> If you have configured your cloud subscription properly but have not added your subscription into Skillable Studio for use with Cloud Slice labs, go through the [Add Subscription into Skillable Studio Quick Start](add-subscription-into-lod.md)
 >
 > If you have not yet configured your lab profile to be a Cloud Slice lab, go through the [Creating a Cloud Slice lab Quick Start](create.md)
 
@@ -65,7 +65,7 @@ For more information about the items that can be used in a Restriction Policy, s
 
 Congratulations, you have just created your first Restriction Policy! Now let's add your Restriction Policy to your Cloud Slice lab.
 
-1. Return to the <[Lab on Demand Administration page](/Admin).
+1. Return to the <[Skillable Studio Administration page](/Admin).
 
 1. Click <[Find Lab Profiles](/LabProfile) to find your lab profile.
 

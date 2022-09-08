@@ -36,9 +36,9 @@ return await (new Promise((resolve, reject) => {
 
 Your environment will be configured with your lab's AWS account credentials. In most cases, you should be able to start working with the various AWS client classes and authentication should be handled for you.
 
-## Interacting with Lab on Demand
+## Interacting with Skillable Studio
 
-Your scripts can communicate success or failure to LOD in one of two ways.
+Your scripts can communicate success or failure to Skillable Studio in one of two ways.
 
 ### Return a Boolean value 
 
@@ -96,7 +96,7 @@ const myVariable1 = "@lab.Variable(myVariable1)";
 
 ##Dealing with Async
 
-It's very common to work with asynchronous JavaScript. The AWS SDK for Javascript uses asynchrous programming extensively. This can complicate returning simple true/false values to LOD to signify whether a script execution should be considered successful. There are two primary ways to deal with this.
+It's very common to work with asynchronous JavaScript. The AWS SDK for Javascript uses asynchrous programming extensively. This can complicate returning simple true/false values to Skillable Studio to signify whether a script execution should be considered successful. There are two primary ways to deal with this.
 
 ### Use setActivityResult
 
@@ -138,7 +138,7 @@ const s3 = new S3Client({ region: "us-east-1" });
 
 ### Use a Promise
 
-You can use a promise and return the result to Lab on Demand by resolving the promise.
+You can use a promise and return the result to Skillable Studio by resolving the promise.
 
 ```JavaScript
 return await (new Promise((resolve, reject) => {

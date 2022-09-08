@@ -12,7 +12,7 @@ This feature allows you to permanently save container changes so that they are p
 
 To save changes to a container image:
 
-1. Ensure the container image you wish to make changes to belongs to a container registry that you have access to push to. For more information about Container Registries, read [LOD Container Registries](container-registries.md).
+1. Ensure the container image you wish to make changes to belongs to a container registry that you have access to push to. For more information about Container Registries, read [Skillable Studio Container Registries](container-registries.md).
 
 1. **Launch the lab** you that contains the container you wish to make changes to. 
 

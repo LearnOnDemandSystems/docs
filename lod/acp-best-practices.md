@@ -22,7 +22,7 @@ An Access Control Policy is used by a cloud provider to limit the resources that
   - [Related Topics](#related-topics)
 
 ## What Are Access Control Policies
-Access Control Policy is a Lab on Demand (LOD) platform term. More natively, these have different names depending on the cloud provider you are authoring for as seen in the below table:
+Access Control Policy is a Skillable Studio platform term. More natively, these have different names depending on the cloud provider you are authoring for as seen in the below table:
 
 |Cloud Platform|Policy Type|
 |--|--|
@@ -38,7 +38,7 @@ The primary purposes of Access Control Policies are:
 # Frequently Asked Questions
 
 ## Will an Access Control Policy block my lab resource templates from deploying
-This depends on a couple of variables such as what your policy is blocking and your options selected on your lab profile in LOD. Below are the 2 different deployment scenarios and how they interact with your policy:
+This depends on a couple of variables such as what your policy is blocking and your options selected on your lab profile in Skillable Studio. Below are the 2 different deployment scenarios and how they interact with your policy:
   
   - **Deployment Method 1: Resources deploy before the user is in the lab.**
     - This is the default and most common deployment method. 
@@ -51,10 +51,10 @@ This depends on a couple of variables such as what your policy is blocking and y
 ## Are there sample policies available somewhere
 Yes! For more samples, see the table below for each of the cloud providers:
 
-|Cloud Platform|LODS Sample|Official Samples|
+|Cloud Platform|Skillable Sample|Official Samples|
 |--|--|--|
-|Microsoft Azure|[LODS Azure Samples](./Azure/)|[Microsoft Docs](https://docs.microsoft.com/en-us/azure/governance/policy/samples/index)|
-|Amazon Web Services|[LODS AWS Samples](./AWS/)|[AWS Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_examples.html)|
+|Microsoft Azure|[Skillable Azure Samples](./Azure/)|[Microsoft Docs](https://docs.microsoft.com/en-us/azure/governance/policy/samples/index)|
+|Amazon Web Services|[Skillable AWS Samples](./AWS/)|[AWS Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_examples.html)|
 
 
 ## How do I know what conditions or fields I can use when I am creating a policy from scratch
@@ -75,5 +75,5 @@ Yes you can. Amazon also supplies documentation on the overall policy structure 
 
 ## Related Topics
 
-- [Create an Access Control Policy in Lab on Demand](/lod/create-a-restriction-policy.md)
+- [Create an Access Control Policy in Skillable Studio](/lod/create-a-restriction-policy.md)
 - [Create an Access Control Policy in Microsoft Azure](/lod/acp-creation-process.md)

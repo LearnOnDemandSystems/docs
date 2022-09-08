@@ -8,11 +8,11 @@ isPublished: true
 
 An Access Control Policy is used by a cloud provider to limit the resources that can be provisioned within the resource group. This prevents additional cloud costs by preventing users from creating resources that are not relevant to the content or outside the scope of the lab.
 
->[!Note] In LOD, ACPs are attached to a resource group. To add an ACP to a Lab Profile, you will need to [create a resource template and configure a resource group](./create-a-resource-template-and-configure-it-into-a-resource-group.md) first. 
+>[!Note] In Skillable Studio , ACPs are attached to a resource group. To add an ACP to a Lab Profile, you will need to [create a resource template and configure a resource group](./create-a-resource-template-and-configure-it-into-a-resource-group.md) first. 
 
 ## Table of Contents
 - [Finding an Existing ACP](#finding-an-existing-acp)
-- [Creating an Access Control Policy in Lab on Demand (LOD)](#creating-an-access-control-policy-in-lab-on-demand)
+- [Creating an Access Control Policy in Skillable Studio](#creating-an-access-control-policy-in-skillable-studio)
 - [ACP Examples](#acp-examples)
     - [Azure](#azure)
     - [AWS](#aws)
@@ -22,21 +22,21 @@ An Access Control Policy is used by a cloud provider to limit the resources that
 
 ## Finding an Existing ACP
 
-Lab on Demand (LOD) has a library of existing ACPs to make building common cloud labs easier and more secure. To find publicly accessible ACPs:
+Skillable Studio has a library of existing ACPs to make building common cloud labs easier and more secure. To find publicly accessible ACPs:
 
 1. From the **Admin** page, in the **Cloud Services** tile, select **Access Control Policies**.
-2. Add the filter **Organization Name**, select **Does** **Equal**, and enter **LOD Managed**
+2. Add the filter **Organization Name**, select **Does** **Equal**, and enter **Skillable Studio Managed**
 3. You can narrow your search further by filtering for the desired **Cloud Platform** and whether or not the ACP requires a Security Review:
 
-![LOD Managed ACPs](./images/find-acp-lodmanaged.png)
+![Skillable Studio  Managed ACPs](./images/find-acp-lodmanaged.png)
 
 > [!Note] These ACPs are created, maintained, and publicly available by Skillable, to all developers. While the resources allowed on these ACPs will not change, the syntax is subject to change depending on cloud security best practices.
 
 You can also search your own Organization's existing ACPs by following the same process and changing the **Organization** filter to your desired Organization. 
 
-## Creating an Access Control Policy in Lab on Demand 
+## Creating an Access Control Policy in Skillable Studio  
 
-1. Navigate to the **Cloud Services** tile, on the LOD Admin page.
+1. Navigate to the **Cloud Services** tile, on the Skillable Studio  Admin page.
 
 1. Click **Access Control Policies**.
 
@@ -127,7 +127,7 @@ For more in-depth information on how to create your own custom ACPs, our [Lab de
 
     >[!knowledge] You can search for your lab profile by doing the following:
     >
-    >1. Return to the Lab on Demand Administration page.
+    >1. Return to the Skillable Studio  Administration page.
     >
     >1. Select **Find Lab Profiles** to find your lab profile.
     >

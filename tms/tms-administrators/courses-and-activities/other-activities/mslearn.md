@@ -1,37 +1,55 @@
 ---
-title : "How do I enable Microsoft Learn courseware?"
-ispublished: no
+title : "How do I enable Microsoft Learn Courseware and Achievement Code Access in Skillable TMS?"
+ispublished: yes
 ---
 
-# How do I enable Microsoft Learn courseware integration and earn achievement redemption for enrollments?
+# How do I enable Microsoft Learn Courseware and Achievement Code Access in Skillable TMS?
 
-You can link Microsoft (MS) Learn to receive MS Learn achievement redemption for enrollments, the organization delivering the class receives credit for the completed enrollments. You can add MS Learn courseware to courses and learners can open the courseware from their class enrollment.
+Set up your organization to receive achievement redemption for each completed enrollment by entering your organization's Microsoft Learn Partner ID and Campaign Code on your organization profile. 
 
-## Enable MS Learn achievement redemption
-Set up your organization to receive achievement redemption for each completed enrollment by entering your organization's Microsoft Learn Partner ID and Campaign Code on your organization profile.
+![](/tms/images/mslearn-redemption1.png)
 
-![](/tms/images/mslearn-redemption.png)
+### Contents of article
+- [Student View of Microsoft Learn Courseware Access](#student-view-of-microsoft-learn-courseware-access)
+- [Organizational requirements in Skillable TMS](#organizational-requirements-in-skillable-tms)
+- [Enabling Microsoft Learn Achievement Codes](#enabling-microsoft-learn-achievement-codes)
 
-To set up the integration for your organization to receive achievement redemption:
-1. **Edit** your Organization profile and open the Preferences tab
-1. Under Business Settings input your **Microsoft Partner ID**, and if applicable, a **Microsoft Campaign Code**
+## Student View of Microsoft Learn Courseware Access
+You can surface direct links to the Microsoft Learn Courseware and Achievement Codes to your learners on their enrollment page as shown below: 
+
+![](/tms/images/mslearncsw-msachcode-buttons.png)
+
+_Student enrollment showing access buttons to MS Learn Courseware and Microsoft Achievement Code_
+
+To ensure these features are available to your learner and instructors, the actions listed below are required. 
+
+[Return to contents of article](#contents-of-article)
+
+## Organizational requirements in Skillable TMS 
+Do the folowing to enable the MS Learn Courseware button, this step is also necessary for the Microsoft Learn Achievement Code to surface:
+1. **Edit** your Organization profile
+1. Open the **Preferences** tab
+1. Under Business Settings input your **Microsoft Partner ID** and **Microsoft Campaign Code**
 1. **Save**
 
-![](/tms/images/ms-id.png)
+![](/tms/images/ms-id1.png)
 
-## Add Microsoft Learn courseware integration into courses and classes
-You can add MS Learn courseware to courses you create, when the course is selected for a class the students will have access to the courseware from their enrollment.
+_Input your Microsoft Partner ID and Microsoft Campaign Code on your Organization profile_
 
-To add MS Learn courseware to your course:
-1. **Edit** your course
-1. On the Basic Information tab, scroll down to check the **Available for Microsoft Learn integration** box
-1. An **MS Learn Course ID** field displays, enter the course ID
-1. Once the course ID is entered the MS Learn Courseware URL shows below it
-1. Click **Save**
+[Return to contents of article](#contents-of-article)
 
-![](/tms/images/mslearn-courseid.png)
+## Enabling Microsoft Learn Achievement Codes
+To surface the button for learners on their enrollment page, you will need to supply the **root URL** when creating a class: 
 
-## Instructor and learner access
-In a class using an integrated MS Learn course, an MS Learn Courseware button displays for students on the class enrollment details page and for the instructor on the class details page.
+1. Create your **class**
+1. After selecting your course, a box labeled **Achievement Code URL** displays; enter only the **Root URL** from Microsoft Learn. The system will automatically complete the URL. Do not include your Campaign code or MPN Location ID here. 
+1. Complete entering your class information
+1. **Save**
 
-![](/tms/images/mslearn-button.png)
+![](/tms/images/achieve-code.png)
+
+_Achievement Code URL field on the Class page_
+
+When set up properly, both buttons will appear to the student when the class start date and time are met. 
+
+[Return to contents of article](#contents-of-article)
