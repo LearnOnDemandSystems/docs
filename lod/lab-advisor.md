@@ -22,15 +22,19 @@ Lab Advisor is accessed from your Skillable Studio dashboard.
 
 1. **Active Impacted Resources**: This tab toggles the view to show active impacted resources. 
 
-1. **Postponed/Dismissed**: This tab toggles the view to show resources that have been postponed or dismissed from the active impacted resources tab.
+1. **Postponed**: This tab toggles the view to show resources that have been postponed from the active impacted resources tab.
+
+1. **Dismissed**: This tab toggles the view to show resources that have been dismissed from the active impacted resources tab.
 
 1. **Recommendations**: Recommendations found by the Lab Advisor will be displayed here. Recommendations are sorted by impact level, and provide relevant information such as the number of labs affected, the potential benefits of the recommendation, and the last date the resource was updated. Selecting the name of a lab profile will allow you to remediate a recommendation.
 
 1. **Actions**: If you do not wish to remediate the recommendation, there are two actions available: 
 
-    - **Postpone**: Selecting the postpone option will move the recommendation to the _Postponed/Dismissed_ tab. Once it is moved, it will stay behind that tab for 7 days. After 7 days has elapsed, the recommendation will be moved back to the _Active Impacted Resources_ tab. 
+    - **Postpone**: Selecting the postpone option will move the recommendation to the _Postponed_ tab. Once it is moved, it will stay behind that tab for 7 days. After 7 days has elapsed, the recommendation will be moved back to the _Active Impacted Resources_ tab. 
 
-    - **Dismiss**: Selecting the dismiss option will move the recommendation to the _Postponed/Dismissed_ tab. Once it is moved, it will stay behind that tab indefinitely, unless you select the option on the Dismissed tab to bring it back to the _Active Impacted Resources_ tab. 
+    - **Dismiss**: Selecting the dismiss option will move the recommendation to the _Dismissed_ tab. Once it is moved, it will stay behind that tab indefinitely, unless you select the option on the Dismissed tab to bring it back to the _Active Impacted Resources_ tab. 
+
+    - **View Recommendation Details**: Selecting this option will navigate to the remediation page, where recommendation information will be displayed for issues found by Lab Advisor. 
 
 1. **Recommendations by Impact**: This displays the number of all resources that are affected by recommendations found by the Lab Advisor. These are sorted from critical to low, with a numeric value that represents the number of affected resources for each impact level. 
 
@@ -48,7 +52,7 @@ To remediate a recommendation, perform the following steps:
 
     The next page will show all lab profiles that are affected by the recommendation.
 
-    ![Remediate Recommendatin](images/remediate-recommendatin.png)
+    ![Remediate Recommendatoin](images/remediate-recommendation.png)
 
 1. Select the **lab profile** that you wish to remediate, by clicking on the link in the Lab Profile column.
 
