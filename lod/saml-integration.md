@@ -6,7 +6,7 @@ isPublished: true
 
 # SSO Authentication via Azure Active Directory and SAML
 
-The following is an example of how to configure your Azure AD to support SSO authentication via SAML.  While this example is for Azure AD, any SAML Identify Provider should work.
+The following is an example of how to configure your Azure AD to support SSO authentication via SAML.  While this example is for Azure AD, any SAML Identity Provider should work.
 
 SAML is an open standard that allows Identity Providers (IdP) and Service Providers (SP) to send authorization credentials to each other, to authenticate a user. This allows using one set of credentials to log in to multiple services and/or websites.
 
