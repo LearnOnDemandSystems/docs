@@ -36,10 +36,6 @@ For information which operating systems are supposed by Hyper-V and ESX, click b
 
 ### ESX
 
-- macOS 11 Big Sur (64 bit)
-
-- macOS 12 Monterey (64 bit)
-
 - [ESX Compatibility Guide](https://www.vmware.com/resources/compatibility/search.php?deviceCategory=software&details=1&releases=428&productNames=15&page=1&display_interval=10&sortColumn=Partner&sortOrder=Asc&testConfig=16)
 
 - [ESX Virtual Machine Hardware Versions](https://kb.vmware.com/s/article/1003746)
