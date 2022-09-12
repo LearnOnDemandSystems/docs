@@ -176,9 +176,8 @@ To create a Virtual Machine profile, click **Create Virtual Machine profile** fr
     - **Screen Height**: Enter the screen height that the VM will use, measured in pixels.
 
     - **Enabled**: Check to enable the VM profile for use in lab profiles.
-<!--
+
     - **Enable Dynamic Screen Resizing**: Allows the VM to automatically resize it's resolution based on the size of the lab window. It is, however, limited to the resolution options available in the display settings of Windows. If the lab window is larger than the VM, there will be a gray space around the VM in the lab window. NOTE: this requires Integration services to be installed on the VM. This can be installed by clicking the gear icon at the top of a launched lab, and selecting _Install Integration Services_ and following the prompts.
--->
 
 ### Hard Disks
 
