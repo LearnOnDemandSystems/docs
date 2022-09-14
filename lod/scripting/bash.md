@@ -16,6 +16,7 @@ echo true
 echo false
 ```
 
+<!--
 ### Use setActivityResult
 
 ```Bash
@@ -28,7 +29,7 @@ set_activity_result .5 "Correct"
 set_activity_result .5 "Incorrect"
 ```
 
-<!--
+
 You can also report the result as a score percentage...
 
 ```Bash
@@ -36,7 +37,6 @@ You can also report the result as a score percentage...
 set_activity_result -Score .5
 ```
 -->
-
 
 ### Send a Notification to the User
 
