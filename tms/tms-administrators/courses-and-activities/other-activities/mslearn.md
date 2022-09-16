@@ -9,6 +9,8 @@ Set up your organization to receive achievement redemption for each completed en
 
 ![](/tms/images/mslearn-redemption1.png)
 
+**Courseware Marketplace purchasers, please note**: If you are purchasing your labs through the Courseware Marketplace, your MPN ID must match the purchasing account for all integration to work. If you need to use another MPN ID for tracking, you will need to set up another organization with us here: https://alh.learnondemand.net/Organization/Register/2069 and purchase the labs on the Courseware Marketplace with an account linked to that MPN ID.   
+
 ### Contents of article
 - [Student View of Microsoft Learn Courseware Access](#student-view-of-microsoft-learn-courseware-access)
 - [Organizational requirements in Skillable TMS](#organizational-requirements-in-skillable-tms)
@@ -35,6 +37,8 @@ Do the folowing to enable the MS Learn Courseware button, this step is also nece
 ![](/tms/images/ms-id1.png)
 
 _Input your Microsoft Partner ID and Microsoft Campaign Code on your Organization profile_
+
+When entering the Campaign code, please enter the code for creating the Microsoft Learn Courseware URL, exactly as it appears, for example: ?WT.mc_id=ilt_partner_webpage_wwl&ocid=  Note: Our system will automatically make the necessary adjustments to the campaign code when used to create the Achievement URL.
 
 [Return to contents of article](#contents-of-article)
 
