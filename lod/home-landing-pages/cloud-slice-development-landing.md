@@ -45,11 +45,7 @@
       <a class="subtopic_link" href="/lod/aws-virtualization.md">
         <div class="subtopic_title">AWS Virtualization</div>
         <div class="subtopic_description">Upload a VHD to AWS and create a VM profile.</div>
-      </a>
-      <a class="subtopic_link" href="/lod/cloud-fabric-explanation.md">
-        <div class="subtopic_title">Cloud Fabric Explanation</div>
-        <div class="subtopic_description">Characteristics and Differences of Supported Cloud Fabrics.</div>
-      </a>      
+      </a>   
       <a class="subtopic_link" href="/guides/cloud-slice/aws/aws-cloud-slice-setup.md">
         <div class="subtopic_title">Enable Cloud Slice Support in AWS</div>
         <div class="subtopic_description">Setup process to enable cloud slice support in the AWS portal.</div>
@@ -111,6 +107,10 @@
         <div class="subtopic_title">Microsoft Azure Cloud Slice Subscription</div>
         <div class="subtopic_description">Configure a lab profile to deliver training on Microsoft Azure subscriptions.</div>
       </a>
+      <a class="subtopic_link" href="/lod/mca-css.md">
+        <div class="subtopic_title">Microsoft Azure Cloud Slice Subscription with Microsoft Customer Agreement (MCA)</div>
+        <div class="subtopic_description">Use a Microsoft Customer Agreement to deliver training on Microsoft Azure subscriptions.</div>
+      </a>
       <a class="subtopic_link" href="/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md">
         <div class="subtopic_title">Setup your Azure cloud subscription in Skillable Studio</div>
         <div class="subtopic_description">Configure a subscription pool in Skillable Studio, for use with Azure cloud slice.</div>
@@ -120,6 +120,10 @@
   <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="Skillable Studio Configuration Docs" role="button" aria-selected="false">Skillable Studio Configuration</div>
     <div class="subtopic_links">
+      <a class="subtopic_link" href="/lod/cloud-fabric-explanation.md">
+        <div class="subtopic_title">Cloud Fabric Explanation</div>
+        <div class="subtopic_description">Characteristics and Differences of Supported Cloud Fabrics.</div>
+      </a>   
       <a class="subtopic_link" href="/lod/cloud-security/cloud-security-home.md">
          <div class="subtopic_title">Cloud Security Resources</div>
          <div class="subtopic_description">Information on Cloud Security Reviews, Access Control Policies, and cloud security standards for Cloud Slice labs</div>

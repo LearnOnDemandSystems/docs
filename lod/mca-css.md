@@ -8,9 +8,9 @@ isPublished: true
 
 ## Overview
 
-Microsoft Azure Cloud Slice Subscription (CSS) provides an environment that allows training on Microsoft Azure and gives the lab user access to administrative settings in the Azure subscription. CSS labs require a Skillable Studio subscription pool that is bound to an Microsoft Customer Agreement (MCA). 
+Microsoft Azure Cloud Slice Subscription (CSS) provides an environment that allows training on Microsoft Azure and gives the lab user access to administrative settings in the Azure subscription. CSS labs require a Skillable Studio subscription pool that is bound to a Microsoft Customer Agreement (MCA). 
 
-All pools need to be created with the MCA tenant. The MCA Billing API requires working with a Billing Account as the top level management group for subscriptions, and only one Billing Account can be used per MCA tenant. 
+The MCA Billing API requires working with a Billing Account as the top level management group for subscriptions, and only one Billing Account can be used per MCA tenant. All pools need to be created with the MCA tenant. 
 
 ## Table of Contents
 
@@ -22,11 +22,12 @@ All pools need to be created with the MCA tenant. The MCA Billing API requires w
 * [Account Provisioning](#account-provisioning)
 
 ## MCA generation
+
 1. If a new MCA tenant is required, create the new tenant, using a new local login as the global admin for that tenant. 
 1. Reach out to your Azure CSM to generate a new MCA for the tenant that was created and the new account username that was created. 
     >[!note] If possible, this request should be submitted in advance. This could take several days for the MCA to be generated. 
 
-1. When the MC is returned for signing, ensure you are signed in with the account that was created previously. The MCA will be bound to that account, and only 1 MCA is allowed per Azure Active Directory user globally.
+1. When the MCA is returned for signing, ensure you are signed in with the account that was created previously. The MCA will be bound to that account, and only 1 MCA is allowed per Azure Active Directory user globally.
 
 ## Create a Cloud Slice Application 
 
@@ -44,11 +45,11 @@ An Azure enterprise application needs to be created for Cloud Slice. The applica
  
 ## MCA CSS Pool Creation
 
-Configuration of the MCA must be completed in the Azure portal, and a subscription pool must be created in Skillable Studio. 
+Configuration of the MCA must be completed in the Azure portal first, and then a subscription pool must be created in Skillable Studio. 
 
 ### Azure Billing Scope and IAM Configuration 
 
-1. Sign into the MCA tenant with the local global admin account you created, and navigate to the "Cost Management + Billing" Section.
+1. Sign into the MCA tenant with the local global admin account you created, and navigate to the **Cost Management + Billing** Section.
 
 1. In the Azure portal, navigate to **Cost Management + Billing**. 
 1. Select **Billing Scopes**.
@@ -60,6 +61,42 @@ Configuration of the MCA must be completed in the Azure portal, and a subscripti
 
     ![Navigate to Access Control](images/navigate-to-access-control.png)
  
+### Configure Tenant Root Group
+
+The enterprise application needs to be configured with the **Owner** role in the Tenant Root Group. 
+
+1. In the Azure portal, search for **Management Groups**. 
+
+1. Select **Tenant Root Group**. 
+
+    ![Tenant Root Group](images/tenant-root-group.png)
+
+1. On the next screen, select **Access control (IAM)**.
+
+    ![Access Control (IAM)](images/access-control-iam.png)
+
+1. Select **+Add**, and then choose **Add role assignment**. 
+
+    ![Add button](images/add-button.png)
+
+1. Select the **Owner role** at the top of the list. If the role is not listed at top, search for **Owner**. 
+
+    ![Owner role](images/owner-role.png)
+
+1. After selecting the Owner role, click **Next**. 
+
+1. Select **+Select Members**. 
+
+1. Search for the name of the enterprise application that was created in previous steps. 
+
+1. Click the application and click **Select**. 
+
+1. Select **Next**. 
+
+1. On the **Conditionals(optional)** screen, select **Next**.  
+
+1. Confirm the role, scop and member for the role assignment and select **Review + assign**.
+
 ### Subscription Pool Creation
 
 1. From the Skillable Studio admin page, select **Subscription Pools**. 
