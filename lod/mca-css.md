@@ -95,7 +95,7 @@ The enterprise application needs to be configured with the **Owner** role in the
 
 1. On the **Conditionals(optional)** screen, select **Next**.  
 
-1. Confirm the role, scop and member for the role assignment and select **Review + assign**.
+1. Confirm the role, scope and member for the role assignment and select **Review + assign**.
 
 ### Subscription Pool Creation
 
