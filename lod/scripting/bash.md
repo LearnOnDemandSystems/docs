@@ -16,27 +16,24 @@ echo true
 echo false
 ```
 
-<!--
 ### Use setActivityResult
 
 ```Bash
 //do stuff... all good
-set_activity_result .5 "Correct"
+set_activity_result -Correct
 ```
 
 ```
 //do stuff... uh oh
-set_activity_result .5 "Incorrect"
+set_activity_result -Incorrect
 ```
-
 
 You can also report the result as a score percentage...
 
 ```Bash
 //do stuff... we want to report success and set the score value as 50%
-set_activity_result -Score .5
+set_activity_result .5
 ```
--->
 
 ### Send a Notification to the User
 
@@ -53,7 +50,9 @@ Lab variables are always string name/value pairs. Variable values are scoped to 
 variable_name=value
 
 ```Bash
-var_firstName="John"
+set_lab_variable "firstName" "John"
+echo true
 ```
 
 You can "receive" a variable in your script... 
+`@lab.Variable(firstName)`

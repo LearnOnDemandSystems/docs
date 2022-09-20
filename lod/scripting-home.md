@@ -10,6 +10,9 @@ Skillable Studio allows execution of scripts against a cloud subscription, as we
 
 Scripting languages are available in three versions; Azure, AWS  and no cloud provider. For more information, click one of the available scripting languages below: 
 
+- **Bash**
+    - [Bash](/lod/scripting/bash.md)
+
 - **C#**
     - [C# .NET 5](/lod/scripting/Csharp-.NET-5.md) 
     - [C# .NET 5 | Azure.Core 1.13.0](/lod/scripting/Csharp-.NET-5-Azure.-Core-1.13.0.md) 
