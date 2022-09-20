@@ -44,7 +44,7 @@ return false;
 
 ```C#
 //do stuff... uh oh
-#Set-ActivityResult -Correct -Message 'Please try again'
+#Set-ActivityResult -Incorrect -Message 'Please try again'
 ```
 
 You can also report the result as a score percentage...
