@@ -202,7 +202,7 @@ Custom scripts allow you to execute scripts during the life cycle of a lab, usin
 
 Scripts executed using this method are typically used to target outside of Skillable Studio. As a best practice, it is recommended to use [Execute Machine Command](#execute-machine-command) to target virtual machines and [Execute Cloud Platform Command](#execute-cloud-platform-command) to target cloud environments. 
 
-- PowerShell: [PowerShell Gallery](https://wwpowershellgallery.com/)
+- PowerShell: [PowerShell Gallery](https://powershellgallery.com/)
 - Python: [PyPi](https://pypi.org/)
     - Add NuGet Package
 - JavaScript: [NPM](https://www.npmjs.com/)
