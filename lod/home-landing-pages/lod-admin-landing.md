@@ -98,6 +98,10 @@
         <div class="subtopic_title">Virtual Machine Profile Creation and Explanation</div>
         <div class="subtopic_description">Virtual machine profile creation, and explanation of virtual machine profile configuration.</div>
       </a>
+      <a class="subtopic_link" href="/lod/browser-capabilities.md">
+        <div class="subtopic_title">Web Browser Capabilities</div>
+        <div class="subtopic_description">This document describes specific situations where your web browser may not function optimally.</div>
+      </a>
     </div>
   </div>
 </div>

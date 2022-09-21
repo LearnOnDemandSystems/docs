@@ -60,6 +60,10 @@
         <div class="subtopic_title">SSO Authentication via Azure Active Directory and SAML</div>
         <div class="subtopic_description">Configure an Azure Enterprise Application for SAML-based Single Sign-On.</div>
       </a>
+      <a class="subtopic_link" href="/lod/browser-capabilities.md">
+        <div class="subtopic_title">Web Browser Capabilities</div>
+        <div class="subtopic_description">This document describes specific situations where your web browser may not function optimally.</div>
+      </a>
     </div>
   </div>
 </div>
