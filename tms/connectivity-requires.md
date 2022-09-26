@@ -122,3 +122,11 @@ All connections utilize secure WebSockets connections over port 443. No plugin i
 | Microsoft Edge | 1+ |
 
 <sup>1</sup> In some cases, the Firefox browser can cause repeating characters in ESX labs.
+
+<!--
+Keywords
+--> 
+<div hidden>
+  <b>black screen issues</b>
+</div>
+
