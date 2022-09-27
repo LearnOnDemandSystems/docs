@@ -302,6 +302,10 @@
         <div class="subtopic_title">Microsoft Azure Cloud Slice Subscription</div>
         <div class="subtopic_description">Configure a lab profile to deliver training on Microsoft Azure subscriptions.</div>
       </a>
+      <a class="subtopic_link" href="/lod/mca-css.md">
+        <div class="subtopic_title">Microsoft Azure Cloud Slice Subscription with Microsoft Customer Agreement (MCA)</div>
+        <div class="subtopic_description">Use a Microsoft Customer Agreement to deliver training on Microsoft Azure subscriptions.</div>
+      </a>
       <a class="subtopic_link" href="/lod/org-max-ram.md">
         <div class="subtopic_title">Organization RAM Limits</div>
         <div class="subtopic_description">Max RAM usage, max active lab instances and max RAM per lab profile.</div>
