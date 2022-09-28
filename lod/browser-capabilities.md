@@ -6,17 +6,17 @@ isPublished: true
 
 # Browser Capabilities 
 
-There are some specific situations when your web browser may not function optimally. Below are known situations with various web browsers while using labs on the SKillable platform. 
+There are some specific situations when your web browser may not function optimally. Below are known situations with various web browsers while using labs on the Skillable platform. 
 
 ## Table of Contents
 
-  * [Web Browser Extensions](#web-browser-extensions)
-    + [Google Input Tools Extension](#google-input-tools-extension)
-    + [uBlock Origin Extension](#ublock-origin-extension)
-  * [AWS Auto Login in Incognito Mode](#aws-auto-login-in-incognito-mode)
-  * [Using macOS](#using-macos)
-    + [Monitoring a lab with Google Chrome Browser on macOS](#monitoring-a-lab-with-google-chrome-browser-on-macos)
-* [Firefox Browser and Labs using ESX Fabric](#firefox-browser-and-labs-using-esx-fabric)
+- [Web Browser Extensions](#web-browser-extensions)
+  - [Google Input Tools Extension](#google-input-tools-extension)
+  - [uBlock Origin Extension](#ublock-origin-extension)
+- [AWS Auto Login in Incognito Mode](#aws-auto-login-in-incognito-mode)
+- [Using macOS](#using-macos)
+  - [Monitoring a lab with Google Chrome Browser on macOS](#monitoring-a-lab-with-google-chrome-browser-on-macos)
+- [Firefox Browser and Labs using ESX Fabric](#firefox-browser-and-labs-using-esx-fabric)
 
 ## Web Browser Extensions
 
