@@ -1,6 +1,6 @@
 ---
 title: "Amazon Web Services API Capabilities"
-description: "A list of supported and No customer requests support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation. Below the table is a brief description for each service name."
+description: "A list of supported Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation. Below the table is a brief description for each service name."
 isPublished: true
 ---
 
