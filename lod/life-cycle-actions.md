@@ -18,8 +18,9 @@ With the Life Cycle Actions (LCA) feature, LOD is able to execute actions when s
   + [Headers](#headers)
 * [Send Notification to User](#send-notification-to-user)
 * [Send E-mail to user](#send-e-mail-to-user)
-* [Execute Machine Command](#execute-machine-command)
-* [Execute Cloud Platform Command](#execute-cloud-platform-command)
+* [Execute Script in Virtual Machine](#execute-script-in-virtual-machine)
+* [Execute Script in Container](#execute-script-in-container)
+* [Execute Script in Cloud Platform](#execute-script-in-cloud-platform)
   + [Azure](#azure)
   + [AWS](#aws)
 * [Execute Custom Script](#execute-custom-script)
@@ -47,9 +48,9 @@ First, decide what type of action should be executed, then decide when that acti
 - [Send a web request:](#send-web-request) sends a web request to the URL specified. The URL can optionally contain placeholders that will be replaced by live data, with @lab replacement tokens.
 - [Send a notification to the user:](#send-notification-to-user)  sends a notification to the user during the specified event.
 - [Send an email to the user:](#send-e-mail-to-user) sends an email to the user during the specified event.
-- [Execute Script in Virtual Machine:](#execute-machine-command) sends a PowerShell or Shell command to a virtual machine.
-- [Execute Script in Container:](#execute-machine-command) sends a Bash command to a container.
-- [Execute Script in Cloud Platform:](#execute-cloud-platform-command) sends a PowerShell command to the cloud platform.
+- [Execute Script in Virtual Machine:](#execute-script-in-virtual-machine) sends a PowerShell, Bash or Shell script to a virtual machine.
+- [Execute Script in Container:](#execute-script-in-container) sends a Bash script to a container.
+- [Execute Script in Cloud Platform:](#execute-script-in-cloud-platform) sends a PowerShell script to the cloud platform.
 - [Execute Custom Script](#execute-custom-script)
 
 **Life Cycle Events include**:
@@ -122,9 +123,9 @@ You can optionally include HTTP headers. Each header should be on a separate lin
 
 ## Send Notification to User
 
-This will send a notification to the student's lab, during the specified event. This can contain plain text, or @lab replacement tokens. When the notification is sent to the student, information will be replaced by the @lab replacement token. 
+This will send a notification to the lab user's lab, during the specified event. This can contain plain text, or @lab replacement tokens. When the notification is sent to the lab user, information will be replaced by the @lab replacement token. 
 
-For example, if you were to configure the notification to the below, the notification will say "Hello" followed by the student's first name. 
+For example, if you were to configure the notification to the below, the notification will say "Hello" followed by the lab user's first name. 
 
 ```Hello, @lab.User.FirstName``` 
 
@@ -132,29 +133,32 @@ You can give the notification a **name**. If a name is provided, only one copy o
 
 ## Send E-mail to user
 
-This will send an E-mail to the student, during the specified event. This can contain plain text,or @lab replacement tokens. When the notification is sent to the student, information will be replaced by the @lab replacement token. 
+This will send an E-mail to the lab user, during the specified event. This can contain plain text,or @lab replacement tokens. When the notification is sent to the lab user, information will be replaced by the @lab replacement token. 
 
-## Execute Machine Command
+## Execute Script in Virtual Machine
 
-Machine commands are used to target a virtual machine with a PowerShell or Shell command. 
+Scripts can be used to target a virtual machine with a PowerShell, Bash or Shell script. 
 
-Machine commands support Blocking, which allows you to block further execution of the lab life cycle until the action completes. You can use this to sequence actions that depend on each other. It is recommended to use the blocking feature if the script in the LCA will take very long to complete. Machine commands also support @lab replacement tokens, that can be used in PowerShell and Shell commands. 
+Scripts support Blocking, which allows you to block further execution of the lab life cycle until the action completes. You can use this to sequence actions that depend on each other. It is recommended to use the blocking feature if the script in the LCA will take very long to complete. Scripts also support @lab replacement tokens, that can be used in PowerShell, Bash and Shell scripts. 
 
-Multiple commands types are available:
+Multiple script types are available:
 
-- **PowerShell**: PowerShell command execution without UI shown to the student. 
+- **PowerShell**: PowerShell script execution without UI shown to the lab user. 
 
-- **PowerShell with UI**: PowerShell command execution with PowerShell UI visible to the student. 
+- **PowerShell with UI**: PowerShell script execution with PowerShell UI visible to the lab user. 
 
-- **Shell**: Shell command execution without UI shown to the student. 
+- **Windows Command Shell**: Shell script execution without UI shown to the lab user. 
 
-- **Shell with UI**: Shell command execution with Command Prompt UI visible to the student. 
+- **Windows Command Shell with UI**: Shell script execution with Command Prompt UI visible to the lab user. 
+
+- **Bash**: Bash script execution without UI shown to the lab user. 
 
 >[!knowledge] If a Life Cycle Action script encounters an error, and that error is not caught, Skillable Studio will attempt to execute the script from the beginning up to three times. If after three attempts the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
+## Execute Script in Container
 
-## Execute Cloud Platform Command
+## Execute Script in Cloud Platform
 
-Cloud Platform commands are used to target a cloud platform such as Microsoft Azure or Amazon Web Services with a PowerShell, Python, C# or JavaScript command. 
+Cloud Platform scripts are used to target a cloud platform such as Microsoft Azure or Amazon Web Services with a PowerShell, Python, C# or JavaScript script. 
 
 Along with traditional syntax, there is additional syntax that can be used to interact with Skillable Studio. 
 
@@ -162,9 +166,9 @@ Along with traditional syntax, there is additional syntax that can be used to in
 
 - Sending Lab Notifications: Sends a a popup notification to the lab, using the text specified in the syntax.
 
-Cloud Platform commands support Blocking, which allows you to block further execution of the lab life cycle until the action completes. You can use this to sequence actions that depend on each other. It is recommended to use the blocking feature if the script in the LCA will take very long to complete. 
+Cloud Platform scripts support Blocking, which allows you to block further execution of the lab life cycle until the action completes. You can use this to sequence actions that depend on each other. It is recommended to use the blocking feature if the script in the LCA will take very long to complete. 
 
-Cloud Platform commands also support @lab replacement tokens, that can be used in PowerShell commands.
+Cloud Platform scripts also support @lab replacement tokens, that can be used in PowerShell scripts.
 
 Language options include: 
 
@@ -200,7 +204,7 @@ Language options include:
 
 Custom scripts allow you to execute scripts during the life cycle of a lab, using a specific package for the selected language or using native syntax for the selected language. 
 
-Scripts executed using this method are typically used to target outside of Skillable Studio. As a best practice, it is recommended to use [Execute Machine Command](#execute-machine-command) to target virtual machines and [Execute Cloud Platform Command](#execute-cloud-platform-command) to target cloud environments. 
+Scripts executed using this method are typically used to target outside of Skillable Studio. As a best practice, it is recommended to use [Execute Script in Virtual Machine](#execute-script-in-virtual-machine) to target virtual machines and [Execute Script in Cloud Platform](#execute-script-in-cloud-platform) to target cloud environments. 
 
 - PowerShell: [PowerShell Gallery](https://powershellgallery.com/)
 - Python: [PyPi](https://pypi.org/)
