@@ -154,7 +154,12 @@ Multiple script types are available:
 - **Bash**: Bash script execution without UI shown to the lab user. 
 
 >[!knowledge] If a Life Cycle Action script encounters an error, and that error is not caught, Skillable Studio will attempt to execute the script from the beginning up to three times. If after three attempts the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
+
 ## Execute Script in Container
+
+Scripts can be used to target a container with a Bash script. 
+
+Scripts support Blocking, which allows you to block further execution of the lab life cycle until the action completes. You can use this to sequence actions that depend on each other. It is recommended to use the blocking feature if the script in the LCA will take very long to complete. Scripts also support @lab replacement tokens, that can be used Bash scripts. 
 
 ## Execute Script in Cloud Platform
 
