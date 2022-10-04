@@ -78,6 +78,10 @@ There are additional settings that can **optionally** be configured:
 
     >[!note] The script will need to return true/false to trigger the repeat feature. 
 
+- **Retries**: The number of times that script execution will be retried in the event of a script-level error. If after the specified number of attempts the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
+
+    >[!note] This should not be used in place of proper error handling within your script. Platform managed retries can have side effects such as duplicated object creating and excessively long script execution times. 
+
 - **Error Action**: controls how Skillable Studio will handle errors that occur when executing this action. All errors are logged against the lab instance by default. You can also choose to notify the user about the error or to end the lab. To prevent users from losing their work, only events early in the lifecycle (build, building, running, etc) allow you to end the lab when an error occurs. 
 
 ## Send Web Request
@@ -152,8 +156,6 @@ Multiple script types are available:
 - **Windows Command Shell with UI**: Shell script execution with Command Prompt UI visible to the lab user. 
 
 - **Bash**: Bash script execution without UI shown to the lab user. 
-
->[!knowledge] If a Life Cycle Action script encounters an error, and that error is not caught, Skillable Studio will attempt to execute the script from the beginning up to three times. If after three attempts the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
 
 ## Execute Script in Container
 

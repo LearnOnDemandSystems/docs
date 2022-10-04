@@ -494,13 +494,20 @@ For more information about the available languages and which versions are suppor
             - **AWS**: AWS SDK for JS 3
 
     - **Score Value**: the score value the student will receive for completing the Activity correctly. This score contributes to their overall score in the lab.
+
     - **Show Output To User**: this will show the output of the script to the user when enabled. If this is not enabled, the user will be shown the Correct Answer Feedback or the Incorrect Answer Feedback. 
+
+    - **Retries**: The number of times that script execution will be retried in the event of a script-level error. If after the specified number of attempts the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
+
+        >[!note] This should not be used in place of proper error handling within your script. Platform managed retries can have side effects such as duplicated object creating and excessively long script execution times. 
+
     - **Enable**: check the box to enable the script. If the script is not enabled, it will not be executed in a Task list or during on-demand evaluation.
+
     - **Script**: enter the script that will be executed. @lab replacement tokens that are used in scripts will be replaced in the lab instructions when the lab is launched.
 
     - **New Script**: click to add an additional script to this Activity. The new script will be represented by a button, in a Task List. 
 
-    >[!knowledge] @lab Replacement Tokens can be used in Activity scripts, to replace data in the lab instructions that is not known at the time of authoring the lab instructions, by inserting a Replacement Token in the lab instructions where you want data to be replaced in the lab.
+        >[!knowledge] @lab Replacement Tokens can be used in Activity scripts, to replace data in the lab instructions that is not known at the time of authoring the lab instructions, by inserting a Replacement Token in the lab instructions where you want data to be replaced in the lab.
 
     The following two options are **only available if Display Scripts as Task list is checked**, and are located in the section for the script they belong to. This allows you to provide custom feedback on each Automated Activity. 
 
