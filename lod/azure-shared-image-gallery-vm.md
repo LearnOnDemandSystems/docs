@@ -248,7 +248,7 @@ Persisting changes to a virtual machine allows you to configure virtual machine 
 1. Select the **resource group** where the **image library is stored**.
 1. Select the **target Azure Compute Gallery**.
 1. Select **Specialized** Operating System State.
-1. Select the **Target VM image definition** where you **image definition is stored**. 
+1. Select the **Target VM image definition** where your **image definition is stored**. 
 1. Enter a **version number**. This version number will be used to configure the VM profile in Skillable Studio. 
 1. Select **replication** settings if you would like to replicate this VM for availability in other Azure regions. 
 1. Select **Review+Create**. 
