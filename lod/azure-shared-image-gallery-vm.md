@@ -37,6 +37,7 @@ To set a VM using a Compute Gallery, there is some configuration to do in Azure 
     - [Virtual Machine Profile](#virtual-machine-profile)
     - [Lab Profile](#lab-profile)
 - [Persist Changes in the Virtual Machine for Future Launches](#persist-changes-in-the-virtual-machine-for-future-launches)
+- [Enable Scoring, Life Cycle Actions and Activity Based Assessments](#enable-scoring-life-cycle-actions-and-activity-based-assessments)
 
 ## Azure Setup
 
@@ -248,7 +249,7 @@ Persisting changes to a virtual machine allows you to configure virtual machine 
 1. Select the **resource group** where the **image library is stored**.
 1. Select the **target Azure Compute Gallery**.
 1. Select **Specialized** Operating System State.
-1. Select the **Target VM image definition** where you **image definition is stored**. 
+1. Select the **Target VM image definition** where your **image definition is stored**. 
 1. Enter a **version number**. This version number will be used to configure the VM profile in Skillable Studio. 
 1. Select **replication** settings if you would like to replicate this VM for availability in other Azure regions. 
 1. Select **Review+Create**. 
@@ -260,3 +261,35 @@ Persisting changes to a virtual machine allows you to configure virtual machine 
 1. Select **Edit** on the profile. 
 1. Change the **version number** to the new version number that was set in Azure during previous steps.
 1. Launch lab and confirm changes are present. 
+
+## Enable Scoring, Life Cycle Actions and Activity Based Assessments
+
+To enable scoring, the Skillable integration service must be installed on all Windows based virtual machines that will use scoring, Life Cycle Actions (LCA) and Activity Based Assessments (ABA). 
+
+### Copy Integration Service Files and Run Configuration Script 
+
+1. Ensure there is no previous version of the integration service installed on the VM: 
+	1. Navigate to **Programs and Features** and ensure there is no integration service listed in the installed list. 
+1. Navigate to THIS GITHUB PAGE and download the zip file. This zip file contains a PowerShell script and a folder of files that contain the integration service. 
+1. Copy the zip folder to the Virtual Machine, using your preferred method to transfer files into the VM. 
+1. In the VM, open zip file. 
+1. Move the folder inside the zip file to the root of the VM's C drive. 
+1. Navigate back to the zip file, and run the PowerShell script as an administrator by right-clicking and selecting the option to run as administrator. 
+1. After the script is executed, reboot the VM.
+1. Once the VM is rebooted, the integration service may take a few minutes to start. Scoring, LCA and ABA will not function correctly until the integration service is running. 
+
+### Verify Integration Service is Running 
+
+1. Open a web browser in the VM. 
+1. Navigate to the following URL: `localhost:2724`
+
+    If a landing page is displayed with Skillable Integration Service, the service is running 
+
+
+
+
+
+<!--search terms-->
+<div hidden>
+<b>Azure compute gallery</b>
+</div>
