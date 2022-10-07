@@ -18,25 +18,27 @@ To set a VM using a Compute Gallery, there is some configuration to do in Azure 
 1. Snapshot
 
 
-[Azure Setup](#azure-setup)
-- [Create a Resource Group](#create-a-resource-group)
-- [Create a Compute Gallery](#create-a-compute-gallery)
-- [Add Image Definition](#add-image-definition)
-- [Upload a VHD File](#upload-a-vhd-file)
-    - [Create a Storage Account Inside the New Resource Group](#create-a-storage-account-inside-the-resource-group)
-    - [Create Containers Inside of the Blob Service in Your Storage Account](#create-containers-inside-of-the-blob-service-in-your-storage-account)
-    - [Uploading a VHD To Azure](#uploading-a-vhd-to-azure)
-- [Create Managed Disk](#create-managed-disk)
-    - [Create Snapshot](#create-a-snapshot)
-- [Create Image Version](#create-image-version)
-- [Update Replication](#update-replication)
-- [Azure Check List](#azure-check-list)
+- [Azure Setup](#azure-setup)
+    - [Create a Resource Group](#create-a-resource-group)
+    - [Create a Compute Gallery](#create-a-compute-gallery)
+    - [Add Image Definition](#add-image-definition)
+    - [Upload a VHD File](#upload-a-vhd-file)
+        - [Create a Storage Account Inside the New Resource Group](#create-a-storage-account-inside-the-resource-group)
+        - [Create Containers Inside of the Blob Service in Your Storage Account](#create-containers-inside-of-the-blob-service-in-your-storage-account)
+        - [Uploading a VHD To Azure](#uploading-a-vhd-to-azure)
+    - [Create Managed Disk](#create-managed-disk)
+        - [Create Snapshot](#create-a-snapshot)
+    - [Create Image Version](#create-image-version)
+    - [Update Replication](#update-replication)
+    - [Azure Check List](#azure-check-list)
 
-[Skillable Studio Setup](#skillable-studio-setup)
-- [Subscription Pool](#subscription-pool)
-- [Virtual Machine Profile](#virtual-machine-profile)
-- [Lab Profile](#lab-profile)
-
+- [Skillable Studio Setup](#skillable-studio-setup)
+    - [Subscription Pool](#subscription-pool)
+    - [Virtual Machine Profile](#virtual-machine-profile)
+    - [Lab Profile](#lab-profile)
+- [Persist Changes in the Virtual Machine for Future Launches](#persist-changes-in-the-virtual-machine-for-future-launches)
+    - [Persist Changes](#persist-changes)
+    - [Edit VM Profile to Use New Version](#edit-vm-profile-to-use-new-version)
 
 ## Azure Setup
 
@@ -236,3 +238,27 @@ Create a lab profile that launches your VM against your Azure subscription, to d
 1. Configure the Network tab
 1. Configure the Cloud tab
 1. On the Virtual Machines tab, select the Network and Resource Group that the VM will use. 
+
+## Persist Changes in the Virtual Machine for Future Launches
+
+Persisting changes to a virtual machine allows you to configure virtual machine settings and/or software, then capture those changes so that they are present in the VM for all users that launch the lab in the future. 
+
+### Persist Changes 
+
+1. Navigate to the **VM in the Azure portal**. 
+1. On Overview tab, select **Capture** at the top of the page.
+1. Select the **resource group** where the **image library is stored**.
+1. Select the **target Azure Compute Gallery**.
+1. Select **Specialized** Operating System State.
+1. Select the **Target VM image definition** where your **image definition is stored**. 
+1. Enter a **version number**. This version number will be used to configure the VM profile in Skillable Studio. 
+1. Select **replication** settings if you would like to replicate this VM for availability in other Azure regions. 
+1. Select **Review+Create**. 
+
+### Edit VM Profile to Use New Version
+
+1. Login to **Skillable Studio**. 
+1. Navigate to the **VM profile**. 
+1. Select **Edit** on the profile. 
+1. Change the **version number** to the new version number that was set in Azure during previous steps.
+1. Launch lab and confirm changes are present. 
