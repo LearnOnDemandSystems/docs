@@ -22,7 +22,7 @@
         <div class="subtopic_title">How do I create completion certificates?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/ensure-completion-certificates-print-correctly.md">
-        <div class="subtopic_title">How do I ensure my Course Completion Certificates print correctly?</div>
+        <div class="subtopic_title">How do I ensure my course completion certificates print correctly?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/use-survey-or-assessment.md">
         <div class="subtopic_title">Do I want to use a survey or an assessment?</div>

@@ -28,4 +28,4 @@ The following articles relate to actions that can be done from this page:
 - [How do I manually issue badges for my students?](../tms-administrators/badges-achievements/manual-issuance.md)
 - [How can an administrator print completion certificates for a class?](../tms-administrators/classes/schedule/print-completion-certificates-for-class-by-admin.md)
 
-To see all Help articles available for the TMS, you can click the **Home** button at the top of the window.
+To see all Help articles available for the Skillable TMS, you can click the **Home** button at the top of the window.

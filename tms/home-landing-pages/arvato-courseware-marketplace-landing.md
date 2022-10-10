@@ -19,10 +19,10 @@
     <div class="subtopic_header" tabindex="0" title="Fulfilling Your Lab Order Docs" role="button" aria-selected="true" selected>Fulfilling Your Lab Order</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started.md">
-        <div class="subtopic_title">I just ordered online labs through Courseware Marketplace and am new to Learn on Demand Systems. How do I get started?</div>
+        <div class="subtopic_title">I just ordered online labs through Courseware Marketplace and am new to Skillable. How do I get started?</div>
       </a>
       <a class="subtopic_link" href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started-returning-customers.md">
-        <div class="subtopic_title">I just ordered online labs through Courseware Marketplace and am returning to Learn on Demand Systems. How do I get started?</div>
+        <div class="subtopic_title">I just ordered online labs through Courseware Marketplace and am returning to Skillable. How do I get started?</div>
       </a>
         <a class="subtopic_link" href="/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md">
         <div class="subtopic_title">How do I set up a class?</div>
@@ -51,13 +51,13 @@
         <div class="subtopic_title">Why do I receive a message that the email is taken when I try to create a user account?</div>
       </a>
       <a class="subtopic_link" href="/tms/arvato-marketplace/user-accounts/create-instructor-account.md">
-        <div class="subtopic_title">How do I create an Instructor account?</div>
+        <div class="subtopic_title">How do I create an instructor account?</div>
       </a>
       <a class="subtopic_link" href="/tms/arvato-marketplace/user-accounts/create-operations-manager.md">
         <div class="subtopic_title">How do I set up another user to schedule classes?</div>
       </a>
       <a class="subtopic_link" href="/tms/arvato-marketplace/user-accounts/reset-user-password.md">
-        <div class="subtopic_title">How do I, as an Administrative user, reset a user's password?</div>
+        <div class="subtopic_title">How do I, as an administrative user, reset a user's password?</div>
       </a>
   </div>
   </div>
@@ -68,16 +68,16 @@
         <div class="subtopic_title">How can I add a virtual meeting provider to a class?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-adobeconnect.md">
-        <div class="subtopic_title">How can I use Adobe Connect in a TMS class?</div>
+        <div class="subtopic_title">How can I use Adobe Connect in a class?</div>
       </a>
               <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-googlemeet.md">
-        <div class="subtopic_title">How can I use Google Meet in a TMS class?</div>
+        <div class="subtopic_title">How can I use Google Meet in a class?</div>
       </a>
               <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-teams.md">
-        <div class="subtopic_title">How can I use GoToMeeting for a TMS class?</div>
+        <div class="subtopic_title">How can I use GoToMeeting for a class?</div>
       </a>
               <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-adobeconnect.md">
-        <div class="subtopic_title">How can I use Microsoft Teams in a TMS class?</div>
+        <div class="subtopic_title">How can I use Microsoft Teams in a class?</div>
       </a>
               <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/streaming-webex.md">
         <div class="subtopic_title">How can I set up Webex to open directly in a class?</div>
@@ -94,7 +94,7 @@
         <div class="subtopic_title">Do I need to purchase labs for the instructor?</div>
       </a>
       <a class="subtopic_link" href="/tms/arvato-marketplace/faq-for-arvato-marketplace/vouchers-not-showing-in-manage-class-vouchers.md">
-        <div class="subtopic_title">Why are my class vouchers not showing in Manage Class Vouchers?</div>
+        <div class="subtopic_title">Why are my class vouchers not showing in manage class vouchers?</div>
       </a>
       <a class="subtopic_link" href="/tms/arvato-marketplace/faq-for-arvato-marketplace/students-access-labs.md">
         <div class="subtopic_title">How and when can students access labs?</div>

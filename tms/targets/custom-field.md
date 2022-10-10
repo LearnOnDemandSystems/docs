@@ -16,4 +16,4 @@ The following articles will assist you with the process of creating and using cu
 - [How do I create a custom field?](../tms-administrators/miscellaneous/create-custom-fields.md)
 - [How do I make the custom fields on my courses available on my classes?](../tms-administrators/courses-and-activities/overall/cascade-custom-fields.md)
 
-To see all Help articles available for the TMS, you can click the **Home** button at the top of the window.
+To see all Help articles available for the Skillable TMS, you can click the **Home** button at the top of the window.

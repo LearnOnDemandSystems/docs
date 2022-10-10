@@ -28,4 +28,4 @@ Each activity has the following fields you can set for more control over that it
 - **Open in New Window** - sets the document or external link to open in a different window.
 
 ## Related Article
-For more information regarding crafting URLs to capture user date, please see [How can I capture user data for users who access my externally hosted activities from the TMS?](capture-user-data-for-externally-hosted-activities.md)
+For more information regarding crafting URLs to capture user date, please see [How can I capture user data for users who access my externally hosted activities from the Skillable TMS?](capture-user-data-for-externally-hosted-activities.md)

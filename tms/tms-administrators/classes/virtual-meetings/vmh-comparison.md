@@ -13,7 +13,7 @@ Below is a comparison chart of features in the custom VMH, integrated Adobe Conn
 
 **Features** | **Custom Virtual Classroom** | **Adobe Connect Integration** | **Zoom Integration**| **Webex Integration** |
 |:---|:---:|:---:|:---:|:---:|
-**Create a class in TMS and meeting in VHM**
+**Create a class in Skillable TMS and meeting in VHM**
 Manually create meeting in VMH and then input meeting URL in TMS class | X |   |   |
 Creating a class in TMS automatically creates a meeting in VMH |   | X | X | X |
 **Contracts**
@@ -30,7 +30,7 @@ Class session recording links available in TMS to instructors and students |   |
 
 ## Custom Virtual Classroom
 
-The custom virtual classroom is available to all organizations anytime you schedule a class. You need to set up a meeting in your preferred VHM, then add the meeting URL to the Delivery section of your TMS class. After entering the meeting URL, you can control when the Enter Classroom button is available to users by checking the Set Pre and Post Class Launch Access box and then inputting times for Instructor and Student Pre-Class Launch Window and for Instructor and Student Post-Class Launch Window.
+The custom virtual classroom is available to all organizations anytime you schedule a class. You need to set up a meeting in your preferred VHM, then add the meeting URL to the Delivery section of your Skillable TMS class. After entering the meeting URL, you can control when the Enter Classroom button is available to users by checking the Set Pre and Post Class Launch Access box and then inputting times for Instructor and Student Pre-Class Launch Window and for Instructor and Student Post-Class Launch Window.
 
 ## Adobe Connect Virtual Meeting Host Integration
 
@@ -42,7 +42,7 @@ Once you have an Adobe Connect contract, you can send information to our help de
 
 - All instructors enter the meeting as hosts. Once a student selects the Enter Classroom button, they may need to load software prior to entering the meeting. All students enter the meeting as participants.
 
-- Licenses in your contract cover any instructor scheduled for a class as a host for a meeting. The number of licenses in your contract affects the number of hosts (instructors) that can be scheduled. If you have multiple licenses, then the TMS can automatically add them as meeting hosts. If you have one license, then you must manually remove and add your host in Adobe Connect to schedule a different instructor into a class.
+- Licenses in your contract cover any instructor scheduled for a class as a host for a meeting. The number of licenses in your contract affects the number of hosts (instructors) that can be scheduled. If you have multiple licenses, then the Skillable TMS can automatically add them as meeting hosts. If you have one license, then you must manually remove and add your host in Adobe Connect to schedule a different instructor into a class.
 
 - Recordings are available for each recorded class session. Class recordings are available for 180 days after the last day of class to students through their enrollment. Adobe Connect makes the recording available for as long as you maintain your contract. 
 
@@ -50,7 +50,7 @@ Once you have an Adobe Connect contract, you can send information to our help de
 
 Once you have a Zoom contract, you will need to set up a JSon Web Token application through Zoom, and send information to our help desk to implement an [integration.](/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md) Once in place, your Zoom VMH is the default selection for virtual delivery. Scheduling a class automatically creates a Zoom meeting when a licensed Zoom user is added as an instructor. When a Zoom meeting scheduled through the TMS is opened, it will show in the UTC time zone.
 
-- The account used to set up the JWT application is where the meetings will be located. The primary instructor in a class must be licensed from the same account that is set up on the JWT application in order to be verified through the API. Your instructor's email address in their TMS profile must match the email address in your Zoom account for them to be verified. Your contract with Zoom provides a pool of licenses that are not owned individually, they can be assigned to different users. You may switch out instructors on the licenses in your contract.  
+- The account used to set up the JWT application is where the meetings will be located. The primary instructor in a class must be licensed from the same account that is set up on the JWT application in order to be verified through the API. Your instructor's email address in their Skillable TMS profile must match the email address in your Zoom account for them to be verified. Your contract with Zoom provides a pool of licenses that are not owned individually, they can be assigned to different users. You may switch out instructors on the licenses in your contract.  
 
 - The primary instructor added to a class must be a licensed Zoom user or the class will not save. A class can be created without any instructor added, but you will receive a warning and the meeting in Zoom will not be scheduled until an instructor is added. Students will still see the Enter Classroom button 15 minutes before class but will receive an error if they click it prior to a licensed instructor being added to the class. 
 
@@ -60,7 +60,7 @@ Once you have a Zoom contract, you will need to set up a JSon Web Token applicat
 
 - Once a student selects the Enter Classroom button, they may need to load software prior to entering the meeting. 
 
-- Students and Instructors may not be identified with their TMS username when they enter a Zoom meeting. This depends on how Zoom identifies them; different factors include if they have attended a Zoom meeting before, the username on their devise, or using multiple instructors in a class. 
+- Students and Instructors may not be identified with their Skillable TMS username when they enter a Zoom meeting. This depends on how Zoom identifies them; different factors include if they have attended a Zoom meeting before, the username on their devise, or using multiple instructors in a class. 
 
 - If the host exits or is bumped out of the meeting without ending it, someone else will be promoted to host. The new host is set with no regard for whether or not the user is an instructor. 
 

@@ -50,7 +50,7 @@ Finally, click **Save** to create the class.
 
 > :small_orange_diamond: The other sections (Visibility, Payment, and HTML Description) can be changed later. 
 
-Once the class is created the TMS creates a template by retaining all of your selections except for the class dates, this is to help you create additional classes more quickly.
+Once the class is created the Skillable TMS creates a template by retaining all of your selections except for the class dates, this is to help you create additional classes more quickly.
 
 ## Related Article
 For more information regarding scheduling sessions and how that affects how long labs are saved, please see:

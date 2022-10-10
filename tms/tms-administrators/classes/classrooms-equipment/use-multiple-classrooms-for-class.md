@@ -18,10 +18,10 @@ To add multiple classrooms to a class:
 1. Finish creating/editing the class, and click **Save**. 
      1. If you have removed the automatic filter for schedule conflicts and one of the classrooms has a conflict, you will be notified upon attempting to save. Click **Yes** to continue saving the class with the classroom conflict or click **No** to go back and change the conflict. 
      
-Classrooms can be booked for more than one class at a time, however, classroom capacity effects student enrollments. The TMS checks any overlapping use of the classroom when a student enrollment has a classroom added. 
+Classrooms can be booked for more than one class at a time, however, classroom capacity effects student enrollments. The Skillable TMS checks any overlapping use of the classroom when a student enrollment has a classroom added. 
 
 ## Multiple Classrooms and Enrollments
-For classes with only one classroom, all students enrolled are automatically assigned to that classroom. When a class has multiple classrooms, the student registrations default to "To be determined" for the classroom. A specific classroom needs to be set on each student either on their enrollment or in the roster. The TMS will allow a student to be seated in a classroom as long as the capacity for the classroom has an open seat. You will not be able to save the enrollment if the classroom capacity is full. Therefore, you might want to check the number of free seats in a classroom before assigning it to an enrollment. To do this:
+For classes with only one classroom, all students enrolled are automatically assigned to that classroom. When a class has multiple classrooms, the student registrations default to "To be determined" for the classroom. A specific classroom needs to be set on each student either on their enrollment or in the roster. The Skillable TMS will allow a student to be seated in a classroom as long as the capacity for the classroom has an open seat. You will not be able to save the enrollment if the classroom capacity is full. Therefore, you might want to check the number of free seats in a classroom before assigning it to an enrollment. To do this:
 1.  Navigate to and filter the **Find Classes** page by the classroom and click **Search**. All classes that are scheduled in that classroom, regardless whether that classroom is the primary classroom, will be displayed. 
 1. View each class roster to count the number of students using the classroom.
 1. On Site Admin, click **Find Classrooms** on the **Classrooms** tile.

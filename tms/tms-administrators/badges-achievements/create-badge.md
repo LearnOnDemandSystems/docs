@@ -7,7 +7,7 @@ isPublished: true
 
 > Please be aware that not all functionality covered in this and linked articles may be available to you.
 
-After creating the Badge Provider entity, the next step is to set up your badges. Badges in the TMS attach to achievements and use the badge template IDs in the external badge provider (currently Credly) to ensure the correct badge is issued when the achievement is earned. 
+After creating the Badge Provider entity, the next step is to set up your badges. Badges in the Skillable TMS attach to achievements and use the badge template IDs in the external badge provider (currently Credly) to ensure the correct badge is issued when the achievement is earned. 
 
 To create a **Badge**:
 1. In the **Admin** menu, in the **Badges** group, click **Create Badge**. This will open the Create Badge page.
@@ -28,6 +28,6 @@ To create a **Badge**:
 For more information on badging and achievements, please see:
 
 - [What is involved in creating external badges?](badge-process.md)
-- [How do I create a Badge Provider in the TMS?](create-badge-provider.md)
+- [How do I create a Badge Provider in the Skillable TMS?](create-badge-provider.md)
 - [How do I associate a badge with an achievement?](associate-badge.md)
 - [How do I create achievements?](create-achievements-to-motivate-learners.md)

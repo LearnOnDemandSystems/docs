@@ -6,16 +6,16 @@ isPublished: true
 
 # I just ordered online labs through Courseware Marketplace and am returning to Learn on Demand Systems. How do I get started? 
 
-As a returning partner, you should already have an organization and user account setup in Learn on Demand Systems’ OneLearn Training Management System (TMS). You do not need to create a new organization or user account. Your vouchers will automatically sync over from Courseware Marketplace and be available in the TMS. It may take up to 10 minutes for the sync to occur after purchase. 
+As a returning partner, you should already have an organization and user account setup in Skillable Training Management System (TMS). You do not need to create a new organization or user account. Your vouchers will automatically sync over from Courseware Marketplace and be available in the Skillable  TMS. It may take up to 10 minutes for the sync to occur after purchase. 
 
 ## Next Steps
 
 To get your class(es) setup, you will need to:  
 
 1. [Sign into the TMS](https://alh.learnondemand.net) and view the announcement which will provides helpful next steps.  
->:small_orange_diamond: [View a video on accessing the TMS and signing in.](https://youtu.be/SYtFYv5PaWw) 
+>:small_orange_diamond: [View a video on accessing the Skillable TMS and signing in.](https://youtu.be/SYtFYv5PaWw) 
 
-1. [Create class(es)](https://docs.learnondemandsystems.com/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md) with lab vouchers. A voucher is equivalent to your online lab purchase. For example, if you purchased 20 online labs through Courseware Marketplace, you will see 20 vouchers in the TMS available which you can redeem to schedule 20 students in a class.
+1. [Create class(es)](https://docs.learnondemandsystems.com/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md) with lab vouchers. A voucher is equivalent to your online lab purchase. For example, if you purchased 20 online labs through Courseware Marketplace, you will see 20 vouchers in the Skillable TMS available which you can redeem to schedule 20 students in a class.
 >:small_orange_diamond: [View a video on managing vouchers and creating a class.](https://youtu.be/377YlEyOego) 
 
 1. [Create training keys](https://docs.learnondemandsystems.com/tms/arvato-marketplace/fulfilling-marketplace-order/enroll-students-in-class.md) for your students to self-register in the class. After setting up training keys, send the training keys and [self-registration instructions](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md) to your students.  
@@ -24,7 +24,7 @@ To get your class(es) setup, you will need to:
 
 ## Related Articles
 
-View our list of related articles below which will help you get started with class management in the TMS. To navigate back to the TMS Knowledge Center homepage, click the [**Home**](https://docs.learnondemandsystems.com/tms/home-landing-pages/arvato-courseware-marketplace-landing.md) icon in the upper left.
+View our list of related articles below which will help you get started with class management in the Skillable TMS. To navigate back to the Skillable TMS Knowledge Center homepage, click the [**Home**](https://docs.learnondemandsystems.com/tms/home-landing-pages/arvato-courseware-marketplace-landing.md) icon in the upper left.
 
 - [How do I set up a class?](set-up-class.md)
 - [How do I add an instructor to a class?](add-instructor-to-class.md)

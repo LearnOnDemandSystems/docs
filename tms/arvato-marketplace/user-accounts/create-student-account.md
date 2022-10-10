@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I create an account for a student?
 
-Students must have accounts in the TMS to be enrolled in classes to access their labs. You can manually create these accounts for your students.
+Students must have accounts in the Skillable TMS to be enrolled in classes to access their labs. You can manually create these accounts for your students.
 
 To create a user account:
 1. Click **Admin** to open the **Admin** menu or navigate to **Site Administration**. 

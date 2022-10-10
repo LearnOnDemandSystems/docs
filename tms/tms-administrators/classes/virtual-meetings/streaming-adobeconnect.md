@@ -3,23 +3,23 @@ title: "How do I use Adobe Connect in a TMS class?"
 isPublished: true
 ---
 
-# How can I use Adobe Connect in a TMS class? 
+# How can I use Adobe Connect in a Skillable TMS class? 
 
 > Please be aware that the functionality covered in this and linked articles may not be available to you.
 
-Give your students and instructors the convenience of one place for all members of the class to open their virtual classroom and all their course activities and labs. Deliver your Instructor-led training virtually with Adobe Connect within a TMS class.  
+Give your students and instructors the convenience of one place for all members of the class to open their virtual classroom and all their course activities and labs. Deliver your Instructor-led training virtually with Adobe Connect within a Skillable TMS class.  
 
 If you have an Adobe Connect license, you have a choice in how you set up your virtual meeting delivery. We have an integration in the TMS using Adobe Connect. The convenience of this choice is that creating a class also schedules your meeting in Adobe, can be set up to use class meeting templates, and also gives students access to recordings of class sessions through their TMS enrollment. If you would like to integrate Adobe Connect, please contact [Customer Support.](https://www.learnondemandsystems.com/customer-support/) Alternately, you can use our Custom Virtual Classroom. 
 
 **Find your Adobe Connect meeting URL**
 
-If you choose to use the Custom Virtual Meeting Host rather than the integrated feature, you will need to begin by scheduling a meeting in Adobe Connect. When you have completed scheduling it you can access the meeting’s URL to input in the TMS class. Copy the URL provided in the meeting information. 
+If you choose to use the Custom Virtual Meeting Host rather than the integrated feature, you will need to begin by scheduling a meeting in Adobe Connect. When you have completed scheduling it you can access the meeting’s URL to input in the Skillable TMS class. Copy the URL provided in the meeting information. 
 
 ![](/tms/images/cvcadobeurl2.png){800}
 
 **Enter your Adobe Connect URL in your Class**
 
-If you have used the TMS before for classes, then the only new element is adding the Adobe Connect meeting URL for your class’ delivery. If you have not set up a class before, you can find links to additional resources below. 
+If you have used the Skillable TMS before for classes, then the only new element is adding the Adobe Connect meeting URL for your class’ delivery. If you have not set up a class before, you can find links to additional resources below. 
 
 hen editing or creating your class, 
 1. Expand the **Delivery** section.
@@ -36,7 +36,7 @@ hen editing or creating your class,
 ![](/tms/images/virtual-class-launch-windows.png){1000}
  
 
-The TMS passes along the classId, studentLastName, studentFirstName, and studentEmail to the receiving site. 
+The Skillable TMS passes along the classId, studentLastName, studentFirstName, and studentEmail to the receiving site. 
 
 # Additional Resources
 

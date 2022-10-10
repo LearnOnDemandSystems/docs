@@ -19,8 +19,8 @@
     <div id="header_1" class="subtopic_header" tabindex="0" title="TMS Featured Docs" role="button" aria-selected="true" selected>Featured</div>
     <div id="body_1" class="subtopic_links">
      <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/integratevirtualmeetingprovider.md">
-            <div class="subtopic_title">How does my Virtual Meeting Provider integrate with TMS classes?</div>
-            <div class="subtopic_description">Learn how to use your preferred virtual meeting service for your TMS classes.</div>
+            <div class="subtopic_title">How does my Virtual Meeting Provider integrate with classes?</div>
+            <div class="subtopic_description">Learn how to use your preferred virtual meeting service for your Skillable TMS classes.</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/badge-process.md">
         <div class="subtopic_title">What is involved in creating external badges?</div>

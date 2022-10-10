@@ -14,4 +14,4 @@ The User Transcript page provides the student and others access to classes, cour
 
 - [How can an administrator print completion certificates for self-pace learning?](../tms-administrators/self-paced-learning-and-subscriptions/print-completion-certificates-for-self-pace-learning-by-admin.md)
 
-To see all Help articles available for the TMS, you can click the **Home** button at the top of the window.
+To see all Help articles available for the Skillable TMS, you can click the **Home** button at the top of the window.

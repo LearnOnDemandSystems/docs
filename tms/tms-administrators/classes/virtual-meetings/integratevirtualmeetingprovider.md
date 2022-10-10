@@ -9,7 +9,7 @@ isPublished: true
 
 You can easily use the virtual meeting provider of your choice to provide interactive virtual training solutions. Setting up a virtual meeting provider just takes a few clicks, you can create training using your preferred virtual meeting provider in your classes. If you are using Teams, GoToMeeting, Adobe Connect, Zoom or another service, it can be used to give students and instructors access within a class. This will give your instructors and students everything they need for their class from one page. 
 
-We also have a full integration into the TMS available using Adobe Connect and Zoom. [Click here for more information.](/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md) The information below applies to any virtual meeting host.
+We also have a full integration into the Skillable TMS available using Adobe Connect and Zoom. [Click here for more information.](/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md) The information below applies to any virtual meeting host.
 
 ## Enter your Meeting URL for your Class 
 
@@ -39,7 +39,7 @@ When students come to their enrollment, they can enter the virtual meeting or op
 
 ## How to Find Meeting URLs from your Virtual Meeting Provider 
 
-[How can I use Adobe Connect in a TMS class?](/tms/tms-administrators/classes/virtual-meetings/streaming-adobeconnect.md)
+[How can I use Adobe Connect in a Skillable TMS class?](/tms/tms-administrators/classes/virtual-meetings/streaming-adobeconnect.md)
 
 [How can I set up Google Meet directly in a class?](/tms/tms-administrators/classes/virtual-meetings/streaming-googlemeet.md)
 

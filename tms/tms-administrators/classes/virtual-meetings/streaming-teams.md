@@ -3,11 +3,11 @@ title: "How do I use Microsoft Teams in a TMS class?"
 isPublished: true
 ---
 
-# How can I use Microsoft Teams in a TMS class?
+# How can I use Microsoft Teams in a Skillable TMS class?
 
 > Please be aware that the functionality covered in this and linked articles may not be available to you.
 
-Give your students and instructors the convenience of one place for all members of the class to open their virtual classroom and all their course activities and labs. Deliver your Instructor-led training virtually with Microsoft Teams within a TMS class.  
+Give your students and instructors the convenience of one place for all members of the class to open their virtual classroom and all their course activities and labs. Deliver your Instructor-led training virtually with Microsoft Teams within a Skillable TMS class.  
 
 **Find your Teams meeting URL**
 
@@ -17,7 +17,7 @@ Start by scheduling a meeting in Teams through the Calendar. You will need to ad
 
 **Enter your Teams URL in your Class**
 
-If you have used the TMS before for classes, then the only new element is adding Teams for your class’ delivery. If you have not set up a class before, you can find links to additional resources below. 
+If you have used the Skillable TMS before for classes, then the only new element is adding Teams for your class’ delivery. If you have not set up a class before, you can find links to additional resources below. 
 
 When editing or creating your class, 
 1. Expand the **Delivery** section.
@@ -33,7 +33,7 @@ When editing or creating your class,
 
 ![](/tms/images/virtual-class-launch-windows.png) 
 
-The TMS passes along the classId, studentLastName, studentFirstName, and studentEmail to the receiving site. 
+The Skillable TMS passes along the classId, studentLastName, studentFirstName, and studentEmail to the receiving site. 
 
 # Additional Resources
 

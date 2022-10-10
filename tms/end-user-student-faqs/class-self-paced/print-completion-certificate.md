@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I print my completion certificate?
 
-If your class or course assignment has completion certificates and you have the required permissions, you can print your completion certificate from the TMS.
+If your class or course assignment has completion certificates and you have the required permissions, you can print your completion certificate.
 
 Completion certificates can be printed after the class is over and you have been marked complete on the class roster. 
 

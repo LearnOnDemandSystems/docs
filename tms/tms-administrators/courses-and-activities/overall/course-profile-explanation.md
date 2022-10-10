@@ -6,7 +6,7 @@ isPublished: true
 
 # Course Profile Explanation 
 
-Courses are the building blocks of most training in the TMS. For example, they are used in classes, course assignments, subscriptions, and learning paths to deliver the learning content. Creating a course may be complex depending on the permission set within your roles and the activities and attributes you want to include. 
+Courses are the building blocks of most training in the Skillable TMS. For example, they are used in classes, course assignments, subscriptions, and learning paths to deliver the learning content. Creating a course may be complex depending on the permission set within your roles and the activities and attributes you want to include. 
 
 ## Table of Contents
 

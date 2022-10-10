@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I enroll students in a class?
 
-Two different methods are available for setting up your students. You may either issue **training keys**, which allows them to self-register, and self-enroll into class or you can **set up your students' user accounts and enrollments** for them directly in the TMS platform.
+Two different methods are available for setting up your students. You may either issue **training keys**, which allows them to self-register, and self-enroll into class or you can **set up your students' user accounts and enrollments** for them directly in the Skillable TMS platform.
 >:small_orange_diamond: [View a video on enrolling students to a class or registering with training keys.](https://youtu.be/nRHZE77FQbc) 
 
 ## Student Self-Enrollment with Training Keys
@@ -73,7 +73,7 @@ To use training keys:
         *Student's enrollment page*          
         
     1. Please launch a test lab to check for connectivity issues and to familiarize yourself with the lab interface. Once class starts, the Launch buttons will appear beside the labs.
-    1. For assistance anytime, click **Contact** on the TMS website or click here, **https://alh.learnondemand.net/Home/Contact** to go to the page now.
+    1. For assistance anytime, click **Contact** on the Skillable TMS website or click here, **https://alh.learnondemand.net/Home/Contact** to go to the page now.
 
 ## Manual Enrollment
 You can create enrollments manually for your students for the class. If your students do not have an user account yet, you will need to create one for them (see [How do I create a student account?](../user-accounts/create-student-account.md)).

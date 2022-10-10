@@ -6,7 +6,7 @@ The Manage Class Voucher page lets you quickly see vouchers you have available a
 
 The following articles relate to this page:
 
-- [Why are my class vouchers not showing in Manage Class Vouchers?](../arvato-marketplace/faq-for-arvato-marketplace/vouchers-not-showing-in-manage-class-vouchers.md)
+- [Why are my class vouchers not showing in manage class vouchers?](../arvato-marketplace/faq-for-arvato-marketplace/vouchers-not-showing-in-manage-class-vouchers.md)
 - [How do I set up a class?](../arvato-marketplace/fulfilling-marketplace-order/set-up-class.md)
 
-To see all Help articles available for the TMS, you can click the **Home** button at the top of the window.
+To see all Help articles available for the Skillable TMS, you can click the **Home** button at the top of the window.

@@ -13,4 +13,4 @@ The following are articles related to actions that can be done from either of th
 - [How can my organization be set up to use contract instructors?](../tms-administrators/users/instructor-management/set-up-organization-to-use-contract-instructors.md)
 - [How can I check students in for class?](../tms-administrators/classes/enrollments-roster/check-in-students-for-class.md)
 
-To see all Help articles available for the TMS, you can click the **Home** button at the top of the window.
+To see all Help articles available for the Skillable TMS, you can click the **Home** button at the top of the window.

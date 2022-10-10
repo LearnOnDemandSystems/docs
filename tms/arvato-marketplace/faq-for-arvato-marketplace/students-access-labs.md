@@ -5,9 +5,9 @@ isPublished: true
 
 # How and when can students access labs?
 
-You can set up your classes at any time in the TMS. However, students cannot access the labs until the first class session begins.
+You can set up your classes at any time in the Skillable TMS. However, students cannot access the labs until the first class session begins.
 
-Student access to labs is based on several factors in the TMS:
+Student access to labs is based on several factors in the Skillable TMS:
 - The student must have an enrollment in the class.
 - The Enrollment Status must be set to Enrolled.
 - The first session of class has started.
@@ -15,7 +15,7 @@ Student access to labs is based on several factors in the TMS:
 When student register using **Training Keys**, they are automatically added as **Enrolled** in the class.
 >:small_orange_diamond: [View a video on how new students can use a training key to access class.](https://youtu.be/d9Wl2vsOjTc) 
 >
->:small_orange_diamond: [View a video on how students with an existing user account in the TMS plarform can use a training key to access class.](https://youtu.be/-MlxmEnPnB0) 
+>:small_orange_diamond: [View a video on how students with an existing user account in the Skillable TMS platform can use a training key to access class.](https://youtu.be/-MlxmEnPnB0) 
 
 To access their class and labs, students will:
 1. Log into **https://alh.learnondemand.net**. They will land on their **Current Training** page. This page will display all their current enrollments as well as any saved labs they may have.
@@ -28,7 +28,7 @@ If a student does not see the **Launch** button on the labs after class has begu
 - Have them log out and back in. 
 - Verify the **Enrollment Status** for the student on the class **Roster** is **Enrolled**.
 
-If there are still access issues, contact our Help Desk by clicking the **Contact** button on the top of any page in the TMS for contact methods.
+If there are still access issues, contact our Help Desk by clicking the **Contact** button on the top of any page in the Skillable TMS for contact methods.
 
 After class starts, the labs can be launched, saved, and resumed through the end of class and an additional 180 days after class.
 

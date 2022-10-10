@@ -33,7 +33,7 @@ Expand the **Delivery** section to add your GoToMeeting access for your class.
 1. For Delivery Type select **Virtual**.
 1. A Virtual Meeting Host field appears with Custom Virtual Classroom as the selection and a URL field beside it. Input your streaming service's **meeting URL** in the URL field.
 
-Expand the Instructors section to create a user account for your instructor if it is needed and add them to the class. If your instructor is already in the TMS, skip to the Add Instructor instructions below.
+Expand the Instructors section to create a user account for your instructor if it is needed and add them to the class. If your instructor is already in the Skillable TMS, skip to the Add Instructor instructions below.
 1. Click **Create Instructor**. This opens a Create User page in a new tab.
     1. Input the user's information; required fields are:
         1. **First Name**

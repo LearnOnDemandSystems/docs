@@ -30,4 +30,4 @@ The following are articles related to actions that can be done from this page:
 - [How do I record student attendance for a multiple day class?](../tms-administrators/classes/enrollments-roster/record-student-attendance-for-multiple-day-class.md)
 
 
-To see all Help articles available for the TMS, you can click the **Home** button at the top of the window.
+To see all Help articles available for the Skillable TMS, you can click the **Home** button at the top of the window.
