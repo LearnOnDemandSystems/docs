@@ -51,7 +51,7 @@ Click to go to a specific section, or continue reading to learn more about creat
 
 Automated Activities are PowerShell, Windows command shell, or Bash shell scripts that target a Cloud Subscription or virtual machine running on Hyper-V or ESX in the lab. Cloud Subscriptions are targeted by a PowerShell script, and Windows-based virtual machines can be targeted by both PowerShell and Shell. Automated Activities support using @lab replacement tokens in scripts as well. Automated Activities can be used to help make sure the student has configured their lab environment correctly, help the student understand mistakes that are made in their lab, as well as give the student confirmation that they are completing the lab instructions correctly. Automated Activities can also be used to automate any configuration or lab steps that you wish to automate. 
 
->[!knowledge] If an automated activity script encounters an error, and that error is not caught, Skillable Studio will attempt to execute the script from the beginning up to five times. If after five attempts the the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. If the user would normally get a message from the activity, they may instead see the error. For languages that support error handling, you may catch errors to give the user a different message.
+>[!knowledge] If an automated activity script encounters an error, and that error is not caught, Skillable Studio can be configured to attempt to execute the script from the beginning up to five times, by editing the Retries field of the script in the activity. If after five attempts the the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. If the user would normally get a message from the activity, they may instead see the error. For languages that support error handling, you may catch errors to give the user a different message. This should not be used in place of proper error handling within your script. Platform managed retries can have side effects such as duplicated object creating and excessively long script execution times.
 
 ### Virtual Machine Requirements {requirements}
 
@@ -494,13 +494,20 @@ For more information about the available languages and which versions are suppor
             - **AWS**: AWS SDK for JS 3
 
     - **Score Value**: the score value the student will receive for completing the Activity correctly. This score contributes to their overall score in the lab.
+
     - **Show Output To User**: this will show the output of the script to the user when enabled. If this is not enabled, the user will be shown the Correct Answer Feedback or the Incorrect Answer Feedback. 
+
+    - **Retries**: The number of times that script execution will be retried in the event of a script-level error. If after the specified number of attempts the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
+
+        >[!note] This should not be used in place of proper error handling within your script. Platform managed retries can have side effects such as duplicated object creating and excessively long script execution times. 
+
     - **Enable**: check the box to enable the script. If the script is not enabled, it will not be executed in a Task list or during on-demand evaluation.
+
     - **Script**: enter the script that will be executed. @lab replacement tokens that are used in scripts will be replaced in the lab instructions when the lab is launched.
 
     - **New Script**: click to add an additional script to this Activity. The new script will be represented by a button, in a Task List. 
 
-    >[!knowledge] @lab Replacement Tokens can be used in Activity scripts, to replace data in the lab instructions that is not known at the time of authoring the lab instructions, by inserting a Replacement Token in the lab instructions where you want data to be replaced in the lab.
+        >[!knowledge] @lab Replacement Tokens can be used in Activity scripts, to replace data in the lab instructions that is not known at the time of authoring the lab instructions, by inserting a Replacement Token in the lab instructions where you want data to be replaced in the lab.
 
     The following two options are **only available if Display Scripts as Task list is checked**, and are located in the section for the script they belong to. This allows you to provide custom feedback on each Automated Activity. 
 
@@ -675,7 +682,9 @@ ABA Outcomes are only available on Automated Activities that have On-Demand Eval
 
 - Automated Activities support PowerShell Windows Command Shell, and Bash. Cloud Subscriptions must be targeted by a PowerShell script, and virtual machines running on Hyper-V or ESX can be targeted by PowerShell or Windows Command  Shell. Linux-based VMs running Hyper-V or ESX can be targeted by Bash.
 
--  If an automated activity script encounters an error, and that error is not caught, Skillable Studio will attempt to execute the script from the beginning up to five times. If after five attempts the the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. If the user would normally get a message from the activity, they may instead see the error. For languages that support error handling, you may catch errors to give the user a different message.
+-  If an automated activity script encounters an error, and that error is not caught, Skillable Studio can be configured to attempt to execute the script from the beginning up to five times, by editing the Retries field of the script in the activity. If after five attempts the the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. If the user would normally get a message from the activity, they may instead see the error. For languages that support error handling, you may catch errors to give the user a different message.
+
+    >[!note] This should not be used in place of proper error handling within your script. Platform managed retries can have side effects such as duplicated object creating and excessively long script execution times.
 
 ### Automated Activity Notifications and Variables
 
