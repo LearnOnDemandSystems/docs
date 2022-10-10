@@ -38,6 +38,8 @@ To set a VM using a Compute Gallery, there is some configuration to do in Azure 
     - [Lab Profile](#lab-profile)
 - [Persist Changes in the Virtual Machine for Future Launches](#persist-changes-in-the-virtual-machine-for-future-launches)
 - [Enable Scoring, Life Cycle Actions and Activity Based Assessments](#enable-scoring-life-cycle-actions-and-activity-based-assessments)
+    - [Copy Integration Service Files and Run Configuration Script](#copy-integration-service-files-and-run-configuration-script)
+    - [Verify Integration Service is Running](#verify-integration-service-is-running)
 
 ## Azure Setup
 
