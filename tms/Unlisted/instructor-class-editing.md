@@ -34,7 +34,8 @@ Below are the options that **Instructors are unable to update** on an existing c
 ## Edit a Class
 
 1. Navigate to the class.
-1. Click on the **Edit button** on the right side of the page. 
+1. Click on the **Edit button** on the right side of the page.
+
     ![Edit Class Button](images/edit-class-button.png)
 
 ### Basic Information Tab 
@@ -63,8 +64,8 @@ To change the time for class sessions, complete the following steps:
 
     >[!note] The session date, Start time and End time cannot be in the past. 
 1. Choose the appropriate start and end time for the session. 
-    >
-    > ![Change Session Date, Start Time and End Time](images/change-session-date-time.png)
+    
+    ![Change Session Date, Start Time and End Time](images/change-session-date-time.png)
 
 ### Add or Remove Instructors 
 
@@ -87,8 +88,8 @@ Instructors can be added or removed from a class.
 1. Enter the Instructor's **Name** and/or **Email** and select **OK**. 
 
 > [!knowledge] If you are unable to locate an Instructor while searching, you may need to remove the `Does not have schedule conflict` search filter. 
-
-    ![Remove search filter](images/remove-search-filter.png)
+>
+> ![Remove search filter](images/remove-search-filter.png)
 
 ### Save The Class
 
