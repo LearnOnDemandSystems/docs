@@ -12,7 +12,7 @@ This document outlines the considerations and recommendations for Lab Authors wh
 
 A cloud slice lab may contain one or more resource groups. Each resource group can consist of one or more ARM templates deployed concurrently. A cloud slice will contain one user account, but may contain multiple user accounts. User accounts can be assigned access to resource groups based on the build-in roles of Contributor, Owner, and Reader.
 
-The recommended process for building and testing an ARM template for inclusion in LOD is as follows.
+The recommended process for building and testing an ARM template for inclusion in Skillable Studio is as follows.
 
 1. Log into your Azure Subscription and create a new RG.
 1. Create and configure the resources that you want deployed for students within your RG.
@@ -22,8 +22,8 @@ The recommended process for building and testing an ARM template for inclusion i
 1. Once you confirm your ARM template deploys successfully, delete the RG and its contents.
 1. Modify your ARM template so that any resources requiring unique names (either unique across a subscription or globally unique) are appropriately randomized so that no matter how many students launch the lab, their deployments will all succeed. This requires using ARM template functions and/or replacement tokens in the ARM template. Refer to details in the Recommendations and Best Practices section, below, for guidance on name randomization.
 1. Test deployment of your updated ARM template, into a new, empty RG in the same fashion that you did in 6. Ensure that all resources are created in the same region as your RG. Once it is working, delete the RG and its contents.
-1. Either copy your template directly into a new LOD Cloud Resource Template or save it into an external repository (GitHub, etc.) and copy the link into the new LOD Cloud Resource Template. If you save it externally you will need a link that allows anyone to access the raw template file (possible even in GitHub private repos).
-1. Reference the LOD Cloud Resource Template in your Cloud Slice lab.
+1. Either copy your template directly into a new Skillable Studio Cloud Resource Template or save it into an external repository (GitHub, etc.) and copy the link into the new Skillable Studio Cloud Resource Template. If you save it externally you will need a link that allows anyone to access the raw template file (possible even in GitHub private repos).
+1. Reference the Skillable Studio Cloud Resource Template in your Cloud Slice lab.
 1. Launch the lab, and make sure everything from the template is deployed the way you want. If not, return to step 8, resolve your config issues, then continue with steps 9, 10, etc.
 1. Now launch the lab twice, as two separate users, and make sure that both labs launch successfully. This verifies that resource naming is properly configured. This must be done in a Cloud Subscription Pool containing a single subscription. If the first launch succeeds but you get errors on deployment of the second launch, they are most likely due to name conflicts. Return to step 8 and resolve those, then continue with steps 9, 10, etc. Otherwise, if both launches succeeded, then your template is properly configured.
 
@@ -64,19 +64,19 @@ Any valid Azure ARM template can be used as the basis for a Cloud Slice, provide
 
 ## Storage Options for ARM Templates
 
-Templates can be stored natively in Lab on Demand, or can be stored on an external document repository such as GitHub. If templates are stored on an external repository, that repository must support anonymous access for Lab on Demand to read the template correctly.
+Templates can be stored natively in Skillable Studio, or can be stored on an external document repository such as GitHub. If templates are stored on an external repository, that repository must support anonymous access for Skillable Studio to read the template correctly.
 
 ## ARM Template Load Testing
 
-If your template will be used for a high volume of concurrent users such as large events or conferences, please contact us at https://lod.one/help for assistance. if you are not already working with Learn on Demand Systems event staff.
+If your template will be used for a high volume of concurrent users such as large events or conferences, please contact us at https://skill.info/support for assistance. if you are not already working with Skillable event staff.
 
-> [!ALERT] **NOTE**: While this is an optional phase, it is highly recommended prior to large deliveries and the only way to guaruntee subscriptions are configured correctly for scaling.
+> [!ALERT] **NOTE**: While this is an optional phase, it is highly recommended prior to large deliveries and the only way to guarantee subscriptions are configured correctly for scaling.
 
 Please be prepared with the following items for successful load testing:
 1. A "Launch" template.
     1. This is the template users will have at lab launch. This is necessary to ensure labs will launch successfully at scale and users will be able to enter the environment.
     1. Not all environments will launch with a template, if users are intended to start with no resources please outline this and continue to the next item.
 1. A "Completed" template.
-    1. This is a template of what users will have by the end of the lab. This is necessary to ensure proper scaling is configured on the subscriptions and that users will not experience issues througout the lab.
+    1. This is a template of what users will have by the end of the lab. This is necessary to ensure proper scaling is configured on the subscriptions and that users will not experience issues throughout the lab.
 1. A list of "Additional Resources".
     1. This is a list of any components created in the lab that cannot be deployed via ARM template. This will not be a common thing, but may come up from time to time.

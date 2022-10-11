@@ -1,5 +1,14 @@
+---
+title: "GetLabInstructions API Command"
+description: "The GetLabInstructions command allows you to download the IDL-MD instructions of a lab as a string."
+isPublished: false
+---
+
 # GetLabInstructions
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **GetLabInstructions** command allows you to download the IDL-MD instructions of a lab as a string. 
 
 ## Parameters
@@ -32,3 +41,4 @@ https://labondemand.com/api/v3/GetLabInstructions?id=2393048
     "Status": 1
 }
 ```
+-->

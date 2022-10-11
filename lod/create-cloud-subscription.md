@@ -3,7 +3,7 @@
 # Create a Cloud Subscription
 Cloud Subscriptions are used to configure labs to utilize cloud environments, including cloud resources. 
 
-1. To **create a Cloud Subscription**, click on **Cloud Subscriptions** from the Lab on Demand Administration page. 
+1. To **create a Cloud Subscription**, click on **Cloud Subscriptions** from the Skillable Studio Administration page. 
 
 1. Next, click **Create Cloud Subscription** in the upper-right corner of the page. 
 
@@ -17,11 +17,11 @@ Cloud Subscriptions are used to configure labs to utilize cloud environments, in
 
 1. **Description**: Text used to describe the managed Cloud Subscription that you are setting up.
 
-1. **Organization**: The organization in LOD where the managed Cloud Subscription will be used.
+1. **Organization**: The organization in Skillable Studio where the managed Cloud Subscription will be used.
 
 1. **Cloud Subscription Pool**: Choose the Cloud Subscription Pool you wish to use with the Cloud Subscription.
 
-1. **Onwer Name**: The name of the the Cloud Subscription Owner
+1. **Owner Name**: The name of the the Cloud Subscription Owner
 
 1. **Owner E-mail**: The e-mail address of the the Cloud Subscription Owner
 
@@ -47,7 +47,7 @@ Cloud Subscriptions are used to configure labs to utilize cloud environments, in
 
 1. **Instance Storage Account**: The name of a storage account inside of the Instance Storage Resource Group where template VHDs will be copied when a Cloud Slice lab configured to use those template VHDs is deployed.  You may use the same storage account as the one used for the Template Storage Account field.
 
-1. **Instance Storeage Resources Group**: The name of a Cloud Resource Group in the Cloud Slice where template VHDs will be copied when a Cloud Slice lab configured to use those template VHDs is deployed. You may use the same resource group as the one used for the Template Storage Resource Group field.
+1. **Instance Storage Resources Group**: The name of a Cloud Resource Group in the Cloud Slice where template VHDs will be copied when a Cloud Slice lab configured to use those template VHDs is deployed. You may use the same resource group as the one used for the Template Storage Resource Group field.
 
 1. **Instance Storage**: The name of a container in the Instance Storage Account where template VHDs will be copied when a Cloud Slice lab configured to use those template VHDs is deployed.
 

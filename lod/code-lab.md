@@ -130,7 +130,7 @@ The Starting Template is the initial code that is presented to a student when a 
 
 ![](images/codelabs/7_cl_lang_pr.png){1300}
 
-The Program Wrapper wraps the students code, and **must contain the string `#CODE#`** which is replaced by the student's code submission. This hides implementation details used to execute the function as part of a full program in the backend LOD service. The Program Wrapper can contains library includes, pass command line arguments to the student's function, and finally print results for comparison against **Tests** and **Custom Tests**.
+The Program Wrapper wraps the students code, and **must contain the string `#CODE#`** which is replaced by the student's code submission. This hides implementation details used to execute the function as part of a full program in the backend Skillable Studio service. The Program Wrapper can contains library includes, pass command line arguments to the student's function, and finally print results for comparison against **Tests** and **Custom Tests**.
 
 ### Advanced
 
@@ -174,9 +174,9 @@ Tests can be hidden from students to verify code functions as expected and is no
 
 Code Labs can be scored via API. When scoring a Code lab via API, code must be submitted in the lab or the score returned will be 0.  
 
-Scoring can be executed using the [ScoreActivities API command](https://docs.learnondemandsystems.com/lod/lod-api/lod-api-score-activities.md). 
+Scoring can be executed using the [ScoreActivities API command](https://docs.skillable.com/lod/lod-api/lod-api-score-activities.md). 
 
-After the lab has been scored, details about the lab including score results can be obtained using the [Details API command](https://docs.learnondemandsystems.com/lod/lod-api/lod-api-details.md).
+After the lab has been scored, details about the lab including score results can be obtained using the [Details API command](https://docs.skillable.com/lod/lod-api/lod-api-details.md).
 
 # Example Code Lab
 
@@ -212,7 +212,7 @@ After the lab has been scored, details about the lab including score results can
     }
     ```
 
-1.  Next, we will look at Program Wrapper. The student doesn't see this code. This hides LOD implementation details, which turn a bare function into a working program. 
+1.  Next, we will look at Program Wrapper. The student doesn't see this code. This hides Skillable Studio implementation details, which turn a bare function into a working program. 
 
     > [!alert] Most importantly note the string #CODE# which is replaced by the student's code submission when it's time to compile.
     

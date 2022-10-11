@@ -27,7 +27,10 @@
       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/cancel-class.md">
         <div class="subtopic_title">How can I cancel a class?</div>
       </a>
-      <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/disable-class-activities.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/mslearn.md">
+        <div class="subtopic_title">How do I enable Microsoft Learn Courseware and Achievement Code Access in Skillable TMS?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/disable-class-activities.md">
         <div class="subtopic_title">How can I disable class activities for all students?</div>
       </a>
         </a>

@@ -13,24 +13,24 @@ It is only necessary to follow one of these methods, to register Resource Provid
 
 > [!ALERT] This must be done on each subscription, where the feature or resource is needed. 
 
-With both methods, Resource Providers are registered to the subscription using  Powershell commands. The additional Resource Providers are typically registered to the subscription in 1-10 minutes, after the Powershell commands have been executed.
+With both methods, Resource Providers are registered to the subscription using  PowerShell commands. The additional Resource Providers are typically registered to the subscription in 1-10 minutes, after the PowerShell commands have been executed.
 
 ---
 ### Pre-registering all available or a specific Resource Provider to the subscription 
 
-The first two commands will register all available Resource Providers at the time of running the Powershell command. Every time a new service is added to Azure including Azure Marketplace, these commands will need to be ran again to register new providers for the new services. The third command is used to register a specific Resource Provider. 
+The first two commands will register all available Resource Providers at the time of running the PowerShell command. Every time a new service is added to Azure including Azure Marketplace, these commands will need to be ran again to register new providers for the new services. The third command is used to register a specific Resource Provider. 
 
 1. To see a list of all available resource providers run the following **PowerShell command:** 
 
    `get-AzureRmResourceProvider -ListAvailable | select ProviderNamespace`
 
-> [!ALERT] You must be logged into the subscription with a user account with sufficient privileges to register Resource Providers while running these Powershell commands.
+> [!ALERT] You must be logged into the subscription with a user account with sufficient privileges to register Resource Providers while running these PowerShell commands.
 
 1. To register all available resource providers in the current subscription run the following **PowerShell command:**
 
    `get-AzureRmResourceProvider -ListAvailable | foreach-object{Register-AzureRmResourceProvider -ProviderNamespace $_.ProviderNamespace}`
 
-1. To register a specific resource provider (e.g. the one required for provisioning virtual machine resources) run the following **Powershell command:**
+1. To register a specific resource provider (e.g. the one required for provisioning virtual machine resources) run the following **PowerShell command:**
 
 `Register-AzureRmResourceProvider -ProviderNamespace ResourceProvider.Name`
 
@@ -48,11 +48,11 @@ This will allow Resource Group Owners to have the ability to register Resource p
 
 > [!KNOWLEDGE] Custom role definition objects span subscriptions and sit on the AAD tenant level. That means you can only have uniquely named custom roles defined across all subscriptions in a single tenant. So make sure you include all the subscriptions ids you want to include in the above custom role definition in the assignable scopes section.
 
-1. Run the following **Powershell command:** 
+1. Run the following **PowerShell command:** 
 
    `New-AzureRmRoleDefinition -InputFile C:\MycustomRole.json`
 
-   If your file is not saved at C:\, change the directory in Powershell to the directory where your file is saved (from step 1) and update the Powershell command with the correct directory.
+   If your file is not saved at C:\, change the directory in PowerShell to the directory where your file is saved (from step 1) and update the PowerShell command with the correct directory.
 
 1. Navigate to https://portal.azure.com/ and assign the custom role to individual users or groups.
 
@@ -78,6 +78,6 @@ This will allow Resource Group Owners to have the ability to register Resource p
 
 1. Click **Ok** to add the role to the user or group. 
 
-Now that you have registered the Resource Providers for the reources that your Cloud Slice lab needs, click the link below to learn how to set your lab up to scale, and request a Resource Quota increase. This ensures your lab has the correct amount of resources available, to meet the goals of your lab. 
+Now that you have registered the Resource Providers for the resources that your Cloud Slice lab needs, click the link below to learn how to set your lab up to scale, and request a Resource Quota increase. This ensures your lab has the correct amount of resources available, to meet the goals of your lab. 
 
 [Set up your Cloud Slice lab to scale](scale.md)

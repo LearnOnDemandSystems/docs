@@ -1,6 +1,6 @@
 # Send a notification to the user
 
-This is the first in a Series of Quick Starts about Life Cycle Actions in OneLearn Lab on Demand (LOD).
+This is the first in a Series of Quick Starts about Life Cycle Actions in Skillable Studio.
 
 In this Quick Start, you will configure a notification to popup for the user, in their lab environment
 
@@ -44,11 +44,11 @@ Estimated time to completion: **5 minutes**
 
 1. Leave the **Error Action** as _Default_.
 
-    > [!KNOWLEDGE] The **Error Action** drop-down menu is used to set how errors will be handled in the lab. The default setting is to save errors to the lab instance in LOD. Alternatively you can set errors to notify the user, or end the lab.
+    > [!KNOWLEDGE] The **Error Action** drop-down menu is used to set how errors will be handled in the lab. The default setting is to save errors to the lab instance in Skillable Studio. Alternatively you can set errors to notify the user, or end the lab.
 
-1. Check the **Enabled** box. If this is unchecked, the life cycle action will not be exectued.
+1. Check the **Enabled** box. If this is unchecked, the life cycle action will not be executed.
 
-1. Click to copy this message and paste into the text field; +++Welcome to the Lab Evnironment, are you ready to learn something new?+++. The welcome message that will be displayed to the user when the lab is launched. 
+1. Click to copy this message and paste into the text field; +++Welcome to the Lab Environment, are you ready to learn something new?+++. The welcome message that will be displayed to the user when the lab is launched. 
 
 1. Click **OK**, and then click **Save**. 
 
@@ -56,8 +56,8 @@ Estimated time to completion: **5 minutes**
 
 1. Click **launch**, to launch the lab.
 
-Did you see the notification pop up in the lower-right corner of the lab interface? If you missed it, you can cancel the lab and launch it again. The notificaiton will pop up once the lab is built, on all launched of this lab. If your lab is deploying resources, it may take a few minutes for the notification to appear, since it is configured to display once the lab is completely built. 
+Did you see the notification pop up in the lower-right corner of the lab interface? If you missed it, you can cancel the lab and launch it again. The notification will pop up once the lab is built, on all launched of this lab. If your lab is deploying resources, it may take a few minutes for the notification to appear, since it is configured to display once the lab is completely built. 
 
-Now that you have configured your first Life Cycle Action to send a notification, click on the link below to go through the nex Quick Start where you will configure a Life Cycle Action to send an email to the user. 
+Now that you have configured your first Life Cycle Action to send a notification, click on the link below to go through the next Quick Start where you will configure a Life Cycle Action to send an email to the user. 
 
 [Send E-mail to User](/lod/quick-starts/life-cycle-actions/email-student.md)

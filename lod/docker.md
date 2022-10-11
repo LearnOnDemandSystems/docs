@@ -4,7 +4,7 @@ description: "Supported Docker configurations."
 isPublished: true
 ---
 
-# Using Docker in Lab on Demand
+# Using Docker in Skillable Studio
 
 When using Docker to host containers in labs, there are several considerations to keep in mind.
 
@@ -23,9 +23,9 @@ The following configurations are not supported:
 - Linux containers running in Docker for Windows<sup>1</sup>
 - Containers running in nested virtualization scenarios<sup>2</sup>
 
-<sup>1</sup> Any legacy labs that used Docker for Windows Linux images prior to 04/2018 are no longer supported as docker for windows uses nested virtualization to host Linux images. Please [contact support](https://www.learnondemandsystems.com/customer-support/) if you have any questions or concerns.
+<sup>1</sup> Any legacy labs that used Docker for Windows Linux images prior to 04/2018 are no longer supported as docker for windows uses nested virtualization to host Linux images. Please [contact support](https://www.skillable.com/customer-support/) if you have any questions or concerns.
 
-<sup>2</sup> While in some scenarios Docker may function when in a nested environment, LOD and support staff do not provide support for this scenario.
+<sup>2</sup> While in some scenarios Docker may function when in a nested environment, Skillable Studio and support staff do not provide support for this scenario.
 
 >[!knowledge] For more information on unsupported configurations, please see [Docker's documentation](https://docs.docker.com/docker-for-windows/troubleshoot/#running-docker-desktop-for-windows-in-nested-virtualization-scenarios) on nested virtualization scenarios.
 

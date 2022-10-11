@@ -12,8 +12,8 @@
     </div>
   </div>
   <div id="lodContainer" class="cardContainer">
-    <div id="lod" class="trueHome cardContent" title="LOD">
-      <a href="/lod/home.md">Lab on Demand</a>
+    <div id="lod" class="trueHome cardContent" title="Skillable Studio">
+      <a href="/lod/home.md">Skillable Studio</a>
       <p>Build/manage your lab content for consumption.</p>
     </div>
   </div>
@@ -24,10 +24,4 @@
     </div>
   </div>
 </div>
-
-<div class="roadmapContainer home">
-  <div id="roadmap" class="moreInfo" tabindex="0" title="Roadmap">
-    <span class="moreInfo_header">LODS Roadmaps</span>
-    Visit our <a href="https://www.learnondemandsystems.com/content-updates/" title="Content Roadmap">Content Roadmap</a>, <a href="https://www.learnondemandsystems.com/roadmap/" title="Platform Roadmap">Platform Roadmap</a> and <a href="https://www.learnondemandsystems.com/customer-support/" title="Services">Services page</a> to view updates and sign up to receive e-mail notifications to stay informed.
-    </div>
 </div>

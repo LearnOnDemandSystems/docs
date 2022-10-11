@@ -1,13 +1,13 @@
 ---
-title: "Should I use a Class, a Course Assignment or a Subscription to schedule training?"
+title: "Should I use a Class or a Subscription or a Course Assignment to schedule training?"
 isPublished: true
 ---
 
-# Should I use a class, a course assignment, or a subscription to schedule training?
+# Should I use a class, a subscription or a course assignment to schedule training?
 
-Three different types of training options are designed to be used in the Skillable TMS: Classes, Course Assignments and Subscription. Classes are used to schedule meeting sessions with an instructor. Course Assignments and Subscriptions are used to schedule self-paced training.
+Two different types of training modes are designed to be used in the TMS: Instructor led training or Self paced training. Classes are used to schedule instructor led meeting sessions. Subscriptions and course assignments are used to schedule self-paced training.
 
-A Class allows you to select the days and times of your class sessions, add an instructor, enroll multiple students and assign physical classrooms or virtual classrooms. <a href="#note1">**<sup>1</sup>**</a>
+A class allows you to select the days and times of your class sessions, add an instructor, enroll multiple students and assign physical or virtual classrooms. <a href="#note1">**<sup>1</sup>**</a>
 
 **Class** - used to schedule an instructor-led meeting for multiple students with access to course activities and resources. 
 -	Labs and other course activities (videos, links, assessments, etc.) can be accessed by students at the time the class is scheduled to begin

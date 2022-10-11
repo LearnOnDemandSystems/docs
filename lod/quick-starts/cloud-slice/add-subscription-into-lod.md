@@ -1,22 +1,22 @@
-# Cloud Slice Quick Start - Add Subscription Into LOD
+# Cloud Slice Quick Start - Add Subscription Into Skillable Studio
 
 > [!ALERT] You are currently viewing the second entry in a series of Quick Starts about Cloud Slice.
 >
 > To complete this quick start, you must have the following:
-> * a cloud subscription configured for use with the One Learn Lab on Demand platform (LOD);
+> * a cloud subscription configured for use with the Skillable Studio platform;
 > * the cloud subscription ID, tenant name, application ID, and application secret for your subscription;
 > 
-> If you have not yet configured your cloud subscription for use with LOD and captured the required information, go through the [Configure your Cloud Subscription for use with LOD](configure-subscription.md) Quick Start.
+> If you have not yet configured your cloud subscription for use with Skillable Studio and captured the required information, go through the [Configure your Cloud Subscription for use with Skillable Studio](configure-subscription.md) Quick Start.
 
 Estimated time to completion: **5 minutes**.
 
 ## Create a Cloud Subscription Pool
 
-All cloud subscriptions are added to LOD as part of a Cloud Subscription Pool. This is true even if you only have one subscription. By using subscription pooling, you can add additional subscriptions to your Cloud Subscription Pool later, enabling LOD to automatically load balance lab instances across a pool of subscriptions.
+All cloud subscriptions are added to Skillable Studio as part of a Cloud Subscription Pool. This is true even if you only have one subscription. By using subscription pooling, you can add additional subscriptions to your Cloud Subscription Pool later, enabling Skillable Studio to automatically load balance lab instances across a pool of subscriptions.
 
 > [!KNOWLEDGE] Subscription pooling allows you to offer labs in which students collectively create more cloud resources than a single cloud subscription can support. Cloud subscriptions can have their resource limits increased to a certain maximum value (determined by the cloud service provider). Subscription pooling allows for individual subscription resource limits to be exceeded by running labs.
 
-1. Navigate to the <[Lab on Demand Administration page](/Admin).
+1. Navigate to the <[Skillable Studio Administration page](/Admin).
 
 1. Click <[Cloud Subscription Pools](/CloudSubscriptionPool) on the Cloud Services tile.
 
@@ -46,10 +46,8 @@ All cloud subscriptions are added to LOD as part of a Cloud Subscription Pool. T
 
 1. Click **OK** to add the cloud subscription to your Cloud Subscription Pool.
 
-Now that you have added your subscription into LOD for use with Cloud Slice labs, you're ready to create your first Cloud Slice lab! Click on the link below to go through the next Quick Start where you will create a Cloud Slice lab in 3 steps.
+Now that you have added your subscription into Skillable Studio for use with Cloud Slice labs, you're ready to create your first Cloud Slice lab! Click on the link below to go through the next Quick Start where you will create a Cloud Slice lab in 3 steps.
 
 [Create a Cloud Slice lab in 3 steps](create.md)
 
 [Back to top][back-to-top]
-
-[back-to-top]: #cloud-slice-quick-start---add-subscription-into-lod "Return to the top of the document"

@@ -21,17 +21,20 @@
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/course-profile-explanation.md">
         <div class="subtopic_title">Course profile explanation</div>
       </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/how-do-i-add-a-course-to-a-subscription-profile-from-a-course.md">
-        <div class="subtopic_title">How do I add a course to a subscription profile from a course?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/add-course-resources.md">
-        <div class="subtopic_title">How do I add resources to a course?</div>
-      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/create-course.md">
         <div class="subtopic_title">How do I create a basic course?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/edit-course.md">
         <div class="subtopic_title">When can I edit a course?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/mslearn.md">
+        <div class="subtopic_title">How do I enable Microsoft Learn courseware integration and earn achievement redemption for enrollments?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/how-do-i-add-a-course-to-a-subscription-profile-from-a-course.md">
+        <div class="subtopic_title">How do I add a course to a subscription profile from a course?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/add-course-resources.md">
+        <div class="subtopic_title">How do I add resources to a course?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/shared-lab-course.md">
         <div class="subtopic_title">How do I create a course with shared labs?</div>

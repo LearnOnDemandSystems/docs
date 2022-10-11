@@ -3,17 +3,17 @@
 <!--
 ## Disclaimer
 
-This document supports a release of a software product that may be changed substantially in the future. It is provided for informational purposes only and Learn on Demand Systems, LLC, makes no warranties, either express or implied, in this document. Information in this document, including URL and other Internet Web site references, is subject to change without notice. The entire risk of the use or the results from the use of this document remains with the user. Unless otherwise noted, the companies, organizations, products, domain names, e-mail addresses, logos, people, places, and events depicted in examples herein are fictitious. No association with any real company, organization, product, domain name, e-mail address, logo, person, place, or event is intended or should be inferred. Complying with all applicable copyright laws is the responsibility of the user. Without limiting the rights under copyright, no part of this document may be reproduced, stored in or introduced into a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise), or for any purpose, without the express written permission of Microsoft Corporation.
+This document supports a release of a software product that may be changed substantially in the future. It is provided for informational purposes only and Skillable, LLC, makes no warranties, either express or implied, in this document. Information in this document, including URL and other Internet Web site references, is subject to change without notice. The entire risk of the use or the results from the use of this document remains with the user. Unless otherwise noted, the companies, organizations, products, domain names, e-mail addresses, logos, people, places, and events depicted in examples herein are fictitious. No association with any real company, organization, product, domain name, e-mail address, logo, person, place, or event is intended or should be inferred. Complying with all applicable copyright laws is the responsibility of the user. Without limiting the rights under copyright, no part of this document may be reproduced, stored in or introduced into a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise), or for any purpose, without the express written permission of Microsoft Corporation.
 
-Learn on Demand Systems, LLC may have patents, patent applications, trademarks, copyrights, or other intellectual property rights covering subject matter in this document. Except as expressly provided in any written license agreement from Learn on Demand Systems, the furnishing of this document does not give you any license to these patents, trademarks, copyrights, or other intellectual property.
+Skillable, LLC may have patents, patent applications, trademarks, copyrights, or other intellectual property rights covering subject matter in this document. Except as expressly provided in any written license agreement from Skillable, the furnishing of this document does not give you any license to these patents, trademarks, copyrights, or other intellectual property.
 
-Copyright 2017 © Learn on Demand Systems, LLC. All rights reserved.
+Copyright 2021 © Skillable, LLC. All rights reserved.
 
 All other trademarks are property of their respective owners.
 
 # Introduction
 
-This guide provides information on building Life Cycle Actions in labs in Lab on Demand.
+This guide provides information on building Life Cycle Actions in labs in Skillable Studio.
 
 
 ## Intended Audience
@@ -21,10 +21,10 @@ This guide provides information on building Life Cycle Actions in labs in Lab on
 This guide assumes that the reader:
 
 - Has a developer account with sufficient permissions to create a lab and modify select properties of a Lab Profile.
-- Has existing labs hosted by LODS.
+- Has existing labs hosted by Skillable.
 - Has a help desk support contract to pay for additional custom contract work.
 
-The guide further assumes that the reader has knowledge of how to build labs in LOD and knowledge of life cycle events of LOD labs..
+The guide further assumes that the reader has knowledge of how to build labs in Skillable Studio and knowledge of life cycle events of Skillable Studio labs..
 
 -->
 
@@ -33,7 +33,7 @@ This guide will walk you through how to create Life Cycle Actions in a lab. In t
 - **Send Web Request** – Like the Service URLs in the past, calls an external service URL.The information that is sent is based on that URL, the verb used to send the information, and the receiving API.
 - **Send Notification to User** – Uses the Send Notification functionality to send information to the lab user in the form of a toast notification in the lab interface.
 - **Send E-mail to User** – Sends an e-mail to the lab user. The subject and content of the e-mail will be the same for each lab user.
-- **Execute Machine Command** – Execute Machine Command - Runs a command on the specified virtual machine (VM). For this to work, the lab user must be logged into the VM, and the VM must have the Lab on Demand integration service installed. Replacement tokens may be used within the command text. 
+- **Execute Machine Command** – Execute Machine Command - Runs a command on the specified virtual machine (VM). For this to work, the lab user must be logged into the VM, and the VM must have the Skillable Studio integration service installed. Replacement tokens may be used within the command text. 
 - **Execute Subscription Command** - Runs a PowerShell command against the Cloud Slice subscription. Replacement tokens may be used within the command text. 
 
 Each of these actions have different events and fields related to them. Currently there are 10 overall events:
@@ -59,7 +59,7 @@ To add Life Cycle Action to your lab profile, follow these steps for every Actio
 2. From the **Action Type** dropdown, select the action you want performed.
 3. From the **Event** dropdown, select the event when you want the web request to be sent.
 4. In the **Delay** box, set the number of seconds after the Life Cycle Event occurs that the Action should trigger, if wanted.
-5. In the **Error Action** dropdown, select the type of action to LOD will take if an error occurs.
+5. In the **Error Action** dropdown, select the type of action to Skillable Studio will take if an error occurs.
    1. If you select **Notify User** as the **Error Action**, an **Error Notification** field will appear. Type the text the user will receive in the toast notification in the lab interface.
 6. Uncheck **Enabled** if necessary.
 7. Click **OK** to add the **Life Cycle Action**.
@@ -124,7 +124,7 @@ Once you have added Life Cycle Actions to your lab, navigate to [Manage Life Cyc
 
 ## Execute Machine Command
 
-The Execute Machine Command action can only be triggered by the Running, IP Addresses Assigned, and Resumed events. For the command to run successfully, the user must be logged into the virtual machine and the machine must have the Lab on Demand integration service installed. Because the user must be logged in, we recommend only using this feature when the lab is resumed or launched from a saved state.
+The Execute Machine Command action can only be triggered by the Running, IP Addresses Assigned, and Resumed events. For the command to run successfully, the user must be logged into the virtual machine and the machine must have the Skillable Studio integration service installed. Because the user must be logged in, we recommend only using this feature when the lab is resumed or launched from a saved state.
 
 1.   From the **Machine** dropdown, select the VM on which you want the command to run.
 2.   From the **Command Type** dropdown, select the type of command:
@@ -145,7 +145,7 @@ The Execute Subscription Command action can be triggered by any Life Cycle event
 
 1. The **Delay** field allows you to instrocude a delay between the moment the life cycle event occurs and the action is executed. 
 
-1. **Error Action** controls how Lab on Demand will handle errors that occur when executing this action. All errors are logged against the lab instance by default. You can also choose to notify the user about the error or end the lab. To prevent users from losing their work, only events early in the lifecycle (build, building, running, etc) allow you to end the lab when an error occurs. This can be configured to notify the user of the error, or end the lab. 
+1. **Error Action** controls how Skillable Studio will handle errors that occur when executing this action. All errors are logged against the lab instance by default. You can also choose to notify the user about the error or end the lab. To prevent users from losing their work, only events early in the lifecycle (build, building, running, etc) allow you to end the lab when an error occurs. This can be configured to notify the user of the error, or end the lab. 
 
 
 [Back to Action Types](#action-types)

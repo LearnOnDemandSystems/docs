@@ -18,8 +18,9 @@ With the Life Cycle Actions (LCA) feature, LOD is able to execute actions when s
   + [Headers](#headers)
 * [Send Notification to User](#send-notification-to-user)
 * [Send E-mail to user](#send-e-mail-to-user)
-* [Execute Machine Command](#execute-machine-command)
-* [Execute Cloud Platform Command](#execute-cloud-platform-command)
+* [Execute Script in Virtual Machine](#execute-script-in-virtual-machine)
+* [Execute Script in Container](#execute-script-in-container)
+* [Execute Script in Cloud Platform](#execute-script-in-cloud-platform)
   + [Azure](#azure)
   + [AWS](#aws)
 * [Execute Custom Script](#execute-custom-script)
@@ -44,12 +45,12 @@ First, decide what type of action should be executed, then decide when that acti
 
 **Life Cycle Actions include**:
 
-- **[Send a web request:](#send-web-request)** sends a web request to the URL specified. The URL can optionally contain placeholders that will be replaced by live data, with @lab replacement tokens.
+- [Send a web request:](#send-web-request) sends a web request to the URL specified. The URL can optionally contain placeholders that will be replaced by live data, with @lab replacement tokens.
 - [Send a notification to the user:](#send-notification-to-user)  sends a notification to the user during the specified event.
 - [Send an email to the user:](#send-e-mail-to-user) sends an email to the user during the specified event.
-- [Execute Script in Virtual Machine:](#execute-machine-command) sends a PowerShell or Shell command to a virtual machine.
-- [Execute Script in Container:](#execute-machine-command) sends a Bash command to a container.
-- [Execute Script in Cloud Platform:](#execute-cloud-platform-command) sends a PowerShell command to the cloud platform.
+- [Execute Script in Virtual Machine:](#execute-script-in-virtual-machine) sends a PowerShell, Bash or Shell script to a virtual machine.
+- [Execute Script in Container:](#execute-script-in-container) sends a Bash script to a container.
+- [Execute Script in Cloud Platform:](#execute-script-in-cloud-platform) sends a PowerShell script to the cloud platform.
 - [Execute Custom Script](#execute-custom-script)
 
 **Life Cycle Events include**:
@@ -57,7 +58,6 @@ First, decide what type of action should be executed, then decide when that acti
 - **Pre-Build**: the lab components are being deployed, as well as any cloud resources.
 - **Post-Build**: the lab environment has been built, but components like virtual machines may still be starting. 
 - **First Displayable**: all components of the lab are now running and the user can now interact with the lab.
-- **IP Addresses Assigned**: if the lab has public IP addresses, this event will wire when all public IP addresses have been verified to be assigned to the lab's virtual machine(s).
 - **Saving**: the lab is in the process of being saved.
 - **Saved**: the lab is in a saved state and no longer active. 
 - **Resuming**: the lab is resuming from a saved state.
@@ -72,7 +72,17 @@ There are additional settings that can **optionally** be configured:
 
 - **Delay**: allows you to introduce a delay between the moment the life cycle event occurs and the action is executed. 
 
-- **Error Action**: controls how Lab on Demand will handle errors that occur when executing this action. All errors are logged against the lab instance by default. You can also choose to notify the user about the error or to end the lab. To prevent users from losing their work, only events early in the lifecycle (build, building, running, etc) allow you to end the lab when an error occurs. 
+- **Timeout**: (**applies to execution of cloud platform scripts and custom scripts**) Controls how long Skillable Studio will wait for the script to execute before giving up. Timeouts will trigger an error that can be defined in the _Error Action_ field. 
+
+- **Repeat**: (**applies to execution of cloud platform scripts and custom scripts**) The life cycle action script can be repeated one or more times until it returns a value of true. This can be useful when checking the state of a remote resource. For instance, if a previous action began as an asynchronous deployment in an external platform, this action could be used to check for completion of that deployment. By returning false if the deployment is still under way and true if the deployment is complete, repeating the script will hold up the lab deployment process until your remote resource is ready. 
+
+    >[!note] The script will need to return true/false to trigger the repeat feature. 
+
+- **Retries**: The number of times that script execution will be retried in the event of a script-level error. If after the specified number of attempts the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
+
+    >[!note] This should not be used in place of proper error handling within your script. Platform managed retries can have side effects such as duplicated object creating and excessively long script execution times. 
+
+- **Error Action**: controls how Skillable Studio will handle errors that occur when executing this action. All errors are logged against the lab instance by default. You can also choose to notify the user about the error or to end the lab. To prevent users from losing their work, only events early in the lifecycle (build, building, running, etc) allow you to end the lab when an error occurs. 
 
 ## Send Web Request
 
@@ -117,9 +127,9 @@ You can optionally include HTTP headers. Each header should be on a separate lin
 
 ## Send Notification to User
 
-This will send a notification to the student's lab, during the specified event. This can contain plain text, or @lab replacement tokens. When the notification is sent to the student, information will be replaced by the @lab replacement token. 
+This will send a notification to the lab user's lab, during the specified event. This can contain plain text, or @lab replacement tokens. When the notification is sent to the lab user, information will be replaced by the @lab replacement token. 
 
-For example, if you were to configure the notification to the below, the notification will say "Hello" followed by the student's first name. 
+For example, if you were to configure the notification to the below, the notification will say "Hello" followed by the lab user's first name. 
 
 ```Hello, @lab.User.FirstName``` 
 
@@ -127,37 +137,45 @@ You can give the notification a **name**. If a name is provided, only one copy o
 
 ## Send E-mail to user
 
-This will send an E-mail to the student, during the specified event. This can contain plain text,or @lab replacement tokens. When the notification is sent to the student, information will be replaced by the @lab replacement token. 
+This will send an E-mail to the lab user, during the specified event. This can contain plain text,or @lab replacement tokens. When the notification is sent to the lab user, information will be replaced by the @lab replacement token. 
 
-## Execute Machine Command
+## Execute Script in Virtual Machine
 
-Machine commands are used to target a virtual machine with a PowerShell or Shell command. 
+Scripts can be used to target a virtual machine with a PowerShell, Bash or Shell script. 
 
-Machine commands support Blocking, which allows you to block further execution of the lab life cycle until the action completes. You can use this to sequence actions that depend on each other. It is recommended to use the blocking feature if the script in the LCA will take very long to complete. Machine commands also support @lab replacement tokens, that can be used in PowerShell and Shell commands. 
+Scripts support Blocking, which allows you to block further execution of the lab life cycle until the action completes. You can use this to sequence actions that depend on each other. It is recommended to use the blocking feature if the script in the LCA will take very long to complete. Scripts also support @lab replacement tokens, that can be used in PowerShell, Bash and Shell scripts. 
 
-Multiple commands types are available:
+Multiple script types are available:
 
-- **PowerShell**: PowerShell command execution without UI shown to the student. 
+- **PowerShell**: PowerShell script execution without UI shown to the lab user. 
 
-- **PowerShell with UI**: PowerShell command execution with PowerShell UI visible to the student. 
+- **PowerShell with UI**: PowerShell script execution with PowerShell UI visible to the lab user. 
 
-- **Shell**: Shell command execution without UI shown to the student. 
+- **Windows Command Shell**: Shell script execution without UI shown to the lab user. 
 
-- **Shell with UI**: Shell command execution with Command Prompt UI visible to the student. 
+- **Windows Command Shell with UI**: Shell script execution with Command Prompt UI visible to the lab user. 
 
-## Execute Cloud Platform Command
+- **Bash**: Bash script execution without UI shown to the lab user. 
 
-Cloud Platform commands are used to target a cloud platform such as Microsoft Azure or Amazon Web Services with a PowerShell, Python, C# or JavaScript command. 
+## Execute Script in Container
 
-Along with traditional syntax, there is additional syntax that can be used to interact with Lab on Demand. 
+Scripts can be used to target a container with a Bash script. 
+
+Scripts support Blocking, which allows you to block further execution of the lab life cycle until the action completes. You can use this to sequence actions that depend on each other. It is recommended to use the blocking feature if the script in the LCA will take very long to complete. Scripts also support @lab replacement tokens, that can be used Bash scripts. 
+
+## Execute Script in Cloud Platform
+
+Cloud Platform scripts are used to target a cloud platform such as Microsoft Azure or Amazon Web Services with a PowerShell, Python, C# or JavaScript script. 
+
+Along with traditional syntax, there is additional syntax that can be used to interact with Skillable Studio. 
 
 - Setting Lab Variables: sets a variable that can be recalled in subsequent lab instructions using @lab replacement tokens, as many times as necessary. 
 
 - Sending Lab Notifications: Sends a a popup notification to the lab, using the text specified in the syntax.
 
-Cloud Platform commands support Blocking, which allows you to block further execution of the lab life cycle until the action completes. You can use this to sequence actions that depend on each other. It is recommended to use the blocking feature if the script in the LCA will take very long to complete. 
+Cloud Platform scripts support Blocking, which allows you to block further execution of the lab life cycle until the action completes. You can use this to sequence actions that depend on each other. It is recommended to use the blocking feature if the script in the LCA will take very long to complete. 
 
-Cloud Platform commands also support @lab replacement tokens, that can be used in PowerShell <!-- or Python --> commands.
+Cloud Platform scripts also support @lab replacement tokens, that can be used in PowerShell scripts.
 
 Language options include: 
 
@@ -187,15 +205,24 @@ Language options include:
 - **JavaScript (AWS Only)**: uses node.js 14
     - **AWS**: AWS SDK for JS 3
 
+>[!knowledge] If a Life Cycle Action cloud platform script encounters an error, and that error is not caught, Skillable Studio will attempt to execute the script from the beginning every 60 seconds until true for up to 30 minutes. If after 30 minutes the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
 
 ## Execute Custom Script
 
-Scripts can be executed against a custom target, using a specific package for the selected language. Scripts can use packages that are hosted by supported package providers. 
-- PowerShell: [PowerShell Gallery](https://wwpowershellgallery.com/)
-- Python: [PyPi](https://pypi.org/)
-- JavaScript: [NPM](https://www.npmjs.com/)
-- C#: [Nuget](https://www.nuget.org/)
+Custom scripts allow you to execute scripts during the life cycle of a lab, using a specific package for the selected language or using native syntax for the selected language. 
 
-For more information about the available languages, see our [Lab on Demand Scripting documentation](scripting-home.md).
+Scripts executed using this method are typically used to target outside of Skillable Studio. As a best practice, it is recommended to use [Execute Script in Virtual Machine](#execute-script-in-virtual-machine) to target virtual machines and [Execute Script in Cloud Platform](#execute-script-in-cloud-platform) to target cloud environments. 
+
+- PowerShell: [PowerShell Gallery](https://powershellgallery.com/)
+- Python: [PyPi](https://pypi.org/)
+    - Add NuGet Package
+- JavaScript: [NPM](https://www.npmjs.com/)
+    - Add NPM Package
+- C#: [Nuget](https://www.nuget.org/)
+    - Add PyPI package
+
+>[!knowledge] If a Life Cycle Action custom script encounters an error, and that error is not caught, Skillable Studio will attempt to execute the script from the beginning every 60 seconds until true for up to 30 minutes. If after 30 minutes the script still fails to execute, it will not be attempted again. The error thrown by the script will be logged and can be retrieved on the lab instance details page. For languages that support error handling, you may catch errors to give the user a different message.
+
+For more information about the available languages, see our [Skillable Studio Scripting documentation](scripting-home.md).
 
 [Back to top](#life-cycle-actions)

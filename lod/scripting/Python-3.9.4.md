@@ -12,9 +12,9 @@ x = datetime.datetime.now()
 print(x)
 ```
 
-## Interacting with Lab on Demand
+## Interacting with Skillable Studio
 
-Your scripts can communicate success or failure to LOD in one of two ways.
+Your scripts can communicate success or failure to Skillable Studio in one of two ways.
 
 ### Return a Boolean value 
 
@@ -57,7 +57,7 @@ sendLabNotification("A notification from Python!");
 
 ### Lab Variables
 
-Lab variables are always string name/value pairs. Variable values are scoped to the lab instances and become avaialble within the lab instructions as well as subsequent script executions. 
+Lab variables are always string name/value pairs. Variable values are scoped to the lab instances and become available within the lab instructions as well as subsequent script executions. 
 
 ```Python
 setLabVariable("myVariable1", "This was set by Python in the cloud!");

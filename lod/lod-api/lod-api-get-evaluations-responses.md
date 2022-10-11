@@ -1,5 +1,14 @@
+---
+title: "GetEvaluationResponses API Command"
+description: "The GetEvaluationResponses command returns evaluation responses."
+isPublished: false
+---
+
 # GetEvaluationResponses
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **GetEvaluationResponses** command returns evaluation responses.
 
 ## Parameters
@@ -18,8 +27,11 @@ The **GetEvaluationResponses** command returns evaluation responses.
 |--- |--- |--- |--- |
 |Responses|Array of EvaluationAnswerResponse|No|See the EvaluationAnswerResponse Type below|
 |Error|String|Yes|In the event of an error, this will contain a detailed error message.|
+|Status|Integer|No|Indicates the status of the API request
+||||0 = Error
+||||1 = Success|
 
-## EvaluationAnswerResponse
+### EvaluationAnswerResponse
 
 |Name|Type|Nullable|Note|
 |--- |--- |--- |--- |
@@ -249,4 +261,4 @@ https://labondemand.com/api/v3/GetEvaluationResponses/?id=12345
 	"Status": 1
 }
 ```
-
+-->

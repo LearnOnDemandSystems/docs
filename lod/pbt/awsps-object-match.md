@@ -25,7 +25,7 @@ param(
 
 - After defining a result of false, we define our "ItemId". This is however you would like to identify the item. You may already have a structure for how you define your exam items, or it could be some simple within the context of just that lab.
 
-- Lastly, define any custom variables you will need within your script. While the Lab on Demand replacement tokens will work properly and replace as text anywhere in your script, it is a best practice to actually turn them into a variable so that bulk of the script is natural to the scripting language.
+- Lastly, define any custom variables you will need within your script. While the Skillable Studio replacement tokens will work properly and replace as text anywhere in your script, it is a best practice to actually turn them into a variable so that bulk of the script is natural to the scripting language.
 
     > [!ALERT] Ensure any Replacement Tokens placed into a variable are done so wrapped with single quotes (**'token'**) and not double quotes (**"token"**).
     >
@@ -123,7 +123,7 @@ After establishing what all of the user's settings should be, we must turn them 
 
 - When validation is successful, the "Item-Details" function we built earlier (where our comparison objects were created) is run.
 - If the user's items correctly match our expected values, we establish `$result = $True` and provides the user's configuration of the settings for the tested item(s).
-    - `$result` is run at the end of the script and if True will inform LOD that the item was correct.
+    - `$result` is run at the end of the script and if True will inform Skillable Studio that the item was correct.
     - Example output:
         ![](./images/om-awsps-correct.png?raw=true){400}
 - If the user's items did not accurately match the expected values, the script outputs both the user's configured settings as-tested as well as what the correct settings would have been.

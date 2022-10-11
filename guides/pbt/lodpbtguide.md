@@ -1,4 +1,4 @@
-# Learn on Demand Systems Performance Based Testing Guide
+# Skillable Performance Based Testing Guide
 
 <!--
 **Revision History**
@@ -11,7 +11,7 @@
 
 This document supports a release of a software product
 that may be changed substantially in the future. It is
-provided for informational purposes only and Learn on Demand Systems,
+provided for informational purposes only and Skillable,
 LLC, makes no warranties, either express or implied, in this document.
 Information in this document, including URL and other Internet Web site
 references, is subject to change without notice. The entire risk of the
@@ -28,14 +28,14 @@ transmitted in any form or by any means (electronic, mechanical,
 photocopying, recording, or otherwise), or for any purpose, without the
 express written permission of Microsoft Corporation.
 
-Learn on Demand Systems, LLC may have patents, patent applications,
+Skillable may have patents, patent applications,
 trademarks, copyrights, or other intellectual property rights covering
 subject matter in this document. Except as expressly provided in any
-written license agreement from Learn on Demand Systems, the furnishing
+written license agreement from Skillable, the furnishing
 of this document does not give you any license to these patents,
 trademarks, copyrights, or other intellectual property.
 
-Copyright 2017 © Learn on Demand Systems, LLC. All rights reserved.
+Copyright 2021 © Skillable. All rights reserved.
 
 All other trademarks are property of their respective owners.
 
@@ -44,7 +44,7 @@ All other trademarks are property of their respective owners.
 
 
 This guide provides information on building Performance-Based Testing
-(PBT) exam labs in Lab on Demand.
+(PBT) exam labs in Skillable Studio.
 
 **Intended Audience**
 
@@ -53,19 +53,19 @@ This guide assumes that the reader:
 -   Has a developer account with sufficient permissions to create a lab
     guide and modify select properties of a Lab Profile.
 
--   Has existing labs hosted by LODS.
+-   Has existing labs hosted by Skillable.
 
 -   Has a help desk support contract to pay for additional custom
     contract work.
 
 The guide further assumes that the reader has knowledge of how to build
-labs in LOD and knowledge of performance-based testing design.
+labs in Skillable Studio and knowledge of performance-based testing design.
 
 -->
 
 **Getting Started**
 
-Lab on Demand supports performance-based exams in addition to Integrated
+Skillable Studio supports performance-based exams in addition to Integrated
 Digital Lab (IDL) content. Our Performance Based Testing platform
 enables you to create multiple types of assessments including automated
 VM Scoring of Windows and Linux, scoring of Azure subscription
@@ -88,7 +88,7 @@ page, click Create Exam on the Exams tile.
 
 Once you have marked the lab as an exam, you will be presented with new
 options regarding the type of scoring the lab will use. There are
-currently three types of scoring exams available in LOD:
+currently three types of scoring exams available in Skillable Studio:
 
 -   Assessment – Used for multiple choice exams and is fully automated.
 
@@ -341,9 +341,9 @@ someone to grade it; it uses scripts to check if the user manipulated
 the environment as directed. It is graded automatically upon submission
 for grading. One major difference however is that for the scoring
 scripts to work, the VMs in the exam that the scripts will run against
-*must* have the LOD integration service installed on them.
+*must* have the Skillable Studio integration service installed on them.
 
-**Installation of LOD Integration Service on VMs**
+**Installation of Skillable Studio Integration Service on VMs**
 
 This service should be installed before you build your exam questions.
 To do this follow these steps after you have created the lab profile,

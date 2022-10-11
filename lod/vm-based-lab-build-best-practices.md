@@ -16,9 +16,7 @@ This document covers the following topics:
 
 -   [Building Windows-based virtual machines](#build-a-windows-virtual-machine)
 
-### Assumptions
-
-You have created or imported a virtual machine.
+This document assumes that you have created or imported a virtual machine.
 
 ## Create and Edit Virtual Machine Profiles
 
@@ -40,7 +38,7 @@ You have created or imported a virtual machine.
 
     >[!KNOWLEDGE] This only works with Windows virtual machines. To use dynamic screen resizing, you need to install **[Integration Services](#for-hyper-v-virtual-machines)**.
 
-#### vSphere Virtual Machines
+#### ESX Virtual Machines
 
 1.  Ensure that the **Operating System** value is accurate.
 
@@ -50,11 +48,11 @@ You have created or imported a virtual machine.
 
 #### Network Adapters Tab
 
-1.  If you are configuring a network adapter to connect to an **internal network**, select **Specify Ethernet (MAC) Address**, and then click "+ Generate" to generate a MAC address.
+1.  If you are configuring a network adapter to connect to an **internal network**, select **Specify Ethernet (MAC) Address**, and then select **+ Generate** to generate a MAC address.
 
 1.  If you are configuring an **internet-connected network adapter using Web Access (NAT)**, select **Specify Ethernet (MAC) address** and generate one.
 
-    >[!KNOWLEDGE] If you are **configuring multiple virtual machines** at the same time, generate the MAC addresses for one virtual machine, and then save the VM Profile for that virtual machine before configuring the next virtual machine, otherwise the LOD system will generate the same MAC address for each VM Profile for which you click **Generate**.
+    >[!KNOWLEDGE] If you are **configuring multiple virtual machines** at the same time, generate the MAC addresses for one virtual machine, and then save the VM Profile for that virtual machine before configuring the next virtual machine, otherwise the Skillable Studio system will generate the same MAC address for each VM Profile for which you select **Generate**.
 
 1.  If you are configuring a network adapter to use with a Web Access (Public IP) network, ensure that "Specify Ethernet (MAC) address" is **not** checked.
 
@@ -78,9 +76,9 @@ You have created or imported a virtual machine.
 
     >[!KNOWLEDGE] When using DHCP, unless a conflicting IP scope exists in the virtual machine setup, the best practice is to use the pre-configured IP scope and gateway.
 
-1.  For a public IP connection, contact the Help Desk to request approval, to have **Web Access (Public IP)** enabled on the Lab Profile.
+1.  For a public IP connection, contact the [customer support team](http://www.skillable.com/customer-support/) to request approval, to have **Web Access (Public IP)** enabled on the Lab Profile.
 
-    >[!ALERT] A public IP address requires approval. In order to get Public IP access, contact the Help Desk at https://lod.one/help.
+    >[!ALERT] A public IP address requires approval. In order to get Public IP access, please contact the [customer support team](http://www.skillable.com/customer-support/).
 
 #### Virtual Machines Tab
 
@@ -96,25 +94,21 @@ You have created or imported a virtual machine.
 
     >[!ALERT] The **Wait for heartbeat before displaying to user** setting may not work with some non-Windows virtual machines.
 
-#### vSphere Lab Profiles
+#### ESX Lab Profiles
 
 1.  To freeze the virtual machines at a specific date and time, uncheck **Synchronize system time with host**, and then check **Set initial system time**.
 
     >[!ALERT] Do not use this feature when internet access is enabled.
 
-#### Resources Tab
+#### Advanced Tab
+
+1.  When using an attached manual with the display set to **In-line, side-by-side with main content area**, as a best practice, set the **Navigation Bar Width** to **Large**, **X-Large**, or **Custom**.
 
 1.  Add any required resources to your lab profile. You can add as many resources as needed to the lab profile. The resources will be made available to lab users on the Resources tab.
 
 1.  If attaching a manual (PDF, Word, XPS, HTML etc.), select the **In-line side-by-side with main content area** display option.
 
     >[!KNOWLEDGE] The best practice when displaying a manual is to use the In-line side-by-side with main content area option. You can configure additional sizing options on the Advanced Tab.
-
-#### Advanced Tab
-
-1.  When using an attached manual with the display set to **In-line, side-by-side with main content area**, as a best practice, set the **Navigation Bar Width** to **Large**, **X-Large**, or **Custom**.
-
-2.  As a best practice, use the same value when setting the **Minimum Time Given To Saved Labs** and the **Expected Duration**.
 
 ## Build a Windows Virtual Machine
 
@@ -162,17 +156,17 @@ You have created or imported a virtual machine.
 
 #### For Hyper-V Virtual Machines
 
-1.  In the lab environment, on the **Developer menu** (the gear icon), click **Integration Services**.
+1.  In the lab environment, on the **Developer menu** (the gear icon), select **Integration Services**.
 
     >[!NOTE] This will attach a DVD from which you can install Integration Services. If you are prompted to install .NET 4.5, you’ll find a .NET 4.5 installer included on the DVD. You can use File Explorer to open the installer.
 
     >[!KNOWLEDGE] Integration Services allows automatic screen resizing, command execution within a virtual machine, activities and automated performance-based scoring.
 
-#### For vSphere Platform Virtual Machines
+#### For ESX Platform Virtual Machines
 
 1.  In the lab profile, on the Removable Media tab, add a **ESX_VMTools_ForWindows** Removable Media Profile.
 
-    >[!ALERT] If you don’t see the ESX_VMTools_ForWindows Removable Media option, click **Create Removable Media**, set the name to **ESX_VMTools_ForWindows**, and then in Path, click **Choose (VMware)**. Browse to **VMWare(vm)-tools-windows-9.0.5-1137270.iso**, click **OK**, and then click **Save**. Launch the lab, and then in the DVD Drive list, click **ESX_VMTools_ForWindows**.
+    >[!ALERT] If you don’t see the ESX_VMTools_ForWindows Removable Media option, select **Create Removable Media**, set the name to **ESX_VMTools_ForWindows**, and then in Path, select **Choose (ESX)**. Browse to **VMWare(vm)-tools-windows-9.0.5-1137270.iso**, select **OK**, and then select **Save**. Launch the lab, and then in the DVD Drive list, select **ESX_VMTools_ForWindows**.
 
     >[!KNOWLEDGE] ESX_VMTools_ForWindows contains VMware Tools for Windows Guests that, in this environment, is primarily useful for enabling mouse control of the Virtual Machine.
 
@@ -206,9 +200,9 @@ You have created or imported a virtual machine.
 
 1. In the Graphics key, create a new Dword value named **Disableanimations**.
 
-1. Right-click **Disableanimations**, and then click **Modify**.
+1. Right-click **Disableanimations**, and then select **Modify**.
 
-1. Select **Decimal**, enter a value of 1, and then click **OK**.
+1. Select **Decimal**, enter a value of 1, and then select **OK**.
 
     >[!KNOWLEDGE] This disables the animations in Office, which improves performance.
 
@@ -255,6 +249,8 @@ You have created or imported a virtual machine.
 Create a Combined Rearm Disk
 ----------------------------
 
-1.  If you have Office installed, and either Office or Windows is down to one remaining rearm, create one differencing disk that contains the rearm for both Windows and Office, and then keep this differencing disk separate from all other work. See Rearm Windows When Only One Windows Rearm Remains and Rearm Office When Only One Office Rearm Remains.
+1.  If you have Office installed, and either Office or Windows is down to one remaining rearm, create one differencing disk that contains the rearm for both Windows and Office, and then keep this differencing disk separate from all other work. 
+
+    See [Rearm Windows When Only One Windows](#rearm-windows-when-only-one-windows-rearm-remains) or [Rearm Remains and Rearm Office When Only One Office Rearm Remains](#rearm-indows-when-only-one-windows-rearm-remains).
 
 [Back to top](#best-practices:-virtual-machine-based-lab-development)

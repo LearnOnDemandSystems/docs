@@ -15,8 +15,7 @@ To create an instructor account:
      1. **First Name** 
      1. **Last Name**
      1. **Primary Email**
-     1. **Username**
-     1. **Password**. 
+     1. **Password**
 1. Verify that the instructor is being added to the correct **Organization** and **Time Zone**. 
 1. Click **Save**.
 

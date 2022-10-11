@@ -3,18 +3,20 @@ title: "Azure Virtualization"
 description: "Deploy an Azure hosted virtual machine."
 isPublished: true
 ---
-
 # Create an Azure Hosted Virtual Machine
+
+> [!alert] This is a deprecated method. For new implementations, please use the [Compute Gallery](/lod/azure-shared-image-gallery-vm.md) method instead. 
+
 
 1. [Overview](#overview)
 1. [Azure Set Up](#azure-set-up)
     - [Create the Resource Group Where You Will Store VHDs](#Create-the-resource-group-where-you-will-store-vhds)
     - [Create a storage account inside the new resource group](#Create-a-storage-account-inside-the-new-resource-group)
     - [Uploading a VHD To Azure](#uploading-a-vhd-to-azure)
-1. [Lab on Demand Set Up](#lab-on-demand-set-up)
+1. [Skillable Studio Set Up](#skillable-studio-set-up)
     - [Basic Information](#basic-information)
     - [Hard Disks](#hard-disks)
-        - [Map Storage Account in LOD](#map-storage-account-in-lod)
+        - [Map Storage Account in Skillable Studio](#map-storage-account-in-skillable-studio)
         - [Uploading a VHD to Azure](#uploading-a-vhd-to-azure)
     - [Network Adapters](#network-adapters)
     - [Internal Notes](#internal-notes)
@@ -24,7 +26,7 @@ isPublished: true
 
 This document describes how to upload template virtual hard disks (VHDs) into a Microsoft Azure subscription.
 
-Virtual machines (VM) can be hosted in Azure and used in Lab on Demand (LOD). The virtual hard disk for the VM is stored in an Azure storage account container, and is used by LOD when the lab is launched. 
+Virtual machines (VM) can be hosted in Azure and used in Skillable Studio. The virtual hard disk for the VM is stored in an Azure storage account container, and is used by Skillable Studio when the lab is launched. 
 
 ## Azure Set Up 
 
@@ -92,15 +94,15 @@ Once you have created a resource group and a storage account within it, you need
 
 1. After the VHD uploads, copy the VHD file name and save the name in a document because you will need it later on.
 
-At this point, you should everything set up in Azure and are now ready to configure the VM profile in LOD and add the VM to a lab. 
+At this point, you should everything set up in Azure and are now ready to configure the VM profile in Skillable Studio and add the VM to a lab. 
 
 ---
 
-## Lab on Demand Set Up
+## Skillable Studio Set Up
 
 ### Basic Information 
 
-1. Navigate to the **Virtual Machine Profiles** tile, on the LOD Admin page.
+1. Navigate to the **Virtual Machine Profiles** tile, on the Skillable Studio Admin page.
 
 1. Click **Create Virtual Machine Profile**. 
 
@@ -138,19 +140,19 @@ At this point, you should everything set up in Azure and are now ready to config
 
 The hard disk should be in **VHD** format and stored in an Azure storage account container. Ensure that hard disk name in the VM profile matches the VHD file name exactly as it appears in your storage account container in Azure. If the hard disk name in the VM profile doesn't match the file name in the Azure container, the VM will fail to launch. 
 
-### Map Storage Account in LOD
+### Map Storage Account in Skillable Studio
 
 The storage account where the VHD is stored needs to be mapped in the cloud subscription that is associated with the lab that will use the VM.
 
 To map the storage account in the subscription:
 
-1. Navigate to the **cloud subscription** in LOD. 
+1. Navigate to the **cloud subscription** in Skillable Studio. 
 
 1. Click **Edit** next to the subscription that you want to map. 
 
 1. Click the **Storage** tab of the _Edit Cloud Subscription_ dialog. 
 
-1. Enter the name of each in LOD, to align with the containers in your Azure storage account.
+1. Enter the name of each in Skillable Studio, to align with the containers in your Azure storage account.
 
     ![](IMAGES/cloud-subscription-storage.png)
 

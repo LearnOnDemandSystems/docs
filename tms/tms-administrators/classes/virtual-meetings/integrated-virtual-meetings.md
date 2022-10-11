@@ -50,4 +50,4 @@ To integrate WebEx into the Skillable TMS, you will need a licensed WebEx accoun
 
 ### Additional Resources
 
-[Virtual Meeting Host Comparison](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/virtual-meetings/vmh-comparison.md)
+[Virtual Meeting Host Comparison](https://docs.skillable.com/tms/tms-administrators/classes/virtual-meetings/vmh-comparison.md)

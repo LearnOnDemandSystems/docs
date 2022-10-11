@@ -8,8 +8,8 @@ isPublished: true
 
 - [Organization Account creation](#organization-account-creation)
 - [IAM User Creation](#iam-user-creation)
-- [Lab on Demand Subscription Pool Setup](#lab-on-demand-subscription-pool-setup)
-- [Lab on Demand Subscription Setup in Subscription Pool](#lab-on-demand-subscription-setup-in-subscription-pool)
+- [Skillable Studio Subscription Pool Setup](#skillable-studio-subscription-pool-setup)
+- [Skillable Studio Subscription Setup in Subscription Pool](#skillable-studio-subscription-setup-in-subscription-pool)
 - [Virtual Machine Prep](#virtual-machine-prep)
 - [Upload VHD to AWS and Create AMI](#upload-vhd-to-aws-and-create-ami)
 - [VM Profile Creation](#vm-profile-creation)
@@ -55,7 +55,7 @@ Next an IAM user needs to be created.
 
 1. Click **Add User**. 
 
-1. Enter a name for the user. I.E. _LODAPI_. The naming doesn't really matter, as long as the lab author will recognize it later. 
+1. Enter a name for the user. I.E. _SkillableStudioAPI_. The naming doesn't really matter, as long as the lab author will recognize it later. 
 
 1. Next, select **programmatic  Access**. This enables an access key ID and secret access key for the AWS API, CLI, SDK, and other development tools. 
 
@@ -67,13 +67,13 @@ Next an IAM user needs to be created.
 
 1. In the _Filter Policies_ field, search for ***Org***.
 
-1. Click the checkbox to select the policy name ***AWSOrganizationsFullAccess***. AWSOrganizationsFullAccessbe being assigned is required, so that the LOD service account can manage the organization. 
+1. Click the checkbox to select the policy name ***AWSOrganizationsFullAccess***. AWSOrganizationsFullAccess being assigned is required, so that the Skillable Studio  service account can manage the organization. 
 
     ![](/guides/cloud-slice/images/aws-organizationfullaccess.png)
 
 1. In the _Filter Policies_ field, search for **Admin**
 
-1. Click the checkbox to select **AdministratorAccess**. This will allow the LOD service account full access to manage the root AWS Account.
+1. Click the checkbox to select **AdministratorAccess**. This will allow the Skillable Studio  service account full access to manage the root AWS Account.
 
     ![](/guides/cloud-slice/images/aws-administrator-access.png)
 
@@ -85,9 +85,9 @@ Next an IAM user needs to be created.
 
 >[!alert] Record your access key ID and secret access key in a secure location. Once this page is closed, you will not be able to obtain this information again. These will be used in later steps, when configuring the Cloud Subscription in the Subscription Pool.  
 
-## Lab on Demand Subscription Pool Setup
+## Skillable Studio  Subscription Pool Setup
 
-1. From the LOD Admin page, click **Subscription Pools** on the Cloud Services tile.
+1. From the Skillable Studio  Admin page, click **Subscription Pools** on the Cloud Services tile.
 
 	![Subscription Pools](images/subscription-pools.png){400}
 	
@@ -103,10 +103,10 @@ Next an IAM user needs to be created.
 1. Select the **Organization** that the pool will be owned by. 
 1. **(Optional)** Enter a **custom subscription unavailable message**. This message will display to lab users if the subscription is unavailable. 
 1. Check the box to enable the subscription pool for use. 
-1. Enable or disable **Health Checks**. This enables health checks across all subscriptions in this pool. LOD will periodically check the subscription for configuration errors and other potential problems. 
+1. Enable or disable **Health Checks**. This enables health checks across all subscriptions in this pool. Skillable Studio  will periodically check the subscription for configuration errors and other potential problems. 
 1. If Health Checks are enabled, select the frequency that the health check will occur. The health check for each subscription will be completed at the specified interval. 
 
-## Lab on Demand Subscription Setup in Subscription Pool
+## Skillable Studio  Subscription Setup in Subscription Pool
 
 1. Navigate to the Subscription Pool that was created in previous steps. 
 1. Click **Create Cloud Subscription**.
@@ -203,11 +203,11 @@ The virtual machine needs to be prepared:
 
 	1. After all account numbers are added, click **Save**. 
 
-The AMi can now be configured in a Lab on Demand lab profile. 
+The AMi can now be configured in a Skillable Studio  lab profile. 
 
 ## VM Profile Creation
 
-1. Go to [Lab on Demand](https://labondemand.com). 
+1. Go to [Skillable Studio ](https://labondemand.com). 
 
 1. From the Admin page, click **Create Virtual Machine Profile** from the Virtual Machines tile. 
 

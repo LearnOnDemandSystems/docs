@@ -1,9 +1,12 @@
-# What's New in the LODS Platforms
+# What's New in the Skillable Platforms
 
-## Welcome! 
+What's new? 
+Glad you asked. 
 
-### Use the links below to access the Release Notes for each platform in the Learn on Demand Systems family.
+Check out our latest release notes **[here](https://skillable.com/release-notes/)**.
 
-- [**OneLearn Lab on Demand**](/lod/whats-new.md). Build and manage your labs for training consumption.
+<!--
 
-- [**OneLearn Training Management System**](/tms/whats-new.md). Manage your users and training, and consume your content.
+<iframe src="https://skillable.com/release-notes/" style="width: 1200px; height: 1000px;" style="border: none;"></iframe>
+
+-->

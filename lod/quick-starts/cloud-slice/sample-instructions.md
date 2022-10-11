@@ -53,9 +53,9 @@ Integrating videos is just as easy. Here's one that talks about PowerShell:
 
 !VIDEO[](https://youtu.be/f25-cj8mriQ)
 
-You can also include normal hyperlinks where ever you like, such as [this one](https://learnondemandsystems.com).
+You can also include normal hyperlinks where ever you like, such as [this one](https://skillable.com).
 
-[Here's a useful tip!]("Exclamation marks before multimedia (IMAGE/VIDEO) links tell Lab on Demand to be embed the content inline, in the current location.")
+[Here's a useful tip!]("Exclamation marks before multimedia (IMAGE/VIDEO) links tell Skillable Studio to be embed the content inline, in the current location.")
 
 ===
 
@@ -69,7 +69,7 @@ When students need to perform a series of activities, you can use tasks to track
 
 1. Try it now, by replacing each of the "1."'s in this list with hyphens, and watch what happens to the rendered output.
 
-1. By using tasks, students can check off activities as they complete them. At the same time, Lab on Demand can determine how far long each student is according to the number of activities they have marked as completed.
+1. By using tasks, students can check off activities as they complete them. At the same time, Skillable Studio can determine how far long each student is according to the number of activities they have marked as completed.
 
 1. Students don't have to check each one either. Try checking only the 3rd task in this list, and notice what happens.
 

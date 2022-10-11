@@ -10,9 +10,9 @@ A differencing disk is a virtual hard disk (VHD) that stores changes made on the
 
 ## Delete or Rollback to a Previous Disk
 
-In Lab on Demand (LOD), to rollback to a previous differencing disk, you must delete any disks that were added after the disk you wish to roll back to.
+In Skillable Studio, to rollback to a previous differencing disk, you must delete any disks that were added after the disk you wish to roll back to.
 
-1. In LOD, **navigate to the VM profile** you wish to change the disks on.
+1. In Skillable Studio, **navigate to the VM profile** you wish to change the disks on.
 
 1. Click **Edit** on the VM Profile.
 
@@ -39,7 +39,7 @@ To add a disk back to a VM profile, do the following:
 
 1. From the VM Profile page, click **Edit**.
 1. Scroll to the bottom of the disk chain and click **Add Differencing Disk**. 
-1. Click **Use an existing virftual hard disk file**. 
+1. Click **Use an existing virtual hard disk file**. 
 1. Navigate to the **virtual hard disk** that you wish to add to the VM profile, and click **OK**.
 1. If you receive any warnings after clicking OK, please read the warning carefully, as the disk you are attempting to use may cause issues with your VM profile. 
 1. Click **Save**.

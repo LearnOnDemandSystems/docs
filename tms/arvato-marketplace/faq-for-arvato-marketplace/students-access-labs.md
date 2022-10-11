@@ -13,7 +13,7 @@ Student access to labs is based on several factors in the Skillable TMS:
 - The first session of class has started.
 
 When student register using **Training Keys**, they are automatically added as **Enrolled** in the class.
->:small_orange_diamond: [View a video on how new students can use a training key to access class.](https://youtu.be/d9Wl2vsOjTc) 
+>:small_orange_diamond: [View a video on how new students can use a training key to access class.](https://youtu.be/GkGGPOM5xuE?list=PLoXguRLJE8rmUa3KXKJqebpN9cmTtEAdY) 
 >
 >:small_orange_diamond: [View a video on how students with an existing user account in the Skillable TMS platform can use a training key to access class.](https://youtu.be/-MlxmEnPnB0) 
 

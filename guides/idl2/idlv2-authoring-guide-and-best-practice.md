@@ -4,7 +4,7 @@ description: "This document covers Markdown, lab instruction editor interface, u
 isPublished: true
 ---
 
-# Learn on Demand Systems Integrated Digital Lab eXperience Authoring Guide 
+# Skillable Integrated Digital Lab eXperience Authoring Guide 
 
 ### Table of Contents:
 
@@ -126,7 +126,7 @@ Even though the instructions are free form, here are a few general tips that you
 
 The lab client is divided into two main parts: the **Lab Console**, and the **Resource Portal**.
 
-The **Lab Console** is initially displayed on the right side of the lab client, with the Instructions tab showing. This initial view allows users to get started with a lab immediately once it has launched. All instructions written in Markdown will be rendered within the Instructions tab. In the screenshot below, you see a sample lab showing a portion of the instructions for the lab. Activities that the user is instructed to do can optionally be created in a task list, which will render with checkboxes before each task (as you can see in the same screenshot), allowing users to track their progress in the lab. When a user checks a checkbox, all preceding checkboxes that were unchecked will be checked. This allows users to perform multiple tasks quickly, and then mark them as complete with a single click. As users mark tasks as complete, this progress is tracked and reported to LOD and TMS, while providing a visual marker to the end user indicating where they are in the lab. Overall lab progress is reported as the percentage of tasks that are marked as complete in the lab instructions.
+The **Lab Console** is initially displayed on the right side of the lab client, with the Instructions tab showing. This initial view allows users to get started with a lab immediately once it has launched. All instructions written in Markdown will be rendered within the Instructions tab. In the screenshot below, you see a sample lab showing a portion of the instructions for the lab. Activities that the user is instructed to do can optionally be created in a task list, which will render with checkboxes before each task (as you can see in the same screenshot), allowing users to track their progress in the lab. When a user checks a checkbox, all preceding checkboxes that were unchecked will be checked. This allows users to perform multiple tasks quickly, and then mark them as complete with a single click. As users mark tasks as complete, this progress is tracked and reported to Skillable Studio and TMS, while providing a visual marker to the end user indicating where they are in the lab. Overall lab progress is reported as the percentage of tasks that are marked as complete in the lab instructions.
 
 ![](images/idl2-example-with-instructions.png "Lab Client, shown with the Dark theme")
 
@@ -236,7 +236,7 @@ Media and documents can be uploaded and inserted into lab instructions.
 
 1. A **Dialog** will appear that allows you to add files by **dragging them into the lab instructions window** or by clicking the **Choose Files** button, as well as some additional options:
     - **Display Inline** or **As a link**: Inline will **render the image with lab instructions**, As a link **provides a link** that the user can click, to view the image in a new window.
-    - **Overwrite existing files**: choosing this option will **overwrite files with the same file name**, that are currently saved in Lab on Demand. This is useful when the wrong file gets uploaded and needs to be replaced with the correct file. 
+    - **Overwrite existing files**: choosing this option will **overwrite files with the same file name**, that are currently saved in Skillable Studio. This is useful when the wrong file gets uploaded and needs to be replaced with the correct file. 
 
 ![](images/drag-and-drop-screenshots.png)
 
@@ -327,7 +327,7 @@ To create a screenshot:
 
     >[!KNOWLEDGE]the screenshot is captured at the size that the VM is sized to,  when screenshot button is clicked. 
 
-If you use this method, the screenshot is stored in LOD and automatically added in the lab instructions where your mouse cursor is. Please keep in mind that when you take a screenshot using this method, you take a screenshot of the entire desktop of the VM, which may not be desirable. 
+If you use this method, the screenshot is stored in Skillable Studio and automatically added in the lab instructions where your mouse cursor is. Please keep in mind that when you take a screenshot using this method, you take a screenshot of the entire desktop of the VM, which may not be desirable. 
 
 Screenshots can also be added by pasting from your local clipboard, dragging images into the lab editor interface or using the Upload files feature. 
 
@@ -346,10 +346,8 @@ To add a screenshot by pasting from your local clipboard:
 1. A **Dialog** will appear, asking to **choose options** for the content:
     - **Display Inline** or **As a link**: Inline will **render the image with lab instructions**, As a link **provides a link** that the user can click, to view the image in a new window.
     - **Format**: JPG or PNG. Choose the format you wish to use for the screenshot.
-    - **File Name**: You can provide a file name for the screenshot. If a file name is not provided, the screenshot will be assigned a randomly generated name and stored in Lab on Demand.
+    - **File Name**: You can provide a file name for the screenshot. If a file name is not provided, the screenshot will be assigned a randomly generated name and stored in Skillable Studio.
     
-    **Note**: Pasting images into the lab instructions is not supported in Internet Explorer 11.
-
 ![](images/paste-image-dialog.png)
 
 To Add a screenshot by dragging an image into the lab instructions window:
@@ -364,7 +362,7 @@ To Add a screenshot by dragging an image into the lab instructions window:
 
 1.  A **Dialog** will appear, asking to **choose options** for the  content:
     - **Display Inline** or **As a link**: Inline will **render the image with lab instructions**, As a link **provides a link** that the user can click, to view the image in a new window.
-    - **Overwrite existing files**: choosing this option will **overwrite files with the same file name**, that are currently saved in Lab on Demand. This is useful when the wrong file gets uploaded and needs to be replaced with the correct file. 
+    - **Overwrite existing files**: choosing this option will **overwrite files with the same file name**, that are currently saved in Skillable Studio. This is useful when the wrong file gets uploaded and needs to be replaced with the correct file. 
 
 **Note**: Other media types such as videos and documents can be added using this method. 
 
@@ -661,7 +659,7 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
 - **Unordered list:** Used to list items in no particular order, separated by bullets rather than numbers. Type a - (dash or hyphen) followed by a space and then the text to be listed. Pressing enter at the end of the text will start the next line with a bullet. 
 - **Ordered list:** Used to list items in a particular order, separated by numbers rather than bullets. Type the number 1, followed by a space and then the text to be listed. Pressing enter at the end of the text will start the next line with number 2.
-- Both Unordered and Ordered lists can contain Task Checkboxes for the student to check off steps as completed. Both list types can be combined in the same list. Task Checkboxes are used track and report lab progress to LOD and TMS, as well as a visual marker for students. Lab progress is calculated by the percentage of Task Checkboxes that are checked in the lab instructions.
+- Both Unordered and Ordered lists can contain Task Checkboxes for the student to check off steps as completed. Both list types can be combined in the same list. Task Checkboxes are used track and report lab progress to Skillable Studio and TMS, as well as a visual marker for students. Lab progress is calculated by the percentage of Task Checkboxes that are checked in the lab instructions.
 
 ```Unordered_Task_List
 - [] Item 1
@@ -887,7 +885,17 @@ Below is an example of how a multi line command would look for a **PowerShell cm
     ```
 > [!KNOWLEDGE] PowerShell commands are executed in a CMD prompt, in the lab. The command will still function as intended.
 
-Commands can perform any action that is possible to do from a command or Windows PowerShell prompt. For example, the command could open File Explorer at a particular location within a directory structure, open dialog boxes, start scripts, open documents and web pages, and many others. 
+Commands can perform any action that is possible to do from a command or Windows PowerShell prompt. For example, the command could open File Explorer at a particular location within a directory structure, open dialog boxes, start scripts, open documents and web pages, and many others.    
+
+>[!knowledge] When using the command prompt to run commands that are not in the command path, and have spaces in their fully qualified name, they need special attention.  For   
+> example if there is a requirement to run MSEdge (C:\Program Files (x86)\Microsoft\Edge\Applications\msedge.exe), this will not work as expected surrounded by double > quotes.  To run this type of command either proceed the command with an **& or use the PowerShell Start-Process** command, as per these examples:
+>
+>
+> - @[Text to display](\`& "c:\program files (x86)\microsoft\edge\application\msedge.exe"`){shell}    
+>    
+> 	Or
+>
+> - @[Text to display](\`Start-Process "c:\program files (x86)\microsoft\edge\application\msedge.exe"`){PowerShell}     
 
 Although potentially any task could be reduced to an action that can be executed as a command shell or Windows PowerShell command, you should use this feature judiciously. Users should still know how to open File Explorer and perform other basic actions. This feature is most useful for a complex task that involves numerous steps, opening file locations deep down in directory structures, opening specific Web pages, and other similar activities.
    
@@ -919,7 +927,7 @@ Although potentially any task could be reduced to an action that can be executed
 
     > `!video[text to display](url)` 
 
-- **Replacement Token:** Used to replace text in lab instructions with a variable that is unknown at the time of authoring the lab instructions. These variables may not be generated or created until the lab is launched by the student. These can include usernames, user first name, user last name, running lab instance ID number, etc. 
+- **Replacement Token:** Used to replace text with a variable that is unknown at the time of authoring the lab. The value of these variables may not be generated or created until the lab is launched by the student. These can include usernames, user first name, user last name, running lab instance ID number, etc. 
 
     Replacement tokens use the syntax &commat;lab._replacementTokenName_. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button. 
 
@@ -939,16 +947,32 @@ Although potentially any task could be reduced to an action that can be executed
    >|`@lab.User.Organization.Id`|The ID of the organization the user belongs to.|
    >|`@lab.User.Organization.Name`|The name of the organization the user belongs to.|
    >|`@lab.Tag`|The tag associated with the lab instance (if specified when launched via    API).|
-   >|`@lab.CloudSubscription.Id`|The unique ID of the subscription backing the lab    instance.|
-   >|`@lab.CloudSubscription.Name`|The name of the subscription backing the lab instance.|
-   >|`@lab.CloudSubscription.TenantName`|The tenant name of the subscription backing the    lab instance.|
-   >|`@lab.CloudResourceGroup(1).Name`|The instance name of the ResourceGroup1 resource    group.|
+   >|`@lab.CtrlAltDelete`|Sends Ctrl+Alt+Delete to the currently active virtual machine.|
+   >|`@lab.VirtualMachine(VirtualMachineName).SelectLink`|A link to select the VirtualMachineName virtual machine.|
+   >|`@lab.VirtualMachine(VirtualMachineName).Username`|Username for signing into the VirtualMachineName virtual machine.|
+   >|`@lab.VirtualMachine(VirtualMachineName).Password`|Password for signing into the VirtualMachineName virtual machine.|
+   >|`@lab.VirtualMachine(VirtualMachineName).Console`|Inline console for the VirtualMachineName virtual machine.|
+   >|`@lab.OpticalMedia(1).LoadLink`|A link to load optical media on the active virtual machine.|
+   >|`@lab.FloppyMedia(1).LoadLink`|A link to load floppy media on the active virtual machine.|
+   >|`@lab.Container(containerName).InstanceName`|The instance name for container (containerName).|
+   >|`@lab.Container(containerName).Terminal`|Terminal for (containerName)|
+   >|`@lab.Container(containerName).ExpostedPort(portValue).Address`|The address for the exposed port (portValue) on container (containerName).|
+   >|`@lab.Container(containerName).ExpostedPort(portValue).HostName`|	The host name for the exposed port (portValue) on container (containerName).|
+   >|`@lab.Container(containerName).ExpostedPort(portValue).HostPort`|The host port for the exposed port (portValue) on container (containerName).|
+   >|`@lab.Container(alias).WebDisplayUrl`  | The web display URL for container (alias).|
+   >|`@lab.Container(alias).WebDisplayPath` | The web display path (folder portion of the URL) for container (alias).|
+   >|`@lab.CloudSubscription.Id`|The unique ID of the subscription the lab is launched against.|
+   >|`@lab.CloudSubscription.Name`|The name of the subscription the lab is launched against.|
+   >|`@lab.CloudSubscription.TenantName`|The tenant name of the subscription the lab is launched against.|
+   >|`@lab.CloudResourceGroup(1).Name`|The instance name of the ResourceGroup1 resource group.|
+   >|`@lab.CloudResourceGroup(StackName).Name`|The instance name of the (StackName) resource group. This applies to AWS only|
+   >|`@lab.CloudResourceGroup(StackName).Location`|The cloud platform region/location where (StackName) resources are deployed.|
    >|`@lab.CloudResourceTemplate(Template1).Name`|The instance name of the VNET resource.|
-   >|`@lab.CloudResourceTemplate(Template1).DeploymentLink`|A deployment link for the    VNET resource.|
-   >|`@lab.CloudResourceTemplate(Template1).DeploymentUrl`|A deployment URL for the VNET    resource (rendered as text, not a link).|
-   >|`@lab.CloudResourceTemplate(Template1).Parameters[complex-VNETName]`|The value sent    for the complex-VNETName parameter when creating the VNET resource.|
-   >|`@lab.CloudPortalCredential(User1).Username`|The username of the User1-* cloud    portal user account.|
-   >|`@lab.CloudPortalCredential(User1).Password`|The password of the User1-* cloud    portal user account.|
+   >|`@lab.CloudResourceTemplate(Template1).DeploymentLink`|A deployment link for the VNET resource.|
+   >|`@lab.CloudResourceTemplate(Template1).DeploymentUrl`|A deployment URL for the VNET resource (rendered as text, not a link).|
+   >|`@lab.CloudResourceTemplate(Template1).Parameters[complex-VNETName]`|The value sent for the complex-VNETName parameter when creating the VNET resource.|
+   >|`@lab.CloudPortalCredential(User1).Username`|The username of the User1 cloud portal user account.|
+   >|`@lab.CloudPortalCredential(User1).Password`|The password of the User1 cloud portal user account.|
    >|`@lab.CloudCredential(PoolName).Username`|The Username assigned from the PoolName credential pool.|
    >|`@lab.CloudCredential(PoolName).Password`|The Password assigned from the PoolName credential pool.|
    >|`@lab.CloudCredential(PoolName).TenantName`|The TenantName assigned from the PoolName credential pool.|
@@ -956,12 +980,14 @@ Although potentially any task could be reduced to an action that can be executed
    >|`@lab.CloudPortal.Link`|A link to the cloud portal.|
    >|`@lab.CloudPortal.Url`|The cloud portal URL (rendered as text, not a link).|
    >|`@lab.CloudPortal.SignInLink`|A cloud portal sign-in link.|
-   >|`@lab.CloudPortal.SignInUrl`|The cloud portal sign-in URL (rendered as text, not a    link).|
+   >|`@lab.CloudPortal.SignInUrl`|The cloud portal sign-in URL (rendered as text, not a link).|
    >|`@lab.CloudPortal.SignOutLink`|A cloud portal sign-out link.|
-   >|`@lab.CloudPortal.SignOutUrl`|The cloud portal sign-out URL (rendered as text, not a    link).|
-   >|`@lab.TextBox(name)`|A text box that allows the user to set the value of a named    variable. This variable value can then be displayed elsewhere using @lab.Variable(name)   .|
-   >|`@lab.DropDownList(name)[val1,val2]`|A dropdown list that allows the user to set the    value of a named variable. This variable value can then be displayed elsewhere using    @lab.Variable(name).|
-   >|`@lab.KeyCombo(title of button)[key combo]`|Generates a button that sends a combination of key codes to the active VM.|
+   >|`@lab.CloudPortal.SignOutUrl`|The cloud portal sign-out URL (rendered as text, not a link).|
+   >|`@lab.TextBox(name)`|A text box that allows the user to set the value of a named    variable. This variable value can then be displayed elsewhere using @lab.Variable(name).|
+   >|`@lab.MaskedTextBox(name)`|A text box with hidden contents used for passwords.|
+   >|`@lab.DropDownList(name)[val1,val2]`|A dropdown list that allows the user to set the value of a named variable. This variable value can then be displayed elsewhere using @lab.Variable(name).|
+   >|`@lab.KeyCombo(label)[key combo]`|Generates a button that sends a combination of key codes to the active VM.|
+   >|`@lab.EssayTextBox(name)[height]`	|A larger essay style text box that can hold up to 5000 characters. **Height in number of lines declared by [height] is optional**. This variable value can then be displayed elsewhere using `@lab.Variable(name)`.|
 
 # Activities
 
@@ -1059,7 +1085,7 @@ This script is to make sure the student has created a storage account correctly,
 ```
 param($LabInstanceId)
 $result = $false
-$resourceGroupName = "CSSTlod${LabInstanceId}"
+$resourceGroupName = "CSSTSkillableStudio${LabInstanceId}"
 $storAccount = Get-AzureRmStorageAccount -ResourceGroupName $resourceGroupName -Name "sa${LabInstanceId}" -ErrorAction Ignore
 if ($storAccount -eq $null){
     "The Storage Account has not been created"
@@ -1243,7 +1269,7 @@ To create a multiple choice review, in the Scoring Type drop-down, select **Asse
 
 ### Create and Incorporate Advertising Campaigns
 
-An advertising campaign allows you to provide introductory content across multiple labs that are grouped by lab series, organization or event. This topic describes how to add an advertising campaign to a lab profile or a lab series. The advertising campaign must first be configured from the Lab on Demand Admin page, as show below.
+An advertising campaign allows you to provide introductory content across multiple labs that are grouped by lab series, organization or event. This topic describes how to add an advertising campaign to a lab profile or a lab series. The advertising campaign must first be configured from the Skillable Studio Admin page, as show below.
 
 _You will require special permissions to see this tile._
 
@@ -1401,8 +1427,6 @@ The following settings on the advanced tab allow you to customize the client use
 
 - **Custom Cascading Style Sheets (CSS).** You can use CSS to modify the appearance of the lab text in the navigation and task bars. CSS markup that will be included in the lab client, making it possible to control the styles of custom content that is added to the lab. This should just be the style definitions, including a style tag is not necessary.
 
-    For more information on Custom CSS in Lab on Demand, see our guide here: [Custom CSS Guide](../../lod/feature-focus/lab-profiles/custom-css.md).
-
 - **Custom CSS URL:** A URL to an externally hosted CSS stylesheet. The stylesheet will be referenced in the lab client.
 
     Note: HTTPS is **required** for external URLs to CSS stylesheets.
@@ -1434,11 +1458,9 @@ The following settings on the advanced tab allow you to customize the client use
 
 - **Show Virtual Machine Power Options:** Checking this box enables virtual machine power options to be available to users.
 
-- **Require Hyper-V Enhanced Controller:** Checking this box requires the user to use the Hyper-V Enhanced controller to work in the lab. If this box is checked, users will not be able to use any other machine remote controllers. Note that the Hyper-V enhanced controller only allows one user to access the lab at a time. 
-
 - **Save/Cancel Options:** 
 
-    - **Allow User to Cancel Labs:** allows the user to cancel the lab at any point
+    - **Allow User to Cancel Labs:** Allows the user to cancel the lab at any point.
     - **Allow user to Save labs:** allows the user to save the lab in it's current state and return at a later time. Note that saved labs are only saved for 48 hours. Users can extend the saved lab expiration by resuming the lab and saving again. Each save sets the timer back to 48 hours. After 48 hours has passed, the lab progress and components are discarded and cannot be recovered. 
     - **Allow User to Extend Time Remaining:** Allows the user to extend the time remaining in the lab environment. 
     - **Auto-Save incomplete Labs:** Enables the lab to automatically save incomplete labs after a specified amount of time has passed.

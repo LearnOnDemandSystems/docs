@@ -30,6 +30,10 @@
       <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/change-user-profile.md">
         <div class="subtopic_title">How do I access and change my user profile?</div>
       </a>
+      </a>
+      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/upcoming-events-link.md">
+        <div class="subtopic_title">What is the Upcoming Events link?</div>
+      </a>
       <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/where-do-i-get-help.md">
         <div class="subtopic_title">How can I reach someone for help?</div>
       </a>
@@ -71,7 +75,7 @@
         <div class="subtopic_title">How do I print my completion certificate?</div>
       </a>
       <a class="subtopic_link" href="/tms/end-user-student-faqs/class-self-paced/access-my-courseware.md">
-        <div class="subtopic_title">What is the access courseware button and how do I use it?</div>
+        <div class="subtopic_title">What is the Access Courseware or MS Learn Courseware button and how do I use it?</div>
       </a>
     </div>
   </div>

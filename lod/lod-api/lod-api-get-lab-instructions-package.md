@@ -1,5 +1,14 @@
+---
+title: "GetLabInstructionsPackage API Command"
+description: "The GetLabInstructionsPackage command allows you to download the IDL-MD instructions of a lab as an archived file."
+isPublished: false
+---
+
 # GetLabInstructionsPackage
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **GetLabInstructionsPackage** command allows you to download the IDL-MD instructions of a lab as an archived file.
 
 ## Parameters
@@ -18,3 +27,4 @@ Imagine…  A lab profile has an ID = 2393048 and you want to get a package that
 ```
 https://labondemand.com/api/v3/GetLabInstructionsPackage?id=2393048
 ```
+-->

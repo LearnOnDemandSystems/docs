@@ -5,16 +5,16 @@
 > This guide is **optional**, but it is recommended to avoid running into resource limitations during the use of a Cloud Slice lab. 
 >
 > To complete this quick start, you must have the following:
-> * a cloud subscription configured for use with the One Learn Lab on Demand platform (LOD);
+> * a cloud subscription configured for use with the Skillable Studio platform;
 >
-> * a Cloud Subscription Pool created in LOD that contains the cloud subscription(s) you will use with your Cloud Slice;
+> * a Cloud Subscription Pool created in Skillable Studio that contains the cloud subscription(s) you will use with your Cloud Slice;
 >
 > * a lab profile that is properly configured to be a Cloud Slice lab;
 >
-> * a Cloud Subscription Pool created in LOD that contains the cloud subscription(s) you will use with your Cloud Slice;
-> If you have not yet configured your cloud subscription for use with LOD, go through the [Configure Subscription Quick Start](configure-subscription.md).
+> * a Cloud Subscription Pool created in Skillable Studio that contains the cloud subscription(s) you will use with your Cloud Slice;
+> If you have not yet configured your cloud subscription for use with Skillable Studio, go through the [Configure Subscription Quick Start](configure-subscription.md).
 >
-> If you have configured your cloud subscription properly but have not added your subscription into LOD for use with Cloud Slice labs, go through the [Add Subscription into LOD Quick Start](add-subscription-into-lod.md)
+> If you have configured your cloud subscription properly but have not added your subscription into Skillable Studio for use with Cloud Slice labs, go through the [Add Subscription into Skillable Studio Quick Start](add-subscription-into-lod.md)
 >
 > If you have not yet configured your lab profile to be a Cloud Slice lab, go through the [Creating a Cloud Slice lab Quick Start](create.md)
 

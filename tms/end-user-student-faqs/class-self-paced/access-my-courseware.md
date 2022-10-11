@@ -1,13 +1,27 @@
 ---
-title: "What is the Access Courseware button and how do I use it?"
+title: "What is the Access Courseware or MS Learn Courseware button and how do I use it?"
 isPublished: true
 ---
 
-# What is the Access Courseware button and how do I use it?
+# What is the Access Courseware or MS Learn Courseware button and how do I use it?
 
-If you see the **Access Courseware** button on your class enrollment page, you can use it to easily access your Skillpipe courseware. To see the button you must be enrolled in a class based on a course with courseware in Skillpipe and your organization must participate. This button only appears after the start time on the first day of class. Once class starts, you may have to refresh your page to see it.
+If you see an **Access Courseware** or an **MS Learn Courseware** button on your class enrollment page, you can use it to easily access your digital courseware. The Access Courseware button opens Skillpipe courseware and the MS Learn Courseware button opens Microsoft Learn courseware. 
 
-![](/tms/images/access-courseware-button.png)
+To see either courseware button you must be enrolled in a class based on a course with the courseware available. This button only appears after the start time on the first day of class; once class starts, you may have to refresh your page to see it.
+
+## MS Learn Courseware
+In a class using an integrated MS Learn course, an MS Learn Courseware button displays for students on the class enrollment details page. 
+
+Click the **MS Learn Courseware** button to access the courseware.
+
+![](/tms/images/mslearn-button.png)
+
+## Skillpipe courseware access
+To have Skillpipe digital courseware available on your enrollment page your organization must be a participant in the feature. In a class using Skillpipe courseware, the Access Courseware button displays on the class enrollment details page. 
+
+Click the **Access Courseware** button.
+
+![](/tms/images/access-couseware.png)
 
 When you click this button the first time, you will be taken to either the **Authorization Request** page or the **Registration** page for Skillpipe. If your Skillable TMS account has the same primary email address as your Skillpipe account, on the **Authorization Request** page, you will:
 1. Enter your Skillpipe **password**

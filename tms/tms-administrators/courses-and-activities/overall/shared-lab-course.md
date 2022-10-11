@@ -23,10 +23,10 @@ Requests for altered course configurations require pre-approval by both the our 
 
 > :small_blue_diamond: Due to the requirements for course configurations, only our staff can create courses that incorporate shared labs. 
 
-Notify our help desk at https://lod.one/help to set up the course. Specify the following information:
+Notify our help desk at https://skill.info/support to set up the course. Specify the following information:
 
 - Name of course
-- Name of Lab Series in LOD
+- Name of Lab Series in Skillable Studio
 - Name of Participant labs to add as Lab Activities to the course.
 
 The following configurations will be implemented for all courses using a shared lab:

@@ -1,6 +1,6 @@
 ---
 title: "SPLA Supported Software"
-description: "Supported products and the conditions within Learn on Demand Systems implementation of the SPLA program."
+description: "Supported products and the conditions within Skillable implementation of the SPLA program."
 isPublished: true
 ---
 
@@ -19,12 +19,12 @@ isPublished: true
 
 ## Windows and Office
 
-Below are supported products and the conditions within Learn on Demand Systems implementation of the SPLA program.  
+Below are supported products and the conditions within Skillable implementation of the SPLA program.  
 
-| Software       | Hyper-V | VMWare | Azure | AWS | Notes                         | Status |
+| Software       | Hyper-V | ESX | Azure | AWS | Notes                         | Status |
 |----------------|-------------|-----------|-------------------------------|--------|-|-|
-| Windows Server 2012 R2 / 2016 / 2019 Datacenter | YES | YES | **NO** | **NO** | No Further Support Coming | Supported|
-| Windows Server 2012 R2 / 2016 / 2019 Standard | YES  | YES | **NO** | **NO** | No Further Support Coming | Supported|
+| Windows Server 2012 R2 / 2016 / 2019 / 2022 Datacenter | YES | YES | **NO** | **NO** | No Further Support Coming | Supported|
+| Windows Server 2012 R2 / 2016 / 2019 / 2022 Standard | YES  | YES | **NO** | **NO** | No Further Support Coming | Supported|
 | Windows Server 2012 R2 / 2016 / 2019 Essentials | YES  | YES | **NO** | **NO** | No Further Support Coming | Supported|
 | Any other Windows Server Version | **NO** | **NO** | **NO** | **NO** | Every supported version accounted for | Supported|
 | Windows Client | **NO** | **NO** | **NO** | **NO** | Windows Client is not supported, in any form, under SPLA | Possible at a future date|
@@ -51,9 +51,9 @@ The following is a list of other software supported by the SPLA program but **NO
 
 Windows Server is offered under the following terms:
 * **Concurrency GB Model** - offered in increments of 768GB RAM
-* **Per GB RAM/hr Model** - offered per GB, calculated per hour
+* **Per GB RAM/HR Model** - offered per GB, calculated per hour
 
-Office Products are billed on a 'Per User' basis.  Every launch in Lab on Demand constitutes a billable consumption.  
+Office Products are billed on a 'Per User' basis.  Every launch in Skillable Studio constitutes a billable consumption.  
 
 * Any lab that uses a licensed version of Office through SPLA and launched will incur a billable event despite duration or if a user makes use of it.
 * A student that launches the same lab 5 times incurs 5 billable events for that lab.
@@ -86,4 +86,4 @@ Example billing scenarios:
 
    2. **How does the Office product billing work?**
    
-   We report all usage and Microsoft makes no distinction in a 'launch' vs a 'user' in our world. The billing model is not designed for how Learn on Demand System operates and does not cater to our unique use cases. The SPLA team has had conversations with our SPLA program partner about this and will report accurately, within reason, to Microsoft our use case.  It is important you reading this and your customers, understand these situations and how rigid they are.
+   We report all usage and Microsoft makes no distinction in a 'launch' vs a 'user' in our world. The billing model is not designed for how Skillable operates and does not cater to our unique use cases. The SPLA team has had conversations with our SPLA program partner about this and will report accurately, within reason, to Microsoft our use case.  It is important you reading this and your customers, understand these situations and how rigid they are.

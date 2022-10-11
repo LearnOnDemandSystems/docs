@@ -1,5 +1,14 @@
+---
+title: "GetEvaluationResponsesForEvent API Command"
+description: "The GetEvaluationResponsesForEvent command returns evaluation responses for a specific event."
+isPublished: false
+---
+
 # GetEvaluationResponsesForEvent
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **GetEvaluationResponsesForEvent** command returns evaluation responses for a specific event.
 
 ## Parameters
@@ -13,8 +22,12 @@ The **GetEvaluationResponsesForEvent** command returns evaluation responses for 
 |Name|Type|Nullable|Note|
 |--- |--- |--- |--- |
 |Responses|Array of EvaluationAnswerResponse|No|See the EvaluationAnswerResponse Type below|
+|Error|String|True|In the event of an error, this will contain a detailed error message.|
+|Status|Integer|No|Indicates the status of the API request
+||||0 = Error
+||||1 = Success|
 
-## EvaluationAnswerResponse
+### EvaluationAnswerResponse
 
 |Name|Type|Nullable|Note|
 |--- |--- |--- |--- |
@@ -244,3 +257,4 @@ https://labondemand.com/api/v3/GetEvaluationResponsesForEvent/?id=12345
 	"Status": 1
 }
 ```
+-->

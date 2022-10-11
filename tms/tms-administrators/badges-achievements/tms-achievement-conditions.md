@@ -1,11 +1,9 @@
 ---
-title: "Achievements JSON Help and Examples"
+title: "Writing conditions for achievements: JSON Help and Examples"
 isPublished: true
 ---
 
-# Achievements JSON Help and Examples
-
-Achievement Conditions are structured using JSON format. 
+# Writing conditions for achievements: JSON Help and Examples
 
 Achievement Conditions are structured using JSON format. The following will help you with building these conditions for your achievements.
 

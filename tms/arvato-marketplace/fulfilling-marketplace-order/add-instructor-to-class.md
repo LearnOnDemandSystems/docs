@@ -16,7 +16,6 @@ On the **Create Class/Edit Class** page:
          - **First Name**
          - **Last Name**
          - **Primary Email Address**. Note: If you receive a message that the email address is already in use, then a user account already exists for the instructor. In this case, follow the instructions for **Add Instructor**.
-         - **Username**
          - **Password/Confirm Password**
     1. **Save** the user account. The instructor role is automatically added when the user is created from the Instructor section.
     1. Return to the **Create/Edit Class** tab in your browser to add the instructor to the class.
@@ -34,7 +33,9 @@ On the **Create Class/Edit Class** page:
 
 You do not need to purchase a lab for the instructor. As soon as the class is set up and the instructor is added, they can access the labs from the Class page to prepare for class.
 
-Send the instructor the class information and the following instructions to access the class and labs. If you created them an account send them their **Username** and **Password** as well:
+Send the instructor the class information and the following instructions to access the class and labs. If you created an account for them, send them their **User name** and **Password** as well:
+Note: The User name is automatically set to the Primary Email on the user account.
+
 1. Log into **https://alh.learnondemand.net** with your username and password.
 1. Click **My Calendar** at the top of the page.
 1. Navigate to the date for the **first day** of class and click the **class name**. This opens the Class Details page. This is where you will go to teach the class.

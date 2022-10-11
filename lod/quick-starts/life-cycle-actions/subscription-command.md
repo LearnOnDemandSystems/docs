@@ -3,7 +3,7 @@
 > [!ALERT] You are currently viewing the third entry in a series of Quick Starts about Life Cycle Actions.
 >
 > To complete this quick start, you must have the following:
-> * a lab profile created in One Learn Lab on Demand platform (LOD);
+> * a lab profile created in Skillable Studio platform;
 > 
 > If you have not yet created a lab profile, If you have not created a lab profile, have a look at our [documentation for creating a lab profile](URL).
 
@@ -31,9 +31,9 @@ Estimated time to completion: **10 minutes**.
 
 1. Leave the **Error Action** as _Default_.
 
-    > [!KNOWLEDGE] The **Error Action** drop-down menu is used to set how errors will be handled in the lab. The default setting is to save errors to the lab instance in LOD. Alternatively you can set errors to notify the user, or end the lab.
+    > [!KNOWLEDGE] The **Error Action** drop-down menu is used to set how errors will be handled in the lab. The default setting is to save errors to the lab instance in Skillable Studio. Alternatively you can set errors to notify the user, or end the lab.
 
-1. Check the **Enabled** box. If this is unchecked, the life cycle action will not be exectued.
+1. Check the **Enabled** box. If this is unchecked, the life cycle action will not be executed.
 
 1. Click to copy this message and paste into the text field; +++Example Subscription Command+++. 
 

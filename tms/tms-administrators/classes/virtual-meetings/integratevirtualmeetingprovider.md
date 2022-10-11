@@ -31,7 +31,7 @@ When editing or creating your class,
 
 If you do not set pre and post class launch windows, then your instructors and students will see the Enter Classroom button immediately; with times entered, the Enter Classroom button is available based on your settings.  
 
- ![](/tms/images/cvcinstructorenterclassroom.png) 
+ ![](/tms/images/cvcinstructorenterclassroom-1.png) 
 
 When students come to their enrollment, they can enter the virtual meeting or open their labs. Clicking the Enter Classroom button directly adds them into the virtual meeting. If the meeting host has not started the meeting, they need to wait for the meeting to begin. The launch buttons for labs and course activities appear when class begins. 
 
@@ -55,36 +55,36 @@ When students come to their enrollment, they can enter the virtual meeting or op
 
 [How can I set up an integrated virtual meeting host?](/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md)
 
-[Virtual Meeting Host Comparison](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/virtual-meetings/vmh-comparison.md)
+[Virtual Meeting Host Comparison](https://docs.skillable.com/tms/tms-administrators/classes/virtual-meetings/vmh-comparison.md)
 
 ## Additional Resources
 
 #### Creating Classes 
 
- [What are the basics to create a class?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/schedule/create-class-basic.md) 
+ [What are the basics to create a class?](https://docs.skillable.com/tms/tms-administrators/classes/schedule/create-class-basic.md) 
  
- [How do I create a class?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/schedule/create-class.md) 
+ [How do I create a class?](https://docs.skillable.com/tms/tms-administrators/classes/schedule/create-class.md) 
 
 #### Creating User Accounts and Enrolling Students
 
 We have several methods of creating user accounts and enrolling students. The simplest method is to provide each student a training key; the key allows them to create a user account and enroll into class. 
 
- [How to create training keys for student registration](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/training-keys/class-training-keys.md) 
+ [How to create training keys for student registration](https://docs.skillable.com/tms/tms-administrators/classes/training-keys/class-training-keys.md) 
 
- [What information do I send to students to register with training keys](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md) 
+ [What information do I send to students to register with training keys](https://docs.skillable.com/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md) 
 
 User accounts can be created manually or imported. Once created the users can be enrolled as a group into your class. 
 
- [How do I create user accounts?](https://docs.learnondemandsystems.com/tms/tms-administrators/users/student-management/create-student-user-accounts.md) 
+ [How do I create user accounts?](https://docs.skillable.com/tms/tms-administrators/users/student-management/create-student-user-accounts.md) 
 
- [How do I create instructor user accounts?](https://docs.learnondemandsystems.com/tms/tms-administrators/users/instructor-management/create-instructor-user-accounts.md) 
+ [How do I create instructor user accounts?](https://docs.skillable.com/tms/tms-administrators/users/instructor-management/create-instructor-user-accounts.md) 
 
- [How do I create multiple user accounts at once?](https://docs.learnondemandsystems.com/tms/tms-administrators/users/student-management/create-multiple-user-accounts-at-once.md) 
+ [How do I create multiple user accounts at once?](https://docs.skillable.com/tms/tms-administrators/users/student-management/create-multiple-user-accounts-at-once.md) 
 
- [How can I enroll one or more students?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/enrollments-roster/enroll-multiple-students.md) 
+ [How can I enroll one or more students?](https://docs.skillable.com/tms/tms-administrators/classes/enrollments-roster/enroll-multiple-students.md) 
 
 #### Finding Meeting URLs for Classes
 
 Information on finding meeting URLs is located at the bottom of this article.
 
- [How can I find meeting URLs assigned to classes?](https://docs.learnondemandsystems.com/tms/tms-administrators/classes/virtual-meetings/custom-virtual-classroom.md)
+ [How can I find meeting URLs assigned to classes?](https://docs.skillable.com/tms/tms-administrators/classes/virtual-meetings/custom-virtual-classroom.md)

@@ -22,6 +22,6 @@
   
 ### Virtualization
 
-- VMWare performs better than Hyper-V with Linux
+- ESX performs better than Hyper-V with Linux
 
 - XXXXXX distro of Linux works better, because XXXXXXXXXX.

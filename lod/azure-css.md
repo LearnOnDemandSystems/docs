@@ -29,7 +29,7 @@ Microsoft Azure Cloud Slice Subscription (CSS) provides an environment that allo
 
 Azure CSS labs require a subscription pool to be configured and linked to any Lab Profiles that will be used for Azure CSS. 
 
-A subscription pool should be created and configured before proceeding to the next steps. If you do not have a subscription pool created and configured, please reach out to our [customer support team](http://www.learnondemandsystems.com/customer-support/) for assistance. 
+A subscription pool should be created and configured before proceeding to the next steps. If you do not have a subscription pool created and configured, please reach out to our [customer support team](https://skillable.com/customer-support/) for assistance. 
 
 ## Configuring a Lab profile
 
@@ -64,7 +64,7 @@ A subscription pool should be created and configured before proceeding to the ne
 
 1. **Subscription Pool:** Select your subscription pool. 
 
-    Subscription Pools are used to deploy resources in a subscription. Subscriptions will be shared among users with permissions to only access resource groups or virtual machines provisioned for their lab instance. If you do not have a subscription pool created and configured, please reach out to our [customer support team](http://www.learnondemandsystems.com/customer-support/) for assistance. 
+    Subscription Pools are used to deploy resources in a subscription. Subscriptions will be shared among users with permissions to only access resource groups or virtual machines provisioned for their lab instance. If you do not have a subscription pool created and configured, please reach out to our [customer support team](https://skillable.com/customer-support/) for assistance. 
 
 1. **Enable Multiple Subscriptions** (OPTIONAL): enable this option if the lab profile needs more than one Azure subscription. This option is not commonly enabled, only enable this if you are sure you need multiple subscriptions. Leave this unchecked for a single subscription configuration. 
 
@@ -106,9 +106,9 @@ These permissions only apply to the selected subscription.
 
 The Access Control Policies that are defined here apply to the subscription. An Access Control Policy is used by Azure, to limit the resources that can be provisioned. For more information, read our [Access Control Policies documentation](create-a-restriction-policy.md).
 
-1. **Add Policy**: add an Access Control Policy that is already created in LOD.
+1. **Add Policy**: add an Access Control Policy that is already created in Skillable Studio.
 
-1. **Create Policy**: create an Access Control Policy in LOD.
+1. **Create Policy**: create an Access Control Policy in Skillable Studio.
 
 ### Cloud Resource Groups: 
 
@@ -141,16 +141,16 @@ These permissions apply to this Resource Group only.
 
 Resource templates are used to deploy resources to a Resource Group in Azure.
 
-- **Add Template**: add a resource template that is already created in LOD.
+- **Add Template**: add a resource template that is already created in Skillable Studio.
 
-- **Create Template**: create a new resource template in LOD.
+- **Create Template**: create a new resource template in Skillable Studio.
 
 #### Access Control Policies
 The Access Control Policies that are defined here apply to this Resource Group only. An Access Control Policy is used by Azure, to limit the resources that can be provisioned. For more information, read our [Access Control Policies documentation](create-a-restriction-policy.md).
 
-- **Add Policy**: add an Access Control Policy that is already created in LOD.
+- **Add Policy**: add an Access Control Policy that is already created in Skillable Studio.
 
-- **Create Policy**: create an Access Control Policy in LOD.
+- **Create Policy**: create an Access Control Policy in Skillable Studio.
 
 Click **Save** to save the Lab Profile. 
 

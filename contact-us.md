@@ -2,15 +2,9 @@
 
 We hope you find our integrated documentation helpful. But if you can't find what you need here, you still have options...
 
-<!--
-## Help Center
-
-Find answers to your questions through short topical articles in the [Help Center](https://learnondemand.zendesk.com/hc/en-us/categories/200402875-Enlight-LOD-Lab-Developers).
--->
-
 ## Technical Support
 
-Please visit our [customer support page](http://www.learnondemandsystems.com/customer-support/) to submit a Support Ticket, access Help Articles or view our Service Status.
+Please visit our [customer support page](https://skillable.com/customer-support/) to submit a Support Ticket, access Help Articles or view our Service Status.
 
 ||||
 |---|---|---|
@@ -23,11 +17,11 @@ Please visit our [customer support page](http://www.learnondemandsystems.com/cus
 ## Sales Support
 |||
 |---|---|
-|**E-Mail** | sales@learnondemandsystems.com|
+|**E-Mail** | sales@skillable.com|
 |**Toll-free Phone** | +1 888-763-7730|
 |**Phone** | +1 727-264-1330|
 
 ## Integration
 
-Interested in integrating your system with Lab on Demand? Check out our [API](/lod/lod-api/lod-api-main.md).
+Interested in integrating your system with Skillable Studio? Check out our [API](/lod/lod-api/lod-api-main.md).
 

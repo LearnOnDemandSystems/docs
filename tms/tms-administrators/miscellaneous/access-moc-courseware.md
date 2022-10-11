@@ -26,5 +26,5 @@ If the student's Skillable TMS profile email address is not the same as the emai
 
 ![](/tms/images/skillpipe-registration.png)
 
-This feature is enabled at the Organization level. Once enabled on your organization, all enrollments with a status of Enrolled  that are aligned with MOC courses will have the **Access Courseware** button. If you are not interested in using this feature and would like to disable it, please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help) requesting that it be disabled for your organization.
+This feature is enabled at the Organization level. Once enabled on your organization, all enrollments with a status of Enrolled  that are aligned with MOC courses will have the **Access Courseware** button. If you are not interested in using this feature and would like to disable it, please submit a Support ticket at [**https://skill.info/support**](https://skill.info/support) requesting that it be disabled for your organization.
 �

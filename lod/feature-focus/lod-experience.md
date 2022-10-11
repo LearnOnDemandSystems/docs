@@ -1,12 +1,12 @@
 ---
-title: "Introduction to Lab on Demand UI"
-description: "Explanation of Lab on Demand UI."
+title: "Introduction to Skillable Studio UI"
+description: "Explanation of Skillable Studio UI."
 isPublished: true
 ---
 
-# Introduction to Lab on Demand UI
+# Introduction to Skillable Studio UI
 
-- [Lab on Demand Experience](#lab-on-demand-experience)
+- [Skillable Studio Experience](#lab-on-demand-experience)
   * [Admin](#admin)
     + [Admin Tiles](#admin-tiles)
     + [Details View](#details-view)
@@ -18,9 +18,9 @@ isPublished: true
 
 ## Admin
 
-The OneLearn Lab on Demand Admin page consists of several tiles. Each tile contains links to accomplish tasks related to the same topic. For example, the Lab Profiles tile only contains links for tasks related to a Lab Profile. 
+The Skillable Studio admin page consists of several tiles. Each tile contains links to accomplish tasks related to the same topic. For example, the Lab Profiles tile only contains links for tasks related to a Lab Profile. 
 
-In LOD, you will see different icons on buttons or links. These icons are associated with the appropriate action. For example, the magnifying glass icon is always associated with searching or finding a particular item, while the + (plus) icon is always associated with creating a new item. 
+In Skillable Studio, you will see different icons on buttons or links. These icons are associated with the appropriate action. For example, the magnifying glass icon is always associated with searching or finding a particular item, while the + (plus) icon is always associated with creating a new item. 
 
 <!--
 See the below table for an explanation of each icon. 
@@ -41,7 +41,7 @@ The tiles on the Admin page can be moved and re-ordered any way you would like. 
 
 Tiles contain links that are relevant to the name of the tile. Links on the tiles include, but are not limited to:
 
-- **Find links**: used to find items relevant to the name of the tile. For example, the Find Lab Profile link on the Lab Profiles tile is used to find Lab Profiles that are already created in Lab on Demand. 
+- **Find links**: used to find items relevant to the name of the tile. For example, the Find Lab Profile link on the Lab Profiles tile is used to find Lab Profiles that are already created in Skillable Studio. 
 
 - **Create links**: used to create items relevant to the name of the tile. For example, the Create a Virtual Machine tile on the Virtual Machines tile is used to create new Virtual Machine Profile.
 
@@ -53,7 +53,7 @@ Tiles may contain other links, than Create and Find. Those links are related to 
 
 ### Details View
 
-When you click an object in LOD, such as a Lab Profile, Lab Series, Cloud Subscription, etc, you will be brought to the Details View page. 
+When you click an object in Skillable Studio, such as a Lab Profile, Lab Series, Cloud Subscription, etc, you will be brought to the Details View page. 
 
 In the Details View, you have various options that can be used on the object you are looking at. For example, if you are looking at a Lab Profile details page, there is an option to mark the Lab Profile as a Favorite, edit the Lab Profile, delete the Lab profile, etc. 
 
@@ -66,7 +66,7 @@ There may be other options available, such as Favorite, depending on the Details
 
 ## Dashboard
 
-The Dashboard page contains all of your Lab on Demand activity. You can get to the Dashboard page by clicking the button at the top of the page in LOD.
+The Dashboard page contains all of your Skillable Studio activity. You can get to the Dashboard page by clicking the button at the top of the page in Skillable Studio.
 
 This page includes, but is not limited to:
 
@@ -84,21 +84,21 @@ This page includes, but is not limited to:
 
 ## News
 
-Click the News button at the top of the page in LOD, to navigate to the Lab on Demand Blog, where you can read about what's new in Lab on Demand. 
+Click the News button at the top of the page in Skillable Studio, where you can read about what's new in Skillable Studio. 
 
 ## Roadmap
 
-Click the Roadmap button to view the Learn on Demand Systems roadmap. This shows recently released features, as well as upcoming features. 
+Click the Roadmap button to view the Skillable roadmap. This shows recently released features, as well as upcoming features. 
 
 ## Community
 
-Click the Community button to join our Learn on Demand Systems Slack community, where you can interact with other lab authors, get lab authoring ideas and tips, and hear about upcoming events and announcements.
+Click the Community button to join our Skillable Slack community, where you can interact with other lab authors, get lab authoring ideas and tips, and hear about upcoming events and announcements.
 
 ## Help
 
-Click the Help button at the top of the page in LOD, to use our Integrated Help to see documentation about the topic you are working on in Lab on Demand. 
+Click the Help button at the top of the page in Skillable Studio, to use our Integrated Help to see documentation about the topic you are working on in Skillable Studio. 
 
-- If you are at the LOD Admin page and click the Help button, you will be presented with a list of topics that you can choose from to see various documentation. 
+- If you are at the Skillable Studio Admin page and click the Help button, you will be presented with a list of topics that you can choose from to see various documentation. 
 
 - If you are on a page other than the Admin page, you will be presented with documentation (if available) for the page you are on. If the documentation presented is not what you are looking for, click the Home icon at the top of the page, and you will be directed to a list of topics to choose from. 
 

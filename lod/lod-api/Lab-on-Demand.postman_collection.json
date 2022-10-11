@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "4374f561-b035-4a93-8996-621b522d7085",
-		"name": "Lab on Demand Postman Collection",
+		"_postman_id": "8181f66c-7f5d-42ea-a2f3-11a3a066e842",
+		"name": "Skillable Studio Postman Collection",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -100,6 +100,34 @@
 					]
 				},
 				"description": "The Class command returns information about a class."
+			},
+			"response": []
+		},
+		{
+			"name": "ClassAccessUrl",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/ClassAccessUrl?id=4449999 ",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"ClassAccessUrl"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "4449999 ",
+							"description": "The unique identifier of the class, as represented in your organization."
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -432,7 +460,7 @@
 						{
 							"key": "AvailableLabs",
 							"value": "17390",
-							"description": "An optional array of lab profile IDs. When provided, Lab on Demand will know that these labs are available within the class. You do not need to set this value in order to launch labs against the class. This is useful when using Lab on Demand to display a class attendance page, or when consuming shared class environments and you want the shared environment launch link to appear on the class monitor page."
+							"description": "An optional array of lab profile IDs. When provided, Skillable Studio will know that these labs are available within the class. You do not need to set this value in order to launch labs against the class. This is useful when using Skillable Studio to display a class attendance page, or when consuming shared class environments and you want the shared environment launch link to appear on the class monitor page."
 						},
 						{
 							"key": "AvailableLabs",
@@ -441,7 +469,7 @@
 						},
 						{
 							"key": "",
-							"value": null,
+							"value": "",
 							"disabled": true
 						}
 					]
@@ -476,6 +504,68 @@
 					]
 				},
 				"description": "The LabProfile command will return information about a specific lab profile."
+			},
+			"response": []
+		},
+		{
+			"name": "LabAccessUrl",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/LabAccessUrl?LabInstanceId=4449999",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"LabAccessUrl"
+					],
+					"query": [
+						{
+							"key": "LabInstanceId",
+							"value": "4449999",
+							"description": "The unique identifier of the lab instance.\n"
+						},
+						{
+							"key": "roleId",
+							"value": null,
+							"description": "Allows you to specify the role(s) to assign to the user. You may pass multiple instances of this parameter to specify multiple roles. Roles are used for specialized integration purposes and are not needed in typical integration scenarios. Role IDs will be provided by Skillable when appropriate.",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LabMonitorUrl",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://labondemand.com/api/v3/LabMonitorUrl?LabInstanceId=4449999",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"LabMonitorUrl"
+					],
+					"query": [
+						{
+							"key": "LabInstanceId",
+							"value": "4449999",
+							"description": "The unique identifier of the lab instance.\n"
+						}
+					]
+				}
 			},
 			"response": []
 		},
@@ -570,17 +660,17 @@
 						{
 							"key": "ipAddress",
 							"value": "1.1.1.1",
-							"description": "When specified, Lab on Demand will attempt to launch the lab in the closest available delivery region. You should provide the IP address of the user that is taking the lab, not the IP address of your system."
+							"description": "When specified, Skillable Studio will attempt to launch the lab in the closest available delivery region. You should provide the IP address of the user that is taking the lab, not the IP address of your system."
 						},
 						{
 							"key": "regionId",
 							"value": "1",
-							"description": "When specified, Lab on Demand will attempt to launch the lab in the specified delivery region. Delivery regions can be found using the DeliveryRegions command or Catalog command."
+							"description": "When specified, Skillable Studio will attempt to launch the lab in the specified delivery region. Delivery regions can be found using the DeliveryRegions command or Catalog command."
 						},
 						{
 							"key": "roleId",
 							"value": "1",
-							"description": "Allows you specify the role(s) to assign to the user. You may pass multiple instances of this parameter to specify multiple roles. Roles are used for specialized integration purposes and are not needed in typical integration scenarios. Role IDs will be provided by Learn on Demand Systems when appropriate."
+							"description": "Allows you specify the role(s) to assign to the user. You may pass multiple instances of this parameter to specify multiple roles. Roles are used for specialized integration purposes and are not needed in typical integration scenarios. Role IDs will be provided by Skillable when appropriate."
 						},
 						{
 							"key": "variable-name",
@@ -674,12 +764,12 @@
 						{
 							"key": "ipAddress",
 							"value": "1.1.1.1",
-							"description": "When specified, Lab on Demand will attempt to launch the lab in the closest available delivery region. You should provide the IP address of the user that is taking the lab, not the IP address of your system."
+							"description": "When specified, Skillable Studio will attempt to launch the lab in the closest available delivery region. You should provide the IP address of the user that is taking the lab, not the IP address of your system."
 						},
 						{
 							"key": "regionId",
 							"value": "1",
-							"description": "When specified, Lab on Demand will attempt to launch the lab in the specified delivery region. Delivery regions can be found using the DeliveryRegions command or Catalog command."
+							"description": "When specified, Skillable Studio will attempt to launch the lab in the specified delivery region. Delivery regions can be found using the DeliveryRegions command or Catalog command."
 						}
 					]
 				},
@@ -1026,7 +1116,7 @@
 						{
 							"key": "AvailableLabs",
 							"value": "17390",
-							"description": "An optional array of lab profile IDs. When provided, Lab on Demand will know that these labs are available within the class. You do not need to set this value in order to launch labs against the class. This is useful when using Lab on Demand to display a class attendance page, or when consuming shared class environments and you want the shared environment launch link to appear on the class monitor page."
+							"description": "An optional array of lab profile IDs. When provided, Skillable Studio will know that these labs are available within the class. You do not need to set this value in order to launch labs against the class. This is useful when using Skillable Studio to display a class attendance page, or when consuming shared class environments and you want the shared environment launch link to appear on the class monitor page."
 						},
 						{
 							"key": "AvailableLabs",
@@ -1040,7 +1130,7 @@
 						},
 						{
 							"key": "",
-							"value": null,
+							"value": "",
 							"disabled": true
 						}
 					]
@@ -1055,7 +1145,27 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": ""
+					"raw": "https://labondemand.com/api/v3/updatelabinstructions?id=2393048&instructions=The IDLx instructions. This should included in the body of the post.\n",
+					"protocol": "https",
+					"host": [
+						"labondemand",
+						"com"
+					],
+					"path": [
+						"api",
+						"v3",
+						"updatelabinstructions"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "2393048"
+						},
+						{
+							"key": "instructions",
+							"value": "The IDLx instructions. This should included in the body of the post.\n"
+						}
+					]
 				},
 				"description": "The UpdateLabInstructions command allows you to update the IDL-MD instructions of a lab. In order to support longer instructions lengths, this method requires an HTTP POST. The Content-Type of your post should be set to application/x-www-form-urlencoded.\r\n\r\n"
 			},
@@ -1135,7 +1245,6 @@
 		{
 			"listen": "prerequest",
 			"script": {
-				"id": "bffd030f-e3a7-48ba-b870-f60f0a38d28e",
 				"type": "text/javascript",
 				"exec": [
 					""
@@ -1145,13 +1254,11 @@
 		{
 			"listen": "test",
 			"script": {
-				"id": "4a2ff8f9-d0bb-41b8-984c-fd0a890e4548",
 				"type": "text/javascript",
 				"exec": [
 					""
 				]
 			}
 		}
-	],
-	"protocolProfileBehavior": {}
+	]
 }

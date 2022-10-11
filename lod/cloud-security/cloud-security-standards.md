@@ -6,7 +6,7 @@ isPublished: true
 
 # Cloud Security Standards
 
-Learn on Demand Systems requires that any Cloud Slice labs must be evaluated for risk before external consumption. The Learn on Demand Systems Security Review process defines a lab's security as **High**, **Medium**, or **Low** risk. 
+Skillable requires that any Cloud Slice labs must be evaluated for risk before external consumption. The Skillable Security Review process defines a lab's security as **High**, **Medium**, or **Low** risk. 
 
 While this evaluation determines a lab's risk for cloud resource abuse, even **Low** risk labs still have potential for abuse but are determined to be designed in such a way that the risk is minimal.
 
@@ -82,16 +82,16 @@ AWS denies all resources by default. AWS ACPs can be designed to only allow spec
 }
 ```
 
-- Where "**x**" is the statement ID defined by the policy writer. This is used for policy management. Ex: "**VisualEditor0**"
-- Where "**y**" is the action that the user can perform. The format is *category:action*. Ex 1: "**ec2:\***" means all **ec2** actions. Ex 2: "**iam:GetRole**" specifies reading IAM roles. 
-- Where "**z**" is the resource on which these actions can be performed. Ex: "**\***". 
+- Where "x" is the statement ID defined by the policy writer. This is used for policy management. Ex: "VisualEditor0"
+- Where "y" is the action that the user can perform. The format is *category:action*. Ex 1: "ec2:*" means all ec2 actions. Ex 2: "iam:GetRole" specifies reading IAM roles. 
+- Where "z" is the resource on which these actions can be performed. Ex: "**\***". 
 
 ## Life Cycle Actions
 
 If a lab has or inherits a Life Cycle Action that does **any** of the following:
 - Creates a new Resource Group
 - Modifies user permissions
-- Removes or modifies the "LOD Policy Set" on Azure
+- Removes or modifies the "Skillable Studio Policy Set" on Azure
 
 then it may be considered **High Risk**.
 
@@ -108,7 +108,7 @@ Labs with a High risk security status are extremely vulnerable to abuse.
 A lab qualifies as **High Risk** if ANY of the following are true:
 
     Life Cycle Actions:
-        • Azure Only - Remove or modify in any way the "LOD Policy Set".
+        • Azure Only - Remove or modify in any way the "Skillable Studio Policy Set".
     Access Control Policies:
         • Lab is open to all VMs/containers without limits.
         • Lab is open to VMs/containers of more than 4 sizes and are only limited by SKU.
@@ -126,7 +126,7 @@ A lab is **Medium Risk** if ALL of the following are true:
 
     Life Cycle Actions:
         • Do not modify user roles or permissions in any way.
-        • Azure Only - Do not Remove or modify in any way the "LOD Policy Set".
+        • Azure Only - Do not Remove or modify in any way the "Skillable Studio Policy Set".
 
 **and** ANY of the following:
 
@@ -155,7 +155,7 @@ ALL of the following:
 
     Life Cycle Actions:
         Do not modify user roles or permissions in any way.
-        Azure Only - Do not Remove or modify in any way the "LOD Policy Set".
+        Azure Only - Do not Remove or modify in any way the "Skillable Studio Policy Set".
     Access Control Policies:
         Lab is limited to only the resources that it requires.
         Azure Only - SQL Servers are completely denied.
@@ -173,7 +173,7 @@ Risk level tolerance depends on consumption context. This means that *where* and
 
 ## High Risk
 
-High risk labs require an expiration if set to "Approved". A high risk lab will never be permanently approved unless it has been authorized by both Cloud Security Management at Learn on Demand Systems and the Cloud Subscription owner.
+High risk labs require an expiration if set to "Approved". A high risk lab will never be permanently approved unless it has been authorized by both Cloud Security Management at Skillable and the Cloud Subscription owner.
 
 High risk labs may be approved under the following conditions:
 

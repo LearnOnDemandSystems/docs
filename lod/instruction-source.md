@@ -18,7 +18,7 @@ isPublished: true
 
 # Overview
 
-Lab on Demand allows you to set Azure Devops (ADO) or GitHub as an instruction source, using an external ADO or GitHub repository into a lab and use that repository as the source of IDLx content for that lab. 
+Skillable Studio allows you to set Azure DevOps (ADO) or GitHub as an instruction source, using an external ADO or GitHub repository into a lab and use that repository as the source of IDLx content for that lab. 
 
 Choosing to leverage these features means moving all of your content management (including editing) for a lab into ADO or GitHub. Once you have enabled this instruction source for a lab, the content in that lab will automatically be updated
 based on the the latest changes you make to your content in the external repository. 
@@ -34,7 +34,7 @@ learned how to write your lab content in Markdown and once you have stored those
 
 ## External Management Disadvantages
 
-1. **LOD Custom Syntax Unavailable in External Repository** - when using an external repository as an instruction source, custom LOD markdown syntax is will not render in the external system. These markdown elements can still be used and rendered in a lab.  
+1. **Skillable Studio Custom Syntax Unavailable in External Repository** - when using an external repository as an instruction source, custom Skillable Studio markdown syntax is will not render in the external system. These markdown elements can still be used and rendered in a lab.  
 These include: 
     - Knowledge block/link
     - Alert block/link
@@ -73,7 +73,7 @@ Your repository will need a markdown (.md) file that defines the lab content in 
 
 > [!KNOWLEDGE] Any images that are used in the instructions need to be at the same level in the repository as the .md file, or in a folder that is at the same level as the .md file. If your images are not structured like this, they will not display correctly in labs. 
 
-When you configure a lab profile to use an external instruction source, you will be directed to an external login page, where you will be asked to allow Lab On Demand permission to access your repositories. Lab On Demand will need access to your email address for push notifications, repository access, and admin permissions to modify web hooks.
+When you configure a lab profile to use an external instruction source, you will be directed to an external login page, where you will be asked to allow Skillable Studio permission to access your repositories. Skillable Studio will need access to your email address for push notifications, repository access, and admin permissions to modify web hooks.
 
 > [!Alert] The overall size of the repository cannot exceed 500MB. Once the repo reaches the file size limit, the lab profile will stop syncing with the repository until the repository size is below the file size limit. 
 
@@ -104,9 +104,11 @@ To use the markdown document in your ADO repository as the instruction source wi
 
 1. If you're not logged in already, you be will prompted to log in to the ADO account that has a repository containing lab content you want to use as an instruction source in the lab profile.
 
-1. Once you are logged into ADO, you will be asked to authorize Lab on Demand to have access to your ADO account. This access is only used to create a webhook so that LOD can be notified whenever the content in your ADO repository changes. Click **Accept** to continue with the integration.
+1. Once you are logged into ADO, you will be asked to authorize Skillable Studio to have access to your ADO account. This access is only used to create a webhook so that Skillable Studio can be notified whenever the content in your ADO repository changes. Click **Accept** to continue with the integration.
 
+<!--
     ![Authorize application](images/ado-authorization.png "Authorize application")
+-->
 
 1. At this point you will be presented with a list of organizations that are associated with your ADO account. Click select next the organization containing the project file to be used as the instructions source. 
 
@@ -116,7 +118,7 @@ To use the markdown document in your ADO repository as the instruction source wi
 
     > [!ALERT] When you complete the following step, any existing content in your lab profile will be overwritten, and anything lost will be unrecoverable. If you have content in the lab profile, you can export the lab instructions by clicking the export button at the top of the lab profile details page. 
 
-1. Select the markdown file to be used as the instructions source. Once you select the Markdown file that defines the lab content, LOD will process all lab content referenced by that markdown file and add it into the lab profile instructions. At any point that the ADO content changes, the lab profile will be updated automatically.
+1. Select the markdown file to be used as the instructions source. Once you select the Markdown file that defines the lab content, Skillable Studio will process all lab content referenced by that markdown file and add it into the lab profile instructions. At any point that the ADO content changes, the lab profile will be updated automatically.
 
 1. Once the synchronization process is complete, you will have completed your integration. Click **Close** to finish the Integration wizard.
 
@@ -151,11 +153,13 @@ To use the markdown document in your GitHub repository as the instruction source
 
 If you're not logged in already, you be will prompted to log in to the GitHub account that has a repository containing lab content you want to use as an instruction source in the lab profile.
 
-1. Once you are logged into GitHub, you will be asked to authorize Lab on Demand to have access to your GitHub account. This access is only used to create a webhook so that LOD can be notified whenever the
+1. Once you are logged into GitHub, you will be asked to authorize Skillable Studio to have access to your GitHub account. This access is only used to create a webhook so that Skillable Studio can be notified whenever the
 content in your GitHub repository changes. Click **Authorize application** to
 continue with the integration.
 
+<!--
     ![Authorize application](images/04-authorize-application.png "Authorize application")
+-->
 
 1. At this point you will be presented with a list of repositories that are associated with your GitHub account. Click select next the repository containing the markdown file to be used as the instructions source. 
 
@@ -163,7 +167,7 @@ continue with the integration.
 
 1. After choosing your repository, you need to identify the markdown file that defines the lab content within that repository. Click **Select** next to the markdown file to use as the source of your lab content.
 
-1. Once you select the Markdown file that defines the lab content, LOD will process all lab content referenced by that markdown file and add it into the lab profile instructions. At any point that the GitHub content changes, the lab profile will be updated automatically.
+1. Once you select the Markdown file that defines the lab content, Skillable Studio will process all lab content referenced by that markdown file and add it into the lab profile instructions. At any point that the GitHub content changes, the lab profile will be updated automatically.
 
 1. Once the synchronization process is complete, you will have completed your
 integration. Click **Close** to finish the Integration wizard.
@@ -174,9 +178,9 @@ integration. Click **Close** to finish the Integration wizard.
 
 ### Copying Existing Lab Content
 
-If you have a lab that already has IDLx content in LOD, you can use ADO or GitHub to manage that content as well. To get this set up you must do the following:
+If you have a lab that already has IDLx content in Skillable Studio, you can use ADO or GitHub to manage that content as well. To get this set up you must do the following:
 
-1. In Lab on Demand, navigate to the lab profile whose content you want to
+1. In Skillable Studio, navigate to the lab profile whose content you want to
 manage in GitHub.
 
 1. Click **Export**.
@@ -220,5 +224,3 @@ The archive file that is saved will contain a content.md file as well as folders
 - [Replacement Tokens](feature-focus/cloud-resource-templates/replacement-tokens.md)
 
     Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.
-
-[Back to top](#external-instruction-source)

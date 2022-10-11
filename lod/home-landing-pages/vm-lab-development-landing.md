@@ -18,6 +18,14 @@
   <div class="subtopic selected">
     <div id="header_1" class="subtopic_header" tabindex="0" title="Lab Instruction Authoring Docs" role="button" aria-selected="true" selected>Lab Instruction Authoring</div>
     <div id="body_1" class="subtopic_links">
+      <a class="subtopic_link" href="/lod/accessibility-best-practices.md">
+        <div class="subtopic_title">Accessibility Best Practices</div>
+        <div class="subtopic_description">Accessibility best practices when authoring lab profiles and lab instructions.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/lab-content-replication.md">
+        <div class="subtopic_title">Lab Content Replication</div>
+        <div class="subtopic_description">The expected amount of time for lab profile updates to replicate across available delivery regions.</div>
+      </a>
       <a class="subtopic_link" href="/lod/idlx-development-best-practices.md">
         <div class="subtopic_title">IDLx Lab Development Best Practices</div>
         <div class="subtopic_description">This document covers best practices for IDLx lab development, to assist in creating a rich learning experience.</div>
@@ -41,7 +49,7 @@
     </div>
   </div>
   <div class="subtopic">
-    <div id="header_1" class="subtopic_header" tabindex="0" title="Lab on Demand Configuration Docs" role="button" aria-selected="false">Lab on Demand Configuration</div>
+    <div id="header_1" class="subtopic_header" tabindex="0" title="Skillable Studio Configuration Docs" role="button" aria-selected="false">Skillable Studio Configuration</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/lod/access-control-lists.md">
         <div class="subtopic_title">Access Control Lists</div>
@@ -51,6 +59,10 @@
       <a class="subtopic_link" href="/lod/vm-auto-login.md">
         <div class="subtopic_title">Automatic Login for Windows Virtual Machines</div>
         <div class="subtopic_description">Configure a Windows virtual machine to log in automatically without the need to enter a username and password.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/cloud-credential-pool.md">
+        <div class="subtopic_title">Cloud Credential Pools</div>
+        <div class="subtopic_description">Overview and explanation of Cloud Credential Pools.</div>
       </a>
       <a class="subtopic_link" href="/lod/container-images.md">
         <div class="subtopic_title">Container Images</div>
@@ -69,8 +81,8 @@
         <div class="subtopic_description">Removable Media to be used with virtual machines.</div>
       </a>
       <a class="subtopic_link" href="/lod/uuid.md">
-        <div class="subtopic_title">Custom UUID on VMware Virtual Machines</div>
-        <div class="subtopic_description">Assign a custom unique ID to a virtual machine hosted on a VMware host.</div>
+        <div class="subtopic_title">Custom UUID on an ESX Virtual Machines</div>
+        <div class="subtopic_description">Assign a custom unique ID to a virtual machine hosted on an ESX host.</div>
       </a>
       <a class="subtopic_link" href="/lod/capture-differencing-disks.md">
         <div class="subtopic_title">Differencing Disk Capture</div>
@@ -84,12 +96,16 @@
         <div class="subtopic_title">Docker Support</div>
         <div class="subtopic_description">Supported Docker configurations.</div>
       </a>
+      <a class="subtopic_link" href="/lod/geolocation.md">
+        <div class="subtopic_title">Geolocation for Lab Launches</div>
+        <div class="subtopic_description">The process for geolocating labs when they are launched.</div>
+      </a>
       <a class="subtopic_link" href="/lod/start-states.md">
         <div class="subtopic_title">Hyper-V Start States</div>
         <div class="subtopic_description">Start States allow you to create a point in a lab where the lab will launch from for subsequent launches.</div>
       </a>         
       <a class="subtopic_link" href="/lod/ova-import.md">
-        <div class="subtopic_title">Importing an VMware Virtual Machine From an OVA.</div>
+        <div class="subtopic_title">Importing an ESX Virtual Machine From an OVA.</div>
         <div class="subtopic_description">Virtual machine profile creation, and explanation of virtual machine profile configuration.</div>
       </a>    
       <a class="subtopic_link" href="/lod/lab-networks.md">
@@ -119,9 +135,13 @@
         <div class="subtopic_title">Shared Labs (a.k.a. Cyber-Range)</div>
         <div class="subtopic_description">Configure a Shared Lab environment.</div>
       </a>
+      <a class="subtopic_link" href="/lod/lab-advisor.md">
+         <div class="subtopic_title">Skillable Studio Lab Advisor</div>
+         <div class="subtopic_description">The Lab Advisor provides recommendations for possible issues found in lab profiles and lab profile configuration.</div>
+      </a>
       <a class="subtopic_link" href="/lod/spla-supported.md">
         <div class="subtopic_title">SPLA Supported Software</div>
-        <div class="subtopic_description">Supported products and the conditions within Learn on Demand Systems implementation of the SPLA program.</div>
+        <div class="subtopic_description">Supported products and the conditions within Skillable implementation of the SPLA program.</div>
       </a>
       <a class="subtopic_link" href="/lod/terminal-access.md">
         <div class="subtopic_title">SSH Terminal Access</div>
@@ -147,6 +167,10 @@
         <div class="subtopic_title">Virtual Machine Based Landing Page Instead of VM</div>
         <div class="subtopic_description">Configure a lab to hide the VM from student view and display a specified URL instead.</div>
       </a>  
+      <a class="subtopic_link" href="/lod/browser-capabilities.md">
+        <div class="subtopic_title">Web Browser Capabilities</div>
+        <div class="subtopic_description">This document describes specific situations where your web browser may not function optimally.</div>
+      </a>
     </div>
   </div>
 </div>

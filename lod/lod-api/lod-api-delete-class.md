@@ -1,5 +1,14 @@
+---
+title: "DeleteClass API Command"
+description: "The DeleteClass command deletes a specified class."
+isPublished: false
+---
+
 # DeleteClass
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **DeleteClass** command deletes a specified class.
 
 ## Parameters
@@ -13,6 +22,9 @@ The **DeleteClass** command deletes a specified class.
 |Name|Type|Nullable|Note|
 |--- |--- |--- |--- |
 |Success|Boolean|No|
+|Status|Integer|No|Indicates the status of the API request.
+||||0 = Error
+||||1 = Success|
 |Error|String|Yes|In the event of an error, this will contain a detailed error message.|
 
 ## Example Usage
@@ -32,6 +44,4 @@ https://labondemand.com/api/v3/deleteclass/?id=4449999
     "Error": null
 }
 ```
-
-
-
+-->

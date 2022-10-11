@@ -5,7 +5,7 @@ isPublished: true
 
 # What is a Publishing Group?
 
-A Publishing Group is a set of courses that you grant access to other organizations for them to use for their classes and course assignments. You can have multiple publishing groups, each for a different purpose or audience without having to duplicate your courses for each group.
+A Publishing Group is a means to grant access to a set of courses to be used by your own organization or other organizations for  classes and course assignments. You may only have one publishing group, which can be used exclusively for all your courses within your own organization or you can have multiple publishing groups, each for a different purpose, audience or organization. A course must be added to a publishing group to be available to add to classes or self-paced training. A single publishing group named after your organization is created for you to use when your company is added into the TMS, you may create more if you need them.
 
 There are two types of access to publishing groups that can be granted:
 1. **Availability** - allows your sub-organizations to make their courses available through your publishing group for other organizations to use.

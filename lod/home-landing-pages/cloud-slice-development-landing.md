@@ -18,6 +18,14 @@
   <div class="subtopic selected">
     <div class="subtopic_header" tabindex="0" title="Amazon Web Services Cloud Slice Development Docs" role="button" aria-selected="true" selected>Amazon Web Services Cloud Slice Development</div>
     <div id="body_1" class="subtopic_links">
+      <a class="subtopic_link" href="/lod/accessibility-best-practices.md">
+        <div class="subtopic_title">Accessibility Best Practices</div>
+        <div class="subtopic_description">Accessibility best practices when authoring lab profiles and lab instructions.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/acp-best-practices.md">
+        <div class="subtopic_title">Access Control Policy Best Practices</div>
+        <div class="subtopic_description">Best Practices for using Access Control Policies in a cloud environment.</div>
+      </a>
       <a class="subtopic_link" href="/lod/aws-capabilities.md">
         <div class="subtopic_title">Amazon Web Services API Capabilities</div>
         <div class="subtopic_description">A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation.</div>
@@ -37,20 +45,24 @@
       <a class="subtopic_link" href="/lod/aws-virtualization.md">
         <div class="subtopic_title">AWS Virtualization</div>
         <div class="subtopic_description">Upload a VHD to AWS and create a VM profile.</div>
-      </a>      
+      </a>   
       <a class="subtopic_link" href="/guides/cloud-slice/aws/aws-cloud-slice-setup.md">
         <div class="subtopic_title">Enable Cloud Slice Support in AWS</div>
         <div class="subtopic_description">Setup process to enable cloud slice support in the AWS portal.</div>
       </a>
       <a class="subtopic_link" href="/guides/cloud-slice/aws/aws-setup-cloud-sub-pool-in-lod.md">
-        <div class="subtopic_title">Setup your AWS cloud subscription in OneLearn Lab on Demand</div>
-        <div class="subtopic_description">Configure a subscription pool in Lab on Demand, for use with AWS cloud slice.</div>
+        <div class="subtopic_title">Setup your AWS cloud subscription in Skillable Studio</div>
+        <div class="subtopic_description">Configure a subscription pool in Skillable Studio, for use with AWS cloud slice.</div>
       </a>
     </div>
   </div>
   <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="Microsoft Azure Cloud Slice Development Docs" role="button" aria-selected="false">Microsoft Azure Cloud Slice Development</div>
     <div class="subtopic_links">
+      <a class="subtopic_link" href="/lod/acp-best-practices.md">
+        <div class="subtopic_title">Access Control Policy Best Practices</div>
+        <div class="subtopic_description">Best Practices for using Access Control Policies in a cloud environment.</div>
+      </a>
       <a class="subtopic_link" href="/guides/cloud-slice/microsoft-azure/azure-capacity-limitations.md">
         <div class="subtopic_title">Azure Capacity Limitations</div>
         <div class="subtopic_description">Azure resource capacity limitations, how to avoid them, and what to do if you run into capacity limitations with your Azure subscription.</div>
@@ -72,9 +84,13 @@
          <div class="subtopic_description">Deploy an Azure hosted virtual machine using Managed Disks.</div>
       </a>        
       <a class="subtopic_link" href="/lod/azure-shared-image-gallery-vm.md">
-         <div class="subtopic_title">Azure Virtualization - Shared Image Gallery</div>
-         <div class="subtopic_description">Deploy an Azure hosted virtual machine using Azure Shared Image Gallery.</div>
-      </a>                
+         <div class="subtopic_title">Azure Virtualization - Compute Gallery</div>
+         <div class="subtopic_description">Deploy an Azure hosted virtual machine using Azure Compute Gallery.</div>
+      </a> 
+      <a class="subtopic_link" href="/lod/cloud-fabric-explanation.md">
+        <div class="subtopic_title">Cloud Fabric Explanation</div>
+        <div class="subtopic_description">Characteristics and Differences of Supported Cloud Fabrics.</div>
+      </a>               
       <a class="subtopic_link" href="/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md">
         <div class="subtopic_title">Create a an Azure Resource Template and Resource Group Configuration</div>
         <div class="subtopic_description">Create a Resource Template and Configure it into a Resource Group.</div>
@@ -91,15 +107,23 @@
         <div class="subtopic_title">Microsoft Azure Cloud Slice Subscription</div>
         <div class="subtopic_description">Configure a lab profile to deliver training on Microsoft Azure subscriptions.</div>
       </a>
+      <a class="subtopic_link" href="/lod/mca-css.md">
+        <div class="subtopic_title">Microsoft Azure Cloud Slice Subscription with Microsoft Customer Agreement (MCA)</div>
+        <div class="subtopic_description">Use a Microsoft Customer Agreement to deliver training on Microsoft Azure subscriptions.</div>
+      </a>
       <a class="subtopic_link" href="/guides/cloud-slice/microsoft-azure/azure-setup-cloud-sub-pool-in-lod.md">
-        <div class="subtopic_title">Setup your Azure cloud subscription in OneLearn Lab on Demand</div>
-        <div class="subtopic_description">Configure a subscription pool in Lab on Demand, for use with Azure cloud slice.</div>
+        <div class="subtopic_title">Setup your Azure cloud subscription in Skillable Studio</div>
+        <div class="subtopic_description">Configure a subscription pool in Skillable Studio, for use with Azure cloud slice.</div>
       </a>
     </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header" tabindex="0" title="Lab on Demand Configuration Docs" role="button" aria-selected="false">Lab on Demand Configuration</div>
+    <div class="subtopic_header" tabindex="0" title="Skillable Studio Configuration Docs" role="button" aria-selected="false">Skillable Studio Configuration</div>
     <div class="subtopic_links">
+      <a class="subtopic_link" href="/lod/cloud-fabric-explanation.md">
+        <div class="subtopic_title">Cloud Fabric Explanation</div>
+        <div class="subtopic_description">Characteristics and Differences of Supported Cloud Fabrics.</div>
+      </a>   
       <a class="subtopic_link" href="/lod/cloud-security/cloud-security-home.md">
          <div class="subtopic_title">Cloud Security Resources</div>
          <div class="subtopic_description">Information on Cloud Security Reviews, Access Control Policies, and cloud security standards for Cloud Slice labs</div>
@@ -110,7 +134,15 @@
       </a>
       <a class="subtopic_link" href="/guides/cloud-slice/cloud-slice.md">
         <div class="subtopic_title">Cloud Slice Setup Guide</div>
-        <div class="subtopic_description">Comprehensive setup guide for configuring a Cloud Slice lab with Lab on Demand and Microsoft Azure or Amazon Web Services.</div>
+        <div class="subtopic_description">Comprehensive setup guide for configuring a Cloud Slice lab with Skillable Studio and Microsoft Azure or Amazon Web Services.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/geolocation.md">
+        <div class="subtopic_title">Geolocation for Lab Launches</div>
+        <div class="subtopic_description">The process for geolocating labs when they are launched.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/lab-advisor.md">
+         <div class="subtopic_title">Skillable Studio Lab Advisor</div>
+         <div class="subtopic_description">The Lab Advisor provides recommendations for possible issues found in lab profiles and lab profile configuration.</div>
       </a>
       <a class="subtopic_link" href="/lod/feature-focus/cloud-resource-templates/replacement-tokens.md">
         <div class="subtopic_title">Replacement Tokens</div>

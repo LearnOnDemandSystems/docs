@@ -4,25 +4,25 @@ description: "Documentation on how to configure LTI 1.1 on a lab profile, and in
 isPublished: true
 ---
 
-# Lab on Demand LTI 1.1 Integration
+# Skillable Studio LTI 1.1 Integration
 
-In Learning Tools Interoperability (LTI), the learning system being used by a student is referred to as the **LTI Consumer**, and the external tool or service that is being integrated into that learning system is referred to as the **LTI Provider**. This LTI support is what allows external course authors to integrate rich Lab on Demand content directly into their learning solution. Since LTI is a standard protocol, Lab on Demand content can be integrated into any learning system that supports the LTI standard as an LTI Consumer.
+In Learning Tools Interoperability (LTI), the learning system being used by a student is referred to as the **LTI Consumer**, and the external tool or service that is being integrated into that learning system is referred to as the **LTI Provider**. This LTI support is what allows external course authors to integrate rich Skillable Studio content directly into their learning solution. Since LTI is a standard protocol, Skillable Studio content can be integrated into any learning system that supports the LTI standard as an LTI Consumer.
 
 To integrate content from an **LTI Provider** into an **LTI Consumer**, the following information is required:
 
-- **LTI Client Key** – this is the account identifier for the LTI Provider, which allows LTI Consumers to identify the account needed to access LTI Provider content; for OneLearn Lab on Demand, this is referred to as the LTI Key
-- **LTI Client Secret** – this is the password/passcode used to authenticate to the LTI Provider account; for OneLearn Lab on Demand, this is referred to as the LTI Secret
-- **Content URL** – this is the URL that exposes the content to be integrated into the LTI Consumer training materials; for OneLearn Lab on Demand, this is referred to as the LTI Launch URL
+- **LTI Client Key** – this is the account identifier for the LTI Provider, which allows LTI Consumers to identify the account needed to access LTI Provider content; for Skillable Studio, this is referred to as the LTI Key
+- **LTI Client Secret** – this is the password/passcode used to authenticate to the LTI Provider account; for Skillable Studio, this is referred to as the LTI Secret
+- **Content URL** – this is the URL that exposes the content to be integrated into the LTI Consumer training materials; for Skillable Studio, this is referred to as the LTI Launch URL
 
-If you are an existing customer of Learn on Demand Systems and you want to launch your labs via LTI, request the LTI Key and LTI Secret for your lab(s) from our Support team at https://lod.one/help.
+If you are an existing customer of Skillable and you want to launch your labs via LTI, request the LTI Key and LTI Secret for your lab(s) from our Support team at https://skill.info/support.
 
-Once you have these pieces of information in hand, you can begin integrating your Lab on Demand lab into an external course.
+Once you have these pieces of information in hand, you can begin integrating your Skillable Studio lab into an external course.
 
 [LTI Scoring](#lti-scoring)
 
 [Integrating Content](#integrating-content)
 
-[LOD LTI Implementation Details](#lod-lti-implementation-details)
+[Skillable Studio LTI Implementation Details](#skillable-studio-lti-implementation-details)
 
 ## LTI Scoring
 
@@ -82,11 +82,11 @@ Content can be integrated with various LMS systems (LTI Consumer). Below are som
 
 - [Moodle](https://docs.moodle.org/35/en/LTI_and_Moodle)
 
-## LOD LTI Implementation Details
+## Skillable Studio LTI Implementation Details
 
 ### LTI Launch Specification
 
-For launches, Lab On Demand supports LTI Basic Launch 1.1. 
+For launches, Skillable Studio supports LTI Basic Launch 1.1. 
 
 [https://www.imsglobal.org/specs/ltiv1p1/implementation-guide](https://www.imsglobal.org/specs/ltiv1p1/implementation-guide)
 
@@ -98,13 +98,13 @@ For launches, Lab On Demand supports LTI Basic Launch 1.1.
 
 - resource_link_id - must be set to the ID of the lab being launched
 
-- oauth_consumer_key -  must be set to the API consumer key provided by Learn on Demand Systems
+- oauth_consumer_key -  must be set to the API consumer key provided by Skillable
 
 - oauth_timestamp -  must be set to the current time (Unix epoch time). Requests older than 1 hour are rejected
 
 - oauth_signature_method-  must be set to a valid OAuth 1.0 signing method (minimum HMAC-SHA1)
 
-- oauth_signature -  must be set to the OAuth signature generated using the LTI secret key shared with Learn on Demand Systems
+- oauth_signature -  must be set to the OAuth signature generated using the LTI secret key shared with Skillable
 
 - oauth_nonce -  must be set to a unique value (each request will have a unique nonce)
 
@@ -112,19 +112,19 @@ For launches, Lab On Demand supports LTI Basic Launch 1.1.
 
 - user_id - The user ID in the calling system. If not provided, the lab will launch anonymously. Note that anonymous launch is typically not allowed and is enabled on a lab-by-lab basis. **Technically, this field is optional, but in practice, it will be required for the vast majority of labs.**
 
-- lis_person_name_given - The user’s first name. If not provided, Lab on Demand will use a value of “User.”
+- lis_person_name_given - The user’s first name. If not provided, Skillable Studio will use a value of “User.”
 
-- lis_person_name_family - The user’s last name. If not provided, Lab on Demand will use the name of the API Consumer (i.e. your customer/company name).
+- lis_person_name_family - The user’s last name. If not provided, Skillable Studio will use the name of the API Consumer (i.e. your customer/company name).
 
 - lis_person_contact_email_primary - The user’s email address.
 
 ## LTI Scoring Specification 
 
-For scoring, Lab On Demand support LTI Basic Outcomes 1.0.
+For scoring, Skillable Studio support LTI Basic Outcomes 1.0.
 
 [https://www.imsglobal.org/specs/ltiv1p1/implementation-guide#toc-6](https://www.imsglobal.org/specs/ltiv1p1/implementation-guide#toc-6)
 
-Outcomes is completely optional. If the values are included in the LTI launch, LOD will use them to report scoring information.
+Outcomes is completely optional. If the values are included in the LTI launch, Skillable Studio will use them to report scoring information.
 
 - lis_outcome_service_url - The URL to make the callback request to
 
@@ -134,4 +134,4 @@ Outcomes is completely optional. If the values are included in the LTI launch, L
 >
 > If you're looking for more information, or have questions, check out the resources available to you on our [Contact Us](/contact-us.md) page.
 
-[Back to top](#get-scoring-results-from-lod-via-lti-outcomes)
+[Back to top](#get-scoring-results-from-Skillable Studio-via-lti-outcomes)

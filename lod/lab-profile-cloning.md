@@ -6,7 +6,7 @@ isPublished: true
 
 # Lab Profile Cloning 
 
-As a lab developer, you can create a new Lab Profile in Lab on Demand (LOD) by cloning an existing Lab Profile. When a lab is cloned, all configuration in the Lab Profile is duplicated in the new Lab Profile. 
+As a lab developer, you can create a new Lab Profile in Skillable Studio by cloning an existing Lab Profile. When a lab is cloned, all configuration in the Lab Profile is duplicated in the new Lab Profile. 
 
 There are two ways to clone a Lab Profile;  _Save As_ and Import/export. 
 
@@ -63,13 +63,13 @@ There are two options to choose from when using Export from a Lab Profile:
 
 Lab Profiles can be imported into a Lab Series, or imported without a Lab Series associated. 
 
-1. From the LOD Administration page, click **Import Lab Profile** on the Lab Profiles tile. 
+1. From the Skillable Studio Administration page, click **Import Lab Profile** on the Lab Profiles tile. 
 
 1. (OPTIONAL) Select the Lab Series that the Lab Profile will be associated with.
 
 1. Select the organization that will own the Lab Profile and be responsible for maintaining the profile. 
 
-1. Select the zip file that was exported from LOD. 
+1. Select the zip file that was exported from Skillable Studio. 
 
 1. Click Import
 

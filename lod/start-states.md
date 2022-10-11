@@ -8,7 +8,7 @@ isPublished: true
 
 Start States allow you to create a point-in-time capture of Virtual Machine(s) (VMs) within a Lab Profile, that will be leveraged in subsequent launches of the Lab Profile. In many cases, Start States can significantly reduce lab startup duration, especially for large and complex labs.
 
->[!alert] Start States are limited to Hyper-V virtualization labs. Start States are not supported on vSphere.
+>[!alert] Start States are limited to Hyper-V virtualization labs. Start States are not supported on ESX.
 
 - [Overview](#overview)
   - [Launch Time](#launch-time)
@@ -52,7 +52,7 @@ It is highly recommended that Start States be leveraged as an 'end-cap' solution
 
 ## Creating a Start State
 
-Start States can only be created on Hyper-V VMs. Start States are not supported on vSphere VMs.
+Start States can only be created on Hyper-V VMs. Start States are not supported on ESX VMs.
 
 >[!alert] Do not implement Start States until you have fully validated your lab is working and you anticipate no changes. 
 
@@ -122,7 +122,7 @@ To Remove a Start State:
 
 For complex labs, the boot sequence must account for dependencies between lab components. This is important so that components that depend on other components are put into place at the proper time in the boot sequence. 
 
-In Lab on Demand, there are options to control how VMs start. These options can be found on the Virtual Machines tab of a lab profile.
+In Skillable Studio, there are options to control how VMs start. These options can be found on the Virtual Machines tab of a lab profile.
 
 ![VM Configuration](images/vm-configuration.png){800}
 

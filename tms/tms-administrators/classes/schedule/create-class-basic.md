@@ -39,7 +39,6 @@ Expand the Instructors section to create a user account for your instructor if i
         1. **First Name**
         1. **Last Name**
         1. **Primary Email Address**. Note: If you receive a message that the email address is already in use, then a user account already exists for the instructor. In this case, follow the instructions for Add Instructor.
-        1. **Username**
         1. **Password/Confirm Password**
         1. **Save** the user account. The instructor role is automatically added when the user is created from the Instructor section.
     1. Return to the Create/Edit Class tab in your browser to add the instructor to the class.

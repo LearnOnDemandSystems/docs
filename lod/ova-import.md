@@ -1,14 +1,14 @@
 ---
-title: "Importing a VMware Virtual Machine From an OVA"
+title: "Importing a ESX Virtual Machine From an OVA"
 description: "Import a virtual machine from an OVA file."
 isPublished: true
 ---
 
-# Importing a VMware Virtual Machine From an OVA
+# Importing an ESX Virtual Machine From an OVA
 
-Virtual machine (VM) profiles can be created by importing an OVA file into a lab profile. An OVA file is created from exporting a VMware VM from outside of Lab on Demand (LOD). 
+Virtual machine (VM) profiles can be created by importing an OVA file into a lab profile. An OVA file is created from exporting an ESX VM from outside of Skillable Studio. 
 
->[!knowledge] An OVA file is a package that contains files used to describe a VM, which includes an . OVF descriptor file, optional manifest (. MF),  certificate files, and other related files. To learn more about OVA file format, please read [VMware OVA file format and template documentation](https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.vm_admin.doc/GUID-AE61948B-C2EE-436E-BAFB-3C7209088552.html). 
+>[!knowledge] An OVA file is a package that contains files used to describe a VM, which includes an . OVF descriptor file, optional manifest (. MF),  certificate files, and other related files. To learn more about OVA file format, please read [ESX OVA file format and template documentation](https://docs.vmware.com/en/VMware-vSphere/7.0/com.vmware.vsphere.vm_admin.doc/GUID-AE61948B-C2EE-436E-BAFB-3C7209088552.html). 
 
 - [Uploading an OVA File](#uploading-an-ova-file)
     - [Organization Storage](#organization-storage)
@@ -16,17 +16,19 @@ Virtual machine (VM) profiles can be created by importing an OVA file into a lab
     - [Import Limitations](#import-limitations)
     - [Lab Profile](#lab-profile)
 
+>[!alert] For compatibility, uploads to our platform must have virtual hardware version 15 or lower. If your virtual hardware version is higher than version 15, please refer to your software's documentation for instructions on downgrading the virtual hardware version before uploading.
+
 ## Uploading an OVA File
 
-As a lab developer, you can create a VM from an OVA file on a lab profile. Your user account must have the proper permissions to allow editing and importing lab profiles. If you do not have the proper permissions, or if you are unsure if you have the proper permissions, please reach out to our [customer support team](http://www.learnondemandsystems.com/customer-support/).
+As a lab developer, you can create a VM from an OVA file on a lab profile. Your user account must have the proper permissions to allow editing and importing lab profiles. If you do not have the proper permissions, or if you are unsure if you have the proper permissions, please reach out to our [customer support team](https://skillable.com/customer-support/).
 
 ### Organization Storage
 
-To import a VM from an OVA file into a lab profile, you must first upload the OVA file to your organization's storage in LOD . Once the file is uploaded, it can be used to import the VM into a lab profile. 
+To import a VM from an OVA file into a lab profile, you must first upload the OVA file to your organization's storage in Skillable Studio . Once the file is uploaded, it can be used to import the VM into a lab profile. 
 
 1. Ensure that the file you exported from your virtualization application is in OVA format. 
 
-1. Navigate to your organization's profile in LOD. 
+1. Navigate to your organization's profile in Skillable Studio. 
 
 1. Click **Storage** at the top of the page. 
 
@@ -36,9 +38,9 @@ To import a VM from an OVA file into a lab profile, you must first upload the OV
 
     >[!knowledge] Choosing a datacenter where your lab profiles or VMs are stored will improve the initial launch times of your lab profile during lab development. If you choose a datacenter to upload the OVA file that is different from where the lab profile is stored, the files will have to be copied over before the lab will launch successfully.  
 
-1. Select VMware Storage.
+1. Select ESX Storage.
 
-1. Select or create a folder in **VMware Storage** to upload to. 
+1. Select or create a folder in **ESX Storage** to upload to. 
 
 1. Click **Upload File** on the right side of the page. 
 
@@ -50,7 +52,7 @@ After the file finishes uploading, it will be available to import as a VM on lab
 
 ## Importing an OVA File as a VM
 
-The VM will be created by importing the OVA file on the lab profile. Importing requires your user account to have the proper permissions to edit and import lab profiles. If you do not have the proper permissions, or if you are unsure if you have the proper permissions, please reach out to our [customer support team](http://www.learnondemandsystems.com/customer-support/).
+The VM will be created by importing the OVA file on the lab profile. Importing requires your user account to have the proper permissions to edit and import lab profiles. If you do not have the proper permissions, or if you are unsure if you have the proper permissions, please reach out to our [customer support team](https://skillable.com/customer-support/).
 
 ### Import Limitations
 
@@ -58,7 +60,7 @@ OVA templates provide a standardization on importing into compatible platforms.
 
 - Uploading large file sizes may result in upload failure. 
 
-- OVA templates can only be imported if they were exported from a VMware product. Exports from other products are not supported. 
+- OVA templates can only be imported if they were exported from an ESX product. Exports from other products are not supported. 
 
 - If an OVA template contains multiple virtual machines, it cannot be imported. Only single virtual machine OVA templates are supported. 
 
@@ -89,7 +91,7 @@ OVA templates provide a standardization on importing into compatible platforms.
     - **Password**: The login password for the VM. This must match the password of the VM before it was exported to OVA format.  
     - **Start Automatically**: Enables the VM to start automatically when the lab is launched. If this is not enabled, the VM will not start automatically and the user will have to manually start the VM. 
 
-1. After you have completed each field, click **OK**. LOD will begin to extract the OVA file and create a virtual machine profile. The time it takes to import will vary depending on the size of the OVA file. The import process will timeout after 2 hours have elapsed. If you are not able to upload your file within the timeout period, please reach out to our [customer support team](http://www.learnondemandsystems.com/customer-support/) for assistance. 
+1. After you have completed each field, click **OK**. Skillable Studio will begin to extract the OVA file and create a virtual machine profile. The time it takes to import will vary depending on the size of the OVA file. The import process will timeout after 2 hours have elapsed. If you are not able to upload your file within the timeout period, please reach out to our [customer support team](https://skillable.com/customer-support/) for assistance. 
 
     After the import completes, the VM profile will be added to your lab. 
 
