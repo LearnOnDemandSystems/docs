@@ -22,7 +22,7 @@
         <div class="subtopic_title">What is the Admin menu and how does it work?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/training-key-types.md">
-        <div class="subtopic_title">What are the different types of Training Keys?</div>
+        <div class="subtopic_title">What are the different types of training keys?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/trainingkey-basics.md">
         <div class="subtopic_title">Training key basics</div>
@@ -44,13 +44,13 @@
         <div class="subtopic_title">How do I have users land on a custom page when logging in?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/class-or-custom-event-or-course-assignment-to-schedule-training.md">
-        <div class="subtopic_title">Should I use a Class or a Custom Event or a Course Assignment to schedule training?</div>
+        <div class="subtopic_title">Should I use a Class or a Course Assignment to schedule training?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/disappearing-links.md">
         <div class="subtopic_title">Why do links disappear?</div>
       </a>
       <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/my-language.md">
-        <div class="subtopic_title">How do I see the TMS in my language?</div>
+        <div class="subtopic_title">How do I see the Skillable TMS in my language?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/rearrange-items-on-site-administration.md">
         <div class="subtopic_title">Can I rearrange items on the Site Administration page?</div>

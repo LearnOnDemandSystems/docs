@@ -1,8 +1,9 @@
 ---
-title: "How can I see the TMS in my language?"
-isPublished: true
+title: "How can I see the Skillable TMS in my language?"
+ispublished: true
 ---
-# How can I see the TMS in my language?
+
+# How can I see the Skillable TMS in my language?
 
 The TMS may be viewed in several languages, we support language based on your browser’s language setting. Translation is in place for platform-based wording like headings, labels and links. However, any data input into a field (or pulled from a field) displays as it is written. For example, if a course name or class name is input into its field in English, then it displays everywhere in English.
 

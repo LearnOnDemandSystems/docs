@@ -7,9 +7,9 @@ isPublished: true
 
 > Please be aware that functionality covered in this and linked articles may not be available to you.
 
-Your students can now earn externally supported badges through their activities/achievements in the TMS. This will give your users an additional sense of accomplishment, and they will be able to share that accomplishment with others outside the TMS.
+Your students can now earn externally supported badges through their activities/achievements in the Skillable TMS. This will give your users an additional sense of accomplishment, and they will be able to share that accomplishment with others outside the TMS.
 
-You create the badges in the external badge provider and attach them to achievements you have created in the TMS. This feature has the following components: 
+You create the badges in the external badge provider and attach them to achievements you have created in the Skillable TMS. This feature has the following components: 
 - **Badge Provider** - a repository to distribute badges. This is a third-party vendor that will issue the badge to the user. Currently the TMS only supports badges from Credly/Acclaim.
 - **Badge** - the token given by a Badge Provider to a student to share based on the achievement earned.
 - **Achievement** - the criteria needed to earn the badge. An achievement is given to users who complete a specific task(s) in the TMS. When the achievement is earned, the badge associated with it is issued.

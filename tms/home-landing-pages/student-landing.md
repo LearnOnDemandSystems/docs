@@ -19,7 +19,7 @@
     <div class="subtopic_header" tabindex="0" title="Basics Docs" role="button" aria-selected="true" selected>Basics</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/my-language.md">
-        <div class="subtopic_title">How do I see the TMS in my language?</div>
+        <div class="subtopic_title">How do I see the Skillable TMS in my language?</div>
       </a>
         <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/forgot-password.md">
         <div class="subtopic_title">What do I do if I forgot my password?</div>

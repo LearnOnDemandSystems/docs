@@ -31,6 +31,6 @@ When a user earns the achievement, Credly is automatically notified that the use
 For more information on badging and achievements, please see:
 
 - [What is involved in creating external badges?](badge-process.md)
-- [How do I create a Badge Provider in the TMS?](create-badge-provider.md)
+- [How do I create a badge provider in the Skillable TMS?](create-badge-provider.md)
 - [How do I create a badge?](create-badge.md)
 - [How do I create achievements?](create-achievements-to-motivate-learners.md)

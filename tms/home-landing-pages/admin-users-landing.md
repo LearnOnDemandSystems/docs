@@ -31,7 +31,7 @@
         <div class="subtopic_title">How do I create student user accounts?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/how-do-i-prompt-a-user-to-update-their-user-profile.md">
-        <div class="subtopic_title">How do I Prompt a User to Update Their User Profile?</div>
+        <div class="subtopic_title">How do I prompt a user to update their user profile?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/users/student-management/find-users.md">
         <div class="subtopic_title">How do I find users?</div>
@@ -69,7 +69,7 @@
         <div class="subtopic_title">What are different ways to set up instructor access?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/users/instructor-management/what-is-contract-instructor-pool.md">
-        <div class="subtopic_title">What is the Contract Instructor Pool?</div>
+        <div class="subtopic_title">What is the contract instructor pool?</div>
       </a>
     </div>
   </div>

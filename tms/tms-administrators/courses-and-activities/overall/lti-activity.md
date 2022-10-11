@@ -7,11 +7,11 @@ ispublished: true
 
 > Please be aware that functionality covered in this and linked articles may not be available to you.
 
-Learning Tools Interoperability (LTI) enables our TMS to communicate with external systems. LTI is used to integrate course content provided by a third party into the TMS, without the student realizing that they’re using another tool.
+Learning Tools Interoperability (LTI) enables our Skillable TMS to communicate with external systems. LTI is used to integrate course content provided by a third party into the TMS, without the student realizing that they’re using another tool.
 
-The TMS supports LTI versions 1.1 and 1.3. The TMS is LTI Consumer where students access content; the external tool or service being integrated into our TMS is the LTI Provider.
+The Skillable TMS supports LTI versions 1.1 and 1.3. The Skillable TMS is LTI Consumer where students access content; the external tool or service being integrated into our TMS is the LTI Provider.
 
-To integrate content from an LTI Provider into the TMS, the following information is required from the provider:
+To integrate content from an LTI Provider into the Skillable TMS, the following information is required from the provider:
 **LTI Client Key** – The account identifier for the LTI Provider which allows the TMS to identify the account needed to access the provider’s content. 
 **LTI Client Secret** – The password/passcode used to authenticate to the LTI Provider account. 
 **Resource Link URL** – The URL exposing the content to be integrated into the TMS.
@@ -23,7 +23,7 @@ Once you have the information, you can create an LTI provider, create an LTI res
 *Overview of the process to create and deliver LTI content.*
 
 ## Create an LTI Provider
-The LTI Provider holds the integration information and the availability of which organizations can use it in the TMS.
+The LTI Provider holds the integration information and the availability of which organizations can use it in the Skillable TMS.
 
 Follow these steps to create an LTI Provider.
 1. From Site Administration on the LTI tile, select **Create LTI Provider**. This opens the Create LTI Provider page.

@@ -7,7 +7,7 @@ isPublished: true
 
 > Please be aware that not all functionality covered in this and the linked articles may be available to you.
 
-Custom fields are fields that you create just for your organization to track data that is not a standard part of the TMS. There are 6 different types of fields and they can be created for each of the following entities:
+Custom fields are fields that you create just for your organization to track data that is not a standard part of the Skillable TMS. There are 6 different types of fields and they can be created for each of the following entities:
 - Courses
 - Classes
 - Users
@@ -35,8 +35,6 @@ Here are some examples of how you might use each type:
 - **Number** – a specific whole number identifier used by your organization.
 - **User Selector** - the SME for the course; the sales rep responsible for the class; a mentor; etc.
 - **Checkbox List** – related yes/no items such as possible characteristics, eligible user groups, main languages spoken/read, etc.
-
-> :small_blue_diamond: Because of the complexity and flexibility of custom fields, it is HIGHLY recommended that before you create any custom field in the production TMS environment, you test them with all affected roles in our TMS ACC environment to ensure they work as expected and do not block creation or editing of entities. To be set up in our ACC environment, please submit a support ticket from our [Customer Support](https://www.skillable.com/customer-support/) page.
 
 ## Related Articles
 For more information regarding custom fields, please see:

@@ -7,4 +7,4 @@ There are several options possible when editing an organization depending on you
 - [How do I set defaults for my site?](../tms-administrators/tms-fundamentals/set-defaults.md)
 - [How can my organization be set up to use contract instructors?](../tms-administrators/users/instructor-management/set-up-organization-to-use-contract-instructors.md)
 
-To see all Help articles available for the TMS, you can click the **Home** button at the top of the window.
+To see all Help articles available for the Skillable TMS, you can click the **Home** button at the top of the window.

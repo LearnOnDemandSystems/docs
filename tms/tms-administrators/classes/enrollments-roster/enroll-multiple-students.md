@@ -7,7 +7,7 @@ isPublished: true
 
 > Please be aware that functionality covered in this and linked articles may not be available to you.
 
-There are a couple of tools in the TMS you can use to register students. The the class roster is the one that lets you create multiple registrations all at once while the Create Multiple Enrollments tool lets you add enrollments to one or more classes for one or more students. Several different registration statuses exist to help you track whether the student should be granted access to a class.
+There are a couple of tools in the Skillable TMS you can use to register students. The the class roster is the one that lets you create multiple registrations all at once while the Create Multiple Enrollments tool lets you add enrollments to one or more classes for one or more students. Several different registration statuses exist to help you track whether the student should be granted access to a class.
 
 ### Use Create Multiple Enrollments
 Using Create Multiple Enrollments has the flexibility to let you enroll one student in multiple classes, multiple students into one class, or multiple students into multiple classes. When creating multiple enrollments, successful and failed enrollments are listed after the registrations are saved; the tool checks if the user is already registered for a class or if there will be a schedule conflict, either of these conflicts will cause a registration to fail.

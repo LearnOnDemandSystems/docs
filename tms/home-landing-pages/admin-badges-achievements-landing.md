@@ -22,7 +22,7 @@
         <div class="subtopic_title">What is involved in creating external badges?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/create-badge-provider.md">
-        <div class="subtopic_title">How do I create a Badge Provider in the TMS?</div>
+        <div class="subtopic_title">How do I create a badge provider?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/create-badge.md">
         <div class="subtopic_title">How do I create a badge?</div>

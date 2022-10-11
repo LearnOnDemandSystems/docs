@@ -7,7 +7,7 @@ isPublished: true
 
 > Please be aware that functionality covered in this article may not be available to you.
 
-Course completion certificates can be added to the courses of your choice for your staff or your students to print. You can upload one or more certificate templates to associate with courses and these certificates are made available to users to print in the TMS. 
+Course completion certificates can be added to the courses of your choice for your staff or your students to print. You can upload one or more certificate templates to associate with courses and these certificates are made available to users to print in the Skillable TMS. 
 
 Certificates are available to print by administrators at any time for classes and course assignments. They may edit from a Word file or print using a PDF. Students may print certificates from a PDF if a class enrollment or course assignment shows as Complete on their Transcript.
 
@@ -27,7 +27,7 @@ Each of these are explained below.
 
 To add certificates:
 1. Create the certificate in DOCX format on your computer. 
-1. Use any or all of the following replacement fields to pull data from the TMS and save the file:
+1. Use any or all of the following replacement fields to pull data from the Skillable TMS and save the file:
 
      - **StudentName** - Adds the student's first and last name as shown on their user profile.
      - **CourseName** - Inputs the name of the completed course.

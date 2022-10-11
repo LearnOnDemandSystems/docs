@@ -7,7 +7,7 @@ isPublished: true
 
 > Please be aware that not all functionality covered in this and linked articles may be available to you.
 
-User accounts for students provide all the needed rights to login, attend classes, open labs and virtual classes with the Basic User role. This is the default user role in the TMS, so each user you create is automatically given Basic User privileges. The system requires using a unique email address on every user account.
+User accounts for students provide all the needed rights to login, attend classes, open labs and virtual classes with the Basic User role. This is the default user role in the Skillable TMS, so each user you create is automatically given Basic User privileges. The system requires using a unique email address on every user account.
 
 To create a user account:
 1. On the **Admin** menu in the **Users** group, click **Create User**. 

@@ -25,7 +25,7 @@ The following is a table explaining the fields to be completed:
 | **Time Zone** | Defaults to your time zone; can be changed. |
 | **Company** | Optional |
 | **Account Executive** | Optional |
-| **Roles** | Defaults to Basic User. This is the basic user role in the TMS and users cannot function correctly without it. Other roles may be added as needed. All included roles will be added to each user imported. |
+| **Roles** | Defaults to Basic User. This is the basic user role in the Skillable TMS and users cannot function correctly without it. Other roles may be added as needed. All included roles will be added to each user imported. |
 | **Groups** | Optional |
 | **Force Password Change** | Check this box to require the user to change their password when they access their user account for the first time. |
 | **Process Notifications** | This option will only show if your organization has an automated notification set up to be sent when a new user account is created. Checking the box will send the notification to your newly created users. |

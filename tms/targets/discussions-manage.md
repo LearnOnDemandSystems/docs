@@ -11,4 +11,4 @@ The following articles relate to discussions:
 - [How can I control posts on discussions?](../tms-administrators/discussions/add-moderators.md)
 - [How can I add a disclaimer to all my discussions?](../tms-administrators/discussions/add-disclaimer.md)
 
-To see all Help articles available for the TMS, you can click the **Home** button at the top of the window.
+To see all Help articles available for the Skillable TMS, you can click the **Home** button at the top of the window.

@@ -3,11 +3,11 @@ title: "How do I capture data for users accessing externally hosted activities l
 isPublished: true
 ---
 
-# How do I capture data for users accessing externally hosted activities launched from the TMS?
+# How do I capture data for users accessing externally hosted activities launched from the Skillable TMS?
 
 > Please be aware that not all functionality covered in this article may be available to you.
 
-Need to collect data on the users that are accessing your externally hosted course activities? You can add parameters to your external URL that will cause the TMS to pass the requested information about the user to you. Externally hosted activities include any course activity using an external link such as: Add Video, Add Document or Add External Link.
+Need to collect data on the users that are accessing your externally hosted course activities? You can add parameters to your external URL that will cause the Skillable TMS to pass the requested information about the user to you. Externally hosted activities include any course activity using an external link such as: Add Video, Add Document or Add External Link.
 
 There are four user fields that can pass information to you:
 
@@ -24,7 +24,7 @@ to the end of a URL accessing an external video module, the URL would look like 
 
 > **https ://videoplayer.yourorganization.com/player/Mod101_AM01?userId={userId}&email={email}&firstName={firstName}&lastName={lastName}**
 
-When a student watches the video from the TMS, you would be given the following information from the student's account:
+When a student watches the video from the Skillable TMS, you would be given the following information from the student's account:
 
 - TMS User ID: **111111**
 - Email: **studentname @anywhere.none**

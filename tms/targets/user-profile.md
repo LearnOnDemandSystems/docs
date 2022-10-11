@@ -19,4 +19,4 @@ The following are articles related to actions that can be done from this page:
 - [How do I find a student's upcoming classes?](../tms-administrators/classes/enrollments-roster/find-students-upcoming-classes.md)
 - [How do I find a student's completed classes?](../tms-administrators/classes/enrollments-roster/find-students-completed-classes.md)
 
-To see all Help articles available for the TMS, you can click the **Home** button at the top of the window.
+To see all Help articles available for the Skillable TMS, you can click the **Home** button at the top of the window.

@@ -1,3 +1,8 @@
+---
+title: "How do I add an LTI Resource link to my course>"
+ispublished: true
+---
+
 # How do I add an LTI Resource link to my course?
 
 > [!Alert] Please be aware that not all functionality covered in this and linked articles may be available to you. 

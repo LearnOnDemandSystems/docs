@@ -3,23 +3,23 @@ title: "How do I use Zoom in a TMS class?"
 isPublished: true
 ---
 
-# How can I use Zoom in a TMS class?
+# How can I use Zoom in a Skillable TMS class?
 
 > Please be aware that the functionality covered in this and linked articles may not be available to you.
 
-Give your students and instructors the convenience of one place for all members of the class to open their virtual classroom and all their course activities and labs. Deliver your Instructor-led training virtually with Zoom within a TMS class.  
+Give your students and instructors the convenience of one place for all members of the class to open their virtual classroom and all their course activities and labs. Deliver your Instructor-led training virtually with Zoom within a Skillable TMS class.  
 
 If you have a Zoom, you have a choice in how you set up your virtual meeting delivery. We have a full integration in the TMS using Zoom. The convenience of this choice is that creating a class also schedules your meeting in Zoom and also gives students access to recordings of class sessions through their TMS enrollment. If you would like to integrate Zoom, please contact Customer Support. Alternately, you can use our Custom Virtual Meeting Host.
 
 **Find your Zoom meeting URL**
 
-Start by scheduling a meeting in Zoom. When you have completed scheduling it you can access the meeting’s URL to input in the TMS class. Copy the URL provided within the meeting invitation. Using this will log your users in without needing to input a code to enter the meeting. 
+Start by scheduling a meeting in Zoom. When you have completed scheduling it you can access the meeting’s URL to input in the Skillable TMS class. Copy the URL provided within the meeting invitation. Using this will log your users in without needing to input a code to enter the meeting. 
 
 ![](/tms/images/ZoomMeetingURL.png)
 
 **Enter your Zoom URL in your Class**
 
-If you have used the TMS before for classes, then the only new element is adding Teams for your class’ delivery. If you have not set up a class before, you can find links to additional resources below. 
+If you have used the Skillable TMS before for classes, then the only new element is adding Teams for your class’ delivery. If you have not set up a class before, you can find links to additional resources below. 
 
 When editing or creating your class, 
 1. Expand the **Delivery** section.
@@ -35,7 +35,7 @@ When editing or creating your class,
 
 ![](/tms/images/virtual-class-launch-windows.png){1000}
 
-The TMS passes along the classId, studentLastName, studentFirstName, and studentEmail to the receiving site. 
+The Skillable TMS passes along the classId, studentLastName, studentFirstName, and studentEmail to the receiving site. 
 
 # Additional Resources
 

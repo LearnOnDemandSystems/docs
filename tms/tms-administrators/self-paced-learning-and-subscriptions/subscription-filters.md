@@ -13,7 +13,7 @@ You can add custom filters to your organization’s Course catalog and On-Demand
  
 *Filters used in a Course catalog*
 
-A Course catalog is an optional feature you may have on your TMS site. This catalog displays any courses available to your organization set to show on the course catalog. The catalog is accessed from a navigation link available from the login page, or once users have logged in. If you are interested in adding a Course catalog to your site, please contact our [help desk](https://docs.skillable.com/tms/home.md?appid=tms). 
+A Course catalog is an optional feature you may have on your Skillable TMS site. This catalog displays any courses available to your organization set to show on the course catalog. The catalog is accessed from a navigation link available from the login page, or once users have logged in. If you are interested in adding a Course catalog to your site, please contact our [help desk](https://docs.learnondemandsystems.com/tms/home.md?appid=tms). 
 
 A Subscription On-Demand catalog is a feature available when using subscriptions and is enabled on the Subscription profile. This catalog displays any courses available within subscription(s) to the assigned user. [Click here](/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-description.md) for more information on subscriptions.
 
