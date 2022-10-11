@@ -15,7 +15,7 @@
 
 SSG Instructors can create classes themselves via the _SSG Workshop Scheduler_ role that is applied to your account. Below is a step by step guide that will walk you through this process so you can create classes.
 
->![note] Any fields on the _Create Class_ page that are not addressed in this tutorial can safely be left blank. 
+>[!note] Any fields on the _Create Class_ page that are not addressed in this tutorial can safely be left blank. 
 
 ## Create a Class
 

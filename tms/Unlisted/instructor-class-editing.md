@@ -40,6 +40,7 @@ Below are the options that **Instructors are unable to update** on an existing c
 ### Basic Information Tab 
 
 >[!alert] **Anytime you edit a class, you must check the DisableAutomation checkbox**. Failure to check this box will result in all edits being reset back to the original settings. 
+>
 > ![DisableAutomation Checkbox](images/disable-automation.png)
 
 #### Change Time Zone 
@@ -59,9 +60,11 @@ To change the time for class sessions, complete the following steps:
 1. select **Edit** next to the session you wish to change.
 1. To change the date or start/end time of the class, click on the date and a calendar will populate. 
 1. Choose the appropriate date for the session.
+
     >[!note] The session date, Start time and End time cannot be in the past. 
 1. Choose the appropriate start and end time for the session. 
-    ![Change Session Date, Start Time and End Time](images/change-session-date-time.png)
+    >
+    > ![Change Session Date, Start Time and End Time](images/change-session-date-time.png)
 
 ### Add or Remove Instructors 
 
@@ -71,16 +74,20 @@ Instructors can be added or removed from a class.
 
 1. Select the Instructors tab. 
 1. Select the **X** next to the name of the Instructor(s) you wish to remove. 
+
     ![Remove Instructor from a class](images/remove-instructor.png)
 
 #### Add Instructor(s)
 
 1. Select the Instructors tab. 
 1. Select the **+ Add Instructor** button to add an Instructor. 
+
     ![Add Instructor to a class](images/add-instructor.png)
+
 1. Enter the Instructor's **Name** and/or **Email** and select **OK**. 
 
 > [!knowledge] If you are unable to locate an Instructor while searching, you may need to remove the `Does not have schedule conflict` search filter. 
+
     ![Remove search filter](images/remove-search-filter.png)
 
 ### Save The Class
@@ -90,6 +97,7 @@ Once all necessary changes have been made to the class, select the **Save button
 >[!note] Changes to the class may take 5 minutes to complete. Additional prompts may appear in your web browser, to confirm the changes that you made. Prompts include (but are not limited to) the following: 
 >
 > ![You haven't assigned any classrooms](images/havent-assigned-classrooms.png)
+>
 > ![You haven't made this event visible](images/havent-made-event-visible.png)
 
 >[!alert] If the DisableAutomation checkbox was not checked, all settings will be returned back to the original settings.  
