@@ -15,15 +15,15 @@
 
 ## Overview
 
-SSG Instructors can now edit these classes themselves via the updated “SSG Workshop Scheduler” role that is applied to your account. Below is a step-by-step guide that will walk you through this process so you can update your classes. 
+SSG Instructors can now edit classes themselves via the updated _SSG Workshop Scheduler_ role that is applied to your account. Below is a step by step guide guide that will walk you through this process so you can update your classes. 
 
-Below are the options that Instructors can update on an existing class:  
+Below are the options that **Instructors can update** on an existing class:  
 - Edit the class date if the class has not ended.   
 - Adjust the Time Zone.  
 - Adjust the Class times if the class has not ended. 
-- Add a new instructor to a class. 
+- Add a new Instructor to a class. 
 
-Below are the options that Instructors are unable to update on an existing class. Please [contact Skillable](http://www.skillable.com/customer-support/) if any of these options need to be changed. 
+Below are the options that **Instructors are unable to update** on an existing class. Please [contact Skillable](http://www.skillable.com/customer-support/) if any of these options need to be changed. 
 
 - Back-date a class. Once the class is over, sessions cannot be added or changed. 
 - Change the Training Key or allow Key to be redeemed after the class ends.  
@@ -59,29 +59,28 @@ To change the time for class sessions, complete the following steps:
 1. select **Edit** next to the session you wish to change.
 1. To change the date or start/end time of the class, click on the date and a calendar will populate. 
 1. Choose the appropriate date for the session.
-    >[!alert] The session date, start time and end time cannot be in the past. 
+    >[!note] The session date, Start time and End time cannot be in the past. 
 1. Choose the appropriate start and end time for the session. 
     ![Change Session Date, Start Time and End Time](images/change-session-date-time.png)
 
 ### Add or Remove Instructors 
 
-Instructors can be added to a class or removed from a class. 
+Instructors can be added or removed from a class. 
 
 #### Remove Instructor(s)
 
 1. Select the Instructors tab. 
-1. Select the **X** next to the name of the instructor(s) you wish to remove. 
+1. Select the **X** next to the name of the Instructor(s) you wish to remove. 
     ![Remove Instructor from a class](images/remove-instructor.png)
-1. Enter the instructor's **Name** and/or **Email** and select **OK**. 
 
 #### Add Instructor(s)
 
 1. Select the Instructors tab. 
-1. Select the **+ Add Instructor** button to add an instructor. 
-    ![Add instructor to a class](images/add-instructor.png)
-1. Enter the instructor's **Name** and/or **Email** and select **OK**. 
+1. Select the **+ Add Instructor** button to add an Instructor. 
+    ![Add Instructor to a class](images/add-instructor.png)
+1. Enter the Instructor's **Name** and/or **Email** and select **OK**. 
 
-> [!knowledge] If you are unable to locate an instructor while searching, you may need to remove the `Does not have schedule conflict` search filter. 
+> [!knowledge] If you are unable to locate an Instructor while searching, you may need to remove the `Does not have schedule conflict` search filter. 
     ![Remove search filter](images/remove-search-filter.png)
 
 ### Save The Class
@@ -93,5 +92,5 @@ Once all necessary changes have been made to the class, select the **Save button
 > ![You haven't assigned any classrooms](images/havent-assigned-classrooms.png)
 > ![You haven't made this event visible](images/havent-made-event-visible.png)
 
->[!alert] If the DisableAutomation checkbox was not checked, the API will return all settings back to the original when it runs its refresh.  
+>[!alert] If the DisableAutomation checkbox was not checked, all settings will be returned back to the original settings.  
 > ![DisableAutomation Checkbox](images/disable-automation.png)

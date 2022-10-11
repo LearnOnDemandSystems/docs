@@ -7,19 +7,20 @@
 - [Create a Class](#create-a-class)
   - [Basic Information](#basic-information)
   - [Session Times](#session-times)
-    - [Add a Single Session Times](#add-a-single-session-times)
+    - [Add Single Session Times](#add-single-session-times)
     - [Add Multiple Session Times](#add-multiple-session-times)
   - [Instructors](#instructors)
 
 ## Overview
 
-SSG Instructors can create these classes themselves via the _SSG Workshop Scheduler_ role that is applied to your account. Below is a step by step guide that will walk you through this process so you can generate this class and future ones. See below: 
+SSG Instructors can create classes themselves via the _SSG Workshop Scheduler_ role that is applied to your account. Below is a step by step guide that will walk you through this process so you can create classes.
 
-Note: Any fields on the _Create Class_ page that are not addressed in this tutorial can safely be left blank. 
+>![note] Any fields on the _Create Class_ page that are not addressed in this tutorial can safely be left blank. 
 
 ## Create a Class
 
-1. When signed into MS Learning Campus, click the _Admin_ menu and then select _Create Class_.
+1. Sign into Microsoft Learning Campus.
+1. Click the _Admin_ menu and then select _Create Class_.
 
     ![Click Admin then select Create Class](images/admin-create-class.png)
 
@@ -29,7 +30,7 @@ Note: Any fields on the _Create Class_ page that are not addressed in this tutor
 
     This is where you will search for the workshop that the class is going to deliver. 
 1. For these instructions, _**WorkshopPLUS - Data AI: Azure SQL Database Essentials**_ will be used as an example.
-1. When searching for a course, it is recommended to **remove existing search filters** and **add the following filter and condition**:
+1. When searching for a course, it is recommended to **remove existing search filters** and **add the following filter and conditions**:
     - Name: Does: Contain
    
    This makes it so that an exact match is not required for the search and will make it easier to find the course you are looking for. 
@@ -56,10 +57,10 @@ In the basic information tab, you will need to provide details for the class. An
     - **Minimum Students**
     - **Maximum Students**
 
-    >[!note] When creating a class, the maximum number of students for the class should not exceed 16. Any request to change the number of students after the class has been created will need to be submitted to the Support Team. If the maximum number of students needs to be increased, [contact our Support Team](http://www.skillable.com/customer-support/) and include either the RMOS/ROSS ID and the Event Training Key. Providing these details will help expedite the process. 
+    >[!note] When creating a class, the maximum number of students for the class should not exceed 20. Any request to change the number of students after the class has been created will need to be submitted to the Support Team. If the maximum number of students needs to be increased, [contact our Support Team](http://www.skillable.com/customer-support/) and include either the RMOS/ROSS ID and the Event Training Key. Providing these details will help expedite the process. 
 
 1. Select the checkbox to **Allow automatic enrollment using event training key**. 
-    >[!knowledge] The Event Training Key is used to enroll students in the class. The Event Training Key is generated automatically should not be changed.
+    >[!knowledge] The Event Training Key is used to enroll students in the class. The Event Training Key is generated automatically and should not be changed once it is generated and distributed to students.
 
 ### Session Times
 
@@ -67,21 +68,25 @@ In the Session Times tab, you will enter dates and times for the delivery of the
 
 Sessions can be entered as a single session time, or multiple session times. 
 
-#### Add a Single Session Times
+#### Add Single Session Times
 
 Adding single session times allow a single session to span across multiple days, and the start and end times are the same for each day. Class activities are available at the start time of the first day of the delivery and are available for students to access throughout the entire duration of the class, even after the session ends for the day. 
 
+To add a single session time, complete the following steps: 
+
 1. Select the Session Times tab. 
 1. Click **+Add Single Session Time**.
-1. Select the date and time for the **Start**.
-1. Select the date and time for the **End**. 
+1. Select the **date and time for the Start**.
+1. Select the **date and time for the End**. 
 1. Click **OK** to add the session. 
 
     ![Add single sessions](images/single-session-time.png)
 
 #### Add Multiple Session Times 
 
-Adding multiple session times allow adding multiple days of session times where the lab activities are inaccessible after the end time of that day of delivery. Class activities become available again at the start time of the next day of delivery.
+Adding multiple session times allow adding multiple days of sessions, where the lab activities are inaccessible after the end time of that day of delivery. Class activities become available again at the start time of the next day of delivery.
+
+To add multiple session times, complete the following steps: 
 
 1. Select the **Session Times tab**. 
 1. Click **+Add Session Times**. 
@@ -109,17 +114,18 @@ Instructor(s) are added to a class. To add an instructor, complete the following
 
 1. When searching for an instructor, it is recommended to **add the Email filter**. The easiest way to search for a PFE is via email. 
 
-    >[!knowledge] Sometimes the alias that is on file is not the one attached to their Skillable TMS account. If you are having trouble to find the person you are looking for via an email search, it is recommended to **remove existing search filters** and **add the following filter and condition**:
+    ![Choose instructor](images/choose-instructor.png)
+
+    >[!knowledge] Sometimes the alias that is on file is not the one attached to their Skillable TMS account. If you are having trouble finding the person you are looking for via an email search, it is recommended to **remove existing search filters** and **add the following filter and condition**:
     >    - First Name: Does: Contain
     >    - Last Name: Does: Contain
     >
     > This will broaden the search, making it easier to find the instructor you are looking for.
-    > ![Choose instructor](images/choose-instructor.png)
     
 1. Scroll to the bottom of the page and click **Save**. 
 1. A prompt may appear saying _You haven't assigned any classrooms. Are you sure want to continue?_. Click **OK**, and the saving progress will begin. 
 
-    The saving process for an SSG class may take up to 2 minutes to create and save the class. During this time do not refresh your browser or close the window. 
+    The saving process for an SSG class may take up to 2 minutes to create and save the class. **During this time do not refresh your browser or close the window**. 
 
 1. Once the class is saved, a message will be displayed under the _Save_ button saying _Successfully Created_, with a link to the class. 
 
