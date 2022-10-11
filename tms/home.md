@@ -368,7 +368,7 @@ aria-hidden="true">assignment</i>
           <div class="category">
             <a href="/tms/tms-administrators/badges-achievements/create-badge-provider.md" class="categoryThread">
               <i class="material-icons green" aria-hidden="true">forum</i>
-              <span class="categoryTitle" title="How do I create a Badge Provider in the TMS?">How do I create a Badge Provider in the TMS?</span>
+              <span class="categoryTitle" title="How do I create a Badge Provider in the TMS?">How do I create a Badge Provider?</span>
             </a>
           </div>
           <div class="category">
