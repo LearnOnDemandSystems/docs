@@ -1,7 +1,5 @@
 # Instructor Class Editing 
 
-SSG Instructors can now edit these classes themselves via the updated “SSG Workshop Scheduler” role that is applied to your account. Below is a step-by-step guide that will walk you through this process so you can update your classes. 
-
 ## Table of Contents 
 
 - [Instructor Class Editing](#instructor-class-editing)
@@ -16,6 +14,8 @@ SSG Instructors can now edit these classes themselves via the updated “SSG Wor
     - [Save The Class](#save-the-class)
 
 ## Overview
+
+SSG Instructors can now edit these classes themselves via the updated “SSG Workshop Scheduler” role that is applied to your account. Below is a step-by-step guide that will walk you through this process so you can update your classes. 
 
 Below are the options that Instructors can update on an existing class:  
 - Edit the class date if the class has not ended.   
