@@ -19,10 +19,10 @@
               </a>
             </div>
             <div class="category"> 
-              <a href="/tms/end-user-student-faqs/basics/change-password.md" class="categoryThread">
+              <a href="/tms/end-user-student-faqs/basics/student-dashboard.md" class="categoryThread">
                 <i class="material-icons green"
  title="Student Basics" aria-hidden="true">person</i>
-                <span class="categoryTitle" title="How do I change my password?">How do I change my password?</span>
+                <span class="categoryTitle" title="How do I my student dashboard?">How do I use my student dashboard?</span>
               </a>
             </div>
             <div class="category">  
