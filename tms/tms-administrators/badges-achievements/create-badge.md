@@ -16,11 +16,11 @@ To create a **Badge**:
 1. Ensure **Organization** is set to the organization that will manage the badge. This defaults to your organization.
 1. Next to **Badge Provider**, click **Choose**.
 1. Search for and select the appropriate **Badge Provider** entity and click **OK**.
-1. In the **Badge Provider Template Id** field, enter the **Badge Template ID** from the external provider (Credly). When the badge is earned in the TMS, it sends this template ID to them to issue the correct external badge to the user. 
+1. In the **Badge Provider Template Id** field, enter the **Badge Template ID** from the external provider (Credly). When the badge is earned in the Skillable TMS, it sends this template ID to them to issue the correct external badge to the user. 
 1. On the **Availability** tab, add your child organizations that can associate this badge with their achievements.
 1. Click **Save**.
 
-![](/tms/images/create-badge-image.png)
+![](/tms/images/create-badge-image1.png)
 
 
 ## Related Articles
