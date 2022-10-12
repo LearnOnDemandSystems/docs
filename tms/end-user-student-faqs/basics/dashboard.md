@@ -74,6 +74,8 @@ A redeem training key field is available to simplifies the redemption process.
 
 ![](/tms/images/student-redeem.png)
 
+![](/tms/images/student-redeem.png)
+
 _Student dashboard’s Redeem training key section._
 
 [Return to Article contents](#article-contents)
