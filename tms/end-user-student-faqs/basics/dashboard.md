@@ -72,9 +72,7 @@ _Student dashboard’s Month at a glance section._
 ## Redeem training key
 A redeem training key field is available to simplifies the redemption process.
 
-![](/tms/images/student-redeem.png)
-
-![](/tms/images/student-redeem.png)
+![](/tms/images/student-redeem-tk.png)
 
 _Student dashboard’s Redeem training key section._
 
