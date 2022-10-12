@@ -8,7 +8,7 @@ The student dashboard is the place with a single view of most of the learner’s
 A navigation link called My Dashboard opens the student’s dashboard. The student dashboard can be set as the default landing page for students in your organization, if you would like this set up, please submit a support ticket from our [Customer Support](https://www.skillable.com/customer-support/) page.
 
 ![](/tms/images/my-dashboard.png) 
-
+![](/tms/images/password_reset.png)
 _The My Dashboard button is available in the navigation links at the top of the page._
 
 ### Article contents
