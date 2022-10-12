@@ -18,7 +18,7 @@
   <div class="subtopic selected">
     <div class="subtopic_header" tabindex="0" title="Basics Docs" role="button" aria-selected="true" selected>Basics</div>
     <div id="body_1" class="subtopic_links">
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/dashboard.md">
+      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/dashboard.md"> 
         <div class="subtopic_title">How do I use the student dashboard?</div>
       </a>
         <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/my-language.md">
