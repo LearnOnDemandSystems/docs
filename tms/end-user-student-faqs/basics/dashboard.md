@@ -1,6 +1,6 @@
 ---
-title: "Student dashboard"
-ispublished: true
+Title: "Student dashboard"
+IsPublished: true
 ---
 
 # How to use the Student Dashboard
