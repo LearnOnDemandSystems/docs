@@ -9,6 +9,8 @@ A navigation link called My Dashboard opens the student’s dashboard. The stude
 
 _The My Dashboard button is available in the navigation links at the top of the page._
 
+![](/tms/images/my-dashboard.png) 
+
 ### Article contents
 * [Active classes](#active-classes)
 * [Active course assignments](#active-course-assignments)
