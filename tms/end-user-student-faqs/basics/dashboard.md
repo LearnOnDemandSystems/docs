@@ -20,7 +20,7 @@ _The My Dashboard button is available in the navigation links at the top of the 
 * [Redeem training key](#redeem-training-key)
 * [Rewards](#rewards)
 
-![](/tms/images/student-dashboard.png)
+![](/tms/images/student-dashboard2.png)
 
 _The Student Dashboard._
 
@@ -81,7 +81,7 @@ _Student dashboard’s Redeem training key section._
 ## Rewards
 Rewards displays all your badges and achievements each within their respective sections. Each section defaults to display up to nine entries with a "View all…" link to expand to see the entire list if more rewards have been earned. 
 
-![](/tms/images/student-rewards.png)
+![](/tms/images/rewards2.png)
 
 _Student dashboard’s Rewards section._
 
