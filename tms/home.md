@@ -12,7 +12,7 @@
           <div class="cloudSlice cardContent">
             <div class="cardHeader" tabindex="0" title="Student Basics" aria-label="Student Basics docs">Basics</div>
             <div class="category"> 
-              <a href="/tms/end-user-student-faqs/basics/student-dashboard.md" class="categoryThread">
+              <a href="/tms/end-user-student-faqs/basics/dashboard.md" class="categoryThread">
                 <i class="material-icons green"
  title="Student Basics" aria-hidden="true">person</i>
                 <span class="categoryTitle" title="How do I use my student dashboard?">How do I use my student dashboard?</span>
