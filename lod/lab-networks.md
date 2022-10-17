@@ -81,12 +81,13 @@ Exceptions to General Interest - Personal are as follows:
 
 On all networks, including CustomerNet, the following services are prohibited:
 
-- RDP inbound
-- SSH inbound
-- TELNET inbound
 - FTP/TFPT inbound
 - LDAP inbound
+- RDP inbound
 - SMB inbound
+- SMTP outbound
+- SSH inbound
+- TELNET inbound
 
 On the CustomerNet network, labs must follow additional configuration restrictions. Any lab not following these restrictions may be updated by Skillable to bring it into compliance or removed from availability until changes are made.
 
