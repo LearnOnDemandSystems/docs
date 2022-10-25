@@ -77,3 +77,7 @@ On some courses, instructors have the ability to assign labs to specific student
 _On some courses, instructor's have the ability to disable lab access, when a lab is disabled by an instructor the activity still displays, but is grayed out and has a message "Disabled by instructor"._
 
 [Return to Article contents](#article-contents)
+
+### Related articles
+
+* [How do I launch, cancel, save and relaunch a lab?](/tms/end-user-student-faqs/lab-access/cancel-lab.md)
