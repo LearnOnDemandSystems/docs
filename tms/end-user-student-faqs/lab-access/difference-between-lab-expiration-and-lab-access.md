@@ -8,9 +8,14 @@ isPublished: true
 Sometimes people are confused about their labs: how to know when their access to a lab expires, if they will lose their work in a lab, if labs are automatically cancelled, and if there are any limits on how many times a lab can be saved. 
 Saving a lab is the only way to retain the work you have accomplished. Canceling, Xing out of the lab window or marking it Complete wipes any work done, and the next launch will be a fresh lab instance.
 
-## Post class lab access
-Many classes continue to allow access to labs after a class is over, this is referred to as Post class lab access. Normally, the access is set to 180 days after the end date of the class, but it can vary between no access at all to any number of days after a class is finished. When you have post-class lab access, the date your access expires is listed on your Class Enrollment page. 
-Self-paced training access through a course assignment normally ends 180 days after its creation date. 
+There are limitations on saved labs, the number of days you have access to labs and there may be limits placed on the number of lab launches permitted. 
+
+### Article contents
+* [Lab access](#lab-access)
+* [Post class lab access](#post-class-lab-access)
+* [Lab expiration](#lab-expiration)
+* [Lab launch limits](#lab-launch-limits)
+* [Disabled and assigned labs](#disabled-and-assigned-labs)
 
 ## Lab access 
 Lab access is how long you have access to **launch** a new instance of a lab. Access to class labs begins at the start date and time of your class and may extend after a class is over based on the post class lab access that is set up. Access to labs for self-paced training through course assignments begins as soon as the assignment is created and ends 180 days after the creation date, regardless of if or when work on the assignment started.
@@ -18,12 +23,25 @@ Lab access is how long you have access to **launch** a new instance of a lab. Ac
 Limits can be set on the number of times a lab can be launched, see Lab launch limits below.
 The class instructors and operations managers have access to their class labs at any time, course labs are sometimes restricted from instructor access.
 
+[Return to Article contents](#article-contents)
+
+## Post class lab access
+Many classes continue to allow access to labs after a class is over, this is referred to as post class lab access. Normally, the access is set to 180 days after the end date of the class, but it can vary between no access at all to any number of days after a class is finished. When you have post-class lab access, the date your access expires is listed on your Class Enrollment page. 
+
+![](/tms/images/lab-expiration.png) 
+_The Activities section on your enrollment displays when your access to launch the course's labs ends._
+
+[Return to Article contents](#article-contents)
+
 ## Lab expiration
 Lab expiration is when a lab you have saved expires. When you have launched a lab and then saved it, you are shown a date and time when it will be automatically cancelled from the system. If your lab is cancelled, you lose all the work you have done in the lab, but you may have the option to launch a fresh instance of the lab depending on your post class lab access and any lab launch limits.
 
 ![](/tms/images/lab-expiration-date1.png)
+_All saved labs show the date and time when the saved lab will expire._
 
 You can prevent your lab from being cancelled by reopening it prior to the expiration date and saving it again extending the time by receiving a new expiration date and time. If you have unlimited lab launches, then regardless of the expiration date set on a saved lab, you are able to launch a fresh lab as long as you are still working within the time frame of your class or post class lab access.
+
+[Return to Article contents](#article-contents)
 
 ## Lab launch limits
 A course may have one of a variety of lab launch settings from unlimited lab launches, to lab launch limits placed on individual labs, or a single limit for all the labs within the course. Unlimited lab launches are the default setting, and new lab instances can be launched at any time during the class and during post class lab access. 
@@ -40,9 +58,22 @@ A message below the Launch button presents the lab’s launch status.
 * A launch limit on a lab activity reads **X of X launch attempts remaining**
 
 ![](/tms/images/unlimited-lab-launch-limit.png)
+_The first lab shows that there are unlimited lab launches available; while the second lab shows that the lab may only be launched three times._
 
 * A lab that has been launched and the limit met reads **Attempt Limit Reached**
 
 ![](/tms/images/attempt-limit-reached.png)
+_This lab shows that all lab launches have been used and there are no more lab launches available._
 
 When the maximum lab launches are met for either a lab activity or all lab activities in the course, the Launch button disappears and a message of **Attempt Limit Reached** displays in the affected lab activity. When the limit is reached, if the Launch button remains and is clicked a message of **You have reached the maximum allowed attempts for this activity** displays. Launches that are unused during the class may be used during any post class lab access set for the class.
+
+
+[Return to Article contents](#article-contents)
+
+## Disabled and assigned labs
+On some courses, instructors have the ability to assign labs to specific students, in this case only students assigned the lab will see it in their activities. Instructors may also have the ability to disable access to labs, if a lab is disabled by the instructor you will still see the lab activity but it is grayed out and has mo launch button. 
+
+![](/tms/images/instruct-disabled-lab.png) 
+_On some courses, instructor's have the ability to disable lab access, when a lab is disabled by an instructor the activity still displays, but is grayed out and has a message "Disabled by instructor"._
+
+[Return to Article contents](#article-contents)
