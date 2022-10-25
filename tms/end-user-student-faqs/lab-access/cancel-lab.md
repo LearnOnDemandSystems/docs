@@ -1,6 +1,6 @@
 ---
 title: "How do I launch, cancel, save and relaunch a lab?"
-details: "It is important to know how to use the labs in the course you are taking; launching, saving, cancelling, and relaunching labs are common actions when working on labs. There are limitations on saved labs and there may be limits placed on the number of lab launches permitted."
+details: "It is important to know how to use the labs in the course you are taking; launching, saving, cancelling, and relaunching labs are common actions when working on labs."
 ispublished: no
 ---
 
