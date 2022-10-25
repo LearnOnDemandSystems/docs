@@ -6,7 +6,7 @@ ispublished: no
 
 # How do I launch, cancel, save and relaunch a lab?
 
-It is important to know how to use course labs you are taking; launching, saving, cancelling, and relaunching labs are common actions when working on labs.
+It is important to know how to use the course labs you are taking; launching, saving, cancelling, and relaunching labs are common actions when working on labs.
 
 ### Article contents               
                              
