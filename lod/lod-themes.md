@@ -56,79 +56,81 @@ Below are some examples of customisation that can be performed.
 /*a controls the link color in, b controls the color of Bold text */
 
 a, b{
-    color:#12eae7;
+    .color:#12eae7;
 }
 
 /* This section sets the colors of the header text */
 
 h1, h2, h3, h4, h5, h6{
-    color: #1e377f;
+    .color: #1e377f;
 }
 
 /* This section controls the font to be used for the body */
 body{
-font-family: verdana;
+    .font-family: verdana;
 }
 
 /* This section will apply additional formating to any text that has the Strong tag applied */
 
 strong {
-    color: #12EAE7;
+    .color: #12EAE7;
 }
 
 /* This section demonstrates putting a company logo at the top of the Instructions
 #header{
-    background-image: url(<full url to picture here>);
-    background-repeat: no-repeat;
-	font-family: calibri;
-    background-position: 5% center;
-    background-size: 25%;    
+    .background-image: url(<full url to picture here>);
+    .background-repeat: no-repeat;
+	  .font-family: calibri;
+    .background-position: 5% center;
+    .background-size: 25%;    
 }
 */
 /* This section stops the lab name from being displayed.  This must be used if the logo above is used as they occupy the same screen area
 #labName{
-    font-size: 0px;
+    .font-size: 0px;
 }
 */
 
 /* Allows settings to be applied to control the lab timer position, font, size, etc
 #timerWrapper{
-  margin-left: 30%;
-  margin-top: -4%;
-  text-align: center;
-  float: left;
-  padding: 10px;
+    .margin-left: 30%;
+    .margin-top: -4%;
+    .text-align: center;
+    .float: left;
+    .padding: 10px;
 }
 */
 /* This sets the color of the TypeText.  Note class names like .typeText are case sensitive */
-.typeText{
-    color: #EA570F;
+    .typeText{
+    .color: #EA570F;
 }
 
 /* This section allows customization of the Instructions/Resources/Help menu bar.  
 For example these settings control the underline thinkness and color when one of them is clicked
 */
 
-.tabHeading.selected{
-	border-bottom: 4px solid #12EAE7;
+  .tabHeading.selected{
+	  .border-bottom: 4px solid #12EAE7;
 }
 
 /* This section can be used to turn off various elements on the Help page
-.supportIcon {
-    display: none;
+  .supportIcon {
+    .display: none;
     }
 
-.supportChatIcon {
-    display: none;
+  .supportChatIcon {
+    .display: none;
     }
     
-.questionIcon {
-    display: none;
+  .questionIcon {
+    .display: none;
     } 
 */
 /* ensures elements like company names are not flagged as spelled incorrectly */
-.help 
-{spellcheck:"false"}
+  .help 
+{
+    .spellcheck:"false"
+  }
 ```
 
 ### JavaScript Example
