@@ -51,6 +51,7 @@ Unlimited lab launches allow a lab to be launched any number of times during the
 An individual lab launch limit is set on a single lab activity allowing the lab to be launched a specific number of times, for example, Lab activity 1 may have a limit of three launches, Lab activity 2 has a limit of five launches, and Lab activity 3 has unlimited launches. 
 
 A single limit for all labs all labs in a course sets a limit on the number of times all the labs combined within the course can be launched. If a course lab launch limit is set to six then you can only launch any combination of the labs in the course 6 times, for example, if there are three lab activities in the course you can launch a single lab six times to meet the limit or distribute the launches between any of the three labs to combine to six launches.
+
 A lab is counted as launched after 60 seconds pass from when the Launch button was clicked; cancelling the lab before a minute is reached does not count against your lab launch count. Relaunching a saved lab does not count against remaining launches, only the launch of a new lab instance. 
 
 A message below the Launch button presents the lab’s launch status. 
