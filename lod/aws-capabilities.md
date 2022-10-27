@@ -26,7 +26,7 @@ If you need support for an AWS service that is not listed as supported, please s
 |[Amazon Data Lifecycle Manager](https://docs.aws.amazon.com/dlm/latest/APIReference/Welcome.html)|N/A|supported|
 |[Amazon DynamoDB](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazondynamodb.html)|dynamodb|supported||
 |[Amazon DynamoDB Accelerator (DAX)](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazondynamodbacceleratordax.html)|dax|supported||
-[Amazon EC2](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_identityandaccessmanagement.html)|ec2|supported||
+[Amazon EC2](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_identityandaccessmanagement.html)|ec2|supported|Whenever a running lab profile is saved from the hamburger menu, the EC2 resources in AWS are suspended and do not continue to be billed. When the lab is resumed, billing will resume, the **EC2 instance will reboot** and then the EC2 resource will be available for use in the lab. |
 |[Amazon EC2 Container Registry](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonec2containerregistry.html)|ecr|supported||
 |[Amazon EC2 Container Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonec2containerservice.html)|ecs|supported||
 [Amazon Elastic Container Service for Kubernetes](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonelasticcontainerserviceforkubernetes.html)|eks|supported||
