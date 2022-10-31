@@ -34,11 +34,15 @@ Do the folowing to enable the MS Learn Courseware button, this step is also nece
 1. Under Business Settings input your **Microsoft Partner ID** and **Microsoft Campaign Code**
 1. **Save**
 
-![](/tms/images/ms-id1.png)
+![](/tms/images/ms-id2.png)
 
 _Input your Microsoft Partner ID and Microsoft Campaign Code on your Organization profile_
 
-When entering the Campaign code, please enter the code for creating the Microsoft Learn Courseware URL, exactly as it appears: **?WT.mc_id=ilt_partner_webpage_wwl&ocid=** Note: Our system will automatically make the necessary adjustments to the campaign code when used to create the Achievement URL.
+When entering the Campaign code, please enter the code for creating the Microsoft Learn Courseware URL, exactly as it appears: 
+
+**?WT.mc_id=ilt_partner_webpage_wwl&ocid=** 
+
+Note: Our system will automatically make the necessary adjustments to the campaign code when used to create the Achievement URL.
 
 [Return to contents of article](#contents-of-article)
 
