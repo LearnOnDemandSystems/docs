@@ -192,7 +192,7 @@ aria-hidden="true">assignment</i>
       <div class="cardContent">
           <div class="category">
           <a href="/tms/tms-administrators/classes/virtual-meetings/integratevirtualmeetingprovider.md" class="categoryThread">
-            <i class="material-icons light-blue" aria-hidden="true">bookmarks</i>
+            <i class="material-icons green" aria-hidden="true">bookmarks</i>
             <span class="categoryTitleFeatured" title="How does my Virtual Meeting Provider integrate with the TMS?">How does my Virtual Meeting Provider integrate with the Skillable TMS?</span>
             <span class="categoryDescription">Find out how to integrate your virtual meeting provider into a Skillable TMS class giving your students and instructor one place to connect, launch their labs and course activities.</span>
           </a>
