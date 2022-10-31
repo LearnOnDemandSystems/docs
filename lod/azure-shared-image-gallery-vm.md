@@ -279,9 +279,13 @@ Before installing the integration service, there must not be any previous versio
 1. Ensure there are no previous versions of the integration service installed on the VM: 
 	1. Navigate to **Programs and Features** in the Control Panel and ensure there is no integration service listed in the installed list. 
 1. Navigate to [Skillable Integration Service GitHub page](https://github.com/LearnOnDemandSystems/Skillable-Integration-Service) and download the contents of the repository. This repository contains a PowerShell script and a folder that contains the integration service. 
+
     >[!note] You can download the repository contents by selecting the green **Code** button and then selecting **_Download ZIP_**. 
+    
 1. Copy the **downloaded files to the Virtual Machine**, using your preferred method to transfer files into the VM. 
+
     >[!note] The simplest method to get these files into the VM is to access this repository from the VM and download the files.
+    
 1. In the VM, move the downloaded **VmIntegrationService folder** to the **root of the VM's C drive**. 
 1. Navigate back to the downloaded files, and **run the `install.ps1` PowerShell script**, as an administrator by right-clicking and selecting the option to run as administrator. 
 1. After the script is executed, **reboot the VM**.
