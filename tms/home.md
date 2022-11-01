@@ -85,7 +85,6 @@ aria-hidden="true">assignment</i>
        </div>
       <!-- -- End student categories section -->
     </div>
-   </div>
       <div class="cardContainer">
   <div class="instructorCategory userTypeSection">
   <!-- Begin instructor categories section.. -->
@@ -183,8 +182,7 @@ aria-hidden="true">assignment</i>
      </div>
     <!-- -- End instructor categories section -->
   </div>
- </div>
-      <div class="cardContainer">
+    <div class="cardContainer">
   <div class="administratorCategory userTypeSection">
     <!-- Begin administrator categories section.. -->
   <div class="categoriesHeader" tabindex="0" title="Featured Posts" aria-label="Featured Admin Docs">Featured</div>
@@ -479,8 +477,7 @@ aria-hidden="true">assignment</i>
      </div>
             <!-- -- End administrator categories section -->
  </div>
-      </div>
-      <div class="cardContainer">
+   <div class="cardContainer">
   <div class="coursewareMarketplaceAdmin userTypeSection">
   <!-- Begin Arvato MarketPlace Admin categories section.. -->
     <div class="moreInfo" tabindex="0" title="Getting started?">
