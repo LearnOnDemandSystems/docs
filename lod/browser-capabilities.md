@@ -23,13 +23,13 @@ There are some specific situations when your web browser may not function optima
 
 ### Google Input Tools Extension
 
-- _Google Input Tools_ Chrome extension may prevent editing lab profile instructions when a language is selected in the extension.
+_Google Input Tools_ Chrome extension may prevent editing lab profile instructions when a language is selected in the extension.
 
 If this extension must be installed, it is recommended to disable it and refresh the page before editing lab profile instructions. 
 
 ### uBlock Origin Extension 
 
- - _uBlock Origin_ Google Chrome extension may prevent a Class Event Log and Advertising Campaigns from displaying properly. 
+_uBlock Origin_ Google Chrome extension may prevent a Class Event Log and Advertising Campaigns from displaying properly. 
 
 If this extension must be installed, it is recommended to add Skillable domains that you are trying to access to the allow list in the extension settings.
  
@@ -51,4 +51,4 @@ If an @ symbol must be typed, it is recommended to use the paste functionality o
 
 ## Firefox Browser and Labs using ESX Fabric
 
-- In some cases, the Firefox browser can cause repeating characters when typing in a lab that is using the ESX lab fabric.
+In some cases, the Firefox browser can cause repeating characters when typing in a lab that is using the ESX lab fabric.
