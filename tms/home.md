@@ -86,8 +86,7 @@ aria-hidden="true">assignment</i>
       <!-- -- End student categories section -->
     </div>
    </div>
-      <div class="cardContainer">
-  <div class="instructorCategory userTypeSection">
+   <div class="instructorCategory userTypeSection">
   <!-- Begin instructor categories section.. -->
          <div class="cardContainer">
           <!-- Begin categories section.. -->
@@ -184,7 +183,6 @@ aria-hidden="true">assignment</i>
     <!-- -- End instructor categories section -->
   </div>
  </div>
-    <div class="cardContainer">
   <div class="administratorCategory userTypeSection">
     <!-- Begin administrator categories section.. -->
   <div class="categoriesHeader" tabindex="0" title="Featured Posts" aria-label="Featured Admin Docs">Featured</div>
