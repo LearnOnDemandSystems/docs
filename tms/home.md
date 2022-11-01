@@ -183,6 +183,7 @@ aria-hidden="true">assignment</i>
      </div>
     <!-- -- End instructor categories section -->
   </div>
+ </div>
     <div class="cardContainer">
   <div class="administratorCategory userTypeSection">
     <!-- Begin administrator categories section.. -->
@@ -478,6 +479,7 @@ aria-hidden="true">assignment</i>
      </div>
             <!-- -- End administrator categories section -->
  </div>
+</div>
    <div class="cardContainer">
   <div class="coursewareMarketplaceAdmin userTypeSection">
   <!-- Begin Arvato MarketPlace Admin categories section.. -->
