@@ -27,7 +27,7 @@
             </div>
                <div class="category">
               <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-without-user-account.md" class="categoryThread">
-                <i class="material-icons light-green" 
+                <i class="material-icons green" aria-hidden="true">desktop_windows</i>
  title="Student Basics" aria-hidden="true">person</i>
                <span class="categoryTitle" title="How do I access and change my user profile?">How do I access and change my user profile?</span>
               </a>
@@ -42,6 +42,7 @@
             <div class="category">
               <a href="/tms/end-user-student-faqs/lab-access/cancel-lab.md" class="categoryThread">
                 <i class="material-icons green" aria-hidden="true">desktop_windows</i>
+                   title="Student Basics" aria-hidden="true">person</i>
                 <span class="categoryTitle" title="How do I launch, cancel, save and relaunch a lab?">How do I launch, cancel, save and relaunch a lab?</span>
               </a>
             </div>
