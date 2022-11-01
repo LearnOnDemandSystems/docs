@@ -22,13 +22,6 @@
               <a href="/tms/end-user-student-faqs/basics/forgot-password.md" class="categoryThread">
                 <i class="material-icons light-green"
  title="Student Basics" aria-hidden="true">person</i>
-                <span class="categoryTitle" title="How do I launch, cancel, save and relaunch a lab?">How do I launch, cancel, save and relaunch a lab?</span>
-              </a>
-            </div>
-            <div class="category">  
-              <a href="/tms/end-user-student-faqs/lab-access/cancel-lab.md" class="categoryThread">
-                <i class="material-icons light-green"
- title="Student Basics" aria-hidden="true">person</i>
                 <span class="categoryTitle" title="How do I access and change my user profile?">How do I access and change my user profile?</span>
               </a>
             </div>
@@ -45,13 +38,13 @@
               </a>
             </div>
             <div class="category">
-              <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-with-user-account.md" class="categoryThread">
+              <a href="/tms/end-user-student-faqs/lab-access/cancel-lab.md" class="categoryThread">
                 <i class="material-icons green" aria-hidden="true">desktop_windows</i>
-                <span class="categoryTitle" title="How do I access my labs for a class using a lab code when I have a user account?">How do I access my labs for a class using a lab code when I have a user account?</span>
+                <span class="categoryTitle" title="How do I launch, cancel, save and relaunch a lab?">How do I launch, cancel, save and relaunch a lab?">How do I launch, cancel, save and relaunch a lab?">How do I launch, cancel, save and relaunch a lab?</span>
               </a>
             </div>
             <div class="category">
-              <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-without-code.md" class="categoryThread">
+                <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-without-code.md" class="categoryThread">
                 <i class="material-icons light-green" aria-hidden="true">desktop_windows</i>
                 <span class="categoryTitle" title="How do I access my labs for a class without a lab code?">How do I access my labs for a class without a lab code?</span>
               </a>
