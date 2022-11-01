@@ -16,6 +16,7 @@ There are some specific situations when your web browser may not function optima
 - [AWS Auto Login in Incognito Mode](#aws-auto-login-in-incognito-mode)
 - [Using macOS](#using-macos)
   - [Monitoring a lab with Google Chrome Browser on macOS](#monitoring-a-lab-with-google-chrome-browser-on-macos)
+  - [Using a Danish Keyboard Layout](#using-a-danish-keyboard-layout)
 - [Firefox Browser and Labs using ESX Fabric](#firefox-browser-and-labs-using-esx-fabric)
 
 ## Web Browser Extensions
@@ -41,6 +42,12 @@ When using an incognito Google Chrome session, AWS auto login will not automatic
 ### Monitoring a lab with Google Chrome Browser on macOS
 
 When monitoring a lab from a computer running macOS and using Google Chrome, interaction with the lab may be possible without taking control of the lab environment. Pressing the Command key in combination with a number key may result in interaction with items in the taskbar of the VM in the lab environment. 
+
+### Using a Danish Keyboard Layout
+
+When using a Danish keyboard layout on a computer running macOS, typing the @ symbol by pressing shift+2 may not work as expected. 
+
+If an @ symbol must be typed, it is recommended to use the paste functionality or the on-screen keyboard. 
 
 ## Firefox Browser and Labs using ESX Fabric
 
