@@ -22,21 +22,23 @@
               <a href="/tms/end-user-student-faqs/basics/forgot-password.md" class="categoryThread">
                 <i class="material-icons light-green"
  title="Student Basics" aria-hidden="true">person</i>
-                <span class="categoryTitle" title="How do I access and change my user profile?">How do I access and change my user profile?</span>
+                <span class="categoryTitle" title="How do I access my labs using a lab code without a user account?">How do I access my labs using a lab code without a user account?</span>
               </a>
             </div>
+               <div class="category">
+              <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-without-user-account.md " class="categoryThread">
+                <i class="material-icons light-green" aria-hidden="true">desktop_windows</i>
+ title="Student Basics" aria-hidden="true">person</i>
+               <span class="categoryTitle" title="How do I access and change my user profile?">How do I access and change my user profile?</span>
+              </a>
+            </div>
+            <div class="category">
             <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/student-landing.md" title="View all" aria-label="View all Student Basics docs">View all</a></div>
           </div>
         </div>
         <div class="cardContainer">
           <div class="vmLabDev cardContent">
             <div class="cardHeader" tabindex="0" title="Student Labs" aria-label="Student Docs for Labs">Labs</div>
-            <div class="category">
-              <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-without-user-account.md " class="categoryThread">
-                <i class="material-icons light-green" aria-hidden="true">desktop_windows</i>
-                <span class="categoryTitle" title="How do I access my labs using a lab code without a user account?">How do I access my labs using a lab code without a user account?</span>
-              </a>
-            </div>
             <div class="category">
               <a href="/tms/end-user-student-faqs/lab-access/cancel-lab.md" class="categoryThread">
                 <i class="material-icons green" aria-hidden="true">desktop_windows</i>
