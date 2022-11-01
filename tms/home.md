@@ -27,7 +27,7 @@
             </div>
                <div class="category">
               <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-without-user-account.md " class="categoryThread">
-                <i class="material-icons light-green" aria-hidden="true">desktop_windows</i>
+                <i class="material-icons light-green" 
  title="Student Basics" aria-hidden="true">person</i>
                <span class="categoryTitle" title="How do I access and change my user profile?">How do I access and change my user profile?</span>
               </a>
