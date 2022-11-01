@@ -45,7 +45,10 @@
   <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="Labs Docs" role="button" aria-selected="false">Labs</div>
     <div class="subtopic_links">
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/keyboard-accessibility.md">
+      <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/cancel-lab.md">
+        <div class="subtopic_title">How do I launch, cancel, save and relaunch a lab?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/keyboard-accessibility.md">
         <div class="subtopic_title">Are labs keyboard accessible?</div>
       </a>
       <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-without-user-account.md">
