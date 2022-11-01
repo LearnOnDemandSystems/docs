@@ -20,14 +20,14 @@
             </div>
                <div class="category">
               <a href="/tms/end-user-student-faqs/basics/forgot-password.md" class="categoryThread">
-                <i class="material-icons light-green"
+                <i class="material-icons green"
  title="Student Basics" aria-hidden="true">person</i>
                 <span class="categoryTitle" title="How do I access my labs using a lab code without a user account?">How do I access my labs using a lab code without a user account?</span>
               </a>
             </div>
                <div class="category">
               <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-without-user-account.md" class="categoryThread">
-                <i class="material-icons green" aria-hidden="true">desktop_windows</i>
+                <i class="material-icons green" 
  title="Student Basics" aria-hidden="true">person</i>
                <span class="categoryTitle" title="How do I access and change my user profile?">How do I access and change my user profile?</span>
               </a>
@@ -41,7 +41,7 @@
             <div class="cardHeader" tabindex="0" title="Student Labs" aria-label="Student Docs for Labs">Labs</div>
             <div class="category">
               <a href="/tms/end-user-student-faqs/lab-access/cancel-lab.md" class="categoryThread">
-                <i class="material-icons green" aria-hidden="true">desktop_windows</i>
+                <i class="material-icons green"
                    title="Student Basics" aria-hidden="true">person</i>
                 <span class="categoryTitle" title="How do I launch, cancel, save and relaunch a lab?">How do I launch, cancel, save and relaunch a lab?</span>
               </a>
@@ -60,7 +60,7 @@
             <div class="cardHeader" tabindex="0" title="Student Classes and Self-Paced Learning" aria-label="Student Docs for Classes and Self-Paced Learning">Classes and Self-Paced Learning</div>
             <div class="category">
               <a href="/tms/end-user-student-faqs/class-self-paced/get-into-virtual-classroom.md" class="categoryThread">
-                <i class="material-icons light-green"
+                <i class="material-icons green"
  aria-hidden="true">assignment</i>
                 <span class="categoryTitle" title="How do I get into my virtual classroom?">How do I get into my virtual classroom?</span>
               </a>
@@ -74,7 +74,7 @@ aria-hidden="true">assignment</i>
             </div>
             <div class="category">
               <a href="/tms/end-user-student-faqs/class-self-paced/print-completion-certificate.md" class="categoryThread">
-                <i class="material-icons light-green"
+                <i class="material-icons green"
  aria-hidden="true">assignment</i>
                 <span class="categoryTitle" title="How do I print my completion certificate?">How do I print my completion certificate?</span>
               </a>
