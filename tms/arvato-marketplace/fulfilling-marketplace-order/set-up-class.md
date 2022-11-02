@@ -10,27 +10,35 @@ To give your students access to the labs you purchase in the Courseware Marketpl
 Skillable lab access is controlled by class start time. This allows you to set up the class with labs immediately after purchase, well in advance of the class starting. Students will not be able to access the labs until they are enrolled in the class and the class has started. Instructors can access the labs as soon as they are added as instructors to the class. You do not need to purchase labs for the instructors.
 >:small_orange_diamond: [View a video on setting up your class](https://youtu.be/a_O5-9GMwpg?list=PLoXguRLJE8rmUa3KXKJqebpN9cmTtEAdY) 
 
-To set up a class after a purchase:
+To set up a class after a purchase, open the Manage Class Vouchers page:
 1. On the **Admin** menu in the **Class Vouchers** group, click **Manage Class Vouchers**.
 
 ![](/tms/images/cwm-site-admin-class-vouchers5.png)
+
 *Tiles can be moved and may not be in the same order as pictured here.*
 
 
-> The Manage Class Vouchers page has the Available Vouchers and Create Class sections. Voucher use is tallied under the Available Vouchers section.
+> The Manage Class Vouchers page has the Available Vouchers and Create Class sections. Voucher use is tallied under the Available Vouchers section. If a warning icon appears beside the number of available vouchers, hovering your mouse will show the number of those vouchers that will expire within 30 days.
 
+![](/tms/images/expiring-vouchers.png)
+
+*Hover your mouse over the warning icon to see the number of vouchers expiring within 30 days.*
+
+On the Manage Class Vouchers page:
 1. Verify your vouchers show in the **Available** column. You cannot create classes until the vouchers show as available.
 1. Scroll to the **Create Class** section. In the **Course** field, if needed, click the dropdown to select the course for which you want to setup a class.
 1. Enter the number of students who will be enrolled in the class in the **Students** field. Since you may create multiple classes using the vouchers, this can be less than or equal to the number of vouchers that are available for the course.
 1. Click **Create Class**. This will take you to the Create Class page.
 
 ![](/tms/images/cwm-manage-vouchers.png)
+
 *Manage class vouchers page, select course and create your class.*
 
 From here you will enter the Class information:
 1. Confirm, and correct if necessary, the information displaying in the **Basic Information** section.
 
 ![](/tms/images/cwm-create-class-open-delivery.png)
+
 *Create class page, verify information in the Basic Information section.*
 
 1. To run the class virtually, follow the directions in this section. If you are running an in-person class skip to the Session Times section.
@@ -42,6 +50,7 @@ From here you will enter the Class information:
      For additional help finding specific meeting URLs [click here.](/tms/tms-administrators/classes/schedule/Integrate-Streaming-Provider.md)
 
 ![](/tms/images/cwm-add-virtual-classroom.png)
+
 *Create class page, add a virtual classroom.*
      
 2. Expand the **Session Times** section. This is where you will designate the days and times for the class.
@@ -53,11 +62,13 @@ From here you will enter the Class information:
      1. Click **OK**.
 
 ![](/tms/images/cwm-class-sessions.png)
+
 *Create class page, set up the times and dates of your class sessions.*
 
 3. Click **Save**. The Class profile page will open for the class you just created.
 
 ![](/tms/images/cwm-save-class3.png)
+
 *Create class page, save your class.*
 
 Instructors and students can be added later. 
