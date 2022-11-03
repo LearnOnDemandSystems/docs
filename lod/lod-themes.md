@@ -55,29 +55,29 @@ Below are some examples of customisation that can be performed.
 
 /*a controls the link color in, b controls the color of Bold text */
 
-a, b{
+.instructions a, b{
     color:#12eae7;
 }
 
 /* This section sets the colors of the header text */
 
-h1, h2, h3, h4, h5, h6{
+.instructions h1, h2, h3, h4, h5, h6{
     color: #1e377f;
 }
 
 /* This section controls the font to be used for the body */
-body{
+.instructions body{
 font-family: verdana;
 }
 
 /* This section will apply additional formating to any text that has the Strong tag applied */
 
-strong {
+.instructions strong {
     color: #12EAE7;
 }
 
 /* This section demonstrates putting a company logo at the top of the Instructions
-#header{
+.instructions #header{
     background-image: url(<full url to picture here>);
     background-repeat: no-repeat;
 	font-family: calibri;
@@ -86,13 +86,13 @@ strong {
 }
 */
 /* This section stops the lab name from being displayed.  This must be used if the logo above is used as they occupy the same screen area
-#labName{
+.instructions #labName{
     font-size: 0px;
 }
 */
 
 /* Allows settings to be applied to control the lab timer position, font, size, etc
-#timerWrapper{
+.instructions #timerWrapper{
   margin-left: 30%;
   margin-top: -4%;
   text-align: center;
@@ -101,7 +101,7 @@ strong {
 }
 */
 /* This sets the color of the TypeText.  Note class names like .typeText are case sensitive */
-.typeText{
+.instructions .typeText{
     color: #EA570F;
 }
 
@@ -109,25 +109,25 @@ strong {
 For example these settings control the underline thinkness and color when one of them is clicked
 */
 
-.tabHeading.selected{
+.instructions .tabHeading.selected{
 	border-bottom: 4px solid #12EAE7;
 }
 
 /* This section can be used to turn off various elements on the Help page
-.supportIcon {
+.instructions .supportIcon {
     display: none;
     }
 
-.supportChatIcon {
+.instructions .supportChatIcon {
     display: none;
     }
     
-.questionIcon {
+.instructions .questionIcon {
     display: none;
     } 
 */
 /* ensures elements like company names are not flagged as spelled incorrectly */
-.help 
+.instructions .help 
 {spellcheck:"false"}
 ```
 
