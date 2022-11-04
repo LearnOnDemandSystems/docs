@@ -242,3 +242,5 @@ The AMi can now be configured in a Skillable Studio  lab profile.
 1. Click **Save**. 
 
 The VM profile can now be added to a lab profile and launched in the lab. 
+
+>[!knowledge] Whenever a running lab profile is saved, the EC2 resources in AWS are suspended and do not continue to be billed. When the lab is resumed, billing will resume, the **EC2 instance will reboot** and then the EC2 resource will be available for use in the lab. 
