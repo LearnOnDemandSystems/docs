@@ -5,6 +5,7 @@ route,target
 /AccessControlPolicy/{AccessControlPolicyId},/lod/create-a-restriction-policy.md
 /AccessControlPolicy/Create,/lod/create-a-restriction-policy.md
 /AccessControlPolicy/Edit/{AccessControlPolicyId},/lod/create-a-restriction-policy.md
+/advisor?acr=b2c_1a_signup_signin_lod-acc,/lod/lab-advisor.md
 /advisor?acr=b2c_1a_signup_signin_lod-prod,/lod/lab-advisor.md
 /advisor/manager/edit/{recommendationId},/lod/lab-advisor.md
 /advisor/manager,/lod/lab-advisor.md
