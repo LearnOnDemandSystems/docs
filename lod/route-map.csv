@@ -5,6 +5,9 @@ route,target
 /AccessControlPolicy/{AccessControlPolicyId},/lod/create-a-restriction-policy.md
 /AccessControlPolicy/Create,/lod/create-a-restriction-policy.md
 /AccessControlPolicy/Edit/{AccessControlPolicyId},/lod/create-a-restriction-policy.md
+/advisor?acr=b2c_1a_signup_signin_lod-prod,/lod/lab-advisor.md
+/advisor/manager/edit/{recommendationId},/lod/lab-advisor.md
+/advisor/manager,/lod/lab-advisor.md
 /ApiConsumer/{apiConsumerId},/lod/lod-api/lod-api-main.md
 /ApiConsumer/Create,/lod/lod-api/lod-api-main.md
 /ApiConsumer/Edit/{apiConsumerId},/lod/lod-api/lod-api-main.md
@@ -40,4 +43,4 @@ route,target
 /Theme/Edit/{themeId},/lod/lod-themes.md
 /VirtualMachineProfile/{vmProfileId},/lod/vm-profiles.md
 /VirtualMachineProfile/Create,/lod/vm-profiles.md
-/VirtualMachineProfile/Edit/{vmProfileId},/lod/vm-profiles.md
+/VirtualMachineProfile/Edit/{vmProfileId},/lod/vm-profiles.md 
