@@ -1,5 +1,6 @@
 route,target
 /,/lod/home.md
+/AccessControlList/{accessControlListId},/lod/access-control-lists.md
 /AccessControlList/Create,/lod/access-control-lists.md
 /AccessControlList/Edit/{accessControlListId},/lod/access-control-lists.md
 /AccessControlPolicy/{AccessControlPolicyId},/lod/create-a-restriction-policy.md
