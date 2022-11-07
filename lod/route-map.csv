@@ -9,9 +9,9 @@ route,target
 /advisor?acr=b2c_1a_signup_signin_lod-prod,/lod/lab-advisor.md
 /advisor/manager/edit/{recommendationId},/lod/lab-advisor.md
 /advisor/manager,/lod/lab-advisor.md
-/ApiConsumer/{apiConsumerId},/lod/template-gallery.md
-/ApiConsumer/Create,/lod/template-gallery.md
-/ApiConsumer/Edit/{apiConsumerId},/lod/template-gallery.md
+/ApiConsumer/{apiConsumerId},https://connect.skillable.com/lab/overview/#section/Introduction-or-LAB-API
+/ApiConsumer/Create,https://connect.skillable.com/lab/overview/#section/Introduction-or-LAB-API
+/ApiConsumer/Edit/{apiConsumerId},https://connect.skillable.com/lab/overview/#section/Introduction-or-LAB-API
 /CloudCredentialPool,/lod/cloud-credential-pool.md
 /CloudCredentialPool/Create,/lod/cloud-credential-pool.md
 /CloudCredentialPool/Edit/{CloudCredentialPoolId},/lod/cloud-credential-pool.md
@@ -38,7 +38,7 @@ route,target
 /RemovableMedia/{removeableMediaId},/lod/create-removable-media.md
 /RemovableMedia/Create,/lod/create-removable-media.md
 /RemovableMedia/Edit/{removeableMediaId},/lod/create-removable-media.md
-/TemplateGallery,/lod/template-gallery.md
+/TemplateGallery#,/lod/template-gallery.md
 /Theme/{themeId},/lod/lod-themes.md
 /Theme/Create,/lod/lod-themes.md
 /Theme/Edit/{themeId},/lod/lod-themes.md
