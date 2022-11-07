@@ -38,7 +38,7 @@ route,target
 /RemovableMedia/{removeableMediaId},/lod/create-removable-media.md
 /RemovableMedia/Create,/lod/create-removable-media.md
 /RemovableMedia/Edit/{removeableMediaId},/lod/create-removable-media.md
-/TemplateGallery#,/lod/template-gallery.md
+/TemplateGallery,/lod/template-gallery.md
 /Theme/{themeId},/lod/lod-themes.md
 /Theme/Create,/lod/lod-themes.md
 /Theme/Edit/{themeId},/lod/lod-themes.md
