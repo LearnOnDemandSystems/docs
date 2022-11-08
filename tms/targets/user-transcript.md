@@ -8,7 +8,6 @@ The User Transcript page provides the student and others access to classes, cour
 
 - [How do I get into my virtual classroom?](../end-user-student-faqs/class-self-paced/get-into-virtual-classroom.md)
 - [How do I print my completion certificate?](../end-user-student-faqs/class-self-paced/print-completion-certificate.md)
-- [Why can't I find my completed labs?](../end-user-student-faqs/lab-access/access-completed-labs.md)
 
 ## Administrators
 
