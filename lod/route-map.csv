@@ -37,8 +37,7 @@ route,target
 /ContainerRegistry/{containerRegistryId},/lod/container-registries.md
 /ContainerRegistry/Create/{containerRegistryId},/lod/container-registries.md
 /ContainerRegistry/Edit/{containerRegistryId},/lod/container-registries.md
-/LabProfile,/lod/feature-focus/lab-profiles/create.md
-/LabProfile{labProfileId},/lod/feature-focus/lab-profiles/create.md
+/LabProfile/{labProfileId},/lod/feature-focus/lab-profiles/create.md
 /LabProfile/Create,/lod/feature-focus/lab-profiles/create.md
 /LabProfile/Edit/{labProfileId},/lod/feature-focus/lab-profiles/create.md
 /LabSeries,/lod/lab-series.md
