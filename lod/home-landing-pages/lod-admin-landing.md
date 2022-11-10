@@ -26,6 +26,10 @@
         <div class="subtopic_title">Cloud Credential Pools</div>
         <div class="subtopic_description">Overview and explanation of Cloud Credential Pools.</div>
       </a>
+      <a class="subtopic_link" href="/lod/datacenter-bandwidth.md">
+        <div class="subtopic_title">Datacenter Bandwidth Limits</div>
+        <div class="subtopic_description">Upload and download speeds in Skillable datacenters.</div>
+      </a>
       <a class="subtopic_link" href="/lod/lab-content-replication.md">
         <div class="subtopic_title">Lab Content Replication</div>
         <div class="subtopic_description">The expected amount of time for lab profile updates to replicate across available delivery regions.</div>
