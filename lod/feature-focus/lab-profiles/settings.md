@@ -4,7 +4,7 @@
 1. [Networks](#networks)
 1. [Virtual Machines](#virtual-machines)
 1. [Removable Media](#removable-media)
-1. [Cloud](#cloud)E
+1. [Cloud](#cloud)
 1. [Pre-Instancing](#pre-instancing)
 1. [Life Cycle](#life-cycle)
 1. [Availability](#availability)
