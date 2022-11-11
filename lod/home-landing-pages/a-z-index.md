@@ -154,6 +154,10 @@
         <div class="subtopic_title">Custom UUID on an ESX Virtual Machines</div>
         <div class="subtopic_description">Assign a custom unique ID to a virtual machine hosted on an ESX host.</div>
       </a>
+      <a class="subtopic_link" href="/lod/datacenter-bandwidth.md">
+        <div class="subtopic_title">Datacenter Bandwidth Limits</div>
+        <div class="subtopic_description">Upload and download speeds in Skillable datacenters.</div>
+      </a>
       <a class="subtopic_link" href="/lod/capture-differencing-disks.md">
         <div class="subtopic_title">Differencing Disk Capture</div>
         <div class="subtopic_description">Capture differencing disks from a running lab, to store changes made on the virtual machine in the lab.</div>
