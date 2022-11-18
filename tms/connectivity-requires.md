@@ -50,7 +50,7 @@ For those that need to create a firewall exception rule to allow connectivity to
   - learnondemandsystemsb2c.b2clogin.com
 
 - IP Range:
-  - 104.214.106.0/25, 206.196.30.001 - 206.196.30.056
+  - 104.214.106.0/25
   - 185.254.59.0/24
   - 103.18.85.0/24
   - 163.47.101.0/25
@@ -68,8 +68,6 @@ If specific IP addresses are required, use the following table as a guide for IP
 | --- | --- | --- |
 | labondemand.com | 104.214.106.31 |   |
 | lms.learnondemand.net | 13.66.39.88 |   |
-| tampa1.holsystems.com | 199.101.111.174 |   |
-| tpalabgateway.learnondemandsystems.com | 199.101.111.150 | 199.101.111.151 |
 | au-rds.au.learnondemandsystems.com | 103.18.85.2 |   |
 | console.au.learnondemandsystems.com | 103.18.85.8 |   |
 | rds01.eu.learnondemandsystems.com | 185.254.59.3 |   |
@@ -98,11 +96,11 @@ When connecting to our Skillable Training Management System (TMS) portals with a
 Software that communicates with remote servers outside of the lab environment may need addresses whitelisted with the vendor to work. The below address ranges are used by NAT internet access labs.
 
 - IP addresses/scopes: 185.254.56.125, 103.245.221.106
-- IP Ranges: 199.101.111.220 - 199.101.111.239, 163.47.101.118 - 163.47.101.126, 185.254.59.118 - 185.254.59.127, 103.18.85.29 - 103.18.85.30, 103.18.87.240 - 103.18.87.249
+- IP Ranges: 163.47.101.118 - 163.47.101.126, 185.254.59.118 - 185.254.59.127, 103.18.85.29 - 103.18.85.30, 103.18.87.240 - 103.18.87.249
 
 The below ranges are used by Public IP internet access labs.
 
-185.254.59.40 - 185.254.59.255, 185.254.58.0/24 185.254.57.0/24 168.245.200.0/23 168.245.202.0/23 128.136.160.9 - 128.136.160.254 103.18.85.21 - 103.18.85.254  199.101.111.05 - 199.101.111.254, 199.101.108.5 - 199.101.109.254, 103.8.28.0/24, 103.177.46.0/25, 206.196.30.15 - 206.196.30.252
+185.254.59.40 - 185.254.59.255, 185.254.58.0/24 185.254.57.0/24 168.245.200.0/23 168.245.202.0/23 103.18.85.21 - 103.18.85.254, 199.101.108.5 - 199.101.109.254, 103.8.28.0/24, 103.177.46.0/25, 103.177.47.0/24
 
 
 A CSV containing these ranges is available for use in automating any whitelist changes. It can be found [here](lods-whitelist-ips.csv).
