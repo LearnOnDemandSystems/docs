@@ -109,7 +109,7 @@ This role is the base role for lab development. It grants access to most lab dev
 
 ### Organization Lab Report Viewer
 This is a view-only role is intended for collecting data and viewing reports on lab activity within an Organization. **Organization Lab Report Viewers** can view the following:
-- [API](https://docs.skillable.com/lod/lod-api/lod-api-main.md) errors
+- [API](https://connect.skillable.com/) errors
 - Lab Instances
 - [Lab Profiles](https://docs.skillable.com/lod/feature-focus/lab-profiles/create.md)
 - Lab Profile statistics
@@ -155,7 +155,7 @@ Grants the ability to view and launch labs. These permissions are included in [O
 Grants the ability to view Lab Profiles and Lab Series. These permissions are included in [Organization Lab Developer](#organization-lab-developer), [Organization Lab Launcher](#organization-lab-launcher), and [Organization Lab Instance Report Viewer](#organization-lab-instance-report-viewer).
 
 ### Organization Lab Series Publisher
-Grants the ability to view and Publish Lab Series to [API Consumers](https://docs.skillable.com/lod/lod-api/lod-api-main.md).
+Grants the ability to view and Publish Lab Series to [API Consumers](https://connect.skillable.com/).
 
 ### Organization Template Gallery Management
 Grants the ability to publish Lab Profiles to the Organization [Template Gallery](https://docs.skillable.com/lod/template-gallery.md), and grants Lab Tag management. 

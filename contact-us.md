@@ -23,5 +23,5 @@ Please visit our [customer support page](https://skillable.com/customer-support/
 
 ## Integration
 
-Interested in integrating your system with Skillable Studio? Check out our [API](/lod/lod-api/lod-api-main.md).
+Interested in integrating your system with Skillable Studio? Check out our [API](https://connect.skillable.com/).
 

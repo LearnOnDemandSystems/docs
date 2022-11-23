@@ -250,7 +250,7 @@
         <div class="subtopic_title">Lab Network Restrictions</div>
         <div class="subtopic_description">Overview of the networks available to labs and any network restrictions.</div>
       </a>
-      <a class="subtopic_link" href="/lod/lod-api/lod-api-main.md">
+      <a class="subtopic_link" href="https://connect.skillable.com/">
         <div class="subtopic_title">Skillable Studio API Documentation</div>
         <div class="subtopic_description">Documentation on how and when to use the Skillable Studio API.</div>
       </a>
