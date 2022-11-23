@@ -197,23 +197,23 @@ For more information about the available languages and which versions are suppor
 
     ```Python
     //do stuff... all good
-    return true;
+    return True;
     ```
 
     ```Python
     //do stuff... uh oh
-    return false;
+    return False;
     ```
 - **Use setActivityResult**
 
     ```Python
     //do stuff... all good
-    setActivityResult(true);
+    setActivityResult(True);
     ```
 
     ```Python
     //do stuff... uh oh
-    setActivityResult(false);
+    setActivityResult(False);
     ```
 
     You can also report the result as a score %...
