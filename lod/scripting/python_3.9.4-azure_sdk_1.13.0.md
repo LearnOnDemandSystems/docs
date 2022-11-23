@@ -63,12 +63,12 @@ return False
 
 ```Python
 #do stuff... all good
-setActivityResult(correct=true)
+setActivityResult(correct=True)
 ```
 
 ```Python
 #do stuff... uh oh
-setActivityResult(correct=false)
+setActivityResult(correct=False)
 ```
 
 You can also report the result as a score...
