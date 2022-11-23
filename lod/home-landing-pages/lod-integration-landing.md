@@ -18,7 +18,7 @@
   <div class="subtopic selected">
     <div id="header_1" class="subtopic_header" tabindex="0" title="API Docs" role="button" aria-selected="true" selected>API</div>
     <div id="body_1" class="subtopic_links">
-      <a class="subtopic_link" href="/lod/lod-api/lod-api-main.md">
+      <a class="subtopic_link" href="https://connect.skillable.com/">
         <div class="subtopic_title">API Documentation</div>
         <div class="subtopic_description">Documentation on how and when to use the Skillable Studio API.</div>
       </a>
