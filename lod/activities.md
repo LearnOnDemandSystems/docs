@@ -1070,7 +1070,7 @@ To access this menu, simply click the **Activities Icon**
 > [bash-simple-explanation]:
 > **Binary**  (Simple Script (Pass/Fail) 
 >
-> This sample is gauging a file's size on the linux file system. If the file is less than 1000 bytes the user is successful, otherwise they are unsuccessful.
+> This sample is gauging a file's size on the Linux file system. If the file is less than 1000 bytes the user is successful, otherwise they are unsuccessful.
 
 > [bash-simple-code]:
 > ```Bash-linenums
