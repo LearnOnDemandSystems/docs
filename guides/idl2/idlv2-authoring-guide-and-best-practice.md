@@ -541,7 +541,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 - **External link**: Used to link to a page outside of the document.  
 
-    > \[text to display](url "optional link title)
+    > \[text to display](url "optional link title")
 
 - **Relative link**: used to link to a page in the same directory without the need to display the full URL of the page.
 
