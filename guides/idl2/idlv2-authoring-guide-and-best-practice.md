@@ -291,7 +291,7 @@ Your titles should be as concise as possible. The following are some best practi
 - Start with a verb
 - Use telegraphic style. Remove words, such as “a”, “an”, “the”, “is”
   or “are”, that are not required to convey accurate meaning. For
-  example, write “Verify account listed”, rather the “Verify account
+  example, write “Verify account listed”, rather than “Verify account
   is listed.”
 
 The following are some best practices for creating tasks:
