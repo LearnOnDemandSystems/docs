@@ -64,7 +64,7 @@ Send-LabNotification 'Hello from Azure CLI'
 
 ### Lab Variables
 
-Lab variables are always string name/value pairs. Variable values are scoped to the lab instances and become avaialble within the lab instructions as well as subsequent script executions. 
+Lab variables are always string name/value pairs. Variable values are scoped to the lab instances and become available within the lab instructions as well as subsequent script executions. 
 
 ```C#
 Set-LabVariable -Name 'firstName' -Value 'John'

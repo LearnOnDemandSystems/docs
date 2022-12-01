@@ -39,7 +39,7 @@ Another way you can separate thoughts/ideas from one another on the same page is
 
 ===
 
-## Integrating multimedia into a lab is a great technique to re-inforce learning
+## Integrating multimedia into a lab is a great technique to reinforce learning
 
 Screenshots or inline images encourage students by pointing them in the right direction. They can be embedded inline, like this:
 

@@ -247,7 +247,7 @@ After the lab has been scored, details about the lab including score results can
 
 4. Write instructions for your lab. If you have instructions that are specific to one language, you can use the codeLanguage variable like `:::sectionName(codeLanguage=c)` - this section will only be shown when the specified language is selected. 
     - This example has copyable lines that the student can paste into the code editor where they want.
-    - The second page has typetext which when clicked will replace everything in the code editor with a completed, working version of the code.
+    - The second page has TypeText which when clicked will replace everything in the code editor with a completed, working version of the code.
 
     ^[Example Leap Year Instructions - Click to expand!](code-lab-example.txt)
 

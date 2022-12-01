@@ -37,7 +37,7 @@ The algorithm to determine if a given year is a leap year:
 :::
 :::sectionName(codeLanguage=php)
 > [!HINT]
-> You can get the current year in php using 
+> You can get the current year in PHP using 
 >
 > ++date("Y");++
 :::

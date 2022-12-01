@@ -14,9 +14,9 @@ Deploying a Linux VM on Azure is quick and easy, using Resource Templates. To cr
 
     ![Create Resource Template](../cloud-slice/images/lod-create-cloud-resource-template.png)
 
-1. Enter ++linux-vm++ into the **Name** field on the **Basic Information** tab.
+1. Enter ++Linux-VM++ into the **Name** field on the **Basic Information** tab.
 
-1. Enter ++Deploys a linux virtual machine++ into the **Description** field on the **Basic Information** tab.
+1. Enter ++Deploys a Linux virtual machine++ into the **Description** field on the **Basic Information** tab.
 
 1. Select your organization, or the organization that will use this resource template.
 
