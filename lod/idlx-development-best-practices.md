@@ -350,7 +350,7 @@ In IDLx, you need to maintain a clean, easy-to-read document layout. You want to
 
     _Type text displayed in the UI_
 
--   In knowledge blocks, notes, alerts, and hintss, avoid the use of bold formatting. If you need to call out a specific item, use italics.
+-   In knowledge blocks, notes, alerts, and hints, avoid the use of bold formatting. If you need to call out a specific item, use italics.
 
 -   In IDLx, use one asterisk (\*) or an underscore on either side of the text to which you want to apply italic format. For example, *\_Item to format\_*.
 

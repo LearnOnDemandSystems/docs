@@ -89,7 +89,7 @@ Credentials can be moved from a Credential Pool, to another Credential Pool in S
 
 ### Edit Credentials 
 
-After credentials are added to a pool, they can be edited invididually if needed. Each credential property can be edited, and optionally an expiration date can be added. Additional credential properties can be added by editing the pool and selecting the Credential Properties tab. 
+After credentials are added to a pool, they can be edited individually if needed. Each credential property can be edited, and optionally an expiration date can be added. Additional credential properties can be added by editing the pool and selecting the Credential Properties tab. 
 
 1. Click **Edit** next to the credential that you wish to edit. 
 1. After changes are made to the credential, select **OK**.  

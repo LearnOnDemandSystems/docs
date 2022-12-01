@@ -1,6 +1,6 @@
 # How do I change my password?
 
-To change your password in Labondemand:
+To change your password in Skillable Studio:
 
 1. In the top right corner of any page, click on **your name** and select **View Account**.
 1. On your **User Profile** page, click **Change Password**. 

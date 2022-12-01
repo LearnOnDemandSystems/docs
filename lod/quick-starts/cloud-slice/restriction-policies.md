@@ -35,7 +35,7 @@ Restriction Policies are used to restrict what lab users can do, while working i
 |--|--|--|
 |**Basic Information**|**Name**|A name of your choosing.|
 ||**Description**|Describe the intentions and goals of the Restriction Policy.|
-||**Organizaton**|Select the organization that the Restriction Policy will be available to.|
+||**Organization**|Select the organization that the Restriction Policy will be available to.|
 ||**Restriction Policy**|Enter the Restriction Policy here, in JSON format.|
 ||**Enabled**|Check the box to enable this Restriction Policy for use.|
 

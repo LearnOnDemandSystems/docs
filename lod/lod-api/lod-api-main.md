@@ -6,6 +6,6 @@ isPublished: false
 
 # Skillable Studio API v3.0
 
-## Explore the API options for deliverying labs to your learners from our lab development platform. 
+## Explore the API options for delivering labs to your learners from our lab development platform. 
 
 ## Our Skillable Studio API documentation is now available at [Skillable Connect: Skillable Studio Edition](https://connect.skillable.com/lod/).

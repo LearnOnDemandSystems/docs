@@ -34,7 +34,7 @@ Skillable Studio supports using Docker Container Images in labs. Container image
 
     - **Run as User**: This optional value can be used to control the user account the container is run under. 
 
-    - **Entry Point**: Allows you to set or override the container's default entrypoint. `Example: /bin/bash`
+    - **Entry Point**: Allows you to set or override the container's default entry point. `Example: /bin/bash`
 
     - **Command**: Enter any commands that the container needs to function. If no commands are need, simply leave `bash` in the field. 
 

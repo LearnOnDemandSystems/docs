@@ -54,7 +54,7 @@ The table below lists the replacement tokens that are available to use in Skilla
    >|`@lab.Activity(Question1)`|Inserts activity Question1 into the instructions.|
    >|`@lab.LabInstance.Id`|The unique ID of the running lab instance.|
    >|`@lab.LabInstance.GlobalId`|The globally unique ID of the running lab instance.|
-   >|`@lab.LabInstance.StartDate`|The UTC start date of the running lab instance. Format: yyyyMMdd|
+   >|`@lab.LabInstance.StartDate`|The UTC start date of the running lab instance. Format: **yyyyMMdd**|
    >|`@lab.LabProfile.Id`|The unique ID of the lab profile.|
    >|`@lab.User.Id`|The unique ID of user running the lab.|
    >|`@lab.User.FirstName`|The first name of the user running the lab.|
