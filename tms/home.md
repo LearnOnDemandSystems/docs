@@ -216,7 +216,7 @@ aria-hidden="true">assignment</i>
     </div> 
     <div class="moreInfo"  tabindex="0" title="API Client">
       <span class="moreInfo_header">API Client</span>
-        We have written our API to allow us to add new response fields without clients making any updates. To ensure your API calls work consistently, write your API client implementation to ignore any fields you are not using in your code. This allows your implementation to be stable while the API is dynamic. To assist with this, review our <a href="https://www.nuget.org/packages/LearnOnDemandSystems.OneLearnTMS.OneLearnTMSAPIClient">client library</a> by right clicking and opening in a new tab, which adheres to our best practices.
+        We have written our API to allow us to add new response fields without clients making any updates. To ensure your API calls work consistently, write your API client implementation to ignore any fields you are not using in your code. This allows your implementation to be stable while the API is dynamic. To assist with this, review our <a href="https://www.nuget.org/packages/LearnOnDemandSystems.OneLearnTMS.OneLearnTMSAPIClient">client .NET API Library</a> by right clicking and opening in a new tab, which adheres to our best practices.
     </div>
     <div class="cardsContainer">
         <div class="cardContainer">
