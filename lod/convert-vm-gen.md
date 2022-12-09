@@ -36,7 +36,7 @@ isPublished: true
 
 1. Select **Commit my changes and update this lab profile**, and then select **Next**.
 
-    ![Commit Changes](images/commit-changes.png)
+    ![Commit Changes](images/commit-changes.png){600}
 
 1. In the Update Lab Profile window: 
     1. Check the box to **Capture disk changes**.
