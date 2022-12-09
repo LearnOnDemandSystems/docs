@@ -14,7 +14,7 @@ isPublished: true
   - [Hard Disks](#hard-disks)
     - [Add Differencing Disks](#add-differencing-disks)
   - [SCSI Adapters](#scsi-adapters)
-- [Attach New VM Prifle to Lab Profile](#attach-new-vm-prifle-to-lab-profile)
+- [Attach New VM Prifle to Lab Profile](#attach-new-vm-prifle-to-a-lab-profile)
 
 ## Capture Disk Changes
 
@@ -95,7 +95,7 @@ The last differencing disk will be the save you captured after running the `mbr2
 
     ![SCSI Adapters](images/scsi-adapters.png)
 
-## Attach New VM Prifle to Lab Profile 
+## Attach New VM Prifle to Lab a Profile 
 
 1. Navigate to the Lab Profile you would like to attach your new Gen 2 Hyper-V VM to. 
 1. Select the **Edit Settings link** on the top right corner of the page. 
