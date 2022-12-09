@@ -130,9 +130,13 @@
         <div class="subtopic_title">Container Registries</div>
         <div class="subtopic_description">Create custom container registries that are linked to an external registry. </div>
       </a> 
+      <a class="subtopic_link" href="/lod/convert-vm-gen.md">
+        <div class="subtopic_title">Convert a Generation 1 Hyper-V Virtual Machine to Generation 2</div>
+        <div class="subtopic_description">Convert a Generation 1 Hyper-V Virtual Machine to Generation 2 in Skillable Studio.</div>
+      </a> 
       <a class="subtopic_link" href="/lod/container-web-display.md">
         <div class="subtopic_title">Container Web Display</div>
-        <div class="subtopic_description">Display the output of an exposed container port in a web browser. </div>
+        <div class="subtopic_description">Display the output of an exposed container port in a web browser.</div>
       </a> 
       <a class="subtopic_link" href="/lod/create-cloud-subscription-pool.md">
         <div class="subtopic_title">Create a Cloud Subscription Pool</div>
