@@ -27,16 +27,16 @@ isPublished: true
     > mbr2gpt.exe /convert /allowFullOS
     > ```
 
-    ![Enter PowerShell Command](images/enter-powershell.png){800}
+    ![Enter PowerShell Command](images/enter-powershell.png){600}
 
 1. Once the command has finished, select the **Menu Icon** in the top right corner of the lab’s window.
 1. Select **Save**.
 
-    ![Select Save](images/select-save.png){800}
+    ![Select Save](images/select-save.png){600}
 
 1. Select **Commit my changes and update this lab profile**, and then select **Next**.
 
-    ![Commit Changes](images/commit-changes.png){800}
+    ![Commit Changes](images/commit-changes.png){600}
 
 1. In the Update Lab Profile window: 
     1. Check the box to **Capture disk changes**.
@@ -46,7 +46,7 @@ isPublished: true
     1. choose your storage location (Use Current is default).
     1. select **OK**.
 
-    ![Update Lab Profile Window](images/update-lab-profile-window.png){800}
+    ![Update Lab Profile Window](images/update-lab-profile-window.png){600}
 
 ## Create New Virtual Machine Profile 
 
@@ -56,14 +56,14 @@ isPublished: true
 
 1. In the Virtual Machines section, select **Create Virtual Machine**
 
-    ![Skillable Studio Admin](images/skillable-admin.png){800}
+    ![Skillable Studio Admin](images/skillable-admin.png){600}
 
 1. On the **Basic Information tab** of the Create Virtual Machine Profile page:
     1. Enter a **Name** for the VM. 
     1. On the Generation field, select Generation 2, and then specify any other settings you may want enabled.
     1. Select the Hard Disks tab.
 
-    ![VM Basic Info](images/vm-basic-info.png){800}
+    ![VM Basic Info](images/vm-basic-info.png){600}
 
 ### Hard Disks
 
@@ -74,7 +74,7 @@ On the Hard Disks tab of the Create Virtual Machine Profile page:
  
 >[!Knowledge] This will be the disk that contains the original file name **without** a hyphen followed by trailing numbers and additional hyphens before the _.vhdx_ filetype extension.
 
- ![Hard Disks Tab](images/hard-disks-tab.png){800}
+ ![Hard Disks Tab](images/hard-disks-tab.png){600}
 
 #### Add Differencing Disks 
 
@@ -86,14 +86,14 @@ Next, add each differencing disk one at a time, in sequential order (starting fr
 
 The last differencing disk will be the save you captured after running the `mbr2gpt` command, in previous steps.
 
-![Add Differencing Disks](images/add-vhds.png){800}
+![Add Differencing Disks](images/add-vhds.png){600}
 
 ### SCSI Adapters
 
 1. Select the SCSI tab to **ensure that a SCSI adapter is attached to the VM**. If an adapter is attached, select **+Add SCSI Adapter** to add one.
 1. Select **Save**, and **enter a note** to describe the changes that you are making to the **VM profile**.
 
-    ![SCSI Adapters](images/scsi-adapters.png){800}
+    ![SCSI Adapters](images/scsi-adapters.png){600}
 
 ## Attach New VM Prifle to Lab Profile 
 
@@ -106,14 +106,14 @@ In the Edit Lab Profile settings page:
  1. **(Optional)** Select the _X_ in the top right corner of the VM's card to remove unwanted VM(s).
  1. Select **+ Add Virtual Machines** in the bottom left corner.
 
-    ![Attach Gen2 VM to Lab Profile](images/attach-gen2vm-to-lab-profilie.png){800}
+    ![Attach Gen2 VM to Lab Profile](images/attach-gen2vm-to-lab-profilie.png){600}
 
 1. Search for the **Generation 2 VM you created in previous steps** and add it to the Lab Profile. 
 
 1. Select Save and leave a note to describe the changes that you are making to the **Lab Profile**.
 
-    ![Save Lab Profile](images/save-lab-profile.png){800}
+    ![Save Lab Profile](images/save-lab-profile.png){600}
 
-    ![Enter a note when saving a Lab Profile](images/save-lab-profile-leave-note.png){800}
+    ![Enter a note when saving a Lab Profile](images/save-lab-profile-leave-note.png){600}
 
 You will now be able to launch the lab containing a Generation 2 Hyper-V VM.
