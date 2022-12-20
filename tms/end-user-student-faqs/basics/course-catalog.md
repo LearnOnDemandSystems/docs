@@ -3,7 +3,7 @@ title: "How do I find courses and use the course catalog?"
 ispublished: true
 ---
 
-# How to find courses and use the course catalog
+# How do I find courses and use the course catalog
 
 Our Course catalog allows users to browse an organization’s available courses; having a catalog is the organization’s prerogative. The courses can be displayed in three different ways: Find Courses, Simple Course Catalog Version 1, and Simple Course Catalog Version 2. A **Courses** link may appear on the Navigation bar to open the course catalog, however, the name of the link can be changed based on an organization’s preference. 
 
