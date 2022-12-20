@@ -33,8 +33,10 @@
       <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/change-user-profile.md">
         <div class="subtopic_title">How do I access and change my user profile?</div>
       </a>
-      </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/upcoming-events-link.md">
+      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/course-catalog.md">
+        <div class="subtopic_title">How do I find courses and use the course catalog?</div>
+      </a> 
+        <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/upcoming-events-link.md">
         <div class="subtopic_title">What is the Upcoming Events link?</div>
       </a>
       <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/where-do-i-get-help.md">
