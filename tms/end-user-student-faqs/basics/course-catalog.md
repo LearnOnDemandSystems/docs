@@ -1,6 +1,6 @@
 ---
 title: "How do I find courses and use the course catalog?"
-ispublished: false
+ispublished: true
 ---
 
 # How to find courses and use the course catalog
