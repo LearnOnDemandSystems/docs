@@ -1,6 +1,6 @@
 ---
 title: "How do I manage the course catalog?"
-ispublished: false
+ispublished: true
 ---
 # How do I manage the course catalog?
 
@@ -10,18 +10,19 @@ Users can still view your available courses in the standard search format by acc
 Go here for information on viewing the [course catalog as a student.](/tms/end-user-student-faqs/basics/course-catalog.md)
 ### Article contents
 * [Catalog Features](#catalog-features)
-* [Common Catalog Features](#catalog-features)
-* [Show a course on the course catalog](#show-a-course-on-the-course-catalog)
-* [Anonymous access to course](#anonymous-access-to-course)
-* [Show icons for Featured, Coming Soon and New](#show-icons-for-featured,-coming-soon-and-new)
-  * [Featured icon](#featured-icon)
-  * [New icon](#new-icon)
-  * [Coming soon icon](#coming-soon-icon)
-* [Course feedback and ratings](#course-feedback-and-ratings)
-  * [Course feedback enabled by default](#course-feedback-enabled-by-default)
-  * [Course feedback enabled on a single course](#course-feedback-enabled-on-a-single-course)
-  * [Show ratings in course catalog](#show-ratings-in-course-catalog)
-* [Create custom filter headings and filters](#create-custom-filter-headings-and-filters)
+* [Features enabled by customer support](#features-enabled-by-customer-support)
+* [Features enabled by you](#features-enabled-by-you)
+  * [Show a course on the course catalog](#show-a-course-on-the-course-catalog)
+  * [Anonymous access to course](#anonymous-access-to-course)
+  * [Show icons for Featured, Coming Soon and New](#show-icons-for-featured-coming-soon-and-new)
+    * [Featured icon](#featured-icon)
+    * [New icon](#new-icon)
+    * [Coming soon icon](#coming-soon-icon)
+  * [Course feedback and ratings](#course-feedback-and-ratings)
+    * [Course feedback enabled by default](#course-feedback-enabled-by-default)
+    * [Course feedback enabled on a single course](#course-feedback-enabled-on-a-single-course)
+    * [Show ratings in course catalog](#show-ratings-in-course-catalog)
+  * [Create custom filter headings and filters](#create-custom-filter-headings-and-filters)
 * [Catalog Request Guide](#catalog-request-guide)
 
 ![](/tms/images/simple-course-cat-process.png)
@@ -34,7 +35,7 @@ Some components are available in all catalog versions, like access to the course
 
 [Return to Article contents](#article-contents)
 
-## Common catalog features
+## Features enabled by customer support
 There are features which you can select in either version to use to customize the catalog your organization. 
 
 These are features that can be enabled by our support team.
@@ -43,7 +44,8 @@ These are features that can be enabled by our support team.
 3.	**Add a catalog title** - Choose a title for your catalog, it can be up to 50 characters. Or if you prefer, it can be left without a title.
 4.	**Include course tags in export** - Make course tags available to be exported with catalog search results. Course tags are used to create filters in your catalog, enabling this allows users who export a search to see all the tags/filters which apply to those courses. 
 
-Here are features you control.
+## Features enabled by you
+The majority of features are ones that you can control and maintain.
 
 ### Show a course on the course catalog
 Each course your organization owns can be individually set to show on the course catalog. Or you may request our support team to have this enabled on each course you create, after it is enabled, all courses will default to show on the catalog.
@@ -214,7 +216,7 @@ _Simple course catalog version 2_
 
 ## Catalog Request Guide
 Send a request to [customer support](https://skillable.com/customer-support/), and include the following information.
-Selecting a version applies not only to the course catalog but applies the version style to the course catalog, subscription catalog, learning paths catalog and class browser. Which version: 
+Selecting a version applies not only to the course catalog but applies the version style to the course catalog, subscription catalog, learning paths catalog and class browser.  
 
 * **Course Catalogs Interface Version 1** 
 * **Course Catalogs Interface Version 2**
