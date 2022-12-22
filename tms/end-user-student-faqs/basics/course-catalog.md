@@ -22,7 +22,7 @@ Find courses displays as a standard search page. Some features include the abili
 _Find courses page_
 
 1.	**Add filter** - Click the **Add filter** field to display filtering options, click on the **filter** you wish to use and input any needed settings. Then click **Search** to refresh the results.
-2.	**Open**, **Save**, and **Remove All** - Reuse any search by clicking **Save** and **naming it**, then access it to use again from the **Open** link. **Remove All** clears all filters. [Click here for further instructions on saving searches]( tms/tms-administrators/tms-fundamentals/reuse-search-settings-or-create-default-settings-on-search-pages.md)
+2.	**Open**, **Save**, and **Remove All** - Reuse any search by clicking **Save** and **naming it**, then access it to use again from the **Open** link. **Remove All** clears all filters. [Click here for further instructions on saving searches](/tms/tms-administrators/tms-fundamentals/reuse-search-settings-or-create-default-settings-on-search-pages.md)
 3.	**Output Options** - Click **Output Options** to show choices to add as columns, click on the **column heading** you wish to add, then click **Search** to refresh the search results displaying your additions. Uncheck any Output Options you wish to remove and click search to make changes.
 4.	**Print** and **Export** - Send your search results to print or export into a CSV file by using the **Print** or **Export** links.
 5.	**Course name** and **Details** - Clicking the **Course name** or **Details** link opens the Course details page with more information about the course.
