@@ -39,7 +39,7 @@ The Simple course catalogs display as tiles showing a course graphic if one is a
 _Simple course catalog version 1_
 
 1.	**Custom course catalog title** – Displays a name at the top of the course catalog page. _optional feature_
-2.	**Open** and **Save** - Reuse any search by clicking **Save** and **naming it**, then access it to use again from the **Open** link. [Click here for further instructions on saving searches]( tms/tms-administrators/tms-fundamentals/reuse-search-settings-or-create-default-settings-on-search-pages.md)
+2.	**Open** and **Save** - Reuse any search by clicking **Save** and **naming it**, then access it to use again from the **Open** link. [Click here for further instructions on saving searches](/tms/tms-administrators/tms-fundamentals/reuse-search-settings-or-create-default-settings-on-search-pages.md)
 3.	**Export** and **Bookmarks** - Export your search results into a CSV file by using the **Export** link. **Bookmarks** displays all courses you have marked as a favorite by clicking the star.
 4.	**Search** - Use the word search to find courses; this searches the title and course description.
 5.	**Filters** - Toggle to show or hide the filter section.
@@ -83,7 +83,7 @@ _Simple course catalog version 2 grid view_
 8.	**Rating** - Displays the rating of the course based on users' reviews.
 9.	**Grid** and **List** - Toggles between showing the courses as tiles or as a list.
 10.	**Matches** and **per page** - Displays the number of courses that match your search inquiry. Per page shows the number of courses shown per page and allows you to adjust it. 
-11.	**Open saved filters**, **Save filter**, **Export results** - Reuse any search by clicking **Save filter** and **naming it**, then access it to use again from the **Open saved filters** link. Export your search results into a CSV file by using the **Export** link. [Click here for further instructions on saving searches]( tms/tms-administrators/tms-fundamentals/reuse-search-settings-or-create-default-settings-on-search-pages.md)
+11.	**Open saved filters**, **Save filter**, **Export results** - Reuse any search by clicking **Save filter** and **naming it**, then access it to use again from the **Open saved filters** link. Export your search results into a CSV file by using the **Export** link. [Click here for further instructions on saving searches](/tms/tms-administrators/tms-fundamentals/reuse-search-settings-or-create-default-settings-on-search-pages.md)
 
 ### Filters
 Filters in version 2 of our course catalog are effective and save screen space.
