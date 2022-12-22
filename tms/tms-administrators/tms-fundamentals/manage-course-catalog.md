@@ -208,7 +208,7 @@ _Simple course catalog version 2 filters_
 
 Here is a view of the Simple course catalog version 2 with features highlighted.
 
-![](/tms/images/version-2-catalog.png)
+![](/tms/images/version-2-catalog1.png)
 
 _Simple course catalog version 2_
 
