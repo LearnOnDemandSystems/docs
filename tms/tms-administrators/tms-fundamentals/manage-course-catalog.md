@@ -33,6 +33,8 @@ _Simple course catalog process chart_
 The article below describes standard and custom features that are available for you in your course catalog. Many features need to be customized through our [customer support page](https://skillable.com/customer-support/), others are available for you to set up yourself.
 Some components are available in all catalog versions, like access to the course details page, beginning or resuming self-paced training on a course available to you through a subscription or from a course assignment, adding a custom catalog name, focusing attention on courses through icons, such as, **New**, **Coming Soon** or **Featured**. Saving searches, exporting searches, and filtering are available in all versions of the catalog, however, filtering does evolve through the versions. Catalogs display as tiles showing a course graphic if one is available, icons to depict activities in the courses, and the ability to mark favorites. Filter headings and filters are custom created to allow searches.
 
+Version 2 of the course catalog tiles show the logo of the platform used in the labs, such as, Azure or AWS. This is automatically pulled from the lab activities which are built into the labs.
+
 [Return to Article contents](#article-contents)
 
 ## Features enabled by customer support
