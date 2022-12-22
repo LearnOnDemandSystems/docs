@@ -1,5 +1,6 @@
 ---
 title: "How do I find courses and use the course catalog?"
+details: "Explains how to use the course catalog to find the courses you are interested in. Fields are defined and searching with filters illustrated."
 ispublished: true
 ---
 
