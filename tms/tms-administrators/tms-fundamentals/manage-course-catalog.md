@@ -75,7 +75,7 @@ To set a course to allow anonymous access to your course catalog,
 3.	On the Advanced tab scroll to the check boxes toward the bottom of the page and click the box for **Allow Anonymous Access to Course Details Page**
 4.	**Save**
 
-[Return to features enabled by support team](#common-catalog-features)
+[Return to features enabled by support team](#features-enabled-by-customer-support)
 
 [Return to Article contents](#article-contents)
 
