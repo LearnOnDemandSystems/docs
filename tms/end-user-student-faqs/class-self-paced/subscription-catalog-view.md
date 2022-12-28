@@ -4,37 +4,31 @@ details: "Explains how to use subscription catalogs to find the courses you are 
 ispublished: false
 ---
 
-# How do I find courses and use the course catalog
+# How do I use a subscription catalog
 
-Our Course catalog allows users to browse an organization’s available courses; having a catalog is the organization’s prerogative. The courses can be displayed in three different ways: Find Courses, Simple Course Catalog Version 1, and Simple Course Catalog Version 2. A **Courses** link may appear on the Navigation bar to open the course catalog, however, the name of the link can be changed based on an organization’s preference. 
+Subscription catalogs allow users to browse and take courses available through their subscription, mark a course as a favorite to easily find again, search for specific courses, or take a set of courses on a specific topic through a learning path.
 
 ### Article contents
-* [Find Courses](#find-courses)
+* [Access your subscription](#access-your-subscription)
 * [Simple Course Catalogs Common Features](#simple-course-catalogs-common-features)
 * [Simple Course Catalog Version 1](#simple-course-catalog-version-1)
 * [Simple Course Catalog Version 2](#simple-course-catalog-version-2)
    * [Filters](#filters)
  
-## Find Courses
-Find courses displays as a standard search page. Some features include the ability to add a title to the page and output options add columns to the search results. A search for courses may be viewed in by accessing the organization profile; to do this, from any page click on the **organization name** link, then select the **Find Courses** link from the organization’s quick links bar.
+## Access your subscription
+
  
-![](/tms/images/course-cat-legacy.png)
+![](/tms/images/current-training-sub-profile.png)
 
-_Find courses page_
+_Open a subscription from your **My Training** page_
 
-1.	**Add filter** - Click the **Add filter** field to display filtering options, click on the **filter** you wish to use and input any needed settings. Then click **Search** to refresh the results.
-2.	**Open**, **Save**, and **Remove All** - Reuse any search by clicking **Save** and **naming it**, then access it to use again from the **Open** link. **Remove All** clears all filters. [Click here for further instructions on saving searches](/tms/tms-administrators/tms-fundamentals/reuse-search-settings-or-create-default-settings-on-search-pages.md)
-3.	**Output Options** - Click **Output Options** to show choices to add as columns, click on the **column heading** you wish to add, then click **Search** to refresh the search results displaying your additions. Uncheck any Output Options you wish to remove and click search to make changes.
-4.	**Print** and **Export** - Send your search results to print or export into a CSV file by using the **Print** or **Export** links.
-5.	**Course name** and **Details** - Clicking the **Course name** or **Details** link opens the Course details page with more information about the course.
+### Return to opened content
 
 [Return to Article contents](#article-contents)
 
-## Simple Course Catalogs Common Features
+## Subscription catalog features
 The Simple course catalogs display as tiles showing a course graphic if one is available, show icons to depict activities in the courses, and have the ability to mark favorites. Courses are shown in alphabetical order, however, any **Featured** courses show first. Filter categories and filters are custom created to allow searches.
 
-## Simple Course Catalog Version 1
- 
 ![](/tms/images/simple-course-catalog-v1.png)
 
 _Simple course catalog version 1_
