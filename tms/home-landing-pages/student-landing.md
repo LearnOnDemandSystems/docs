@@ -33,6 +33,8 @@
       <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/change-password.md">
         <div class="subtopic_title">How do I change my password?</div>
       </a>
+      </div>
+      </div/
   <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="General" role="button" aria-selected="false">Labs</div>
     <div class="subtopic_links">
