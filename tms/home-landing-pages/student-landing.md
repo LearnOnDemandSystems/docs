@@ -31,6 +31,7 @@
         <div class="subtopic_title">How can I reach someone for help?</div>
       </a>
     </div>
+    </div>  
   </div>
     <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="General" role="button" aria-selected="false">User Account</div>
@@ -51,6 +52,7 @@
         <div class="subtopic_title">How do I change my password?</div>
       </a>
       </div>
+    </div>
     </div>
   <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="Labs Docs" role="button" aria-selected="false">Labs</div>
@@ -74,6 +76,7 @@
         <div class="subtopic_title">Why does my lab expire within a week when I am supposed to have access to it for a longer time?</div>
       </a>
     </div>
+    </div>
   </div>
   <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="Classes and Self-Paced Learning Docs" role="button" aria-selected="false">Classes and Self-Paced Learning</div>
@@ -91,5 +94,6 @@
         <div class="subtopic_title">What is the Access Courseware or MS Learn Courseware button and how do I use it?</div>
       </a>
     </div>
+  </div>
   </div>
 
