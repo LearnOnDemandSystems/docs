@@ -120,3 +120,9 @@ Icons | Description
 [Return to Simple Course Catalog Version 2](#simple-course-catalog-version-2)
 
 [Return to Article contents](#article-contents)
+
+
+<!--search terms-->
+<div hidden>
+<b>course catalog</b>
+</div>
