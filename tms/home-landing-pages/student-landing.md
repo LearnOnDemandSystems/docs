@@ -91,7 +91,7 @@
         <div class="subtopic_title">How do I access my labs for a class without a lab code?</div>
       </a>
       <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/difference-between-lab-expiration-and-lab-access.md">
-        <div class="subtopic_title">Why does my lab expire within a week when I am supposed to have access to it for a longer time?</div>
+        <div class="subtopic_title">What do I need to know about lab access, lab expiration, and lab launch limits?</div>
       </a>
     </div>
     </div>
