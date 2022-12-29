@@ -21,7 +21,10 @@
                   <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/my-language.md">
         <div class="subtopic_title">How do I see the Skillable TMS in my language?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/course-catalog.md">
+      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/accept-badge.md">
+        <div class="subtopic_title">How do digital badges work?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/course-catalog.md">
         <div class="subtopic_title">How do I find courses and use the course catalog?</div>
       </a> 
         <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/upcoming-events-link.md">
