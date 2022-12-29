@@ -57,6 +57,9 @@
         <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/email-update.md">
         <div class="subtopic_title">How do I update or change my email address?</div>
       </a>
+        <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/wrong-org.md">
+        <div class="subtopic_title">What do I do if I have been assigned to the wrong training organization?</div>
+      </a>
        <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/forgot-password.md">
         <div class="subtopic_title">What do I do if I forgot my password?</div>
       </a>
