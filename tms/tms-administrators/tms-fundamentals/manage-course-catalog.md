@@ -232,3 +232,9 @@ Other features our support team can enable for you include:
 *	**Include course tags in export** - Make course tags available to be exported with catalog search results. Course tags are used to create filters in your catalog, enabling this allows users who export a search to see all the tags/filters which apply to those courses. 
 
 [Return to Article contents](#article-contents)
+
+<!--search terms-->
+<div hidden>
+<b>course catalog</b>
+</div>
+
