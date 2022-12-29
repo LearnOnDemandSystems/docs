@@ -105,14 +105,17 @@
          <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/wrong-user-acct.md">
         <div class="subtopic_title">Where is my training?</div>
       </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/class-self-paced/discussions.md">
-        <div class="subtopic_title">How do I participate in a discussion?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/class-self-paced/print-completion-certificate.md">
-        <div class="subtopic_title">How do I print my completion certificate?</div>
+        <a class="subtopic_link" href="/tms/end-user-student-faqs/class-self-paced/challenge-lab-failed.md">
+        <div class="subtopic_title">What do I do if my Challenge lab failed to launch?</div>
       </a>
       <a class="subtopic_link" href="/tms/end-user-student-faqs/class-self-paced/access-my-courseware.md">
         <div class="subtopic_title">What is the Access Courseware or MS Learn Courseware button and how do I use it?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/end-user-student-faqs/class-self-paced/print-completion-certificate.md">
+        <div class="subtopic_title">How do I print my completion certificate?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/end-user-student-faqs/class-self-paced/discussions.md">
+        <div class="subtopic_title">How do I participate in a discussion?</div>
       </a>
     </div>
   </div>
