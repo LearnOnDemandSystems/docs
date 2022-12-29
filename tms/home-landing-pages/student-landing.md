@@ -33,8 +33,9 @@
       <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/change-password.md">
         <div class="subtopic_title">How do I change my password?</div>
       </a>
-         <div class="subtopic_header" tabindex="0" title="Basics Docs" role="button" aria-selected="true" selected>General</div>
-    <div id="body_1" class="subtopic_links">
+  <div class="subtopic">
+    <div class="subtopic_header" tabindex="0" title="General" role="button" aria-selected="false">Labs</div>
+    <div class="subtopic_links">
         <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/my-language.md">
         <div class="subtopic_title">How do I see the Skillable TMS in my language?</div>
       </a>
