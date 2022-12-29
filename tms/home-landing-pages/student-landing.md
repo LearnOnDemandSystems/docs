@@ -51,6 +51,7 @@
         <div class="subtopic_title">How do I change my password?</div>
       </a>
       </div>
+        </div>
     </div>
   <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="Labs Docs" role="button" aria-selected="false">Labs</div>
