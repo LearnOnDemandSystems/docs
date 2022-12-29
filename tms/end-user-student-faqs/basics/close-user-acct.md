@@ -4,7 +4,7 @@ description: "You can close your user account and remove all personal data from 
 ispublished: true
 --- 
 
-# How can I close my user account?
+# How do I close my user account?
 
 You may close your user account to remove any personal information like your name, address, phone number, email addresses, from our TMS platform. Closing an account is a non reversible process. Once complete there is no chance of recovery of any material associated to the account, you can no loner access the account or any content. 
 
