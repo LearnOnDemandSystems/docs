@@ -34,7 +34,7 @@
         <div class="subtopic_title">How do I change my password?</div>
       </a>
       </div>
-      </div/
+    </div>
   <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="General" role="button" aria-selected="false">General</div>
     <div class="subtopic_links">
