@@ -45,6 +45,9 @@
         <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/wrong-user-acct.md">
         <div class="subtopic_title">Where is my training?</div>
       </a>
+         <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/close-user-acct.md">
+        <div class="subtopic_title">How do I close my user account?</div>
+      </a>
         <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/change-user-profile.md">
         <div class="subtopic_title">How do I access and change my user profile?</div>
       </a>
@@ -86,6 +89,9 @@
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/end-user-student-faqs/class-self-paced/get-into-virtual-classroom.md">
         <div class="subtopic_title">How do I get into my virtual classroom?</div>
+      </a>
+         <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/wrong-user-acct.md">
+        <div class="subtopic_title">Where is my training?</div>
       </a>
       <a class="subtopic_link" href="/tms/end-user-student-faqs/class-self-paced/discussions.md">
         <div class="subtopic_title">How do I participate in a discussion?</div>
