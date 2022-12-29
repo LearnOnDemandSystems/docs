@@ -16,9 +16,26 @@
 <div class="categoriesHeader" tabindex="0" title="Student Docs Container">Student</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-    <div class="subtopic_header" tabindex="0" title="Basics Docs" role="button" aria-selected="true" selected>User Account</div>
+    <div class="subtopic_header" tabindex="0" title="Basics Docs" role="button" aria-selected="true" selected>General</div>
           <div id="body_1" class="subtopic_links">
-              <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/dashboard.md"> 
+                  <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/my-language.md">
+        <div class="subtopic_title">How do I see the Skillable TMS in my language?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/course-catalog.md">
+        <div class="subtopic_title">How do I find courses and use the course catalog?</div>
+      </a> 
+        <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/upcoming-events-link.md">
+        <div class="subtopic_title">What is the Upcoming Events link?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/where-do-i-get-help.md">
+        <div class="subtopic_title">How can I reach someone for help?</div>
+      </a>
+    </div>
+  </div>
+    <div class="subtopic">
+    <div class="subtopic_header" tabindex="0" title="General" role="button" aria-selected="false">User Account</div>
+    <div class="subtopic_links">
+        <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/dashboard.md"> 
         <div class="subtopic_title">How do I use the student dashboard?</div>
       </a>
         <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/wrong-user-acct.md">
@@ -35,23 +52,6 @@
       </a>
       </div>
     </div>
-  <div class="subtopic">
-    <div class="subtopic_header" tabindex="0" title="General" role="button" aria-selected="false">General</div>
-    <div class="subtopic_links">
-        <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/my-language.md">
-        <div class="subtopic_title">How do I see the Skillable TMS in my language?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/course-catalog.md">
-        <div class="subtopic_title">How do I find courses and use the course catalog?</div>
-      </a> 
-        <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/upcoming-events-link.md">
-        <div class="subtopic_title">What is the Upcoming Events link?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/where-do-i-get-help.md">
-        <div class="subtopic_title">How can I reach someone for help?</div>
-      </a>
-    </div>
-  </div>
   <div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="Labs Docs" role="button" aria-selected="false">Labs</div>
     <div class="subtopic_links">
