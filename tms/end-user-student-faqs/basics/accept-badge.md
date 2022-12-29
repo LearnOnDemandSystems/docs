@@ -6,7 +6,7 @@ ispublished: true
 
 # How do digital badges work? 
 
-Digital badges are online representations of your achievements. Challenge Labs digital badges provide increased value by enabling interested parties to view and learn more about the credentials with a single-click.  
+Digital badges are handed out to acknowledge your accomplishments, which may be completing a lab, a course or a set of courses. These are online representations of your achievements. Challenge Labs digital badges provide increased value by enabling interested parties to view and learn more about the credentials with a single-click.  
 
 ### Article contents
 * [One click verification](#one-click-verification)
