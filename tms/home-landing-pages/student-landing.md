@@ -51,6 +51,9 @@
         <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/change-user-profile.md">
         <div class="subtopic_title">How do I access and change my user profile?</div>
       </a>
+        <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/name-change.md">
+        <div class="subtopic_title">How do I change my name on my user account?</div>
+      </a>
         <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/email-update.md">
         <div class="subtopic_title">How do I update or change my email address?</div>
       </a>
