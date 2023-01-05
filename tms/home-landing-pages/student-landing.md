@@ -25,7 +25,7 @@
         <div class="subtopic_title">How do digital badges work?</div>
       </a>
         <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/access-denied.md">
-        <div class="subtopic_title">What do I do if I am getting an **Access Denied** message?</div>
+        <div class="subtopic_title">What do I do if I am getting an Access Denied message?</div>
       </a>
         <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/course-catalog.md">
         <div class="subtopic_title">How do I find courses and use the course catalog?</div>
