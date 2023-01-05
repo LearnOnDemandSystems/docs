@@ -85,31 +85,22 @@ aria-hidden="true">assignment</i>
        </div>
       <!-- -- End student categories section -->
     </div>
-   </div>
+   </div> 
    <div class="instructorCategory userTypeSection">
   <!-- Begin instructor categories section.. -->
-        <div class="categoriesHeader" tabindex="0" title="Featured Posts" aria-label="Featured Admin Docs">Featured</div>
-    <div class="cardContainerFull">
-      <div class="cardContent">
-          <div class="category">
-          <a href="/tms/instructors/general/instructordashboard.md" class="categoryThread">
-            <i class="material-icons green" aria-hidden="true">bookmarks</i>
-            <span class="categoryTitleFeatured" title="What is the Instructor Dashboard?">What is the Instructor Dashboard?</span>
-            <span class="categoryDescription">Find out how to use the Instructor Dashboard for quick access to your class, virtual classroom, labs you've been working on and a view of your upcoming classes.</span>
-          </a>
-        </div>
-        <div class="cardsContainer">
          <div class="cardContainer">
           <!-- Begin categories section.. -->
           <div class="cloudSlice cardContent">
-          <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Instructor General">General</div>
+          <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Featured Instructor General Docs">Featured</div>
           <div class="category">
           <a href="/tms/instructors/general/instructordashboard.md" class="categoryThread">
             <i class="material-icons green" 
- aria-hidden="true">supervised_user_circle</i>
-            <span class="categoryTitle" title="What is the Instructor Dashboard?">What is the Instructor Dashboard?</span>
+ title="Student Basics" aria-hidden="true">supervised_user_circle</i>
+            <span class="categoryTitleFeatured" title="What is the Instructor Dashboard?">What is the Instructor Dashboard?</span>
           </a>
         </div>
+         <div class="cloudSlice cardContent">
+          <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Featured Instructor General Docs">General</div>
           <div class="category">
           <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
             <i class="material-icons green" 
@@ -192,6 +183,7 @@ aria-hidden="true">assignment</i>
     <!-- -- End instructor categories section -->
   </div>
  </div>
+  </div>
   <div class="administratorCategory userTypeSection">
     <!-- Begin administrator categories section.. -->
   <div class="categoriesHeader" tabindex="0" title="Featured Posts" aria-label="Featured Admin Docs">Featured</div>
