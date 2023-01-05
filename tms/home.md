@@ -86,13 +86,18 @@ aria-hidden="true">assignment</i>
       <!-- -- End student categories section -->
     </div>
    </div>
-    <div class="cardContainer">
    <div class="instructorCategory userTypeSection">
   <!-- Begin instructor categories section.. -->
-        <div class="moreInfo" tabindex="0" title="Featured">
-      <span class="moreInfo_header">Featured</span>
-     <a href="/tms/instructors/general/instructordashboard.md">What is the Instructor Dashboard?</a> 
-        </div>   
+        <div class="categoriesHeader" tabindex="0" title="Featured Posts" aria-label="Featured Admin Docs">Featured</div>
+    <div class="cardContainerFull">
+      <div class="cardContent">
+          <div class="category">
+          <a href="/tms/instructors/general/instructordashboard.md" class="categoryThread">
+            <i class="material-icons green" aria-hidden="true">bookmarks</i>
+            <span class="categoryTitleFeatured" title="What is the Instructor Dashboard?">What is the Instructor Dashboard?</span>
+            <span class="categoryDescription">Find out how to use the Instructor Dashboard for quick access to your class, virtual classroom, labs you've been working on and a view of your upcoming classes.</span>
+          </a>
+        </div>
         <div class="cardsContainer">
          <div class="cardContainer">
           <!-- Begin categories section.. -->
