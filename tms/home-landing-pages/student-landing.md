@@ -36,6 +36,9 @@
       <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/where-do-i-get-help.md">
         <div class="subtopic_title">How can I reach someone for help?</div>
       </a>
+      <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/refund.md">
+        <div class="subtopic_title">How do I receive a refund?</div>
+      </a>
     </div>
     </div>  
   </div>
