@@ -86,21 +86,25 @@ aria-hidden="true">assignment</i>
       <!-- -- End student categories section -->
     </div>
    </div>
+    <div class="cardContainer">
    <div class="instructorCategory userTypeSection">
   <!-- Begin instructor categories section.. -->
+        <div class="moreInfo" tabindex="0" title="Featured">
+      <span class="moreInfo_header">Featured</span>
+     <a href="/tms/instructors/general/instructordashboard.md">What is the Instructor Dashboard?</a> 
+        </div>   
+        <div class="cardsContainer">
          <div class="cardContainer">
           <!-- Begin categories section.. -->
           <div class="cloudSlice cardContent">
-          <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Featured Instructor General Docs">Featured</div>
+          <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Instructor General">General</div>
           <div class="category">
           <a href="/tms/instructors/general/instructordashboard.md" class="categoryThread">
             <i class="material-icons green" 
- title="Student Basics" aria-hidden="true">supervised_user_circle</i>
-            <span class="categoryTitleFeatured" title="What is the Instructor Dashboard?">What is the Instructor Dashboard?</span>
+ aria-hidden="true">supervised_user_circle</i>
+            <span class="categoryTitle" title="What is the Instructor Dashboard?">What is the Instructor Dashboard?</span>
           </a>
         </div>
-         <div class="cloudSlice cardContent">
-          <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Featured Instructor General Docs">General</div>
           <div class="category">
           <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
             <i class="material-icons green" 
