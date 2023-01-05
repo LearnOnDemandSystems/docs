@@ -81,6 +81,9 @@
         <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/keyboard-accessibility.md">
         <div class="subtopic_title">Are labs keyboard accessible?</div>
       </a>
+        <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/no-launch-button.md">
+        <div class="subtopic_title">Why isn't a launch button showing for my lab?</div>
+        </a>
       <a class="subtopic_link" href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-without-user-account.md">
         <div class="subtopic_title">How do I access my labs using a lab code without a user account?</div>
       </a>
