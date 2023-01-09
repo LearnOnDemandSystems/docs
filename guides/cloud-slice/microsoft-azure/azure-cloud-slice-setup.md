@@ -63,7 +63,7 @@ To enable Cloud Slice support, you must perform the following tasks for each ten
 
 1. Follow the prompts presented by the terminal and input the information it requests.
     
-    > [NOTE] When asking you which subscriptions to use, input the number from the "number" column in the subscription list to select which subscription(s) to configure.
+    > [!note] When asking you which subscriptions to use, input the number from the "number" column in the subscription list to select which subscription(s) to configure.
     >
     > Leave the field blank and press enter to proceed with setup, reset selections, or exit setup.
     
