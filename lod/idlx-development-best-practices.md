@@ -370,13 +370,13 @@ IDLx provides you with a series of variables that all begin with \@lab. These ca
 
 ### Define and use a variable
 
-Variables are used to store information that is not known when you write your lab. Variables use two replacement tokens: **\@lab.textbox(name)** and **\@lab.Variable(name)**.
+Variables are used to store information that is not known when you write your lab. Variables use two replacement tokens: **\@lab.TextBox(name)** and **\@lab.Variable(name)**.
 
--   Use **\@lab.texbox(name)** to define the variable in the parentheses.
+-   Use **\@lab.TextBox(name)** to define the variable in the parentheses.
 
 -   Use **\@lab.Variable(name)** to recall the information stored in the variable.
 
-- In the following example, you create a variable using \@lab.textbox(studentPassword) and then ask the user to record a password in the text box.
+- In the following example, you create a variable using \@lab.TextBox(studentPassword) and then ask the user to record a password in the text box.
 
     ![](images/image31.png) 
 
