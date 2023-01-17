@@ -215,8 +215,6 @@ aria-hidden="true">assignment</i>
         <div class="viewAll"><a tabindex="0" class="viewAllLink" title="View all" href="/tms/home-landing-pages/admin-featured-landing.md" aria-label="View all Featured Docs for Admins">View all</a></div>
       </div>
     </div> 
-    <div class="moreInfo"  tabindex="0" title="API Client">
-    </div>
     <div class="cardsContainer">
         <div class="cardContainer">
               <!-- Begin categories section.. -->
