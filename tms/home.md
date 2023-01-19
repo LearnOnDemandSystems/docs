@@ -192,7 +192,7 @@ aria-hidden="true">assignment</i>
           <div class="category">
           <a href="/tms/tms-administrators/classes/virtual-meetings/integratevirtualmeetingprovider.md" class="categoryThread">
             <i class="material-icons green" aria-hidden="true">bookmarks</i>
-            <span class="categoryTitleFeatured" title="How does my Virtual Meeting Provider integrate with the TMS?">How does my Virtual Meeting Provider integrate with the Skillable TMS?</span>
+            <span class="categoryTitleFeatured" title="How does my Virtual Meeting Provider integrate with the TMS?">How do I use my Virtual Meeting Provider for a Skillable TMS class?</span>
             <span class="categoryDescription">Find out how to integrate your virtual meeting provider into a Skillable TMS class giving your students and instructor one place to connect, launch their labs and course activities.</span>
           </a>
         </div>
@@ -200,7 +200,7 @@ aria-hidden="true">assignment</i>
           <a href="/tms/tms-administrators/badges-achievements/badge-process.md" class="categoryThread">
             <i class="material-icons light-green"
  aria-hidden="true">bookmarks</i>
-            <span class="categoryTitleFeatured" title="What is involved in creating external badges?">What is involved in creating external badges?</span>
+            <span class="categoryTitleFeatured" title="How do I use badges to award my user's achievements?">What is involved in creating external badges?</span>
             <span class="categoryDescription">Your student can now earn externally supported badges through their achievements in the Skillable TMS.</span>
           </a>
         </div>
