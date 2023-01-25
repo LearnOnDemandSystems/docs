@@ -78,7 +78,7 @@ A lab launch may take anywhere from a few seconds to a couple of minutes to full
 
 ![](images/idl2-lab-ready.png "Your lab is ready!")
 
-Clicking **_Get Started_** will open close that window and open the lab client. The lab client will open in two separate windows for labs that do not include managed virtual machines, or in a single window for labs that do include managed virtual machines. In both cases, the student experience is provided in two parts: the resource portal (where users work with virtual machines, cloud resources, etc.) and the lab instructions. You can see these in a single window in the [Overview of the Lab Client](#overview-of-the-lab-client).
+Selecting **_Get Started_** will open close that window and open the lab client. The lab client will open in two separate windows for labs that do not include managed virtual machines, or in a single window for labs that do include managed virtual machines. In both cases, the student experience is provided in two parts: the resource portal (where users work with virtual machines, cloud resources, etc.) and the lab instructions. You can see these in a single window in the [Overview of the Lab Client](#overview-of-the-lab-client).
 
 ### Advertising Campaigns and Introductory Content
 
@@ -134,7 +134,7 @@ Adjacent to the Instructions tab in the **Lab Console** are two additional tabs:
 
 The Help tab allows users to change the theme of the Lab Client, or change the Machine Remote Controller (if the lab has managed VMs). It also provides users with the ID of their lab instance along with other relevant details (depending on the type of lab launched), and links to view a FAQ, submit a support request, or report a bug.
 
-The larger pane on the left side of the client is known as the **Resource Portal**. This window will show users whatever resource they are currently viewing in the lab. Resources shown may be cloud portals, managed virtual machine desktops, videos, images, or any URL that you want displayed in the **Resource Portal**. Users can change what is shown in the portal by clicking on the resource in the Resources tab in the **Lab Console**, or they can click in links in the instructions to change what is shown in the portal if the author included links to do so using Markdown syntax (discussed later in this guide).
+The larger pane on the left side of the client is known as the **Resource Portal**. This window will show users whatever resource they are currently viewing in the lab. Resources shown may be cloud portals, managed virtual machine desktops, videos, images, or any URL that you want displayed in the **Resource Portal**. Users can change what is shown in the portal by selecting the resource in the Resources tab in the **Lab Console**, or they can select links in the instructions to change what is shown in the portal if the author included links to do so using Markdown syntax (discussed later in this guide).
 
 ### Separating the Lab console from the Resource Portal (two windows)
 
@@ -142,29 +142,29 @@ If you are using multiple monitors, or wish to only see the Resource Portal wind
 
 To split the lab into two windows:
 
-1. Click the **menu in the upper-right corner** of the lab.
-1. Click **Split Windows**.  
+1. Select the **menu in the upper-right corner** of the lab.
+1. Select **Split Windows**.  
 
 ![](images/split-windows.png)
 
 To join the two windows back into a single window:
 
 1. On the **Resource Portal** (instructions) window,
-1. Click **Join Windows**.
+1. Select **Join Windows**.
 
 ![](images/join-windows.png)
 
 ### Edit Instructions
 
-Once the IDLx client experience is enabled, you are now able to edit the lab instructions. When the Edit Instructions button is clicked, this checks out the lab manual. Checking out the lab manual ensures that only you are able to edit lab instructions, and if another author attempts to edit the lab instructions while you are actively editing the lab instructions, the lab instruction editor will simply open in read-only mode. After you are done editing the lab instructions, close the the instructions editor, and the lab manual will be checked in automatically. Once the lab manual is checked in, another author will be able to edit the lab instructions.  
+Once the IDLx client experience is enabled, you are now able to edit the lab instructions. When the Edit Instructions button is selected, this checks out the lab manual. Checking out the lab manual ensures that only you are able to edit lab instructions, and if another author attempts to edit the lab instructions while you are actively editing the lab instructions, the lab instruction editor will simply open in read-only mode. After you are done editing the lab instructions, close the the instructions editor, and the lab manual will be checked in automatically. Once the lab manual is checked in, another author will be able to edit the lab instructions.  
 
-To begin editing lab instructions, while viewing a lab profile, click **Edit Instructions** in the upper-right corner, to open the instruction editor, as shown below. This will open a new window with a markdown editor on the left and a preview pane on the right. This gives you the ability to create lab instructions, and see a live preview of how they will be displayed to the user during the lab.
+To begin editing lab instructions, while viewing a lab profile, select **Edit Instructions** in the upper-right corner, to open the instruction editor, as shown below. This will open a new window with a markdown editor on the left and a preview pane on the right. This gives you the ability to create lab instructions, and see a live preview of how they will be displayed to the user during the lab.
 
 ![](images/edit-instructions.png "Edit Instructions")
 
 When you edit instructions this way, no lab resources are provisioned/launched. You are simply editing the instructions in the lab.
 
-You can also edit lab instructions while you have a lab launched, with real-time updates to your instructions so that you can edit and test at the same time. To do this, launch a lab that uses the IDLx Client. Once the lab has launched, on the top right of the User Console is a button with three bars. Click on this to open a menu,and select Edit Instructions. All changes you make to your instructions will be immediately reflected in your currently running lab.
+You can also edit lab instructions while you have a lab launched, with real-time updates to your instructions so that you can edit and test at the same time. To do this, launch a lab that uses the IDLx Client. Once the lab has launched, on the top right of the User Console is a button with three bars. Select this to open a menu,and select Edit Instructions. All changes you make to your instructions will be immediately reflected in your currently running lab.
 
 ## Authoring Lab Instructions
 
@@ -172,11 +172,11 @@ All instructions are authored in Markdown. Markdown allows for easy plain-text a
 
 ### Using the Lab Instruction Editor
 
-The image below shows what will be seen after clicking **Edit instructions**, as discussed in the previous section. This text editor is where all of the lab content is written and stored. The left side of the editor shows the raw syntax of the lab content, whereas the right side shows how the lab content will be rendered and displayed to users.
+The image below shows what will be seen after selecting **Edit instructions**, as discussed in the previous section. This text editor is where all of the lab content is written and stored. The left side of the editor shows the raw syntax of the lab content, whereas the right side shows how the lab content will be rendered and displayed to users.
 
 ![](images/idl2-text-editor.png "IDL 2 Instruction Editor")
 
-- **Disk icon:** Click to save current progress; this is not necessary if autosave is enabled.
+- **Disk icon:** Select to save current progress; this is not necessary if autosave is enabled.
 - **&commat;lab menu:** 
     - **Replacement Tokens**: Replacement Tokens are used to create a placeholder for dynamic text that will be added to the lab when it is launched. This is helpful if you do not know the information at the time of authoring the lab, but would like specific information to be inserted later when the user is in the lab. Examples of this are usernames, passwords, unique ID numbers, etc.
     - **Variables**:  Used to store information that is not known at the time of lab authoring. Variables are created with a Name/Value pair and are inserted into lab instructions with a replacement token. 
@@ -195,7 +195,7 @@ The image below shows what will be seen after clicking **Edit instructions**, as
     - Preview zoom: adjusts the zoom level on the preview pane of the instruction editor. 
     - Track Task Progress: enables the percentage of completed tasks to be reflected on the lab instance page, as well as the class page if the lab is part of an active class. 
     - Auto-check previous tasks: when this is enabled and a task is completed, all previous tasks will be automatically checked. 
-- **Markdown Help:** displays common Markdown syntax, used for reference while writing lab instructions. Clicking the *Learn More* button will display more information that may be helpful with authoring your lab. 
+- **Markdown Help:** displays common Markdown syntax, used for reference while writing lab instructions. Selecting the *Learn More* button will display more information that may be helpful with authoring your lab. 
 
 ### Regex Tips
 
@@ -230,12 +230,12 @@ For example, a basic expression list to allow access (if placed in the whitelist
 
 Media and documents can be uploaded and inserted into lab instructions. 
 
-1. Click the **Upload** icon in the lab editor toolbar
+1. Select **Upload** icon in the lab editor toolbar
 
     ![Upload Button](images/upload-button.png)
 
-1. A **Dialog** will appear that allows you to add files by **dragging them into the lab instructions window** or by clicking the **Choose Files** button, as well as some additional options:
-    - **Display Inline** or **As a link**: Inline will **render the image with lab instructions**, As a link **provides a link** that the user can click, to view the image in a new window.
+1. A **Dialog** will appear that allows you to add files by **dragging them into the lab instructions window** or by select`ing the **Choose Files** button, as well as some additional options:
+    - **Display Inline** or **As a link**: Inline will **render the image with lab instructions**, As a link **provides a link** that the user can select, to view the image in a new window.
     - **Overwrite existing files**: choosing this option will **overwrite files with the same file name**, that are currently saved in Skillable Studio. This is useful when the wrong file gets uploaded and needs to be replaced with the correct file. 
 
 ![](images/drag-and-drop-screenshots.png)
@@ -274,7 +274,7 @@ The Objective is used to provide specific information about the lab. It should i
 
 #### Completion message
 
-A completion message provides a brief summary and congratulatory message to the lab user. This is accomplished by creating a dedicated page in the lab instructions, using Markdown. This should be the last or next to last section in the lab. As a best practice, you should indicate that the user should click Continue to proceed to next page.
+A completion message provides a brief summary and congratulatory message to the lab user. This is accomplished by creating a dedicated page in the lab instructions, using Markdown. This should be the last or next to last section in the lab. As a best practice, you should indicate that the user should select Continue to proceed to next page.
 
 #### Lab Instruction Placement
 
@@ -297,15 +297,15 @@ Your titles should be as concise as possible. The following are some best practi
 The following are some best practices for creating tasks:
 
 - Avoid creating a single task for actions such as completing wizards that use multiple screens. Try to limit tasks to actions performed in single screens, pages, or dialog boxes.
-- If the task requires users to type in a long command or series of commands, place the commands in Command syntax or a Code Block. In the task, ask users to click the Command button that is generated by the Command syntax or clicking the code block. Clicking these items in the lab instructions will copy to the user's local clipboard, so they can past into the appropriate section of the lab.  
+- If the task requires users to type in a long command or series of commands, place the commands in Command syntax or a Code Block. In the task, ask users to select the Command button that is generated by the Command syntax or selecting the code block. Selecting these items in the lab instructions will copy to the user's local clipboard, so they can past into the appropriate section of the lab.  
 - Use bolding to: 
     - Emphasize the user interface elements the user interacts with,
-    - Highlight what the user types into a field or clicks.
+    - Highlight what the user types into a field or selects.
       For example, “Type **Passw0rd!**” or “Click **Submit**.” 
 
 #### Screenshots
 
-Screenshots add clarity by providing a visual representation of what a completed task should look like. Screenshots are also beneficial for people who are visual learners or do not speak the authored language as their first language. This helps to mitigate the risk of configuration errors. When the user clicks the screenshot in the lab instructions, it will open in a new window, at full resolution. Opening the screenshot in a new window is useful if the screenshot is large and may obstruct the view of the lab. If the screenshot is particularly important or noteworthy, students can save or bookmark the URL of the image for later use.
+Screenshots add clarity by providing a visual representation of what a completed task should look like. Screenshots are also beneficial for people who are visual learners or do not speak the authored language as their first language. This helps to mitigate the risk of configuration errors. When the user selects the screenshot in the lab instructions, it will open in a new window, at full resolution. Opening the screenshot in a new window is useful if the screenshot is large and may obstruct the view of the lab. If the screenshot is particularly important or noteworthy, students can save or bookmark the URL of the image for later use.
 
 To create a screenshot:
 
@@ -313,19 +313,19 @@ To create a screenshot:
 
 1. **Launch** the lab.
 
-1. Click the **menu** button in the upper-right corner of the lab UI.
+1. Select the **menu** button in the upper-right corner of the lab UI.
 
-1. Click **Edit instructions**.
+1. Select **Edit instructions**.
 
 1. When the new window opens, place the mouse cursor where the screenshot will go in the lab instructions.
 
 1. Adjust the size of the Resource Portal, as well as the placement any windows in the Resource Portal, before taking the screenshot. 
 
-1. Take a screenshot by **clicking the Screenshot button**, in the UI, as shown below.
+1. Take a screenshot by **selecting the Screenshot button**, in the UI, as shown below.
 
     ![](images/screenshot-icon.png "Screenshot Button")
 
-    >[!KNOWLEDGE]the screenshot is captured at the size that the VM is sized to,  when screenshot button is clicked. 
+    >[!KNOWLEDGE]the screenshot is captured at the size that the VM is sized to, when the screenshot button is selected. 
 
 If you use this method, the screenshot is stored in Skillable Studio and automatically added in the lab instructions where your mouse cursor is. Please keep in mind that when you take a screenshot using this method, you take a screenshot of the entire desktop of the VM, which may not be desirable. 
 
@@ -344,7 +344,7 @@ To add a screenshot by pasting from your local clipboard:
 1. Press **CTRL+V** to paste the screenshot into the lab instructions. 
 
 1. A **Dialog** will appear, asking to **choose options** for the content:
-    - **Display Inline** or **As a link**: Inline will **render the image with lab instructions**, As a link **provides a link** that the user can click, to view the image in a new window.
+    - **Display Inline** or **As a link**: Inline will **render the image with lab instructions**, As a link **provides a link** that the user can select, to view the image in a new window.
     - **Format**: JPG or PNG. Choose the format you wish to use for the screenshot.
     - **File Name**: You can provide a file name for the screenshot. If a file name is not provided, the screenshot will be assigned a randomly generated name and stored in Skillable Studio.
     
@@ -361,7 +361,7 @@ To Add a screenshot by dragging an image into the lab instructions window:
 1. **Drag the screenshot** into the lab editor interface.
 
 1.  A **Dialog** will appear, asking to **choose options** for the  content:
-    - **Display Inline** or **As a link**: Inline will **render the image with lab instructions**, As a link **provides a link** that the user can click, to view the image in a new window.
+    - **Display Inline** or **As a link**: Inline will **render the image with lab instructions**, As a link **provides a link** that the user can select, to view the image in a new window.
     - **Overwrite existing files**: choosing this option will **overwrite files with the same file name**, that are currently saved in Skillable Studio. This is useful when the wrong file gets uploaded and needs to be replaced with the correct file. 
 
 **Note**: Other media types such as videos and documents can be added using this method. 
@@ -380,9 +380,9 @@ The following are some best practices for incorporating screenshots into your la
 
 #### Virtual Machine Select
 
-During a lab, a lab user may be required to perform configuration steps on two or more VMs. A common source of errors in labs is performing lab tasks on the wrong VM. The IDLx platform mitigates this risk by providing the means to change to the correct VM within a task, by clicking a link in the lab instructions or selecting the appropriate VM from the Resources tab.
+During a lab, a lab user may be required to perform configuration steps on two or more VMs. A common source of errors in labs is performing lab tasks on the wrong VM. The IDLx platform mitigates this risk by providing the means to change to the correct VM within a task, by selecting a link in the lab instructions or selecting the appropriate VM from the Resources tab.
 
-The virtual machine Replacement Token allows the user to make a different VM active, by clicking a link in the lab instructions. Although this functionality is also available from the Resources tab, the advantage of using the virtual machine Replacement Token is that the lab user can switch the active VM from within the task itself.
+The virtual machine Replacement Token allows the user to make a different VM active, by selecting a link in the lab instructions. Although this functionality is also available from the Resources tab, the advantage of using the virtual machine Replacement Token is that the lab user can switch the active VM from within the task itself.
 
 ###### VM displayed **in lab instructions** using a Replacement Token.
 
@@ -391,9 +391,9 @@ The virtual machine Replacement Token allows the user to make a different VM act
 To add a virtual machine to the lab instructions using a Replacement Token:
 
 1. Place the cursor where the link to the VM will go in the lab instructions. 
-1. Click **&commat;Lab** at the top of the text editor.
+1. Select **&commat;Lab** at the top of the text editor.
 1. Select the virtual machine to be used. (refer to the description column of the Replacement Token menu for VM details).
-1. Click **Insert**.
+1. Select **Insert**.
 
 ###### VMs are displayed on the Resources tab.
 
@@ -410,9 +410,9 @@ The **DVD Drive Replacement Token** provides a link for the lab user to insert a
 To add removable media to the lab instructions using a Replacement Token:
 
 1. Place the cursor where the link to the removable media will go in the lab instructions. 
-1. Click **&commat;lab** at the top of the text editor.
+1. Select **&commat;lab** at the top of the text editor.
 1. Select the removable media to be used. (refer to the description column of the Replacement Token menu for media type and details).
-1. Click **Insert**.
+1. Select **Insert**.
 
 ## Markdown Syntax
 
@@ -592,7 +592,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 ### Page formatting
 
-- **Page break**: Used to separate content into pages. Separating into pages creates a next button that the student must click to navigate to the next page. This is useful for displaying small sections of instruction to the student at a time, rather than all instructions on the same page within the lab. Type three = (equals) symbols on the line where the current page should end. The new page will begin on the line following the three = symbols.
+- **Page break**: Used to separate content into pages. Separating into pages creates a next button that the student must select to navigate to the next page. This is useful for displaying small sections of instruction to the student at a time, rather than all instructions on the same page within the lab. Type three = (equals) symbols on the line where the current page should end. The new page will begin on the line following the three = symbols.
 
     > ===
 
@@ -610,7 +610,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
 >[!KNOWLEDGE] You should enter alt text and title to the embedded content, so that when a user mouses over it, a description will appear. You can add alt text and a title with the following syntax: `!IMAGE[image alt text](Image.jpg "image title text")`  
 
-- **Image**: Used to embed an image inline with other content. When images are clicked, they will open in a new window and display at the images full resolution.
+- **Image**: Used to embed an image inline with other content. When images are selected, they will open in a new window and display at the images full resolution.
 
     > \![text to display]\(url)
 
@@ -635,9 +635,9 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
     > \!audio[text to display]\(url)
 
-- **Image with link:** Used to embed an image that can be clicked to navigate to a specific URL (internal or external). 
+- **Image with link:** Used to embed an image that can be selected to navigate to a specific URL (internal or external). 
     
-    > \[![text to display]\(url or filepath "Optional image title")](url "Optional link title")
+    > \[![text to display]\(url or file path "Optional image title")](url "Optional link title")
     
 - **Portal Link:** used to launch a hyperlink. In the Cloud Client, this will open the hyperlink in the left window (Resource Portal). In the traditional virtualization client (vm-based labs), this will open the hyperlink in a new local browser window.
 
@@ -649,7 +649,7 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
     ![](images/image-link.png "Image Link")
 
-- **Video Link:** used to display a link with a videocamera icon, to suggest that the hyperlink opens a video. Opens in a new window.
+- **Video Link:** used to display a link with a video camera icon, to suggest that the hyperlink opens a video. Opens in a new window.
 
     > `VIDEO[text to display](URL to video)`
 
@@ -800,7 +800,7 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
     > ![](images/section-in-lab-instructions.png "Sections")
 
-- **Key Combo:** used to generate a button that sends a combination of key codes to the active VM. The key codes used are standard Javascript event key codes. Characters supported for key combo labels include: A-Z, 0-9, underscore, dash and plus. Other special characters will not work. 
+- **Key Combo:** used to generate a button that sends a combination of key codes to the active VM. The key codes used are standard JavaScript event key codes. Characters supported for key combo labels include: A-Z, 0-9, underscore, dash and plus. Other special characters will not work. 
  
     **Some key codes may not function as expected when using vSphere. It is highly recommended to test each key combo before publishing the lab instructions for production use.**
 
@@ -830,7 +830,7 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
         ![Refernce Instruction Block](images/reference-instruction-blocks.png)
 
-- **Commands:** Used to target the current resource in the Resource Portal to input commands. To mitigate risk of error and to enhance the overall experience of the lab, the IDLx platform supports executing commands directly in the area of focus of the Resource Portal. Clicking the text in the lab instructions will input the command into the item in focus, on the Resource Portal. Commands can be a single line (shown below) or multi-line. 
+- **Commands:** Used to target the current resource in the Resource Portal to input commands. To mitigate risk of error and to enhance the overall experience of the lab, the IDLx platform supports executing commands directly in the area of focus of the Resource Portal. Selecting the text in the lab instructions will input the command into the item in focus, on the Resource Portal. Commands can be a single line (shown below) or multi-line. 
 
     There are 4 different kinds of commands that you can configure:
 
@@ -899,25 +899,25 @@ Commands can perform any action that is possible to do from a command or Windows
 
 Although potentially any task could be reduced to an action that can be executed as a command shell or Windows PowerShell command, you should use this feature judiciously. Users should still know how to open File Explorer and perform other basic actions. This feature is most useful for a complex task that involves numerous steps, opening file locations deep down in directory structures, opening specific Web pages, and other similar activities.
    
-- **Include:**  Used to input text from a GitHub raw link. This is useful to use to pull in content hosted on GitHub. Navigate to the GitHub page containing the content to be used, click the Raw button, then copy the URL of that page and include it in the below syntax. 
+- **Include:**  Used to input text from a GitHub raw link. This is useful to use to pull in content hosted on GitHub. Navigate to the GitHub page containing the content to be used, select the Raw button, then copy the URL of that page and include it in the below syntax. 
 
     - **Note**: GitHub hosted content can be changed by the repo maintainer of the content and will change the instructions displayed in the lab that is using the Include syntax. 
 
     > `[!include [label](url)]`
 
-- **Copyable Text:** Used to make text copy to the local clipboard when the student clicks the text. Type two + (plus) symbols on each side of the text that should be made copyable. 
+- **Copyable Text:** Used to make text copy to the local clipboard when the student selects the text. Type two + (plus) symbols on each side of the text that should be made copyable. 
 
     > \++copyable text++
 
     ![](images/copyable-text.png "Copyable Text")
 
-- **Type Text:** Used to input text into the current cursor location inside of a managed virtual machine showing in the Resource Portal. Clicking the text in the lab instructions will automatically type the text into the managed virtual machine. When authoring lab instructions, use three + (plus) symbols on each side of text to convert it into Type Text.
+- **Type Text:** Used to input text into the current cursor location inside of a managed virtual machine showing in the Resource Portal. Selecting the text in the lab instructions will automatically type the text into the managed virtual machine. When authoring lab instructions, use three + (plus) symbols on each side of text to convert it into Type Text.
 
     > \+++Type Text+++
 
     ![](images/type-text.png "Type Text")
 
-- **Copyable and Type Text:** used to make text copy to the local clipboard and type into a virtual machine when the student clicks the text. Type four + (plus) symbols on each side of the text that should be made copyable and type text. 
+- **Copyable and Type Text:** used to make text copy to the local clipboard and type into a virtual machine when the student selects the text. Type four + (plus) symbols on each side of the text that should be made copyable and type text. 
 
   > \++Click to copy to clipboard and type into a VM++
   >
@@ -929,7 +929,7 @@ Although potentially any task could be reduced to an action that can be executed
 
 - **Replacement Token:** Used to replace text with a variable that is unknown at the time of authoring the lab. The value of these variables may not be generated or created until the lab is launched by the student. These can include usernames, user first name, user last name, running lab instance ID number, etc. 
 
-    Replacement tokens use the syntax &commat;lab._replacementTokenName_. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button. 
+    Replacement tokens use the syntax &commat;lab._replacementTokenName_. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and selecting the &commat;lab button. 
 
    > |Lab Replacement Token|Description|
    > |--|--|
@@ -1003,15 +1003,15 @@ To get started with Activities:
 
 1. Navigate to your **lab profile**.
 
-1. Click **Edit Instructions**.
+1. Select **Edit Instructions**.
 
-1. Click the **Activities icon** to enter the settings Activities menu in your lab instructions. 
+1. Select the **Activities icon** to enter the settings Activities menu in your lab instructions. 
 
 ![](../../lod/images/activity-icon.png)
 
 1. Next, you should decide what type of Activity you would like to create -- Question, or an Automated Activity that targets a Cloud Subscription or a Windows-based virtual machines running on Hyper-V, with a PowerShell or Shell script. 
 
-Click to go to a specific section, or continue reading to learn more about creating Activities in your lab. 
+Select to go to a specific section, or continue reading to learn more about creating Activities in your lab. 
 
 - [Automated Activity](#automated-activity)
 - [Multiple Choice Question](#multiple-choice-questions)
@@ -1023,9 +1023,9 @@ Click to go to a specific section, or continue reading to learn more about creat
 
 Automated Activities are PowerShell or Shell scripts that target a Cloud Subscription, or a Windows-based virtual machine running on Hyper-V in the lab. Cloud Subscriptions are targeted by a PowerShell script, and Windows-based virtual machines can be targeted by both PowerShell and Shell. Automated Activities can be used to help make sure the student has configured their lab environment correctly, help the student understand mistakes that are made in their lab, as well as give the student confirmation that they are completing the lab instructions correctly. Automated Activities can also be used to automate any configuration or lab steps that you wish to automate. 
 
-1. If you would like the lab to be scored, Click the **switch** next to _Enable Scoring_. If you would not like the lab to be scored, simply leave the **Switch** turned off. 
+1. If you would like the lab to be scored, select the **switch** next to _Enable Scoring_. If you would not like the lab to be scored, simply leave the **Switch** turned off. 
 
-1. Click **New Automated Activity**.
+1. Select **New Automated Activity**.
 
 ![](../../lod/images/new-automated-activity.png)
 
@@ -1039,7 +1039,7 @@ Automated Activities are PowerShell or Shell scripts that target a Cloud Subscri
 
     > [!KNOWLEDGE] If **Display Scripts as Task List** is checked, On-Demand Evaluation will no longer be available for this Activity. 
 
-- **On-Demand Evaluation**: enables a button that the user can click to check their answer to a question, or to score their answer if Activities are set to be scored.
+- **On-Demand Evaluation**: enables a button that the user can select to check their answer to a question, or to score their answer if Activities are set to be scored.
  
 - **Allow retries**: allows the user to retry a question if they enter or select an incorrect answer. This option is not available when On-Demand Evaluation is disabled. 
 
@@ -1057,7 +1057,7 @@ Automated Activities are PowerShell or Shell scripts that target a Cloud Subscri
     - **Language**: the scripting language that will be used. PowerShell and Shell are supported. 
     - **Script**: enter the script that will be executed.
 
-    - **New Script**: click to add an additional script to this Activity. The new script will be represented by a button, in a Task List. 
+    - **New Script**: select to add an additional script to this Activity. The new script will be represented by a button, in a Task List. 
 
     The following two options are **only available if Display Scripts as Task list is checked**, and are located in the section for the script they belong to. This allows you to provide custom feedback on each Automated Activity. 
 
@@ -1100,7 +1100,7 @@ This is what the student will see in the lab:
 
 ![](../../lod/images/scripts-in-lab-instructions.png)
 
-- The student clicks the Score button, and the scripts will begin executing:
+- The student selects the Score button, and the scripts will begin executing:
 
     - If the student **created the storage accounts correctly**, they will receive a message that says "You successfully created the storage account."
     
@@ -1127,9 +1127,9 @@ Optionally, you can enable scoring for Questions in your lab. Once scoring is en
 
 ### Multiple Choice Questions 
 
-1. If you would like the lab to be scored, Click the switch next to _Enable Scoring_. 
+1. If you would like the lab to be scored, select the switch next to _Enable Scoring_. 
 
-1. Click **New Question**.
+1. Select **New Question**.
 
 ![](../../lod/images/activities-menu.png)
 
@@ -1137,23 +1137,23 @@ Optionally, you can enable scoring for Questions in your lab. Once scoring is en
 
 - **Text**: This is where the multiple choice question is entered. This will also be the text that is displayed in the Activities editing menu.
 
-- **Format**: the format can be changed by clicking the drop-down menu. Format options for multiple choice include:
+- **Format**: the format can be changed by selecting the drop-down menu. Format options for multiple choice include:
     - Multiple choice, single answer:
     - Multiple choice, multiple answer
 
-- **Add Answer**: click to add an answer to the multiple choice question. 
+- **Add Answer**: select to add an answer to the multiple choice question. 
 
 - **Scored**: enables the question to be scored. Scoring must be enabled in your lab. [Scoring is covered below in this document](#scoring).
 
 - **Score Value**: the value the student will receive upon selecting a correct answer.
 
-- **On-Demand Evaluation**: enables a button that the user can click to check their answer to a multiple choice question in the lab, or to score their answer if Activities are set to be scored.
+- **On-Demand Evaluation**: enables a button that the user can select to check their answer to a multiple choice question in the lab, or to score their answer if Activities are set to be scored.
  
 - **Allow retries**: allows the user to retry a question if they select an incorrect answer. This option is not available when On-Demand Evaluation is disabled. 
 
 - **Blocks page navigation**: checking this box prevents the student from navigating to the next page in the lab instructions, unless they have selected an answer to this question. 
 
-- **Required for submission**: click to make this multiple choice question required, for the student to submit their lab. 
+- **Required for submission**: select to make this multiple choice question required, for the student to submit their lab. 
 
 - **Correct answer feedback**: this will be displayed to the user upon selecting a correct answer to a multiple choice question. 
 
@@ -1161,9 +1161,9 @@ Optionally, you can enable scoring for Questions in your lab. Once scoring is en
 
 ### Short Answer Questions
 
-1. If you would like the lab to be scored, Click the switch next to _Enable Scoring_. 
+1. If you would like the lab to be scored, select the switch next to _Enable Scoring_. 
 
-1. Click **New Question**.
+1. Select **New Question**.
 
 ![](../../lod/images/activities-menu.png)
 
@@ -1171,7 +1171,7 @@ Optionally, you can enable scoring for Questions in your lab. Once scoring is en
 
 - **Text**: This is where the short answer question is entered. This will also be the text that is displayed in the Activities editing menu.
 
-- **Format**: the format can be changed by clicking the drop-down menu. Format options include:
+- **Format**: the format can be changed by selecting the drop-down menu. Format options include:
     - Short answer, exact match
     - Short answer, regex match
 
@@ -1189,7 +1189,7 @@ Optionally, you can enable scoring for Questions in your lab. Once scoring is en
 
 - **Blocks page navigation**: checking this box prevents the student from navigating to the next page in the lab instructions, unless they have entered an answer to this question. 
 
-- **Required for submission**: click to make this short answer question required, for the student to submit their lab. 
+- **Required for submission**: Select to make this short answer question required, for the student to submit their lab. 
 
 - **Correct answer feedback**: this will be displayed to the user upon entering a correct answer to a short answer question. 
 
@@ -1203,9 +1203,9 @@ Scoring allows the student to be given a score for each Activity they complete c
 
 To enable Scoring in your lab:
 
-1. Click the **Activities icon** to enter the settings menu for Activities.
+1. Select the **Activities icon** to enter the settings menu for Activities.
 
-1. Click the **switch** to enable Scoring. 
+1. Select the **switch** to enable Scoring. 
 
 1. Enter a **passing score** for the lab. You may change this at anytime, as often as you would like. 
 
@@ -1213,7 +1213,7 @@ To enable Scoring in your lab:
 
 1. After Scoring is enabled, you will see the Score checkbox available to select on all Activities you have created, while editing that Activity.
 
-1. Click the checkbox to enable scoring, and enter a score for that Activity. 
+1. Select the checkbox to enable scoring, and enter a score for that Activity. 
 
     ![](../../lod/images/score-scored-checkboxes.png)
 
@@ -1223,7 +1223,7 @@ To enable Scoring in your lab:
 
 After Activities are created, they can be modified at any time, using the Activity editing menu. 
 
-To access this menu, simply click the **Activities Icon**
+To access this menu, simply select the **Activities Icon**
 
 ![](../../lod/images/activity-icon.png)
 
@@ -1239,11 +1239,11 @@ To access this menu, simply click the **Activities Icon**
 
 - **Token**: this is the replacement token that is used in lab instructions to represent this Activity in the lab. Simply place this Replacement Token where you would like the Activity to appear in the lab instructions. 
 
-- **Edit**: click this to edit the Activity. 
+- **Edit**: select this to edit the Activity. 
 
-- **Delete**: click to delete the Activity. Once it is deleted, there is no way to recover the Activity. 
+- **Delete**: select to delete the Activity. Once it is deleted, there is no way to recover the Activity. 
 
-- **Insert**: click to insert the Activity in your current position in the lab instruction editor. 
+- **Insert**: select to insert the Activity in your current position in the lab instruction editor. 
 
 <!--
 ## Add Review Questions as an Assessment Exam to a Lab
@@ -1256,12 +1256,12 @@ Each lab, regardless of whether it has content, can provide an optional exam at 
 
 1. **Automated** - Performance-based test (the user has to make required configuration changes in the lab based on directions in the exam questions) that are evaluated using scripts to verify correct configuration within the lab or in code. 
 
-Review questions can be added to a lab as an assessment. The assessment will appear when the user has completed all the lab steps. It is created on the Exam tab of the lab profile. To create an assessment, click the
+Review questions can be added to a lab as an assessment. The assessment will appear when the user has completed all the lab steps. It is created on the Exam tab of the lab profile. To create an assessment, select the
 **Exam** tab, and then check **Has Exam**. 
 
 ![](images/exam-tab-has-exam.png "Has exam")
 
-To create a multiple choice review, in the Scoring Type drop-down, select **Assessment**, set the **Passing Score**, and then click **Add Page**. Pages provide a way to organize the review content into categories that, for example, might follow the lab exercises or topics. Enter a page name and click **Add Question**. Type the question, add the multiple choice selections, select the correct answer(s), and set the **Score Value** so that the exam can be scored.
+To create a multiple choice review, in the Scoring Type drop-down, select **Assessment**, set the **Passing Score**, and then select **Add Page**. Pages provide a way to organize the review content into categories that, for example, might follow the lab exercises or topics. Enter a page name and select **Add Question**. Type the question, add the multiple choice selections, select the correct answer(s), and set the **Score Value** so that the exam can be scored.
 
 ![](images/exam-example-questions.png "Example multiple choice assessment")
 -->
@@ -1275,19 +1275,19 @@ _You will require special permissions to see this tile._
 
 ![](images/advertising-tile.png "Advertising Campaign Tile from Admin screen")
 
-To create an advertising campaign, click **Create Advertising Campaign**. On the edit, enter a name for the campaign, as shown below.
+To create an advertising campaign, select **Create Advertising Campaign**. On the edit, enter a name for the campaign, as shown below.
 
 ![](images/advertising-campaign-basic-info.png "Create Advertising Campaign")
 
-Click the **Intros** tab and enter the URL source for the video, graphics presentation, or other information you wish to display. Multiple URLs can be entered on separate lines and will display randomly. If wanted, check the box and set the minimum amount of time to show the content. With this configured, the users will not be able to close the presentation early.
+Select the **Intros** tab and enter the URL source for the video, graphics presentation, or other information you wish to display. Multiple URLs can be entered on separate lines and will display randomly. If wanted, check the box and set the minimum amount of time to show the content. With this configured, the users will not be able to close the presentation early.
 
 ![](images/advertising-campaign-intro.png "Advertising Campaign Intro")
 
-To configure a lab profile with an advertising campaign, on the lab profile page, click **Edit**.
+To configure a lab profile with an advertising campaign, on the lab profile page, select **Edit**.
 
 ![](images/lab-profile-edit-button.png "Edit lab profile")
 
-Beside Advertising Campaign, click **Choose**, then locate and select the advertising campaign.
+Beside Advertising Campaign, select **Choose**, then locate and select the advertising campaign.
 
 ![](images/advertising-campaign-in-lab-profile-edit.png "Select Advertising Campaign")
 
@@ -1305,19 +1305,19 @@ To do this, on the Edit Lab Profile page, scroll down and type the URL for the r
 
 ## Common Style Guidelines
 
-This section includes guidelines for preventing common errors in word choice and sentence formation. The list contains some of the most common errors in grammar, language, style, and formatting. Use this section as a quick reference as you write or edit. For more comprehensive information on, and guidelines for writing about technical information, please see the Microsoft Manual of Style (MMS), 4<sup>th</sup> edition.
+This section includes guidelines for preventing common errors in word choice and sentence formation. The list contains some of the most common errors in grammar, language, style, and formatting. Use this section as a quick reference as you write or edit. For more comprehensive information on, and guidelines for writing about technical information, please see the [Microsoft Writing Style Guide](https://learn.microsoft.com/en-us/style-guide/welcome/).
 
 | Use                                      | Do Not Use                               | Comments                                 |
 | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
 | VMs                                      | VM's                                     | Do not use an apostrophe when you mean plural.<br/><br/>This is the possessive form. |
 | Red, white, and blue                     | Red, white and blue                      | Always include the serial comma, which is the comma before a coordinating conjunction such as "and" or "or." |
-| In Server Manager, click **Manage**, and click **Add Roles and Features**. | In Server Manager, click **Manage**, then click **Add Roles and Features**. | *Then* is not a coordinate conjunction and thus cannot correctly join two independent clauses. Use *and* or another coordinate conjunction or *then* with a semicolon or another conjunctive adverb to connect independent clauses in, for example, two-part procedural steps.<br/><br/>This is one of the most common grammatical errors in lab documents. |
+| In Server Manager, select **Manage**, and select **Add Roles and Features**. | In Server Manager, select **Manage**, then select **Add Roles and Features**. | *Then* is not a coordinate conjunction and thus cannot correctly join two independent clauses. Use *and* or another coordinate conjunction or *then* with a semicolon or another conjunctive adverb to connect independent clauses in, for example, two-part procedural steps.<br/><br/>This is one of the most common grammatical errors in lab documents. |
 | Some applications are unable to use expanded memory. | Some applications are unable to utilize expanded memory. | Do not use *utilize* as a synonym for *use*. *Utilize* means "to find a practical use for." |
-| On the File menu, click **Open**.        | On the File menu, select **Open**.       | Use *click* rather than *choose* or *select* to refer to the user action of issuing a command or setting an option. |
-| On the View menu, point to **Toolbars**, and then click **Formatting**. | On the File menu, choose **Open**.<br/><br/>Click on **Save**. | When dealing with menus and submenus, do not use *click on*, only *click*. |
-| Check the **Print all pages** check box. | Check the **Print all pages** checkbox.  | If using the term check box, this is two words. |
+| On the File menu, select **Open**.        | On the File menu, select **Open**.       | Use *select* rather than *choose* or *click* to refer to the user action of issuing a command or setting an option. |
+| On the View menu, point to **Toolbars**, and then select **Formatting**. | On the File menu, choose **Open**.<br/><br/>select **Save**. | When dealing with menus and submenus, do not use *click on*, use *select*. |
+| Check the **Print all pages** check box. | Check the **Print all pages** checkbox.  | If using the term checkbox, this is one word. |
 | For more information about...            | For information on...                    | In cross-references, use *about*, not *on*. |
-| To ..., click ….                         | Click … to....                           | Begin the sentence with "To".            |
+| To ..., select ….                         | select … to....                           | Begin the sentence with "To".            |
 | web, website                             | Web, web site                            | Change to MMS, 4^th^ edition, is web in lower case, and website all one word. |
 | All caps for A.M., P.M., and key names, such as CTRL, ALT, and DELETE | Small caps, or title case.               | Note use of periods in A.M. and P.M., per MMS. |
 | The **Save as** dialog box appears.      | The **Save as** dialog box displays.     | Do not use *display* as an intransitive verb. Use *appears* or, only if necessary, the passive *is displayed*. |
@@ -1328,14 +1328,14 @@ This section includes guidelines for preventing common errors in word choice and
 | computer                                 | machine                                  | Do not use *machine* when you mean *computer*. While this term is common among software developers and IT Pros, it is not acceptable per MMS. |
 | You will need to supply information about applications that you want to run with Windows. | You will need to supply information about applications which you want to run with Windows. | *That* and *which* are often confused. Be sure to use the appropriate word. *That* introduces a restrictive clause, which is a clause that is essential for the sentence to make sense. A restrictive clause often defines the noun or phrase preceding it and is not separated from it by a comma. In general, do include the word *that* in restrictive clauses, even though in some clauses the sentence may be clear without it. Including *that* prevents ambiguity and helps translators understand the sentence. |
 | Your package contains the subsidiary information card, which you can use to obtain device drivers or local technical support. | You will need to supply information about applications you want to run with Windows. | *Which* introduces a nonrestrictive clause, which is a clause that could be omitted without affecting the meaning of the sentence. It is preceded by a comma. Nonrestrictive clauses often contain auxiliary or parenthetical information. |
-| Type your password, and then press ENTER. | Enter your password, and then click **OK**. | Do not use as a synonym for *type* except to indicate that a user can either type or click a selection from, say, a list in a combo box. |
+| Type your password, and then press ENTER. | Enter your password, and then select **OK**. | Do not use as a synonym for *type* except to indicate that a user can either type or select a selection from, say, a list in a combo box. |
 | Wait for the computer to restart, and then log on as **Administrator** with the password **Passw0rd**. | Wait for the computer to restart, and then logon as **Administrator** with the password **Passw0rd**. | The verb form is two words, *log on* or *log off*. As a noun or adjective, use one word, no hyphen: *logon* or *logoff*. |
 | Windows Server® 2008 R2 Hyper-V™         | Note the use of ® and TM. Once this has been spelled out correctly, you can then reference Hyper-V, or Windows Server Hyper-V. | Refer to the Trademarks section for a link to how to use MS trademarks. |
 | cloud                                    | Cloud                                    | The MMS now has a detailed section on cloud technology. Note that cloud is lower case. |
 | On the Start menu, navigate to **All Programs\\Microsoft Forefront UAG\\Forefront UAG Management**. | On the Start menu, navigate to **All Programs/Microsoft Forefront UAG/Forefront UAG Management**. | Do not use / for Start menu commands.    |
-| In the Navigation pane, expand **contoso.com/branch offices/Vancouver/sales**, and then in the Details pane, click **Tom**. | In the Navigation pane, navigate to **contoso.com\\branch offices\\Vancouver\\sales**, and then in the Details pane, click **Tom**. | In a Management Console, use *expand* for navigating tree structures, and use a /.<br/><br/>Make sure you reference the Navigation pane and the Details pane.<br/><br/>Do not use a \\. |
-| On the File menu, click **Open**.        | On the File menu, click **Open...**.<br/><br/>On the File menu, click **Open(...)**. | In the user interface, an ellipsis is typically used to show truncation, as in a program name, or to indicate on menus and in dialog boxes that a dialog box will appear to obtain more information from the user. Do not use an ellipsis in this context in documentation. |
-| Right-click **XXX**, and then click **Properties**. | Right-click **XXX**, and then select **Properties**.<br/><br/>Right-click **XXX**, and then choose **Properties**. | When you right-click something, you are presented with a context menu. You *click* items on a context menu, rather than choosing or selecting them. |
+| In the Navigation pane, expand **contoso.com/branch offices/Vancouver/sales**, and then in the Details pane, select **Tom**. | In the Navigation pane, navigate to **contoso.com\\branch offices\\Vancouver\\sales**, and then in the Details pane, select **Tom**. | In a Management Console, use *expand* for navigating tree structures, and use a /.<br/><br/>Make sure you reference the Navigation pane and the Details pane.<br/><br/>Do not use a \\. |
+| On the File menu, select **Open**.        | On the File menu, select **Open...**.<br/><br/>On the File menu, select **Open(...)**. | In the user interface, an ellipsis is typically used to show truncation, as in a program name, or to indicate on menus and in dialog boxes that a dialog box will appear to obtain more information from the user. Do not use an ellipsis in this context in documentation. |
+| Right-click **XXX**, and then select **Properties**. | Right-click **XXX**, and then select **Properties**.<br/><br/>Right-click **XXX**, and then choose **Properties**. | When you right-click something, you are presented with a context menu. You *click* items on a context menu, rather than choosing or selecting them. |
 
 ## Acronyms and Initialisms
 
@@ -1420,8 +1420,8 @@ In lab profiles, there are many settings on the Advanced tab that are relevant t
 To view/modify these settings, do the following:
 
 1. Navigate to your lab profile.
-1. Click **Edit** on the lab profile page.
-1. Click **Advanced**. 
+1. Select **Edit** on the lab profile page.
+1. Select **Advanced**. 
 
 The following settings on the advanced tab allow you to customize the client user experience:
 
