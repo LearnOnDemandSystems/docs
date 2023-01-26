@@ -82,8 +82,8 @@ API keys for this API Consumer will be displayed here.
     - **Saved**: the lab is in a saved state and no longer active. 
     - **Resuming**: the lab is resuming from a saved state.
     - **Resumed**: the lab has been resumed from a saved state and the user can     interact with the lab again. 
-    - **Scoring**: 
-    - **Scored**: 
+    - **Scoring**: the lab has begun the process of scoring. This triggers immediately when scoring is initiated in the lab, before platform scoring is performed. If the action is blocking, this will allow the action to complete before platform scoring occurs.
+    - **Scored**: the lab has been scored. This triggers immediately after platform scoring completes. If the action is blocking, this will allow the action to complete before the lab is torn down or returned to a running state.
     - **Tearing Down**: the lab environment is being torn down. 
     - **Torn Down**: the lab environment is fully torn down.
     - **Transfer to User**: the lab instance is transferred to another user from the lab instance.
