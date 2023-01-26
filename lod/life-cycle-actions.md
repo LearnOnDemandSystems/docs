@@ -12,6 +12,8 @@ With the Life Cycle Actions (LCA) feature, LOD is able to execute actions when s
 * [Life Cycle Actions Management](#life-cycle-actions-management)
   + [Child Lab Profile LCA inheritance](#child-lab-profile-lca-inheritance)
 * [Life Cycle Configuration](#life-cycle-configuration)
+    - [Actions](#actions)
+    - [Events](#events)
 * [Send Web Request](#send-web-request)
   + [Lab data can be appended to the URL](#lab-data-can-be-appended-to-the-url)
   + [Web Requests have multiple verb options](#web-requests-have-multiple-verb-options)
@@ -43,7 +45,9 @@ Life Cycle Actions are configured to execute an action at a specified event duri
 
 First, decide what type of action should be executed, then decide when that action should be executed in your lab. 
 
-**Life Cycle Actions include**:
+### Actions 
+
+Life Cycle Actions include:
 
 - [Send a web request:](#send-web-request) sends a web request to the URL specified. The URL can optionally contain placeholders that will be replaced by live data, with @lab replacement tokens.
 - [Send a notification to the user:](#send-notification-to-user)  sends a notification to the user during the specified event.
@@ -53,7 +57,9 @@ First, decide what type of action should be executed, then decide when that acti
 - [Execute Script in Cloud Platform:](#execute-script-in-cloud-platform) sends a PowerShell script to the cloud platform.
 - [Execute Custom Script](#execute-custom-script)
 
-**Life Cycle Events include**:
+### Events 
+
+Life Cycle Events include:
 
 - **Pre-Build**: the lab components are being deployed, as well as any cloud resources.
 - **Post-Build**: the lab environment has been built, but components like virtual machines may still be starting. 
@@ -62,6 +68,8 @@ First, decide what type of action should be executed, then decide when that acti
 - **Saved**: the lab is in a saved state and no longer active. 
 - **Resuming**: the lab is resuming from a saved state.
 - **Resumed**: the lab has been resumed from a saved state and the user can interact with the lab again. 
+- **Scoring**: the lab has begun the process of scoring. This triggers immediately when scoring is initiated in the lab, before platform scoring is performed. If the action is blocking, this will allow the action to complete before platform scoring occurs.
+- **Scored**: the lab has been scored. This triggers immediately after platform scoring completes. If the action is blocking, this will allow the action to complete before the lab is torn down or returned to a running state.
 - **Tearing Down**: the lab environment is being torn down. 
 - **Torn Down**: the lab environment is fully torn down.
 - **Building**: the lab environment is being built.
