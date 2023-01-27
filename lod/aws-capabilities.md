@@ -28,7 +28,7 @@ If you need support for an AWS service that is not listed as supported, please s
 |[Amazon DynamoDB Accelerator (DAX)](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazondynamodbacceleratordax.html)|dax|supported||
 [Amazon EC2](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_identityandaccessmanagement.html)|ec2|supported|Whenever a running lab profile is saved, the EC2 resources in AWS are suspended and do not continue to be billed. When the lab is resumed, billing will resume, the **EC2 instance will reboot** and then the EC2 resource will be available for use in the lab. |
 |[Amazon EC2 Container Registry](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonec2containerregistry.html)|ecr|supported||
-|[Amazon EC2 Container Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonec2containerservice.html)|ecs|supported||
+|[Amazon EC2 Container Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonec2containerservice.html)|ecs|supported|When a lab profile is saved, the number of ECS tasks are automatically lowered to reduce the amount of resources consumed. When the lab profile is resumed, the ECS tasks are automatically increased again.|
 [Amazon Elastic Container Service for Kubernetes](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonelasticcontainerserviceforkubernetes.html)|eks|supported||
 |[Amazon Elastic File System](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonelasticfilesystem.html)|elasticfilesystem|supported||
 |[Amazon Kinesis](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonkinesis.html)|kinesis|supported||
