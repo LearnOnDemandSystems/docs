@@ -26,6 +26,10 @@
         <div class="subtopic_title">API Best Practices and How to Use an API Consumer</div>
         <div class="subtopic_description">Guides through the steps to configure an API Consumer in Skillable Studio, as well as best practices.</div>
       </a>
+      <a class="subtopic_link" href="/lod/api-consumer.md">
+        <div class="subtopic_title">API Consumer Profile</div>
+        <div class="subtopic_description">API Consumer profile creation, and explanation of API consumer configuration.</div>
+      </a>
     </div>
   </div>
   <div class="subtopic">
