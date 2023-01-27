@@ -73,7 +73,7 @@ API keys for this API Consumer will be displayed here.
 
 **+Add Webhook**: select this to add a webhook to this API consumer.  
 
-    >[!knowledge] If this section is not available to you, please open a support ticket to get additional permissions added to your user account, to be able to configure webhooks.
+>[!knowledge] If this section is not available to you, please open a support ticket to get additional permissions added to your user account, to be able to configure webhooks.
 
 - **Name**: the name of the webhook.
 - **Event**: the webhook will be called when an event occurs during the life cycle of the lab. Available events include: 
@@ -102,11 +102,12 @@ API keys for this API Consumer will be displayed here.
 - **URL**: A webhook URL that will be used to send the Webhook response to when the configured platform event occurs.  Any lab [replacement token](../lod/feature-focus/cloud-resource-templates/replacement-tokens.md) can also be added to the URL surrounded by `{}`. For example:The lab instance ID will be injected into URL using the replacement value `{id}`. `https://myexternalsite.com/labinstance/changed/{id}`.
 - **Headers**: headers should be entered in `name=value` format, with each header on a new line. It is recommended to add an authorization header in order to secure your webhook. 
     - **Send Lab Details as Content Body**: the content body will contain JSON-formatted information about the lab instance. Example:
-        ```JSON{
-        "Id": 998592321,
-        "UserId": 5023932,
-        "UserExternalId": "Example.User",
-        "UserFirstName": "Example",
+    
+ ```JSON{
+    "Id": 998592321,
+    "UserId": 5023932,
+    "UserExternalId": "Example.User",
+    "UserFirstName": "Example",
         "UserLastName": "User",
         "LabProfileId": 19376,
         "LabProfileName": "Example Lab",
@@ -129,7 +130,7 @@ API keys for this API Consumer will be displayed here.
         "ExamMaxPossibleScore": 10,
         "ExamPassingScore": 7
         }
-        ```
+```
 - **Content**: the optional content body of the webhook request.
 - **Blocking**: this allows you to block further triggering of events and other webhooks until this webhook execution completes. If a webhook fails and is set to blocking, the next event in the life cycle will not begin until the webhook succeeds or fails. If the webhook has retries enabled, Skillable Studio will retry up to 5 times before moving onto the next life cycle event.
 - **Delay**: an optional delay before the webhook is triggered.
