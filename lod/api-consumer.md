@@ -65,13 +65,15 @@ API keys for this API Consumer will be displayed here.
 - **LTI 1.3 Access token URL**: the LTI 1.3 Access Token that is used for integrating with an LTI provider.
 - **LTI 1.3 Authorize URL**: the LTI 1.3 Authorize URL that is used for integrating with an LTI provider.
 - **LTI 1.3 Managed Auth Token**: the LTI 1.3 Managed Auth that is used for integrating with an LTI provider.
-- **LTI 1.3 JWK Set URL**: the LTI 1.3 JWL Set URL that is used for integrating with an LTI provider.
+- **LTI 1.3 JWK Set URL**: the LTI 1.3 JWK Set URL that is used for integrating with an LTI provider.
 - **LTI 1.3 Public Key**: the LTI 1.3 Public Key that is used for integrating with an LTI provider.
 - **LTI 1.3 Client ID**: the LTI 1.3 Client ID that is used for integrating with an LTI provider.
 
 ## Webhooks
 
-**+Add Webhook**: select this to add a webhook to this API consumer. 
+**+Add Webhook**: select this to add a webhook to this API consumer.  
+
+    >[!knowledge] If this section is not available to you, please open a support ticket to get additional permissions added to your user account, to be able to configure webhooks.
 
 - **Name**: the name of the webhook.
 - **Event**: the webhook will be called when an event occurs during the life cycle of the lab. Available events include: 
@@ -81,7 +83,7 @@ API keys for this API Consumer will be displayed here.
     - **Saving**: the lab is in the process of being saved.
     - **Saved**: the lab is in a saved state and no longer active. 
     - **Resuming**: the lab is resuming from a saved state.
-    - **Resumed**: the lab has been resumed from a saved state and the user can     interact with the lab again. 
+    - **Resumed**: the lab has been resumed from a saved state and the user can interact with the lab again. 
     - **Scoring**: the lab has begun the process of scoring. This triggers immediately when scoring is initiated in the lab, before platform scoring is performed. If the action is blocking, this will allow the action to complete before platform scoring occurs.
     - **Scored**: the lab has been scored. This triggers immediately after platform scoring completes. If the action is blocking, this will allow the action to complete before the lab is torn down or returned to a running state.
     - **Tearing Down**: the lab environment is being torn down. 
@@ -97,9 +99,9 @@ API keys for this API Consumer will be displayed here.
     - **POST**: use the POST verb to add new data.
     - **DELETE**: use the DELETE verb to delete data.
     - **PUT**: use the PUT verb to modify data
-- **URL**: 
+- **URL**: A webhook URL that will be used to send the Webhook response to when the configured platform event occurs.  Any lab [replacement token](../lod/feature-focus/cloud-resource-templates/replacement-tokens.md) can also be added to the URL surrounded by `{}`. For example:The lab instance ID will be injected into URL using the replacement value `{id}`. `https://myexternalsite.com/labinstance/changed/{id}`.
 - **Headers**: headers should be entered in `name=value` format, with each header on a new line. It is recommended to add an authorization header in order to secure your webhook. 
-    - **Send Lab Details as Content Body**: the content body will contain     JSON-formatted information about the lab instance. Example:
+    - **Send Lab Details as Content Body**: the content body will contain JSON-formatted information about the lab instance. Example:
         ```JSON{
         "Id": 998592321,
         "UserId": 5023932,
