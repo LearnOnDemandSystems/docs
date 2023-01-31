@@ -93,12 +93,24 @@ Filters in version 2 of our course catalog are effective and save screen space.
 
 _Simple course catalog version 2 filters_
 
-Clicking on **Filter Options** displays a menu with standard and custom filter categories, clicking most options will display a sub-menu to choose a filter: 
+Clicking on **Filter Options** displays a menu with standard and custom filter categories, clicking most options will display a sub-menu to choose a filter. Standard options appear in the top portion of the menu with options like, Favorites, Review Rating and Current Status. If options appear below the line are custom filter categories created for the catalog. 
 
 1.	**Favorites** - Filters to display all courses you have marked as a favorite by clicking the heart on a course.
 2.	**Review Rating** - Opens a sub-menu to select the number of stars you would like to filter for based on the course ratings. Choose one or more filters then click away from the menu to display your search results.
 3.	**Current Status** - Search self-paced training course assignments you are working on by filtering for the status of your training on that course. Filtering options include: **Any**, **Not Started**, **In Progress**, or **Completed**. Choose one or more filters then click away from the menu to display your search results.
 4.	**Custom filter categories** - Custom filters can be set up by an organization for their courses. Choosing a filter category displays a sub-menu showing the filters. Choose one or more filters then click away from the menu to display your search results.
+
+Any of the filters on the menu can have sub-menus with more filtering options. Filtering works differently from the main menu options to the sub-menu options. Main menu options filter as "AND" meaning all filters selected must match filters assigned to the course for it to appear in the results; while sub-menu options filter as "OR" which shows courses that match at least one matching filter assigned to the course, as opposed to all of them.
+
+![](/tms/images/filter-sub-menu.png)
+
+_Menu and sub-menu filtering_
+
+1. **Main menu selection** - Selecting a main menu item will display its available sub-menu
+2. **Sub-menu** - Select one or more sub-menu items to filter for courses
+3. **Apply** - Click apply once sub-menu items are chosen to run the filter
+4. **Add New** - Click to add more filters
+5. **Clear Filters** - Select to remove filters
 
 [Return to Article contents](#article-contents)
 
