@@ -10,11 +10,9 @@ This document explains the nature of the risk associated with Cloud Slice labs a
 
 All Cloud Slice labs have a level of risk associated with them. The impacts arising from an abuse of a Cloud Slice lab can range from small to extremely expensive. The threat that has the most risk associated with it is the theft of CPU cycles for cryptocurrency mining operations. In a wide-open cloud slice environment with no controls in place to mitigate the threat, crypto miners can potentially provision many expensive Azure VMs or EC2 instances to perform crypto mining operations. Other threats include user error or malicious behavior to use expensive services, such as very large, high-performance databases. 
 
-Skillable customers who integrate their subscriptions with the lab platfrom are responsible for determining whether the risk is acceptable. 
+Skillable takes these risks seriously and uses a number of technical and procedural controls to minimize the risk when you integrate your cloud subscriptions with the Skillable platform to develop Cloud Slice labs. The technical controls include Access Control Policies (ACPs) that limit what a lab user can deploy or access in a lab environment. The procedural controls include a security review process of Cloud Slice labs that identifies the level of risk. The level of risk that is assigned to a lab during the review process determines whether it can be published and other possible constraints. 
 
-Skillable takes these risks seriously and uses a number of technical and procedural controls to minimize the risk when you integrate your cloud subscriptions with the Skillable platform and develop labs using your Cloud Slice subscription. The technical controls include Access Control Policies (ACPs) that limit what a lab user can deploy or access in a lab environment. The procedurals controls include a security review process of Cloud Slice labs that identifies the level of risk. The level of risk that is assigned to a lab during the review process determines whether it can be published and other possible constraints. 
-
-> [!Alert]The security review process is a best effort to help minimize customer risk. However, given the rapidly evolving threat environment and other unknown factors, Skillable can make no warranties regarding the elimination or mitigation of risk. Even labs that have been assigned a category of low risk can be potentially abused.
+> [!Alert]The security review process is a best effort to help minimize customer risk. However, given the rapidly evolving threat environment and other unknown factors, Skillable can make no warranties regarding the elimination or mitigation of risk. Even labs that have been assigned a category of low risk can be potentially abused. Skillable customers who integrate their subscriptions with the lab platfrom and wish to publish labs are responsible making the final determination whether the risk level is acceptable.
 
 ## Table of Contents 
 
@@ -96,7 +94,7 @@ AWS denies all resources by default. AWS ACPs can be designed to only allow spec
 }
 ```
 
-- Where "x" is the statement ID defined by the policy writer. This is used for policy management. Ex: "VisualEditor0"
+- Where "x" is the optional statement ID (SID) and can be used for policy management. For example, the value for the SID can include a short description of the policy.
 - Where "y" is the action that the user can perform. The format is *category:action*. Ex 1: "ec2:*" means all ec2 actions. Ex 2: "iam:GetRole" specifies reading IAM roles. 
 - Where "z" is the resource on which these actions can be performed. Ex: "**\***". 
 
@@ -122,6 +120,10 @@ controls that are in place. The reason for the designation in this case is to al
 
 # Risk Definitions
 
+The following definitions provide general guidance only and do not provide complete criteria for determining the risk classification of a particular lab. A number of other factors not listed here may also inform decision to classify a lab into a particular risk category. 
+
+> [!Note] Vulnerabilites may be present in any lab, regardless of its risk classification. The risk classification provides only a best-effort estimate of the probability of exploit occuring against a particular lab configuration.   
+
 ## High Risk
 
 Labs with a High risk security status are extremely vulnerable to abuse.
@@ -135,9 +137,9 @@ A lab qualifies as **High Risk** if ANY of the following are true:
     
         • Lab allows all resources.
         • Lab allows any compute resources (VMs, containers) without limits.
-        • Lab allows compute resources that use large, expensive SKUs.
+        • Lab allows compute resources that use large, expensive SKUs with or without other constraints.
         • Lab allows more than 4 inexpensive SKUs of compute resources and are limited only by SKU.
-        • Lab blocks specific VM/container sizes rather than allows specific VM sizes.
+        • Lab blocks specific VM/container sizes rather than only allows specific VM sizes.
         • Lab allows large, expensive resources.
         • Azure Only - Lab allows VM/container scalesets without a scaleset size limit.
         • AWS Only - Lab allows autoscaling of non free-tier VMs/containers.
@@ -160,7 +162,7 @@ A lab is **Medium Risk** if ALL of the following are true:
     
         • Lab allows only the resources required for the lab but limits compute resources only by 1 - 4 inexpensive SKUs.        
         • Lab blocks virtual machines and containers entirely, but allows other potentially expensive resources.
-        • Lab does not limit compute resources by name or number of instances.
+        • Lab does not limit compute or database resources by name or number of instances.
         • Lab limits compute resources by using a "match" statement for the name.
         • Web apps (Azure) are not limited by SKU or name.
         • Lab is open to SQL Servers or Dynamo DB without limits. 
