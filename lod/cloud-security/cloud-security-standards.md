@@ -122,7 +122,7 @@ controls that are in place. The reason for the designation in this case is to al
 
 The following definitions provide general guidance only and do not provide complete criteria for determining the risk classification of a particular lab. A number of other factors not listed here may also inform decision to classify a lab into a particular risk category. 
 
-> [!Note] Vulnerabilites may be present in any lab, regardless of its risk classification. The risk classification provides only a best-effort estimate of the probability of exploit occuring against a particular lab configuration.   
+> [!Note] Vulnerabilites may be present in any lab, regardless of its risk classification. The risk classification provides only a best-effort estimate of the probability of an exploit occuring against a particular lab configuration.   
 
 ## High Risk
 
