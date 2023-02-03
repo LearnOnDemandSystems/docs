@@ -170,7 +170,7 @@ You can also edit lab instructions while you have a lab launched, with real-time
 
 All instructions are authored in Markdown. Markdown allows for easy plain-text authoring of paragraphs, with special syntax when you want certain items to be formatted differently. You can also use HTML alongside, or in place of, Markdown elements. The following sections describe various items used to create lab content with IDLx.
 
-    >[!knowledge] As a best practice, lab instructions should not exceed 1GB in file size. If lab instructions exceed 1GB in size, the lab profile may not export correctly from Skillable Studio. The overall size of the lab will increase when adding images, videos, PDFs or other files. 
+>[!knowledge] As a best practice, lab instructions should not exceed 1GB in file size. If lab instructions exceed 1GB in size, the lab profile may not export correctly from Skillable Studio. The overall size of the lab will increase when adding images, videos, PDFs or other files. 
 
 ### Using the Lab Instruction Editor
 
