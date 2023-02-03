@@ -187,7 +187,7 @@ ALL of the following:
 
     Life Cycle Actions:
        • Do not modify user roles or permissions in any way or modify them only in benign and restrictive way.
-       • Azure Only - Do not Remove or modify in any way the "Skillable Studio Policy Set".
+       • Azure Only - Do not remove or modify in any way the "Skillable Studio Policy Set".
     Access Control Policies:
        •  Lab is limited to only the resources that it requires.
        •  Web apps(Azure) are limited by sku and name.
