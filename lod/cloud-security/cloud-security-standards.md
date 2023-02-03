@@ -130,7 +130,7 @@ The following definitions provide general guidance only and do not provide compl
 
 Labs with a High risk security status are extremely vulnerable to abuse.
 
-A lab qualifies as **High Risk** if ANY of the following are true:
+A lab qualifies as **High Risk** if any of the following are true:
 
     Life Cycle Actions:
         • Modify the user roles or permissions to escalate privilege beyond the default permissions or permissions boundary.
@@ -155,8 +155,8 @@ Medium risk labs have some known vulnerabilities, but block the highest risk vul
 A lab is **Medium Risk** if ALL of the following are true:
 
     Life Cycle Actions:
-        • Do NOT modify the user roles or permissions to escalate privilege beyond the default permissions or permissions boundary.        
-        • Azure Only - Do not Remove or modify in any way the "Skillable Studio Policy Set".
+        • Do not modify the user roles or permissions to escalate privilege beyond the default permissions or permissions boundary.        
+        • Azure Only - Do not remove or modify in any way the "Skillable Studio Policy Set".
 
 **and** ANY of the following:
 
