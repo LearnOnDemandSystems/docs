@@ -4,9 +4,11 @@ description: "In-Depth analysis of security review risk level and approval crite
 isPublished: true
 ---
 
+# Cloud Security Standards
+
 This document explains the nature of the risk associated with Cloud Slice labs and the Cloud Security Standards Skillable uses to help customers mitigate that risk.
 
-# Introduction
+## Introduction
 
 All Cloud Slice labs have a level of risk associated with them. The impacts arising from an abuse of a Cloud Slice lab can range from small to extremely expensive. The threat that has the most risk associated with it is the theft of CPU cycles for cryptocurrency mining operations. In a wide-open cloud slice environment with no controls in place to mitigate the threat, crypto miners can potentially provision many expensive Azure VMs or EC2 instances to perform crypto mining operations. Other threats include user error or malicious behavior to use expensive services, such as very large, high-performance databases. 
 
