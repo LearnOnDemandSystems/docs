@@ -14,7 +14,7 @@ All Cloud Slice labs have a level of risk associated with them. The impacts aris
 
 Skillable takes these risks seriously and uses a number of technical and procedural controls to minimize the risk when you integrate your cloud subscriptions with the Skillable platform to develop Cloud Slice labs. The technical controls include Access Control Policies (ACPs) that limit what a lab user can deploy or access in a lab environment. The procedural controls include a security review process of Cloud Slice labs that identifies the level of risk. The level of risk that is assigned to a lab during the review process determines whether it can be published and other possible constraints. 
 
-> [!Alert]The security review process is a best effort to help minimize customer risk. However, given the rapidly evolving threat environment and other unknown factors, Skillable can make no warranties regarding the elimination or mitigation of risk. Even labs that have been assigned a category of low risk can be potentially abused. Skillable customers who integrate their subscriptions with the lab platfrom and wish to publish labs are responsible making the final determination whether the risk level is acceptable.
+> [!Alert] The security review process is a best effort to help minimize customer risk. However, given the rapidly evolving threat environment and other unknown factors, Skillable can make no warranties regarding the elimination or mitigation of risk. Even labs that have been assigned a category of low risk can be potentially abused. Skillable customers who integrate their subscriptions with the lab platfrom and wish to publish labs are responsible for making the final determination whether the risk level is acceptable.
 
 ## Table of Contents 
 
