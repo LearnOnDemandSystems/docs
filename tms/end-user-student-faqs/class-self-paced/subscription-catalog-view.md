@@ -10,9 +10,8 @@ Subscription catalogs allow users to browse and take courses available through t
 
 ### Article contents
 * [Access your subscription](#access-your-subscription)
-* [Simple Course Catalogs Common Features](#simple-course-catalogs-common-features)
-* [Simple Course Catalog Version 1](#simple-course-catalog-version-1)
-* [Simple Course Catalog Version 2](#simple-course-catalog-version-2)
+* [Return to opened content](#return-to-opened-content)
+* [Subscription catalog features](#subscription-catalog-features)
    * [Filters](#filters)
  
 ## Access your subscription
@@ -30,13 +29,27 @@ _Open a subscription from your **My Training** page_
 ### Return to opened content
 When you start a course from a subscription catalog it opens as a course assignment. Once you have a course assignment you can access it several ways, from the subscription catalog, from your My Training page or from your My Dashboard page. Any lab you have saved is available from My Training or My Dashboard. You can access both My Training and My Dashboard from the navigation bar.
 
+![](/tms/images/current-training-sections.png)
+
+_Your **My Training** page gives access to started course assignments, subscriptions, saved labs and favorites._
+
+From the My Training page you can access content available to you in the different sections. Sections show only when there is content to display.
+1. **Course Assignments** - Shows any course assignments started but not completed show here; completed course assignment can be found from My Transcript or may show on My Dashboard
+2. **On Demand** - Displays all active subscriptions assigned to you show here
+3. **Labs** - Shows your saved labs
+4. **Bookmarks** - Shows any course you have bookmarked/favorited
+
 ![](/tms/images/dashboard-sections.png)
 
 _Your **My Dashboard** page gives access to started course assignments and saved labs._
 
-current-training-sections
+From the My Dashboard page you can access active and recently accessed completed course assignments and your saved labs.
+1. **Active Course Assignments** - Displays five course assignments you most recently worked on
+2. **Active Labs** - Shows your saved labs
 
 [Return to Article contents](#article-contents)
+
+*****************************************
 
 ## Subscription catalog features
 The Simple course catalogs display as tiles showing a course graphic if one is available, show icons to depict activities in the courses, and have the ability to mark favorites. Courses are shown in alphabetical order, however, any **Featured** courses show first. Filter categories and filters are custom created to allow searches.
