@@ -16,13 +16,25 @@ Subscription catalogs allow users to browse and take courses available through t
    * [Filters](#filters)
  
 ## Access your subscription
+Once assigned, your subscription can be accessed from My Training.
 
+To open the subscription catalog:
+1. Click on **My Training** on the navigation bar to open your current training
+2. Under the On Demand heading click on the **name of the subscription** to open the catalog 
+3. Browse the catalog and select a course
  
 ![](/tms/images/current-training-sub-profile.png)
 
 _Open a subscription from your **My Training** page_
 
 ### Return to opened content
+When you start a course from a subscription catalog it opens as a course assignment. Once you have a course assignment you can access it several ways, from the subscription catalog, from your My Training page or from your My Dashboard page. Any lab you have saved is available from My Training or My Dashboard. You can access both My Training and My Dashboard from the navigation bar.
+
+![](/tms/images/dashboard-sections.png)
+
+_Your **My Dashboard** page gives access to started course assignments and saved labs._
+
+current-training-sections
 
 [Return to Article contents](#article-contents)
 
