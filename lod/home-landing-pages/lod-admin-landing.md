@@ -42,8 +42,8 @@
         <div class="subtopic_title">Lab Developer FAQ</div>
         <div class="subtopic_description">Frequently asked questions to assist lab developers.</div>
       </a>
-            <a class="subtopic_link" href="/lod/lab-user-faq.md">
-        <div class="subtopic_title">Lab User Frequently Asked Questions</div>
+            <a class="subtopic_link" href="lod/lab-user-faq.md">
+        <div class="subtopic_title">Lab User FAQs</div>
         <div class="subtopic_description">Frequently asked questions to assist lab users.</div>
       </a>
       <a class="subtopic_link" href="/lod/lab-interface.md">
