@@ -73,6 +73,11 @@ To create a Virtual Machine profile, click **Create Virtual Machine profile** fr
 
 1. **Size**: Select the size of the VM. These size profiles will set the amount of RAM, number of processors, and will govern the number of NICs allowed to be configured on the machine.
 
+
+    >[!TIP] Licensing considerations when using ESX;
+traditional ESX allows the control of physical CPU sockets and number of CPU cores allocated evenly to each socket. With some software products licensed is based on physical CPU sockets therefore, it is important to know how Skillable allocates the physical CPU sockets on ESX hosts. If you select a virtual machine size that uses 24 or less vCPU cores the virtual machine will run on a single physical CPU socket. If a virtual machine size with more than 24 vCPUs is selected, then the vCPUs will be split evenly across two physical CPU sockets.
+
+
     #### Hyper-V
 
     - **Generation**: Select the generation of hypervisor the VM profile will use.

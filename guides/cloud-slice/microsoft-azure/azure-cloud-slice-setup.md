@@ -29,7 +29,11 @@ When a subscription is enabled for Cloud Slice, Skillable Studio is provided the
 Before getting started with Azure Cloud Slice, you should have the following:
 
 - A Microsoft Azure Active Directory Tenant
-    - It is recommended this tenant is dedicated to only Skillable Studio Cloud Slice labs.
+> [!Alert] To minimize risk, Skillable strongly recommends that 
+>   - This tenant is dedicated to only Skillable Studio Cloud Slice labs. Do not use a tenant that you also use for any other purposes. 
+>   - You configure External collobaration settings in your dedicated Azure tenant such that Guest user access is highly restricted and that invitations can be sent only to a pre-approved list of external domains (or none at all). You can find these settings in the Azure portal by navigating to Default Directory | Users > Users | User Settings > External collaboration settings. 
+>   
+>   **IMPORTANT:** If you restrict invitation to external domains, please ensure you allow invitations to the skillable.com and learnondemandsystems.com domains.
 - One or More Azure Subscriptions
     - It is highly recommended these subscriptions are dedicated to only Skillable Studio cloud slice labs.
         - While only one subscription is needed to get started, it is recommended to use a group of subscriptions (otherwise known as a "pool") to provide load balancing across them 
@@ -59,7 +63,7 @@ To enable Cloud Slice support, you must perform the following tasks for each ten
 
 1. Follow the prompts presented by the terminal and input the information it requests.
     
-    > [NOTE] When asking you which subscriptions to use, input the number from the "number" column in the subscription list to select which subscription(s) to configure.
+    > [!note] When asking you which subscriptions to use, input the number from the "number" column in the subscription list to select which subscription(s) to configure.
     >
     > Leave the field blank and press enter to proceed with setup, reset selections, or exit setup.
     

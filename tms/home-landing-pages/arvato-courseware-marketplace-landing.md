@@ -93,7 +93,7 @@
       <a class="subtopic_link" href="/tms/arvato-marketplace/faq-for-arvato-marketplace/expiration.md">
         <div class="subtopic_title">Do the labs I purchased through Courseware Marketplace have an expiration date?</div>
       </a>
-         <a class="subtopic_link" href="/tms/arvato-marketplace/faq-for-arvato-marketplace/purchase-labs-for-instructor.md">
+         <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/mslearn.md">
         <div class="subtopic_title">How do I enable Microsoft Learn Courseware and Achievement Code Access in Skillable TMS?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/mslearn.md">

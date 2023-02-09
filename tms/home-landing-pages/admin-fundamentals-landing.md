@@ -34,8 +34,7 @@
         <div class="subtopic_title">How do I set defaults for my site?</div>
       </a>
        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/mslearn.md">
-        <div class="subtopic_title">How do I enable Microsoft Learn Courseware and Achievement Code Access in Skillable TMS?
-</div>
+        <div class="subtopic_title">How do I enable Microsoft Learn Courseware and Achievement Code Access in Skillable TMS?</div>
       </a> 
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/roles-thru-auth-prov.md">
         <div class="subtopic_title">How can I assign user roles using an authentication provider?</div>
@@ -54,6 +53,9 @@
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/rearrange-items-on-site-administration.md">
         <div class="subtopic_title">Can I rearrange items on the Site Administration page?</div>
+      </a> 
+        <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/manage-course-catalog.md">
+        <div class="subtopic_title">How do I manage the course catalog?</div>
       </a>
   </div>
 </div>

@@ -41,7 +41,7 @@ When using an incognito Google Chrome session, AWS auto login will not automatic
 
 ### Monitoring a lab with Google Chrome Browser on macOS
 
-When monitoring a lab from a computer running macOS and using Google Chrome, interaction with the lab may be possible without taking control of the lab environment. Pressing the Command key in combination with a number key may result in interaction with items in the taskbar of the VM in the lab environment. 
+When monitoring a lab from a computer running macOS and using Google Chrome or Safari, interaction with the lab may be possible without taking control of the lab environment. Pressing the Command key in combination with a number key may result in interaction with items in the taskbar of the VM in the lab environment. 
 
 ### Using a Danish Keyboard Layout
 

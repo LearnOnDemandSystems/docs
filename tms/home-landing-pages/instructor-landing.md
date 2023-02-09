@@ -16,7 +16,18 @@
 <div class="categoriesHeader" tabindex="0" title="Instructor - Docs Container">Instructor</div>
 <div class="accordionModule">
   <div class="subtopic selected">
-      </div><div class="subtopic">
+    </div><div class="subtopic">
+    <div class="subtopic_header" tabindex="0" title="General" role="button" aria-selected="false">General</div>
+    <div class="subtopic_links">
+      <a class="subtopic_link" href="/tms/instructors/general/instructordashboard.md">
+        <div class="subtopic_title">What is the Instructor Dashboard?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/instructors/general/what-is-a-contract-instructor.md">
+        <div class="subtopic_title">What does it mean to be a contract instructor?</div>
+      </a>
+      </div>
+  </div> 
+    </div><div class="subtopic">
     <div class="subtopic_header" tabindex="0" title="Preparation and Classes Docs" role="button" aria-selected="false">Preparation and Classes</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/prepare-for-course-not-scheduled-to-teach.md">

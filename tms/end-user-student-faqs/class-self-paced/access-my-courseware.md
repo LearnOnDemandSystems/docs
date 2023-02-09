@@ -5,7 +5,7 @@ isPublished: true
 
 # What is the Access Courseware or MS Learn Courseware button and how do I use it?
 
-If you see an **Access Courseware** or an **MS Learn Courseware** button on your class enrollment page, you can use it to easily access your digital courseware. The Access Courseware button opens Skillpipe courseware and the MS Learn Courseware button opens Microsoft Learn courseware. 
+If you see an **Access Courseware** or an **MS Learn Courseware** button on your class enrollment page, you can use it to easily access your digital courseware. The Access Courseware button opens Skillpipe courseware, which requires you to login with your username and password, if you need assistance with your login to Skillpipe please contact your training organization. The MS Learn Courseware button opens Microsoft Learn courseware. 
 
 To see either courseware button you must be enrolled in a class based on a course with the courseware available. This button only appears after the start time on the first day of class; once class starts, you may have to refresh your page to see it.
 

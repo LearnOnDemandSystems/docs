@@ -26,11 +26,15 @@ This document assumes that you have created or imported a virtual machine.
 
     >[!KNOWLEDGE] The best practice is to set the username and password to the primary account that will be used to access the virtual machine. This may not always be the administrator account.
 
-1.  Set the **RAM limit**. RAM is the main driving factor in cost. You need to determine a reasonable limit for the amount of RAM required for your virtual machine. Setting the limit to a value that is much higher than you actually need will increase cost, but setting the limit to a value that is too low will provide a poor user experience. Your goal is to ensure that your users have a good learning experience, while also managing costs.
+1. Select the **size** of the VM. These size profiles will set the amount of RAM, number of processors, and will govern the number of NICs allowed to be configured on the machine.
 
-1.  Set the **processor count**. A processor count higher than 4 results in diminishing returns on performance, so consider 4 to be the maximum value.
+    - RAM is the main driving factor in cost. You need to determine a reasonable limit for the amount of RAM required for your virtual machine. Setting the limit to a value that is much higher than you actually need will increase cost, but setting the limit to a value that is too low will provide a poor user experience. Your goal is to ensure that your users have a good learning experience, while also managing costs.
 
-1.  If your lab requires nested virtualization, select **Enable Nested Virtualization**.
+    - A processor count higher than 4 results in diminishing returns on performance, so consider 4 to be the maximum value.
+    
+    - If your lab requires nested virtualization, select **Enable Nested Virtualization**.
+
+    >[!knowledge] Licensing considerations when using ESX; traditional ESX allows the control of physical CPU sockets and number of CPU cores allocated evenly to each socket. With some software products licensed is based on physical CPU sockets therefore, it is important to know how Skillable allocates the physical CPU sockets on ESX hosts. If you select a virtual machine size that uses 24 or less vCPU cores the virtual machine will run on a single physical CPU socket. If a virtual machine size with more than 24 vCPUs is selected, then the vCPUs will be split evenly across two physical CPU sockets.
 
 #### Hyper-V Virtual Machines
 
@@ -44,7 +48,7 @@ This document assumes that you have created or imported a virtual machine.
 
     >[!ALERT] An incorrect operating system value can cause boot issues.
 
-1.  Set the **number of processors and the cores per processor**. These values are multiplicative. You can set both the number of processors and the cores per processor and still adhere to the 4 core maximum.
+    >[!knowledge] Licensing considerations when using ESX; traditional ESX allows the control of physical CPU sockets and number of CPU cores allocated evenly to each socket. With some software products licensed is based on physical CPU sockets therefore, it is important to know how Skillable allocates the physical CPU sockets on ESX hosts. If you select a virtual machine size that uses 24 or less vCPU cores the virtual machine will run on a single physical CPU socket. If a virtual machine size with more than 24 vCPUs is selected, then the vCPUs will be split evenly across two physical CPU sockets.
 
 #### Network Adapters Tab
 

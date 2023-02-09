@@ -85,7 +85,7 @@ aria-hidden="true">assignment</i>
        </div>
       <!-- -- End student categories section -->
     </div>
-   </div>
+   </div> 
    <div class="instructorCategory userTypeSection">
   <!-- Begin instructor categories section.. -->
          <div class="cardContainer">
@@ -183,6 +183,7 @@ aria-hidden="true">assignment</i>
     <!-- -- End instructor categories section -->
   </div>
  </div>
+  </div>
   <div class="administratorCategory userTypeSection">
     <!-- Begin administrator categories section.. -->
   <div class="categoriesHeader" tabindex="0" title="Featured Posts" aria-label="Featured Admin Docs">Featured</div>
@@ -191,7 +192,7 @@ aria-hidden="true">assignment</i>
           <div class="category">
           <a href="/tms/tms-administrators/classes/virtual-meetings/integratevirtualmeetingprovider.md" class="categoryThread">
             <i class="material-icons green" aria-hidden="true">bookmarks</i>
-            <span class="categoryTitleFeatured" title="How does my Virtual Meeting Provider integrate with the TMS?">How does my Virtual Meeting Provider integrate with the Skillable TMS?</span>
+            <span class="categoryTitleFeatured" title="How does my Virtual Meeting Provider integrate with the TMS?">How do I use my Virtual Meeting Provider for a Skillable TMS class?</span>
             <span class="categoryDescription">Find out how to integrate your virtual meeting provider into a Skillable TMS class giving your students and instructor one place to connect, launch their labs and course activities.</span>
           </a>
         </div>
@@ -199,7 +200,7 @@ aria-hidden="true">assignment</i>
           <a href="/tms/tms-administrators/badges-achievements/badge-process.md" class="categoryThread">
             <i class="material-icons light-green"
  aria-hidden="true">bookmarks</i>
-            <span class="categoryTitleFeatured" title="What is involved in creating external badges?">What is involved in creating external badges?</span>
+            <span class="categoryTitleFeatured" title="How do I use badges to award my user's achievements?">What is involved in creating external badges?</span>
             <span class="categoryDescription">Your student can now earn externally supported badges through their achievements in the Skillable TMS.</span>
           </a>
         </div>
@@ -214,10 +215,6 @@ aria-hidden="true">assignment</i>
         <div class="viewAll"><a tabindex="0" class="viewAllLink" title="View all" href="/tms/home-landing-pages/admin-featured-landing.md" aria-label="View all Featured Docs for Admins">View all</a></div>
       </div>
     </div> 
-    <div class="moreInfo"  tabindex="0" title="API Client">
-      <span class="moreInfo_header">API Client</span>
-        We have written our API to allow us to add new response fields without clients making any updates. To ensure your API calls work consistently, write your API client implementation to ignore any fields you are not using in your code. This allows your implementation to be stable while the API is dynamic. To assist with this, review our <a href="https://www.nuget.org/packages/LearnOnDemandSystems.OneLearnTMS.OneLearnTMSAPIClient" target="_blank">client .NET API Library</a> which adheres to our best practices.
-    </div>
     <div class="cardsContainer">
         <div class="cardContainer">
               <!-- Begin categories section.. -->

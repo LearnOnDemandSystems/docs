@@ -51,6 +51,7 @@ For those that need to create a firewall exception rule to allow connectivity to
 
 - IP Range:
   - 104.214.106.0/25
+  - 20.114.65.0/25
   - 185.254.59.0/24
   - 103.18.85.0/24
   - 163.47.101.0/25
@@ -66,7 +67,7 @@ If specific IP addresses are required, use the following table as a guide for IP
 
 | **DNS name** | **IP Address 1** | **IP Address 2** |
 | --- | --- | --- |
-| labondemand.com | 104.214.106.31 |   |
+| labondemand.com | 20.114.65.34 | 104.214.106.31 |
 | lms.learnondemand.net | 13.66.39.88 |   |
 | au-rds.au.learnondemandsystems.com | 103.18.85.2 |   |
 | console.au.learnondemandsystems.com | 103.18.85.8 |   |

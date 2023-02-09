@@ -11,11 +11,15 @@ Saving a lab is the only way to retain the work you have accomplished. Canceling
 There are limitations on saved labs, the number of days you have access to labs and there may be limits placed on the number of lab launches permitted. 
 
 ### Article contents
+* [Training expiration](#training-expiration)
 * [Lab access](#lab-access)
 * [Post class lab access](#post-class-lab-access)
 * [Lab expiration](#lab-expiration)
 * [Lab launch limits](#lab-launch-limits)
 * [Disabled and assigned labs](#disabled-and-assigned-labs)
+
+## Training expiration 
+Training expiration is when access to the Class or Course assignment has expired. Students with an expired class or course assignment will no longer be able to launch or resume any labs associated to those assignments. Students will need to reach out to their training organization to inquire about any extensions. 
 
 ## Lab access 
 Lab access is how long you have access to **launch** a new instance of a lab. Access to class labs begins at the start date and time of your class and may extend after a class is over based on the post class lab access that is set up. Access to labs for self-paced training through course assignments begins as soon as the assignment is created and ends 180 days after the creation date, regardless of if or when work on the assignment started.
