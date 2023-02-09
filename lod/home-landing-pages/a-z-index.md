@@ -130,7 +130,7 @@
         <div class="subtopic_title">Code Labs</div>
         <div class="subtopic_description">Code Lab Authoring explained. Glossary of terms and walkthrough for creating your first code lab.</div>
       </a>      
-            <a class="subtopic_link" href="/lod/connectivity-issues.md.md">
+            <a class="subtopic_link" href="/lod/connectivity-issues.md">
         <div class="subtopic_title">Connectivity Issues</div>
         <div class="subtopic_description">How to mitigate common connectivity issues.</div>
       </a>
