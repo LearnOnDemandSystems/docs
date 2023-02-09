@@ -263,7 +263,7 @@
         <div class="subtopic_description">Frequently asked questions to assist lab developers.</div>
       </a>
             <a class="subtopic_link" href="/lod/lab-user-faq.md">
-        <div class="subtopic_title">Lab User Frequently Asked Questions</div>
+        <div class="subtopic_title">Lab User FAQ</div>
         <div class="subtopic_description">Frequently asked questions to assist lab users.</div>
       </a>
         <a class="subtopic_link" href="/lod/lod-lab-developers/lab-instance-sharing.md">
