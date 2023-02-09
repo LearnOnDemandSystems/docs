@@ -198,7 +198,7 @@
         <div class="subtopic_title">Enable Cloud Slice Support in AWS</div>
         <div class="subtopic_description">Setup process to enable cloud slice support in the AWS portal.</div>
       </a>
-            <a class="subtopic_link" href="/lod/excessive-lab-launch-times.md.md">
+            <a class="subtopic_link" href="/lod/excessive-lab-launch-times.md">
         <div class="subtopic_title">Excessive Lab Launch Times</div>
         <div class="subtopic_description">Explanation of excessive lab launch times.</div>
       </a>
@@ -206,7 +206,7 @@
         <div class="subtopic_title">External Instruction Source</div>
         <div class="subtopic_description">Use an Azure DevOps or GitHub repository as the instruction source for labs.</div>
       </a>
-            <a class="subtopic_link" href="/lod/find-running-lab.md.md">
+            <a class="subtopic_link" href="/lod/find-running-lab.md">
         <div class="subtopic_title">Find Running Lab</div>
         <div class="subtopic_description">How to find a running lab instance in the event that the lab window is closed by mistake.</div>
       </a>            
@@ -246,7 +246,7 @@
         <div class="subtopic_title">Importing an ESX Virtual Machine From an OVA.</div>
         <div class="subtopic_description">Virtual machine profile creation, and explanation of virtual machine profile configuration.</div>
       </a>       
-            <a class="subtopic_link" href="/lod/internet-loss.md.md">
+            <a class="subtopic_link" href="/lod/internet-loss.md">
         <div class="subtopic_title">Internet Loss in a Lab</div>
         <div class="subtopic_description">Steps to mitigate issues due to loss of internet in a lab environment.</div>
       </a>     
@@ -286,7 +286,7 @@
         <div class="subtopic_title">Lab Interface Frequently Asked Questions</div>
         <div class="subtopic_description">Frequently asked questions about the Skillable Studio lab interface.</div>
       </a>
-            <a class="subtopic_link" href="/lod/launch-limits.md.md">
+            <a class="subtopic_link" href="/lod/launch-limits.md">
         <div class="subtopic_title">Lab Launch Limits</div>
         <div class="subtopic_description">Explanation of lab launch limits and course activity launch status.</div>
       </a>
