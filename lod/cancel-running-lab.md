@@ -21,9 +21,3 @@ To cancel a running lab, perform the following steps:
 
 
     End Lab, Cancel lab, unable to launch lab
-
-
-
-    <div hidden>
-
-</div>
