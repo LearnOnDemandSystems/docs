@@ -27,11 +27,3 @@ To cancel a running lab, perform the following steps:
     <div hidden>
 
 </div>
-
-
-
-
-<!--search terms-->
-<div hidden>
-<b>searchTerm</b>
-</div>
