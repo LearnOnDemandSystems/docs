@@ -196,6 +196,12 @@ To use network features, such as external internet access or communication betwe
 
     - **Send User Notification:** a notification will be sent to the user in the lab if resources fail to deploy and the lab will still launch. 
 
+1. **Override Script Context**: By default, scripts run in the same permissions context as the lab user. You can use this section to elevate the script context role with defined policies, or elevate to run with Full Admin Access.
+
+    - **Run Script as Admin**: Selecting this will allow scripts in LCA or ABA to be executed in the permissions context of an Admin with full access to the cloud subscription. 
+
+    >[!alert] Enabling Override Script Context will trigger the need for a security review by Skillable staff. 
+
 1. **Datacenter Availability:** One or more datacenters that resources will be deployed to. If multiple datacenters are selected, the datacenter physically closest to the lab user will be selected. If a region is marked as 'Privileged' then additional clearance from the fabric owner may be needed to successfully launch labs in that region. 
 
     - **Max Lab Instances**: This must be enabled for each datacenter that is made available. Once this is enabled, you can specify the maximum number of lab instances that can be launched in that datacenter. 
