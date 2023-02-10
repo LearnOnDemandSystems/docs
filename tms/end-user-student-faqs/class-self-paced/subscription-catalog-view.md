@@ -49,10 +49,11 @@ From the My Dashboard page you can access active and recently accessed completed
 
 [Return to Article contents](#article-contents)
 
-*****************************************
+## Subscription catalogs 
+Subscription catalogs may show in either version 1 or version 2.
 
-## Subscription catalog features
-The Simple course catalogs display as tiles showing a course graphic if one is available, show icons to depict activities in the courses, and have the ability to mark favorites. Courses are shown in alphabetical order, however, any **Featured** courses show first. Filter categories and filters are custom created to allow searches.
+### Subscription catalog version 1
+The first version of the subscription catalog displays tiles showing a course graphic if one is available, show icons to depict activities in the courses, and have the ability to mark favorites. Courses are shown in alphabetical order, however, any **Featured** courses show first. Filter categories and filters are custom created to allow searches.
 
 ![](/tms/images/simple-course-catalog-v1.png)
 
