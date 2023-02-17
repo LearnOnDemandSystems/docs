@@ -1,7 +1,7 @@
 ---
 title: "Container Volumes"
 description: "How to create and manage Container Volumes. Container Volumes are used to store and access files within containers in Skillable Studio."
-isPublished: true
+isPublished: false
 ---
 
 # Container Volumes
