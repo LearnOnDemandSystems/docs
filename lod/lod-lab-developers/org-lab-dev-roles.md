@@ -22,6 +22,7 @@ The Organization Lab Developer role set on LOD uses an additive model where comm
   * [Supplemental Roles](#supplemental-roles)
     + [Organization Activity Editor](#organization-activity-editor)
     + [Organization Advertising Editor](#organization-advertising-editor)
+    + [Organization API Management](#organization-api-management)
     + [Organization Bug Report Manager](#organization-bug-report-manager)
     + [Organization Cloud Slice for Lab Authors](#organization-cloud-slice-for-lab-authors)
     + [Organization Developer Files Management](#organization-developer-files-management)
@@ -56,6 +57,7 @@ This role grants no developer permissions, but grants the ability to assign othe
 **Supplemental Roles**  
 [Organization Activity Editor](#organization-activity-editor)  
 [Organization Advertising Editor](#organization-advertising-editor)  
+[Organization API Management](#organization-api-management)  
 [Organization Bug Report Manager](#organization-bug-report-manager)  
 [Organization Cloud Slice for Lab Authors](#organization-cloud-slice-for-lab-authors)  
 [Organization Developer Files Management](#organization-developer-files-management)
@@ -128,6 +130,9 @@ Grants the ability to manage lab activities. These permissions are included in [
 
 ### Organization Advertising Editor
 Grants the ability to manage Advertising Campaigns. 
+
+### Organization API Management
+Grants visibility of API Consumers and webhook editing.
 
 ### Organization Bug Report Manager
 Grants the ability to manage Bug Reports.
