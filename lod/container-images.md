@@ -91,3 +91,6 @@ To configure a container image on a lab profile:
 - [Container Registries](container-registries.md)
 
 - [Container Web Display](container-web-display.md)
+
+- [Container Volumes](container-volumes.md)
+
