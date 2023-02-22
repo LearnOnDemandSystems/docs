@@ -74,6 +74,10 @@
         <div class="subtopic_title">Lab Instance Transfer</div>
         <div class="subtopic_description">Lab Instance Transfer allows a running lab to transferred to another user account. </div>
       </a>   
+      <a class="subtopic_link" href="/lod/tags.md">
+        <div class="subtopic_title">Markdown User Guide</div>
+        <div class="subtopic_description">Tags are used to organize and filter Lab Profiles and Lab Series, to assist with reporting and delivery.</div>
+      </a>
       <a class="subtopic_link" href="/lod/org-max-ram.md">
         <div class="subtopic_title">Organization RAM Limits</div>
         <div class="subtopic_description">Max RAM usage, max active lab instances and max RAM per lab profile.</div>

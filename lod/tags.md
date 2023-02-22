@@ -1,10 +1,10 @@
 ---
-title: "title"
-description: "description"
-isPublished: false
+title: "Managed Metadata Tags"
+description: "Tags are used to organize and filter Lab Profiles and Lab Series, to assist with reporting and delivery."
+isPublished: true
 ---
 
-# Tags
+# Managed Metadata Tags
 
 ## Table of Contents
 
@@ -13,7 +13,7 @@ isPublished: false
 - [Create a Tag](#create-a-tag)
 - [Using Tags](#using-tags)
   - [API](#api)
-  - [Organizations](#organizations)
+  - [Organization Tags](#organization-tags)
   - [Tags in Lab Profiles](#tags-in-lab-profiles)
   - [Template Gallery](#template-gallery)
 
@@ -68,13 +68,11 @@ Tags can be used via API to launch labs with specific tags, or to collect inform
 
 Tag parameters are appended to an API call. For more information about using the Skillable Lab API, visit [Skillable Connect](https://connect.skillable.com/lab/overview/).
 
-### Organizations 
+### Organization Tags
 
-Organizations have a default collection of tags, when using search pages that contain a filter for Tags. The Names of each filter will be displayed and Values can be selected, to be used in the search. 
+Organizations can have default tags configured, called Quick Tags. Quick Tags allow a tag or set of tags to be displayed on the Tags tab of a Lab Profile, when editing or creating lab profiles that belong to the organization. 
 
-<!-- 
-Organizations that have children organizations associated with them can optionally choose to inherit default Tags from the parent organization.
--->
+Quick Tags can be optionally configured to be a required selection when editing or creating lab profiles that belong to the organization. W
 
 ### Tags in Lab Profiles
 
@@ -93,12 +91,6 @@ Tags are added to lab profiles by editing the lab profile.
 1. Select the **Tag(s)** and then select **OK**.  
 
 1. **Save** the Lab Profile. 
-
-<!--
-### Creating a New Lab Profile using Save As
-
-When creating a new Lab Profile from an existing Lab Profile, using the Save As feature, tabs on the new Lab Profile can be optionally applied during the save process. If the new Lab Profile should not have 
--->
 
 ### Template Gallery 
 

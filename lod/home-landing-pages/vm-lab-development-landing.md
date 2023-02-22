@@ -38,6 +38,10 @@
         <div class="subtopic_title">Lab Developer FAQ</div>
         <div class="subtopic_description">Frequently asked questions to assist lab developers.</div>
       </a>
+      <a class="subtopic_link" href="/lod/tags.md">
+        <div class="subtopic_title">Markdown User Guide</div>
+        <div class="subtopic_description">Tags are used to organize and filter Lab Profiles and Lab Series, to assist with reporting and delivery.</div>
+      </a>
       <a class="subtopic_link" href="/guides/idl2/markdown-user-guide.md">
         <div class="subtopic_title">Markdown User Guide</div>
         <div class="subtopic_description">This document covers Markdown in detail, including syntax for all supported Markdown.</div>
