@@ -33,7 +33,7 @@ Here are some example achievements and their conditions to earn the achievement:
 > [{Subject:0, LabProfileIds:[98765], Count:1, Complete:True}]
 
 **Example 2 - Specific course completion achievement** - A user needs to complete the “Security Fundamentals Bootcamp” course with an ID of 2345:
-> [{Subject:10, CourseIds:[2345], Complete:True}]
+> [{Subject:10, Count:1, CourseIds:[2345], Complete:True}]
 
 **Example 3 - Specific course type with multiple completions achievement** - A user needs to complete 3 courses tagged with the “Database” course tag, which has an ID of 59:
 > [{Subject:20, Count:3, CourseTagIds:[59], Complete:True}]
