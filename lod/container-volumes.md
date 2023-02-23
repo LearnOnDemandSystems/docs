@@ -86,7 +86,7 @@ To upload files:
 
 1. Select **OK** to upload the file. 
 
-    >[!knowledge] File uploads are limited to 2mb per file. 
+    >[!knowledge] File uploads are limited to 2GB per file. 
 
 ## Use a Container Volume in a Lab 
 
