@@ -23,7 +23,7 @@ Tags are used to organize and filter Lab Profiles and Lab Series, to assist with
 
 ## Tag Format 
 
-Tags use the `name:value` format to display Tags in Skillable Studio. The Name of the Tag should be descriptive and the value should reflect the description.
+Tags use the `name:value` format to display Tags in Skillable Studio. The Name of the Tag should be descriptive, and the value should reflect the description.
 
 As an example, the Name could be Operating System and the value could be Windows 10. The tag would be displayed as `Operating System:Windows 10`. 
 
@@ -35,14 +35,14 @@ As an example, the Name could be Operating System and the value could be Windows
 
 1. **Organization**: Select the **Organization** that will manage the tag. 
 
-    >[!note] The tag may still be used by other organizations. The organization selected during this step is the organiziation that has the ability to manage the tag. 
+    >[!note] The tag may still be used by other organizations. The organization selected during this step is the organization that has the ability to manage the tag. 
 
 1. **Display Type**: Select the **Display Type**. 
 
     - **Single Value**: This should be used when the name of a tag only has one value. 
         - Example: a tag is configured with Operating system as the name, and Windows 10 as the value. The tag would display as: `Operating System: Microsoft Windows 10`.
 
-    - **Multiple Value**:This should be used then the Name of a tag has multiple values. When a tag with multiple values is used, two tags are added, with the same name but different values. 
+    - **Multiple Value**: This should be used then the Name of a tag has multiple values. When a tag with multiple values is used, two tags are added, with the same name but different values. 
         - Example: a tag is configured with Operating system as the name, and Windows 10 and Windows 11 as the values. The tags would be displayed as: `Operating System:Windows 10` and  `Operating System:Windows 11`
 
 1. **Enabled**: select this to enable the tag to be used in Skillable Studio.
@@ -57,22 +57,16 @@ As an example, the Name could be Operating System and the value could be Windows
  
 Tags are used in Skillable Studio, in the following areas: 
 
- - Lab Profiles
  - API 
- - Template Gallery
+ - Lab Profiles
  - Organizations 
+ - Template Gallery
 
 ### API
 
 Tags can be used via API to launch labs with specific tags, or to collect information for Lab Profiles and Lab Series that use Tags.
 
 Tag parameters are appended to an API call. For more information about using the Skillable Lab API, visit [Skillable Connect](https://connect.skillable.com/lab/overview/).
-
-### Organization Tags
-
-Organizations can have default tags configured, called Quick Tags. Quick Tags allow a tag or set of tags to be displayed on the Tags tab of a Lab Profile, when editing or creating lab profiles that belong to the organization. 
-
-Quick Tags can be optionally configured to be a required selection when editing or creating lab profiles that belong to the organization. W
 
 ### Tags in Lab Profiles
 
@@ -91,6 +85,12 @@ Tags are added to lab profiles by editing the lab profile.
 1. Select the **Tag(s)** and then select **OK**.  
 
 1. **Save** the Lab Profile. 
+
+### Organization Tags
+
+Organizations can have default tags configured, called Quick Tags. Quick Tags allow a tag or set of tags to be displayed on the Tags tab of a Lab Profile, when editing or creating lab profiles that belong to the organization. 
+
+Quick Tags can be optionally configured to be a required selection when editing or creating lab profiles that belong to the organization. W
 
 ### Template Gallery 
 
