@@ -67,8 +67,8 @@ If you need support for an AWS service that is not listed as supported, please s
 |[Elastic Load Balancing](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_elasticloadbalancing.html)|elasticloadbalancing|supported||
 |[Elastic Load Balancing V2](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_elasticloadbalancingv2.html)|elasticloadbalancing|supported||
 |[EventBridge](https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoneventbridge.html)|events|supported||
-|[EventBridge Scheduler](https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoneventbridgescheduler.html)|events|supported||
-|[EventBridge Pipes](https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoneventbridgepipes.html)|events|supported||
+|[EventBridge Scheduler](https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoneventbridgescheduler.html)|scheduler|supported||
+|[EventBridge Pipes](https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoneventbridgepipes.html)|pipes|supported||
 |[EventBridge Schema](https://docs.aws.amazon.com/service-authorization/latest/reference/list_amazoneventbridgeschemas.html)|schemas|supported||
 |[Identity And Access Management](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_identityandaccessmanagement.html)|iam|supported||
 |[Manage Amazon API Gateway](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_manageamazonapigateway.html)|apigateway|supported||
