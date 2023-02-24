@@ -332,11 +332,11 @@
       </a>
       <a class="subtopic_link" href="/lod/lab-on-demand-lti-1p3-integration.md">
         <div class="subtopic_title">Managed Metadata Tags</div>
-        <div class="subtopic_description">Information for evaluating LTI 1.3</div>
+        <div class="subtopic_description">Tags are used to organize and filter Lab Profiles and Lab Series, to assist with reporting and delivery</div>
       </a>
       <a class="subtopic_link" href="/lod/tags.md">
         <div class="subtopic_title">Markdown User Guide</div>
-        <div class="subtopic_description">Tags are used to organize and filter Lab Profiles and Lab Series, to assist with reporting and delivery.</div>
+        <div class="subtopic_description">This document covers Markdown in detail, including syntax for all supported Markdown.</div>
       </a>
       <a class="subtopic_link" href="/lod/azure-css.md">
         <div class="subtopic_title">Microsoft Azure Cloud Slice Subscription</div>
