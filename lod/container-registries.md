@@ -58,4 +58,7 @@ After accounts are configured, there will be an option to select a registry acco
 
 - [Container Images](container-images.md)
 
+- [Container Volumes](container-volumes.md)
+
 - [Container Web Display](container-web-display.md)
+

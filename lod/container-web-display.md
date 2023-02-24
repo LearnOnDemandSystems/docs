@@ -94,6 +94,9 @@ This example configuration uses the [Visual Studio Code in the browser](https://
 
 ## Related Information 
 
+- [Containers Images](container-images.md)
+
 - [Container Registries](container-registries.md)
 
-- [Containers Images](container-images.md)
+- [Container Volumes](container-volumes.md)
+

@@ -1,7 +1,7 @@
 ---
 title: "Container Volumes"
 description: "How to create and manage Container Volumes. Container Volumes are used to store and access files within containers in Skillable Studio."
-isPublished: false
+isPublished: true
 ---
 
 # Container Volumes
@@ -134,3 +134,12 @@ To access the Container Volume in a running lab:
 
 - Allow lab authors to create a single container image and use that container image with multiple labs, each using custom content from the files in the Container Volume.
 - a scored developer lab where the learner creates code within container A and the code is assessed by running activity scripts against container B that isn't visible to the lab user. This simplifies the overall architecture, and increases the integrity of the assessment. 
+
+## Related Topics 
+
+- [Container Images](container-images.md)
+
+- [Container Registries](container-registries.md)
+
+- [Container Web Display](container-web-display.md)
+
