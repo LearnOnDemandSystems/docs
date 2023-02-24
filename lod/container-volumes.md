@@ -8,6 +8,8 @@ isPublished: true
 
 Container Volumes contain a directory (or multiple directories) that files can be uploaded to or file scan be uploaded outside of a directory. Once files are uploaded, Container Volumes allow lab authors to load files into any container in the lab and share content between containers within a lab. 
 
+Container Volumes deliver significant operational efficiencies for lab developers by not having to modify containers for each course and not having to manage pushing containers to repositories and managing container naming. The same container can be used for a series of courses, therefore delivering these efficiencies as well as ensuring a consistent and familiar experience for lab users.
+
 ## Table of Contents 
 
 - [Table of Contents](#table-of-contents)
@@ -133,7 +135,14 @@ To access the Container Volume in a running lab:
 ## Example Use Cases
 
 - Allow lab authors to create a single container image and use that container image with multiple labs, each using custom content from the files in the Container Volume.
-- a scored developer lab where the learner creates code within container A and the code is assessed by running activity scripts against container B that isn't visible to the lab user. This simplifies the overall architecture, and increases the integrity of the assessment. 
+- A scored developer lab where the learner creates code within container A and the code is assessed by running activity scripts against container B that isn't visible to the lab user. This simplifies the overall architecture, and increases the integrity of the assessment. 
+
+- Containers are being used for a series of programming courses using an Integrated Development Environment (e.g., Visual Studio, Atom, Jupyter, etc) with different programming languages and different example or starter files. This would often require creating a series of updated containers for the starting state of each course. With Shared Container Volumes, it will be a single container that is used and it will just have a different Shared Volume attached and different IDLx instructions. This scales the deliverables by the Lab Developer, enables organizations to update content faster and more frequently as required, without having to manage complexities of container versioning and repository management. This use case can be extended to any application service being used in a container that needs the student to access some type of file or data for learning. 
+
+- Shared Container Volumes can be shared between multiple containers within the same lab. There may be scenarios with learners using Linux and trying to move files between systems. This task is often difficult and not part of the required learning objectives. Container Volumes provides the ability to have a Shared Volume between Linux Containers, which makes this process much simpler and enables the learner to stay engaged and focused on the learning objective rather than be distracted by something that is required, but not important. 
+
+- Immersive learning environments typically require new containers to be created for each immersive learning environment that is required for a training course. These additional containers can take additional time to build and save to container repositories. When using Shared Container Volumes, a master container can be created and then for each course the Shared Volume content is updated to reflect the specific content required for that course and the immersive environment that will be delivered. This will enable quicker delivery of each course and the ability to update content faster and removing the complexities with container management.
+
 
 ## Related Topics 
 
@@ -142,4 +151,3 @@ To access the Container Volume in a running lab:
 - [Container Registries](container-registries.md)
 
 - [Container Web Display](container-web-display.md)
-
