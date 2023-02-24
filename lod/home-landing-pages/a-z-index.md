@@ -334,9 +334,13 @@
         <div class="subtopic_title">Log in to a Virtual Machine</div>
         <div class="subtopic_description">How to log in to a virtual machine.</div>
       </a>
-      <a class="subtopic_link" href="/guides/idl2/markdown-user-guide.md">
+      <a class="subtopic_link" href="/lod/lab-on-demand-lti-1p3-integration.md">
+        <div class="subtopic_title">Managed Metadata Tags</div>
+        <div class="subtopic_description">Information for evaluating LTI 1.3</div>
+      </a>
+      <a class="subtopic_link" href="/lod/tags.md">
         <div class="subtopic_title">Markdown User Guide</div>
-        <div class="subtopic_description">This document covers Markdown in detail, including syntax for all supported Markdown.</div>
+        <div class="subtopic_description">Tags are used to organize and filter Lab Profiles and Lab Series, to assist with reporting and delivery.</div>
       </a>
       <a class="subtopic_link" href="/lod/azure-css.md">
         <div class="subtopic_title">Microsoft Azure Cloud Slice Subscription</div>
@@ -385,6 +389,10 @@
       <a class="subtopic_link" href="/guides/lti/lod-lti.md">
         <div class="subtopic_title">Skillable Studio edX Integration</div>
         <div class="subtopic_description">Integrate edX into your lab profile.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/tags.md">
+        <div class="subtopic_title">Markdown User Guide</div>
+        <div class="subtopic_description">Tags are used to organize and filter Lab Profiles and Lab Series, to assist with reporting and delivery.</div>
       </a>
       <a class="subtopic_link" href="/lod/lab-advisor.md">
          <div class="subtopic_title">Skillable Studio Lab Advisor</div>
