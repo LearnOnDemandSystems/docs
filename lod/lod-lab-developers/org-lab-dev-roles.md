@@ -25,6 +25,7 @@ The Organization Lab Developer role set on LOD uses an additive model where comm
     + [Organization API Management](#organization-api-management)
     + [Organization Bug Report Manager](#organization-bug-report-manager)
     + [Organization Cloud Slice for Lab Authors](#organization-cloud-slice-for-lab-authors)
+    + [Organization Container Management](#organization-container-management)
     + [Organization Developer Files Management](#organization-developer-files-management)
     + [Organization Evaluation Control](#organization-evaluation-control)
     + [Organization Evaluation Viewer](#organization-evaluation-viewer)
@@ -60,6 +61,7 @@ This role grants no developer permissions, but grants the ability to assign othe
 [Organization API Management](#organization-api-management)  
 [Organization Bug Report Manager](#organization-bug-report-manager)  
 [Organization Cloud Slice for Lab Authors](#organization-cloud-slice-for-lab-authors)  
+[Organization Container Management](#organization-container-management)
 [Organization Developer Files Management](#organization-developer-files-management)
 [Organization Evaluation Control](#organization-evaluation-control)  
 [Organization Evaluation Viewer](#organization-evaluation-viewer)  
@@ -139,6 +141,9 @@ Grants the ability to manage Bug Reports.
 
 ### Organization Cloud Slice for Lab Authors
 Grants [Cloud Orchestration](https://docs.skillable.com/guides/cloud-slice/cloud-slice.md) functionality in Lab Profiles, [Access Control Policy](https://docs.skillable.com/lod/create-a-restriction-policy.md#access-control-policies-acp) management, and [Cloud Resource Template](https://docs.skillable.com/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md) management. Also grants the ability to view Cloud Subscriptions. These permissions are included in [Organization Cloud Orchestration Admin](#organization-cloud-orchestration-admin)
+
+### Organization Container Management
+Grants management over container images, registries, and volumes.
 
 ### Organization Developer Files Management
 Grants the ability to upload Lab Developer files into owned Lab Instances using the "Load Files" function.
