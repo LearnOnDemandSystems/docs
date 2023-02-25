@@ -18,7 +18,7 @@ Standard lab saves are as follows:
      - Instructor-led training scheduled on consecutive class days has 7-day lab saves
      - Instructor-led training scheduled on non-consecutive class days has 7-day lab saves 
 
-We can set up lab saves outside of these defaults for special circumstances when necessary. If you need labs in a class to be saved for a different time period, please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help). 
+We can set up lab saves outside of these defaults for special circumstances when necessary. If you need labs in a class to be saved for a different time period, please submit a Support ticket at [**https://skill.info/support**](https://skill.info/support). 
 
 ## View Lab Save Time
 If you want to see if labs in a particular class can be saved and if so, for how long:

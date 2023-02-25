@@ -26,6 +26,18 @@
       <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/ensure-completion-certificates-print-correctly.md">
         <div class="subtopic_title">How do I ensure my course completion certificates print correctly?</div>
       </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/use-survey-or-assessment.md">
+        <div class="subtopic_title">Do I want to use a survey or an assessment?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/surveys.md">
+        <div class="subtopic_title">How do surveys work?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/analyze-survey-results.md">
+        <div class="subtopic_title">How do I export survey responses and analyze them in Excel?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/assessments.md">
+        <div class="subtopic_title">How do assessments work?</div>
+      </a>
    
         Custom Fields
       <a class="subtopic_link" href="/tms/tms-administrators/miscellaneous/custom-fields.md">

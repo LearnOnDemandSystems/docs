@@ -1,9 +1,12 @@
 ---
 title: "Class API Command"
 description: "The Class command returns information about a class."
-isPublished: true
+isPublished: false
 ---
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 # Class
 
 The **Class** command returns information about a class.
@@ -39,7 +42,7 @@ The **Class** command returns information about a class.
 
 ## Example Usage
 
-Imagine… You have a class within your system with an ID = 4449999 that already exists in Lab on Demand.
+Imagine… You have a class within your system with an ID = 4449999 that already exists in Skillable Studio.
 
 ```
 https://labondemand.com/api/v3/class/?id=4449999
@@ -61,3 +64,4 @@ https://labondemand.com/api/v3/class/?id=4449999
     "Error": null
 }
 ```
+-->

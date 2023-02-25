@@ -3,12 +3,12 @@
 > [!ALERT] You are currently viewing the third entry in a series of Quick Starts about Cloud Slice.
 >
 > To complete this quick start, you must have the following:
-> * a cloud subscription configured for use with the One Learn Lab on Demand platform (LOD);
-> * a Cloud Subscription Pool created in LOD that contains the cloud subscription(s) you will use with your Cloud Slice;
+> * a cloud subscription configured for use with the Skillable Studio platform;
+> * a Cloud Subscription Pool created in Skillable Studio that contains the cloud subscription(s) you will use with your Cloud Slice;
 > 
-> If you have not yet configured your cloud subscription for use with LOD, go through the [Configure your Cloud Subscription for use with LOD](configure-subscription.md) Quick Start.
+> If you have not yet configured your cloud subscription for use with Skillable Studio, go through the [Configure your Cloud Subscription for use with Skillable Studio](configure-subscription.md) Quick Start.
 >
-> If you have configured your cloud subscription properly but have not added your subscription into LOD for use with Cloud Slice labs, go through the [Add your Cloud Subscription into LOD](add-subscription-into-lod.md) Quick Start.
+> If you have configured your cloud subscription properly but have not added your subscription into Skillable Studio for use with Cloud Slice labs, go through the [Add your Cloud Subscription into Skillable Studio](add-subscription-into-lod.md) Quick Start.
 
 Estimated time to completion: **5 minutes**.
 
@@ -16,7 +16,7 @@ Creating your first Cloud Slice lab is as easy as 1-2-3!
 
 ## Step 1: Create a Lab Profile
 
-1. Navigate to the <[Lab on Demand Administration page](/Admin).
+1. Navigate to the <[Skillable Studio Administration page](/Admin).
 
 1. Find the **Lab Profiles** tile and click on the <[Create a Lab Profile](/LabProfile/Create) link.
 

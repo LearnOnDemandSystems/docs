@@ -15,4 +15,4 @@ The following articles relate to participating in discussions:
 - [How do my students and I participate in discussions?](../tms-administrators/discussions/participation.md)
 - [How can I be notified of activity on a discussion?](../tms-administrators/discussions/admin-follow.md)
 
-To see all Help articles available for the TMS, you can click the **Home** button at the top of the window.
+To see all Help articles available for the Skillable TMS, you can click the **Home** button at the top of the window.

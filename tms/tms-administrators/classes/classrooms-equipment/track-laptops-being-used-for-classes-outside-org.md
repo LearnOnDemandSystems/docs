@@ -7,7 +7,7 @@ isPublished: true
 
 > Please be aware that functionality covered in this and linked articles may not be available to you.
 
-When you are using your organization's laptops to teach a class offsite, you can use the TMS to schedule the your equipment as a group or as individual items. Scheduling the use of your laptops checks against availability to verify you are not double-booking the equipment during that timeframe.  
+When you are using your organization's laptops to teach a class offsite, you can use the Skillable TMS to schedule the your equipment as a group or as individual items. Scheduling the use of your laptops checks against availability to verify you are not double-booking the equipment during that timeframe.  
 
  To do this you will create "classrooms" for your laptops. Setting up your equipment as classrooms allows you to assign their use when creating or editing a class. This is done the same way you assign a regular classroom; the system allows you to assign multiple classrooms to each class. You can have one "classroom" per laptop, or a "classroom" for a set of laptops depending on your needs. In this way, you can ensure the laptops are not double-booked or overbooked and you can see when they are in use. 
 

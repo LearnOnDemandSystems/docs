@@ -6,7 +6,7 @@ This document describes how to upload template virtual hard disks (VHDs) into a 
 
 ## Uploading template VHDs into a Microsoft Azure subscription
 
-Template VHDs are used as part of the deployment of managed virtual machines in a Cloud Slice lab. You only need to upload your template VHDs into one Microsoft Azure subscription per Cloud Subscription Pool. This subscription is referred to as the master subscription in OneLearn Lab on Demand, and it must be the first subscription that is added to a subscription pool.
+Template VHDs are used as part of the deployment of managed virtual machines in a Cloud Slice lab. You only need to upload your template VHDs into one Microsoft Azure subscription per Cloud Subscription Pool. This subscription is referred to as the master subscription in Skillable Studio, and it must be the first subscription that is added to a subscription pool.
 
 There are multiple supported methods that can be used to upload template VHDs into a Microsoft Azure subscription, but the primary methods are using the  <a href="https://portal.azure.com/" target="_blank">Microsoft Azure Portal</a>, using the <a href="https://azure.microsoft.com/features/storage-explorer/">Microsoft Azure Storage Explorer</a>, using Microsoft PowerShell, or using some combination of the three. In this document we will focus on uploading template VHDs using the Microsoft Azure Portal. To upload template VHDs into a Microsoft Azure subscription using the Microsoft Azure Portal, you must perform the following tasks:
 
@@ -101,7 +101,7 @@ You should also have captured the following pieces of information:
 - Template virtual hard disk storage container name
 - Deployed virtual hard disk storage container name
 
-These values are required for the OneLearn Lab on Demand platform to be able to provision managed virtual machines into Microsoft Azure for your Cloud Slice labs. If you are missing one or more of those values, or if you feel you did not complete one of the tasks listed above, review the steps in this document to find out what you missed.
+These values are required for the Skillable Studio platform to be able to provision managed virtual machines into Microsoft Azure for your Cloud Slice labs. If you are missing one or more of those values, or if you feel you did not complete one of the tasks listed above, review the steps in this document to find out what you missed.
 
 [Back to top][back-to-top]
 

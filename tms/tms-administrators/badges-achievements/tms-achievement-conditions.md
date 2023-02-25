@@ -1,11 +1,9 @@
 ---
-title: "Achievements JSON Help and Examples"
+title: "Writing conditions for achievements: JSON Help and Examples"
 isPublished: true
 ---
 
-# Achievements JSON Help and Examples
-
-Achievement Conditions are structured using JSON format. 
+# Writing conditions for achievements: JSON Help and Examples
 
 Achievement Conditions are structured using JSON format. The following will help you with building these conditions for your achievements.
 
@@ -21,7 +19,7 @@ In the first example, **Subject:0** is referring to launching a lab, and **Count
 
 In the second example, **LabProfileIds:[12345,23456]** identifies the labs that the user must launch to earn the achievement. **Count:2** refers to how many labs must be launched, and **Distinct:True** means each lab has to be launched to reach the Count:2. Therefore, the user would have to launch Lab 12345 AND Lab 23456 to earn the achievement.
 
-JSON conditions in the TMS should start with the Subject name:value pair, **Subject:X**, where **X ** is the integer that specifies what the TMS entity type is for earning this achievement:
+JSON conditions in the Skillable TMS should start with the Subject name:value pair, **Subject:X**, where **X ** is the integer that specifies what the Skillable TMS entity type is for earning this achievement:
 
 - Lab = **0 ** (default)
 - Course = **10**
@@ -35,7 +33,7 @@ Here are some example achievements and their conditions to earn the achievement:
 > [{Subject:0, LabProfileIds:[98765], Count:1, Complete:True}]
 
 **Example 2 - Specific course completion achievement** - A user needs to complete the “Security Fundamentals Bootcamp” course with an ID of 2345:
-> [{Subject:10, CourseIds:[2345], Complete:True}]
+> [{Subject:10, Count:1, CourseIds:[2345], Complete:True}]
 
 **Example 3 - Specific course type with multiple completions achievement** - A user needs to complete 3 courses tagged with the “Database” course tag, which has an ID of 59:
 > [{Subject:20, Count:3, CourseTagIds:[59], Complete:True}]
@@ -55,7 +53,7 @@ Here are some example achievements and their conditions to earn the achievement:
 -->
 
 ## Name:Value Pairs
-The following name:value pairs are some that can be used to configure JSON Conditions in TMS. IDs can be found in the URL for the entity in the TMS.
+The following name:value pairs are some that can be used to configure JSON Conditions in Skillable TMS. IDs can be found in the URL for the entity in the Skillable TMS.
 
 - **LabProfileIds:[X]**
     - X = the Ids of the lab profiles when specific labs are required for the achievement. If blank, any lab profile will qualify. This name:value pair is only applicable when subject = 0 (Subject:0) indicating labs.

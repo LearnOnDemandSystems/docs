@@ -12,8 +12,8 @@
     </div>
   </div>
   <div id="lodContainer" class="cardContainer">
-    <div id="lod" class="trueHome cardContent" title="LOD">
-      <a href="/lod/home.md">Lab on Demand</a>
+    <div id="lod" class="trueHome cardContent" title="Skillable Studio">
+      <a href="/lod/home.md">Skillable Studio</a>
       <p>Build/manage your lab content for consumption.</p>
     </div>
   </div>

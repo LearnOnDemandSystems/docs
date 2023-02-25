@@ -3,7 +3,7 @@ title: "Which Classroom Option Should I Select for Enrollments"
 isPublished: true
 ---
 
-# Which Classroom Option Should I Select for Classes and Class Enrollments
+# Which classroom option should I select for classes and class enrollments
 
 Each student enrollment has an option to specify a location or classroom to show where the student is attending; at your location, at an off-site room, or attending virtually. This allows you to track usage of your rooms, set up automated notifications specific to the attendee's experience, and prepare rooms and courseware for class attendance.
 
@@ -12,9 +12,7 @@ Automated notifications can be set up so that you can send different notificatio
 Classrooms have 3 options available: 
 
 - **Classroom**: Students enrolled to attend in a physical classroom in your center. Select the classroom name.
-
 - **Remote classroom**: A classroom or location organized by your organization where students can virtually attend a class. Set the enrollment classroom to Virtual/Remote and assign a physical classroom to their enrollment.
-
 - **Virtual**: Students attending virtually are not using any of your organization's space, and may be attending from home or the office. Set the enrollment's classroom to Virtual/Remote and **do not assign a physical classroom**. 
 
 ## Class 
@@ -27,13 +25,9 @@ Your class set up determines which attendance locations are available to use. **
 To set the classroom on a Class: 
 
 1. **Navigate** to the **Class page**.
-
 1. Click **Edit**. 
-
 1. Select the **Delivery** expandable section. 
-
 1. Select the **Delivery Type**. 
-
 1. Select **Add Classroom** to select a classroom, or select **Create a Classroom** if you need to create a classroom. 
 
     >[!knowledge] For more information about creating a classroom, see our [Create a Classroom documentation](create-classrooms.md).
@@ -45,11 +39,7 @@ To set the classroom on a Class:
 To set the classroom on a Class Enrollment: 
 
 1. **Navigate** to the **Class Enrollment page**.
-
 1. Click **Edit**. 
-
 1. **Select the drop-down menu** next to Classroom.
-
 1. **Select** a classroom option. 
-
 1. Click **Save**.

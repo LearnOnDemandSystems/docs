@@ -7,9 +7,9 @@ isPublished: true
 
 > Please be aware that not all functionality covered in this article may be available to you.
 
-An assessment is a multiple choice exam or test to determine a user's comprehension of material. Assessments are added as course activities and can be mixed in among labs and videos. After completing an assessment, students can review their results, if allowed. In addition, these results can be viewed within the TMS.
+An assessment is a multiple choice exam or test to determine a user's comprehension of material. Assessments are added as course activities and can be mixed in among labs and videos. After completing an assessment, students can review their results, if allowed. In addition, these results can be viewed within the Skillable TMS.
 
-Assessments are designed in the TMS with multiple choice questions. These questions can have a single correct answer or multiple correct answers. Students can be allowed to review the assessment after they complete it. Because of this you have the option of adding an explanation for the correct answer(s) for each question and a link to a site with additional information.
+Assessments are designed in the Skillable TMS with multiple choice questions. These questions can have a single correct answer or multiple correct answers. Students can be allowed to review the assessment after they complete it. Because of this you have the option of adding an explanation for the correct answer(s) for each question and a link to a site with additional information.
 
 Assessments can be used for both instructor-led and self-paced training. They are added to courses as activities. They have options to permit students to only take the assessment one time or it may be open for the student to retake multiple times. Assessments can be set to allow or restrict students from reviewing the results. In addition, you have the option of requiring students to complete the assessment before moving to subsequent activities.
 
@@ -17,4 +17,4 @@ A student sees the assessment in the course activities of their enrollment or co
 
 ![](/tms/images/assess-response.png)
 
-If you are interested in having assessments added to your courses, please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help). Permissions can be added to allow assessments to be created and assessment responses to be viewed. Depending on the content of the courses, we may need to create custom courses for you or you may be able to create courses on your own.
+If you are interested in having assessments added to your courses, please submit a Support ticket at [**https://skill.info/support**](https://skill.info/support). Permissions can be added to allow assessments to be created and assessment responses to be viewed. Depending on the content of the courses, we may need to create custom courses for you or you may be able to create courses on your own.

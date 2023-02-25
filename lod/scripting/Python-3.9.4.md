@@ -12,32 +12,32 @@ x = datetime.datetime.now()
 print(x)
 ```
 
-## Interacting with Lab on Demand
+## Interacting with Skillable Studio
 
-Your scripts can communicate success or failure to LOD in one of two ways.
+Your scripts can communicate success or failure to Skillable Studio in one of two ways.
 
 ### Return a Boolean value 
 
 ```Python
 //do stuff... all good
-return true;
+return True;
 ```
 
 ```Python
 //do stuff... uh oh
-return false;
+return False;
 ```
 
 ### Use setActivityResult
 
 ```Python
 //do stuff... all good
-setActivityResult(true);
+setActivityResult(True);
 ```
 
 ```Python
 //do stuff... uh oh
-setActivityResult(false);
+setActivityResult(False);
 ```
 
 You can also report the result as a score %...
@@ -77,7 +77,7 @@ If you choose to use setActivityResult, the last time it is called within your s
 ```Python
 setTimeout(function() {
     console.log("This message was left inside the async code.");
-    setActivityResult(true);
+    setActivityResult(True);
 }, 1000);
-return false; //<- this will have no effect, as it will be evaluated before the async code is run.
+return False; //<- this will have no effect, as it will be evaluated before the async code is run.
 ```

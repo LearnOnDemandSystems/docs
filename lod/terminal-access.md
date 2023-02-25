@@ -103,11 +103,11 @@ SSH configuration may need to be modified to enable password authentication or r
 
 1. Make sure the SSH service auto boots. On most versions of Linux can be done by entering the following command: ```sudo systemctl enable ssh```.
 
-1. Start the service with the following command: ```sudo systemctl startssh```.
+1. Start the service with the following command: ```sudo systemctl start ssh```.
 
 1. Once this is done, capture a differencing disk. 
 
-1. In LOD, edit the lab profile and on the **Virtual Machines tab**, check the **_Connect to terminal_** checkbox for the VM you performed the above steps on. 
+1. In Skillable Studio , edit the lab profile and on the **Virtual Machines tab**, check the **_Connect to terminal_** checkbox for the VM you performed the above steps on. 
 
     ![](images/connect-to-terminal.png)
 

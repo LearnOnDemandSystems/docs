@@ -6,11 +6,11 @@ isPublished: true
 
 # Lab Series
 
-Lab Profiles in Lab on Demand (LOD) can be housed in a lab Series. The Lab Series contains Lab Profiles and settings for the Lab Series.
+Lab Profiles in Skillable Studio can be housed in a lab Series. The Lab Series contains Lab Profiles and settings for the Lab Series.
 
 The lab profile is where the settings are configured for the lab. These settings include (but are not limited to): Name, owning organization, expected duration, resource requirements, virtual machines, network configuration, and much more. Lab profiles can exist on their own or they can be part of a Lab Series that contains multiple lab profiles. 
 
-To create a Lab series, click **Create Lab Series** on the Lab Series tile, on the LOD Site Administration page.
+To create a Lab series, click **Create Lab Series** on the Lab Series tile, on the Skillable Studio site administration page.
 
 ![Create a Lab Series](images/create-lab-series.png)
 
@@ -45,7 +45,7 @@ To create a Lab series, click **Create Lab Series** on the Lab Series tile, on t
 
 1. **Max Instances Per Lab Per User (Retakes)**: This allows the number of retakes or relaunches via API, to be limited to a specific number of launches. Once the limit has been reached per lab, per user, an error will be returned in the API call. Additionally, you can restrict the scope of time that the user can relaunch labs within, in the _Days_ field.
 
-    If a user is assigned a Lab Series Assignment, the number of relaunches or retakes will be reset back to 0, for that lab and that user.
+    - **Scope retakes per class**: If a user is assigned a Lab Series Assignment, the number of relaunches or retakes will be reset back to 0, for that lab and that user.
 
 ## Lab Host Tags
 

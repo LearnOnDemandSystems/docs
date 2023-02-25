@@ -1,12 +1,12 @@
 ---
-title: "Terminology used in Lab on Demand"
-description: "Explanation of terminology used in Lab on Demand"
+title: "Terminology used in Skillable Studio"
+description: "Explanation of terminology used in Skillable Studio"
 isPublished: true
 ---
 
 # Platform Terminology
 
-This document provides a brief overview of terminology used in Lab on Demand.
+This document provides a brief overview of terminology used in Skillable Studio.
 
 ## Table of Contents
 
@@ -27,6 +27,7 @@ This document provides a brief overview of terminology used in Lab on Demand.
 * [Development Environment](#development-environment)
 * [Development Status](#development-status)
 * [Duration](#duration)
+* [ESX](#esx)
 * [Evaluation](#evaluation)
 * [Favorites](#favorites)
 * [Hyper-V](#hyper-v)
@@ -60,7 +61,6 @@ This document provides a brief overview of terminology used in Lab on Demand.
 * [Virtual Disk Chain](#virtual-disk-chain)
 * [Virtual Machine Profile](#virtual-machine-profile)
 * [Virtualization Platform](#virtualization-platform)
-* [vSphere](#vsphere)
 * [Additional Resources](#additional-resources)
 
 ## Access Control Policy
@@ -88,7 +88,7 @@ Amazon cloud computing environment.
 Microsoft cloud computing environment.
 
 ## Cloud Credential 
-Credentials that are given to users in a lab, to log in to a cloud environment, or other platforms. Credentials are managed in an Cloud Credential Pool in LOD.
+Credentials that are given to users in a lab, to log in to a cloud environment, or other platforms. Credentials are managed in an Cloud Credential Pool in Skillable Studio.
 
 ## Cloud Credential Pool 
 A pool of credentials that are configured for a specific use, class, or organization, and displayed to the user in a launched lab.
@@ -98,7 +98,7 @@ Cloud Slice enables you to take a Master subscription (either one of yours or on
 
 
 ## Cloud Subscription
-LOD (Lab on Demand) offers cloud virtualization in both Azure and AWS. Using either option you can create a lab that launches the portal of your choosing without the need for a virtual machine inside the lab client. With our Cloud Slice feature, you can also use your subscription to create temporary subscription credentials for your users. We will provide a brief overview below. 
+Skillable Studio offers cloud virtualization in both Azure and AWS. Using either option you can create a lab that launches the portal of your choosing without the need for a virtual machine inside the lab client. With our Cloud Slice feature, you can also use your subscription to create temporary subscription credentials for your users. We will provide a brief overview below. 
 
 >[!Note] Before cloud labs are allowed to be released into Production they must be evaluated for risk of abuse using the Cloud Security standards review.
 
@@ -106,13 +106,13 @@ LOD (Lab on Demand) offers cloud virtualization in both Azure and AWS. Using eit
 Cloud Subscription Pools are used by labs to provision Cloud Slices in a load balanced fashion. Even if you are only using one managed Cloud Subscription, you still must create a Cloud Subscription Pool. This setup allows you to add additional subscriptions to your subscription pool later, at which point you will gain the benefits of the load balancing support that the platform provides.
 
 ## Containers
-Our LOD (Lab on Demand) platform supports containers via Docker. Containers are a lightweight option compared to full Virtual Machines. Container images use virtualization that focuses on a specific application or software, rather than a full operating system. 
+Skillable Studio supports containers via Docker. Containers are a lightweight option compared to full Virtual Machines. Container images use virtualization that focuses on a specific application or software, rather than a full operating system. 
 
 ## Code Labs
 Code labs use a code editor also known as an Integrated Development Environment (IDE) user interface in the lab client to allow the delivery of Labs focused on programming objectives. Code labs utilize containers to provide support for a wide range of coding languages.
 
 ## Container Registry
-Custom registries can be created in LOD, that are linked to an external registry. This is useful to use containers that are maintained in your own external repository. 
+Custom registries can be created in Skillable Studio, that are linked to an external registry. This is useful to use containers that are maintained in your own external repository. 
 
 ## Development Environment
 The virtual environment where lab development occurs. All development should be done in a development organization and only moved to the production organization when it is ready for publishing.
@@ -132,13 +132,13 @@ The expected amount of time it will take a user to complete the lab. After setti
 Evaluations are presented to lab user after the lab is ended, to provide feedback about the lab profile to the instructor or learning organization. 
 
 ## Favorites
-Gallery templates can be favorited in the template gallery for quick access. They will then appear when the available lab profiles are filtered by favorites.  Lab Profiles can also have the favorite flag set to make them stick to the user’s LOD dashboard.
+Gallery templates can be favorited in the template gallery for quick access. They will then appear when the available lab profiles are filtered by favorites.  Lab Profiles can also have the favorite flag set to make them stick to the user’s Skillable Studio dashboard.
 
 ## Hyper-V
 Microsoft hardware virtualization platform that enables the use of virtual machines. 
 
 ## IDLx
-Integrated Digital Lab Experience. The IDLx platform integrates the lab instructions with the LOD Lab Client in the lab environment.  The content written within the IDLx interface is normally written in Markdown, an easy to use markup language for formatting text,
+Integrated Digital Lab Experience. The IDLx platform integrates the lab instructions with the Skillable Studio Lab Client in the lab environment.  The content written within the IDLx interface is normally written in Markdown, an easy to use markup language for formatting text,
 
 ## Inheritance
 Allowing a lab profile to inherit settings and environment properties from another lab profile.
@@ -161,19 +161,19 @@ The interface that the user sees as they work in a lab. The interface is present
 The lab content and instructions written in the IDLx editor and displayed in the lab user interface.
 
 ## Lab Profile
-Labs in Lab on Demand are housed in a Lab Profile. The Lab Profile contains the information about the configurable settings and the virtual machines that make up a lab. For a Lab Profile to be published it must be part of a Lab Series.
+Labs in Skillable Studio are housed in a Lab Profile. The Lab Profile contains the information about the configurable settings and the virtual machines that make up a lab. For a Lab Profile to be published it must be part of a Lab Series.
 
 ## Lab Series
 A Lab Series is a container that holds one or more Lab Profiles. The Lab Series contains Lab Profiles and settings for the Lab Series. It is like the cover of a book, while the Lab Profiles are like the chapters within the book.
 
 ## Life Cycle Action
-With Life Cycle Actions, LOD is able to execute actions when specific events occur during the lab instance life cycle.
+With Life Cycle Actions, Skillable Studio is able to execute actions when specific events occur during the lab instance life cycle.
 
 ## Markdown
 Markdown is an easy-to-use set of markup language to format text. Markdown also supports the use of embedded HTML syntax to format the contents.
 
 ## Organizations
-Organizations are the containers in which all objects in LOD reside. Each organization has two child orgs, Development and Production. Development is used for content creation and testing. Production is used only for content that is ready for consumption.  Organizations also provide one of the security boundaries within the LOD platform.
+Organizations are the containers in which all objects in Skillable Studio reside. Each organization has two child orgs, Development and Production. Development is used for content creation and testing. Production is used only for content that is ready for consumption.  Organizations also provide one of the security boundaries within the Skillable Studio platform.
 
 ## Performance-Based Testing
 Performance-based testing is a challenge-centric, scored lab used for skills validation. It uses activities, such as Activity Based Assessments (ABA), that have scoring turned on.  Questions and Automated Activities are used to validate a Learners' practical skills through the completion of technical tasks, and the results are generated at the end of a lab.
@@ -200,7 +200,7 @@ Resource Templates are used to deploy cloud resources in a cloud environment.
 Scoring allows the student to be given a score for each Activity they complete correctly, and those scores contribute to the student's overall score in the lab. As the lab author, you set the passing score for the lab after you enable scoring in the lab. 
 
 ## Scored Lab
-The Lab on Demand platform supports the ability to score users either in an exam/quiz format or within a hands-on lab. 
+The Skillable Studio platform supports the ability to score users either in an exam/quiz format or within a hands-on lab. 
 
 ## Shared lab
 A Shared Lab is a tool used at Skillable to create environments which share their networks with each other to allow machines to communicate between a Shared Lab Environment and a Participant (or Participants). 
@@ -229,16 +229,16 @@ A Virtual Machine profile represents the hardware configuration of a virtual mac
 ## Virtualization Platform
 The virtualization platform that a lab profile will use for virtual machines or Containers. A virtualization platform is not needed for labs that do not use virtual machines or Containers. Options include: 
     - Hyper-V 
-    - vSphere
+    - ESX
     - Azure
     - AWS
     - Docker
 
-## vSphere
-VMware hardware virtualization platform that enables the use of virtual machines. 
+## ESX
+ESX hardware virtualization platform that enables the use of virtual machines. 
 
 # Additional Resources 
 
-- [Introduction to Lab on Demand UI](/lod/feature-focus/lod-experience.md)
+- [Introduction to Skillable Studio UI](/lod/feature-focus/lod-experience.md)
 - [Lab Developer FAQ](/lod/lab-developer-faq.md)
 - [Lab Developer Roles](/lod/lod-lab-developers/org-lab-dev-roles.md)

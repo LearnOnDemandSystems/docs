@@ -2,20 +2,20 @@
 
 ## Table of Contents
 
-1. Overview
-    1. What level of access is the platform provided?
-    1. What do I need before getting started?
-1. Tutorials
-    1. Enable Cloud Slice support in your Microsoft Azure subscription(s)
-
+- [Overview](#overview)
+  * [What Level of Access is Skillable Studio Provided?](#what-level-of-access-is-skillable-studio-provided-)
+  * [What Do I Need Before Getting Started?](#what-do-i-need-before-getting-started-)
+- [Tutorials](#tutorials)
+  * [Enable Cloud Slice support in your Microsoft Azure subscription(s)](#enable-cloud-slice-support-in-your-microsoft-azure-subscription-s-)
+  * [Add your subscription(s) to the Skillable Studio Platform](#add-your-subscription-s--to-the-skillable-studio-platform)
 
 ## Overview
 
-This document explains the Lab on Demand (LOD) platform permissions within each Microsoft Azure subscription that it will use, and how to enable those subscriptions to be utilized by labs when creating Cloud Slices.
+This document explains the Skillable Studio platform permissions within each Microsoft Azure subscription that it will use, and how to enable those subscriptions to be utilized by labs when creating Cloud Slices.
 
-### What Level of Access is Lab on Demand Provided?
+### What Level of Access is Skillable Studio Provided?
 
-When a subscription is enabled for Cloud Slice, LOD is provided the following access:
+When a subscription is enabled for Cloud Slice, Skillable Studio is provided the following access:
 
 - Global Administrator on the Tenant
 - Owner on the Subscription
@@ -26,9 +26,9 @@ When a subscription is enabled for Cloud Slice, LOD is provided the following ac
 Before getting started with Azure Cloud Slice, you should have the following:
 
 - A Microsoft Azure Active Directory Tenant
-    - It is recommended this tenant is dedicated to only LOD Cloud Slice labs.
+    - It is recommended this tenant is dedicated to only Skillable Studio Cloud Slice labs.
 - One or More Azure Subscriptions
-    - It is highly recommended these subscriptions are dedicated to only LOD cloud slice labs.
+    - It is highly recommended these subscriptions are dedicated to only Skillable Studio cloud slice labs.
         - While only one subscription is needed to get started, it is recommended to use a group of subscriptions (otherwise known as a "pool") to provide load balancing across them 
     - To aid in cost isolation, it is helpful to separate subscriptions for different purposes. Within Microsoft Azure, it is helpful to segregate these subscriptions within Management Groups.
 
@@ -60,10 +60,10 @@ To enable Cloud Slice support, you must perform the following tasks for each ten
     >
     > Leave the field blank and press enter to proceed with setup, reset selections, or exit setup.
     
-### Add your subscription(s) to the Lab on Demand Platform
+### Add your subscription(s) to the Skillable Studio Platform
 
 1. If you are creating a new subscription pool, begin at step 2.  If you are adding subscriptions to an existing pool, begin at step 5.
-1. Navigate to **Subscription Pools** and select **+ Create Subscription Pool** within LOD.
+1. Navigate to **Subscription Pools** and select **+ Create Subscription Pool** within Skillable Studio.
 1. Define the fields on the **Basic Information** tab, using the following settings:
     1. **Cloud Platform:** Azure 
     1. **Pool Type**: ++Manual++
@@ -81,6 +81,6 @@ To enable Cloud Slice support, you must perform the following tasks for each ten
 1. Add the subscription's name and ID, and optionally a description.
 1. If the Subscription Pool has authentication information set at the pool level, and that information is to be used for this subscription as well, click **OK** and your subscription configuration is complete.
 1. If the Subscription Pool does not have authentication information at the pool level, or the authentication information for this subscription is different than that information - go to the **Authentication** tab, select **Override Pool Client Authentication**, perform steps 4.1 and 4.2 above, and click **OK**.
-1. Repeat steps 7-10 for as many subscriptions as you need to add to LOD.
+1. Repeat steps 7-10 for as many subscriptions as you need to add to Skillable Studio.
 
 [Back to top](#cloud-slice-quick-start---configure-subscription---microsoft-azure "Return to the top of the document")

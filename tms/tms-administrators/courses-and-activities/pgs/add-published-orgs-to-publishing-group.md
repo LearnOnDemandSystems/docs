@@ -9,7 +9,7 @@ isPublished: true
 
 For other organizations to consume your courses through their classes and course assignments, they must belong to your publishing group. 
 
-Now that you have created your publishing group and added it to your courses with a specific audience in mind, the final Best Practice step is to add the published organizations. For organizations you manage, you can add them yourself, but for all other organizations, there is an authorization process that is handled by TMS Operations.
+Now that you have created your publishing group and added it to your courses with a specific audience in mind, the final Best Practice step is to add the published organizations. For organizations you manage, you can add them yourself, but for all other organizations, there is an authorization process that is handled by Skillable TMS Operations.
 
 ## For Organizations You Manage
 1. Navigate to the publishing group and click **Edit**.
@@ -21,7 +21,7 @@ Now that you have created your publishing group and added it to your courses wit
 ## For Organizations You Don't Manage
 This is handled through an authorization form with your sales person in the same manner as was done for content providers. If you would like to start offering your proprietary content to our other customers, please reach out to your Account Executive.
 
-Once the authorization process has been completed, the TMS Operations team will add the requested organization to the Published Organizations list of the publishing group.
+Once the authorization process has been completed, the Skillable TMS Operations team will add the requested organization to the Published Organizations list of the publishing group.
 
 ## Remove Published Organizations
 To remove an organization's access to a publishing group, the organization can be removed from the Published Organizations list:

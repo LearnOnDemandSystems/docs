@@ -8,7 +8,7 @@ isPublished: true
 
 ## Overview
 
-Lab environments hosted on Hyper-V or vSphere virtualization platforms utilize Learn on Demand System's on-premise environments. As part of standard network management we utilize monitoring and filtering technology to ensure network stability and security. Three separate networks are available for use:
+Lab environments hosted on Hyper-V or ESX virtualization platforms utilize Learn on Demand System's on-premise environments. As part of standard network management we utilize monitoring and filtering technology to ensure network stability and security. Three separate networks are available for use:
 
 - WebNet - This is default network when internet access is required. Labs on WebNet launch with a unique NAT gateway that provides routing and network isolation.
 
@@ -81,12 +81,13 @@ Exceptions to General Interest - Personal are as follows:
 
 On all networks, including CustomerNet, the following services are prohibited:
 
-- RDP inbound
-- SSH inbound
-- TELNET inbound
 - FTP/TFPT inbound
 - LDAP inbound
+- RDP inbound
 - SMB inbound
+- SMTP outbound
+- SSH inbound
+- TELNET inbound
 
 On the CustomerNet network, labs must follow additional configuration restrictions. Any lab not following these restrictions may be updated by Skillable to bring it into compliance or removed from availability until changes are made.
 

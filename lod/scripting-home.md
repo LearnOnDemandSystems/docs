@@ -1,14 +1,17 @@
 ---
-title: "Lab on Demand Cloud Script Execution"
-description: "Scripting language syntax for interacting with Lab on Demand and Cloud providers."
+title: "Skillable Studio Cloud Script Execution"
+description: "Scripting language syntax for interacting with Skillable Studio and Cloud providers."
 isPublished: true
 ---
 
-# Lab on Demand Cloud Script Execution
+# Skillable Studio Cloud Script Execution
 
-Lab on Demand allows execution of scripts against a cloud subscription, as well as executing scripts that do not have a target. Scripts are used in Automated Activities and Life Cycle Actions.
+Skillable Studio allows execution of scripts against a cloud subscription, as well as executing scripts that do not have a target. Scripts are used in Automated Activities and Life Cycle Actions.
 
 Scripting languages are available in three versions; Azure, AWS  and no cloud provider. For more information, click one of the available scripting languages below: 
+
+- **Bash**
+    - [Bash](/lod/scripting/bash.md)
 
 - **C#**
     - [C# .NET 5](/lod/scripting/Csharp-.NET-5.md) 

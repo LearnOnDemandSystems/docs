@@ -23,7 +23,7 @@ param (
 - We begin our script with a "param()" section to easily identify and separate these variables. Containing them within "param()" is optional, but helps with script readability.
 - The first variable we will define is the success message.
     - This is the message that you will provide your user if they complete the item successfully. This could be something simple and universal as seen here, or more specific to an item.
-- Here you define any custom variables you will need within your script. While the Lab on Demand replacement tokens will work properly and replace as text anywhere in your script, it is a best practice to actually turn them into a variable so that the bulk of the script is natural to the scripting language.
+- Here you define any custom variables you will need within your script. While the Skillable Studio replacement tokens will work properly and replace as text anywhere in your script, it is a best practice to actually turn them into a variable so that the bulk of the script is natural to the scripting language.
 
     > [!ALERT] Ensure any Replacement Tokens placed into a variable are done so wrapped with single quotes (**'token'**) and not double quotes (**"token"**).
     >

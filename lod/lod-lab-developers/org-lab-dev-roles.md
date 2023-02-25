@@ -6,11 +6,11 @@ isPublished: true
 
 # Lab Developer Roles
 
-When developing labs on Lab On Demand (LOD), various development functions will require different permissions. If you are an Organization Administrator, this guide will cover which roles are needed for lab developers to utilize certain features. 
+When developing labs on Skillable Studio, various development functions will require different permissions. If you are an Organization Administrator, this guide will cover which roles are needed for lab developers to utilize certain features. 
 
 ## Philosophy
 
-The Organization Lab Developer role set on LOD uses an additive model where common functions are enabled by **Base Roles**, and additional functionality is given via **Supplemental Roles**. This allows for modular customization of permissions for an Organization while giving developers the specific permissions needed for their workflow. 
+The Organization Lab Developer role set on Skillable Studio uses an additive model where common functions are enabled by **Base Roles**, and additional functionality is given via **Supplemental Roles**. This allows for modular customization of permissions for an Organization while giving developers the specific permissions needed for their workflow. 
 
   * [Roles](#roles)
     + [Organization Role Admin](#organization-role-admin)
@@ -80,12 +80,12 @@ The permissions that come with these roles are outlined below.
 ## Base Roles
 
 ### Default User
-This role is required for a user to login to Lab On Demand. It will be added by default to any user created by the **Organization Role Admin**.
+This role is required for a user to login to Skillable Studio. It will be added by default to any user created by the **Organization Role Admin**.
 
 ### Organization Cloud Orchestration Admin
 This role is designed for users who manage the cloud subscription accounts and within an Organization. 
 
-**Organization Cloud Orchestration Admins** have the ability to access and manage the following LOD features:
+**Organization Cloud Orchestration Admins** have the ability to access and manage the following Skillable Studio features:
 
 - [Access Control Policies](https://docs.skillable.com/lod/create-a-restriction-policy.md#access-control-policies-acp)
 - Cloud Credential Pools
@@ -96,7 +96,7 @@ This role is designed for users who manage the cloud subscription accounts and w
 ### Organization Lab Developer
 This role is the base role for lab development. It grants access to most lab development functions.
 
-**Organization Lab Developers** have the ability to access and manage the following LOD features:  
+**Organization Lab Developers** have the ability to access and manage the following Skillable Studio features:  
 
 - [Access Control Lists](https://docs.skillable.com/lod/access-control-lists.md)
 - [Container Images](https://docs.skillable.com/lod/container-images.md)
@@ -115,7 +115,7 @@ This role is the base role for lab development. It grants access to most lab dev
 
 ### Organization Lab Report Viewer
 This is a view-only role is intended for collecting data and viewing reports on lab activity within an Organization. **Organization Lab Report Viewers** can view the following:
-- [API](https://docs.skillable.com/lod/lod-api/lod-api-main.md) errors
+- [API](https://connect.skillable.com/) errors
 - Lab Instances
 - [Lab Profiles](https://docs.skillable.com/lod/feature-focus/lab-profiles/create.md)
 - Lab Profile statistics
@@ -170,7 +170,7 @@ Grants the ability to view and launch labs. These permissions are included in [O
 Grants the ability to view Lab Profiles and Lab Series. These permissions are included in [Organization Lab Developer](#organization-lab-developer), [Organization Lab Launcher](#organization-lab-launcher), and [Organization Lab Instance Report Viewer](#organization-lab-instance-report-viewer).
 
 ### Organization Lab Series Publisher
-Grants the ability to view and Publish Lab Series to [API Consumers](https://docs.skillable.com/lod/lod-api/lod-api-main.md).
+Grants the ability to view and Publish Lab Series to [API Consumers](https://connect.skillable.com/).
 
 ### Organization Template Gallery Management
 Grants the ability to publish Lab Profiles to the Organization [Template Gallery](https://docs.skillable.com/lod/template-gallery.md), and grants Lab Tag management. 
@@ -185,7 +185,7 @@ Grants the ability to view [VM Profiles](https://docs.skillable.com/lod/vm-profi
 
 Organization Management defines permission scope. When adding an Organization to a user's Organization Management, their current roles will apply to everything within that Organization **and** its child Organizations.
 
-> A proper Organizational structure on LOD is key to managing user access. 
+> A proper Organizational structure on Skillable Studio is key to managing user access. 
 
 To change a user's Organization Management:  
 1. Go to the user's profile.

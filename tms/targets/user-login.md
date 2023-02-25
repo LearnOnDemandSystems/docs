@@ -7,4 +7,4 @@ The following articles will help you, as a student, log in and/or access your la
 - [How do I access my labs using a lab code without a user account?](../end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-without-user-account.md)
 - [How do I access my labs for a class using a lab code when I have a user account?](../end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-with-user-account.md)
 
-To see all Help articles available for the TMS, you can click the **Home** button at the top of the window.
+To see all Help articles available for the Skillable TMS, you can click the **Home** button at the top of the window.

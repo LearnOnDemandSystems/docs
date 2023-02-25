@@ -23,7 +23,7 @@ If you do not see the instructor account in the search results, you may need to 
 
 If you still do not find the instructor account you may do one of the following:
 
-1. Submit a Support ticket at [**https://lod.one/help**](https://lod.one/help) and 
+1. Submit a Support ticket at [**https://skill.info/support**](https://skill.info/support) and 
         1. Ask us to add the instructor to the class for you.
 1. Create a user account for the instructor with an alternate email address.
 

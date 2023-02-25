@@ -1,10 +1,10 @@
 # Deploying a Linux VM on Azure using a Resource Template
 
-Deploying a Linux VM on Azure is quick and easy, using Resource Templates. To create a Resource Template in the OneLearn Lab on Demand platform (LOD), you must perform the tasks below.
+Deploying a Linux VM on Azure is quick and easy, using Resource Templates. To create a Resource Template in the Skillable Studio platform, you must perform the tasks below.
 
-> [!ALERT] To complete this guide, you must first have a Lab Profile in LOD, and an active Microsoft Azure subscription already loaded into LOD and ready for use with Lab Profiles. If you have not created a Lab Profile, or have not yet configured your Azure subscription for use with LOD, please have a look at our [Building your first Cloud Slice lab](../../../lod-home.md#building-your-first-cloud-slice-lab) Quick Start.
+> [!ALERT] To complete this guide, you must first have a Lab Profile in Skillable Studio, and an active Microsoft Azure subscription already loaded into Skillable Studio and ready for use with Lab Profiles. If you have not created a Lab Profile, or have not yet configured your Azure subscription for use with Skillable Studio, please have a look at our [Building your first Cloud Slice lab](../../../lod-home.md#building-your-first-cloud-slice-lab) Quick Start.
 
-1. Navigate to the <[Lab on Demand Administration page](/Admin).
+1. Navigate to the <[Skillable Studio Administration page](/Admin).
 
 1. Click <[Resource Templates](/CloudTemplate) on the **Cloud Services** tile.
 
@@ -14,9 +14,9 @@ Deploying a Linux VM on Azure is quick and easy, using Resource Templates. To cr
 
     ![Create Resource Template](../cloud-slice/images/lod-create-cloud-resource-template.png)
 
-1. Enter ++linux-vm++ into the **Name** field on the **Basic Information** tab.
+1. Enter ++Linux-VM++ into the **Name** field on the **Basic Information** tab.
 
-1. Enter ++Deploys a linux virtual machine++ into the **Description** field on the **Basic Information** tab.
+1. Enter ++Deploys a Linux virtual machine++ into the **Description** field on the **Basic Information** tab.
 
 1. Select your organization, or the organization that will use this resource template.
 
@@ -49,11 +49,11 @@ Deploying a Linux VM on Azure is quick and easy, using Resource Templates. To cr
 
 1. Click **Save**.
 
-**Congratulations!** You have just finished creating a Resource Template in LOD that can be used to deploy an Ubuntu Linux virtual machine as part of a lab. Each student launching a lab that uses this template will receive their own Ubuntu Linux VM, and they will not be able to see or access any of the other VMs that other students are using.
+**Congratulations!** You have just finished creating a Resource Template in Skillable Studio that can be used to deploy an Ubuntu Linux virtual machine as part of a lab. Each student launching a lab that uses this template will receive their own Ubuntu Linux VM, and they will not be able to see or access any of the other VMs that other students are using.
 
 Now that you have that done, it's time to configure your Lab Profile to deploy the resources defined in the Resource Template.
 
-1. Return to the <[Lab on Demand Administration page](/Admin).
+1. Return to the <[Skillable Studio Administration page](/Admin).
 
 1. Navigate to your Lab Profile.
 

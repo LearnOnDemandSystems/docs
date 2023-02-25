@@ -6,7 +6,7 @@ isPublished: true
 
 # Container Web Display 
 
-In Lab on Demand (LOD), containers can be configured to expose specific ports. Each exposed port will be dynamically mapped to an external port on the lab host server when the lab is deployed. 
+In Skillable Studio, containers can be configured to expose specific ports. Each exposed port will be dynamically mapped to an external port on the lab host server when the lab is deployed. Skillable uses a proxy to secure the web application, and adds an SSL certificate, to prevent unauthorized users from accessing your content.  
 
 Selecting the Web Display option for the exposed port will allow the container to output through the exposed port and display in a web browser. 
 
@@ -26,13 +26,19 @@ Selecting the Web Display option for the exposed port will allow the container t
 
 1. Select **Edit** on the container profile. 
 
+1. (Optional) Enter an **Entry Point** if needed. An Entry Point allows you to set or override the container's default entry point. `Example: /bin/bash` 
+
 1. Enter any **Commands** that the container will need. Commands may be needed for your container to perform a specific way, or output on an exposed port. Consult the documentation for the author or publisher of your container image for more information. 
 
 1. Enter any **Environment Variables** that the container will need. 
 
 1. Enter the port to expose and output the container display to. The port entered should be the port that the container author suggests using for display output. 
 
+1. (Optional) Enter a **Start Path** if needed. A Start Path allows signing in to the web application in the container, using a URL parameter. `Example: app/login`
+
 1. Select **Web** on the **Display** option. 
+
+1. Decide if the container should use relative links or absolute links. These links determine how the container's web application generates links to pages within the web application. Enable this option to use relative links within the container. Disabling will cause the container to use absolute links. 
 
 1. **Save** the container profile. 
 
@@ -88,6 +94,9 @@ This example configuration uses the [Visual Studio Code in the browser](https://
 
 ## Related Information 
 
+- [Containers Images](container-images.md)
+
 - [Container Registries](container-registries.md)
 
-- [Containers Images](container-images.md)
+- [Container Volumes](container-volumes.md)
+

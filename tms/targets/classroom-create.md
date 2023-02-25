@@ -8,4 +8,4 @@ Classrooms can be used to book physical classrooms inside your organization or a
 - [How can I create a classroom that is outside my organization's physical location?](../tms-administrators/classes/classrooms-equipment/create-classroom-outside-org.md)
 - [How can I track laptops being used for classes taught outside my organization?](../tms-administrators/classes/classrooms-equipment/track-laptops-being-used-for-classes-outside-org.md)
 
-To see all Help articles available for the TMS, you can click the **Home** button at the top of the window.
+To see all Help articles available for the Skillable TMS, you can click the **Home** button at the top of the window.

@@ -64,7 +64,7 @@ Add or update the courses available within your path. When adding courses, they 
 
 After creation, learning paths can be viewed from the Site Administration page on the Subscriptions tile by selecting the **Learning Paths** link. 
 
-Users with a subscription assignment can view their learning paths from a link in the On-Demand Subscription catalog. Learning paths are displayed in a catalog view, hovering over a tile shows details of the path and provides a **View Pat**h button to open it.
+Users with a subscription assignment can view their learning paths from a link in the On-Demand Subscription catalog. Learning paths are displayed in a catalog view, hovering over a tile shows details of the path and provides a **View Path** button to open it.
 
 ![](/tms/images/learning-paths-image.png)
 

@@ -1,11 +1,14 @@
 ---
 title: "Save API Command"
 description: "The Save command allows you to save a specified lab instance."
-isPublished: true
+isPublished: false
 ---
 
 # Save
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **Save** command allows you to save a specified lab instance.
 
 ## Parameters
@@ -43,3 +46,4 @@ https://labondemand.com/api/v3/save?labinstanceid=2393049
     "Error": null
 }
 ```
+-->

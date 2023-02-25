@@ -36,7 +36,7 @@ To create a lab profile from the Template, select Create on the chosen template 
 
 The lab templates in the gallery may be filtered based on their availability and technology focus.
 
-- *Public* will show templates available to everyone in using Lab on Demand.
+- *Public* will show templates available to everyone in using Skillable Studio.
 
 - *My Organizations* will show templates available only to the organizations you manage.
 
@@ -46,7 +46,7 @@ The lab templates in the gallery may be filtered based on their availability and
 
 ## Lab Tags
 
-Organization Managers and Lab Authors can add additional filters for technology focus by tagging lab profiles with a lab tag. Lab Tags are created in the LOD admin portal by selecting *Lab Tags* under the Lab Profile pane. 
+Organization Managers and Lab Authors can add additional filters for technology focus by tagging lab profiles with a lab tag. Lab Tags are created in the Skillable Studio admin portal by selecting *Lab Tags* under the Lab Profile pane. 
 
 The Lab tags are in a *Title: Subject* format, separated by a colon.
 Here is an example of what one of the *Included Technology* tags from the screenshot above would look like during configuration. Before saving, ensure *Publish to Template Gallery* is enabled if you would like it available as a filter in the template gallery.

@@ -21,14 +21,14 @@
 1. **Name:** This will be the display name of the lab profile.
 1. **Series:** Select the lab series that the lab profile will be associated with.
 1. **Organization:** Select the organization that will own the lab profile and be responsible for maintaining the profile. 
-1. **Virtualization Platform:** Select the virtualization platform that the lab profile will use. (Hyper-V, vSphere, Azure, AWS, Docker or none.) Selecting _None_ will cause the lab profile to use the Cloud Client. 
+1. **Virtualization Platform:** Select the virtualization platform that the lab profile will use. (Hyper-V, ESX, Azure, AWS, Docker or none.) Selecting _None_ will cause the lab profile to use the Cloud Client. 
 1. **Code Lab Fabric**: Enable the lab to be use the Code Lab fabric. For more information, read [Code Labs documentation](/lod/code-lab.md).
 1. **Parent:** A lab can optionally inherit some properties from a parent lab profile. Both the virtual environment (virtual machines, virtual networks, etc) can be inherited, as well as resources and content (manuals, scenario, objective, exercises, tasks, etc). Changes to the parent lab profile will be reflected in instances of this lab.
 1. **Storage Reservation Per Instance:** This is the amount of storage that the lab scheduler will ensure is available before an instance of this lab is Launched on a lab host server. 
 1. **Development Status:** Used to show lab profile development status. (In Development, Awaiting Verification, In Verification, Verification Failed, Complete.) Lab profiles in _Complete_ Development Status will be available for use, other development status' will only be available to registered lab developers. 
 1. **Duration:** The expected amount of time it will take a user to complete the lab. After setting the duration, the maximum duration of the lab will be will be set to 150% of the duration. 
 1. **Prompt user to extend time** by `X` Minutes when `X` Minutes Remain: automatically prompt the user to extend the lab time by a specified amount of time when a specified amount of time is remaining. 
-1. **Language:** The language that the lab UI will be displayed in. This will not change the language displayed in the OS of any virtual machines used unless the virtual machine was configured to display a specific language. Language options include: Chinese (simplified), English, French, German, Japanese, Korean, Portuguese, and Spanish.  
+1. **Language:** The language that the lab UI will be displayed in. This will not change the language displayed in the OS of any virtual machines used unless the virtual machine is configured to display a specific language. Language options include: Chinese (simplified), English, French, German, Japanese, Korean, Portuguese, and Spanish.  
 1. **Level:** Sets the Level for the lab; this can be 100, 200, 300, or 400. 
 1. **Evaluation:** Click to add an Evaluation to the lab profile. The Evaluation must already be created to add it to the lab profile using this button.
 1. **Advertising Campaign:** Used to show introductory content while the lab is loading. This can be a video, PowerPoint presentation or anything accessible by a URL. 
@@ -49,13 +49,15 @@ To use network features, such as external internet access or communication betwe
 
 1. **Type of network:** The type of network to be used by the lab profile. There are four options:
 
+    >[!knowledge] VLAN IDs are configured differently for Hyper-V and ESX. The VLAN ID is set on the VM profile for Hyper-V and set on the Networks tab of the Lab Profile for ESX.
+
    - Private: private network (no internet access), typically used for communication between virtual machines. 
 
-        - VLAN ID: Select automatic VLAD ID assignment or specify a specific VLAN ID. 
+        - VLAN ID: Select automatic VLAN ID assignment or specify a specific VLAN ID. 
 
    - Web Access (NAT): internet accessible with NAT (network address translation)
 
-        - VLAN ID: Select automatic VLAD ID assignment or specify a specific VLAN ID. 
+        - VLAN ID: Select automatic VLAN ID assignment or specify a specific VLAN ID. 
 
         - Gateway address: specify the gateway address or use the default address of 192.168.1.1.
 
@@ -97,7 +99,7 @@ To use network features, such as external internet access or communication betwe
 
     - **Wait for heartbeat before displaying to user**: When this is enabled, the lab client will not display the lab to the user until the virtual machine reports a heartbeat to the virtualization platform. This is useful if you want to prevent the user from accessing the lab before critical machines are up and running. 
     
-        >[!knowledge] this feature requires the VM to have Hyper-V integration services installed on Hyper-V VMs, and VMware Tools installed on a vSphere VM. Windows operating systems starting with Windows 10 and Server 2016 have Hyper-V integration services installed by default. Other operating systems require them to be installed. Additionally, on vSphere VMs, you must ensure that the user credentials in the virtual machine profile are correct (they are used to initiate the file creation in the VM).
+        >[!knowledge] this feature requires the VM to have Hyper-V integration services installed on Hyper-V VMs, and VMware Tools installed on an ESX VM. Windows operating systems starting with Windows 10 and Server 2016 have Hyper-V integration services installed by default. Other operating systems require them to be installed. Additionally, on ESX VMs, you must ensure that the user credentials in the virtual machine profile are correct (they are used to initiate the file creation in the VM).
         >
         >- For more information Hyper-V Integration Services, please see the [Hyper-V Integration Services Documentation](https://docs.microsoft.com/en-us/virtualization/hyper-v-on-windows/reference/integration-services).
         >
@@ -105,17 +107,17 @@ To use network features, such as external internet access or communication betwe
 
     - **Synchronize system time with host**: synchronizes the VM system time with the time on the host that the VM is running on. 
 
-    - **Set initial system time** (available on **vSphere only**): Allows you to set the date and time that the VM will launch at. This can be used in conjunction with _Synchronize system time with host_ to freeze the date and time.
+    - **Set initial system time** (available on **ESX only**): Allows you to set the date and time that the VM will launch at. This can be used in conjunction with _Synchronize system time with host_ to freeze the date and time.
 
     - **Allow user to revert to initial state**: Allows the user to revert to the initial state that the lab was launched at. The user can roll back the VM no matter what has been done in the lab instance. This option is found in the Commands menu (lightning bolt icon) in the lab. 
 
-    - **Make lab instance data available inside virtual machine**: When this option is enabled, lab instance data will be available in the virtual machine. The location varies depending on the platform used (Hyper-v or vSphere):
+    - **Make lab instance data available inside virtual machine**: When this option is enabled, lab instance data will be available in the virtual machine. The location varies depending on the platform used (Hyper-v or ESX):
 
         - Hyper-V: 
         
             On Windows registry: `HKLM\SOFTWARE\Microsoft\Virtual Machine\External`.
 
-        - vSphere: 
+        - ESX: 
         
             On Windows-based systems: `C:\Users\Public\Documents\LabInstance.txt`.
 
@@ -163,7 +165,7 @@ To use network features, such as external internet access or communication betwe
 
 1. **Create Removable Media:** Click to create removable media. This will create removable media that can be used in the lab. Removable media types include Floppy and Optical.
 
-    > [!ALERT] When removable media is created, you must choose a platform that the removable media will be used on; Hyper-V or vSphere. The removable media is tagged in LOD with the platform. The media can only be used with the chosen platform. 
+    > [!ALERT] When removable media is created, you must choose a platform that the removable media will be used on; Hyper-V or ESX. The removable media is tagged in Skillable Studio with the platform. The media can only be used with the chosen platform. 
 
 ## Cloud
 
@@ -193,6 +195,12 @@ To use network features, such as external internet access or communication betwe
     - **Terminate Lab:** the lab will be terminated if resources fail to deploy.
 
     - **Send User Notification:** a notification will be sent to the user in the lab if resources fail to deploy and the lab will still launch. 
+
+1. **Override Script Context**: By default, scripts run in the same permissions context as the lab user. You can use this section to elevate the script context role with defined policies, or elevate to run with Full Admin Access.
+
+    - **Run Script as Admin**: Selecting this will allow scripts in LCA or ABA to be executed in the permissions context of an Admin with full access to the cloud subscription. 
+
+    >[!alert] Enabling Override Script Context will trigger the need for a security review by Skillable staff. 
 
 1. **Datacenter Availability:** One or more datacenters that resources will be deployed to. If multiple datacenters are selected, the datacenter physically closest to the lab user will be selected. If a region is marked as 'Privileged' then additional clearance from the fabric owner may be needed to successfully launch labs in that region. 
 
@@ -225,9 +233,9 @@ To use network features, such as external internet access or communication betwe
 
 1. **Resource Templates**: templates used to deploy resources in a cloud platform. 
 
-    - **Add Resource Template:** add a resource template that is already created in LOD. 
+    - **Add Resource Template:** add a resource template that is already created in Skillable Studio. 
 
-    - **Create Template:** create a new resource template in LOD. 
+    - **Create Template:** create a new resource template in Skillable Studio. 
 
 ## Pre-Instancing
 
@@ -290,7 +298,7 @@ There are additional settings that can **optionally** be configured:
 
 - **Delay**: allows you to introduce a delay between the moment the life cycle event occurs and the action is executed. 
 
-- **Error Action**: controls how Lab on Demand will handle errors that occur when executing this action. All errors are logged against the lab instance by default. You can also choose to notify the user about the error or to end the lab. To prevent users from losing their work, only events early in the lifecycle (build, building, running, etc) allow you to end the lab when an error occurs. 
+- **Error Action**: controls how Skillable Studio will handle errors that occur when executing this action. All errors are logged against the lab instance by default. You can also choose to notify the user about the error or to end the lab. To prevent users from losing their work, only events early in the lifecycle (build, building, running, etc) allow you to end the lab when an error occurs. 
 
 
 For more information about Action and Event types, please see our [Life Cycle Actions documentation](/lod/life-cycle-actions.md).
@@ -320,6 +328,12 @@ For more information about Action and Event types, please see our [Life Cycle Ac
 
 1. **Max Active Instance:** This sets the amount of concurrent labs that can be launched at a time. Setting to _Unlimited_ allows an unlimited amount of launches of this lab profile at a time. Entering a number limits the amount of concurrent labs to the number specified. Any labs that are attempted to be launched after the limit has been met, will be given an error message and will not be able to launch the lab until the number of labs launched is below the maximum amount.
 
+1. **Max Allowed Build Time:** The maximum amount of time for the lab to build. Once the configured maximum amount of time has elapsed, the lab will be set to the option selected in the next field, even if the lab has not completed building. The default max build time is 30 minutes for labs that only use Hyper-V or ESX virtual machines, and 60 minutes for labs with a cloud configuration. If a lab contains Hyper-V or ESX virtual machines and a cloud configuration, the max build time will default to 60 minutes. The build time can be set anywhere from 1 minute to 24 hours. 
+
+    Once the maximum build time has elapsed, options include: 
+    - Mark as Running: the lab instance state will be set to _Running_ and the lab user will be given access to the lab.
+    - Cancel and Teardown: the lab will be cancelled and all VM and/or cloud resources will be torn down. 
+
 1. **Show Timer:** Checking this box will enable the lab to display a countdown timer, showing the user how much time they have left to complete the lab. 
 
 1. **Enable Navigation Warning:** A warning will be displayed if the user navigates away from the lab client before the lab is complete.
@@ -342,7 +356,9 @@ For more information about Action and Event types, please see our [Life Cycle Ac
 
 1. **Show Virtual machine Power Options:** Checking this box enables virtual machine power options to be available to users.
 
-1. **Require Hyper-V Enhanced Controller:** Checking this box requires the user to use the Hyper-V Enhanced controller to work in the lab. If this box is checked, users will not be able to use any other machine remote controllers. Note that the Hyper-V enhanced controller only allows one user to access the lab at a time. 
+<!--
+1. **Require Hyper-V:** Checking this box requires the user to use the Hyper-V Enhanced controller to work in the lab. If this box is checked, users will not be able to use any other machine remote controllers. Note that the Hyper-V enhanced controller only allows one user to access the lab at a time. 
+-->
 
 1. **Enable Instance Link Sharing:** When enabled, the lab instance URLs can be shared between users. If a user copies the URL from their browser's URL bar, they can send it to another user, or open it in a different browser. Note that most virtual machines only allow one user to access them at a time. This settings does not bypass the connection limitation of virtual machines. 
 
@@ -386,7 +402,7 @@ For more information about Action and Event types, please see our [Life Cycle Ac
 
 ### Instructions Source
 
-Lab on Demand allows you to set Azure DevOps (ADO) or GitHub as an instruction source, using an external ADO or GitHub repository into a lab and use that repository as the source of IDLx content for that lab. For more information, read [External Instruction Source](/lod/instruction-source.md).
+Skillable Studio allows you to set Azure DevOps (ADO) or GitHub as an instruction source, using an external ADO or GitHub repository into a lab and use that repository as the source of IDLx content for that lab. For more information, read [External Instruction Source](/lod/instruction-source.md).
 
 - **Instructions Source:** indicates the source of the instructions; GitHub or Azure DevOps. 
 
@@ -398,7 +414,7 @@ Lab on Demand allows you to set Azure DevOps (ADO) or GitHub as an instruction s
 
 - **Content File:** the name and file path of the content file. 
 
-- **Last Sync Time:** the last time a sync was attempted or completed between Lab on Demand and the external instruction source. 
+- **Last Sync Time:** the last time a sync was attempted or completed between Skillable Studio and the external instruction source. 
 
 - **Last Sync Status:** the status of the last sync attempt.
 
@@ -410,7 +426,7 @@ Lab on Demand allows you to set Azure DevOps (ADO) or GitHub as an instruction s
 
 ### LTI (For LTI 1.1 and older only)
 
-1. **Launch URLs**: **LTI** (Learning Tools Interoperability) is a standard defined by the IMS Global Learning Consortium that allows learning systems to consume content provided by external tools or services. This standard enables rich integration between different learning services and platforms, combining their strengths to offer more value to students of those learning systems. For more information on Lab on Demand LTI integration, see our guide here: [LTI Guide](/guides/lti/lod-lti.md).
+1. **Launch URLs**: **LTI** (Learning Tools Interoperability) is a standard defined by the IMS Global Learning Consortium that allows learning systems to consume content provided by external tools or services. This standard enables rich integration between different learning services and platforms, combining their strengths to offer more value to students of those learning systems. For more information on Skillable Studio LTI integration, see our guide here: [LTI Guide](/guides/lti/lod-lti.md).
 
     - **LTI Launch URL:** the URL to launch the lab via LTI.
     - **Scoring Policy:** Select the type of Scoring Policy. Types of Scoring Policy include: _Time Spent_ and _Tasks Complete_.

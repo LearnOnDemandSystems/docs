@@ -12,7 +12,7 @@ This document outlines the considerations and recommendations for Lab Authors wh
 
 A cloud slice lab may contain one or more resource groups. Each resource group can consist of one or more ARM templates deployed concurrently. A cloud slice will contain one user account, but may contain multiple user accounts. User accounts can be assigned access to resource groups based on the build-in roles of Contributor, Owner, and Reader.
 
-The recommended process for building and testing an ARM template for inclusion in LOD is as follows.
+The recommended process for building and testing an ARM template for inclusion in Skillable Studio is as follows.
 
 1. Log into your Azure Subscription and create a new RG.
 1. Create and configure the resources that you want deployed for students within your RG.
@@ -22,8 +22,8 @@ The recommended process for building and testing an ARM template for inclusion i
 1. Once you confirm your ARM template deploys successfully, delete the RG and its contents.
 1. Modify your ARM template so that any resources requiring unique names (either unique across a subscription or globally unique) are appropriately randomized so that no matter how many students launch the lab, their deployments will all succeed. This requires using ARM template functions and/or replacement tokens in the ARM template. Refer to details in the Recommendations and Best Practices section, below, for guidance on name randomization.
 1. Test deployment of your updated ARM template, into a new, empty RG in the same fashion that you did in 6. Ensure that all resources are created in the same region as your RG. Once it is working, delete the RG and its contents.
-1. Either copy your template directly into a new LOD Cloud Resource Template or save it into an external repository (GitHub, etc.) and copy the link into the new LOD Cloud Resource Template. If you save it externally you will need a link that allows anyone to access the raw template file (possible even in GitHub private repos).
-1. Reference the LOD Cloud Resource Template in your Cloud Slice lab.
+1. Either copy your template directly into a new Skillable Studio Cloud Resource Template or save it into an external repository (GitHub, etc.) and copy the link into the new Skillable Studio Cloud Resource Template. If you save it externally you will need a link that allows anyone to access the raw template file (possible even in GitHub private repos).
+1. Reference the Skillable Studio Cloud Resource Template in your Cloud Slice lab.
 1. Launch the lab, and make sure everything from the template is deployed the way you want. If not, return to step 8, resolve your config issues, then continue with steps 9, 10, etc.
 1. Now launch the lab twice, as two separate users, and make sure that both labs launch successfully. This verifies that resource naming is properly configured. This must be done in a Cloud Subscription Pool containing a single subscription. If the first launch succeeds but you get errors on deployment of the second launch, they are most likely due to name conflicts. Return to step 8 and resolve those, then continue with steps 9, 10, etc. Otherwise, if both launches succeeded, then your template is properly configured.
 
@@ -40,13 +40,13 @@ Any valid Azure ARM template can be used as the basis for a Cloud Slice, provide
 1. Create a single resource group in Azure and then use the automation script to preview the ARM template for the resource group. Export and modify as needed using the procedure outlined above.
 1. Avoid referencing templates from public repositories that you do not control. These templates may change without notice and break your lab.
 1. Replace all references to a specific region with [resourcegroup().location]. This enables you to control the region of your deployment with the cloud slice configuration, instead of the template and allows the same template to be used in multiple regions at the same time.
-1. For any object requiring a unique name, use "[concat('<string>,uniquestring(resourceGroup().name)]" where <string> is some value relevant to your lab, such as linuxlab.
+1. For any object requiring a unique name, use "[concat('<string>,uniquestring(resourceGroup().name)]" where <string> is some value relevant to your lab, such as Linux Lab.
 1. Do not hard-code usernames and passwords in the template, instead use template parameters such as adminUsername and adminPassword to enable credentials to be set at lab design time, and allow different labs using the same template.
 1. To assign random passwords, use the &commat;lab.CloudPortalCredential().Password replacement token in the adminPassword parameter. If a resource such as a VM or a database requires a longer password, pad the Cloud Credential Password with additional characters, for example: "[concat('p5wD', parameters('adminPassword')]". Another option is to combine replacement tokens such as &commat;lab.LabInstance.Id and &commat;lab.CloudPortalCredential().Password. This will prevent two users doing the same lab from having access to each other's resources.
 1. For user accessible names such as DNS names of resources, or other public names, include a template parameter for the name instead of generating a unique string. When the template is attached to a lab, use a lab replacement tokens such as the &commat;lab.LabInstance.Id combined with &commat;lab.User.FirstName to create user friendly names that can be also inserted into the lab document using the same replacement token.
 1. If the template is generated from a deployed Azure resource group, remove all embedded comments to improve readability of the template.
 1. If the lab template deploys virtual machines, the sizing of the virtual machine should be captured in a template parameter. This enables sizing information to be easily changed if the deployment region changes, and the currently configured size is not available in the new region.
-1. For Linux VM's, use password authentication, by setting disablePasswordAuthentication to false in the linuxConfiguration section under osProfile in your ARM template. For example, once properly configured your osProfile section may look something like this:
+1. For Linux VM's, use password authentication, by setting disablePasswordAuthentication to false in the Linux Configuration section under OSProfile in your ARM template. For example, once properly configured your OSProfile section may look something like this:
 
     ```json
     "osProfile": {
@@ -64,11 +64,11 @@ Any valid Azure ARM template can be used as the basis for a Cloud Slice, provide
 
 ## Storage Options for ARM Templates
 
-Templates can be stored natively in Lab on Demand, or can be stored on an external document repository such as GitHub. If templates are stored on an external repository, that repository must support anonymous access for Lab on Demand to read the template correctly.
+Templates can be stored natively in Skillable Studio, or can be stored on an external document repository such as GitHub. If templates are stored on an external repository, that repository must support anonymous access for Skillable Studio to read the template correctly.
 
 ## ARM Template Load Testing
 
-If your template will be used for a high volume of concurrent users such as large events or conferences, please contact us at https://lod.one/help for assistance. if you are not already working with Skillable event staff.
+If your template will be used for a high volume of concurrent users such as large events or conferences, please contact us at https://skill.info/support for assistance. if you are not already working with Skillable event staff.
 
 > [!ALERT] **NOTE**: While this is an optional phase, it is highly recommended prior to large deliveries and the only way to guarantee subscriptions are configured correctly for scaling.
 

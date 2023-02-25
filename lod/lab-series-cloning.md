@@ -6,7 +6,7 @@ isPublished: true
 
 # Lab Series Cloning 
 
-As a lab developer, you can create a new Lab Series in Lab on Demand (LOD) by cloning an existing Lab Series. When a Lab Series is cloned, all Lab Profiles and configuration in the Lab Profiles are duplicated in the new Lab Series. 
+As a lab developer, you can create a new Lab Series in Skillable Studio by cloning an existing Lab Series. When a Lab Series is cloned, all Lab Profiles and configuration in the Lab Profiles are duplicated in the new Lab Series. 
 
 There are two ways to clone a Lab Series;  _Save As_ and Import/export. 
 
@@ -57,11 +57,11 @@ When you export the Lab Series, all Lab Profiles will be downloaded in a zip fil
 
 ### Import
 
-1. From the LOD Administration page, click **Import Lab Series** on the Lab Series tile. 
+1. From the Skillable Studio Administration page, click **Import Lab Series** on the Lab Series tile. 
 
 1. Select the organization that will own the Lab Series and be responsible for maintaining the series. 
 
-1. Select the zip file that was exported from LOD. 
+1. Select the zip file that was exported from Skillable Studio. 
 
 1. Click Import
 

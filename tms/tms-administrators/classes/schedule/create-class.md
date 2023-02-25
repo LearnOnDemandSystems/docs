@@ -8,7 +8,7 @@ isPublished: true
 > :small_blue_diamond: Please be aware that functionality covered in this and linked articles may not be available to you.
 
 
-Classes are used to schedule meeting times and give students access to course activities for instructor-led training. If course activities are not needed for the meeting, then a Custom Event can be used.
+Classes are used to schedule meeting times and give students access to course activities for instructor-led training. 
 
 To create a class: 
 1. On the **Admin** menu in the **Classes** group, click **Create Class**. This opens up the Create Class page. 
@@ -50,7 +50,7 @@ Finally, click **Save** to create the class.
 
 > :small_orange_diamond: The other sections (Visibility, Payment, and HTML Description) can be changed later. 
 
-Once the class is created the TMS creates a template by retaining all of your selections except for the class dates, this is to help you create additional classes more quickly.
+Once the class is created the Skillable TMS creates a template by retaining all of your selections except for the class dates, this is to help you create additional classes more quickly.
 
 ## Related Article
 For more information regarding scheduling sessions and how that affects how long labs are saved, please see:

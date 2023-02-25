@@ -30,4 +30,4 @@ The following articles are templates on how to create commonly used notification
 - [How do I create a notification to send when a user is created?](../tms-administrators/notifications/template-user-created.md)
 
 
-To see all Help articles available for the TMS, you can click the **Home** button at the top of the window.
+To see all Help articles available for the Skillable TMS, you can click the **Home** button at the top of the window.

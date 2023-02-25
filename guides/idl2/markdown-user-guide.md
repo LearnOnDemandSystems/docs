@@ -43,7 +43,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
   > \**Bold text**
 
-- **Italic**: used to show emphasis or distinction. Type two _ (underline) on each side of text that is to be emphasized.
+- **Italic**: used to show emphasis or distinction. Type an _ (underline) on each side of text that is to be emphasized.
 
   > \_Italic text_
 
@@ -216,11 +216,11 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
   > `![](image url){heightXwidth}` or `{height}`
 
-- **Video:** Used to embed an image inline with other content. The syntax format should look the same as an image, except the video should begin with a ! (explanation mark), followed by the word VIDEO. 
+- **Video:** Used to embed an image inline with other content. The syntax format should look the same as an image, except the video should begin with a ! (exclamation mark), followed by the word video. 
 
   > \!video[text to display]\(url)
   
-- **Audio:** Used to embed an inline audio player, or a link to an audio recording.The syntax format should look the same as a video, except the audio should begin with a ! (explanation mark), followed by the word audio.
+- **Audio:** Used to embed an inline audio player, or a link to an audio recording.The syntax format should look the same as a video, except the audio should begin with a ! (exclamation mark), followed by the word audio.
 
   > \!audio[text to display](URL)
 
@@ -252,7 +252,7 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
 - **Ordered list:** Used to list items in a particular order, separated by numbers rather than bullets. Type the number 1, followed by a space and then the text to be listed. Pressing enter at the end of the text will start the next line with number 2.
 
-- Both Unordered and Ordered lists can contain Task Checkboxes for the student to check off steps as completed. Both list types can be combined in the same list. Task Checkboxes are used track and report lab progress to LOD and TMS, as well as a visual marker for students. Lab progress is calculated by the percentage of Task Checkboxes that are checked in the lab instructions.
+- Both Unordered and Ordered lists can contain Task Checkboxes for the student to check off steps as completed. Both list types can be combined in the same list. Task Checkboxes are used track and report lab progress to Skillable Studio and TMS, as well as a visual marker for students. Lab progress is calculated by the percentage of Task Checkboxes that are checked in the lab instructions.
 
 ```Unordered_Task_List
 - [] Item 1
@@ -302,7 +302,7 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
 ## Special formatting 
 
-- **Variables**: Used to store information that is not known at the time of lab authoring. Variables use two Replacement tokens; **&commat;lab.textbox(name)** and **&commat;lab.Variable(name)**. **Use &commat;lab.texbox(name) to define** the variable in the (name). **Use &commat;lab.Variable(name) to recall** the information store in the variable. For example, you could create a variable with &commat;lab.textbox(studentPassword) and ask the student to enter a password in the field. Later in the lab you could call back the student's password with &commat;lab.Variable(studentPassword). This prevents the student from having to remember or write down their password, since it is stored in the lab by a variable. 
+- **Variables**: Used to store information that is not known at the time of lab authoring. Variables use two Replacement tokens; **&commat;lab.TextBox(name)** and **&commat;lab.Variable(name)**. **Use &commat;lab.TextBox(name) to define** the variable in the (name). **Use &commat;lab.Variable(name) to recall** the information store in the variable. For example, you could create a variable with &commat;lab.textbox(studentPassword) and ask the student to enter a password in the field. Later in the lab you could call back the student's password with &commat;lab.Variable(studentPassword). This prevents the student from having to remember or write down their password, since it is stored in the lab by a variable. 
 
   - Defining Variable in lab instruction editor view:
   
@@ -386,10 +386,10 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
 - **Sections:** used to group lab instructions and elements together so they may be called up on and manipulated as one. This is done by assigning a lab variable that has been set via LCA, ABA, an IDLx textbox  or an IDLx drop-down menu.
 
-    > :::sectionName(variableName-variabelValue)
-
+    > :::sectionName(variableName-variableValue)
+    > 
     > section text or markdown elements
-
+    > 
     > :::
 
     > ![](images/section-in-lab-instructions.png "Sections")
@@ -476,7 +476,7 @@ Although potentially any task could be reduced to an action that can be executed
     <!-- This image MUST be placed before the HTML code below it in order for it to be properly recognized as a child of the list item before it. -->
     ![Reference Instruction Block](images/reference-instruction-blocks.png)
 
-  <!-- This code must be indented by only two spaces in order for it to render the HTML. Indenting by 4 spaces will show the HTML in a code block, which is not what we want. -->
+  <!-- This code must be indented by only two spaces in order for it to render the HTML. Indenting by 4 spaces will show the HTML in a code block. -->
   <pre><code title="Copy to clipboard" class="prettyprint prettyprinted" style="">&#33;INSTRUCTIONS[][label]<span class="pln">
 
   </span><span class="pun">&gt; [label]:</span><span class="pln">
@@ -497,57 +497,73 @@ Although potentially any task could be reduced to an action that can be executed
 
 - **Copyable and Type Text:** used to make text copy to the local clipboard and type into a virtual machine when the student clicks the text. Type four + (plus) symbols on each side of the text that should be made copyable and type text. 
 
-  > \++Click to copy to clipboard and type into a VM++
+  > \++++Click to copy to clipboard and type into a VM++++
   >
   > ![](images/copyable-and-type-text.png "Copyable Text")
   
 - **Embed YouTube video:** used to embed a YouTube video inline with the lab instructions. URLs from YouTube.com automatically embed. Videos from any other URL will not embed.
 
-  > `!VIDEO[text to display](url)` 
+  > `!video[text to display](url)` 
 
 - **Replacement Token:** used to replace text in lab instructions with a variable that is unknown at the time of authoring the lab instructions. These variables may not be generated or created until the lab is launched by the student. These can include usernames, user first name, user last name, running lab instance ID number, etc. To apply a Replacement Token, in the parameter value field, simply enter "&commat;lab", and the press the period key. The moment you type the period you will be presented with all available replacement tokens for your lab. 
 
-  > |Lab Replacement Token|Description|
-  > |--|--|
-  >|`@lab.Activity(Automated1)`|Inserts activity Automated1 into the instructions.|
-  >|`@lab.Activity(Question1)`|Inserts activity Question1 into the instructions.|
-  >|`@lab.LabInstance.Id`|The unique ID of the running lab instance.|
-  >|`@lab.LabInstance.GlobalId`|The globally unique ID of the running lab instance.|
-  >|`@lab.LabInstance.StartDate`|The UTC start date of the running lab instance. Format: yyyyMMdd|
-  >|`@lab.LabProfile.Id`|The unique ID of the lab profile.|
-  >|`@lab.User.Id`|The unique ID of user running the lab.|
-  >|`@lab.User.FirstName`|The first name of the user running the lab.|
-  >|`@lab.User.LastName`|The last name of the user running the lab.|
-  >|`@lab.User.Email`|The e-mail address of the user running the lab.|
-  >|`@lab.User.ExternalId`|The external ID of the user running the lab (if launched via    API).|
-  >|`@lab.User.Organization.Id`|The ID of the organization the user belongs to.|
-  >|`@lab.User.Organization.Name`|The name of the organization the user belongs to.|
-  >|`@lab.Tag`|The tag associated with the lab instance (if specified when launched via    API).|
-  >|`@lab.CloudSubscription.Id`|The unique ID of the subscription backing the lab    instance.|
-  >|`@lab.CloudSubscription.Name`|The name of the subscription backing the lab instance.|
-  >|`@lab.CloudSubscription.TenantName`|The tenant name of the subscription backing the    lab instance.|
-  >|`@lab.CloudResourceGroup(1).Name`|The instance name of the ResourceGroup1 resource    group.|
-  >|`@lab.CloudResourceTemplate(Template1).Name`|The instance name of the VNET resource.|
-  >|`@lab.CloudResourceTemplate(Template1).DeploymentLink`|A deployment link for the    VNET resource.|
-  >|`@lab.CloudResourceTemplate(Template1).DeploymentUrl`|A deployment URL for the VNET    resource (rendered as text, not a link).|
-  >|`@lab.CloudResourceTemplate(Template1).Parameters[complex-VNETName]`|The value sent    for the complex-VNETName parameter when creating the VNET resource.|
-  >|`@lab.CloudPortalCredential(User1).Username`|The username of the User1-* cloud    portal user account.|
-  >|`@lab.CloudPortalCredential(User1).Password`|The password of the User1-* cloud    portal user account.|
-  >|`@lab.CloudCredential(PoolName).Username`|The Username assigned from the PoolName credential pool.|
-  >|`@lab.CloudCredential(PoolName).Password`|The Password assigned from the PoolName credential pool.|
-  >|`@lab.CloudCredential(PoolName).TenantName`|The TenantName assigned from the PoolName credential pool.|
-  >|`@lab.CloudCredential(PoolName).TenantPrefix`|The TenantPrefix assigned from the   PoolName credential pool.|
-  >|`@lab.CloudPortal.Link`|A link to the cloud portal.|
-  >|`@lab.CloudPortal.Url`|The cloud portal URL (rendered as text, not a link).|
-  >|`@lab.CloudPortal.SignInLink`|A cloud portal sign-in link.|
-  >|`@lab.CloudPortal.SignInUrl`|The cloud portal sign-in URL (rendered as text, not a    link).|
-  >|`@lab.CloudPortal.SignOutLink`|A cloud portal sign-out link.|
-  >|`@lab.CloudPortal.SignOutUrl`|The cloud portal sign-out URL (rendered as text, not a    link).|
-  >|`@lab.TextBox(name)`|A text box that allows the user to set the value of a named    variable. This variable value can then be displayed elsewhere using @lab.Variable(name)   .|
-  >|`@lab.DropDownList(name)[val1,val2]`|A dropdown list that allows the user to set the    value of a named variable. This variable value can then be displayed elsewhere using    @lab.Variabl(name).|
-   >|`@lab.KeyCombo(title of button)[key combo]`|Generates a button that sends a combination of key codes to the active VM.|
-
-  *(VM-ID) should be replaced with the unique ID of the virtual machine in use.
+   > |Lab Replacement Token|Description|
+   > |--|--|
+   >|`@lab.Activity(Automated1)`|Inserts activity Automated1 into the instructions.|
+   >|`@lab.Activity(Question1)`|Inserts activity Question1 into the instructions.|
+   >|`@lab.LabInstance.Id`|The unique ID of the running lab instance.|
+   >|`@lab.LabInstance.GlobalId`|The globally unique ID of the running lab instance.|
+   >|`@lab.LabInstance.StartDate`|The UTC start date of the running lab instance. Format: yyyyMMdd|
+   >|`@lab.LabProfile.Id`|The unique ID of the lab profile.|
+   >|`@lab.User.Id`|The unique ID of user running the lab.|
+   >|`@lab.User.FirstName`|The first name of the user running the lab.|
+   >|`@lab.User.LastName`|The last name of the user running the lab.|
+   >|`@lab.User.Email`|The e-mail address of the user running the lab.|
+   >|`@lab.User.ExternalId`|The external ID of the user running the lab (if launched via    API).|
+   >|`@lab.User.Organization.Id`|The ID of the organization the user belongs to.|
+   >|`@lab.User.Organization.Name`|The name of the organization the user belongs to.|
+   >|`@lab.Tag`|The tag associated with the lab instance (if specified when launched via    API).|
+   >|`@lab.CtrlAltDelete`|Sends Ctrl+Alt+Delete to the currently active virtual machine.|
+   >|`@lab.VirtualMachine(VirtualMachineName).SelectLink`|A link to select the VirtualMachineName virtual machine.|
+   >|`@lab.VirtualMachine(VirtualMachineName).Username`|Username for signing into the VirtualMachineName virtual machine.|
+   >|`@lab.VirtualMachine(VirtualMachineName).Password`|Password for signing into the VirtualMachineName virtual machine.|
+   >|`@lab.VirtualMachine(VirtualMachineName).Console`|Inline console for the VirtualMachineName virtual machine.|
+   >|`@lab.OpticalMedia(1).LoadLink`|A link to load optical media on the active virtual machine.|
+   >|`@lab.FloppyMedia(1).LoadLink`|A link to load floppy media on the active virtual machine.|
+   >|`@lab.Container(containerName).InstanceName`|The instance name for container (containerName).|
+   >|`@lab.Container(containerName).Terminal`|Terminal for (containerName)|
+   >|`@lab.Container(containerName).ExpostedPort(portValue).Address`|The address for the exposed port (portValue) on container (containerName).|
+   >|`@lab.Container(containerName).ExpostedPort(portValue).HostName`|	The host name for the exposed port (portValue) on container (containerName).|
+   >|`@lab.Container(containerName).ExpostedPort(portValue).HostPort`|The host port for the exposed port (portValue) on container (containerName).|
+   >|`@lab.Container(alias).WebDisplayUrl`  | The web display URL for container (alias).|
+   >|`@lab.Container(alias).WebDisplayPath` | The web display path (folder portion of the URL) for container (alias).|
+   >|`@lab.CloudSubscription.Id`|The unique ID of the subscription the lab is launched against.|
+   >|`@lab.CloudSubscription.Name`|The name of the subscription the lab is launched against.|
+   >|`@lab.CloudSubscription.TenantName`|The tenant name of the subscription the lab is launched against.|
+   >|`@lab.CloudResourceGroup(1).Name`|The instance name of the ResourceGroup1 resource group.|
+   >|`@lab.CloudResourceGroup(StackName).Name`|The instance name of the (StackName) resource group. This applies to AWS only|
+   >|`@lab.CloudResourceGroup(StackName).Location`|The cloud platform region/location where (StackName) resources are deployed.|
+   >|`@lab.CloudResourceTemplate(Template1).Name`|The instance name of the VNET resource.|
+   >|`@lab.CloudResourceTemplate(Template1).DeploymentLink`|A deployment link for the VNET resource.|
+   >|`@lab.CloudResourceTemplate(Template1).DeploymentUrl`|A deployment URL for the VNET resource (rendered as text, not a link).|
+   >|`@lab.CloudResourceTemplate(Template1).Parameters[complex-VNETName]`|The value sent for the complex-VNETName parameter when creating the VNET resource.|
+   >|`@lab.CloudPortalCredential(User1).Username`|The username of the User1 cloud portal user account.|
+   >|`@lab.CloudPortalCredential(User1).Password`|The password of the User1 cloud portal user account.|
+   >|`@lab.CloudCredential(PoolName).Username`|The Username assigned from the PoolName credential pool.|
+   >|`@lab.CloudCredential(PoolName).Password`|The Password assigned from the PoolName credential pool.|
+   >|`@lab.CloudCredential(PoolName).TenantName`|The TenantName assigned from the PoolName credential pool.|
+   >|`@lab.CloudCredential(PoolName).TenantPrefix`|The TenantPrefix assigned from the   PoolName credential pool.|
+   >|`@lab.CloudPortal.Link`|A link to the cloud portal.|
+   >|`@lab.CloudPortal.Url`|The cloud portal URL (rendered as text, not a link).|
+   >|`@lab.CloudPortal.SignInLink`|A cloud portal sign-in link.|
+   >|`@lab.CloudPortal.SignInUrl`|The cloud portal sign-in URL (rendered as text, not a link).|
+   >|`@lab.CloudPortal.SignOutLink`|A cloud portal sign-out link.|
+   >|`@lab.CloudPortal.SignOutUrl`|The cloud portal sign-out URL (rendered as text, not a link).|
+   >|`@lab.TextBox(name)`|A text box that allows the user to set the value of a named    variable. This variable value can then be displayed elsewhere using @lab.Variable(name).|
+   >|`@lab.MaskedTextBox(name)`|A text box with hidden contents used for passwords.|
+   >|`@lab.DropDownList(name)[val1,val2]`|A dropdown list that allows the user to set the value of a named variable. This variable value can then be displayed elsewhere using @lab.Variable(name).|
+   >|`@lab.KeyCombo(label)[key combo]`|Generates a button that sends a combination of key codes to the active VM.|
+   >|`@lab.EssayTextBox(name)[height]`	|A larger essay style text box that can hold up to 5000 characters. **Height in number of lines declared by [height] is optional**. This variable value can then be displayed elsewhere using `@lab.Variable(name)`.|
 
 ---
 

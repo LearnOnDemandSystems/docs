@@ -1,3 +1,7 @@
+---
+title: "Best practices for writing assessment questions"
+ispublished: true
+---
 # Best practices for writing assessment questions
 
 1. Write your questions to represent course objectives and adequately cover the critical and important course objectives.

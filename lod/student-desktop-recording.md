@@ -8,7 +8,7 @@ isPublished: true
 
 This feature is only available for labs that are launched through an **Exam-configured API Consumer**. 
 
-Student Desktop Recording allows the Hyper-V RDP session between the lab user and the lab to be captured in a video that can be used to view the lab user's activity in the lab after the lab has ended. When a lab user launches a lab, the RDP session will begin recording after the virtual machine (VM) connects. After the lab has ended, a video only recording of the lab activity will be saved to the user's lab instance details page for that session. **RDP recordings of the lab session do not capture audio**. 
+Student Desktop Recording allows the Hyper-V or Azure Virtualization RDP session between the lab user and the lab to be captured in a video that can be used to view the lab user's activity in the lab after the lab has ended. When a lab user launches a lab, the RDP session will begin recording after the virtual machine (VM) connects. After the lab has ended, a video only recording of the lab activity will be saved to the user's lab instance details page for that session. **RDP recordings of the lab session do not capture audio**. 
 
 >[!alert] **This feature is in beta and there are some [known issues and limitations](#known-issues-and-limitations).**
 
@@ -59,7 +59,7 @@ Lab session recordings can be viewed from the lab instance page for the lab sess
 
 1. Click _Find Lab Instances_ at the top of the page. 
 
-    >[!knowledge] Alternatively, you can use the _Find Lab Instances_ link on the Administration page of Lab on Demand, and filter for the lab profile you want to view. 
+    >[!knowledge] Alternatively, you can use the _Find Lab Instances_ link on the Administration page of Skillable Studio, and filter for the lab profile you want to view. 
 
 1. The next page will show all lab instances that are associated with the lab profile. 
 
@@ -79,7 +79,7 @@ Lab session recordings can be viewed from the lab instance page for the lab sess
 
 ### View Session Recordings for a Particular User
 
-1. Navigate to the user's profile page in Lab on Demand. 
+1. Navigate to the user's profile page in Skillable Studio. 
 
 1. Click _Lab Instances_ at the top of the page to view all the user's lab instances. 
 
@@ -107,7 +107,7 @@ If you would like to download a copy of the lab instance recording for archival 
 
 1. Click _Find Lab Instances_ at the top of the page. 
 
-    >[!knowledge] Alternatively, you can use the _Find Lab Instances_ link on the Administration page of Lab on Demand, and filter for the lab profile you want to view. 
+    >[!knowledge] Alternatively, you can use the _Find Lab Instances_ link on the Administration page of Skillable Studio , and filter for the lab profile you want to view. 
 
 1. The next page will show all lab instances that are associated with the lab profile. 
 
@@ -141,7 +141,8 @@ If you would like to download a copy of the lab instance recording for archival 
 
 
 **Known Limitations**
-- RDP session recording is not available on vSphere labs. It is only available for Hyper-V based labs. 
+
+- RDP session recording is not available on ESX labs. It is only available for Hyper-V based labs. 
 - Video playback is only available on https://labondemand.com 
 - The recording can be downloaded but cannot be retrieved via API. 
 - Periods of inactivity in the VM session may not be captured in the recording.

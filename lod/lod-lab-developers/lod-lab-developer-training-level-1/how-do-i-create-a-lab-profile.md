@@ -2,7 +2,7 @@
 
 A Lab Profile is used to provide the lab interface, the virtual machines, and other items used in the lab to the user. A Lab Profile is a required component of all labs.
 
-For LOD lab component terminology and guidelines for building Lab Series and Lab Profiles, please read the [LOD Terminology and Guidelines for Building a Lab article](lod-terminology-and-guidelines-for-building-a-lab.md).
+For Skillable Studio lab component terminology and guidelines for building Lab Series and Lab Profiles, please read the [Skillable Studio Terminology and Guidelines for Building a Lab article](lod-terminology-and-guidelines-for-building-a-lab.md).
 
 There are two locations to create a Lab Profile: 
 
@@ -21,7 +21,7 @@ Once you are logged in:
 |Name|Y|Name of lab|
 |Series|Y|Automatically filled in from the Lab Series where the process stared|
 |Organization|Y|Automatically filled in from the Organization in your User's Profile|
-|Platform|Y|Drop-down with Virtual Server, Hyper-V, vSphere, and Azure platforms|
+|Platform|Y|Drop-down with Virtual Server, Hyper-V, ESX, and Azure platforms|
 |Storage Reservation|Y|Amount of storage you feel the launched lab will take (see explanation under the question mark in the Lab Profile)|
 |Development Status|Y|Drop-down for your use - only Complete labs can be published|
 |Duration|Y|Amount of time the launched lab will provide the user|

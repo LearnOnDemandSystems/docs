@@ -11,27 +11,28 @@
           <!-- Begin categories section.. -->
           <div class="cloudSlice cardContent">
             <div class="cardHeader" tabindex="0" title="Student Basics" aria-label="Student Basics docs">Basics</div>
-            <div class="category">
-              <a href="/tms/end-user-student-faqs/basics/forgot-password.md" class="categoryThread">
-                <i class="material-icons light-green"
- title="Student Basics" aria-hidden="true">person</i>
-                <span class="categoryTitle" title="What do I do if I forgot my password?">What do I do if I forgot my password?</span>
-              </a>
-            </div>
             <div class="category"> 
-              <a href="/tms/end-user-student-faqs/basics/change-password.md" class="categoryThread">
+              <a href="/tms/end-user-student-faqs/basics/dashboard.md" class="categoryThread">
                 <i class="material-icons green"
  title="Student Basics" aria-hidden="true">person</i>
-                <span class="categoryTitle" title="How do I change my password?">How do I change my password?</span>
+                <span class="categoryTitle" title="How do I use my student dashboard?">How do I use my student dashboard?</span>
               </a>
             </div>
-            <div class="category">  
-              <a href="/tms/end-user-student-faqs/basics/change-user-profile.md" class="categoryThread">
-                <i class="material-icons light-green"
+               <div class="category">
+              <a href="/tms/end-user-student-faqs/basics/forgot-password.md" class="categoryThread">
+                <i class="material-icons green"
  title="Student Basics" aria-hidden="true">person</i>
-                <span class="categoryTitle" title="How do I access and change my user profile?">How do I access and change my user profile?</span>
+                <span class="categoryTitle" title="How do I access my labs using a lab code without a user account?">How do I access my labs using a lab code without a user account?</span>
               </a>
             </div>
+               <div class="category">
+              <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-without-user-account.md" class="categoryThread">
+                <i class="material-icons green" 
+ title="Student Basics" aria-hidden="true">person</i>
+               <span class="categoryTitle" title="How do I access and change my user profile?">How do I access and change my user profile?</span>
+              </a>
+            </div>
+            <div class="category">
             <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/student-landing.md" title="View all" aria-label="View all Student Basics docs">View all</a></div>
           </div>
         </div>
@@ -39,19 +40,14 @@
           <div class="vmLabDev cardContent">
             <div class="cardHeader" tabindex="0" title="Student Labs" aria-label="Student Docs for Labs">Labs</div>
             <div class="category">
-              <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-without-user-account.md " class="categoryThread">
-                <i class="material-icons light-green" aria-hidden="true">desktop_windows</i>
-                <span class="categoryTitle" title="How do I access my labs using a lab code without a user account?">How do I access my labs using a lab code without a user account?</span>
+              <a href="/tms/end-user-student-faqs/lab-access/cancel-lab.md" class="categoryThread">
+                <i class="material-icons green"
+                   title="Student Basics" aria-hidden="true">person</i>
+                <span class="categoryTitle" title="How do I launch, cancel, save and relaunch a lab?">How do I launch, cancel, save and relaunch a lab?</span>
               </a>
             </div>
             <div class="category">
-              <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-with-user-account.md" class="categoryThread">
-                <i class="material-icons green" aria-hidden="true">desktop_windows</i>
-                <span class="categoryTitle" title="How do I access my labs for a class using a lab code when I have a user account?">How do I access my labs for a class using a lab code when I have a user account?</span>
-              </a>
-            </div>
-            <div class="category">
-              <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-without-code.md" class="categoryThread">
+                <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-without-code.md" class="categoryThread">
                 <i class="material-icons light-green" aria-hidden="true">desktop_windows</i>
                 <span class="categoryTitle" title="How do I access my labs for a class without a lab code?">How do I access my labs for a class without a lab code?</span>
               </a>
@@ -64,7 +60,7 @@
             <div class="cardHeader" tabindex="0" title="Student Classes and Self-Paced Learning" aria-label="Student Docs for Classes and Self-Paced Learning">Classes and Self-Paced Learning</div>
             <div class="category">
               <a href="/tms/end-user-student-faqs/class-self-paced/get-into-virtual-classroom.md" class="categoryThread">
-                <i class="material-icons light-green"
+                <i class="material-icons green"
  aria-hidden="true">assignment</i>
                 <span class="categoryTitle" title="How do I get into my virtual classroom?">How do I get into my virtual classroom?</span>
               </a>
@@ -78,7 +74,7 @@ aria-hidden="true">assignment</i>
             </div>
             <div class="category">
               <a href="/tms/end-user-student-faqs/class-self-paced/print-completion-certificate.md" class="categoryThread">
-                <i class="material-icons light-green"
+                <i class="material-icons green"
  aria-hidden="true">assignment</i>
                 <span class="categoryTitle" title="How do I print my completion certificate?">How do I print my completion certificate?</span>
               </a>
@@ -89,29 +85,29 @@ aria-hidden="true">assignment</i>
        </div>
       <!-- -- End student categories section -->
     </div>
-  <div class="instructorCategory userTypeSection">
+   </div> 
+   <div class="instructorCategory userTypeSection">
   <!-- Begin instructor categories section.. -->
          <div class="cardContainer">
           <!-- Begin categories section.. -->
           <div class="cloudSlice cardContent">
+          <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Featured Instructor General Docs">Featured</div>
+          <div class="category">
+          <a href="/tms/instructors/general/instructordashboard.md" class="categoryThread">
+            <i class="material-icons green" 
+ title="Student Basics" aria-hidden="true">supervised_user_circle</i>
+            <span class="categoryTitleFeatured" title="What is the Instructor Dashboard?">What is the Instructor Dashboard?</span>
+          </a>
+        </div>
+         <div class="cloudSlice cardContent">
           <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Featured Instructor General Docs">General</div>
           <div class="category">
-              <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
-                <i class="material-icons green"
+          <a href="/tms/instructors/general/what-is-a-contract-instructor.md" class="categoryThread">
+            <i class="material-icons green" 
  title="Student Basics" aria-hidden="true">supervised_user_circle</i>
-                <span class="categoryTitle" title="What does it mean to be a contract instructor?">What does it mean to be a contract instructor?</span>
-              </a>
-         </div>
-         </div>  
-        <div class="cardContainer">
-          <div class="vmLabDev cardContent">
-            <div class="cardHeader" tabindex="0" title="Student Labs" aria-label="Student Docs for Labs">Labs</div>
-            <div class="category">
-              <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-without-user-account.md " class="categoryThread">
-                <i class="material-icons light-green" aria-hidden="true">desktop_windows</i>
-                <span class="categoryTitle" title="How do I access my labs using a lab code without a user account?">How do I access my labs using a lab code without a user account?</span>
-              </a>
-            </div>
+            <span class="categoryTitleFeatured" title="What does it mean to be a contract instructor?">What does it mean to be a contract instructor?</span>
+          </a>
+        </div>
             <div class="category">
               <a href="/tms/end-user-student-faqs/lab-access/access-labs-for-class-using-lab-code-with-user-account.md" class="categoryThread">
                 <i class="material-icons green" aria-hidden="true">desktop_windows</i>
@@ -186,6 +182,8 @@ aria-hidden="true">assignment</i>
      </div>
     <!-- -- End instructor categories section -->
   </div>
+ </div>
+  </div>
   <div class="administratorCategory userTypeSection">
     <!-- Begin administrator categories section.. -->
   <div class="categoriesHeader" tabindex="0" title="Featured Posts" aria-label="Featured Admin Docs">Featured</div>
@@ -193,18 +191,17 @@ aria-hidden="true">assignment</i>
       <div class="cardContent">
           <div class="category">
           <a href="/tms/tms-administrators/classes/virtual-meetings/integratevirtualmeetingprovider.md" class="categoryThread">
-            <i class="material-icons light-green"
- aria-hidden="true">bookmarks</i>
-            <span class="categoryTitleFeatured" title="How does my Virtual Meeting Provider integrate with the TMS?">How does my Virtual Meeting Provider integrate with the TMS?</span>
-            <span class="categoryDescription">Find out how to integrate your virtual meeting provider into a TMS class giving your students and instructor one place to connect, launch their labs and course activities.</span>
+            <i class="material-icons green" aria-hidden="true">bookmarks</i>
+            <span class="categoryTitleFeatured" title="How does my Virtual Meeting Provider integrate with the TMS?">How do I use my Virtual Meeting Provider for a Skillable TMS class?</span>
+            <span class="categoryDescription">Find out how to integrate your virtual meeting provider into a Skillable TMS class giving your students and instructor one place to connect, launch their labs and course activities.</span>
           </a>
         </div>
           <div class="category">
           <a href="/tms/tms-administrators/badges-achievements/badge-process.md" class="categoryThread">
             <i class="material-icons light-green"
  aria-hidden="true">bookmarks</i>
-            <span class="categoryTitleFeatured" title="What is involved in creating external badges?">What is involved in creating external badges?</span>
-            <span class="categoryDescription">Your student can now earn externally supported badges through their achievements in the TMS.</span>
+            <span class="categoryTitleFeatured" title="How do I use badges to award my user's achievements?">What is involved in creating external badges?</span>
+            <span class="categoryDescription">Your student can now earn externally supported badges through their achievements in the Skillable TMS.</span>
           </a>
         </div>
         <div class="category"> 
@@ -218,10 +215,6 @@ aria-hidden="true">assignment</i>
         <div class="viewAll"><a tabindex="0" class="viewAllLink" title="View all" href="/tms/home-landing-pages/admin-featured-landing.md" aria-label="View all Featured Docs for Admins">View all</a></div>
       </div>
     </div> 
-    <div class="moreInfo"  tabindex="0" title="API Client">
-      <span class="moreInfo_header">API Client</span>
-        We have written our API to allow us to add new response fields without clients making any updates. To ensure your API calls work consistently, write your API client implementation to ignore any fields you are not using in your code. This allows your implementation to be stable while the API is dynamic. To assist with this, review our <a href="https://www.nuget.org/packages/LearnOnDemandSystems.OneLearnTMS.OneLearnTMSAPIClient/">client library</a>, which adheres to our best practices.
-    </div>
     <div class="cardsContainer">
         <div class="cardContainer">
               <!-- Begin categories section.. -->
@@ -370,7 +363,7 @@ aria-hidden="true">assignment</i>
           <div class="category">
             <a href="/tms/tms-administrators/badges-achievements/create-badge-provider.md" class="categoryThread">
               <i class="material-icons green" aria-hidden="true">forum</i>
-              <span class="categoryTitle" title="How do I create a Badge Provider in the TMS?">How do I create a Badge Provider in the TMS?</span>
+              <span class="categoryTitle" title="How do I create a Badge Provider in the TMS?">How do I create a Badge Provider?</span>
             </a>
           </div>
           <div class="category">
@@ -481,8 +474,8 @@ aria-hidden="true">assignment</i>
      </div>
             <!-- -- End administrator categories section -->
  </div>
-      </div>
-      <div class="cardContainer">
+</div>
+   <div class="cardContainer">
   <div class="coursewareMarketplaceAdmin userTypeSection">
   <!-- Begin Arvato MarketPlace Admin categories section.. -->
     <div class="moreInfo" tabindex="0" title="Getting started?">
@@ -492,10 +485,14 @@ aria-hidden="true">assignment</i>
     <div class="moreInfo" tabindex="0" title="Returning Customer?">
       <span class="moreInfo_header">Returning Customer?</span>
       If you have purchased Skillable labs before through the Courseware Marketplace, read the <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/getting-started-returning-customers.md">Getting Started for Returning Customers</a> article first, then review the following topics/processes to access and manage your orders.
+      </div>
+    <div class="moreInfo" tabindex="0" title="Expiration on Purchased Labs">
+      <span class="moreInfo_header">Expiration of Purchased Labs</span>
+      Skillable labs purchased through the Courseware Marketplace may be assigned to users up to 180 days after the purchase date. They are invalid after this time period.
     </div>
     <div class="moreInfo" tabindex="0" title="Meet Virtually">
       <span class="moreInfo_header">Meet Virtually</span>
-      Learn how to use your virtual meeting provider for classes in the TMS. You can provide access to your virtual meeting host and your labs from within a class, giving your students and instructor everything they need on one page. For more information on integrating your virtual meeting host <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/integrate-virtualmeetingprovider.md">click here.</a> For informtion on creating a class that integrates a virtual meeting host <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md">click here.</a>  
+      Learn how to use your virtual meeting provider for classes in the Skillable TMS. You can provide access to your virtual meeting host and your labs from within a class, giving your students and instructor everything they need on one page. For more information on integrating your virtual meeting host <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/integrate-virtualmeetingprovider.md">click here.</a> For informtion on creating a class that integrates a virtual meeting host <a href="/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md">click here.</a>  
     </div>
     <div class="cardsContainer">
     <div class="cardContainer">

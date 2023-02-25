@@ -1,10 +1,10 @@
-# Using Start States with VMware ESXi
+# Using Start States with ESX
 
-VMware ESX does not support creating or importing a virtual machine from a saved state. However, ESX does support saving disks and virtual machine import and export. Import/export does not include the saved state (RAM) of the virtual machine. New ESX virtual machines are created with no memory state, meaning the operating system is cold-booted. 
+ESX does not support creating or importing a virtual machine from a saved state. However, ESX does support saving disks and virtual machine import and export. Import/export does not include the saved state (RAM) of the virtual machine. New ESX virtual machines are created with no memory state, meaning the operating system is cold-booted. 
 
-Lab on Demand can use memory file swapping to enable start states on new VMware ESX virtual machines. The memory file of a running virtual machine is captured and stored when a lab author chooses to capture the start state in a lab. When a new lab is launched, LOD builds a fresh virtual machine, saves it, and then swaps the memory file on the virtual machine with the memory file stored. Then the virtual machine is resumed with the save state in place. 
+Skillable Studio can use memory file swapping to enable start states on new ESX virtual machines. The memory file of a running virtual machine is captured and stored when a lab author chooses to capture the start state in a lab. When a new lab is launched, Skillable Studio builds a fresh virtual machine, saves it, and then swaps the memory file on the virtual machine with the memory file stored. Then the virtual machine is resumed with the save state in place. 
 
-This method can enable start states in VMware ESX, but it also comes with some limitations. 
+This method can enable start states in ESX, but it also comes with some limitations. 
 
 - May take extended time to launch 
 

@@ -6,11 +6,11 @@ isPublished: true
 
 # Container Images
 
-Lab on Demand supports using Docker Container Images in labs. Container images are imported from Docker Hub.
+Skillable Studio supports using Docker Container Images in labs. Container images are imported from Docker Hub.
 
-## Create a Container Image in LOD
+## Create a Container Image in Skillable Studio
 
-1. From the LOD Admin page, click **Create Container Image**. 
+1. From the Skillable Studio Admin page, click **Create Container Image**. 
 
     ![](images/container-images-tile.png)
 
@@ -28,7 +28,13 @@ Lab on Demand supports using Docker Container Images in labs. Container images a
 
     - **Organization**: Select the organization that will have permission to edit and use the container image. 
 
-    - **Memory Limit**: Select the maximum amount of memory that the container image will use. 
+    - **Registry**: Select the container registry where your container is managed. For more information, see our [Container Registry documentation](container-registries.md). 
+
+    - **Size**: Select the size of the container. These size profiles will set the amount of RAM, number of processors, and will govern the number of NICs allowed to be configured on the machine.
+
+    - **Run as User**: This optional value can be used to control the user account the container is run under. 
+
+    - **Entry Point**: Allows you to set or override the container's default entry point. `Example: /bin/bash`
 
     - **Command**: Enter any commands that the container needs to function. If no commands are need, simply leave `bash` in the field. 
 
@@ -40,10 +46,14 @@ Lab on Demand supports using Docker Container Images in labs. Container images a
 
         Please note that the external port will most likely **not** be the same as the container's exposed port. The external port is 100% dynamic and not something that can be directly controlled. 
 
-        - **Display**: Select how the exposed ports will be displayed. 
-
+        - **Display**: Select how the first exposed ports will be displayed. 
+        
+            >[!note] Terminal and Web display will only connect to the first port that is configured on the container profile.
+            
             - **Terminal**: allows a terminal connection to the exposed port of the container.
-            - **Web**: allows the lab client to connect to the exposed port and display the output of that port from the container. Web display requires the lab profile to have at least one network attached. 
+            - **Web**: allows the lab client to connect to the exposed port and display the output of that port from the container. Web display requires the lab profile to have at least one network attached. Skillable uses a proxy to secure the web application, and adds an SSL certificate, to prevent unauthorized users from accessing your content.  
+                - **Start path**: allows signing in to the web application in the container, using a URL parameter. `Example: app/login`
+                - **Use Relative Links**: how the container's web application generates links to pages within the web application. Enable this option to use relative links within the container. Disabling will cause the container to use absolute links. 
              
 
     - **Enabled**: Check the box to enable the container image. 
@@ -75,3 +85,12 @@ To configure a container image on a lab profile:
     - **Visible to student**: Allows the container image to be visible to the student. 
 
     - **Default selection**: Set the lab to focus on the container as the default selection when the lab launches.
+
+## Related Topics 
+
+- [Container Registries](container-registries.md)
+
+- [Container Web Display](container-web-display.md)
+
+- [Container Volumes](container-volumes.md)
+

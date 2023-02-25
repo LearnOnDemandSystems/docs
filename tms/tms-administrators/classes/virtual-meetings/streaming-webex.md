@@ -3,11 +3,11 @@ title: "How do I use Webex in a TMS class?"
 isPublished: true
 ---
 
-# How can I use Webex in a TMS class?
+# How can I use Webex in a Skillable TMS class?
 
 > Please be aware that the functionality covered in this and linked articles may not be available to you.
 
-Give your students and instructors the convenience of one place for all members of the class to open their virtual classroom and all their course activities and labs. Deliver your Instructor-led training virtually with Webex within a TMS class.  
+Give your students and instructors the convenience of one place for all members of the class to open their virtual classroom and all their course activities and labs. Deliver your Instructor-led training virtually with Webex within a Skillable TMS class.  
 
 **Find your Webex URL**
 
@@ -17,7 +17,7 @@ When you have completed scheduling a meeting in Webex you can access the meeting
 
 **Enter your webex URL in your Class**
 
-If you have used the TMS before for classes, then the only new element is adding Webex for your class’ delivery. If you have not set up a class before, you can find links to additional resources below. 
+If you have used the Skillable TMS before for classes, then the only new element is adding Webex for your class’ delivery. If you have not set up a class before, you can find links to additional resources below. 
 
 When editing or creating your class, 
 1. Expand the **Delivery** section.

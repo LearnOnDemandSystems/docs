@@ -1,11 +1,14 @@
 ---
 title: "GetEvaluationResponsesForEvent API Command"
 description: "The GetEvaluationResponsesForEvent command returns evaluation responses for a specific event."
-isPublished: true
+isPublished: false
 ---
 
 # GetEvaluationResponsesForEvent
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **GetEvaluationResponsesForEvent** command returns evaluation responses for a specific event.
 
 ## Parameters
@@ -254,3 +257,4 @@ https://labondemand.com/api/v3/GetEvaluationResponsesForEvent/?id=12345
 	"Status": 1
 }
 ```
+-->

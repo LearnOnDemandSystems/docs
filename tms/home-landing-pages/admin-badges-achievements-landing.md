@@ -22,7 +22,7 @@
         <div class="subtopic_title">What is involved in creating external badges?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/create-badge-provider.md">
-        <div class="subtopic_title">How do I create a Badge Provider in the TMS?</div>
+        <div class="subtopic_title">How do I create a badge provider?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/create-badge.md">
         <div class="subtopic_title">How do I create a badge?</div>
@@ -34,7 +34,7 @@
         <div class="subtopic_title">How do I create an achievement?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/tms-achievement-conditions.md">
-        <div class="subtopic_title">Achievements JSON Help and Examples</div>
+        <div class="subtopic_title">Writing conditions for achievements: JSON Help and Examples</div>
       </a>
        <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/manual-issuance.md">
         <div class="subtopic_title">How do I manually issue badges for my students?</div>

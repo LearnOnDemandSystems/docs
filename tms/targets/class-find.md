@@ -9,4 +9,4 @@ There are several options possible when searching for a class on the Find Classe
 - [How can I find a class that is in session?](../tms-administrators/classes/schedule/find-class-in-session.md)
 - [How can I find the classes for a particular instructor?](../tms-administrators/classes/instructors/find-classes-for-particular-instructor.md)
 
-To see all Help articles available for the TMS, you can click the **Home** button at the top of the window.
+To see all Help articles available for the Skillable TMS, you can click the **Home** button at the top of the window.

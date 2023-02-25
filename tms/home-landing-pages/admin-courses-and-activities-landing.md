@@ -19,19 +19,22 @@
     <div class="subtopic_header" tabindex="0" title="General Docs" role="button" aria-selected="true" selected>General</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/course-profile-explanation.md">
-        <div class="subtopic_title">Course Profile Explanation</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/how-do-i-add-a-course-to-a-subscription-profile-from-a-course.md">
-        <div class="subtopic_title">How do I add a course to a subscription profile from a course?</div>
-      </a>
-      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/add-course-resources.md">
-        <div class="subtopic_title">How do I add resources to a course?</div>
+        <div class="subtopic_title">Course profile explanation</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/create-course.md">
         <div class="subtopic_title">How do I create a basic course?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/edit-course.md">
         <div class="subtopic_title">When can I edit a course?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/mslearn.md">
+        <div class="subtopic_title">How do I enable Microsoft Learn courseware integration and earn achievement redemption for enrollments?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/how-do-i-add-a-course-to-a-subscription-profile-from-a-course.md">
+        <div class="subtopic_title">How do I add a course to a subscription profile from a course?</div>
+      </a>
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/add-course-resources.md">
+        <div class="subtopic_title">How do I add resources to a course?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/overall/shared-lab-course.md">
         <div class="subtopic_title">How do I create a course with shared labs?</div>
@@ -74,13 +77,13 @@
         <div class="subtopic_title">How can I set up a course for disabling class activities?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/how-do-i-add-a-microsoft-learn-activity-as-a-course-activity.md">
-        <div class="subtopic_title">How do I add a Microsoft Learn Activity as a Course activity?</div>
+        <div class="subtopic_title">How do I add a Microsoft Learn Activity as a course activity?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/labs/course-enable-assigning-class-activities.md">
         <div class="subtopic_title">How do I set up a course to enable assigning class activities to different students?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/create-scorm-module.md">
-        <div class="subtopic_title">How do I create a SCORM Module and make it available to other organizations for their courses?</div>
+        <div class="subtopic_title">How do I create a SCORM module and make it available to other organizations for their courses?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/add-scorm.md">
         <div class="subtopic_title">How do I add SCORM modules to my course?</div>
@@ -98,7 +101,7 @@
         <div class="subtopic_title">How do I add documents and external links to my course?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/capture-user-data-for-externally-hosted-activities.md">
-        <div class="subtopic_title">How can I capture user data for users who access my externally hosted activities from the TMS?</div>
+        <div class="subtopic_title">How can I capture user data for users who access my externally hosted activities from the Skillable TMS?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/add-assessment.md">
         <div class="subtopic_title">How do I add an assessment to a course?</div>
@@ -112,16 +115,16 @@
     <div class="subtopic_header" tabindex="0" title="Publishing Group Docs" role="button" aria-selected="false">Publishing Groups</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/what-is-publishing-group.md">
-        <div class="subtopic_title">What is a Publishing Group?</div>
+        <div class="subtopic_title">What is a publishing group?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/create-publishing-group.md">
-        <div class="subtopic_title">How do I create a Publishing Group?</div>
+        <div class="subtopic_title">How do I create a publishing group?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/add-courses-to-publishing-group.md">
         <div class="subtopic_title">How do I add a course to my publishing group?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/add-published-orgs-to-publishing-group.md">
-        <div class="subtopic_title">How do I designate an organization as a Published Organization for my publishing group?</div>
+        <div class="subtopic_title">How do I designate an organization as a published organization for my publishing group?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/pgs/pg-add-pg-error-resolution.md">
         <div class="subtopic_title">How do I find what organizations have access to a course through other publishing groups?</div>

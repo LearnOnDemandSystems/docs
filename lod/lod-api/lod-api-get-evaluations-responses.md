@@ -1,12 +1,14 @@
 ---
 title: "GetEvaluationResponses API Command"
-description: "The GetEvaluationResponses command returns evaluation responses.
-"
-isPublished: true
+description: "The GetEvaluationResponses command returns evaluation responses."
+isPublished: false
 ---
 
 # GetEvaluationResponses
 
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
+
+<!--
 The **GetEvaluationResponses** command returns evaluation responses.
 
 ## Parameters
@@ -259,4 +261,4 @@ https://labondemand.com/api/v3/GetEvaluationResponses/?id=12345
 	"Status": 1
 }
 ```
-
+-->

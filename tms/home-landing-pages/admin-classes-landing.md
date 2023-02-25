@@ -27,7 +27,10 @@
       <a class="subtopic_link" href="/tms/tms-administrators/classes/schedule/cancel-class.md">
         <div class="subtopic_title">How can I cancel a class?</div>
       </a>
-      <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/disable-class-activities.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/mslearn.md">
+        <div class="subtopic_title">How do I enable Microsoft Learn Courseware and Achievement Code Access in Skillable TMS?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/instructors/instructor-prep-and-classes/disable-class-activities.md">
         <div class="subtopic_title">How can I disable class activities for all students?</div>
       </a>
         </a>
@@ -52,31 +55,31 @@
     <div class="subtopic_header" tabindex="0" title="Virtual Meeting Hosts" role="button" aria-selected="false">Virtual Meeting Hosts</div>
     <div class="subtopic_links">
         <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/integratevirtualmeetingprovider.md">
-        <div class="subtopic_title">How can I use my Virtual Meeting Provider in TMS classes?</div>
+        <div class="subtopic_title">How can I use my virtual meeting provider in classes?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/vmh-comparison.md">
-        <div class="subtopic_title">Virtual Meeting Host Comparison</div>
+        <div class="subtopic_title">Virtual meeting host comparison</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/integrated-virtual-meetings.md">
         <div class="subtopic_title">How can I set up an integrated virtual meeting host?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-adobeconnect.md">
-        <div class="subtopic_title">How can I use Adobe Connect in a TMS class?</div>
+        <div class="subtopic_title">How can I use Adobe Connect in a class?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-googlemeet.md">
-        <div class="subtopic_title">How can I use Google Meet in a TMS class?</div>
+        <div class="subtopic_title">How can I use Google Meet in a class?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-gotomeeting.md">
-        <div class="subtopic_title">How can I use GotoMeeting in a TMS class?</div>
+        <div class="subtopic_title">How can I use GotoMeeting in a class?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-teams.md">
-        <div class="subtopic_title">How can I use Microsoft Teams in a TMS class?</div>
+        <div class="subtopic_title">How can I use Microsoft Teams in a class?</div>
       </a>
             <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-webex.md">
-        <div class="subtopic_title">How can I use Webex in a TMS class?</div>
+        <div class="subtopic_title">How can I use Webex in a class?</div>
       </a>
               <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/streaming-zoom.md">
-        <div class="subtopic_title">How can I use Zoom in a TMS class?</div>
+        <div class="subtopic_title">How can I use Zoom in a class?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/virtual-meetings/custom-virtual-classroom.md">
         <div class="subtopic_title">How can I find virtual meeting IDs for classes?</div>

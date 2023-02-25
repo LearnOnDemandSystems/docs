@@ -5,7 +5,7 @@ isPublished: true
 
 # How do surveys work?
 
-A survey is a questionnaire to allow users to report their opinions and experience. They can be added to classes and taken by students, instructors or organization administrators. Each of these users can open their survey from the class' course activities. Survey responses can be accessed from the class, course, and surveys. Results can be viewed in the TMS or exported.
+A survey is a questionnaire to allow users to report their opinions and experience. They can be added to classes and taken by students, instructors or organization administrators. Each of these users can open their survey from the class' course activities. Survey responses can be accessed from the class, course, and surveys. Results can be viewed in the Skillable TMS or exported.
 
 Surveys fall into any of three categories: Student, Instructor or Organization. Any survey created can be added to any of these categories. The category used determines access; a Student survey is only available for students, an Instructor survey for the class' instructor(s), and an Organization survey to the organization's administrators.
 
@@ -16,7 +16,7 @@ Surveys display on a class and class enrollments under course Activities based o
 
 One survey in each category can be added to a course or a class. If a survey is added to a course, then any class created using the course will automatically have the survey(s) added. When the class is created, the survey can be removed or changed as needed. Surveys can also be added directly to classes. 
 
-Surveys are created directly in the TMS with a variety of question types available for your design:
+Surveys are created directly in the Skillable TMS with a variety of question types available for your design:
 - Multiple choice, only one answer
 - Multiple choice, multiple answers
 - Single textbox
@@ -26,4 +26,4 @@ Surveys are created directly in the TMS with a variety of question types availab
 - Matrix, one answer per row
 - Matrix, multiple answers per row
 
-If you need to have permissions to create surveys or see survey responses, please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help).
+If you need to have permissions to create surveys or see survey responses, please submit a Support ticket at [**https://skill.info/support**](https://skill.info/support).

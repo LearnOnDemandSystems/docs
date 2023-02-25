@@ -1,5 +1,5 @@
 #Coding Challenge: Leap Years
-Your challenge is to write a function in the language of your choice (c, csharp, go, java, php, python) that calculates the number of leap years that have occurred since a given year. 
+Your challenge is to write a function in the language of your choice (C, csharp, Go, Java, PHP, Python) that calculates the number of leap years that have occurred since a given year. 
 Examine the NumLeapYearsSince function template.  It contains a template for a function named <i>NumLeapYearsSince</i>. The function accepts a year as a parameter and returns an integer. It needs to be updated to return the number of leap years that have occurred between the input year and the current year. 
 The algorithm to determine if a given year is a leap year:
 1. If the year is evenly divisible by 4, go to step 2. Otherwise, go to step 5.
@@ -37,7 +37,7 @@ The algorithm to determine if a given year is a leap year:
 :::
 :::sectionName(codeLanguage=php)
 > [!HINT]
-> You can get the current year in php using 
+> You can get the current year in PHP using 
 >
 > ++date("Y");++
 :::

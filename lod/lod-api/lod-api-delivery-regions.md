@@ -1,11 +1,13 @@
 ---
 title: "DeliveryRegions API Command"
 description: "The DeliveryRegions command will return all delivery regions available to your organization."
-isPublished: true
+isPublished: false
 ---
 
-# DeliveryRegions
+# Deliv
+!INSTRUCTIONS[](https://raw.githubusercontent.com/LearnOnDemandSystems/docs/master/lod/lod-api/api-deprecate-message.md)
 
+<!--
 The **DeliveryRegions** command will return all delivery regions available to your organization.
 
 ## Parameters
@@ -56,3 +58,4 @@ https://labondemand.com/api/v3/deliveryregions
     "Error": null
 }
 ```
+-->

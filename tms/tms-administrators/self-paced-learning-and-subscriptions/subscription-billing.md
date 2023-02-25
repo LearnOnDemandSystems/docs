@@ -1,6 +1,6 @@
 ---
 title: "How are subscriptions billed?"
-description: "Information on billing for subscriptions created by organizations in the TMS. This does not apply to Challenge Labs."
+description: "Information on billing for subscriptions created by organizations in the Skillable TMS. This does not apply to Challenge Labs."
 ispublished: yes
 ---
 

@@ -8,18 +8,22 @@ isPublished: true
 
 This document provides guidance for authenticating user accounts with Skillable Platforms, as well as account management in each platform. 
 
+## Table of Contents
+
 - [Login](#login)
 - [Logout](#logout)
 - [Create User Account](#create-user-account)
+  * [TMS](#tms)
+  * [Skillable Studio](#skillable-studio)
 - [Account Management](#account-management)
-- [Multi-Organization Access](#users-who-have-email-addresses-associated-with-multiple-organizations)
+- [Users who have email addresses associated with multiple organizations](#users-who-have-email-addresses-associated-with-multiple-organizations)
 - [Change Email](#change-email)
 - [Change Password](#change-password)
-- [Forgot Password](#forgot-password)
+- [Forgot password](#forgot-password)
 
 ## Login
 
-When you navigate to the Training Management System (TMS) or Lab on Demand (LOD), you will be greeted with four options to login. You can use a Corporate Azure AD, a Microsoft account, a Google account or a Skillable account. 
+When you navigate to the Training Management System (TMS) or Skillable Studio , you will be greeted with four options to login. You can use a Corporate Azure AD, a Microsoft account, a Google account or a Skillable account. 
 
 - **Corporate Azure AD**: Allows you to authenticate into Skillable platforms using your existing Corporate Azure AD credentials. 
 
@@ -37,7 +41,7 @@ When you navigate to the Training Management System (TMS) or Lab on Demand (LOD)
 
 ## Logout
 
-You can log out of your account from any page in TMS or LOD. 
+You can log out of your account from any page in TMS or Skillable Studio. 
 
 1. Click your name in the upper-right corner of the page. 
 
@@ -51,15 +55,15 @@ You can log out of your account from any page in TMS or LOD.
 
 If your account has the proper permissions to create an account in the TMS, you may create accounts as you have before. If you do not have the proper permissions, unsure if you have the proper permissions, or need assistance creating an account, please reach out to our [customer support team](https://skillable.com/customer-support/).
 
-### LOD 
+### Skillable Studio 
 
-If you are a lab developer and would like an account in LOD, please reach out to our [customer support team](https://skillable.com/customer-support/) for assistance. 
+If you are a lab developer and would like an account in Skillable Studio, please reach out to our [customer support team](https://skillable.com/customer-support/) for assistance. 
 
 ## Account Management
 
 You may want to edit your user profile to change some information, or update information if it has changed since you initially created your account. 
 
-You can edit your user profile from any page in TMS or LOD.
+You can edit your user profile from any page in TMS or Skillable Studio.
 
 1. Click your name in the upper-right corner of the page. 
 
@@ -83,7 +87,7 @@ If your email address is associated with multiple organizations in TMS, you can 
 
 ## Change Email
 
-If you wish to change the email address on your LOD account, please reach out to our [customer support team](https://skillable.com/customer-support/) for assistance. 
+If you wish to change the email address on your Skillable Studio account, please reach out to our [customer support team](https://skillable.com/customer-support/) for assistance. 
 
 If you wish to change the email address of your Corporate Azure AD, please reach out to your company support for assistance. 
 
@@ -94,7 +98,7 @@ If you wish to change the email address on your Google account, please read [Goo
 
 Your Skillable account password can be changed at any time by viewing your account and clicking the Change Password button. 
 
-1. In TMS or LOD, click your name in the upper-right corner of the page. 
+1. In TMS or Skillable Studio, click your name in the upper-right corner of the page. 
 
 1. Click **View Account**. 
 

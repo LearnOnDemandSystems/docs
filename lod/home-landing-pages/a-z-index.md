@@ -13,22 +13,34 @@
     4. Notify Corey B. of the addition of a new document so he can add it to the search module.
 -->
 
-<div class="categoriesHeader" tabindex="0" title="Lab on Demand A-Z Docs Container">Lab on Demand A-Z Index</div>
+<div class="categoriesHeader" tabindex="0" title="Skillable Studio A-Z Docs Container">Skillable Studio A-Z Index</div>
 <div class="accordionModule">
   <div class="subtopic selected">
     <div id="header_1" class="subtopic_header" tabindex="0" title="A-Z Help Docs" role="button" aria-selected="true" selected>A-Z Help</div>
     <div id="body_1" class="subtopic_links">
-      <a class="subtopic_link" href="/lod/aba-outcomes.md">
-        <div class="subtopic_title">Activity Based Assessment Outcomes</div>
-        <div class="subtopic_description">Outcomes offer adaptive learning experiences based on the result of an automated activity or question.</div>
+      <a class="subtopic_link" href="/lod/accessibility-best-practices">
+        <div class="subtopic_title">Accessibility Best Practices</div>
+        <div class="subtopic_description">Accessibility best practices when authoring lab profiles and lab instructions.</div>
       </a>
       <a class="subtopic_link" href="/lod/access-control-lists.md">
         <div class="subtopic_title">Access Control Lists</div>
         <div class="subtopic_description">Controls which websites can be accessed in the lab, by using blacklists and whitelists.</div>
       </a>
+      <a class="subtopic_link" href="/lod/acp-best-practices.md">
+        <div class="subtopic_title">Access Control Policy Best Practices</div>
+        <div class="subtopic_description">Best Practices for using Access Control Policies in a cloud environment.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/aba-outcomes.md">
+        <div class="subtopic_title">Activity Based Assessment Outcomes</div>
+        <div class="subtopic_description">Outcomes offer adaptive learning experiences based on the result of an automated activity or question.</div>
+      </a>
       <a class="subtopic_link" href="/lod/aws-capabilities.md">
         <div class="subtopic_title">Amazon Web Services API Capabilities</div>
         <div class="subtopic_description">A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation. Below the table is a brief description for each service name.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/api-consumer.md">
+        <div class="subtopic_title">API Consumer Profile</div>
+        <div class="subtopic_description">API Consumer profile creation, and explanation of API consumer configuration.</div>
       </a>
       <a class="subtopic_link" href="/lod/vm-auto-login.md">
         <div class="subtopic_title">Automatic Login for Windows Virtual Machines</div>
@@ -52,11 +64,11 @@
       </a>      
       <a class="subtopic_link" href="/lod/how-to-use-api-consumer.md">
         <div class="subtopic_title">API Best Practices and How to Use an API Consumer</div>
-        <div class="subtopic_description">Guides through the steps to configure an API Consumer in LOD, as well as best practices.</div>
+        <div class="subtopic_description">Guides through the steps to configure an API Consumer in Skillable Studio, as well as best practices.</div>
       </a>
-      <a class="subtopic_link" href="/lod/lod-api/lod-api-main.md">
+      <a class="subtopic_link" href="https://connect.skillable.com/lod/">
         <div class="subtopic_title">API Documentation</div>
-        <div class="subtopic_description">Documentation on how and when to use the Lab on Demand API.</div>
+        <div class="subtopic_description">Documentation on how and when to use the Skillable Studio API.</div>
       </a>
       <a class="subtopic_link" href="/guides/cloud-slice/microsoft-azure/azure-capacity-limitations.md">
         <div class="subtopic_title">Azure Capacity Limitations</div>
@@ -82,9 +94,17 @@
         <div class="subtopic_title">Blackboard LTI Initialization</div>
         <div class="subtopic_description">Configure an instance of Blackboard to use LTI.</div>
       </a>
+            <a class="subtopic_link" href="/lod/cancel-running-lab.md">
+        <div class="subtopic_title">Cancel a Running Lab</div>
+        <div class="subtopic_description">How to cancel a running lab.</div>
+      </a>
       <a class="subtopic_link" href="/lod/cloud-credential-pool.md">
         <div class="subtopic_title">Cloud Credential Pools</div>
         <div class="subtopic_description">Overview and explanation of Cloud Credential Pools.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/cloud-fabric-explanation.md">
+        <div class="subtopic_title">Cloud Fabric Explanation</div>
+        <div class="subtopic_description">Characteristics and Differences of Supported Cloud Fabrics.</div>
       </a>
       <a class="subtopic_link" href="/lod/cloud-security/cloud-security-home.md">
          <div class="subtopic_title">Cloud Security Resources</div>
@@ -100,12 +120,20 @@
       </a>
       <a class="subtopic_link" href="/guides/cloud-slice/cloud-slice.md">
         <div class="subtopic_title">Cloud Slice Setup Guide</div>
-        <div class="subtopic_description">Comprehensive setup guide for configuring a Cloud Slice lab with Lab on Demand and Microsoft Azure or Amazon Web Services.</div>
+        <div class="subtopic_description">Comprehensive setup guide for configuring a Cloud Slice lab with Skillable Studio and Microsoft Azure or Amazon Web Services.</div>
+      </a>
+            <a class="subtopic_link" href="/lod/cloud-subscription-issues.md">
+        <div class="subtopic_title">Cloud Subscription Issues</div>
+        <div class="subtopic_description">Information that should be gathered and reported, to assist with Cloud Slice issues.</div>
       </a>
       <a class="subtopic_link" href="/lod/code-lab.md">
         <div class="subtopic_title">Code Labs</div>
         <div class="subtopic_description">Code Lab Authoring explained. Glossary of terms and walkthrough for creating your first code lab.</div>
       </a>      
+            <a class="subtopic_link" href="/lod/connectivity-issues.md">
+        <div class="subtopic_title">Connectivity Issues</div>
+        <div class="subtopic_description">How to mitigate common connectivity issues.</div>
+      </a>
       <a class="subtopic_link" href="/tms/connectivity-requires.md">
         <div class="subtopic_title">Connectivity Requirements</div>
         <div class="subtopic_description">Connectivity requirements, bandwidth requirements and firewall rules for labs. </div>
@@ -118,9 +146,21 @@
         <div class="subtopic_title">Container Registries</div>
         <div class="subtopic_description">Create custom container registries that are linked to an external registry. </div>
       </a> 
+      <a class="subtopic_link" href="/lod/container-volumes.md">
+        <div class="subtopic_title">Container Volumes</div>
+        <div class="subtopic_description">How to create and manage Container Volumes. Container Volumes are used to store and access files within containers in Skillable Studio. </div>
+      </a> 
       <a class="subtopic_link" href="/lod/container-web-display.md">
         <div class="subtopic_title">Container Web Display</div>
-        <div class="subtopic_description">Display the output of an exposed container port in a web browser. </div>
+        <div class="subtopic_description">Display the output of an exposed container port in a web browser.</div>
+      </a> 
+            <a class="subtopic_link" href="/lod/content-instruction-issues.md">
+        <div class="subtopic_title">Content or Instruction Issues</div>
+        <div class="subtopic_description">How to report issues with lab content or lab instructions.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/convert-vm-gen.md">
+        <div class="subtopic_title">Convert a Generation 1 Hyper-V Virtual Machine to Generation 2</div>
+        <div class="subtopic_description">Convert a Generation 1 Hyper-V Virtual Machine to Generation 2 in Skillable Studio.</div>
       </a> 
       <a class="subtopic_link" href="/lod/create-cloud-subscription-pool.md">
         <div class="subtopic_title">Create a Cloud Subscription Pool</div>
@@ -139,8 +179,12 @@
         <div class="subtopic_description">Removable Media to be used with virtual machines.</div>
       </a>
       <a class="subtopic_link" href="/lod/uuid.md">
-        <div class="subtopic_title">Custom UUID on VMware Virtual Machines</div>
-        <div class="subtopic_description">Assign a custom unique ID to a virtual machine hosted on a VMware host.</div>
+        <div class="subtopic_title">Custom UUID on an ESX Virtual Machines</div>
+        <div class="subtopic_description">Assign a custom unique ID to a virtual machine hosted on an ESX host.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/datacenter-bandwidth.md">
+        <div class="subtopic_title">Datacenter Bandwidth Limits</div>
+        <div class="subtopic_description">Upload and download speeds in Skillable datacenters.</div>
       </a>
       <a class="subtopic_link" href="/lod/capture-differencing-disks.md">
         <div class="subtopic_title">Differencing Disk Capture</div>
@@ -158,10 +202,22 @@
         <div class="subtopic_title">Enable Cloud Slice Support in AWS</div>
         <div class="subtopic_description">Setup process to enable cloud slice support in the AWS portal.</div>
       </a>
+            <a class="subtopic_link" href="/lod/excessive-lab-launch-times.md">
+        <div class="subtopic_title">Excessive Lab Launch Times</div>
+        <div class="subtopic_description">Explanation of excessive lab launch times.</div>
+      </a>
       <a class="subtopic_link" href="/lod/instruction-source.md">
         <div class="subtopic_title">External Instruction Source</div>
         <div class="subtopic_description">Use an Azure DevOps or GitHub repository as the instruction source for labs.</div>
+      </a>
+            <a class="subtopic_link" href="/lod/find-running-lab.md">
+        <div class="subtopic_title">Find Running Lab</div>
+        <div class="subtopic_description">How to find a running lab instance in the event that the lab window is closed by mistake.</div>
       </a>            
+      <a class="subtopic_link" href="/lod/geolocation.md">
+        <div class="subtopic_title">Geolocation for Lab Launches</div>
+        <div class="subtopic_description">The process for geolocating labs when they are launched.</div>
+      </a>
       <a class="subtopic_link" href="/lod/start-states.md">
         <div class="subtopic_title">Hyper-V Start States</div>
         <div class="subtopic_description">Start States allow you to create a point in a lab where the lab will launch from for subsequent launches.</div>
@@ -191,12 +247,20 @@
         <div class="subtopic_description">Considerations for labs that are integrated into an iframe.</div>
       </a>
       <a class="subtopic_link" href="/lod/ova-import.md">
-        <div class="subtopic_title">Importing an VMware Virtual Machine From an OVA.</div>
+        <div class="subtopic_title">Importing an ESX Virtual Machine From an OVA.</div>
         <div class="subtopic_description">Virtual machine profile creation, and explanation of virtual machine profile configuration.</div>
-      </a>            
+      </a>       
+            <a class="subtopic_link" href="/lod/internet-loss.md">
+        <div class="subtopic_title">Internet Loss in a Lab</div>
+        <div class="subtopic_description">Steps to mitigate issues due to loss of internet in a lab environment.</div>
+      </a>     
       <a class="subtopic_link" href="/lod/feature-focus/lod-experience.md">
-        <div class="subtopic_title">Introduction to Lab on Demand UI</div>
-        <div class="subtopic_description">Explanation of Lab on Demand UI.</div>
+        <div class="subtopic_title">Introduction to Skillable Studio UI</div>
+        <div class="subtopic_description">Explanation of Skillable Studio UI.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/lab-content-replication.md">
+        <div class="subtopic_title">Lab Content Replication</div>
+        <div class="subtopic_description">The expected amount of time for lab profile updates to replicate across available delivery regions.</div>
       </a>
       <a class="subtopic_link" href="/lod/lod-lab-developers/org-lab-dev-roles.md">
         <div class="subtopic_title">Lab Developer Roles</div>
@@ -206,37 +270,33 @@
         <div class="subtopic_title">Lab Developer FAQ</div>
         <div class="subtopic_description">Frequently asked questions to assist lab developers.</div>
       </a>
-      <a class="subtopic_link" href="/lod/lod-lab-developers/lab-instance-sharing.md">
+            <a class="subtopic_link" href="/lod/lab-user-faq.md">
+        <div class="subtopic_title">Lab User FAQ</div>
+        <div class="subtopic_description">Frequently asked questions to assist lab users.</div>
+      </a>
+        <a class="subtopic_link" href="/lod/lod-lab-developers/lab-instance-sharing.md">
         <div class="subtopic_title">Lab Instance Sharing</div>
         <div class="subtopic_description">Lab Instance Sharing allows multiple users to work together in a lab profile at the same time. </div>
       </a>
+      <a class="subtopic_link" href="/lod/lab-instance-transfer.md">
+        <div class="subtopic_title">Lab Instance Transfer</div>
+        <div class="subtopic_description">Lab Instance Transfer allows a running lab to transferred to another user account. </div>
+      </a>   
       <a class="subtopic_link" href="/lod/lab-interface.md">
         <div class="subtopic_title">Lab Interface Explanation</div>
         <div class="subtopic_description">Explanation of all lab interface buttons and menus.</div>
       </a>
         <a class="subtopic_link" href="/lod/lab-interface-faq.md">
         <div class="subtopic_title">Lab Interface Frequently Asked Questions</div>
-        <div class="subtopic_description">Frequently asked questions about the Lab on Demand lab interface.</div>
+        <div class="subtopic_description">Frequently asked questions about the Skillable Studio lab interface.</div>
+      </a>
+            <a class="subtopic_link" href="/lod/launch-limits.md">
+        <div class="subtopic_title">Lab Launch Limits</div>
+        <div class="subtopic_description">Explanation of lab launch limits and course activity launch status.</div>
       </a>
       <a class="subtopic_link" href="/lod/lab-networks.md">
         <div class="subtopic_title">Lab Network Restrictions</div>
         <div class="subtopic_description">Overview of the networks available to labs and any network restrictions.</div>
-      </a>
-      <a class="subtopic_link" href="/lod/lod-api/lod-api-main.md">
-        <div class="subtopic_title">Lab on Demand API Documentation</div>
-        <div class="subtopic_description">Documentation on how and when to use the Lab on Demand API.</div>
-      </a>
-      <a class="subtopic_link" href="/guides/lti/lod-lti.md">
-        <div class="subtopic_title">Lab on Demand edX Integration</div>
-        <div class="subtopic_description">Integrate edX into your lab profile.</div>
-      </a>
-      <a class="subtopic_link" href="/lod/pbt/overview.md">
-        <div class="subtopic_title">Lab on Demand Scoring</div>
-        <div class="subtopic_description">The Lab on Demand platform supports the ability to score users either in an exam/quiz format or within a hands-on lab.</div>
-      </a>
-      <a class="subtopic_link" href="/lod/scripting-home.md">
-        <div class="subtopic_title">Lab on Demand Cloud Script Execution</div>
-        <div class="subtopic_description">Scripting language syntax for interacting with Lab on Demand and Cloud providers.</div>
       </a>
       <a class="subtopic_link" href="/lod/lab-profile-cloning.md">
         <div class="subtopic_title">Lab Profile Cloning</div>
@@ -257,11 +317,7 @@
       <a class="subtopic_link" href="/lod/lab-series.md">
         <div class="subtopic_title">Lab Series Creation and Explanation</div>
         <div class="subtopic_description">Lab Series creation, and explanation of lab series configuration.</div>
-      </a>
-      <a class="subtopic_link" href="/lod/skillable-enhanced-account-security.md">
-        <div class="subtopic_title">Skillable Enhanced Account Security</div>
-        <div class="subtopic_description">Guidance for authenticating user accounts with Skillable Platforms, as well as account management in each platform.</div>
-      </a>      
+      </a>   
       <a class="subtopic_link" href="/lod/life-cycle-actions.md">
         <div class="subtopic_title">Life Cycle Actions</div>
         <div class="subtopic_description">Define actions to occur at certain times within the lab's life cycle, such as calling an external service when the lab builds, or sending a notification to the user when the lab is resumed.</div>
@@ -274,7 +330,15 @@
         <div class="subtopic_title">LTI 1.3 Integration Spec</div>
         <div class="subtopic_description">Information for evaluating LTI 1.3</div>
       </a>
-      <a class="subtopic_link" href="/guides/idl2/markdown-user-guide.md">
+            <a class="subtopic_link" href="/lod/log-in-to-vm.md">
+        <div class="subtopic_title">Log in to a Virtual Machine</div>
+        <div class="subtopic_description">How to log in to a virtual machine.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/lab-on-demand-lti-1p3-integration.md">
+        <div class="subtopic_title">Managed Metadata Tags</div>
+        <div class="subtopic_description">Tags are used to organize and filter Lab Profiles and Lab Series, to assist with reporting and delivery</div>
+      </a>
+      <a class="subtopic_link" href="/lod/tags.md">
         <div class="subtopic_title">Markdown User Guide</div>
         <div class="subtopic_description">This document covers Markdown in detail, including syntax for all supported Markdown.</div>
       </a>
@@ -282,13 +346,21 @@
         <div class="subtopic_title">Microsoft Azure Cloud Slice Subscription</div>
         <div class="subtopic_description">Configure a lab profile to deliver training on Microsoft Azure subscriptions.</div>
       </a>
+      <a class="subtopic_link" href="/lod/mca-css.md">
+        <div class="subtopic_title">Microsoft Azure Cloud Slice Subscription with Microsoft Customer Agreement (MCA)</div>
+        <div class="subtopic_description">Use a Microsoft Customer Agreement to deliver training on Microsoft Azure subscriptions.</div>
+      </a>
+            <a class="subtopic_link" href="/lod/missing-files-in-lab-instance.md">
+        <div class="subtopic_title">Missing Files in a Lab Instance</div>
+        <div class="subtopic_description">Information that should be gathered and reported, to assist with missing files that are needed to complete steps in lab instructions.</div>
+      </a>
       <a class="subtopic_link" href="/lod/org-max-ram.md">
         <div class="subtopic_title">Organization RAM Limits</div>
         <div class="subtopic_description">Max RAM usage, max active lab instances and max RAM per lab profile.</div>
       </a>
       <a class="subtopic_link" href="/lod/pbt/overview.md">
          <div class="subtopic_title">PBT Overview</div>
-         <div class="subtopic_description">Overview of Lab on Demand supported scoring methods.</div>
+         <div class="subtopic_description">Overview of Skillable Studio supported scoring methods.</div>
       </a>
       <a class="subtopic_link" href="/lod/persist-container-changes.md">
          <div class="subtopic_title">Persist Container Changes</div>
@@ -296,15 +368,47 @@
       </a>
       <a class="subtopic_link" href="/lod/platform-terminology.md">
         <div class="subtopic_title">Platform Terminology</div>
-        <div class="subtopic_description">Explanation of terminology used in Lab on Demand.</div>
+        <div class="subtopic_description">Explanation of terminology used in Skillable Studio.</div>
       </a>
       <a class="subtopic_link" href="/lod/publish-lab-series.md">
         <div class="subtopic_title">Publishing a Lab Series to Production</div>
-        <div class="subtopic_description">This document describes the process of moving labs from Development to Production in Lab on Demand.</div>
+        <div class="subtopic_description">This document describes the process of moving labs from Development to Production in Skillable Studio.</div>
       </a>
       <a class="subtopic_link" href="/lod/feature-focus/cloud-resource-templates/replacement-tokens.md">
         <div class="subtopic_title">Replacement Tokens</div>
         <div class="subtopic_description">Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/skillable-enhanced-account-security.md">
+        <div class="subtopic_title">Skillable Enhanced Account Security</div>
+        <div class="subtopic_description">Guidance for authenticating user accounts with Skillable Platforms, as well as account management in each platform.</div>
+      </a>   
+      <a class="subtopic_link" href="https://connect.skillable.com/lab/overview/">
+        <div class="subtopic_title">Skillable Studio API Documentation</div>
+        <div class="subtopic_description">Documentation on how and when to use the Skillable Studio API.</div>
+      </a>
+      <a class="subtopic_link" href="/guides/lti/lod-lti.md">
+        <div class="subtopic_title">Skillable Studio edX Integration</div>
+        <div class="subtopic_description">Integrate edX into your lab profile.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/tags.md">
+        <div class="subtopic_title">Markdown User Guide</div>
+        <div class="subtopic_description">Tags are used to organize and filter Lab Profiles and Lab Series, to assist with reporting and delivery.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/lab-advisor.md">
+         <div class="subtopic_title">Skillable Studio Lab Advisor</div>
+         <div class="subtopic_description">The Lab Advisor provides recommendations for possible issues found in lab profiles and lab profile configuration.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/pbt/overview.md">
+        <div class="subtopic_title">Skillable Studio Scoring</div>
+        <div class="subtopic_description">The Skillable Studio platform supports the ability to score users either in an exam/quiz format or within a hands-on lab.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/scripting-home.md">
+        <div class="subtopic_title">Skillable Studio Cloud Script Execution</div>
+        <div class="subtopic_description">Scripting language syntax for interacting with Skillable Studio and Cloud providers.</div>
+      </a>
+            <a class="subtopic_link" href="/lod/slow-labs.md">
+        <div class="subtopic_title">Slow Lab Environments</div>
+        <div class="subtopic_description">Steps to mitigate slow lab issues in a lab environment.</div>
       </a>
       <a class="subtopic_link" href="/lod/snapshots.md">
          <div class="subtopic_title">Snapshots</div>
@@ -321,6 +425,10 @@
       <a class="subtopic_link" href="/lod/terminal-access.md">
         <div class="subtopic_title">SSH Terminal Access</div>
         <div class="subtopic_description">Configure virtual machines for SSH terminal access.</div>
+      </a>
+            <a class="subtopic_link" href="/lod/stale-license.md">
+        <div class="subtopic_title">Stale License for Visual Studio</div>
+        <div class="subtopic_description">Steps to reactivate a stale Visual Studio license.</div>
       </a>
       <a class="subtopic_link" href="/lod/saml-integration.md">
         <div class="subtopic_title">SSO Authentication via Azure Active Directory and SAML</div>
@@ -357,6 +465,10 @@
       <a class="subtopic_link" href="/lod/vm-profiles.md">
         <div class="subtopic_title">Virtual Machine Profile Creation and Explanation</div>
         <div class="subtopic_description">Virtual machine profile creation, and explanation of virtual machine profile configuration.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/browser-capabilities.md">
+        <div class="subtopic_title">Web Browser Capabilities</div>
+        <div class="subtopic_description">This document describes specific situations where your web browser may not function optimally.</div>
       </a>
     </div>
   </div>

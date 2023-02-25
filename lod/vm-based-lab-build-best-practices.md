@@ -26,11 +26,15 @@ This document assumes that you have created or imported a virtual machine.
 
     >[!KNOWLEDGE] The best practice is to set the username and password to the primary account that will be used to access the virtual machine. This may not always be the administrator account.
 
-1.  Set the **RAM limit**. RAM is the main driving factor in cost. You need to determine a reasonable limit for the amount of RAM required for your virtual machine. Setting the limit to a value that is much higher than you actually need will increase cost, but setting the limit to a value that is too low will provide a poor user experience. Your goal is to ensure that your users have a good learning experience, while also managing costs.
+1. Select the **size** of the VM. These size profiles will set the amount of RAM, number of processors, and will govern the number of NICs allowed to be configured on the machine.
 
-1.  Set the **processor count**. A processor count higher than 4 results in diminishing returns on performance, so consider 4 to be the maximum value.
+    - RAM is the main driving factor in cost. You need to determine a reasonable limit for the amount of RAM required for your virtual machine. Setting the limit to a value that is much higher than you actually need will increase cost, but setting the limit to a value that is too low will provide a poor user experience. Your goal is to ensure that your users have a good learning experience, while also managing costs.
 
-1.  If your lab requires nested virtualization, select **Enable Nested Virtualization**.
+    - A processor count higher than 4 results in diminishing returns on performance, so consider 4 to be the maximum value.
+    
+    - If your lab requires nested virtualization, select **Enable Nested Virtualization**.
+
+    >[!knowledge] Licensing considerations when using ESX; traditional ESX allows the control of physical CPU sockets and number of CPU cores allocated evenly to each socket. With some software products licensed is based on physical CPU sockets therefore, it is important to know how Skillable allocates the physical CPU sockets on ESX hosts. If you select a virtual machine size that uses 24 or less vCPU cores the virtual machine will run on a single physical CPU socket. If a virtual machine size with more than 24 vCPUs is selected, then the vCPUs will be split evenly across two physical CPU sockets.
 
 #### Hyper-V Virtual Machines
 
@@ -38,13 +42,13 @@ This document assumes that you have created or imported a virtual machine.
 
     >[!KNOWLEDGE] This only works with Windows virtual machines. To use dynamic screen resizing, you need to install **[Integration Services](#for-hyper-v-virtual-machines)**.
 
-#### vSphere Virtual Machines
+#### ESX Virtual Machines
 
 1.  Ensure that the **Operating System** value is accurate.
 
     >[!ALERT] An incorrect operating system value can cause boot issues.
 
-1.  Set the **number of processors and the cores per processor**. These values are multiplicative. You can set both the number of processors and the cores per processor and still adhere to the 4 core maximum.
+    >[!knowledge] Licensing considerations when using ESX; traditional ESX allows the control of physical CPU sockets and number of CPU cores allocated evenly to each socket. With some software products licensed is based on physical CPU sockets therefore, it is important to know how Skillable allocates the physical CPU sockets on ESX hosts. If you select a virtual machine size that uses 24 or less vCPU cores the virtual machine will run on a single physical CPU socket. If a virtual machine size with more than 24 vCPUs is selected, then the vCPUs will be split evenly across two physical CPU sockets.
 
 #### Network Adapters Tab
 
@@ -52,7 +56,7 @@ This document assumes that you have created or imported a virtual machine.
 
 1.  If you are configuring an **internet-connected network adapter using Web Access (NAT)**, select **Specify Ethernet (MAC) address** and generate one.
 
-    >[!KNOWLEDGE] If you are **configuring multiple virtual machines** at the same time, generate the MAC addresses for one virtual machine, and then save the VM Profile for that virtual machine before configuring the next virtual machine, otherwise the LOD system will generate the same MAC address for each VM Profile for which you select **Generate**.
+    >[!KNOWLEDGE] If you are **configuring multiple virtual machines** at the same time, generate the MAC addresses for one virtual machine, and then save the VM Profile for that virtual machine before configuring the next virtual machine, otherwise the Skillable Studio system will generate the same MAC address for each VM Profile for which you select **Generate**.
 
 1.  If you are configuring a network adapter to use with a Web Access (Public IP) network, ensure that "Specify Ethernet (MAC) address" is **not** checked.
 
@@ -94,7 +98,7 @@ This document assumes that you have created or imported a virtual machine.
 
     >[!ALERT] The **Wait for heartbeat before displaying to user** setting may not work with some non-Windows virtual machines.
 
-#### vSphere Lab Profiles
+#### ESX Lab Profiles
 
 1.  To freeze the virtual machines at a specific date and time, uncheck **Synchronize system time with host**, and then check **Set initial system time**.
 
@@ -162,11 +166,11 @@ This document assumes that you have created or imported a virtual machine.
 
     >[!KNOWLEDGE] Integration Services allows automatic screen resizing, command execution within a virtual machine, activities and automated performance-based scoring.
 
-#### For vSphere Platform Virtual Machines
+#### For ESX Platform Virtual Machines
 
 1.  In the lab profile, on the Removable Media tab, add a **ESX_VMTools_ForWindows** Removable Media Profile.
 
-    >[!ALERT] If you don’t see the ESX_VMTools_ForWindows Removable Media option, select **Create Removable Media**, set the name to **ESX_VMTools_ForWindows**, and then in Path, select **Choose (VMware)**. Browse to **VMWare(vm)-tools-windows-9.0.5-1137270.iso**, select **OK**, and then select **Save**. Launch the lab, and then in the DVD Drive list, select **ESX_VMTools_ForWindows**.
+    >[!ALERT] If you don’t see the ESX_VMTools_ForWindows Removable Media option, select **Create Removable Media**, set the name to **ESX_VMTools_ForWindows**, and then in Path, select **Choose (ESX)**. Browse to **VMWare(vm)-tools-windows-9.0.5-1137270.iso**, select **OK**, and then select **Save**. Launch the lab, and then in the DVD Drive list, select **ESX_VMTools_ForWindows**.
 
     >[!KNOWLEDGE] ESX_VMTools_ForWindows contains VMware Tools for Windows Guests that, in this environment, is primarily useful for enabling mouse control of the Virtual Machine.
 

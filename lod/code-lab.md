@@ -130,7 +130,7 @@ The Starting Template is the initial code that is presented to a student when a 
 
 ![](images/codelabs/7_cl_lang_pr.png){1300}
 
-The Program Wrapper wraps the students code, and **must contain the string `#CODE#`** which is replaced by the student's code submission. This hides implementation details used to execute the function as part of a full program in the backend LOD service. The Program Wrapper can contains library includes, pass command line arguments to the student's function, and finally print results for comparison against **Tests** and **Custom Tests**.
+The Program Wrapper wraps the students code, and **must contain the string `#CODE#`** which is replaced by the student's code submission. This hides implementation details used to execute the function as part of a full program in the backend Skillable Studio service. The Program Wrapper can contains library includes, pass command line arguments to the student's function, and finally print results for comparison against **Tests** and **Custom Tests**.
 
 ### Advanced
 
@@ -212,7 +212,7 @@ After the lab has been scored, details about the lab including score results can
     }
     ```
 
-1.  Next, we will look at Program Wrapper. The student doesn't see this code. This hides LOD implementation details, which turn a bare function into a working program. 
+1.  Next, we will look at Program Wrapper. The student doesn't see this code. This hides Skillable Studio implementation details, which turn a bare function into a working program. 
 
     > [!alert] Most importantly note the string #CODE# which is replaced by the student's code submission when it's time to compile.
     
@@ -247,7 +247,7 @@ After the lab has been scored, details about the lab including score results can
 
 4. Write instructions for your lab. If you have instructions that are specific to one language, you can use the codeLanguage variable like `:::sectionName(codeLanguage=c)` - this section will only be shown when the specified language is selected. 
     - This example has copyable lines that the student can paste into the code editor where they want.
-    - The second page has typetext which when clicked will replace everything in the code editor with a completed, working version of the code.
+    - The second page has TypeText which when clicked will replace everything in the code editor with a completed, working version of the code.
 
     ^[Example Leap Year Instructions - Click to expand!](code-lab-example.txt)
 

@@ -5,7 +5,7 @@ isPublished: true
 
 # Why are my class vouchers not showing in Manage Class Vouchers?
 
-The most common reason that vouchers do not display is because of issues with the Arvato Customer ID set up in the TMS. The ID or IDs should have been added when you created your organization in the TMS and is used to synchronize your purchase with your order in the Courseware Marketplace.
+The most common reason that vouchers do not display is because of issues with the Arvato Customer ID set up in the Skillable TMS. The ID or IDs should have been added when you created your organization in the Skillable TMS and is used to synchronize your purchase with your order in the Courseware Marketplace.
 
 You will not see your vouchers if the Arvato Customer ID does not match the order. Any of the following issues will prevent your order from synchonizing:
 - Is missing
@@ -31,6 +31,6 @@ To change your number:
 1. Make any necessary corrections in the **Customer Number** and **Program** fields.
 1. Click **Save**..
 
-It may take about 10 minutes for the Arvato Customer Number to synchronize in with your order in the TMS. After the sync is complete, you should see the vouchers appear in the **Manage Class Vouchers** page and you can begin using them to create your class.   
+It may take about 10 minutes for the Arvato Customer Number to synchronize in with your order in the Skillable TMS. After the sync is complete, you should see the vouchers appear in the **Manage Class Vouchers** page and you can begin using them to create your class.   
 
-If you have corrected/added your **Arvato Customer Number** and waited 10 minutes and the issue was not resolved, please submit a Support ticket at [**https://lod.one/help**](https://lod.one/help). Please provide your Arvato Customer ID so we can find your order and organization. Once they have found your order and organization and made necessary updates, they will contact you. You may still need to wait a few minutes for the vouchers to synchronize from the Courseware Marketplace website.
+If you have corrected/added your **Arvato Customer Number** and waited 10 minutes and the issue was not resolved, please submit a Support ticket at [**https://skill.info/support**](https://skill.info/support). Please provide your Arvato Customer ID so we can find your order and organization. Once they have found your order and organization and made necessary updates, they will contact you. You may still need to wait a few minutes for the vouchers to synchronize from the Courseware Marketplace website.

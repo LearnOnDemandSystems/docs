@@ -1,6 +1,6 @@
 ---
 title: "Why can't I find my completed labs?"
-isPublished: true
+isPublished: false
 ---
 
 # Why can't I find my completed labs?

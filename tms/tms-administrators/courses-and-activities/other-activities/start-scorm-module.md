@@ -7,7 +7,7 @@ isPublished: true
 
 > Please be aware that not all functionality covered in this and the linked articles may be available to you.
 
-Have you just created a SCORM module in the TMS and want to ensure it launches? Are there SCORM modules whose content you are unfamiliar with? As an administrator with the correct permissions, you can start any SCORM modules belonging to the organizations you manage. To start a module:
+Have you just created a SCORM module in the Skillable TMS and want to ensure it launches? Are there SCORM modules whose content you are unfamiliar with? As an administrator with the correct permissions, you can start any SCORM modules belonging to the organizations you manage. To start a module:
 
 1. On the **Admin** menu, click **Find SCORM Modules** in the **SCORM/AICC** group.
 1. Add any necessary filters and criteria to narrow the results and click **Search**.

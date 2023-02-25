@@ -1,6 +1,6 @@
 # Scoring
 
-In Lab on Demand (LOD) there are multiple ways to score a student's performance in a lab. 
+In Skillable Studio there are multiple ways to score a student's performance in a lab. 
 
 - [Activity Based Assessment (ABA)](#activity-based-assessment) (only available in IDLx)
     - Question and Automated activities
@@ -32,9 +32,9 @@ Partial scoring is achieved with automated Activities in IDLx. To configure part
 
 ## Scoring Bot
 
-Scoring bots are hidden Lab on Demand hosted Windows 10 virtual machines in a Hyper-V Lab. Scoring bots work by executing PowerShell scripts in an automated activity in the lab, using a VM that is not displayed to the student. 
+Scoring bots are hidden Skillable Studio hosted Windows 10 virtual machines in a Hyper-V Lab. Scoring bots work by executing PowerShell scripts in an automated activity in the lab, using a VM that is not displayed to the student. 
 
-Scoring bots do not require the VM to be logged in. The scoring bot VM is used to execute commands against other VMs in the lab, and will return the result to LOD. The results can be sent to an LTI consumer. 
+Scoring bots do not require the VM to be logged in. The scoring bot VM is used to execute commands against other VMs in the lab, and will return the result to Skillable Studio. The results can be sent to an LTI consumer. 
 
 To configure a scoring bot into a lab:
 
@@ -60,5 +60,5 @@ Set-ActivityResult -Percentage @score`
     `$Score` can be anything 
 
 
->[!knowledge] Scoring bot VMs must be Windows 10, and must use Hyper-V for the hypervisor. vSphere scoring bot VMs are not supported at this time. 
+>[!knowledge] Scoring bot VMs must be Windows 10, and must use Hyper-V for the hypervisor. ESX scoring bot VMs are not supported at this time. 
 

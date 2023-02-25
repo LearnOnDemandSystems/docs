@@ -16,12 +16,13 @@ The following documents outline our approach to cloud security, how the security
 How to find or create an appropriate Access Control Policy and add it to your lab.
 
 ### [Cloud Security Reviews](./cloud-security-review.md)
-Labs that use cloud orchestration require a **Cloud Security Review** before they are available outside Lab On Demand.
+Labs that use cloud orchestration require a **Cloud Security Review** before they are available outside of Skillable Studio.
 
 ### [Cloud Security Standards](./cloud-security-standards.md)
 Outlines how risk level is determined and criteria for a lab passing security review.
 
 ## Best Practices
 
-### [Access Control Policies: Best Practices for Lab Developers](https://github.com/LearnOnDemandSystems/labauthor/tree/master/access-control-policies/)
-Our Lab developer GitHub that walks through the creation of your own custom Access Control Policies.
+### [Access Control Policies: Best Practices for Lab Developers](../acp-best-practices.md)
+Best Practices for using Access Control Policies in a cloud environment.
+

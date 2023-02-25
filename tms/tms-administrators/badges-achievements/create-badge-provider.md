@@ -3,11 +3,11 @@ title: "How do I create a badge provider in the TMS?"
 isPublished: true
 ---
 
-# How do I create a badge provider in the TMS?
+# How do I create a badge provider in the Skillable TMS?
 
 > Please be aware that not all functionality covered in this and linked articles may be available to you.
 
-The Badge Provider entity in the TMS identifies and links to your external badge provider account. Your badges in the TMS will be associated with this badge provider. 
+The Badge Provider entity in the Skillable TMS identifies and links to your external badge provider account. Your badges in the TMS will be associated with this badge provider. 
 
 To create your **Badge Provider** entity:
 1. In the **Admin** menu, in the **Badges** group, click **Create Badge Provider**. This will open the Create Badge Provider page.

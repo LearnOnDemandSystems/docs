@@ -1,6 +1,6 @@
 ---
 title: "Lab Interface Frequently Asked Questions"
-description: "Frequently asked questions about the Lab on Demand lab interface."
+description: "Frequently asked questions about the Skillable Studio lab interface."
 isPublished: false
 ---
 
@@ -25,3 +25,5 @@ isPublished: false
 - [**How Do I Make My Lab Display In Full Screen?**](lab-interface-faqs/how-do-i-make-my-lab-display-in-full-screen.md)
 
 - [**How Do I Resize The Screen Resolution Setting On My Own Computer To View The Lab Better?**](lab-interface-faqs/how-do-i-resize-the-screen-resolution-setting-on-my-own-computer-to-view-the-lab-better.md)
+
+>[!knowledge] For a more detailed explanation of the lab interface, please see our [Lab Interface Documentation](https://docs.learnondemandsystems.com/lod/lab-interface.md).

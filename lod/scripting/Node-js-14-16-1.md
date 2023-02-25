@@ -2,9 +2,9 @@
 
 This script execution environment is running Node.js 14.16.1.
 
-## Interacting with Lab on Demand
+## Interacting with Skillable Studio
 
-Your scripts can communicate success or failure to LOD in one of two ways.
+Your scripts can communicate success or failure to Skillable Studio in one of two ways.
 
 ### Return a Boolean value 
 
@@ -78,7 +78,7 @@ return false; //<- this will have no effect, as it will be evaluated before the 
 
 ### Use a Promise
 
-You can use a promise and return the result to Lab on Demand by resolving the promise.
+You can use a promise and return the result to Skillable Studio by resolving the promise.
 
 ```JavaScript
 return await (new Promise((resolve, reject) => {

@@ -1,6 +1,6 @@
 # Life Cycle Actions
 
-With the Life Cycle Actions feature, LOD is able to execute actions when specific events occur during the lab instance life cycle. 
+With the Life Cycle Actions feature, Skillable Studio is able to execute actions when specific events occur during the lab instance life cycle. 
 
 These actions include:
 

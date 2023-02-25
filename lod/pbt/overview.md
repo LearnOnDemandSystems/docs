@@ -1,10 +1,10 @@
 ---
-title: "Lab on Demand Scoring"
-description: "The Lab on Demand platform supports the ability to score users either in an exam/quiz format or within a hands-on lab."
+title: "Skillable Studio Scoring"
+description: "The Skillable Studio platform supports the ability to score users either in an exam/quiz format or within a hands-on lab."
 isPublished: true
 ---
 
-# Lab on Demand Scoring
+# Skillable Studio Scoring
 
 ### Table of Contents:
 
@@ -21,7 +21,7 @@ isPublished: true
 <!--    1. [Sample Lab Experiences](#labs)-->
 
 ## <u>Overview</u> {overview}
-The Lab on Demand platform supports the ability to score users either in an exam/quiz format or within a hands-on lab. The options for what can be scored are plentiful and can be mixed and matched within a single scenario.
+The Skillable Studio platform supports the ability to score users either in an exam/quiz format or within a hands-on lab. The options for what can be scored are plentiful and can be mixed and matched within a single scenario.
 
 Scorable items include:
 - Windows, Windows Server and Linux virtual machine configurations
@@ -58,7 +58,7 @@ In this format, a user is expected to complete a series of tasks and then, simil
 
 ### Configuring Items {config}
 
-Once you have determined which of the formats best fits your desired scoring experience, we need to design scorable items for users to complete. No matter the scoring format you will be utilizing, all scored items on the Lab on Demand platform are configured utilizing the Activity Manager within the lab instruction editor. If you are not already familiar with this tool, please review the ^INSTRUCTIONS[Activities](../activities.md) documentation before moving forward. 
+Once you have determined which of the formats best fits your desired scoring experience, we need to design scorable items for users to complete. No matter the scoring format you will be utilizing, all scored items on the Skillable Studio platform are configured utilizing the Activity Manager within the lab instruction editor. If you are not already familiar with this tool, please review the ^INSTRUCTIONS[Activities](../activities.md) documentation before moving forward. 
 
 Traditional items will have pre-defined structures, while hands-on items that are scored in an automated fashion are designed by the author using scripting languages - such as PowerShell and BASH - to evaluate the user's environment. If scoring against a Virtual Machine, be sure to review the [Virtual Machine Requirements section of the Activities documentation](/lod/activities.md#requirements).
 

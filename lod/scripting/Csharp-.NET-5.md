@@ -2,7 +2,7 @@
 
 ## Using Directives
 
-C# scripts in Lab on Demand can use the `Using` directive at the beginning of a script, to help simplify your code. 
+C# scripts in Skillable Studio can use the `Using` directive at the beginning of a script, to help simplify your code. 
 
 ```C#
 //To allow the use of types in a namespace so that you do not have to qualify the use of a type in that namespace:
@@ -19,9 +19,9 @@ using static System.Math;
 using Project = PC.MyCompany.Project;
 ```
 
-## Interacting with Lab on Demand
+## Interacting with Skillable Studio
 
-Your scripts can communicate success or failure to LOD in one of two ways.
+Your scripts can communicate success or failure to Skillable Studio in one of two ways.
 
 ### Return a Boolean value 
 
@@ -44,7 +44,7 @@ return false;
 
 ```C#
 //do stuff... uh oh
-#Set-ActivityResult -Correct -Message 'Please try again'
+#Set-ActivityResult -Incorrect -Message 'Please try again'
 ```
 
 You can also report the result as a score percentage...
@@ -64,7 +64,7 @@ Send-LabNotification 'Hello from Azure CLI'
 
 ### Lab Variables
 
-Lab variables are always string name/value pairs. Variable values are scoped to the lab instances and become avaialble within the lab instructions as well as subsequent script executions. 
+Lab variables are always string name/value pairs. Variable values are scoped to the lab instances and become available within the lab instructions as well as subsequent script executions. 
 
 ```C#
 Set-LabVariable -Name 'firstName' -Value 'John'

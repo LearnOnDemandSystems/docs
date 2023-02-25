@@ -43,9 +43,9 @@ x = datetime.datetime.now()
 print(x)
 ```
 
-## Interacting with Lab on Demand
+## Interacting with Skillable Studio
 
-Your scripts can communicate success or failure to LOD in one of two ways.
+Your scripts can communicate success or failure to Skillable Studio in one of two ways.
 
 ### Return a Boolean value 
 
@@ -63,12 +63,12 @@ return False
 
 ```Python
 #do stuff... all good
-setActivityResult(correct=true)
+setActivityResult(correct=True)
 ```
 
 ```Python
 #do stuff... uh oh
-setActivityResult(correct=false)
+setActivityResult(correct=False)
 ```
 
 You can also report the result as a score...

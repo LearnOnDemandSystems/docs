@@ -5,8 +5,7 @@ isPublished: true
 
 # How do I create an Instructor account?
 
-Need to set up your instructors in the TMS? You may either create a new user account for the instructor or modify an existing user to become an instructor. 
->:small_orange_diamond: [View a video on creating an instructor account and adding the instructor to a class](https://youtu.be/7FJlbJmn0dg?list=PLoXguRLJE8rmUa3KXKJqebpN9cmTtEAdY)
+Need to set up your instructors in the Skillable TMS? You may either create a new user account for the instructor or modify an existing user to become an instructor. 
 
 ## Create New Instructor
 
