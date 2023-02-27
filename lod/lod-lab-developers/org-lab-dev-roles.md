@@ -22,8 +22,11 @@ The Organization Lab Developer role set on Skillable Studio uses an additive mod
   * [Supplemental Roles](#supplemental-roles)
     + [Organization Activity Editor](#organization-activity-editor)
     + [Organization Advertising Editor](#organization-advertising-editor)
+    + [Organization API Management](#organization-api-management)
     + [Organization Bug Report Manager](#organization-bug-report-manager)
     + [Organization Cloud Slice for Lab Authors](#organization-cloud-slice-for-lab-authors)
+    + [Organization Container Management](#organization-container-management)
+    + [Organization Developer Files Management](#organization-developer-files-management)
     + [Organization Evaluation Control](#organization-evaluation-control)
     + [Organization Evaluation Viewer](#organization-evaluation-viewer)
     + [Organization Instruction Editor](#organization-instruction-editor)
@@ -55,8 +58,11 @@ This role grants no developer permissions, but grants the ability to assign othe
 **Supplemental Roles**  
 [Organization Activity Editor](#organization-activity-editor)  
 [Organization Advertising Editor](#organization-advertising-editor)  
+[Organization API Management](#organization-api-management)  
 [Organization Bug Report Manager](#organization-bug-report-manager)  
 [Organization Cloud Slice for Lab Authors](#organization-cloud-slice-for-lab-authors)  
+[Organization Container Management](#organization-container-management)
+[Organization Developer Files Management](#organization-developer-files-management)
 [Organization Evaluation Control](#organization-evaluation-control)  
 [Organization Evaluation Viewer](#organization-evaluation-viewer)  
 [Organization Instruction Editor](#organization-instruction-editor)  
@@ -127,11 +133,20 @@ Grants the ability to manage lab activities. These permissions are included in [
 ### Organization Advertising Editor
 Grants the ability to manage Advertising Campaigns. 
 
+### Organization API Management
+Grants visibility of API Consumers and webhook editing.
+
 ### Organization Bug Report Manager
 Grants the ability to manage Bug Reports.
 
 ### Organization Cloud Slice for Lab Authors
 Grants [Cloud Orchestration](https://docs.skillable.com/guides/cloud-slice/cloud-slice.md) functionality in Lab Profiles, [Access Control Policy](https://docs.skillable.com/lod/create-a-restriction-policy.md#access-control-policies-acp) management, and [Cloud Resource Template](https://docs.skillable.com/lod/create-a-resource-template-and-configure-it-into-a-resource-group.md) management. Also grants the ability to view Cloud Subscriptions. These permissions are included in [Organization Cloud Orchestration Admin](#organization-cloud-orchestration-admin)
+
+### Organization Container Management
+Grants management over container images, registries, and volumes.
+
+### Organization Developer Files Management
+Grants the ability to upload Lab Developer files into owned Lab Instances using the "Load Files" function.
 
 ### Organization Evaluation Control
 Grants the ability to manage post-lab Evaluations and view responses.
