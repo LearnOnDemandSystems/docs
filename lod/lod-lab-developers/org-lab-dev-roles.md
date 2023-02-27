@@ -108,7 +108,7 @@ This role is the base role for lab development. It grants access to most lab dev
 - Lab Instructions
 - [Lab Profiles](https://docs.skillable.com/lod/feature-focus/lab-profiles/create.md)
 - [Lab Series](https://docs.skillable.com/lod/lab-series.md)
-- Lab Tags
+- [Lab Tags](https://docs.skillable.com/lod/tags.md)
 - [Removable Media](https://docs.skillable.com/lod/create-removable-media.md)
 - [Themes](https://docs.skillable.com/lod/lod-themes.md)
 - [Virtual Machine Profiles](https://docs.skillable.com/lod/vm-profiles.md)
