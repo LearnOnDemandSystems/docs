@@ -12,7 +12,6 @@ Our subscription catalogs allow you to browse available courses within a subscri
 * [Access subscription catalog](#access-subscription-catalog)
   * [My training page](#my-training-page)
   * [Dashboard](#dashboard)
-  
 * [Subscription catalog common features](#simple-course-catalogs-common-features)
 * [Simple Course Catalog Version 1](#simple-course-catalog-version-1)
 * [Simple Course Catalog Version 2](#simple-course-catalog-version-2)
@@ -22,11 +21,17 @@ Our subscription catalogs allow you to browse available courses within a subscri
 You can access subscription catalog(s) once you are logged in from your current training page. After you have begun a course or a lab, you can continue it from the current training page or your dashboard.
 
 ### My training page
-Your training page holds access to all training which is active or not completed. If a course assignment is completed or your enrollment status is marked complete, then that training is moved to your transcript. Any active training like course assignments, labs, and classes can be accessed from your dashboard.
+Your training page holds access to all training which is active or not completed. Completed training, like a completed course assignment, is moved to your transcript. Any active training like course assignments and labs can be accessed from your dashboard. You may also use the **Browse On-Demand Courses** link to view all courses within all your subscriptions or **Browse Learning Paths** to directly access learning paths from your subscripions.
 
-![](/tms/images/current-training-sub-profile.png)
+![](/tms/images/current-training-subscription1.png)
 
 _Access to Subscription profile on My Training page_
+
+1. **Browse On-Demand Courses** - Displays all courses within all active on-demand subscriptions assigned to learner
+2. **Browse Learning Paths** - Takes learner to the learning path catalog
+3. **Course Assignemnts** - Active Course Assignments are available on your My Training page
+4. **On Demand** - Subscriptions can be opened here
+5. **Labs** - Saved labs can be resumed here
 
 When you first login, you will be taken to either your dashboard or your My Training page, as needed, use the navigation links for **My Training** and **My Dashboard** to open the appropriate page.
 
@@ -36,26 +41,22 @@ To open your subscription catalog,
 1. Click on the **My Training** link on the top navigation bar
 1. Scroll to the On Demand heading and click the **Subscription name** 
 
-
 ### Dashboard
-
+Any active course assignments which are started from your subscription and any saved labs can be accessed from your Dashboard. 
  
-![](/tms/images/simple-course-catalog-v1.png)
+![](/tms/images/dashboard-ca-labs.png)
 
-_Simple course catalog version 1_
+_Access to active course assignments and saved labs from the dashboard_
 
-1.	**Add filter** - Click the **Add filter** field to display filtering options, click on the **filter** you wish to use and input any needed settings. Then click **Search** to refresh the results.
-2.	**Open**, **Save**, and **Remove All** - Reuse any search by clicking **Save** and **naming it**, then access it to use again from the **Open** link. **Remove All** clears all filters. [Click here for further instructions on saving searches](/tms/tms-administrators/tms-fundamentals/reuse-search-settings-or-create-default-settings-on-search-pages.md)
-3.	**Output Options** - Click **Output Options** to show choices to add as columns, click on the **column heading** you wish to add, then click **Search** to refresh the search results displaying your additions. Uncheck any Output Options you wish to remove and click search to make changes.
-4.	**Print** and **Export** - Send your search results to print or export into a CSV file by using the **Print** or **Export** links.
-5.	**Course name** and **Details** - Clicking the **Course name** or **Details** link opens the Course details page with more information about the course.
+1. **Course Assignemnts** - Active Course Assignments are available on your My Training page
+2. **Labs** - Saved labs can be resumed here
 
 [Return to Article contents](#article-contents)
 
-## Simple Course Catalogs Common Features
-The Simple course catalogs display as tiles showing a course graphic if one is available, show icons to depict activities in the courses, and have the ability to mark favorites. Courses are shown in alphabetical order, however, any **Featured** courses show first. Filter categories and filters are custom created to allow searches.
+## Subscription Course Catalogs Common Features
+The On Demand Subscription catalog can display in either version 1 or version 2. All catalogs display tiles showing a course graphic if one is available, show icons to depict activities in the courses, and have the ability to mark favorites. Courses are shown in alphabetical order, however, any **Featured** courses show first. Filter categories and filters are custom created to allow searches.
 
-## Simple Course Catalog Version 1
+## On Demand Subscription Catalog Version 1
  
 ![](/tms/images/simple-course-catalog-v1.png)
 
