@@ -12,10 +12,11 @@ Our subscription catalogs allow you to browse available courses within a subscri
 * [Access subscription catalog](#access-subscription-catalog)
   * [My training page](#my-training-page)
   * [Dashboard](#dashboard)
-* [Subscription catalog common features](#simple-course-catalogs-common-features)
-* [Simple Course Catalog Version 1](#simple-course-catalog-version-1)
-* [Simple Course Catalog Version 2](#simple-course-catalog-version-2)
+* [On Demand Subscription catalog common features](#on-demand-subscription-catalog-common-features)
+* [On Demand Subscription Catalog Version 1](#on-demand-subscription-catalog-version-1)
+* [On Demand Subscription Catalog Version 2](#on-demand-subscription-catalog-version-2)
    * [Filters](#filters)
+   * [Icons](#icons-table)
  
 ## Access subscription catalogs
 You can access subscription catalog(s) once you are logged in from your current training page. After you have begun a course or a lab, you can continue it from the current training page or your dashboard.
@@ -53,12 +54,12 @@ _Access to active course assignments and saved labs from the dashboard_
 
 [Return to Article contents](#article-contents)
 
-## Subscription Course Catalogs Common Features
+## On Demand Subscription Catalog Common Features
 The On Demand Subscription catalog can display in either version 1 or version 2. All catalogs display tiles showing a course graphic if one is available, show icons to depict activities in the courses, and have the ability to mark favorites. Courses are shown in alphabetical order, however, any **Featured** courses show first. Filter categories and filters are custom created to allow searches.
 
 ## On Demand Subscription Catalog Version 1
  
-![](/tms/images/simple-course-catalog-v1.png)
+![](/tms/images/subscription-catalog-v1.png)
 
 _Simple course catalog version 1_
 
@@ -80,9 +81,9 @@ _Simple course catalog version 1_
 
 [Return to Article contents](#article-contents)
 
-## Simple Course Catalog Version 2
+## On Demand Subscription Catalog Version 2
 
-Version 2 of the Simple course catalog includes revised tiles giving more room for course descriptions, a tile or list view, an updated filter to save space in the browser window and triangulated images for courses that do not have an image set up. 
+Version 2 of the On demand subscription catalog includes revised tiles giving more room for course descriptions, a tile or list view, an updated filter to save space in the browser window and triangulated images for courses that do not have an image set up. 
 
 The list view gives more space for descriptions.
 
@@ -93,35 +94,40 @@ _Simple course catalog version 2 list view_
 
 The grid view is the default view, showing each course as a tile.
  
-![](/tms/images/simple-course-catalog-v2.png)
+![](/tms/images/subscription-catalog-v2.png)
 
-_Simple course catalog version 2 grid view_
+_On Demand Subscription catalog version 2 grid view_
 
-1.	**Custom course catalog title** – Displays a name at the top of the course catalog page. _optional feature_
+1.	**On Demand Subscription catalog title** – Displays a name at the top of the subscription catalog page. _optional feature_
 2.	**Filter Options** and **Search** - Click **Filter Options** to open a filter menu, [described below](#filters). Use the word search to find courses; this searches the title and course description.
 3.	**Course title** - Displays the name of the course.
 4.	**Course images** - Shows custom images or triangulated images on catalogs and the course assignments. 
 5.	**Icons** - Presents icons based on course activities. Hovering your mouse over the icon displays a description and the number of those activities in the course. [Reference table below](#icons-table)
-6.	**Lab fabric logo** - Displays the logo of the platform used in the labs, such as, Azure or AWS.
+6.	**Lab fabric logo** - Displays the logo of the platform used in the labs, such as, Azure or AWS, based on the first lab in the course.
 7.	**Details** - Click **Details** to view more information about the course.
 8.	**Rating** - Displays the rating of the course based on users' reviews.
-9.	**Grid** and **List** - Toggles between showing the courses as tiles or as a list.
-10.	**Matches** and **per page** - Displays the number of courses that match your search inquiry. Per page shows the number of courses shown per page and allows you to adjust it. 
-11.	**Open saved filters**, **Save filter**, **Export results** - Reuse any search by clicking **Save filter** and **naming it**, then access it to use again from the **Open saved filters** link. Export your search results into a CSV file by using the **Export** link. [Click here for further instructions on saving searches](/tms/tms-administrators/tms-fundamentals/reuse-search-settings-or-create-default-settings-on-search-pages.md)
+9.	**Description** - Shows the course description information.
+10.	**Grid** and **List** - Toggles between showing the courses as tiles or as a list.
+11.	**Matches** and **per page** - Displays the number of courses that match your search inquiry. Per page shows the number of courses shown per page and allows you to adjust it. 
+12.	**Open saved filters**, **Save filter**, **Export results** - Reuse any search by clicking **Save filter** and **naming it**, then access it to use again from the **Open saved filters** link. Export your search results into a CSV file by using the **Export** link. [Click here for further instructions on saving searches](/tms/tms-administrators/tms-fundamentals/reuse-search-settings-or-create-default-settings-on-search-pages.md)
 
 ### Filters
 Filters in version 2 of our course catalog are effective and save screen space.
 
-![](/tms/images/filter-cat2.png)
+![](/tms/images/basic-filter.png)
 
-_Simple course catalog version 2 filters_
+_On Demand Subscritpion catalog version 2 filter menu_
 
 Clicking on **Filter Options** displays a menu with standard and custom filter categories, clicking most options will display a sub-menu to choose a filter: 
 
-1.	**Favorites** - Filters to display all courses you have marked as a favorite by clicking the heart on a course.
-2.	**Review Rating** - Opens a sub-menu to select the number of stars you would like to filter for based on the course ratings. Choose one or more filters then click away from the menu to display your search results.
-3.	**Current Status** - Search self-paced training course assignments you are working on by filtering for the status of your training on that course. Filtering options include: **Any**, **Not Started**, **In Progress**, or **Completed**. Choose one or more filters then click away from the menu to display your search results.
-4.	**Custom filter categories** - Custom filters can be set up by an organization for their courses. Choosing a filter category displays a sub-menu showing the filters. Choose one or more filters then click away from the menu to display your search results.
+1.	**Filter Options** - Opens the filter menu.
+2.	**Add New** - Gives the option to add new filters after initial filters are in place.
+3.	**Catalog** - Allows selecting which subscription catalogs are displayed when multiple catalogs are assigned. Choose one or more catalogs then click **Apply** to display your search results. _optional feature for organization_
+4.	**Learning Paths** - Opens to the Learning paths catalog.
+5.	**Favorites** - Filters to display all courses you have marked as a favorite by clicking the heart icon on a course.
+6.	**Review Rating** - Opens a sub-menu to select the number of stars you would like to filter for based on the course ratings. Choose one or more filters then click **Apply** to display your search results.
+7.	**Current Status** - Search self-paced training course assignments you are working on by filtering for the status of your training on that course. Filtering options include: **Any**, **Not Started**, **In Progress**, or **Completed**. Choose one or more filters then click **Apply** to display your search results.
+8.	**Custom filter categories** - Custom filters can be set up by an organization for their courses. Choosing a filter category displays a sub-menu showing the filters. Choose one or more filters then click **Apply** to display your search results.
 
 [Return to Article contents](#article-contents)
 
