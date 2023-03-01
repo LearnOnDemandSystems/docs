@@ -144,8 +144,8 @@ Icons | Description
 ![](/tms/images/external-links-icon.png) | **External website** - Contains a link to an external website as a course activity.
 ![](/tms/images/external-activity-icon.png) | **External activity** - Contains an external activity in the course.
 
-[Return to Simple Course Catalog Version 1](#simple-course-catalog-version-1)
+[Return to On Demand Subscription Catalog Version 1](#on-demand-subscription-catalog-version-1)
 
-[Return to Simple Course Catalog Version 2](#simple-course-catalog-version-2)
+[Return to On Demand Subscription Catalog Version 2](#on-demand-subscription-catalog-version-2)
 
 [Return to Article contents](#article-contents)
