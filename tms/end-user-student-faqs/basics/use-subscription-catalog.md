@@ -1,7 +1,7 @@
 ---
 title: "How do I use a subscription catalog?"
 details: "Explains how to use a subscription catalog to find the courses you are interested in."
-ispublished: false
+ispublished: true
 ---
 
 # How do I use a subscription catalog
