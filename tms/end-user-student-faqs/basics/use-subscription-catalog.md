@@ -59,25 +59,24 @@ The On Demand Subscription catalog can display in either version 1 or version 2.
 
 ## On Demand Subscription Catalog Version 1
  
-![](/tms/images/subscription-catalog-v1.png)
+![](/tms/images/sub-cat-v1.png)
 
 _Simple course catalog version 1_
 
-1.	**Custom course catalog title** – Displays a name at the top of the course catalog page. _optional feature_
 2.	**Open** and **Save** - Reuse any search by clicking **Save** and **naming it**, then access it to use again from the **Open** link. [Click here for further instructions on saving searches](/tms/tms-administrators/tms-fundamentals/reuse-search-settings-or-create-default-settings-on-search-pages.md)
-3.	**Export** and **Bookmarks** - Export your search results into a CSV file by using the **Export** link. **Bookmarks** displays all courses you have marked as a favorite by clicking the star.
+3.	**Bookmarks** and **Learning Paths** - **Bookmarks** displays all courses you have marked as a favorite by clicking the star. **Learning Paths** takes you to the learning path catalog.
 4.	**Search** - Use the word search to find courses; this searches the title and course description.
 5.	**Filters** - Toggle to show or hide the filter section.
-6.	**Status** - Search self-paced training course assignments you are working on by filtering for the status of your training for that course. Filtering options include: **Any**, **Not Started**, **In Progress**, or **Completed**.  
-7.	**Match** - Allows you to choose between Any and All. Selecting **Any** expands your search to include courses that match to any of the filters selected. **All** restricts the search to only include courses that meet all the filter requirements.
-8.	**Filter category** - Displays the types of filters grouped beneath it.
-9.	**Filters** - Check the box of any filter to apply it.
-10.	**Rating** - Displays the rating of the course based on users' reviews.
-11.	**Course title** - Displays the name of the course.
-12.	**Icons** - Presents icons based on course activities. Hovering your mouse over the tile displays what each icon represents and the number of those activities in the course. [Reference table below](#icons-table)
-13.	**Favorite** - Click the star on a course to bookmark it as a favorite; click again to remove it. Bookmarks can be opened from the link at the top of the page.
-14.	**Course images** - Shows custom images on catalogs and the course assignments. Courses without images remain blank.
-15.	**Zoomed tile** - Hovering your mouse over a tile zooms in to show icon descriptions, a written description of the course if available, and the **More** button to open the course description. 
+6.	**Subscription** -  Allows selecting which subscription catalogs are displayed when multiple catalogs are assigned. _optional feature for organization_
+7.	**Status** - Search self-paced training course assignments you are working on by filtering for the status of your training for that course. Filtering options include: Any, Not Started, In Progress, or Completed.
+8.	**Match** - Allows you to choose between Any and All. Selecting **Any** expands your search to include courses that match to any of the filters selected. **All** restricts the search to only include courses that meet all the filter requirements.
+9.	**Filter category** - Displays a heading for the types of filters grouped beneath it.
+10.	**Filters** - Check the box of any filter to apply it.
+11.	**Rating** - Displays the rating of the course based on users' reviews.
+12.	**Course title** - Displays the name of the course.
+13.	**Icons** - Presents icons based on course activities. Hovering your mouse over the tile displays what each icon represents and the number of those activities in the course. [Reference table below](#icons-table)
+14.	**Favorite** - Click the star on a course to bookmark it as a favorite; click again to remove it. Bookmarks can be opened from the link at the top of the page.
+15.	**Course images** - Shows custom images on catalogs and the course assignments. Courses without images remain blank.
 
 [Return to Article contents](#article-contents)
 
@@ -112,7 +111,7 @@ _On Demand Subscription catalog version 2 grid view_
 12.	**Open saved filters**, **Save filter**, **Export results** - Reuse any search by clicking **Save filter** and **naming it**, then access it to use again from the **Open saved filters** link. Export your search results into a CSV file by using the **Export** link. [Click here for further instructions on saving searches](/tms/tms-administrators/tms-fundamentals/reuse-search-settings-or-create-default-settings-on-search-pages.md)
 
 ### Filters
-Filters in version 2 of our course catalog are effective and save screen space.
+Filters in version 2 of our course catalog are effective and save screen space. Any of the filters on the menu can have sub-menus with more filtering options. Filtering works differently from the main menu options to the sub-menu options. Main menu options filter as "AND" meaning all filters selected must match filters assigned to the course for it to appear in the results; while sub-menu options filter as "OR" which shows courses that match at least one matching filter assigned to the course, as opposed to all of them.
 
 ![](/tms/images/basic-filter.png)
 
@@ -128,6 +127,18 @@ Clicking on **Filter Options** displays a menu with standard and custom filter c
 6.	**Review Rating** - Opens a sub-menu to select the number of stars you would like to filter for based on the course ratings. Choose one or more filters then click **Apply** to display your search results.
 7.	**Current Status** - Search self-paced training course assignments you are working on by filtering for the status of your training on that course. Filtering options include: **Any**, **Not Started**, **In Progress**, or **Completed**. Choose one or more filters then click **Apply** to display your search results.
 8.	**Custom filter categories** - Custom filters can be set up by an organization for their courses. Choosing a filter category displays a sub-menu showing the filters. Choose one or more filters then click **Apply** to display your search results.
+
+Filters that are added can be directly edited or removed, all filters can be removed at once, and new filters can be added.
+
+![](/tms/images/filter-v2-editing.png)
+
+_On Demand Subscription catalog version 2 editing filters_
+
+1. **Filter Options number** - View the number of filters applied which is shown in the circled number.
+2. **Clear Filters** - Select to remove all applied filters.
+3. **Filter's edit icon** - Use the edit icon on a filter to change the filter selection(s).
+4. **Filter's X** - Click the filter's **X** to remove that filter.
+5. **Add New** - Opens the original filter menu for selctions.
 
 [Return to Article contents](#article-contents)
 
