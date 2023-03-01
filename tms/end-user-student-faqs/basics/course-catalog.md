@@ -112,6 +112,18 @@ _Menu and sub-menu filtering_
 4. **Add New** - Click to add more filters
 5. **Clear Filters** - Select to remove filters
 
+Filters that are added can be directly edited or removed, all filters can be removed at once, and new filters can be added.
+
+![](/tms/images/filter-v2-editing.png)
+
+_Simple course catalog version 2 editing filters_
+
+1. **Filter Options number** - View the number of filters applied which is shown in the circled number.
+2. **Clear Filters** - Select to remove all applied filters.
+3. **Filter's edit icon** - Use the edit icon on a filter to change the filter selection(s).
+4. **Filter's X** - Click the filter's **X** to remove that filter.
+5. **Add New** - Opens the original filter menu for selctions.
+
 [Return to Article contents](#article-contents)
 
 ### Icons table
