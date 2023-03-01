@@ -584,7 +584,7 @@ Markdown allows for text to be resized by typing 1-6 # (hash or pound) symbols i
 
     > `^[link text](https://URL.com)`
 
-- **Open in portal window** (or a new window if there is no portal window): used to open a link in a the Portal window of the lab, or a new window if there is no portal window in the lab. 
+- **Open in portal window** (or a new window if there is no portal window): used to open a link in a Portal window of the lab, or a new window if there is no portal window in the lab. 
 
     > `<[link text](https://URL.com)`
 
