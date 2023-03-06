@@ -29,3 +29,9 @@ This will download a pdf of the certificate. Open the file on your local system 
 
 > :small_blue_diamond: Please note:  If you do not have the permissions required to print your completion certifcate, please reach out to your learning organization for assistance.
 
+<!--search terms-->
+<div hidden>
+<b>certificate</b>
+<b>print certificate</b>
+<b>completed lab</b>
+</div>
