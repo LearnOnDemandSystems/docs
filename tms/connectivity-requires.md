@@ -126,6 +126,9 @@ All connections utilize secure WebSockets connections over port 443. No plugin i
 
 <sup>1</sup> In some cases, the Firefox browser can cause repeating characters in ESX labs.
 
+## Experiencing Issues? 
+If you are experiencing issues, please see our recommendations in our [Connectivity Issues documentation](https://docs.skillable.com/lod/connectivity-issues.md).
+
 <!--
 Keywords
 --> 
