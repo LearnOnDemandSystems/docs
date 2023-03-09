@@ -1,10 +1,10 @@
 ---
-title: "What do I do if I am getting an **Access Denied** message?"
+title: "What do I do if I am getting an Access Denied message?"
 description: "Find out reasons you may be seeing an access denied message and how to resolve it."
 ispublished: true
 ---
 
-# What do I do if I am getting an **Access Denied** message?
+# What do I do if I am getting an Access Denied message?
 
 Reaching an Access denied Page may be the result of using a bookmarked link to a page that has been archived or by following a link that is associated to another user's training.  
  
