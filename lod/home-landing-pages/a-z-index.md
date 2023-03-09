@@ -74,6 +74,10 @@
         <div class="subtopic_title">Azure Capacity Limitations</div>
         <div class="subtopic_description">Azure resource capacity limitations, how to avoid them, and what to do if you run into capacity limitations with your Azure subscription.</div>
       </a>
+      <a class="subtopic_link" href="/lod/azure-passes.md">
+        <div class="subtopic_title">Azure Passes</div>
+        <div class="subtopic_description">How and when Azure passes are assigned to cloud based labs.</div>
+      </a>
       <a class="subtopic_link" href="/guides/cloud-slice/microsoft-azure/azure-resource-providers.md">
         <div class="subtopic_title">Azure Resource Providers</div>
         <div class="subtopic_description">Azure Resource Providers, and how to get the resources you need for your lab.</div>

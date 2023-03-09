@@ -1,7 +1,7 @@
 ---
-title: "title"
-description: "description"
-isPublished: false
+title: "Azure Passes"
+description: "How and when Azure passes are assigned to cloud based labs."
+isPublished: true
 ---
 
 # Azure Passes      
