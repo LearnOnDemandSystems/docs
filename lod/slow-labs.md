@@ -32,3 +32,13 @@ If you are experiencing latency issues or slow lab issues in a lab environment, 
 - **Try a different browser**: Some browser extensions can cause certain aspects of our lab environments to not load correctly. 
 
 - **Try a different computer**: Some work-issued computers have built-in software that cannot be disabled, sometimes this software interferes with connection to our service.  If possible, please try a personal computer. 
+
+
+
+<!--search terms-->
+<div hidden>
+<b>unresponsive</b>
+<b>no screen</b>
+<b>slow response</b>
+<b>connection issues</b>
+</div>

@@ -20,6 +20,7 @@ Within the lab interface, some buttons expand to display a menu of options.
     - [Display Menu](#display-menu)
     - [Developer Menu](#developer-menu)
     - [Hamburger Menu](#hamburger-menu)
+  - [Lab Interface FAQ](#lab-interface-faq)
 
 ## Overview
 
@@ -119,6 +120,14 @@ Within the lab interface, some buttons expand to display a menu of options.
 
 1. **Split Windows**: This allows splitting the windows into two separate windows; with the Virtual machine in one window, and the lab instruction pane in another window. After windows are split, this button will change to display _Join Windows_, this is used to join the windows back together into a single browser window. 
 
+## Lab Interface FAQ
 
+To read frequently asked questions about the lab interface, read [Lab Interface FAQ](/lod/lab-interface-faq.md).
 
-
+<!--search terms-->
+<div hidden>
+<b>lab extension</b>
+<b>lab save</b>
+<b>lab timer</b>
+<b>timer</b>
+</div>

@@ -15,3 +15,10 @@ If your lab environment is using Visual Studio and you receive a message that sa
 1. Add your own Microsoft information. You should have created a new Microsoft Live account to use in the lab. 
 
 1. Once you sign in with your own account, the license for Visual Studio will be reactivated. 
+
+<!--search terms-->
+<div hidden>
+<b>stale license</b>
+<b>msdn subscription</b>
+<b>update license</b>
+</div>

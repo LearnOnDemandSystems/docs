@@ -27,3 +27,11 @@ isPublished: false
 - [**How Do I Resize The Screen Resolution Setting On My Own Computer To View The Lab Better?**](lab-interface-faqs/how-do-i-resize-the-screen-resolution-setting-on-my-own-computer-to-view-the-lab-better.md)
 
 >[!knowledge] For a more detailed explanation of the lab interface, please see our [Lab Interface Documentation](https://docs.learnondemandsystems.com/lod/lab-interface.md).
+
+<!--search terms-->
+<div hidden>
+<b>lab extension</b>
+<b>lab save</b>
+<b>lab timer</b>
+<b>timer</b>
+</div>

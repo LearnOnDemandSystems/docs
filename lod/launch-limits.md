@@ -34,3 +34,12 @@ When the maximum lab launches limit has been met for either a lab activity or al
 Launches that are unused during the class may be used during post class lab access, if post class lab access is enabled for the class.
 
 If you would like to request an extension to your lab launches please reach out to your Training Organization.
+
+<!--search terms-->
+<div hidden>
+<b>unable to launch</b>
+<b>lab limits</b>
+<b>launch limit</b>
+<b>attempt limit reached</b>
+<b>maximum attempts</b>
+</div>

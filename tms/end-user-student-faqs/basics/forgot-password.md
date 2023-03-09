@@ -18,3 +18,12 @@ This opens the Login Assistance page
 ![](/tms/images/send-instructions.png)
 
 This sends you an email to walk through resetting your password in the system.
+
+<!--search terms-->
+<div hidden>
+<b>unable to login</b>
+<b>unable to log in</b>
+<b>login access</b>
+<b>log in access</b>
+<b>account access</b>
+</div>

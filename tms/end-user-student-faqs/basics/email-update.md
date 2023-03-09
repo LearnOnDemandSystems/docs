@@ -9,3 +9,18 @@ ispublished: true
 Three separate email addresses can be added to your user account. Changes to any of these emails need to be submitted to your training organization to process. 
  
 Please provide your training organization with your current account information and provide the details of the changes you are requesting to be made. 
+
+<!--search terms-->
+<div hidden>
+<b>update account</b>
+<b>update email</b>
+<b>email change</b>
+<b>login change</b>
+<b>log in change</b>
+<b>update login</b>
+<b>update log in</b>
+<b>update signin</b>
+<b>update sign in</b>
+<b>sign in change</b>
+<b>signin change</b>
+</div>

@@ -19,3 +19,11 @@ On the URL provided to you:
 1. Click **Launch** next to the lab you want to start.
 
 >:small_orange_diamond: [View a video on redeeming a training key.](https://youtu.be/qKN34ItbIB8) 
+
+<!--search terms-->
+<div hidden>
+<b>training redemption</b>
+<b>lab redemption</b>
+<b>getting lab access</b>
+<b>new training</b>
+</div>

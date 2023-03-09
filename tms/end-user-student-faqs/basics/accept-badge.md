@@ -138,3 +138,9 @@ Yes, log into your Skillable **user account**, click on the **Achievements** ico
 You can find answers to frequently asked questions at [Credly support.](https://support.credly.com/hc/en-us)
 
 [Return to Article contents](#article-contents)
+
+<!--search terms-->
+<div hidden>
+<b>badge</b>
+<b>missing badge</b>
+</div>

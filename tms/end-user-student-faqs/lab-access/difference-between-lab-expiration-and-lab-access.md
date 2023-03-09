@@ -86,3 +86,11 @@ _On some courses, instructor's have the ability to disable lab access, when a la
 ### Related articles
 
 * [How do I launch, cancel, save and relaunch a lab?](/tms/end-user-student-faqs/lab-access/cancel-lab.md)
+
+<!--search terms-->
+<div hidden>
+<b>unable to access training</b>
+<b>training not appearing</b>
+<b>training access</b>
+<b>lab access</b>
+</div>

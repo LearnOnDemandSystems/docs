@@ -25,3 +25,11 @@ A Create an Account link may be found on the login page under the Sign In button
 >:small_orange_diamond: [View a video on redeeming a training key.](https://youtu.be/XjWBNMslySY) 
 
 Once you have an account and have redeemed your Training Key, you will no longer need the lab code/training key to login. You will logon with your username and password at the same URL as before. This opens the Current Training page; click on the course name to return to your labs.
+
+<!--search terms-->
+<div hidden>
+<b>training redemption</b>
+<b>lab redemption</b>
+<b>getting lab access</b>
+<b>new training</b>
+</div>

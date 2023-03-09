@@ -22,3 +22,10 @@ Once you are logged into the TMS, you may change your password from your user pr
 1. Click **OK** to close the dialog stating that your password was successfully changed
 
 > :small_blue_diamond: Please note: Your password can be changed in Skillable Studio, using the same steps.
+
+<!--search terms-->
+<div hidden>
+<b>update password</b>
+<b>unable to login</b>
+<b>password issues</b>
+</div>

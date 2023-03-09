@@ -33,3 +33,11 @@ _Review the deletion information_
 _Confirm account deletion_
 
 4. Once you type in Delete, an additional confirmation prompt is given, click **OK**
+
+<!--search terms-->
+<div hidden>
+<b>remove account</b>
+<b>close account</b>
+<b>close my account</b>
+<b>delete account</b>
+</div>
