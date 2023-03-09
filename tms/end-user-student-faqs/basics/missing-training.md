@@ -11,3 +11,9 @@ Missing training from your account can be caused by a few circumstances. Before 
 Circumstances that will effect your access to access training are as follows:
 * Your training is associated to a different user account, [look here for more information](/tms/end-user-student-faqs/basics/wrong-user-acct.md). Reach out to training organization to verify your training is associated to proper account and if more than one user account exists for you they can merge the accounts for you.
 * You received a training key that needs to be redeemed [look here form more information on redeeming training keys](/tms/end-user-student-faqs/class-self-paced/training-key-issues.md). 
+
+<!--search terms-->
+<div hidden>
+<b>training access</b>
+<b>unable to locate training</b>
+</div>

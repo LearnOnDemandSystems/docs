@@ -11,3 +11,10 @@ Content and/or instruction issues that are present in the lab environment can ar
 If you encounter an issue with the instructions that results in you being unable to continue in the lab, please reach out to your training organization with details on where the error in the instructions occurred. 
 
 If you encounter issues in the software user interface, please provide screenshots showing any errors, issues or application process. 
+
+<!--search terms-->
+<div hidden>
+<b>lab instructions</b>
+<b>steps inaccurate</b>
+<b>unable to complete lab</b>
+</div>

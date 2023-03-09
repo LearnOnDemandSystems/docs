@@ -13,3 +13,16 @@ If you are receiving an **Access Denied** message after following a link:
 2. Verify that you signing on using the correct URL provided by your training company
 
 If you are receiving an access denied message after navigating to training that has been assigned to you, please reach out to your training organization. 
+
+<!--search terms-->
+<div hidden>
+<b>cant access</b>
+<b>can't access</b>
+<b>access issues</b>
+<b>not enough seats</b>
+<b>no room</b>
+<b>access</b>
+<b>denied</b>
+<b>unable to login</b>
+<b>unable to log in</b>
+</div>

@@ -18,3 +18,11 @@ Some lab environments may have external internet access. Internet connectivity i
 1. Save the lab profile and relaunch the lab. 
 
 If the lab profile is not designed to have internet, no further troubleshooting steps are necessary. 
+
+<!--search terms-->
+<div hidden>
+<b>unable to access internet</b>
+<b>internet not present</b>
+<b>lab lost internet</b>
+<b>loss of internet</b>
+</div>

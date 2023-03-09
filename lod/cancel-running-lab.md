@@ -18,3 +18,10 @@ To cancel a running lab, perform the following steps:
 1. Select **End**.
 
     ![End Lab](images/end-lab.png)
+
+<!--search terms-->
+<div hidden>
+<b>end lab</b>
+<b>cancel lab</b>
+<b>unable to launch lab</b>
+</div>

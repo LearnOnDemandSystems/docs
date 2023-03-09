@@ -16,3 +16,9 @@ Check each of the steps below to verify there are no outside causes to your trai
 5. Training keys are only redeemed once: they do not need to be used each time a student tries to access training 
 
 Please reach out to your training organization should you receive any errors while attempting to redeem your training key. 
+
+<!--search terms-->
+<div hidden>
+<b>instructor cant access lab</b>
+<b>instructor can't access lab</b>
+</div>

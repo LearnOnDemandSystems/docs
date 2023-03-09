@@ -12,3 +12,9 @@ If your lab instance is missing files that are preventing completion of any lab 
 - The specific step in the lab instructions that you are unable to complete.
 - A description and name of the missing files that are needed to complete steps in the lab instructions.
 - Screen shots if possible of the lab interface.
+
+<!--search terms-->
+<div hidden>
+<b>lab files missing</b>
+<b>unable to find files</b>
+</div>

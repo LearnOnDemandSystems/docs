@@ -31,3 +31,13 @@ _The Activities section on your enrollment displays when your access to launch t
 _This lab shows that all lab launches have been used and there are no more lab launches available._
 
 If none of the above applies please reach out to your training organization. 
+
+<!--search terms-->
+<div hidden>
+<b>unable to join class</b>
+<b>can't launch lab</b>
+<b>cant launch lab</b>
+<b>no launch button</b>
+<b>no start button</b>
+<b>unable to start lab</b>
+</div>

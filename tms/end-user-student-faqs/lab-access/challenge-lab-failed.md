@@ -13,3 +13,9 @@ If you have received an unsuccessful launch of a challenge lab and have not had 
 1. Time of failed launch 
 2. Name of Challenge lab 
 3. Any error messages and screenshots showing the error message which displayed for the failed launch attempt 
+
+<!--search terms-->
+<div hidden>
+<b>failed challenge</b>
+<b>challenge retry</b>
+</div>

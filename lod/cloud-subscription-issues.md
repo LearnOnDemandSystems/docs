@@ -13,3 +13,11 @@ If you experience issues with your Cloud Slice Access during your lab instance, 
 - CSS Credentials provided
 - Lab instance ID
 - Errors presented/screenshots of errors if available
+
+<!--search terms-->
+<div hidden>
+<b>azure credentials</b>
+<b>azure login</b>
+<b>azure log in</b>
+<b>unable to provision</b>
+</div>
