@@ -142,6 +142,6 @@ The [Catalog API command](https://connect.skillable.com/lab/operation/Catalog/) 
 
 1. Using the following example below, replace `mytag` with the **Tag Name** of the tab you wish to report on.
 
-    >`https://labondemand.com/api/v3/catalog/tag=mytag`
+    >`https://labondemand.com/api/v3/catalog?tag=mytag`
 
 1. The API response will contain a list of Lab Profiles that have that tag added to them. Lab Profiles are generally group into series. 
