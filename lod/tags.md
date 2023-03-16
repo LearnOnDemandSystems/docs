@@ -1,10 +1,10 @@
 ---
-title: "Managed Metadata Tags"
+title: "Content Metadata Tags"
 description: "Tags are used to organize and filter Lab Profiles and Lab Series, to assist with reporting and delivery."
 isPublished: true
 ---
 
-# Managed Metadata Tags
+# Content Metadata Tags
 
 ## Overview
 
@@ -12,7 +12,7 @@ Tags are used to organize and filter Lab Profiles and Lab Series, to assist with
 
 To use tags, they must first be created in Studio and then they can be added to a Lab Profile. 
 
->[!knowledge] Creating tags requires specific permissions in Skillable Studio. Managed Metadata Tags require the Template Gallery Management permission. If you are unable to view Tags, please reach out to your Account Executive, or Customer Service Manager to get the permission assigned to your account. For more information, read our [Lab Developer Roles documentation](https://docs.skillable.com/lod/lod-lab-developers/org-lab-dev-roles.md).
+>[!knowledge] Creating tags requires specific permissions in Skillable Studio. Content Metadata Tags require the Template Gallery Management permission. If you are unable to view Tags, please reach out to your Account Executive, or Customer Service Manager to get the permission assigned to your account. For more information, read our [Lab Developer Roles documentation](https://docs.skillable.com/lod/lod-lab-developers/org-lab-dev-roles.md).
 
 ## Table of Contents
 - [Tag Format](#tag-format)
