@@ -339,7 +339,7 @@
         <div class="subtopic_description">How to log in to a virtual machine.</div>
       </a>
       <a class="subtopic_link" href="/lod/lab-on-demand-lti-1p3-integration.md">
-        <div class="subtopic_title">Managed Metadata Tags</div>
+        <div class="subtopic_title">Content Metadata Tags</div>
         <div class="subtopic_description">Tags are used to organize and filter Lab Profiles and Lab Series, to assist with reporting and delivery</div>
       </a>
       <a class="subtopic_link" href="/lod/tags.md">
