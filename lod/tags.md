@@ -98,7 +98,7 @@ Tags are added to lab profiles by editing the lab profile.
 
 Organizations can have default tags configured, called Quick Tags. Quick Tags allow a tag or set of tags to be displayed on the Tags tab of a Lab Profile, when editing or creating lab profiles that belong to the organization. 
 
-Quick Tags can be optionally configured to be a required selection when editing or creating lab profiles that belong to the organization. W
+Quick Tags can be optionally configured to be a required selection when editing or creating lab profiles that belong to the organization.
 
 ### Template Gallery 
 
