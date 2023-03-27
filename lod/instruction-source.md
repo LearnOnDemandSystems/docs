@@ -210,9 +210,9 @@ To add an Activity to a Lab Profile that uses an external instruction source:
 
 1. After creating the Activity, **copy the Token** for the Activity. 
 
-1. Navigate to your external repository, and edit the file that is used for the lab instructions. 
+1. **Navigate to your external repository**, and edit the file that is used for the lab instructions. 
 
-1. Paste the token in the file, where you want the Activity to be displayed. 
+1. **Paste the token in the file**, where you want the Activity to be displayed. 
 
 The Activity is now part of your lab instructions. Repeat these steps to add additional Activities. 
 
