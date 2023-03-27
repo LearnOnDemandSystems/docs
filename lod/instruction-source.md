@@ -6,15 +6,16 @@ isPublished: true
 
 # External Instruction Source
 
-1. [Overview](#overview)
+- [Overview](#overview)
     - [Benefits](#external-management-benefits)
     - [Disadvantages](#external-management-disadvantages)
     - [Best Practices](#best-practices)
-1. [Getting Started](#getting-started)
+- [Getting Started](#getting-started)
     - [Azure DevOps](#azure-devops)
     - [GitHub](#github)
     - [Copying Existing Lab Content](#copying-existing-lab-content)
-1. [Markdown Resources](#markdown-resources)
+- [Activities](#activities)
+- [Markdown Resources](#markdown-resources)
 
 # Overview
 
@@ -45,9 +46,6 @@ These include:
     - Type text
     - code block modifiers
     - @lab replacement tokens Intellisense
-
-
-1. **Activities** - Automated and question activities are unavailable when using an external repository as an instruction source. 
 
 ## Best Practices
  
@@ -195,7 +193,30 @@ manage in GitHub.
 1. In the **Save** dialog, navigate to the location where you want to save the archive file.
 
 The archive file that is saved will contain a content.md file as well as folders for screenshots and videos if either of these were present in the original lab profile. Add these files to the ADO or GitHub repository that you want to use to manage your lab content, and then proceed to the configure the lab profile to use an external instruction source for [ADO](#azure-devops) or [GitHub](#github)
-   
+
+## Activities 
+
+Automated and question activities can be used when using an external repository as an instruction source. Activities must be added to the Lab profile and then the Activity Replacement Token added to the lab instructions in the external repository.
+
+To add an Activity to a Lab Profile that uses an external instruction source: 
+
+1. Navigate to the Lab profile.
+
+1. Select **Edit Instructions** in the upper-right corner. 
+
+1. Select the Activities menu. 
+
+1. Select **+ New Question** or **+ New Automated Activity**. 
+
+1. After creating the Activity, **copy the Token** for the Activity. 
+
+1. Navigate to your external repository, and edit the file that is used for the lab instructions. 
+
+1. Paste the token in the file, where you want the Activity to be displayed. 
+
+The Activity is now part of your lab instructions. Repeat these steps to add additional Activities. 
+
+
 ## Markdown Resources
 
 - [IDLx Authoring Guide](../guides/idl2/idlv2-authoring-guide-and-best-practice.md)
