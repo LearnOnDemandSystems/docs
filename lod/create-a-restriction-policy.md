@@ -143,7 +143,7 @@ For more in-depth information on how to create your own custom ACPs, our [Lab de
 
 4. Scroll down to your resource group, then click **Add Policy** below the **Access Control Policies** heading.
 
-5. Enter the name you gave your Access Control Policy into the **Name** field (see [Creating an ACP](#creating-an-access-control-policy-in-lab-on-demand-lod)).
+5. Enter the name you gave your Access Control Policy into the **Name** field (see [Creating an ACP](#creating-an-access-control-policy-in-skillable-studio)).
 
 6. Click **Search** to find your Access Control Policy (see [Finding an Existing ACP](#finding-an-existing-acp)).
 
