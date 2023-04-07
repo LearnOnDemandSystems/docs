@@ -80,18 +80,22 @@ Create an image definition to define specifications for virtual machines that ar
 1. Click **+Add new image definition** in the upper-left of the page. 
 1. **Region**: Select a region where the image definition will be created. 
 1. **Image definition name**: Name the image definition. This name will be used in Skillable Studio in the _Machine Image_ fields on the VM profile. 
-1. **Operating system**: select the operating system that your VM will use. 
-1. **VM Generation**: Select the VM generation that your VM will use. 
-1. **Operating system state**: Select the state that the OS will be in at the time of launch. Generalized typically boots slower, but may be needed for some learning scenarios. Specialized typically boots quicker, but may skip some basic configuration steps that some learning scenarios may benefit from including. 
-1. **Publisher**: Enter a publisher name for the Image Definition. This can be the lab author or the organization that is publishing the VM for student use. 
-1. **Offer**: Enter the name of the Image Definition offer. 
-1. **SKU**: Enter the name of the Image Definition SKU.
-1. Select **Next: Publishing options** in the Azure portal to add Publishing options.
+1. **Operating system**: select the operating system that your VM will use.
+
+	> [!note] 
+	> Skillable Studio only supports Windows virtual machines in Azure. 
+
+3. **VM Generation**: Select the VM generation that your VM will use. 
+4. **Operating system state**: Select the state that the OS will be in at the time of launch. Generalized typically boots slower, but may be needed for some learning scenarios. Specialized typically boots quicker, but may skip some basic configuration steps that some learning scenarios may benefit from including. 
+5. **Publisher**: Enter a publisher name for the Image Definition. This can be the lab author or the organization that is publishing the VM for student use. 
+6. **Offer**: Enter the name of the Image Definition offer. 
+7. **SKU**: Enter the name of the Image Definition SKU.
+8. Select **Next: Publishing options** in the Azure portal to add Publishing options.
     1. **Recommended VM vCPUs**: Select the minimum and maximum number of vCPUs that can be used in any VMs that are deployed using this image definition. 
     1. **Recommended VM memory**: Select the minimum and maximum amount of memory that can be used in any VMs that are deployed using this image definition. 
     1. **Excluded disk types**: select any disk types that should be excluded. 
-1. Click **Next: Review + Create**.
-1. Click **Create**.
+9. Click **Next: Review + Create**.
+10. Click **Create**.
 	
 ### Upload a VHD file
 To upload template VHDs into a Microsoft Azure subscription using the Microsoft Azure Portal, you must perform the following tasks:
