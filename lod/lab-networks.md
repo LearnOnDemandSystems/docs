@@ -12,7 +12,7 @@ Lab environments hosted on Hyper-V or ESX virtualization platforms utilize Learn
 
 - WebNet - This is default network when internet access is required. Labs on WebNet launch with a unique NAT gateway that provides routing and network isolation.
 
-- SecureNet - This network is a more secure version of WebNet used for labs that are at greater risk of abuse.
+- SecureNet - This network is a more secure version of WebNet used for labs that are at greater risk of abuse. SecureNet networks have firewall restrictions and rules in place to reduce the impact of abuse.
     - Lab Profiles are assigned to SecureNet when an Access Control List (ACL) with the Secure field checked is applied.
 
 - CustomerNet - This network is for labs that require Public IP access. It is available upon request.
