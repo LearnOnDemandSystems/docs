@@ -22,6 +22,8 @@ Overall, Instruction Sets for Lab Profiles is a powerful tool for creating flexi
 - [API](#api)
   - [Example API Command](#example-api-command)
 - [Best Practices](#best-practices)
+- [Use Cases](#use-cases)
+- [Related Topics](#related-topics)
 
 ## Create Instruction Sets 
 
@@ -126,7 +128,11 @@ This management page allows you to manage Instruction Sets. The following option
 
 ## Editing Instructions 
 
-To edit the instructions within an Instruction Set: 
+Lab instructions can either be editable or not editable. This setting is managed in the Instruction Management window. If the Editable setting is not enabled for an Instruction Set, it will be read-only and cannot be edited until that setting is set to editable.
+
+![Instruction Sets Editable](images/instruction-sets-editable.png)
+
+To edit an Instruction Set that is editable: 
 
 1. Navigate to the Lab Profile you wish to add Instruction Sets to. 
 
@@ -167,3 +173,10 @@ For more information about our API, please see the [Skillable Studio Lab API](ht
 ## Use Cases
 
 - Your lab could have two sets of instructions for different experience levels. There could be an Instruction Set for beginner users, and an Instruction Set for expert users. Specifying Instruction Sets accordingly, will allow different Instruction Sets to be shown to users, for the same lab profile.
+
+## Related Topics
+
+- [Activities](/lod/activities.md): Activities are either automated activities or question-based activities.
+- [Lab Variables](/lod/variables.md): Variables store information and then that information can be recalled or used in the lab.
+- [Markdown User Guide](/guides/idl2/markdown-user-guide.md): overview on Mardown syntax used in Skillable Studio. 
+- [Replacement Tokens](/lod/feature-focus/cloud-resource-templates/replacement-tokens.md): Replacement Tokens are used to replace text with a variable that is unknown at the time of authoring the lab. 
