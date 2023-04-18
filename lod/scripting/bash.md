@@ -20,12 +20,12 @@ echo false
 
 ```Bash
 //do stuff... all good
-set_activity_result -Correct
+set_activity_result Correct
 ```
 
 ```
 //do stuff... uh oh
-set_activity_result -Incorrect
+set_activity_result Incorrect
 ```
 
 You can also report the result as a score percentage...
