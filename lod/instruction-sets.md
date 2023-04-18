@@ -160,7 +160,7 @@ To specify an Instruction Set or language in an API launch command, add the Inst
 
 >[!knowledge] An API example that contains these parameters is displayed on the Lab Profile. To view the example, navigate to the Manage Instructions Sets page on the Lab Profile. Next, select the Columns menu in the upper-right, and enable the API example column. An API example will be displayed next to each instruction set, with the ID and language parameters. 
 
-For more information about our API, please see the [Skillable Studio Lab API](https://connect.skillable.com/lab/overview/).
+For more information about our API, please see the [Skillable Studio Lab API](https://connect.skillable.com/lab/operation/Launch/).
 
 ## Best Practices 
 

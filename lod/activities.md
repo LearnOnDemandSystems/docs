@@ -844,27 +844,35 @@ Optionally, you can enable scoring for Questions in your lab. Once scoring is en
 
 ## Scoring
 
-Scoring allows the student to be given a score for each Activity they complete correctly, and those scores contribute to the student's overall score in the lab. As the lab author, you set the passing score for the lab after you enable scoring in the lab. 
+Scoring allows the student to be given a score for each Activity they complete correctly, and those scores contribute to the student's overall score in the lab. As the lab author, you set the passing score for the lab.  
 
-> [!KNOWLEDGE] When Scoring is enabled, it is not required to make each question scored. As a lab author, you are free to decide which Activities have a score value associated, and only score the questions that you wish to.
+> [!KNOWLEDGE] When Scoring is enabled, it is not required to make each question scored. As a lab author, you are able to decide which Activities have a score value associated, and only score the activities that you wish to. Additionally, you may choose how scoring results are shown to the lab user. 
 
 To enable Scoring in your lab:
 
-1. Click the **Activities icon** to enter the settings menu for Activities.
+1. Select the **Activities icon** to enter the settings menu for Activities.
 
-1. Click the **switch** to enable Scoring. 
-
-1. Enter a **passing score** for the lab. You may change this at anytime, as often as you would like. 
+1. Enter a **passing score** for the lab. You may change this at anytime. 
 
     ![](../lod/images/activities-menu-scoring-enabled.png)
 
-1. After Scoring is enabled, you will see the Score checkbox available to select on all Activities you have created, while editing that Activity.
+1. Select how scoring results are shown to the lab user; 
 
-1. Click the checkbox to enable scoring, and enter a score for that Activity. 
+    - Do Not Show: the lab user will not be shown their scoring results when the lab is ended.
+    - Score Only: the lab user will only be shown their scoring results, without any other details. 
+    - Detailed: the lab user will be shown their overall score, and the result of each Activity in the lab. Additionally, the lab user will be able to download or print a copy of their scoring results, when they are shown. 
 
-    ![](../lod/images/score-scored-checkboxes.png)
+1. Select the type of Activity you wish to add; Question or Automated Activity. 
+
+1. Select the checkbox to enable scoring, and enter a score for that Activity. 
+
+    ![](../lod/images/score-scored-checkboxes.png) 
 
 1. The student will be given the score value upon completing the Activity correctly. 
+
+1. Complete all other fields on the Activity. 
+
+1. Repeat steps 4-7 for each additional Activity. 
 
 ### Scoring Methods
 

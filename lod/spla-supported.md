@@ -50,8 +50,7 @@ The following is a list of other software supported by the SPLA program but **NO
 # Billing Scenarios
 
 Windows Server is offered under the following terms:
-* **Concurrency GB Model** - offered in increments of 768GB RAM
-* **Per GB RAM/HR Model** - offered per GB, calculated per hour
+* **Concurrency Model** - offered in increments of 1TB of RAM
 
 Office Products are billed on a 'Per User' basis.  Every launch in Skillable Studio constitutes a billable consumption.  
 
