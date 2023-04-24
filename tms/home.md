@@ -90,20 +90,9 @@ aria-hidden="true">assignment</i>
    <div class="cardContainer">
   <div class="instructorCategory userTypeSection">
   <!-- Begin Instructor categories section.. -->
-    <div class="moreInfo" tabindex="0" title="Getting started?">
-      <span class="moreInfo_header">Featured</span>
-      Find out about your Instructor Dashboard <a href="/tms/instructors/general/instructordashboard.md">
-    </div> 
-    </div>
     <div class="cardsContainer">
     <div class="cardContainer">
-
-
-</div>
-   </div> 
-   <div class="instructorCategory userTypeSection">
-  <!-- Begin instructor categories section.. -->
-          <!-- Begin categories section.. -->
+     <!-- Begin categories section.. -->
           <div class="cardContainer">
            <div class="cloudSlice cardContent">
           <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Featured Instructor General Docs">Featured</div>
