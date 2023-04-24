@@ -186,7 +186,24 @@ aria-hidden="true">assignment</i>
   </div>
   <div class="administratorCategory userTypeSection">
     <!-- Begin administrator categories section.. -->
-  <div class="categoriesHeader" tabindex="0" title="Featured Posts" aria-label="Featured Admin Docs">Featured</div>
+    <div class="categoriesHeader" tabindex="0" title="Featured Posts" aria-label="Featured Admin Docs">Getting Started</div>
+    <div class="cardContainerFull">
+      <div class="cardContent">
+          <div class="category">
+          <a href="/tms/tms-administrators/tmsfundamentals/full-process.md" class="categoryThread">
+            <i class="material-icons green" aria-hidden="true">bookmarks</i>
+            <span class="categoryTitleFeatured" title="Getting Started with Skillable - Lab creation to lab consumption">Getting Started with Skillable - Lab creation to lab consumption</span>
+            <span class="categoryDescription">Look at the Skillable process from building a lab to your learner taking it.</span>
+          </a>
+        </div>
+        <div class="category">
+          <a href="/tms/tms-administrators/tmsfundamentals/tms-process.md" class="categoryThread">
+            <i class="material-icons green" aria-hidden="true">bookmarks</i>
+            <span class="categoryTitleFeatured" title="Getting Started - Using the Skillable Training Management System (TMS) to train your learners">Getting Started - Using the Skillable Training Management System (TMS) to train your learners</span>
+            <span class="categoryDescription">Look at the Skillable process for using our TMS for Instructor led and self-paced training.</span>
+          </a>
+        </div>
+          <div class="categoriesHeader" tabindex="0" title="Featured Posts" aria-label="Featured Admin Docs">Featured</div>
     <div class="cardContainerFull">
       <div class="cardContent">
           <div class="category">
