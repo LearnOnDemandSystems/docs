@@ -83,6 +83,8 @@ aria-hidden="true">assignment</i>
           </div>
         </div>
        </div>
+     </div>
+      </div>
          <!-- -- End student categories section -->
      </div>
    </div> 
@@ -178,6 +180,7 @@ aria-hidden="true">assignment</i>
       </div>
      </div>
     </div>
+           </div>
     <!-- -- End instructor categories section -->
   </div>
  </div>
@@ -477,6 +480,7 @@ aria-hidden="true">assignment</i>
         </div>
       </div>
      </div>   
+     </div>
      </div>
             <!-- -- End administrator categories section -->
  </div>
