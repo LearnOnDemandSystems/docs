@@ -5,7 +5,7 @@ ispublished: true
 ---
 
 
-### Getting Started - Using the Skillable Training Management System (TMS) to train your learners
+# Getting Started - Using the Skillable Training Management System (TMS) to train your learners
 
 Skillable TMS is our integrated LMS platform to deliver labs to your learners. You can manage learners and instructors, schedule classes and assign self-paced training. You can check lab instances to see your learners’ progress, instructors can virtually view and interact with learners by monitoring their labs as they work on them. Have learners and instructors launch all the course content, labs, courseware and your virtual meeting from a single web page. You can add multiple choice assessments, surveys for students, instructors or organizations and you have numerous options for automatically triggered notifications. Validate and recognize your learners’ achievements with certificates and badges. 
 
@@ -37,7 +37,7 @@ Self-paced learners can be assigned a single course through a course assignment 
 
 * [Self-paced learning through course assignments and subscriptions documentation](https://docs.skillable.com/tms/home-landing-pages/admin-self-paced-learning-and-subscriptions-landing.md)
  
- ![](/tms/images/deliver_training.png)
+![](/tms/images/deliver_training.png)
  
 ### Deliver your Training
 You can choose to assign training manually, use the Skillable Connect TMS API, or use training keys for learners to self-register and access their training.
