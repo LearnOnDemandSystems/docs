@@ -87,7 +87,6 @@ aria-hidden="true">assignment</i>
    </div> 
    <div class="instructorCategory userTypeSection">
   <!-- Begin instructor categories section.. -->
-         <div class="cardContainer">
           <!-- Begin categories section.. -->
           <div class="cloudSlice cardContent">
           <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Featured Instructor General Docs">Featured</div>
