@@ -181,35 +181,18 @@ aria-hidden="true">assignment</i>
     <!-- -- End instructor categories section -->
   </div>
  </div>
+  <div class="cardContainer">
   <div class="administratorCategory userTypeSection">
     <!-- Begin administrator categories section.. -->
-    <div class="categoriesHeader" tabindex="0" title="Featured Posts" aria-label="Featured Admin Docs">Getting Started</div>
-    <div class="cardContainerFull">
-      <div class="cardContent">
-          <div class="category">
-          <a href="/tms/tms-administrators/tms-fundamentals/full-process.md" class="categoryThread">
-            <i class="material-icons green" aria-hidden="true">bookmarks</i>
-            <span class="categoryTitleFeatured" title="Getting Started with Skillable - Lab creation to lab consumption">Getting Started with Skillable - Lab creation to lab consumption</span>
-            <span class="categoryDescription">Look at the Skillable process from building a lab to your learner taking it.</span>
-          </a>
-        </div>
-        <div class="category">
-          <a href="/tms/tms-administrators/tms-fundamentals/tms-process.md" class="categoryThread">
-            <i class="material-icons green" aria-hidden="true">bookmarks</i>
-            <span class="categoryTitleFeatured" title="Getting Started - Using the Skillable Training Management System (TMS) to train your learners">Getting Started - Using the Skillable Training Management System (TMS) to train your learners</span>
-            <span class="categoryDescription">Look at the Skillable process for using our TMS for Instructor led and self-paced training.</span>
-          </a>
-        </div>
-          <div class="categoriesHeader" tabindex="0" title="Featured Posts" aria-label="Featured Admin Docs">Featured</div>
-    <div class="cardContainerFull">
-      <div class="cardContent">
-          <div class="category">
-          <a href="/tms/tms-administrators/classes/virtual-meetings/integratevirtualmeetingprovider.md" class="categoryThread">
-            <i class="material-icons green" aria-hidden="true">bookmarks</i>
-            <span class="categoryTitleFeatured" title="How does my Virtual Meeting Provider integrate with the TMS?">How do I use my Virtual Meeting Provider for a Skillable TMS class?</span>
-            <span class="categoryDescription">Find out how to integrate your virtual meeting provider into a Skillable TMS class giving your students and instructor one place to connect, launch their labs and course activities.</span>
-          </a>
-        </div>
+    <div class="cloudSlice cardContent">
+          <div class="cardHeader" tabindex="0" title="Featured Posts" aria-label="Featured Admin Docs">Featured</div>
+          <div class="category"> 
+            <a href="/tms/tms-administrators/classes/virtual-meetings/integratevirtualmeetingprovider.md" class="categoryThread">
+              <i class="material-icons green"
+ aria-hidden="true">bookmarks</i>
+              <span class="categoryTitle" title="How does my Virtual Meeting Provider integrate with the TMS?">How do I use my Virtual Meeting Provider for a Skillable TMS class?</span>
+            </a>
+          </div>
           <div class="category">
           <a href="/tms/tms-administrators/badges-achievements/badge-process.md" class="categoryThread">
             <i class="material-icons light-green"
