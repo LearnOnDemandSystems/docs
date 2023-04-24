@@ -83,9 +83,7 @@ aria-hidden="true">assignment</i>
           </div>
         </div>
        </div>
-     </div>
-      </div>
-         <!-- -- End student categories section -->
+             <!-- -- End student categories section -->
      </div>
    </div> 
    <div class="cardContainer">
@@ -179,8 +177,6 @@ aria-hidden="true">assignment</i>
         </div>
       </div>
      </div>
-    </div>
-           </div>
     <!-- -- End instructor categories section -->
   </div>
  </div>
