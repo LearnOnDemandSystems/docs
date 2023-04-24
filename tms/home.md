@@ -485,7 +485,9 @@ aria-hidden="true">assignment</i>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/admin-miscellaneous-landing.md" title="View all" aria-label="View all Miscellanous Admin Docs">View all</a></div>
         </div>
       </div>
+     </div>   
      </div>
+   </div>
             <!-- -- End administrator categories section -->
  </div>
 </div>
