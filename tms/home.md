@@ -33,6 +33,7 @@
               </a>
             </div>
             <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/student-landing.md" title="View all" aria-label="View all Student Basics docs">View all</a></div>
+            </div>
           </div>
         </div>
         <div class="cardContainer">
@@ -82,8 +83,7 @@ aria-hidden="true">assignment</i>
           </div>
         </div>
        </div>
-    </div>
-      <!-- -- End student categories section -->
+         <!-- -- End student categories section -->
     </div>
    </div> 
    <div class="instructorCategory userTypeSection">
