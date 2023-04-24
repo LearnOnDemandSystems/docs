@@ -84,20 +84,21 @@ aria-hidden="true">assignment</i>
         </div>
        </div>
          <!-- -- End student categories section -->
-    </div>
-   <div class="cardContainer">
-  <div class="instructorCategory userTypeSection">
-  <!-- Begin Instructor categories section.. -->
-     <!-- Begin categories section.. -->
-           <div class="cardContainer">
-           <div class="cloudSlice cardContent">
+     </div>
+   </div> 
+   <div class="instructorCategory userTypeSection">
+  <!-- Begin instructor categories section.. -->
+         <div class="cardContainer">
+          <!-- Begin categories section.. -->
+          <div class="cloudSlice cardContent">
           <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Featured Instructor General Docs">Featured</div>
           <div class="category">
           <a href="/tms/instructors/general/instructordashboard.md" class="categoryThread">
             <i class="material-icons green" 
  title="Student Basics" aria-hidden="true">supervised_user_circle</i>
             <span class="categoryTitleFeatured" title="What is the Instructor Dashboard?">What is the Instructor Dashboard?</span>
-              </a>
+          </a>
+        </div>
          <div class="cloudSlice cardContent">
           <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Featured Instructor General Docs">General</div>
           <div class="category">
@@ -114,9 +115,9 @@ aria-hidden="true">assignment</i>
               </a>
             </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor Docs for Labs">View all</a></div>
-              </div>
-               </div>
-             <div class="cardContainer">
+       </div>
+      </div>
+        <div class="cardContainer">
           <div class="vmLabDev cardContent"> 
           <div class="cardHeader" tabindex="0" title="Instructor Preparation and Classes" aria-label="Instructor Docs for Preparation and Classes">Preparation and Classes</div>
           <div class="category">
