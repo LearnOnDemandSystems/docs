@@ -113,7 +113,6 @@ aria-hidden="true">assignment</i>
               </a>
             </div>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/instructor-landing.md" title="View all" aria-label="View all Instructor Docs for Labs">View all</a></div>
-      </div>
         <div class="cardContainer">
           <div class="vmLabDev cardContent"> 
           <div class="cardHeader" tabindex="0" title="Instructor Preparation and Classes" aria-label="Instructor Docs for Preparation and Classes">Preparation and Classes</div>
