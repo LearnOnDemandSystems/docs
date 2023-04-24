@@ -88,7 +88,7 @@ aria-hidden="true">assignment</i>
    <div class="instructorCategory userTypeSection">
   <!-- Begin instructor categories section.. -->
           <!-- Begin categories section.. -->
-          <div class="cloudSlice cardContent">
+          <div class="cardContainer">
           <div class="cardHeader" tabindex="0" title="Instructor General" aria-label="Featured Instructor General Docs">Featured</div>
           <div class="category">
           <a href="/tms/instructors/general/instructordashboard.md" class="categoryThread">
