@@ -1,5 +1,5 @@
 ---
-title: "How do I schedule self-paced learning for a student?"
+title: "How do I schedule self-paced learning through a course assignment for a student?"
 isPublished: true
 ---
 
