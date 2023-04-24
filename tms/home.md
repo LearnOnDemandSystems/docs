@@ -55,7 +55,6 @@
             <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/student-landing.md" title="View all" aria-label="View all Student Docs for Labs">View all</a></div>
           </div>
         </div>
-      </div>
         <div class="cardContainer">
           <div class="pbt_scoring cardContent">
             <div class="cardHeader" tabindex="0" title="Student Classes and Self-Paced Learning" aria-label="Student Docs for Classes and Self-Paced Learning">Classes and Self-Paced Learning</div>
