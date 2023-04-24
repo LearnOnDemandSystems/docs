@@ -85,7 +85,6 @@ aria-hidden="true">assignment</i>
        </div>
          <!-- -- End student categories section -->
     </div>
-    </div>
    <div class="cardContainer">
   <div class="instructorCategory userTypeSection">
   <!-- Begin Instructor categories section.. -->
