@@ -475,7 +475,9 @@ aria-hidden="true">assignment</i>
         </div>
       </div>
      </div>   
-     </div>
+    </div>
+   </div>   
+  </div>
              <!-- -- End administrator categories section -->
  </div>
 </div>
