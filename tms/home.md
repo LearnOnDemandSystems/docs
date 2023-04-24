@@ -218,6 +218,8 @@ aria-hidden="true">assignment</i>
         </div>
         <div class="viewAll"><a tabindex="0" class="viewAllLink" title="View all" href="/tms/home-landing-pages/admin-featured-landing.md" aria-label="View all Featured Docs for Admins">View all</a></div>
       </div>
+     </div>
+    </div>
     <div class="cardsContainer">
         <div class="cardContainer">
               <!-- Begin categories section.. -->
