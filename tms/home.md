@@ -189,14 +189,14 @@ aria-hidden="true">assignment</i>
     <div class="cardContainerFull">
       <div class="cardContent">
           <div class="category">
-          <a href="/tms/tms-administrators/tmsfundamentals/full_process.md" class="categoryThread">
+          <a href="/tms/tms-administrators/tms-fundamentals/full_process.md" class="categoryThread">
             <i class="material-icons green" aria-hidden="true">bookmarks</i>
             <span class="categoryTitleFeatured" title="Getting Started with Skillable - Lab creation to lab consumption">Getting Started with Skillable - Lab creation to lab consumption</span>
             <span class="categoryDescription">Look at the Skillable process from building a lab to your learner taking it.</span>
           </a>
         </div>
         <div class="category">
-          <a href="/tms/tms-administrators/tmsfundamentals/tms-process.md" class="categoryThread">
+          <a href="/tms/tms-administrators/tms-fundamentals/tms-process.md" class="categoryThread">
             <i class="material-icons green" aria-hidden="true">bookmarks</i>
             <span class="categoryTitleFeatured" title="Getting Started - Using the Skillable Training Management System (TMS) to train your learners">Getting Started - Using the Skillable Training Management System (TMS) to train your learners</span>
             <span class="categoryDescription">Look at the Skillable process for using our TMS for Instructor led and self-paced training.</span>
