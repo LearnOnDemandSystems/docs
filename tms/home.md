@@ -590,8 +590,7 @@ aria-hidden="true">assignment</i>
           <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/arvato-courseware-marketplace-landing.md" title="View all" aria-label="View all Arvato Marketplace FAQs for Courseware Marketplace Orders docs">View all</a></div>
         </div>
       </div>
-    </div>
-  </div>
+     </div>
 
   <div class="moreInfo" tabindex="0" title="Need more information?">
     <span class="moreInfo_header">Looking for more information?</span>
