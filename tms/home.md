@@ -188,6 +188,7 @@ aria-hidden="true">assignment</i>
       <span class="moreInfo_header">Getting started?</span>
       Looking for an overview of Skillable's process from creating a lab through to a learner taking it? Read our<a href="/tms/tms-administrators/tms-fundamentals/full-process">Getting Started with Skillable - Lab creation to lab consumption</a>.
         </div>  
+      <div class="moreInfo" tabindex="0" title="Getting started?">
       <span class="moreInfo_header">Getting started using the TMS?</span>
       Do you want an overview of using Skillable's TMS to put labs in front of your learners? Read our<a href="/tms/tms-administrators/tms-fundamentals/tms-process">Getting Started - Using the Skillable Training Management System (TMS) to train your learners</a>.
         </div>  
