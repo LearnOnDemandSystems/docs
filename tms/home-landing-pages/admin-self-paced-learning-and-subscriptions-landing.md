@@ -19,8 +19,14 @@
     <div class="subtopic_header" tabindex="0" title="General Docs" role="button" aria-selected="true" selected>General</div>
     <div id="body_1" class="subtopic_links">
       <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/schedule-self-paced-learning.md">
-        <div class="subtopic_title">How do I schedule self-paced learning for a student?</div>
+        <div class="subtopic_title">How do I schedule self-paced learning through a course assignment for a student?</div>
       </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/create-multiple-course-assignments.md">
+        <div class="subtopic_title">How do I create multiple course assignments?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/training-key-pool.md">
+        <div class="subtopic_title">How can I use training keys for self-paced learning?</div>
+      </a> 
         <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-description.md">
         <div class="subtopic_title">What is a subscription?</div>
       </a>
@@ -30,14 +36,8 @@
         <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/create-subscription.md">
         <div class="subtopic_title">How do I create a subscription?</div>
       </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/create-multiple-course-assignments.md">
-        <div class="subtopic_title">How do I create multiple course assignments?</div>
-      </a>
         <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-single.md">
         <div class="subtopic_title">How do I assign a subscription to a user?</div>
-      </a>
-        <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-multiple.md">
-        <div class="subtopic_title">How do I assign a subscription to multiple users?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/create-learning-path.md">
         <div class="subtopic_title">How do I create learning paths for a subscription?</div>
@@ -45,10 +45,10 @@
         <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-filters.md">
         <div class="subtopic_title">How do I create filters for a catalog?</div>
       </a>
-       <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/training-key-pool.md">
-        <div class="subtopic_title">How can I use training key pools for self-paced learning?</div>
-      </a> 
-      <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-training-keys.md">
+        <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-assignment-multiple.md">
+        <div class="subtopic_title">How do I assign a subscription to multiple users?</div>
+      </a>
+       <a class="subtopic_link" href="/tms/tms-administrators/self-paced-learning-and-subscriptions/subscription-training-keys.md">
         <div class="subtopic_title">How can I use subscription training keys for self-paced learning?</div>
       </a>
         <a class="subtopic_link" href="/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md">
