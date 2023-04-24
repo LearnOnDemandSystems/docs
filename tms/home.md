@@ -89,6 +89,7 @@ aria-hidden="true">assignment</i>
    <div class="cardContainer">
   <div class="instructorCategory userTypeSection">
   <!-- Begin Instructor categories section.. -->
+        <div class="cardContainer">
      <!-- Begin categories section.. -->
           <div class="cardContainer">
            <div class="cloudSlice cardContent">
