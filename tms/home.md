@@ -32,7 +32,6 @@
                <span class="categoryTitle" title="How do I access and change my user profile?">How do I access and change my user profile?</span>
               </a>
             </div>
-            <div class="category">
             <div class="viewAll"><a tabindex="0" class="viewAllLink" href="/tms/home-landing-pages/student-landing.md" title="View all" aria-label="View all Student Basics docs">View all</a></div>
           </div>
         </div>
