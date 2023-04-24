@@ -89,11 +89,11 @@ aria-hidden="true">assignment</i>
    <div class="cardContainer">
     <div class="instructorCategory userTypeSection">
   <!-- Begin instructor categories section.. -->
-    <div class="moreInfo" tabindex="0" title="Featured">
+     <div class="moreInfo" tabindex="0" title="Featured">
       <span class="moreInfo_header">Featured</span>
-      <a href="/tms/instructors/general/instructordashboard.md">Interested in your Instructor Dashboard?</a> 
-        </div>      
-      <div class="cardsContainer">
+      Interested in learning about your Instructor Dashboard? Read an article <a href=""/tms/instructors/general/instructordashboard.md">What is the Instructor Dashboard?</a>
+        </div> 
+    <div class="cardsContainer">
     <div class="cardContainer">
         <!-- Begin categories section.. -->
         <div class="cloudSlice cardContent">
