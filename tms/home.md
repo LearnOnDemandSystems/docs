@@ -84,14 +84,11 @@ aria-hidden="true">assignment</i>
         </div>
        </div>
          <!-- -- End student categories section -->
-   
  </div>
 </div>
    <div class="cardContainer">
   <div class="instructorCategory userTypeSection">
   <!-- Begin Instructor categories section.. -->
-    <div class="cardsContainer">
-    <div class="cardContainer">
      <!-- Begin categories section.. -->
           <div class="cardContainer">
            <div class="cloudSlice cardContent">
