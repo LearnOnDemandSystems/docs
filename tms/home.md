@@ -91,7 +91,7 @@ aria-hidden="true">assignment</i>
   <!-- Begin instructor categories section.. -->
     <div class="moreInfo" tabindex="0" title="Featured">
       <span class="moreInfo_header">Featured</span>
-      Interested in your Instructor Dashboard? <a href="/tms/instructors/general/instructordashboard.md">Featured</a> 
+      <a href="/tms/instructors/general/instructordashboard.md">Interested in your Instructor Dashboard?</a> 
         </div>      
       <div class="cardsContainer">
     <div class="cardContainer">
