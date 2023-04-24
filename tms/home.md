@@ -178,7 +178,6 @@ aria-hidden="true">assignment</i>
       </div>
      </div>
     </div>
-   </div>
     <!-- -- End instructor categories section -->
   </div>
  </div>
