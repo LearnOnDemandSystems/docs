@@ -183,7 +183,6 @@ aria-hidden="true">assignment</i>
     <!-- -- End instructor categories section -->
   </div>
  </div>
-  </div>
   <div class="administratorCategory userTypeSection">
     <!-- Begin administrator categories section.. -->
     <div class="categoriesHeader" tabindex="0" title="Featured Posts" aria-label="Featured Admin Docs">Getting Started</div>
