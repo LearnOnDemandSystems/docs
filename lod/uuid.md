@@ -45,4 +45,3 @@ To configure a BIOS GUID or a custom UUID:
 1. Enter the BIOS GUID or UUID that you wish to use.
 1. **Allow disk updates in lab console (enabled by default)**: This allows authors to access the Save Differencing Disks dialog, when using this virtual machine.
 1. **Connect via remote desktop connection (external to lab console)**: You can supply an RDP file and have users connect directly to the VM using an RDP client instead of using our HTML5 controller. This requires public IP configurations.
-.
