@@ -185,11 +185,11 @@ aria-hidden="true">assignment</i>
     <!-- Begin administrator categories section.. -->
       <div class="moreInfo" tabindex="0" title="Getting started?">
       <span class="moreInfo_header">Getting started?</span>
-      Looking for an overview of Skillable's process from creating a lab through to a learner taking it? Read our <a href="https://docs.skillable.com/tms/tms-administrators/tms-fundamentals/full-process">Getting Started with Skillable - Lab creation to lab consumption</a> article.
+      Looking for an overview of Skillable's process from creating a lab through to a learner taking it? Read our <a href="https://docs.skillable.com/tms/tms-administrators/tms-fundamentals/full-process.md">Getting Started with Skillable - Lab creation to lab consumption</a> article.
         </div>  
       <div class="moreInfo" tabindex="0" title="Getting started?">
       <span class="moreInfo_header">Getting started using the TMS?</span>
-      Do you want an overview of using Skillable's TMS to put labs in front of your learners? Read our <a href="https://docs.skillable.com/tms/tms-administrators/tms-fundamentals/tms-process">Getting Started - Using the Skillable Training Management System (TMS) to train your learners</a> article.
+      Do you want an overview of using Skillable's TMS to put labs in front of your learners? Read our <a href="https://docs.skillable.com/tms/tms-administrators/tms-fundamentals/tms-process.md">Getting Started - Using the Skillable Training Management System (TMS) to train your learners</a> article.
         </div>  
       <div class="cloudSlice cardContent">
           <div class="cardHeader" tabindex="0" title="Featured Posts" aria-label="Featured Admin Docs">Featured</div>
