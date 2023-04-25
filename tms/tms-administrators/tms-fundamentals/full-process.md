@@ -6,7 +6,7 @@ ispublished: Yes
 
 # Getting Started with Skillable - Lab creation to lab consumption
 
-### The process of creating a lab to a learner’s lab launch
+### The process from creating a lab to a learner’s lab launch
 Are you planning to produce and publish labs using Skillable Lab on Demand? Let’s look at the big picture of the process from start to finish; this is an overview of the steps taken from creating a lab to placing that lab in the hands of your learner. 
 
 ![](/tms/images/full_process.png)
