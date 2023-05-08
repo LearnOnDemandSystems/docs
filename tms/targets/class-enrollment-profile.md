@@ -1,6 +1,6 @@
 # Help with the Class Enrollment Page
 
-> [!alert Please be aware that not all functionality covered in the linked articles may be available to you.
+> [!Alert] Please be aware that not all functionality covered in the linked articles may be available to you.
 
 The Class Enrollment page is where students will see details about their class and have access to the components of the class such as virtual classroom, digital courseware, and activities. The options available/visible depend upon the setup of the course, your organization and the class as well as the enrollment status of the student.
 
