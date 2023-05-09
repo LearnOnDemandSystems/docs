@@ -1,6 +1,6 @@
 ---
-title: "google cloud platform gcp bucket retention policy restrictions"
-description: "gcp challenge lab automatically gets deleted automatically on completion"
+title: "Google Cloud Platform Bucket Retention Policy Restrictions"
+description: "GCP Challenge Lab automatically gets deleted automatically on completion."
 isPublished: true
 ---
 
@@ -9,15 +9,10 @@ isPublished: true
 ## Table of Contents
 
 * [Introduction](#introduction)
-
 * [How it works](#how-it-works)
-
 * [When will the project be deleted](#when-will-the-project-be-deleted)
-
 * [What will happen to the GCP resources associated with the project](#what-will-happen-to-the-gcp-resources-associated-with-the-project)
-
 * [What will happen to my user account](#what-will-happen-to-my-user-account)
-
 * [Conclusion](#conclusion)
 
 ## Introduction
