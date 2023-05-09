@@ -222,10 +222,6 @@
         <div class="subtopic_title">Geolocation for Lab Launches</div>
         <div class="subtopic_description">The process for geolocating labs when they are launched.</div>
       </a>
-      <a class="subtopic_link" href="/lod/Google-Cloud-Platform-Retention-Policy-Restrictions.md">
-        <div class="subtopic_title">Google Cloud Platform Bucket Retention Policy Restrictions</div>
-        <div class="subtopic_description">Automatic deletion of the project associated with a lab.</div>
-      </a>
       <a class="subtopic_link" href="/lod/start-states.md">
         <div class="subtopic_title">Hyper-V Start States</div>
         <div class="subtopic_description">Start States allow you to create a point in a lab where the lab will launch from for subsequent launches.</div>
