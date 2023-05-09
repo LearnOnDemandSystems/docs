@@ -224,7 +224,7 @@
       </a>
       <a class="subtopic_link" href="/lod/Google-Cloud-Platform-Retention-Policy-Restrictions.md">
         <div class="subtopic_title">Google Cloud Platform Bucket Retention Policy Restrictions</div>
-        <div class="subtopic_description">Automatic deletion of the project associated with a lab</div>
+        <div class="subtopic_description">Automatic deletion of the project associated with a lab.</div>
       </a>
       <a class="subtopic_link" href="/lod/start-states.md">
         <div class="subtopic_title">Hyper-V Start States</div>
