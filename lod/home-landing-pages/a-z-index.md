@@ -254,6 +254,10 @@
         <div class="subtopic_title">Importing an ESX Virtual Machine From an OVA.</div>
         <div class="subtopic_description">Virtual machine profile creation, and explanation of virtual machine profile configuration.</div>
       </a>       
+      <a class="subtopic_link" href="/lod/instruction-sets.md">
+        <div class="subtopic_title">Instruction Sets.</div>
+        <div class="subtopic_description">Instruction Sets allow a Lab Profile to have multiple versions of instructions..</div>
+      </a>    
             <a class="subtopic_link" href="/lod/internet-loss.md">
         <div class="subtopic_title">Internet Loss in a Lab</div>
         <div class="subtopic_description">Steps to mitigate issues due to loss of internet in a lab environment.</div>
