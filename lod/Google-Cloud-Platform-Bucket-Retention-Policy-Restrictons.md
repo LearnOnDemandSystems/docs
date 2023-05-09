@@ -32,7 +32,8 @@ When you complete a GCP challenge lab, the system will check if the lab is assoc
 
 ## When will the project be deleted
 
-The project associated with the GCP challenge lab will be deleted once the lab is completed. The deletion process may take some time, depending on the size of the project and the number of resources associated with it. Once the deletion process is complete, you will receive a confirmation message.
+The project associated with the GCP challenge lab will be deleted once the lab is completed. The deletion process may take some time, depending on the size of the project and the number of resources associated with it. 
+Once the deletion process is complete, you will receive a confirmation message.
 
 ## What will happen to the GCP resources associated with the project
 
