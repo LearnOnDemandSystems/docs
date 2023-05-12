@@ -1,7 +1,7 @@
 ---
 title: "Instruction Sets"
 description: "Instruction Sets allow a Lab Profile to have multiple versions of instructions."
-isPublished: false
+isPublished: true
 ---
 
 # Instruction Sets 
