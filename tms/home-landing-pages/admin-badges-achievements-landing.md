@@ -18,7 +18,10 @@
   <div class="subtopic selected">
     <div class="subtopic_header" tabindex="0" title="General Docs" role="button" aria-selected="true" selected>General</div>
     <div id="body_1" class="subtopic_links">
-      <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/badge-process.md">
+      <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/manual-issuance.md">
+        <div class="subtopic_title">How do I issue badges for my students?</div>
+      </a>
+        <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/badge-process.md">
         <div class="subtopic_title">What is involved in creating external badges?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/create-badge-provider.md">
@@ -28,7 +31,7 @@
         <div class="subtopic_title">How do I create a badge?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/associate-badge.md">
-        <div class="subtopic_title">How do I associate a badge with an achievement?</div>
+        <div class="subtopic_title">How do I automate badge distribution?</div>
       </a>
       <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/create-achievements-to-motivate-learners.md">
         <div class="subtopic_title">How do I create an achievement?</div>
@@ -36,9 +39,7 @@
       <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/tms-achievement-conditions.md">
         <div class="subtopic_title">Writing conditions for achievements: JSON Help and Examples</div>
       </a>
-       <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/manual-issuance.md">
-        <div class="subtopic_title">How do I manually issue badges for my students?</div>
-      </a>
+       
       <a class="subtopic_link" href="/tms/tms-administrators/badges-achievements/find-achievements.md">
         <div class="subtopic_title">How do I find what achievements and/or badges my students have earned?</div>
       </a>
