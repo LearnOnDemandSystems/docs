@@ -1,6 +1,6 @@
 ---
-title: "auto register lab user devices and store cookie and ip address in database"
-description: "automatically registers lab user devices and stores a cookie in their browser upon the initial lab launch"
+title: "Auto-register Lab User Devices and Store Cookie and IP Address in Database"
+description: "Automatically registers lab user devices and stores a cookie in their browser upon the initial lab launch."
 isPublished: true
 ---
 
