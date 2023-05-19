@@ -144,6 +144,10 @@
         <div class="subtopic_title">Geolocation for Lab Launches</div>
         <div class="subtopic_description">The process for geolocating labs when they are launched.</div>
       </a>
+      <a class="subtopic_link" href="/lod/google-cloud-platform-cleanup-project-deletion.md">
+        <div class="subtopic_title">Google Cloud Platform (GCP) Cleanup: Project Deletion</div>
+        <div class="subtopic_description">Allows users to automatically delete GCP project.</div>
+      </a>
       <a class="subtopic_link" href="/lod/lab-advisor.md">
          <div class="subtopic_title">Skillable Studio Lab Advisor</div>
          <div class="subtopic_description">The Lab Advisor provides recommendations for possible issues found in lab profiles and lab profile configuration.</div>
