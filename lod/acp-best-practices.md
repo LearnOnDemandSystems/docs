@@ -53,8 +53,8 @@ Yes! For more samples, see the table below for each of the cloud providers:
 
 |Cloud Platform|Skillable Sample|Official Samples|
 |--|--|--|
-|Microsoft Azure|[Skillable Azure Samples](./Azure/)|[Microsoft Docs](https://docs.microsoft.com/en-us/azure/governance/policy/samples/index)|
-|Amazon Web Services|[Skillable AWS Samples](./AWS/)|[AWS Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_examples.html)|
+|Microsoft Azure|[Skillable Azure Samples](https://github.com/LearnOnDemandSystems/labauthor/tree/master/access-control-policies/Azure)|[Microsoft Docs](https://docs.microsoft.com/en-us/azure/governance/policy/samples/index)|
+|Amazon Web Services|[Skillable AWS Samples](https://github.com/LearnOnDemandSystems/labauthor/tree/master/access-control-policies/AWS)|[AWS Docs](https://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_examples.html)|
 
 
 ## How do I know what conditions or fields I can use when I am creating a policy from scratch
