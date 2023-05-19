@@ -1,6 +1,6 @@
 ---
-title: "google cloud platform deletion project cleanup"
-description: "allows a lab user to automatically delete their gcp project"
+title: "Google Cloud Platform Cleanup: Project Deletion"
+description: "Allows a lab user to automatically delete their gcp project."
 isPublished: true
 ---
 
