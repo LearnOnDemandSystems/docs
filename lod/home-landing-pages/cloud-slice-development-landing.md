@@ -30,7 +30,7 @@
         <div class="subtopic_title">Amazon Web Services API Capabilities</div>
         <div class="subtopic_description">A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation.</div>
       </a>
-      <a class="subtopic_link" href="/aws-block-removal-of-boundary-policy-from-roles.md">
+      <a class="subtopic_link" href="/lod/aws-block-removal-of-boundary-policy-from-roles.md">
         <div class="subtopic_title">AWS: Block Removal of Boundary Policy from Roles</div>
         <div class="subtopic_description">Prevents users from removing boundary policies from roles in the AWS subscription, and ensuring that lab users do not have escalated permission roles.</div>
       </a>
