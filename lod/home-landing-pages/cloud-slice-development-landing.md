@@ -103,6 +103,10 @@
         <div class="subtopic_title">Find Azure Resource Templates</div>
         <div class="subtopic_description">How to find Azure Resource Manager templates for use with Microsoft Azure.</div>
       </a>
+      <a class="subtopic_link" href="/lod/Google-Cloud-Platform-Bucket-Retention-Policy-Restrictions.md">
+        <div class="subtopic_title">Google Cloud Platform Bucket Retention Policy Restrictions</div>
+        <div class="subtopic_description">Automatic deletion of the project associated with a lab.</div>
+      </a>
       <a class="subtopic_link" href="/lod/acp-creation-process.md">
         <div class="subtopic_title"> Microsoft Azure Access Control Policy Creation Process</div>
         <div class="subtopic_description">Basic information on the steps for creating a restrictive Access Control Policy (ACP) that limits a lab to only the resources it requires and will meet cloud security standards.</div>
