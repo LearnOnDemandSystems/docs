@@ -46,7 +46,7 @@
         <div class="subtopic_title">Automatic Login for Windows Virtual Machines</div>
         <div class="subtopic_description">Configure a Windows virtual machine to log in automatically without the need to enter a username and password.</div>
       </a>
-      <a class="subtopic_link" href="/aws-block-removal-of-boundary-policy-from-roles.md">
+      <a class="subtopic_link" href="/lod/aws-block-removal-of-boundary-policy-from-roles.md">
         <div class="subtopic_title">AWS: Block Removal of Boundary Policy from Roles</div>
         <div class="subtopic_description">Prevents users from removing boundary policies from roles in the AWS subscription, and ensuring that lab users do not have escalated permission roles.</div>
       </a>
