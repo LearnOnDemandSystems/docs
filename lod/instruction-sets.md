@@ -169,7 +169,7 @@ The lab title displayed in the lab user interface is now determined by the lab t
  
 Each instruction set has an associated lab title field which may be specified by the lab author. This ability to provide a custom lab title for each of multiple instruction sets supports localization.
  
-   >[!knowledge] Lab profiles which inherit instructions from another lab profile will derive their displayed lab titles from the inherited instruction sets.
+>[!knowledge] Lab profiles which inherit instructions from another lab profile will derive their displayed lab titles from the inherited instruction sets.
  
  To change the Lab Title of a lab, perform the following steps: 
  
