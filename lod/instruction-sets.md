@@ -21,6 +21,7 @@ Overall, Instruction Sets for Lab Profiles is a powerful tool for creating flexi
 - [Editing Instructions](#editing-instructions)
 - [API](#api)
   - [Example API Command](#example-api-command)
+- [Setting the Displayed Lab Title Using Instruction Sets](#setting-the-displayed-lab-title-using-instruction-sets)
 - [Best Practices](#best-practices)
 - [Use Cases](#use-cases)
 - [Related Topics](#related-topics)
