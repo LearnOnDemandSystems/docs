@@ -230,6 +230,10 @@
         <div class="subtopic_title">Google Cloud Platform (GCP) Cleanup: Project Deletion</div>
         <div class="subtopic_description">Allows users to automatically delete GCP project.</div>
       </a>
+      <a class="subtopic_link" href="/lod/gcp- projects-available-pool-Logic-change-replenishment.md">
+        <div class="subtopic_title">Google Cloud Platform: Projects Available Pool Logic Change: Replenishment</div>
+        <div class="subtopic_description">Improves user experience and resource management for GCP labs.</div>
+      </a>
       <a class="subtopic_link" href="/lod/start-states.md">
         <div class="subtopic_title">Hyper-V Start States</div>
         <div class="subtopic_description">Start States allow you to create a point in a lab where the lab will launch from for subsequent launches.</div>
