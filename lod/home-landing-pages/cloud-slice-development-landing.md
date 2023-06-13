@@ -103,7 +103,7 @@
         <div class="subtopic_title">Find Azure Resource Templates</div>
         <div class="subtopic_description">How to find Azure Resource Manager templates for use with Microsoft Azure.</div>
       </a>
-      <a class="subtopic_link" href="/lod/Google-Cloud-Platform-Bucket-Retention-Policy-Restrictions.md">
+      <a class="subtopic_link" href="/lod/google-cloud-platform-bucket-retention-policy-restrictions.md">
         <div class="subtopic_title">Google Cloud Platform Bucket Retention Policy Restrictions</div>
         <div class="subtopic_description">Automatic deletion of the project associated with a lab.</div>
       </a>
