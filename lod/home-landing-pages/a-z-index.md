@@ -222,7 +222,7 @@
         <div class="subtopic_title">Geolocation for Lab Launches</div>
         <div class="subtopic_description">The process for geolocating labs when they are launched.</div>
       </a>
-      <a class="subtopic_link" href="/lod/Google-Cloud-Platform-Bucket-Retention-Policy-Restrictions.md">
+      <a class="subtopic_link" href="/lod/google-cloud-platform-bucket-retention-policy-restrictions.md">
         <div class="subtopic_title">Google Cloud Platform Bucket Retention Policy Restrictions</div>
         <div class="subtopic_description">Automatic deletion of the project associated with a lab.</div>
       </a>
