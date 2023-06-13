@@ -1,5 +1,5 @@
 ---
-title: "google cloud platform gcp bucket retention policy restrictions"
+title: "Google Cloud Platform GCP Bucket Retention Policy Restrictions"
 description: "gcp challenge lab automatically gets deleted automatically on completion"
 isPublished: true
 ---
