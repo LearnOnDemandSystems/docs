@@ -194,10 +194,6 @@
         <div class="subtopic_title">Datacenter Bandwidth Limits</div>
         <div class="subtopic_description">Upload and download speeds in Skillable datacenters.</div>
       </a>
-      <a class="subtopic_link" href="/lod/delete-lab-user-accounts-instead-of-disabling-them.md.md">
-        <div class="subtopic_title">Delete Lab User Accounts Instead of Disabling Them</div>
-        <div class="subtopic_description">An improvement to the lab cleanup process by implementing the deletion of user accounts instead of merely disabling or suspending them.</div>
-      </a>
       <a class="subtopic_link" href="/lod/capture-differencing-disks.md">
         <div class="subtopic_title">Differencing Disk Capture</div>
         <div class="subtopic_description">Capture differencing disks from a running lab, to store changes made on the virtual machine in the lab.</div>
@@ -233,6 +229,10 @@
       <a class="subtopic_link" href="/lod/google-cloud-platform-cleanup-project-deletion.md">
         <div class="subtopic_title">Google Cloud Platform (GCP) Cleanup: Project Deletion</div>
         <div class="subtopic_description">Allows users to automatically delete GCP project.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/delete-lab-user-accounts-instead-of-disabling-them.md.md">
+        <div class="subtopic_title">Google Cloud Paltform: Delete Lab User Accounts Instead of Disabling Them</div>
+        <div class="subtopic_description">An improvement to the lab cleanup process by implementing the deletion of user accounts instead of merely disabling or suspending them.</div>
       </a>
       <a class="subtopic_link" href="/lod/start-states.md">
         <div class="subtopic_title">Hyper-V Start States</div>
