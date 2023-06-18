@@ -38,7 +38,7 @@ To make an ACP read-only, follow these steps:
 1.  Click on the ACP's name or an associated "Edit" button to open the ACP edit page.
 1.  On the ACP edit page, find the "Requires Security Review" checkbox.
 1.  If you uncheck the checkbox, the ACP will become read-only and cannot be modified.
-1.  Save the changes by clicking the "Save" or "Update" button on the page.
+1.  Save the changes by clicking the "Save" or "Update" button on the page. 
 
 ## Access to ACP Edit Page for Regular Lab Developers
 
