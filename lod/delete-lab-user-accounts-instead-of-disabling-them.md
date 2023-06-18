@@ -1,10 +1,10 @@
 ---
-title: "Delete Lab User Accounts Instead of Disabling Them"
+title: "Google Cloud Platform: Delete Lab User Accounts Instead of Disabling Them"
 description: "An improvement to the lab cleanup process by implementing the deletion of user accounts instead of merely disabling or suspending them."
 isPublished: true
 ---
 
-# Delete Lab User Accounts Instead of Disabling Them
+# Google Cloud Platform: Delete Lab User Accounts Instead of Disabling Them
 
 ## Overview
 
