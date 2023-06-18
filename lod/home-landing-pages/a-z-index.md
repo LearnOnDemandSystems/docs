@@ -354,6 +354,10 @@
         <div class="subtopic_title">Content Metadata Tags</div>
         <div class="subtopic_description">Tags are used to organize and filter Lab Profiles and Lab Series, to assist with reporting and delivery</div>
       </a>
+      <a class="subtopic_link" href="/lod/manage-instructions-sets-dialog-show-organization-when-multiple-organizations-are-represented.md">
+        <div class="subtopic_title">Manage Instructions Sets Dialog - Show Organization When Multiple Organizations are Represented</div>
+        <div class="subtopic_description">Update to instruction sets to include the organization name column when managing instruction sets.</div>
+      </a>
       <a class="subtopic_link" href="/lod/tags.md">
         <div class="subtopic_title">Markdown User Guide</div>
         <div class="subtopic_description">This document covers Markdown in detail, including syntax for all supported Markdown.</div>
