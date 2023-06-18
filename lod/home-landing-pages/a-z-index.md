@@ -466,6 +466,10 @@
         <div class="subtopic_title">Themes</div>
         <div class="subtopic_description">Create themes to customize the look and feel of labs using CSS, and JavaScript.</div>
       </a>
+      <a class="subtopic_link" href="/lod/update-require-security-review-logic-on-acp-edit-page.md">
+        <div class="subtopic_title">Update Require Security Review Logic on ACP Edit Page</div>
+        <div class="subtopic_description">Introduces new functionality for lab admins with the Security Review permission.</div>
+      </a>
       <a class="subtopic_link" href="/lod/variable-display.md">
         <div class="subtopic_title">Variable Display for Lab Instructions</div>
         <div class="subtopic_description">Variably display lab instructions and lab instructions elements based on lab variables.</div>
