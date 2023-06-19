@@ -148,6 +148,10 @@
         <div class="subtopic_title">Google Cloud Platform (GCP) Cleanup: Project Deletion</div>
         <div class="subtopic_description">Allows users to automatically delete GCP project.</div>
       </a>
+      <a class="subtopic_link" href="/lod/gcp-projects-available-pool-logic-change-replenishment.md">
+        <div class="subtopic_title">Google Cloud Platform: Projects Available Pool Logic Change; Replenishment</div>
+        <div class="subtopic_description">Implements automatic project replenishment and tests project deletion, lab users can seamlessly continue their work without interruption.</div>
+      </a>
       <a class="subtopic_link" href="/lod/lab-advisor.md">
          <div class="subtopic_title">Skillable Studio Lab Advisor</div>
          <div class="subtopic_description">The Lab Advisor provides recommendations for possible issues found in lab profiles and lab profile configuration.</div>
