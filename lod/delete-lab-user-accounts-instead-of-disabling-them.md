@@ -1,6 +1,6 @@
 ---
 title: "Google Cloud Platform: Delete Lab User Accounts Instead of Disabling Them"
-description: "An improvement to the lab cleanup process by implementing the deletion of user accounts instead of merely disabling or suspending them."
+description: "Implements the deletion of user accounts instead of merely disabling or suspending them."
 isPublished: true
 ---
 
@@ -8,7 +8,8 @@ isPublished: true
 
 ## Overview
 
-This documentation provides instructions on the enhancement made to lab cleanup in GCP. Instead of disabling or suspending user accounts, lab cleanup now removes or deletes the user accounts. This enhancement aims to streamline account management and reduce manual efforts by automatically removing lab user accounts that are no longer needed. As a result, you will no longer have to manually remove disabled accounts in the future. Additionally, the cleanup process ensures the deletion of associated projects in GCP challenge labs upon completion. Read on to learn more about this enhancement and the testing process involved.
+Lab user accounts that are no longer needed will be automatically deleted during the cleanup process, eliminating the need for manual removal of disabled accounts. By automating the deletion of unnecessary user accounts, administrators can save time and effort in account maintenance tasks.
+Removing unused accounts helps optimize system resources, leading to better overall performance. Also,Deleting user accounts reduces the risk of potential security breaches associated with inactive or unused accounts.
 
 ## Table of Contents
 
