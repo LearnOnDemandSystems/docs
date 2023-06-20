@@ -1,7 +1,7 @@
 ---
 title: "Instruction Sets"
 description: "Instruction Sets allow a Lab Profile to have multiple versions of instructions."
-isPublished: false
+isPublished: true
 ---
 
 # Instruction Sets 
@@ -21,6 +21,7 @@ Overall, Instruction Sets for Lab Profiles is a powerful tool for creating flexi
 - [Editing Instructions](#editing-instructions)
 - [API](#api)
   - [Example API Command](#example-api-command)
+- [Setting the Displayed Lab Title Using Instruction Sets](#setting-the-displayed-lab-title-using-instruction-sets)
 - [Best Practices](#best-practices)
 - [Use Cases](#use-cases)
 - [Related Topics](#related-topics)
@@ -55,7 +56,7 @@ To create an Instruction Set:
 
     >[note] Please note that selecting a language from this menu does not translate your lab instructions into that language. As a lab author, you must enter the lab instructions into the lab instruction editor, using the chosen language. 
  
-1. Enter a **Lab Title** for the Instruction Set. This is used to identify the instruction set. 
+1. Enter a **Lab Title** for the Instruction Set. This title will be displayed as the lab title in a launched lab. For more information, see [Setting the Displayed Lab Title Using Instruction Sets](#setting-the-displayed-lab-title-using-instruction-sets).
 
 1. Select the **Enabled** toggle to enable the Instruction Set to be used. 
 
@@ -161,6 +162,24 @@ To specify an Instruction Set or language in an API launch command, add the Inst
 >[!knowledge] An API example that contains these parameters is displayed on the Lab Profile. To view the example, navigate to the Manage Instructions Sets page on the Lab Profile. Next, select the Columns menu in the upper-right, and enable the API example column. An API example will be displayed next to each instruction set, with the ID and language parameters. 
 
 For more information about our API, please see the [Skillable Studio Lab API](https://connect.skillable.com/lab/operation/Launch/).
+
+## Setting the Displayed Lab Title Using Instruction Sets
+
+The lab title displayed in the lab user interface is now determined by the lab title configured in the active instruction set for the lab instance. This feature update will require a change in the way that lab authors configure the displayed titles of their labs, which had previously been equivalent to the lab profile name.
+ 
+Each instruction set has an associated lab title field which may be specified by the lab author. This ability to provide a custom lab title for each of multiple instruction sets supports localization.
+ 
+  >[!knowledge] Lab profiles which inherit instructions from another lab profile will derive their displayed lab titles from the inherited instruction sets.
+ 
+ To change the Lab Title of a lab, perform the following steps: 
+ 
+1. Navigate to the lab profile.
+1. Select **Edit Instructions**.
+1. Select any Instruction Set.
+1. From the instructions editor, in the center of the top bar of the Edit Instructions page, select the name of the current Instruction Set and then select **Manage Instructions Sets**.
+1. On this page, a table of instruction sets is displayed. Select the **edit** button next to the Lab Title field on any row to change the lab title associated with that instruction set.
+1. After editing the Lab Title for an Instruction Set, select the **OK** button to save your changes.
+1. You may now exit the Instructions editor page without any additional save actions required. 
 
 ## Best Practices 
 

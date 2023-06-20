@@ -30,6 +30,10 @@
         <div class="subtopic_title">Amazon Web Services API Capabilities</div>
         <div class="subtopic_description">A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation.</div>
       </a>
+      <a class="subtopic_link" href="/lod/aws-block-removal-of-boundary-policy-from-roles.md">
+        <div class="subtopic_title">AWS: Block Removal of Boundary Policy from Roles</div>
+        <div class="subtopic_description">Prevents users from removing boundary policies from roles in the AWS subscription, and ensuring that lab users do not have escalated permission roles.</div>
+      </a>
       <a class="subtopic_link" href="/lod/aws-cloud-log-transfer.md">
         <div class="subtopic_title">AWS Cloud Trail Log Transfer</div>
         <div class="subtopic_description">AWS Cloud Trail logging enables the ability to audit all cloud logs in a user session and store those logs in a storage location.</div>
@@ -143,6 +147,10 @@
       <a class="subtopic_link" href="/lod/geolocation.md">
         <div class="subtopic_title">Geolocation for Lab Launches</div>
         <div class="subtopic_description">The process for geolocating labs when they are launched.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/google-cloud-platform-cleanup-project-deletion.md">
+        <div class="subtopic_title">Google Cloud Platform (GCP) Cleanup: Project Deletion</div>
+        <div class="subtopic_description">Allows users to automatically delete GCP project.</div>
       </a>
       <a class="subtopic_link" href="/lod/lab-advisor.md">
          <div class="subtopic_title">Skillable Studio Lab Advisor</div>

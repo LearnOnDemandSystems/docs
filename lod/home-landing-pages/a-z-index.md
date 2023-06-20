@@ -46,9 +46,11 @@
         <div class="subtopic_title">Automatic Login for Windows Virtual Machines</div>
         <div class="subtopic_description">Configure a Windows virtual machine to log in automatically without the need to enter a username and password.</div>
       </a>
+
       <a class="subtopic_link" href="/lod/auto-register-lab-user-devices-and-stores-cookie-and-ip-address-in-database.md">
         <div class="subtopic_title">Auto-Register Lab User Devices and Store Cookie and IP Address in DB</div>
         <div class="subtopic_description">Automatically registers lab user devices and stores a cookie in their browser upon the initial lab launch.</div>
+
       </a>
       <a class="subtopic_link" href="/lod/aws-cloud-log-transfer.md">
         <div class="subtopic_title">AWS Cloud Trail Log Transfer</div>
@@ -226,6 +228,10 @@
         <div class="subtopic_title">Geolocation for Lab Launches</div>
         <div class="subtopic_description">The process for geolocating labs when they are launched.</div>
       </a>
+      <a class="subtopic_link" href="/lod/google-cloud-platform-cleanup-project-deletion.md">
+        <div class="subtopic_title">Google Cloud Platform (GCP) Cleanup: Project Deletion</div>
+        <div class="subtopic_description">Allows users to automatically delete GCP project.</div>
+      </a>
       <a class="subtopic_link" href="/lod/start-states.md">
         <div class="subtopic_title">Hyper-V Start States</div>
         <div class="subtopic_description">Start States allow you to create a point in a lab where the lab will launch from for subsequent launches.</div>
@@ -258,6 +264,10 @@
         <div class="subtopic_title">Importing an ESX Virtual Machine From an OVA.</div>
         <div class="subtopic_description">Virtual machine profile creation, and explanation of virtual machine profile configuration.</div>
       </a>       
+      <a class="subtopic_link" href="/lod/instruction-sets.md">
+        <div class="subtopic_title">Instruction Sets.</div>
+        <div class="subtopic_description">Instruction Sets allow a Lab Profile to have multiple versions of instructions..</div>
+      </a>    
             <a class="subtopic_link" href="/lod/internet-loss.md">
         <div class="subtopic_title">Internet Loss in a Lab</div>
         <div class="subtopic_description">Steps to mitigate issues due to loss of internet in a lab environment.</div>
