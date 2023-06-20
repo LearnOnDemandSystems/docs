@@ -370,6 +370,10 @@
         <div class="subtopic_title">Missing Files in a Lab Instance</div>
         <div class="subtopic_description">Information that should be gathered and reported, to assist with missing files that are needed to complete steps in lab instructions.</div>
       </a>
+      <a class="subtopic_link" href="/lod/update-require-security-review-logic-on-acp-edit-page.md">
+        <div class="subtopic_title">Modify ACP (Blessed) to Read Only</div>
+        <div class="subtopic_description">Introduces new functionality for lab admins with the Security Review permission to make an ACP blessed.</div>
+      </a>
       <a class="subtopic_link" href="/lod/org-max-ram.md">
         <div class="subtopic_title">Organization RAM Limits</div>
         <div class="subtopic_description">Max RAM usage, max active lab instances and max RAM per lab profile.</div>
@@ -465,10 +469,6 @@
       <a class="subtopic_link" href="/lod/lod-themes.md">
         <div class="subtopic_title">Themes</div>
         <div class="subtopic_description">Create themes to customize the look and feel of labs using CSS, and JavaScript.</div>
-      </a>
-      <a class="subtopic_link" href="/lod/update-require-security-review-logic-on-acp-edit-page.md">
-        <div class="subtopic_title">Update: Modify ACP (Blessed) to Read Only</div>
-        <div class="subtopic_description">Introduces new functionality for lab admins with the Security Review permission to make an ACP blessed.</div>
       </a>
       <a class="subtopic_link" href="/lod/variable-display.md">
         <div class="subtopic_title">Variable Display for Lab Instructions</div>
