@@ -1,6 +1,6 @@
 ---
-title: "Update Require Security Review Logic on ACP Edit Page"
-description: "Introduces new functionality for lab admins with the Security Review permission."
+title: "Update: Modify ACP (Blessed) to Read Only "
+description: "Introduces new functionality for lab admins with the Security Review permission to make an ACP blessed."
 isPublished: true
 ---
 
