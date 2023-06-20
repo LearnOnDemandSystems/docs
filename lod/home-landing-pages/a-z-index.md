@@ -467,8 +467,8 @@
         <div class="subtopic_description">Create themes to customize the look and feel of labs using CSS, and JavaScript.</div>
       </a>
       <a class="subtopic_link" href="/lod/update-azure-reference-versions-update.md">
-        <div class="subtopic_title">Update Azure Reference versions - Update</div>
-        <div class="subtopic_description">Allows for ensuring the usage of up-to-date versions and identifying dependencies between different versions.</div>
+        <div class="subtopic_title">Update Azure Reference versions</div>
+        <div class="subtopic_description">Provides instructions on ensuring the usage of up-to-date versions and identifying dependencies between different versions.</div>
       </a>
       <a class="subtopic_link" href="/lod/variable-display.md">
         <div class="subtopic_title">Variable Display for Lab Instructions</div>
