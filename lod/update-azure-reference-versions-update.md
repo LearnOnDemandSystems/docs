@@ -1,6 +1,6 @@
 ---
 title: "Update Azure Reference versions"
-description: "Provides instructions ensuring the usage of up-to-date versions and identifying dependencies between different versions."
+description: "Provides instructions on ensuring the usage of up-to-date versions and identifying dependencies between different versions."
 isPublished: true
 ---
 
