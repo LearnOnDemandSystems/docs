@@ -231,7 +231,7 @@
         <div class="subtopic_description">Allows users to automatically delete GCP project.</div>
       </a>
       <a class="subtopic_link" href="/lod/delete-lab-user-accounts-instead-of-disabling-them.md.md">
-        <div class="subtopic_title">Google Cloud Paltform: Delete Lab User Accounts Instead of Disabling Them</div>
+        <div class="subtopic_title">Google Cloud Platform: Delete Lab User Accounts Instead of Disabling Them</div>
         <div class="subtopic_description">Implements the deletion of user accounts instead of merely disabling or suspending them.</div>
       </a>
       <a class="subtopic_link" href="/lod/start-states.md">
