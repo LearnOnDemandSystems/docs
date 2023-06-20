@@ -1,87 +1,77 @@
 ---
-title: "Update Azure Reference versions - Update"
-description: "Allows for ensuring the usage of up-to-date versions and identifying dependencies between different versions."
+title: "Update Azure Reference versions"
+description: "Provides instructions ensuring the usage of up-to-date versions and identifying dependencies between different versions."
 isPublished: true
 ---
 
-# Update Azure Reference versions - Update
+# Update Azure Reference versions
 
 ## Overview
 
-This documentation outlines the update made to the Azure reference versions in our system. The objective of this update is to ensure that the reference versions for Azure services are up-to-date. By updating the reference versions, we can leverage the latest features and improvements provided by Azure. Additionally, this update helps identify dependencies between different versions, enabling us to manage and optimize our Azure lab profiles effectively. This documentation provides an overview of the update and highlights the benefits it brings to our system.
+This documentation explains the process of updating reference versions for Azure services. The objective of this update is to ensure that the Azure services utilized in our system are up-to-date. It is important to identify and consider any dependencies associated with different versions during this update. This documentation will guide you through the update process and provide information on testing procedures.
 
 ## Table of Contents
 
 [Introduction](#introduction)
 
-[Business Objective](#business-objective)
+[Updating Azure Reference Versions](#updating-azure-reference-versions)
 
-[Update Details](#update-details)
+[Considering Dependencies](#considering-dependencies)
 
-[Benefits](#benefits)
-
-[Testing and Verification](#testing-and-verification)
+[Testing Procedures](#testing-procedures)
 
 ## Introduction
 
-Keeping our Azure services up-to-date is crucial to ensure that we can leverage 
-the latest capabilities and enhancements offered by Azure. This documentation covers the update process for Azure reference versions and explains the business 
-objective behind this update. By maintaining up-to-date reference versions and 
-identifying dependencies, we can optimize our Azure lab profiles and provide a 
-better experience for our users.
+In order to maintain the best performance and compatibility, it is crucial to update the reference versions of Azure services in our system. This update aims to ensure that we are utilizing the latest versions of Azure services. By following the steps outlined in this documentation, you can successfully update the Azure reference versions.
 
-## Business Objective
+## Updating Azure Reference Versions
 
-The business objective of this update is to update the reference versions for 
-Azure services. By doing so, we can achieve the following:
+To update the Azure reference versions, please follow these steps:
 
-*   Ensure Usage of Up-to-Date Versions: Updating the reference versions allows
- us to utilize the latest features, improvements, and security patches provided 
- by Azure services.
+1.  Ensure that you have the necessary permissions and access to perform the update process.
 
-*   Identify Dependencies: By reviewing the dependencies between different 
-versions, we can better manage and optimize our Azure lab profiles. This helps us 
-ensure the compatibility and stability of our lab environments.
+1.  Identify the Azure services currently utilized in our system that require version updates.
 
-## Update Details
+1.  Research and identify the latest available versions for each Azure service.
 
-In this update, we have reviewed and updated the reference versions for Azure 
-services. The update process includes:
+1.  Plan the update process carefully, considering any potential impact on user account management and other system functionalities.
 
-*   Identification of Outdated Versions: We have identified the outdated reference 
-versions currently used in our system.
+1.  Schedule a maintenance window or choose an appropriate time to minimize disruption to system operations.
 
-*   Research and Selection of Updated Versions: Our team has conducted research 
-to identify the most recent and stable versions of Azure services.
+1.  During the maintenance window, proceed with updating the Azure reference versions by following the recommended Azure documentation and best practices.
 
-*   Update Implementation: The outdated reference versions have been replaced 
-with the updated versions in our system.
+1.  Monitor the update process and ensure that each Azure service is successfully updated to the desired version.
 
-## Benefits
+1.  After completing the update process for all Azure services, verify the functionality of the system to ensure that it is working as expected.
 
-This update brings several benefits to our system and users:
+## Considering Dependencies
 
-Access to Latest Features: By updating the reference versions, we ensure that our
-*   system can utilize the latest features and enhancements offered by Azure services.
+During the update process, it is important to consider any dependencies associated with different versions of Azure services. Dependencies may exist between Azure services or between Azure services and other components of our system. To ensure a smooth update, follow these guidelines:
 
-*   Improved Stability and Compatibility: Identifying dependencies between versions 
-helps us manage and optimize our Azure lab profiles. This ensures a stable and 
-compatible lab environment for our users.
+1.  Identify the dependencies between different versions of Azure services.
 
-*   Enhanced Security: Keeping the reference versions up-to-date ensures that our 
-Azure services benefit from the latest security patches and safeguards against 
-potential vulnerabilities.
+1.  Plan the update sequence based on the dependencies to minimize any potential conflicts or disruptions.
 
-## Testing and Verification
+1.  Consult with the relevant teams or stakeholders to address any concerns or potential issues related to dependencies.
 
-To ensure the effectiveness of this update, thorough testing has been conducted. The testing process includes:
+1.  Test the updated versions thoroughly to ensure that all dependencies are properly managed and functioning as expected.
 
-*   Functionality Testing: We have tested the Azure lab profiles to verify their ability to launch, spin up resources, and tear them down properly with the updated reference versions.
+## Testing Procedures
 
-*   Compatibility Testing: We have checked the compatibility of the updated reference versions with other components and dependencies in our system.
+To validate the update and ensure the proper functionality of our system, it is essential to conduct comprehensive testing. Follow these testing procedures:
 
-*    Validation of Dependencies: The identified dependencies between versions have been validated to ensure accurate management and optimization of our Azure lab profiles.
+1.  Perform regression testing on Azure user management, including CRUD operations and permissions.
 
-By conducting rigorous testing, we can ensure that the update to Azure reference versions is successful and provides the intended benefits.
+1.  Test lab launches and verify that the updated Azure services are functioning correctly.
 
-If you have any questions or need further assistance, please reach out to our support team.
+1.  Assign roles and policies as required and confirm that they are applied correctly in the updated versions.
+
+1.  Tear down labs and ensure that all associated users and resources are properly deleted.
+
+1.  Purge users by checking for any users in Azure that are in a deleted state and can be safely removed.
+
+1.  By conducting thorough testing, we can ensure that the updated Azure reference versions are fully functional and aligned with our system's requirements.
+
+If you encounter any issues or require further assistance during the update process, please contact our support team for guidance.
+
+Thank you for your cooperation in keeping our system up-to-date and optimized with the latest Azure reference versions.
