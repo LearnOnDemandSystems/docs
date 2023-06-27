@@ -13,7 +13,6 @@ You should already have an organization and user account setup in Skillable Trai
 To get your class(es) setup, you will need to:  
 
 1. [Sign into the TMS](https://alh.learnondemand.net) and view the announcement which will provides helpful next steps.  
->:small_orange_diamond: [View a video on accessing the Skillable TMS and signing in.](https://youtu.be/SYtFYv5PaWw) 
 
 1. [Create class(es)](https://docs.learnondemandsystems.com/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md) with lab vouchers. A voucher is equivalent to your online lab purchase. For example, if you purchased 20 online labs through Skillable Marketplace for Microsoft Partners, you will see 20 vouchers in the Skillable TMS available which you can redeem to schedule 20 students in a class.
 >:small_orange_diamond: [View a video on managing vouchers and creating a class.](https://youtu.be/377YlEyOego) 
