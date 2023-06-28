@@ -286,6 +286,10 @@
         <div class="subtopic_title">Lab Developer FAQ</div>
         <div class="subtopic_description">Frequently asked questions to assist lab developers.</div>
       </a>
+      <a class="subtopic_link" href="/instruction-sets-added-to-lab-profile.md">
+        <div class="subtopic_title">Lab Profile Instruction Sets</div>
+        <div class="subtopic_description">provides detailed information about each instruction set belonging to the lab profile, allowing you to efficiently manage and update instructions as needed.</div>
+      </a>
             <a class="subtopic_link" href="/lod/lab-user-faq.md">
         <div class="subtopic_title">Lab User FAQ</div>
         <div class="subtopic_description">Frequently asked questions to assist lab users.</div>
