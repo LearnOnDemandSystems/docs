@@ -206,10 +206,6 @@
         <div class="subtopic_title">Docker Support</div>
         <div class="subtopic_description">Supported Docker configurations.</div>
       </a>
-      <a class="subtopic_link" href="/easier-legacy-lab-client-theming.md">
-        <div class="subtopic_title">Easier Legacy Lab Client Theming</div>
-        <div class="subtopic_description">Enhances the lab client theming capabilities, making it easier for enterprise customers to customize the appearance of their lab client for demos and branding purposes.</div>
-      </a>
       <a class="subtopic_link" href="/guides/cloud-slice/aws/aws-cloud-slice-setup.md">
         <div class="subtopic_title">Enable Cloud Slice Support in AWS</div>
         <div class="subtopic_description">Setup process to enable cloud slice support in the AWS portal.</div>
