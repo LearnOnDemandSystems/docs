@@ -20,9 +20,11 @@ In the event that a user forgets their password, they can easily initiate the pa
 1. Click on the **Send Instructions** button.
 
 ![](/tms/images/password-reset-link.png)
+
 *Access the password reset link by first clicking the sign in button on the login page*
 
 ![](/tms/images/login-assistance.png)
+
 *On the Login Assistance page, input the user's primary email address*
 
 ### Reset Password Email
