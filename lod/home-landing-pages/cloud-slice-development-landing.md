@@ -164,6 +164,10 @@
         <div class="subtopic_title">Create a Cloud Subscription Pool</div>
         <div class="subtopic_description">Create a Cloud Subscription Pool to load balance labs across your cloud subscriptions.</div>
       </a>
+      <a class="subtopic_link" href="/trigger-security-review-when-save-or-auto-save-are-enabled-on-a-cloud-slice-lab.md">
+        <div class="subtopic_title">Trigger Security Review for Save and Auto-save Features</div>
+        <div class="subtopic_description">Allows lab authors to have a security review automatically triggered when enabling the save or auto-save features in a cloud slice lab profile.</div>
+      </a>
     </div>
   </div>
   <div class="subtopic">
