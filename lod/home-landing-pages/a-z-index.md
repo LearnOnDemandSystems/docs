@@ -374,6 +374,10 @@
         <div class="subtopic_title">Missing Files in a Lab Instance</div>
         <div class="subtopic_description">Information that should be gathered and reported, to assist with missing files that are needed to complete steps in lab instructions.</div>
       </a>
+      <a class="subtopic_link" href="/lod/update-require-security-review-logic-on-acp-edit-page.md">
+        <div class="subtopic_title">Modify ACP to Read Only (Blessed)</div>
+        <div class="subtopic_description">Provides functionality for lab admins with the Security Review permission to make an ACP blessed.</div>
+      </a>
       <a class="subtopic_link" href="/lod/org-max-ram.md">
         <div class="subtopic_title">Organization RAM Limits</div>
         <div class="subtopic_description">Max RAM usage, max active lab instances and max RAM per lab profile.</div>
