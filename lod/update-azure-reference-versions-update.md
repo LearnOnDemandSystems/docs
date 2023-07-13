@@ -12,13 +12,10 @@ This documentation explains the process of updating reference versions for Azure
 
 ## Table of Contents
 
-[Introduction](#introduction)
-
-[Updating Azure Reference Versions](#updating-azure-reference-versions)
-
-[Considering Dependencies](#considering-dependencies)
-
-[Testing Procedures](#testing-procedures)
+- [Introduction](#introduction)
+- [Updating Azure Reference Versions](#updating-azure-reference-versions)
+- [Considering Dependencies](#considering-dependencies)
+- [Testing Procedures](#testing-procedures)
 
 ## Introduction
 
