@@ -16,6 +16,9 @@ Themes allow you to add cascading style sheets (CSS) to your lab profiles, to cu
 - [Examples](#examples)
   * [CSS Example](#css-example)
   * [JavaScript Example](#javascript-example)
+- [Easier Lab Client Theming](#easier-lab-client-theming)
+  * [Editing Themes in Real-time](#editing-themes-in-real-time)
+  * [Theme Inheritance](#theme-inheritance)
 
 ## Basic Information 
 |Field|Description|
@@ -160,3 +163,36 @@ b.alt="Alternative text to help screen readers goes here"
 
 */
 ```
+
+## Easier Lab Client Theming
+
+The Easier Legacy Lab Client Theming feature provides the following benefits:
+
+1.  Real-time Theme Updates: You can now make changes to the theme's CSS and scripts without requiring a full form submission. This allows for more real-time editing and immediate visualization of the theme changes.
+
+1.  Theme Inheritance: With theme inheritance, you can easily inherit styles and scripts from other themes. This eliminates the need for excessive copy-pasting, making it more efficient to create customized themes that build upon existing ones.
+
+### Editing Themes in Real-time
+
+To make real-time changes to a theme, follow these steps:
+
+1.  Log in as an administrator and ensure you have access to a running lab.
+1.  Open a separate browser tab or window to edit the theme that the lab uses.
+1.  Modify the theme settings, including CSS and scripts, as desired.
+1.  Save the changes without the need for a full form submission.
+1.  Refresh the lab in your browser.
+1.  You will now see the updated theme applied in the lab, reflecting the changes you made.
+
+This real-time editing capability allows you to fine-tune the theme appearance and quickly see the results in the running lab.
+
+### Theme Inheritance
+
+To create a new theme that inherits styles from another theme, follow these steps:
+
+1.  Log in as an administrator.
+1.  Access the theme creation feature.
+1.  Specify the new theme's settings, including the desired inheritance.
+1.  Set the specific styling you want to override from the inherited theme.
+1.  For example, if you want to style H1 headers in pink, ensure that you define this styling in the new theme, overriding any inherited values.
+
+By leveraging theme inheritance, you can avoid excessive copy-pasting and easily modify specific styles while building upon existing themes.

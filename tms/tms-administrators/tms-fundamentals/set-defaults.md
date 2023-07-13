@@ -1,5 +1,5 @@
 ---
-title: "How do I set defaults for my site?"
+title: "How do I set defaults for my organization?"
 description: "Use your organization profile to create default settings for classes, users, enrollment cancellations, courses, surveys, and several other items."
 isPublished: true
 ---

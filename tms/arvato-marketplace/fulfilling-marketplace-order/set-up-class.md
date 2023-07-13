@@ -5,7 +5,7 @@ isPublished: true
 
 # How do I set up a class?
 
-To give your students access to the labs you purchase in the Courseware Marketplace from Skillable, you need to set up a class in our TMS. To synchronize the purchase from the Courseware Marketplace to the TMS, your organization must have your Arvato Customer ID associated with it. Your vouchers are automatically sync'd from the Courseware Marketplace and loaded into the TMS. It may take up to 10 minutes for the sync to occur. Once the vouchers are available in the TMS, you can use them to set up a class.
+To give your students access to the labs you purchase in the Skillable Marketplace for Microsoft Partners, you need to set up a class in our TMS. Your vouchers are automatically sync'd from the Skillable Marketplace for Microsoft Partners and loaded into the TMS. It may take up to 10 minutes for the sync to occur. Once the vouchers are available in the TMS, you can use them to set up a class.
 
 Skillable lab access is controlled by class start time. This allows you to set up the class with labs immediately after purchase, well in advance of the class starting. Students will not be able to access the labs until they are enrolled in the class and the class has started. Instructors can access the labs as soon as they are added as instructors to the class. You do not need to purchase labs for the instructors.
 >:small_orange_diamond: [View a video on setting up your class](https://youtu.be/a_O5-9GMwpg?list=PLoXguRLJE8rmUa3KXKJqebpN9cmTtEAdY) 

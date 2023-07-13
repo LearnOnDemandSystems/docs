@@ -469,6 +469,9 @@
       <a class="subtopic_link" href="/lod/update-azure-reference-versions-update.md">
         <div class="subtopic_title">Update Azure Reference versions</div>
         <div class="subtopic_description">Provides instructions on ensuring the usage of up-to-date versions and identifying dependencies between different versions.</div>
+      <a class="subtopic_link" href="/lod/trigger-security-review-when-save-or-auto-save-are-enabled-on-a-cloud-slice-lab.md">
+        <div class="subtopic_title">Trigger Security Review for Save and Auto-save Features</div>
+        <div class="subtopic_description">Allows lab authors to have a security review automatically triggered when enabling the save or auto-save features in a cloud slice lab profile.</div>
       </a>
       <a class="subtopic_link" href="/lod/variable-display.md">
         <div class="subtopic_title">Variable Display for Lab Instructions</div>

@@ -30,6 +30,10 @@
         <div class="subtopic_title">Amazon Web Services API Capabilities</div>
         <div class="subtopic_description">A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation.</div>
       </a>
+      <a class="subtopic_link" href="/lod/aws-block-removal-of-boundary-policy-from-roles.md">
+        <div class="subtopic_title">AWS: Block Removal of Boundary Policy from Roles</div>
+        <div class="subtopic_description">Prevents users from removing boundary policies from roles in the AWS subscription, and ensuring that lab users do not have escalated permission roles.</div>
+      </a>
       <a class="subtopic_link" href="/lod/aws-cloud-log-transfer.md">
         <div class="subtopic_title">AWS Cloud Trail Log Transfer</div>
         <div class="subtopic_description">AWS Cloud Trail logging enables the ability to audit all cloud logs in a user session and store those logs in a storage location.</div>
@@ -163,6 +167,10 @@
       <a class="subtopic_link" href="/lod/create-cloud-subscription-pool.md">
         <div class="subtopic_title">Create a Cloud Subscription Pool</div>
         <div class="subtopic_description">Create a Cloud Subscription Pool to load balance labs across your cloud subscriptions.</div>
+      </a>
+      <a class="subtopic_link" href="/trigger-security-review-when-save-or-auto-save-are-enabled-on-a-cloud-slice-lab.md">
+        <div class="subtopic_title">Trigger Security Review for Save and Auto-save Features</div>
+        <div class="subtopic_description">Allows lab authors to have a security review automatically triggered when enabling the save or auto-save features in a cloud slice lab profile.</div>
       </a>
     </div>
   </div>

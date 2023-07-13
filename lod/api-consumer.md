@@ -100,7 +100,7 @@ API keys for this API Consumer will be displayed here.
     - **DELETE**: use the DELETE verb to delete data.
     - **PUT**: use the PUT verb to modify data
 - **URL**: A webhook URL that will be used to send the Webhook response to when the configured platform event occurs.  Any lab [replacement token](../lod/feature-focus/cloud-resource-templates/replacement-tokens.md) can also be added to the URL surrounded by `{}`. For example:The lab instance ID will be injected into URL using the replacement value `{id}`. `https://myexternalsite.com/labinstance/changed/{id}`.
-- **Headers**: headers should be entered in `name=value` format, with each header on a new line. It is recommended to add an authorization header in order to secure your webhook. 
+- **Headers**: headers should be entered in `name=value` format, with each header on a new line. It is recommended to add an authorization header in order to secure your webhook. If Basic Authentication is required for the webhook in the header field enter `Authorization=Basic <Base64 URL Safe version of the Username:Password>`.  Assuming a username of `Webhookuser` and a password of `webhookpassword` the Base64 URL Safe string of `Webhookuser:webhookpassword` is `V2ViaG9va3VzZXI6d2ViaG9va3Bhc3N3b3Jk`.  In the header field the full entry would be `Authorization=Basic V2ViaG9va3VzZXI6d2ViaG9va3Bhc3N3b3Jk`.  To help with converting the username and password there are many available tools including [Cyber Chef](https://cyberchef.org/ "Link to Cyber Chef for performing the Base64 conversion")
     - **Send Lab Details as Content Body**: the content body will contain JSON-formatted information about the lab instance. Example:
     
  ```JSON{
