@@ -12,13 +12,10 @@ This documentation provides instructions on the functionality and usage of the r
 
 ## Table of Contents
 
-[Introduction](#introduction)
-
-[Enabling the Projects Available Pool Logic Change](#enabling-the-projects-available-pool-logic-change)
-
-[Replenishing Projects in the Pool](#replenishing-projects-in-the-pool)
-
-[Additional Information](#additional-information)
+- [Introduction](#introduction)
+- [Enabling the Projects Available Pool Logic Change](#enabling-the-projects-available-pool-logic-change)
+- [Replenishing Projects in the Pool](#replenishing-projects-in-the-pool)
+- [Additional Information](#additional-information)
 
 ## Introduction
 
