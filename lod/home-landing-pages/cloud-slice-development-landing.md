@@ -123,6 +123,10 @@
         <div class="subtopic_title">Setup your Azure cloud subscription in Skillable Studio</div>
         <div class="subtopic_description">Configure a subscription pool in Skillable Studio, for use with Azure cloud slice.</div>
       </a>
+      <a class="subtopic_link" href="/lod/update-azure-reference-versions-update.md">
+        <div class="subtopic_title">Update Azure Reference versions</div>
+        <div class="subtopic_description">Provides instructions on ensuring the usage of up-to-date versions and identifying dependencies between different versions.</div>
+      </a>
     </div>
   </div>
   <div class="subtopic">
