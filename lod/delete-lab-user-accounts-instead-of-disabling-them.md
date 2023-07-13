@@ -13,11 +13,9 @@ Removing unused accounts helps optimize system resources, leading to better over
 
 ## Table of Contents
 
-[Introduction](#introduction)
-
-[Understanding the Enhancement](#understanding-the-enhancement)
-
-[Testing and Verification](#testing-and-verification)
+- [Introduction](#introduction)
+- [Understanding the Enhancement](#understanding-the-enhancement)
+- [Testing and Verification](#testing-and-verification)
 
 ## Introduction
 
