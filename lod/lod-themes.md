@@ -166,7 +166,7 @@ b.alt="Alternative text to help screen readers goes here"
 
 ## Easier Lab Client Theming
 
-The Easier Legacy Lab Client Theming feature introduces two primary changes to the existing themes model:
+The Easier Legacy Lab Client Theming feature provides the following benefits:
 
 1.  Real-time Theme Updates: You can now make changes to the theme's CSS and scripts without requiring a full form submission. This allows for more real-time editing and immediate visualization of the theme changes.
 
