@@ -372,7 +372,7 @@
       </a>
       <a class="subtopic_link" href="/lod/update-require-security-review-logic-on-acp-edit-page.md">
         <div class="subtopic_title">Modify ACP to Read Only (Blessed)</div>
-        <div class="subtopic_description">Introduces new functionality for lab admins with the Security Review permission to make an ACP blessed.</div>
+        <div class="subtopic_description">Provides functionality for lab admins with the Security Review permission to make an ACP blessed.</div>
       </a>
       <a class="subtopic_link" href="/lod/org-max-ram.md">
         <div class="subtopic_title">Organization RAM Limits</div>
