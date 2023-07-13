@@ -12,17 +12,12 @@ This documentation provides instructions on how the "Require Security Review" lo
 
 ## Table of Contents
 
-[Introduction](#introduction)
-
-[Making an ACP Read-Only](#making-an-acp-read-only)
-
-[Access to ACP Edit Page for Regular Lab Developers](#access-to-acp-edit-page-for-regular-lab-developers)
-
-[Cloning an ACP for Another Lab](#cloning-an-acp-for-another-lab)
-
-[ACP Edit Page on the Search Page](#acp-edit-page-on-the-search-page)
-
-[Read-Only Mode for Unchecked Checkbox](#read-only-mode-for-unchecked-checkbox)
+- [Introduction](#introduction)
+- [Making an ACP Read-Only](#making-an-acp-read-only)
+- [Access to ACP Edit Page for Regular Lab Developers](#access-to-acp-edit-page-for-regular-lab-developers)
+- [Cloning an ACP for Another Lab](#cloning-an-acp-for-another-lab)
+- [ACP Edit Page on the Search Page](#acp-edit-page-on-the-search-page)
+- [Read-Only Mode for Unchecked Checkbox](#read-only-mode-for-unchecked-checkbox)
 
 ## Introduction
 
