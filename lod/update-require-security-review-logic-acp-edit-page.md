@@ -1,6 +1,6 @@
 ---
 title: "Modify ACP to Read Only (Blessed)"
-description: "Introduces new functionality for lab admins with the Security Review permission to make an ACP blessed."
+description: "Provides functionality for lab admins with the Security Review permission to make an ACP blessed."
 isPublished: true
 ---
 
