@@ -230,7 +230,7 @@
         <div class="subtopic_title">Google Cloud Platform (GCP) Cleanup: Project Deletion</div>
         <div class="subtopic_description">Allows users to automatically delete GCP project.</div>
       </a>
-      <a class="subtopic_link" href="/lod/delete-lab-user-accounts-instead-of-disabling-them.md.md">
+      <a class="subtopic_link" href="/lod/delete-lab-user-accounts-instead-of-disabling-them.md">
         <div class="subtopic_title">Google Cloud Platform: Delete Lab User Accounts Instead of Disabling Them</div>
         <div class="subtopic_description">Implements the deletion of user accounts instead of merely disabling or suspending them.</div>
       <a class="subtopic_link" href="/lod/gcp-projects-available-pool-logic-change-replenishment.md">
