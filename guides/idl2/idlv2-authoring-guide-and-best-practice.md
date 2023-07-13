@@ -794,7 +794,7 @@ It's also possible to simply supply the width: {width}. In this case, the height
 
 - **Sections:** used to group lab instructions and elements together so they may be called up on and manipulated as one. This is done by assigning a lab variable that has been set via LCA, ABA, an IDLx textbox  or an IDLx drop-down menu.
 
-    > :::sectionName(variableName-variabelValue)
+    > :::sectionName(variableName=variabelValue)
 
     > section text or markdown elements
 

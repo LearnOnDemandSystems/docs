@@ -233,6 +233,9 @@
       <a class="subtopic_link" href="/lod/delete-lab-user-accounts-instead-of-disabling-them.md.md">
         <div class="subtopic_title">Google Cloud Platform: Delete Lab User Accounts Instead of Disabling Them</div>
         <div class="subtopic_description">Implements the deletion of user accounts instead of merely disabling or suspending them.</div>
+      <a class="subtopic_link" href="/lod/gcp-projects-available-pool-logic-change-replenishment.md">
+        <div class="subtopic_title">Google Cloud Platform: Projects Available Pool Logic Change; Replenishment</div>
+        <div class="subtopic_description">Implements automatic project replenishment and tests project deletion, lab users can seamlessly continue their work without interruption.</div>
       </a>
       <a class="subtopic_link" href="/lod/start-states.md">
         <div class="subtopic_title">Hyper-V Start States</div>
@@ -374,6 +377,10 @@
         <div class="subtopic_title">Missing Files in a Lab Instance</div>
         <div class="subtopic_description">Information that should be gathered and reported, to assist with missing files that are needed to complete steps in lab instructions.</div>
       </a>
+      <a class="subtopic_link" href="/lod/update-require-security-review-logic-acp-edit-page.md">
+        <div class="subtopic_title">Modify ACP to Read Only (Blessed)</div>
+        <div class="subtopic_description">Provides functionality for lab admins with the Security Review permission to make an ACP blessed.</div>
+      </a>
       <a class="subtopic_link" href="/lod/org-max-ram.md">
         <div class="subtopic_title">Organization RAM Limits</div>
         <div class="subtopic_description">Max RAM usage, max active lab instances and max RAM per lab profile.</div>
@@ -469,6 +476,13 @@
       <a class="subtopic_link" href="/lod/lod-themes.md">
         <div class="subtopic_title">Themes</div>
         <div class="subtopic_description">Create themes to customize the look and feel of labs using CSS, and JavaScript.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/update-azure-reference-versions-update.md">
+        <div class="subtopic_title">Update Azure Reference versions</div>
+        <div class="subtopic_description">Provides instructions on ensuring the usage of up-to-date versions and identifying dependencies between different versions.</div>
+      <a class="subtopic_link" href="/lod/trigger-security-review-when-save-or-auto-save-are-enabled-on-a-cloud-slice-lab.md">
+        <div class="subtopic_title">Trigger Security Review for Save and Auto-save Features</div>
+        <div class="subtopic_description">Allows lab authors to have a security review automatically triggered when enabling the save or auto-save features in a cloud slice lab profile.</div>
       </a>
       <a class="subtopic_link" href="/lod/variable-display.md">
         <div class="subtopic_title">Variable Display for Lab Instructions</div>

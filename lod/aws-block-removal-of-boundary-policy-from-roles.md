@@ -20,7 +20,7 @@ isPublished: true
 
 ## Overview
 
-This is a new enhancement to our AWS integration, which strengthens the security of your lab environment. With this update, we have implemented a feature that prevents the removal of boundary policies from roles within your AWS subscription. This ensures that lab users cannot inadvertently remove critical policies and end up with escalated permission roles.
+This feature strengthens the security of your lab environment. With this update, we have implemented a feature that prevents the removal of boundary policies from roles within your AWS subscription. This ensures that lab users cannot inadvertently remove critical policies and end up with escalated permission roles.
 
 
 ##  Secondary Resource Protection (Protect Roles Policy) 

@@ -18,6 +18,9 @@ Overall, Instruction Sets for Lab Profiles is a powerful tool for creating flexi
   - [Clone Instruction Set](#clone-instruction-set)
 - [Default Instruction Sets](#default-instruction-sets)
 - [Manage Instruction Sets](#manage-instruction-sets)
+- [Viewing the Organization Column](#viewing-the-organization-column)
+- [Organization Display Logic](#organization-display-logic)
+- [Benefits](#benefits)
 - [Editing Instructions](#editing-instructions)
 - [API](#api)
   - [Example API Command](#example-api-command)
@@ -127,6 +130,33 @@ This management page allows you to manage Instruction Sets. The following option
 - Edit the ID, Name, Language and Lab title of Instruction Sets
 - Enable/disable Instruction Sets
 
+## Viewing the Organization Column
+
+To view the organization name column in the Manage Instructions Sets dialog, follow these steps:
+
+1.  Access the Manage Instructions Sets dialog in your lab authoring interface.
+1.  ook for the column header labeled "Organization".
+1.  If this column is visible, it means that there are instruction sets associated with different organizations in your lab profiles.
+
+## Organization Display Logic
+
+The organization name column display is determined by the relationship between the organization on the instruction set and the organization on the lab profile. The logic is as follows:
+
+*   If the organization on the instruction set is different from the organization on the lab profile, the organization name column will be shown in the Manage Instructions Sets dialog.
+*   If the organization on the instruction set is the same as the organization on the lab profile, the organization name column will be hidden to avoid redundancy.
+
+This logic ensures that you can easily identify and manage instruction sets associated with different organizations without cluttering the interface when unnecessary.
+
+## Benefits
+
+The organization display feature provides several benefits:
+
+*   Improved Visibility: By showing the organization name column, you can quickly identify instruction sets associated with different organizations, making it easier to manage and organize your lab profiles.
+
+*   Streamlined Organization Management: The customized column display enhances your ability to differentiate between instruction sets belonging to different organizations, streamlining the management process.
+
+*   Reduced Clutter: Hiding the organization name column when it is not needed reduces unnecessary visual clutter, improving the overall usability of the Manage Instructions Sets dialog.
+
 ## Editing Instructions 
 
 Lab instructions can either be editable or not editable. This setting is managed in the Instruction Management window. If the Editable setting is not enabled for an Instruction Set, it will be read-only and cannot be edited until that setting is set to editable.
@@ -192,6 +222,7 @@ Each instruction set has an associated lab title field which may be specified by
 ## Use Cases
 
 - Your lab could have two sets of instructions for different experience levels. There could be an Instruction Set for beginner users, and an Instruction Set for expert users. Specifying Instruction Sets accordingly, will allow different Instruction Sets to be shown to users, for the same lab profile.
+
 
 ## Related Topics
 

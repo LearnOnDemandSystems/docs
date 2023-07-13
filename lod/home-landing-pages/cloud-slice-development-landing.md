@@ -30,6 +30,10 @@
         <div class="subtopic_title">Amazon Web Services API Capabilities</div>
         <div class="subtopic_description">A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation.</div>
       </a>
+      <a class="subtopic_link" href="/lod/aws-block-removal-of-boundary-policy-from-roles.md">
+        <div class="subtopic_title">AWS: Block Removal of Boundary Policy from Roles</div>
+        <div class="subtopic_description">Prevents users from removing boundary policies from roles in the AWS subscription, and ensuring that lab users do not have escalated permission roles.</div>
+      </a>
       <a class="subtopic_link" href="/lod/aws-cloud-log-transfer.md">
         <div class="subtopic_title">AWS Cloud Trail Log Transfer</div>
         <div class="subtopic_description">AWS Cloud Trail logging enables the ability to audit all cloud logs in a user session and store those logs in a storage location.</div>
@@ -119,6 +123,10 @@
         <div class="subtopic_title">Setup your Azure cloud subscription in Skillable Studio</div>
         <div class="subtopic_description">Configure a subscription pool in Skillable Studio, for use with Azure cloud slice.</div>
       </a>
+      <a class="subtopic_link" href="/lod/update-azure-reference-versions-update.md">
+        <div class="subtopic_title">Update Azure Reference versions</div>
+        <div class="subtopic_description">Provides instructions on ensuring the usage of up-to-date versions and identifying dependencies between different versions.</div>
+      </a>
     </div>
   </div>
   <div class="subtopic">
@@ -151,6 +159,9 @@
       <a class="subtopic_link" href="/lod/delete-lab-user-accounts-instead-of-disabling-them.md">
         <div class="subtopic_title">Google Cloud Platform: Delete Lab User Accounts Instead of Disabling Them</div>
         <div class="subtopic_description">Implements the deletion of user accounts instead of merely disabling or suspending them.</div>
+      <a class="subtopic_link" href="/lod/gcp-projects-available-pool-logic-change-replenishment.md">
+        <div class="subtopic_title">Google Cloud Platform: Projects Available Pool Logic Change; Replenishment</div>
+        <div class="subtopic_description">Implements automatic project replenishment and tests project deletion, lab users can seamlessly continue their work without interruption.</div>
       </a>
       <a class="subtopic_link" href="/lod/lab-advisor.md">
          <div class="subtopic_title">Skillable Studio Lab Advisor</div>
@@ -163,6 +174,10 @@
       <a class="subtopic_link" href="/lod/create-cloud-subscription-pool.md">
         <div class="subtopic_title">Create a Cloud Subscription Pool</div>
         <div class="subtopic_description">Create a Cloud Subscription Pool to load balance labs across your cloud subscriptions.</div>
+      </a>
+      <a class="subtopic_link" href="/trigger-security-review-when-save-or-auto-save-are-enabled-on-a-cloud-slice-lab.md">
+        <div class="subtopic_title">Trigger Security Review for Save and Auto-save Features</div>
+        <div class="subtopic_description">Allows lab authors to have a security review automatically triggered when enabling the save or auto-save features in a cloud slice lab profile.</div>
       </a>
     </div>
   </div>
