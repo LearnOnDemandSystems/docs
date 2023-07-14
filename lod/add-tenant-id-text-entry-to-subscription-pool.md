@@ -32,7 +32,7 @@ Before proceeding with adding your Azure tenant ID to the subscription pool, ens
 
 To add your Azure tenant ID to the subscription pool, follow these steps:
 
-1.  Sign in to your lab admin account on the Azure cloud slice platform.
+1.  Sign in to your lab admin account in Skillable Studio.
 1.  Navigate to the Subscription Pool section, where you manage your subscription pools.
 1.  Locate the specific Subscription Pool to which you want to add the tenant ID.
 1.  Click on the Subscription Pool to access its details and configuration settings.
