@@ -34,6 +34,10 @@
         <div class="subtopic_title">Activity Based Assessment Outcomes</div>
         <div class="subtopic_description">Outcomes offer adaptive learning experiences based on the result of an automated activity or question.</div>
       </a>
+      <a class="subtopic_link" href="/lod/add-tenant-id-text-entry-to-subscription-pool.md">
+        <div class="subtopic_title">Add Tenant ID Text to Subscription Pool</div>
+        <div class="subtopic_description">This enhancement enables lab admins to utilize an updated script for scoring labs effectively.</div>
+      </a>
       <a class="subtopic_link" href="/lod/aws-capabilities.md">
         <div class="subtopic_title">Amazon Web Services API Capabilities</div>
         <div class="subtopic_description">A list of supported and planned support Amazon Web Services (AWS) APIs. Each service name has a link to the AWS API implementation documentation. Below the table is a brief description for each service name.</div>
