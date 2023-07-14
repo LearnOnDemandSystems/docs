@@ -10,17 +10,12 @@ This feature allows lab admins to store their Azure tenant ID in the subscriptio
 
 ## Table of Contents
 
-[Overview](#overview)
-
-[Prerequisites](#prerequisites)
-
-[Adding Tenant ID to Subscription Pool](#adding-tenant-id-to-subscription-pool)
-
-[Utilizing the Tenant ID](#utilizing-the-tenant-id)
-
-[Troubleshooting](#troubleshooting)
-
-[Conclusion](#conclusion)
+- [Overview](#overview)
+- [Prerequisites](#prerequisites)
+- [Adding Tenant ID to Subscription Pool](#adding-tenant-id-to-subscription-pool)
+- [Utilizing the Tenant ID](#utilizing-the-tenant-id)
+- [Troubleshooting](#troubleshooting)
+- [Conclusion](#conclusion)
 
 ## Overview
 
@@ -30,7 +25,7 @@ The "Add Tenant ID Text Entry to Subscription Pool" feature enables lab admins t
 
 Before proceeding with adding your Azure tenant ID to the subscription pool, ensure the following prerequisites are met:
 
-*   You have a lab admin account on the Azure cloud slice platform.
+*   You have a lab admin account for Skillable Studio.
 *   You have the necessary permissions to access and modify subscription pool settings.
 
 ## Adding Tenant ID to Subscription Pool
