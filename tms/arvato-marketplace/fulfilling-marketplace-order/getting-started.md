@@ -1,21 +1,20 @@
 ---
-title: "I just ordered online labs through Microsoft's Courseware Marketplace or Skillable's Microsoft Store and am new to Skillable. How do I get started?"
+title: "I want to or just ordered online labs through Skillable's Microsoft Store and am new to Skillable. How do I get started?"
 description: "Instructions for first time purchasers of Skillable labs through Microsoft's Courseware Marketplace or Skillable's Microsoft Store. Explaining where to go to set up delivery, redeem vouchers for the labs by creating a class, and how to add students for lab access in the class."
 isPublished: true
 ---
 
-# I just ordered online labs through Microsoft's Courseware Marketplace or Skillable's Microsoft Store and am new to Skillable. How do I get started? 
+# I want to or just ordered online labs through Skillable's Microsoft Store and am new to Skillable. How do I get started? 
 
 You’ve come to the right place! View the Get Started information below if you are new to Skillable. All class management will take place in the Skillable Training Management System (TMS).  
 
+Before you can place an order on the [Skillable Marketplace](https://marketplace.skillable.com/), you will need to request an account on our [Create An Account Form](https://marketplace.skillable.com/create-an-account/). After receiving this request, Skillable will create your purchasing account on the Marketplace, an organization to schedule classes in our TMS and an Operation Manager account in the Skillable TMS to schedule those class. If you have purchased with us via the Courseware Marketplace in the past, Skillable will link your Marketplace account with existing TMS organization to maintain its information.
+
 ## Next Steps
 
-To get setup in the Skillable TMS and create your first class, you will need to: 
+1. Once you receive notification your account has been created, you can navigate to the [Skillable Marketplace](https://marketplace.skillable.com/) to log in and make your purchases. These purchases will automatically generate vouchers in Skillable's TMS, which you will use to schedule your classes.   
 
-1. (only if you purchased through Microsoft's Courseware Marketplace) [Create an organization and user account](https://alh.learnondemand.net/Organization/Register/2069) in the Skillable TMS by registering with your Arvato Customer Number. After registration, you will automatically be are logged into the Skillable TMS and, vouchers from Courseware Marketplace will sync to your organization in the Skillable TMS.  
->:small_orange_diamond: [View a video on creating your organization and user account.](https://youtu.be/SYtFYv5PaWw) 
-
-2. [Create class(es)](https://docs.learnondemandsystems.com/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md) with lab vouchers. A voucher is equivalent to your online lab purchase. For example, if you purchased 20 online labs through Courseware Marketplace, you will see 20 vouchers in the Skillable TMS available which you can redeem to schedule 20 students in a class. 
+2. [Create class(es)](https://docs.learnondemandsystems.com/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md) with lab vouchers. A voucher is equivalent to your online lab purchase. For example, if you purchased 20 online labs through Skillable Marketplace, you will see 20 vouchers in the Skillable TMS available which you can redeem to schedule 20 students in a class. 
 >:small_orange_diamond: [View a video on creating your class.](https://youtu.be/377YlEyOego) 
 
 3. [Create training keys](https://docs.skillable.com/tms/arvato-marketplace/fulfilling-marketplace-order/enroll-students-in-class.md) for your students to self-register in the class. After setting up training keys, send the training keys and [self-registration instructions](https://docs.skillable.com/tms/tms-administrators/classes/training-keys/information-to-send-to-students-who-are-registering-using-training-keys.md) to your students.  
