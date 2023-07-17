@@ -8,11 +8,11 @@ isPublished: true
 
 You’ve come to the right place! View the Get Started information below if you are new to Skillable. All class management will take place in the Skillable Training Management System (TMS).  
 
-Before you can place an order on the [Skillable Marketplace](https://marketplace.skillable.com/), you will need to request request an account on our [Create An Account Form](https://marketplace.skillable.com/create-an-account/). After receiving this request, Skillable will create your purchasing account on the Marketplace, an organization to schedule classes in our TMS and an Operation Manager account in the Skillable TMS to schedule those class. If you have purchased with us via the Courseware Marketplace, Skillable will link your Marketplace account with existing TMS organization to maintain its information.
+Before you can place an order on the [Skillable Marketplace](https://marketplace.skillable.com/), you will need to request request an account on our [Create An Account Form](https://marketplace.skillable.com/create-an-account/). After receiving this request, Skillable will create your purchasing account on the Marketplace, an organization to schedule classes in our TMS and an Operation Manager account in the Skillable TMS to schedule those class. If you have purchased with us via the Courseware Marketplace in the past, Skillable will link your Marketplace account with existing TMS organization to maintain its information.
 
 ## Next Steps
 
-1. Once you receive notification your account has been created, you can navigate to the [Skillable Marketplace](https://marketplace.skillable.com/) to log in and make your purchases. These purchases will automatically generate vouchers in Skillable's TMS, which you will use to schedule your classes.  
+1. Once you receive notification your account has been created, you can navigate to the [Skillable Marketplace](https://marketplace.skillable.com/) to log in and make your purchases. These purchases will automatically generate vouchers in Skillable's TMS, which you will use to schedule your classes.   
 
 2. [Create class(es)](https://docs.learnondemandsystems.com/tms/arvato-marketplace/fulfilling-marketplace-order/set-up-class.md) with lab vouchers. A voucher is equivalent to your online lab purchase. For example, if you purchased 20 online labs through Skillable Marketplace, you will see 20 vouchers in the Skillable TMS available which you can redeem to schedule 20 students in a class. 
 >:small_orange_diamond: [View a video on creating your class.](https://youtu.be/377YlEyOego) 
