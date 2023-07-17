@@ -8,9 +8,9 @@ isPublished: true
 
 You’ve come to the right place! View the Get Started information below if you are new to Skillable. All class management will take place in the Skillable Training Management System (TMS).  
 
-## Next Steps
+Before you can place an order on the [Skillable Marketplace](https://marketplace.skillable.com/), you will need to request request an account on our [Create An Account Form](https://marketplace.skillable.com/create-an-account/) page. After recieving this request, Skillable will create your purchasing account on the Marketplace, an organization to schedule classes in our TMS and an Operation Manager account in the Skillable TMS to schedule those class. If you have purchased with us via the Courseware Marketplace, Skillable will link your Marketplace account with exsisting TMS organization to maintain its information.
 
-Before you can place an order on the [Skillable Marketplace](https://marketplace.skillable.com/), you will need to request request an account on our [Create An Account Form](https://marketplace.skillable.com/create-an-account/) page. After recieving this request, Skillable will create your purchasing account on the Marketplace, an organization to schedule classes in our TMS and an Operation Manager account in the Skillable TMS to schedule those class. If you have purchased with us via the Courseware Marketplace, Skillable will link your Marketplace account with exsisting TMS organization to maintain its information: 
+## Next Steps
 
 1. Once you recieve notification your account has been created, you can navigate to the [Skillable Marketplace](https://marketplace.skillable.com/) to log in and make your purchases. These purchases will automatically generate vouchers in Skillable's TMS, which you will use to schedule your classes.  
 
