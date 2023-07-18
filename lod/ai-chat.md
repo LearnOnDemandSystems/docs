@@ -1,38 +1,53 @@
 ---
-title: "title"
-description: "description"
+title: "AI Chat for Lab Instructions"
+description: "AI Chat menu for IDLx lab instructions."
 isPublished: false
 ---
 
 # AI Chat 
 
-AI Menu and Chat integration
-Introduced new AI IDLX syntax. This will render as a link or set of links in the lab instructions that when clicked causes new instructions content to be generated and injected into the lab client. 
+## Table of Contents
 
-Basic usage is to wrap some text that will serve as a topic with a new "ai" syntax. Example:
-- ai[Azure Storage Accounts]
 
-This would allow AI generated responses concerning the topic of Azure Storage Accounts.
+- [Overview](#overview)
+  - [AI Chat menu ](#ai-chat-menu)
+  - [Example](#example)
+- [Prompt Engineering](#prompt-engineering)
+  - [Example with Prompt Engineering:](#example-with-prompt-engineering-)
+  - [Basic Prompt Engineering Syntax:](#basic-prompt-engineering-syntax-)
+  - [Advanced Prompt Engineering syntax:](#advanced-prompt-engineering-syntax-)
+  - [Optional Prompt Engineering Parameters:](#optional-prompt-engineering-parameters)
 
-This will generate a link in the instructions. The text of the link will be the topic (e.g. Azure Storage Accounts). Clicking the link will display a menu with 4 options in it:
-- Teach me
-- Show me
-- Quiz me
-- Find resources
-Selecting one of the menu options will cause a response to be generated and displayed below the current paragraph. 
+## Overview 
 
-    1. **Teach me** - generates a text response designed to teach the learner about the provided topic.
-    1. **Show me** - generates a list of steps on how to perform the topic. Helpful if the topic text starts with a verb. For instance, "Create an Azure Storage Account."
-    1. **Quiz me** - generates multiple choice questions on the topic. We will attempt to process the response and make it interactive. So selecting the right answer provides a "Correct" response and selecting an incorrect answer provides a "Sorry, try again." response. Note this depends on the AI sending back a response we’re able to format. This may not always be the case in V1.
-    1. **Find resources** - generates a list of links to web resources about the topic.
- 
-    ![AI Chat Menu](images/ai-chat-menu.png)
+Lab instructions can use AI to generate a list of options for lab users to select. The AI syntax will render as a link or set of links in the lab instructions, when selected that will cause new instructions content to be generated. The purpose of the AI menu is to wrap text in the instructions that will serve as a topic for new AI feedback and integrations with GPT-4.
 
-The syntax will offer several built-in options used for prompt engineering to the backend API.
+## AI Chat menu 
 
->[knowledge] Example: 
-> 
->```ai[create an Azure Storage Account] { model:"code", prompt: "Write code in C#. Use Azure.Storage libraries.", options:"teach,show", max_tokens:1000, temperature:.5, top_p:.8 }```
+The common usage is to wrap some text that will serve as a topic with a AI IDLx syntax. The text of the link will be the topic (e.g. Azure Storage Accounts). Selecting the link will display a menu with 4 options:
+
+1. **Teach me** - generates a text response designed to teach the learner about the provided topic.
+1. **Show me** - generates a list of steps on how to perform the topic. Helpful if the topic text starts with averb. For instance, "Create an Azure Storage Account."
+1. **Quiz me** - generates multiple choice questions on the topic. We will attempt to process the response and makeit interactive. So selecting the right answer provides a "Correct" response and selecting an incorrect answerprovides a "Sorry, try again." response. Note this depends on the AI sending back a response we’re able to format.This may not always be the case in V1.
+1. **Find resources** - generates a list of links to web resources about the topic.
+
+![AI Chat Menu](images/ai-chat-menu.png)
+
+Selecting one of the menu options will cause a response to be generated and displayed below the current instructions. 
+
+- Responses will have like/dislike buttons. In the future, we will use these to rank multiple responses, allowing us to pick only highly rated response for cached responses. 
+    - Disliking a response will remove it from cache, allowing you to regenerate the response by selecting it again in the menu. This will aid in preparing for demos.
+- Responses will be displayed in a collapsible box so they can be easily be removed from view.
+
+### Example
+
+An example of AI IDLx syntax would be formatted as: 
+
+```ai[Azure Storage Accounts]```
+
+## Prompt Engineering
+
+The syntax will offer several built-in options used for prompt engineering to the backend API. Every item added needs to be comma separated (see [example](#example-with-prompt-engineering) below).
 
 - **model (optional)**: Controls the model type the AI should be run against. Possible values: text,code,chat. Text uses text processing model. Code uses a codex code generation model. Chat uses GPT model. Default: text.
 - **options: (optional)**: A comma-separated list of selection options. These will appear in a dropdown menu when the user clicks on the AI link. Possible values: teach, show, quiz, resources. Use this property to control which of the four options will appear. If this property is not set, all four options will be displayed. If the property is set to an empty string, none of the built-in options will display (useful if you want to use only custom options). Default: teach,show,quiz,resources.
@@ -56,21 +71,11 @@ o	In this example, if the user selects "What is the speed of light?" (the third 
 - **stop: (optional)**: Make the model end its response at a desired point. Default: <|im_end|>
 Responses will be cached so that if the exact same query is run (by the same user or another user), the response will be quick and cost Skillable nothing. 
 
-Responses will have like/dislike buttons. In the future, we will use these to rank multiple responses, allowing us to pick only highly rated response for cached responses. 
+### Example with Prompt Engineering: 
+ 
+```ai[create an Azure Storage Account] { model:"code", prompt: "Write code in C#. Use Azure.Storage libraries.", options:"teach,show", max_tokens:1000, temperature:.5, top_p:.8 }```
 
-In V1, disliking a response will remove it from cache, allowing you to regenerate the response by selecting it again in the menu. This will aid in prepping demos... allowing us to prepare beautiful responses prior to a demo.
-
-Responses will be displayed in a collapsible box so they can be easily tucked away.
-
-The purpose of the AI menu is to wrap text in the instructions that will serve as a topic for new "AI" feedback and integrations with GPT-4. In order to fully tap into GPT-4, we adopted the chat API for better responses.
-  
-
-
-
-
-
-
-Basic Syntax: 
+### Basic Prompt Engineering Syntax: 
 
 ai-chat[topic]
 - In the backend, the chat interactions will be forced to stay on the provided topic. Any deviation outside the topic should result in a polite message stating that the discussion must stay on topic.
@@ -78,22 +83,22 @@ ai-chat[topic]
 - This will use the configured "chat" language model, as set by the "OpenAiChatModelInstanceName" application setting. At the time of writing, this is a GPT-4 large language model.
 - The "messages" parameter will be automatically logged and appended to with each chat interaction. This allows the conversation to progress and build over time. If the user leaves the lab (save/resume or simply close/re-launch), the chat history will be maintained.
 - If the author supplies a messages parameter, this will serve as an initialization of the chat history. This can be used for adding additional context or constraints on the conversation.
-- A new database table will be created to log chat history. This will be stored as long as the lab instance is stored (currently two years).
-- AiChats
-    - Id - bigint not null: Primary Key / Identity
-    - LabInstanceId - bigint not null: foreign key on LabInstances.Id
-    - ChatId - nvarchar(50): either auto-generated or supplied by author via the id parameter
-- AiChatMessages
-    - Id - bigint not null: Primary key/ Identity
-    - AiChatId - bigint not null: foreign key on AiChats.Id
-    - Role - the role of the entity that posted the message (assistant or user)
-    - Content- nvarchar(max) not null: the text of a single chat message. This will capture 1) initial messages provided by the author, 2) messages sent by the learner, and 3) messages generated by the AI LLM.
+- A new database table will be created to log chat history. This will be stored as long as the lab instance is stored.
+- **AiChats**
+    - **Id - bigint not null**: Primary Key / Identity
+    - **LabInstanceId - bigint not null**: foreign key on LabInstances.Id
+    - **ChatId - nvarchar(50)**: either auto-generated or supplied by author via the id parameter
+- **AiChatMessages**
+    - **Id - bigint not null**: Primary key/ Identity
+    - **AiChatId - bigint not null**: foreign key on AiChats.Id
+    - **Role**: the role of the entity that posted the message (assistant or user)
+    - **Content- nvarchar(max) not null****: the text of a single chat message. This will capture 1) initial messages provided by the author, 2) messages sent by the learner, and 3) messages generated by the AI LLM.
     
-More advanced syntax:
+### Advanced Prompt Engineering syntax:
 
 ai-chat[topic]{ id: "instructor1", messages: "I am an advanced user. Responses should be highly technical and detailed.", max_tokens:1000, temperature:.5, top_p:.8 }
 
-Optional parameters:
+### Optional Prompt Engineering Parameters:
 
 - **messages**: String array of interactions you want to precede the actual conversation with.  { messages:["I am an advanced user. Responses should be highly technical and detailed.", "Cover advanced topics."] }
 - **id**: An ID for the chat. If two ai-chat elements in the same lab instance share the same ID, they will be linked, allowing a conversation to appear in multiple places within the lab instructions.
