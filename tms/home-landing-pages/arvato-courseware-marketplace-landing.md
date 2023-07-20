@@ -88,10 +88,10 @@
       </div>
   </div>
   <div class="subtopic">
-    <div class="subtopic_header" tabindex="0" title="FAQs for Courseware Marketplace Orders Docs" role="button" aria-selected="false">FAQs for Courseware Marketplace Orders</div>
+    <div class="subtopic_header" tabindex="0" title="FAQs for Skillable Marketplace for Learning Partner Orders Docs" role="button" aria-selected="false">FAQs for Skillable Marketplace for Learning Partners Orders</div>
     <div class="subtopic_links">
       <a class="subtopic_link" href="/tms/arvato-marketplace/faq-for-arvato-marketplace/expiration.md">
-        <div class="subtopic_title">Do the labs I purchased Skillable Courseware Marketplace have an expiration date?</div>
+        <div class="subtopic_title">Do the labs I purchased from the Skillable Marketplace for Learning Partners have an expiration date?</div>
       </a>
          <a class="subtopic_link" href="/tms/tms-administrators/courses-and-activities/other-activities/mslearn.md">
         <div class="subtopic_title">How do I enable Microsoft Learn Courseware and Achievement Code Access in Skillable TMS?</div>
