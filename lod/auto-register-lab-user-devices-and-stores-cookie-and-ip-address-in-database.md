@@ -41,7 +41,9 @@ As a lab user, we understand that having to perform 2-factor authentication ever
 When you launch a lab for the first time, the following steps will occur:
 
 * A cookie will be placed in your browser to register your device.
-* Your device's IP address and location data will be securely saved in our      database, but the cookie will only contain a unique GUID identifier, not your IP or geolocation data.
+* Your device's IP address and location data will be securely saved in our database, but the cookie will only contain a unique GUID identifier, not your IP or geolocation data.
+
+![Alt text](<images/Cookie Consent.png>)
 
 ### Launching Labs without 2-Factor Authentication
 
@@ -80,6 +82,8 @@ To efficiently manage device registration information, we have implemented a new
 ## Flexible Device Registration Rules
 
 Device registration will be governed by our rules engine, allowing your organization's administrators to enable or disable this feature as needed. 
+
+![Alt text](<images/Rules Engine.png>)
  
 We understand that different organizations have varying security requirements, and we want to provide you with the flexibility to customize the device registration process accordingly.
 
