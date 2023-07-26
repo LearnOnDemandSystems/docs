@@ -27,6 +27,27 @@ This is a new enhancement to our lab platform that will make your experience eve
 
 As a lab user, we understand that having to perform 2-factor authentication every time you launch a lab can be time-consuming. With our latest update, you can now have your device automatically registered when you launch a lab for the first time, eliminating the need for repetitive authentication steps.
 
+## How it Works:
+
+### Device Registration on Initial Lab Launch
+
+When you launch a lab for the first time, the following steps will occur:
+
+* A cookie will be placed in your browser to register your device.
+* Your device's IP address and location data will be securely saved in our      database, but the cookie will only contain a unique GUID identifier, not your IP or geolocation data.
+
+### Launching Labs without 2-Factor Authentication
+
+Once your device is registered with the cookie, you can launch other labs from the same location without having to go through 2-factor authentication repeatedly. This means a smoother and quicker lab experience for you.
+
+### Clearing Cookies and Re-Launching a Lab
+
+In case you clear your browser cookies, or if you want to register a new device, follow these steps:
+
+* After clearing the cookies in your browser, the next time you launch a lab, you will be prompted for cookie consent again.
+* A new cookie will be placed in your browser, providing a fresh registration for your device. This new cookie will also contain a unique GUID identifier.
+
+
 ## Simplified Device Registeration
 
 When you launch a lab for the first time, we will securely save your IP address and location data in our database. This information will enable faster lab launches in the future, saving you time and effort.
