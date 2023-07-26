@@ -12,6 +12,13 @@ This feature enhances the lab user experience by automating device registration 
 
 * [Introduction](#introduction)
 
+* [How it Works](#how-it-works)
+
+* [Device Registration on Initial Lab Launch](#device-registration-on-initial-lab-launch)
+
+* [Launching Labs without 2-Factor Authentication](#launching-labs-without-2-factor-authentication)
+
+* [Clearing Cookies and Re-Launching a Lab](#clearing-cookies-and-re-launching-a-lab)
 
 * [Simplified Device Registration](#simplified-device-registeration)
 
@@ -27,7 +34,7 @@ This is a new enhancement to our lab platform that will make your experience eve
 
 As a lab user, we understand that having to perform 2-factor authentication every time you launch a lab can be time-consuming. With our latest update, you can now have your device automatically registered when you launch a lab for the first time, eliminating the need for repetitive authentication steps.
 
-## How it Works:
+## How it Works
 
 ### Device Registration on Initial Lab Launch
 
