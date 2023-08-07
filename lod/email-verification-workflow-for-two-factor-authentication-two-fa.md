@@ -1,5 +1,5 @@
 ---
-title: "Email verification workflow for 2FA"
+title: "Email Verification Workflow for 2FA"
 description: "An enhanced email verification workflow for Two-Factor Authentication (2FA) on our platform."
 isPublished: true
 ---
