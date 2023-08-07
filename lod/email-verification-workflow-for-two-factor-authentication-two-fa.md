@@ -66,7 +66,6 @@ Once your device is successfully verified, you will receive a notification that 
 The email verification link is valid for a limited time to ensure security. If the link expires, you can request a new verification link by launching the lab again.
 For added security, please do not share the verification link with others, as it is intended for your use only.
 
-## Conclusion
 
 Our Email Verification Workflow for 2FA ensures that your lab experience remains secure and hassle-free. By verifying your device through the email link, you can enjoy uninterrupted access to your labs without repeated 2FA prompts.
 
