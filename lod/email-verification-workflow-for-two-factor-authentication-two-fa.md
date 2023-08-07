@@ -20,8 +20,6 @@ isPublished: true
 
 [Important Notes](#important-notes)
 
-[Conclusion](#conclusion)
-
 ## Introduction
 
 We are excited to introduce our new Email Verification Workflow for Two-Factor Authentication (2FA), which enhances the security of your lab experience while providing a seamless verification process. With this feature, you can verify your device through an email verification link, and once verified, you won't be prompted for 2FA again as long as you use the same device and location. This guide will walk you through the steps to complete the email verification process.
