@@ -10,8 +10,6 @@ isPublished: true
 
 [Introduction](#introduction)
 
-[Objective](#objective)
-
 [How It Works](#how-it-works)
 *   [No Cookie Installed](#no-cookie-installed)
 *   [IP Address Change](#ip-address-change)
@@ -21,14 +19,10 @@ isPublished: true
 
 [Important Notes](#important-notes)
 
-[Conclusion](#conclusion)
-
-
 ## Introduction
 
 Welcome to our enhanced security feature that enforces two-factor authentication (2FA) when there are changes in your IP address or location from the initial registration of your device. This additional layer of protection ensures that your lab sessions are secure and prevents unauthorized access to your account.
 
-## Objective
 
 As a lab user, you may occasionally access our platform from different locations or IP addresses. To enhance security and protect your account, we have introduced a feature that triggers 2FA when any of the following conditions are met:
 
@@ -63,7 +57,6 @@ In case you need to verify your identity through email, we provide the ability t
 * Instances should not be able to go from a "pending verification" state to a "saved" state without successful verification. This means that you cannot access the lab until the 2FA process is completed.
 * In the event that you encounter any issues during the 2FA process or need assistance, please reach out to our support team for immediate help.
 
-## Conclusion
 
 With the implementation of the "Enforce 2FA when IP address or location changes" feature, we prioritize your account's security and protect your valuable lab data from potential threats. 
 
