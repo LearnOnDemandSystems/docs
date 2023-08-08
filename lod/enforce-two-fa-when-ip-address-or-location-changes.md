@@ -57,6 +57,8 @@ In case you need to verify your identity through email, we provide the ability t
 * Instances should not be able to go from a "pending verification" state to a "saved" state without successful verification. This means that you cannot access the lab until the 2FA process is completed.
 * In the event that you encounter any issues during the 2FA process or need assistance, please reach out to our support team for immediate help.
 * Two factor authentication will be governed by our rules engine, allowing your organization's administrators to enable or disable this feature as needed.
+We understand that different organizations have varying security requirements, and we want to provide you with the flexibility to utilize the 2FA feature accordingly.
+
 
 
 With the implementation of the "Enforce 2FA when IP address or location changes" feature, we prioritize your account's security and protect your valuable lab data from potential threats. 
