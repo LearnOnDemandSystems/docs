@@ -1,10 +1,10 @@
 ---
-title: "Auto-register Lab User Devices and Store Cookie and IP Address in Database"
+title: "Device Registration For Lab Access"
 description: "Automatically registers lab user devices and stores a cookie in their browser upon the initial lab launch."
 isPublished: true
 ---
 
-# Auto-Register Lab User Devices and Store Cookie and IP Address in DB
+# Device Registration For Lab Access
 
 This feature enhances the lab user experience by automating device registration and improving authentication convenience. With this update, lab users will now have the option to have their devices automatically registered when launching a lab for the first time, eliminating the need for repetitive 2-factor authentication.
 
