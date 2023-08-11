@@ -48,7 +48,7 @@
       </a>
       <a class="subtopic_link" href="/lod/auto-register-lab-user-devices-and-stores-cookie-and-ip-address-in-database.md">
         <div class="subtopic_title">Device Registration for Lab Access</div>
-        <div class="subtopic_description">Automatically registers lab user devices and stores a cookie in their browser upon the initial lab launch.</div>
+        <div class="subtopic_description">Automatically registers lab user devices and stores a cookie in their browser to streamline the lab experience, allowing subsequent lab launches without the need for repeated 2-factor authentication.</div>
       </a>
       <a class="subtopic_link" href="/lod/aws-cloud-log-transfer.md">
         <div class="subtopic_title">AWS Cloud Trail Log Transfer</div>
