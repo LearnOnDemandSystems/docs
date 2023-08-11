@@ -43,7 +43,7 @@ When you launch a lab for the first time, the following steps will occur:
 * A cookie will be placed in your browser to register your device.
 * Your device's IP address and location data will be securely saved in our database, but the cookie will only contain a unique GUID identifier, not your IP or geolocation data.
 
-![Alt text](images/Cookie Consent.png){800}
+![Alt text](images/Cookie Consent.png){600}
 
 ### Launching Labs without 2-Factor Authentication
 
