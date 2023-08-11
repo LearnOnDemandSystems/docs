@@ -50,9 +50,9 @@
         <div class="subtopic_title">Automatic Login for Windows Virtual Machines</div>
         <div class="subtopic_description">Configure a Windows virtual machine to log in automatically without the need to enter a username and password.</div>
       </a>
-      <a class="subtopic_link" href="/lod/aws-block-removal-of-boundary-policy-from-roles.md">
-        <div class="subtopic_title">AWS: Block Removal of Boundary Policy from Roles</div>
-        <div class="subtopic_description">Prevents users from removing boundary policies from roles in the AWS subscription, and ensuring that lab users do not have escalated permission roles.</div>
+      <a class="subtopic_link" href="/lod/auto-register-lab-user-devices-and-stores-cookie-and-ip-address-in-database.md">
+        <div class="subtopic_title">Device Registration for Lab Access</div>
+        <div class="subtopic_description">Automatically registers lab user devices and stores a cookie in their browser to streamline the lab experience, allowing subsequent lab launches without the need for repeated 2-factor authentication.</div>
       </a>
       <a class="subtopic_link" href="/lod/aws-cloud-log-transfer.md">
         <div class="subtopic_title">AWS Cloud Trail Log Transfer</div>
