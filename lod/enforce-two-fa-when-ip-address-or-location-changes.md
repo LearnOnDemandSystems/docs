@@ -1,6 +1,6 @@
 ---
 title: "Enforce 2FA When IP Address or Location Changes"
-description: "Enforces Two-Factor Authentication (2FA) when a lab user's IP address or location changes from their initial device registration."
+description: "Enforce Two-Factor Authentication (2FA) when a lab user's IP address or location changes from their initial device registration."
 isPublished: true
 ---
 
