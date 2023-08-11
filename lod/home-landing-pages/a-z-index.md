@@ -210,7 +210,7 @@
         <div class="subtopic_title">Docker Support</div>
         <div class="subtopic_description">Supported Docker configurations.</div>
       </a>
-      <a class="subtopic_link" href="/email-verification-workflow-for-two-factor-authentication-two-fa.md">
+      <a class="subtopic_link" href="/lod/email-verification-workflow-for-two-factor-authentication-two-fa.md">
         <div class="subtopic_title">Email Verification Workflow for 2FA</div>
         <div class="subtopic_description">An enhanced email verification workflow for Two-Factor Authentication (2FA) on our platform.</div>
       </a>
