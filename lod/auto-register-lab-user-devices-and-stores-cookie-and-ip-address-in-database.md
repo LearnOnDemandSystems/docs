@@ -1,6 +1,6 @@
 ---
 title: "Device Registration for Lab Access"
-description: "Automatically registers lab user devices and stores a cookie in their browser upon the initial lab launch."
+description: "Automatically registers lab user devices and stores a cookie in their browser to streamline the lab experience, allowing subsequent lab launches without the need for repeated 2-factor authentication."
 isPublished: true
 ---
 
