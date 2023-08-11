@@ -216,7 +216,7 @@
       </a>
       <a class="subtopic_link" href="/enforce-two-fa-when-ip-address-or-location-changes.md">
         <div class="subtopic_title">Enforce 2FA When IP Address or Location Changes.</div>
-        <div class="subtopic_description">Enforces Two-Factor Authentication (2FA) when a lab user's IP address or location changes from their initial device registration.</div>
+        <div class="subtopic_description">Enforce Two-Factor Authentication (2FA) when a lab user's IP address or location changes from their initial device registration.</div>
       </a>
       <a class="subtopic_link" href="/lod/excessive-lab-launch-times.md">
         <div class="subtopic_title">Excessive Lab Launch Times</div>
