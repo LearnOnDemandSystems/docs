@@ -417,6 +417,10 @@
         <div class="subtopic_title">Replacement Tokens</div>
         <div class="subtopic_description">Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.</div>
       </a>
+      <a class="subtopic_link" href="/lod/auto-register-lab-user-devices-and-stores-cookie-and-ip-address-in-database.md">
+        <div class="subtopic_title">Require Device Registration for Advanced Lab Access Security</div>
+        <div class="subtopic_description">Automatically registers lab user devices and stores a cookie in their browser to streamline the lab experience, allowing subsequent lab launches without the need for repeated 2-factor authentication.</div>
+      </a>
       <a class="subtopic_link" href="/lod/skillable-enhanced-account-security.md">
         <div class="subtopic_title">Skillable Enhanced Account Security</div>
         <div class="subtopic_description">Guidance for authenticating user accounts with Skillable Platforms, as well as account management in each platform.</div>
