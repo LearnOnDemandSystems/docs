@@ -1,12 +1,12 @@
 ---
 title: "Device Registration for Lab Access"
-description: "Automatically registers lab user devices and stores a cookie in their browser to streamline the lab experience, allowing subsequent lab launches without the need for repeated 2-factor authentication."
+description: "Automatically registers lab user devices and stores a cookie in their browser to ensure only verified users can launch from their account."
 isPublished: true
 ---
 
-# Device Registration for Lab Access
+# Require Device Registration for Advanced Lab Access Security
 
-This feature enhances the lab user experience by automating device registration and improving authentication convenience. With this update, lab users will now have the option to have their devices automatically registered when launching a lab for the first time, eliminating the need for repetitive 2-factor authentication. This feature can be enabled in the SKillable Consumption Rules Engine, where Device Registration can be enforced for your entire organization, or a subset of lab series or lab profiles. 
+Depending on your implementation and the approach you're using to secure lab access to your target audiences, the lab launch links you're surfacing to your users may be at risk. Not only could this result in the wrong people gaining access to labs on your dime, but if you're using cloud labs you may be opening yourself up to scenarios where bad actors use your labs to gain access to valuable cloud services at your expense. 
 
 ## Table of Contents
 
@@ -16,79 +16,63 @@ This feature enhances the lab user experience by automating device registration 
 
 * [Device Registration on Initial Lab Launch](#device-registration-on-initial-lab-launch)
 
-* [Launching Labs without 2-Factor Authentication](#launching-labs-without-2-factor-authentication)
+* [Prevent Account Sharing or Potential Hijacking](#prevent-account-sharing-or-potential-hijacking)
 
-* [Clearing Cookies and Re-Launching a Lab](#clearing-cookies-and-re-launching-a-lab)
+* [What Data We Store](#what-data-we-store)
 
-* [Simplified Device Registration](#simplified-device-registeration)
-
-* [Hassle-free Authentication](#hassle-free-authentication)
-
-* [Centralized Device Registration](#centralized-device-registration)
-
-* [Flexible Device Registration Rules](#flexible-device-registration-rules)
+* [FAQs](#faqs)
 
 ## Introduction
 
-This is a new enhancement to our lab platform that will make your experience even more seamless and convenient. Introducing the auto-registration feature for lab user devices, along with the storage of a cookie and IP address in our secure database.
-
-As a lab user, we understand that having to perform 2-factor authentication every time you launch a lab can be time-consuming. With our latest update, you can now have your device automatically registered when you launch a lab for the first time, eliminating the need for repetitive authentication steps.
+Device Registration is a rule that can be enabled in Skillable's Rules Engine. Depending on how it's configured, you can require your lab users to register their device or perform 2-factor authentication. The rule can be applied to your entire organization, or a subset of lab series or lab profiles.  
 
 ## How it Works
 
 ### Device Registration on Initial Lab Launch
 
-When you launch a lab for the first time, the following steps will occur:
+When a user launches a lab for the first time, the following steps will occur:
 
-* A cookie will be placed in your browser to register your device.
-* Your device's IP address and location data will be securely saved in our database, but the cookie will only contain a unique GUID identifier, not your IP or geolocation data.
+* A cookie will be placed in their browser to register their device.
+* Their device's IP address and location data will be securely saved in our database.
 
-![Alt text](images/Cookie Consent.png){600}
+![Cookie Consent Screen](images/Cookie Consent.png){600}
 
-### Launching Labs without 2-Factor Authentication
+### Prevent Account Sharing or Potential Hijacking
 
-Once your device is registered with the cookie, you can launch other labs from the same location without having to go through 2-factor authentication repeatedly. This means a smoother and quicker lab experience for you.
+With their device registered, any subsequent lab launches from the user's device and location will be seamless. In the event a bad actor attempts to launch a lab using the registered user's credentials, then 2-factor authentication via email verification will be required. 2-factor authentication will also be triggered if the user's location has moved roughly 50 miles from the location of their initial registration. 
 
-### Clearing Cookies and Re-Launching a Lab
+* An email containing a verification link will be sent to the email address associated with the user account attempting to launch the lab.
+* The verification link will need to be clicked before the lab will be accessible to the user. 
 
-In case you clear your browser cookies, or if you want to register a new device, follow these steps:
+## What Data we Store
 
-* After clearing the cookies in your browser, the next time you launch a lab, you will be prompted for cookie consent again.
-* A new cookie will be placed in your browser, providing a fresh registration for your device. This new cookie will also contain a unique GUID identifier.
-
-
-## Simplified Device Registration
-
-When you launch a lab for the first time, we will securely save your IP address and location data in our database. This information will enable faster lab launches in the future, saving you time and effort.
-
-## Hassle-free Authentication
-
-Upon your initial lab launch, a cookie will be placed in your browser to register your device. This cookie contains a unique identifier (GUID) associated with your registered device. Rest assured, the cookie only stores the GUID and does not include any personally identifiable information, such as your IP address or geolocation.
-
-## User Consent
-
-We prioritize your privacy and data security. Therefore, we will always seek your consent before placing the registration cookie in your browser. Your control and peace of mind are of utmost importance to us.
-
-##  Centralized Device Registration
-
-To efficiently manage device registration information, we have implemented a new table in our database. This table will store the following details securely:
+To efficiently manage device registration information, we store some user information in our database. We store the following details securely:
 
 1. IP address: The IP address used during the initial lab launch.
 
-1. Location data: Geolocation information associated with your IP address.
+2. Location data: Geolocation information associated with the user's IP address.
 
-1. Cookie GUID: The unique identifier generated for your registered device.
+3. Cookie GUID: The unique identifier generated for the registered device.
 
-## Flexible Device Registration Rules
+##Configuration
 
-Device registration will be governed by our rules engine, allowing your organization's administrators to enable or disable this feature as needed. 
+Device Registration is enabled and configured in the Skillable Rules Engine. Here, an administrator can enable the rule and apply it to the entire organization, a lab series, lab profile, lab tag, API consumer, or specific customer.
 
-![Alt text](images/Rules Engine.png)
- 
-We understand that different organizations have varying security requirements, and we want to provide you with the flexibility to customize the device registration process accordingly.
+![Rules Engine](images/Rules Engine.png)
 
-We believe that these enhancements will significantly improve your lab user experience by reducing the authentication overhead and enabling faster lab access.
+Once enabled, all affected labs will require device registration or 2-factor authentication in order to access them. 
 
-If you have any questions, concerns, or feedback, our dedicated support team is here to assist you. Your satisfaction and success are our top priorities, and we are committed to continuously improving our services to meet your needs.
+## FAQs
 
-Thank you for choosing our lab platform, and we look forward to providing you with an even better experience!
+### What happens if a user clears their cookies?
+
+If a user clears their browser cookies and attempts to launch a lab affected by the Device Registration rule, then they will be asked to consent to a new cookie placed in their browser, and if accepted, the cookie will be placed and they can continue their lab launch as normal. If cookies are rejected, then they will be required to perform 2-factor authentication via email verification before they can access the lab. 
+
+### What if a user is using a VPN?
+
+If a user accesses a lab using a VPN, then they will be required to perform 2-factor authentication via email verification each time they launch a lab. 
+
+
+
+
+
