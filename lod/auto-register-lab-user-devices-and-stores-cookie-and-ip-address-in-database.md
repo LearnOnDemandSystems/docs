@@ -6,7 +6,7 @@ isPublished: true
 
 # Device Registration for Lab Access
 
-This feature enhances the lab user experience by automating device registration and improving authentication convenience. With this update, lab users will now have the option to have their devices automatically registered when launching a lab for the first time, eliminating the need for repetitive 2-factor authentication.
+This feature enhances the lab user experience by automating device registration and improving authentication convenience. With this update, lab users will now have the option to have their devices automatically registered when launching a lab for the first time, eliminating the need for repetitive 2-factor authentication. This feature can be enabled in the SKillable Consumption Rules Engine, where Device Registration can be enforced for your entire organization, or a subset of lab series or lab profiles. 
 
 ## Table of Contents
 
@@ -57,7 +57,7 @@ In case you clear your browser cookies, or if you want to register a new device,
 * A new cookie will be placed in your browser, providing a fresh registration for your device. This new cookie will also contain a unique GUID identifier.
 
 
-## Simplified Device Registeration
+## Simplified Device Registration
 
 When you launch a lab for the first time, we will securely save your IP address and location data in our database. This information will enable faster lab launches in the future, saving you time and effort.
 
