@@ -57,7 +57,7 @@ For those that need to create a firewall exception rule to allow connectivity to
   - 163.47.101.0/25
   - 168.245.203.241 - 168.245.203.254
 
-Certain lab environments utilize GitHub; therefore, the following URL should be excepted: ```https://githubusercontent.com```
+Certain lab environments utilize GitHub; therefore, the following URL should be added as a firewall exception: ```https://githubusercontent.com```
 
 The Skillable Studio system is a cloud platform that automatically provisions and connects the learner with private sandboxed resources. There is no way to predict which IP address in the cloud the learner will connect to for the provisioning of their virtual machines. Therefore, we provide a range of IP addresses and only a second level domain name.
 
