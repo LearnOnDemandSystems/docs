@@ -64,7 +64,6 @@ If you encounter any issues or have questions related to the "Add Tenant ID Text
 *   Double-check that you are using the updated PowerShell module with the "Connect-AzAccount" cmdlet.
 *   If you still face difficulties, please reach out to our support team for assistance. They will be happy to help you resolve any problems or provide further guidance.
 
-## Conclusion
 
 Congratulations! You have successfully learned how to add your Azure tenant ID to the subscription pool and utilize it for script execution in your lab. By leveraging the "Add Tenant ID Text Entry to Subscription Pool" feature, you can seamlessly use the updated PowerShell module and execute scripts, improving the efficiency of your lab management.
 
