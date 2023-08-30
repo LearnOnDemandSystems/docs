@@ -75,6 +75,7 @@ A CSV file to add users to be imported is available on the Import User page. It 
 | Trainingkey | no | Subscription training key code to automatically assign a subscription upon user creation |
 
 [Valid time zone IDs](#valid_time_zone_ids)
+
 [Valid country codes](#valid_country_codes)
 
 Once uploaded the system will review the file for errors in the data and provide you with a list of errors it finds including the row and error found.
