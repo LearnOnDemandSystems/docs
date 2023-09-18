@@ -57,7 +57,7 @@ To create an Instruction Set:
 
 1. Select the language you wish the lab window text to be displayed in. 
 
-    >[note] Please note that selecting a language from this menu does not translate your lab instructions into that language. As a lab author, you must enter the lab instructions into the lab instruction editor, using the chosen language. 
+    >[!note] Please note that selecting a language from this menu does not translate your lab instructions into that language. As a lab author, you must enter the lab instructions into the lab instruction editor, using the chosen language. 
  
 1. Enter a **Lab Title** for the Instruction Set. This title will be displayed as the lab title in a launched lab. For more information, see [Setting the Displayed Lab Title Using Instruction Sets](#setting-the-displayed-lab-title-using-instruction-sets).
 
