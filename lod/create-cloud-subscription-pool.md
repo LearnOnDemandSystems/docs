@@ -45,12 +45,13 @@ To add a Cloud Subscription Pool to Skillable Studio , perform the following ste
    |**Application&nbsp;Id**|The identifier that uniquely identifies the client used to manage your cloud service subscription.|
    |**Application&nbsp;Secret**|The secret used to authenticate your client id in your cloud service subscription.|
 
-1. If you are configuring a cloud subscription pool for **AWS**, On the **Automation Tab**, assign values to **Number of Subscriptions** and **Subscription Name Prefix**.
+1. On the **Automation Tab**, assign values to **Number of Subscriptions** and **Subscription Name Prefix**. **Subscription Recycling** can be enabled for **Azure CSS Pools Only**
 
 |Field Name|Description|
    |----|----|
    |**Number&nbsp;Of&nbsp;Subscriptions**|For dedicated pools, subscriptions will be automatically created ahead of time. When this hapens, Skillable Studio  will create up to the number of subscriptions specified here. Please ensure that all limits on your account or subscription (set by the cloud host provider) are greater than or equal to the number entered here. For example, if your subscription limit or account limit is 20, you should not enter more than 20 in this field. |
    |**Subscription&nbsp;Name&nbsp;Prefix**|When subscriptions are created, the name of the subscription or account will start with this text.|
+   |**Enable Subscription Recycling**| When enabled, this option will clean the subscription and place it back into a ready state to be used for another lab launch. **Note**: any licenses associated with the subscription will remain and can be used in subsequent lab launches i.e. OpenAI licenses. 
 
 10. Click **Save** to create the Cloud Subscription Pool.
 
