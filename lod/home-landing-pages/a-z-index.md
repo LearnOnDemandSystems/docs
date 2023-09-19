@@ -210,17 +210,9 @@
         <div class="subtopic_title">Docker Support</div>
         <div class="subtopic_description">Supported Docker configurations.</div>
       </a>
-      <a class="subtopic_link" href="/lod/email-verification-workflow-for-two-factor-authentication-two-fa.md">
-        <div class="subtopic_title">Email Verification Workflow for 2FA</div>
-        <div class="subtopic_description">An enhanced email verification workflow for Two-Factor Authentication (2FA) on our platform.</div>
-      </a>
       <a class="subtopic_link" href="/guides/cloud-slice/aws/aws-cloud-slice-setup.md">
         <div class="subtopic_title">Enable Cloud Slice Support in AWS</div>
         <div class="subtopic_description">Setup process to enable cloud slice support in the AWS portal.</div>
-      </a>
-      <a class="subtopic_link" href="/lod/enforce-two-fa-when-ip-address-or-location-changes.md">
-        <div class="subtopic_title">Enforce 2FA When IP Address or Location Changes.</div>
-        <div class="subtopic_description">Enforce Two-Factor Authentication (2FA) when a lab user's IP address or location changes from their initial device registration.</div>
       </a>
       <a class="subtopic_link" href="/lod/excessive-lab-launch-times.md">
         <div class="subtopic_title">Excessive Lab Launch Times</div>
@@ -416,6 +408,10 @@
       <a class="subtopic_link" href="/lod/feature-focus/cloud-resource-templates/replacement-tokens.md">
         <div class="subtopic_title">Replacement Tokens</div>
         <div class="subtopic_description">Replacement tokens use the syntax &commat;lab.replacementTokenName. You can see the list of all &commat;lab replacement tokens available to your lab by simply editing the instructions, and clicking on the &commat;lab button.</div>
+      </a>
+      <a class="subtopic_link" href="/lod/auto-register-lab-user-devices-and-stores-cookie-and-ip-address-in-database.md">
+        <div class="subtopic_title">Require Device Registration for Advanced Lab Access Security</div>
+        <div class="subtopic_description">Automatically registers lab user devices and stores a cookie in their browser to streamline the lab experience, allowing subsequent lab launches without the need for repeated 2-factor authentication.</div>
       </a>
       <a class="subtopic_link" href="/lod/skillable-enhanced-account-security.md">
         <div class="subtopic_title">Skillable Enhanced Account Security</div>

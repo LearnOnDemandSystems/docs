@@ -30,6 +30,9 @@
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/reuse-search-settings-or-create-default-settings-on-search-pages.md">
         <div class="subtopic_title">How can I reuse search settings or create default settings on search pages?</div>
       </a>
+    <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/site-management.md">
+        <div class="subtopic_title">How can I manage the appearance and functions on my site?</div>
+      </a>
       <a class="subtopic_link" href="/tms/tms-administrators/tms-fundamentals/set-defaults.md">
         <div class="subtopic_title">How do I set defaults for my site?</div>
       </a>
