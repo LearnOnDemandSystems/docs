@@ -111,9 +111,6 @@
          <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/wrong-user-acct.md">
         <div class="subtopic_title">Where is my training?</div>
       </a>
-        <a class="subtopic_link" href="/tms/end-user-student-faqs/class-self-paced/challenge-lab-failed.md">
-        <div class="subtopic_title">What do I do if my Challenge lab failed to launch?</div>
-      </a>
         <a class="subtopic_link" href="/tms/end-user-student-faqs/basics/use-subscription-catalog.md">
         <div class="subtopic_title">How do I use the subscription catalog?</div>
       </a>
