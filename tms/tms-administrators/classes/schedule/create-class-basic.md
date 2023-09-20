@@ -29,8 +29,9 @@ Expand the **Session Times** section to set the dates and times for your class.
 1. Select the **End date and time** for your class
 1. Click **OK**.
 
-Expand the **Delivery** section to add your GoToMeeting access for your class.
-1. For Delivery Type select **Virtual**.
+Expand the **Delivery** section to add a physical and/or virtual classroom for your class.
+1. Delivery type defaults to **Physical** which allows you to schedule a physical classroom.
+2. If delivery is only virtual, select **Virtual**.
 1. A Virtual Meeting Host field appears with Custom Virtual Classroom as the selection and a URL field beside it. Input your streaming service's **meeting URL** in the URL field.
 
 Expand the Instructors section to create a user account for your instructor if it is needed and add them to the class. If your instructor is already in the Skillable TMS, skip to the Add Instructor instructions below.
