@@ -10,15 +10,16 @@ isPublished: true
 Custom fields are fields that you create just for your organization to track data that is not a standard part of the Skillable TMS. There are 6 different types of fields and they can be created for each of the following entities:
 - Courses
 - Classes
+- Class Enrollments
 - Users
 - Subscription Profiles
-- Tracks
 
-A unique relationship can be enabled between a custom field on a course and a class. You can set course custom fields to cascade down to be used on the classes using the course. The field cascades but not the data. This explained fully in the [How do I cascade a course custom field to classes?]() article.
+Here are several items to note for our custom fields:
+* A unique relationship can be enabled between a custom field on a course and a class. You can set course custom fields to cascade down to be used on the classes using the course. The field cascades but not the data. This explained fully in the [How do I cascade a course custom field to classes?]() article.
+* Class custom fields take cloned classes into consideration. You can set the data from a class custom field to be included in the new class when the original class is cloned. This option can be a filter and/or output option on the Find Custom Fields page. In addition, class custom fields are displayed as columns on the Class History page if they have data in them.
+* Class Enrollment custom fields cannot be required. When creating enrollments through the roster or from the Create Multiple Enrollment page data cannot be entered into the custom field, each enrollment must be edited individually to enter data into a custom field.
 
-Class custom fields take cloned classes into consideration. You can set the data from a class custom field to be included in the new class when the original class is cloned. This option can be a filter and/or output option on the Find Custom Fields page. In addition, class custom fields are displayed as columns on the Class History page if they have data in them.
-
-Permissions are required to create, view, and edit these fields. Once they are created, they are visible on the Create and Edit pages of the entities.
+Permissions are required to create, view, and edit these fields. Once fields are created, they are visible on the Create and Edit pages of the entities and Find pages include filters and output options for them.
 
 The 6 types of custom fields are:
 - **Text Box** – plain text. You set the maximum character limit.
