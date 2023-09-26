@@ -7,40 +7,52 @@ isPublished: true
 
 > Please be aware that not all functionality covered in this and the linked articles may be available to you.
 
-Custom fields are very useful when you need to track data that is not part of the standard Skillable TMS. The fields can be created for the following entities: courses, classes, users, subscription profiles, and tracks. 
+Custom fields are very useful when you need to track data that is not part of the standard Skillable TMS. The fields can be created for the following entities: courses, classes, users, subscription profiles, and class enrollments. 
 
-> :small_blue_diamond: Because of the complexity and flexibility of custom fields, it is HIGHLY recommended that before you create any custom field in the production Skillable TMS environment, you test them with all affected roles in our Skillable TMS ACC environment to ensure they work as expected and do not block creation or editing of entities. To be set up in our ACC environment, please submit a support ticket from our [Customer Support](https://www.learnondemandsystems.com/customer-support/) page.
+> :small_blue_diamond: Because of the complexity and flexibility of custom fields, it is HIGHLY recommended that before you create any custom field in the production Skillable TMS environment, you test them with all affected roles to ensure they work as expected and do not block creation or editing of entities.
 
+### Article contents
+* [Create a custom field](#create-a-custom-field)
+* [Set custom field Availability](#set-custom-field-availability)
+* [Set User Role Restrictions](#set-user-role-restrictions)
+* [Text Box Specific Options](#text-box-specific-options)
+* [Dropdown List Specific Options](#dropdown-list-specific-options)
+* [Number Specific Option](#number-specific-option)
+* [User Selector](#user-selector)
+
+## Create a custom field
 To begin to create any custom field:
-1. On the **Admin** menu in the appropriate entity's group, click **"X" Custom Fields**. 
-1. On the **Find "X" Custom Fields** page, click **Create Custom Field**.
+1. On the **Admin** menu in the appropriate entity's group, for example, for the Class entity, click **Class Custom Fields**. 
+1. On the **Find Custom Fields** page, click **Create Custom Field**.
 
 The **Basic Information** tab has the main options that control the field. There are common options that every field has and there are some options that will only appear depending on the type of field chosen. These are explained in sections for the appropriate types.
 
 To complete the common options:
-1. Set the **Name** for the field. This will be used as it's label.
-1. Set an optional **Description**. This description can be used as a filter to search for a custom field on the search page, can be seen under the name of the custom field when the Description output option is selected, and will be displayed on the custom field's profile page.
-1. Set an optional **Tool Tip**. This will be visible to a user when they hover over the question mark next to the custom field on the entity's Create or Edit page. The tool tip is limited to 800 characters.
-1. The Organization field will automatically be filled in using your organization. Click **Choose** to change to another organization you manage, if needed.
-1. The Entity field will be set to the entity from which you accessed the Create Custom Field page. Click the dropdown to select one of the other entities, if needed.
+1. **Name** - the field's, this will be used as it's label.
+1. **Description** - optional field, a description can be used as a filter to search for a custom field on the search page, can be seen under the name of the custom field when the Description output option is selected, and will be displayed on the custom field's profile page.
+1. **Tool Tip** - optional field, content of this field is visible to a user when they hover over the question mark next to the custom field on the entity's Create or Edit page. The tool tip is limited to 800 characters.
+1. **Organization** - automatically filled in using your organization. Click **Choose** to change to another organization you manage, if needed.
+1. **Entity** - defaults to the entity from which you accessed the Create Custom Field page. Click the dropdown to select one of the other entities, if needed.
     1. If you selected **Class** as the **Entity**, set whether the data in the field for a class will be included if the class is cloned. 
-1. Click the **Type** dropdown to select the type of data the field will hold. 
-1. From the **Display Group** dropdown, select where the field will be visible on the entity. The choices on the dropdown will change depending on the entity for which the field is being built.
+1. **Type** - a dropdown menu to select the type of data the field will hold. 
+1. **Display Group** -  a dropdown menu, select where the field will be visible on the entity. The choices on the dropdown will change depending on the entity for which the field is being built.
     1. If you choose **Other**, type a name. This will create a new tab or group with that name on the entity.
-1. Set the **Sort Order**. This determines the order the custom fields are displayed within their groups. All custom fields displayed on standard tabs or groups will be displayed after the standard fields on that tab or group.
-1. Uncheck **Enabled** if you do not want to use the field currently.
-1. Check **Required**, if needed. This blocks saving the entity if the field is empty. This option is not available on Checkbox or Checkbox List field types.
+1. **Sort Order** - this determines the order the custom fields are displayed within their groups. All custom fields displayed on standard tabs or groups will be displayed after the standard fields on that tab or group.
+1. **Enabled** - setting is used to enable or disable the field.
+1. **Required** - blocks saving the entity if the field is empty. This option is not available for Class enrollment custom fields or for Checkbox or Checkbox List field types.
 
+## Set custom field Availability
 The **Availability** tab sets the organizations that can use the field. Your organization is added by default. Click **Add Organizations** to add other organizations you manage to allow them to use the field. 
 
-The **User Role Restrictions** tab allows you to restrict who can view and/or edit the field. You select the roles for whom you want to grant access. When user roles are added, users who only have roles that are not listed will not be able to view and/or edit the field. **Warning** If you set user role restrictions on a field and mark the field required, users without the restricted roles, who otherwise may be able to create or edit the entity, will be blocked from saving the entity if they are unable to edit the field.
-
+## Set User Role Restrictions
+The **User Role Restrictions** tab allows you to restrict who can view and/or edit the field. You select the roles for user types you want to grant access. When user roles are added, users who have roles that are listed will be able to view and/or edit the field. **Warning** If you set user role restrictions on a field and mark the field required, users without the restricted roles, who otherwise may be able to create or edit the entity, will be blocked from saving the entity if they are unable to edit the field.
 
 1. To restrict who can see the field on the entity, 
     1. Check **Restrict visibility to specific user roles**,
     1. Click **Add User Roles**,
     1. From the **Choose User Role** dialog, select the role(s).
 1. To restrict who can edit the field on the entity, check **Restrict editing to specific user roles** and follow the steps above.
+
 
 ## Text Box Specific Options
 
