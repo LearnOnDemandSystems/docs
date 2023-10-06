@@ -26,12 +26,13 @@ To set your defaults:
 * [Miscellaneous Settings](#miscellaneous-settings)
 
 ## Business Settings
-You can set the days and times your organization is open, this displays when any user views your organization profile.
+You can set the days and times your organization is open, this displays when any user views your organization profile. Input SMTP settings which applys to your notification plans to authorize Skillable to send notification emails as another domain to stop spam filters from triggering because of mismatched email headers.
 
 * **First Day of Work Week** - Set the first day of your normal work week
 * **Week Days** - Set the open and close times for your organization by selecting a day and select times from the Hour and Minute chart as well as either AM or PM
 * **Microsoft Partner Id** - Input your Microsoft Partner ID
 * **Microsoft Campaign Code** - Add your Microsoft Campaign Code
+* **Use Custom SMTP (Simple Mail Transfer Protocol) Settings for Notifications** - Enable the use of your organization's SMTP settings to deliver your email notifications without spoofing. You will need to provide your own **SMTP Host Address**, **SMTP Port**, **SMTP Username**, and **SMTP Password**
 
 [Return to Article contents](#article-contents)
 
