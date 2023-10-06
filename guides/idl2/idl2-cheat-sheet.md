@@ -56,12 +56,12 @@
 | Sections |`:::sectionName(variableName=variableValue)`
 || `section text or markdown elements`
 ||`:::`
+|<BR> | |
 | Knowledge Block        | `>[!knowledge] Knowledge blocks help students learn more` |
 | Alert Block            | `>[!alert] Alert blocks draw attention to important issues!` | 
 | Note Block             | `>[!note]`                              |
 | Help Block             | `>[!help]`                              |
 | Hint Block             | `>[!hint]`                              |
-|<BR> | |
 
 **Expandable Block:**  
 
