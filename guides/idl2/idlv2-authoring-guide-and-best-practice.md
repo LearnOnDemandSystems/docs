@@ -792,6 +792,54 @@ It's also possible to simply supply the width: {width}. In this case, the height
   
     > ![](images/note-block.png "Note Block")
 
+- **Expandable Alert Block:** an expandable block used to draw attention to important issues, such as showing additional information or steps that the student may need complete to avoid other issues. Some of the information shown in this block can be hidden from view until the block is expanded.
+
+    > \> [+alert] Your alert text here.
+    > 
+    > \> 
+    > 
+    > \> More of your alert goes here.
+    >
+    > ![](images/expandable-alert-collapsed.png "Expandable Alert Block Collapsed")
+    >
+    > ![](images/expandable-alert-expanded.png "Expandable Alert Block Expanded")
+
+- **Expandable Hint Block:** an expandable block used to provide a hint for the for the section of the lab that the student is working on. Some of the information shown in this block can be hidden from view until the block is expanded.
+
+    > \> [+hint] hint text here.
+    > 
+    > \> 
+    > 
+    > \> More of your hint goes here.
+    >
+    > ![](images/expandable-hint-block-collapsed.png "Expandable Hint Block Collapsed")
+    >
+    > ![](images/expandable-hint-block-expanded.png "Expandable Hint Block Expanded")
+
+- **Expandable Help Block:** an expandable block used to provide help, such as showing additional about the section of the lab that the student is working on. Some of the information shown in this block can be hidden from view until the block is expanded.
+
+    > \> [+help] help text here.
+    > 
+    > \> 
+    > 
+    > \> More of your help goes here.
+    >
+    > ![](images/expandable-help-block-collapsed.png "Expandable Help Block Collapsed")
+    >
+    > ![](images/expandable-help-block-expanded.png "Expandable Help Block Expanded")
+
+- **Expandable Note Block:** an expandable block used to provide additional information, similar to a knowledge block. Some of the information shown in this block can be hidden from view until the block is expanded. 
+
+    > \> [+NOTE] note text here.
+    > 
+    > \> 
+    > 
+    > \> More of your note goes here.
+    >
+    > ![](images/expandable-note-block-collapsed.png "Expandable Note Block Collapsed")
+    >
+    > ![](images/expandable-note-block-expanded.png "Expandable Note Block Expanded")
+    
 - **Sections:** used to group lab instructions and elements together so they may be called up on and manipulated as one. This is done by assigning a lab variable that has been set via LCA, ABA, an IDLx textbox  or an IDLx drop-down menu.
 
     > :::sectionName(variableName=variabelValue)
