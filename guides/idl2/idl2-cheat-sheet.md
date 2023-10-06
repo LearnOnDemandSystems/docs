@@ -94,9 +94,9 @@ Expandable Note Block:
 
 Sections 
 ```
-:::sectionName(variableName=variableValue)
+\:::sectionName(variableName=variableValue)
 section text or markdown elements`
-:::
+\:::
 ```
 ---
 
