@@ -65,46 +65,36 @@
 
 **Expandable Block:**  
 
-    > \> [+] The title is here
+    >[+] The title is here
     > 
-    > \> 
-    > 
-    > \> More of your summary goes here.
+    > More of your summary goes here.
 
 
 **Expandable Alert Block:** 
 
-    > \> [+alert] Your alert text here.
+    >[+alert] Your alert text here.
     > 
-    > \> 
-    > 
-    > \> More of your alert goes here.
+    > More of your alert goes here.
 
 
 **Expandable Hint Block:**
 
-    > \> [+hint] hint text here.
+    >[+hint] hint text here.
     > 
-    > \> 
-    > 
-    > \> More of your hint goes here.
+    > More of your hint goes here.
 
 **Expandable Help Block:** 
 
-    > \> [+help] help text here.
+    >[+help] help text here.
     > 
-    > \> 
-    > 
-    > \> More of your help goes here.
+    > More of your help goes here.
 
 
 **Expandable Note Block:** 
 
-    > \> [+NOTE] note text here.
+    >[+NOTE] note text here.
     > 
-    > \> 
-    > 
-    > \> More of your note goes here.
+    > More of your note goes here.
     
 ---
 
