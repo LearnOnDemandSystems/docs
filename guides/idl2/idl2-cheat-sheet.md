@@ -53,10 +53,6 @@
 | Copyable and Type Text         | `++++Copyable and Type text++++`|
 | Replacement Token | `click the @ lab toolbar button ` |
 | Embed YouTube video | `!video[text to display](url)` (URLs from YouTube.com auto embed)               |
-| Sections |`:::sectionName(variableName=variableValue)`
-|| `section text or markdown elements`
-||`:::`
-|<BR> | |
 | Knowledge Block        | `>[!knowledge] Knowledge blocks help students learn more` |
 | Alert Block            | `>[!alert] Alert blocks draw attention to important issues!` | 
 | Note Block             | `>[!note]`                              |
@@ -96,12 +92,13 @@ Expandable Note Block:
     > 
     > More of your note goes here.
 
-Sections 
-```
-\:::sectionName(variableName=variableValue)
-section text or markdown elements`
-\:::
-```
+Sections
+
+<pre><code title="Copy to clipboard" class="prettyprint prettyprinted" style=""><span class="lit">:::sectionName(variableName=variableValue)</span>
+<span class="pun"></span><span class="typ">section text or markdown elements</span>
+<span class="pun">(</span><span class="pln">:::</span><span class="pun">)</span></code></pre>
+
+
 ---
 
 <font size="3">**Variables**</font>
