@@ -46,26 +46,7 @@
 | Image Dimensions  | `![](image url){widthXheight}` or `{width}` (height will be calculated automatically) |
 |<BR> | |
  |<font size="3">**Special**</font>|                                          |
-| Knowledge Block        | `>[!knowledge] Knowledge blocks help students learn more` |
-| Alert Block            | `>[!alert] Alert blocks draw attention to important issues!` | 
-| Note Block             | `>[!note]`                              |
-| Help Block             | `>[!help]`                              |
-| Hint Block             | `>[!hint]`                              |
-| Expandable Block       | `>[+] The title/summary is here`
-||`>` 
-||`> More of your title/summary goes here`
-| Expandable Alert Block       | `>[+alert] Your alert goes here`
-||`>` 
-||`> More of your alert goes here`
-| Expandable Note Block       | `>[+note] Your note goes here`
-||`>` 
-||`> More of your note goes here`
-| Expandable Help Block       | `>[+help] Your help goes here`
-||`>` 
-||`> More of your help goes here`
-| Expandable Hint Block       | `>[+hint] Your hint goes here`
-||`>` 
-||`> More of your hint goes here`
+|||
 | Include           | `!instructions[](url)`                |
 | Copyable Text     | `++copyable text++`                      |
 | Type Text         | `+++Type text+++`                      |
@@ -75,8 +56,56 @@
 | Sections |`:::sectionName(variableName=variableValue)`
 || `section text or markdown elements`
 ||`:::`
+| Knowledge Block        | `>[!knowledge] Knowledge blocks help students learn more` |
+| Alert Block            | `>[!alert] Alert blocks draw attention to important issues!` | 
+| Note Block             | `>[!note]`                              |
+| Help Block             | `>[!help]`                              |
+| Hint Block             | `>[!hint]`                              |
 |<BR> | |
 
+**Expandable Block:**  
+
+    > \> [+] The title is here
+    > 
+    > \> 
+    > 
+    > \> More of your summary goes here.
+
+
+**Expandable Alert Block:** 
+
+    > \> [+alert] Your alert text here.
+    > 
+    > \> 
+    > 
+    > \> More of your alert goes here.
+
+
+**Expandable Hint Block:**
+
+    > \> [+hint] hint text here.
+    > 
+    > \> 
+    > 
+    > \> More of your hint goes here.
+
+**Expandable Help Block:** 
+
+    > \> [+help] help text here.
+    > 
+    > \> 
+    > 
+    > \> More of your help goes here.
+
+
+**Expandable Note Block:** 
+
+    > \> [+NOTE] note text here.
+    > 
+    > \> 
+    > 
+    > \> More of your note goes here.
+    
 ---
 
 <font size="3">**Variables**</font>
