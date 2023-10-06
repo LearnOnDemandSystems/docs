@@ -53,49 +53,51 @@
 | Copyable and Type Text         | `++++Copyable and Type text++++`|
 | Replacement Token | `click the @ lab toolbar button ` |
 | Embed YouTube video | `!video[text to display](url)` (URLs from YouTube.com auto embed)               |
-| Sections |`:::sectionName(variableName=variableValue)`
-|| `section text or markdown elements`
-||`:::`
-|<BR> | |
 | Knowledge Block        | `>[!knowledge] Knowledge blocks help students learn more` |
 | Alert Block            | `>[!alert] Alert blocks draw attention to important issues!` | 
 | Note Block             | `>[!note]`                              |
 | Help Block             | `>[!help]`                              |
 | Hint Block             | `>[!hint]`                              |
 
-**Expandable Block:**  
+Expandable Block:  
 
     >[+] The title is here
     > 
     > More of your summary goes here.
 
 
-**Expandable Alert Block:** 
+Expandable Alert Block: 
 
     >[+alert] Your alert text here.
     > 
     > More of your alert goes here.
 
 
-**Expandable Hint Block:**
+Expandable Hint Block:
 
     >[+hint] hint text here.
     > 
     > More of your hint goes here.
 
-**Expandable Help Block:** 
+Expandable Help Block:
 
     >[+help] help text here.
     > 
     > More of your help goes here.
 
 
-**Expandable Note Block:** 
+Expandable Note Block:
 
     >[+NOTE] note text here.
     > 
     > More of your note goes here.
-    
+
+Sections 
+```
+:::sectionName(variableName=variableValue)
+section text or markdown elements`
+:::
+```
 ---
 
 <font size="3">**Variables**</font>
