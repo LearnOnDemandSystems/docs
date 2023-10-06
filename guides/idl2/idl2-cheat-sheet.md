@@ -51,6 +51,21 @@
 | Note Block             | `>[!note]`                              |
 | Help Block             | `>[!help]`                              |
 | Hint Block             | `>[!hint]`                              |
+| Expandable Block       | `>[+] The title/summary is here`
+||`>` 
+||`> More of your title/summary goes here`
+| Expandable Alert Block       | `>[+alert] Your alert goes here`
+||`>` 
+||`> More of your alert goes here`
+| Expandable Note Block       | `>[+note] Your note goes here`
+||`>` 
+||`> More of your note goes here`
+| Expandable Help Block       | `>[+help] Your help goes here`
+||`>` 
+||`> More of your help goes here`
+| Expandable Hint Block       | `>[+hint] Your hint goes here`
+||`>` 
+||`> More of your hint goes here`
 | Include           | `!instructions[](url)`                |
 | Copyable Text     | `++copyable text++`                      |
 | Type Text         | `+++Type text+++`                      |
