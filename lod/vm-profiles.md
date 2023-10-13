@@ -144,6 +144,12 @@ traditional ESX allows the control of physical CPU sockets and number of CPU cor
 
     - **Machine Type**: Select Azure SKU for the machine type that the VM will use. For more information about Azure virtual machines, read [Sizes for Windows Virtual Machines in Azure](https://docs.microsoft.com/en-us/azure/virtual-machines/windows/sizes).
 
+    - **Disk Type**: Select the disk type that the VM will use. 
+
+    - **Use Image Library**: Select this option to use a VM from the Azure Compute Gallery. For more information, read our [Azure Compute Gallery documentation](/lod/azure-shared-image-gallery-vm.md). 
+
+    - **Enable Hybrid Benefit**: Azure Hybrid Benefit for Windows Server allows you to use your on-premises Windows Server licenses and run Windows virtual machines on Azure at a reduced cost. You can use Azure Hybrid Benefit for Windows Server to deploy new virtual machines with Windows OS.
+
     - **Operating System**: Enter the operating system that the VM profile will use.
 
     - **Username**: Enter a username for the VM.
@@ -237,5 +243,11 @@ Available channels include:
 ### Internal Notes
 
 This area is used to record notes, or additional information about the VM. This is useful if the VM has specific configurations, or if there are multiple users/authors that use the VM.
+
+### Related Topics 
+
+- [Docker Container Support](/lod/docker.md): describes support for creating Docker container images.
+
+- [Azure Compute Gallery](/lod/azure-shared-image-gallery-vm.md): describes support for creating an Azure hosted virtual machine, using Azure Compute Gallery. 
 
 [Back to top](#virtual-machine-profiles)
