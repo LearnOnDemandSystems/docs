@@ -22,14 +22,14 @@ Once you have an Adobe Connect contract you will need to send our help desk the 
 
 ## Zoom Integrated Meeting Host Setup
 
-To integrate Zoom into the Skillable TMS, you will need a licensed Zoom account, set up a JSon Web Token (JWT) in Zoom, and send some information to our help desk for set up in the TMS. Once you have decided on a Zoom plan and have an account, you will need to set up a JWT app, this lets Zoom and the Skillable TMS communicate. Follow the instructions below to create the JWT app and send us the API key, API secret, and the email of a licensed user. 
+To integrate Zoom into the TMS, you will need a licensed Zoom account, set up an integration application in Zoom, and then send some information to our help desk for set up in the TMS. Once you have decided on a Zoom plan and have an account, you will need to set up the Server-to-Server OAuth app, this lets Zoom and the TMS communicate. Follow the instructions below to create the Server-to-Server OAuth app and send us the Account ID, Client ID, Client Secret, and the email of a licensed user.
 
 Go to the [Zoom App Marketplace.](https://marketplace.zoom.us/) 
 
 1.	From the **Develop** menu, select **Build App**
-1.	This opens a **Choose your app type** page, on the **JWT** tile click **Create**.
+1.	This opens a **Choose your app type** page, on the **Server-to-Server OAuth** tile click **Create**.
 1.	Fill out the information to create the app
-1.	To set up Zoom, we will need your **API Key** and **API Secret**. We also need the **email of a licensed Zoom user** to verify the set up.  [Click here to request a Skillable TMS/Zoom integration.](https://supportrequest.learnondemandsystems.com/form-4500904/support-request) 
+1.	To set up Zoom, we will need your **Account ID**, **Client ID** and **Client Secret**. We also need the **email of a licensed Zoom user** to verify the set up.  [Click here to request a Skillable TMS/Zoom integration.](https://supportrequest.learnondemandsystems.com/form-4500904/support-request) 
   
 The integration will be broken if you regenerate the API Secret after the integration is set up.
 
