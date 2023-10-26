@@ -96,7 +96,7 @@ Sections
 
 <pre><code title="Copy to clipboard" class="prettyprint prettyprinted" style=""><span class="lit">:::sectionNamevariableName=variableValue</span>
 <span class="pun"></span><span class="typ">section text or markdown elements</span>
-<span class="pun">(</span><span class="pln">:::</span><span class="pun">)</span></code></pre>
+<span class="pun"></span><span class="pln">:::</span><span class="pun"></span></code></pre>
 
 
 ---
