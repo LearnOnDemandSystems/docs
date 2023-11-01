@@ -8,10 +8,9 @@ isPublished: true
 
 This feature is only available for labs that are launched through an **Exam-configured API Consumer**. 
 
-Student Desktop Recording allows the Hyper-V or Azure Virtualization RDP session between the lab user and the lab to be captured in a video that can be used to view the lab user's activity in the lab after the lab has ended. When a lab user launches a lab, the RDP session will begin recording after the virtual machine (VM) connects. After the lab has ended, a video only recording of the lab activity will be saved to the user's lab instance details page for that session. **RDP recordings of the lab session do not capture audio**. 
+Student Desktop Recording allows the RDP session between the lab user and the lab to be captured in a video that can be used to view the lab user's activity in the lab after the lab has ended. When a lab user launches a lab, the RDP session will begin recording after the virtual machine (VM) connects. After the lab has ended, a video only recording of the lab activity will be saved to the user's lab instance details page for that session. **RDP recordings of the lab session do not capture audio**. 
 
->[!alert] **This feature is in beta and there are some [known issues and limitations](#known-issues-and-limitations).**
-
+In this Article:
 - [Enabling Student Desktop Recording](#enabling-student-desktop-recording)
     - [Enabling For the Organization](#enabling-for-the-organization)
     - [Enabling On a Lab profile](#enabling-on-a-lab-profile)
@@ -35,17 +34,17 @@ Once Student Desktop Recording is enabled for a lab profile, any user that launc
 
 To enable a lab profile: 
 
-1. Navigate to the lab profile. 
+1. Navigate to the **lab profile**. 
 
-1. Edit the lab profile. 
+1. **Edit** the lab profile. 
 
-1. Go to the Advanced tab. 
+1. Go to the **Advanced** tab. 
 
-1. Click the checkbox next to _Record RDP Session_ to enable RDP session recording. 
+1. Click the **checkbox** next to _Record RDP Session_ to enable RDP session recording. 
 
     ![Record RDP Session](images/record-rdp-session.png)
 
-1. Save the lab profile. 
+1. **Save** the lab profile. 
 
 When lab users launch the lab, their session will be recorded and saved to their lab instance. 
 
@@ -55,7 +54,7 @@ Lab session recordings can be viewed from the lab instance page for the lab sess
 
 ### View Session Recordings From a Particular Lab Profile
 
-1. Navigate to the lab profile. 
+1. Navigate to the **lab profile**. 
 
 1. Click _Find Lab Instances_ at the top of the page. 
 
@@ -75,7 +74,7 @@ Lab session recordings can be viewed from the lab instance page for the lab sess
 
 1. Click the recording and it will load into the video player. 
 
-1. Click Play to start playback of the recording. 
+1. Click **Play** to start playback of the recording. 
 
 ### View Session Recordings for a Particular User
 
@@ -97,7 +96,7 @@ Lab session recordings can be viewed from the lab instance page for the lab sess
 
 1. Click the recording and it will load into the video player. 
 
-1. Click Play to start playback of the recording. 
+1. Click **Play** to start playback of the recording. 
 
 ## Download Recordings
 
@@ -141,8 +140,7 @@ If you would like to download a copy of the lab instance recording for archival 
 
 
 **Known Limitations**
-
-- RDP session recording is not available on ESX labs. It is only available for Hyper-V based labs. 
+ 
 - Video playback is only available on https://labondemand.com 
 - The recording can be downloaded but cannot be retrieved via API. 
 - Periods of inactivity in the VM session may not be captured in the recording.
