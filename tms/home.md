@@ -91,7 +91,7 @@ aria-hidden="true">assignment</i>
   <!-- Begin instructor categories section.. -->
      <div class="moreInfo" tabindex="0" title="Featured">
       <span class="moreInfo_header">Featured</span>
-      Interested in learning about your Instructor Dashboard? Read our <a href=""/tms/instructors/general/instructordashboard.md">What is the Instructor Dashboard?</a> article.
+      Interested in learning about your Instructor Dashboard? Read our <a href="/tms/instructors/general/instructordashboard.md">What is the Instructor Dashboard?</a> article.
         </div> 
     <div class="cardsContainer">
     <div class="cardContainer">
