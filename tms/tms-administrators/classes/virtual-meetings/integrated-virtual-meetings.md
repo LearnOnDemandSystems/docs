@@ -22,7 +22,9 @@ Once you have an Adobe Connect contract you will need to send our help desk the 
 
 ## Zoom Integrated Meeting Host Setup
 
-To integrate Zoom into the TMS, you will need a licensed Zoom account, set up an integration application in Zoom, and then send some information to our help desk for set up in the TMS. Once you have decided on a Zoom plan and have an account, you will need to set up the Server-to-Server OAuth app, this lets Zoom and the TMS communicate. Follow the instructions below to create the Server-to-Server OAuth app and send us the Account ID, Client ID, Client Secret, and the email of a licensed user.
+To integrate Zoom into the TMS, you will need a licensed Zoom account, set up an integration application in Zoom, and then send some information to our help desk for set up in the TMS. Once you have decided on a Zoom plan and have an account, you will need to set up the Server-to-Server OAuth app, this lets Zoom and the TMS communicate. Before setting up your OAuth application in Zoom, some permission settings need to be enabled for it to work, [Zoom Server-to-Server OAuth app permissions set up](https://developers.zoom.us/docs/internal-apps/#enable-permissions).
+
+Follow the instructions below to create the Server-to-Server OAuth app and send us the Account ID, Client ID, Client Secret, and the email of a licensed user.
 
 Go to the [Zoom App Marketplace.](https://marketplace.zoom.us/) 
 
