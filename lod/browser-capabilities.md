@@ -17,7 +17,8 @@ There are some specific situations when your web browser may not function optima
 - [Using macOS](#using-macos)
   - [Monitoring a lab with Google Chrome Browser on macOS](#monitoring-a-lab-with-google-chrome-browser-on-macos)
   - [Using a Danish Keyboard Layout](#using-a-danish-keyboard-layout)
-- [Firefox Browser and Labs using ESX Fabric](#firefox-browser-and-labs-using-esx-fabric)
+  - [Firefox Browser and Labs using ESX Fabric](#firefox-browser-and-labs-using-esx-fabric)
+  - [Using Windows or Linux-based Virtual Machine with macOS](#using-windows-or-linux-based-virtual-machine-with-macos)
 
 ## Web Browser Extensions
 
