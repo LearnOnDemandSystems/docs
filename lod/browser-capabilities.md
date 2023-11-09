@@ -17,7 +17,8 @@ There are some specific situations when your web browser may not function optima
 - [Using macOS](#using-macos)
   - [Monitoring a lab with Google Chrome Browser on macOS](#monitoring-a-lab-with-google-chrome-browser-on-macos)
   - [Using a Danish Keyboard Layout](#using-a-danish-keyboard-layout)
-- [Firefox Browser and Labs using ESX Fabric](#firefox-browser-and-labs-using-esx-fabric)
+  - [Firefox Browser and Labs using ESX Fabric](#firefox-browser-and-labs-using-esx-fabric)
+  - [Using Windows or Linux-based Virtual Machine with macOS](#using-windows-or-linux-based-virtual-machine-with-macos)
 
 ## Web Browser Extensions
 
@@ -52,3 +53,7 @@ If an @ symbol must be typed, it is recommended to use the paste functionality o
 ## Firefox Browser and Labs using ESX Fabric
 
 In some cases, the Firefox browser can cause repeating characters when typing in a lab that is using the ESX lab fabric.
+
+## Using Windows or Linux-based Virtual Machine with macOS
+
+When using a Windows-based virtual machine on a computer running macOS, the Command key may need to be used instead of the Control key in some scenarios. If the Control key is not functioning as expected, please try using the Command key instead. 
