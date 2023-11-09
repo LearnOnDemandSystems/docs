@@ -107,4 +107,4 @@ The table below lists the replacement tokens that are available to use in Skilla
    >|`@lab.EssayTextBox(name)[height]`	|A larger essay style text box that can hold up to 5000 characters. **Height in number of lines declared by [height] is optional**. This variable value can then be displayed elsewhere using `@lab.Variable(name)`.|
    >|`@lab.LanguageName`| The name of the language used in the instruction set. Example: English.
    >|`@lab.LanguageCode`| The language code of the language used in the instruction set. Example: en.
-   >|`@lab.LanguageName`| The region code of the language used in the instruction set. Example: en/US.
+   >|`@lab.LanguageRegionCode`| The region code of the language used in the instruction set. Example: en-US.
