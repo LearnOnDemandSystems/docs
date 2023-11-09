@@ -52,3 +52,7 @@ If an @ symbol must be typed, it is recommended to use the paste functionality o
 ## Firefox Browser and Labs using ESX Fabric
 
 In some cases, the Firefox browser can cause repeating characters when typing in a lab that is using the ESX lab fabric.
+
+## Using Windows or Linux-based Virtual Machine with macOS
+
+When using a Windows-based virtual machine on a computer running macOS, the Command key may need to be used instead of the Control key in some scenarios. If the Control key is not functioning as expected, please try using the Command key instead. 
