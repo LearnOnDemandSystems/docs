@@ -1,0 +1,1 @@
+This folder contains documents for Project GetWell.
