@@ -1,6 +1,6 @@
 ---
 title: Reset or Change Your Skillable Password
-published: false
+published: false 
 ---
 
 # Reset or Change Your Skillable Password
