@@ -8,6 +8,7 @@ can use to make an API request using the Skillable Studio and TMS REST APIs.
 - [How to Make an API Request](#topic-one)
     - [API Request Format](#subtopic-one-one)
 - [API Testing Tools](#topic-three)
+- [Next Steps](#topic-four)
 
 This article will highlight some of the methods you can use to make an API request as well as highlight the API request format. Also covered in this article is some of the tools that you can use when developing and testing your API requests.
 
