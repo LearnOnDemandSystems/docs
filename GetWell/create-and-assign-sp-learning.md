@@ -1,6 +1,6 @@
 ---
 title: "Create and assign self-paced learning for a single course"
-isPublished: false
+isPublished: false 
 ---
 # Create and assign self-paced learning for a single course
 TMS administrators can use course assignments to provide access to learners to self-paced learning for a single course and access to take any labs contained within the course. 
