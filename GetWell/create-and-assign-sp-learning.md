@@ -151,6 +151,7 @@ A Training key pool key is used for individual self-paced course assignments and
 1.	Optional: Select the box next to **Make these keys available to everyone using [Organization name]** to allow keys in this pool to be used by child organizations within the parent organization that owns this pool.
 
 **Add your keys**
+
 Switch to the Training Keys tab. Here, you have three options:
 * Manually enter each individual key by clicking **Add Training Key**.
 * Click **Add Multiple Training Keys** to paste your training keys, one per line, in the pop-up dialog.
