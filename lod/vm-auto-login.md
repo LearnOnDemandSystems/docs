@@ -1,32 +1,35 @@
 ---
-title: "Automatic Login for Windows Virtual Machines"
+title: "Configure Virtual Machines to log in to Windows automatically"
 description: "Configure a Windows virtual machine to log in automatically without the need to enter a username and password."
 isPublished: true
 ---
+## Improve the learner & candidate experience by automatically logging into VMs when a lab is launched
 
-# Virtual Machine Automatic Login 
+### Description
+Learn how to configure VMs to automatically log in to Windows
+ - Lab Builders can configure Virtual Machines to automatically log in to Windows, making the experience of the learner easier and more seamless
+ - Any Lab Builder who wants to wants to avoid having learners log in to the VM manually can set up their VMs to log in automatically
+ - The steps to configure automatic login differ depending on the virtualization fabric and remote controller used in the lab.
 
-Virtual machines (VMs) can be configured to log into Windows automatically when the VM is booted. The steps to configure automatic login are different, 
-depending on the virtualization fabric and remote controller that is used.
-
-#### ESX 
-
-- Automatic login is configured using the Netplwiz utility built into Windows.
-
-#### Hyper-V 
-
-- For Hyper-V labs that **do not use Enhanced Session Mode (ESM)**, automatic login is configured using the Netplwiz utility built into Windows.
-
-- For Hyper-V labs that **use ESM**, Windows Registry and Group Policy must be configured to enable automatic login. 
-
-## Table of Contents
-- [Configuring Netplwiz](#configuring-netplwiz)
+## In this Article:
+- [Configuring ESX VMs for automatic login](#configuring-esx)
+    -  [Configuring Netplwiz](#configuring-netplwiz)
 - [Configuring Automatic Login for Hyper-V and Enhanced Session Mode](#configuring-automatic-login-for-hyper-v-and-enhanced-session-mode)
   - [Disable Limit Local Accounts use of Blank Passwords](#disable-limit-local-accounts-use-of-blank-passwords)
   - [Disable Password Complexity Requirements](#disable-password-complexity-requirements)
   - [Set a Blank Password via PowerShell](#set-a-blank-password-via-powershell)
   - [Edit Windows Registry](#edit-windows-registry)
   - [Configuring Other ESM VMs in the Lab](#configuring-other-esm-vms-in-the-lab)
+
+### Required Permissions
+
+This feature requires the following permissions. If you do not have access to this feature, please reach out to our customer support team for assistance.
+
+- *Lab Profile and VM Management*
+
+# Configuring ESX VMs for automatic login
+
+Automatic login is configured using the Netplwiz utility built into Windows
 
 ## Configuring Netplwiz
 
@@ -57,6 +60,12 @@ Netplwiz is a utility built into Windows that allows you to manage user accounts
     1. Select the **Hamburger menu** in the upper-right corner of the lab. 
 
     1. Select **Save**
+
+## Hyper-V 
+
+- For Hyper-V labs that **do not use Enhanced Session Mode (ESM)**, automatic login is configured using the Netplwiz utility built into Windows.
+
+- For Hyper-V labs that **use ESM**, Windows Registry and Group Policy must be configured to enable automatic login. 
 
 ## Configuring Automatic Login for Hyper-V and Enhanced Session Mode
 
