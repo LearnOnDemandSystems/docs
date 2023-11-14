@@ -4,11 +4,11 @@ can use to make an API request using the Skillable Studio and TMS REST APIs.
 ## In This Article 
 
 - [Required Permissions](#required-permissions)
-- [Best Practices](#best-practuces)
+- [Best Practices](#best-practices)
 - [How to Make an API Request](#how-to-make-api-request)
     - [API Request Format](#api-request-format)
 - [API Testing Tools](#api-testing-tools)
-- [Next Steps](#next-steps)F
+- [Next Steps](#next-steps)
 
 This article will highlight some of the methods you can use to make an API request as well as highlight the API request format. Also covered in this article is some of the tools that you can use when developing and testing your API requests.
 
@@ -126,21 +126,21 @@ To launch a lab via an API request in Postman:
 
 1. To create a new request, select the **+ (plus)** icon in postman .
 
-    ![Postman - Plus](/images/Postman-Plus.png)
+    ![Postman - Plus](../images/Postman-Plus.png)
 
 1. A new **Untitled Request** tab will open providing all the fields and attributes necessary to create an API request. Ensure that the HTTP verb field matches the verb indicated in the Connect website documentation. In the case of the **/Launch** command an HTTP verb of **GET** should be selected.
 
-    ![Postman - GET](/images/Postman-Get.png)
+    ![Postman - GET](../images/Postman-Get.png)
 
 1. Copy  the following /Launch API example and paste it into the URL field in Postman.
 
     >`https://labondemand.com/api/v3/launch?labid=100&userid=555&firstname=Joe&lastname=Smith&email=joe.smith@email.com`
 
-    ![Postman - URL](/images/Postman-URL.png)
+    ![Postman - URL](../images/Postman-URL.png)
 
     >**NOTE**: You'll see that Postman parses the URL and displays query parameters in the appropriate field in the Value column.
     >
-    >![Postman - Query Params](/images/Postman-Query_Params.png)
+    >![Postman - Query Params](../images/Postman-Query_Params.png)
 
 1. Replace the text in the value column, with data that corresponds to the key column. 
 
@@ -152,7 +152,7 @@ To launch a lab via an API request in Postman:
     >| **lastname** |  Enter the last name of the user launching the lab. |
     >| **email** | Add the email address of the user launching the lab. |
     >
-    >![Postman - Replaced Values](/images/Postman-Replaced_Values.png)
+    >![Postman - Replaced Values](../images/Postman-Replaced_Values.png)
 
 1. In order to properly authenticate the API request the appropriate API Key will be required. Since the **/Launch** API endpoint command is a Studio function you will need the correct API Key from the API Consumer linked to the Lab Series that the Lab Profile was published to. 
 
@@ -164,23 +164,23 @@ To launch a lab via an API request in Postman:
 
 1. In Postman, select the **Authorization** tab, expand the **Type** list and select **API Key**.
 
-    ![Postman - Authorization](/images/Postman-Authorization.png)
+    ![Postman - Authorization](../images/Postman-Authorization.png)
 
 1. Paste the **API Key** from the API Consumer in Skillable Studio into the **Value** field in Postman ensuring that the **Add to** field has the value of **Header**.
 
-    ![Postman - API_Key Value](/images/Postman-API_Key_Value.png)
+    ![Postman - API_Key Value](../images/Postman-API_Key_Value.png)
 
     >**NOTE**: Alternatively, you can select the **Headers** tab, add the key name **api_key** to the **Key** column and paste the **API Key** from the API Consumer in Skillable Studio to the **Value** column.
     >
-    >![Postman - API Key Header](/images/Postman-API_Key_Header.png)
+    >![Postman - API Key Header](../images/Postman-API_Key_Header.png)
 
 1. The API request now has all required information to successfully launch a lab. Select **Send** to submit the API request.
 
-    ![Postman - Send](/images/Postman-Send.png)
+    ![Postman - Send](../images/Postman-Send.png)
 
 1. The lab will now launch for the specified user. Postman will return a JSON response with information about the result of the API request. The information in the response corresponds with the information on the Launch API details documentation. 
 
-    ![Postman - Launch Result](/images/Postman-Launch_Result.png)
+    ![Postman - Launch Result](../images/Postman-Launch_Result.png)
 
     | Field | Value | Description |
     |:---|:---|:---|
