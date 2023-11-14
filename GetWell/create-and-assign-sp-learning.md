@@ -1,10 +1,6 @@
----
-title: "Create and assign self-paced learning for a single course"
-isPublished: false
----
-# Create and assign self-paced learning for a single course
+# Create and Assign Self-Paced Learning for a Single Course
+
 TMS administrators can use course assignments to provide access to learners to self-paced learning for a single course and access to take any labs contained within the course. 
-Last updated: October 12, 2023
 
 When should course assignments be used?
 *	Use a course assignment to provide self-paced training for a single course to a single user
@@ -56,8 +52,8 @@ From the Create Course Assignment page, using a few simple steps, you can effort
 1.	On the Site Administration's page **Course Assignments* tile, click **Create Course Assignment**. This will redirect you to the Create Course Assignment page.
 
 **Select a student**
-1.	Beside the **Student** field, click the **Choose** button to open the Choose User dialog box.
-1.	In the Choose User dialog box, you may use filters to help you locate the desired student. Input part of the student's **First** and **Last Name** in the available fields and click **Search** to view a list of search results.
+1.	Beside the **Student** field, click the **Choose** button to open the **Choose User** dialog box.
+1.	In the **Choose User** dialog box, you may use filters to help you locate the desired student. Input part of the student's **First** and **Last Name** in the available fields and click **Search** to view a list of search results.
 1.	In the search results select the appropriate student and click **OK**.
 
 **Select a course**
@@ -66,7 +62,7 @@ From the Create Course Assignment page, using a few simple steps, you can effort
 1.	Review the search results, select the desired course and click **OK**.
 
 **Set the expiration date**
-1.	By default, the Expiration field is set to 6 months, but you can set the access to a shorter time period if you wish. To modify the expiry, simply select a new date that aligns with your requirements.
+1.	By default, the **Expiration field** is set to 6 months, but you can set the access to a shorter time period if you wish. To modify the expiry, simply select a new date that aligns with your requirements.
 
 **Save your work**
 1.	Click **Save**. Your assignment is now securely stored in our system.
@@ -81,13 +77,13 @@ Our Create Multiple Course Assignments page is built for versatility providing y
 
 **Select a course or courses**
 1.	Click the **Add Courses** link to open the **Choose Course** dialog box. Multiple courses can be added if needed.
-1.	In the Choose Course dialog box's **Name** field, input part of a course name and then click **Search** a list of search results. 
+1.	In the **Choose Course** dialog box's **Name** field, input part of a course name and then click **Search** a list of search results. 
 1.	Review the search results and select the desired course. To add more courses enter a new course name, click search and select the course in the search results, continue searching and selecting courses until you have chosen all the courses you desire.
 1.	Once you have selected your courses click **OK**.
 
 **Select a student or students**
 1.	Click the **Add Students** link to open the **Choose Students** dialog to select the student(s) to whom you want to assign the Course Assignment. Multiple students can be selected if needed.
-1.	In the Choose Students dialog box's **First Name** or **Last Name** field, input part of a student's name and then click **Search** a list of search results.
+1.	In the **Choose Students** dialog box's **First Name** or **Last Name** field, input part of a student's name and then click **Search** a list of search results.
 1.	Review the search results and select the desired student. To add more students enter a new name, click search and select the student in the search results, continue searching and selecting students until you have chosen all the users you desire.
 1. Once you have selected your students click **OK**.
 
@@ -144,17 +140,17 @@ A Training key pool key is used for individual self-paced course assignments and
 
 **Decide the characteristics of your pool**
 1.	In the **Name** field input a name for the training key pool.
-1.	Beside the **Course** field click **Choose** to open the Course Chooser dialog and select the course to align the pool with, then click **OK**.
+1.	Beside the **Course** field click **Choose** to open the **Course Chooser** dialog and select the course to align the pool with, then click **OK**.
 1.	In the **Start**s field, **input a date**, this controls when the keys can start being redeemed.
 1.	In the **Expire**s field, **input a date**, this specifies when the keys can no longer be redeemed. This can be useful if a new version of the course is soon to be available and you want to ensure that keys for the older version are no longer used.
 1.	Set the **Content Availability**, this sets the time period the learner can access the course from when the key is redeemed creating the assignment.
 1.	Optional: Select the box next to **Make these keys available to everyone using [Organization name]** to allow keys in this pool to be used by child organizations within the parent organization that owns this pool.
 
 **Add your keys**
-Switch to the Training Keys tab. Here, you have three options:
+Switch to the **Training Keys** tab. Here, you have three options:
 * Manually enter each individual key by clicking **Add Training Key**.
-* Click **Add Multiple Training Keys** to paste your training keys, one per line, in the pop-up dialog.
-* Click **Generate Training Keys**, then enter the number of keys in the field provided and click OK.
+* Click **Add Multiple Training Keys** to **paste your training keys**, one per line, in the pop-up dialog.
+* Click **Generate Training Keys**, then enter the **number of keys** in the field provided and click OK.
 
 **Save your work**
 1.	Once all the keys have been created, click **Save**.
