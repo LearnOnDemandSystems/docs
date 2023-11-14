@@ -5,7 +5,7 @@ can use to make an API request using the Skillable Studio and TMS REST APIs.
 
 - [Required Permissions](#required-permissions)
 - [Best Practices](#best-practices)
-- [How to Make an API Request](#how-to-make-api-request)
+- [How to Make an API Request](#how-to-make-an-api-request)
     - [API Request Format](#api-request-format)
 - [API Testing Tools](#api-testing-tools)
 - [Next Steps](#next-steps)
