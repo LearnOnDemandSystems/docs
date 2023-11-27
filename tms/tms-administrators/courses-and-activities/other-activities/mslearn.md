@@ -52,6 +52,8 @@ To surface the button for learners on their enrollment page, you will need to su
 1. Complete entering your class information
 1. **Save**
 
+Please note that Skillable is only able to report on the activity if the learner selected the Microsoft Achievement Code button on their Class Enrollment page. Microsoft does not provide reporting if the learner redeemed their code in Microsoft Learn. 
+
 ![](/tms/images/achieve-code.png)
 
 _Achievement Code URL field on the Class page_
