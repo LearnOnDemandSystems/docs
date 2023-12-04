@@ -127,12 +127,13 @@ If you need support for an AWS service that is not listed as supported, please s
 |[AWS Direct Connect](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsdirectconnect.html)|directconnect|No customer requests||
 |[AWS Directory Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsdirectoryservice.html)|ds|No customer requests||
 |[AWS Elastic Beanstalk](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awselasticbeanstalk.html)|elasticbeanstalk|supported||
+|[AWS Elastic Container Service](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html)|ecs|supported||
 |[AWS Elemental MediaConvert](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awselementalmediaconvert.html)|mediaconvert|No customer requests||
 |[AWS Elemental MediaLive](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awselementalmedialive.html)|medialive|No customer requests||
 |[AWS Elemental MediaPackage](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awselementalmediapackage.html)|mediapackage|No customer requests||
 |[AWS Elemental MediaStore](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awselementalmediastore.html)|mediastore|No customer requests||
 |[AWS Firewall Manager](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsfirewallmanager.html)|fms|No customer requests||
-|[AWS Glue](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsglue.html)|glue|No customer requests||
+|[AWS Glue](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsglue.html)|glue|supported||
 |[AWS Greengrass](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsgreengrass.html)|greengrass|No customer requests||
 |[AWS Import Export Disk Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsimportexportdiskservice.html)|importexport|No customer requests||
 |[AWS IoT](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsiot.html)|iot|No customer requests||
