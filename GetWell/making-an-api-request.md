@@ -5,7 +5,7 @@ can use to make an API request using the Skillable Studio and TMS REST APIs.
 
 - [Required Permissions](#required-permissions)
 - [Best Practices](#best-practices)
-- [How to Make an API Request](#how-to-make-an-api-request)
+- [Making an API Request](#making-an-api-request)
     - [API Request Format](#api-request-format)
     - [API Testing Tools](#api-testing-tools)
     - [Testing Skillable APIs with Postman](#testing-skillable-apis-with-postman)
@@ -48,7 +48,7 @@ When using the Skillable Studio and TMS APIs it is always important to keep a fe
 
     **Note**: Windows spawned in any other context are only resizable by the user. If you open the window using an HTML link, or simply redirect the current window to the lab URL, Skillable Studio will be prevented from resizing the window.
 
-## How to Make an API Request
+## Making an API Request
 
 API Requests can be submitted to launch a lab, obtain profile information, update accounts and more. The general format of the request will not change regardless of whether you making a request on the Studio or TMS platforms.
 
