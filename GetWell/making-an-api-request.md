@@ -72,7 +72,8 @@ For example, a request to launch a lab using the **/Launch** API endpoint would 
 **/Launch API Request**<br>
 `https://labondemand.com/api/v3/launch?labid=100`
 
-**Element Details**<br>
+**Element Details**
+
 | Element | Value | Notes |
 |:---|:---|
 | `https://labondemand.com/api/v3/` | Base URL | This is the base for Skillable Studio. |
