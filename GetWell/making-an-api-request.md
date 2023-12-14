@@ -75,7 +75,7 @@ For example, a request to launch a lab using the **/Launch** API endpoint would 
 **Element Details**
 
 | Element | Value | Notes |
-|:---|:---|
+|:---|:---|:---|
 | **`https://labondemand.com/api/v3/`** | Base URL | This is the base for Skillable Studio. |
 | **launch** | API Endpoint | The /Launch API Endpoint launches the specified lab and returns the URL that it can be accessed from. |
 | **labid** | Parameter 1 | Identifies the lab that is to be launched. The ID can be found in the URL while viewing the lab profile in Skillable Studio. |
