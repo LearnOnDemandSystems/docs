@@ -77,12 +77,14 @@ Lab Developers, API administrators and LMS administrators all make use of API Co
 | **Max Lab instance Save Days** | This controls the maximum value an API consumer is allowed to use when specifying the number of days a lab instance can be saved for. If the API consumer specifies a higher value, this value will be used instead. |
 | **Maximum Lab Duration** | This controls the maximum duration in minutes that a lab launched by this API consumer will be allowed to have. If the lab profile has a longer duration, this value will override it. |
 | **Minimum Lab Duration for Billing** | Establishes how long a lab instance launched by this API consumer must run before it is considered billable. If the lab ends in less time, it will not be billed. |
-| **Lab Launch Capability** | Labs that are capable of being launched by this API consumer. |
-| **Lab Instance Visibility** | Lab instances that are visible by this API consumer. There are two options to choose from:<br>&nbsp;&nbsp;• **Lab Launched by this API Consumer** - the API consumer will only be able to view and interact with lab instances that it launches directly.<br>&nbsp;&nbsp;• **Labs Available to this API consumer** - The API consumer will be able to see and interact with all lab instances whose lab profiles are published to the API consumer. The lab instances can have been launched in any way, from an event page, a link, another API consumer, or lab profiles that are not associated with the API consumer. |
+| **Lab Launch Capability** | Labs that are capable of being launched by this API consumer. There are three options to choose from:<br>&nbsp;&nbsp;• **Labs Available to this API Consumer** - The API Consumer will only be able to launch labs that are explicitly available to it. This should be used in most API Integration scenarios.<br>&nbsp;&nbsp;• **None** - The API Consumer can't launch labs at all. This is generally used for reporting scenarios.<br>&nbsp;&nbsp;• **All Labs** - Allows the API Consumer to launch any lab in the system, regardless of availability settings on the lab and lab series. This should only be enabled in very specialized scenarios (example: internal testing of new content and infrastructure) |
+| **Lab Instance Visibility** | Lab instances that are visible by this API consumer. There are three options to choose from:<br>&nbsp;&nbsp;• **Lab Launched by this API Consumer** - the API consumer will only be able to view and interact with lab instances that it launches directly.<br>&nbsp;&nbsp;• **Labs Available to this API Consumer** - The API consumer will be able to see and interact with all lab instances whose lab profiles are published to the API consumer. The lab instances can have been launched in any way, from an event page, an authenticated link, another API consumer, or anonymously. This could include lab instances belonging to users in any organization.<br>&nbsp;&nbsp;• **All Labs** - Allows the API Consumer to view and interact with all lab instances in the system. This should only be enabled under special circumstances (example: for use by an interanl service that coordinates data for multiple customers) |
 | **Can Launch Developmentally-Incomplete Labs** | This allows the API consumer to launch lab profiles that have their Development Status set to Incomplete. |
+| **Can Launch on Specified Infrastructure** | Allows the API Consumer to specify a Skillable Lab Host ID and/or a File Share ID when launching a lab instance. This should only be enabled under special circumstances (example: Internal testing of new infrastructure) |
 | **Require Assignments for Lab Launches** | This requires that all labs be launched as part of a lab series assignment. Only labs that are part of a series will be eligible for launch. |
 | **Automatically Create Assignments for Lab Launches** | When a lab is launched by this API provider and an active Lab Series Assignment cannot be found for the given user, a new Lab Series Assignment will be created automatically. |
 | **Default Assignment Duration Days** | The number of days that an automatically created Lab Series assignment will be active for. |
+| **Enable Portal Integration** | Provides integration with Skillable Insights |
 
 ### Keys and SCORM API Keys
 
@@ -129,21 +131,13 @@ Select **+Add Webhook** to add a new webhook to an API consumer.
 | Field | Description |
 |:---|:---|
 | **Name** | The name of the webhook. |
-| **Event** | The webhook will be called when an event occurs during the life cycle of the lab. (See **Available Events**) |
+| **Event** | The webhook will be called when an event occurs during the life cycle of the lab. (See **[Available Events](#available-events)**) |
 | **Verb** | • **GET**: use the GET verb to obtain data.<br>• **POST**: use the POST verb to add new data.<br>• **DELETE**: use the DELETE verb to delete data.<br>• **PUT**: use the PUT verb to modify data |
 | **URL** | A webhook URL that will be used to send the Webhook response to when the configured platform event occurs. Any lab replacement token can also be added to the URL surrounded by `{}`. For example:The lab instance ID will be injected into URL using the replacement value `{id}`.<br>`https://myexternalsite.com/labinstance/changed/{id}.` |
-| **Headers** | (See **Headers Usage**) |
-| **Send Lab Details as Content Body** | The content body will contain JSON-formatted information about the lab instance. This option and the **Content** field are mutually exculsive.<br>(See **Content Body Example**) | 
+| **Headers** | (See **[Headers Usage](#headers-usage)**) |
+| **Send Lab Details as Content Body** | The content body will contain JSON-formatted information about the lab instance. This option and the **Content** field are mutually exculsive.<br>(See **[Content Body Example](#content-body-example)**) | 
 | **Content** | The optional content body of the webhook request. This field is not available if the **Send Lab Details as Content Body** is selected. |
-| **Blocking** | This allows you to block further triggering of events and other webhooks until this webhook execution completes. If a webhook fails and is set to blocking, the next event in the life cycle will not begin until the webhook succeeds or fails. If the webhook has retries enabled, Skillable Studio will retry up to 5 times before moving onto the next life cycle event. |
-| **Delay** | An optional delay before the webhook is triggered. |
-| **Timeout** | The amount of time to wait for the webhook request to complete, before timing out. |
-| **Retries** | The maximum number of times the webhook will be called in the event of an error response. The time between retries is 1 second for the 1st retry, 2 seconds for the 2nd retry, 3 seconds for the 3rd retry, 4 seconds for the 4th retry, and 5 seconds for the 5th retry. Skillable Studio will only retry 5 times. |
-| **Error Action** | The action to take in the event that a webhook returns an error response. |
-| **Log** | Logs the error on the user's lab instance details page. |
-| **Send Notification to User** | Sends a notification to the user's lab instance. |
-| **End Lab** | Ends the user's lab instance. |
-| **Content** | The optional content body of the webhook request. |
+| **Enabled** | This selects whether the webhook is enabled or not. |
 | **Blocking** | This allows you to block further triggering of events and other webhooks until this webhook execution completes. If a webhook fails and is set to blocking, the next event in the life cycle will not begin until the webhook succeeds or fails. If the webhook has retries enabled, Skillable Studio will retry up to 5 times before moving onto the next life cycle event. |
 | **Delay** | An optional delay before the webhook is triggered. |
 | **Timeout** | The amount of time to wait for the webhook request to complete, before timing out. |
