@@ -7,12 +7,15 @@ can use to make an API request using the Skillable Studio and TMS REST APIs.
 - [Best Practices](#best-practices)
 - [How to Make an API Request](#how-to-make-an-api-request)
     - [API Request Format](#api-request-format)
-- [API Testing Tools](#api-testing-tools)
+    - [API Testing Tools](#api-testing-tools)
+    - [Testing Skillable APIs with Postman](#testing-skillable-apis-with-postman)
 - [Next Steps](#next-steps)
+- [Reference Materials](#reference-materials)
+- [Related Topics](#related-topics)
 
 This article will highlight some of the methods you can use to make an API request as well as highlight the API request format. Also covered in this article is some of the tools that you can use when developing and testing your API requests.
 
-### Required Permissions
+## Required Permissions
 
 Skillable APIs offer one form of authentication: an API Key. All methods require an API Key, which must be obtained from a Skillable team member working with your organization. Our systems use this key to validate your development account. 
 
@@ -26,44 +29,24 @@ If you do not have an API Key for your environment(s), please reach out your Ski
 
 ## Best Practices
 
-### API Workflow
-As a best practice the API key should never be exposed to client side code. Below is a sample workflow for using and integrating API calls. The sample assumes that the client side has a button or page that the student clicks to launch a lab via API.
+When using the Skillable Studio and TMS APIs it is always important to keep a few things in mind. The following suggestions are intended to help guide you for the best possible experience.
 
-1. Student clicks a button that initiates the API call.
+- **Client Side Code** - The API key should **never** be exposed to client side code. 
 
-1. An ajax call is made to the customer-owned service, or learning management system.
+- **Development Status** - Only lab profiles with a development status of **Complete** are consumable via API. You may be able to manage lab profiles that have a status of In Development but you will not be able to launch these labs.
 
-1. The customer-owned service makes a Launch API call and receives the lab URL from Skillable Studio.
+- **Launch Labs in a New Window** - It is recommended that all launch-based API workflows open new, or resumed, labs in a new browser window.
+    - This allows for the browser window to be resized to the ideal size for the student's machine. Resizing can't be done in a redirect, as browser's do not allow resizing of user-opened windows.
+    - The student is able to maintain the page they launched the lab from. This also allow the student to navigate to the page the lab was launched from if needed.
 
-1. The ajax call returns to the browser and includes the lab URL.
+- **Window Manipulation** - If you launch a lab in a new window using JavaScript, Skillable Studio will resize the lab window after it is launched.
 
-1. Client-side code redirects to the URL or spawns a new window and directs the new window at the lab URL.
+- **Strict Mapping** - We advise against using strict mapping of API objects. We will add new API objects, but we will not remove any API objects that are already in place. If API objects are strictly mapped, your API integration may not work properly when new API objects are added.
+    - To launch a lab in a new window, use the following JavaScript:<br>`window.open(labUrl, "lab", "width=800,height=600,status=0,resizable=1,toolbar=0,menubar=0,location=0,scrollbars=0");`
+    - This tells the browser to open a new window with dimensions of 800x600. 
+    - After a new window is opened, Skillable Studio will resize the window appropriately for the lab type that is being launched (Virtualization or Cloud Slice). Since the initial window dimensions were set by a script, future scripts are permitted to change those dimensions (resize the window).
 
->**NOTE**: Spawning a new window is preferred for the following reasons:
->
->- Spawning a new window allows for the browser window to be resized to the ideal size for the student's machine. 
->- Resizing can't be done in a redirect, as browser's do not allow resizing of user-opened windows.
->- The student is able to maintain the page they launched the lab from. 
->    - It is best practice to launch the lab in its own window, so the student can navigate to the page the lab was launched from if needed.
-
-### Do not use Strict Mapping
-We advise against using strict mapping of API objects. We will add new API objects, but we will not remove any API objects that are already in place. If API objects are strictly mapped, your API integration may not work properly when new API objects are added.
-
-### Window Manipulation
-If you launch a lab in a new window using JavaScript, Skillable Studio will resize the lab window after it is launched.
-
-To launch a lab in a new window, use the following JavaScript:
-
->`window.open(labUrl, "lab", "width=800,height=600,status=0,resizable=1,toolbar=0,menubar=0,location=0,scrollbars=0");`
-
-This tells the browser to open a new window with dimensions of 800x600. After a new window is opened, Skillable Studio will resize the window appropriately for the lab type that is being launched (Virtualization or Cloud Slice). Since the initial window dimensions were set by a script, future scripts are permitted to change those dimensions (resize the window).
-
->**ALERT**: Windows spawned in any other context are only resizable by the user. If you open the window using an HTML link, or simply redirect the current window to the lab URL, Skillable Studio will be prevented from resizing the window.
-
-- **Cloud Slice** labs consist of two windows; the resource portal and lab console.
-- **Virtualization** based labs consist of one window; the virtual machine and the lab console.
-Lab console: on the right side of the screen, housing the instructions and any lab resources.
-Resource portal: on the left side of the screen, housing the cloud platform or the virtual machine(s) that the lab utilizes.
+    **Note**: Windows spawned in any other context are only resizable by the user. If you open the window using an HTML link, or simply redirect the current window to the lab URL, Skillable Studio will be prevented from resizing the window.
 
 ## How to Make an API Request
 
@@ -74,45 +57,55 @@ API Requests can be submitted to launch a lab, obtain profile information, updat
     - **GET**: used to request data from a specified resource.
     - **POST**: used to send data to a server to create/update a resource.
 
-    >**NOTE**: The Skillable Studio and TMS APIs have been designed to use the **GET** verb for most API requests. Refer to the specific API endpoint documentation found on the [Connect](https://connect.skillable.com) website for more details.
+    > **NOTE**: Refer to the specific API endpoint documentation found on the [Connect](https://connect.skillable.com) website for more details.
 
 
 ### API Request Format
-API requests use Methods and Parameters in the URL.
 
-A typical API request would look like:
+Skillable API requests are constructed with a Base URL, API Endpoint (also called a Method) and Parameters.
 
->`https://labondemand.com/api/v3/[method]?[parameters]`
+  **Format**:<br>
+  [Base URL] / [Endpoint] ? [Parameter 1] = [value] & [Parameter 2] = [value] & ...
 
->**INFORMATION**: A request to launch a lab will look like:
->
->`https://labondemand.com/api/v3/launch?labid=100&userid=555&firstname=Joe&lastname=Smith&email=joe.smith@email.com`
->
->**launch** is the **method**.
->
->**labid**, **userid**, **firstname**, **lastname** and **email** are the parameters.
->
->| Parameter | Description |
->|:---|:---|
->| **labid** | This is the lab ID of the lab that is to be launched. The ID can be found in the URL while viewing the lab profile in Skillable Studio. |
->| **userid** | The user ID you use to identify the user in your external system. |
->| **firstname** | The first name of the user that the lab launch will be associated with. |
->| **lastname** | The last name of the user that the lab launch will be associated with. |
->| **email** | The email address on the user profile of the user that the lab launch will be associated with. |
+For example, a request to launch a lab using the **/Launch** API endpoint would look like the following:
+
+**/Launch API Request**<br>
+`https://labondemand.com/api/v3/launch?labid=100`
+
+**Element Details**<br>
+| Element | Value | Notes |
+|:---|:---|
+| `https://labondemand.com/api/v3/` | Base URL | This is the base for Skillable Studio. |
+| **launch** | API Endpoint | The /Launch API Endpoint launches the specified lab and returns the URL that it can be accessed from. |
+| **labid** | Parameter 1 | Identifies the lab that is to be launched. The ID can be found in the URL while viewing the lab profile in Skillable Studio. |
+| **userid** | Parameter 2 | The user ID you use to identify the user in your external system. |
+
+**NOTE**: The API Consumer Key must be provided as part of the HTTP request header with the name "api_key".
 
 ## API Testing Tools
 
-If you want to test your API requests before implementing them, you can do so using an API testing tool. There are many tools available for testing an API request. One of the most common tool used is Postman, and is available on Windows, macOS and Linux (x32/x64).
+If you want to test your API requests before implementing them, you can do so using an API testing tool. There are many tools available for testing an API request. 
 
->**NOTE**: The [Connect](https://connect.skillable.com) website has a **try-it** function in the top-right panel of each API endpoint that provides testing capabilities as well as sample code in various scripting languages and a JSON sample of the resulting output.
+The following testing tools include the ability to import API documentation in OpenAPI swagger format. Skillable provides API collections for both the Studio and TMS APIs downloadable from the API documentation section of this site in this format.
 
-You may download a OpenAPI collection of calls directly from the [Connect](https://connect.skillable.com) website. The OpenAPI collection can be imported directly into a Postman Collection for easy access. Be sure to edit the authorization header to include the appropriate API Key.
+**API Testing Tools**
+- **Postman** - Includes tools for designing, testing, documenting, mocking and sharing APIs.
+- **Katalon** - Supports the entire API testing lifecycle.
+- **Insomnia** - Free, open-source REST API Client for API design and testing.
+- **Swagger** - API documentation, editing, designing and testing.
+- **apigee** - Google Cloud's API management tool with a range of tools and services.
+
+>**NOTE**: The API documentation includes a **try-it** function in the top-right panel of each API endpoint that provides testing capabilities as well as sample code in various scripting languages and a JSON sample of the resulting output.
+
+You can download a OpenAPI collection of calls directly from the [Connect](https://connect.skillable.com) website. The OpenAPI collection can be imported directly into a Postman Collection for easy access. Be sure to edit the authorization header to include the appropriate API Key.
 - [Skillable Studio API](https://connect.skillable.com/lab/overview/)
 - [Skillable TMS API](https://connect.skillable.com/tms/overview/)
 
-In this article, we will walk through the steps to use the Studio **/Launch** APi request, to launch a specified lab for a specified user using the **Postman** API Testing tool.
+### Testing Skillable APIs with Postman
 
->**NOTE**: Use the Connect website documentation for the [/Launch](https://connect.skillable.com/lab/operation/Launch/) command as reference.
+One of the most common tools used for testing APIs is Postman, which is freely available on Windows, macOS and Linux (x32/x64). In this guide, we will walk through the steps to use the Launch APi request, using Postman, to launch a specified lab for a specified user.
+
+>**NOTE**: Use the Connect website documentation for the [/Launch](https://connect.skillable.com/lab/operation/Launch/) command as reference. The **try-it** function can also be used to execute API requests for all endpoints.
 
 To launch a lab via an API request in Postman:
 
@@ -158,7 +151,7 @@ To launch a lab via an API request in Postman:
 
     >**NOTE**: If you do not have access to the API Consumer, or can not retrieve the API Key contact the [customer support team](http://www.skillable.com/customer-support/) for assistance.
     >
-    >![Studio - API Key](Studio-API_Key.png)
+    >![Studio - API Key](connect-images/Studio-API_Key.png)
 
 1. In Skillable Studio select the **Copy** link for the API Key you will use to authenticate the **/Launch** API request.
 
@@ -175,8 +168,6 @@ To launch a lab via an API request in Postman:
     >![Postman - API Key Header](connect-images/Postman-API_Key_Header.png)
 
 1. The API request now has all required information to successfully launch a lab. Select **Send** to submit the API request.
-
-    ![Postman - Send](connect-images/Postman-Send.png)
 
 1. The lab will now launch for the specified user. Postman will return a JSON response with information about the result of the API request. The information in the response corresponds with the information on the Launch API details documentation. 
 
@@ -199,10 +190,12 @@ The same API Request can be made in the Connect website using the **Try it** fun
 
 >**NOTE**: The **Try it** function only works for production Skillable Studio and TMS environments.
 
-### Reference Materials
+## Reference Materials
 
 The Postman application is a powerful tool for developing API Requests. Refer to their official documentation for more information. 
 - [Postman Learning Center](https://learning.postman.com/docs/introduction/overview/)
 
 The Skillable Studio and TMS Restful APIs are fully documented on the Connect website. Refer to this site for information about all the publicly available API endpoints.
 - [Skillable Connect](https://connect.skillable.com)
+
+## Related Topics
