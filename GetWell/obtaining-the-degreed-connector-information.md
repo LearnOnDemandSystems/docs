@@ -19,7 +19,7 @@ The configuration of customer accounts is completed in the Skillable Insights an
 
 ## Customer Information
 
-The Degreed Connector has been designed to be as simple to configure and use as possible. To ensure that configuration is completed properly Skillable will require the following informaiton:
+The Degreed Connector has been designed to be as simple to configure and use as possible. To ensure that configuration is completed properly Skillable will require the following information:
 
 | Field | Notes |
 |:---|:---|
