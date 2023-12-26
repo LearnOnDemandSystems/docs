@@ -96,7 +96,7 @@ Once a customer has been configured in Insights, an API Consumer has been create
 
 Once each day Skillable Insights will be automatically queried to obtain the full list of customer organizations and their associated API Consumers that have been configured to use the Degreed Connector. This process will create customer specific catalog files and automatically upload them to Degreed for processing. The following automated process is used:
 
-![Degreed Sequence Diagram - Catalog v2](/connect-images/Degreed Sequence Diagram - Catalog v2.png)
+![Degreed Sequence Diagram - Catalog v2](/connect-images/Degreed-Sequence-Diagram-Catalog-v2.png)
 
 - For Each Customer (configured in Insights)
     - Create an empty Customer Content File
@@ -123,7 +123,7 @@ Also, once each day Degreed will examine the existing Customer Content Files and
 
 The Degreed Connector - Lab Launch process is responsible for verifying the status of the Degreed Connector configuration, authenticating the user using SAML 2.0, and handling lab launch requests in a single, self-contained, service.
 
-![Degreed Sequence Diagram - Launch](connect-images/Degreed Sequence Diagram - Launch.png)
+![Degreed Sequence Diagram - Launch](connect-images/Degreed-Sequence-Diagram-Launch.png)
 
 ### The Lab Results Process
 
@@ -131,7 +131,7 @@ The Degreed Connector - Lab Results process involves receiving a lab ending noti
 
 **NOTE**: For details of the Degreed Completions API refer to the Degreed documentation ([https://developer.degreed.com/reference/post_api-v2-completions](https://developer.degreed.com/reference/post_api-v2-completions "Completions API")).
 
-![Degreed Sequence Diagram - results](connect-images/Degreed Sequence Diagram - results.png)
+![Degreed Sequence Diagram - results](connect-images/Degreed-Sequence-Diagram-results.png)
 
 ## Next Steps
 
