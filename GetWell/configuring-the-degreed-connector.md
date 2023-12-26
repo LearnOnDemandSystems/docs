@@ -21,7 +21,7 @@ This article will cover the basic processes enabled through the Degreed Connecto
 
 ## Required Permissions
 
-To use these Skillable Studio features, the user account must be granted specific permissions. If you are unable to access these features, you may not have the proper permissions, please reach out to our [customer support team](http://www.skillable.com/customer-support/) for assistance. 
+To use the Skillable Studio features described in this article, the user account must be granted specific permissions. If you are unable to access these features, you may not have the proper permissions, please reach out to our [customer support team](http://www.skillable.com/customer-support/) for assistance. 
 
 Permissions are required for
 - Accessing the Skillable Insights Control Panel for administrating customers
