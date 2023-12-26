@@ -220,7 +220,7 @@ For more information about the available languages and which versions are suppor
 
     ```Python
     //do stuff... we want to report success and set the score value as 50%
-    setActivityResult(0.5);
+    setActivityResult(score=0.5)
     ```
 
 - **Send a Notification to the User**
