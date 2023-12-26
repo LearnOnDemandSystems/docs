@@ -12,12 +12,12 @@ This article will supply the necessary steps to configure the API Consumer Webho
 
 ## Required Permissions
 
-This features requires the following permissions. If you do not have these permissions, please reach out to our [customer support team](http://www.skillable.com/customer-support/) for assistance. 
+To use the Skillable Studio features described in this article, the user account must be granted specific permissions. If you are unable to access these features, you may not have the proper permissions, please reach out to our [customer support team](http://www.skillable.com/customer-support/) for assistance. 
 
-| User Type | Role | Permission | Description |
-|:---|:---|:---|:---|
-| Skillable Administrator | LOD Internal - API Administrator | API Consumer Management<br>Create, Delete, Edit, View | Allows a user to manage API Consumers globally  |
-| Organization Administrator | Organization API Management | API Consumer Management<br>Create, Delete, Edit, View | Allows a user to manage API Consumers for organizations that they manage  |
+Permissions are required for
+- Skillable Administrator:
+    - Managing API Consumers
+    - Adding and updating Webhook configurations on API Consumers
 
 ## Overview
 
