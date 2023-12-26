@@ -15,7 +15,7 @@ This article will supply the necessary steps to configure the API Consumer Webho
 This features requires the following permissions. If you do not have these permissions, please reach out to our [customer support team](http://www.skillable.com/customer-support/) for assistance. 
 
 | User Type | Role | Permission | Description |
-|:---|:---|:---|
+|:---|:---|:---|:---|
 | Skillable Administrator | LOD Internal - API Administrator | API Consumer Management<br>Create, Delete, Edit, View | Allows a user to manage API Consumers globally  |
 | Organization Administrator | Organization API Management | API Consumer Management<br>Create, Delete, Edit, View | Allows a user to manage API Consumers for organizations that they manage  |
 
