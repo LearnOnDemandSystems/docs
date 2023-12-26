@@ -2,11 +2,11 @@ The Degreed Connector, a custom integration between the Degreed LXM and Skillabl
 
 ## In This Article 
 
-- [Required Permissions](#topic-one)
-- [Overview](#topic-two)
-- [Best Practices](#topic-three)
-- [Results Webhook Configuration](#topic-four)
-- [Next Steps](#topic-five)
+- [Required Permissions](#required-permissions)
+- [Overview](#overview)
+- [Best Practices](#best-practices)
+- [Results Webhook Configuration](#results-webhook-configuration)
+- [Next Steps](#next-steps)
 
 This article will supply the necessary steps to configure the API Consumer Webhook required to provide the lab results for the Completion service. 
 
