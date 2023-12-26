@@ -29,32 +29,6 @@ The Degreed Connector has been designed to be as simple to configure and use as 
 | **Degreed Client Secret** | • This is created as part of a Degreed Provider Key.<br>• The Client Secret is only displayed once when the Provider Key is created.<br>• It is recommended that the customer send this value to Skillable using **Password Pusher** or another secure method.<br>&nbsp;&nbsp;&nbsp;• See: [https://pwpush.com/](https://pwpush.com/ "Password Pusher") |
 | **Connector Enabled** | • Set this value to **Checked** to enable the Catalog, Lab Launch, and Lab Results processes.<br>• Setting this value to **Un-Checked** will archive the customer's Skillable content in Degreed as well as disable Lab Launch and Lab Results processes. |
 
-
-## Skillable Insights Configuration
-
-Skillable Insights is the administrative location for the Degreed Connector. This is where an API Consumer will be associated with a Degreed Customer and the required customer information can be recorded to enable the Catalog, Launch, and Results processes for the customer.
-
-**NOTE**: A customer account must exist in Skillable Insights in order to create the Degreed Connector configuration. If you are unable to create a customer account within Skillable Insights, please reach out to our [customer support team](http://www.skillable.com/customer-support/) for assistance.
-
-The following are the instructions for configuring the Degreed Connector for a customer:
-
-1. From within the Skillable Insights Control Panel, select **Customers** from the left menu.
-
-1. Search for the customer that will be configured for the Degreed Connector and select the **Info** link in the **Customer Info** column on the right of the customer record to open the Administration Dashboard.
-
-1. Below the customer Address and Description sections select the **STUDIO** tab and navigate down to the **API Consumer(s)** section.
-
-1. Find the API Consumer that you wish to configure for the Degreed Connector and enter the following values:
-
-    | Field | Notes |
-    |:---|:---|
-    | **Degreed Customer ID** | • This value is supplied by Degreed.<br>• This is generally the numeric value displayed in the Browser URL Address when logged in to the **Manage** section of Degreed.<br>• Example: https://companyABC.degreed.com/orgs/**123456**/settings. |
-    | **Degreed Environment** | • This value is supplied by Degreed.<br>• This value will generally correspond to your primary geographic location.<br>• Possible values include:<br>&nbsp;&nbsp;&nbsp;• US Production<br>&nbsp;&nbsp;&nbsp;• EU Production<br>&nbsp;&nbsp;&nbsp;• CA Production (Canada)<br>&nbsp;&nbsp;&nbsp;• US Beta (for testing)<br>&nbsp;&nbsp;&nbsp;• EU Beta (For testing. Not common.) |
-    | **Degreed Client ID** | • This is created as part of a Degreed Provider Key.<br>• See **API Keys** in the Degreed Authentication Guide.<br>&nbsp;&nbsp;&nbsp;• See: [https://developer.degreed.com/docs/authentication](https://developer.degreed.com/docs/authentication "Degreed Authentication Guide") |
-    | **Degreed Client Secret** | • This is created as part of a Degreed Provider Key.<br>• The Client Secret is only displayed once when the Provider Key is created.<br>• It is recommended that this value be sent to Skillable using **Password Pusher** or another secure method.<br>&nbsp;&nbsp;&nbsp;• See: [https://pwpush.com/](https://pwpush.com/ "Password Pusher") |
-
-Once this information has been supplied to Skillable the process of setting up the Degreed Connector, creating the Skillable API Consumer and publishing labs to the API Consumer can be performed. This will enable the Catalog process to compile the appropriate list of all the Lab Profiles that have been published to the API Consumer and, once every 24 hours, send this information to Degreed where it will be used to create and/or update Courses with direct launch links to the corresponding Labs.
-
 ## Degreed Connector Processes
 
 The Degreed Connector provides a seamless route for many more users to experience skills based learning through Skillable Hands-On Labs. This is accomplished by providing a clear pathway for access to Skillable labs with the following functions:
