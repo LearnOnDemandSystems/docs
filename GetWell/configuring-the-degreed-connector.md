@@ -96,7 +96,7 @@ Once a customer has been configured in Insights, an API Consumer has been create
 
 Once each day Skillable Insights will be automatically queried to obtain the full list of customer organizations and their associated API Consumers that have been configured to use the Degreed Connector. This process will create customer specific catalog files and automatically upload them to Degreed for processing. The following automated process is used:
 
-![Degreed Sequence Diagram - Catalog v2](connect-images/Degreed Sequence Diagram - Catalog v2.png)
+![Degreed Sequence Diagram - Catalog v2](/connect-images/Degreed Sequence Diagram - Catalog v2.png)
 
 - For Each Customer (configured in Insights)
     - Create an empty Customer Content File
