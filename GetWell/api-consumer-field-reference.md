@@ -80,11 +80,11 @@ Lab Developers, API administrators and LMS administrators all make use of API Co
 | **Lab Launch Capability** | Labs that are capable of being launched by this API consumer. There are three options to choose from:<br>&nbsp;&nbsp;• **Labs Available to this API Consumer** - The API Consumer will only be able to launch labs that are explicitly available to it. This should be used in most API Integration scenarios.<br>&nbsp;&nbsp;• **None** - The API Consumer can't launch labs at all. This is generally used for reporting scenarios.<br>&nbsp;&nbsp;• **All Labs** - Allows the API Consumer to launch any lab in the system, regardless of availability settings on the lab and lab series. This should only be enabled in very specialized scenarios (example: internal testing of new content and infrastructure) |
 | **Lab Instance Visibility** | Lab instances that are visible by this API consumer. There are three options to choose from:<br>&nbsp;&nbsp;• **Lab Launched by this API Consumer** - the API consumer will only be able to view and interact with lab instances that it launches directly.<br>&nbsp;&nbsp;• **Labs Available to this API Consumer** - The API consumer will be able to see and interact with all lab instances whose lab profiles are published to the API consumer. The lab instances can have been launched in any way, from an event page, an authenticated link, another API consumer, or anonymously. This could include lab instances belonging to users in any organization.<br>&nbsp;&nbsp;• **All Labs** - Allows the API Consumer to view and interact with all lab instances in the system. This should only be enabled under special circumstances (example: for use by an interanl service that coordinates data for multiple customers) |
 | **Can Launch Developmentally-Incomplete Labs** | This allows the API consumer to launch lab profiles that have their Development Status set to Incomplete. |
-| **Can Launch on Specified Infrastructure** | Allows the API Consumer to specify a Skillable Lab Host ID and/or a File Share ID when launching a lab instance. This should only be enabled under special circumstances (example: Internal testing of new infrastructure) |
+| **Can Launch on Specified Infrastructure** | Allows the API Consumer to specify a Skillable Lab Host ID and/or a File Share ID when launching a lab instance. This should only be enabled under special circumstances (example: Internal testing of new infrastructure). |
 | **Require Assignments for Lab Launches** | This requires that all labs be launched as part of a lab series assignment. Only labs that are part of a series will be eligible for launch. |
 | **Automatically Create Assignments for Lab Launches** | When a lab is launched by this API provider and an active Lab Series Assignment cannot be found for the given user, a new Lab Series Assignment will be created automatically. |
 | **Default Assignment Duration Days** | The number of days that an automatically created Lab Series assignment will be active for. |
-| **Enable Portal Integration** | Provides integration with Skillable Insights |
+| **Enable Portal Integration** | Provides integration with Skillable Insights. |
 
 ### Keys and SCORM API Keys
 
@@ -108,17 +108,17 @@ The **LTI** section displays the core LTI definition. If no LTI 1.3 configuratio
 |:---|:---|
 | **LTI 1.2 Key** | (always displayed) The LTI 1.2 Key that is used for integrating with an LTI provider. |
 | **LTI 1.2 Secret** | (always displayed) The LTI 1.2 Secret that is used for integrating with an LTI provider. |
-| **LTI 1.3 Login/Connect URL** | The LTI 1.3 Login/Connect URL that is used for integrating with an LTI provider.
-| **LTI 1.3 Launch URL** | The LTI 1.3 Launch URL that is used for integrating with an LTI provider.
-| **LTI 1.3 JWKS URL** | The LTI 1.3 JWKS URL that is used for integrating with an LTI provider.
-| **LTI 1.3 DeepLink URL** | The LTI 1.3 DeepLink URL that is used for integrating with an LTI provider.
-| **LTI 1.3 Issuer** | The LTI 1.3 Issuer that is used for integrating with an LTI provider.
-| **LTI 1.3 Access token URL** | The LTI 1.3 Access Token that is used for integrating with an LTI provider.
-| **LTI 1.3 Authorize URL** | The LTI 1.3 Authorize URL that is used for integrating with an LTI provider.
-| **LTI 1.3 Managed Auth Token** | The LTI 1.3 Managed Auth that is used for integrating with an LTI provider.
-| **LTI 1.3 JWK Set URL** | The LTI 1.3 JWK Set URL that is used for integrating with an LTI provider.
-| **LTI 1.3 Public Key** | The LTI 1.3 Public Key that is used for integrating with an LTI provider.
-| **LTI 1.3 Client ID** | The LTI 1.3 Client ID that is used for integrating with an LTI provider.
+| **LTI 1.3 Login/Connect URL** | The LTI 1.3 Login/Connect URL that is used for integrating with an LTI provider. |
+| **LTI 1.3 Launch URL** | The LTI 1.3 Launch URL that is used for integrating with an LTI provider. |
+| **LTI 1.3 JWKS URL** | The LTI 1.3 JWKS URL that is used for integrating with an LTI provider. |
+| **LTI 1.3 DeepLink URL** | The LTI 1.3 DeepLink URL that is used for integrating with an LTI provider. |
+| **LTI 1.3 Issuer** | The LTI 1.3 Issuer that is used for integrating with an LTI provider. |
+| **LTI 1.3 Access token URL** | The LTI 1.3 Access Token that is used for integrating with an LTI provider. |
+| **LTI 1.3 Authorize URL** | The LTI 1.3 Authorize URL that is used for integrating with an LTI provider. |
+| **LTI 1.3 Managed Auth Token** | The LTI 1.3 Managed Auth that is used for integrating with an LTI provider. |
+| **LTI 1.3 JWK Set URL** | The LTI 1.3 JWK Set URL that is used for integrating with an LTI provider. |
+| **LTI 1.3 Public Key** | The LTI 1.3 Public Key that is used for integrating with an LTI provider. |
+| **LTI 1.3 Client ID** | The LTI 1.3 Client ID that is used for integrating with an LTI provider. |
 
 ### Webhooks
 
@@ -149,7 +149,7 @@ The following is a list of the events available to Webhooks.
 
 | Event | Description |
 |:---|:---|
-| **Pre-Build** | The lab components are being deployed, as well as any cloud resources.
+| **Pre-Build** | The lab components are being deployed, as well as any cloud resources. |
 | **Post-Build** | The lab environment has been built, but components like virtual machines may still be starting. |
 | **First Displayable** | All components of the lab are now running and the user can now interact with the lab. |
 | **Saving** | The lab is in the process of being saved. |
@@ -252,12 +252,12 @@ Roles are generally created to grant extra functionality by overriding permissio
 
  | Field | Description |
  |:---|:---|
- | **User URL Format** | This property allows Skillable Studio to create user account links to another platform. The external user ID will be injected into the URL using the replacement value **{id}**. For example, **https://myexternalsite.com/user/`{id}`**.
-| **Class URL Format** | This property allows Skillable Studio to create class links to another platform. The external class ID will be injected into the URL using the replacement value **{id}**. For example, **https://myexternalsite.com/class/`{id}`**.
-| **Lab Instance Sync URL** | This property allows Skillable Studio to notify an external platform if recent lab instance date has been significantly altered in a non-standard way and the external platform should re-synchronize lab instance data that it may have stored locally. For instance, if lab instances are moved between users.
-| **User Max Active Labs Behavior** | How the API will respond to a launch request when the user account has reached the maximum number of allowed active lab instances. The default behavior is to return a simple error response. Alternatively, the API can create a deferred launch token and return a specialized response containing a URL where the user can manage their existing lab instances before continuing to launch a new lab instance.
-| **Multi-instance Lab Launch Behavior** | How the API will respond when a lab profile that has multiple instances per user enabled and the user has an existing active instance of the lab. The default behavior is to launch the existing instance. Alternatively, the API can create a deferred launch token and return a specialized response containing a URL where the user can launch into an existing instance or launch a new instance.
-| **User Retake Exemptions** | Labs launched using an email in this exceptions list will bypass retakes enforcement. Each email should be on a separate line. Emails are not case sensitive. |
+ | **User URL Format** | This property allows Skillable Studio to create user account links to another platform. The external user ID will be injected into the URL using the replacement value **{id}**. For example, **https://myexternalsite.com/user/`{id}`**. |
+ | **Class URL Format** | This property allows Skillable Studio to create class links to another platform. The external class ID will be injected into the URL using the replacement value **{id}**. For example, **https://myexternalsite.com/class/`{id}`**. |
+ | **Lab Instance Sync URL** | This property allows Skillable Studio to notify an external platform if recent lab instance date has been significantly altered in a non-standard way and the external platform should re-synchronize lab instance data that it may have stored locally. For instance, if lab instances are moved between users. |
+ | **User Max Active Labs Behavior** | How the API will respond to a launch request when the user account has reached the maximum number of allowed active lab instances. The default behavior is to return a simple error response. Alternatively, the API can create a deferred launch token and return a specialized response containing a URL where the user can manage their existing lab instances before continuing to launch a new lab instance. |
+ | **Multi-instance Lab Launch Behavior** | How the API will respond when a lab profile that has multiple instances per user enabled and the user has an existing active instance of the lab. The default behavior is to launch the existing instance. Alternatively, the API can create a deferred launch token and return a specialized response containing a URL where the user can launch into an existing instance or launch a new instance. |
+ | **User Retake Exemptions** | Labs launched using an email in this exceptions list will bypass retakes enforcement. Each email should be on a separate line. Emails are not case sensitive. |
 
 ### Available Lab Series
 
