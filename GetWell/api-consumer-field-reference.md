@@ -6,7 +6,7 @@
 - [Best Practices](#best-practices)
 - [API Consumer field reference](#api-consumer-field-reference)
     - [Basic Information](#basic-information)
-    - [Keys and SCORM API Keys](#keys-and-scorm-keys)
+    - [Keys and SCORM API Keys](#keys-and-scorm-api-keys)
     - [LTI](#lti)
     - [Webhooks](#webhooks)
         - [Available Events](#available-events)
