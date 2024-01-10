@@ -60,7 +60,8 @@ The Degreed Connector Results Webhook is configured as part of the API Consumer 
     >| Retries | **3** | The webhook will retry with a 1 second delay if any condition prevents it from completing |
     >| Error Action | **Log** | This ensures that any issues encountered by the Webhook are logged to App Insights |
     >
-    ![Webhook configuration](connect-images/degreed-webhook-config.png)
+    > **Example**:
+    >![Webhook configuration](connect-images/degreed-webhook-config.png)
 
 ---
 
