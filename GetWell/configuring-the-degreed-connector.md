@@ -7,7 +7,7 @@ The Degreed Connector has been developed as a tightly coupled integration betwee
 - [Required Permissions](#required-permissions)
 - [Best Practices](#best-practices)
 - [Skillable Insights Configuration](#skillable-insights-configuration)
-- [API Consumer Configuraton](#api-consumer-configuration)
+- [API Consumer Configuration](#api-consumer-configuration)
     - [Requesting an API Consumer](#requesting-an-api-consumer)
     - [Configuring the Results Webhook](#configuring-the-results-webhook)
 - [Degreed Connector Processes](#degreed-connector-processes)
