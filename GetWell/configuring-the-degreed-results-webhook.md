@@ -21,7 +21,7 @@ Permissions are required for
 
 ## Overview
 
-The Degreed Connector is built on three main functions. These include the creation and delivery of a catalog of labs, the authenticated launching of labs and the return of lab completion results.
+The Degreed Connector is built to provide three main functions. These include the creation and delivery of a catalog of labs, the authenticated launching of labs and the return of lab completion results.
 
 In order to provide timely and accurate lab completion results for users a Webhook must be created for each customer's API Consumer. This webhook will fire when a lab launched through the Degreed Connector is completed and torn down. It will provide the Degreed Connector Completion Service with important information regarding the state and status of the lab and so care must be taken to set it up properly.
 
