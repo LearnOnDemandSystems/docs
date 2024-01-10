@@ -27,6 +27,7 @@ The Degreed Connector has been designed to be as simple to configure and use as 
 | **Degreed Environment** | • This value is supplied by Degreed.<br>• This value will generally correspond to your primary geographic location.<br>• Possible values include:<br>&nbsp;&nbsp;&nbsp;• US Production (United States)<br>&nbsp;&nbsp;&nbsp;• EU Production (European Union)<br>&nbsp;&nbsp;&nbsp;• CA Production (Canada)<br>&nbsp;&nbsp;&nbsp;• US Beta (for testing)<br>&nbsp;&nbsp;&nbsp;• EU Beta (for testing. not common) |
 | **Degreed Client ID** | • This is created as part of a Degreed Provider Key.<br>• See **API Keys** in the Degreed Authentication Guide.<br>&nbsp;&nbsp;&nbsp;• See: [https://developer.degreed.com/docs/authentication](https://developer.degreed.com/docs/authentication "Degreed Authentication Guide") |
 | **Degreed Client Secret** | • This is created as part of a Degreed Provider Key.<br>• The Client Secret is only displayed once when the Provider Key is created.<br>• It is recommended that the customer send this value to Skillable using **Password Pusher** or another secure method.<br>&nbsp;&nbsp;&nbsp;• See: Password Pusher - [https://pwpush.com/](https://pwpush.com/ "Password Pusher") |
+| **Degreed SAML Metadata URL** | • This field identifies the SAML authentication for Lab Launch and Lab completion services.<br>Ask your Degreed representative to provide this value to your Skillable account team. |
 
 ## Degreed Connector Processes
 
