@@ -58,11 +58,12 @@ The following are the instructions for configuring the Degreed Connector for a c
 
     | Field | Notes |
     |:---|:---|
-    | **Degreed Customer ID** | • This value is supplied by Degreed.<br>• This is generally the numeric value displayed in the Browser URL Address when logged in to the **Manage** section of Degreed.<br>• Example: https://companyABC.degreed.com/orgs/**123456**/settings. |
+    | **Degreed Customer ID** | • This value is supplied by Degreed.<br>• This is generally the numeric value displayed in the Browser URL Address when logged in to the **Manage** section of Degreed.<br>• Example: https://companyABC.degreed.com/orgs/**123456**/settings.<br>• Clearing this value will archive the customer's Skillable content in Degreed as well as disable Lab Launch and Lab Results processes. |
     | **Degreed Environment** | • This value is supplied by Degreed.<br>• This value will generally correspond to the customer's primary geographic location.<br>• Possible values include:<br>&nbsp;&nbsp;&nbsp;• US Production<br>&nbsp;&nbsp;&nbsp;• EU Production<br>&nbsp;&nbsp;&nbsp;• CA Production (Canada)<br>&nbsp;&nbsp;&nbsp;• US Beta (for testing)<br>&nbsp;&nbsp;&nbsp;• EU Beta (For testing. Not common.) |
     | **Degreed Client ID** | • This is created as part of a Degreed Provider Key.<br>• See **API Keys** in the Degreed Authentication Guide.<br>&nbsp;&nbsp;&nbsp;• See: [https://developer.degreed.com/docs/authentication](https://developer.degreed.com/docs/authentication "Degreed Authentication Guide") |
     | **Degreed Client Secret** | • This is created as part of a Degreed Provider Key.<br>• The Client Secret is only displayed once when the Provider Key is created.<br>• It is recommended that the customer send this value to Skillable using **Password Pusher** or another secure method.<br>&nbsp;&nbsp;&nbsp;• See: [https://pwpush.com/](https://pwpush.com/ "Password Pusher") |
-    | **Connector Enabled** | • Set this value to **Checked** to enable the Catalog, Lab Launch, and Lab Results processes.<br>• Setting this value to **Un-Checked** will archive the customer's Skillable content in Degreed as well as disable Lab Launch and Lab Results processes. |
+    | **Degreed SAML Metadata URL** | • This value is supplied by Degreed.<br>• This field identifies the SAML authentication for Lab Launch and Lab completion services. |
+    | **Last Degreed Catalog Generation Date** | • This *read-only* field contains the date/time value when the customer's lab catalog was last generated and transferred to Degreed for processing. |
 
 Once the Degreed Connector has been configured for a customer's API Consumer the Catalog process will compile a list of all the Lab Profiles that have been published to the API Consumer and, once every 24 hours, send this information to Degreed where it will be used to create and/or update Courses with direct launch links to the corresponding Labs.
 
