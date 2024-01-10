@@ -67,7 +67,7 @@ The following are the instructions for configuring the Degreed Connector for a c
 
 Once the Degreed Connector has been configured for a customer's API Consumer the Catalog process will compile a list of all the Lab Profiles that have been published to the API Consumer and, once every 24 hours, send this information to Degreed where it will be used to create and/or update Courses with direct launch links to the corresponding Labs.
 
-## API Consumer Configuraton
+## API Consumer Configuration
 
 The API Consumer is the heart of many Skillable Lab Launch activities. The Degreed Connector makes use of API Consumers by creating Lab Catalogs for each Customer's API Consumers and validating Lab Launches against valid API Consumers. As well, A webhook must be manually configured on the customer's API Consumer to be used to initiate the user's Lab Completion record.
 
