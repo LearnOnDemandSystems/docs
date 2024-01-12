@@ -124,5 +124,5 @@ If the user has the appropriate permissions they are able to publish a saved scr
 7. Once all editing is complete select **CREATE SCRIPT TEMPLATE**.
 
 ## Reference Materials
-* [Life Cycle Actions](https://learnondemandsystems.visualstudio.com/Documentation/_wiki/wikis/Documentation.wiki?wikiVersion=GBwikiMaster&pagePath=/Studio%20Documentation/life%20cycle%20actions): Life Cycle Actions allow Studio to execute actions when specific events occur during the lab instance life cycle.
-* [Activity Based Assessments](https://learnondemandsystems.visualstudio.com/Documentation/_wiki/wikis/Documentation.wiki?wikiVersion=GBwikiMaster&pagePath=/Studio%20Documentation/activities): Activity Based Assessments are in lab instructions, and allow a lab user to assess their knowledge or action in a lab by completing or selecting an activity.
+* [Life Cycle Actions](https://docs.skillable.com/lod/life-cycle-actions.md): Life Cycle Actions allow Studio to execute actions when specific events occur during the lab instance life cycle.
+* [Activity Based Assessments](https://docs.skillable.com/lod/activities.md): Activity Based Assessments are in lab instructions, and allow a lab user to assess their knowledge or action in a lab by completing or selecting an activity.
