@@ -413,18 +413,6 @@
         <div class="subtopic_title">Require Device Registration for Advanced Lab Access Security</div>
         <div class="subtopic_description">Automatically registers lab user devices and stores a cookie in their browser to streamline the lab experience, allowing subsequent lab launches without the need for repeated 2-factor authentication.</div>
       </a>
-      <a class="subtopic_link" href="/lod/script-library.md">
-        <div class="subtopic_title">Script Library</div>
-        <div class="subtopic_description">The Script Library is a hub for script templates used in Activity Based Assessments (ABA) and Life Cycle Actions (LCA), facilitating script creation and maintenance across multiple labs.</div>
-      </a>
-      <a class="subtopic_link" href="/lod/script-library-copilot.md">
-        <div class="subtopic_title">Script Library AI Copilot</div>
-        <div class="subtopic_description">Creating a Script Template using AI Copilot.</div>
-      </a>
-      <a class="subtopic_link" href="/lod/script-library-getting-started.md">
-        <div class="subtopic_title">Getting Started with Script Library</div>
-        <div class="subtopic_description">Quick start guide for getting started with Script Library.</div>
-      </a>
       <a class="subtopic_link" href="/lod/skillable-enhanced-account-security.md">
         <div class="subtopic_title">Skillable Enhanced Account Security</div>
         <div class="subtopic_description">Guidance for authenticating user accounts with Skillable Platforms, as well as account management in each platform.</div>
