@@ -2,10 +2,9 @@ The Degreed Connector has been developed as a tightly coupled integration betwee
 
 ## In This Article 
 
-- [Required Permissions](#required-permissions)
 - [Customer Information](#customer-information)
 - [Degreed Connector Processes](#degreed-connector-processes)
-    - [The Catalog Process](#the-catalog-process)
+    - [The Catalog Process](#the-lab-catalog-process)
     - [The Lab Launch Process](#the-lab-launch-process)
     - [The Lab Results Process](#the-lab-results-process)
 
