@@ -11,10 +11,6 @@ The Degreed Connector has been developed as a tightly coupled integration betwee
 
 This article will cover the required customer information used in the Degreed Connector as well as the basic Catalog, Lab Launch and Lab Results processes.
 
-## Required Permissions
-
-The configuration of customer accounts is completed in the Skillable Insights and Studio platform environments. These administrative functions are completed by the appropriate Skillable resources. Contact your Skillable Account Executive or Customer Service Manager to discuss your requirements or contact our [customer support team](http://www.skillable.com/customer-support/) for assistance. 
-
 ## Customer Information
 
 The Degreed Connector has been designed to be as simple to configure and use as possible. To ensure that configuration is completed properly Skillable will require the following information:
