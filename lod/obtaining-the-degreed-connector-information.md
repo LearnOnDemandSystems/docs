@@ -39,11 +39,11 @@ Once each day Skillable Insights will be automatically queried to obtain the ful
 
 Every 24 hours Degreed will examine the existing Customer Content Files and add, update or archive the Degreed customer Course catalog appropriately.
 
-- If an Course does not exist for a customer that corresponds to an Instruction Set/Lab record it will be created.
+- If a Course does not exist for a customer that corresponds to an Instruction Set/Lab record it will be created.
 - If any information for a given Customer's Course has changed the corresponding Instruction Set/Lab record will be used to update the course.
 - If an Instruction Set/Lab record can not be found for a specific Customer's Course then the Customer's Course will be archived.
 
-**NOTE**: In all cases each Content File record will correspond to an unique Lab Profile's Instructions Set and Language combination and represents a specific course within a customer's Degreed catalog.
+**NOTE**: In all cases each Content File record will correspond to a unique Lab Profile's Instructions Set and Language combination and represents a specific course within a customer's Degreed catalog.
 
 ### The Lab Launch Process
 
