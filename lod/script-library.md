@@ -132,3 +132,13 @@ If the user has the appropriate permissions they are able to publish a saved scr
 ## Reference Materials
 * [Life Cycle Actions](https://docs.skillable.com/lod/life-cycle-actions.md): Life Cycle Actions allow Studio to execute actions when specific events occur during the lab instance life cycle.
 * [Activity Based Assessments](https://docs.skillable.com/lod/activities.md): Activity Based Assessments are in lab instructions, and allow a lab user to assess their knowledge or action in a lab by completing or selecting an activity.
+
+<!--search terms-->
+<div hidden>
+<b>Skillable Studio Script Library Guide</b>
+<b>Activity Based Assessments Script Templates</b>
+<b>Life Cycle Actions Script Templates</b>
+<b>Managing Script Templates in Skillable Studio</b>
+<b>Accessing Script Library in Skillable Studio</b>
+<b>Script Library Best Practices</b>
+</div>
