@@ -1,3 +1,9 @@
+---
+title: "Getting Started with Script Library"
+description: "Embrace Simplicity with the Skillable Script Library: No More Tedious Scripting!"
+isPublished: true
+---
+
 # Getting Started with Script Library
 
 Embrace Simplicity with the Skillable Script Library: No More Tedious Scripting! Discover the ease of starting and reusing scripts, accelerating your progress and boosting your efficiency. Transform the way you create Automated Activities today!

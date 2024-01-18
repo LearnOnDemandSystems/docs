@@ -1,3 +1,9 @@
+---
+title: "Script Library"
+description: "The Script Library is a hub for script templates used in Activity Based Assessments (ABA) and Life Cycle Actions (LCA), facilitating script creation and maintenance across multiple labs."
+isPublished: true
+---
+
 The Script Library is a hub for script templates used in Activity Based Assessments (ABA) and Life Cycle Actions (LCA), facilitating script creation and maintenance across multiple labs. It standardizes the scripting process, reduces overhead, and fosters collaboration by enabling script sharing. The library's templates can be utilized as-is or as a foundation for creating ABA and LCA scripts.
 
 ## Overview of Script Library
