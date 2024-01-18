@@ -4,7 +4,7 @@ description: "A simplified guide on how to create a script using Skillable AI Co
 isPublished: true
 ---
 
- Script Library AI Copilot
+# Script Library AI Copilot
 
 Here’s a simplified guide on how to create a script using Skillable AI Copilot to add scripts to your Automated Activities utilizing AI.
 
