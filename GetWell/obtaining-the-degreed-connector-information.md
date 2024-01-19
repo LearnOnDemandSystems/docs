@@ -1,7 +1,7 @@
 ---
 title: "Obtaining the Degreed Connector Information"
 description: "Obtain the required customer information from Degreed to configure the Degreed Connector between Degreed and Skillable."
-isPublished: true
+isPublished: false
 ---
 
 The Degreed Connector has been developed as a tightly coupled integration between the Degreed platform and Skillable Labs. This custom connector allows Degreed customers to be easily configured to receive a daily catalog of updated labs that is used to automatically create and maintain courses on the Degreed platform. It also allows Degreed customer's users to launch labs directly from courses and receive basic completion records. This article will outline the specific information required to fully configure the Degreed Connector.
