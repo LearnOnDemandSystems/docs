@@ -4,7 +4,7 @@
 
 <div class="categories">
   <!-- Begin featured posts section.. 
-        Max of 3 items - replace href (link), text in categoryTitleFeatured, text in categoryDescription
+        Max of 3 items - replace href (link), text in categoryTitleFeatured, text in category Description
   -->
   <div class="categoriesHeader" tabindex="0" title="Featured">Featured</div>
   <div class="cardContainerFull">
