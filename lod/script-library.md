@@ -40,9 +40,9 @@ Scripts from the Script Library can be added to an existing or new ABA.
 5. Select **Edit** next to the Automated Activity you wish to add a script to.
 6. Select **New Script**.
 7. Select **Choose from Script Library**.
-   :::(Info) (Script Template auto filter)
-   When choosing a Script Template from within an ABA the Script Library Template list will be auto filtered with the use of **Scoring**.
-   :::
+
+>[!KNOWLEDGE] When choosing a Script Template from within an ABA the Script Library Template list >will be auto filtered with the use of **Scoring**.
+
 8. Select the row of the script template you wish to add.
 9. Select **OK**. The script you selected should be inserted into the ABA script section.
 
@@ -65,13 +65,13 @@ Scripts from the Script Library can be added to Life Cycle Actions.
 4. Select **+Add Life Cycle Action**.
 5. Ensure that the Action drop-down menu is set to Execute Script in Virtual Machine, Execute Script in Container, Execute Script in Cloud Platform, or Execute Custom Script. (the option that will be selected will depend on the resources available in your lab profile.)
 6. Select **Choose from Script Library**.
-   :::(Info) (Script Library Template list)
-   When choosing a Script Template from within a LCA the Script Library Template list will be  based available on the following:
-   - **Life Cycle Action (Creation/Configuration)**
-      - Event is one of (Pre-Build, Post-Build, First Displayable, Saving, Saved, Resuming, Resumed)
-   - **Life Cycle Action (Teardown/Cleanup)**
-      - Event is one of (Scoring, Scored, Tearing Down, Torn Down)
-   :::
+
+>[!KNOWLEDGE] When choosing a Script Template from within a LCA the Script Library Template list will be  based available on the following:
+>   - **Life Cycle Action (Creation/Configuration)**
+>      - Event is one of (Pre-Build, Post-Build, First Displayable, Saving, Saved, Resuming, Resumed)
+>   - **Life Cycle Action (Teardown/Cleanup)**
+>      - Event is one of (Scoring, Scored, Tearing Down, Torn Down)
+
 7. Select the row of the script template you wish to add.
 8. Select **OK**. The script you selected should be inserted into the LCA script editor.
 
@@ -84,22 +84,22 @@ Managing scripts templates in the Script Library depends on your user account ha
 3. Enter any search criteria to locate the script template you wish to manage, or search without any search criteria to return a list of scripts that are available to the organizations that you manage.
 4. Select any script template to open the Edit Script Template form.
 5. Edit the Name, Description, Primary use, Keyboards, Target, Language, Language version, Script content and How to Use this Script.
-   :::(Info) (How to Use this Script)
-   This field supports Markdown and it is best to utilize this field to put properly formatted information to instruct Lab Builders how to use this script properly.
-   :::
+
+>[!KNOWLEDGE] This field supports Markdown and it is best to utilize this field to put properly formatted information to instruct Lab Builders how to use this script properly.
+
 6. Once all editing is complete select **SAVE SCRIPT TEMPLATE**.
 
 ### Creating a Script Template
 1. Navigate to the Admin page of Skillable Studio.
 2. Select **Create Script Template**.
 3. Edit the Name, Description, Primary use, Keyboards, Target, Language, Language version, Script content and How to Use this Script.
-   :::(Info) (Organization field)
-   The Organization field will be auto populated with the users default managed organization.  If the user manages multiple organizations then the drop down will present all of the available managed organizations the user has access to.
-   :::
-5. Once all editing is complete select **CREATE SCRIPT TEMPLATE**.
-    :::(Warning) (Enabling Script Templates)
-    There may be times where a Script Template may need to be disabled.  This is done by selecting the  Enabled slider.  Be careful, once the Script Template is disabled it will no longer be a candidate to be    added to an ABA or LCA until this Script Template is re-enabled.
-    :::
+
+>[!KNOWLEDGE] The Organization field will be auto populated with the users default managed organization.  If the user manages multiple organizations then the drop down will present all of the available managed organizations the user has access to.
+
+4. Once all editing is complete select **CREATE SCRIPT TEMPLATE**.
+
+>[!WARNING] There may be times where a Script Template may need to be disabled.  This is done by selecting the  Enabled slider.  Be careful, once the Script Template is disabled it will no longer be a candidate to be    added to an ABA or LCA until this Script Template is re-enabled.
+
 
 ## Publishing a script created from scratch to the Script Template
 If the user has the appropriate permissions they are able to publish a saved script within an ABA Automated Activity or LCA to the Script Library as a Template.  This script in one that would have been created from scratch.
@@ -112,13 +112,12 @@ If the user has the appropriate permissions they are able to publish a saved scr
 5. Select **Edit** next to the Automated Activity you wish to publish a script from.
 6. Select the **Publish** icon.
 7. Edit the Name, Description, Primary use, Keyboards, Target, Language, Language version, Script content and How to Use this Script.
-   :::(Info) (How to Use this Script)
-   This field supports Markdown and it is best to utilize this field to put properly formatted information to instruct Lab Builders how to use this script properly.
-   :::
+
+>[!KNOWLEDGE] This field supports Markdown and it is best to utilize this field to put properly formatted information to instruct Lab Builders how to use this script properly.
+
 8. Once all editing is complete select **CREATE SCRIPT TEMPLATE**.
-    :::(Info) (How to Cancel saving a Script Template)
-    If you are on the **Create Script Template** form, closing the Tab will cancel the save action and      no Script Template will be saved.
-    :::
+
+>[!KNOWLEDGE] If you are on the **Create Script Template** form, closing the Tab will cancel the save action and no Script Template will be saved.
 
 ### Publish script from a Life Cycle Action
 1. Navigate to the Lab Profile you wish to publish a script to the Script Library from a Life Cycle Action.
