@@ -10,10 +10,10 @@
   <div class="cardContainerFull">
     <div class="cardContent">
       <div class="category">
-        <a href="https://www.skillable.com/simplified-developer-experience/" class="categoryThread">
+        <a href="/lod/script-library-getting-started.md" class="categoryThread">
           <i class="material-icons light-green" aria-hidden="true">bookmarks</i>
-          <span class="categoryTitleFeatured" title="Simplified Developer Experience">Simplified Developer Experience</span>
-          <span class="categoryDescription" title="Introducing the User Dashboard and Template Gallery.">Introducing the User Dashboard and Template Gallery.</span>
+          <span class="categoryTitleFeatured" title="Getting Started with Script Library">Getting Started with Script Library</span>
+          <span class="categoryDescription" title="Quick start guide for getting started with Script Library.">Quick start guide for getting started with Script Library.</span>
         </a>
       </div>
         <div class="category">
