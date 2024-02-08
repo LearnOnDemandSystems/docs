@@ -10,7 +10,7 @@ Below is a list of Amazon Web Services (AWS) APIs. Each service name has a link 
 
 If you need support for an AWS service that is not listed as supported, please submit a detailed request [here](https://feedback.skillable.com/).
 
-|Service Name|Service Prefix|supported|Considerations|
+|Service Name|Service Prefix|Supported|Considerations|
 |:---|:---|:---|:---|
 |[Alexa for Business](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_alexaforbusiness.html)|A4B|supported||
 |[Amazon API Gateway](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonapigateway.html)|execute-api|supported||
@@ -75,86 +75,86 @@ If you need support for an AWS service that is not listed as supported, please s
 |[Target Groups](https://docs.aws.amazon.com/elasticloadbalancing/latest/network/load-balancer-target-groups.html)|N/A|supported||
 |[Tag Editor](https://docs.aws.amazon.com/ARG/latest/userguide/tag-editor.html)|N/A|supported||
 |[Virtual Private Cloud](https://aws.amazon.com/vpc/?hp=tile&so-exp=below)|ec2|supported||
-|[Amazon AppStream 2.0](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonappstream2.0.html)|appstream|Not supported||
-|[Amazon Chime](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonchime.html)|chime|Not supported||
-|[Amazon Cognito Identity](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncognitoidentity.html)|cognito-identity|Not supported||
-|[Amazon Cognito Sync](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncognitosync.html)|cognito-sync|Not supported||
-|[Amazon Comprehend](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncomprehend.html)|comprehend|Not supported||
-|[Amazon Connect](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonconnect.html)|connect|Not supported||
-|[Amazon Elastic MapReduce](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonelasticmapreduce.html)|elasticmapreduce|Not supported||
-|[Amazon Elastic Transcoder](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonelastictranscoder.html)|elastictranscoder|Not supported||
-|[Amazon ElastiCache](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonelastictranscoder.html)|elasticache|Not supported||
-|[Amazon Elasticsearch Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonelasticsearchservice.html)|es|Not supported||
-|[Amazon FreeRTOS](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonfreertos.html)|freertos|Not supported||
-|[Amazon GameLift](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazongamelift.html)|gamelift|Not supported||
-|[Amazon Glacier](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonglacier.html)|glacier|Not supported||
-|[Amazon GuardDuty](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonguardduty.html)|guardduty|Not supported||
-|[Amazon Inspector](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoninspector.html)|inspector|Not supported||
-|[Amazon MQ](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonmq.html)|mq|Not supported||
-|[Amazon Neptune](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonneptune.html)|neptune-db|Not supported||
-|[Amazon Pinpoint](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonpinpoint.html)|mobiletargeting|Not supported||
-|[Amazon Polly](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonpolly.html)|polly|Not supported||
-|[Amazon Lex](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonlex.html)|lex|Not supported||
-|[Amazon Lightsail](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonlightsail.html)|lightsail|Not supported||
-|[Amazon Rekognition](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonrekognition.html)|rekognition|Not supported||
-|[Amazon Route 53 Auto Naming](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)|servicediscovery|Not supported||
-|[Amazon Route53 Domains](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonroute53domains.html)|route53domains|Not supported||
-|[Amazon SageMaker](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsagemaker.html)|sagemaker|Not supported||
-|[Amazon SES](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonses.html)|ses|Not supported||
-|[Amazon Simple Workflow Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsimpleworkflowservice.html)|swf|Not supported||
-|[Amazon Sumerian](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsumerian.html)|sumerian|Not supported||
-|[Amazon Transcribe](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazontranscribe.html)|transcribe|Not supported||
-|[Amazon Translate](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazontranslate.html)|translate|Not supported||
-|[Amazon WorkDocs](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonworkdocs.html)|workdocs|Not supported||
-|[Amazon WorkMail](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonworkmail.html)|workmail|Not supported||
-|[Amazon WorkSpaces](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonworkspaces.html)|workspaces|Not supported||
-|[Amazon WorkSpaces Application Manager](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonworkspacesapplicationmanager.html)|N/A|Not supported||
-|[AWS Artifact](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsartifact.html)|artifact|Not supported||
-|[AWS Budget Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsbudgetservice.html)|budgets|Not supported||
-|[AWS Certificate Manager](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscertificatemanager.html)|acm|Not supported||
-|[AWS Certificate Manager Private Certificate Authority](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscertificatemanagerprivatecertificateauthority.html)|acm-pca|Not supported||
-|[AWS CloudHSM](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscloudhsm.html)|cloudhsm|Not supported||
-|[AWS CodeBuild](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscodebuild.html)|codebuild|Not supported||
-|[AWS CodeCommit](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscodecommit.html)|codecommit|Not supported||
-|[AWS CodeDeploy](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscodedeploy.html)|codedeploy|Not supported||
-|[AWS CodePipeline](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscodepipeline.html)|codepipeline|Not supported||
-|[AWS Code Signing for Amazon FreeRTOS](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscodesigningforamazonfreertos.html)|signer|Not supported||
-|[AWS CodeStar](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscodestar.html)|codestar|Not supported||
-|[AWS Cost and Usage Report](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscostandusagereport.html)|cur|Not supported||
-|[AWS Cost Explorer Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscostexplorerservice.html)|N/A|Not supported||
-|[AWS Database Migration Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsdatabasemigrationservice.html)|dms|Not supported||
-|[AWS Device Farm](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsdevicefarm.html)|devicefarm|Not supported||
-|[AWS Direct Connect](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsdirectconnect.html)|directconnect|Not supported||
-|[AWS Directory Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsdirectoryservice.html)|ds|Not supported||
+|[Amazon AppStream 2.0](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonappstream2.0.html)|appstream|not supported||
+|[Amazon Chime](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonchime.html)|chime|not supported||
+|[Amazon Cognito Identity](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncognitoidentity.html)|cognito-identity|not supported||
+|[Amazon Cognito Sync](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncognitosync.html)|cognito-sync|not supported||
+|[Amazon Comprehend](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoncomprehend.html)|comprehend|not supported||
+|[Amazon Connect](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonconnect.html)|connect|not supported||
+|[Amazon Elastic MapReduce](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonelasticmapreduce.html)|elasticmapreduce|not supported||
+|[Amazon Elastic Transcoder](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonelastictranscoder.html)|elastictranscoder|not supported||
+|[Amazon ElastiCache](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonelastictranscoder.html)|elasticache|not supported||
+|[Amazon Elasticsearch Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonelasticsearchservice.html)|es|not supported||
+|[Amazon FreeRTOS](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonfreertos.html)|freertos|not supported||
+|[Amazon GameLift](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazongamelift.html)|gamelift|not supported||
+|[Amazon Glacier](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonglacier.html)|glacier|not supported||
+|[Amazon GuardDuty](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonguardduty.html)|guardduty|not supported||
+|[Amazon Inspector](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazoninspector.html)|inspector|not supported||
+|[Amazon MQ](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonmq.html)|mq|not supported||
+|[Amazon Neptune](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonneptune.html)|neptune-db|not supported||
+|[Amazon Pinpoint](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonpinpoint.html)|mobiletargeting|not supported||
+|[Amazon Polly](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonpolly.html)|polly|not supported||
+|[Amazon Lex](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonlex.html)|lex|not supported||
+|[Amazon Lightsail](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonlightsail.html)|lightsail|not supported||
+|[Amazon Rekognition](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonrekognition.html)|rekognition|not supported||
+|[Amazon Route 53 Auto Naming](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)|servicediscovery|not supported||
+|[Amazon Route53 Domains](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonroute53domains.html)|route53domains|not supported||
+|[Amazon SageMaker](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsagemaker.html)|sagemaker|not supported||
+|[Amazon SES](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonses.html)|ses|not supported||
+|[Amazon Simple Workflow Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsimpleworkflowservice.html)|swf|not supported||
+|[Amazon Sumerian](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonsumerian.html)|sumerian|not supported||
+|[Amazon Transcribe](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazontranscribe.html)|transcribe|not supported||
+|[Amazon Translate](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazontranslate.html)|translate|not supported||
+|[Amazon WorkDocs](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonworkdocs.html)|workdocs|not supported||
+|[Amazon WorkMail](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonworkmail.html)|workmail|not supported||
+|[Amazon WorkSpaces](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonworkspaces.html)|workspaces|not supported||
+|[Amazon WorkSpaces Application Manager](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonworkspacesapplicationmanager.html)|N/A|not supported||
+|[AWS Artifact](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsartifact.html)|artifact|not supported||
+|[AWS Budget Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsbudgetservice.html)|budgets|not supported||
+|[AWS Certificate Manager](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscertificatemanager.html)|acm|not supported||
+|[AWS Certificate Manager Private Certificate Authority](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscertificatemanagerprivatecertificateauthority.html)|acm-pca|not supported||
+|[AWS CloudHSM](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscloudhsm.html)|cloudhsm|not supported||
+|[AWS CodeBuild](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscodebuild.html)|codebuild|not supported||
+|[AWS CodeCommit](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscodecommit.html)|codecommit|not supported||
+|[AWS CodeDeploy](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscodedeploy.html)|codedeploy|not supported||
+|[AWS CodePipeline](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscodepipeline.html)|codepipeline|not supported||
+|[AWS Code Signing for Amazon FreeRTOS](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscodesigningforamazonfreertos.html)|signer|not supported||
+|[AWS CodeStar](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscodestar.html)|codestar|not supported||
+|[AWS Cost and Usage Report](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscostandusagereport.html)|cur|not supported||
+|[AWS Cost Explorer Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscostexplorerservice.html)|N/A|not supported||
+|[AWS Database Migration Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsdatabasemigrationservice.html)|dms|not supported||
+|[AWS Device Farm](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsdevicefarm.html)|devicefarm|not supported||
+|[AWS Direct Connect](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsdirectconnect.html)|directconnect|not supported||
+|[AWS Directory Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsdirectoryservice.html)|ds|not supported||
 |[AWS Elastic Beanstalk](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awselasticbeanstalk.html)|elasticbeanstalk|supported||
 |[AWS Elastic Container Service](https://docs.aws.amazon.com/AmazonECS/latest/developerguide/Welcome.html)|ecs|supported||
-|[AWS Elemental MediaConvert](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awselementalmediaconvert.html)|mediaconvert|Not supported||
-|[AWS Elemental MediaLive](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awselementalmedialive.html)|medialive|Not supported||
-|[AWS Elemental MediaPackage](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awselementalmediapackage.html)|mediapackage|Not supported||
-|[AWS Elemental MediaStore](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awselementalmediastore.html)|mediastore|Not supported||
-|[AWS Firewall Manager](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsfirewallmanager.html)|fms|Not supported||
+|[AWS Elemental MediaConvert](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awselementalmediaconvert.html)|mediaconvert|not supported||
+|[AWS Elemental MediaLive](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awselementalmedialive.html)|medialive|not supported||
+|[AWS Elemental MediaPackage](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awselementalmediapackage.html)|mediapackage|not supported||
+|[AWS Elemental MediaStore](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awselementalmediastore.html)|mediastore|not supported||
+|[AWS Firewall Manager](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsfirewallmanager.html)|fms|not supported||
 |[AWS Glue](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsglue.html)|glue|supported||
-|[AWS Greengrass](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsgreengrass.html)|greengrass|Not supported||
-|[AWS Import Export Disk Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsimportexportdiskservice.html)|importexport|Not supported||
-|[AWS IoT](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsiot.html)|iot|Not supported||
-|[AWS IoT 1-Click](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsiot1-click.html)|iot1click|Not supported||
-|[AWS Marketplace](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsmarketplace.html)|aws-marketplace-management|Not supported||
-|[AWS Marketplace Management Portal](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsmarketplacemanagementportal.html)|aws-marketplace|Not supported||
-|[AWS Marketplace Metering Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsmarketplacemeteringservice.html)|N/A|Not supported||
-|[AWS Migration Hub](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsmigrationhub.html)|N/A|Not supported||
-|[AWS Mobile Hub](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsmobilehub.html)|N/A|Not supported||
-|[AWS Organizations](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsorganizations.html)|N/A|Not supported||
-|[AWS Performance Insights](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsperformanceinsights.html)|pi|Not supported||
-|[AWS Price List](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awspricelist.html)|pricing|Not supported||
-|[AWS Security Token Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awssecuritytokenservice.html)|sts|Not supported||
-|[AWS Serverless Application Repository](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsserverlessapplicationrepository.html)|serverlessrepo|Not supported||
-|[AWS Service Catalog](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsservicecatalog.html)|servicecatalog|Not supported||
-|[AWS Shield](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsshield.html)|shield|Not supported||
-|[Amazon Storage Gateway](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonstoragegateway.html)|storagegateway|Not supported||
-|[AWS Support](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awssupport.html)|support|Not supported||
-|[AWS Trusted Advisor](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awstrustedadvisor.html)|trustedadvisor|Not supported||
-|[AWS XRay](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsxray.html)|xray|Not supported||
-|[Auto Scaling](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsautoscaling.html)|autoscaling|Not supported||
-|[Data Pipeline](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_datapipeline.html)|datapipeline|Not supported||
-|[Single Sign-On](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)|sso|Not supported||
-|[TensorFlow on AWS](https://aws.amazon.com/tensorflow/?nc2=h_m1)|N/A|Not supported||
+|[AWS Greengrass](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsgreengrass.html)|greengrass|not supported||
+|[AWS Import Export Disk Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsimportexportdiskservice.html)|importexport|not supported||
+|[AWS IoT](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsiot.html)|iot|not supported||
+|[AWS IoT 1-Click](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsiot1-click.html)|iot1click|not supported||
+|[AWS Marketplace](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsmarketplace.html)|aws-marketplace-management|not supported||
+|[AWS Marketplace Management Portal](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsmarketplacemanagementportal.html)|aws-marketplace|not supported||
+|[AWS Marketplace Metering Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsmarketplacemeteringservice.html)|N/A|not supported||
+|[AWS Migration Hub](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsmigrationhub.html)|N/A|not supported||
+|[AWS Mobile Hub](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsmobilehub.html)|N/A|not supported||
+|[AWS Organizations](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsorganizations.html)|N/A|not supported||
+|[AWS Performance Insights](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsperformanceinsights.html)|pi|not supported||
+|[AWS Price List](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awspricelist.html)|pricing|not supported||
+|[AWS Security Token Service](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awssecuritytokenservice.html)|sts|not supported||
+|[AWS Serverless Application Repository](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsserverlessapplicationrepository.html)|serverlessrepo|not supported||
+|[AWS Service Catalog](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsservicecatalog.html)|servicecatalog|not supported||
+|[AWS Shield](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsshield.html)|shield|not supported||
+|[Amazon Storage Gateway](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_amazonstoragegateway.html)|storagegateway|not supported||
+|[AWS Support](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awssupport.html)|support|not supported||
+|[AWS Trusted Advisor](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awstrustedadvisor.html)|trustedadvisor|not supported||
+|[AWS XRay](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsxray.html)|xray|not supported||
+|[Auto Scaling](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awsautoscaling.html)|autoscaling|not supported||
+|[Data Pipeline](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_datapipeline.html)|datapipeline|not supported||
+|[Single Sign-On](https://docs.aws.amazon.com/IAM/latest/UserGuide/introduction.html)|sso|not supported||
+|[TensorFlow on AWS](https://aws.amazon.com/tensorflow/?nc2=h_m1)|N/A|not supported||
