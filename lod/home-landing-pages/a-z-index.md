@@ -310,9 +310,13 @@
         <div class="subtopic_description">Lab Instance Transfer allows a running lab to transferred to another user account. </div>
       </a>   
       <a class="subtopic_link" href="/lod/lab-interface.md">
-        <div class="subtopic_title">Lab Interface Explanation</div>
-        <div class="subtopic_description">Explanation of all lab interface buttons and menus.</div>
+        <div class="subtopic_title">Lab Interface (legacy))</div>
+        <div class="subtopic_description">Explanation of all lab interface (legacy) buttons and menus.</div>
       </a>
+      <a class="subtopic_link" href="/lod/lab-client-v2.md">
+        <div class="subtopic_title">Lab Interface V2</div>
+        <div class="subtopic_description">Explanation of all lab interface V2 buttons and menus.</div>
+      </a>      
         <a class="subtopic_link" href="/lod/lab-interface-faq.md">
         <div class="subtopic_title">Lab Interface Frequently Asked Questions</div>
         <div class="subtopic_description">Frequently asked questions about the Skillable Studio lab interface.</div>
