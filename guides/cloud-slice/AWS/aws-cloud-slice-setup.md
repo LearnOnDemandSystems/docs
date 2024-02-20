@@ -30,19 +30,19 @@ To enable Cloud Slice support, you must perform the following tasks once in each
 
 1. If you already have an AWS account, enter your **credentials**. If you do not have an account, click **Create a new AWS account**. 
 
-1. Go to **My Organization** by clicking on your username in the upper-right corner.
+1. Go to **Organization** by clicking on your username in the upper-right corner.
 
-    ![](../images/aws-my-organization.png)
+    ![](../images/aws-organization.png)
 
 1. Click **Create Organization** and create an organization. 
 
-1. Once the organization is set up click on **Organize Accounts** tab at the top of the page.
+1. Once the organization is set up click on the **Policies** tab at the top of the page.
 
-1. Click the checkbox next to **Root** in the center of the screen. 
+1. Click the **Service control policies** option.
 
-    ![](../images/aws-root.png)
+    ![](../images/aws-service-control-policy.png)
 
-1. On the right side of the page, click **Enable** next to _Service control policies_. 
+1. Click the button to  **Enable service control policies**.
 
 ### IAM User Creation 
 
@@ -54,23 +54,19 @@ To enable Cloud Slice support, you must perform the following tasks once in each
 
 1. Click **IAM**.
 
-1. Click **User** on the left side of the page. 
+1. Click **Users** on the left side of the page. 
 
-1. Click **Add User**. 
+1. Click **Create user**. 
 
 1. Enter a name for the user. I.E. _SkillableStudioAPI_. The naming doesn't really matter, as long as the lab author will recognize it later. 
-
-1. Next, select **programmatic  Access**. This enables an access key ID and secret access key for the AWS API, CLI, SDK, and other development tools. 
-
-    ![](../images/aws-access-type.png)
     
 1. Click **Next: permissions**. 
 
-1. Under Set Permissions, select **Attach existing policies directly**. 
+1. Under Set Permissions, select **Attach policies directly**. 
 
 1. In the _Filter Policies_ field, search for **Org**.
 
-1. Click the checkbox to select **AWSOrganizationsFullAccess**. AWSOrganizationsFullAccessbe being assigned is required, so that the Skillable Studio service account can manage the organization created in previous steps. 
+1. Click the checkbox to select **AWSOrganizationsFullAccess**. AWSOrganizationsFullAccess being assigned is required, so that the Skillable Studio service account can manage the organization created in previous steps. 
 
     ![](../images/aws-organizationfullaccess.png)
 
@@ -88,33 +84,45 @@ To enable Cloud Slice support, you must perform the following tasks once in each
 
     ![](../images/aws-create-user.png)
 
->[!alert] Record your access key ID and secret access key in a secure location. Once this page is closed, you will not be able to obtain this information again. If it is lost, the access key must be recreated from the user account settings. 
+1. Click the User name of the user we just created.
+
+1. Click on the **Security credentials** tab. Scroll down to the **Access keys** section and click **Create access key**.
+
+    ![](../images/aws-create-access-key.png)
+
+1. Select the **Third-party service** option and then check the confirmation box.
+
+1. If desired, add an optional description to the key and then proceed to the next page.
+
+>[!alert] Record your **Access key** and **Secret access key** in a secure location. Once this page is closed, you will not be able to obtain this information again. If it is lost, the access key must be recreated from the user account settings. 
 
 ### Increase Maximum Amount of Accounts
 
 Next, we need to increase the maximum amount of accounts that can be created. If you expect 20 lab users, you will need 20 accounts. It is a good idea to increase this amount to allow more accounts than needed, to ensure future events will be supported, or if more lab users join the event. A new ticket with AWS will need to be created each time this needs increased. 
 
->[!Knowledge] Over 1500 accounts requires additional correspondence on the ticket from AWS. They may want justification or more information about why so many accounts are needed.
+>[!Knowledge] As of this writing, only 10 total accounts can exist within an AWS Organization by default. This includes the management account and then 9 member accounts.
 
 To increase the maximum amount of accounts that can be created:
 
-1. Click **Support** in the upper-right corner of the page. 
+1. Click the **question mark** in the upper-right corner of the page. 
 
 1. Click **Support Center**. 
 
-    ![](../images/aws-support-center.png)
+    ![](../images/aws-support-link.png)
 
 1. Click **Create Case**. 
 
     ![](../images/create-case.png)
 
-1. Click **Service Limit Increase**. 
+1. Click **"Looking for service quota increases?"**.
 
-1. Under Case Classification; Limit Type, select **Organization**
+    ![](../images/aws-quota-link.png)
+
+1. Under Service, select **Organizations**
 
     ![](../images/case-classification-organizations.png)
 
-1. Under Requests; Limit, select **Number of accounts**. 
+1. Under Requests; Quota, select **Number of accounts**. 
 
     ![](../images/requests-number-of-accounts.png)
 
