@@ -11,10 +11,6 @@ The site management feature empowers you to manage your organization's site sett
 * [Basic Information tab settings](#basic-information-tab-settings)
 * [Custom CSS tab](#custom-css-tab)
 * [Custom Script tab](#custom-script-tab)
-* [Login Page Options tab settings](#login-page-options-tab-settings)
-* [Top Navigation Menu tab](#top-navigation-menu-tab)
-* [Contact HTML tab](#contact-html-tab)
-* [Footer HTML tab](#footer-html-tab)
 
 ## Basic Information tab settings
 
