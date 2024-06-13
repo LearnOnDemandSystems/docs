@@ -1,6 +1,7 @@
-## One documentation repository to rule them all.
 
-If you would like to _contribute_ to this documentation, you are in the right place..
 
-If instead you would like to _learn_ how to use Skillable Studio or our Training Management System, log on to [docs.skillable.com](https://docs.skillable.com).
+## This repository is archived 
 
+Skillable documentation is managed at [docs.skillable.com](https://docs.skillable.com).
+
+If you would like to contribute to any Skilable documentation, select the feedback option at the bottom of any document and enter your contribution. 
